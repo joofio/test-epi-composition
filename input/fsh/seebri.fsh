@@ -1,0 +1,586 @@
+
+
+Instance: composition-en-5aaf1ff9ad4c7cb420e93974915ff219
+InstanceOf: CompositionUvEpi
+Title: "Composition for seebri Package Leaflet"
+Description:  "Composition for seebri Package Leaflet"
+Usage: #inline
+
+* identifier.system = ""
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mock)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - seebri"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #en
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+ 
+1. What Seebri Breezhaler is and what it is used for 
+2. What you need to know before you use Seebri Breezhaler 
+3. How to use Seebri Breezhaler 
+4. Possible side effects 
+5. How to store Seebri Breezhaler 
+6. Contents of the pack and other information 
+         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What seebri is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What seebri is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Seebri Breezhaler is 
+This medicine contains an active substance called glycopyrronium bromide. This belongs to a group of 
+medicines called bronchodilators. </p>
+<p>What Seebri Breezhaler is used for 
+This medicine is used to make breathing easier for adult patients who have breathing difficulties due to 
+a lung disease called chronic obstructive pulmonary disease (COPD). </p>
+<p>In COPD the muscles around the airways tighten. This makes breathing difficult. This medicine blocks 
+the tightening of these muscles in the lungs, making it easier for air to get in and out of the lungs. </p>
+<p>If you use this medicine once a day, it will help to reduce the effects of COPD on your everyday life. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take seebri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take seebri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Seebri Breezhaler 
+- if you are allergic to glycopyrronium bromide or any of the other ingredients of this medicine 
+(listed in section 6). </p>
+<p>Warnings and precautions 
+Talk to your doctor before using Seebri Breezhaler, if any of the following applies to you: 
+- you have kidney problems. 
+- you have an eye problem called narrow-angle glaucoma. 
+- you have difficulty passing urine. </p>
+<p>During treatment with Seebri Breezhaler, stop taking this medicine and tell your doctor 
+immediately: 
+- if you experience tightness of the chest, coughing, wheezing or breathlessness immediately after 
+using Seebri Breezhaler (signs of bronchospasm). 
+- if you experience difficulties in breathing or swallowing, swelling of the tongue, lips or face, 
+skin rash, itching and hives (signs of allergic reaction). 
+- if you experience eye pain or discomfort, temporary blurring of vision, visual halos or coloured 
+images in association with red eyes. These may be signs of an acute attack of narrow-angle 
+glaucoma. </p>
+<p>Seebri Breezhaler is used as a maintenance treatment for your COPD. Do not use this medicine to treat 
+a sudden attack of breathlessness or wheezing. </p>
+<p>Children and adolescents 
+Do not give this medicine to children or adolescents below the age of 18 years. </p>
+<p>Other medicines and Seebri Breezhaler 
+Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
+medicines. This includes medicines similar to Seebri Breezhaler used for your lung disease, such as 
+ipratropium, oxitropium or tiotropium (so called anticholinergics). </p>
+<p>No specific side effects have been reported when Seebri Breezhaler has been used together with other 
+medicines used to treat COPD such as reliever inhalers (e.g. salbutamol), methylxanthines (e.g. 
+theophylline) and/or oral and inhaled steroids (e.g. prednisolone). </p>
+<p>Pregnancy, breast-feeding and fertility 
+If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
+your doctor or pharmacist for advice before taking this medicine. </p>
+<p>There are no data from the use of this medicine in pregnant women and it is not known whether the 
+active substance of this medicine passes into human milk. </p>
+<p>Driving and using machines 
+It is unlikely that this medicine will affect your ability to drive and use machines. </p>
+<p>Seebri Breezhaler contains lactose 
+This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
+some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take seebri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take seebri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
+or pharmacist if you are not sure. </p>
+<p>How much Seebri Breezhaler to use 
+The usual dose is to inhale the content of one capsule each day. 
+You only need to inhale once a day because the effect of this medicine lasts for 24 hours. 
+Do not use more than your doctor tells you to use. </p>
+<p>Elderly people 
+You can use this medicine if you are aged 75 years and over at the same dose as for other adults. </p>
+<p>When to inhale Seebri Breezhaler 
+Use this medicine at the same time each day. This will also help you to remember to use it. </p>
+<p>You can inhale this medicine any time before or after food or drink. </p>
+<p>How to inhale Seebri Breezhaler 
+- In this pack, you will find an inhaler and capsules (in blisters) that contain the medicine as 
+inhalation powder. Only use the capsules with the inhaler provided in this pack (Seebri 
+Breezhaler inhaler). The capsules should remain in the blister until you need to use them. 
+- Do not push the capsule through the foil. 
+- When you start a new pack, use the new Seebri Breezhaler inhaler that is supplied in the pack. 
+- Dispose of each inhaler after after all capsules in that pack have been used. 
+- Do not swallow the capsules. 
+- Please read the instructions at the end of this leaflet for more information on how to use the 
+inhaler. </p>
+<p>If you use more Seebri Breezhaler than you should 
+If you have inhaled too much of this medicine or if someone else accidentally uses your capsules, you 
+must immediately either tell your doctor or go to the nearest emergency unit. Show the pack of Seebri 
+Breezhaler. Medical attention may be needed. </p>
+<p>If you forget to use Seebri Breezhaler 
+If you forget to inhale a dose, take one as soon as possible. However, do not take two doses on the 
+same day. Then take the next dose as usual. </p>
+<p>How long to continue your treatment with Seebri Breezhaler 
+- Keep using this medicine for as long as your doctor tells you. 
+- COPD is a long-term disease and you should use this medicine every day and not only when 
+you have breathing problems or other symptoms of COPD. 
+If you have questions about how long to continue your treatment with this medicine, talk to your 
+doctor or pharmacist. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Some side effects may be serious but are uncommon 
+(may affect up to 1 in 100 people) 
+ 
+Irregular heart beat 
+ 
+High level of blood sugar (hyperglycaemia: typical symptoms include excessive thirst or hunger 
+and frequent urination) 
+ 
+Rash, itching, hives, difficulty breathing or swallowing, dizziness (possible signs of allergic 
+reaction) 
+ 
+Swelling mainly of the tongue, lips, face or throat (possible signs of angioedema) 
+If you get any of these side effects, tell your doctor immediately. </p>
+<p>Some side effects may be serious, but the frequency of these side effects is not known 
+(frequency cannot be estimated from the available data) 
+ 
+Difficulty breathing with wheezing or coughing (signs of paradoxical bronchospasm) </p>
+<p>Some side effects are common 
+(may affect up to 1 in 10 people) 
+ 
+Dry mouth 
+ 
+Difficulty sleeping 
+ 
+Runny or stuffy nose, sneezing, sore throat 
+ 
+Diarrhoea or stomach ache 
+ 
+Musculoskeletal pain </p>
+<p>Some side effects are uncommon 
+(may affect up to 1 in 100 people) 
+ 
+Difficulty and pain when passing urine 
+ 
+Painful and frequent urination 
+ 
+Palpitations 
+ 
+Rash 
+ 
+Numbness 
+ 
+Cough with sputum 
+ 
+Dental caries 
+ 
+Feeling of pressure or pain in the cheeks and forehead 
+ 
+Nose bleeds 
+ 
+Pain in arms or legs 
+ 
+Pain in muscles, bones or joints of the chest 
+ 
+Stomach discomfort after meals 
+ 
+Throat irritation 
+ 
+Tiredness 
+ 
+Weakness 
+ 
+Itching 
+ 
+Voice alteration (hoarseness) 
+ 
+Nausea 
+ 
+Vomiting </p>
+<p>Some elderly patients above 75 years of age experienced headache (frequency common) and urinary 
+tract infection (frequency common). </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store seebri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store seebri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 25°C. </p>
+<p>Store the capsules in the original blister in order to protect from moisture. Do not remove from the 
+blister until immediately before use. </p>
+<p>The inhaler in each pack should be disposed of after all capsules in that pack have been used. </p>
+<p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Seebri Breezhaler contains 
+- The active substance is glycopyrronium bromide. Each capsule contains 63 micrograms of 
+glycopyrronium bromide (equivalent to 50 micrograms glycopyrronium). The delivered dose 
+(the dose that leaves the mouthpiece of the inhaler) is equivalent to 44 micrograms of 
+glycopyrronium. 
+- The other ingredients of the inhalation powder are lactose monohydrate and magnesium 
+stearate. </p>
+<p>What Seebri Breezhaler looks like and contents of the pack 
+Seebri Breezhaler 44 micrograms inhalation powder, hard capsules are transparent and orange and 
+contain a white powder. They have the product code “GPL50” printed in black above and a company 
+logo (
+) printed in black below a black bar. </p>
+<p>Each pack contains a device called an inhaler, together with capsules in blisters. Each blister strip 
+contains either 6 or 10 hard capsules. </p>
+<p>The following pack sizes are available: 
+Packs containing 6x1, 10x1, 12x1 or 30x1 hard capsules, together with one inhaler. </p>
+<p>Multipacks containing 90 (3 packs of 30x1) hard capsules and 3 inhalers. 
+Multipacks containing 96 (4 packs of 24x1) hard capsules and 4 inhalers. 
+Multipacks containing 150 (15 packs of 10x1) hard capsules and 15 inhalers. 
+Multipacks containing 150 (25 packs of 6x1) hard capsules and 25 inhalers. </p>
+<p>Not all pack sizes may be available in your country. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu </p>
+<p>Instructions for use of Seebri Breezhaler inhaler </p>
+<p>Please read the full Instructions for Use before using the Seebri Breezhaler. </p>
+<p>Insert 
+Pierce and release 
+Inhale deeply 
+Check capsule is empty </p>
+<p>Step 1a: 
+Pull off cap 
+Step 2a: 
+Pierce capsule once 
+Hold the inhaler upright. 
+Pierce capsule by firmly 
+pressing both side 
+buttons at the same time. 
+Step 3a: 
+Breathe out fully 
+Do not blow into the 
+inhaler. 
+Check capsule is empty 
+Open the inhaler to see if 
+any powder is left in the 
+capsule. </p>
+<p>You should hear a noise 
+as the capsule is pierced. 
+Only pierce the capsule 
+once. </p>
+<p>If there is powder left in 
+the capsule: 
+ 
+Close the inhaler. 
+ 
+Repeat steps 3a to 3c. 
+Step 1b: 
+Open inhaler </p>
+<p>Step 2b: 
+Release side buttons 
+Step 3b: 
+Inhale medicine deeply 
+Hold the inhaler as 
+shown in the picture. 
+Place the mouthpiece in 
+your mouth and close 
+your lips firmly around 
+it. 
+Do not press the side 
+buttons. </p>
+<p>Powder 
+Empty 
+remaining 
+1 </p>
+<p>2 </p>
+<p>3 </p>
+<p>Check </p>
+<p>Breathe in quickly and as 
+deeply as you can. 
+During inhalation you 
+will hear a whirring 
+noise. 
+You may taste the 
+medicine as you inhale. </p>
+<p>Step 1c: 
+Remove capsule 
+Separate one of the 
+blisters from the blister 
+card. 
+Peel open the blister and 
+remove the capsule. 
+Do not push the capsule 
+through the foil. 
+Do not swallow the 
+capsule. </p>
+<p>Step 3c: 
+Hold breath 
+Hold your breath for up 
+to 5 seconds. 
+Remove empty capsule 
+Put the empty capsule in 
+your household waste. 
+Close the inhaler and 
+replace the cap. </p>
+<p>Step 1d: 
+Insert capsule 
+Never place a capsule 
+directly into the 
+mouthpiece. </p>
+<p>Important Information 
+ Seebri Breezhaler 
+capsules must always be 
+stored in the blister card 
+and only removed 
+immediately before use. 
+ Do not push the capsule 
+through the foil to 
+remove it from the 
+blister. 
+ Do not swallow the 
+capsule. 
+ Do not use the Seebri 
+Breezhaler capsules with 
+any other inhaler. 
+ Do not use the Seebri 
+Breezhaler inhaler to 
+take any other capsule 
+medicine. 
+ Never place the capsule 
+into your mouth or the 
+mouthpiece of the 
+inhaler. 
+ Do not press the side 
+buttons more than once. 
+ Do not blow into the 
+mouthpiece. 
+ Do not press the side 
+buttons while inhaling 
+through the mouthpiece. 
+ Do not handle capsules 
+with wet hands. 
+ Never wash your inhaler 
+with water. </p>
+<p>Step 1e: 
+Close inhaler </p>
+<p>Your Seebri Breezhaler Inhaler pack contains: 
+ One Seebri Breezhaler inhaler 
+ One or more blister cards, each containing either 
+6 or 10 Seebri Breezhaler capsules to be used in 
+the inhaler </p>
+<p>Frequently Asked 
+Questions </p>
+<p>Why didn’t the inhaler 
+make a noise when I 
+inhaled? 
+The capsule may be stuck 
+in the capsule chamber. If 
+this happens, carefully 
+loosen the capsule by 
+tapping the base of the 
+inhaler. Inhale the 
+medicine again by 
+repeating steps 3a to 3c. </p>
+<p>What should I do if there 
+is powder left inside the 
+capsule? 
+You have not received 
+enough of your medicine. 
+Close the inhaler and 
+repeat steps 3a to 3c. </p>
+<p>I coughed after inhaling 
+– does this matter? 
+This may happen. As long 
+as the capsule is empty 
+you have received enough 
+of your medicine. </p>
+<p>I felt small pieces of the 
+capsule on my tongue – 
+does this matter? 
+This can happen. It is not 
+harmful. The chances of 
+the capsule breaking into 
+small pieces will be 
+increased if the capsule is 
+pierced more than once. 
+Cleaning the inhaler 
+Wipe the mouthpiece 
+inside and outside with a 
+clean, dry, lint-free cloth to 
+remove any powder 
+residue. Keep the inhaler 
+dry. Never wash your 
+inhaler with water. 
+Disposing of the inhaler 
+after use 
+Each inhaler should be 
+disposed of after all 
+capsules have been used. 
+Ask your pharmacist how 
+to dispose of medicines 
+and inhalers that are no 
+longer required. </p>
+<p>Blister Card 
+Blister 
+Inhaler base 
+Inhaler 
+Base 
+Cap 
+Side 
+buttons 
+Capsule 
+chamber 
+Mouthpiece 
+Screen </p>         </div>"""      
+
