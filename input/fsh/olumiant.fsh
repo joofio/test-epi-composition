@@ -4,7 +4,7 @@ Instance: composition-en-e9af86ad22ac9c13e3208cd0b150b229
 InstanceOf: CompositionUvEpi
 Title: "Composition for olumiant Package Leaflet"
 Description:  "Composition for olumiant Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

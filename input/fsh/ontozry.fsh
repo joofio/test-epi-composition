@@ -4,7 +4,7 @@ Instance: composition-en-fca2b0949c2af4853c1cd5b425813585
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontozry Package Leaflet"
 Description:  "Composition for ontozry Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

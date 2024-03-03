@@ -4,7 +4,7 @@ Instance: composition-en-2c591e8db8f43437448245621750c7d7
 InstanceOf: CompositionUvEpi
 Title: "Composition for javlor Package Leaflet"
 Description:  "Composition for javlor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

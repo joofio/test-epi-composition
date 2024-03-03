@@ -4,7 +4,7 @@ Instance: composition-en-82dac534047be68236ec1ddc88731f1c
 InstanceOf: CompositionUvEpi
 Title: "Composition for zevalin Package Leaflet"
 Description:  "Composition for zevalin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

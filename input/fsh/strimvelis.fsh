@@ -4,7 +4,7 @@ Instance: composition-en-ffc23a76b4090b54b8bc958f8ff82cb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for strimvelis Package Leaflet"
 Description:  "Composition for strimvelis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

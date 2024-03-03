@@ -4,7 +4,7 @@ Instance: composition-en-fdade26d2e49f9f833623b98f6aac167
 InstanceOf: CompositionUvEpi
 Title: "Composition for pylobactell Package Leaflet"
 Description:  "Composition for pylobactell Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

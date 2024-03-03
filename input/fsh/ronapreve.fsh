@@ -4,7 +4,7 @@ Instance: composition-en-0d50af8d664b571d625f5732b765b8b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ronapreve Package Leaflet"
 Description:  "Composition for ronapreve Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

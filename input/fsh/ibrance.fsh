@@ -4,7 +4,7 @@ Instance: composition-en-c81102ba15ecf1ae72d97505f0c21e9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibrance Package Leaflet"
 Description:  "Composition for ibrance Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

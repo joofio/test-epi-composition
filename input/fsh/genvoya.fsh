@@ -4,7 +4,7 @@ Instance: composition-en-9e5179bf4e803289b510a39f498792d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for genvoya Package Leaflet"
 Description:  "Composition for genvoya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

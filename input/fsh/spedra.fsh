@@ -4,7 +4,7 @@ Instance: composition-en-67eb9f5d8991acd60b19f2204c2773c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for spedra Package Leaflet"
 Description:  "Composition for spedra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

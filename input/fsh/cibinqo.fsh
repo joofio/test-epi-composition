@@ -4,7 +4,7 @@ Instance: composition-en-7ced1bd163884509973841d906b58456
 InstanceOf: CompositionUvEpi
 Title: "Composition for cibinqo Package Leaflet"
 Description:  "Composition for cibinqo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

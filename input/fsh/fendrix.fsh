@@ -4,7 +4,7 @@ Instance: composition-en-b84f73de4fe7a1b440cc28651d9b5407
 InstanceOf: CompositionUvEpi
 Title: "Composition for fendrix Package Leaflet"
 Description:  "Composition for fendrix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

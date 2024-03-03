@@ -4,7 +4,7 @@ Instance: composition-en-174da4bc3583312132255c6ab13da6ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for ferriprox Package Leaflet"
 Description:  "Composition for ferriprox Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

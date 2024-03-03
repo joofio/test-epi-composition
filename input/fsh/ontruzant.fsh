@@ -4,7 +4,7 @@ Instance: composition-en-b685aeea2bdf7a0921a22706f03b5a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontruzant Package Leaflet"
 Description:  "Composition for ontruzant Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

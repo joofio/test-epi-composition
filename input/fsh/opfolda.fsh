@@ -4,7 +4,7 @@ Instance: composition-en-65865425d1dbd81837221de546e96e8c
 InstanceOf: CompositionUvEpi
 Title: "Composition for opfolda Package Leaflet"
 Description:  "Composition for opfolda Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

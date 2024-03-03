@@ -4,7 +4,7 @@ Instance: composition-en-fab45178c60aa670cc4368c283b21dec
 InstanceOf: CompositionUvEpi
 Title: "Composition for quviviq Package Leaflet"
 Description:  "Composition for quviviq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

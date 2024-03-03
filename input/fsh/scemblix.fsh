@@ -4,7 +4,7 @@ Instance: composition-en-43a04579e02ef19c7380d883dba8b26f
 InstanceOf: CompositionUvEpi
 Title: "Composition for scemblix Package Leaflet"
 Description:  "Composition for scemblix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

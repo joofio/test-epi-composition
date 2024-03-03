@@ -4,7 +4,7 @@ Instance: composition-en-8e3f73294a020fb836dccebb0eb47004
 InstanceOf: CompositionUvEpi
 Title: "Composition for firdapse Package Leaflet"
 Description:  "Composition for firdapse Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

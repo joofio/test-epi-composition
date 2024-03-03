@@ -4,7 +4,7 @@ Instance: composition-en-1f770da67a0e503197d74d61bd645018
 InstanceOf: CompositionUvEpi
 Title: "Composition for trelegy Package Leaflet"
 Description:  "Composition for trelegy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

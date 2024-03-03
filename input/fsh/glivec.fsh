@@ -4,7 +4,7 @@ Instance: composition-en-27bef6838d192de0f1fa35f67b2e5233
 InstanceOf: CompositionUvEpi
 Title: "Composition for glivec Package Leaflet"
 Description:  "Composition for glivec Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

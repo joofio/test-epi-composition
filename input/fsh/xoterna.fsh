@@ -4,7 +4,7 @@ Instance: composition-en-3b71bf691692fb082e86656309cb3d56
 InstanceOf: CompositionUvEpi
 Title: "Composition for xoterna Package Leaflet"
 Description:  "Composition for xoterna Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

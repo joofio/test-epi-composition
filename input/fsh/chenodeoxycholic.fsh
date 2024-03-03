@@ -4,7 +4,7 @@ Instance: composition-en-9a0b3c0fd7de6773b4bcb12cc91e76d7
 InstanceOf: CompositionUvEpi
 Title: "Composition for chenodeoxycholic Package Leaflet"
 Description:  "Composition for chenodeoxycholic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

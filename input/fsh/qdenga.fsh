@@ -4,7 +4,7 @@ Instance: composition-en-401af7edf9ddeca390dafddb202c49ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for qdenga Package Leaflet"
 Description:  "Composition for qdenga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

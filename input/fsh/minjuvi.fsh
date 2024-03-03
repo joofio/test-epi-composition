@@ -4,7 +4,7 @@ Instance: composition-en-3a7989268aa40003bfe0c300bbb6b42f
 InstanceOf: CompositionUvEpi
 Title: "Composition for minjuvi Package Leaflet"
 Description:  "Composition for minjuvi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

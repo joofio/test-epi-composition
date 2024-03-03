@@ -4,7 +4,7 @@ Instance: composition-en-b8f579293abab7be62522da4567f714e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kadcyla Package Leaflet"
 Description:  "Composition for kadcyla Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

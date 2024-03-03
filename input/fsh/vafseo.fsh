@@ -4,7 +4,7 @@ Instance: composition-en-5be5abfec999fc8a1ea184754c57f783
 InstanceOf: CompositionUvEpi
 Title: "Composition for vafseo Package Leaflet"
 Description:  "Composition for vafseo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c
 InstanceOf: CompositionUvEpi
 Title: "Composition for firazyr Package Leaflet"
 Description:  "Composition for firazyr Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-26b20b6a67265be2cf1102bb12c87943
 InstanceOf: CompositionUvEpi
 Title: "Composition for matever Package Leaflet"
 Description:  "Composition for matever Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

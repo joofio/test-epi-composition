@@ -4,7 +4,7 @@ Instance: composition-en-2f7a279f68a665d0f862dc617efb9035
 InstanceOf: CompositionUvEpi
 Title: "Composition for relistor Package Leaflet"
 Description:  "Composition for relistor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

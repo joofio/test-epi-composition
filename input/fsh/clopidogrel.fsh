@@ -4,7 +4,7 @@ Instance: composition-en-ee49834873239ca0bd02df0676c887ca
 InstanceOf: CompositionUvEpi
 Title: "Composition for clopidogrel Package Leaflet"
 Description:  "Composition for clopidogrel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

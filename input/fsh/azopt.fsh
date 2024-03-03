@@ -4,7 +4,7 @@ Instance: composition-en-831dc32174e3de65bc27162f5e1c766f
 InstanceOf: CompositionUvEpi
 Title: "Composition for azopt Package Leaflet"
 Description:  "Composition for azopt Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

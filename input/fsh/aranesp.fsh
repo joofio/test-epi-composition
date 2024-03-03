@@ -4,7 +4,7 @@ Instance: composition-en-53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for aranesp Package Leaflet"
 Description:  "Composition for aranesp Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

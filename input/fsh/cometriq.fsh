@@ -4,7 +4,7 @@ Instance: composition-en-fbf95ea541cd91a60587ad0005d0c1b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for cometriq Package Leaflet"
 Description:  "Composition for cometriq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

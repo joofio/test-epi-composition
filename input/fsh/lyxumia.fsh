@@ -4,7 +4,7 @@ Instance: composition-en-88465ebc29d8e476ad0a83f9574d1c59
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyxumia Package Leaflet"
 Description:  "Composition for lyxumia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

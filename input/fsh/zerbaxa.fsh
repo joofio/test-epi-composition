@@ -4,7 +4,7 @@ Instance: composition-en-1482492b92c1ab38c7c6cfa8e927eb20
 InstanceOf: CompositionUvEpi
 Title: "Composition for zerbaxa Package Leaflet"
 Description:  "Composition for zerbaxa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

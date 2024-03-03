@@ -4,7 +4,7 @@ Instance: composition-en-df6c7db31dd11bfbd41b9384e5297ec4
 InstanceOf: CompositionUvEpi
 Title: "Composition for tachosil Package Leaflet"
 Description:  "Composition for tachosil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

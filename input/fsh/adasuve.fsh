@@ -4,7 +4,7 @@ Instance: composition-en-a65021751afedc04d4560394d8a23778
 InstanceOf: CompositionUvEpi
 Title: "Composition for adasuve Package Leaflet"
 Description:  "Composition for adasuve Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

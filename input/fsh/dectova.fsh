@@ -4,7 +4,7 @@ Instance: composition-en-42901eb273bd1fa1c559a078fd30641d
 InstanceOf: CompositionUvEpi
 Title: "Composition for dectova Package Leaflet"
 Description:  "Composition for dectova Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

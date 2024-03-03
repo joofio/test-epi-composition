@@ -4,7 +4,7 @@ Instance: composition-en-8a94445977c6995eab70c753c18b38b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for luminity Package Leaflet"
 Description:  "Composition for luminity Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

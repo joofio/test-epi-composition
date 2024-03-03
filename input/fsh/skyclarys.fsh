@@ -4,7 +4,7 @@ Instance: composition-en-3c1db916d2062445ec61cc58880ca8a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for skyclarys Package Leaflet"
 Description:  "Composition for skyclarys Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

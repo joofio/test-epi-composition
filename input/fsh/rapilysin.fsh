@@ -4,7 +4,7 @@ Instance: composition-en-4ddd1ab0c737d818a0282b987d49df2b
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapilysin Package Leaflet"
 Description:  "Composition for rapilysin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

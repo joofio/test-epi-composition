@@ -4,7 +4,7 @@ Instance: composition-en-06bb7b199fc5a315ff3aceb8ab9ff2c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for rolufta Package Leaflet"
 Description:  "Composition for rolufta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

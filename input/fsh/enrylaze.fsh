@@ -4,7 +4,7 @@ Instance: composition-en-d702c645ce8960ab36c7968fd9f89bfc
 InstanceOf: CompositionUvEpi
 Title: "Composition for enrylaze Package Leaflet"
 Description:  "Composition for enrylaze Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

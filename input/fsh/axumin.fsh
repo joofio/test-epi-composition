@@ -4,7 +4,7 @@ Instance: composition-en-e7c357e85455d1fe389fd3b297f16867
 InstanceOf: CompositionUvEpi
 Title: "Composition for axumin Package Leaflet"
 Description:  "Composition for axumin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

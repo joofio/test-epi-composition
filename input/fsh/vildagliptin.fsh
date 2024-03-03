@@ -4,7 +4,7 @@ Instance: composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: CompositionUvEpi
 Title: "Composition for vildagliptin Package Leaflet"
 Description:  "Composition for vildagliptin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

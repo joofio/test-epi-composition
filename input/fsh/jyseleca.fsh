@@ -4,7 +4,7 @@ Instance: composition-en-86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: CompositionUvEpi
 Title: "Composition for jyseleca Package Leaflet"
 Description:  "Composition for jyseleca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

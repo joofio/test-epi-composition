@@ -4,7 +4,7 @@ Instance: composition-en-25e43ff8dab1aa42a1b2c085fe6377c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for qaialdo Package Leaflet"
 Description:  "Composition for qaialdo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

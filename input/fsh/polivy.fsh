@@ -4,7 +4,7 @@ Instance: composition-en-d318ddad4078d9629a42fcddbae8f64a
 InstanceOf: CompositionUvEpi
 Title: "Composition for polivy Package Leaflet"
 Description:  "Composition for polivy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

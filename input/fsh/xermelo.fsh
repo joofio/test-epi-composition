@@ -4,7 +4,7 @@ Instance: composition-en-a7d93b3af6f699fe631629c6d79268c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for xermelo Package Leaflet"
 Description:  "Composition for xermelo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

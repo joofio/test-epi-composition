@@ -4,7 +4,7 @@ Instance: composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for bavencio Package Leaflet"
 Description:  "Composition for bavencio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

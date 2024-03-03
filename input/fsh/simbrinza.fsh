@@ -4,7 +4,7 @@ Instance: composition-en-ba6a3e01d1da47ecc915e34664ffddaf
 InstanceOf: CompositionUvEpi
 Title: "Composition for simbrinza Package Leaflet"
 Description:  "Composition for simbrinza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

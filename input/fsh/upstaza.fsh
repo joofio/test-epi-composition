@@ -4,7 +4,7 @@ Instance: composition-en-7303c8e036c7a4b4794a60ab51432595
 InstanceOf: CompositionUvEpi
 Title: "Composition for upstaza Package Leaflet"
 Description:  "Composition for upstaza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

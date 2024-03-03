@@ -4,7 +4,7 @@ Instance: composition-en-5e0fa5924c243f84290194737af8a73f
 InstanceOf: CompositionUvEpi
 Title: "Composition for actrapid Package Leaflet"
 Description:  "Composition for actrapid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

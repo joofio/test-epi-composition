@@ -4,7 +4,7 @@ Instance: composition-en-3f6a519af0b1268014d8e20e6028f9d5
 InstanceOf: CompositionUvEpi
 Title: "Composition for zeposia Package Leaflet"
 Description:  "Composition for zeposia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

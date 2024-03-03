@@ -4,7 +4,7 @@ Instance: composition-en-7d1bb12ba6240a71a9360f68b8249137
 InstanceOf: CompositionUvEpi
 Title: "Composition for grasustek Package Leaflet"
 Description:  "Composition for grasustek Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

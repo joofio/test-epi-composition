@@ -4,7 +4,7 @@ Instance: composition-en-5c60b262e52a5c74cf3187377ecaedde
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriflunomide Package Leaflet"
 Description:  "Composition for teriflunomide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

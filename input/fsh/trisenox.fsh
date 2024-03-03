@@ -4,7 +4,7 @@ Instance: composition-en-8e9729f37593f28a655449a0b1bb5596
 InstanceOf: CompositionUvEpi
 Title: "Composition for trisenox Package Leaflet"
 Description:  "Composition for trisenox Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

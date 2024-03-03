@@ -4,7 +4,7 @@ Instance: composition-en-95a6c6d44fd775697ee8966bf749780c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ranivisio Package Leaflet"
 Description:  "Composition for ranivisio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

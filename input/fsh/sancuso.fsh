@@ -4,7 +4,7 @@ Instance: composition-en-cd1253bc1e51a6309a46a454334120e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for sancuso Package Leaflet"
 Description:  "Composition for sancuso Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

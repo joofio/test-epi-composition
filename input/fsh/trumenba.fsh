@@ -4,7 +4,7 @@ Instance: composition-en-dda2c427548650874074bbc49aa90b54
 InstanceOf: CompositionUvEpi
 Title: "Composition for trumenba Package Leaflet"
 Description:  "Composition for trumenba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

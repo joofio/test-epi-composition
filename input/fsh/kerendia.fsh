@@ -4,7 +4,7 @@ Instance: composition-en-ea2d9477557df2cb8572d829cd765247
 InstanceOf: CompositionUvEpi
 Title: "Composition for kerendia Package Leaflet"
 Description:  "Composition for kerendia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

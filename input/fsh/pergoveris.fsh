@@ -4,7 +4,7 @@ Instance: composition-en-eb7d3517ce728a017d7b2f838a6f78c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for pergoveris Package Leaflet"
 Description:  "Composition for pergoveris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-5070cf955a155484c6e1db8e94877cf4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoledronic Package Leaflet"
 Description:  "Composition for zoledronic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

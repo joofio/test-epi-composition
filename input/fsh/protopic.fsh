@@ -4,7 +4,7 @@ Instance: composition-en-c96fdfd81478e739fb65928482a4a6c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for protopic Package Leaflet"
 Description:  "Composition for protopic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

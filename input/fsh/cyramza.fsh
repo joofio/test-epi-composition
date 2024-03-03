@@ -4,7 +4,7 @@ Instance: composition-en-092a7f5395bb9583ad450174eeb4a512
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyramza Package Leaflet"
 Description:  "Composition for cyramza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-5f8b8c4b9e5f26ff9f9320c47bf6fa58
 InstanceOf: CompositionUvEpi
 Title: "Composition for vidaza Package Leaflet"
 Description:  "Composition for vidaza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

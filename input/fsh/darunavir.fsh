@@ -4,7 +4,7 @@ Instance: composition-en-ca782dfd4f770a8ed2648776cb943032
 InstanceOf: CompositionUvEpi
 Title: "Composition for darunavir Package Leaflet"
 Description:  "Composition for darunavir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

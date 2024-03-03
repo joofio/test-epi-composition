@@ -4,7 +4,7 @@ Instance: composition-en-5e54bc899d36944f074c62413ee87b7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for pravafenix Package Leaflet"
 Description:  "Composition for pravafenix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

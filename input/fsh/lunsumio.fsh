@@ -4,7 +4,7 @@ Instance: composition-en-8921696d13cf74e5c9697718160f9f03
 InstanceOf: CompositionUvEpi
 Title: "Composition for lunsumio Package Leaflet"
 Description:  "Composition for lunsumio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

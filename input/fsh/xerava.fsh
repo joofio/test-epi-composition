@@ -4,7 +4,7 @@ Instance: composition-en-b6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xerava Package Leaflet"
 Description:  "Composition for xerava Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0234c86891baf768298474181745e97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for wegovy Package Leaflet"
 Description:  "Composition for wegovy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

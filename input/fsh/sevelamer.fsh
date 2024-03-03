@@ -4,7 +4,7 @@ Instance: composition-en-682a1ddf5b561c3896c1e826a81d2aed
 InstanceOf: CompositionUvEpi
 Title: "Composition for sevelamer Package Leaflet"
 Description:  "Composition for sevelamer Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

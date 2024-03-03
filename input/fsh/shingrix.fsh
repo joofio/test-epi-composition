@@ -4,7 +4,7 @@ Instance: composition-en-85904308e7b268e4375d9d3d2cf40f57
 InstanceOf: CompositionUvEpi
 Title: "Composition for shingrix Package Leaflet"
 Description:  "Composition for shingrix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

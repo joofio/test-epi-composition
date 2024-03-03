@@ -4,7 +4,7 @@ Instance: composition-en-f7bd65adcf41880a5b8668a52603da99
 InstanceOf: CompositionUvEpi
 Title: "Composition for methylthioninium Package Leaflet"
 Description:  "Composition for methylthioninium Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

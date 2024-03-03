@@ -4,7 +4,7 @@ Instance: composition-en-2440cbc7bcf5f09685459c4222f929e1
 InstanceOf: CompositionUvEpi
 Title: "Composition for spectrila Package Leaflet"
 Description:  "Composition for spectrila Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

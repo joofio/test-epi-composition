@@ -4,7 +4,7 @@ Instance: composition-en-8666fcd1a9a5da616af3cc253cf1b4cf
 InstanceOf: CompositionUvEpi
 Title: "Composition for yentreve Package Leaflet"
 Description:  "Composition for yentreve Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

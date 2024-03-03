@@ -4,7 +4,7 @@ Instance: composition-en-6993a685d10576536183960090af1fdd
 InstanceOf: CompositionUvEpi
 Title: "Composition for anagrelide Package Leaflet"
 Description:  "Composition for anagrelide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

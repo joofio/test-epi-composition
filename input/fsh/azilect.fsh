@@ -4,7 +4,7 @@ Instance: composition-en-156b61ce1985095bf62d895909c686c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for azilect Package Leaflet"
 Description:  "Composition for azilect Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

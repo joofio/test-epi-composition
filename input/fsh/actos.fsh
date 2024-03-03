@@ -4,7 +4,7 @@ Instance: composition-en-5137745e381296dea05060d82180475d
 InstanceOf: CompositionUvEpi
 Title: "Composition for actos Package Leaflet"
 Description:  "Composition for actos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

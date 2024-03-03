@@ -4,7 +4,7 @@ Instance: composition-en-430493049f22429aa3d2e8bb859f1d18
 InstanceOf: CompositionUvEpi
 Title: "Composition for reblozyl Package Leaflet"
 Description:  "Composition for reblozyl Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

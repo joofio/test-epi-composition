@@ -4,7 +4,7 @@ Instance: composition-en-c4f905f197a0b095e7beed90273743e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for lydisilka Package Leaflet"
 Description:  "Composition for lydisilka Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

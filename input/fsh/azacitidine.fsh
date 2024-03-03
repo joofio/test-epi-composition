@@ -4,7 +4,7 @@ Instance: composition-en-918183ebe8d737590835d2d1ada752f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for azacitidine Package Leaflet"
 Description:  "Composition for azacitidine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-7fc3f5c304b57f3b5fe9dfeb5e8133de
 InstanceOf: CompositionUvEpi
 Title: "Composition for dzuveo Package Leaflet"
 Description:  "Composition for dzuveo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

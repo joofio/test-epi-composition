@@ -4,7 +4,7 @@ Instance: composition-en-34d2770dedeba7114006ff1f66a042d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for verzenios Package Leaflet"
 Description:  "Composition for verzenios Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

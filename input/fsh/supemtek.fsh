@@ -4,7 +4,7 @@ Instance: composition-en-06d503464480447969e787c60d8f32dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for supemtek Package Leaflet"
 Description:  "Composition for supemtek Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

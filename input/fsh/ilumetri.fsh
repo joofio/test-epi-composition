@@ -4,7 +4,7 @@ Instance: composition-en-4ef629a7127d0f0a54242fe28701c54c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ilumetri Package Leaflet"
 Description:  "Composition for ilumetri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

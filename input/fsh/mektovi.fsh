@@ -4,7 +4,7 @@ Instance: composition-en-1fc6739ba81d50a7087579c92c2a7274
 InstanceOf: CompositionUvEpi
 Title: "Composition for mektovi Package Leaflet"
 Description:  "Composition for mektovi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

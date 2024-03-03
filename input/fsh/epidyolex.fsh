@@ -4,7 +4,7 @@ Instance: composition-en-75a506f08e3ae1e41989ef75918dcae1
 InstanceOf: CompositionUvEpi
 Title: "Composition for epidyolex Package Leaflet"
 Description:  "Composition for epidyolex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

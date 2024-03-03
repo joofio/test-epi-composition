@@ -4,7 +4,7 @@ Instance: composition-en-c419fe066011304c4fef1d514818ee22
 InstanceOf: CompositionUvEpi
 Title: "Composition for enjaymo Package Leaflet"
 Description:  "Composition for enjaymo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

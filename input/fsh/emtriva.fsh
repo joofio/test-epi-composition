@@ -4,7 +4,7 @@ Instance: composition-en-3aba64fb4580bb12883e3dc4b001f74a
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtriva Package Leaflet"
 Description:  "Composition for emtriva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

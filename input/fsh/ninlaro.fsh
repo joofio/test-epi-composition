@@ -4,7 +4,7 @@ Instance: composition-en-9291fddf7fee8d0f0e396206f1f18b06
 InstanceOf: CompositionUvEpi
 Title: "Composition for ninlaro Package Leaflet"
 Description:  "Composition for ninlaro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

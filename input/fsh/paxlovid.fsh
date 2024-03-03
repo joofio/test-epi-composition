@@ -4,7 +4,7 @@ Instance: composition-en-c01e0605e2e3c43213448cfeba0686aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for paxlovid Package Leaflet"
 Description:  "Composition for paxlovid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-b9e406d2f0e8fcd3c2ddc68fcfd21aa0
 InstanceOf: CompositionUvEpi
 Title: "Composition for champix Package Leaflet"
 Description:  "Composition for champix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

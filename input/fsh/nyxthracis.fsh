@@ -4,7 +4,7 @@ Instance: composition-en-b0ea9d19e76604da264b592167b5c70a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyxthracis Package Leaflet"
 Description:  "Composition for nyxthracis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

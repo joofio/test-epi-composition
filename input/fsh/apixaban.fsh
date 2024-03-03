@@ -4,7 +4,7 @@ Instance: composition-en-656032a84c2935003bb3f7376e124521
 InstanceOf: CompositionUvEpi
 Title: "Composition for apixaban Package Leaflet"
 Description:  "Composition for apixaban Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

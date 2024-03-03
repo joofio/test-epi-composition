@@ -4,7 +4,7 @@ Instance: composition-en-eada1e2c9933567894f80399e2c5f619
 InstanceOf: CompositionUvEpi
 Title: "Composition for imlygic Package Leaflet"
 Description:  "Composition for imlygic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

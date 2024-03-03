@@ -4,7 +4,7 @@ Instance: composition-en-7f1553dfd98eb10665faba03861da449
 InstanceOf: CompositionUvEpi
 Title: "Composition for kapruvia Package Leaflet"
 Description:  "Composition for kapruvia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

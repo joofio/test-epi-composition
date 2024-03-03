@@ -4,7 +4,7 @@ Instance: composition-en-802da6d86549eecc6e51c1bae9cf0471
 InstanceOf: CompositionUvEpi
 Title: "Composition for yellox Package Leaflet"
 Description:  "Composition for yellox Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e34df9b486f1338f47595519afb12a7d
 InstanceOf: CompositionUvEpi
 Title: "Composition for exelon Package Leaflet"
 Description:  "Composition for exelon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

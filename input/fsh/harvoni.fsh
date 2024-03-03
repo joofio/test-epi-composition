@@ -4,7 +4,7 @@ Instance: composition-en-52f798a2a01bd37d07b0ffeba290b5e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for harvoni Package Leaflet"
 Description:  "Composition for harvoni Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

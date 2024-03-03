@@ -4,7 +4,7 @@ Instance: composition-en-5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nepexto Package Leaflet"
 Description:  "Composition for nepexto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

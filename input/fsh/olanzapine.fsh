@@ -4,7 +4,7 @@ Instance: composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
 InstanceOf: CompositionUvEpi
 Title: "Composition for olanzapine Package Leaflet"
 Description:  "Composition for olanzapine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

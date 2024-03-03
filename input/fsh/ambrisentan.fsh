@@ -4,7 +4,7 @@ Instance: composition-en-f437466fa8717fd769398e5c38fe4716
 InstanceOf: CompositionUvEpi
 Title: "Composition for ambrisentan Package Leaflet"
 Description:  "Composition for ambrisentan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

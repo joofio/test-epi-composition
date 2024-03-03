@@ -4,7 +4,7 @@ Instance: composition-en-eb144117bf1832a81a0b81022c43f19d
 InstanceOf: CompositionUvEpi
 Title: "Composition for granupas Package Leaflet"
 Description:  "Composition for granupas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

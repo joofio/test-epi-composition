@@ -4,7 +4,7 @@ Instance: composition-en-3a63bcdb9de3ae0f0c08bbb2137c5dc9
 InstanceOf: CompositionUvEpi
 Title: "Composition for scintimun Package Leaflet"
 Description:  "Composition for scintimun Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

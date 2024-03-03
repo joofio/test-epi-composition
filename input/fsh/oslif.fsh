@@ -4,7 +4,7 @@ Instance: composition-en-69ba7123d300a992a466115b331a7218
 InstanceOf: CompositionUvEpi
 Title: "Composition for oslif Package Leaflet"
 Description:  "Composition for oslif Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

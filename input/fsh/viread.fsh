@@ -4,7 +4,7 @@ Instance: composition-en-6dd54a91ba651345f1ff3d87a8449c07
 InstanceOf: CompositionUvEpi
 Title: "Composition for viread Package Leaflet"
 Description:  "Composition for viread Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

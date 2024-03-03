@@ -4,7 +4,7 @@ Instance: composition-en-99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizimpro Package Leaflet"
 Description:  "Composition for vizimpro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

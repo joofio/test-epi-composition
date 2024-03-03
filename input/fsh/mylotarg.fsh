@@ -4,7 +4,7 @@ Instance: composition-en-7cf956e7748c0ba411215481856f48ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for mylotarg Package Leaflet"
 Description:  "Composition for mylotarg Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

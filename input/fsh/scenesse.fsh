@@ -4,7 +4,7 @@ Instance: composition-en-365176ec901be3a749e148c628fa3afe
 InstanceOf: CompositionUvEpi
 Title: "Composition for scenesse Package Leaflet"
 Description:  "Composition for scenesse Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-06248bd6009a92ba547ad80d4d64eaf8
 InstanceOf: CompositionUvEpi
 Title: "Composition for lantus Package Leaflet"
 Description:  "Composition for lantus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-08bd32995710017e5d1be3af6c537328
 InstanceOf: CompositionUvEpi
 Title: "Composition for daptomycin Package Leaflet"
 Description:  "Composition for daptomycin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

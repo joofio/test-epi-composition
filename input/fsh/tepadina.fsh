@@ -4,7 +4,7 @@ Instance: composition-en-23483e68b180589da70be31f3872f1d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tepadina Package Leaflet"
 Description:  "Composition for tepadina Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

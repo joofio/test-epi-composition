@@ -4,7 +4,7 @@ Instance: composition-en-c94b2bb5a2491f8b60f6777b6703f8a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for livogiva Package Leaflet"
 Description:  "Composition for livogiva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

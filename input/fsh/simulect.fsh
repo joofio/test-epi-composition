@@ -4,7 +4,7 @@ Instance: composition-en-8922f58fa03c5bb0f5736b85deead4c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for simulect Package Leaflet"
 Description:  "Composition for simulect Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9e9af0d61ae4c0f16f1d8deb4eb5766d
 InstanceOf: CompositionUvEpi
 Title: "Composition for infanrix Package Leaflet"
 Description:  "Composition for infanrix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

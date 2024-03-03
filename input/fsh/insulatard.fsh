@@ -4,7 +4,7 @@ Instance: composition-en-6acef7c89d536bf2632b2cc29b5349e2
 InstanceOf: CompositionUvEpi
 Title: "Composition for insulatard Package Leaflet"
 Description:  "Composition for insulatard Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

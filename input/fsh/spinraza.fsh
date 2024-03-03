@@ -4,7 +4,7 @@ Instance: composition-en-7480c406c1476ad2011cc90003d94188
 InstanceOf: CompositionUvEpi
 Title: "Composition for spinraza Package Leaflet"
 Description:  "Composition for spinraza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f3d8b9999dbf0bb7ed96cabee591db10
 InstanceOf: CompositionUvEpi
 Title: "Composition for caprelsa Package Leaflet"
 Description:  "Composition for caprelsa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

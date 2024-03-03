@@ -4,7 +4,7 @@ Instance: composition-en-56a32a5ee239fc834b47c10db1faa3fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for flucelvax Package Leaflet"
 Description:  "Composition for flucelvax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

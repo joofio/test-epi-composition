@@ -4,7 +4,7 @@ Instance: composition-en-8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: CompositionUvEpi
 Title: "Composition for grastofil Package Leaflet"
 Description:  "Composition for grastofil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

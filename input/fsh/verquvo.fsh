@@ -4,7 +4,7 @@ Instance: composition-en-866524cdcbf3627a203df3c620ecce50
 InstanceOf: CompositionUvEpi
 Title: "Composition for verquvo Package Leaflet"
 Description:  "Composition for verquvo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

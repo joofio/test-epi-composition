@@ -4,7 +4,7 @@ Instance: composition-en-8072777f1d7e921aa6202af1f1964c39
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinqaero Package Leaflet"
 Description:  "Composition for cinqaero Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

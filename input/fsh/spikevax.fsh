@@ -4,7 +4,7 @@ Instance: composition-en-53506f739e6f34ca79778a9dce57bf48
 InstanceOf: CompositionUvEpi
 Title: "Composition for spikevax Package Leaflet"
 Description:  "Composition for spikevax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

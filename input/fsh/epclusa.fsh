@@ -4,7 +4,7 @@ Instance: composition-en-e9ae841f23c2665e4711986b64a357a9
 InstanceOf: CompositionUvEpi
 Title: "Composition for epclusa Package Leaflet"
 Description:  "Composition for epclusa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

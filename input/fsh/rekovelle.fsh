@@ -4,7 +4,7 @@ Instance: composition-en-e468ee61b4ad57838bdb12806e9312f2
 InstanceOf: CompositionUvEpi
 Title: "Composition for rekovelle Package Leaflet"
 Description:  "Composition for rekovelle Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

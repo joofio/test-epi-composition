@@ -4,7 +4,7 @@ Instance: composition-en-1725e26bb7cb4ad5c29cb26127be8f47
 InstanceOf: CompositionUvEpi
 Title: "Composition for stivarga Package Leaflet"
 Description:  "Composition for stivarga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-7fd8db306f75e7eea8a1de8f7d7fbab2
 InstanceOf: CompositionUvEpi
 Title: "Composition for luxturna Package Leaflet"
 Description:  "Composition for luxturna Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

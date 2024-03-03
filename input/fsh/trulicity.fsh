@@ -4,7 +4,7 @@ Instance: composition-en-03f601e925d2ca197b11b72dd4a3dc32
 InstanceOf: CompositionUvEpi
 Title: "Composition for trulicity Package Leaflet"
 Description:  "Composition for trulicity Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

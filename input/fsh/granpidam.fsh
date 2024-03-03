@@ -4,7 +4,7 @@ Instance: composition-en-24658ce59b10f683d894acb365dd27b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for granpidam Package Leaflet"
 Description:  "Composition for granpidam Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

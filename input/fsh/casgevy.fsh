@@ -4,7 +4,7 @@ Instance: composition-en-7231462c5958bc15b9c9fab8da21ba25
 InstanceOf: CompositionUvEpi
 Title: "Composition for casgevy Package Leaflet"
 Description:  "Composition for casgevy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

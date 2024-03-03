@@ -4,7 +4,7 @@ Instance: composition-en-8d0c124d18ae7d118dd0c09ef060535b
 InstanceOf: CompositionUvEpi
 Title: "Composition for semglee Package Leaflet"
 Description:  "Composition for semglee Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

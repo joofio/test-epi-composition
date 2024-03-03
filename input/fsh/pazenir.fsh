@@ -4,7 +4,7 @@ Instance: composition-en-92b31dfcd94fef6128e5d86cc210fa3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for pazenir Package Leaflet"
 Description:  "Composition for pazenir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

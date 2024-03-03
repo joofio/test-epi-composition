@@ -4,7 +4,7 @@ Instance: composition-en-cfcde91a66ec9c44e54756602bc42482
 InstanceOf: CompositionUvEpi
 Title: "Composition for libtayo Package Leaflet"
 Description:  "Composition for libtayo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

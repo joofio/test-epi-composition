@@ -4,7 +4,7 @@ Instance: composition-en-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for tandemact Package Leaflet"
 Description:  "Composition for tandemact Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

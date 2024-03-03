@@ -4,7 +4,7 @@ Instance: composition-en-29e53310e209535224a929c7efb5c5b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for jayempi Package Leaflet"
 Description:  "Composition for jayempi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

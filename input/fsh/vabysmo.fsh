@@ -4,7 +4,7 @@ Instance: composition-en-3fd0e71025c97e85a4b382e052756f99
 InstanceOf: CompositionUvEpi
 Title: "Composition for vabysmo Package Leaflet"
 Description:  "Composition for vabysmo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

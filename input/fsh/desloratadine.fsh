@@ -4,7 +4,7 @@ Instance: composition-en-d51291e7d675a24203f1a2e152221f98
 InstanceOf: CompositionUvEpi
 Title: "Composition for desloratadine Package Leaflet"
 Description:  "Composition for desloratadine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

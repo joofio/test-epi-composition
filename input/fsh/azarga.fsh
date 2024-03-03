@@ -4,7 +4,7 @@ Instance: composition-en-244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: CompositionUvEpi
 Title: "Composition for azarga Package Leaflet"
 Description:  "Composition for azarga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

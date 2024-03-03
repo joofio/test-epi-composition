@@ -4,7 +4,7 @@ Instance: composition-en-1c483862a2de53c1f77db26617c2401e
 InstanceOf: CompositionUvEpi
 Title: "Composition for novorapid Package Leaflet"
 Description:  "Composition for novorapid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e607211528f92c3963caeeb4fd500657
 InstanceOf: CompositionUvEpi
 Title: "Composition for myfenax Package Leaflet"
 Description:  "Composition for myfenax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

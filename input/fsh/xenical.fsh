@@ -4,7 +4,7 @@ Instance: composition-en-37d610f9c96d541562699215b0864126
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenical Package Leaflet"
 Description:  "Composition for xenical Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

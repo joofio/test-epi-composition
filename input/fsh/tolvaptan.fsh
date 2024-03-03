@@ -4,7 +4,7 @@ Instance: composition-en-2fe9007bb20986bb15e710aca341907a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tolvaptan Package Leaflet"
 Description:  "Composition for tolvaptan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

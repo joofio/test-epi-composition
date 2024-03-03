@@ -4,7 +4,7 @@ Instance: composition-en-a0f6051c039253e4a1c573c85f53f945
 InstanceOf: CompositionUvEpi
 Title: "Composition for lopinavir Package Leaflet"
 Description:  "Composition for lopinavir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

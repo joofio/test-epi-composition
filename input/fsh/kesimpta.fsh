@@ -4,7 +4,7 @@ Instance: composition-en-4c58d0c1d9c4a5073dfc9d3ac749320b
 InstanceOf: CompositionUvEpi
 Title: "Composition for kesimpta Package Leaflet"
 Description:  "Composition for kesimpta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

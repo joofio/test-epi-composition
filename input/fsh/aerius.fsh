@@ -4,7 +4,7 @@ Instance: composition-en-aeb0a2871b29083ccbf74783bc496505
 InstanceOf: CompositionUvEpi
 Title: "Composition for aerius Package Leaflet"
 Description:  "Composition for aerius Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

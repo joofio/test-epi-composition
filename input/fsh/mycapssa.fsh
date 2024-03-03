@@ -4,7 +4,7 @@ Instance: composition-en-8734938a1d7cc06ba1013b88ab4857e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycapssa Package Leaflet"
 Description:  "Composition for mycapssa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

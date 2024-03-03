@@ -4,7 +4,7 @@ Instance: composition-en-d184441eaf6370e77e170ec9c0dc05db
 InstanceOf: CompositionUvEpi
 Title: "Composition for zimbus Package Leaflet"
 Description:  "Composition for zimbus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

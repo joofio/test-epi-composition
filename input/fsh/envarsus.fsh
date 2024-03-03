@@ -4,7 +4,7 @@ Instance: composition-en-bfce752a769c6bdf68d02de41c720db5
 InstanceOf: CompositionUvEpi
 Title: "Composition for envarsus Package Leaflet"
 Description:  "Composition for envarsus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-961faf0eee8775284864611bbc5e6fdb
 InstanceOf: CompositionUvEpi
 Title: "Composition for icandra Package Leaflet"
 Description:  "Composition for icandra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

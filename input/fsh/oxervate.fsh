@@ -4,7 +4,7 @@ Instance: composition-en-f9944720e0617f59c4092a55c234abd3
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxervate Package Leaflet"
 Description:  "Composition for oxervate Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

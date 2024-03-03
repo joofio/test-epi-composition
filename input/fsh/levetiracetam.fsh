@@ -4,7 +4,7 @@ Instance: composition-en-e4c758c9b76c24f48a2ecc149820b3c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for levetiracetam Package Leaflet"
 Description:  "Composition for levetiracetam Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

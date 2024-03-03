@@ -4,7 +4,7 @@ Instance: composition-en-08061c368f26d0bb40f900f8c777c70e
 InstanceOf: CompositionUvEpi
 Title: "Composition for icatibant Package Leaflet"
 Description:  "Composition for icatibant Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

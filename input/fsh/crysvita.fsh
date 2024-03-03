@@ -4,7 +4,7 @@ Instance: composition-en-8727047706feba67762f580057591e03
 InstanceOf: CompositionUvEpi
 Title: "Composition for crysvita Package Leaflet"
 Description:  "Composition for crysvita Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

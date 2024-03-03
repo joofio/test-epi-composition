@@ -4,7 +4,7 @@ Instance: composition-en-49a6edf85307fce92cb7f88732583618
 InstanceOf: CompositionUvEpi
 Title: "Composition for azomyr Package Leaflet"
 Description:  "Composition for azomyr Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8e72e27852c8a54465539921267947b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriparatide Package Leaflet"
 Description:  "Composition for teriparatide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-7b4681f061a21ab4a530ac7b9667ac82
 InstanceOf: CompositionUvEpi
 Title: "Composition for elucirem Package Leaflet"
 Description:  "Composition for elucirem Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

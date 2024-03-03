@@ -4,7 +4,7 @@ Instance: composition-en-f352e985084276fc8e67c6d45807c1bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for bondronat Package Leaflet"
 Description:  "Composition for bondronat Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

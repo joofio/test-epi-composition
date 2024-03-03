@@ -4,7 +4,7 @@ Instance: composition-en-c2c1b230e761a81bed14b4231d2e7837
 InstanceOf: CompositionUvEpi
 Title: "Composition for blenrep Package Leaflet"
 Description:  "Composition for blenrep Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

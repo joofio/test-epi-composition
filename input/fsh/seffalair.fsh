@@ -4,7 +4,7 @@ Instance: composition-en-9889706f10caf682c405b7ee9acf1a34
 InstanceOf: CompositionUvEpi
 Title: "Composition for seffalair Package Leaflet"
 Description:  "Composition for seffalair Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

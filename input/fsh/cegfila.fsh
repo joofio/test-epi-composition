@@ -4,7 +4,7 @@ Instance: composition-en-e3be0c3afac35b40ee152976f7a06c61
 InstanceOf: CompositionUvEpi
 Title: "Composition for cegfila Package Leaflet"
 Description:  "Composition for cegfila Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

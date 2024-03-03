@@ -4,7 +4,7 @@ Instance: composition-en-9c8cbb392febab27edfe92cab530d10b
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyqvia Package Leaflet"
 Description:  "Composition for hyqvia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

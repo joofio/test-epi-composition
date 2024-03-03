@@ -4,7 +4,7 @@ Instance: composition-en-ee1b9e575d1fb256c3611a3cc10df97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for pregabalin Package Leaflet"
 Description:  "Composition for pregabalin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

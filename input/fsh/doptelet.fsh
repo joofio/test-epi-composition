@@ -4,7 +4,7 @@ Instance: composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
 InstanceOf: CompositionUvEpi
 Title: "Composition for doptelet Package Leaflet"
 Description:  "Composition for doptelet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

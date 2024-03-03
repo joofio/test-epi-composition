@@ -4,7 +4,7 @@ Instance: composition-en-dff98a1057e854dd22ade83cc61ef07f
 InstanceOf: CompositionUvEpi
 Title: "Composition for tacforius Package Leaflet"
 Description:  "Composition for tacforius Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

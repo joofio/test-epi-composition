@@ -4,7 +4,7 @@ Instance: composition-en-d9561f20b6898b3c62b048e0c8b52401
 InstanceOf: CompositionUvEpi
 Title: "Composition for hycamtin Package Leaflet"
 Description:  "Composition for hycamtin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

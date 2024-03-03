@@ -4,7 +4,7 @@ Instance: composition-en-f9f99ae69c31ce78eb86e2425f62e81a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tybost Package Leaflet"
 Description:  "Composition for tybost Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

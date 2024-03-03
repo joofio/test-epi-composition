@@ -4,7 +4,7 @@ Instance: composition-en-66d5e6df1989e0692bced127abe8781a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumark Package Leaflet"
 Description:  "Composition for lumark Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

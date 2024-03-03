@@ -4,7 +4,7 @@ Instance: composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemetrexed Package Leaflet"
 Description:  "Composition for pemetrexed Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

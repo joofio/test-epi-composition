@@ -4,7 +4,7 @@ Instance: composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: CompositionUvEpi
 Title: "Composition for cabometyx Package Leaflet"
 Description:  "Composition for cabometyx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

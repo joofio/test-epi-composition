@@ -4,7 +4,7 @@ Instance: composition-en-4d2adb2d9d068c3e716247867c7eb868
 InstanceOf: CompositionUvEpi
 Title: "Composition for insuman Package Leaflet"
 Description:  "Composition for insuman Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

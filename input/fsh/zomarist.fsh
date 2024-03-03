@@ -4,7 +4,7 @@ Instance: composition-en-db0f7cad6eb30c65834f70206c7c6222
 InstanceOf: CompositionUvEpi
 Title: "Composition for zomarist Package Leaflet"
 Description:  "Composition for zomarist Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

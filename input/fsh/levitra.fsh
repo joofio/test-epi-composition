@@ -4,7 +4,7 @@ Instance: composition-en-d6a8f1a1ebaa6583d4e909e9b830debb
 InstanceOf: CompositionUvEpi
 Title: "Composition for levitra Package Leaflet"
 Description:  "Composition for levitra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

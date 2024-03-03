@@ -4,7 +4,7 @@ Instance: composition-en-2c8c6ac450595b1fe82bdcbd366c3744
 InstanceOf: CompositionUvEpi
 Title: "Composition for votubia Package Leaflet"
 Description:  "Composition for votubia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

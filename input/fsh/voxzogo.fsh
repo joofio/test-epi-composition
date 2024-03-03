@@ -4,7 +4,7 @@ Instance: composition-en-e6fbce999498edd4c95f0774e58fd4a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for voxzogo Package Leaflet"
 Description:  "Composition for voxzogo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

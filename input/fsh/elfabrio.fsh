@@ -4,7 +4,7 @@ Instance: composition-en-84263cabba69906218047f0258521479
 InstanceOf: CompositionUvEpi
 Title: "Composition for elfabrio Package Leaflet"
 Description:  "Composition for elfabrio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

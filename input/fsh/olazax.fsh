@@ -4,7 +4,7 @@ Instance: composition-en-e71576be929eba887e5dad10b630fab2
 InstanceOf: CompositionUvEpi
 Title: "Composition for olazax Package Leaflet"
 Description:  "Composition for olazax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

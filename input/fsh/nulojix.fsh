@@ -4,7 +4,7 @@ Instance: composition-en-b4bc6381ffe8a433a405b4f88b0c023b
 InstanceOf: CompositionUvEpi
 Title: "Composition for nulojix Package Leaflet"
 Description:  "Composition for nulojix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

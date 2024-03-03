@@ -4,7 +4,7 @@ Instance: composition-en-9150fcc2bde4114d1671dc57e6fd4ca7
 InstanceOf: CompositionUvEpi
 Title: "Composition for suliqua Package Leaflet"
 Description:  "Composition for suliqua Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

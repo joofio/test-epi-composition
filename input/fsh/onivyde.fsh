@@ -4,7 +4,7 @@ Instance: composition-en-c423173deb9255bac28552e97801a6f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for onivyde Package Leaflet"
 Description:  "Composition for onivyde Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

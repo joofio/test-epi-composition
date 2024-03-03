@@ -4,7 +4,7 @@ Instance: composition-en-0bc0b6806130152cd23da1d4d304334e
 InstanceOf: CompositionUvEpi
 Title: "Composition for amglidia Package Leaflet"
 Description:  "Composition for amglidia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

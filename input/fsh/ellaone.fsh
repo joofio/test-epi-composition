@@ -4,7 +4,7 @@ Instance: composition-en-a8d190f59e73033fd1157419aef18ccc
 InstanceOf: CompositionUvEpi
 Title: "Composition for ellaone Package Leaflet"
 Description:  "Composition for ellaone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

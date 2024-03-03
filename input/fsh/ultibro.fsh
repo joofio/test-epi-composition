@@ -4,7 +4,7 @@ Instance: composition-en-c534ceb0c415b656be1c262cf1f8af94
 InstanceOf: CompositionUvEpi
 Title: "Composition for ultibro Package Leaflet"
 Description:  "Composition for ultibro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f00c2d057b37e01d3588f608535352b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for alofisel Package Leaflet"
 Description:  "Composition for alofisel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-1f87461293bc326acebf2dcaabf7857f
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxlumo Package Leaflet"
 Description:  "Composition for oxlumo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

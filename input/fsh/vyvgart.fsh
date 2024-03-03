@@ -4,7 +4,7 @@ Instance: composition-en-f819453f37e8574dc396f13201d03208
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyvgart Package Leaflet"
 Description:  "Composition for vyvgart Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

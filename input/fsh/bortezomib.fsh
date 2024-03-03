@@ -4,7 +4,7 @@ Instance: composition-en-078ce846d23a61e02d1edb518ce5e784
 InstanceOf: CompositionUvEpi
 Title: "Composition for bortezomib Package Leaflet"
 Description:  "Composition for bortezomib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

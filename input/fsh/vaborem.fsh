@@ -4,7 +4,7 @@ Instance: composition-en-1a4d7d0936b560f6ab01480d49118287
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaborem Package Leaflet"
 Description:  "Composition for vaborem Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

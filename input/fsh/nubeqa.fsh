@@ -4,7 +4,7 @@ Instance: composition-en-1cafc851e1f0aed5863b6a73ba46d0f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for nubeqa Package Leaflet"
 Description:  "Composition for nubeqa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

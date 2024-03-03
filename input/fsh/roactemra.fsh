@@ -4,7 +4,7 @@ Instance: composition-en-06f9b891f2158becb7dcf14e44abf883
 InstanceOf: CompositionUvEpi
 Title: "Composition for roactemra Package Leaflet"
 Description:  "Composition for roactemra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

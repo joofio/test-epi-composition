@@ -4,7 +4,7 @@ Instance: composition-en-b8e0f0c67dccb3d602a95a4f091082dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for dasselta Package Leaflet"
 Description:  "Composition for dasselta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

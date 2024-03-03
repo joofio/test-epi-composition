@@ -4,7 +4,7 @@ Instance: composition-en-d143dc49ab0647909fad048e72ad56b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for inrebic Package Leaflet"
 Description:  "Composition for inrebic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

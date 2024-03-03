@@ -4,7 +4,7 @@ Instance: composition-en-6c112c3573c3c3963f8150233106c4e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for levemir Package Leaflet"
 Description:  "Composition for levemir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

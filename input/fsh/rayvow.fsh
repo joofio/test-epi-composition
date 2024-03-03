@@ -4,7 +4,7 @@ Instance: composition-en-8bb757daadba0c9862c13659a934b71b
 InstanceOf: CompositionUvEpi
 Title: "Composition for rayvow Package Leaflet"
 Description:  "Composition for rayvow Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

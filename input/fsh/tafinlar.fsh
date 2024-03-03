@@ -4,7 +4,7 @@ Instance: composition-en-16019d0f068b393be3091cc008ef79bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for tafinlar Package Leaflet"
 Description:  "Composition for tafinlar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

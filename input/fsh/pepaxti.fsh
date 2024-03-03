@@ -4,7 +4,7 @@ Instance: composition-en-4b3bf4fa95ca1e8fab427d9644d69f2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for pepaxti Package Leaflet"
 Description:  "Composition for pepaxti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

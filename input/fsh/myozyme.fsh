@@ -4,7 +4,7 @@ Instance: composition-en-dbdbf98ea44926c7f122d6f81a850a2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for myozyme Package Leaflet"
 Description:  "Composition for myozyme Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-5a0e77a26a98f2eac352c48d66309743
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumeblue Package Leaflet"
 Description:  "Composition for lumeblue Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

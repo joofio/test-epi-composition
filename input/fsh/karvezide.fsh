@@ -4,7 +4,7 @@ Instance: composition-en-d0672eae48edc2b3744742b0b1ff7c9b
 InstanceOf: CompositionUvEpi
 Title: "Composition for karvezide Package Leaflet"
 Description:  "Composition for karvezide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

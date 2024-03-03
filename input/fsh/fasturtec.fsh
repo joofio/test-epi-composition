@@ -4,7 +4,7 @@ Instance: composition-en-111cffde6ab225ef6f9090cd3d257fe8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fasturtec Package Leaflet"
 Description:  "Composition for fasturtec Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

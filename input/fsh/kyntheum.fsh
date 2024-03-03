@@ -4,7 +4,7 @@ Instance: composition-en-32bfd365b84c64d962132c327f20aa6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kyntheum Package Leaflet"
 Description:  "Composition for kyntheum Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

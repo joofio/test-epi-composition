@@ -4,7 +4,7 @@ Instance: composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: CompositionUvEpi
 Title: "Composition for evra Package Leaflet"
 Description:  "Composition for evra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

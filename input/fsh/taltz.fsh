@@ -4,7 +4,7 @@ Instance: composition-en-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: CompositionUvEpi
 Title: "Composition for taltz Package Leaflet"
 Description:  "Composition for taltz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

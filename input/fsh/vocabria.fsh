@@ -4,7 +4,7 @@ Instance: composition-en-1e7f57f62efba41459076aa92d00da1a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vocabria Package Leaflet"
 Description:  "Composition for vocabria Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

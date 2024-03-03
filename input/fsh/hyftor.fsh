@@ -4,7 +4,7 @@ Instance: composition-en-a0d64103b1c8a608be4329399bf17c80
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyftor Package Leaflet"
 Description:  "Composition for hyftor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

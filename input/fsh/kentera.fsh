@@ -4,7 +4,7 @@ Instance: composition-en-a346fcd48e1745156d4e5145052e15e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for kentera Package Leaflet"
 Description:  "Composition for kentera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

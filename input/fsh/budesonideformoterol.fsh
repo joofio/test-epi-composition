@@ -4,7 +4,7 @@ Instance: composition-en-b5b875180b10dd24ad24a5a713e37047
 InstanceOf: CompositionUvEpi
 Title: "Composition for budesonideformoterol Package Leaflet"
 Description:  "Composition for budesonideformoterol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

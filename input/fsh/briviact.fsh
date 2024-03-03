@@ -4,7 +4,7 @@ Instance: composition-en-67d662579a878d3df2de1273192e0a02
 InstanceOf: CompositionUvEpi
 Title: "Composition for briviact Package Leaflet"
 Description:  "Composition for briviact Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-4413ef8793242a97fcbdcb6503ccd766
 InstanceOf: CompositionUvEpi
 Title: "Composition for kigabeq Package Leaflet"
 Description:  "Composition for kigabeq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

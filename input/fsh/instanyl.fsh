@@ -4,7 +4,7 @@ Instance: composition-en-10411891efb91b807d8d0643ea830640
 InstanceOf: CompositionUvEpi
 Title: "Composition for instanyl Package Leaflet"
 Description:  "Composition for instanyl Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

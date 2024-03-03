@@ -4,7 +4,7 @@ Instance: composition-en-f7d3ef50226760b75f06fdcf55be16ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for vitrakvi Package Leaflet"
 Description:  "Composition for vitrakvi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-d5d8894da2fa70f6a957a74ada445d1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for xadago Package Leaflet"
 Description:  "Composition for xadago Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

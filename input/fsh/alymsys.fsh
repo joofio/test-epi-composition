@@ -4,7 +4,7 @@ Instance: composition-en-8ad222fa20f6122792e54d69414353b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for alymsys Package Leaflet"
 Description:  "Composition for alymsys Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

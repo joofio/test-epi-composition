@@ -4,7 +4,7 @@ Instance: composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: CompositionUvEpi
 Title: "Composition for trizivir Package Leaflet"
 Description:  "Composition for trizivir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

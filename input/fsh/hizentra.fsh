@@ -4,7 +4,7 @@ Instance: composition-en-5d6f677fa9eaa34be2202ffe566f8e54
 InstanceOf: CompositionUvEpi
 Title: "Composition for hizentra Package Leaflet"
 Description:  "Composition for hizentra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

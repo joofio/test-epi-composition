@@ -4,7 +4,7 @@ Instance: composition-en-5908d361fd5ea6267d242f3bbae1b944
 InstanceOf: CompositionUvEpi
 Title: "Composition for eurartesim Package Leaflet"
 Description:  "Composition for eurartesim Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

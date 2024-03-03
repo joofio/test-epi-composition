@@ -4,7 +4,7 @@ Instance: composition-en-80012b09e7b7a78ced217a2ccd81660e
 InstanceOf: CompositionUvEpi
 Title: "Composition for elrexfio Package Leaflet"
 Description:  "Composition for elrexfio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

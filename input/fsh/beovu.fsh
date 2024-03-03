@@ -4,7 +4,7 @@ Instance: composition-en-8785831d8660f7dc500cb9e2633fcfc2
 InstanceOf: CompositionUvEpi
 Title: "Composition for beovu Package Leaflet"
 Description:  "Composition for beovu Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: CompositionUvEpi
 Title: "Composition for camzyos Package Leaflet"
 Description:  "Composition for camzyos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

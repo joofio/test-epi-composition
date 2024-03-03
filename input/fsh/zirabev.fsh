@@ -4,7 +4,7 @@ Instance: composition-en-8ceafeb1fcccbf6af415d119af979934
 InstanceOf: CompositionUvEpi
 Title: "Composition for zirabev Package Leaflet"
 Description:  "Composition for zirabev Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

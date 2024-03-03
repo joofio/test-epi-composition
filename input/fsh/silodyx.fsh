@@ -4,7 +4,7 @@ Instance: composition-en-9f200c2b1188de65461c6911d6f9550c
 InstanceOf: CompositionUvEpi
 Title: "Composition for silodyx Package Leaflet"
 Description:  "Composition for silodyx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

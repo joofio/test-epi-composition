@@ -4,7 +4,7 @@ Instance: composition-en-25b49674d9d703c70f7cbc179ed1a337
 InstanceOf: CompositionUvEpi
 Title: "Composition for parsabiv Package Leaflet"
 Description:  "Composition for parsabiv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-1e954682407ee7d7521ef7ec82e30f79
 InstanceOf: CompositionUvEpi
 Title: "Composition for kimmtrak Package Leaflet"
 Description:  "Composition for kimmtrak Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-b7ea2b843cac38255840aa11da0bbc43
 InstanceOf: CompositionUvEpi
 Title: "Composition for atosiban Package Leaflet"
 Description:  "Composition for atosiban Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

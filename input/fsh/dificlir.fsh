@@ -4,7 +4,7 @@ Instance: composition-en-e96a2b015f0fafafc915826cda7b875c
 InstanceOf: CompositionUvEpi
 Title: "Composition for dificlir Package Leaflet"
 Description:  "Composition for dificlir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

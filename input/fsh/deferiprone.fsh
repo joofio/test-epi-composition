@@ -4,7 +4,7 @@ Instance: composition-en-4a09b3a8552105810368cbf52100627e
 InstanceOf: CompositionUvEpi
 Title: "Composition for deferiprone Package Leaflet"
 Description:  "Composition for deferiprone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

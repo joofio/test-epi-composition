@@ -4,7 +4,7 @@ Instance: composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
 InstanceOf: CompositionUvEpi
 Title: "Composition for duloxetine Package Leaflet"
 Description:  "Composition for duloxetine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

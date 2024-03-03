@@ -4,7 +4,7 @@ Instance: composition-en-4143a283449d30b8e5a863d688670e88
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavlesse Package Leaflet"
 Description:  "Composition for tavlesse Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

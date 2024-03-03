@@ -4,7 +4,7 @@ Instance: composition-en-61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nimenrix Package Leaflet"
 Description:  "Composition for nimenrix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

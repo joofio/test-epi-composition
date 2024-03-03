@@ -4,7 +4,7 @@ Instance: composition-en-f4481348d9114628b637efdc170b1539
 InstanceOf: CompositionUvEpi
 Title: "Composition for lixiana Package Leaflet"
 Description:  "Composition for lixiana Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8d701e4538054dcfc1e7cc34c7f1602b
 InstanceOf: CompositionUvEpi
 Title: "Composition for telmisartan Package Leaflet"
 Description:  "Composition for telmisartan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

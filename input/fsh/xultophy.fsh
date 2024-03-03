@@ -4,7 +4,7 @@ Instance: composition-en-616a2493f2581291ddc019d50fec7c8b
 InstanceOf: CompositionUvEpi
 Title: "Composition for xultophy Package Leaflet"
 Description:  "Composition for xultophy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

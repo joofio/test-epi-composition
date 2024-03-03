@@ -4,7 +4,7 @@ Instance: composition-en-531eb8ae17db2e55096165b0d4052b52
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozawade Package Leaflet"
 Description:  "Composition for ozawade Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e4cbd39afc9fcf037ef25af79a801130
 InstanceOf: CompositionUvEpi
 Title: "Composition for hexacima Package Leaflet"
 Description:  "Composition for hexacima Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-133076b034a4711dfc1fe81f7acd828f
 InstanceOf: CompositionUvEpi
 Title: "Composition for trecondi Package Leaflet"
 Description:  "Composition for trecondi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

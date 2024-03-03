@@ -4,7 +4,7 @@ Instance: composition-en-3303bb5898bc0c0c96b4a3e7898ece7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for temozolomide Package Leaflet"
 Description:  "Composition for temozolomide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

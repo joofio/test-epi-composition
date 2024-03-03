@@ -4,7 +4,7 @@ Instance: composition-en-2879bea9059649bf46970484a32311c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ryeqo Package Leaflet"
 Description:  "Composition for ryeqo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

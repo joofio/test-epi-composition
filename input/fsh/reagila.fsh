@@ -4,7 +4,7 @@ Instance: composition-en-cbc8bd303ae5e6a2b05a1e976deb4928
 InstanceOf: CompositionUvEpi
 Title: "Composition for reagila Package Leaflet"
 Description:  "Composition for reagila Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

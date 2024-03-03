@@ -4,7 +4,7 @@ Instance: composition-en-6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: CompositionUvEpi
 Title: "Composition for roctavian Package Leaflet"
 Description:  "Composition for roctavian Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

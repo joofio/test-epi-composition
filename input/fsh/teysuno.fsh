@@ -4,7 +4,7 @@ Instance: composition-en-fb96b1dc5afe6a6be061ee19866b2fbc
 InstanceOf: CompositionUvEpi
 Title: "Composition for teysuno Package Leaflet"
 Description:  "Composition for teysuno Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

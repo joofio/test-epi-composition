@@ -4,7 +4,7 @@ Instance: composition-en-3f214a4f5ac8e3dc74014e21089eb5bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxneuvance Package Leaflet"
 Description:  "Composition for vaxneuvance Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

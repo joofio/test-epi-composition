@@ -4,7 +4,7 @@ Instance: composition-en-1d04d08431237504735e48c47e138afc
 InstanceOf: CompositionUvEpi
 Title: "Composition for pheburane Package Leaflet"
 Description:  "Composition for pheburane Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

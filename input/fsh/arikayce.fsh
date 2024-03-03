@@ -4,7 +4,7 @@ Instance: composition-en-5567fe4258ad803585d82a002a45d53a
 InstanceOf: CompositionUvEpi
 Title: "Composition for arikayce Package Leaflet"
 Description:  "Composition for arikayce Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

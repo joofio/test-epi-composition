@@ -4,7 +4,7 @@ Instance: composition-en-69d1d159ef4725f9647ff9342948ec87
 InstanceOf: CompositionUvEpi
 Title: "Composition for lymphoseek Package Leaflet"
 Description:  "Composition for lymphoseek Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

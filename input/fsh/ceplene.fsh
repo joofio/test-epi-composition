@@ -4,7 +4,7 @@ Instance: composition-en-9cc5a377e0f85672103b781eea8f9015
 InstanceOf: CompositionUvEpi
 Title: "Composition for ceplene Package Leaflet"
 Description:  "Composition for ceplene Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

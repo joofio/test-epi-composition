@@ -4,7 +4,7 @@ Instance: composition-en-c655ba158247aca6fe88c56a30a2ce75
 InstanceOf: CompositionUvEpi
 Title: "Composition for jetrea Package Leaflet"
 Description:  "Composition for jetrea Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e8001a6516c891d8a1ff3a481f290741
 InstanceOf: CompositionUvEpi
 Title: "Composition for tivicay Package Leaflet"
 Description:  "Composition for tivicay Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

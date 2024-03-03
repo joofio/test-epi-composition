@@ -4,7 +4,7 @@ Instance: composition-en-89670b1717cc4fba97455ede14b8028c
 InstanceOf: CompositionUvEpi
 Title: "Composition for mvasi Package Leaflet"
 Description:  "Composition for mvasi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

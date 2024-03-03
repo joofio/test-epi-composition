@@ -4,7 +4,7 @@ Instance: composition-en-0e083183aa938d85093b67721bbbd8fb
 InstanceOf: CompositionUvEpi
 Title: "Composition for reyataz Package Leaflet"
 Description:  "Composition for reyataz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

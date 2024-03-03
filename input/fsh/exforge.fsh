@@ -4,7 +4,7 @@ Instance: composition-en-a87aeb4164e26122eca456ab1e8b7c21
 InstanceOf: CompositionUvEpi
 Title: "Composition for exforge Package Leaflet"
 Description:  "Composition for exforge Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

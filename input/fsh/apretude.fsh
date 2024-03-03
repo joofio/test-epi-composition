@@ -4,7 +4,7 @@ Instance: composition-en-4a43236fb582d17d10a1516a86f60348
 InstanceOf: CompositionUvEpi
 Title: "Composition for apretude Package Leaflet"
 Description:  "Composition for apretude Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

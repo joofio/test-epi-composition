@@ -4,7 +4,7 @@ Instance: composition-en-512ab8ffe41d5df4e3eadcdfe3968ea9
 InstanceOf: CompositionUvEpi
 Title: "Composition for aybintio Package Leaflet"
 Description:  "Composition for aybintio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

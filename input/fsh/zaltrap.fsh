@@ -4,7 +4,7 @@ Instance: composition-en-6569b151297f81a41ed28c44518ea9a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for zaltrap Package Leaflet"
 Description:  "Composition for zaltrap Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

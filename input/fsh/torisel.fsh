@@ -4,7 +4,7 @@ Instance: composition-en-4e8e0c5f72dbc27f3ff2eb4a522fe300
 InstanceOf: CompositionUvEpi
 Title: "Composition for torisel Package Leaflet"
 Description:  "Composition for torisel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9690a7f47a287edf985eddd979c0833b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imnovid Package Leaflet"
 Description:  "Composition for imnovid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

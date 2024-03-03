@@ -4,7 +4,7 @@ Instance: composition-en-03637352751fb140a2fd90a9d4f091a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for pelgraz Package Leaflet"
 Description:  "Composition for pelgraz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

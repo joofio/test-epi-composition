@@ -4,7 +4,7 @@ Instance: composition-en-691dd468387a7314644483dde7be004c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyxeos Package Leaflet"
 Description:  "Composition for vyxeos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

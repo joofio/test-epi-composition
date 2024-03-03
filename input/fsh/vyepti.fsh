@@ -4,7 +4,7 @@ Instance: composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyepti Package Leaflet"
 Description:  "Composition for vyepti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

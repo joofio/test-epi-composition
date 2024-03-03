@@ -4,7 +4,7 @@ Instance: composition-en-9dc703bc672ed093a819de38cd335ddf
 InstanceOf: CompositionUvEpi
 Title: "Composition for aclasta Package Leaflet"
 Description:  "Composition for aclasta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

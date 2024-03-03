@@ -4,7 +4,7 @@ Instance: composition-en-0765874a313ce115023e01847b82b59e
 InstanceOf: CompositionUvEpi
 Title: "Composition for arsenic Package Leaflet"
 Description:  "Composition for arsenic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

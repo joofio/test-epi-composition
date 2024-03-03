@@ -4,7 +4,7 @@ Instance: composition-en-73e905abf90c6054f35e5dd38ca6e3a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zypadhera Package Leaflet"
 Description:  "Composition for zypadhera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-c035528dfd6d4e6a78efce6dbdfc502c
 InstanceOf: CompositionUvEpi
 Title: "Composition for neupro Package Leaflet"
 Description:  "Composition for neupro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

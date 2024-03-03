@@ -4,7 +4,7 @@ Instance: composition-en-6a4f56969477d35dda930b9433ba77df
 InstanceOf: CompositionUvEpi
 Title: "Composition for abraxane Package Leaflet"
 Description:  "Composition for abraxane Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

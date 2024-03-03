@@ -4,7 +4,7 @@ Instance: composition-en-0e387e560fa6e1178c04c02876196a66
 InstanceOf: CompositionUvEpi
 Title: "Composition for trepulmix Package Leaflet"
 Description:  "Composition for trepulmix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-73814721e492c5f1086b1c5537e49b46
 InstanceOf: CompositionUvEpi
 Title: "Composition for lysakare Package Leaflet"
 Description:  "Composition for lysakare Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

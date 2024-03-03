@@ -4,7 +4,7 @@ Instance: composition-en-ed2ea7f84dcb14b5fa486093df321548
 InstanceOf: CompositionUvEpi
 Title: "Composition for kanuma Package Leaflet"
 Description:  "Composition for kanuma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

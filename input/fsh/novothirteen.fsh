@@ -4,7 +4,7 @@ Instance: composition-en-85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: CompositionUvEpi
 Title: "Composition for novothirteen Package Leaflet"
 Description:  "Composition for novothirteen Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

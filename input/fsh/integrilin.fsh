@@ -4,7 +4,7 @@ Instance: composition-en-444c9ba43fa8be9df56ba30d3dc13ea7
 InstanceOf: CompositionUvEpi
 Title: "Composition for integrilin Package Leaflet"
 Description:  "Composition for integrilin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

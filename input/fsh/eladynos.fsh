@@ -4,7 +4,7 @@ Instance: composition-en-3aa969282c152694c6f4b966217ad337
 InstanceOf: CompositionUvEpi
 Title: "Composition for eladynos Package Leaflet"
 Description:  "Composition for eladynos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

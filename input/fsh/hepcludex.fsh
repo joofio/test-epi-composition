@@ -4,7 +4,7 @@ Instance: composition-en-b09f5aad6df76e91a7314393eef4e2a9
 InstanceOf: CompositionUvEpi
 Title: "Composition for hepcludex Package Leaflet"
 Description:  "Composition for hepcludex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

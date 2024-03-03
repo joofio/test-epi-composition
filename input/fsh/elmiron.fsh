@@ -4,7 +4,7 @@ Instance: composition-en-5245a6b0f8b8592e9406a25ffe7ba2b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for elmiron Package Leaflet"
 Description:  "Composition for elmiron Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a9cc1591b2509e823baad904a2322951
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapiscan Package Leaflet"
 Description:  "Composition for rapiscan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2bcf0e7ec94902b3190ce3b77086faa9
 InstanceOf: CompositionUvEpi
 Title: "Composition for comirnaty Package Leaflet"
 Description:  "Composition for comirnaty Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

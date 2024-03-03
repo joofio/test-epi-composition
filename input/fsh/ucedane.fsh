@@ -4,7 +4,7 @@ Instance: composition-en-18d76b54ce97b530a72d79629f6d8b0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ucedane Package Leaflet"
 Description:  "Composition for ucedane Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

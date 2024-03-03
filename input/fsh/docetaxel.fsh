@@ -4,7 +4,7 @@ Instance: composition-en-211825d32829aaffbdc41442ec401539
 InstanceOf: CompositionUvEpi
 Title: "Composition for docetaxel Package Leaflet"
 Description:  "Composition for docetaxel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

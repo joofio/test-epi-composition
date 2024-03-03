@@ -4,7 +4,7 @@ Instance: composition-en-46cbfe5777bd3b1e57f9128081413227
 InstanceOf: CompositionUvEpi
 Title: "Composition for padcev Package Leaflet"
 Description:  "Composition for padcev Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ajovy Package Leaflet"
 Description:  "Composition for ajovy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-943ee66eb6c14bbfb08d263a24ef8bd8
 InstanceOf: CompositionUvEpi
 Title: "Composition for ilaris Package Leaflet"
 Description:  "Composition for ilaris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

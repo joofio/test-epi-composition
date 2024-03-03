@@ -4,7 +4,7 @@ Instance: composition-en-fcd6f0f28646833495976357e48ff691
 InstanceOf: CompositionUvEpi
 Title: "Composition for kyprolis Package Leaflet"
 Description:  "Composition for kyprolis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-fcac0917e849c1f92a8946a3de74e720
 InstanceOf: CompositionUvEpi
 Title: "Composition for talzenna Package Leaflet"
 Description:  "Composition for talzenna Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

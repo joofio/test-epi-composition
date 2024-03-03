@@ -4,7 +4,7 @@ Instance: composition-en-48d92e6f37b4f6c7f2463bf11b72f4f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for giapreza Package Leaflet"
 Description:  "Composition for giapreza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

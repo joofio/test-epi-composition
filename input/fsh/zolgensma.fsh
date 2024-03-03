@@ -4,7 +4,7 @@ Instance: composition-en-450a2756e86d4ee716d31aea73ea0dcf
 InstanceOf: CompositionUvEpi
 Title: "Composition for zolgensma Package Leaflet"
 Description:  "Composition for zolgensma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

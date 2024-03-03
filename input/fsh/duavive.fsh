@@ -4,7 +4,7 @@ Instance: composition-en-082e15b5bc22cfe8d68c67168679c322
 InstanceOf: CompositionUvEpi
 Title: "Composition for duavive Package Leaflet"
 Description:  "Composition for duavive Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

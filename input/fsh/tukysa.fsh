@@ -4,7 +4,7 @@ Instance: composition-en-31b0725ade6496816df8ac216511de2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for tukysa Package Leaflet"
 Description:  "Composition for tukysa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

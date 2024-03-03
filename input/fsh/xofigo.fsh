@@ -4,7 +4,7 @@ Instance: composition-en-f97dbfd4ac971d9fb81fe7dca78ad6d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofigo Package Leaflet"
 Description:  "Composition for xofigo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

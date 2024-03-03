@@ -4,7 +4,7 @@ Instance: composition-en-be9db91b2fc9e7875c1d16b059d2f7e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ulunar Package Leaflet"
 Description:  "Composition for ulunar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

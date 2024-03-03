@@ -4,7 +4,7 @@ Instance: composition-en-b4d9b93668736e17b1df580d2cd21bf6
 InstanceOf: CompositionUvEpi
 Title: "Composition for byooviz Package Leaflet"
 Description:  "Composition for byooviz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

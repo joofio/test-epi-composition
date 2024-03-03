@@ -4,7 +4,7 @@ Instance: composition-en-cfc95904923247d7443916f837f8854a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ixiaro Package Leaflet"
 Description:  "Composition for ixiaro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

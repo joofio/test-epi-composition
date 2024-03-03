@@ -4,7 +4,7 @@ Instance: composition-en-443c755443342bac5ae9c42b145300e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for vydura Package Leaflet"
 Description:  "Composition for vydura Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

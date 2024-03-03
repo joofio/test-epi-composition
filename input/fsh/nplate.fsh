@@ -4,7 +4,7 @@ Instance: composition-en-234b7cd047275c814324a4fe38812d55
 InstanceOf: CompositionUvEpi
 Title: "Composition for nplate Package Leaflet"
 Description:  "Composition for nplate Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

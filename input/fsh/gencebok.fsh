@@ -4,7 +4,7 @@ Instance: composition-en-0e740cbcd467e91defd399867ba46373
 InstanceOf: CompositionUvEpi
 Title: "Composition for gencebok Package Leaflet"
 Description:  "Composition for gencebok Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

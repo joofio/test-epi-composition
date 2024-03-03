@@ -4,7 +4,7 @@ Instance: composition-en-a79877ebbdc6a1bef13ecf627450a2db
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexavar Package Leaflet"
 Description:  "Composition for nexavar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-c9326f0c06c08c17104ae87ab98b71ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for tysabri Package Leaflet"
 Description:  "Composition for tysabri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

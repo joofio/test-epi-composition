@@ -4,7 +4,7 @@ Instance: composition-en-0f6a84278808352360adad06f9595bc9
 InstanceOf: CompositionUvEpi
 Title: "Composition for herwenda Package Leaflet"
 Description:  "Composition for herwenda Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

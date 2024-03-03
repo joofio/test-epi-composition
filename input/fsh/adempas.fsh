@@ -4,7 +4,7 @@ Instance: composition-en-a0ac9d79e71815d66e8cc1b00ebabcb0
 InstanceOf: CompositionUvEpi
 Title: "Composition for adempas Package Leaflet"
 Description:  "Composition for adempas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

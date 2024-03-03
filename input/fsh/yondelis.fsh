@@ -4,7 +4,7 @@ Instance: composition-en-d8787a27d7ba4af2fcd538383133d1e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for yondelis Package Leaflet"
 Description:  "Composition for yondelis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

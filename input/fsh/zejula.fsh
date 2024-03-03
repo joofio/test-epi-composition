@@ -4,7 +4,7 @@ Instance: composition-en-a48fce64d5ddc98dc0fe03d5edc214e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zejula Package Leaflet"
 Description:  "Composition for zejula Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

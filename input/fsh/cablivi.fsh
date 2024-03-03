@@ -4,7 +4,7 @@ Instance: composition-en-2d5ce8dc4824b4100ae659aba75ae904
 InstanceOf: CompositionUvEpi
 Title: "Composition for cablivi Package Leaflet"
 Description:  "Composition for cablivi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

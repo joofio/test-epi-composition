@@ -4,7 +4,7 @@ Instance: composition-en-a8827a69a4f2a8d5bccee719c4738936
 InstanceOf: CompositionUvEpi
 Title: "Composition for cufence Package Leaflet"
 Description:  "Composition for cufence Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

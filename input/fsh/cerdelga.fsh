@@ -4,7 +4,7 @@ Instance: composition-en-ed982183c35912e878ca478e2f38304e
 InstanceOf: CompositionUvEpi
 Title: "Composition for cerdelga Package Leaflet"
 Description:  "Composition for cerdelga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9a812fa3e42e6b177fc77f392e7869b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for sylvant Package Leaflet"
 Description:  "Composition for sylvant Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

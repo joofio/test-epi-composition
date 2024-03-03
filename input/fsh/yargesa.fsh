@@ -4,7 +4,7 @@ Instance: composition-en-6c515aae840296fe980507ee7ecb6244
 InstanceOf: CompositionUvEpi
 Title: "Composition for yargesa Package Leaflet"
 Description:  "Composition for yargesa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

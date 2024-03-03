@@ -4,7 +4,7 @@ Instance: composition-en-5d02d3e6ef8b2844756e52230b8e78e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for iasibon Package Leaflet"
 Description:  "Composition for iasibon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

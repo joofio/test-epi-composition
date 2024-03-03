@@ -4,7 +4,7 @@ Instance: composition-en-23c171402ffd8448c1d943b191514c66
 InstanceOf: CompositionUvEpi
 Title: "Composition for prialt Package Leaflet"
 Description:  "Composition for prialt Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

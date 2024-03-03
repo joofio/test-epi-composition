@@ -4,7 +4,7 @@ Instance: composition-en-3a2e83e300727740331b28eb7f2593e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for cotellic Package Leaflet"
 Description:  "Composition for cotellic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

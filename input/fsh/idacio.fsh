@@ -4,7 +4,7 @@ Instance: composition-en-7b06c05fd92836401373297097be0166
 InstanceOf: CompositionUvEpi
 Title: "Composition for idacio Package Leaflet"
 Description:  "Composition for idacio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-dec3a1f5841f1029014aecf2cec0d0c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for axura Package Leaflet"
 Description:  "Composition for axura Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

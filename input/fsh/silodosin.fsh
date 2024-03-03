@@ -4,7 +4,7 @@ Instance: composition-en-97c09c3f6bb46169676674f25613736c
 InstanceOf: CompositionUvEpi
 Title: "Composition for silodosin Package Leaflet"
 Description:  "Composition for silodosin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

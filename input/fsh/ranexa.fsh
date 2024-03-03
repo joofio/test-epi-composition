@@ -4,7 +4,7 @@ Instance: composition-en-2128cb95d4d26d25d7fa2c3944c0ae92
 InstanceOf: CompositionUvEpi
 Title: "Composition for ranexa Package Leaflet"
 Description:  "Composition for ranexa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 
