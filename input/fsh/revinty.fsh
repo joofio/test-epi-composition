@@ -88,8 +88,8 @@ attacks of asthma and aggravation of COPD. </p>
 the small air passages in the lungs. This helps to open the airways and makes it easier for air to get in 
 and out of the lungs. When it is taken regularly, it helps the small air passages to remain open. </p>
 <p>When you take these two active substances together regularly, they will help to control your breathing 
-difficulties more than either medicine alone. </p>
-<p>Asthma is a serious, long term lung disease where the muscles surrounding the smaller airways 
+difficulties more than either medicine alone. 
+Asthma is a serious, long term lung disease where the muscles surrounding the smaller airways 
 become tight (bronchoconstriction) and swollen and irritated (inflammation). Symptoms come and go 
 and include shortness of breath, wheezing, chest tightness and cough. Revinty Ellipta has been shown 
 to reduce flare-ups and symptoms of asthma.  </p>
@@ -139,8 +139,8 @@ the lungs known as pneumonia. See section 4 for information on symptoms to look 
 are using this medicine. Tell your doctor as soon as possible if you develop any of these symptoms. </p>
 <p>Children and adolescents 
 Do not give this medicine to children under the age of 12 years for the treatment of asthma, or in 
-children and adolescents of any age for the treatment of COPD. </p>
-<p>Other medicines and Revinty Ellipta 
+children and adolescents of any age for the treatment of COPD. 
+Other medicines and Revinty Ellipta 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicinesn. If you are not sure what your medicine contains talk to your doctor or pharmacist. </p>
 <p>Some medicines may affect how this medicine works, or make it more likely that you will have side 
@@ -186,8 +186,8 @@ The recommended dose to treat COPD is one inhalation (92 micrograms of fluticaso
 22 micrograms of vilanterol) once daily at the same time each day. </p>
 <p>The higher strength of Revinty Ellipta (184 micrograms fluticasone furoate and 22 micrograms of 
 vilanterol) is not suitable for the treatment of COPD. </p>
-<p>Revinty Ellipta is for oral inhalation. </p>
-<p>Use Revinty Ellipta at the same time each day as it is effective over 24 hours<br />
+<p>Revinty Ellipta is for oral inhalation. 
+Use Revinty Ellipta at the same time each day as it is effective over 24 hours<br />
 It is very important that you use this medicine every day, as instructed by your doctor. This will help 
 to keep you free of symptoms throughout the day and night. </p>
 <p>Revinty Ellipta should not be used to relieve a sudden attack of breathlessness or wheezing. If 
@@ -354,8 +354,7 @@ Te .: +359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g 
@@ -368,18 +367,16 @@ Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +356 80065Deutschland 
 BERLIN-CHEMIE AG 
-Tel.: +49 (0) 30 67 
-Nederland 
+Tel.: +49 (0) 30 67Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0) 33 2081 
-Eesti 
+Tel: + 31 (0) 33 2081Eesti 
 O  Berlin-Chemie Menarini Eesti<br />
 Tel: +372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>Guidotti Hellas A.E. 
- : +30 210 8316111-  sterreich 
+Tlf: + 47 22 70 20 <br />
+Guidotti Hellas A.E. 
+ : +30 210 8316111- sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
@@ -388,43 +385,36 @@ FAES FARMA, S.A.
 Tel: + 34 900 460 aweber@faes.es  </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 
-France 
+Tel.: + 48 (0)22 576 9France 
 MENARINI France 
-T l.: + 33 (0)1 45 60 77<br />
-Portugal 
+T l.: + 33 (0)1 45 60 77 Portugal 
 BIAL, Portela &amp; Ca. SA. 
 Tel: + 351 22 986 61 info@bial.com  </p>
 <p>Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
-Tel: +385 1 4821 361<br />
-office-croatia@berlin-chemie.com </p>
+Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
 <p>Rom nia 
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 </p>
-<p>Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
 <p>Italia 
 A. Menarini Industrie Farmaceutiche 
 Riunite s.r.l. 
-Tel: +39-055 56 
-Suomi/Finland 
+Tel: +39-055 56Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline (Ireland) Limited<br />
- : +357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline (Ireland) Limited<br />
+ : +357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
@@ -433,7 +423,7 @@ Tel: +371 67103lv@berlin-chemie.com
 United Kingdom (Northern Ireland) 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em>  </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -334,72 +334,54 @@ Perrigo Belgium NV
 Omega Pharma a.s. 
 Tel : +420 603 407 Magyarorsz g 
 Zentiva Pharma Kft. 
-Tel.: + 36 1 299 1 
-Danmark 
+Tel.: + 36 1 299 1Danmark 
 Perrigo Sverige AB 
 Tel: +46 8 59 00 29 Malta 
 Laboratoire HRA Pharma 
-Tel: + 33-(0)1 40 33 11<br />
-Deutschland 
+Tel: + 33-(0)1 40 33 11 Deutschland 
 Perrigo Deutschland GmbH 
-+49 7032 9154<br />
-Nederland 
++49 7032 9154 Nederland 
 Omega Pharma Nederland BV 
-Tel: +31 (0) 10 2211 
-Eesti 
+Tel: +31 (0) 10 2211Eesti 
 Orivas O<br />
 Tel: +372 639 8Norge 
 Perrigo Sverige AB 
-Tel: +46 8 59 00 29  </p>
-<p>. . 
- : + 30 210 8009111-  sterreich 
+Tel: +46 8 59 00 29 <br />
+   . . 
+ : + 30 210 8009111- sterreich 
 Perrigo Deutschland GmbH 
-+49 7032 9154<br />
-Espa a 
++49 7032 9154 Espa a 
 Perrigo Espa a, S.A. 
 Polska 
 Perrigo Poland Sp. z o.o. </p>
-<p>Tel: +34 902 889  </p>
-<p>Tel: +48 (22) 489 54<br />
-France 
+<p>Tel: +34 902 889 Tel: +48 (22) 489 54 France 
 Laboratoire Perrigo France 
-T l/Tel: + 33-(0) 1 55 48 18<br />
-Portugal 
+T l/Tel: + 33-(0) 1 55 48 18 Portugal 
 Perrigo Portugal Lda. 
-Tel: +351 214 167<br />
-Hrvatska 
+Tel: +351 214 167 Hrvatska 
 Arenda d.o.o. 
-Tel: + 385-(0)1 644 44<br />
-Rom nia 
+Tel: + 385-(0)1 644 44 Rom nia 
 Perrigo Romania S.R.L.<br />
-Tel: +40 213 150 344<br />
-Ireland 
+Tel: +40 213 150 Ireland 
 Laboratoire HRA Pharma 
-Tel: + 33-(0)1 40 33 11<br />
-Slovenija 
+Tel: + 33-(0)1 40 33 11 Slovenija 
 Dr. Gorki  d.o.o. 
-Tel: + 386-(0)1 7590<br />
- sland 
+Tel: + 386-(0)1 7590  sland 
 Laboratoire HRA Pharma 
-S mi: + 33-(0)1 40 33 11<br />
-Slovensk  republika 
+S mi: + 33-(0)1 40 33 11 Slovensk  republika 
 Omega Pharma a.s. 
-Tel : +420 603 407 623<br />
-Italia 
+Tel : +420 603 407 Italia 
 Perrigo Italia S.r.l 
-Tel: + 39 06 90250 
-Suomi/Finland 
+Tel: + 39 06 90250Suomi/Finland 
 Perrigo Sverige AB 
-Tel: +46 8 59 00 29  </p>
-<p>. . 
- : + 30 210 8009111- Sverige 
+Tel: +46 8 59 00 29 <br />
+   . . 
+ : + 30 210 8009111-Sverige 
 Perrigo Sverige AB 
-Tel: +46 8 59 00 29<br />
-Latvija 
+Tel: +46 8 59 00 29 Latvija 
 Orivas SIA 
 Tel: +371 676 124 United Kingdom (Northern Ireland) 
 Laboratoire HRA Pharma 
-Tel: + 33-(0)1 40 33 11<br />
-This leaflet was last revised in  </p>
+Tel: + 33-(0)1 40 33 11 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

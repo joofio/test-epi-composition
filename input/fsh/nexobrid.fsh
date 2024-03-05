@@ -268,8 +268,8 @@ medicine. </p>         </div>"""
 <p>NexoBrid must be stored upright to keep the gel at the bottom of the bottle and in the original package to 
 protect from light. 
 Do not freeze.  </p>
-<p>NexoBrid should be used within 15 minutes after mixing the powder with the gel. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
+<p>NexoBrid should be used within 15 minutes after mixing the powder with the gel. 
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
 away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         

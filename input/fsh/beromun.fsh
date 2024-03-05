@@ -257,8 +257,7 @@ For any information about this medicine, please contact the Marketing Authorisat
 2, Rue Albert 1er<br />
 L-1117 Luxembourg 
 Grand Duchy of Luxembourg 
-Tel : +352 27403 
-This leaflet was last revised in  </p>
+Tel : +352 27403This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -191,8 +191,8 @@ of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store klisyri"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not refrigerate or freeze. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not refrigerate or freeze. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and the label after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>For single use only. Do not re-use the sachets once opened.  </p>
@@ -208,5 +208,50 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Klisyri contains<br />
 - The active substance is tirbanibulin. Each sachet contains 2.5 mg of tirbanibulin in 250 mg 
 ointment. Each gram of ointment contains 10 mg of tirbanibulin. 
-- The other ingredients are propylene glycol and glycerol monostearate 40-5</p>         </div>"""      
+- The other ingredients are propylene glycol and glycerol monostearate 40-55. What Klisyri looks like and contents of the pack 
+Each Klisyri sachet contains 250 mg of white to off-white ointment. 
+Each box contains 5 polyethylene/aluminium foil sachets.  </p>
+<p>Marketing Authorisation Holder<br />
+Almirall, S.A. 
+Ronda General Mitre, 08022 Barcelona<br />
+Spain </p>
+<p>Manufacturer 
+Almirall Hermal GmbH 
+Scholtzstrasse 3 
+21465 Reinbek 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien/ 
+Luxembourg/Luxemburg<br />
+Almirall N.V. 
+T l/Tel: +32 (0)2 771 86  sland<br />
+Vistor hf. 
+S mi: +354 535 70  /  esk  republika/ Eesti/  / 
+Espa a/ Hrvatska/  / Latvija/ Lietuva/ 
+Magyarorsz g/ Malta/ Rom nia/ Slovenija/ 
+Slovensk  republika<br />
+Almirall, S.A. 
+Te ./ Tel/  : +34 93 291 30 Tel ( esk  republika / Slovensk  republika): 
++420 220 990 Italia<br />
+Almirall SpA 
+Tel.: +39 02 346Danmark/ Norge/ Suomi/Finland/ Sverige<br />
+Almirall ApS 
+Tlf/ Puh/Tel: +45 70 25 75 Nederland<br />
+Almirall B.V. 
+Tel: +31 (0)307991Deutschland<br />
+ sterreich<br />
+Almirall Hermal GmbH 
+Tel.: +49 (0)40 72704-0  </p>
+<p>Almirall GmbH 
+Tel.: +43 (0)1/595 39 France<br />
+Almirall SAS, 1 
+T l.: +33(0)1 46 46 19 Polska<br />
+Almirall Sp.z o. o. 
+Tel.: +48 22 330 02 Ireland/ United Kingdom (Northern Ireland) 
+Almirall, S. A. 
+Tel: +353 (0) 1431 9Portugal<br />
+Almirall - Produtos Farmac uticos, Lda.<br />
+Tel.: +351 21 415 57 This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

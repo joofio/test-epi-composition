@@ -185,8 +185,8 @@ cycle), immediately after the Abraxane dose has been given. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everyone gets them. </p>
-<p>The very common side effects may affect more than 1 in 10 people: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everyone gets them. 
+The very common side effects may affect more than 1 in 10 people: 
 * Loss of hair (the majority of cases of hair loss happened less than one month after starting 
 Abraxane. When it happens, hair loss is pronounced (over 50%) in the majority of patients) 
 * Rash 
@@ -321,8 +321,7 @@ Plaza Blanchardstown Corporate Park 2
 Dublin 15, D15 TIreland </p>
 <p>Manufacturer </p>
 <p>Celgene Distribution B.V.<br />
-Orteliuslaan 1000<br />
-3528 BD Utrecht<br />
+Orteliuslaan 13528 BD Utrecht<br />
 Netherlands  </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in  </p>

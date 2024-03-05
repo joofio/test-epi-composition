@@ -285,8 +285,8 @@ Black iron oxide (E172)
 Potassium hydroxide (E525) 
 Propylene glycol (E1520) 
 Strong ammonia solution (E527) 
-Shellac (E904) </p>
-<p>What Opfolda looks like and contents of the pack </p>
+Shellac (E904) 
+What Opfolda looks like and contents of the pack </p>
 <p>Bottles of 4 and 24 capsules. 
 Not all pack sizes may be marketed. </p>
 <p>Size 2 hard capsule with a grey opaque cap and white opaque body with  AT2221  printed in black on 
@@ -346,8 +346,7 @@ Amicus Therapeutics Europe Limited<br />
 Tel: (+43) 0800 909 E-Mail: MedInfo@amicusrx.com 
 Espa a 
 Amicus Therapeutics S.L.U. 
-Tel: (+34) 900 941 616<br />
-e-mail: MedInfo@amicusrx.com </p>
+Tel: (+34) 900 941 e-mail: MedInfo@amicusrx.com </p>
 <p>Polska 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+48) 0080 012 15e-mail: MedInfo@amicusrx.com 

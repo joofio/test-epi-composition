@@ -216,8 +216,8 @@ If you are sick (vomit) after taking Cotellic, do not take an extra dose of Cote
 to take Cotellic as normal, the next day.   </p>
 <p>If you take more Cotellic than you should 
 If you take more Cotellic than you should, talk to a doctor straight away. Take the medicine package 
-and this leaflet with you.  </p>
-<p>If you forget to take Cotellic 
+and this leaflet with you.<br />
+If you forget to take Cotellic 
 * If it is more than 12 hours before your next dose, take the missed dose as soon as you 
 remember.<br />
 * If it is less than 12 hours before your next dose, skip the missed dose. Then take the next dose at 
@@ -349,89 +349,64 @@ Germany </p>
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien<br />
 N.V. Roche S.A.<br />
-T l/Tel: +32 (0) 2 525 82 11<br />
-Lietuva<br />
+T l/Tel: +32 (0) 2 525 82 Lietuva<br />
 UAB  Roche Lietuva <br />
-Tel: +370 5 2546799  </p>
-<p>: +359 2 818 44 44<br />
-Luxembourg/Luxemburg<br />
+Tel: +370 5 2546   </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg<br />
 (Voir/siehe Belgique/Belgien)<br />
  esk  republika<br />
 Roche s. r. o.<br />
-Tel: +420 - 2 20382111<br />
-Magyarorsz g<br />
+Tel: +420 - 2 20382Magyarorsz g<br />
 Roche (Magyarorsz g) Kft.<br />
 Tel: +36 - 1 279 4Danmark<br />
 Roche Pharmaceutical A/S<br />
-Tlf: +45 - 36 39 99 99<br />
-Malta<br />
+Tlf: +45 - 36 39 99 Malta<br />
 (see Ireland)<br />
 Deutschland<br />
 Roche Pharma AG<br />
-Tel: +49 (0) 7624 140<br />
-Nederland<br />
+Tel: +49 (0) 7624 Nederland<br />
 Roche Nederland B.V.<br />
-Tel: +31 (0) 348 438050<br />
-Eesti<br />
+Tel: +31 (0) 348 438Eesti<br />
 Roche Eesti O <br />
-Tel: + 372 - 6 177 380<br />
-Norge<br />
+Tel: + 372 - 6 177 Norge<br />
 Roche Norge AS<br />
-Tlf: +47 - 22 78 90 00  </p>
-<p>Roche (Hellas) A.E.<br />
- : +30 210 61 66 100<br />
- sterreich<br />
+Tlf: +47 - 22 78 90  <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich<br />
 Roche Austria GmbH<br />
-Tel: +43 (0) 1 27739<br />
-Espa a<br />
+Tel: +43 (0) 1 27Espa a<br />
 Roche Farma S.A.<br />
-Tel: +34 - 91 324 81 00<br />
-Polska<br />
+Tel: +34 - 91 324 81 Polska<br />
 Roche Polska Sp.z o.o.<br />
-Tel: +48 - 22 345 18 88<br />
-France<br />
+Tel: +48 - 22 345 18 France<br />
 Roche<br />
-T l: +33 (0) 1 47 61 40 00<br />
-Portugal<br />
+T l: +33 (0) 1 47 61 40 Portugal<br />
 Roche Farmac utica Qu mica, Lda<br />
-Tel: +351 - 21 425 70 00<br />
-Hrvatska<br />
+Tel: +351 - 21 425 70 Hrvatska<br />
 Roche d.o.o.<br />
-Tel: +385 1 4722 333<br />
-Rom nia<br />
+Tel: +385 1 4722 Rom nia<br />
 Roche Rom nia S.R.L.<br />
-Tel: +40 21 206 47 01<br />
-Ireland<br />
+Tel: +40 21 206 47 Ireland<br />
 Roche Products (Ireland) Ltd.<br />
-Tel: +353 (0) 1 469 0700<br />
-Slovenija<br />
+Tel: +353 (0) 1 469 0Slovenija<br />
 Roche farmacevtska dru ba d.o.o.<br />
-Tel: +386 - 1 360 26 00<br />
- sland<br />
+Tel: +386 - 1 360 26  sland<br />
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
-S mi: +354 540 8000<br />
-Slovensk  republika<br />
+S mi: +354 540 8Slovensk  republika<br />
 Roche Slovensko, s.r.o.<br />
-Tel: +421 - 2 52638201<br />
-Italia<br />
+Tel: +421 - 2 52638Italia<br />
 Roche S.p.A.<br />
-Tel: +39 - 039 2471<br />
-Suomi/Finland<br />
+Tel: +39 - 039 2Suomi/Finland<br />
 Roche Oy<br />
-Puh/Tel: +358 (0) 10 554 500<br />
-K <br />
+Puh/Tel: +358 (0) 10 554 K <br />
  . .  &amp;    .<br />
- : +357 - 22 76 62 76<br />
-Sverige<br />
+ : +357 - 22 76 62 Sverige<br />
 Roche AB<br />
-Tel: +46 (0) 8 726 1200<br />
-Latvija<br />
+Tel: +46 (0) 8 726 1Latvija<br />
 Roche Latvija SIA<br />
-Tel: +371 - 6 7039831<br />
-United Kingdom (Northern Ireland) <br />
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) <br />
 Roche Products (Ireland) Ltd.<br />
-Tel: +44 (0) 1707 366000  </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
+Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

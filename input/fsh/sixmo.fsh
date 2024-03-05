@@ -156,8 +156,8 @@ when getting up quickly. </li>
 </ul>
 <p>Children and adolescents </p>
 <p>Sixmo is not recommended for children under 18 years.  </p>
-<p>Patients over 65 years </p>
-<p>Sixmo is not recommended for patients over 65 years. </p>
+<p>Patients over 65 years 
+Sixmo is not recommended for patients over 65 years. </p>
 <p>Other medicines and Sixmo </p>
 <p>Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. </p>
 <p>Especially, inform your doctor during Sixmo treatment before using:<br />
@@ -412,83 +412,64 @@ Authorisation Holder: </p>
 Accord Healthcare bv 
 T l/Tel: +32 51 79 40 Lietuva 
 Accord Healthcare AB 
-Tel: +46 8 624 00  </p>
-<p>Accord Healthcare Polska Sp. z o.o. 
-Te .: +48 22 577 28<br />
-Luxembourg/Luxemburg 
-Accord Healthcare bv 
-T l/Tel: +32 51 79 40<br />
- esk  republika 
+Tel: +46 8 624 00 <br />
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28<br />
-Magyarorsz g 
+Te .: +48 22 577 28 Luxembourg/Luxemburg 
+Accord Healthcare bv 
+T l/Tel: +32 51 79 40  esk  republika 
+Accord Healthcare Polska Sp. z o.o. 
+Tel: +48 22 577 28 Magyarorsz g 
 Accord Healthcare Polska Sp. z o.o. 
 Tel.: +48 22 577 28 Danmark 
 Accord Healthcare AB 
-Tlf: + 46 8 624 00<br />
-Malta 
+Tlf: + 46 8 624 00 Malta 
 Accord Healthcare Ireland Ltd 
-Tel: +44 (0) 208 901 3 
-Deutschland 
+Tel: +44 (0) 208 901 3Deutschland 
 Accord Healthcare GmbH 
 Tel: +49 89 700 9951 0 </p>
 <p>Nederland 
 Accord Healthcare B.V. 
-Tel: +31 30 850 6 
-Eesti 
+Tel: +31 30 850 6Eesti 
 Accord Healthcare AB 
-Tel: +46 8 624 00<br />
-Norge 
+Tel: +46 8 624 00 Norge 
 Accord Healthcare AB 
-Tlf: + 46 8 624 00  </p>
-<p>Accord Healthcare Italia Srl 
- : +39 02 943 23 700 <br />
- sterreich 
+Tlf: + 46 8 624 00 <br />
+Accord Healthcare Italia Srl 
+ : +39 02 943 23  sterreich 
 Accord Healthcare GmbH 
 Tel: +43 (0)662 424899-0 </p>
 <p>Espa a 
 Accord Healthcare S.L.U. 
-Tel: +34 93 301 00<br />
-Polska 
+Tel: +34 93 301 00 Polska 
 Molteni Farmaceutici Polska Sp. z o.o. 
-Tel.: +48 (12) 653 15<br />
-France 
+Tel.: +48 (12) 653 15 France 
 Accord Healthcare France SAS 
-T l: +33 (0)320 401<br />
-Portugal 
+T l: +33 (0)320 401 Portugal 
 Accord Healthcare, Unipessoal Lda 
-Tel: +351 214 697<br />
-Hrvatska<br />
+Tel: +351 214 697 Hrvatska<br />
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28 Rom nia 
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28<br />
-Ireland 
+Tel: +48 22 577 28 Ireland 
 Accord Healthcare Ireland Ltd 
-Tel: +353 (0) 21 461 9 
-Slovenija 
+Tel: +353 (0) 21 461 9Slovenija 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28  sland 
 Accord Healthcare AB 
-S mi: + 46 8 624 00<br />
-Slovensk  republika 
+S mi: + 46 8 624 00 Slovensk  republika 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28 Italia 
 L.Molteni &amp; C. dei F.lli Alitti Soc.Es.S.p.A 
-Tel: +39 055 73 
-Suomi/Finland 
+Tel: +39 055 73Suomi/Finland 
 Accord Healthcare Oy 
-Puh/Tel. +358 10 231 4 </p>
-<p>Accord Healthcare S.L.U. 
+Puh/Tel. +358 10 231 4<br />
+Accord Healthcare S.L.U. 
 Tel: +34 93 301 00 Sverige 
 Accord Healthcare AB 
-Tel: + 46 (0)8 624 00<br />
-Latvija 
+Tel: + 46 (0)8 624 00 Latvija 
 Accord Healthcare AB 
-Tel: +46 8 624 00 25<br />
-United Kingdom (Northern Ireland) 
+Tel: +46 8 624 00 United Kingdom (Northern Ireland) 
 Accord-UK Ltd 
-Tel: +44 (0)1271 385 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0)1271 385This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

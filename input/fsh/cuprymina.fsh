@@ -99,8 +99,8 @@ Cuprymina should be received, used and administered only by authorised persons i
 settings. Their receipt, storage, use, transfer and disposal are subject to the regulations and/or 
 appropriate licences of the competent official organisation. 
 Radiopharmaceuticals should be prepared by the user in a manner which satisfies both radiation safety 
-and pharmaceutical quality requirements. </p>
-<p>It must be considered that the radiolabelled medicine emits high intensity Auger electrons. 
+and pharmaceutical quality requirements. 
+It must be considered that the radiolabelled medicine emits high intensity Auger electrons. 
 The condition of negligible radioactivity in the patient is reached, in practice, 4 days after injection. </p>
 <p>Children and adolescents 
 Medicines radiolabelled with Cuprymina should not be used in children and adolescents up to 18 years. </p>
@@ -146,8 +146,8 @@ developed and authorised for being combined with Cuprymina, and will be administ
 <p>Duration of the procedure 
 Your nuclear medicine doctor will inform you about the usual duration of the procedure before the 
 administration of the medicine radiolabelled with Cuprymina. </p>
-<p>After administration of the medicine radiolabelled with Cuprymina has been performed </p>
-<p>The nuclear medicine doctor will inform you if you need to take any special precautions after receiving 
+<p>After administration of the medicine radiolabelled with Cuprymina has been performed 
+The nuclear medicine doctor will inform you if you need to take any special precautions after receiving 
 the medicine radiolabelled with Cuprymina. Contact your nuclear medicine doctor if you have any 
 questions. </p>
 <p>If you have been given more medicine radiolabelled with Cuprymina than you should<br />

@@ -100,11 +100,9 @@ bowel becomes enfolded within another segment).
 Combined Immunodeficiency (SCID). 
 * if your child has a severe infection with a high temperature. It might be necessary to postpone 
 the vaccination until recovery. A minor infection such as a cold should not be a problem, but 
-talk to your doctor first. </p>
-<ul>
-<li>if your child has diarrhoea or is vomiting. It might be necessary to postpone the vaccination 
-until recovery. </li>
-</ul>
+talk to your doctor first. 
+* if your child has diarrhoea or is vomiting. It might be necessary to postpone the vaccination 
+until recovery. </p>
 <p>Warnings and precautions 
 Talk to your doctor/health care professional before your child receives Rotarix if: 
 * he/she has a close contact such as a household member who has a weakened immune system, 
@@ -151,8 +149,8 @@ This vaccine contains less than 1 mmol sodium (23 mg) in each dose, that is to s
 (1 mL liquid) will be given orally. Under no circumstance should this vaccine be administered by 
 injection. </p>
 <p>Your child will receive two doses of the vaccine. Each dose will be given on a separate occasion with 
-an interval of at least 4 weeks between the two doses. The first dose may be given from the age of 6 </p>
-<p>weeks. The two doses of the vaccine must have been given by the age of 24 weeks, although they 
+an interval of at least 4 weeks between the two doses. The first dose may be given from the age of 6 
+weeks. The two doses of the vaccine must have been given by the age of 24 weeks, although they 
 should preferably have been given before 16 weeks of age.  </p>
 <p>Rotarix may be given according to the same vaccination course to infants who were born prematurely, 
 provided that the pregnancy had lasted at least 27 weeks. </p>
@@ -204,8 +202,8 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use this vaccine after the expiry date which is stated on the carton. The expiry date refers to the 
-last day of that month. </p>
-<p>Store in a refrigerator (2  C   8  C). 
+last day of that month. 
+Store in a refrigerator (2  C   8  C). 
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>After reconstitution, the vaccine contained in the oral applicator should be administered promptly. If 
@@ -223,9 +221,8 @@ throw away medicines your child no longer uses. These measures will help to prot
 <ul>
 <li>The active substances are: </li>
 </ul>
-<p>Human rotavirus RIX4414 strain (live, attenuated)*<br />
-not less than 106.0 CCID </p>
-<p>*Produced on Vero cells </p>
+<p>Human rotavirus RIX4414 strain (live, attenuated)<em><br />
+not less than 106.0 CCID</em>Produced on Vero cells </p>
 <ul>
 <li>The other ingredients in Rotarix are:<br />
 Powder: dextran, sucrose, sorbitol (E420), amino acids (including phenylalanine), Dulbecco s 
@@ -242,5 +239,85 @@ transfer adapter which allows easy transfer of the solvent into the glass contai
 powder for mixing the different components of the vaccine. </p>
 <p>Both components must be mixed together before your child receives the vaccine. The mixed vaccine 
 will appear more turbid than the solvent alone. </p>
-<p>Rotarix is available in a pack of 1, 5, 10 or 2</p>         </div>"""      
+<p>Rotarix is available in a pack of 1, 5, 10 or 25. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>GlaxoSmithKline Biologicals SA 
+Rue de l Institut B-1330 Rixensart 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52 Lietuva 
+GlaxoSmithKline Biologicals SA 
+Tel. +370 80000<br />
+GlaxoSmithKline Biologicals SA 
+ . +359 80018Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52  esk  republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
+<p>Magyarorsz g 
+GlaxoSmithKline Biologicals SA 
+Tel.: +36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Biologicals SA 
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: + 49 (0)89 360448produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081Eesti 
+GlaxoSmithKline Biologicals SA<br />
+Tel: +372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+T : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH. 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com  </p>
+<p>Espa a 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9France 
+Laboratoire GlaxoSmithKline 
+T l: + 33 (0) 1 39 17 84 diam@gsk.com </p>
+<p>Hrvatska 
+GlaxoSmithKline Biologicals SA 
+Tel.: +385 800787Portugal 
+Smith Kline &amp; French Portuguesa - Produtos 
+Farmac uticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Rom nia 
+GlaxoSmithKline Biologicals SA 
+Tel: +40 800672Ireland 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5Slovenija 
+GlaxoSmithKline Biologicals SA 
+Tel: +386 80688 sland 
+Vistor hf. 
+S mi : +354 535 7Slovensk  republika 
+GlaxoSmithKline Biologicals SA 
+Tel: +421 800500Italia 
+Suomi/Finland 
+GlaxoSmithKline S.p.A. 
+Tel:+ 39 (0)45 7741 GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30 <br />
+GlaxoSmithKline Biologicals SA 
+ : +357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com 
+Latvija 
+GlaxoSmithKline Biologicals SA 
+Tel: +371 80205United Kingdom (Northern Ireland) 
+GlaxoSmithKline Biologicals SA<br />
+Tel: + 44 (0)800 221 customercontactuk@gsk.com </p>
+<p>This leaflet was last revised in. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -202,15 +202,7 @@ before taking this medicine. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you to. Check with your doctor if you are 
 not sure. </p>
 <p>Your doctor will determine which medicine and dose is right for you. </p>
-<p>Kalydeco dosing recommendations are provided in Table </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Table 1: Dosing recommendations </p>
+<p>Kalydeco dosing recommendations are provided in Table 1. Table 1: Dosing recommendations </p>
 <p>Morning 
 Evening 
 Kalydeco as monotherapy 
@@ -277,10 +269,15 @@ wait until your next scheduled dose as you normally would. Do not take a double 
 a forgotten dose. </p>
 <p>If you stop taking Kalydeco </p>
 <p>Take Kalydeco for as long as your doctor recommends. Do not stop unless your doctor advises you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>
-<p>4 
- Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects  </p>
 <p>Stomach (abdominal) ache and increased liver enzymes in the blood.  </p>
 <p>Possible signs of liver problems </p>
@@ -391,8 +388,7 @@ with  V 150  in black ink on one side and plain on the other. </p>
 Unit 49, Block F2, Northwood Court, Santry,<br />
 Dublin 9, D09 T665,<br />
 Ireland 
-Tel: +353 (0)1 761 7 
-Manufacturer </p>
+Tel: +353 (0)1 761 7Manufacturer </p>
 <p>Almac Pharma Services (Ireland) Limited 
 Finnabair Industrial Estate 
 Dundalk 
@@ -422,17 +418,14 @@ Suomi/Finland, Sverige, United Kingdom (Northern
 Ireland) 
 Vertex Pharmaceuticals (Ireland) Limited 
 T l/Tel/Te /Tlf/S mi/ /Puh:<br />
-+353 (0) 1 761 7 
-Espa a 
++353 (0) 1 761 7Espa a 
 Vertex Pharmaceuticals Spain, S.L. 
-Tel: + 34 91 7892 </p>
-<p>Vertex       <br />
- : +30 (211) 2120 
-Italia 
+Tel: + 34 91 7892<br />
+Vertex       <br />
+ : +30 (211) 2120Italia 
 Vertex Pharmaceuticals 
 (Italy) S.r.l. 
-Tel: +39 0697794 </p>
-<p>This leaflet was last revised in </p>
+Tel: +39 0697794This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. 
@@ -449,5 +442,5 @@ important information for your child.
 * This medicine has been prescribed for your child only. Do not pass it on to others. It may harm 
 them, even if their signs of illness are the same as your child s. 
 * If your child gets any side effects, talk to your child s doctor or pharmacist. This includes any 
-possible side effects not listed in this leaflet. See section </p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

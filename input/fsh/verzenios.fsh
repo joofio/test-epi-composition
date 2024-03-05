@@ -136,8 +136,8 @@ You should not use Verzenios if you are pregnant.  </p>
 contraception such as condom and diaphragm) during therapy and for at least 3 weeks after 
 completing therapy. Discuss contraception with your doctor if there is any possibility that you may 
 become pregnant. </p>
-<p>You must tell your doctor if you become pregnant. </p>
-<p>Breast-feeding 
+<p>You must tell your doctor if you become pregnant. 
+Breast-feeding 
 You should not breast-feed while taking Verzenios. It is not known if Verzenios passes into breast 
 milk. </p>
 <p>Fertility 
@@ -342,8 +342,7 @@ Tel: + 46-(0) 8 7378Latvija
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4377  </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information  </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in<br />
+Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

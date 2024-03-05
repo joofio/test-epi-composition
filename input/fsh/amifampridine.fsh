@@ -258,16 +258,14 @@ Pack-sizes of 90 x 1 tablets, 100 x 1 tablets and 120 x 1 tablets.
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 SERB S.A.<br />
-Avenue Louise 480 <br />
-1050 Bruxelles 
+Avenue Louise 1050 Bruxelles 
 Belgium </p>
 <p>Manufacturers 
 EXCELLA GmbH &amp; Co KG 
 N rnberger Strasse 90537 Feucht<br />
 Germany </p>
 <p>SERB S.A.<br />
-Avenue Louise 480 <br />
-1050 Bruxelles 
+Avenue Louise 1050 Bruxelles 
 Belgium  </p>
 <p>This leaflet was last revised in  </p>
 <p>Amifampridine SERB contains the same active substance and works in the same way as a  reference 

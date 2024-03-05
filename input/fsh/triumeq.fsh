@@ -383,8 +383,8 @@ These may affect up to 1 in 1000 people:
 * breakdown of muscle tissue 
 * liver failure (signs may include yellowing of the skin and the whites of the eyes or unusually dark 
 urine). 
-   suicide (particularly in patients who have had depression or mental health problems before) </p>
-<p>Tell your doctor immediately if you experience any mental health problems (see also other 
+   suicide (particularly in patients who have had depression or mental health problems before) 
+   Tell your doctor immediately if you experience any mental health problems (see also other 
 mental health problems above). </p>
 <p>Rare side effects that may show up in blood tests are: 
 * increase in bilirubin (a test of liver function) 
@@ -495,14 +495,12 @@ Authorisation Holder: </p>
 ViiV Healthcare srl/bv<br />
 T l/Tel: + 32 (0) 10 85 65 Lietuva 
 ViiV Healthcare BV<br />
-Tel: + 370 80000 </p>
-<p>ViiV Healthcare BV<br />
-Te .: + 359 80018 
-Luxembourg/Luxemburg 
+Tel: + 370 80000<br />
+ViiV Healthcare BV<br />
+Te .: + 359 80018Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv<br />
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 65<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 65  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
 <p>Magyarorsz g 
@@ -513,67 +511,54 @@ Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 ViiV Healthcare BV<br />
 Tel: + 356 80065Deutschland 
 ViiV Healthcare GmbH<br />
-Tel.: + 49 (0)89 203 0038-10<br />
-viiv.med.info@viivhealthcare.com  </p>
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com  </p>
 <p>Nederland 
 ViiV Healthcare BV<br />
-Tel: + 31 (0)33 2081 
-Eesti 
+Tel: + 31 (0)33 2081Eesti 
 ViiV Healthcare BV<br />
-Tel: + 372 8002 
-Norge 
+Tel: + 372 8002Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
  : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
 <p>Espa a 
 Laboratorios ViiV Healthcare, S.L.<br />
-Tel: + 34 900 923 501<br />
-es-ci@viivhealthcare.com </p>
+Tel: + 34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 
-France 
+Tel.: + 48 (0)22 576 9France 
 ViiV Healthcare SAS<br />
 T l.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
 <p>Portugal 
 VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
-Tel: + 351 21 094 08 01<br />
-viiv.fi.pt@viivhealthcare.com </p>
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV<br />
 Tel: + 385 800787Rom nia 
 ViiV Healthcare BV <br />
-Tel: + 40800672 </p>
-<p>Ireland 
+Tel: + 40800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 ViiV Healthcare BV<br />
-Tel: + 386 80688 
- sland 
+Tel: + 386 80688 sland 
 Vistor hf.<br />
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 ViiV Healthcare BV<br />
-Tel: + 421 800500 
-Italia 
+Tel: + 421 800500Italia 
 ViiV Healthcare S.r.l<br />
 Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>ViiV Healthcare BV<br />
- : + 357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+ViiV Healthcare BV<br />
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
 ViiV Healthcare BV<br />
-Tel: + 371 80205 
-United Kingdom (Northern Ireland) 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
 ViiV Healthcare BV<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>

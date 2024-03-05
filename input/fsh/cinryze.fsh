@@ -415,5 +415,68 @@ for one dose of 1000 IU.
 4. Release the powder vial label by tearing down the perforated strip indicated by the inverted 
 triangle.
 5. Remove plastic caps from the powder and solvent vials. 
-6. Cleanse stoppers with a disinfection swab and allow them to dry prior to use.</p>         </div>"""      
+6. Cleanse stoppers with a disinfection swab and allow them to dry prior to use.
+7. Remove protective covering from the top of the transfer device package. Do not remove the
+device from the package.
+8. Note: the transfer device must be attached to the solvent vial before being attached to the 
+powder vial, so that the vacuum in the powder vial is not lost. Place the solvent vial on a flat 
+surface and insert the blue end of the transfer device into the solvent vial, pushing down until 
+the spike penetrates through the centre of the solvent vial stopper and the device snaps in place. 
+The transfer device must be vertical prior to penetrating the stopper closure.
+9. Remove the plastic package from the transfer device and discard it. Take care not to touch the 
+exposed end of the transfer device.
+10. Place the powder vial on a flat surface. Invert the transfer device and the solvent vial containing 
+water for injections and insert the clear end of the transfer device into the powder vial, pushing 
+down until the spike penetrates the rubber stopper and the transfer device snaps into place. 
+The transfer device must be vertical prior to penetrating the stopper closure of the powder vial. 
+The vacuum in the powder vial will draw in the solvent. If there is no vacuum in the vial, do not 
+use the product.
+11. Gently swirl the powder vial until all powder is dissolved. Do not shake the
+powder vial. Make sure all the powder is completely dissolved.
+12. Disconnect the solvent vial by turning it anti-clockwise. Do not remove the clear end of the 
+transfer device from the powder vial.
+One vial of reconstituted Cinryze contains 500 IU of Human C1-esterase inhibitor in 5 ml, 
+resulting in a concentration of 100 IU/ml. Proceed to administration process if patients receive a 
+dose of 500 IU.
+Two vials of Cinryze powder must be reconstituted to make one dose (1000 IU/10 ml). Therefore 
+repeat instructions 1 to 12 above using an additional package containing a transfer device to 
+reconstitute the second of two powder vials. Do not reuse the transfer device. Once the two vials are 
+reconstituted proceed to administration process for a dose of 1000 IU.
+Administration process for a dose of 500 IU
+1. Aseptic technique should be used during the administration procedure.
+2. After reconstitution, the Cinryze solutions are colourless to slightly blue and clear. Do not use 
+the product if the solutions are turbid or discoloured.
+3. Using a sterile, disposable 10 ml syringe, draw back the plunger to allow approximately 5 ml of 
+air into the syringe.
+4. Attach the syringe onto the top of the clear end of the transfer device by turning it clockwise.
+5. Invert the vial gently and inject air into the solution and then slowly withdraw the reconstituted 
+Cinryze solution into the syringe. 
+6. Detach the syringe from the vial by turning it anti-clockwise and releasing it from the clear end 
+of the transfer device.
+7. Inspect the reconstituted Cinryze solution for particulate matter prior to administration; do not 
+use if particles are observed.
+8. Attach the venipuncture set to the syringe containing Cinryze solution and inject intravenously 
+(into the vein) into the patient. Administer 500 IU (reconstituted in 5 ml of water for injections) 
+of Cinryze by intravenous injection at a rate of 1 ml per minute over 5 minutes.
+Administration process for a dose of 1000 IU
+1. Aseptic technique should be used during the administration procedure.
+2. After reconstitution, the Cinryze solutions are colourless to slightly blue and clear. Do not use 
+the product if the solutions are turbid or discoloured.
+3. Using a sterile, disposable 10 ml syringe, draw back the plunger to allow approximately 5 ml of 
+air into the syringe.
+4. Attach the syringe onto the top of the clear end of the transfer device by turning it clockwise.
+5. Invert the vial gently and inject air into the solution and then slowly withdraw the reconstituted 
+Cinryze solution into the syringe.
+6. Detach the syringe from the vial by turning it anti-clockwise and releasing it from the clear 
+end of the transfer device. 
+7. Using the same syringe, repeat steps 3 to 6 with a second vial of reconstituted Cinryze to make 
+one complete 10 ml dose.
+8. Inspect the reconstituted Cinryze solution for particulate matter prior to administration; do not 
+use if particles are observed.
+9. Attach the venipuncture set to the syringe containing Cinryze solution and inject intravenously 
+(into the vein) into the patient. Administer 1000 IU (reconstituted in 10 ml of water for 
+injections) of Cinryze by intravenous injection (into the vein) at a rate of 1 ml per minute over 
+10 minutes. 
+Any unused medicinal product or waste material should be disposed of in accordance with local 
+requirements.</p>         </div>"""      
 

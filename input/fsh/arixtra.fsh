@@ -257,90 +257,65 @@ Aspen Notre Dame de Bondeville, 1 rue de l'Abbaye, F-76960 Notre Dame de Bondevi
 Marketing Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Mylan EPD bvba/sprl<br />
-Tel: + 32 (0)2 658 61 00       </p>
-<p>: +359 2 44 55       </p>
-<p>esk  republika 
+Tel: + 32 (0)2 658 61   </p>
+<p>: +359 2 44 55  esk  republika 
 Viatris CZ s.r.o. 
-Tel: + 420 222 004      <br />
-Lietuva 
+Tel: + 420 222 004 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 
-Luxembourg/Luxemburg 
+Tel: +370 5 205 1Luxembourg/Luxemburg 
 Mylan EPD bvba/sprl<br />
-Tel: + 32 (0)2 658 61 00<br />
-(Belgique/Belgien) </p>
+Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
 <p>Magyarorsz g 
 Mylan EPD Kft 
-Tel: + 36 1 465 2    <br />
-Danmark 
+Tel: + 36 1 465 2Danmark 
 Viatris ApS 
 Tel: +45 28 11 69 Malta 
 V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01      <br />
-Deutschland 
+Tel: + 356 21 22 01 Deutschland 
 Viatris Healthcare GmbH 
-Tel: +49 800 0700     <br />
-Nederland 
+Tel: +49 800 0700 Nederland 
 Mylan Healthcare BV<br />
-Tel: +31 (0)20 426 3300        </p>
-<p>Eesti 
+Tel: +31 (0)20 426 3Eesti 
 BGP Products Switzerland GmbH Eesti filiaal<br />
-Tel: + 372 6363 052       </p>
-<p>Norge 
+Tel: + 372 6363 Norge 
 Viatris AS 
-Tel: + 47 66 75 33        </p>
-<p>BGP    . . . . 
- : +30 210 9891     <br />
- sterreich 
+Tel: + 47 66 75 33 <br />
+BGP    . . . . 
+ : +30 210 9891  sterreich 
 Mylan  sterreich GmbH 
-Tel: +43 1 86 
-Espa a 
+Tel: +43 1 86Espa a 
 Viatris Pharmaceuticals, S.L.U. 
-Tel: +34 900 102<br />
-Polska 
+Tel: +34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
-Tel: + 48 22 546 64 00       </p>
-<p>France 
+Tel: + 48 22 546 64 France 
 Viatris Sant<br />
 T l.: + 33 (0)4 37 25 75 Portugal<br />
 BGP Products, Unipessoal, Lda. 
-Tel: + 351 21 412 72<br />
-Hrvatska 
+Tel: + 351 21 412 72 Hrvatska 
 Mylan Hrvatska d.o.o. 
-Tel: +385 1 23 50     <br />
-Rom nia 
+Tel: +385 1 23 50 Rom nia 
 BGP Products SRL 
-Tel: +40 372 579 000     <br />
-Ireland 
+Tel: +40 372 579 Ireland 
 Mylan Ireland Limited 
-Tel: +353 1 8711 
-Slovenija 
+Tel: +353 1 8711Slovenija 
 Viatris d.o.o. 
-Tel: + 386 1 23 63 180       </p>
-<p>sland 
+Tel: + 386 1 23 63  sland 
 Icepharma hf. 
 Slovensk  republika 
 Viatris Slovakia s.r.o. 
-Simi: +354 540 8 
-Tel: +421 2 32 199      <br />
-Italia 
+Simi: +354 540 8Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
-Tel: + 39 02 612 46921    <br />
-Suomi/Finland 
+Tel: + 39 02 612 46Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9 </p>
-<p>Varnavas Hadjipanayis Ltd<br />
- : +357 2220 7     <br />
-Sverige 
+Puh/Tel: +358 20 720 9<br />
+Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7Sverige 
 Viatris AB<br />
-Tel: + 46 855 522<br />
-Latvija 
+Tel: + 46 855 522 Latvija 
 Mylan Healthcare SIA 
-Tel: +371 676 055      <br />
-United Kingdom (Northern Ireland)<br />
+Tel: +371 676 055 United Kingdom (Northern Ireland)<br />
 Mylan IRE Healthcare Limited 
-+353 18711 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
++353 18711This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -120,14 +120,7 @@ sildenafil or any other PDE5 inhibitors. </p>
 You should tell your doctor if you have kidney or liver problems. Your doctor may decide on a lower 
 dose for you.  </p>
 <p>Children and adolescents 
-VIAGRA should not be given to individuals under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take viagra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take viagra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and VIAGRA 
+VIAGRA should not be given to individuals under the age of 18. Other medicines and VIAGRA 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>VIAGRA tablets may interfere with some medicines, especially those used to treat chest pain. In the 
@@ -169,13 +162,12 @@ If you have been told by your doctor that you have an intolerance to some sugars
 contact your doctor before taking VIAGRA. </p>
 <p>VIAGRA contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take viagra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take viagra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. The recommended starting dose is 50 mg. </p>
@@ -195,12 +187,13 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy. </p>
 <p>You should not take more tablets than your doctor tells you to.  </p>
 <p>Contact your doctor if you take more tablets than you should. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store viagra"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store viagra"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects although not everybody gets them. The side 
 effects reported in association with the use of VIAGRA are usually mild to moderate and of a short 
@@ -257,11 +250,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store viagra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store viagra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not store above 30 oC. </p>
@@ -270,4 +262,93 @@ expiry date refers to the last day of that month.
 Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What VIAGRA contains </p>
+<p>The active substance is sildenafil. Each tablet contains 25 mg of sildenafil (as the citrate salt). </p>
+<p>The other ingredients are: </p>
+<p>Tablet core: 
+microcrystalline cellulose, calcium hydrogen phosphate (anhydrous), </p>
+<p>croscarmellose sodium (see section 2  VIAGRA contains sodium ), </p>
+<p>magnesium stearate  </p>
+<p>Film coat:  hypromellose, titanium dioxide (E171), lactose monohydrate (see section 2 </p>
+<p>VIAGRA contains lactose ), triacetin, indigo  carmine aluminium  </p>
+<p>lake (E132) </p>
+<p>What VIAGRA looks like and contents of the pack 
+VIAGRA film-coated tablets (tablets) are blue, with a rounded-diamond shape. They are marked 
+ PFIZER  on one side and  VGR 25  on the other side. The tablets are provided in blister packs 
+containing 2, 4, 8 or 12 tablets. Some pack sizes may not be marketed in your country. </p>
+<p>Marketing Authorisation Holder 
+Upjohn EESV, Rivium Westlaan 142, 2909 LD Capelle aan den IJssel, Netherlands. </p>
+<p>Manufacturer 
+Fareva Amboise, Zone Industrielle, 29 route des Industries, 37530 Poc -sur-Cisse, France. </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi  /Belgique / Belgien 
+Viatris 
+T l/Tel: +32 (0)2 658 61 Luxembourg/Luxemburg 
+Viatris 
+T l/Tel: +32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>.: +359 2 44 55 Magyarorsz g 
+Viatris Healthcare Kft.<br />
+Tel.: + 36 1 4 65 2 esk  republika 
+Viatris CZ s.r.o.<br />
+Tel: +420 222 004 Malta 
+V.J. Salomone Pharma Limited 
+Tel: (+356) 21 220 Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69 Nederland 
+Mylan Healthcare BV 
+Tel: +31 (0) 20 426 3Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 (0) 800 0700 Norge 
+Viatris AS 
+Tlf: +47 66 75 33 Eesti 
+Viatris O<br />
+Tel: +372 6363  sterreich 
+Mylan  sterreich GmbH 
+Tel: +43 1 86<br />
+Viatris Hellas Ltd 
+ .: +30 2100 100 Polska 
+Mylan Healthcare Sp. z o.o.,<br />
+Tel.: +48 22 546 64 Espa a 
+Viatris Pharmaceuticals, S.L. 
+Tel: +34 900 102 Portugal 
+Viatris Healthcare, Lda.<br />
+Tel: +351 21 412 72 France 
+Viatris Sant<br />
+T l: +33 (0)4 37 25 75 Rom nia 
+BGP Products SRL 
+Tel: +40 372 579 Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: + 385 1 23 50 Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 236 31 Ireland 
+Mylan Ireland Limited 
+Tel: + 353 1 8711Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199  sland 
+Icepharma hf. 
+S mi: + 354 540 8Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9Italia 
+Viatris Pharma S.r.l. 
+Tel: +39 02 612 46Sverige<br />
+Viatris AB 
+Tel: +46 (0)8 630 19 <br />
+GPA Pharmaceuticals Ltd<br />
+ : +357 22863United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: + 353 18711Latvija 
+Viatris SIA 
+Tel: +371 676 055 Lietuva 
+Viatris UAB 
+Tel. +370 52051This leaflet was last revised in. </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

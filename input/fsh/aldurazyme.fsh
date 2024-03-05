@@ -89,8 +89,7 @@ in section 6).  </p>
 <p>Warnings and precautions 
 Talk to your doctor before using Aldurazyme.<br />
 Contact your doctor immediately if treatment with Aldurazyme causes: 
-     Allergic reactions, including anaphylaxis (a severe allergy reaction)   see under section 4 
- Possible side effects . Some of these reactions may be life-threatening. Symptoms may 
+     Allergic reactions, including anaphylaxis (a severe allergy reaction)   see under section 4. Possible side effects . Some of these reactions may be life-threatening. Symptoms may 
 include respiratory failure/distress (inability of lungs to work properly), stridor (high-pitched 
 breathing sound) and other disorders due to obstruction of airways, rapid breathing, excessive 
 contraction of the airway muscles causing breathing difficulty (bronchospasm), lack of oxygen 
@@ -146,8 +145,8 @@ delivered in approximately 3-4 hours.  </p>
 <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
 <p>If you miss an infusion of Aldurazyme<br />
-If you have missed an Aldurazyme infusion, please contact your doctor.  </p>
-<p>If you are given more Aldurazyme than needed 
+If you have missed an Aldurazyme infusion, please contact your doctor.<br />
+If you are given more Aldurazyme than needed 
 If the dose of Aldurazyme given is too high or the infusion is too fast, adverse drug reactions may 
 occur. Receiving an excessively fast infusion of Aldurazyme may cause nausea, abdominal pain, 
 headache, dizziness and difficulty breathing (dyspnoea). In such situations, the infusion should be 
@@ -275,86 +274,64 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-T l/Tel: + 32 2 710 54<br />
-Magyarorsz g 
+T l/Tel: + 32 2 710 54 Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
-Tel: +36 1 505 0 </p>
-<p>Swixx Biopharma EOOD 
- .: +359 (0)2 4942<br />
-Malta 
+Tel: +36 1 505 0<br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Malta 
 Sanofi S.r.l. 
-Tel: +39 02 39394 
- esk  republika 
+Tel: +39 02 39394 esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Nederland 
+Tel: +420 233 086 Nederland 
 Sanofi B.V. 
 Tel: +31 20 245 4Danmark 
 Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Norge 
+Tlf: +45 45 16 70 Norge 
 sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71<br />
-Deutschland 
+Tlf: + 47 67 10 71 Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 7 
- sterreich 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 7 sterreich 
 sanofi-aventis GmbH 
 Tel: + 43 1 80 185   0 </p>
 <p>Eesti 
 Swixx Biopharma O<br />
-Tel. +372 640 10<br />
-Polska 
+Tel. +372 640 10 Polska 
 sanofi-aventis Sp. z o.o.<br />
-Tel: +48 22 280 00  </p>
-<p>Sanofi-Aventis   AEBE 
- : +30 210 900 1 
-Portugal 
+Tel: +48 22 280 00 <br />
+Sanofi-Aventis   AEBE 
+ : +30 210 900 1Portugal 
 Sanofi   Produtos Farmac uticos, Lda.<br />
 Tel: +351 21 35 89 Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94<br />
-Rom nia 
+Tel: +34 93 485 94 Rom nia 
 Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-France 
+Tel: +40 (0) 21 317 31 France 
 Sanofi Winthrop Industrie 
-T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
-Slovenija 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51 Hrvatska 
 Swixx Biopharma d.o.o<br />
-Tel: +385 1 2078<br />
-Slovensk  republika 
+Tel: +385 1 2078 Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel.:  +421 2 208 33<br />
-Ireland 
+Tel.:  +421 2 208 33 Ireland 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Suomi/Finland 
+Tel: +353 (0) 1 403 56 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
- sland 
+Puh/Tel: + 358 201 200  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Sverige 
+S mi: +354 535 7Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Italia 
+Tel: +46 (0)8 634 50 Italia 
 Sanofi S.r.l. 
-Tel: 800536 
-United Kingdom (Northern Ireland) 
+Tel: 800536United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel +44 (0) 800 035 2 </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22 741 </p>
-<p>Latvija 
+Tel +44 (0) 800 035 2<br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Latvija 
 Swixx Biopharma SIA 
-Tel: +371 6 616 47  </p>
-<p>Lietuva 
+Tel: +371 6 616 47 Lietuva 
 Swixx Biopharma UAB 
-Tel. +370 5 236 91  </p>
-<p>This leaflet was last revised in  </p>
+Tel. +370 5 236 91 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

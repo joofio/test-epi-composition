@@ -97,8 +97,8 @@ the manufacturing process); </li>
 </ul>
 <p>If you are not sure, talk to your doctor before you are given this medicine. </p>
 <p>Warnings and precautions 
-Talk to your doctor before you are given OBIZUR. </p>
-<p>Hypersensitivity 
+Talk to your doctor before you are given OBIZUR. 
+Hypersensitivity 
 There is a rare chance that you may experience an allergic reaction to OBIZUR. You should be aware 
 of the early signs of allergic reactions (see section 4 for signs and symptoms). If any of these 
 symptoms occur, the injection should be stopped. Severe symptoms, including difficulty in breathing 
@@ -143,8 +143,8 @@ bleeding is resolved or the antibodies against your own factor VIII are eradicat
 <p>Your doctor will monitor you for antibodies to OBIZUR. </p>
 <p>The recommended first dose is 200 U per kilogram bodyweight given by intravenous injection. </p>
 <p>Your doctor will measure your factor VIII activity regularly to decide the subsequent dose and 
-frequency of OBIZUR. </p>
-<p>The bleeding will usually respond within the first 24 hours, your doctor will adjust the dose and 
+frequency of OBIZUR. 
+The bleeding will usually respond within the first 24 hours, your doctor will adjust the dose and 
 duration of OBIZUR until the bleeding stops. 
 The total volume of reconstituted OBIZUR should be administered at a rate of 1 to 2 mL per minute. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
@@ -232,8 +232,7 @@ Austria </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -269,8 +268,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a, S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>

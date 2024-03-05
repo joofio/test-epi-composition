@@ -148,8 +148,8 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose unit, that is to
 alpha-mannosidosis or other similar diseases and should only be given by a healthcare professional.  </p>
 <p>Lamzede is only used under the supervision of a doctor who is knowledgeable in the treatment of 
 Alpha Mannosidosis disease. Your doctor may advice that you can be treated at home provided you 
-meet certain criteria. Please contact your doctor if you would like to be treated at home. </p>
-<p>Dose 
+meet certain criteria. Please contact your doctor if you would like to be treated at home. 
+Dose 
 The recommended dose of Lamzede is 1 mg/kg of body weight given once every week.  </p>
 <p>Use in children and adolescents 
 Lamzede may be given to children and adolescents at the same dose and frequency as in adults.  </p>
@@ -272,92 +272,66 @@ Italy </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42 00  </p>
-<p>Lietuva 
+T l/Tel: + 32 (0)2 788 42 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073919  </p>
-<p>Chiesi Bulgaria EOOD<br />
-Te .: + 359 29201 
-Luxembourg/Luxemburg 
+Tel: + 43 1 4073<br />
+Chiesi Bulgaria EOOD<br />
+Te .: + 359 29201Luxembourg/Luxemburg 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
- esk  republika 
+T l/Tel: + 32 (0)2 788 42  esk  republika 
 Chiesi CZ s.r.o.<br />
-Tel: + 420 261221745  </p>
-<p>Magyarorsz g 
+Tel: + 420 261221Magyarorsz g 
 Chiesi Hungary Kft.<br />
-Tel.: + 36-1-429 1060  </p>
-<p>Danmark 
+Tel.: + 36-1-429 1Danmark 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35 20  </p>
-<p>Malta 
+Tlf: + 46 8 753 35 Malta 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2791  </p>
-<p>Deutschland 
+Tel: + 39 0521 2Deutschland 
 Chiesi GmbH<br />
 Tel: + 49 40 89724-0  </p>
 <p>Nederland 
 Chiesi Pharmaceuticals B.V.<br />
-Tel: + 31 88 501 64<br />
-Eesti 
+Tel: + 31 88 501 64 Eesti 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Norge 
+Tel: + 43 1 4073Norge 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35  </p>
-<p>Chiesi Hellas AEBE<br />
- : + 30 210 6179763  </p>
-<p>sterreich 
+Tlf: + 46 8 753 35 <br />
+Chiesi Hellas AEBE<br />
+ : + 30 210 6179 sterreich 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Espa a 
+Tel: + 43 1 4073Espa a 
 Chiesi Espa a, S.A.U.<br />
-Tel: + 34 93 494 8 
-Polska 
+Tel: + 34 93 494 8Polska 
 Chiesi Poland Sp. z.o.o.<br />
-Tel.: + 48 22 620 1421  </p>
-<p>France 
+Tel.: + 48 22 620 1France 
 Chiesi S.A.S.<br />
-T l: + 33 1 47688899  </p>
-<p>Portugal 
+T l: + 33 1 47688Portugal 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2791  </p>
-<p>Hrvatska 
+Tel: + 39 0521 2Hrvatska 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Rom nia 
+Tel: + 43 1 4073Rom nia 
 Chiesi Romania S.R.L.<br />
-Tel: + 40 212023 
-Ireland 
+Tel: + 40 212023Ireland 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Slovenija 
+Tel: + 39 0521 2Slovenija 
 CHIESI SLOVENIJA, d.o.o.<br />
-Tel: + 386-1-43 00 901  </p>
-<p>sland 
+Tel: + 386-1-43 00  sland 
 Chiesi Pharma AB<br />
-S mi: +46 8 753 35 20  </p>
-<p>Slovensk  republika 
+S mi: +46 8 753 35 Slovensk  republika 
 Chiesi Slovakia s.r.o.<br />
-Tel: + 421 259300060  </p>
-<p>Italia 
+Tel: + 421 259300Italia 
 Chiesi Italia S.p.A.<br />
-Tel: + 39 0521 2 
-Suomi/Finland 
+Tel: + 39 0521 2Suomi/Finland 
 Chiesi Pharma AB<br />
-Puh/Tel: +46 8 753 35  </p>
-<p>Chiesi Farmaceutici S.p.A.<br />
- : + 39 0521 2791  </p>
-<p>Sverige 
-Chiesi Pharma AB<br />
-Tel: +46 8 753 35<br />
-Latvija 
-Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-United Kingdom (Northern Ireland) 
+Puh/Tel: +46 8 753 35 <br />
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 </p>
-<p>This leaflet was last revised in . </p>
+ : + 39 0521 2Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35 Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2This leaflet was last revised in . </p>
 <p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 

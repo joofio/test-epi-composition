@@ -124,14 +124,7 @@ such as heart problems, lung problems, kidney problems, tumour lysis syndrome (a
 condition that occurs when cancer cells break and release their content to the bloodstream), reactions 
 to the Kyprolis infusion, unusual bruising or bleeding, (including internal bleeding), blood clots in 
 your veins, liver problems, certain blood conditions, or a neurological condition known as PRES. See 
- Conditions you need to look out for  in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take kyprolis"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take kyprolis"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor if you have ever had or might now have a hepatitis B infection. This is because this 
+ Conditions you need to look out for  in section 4. Tell your doctor if you have ever had or might now have a hepatitis B infection. This is because this 
 medicine could cause hepatitis B virus to become active again. Your doctor will check you for signs of 
 this infection before, during and for some time after treatment with this medicine. Tell your doctor 
 right away if you get worsening tiredness, or yellowing of your skin or white part of your eyes. </p>
@@ -181,13 +174,12 @@ equivalent to 88 mg/kg for a 70 kg adult. </p>
 <p>This medicine contains 1,500 mg cyclodextrin (betadex sulfobutyl ether sodium) per 30 mg vial. This 
 is equivalent to 88 mg/kg for a 70 kg adult. </p>
 <p>This medicine contains 3,000 mg cyclodextrin (betadex sulfobutyl ether sodium) per 60 mg vial. This 
-is equivalent to 88 mg/kg for a 70 kg adult. </p>         </div>"""         
-
-        
+is equivalent to 88 mg/kg for a 70 kg adult. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take kyprolis"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take kyprolis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyprolis will be given to you by a doctor or nurse. The dose will be calculated based on your height 
 and weight (body surface area). Your doctor or nurse will determine the dose of Kyprolis that you 
@@ -205,12 +197,13 @@ and dexamethasone, or only dexamethasone. You may also be given other medicines.
 <p>If you are given too much Kyprolis </p>
 <p>As this medicine is being given by a doctor or nurse, it is unlikely that you will be given too much. 
 However, if you are given too much Kyprolis your doctor will monitor you for side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store kyprolis"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kyprolis"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Conditions you need to look out for </p>
@@ -367,11 +360,10 @@ side effects not listed in this leaflet. You can also report side effects direct
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store kyprolis"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store kyprolis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyprolis will be stored in the pharmacy. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
@@ -384,4 +376,110 @@ Store in the original carton in order to protect from light. </p>
 administered if any discolouration or particulate matter is observed. </p>
 <p>Kyprolis is for single use only. Any unused product or waste material should be disposed of in 
 accordance with local requirements. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kyprolis contains </p>
+<ul>
+<li>The active substance is carfilzomib. Each vial contains 10 mg, 30 mg or 60 mg of carfilzomib. 
+After reconstitution, 1 mL of solution contains 2 mg of carfilzomib. </li>
+<li>The other ingredients are betadex sulfobutyl ether sodium, anhydrous citric acid (E330) and 
+sodium hydroxide (see section 2  Kyprolis contains sodium ). </li>
+</ul>
+<p>What Kyprolis looks like and contents of the pack </p>
+<p>Kyprolis is supplied in a glass vial as a white to off-white powder for solution for infusion, which is 
+reconstituted (dissolved) before use. The reconstituted solution is a clear, colourless or slightly yellow 
+solution. </p>
+<p>Each pack contains 1 vial. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V. 
+Minervum 7061, 
+4817 ZK Breda, 
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands </p>
+<p>Manufacturer 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Ireland </p>
+<p>Manufacturer 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/T l: +32 (0)2 7752Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/T l: +32 (0)2 7752 esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732Deutschland 
+AMGEN GmbH 
+Tel.: +49 89 1490Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308<br />
+Amgen      . . . 
+ .: +30 210 3447 sterreich 
+Amgen GmbH 
+Tel: +43 (0)1 50 Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363 Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 4220Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114 Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900K<br />
+C.A. Papaellinas Ltd 
+ .: +357 22741 Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

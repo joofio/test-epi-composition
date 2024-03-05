@@ -201,8 +201,8 @@ body.
 * Sudden difficulty in walking or loss of balance or co-ordination. 
 * Sudden dizziness or sudden severe headache with no known cause. 
 All of the above may be signs of a stroke. Stroke is an uncommon side effect of Efient in patients who 
-have never had a stroke or transient ischaemic attack (TIA). </p>
-<p>Also contact your doctor immediately if you notice any of the following: 
+have never had a stroke or transient ischaemic attack (TIA). 
+Also contact your doctor immediately if you notice any of the following: 
 * Fever and bruising under the skin that may appear as red pinpoint dots, with or without 
 unexplained extreme tiredness, confusion, yellowing of the skin or eyes (jaundice) 
 (see section 2  What you need to know before you take Efient ). 
@@ -349,8 +349,7 @@ Tel: +45 33 60 89 Latvija
 SUBSTIPHARM 
 Tel.: +33 1 43 18 13 United Kingdom (Northern Ireland) 
 SUBSTIPHARM 
-Tel: 1800300 
-This leaflet was last revised in {MM/YYYY}. </p>
+Tel: 1800300This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

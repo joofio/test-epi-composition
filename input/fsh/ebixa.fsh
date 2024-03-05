@@ -267,87 +267,66 @@ Denmark. </p>
 Authorisation Holder. </p>
 <p>Belgique/Belgi /Belgien 
 Lundbeck S.A./N.V. 
-T l/Tel: +32 2 535 7 
-Lietuva 
+T l/Tel: +32 2 535 7Lietuva 
 H. Lundbeck A/S, Danija 
-Tel: + 45 36301 </p>
-<p>Lundbeck Export A/S Representative Office 
-Tel: +359 2 962 4 
-Luxembourg/Luxemburg 
+Tel: + 45 36301<br />
+Lundbeck Export A/S Representative Office 
+Tel: +359 2 962 4Luxembourg/Luxemburg 
 Lundbeck S.A. 
-T l: +32 2 535 7 
- esk  republika<br />
+T l: +32 2 535 7 esk  republika<br />
 Lundbeck  esk  republika s.r.o. 
-Tel: +420 225 275<br />
-Magyarorsz g 
+Tel: +420 225 275 Magyarorsz g 
 Lundbeck Hungaria Kft. 
 Tel: +36 1 4369Danmark 
 Lundbeck Pharma A/S 
 Tlf: +45 4371 4Malta 
 H. Lundbeck A/S, Denmark 
-Tel: + 45 36301 
-Deutschland 
+Tel: + 45 36301Deutschland 
 Lundbeck GmbH 
 Tel: +49 40 23649 0 
 Nederland 
 Lundbeck B.V. 
-Tel: +31 20 697 1 
-Eesti 
+Tel: +31 20 697 1Eesti 
 Lundbeck Eesti AS 
-Tel: + 372 605 9 
-Norge 
+Tel: + 372 605 9Norge 
 H. Lundbeck AS<br />
-Tlf: +47 91 300  </p>
-<p>Lundbeck Hellas S.A. 
- : +30 210 610 5 
- sterreich 
+Tlf: +47 91 300 <br />
+Lundbeck Hellas S.A. 
+ : +30 210 610 5 sterreich 
 Lundbeck Austria GmbH 
-Tel: +43 1 253 621 6 
-Espa a 
+Tel: +43 1 253 621 6Espa a 
 Lundbeck Espa a S.A. 
 Tel: +34 93 494 9Polska 
 Lundbeck Poland Sp. z o. o.<br />
-Tel.: + 48 22 626 93<br />
-France 
+Tel.: + 48 22 626 93 France 
 Lundbeck SAS 
-T l: + 33 1 79 41 29<br />
-Portugal 
+T l: + 33 1 79 41 29 Portugal 
 Lundbeck Portugal Lda 
-Tel: +351 21 00 45<br />
-Hrvatska 
+Tel: +351 21 00 45 Hrvatska 
 Lundbeck Croatia d.o.o. 
-Tel.: + 385 1 6448 
-Ireland 
+Tel.: + 385 1 6448Ireland 
 Lundbeck (Ireland) Limited 
-Tel: +353 1  468 9 
-Rom nia 
+Tel: +353 1  468 9Rom nia 
 Lundbeck Romania SRL 
-Tel: +40 21319 88<br />
-Slovenija 
+Tel: +40 21319 88 Slovenija 
 Lundbeck Pharma d.o.o. 
 Tel.: +386 2 229 4 sland 
 Vistor hf. 
-Tel: +354 535 7 
-Slovensk  republika 
+Tel: +354 535 7Slovensk  republika 
 Lundbeck Slovensko s.r.o. 
-Tel: +421 2 5341 42<br />
-Italia 
+Tel: +421 2 5341 42 Italia 
 Lundbeck Italia S.p.A. 
-Tel: +39 02 677 4 
-Suomi/Finland 
+Tel: +39 02 677 4Suomi/Finland 
 Oy H. Lundbeck Ab 
-Puh/Tel: +358 2 276 5 </p>
-<p>Lundbeck Hellas  A.E 
- .: +357 22490 
-Sverige 
+Puh/Tel: +358 2 276 5<br />
+Lundbeck Hellas  A.E 
+ .: +357 22490Sverige 
 H. Lundbeck AB 
-Tel: +46 4069 98 
-Latvija 
+Tel: +46 4069 98Latvija 
 H. Lundbeck A/S, D nija 
 Tel: + 45 36301United Kingdom (Northern Ireland) 
 Lundbeck (Ireland) Limited 
-Tel:  +353 1 468 9 </p>
-<p>This leaflet was last approved in MM/YYYY </p>
+Tel:  +353 1 468 9This leaflet was last approved in MM/YYYY </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

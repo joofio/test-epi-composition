@@ -119,14 +119,7 @@ Your doctor will stop Votrient at least 7 days before your operation as it may a
 Your treatment will be restarted when the wound has adequately healed. </p>
 <p>Conditions you need to look out for 
 Votrient can make some conditions worse or cause serious side effects. You must look out for certain 
-symptoms while you are taking Votrient to reduce the risk of any problems. See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take votrient"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take votrient"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
+symptoms while you are taking Votrient to reduce the risk of any problems. See section 4. Children and adolescents 
 Votrient is not recommended for people aged under 18. It is not yet known how well it works in this 
 age group. Moreover it should not be used in children younger than 2 years of age because of safety 
 concerns. </p>
@@ -170,13 +163,12 @@ Votrient can have side effects that may affect your ability to drive or use mach
 low. </p>
 <p>Votrient contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""         
-
-        
+essentially  sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take votrient"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take votrient"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or 
 pharmacist if you are not sure. </p>
@@ -196,12 +188,13 @@ pack, or this leaflet. </p>
 <p>If you forget to take Votrient 
 Do not take a double dose to make up for a forgotten dose. Just take your next dose at the usual time. </p>
 <p>Don t stop Votrient without advice 
-Take Votrient for as long as your doctor recommends. Don t stop unless your doctor advises you to. </p>         </div>"""      
+Take Votrient for as long as your doctor recommends. Don t stop unless your doctor advises you to. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store votrient"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store votrient"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Possible serious side effects </p>
@@ -326,13 +319,13 @@ and symptoms may include:</p>
 <li>drowsiness </li>
 <li>seizures (fits) </li>
 <li>decrease in urine output 
-Seek medical help immediately if you get any of these symptoms. </li>
-</ul>
-<p>Tumour lysis syndrome 
+Seek medical help immediately if you get any of these symptoms. 
+Tumour lysis syndrome 
 Votrient can cause a fast breakdown of cancer cells resulting in tumour lysis syndrome, which in some 
 people may be fatal. Symptoms may include irregular heartbeat, seizures (fits), confusion, muscle 
 cramps or spasms, or decrease in urine output. Seek medical help immediately if you get any of these 
-symptoms. </p>
+symptoms. </li>
+</ul>
 <p>Infections 
 Infections occurring while you take Votrient may possibly become serious. Symptoms of infections 
 may include:</p>
@@ -478,11 +471,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store votrient"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store votrient"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date (EXP) which is stated on the bottle and the carton. The 
@@ -490,4 +482,111 @@ expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Votrient contains 
+- The active substance is pazopanib (as hydrochloride). 
+Each Votrient 200 mg film-coated tablet contains 200 mg pazopanib. 
+Each Votrient 400 mg film-coated tablet contains 400 mg pazopanib. 
+- The other ingredients in the 200 mg and 400 mg tablets are: hypromellose, macrogol 400, 
+magnesium stearate, microcrystalline cellulose, polysorbate 80, povidone (K30), sodium starch 
+glycolate, titanium dioxide (E171). The 200 mg tablets also contain iron oxide red (E172). </p>
+<p>What Votrient looks like and contents of the pack 
+Votrient 200 mg film-coated tablets are capsule-shaped, pink with  GS JT  marked on one side. They 
+are supplied in bottles of 30 or 90 tablets. </p>
+<p>Votrient 400 mg film-coated tablets are capsule-shaped, white with  GS UHL  marked on one side. 
+They are supplied in bottles of 30 or 60 tablets. </p>
+<p>Not all pack sizes or tablet strengths may be available in your country. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Lek Pharmaceuticals d.d. 
+Verov kova 1526 Ljubljana 
+Slovenia </p>
+<p>Novartis Pharma GmbH 
+Roonstra e D-90429 Nuremberg 
+Germany </p>
+<p>Glaxo Wellcome, S.A. 
+Avda. Extremadura, 3 
+09400 Aranda De Duero, Burgos 
+Spain </p>
+<p>Novartis Farmac utica S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

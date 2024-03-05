@@ -325,26 +325,11 @@ to keep you under observation. </p>
 <p>If you forget to take Mayzent 
 During the first 6 days of treatment, if you have forgotten to take your dose on one day, call your 
 doctor before you take the next dose. Your doctor will need to prescribe a new titration pack. You will 
-have to restart at day </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you miss a dose when you are on the regular treatment dose (day 7 onwards), take it as soon as you 
+have to restart at day 1. If you miss a dose when you are on the regular treatment dose (day 7 onwards), take it as soon as you 
 remember. If it is almost time for your next dose, skip the missed dose and continue as usual. Do not 
 take a double dose to make up for a forgotten dose. If you forget to take Mayzent for 4 or more days in 
 a row, call your doctor before you take the next dose. Your doctor will need to prescribe a new 
-titration pack and you will have to restart treatment at day </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store mayzent"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mayzent"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you stop taking Mayzent 
+titration pack and you will have to restart treatment at day 1. If you stop taking Mayzent 
 Do not stop taking Mayzent or change your dose without talking to your doctor first. </p>
 <p>Mayzent will stay in your body for up to 10 days after you stop taking it. Your white blood cell 
 (lymphocyte) count may remain low for up to 3 to 4 weeks after you stop taking Mayzent. The side 
@@ -354,13 +339,13 @@ section 4). </p>
 a new titration pack and you will have to restart treatment at day 1 again. </p>
 <p>Tell your doctor straight away if you think your MS worsens after you have stopped treatment with 
 Mayzent. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be serious 
@@ -410,4 +395,146 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mayzent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mayzent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton/blister foil after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. </p>
+<p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Mayzent contains 
+* The active substance is siponimod. </p>
+<p>Mayzent 0.25 mg film-coated tablets 
+* Each tablet contains 0.25 mg siponimod (as siponimod fumaric acid). 
+* The other ingredients are: 
+Tablet core: Lactose monohydrate (see  Mayzent contains lactose and soya lecithin  in 
+section 2), microcrystalline cellulose, crospovidone, glycerol dibehenate, colloidal anhydrous 
+silica. 
+Tablet coating: Polyvinyl alcohol, titanium dioxide (E171), red iron oxide (E172), black iron 
+oxide (E172), talc, soya lecithin (see  Mayzent contains lactose and soya lecithin  in section 2), 
+xanthan gum. </p>
+<p>Mayzent 1 mg film-coated tablets 
+* Each tablet contains 1 mg siponimod (as siponimod fumaric acid). 
+* The other ingredients are: 
+Tablet core: Lactose monohydrate (see  Mayzent contains lactose and soya lecithin  in 
+section 2), microcrystalline cellulose, crospovidone, glycerol dibehenate, colloidal anhydrous 
+silica. 
+Tablet coating: Polyvinyl alcohol, titanium dioxide (E171), red iron oxide (E172), black iron 
+oxide (E172), talc, soya lecithin (see  Mayzent contains lactose and soya lecithin  in section 2), 
+xanthan gum. </p>
+<p>Mayzent 2 mg film-coated tablets 
+* Each tablet contains 2 mg siponimod (as siponimod fumaric acid). 
+* The other ingredients are: 
+Tablet core: Lactose monohydrate (see  Mayzent contains lactose and soya lecithin  in 
+section 2), microcrystalline cellulose, crospovidone, glycerol dibehenate, colloidal anhydrous 
+silica. 
+Tablet coating: Polyvinyl alcohol, titanium dioxide (E171), yellow iron oxide (E172), red iron 
+oxide (E172), talc, soya lecithin (see  Mayzent contains lactose and soya lecithin  in section 2), 
+xanthan gum. </p>
+<p>What Mayzent looks like and contents of the pack 
+Mayzent 0.25 mg film-coated tablets are pale red, round film-coated tablets with the company logo on 
+one side and  T  on the other side. </p>
+<p>Mayzent 1 mg film-coated tablets are violet white, round film-coated tablets with the company logo on 
+one side and  L  on the other side. </p>
+<p>Mayzent 2 mg film-coated tablets are pale yellow, round film-coated tablets with the company logo on 
+one side and  II  on the other side. </p>
+<p>Mayzent 0.25 mg film-coated tablets are available in the following pack sizes: 
+* Titration pack as wallet containing 12 tablets, and 
+* Packs containing 84 or 120 tablets </p>
+<p>Mayzent 1 mg film-coated tablets are available in packs containing 28 or 98 tablets. </p>
+<p>Mayzent 2 mg film-coated tablets are available in packs containing 14, 28 or 98 tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Farmac utica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

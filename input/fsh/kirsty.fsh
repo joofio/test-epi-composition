@@ -95,8 +95,8 @@ common side effects in section 4).  </p>
 <p>If the protective cap is loose or missing. Each vial has a protective, tamper-proof plastic cap. If 
 it is not in perfect condition when you get the vial, return the vial to your supplier.  </p>
 <p>If it has not been stored correctly or been frozen (see section 5, How to store Kirsty).  </p>
-<p>If the insulin does not appear clear and colourless.  </p>
-<p>If any of these applies, do not use Kirsty. Talk with your doctor, nurse or pharmacist for advice. </p>
+<p>If the insulin does not appear clear and colourless.<br />
+If any of these applies, do not use Kirsty. Talk with your doctor, nurse or pharmacist for advice. </p>
 <p>Before using Kirsty </p>
 <p>Check the label to make sure it is the right type of insulin.  </p>
 <p>Remove the protective cap.  </p>
@@ -143,8 +143,8 @@ blood pressure)<br />
 asthma)<br />
 </em> Growth hormone (medicine for stimulation of skeletal and somatic growth and pronounced 
 influence on the body s metabolic processes)<br />
-* Danazol (medicine acting on ovulation). </p>
-<p>Octreotide and lanreotide (used for treatment of acromegaly, a rare hormonal disorder that usually 
+* Danazol (medicine acting on ovulation). 
+Octreotide and lanreotide (used for treatment of acromegaly, a rare hormonal disorder that usually 
 occurs in middle-aged adults, caused by the pituitary gland producing excess growth hormone) may 
 either increase or decrease your blood sugar level.  </p>
 <p>Beta-blockers (used to treat high blood pressure) may weaken or suppress entirely the first warning 
@@ -189,8 +189,8 @@ Always use your insulin and adjust your dose exactly as your doctor has told you
 doctor, nurse or pharmacist if you are not sure.  </p>
 <p>Kirsty is generally used immediately before a meal. Eat a meal or snack within 10 minutes of the 
 injection to avoid low blood sugar. When necessary, Kirsty can be given soon after a meal. See How 
-and where to inject below for information.  </p>
-<p>Do not change your insulin unless your doctor tells you to. If your doctor has switched you from one 
+and where to inject below for information.<br />
+Do not change your insulin unless your doctor tells you to. If your doctor has switched you from one 
 type or brand of insulin to another, your dose may have to be adjusted by your doctor.  </p>
 <p>Use in children and adolescents 
 Kirsty can be used in adolescents and children aged 1 year and above instead of soluble human insulin 
@@ -236,10 +236,15 @@ To get the benefit of insulin infusion, and to detect possible malfunction of th
 recommended that you measure your blood sugar level regularly. </p>
 <p>What to do in case of pump system failure<br />
 You should always have an alternative delivery method for your insulin available for injection under 
-the skin in case of pump system failure. </p>
-<p>If you use more insulin than you should 
+the skin in case of pump system failure. 
+If you use more insulin than you should 
 If you use too much insulin your blood sugar gets too low (hypoglycaemia). See a) Summary of 
-serious and very common side effects in section </p>         </div>"""         
+serious and very common side effects in section 4. If you forget to use your insulin 
+If you forget to use your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
+from diabetes in section 4. If you stop using your insulin<br />
+Do not stop using your insulin without speaking with a doctor, who will tell you what needs to be 
+done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
+Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -247,19 +252,103 @@ serious and very common side effects in section </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to use your insulin 
-If you forget to use your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
-from diabetes in section </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>a) Summary of serious and very common side effects  </p>
+<p>Low blood sugar (hypoglycaemia) is a very common side effect. It may affect more than 1 in people.  </p>
+<p>Low blood sugar may occur if you:<br />
+<em> Inject too much insulin.<br />
+</em> Eat too little or miss a meal.<br />
+<em> Exercise more than usual.<br />
+</em> Drink alcohol (see Drinking alcohol and taking Kirsty in section 2).  </p>
+<p>Signs of low blood sugar:<br />
+Cold sweat; cool pale skin; headache; rapid heartbeat; feeling sick; feeling very hungry; temporary 
+changes in vision; drowsiness; unusual tiredness and weakness; nervousness or tremor; feeling 
+anxious; feeling confused; difficulty in concentrating.  </p>
+<p>Severe low blood sugar can lead to unconsciousness. If prolonged severe low blood sugar is not 
+treated, it can cause brain damage (temporary or permanent) and even death. You may recover more 
+quickly from unconsciousness with an injection of the hormone glucagon by someone who knows how 
+to use it. If you are given glucagon, you will need glucose or a sugar snack as soon as you are 
+conscious. If you do not respond to glucagon treatment, you will have to be treated in a hospital.  </p>
+<p>What to do if you experience low blood sugar:  </p>
+<p>If you experience low blood sugar, eat glucose tablets or another high sugar snack (e.g. sweets, 
+biscuits, fruit juice). Measure your blood sugar if possible and rest. Always carry glucose tablets 
+or high sugar snacks with you, just in case.  </p>
+<p>When symptoms of low blood sugar have disappeared or when blood sugar level is stabilised, 
+continue insulin treatment as usual.  </p>
+<p>If you have such a low blood sugar that it makes you pass out, if you have had need for injection 
+of glucagon, or if you have experienced many incidents of low blood sugar, talk with a doctor. 
+The amount or timing of insulin, food or exercise may need to be adjusted.  </p>
+<p>Tell relevant people that you have diabetes and what the consequences may be, including the risk of 
+passing out (become unconscious) due to low blood sugar. Let them know that if you pass out, they 
+must turn you on your side and get medical help straight away. They must not give you any food or 
+drink due to risk of suffocation. </p>
+<p>Serious allergic reactions to Kirsty or one of its ingredients (called a systemic allergic reaction) is a 
+very rare side effect but can potentially be life threatening. It may affect up to 1 in 10,000 people.  </p>
+<p>Seek medical advice immediately:<br />
+<em> If signs of allergy spread to other parts of your body.<br />
+</em> If you suddenly feel unwell, and you start sweating; start being sick (vomiting); have difficulty 
+in breathing; have a rapid heartbeat; feel dizzy.<br />
+If you notice any of these signs, seek medical advice immediately.  </p>
+<p>Skin changes at the injection site: If you inject insulin at the same place, the fatty tissue may shrink 
+(lipoatrophy) or thicken (lipohypertrophy) (may affect up to 1 in 100 people). Lumps under the skin 
+may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis; how often this 
+occurs is not known). The insulin may not work very well if you inject into a lumpy, shrunken or 
+thickened area. Change the injection site with each injection to help prevent these skin changes. </p>
+<p>b) List of other side effects  </p>
+<p>Uncommon side effects (may affect up to 1 in 100 people)  </p>
+<p>Signs of allergy: Local allergic reactions (pain, redness, hives, inflammation, bruising, swelling and 
+itching) at the injection site may occur. These usually disappear after a few weeks of using your 
+insulin. If they do not disappear, or if they spread throughout your body, talk to your doctor 
+immediately. See also Serious allergic reactions above.  </p>
+<p>Vision problems: When you first start your insulin treatment, it may disturb your vision, but the 
+disturbance is usually temporary.  </p>
+<p>Swollen joints: When you start using insulin, water retention may cause swelling around your ankles 
+and other joints. Normally this soon disappears. If not, talk to your doctor. </p>
+<p>Diabetic retinopathy: (an eye disease related to diabetes which can lead to loss of vision): If you have 
+diabetic retinopathy and your blood sugar level improves very fast, the retinopathy may get worse. 
+Ask your doctor about this. </p>
+<p>Rare side effects (may affect up to 1 in 1,000 people) </p>
+<p>Painful neuropathy (pain due to nerve damage): If your blood sugar level improves very fast, you may 
+get nerve related pain. This is called acute painful neuropathy and is usually transient. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>
+<p>c) Effects from diabetes  </p>
+<p>High blood sugar (hyperglycaemia)  </p>
+<p>High blood sugar may occur if you:<br />
+<em> Have not injected enough insulin.<br />
+</em> Forget to inject your insulin or stop using insulin.<br />
+<em> Repeatedly inject less insulin than you need.<br />
+</em> Get an infection and/or a fever.<br />
+<em> Eat more than usual.<br />
+</em> Exercise less than usual.  </p>
+<p>Warning signs of high blood sugar: The warning signs appear gradually. They include: increased 
+urination; feeling thirsty; losing your appetite; feeling sick (nausea or vomiting); feeling drowsy or 
+tired; flushed; dry skin; dry mouth and a fruity (acetone) smell of the breath.  </p>
+<p>What to do if you experience high blood sugar:  </p>
+<p>If you get any of the above signs: test your blood sugar level, test your urine for ketones if you 
+can, then seek medical advice immediately.  </p>
+<p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
+the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
+could lead to diabetic coma and eventually death. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kirsty"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store kirsty"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you stop using your insulin<br />
-Do not stop using your insulin without speaking with a doctor, who will tell you what needs to be 
-done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
+expiry date refers to the last day of that month. </p>
+<p>Keep the medicine in the outer carton in order to protect from light. </p>
+<p>Before opening: Store in a refrigerator at 2 C to 8 C, away from the cooling element. Do not freeze.  </p>
+<p>After first opening: The medicine may be stored for a maximum of 28 days. Store below 30 C. Do 
+not refrigerate or freeze.  </p>
+<p>Discard the needle after each injection.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -267,5 +356,92 @@ Effects from diabetes in section </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kirsty contains<br />
+<em> The active substance is insulin aspart. Each ml contains 100 units of insulin aspart. Each vial 
+contains 1,000 units of insulin aspart in 10 ml solution for injection.<br />
+</em> The other ingredients are glycerol, phenol, metacresol, zinc chloride, disodium phosphate 
+dihydrate, sodium chloride, hydrochloric acid, sodium hydroxide (see section 2  Kirsty contains 
+sodium ), and water for injections.  </p>
+<p>What Kirsty looks like and contents of the pack 
+Kirsty is presented as a solution for injection (injection). The solution is clear and colourless.  </p>
+<p>Pack sizes of 1, or 5 vials or a multipack containing 5 packs of 1 vial. 
+Not all pack sizes may be marketed. </p>
+<p>The solution is clear and colourless. </p>
+<p>Marketing Authorisation Holder 
+Biosimilar Collaborations Ireland Limited 
+Unit 35/Grange Parade, 
+Baldoyle Industrial Estate, 
+Dublin DUBLIN 
+Ireland<br />
+D13 R20R </p>
+<p>Manufacturer 
+Biosimilar Collaborations Ireland Limited 
+Block B, The Crescent Building, Santry Demesne 
+Dublin 
+D09 C6X8 
+Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Biocon Biologics Belgium BV 
+T l/Tel: 0080008250Lietuva 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250<br />
+Biosimilar Collaborations Ireland Limited 
+Te .: 0080008250Luxembourg/Luxemburg 
+Biocon Biologics France S.A.S 
+T l/Tel: 0080008250 esk  republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Magyarorsz g 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250Danmark 
+Biocon Biologics Finland OY<br />
+Tlf: 0080008250Malta 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250Deutschland 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Nederland 
+Biocon Biologics France S.A.S. 
+Tel: 0080008250Eesti 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250Norge 
+Biocon Biologics Finland OY<br />
+Tlf: +47 800 62  <br />
+Biocon Biologics Greece <br />
+ . .<br />
+ : 0080008250 sterreich 
+Biocon Biologics Germany GmbH 
+Tel: 0080008250Espa a 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250Polska 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250France 
+Biocon Biologics France S.A.S<br />
+T l: +Te l: 0080008250Portugal 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250Hrvatska 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Rom nia 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250Ireland 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 1800 777 Slovenija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 sland 
+Biocon Biologics Finland OY 
+S mi: +345 800 4Slovensk  republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Italia 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250Suomi/Finland 
+Biocon Biologics Finland OY<br />
+Puh/Tel: 99980008250<br />
+Biosimilar Collaborations Ireland Limited<br />
+ : 0080008250Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

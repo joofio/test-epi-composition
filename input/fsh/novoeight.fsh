@@ -138,8 +138,8 @@ The dose of NovoEight is calculated depending on your body weight and the factor
 achieved. The target factor VIII levels will depend on the severity and location of the bleeding. </p>
 <p>Use in children and adolescents 
 NovoEight can be used in children of all ages. In children (below the age of 12) higher doses or more 
-frequent injections may be needed. Adolescents (above the age of 12) can use the same dose as adults. </p>
-<p>How NovoEight is given 
+frequent injections may be needed. Adolescents (above the age of 12) can use the same dose as adults. 
+How NovoEight is given 
 NovoEight is given as an injection into a vein. See  Instructions on how to use NovoEight  for more 
 information. </p>
 <p>If you use more NovoEight than you should 

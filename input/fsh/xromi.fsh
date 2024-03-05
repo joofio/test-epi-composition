@@ -146,8 +146,8 @@ stavudine, and indinavir (a drop in your white cell count may occur) </li>
 This applies to both men and women. Xromi may harm your sperm or eggs. </p>
 <p>Xromi must not be used during pregnancy. Xromi should be stopped 3 to 6 months prior to becoming 
 pregnant, if possible. </p>
-<p>Please contact your doctor immediately if you think you may be pregnant. </p>
-<p>The use of effective contraception is strongly recommended for both male and female patients. </p>
+<p>Please contact your doctor immediately if you think you may be pregnant. 
+The use of effective contraception is strongly recommended for both male and female patients. </p>
 <p>For male patients taking Xromi, if your partner becomes pregnant or plans to become pregnant, your 
 doctor will discuss with you the potential benefits and risks of continuing using Xromi. </p>
 <p>Hydroxycarbamide, the active substance of Xromi, passes into human breast milk. Do not breastfeed 
@@ -373,8 +373,7 @@ Pronav Clinical Ltd.<br />
 Unit 5<br />
 Dublin Road Business Park<br />
 Carraroe, Sligo<br />
-F91 D439<br />
-Ireland </p>
+F91 DIreland </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 

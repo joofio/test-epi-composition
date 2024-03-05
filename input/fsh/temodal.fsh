@@ -355,8 +355,8 @@ The active substance is temozolomide.
 Temodal 5 mg hard capsules: Each capsule contains 5 mg temozolomide.</p>
 <p>Temodal 20 mg hard capsules: Each capsule contains 20 mg temozolomide.</p>
 <p>Temodal 100 mg hard capsules: Each capsule contains 100 mg temozolomide.</p>
-<p>Temodal 140 mg hard capsules: Each capsule contains 140 mg temozolomide.</p>
-<p>Temodal 180 mg hard capsules: Each capsule contains 180 mg temozolomide.</p>
+<p>Temodal 140 mg hard capsules: Each capsule contains 140 mg temozolomide.
+Temodal 180 mg hard capsules: Each capsule contains 180 mg temozolomide.</p>
 <p>Temodal 250 mg hard capsules: Each capsule contains 250 mg temozolomide.
 The other ingredients are:
 capsule content: 
@@ -517,5 +517,5 @@ important information for you.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor, pharmacist or nurse.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

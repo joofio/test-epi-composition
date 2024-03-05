@@ -363,8 +363,7 @@ Amicus Therapeutics Europe Limited<br />
 Tel: (+43) 0800 909 E-Mail: MedInfo@amicusrx.com 
 Espa a 
 Amicus Therapeutics S.L.U. 
-Tel: (+34) 900 941 616<br />
-e-mail: MedInfo@amicusrx.com </p>
+Tel: (+34) 900 941 e-mail: MedInfo@amicusrx.com </p>
 <p>Polska 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+48) 0080 012 15e-mail: MedInfo@amicusrx.com 
@@ -382,8 +381,7 @@ Amicus Therapeutics Europe Limited<br />
 Tel: (+353) 1800 936 e-mail: MedInfo@amicusrx.com </p>
 <p>Rom nia 
 Amicus Therapeutics Europe Limited<br />
-Tel.: (+40) 0808 034 288<br />
-e-mail: MedInfo@amicusrx.com </p>
+Tel.: (+40) 0808 034 e-mail: MedInfo@amicusrx.com </p>
 <p>Slovenija 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+386) 0800 81e-po ta: MedInfo@amicusrx.com </p>

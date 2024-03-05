@@ -257,8 +257,7 @@ Nieuwe Donk 9
 Noord-Brabant 
 Netherlands </p>
 <p>STADA Arzneimittel AG<br />
-Stadastrasse 2   18<br />
-61118 Bad Vilbel<br />
+Stadastrasse 2   61118 Bad Vilbel<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder :  </p>
@@ -266,76 +265,63 @@ Authorisation Holder :  </p>
 EG (Eurogenerics) NV<br />
 T l/Tel: +32 24797Lietuva<br />
 UAB  STADA Baltics<br />
-Tel: +370 52603 </p>
-<p>STADA Bulgaria EOOD<br />
+Tel: +370 52603 <br />
+STADA Bulgaria EOOD<br />
 Te .: +359 29624Luxembourg/Luxemburg<br />
 EG (Eurogenerics) NV<br />
-T l/Tel: +32 24797 </p>
-<p>esk  republika<br />
+T l/Tel: +32 24797 esk  republika<br />
 STADA PHARMA CZ s.r.o. 
 Tel: +420 257888Magyarorsz g<br />
 STADA Hungary Kft<br />
-Tel.: +36 18009 </p>
-<p>Danmark 
+Tel.: +36 18009Danmark 
 STADA Nordic ApS 
 Tlf: +45 44859Malta 
 Pharma.MT Ltd. 
-Tel: + 356 21337 </p>
-<p>Deutschland<br />
+Tel: + 356 21337Deutschland<br />
 STADAPHARM GmbH<br />
 Tel: +49 61016Nederland<br />
 Centrafarm B.V.<br />
-Tel.: +31 765081 </p>
-<p>Eesti 
+Tel.: +31 765081Eesti 
 UAB  STADA Baltics <br />
 Tel: +370 52603Norge<br />
 STADA Nordic ApS 
-Tlf: +45 44859 </p>
-<p>F RAN S.A. 
- : +30 2106254 
- sterreich 
+Tlf: +45 44859<br />
+F RAN S.A. 
+ : +30 2106254 sterreich 
 STADA Arzneimittel GmbH<br />
-Tel: +43 136785 </p>
-<p>Espa a 
+Tel: +43 136785Espa a 
 Laboratorio STADA, S.L.<br />
 Tel: +34 934738Polska 
 STADA Poland Sp. z o.o. 
-Tel: +48 227377 </p>
-<p>France 
+Tel: +48 227377France 
 EG Labo - Laboratoires EuroGenerics<br />
 T l: +33 146948Portugal 
 Stada, Lda. 
-Tel: +351 211209 </p>
-<p>Hrvatska 
+Tel: +351 211209Hrvatska 
 STADA d.o.o. 
 Tel: +385 13764Rom nia 
 STADA M&amp;D SRL<br />
-Tel: +40 213160 </p>
-<p>Ireland 
+Tel: +40 213160Ireland 
 Clonmel Healthcare Ltd.<br />
 Tel: +353 526177Slovenija 
 Stada d.o.o. 
-Tel: +386 15896 </p>
-<p>sland 
+Tel: +386 15896 sland 
 STADA Nordic ApS 
  Tlf: +45 44859Slovensk  republika 
 STADA PHARMA Slovakia, s.r.o.<br />
-Tel: +421 252621 </p>
-<p>Italia 
+Tel: +421 252621Italia 
 EG SpA 
 Tel: +39 028310Suomi/Finland 
 STADA Nordic ApS, Suomen sivuliike<br />
-Puh/Tel: +358 207416 </p>
-<p>STADA Arzneimittel AG<br />
+Puh/Tel: +358 207416<br />
+STADA Arzneimittel AG<br />
  : +30 2106664Sverige 
 STADA Nordic ApS<br />
-Tel: +45 44859 </p>
-<p>Latvija 
+Tel: +45 44859Latvija 
 UAB  STADA Baltics <br />
 Tel: +370 52603United Kingdom (Northern Ireland) 
 STADA Arzneimittel AG<br />
-Tel: +49 61016 </p>
-<p>This leaflet was last revised in 07/2023 .  </p>
+Tel: +49 61016This leaflet was last revised in 07/2023 .  </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. </p>
 <p>The European Medicines Agency will review new information on this medicine at least every year and 

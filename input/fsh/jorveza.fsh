@@ -189,8 +189,8 @@ continue the treatment, depending on your condition and your response to the tre
 If you have taken more orodispersible tablets than you should, take your next dose as prescribed. Do 
 not take a smaller amount. Ask your doctor or pharmacist if you are in doubt. Take the carton and this 
 leaflet with you if possible.  </p>
-<p>If you forget to take Jorveza </p>
-<p>If you miss a dose, just take the next dose at the usual time. Do not take a double dose to make up for a 
+<p>If you forget to take Jorveza 
+If you miss a dose, just take the next dose at the usual time. Do not take a double dose to make up for a 
 forgotten dose. </p>
 <p>If you stop taking Jorveza 
 Speak to your doctor if you want to interrupt or end your treatment early. It is important that you do 

@@ -444,87 +444,64 @@ Germany  </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Viatris 
-T l/Tel: + 32 (0)2 658 61<br />
-Lietuva 
+T l/Tel: + 32 (0)2 658 61 Lietuva 
 Viatris UAB 
-Tel: +370 5 205 1288  </p>
-<p>: +359 2 44 55<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 205 1  </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
 Viatris 
 T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
 <p>esk  republika 
 Viatris CZ s.r.o. 
-Tel: +420 222 004<br />
-Magyarorsz g 
+Tel: +420 222 004 Magyarorsz g 
 Viatris Healthcare Kft. 
-Tel.: + 36 1 465 2 </p>
-<p>Danmark 
+Tel.: + 36 1 465 2Danmark 
 Viatris ApS<br />
-Tlf: +45 28 11 69<br />
-Malta 
+Tlf: +45 28 11 69 Malta 
 V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
+Tel: + 356 21 22 01 Deutschland 
 Viatris Healthcare GmbH<br />
-Tel: + 49 800 0700<br />
-Nederland 
+Tel: + 49 800 0700 Nederland 
 Mylan BV 
 Tel: + 31 (0)20 426 3Eesti 
 Viatris O <br />
-Tel: + 372 6363<br />
-Norge 
+Tel: + 372 6363 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33  </p>
-<p>Viatris Hellas Ltd 
- : +30 2100 100 002  </p>
-<p>sterreich 
+Tlf: + 47 66 75 33  <br />
+Viatris Hellas Ltd 
+ : +30 2100 100  sterreich 
 Arcana Arzneimittel GmbH 
-Tel: +43 1 416 2 
-Espa a 
+Tel: +43 1 416 2Espa a 
 Viatris Pharmaceuticals, S.L.U. 
-Tel: + 34 900 102<br />
-Polska 
+Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
-Tel.: + 48 22 546 64<br />
-France 
+Tel.: + 48 22 546 64 France 
 Viatris Sant<br />
-T l: +33 4 37 25 75<br />
-Portugal 
+T l: +33 4 37 25 75 Portugal 
 Mylan, Lda. 
-Tel: + 351 214 127<br />
-Hrvatska 
+Tel: + 351 214 127 Hrvatska 
 Viatris Hrvatska d.o.o. <br />
-Tel: +385 1 23 50<br />
-Rom nia 
+Tel: +385 1 23 50 Rom nia 
 BGP Products SRL 
-Tel: +40 372 579<br />
-Ireland 
+Tel: +40 372 579 Ireland 
 Mylan Ireland Limited 
-Tel: +353 1 8711 
-Slovenija 
+Tel: +353 1 8711Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 236 31  sland 
 Icepharma hf.<br />
-S mi: +354 540 8000  </p>
-<p>Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Viatris. Italia S.r.l. 
-Tel: + 39 (0) 2 612 46 
-Suomi/Finland 
+Tel: + 39 (0) 2 612 46Suomi/Finland 
 Viatris Oy 
-Puh/Tel: + 358 20 720 9 </p>
-<p>Varnavas Hadjipanayis Ltd<br />
- : +357 2220 7 
-Sverige 
+Puh/Tel: + 358 20 720 9<br />
+Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7Sverige 
 Viatris AB<br />
-Tel: +46 (0)8 630 19<br />
-Latvija 
+Tel: +46 (0)8 630 19 Latvija 
 Viatris SIA<br />
-Tel: +371 676 055<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
-Tel: +353 18711 
-This leaflet was last revised in  </p>
+Tel: +353 18711This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

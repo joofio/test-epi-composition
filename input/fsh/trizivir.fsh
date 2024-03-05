@@ -487,17 +487,14 @@ Delpharm Pozna  Sp ka Akcyjna, ul. Grunwaldzka 189 , 60-322 Poznan, Poland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 ViiV Healthcare srl/bv </p>
-<p>T l/Tel: + 32 (0) 10 85 65<br />
-Lietuva 
+<p>T l/Tel: + 32 (0) 10 85 65 Lietuva 
 ViiV Healthcare BV 
-Tel: + 370 80000 </p>
-<p>ViiV Healthcare BV 
-Te .: + 359 80018 
-Luxembourg/Luxemburg 
+Tel: + 370 80000<br />
+ViiV Healthcare BV 
+Te .: + 359 80018Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv </p>
 <p>Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 65<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 65  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
 <p>Magyarorsz g 
@@ -512,16 +509,13 @@ ViiV Healthcare GmbH<br />
 Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
 <p>Nederland 
 ViiV Healthcare BV<br />
-Tel: + 31 (0) 33 2081 
-Eesti 
+Tel: + 31 (0) 33 2081Eesti 
 ViiV Healthcare BV 
-Tel: + 372 8002 
-Norge 
+Tel: + 372 8002Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
- : + 30 210 68 82<br />
- sterreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com  </p>
@@ -530,45 +524,37 @@ Laboratorios ViiV Healthcare, S.L.<br />
 Tel: +34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 
-France 
+Tel.: + 48 (0)22 576 9France 
 ViiV Healthcare SAS<br />
 T l.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV 
-Tel: + 385 800787 </p>
-<p>Portugal 
+Tel: + 385 800787Portugal 
 VIIVHIV HEALTHCARE, 
 UNIPESSOAL, LDA<br />
 Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
 <p>Rom nia 
 ViiV Healthcare BV<br />
-Tel: + 40800672 
-Ireland 
+Tel: + 40800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 353 (0)1 4955Slovenija 
 ViiV Healthcare BV 
-Tel: + 386 80688 
- sland 
+Tel: + 386 80688 sland 
 Vistor hf.<br />
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 ViiV Healthcare BV 
-Tel: + 421 800500 
-Italia 
+Tel: + 421 800500Italia 
 ViiV Healthcare S.r.l<br />
 Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>ViiV Healthcare BV 
- : + 357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+ViiV Healthcare BV 
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com  </p>
 <p>Latvija 
 ViiV Healthcare BV 
-Tel: + 371 80205 
-United Kingdom (Northern Ireland) 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
 ViiV Healthcare BV<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 <p>This leaflet was last revised in {MM/YYYY}  </p>

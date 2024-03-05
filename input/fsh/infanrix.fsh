@@ -311,41 +311,34 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals SA/NV 
-T l/Tel: + 32 10 85 52  </p>
-<p>Lietuva 
+T l/Tel: + 32 10 85 52 Lietuva 
 GlaxoSmithKline Biologicals SA 
-Tel: +370 80000 </p>
-<p>GlaxoSmithKline Biologicals SA 
- .: +359 80018 
-Luxembourg/Luxemburg 
+Tel: +370 80000<br />
+GlaxoSmithKline Biologicals SA 
+ .: +359 80018Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals SA/NV 
 T l/Tel: + 32 10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
 <p>Magyarorsz g 
 GlaxoSmithKline Biologicals SA 
-Tel.: +36 80088 
-Danmark 
+Tel.: +36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
 Tlf: + 45 36 35 91 dk-info@gsk.com 
 Malta 
 GlaxoSmithKline Biologicals SA 
-Tel: +356 80065 </p>
-<p>Deutschland 
+Tel: +356 80065Deutschland 
 GlaxoSmithKline GmbH &amp; Co. KG 
 Tel: + 49 (0)89 360448produkt.info@gsk.com </p>
 <p>Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti 
+Tel: + 31 (0)33 2081Eesti 
 GlaxoSmithKline Biologicals SA<br />
-Tel: +372 8002 </p>
-<p>GlaxoSmithKline   A.E.B.E. 
-T : + 30 210 68 82<br />
-Norge 
+Tel: +372 8002<br />
+GlaxoSmithKline   A.E.B.E. 
+T : + 30 210 68 82 Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>sterreich 
+Tlf: + 47 22 70 20  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com  </p>
@@ -354,8 +347,7 @@ GlaxoSmithKline, S.A.
 Tel: + 34 900 202 es-ci@gsk.com  </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (22) 576 9 
-France 
+Tel.: + 48 (22) 576 9France 
 Laboratoire GlaxoSmithKline 
 T l: + 33 (0) 1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
@@ -366,33 +358,26 @@ Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 GlaxoSmithKline Biologicals SA 
 Tel: +385 800787Rom nia 
 GlaxoSmithKline Biologicals SA 
-Tel: +40 800672 </p>
-<p>Ireland 
+Tel: +40 800672Ireland 
 GlaxoSmithKline (Ireland) Ltd 
-Tel: + 353 (0)1 495 5 
-Slovenija 
+Tel: + 353 (0)1 495 5Slovenija 
 GlaxoSmithKline Biologicals SA 
-Tel: +386 80688 
- sland 
+Tel: +386 80688 sland 
 Vistor hf.<br />
-S mi: +354 535 7000  </p>
-<p>Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 GlaxoSmithKline Biologicals SA. 
 Tel: +421 800500Italia 
 GlaxoSmithKline S.p.A. 
-Tel:+ 39 (0)45 7741<br />
-Suomi/Finland 
+Tel:+ 39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Biologicals SA 
- : +357 80070 </p>
-<p>Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Biologicals SA 
+ : +357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com 
 Latvija 
 GlaxoSmithKline Biologicals SA 
-Tel: +371 80205 </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 80205United Kingdom (Northern Ireland) 
 GlaxoSmithKline Biologicals SA 
 Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in  </p>

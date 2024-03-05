@@ -92,8 +92,8 @@ properly </li>
 tumours. 
 * FGF23 lowers the amount of phosphate in the blood. 
 * The low level of phosphate may lead to softening of the bones, muscle weakness, tiredness, bone 
-pain and fractures.  </p>
-<p>How CRYSVITA works 
+pain and fractures.<br />
+How CRYSVITA works 
 CRYSVITA attaches to FGF23 in the blood which stops FGF23 from working and increases the 
 phosphate levels in the blood so that normal levels of phosphate can be achieved. </p>         </div>"""   
           

@@ -127,14 +127,7 @@ conditions. </p>
 <p>Look out for signs of allergic reactions and other serious side effects 
 Xolair can potentially cause serious side effects. You must look out for signs of these conditions while 
 you use Xolair. Seek medical help immediately if you notice any signs indicating a severe allergic 
-reaction or other serious side effects. Such signs are listed under  Serious side effects  in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take xolair"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take xolair"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>It is important that you receive training from your doctor in how to recognise early symptoms of 
+reaction or other serious side effects. Such signs are listed under  Serious side effects  in section 4. It is important that you receive training from your doctor in how to recognise early symptoms of 
 severe allergic reactions, and how to manage these reactions if they occur, before you inject Xolair 
 yourself or before a non-healthcare professional gives you a Xolair injection (see section 3,  How to 
 use Xolair ). The majority of severe allergic reactions occur within the first 3 doses of Xolair. </p>
@@ -162,13 +155,12 @@ using this medicine during pregnancy. </p>
 <p>Xolair may pass into breast milk. If you are breast-feeding or plan to breast-feed, ask your doctor for 
 advice before using this medicine. </p>
 <p>Driving and using machines 
-It is unlikely that Xolair will affect your ability to drive and use machines. </p>         </div>"""         
-
-        
+It is unlikely that Xolair will affect your ability to drive and use machines. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take xolair"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take xolair"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor, nurse or 
 pharmacist if you are not sure. </p>
@@ -188,18 +180,11 @@ nurse on:</p>
 <ul>
 <li>how to recognise the early signs and symptoms of serious allergic reactions. </li>
 <li>what to do if the symptoms occur. 
-For more information about the early signs and symptoms of serious allergic reactions, see section </li>
-</ul>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store xolair"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store xolair"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How much to use 
+For more information about the early signs and symptoms of serious allergic reactions, see section 4. How much to use 
 Your doctor will decide how much Xolair you need and how often you will need it. This depends on 
 your body weight and the results of a blood test carried out before the start of the treatment to measure 
-the amount of IgE in your blood. </p>
+the amount of IgE in your blood. </li>
+</ul>
 <p>You will need 1 to 4 injections at a time. You will need the injections either every two weeks, or every 
 four weeks. </p>
 <p>Keep taking your current asthma and/or nasal polyps medicine during Xolair treatment. Do not stop 
@@ -226,13 +211,13 @@ talk to your doctor to discuss when you should inject the next dose. </p>
 <p>If you stop treatment with Xolair 
 Do not stop treatment with Xolair unless your doctor tells you to. Interrupting or stopping the 
 treatment with Xolair may cause your symptoms to come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The side 
 effects caused by Xolair are usually mild to moderate but can occasionally be serious. </p>
@@ -284,4 +269,119 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xolair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xolair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the label after EXP. The expiry 
+date refers to the last day of that month. The carton containing the pre-filled syringe can be 
+stored for a total time of 48 hours at room temperature (25 C) before use. </li>
+<li>Store in the original package in order to protect from light. </li>
+<li>Store in a refrigerator (2 C   8 C). Do not freeze. </li>
+<li>Do not use any pack that is damaged or shows signs of tampering. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Xolair contains 
+- The active substance is omalizumab. One syringe of 0.5 ml solution contains 75 mg 
+omalizumab. 
+- The other ingredients are arginine hydrochloride, histidine hydrochloride monohydrate, 
+histidine, Polysorbate 20 and water for injections. 
+- The needle cap of the syringe may contain dry rubber (latex). </p>
+<p>What Xolair looks like and contents of the pack 
+Xolair solution for injection is supplied as a clear to slightly opalescent, colourless to pale 
+brownish-yellow solution in a pre-filled syringe. </p>
+<p>Xolair 75 mg solution for injection in pre-filled syringe with 26-gauge staked needle and blue syringe 
+guard is available in packs containing 1 pre-filled syringe and in multipacks containing 4 (4 x 1) or 
+10 (10 x 1) pre-filled syringes. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Farmac utica S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

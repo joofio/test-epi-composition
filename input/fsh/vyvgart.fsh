@@ -193,8 +193,8 @@ By reporting side effects you can help provide more information on the safety of
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store vyvgart"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and on the label after 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the carton and on the label after 
  EXP . The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C - 8  C). </p>
 <p>Do not freeze. </p>

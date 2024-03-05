@@ -103,11 +103,13 @@ breathing. </li>
 botulinum toxin type A from working even for other uses. To prevent this, there must be a gap 
 of at least three months between doses. </li>
 <li>Very rarely, an allergic reaction can occur after the injection of botulinum toxin. </li>
-<li>Drooping of the eyelid may occur after treatment. </li>
-</ul>
-<p>Please tell your doctor if:</p>
-<ul>
-<li>you had problems with previous botulinum toxin injections; </li>
+<li>
+<p>Drooping of the eyelid may occur after treatment. 
+Please tell your doctor if:</p>
+</li>
+<li>
+<p>you had problems with previous botulinum toxin injections; </p>
+</li>
 <li>you see no significant improvement of your lines one month after your first course of treatment; </li>
 <li>you suffer from certain diseases affecting your nervous system (such as amyotrophic lateral 
 sclerosis or motor neuropathy); </li>
@@ -150,8 +152,8 @@ treatment of glabellar lines at maximum frown. </p>
 0.1 millilitre (ml) (4 Units) of NUCEIVA into each of 5 injection sites. </p>
 <p>Improvement of severity of the lines between the eyebrows generally occurs within a few days of 
 treatment. </p>
-<p>The interval between treatments will be decided by your doctor. </p>
-<p>How NUCEIVA is injected  </p>
+<p>The interval between treatments will be decided by your doctor. 
+How NUCEIVA is injected  </p>
 <p>NUCEIVA is injected into your muscles (intramuscularly), directly into the affected area above and 
 between the eyebrows. </p>
 <p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
@@ -294,5 +296,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours.<br />
 - If you have any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

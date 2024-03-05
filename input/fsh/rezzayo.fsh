@@ -241,8 +241,7 @@ Tel: +49 69506029-Email: info@mundipharma.de </p>
 Fareva Mirabel 
 Route de Marsat Riom 
 Clermont-Ferrand 
-63963<br />
-France </p>
+63France </p>
 <p>OR </p>
 <p>Mundipharma DC B.V. 
 Leusderend Leusden<br />

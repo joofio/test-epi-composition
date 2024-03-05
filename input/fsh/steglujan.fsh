@@ -440,8 +440,7 @@ MSD Polska Sp. z o.o.
 Tel.: +48 22 549 51 msdpolska@merck.com
 France
 MSD France
-T l: + 33 (0) 1 80 46 40<br />
-Portugal
+T l: + 33 (0) 1 80 46 40 Portugal
 Merck Sharp &amp; Dohme, Lda
 Tel: + 351 21 4465inform_pt@merck.com
 Hrvatska
@@ -459,8 +458,7 @@ Tel: + 386 1 5204Tel: +353 (0)1 2998medinfo_ireland@merck.com</p>
 <p>msd_slovenia@merck.com
  sland
 Vistor hf.
-S mi: + 354 535 7 
-Slovensk  republika
+S mi: + 354 535 7Slovensk  republika
 Merck Sharp &amp; Dohme, s.r.o.
 Tel: + 421 (2) 58282dpoc_czechslovak@merck.com
 Italia

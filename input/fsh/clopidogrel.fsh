@@ -96,8 +96,7 @@ anticoagulants  are more effective than acetylsalicylic acid or the combined use
 Teva and acetylsalicylic acid for this condition. Your doctor should have prescribed Clopidogrel 
 Teva and acetylsalicylic acid if you cannot take  oral anticoagulants  and you do not have a risk 
 of major bleeding. </li>
-</ul>
-<p>44  </p>         </div>"""   
+</ul>         </div>"""   
           
 
              
@@ -150,8 +149,7 @@ Some other medicines may influence the use of Clopidogrel Teva or vice versa.  <
 - medicines that may increase your risk of bleeding such as: * 
 oral anticoagulants, medicines used to reduce blood clotting, * 
 a non-steroidal anti-inflammatory medicine, usually used to treat painful and/or 
-inflammatory conditions of muscle or joints, </p>
-<p>45<br />
+inflammatory conditions of muscle or joints, 
  * 
 heparin or any other injectable medicine used to reduce blood clotting, * 
 ticlopidine, or other antiplatelet agents, * 
@@ -200,7 +198,6 @@ free . </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
-<p>46  </p>
 <p>The recommended dose, including for patients with a condition called  atrial fibrillation  (an irregular 
 heartbeat), is one 75 mg tablet of Clopidogrel Teva per day to be taken orally with or without food, 
 and at the same time each day. </p>
@@ -247,7 +244,6 @@ section 2  Warnings and precautions ).
 be the signs of an allergic reaction. </p>
 <p>The most common side effect reported with Clopidogrel Teva is bleeding. Bleeding may occur as 
 bleeding in the stomach or bowels, bruising, haematoma (unusual bleeding or bruising under the skin), </p>
-<p>47  </p>
 <p>nose bleed or blood in the urine. In a small number of cases, bleeding in the eye, inside the head, the 
 lung or the joints has also been reported. </p>
 <p>If you experience prolonged bleeding when taking Clopidogrel Teva 
@@ -289,8 +285,7 @@ EXP. The expiry date refers to the last day of that month.  </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice any visible sign of deterioration </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>
-<p>48  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -341,7 +336,6 @@ Germany </p>
 <p>Balkanpharma Dupnitsa AD 
 3 Samokovsko Shosse Str., 
 Dupnitsa 2600,  </p>
-<p>49  </p>
 <p>Bulgaria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
@@ -349,93 +343,66 @@ Authorisation Holder: </p>
 Teva Pharma Belgium N.V./S.A./AG 
 T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>: +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
 TEVA GmbH 
 Allemagne/Deutschland 
-T l/Tel: +49 73140 
- esk  republika 
+T l/Tel: +49 73140 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt. 
-Tel: +36 12886 
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 TEVA GmbH 
-Tel: +49 73140 
-Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
+Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>TEVA HELLAS  . . 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
+Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
+Tel: +48 223459France 
 Teva Sant<br />
-T l: +33 155917 
-Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, Lda. 
-Tel: +351 214767 
-Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Teva Finland Oy 
 Finnland </p>
 <p>Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-50  </p>
-<p>S mi: +358 201805 
-Italia 
+Tel: +421 257267S mi: +358 201805Italia 
 Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 </p>
-<p>TEVA HELLAS  . . </p>
-<p>: +30 2118805 
-Sverige 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij<br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407 
-This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 

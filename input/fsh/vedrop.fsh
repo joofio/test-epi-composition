@@ -300,22 +300,19 @@ Recordati Rare Diseases
 Tel: +33 (0)1 47 73 64 Franc zsko  </p>
 <p>Italia 
 Recordati Rare Diseases Italy Srl 
-Tel: +39 02 487 87<br />
-Suomi/Finland 
+Tel: +39 02 487 87 Suomi/Finland 
 Recordati AB. 
 Puh/Tel : +46 8 545 80 Sverige </p>
 <p>Recordati Rare Diseases 
   : +33 1 47 73 64   </p>
 <p>Sverige 
 Recordati AB. 
-Tel : +46 8 545 80<br />
-Latvija 
+Tel : +46 8 545 80 Latvija 
 Recordati AB. 
 Tel: + 46 8 545 80 Zviedrija </p>
 <p>United Kingdom 
 Recordati Rare Diseases UK Ltd. 
-Tel: +44 (0)1491 414 
-This leaflet was last revised in  </p>
+Tel: +44 (0)1491 414This leaflet was last revised in  </p>
 <p>This medicine has been authorised under  exceptional circumstances . This means that because of the rarity 
 of this disease it has been impossible to get complete information on this medicine.<br />
 The European Medicines Agency will review any new information on this medicine every year and this 

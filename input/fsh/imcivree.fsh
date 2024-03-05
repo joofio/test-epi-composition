@@ -138,8 +138,8 @@ pharmacist if you are not sure. </p>
 for long-term use. </p>
 <p>Your doctor will advise you on the right dose to inject.  </p>
 <p>Pro-opiomelanocortin deficiency obesity, proprotein convertase subtilisin/kexin type 1 deficiency 
-obesity and leptin receptor deficiency obesity. </p>
-<p>In adults and children aged 12 years or more, recommended doses are as follows: 
+obesity and leptin receptor deficiency obesity. 
+In adults and children aged 12 years or more, recommended doses are as follows: 
 Treatment week 
 Daily dose in mg 
 Volume to be injected 
@@ -325,15 +325,11 @@ IMCIVREE can be taken without regard to the timing of meals. </p>
 <p>Step 2 Examine the vial 
 - Check the expiry date on the vial label, this is shown after  EXP : MM/YYYY. </p>
 <p>ALCOHOL WIPE 
-GAUZE PAD </p>
+GAUZE PAD 
+- The liquid should look clear to slightly yellow. 
+- Do not use if:</p>
 <ul>
-<li>The liquid should look clear to slightly yellow. </li>
-<li>
-<p>Do not use if:</p>
-</li>
-<li>
-<p>the expiry date has passed </p>
-</li>
+<li>the expiry date has passed </li>
 <li>the liquid is cloudy </li>
 <li>there are particles floating in the vial </li>
 <li>the plastic cap on a new vial is broken or missing </li>
@@ -425,11 +421,9 @@ air
 bubbles 
 large 
 air 
-bubbles </p>
-<ul>
-<li>Place the syringe on the hard surface, make sure the needle does not touch the surface. Do not 
-recap the needle. </li>
-</ul>
+bubbles 
+- Place the syringe on the hard surface, make sure the needle does not touch the surface. Do not 
+recap the needle. </p>
 <p>Step 5. Prepare the injection site 
 - Choose the area on your stomach for the injection.<br />
 - Change your injection site each day. 

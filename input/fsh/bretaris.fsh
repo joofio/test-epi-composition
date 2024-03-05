@@ -243,96 +243,71 @@ Industrias Farmac uticas Almirall, S.A.
 Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>Belgi /Belgique/Belgien<br />
+Authorisation Holder: 
+Belgi /Belgique/Belgien<br />
 Covis Pharma Europe B.V. 
-T l/Tel:  80013 
-Lietuva<br />
+T l/Tel:  80013Lietuva<br />
 UAB  BERLIN CHEMIE MENARINI BALTIC <br />
-Tel: +370 52 691  </p>
-<ul>
-<li>/ .     E<br />
- .: +359 2 454 09 50  </li>
-</ul>
-<p>Luxembourg/Luxemburg<br />
+Tel: +370 52 691  <br />
+ - / .     E<br />
+ .: +359 2 454 09 Luxembourg/Luxemburg<br />
 Covis Pharma Europe B.V. 
-T l/Tel: 80024119   </p>
-<p>esk  republika<br />
+T l/Tel: 80024 esk  republika<br />
 Berlin-Chemie/A.Menarini Ceska republika s.r.o.<br />
-Tel: +420 267 199 333<br />
-Magyarorsz g<br />
+Tel: +420 267 199 Magyarorsz g<br />
 Berlin-Chemie/A. Menarini Kft.<br />
-Tel.: +36 1799 7320<br />
-Danmark<br />
+Tel.: +36 1799 7Danmark<br />
 Covis Pharma Europe B.V. 
-Tlf:  80711 
-Malta<br />
+Tlf:  80711Malta<br />
 Covis Pharma Europe B.V. 
-Tel: 80065 
-Deutschland<br />
+Tel: 80065Deutschland<br />
 Berlin-Chemie AG<br />
-Tel: +49 (0) 30 67070  </p>
-<p>Covis Pharma Europe B.V. 
-Tel:  +49 (0) 3031196 
-Nederland<br />
+Tel: +49 (0) 30 67Covis Pharma Europe B.V. 
+Tel:  +49 (0) 3031196Nederland<br />
 Covis Pharma Europe B.V.<br />
-Tel: 08000270 
-Eesti<br />
+Tel: 08000270Eesti<br />
 O  Berlin-Chemie Menarini Eesti<br />
-Tel: +372 667 5001  </p>
-<p>Norge<br />
+Tel: +372 667 5Norge<br />
 Covis Pharma Europe B.V.<br />
 Tlf: 80031 <br />
 MENARINI HELLAS AE<br />
- : +30 210 8316111-13  </p>
-<p>sterreich<br />
+ : +30 210 8316111- sterreich<br />
 A. Menarini Pharma GmbH 
 Tel: +43 1 879 95 85-0  </p>
 <p>Espa a<br />
 Laboratorios Menarini S.A.<br />
-Tel: +34-93 462 88 00  </p>
-<p>Polska<br />
+Tel: +34-93 462 88 Polska<br />
 Covis Pharma Europe B.V.<br />
 Tel.: 0800919France<br />
 MENARINI France<br />
-T l: +33 (0)1 45 60 77 20  </p>
-<p>Portugal<br />
+T l: +33 (0)1 45 60 77 Portugal<br />
 A. Menarini Portugal   Farmac utica, S.A.<br />
-Tel: +351 210 935 500  </p>
-<p>Hrvatska<br />
+Tel: +351 210 935 Hrvatska<br />
 Berlin-Chemie Menarini Hrvatska d.o.o.<br />
-Tel: + 385 1 4821 361  </p>
-<p>Rom nia<br />
+Tel: + 385 1 4821 Rom nia<br />
 Berlin-Chemie A.Menarini S.R.L.<br />
-Tel: +40 21 232 34 32  </p>
-<p>Ireland<br />
+Tel: +40 21 232 34 Ireland<br />
 Covis Pharma Europe B.V.<br />
 Tel: 1800937Slovenija<br />
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
-Tel: +386 01 300 2160  </p>
-<p>sland<br />
+Tel: +386 01 300 2 sland<br />
 Covis Pharma Europe B.V.<br />
 S mi: 8007Slovensk  republika<br />
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
-Tel: +421 2 544 30 730  </p>
-<p>Italia<br />
+Tel: +421 2 544 30 Italia<br />
 Laboratori Guidotti S.p.A.<br />
-Tel: +39- 050 971011  </p>
-<p>Suomi/Finland<br />
+Tel: +39- 050 971Suomi/Finland<br />
 Covis Pharma Europe B.V. 
-Puh/Tel: 0800413 </p>
-<p>Covis Pharma Europe B.V. 
- :  80091 
-Sverige<br />
+Puh/Tel: 0800413<br />
+Covis Pharma Europe B.V. 
+ :  80091Sverige<br />
 Covis Pharma Europe B.V. 
 Tel: 0200898Latvija<br />
 SIA Berlin-Chemie/Menarini Baltic<br />
-Tel: +371 67103210  </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 67103United Kingdom (Northern Ireland) 
 Covis Pharma Europe B.V. 
-Tel: 08004334 
-This leaflet was last revised in <em>{month YYYY}</em>. </p>
+Tel: 08004334This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

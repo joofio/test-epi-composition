@@ -227,8 +227,7 @@ Ilumetri 100 mg solution for injection (injection) in pre-filled syringe is avai
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Almirall, S.A. 
-Ronda General Mitre, 151<br />
-08022 Barcelona, Spain </p>
+Ronda General Mitre, 08022 Barcelona, Spain </p>
 <p>Manufacturer 
 SUN Pharmaceuticals Industries (Europe) B.V. 
 Polarisavenue 2132JH Hoofddorp, Netherlands </p>
@@ -239,47 +238,36 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg<br />
 Almirall N.V. 
-T l/Tel: +32 (0)2 771 86 37  </p>
-<p>Italia<br />
+T l/Tel: +32 (0)2 771 86 Italia<br />
 Almirall SpA 
-Tel: +39 02 346181  </p>
-<p>/ Eesti/  / Espa a/ Hrvatska/ 
+Tel: +39 02 346 / Eesti/  / Espa a/ Hrvatska/ 
  / Latvija/ Lietuva/ Magyarorsz g/ 
 Malta/ Rom nia/ Slovenija<br />
 Almirall, S.A. 
-Te ./Tel/ : +34 93 291 30 00  </p>
-<p>esk  republika / Slovensk  republika: 
+Te ./Tel/ : +34 93 291 30  esk  republika / Slovensk  republika: 
 Almirall s.r.o 
-Tel: +420 739 686<br />
-Nederland<br />
+Tel: +420 739 686 Nederland<br />
 Almirall B.V. 
-Tel: +31 (0)307991155  </p>
-<p>Danmark/ Norge/ Sverige<br />
+Tel: +31 (0)307991Danmark/ Norge/ Sverige<br />
 Almirall ApS 
-Tlf/Tel: +45 70 25 75 75  </p>
-<p>sterreich<br />
+Tlf/Tel: +45 70 25 75  sterreich<br />
 Almirall GmbH 
-Tel: +43 (0)1/595 39 60  </p>
-<p>Deutschland<br />
+Tel: +43 (0)1/595 39 Deutschland<br />
 Almirall Hermal GmbH 
 Tel: +49 (0)40 72704-0  </p>
 <p>Polska<br />
 Almirall Sp.z o. o. 
-Tel.: +48 22 330 02 57  </p>
-<p>France<br />
+Tel.: +48 22 330 02 France<br />
 Almirall SAS, 1 
-T l: +33(0)1 46 46 19 20  </p>
-<p>Portugal<br />
+T l: +33(0)1 46 46 19 Portugal<br />
 Almirall - Produtos Farmac uticos, Lda.<br />
 Tel: +351 21 415 57 Ireland/United Kingdom (Northern Ireland) 
 Almirall, S.A. 
-Tel: +353 (0) 1431 9 
-Suomi/Finland 
+Tel: +353 (0) 1431 9Suomi/Finland 
 Orion Pharma 
 Puh/Tel: +358 10 4 sland<br />
 Vistor hf. 
-S mi: +354 535 70 00  </p>
-<p>This leaflet was last revised in  </p>
+S mi: +354 535 70 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -100,8 +100,8 @@ will treat you as necessary
 will treat you as necessary </p>
 <p>Intravenous infusions of Tenkasi can cause flushing of the upper body, hives, itching and/or rashes. 
 Infusion-associated reactions characterized by chest pain, chest discomfort, chills, tremor, back pain, 
-neck pain, shortness of breath, abdominal pain, fever and headache, fatigue, somnolence that might be </p>
-<p>symptoms of hypoxia, have also been observed. If you experience these types of reactions, your doctor 
+neck pain, shortness of breath, abdominal pain, fever and headache, fatigue, somnolence that might be 
+symptoms of hypoxia, have also been observed. If you experience these types of reactions, your doctor 
 may decide to stop or slow the infusion. </p>
 <p>Tenkasi may interfere with laboratory tests that measure how well your blood is clotting and may 
 cause a false reading.  </p>
@@ -195,13 +195,11 @@ of the following symptoms:
 * Shortness of breath. </p>
 <p>Rare side effects (may affect up to 1 in 1000 patients) 
 * Headache, fatigue, somnolence that might be symptoms of low levels of oxygen in your body 
-tissues (hypoxia); </p>
-<ul>
-<li>Back pain; </li>
-<li>Neck pain; </li>
-<li>Chills; </li>
-<li>Tremor. </li>
-</ul>
+tissues (hypoxia); 
+* Back pain; 
+* Neck pain; 
+* Chills; 
+* Tremor. </p>
 <p>Additional side effects in children and adolescents </p>
 <p>Side effects in paediatric patients are similar to those seen in adults. The side effects seen only in 
 paediatric patients are: irritability, changes in ECG heart tracing (transitory, asymptomatic and not 
@@ -248,8 +246,8 @@ Menarini International Operations Luxembourg S.A.<br />
 1, Avenue de la Gare<br />
 L-1611, Luxembourg<br />
 Luxembourg </p>
-<p>Manufacturer </p>
-<p>Biologici Italia Laboratories S.r.l 
+<p>Manufacturer 
+Biologici Italia Laboratories S.r.l 
 Via Filippo Serpero 2 
 20060 Masate (MI) 
 Italy  </p>
@@ -257,20 +255,16 @@ Italy  </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Menarini Benelux NV/SA 
-T l/Tel: + 32 (0)2 721 4 
-Lietuva 
+T l/Tel: + 32 (0)2 721 4Lietuva 
 UAB  BERLIN CHEMIE MENARINI 
 BALTIC<br />
-Tel: +370 52 691  </p>
-<ul>
-<li>/ .     E<br />
+Tel: +370 52 691 <br />
+ - / .     E<br />
  .: +359 24540Luxembourg/Luxemburg 
 Menarini Benelux NV/SA 
-T l/Tel: + 32 (0)2 721 4 
- esk  republika 
+T l/Tel: + 32 (0)2 721 4 esk  republika 
 Berlin-Chemie/A.Menarini Ceska republika s.r.o. 
-Tel: +420 267 199<br />
-Magyarorsz g 
+Tel: +420 267 199 Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 1799 7Danmark 
 Menarini International Operations Luxembourg 
@@ -278,20 +272,17 @@ S.A.
 Tlf: +352 264Malta 
 Menarini International Operations Luxembourg 
 S.A. 
-Tel: +352 264 
-Deutschland 
+Tel: +352 264Deutschland 
 Berlin-Chemie AG 
 Tel: +49 (0) 30 67Nederland 
 Menarini Benelux NV/SA 
-Tel: +32 (0)2 721 4 
-Eesti 
+Tel: +32 (0)2 721 4Eesti 
 O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5Norge 
 Menarini International Operations Luxembourg 
 S.A. 
-Tlf: +352 264 </li>
-</ul>
-<p>MENARINI HELLAS AE 
+Tlf: +352 264<br />
+MENARINI HELLAS AE 
  : +30 210 8316111- sterreich 
 A. Menarini Pharma GmbH 
 Tel: +43 1 879 95 85-0 </p>
@@ -299,48 +290,39 @@ Tel: +43 1 879 95 85-0 </p>
 Laboratorios Menarini S.A. 
 Tel: +34-93 462 88 Polska 
 Berlin-Chemie/Menarini Polska Sp. z o.o. 
-Tel.: +48 22 566 21<br />
-France 
+Tel.: +48 22 566 21 France 
 MENARINI France 
 T l: +33 (0)1 45 60 77 Portugal 
 A. Menarini Portugal   Farmac utica, S.A. 
-Tel: +351 210 935<br />
-Hrvatska 
+Tel: +351 210 935 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
-Tel: + 385 1 4821<br />
-Rom nia 
+Tel: + 385 1 4821 Rom nia 
 Berlin-Chemie A.Menarini S.R.L. 
-Tel: +40 21 232 34<br />
-Ireland 
+Tel: +40 21 232 34 Ireland 
 A. Menarini Pharmaceuticals Ireland Ltd 
 Tel: +353 1 284 6Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
-Tel: +386 01 300 2 </p>
-<p>sland 
+Tel: +386 01 300 2 sland 
 Menarini International Operations Luxembourg 
 S.A. 
-S mi: +352 264976  </p>
-<p>Slovensk  republika 
+S mi: +352 264Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o<br />
 Tel: +421 2 544 30 Italia 
 A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
-Tel: +39-055 56 
-Suomi/Finland 
+Tel: +39-055 56Suomi/Finland 
 Berlin-Chemie/A.Menarini Suomi OY 
-Puh/Tel: +358 403 000  </p>
-<p>MENARINI HELLAS AE 
+Puh/Tel: +358 403 000 <br />
+MENARINI HELLAS AE 
  : +30 210 8316111-Sverige 
 Menarini International Operations Luxembourg 
 S.A. 
-Tel: +352 264 
-Latvija 
+Tel: +352 264Latvija 
 SIA Berlin-Chemie/Menarini Baltic 
 Tel: +371 67103United Kingdom (Northern Ireland) 
 A. Menarini Farmaceutica Internazionale S.R.L. 
-Tel: +44 (0)1628 856 
-This leaflet was last revised in:  </p>
+Tel: +44 (0)1628 856This leaflet was last revised in:  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

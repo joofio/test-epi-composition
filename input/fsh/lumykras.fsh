@@ -94,9 +94,9 @@ for you, ask your doctor, pharmacist, or nurse. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take LUMYKRAS </p>
 <ul>
 <li>if you are allergic to sotorasib or any of the other ingredients of this medicine (listed in 
-section 6). </li>
+section 6). 
+Warnings and precautions </li>
 </ul>
-<p>Warnings and precautions </p>
 <p>Talk to your doctor, pharmacist, or nurse before taking LUMYKRAS. </p>
 <p>Tell your doctor, pharmacist or nurse if you have a history of liver problems. Your doctor may carry 
 out blood tests to check your liver function, and may decide to either reduce the dose of LUMYKRAS 
@@ -279,5 +279,100 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 4000 (E1521), talc 
 (E553b), and iron oxide yellow (E172) </li>
 </ul>
-<p>See LUMYKRAS contains lactose and LUMYKRAS contains sodium in section </p>         </div>"""      
+<p>See LUMYKRAS contains lactose and LUMYKRAS contains sodium in section 2. What LUMYKRAS looks like and contents of the pack </p>
+<p>LUMYKRAS is supplied as a yellow, oblong-shaped, film-coated tablet, with  AMG  on one side and 
+ 120  on the other side. </p>
+<ul>
+<li>LUMYKRAS is provided in blisters containing 8 film-coated tablets in packs sizes of 240 film-
+coated tablets (1 carton with 30 blisters) and multipack with 720 (3   240) film-coated tablets. </li>
+<li>LUMYKRAS is provided in bottles containing 120 film-coated tablets in a pack size of 
+240 film-coated tablets (1 carton with 2 bottles). 
+Not all pack sizes may be marketed. </li>
+</ul>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V., 
+Minervum 7061, 
+4817 ZK Breda, 
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V., 
+Minervum 7061, 
+4817 ZK Breda, 
+The Netherlands </p>
+<p>Manufacturer 
+Amgen NV, 
+Telecomlaan 5-7, 
+1831 Diegem, 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+T l/Tel: +32 (0)2 7752Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+T l/Tel: +32 (0)2 7752 esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617Malta 
+Amgen S.r.l. 
+Italy 
+Tel: +39 02 6241Deutschland 
+Amgen GmbH 
+Tel: +49 89 1490Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tlf: +47 23308<br />
+Amgen      . . . 
+ : +30 210 3447 sterreich 
+Amgen GmbH 
+Tel: +43 (0)1 50 Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363 Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 4220Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114 Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900K<br />
+C.A. Papaellinas Ltd 
+ : +357 22741 Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420This leaflet was last revised in {month YYYY}.  </p>
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine. </p>
+<p>The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

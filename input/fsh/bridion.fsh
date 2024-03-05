@@ -329,7 +329,7 @@ United Kingdom (Northern Ireland)
 Merck Sharp &amp; Dohme Ireland (Human
 Health) Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
-This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu.</p>
 <hr />

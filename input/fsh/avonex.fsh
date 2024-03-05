@@ -44,7 +44,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>How to inject AVONEX</li>
+</ol>         </div>"""   
 
 
 
@@ -68,10 +70,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What avonex is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to inject AVONEX
-1
-What AVONEX is and what it is used for
-What AVONEX is
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What AVONEX is
 The active substance in Avonex is a protein called interferon beta-1a. Interferons are natural 
 substances made in your body to help protect you from infections and diseases. The protein in Avonex 
 is made up of exactly the same ingredients as interferon beta that is found in the human body. 

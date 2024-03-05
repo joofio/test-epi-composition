@@ -201,14 +201,8 @@ need more frequent blood glucose and kidney function tests, or your doctor may n
 dosage of Synjardy. It is especially important to mention the following:</p>
 <p>medicines which increase urine production (diuretics), as Synjardy may increase the risk of 
 losing too much fluid. Your doctor may ask you to stop taking Synjardy. Possible signs of 
-losing too much fluid from your body are listed in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take synjardy"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take synjardy"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>other medicines that lower the amount of sugar in your blood such as insulin or a 
+losing too much fluid from your body are listed in section 4.<br />
+other medicines that lower the amount of sugar in your blood such as insulin or a 
  sulphonylurea  medicine. Your doctor may want to lower the dose of these other medicines, to 
 prevent your blood sugar levels from getting too low (hypoglycaemia).</p>
 <p>medicines that may change the amount of metformin in your blood, especially if you have 
@@ -240,13 +234,12 @@ Synjardy has minor influence on the ability to drive and use machines.
 Taking this medicine in combination with medicines called sulphonylureas or with insulin can cause 
 blood sugar levels to drop too low (hypoglycaemia), which may cause symptoms such as shaking, 
 sweating and change in vision, and may affect your ability to drive and use machines. Do not drive or 
-use any tools or machines if you feel dizzy while taking Synjardy.</p>         </div>"""         
-
-        
+use any tools or machines if you feel dizzy while taking Synjardy.</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take synjardy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take synjardy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist
 if you are not sure.
@@ -284,12 +277,13 @@ medicine.
 If you stop taking Synjardy
 Do not stop taking Synjardy without first consulting your doctor. Your blood sugar levels may increase 
 when you stop taking Synjardy.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store synjardy"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store synjardy"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Contact a doctor or the nearest hospital straight away if you have any of the following side 
@@ -374,11 +368,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store synjardy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store synjardy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the blister and the carton after  EXP . 
@@ -387,4 +380,141 @@ This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the packaging is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Synjardy contains
+The active substances are empagliflozin and metformin. 
+Each Synjardy 5 mg/850 mg film-coated tablet (tablet) contains 5 mg empagliflozin and 
+850 mg metformin hydrochloride.
+Each Synjardy 5 mg/1,000 mg film-coated tablet (tablet) contains 5 mg empagliflozin and 1,000 mg 
+metformin hydrochloride.
+Each Synjardy 12.5 mg/850 mg film-coated tablet (tablet) contains 12.5 mg empagliflozin and 850 mg 
+metformin hydrochloride.
+Each Synjardy 12.5 mg/1,000 mg film-coated tablet (tablet) contains 12.5 mg empagliflozin and 
+1,000 mg metformin hydrochloride.
+The other ingredient(s) are:</p>
+<p>Tablet core: maize starch, copovidone, colloidal anhydrous silica, magnesium stearate.</p>
+<p>Film coating: hypromellose, macrogol 400, titanium dioxide (E171), talc.
+Synjardy 5 mg/850 mg and Synjardy 5 mg/1,000 mg tablets also contain iron oxide yellow 
+(E172). Synjardy 12.5 mg/850 mg and Synjardy 12.5 mg/1,000 mg tablets also contain iron 
+oxide black (E172) and iron oxide red (E172).
+What Synjardy looks like and contents of the pack
+Synjardy 5 mg/850 mg film-coated tablets are yellowish white, oval, biconvex. They have  S5  and 
+the Boehringer Ingelheim logo on one side and  850  on the other. The tablet is 19.2 mm long and has 
+a width of 9.4 mm.
+Synjardy 5 mg/1,000 mg film-coated tablets are brownish yellow, oval, biconvex. They have  S5  and 
+the Boehringer Ingelheim logo on one side and  1000  on the other. The tablet is 21.1 mm long and 
+has a width of 9.7 mm.
+Synjardy 12.5 mg/850 mg film-coated tablets are pinkish white, oval, biconvex. They have  S12  and 
+the Boehringer Ingelheim logo on one side and  850  on the other. The tablet is 19.2 mm long and has 
+a width of 9.4 mm.
+Synjardy 12.5 mg/1,000 mg film-coated tablets are dark brownish purple, oval, biconvex. They have 
+ S12  and the Boehringer Ingelheim logo on one side and  1000  on the other. The tablet is 21.1 mm
+long and has a width of 9.7 mm.
+The tablets are available in PVC/PVDC/aluminium perforated unit dose blisters. The pack sizes are 
+10 x 1, 14 x 1, 30 x 1, 56 x 1, 60 x 1, 90 x 1 and 100 x 1 film-coated tablets and multipacks containing 
+120 (2 packs of 60 x 1), 180 (2 packs of 90 x 1) and 200 (2 packs of 100 x 1) film-coated tablets.
+Not all pack sizes may be marketed in your country.
+Marketing Authorisation Holder
+Boehringer Ingelheim International GmbH
+Binger Strasse 55216 Ingelheim am Rhein
+Germany
+Manufacturer
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 55216 Ingelheim am Rhein
+Germany
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania   Markopoulo
+Koropi Attiki, 19Greece
+Patheon France
+40 boulevard de Champaret
+Bourgoin Jallieu, 38France
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+France
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Boehringer Ingelheim SComm
+T l/Tel: +32 2 773 33 Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel.: +370 5 2595 
+              -</p>
+<p>: +359 2 958 79 Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+T l/Tel: +32 2 773 33  esk  republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 Magyarorsz g
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarorsz gi Fi ktelepe
+Tel.: +36 1 299 89 Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 Lilly Deutschland GmbH
+Tel. +49 (0) 6172 273 2Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13<br />
+Boehringer Ingelheim     A.E.
+T : +30 2 10 89 06  sterreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7Espa a
+Boehringer Ingelheim Espa a, S.A.
+Tel: +34 93 404 51 Lilly S.A.
+Tel: +34 91 663 50 Polska
+Boehringer Ingelheim Sp.zo.o.
+Tel.: +48 22 699 0 France
+Boehringer Ingelheim France S.A.S.
+T l: +33 3 26 50 45 Lilly France SAS
+T l: +33 1 55 49 34 Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 Lilly Portugal Produtos Farmac uticos, Lda
+Tel: +351 21 412 66 Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 Rom nia
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Viena - Sucursala Bucure ti
+Tel: +40 21 302 28 Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited
+Tel: +353 1 661 4Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podru nica Ljubljana
+Tel: +386 1 586 40  sland
+Vistor hf.
+S mi: +354 535 7Slovensk  republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organiza n  zlo ka
+Tel: +421 2 5810 1Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Eli Lilly Italia S.p.A.
+Tel: +39 055 42Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102<br />
+Boehringer Ingelheim     A.E.
+T : +30 2 10 89 06 Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas fili le
+Tel: +371 67 240 United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd. 
+Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited 
+Tel: +353 1 661 4This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

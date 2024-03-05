@@ -71,16 +71,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AFLUNOV is a vaccine for use in adults from 18 onwards, intended to be given in the context of 
 outbreaks of zoonotic influenza viruses (coming from birds) with pandemic potential to prevent flu 
-caused by H5N1 viruses similar to the vaccine strain reported in section </p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take aflunov"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take aflunov"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zoonotic influenza viruses occasionally infect humans, and can cause disease ranging from mild upper 
+caused by H5N1 viruses similar to the vaccine strain reported in section 6. Zoonotic influenza viruses occasionally infect humans, and can cause disease ranging from mild upper 
 respiratory infection (fever and cough) to rapid progression to severe pneumonia, acute respiratory 
 distress syndrome, shock and even death. Human infections are primarily caused by contact with 
 infected animals, but do not spread easily between people. </p>
@@ -90,11 +81,13 @@ same or a similar strain. </p>
 produce its own protection (antibodies) against the disease. None of the ingredients in the vaccine 
 can cause flu. </p>
 <p>As with all vaccines, AFLUNOV may not fully protect all persons who are vaccinated. </p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take aflunov"
+  * title = "2. What you need to know before you take aflunov"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take aflunov"
+  * code.text = "2. What you need to know before you take aflunov"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not receive AFLUNOV: </p>
 <ul>
@@ -158,13 +151,12 @@ and potential risks of giving you the vaccine.   </p>
 machines. </p>
 <p>AFLUNOV contains sodium and potassium. </p>
 <p>AFLUNOV contains less than 1 mmol sodium (23 mg) and less than 1 mmol of potassium (39 mg) 
-per 0.5 ml dose, i.e. essentially sodium- and potassium-free. </p>         </div>"""         
-
-        
+per 0.5 ml dose, i.e. essentially sodium- and potassium-free. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take aflunov"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take aflunov"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor or nurse will administer the vaccine in accordance with official recommendations. 
 The vaccine will be injected into the muscles of the upper arm (deltoid muscle). The vaccine should 
@@ -179,12 +171,13 @@ There is limited experience in children between 6 months and 17 years of age. Va
 not recommended in this age group. </p>
 <p>Children aged less than 6 months of age<br />
 Vaccination is currently not recommended in this age group. </p>
-<p>If you have any further questions on the use of this medicinal product, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicinal product, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store aflunov"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store aflunov"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, AFLUNOV can cause side effects, although not everybody gets them. </p>
 <p>Allergic reactions may occur following vaccination, in rare cases leading to shock. Doctors are aware 
@@ -205,8 +198,8 @@ the elderly: </p>
 * Brusing of the skin at the injection site 
 * Aching joints 
 * Fever and nausea 
-* Sweating </p>
-<p>Rare (affects 1 to 10 users in 10.000): 
+* Sweating 
+Rare (affects 1 to 10 users in 10.000): 
 * Anaphylaxis (severe allergic reactions). </p>
 <p>These side effects usually disappear within 1-2 days without treatment. If they persist, CONSULT 
 YOUR DOCTOR. </p>
@@ -285,11 +278,10 @@ listed in this leaflet. You can also report side effects directly via the nation
 in Appendix V. By reporting side effects, you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store aflunov"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store aflunov"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use AFLUNOV after the expiry date which is stated on the carton and the label. The expiry 
@@ -299,4 +291,53 @@ Do not freeze.<br />
 Store in the original package in order to protect from light. </p>
 <p>Do not throw any medicines via wastewater or household waste. Ask your pharmacist how to throw 
 away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What AFLUNOV contains </p>
+<ul>
+<li>Active Substance: 
+Influenza virus surface antigens (haemagglutinin and neuraminidase)* of strain: </li>
+</ul>
+<p>A/turkey/Turkey/1/2005 (H5N1)-like strain (NIBRG-23) (clade 2.2.1) 7.5 micrograms** 
+per 0.5 ml dose </p>
+<ul>
+<li>
+<p>propagated in fertilised hens  eggs from healthy chicken flocks 
+** 
+expressed in microgram haemagglutinin. </p>
+</li>
+<li>
+<p>Adjuvant MF59C.1: 
+The vaccine contains per 0.5 ml 9.75 mg squalene, 1.175 mg polysorbate 80, 1.175 mg sorbitan 
+trioleate, 0.66 mg sodium citrate and 0.04 mg citric acid.  </p>
+</li>
+<li>
+<p>Other ingredients: 
+The other ingredients are: sodium chloride, potassium chloride, potassium dihydrogen 
+phosphate, disodium phosphate dihydrate, magnesium chloride hexahydrate, calcium 
+chloride dihydrate and water for injections. </p>
+</li>
+</ul>
+<p>What AFLUNOV looks like and contents of the pack </p>
+<p>AFLUNOV is a suspension for injection in a pre-filled syringe. 
+The suspension is a milky-white liquid. 
+It is provided in a ready-to-use pre-filled syringe, containing a single dose of 0.5 ml for injection. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder 
+Seqirus S.r.l. 
+Via del Pozzo 3/A, S. Martino 
+53035 Monteriggioni (SI) 
+Italy. </p>
+<p>Manufacturer 
+Seqirus Netherlands B.V. 
+Paasheuvelweg 1105BJ Amsterdam 
+Netherlands </p>
+<p>This leaflet was last revised in {MM/YYYY} </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

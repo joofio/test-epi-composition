@@ -283,82 +283,62 @@ Authorisation Holder: </p>
 Astellas Pharma B.V. Branch 
 T l/Tel: +32 (0)2 5580Lietuva 
 Biocodex UAB 
-Tel.: +370 37 408  </p>
+Tel.: +370 37 408   </p>
 <p>Te .: +359 2 862 53 Luxembourg/Luxemburg 
 Astellas Pharma B.V. Branch 
 Belgique/Belgien 
-T l/Tel: +32 (0)2 5580 
- esk  republika 
+T l/Tel: +32 (0)2 5580 esk  republika 
 Astellas Pharma s.r.o. 
 Tel: +420 221 401 Magyarorsz g 
 Astellas Pharma Kft. 
-Tel.: +36 1 577 8 
-Danmark 
+Tel.: +36 1 577 8Danmark 
 Astellas Pharma a/s 
-Tlf: +45 43 430 
-Malta 
+Tlf: +45 43 430Malta 
 Astellas Pharmaceuticals AEBE 
-Tel: +30 210 8189 
-Deutschland 
+Tel: +30 210 8189Deutschland 
 Astellas Pharma GmbH 
-Tel.: +49 (0)89 454 
-Nederland 
+Tel.: +49 (0)89 454Nederland 
 Astellas Pharma B.V. 
-Tel: +31 (0)71 5455 
-Eesti 
+Tel: +31 (0)71 5455Eesti 
 Biocodex O<br />
-Tel: +372 6 056<br />
-Norge 
+Tel: +372 6 056 Norge 
 Astellas Pharma 
-Tlf: +47 66 76 46  </p>
-<p>Astellas Pharmaceuticals AEBE 
- : +30 210 8189 
- sterreich 
+Tlf: +47 66 76 46 <br />
+Astellas Pharmaceuticals AEBE 
+ : +30 210 8189 sterreich 
 Astellas Pharma Ges.m.b.H. 
-Tel.: +43 (0)1 8772 
-Espa a 
+Tel.: +43 (0)1 8772Espa a 
 Astellas Pharma S.A. 
-Tel: +34 91 4952 
-Polska 
+Tel: +34 91 4952Polska 
 Astellas Pharma Sp.z.o.o. 
 Tel.: +48 225451 France 
 Astellas Pharma S.A.S. 
-T l: +33 (0)1 55917 
-Portugal 
+T l: +33 (0)1 55917Portugal 
 Astellas Farma, Lda. 
 Tel: +351 21 4401Hrvatska 
 Astellas d.o.o 
 Rom nia 
 S.C.Astellas Pharma SRL 
-Tel: +385 1670 0 
-Tel: +40 (0)21 361 04 95/96/ 
-Ireland 
+Tel: +385 1670 0Tel: +40 (0)21 361 04 95/96/Ireland 
 Astellas Pharma Co. Ltd. 
-Tel: +353 (0)1 4671 
-Slovenija 
+Tel: +353 (0)1 4671Slovenija 
 Astellas Pharma d.o.o 
-Tel: +386 14011 
- sland 
+Tel: +386 14011 sland 
 Vistor hf 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Astellas Pharma s.r.o. 
-Tel: +421 2 4444 2 
-Italia 
+Tel: +421 2 4444 2Italia 
 Astellas Pharma S.p.A. 
 Tel: +39 (0)2 921Suomi/Finland 
 Astellas Pharma 
-Puh/Tel: +358 (0)9 85606 </p>
+Puh/Tel: +358 (0)9 85606  </p>
 <p>Astellas Pharmaceuticals AEBE 
- : +30 210 8189 
-Sverige 
+ : +30 210 8189Sverige 
 Astellas Pharma AB 
-Tel: +46 (0)40-650 15<br />
-Latvija 
+Tel: +46 (0)40-650 15 Latvija 
 Biocodex SIA 
 Tel: +371 67 619United Kingdom (Northern Ireland) 
 Astellas Pharma Co., Limited 
-Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
-<p>This leaflet was last revised in MM/YYYY  </p>
+Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was last revised in MM/YYYY  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

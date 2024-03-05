@@ -282,8 +282,7 @@ Zone d activit  de Courtab uf
 3 Avenue des Tropiques 
 91940 Les Ulis 
 France 
-+33 1 69 82 70<br />
-For any information about this medicine, please contact the local representative of the Marketing 
++33 1 69 82 70 For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>

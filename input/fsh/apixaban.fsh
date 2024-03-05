@@ -209,8 +209,8 @@ e.g., 30 mL (2 tablespoons), water or one of the other liquids mentioned above t
 mixture. 
 * Swallow the mixture. 
 * Rinse the pestle andmortar or the spoon and plate)you used for crushing the tablet and the 
-container, with a little water or one of the other liquids (e.g., 30 mL), and swallow the rinse. </p>
-<p>If necessary, your doctor may also give you the crushed Apixaban Accordtablet mixed in 60 mL of 
+container, with a little water or one of the other liquids (e.g., 30 mL), and swallow the rinse. 
+If necessary, your doctor may also give you the crushed Apixaban Accordtablet mixed in 60 mL of 
 water or 5%  glucose in water, through a nasogastric tube. </p>
 <p>Take Apixaban Accord as recommended for the following: </p>
 <p>To prevent blood clots from forming after hip or knee replacement operations. 
@@ -321,11 +321,13 @@ forming after hip or knee replacement operations. </p>
 <li>
 <p>bruising and swelling </p>
 </li>
-<li>Nausea (feeling sick) </li>
-</ul>
-<p>Uncommon side effects (may affect up to 1 in 100 people) </p>
-<ul>
-<li>Reduced number of platelets in your blood (which can affect clotting) </li>
+<li>
+<p>Nausea (feeling sick) 
+Uncommon side effects (may affect up to 1 in 100 people) </p>
+</li>
+<li>
+<p>Reduced number of platelets in your blood (which can affect clotting) </p>
+</li>
 <li>
 <p>Bleeding:</p>
 </li>
@@ -643,5 +645,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

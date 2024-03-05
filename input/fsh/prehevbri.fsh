@@ -265,8 +265,7 @@ suspension forms a slightly white opaque suspension. </p>
 <p>Marketing Authorisation Holder<br />
 VBI Vaccines B.V. 
 Delflandlaan 1<br />
-Queen s Tower, No. 714<br />
-1062EA Amsterdam 
+Queen s Tower, No. 1062EA Amsterdam 
 Netherlands </p>
 <p>Manufacturer 
 MIAS Pharma Limited 

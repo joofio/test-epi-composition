@@ -308,6 +308,5 @@ Phone:  . </p>
 <p>For information on the product, 
  please contact: 
  HRA Pharma Rare Diseases 
-Tel: + 33 1 40 33 93 14<br />
-medinfo-rd@hra-pharma.com </p>         </div>"""      
+Tel: + 33 1 40 33 93 medinfo-rd@hra-pharma.com </p>         </div>"""      
 

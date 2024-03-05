@@ -99,14 +99,7 @@ Before receiving treatment with Luxturna:
 have eye redness, sensitivity to light, eye swelling or eye pain. 
 * Tell your doctor if you have an active infection of any sort. Your doctor may delay your 
 treatment until your infection is gone because this medicine may make it more difficult for you 
-to fight an infection. See also section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take luxturna"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take luxturna"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>After receiving Luxturna: 
+to fight an infection. See also section 3. After receiving Luxturna: 
 * Get immediate care from your doctor if your eye or eyes become red, painful, sensitive to light, 
 you see flashes or floaters in your vision, or if you notice any worsening or blurred vision. 
 * You should avoid air travel or other travel to high elevations until advised by your doctor. 
@@ -145,13 +138,12 @@ You may have temporary visual disturbances after receiving Luxturna. Do not driv
 machines until your vision has recovered. Talk to your doctor before resuming these activities. </p>
 <p>Luxturna contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take luxturna"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take luxturna"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Luxturna will be given to you in an operating room by surgeons experienced in performing eye 
 surgery. </p>
@@ -170,12 +162,13 @@ taking the medicine without first talking to your doctor. </p>
 As this medicine is given to you by a doctor, it is unlikely that you will be given too much. If it does 
 occur, your doctor will treat the symptoms as necessary. Tell your doctor or nurse if you have any 
 visual problems. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store luxturna"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store luxturna"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The following side effects may happen with Luxturna: </p>
@@ -219,14 +212,118 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store luxturna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store luxturna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Luxturna will be stored by the healthcare professionals at your healthcare facility. 
+Concentrate and solvent must be stored and transported frozen at  -65  C. Once thawed, the medicine 
+should not be re-frozen and should be left at room temperature (below 25  C). 
+Do not use this medicine after the expiry date which is stated on the label and carton after EXP. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Luxturna will be stored by the healthcare professionals at your healthcare facility. 
-Concentrate and solvent must be stored and transported frozen at  -65  C. Once thawed, the medicine 
-should not be re-frozen and should be left at room temperature (below 25  C). 
-Do not use this medicine after the expiry date which is stated on the label and carton after EXP. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Luxturna contains 
+- The active substance is voretigene neparvovec. Each mL of concentrate contains 5   1012 vector 
+genomes (vg). The concentrate (0.5 mL extractable volume in a single-dose 2 mL vial) requires 
+a 1:10 dilution prior to administration. 
+- Each dose of diluted solution contains 1.5   1011 vector genomes of voretigene neparvovec in a 
+deliverable volume of 0.3 mL. 
+- The other ingredients of the concentrate are sodium chloride (see  Luxturna contains sodium  in 
+section 2 of this leaflet), sodium dihydrogen phosphate monohydrate (for pH adjustment), 
+disodium hydrogen phosphate dihydrate (for pH adjustment), poloxamer 188 and water for 
+injections. 
+- The solvent contains sodium chloride (see end of section 2), sodium dihydrogen phosphate 
+monohydrate (for pH adjustment), disodium hydrogen phosphate dihydrate (for pH adjustment), 
+poloxamer 188 and water for injections. </p>
+<p>This medicine contains genetically modified organisms. </p>
+<p>What Luxturna looks like and contents of the pack 
+Luxturna is a clear, colourless concentrate for solution for subretinal injection, supplied in a clear 
+plastic vial. The solvent is a clear, colourless liquid supplied in a clear plastic vial. </p>
+<p>Each foil pouch includes a carton containing 1 vial of 0.5 mL concentrate and 2 vials of solvent (each 
+containing 1.7 mL). </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+This leaflet is available as an audio file and in a large print from the web site: 
+http://www.voretigeneneparvovec.support </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

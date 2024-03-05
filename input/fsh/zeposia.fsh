@@ -87,8 +87,8 @@ as: numbness, difficulty in walking, and problems with vision and balance.
 recovery. The symptoms may disappear during the recovery periods, but some problems may 
 remain. </p>
 <p>Zeposia helps to protect against attacks on the nerves by stopping certain white blood cells reaching 
-the brain and spine where they could cause inflammation and damage the nerves protective coating.  </p>
-<p>Ulcerative colitis 
+the brain and spine where they could cause inflammation and damage the nerves protective coating.<br />
+Ulcerative colitis 
 Zeposia is indicated for the treatment of adult patients with moderately to severely active ulcerative 
 colitis (UC). 
 * Ulcerative colitis is an inflammatory disease of the bowel. If you have ulcerative colitis you will 
@@ -182,13 +182,9 @@ glatiramer acetate, mitoxantrone, natalizumab or teriflunomide </li>
 <li>rifampicin, an antibiotic for treating tuberculosis and other serious infections </li>
 <li>medicines called monoamine oxidase inhibitors for treating depression (e.g. phenelzine) or 
 Parkinson s disease (e.g. selegiline)  </li>
-<li>
-<p>medicines that slow your heart rate (such as beta-blockers or calcium channel blockers) </p>
-</li>
-<li>
-<p>certain type of vaccines. Live attenuated vaccines should be avoided during and for 3 months 
-after treatment. </p>
-</li>
+<li>medicines that slow your heart rate (such as beta-blockers or calcium channel blockers) </li>
+<li>certain type of vaccines. Live attenuated vaccines should be avoided during and for 3 months 
+after treatment. </li>
 </ul>
 <p>Pregnancy and breast-feeding<br />
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -285,26 +281,24 @@ Tell your doctor or pharmacist immediately if you notice any of the serious side
 section 2)  </li>
 </ul>
 <p>Other side effects 
-Tell your doctor or pharmacist if you notice any of the following side effects: </p>
-<ul>
-<li>Very common: may affect more than 1 in 10 people </li>
-<li>infections of the nose or nostrils, nasal cavity, mouth, throat (pharynx), or voice box 
-(larynx) caused by viruses </li>
-<li>low level of a type of white blood cell   called lymphocytes </li>
-<li>Common: may affect up to 1 in 10 people </li>
-<li>inflammation of the throat (pharyngitis) </li>
-<li>respiratory infection (sign of lungs infection) </li>
-<li>herpes zoster (shingles) </li>
-<li>herpes simplex or cold sores (oral herpes) </li>
-<li>headache </li>
-<li>drop in blood pressure </li>
-<li>swelling especially of the ankles and feet, due to fluid retention (peripheral oedema) </li>
-<li>increased liver enzyme levels in blood tests (a sign of liver problems) or yellow 
-pigmentation of the skin, mucus membrane or eyes (jaundice) </li>
-<li>lung abnormalities which can cause breathlessness </li>
-<li>Uncommon: may affect up to 1 in 100 people </li>
-<li>blurred vision (macular oedema) </li>
-</ul>
+Tell your doctor or pharmacist if you notice any of the following side effects: 
+* Very common: may affect more than 1 in 10 people 
+- infections of the nose or nostrils, nasal cavity, mouth, throat (pharynx), or voice box 
+(larynx) caused by viruses 
+- low level of a type of white blood cell   called lymphocytes 
+*  Common: may affect up to 1 in 10 people 
+- inflammation of the throat (pharyngitis) 
+- respiratory infection (sign of lungs infection) 
+- herpes zoster (shingles) 
+- herpes simplex or cold sores (oral herpes) 
+- headache 
+- drop in blood pressure 
+- swelling especially of the ankles and feet, due to fluid retention (peripheral oedema) 
+- increased liver enzyme levels in blood tests (a sign of liver problems) or yellow 
+pigmentation of the skin, mucus membrane or eyes (jaundice) 
+- lung abnormalities which can cause breathlessness 
+* Uncommon: may affect up to 1 in 100 people 
+- blurred vision (macular oedema) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -345,17 +339,15 @@ Each hard capsule contains 0.92 mg of ozanimod (as hydrochloride).
 - Capsule content:<br />
 Microcrystalline cellulose, colloidal anhydrous silica, croscarmellose sodium, 
 magnesium stearate. 
-- Capsule shell: </p>
-<ul>
-<li>Each 0.23 mg capsule contains gelatin, titanium dioxide (E171), yellow iron 
-oxide (E172), black iron oxide (E172) and red iron oxide (E172). </li>
-<li>Each 0.46 mg capsule contains gelatin, titanium dioxide (E171), yellow iron 
-oxide (E172), black iron oxide (E172) and red iron oxide (E172). </li>
-<li>Each 0.92 mg capsule contains gelatin, titanium dioxide (E171), yellow iron 
-oxide (E172) and red iron oxide (E172). </li>
-<li>Printing ink: iron oxide black (E172), Shellac (E904), propylene glycol (E1520), 
-concentrated ammonia solution (E527), potassium hydroxide (E525) </li>
-</ul>
+- Capsule shell: 
+* Each 0.23 mg capsule contains gelatin, titanium dioxide (E171), yellow iron 
+oxide (E172), black iron oxide (E172) and red iron oxide (E172). 
+* Each 0.46 mg capsule contains gelatin, titanium dioxide (E171), yellow iron 
+oxide (E172), black iron oxide (E172) and red iron oxide (E172). 
+* Each 0.92 mg capsule contains gelatin, titanium dioxide (E171), yellow iron 
+oxide (E172) and red iron oxide (E172). 
+- Printing ink: iron oxide black (E172), Shellac (E904), propylene glycol (E1520), 
+concentrated ammonia solution (E527), potassium hydroxide (E525) </p>
 <p>What Zeposia looks like and contents of the pack 
 * The Zeposia 0.23 mg, 14.3 mm hard capsule has light grey opaque cap and body imprinted in 
 black ink with  OZA  on the cap and  0.23 mg  on the body. 

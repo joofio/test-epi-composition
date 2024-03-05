@@ -137,8 +137,8 @@ for the first 3 months of your treatment and then less often. This is to check y
 or muscle problems while taking Alecensa. </p>
 <p>Children and adolescents 
 Alecensa has not been studied in children or adolescents. Do not give this medicine to children or 
-adolescents under the age of 18 years. </p>
-<p>Other medicines and Alecensa </p>
+adolescents under the age of 18 years. 
+Other medicines and Alecensa </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This includes medicines obtained without a prescription, and herbal medicines. This is 
 because Alecensa can affect the way some other medicines work. Also some other medicines can 
@@ -220,8 +220,8 @@ treatment completely if you feel unwell. </p>
 usual time. </p>
 <p>If you take more Alecensa than you should </p>
 <p>If you take more Alecensa than you should, talk to a doctor or go to hospital straight away. Take the 
-medicine pack and this leaflet with you. </p>
-<p>If you forget to take Alecensa </p>
+medicine pack and this leaflet with you. 
+If you forget to take Alecensa </p>
 <p>If it is more than 6 hours until your next dose, take the missed dose as soon as you remember. 
   If it is less than 6 hours until your next dose, skip the missed dose. Then take your next dose at the 
 usual time. 
@@ -342,89 +342,65 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-T l/Tel: +32 (0) 2 525 82<br />
-Lietuva 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
 UAB  Roche Lietuva<br />
-Tel: +370 5 2546 </p>
-<p>: +359 2 818 44<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
 <p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382Magyarorsz g 
 Roche (Magyarorsz g) Kft. 
-Tel: +36 - 1 279 4 
-Danmark 
+Tel: +36 - 1 279 4Danmark 
 Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99<br />
-Malta 
+Tlf: +45 - 36 39 99 Malta 
 (See Ireland)<br />
 Deutschland 
 Roche Pharma AG 
-Tel: +49 (0) 7624<br />
-Nederland 
+Tel: +49 (0) 7624 Nederland 
 Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
+Tel: +31 (0) 348 438Eesti 
 Roche Eesti O<br />
-Tel: + 372 - 6 177<br />
-Norge 
+Tel: + 372 - 6 177 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90  </p>
-<p>Roche (Hellas) A.E.<br />
- : +30 210 61 66<br />
- sterreich 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
 Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-Espa a 
+Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A. 
-Tel: +34 - 91 324 81<br />
-Polska 
+Tel: +34 - 91 324 81 Polska 
 Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-France 
+Tel: +48 - 22 345 18 France 
 Roche 
-T l: +33 (0) 1 47 61 40<br />
-Portugal 
+T l: +33 (0) 1 47 61 40 Portugal 
 Roche Farmac utica Qu mica, Lda 
-Tel: +351 - 21 425 70<br />
-Hrvatska 
+Tel: +351 - 21 425 70 Hrvatska 
 Roche d.o.o. 
-Tel: +385 1 4722<br />
-Rom nia 
+Tel: +385 1 4722 Rom nia 
 Roche Rom nia S.R.L. 
-Tel: +40 21 206 47<br />
-Ireland 
+Tel: +40 21 206 47 Ireland 
 Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Slovenija 
+Tel: +353 (0) 1 469 0Slovenija 
 Roche farmacevtska dru ba d.o.o. 
-Tel: +386 - 1 360 26<br />
- sland<br />
+Tel: +386 - 1 360 26  sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-S mi: +354 540 8 
-Slovensk  republika<br />
+S mi: +354 540 8Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
+Tel: +421 - 2 52638Italia 
 Roche S.p.A. 
-Tel: +39 - 039 2 
-Suomi/Finland 
+Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-K <br />
+Puh/Tel: +358 (0) 10 554 K <br />
  . .  &amp;    . 
- : +357 - 22 76 62<br />
-Sverige 
+ : +357 - 22 76 62 Sverige 
 Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
+Tel: +46 (0) 8 726 1Latvija 
 Roche Latvija SIA 
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

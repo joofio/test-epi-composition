@@ -54,12 +54,11 @@ Usage: #inline
   * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rasagiline Mylan is and what it is used for 
-2. What you need to know before you take Rasagiline Mylan  
-3. How to take Rasagiline Mylan 
-4. Possible side effects  
-5. How to store Rasagiline Mylan 
+1. What Rasagiline ratiopharm is and what it is used for 
+2. What you need to know before you take Rasagiline ratiopharm 
+3. How to take Rasagiline ratiopharm 
+4. Possible side effects 
+5. How to store Rasagiline ratiopharm 
 6. Contents of the pack and other information 
          </div>"""   
           
@@ -69,11 +68,11 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What rasagiline is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rasagiline Mylan contains the active substance rasagiline and it is used for the treatment of 
-Parkinson s disease in adults. It can be used together with or without levodopa (another medicine that 
-is used to treat Parkinson s disease). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rasagiline ratiopharm contains the active substance rasagiline and it is used for the treatment of 
+Parkinson s disease in adults. It can be used together with or without Levodopa (another medicine that is 
+used to treat Parkinson s disease). </p>
 <p>With Parkinson s disease, there is a loss of cells that produce dopamine in the brain. Dopamine is a 
-chemical in the brain involved in movement control. Rasagiline Mylan helps to increase and sustain 
+chemical in the brain involved in movement control. Rasagiline ratiopharm helps to increase and sustain 
 levels of dopamine in the brain. </p>         </div>"""   
           
 
@@ -83,108 +82,96 @@ levels of dopamine in the brain. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take rasagiline"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rasagiline Mylan:</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rasagiline ratiopharm 
+- If you are allergic to rasagiline or any of the other ingredients of this medicine (listed in section 6). 
+- If you have severe liver problems.  </p>
+<p>Do not take the following medicines while taking Rasagiline ratiopharm:</p>
 <ul>
-<li>if you are allergic to rasagiline or any of the other ingredients of this medicine (listed in 
-section 6). </li>
-<li>if you have severe liver problems. </li>
-</ul>
-<p>Do not take the following medicines while taking Rasagiline Mylan:</p>
-<ul>
-<li>monoamine oxidase (MAO) inhibitors (e.g. for treatment of depression or Parkinson s disease, 
-or used for any other indication), including medicinal and natural products without prescription 
-e.g. St. John's Wort. </li>
-<li>pethidine (a strong pain killer). 
-You must wait at least 14 days after stopping Rasagiline Mylan treatment and starting treatment with 
+<li>Monoamine oxidase (MAO) inhibitors (e.g. for treatment of depression or Parkinson s disease, or 
+used for any other indication), including medicinal and natural products without prescription e.g. 
+St. John's Wort. </li>
+<li>Pethidine (a strong pain killer). 
+You must wait at least 14 days after stopping Rasagiline ratiopharm treatment and starting treatment with 
 MAO inhibitors or pethidine. </li>
 </ul>
-<p>Warnings and precautions<br />
-Talk to your doctor before taking Rasagiline Mylan. 
-- if you have  any liver problems 
-- if you have any suspicious skin changes. Treatment with Rasagiline Mylan may possibly 
-increase the risk of skin cancer. </p>
-<p>Tell your doctor if you or your family/carer notices that you are developing unusual 
-behaviours where you cannot resist the impulse, urges or cravings to carry out certain harmful or 
-detrimental activities to yourself or others. These are called impulse control disorders. In patients 
-taking Rasagiline Mylan and/or other medicines used to treat Parkinson s disease, behaviours such as 
-compulsions, obsessive thoughts, addictive gambling, excessive spending, impulsive behaviour and an 
-abnormally high sex drive or an increase in sexual thoughts or feelings have been observed. Your 
-doctor may need to adjust or stop your dose (see section 4). </p>
-<p>Rasagiline Mylan may cause drowsiness and may cause you to suddenly fall asleep during day 
-time activities, especially if you are taking other dopaminergic medicinal products (used for the 
-treatment of Parkinson s disease). For further information please refer to section driving and using 
-machines. </p>
+<p>Warnings and precautions 
+Talk to your doctor before taking Rasagiline ratiopharm 
+- If you have any liver problems 
+- You should speak with your doctor about any suspicious skin changes. Treatment 
+with Rasagiline ratiopharm may possibly increase the risk of skin cancer. </p>
+<p>Tell your doctor if you or your family/carer notices that you are developing unusual behaviours where 
+you cannot resist the impulse, urges or cravings to carry out certain harmful or detrimental activities to 
+yourself or others. These are called impulse control disorders. In patients taking Rasagiline ratiopharm 
+and/or other medicines used to treat Parkinson s disease, behaviours such as compulsions, obsessive 
+thoughts, addictive gambling, excessive spending, impulsive behaviour and an abnormally high sex drive 
+or an increase in sexual thoughts or feelings have been observed. Your doctor may need to adjust or stop 
+your dose (see section 4). </p>
+<p>Rasagiline ratiopharm may cause drowsiness and may cause you to suddenly fall asleep 
+during day time activities, especially if you are taking other dopaminergic medicinal 
+products (used for the treatment of Parkinson s disease). For further information please 
+refer to section driving and using machines. </p>
 <p>Children and adolescents 
-There is no relevant use of Rasagiline Mylan in children and adolescents. Therefore, Rasagiline Mylan 
-is not recommended for use under the age of 1</p>         </div>"""   
+There is no relevant use of Rasagiline ratiopharm in children and adolescents. Therefore, Rasagiline 
+ratiopharm is not recommended for use under the age of 18. Other medicines and Rasagiline ratiopharm 
+Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. </p>
+<p>Especially tell your doctor if you are taking any of the following medicines:</p>
+<ul>
+<li>Certain antidepressants (selective serotonin reuptake inhibitors, selective serotonin-norepinephrine 
+reuptake inhibitors, tricyclic or tetracyclic antidepressants)  </li>
+<li>The antibiotic ciprofloxacin used against infections </li>
+<li>The cough suppressant dextromethorphan </li>
+<li>Sympathomimetics such as those present in eye drops, nasal and oral decongestants and cold 
+medicine containing ephedrine or pseudoephedrine 
+The use of Rasagiline ratiopharm together with the antidepressants containing fluoxetine or fluvoxamine 
+should be avoided. 
+If you are starting treatment with Rasagiline ratiopharm, you should wait at least 5 weeks after stopping 
+fluoxetine treatment. 
+If you are starting treatment with fluoxetine or fluvoxamine, you should wait at least 14 days after 
+stopping Rasagiline ratiopharm treatment. </li>
+</ul>
+<p>Tell your doctor or pharmacist if you are smoking or intend to stop smoking. Smoking could decrease the 
+amount of Rasagiline ratiopharm in the blood. </p>
+<p>Pregnancy, breast-feeding and fertility 
+If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
+doctor or pharmacist for advice before taking this medicine.  </p>
+<p>You should avoid taking Rasagiline ratiopharm if you are pregnant, as the effects of Rasagiline 
+ratiopharm on pregnancy and the unborn child are not known. </p>
+<p>Driving and using machines 
+Ask your doctor for advice before you drive and operate machines, since Parkinson s disease itself as 
+well as the treatment with Rasagiline ratiopharm may influence your ability to do so. Rasagiline 
+ratiopharm can make you feel dizzy or drowsy; it can also cause episodes of sudden sleep onset. 
+This might be enhanced if you take other medicines to treat the symptoms of your Parkinson s disease, or 
+if you take medicines which can make you feel drowsy, or if you drink alcohol while taking Rasagiline 
+ratiopharm. If you have experienced somnolence and/or episodes of sudden sleep onset before, or while 
+taking Rasagiline ratiopharm do not drive or operate machinery (see section 2). </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rasagiline"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take rasagiline"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Rasagiline Mylan 
-Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. </p>
-<p>Ask your doctor for advice before taking any of the following medicines together with Rasagiline 
-Mylan:</p>
-<ul>
-<li>Certain antidepressants (selective serotonin reuptake inhibitors, selective serotonin-
-norepinephrine reuptake inhibitors, tricyclic or tetracyclic antidepressants) </li>
-<li>the antibiotic ciprofloxacin used against infections </li>
-<li>the cough suppressant dextromethorphan </li>
-<li>sympathomimetics such as those present in eye drops, nasal and oral decongestants and cold 
-medicine containing ephedrine or pseudoephedrine. </li>
-</ul>
-<p>The use of Rasagiline Mylan together with the antidepressants containing fluoxetine or fluvoxamine 
-should be avoided. </p>
-<p>If you are starting treatment with Rasagiline Mylan, you should wait at least 5 weeks after stopping 
-fluoxetine treatment. </p>
-<p>If you are starting treatment with fluoxetine or fluvoxamine, you should wait at least 14 days after 
-stopping Rasagiline Mylan treatment. </p>
-<p>Tell your doctor or pharmacist if you are smoking or intend to stop smoking. Smoking could decrease 
-the amount of Rasagiline Mylan in the blood. </p>
-<p>Pregnancy, breast-feeding and fertility<br />
-If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
-your doctor or pharmacist for advice before taking this medicine. </p>
-<p>You should avoid taking Rasagiline Mylan if you are pregnant, as the effects of Rasagiline Mylan on 
-pregnancy and the unborn child are not known. </p>
-<p>Driving and using machines 
-Ask your doctor for advice before you drive and operate machines, since Parkinson s disease itself as 
-well as the treatment with Rasagiline Mylan may influence your ability to do so. Rasagiline Mylan can 
-make you feel dizzy or drowsy; it can also cause episodes of sudden sleep onset. 
-This might be enhanced if you take other medicines to treat the symptoms of your Parkinson s disease, 
-or if you take medicines which can make you feel drowsy, or if you drink alcohol while taking 
-Rasagiline Mylan. If you have experienced somnolence and/or episodes of sudden sleep onset before, 
-or while taking Rasagiline Mylan do not drive or operate machinery (see section 2). </p>         </div>"""         
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or 
+pharmacist if you are not sure. </p>
+<p>The recommended dose of Rasagiline ratiopharm is 1 tablet of 1 mg taken by mouth once daily. 
+Rasagiline ratiopharm may be taken with or without food.  </p>
+<p>If you take more Rasagiline ratiopharm than you should 
+If you think that you may have taken too many Rasagiline ratiopharm tablets, contact your doctor or 
+pharmacist immediately. Take the Rasagiline ratiopharm carton/ blister or bottle with you to show the 
+doctor or pharmacist. </p>
+<p>Symptoms reported following overdose of Rasagiline ratiopharm included slightly euphoric mood (light 
+form of mania), extremely high blood pressure and serotonin syndrome (see section 4). </p>
+<p>If you forget to take Rasagiline ratiopharm 
+Do not take a double dose to make up for a forgotten dose. Take the next dose normally, when it is time 
+to take it. </p>
+<p>If you stop taking Rasagiline ratiopharm 
+Do not stop taking Rasagiline ratiopharm without first talking to your doctor.  </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
-or pharmacist if you are not sure. </p>
-<p>The recommended dose is 1 tablet of 1 mg taken by mouth once daily. Rasagiline Mylan may be taken 
-with or without food. </p>
-<p>If you take more Rasagiline Mylan than you should 
-If you think that you may have taken too many Rasagiline Mylan tablets, contact your doctor or 
-pharmacist immediately. Take the Rasagiline Mylan carton/blister with you to show the doctor or 
-pharmacist. </p>
-<p>Symptoms reported following overdose of Rasagiline Mylan included slightly euphoric mood (light 
-form of mania), extremely high blood pressure and serotonin syndrome (see section 4). </p>
-<p>If you forget to take Rasagiline Mylan 
-Do not take a double dose to make up for a forgotten dose. Take the next dose normally, when it is 
-time to take it. </p>
-<p>If you stop taking Rasagiline Mylan 
-Do not stop taking Rasagiline Mylan without first talking to your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store rasagiline"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rasagiline"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Contact you doctor right away if you notice any of the following symptoms. You may need urgent 
@@ -194,11 +181,10 @@ medical advice or treatment:</p>
 excessive shopping or spending, impulsive behaviour and an abnormally high sex drive or an 
 increase in sexual thoughts (impulse control disorders) (see section 2). </li>
 <li>If you see or hear things which are not there (hallucinations). </li>
-<li>Any combination of hallucinations, fever, restlessness, tremor and sweating (serotonin 
-syndrome) </li>
+<li>Any combination of hallucinations, fever, restlessness, tremor and sweating (serotonin syndrome) </li>
 </ul>
-<p>Contact your doctor if you notice any suspicious skin changes because there may be an increased risk 
-of skin cancer (melanoma) with the use of this medicine (see section 2). </p>
+<p>Contact your doctor if you notice any suspicious skin changes because there may be an increased risk of 
+skin cancer (melanoma) with the use of this medicine (see section 2). </p>
 <p>Other side effects </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - Involuntary movements (dyskinesia) 
@@ -212,8 +198,8 @@ of skin cancer (melanoma) with the use of this medicine (see section 2). </p>
 - General feeling of being unwell (malaise) 
 - Neck pain 
 - Chest pain (angina pectoris) 
-- Low blood pressure when rising to a standing position with symptoms like dizziness/light-</p>
-<p>headedness (orthostatic hypotension) 
+- Low blood pressure when rising to a standing position with symptoms like dizziness/light-
+headedness (orthostatic hypotension) 
 - Decreased appetite<br />
 - Constipation 
 - Dry mouth 
@@ -244,10 +230,22 @@ of skin cancer (melanoma) with the use of this medicine (see section 2). </p>
 - Excessive drowsiness 
 - Sudden onset of sleep </p>
 <p>Reporting of side effects 
-If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
+listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects you can help provide more information on the safety of this 
+medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rasagiline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rasagiline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton, bottle or blister after EXP. 
+The expiry date refers to the last day of that month.  </p>
+<p>Do not store above 30oC. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
+away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -255,10 +253,95 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or blister after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Do not store above 25 C. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rasagiline ratiopharm contains 
+- The active substance is rasagiline. Each tablet contains 1 mg rasagiline (as mesilate). 
+- The other ingredients are mannitol, colloidal anhydrous silica, maize starch, pregelatinised maize 
+starch, stearic acid, talc. </p>
+<p>What Rasagiline ratiopharm looks like and contents of the pack 
+Rasagiline ratiopharm tablets are presented as white to off-white, round, flat, bevelled tablets, debossed 
+with  GIL  and  1  underneath on one side and plain on the other side. </p>
+<p>The tablets are available in blister packs of 7, 10, 28, 30, 100 and 112 tablets, in perforated unit dose 
+blister packs of 10 x 1, 30 x 1 and 100 x 1 tablets or in a bottle containing 30 tablets. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Netherlands </p>
+<p>Manufacturers </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Netherlands </p>
+<p>Pliva Croatia Ltd. 
+Prilaz baruna Filipovica 10000 Zagreb 
+Croatia </p>
+<p>Teva Operations Poland Sp.z o.o. 
+ul. Mogilska 31-546 Krakow 
+Poland </p>
+<p>For any information about this medicinal product, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien<br />
+T l/Tel: +32 38207 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+Norge 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Teva Norway AS<br />
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Laboratorios Davur, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij <br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in MM/YYYY. </p>         </div>"""      
 

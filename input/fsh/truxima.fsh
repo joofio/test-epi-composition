@@ -154,8 +154,8 @@ from severe infections.
 * if you think you may need any vaccinations in the near future, including vaccinations needed to<br />
 travel to other countries. Some vaccines should not be given at the same time as Truxima or in 
 the months after you receive Truxima. Your doctor will check if you should have any vaccines 
-before you receive Truxima. </p>
-<p>Children and adolescents 
+before you receive Truxima. 
+Children and adolescents 
 Non-Hodgkin s lymphoma 
 Truxima can be used for the treatment of children and adolescents, 6 months of age and older, with 
 non-Hodgkin s lymphoma, specifically CD20 positive diffuse large B-cell lymphoma (DLBCL), 
@@ -310,8 +310,8 @@ lymphocytic leukaemia </p>
 * feeling sick (nausea) 
 * bald spots on the scalp, chills, headache 
 * lower immunity   because of lower levels of anti-bodies called  immunoglobulins  (IgG) 
-in the blood which help protect against infection </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
+in the blood which help protect against infection 
+Common side effects (may affect up to 1 in 10 people): 
 * infections of the blood (sepsis), pneumonia, shingles, cold, bronchial tube infections, 
 fungal infections, infections of unknown origin, sinus inflammation, hepatitis B 
 * low number of red blood cells (anaemia), low number of all blood cells 
@@ -363,11 +363,9 @@ the mouth, the genital areas or the eyelids, and fever may be present.
 <p>Not known (it is not known how often these side effects happen): 
 * a reduction in white blood cells which does not happen straight away 
 * reduced platelets number just after the infusion   this can be reversed, but can be fatal in 
-rare cases </p>
-<ul>
-<li>hearing loss, loss of other senses </li>
-<li>brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </li>
-</ul>
+rare cases 
+* hearing loss, loss of other senses 
+*  brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </p>
 <p>Children and adolescents with non-Hodgkin s lymphoma 
 In general, side effects in children and adolescents with non-Hodgkin s lymphoma were similar to 
 those in adults with non-Hodgkin s lymphoma or chronic lymphocytic leukaemia. The most common 
@@ -415,8 +413,8 @@ mouth, the genital areas or the eyelids, and fever may be present. </p>
 <p>brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </p>
 <p>Other rarely-reported side-effects due to Truxima include a decreased number of white cells in the 
 blood (neutrophils) that help to fight against infection. Some infections may be severe (please see 
-information on Infections within this section). </p>
-<p>c) 
+information on Infections within this section). 
+c) 
 If you or your child are being treated for granulomatosis with polyangiitis or microscopic 
 polyangiitis </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
@@ -465,11 +463,9 @@ reactions and feeling sick (nausea). </p>
 * allergic reactions that are most likely to occur during an infusion, but can occur up to 24 hours 
 after infusion 
 * headache 
-* infections such as chest infections </p>
-<ul>
-<li>long lasting depression </li>
-<li>loss of hair </li>
-</ul>
+* infections such as chest infections 
+* long lasting depression 
+* loss of hair </p>
 <p>Common side effects (may affect up to 1 in 10 people): 
 * infections such as common cold, herpes infections, eye infection, oral thrush and urinary tract 
 infections (pain on passing urine) 
@@ -558,83 +554,68 @@ T l/Tel: +32 1528 7BEinfo@celltrionhc.com </p>
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0<br />
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Luxembourg/Luxemburg 
+Tel: +36 1 231 0Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
 T l/Tel: +32 1528 7BEinfo@celltrionhc.com </p>
 <p>esk  republika 
-Magyarorsz g </p>
-<p>Celltrion Healthcare Hungary Kft.<br />
+Magyarorsz g 
+Celltrion Healthcare Hungary Kft.<br />
 Tel: +36 1 231 0Celltrion Healthcare Hungary Kft.<br />
-Tel: +36 1 231 0 </p>
-<p>Danmark 
+Tel: +36 1 231 0Danmark 
 Orion Pharma A/S<br />
 Tlf: + 45 86 14 00 Malta 
 Mint Health Ltd. 
-Tel: +356 2093 9 
-Deutschland 
+Tel: +356 2093 9Deutschland 
 Celltrion Healthcare Deutschland GmbH 
- Tel. +49 (0)30 346494 
-infoDE@celltrionhc.com 
+ Tel. +49 (0)30 346494infoDE@celltrionhc.com 
 Nederland 
 Celltrion Healthcare Netherlands B.V 
 Tel: +31 20 888 7NLinfo@celltrionhc.com </p>
 <p>Eesti 
 Orion Pharma Eesti O<br />
-Tel: + 372 6 644<br />
-Norge 
+Tel: + 372 6 644 Norge 
 Orion Pharma AS 
-Tlf: + 47 40 00 42  </p>
-<p>. . 
- : +30 210 8009111  <br />
-Espa a 
+Tlf: + 47 40 00 42 <br />
+   . . 
+ : +30 210 8009111   Espa a 
 Kern Pharma, S.L. 
 Tel: +34 93 700 2 sterreich 
 Astro-Pharma GmbH 
-Tel: +43 1 97 99<br />
-Polska 
+Tel: +43 1 97 99 Polska 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 </p>
-<p>France 
+Tel: +36 1 231 0France 
 CELLTIRION HEALTHCARE FRANCE SAS 
 T l: +33 (0)1 71 25 27 Portugal 
 PharmaKERN Portugal   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
-Tel: +351 214 200<br />
-Hrvatska 
+Tel: +351 214 200 Hrvatska 
 Oktal Pharma d.o.o. 
-Tel: +385 1 6595<br />
-Rom nia 
+Tel: +385 1 6595 Rom nia 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Ireland 
+Tel: +36 1 231 0Ireland 
 Celltrion Healthcare Ireland Limited 
 Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 <p>Slovenija 
 OPH Oktal Pharma d.o.o.<br />
-Tel: +386 1 519 29  </p>
-<p>sland 
+Tel: +386 1 519 29  sland 
 Vistor hf.<br />
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0Italia 
 Celltrion Healthcare Italy S.R.L 
 Tel: +39 0247 927celltrionhealthcare_italy@legalmail.it </p>
 <p>Suomi/Finland 
 Orion Pharma 
-Puh/Tel: + 358 10 4 </p>
-<p>C.A. Papaellinas Ltd 
- : +357 22741 
-Sverige 
+Puh/Tel: + 358 10 4<br />
+C.A. Papaellinas Ltd 
+ : +357 22741Sverige 
 Orion Pharma AB 
-Tel: + 46 8 623 64<br />
-Latvija 
+Tel: + 46 8 623 64 Latvija 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0United Kingdom (Northern Ireland) 
 Celltrion Healthcare Ireland Limited 
-Tel: +353 1 223 4enquiry_ie@celltrionhc.com  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +353 1 223 4enquiry_ie@celltrionhc.com<br />
+This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -283,8 +283,8 @@ If any of these side effects become severe, tell your doctor or pharmacist. </p>
 * rash 
 * abnormal hair growth 
 * thirst, not passing much urine, weight loss, dry flushed skin, irritability (possible symptoms of low 
-level of fluids in the body, known as dehydration). </p>
-<p>During Odomzo treatment, you may also have some abnormal blood test results. These can alert your 
+level of fluids in the body, known as dehydration). 
+During Odomzo treatment, you may also have some abnormal blood test results. These can alert your 
 doctor to possible changes in the function of some parts of your body, for example: 
 * high levels of the following enzymes: creatine phosphokinase (muscle function), lipase and/or amylase 
 (pancreas function), alanine aminotransferase (ALT) and/or aspartate aminotransferase (AST) (liver 
@@ -342,22 +342,19 @@ Authorisation Holder: </p>
 Sun Pharmaceutical Industries Europe B.V. 
 T l/Tel: +31 23 568 55 Lietuva 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55  </p>
-<p>Sun Pharmaceutical Industries Europe B.V. 
+Tel: +31 23 568 55 <br />
+Sun Pharmaceutical Industries Europe B.V. 
  : +31 23 568 55 Luxembourg/Luxemburg 
 Sun Pharmaceutical Industries Europe B.V. 
-T l/Tel: +31 23 568 55<br />
- esk  republika 
+T l/Tel: +31 23 568 55  esk  republika 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55 Magyarorsz g 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel.: +31 23 568 55<br />
-Danmark 
+Tel.: +31 23 568 55 Danmark 
 Sun Pharmaceutical Industries Europe B.V. 
 Tlf: +31 23 568 55 Malta 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55<br />
-Deutschland 
+Tel: +31 23 568 55 Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Tel: +49 21 440 39 E-mail: info.de@sunpharma.com 
 Nederland 
@@ -366,51 +363,43 @@ Tel: +31 23 568 55 Eesti
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55 Norge 
 Sun Pharmaceutical Industries Europe B.V. 
-Tlf: +31 23 568 55  </p>
-<p>Sun Pharmaceutical Industries Europe B.V. 
+Tlf: +31 23 568 55 <br />
+Sun Pharmaceutical Industries Europe B.V. 
  : +31 23 568 55  sterreich 
 Astro-Pharma GmbH 
-Tel:  +43 (1) 97 99<br />
-Espa a 
+Tel:  +43 (1) 97 99 Espa a 
 Sun Pharma Laboratorios S.L. 
 Tel: +34 93 342 78 Polska 
 Ranbaxy (Poland) 
-Tel.: +48 22 642 07<br />
-France 
+Tel.: +48 22 642 07 France 
 Sun Pharma France 
 T l:+33 1 41 44 44 Portugal 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55<br />
-Hrvatska 
+Tel: +31 23 568 55 Hrvatska 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel.: +31 23 568 55 Rom nia 
 Terapia S.A. 
-Tel:+40 264 50 15<br />
-Ireland 
+Tel:+40 264 50 15 Ireland 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55 Slovenija 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55<br />
- sland 
+Tel: +31 23 568 55  sland 
 Sun Pharmaceutical Industries Europe B.V. 
 S mi: +31 23 568 55 Slovensk  republika 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55<br />
-Italia 
+Tel: +31 23 568 55 Italia 
 Sun Pharma Italia S.r.l. 
 Tel: +39 02 33 49 07 Suomi/Finland 
 Sun Pharmaceutical Industries Europe B.V. 
-Puh/Tel: +31 23 568 55  </p>
-<p>Sun Pharmaceutical Industries Europe B.V. 
+Puh/Tel: +31 23 568 55 <br />
+Sun Pharmaceutical Industries Europe B.V. 
  : +31 23 568 55 Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55<br />
-Latvija 
+Tel: +31 23 568 55 Latvija 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55 United Kingdom (Northern Ireland) 
 Ranbaxy UK Ltd 
-Tel: +44 (0) 208 848 8 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 (0) 208 848 8This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

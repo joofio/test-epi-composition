@@ -350,14 +350,7 @@ over the whole body (Stevens-Johnson syndrome and/or toxic epidermal necrolysis)
 * Widespread rash, high body temperature, liver enzyme elevations, blood abnormalities (eosinophilia), 
 enlarged lymph nodes and other body organs involvement (Drug Reaction with Eosinophilia and 
 Systemic Symptoms which is also known as DRESS or drug hypersensitivity syndrome). See also 
-section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store revlimid"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store revlimid"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor straight away if you notice any of the following serious side effects: 
+section 2. Tell your doctor straight away if you notice any of the following serious side effects: 
 * Fever, chills, sore throat, cough, mouth ulcers or any other symptoms of infection including within the 
 bloodstream (sepsis) 
 * Bleeding or bruising in the absence of injury 
@@ -495,11 +488,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 30TAppendix V30T. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store revlimid"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store revlimid"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -510,4 +502,122 @@ medicine. </p>         </div>"""
 <li>Do not throw away any medicines via wastewater or household waste. Please return unused medicines 
 to your pharmacist. These measures will help protect the environment. </li>
 </ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Revlimid contains </p>
+<p>Revlimid 2.5 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 2.5 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>capsule shell: gelatine, titanium dioxide (E171), indigo carmine (E132) and yellow iron oxide 
+(E172) </li>
+<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </li>
+</ul>
+<p>Revlimid 5 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 5 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>
+<p>capsule shell: gelatine and titanium dioxide (E171) </p>
+</li>
+<li>
+<p>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </p>
+</li>
+</ul>
+<p>Revlimid 7.5 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 7.5 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>capsule shell: gelatine, titanium dioxide (E171) and yellow iron oxide (E172) </li>
+<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </li>
+</ul>
+<p>Revlimid 10 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 10 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>capsule shell: gelatine, titanium dioxide (E171), indigo carmine (E132) and yellow iron oxide 
+(E172) </li>
+<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </li>
+</ul>
+<p>Revlimid 15 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 15 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>capsule shell: gelatine, titanium dioxide (E171) and indigo carmine (E132) </li>
+<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </li>
+</ul>
+<p>Revlimid 20 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 20 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>capsule shell: gelatine and titanium dioxide (E171), indigo carmine (E132) and yellow iron oxide 
+(E172) </li>
+<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </li>
+</ul>
+<p>Revlimid 25 mg hard capsules: 
+* The active substance is lenalidomide. Each capsule contains 25 mg of lenalidomide. 
+* The other ingredients are:</p>
+<ul>
+<li>capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
+sodium and magnesium stearate </li>
+<li>capsule shell: gelatine and titanium dioxide (E171) </li>
+<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
+(E172). </li>
+</ul>
+<p>What Revlimid looks like and contents of the pack </p>
+<p>Revlimid 2.5 mg hard capsules are blue-green/white, with  REV 2.5 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Revlimid 5 mg hard capsules are white, with  REV 5 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Revlimid 7.5 mg hard capsules are pale yellow/white, with  REV 7.5 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Revlimid 10 mg hard capsules are blue-green/pale yellow, with  REV 10 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Revlimid 15 mg hard capsules are pale blue/white, with  REV 15 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Revlimid 20 mg hard capsules are blue-green/pale blue, with  REV 20 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Revlimid 25 mg hard capsules are white, with  REV 25 mg  written on them. 
+The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
+capsules. This gives a total of 7 or 21 capsules per pack. </p>
+<p>Marketing Authorisation Holder 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland  </p>
+<p>Manufacturer 
+Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht<br />
+Netherlands </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information: </p>
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency: </p>         </div>"""      
 

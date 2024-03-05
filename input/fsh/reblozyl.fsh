@@ -140,8 +140,8 @@ pregnant. Reblozyl may cause harm to your unborn baby.
 * Your doctor will arrange a pregnancy test before starting treatment and will give you a 
 patient card. 
 * If you think you may be pregnant or are planning to have a baby, ask your doctor for 
-advice before using this medicine. </p>
-<p>Breast-feeding 
+advice before using this medicine. 
+Breast-feeding 
 * Do not breast-feed when using this medicine and for 3 months after your last dose. It is 
 not known if it passes into the mother s milk. </p>
 <p>Contraception 

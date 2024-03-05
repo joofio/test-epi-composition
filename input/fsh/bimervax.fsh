@@ -74,7 +74,7 @@ Usage: #inline
 COVID-19 vaccine. </p>
 <p>The vaccine stimulates the immune system (the body s natural defences) to produce specific 
 antibodies that work against the virus, giving protection against COVID-19. None of the ingredients in 
-this vaccine can cause COVID-1</p>         </div>"""   
+this vaccine can cause COVID-19. </p>         </div>"""   
           
 
              
@@ -82,13 +82,6 @@ this vaccine can cause COVID-1</p>         </div>"""
   * title = "2. What you need to know before you take bimervax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take bimervax"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take bimervax"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take bimervax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>BIMERVAX should not be given 
 - if you are allergic to the active substance or any of the other ingredients of this medicine (listed 
@@ -126,25 +119,25 @@ before you drive or use machines. </p>
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free .  </p>
 <p>This vaccine contains less than 1 mmol potassium (39 milligrams) per 0.5 mL dose, that is to say, 
-essentially  potassium-free . </p>         </div>"""         
-
-        
+essentially  potassium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take bimervax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take bimervax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>BIMERVAX will be given to you as 0.5 mL injection into a muscle of your upper arm.  </p>
 <p>It is recommended that you receive BIMERVAX as a single dose at least 6 months after a previous 
 vaccination series with mRNA COVID-19 vaccine. </p>
 <p>After the injection, your doctor, pharmacist or nurse will watch over you for around 15 minutes to 
 monitor for signs of an allergic reaction. </p>
-<p>If you have any further questions on the use of BIMERVAX, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of BIMERVAX, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store bimervax"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bimervax"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them.  </p>
 <p>Most of the side effects occur within 3 days of getting the vaccine and go away within a few days of 
@@ -201,11 +194,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V and include batch/Lot number if available. By reporting side effects, you 
 can help provide more information on the safety of this vaccine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store bimervax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store bimervax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Your doctor, pharmacist, or nurse is responsible for storing this vaccine and disposing of any unused 
@@ -219,4 +211,40 @@ Information on handling are described in the section intended for healthcare pro
 the package leaflet. 
 Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What BIMERVAX contains</h2>
+<h2>One dose (0.5 mL) contains 40 micrograms of selvacovatein adjuvanted with SQBA.</h2>
+<p>Selvacovatein is SARS-CoV-2 virus recombinant spike (S) protein RBD 
+fusion heterodimer B.1.351 and B.1.1.7 strains) produced by recombinant DNA 
+technology.
+-
+SQBA is included in this vaccine as an adjuvant to accelerate and improve the protective 
+effects of the vaccine. SQBA contains per 0.5 mL dose: squalene (9.75 mg), polysorbate (1.18 mg), sorbitan trioleate (1.18 mg), sodium citrate (0.66 mg), citric acid (0.04 mg) and 
+water for injections.
+-
+The other ingredients (excipients) are: disodium phosphate dodecahydrate, potassium 
+dihydrogen phosphate, sodium chloride, potassium chloride and water for injections. 
+BIMERVAX contains potassium and sodium (see section 2).
+What BIMERVAX looks like and contents of the pack 
+The vaccine is a white homogeneous emulsion for injection. 
+5 mL of emulsion is provided in a vial with a rubber stopper and a plastic flip-off top. 
+Each vial contains 10 doses of 0.5 mL.<br />
+Pack size: 10 multidose vials. 
+Marketing Authorisation Holder  </p>
+<p>Hipra Human Health, S.L.U. 
+Avda. la Selva, 17170 Amer (Girona) 
+SPAIN </p>
+<p>Manufacturer </p>
+<p>Laboratorios Hipra, S.A. 
+Avda. la Selva, 17170 Amer (Girona) 
+SPAIN </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

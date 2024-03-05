@@ -313,8 +313,7 @@ AKEBIA EUROPE Limited
 70 Sir John Rogerson s Quay 
 Dublin 2 
 Co. Dublin 
-D02 R296 <br />
-Ireland </p>
+D02 RIreland </p>
 <p>Manufacturer 
 Millmount Healthcare Limited 
 Block-7, City North Business Campus 

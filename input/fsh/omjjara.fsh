@@ -143,8 +143,8 @@ Before and during treatment, your doctor will carry out blood tests to check you
 the dose or stop treatment based on the results of the blood tests. </p>
 <p>Children and adolescents 
 Omjjara should not be given to children under 18 years of age, because this medicine has not been 
-studied in this age group. </p>
-<p>Other medicines and Omjjara<br />
+studied in this age group. 
+Other medicines and Omjjara<br />
 Tell your doctor, pharmacist, or nurse if you are taking, have recently taken or might take any 
 other medicines. This includes herbal preparations and medicines without a prescription. This is 
 because Omjjara can affect the way some other medicines work. Also, some other medicines can 
@@ -187,8 +187,8 @@ Omjjara may have side effects that affect your ability to drive. If you feel diz
 do not drive or operate machines until these side effects have gone away. </p>
 <p>Omjjara contains lactose and sodium 
 Omjjara contains lactose (milk sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+intolerance to some sugars, contact your doctor before taking this medicine. 
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
 free . </p>         </div>"""   
                     
 * section[=].section[+]
@@ -338,10 +338,9 @@ Authorisation Holder: </p>
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 T l/Tel: + 32 (0)10 85 52 Lietuva 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 370 80000 </p>
-<p>GlaxoSmithKline (Ireland) Limited 
-Te .: + 359 80018 </p>
-<p>Luxembourg/Luxemburg 
+Tel: + 370 80000<br />
+GlaxoSmithKline (Ireland) Limited 
+Te .: + 359 80018Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
 T l/Tel: + 32 (0)10 85 52  esk  republika 
@@ -354,8 +353,7 @@ GlaxoSmithKline Pharma A/S
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: + 356 80065 
-Deutschland 
+Tel: + 356 80065Deutschland 
 GlaxoSmithKline GmbH &amp; Co. KG 
 Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
 <p>Nederland 
@@ -384,29 +382,23 @@ GlaxoSmithKline   Produtos Farmac uticos, Lda.
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 385 800787 
-Rom nia 
+Tel: + 385 800787Rom nia 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: + 40 800672 </p>
-<p>Ireland 
+Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 386 80688 
- sland 
+Tel: + 386 80688 sland 
 Vistor hf. 
 S mi:  +354 535 7Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 421 800500 </p>
-<p>Italia 
+Tel: + 421 800500Italia 
 GlaxoSmithKline S.p.A. 
 Tel: + 39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Trading Services Limited<br />
-T : + 357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Trading Services Limited<br />
+T : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com 
 Latvija 

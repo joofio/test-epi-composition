@@ -141,8 +141,8 @@ following injection of Vabysmo into the eye. </p>
 <p>There is only limited experience in the treatment of patients receiving injections less than every 8 
 weeks over a long period of time, and these patients may be at greater risk of side effects. </p>
 <p>There is no experience in the treatment of: 
-* diabetics with uncontrolled high blood pressure. </p>
-<p>If any of the above applies to you, your doctor will consider this lack of information when treating you 
+* diabetics with uncontrolled high blood pressure. 
+If any of the above applies to you, your doctor will consider this lack of information when treating you 
 with Vabysmo. </p>
 <p>Children and adolescents </p>
 <p>The use of Vabysmo in children and adolescents has not been studied because nAMD and DME occur 
@@ -304,12 +304,10 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-T l/Tel: +32 (0) 2 525 82<br />
-Lietuva 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
 UAB  Roche Lietuva<br />
-Tel: +370 5 2546 </p>
-<p>: +359 2 818 44<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien </p>
 <p>esk  republika 
 Roche s. r. o. 
@@ -317,30 +315,53 @@ Tel: +420 - 2 20382Magyarorsz g
 Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4Danmark 
 Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99<br />
-Malta 
+Tlf: +45 - 36 39 99 Malta 
 (See Ireland) </p>
 <p>Deutschland 
 Roche Pharma AG 
-Tel: +49 (0) 7624<br />
-Nederland 
+Tel: +49 (0) 7624 Nederland 
 Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
+Tel: +31 (0) 348 438Eesti 
 Roche Eesti O<br />
-Tel: + 372 - 6 177<br />
-Norge 
+Tel: + 372 - 6 177 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90  </p>
-<p>Roche (Hellas) A.E.<br />
- : +30 210 61 66<br />
- sterreich 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
 Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-Espa a 
+Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A. 
-Tel: +34 - 91 324 81 00  </p>
-<p>Polska 
+Tel: +34 - 91 324 81 Polska 
 Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18 8</p>         </div>"""      
+Tel: +48 - 22 345 18 88. France 
+Roche 
+T l: +33  (0)1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland 
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika 
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

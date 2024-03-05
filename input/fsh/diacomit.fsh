@@ -72,11 +72,16 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stiripentol, the active ingredient of Diacomit, belongs to a group of medicines called antiepileptics.  </p>
 <p>It is used in conjunction with clobazam and valproate (other antiepileptic medicines) to treat a certain 
 form of epilepsy called severe myoclonic epilepsy in infancy (Dravet s syndrome), which affects 
-children. Your child s doctor has prescribed this medicine to help treat your child s epilepsy.  </p>
-<ol>
-<li>What you need to know before your child takes Diacomit </li>
-</ol>
-<p>Your child must NOT take Diacomit 
+children. Your child s doctor has prescribed this medicine to help treat your child s epilepsy.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take diacomit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take diacomit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your child must NOT take Diacomit 
 * if your child is allergic to stiripentol or to any of the other ingredients of this medicine (listed in 
 section 6). 
 * if your child has ever experienced attacks of delirium (a mental state with confusion, 
@@ -155,13 +160,11 @@ child s doctor.  </p>
 <p>Diacomit contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
  sodium-free . </p>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take diacomit"
+  * title =  "3. How to take diacomit"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take diacomit"
+  * code.text = "3. How to take diacomit"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your child should always take these capsules exactly as your child s doctor has told you. You should 
 check with your child s doctor or pharmacist if you are not sure.  </p>
@@ -205,12 +208,13 @@ make up for a forgotten individual dose. </p>
 <p>If your child stops taking Diacomit 
 Your child must not stop taking this medicine unless the doctor tells you to. Stopping treatment 
 suddenly can lead to an outbreak of seizures. </p>
-<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p>         </div>"""   
-                    
+<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take diacomit"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take diacomit"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Very common side effects (may affect more than one in 10 people): 
@@ -241,13 +245,12 @@ the other medicines prescribed for your child. </p>
 If your child gets any side effects, talk to your child s doctor or pharmacist. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""         
-
+safety of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store diacomit"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store diacomit"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -257,10 +260,11 @@ safety of this medicine. </p>         </div>"""
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store diacomit"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store diacomit"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Diacomit 100 mg contains 
 * The active substance is stiripentol. Each hard capsule contains 100 mg of stiripentol. 
@@ -284,21 +288,17 @@ Biocodex
 7 avenue Gallieni - F-94250 Gentilly 
  /  / France/ Francia/ Franciaorsz g/ Frakkland/ Francija/ Franza/ Frankrijk/ Francja/ 
 Frankrike 
-T l/Tel/Te / /S mi: + 33 (0)1 41 24 30 00<br />
-e-mail: medinfo@biocodex.com </p>
+T l/Tel/Te / /S mi: + 33 (0)1 41 24 30 e-mail: medinfo@biocodex.com </p>
 <p>CZ<br />
 Desitin Pharma spol. s r.o<br />
-Opletalova 25<br />
-11121 Prague 1<br />
+Opletalova 11121 Prague 1<br />
 Czech Republic 
-Tel: 00420-2-222 45 375<br />
-e-mail: desitin@desitin.cz </p>
+Tel: 00420-2-222 45 e-mail: desitin@desitin.cz </p>
 <p>DE 
 Desitin Arzneimittel GmbH 
 Weg beim J ger D-22335 Hamburg 
 Germany<br />
-Tel: +49 (0)40 59101 525<br />
-e-mail: epi.info@desitin.de  </p>
+Tel: +49 (0)40 59101 e-mail: epi.info@desitin.de  </p>
 <p>DK 
 Biocodex Oy<br />
 Mets nneidonkuja 8 
@@ -321,8 +321,7 @@ Tel: +358 9 329 59e-mail: info@biocodex.fi </p>
 Biocodex UAB<br />
 Savanori  av. LT-51480 Kaunas<br />
 Lithuania 
-Tel: +370 37 408681<br />
-e-mail: info@biocodex.lt </p>
+Tel: +370 37 408e-mail: info@biocodex.lt </p>
 <p>LV 
 Biocodex SIA 
 Kalni i A, M rupes nov., 
@@ -330,19 +329,14 @@ M rupe, LV-2Latvia
 Tel: +371 67 619e-mail: info@biocodex.lv   </p>
 <p>RO<br />
 Desitin Pharma s.r.l<br />
-Sevastopol street, no 13-17<br />
-Diplomat Business Centre, office 102<br />
-Sector 1, 010991 Bucharest<br />
+Sevastopol street, no 13-Diplomat Business Centre, office Sector 1, 010991 Bucharest<br />
 Romania<br />
-Tel: 004021-252-3481<br />
-e-mail: office@desitin.ro  </p>
+Tel: 004021-252-3e-mail: office@desitin.ro  </p>
 <p>SK<br />
 Desitin Pharma s.r.o.<br />
-Trojicn  n mestie 13<br />
-82106 Bratislava<br />
+Trojicn  n mestie 82106 Bratislava<br />
 Slovakia 
-Tel: 00421-2-5556 38 10<br />
-e-mail: desitin@desitin.sk  </p>
+Tel: 00421-2-5556 38 e-mail: desitin@desitin.sk  </p>
 <p>UK (NI) 
 Alan Pharmaceuticals, 
 Acre House, 11-15 William Road,<br />
@@ -364,13 +358,5 @@ important information for you.
 - This medicine has been prescribed for your child only. Do not pass it on to others. It may harm 
 them, even if their symptoms are the same as your child s. 
 - If your child gets any side effects, talk to your child s doctor or pharmacist. This includes any 
-possible side effects not listed in this leaflet. See Section </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+possible side effects not listed in this leaflet. See Section 4. </p>         </div>"""      
 

@@ -234,8 +234,8 @@ before use as shown on picture 9 because this indicate system already operated. 
 should not be used if it does not conform to the picture 1. If so discard the product in a biohazard 
 (sharps) container.  </p>
 <p>Picture 1 </p>
-<p>Step 2: Remove the Needle Cap </p>
-<p>a. 
+<p>Step 2: Remove the Needle Cap 
+a. 
 Remove the protective cap as shown in picture 2. Hold the body of the needle safety guard in one 
 hand with the needle end pointing away from you and without touching the plunge rod. Pull the 
 needle cap straight off with your other hand. After removal, throw away the needles cap in a 

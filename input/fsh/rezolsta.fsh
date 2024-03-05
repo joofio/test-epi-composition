@@ -385,16 +385,11 @@ raltegravir), itching. The rash is usually mild to moderate. A skin rash might a
 rare severe situation. It is, therefore, important to talk to your doctor if you develop a rash. Your 
 doctor will advise you how to deal with your symptoms or whether REZOLSTA must be stopped.
 Other severe side effects, seen up to 1 patient in 10, were diabetes. Inflammation of the pancreas
-(pancreatitis) has been reported in up to 1 patient in 10</p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store rezolsta"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rezolsta"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Very common side effects (may affect more than 1 in 10 people)</h2>
-<h2>headache</h2>
-<p>diarrhoea, nausea.
+(pancreatitis) has been reported in up to 1 patient in 100. Very common side effects (may affect more than 1 in 10 people)
+-
+headache
+-
+diarrhoea, nausea.
 Common side effects (may affect up to 1 in 10 people)
 -
 allergic reactions such as itching
@@ -453,11 +448,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store rezolsta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store rezolsta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the carton and on the bottle after 
@@ -466,4 +460,108 @@ Do not use this medicine after 6 weeks of first opening the bottle.
 REZOLSTA does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away any medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What REZOLSTA contains</h2>
+<p>The active substances are darunavir and cobicistat. Each tablet contains 800 mg of darunavir (as 
+ethanolate) and 150 mg cobicistat.
+-
+The other ingredients are hypromellose, silicified microcrystalline cellulose, colloidal silicon 
+dioxide, crospovidone and magnesium stearate. The film-coating contains polyvinyl alcohol -
+partially hydrolysed, titanium dioxide, polyethylene glycol (macrogol), talc, iron oxide red, and 
+iron oxide black.
+What REZOLSTA looks like and contents of the pack
+Film-coated, pink, oval shaped tablet, mentioning TG on one side, 800 on the other side.
+30 tablets in a plastic bottle.
+Marketing Authorisation Holder
+Janssen-Cilag International NV, Turnhoutseweg 30, B-2340 Beerse, Belgium
+Manufacturer
+Janssen-Cilag SpA, Via C. Janssen, Borgo San Michele, 04100 Latina, Italy
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Janssen-Cilag NV
+Tel/T l: +32 14 64 94 janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 lt@its.jnj.com</p>
+<p>&amp;    <br />
+ .: +359 2 489 94 jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+T l/Tel: +32 14 64 94 janssen@jacbe.jnj.com
+ esk  republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 Magyarorsz g
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 jacno@its.jnj.com</p>
+<p>Janssen-Cilag    . . . .
+T : +30 210 80 90  sterreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 Espa a
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 France
+Janssen-Cilag
+T l: 0 800 25 50 75 / +33 1 55 00 40 medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmac utica, Lda.
+Tel: +351 214 368 Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 jjsafety@JNJCR.JNJ.com
+Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 Janssen_safety_slo@its.jnj.com
+ sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7janssen@vistor.is
+Slovensk  republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 jacfi@its.jnj.com</p>
+<p>: +357 22 207 Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicinal product is available on the European Medicines Agency web 
+site: http://www.ema.europa.eu.</p>         </div>"""      
 

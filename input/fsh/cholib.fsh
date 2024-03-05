@@ -420,7 +420,7 @@ Mylan B.V.
 Tel: +31 (0)20 426 33 United Kingdom (Northern 
 Ireland)
 Mylan IRE Healthcare Ltd
-Tel: +353 18711This leaflet was last revised in <em>{MM/YYYY}</em>:
+Tel: +353 18711This leaflet was last revised in &lt;{MM/YYYY}&gt;:
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

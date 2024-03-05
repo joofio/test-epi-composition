@@ -275,8 +275,7 @@ Merz Pharmaceuticals GmbH
 Tlf: +49 (0)69 1503-0 </p>
 <p>Malta 
 Clinipharm Co. Ltd 
-Tel: +356 21 43 74<br />
-Deutschland 
+Tel: +356 21 43 74 Deutschland 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 
 Nederland 
@@ -292,19 +291,16 @@ Tlf: +49 (0)69 1503-0 </p>
  : +49 (0)69 1503-0 </p>
 <p>sterreich 
 Merz Pharma Austria GmbH 
-Tel.: +43 1 865 88<br />
-Espa a 
+Tel.: +43 1 865 88 Espa a 
 Merz Therapeutics Iberia, S.L.U. 
-Tel. +34 91 117 89<br />
-Polska 
+Tel. +34 91 117 89 Polska 
 Centrala Farmaceutyczna CEFARM SA 
 Tel: +48 22 634 02 France 
 Merz Pharmaceuticals GmbH 
 T l: +49 (0)69 1503-0 </p>
 <p>Portugal 
 Merz Therapeutics Iberia, S.L.U. 
-Tel. +34 91 117 89<br />
-Hrvatska 
+Tel. +34 91 117 89 Hrvatska 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 </p>
 <p>Rom nia 
@@ -349,5 +345,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

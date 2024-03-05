@@ -222,8 +222,7 @@ closed with bromobutyl rubber stopper and an aluminium cap with a plastic lid. <
 one sterile intravenous infusion set and one sterile short catheter for administration to children. </p>
 <p>Marketing Authorisation Holder </p>
 <p>SERB S.A. 
-Avenue Louise 480<br />
-1050 Brussels 
+Avenue Louise 1050 Brussels 
 Belgium </p>
 <p>Manufacturer </p>
 <p>Merck Sant  s.a.s. / SEMOY 
@@ -232,8 +231,7 @@ Belgium </p>
 France </p>
 <p>Or </p>
 <p>SERB S.A. 
-Avenue Louise 480<br />
-1050 Brussels 
+Avenue Louise 1050 Brussels 
 Belgium </p>
 <p>Or  </p>
 <p>SERB 

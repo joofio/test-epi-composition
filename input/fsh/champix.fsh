@@ -137,8 +137,8 @@ CHAMPIX. However, it is not known if CHAMPIX actually increases alcohol intoxica
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. 
 It is preferable to avoid the use of CHAMPIX while you are pregnant. Talk to your doctor if you are 
-intending to become pregnant. </p>
-<p>Although it was not studied, CHAMPIX may pass into breast milk. You should ask your doctor or 
+intending to become pregnant. 
+Although it was not studied, CHAMPIX may pass into breast milk. You should ask your doctor or 
 pharmacist for advice before taking CHAMPIX. </p>
 <p>Driving and using machines 
 CHAMPIX may be linked with dizziness, sleepiness and transient loss of consciousness. You should 
@@ -164,15 +164,7 @@ a target quit date within 2 weeks, you may choose your own target quit date with
 starting treatment. You should write this date on the pack as a reminder.  </p>
 <p>CHAMPIX comes as a white tablet (0.5 mg) and a light blue tablet (1 mg). You start with the white 
 tablet and then usually go to the light blue tablet. See the chart below for the usual dosing instructions 
-which you should follow from Day </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Week 1 
+which you should follow from Day 1. Week 1 
 Dose 
 Day 1 - 3 
 From day 1 to day 3, you should take one white CHAMPIX 0.5 mg film-coated tablet once 
@@ -181,11 +173,9 @@ a day. </p>
 From day 4 to day 7, you should take one white CHAMPIX 0.5 mg film-coated tablet twice 
 daily, once in the morning and once in the evening, at about the same time each day. </p>
 <p>Week 2 </p>
-<p>Day 8   14<br />
-From day 8 to day 14, you should take one light blue CHAMPIX 1 mg film-coated tablet 
+<p>Day 8   From day 8 to day 14, you should take one light blue CHAMPIX 1 mg film-coated tablet 
 twice daily, once in the morning and once in the evening, at about the same time each day. </p>
-<p>Weeks 3 -<br />
-Day 15 -<br />
+<p>Weeks 3 - Day 15 -<br />
 end of 
 treatment 
 From day 15 until the end of treatment, you should take one light blue CHAMPIX 1 mg 
@@ -220,12 +210,13 @@ CHAMPIX, according to the instructions described in the table above. </p>
 following the end of treatment. You may temporarily experience increased irritability, urge to smoke, 
 depression and/or sleep disturbances when you stop taking CHAMPIX. Your doctor may decide to 
 gradually lower your dose of CHAMPIX at the end of treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store champix"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store champix"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Giving up smoking with or without treatment can cause various symptoms. These could include 
@@ -326,11 +317,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store champix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store champix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the card packaging or carton after 
@@ -339,4 +329,149 @@ EXP. The expiry date refers to the last day of that month. </p>
 Bottle: This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CHAMPIX contains 
+- The active substance is varenicline. 
+- Each 0.5 mg film-coated tablet contains 0.5 mg of varenicline (as tartrate). 
+- Each 1 mg film-coated tablet contains 1 mg of varenicline (as tartrate). 
+- The other ingredients are: </p>
+<p>Tablet Core - CHAMPIX 0.5 mg and 1 mg film-coated tablets<br />
+Cellulose, Microcrystalline 
+Calcium Hydrogen Phosphate Anhydrous 
+Croscarmellose Sodium (see section 2  CHAMPIX contains 
+sodium<br />
+Silica, Colloidal Anhydrous 
+Magnesium Stearate </p>
+<p>Tablet film coating - CHAMPIX 0.5 mg film-coated tablets<br />
+Hypromellose 
+Titanium dioxide (E171) 
+Macrogol Triacetin </p>
+<p>Tablet film coating - CHAMPIX 1 mg film-coated tablets<br />
+Hypromellose 
+Titanium dioxide (E171) 
+Macrogol Indigo Carmine Aluminium Lake (E132) 
+Triacetin </p>
+<p>What CHAMPIX looks like and contents of the pack 
+- CHAMPIX 0.5 mg film-coated tablets are white, film-coated, modified capsular shaped tablets, 
+marked  Pfizer  and  CHX 0.5  </p>
+<ul>
+<li>CHAMPIX 1 mg film-coated tablets are light blue film-coated, modified capsular shaped 
+tablets, marked  Pfizer  and  CHX 1.0  </li>
+</ul>
+<p>CHAMPIX is available in the following pack presentations:</p>
+<ul>
+<li>Treatment initiation pack containing 2 blisters; 1 clear blister of 11 x CHAMPIX 0.5 mg 
+film-coated tablets and 1 clear blister of 14 x CHAMPIX 1 mg film-coated tablets in card 
+packaging. </li>
+<li>Treatment initiation pack containing 2 blisters; 1 clear blister of 11 x CHAMPIX 0.5 mg and 
+14 x 1 mg film-coated tablets and 1 clear blister of 28 or 2 clear blisters of 14 x CHAMPIX 
+1 mg film-coated tablets in card packaging. </li>
+<li>Treatment initiation pack in an outer carton containing 1 pack with 1 clear blister of 
+11 x CHAMPIX 0.5 mg and 14 x 1 mg film-coated tablets and 1 clear blister of 28 or 2 clear 
+blisters of 14 x CHAMPIX 1 mg film-coated tablets in card packaging and 2 packs each 
+containing 2 clear blisters of 28 or 4 clear blisters of 14 x CHAMPIX 1 mg film-coated tablets in 
+card packaging. </li>
+<li>Follow-on (maintenance) packs containing 2 or 4 clear blisters of 14 or 2 clear blisters of 
+28 x CHAMPIX 1 mg film-coated tablets in card packaging. </li>
+<li>Follow-on (maintenance) packs containing 2 or 4 clear blisters of 14 or 2 clear blisters of 
+28 x CHAMPIX 0.5 mg film-coated tablets in card packaging. </li>
+<li>Treatment initiation pack containing 2 blisters; 1 clear blister of 11 x CHAMPIX 0.5 mg 
+film-coated tablets and 1 clear blister of 14 x CHAMPIX 1 mg film-coated tablets in a carton. </li>
+<li>Follow-on (maintenance) packs containing 2, 4, 8, or 10 clear blisters of 14 x CHAMPIX 1 mg 
+film-coated tablets in a carton. </li>
+<li>Sealed white HDPE bottle pack, with a child resistant screw cap, in a carton, containing 
+56 x CHAMPIX 1 mg film-coated tablets. </li>
+<li>Sealed white HDPE bottle pack, with a child resistant screw cap, in a carton, containing 
+56 x CHAMPIX 0.5 mg film-coated tablets. </li>
+</ul>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles 
+Belgium </p>
+<p>Manufacturer 
+Pfizer Manufacturing Deutschland GmbH 
+Betriebsst tte Freiburg 
+Mooswaldallee 1 
+79090 Freiburg 
+Germany </p>
+<p>or 
+Pfizer Italia S.r.l.<br />
+Localit  Marino del Tronto, 63Ascoli Piceno (AP)<br />
+Italy </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Pfizer S.A./N.V. 
+T l/Tel: + 32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel. +370 5 2514 <br />
+     ,  </p>
+<p>.: +359 2 970 4Luxembourg/Luxemburg 
+Pfizer S.A. 
+T l/Tel: + 32 (0)2 554 62  esk  republika 
+Pfizer, spol. s r.o. 
+Tel: + 420 283 004 Magyarorsz g 
+Pfizer Kft. 
+Tel.: +36 1 488 37 Danmark 
+Pfizer ApS 
+Tlf: + 45 44 20 11 Malta 
+Vivian Corporation Ltd. 
+Tel: +356 21344Deutschland 
+Pfizer Pharma GmbH 
+Tel: +49 (0)30 550055-51Nederland 
+Pfizer bv 
+Tel: +31 (0)10 406 43 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 <br />
+PFIZER    . .,<br />
+ .: +30 210 67 85  sterreich 
+Pfizer Corporation Austria Ges.m.b.H. 
+Tel.: +43 (0)1 521 15-0 </p>
+<p>Espa a 
+Pfizer, S.L. 
+Tel: + 34 91 490 99 Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.: + 48 22 335 61 France 
+Pfizer 
+T l: + 33 (0)1 58 07 34 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: + 385 1 3908 Rom nia 
+Pfizer Rom nia S.R.L. 
+Tel: +40 (0)21 207 28 Ireland 
+Pfizer Healthcare Ireland </p>
+<p>Tel: 1800 633 363 (toll free) 
++44 (0) 1304 616Slovenija 
+Pfizer Luxembourg SARL, Pfizer, podru nica za 
+svetovanje s podro ja farmacevtske dejavnosti, 
+Ljubljana 
+Tel: + 386 (0) 1 52 11  sland 
+Icepharma hf. 
+Simi: +354 540 8Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
+Tel: +421-2-3355 5Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: + 358 (0)9 43 00 <br />
+PFIZER    . . (CYPRUS BRANCH), 
+ : +357 22 817Sverige 
+Pfizer AB 
+Tel: + 46 (0)8 550 520 Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel: + 371 670 35 United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: + 44 (0) 1304 616This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

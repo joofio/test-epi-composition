@@ -266,24 +266,21 @@ Tel: +370 5 248 73 <br />
 Ewopharma AG 
 Te : +359 2 962 12 Luxembourg/Luxemburg 
 Eisai SA/NV 
-T l/Tel: + 32 (0)800 158 58<br />
-(Belgique/Belgien) 
+T l/Tel: + 32 (0)800 158 (Belgique/Belgien) 
  esk  republika 
 Eisai GesmbH organiza n  slo ka 
 Tel.: + 420 242 485 Magyarorsz g 
 Ewopharma Hungary Ltd. 
 Tel: +36 1 200 46 Danmark 
 Eisai AB 
-Tlf: + 46 (0) 8 501 01 600<br />
-(Sverige) 
+Tlf: + 46 (0) 8 501 01 (Sverige) 
 Malta 
 Cherubino LTD 
 Tel: +356 21343Deutschland 
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 Nederland 
 Eisai B.V. 
-T l/Tel: + 31 (0) 900 575 3340<br />
-Eesti 
+T l/Tel: + 31 (0) 900 575 3Eesti 
 Ewopharma AG 
 Tel. +370 5 248 73 Norge 
 Eisai AB 
@@ -312,8 +309,7 @@ Slovenija
 Ewopharma d.o.o. 
 Tel: +386 590 848  sland 
 Eisai AB 
-S mi: + 46 (0)8 501 01 600<br />
-(Sv j ) 
+S mi: + 46 (0)8 501 01 (Sv j ) 
 Slovensk  republika 
 Eisai GesmbH organiza n  slo ka 
 Tel.: + 420 242 485 ( esk  republika) 

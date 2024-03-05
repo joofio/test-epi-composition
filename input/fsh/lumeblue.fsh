@@ -100,11 +100,11 @@ Giving methylthioninium chloride injection (into a vein) in patients also taking
 has sometimes resulted in a life-threatening complication called serotonin syndrome. It is not 
 known if serotonin syndrome can occur when methylthioninium chloride is given as a tablet. 
 Your doctor will decide what to do if you are taking an antidepressant or another medicine for a 
-psychiatric illness.  </li>
-</ul>
-<p>Children and adolescents 
+psychiatric illness.<br />
+Children and adolescents 
 Lumeblue should not be given to children and adolescents under 18 years of age as it is not known if 
-the medicine is safe and effective in this age group. </p>
+the medicine is safe and effective in this age group. </li>
+</ul>
 <p>Other medicines and Lumeblue 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  </p>

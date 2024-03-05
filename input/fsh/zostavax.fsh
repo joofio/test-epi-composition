@@ -312,7 +312,7 @@ Tel: +371.67364.msd_lv@merck.com
 United Kingdom (Northern Ireland)
 Merck Sharp &amp; Dohme (Human Health) Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com</p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency website:
 http://www.ema.europa.eu.

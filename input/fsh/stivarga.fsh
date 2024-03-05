@@ -508,13 +508,11 @@ Puh/Tel: +358-20 785 <br />
 NOVAGEM Limited 
  : +357 22 48 38 Sverige 
 Bayer AB 
-Tel: +46-(0)8-580 223 00<br />
-Latvija 
+Tel: +46-(0)8-580 223 Latvija 
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0) 118 206 3 
-This leaflet was last revised in </p>
+Tel: +44-(0) 118 206 3This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency (EMA) 
 website: http://www.ema.europa.eu </p>         </div>"""      

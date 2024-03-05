@@ -153,8 +153,8 @@ Talk to your doctor, pharmacist or nurse before you are given this medicine if y
 under 18 years of age. </p>
 <p>Granulomatosis with polyangiitis or microscopic polyangiitis 
 Blitzima can be used for treatment of children and adolescents, 2 years of age and older, with 
-granulomatosis with polyangiitis (formerly called Wegener s granulomatosis) or microscopic </p>
-<p>polyangiitis. There is not much information about the use of Blitzima in children and adolescents with 
+granulomatosis with polyangiitis (formerly called Wegener s granulomatosis) or microscopic 
+polyangiitis. There is not much information about the use of Blitzima in children and adolescents with 
 other diseases. 
 Talk to your doctor, pharmacist or nurse before you are given this medicine if you, or your child, are 
 under 18 years of age. </p>
@@ -202,8 +202,8 @@ You will always be given Blitzima as a drip (intravenous infusion). </p>
 <p>Medicines given before each Blitzima administration 
 Before you are given Blitzima, you will be given other medicines (pre-medication) to prevent or 
 reduce possible side effects. </p>
-<p>How much and how often you will receive your treatment </p>
-<p>a) 
+<p>How much and how often you will receive your treatment 
+a) 
 If you are being treated for non-Hodgkin s Lymphoma 
 * If you are having Blitzima alone 
 Blitzima will be given to you once a week for 4 weeks. Repeated treatment courses with 
@@ -258,8 +258,8 @@ these symptoms, as the infusion may need to be slowed down or stopped. You may r
 additional treatment such as an antihistamine or paracetamol. When these symptoms go away, or 
 improve, the infusion can be continued. These reactions are less likely to happen after the second 
 infusion. Your doctor may decide to stop your Blitzima treatment if these reactions are serious. </p>
-<p>Infections </p>
-<p>Tell your doctor immediately if you or your child gets signs of an infection including: </p>
+<p>Infections 
+Tell your doctor immediately if you or your child gets signs of an infection including: </p>
 <ul>
 <li>fever, cough, sore throat, burning pain when passing urine or feeling weak or generally unwell </li>
 <li>memory loss, trouble thinking, difficulty walking or sight loss   these may be due to a very rare, 
@@ -310,16 +310,14 @@ the blood vessels
 * high or low blood pressure (low blood pressure especially when standing upright) 
 * tightening of the muscles in the airways which causes wheezing (bronchospasm), 
 inflammation, irritation in the lungs, throat or sinuses, being short of breath, runny 
-nose </p>
-<ul>
-<li>being sick (vomiting), diarrhoea, pain in the stomach, irritation or ulcers in the throat 
-and mouth, problems swallowing, constipation, indigestion </li>
-<li>eating disorders, not eating enough, leading to weight loss </li>
-<li>hives, increased sweating, night sweats </li>
-<li>muscle problems   such as tight muscles, joint or muscle pain, back and neck pain </li>
-<li>general discomfort or feeling uneasy or tired, shaking, signs of flu </li>
-<li>multiple-organ failure. </li>
-</ul>
+nose 
+* being sick (vomiting), diarrhoea, pain in the stomach, irritation or ulcers in the throat 
+and mouth, problems swallowing, constipation, indigestion 
+* eating disorders, not eating enough, leading to weight loss 
+* hives, increased sweating, night sweats 
+* muscle problems   such as tight muscles, joint or muscle pain, back and neck pain 
+* general discomfort or feeling uneasy or tired, shaking, signs of flu 
+* multiple-organ failure. </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people): 
 * blood clotting problems, decrease of red blood cell production and increase of red blood 
 cell destruction (aplastic haemolytic anaemia), swollen or enlarged lymph nodes 
@@ -363,16 +361,14 @@ and herpes infections
 hours after infusion 
 * diarrhoea 
 * coughing or shortness of breath 
-* nose bleeds </p>
-<ul>
-<li>raised blood pressure </li>
-<li>painful joints or back </li>
-<li>muscle twitches or shakiness </li>
-<li>feeling dizzy </li>
-<li>tremors (shakiness, often in the hands) </li>
-<li>difficulty sleeping (insomnia) </li>
-<li>swelling of the hands or ankles </li>
-</ul>
+* nose bleeds 
+* raised blood pressure 
+* painful joints or back 
+* muscle twitches or shakiness 
+* feeling dizzy 
+* tremors (shakiness, often in the hands) 
+* difficulty sleeping (insomnia) 
+* swelling of the hands or ankles </p>
 <p>Common side effects (may affect up to 1 in 10 people): 
 * indigestion 
 * constipation 
@@ -414,16 +410,14 @@ infections (pain on passing urine)
 * mood disorders such as irritability and depression 
 * skin disorders such as itching, hives, and benign lumps 
 * feeling tired or dizzy 
-* fever </p>
-<ul>
-<li>painful joints or back </li>
-<li>pain in the tummy </li>
-<li>pain in the muscles </li>
-<li>heart beating faster than normal 
-Not known (frequency cannot be estimated from the available data): </li>
-<li>serious viral infection </li>
-<li>brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </li>
-</ul>
+* fever 
+* painful joints or back 
+* pain in the tummy 
+* pain in the muscles 
+* heart beating faster than normal 
+Not known (frequency cannot be estimated from the available data): 
+* serious viral infection 
+* brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </p>
 <p>Blitzima may also cause changes in laboratory tests carried out by your doctor. 
 If you are having Blitzima with other medicines, some of the side effects you may get may be due to 
 the other medicines. </p>
@@ -465,8 +459,8 @@ water for injections (see section 2  Blitzima contains sodium ). </li>
 10 mL vial   Pack of 2 vials 
 50 mL vial   Pack of 1 vial </p>
 <p>Marketing Authorisation Holder </p>
-<p>Celltrion Healthcare Hungary Kft.  </p>
-<p>1062 Budapest 
+<p>Celltrion Healthcare Hungary Kft.<br />
+1062 Budapest 
 V ci  t 1-3. WestEnd Office Building B torony 
 Hungary </p>
 <p>Manufacturer </p>
@@ -496,79 +490,65 @@ Celltrion Healthcare Belgium BVBA
 BEinfo@celltrionhc.com 
 Lietuva 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 </p>
-<p>Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 </p>
-<p>Luxembourg/Luxemburg 
+Tel: +36 1 231 0<br />
+Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
 BEinfo@celltrionhc.com 
  esk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0Magyarorsz g 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 </p>
-<p>Danmark 
+Tel: +36 1 231 0Danmark 
 Orion Pharma A/S<br />
 Tlf: + 45 86 14 00 Malta 
 Mint Health Ltd. 
-Tel: +356 2093 9800<br />
-Deutschland 
+Tel: +356 2093 9Deutschland 
 Celltrion Healthcare Deutschland GmbH 
-Tel. +49 (0)30 346494 
-infoDE@celltrionhc.com 
+Tel. +49 (0)30 346494infoDE@celltrionhc.com 
 Nederland 
 Celltrion Healthcare Netherlands B.V. 
 NLinfo@celltrionhc.com </p>
 <p>Eesti 
 Orion Pharma Eesti O  </p>
 <p>Norge 
-Orion Pharma AS </p>
-<p>Tel: + 372 6 644 Tlf: + 47 40 00 42  </p>
-<p>. . 
- : +30 210 8009111  <br />
-Espa a 
+Orion Pharma AS 
+Tel: + 372 6 644 Tlf: + 47 40 00 42 <br />
+   . . 
+ : +30 210 8009111   Espa a 
 Kern Pharma, S.L. 
 Tel: +34 93 700 2 sterreich 
 Astro-Pharma GmbH 
-Tel: +43 1 97 99<br />
-Polska 
+Tel: +43 1 97 99 Polska 
 EGIS Polska Sp. z o.o. 
-Tel.: + 48 22 417 9 </p>
-<p>France 
+Tel.: + 48 22 417 9France 
 CELLTRION HEALTHCARE FRANCE SAS 
 T l: +33 (0)1 71 25 27 Portugal 
 PharmaKERN Portugal   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
-Tel: +351 214 200<br />
-Hrvatska 
+Tel: +351 214 200 Hrvatska 
 Oktal Pharma d.o.o. 
-Tel: +385 1 6595<br />
-Rom nia 
+Tel: +385 1 6595 Rom nia 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Ireland 
+Tel: +36 1 231 0Ireland 
 Celltrion Healthcare Ireland Limited 
 enquiry_ie@celltrionhc.com </p>
 <p>Slovenija 
 OPH Oktal Pharma d.o.o.<br />
-Tel: +386 1 519 29  </p>
-<p>sland 
+Tel: +386 1 519 29  sland 
 Vistor hf.<br />
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0Italia 
 Celltrion Healthcare Italy S.R.L 
 Tel: +39 0427 927Celltrionhealthcare_italy@legalmail.it 
 Suomi/Finland 
 Orion Pharma 
-Puh/Tel: + 358 10 4 </p>
-<p>C.A. Papaellinas Ltd 
- : +357 22741 
-Sverige 
+Puh/Tel: + 358 10 4<br />
+C.A. Papaellinas Ltd 
+ : +357 22741Sverige 
 Orion Pharma AB 
-Tel: + 46 8 623 64<br />
-Latvija 
+Tel: + 46 8 623 64 Latvija 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0United Kingdom (Northern Ireland) 
 Celltrion Healthcare Ireland Limited 

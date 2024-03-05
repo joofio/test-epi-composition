@@ -248,82 +248,62 @@ Belgi /Belgique/Belgien
 Covis Pharma Europe B.V. 
 Tel: 80013Lietuva 
 Covis Pharma Europe B.V. 
-Tel: 880000 </p>
-<p>Covis Pharma Europe B.V. 
-Tel: 008002100 
-Luxembourg/Luxemburg 
+Tel: 880000<br />
+Covis Pharma Europe B.V. 
+Tel: 008002100Luxembourg/Luxemburg 
 Covis Pharma Europe B.V. 
 Tel: 80024 esk  republika 
 Covis Pharma Europe B.V. 
-Tel: 800144 
-Magyarorsz g 
+Tel: 800144Magyarorsz g 
 Covis Pharma Europe B.V. 
 Tel.: 0680021Danmark 
 Zentiva Denmark ApS 
 Tlf: +45 787 68 Malta 
 Covis Pharma Europe B.V. 
-Tel: 80065 
-Deutschland 
+Tel: 80065Deutschland 
 Zentiva Pharma GmbH<br />
-Tel: +49 (0) 800 53 53 010  </p>
-<p>Nederland 
+Tel: +49 (0) 800 53 53 Nederland 
 Covis Pharma Europe B.V. 
-Tel: 08000270008  </p>
-<p>Eesti 
+Tel: 08000270Eesti 
 Covis Pharma Europe B.V<br />
 Tel: 8000100Norge 
 Zentiva Denmark ApS 
-Tlf: +47 219 66  </p>
-<p>Specialty Therapeutics IKE 
- : +30 213 02 33<br />
- sterreich 
+Tlf: +47 219 66 <br />
+Specialty Therapeutics IKE 
+ : +30 213 02 33  sterreich 
 Covis Pharma Europe B.V. 
-Tel: 0800006 
-Espa a 
+Tel: 0800006Espa a 
 Zentiva Spain S.L.U. 
-Tel: +34 931 815 250<br />
-Polska 
+Tel: +34 931 815 Polska 
 Covis Pharma Europe B.V. 
-Tel.: 0800919 
-France 
+Tel.: 0800919France 
 Zentiva France 
-T l: +33 (0) 800 089 219<br />
-Portugal 
+T l: +33 (0) 800 089 Portugal 
 Zentiva Portugal, Lda 
-Tel: +351210601 
-Hrvatska 
+Tel: +351210601Hrvatska 
 Covis Pharma Europe B.V. 
-Tel: 08004 
-Rom nia 
+Tel: 08004Rom nia 
 Covis Pharma Europe B.V. 
 Tel: 0800410Ireland 
 A. Menarini Pharmaceuticals Ireland Ltd<br />
-Tel: +353 1 284 6 
-Slovenija 
+Tel: +353 1 284 6Slovenija 
 Covis Pharma Europe B.V. 
-Tel: 080083 
- sland 
+Tel: 080083 sland 
 Zentiva Denmark ApS 
 S mi: +354 539 0Slovensk  republika 
 Covis Pharma Europe B.V. 
-Tel: 0800008 
-Italia 
+Tel: 0800008Italia 
 Covis Pharma Europe B.V. 
-Tel: 800168 
-Suomi/Finland 
+Tel: 800168Suomi/Finland 
 Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 648  </p>
-<p>Specialty Therapeutics IKE 
- : +30 213 02 33<br />
-Sverige 
+Puh/Tel: +358 942 598 <br />
+Specialty Therapeutics IKE 
+ : +30 213 02 33 Sverige 
 Zentiva Denmark ApS 
-Tel: +46 840 838 822<br />
-Latvija 
+Tel: +46 840 838 Latvija 
 Covis Pharma Europe B.V. 
-Tel: 80005 
-United Kingdom (Northern Ireland) 
+Tel: 80005United Kingdom (Northern Ireland) 
 Zentiva, k.s. 
-Tel: +44 (0) 800 090 2 
-This leaflet was last revised in <em>{month YYYY}</em>. </p>
+Tel: +44 (0) 800 090 2This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

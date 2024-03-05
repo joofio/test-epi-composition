@@ -353,8 +353,8 @@ sugar gets low, including the risk of passing out. </p>
 someone who knows how to use it. 
 * If you are given glucagon, you will need sugar or a sugary snack as soon as you come round. 
 * If you do not respond to glucagon treatment, you will have to be treated in a hospital. 
-* If severe low blood sugar is not treated over time, it can cause brain damage. This can be short- or long-lasting. It may even cause death. </p>
-<p>Talk to your doctor if: 
+* If severe low blood sugar is not treated over time, it can cause brain damage. This can be short- or long-lasting. It may even cause death. 
+Talk to your doctor if: 
 * your blood sugar got so low that you passed out 
 * you have used glucagon 
 * you have had low blood sugar a few times recently. 

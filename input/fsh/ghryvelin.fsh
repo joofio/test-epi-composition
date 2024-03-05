@@ -117,16 +117,14 @@ Tell your doctor if you are taking, have recently taken or might take any other 
 * medicines to correct the heart rhythm (antiarrhythmic medicines such as amiodarone, procainamide, quinidine or sotalol) 
 * any other medicines that can prolong the QT interval or inducing torsades de pointes </p>
 <p>Tell your doctor if you are taking medicines that could increase the breakdown of macimorelin such as specific medicines to treat: 
-* seizures/epilepsy (carbamazepine, esclicarbazepine, fosphenytoin, oxcarbazepine, phenobarbital, phenytoin, primidone) </p>
-<ul>
-<li>sleep disorder (modafinil, pitolisant) </li>
-<li>mild to moderate depressive episodes (St. John s wort (Hypericum perforatum)) </li>
-<li>cystic fibrosis (lumacaftor) </li>
-<li>infections (antibiotics such as rifabutin, rifampicin) </li>
-<li>HIV (efavirenz, nevirapine) </li>
-<li>type 2 diabetes (pioglitazone) </li>
-<li>cancer (dabrafenib, enzalutamide) </li>
-</ul>
+* seizures/epilepsy (carbamazepine, esclicarbazepine, fosphenytoin, oxcarbazepine, phenobarbital, phenytoin, primidone) 
+* sleep disorder (modafinil, pitolisant) 
+* mild to moderate depressive episodes (St. John s wort (Hypericum perforatum)) 
+* cystic fibrosis (lumacaftor) 
+* infections (antibiotics such as rifabutin, rifampicin) 
+* HIV (efavirenz, nevirapine) 
+* type 2 diabetes (pioglitazone) 
+* cancer (dabrafenib, enzalutamide) </p>
 <p>Tell your doctor if you are taking medicines that may impact the accuracy of the diagnostic test. Avoid concomitant use with medicines: 
 * that could have a direct influence on growth hormone secretion by the pituitary gland: such as somatostatin, insulin, glucocorticoids, acetylsalicylic acid, 
 indometacin 
@@ -190,8 +188,8 @@ vomiting and diarrhoea. In case you should have heart rhythm disturbances, an EC
 * tremor 
 * vertigo </p>
 <p>Frequency not known (cannot be estimated from the available data): 
-* changes in the electrocardiogram (ECG) </p>
-<p>Reporting of side effects 
+* changes in the electrocardiogram (ECG) 
+Reporting of side effects 
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly 
 via the national reporting system listed in Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
         

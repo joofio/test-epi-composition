@@ -272,88 +272,66 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien/ 
 Sanofi Belgium 
-T l/Tel: + 32 2 710 54<br />
-Lietuva 
+T l/Tel: + 32 2 710 54 Lietuva 
 Swixx Biopharma UAB 
-Tel. +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD 
-T : +359 (0) 2 4942  </p>
-<p>esk  republika 
+Tel. +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+T : +359 (0) 2 4942  esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Luxembourg/Luxemburg 
+Tel: +420 233 086 Luxembourg/Luxemburg 
 Sanofi Belgium 
 T l/Tel: + 32 2 710 54 (Belgique/Belgien) </p>
 <p>Magyarorsz g 
 sanofi-aventis Zrt. 
-Tel: +36 1 505 0 </p>
-<p>Malta 
+Tel: +36 1 505 0Malta 
 Sanofi S.r.l 
-Tel: +39 02 39394 
-Danmark 
+Tel: +39 02 39394Danmark 
 Sanofi A/S<br />
-Tlf: +45 45 16 70<br />
-Nederland 
+Tlf: +45 45 16 70 Nederland 
 Sanofi B.V. 
-Tel: +31 20 245 4 
-Deutschland 
+Tel: +31 20 245 4Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21  </p>
-<p>Norge 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Norge 
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71 Eesti 
 Swixx Biopharma O <br />
-Tel. +372 640 10<br />
- sterreich 
+Tel. +372 640 10  sterreich 
 sanofi-aventis GmbH 
 Tel: + 43 1 80 185 - 0 </p>
 <p>Sanofi-Aventis   AEBE<br />
  : +30 210 900 1Polska 
 sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-Espa a 
+Tel.: +48 22 280 00 Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94 <br />
-Portugal 
+Tel: +34 93 485 94 Portugal 
 Sanofi   Produtos Farmac uticos, Lda. 
-Tel: +351 21 35 89<br />
-France 
+Tel: +351 21 35 89 France 
 Sanofi Winthrop Industrie 
-T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
-Rom nia 
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078 Slovenija 
 Swixx Biopharma d.o.o.<br />
-Tel: +386 1 235 51<br />
-Ireland 
+Tel: +386 1 235 51 Ireland 
 sanofi-aventis Ireland Ltd T/A SANOFI 
-Tel:  +353 (0) 1 4035 600  </p>
-<p>Slovensk  republika 
+Tel:  +353 (0) 1 4035 Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel:  +421 2 208 33<br />
- sland 
+Tel:  +421 2 208 33  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Suomi/Finland 
+S mi: +354 535 7Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
-Italia 
+Puh/Tel: + 358 201 200 Italia 
 Sanofi S.r.l 
-Tel: 800536 </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22 741 
-Sverige 
+Tel: 800536<br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
+Tel: +46 (0)8 634 50 Latvija 
 Swixx Biopharma SIA<br />
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 Sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>This medicine has been authorised under  Exceptional Circumstances .  This means that because of 
 the rarity of this disease it has been impossible to get complete information on this medicine. The 
 European Medicines Agency will review any new information on the medicine every year and this 

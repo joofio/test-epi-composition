@@ -184,25 +184,18 @@ kidney problem, your doctor may advise you to take 10 mg once per day. </p>
 <p>If you take more ADCIRCA than you should<br />
 If you or anyone else takes more tablets than they should, tell your doctor or go to a hospital 
 immediately, taking the medicine or pack with you. You may experience any of the side effects 
-described in section </p>         </div>"""         
+described in section 4. If you forget to take ADCIRCA 
+Take your dose as soon as you remember if it is within 8 hours of when you should have taken your 
+dose. Do NOT take a double dose to make up for the one that you have forgotten. </p>
+<p>If you stop taking ADCIRCA 
+Do not stop taking your tablets, unless advised otherwise by your doctor. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take ADCIRCA 
-Take your dose as soon as you remember if it is within 8 hours of when you should have taken your 
-dose. Do NOT take a double dose to make up for the one that you have forgotten. </p>
-<p>If you stop taking ADCIRCA 
-Do not stop taking your tablets, unless advised otherwise by your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store adcirca"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store adcirca"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. These 
 effects are normally mild to moderate in nature. </p>
@@ -260,11 +253,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store adcirca"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store adcirca"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
@@ -272,4 +264,92 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ADCIRCA contains 
+The active substance is tadalafil. Each tablet contains 20 mg of tadalafil. 
+The other ingredients are: 
+Tablet core: lactose monohydrate, croscarmellose sodium, hydroxypropylcellulose, microcrystalline 
+cellulose, sodium laurilsulfate, magnesium stearate, see section 2  ADCIRCA contains lactose  and 
+ ADCIRCA contains sodium . </p>
+<p>Film-coat: lactose monohydrate, hypromellose, triacetin, titanium dioxide (E171), iron oxide yellow 
+(E172), iron oxide red (E172), talc. </p>
+<p>What ADCIRCA looks like and contents of the pack<br />
+ADCIRCA 20 mg comes as orange film-coated tablets (tablets). They are in the shape of almonds and 
+have "4467" marked on one side.  </p>
+<p>ADCIRCA 20 mg is available in blister packs containing 28 or 56 tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, The 
+Netherlands </p>
+<p>Manufacturer: Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgique/Belgi /Belgien 
+Eli Lilly Benelux S.A./N.V. 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ .  + 359 2 491 41 Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
+Tel: + 420 234 664 Magyarorsz g 
+Lilly Hung ria Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S 
+Tlf: +45 45 26 60 Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V. 
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S. 
+Tlf: + 47 22 88 18 <br />
+ -   . . . . 
+ : +30 210 629 4 sterreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 Espa a 
+Lilly S.A.<br />
+Tel: + 34-91 663 50 Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+T l: +33-(0) 1 55 49 34 Portugal 
+Lilly Portugal Produtos Farmac uticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 Rom nia 
+Eli Lilly Rom nia S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Slovenija 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
+Icepharma hf. 
+S mi: + 354 540 8Slovensk  republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42Suomi/Finland 
+Oy Eli Lilly Finland Ab 
+Puh/Tel: + 358-(0) 9 85 45 <br />
+Phadisco Ltd<br />
+ : +357 22 715Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

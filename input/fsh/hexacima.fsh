@@ -4,7 +4,7 @@ Instance: composition-en-e4cbd39afc9fcf037ef25af79a801130
 InstanceOf: CompositionUvEpi
 Title: "Composition for hexacima Package Leaflet"
 Description:  "Composition for hexacima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,7 +83,7 @@ wound. The bacterium makes a toxin (poison) that causes spasms of the muscles le
 inability to breathe and the possibility of suffocation. 
 * Pertussis (often called whooping cough) is a highly infectious illness that affects the airways. It 
 causes severe coughing that may lead to problems with breathing. The coughing often has a 
-“whooping” sound. The cough may last for one to two months or longer. Whooping cough can 
+ whooping  sound. The cough may last for one to two months or longer. Whooping cough can 
 also cause ear infections, chest infections (bronchitis) that may last a long time, lung infections 
 (pneumonia), fits, brain damage, and even death. 
 * Hepatitis B is caused by the hepatitis B virus. It causes the liver to become swollen (inflamed). 
@@ -96,8 +96,8 @@ breathing and swallowing can be fatal.
 and can cause meningitis (inflammation of the outer covering of the brain), which can lead to 
 brain damage, deafness, epilepsy, or partial blindness. Infection can also cause inflammation 
 and swelling of the throat leading to difficulties in swallowing and breathing. The infection can 
-affect other parts of the body such as the blood, lungs, skin, bones, and joints. </p>
-<p>Important information about the protection provided </p>
+affect other parts of the body such as the blood, lungs, skin, bones, and joints. 
+Important information about the protection provided </p>
 <ul>
 <li>Hexacima will only help to prevent these diseases if they are caused by the bacteria or viruses 
 targeted by the vaccine. Your child could get diseases with similar symptoms if they are caused 
@@ -145,31 +145,33 @@ dose of a pertussis vaccine (acellular or whole cell pertussis). </li>
 * has a moderate or high temperature or an acute illness (e.g. fever, sore throat, cough, cold, or 
 flu). Vaccination with Hexacima may need to be delayed until your child is better. 
 * has had any of the following events after receiving a pertussis vaccine, as the decision to give 
-further doses of pertussis containing vaccine will need to be carefully considered: 
-- fever of 40°C or above within 48 hours of vaccination not due to another identifiable 
-cause. 
-- collapse or shock-like state with hypotonic-hyporesponsive episode (drop in energy) 
-within 48 hours of vaccination. 
-- persistent, inconsolable crying lasting 3 hours or more, occurring within 48 hours of 
-vaccination. 
-- fits (convulsions) with or without fever, occurring within 3 days of vaccination. 
-* previously had Guillain-Barré syndrome (temporary inflammation of nerves causing pain, 
+further doses of pertussis containing vaccine will need to be carefully considered:</p>
+<ul>
+<li>fever of 40 C or above within 48 hours of vaccination not due to another identifiable 
+cause. </li>
+<li>collapse or shock-like state with hypotonic-hyporesponsive episode (drop in energy) 
+within 48 hours of vaccination. </li>
+<li>persistent, inconsolable crying lasting 3 hours or more, occurring within 48 hours of 
+vaccination. </li>
+<li>fits (convulsions) with or without fever, occurring within 3 days of vaccination. </li>
+<li>previously had Guillain-Barr  syndrome (temporary inflammation of nerves causing pain, 
 paralysis, and sensitivity disorders) or brachial neuritis (severe pain and decreased mobility of 
 arm and shoulder) after being given a vaccine containing tetanus toxoid (an inactivated form of 
 tetanus toxin). In this case, the decision to give any further vaccine containing tetanus toxoid 
-should be evaluated by your doctor. 
-* is having a treatment that suppresses her/his immune system (the body’s natural defenses) or 
+should be evaluated by your doctor. </li>
+<li>is having a treatment that suppresses her/his immune system (the body s natural defenses) or 
 has any disease that causes the weakness of the immune system. In these cases the immune 
 response to the vaccine may be decreased. It is normally recommended to wait until the end of 
 the treatment or disease before vaccinating. However children with long standing problems with 
 their immune system such as HIV infection (AIDS) may still be given Hexacima, but the 
-protection may not be as good as in children whose immune system is healthy. 
-* suffers from an acute or chronic illness including chronic renal insufficiency or failure (inability 
-of the kidneys to work properly). 
-* suffers from any undiagnosed illness of the brain or epilepsy that is not controlled. Your doctor 
-will assess the potential benefit offered by vaccination. 
-* has any problems with the blood that cause easy bruising or bleeding for a long time after minor 
-cuts. Your doctor will advise you whether your child should have Hexacima. </p>
+protection may not be as good as in children whose immune system is healthy. </li>
+<li>suffers from an acute or chronic illness including chronic renal insufficiency or failure (inability 
+of the kidneys to work properly). </li>
+<li>suffers from any undiagnosed illness of the brain or epilepsy that is not controlled. Your doctor 
+will assess the potential benefit offered by vaccination. </li>
+<li>has any problems with the blood that cause easy bruising or bleeding for a long time after minor 
+cuts. Your doctor will advise you whether your child should have Hexacima. </li>
+</ul>
 <p>Fainting can occur following, or even before, any needle injection. Therefore, tell your doctor or nurse 
 your child fainted with a previous injection. </p>
 <p>Other medicines or vaccines and Hexacima </p>
@@ -183,7 +185,7 @@ When given at the same time with other vaccines, Hexacima will be given at diffe
 if you have phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up because 
 the body cannot remove it properly. 
 Hexacima contains less than 1 mmol potassium (39 mg) and less than 1 mmol sodium (23 mg) per 
-dose, that is to say essentially “potassium-free” and “sodium-free”. </p>         </div>"""   
+dose, that is to say essentially  potassium-free  and  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hexacima"
@@ -194,7 +196,7 @@ dose, that is to say essentially “potassium-free” and “sodium-free”. </p
 equipped to deal with any uncommon severe allergic reaction to the injection (see section 4 Possible 
 side effects). 
 Hexacima is given as an injection into a muscle (intramuscular route IM) in the upper part of your 
-child’s leg or upper arm. The vaccine will never be given into a blood vessel or into or under the skin. </p>
+child s leg or upper arm. The vaccine will never be given into a blood vessel or into or under the skin. </p>
 <p>The recommended dose is as follows: </p>
 <p>First course of vaccination (primary vaccination) 
 Your child will receive either two injections given at an interval of two months, or three injections 
@@ -228,44 +230,62 @@ must consult a doctor IMMEDIATELY:
 * sudden and serious malaise with drop in blood pressure causing dizziness and loss of 
 consciousness, accelerated heart rate associated with respiratory disorders. 
 When these signs or symptoms (signs or symptoms of anaphylactic reaction) occur they usually 
-develop quickly after the injection is given and while the child is still in the clinic or doctor’s surgery. </p>
+develop quickly after the injection is given and while the child is still in the clinic or doctor s surgery. </p>
 <p>Serious allergic reactions are a rare possibility (may affect up to 1 in 1 000 people) after receiving this 
 vaccine. </p>
 <p>Other side effects </p>
 <p>If your child experiences any of the following side effects, please tell your doctor, nurse, or 
 pharmacist. 
-* Very common side effects (may affect more than 1 in 10 people) are: 
-- loss of appetite (anorexia) 
-- crying 
-- sleepiness (somnolence) 
-- vomiting 
- - fever (temperature 38°C or higher) 
- - irritability 
- - pain, redness, or swelling at the injection site 
-* Common side effects (may affect up to 1 in 10 people) are: 
-- abnormal crying (prolonged crying) 
-- diarrhoea 
-- injection site hardness (induration) 
-* Uncommon side effects (may affect up to 1 in 100 people) are: 
-- allergic reaction 
- - high fever (temperature 39.6°C or higher) 
- - lump (nodule) at the injection site 
-* Rare side effects (may affect up to 1 in 1 000people) are: 
-- rash 
-- large reactions at the injection site (larger than 5 cm), including extensive limb swelling 
+* Very common side effects (may affect more than 1 in 10 people) are:</p>
+<ul>
+<li>loss of appetite (anorexia) </li>
+<li>crying </li>
+<li>sleepiness (somnolence) </li>
+<li>vomiting </li>
+<li>fever (temperature 38 C or higher) </li>
+<li>irritability </li>
+<li>pain, redness, or swelling at the injection site </li>
+<li>
+<p>Common side effects (may affect up to 1 in 10 people) are:</p>
+</li>
+<li>
+<p>abnormal crying (prolonged crying) </p>
+</li>
+<li>diarrhoea </li>
+<li>injection site hardness (induration) </li>
+<li>
+<p>Uncommon side effects (may affect up to 1 in 100 people) are:</p>
+</li>
+<li>
+<p>allergic reaction </p>
+</li>
+<li>high fever (temperature 39.6 C or higher) </li>
+<li>lump (nodule) at the injection site </li>
+<li>
+<p>Rare side effects (may affect up to 1 in 1 000people) are:</p>
+</li>
+<li>
+<p>rash </p>
+</li>
+<li>large reactions at the injection site (larger than 5 cm), including extensive limb swelling 
 from the injection site beyond one or both joints. These reactions start within 24-72 hours 
 after vaccination, may be associated with redness, warmth, tenderness, or pain at the 
-injection site, and get better within 3-5 days without the need for treatment. 
-- fits (convulsions) with or without fever. 
-* Very rare side effects (may affect up to 1 in 10 000 people) are: 
-- episodes when your child goes into a shock-like state or is pale, floppy and 
+injection site, and get better within 3-5 days without the need for treatment. </li>
+<li>fits (convulsions) with or without fever. </li>
+<li>
+<p>Very rare side effects (may affect up to 1 in 10 000 people) are:</p>
+</li>
+<li>
+<p>episodes when your child goes into a shock-like state or is pale, floppy and 
 unresponsive for a period of time (hypotonic reactions or hypotonic hyporesponsive 
 episodes HHE). </p>
+</li>
+</ul>
 <p>Potential side effects </p>
 <p>Other side effects not listed above have been reported occasionally with other diphtheria, tetanus, 
 pertussis, poliomyelitis, hepatitis B, or Hib-containing vaccines and not directly with Hexacima: 
 * Temporary inflammation of nerves causing pain, paralysis and sensitivity disorders (Guillain-
-Barré syndrome), and severe pain and decreased mobility of arm and shoulder (brachial neuritis) 
+Barr  syndrome), and severe pain and decreased mobility of arm and shoulder (brachial neuritis) 
 have been reported after administration of a tetanus containing vaccine. 
 * Inflammation of several nerves causing sensory disorders or weakness of limbs 
 (polyradiculoneuritis), facial paralysis, visual disturbances, sudden dimming or loss of vision 
@@ -295,7 +315,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. 
 Do not use this vaccine after the expiry date which is stated on the carton and the label after EXP. The 
 expiry date refers to the last day of that month. 
-Store in a refrigerator (2°C – 8°C). 
+Store in a refrigerator (2 C   8 C). 
 Do not freeze.<br />
 Keep the vaccine in the outer carton in order to protect it from the light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -313,8 +333,8 @@ Diphtheria Toxoid
 not less than 20 IU2,4 (30 Lf) 
 Tetanus Toxoid 
 not less than 40 IU3,4(10 Lf) 
-Bordetella pertussis antigens </p>
-<p>Pertussis Toxoid 
+Bordetella pertussis antigens 
+Pertussis Toxoid 
 25 micrograms </p>
 <p>Filamentous Haemagglutinin 
 25 micrograms 
@@ -356,96 +376,74 @@ Hexacima is available in pack containing 1 or 10 pre-filled syringes, with 2 sep
 <p>After shaking, the normal appearance of the vaccine is a whitish cloudy suspension. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Marketing Authorisation Holder:<br />
-Sanofi Pasteur, 14 Espace Henry Vallée, 69007 Lyon , France </p>
+Sanofi Pasteur, 14 Espace Henry Vall e, 69007 Lyon , France </p>
 <p>Manufacturer: 
-Sanofi Pasteur, 1541 avenue Marcel Mérieux, 69280 Marcy l'Etoile, France </p>
+Sanofi Pasteur, 1541 avenue Marcel M rieux, 69280 Marcy l'Etoile, France </p>
 <p>Sanofi Pasteur, Parc Industriel d'Incarville, 27100 Val de Reuil, France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/ Belgique /Belgien 
+<p>Belgi / Belgique /Belgien 
 Sanofi Belgium 
-Tel: +32 2 710.54. Lietuva 
+Tel: +32 2 710.54.Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
+Tel: +370 5 236 91 <br />
 Swixx Biopharma EOOD<br />
-Teл.: +359 2 4942<br />
-Luxembourg/Luxemburg 
+Te .: +359 2 4942 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tel: +32 2 710.54. Česká republika 
+Tel: +32 2 710.54. esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarország 
+Tel: +420 233 086 Magyarorsz g 
 SANOFI-AVENTIS Zrt 
 Tel: +36 1 505 0Danmark 
 Sanofi A/S 
-Tel: +45 4516 7 
-Malta 
+Tel: +45 4516 7Malta 
 Sanofi S.r.l. 
 Tel: +39 02 39394 Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel: 0800 54 54 Tel. aus dem Ausland: +49 69 305 21<br />
-Nederland 
+Tel: 0800 54 54 Tel. aus dem Ausland: +49 69 305 21 Nederland 
 Sanofi B.V.<br />
 Tel: +31 20 245 4Eesti 
-Swixx Biopharma OÜ 
-Tel: +372 640 10<br />
-Norge 
+Swixx Biopharma O<br />
+Tel: +372 640 10 Norge 
 Sanofi-aventis Norge AS 
-Tel: + 47 67 10 71<br />
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30.210.8009 
-Österreich 
+Tel: + 47 67 10 71 <br />
+   . . 
+ : +30.210.8009 sterreich 
 Sanofi-Aventis GmbH 
 Tel: +43 (1) 80185-0 </p>
-<p>España 
+<p>Espa a 
 sanofi-aventis, S.A.<br />
-Tel: +34 93 485 94<br />
-Polska 
+Tel: +34 93 485 94 Polska 
 Sanofi Pasteur Sp. z o. o. 
-Tel: +48 22 280 00<br />
-France 
+Tel: +48 22 280 00 France 
 Sanofi Pasteur Europe 
-Tel: 0800 42 43 Appel depuis l’étranger : +33 1 57 63 67<br />
-Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
-Tel: + 351 21 35 89<br />
-Hrvatska 
+Tel: 0800 42 43 Appel depuis l tranger : +33 1 57 63 67 Portugal 
+Sanofi   Produtos Farmac uticos, Lda. 
+Tel: + 351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 21 317 31 Ireland 
 sanofi-aventis Ireland T/A SANOFI 
-Tel: + 353 (0) 1 4035<br />
-Slovenija 
+Tel: + 353 (0) 1 4035 Slovenija 
 Swixx Biopharma d.o.o 
-Tel: +386 235 51<br />
-Ísland 
+Tel: +386 235 51  sland 
 Vistor 
-Tel: +354 535 7 
-Slovenská republika 
+Tel: +354 535 7Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
+Tel: +421 2 208 33 Italia 
 Sanofi S.r.l. 
-Tel: 800536<br />
-Suomi/Finland 
+Tel: 800536Suomi/Finland 
 Sanofi Oy 
-Tel: +358 (0) 201 200<br />
-Κύπρος 
+Tel: +358 (0) 201 200 <br />
 C.A. Papaellinas Ltd. 
-Τηλ.: +357 22 741 
-Sverige 
+ .: +357 22 741Sverige 
 Sanofi AB 
 Tel: +46 8-634 50 Latvija 
 Swixx Biopharma SIA <br />
-Tel: +371 6 6164<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 6 6164 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in {MM/YYYY}  </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in {MM/YYYY}  </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

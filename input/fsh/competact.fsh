@@ -333,5 +333,7 @@ Germany </p>
 Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Ireland 
 Delpharm Novara S.r.l., Via Crosa, 86, I-28065 Cerano (NO), Italy 
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain </p>
-<p>This leaflet was last revised in August 202</p>         </div>"""      
+<p>This leaflet was last revised in August 2023. Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website 
+http://www.ema.europa.eu. </p>         </div>"""      
 

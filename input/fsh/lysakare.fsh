@@ -100,8 +100,8 @@ starting the infusion. The doctor will also check your kidney and liver function
 infusion. For other tests which need to be performed before your treatment, please read the Lutathera 
 leaflet. 
 Follow your doctor s advice on how much fluid to drink on the day of your treatment so you stay well 
-hydrated. </p>
-<p>Children and adolescents 
+hydrated. 
+Children and adolescents 
 This medicine should not be given to children and adolescents under 18 years old because it is not 
 known whether it is safe and effective in this age group. </p>
 <p>Other medicines and LysaKare 
@@ -193,92 +193,73 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
-Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SAM Nordic 
  vedija 
-Tel: +46 8 720 58  </p>
-<p>Novartis Bulgaria EOOD 
- : +359 2 489 98<br />
-Luxembourg/Luxemburg 
+Tel: +46 8 720 58 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
- esk  republika 
+T l/Tel: +32 2 246 16  esk  republika 
 M.G.P. spol. s r.o. 
-Tel: +420 602 303<br />
-Magyarorsz g 
+Tel: +420 602 303 Magyarorsz g 
 Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 SAM Nordic 
 Sverige 
-Tel: +46 8 720 58<br />
-Malta 
+Tel: +46 8 720 58 Malta 
 Novartis Pharma Services Inc. 
 Tel: +356 2122 2Deutschland 
 Novartis Radiopharmaceuticals GmbH 
-Tel: +49 911 2 
-Nederland 
+Tel: +49 911 2Nederland 
 Novartis Pharma B.V. 
 Tel: +31 88 04 52 Eesti 
 SAM Nordic 
 Rootsi 
-Tel: +46 8 720 58<br />
-Norge 
+Tel: +46 8 720 58 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58  </p>
-<p>: +30 22920 63 
- sterreich 
+Tlf: +46 8 720 58   </p>
+<p>: +30 22920 63 sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Advanced Accelerator Applications Ib rica, 
 S.L.U. 
-Tel: +34 97 6600<br />
-Polska 
+Tel: +34 97 6600 Polska 
 Advanced Accelerator Applications Polska Sp. z 
 o.o. 
-Tel.: +48 22 275 56<br />
-France 
+Tel.: +48 22 275 56 France 
 Advanced Accelerator Applications 
-T l: +33 1 55 47 63<br />
-Portugal 
+T l: +33 1 55 47 63 Portugal 
 Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-Rom nia 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12 Slovenija 
 Advanced Accelerator Applications 
 Francija 
-Tel: +33 1 55 47 63<br />
- sland 
+Tel: +33 1 55 47 63  sland 
 SAM Nordic 
 Sv j<br />
-S mi: +46 8 720 58<br />
-Slovensk  republika 
+S mi: +46 8 720 58 Slovensk  republika 
 MGP, spol. s r.o. 
-Tel: +421 254 654<br />
-Italia 
+Tel: +421 254 654 Italia 
 Advanced Accelerator Applications (Italy) S.r.l. 
 Tel: +39 0125 561Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58  </p>
-<p>: +30 22920 63 
-Sverige 
+Puh/Tel: +46 8 720 58   </p>
+<p>: +30 22920 63Sverige 
 SAM Nordic 
-Tel: +46 8 720 58<br />
-Latvija 
+Tel: +46 8 720 58 Latvija 
 SAM Nordic 
 Zviedrija 
-Tel: +46 8 720 58<br />
-United Kingdom (Northern Ireland) 
+Tel: +46 8 720 58 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in {month YYYY}. </p>
+Tel: +44 1276 698This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

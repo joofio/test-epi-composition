@@ -300,99 +300,72 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Actavis Group PTC ehf. 
 IJsland/Islande/Island 
-T l/Tel: +354 5503 
-Lietuva 
+T l/Tel: +354 5503Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>: +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
 Actavis Group PTC ehf. 
 Islande/Island 
-T l/Tel: +354 5503 
- esk  republika 
+T l/Tel: +354 5503 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt. 
-Tel: +36 12886 
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 Actavis Group PTC ehf. 
 Island 
-Tel: +354 5503 
-Nederland 
+Tel: +354 5503Nederland 
 Actavis Group PTC ehf. 
 IJsland 
-Tel: +354 5503 
-Eesti 
+Tel: +354 5503Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>Specifar A.B.E.E. 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Actavis Group PTC ehf. 
 Islandia 
-Tel: +354 5503 
-Polska 
+Tel: +354 5503Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
+Tel: +48 223459France 
 Actavis Group PTC ehf. 
 Islande 
-T l: +354 5503 
-Portugal 
+T l: +354 5503Portugal 
 Actavis Group PTC ehf. 
 Isl ndia 
-Tel: +354 5503 
-Hrvatska 
+Tel: +354 5503Hrvatska 
 Pliva Hrvatska d.o.o.<br />
-Tel: +385 13720 
-Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Actavis Group PTC ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
+Tel: +421 257267Italia 
 Actavis Group PTC ehf. 
 Islanda 
-Tel: +354 5503 
-Suomi/Finland 
+Tel: +354 5503Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 </p>
-<p>Specifar A.B.E.E. </p>
-<p>: +30 2118805 
-Sverige 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij<br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

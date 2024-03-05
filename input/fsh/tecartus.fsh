@@ -111,14 +111,7 @@ medicines to help prevent the condition.
 * Check for hepatitis B, hepatitis C or HIV infection. 
 * Check if you had a vaccination in the previous 6 weeks or are planning to have one in the next 
 few months. 
-* Check if you have previously received a treatment that attaches to the protein called CD1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take tecartus"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tecartus"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In some cases, it might not be possible to go ahead with the planned treatment with Tecartus. If 
+* Check if you have previously received a treatment that attaches to the protein called CD19. In some cases, it might not be possible to go ahead with the planned treatment with Tecartus. If 
 Tecartus infusion is delayed for more than 2 weeks after you have received lymphodepleting 
 chemotherapy you may have to receive more chemotherapy (see also section 3, How Tecartus is 
 given). </p>
@@ -141,8 +134,8 @@ known as platelets. </p>
 components may decrease. </p>
 <p>You will be asked to enrol in a registry for at least 15 years in order to better understand the long-term 
 effects of Tecartus.  </p>
-<p>Do not donate blood, organs, tissues, or cells for transplants. </p>
-<p>Children,adolescents and young adults </p>
+<p>Do not donate blood, organs, tissues, or cells for transplants. 
+Children,adolescents and young adults </p>
 <p>Tecartus must not be used in children and adolescents below 18 years of age or young adults below 
 26 years of age. </p>
 <p>Other medicines and Tecartus </p>
@@ -174,13 +167,12 @@ your Tecartus treatment or until your doctor tells you that you have completely 
 <p>Tecartus contains sodium, dimethylsulfoxide (DMSO) and gentamicin </p>
 <p>This medicine contains 300 mg sodium (main component of cooking/table salt) in each infusion bag. 
 This is equivalent to 15% of the recommended maximum daily dietary intake of sodium for an adult. It 
-also contains DMSO and gentamicin which may cause severe hypersensitivity reactions. </p>         </div>"""         
-
-        
+also contains DMSO and gentamicin which may cause severe hypersensitivity reactions. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take tecartus"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take tecartus"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tecartus will always be given to you by a healthcare professional. </p>
 <ul>
@@ -221,12 +213,13 @@ is so your doctor can check if your treatment is working and help you if you hav
 effects. </li>
 </ul>
 <p>If you miss any appointments, call your doctor or your treatment centre as soon as possible to 
-reschedule your appointment. </p>         </div>"""      
+reschedule your appointment. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store tecartus"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tecartus"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Do not try 
 to treat your side effects on your own. </p>
@@ -296,15 +289,113 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store tecartus"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store tecartus"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only. </p>
 <p>Do not use this medicine after the expiry date which is stated on the container label and infusion bag 
 after EXP. </p>
 <p>Store frozen in vapour phase of liquid nitrogen     150  C until thawed for use. 
 Do not refreeze. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tecartus contains </p>
+<p>The active substance is brexucabtagene autoleucel (0.4   2   108 cells dispersion for infusion). Each 
+patient-specific single infusion bag contains a dispersion of anti-CD19 CAR-positive viable T cells in 
+approximately 68 mL for a target dose of 2   106 anti-CD19 CAR-positive viable T cells/kg for mantle 
+cell lymphoma patients and a target dose of 1   106 anti-CD19 CAR-positive viable T cells/kg for B-
+cell acute lymphoblastic leukaemia patients. 
+The other ingredients (excipients) are: Cryostor CS10 (contains DMSO), sodium chloride, human 
+albumin. See section 2  Tecartus contains sodium, dimethyl sulphoxide (DMSO), and residual 
+gentamicin . </p>
+<p>This medicine contains genetically modified human blood cells. </p>
+<p>What Tecartus looks like and contents of the pack </p>
+<p>Tecartus is a clear to opaque, white to red dispersion for infusion, supplied in an infusion bag 
+individually packed in a metal cassette. A single infusion bag contains approximately 68 mL of cell 
+dispersion. </p>
+<p>Marketing Authorisation Holder 
+Kite Pharma EU B.V. 
+Tufsteen 1 
+2132 NT Hoofddorp 
+The Netherlands </p>
+<p>Manufacturer 
+Kite Pharma EU B.V. 
+Tufsteen 1 
+2132 NT Hoofddorp 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+T l/Tel: + 32 (0) 24 01 35 Lietuva 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8<br />
+Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+T l/Tel: + 32 (0) 24 01 35  esk  republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871 Magyarorsz g 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36 Eesti 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930  sterreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260 Espa a 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98 Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8France 
+Gilead Sciences 
+T l : + 33 (0) 1 46 09 41 Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Rom nia 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825 Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 sland 
+Gilead Sciences Sweden AB 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121 Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1Latvija 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8This leaflet was last revised in </p>
+<p>This medicine has been given  conditional approval .<br />
+This means that there is more evidence to come about this medicine. 
+The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

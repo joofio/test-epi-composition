@@ -114,14 +114,7 @@ using SIMBRINZA or other related medicines. </li>
 Serious skin reactions including Stevens-Johnson syndrome and toxic epidermal necrolysis have been 
 reported in association with brinzolamide treatment. Stop using SIMBRINZA and seek medical 
 attention immediately if you notice any of the symptoms related to these serious skin reactions 
-described in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take simbrinza"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take simbrinza"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you wear soft contact lenses, do not use the drops with your lenses in. See section  Wearing contact 
+described in section 4. If you wear soft contact lenses, do not use the drops with your lenses in. See section  Wearing contact 
 lenses - SIMBRINZA contains benzalkonium chloride  below). </p>
 <p>Children and adolescents 
 SIMBRINZA is not intended for use by children and adolescents aged below 18 years because it has 
@@ -172,13 +165,12 @@ SIMBRINZA may also cause dizziness, drowsiness or tiredness in some patients. </
 contact lenses. You should remove contact lenses before using this medicine and put them back 
 15 minutes afterwards. Benzalkonium chloride may also cause eye irritation, especially if you have 
 dry eyes or a disorder of the cornea (the clear layer at the front of the eye). If you feel abnormal eye 
-sensation, stinging or pain in the eye after using this medicine, talk to your doctor. </p>         </div>"""         
-
-        
+sensation, stinging or pain in the eye after using this medicine, talk to your doctor. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take simbrinza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take simbrinza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor, optometrist (optician) or pharmacist has told you. 
 Check with your doctor, optometrist (optician) or pharmacist if you are not sure. </p>
@@ -231,12 +223,13 @@ not use more than one drop in the affected eye(s) two times a day. </p>
 Do not stop using SIMBRINZA without first speaking to your doctor. If you stop using SIMBRINZA 
 the pressure in your eye will not be controlled, which could lead to loss of sight. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, optometrist (optician) or 
-pharmacist. </p>         </div>"""      
+pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store simbrinza"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store simbrinza"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you experience any of the following side effects, please stop using this medicine and seek immediate 
@@ -283,18 +276,17 @@ seen in a blood test, swelling of the face, joint pain, frequent urination, ches
 the extremities, reddish non-elevated, target-like or circular patches on the trunk, often with 
 central blisters, skin peeling, ulcers of mouth, throat, nose, genitals and eyes, which can be 
 preceded by fever and flu-like symptoms. These serious skin rashes can be potentially life-
-threatening (Stevens-Johnson syndrome, toxic epidermal necrolysis). </p>
-<p>Reporting of side effects 
+threatening (Stevens-Johnson syndrome, toxic epidermal necrolysis). 
+Reporting of side effects 
 If you get any side effects, talk to your doctor, optometrist (optician) or pharmacist. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
 information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store simbrinza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store simbrinza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after  EXP . 
@@ -305,4 +297,110 @@ down the date of opening on the carton in the space provided. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your optometrist (optician) 
 or pharmacist how to throw away medicines you no longer use. These measures will help protect the 
 environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What SIMBRINZA contains 
+- The active substances are brinzolamide and brimonidine tartrate. One ml of suspension contains 
+10 mg of brinzolamide and 2 mg of brimonidine tartrate equivalent to 1.3 mg brimonidine. 
+- The other ingredients are benzalkonium chloride (see section 2  Wearing contact lenses - SIMBRINZA contains benzalkonium chloride ), propylene glycol, carbomer 974P, boric acid, 
+mannitol, sodium chloride, tyloxapol, hydrochloric acid and/or sodium hydroxide and purified 
+water. </p>
+<p>Tiny amounts of hydrochloric acid and/or sodium hydroxide are added to keep acidity levels (pH 
+levels) normal. </p>
+<p>What SIMBRINZA looks like and contents of the pack 
+SIMBRINZA eye drops, suspension, is a liquid (white-to-off-white suspension) supplied in a pack 
+containing one or three 5 ml plastic bottles with screw cap. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Farmac utica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>S.A. Alcon-Couvreur N.V. 
+Rijksweg BE-2870 Puurs 
+Belgium </p>
+<p>Novartis Pharma GmbH 
+Roonstra e D-90429 Nuremberg 
+Germany </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

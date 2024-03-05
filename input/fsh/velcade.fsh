@@ -194,22 +194,8 @@ transplantation you will receive VELCADE intravenously together with two other m
 melphalan and prednisone.
 In this case, the duration of a treatment cycle is 42 days (6 weeks). You will receive 9 cycles 
 (54 weeks).</p>
-<p>In cycles 1 to 4, VELCADE is administered twice weekly on days 1, 4, 8, 11, 22, 25, 29 and 3</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In cycles 5 to 9, VELCADE is administered once weekly on days 1, 8, 22 and 2</p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store velcade"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store velcade"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Melphalan (9 mg/m2) and prednisone (60 mg/m2) are both given orally on days 1, 2, 3 and 4 of the 
+<p>In cycles 1 to 4, VELCADE is administered twice weekly on days 1, 4, 8, 11, 22, 25, 29 and 32.<br />
+In cycles 5 to 9, VELCADE is administered once weekly on days 1, 8, 22 and 29. Melphalan (9 mg/m2) and prednisone (60 mg/m2) are both given orally on days 1, 2, 3 and 4 of the 
 first week of each cycle.
 If you have not been treated before for multiple myeloma, and you are suitable for blood stem cell 
 transplantation you will receive VELCADE intravenously together with the medicines 
@@ -241,13 +227,13 @@ VELCADE powder has to be dissolved before administration. This will be done by a
 professional. The resulting solution is then injected into a vein rapidly, over 3 to 5 seconds.
 If you are given too much VELCADE
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too much.
-In the unlikely event of an overdose, your doctor will monitor you for side effects.</p>         </div>"""      
-        
+In the unlikely event of an overdose, your doctor will monitor you for side effects.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Some of 
 these effects may be serious.
@@ -502,4 +488,125 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store velcade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store velcade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
+Do not use this medicine after the expiry date stated on the vial and the carton after EXP.
+Do not store above 30 C. Keep the vial in the outer carton in order to protect from light.
+The reconstituted solution should be used immediately after preparation. If the reconstituted solution is 
+not used immediately, in-use storage times and conditions prior to use are the responsibility of the 
+user. However, the reconstituted solution is stable for 8 hours at 25 C stored in the original vial and/or 
+a syringe, with a total storage time for the reconstituted medicine not exceeding 8 hours prior to 
+administration.
+VELCADE is for single use only. Any unused product or waste material should be disposed of in 
+accordance with local requirements.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What VELCADE contains</h2>
+<p>The active substance is bortezomib. Each vial contains 1 mg of bortezomib (as a mannitol 
+boronic ester). After reconstitution, 1 ml of solution for injection contains 1 mg bortezomib.
+-
+The other ingredients are mannitol (E421) and nitrogen.
+What VELCADE looks like and contents of the pack
+VELCADE powder for solution for injection is a white to off-white cake or powder.
+Each carton of VELCADE 1 mg powder for solution for injection contains a glass vial with a green 
+cap, in a transparent blister pack.
+Marketing Authorisation Holder
+JANSSEN-CILAG INTERNATIONAL NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+Manufacturer
+Janssen Pharmaceutica NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder.
+Belgi /Belgique/Belgien
+Janssen-Cilag NV
+Tel/T l + 32 14 64 94 janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 lt@its.jnj.com</p>
+<p>&amp;    <br />
+ .: +359 2 489 94 jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+T l/Tel: + 32 14 64 94 janssen@jacbe.jnj.com
+ esk  republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 Magyarorsz g
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8jacdk@its.jnj.com
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: + 31 76 711 1janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: + 47 24 12 65 jacno@its.jnj.com</p>
+<p>Janssen-Cilag    . . . .
+T : +30 210 80 90  sterreich
+Janssen-Cilag Pharma GmbH
+Tel:+43 1 610 Espa a
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 contacto@its.jnj.com 
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: + 48 22 237 60 France
+Janssen-Cilag
+T l: 0 800 25 50 75 / + 33 1 55 00 40 medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmac utica, Lda.
+Tel: +351 214 368 Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 jjsafety@JNJCR.JNJ.com
+Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+Janssen Sciences Ireland UC 
+Tel: +353 1 800 709 Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel. +386 1 401 18 Janssen_safety_slo@its.jnj.com
+ sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7janssen@vistor.is
+Slovensk  republika
+Johnson &amp; Johnson s.r.o.
+Tel: +421 232 408 Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 jacfi@its.jnj.com</p>
+<p>: +357 22 207 Sverige
+Janssen-Cilag AB
+Tel: +46 8 626 50 jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 This leaflet was last revised in
+Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

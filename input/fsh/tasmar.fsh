@@ -384,109 +384,81 @@ Poland </p>
 Marketing Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-T l/Tel: +32 (0) 26586 
-Luxembourg/Luxemburg 
+T l/Tel: +32 (0) 26586Luxembourg/Luxemburg 
 Mylan bvba/sprl 
 Belgique/Belgien 
-T l/Tel: +32 (0) 26586 </p>
+T l/Tel: +32 (0) 26586  </p>
 <p>.   48,  . 7 </p>
 <p>1505 <br />
- : +359 2 44 55 </p>
-<p>Magyarorsz g 
+ : +359 2 44 55Magyarorsz g 
 Mylan EPD Kft. 
 H-1138 Budapest, 
-V ci  t 150. Tel.: +36 1 465 2 
- esk  republika 
+V ci  t 150. Tel.: +36 1 465 2 esk  republika 
 Viatris CZ s.r.o. 
-Tel:  +420 222 004<br />
-Malta 
+Tel:  +420 222 004 Malta 
 V.J. Salomone Pharma Limited 
-Tel: +356 21220 
-Danmark 
+Tel: +356 21220Danmark 
 Viatris ApS<br />
-Tlf: +45 28 11 69  </p>
-<p>Nederland 
+Tlf: +45 28 11 69 Nederland 
 Mylan Healthcare B.V. 
 Krijgsman NL-1186 DM Amstelveen 
-Tel: +31 20 426 33 00  </p>
-<p>Deutschland 
+Tel: +31 20 426 33 Deutschland 
 Viatris Healthcare GmbH 
-Tel: + 49 8000700 
-Norge 
+Tel: + 49 8000700Norge 
 Viatris AS <br />
 Tlf: +47 66 75 33 Eesti 
 Meda Pharma SIA<br />
 Liivalaia 13/10118 Tallinn<br />
-Tel: +372 62 61 025  </p>
-<p>sterreich 
+Tel: +372 62 61  sterreich 
 Mylan  sterreich GmbH 
 Guglgasse A-1110 Wien 
-Tel: + 43 1 86 390  </p>
-<p>MEDA Pharmaceuticals A.E. 
- : +30 210 6 77 5 
-Polska 
+Tel: + 43 1 86 <br />
+MEDA Pharmaceuticals A.E. 
+ : +30 210 6 77 5Polska 
 Mylan Healthcare Sp. z o.o.<br />
 ul. Post pu 21 B 
 02-676 Warszawa<br />
-Tel: +48 22 5466 
-Espa a 
+Tel: +48 22 5466Espa a 
 Viatris Pharmaceuticals, S.L.U. 
-Tel: +34 900 102  </p>
-<p>Portugal 
+Tel: +34 900 102 Portugal 
 BGP Products, Unipessoal, Lda. 
 Av. D. Jo o II,<br />
 Edif cio Atlantis, n  44C   7.3 e 7.4 
 1990-095 Lisboa 
-Tel:+351 214 127<br />
-France 
+Tel:+351 214 127 France 
 ViatrisM dical<br />
 1 Bis place de la D fense 
 Tour Trinity 
 92400 Courbevoie 
-T l: +33 1 40 80 15<br />
-Hrvatska 
+T l: +33 1 40 80 15 Hrvatska 
 Mylan Hrvatska d.o.o. 
-Tel: +385 1 23 50<br />
-Rom nia 
+Tel: +385 1 23 50 Rom nia 
 BGP PRODUCTS SRL 
-Tel.: +40372 579<br />
-Ireland 
+Tel.: +40372 579 Ireland 
 Mylan Ireland Limited 
-Tel:  +353 18711 </p>
-<p>Slovenija<br />
+Tel:  +353 18711Slovenija<br />
 Viatris d.o.o. 
-Tel: +386 1 23 63<br />
- sland 
+Tel: +386 1 23 63  sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Viatris Slovakia s.r.o. 
-Tel: +421 2 32 199<br />
-Italia 
+Tel: +421 2 32 199 Italia 
 Meda Pharma S.p.A.<br />
-Via Felice Casati, 20<br />
-20124 Milano<br />
-Tel: +39 0261246921    </p>
-<p>Suomi/Finland 
+Via Felice Casati, 20124 Milano<br />
+Tel: +39 0261246Suomi/Finland 
 Viatris Oy<br />
-Puh/Tel: +358 20 720 9 </p>
-<p>Varnavas Hadjipanayis Ltd<br />
- : +357 2220 7700  </p>
-<p>Sverige 
+Puh/Tel: +358 20 720 9<br />
+Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7Sverige 
 Viatris AB 
 Box 23104 35 Stockholm 
-Tel: +46 8 630 1 
-Latvija 
+Tel: +46 8 630 1Latvija 
 Meda Pharma SIA 
 101 M kusalas str. 
-R ga LV 1T lr: +371 67616 
-United Kingdom (Northern Ireland) 
+R ga LV 1T lr: +371 67616United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
-Tel: +353 18711 
-Lietuva 
+Tel: +353 18711Lietuva 
 Meda Pharma SIA 
- algirio str. 90-Vilnius LT-09303<br />
-Tel. + 370 52051 </p>
-<p>This leaflet was last revised in:  </p>
+ algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in:  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

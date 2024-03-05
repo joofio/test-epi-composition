@@ -148,8 +148,8 @@ alternative reliable barrier contraceptive method, such as a condom, during Esmy
 You should avoid drinking grapefruit juice while on treatment with Esmya. </p>
 <p>Pregnancy and breastfeeding 
 If you are pregnant or breastfeeding, think you may be pregnant or are planning to have a baby, ask 
-your doctor or pharmacist for advice before taking this medicine. </p>
-<p>Do not take Esmya if you are pregnant. Treatment whilst pregnant might affect your pregnancy (it is 
+your doctor or pharmacist for advice before taking this medicine. 
+Do not take Esmya if you are pregnant. Treatment whilst pregnant might affect your pregnancy (it is 
 not known if Esmya might harm your baby or whether can cause miscarriage). If you do become 
 pregnant during Esmya treatment, you should stop taking Esmya immediately and contact your doctor 
 or pharmacist. </p>

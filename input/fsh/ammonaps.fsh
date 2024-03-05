@@ -101,8 +101,8 @@ through the kidney and liver.
 - when given to small children, since they may not be able to swallow the tablets and may choke. 
 It is recommended to use AMMONAPS granules instead. </p>
 <p>AMMONAPS must be combined with a diet reduced in proteins designed especially for you by the 
-doctor and the dietician. You must follow this diet carefully. </p>
-<p>AMMONAPS does not completely prevent the occurrence of an acute excess of ammonia in the blood 
+doctor and the dietician. You must follow this diet carefully. 
+AMMONAPS does not completely prevent the occurrence of an acute excess of ammonia in the blood 
 and is not appropriate for treating such a condition, which is a medical emergency. </p>
 <p>If you require laboratory tests, it is important to remind your doctor that you are taking AMMONAPS, 
 since sodium phenylbutyrate may influence certain laboratory test results. </p>

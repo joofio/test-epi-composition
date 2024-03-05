@@ -359,7 +359,7 @@ c/ Hermanos Lumiere 5
 Parque Tecnol gico Mi ano 
 01510 Alava 
 Spain </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -399,7 +399,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
-This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 This vaccine has been authorised under  exceptional circumstances . This means that for scientific 
 reasons it has been impossible to get complete information on this medicine.
 The European Medicines Agency will review any new information on this vaccine every year and this 

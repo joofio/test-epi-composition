@@ -44,7 +44,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instructions for use</li>
+</ol>         </div>"""   
 
 
 
@@ -68,15 +70,6 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What natpar is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take natpar"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take natpar"
-  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is Natpar?
 Natpar is a hormone replacement for adults with under-active parathyroid glands, a condition known 
 as  hypoparathyroidism .
@@ -87,11 +80,13 @@ If your levels of parathyroid hormone are too low, you can have low blood calciu
 cause symptoms in many parts of your body, including the bones, heart, skin, muscles, kidneys, brain 
 and nerves. For a list of symptoms of low calcium, see section 4. Natpar is a synthetic form of parathyroid hormone that helps you keep calcium and phosphate levels in 
 your blood and urine at a normal level.</p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take natpar"
+  * title = "2. What you need to know before you take natpar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take natpar"
+  * code.text = "2. What you need to know before you take natpar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Do not use Natpar</h2>
 <p>if you are allergic to parathyroid hormone or any of the other ingredients of this medicine (listed 
@@ -162,13 +157,12 @@ may affect your ability to concentrate. If your ability to concentrate is impair
 or use machines until your ability to concentrate is improved.
 Natpar contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take natpar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take natpar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. Your doctor or nurse will train you on how to use the Natpar pen.
@@ -207,12 +201,13 @@ supplements if you have signs of low blood calcium; see section 4 for symptoms.
 Do not inject a double dose to make up for a forgotten dose.
 If you stop using Natpar
 Discuss with your doctor if you want to stop treatment with Natpar.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store natpar"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store natpar"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Serious side effects
@@ -262,11 +257,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store natpar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store natpar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the cartridge and carton after EXP. 
@@ -286,4 +280,149 @@ It is common to see small bubbles. Do not use this medicine if it has become clo
 or contains visible particles.
 Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
 medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Natpar contains
+The active substance is parathyroid hormone (rDNA).
+It is available in 4 different strengths of cartridge (each cartridge contains 14 doses):
+Natpar 25 micrograms
+Each dose contains 25 micrograms parathyroid hormone in 71.4 microlitre solution following 
+reconstitution.
+Natpar 50 micrograms
+Each dose contains 50 micrograms parathyroid hormone in 71.4 microlitre solution following 
+reconstitution.
+Natpar 75 micrograms
+Each dose contains 75 micrograms parathyroid hormone in 71.4 microlitre solution following 
+reconstitution.
+Natpar 100 micrograms
+Each dose contains 100 micrograms parathyroid hormone in 71.4 microlitre solution following 
+reconstitution.
+The other ingredients in the cartridge (for all strengths) are:
+In the powder:</p>
+<p>sodium chloride</p>
+<p>mannitol</p>
+<p>citric acid monohydrate</p>
+<p>sodium hydroxide (for pH adjustment)
+In the solvent:</p>
+<p>metacresol</p>
+<p>water for injections
+What Natpar looks like and contents of the pack
+Each cartridge of Natpar contains medicine as a powder together with a solvent to make a solution for 
+injection. The cartridge is made of glass, with a rubber seal on top. The cartridge is contained in a 
+plastic cartridge holder.
+Natpar is available in a pack with 2 cartridges inside their cartridge holders.
+The carton/cartridge colour shows the strength of your Natpar medicine:
+Natpar 25 micrograms/dose
+Purple cartridge.
+Natpar 50 micrograms/dose
+Red cartridge.
+Natpar 75 micrograms/dose
+Grey cartridge.
+Natpar 100 micrograms/dose
+Blue cartridge.
+Marketing Authorisation Holder and Manufacturer
+Takeda Pharmaceuticals International AG Ireland Branch
+Block 2 Miesian Plaza
+50-58 Baggot Street Lower
+Dublin 2
+D02 HWIreland
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Takeda Belgium NV
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 medinfoEMEA@takeda.com</p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+ esk  republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 medinfoEMEA@takeda.com
+Magyarorsz g
+Takeda Pharma Kft.
+Tel.: +36 1 270 7medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com
+Malta
+Drugsales Ltd 
+Tel: +356 21419safety@drugsalesltd.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma O 
+Tel: +372 6177 medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 medinfoEMEA@takeda.com</p>
+<p>akeda    . .
+T : +30 210 6387medinfoEMEA@takeda.com
+ sterreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+Espa a
+Takeda Farmac utica Espa a, S.A.
+Tel: +34 917 90 42 medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+Tel.: +48223062medinfoEMEA@takeda.com
+France
+Takeda France SAS
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com
+Portugal
+Takeda Farmac uticos Portugal, Lda.
+Tel: + 351 21 120 1medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 medinfoEMEA@takeda.com
+Rom nia
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o.
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com
+ sland
+Vistor hf.
+S mi: +354 535 7medinfoEMEA@takeda.com
+Slovensk  republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com</p>
+<p>A.POTAMITIS MEDICARE LTD
+ : +357 22583a.potamitismedicare@cytanet.com.cy
+Sverige
+Takeda Pharma AB
+Tel: 020 795 medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com
+This leaflet was last revised in
+This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine.
+The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

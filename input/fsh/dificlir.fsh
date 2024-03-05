@@ -235,26 +235,20 @@ DAY
 6 
 7 
 8 
-9 </p>
-<ul>
-<li>200 mg </li>
-<li>200 mg </li>
-<li>200 mg </li>
-<li>200 mg </li>
-<li>
-<p>200 mg 
-DAY </p>
-</li>
-<li>
-<p>200 mg </p>
-</li>
-<li>200 mg </li>
-<li>200 mg </li>
-<li>200 mg </li>
-<li>200 mg 
+9 
+- 200 mg 
+- 200 mg 
+- 200 mg 
+- 200 mg 
+- 200 mg 
+DAY 
+- 200 mg 
+- 200 mg 
+- 200 mg 
+- 200 mg 
+- 200 mg 
 Other possible side effects are the following: 
-Uncommon side effects (may affect up to 1 in 100 people) </li>
-</ul>
+Uncommon side effects (may affect up to 1 in 100 people) </p>
 <p>decreased appetite </p>
 <p>dizziness, headache </p>
 <p>dry mouth, altered taste (dysgeusia) </p>

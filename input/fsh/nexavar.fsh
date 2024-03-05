@@ -4,7 +4,7 @@ Instance: composition-en-a79877ebbdc6a1bef13ecf627450a2db
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexavar Package Leaflet"
 Description:  "Composition for nexavar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,7 +96,7 @@ monitor your blood pressure and may give you a medicine to treat your high blood
 - If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
 tear in a blood vessel wall. 
 - If you have diabetes. Blood sugar levels in diabetic patients should be checked regularly in order 
-to assess if anti-diabetic medicine’s dosage needs to be adjusted to minimize the risk of low blood 
+to assess if anti-diabetic medicine s dosage needs to be adjusted to minimize the risk of low blood 
 sugar. 
 - If you get any bleeding problems, or are taking warfarin or phenprocoumon. Treatment with 
 Nexavar may lead to a higher risk of bleeding. If you are taking warfarin or phenprocoumon, 
@@ -133,14 +133,16 @@ Children and adolescents have not yet been tested with Nexavar.  </p>
 <p>Other medicines and Nexavar 
 Some medicines may affect Nexavar, or be affected by it. Tell your doctor or pharmacist if you are 
 taking, have recently taken or might take anything in this list or any other medicines, including 
-medicines obtained without a prescription: 
-- Rifampicin, Neomycin or other medicines used to treat infections (antibiotics) 
-- St John’s wort, a herbal treatment for depression 
-- Phenytoin, carbamazepine or phenobarbital, treatments for epilepsy and other conditions 
-- Dexamethasone, a corticosteroid used for various conditions 
-- Warfarin or phenprocoumon, anticoagulants used to prevent blood clots 
-- Doxorubicin, capecitabine, docetaxel, paclitaxel and irinotecan, which are cancer treatments 
-- Digoxin, a treatment for mild to moderate heart failure </p>
+medicines obtained without a prescription:</p>
+<ul>
+<li>Rifampicin, Neomycin or other medicines used to treat infections (antibiotics) </li>
+<li>St John s wort, a herbal treatment for depression </li>
+<li>Phenytoin, carbamazepine or phenobarbital, treatments for epilepsy and other conditions </li>
+<li>Dexamethasone, a corticosteroid used for various conditions </li>
+<li>Warfarin or phenprocoumon, anticoagulants used to prevent blood clots </li>
+<li>Doxorubicin, capecitabine, docetaxel, paclitaxel and irinotecan, which are cancer treatments </li>
+<li>Digoxin, a treatment for mild to moderate heart failure </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 Avoid becoming pregnant while being treated with Nexavar. If you could become pregnant use 
 adequate contraception during treatment. If you become pregnant while being treated with Nexavar, 
@@ -150,8 +152,8 @@ with the growth and development of your baby. </p>
 <p>Driving and using machines 
 There is no evidence that Nexavar will affect the ability to drive or to operate machines. </p>
 <p>Nexavar contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium 
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexavar"
@@ -295,7 +297,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on each blister after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store this medicine above 25°C. </p>
+<p>Do not store this medicine above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -316,7 +318,7 @@ Tablet coating: hypromellose, macrogol, titanium dioxide (E 171), ferric oxide r
 </ul>
 <p>What Nexavar looks like and contents of the pack </p>
 <p>Nexavar 200 mg faceted film-coated tablets are red and round with the Bayer cross on one side and 
-“200” on the other side. They come in calendar packs of 112 tablets: four transparent blister packs of 
+ 200  on the other side. They come in calendar packs of 112 tablets: four transparent blister packs of 
 28 tablets each. </p>
 <p>Marketing Authorisation Holder 
 Bayer AG 
@@ -329,18 +331,17 @@ Kaiser-Wilhelm-Allee
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder . </p>
-<p>België / Belgique / Belgien 
+<p>Belgi  / Belgique / Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36 България 
-Байер България ЕООД 
-Тел.: +359-(0)2-424 72 Luxembourg / Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>.: +359-(0)2-424 72 Luxembourg / Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420 266 101 Magyarország 
-Bayer Hungária KFT 
+Tel: +420 266 101 Magyarorsz g 
+Bayer Hung ria KFT 
 Tel.:+36 14 87-41 Danmark 
 Bayer A/S 
 Tlf: +45-45 23 50 Malta 
@@ -350,47 +351,46 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
 Tel: +31-(0)23-799 1Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8Norge 
 Bayer AS 
-Tlf. +47 24 11 18 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30 210 61 87 Österreich 
+Tlf. +47 24 11 18 <br />
+Bayer   <br />
+ : +30 210 61 87  sterreich 
 Bayer Austria Ges. m. b. H. 
 Tel: +43-(0)1-711 46-0 
-España 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
 Tel.: +48 22 572 35 France 
 Bayer HealthCare 
-Tél(N° vert): +33-(0)800 87 54 Portugal 
+T l(N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: + 385-(0)1-6599 România 
+Tel: + 385-(0)1-6599 Rom nia 
 SC Bayer SRL 
 Tel: +40 21 529 59 Ireland 
 Bayer Limited 
 Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel.: +386 (0)1 58 14 Ísland 
+Tel.: +386 (0)1 58 14  sland 
 Icepharma hf. 
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Bayer, spol. s r.o. 
 Tel: +421 2 59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39 02 397 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358 20 785 Κύπρος 
+Puh/Tel: +358 20 785 <br />
 NOVAGEM Limited 
-Τηλ: +357 22 48 38 Sverige 
+ : +357 22 48 38 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in  </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

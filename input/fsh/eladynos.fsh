@@ -90,10 +90,8 @@ and wrists. </p>
 * have high blood calcium levels 
 * have severely reduced kidney function 
 * have unexplained high blood levels of the enzyme alkaline phosphatase 
-* have had radiation therapy involving your bones </p>
-<ul>
-<li>have ever been diagnosed with bone cancer or other cancers that have spread to your bones </li>
-</ul>
+* have had radiation therapy involving your bones 
+* have ever been diagnosed with bone cancer or other cancers that have spread to your bones </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before or while using Eladynos if you: 
 * get dizzy when standing up, which may be because of a fall in blood pressure. Some patients may 
@@ -133,8 +131,8 @@ This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is
   * code.text = "3. How to take eladynos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
-you are not sure. </p>
-<p>The recommended dose is one injection (80 micrograms) once daily under the skin in the lower abdomen 
+you are not sure. 
+The recommended dose is one injection (80 micrograms) once daily under the skin in the lower abdomen 
 (belly). See grey shaded area of the first figure in Step 5 in the  Instructions for use  at the end of the 
 package leaflet. </p>
 <p>Preferably, inject Elyadynos at the same time each day to help you remember to use your medicine. </p>
@@ -174,8 +172,8 @@ you should be treated with Eladynos. </p>
 experience the following symptoms (severe allergic reaction): 
 swelling of the face or tongue; wheezing and trouble breathing; hives, itching and flushed skin; severe 
 vomiting or diarrhea; lightheadedness or loss of consciousness (frequency not known). These symptoms 
-may be serious and potentially life-threatening. </p>
-<p>Other side effects can occur with the following frequencies: 
+may be serious and potentially life-threatening. 
+Other side effects can occur with the following frequencies: 
 Very common (may affect more than 1 in 10 people) 
 * increase in calcium level seen in urine tests 
 * dizziness   see section 2  Warnings and Precautions  </p>
@@ -217,8 +215,8 @@ date refers to the last day of that month. </p>
 <p>Before first use, store in a refrigerator (2  C 8  C). Do not freeze. Avoid placing the pens close to the ice 
 compartment of the refrigerator to prevent freezing. Do not use Eladynos if it is, or has been, frozen. </p>
 <p>After first use, store below 25  C and discard after 30 days. </p>
-<p>Eladynos may only be stored at room temperature (below 25  C) for 30 days. </p>
-<p>Note the date of Day 1 in the space provided on the carton. Day 1 is the date of first use or the date the 
+<p>Eladynos may only be stored at room temperature (below 25  C) for 30 days. 
+Note the date of Day 1 in the space provided on the carton. Day 1 is the date of first use or the date the 
 pen was removed from the refrigerator. This is to ensure you do not use the pen for more than 
 30 consecutive days or store the pen for longer than 30 days. After 30 days, throw away your pen in 
 accordance with local requirements, even if it still contains unused medicine. </p>

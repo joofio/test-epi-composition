@@ -574,5 +574,14 @@ leaking prior to administration.
 5. Pull the needle sheath away from the needle with a straight pull. Do not twist the sheath as the 
 needle may be loosened from the syringe.
 6. Bring the syringe with the attached needle in upright position to de-aerate. De-aerate the syringe 
-by moving the plunger rod carefully forward.</p>         </div>"""      
+by moving the plunger rod carefully forward.
+7. Inject the entire contents intramuscularly slowly, deep into the selected deltoid or gluteal muscle 
+of the patient. Do not administer intravascularly or subcutaneously.
+8. After the injection is complete, use either thumb or finger of one hand (8a, 8b) or a flat surface 
+(8c) to activate the needle protection system. The system is fully activated when a  click  is 
+heard. Discard the syringe with needle appropriately.
+8a
+8b
+8c
+Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
 

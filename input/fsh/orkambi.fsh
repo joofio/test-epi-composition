@@ -298,16 +298,16 @@ serious side effects are uncommon (may affect up to 1 in 100 people).  </p>
 * Ringing in the ears</em> 
 * Redness inside the ear<em> 
 * Inner ear disorder (feeling dizzy or spinning)</em> 
-* Breast mass* </p>
-<p>Uncommon (may affect up to 1 in 100 people) 
+* Breast mass<em> 
+Uncommon (may affect up to 1 in 100 people) 
 * Abnormal periods, including the absence or infrequent menses, or more frequent or heavier 
 menstrual bleeding 
 * Increase in blood pressure 
-* Ear congestion<em> 
-* Breast inflammation</em> 
-* Enlargement of the breast in males<em> 
-* Nipple changes or pain</em> 
-*Side effects seen for ivacaftor alone. </p>
+* Ear congestion</em> 
+* Breast inflammation<em> 
+* Enlargement of the breast in males</em> 
+* Nipple changes or pain<em> 
+</em>Side effects seen for ivacaftor alone. </p>
 <p>Additional side effects in children </p>
 <p>Side effects seen in children are similar to those seen in adults and adolescents. However, increased 
 liver enzymes in the blood have been seen more frequently in younger children than in adults.  </p>
@@ -365,8 +365,7 @@ Vertex Pharmaceuticals (Ireland) Limited
 Unit 49, Block F2, Northwood Court, Santry,<br />
 Dublin 9, D09 T665,<br />
 Ireland 
-Tel: +353 (0)1 761 7 
-Manufacturer 
+Tel: +353 (0)1 761 7Manufacturer 
 Almac Pharma Services (Ireland) Limited 
 Finnabair Industrial Estate 
 Dundalk 
@@ -392,17 +391,14 @@ Suomi/Finland, Sverige, United Kingdom
 (Northern Ireland) 
 Vertex Pharmaceuticals (Ireland) Limited 
 T l/Tel/Te /Tlf/S mi/ /Puh:<br />
-+353 (0) 1 761 7 
-Espa a 
++353 (0) 1 761 7Espa a 
 Vertex Pharmaceuticals Spain, S.L. 
-Tel: + 34 91 7892 </p>
-<p>Vertex       </p>
-<p>: +30 (211) 2120 
-Italia 
+Tel: + 34 91 7892<br />
+Vertex       </p>
+<p>: +30 (211) 2120Italia 
 Vertex Pharmaceuticals 
 (Italy) S.r.l. 
-Tel: +39 0697794 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +39 0697794This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

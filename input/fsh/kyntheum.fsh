@@ -124,14 +124,7 @@ cramps and pain, diarrhoea, weight loss or blood in the stool (any signs of bowe
 Kyntheum can potentially cause serious side effects, including allergic reactions. You must look out 
 for signs of these conditions while you are taking Kyntheum. </p>
 <p>Stop using Kyntheum and tell your doctor or seek medical help immediately if you notice any signs 
-indicating an allergic reaction. Such signs are listed under  Serious side effects  in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take kyntheum"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take kyntheum"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
+indicating an allergic reaction. Such signs are listed under  Serious side effects  in section 4. Children and adolescents 
 Kyntheum is not recommended for children and adolescents (below 18 years of age) because it has not 
 been studied in this age group. </p>
 <p>Other medicines and Kyntheum 
@@ -152,13 +145,12 @@ using Kyntheum. Together you will consider the benefit of breast-feeding to the 
 of Kyntheum to you. </p>
 <p>Driving and using machines 
 Kyntheum is unlikely to affect your ability to drive and use machines. </p>
-<p>eDoc-000624731 - Version 28. 0</p>         </div>"""         
-
-        
+<p>eDoc-000624731 - Version 28. 0</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take kyntheum"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take kyntheum"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyntheum should be prescribed to you by a doctor with experience in diagnosing and treating 
 psoriasis.  </p>
@@ -197,12 +189,13 @@ double dose to make up for a forgotten dose. </p>
 <p>If you stop using Kyntheum 
 You should not stop using Kyntheum without speaking to your doctor first. If you stop treatment, 
 symptoms of psoriasis may come back.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store kyntheum"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kyntheum"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>eDoc-000624731 - Version 28. 0</p>
@@ -244,11 +237,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store kyntheum"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store kyntheum"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and label of the pre-
@@ -262,4 +254,99 @@ Kyntheum if it is not used within 14 days of storage at room temperature. </p>
 or particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kyntheum contains<br />
+- The active substance is brodalumab. Each pre-filled syringe contains 210 mg brodalumab in 
+1.5 ml solution. 
+- The other ingredients are proline, glutamate, polysorbate 20 and water for injections.  </p>
+<p>What Kyntheum looks like and contents of the pack 
+Kyntheum is a solution for injection that is a clear to slightly pearly, colourless to slightly yellow 
+liquid, with no particles.  </p>
+<p>Kyntheum is available in unit packs containing 2 pre-filled syringes and in multipacks comprising 
+3 cartons, each containing 2 pre-filled syringes. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+LEO Pharma A/S 
+Industriparken DK-2750 Ballerup 
+Denmark </p>
+<p>Manufacturer 
+Laboratoires LEO<br />
+39 route de Chartres 
+28500 Vernouillet 
+France </p>
+<p>LEO Pharma A/S 
+Industriparken DK-2750 Ballerup 
+Denmark </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+LEO Pharma N.V./S.A 
+T l/Tel: +32 3 740 7Lietuva 
+LEO Pharma A/S 
+Tel: +45 44 94 58 <br />
+LEO Pharma A/S 
+Te .: +45 44 94 58 Luxembourg/Luxemburg 
+LEO Pharma N.V./S.A 
+T l/Tel: +32 3 740 7eDoc-000624731 - Version 28. 0</p>
+<p>esk  republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 Magyarorsz g 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Danmark 
+LEO Pharma AB 
+Tlf: +45 70 22 49 Malta 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Deutschland 
+LEO Pharma GmbH 
+Tel: +49 6102 2Nederland 
+LEO Pharma B.V. 
+Tel: +31 205104Eesti 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Norge 
+LEO Pharma AS 
+Tlf: +47 22514<br />
+LEO Pharmaceutical Hellas S.A. 
+ : +30 210 68 34 sterreich 
+LEO Pharma GmbH 
+Tel: +43 1 503 6Espa a 
+Laboratorios LEO Pharma, S.A. 
+Tel: +34 93 221 3Polska 
+LEO Pharma Sp. z o.o. 
+Tel.: +48 22 244 18 France 
+Laboratoires LEO<br />
+T l: +33 1 3014 4Portugal 
+LEO Farmac uticos Lda.<br />
+Tel: +351 21 711 0Hrvatska 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Rom nia 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Ireland 
+LEO Laboratories Ltd 
+Tel: +353 (0) 1 490 8Slovenija 
+LEO Pharma A/S 
+Tel: +45 44 94 58  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 Italia 
+LEO Pharma S.p.A 
+Tel: +39 06 52625Suomi/Finland 
+LEO Pharma Oy 
+Puh/Tel: +358 20 721 8<br />
+The Star Medicines Importers Co. Ltd. 
+ : +357 2537 1Sverige 
+LEO Pharma AB 
+Tel: +46 40 3522 Latvija 
+LEO Pharma A/S 
+Tel: +45 44 94 58 United Kingdom (Northern Ireland) 
+LEO Laboratories Ltd 
+Tel: +44 (0) 1844 347This leaflet was last revised in  </p>
+<p>eDoc-000624731 - Version 28. 0</p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

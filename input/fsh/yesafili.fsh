@@ -91,8 +91,8 @@ retina and thereby causing macular oedema. </p>
 <p>Diabetic macular oedema is a swelling of the retina occurring in patients with diabetes due to leaking 
 of fluid from blood vessels within the macula. The macula is the portion of retina responsible for fine 
 vision. When the macula swells with fluid, central vision becomes blurry. </p>
-<p>Aflibercept has been shown to stop the growth of new abnormal blood vessels in the eye which often </p>
-<p>leak fluid or bleed. Aflibercept can help to stabilise, and in many cases, improve the vision loss related 
+<p>Aflibercept has been shown to stop the growth of new abnormal blood vessels in the eye which often 
+leak fluid or bleed. Aflibercept can help to stabilise, and in many cases, improve the vision loss related 
 to wet AMD, CRVO, BRVO, DME and myopic CNV. </p>         </div>"""   
           
 
@@ -148,17 +148,15 @@ within the last 6 months. If any of these apply to you, Yesafili will be given w
 - diabetics with very high average blood sugar values (HbA1c over 12%). 
 - diabetics with an eye disease caused by diabetes called proliferative diabetic retinopathy. </p>
 <p>There is no experience in the treatment of 
-- patients with acute infections. </p>
-<ul>
-<li>patients with other eye conditions such as a detachment of the retina or a hole in the macula. </li>
-<li>diabetics with uncontrolled high blood pressure. </li>
-<li>non-Asian patients with myopic CNV. </li>
-<li>patients previously treated for myopic CNV. </li>
-<li>patients with damage outside the central part of the macula (extrafoveal lesions) for myopic 
+- patients with acute infections. 
+- patients with other eye conditions such as a detachment of the retina or a hole in the macula. 
+- diabetics with uncontrolled high blood pressure. 
+- non-Asian patients with myopic CNV. 
+- patients previously treated for myopic CNV. 
+- patients with damage outside the central part of the macula (extrafoveal lesions) for myopic 
 CNV. 
 If any of the above applies to you, your doctor will consider this lack of information when treating you 
-with Yesafili. </li>
-</ul>
+with Yesafili. </p>
 <p>Children and adolescents 
 The use of aflibercept in children or adolescents under 18 has not been studied because wet AMD, 
 CRVO, BRVO, DME and myopic CNV occur mainly in adults. Therefore, its use in this age group is 
@@ -292,8 +290,8 @@ flare) </li>
 <li>swelling of the front layer of the eyeball (cornea) </li>
 </ul>
 <p>** Allergic reactions like rash, itching (pruritus), hives (urticaria), and a few cases of severe allergy 
-(anaphylactic/anaphylactoid) reactions were reported. </p>
-<p>Rare side effects (may affect up to 1 in 1 000 people):</p>
+(anaphylactic/anaphylactoid) reactions were reported. 
+Rare side effects (may affect up to 1 in 1 000 people):</p>
 <ul>
 <li>blindness </li>
 <li>clouding of the lens due to injury (traumatic cataract) </li>
@@ -340,16 +338,14 @@ environment. </li>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Yesafili contains 
 - The active substance is: aflibercept. One vial contains an extractable volume of at least 0.1 mL, 
 equivalent to at least 4 mg aflibercept. One vial delivers a dose of 2 mg aflibercept in 0.05 mL. 
-- The other ingredients are: histidine; histidine hydrochloride monohydrate; polysorbate 20<br />
-(E 432); trehalose dihydrate and water for injections. </p>
+- The other ingredients are: histidine; histidine hydrochloride monohydrate; polysorbate (E 432); trehalose dihydrate and water for injections. </p>
 <p>What Yesafili looks like and contents of the pack 
 Yesafili is a solution for injection (injection) in a vial. The solution is colourless to pale yellow.<br />
 Yesafili is supplied as packs containing 1 vial and 1 filter needle or as packs containing 1 vial, 1 filter 
 needle, 1 syringe and 1 injection needle. </p>
 <p>Marketing Authorisation Holder 
 Biosimilar Collaborations Ireland Limited 
-Unit 35/36<br />
-Grange Parade, 
+Unit 35/Grange Parade, 
 Baldoyle Industrial Estate, 
 Dublin DUBLIN 
 Ireland<br />
@@ -359,13 +355,11 @@ McDermott Laboratories Limited T/A Mylan Dublin Biologics
 Newenham Court,<br />
 Northern Cross,<br />
 Malahide Road 
-Dublin 17<br />
-Ireland </p>
+Dublin Ireland </p>
 <p>Mylan Germany GmbH 
 Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1 
 Bad Homburg v. d. Hoehe 
-Hessen, 61352<br />
-Germany </p>
+Hessen, 61Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

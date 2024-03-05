@@ -293,88 +293,64 @@ Authorisation Holder:  </p>
 Recordati bv 
 T l/Tel: +32 2 461 01 Lietuva 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 </p>
-<p>Recordati Ireland Ltd. 
-Te .: + 353 21 4379 
-Luxembourg/Luxemburg 
+Tel: + 353 21 4379<br />
+Recordati Ireland Ltd. 
+Te .: + 353 21 4379Luxembourg/Luxemburg 
 Recordati bv 
 T l/Tel: +32 2 461 01  esk  republika 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Magyarorsz g 
+Tel: + 353 21 4379Magyarorsz g 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Danmark 
+Tel: + 353 21 4379Danmark 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Malta 
+Tlf: + 353 21 4379Malta 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Deutschland 
+Tel: + 353 21 4379Deutschland 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Nederland 
+Tel: + 353 21 4379Nederland 
 Recordati bv 
-Tel: +32 2 461 01  </p>
-<p>Eesti 
+Tel: +32 2 461 01 Eesti 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Norge 
+Tel: + 353 21 4379Norge 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 </p>
-<p>. . 
- : + 30 210 8009 
- sterreich 
+Tlf: + 353 21 4379<br />
+   . . 
+ : + 30 210 8009 sterreich 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Espa a 
+Tel: + 353 21 4379Espa a 
 Almirall, S.A. 
-Tel: +34 93 291 30<br />
-Polska 
+Tel: +34 93 291 30 Polska 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-France 
+Tel: + 353 21 4379France 
 ZAMBON France 
-T l: + 33 (0)1 58 04 41<br />
-Portugal 
+T l: + 33 (0)1 58 04 41 Portugal 
 Tecnimede Sociedade 
 T cnico-Medicinal, S.A 
-Tel: +351 21 041 41<br />
-Hrvatska 
+Tel: +351 21 041 41 Hrvatska 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379Rom nia 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Ireland 
+Tel: + 353 21 4379Ireland 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Slovenija 
+Tel: + 353 21 4379Slovenija 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
- sland 
+Tel: + 353 21 4379 sland 
 Recordati Ireland Ltd. 
-S mi: + 353 21 4379 
-Slovensk  republika 
+S mi: + 353 21 4379Slovensk  republika 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Italia 
+Tel: + 353 21 4379Italia 
 Takeda Italia S.p.A. 
-Tel: +39 06 502 
-Suomi/Finland 
+Tel: +39 06 502Suomi/Finland 
 Recordati Ireland Ltd. 
-Puh/Tel: + 353 21 4379 </p>
-<p>Recordati Ireland Ltd. 
- : + 353 21 4379 
-Sverige 
+Puh/Tel: + 353 21 4379<br />
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Latvija 
+ : + 353 21 4379Sverige 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-United Kingdom (Northern Ireland) 
+Tel: + 353 21 4379Latvija 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: + 353 21 4379United Kingdom (Northern Ireland) 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

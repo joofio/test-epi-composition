@@ -154,8 +154,8 @@ influence the development of toxicities. </p>
 host disease after blood stem cell transplantion.  </p>
 <p>Pregnancy, breast-feeding and fertility<br />
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
-doctor for advice before you receive this medicine. </p>
-<p>Pregnancy 
+doctor for advice before you receive this medicine. 
+Pregnancy 
 Blood stem cell transplantation is contraindicated in pregnant woman. For the other indications, 
 treatment with melphalan is not recommended during pregnancy because it may cause permanent 
 damage to the foetus.  </p>
@@ -365,13 +365,10 @@ tel: +39 0240700e-mail: adienne@adienne.com  </p>
 NERPHARMA S.R.L.<br />
 Viale Pasteur, 20014 Nerviano (MI) 
 Italy 
-tel: +39.0331.581 
-Marketing Authorisation Holder and Manufacturer<br />
+tel: +39.0331.581Marketing Authorisation Holder and Manufacturer<br />
 ADIENNE S.r.l. S.U.<br />
-Via Galileo Galilei, 19<br />
-20867 Caponago (MB) Italy<br />
-Tel: +39 02 40700445<br />
-adienne@adienne.com </p>
+Via Galileo Galilei, 20867 Caponago (MB) Italy<br />
+Tel: +39 02 40700adienne@adienne.com </p>
 <p>This leaflet was last revised in month YYYY. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

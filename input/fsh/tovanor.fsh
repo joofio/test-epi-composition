@@ -144,8 +144,8 @@ Do not use more than your doctor tells you to use. </p>
 You can use this medicine if you are aged 75 years and over at the same dose as for other adults. </p>
 <p>When to inhale Tovanor Breezhaler 
 Use this medicine at the same time each day. This will also help you to remember to use it. </p>
-<p>You can inhale this medicine anytime before or after food or drink. </p>
-<p>How to inhale Tovanor Breezhaler 
+<p>You can inhale this medicine anytime before or after food or drink. 
+How to inhale Tovanor Breezhaler 
 - In this pack, you will find an inhaler and capsules (in blisters) that contain the medicine as 
 inhalation powder. Only use the capsules with the inhaler provided in this pack (Tovanor 
 Breezhaler inhaler). The capsules should remain in the blister until you need to use them. 
@@ -195,8 +195,8 @@ If you get any of these side effects, tell your doctor immediately. </p>
 <p>Difficulty sleeping </p>
 <p>Runny or stuffy nose, sneezing, sore throat </p>
 <p>Diarrhoea or stomach ache </p>
-<p>Musculoskeletal pain </p>
-<p>Some side effects are uncommon 
+<p>Musculoskeletal pain 
+Some side effects are uncommon 
 (may affect up to 1 in 100 people) </p>
 <p>Difficulty and pain when passing urine </p>
 <p>Painful and frequent urination </p>
@@ -285,24 +285,19 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
-Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16  </p>
-<p>Novartis Bulgaria EOOD 
- .: +359 2 489 98<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
- esk  republika 
+T l/Tel: +32 2 246 16  esk  republika 
 Novartis s.r.o. 
-Tel: +420 225 775<br />
-Magyarorsz g 
+Tel: +420 225 775 Magyarorsz g 
 Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
-Tlf: +45 39 16 84<br />
-Malta 
+Tlf: +45 39 16 84 Malta 
 Novartis Pharma Services Inc. 
 Tel: +356 2122 2Deutschland 
 Novartis Pharma GmbH 
@@ -311,8 +306,7 @@ Tel: +49 911 273 0 </p>
 Novartis Pharma B.V. 
 Tel: +31 88 04 52 Eesti 
 SIA Novartis Baltics Eesti filiaal 
-Tel: +372 66 30<br />
-Norge 
+Tel: +372 66 30 Norge 
 Novartis Norge AS 
 Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
@@ -323,50 +317,38 @@ INNOVIS PHARMA <br />
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Laboratorios Gebro Pharma, S.A. 
-Tel: +34 93 205 86<br />
-Polska 
+Tel: +34 93 205 86 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-T l: +33 1 55 47 66<br />
-Portugal 
+T l: +33 1 55 47 66 Portugal 
 Laborat rio Medinfar - Produtos Farmac uticos, 
 S.A. 
-Tel: +351 21 499 7 
-Hrvatska 
+Tel: +351 21 499 7Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-Rom nia 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
-Tel: +353 1 260 12<br />
-Slovenija 
+Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
 Tel: +386 1 300 75  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
-Tel: +421 2 5542 5 
-Italia 
+Tel: +421 2 5542 5Italia 
 Alfasigma S.p.A. 
-Tel: +39 06 91 39 4 
-Suomi/Finland 
+Tel: +39 06 91 39 4Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133  </p>
-<p>Novartis Pharma Services Inc. 
- : +357 22 690<br />
-Sverige 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
 Novartis Sverige AB 
-Tel: +46 8 732 32<br />
-Latvija 
+Tel: +46 8 732 32 Latvija 
 SIA Novartis Baltics 
-Tel: +371 67 887<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu 

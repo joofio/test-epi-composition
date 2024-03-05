@@ -74,7 +74,10 @@ elsewhere in the body). It can be used in adults and in adolescents 12 years of 
 <p>Opdualag contains two active substances: nivolumab and relatlimab. Both active substances are 
 monoclonal antibodies, proteins designed to recognise and attach to a specific target substance in the 
 body. Nivolumab attaches to a target protein called PD 1. Relatlimab attaches to a target protein called 
-LAG-</p>         </div>"""   
+LAG-3. PD 1 and LAG-3 can switch off the activity of T cells (a type of white blood cell that forms part of the 
+immune system, the body s natural defences). By attaching to the two proteins, nivolumab and 
+relatlimab block their actions and prevent them from switching off your T cells. This helps increase 
+the T cell activity against the melanoma cancer cells. </p>         </div>"""   
           
 
              
@@ -82,16 +85,6 @@ LAG-</p>         </div>"""
   * title = "2. What you need to know before you take opdualag"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take opdualag"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PD 1 and LAG-3 can switch off the activity of T cells (a type of white blood cell that forms part of the 
-immune system, the body s natural defences). By attaching to the two proteins, nivolumab and 
-relatlimab block their actions and prevent them from switching off your T cells. This helps increase 
-the T cell activity against the melanoma cancer cells. </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take opdualag"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take opdualag"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not be given Opdualag 
 * if you are allergic to nivolumab, relatlimab or any of the other ingredients of this medicine 
@@ -171,13 +164,12 @@ performing these activities until you are sure that Opdualag does not adversely 
 <p>Patient card 
 You will also find key messages from this package leaflet on the patient card you have been given by 
 your doctor. It is important that you keep this patient card at all times and show it to your partner or 
-caregivers. </p>         </div>"""         
-
-        
+caregivers. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take opdualag"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take opdualag"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How much Opdualag is given 
 The recommended dose by infusion in adults and adolescents 12 years of age and older is 480 mg 
@@ -199,12 +191,13 @@ appointment, ask your doctor when to schedule your next dose. </p>
 <p>If you stop using Opdualag 
 Stopping your treatment may stop the effect of the medicine. Do not stop treatment with Opdualag 
 unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store opdualag"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store opdualag"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Your 
 doctor will discuss these with you and will explain the risks and benefits of your treatment. </p>
@@ -299,21 +292,145 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store opdualag"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store opdualag"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opdualag will be given to you in a hospital or clinic and the healthcare professionals will be 
 responsible for its storage. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2  C - 8  C). </p>
-<p>Do not freeze. 
+<p>Store in a refrigerator (2  C - 8  C). 
+Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. 
 The unopened vial can be stored at controlled room temperature (up to 25  C) for up to 72 hours. </p>
 <p>Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste 
 material should be disposed of in accordance with local requirements. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Opdualag contains 
+* The active substances are nivolumab and relatlimab. 
+Each mL of concentrate for solution for infusion contains 12 mg of nivolumab and 4 mg of 
+relatlimab. 
+One vial of 20 mL concentrate contains 240 mg nivolumab and 80 mg relatlimab. </p>
+<ul>
+<li>The other ingredients are histidine, histidine hydrochloride monohydrate, sucrose, pentetic acid, 
+polysorbate 80 (E433) and water for injections. </li>
+</ul>
+<p>What Opdualag looks like and contents of the pack 
+Opdualag concentrate for solution for infusion (sterile concentrate) is a clear to opalescent, colourless 
+to slightly yellow liquid that is essentially free of particles. 
+It is available in cartons containing one glass vial. </p>
+<p>Marketing Authorisation Holder 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>Manufacturer 
+Swords Laboratories Unlimited Company t/a Bristol-Myers Squibb Cruiserath Biologics 
+Cruiserath Road, Mulhuddart 
+Dublin 15, D15 H6EF 
+Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing<br />
+Authorisation Holder: </p>
+<p>Belgique/Belgi /Belgien 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+T l/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: + 370 52 369medinfo.lithuania@swixxbiopharma.com </p>
+<p>Swixx Biopharma EOOD 
+Te .: + 359 2 4942 medinfo.bulgaria@swixxbiopharma.com </p>
+<p>Luxembourg/Luxemburg 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+T l/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>esk  republika 
+Bristol-Myers Squibb spol. s r.o. 
+Tel: + 420 221 016 medinfo.czech@bms.com </p>
+<p>Magyarorsz g 
+Bristol-Myers Squibb Kft. 
+Tel.: + 36 1 301 9Medinfo.hungary@bms.com </p>
+<p>Danmark 
+Bristol-Myers Squibb Denmark 
+Tlf: + 45 45 93 05 medinfo.denmark@bms.com </p>
+<p>Malta 
+A.M. Mangion Ltd 
+Tel: + 356 23976pv@ammangion.com </p>
+<p>Deutschland 
+Bristol-Myers Squibb GmbH &amp; Co. KGaA 
+Tel: 0800 0752002 (+ 49 89 121 42 350) 
+medwiss.info@bms.com </p>
+<p>Nederland 
+Bristol-Myers Squibb B.V. 
+Tel: + 31 (0)30 300 2medischeafdeling@bms.com </p>
+<p>Eesti 
+Swixx Biopharma O<br />
+Tel: + 372 640 1medinfo.estonia@swixxbiopharma.com </p>
+<p>Norge 
+Bristol-Myers Squibb Norway Ltd. 
+Tlf: + 47 67 55 53 medinfo.norway@bms.com </p>
+<p>Bristol-Myers Squibb A.E. 
+ : + 30 210 6074medinfo.greece@bms.com </p>
+<p>sterreich 
+Bristol-Myers Squibb GesmbH 
+Tel: + 43 1 60 14 medinfo.austria@bms.com </p>
+<p>Espa a 
+Bristol-Myers Squibb, S.A. 
+Tel: + 34 91 456 53 informacion.medica@bms.com </p>
+<p>Polska 
+Bristol-Myers Squibb Polska Sp. z o.o. 
+Tel.: + 48 22 2606informacja.medyczna@bms.com </p>
+<p>France 
+Bristol-Myers Squibb SAS 
+T l: + 33 (0)1 58 83 84 infomed@bms.com </p>
+<p>Portugal 
+Bristol-Myers Squibb Farmac utica Portuguesa, 
+S.A. 
+Tel: + 351 21 440 70 portugal.medinfo@bms.com </p>
+<p>Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: + 385 1 2078 medinfo.croatia@swixxbiopharma.com </p>
+<p>Rom nia 
+Bristol-Myers Squibb Marketing Services S.R.L. 
+Tel: + 40 (0)21 272 16 medinfo.romania@bms.com </p>
+<p>Ireland 
+Bristol-Myers Squibb Pharmaceuticals uc 
+Tel: 1 800 749 749 (+ 353 (0)1 483 3625) 
+medical.information@bms.com </p>
+<p>Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: + 386 1 2355 medinfo.slovenia@swixxbiopharma.com </p>
+<p>sland 
+Vistor hf. 
+S mi: + 354 535 7vistor@vistor.is 
+medical.information@bms.com </p>
+<p>Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel: + 421 2 20833 medinfo.slovakia@swixxbiopharma.com<br />
+Italia 
+Bristol-Myers Squibb S.r.l. 
+Tel: + 39 06 50 39 medicalinformation.italia@bms.com </p>
+<p>Suomi/Finland 
+Oy Bristol-Myers Squibb (Finland) Ab 
+Puh/Tel: + 358 9 251 21 medinfo.finland@bms.com </p>
+<p>Bristol-Myers Squibb A.E. 
+ :  800 92666 (+ 30 210 6074300) 
+medinfo.greece@bms.com </p>
+<p>Sverige 
+Bristol-Myers Squibb Aktiebolag 
+Tel: + 46 8 704 71 medinfo.sweden@bms.com </p>
+<p>Latvija 
+Swixx Biopharma SIA 
+Tel: + 371 66164medinfo.latvia@swixxbiopharma.com </p>
+<p>United Kingdom (Northern Ireland) 
+Bristol-Myers Squibb Pharmaceutical Limited 
+Tel: +44 (0)800 731 1medical.information@bms.com </p>
+<p>This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

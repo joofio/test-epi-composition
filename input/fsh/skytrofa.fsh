@@ -4,7 +4,7 @@ Instance: composition-en-274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: CompositionUvEpi
 Title: "Composition for skytrofa Package Leaflet"
 Description:  "Composition for skytrofa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -199,7 +199,7 @@ before or 2 days after the scheduled dosing day. There should be at least 5 days
 injection, on the old day and the first dose on the new day. After selecting a new dosing day, continue 
 giving yourself the injection on that day each week. Ask your doctor if you are not sure how to do this. </p>
 <p>Preparation and administration 
-Read “Instructions for use” at the end of this leaflet before you start using this medicine.  </p>
+Read  Instructions for use  at the end of this leaflet before you start using this medicine.  </p>
 <p>Skytrofa comes in a two-chamber cartridge containing both medicine (powder) and a solvent (liquid). 
 It is to be used with the needles supplied. To give injections, you also need a Skytrofa Auto-Injector. 
 The Skytrofa Auto-Injector is supplied separately.  </p>
@@ -272,11 +272,11 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. Store in the original package in order to protect from 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. Store in the original package in order to protect from 
 light. </p>
 <p>Skytrofa may be taken out of the refrigerator for a maximum period of 6 months and stored at 
-temperatures up to 30°C. During these 6 months this medicine can be returned to refrigeration 
-(2°C - 8°C). Record on the carton the date Skytrofa is first removed from the refrigerator. Discard this 
+temperatures up to 30 C. During these 6 months this medicine can be returned to refrigeration 
+(2 C - 8 C). Record on the carton the date Skytrofa is first removed from the refrigerator. Discard this 
 medicine 6 months after the date this medicine was first stored outside the refrigerator. </p>
 <p>The powder is white to off-white, and the solvent is a clear colourless solution. </p>
 <p>The mixed solution is colourless and clear. The solution may occasionally contain air bubbles, these 
@@ -356,5 +356,41 @@ Cartridge two-colour label
 Light Apricot 
 3 mg<br />
 Yellow/green 
-Cyan </p>         </div>"""      
+Cyan 
+3.6 mg<br />
+Yellow/cyan 
+Dark grey 
+4.3 mg<br />
+Yellow/pink 
+Yellow 
+5.2 mg<br />
+Green/pink 
+Orange 
+6.3 mg<br />
+Cyan/yellow 
+Dark purple 
+7.6 mg<br />
+Cyan/pink 
+Golden brown 
+9.1 mg 
+Pink/yellow 
+Dark blue 
+11 mg 
+Pink/green 
+Dark red 
+13.3 mg<br />
+Pink/cyan </p>
+<p>Skytrofa is designed for use with the injection needles supplied and the Skytrofa Auto-Injector. The 
+Skytrofa Auto-Injector is not included in this pack and is supplied separately. The instructions for use 
+for the Skytrofa Auto-Injector comes with your Skytrofa Auto-Injector box.  </p>
+<p>Marketing Authorisation Holder </p>
+<p>Ascendis Pharma Endocrinology Division A/S 
+Tuborg Boulevard DK-2900 Hellerup 
+Denmark </p>
+<p>Manufacturer 
+Ascendis Pharma A/S 
+Tuborg Boulevard DK-2900 Hellerup 
+Denmark </p>
+<p>This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

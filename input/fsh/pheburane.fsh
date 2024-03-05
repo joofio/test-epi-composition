@@ -96,8 +96,8 @@ Talk to your doctor or pharmacist before taking PHEBURANE if you: </p>
 <p>suffer from congestive heart failure (a type of heart disease where the heart cannot pump 
 enough blood around the body) or a decrease in your kidney function. </p>
 <p>have decreased kidney or liver function, since PHEBURANE is eliminated from the body 
-through the kidney and liver. </p>
-<p>PHEBURANE will not prevent the occurrence of an acute excess of ammonia in the blood, a 
+through the kidney and liver. 
+PHEBURANE will not prevent the occurrence of an acute excess of ammonia in the blood, a 
 condition which usually constitutes a medical emergency. If this happens you will develop 
 symptoms such as feeling sick (nausea), being sick (vomiting), confusion and will need to get 
 urgent medical help. </p>
@@ -185,8 +185,8 @@ Patients who have taken very high doses of sodium phenylbutyrate experienced: </
 <p>worsening of existing neurological conditions. </p>
 <p>If you experience any of these symptoms, you should immediately contact your doctor or the 
 nearest hospital emergency department for supportive treatment. </p>
-<p>If you forget to take PHEBURANE </p>
-<p>You should take a dose as soon as possible with your next meal. Make sure that there are at least 
+<p>If you forget to take PHEBURANE 
+You should take a dose as soon as possible with your next meal. Make sure that there are at least 
 3 hours between two doses. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -240,5 +240,111 @@ to throw away medicines you no longer use. These measures will help protect the 
 The active substance is sodium phenylbutyrate. 
 Each gram of granules contains 483 mg of sodium phenylbutyrate. 
 The other ingredients are: sugar spheres (sucrose and maize starch, see section 2  PHEBURANE 
-contains sucrose), hypromellose, ethylcellulose N7, macrogol 1500, povidone K2</p>         </div>"""      
+contains sucrose), hypromellose, ethylcellulose N7, macrogol 1500, povidone K25. What PHEBURANE looks like and contents of the pack 
+PHEBURANE granules are white to off-white. </p>
+<p>The granules are packaged in a plastic bottle with child-resistant closure and a dessicant.<br />
+Each bottle contains 174g of granules. </p>
+<p>Each carton contains 1 bottle. </p>
+<p>A calibrating measuring spoon is provided. </p>
+<p>Marketing Authorisation Holder<br />
+Eurocept International BV 
+Trapgans 5 
+1244 RL Ankeveen 
+The Netherlands </p>
+<p>Manufacturer 
+Eurocept International BV 
+Trapgans 5 
+1244 RL Ankeveen 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the 
+Marketing Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Lucane Pharma 
+T l/Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Lietuva<br />
+FrostPharma AB 
+Tel: +46 775 86 80 info@lucanepharma.com </p>
+<p>Lucane Pharma 
+Te .: + 33 153 868 info@lucanepharma.com </p>
+<p>Luxembourg/Luxemburg 
+Lucane Pharma 
+T l/Tel: + 33 153 868 info@lucanepharma.com 
+ esk  republika 
+Lucane Pharma 
+T l/Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Magyarorsz g 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Danmark 
+FrostPharma AB 
+Tlf: +45 808 20 info@frostpharma.com </p>
+<p>Malta 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Deutschland 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Nederland 
+Lucane Pharma (Eurocept International BV) 
+Tel: +31 35 528 39 info@euroceptpharma.com 
+Eesti 
+FrostPharma AB 
+Tel: +46 775 86 80 info@frostpharma.com 
+Norge 
+FrostPharma AB 
+Tlf: +47 815 03 info@frostpharma.com </p>
+<p>Lucane Pharma 
+ : + 33 153 868 info@lucanepharma.com </p>
+<p>sterreich 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Espa a 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Polska 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+France 
+Lucane Pharma 
+T l: + 33 153 868 info@lucanepharma.com </p>
+<p>Portugal 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Hrvatska 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Rom nia 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Ireland 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Slovenija 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+ sland 
+Lucane Pharma 
+S mi: + 33 153 868 info@lucanepharma.com </p>
+<p>Slovensk  republika 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Italia 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Suomi/Finland 
+FrostPharma AB 
+Puh/Tel: +35 875 32 51 info@frostpharma.com </p>
+<p>Lucane Pharma 
+ : + 33 153 868 info@lucanepharma.com </p>
+<p>Sverige 
+FrostPharma AB<br />
+Tel: +46 775 86 80 info@medicalneed.com 
+Latvija 
+FrostPharma AB 
+Tel: +46 775 86 80 info@frostpharma.com 
+United Kingdom (Northern Ireland) 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>This leaflet was last revised in:  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

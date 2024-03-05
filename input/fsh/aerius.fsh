@@ -307,8 +307,7 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-T l: +33 (0) 1 57 77 32<br />
-Portugal 
+T l: +33 (0) 1 57 77 32 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
 Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
@@ -326,14 +325,12 @@ Ljubljana
 Tel: +386 1 300 10 dpoc.slovenia@organon.com  </p>
 <p>sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
 <p>Italia 
 Organon Italia S.r.l. 
-Tel: +39 06 90259059<br />
-dpoc.italy@organon.com </p>
+Tel: +39 06 90259dpoc.italy@organon.com </p>
 <p>Suomi/Finland 
 Organon Finland Oy 
 Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
@@ -349,7 +346,7 @@ Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
 Organon Pharma (UK) Limited 
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em> </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt; </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. 
 Package leaflet: Information for the patient  </p>
@@ -362,5 +359,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

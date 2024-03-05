@@ -98,8 +98,8 @@ reduce any weight loss effect.  </p>
 elimination of undigested fat in your faeces. The possibility of this happening may increase if Xenical 
 is taken with a diet high in fat. In addition your daily intake of fat should be distributed evenly over 
 three main meals because if Xenical is taken with a meal very high in fat, the possibility of 
-gastrointestinal effects may increase. </p>
-<p>The use of an additional contraceptive method is recommended to prevent possible failure of oral 
+gastrointestinal effects may increase. 
+The use of an additional contraceptive method is recommended to prevent possible failure of oral 
 contraception that could occur in case of severe diarrhoea. </p>
 <p>The use of orlistat may be associated with renal stones in patients suffering from chronic kidney 
 disease. Inform your doctor whether you suffer from problems with your kidney. </p>
@@ -200,8 +200,8 @@ if you continue treatment and keep to your recommended diet. </p>
 <p>Very common side effects (affects more than 1 user in 10) </p>
 <p>Headache, abdominal pain/discomfort, urgent or increased need to open the bowels, flatulence (wind)<br />
 with discharge, oily discharge, oily or fatty stools, liquid stools, low blood sugar levels (experienced 
-by some people with type 2 diabetes). </p>
-<p>Common side effects (affects 1 to 10 users in 100) </p>
+by some people with type 2 diabetes). 
+Common side effects (affects 1 to 10 users in 100) </p>
 <p>Rectal pain/discomfort, soft stools, incontinence (stools), bloating (experienced by some people with<br />
 type 2 diabetes), tooth/gum disorder, irregularity of menstrual cycle, tiredness. </p>
 <p>The following side effects have also been reported but their frequency cannot be estimated from the 
@@ -270,6 +270,6 @@ Germany </p>
 <p>CHEPLAPHARM Arzneimittel GmbH 
 Ziegelhof 23-17489 Greifswald 
 Germany  </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt; &lt;{month YYYY}</em>. </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

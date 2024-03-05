@@ -282,7 +282,7 @@ in their blood. Almost all patients have to be treated with iron supplements dur
 NeoRecormon therapy. 
 * Rarely (may affect up to 1 in 1,000 people), allergies or skin reactions, such as rash or 
 hives, itching or reactions around the injection site have occurred.<br />
-* Very rarely (may affect up to 1 in 10,000 people) a severe form of allergic reaction has 
+<em> Very rarely (may affect up to 1 in 10,000 people) a severe form of allergic reaction has 
 occurred, especially just after an injection. It needs to be treated at once. If you get unusual 
 wheezing or difficulty breathing; swollen tongue, face or throat, or swelling around the 
 injection site; if you feel light-headed or faint or if you collapse, call your doctor at once. 
@@ -295,14 +295,7 @@ been reported in association with epoetin treatment. These can appear as reddish
 macules or circular patches often with central blisters on the trunk, skin peeling, ulcers of 
 mouth, throat, nose, genitals and eyes and can be preceded by fever and flu-like symptoms. 
 Stop using NeoRecormon if you develop these symptoms and contact your doctor or seek 
-medical attention immediately. See also section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store neorecormon"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store neorecormon"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Additional side effects in people with chronic kidney disease (renal anaemia) 
+medical attention immediately. See also section 2. Additional side effects in people with chronic kidney disease (renal anaemia) 
 * Increase in blood pressure, worsening of existing high blood pressure and headaches are 
 the most common side effects (very common may affect more than 1 in 10 people). Your 
 doctor will regularly check your blood pressure, particularly at the beginning of therapy. Your 
@@ -314,9 +307,9 @@ may be signs of severely elevated blood pressure (hypertensive crisis), even if 
 pressure is usually normal or low. It needs to be treated at once. 
 * If you have low blood pressure or shunt complications, you may be at risk of shunt 
 thrombosis (a blood clot in the vessel used for connection to the dialysis system).<br />
-<em> Very rarely (may affect up to 1 in 10,000 people), patients have had rising levels of 
+</em> Very rarely (may affect up to 1 in 10,000 people), patients have had rising levels of 
 potassium or phosphates in the blood. This can be treated by your doctor.<br />
-</em> Pure red cell aplasia (PRCA) caused by neutralising antibodies has been observed 
+* Pure red cell aplasia (PRCA) caused by neutralising antibodies has been observed 
 during erythropoietin therapy, including in isolated cases during therapy with 
 NeoRecormon. PRCA means that the body stopped or reduced the production of red blood 
 cells. This causes severe anaemia, symptoms of which would include unusual tiredness and a 
@@ -334,11 +327,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store neorecormon"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store neorecormon"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -351,4 +343,113 @@ period of maximum 3 days (but not above 25 C). </li>
 how to dispose of medicines no longer required. These measures will help protect the 
 environment. </li>
 </ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NeoRecormon contains </p>
+<ul>
+<li>The active substance is epoetin beta. One pre-filled syringe contains either 500, 2000, 3000, 
+4000, 5000, 6000, 10,000, 20,000 or 30,000 IU (international units) epoetin beta in 0.3 ml or 
+0.6 ml solution. </li>
+<li>The other ingredients are: 
+urea, sodium chloride, polysorbate 20, sodium dihydrogen phosphate dihydrate, disodium 
+phosphate dodecahydrate, calcium chloride dihydrate, glycine, L-Leucine, L-Isoleucine, 
+L-Threonine, L-Glutamic acid, and L-Phenylalanine and water for injections (see section 2 
+ NeoRecormon contains phenylalanine and sodium ). </li>
+</ul>
+<p>What NeoRecormon looks like and contents of the pack </p>
+<p>NeoRecormon is a solution in a pre-filled syringe for injection 
+The solution is colourless, clear to slightly opalescent. </p>
+<p>NeoRecormon 500 IU, 2000 IU, 3000 IU, 4000 IU, 5000 IU and 6000 IU: Each pre-filled syringe 
+contains 0.3 ml solution. 
+NeoRecormon 10,000 IU, 20,000 IU and 30,000 IU: Each pre-filled syringe contains 0.6 ml solution. </p>
+<p>NeoRecormon is provided in the following pack-sizes: </p>
+<p>NeoRecormon 500 IU 
+1 pre-filled syringe with 1 needle (30G1/2) or 
+6 pre-filled syringes with 6 needles (30G1/2). </p>
+<p>NeoRecormon 2000 IU, 3000 IU, 4000 IU, 5000 IU, 6000 IU, 10,000 IU and 20,000 IU 
+1 pre-filled syringe with 1 needle (27G1/2) or 
+6 pre-filled syringes with 6 needles (27G1/2). </p>
+<p>NeoRecormon 30,000 IU 
+1 pre-filled syringe with 1 needle (27G1/2) or 
+4 pre-filled syringes with 4 needles (27G1/2). </p>
+<p>Not all pack sizes may be marketed. 
+Marketing Authorisation Holder 
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer 
+Roche Pharma AG 
+Emil-Barell-Strasse 1 
+D-79639 Grenzach-Wyhlen 
+Germany  </p>
+<p>For any information about this medicinal product, please contact the local representative of the 
+Marketing Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o 
+Tel: +385 1 4722 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt; </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

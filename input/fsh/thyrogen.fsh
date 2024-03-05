@@ -221,8 +221,8 @@ reporting side effects you can help provide more information on the safety of th
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after  EXP . The expiry date refers to 
 the last day of that month. </p>
-<p>Store in a refrigerator (2 C - 8 C). </p>
-<p>Keep the vial in the outer carton in order to protect from light. </p>
+<p>Store in a refrigerator (2 C - 8 C). 
+Keep the vial in the outer carton in order to protect from light. </p>
 <p>It is recommended that the Thyrogen solution be injected within three hours after reconstitution. 
 The reconstituted solution can be stored for up to 24 hours in a refrigerator (2 C - 8 C) under protection from 
 light, while avoiding microbial contamination. </p>
@@ -251,5 +251,83 @@ Sodium phosphate dibasic, heptahydrate
 Sodium chloride. </p>
 </li>
 </ul>
-<p>Thyrogen contains sodium, see section </p>         </div>"""      
+<p>Thyrogen contains sodium, see section 2. What Thyrogen looks like and contents of the pack </p>
+<p>Powder for solution for injection. White to off-white lyophilised powder. </p>
+<p>Pack sizes: one or two vials of Thyrogen per carton.<br />
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: 
+Sanofi B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+The Netherlands </p>
+<p>Manufacturer:<br />
+Genzyme Ireland Limited 
+IDA Industrial Park 
+Old Kilmeaden Road 
+Waterford 
+Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing Authorisation 
+Holder:  </p>
+<p>Belgi /Belgique/Belgien/ 
+Luxembourg/Luxemburg 
+Sanofi Belgium 
+T l/Tel: + 32 (0)2 710 54 Magyarorsz g 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0<br />
+Swixx Biopharma EOOD 
+T : +359 (0)2 4942 Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 esk  republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086 Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Danmark 
+Sanofi A/S<br />
+Tlf: +45 45 16 70 Norge 
+sanofi-aventis Norge AS 
+Tlf: + 47 67 10 71 Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel: aus dem Ausland:+ 49 69 305 21  sterreich 
+sanofi-aventis GmbH 
+Tel: + 43 1 80 185 - 0 
+Eesti 
+Swixx Biopharma O<br />
+Tel. +372 640 10 Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00 <br />
+Sanofi-Aventis   AEBE 
+ : +30 210 900 16 Portugal 
+Sanofi   Produtos Farmac uticos, Lda. 
+Tel: +351 21 35 89 Espa a 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94 Rom nia 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31 France 
+Sanofi Winthrop Industrie 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51 Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel.:  +421 2 208 33  sland 
+Vistor hf. 
+S mi: +354 535 7Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: + 358 (0) 201 200 Italia 
+Sanofi S.r.l. 
+Tel: 800536<br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50 Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2Lietuva 
+Swixx Biopharma UAB 
+Tel. +370 5 236 91 This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

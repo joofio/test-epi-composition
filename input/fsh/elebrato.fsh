@@ -190,8 +190,8 @@ your quick-acting inhaler more often: </p>
 If you accidentally use too much of this medicine, contact your doctor or pharmacist for advice 
 immediately as you may need medical attention. If possible, show them the inhaler, the package or this 
 leaflet. You may notice that your heart is beating faster than usual, you feel shaky, you have visual 
-disturbances, have a dry mouth, or have a headache. </p>
-<p>If you forget to use Elebrato Ellipta<br />
+disturbances, have a dry mouth, or have a headache. 
+If you forget to use Elebrato Ellipta<br />
 Do not inhale a double dose to make up for a forgotten dose. Just inhale your next dose at the usual time. 
 If you become wheezy or breathless, use your quick-acting inhaler (such as salbutamol), then seek medical 
 advice.  </p>
@@ -240,15 +240,15 @@ mouth out with water immediately after using Elebrato Ellipta may help prevent t
 </em> cough 
 * painful and frequent urination (may be signs of a urinary tract infection) 
 * joint pain<br />
-* back pain 
-* constipation. </p>
-<p>Uncommon (may affect up to 1 in 100 people)<br />
-<em> irregular heart beat 
+<em> back pain 
+* constipation. 
+Uncommon (may affect up to 1 in 100 people)<br />
+</em> irregular heart beat 
 * faster heart beat 
 * hoarseness 
 * weakening of the bones, leading to fractures 
 * dry mouth<br />
-</em> taste disturbance 
+* taste disturbance 
 * blurred vision 
 * increased eye pressure 
 * eye pain. </p>
@@ -293,8 +293,8 @@ away medicines you no longer use. These measures will help protect the environme
 The active substances are fluticasone furoate, umeclidinium bromide and vilanterol. </p>
 <p>Each single inhalation provides a delivered dose (the dose leaving the mouthpiece) of 92 micrograms of 
 fluticasone furoate, 65 micrograms umeclidinium bromide equivalent to 55 micrograms umeclidinium and 
-22 micrograms of vilanterol (as trifenatate). </p>
-<p>The other ingredients are lactose monohydrate (see section 2 under  Elebrato Ellipta contains lactose ) and 
+22 micrograms of vilanterol (as trifenatate). 
+The other ingredients are lactose monohydrate (see section 2 under  Elebrato Ellipta contains lactose ) and 
 magnesium stearate. </p>
 <p>What Elebrato Ellipta looks like and contents of the pack 
 Elebrato Ellipta is an inhalation powder, pre-dispensed. 
@@ -319,8 +319,7 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-T l/Tel: + 32 (0) 10 85 52<br />
-Lietuva 
+T l/Tel: + 32 (0) 10 85 52 Lietuva 
 UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: + 370 52 691 lt@berlin-chemie.com </p>
 <ul>
@@ -331,8 +330,7 @@ Te .: + 359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 52  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
 <p>Magyarorsz g 
@@ -343,20 +341,18 @@ GlaxoSmithKline Pharma A/S
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: + 356 80065 
-Deutschland 
+Tel: + 356 80065Deutschland 
 Berlin-Chemie AG 
 Tel: +49 (0) 30 67Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 </p>
-<p>Eesti 
+Tel: + 31 (0)33 2081Eesti 
 O  Berlin-Chemie Menarini Eesti<br />
 Tel: + 372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>Guidotti Hellas A.E. 
- : + 30 210 8316111-  sterreich 
+Tlf: + 47 22 70 20 <br />
+Guidotti Hellas A.E. 
+ : + 30 210 8316111- sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
@@ -365,11 +361,9 @@ FAES FARMA, S.A.
 Tel: + 34 900 460 aweber@faes.es 
 Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 </p>
-<p>France 
+Tel.: + 48 (0)22 576 9France 
 Menarini France 
-T l: + 33 (0)1 45 60 77  </p>
-<p>Portugal 
+T l: + 33 (0)1 45 60 77 Portugal 
 BIAL, Portela &amp; Ca. SA. 
 Tel: + 351 22 986 61 info@bial.com </p>
 <p>Hrvatska 
@@ -377,18 +371,15 @@ Berlin-Chemie Menarini Hrvatska d.o.o.
 Tel: + 385 1 4821 office-croatia@berlin-chemie.com </p>
 <p>Rom nia 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: + 40 800672 
-Ireland 
+Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: + 386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland 
 Vistor hf. 
-S mi:  +354 535 7 
-Slovensk  republika 
+S mi:  +354 535 7Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
@@ -396,10 +387,9 @@ Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
 A. Menarini Industrie Farmaceutiche Riunite s.r.l. 
 Tel: +39 (0)55 56Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Trading Services Limited 
- : + 357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Trading Services Limited 
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
@@ -409,6 +399,6 @@ United Kingdom (Northern Ireland)
 GlaxoSmithKline Trading Services Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in .  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

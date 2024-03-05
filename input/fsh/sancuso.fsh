@@ -326,8 +326,7 @@ Kyowa Kirin Holdings B.V.
 Bloemlaan 2 
 2132NP Hoofddorp 
 The Netherlands<br />
-Tel: +31 (0) 237200 
-Manufacturer 
+Tel: +31 (0) 237200Manufacturer 
 Pharbil Waltrop GmbH (a subsidiary of NextPharma) 
 Im Wirrigen 45731 Waltrop 
 Germany </p>

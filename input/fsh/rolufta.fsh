@@ -282,8 +282,7 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals 
 s.a./n.v. 
-T l/Tel: + 32 (0) 10 85 52<br />
-Lietuva 
+T l/Tel: + 32 (0) 10 85 52 Lietuva 
 UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: +370 52 691 lt@berlin-chemie.com </p>
 <ul>
@@ -293,8 +292,7 @@ Te .: +359 2 454 0bcsofia@berlin-chemie.com
 Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 52  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g 
@@ -308,20 +306,17 @@ Tlf: + 45 36 35 91 dk-info@gsk.com </li>
 GlaxoSmithKline Trading Services Limited 
 Tel: +356 80065Deutschland 
 BERLIN-CHEMIE AG 
-Tel: +49 (0) 30 67 
-Nederland 
+Tel: +49 (0) 30 67Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti 
+Tel: + 31 (0)33 2081Eesti 
 O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline <br />
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline <br />
 A.E.B.E. 
- : + 30 210 68 82<br />
- sterreich 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
@@ -345,28 +340,24 @@ GlaxoSmithKline Trading Services Limited
 Tel: +40 800672Ireland 
 Slovenija </p>
 <p>GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Berlin-Chemie / A. Menarini Distribution 
+Tel: + 353 (0)1 4955Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution Slovakia 
 s.r.o. 
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
 <p>Italia 
 A. Menarini Industrie Farmaceutiche 
 Riunite s.r.l.<br />
-Tel: +39-055 56 
-Suomi/Finland 
+Tel: +39-055 56Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Trading 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Trading 
 ServicesLimited 
- : +357 80070 
-Sverige 
+ : +357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 

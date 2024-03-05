@@ -282,5 +282,90 @@ sodium). </p>
 <p>What Bexsero looks like and contents of the pack </p>
 <p>Bexsero is a white opalescent suspension. 
 Bexsero is available in 1-dose pre-filled syringe with or without separate needles, pack sizes 
-of 1 and 1</p>         </div>"""      
+of 1 and 10. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder: </p>
+<p>GSK Vaccines S.r.l. 
+Via Fiorentina 1 
+53100 Siena 
+Italy. </p>
+<p>Manufacturer: </p>
+<p>GSK Vaccines S.r.l. 
+Bellaria-Rosia 
+53018 Sovicille (Siena) 
+Italy. </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52 Lietuva 
+GSK Vaccines S.r.l. 
+Tel: +370 80000<br />
+GSK Vaccines S.r.l. 
+ . +359 80018Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52  esk  republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 2 22 00 11 cz.info@gsk.com  </p>
+<p>Magyarorsz g 
+GSK Vaccines S.r.l. 
+Tel.: +36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GSK Vaccines S.r.l. 
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: +49 (0)89 36044 8de.impfservice@gsk.com<br />
+Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081Eesti 
+GSK Vaccines S.r.l. 
+Tel: +372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E 
+T : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>Espa a 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9France 
+Laboratoire GlaxoSmithKline 
+T l: + 33 (0) 1 39 17 84 diam@gsk.com<br />
+Portugal 
+GlaxoSmithKline - Produtos Farmac uticos, 
+Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Hrvatska 
+GSK Vaccines S.r.l. 
+Tel.: +385 800787Rom nia 
+GSK Vaccines S.r.l. 
+Tel: +40 800672Ireland 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5Slovenija 
+GSK Vaccines S.r.l. 
+Tel: +386 80688 sland 
+Vistor hf.<br />
+S mi: +354 535 7Slovensk  republika 
+GSK Vaccines S.r.l. 
+Tel.: +421 800500Italia 
+GlaxoSmithKline S.p.A. 
+Tel: +39 (0)45 7741 Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30 <br />
+GSK Vaccines S.r.l. 
+ : +357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com  </p>
+<p>Latvija 
+GSK Vaccines S.r.l. 
+Tel: +371 80205United Kingdom (Northern Ireland) 
+GSK Vaccines S.r.l. 
+Tel: +44(0)800 221customercontactuk@gsk.com </p>
+<p>This leaflet was last revised in {MM/YYYY} </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

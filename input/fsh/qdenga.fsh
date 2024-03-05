@@ -271,5 +271,113 @@ chloride, water for injections. </p>
 Qdenga is a powder and solvent for solution for injection. Qdenga is provided as a powder in a single-
 dose vial and a solvent in a single-dose vial. 
 The powder and the solvent must be mixed together before use. </p>
-<p>Qdenga powder and solvent for solution for injection is available in packs of 1 or 1</p>         </div>"""      
+<p>Qdenga powder and solvent for solution for injection is available in packs of 1 or 10. Not all pack sizes might be marketed. </p>
+<p>The powder is a white to off-white coloured compact cake. 
+The solvent (0.22% sodium chloride solution) is a clear, colourless liquid. 
+After reconstitution, Qdenga is a clear, colourless to pale yellow solution, essentially free of foreign 
+particulates. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder 
+Takeda GmbH<br />
+Byk-Gulden-Str. 2 
+78467 Konstanz 
+Germany </p>
+<p>Manufacturer 
+Takeda GmbH 
+Production site Singen 
+Robert-Bosch-Str. 8 
+78224 Singen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com 
+Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>esk  republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarorsz g 
+Takeda Pharma Kft. 
+Tel: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+TAKEDA HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com  </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0) 800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: 800 800 medinfoEMEA@takeda.com </p>
+<p>TAKEDA    . . 
+ : +30 210 6387medinfoEMEA@takeda.com  </p>
+<p>sterreich 
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com  </p>
+<p>Polska 
+Takeda Pharma sp. z o.o. 
+Tel: +48 22 306 24 medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+T l: +33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda.<br />
+Tel: +351 21 120 1medinfoEMEA@takeda.com 
+Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd.<br />
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba 
+d.o.o. 
+Tel: +386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel:  0800 774 medinfoEMEA@takeda.com </p>
+<p>TAKEDA    . . 
+ : +30 210 6387medinfoEMEA@takeda.com  </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com 
+Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in month YYYY. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

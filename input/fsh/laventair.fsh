@@ -303,8 +303,7 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-T l/Tel: + 32 (0) 10 85 52  </p>
-<p>Lietuva<br />
+T l/Tel: + 32 (0) 10 85 52 Lietuva<br />
 UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: +370 52 691 lt@berlin-chemie.com </p>
 <ul>
@@ -315,8 +314,7 @@ Te .: +359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika<br />
+T l/Tel: + 32 (0) 10 85 52  esk  republika<br />
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g<br />
@@ -327,34 +325,29 @@ GlaxoSmithKline Pharma A/S
 Tlf: + 45 36 35 91 dk-info@gsk.com 
 Malta<br />
 GlaxoSmithKline (Ireland) Limited<br />
-Tel: +356 80065 </p>
-<p>Deutschland<br />
+Tel: +356 80065Deutschland<br />
 BERLIN-CHEMIE AG 
-Tel.: + 49 (0) 30 67 
-Nederland<br />
+Tel.: + 49 (0) 30 67Nederland<br />
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti<br />
+Tel: + 31 (0)33 2081Eesti<br />
 O  Berlin-Chemie Menarini Eesti<br />
 Tel: +372 667 5ee@berlin-chemie.com 
 Norge<br />
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>Guidotti Hellas A.E. 
- : + 30 210 8316111-  sterreich<br />
+Tlf: + 47 22 70 20  <br />
+Guidotti Hellas A.E. 
+ : + 30 210 8316111- sterreich<br />
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
-at.info@gsk.com </p>
-<p>Espa a<br />
+at.info@gsk.com 
+Espa a<br />
 FAES FARMA, S.A. 
 Tel: + 34 900 460 aweber@faes.es 
 Polska<br />
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 </p>
-<p>France<br />
+Tel.: + 48 (0)22 576 9France<br />
 MENARINI France 
-T l: + 33 (0)1 45 60 77<br />
-Portugal<br />
+T l: + 33 (0)1 45 60 77 Portugal<br />
 BIAL, Portela &amp; Ca. SA. 
 Tel: + 351 22 986 61 info@bial.com </p>
 <p>Hrvatska 
@@ -364,27 +357,23 @@ Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +40 800672Ireland<br />
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 </p>
-<p>Slovenija<br />
+Tel: + 353 (0)1 4955Slovenija<br />
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland<br />
 Vistor hf. 
-S mi: + 354 535 7 </p>
-<p>Slovensk  republika<br />
+S mi: + 354 535 7Slovensk  republika<br />
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o.<br />
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
 <p>Italia<br />
 A. Menarini Industrie Farmaceutiche Riunite s.r.l. 
-Tel: +39 (0)55 56 
-Suomi/Finland<br />
+Tel: +39 (0)55 56Suomi/Finland<br />
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline (Ireland) Limited<br />
- : +357 80070 
-Sverige<br />
+Puh/Tel: + 358 (0)10 30 30  <br />
+GlaxoSmithKline (Ireland) Limited<br />
+ : +357 80070Sverige<br />
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija<br />

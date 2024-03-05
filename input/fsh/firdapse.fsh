@@ -254,16 +254,14 @@ containing 10 tablets.
 One box contains 100 tablets comprising 10 strips with 10 tablets each. </p>
 <p>Marketing Authorisation Holder 
 SERB S.A.<br />
-Avenue Louise 480 <br />
-1050 Bruxelles 
+Avenue Louise 1050 Bruxelles 
 Belgium </p>
 <p>Manufacturers 
 EXCELLA GmbH &amp; Co KG 
 N rnberger Strasse 90537 Feucht<br />
 Germany </p>
 <p>SERB S.A.<br />
-Avenue Louise 480 <br />
-1050 Bruxelles 
+Avenue Louise 1050 Bruxelles 
 Belgium  </p>
 <p>This leaflet was last revised in  </p>
 <p>This medicine has been authorised under  Exceptional Circumstances . This means that because of the 

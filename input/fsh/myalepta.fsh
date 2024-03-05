@@ -410,8 +410,7 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
-Lietuva 
+T l/Tel: + 32 (0)2 788 42 Lietuva 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +370 661 663 pv.global@exceedorphan.com </p>
@@ -420,20 +419,17 @@ Bucharova 2657/12, Prague 5, 158 Czech republic
 Te .: +359 888 918 pv.global@exceedorphan.com  </p>
 <p>Luxembourg/Luxemburg 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
- esk  republika 
+T l/Tel: + 32 (0)2 788 42  esk  republika 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +420 724 321 pv.global@exceedorphan.com<br />
 Magyarorsz g 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
-Tel.: +36 20 399 4269<br />
-pv.global@exceedorphan.com </p>
+Tel.: +36 20 399 4pv.global@exceedorphan.com </p>
 <p>Danmark 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35<br />
-Malta 
+Tlf: + 46 8 753 35 Malta 
 Amryt Pharmaceuticals DAC 
 Tel: +44 1604 549medinfo@amrytpharma.com </p>
 <p>Deutschland 
@@ -441,34 +437,28 @@ Chiesi GmbH<br />
 Tel: + 49 40 89724-0 </p>
 <p>Nederland 
 Chiesi Pharmaceuticals B.V.<br />
-Tel: + 31 88 501 64<br />
-Eesti 
+Tel: + 31 88 501 64 Eesti 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +370 661 663 pv.global@exceedorphan.com<br />
 Norge 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35  </p>
-<p>Amryt Pharmaceuticals DAC 
-T : +800 44 474447<br />
-T : +44 1604 549medinfo@amrytpharma.com </p>
+Tlf: + 46 8 753 35 <br />
+Amryt Pharmaceuticals DAC 
+T : +800 44 474T : +44 1604 549medinfo@amrytpharma.com </p>
 <p>sterreich 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Espa a 
+Tel: + 43 1 4073Espa a 
 Chiesi Espa a, S.A.U.<br />
-Tel: + 34 93 494 8 
-Polska 
+Tel: + 34 93 494 8Polska 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +48 502 188 pv.global@exceedorphan.com </p>
 <p>France 
 Chiesi S.A.S.<br />
-T l: + 33 1 47688 
-Portugal 
+T l: + 33 1 47688Portugal 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2  </p>
-<p>Hrvatska 
+Tel: + 39 0521 2Hrvatska 
 ExCEEd Orphan Distribution d.o.o. 
 Savska cesta 32, Zagreb, 100 Croatia<br />
 Tel: +385 99 320 0pv.global@exceedorphan.com 
@@ -478,8 +468,7 @@ Bucharova 2657/12, Prague 5, 158 Czech republic
 Tel: +40 744 366 pv.global@exceedorphan.com </p>
 <p>Ireland 
 Chiesi Farmaceutici S.p.A. <br />
-Tel: + 39 0521 2 
-Slovenija 
+Tel: + 39 0521 2Slovenija 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +386 30 210 pv.global@exceedorphan.comy </p>
@@ -491,24 +480,20 @@ Bucharova 2657/12, Prague 5, 158 Czech republic
 Tel: +420 608 076 pv.global@exceedorphan.com </p>
 <p>Italia 
 Chiesi Italia S.p.A.<br />
-Tel: + 39 0521 2 
-Suomi/Finland 
+Tel: + 39 0521 2Suomi/Finland 
 Chiesi Pharma AB<br />
-Puh/Tel: +46 8 753 35  </p>
-<p>Amryt Pharmaceuticals DAC 
-T : +800 44 474447<br />
-T : +44 1604 549medinfo@amrytpharma.com </p>
+Puh/Tel: +46 8 753 35 <br />
+Amryt Pharmaceuticals DAC 
+T : +800 44 474T : +44 1604 549medinfo@amrytpharma.com </p>
 <p>Sverige 
 Chiesi Pharma AB<br />
-Tel: +46 8 753 35  </p>
-<p>Latvija 
+Tel: +46 8 753 35 Latvija 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +370 661 663 pv.global@exceedorphan.com </p>
 <p>United Kingdom (Northern Ireland) 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 
-This leaflet was last revised in  </p>
+Tel: + 39 0521 2This leaflet was last revised in  </p>
 <p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 

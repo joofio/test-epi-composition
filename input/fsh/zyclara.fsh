@@ -176,21 +176,16 @@ Maximum daily dose is 2 sachets (500 mg = 2 sachets of 250 mg each).
 This medicine should not be applied to areas larger than either the full face or balding scalp.  </p>
 <p>Method of administration </p>
 <ol>
-<li>Before going to bed, wash your hands and the 
+<li>
+<p>Before going to bed, wash your hands and the 
 treatment area carefully with mild soap and water. Dry hands 
-thoroughly and allow the area to dry. </li>
-</ol>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Open a new sachet of Zyclara just before use and 
+thoroughly and allow the area to dry. </p>
+</li>
+<li>
+<p>Open a new sachet of Zyclara just before use and 
 squeeze some cream onto your fingertip. No more than 2 
 sachets should be used per application. </p>
-<ol>
+</li>
 <li>
 <p>Apply a thin layer of Zyclara to the affected area. Rub 
 gently into the area until the cream vanishes. Avoid contact 
@@ -224,12 +219,13 @@ schedule. The cream should not be applied more than once daily. Each treatment c
 longer than two weeks, even if you have missed doses. </p>
 <p>If you stop using Zyclara </p>
 <p>Talk to your doctor before you stop treatment with Zyclara. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store zyclara"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zyclara"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Seek medical attention right away if any of these severe side effects occur when using this medicine: </p>
@@ -310,11 +306,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store zyclara"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store zyclara"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and the label after 
@@ -324,4 +319,127 @@ Do not store above 25  C. </p>
 <p>Sachets should not be re-used once opened. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zyclara contains 
+- The active substance is imiquimod. Each sachet contains 9.375 mg of imiquimod in 250 mg 
+cream (100 mg of cream contains 3.75 mg imiquimod). 
+- The other ingredients are isostearic acid, benzyl alcohol, cetyl alcohol, stearyl alcohol, white soft 
+paraffin, polysorbate 60, sorbitan stearate, glycerol, methyl parahydroxybenzoate (E 218), 
+propyl parahydroxybenzoate (E 216), xanthan gum, purified water (see also section 2  Zyclara 
+contains methyl parahydroxybenzoate, propyl parahydroxybenzoate, cetyl alcohol, stearyl 
+alcohol and benzyl alcohol ). </p>
+<p>What Zyclara looks like and contents of the pack </p>
+<ul>
+<li>Each Zyclara 3.75% cream sachet contains 250 mg of a white to slightly yellow cream with a 
+uniform appearance. </li>
+<li>Each box contains 14, 28 or 56 single-use polyester/ white low density polyethylene/aluminium 
+foil sachets. Not all pack sizes may be marketed. </li>
+</ul>
+<p>Marketing Authorisation Holder 
+Viatris Healthcare Limited 
+Damastown Industrial Park 
+Mulhuddart 
+Dublin DUBLIN 
+Ireland </p>
+<p>Manufacturer  </p>
+<p>Swiss Caps GmbH 
+Grassingerstra e 9 
+83043 Bad Aibling 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Mylan EPD bvba/sprl 
+Terhulpsesteenweg, 6A 
+B-1560 Hoeilaart 
+T l/Tel: +32 2 658 61 Luxembourg/Luxemburg 
+Mylan EPD bvba/sprl<br />
+Terhulpsesteenweg, 6A 
+B-1560 Hoeilaart 
+T l/Tel: +32 2 658 61   </p>
+<p>.: +359 2 44 55 Magyarorsz g 
+Mylan EPD Kft. 
+1138 Budapest 
+V ci  t Tel: +36 1 465 2 esk  republika 
+Viatris CZ s.r.o. 
+Tel: +420 222 004 Malta 
+V.J. Salomone Pharma Limited<br />
+Upper Cross Road 
+Marsa, MRS 1Tel: +356 21 22 01 Danmark 
+Viatris ApS 
+Borupvang 1 
+2750 Ballerup 
+Tlf: +45 28 11 69 Nederland 
+Mylan Healthcare B.V. 
+Krijgsman 1186 DM Amstelveen 
+Tel: +31 (0)20 426 3Deutschland 
+Viatris Healthcare GmbH 
+L tticher Stra e 5 
+53842 Troisdorf 
+Tel: +49 800 0700 Norge 
+Viatris AS<br />
+Hagal kkveien 1383 Asker 
+Tlf: +47 66 75 33 Eesti 
+Meda Pharma SIA 
+Liivalaia 13/11018 Tallinn 
+Tel: +372 62 61  sterreich 
+Mylan  sterreich GmbH 
+Guglgasse 1110 Wien 
+Tel: + 43 (0)1 86 390 0 </p>
+<p>Viatris Hellas Ltd : +30 210 010 0Polska 
+Mylan Healthcare Sp. z o.o. 
+ul. Post pu 21B 
+02-676 Warszawa 
+Tel: +48 22 546 6Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: +34 900 102 Portugal 
+Viatris Healthcare, Lda. 
+Av. D. Jo o II,<br />
+Edif cio Atlantis, n  44C   7.3 e 7.4 
+1990-095 Lisboa 
+Tel: +351 214 127 France 
+Viatris M dical 
+1 bis place de la D fense   Tour Trinity 
+92400 Courbevoie 
+T l: +33 (0)1 40 80 15 Rom nia 
+BGP PRODUCTS SRL 
+Tel.: +40 372 579 Hrvatska 
+Viatris Hrvatska d.o.o. 
+Koranska 2 
+10 000  Zagreb 
+Tel: +385 1 2350 Slovenija 
+Viatris d.o.o. 
+Tel: +386 1 23 63 Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199  sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Viatris Oy 
+Vaisalantie 2-8/Vaisalav gen 2-8 
+02130 Espoo/Esbo 
+Puh/Tel: +358 20 720 9Italia 
+Mylan Italia 
+Via Vittor Pisani, 20124 Milano 
+Tel: +39 0261246Sverige 
+Viatris AB 
+Box 23104 35 Stockholm 
++46 (0) 8 630 19   </p>
+<p>.      K 2234,  , <br />
+ .: +357 22207United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711Latvija 
+Meda Pharma SIA 
+101 M kusalas str. 
+R ga LV 1T lr: +371 67616Lietuva 
+Meda Pharma SIA 
+ algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in (MM/YYYY). </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

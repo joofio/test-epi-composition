@@ -356,7 +356,7 @@ Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu
-<em>------------------------------------------------------------------------------------------------------------------------</em>
+&lt;------------------------------------------------------------------------------------------------------------------------&gt;
 The following information is intended for healthcare professionals only:
 Recarbrio is supplied as a dry powder in a single-dose vial that must be constituted and further diluted
 using aseptic technique prior to intravenous infusion as outlined below:</p>

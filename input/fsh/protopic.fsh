@@ -149,17 +149,15 @@ dermatitis), or irritation to the eyes and mucous membranes. </p>         </div>
   * code.text = "3. How to take protopic"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
-you are not sure.  </p>
-<ul>
-<li>Apply Protopic as a thin layer to affected areas of your skin. </li>
-<li>Protopic may be used on most parts of the body, including the face and neck and in the creases 
-of your elbows and knees. </li>
-<li>Avoid using the ointment inside your nose or mouth or in your eyes. If the ointment gets on any 
-of these areas, it should be thoroughly wiped off and/or rinsed off with water. </li>
-<li>Do not cover the skin being treated with bandages or wraps. </li>
-<li>Wash your hands after applying Protopic unless your hands are also being treated. </li>
-<li>Before applying Protopic after a bath or shower, be sure your skin is completely dry. </li>
-</ul>
+you are not sure.<br />
+* Apply Protopic as a thin layer to affected areas of your skin. 
+* Protopic may be used on most parts of the body, including the face and neck and in the creases 
+of your elbows and knees. 
+* Avoid using the ointment inside your nose or mouth or in your eyes. If the ointment gets on any 
+of these areas, it should be thoroughly wiped off and/or rinsed off with water. 
+* Do not cover the skin being treated with bandages or wraps. 
+* Wash your hands after applying Protopic unless your hands are also being treated. 
+* Before applying Protopic after a bath or shower, be sure your skin is completely dry. </p>
 <p>Children (2 years of age and older) 
 Apply Protopic 0.03 % ointment twice a day for up to three weeks, once in the morning and once in 
 the evening. Afterwards the ointment should be used once a day on each affected region of the skin 
@@ -262,95 +260,69 @@ County Kerry
 Ireland </p>
 <p>LEO Laboratories Ltd. 
 285 Cashel Road 
-Crumlin, Dublin 12<br />
-Ireland </p>
+Crumlin, Dublin Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 LEO Pharma N.V./S.A 
-T l/Tel: +32 3 740 7 
-Lietuva 
+T l/Tel: +32 3 740 7Lietuva 
 LEO Pharma A/S 
-Tel: +45 44 94 58  </p>
-<p>LEO Pharma A/S 
-Te .: +45 44 94 58<br />
-Luxembourg/Luxemburg 
+Tel: +45 44 94 58 <br />
+LEO Pharma A/S 
+Te .: +45 44 94 58 Luxembourg/Luxemburg 
 LEO Pharma N.V./S.A 
-T l/Tel: +32 3 740 7 
- esk  republika 
+T l/Tel: +32 3 740 7 esk  republika 
 LEO Pharma s.r.o. 
-Tel: +420 734 575 982  </p>
-<p>Magyarorsz g 
+Tel: +420 734 575 Magyarorsz g 
 LEO Pharma A/S 
-Tel: +45 44 94 58<br />
-Danmark 
+Tel: +45 44 94 58 Danmark 
 LEO Pharma AB 
-Tlf: +45 70 22 49 11  </p>
-<p>Malta 
+Tlf: +45 70 22 49 Malta 
 LEO Pharma A/S 
-Tel: +45 44 94 58<br />
-Deutschland 
+Tel: +45 44 94 58 Deutschland 
 LEO Pharma GmbH 
-Tel: +49 6102 2 
-Nederland 
+Tel: +49 6102 2Nederland 
 LEO Pharma B.V. <br />
-Tel: +31 205104 
-Eesti<br />
+Tel: +31 205104Eesti<br />
 LEO Pharma A/S 
 Tel: +45 44 94 58 Norge 
 LEO Pharma AS 
-Tlf: +47 22514 </p>
-<p>LEO Pharmaceutical Hellas S.A. 
- : +30 210 68 34 
- sterreich 
+Tlf: +47 22514<br />
+LEO Pharmaceutical Hellas S.A. 
+ : +30 210 68 34 sterreich 
 LEO Pharma GmbH 
-Tel: +43 1 503 6 
-Espa a 
+Tel: +43 1 503 6Espa a 
 Laboratorios LEO Pharma, S.A. 
-Tel: +34 93 221 3 
-Polska 
+Tel: +34 93 221 3Polska 
 LEO Pharma Sp. z o.o. 
-Tel: +48 22 244 18<br />
-France 
+Tel: +48 22 244 18 France 
 Laboratoires LEO 
-T l: +33 1 3014 40<br />
-Portugal 
+T l: +33 1 3014 40 Portugal 
 LEO Farmac uticos Lda.<br />
-Tel: +351 21 711 0 
-Hrvatska 
+Tel: +351 21 711 0Hrvatska 
 LEO Pharma A/S                                                            <br />
-Tel: +45 44 94 58<br />
-Rom nia 
+Tel: +45 44 94 58 Rom nia 
 LEO Pharma A/S<br />
-Tel: +45 44 94 58<br />
-Ireland 
+Tel: +45 44 94 58 Ireland 
 LEO Laboratories Ltd 
-Tel: +353 (0) 1 490 8 
-Slovenija 
+Tel: +353 (0) 1 490 8Slovenija 
 LEO Pharma A/S 
-Tel: +45 44 94 58<br />
- sland 
+Tel: +45 44 94 58  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 LEO Pharma s.r.o. 
-Tel: +420 734 575 <br />
-Italia 
+Tel: +420 734 575 Italia 
 LEO Pharma S.p.A.<br />
-Tel: +39 06 52625 
-Suomi/Finland 
+Tel: +39 06 52625Suomi/Finland 
 LEO Pharma Oy 
-Puh./Tel: +358 20 721 8 </p>
-<p>The Star Medicines Importers Co. Ltd. 
- : +357 2537 1056  </p>
-<p>Sverige 
+Puh./Tel: +358 20 721 8<br />
+The Star Medicines Importers Co. Ltd. 
+ : +357 2537 1Sverige 
 LEO Pharma AB 
-Tel: +46 40 3522 00  </p>
-<p>Latvija 
+Tel: +46 40 3522 Latvija 
 LEO Pharma A/S 
 Tel: +45 44 94 58 United Kingdom (Northern Ireland) 
 LEO Laboratories Ltd 
-Tel: +44 (0) 1844 347 </p>
-<p>This leaflet was last revised in. </p>
+Tel: +44 (0) 1844 347This leaflet was last revised in. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -411,5 +411,5 @@ important information for you.
 - If you have any further questions, ask your doctor or your pharmacist.
 - This vaccine has been prescribed for you or your child only. Do not pass it on to others.
 - If you get any of the side effects talk to your doctor of pharmacist. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

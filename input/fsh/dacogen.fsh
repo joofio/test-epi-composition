@@ -101,8 +101,7 @@ Talk to your doctor, pharmacist or nurse before using Dacogen if you have</p>
 <p>a heart disorder.
 If you are not sure if any of the above applies to you, talk to your doctor, pharmacist or nurse before 
 using Dacogen.
-Dacogen can cause a serious immune reaction called  differentiation syndrome  (see section 4 
- Possible side effects ).
+Dacogen can cause a serious immune reaction called  differentiation syndrome  (see section 4. Possible side effects ).
 Tests or checks
 You will have blood tests before you start treatment with Dacogen and at the start of each treatment 
 cycle. These tests are to check that:</p>
@@ -110,14 +109,7 @@ cycle. These tests are to check that:</p>
 <p>your liver and kidneys are working properly.
 Talk to your doctor about what your blood test results mean.
 Children and adolescents
-Dacogen is not for use in children or adolescents under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take dacogen"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take dacogen"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Dacogen
+Dacogen is not for use in children or adolescents under the age of 18. Other medicines and Dacogen
 Tell your doctor, nurse or pharmacist if you are using, have recently used or might use any other 
 medicines. This includes medicines obtained without a prescription and herbal medicines. This is 
 because Dacogen can affect the way some other medicines work. Also, some other medicines can 
@@ -148,13 +140,12 @@ contains less than 1 mmol (39 mg) of potassium per dose, i.e. essentially  potas
 <p>This medicine contains 0.29 mmol (6.67 mg) sodium (main component of cooking/table salt) in 
 each vial. After preparing the medicine, it contains between 13.8 mg-138 mg sodium per dose, 
 equivalent to 0.7-7% of the recommended maximum daily dietary intake of sodium for an adult.
-Talk to your doctor if you are on a low salt diet.</p>         </div>"""         
-
-        
+Talk to your doctor if you are on a low salt diet.</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take dacogen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take dacogen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dacogen will be given to you by a doctor or nurse who is trained in giving this type of medicine.
 How much to use</p>
@@ -174,12 +165,13 @@ This medicine will be given by your doctor or nurse. In the unlikely event that 
 If you forget your appointment to have Dacogen
 If you miss an appointment, make another one as soon as possible. This is because for this medicine to 
 be as effective as possible, it is important to follow the dosing schedule.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store dacogen"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store dacogen"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects may happen with this medicine.
@@ -238,11 +230,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store dacogen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store dacogen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor, nurse or pharmacist is responsible for storing Dacogen.</p>
 <p>Keep this medicine out of the sight and reach of children.</p>
@@ -254,4 +245,92 @@ infusion fluids. This prepared diluted solution can be stored refrigerated at 2 
 maximum of 3 hours, followed by up to 1 hour at room temperature (20 C - 25 C) before 
 administration.</p>
 <p>Your doctor, nurse or pharmacist is responsible for disposing of any unused Dacogen correctly.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Dacogen contains</p>
+<p>The active substance is decitabine. Each vial of powder contains 50 mg decitabine. After 
+reconstitution with 10 ml of water for injections, each ml of concentrate contains 5 mg of 
+decitabine.</p>
+<p>The other ingredients are potassium dihydrogen phosphate (E340), sodium hydroxide(E524), 
+and hydrochloric acid (for pH-adjustment). See section 2. What Dacogen looks like and contents of the pack
+Dacogen is a white to almost white powder for concentrate for solution for infusion. It is supplied in a
+20 ml glass vial containing 50 mg decitabine. Each pack contains 1 vial.
+Marketing Authorisation Holder
+Janssen-Cilag International NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+Manufacturer
+Janssen Pharmaceutica NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Janssen-Cilag NV
+Tel/T l: +32 14 64 94 Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68<br />
+  &amp;    <br />
+ .: +359 2 489 94 Luxembourg/Luxemburg
+Janssen-Cilag NV
+T l/Tel: +32 14 64 94  esk  republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 Magyarorsz g
+Janssen-Cilag Kft.
+Tel: +36 1 884 2Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8Malta
+AM MANGION LTD.
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65<br />
+Janssen-Cilag    . . . .
+T : +30 210 80 90  sterreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 Espa a
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel: +48 22 237 60 France
+Janssen-Cilag
+T l: 0 800 25 50 75 / +33 1 55 00 40 Portugal
+Janssen-Cilag Farmac utica, Lda.
+Tel: +351 214 368 Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18  sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7Slovensk  republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 Italia
+Janssen-Cilag SpA
+Tel: 800.688.77 / +39 02 2510 1
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531  </p>
+<p>: +357 22 207 Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 This leaflet was last revised in MM/YYYY
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -201,8 +201,7 @@ Immeuble  Le Wilson<br />
 70, avenue du G n ral de Gaulle 
 F-92800 Puteaux 
 France 
-Tel: + 33 1 4773 6Fax: + 33 1 4900 1 
-Manufacturer 
+Tel: + 33 1 4773 6Fax: + 33 1 4900 1Manufacturer 
 Recordati Rare Diseases 
 Immeuble  Le Wilson<br />
 70, Avenue du G n ral de Gaulle 
@@ -251,8 +250,7 @@ Norge
 Recordati AB. 
 Tlf : +46 8 545 80 Sverige  </p>
 <p>Recordati Hellas 
- : +30 210 6773 
- sterreich 
+ : +30 210 6773 sterreich 
 Recordati Rare Diseases Germany GmbH 
 Tel: +49 731 140 554 0 
 Deutschland </p>
@@ -263,11 +261,9 @@ Recordati Rare Diseases
 Tel: +33 (0)1 47 73 64 Francja  </p>
 <p>France 
 Recordati Rare Diseases 
-T l: +33 (0)1 47 73 64<br />
-Portugal 
+T l: +33 (0)1 47 73 64 Portugal 
 Jaba Recordati S.A. 
-Tel: +351 21 432 95<br />
-Hrvatska 
+Tel: +351 21 432 95 Hrvatska 
 Recordati Rare Diseases 
 T l: +33 (0)1 47 73 64 Francuska </p>
 <p>Rom nia 
@@ -287,8 +283,7 @@ Recordati Rare Diseases
 Tel: +33 (0)1 47 73 64 Franc zsko  </p>
 <p>Italia 
 Recordati Rare Diseases Italy Srl 
-Tel: +39 02 487 87<br />
-Suomi/Finland 
+Tel: +39 02 487 87 Suomi/Finland 
 Recordati AB. 
 Puh/Tel : +46 8 545 80 Sverige </p>
 <p>Recordati Rare Diseases 
@@ -300,7 +295,6 @@ Recordati AB.
 Tel: + 46 8 545 80 Zviedrija </p>
 <p>United Kingdom (Northern Ireland) 
 Recordati Rare Diseases UK Ltd. 
-Tel: +44 (0)1491 414 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 (0)1491 414This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -98,8 +98,8 @@ develop an infection or any complications after the injection. You should contac
 doctor/ophthalmologist immediately if you develop any of the eye symptoms described in section 4, 
 after an injection of Jetrea. </p>
 <p>You will not be given Jetrea into both eyes at the same time.  </p>
-<p>You will not be given Jetrea more than once into the same eye. </p>
-<p>Tell your doctor/ophthalmologist if you have or have had any eye conditions or eye treatments. Your 
+<p>You will not be given Jetrea more than once into the same eye. 
+Tell your doctor/ophthalmologist if you have or have had any eye conditions or eye treatments. Your 
 doctor/ophthalmologist will decide if treatment with Jetrea is right for you. </p>
 <p>Children and adolescents 
 There is no relevant use of Jetrea in children and adolescents below 18 years old. The use of Jetrea is 
@@ -149,12 +149,10 @@ treatment. This is generally reversible and will usually disappear without treat
 - Symptoms such as eye pain, worsening eye redness, severely blurred or decreased vision, 
 increased sensitivity to light or increased number of dark floating spots in the field of vision 
 (floaters) are also seen in up to 1 in 10 patients and may be the signs of an infection, bleeding, 
-separation or tear of the retina or an increase in the pressure inside the treated eye.  </p>
-<ul>
-<li>Symptoms such as fluctuation of vision, double vision, headache, halos around light, nausea and 
+separation or tear of the retina or an increase in the pressure inside the treated eye.<br />
+- Symptoms such as fluctuation of vision, double vision, headache, halos around light, nausea and 
 vomiting have been reported in up to 1 in 100 patients and may be the signs of a displacement or 
-wobbling of the lens in the eye from its normal position.  </li>
-</ul>
+wobbling of the lens in the eye from its normal position.  </p>
 <p>Talk to your doctor/ophthalmologist if you develop any of the additional side effects listed below: </p>
 <p>Very common side effects (may affect more than 1 in 10 patients):</p>
 <ul>

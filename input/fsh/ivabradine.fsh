@@ -53,13 +53,14 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
-1. What Ivabradine Anpharm is and what it is used for 
-2. What you need to know before you take Ivabradine Anpharm 
-3. How to take Ivabradine Anpharm 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+1. What Ivabradine Accord is and what it is used for 
+2. What you need to know before you take Ivabradine Accord 
+3. How to take Ivabradine Accord 
 4. Possible side effects 
-5. How to store Ivabradine Anpharm 
-6. Contents of the pack and other information          </div>"""   
+5. How to store Ivabradine Accord 
+6. Contents of the pack and other information 
+         </div>"""   
           
 
 * section[=].section[+]
@@ -67,24 +68,24 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What ivabradine is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ivabradine Anpharm (ivabradine) is a heart medicine used to treat:</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ivabradine Accord  is a heart medicine used to treat:</p>
 <ul>
-<li>Symptomatic stable angina pectoris (which causes chest pain) in adult patients whose heart rate is 
-over or equal to 70 beats per minute. It is used in adult patients who do not tolerate or cannot take 
-heart medicines called beta-blockers. It is also used in combination with beta-blockers in adult 
-patients whose condition is not fully controlled with a beta-blocker. </li>
-<li>Chronic heart failure in adult patients whose heart rate is over or equal to 75 beats per minute. It 
-is used in combination with standard therapy, including beta-blocker therapy or when beta-
-blockers are contraindicated or not tolerated. </li>
+<li>Symptomatic stable angina pectoris (which causes chest pain) in adult patients whose heart rate 
+is over or equal to 70 beats per minute. It is used in adult patients who do not tolerate or cannot 
+take heart medicines called beta-blockers. It is also used in combination with beta-blockers in 
+adult patients whose condition is not fully controlled with a beta-blocker. </li>
+<li>Chronic heart failure in adult patients whose heart rate is over or equal to 75 beats per minute. 
+It is used in combination with standard therapy, including beta-blocker therapy or when 
+beta-blockers are contraindicated or not tolerated. </li>
 </ul>
 <p>About stable angina pectoris (usually referred to as  angina ): 
-Stable angina is a heart disease which happens when the heart does not receive enough oxygen. The 
-most common symptom of angina is chest pain or discomfort.  </p>
-<p>About chronic heart failure : 
+Stable angina is a heart disease which happens when the heart does not receive enough oxygenThe 
+most common symptom of angina is chest pain or discomfort.<br />
+About chronic heart failure: 
 Chronic heart failure is a heart disease which happens when your heart cannot pump enough blood to 
 the rest of your body. The most common symptoms of heart failure are breathlessness, fatigue, 
 tiredness and ankle swelling. </p>
-<p>How does Ivabradine Anpharm work? 
+<p>How does Ivabradine Accord work? 
 The specific heart rate lowering action of ivabradine helps :</p>
 <ul>
 <li>to control and reduce the number of angina attacks by lowering heart s need for oxygen, </li>
@@ -98,8 +99,7 @@ The specific heart rate lowering action of ivabradine helps :</p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ivabradine"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ivabradine Anpharm 
-Classified as confidential by the European Medicines Agency 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ivabradine Accord 
 - if you are allergic to ivabradine or any of the other ingredients of this medicine (listed in 
 section 6); 
 - if your resting heart rate before treatment is too slow (below 70 beats per minute); 
@@ -122,7 +122,7 @@ angina pectoris);
 - if you are pregnant or trying to become pregnant; 
 - if you are breast-feeding. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Ivabradine Anpharm:</p>
+Talk to your doctor or pharmacist before taking Ivabradine Accord:</p>
 <ul>
 <li>if you suffer from heart rhythm disorders (such as irregular heartbeat, palpitation, increase in 
 chest pain) or sustained atrial fibrillation (a type of irregular heartbeat), or an abnormality of 
@@ -141,25 +141,24 @@ branch block , </li>
 <li>if you suffer from moderate liver problems, </li>
 <li>if you suffer from severe renal problems. 
 If any of the above applies to you, talk straight away to your doctor before or while taking Ivabradine 
-Anpharm. </li>
+Accord. </li>
 </ul>
-<p>Children 
-Do not give this medicine to children and adolescents younger than 18 years.Available data are 
+<p>Children and adolescents 
+Do not give this medicine to children and adolescents younger than 18 years. Available data are 
 insufficient in this age group. </p>
-<p>Other medicines and Ivabradine Anpharm 
+<p>Other medicines and Ivabradine Accord 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Make sure to tell your doctor if you are taking any of the following medicines, as a dose adjustment of 
-Ivabradine Anpharm or monitoring should be required:</p>
+Ivabradine Accord or monitoring should be required:</p>
 <ul>
 <li>fluconazole (an antifungal medicine) </li>
 <li>rifampicin (an antibiotic) </li>
-<li>barbiturates (for difficult sleeping or epilepsy) 
-Classified as confidential by the European Medicines Agency </li>
+<li>barbiturates (for difficult sleeping or epilepsy) </li>
 <li>phenytoin (for epilepsy) </li>
 <li>Hypericum perforatum or St John s Wort (herbal treatment for depression) </li>
 <li>
-<p>QT prolonging medicines to treat either heart rhythm disorders or other conditions :</p>
+<p>QT prolonging medicines to treat either heart rhythm disorders or other conditions:</p>
 </li>
 <li>
 <p>quinidine, disopyramide, ibutilide, sotalol, amiodarone (to treat heart rhythm disorders) </p>
@@ -171,28 +170,28 @@ ziprasidone, sertindole) </li>
 <li>intravenous erythromycin (an antibiotic) </li>
 <li>pentamidine (an antiparasitic medicine) </li>
 <li>cisapride (against the gastro-oesophageal reflux) </li>
-<li>Some types of diuretics which may cause decrease in blood potassium level, such as furosemide, 
+<li>some types of diuretics which may cause decrease in blood potassium level, such as furosemide, 
 hydrochlorothiazide, indapamide (used to treat oedema, high blood pressure). </li>
 </ul>
-<p>Ivabradine Anpharm with food and drink<br />
-Avoid grapefruit juice during treatment with Ivabradine Anpharm. </p>
+<p>Ivabradine Accord with food and drink<br />
+Avoid grapefruit juice during treatment with Ivabradine Accord. </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. 
-Do not take Ivabradine Anpharm if you are pregnant or are planning to have a baby (see  Do not take 
-Ivabradine Anpharm ).<br />
-If you are pregnant and have taken Ivabradine Anpharm, talk to your doctor. 
-Do not take Ivabradine Anpharm if you are able to become pregnant unless you use reliable 
-contraceptive measures (see  Do not take Ivabradine Anpharm ). 
-Do not take Ivabradine Anpharm if you are breast-feeding (see  Do not take Ivabradine Anpharm ). 
-Talk to your doctor if you are breast-feeding or intending to breast-feed as breast-feeding should be 
-discontinued if you take Ivabradine Anpharm. </p>
+Do not take Ivabradine Accord if you are pregnant or are planning to have a baby (see  Do not take 
+Ivabradine Accord ). 
+If you are pregnant and have taken Ivabradine Accord, talk to your doctor. 
+Do not take Ivabradine Accord if you are able to become pregnant unless you use reliable 
+contraceptive measures (see  Do not take Ivabradine Accord ). 
+Do not take Ivabradine Accord if you are breast-feeding (see  Do not take Ivabradine Accord ). Talk 
+to your doctor if you are breast-feeding or intending to breast-feed as breast-feeding should be 
+discontinued if you take Ivabradine Accord. </p>
 <p>Driving and using machines 
-Ivabradine Anpharm may cause temporary luminous visual phenomena (a temporary brightness in the 
+Ivabradine Accord may cause temporary luminous visual phenomena (a temporary brightness in the 
 field of vision, see  Possible side effects ). If this happens to you, be careful when driving or using 
 machines at times when there could be sudden changes in light intensity, especially when driving at 
-night.  </p>
-<p>Ivabradine Anpharm contains lactose 
+night. </p>
+<p>Ivabradine Accord contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>         </div>"""   
                     
@@ -203,36 +202,36 @@ before taking this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.<br />
-Ivabradine Anpharm should be taken during meals. 
-Ivabradine Anpharm 5 mg tablet can be divided into equal doses. 
+Ivabradine Accord should be taken during meals. </p>
+<p>Ivabradine Accord 5 mg tablet can be divided into equal doses. 
 If you are being treated for stable angina pectoris 
-The starting dose should not exceed one tablet of Ivabradine Anpharm 5 mg twice daily. If you still 
+The starting dose should not exceed one tablet of Ivabradine Accord 5 mg twice daily. If you still 
 have angina symptoms and if you have tolerated the 5 mg twice daily dose well, the dose may be 
-increased. The maintenance dose should not exceed 7.5 mg twice daily. Your doctor will prescribe the 
-right dose for you. The usual dose is one tablet in the morning and one tablet in the evening. In some 
-cases (e.g. if you are aged 75 years or more), your doctor may prescribe half the dose i.e., one half 
-5 mg tablet of Ivabradine Anpharm 5 mg (corresponding to 2.5 mg ivabradine) in the morning and one 
-half 5 mg tablet in the evening. </p>
+increased. </p>
+<p>The maintenance dose should not exceed 7.5 mg twice daily. Your doctor will prescribe the right dose 
+for you. The usual dose is one tablet in the morning and one tablet in the evening. In some cases (e.g. 
+if you are aged 75 years or more), your doctor may prescribe half the dose i.e., one half 5 mg tablet of 
+Ivabradine Accord 5 mg (corresponding to 2.5 mg ivabradine) in the morning and one half 5 mg tablet 
+in the evening. </p>
 <p>If you are being treated for chronic heart failure 
-Classified as confidential by the European Medicines Agency 
-The usual recommended starting dose is one tablet of Ivabradine Anpharm 5 mg twice daily 
-increasing if necessary to one tablet of Ivabradine Anpharm 7.5 mg twice daily. Your doctor will 
-decide the right dose for you. The usual dose is one tablet in the morning and one tablet in the 
-evening. In some cases (e.g. if you are aged 75 years or more), your doctor may prescribe half the 
-dose i.e., one half 5 mg tablet of Ivabradine Anpharm 5 mg (corresponding to 2.5 mg ivabradine) in 
-the morning and one half 5 mg tablet in the evening. </p>
-<p>If you take more Ivabradine Anpharm than you should: 
-A large dose of Ivabradine Anpharm could make you feel breathless or tired because your heart slows 
+The usual recommended starting dose is one tablet of Ivabradine Accord 5 mg twice daily increasing 
+if necessary to one tablet of Ivabradine Accord 7.5 mg twice daily. Your doctor will decide the right 
+dose for you. The usual dose is one tablet in the morning and one tablet in the evening. In some cases 
+(e.g. if you are aged 75 years or more), your doctor may prescribe half the dose i.e., one half 5 mg 
+tablet of Ivabradine Accord 5 mg (corresponding to 2.5 mg ivabradine) in the morning and one half 
+5 mg tablet in the evening. </p>
+<p>If you take more Ivabradine Accord than you should 
+A large dose of Ivabradine Accord could make you feel breathless or tired because your heart slows 
 down too much. If this happens, contact your doctor immediately. </p>
-<p>If you forget to take Ivabradine Anpharm: 
-If you forget to take a dose of Ivabradine Anpharm, take the next dose at the usual time. Do not take a 
+<p>If you forget to take Ivabradine Accord 
+If you forget to take a dose of Ivabradine Accord, take the next dose at the usual time. Do not take a 
 double dose to make up for the forgotten dose. 
 The calendar printed on the blister containing the tablets should help you remember when you last 
-took a tablet of Ivabradine Anpharm. </p>
-<p>If you stop taking Ivabradine Anpharm: 
+took a tablet of Ivabradine Accord. </p>
+<p>If you stop taking Ivabradine Accord 
 As the treatment for angina or chronic heart failure is usually life-long, you should discuss with your 
-doctor before stopping this medicinal product. 
-If you think that the effect of Ivabradine Anpharm is too strong or too weak, talk to your doctor or 
+doctor before stopping this medicine. 
+If you think that the effect of Ivabradine Accord is too strong or too weak, talk to your doctor or 
 pharmacist. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -253,9 +252,9 @@ which they may occur repeatedly and resolve during or after treatment </p>
 <p>Common (may affect up to 1 in 10 people) 
 Modification in the heart functioning (the symptoms are a slowing down of the heart rate). They 
 particularly occur within the first 2 to 3 months of treatment initiation. </p>
-<p>Other side effects have also been reported: </p>
+<p>Other side effects </p>
 <p>Common (may affect up to 1 in 10 people) 
-Irregular rapid contraction of the heart (Atrial fibrillation,), abnormal perception of heartbeat 
+Irregular rapid contraction of the heart (Atrial fibrillation), abnormal perception of heartbeat 
 (Bradycardia, Ventricular extrasystoles, AV 1st degree block (ECG prolonged PQ interval)), 
 uncontrolled blood pressure, headache, dizziness and blurred vision (cloudy vision). </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
@@ -263,7 +262,6 @@ Palpitations and cardiac extra beats, feeling sick (nausea), constipation, diarr
 spinning sensation (vertigo), difficulty breathing (dyspnoea), muscle spasms, high blood levels of uric 
 acid, an excess of eosinophils (a type of white blood cell) and elevated creatinine in blood (a 
 breakdown product of muscle), skin rash, angioedema (such as swollen face, tongue or throat, 
-Classified as confidential by the European Medicines Agency 
 difficulty in breathing or swallowing), low blood pressure, fainting, feeling of tiredness, feeling of 
 weakness, abnormal ECG heart tracing, double vision, impaired vision. </p>
 <p>Rare (may affect up to 1 in 1,000 people) 
@@ -282,11 +280,11 @@ of this medicine. </p>         </div>"""
   * code.text = "5. How to store ivabradine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
-The expiry date refers to the last day of that month. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
+expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicine via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -294,127 +292,45 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ivabradine Anpharm contains 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ivabradine Accord contains 
 - The active substance is ivabradine (as hydrochloride). </p>
-<p>Ivabradine Anpharm 5 mg film-coated tablets:  </p>
-<p>each film-coated tablet contains 5 mg ivabradine (as hydrochloride). </p>
-<p>Ivabradine Anpharm 7.5 mg film-coated tablets:  </p>
-<p>each film-coated tablet contains 7.5 mg ivabradine (as hydrochloride). </p>
-<ul>
-<li>
-<p>The other ingredients are:</p>
-</li>
-<li>
-<p>tablet core: lactose monohydrate, magnesium stearate (E 470 B), maize starch, maltodextrin, 
-colloidal anhydrous silica (E 551),  </p>
-</li>
-<li>film coating: hypromellose (E 464), titanium dioxide (E 171), macrogol (6000), glycerol (E 
-422), magnesium stearate (E 470 B), yellow iron oxide (E 172), red iron oxide (E 172). </li>
-</ul>
-<p>What Ivabradine Anpharm looks like and contents of the pack 
-Ivabradine Anpharm 5 mg tablets are salmon-coloured, oblong film-coated tablets scored on both 
-sides, engraved with  5  on one face and  S  on the other. 
-Ivabradine Anpharm 7.5 mg tablets are salmon-coloured, triangular, film-coated tablets engraved with 
- 7.5  on one face and  S on the other. </p>
-<p>The tablets are available in calendar packs (Aluminium/PVC blisters) of 14, 28, 56, 84, 98, 100 or tablets. 
-Classified as confidential by the European Medicines Agency </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-ANPHARM Przedsi biorstwo Farmaceutyczne S.A.<br />
-ul. Annopol 6B 
-03 236 Warszawa - Poland </p>
-<p>Manufacturer 
-Les Laboratoires Servier Industrie 
-905 route de Saran 
-45520 Gidy   France </p>
-<p>Servier (Ireland) Industries Ltd 
-Gorey Road 
-Arklow - Co. Wicklow 
-Ireland </p>
-<p>Przedsiebiorstwo Farmaceutyczne ANPHARM S.A. 
-ul. Annopol 6B   03-236 Warszawa 
-Poland </p>
-<p>Laboratorios Servier, S.L. 
-Avda. de los Madro os, 28043 Madrid 
+<p>Ivabradine Accord 5 mg film-coated tablets:  </p>
+<p>Each film-coated tablet contains 5 mg ivabradine (as hydrochloride). </p>
+<p>Ivabradine Accord 7.5 mg film-coated tablets::<br />
+Each film-coated tablet contains 7.5 mg ivabradine (as hydrochloride). </p>
+<p>The other ingredients are: 
+ tablet core: lactose anhydrous (see section 2), magnesium stearate (E470b), pregelatinised starch 
+(maize), colloidal hydrated silica (E551),<br />
+film coating: polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol (4000), talc (E553b), 
+yellow iron oxide (E172), red iron oxide (E172). </p>
+<p>What Ivabradine Accord looks like and contents of the pack 
+Ivabradine Accord 5 mg film-coated tablets are salmon-coloured, oblong shaped ,film-coated tablets 
+scored on both sides, debossed with  FK  on one side and  2  on other side. 
+Ivabradine Accord 7.5 mg film-coated tablets are salmon-coloured, triangular shaped, film-coated 
+tablets debossed with  FK  on one side and  1 on other side. </p>
+<p>The tablets are available in Aluminium/Aluminium perforated unit dose blister in pack-sizes of 14x1, 
+28x1, 56x1, 84x1, 98x1, 100x1 or 112x1 tablets. 
+Not all pack sizes may be marketed. 
+Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: 
+Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n, 
+Edifici Est 6  planta, 
+08039 Barcelona, 
 Spain </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>Belgi /Belgique/Belgien 
-S.A. Servier Benelux N.V. 
-T l/Tel: +32 (0)2 529 43 Lietuva 
-UAB  SERVIER PHARMA<br />
-Tel: +370 (5) 2 63 86  </p>
-<p>.: +359 2 921 57  </p>
-<p>Luxembourg/Luxemburg 
-S.A. Servier Benelux N.V. 
-T l/Tel: +32 (0)2 529 43<br />
- esk  republika 
-Servier s.r.o. 
-Tel: +420 222 118<br />
-Magyarorsz g 
-Servier Hungaria Kft. 
-Tel.: + 36 1 238 77<br />
-Danmark 
-Servier Danmark A/S 
-Tlf: +45 36 44 22<br />
-Malta 
-V.J. Salomone Pharma Ltd<br />
-Tel: + 356 21 22 01<br />
-Deutschland 
-Servier Deutschland GmbH 
-Tel: +49 (0)89 57095 Nederland 
-Servier Nederland Farma B.V. 
-Tel: +31 (0)71 5246 
-Eesti 
-Servier Laboratories O <br />
-Tel:+ 372 664 5Norge 
-Servier Danmark A/S 
-Tlf: +45 36 44 22 Classified as confidential by the European Medicines Agency </p>
-<p>: +30 210 939 1 sterreich 
-Servier Austria GmbH 
-Tel: +43 (1) 524 39<br />
-Espa a 
-Laboratorios Servier S.L. 
-Tel: +34 91 748 96 Polska 
-Servier Polska SP. Z O.O. 
-Tel.: + 48 (0) 22 594 90<br />
-France 
-Les Laboratoires Servier 
-T l: +33 (0)1 55 72 60 Portugal 
-Servier Portugal, Lda 
-Tel: +351 21 312 20<br />
-Hrvatska 
-Servier Pharma, d. o. o. 
-Tel.: +385 (0)1 3016<br />
-Rom nia 
-Servier Pharma SRL 
-Tel: +4 021 528 52<br />
-Ireland 
-Servier Laboratories (Ireland) Ltd. 
-Tel: +353 (0)1 663 8 
-Slovenija 
-Servier Pharma d.o.o. 
-Tel: + 386 (0)1 563 48  sland 
-Servier Laboratories 
-C/o Icepharma hf 
-S mi: +354 540 8 
-Slovensk  republika 
-Servier Slovensko spol. s r.o. 
-Tel: +421 (0) 2 5920 41 Italia 
-Servier Italia S.p.A. 
-Tel: +39 06 669 
-Suomi/Finland 
-Servier Finland Oy 
-P. /Tel: +358 (0)9 279 80  </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22741Sverige 
-Servier Sverige AB 
-Tel: +46(8)5 225 08<br />
-Latvija 
-SIA Servier Latvia 
-Tel: + 371 6750 2United Kingdom (Northern Ireland) 
-Servier Laboratories (Ireland) Ltd 
-Tel: +44 (0)1753 666 
-This leaflet was last revised in  </p>
+<p>Manufacturer: </p>
+<p>Laboratori Fundacio Dau 
+C/ C, 12-14 Pol. Ind. Zona Franca 
+08040 Barcelona 
+Spain </p>
+<p>or </p>
+<p>WESSLING Hungary Kft., 
+Anonymus u. 6., Budapest, 1045, 
+Hungary </p>
+<p>or </p>
+<p>Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Poland </p>
+<p>This leaflet was last revised in. </p>
+<p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

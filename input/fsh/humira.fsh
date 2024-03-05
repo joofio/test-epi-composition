@@ -44,7 +44,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Injecting Humira</li>
+</ol>         </div>"""   
 
 
 
@@ -67,15 +69,6 @@ Usage: #inline
   * title =  "1. What humira is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What humira is and what it is used for"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Injecting Humira</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take humira"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take humira"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Humira contains the active substance adalimumab.
 Humira is intended for the treatment of the inflammatory diseases described below:</p>
@@ -123,11 +116,13 @@ This inflammation may lead to a decrease of vision and/or the presence of floate
 wispy lines that move across the field of vision). Humira works by reducing this inflammation.
 Your child may first be given other medicines. If these medicines do not work well enough, your child
 will be given Humira to reduce the signs and symptoms of his/her disease.</p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take humira"
+  * title = "2. What you need to know before you take humira"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take humira"
+  * code.text = "2. What you need to know before you take humira"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Humira:</p>
 <p>If your child is allergic to adalimumab or any of the other ingredients of this medicine (listed in 
@@ -264,13 +259,12 @@ use during her pregnancy before the baby receives any vaccine. For more informat
 see the  Warnings and precautions  section.
 Driving and using machines
 Humira may have a small effect on your child s ability to drive, cycle or use machines. Room spinning 
-sensation and vision disturbances may occur after taking Humira.</p>         </div>"""         
-
-        
+sensation and vision disturbances may occur after taking Humira.</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take humira"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take humira"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or 
 pharmacist if you are not sure. 
@@ -395,12 +389,13 @@ not forgotten a dose.
 If you stop using Humira
 The decision to stop using Humira should be discussed with your doctor. Your child s symptoms may 
 return if you stop using Humira.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store humira"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store humira"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
 effects are mild to moderate. However, some may be serious and require treatment. Side effects may occur 
@@ -574,11 +569,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store humira"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store humira"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date stated on the label/blister/carton after EXP. 
@@ -593,4 +587,97 @@ You should record the date when the syringe is first removed from refrigerator a
 should be discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your doctor or pharmacist how 
 to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Humira contains
+The active substance is adalimumab.
+The other ingredients are mannitol, polysorbate 80 and water for injections.
+What the Humira pre-filled syringe looks like and contents of the pack
+Humira 20 mg solution for injection in pre-filled syringe for paediatric use is supplied as a sterile solution 
+of 20 mg adalimumab dissolved in 0.2 ml solution.
+The Humira pre-filled syringe is a glass syringe containing a solution of adalimumab.<br />
+The Humira pre-filled syringe is available in a pack containing 2 pre-filled syringes with 2 alcohol pads.<br />
+Humira may be available as a vial, a pre-filled syringe and/or a pre-filled pen.
+Marketing Authorisation Holder
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Germany
+Manufacturer 
+AbbVie Biotechnology GmbH
+Knollstrasse
+67061 Ludwigshafen
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+AbbVie SA
+T l/Tel: +32 10 477Lietuva
+AbbVie UAB 
+Tel: +370 5 205 3 </p>
+<p>.:+359 2 90 30 Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+T l/Tel: +32 10 477 esk  republika
+AbbVie s.r.o. 
+Tel: +420 233 098 Magyarorsz g
+AbbVie Kft.
+Tel.:+36 1 455 8Danmark
+AbbVie A/S
+Tlf: +45 72 30-20-Malta
+V.J.Salomone Pharma Limited 
+Tel: +356 22983Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: 00800 222843 33 (geb hrenfrei)
+Tel: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel:  +31 (0)88 322 2Eesti
+AbbVie O 
+Tel: +372 623 1Norge
+AbbVie AS
+Tlf: +47 67 81 80<br />
+AbbVie    . .
+ : +30 214 4165  sterreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+Espa a
+AbbVie Spain, S.L.U.
+Tel:  +34 91 384 09 Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 France
+AbbVie
+T l: +33 (0) 1 45 60 13 Portugal
+AbbVie, Lda. 
+Tel: +351 (0)21 1908Hrvatska 
+AbbVie d.o.o.
+Tel + 385 (0)1 5625 Rom nia
+AbbVie S.R.L.
+Tel: +40 21 529 30 Ireland
+AbbVie Limited 
+Tel: +353 (0)1 4287Slovenija
+AbbVie Biofarmacevtska dru ba d.o.o.
+Tel: +386 (1)32 08  sland
+Vistor hf.
+Tel: +354 535 7Slovensk  republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0Italia
+AbbVie S.r.l. 
+Tel: +39 06 928Suomi/Finland
+AbbVie Oy 
+Puh/Tel:  +358 (0)10 2411<br />
+Lifepharma (Z.A.M.) Ltd
+ .: +357 22 34 74 Sverige
+AbbVie AB
+Tel:  +46 (0)8 684 44 Latvija
+AbbVie SIA 
+Tel: +371 67605United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561This leaflet was last revised in
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

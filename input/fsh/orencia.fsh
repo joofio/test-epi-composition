@@ -254,8 +254,8 @@ The most common side effects with ORENCIA are infections of the upper airway (in
 infections of the nose and throat), headache and nausea, as listed below. ORENCIA can cause serious 
 side effects, which may need treatment. </p>
 <p>Possible serious side effects include serious infections, malignancies (cancer) and allergic reactions, 
-as listed below. </p>
-<p>Tell your doctor immediately if you notice any of the following: 
+as listed below. 
+Tell your doctor immediately if you notice any of the following: 
 * severe rash, hives or other signs of allergic reaction 
 * swollen face, hands or feet 
 * trouble breathing or swallowing 
@@ -304,8 +304,8 @@ chronic obstructive pulmonary disease (COPD)
 * tuberculosis 
 * inflammation of uterus, fallopian tubes and/or ovaries 
 * gastrointestinal infection 
-* cancer of white blood cells, lung cancer </p>
-<p>Children and adolescents with polyarticular juvenile idiopathic arthritis </p>
+* cancer of white blood cells, lung cancer 
+Children and adolescents with polyarticular juvenile idiopathic arthritis </p>
 <p>The side effects experienced in children and adolescents with polyarticular juvenile idiopathic arthritis 
 are similar to those experienced in adults as described above, with the following differences: </p>
 <p>Common (may affect up to 1 in 10 people): 
@@ -353,8 +353,8 @@ ORENCIA powder for concentrate for solution for infusion is a white to off-white
 appear solid or broken into pieces. 
 ORENCIA is available in packs of 1 vial and 1 silicone-free syringe, and in multipacks containing 2, 
 or 3 vials and 2, or 3 silicone-free syringes (2 or 3 packs of 1). </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
+<p>Not all pack sizes may be marketed. 
+Marketing Authorisation Holder 
 Bristol-Myers Squibb Pharma EEIG 
 Plaza Blanchardstown Corporate Park 2 
 Dublin 15, D15 TIreland </p>

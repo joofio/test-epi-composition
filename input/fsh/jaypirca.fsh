@@ -294,94 +294,65 @@ Madrid, Spain. </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V.<br />
-T l/Tel: + 32-(0)2 548 84 84<br />
-Lietuva 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
 Eli Lilly Lietuva<br />
-Tel. +370 (5) 2649 </p>
-<p>"     "  . . -  <br />
- . + 359 2 491 41 40  </p>
-<p>Luxembourg/Luxemburg 
+Tel. +370 (5) 2649<br />
+  "     "  . . -  <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V.<br />
-T l/Tel: + 32-(0)2 548 84 84<br />
- esk  republika 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
 ELI LILLY  R, s.r.o.<br />
-Tel: + 420 234 664 <br />
-Magyarorsz g 
+Tel: + 420 234 664 Magyarorsz g 
 Lilly Hung ria Kft.<br />
-Tel: + 36 1 328 5100<br />
-Danmark 
+Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 60 00<br />
-Malta 
+Tlf: +45 45 26 60 Malta 
 Charles de Giorgio Ltd.<br />
-Tel: + 356 25600 500  </p>
-<p>Deutschland 
+Tel: + 356 25600 Deutschland 
 Lilly Deutschland GmbH<br />
-Tel. + 49-(0) 6172 273 2222  </p>
-<p>Nederland 
+Tel. + 49-(0) 6172 273 2Nederland 
 Eli Lilly Nederland B.V.<br />
-Tel: + 31-(0) 30 60 25 800<br />
-Eesti 
+Tel: + 31-(0) 30 60 25 Eesti 
 Eli Lilly Nederland B.V.<br />
-Tel: +372 6 817 280  </p>
-<p>Norge 
+Tel: +372 6 817 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 00  </p>
-<ul>
-<li>. . . .<br />
- : +30 210 629 4600<br />
- sterreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711<br />
-Espa a 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A.<br />
-Tel: + 34-91 663 50 00  </li>
-</ul>
-<p>Polska 
+Tel: + 34-91 663 50 Polska 
 Eli Lilly Polska Sp. z o.o.<br />
-Tel: +48 22 440 33 00<br />
-France 
+Tel: +48 22 440 33 France 
 Lilly France<br />
-T l: +33-(0) 1 55 49 34 34  </p>
-<p>Portugal 
+T l: +33-(0) 1 55 49 34 Portugal 
 Lilly Portugal Produtos Farmac uticos, Lda<br />
-Tel: + 351-21-4126600<br />
-Hrvatska 
+Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o.<br />
-Tel: +385 1 2350 999  </p>
-<p>Ireland 
+Tel: +385 1 2350 Ireland 
 Eli Lilly and Company (Ireland) Limited<br />
-Tel: + 353-(0) 1 661 4377  </p>
-<p>Rom nia 
+Tel: + 353-(0) 1 661 4Rom nia 
 Eli Lilly Rom nia S.R.L.<br />
-Tel: + 40 21 4023000  </p>
-<p>Slovenija 
+Tel: + 40 21 4023Slovenija 
 Eli Lilly farmacevtska dru ba, d.o.o.<br />
-Tel: +386 (0)1 580 00 10<br />
- sland 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf.<br />
-S mi + 354 540 8000<br />
-Slovensk  republika 
+S mi + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o.<br />
-Tel: + 421 220 663<br />
-Italia 
+Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A.<br />
-Tel: + 39- 055 42571<br />
-Suomi/Finland 
+Tel: + 39- 055 42Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 250  </p>
-<p>Phadisco Ltd<br />
- : +357 22 715000  </p>
-<p>Sverige 
+Puh/Tel: + 358-(0) 9 85 45 <br />
+Phadisco Ltd<br />
+ : +357 22 715Sverige 
 Eli Lilly Sweden AB<br />
-Tel: + 46-(0) 8 7378800<br />
-Latvija 
+Tel: + 46-(0) 8 7378Latvija 
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
-Tel: +371 67364000  </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited<br />
-Tel: + 353-(0) 1 661 4 </p>
-<p>This leaflet was last revised in.  </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in.  </p>
 <p>This medicine has been given  conditional approval . 
 This means that there is more evidence to come about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

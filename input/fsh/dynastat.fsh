@@ -103,8 +103,7 @@ procedure)
 attack, stroke, mini-stroke (TIA) or blockages to blood vessels to the heart or brain or an operation 
 to clear or bypass blockages 
 - if you have or have had problems with your blood circulation (peripheral arterial disease) </p>
-<p>54<br />
-If any of these applies to you, you will not be given the injection. Tell your doctor or nurse 
+<p>If any of these applies to you, you will not be given the injection. Tell your doctor or nurse 
 immediately. </p>
 <p>Warnings and precautions </p>
 <p>Do not use Dynastat if you currently have a gastric or intestinal ulcer or gastrointestinal bleeding </p>
@@ -153,7 +152,6 @@ like apixaban, dabigatran, and rivaroxaban
 * Dynastat must not be used if you are in the last 3 months of pregnancy as it could harm your 
 unborn child or cause problems at delivery. It can cause kidney and heart problems in your unborn 
 baby. It may affect your and your baby s tendency to bleed and cause labour to be later or longer 
-55<br />
 than expected. Dynastat should not be used during the first 6 months of pregnancy unless 
 absolutely necessary and advised by your doctor. If you need treatment during this period or while 
 you are trying to get pregnant, the lowest dose for the shortest time possible should be used. If 
@@ -205,8 +203,7 @@ reported with recommended doses. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>56<br />
-Stop taking Dynastat and tell your doctor immediately:</p>
+<p>Stop taking Dynastat and tell your doctor immediately:</p>
 <ul>
 <li>if you develop a rash or ulceration in any part of your body (e.g. skin, mouth, eyes, face, lips or 
 tongue), or develop any other signs of an allergic reaction such as skin rash, swelling of the 
@@ -244,7 +241,7 @@ and breathlessness
 * There is a risk of cerebrovascular disease e.g. stroke, or transient ischaemic attack (transient 
 reduced blood flow to the brain)/mini-stroke or angina, or blockages to blood vessels to the heart 
 or brain<br />
-<em> Blood clot in the lungs 
+* Blood clot in the lungs 
 * Worsening of high blood pressure 
 * Ulcers in the digestive system, chronic stomach acid reflux 
 * The heart may beat more slowly 
@@ -262,8 +259,7 @@ or brain<br />
 * High levels of blood enzymes in blood tests that indicate injury or stress to the heart, the brain, or 
 muscle tissue. 
 * Dry mouth 
-57<br />
-</em> Muscle weakness 
+* Muscle weakness 
 * Ear ache 
 * Unusual abdominal sounds </p>
 <p>Rare: may affect up to 1 in 1,000 people 
@@ -317,8 +313,7 @@ approximately 0.44 mEq of sodium per vial. </p>
 </ul>
 <p>Disodium hydrogen phosphate 
 Phosphoric acid and/or sodium hydroxide (for pH adjustment). </p>
-<p>58<br />
-What Dynastat looks like and contents of the pack 
+<p>What Dynastat looks like and contents of the pack 
 Dynastat is available as a white to off-white powder. 
 The powder is contained in colourless glass vials (5 ml) with a stopper, sealed with a purple flip-off 
 cap on the aluminium overseal. </p>
@@ -331,94 +326,66 @@ Marketing Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62<br />
-Lietuva 
+T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje. 
-Tel: +370 5 251 4 </p>
-<pre><code> ,
-</code></pre>
-<p>.: +359 2 970 4 
-Magyarorsz g 
+Tel: +370 5 251 4 <br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
 Pfizer Kft. 
-Tel: +36 1 488 37<br />
- esk  republika 
+Tel: +36 1 488 37  esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Malta 
+Tel: +420 283 004 Malta 
 Vivian Corporation Ltd. 
-Tel: +356 21344 
-Danmark 
+Tel: +356 21344Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Nederland 
+Tlf: +45 44 20 11 Nederland 
 Pfizer bv 
-Tel: +31 (0)800 63 34<br />
-Deutschland 
+Tel: +31 (0)800 63 34 Deutschland 
 Pfizer Pharma GmbH 
-Tel: +49 (0)30 550055-51 
-Norge 
+Tel: +49 (0)30 550055-51Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
- sterreich 
+Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>PFIZER   A.E. 
- : +30 210 6785 
-Polska 
+ : +30 210 6785Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61<br />
-Espa a 
+Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal 
+Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: +351 21 423 5 
-France 
+Tel: +351 21 423 5France 
 Pfizer 
-T l: +33 (0)1 58 07 34<br />
-Rom nia 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
-Tel: +40 (0)21 207 28<br />
-59<br />
-Hrvatska 
+Tel: +40 (0)21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
+Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)152 11<br />
-Ireland 
+Tel: +386 (0)152 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-+ 44 (0)1304 616 
-Slovensk  republika 
++ 44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
-Tel: +421 2 3355 5 
- sland 
+Tel: +421 2 3355 5 sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
-Puh/Tel: +358(0)9 43 00<br />
-Italia 
+Puh/Tel: +358(0)9 43 00 Italia 
 Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Sverige<br />
+Tel: +39 06 33 18 Sverige<br />
 Pfizer AB 
-Tel: +46 (0)8 550 520  </p>
-<p>PFIZER    . . (Cyprus Branch)<br />
- : +357 22817 
-United Kingdom (Northern Ireland) 
+Tel: +46 (0)8 550 520 <br />
+PFIZER    . . (Cyprus Branch)<br />
+ : +357 22817United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0)1304 616 
-Latvija 
+Tel: +44 (0)1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij <br />
-Tel: +371 670 35  </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
+Tel: +371 670 35 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>&lt;------------------------------------------------------------------------------------------------------------------<br />
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

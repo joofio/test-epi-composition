@@ -147,8 +147,8 @@ The doctor may give you a lower dose if they think you need it. </p>
 <p>The number of times you have the drip depends on: 
 * the stage of your breast cancer 
 * how well your body responds to the medicine. 
-Treatment usually lasts for about 3 to 6 months. </p>
-<p>If you get Myocet liposomal on your skin 
+Treatment usually lasts for about 3 to 6 months. 
+If you get Myocet liposomal on your skin 
 Tell your doctor or nurse straight away if any medicine leaks from the drip (infusion) onto your skin. 
 This is because Myocet liposomal can damage your skin. The drip will be stopped straight away. Ice 
 will be put on the affected area for 30 minutes. Then the drip will be started in another vein. </p>
@@ -326,5 +326,44 @@ and inject into each vial of doxorubicin HCl, intended for preparation.<br />
 thermometer in the block reading (75 C-76 C) for 10 minutes (not to exceed 15 minutes). <br />
 * If using a water bath, heat the doxorubicin HCl vial with the thermometer temperature reading 
 55 C-60 C for 10 minutes (not to exceed 15 minutes). 
-* While heating proceed to step </p>         </div>"""      
+* While heating proceed to step 4. Step 4.  Adjust pH of liposomes 
+* Withdraw 1.9 ml of liposomes. Inject into the buffer vial to adjust the pH of liposomes.<br />
+Pressure build-up may require venting. 
+* Shake well. </p>
+<p>Step 5.  Add pH-adjusted liposomes to doxorubicin 
+* Using a syringe, withdraw the entire vial contents of pH-adjusted liposomes from the buffer 
+vial. 
+* Remove the reconstituted doxorubicin HCl vial from the water bath or dry heat block.<br />
+SHAKE VIGOROUSLY. Carefully insert a pressure-venting device equipped with a 
+hydrophobic filter. Then IMMEDIATELY (within 2 minutes) inject the pH-adjusted 
+liposomes into the vial of heated reconstituted doxorubicin HCl. Remove venting device. 
+* SHAKE VIGOROUSLY. 
+* WAIT FOR A MINIMUM OF 10 MINUTES BEFORE USING, KEEPING THE MEDICINE 
+AT ROOM TEMPERATURE. </p>
+<p>The Techne DB-3 Dri Block Heater is fully validated for use in the constitution of Myocet liposomal. 
+Three inserts, each with two 43.7mm openings per insert must be used. To ensure correct temperature 
+control the use of a 35mm immersion thermometer is recommended. </p>
+<p>The resulting reconstituted preparation of Myocet liposomal contains 50 mg of doxorubicin HCl/25 ml 
+of concentrate for liposomal dispersion for infusion (2 mg/ml).  </p>
+<p>After reconstitution the finished product must be further diluted in 0.9% (w/v) sodium chloride 
+solution for injection, or 5% (w/v) glucose solution for injection to a final volume of 40 ml to 120 ml 
+per 50 mg reconstituted Myocet liposomal so that a final concentration of 0.4 mg/ml to 1.2 mg/ml 
+doxorubicin is obtained. </p>
+<p>Once constituted, the liposomal dispersion for infusion containing liposome encapsulated doxorubicin 
+should be a red-orange opaque homogeneous dispersion. All parenteral medicinal products should be 
+inspected visually for particulate matter and discoloration prior to administration. Do not use the 
+preparation if foreign particulate matter is present. </p>
+<p>It has been demonstrated that once reconstituted Myocet liposomal has a chemical and physical in-use 
+stability at room temperature for up to 8 hours or in a refrigerator (2 C-8 C) for up to 5 days.  </p>
+<p>From a microbiological point of view, the product should be used immediately. If not used 
+immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
+would normally not be longer than 24 hours at 2 C-8 C, unless reconstitution and dilution has taken 
+place in controlled and validated aseptic conditions. </p>
+<p>Myocet liposomal should be administered by intravenous infusion over a period of 1 hour.<br />
+Warning: Myocet liposomal must not be administered by the intramuscular or subcutaneous route or 
+as a bolus injection. </p>
+<ol>
+<li>DISPOSAL </li>
+</ol>
+<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
 
