@@ -4,7 +4,7 @@ Instance: composition-en-69ec9f0e9f354651ce97ae4316b8e482
 InstanceOf: CompositionUvEpi
 Title: "Composition for endolucinbeta Package Leaflet"
 Description:  "Composition for endolucinbeta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,14 +98,18 @@ from the procedure with the radiopharmaceutical outweighs the risk due to radiat
 additional information. </p>
 <p>Warnings and precautions 
 EndolucinBeta is not to be administered directly to patients. 
-Take special care with the medicine that is radiolabelled with EndolucinBeta: 
-- if you have renal impairment or bone marrow disease. </p>
-<p>Treatment with Lutetium (177Lu) may lead to the following side effects: 
-- a reduced number of red blood cells (anaemia); 
-- a reduced number of platelets in the blood (thrombocytopenia) which are important to stop 
-bleeding; 
-- a reduced number of white blood cells (leukopenia, lymphopenia or neutropenia) which are 
-important for protecting the body against infection. </p>
+Take special care with the medicine that is radiolabelled with EndolucinBeta:</p>
+<ul>
+<li>if you have renal impairment or bone marrow disease. </li>
+</ul>
+<p>Treatment with Lutetium (177Lu) may lead to the following side effects:</p>
+<ul>
+<li>a reduced number of red blood cells (anaemia); </li>
+<li>a reduced number of platelets in the blood (thrombocytopenia) which are important to stop 
+bleeding; </li>
+<li>a reduced number of white blood cells (leukopenia, lymphopenia or neutropenia) which are 
+important for protecting the body against infection. </li>
+</ul>
 <p>Most of these events are mild and only temporary. A reduced number of all 3 types of blood cells (red 
 blood cells, platelets, and white blood cells - pancytopenia), requiring treatment discontinuation has 
 been described in some patients. </p>
@@ -195,23 +199,33 @@ ask your nuclear medicine doctor who supervises the procedure. </p>         </di
 everybody gets them. </p>
 <p>Dry mouth has been reported among patients with prostate cancer receiving treatment with 
 Lutetium (177Lu) and has been temporary. </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- Reduction in blood cell counts (platelets, red or white blood cells) 
-- Nausea 
-- Vomiting </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Reduction in blood cell counts (platelets, red or white blood cells) </li>
+<li>Nausea </li>
+<li>Vomiting </li>
+</ul>
 <p>Side effects reported among patients treated for neuroendocrine tumours: </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- Mild temporary hair loss </p>
-<p>Common (may affect up to 1 in 10 people): 
-- Bone marrow cancer (myelodysplastic syndrome) 
-- A reduced number of white blood cells (neutropenia) </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- Bone marrow cancer (acute myeloid leukaemia) </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- Carcinoid crisis 
-- Tumour lysis syndrome (rapid breakdown of tumour cells) 
-- A reduced number of red blood cells, platelets, and white blood cells (pancytopenia) 
-- Dry mouth </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Mild temporary hair loss </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Bone marrow cancer (myelodysplastic syndrome) </li>
+<li>A reduced number of white blood cells (neutropenia) </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Bone marrow cancer (acute myeloid leukaemia) </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Carcinoid crisis </li>
+<li>Tumour lysis syndrome (rapid breakdown of tumour cells) </li>
+<li>A reduced number of red blood cells, platelets, and white blood cells (pancytopenia) </li>
+<li>Dry mouth </li>
+</ul>
 <p>Bone marrow cancer (myelodysplastic syndrome and acute myeloid leukaemia) has been reported in 
 patients several years after treatment with Lutetium (177Lu) peptide receptor radionuclide therapy for 
 neuroendocrine tumours.  </p>
@@ -259,7 +273,7 @@ solution in a colourless type I glass 2 mL or 10 mL vial with a V-shaped and fla
 with a bromobutyl stopper, closed with an aluminium seal. 
 Each pack contains 1 vial placed into a lead container for protective shielding and packed in a metallic 
 can and an outer carton. </p>
-<p>The volume of one vial ranges from 0.075 – 3.75 mL solution (corresponding to 3 – 150 GBq at 
+<p>The volume of one vial ranges from 0.075   3.75 mL solution (corresponding to 3   150 GBq at 
 activity reference time). The volume depends on the quantity of medicine combined with 
 EndolucinBeta required for administration by the nuclear medicine doctor. </p>
 <p>Marketing Authorisation Holder and Manufacturer 

@@ -4,7 +4,7 @@ Instance: composition-en-ee49834873239ca0bd02df0676c887ca
 InstanceOf: CompositionUvEpi
 Title: "Composition for clopidogrel Package Leaflet"
 Description:  "Composition for clopidogrel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,25 +76,25 @@ clots forming (a process called thrombosis). </p>
 vessels (arteries), a process known as atherothrombosis, which can lead to atherothrombotic events 
 (such as stroke, heart attack, or death).  </p>
 <p>You have been prescribed Clopidogrel Teva to help prevent blood clots and reduce the risk of these 
-severe events because: </p>
+severe events because:</p>
 <ul>
 <li>You have a condition of hardening of arteries (also known as atherosclerosis), and </li>
 <li>You have previously experienced a heart attack, stroke or have a condition known as peripheral 
 arterial disease, or </li>
-<li>You have experienced a severe type of chest pain known as ‘unstable angina’ or ‘myocardial 
-infarction’ (heart attack). For the treatment of this condition your doctor may have placed a stent 
+<li>You have experienced a severe type of chest pain known as  unstable angina  or  myocardial 
+infarction  (heart attack). For the treatment of this condition your doctor may have placed a stent 
 in the blocked or narrowed artery to restore effective blood flow. You may also be given 
 acetylsalicylic acid (a substance present in many medicines used to relieve pain and lower fever 
 as well as to prevent blood clotting) by your doctor. </li>
 <li>You have experienced symptoms of a stroke which go away within a short period of time (also 
 known as transient ischemic attack) or an ischemic stroke mild in severity. You may also be 
 given acetylsalicylic acid by your doctor starting within the first 24 hours. </li>
-<li>You have an irregular heartbeat, a condition called ‘atrial fibrillation’, and you cannot take 
-medicines known as ‘oral anticoagulants’ (vitamin K antagonists) which prevent new clots from 
-forming and prevent existing clots from growing. You should have been told that ‘oral 
-anticoagulants’ are more effective than acetylsalicylic acid or the combined use of Clopidogrel 
+<li>You have an irregular heartbeat, a condition called  atrial fibrillation , and you cannot take 
+medicines known as  oral anticoagulants  (vitamin K antagonists) which prevent new clots from 
+forming and prevent existing clots from growing. You should have been told that  oral 
+anticoagulants  are more effective than acetylsalicylic acid or the combined use of Clopidogrel 
 Teva and acetylsalicylic acid for this condition. Your doctor should have prescribed Clopidogrel 
-Teva and acetylsalicylic acid if you cannot take ‘oral anticoagulants’ and you do not have a risk 
+Teva and acetylsalicylic acid if you cannot take  oral anticoagulants  and you do not have a risk 
 of major bleeding. </li>
 </ul>
 <p>44  </p>         </div>"""   
@@ -133,12 +133,12 @@ seven days.
 * You should also tell your doctor immediately if you develop a medical condition (also known as 
 Thrombotic Thrombocytopenic Purpura or TTP) that includes fever and bruising under the skin 
 that may appear as red pinpoint dots, with or without unexplained extreme tiredness, confusion, 
-yellowing of the skin or eyes (jaundice) (see section 4 ‘Possible side effects’). 
+yellowing of the skin or eyes (jaundice) (see section 4  Possible side effects ). 
 * If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked to 
 the way your medicine works as it prevents the ability of blood clots to form. For minor cuts and 
 injuries, e.g., cutting yourself shaving, this is usually of no concern. However, if you are 
-concerned by your bleeding, you should contact your doctor straightaway (see section 4 ‘Possible 
-side effects’). 
+concerned by your bleeding, you should contact your doctor straightaway (see section 4  Possible 
+side effects ). 
 * Your doctor may order blood tests. </p>
 <p>Children and adolescents 
 Do not give this medicine to children because it does not work. </p>
@@ -147,21 +147,16 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. 
 Some other medicines may influence the use of Clopidogrel Teva or vice versa.  </p>
 <p>You should specifically tell your doctor if you take 
-- medicines that may increase your risk of bleeding such as: 
-o 
-oral anticoagulants, medicines used to reduce blood clotting, 
-o 
+- medicines that may increase your risk of bleeding such as: * 
+oral anticoagulants, medicines used to reduce blood clotting, * 
 a non-steroidal anti-inflammatory medicine, usually used to treat painful and/or 
 inflammatory conditions of muscle or joints, </p>
-<p>45  </p>
-<p>o 
-heparin or any other injectable medicine used to reduce blood clotting, 
-o 
-ticlopidine, or other antiplatelet agents, 
-o 
+<p>45<br />
+ * 
+heparin or any other injectable medicine used to reduce blood clotting, * 
+ticlopidine, or other antiplatelet agents, * 
 a selective serotonin reuptake inhibitor (including but not restricted to fluoxetine or 
-fluvoxamine), medicines usually used to treat depression, 
-o 
+fluvoxamine), medicines usually used to treat depression, * 
 rifampicin (used to treat severe infections), 
 - omeprazole or esomeprazole, medicines to treat upset stomach, 
 - fluconazole or voriconazole, medicines to treat fungal infections, 
@@ -195,8 +190,8 @@ Clopidogrel Teva is unlikely to affect your ability to drive or to use machines.
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>Clopidogrel Teva contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take clopidogrel"
@@ -206,7 +201,7 @@ free’. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
 <p>46  </p>
-<p>The recommended dose, including for patients with a condition called ‘atrial fibrillation’ (an irregular 
+<p>The recommended dose, including for patients with a condition called  atrial fibrillation  (an irregular 
 heartbeat), is one 75 mg tablet of Clopidogrel Teva per day to be taken orally with or without food, 
 and at the same time each day. </p>
 <p>If you have experienced severe chest pain (unstable angina or heart attack), your doctor may give you 
@@ -247,7 +242,7 @@ stopping. </p>
 cells 
 * Signs of liver problems such as yellowing of the skin and /or the eyes (jaundice), whether or not 
 associated with bleeding which appears under the skin as red pinpoint dots and/or confusion (see 
-section 2 ‘Warnings and precautions’). 
+section 2  Warnings and precautions ). 
 * Swelling in the mouth or skin disorders such as rashes and itching, blisters of the skin. These may 
 be the signs of an allergic reaction. </p>
 <p>The most common side effect reported with Clopidogrel Teva is bleeding. Bleeding may occur as 
@@ -259,7 +254,7 @@ lung or the joints has also been reported. </p>
 If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked to the 
 way your medicine works as it prevents the ability of blood clots to form. For minor cuts and injuries 
 e.g., cutting yourself, shaving, this is usually of no concern. However, if you are concerned by your 
-bleeding, you should contact your doctor straightaway (see section 2 ‘Warnings and precautions’). </p>
+bleeding, you should contact your doctor straightaway (see section 2  Warnings and precautions ). </p>
 <p>Other side effects include: 
 Common side effects (may affect up to 1 in 10 people):<br />
 Diarrhoea, abdominal pain, indigestion or heartburn. </p>
@@ -306,31 +301,25 @@ throw away medicines you no longer use. These measures will help to protect the 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Clopidogrel Teva contains 
 * The active substance is clopidogrel. Each film-coated tablet contains 75 mg of clopidogrel (as 
 hydrogen sulfate). 
-* The other ingredients are (see section 2 ‘Clopidogrel Teva contains lactose’ and ‘Clopidogrel Teva 
-contains sodium’): 
-− 
-Tablet core: lactose monohydrate, microcrystalline cellulose, hydroxypropylcellulose (E463), 
-crospovidone (type A), hydrogenated vegetable oil and sodium laurilsulfate. 
-− 
-Tablet coating: lactose monohydrate, hypromellose (E464), titanium dioxide (E171), 
+* The other ingredients are (see section 2  Clopidogrel Teva contains lactose  and  Clopidogrel Teva 
+contains sodium ): </p>
+<p>Tablet core: lactose monohydrate, microcrystalline cellulose, hydroxypropylcellulose (E463), 
+crospovidone (type A), hydrogenated vegetable oil and sodium laurilsulfate. </p>
+<p>Tablet coating: lactose monohydrate, hypromellose (E464), titanium dioxide (E171), 
 macrogol 4000, iron oxide red (E172), iron oxide yellow (E172) and indigo carmine 
 aluminium lake (E132). </p>
 <p>What Clopidogrel Teva looks like and contents of the pack 
 * The film-coated tablets are light pink to pink, film coated, capsule shaped tablets. One side of the 
-tablet is debossed with the number “93”.  The other side of the tablet is debossed with the number 
-“7314”. 
-* Clopidogrel Teva is supplied in: 
-− 
-Peelable perforated blisters of aluminium/aluminium containing 14x1, 28x1, 30x1, 50x1, 
-84x1, 90x1 or 100x1 tablets 
-− 
-Perforated blisters of aluminium/aluminium containing 14x1, 28x1, 30x1, 50x1, 84x1, 90x1 
-or 100x1 tablets 
-− 
-HDPE bottles with polypropylene closures or child resistant polypropylene closures and 
-silica gel desiccant containing 30 or 100 tablets. 
-− 
-Calendar pack of perforated blisters of aluminium/aluminium containing 28x1 tablets </p>
+tablet is debossed with the number  93 .  The other side of the tablet is debossed with the number 
+ 7314 . 
+* Clopidogrel Teva is supplied in: </p>
+<p>Peelable perforated blisters of aluminium/aluminium containing 14x1, 28x1, 30x1, 50x1, 
+84x1, 90x1 or 100x1 tablets </p>
+<p>Perforated blisters of aluminium/aluminium containing 14x1, 28x1, 30x1, 50x1, 84x1, 90x1 
+or 100x1 tablets </p>
+<p>HDPE bottles with polypropylene closures or child resistant polypropylene closures and 
+silica gel desiccant containing 30 or 100 tablets. </p>
+<p>Calendar pack of perforated blisters of aluminium/aluminium containing 28x1 tablets </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Please note that instructions on how to remove the tablet from the blister strip are given on the 
 outer carton of the peelable blisters. </p>
@@ -342,11 +331,11 @@ Swensweg 5
 The Netherlands </p>
 <p>Manufacturer: </p>
 <p>TEVA Pharmaceutical Works Private Limited Company<br />
-Pallagi út 13,<br />
+Pallagi  t 13,<br />
 4042 Debrecen, 
 Hungary </p>
 <p>Merckle GmbH 
-Ludwig-Merckle-Straße 3 
+Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
 Germany </p>
 <p>Balkanpharma Dupnitsa AD 
@@ -356,23 +345,21 @@ Dupnitsa 2600,  </p>
 <p>Bulgaria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 TEVA GmbH 
 Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
+T l/Tel: +49 73140 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -392,29 +379,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS Α.Ε. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS  . . 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -423,29 +409,27 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Finland Oy 
 Finnland </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 50  </p>
-<p>Sími: +358 201805 
+<p>S mi: +358 201805 
 Italia 
 Teva Italia S.r.l. 
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS Α.Ε. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>TEVA HELLAS  . . </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

@@ -4,7 +4,7 @@ Instance: composition-en-0e210569ec71496664e40726e162d3a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for fabrazyme Package Leaflet"
 Description:  "Composition for fabrazyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code.text =  "1. What fabrazyme is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fabrazyme contains the active substance agalsidase beta and is used as enzyme replacement therapy 
-in Fabry disease, where the level of -galactosidase enzyme activity is absent or lower than normal. If 
+in Fabry disease, where the level of  -galactosidase enzyme activity is absent or lower than normal. If 
 you suffer from Fabry disease a fat substance, called globotriaosylceramide (GL-3), is not removed 
 from the cells of your body and starts to accumulate in the walls of the blood vessels of your organs. </p>
 <p>Fabrazyme is indicated for use as long-term enzyme replacement therapy in patients with a confirmed 
@@ -112,8 +112,8 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 Do not drive or use machines if you experience dizziness, sleepiness, vertigo or fainting during or 
 shortly after administration of Fabrazyme (see section 4). Talk to your doctor first. </p>
 <p>Fabrazyme contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fabrazyme"
@@ -131,7 +131,7 @@ criteria. Please contact your doctor if you would like to be treated at home. </
 <p>The recommended dose of Fabrazyme for adults is 1 mg/kg body weight, once every 2 weeks. No 
 changes in dose are necessary for patients with kidney disease.  </p>
 <p>Use in children and adolescents 
-The recommended dose of Fabrazyme for children and adolescents 8 – 16 years is 1 mg/kg body 
+The recommended dose of Fabrazyme for children and adolescents 8   16 years is 1 mg/kg body 
 weight, once every 2 weeks. No changes in dose are necessary for patients with kidney disease.  </p>
 <p>If you use more Fabrazyme than you should 
 Doses up to 3 mg/kg body weight have shown to be safe. </p>
@@ -147,8 +147,8 @@ If you have missed an infusion of Fabrazyme, please contact your doctor.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>In clinical studies side effects were mainly seen while patients were being given the medicine or 
-shortly after (“infusion related reactions”). Severe life-threatening allergic reactions (“anaphylactoid </p>
-<p>reactions”) have been reported in some patients. If you experience any serious side effect, you should 
+shortly after ( infusion related reactions ). Severe life-threatening allergic reactions ( anaphylactoid </p>
+<p>reactions ) have been reported in some patients. If you experience any serious side effect, you should 
 contact your doctor immediately. </p>
 <p>Very common symptoms (may affect more than 1 in 10 people) include chills, fever, feeling cold, 
 nausea, vomiting, headache and abnormal feelings in the skin such as burning or tingling. Your doctor 
@@ -156,93 +156,93 @@ may decide to lower the infusion rate or give you additional medicines to preven
 occurring. </p>
 <p>List of other side effects: </p>
 <p>Common (may affect up to 1 in 10 people):<br />
-• chest pain 
-• sleepiness 
-• fatigue 
-• difficulty in breathing 
-• increased heart beat 
-• flushing 
-• pallor 
-• abdominal pain 
-• pain 
-• itching 
-• back pain 
-• throat tightness 
-• abnormal tear secretion 
-• rash 
-• dizziness 
-• feeling weak 
-• low heart rate 
-• palpitations 
-• tinnitus 
-• lethargy 
-• decreased sensitivity to pain 
-• nasal congestion 
-• syncope 
-• burning sensation 
-• diarrhoea 
-• cough 
-• wheezing 
-• redness 
-• abdominal discomfort 
-• urticaria 
-• muscle pain 
-• swelling face 
-• pain at the extremities 
-• increased blood pressure 
-• joint pain 
-• nasopharyngitis 
-• sudden swelling of the face 
+  chest pain 
+  sleepiness 
+  fatigue 
+  difficulty in breathing 
+  increased heart beat 
+  flushing 
+  pallor 
+  abdominal pain 
+  pain 
+  itching 
+  back pain 
+  throat tightness 
+  abnormal tear secretion 
+  rash 
+  dizziness 
+  feeling weak 
+  low heart rate 
+  palpitations 
+  tinnitus 
+  lethargy 
+  decreased sensitivity to pain 
+  nasal congestion 
+  syncope 
+  burning sensation 
+  diarrhoea 
+  cough 
+  wheezing 
+  redness 
+  abdominal discomfort 
+  urticaria 
+  muscle pain 
+  swelling face 
+  pain at the extremities 
+  increased blood pressure 
+  joint pain 
+  nasopharyngitis 
+  sudden swelling of the face 
 or throat 
-• decreased blood pressure 
-• hot flush 
-• oedema in extremities 
-• chest discomfort 
-• feeling hot<br />
-• vertigo 
-• face oedema<br />
-• hyperthermia 
-• stomach discomfort 
-• exacerbated difficulty in 
+  decreased blood pressure 
+  hot flush 
+  oedema in extremities 
+  chest discomfort 
+  feeling hot<br />
+  vertigo 
+  face oedema<br />
+  hyperthermia 
+  stomach discomfort 
+  exacerbated difficulty in 
 breathing 
-• decreased mouth sensitivity 
-• muscle spasms 
-• muscle tightness 
-• musculoskeletal stiffness </p>
+  decreased mouth sensitivity 
+  muscle spasms 
+  muscle tightness 
+  musculoskeletal stiffness </p>
 <p>Uncommon (may affect up to 1 in 100 people): 
-• tremor 
-• itching eyes 
-• low heart rate due to conduction 
+  tremor 
+  itching eyes 
+  low heart rate due to conduction 
 disturbances 
-• red eyes 
-• ear swelling 
-• increased sensitivity to pain 
-• ear pain 
-• bronchospasm 
-• upper respiratory tract congestion 
-• throat pain 
-• runny nose 
-• red rash 
-• fast breathing 
-• heart burn 
-• (mottled purplish) skin 
+  red eyes 
+  ear swelling 
+  increased sensitivity to pain 
+  ear pain 
+  bronchospasm 
+  upper respiratory tract congestion 
+  throat pain 
+  runny nose 
+  red rash 
+  fast breathing 
+  heart burn 
+  (mottled purplish) skin 
 discolouration 
-• itchy rash 
-• skin discomfort 
-• coldness of the extremities 
-• feeling hot and cold 
-• musculoskeletal pain 
-• injection site blood clotting 
-• difficulty swallowing 
-• rhinitis 
-• skin discolouration 
-• infusion site pain 
-• influenza-like illness 
-• oedema 
-• infusion site reaction 
-• malaise </p>
+  itchy rash 
+  skin discomfort 
+  coldness of the extremities 
+  feeling hot and cold 
+  musculoskeletal pain 
+  injection site blood clotting 
+  difficulty swallowing 
+  rhinitis 
+  skin discolouration 
+  infusion site pain 
+  influenza-like illness 
+  oedema 
+  infusion site reaction 
+  malaise </p>
 <p>Not known (frequency cannot be estimated from the available data): 
-* lower blood oxygen levels • serious inflammation of the 
+* lower blood oxygen levels   serious inflammation of the 
 vessels </p>
 <p>In some patients initially treated at the recommended dose, and whose dose was later reduced for an 
 extended period, some symptoms of Fabry disease were reported more frequently. </p>
@@ -258,13 +258,13 @@ of this medicine. </p>         </div>"""
   * code.text = "5. How to store fabrazyme"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label after ‘EXP’. The expiry date 
+<p>Do not use this medicine after the expiry date which is stated on the label after  EXP . The expiry date 
 refers to the last day of that month. </p>
 <p>Unopened vials 
-Store in a refrigerator (2C – 8C). </p>
+Store in a refrigerator (2 C   8 C). </p>
 <p>Reconstituted and diluted solutions 
 The reconstituted solution cannot be stored and should be promptly diluted. The diluted solution can 
-be held for up to 24 hours at 2C – 8C. </p>
+be held for up to 24 hours at 2 C   8 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -277,10 +277,12 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fabrazyme contains 
 - The active substance is agalsidase beta, one vial contains 35 mg.  After reconstitution each vial 
 contains 5 mg of agalsidase beta per ml.<br />
-- The other ingredients are:<br />
-- Mannitol (E421) 
-- Sodium dihydrogen phosphate monohydrate (E339) 
-- Disodium phosphate heptahydrate (E339). </p>
+- The other ingredients are:</p>
+<ul>
+<li>Mannitol (E421) </li>
+<li>Sodium dihydrogen phosphate monohydrate (E339) </li>
+<li>Disodium phosphate heptahydrate (E339). </li>
+</ul>
 <p>What Fabrazyme looks like and contents of the pack 
 Fabrazyme is supplied as a white to off-white powder. After reconstitution it is a clear, colourless 
 liquid, free from foreign matter. The reconstituted solution must be further diluted.<br />
@@ -292,19 +294,18 @@ Sanofi B.V., Paasheuvelweg 25, 1105 BP Amsterdam, The Netherlands </p>
 Genzyme Ireland Limited, IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
+T l/Tel: + 32 2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
-Tel: +36 1 505 0Česká republika 
+Tel: +36 1 505 0 esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
 Malta 
@@ -322,25 +323,24 @@ Norge
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71<br />
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1Polska 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 1Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
-España 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda.<br />
+Sanofi   Produtos Farmac uticos, Lda.<br />
 Tel: +351 21 35 89 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
-România 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Hrvatska 
@@ -352,12 +352,12 @@ Tel: +386 1 235 51<br />
 Ireland 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +353 (0) 1 403 56<br />
-Slovenská republika 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
@@ -367,9 +367,8 @@ Tel: 800536
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50  </p>
-<p>Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2 </p>

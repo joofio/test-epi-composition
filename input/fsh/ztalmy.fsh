@@ -4,7 +4,7 @@ Instance: composition-en-4cea547a14718def3c540c6ab9866ad6
 InstanceOf: CompositionUvEpi
 Title: "Composition for ztalmy Package Leaflet"
 Description:  "Composition for ztalmy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,11 +71,9 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZTALMY contains the active substance ganaxolone, a neuroactive steroid that works by attaching to 
 specific receptors and stops the brain from having epileptic seizures. </p>
-<p>ZTALMY is used to treat a rare epileptic seizure disorder called ‘cyclin-dependent kinase-like 5 
-(CDKL5) deficiency disorder’ (CDD) in patients 2  to 17 years of age.  If ZTALMY is helping to treat 
-your seizures, it can still continue to be used when you or your child turns 18.<br />
-ZTALMY is used in combination with other anti-epileptic medicines.  </p>
-<p>This medicine will reduce the number of daily epileptic seizures you or your child may experience. </p>         </div>"""   
+<p>ZTALMY is used to treat a rare epileptic seizure disorder called  cyclin-dependent kinase-like 5 
+(CDKL5) deficiency disorder  (CDD) in patients 2  to 17 years of age.  If ZTALMY is helping to treat 
+your seizures, it can still continue to be used when you or your child turns 1</p>         </div>"""   
           
 
              
@@ -84,7 +82,12 @@ ZTALMY is used in combination with other anti-epileptic medicines.  </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ztalmy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take ZTALMY if you are allergic to ganaxolone or any of the other ingredients of this 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZTALMY is used in combination with other anti-epileptic medicines.  </p>
+<p>This medicine will reduce the number of daily epileptic seizures you or your child may experience. </p>
+<ol>
+<li>What you or your child need to know before taking ZTALMY </li>
+</ol>
+<p>Do not take ZTALMY if you are allergic to ganaxolone or any of the other ingredients of this 
 medicine (listed in section 6). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking ZTALMY if: </p>
@@ -124,16 +127,20 @@ other medicines. Taking ZTALMY with certain other medicines may cause side effec
 other medicines work or affect how ZTALMY works.<br />
 Do not start or stop taking other medicines without talking to your doctor or pharmacist first. </p>
 <p>Tell your doctor if you or your child are taking any of the following medicines, as your dose of 
-ZTALMY may need to be adjusted: </p>
+ZTALMY may need to be adjusted:</p>
 <ul>
-<li>Valproate-containing medicines, which are used to treat epilepsy, they may require your dose of 
+<li>
+<p>Valproate-containing medicines, which are used to treat epilepsy, they may require your dose of 
 ZTALMY to be lower; 
 Medicines that may reduce how ZTALMY works may require your dose of ZTALMY to be 
-higher: </li>
-<li>Other antiepileptic or anticonvulsant medicines such as carbamazepine, phenytoin, 
-phenobarbital and primidone; </li>
+higher:</p>
+</li>
+<li>
+<p>Other antiepileptic or anticonvulsant medicines such as carbamazepine, phenytoin, 
+phenobarbital and primidone; </p>
+</li>
 <li>Antibiotics such as rifampicin; </li>
-<li>St. John’s Wort (Hypericum perforatum), a herbal remedy used for mild depression. </li>
+<li>St. John s Wort (Hypericum perforatum), a herbal remedy used for mild depression. </li>
 </ul>
 <p>The interaction between this medicine and oral contraceptives has not been investigated. Talk to your 
 doctor if you are taking oral contraceptives. </p>
@@ -152,7 +159,7 @@ ZTALMY can make you feel drowsy/sleepy. If affected, do not drive, ride a bicycl
 machine until you feel more alert. 
 ZTALMY contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per each mL, that is to say, it is essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>ZTALMY contains sodium benzoate and benzoic acid 
 This medicine contains 0.92 mg sodium benzoate and 0.00068 mg benzoic acid in each mL. Sodium 
 benzoate and benzoic acid may increase jaundice (yellowing of the skin and eyes) in newborn babies 
@@ -160,12 +167,12 @@ benzoate and benzoic acid may increase jaundice (yellowing of the skin and eyes)
 <p>ZTALMY contains benzyl alcohol 
 This medicine contains 0.00023 mg benzyl alcohol in each mL. Benzyl alcohol may cause allergic 
 reactions. Benzyl alcohol has been linked with the risk of severe side effects including breathing 
-problems (called “gasping syndrome”) in young children. Do not give to your newborn baby (up to 
+problems (called  gasping syndrome ) in young children. Do not give to your newborn baby (up to 
 4 weeks old), unless recommended by your doctor. Do not use for more than a week in young children 
 (less than 3 years old), unless advised by your doctor or pharmacist. Increased risk due to 
 accumulation in young children. Ask your doctor or pharmacist for advice if you are pregnant or 
-breast‑feeding, or if you have a liver or kidney disease. This is because large amounts of benzyl 
-alcohol can build-up in your body and may cause side effects (called ‘metabolic acidosis’). </p>
+breast feeding, or if you have a liver or kidney disease. This is because large amounts of benzyl 
+alcohol can build-up in your body and may cause side effects (called  metabolic acidosis ). </p>
 <p>ZTALMY contains methyl parahydroxybenzoate and propyl parahydroxybenzoate<br />
 This medicinal product contains 1.02 mg methyl parahydroxybenzoate and 0.2 mg propyl 
 parahydroxybenzoate in each mL which may cause allergic reactions (possibly delayed). </p>         </div>"""   
@@ -223,16 +230,12 @@ used dosing syringe and use the spare syringe contained in the carton. </li>
 you to write down the date for discarding the bottle after opening so you do not forget.  </li>
 <li>After 30 days, discard any ZTALMY that has not been used, and use a new bottle. </li>
 </ul>
-<p>Preparing the bottle: </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>shake it up and down well for 
-1 minute. </p>
+<p>Preparing the bottle: </p>
+<ol>
+<li>Hold the bottle in your hand and 
+shake it up and down well for 
+1 minute. </li>
+</ol>
 <p>Always shake the bottle well for 
 1 minute then let the bottle stand for 
 1 minute so that any foam that builds 
@@ -241,16 +244,175 @@ measuring and giving each dose of
 ZTALMY. This helps you measure 
 the correct amount of medicine. </p>
 <p>NOTE: This step is for each dose of 
-the medicine. </p>         </div>"""      
+the medicine. </p>
+<ol>
+<li>
+<p>Remove the child-resistant cap on 
+the bottle by pushing the cap down 
+whilst turning the cap to the left 
+(anti-clockwise). </p>
+</li>
+<li>
+<p>Puncture and peel off the induction 
+seal from the bottle. </p>
+</li>
+</ol>
+<p>NOTE: This step is only for the first 
+use of the bottle. </p>
+<ol>
+<li>Hold the bottle tight with one hand 
+while pushing the bottle adaptor 
+firmly into the neck of the bottle 
+with the other hand, and make sure it 
+is fully inserted. The adaptor could 
+come off and cause choking if it is 
+not fully inserted. </li>
+</ol>
+<p>NOTE: Do not remove the press-in 
+bottle adapter from the bottle after it 
+is inserted. </p>
+<p>Preparing the dose: </p>
+<ol>
+<li>Insert the tip of the correct reusable 
+oral dosing syringe fully into the 
+bottle adaptor, and with the oral 
+syringe in place, turn the bottle 
+upside down. </li>
+</ol>
+<p>It is important that you use the correct 
+reusable oral dosing syringe to measure 
+your dose: 
+* If your dose is 3 mL (150 mg) or 
+less, you should use the smaller 
+3 mL syringe.<br />
+* If your dose is more than 3 mL 
+(150 mg), you should use the larger 
+12 mL syringe.  </p>
+<ol>
+<li>Slowly pull back the plunger of the 
+syringe, so the volume (number of 
+mL) of oral suspension needed is 
+drawn into the syringe. Line up the 
+end of the plunger with the volume 
+marking required, as shown 
+opposite. </li>
+</ol>
+<p>If there is an air bubble in the 
+syringe, push the liquid back into the 
+bottle whilst keeping the bottle 
+upside down, and repeat Step 6 until 
+the bubble has gone. </p>
+<ol>
+<li>Turn the bottle the right side up, and 
+carefully remove the oral syringe 
+from the adaptor. </li>
+</ol>
+<p>Taking or giving ZTALMY: </p>
+<ol>
+<li>
+<p>Place the tip of the oral syringe 
+inside the cheek, and gently push the 
+plunger to release the medicine. 
+Do not push the plunger forcefully 
+or direct the medicine to the back of 
+the mouth or throat. </p>
+</li>
+<li>
+<p>Screw the child resistant cap back on 
+the bottle tightly, by turning the cap 
+to the right (clockwise). You do not 
+need to remove the bottle adaptor; 
+the cap will fit over it. </p>
+</li>
+<li>
+<p>Wash the oral syringe immediately 
+after use.  Remove the plunger from 
+the barrel of the syringe, and rinse 
+both parts using room temperature 
+tap water.   </p>
+</li>
+</ol>
+<p>Warning:<br />
+Do not use bleach or any other 
+harsh cleaning solutions. 
+Do not wash the oral syringe in a 
+dishwasher. </p>
+<ol>
+<li>Shake off any water from both 
+syringe parts and allow them to air-
+dry separately until the next use. 
+Make sure both parts are completely 
+dry before placing the plunger back 
+into the syringe barrel for the next 
+use. If both parts are not completely 
+dry before the next dose, use the 
+appropriate spare syringe provided 
+in the pack.  </li>
+</ol>
+<p>When using the 12 mL syringe 
+accompanying each bottle, do not 
+throw away the reusable oral 
+syringes until the bottle is empty. 
+When using the 3 mL syringe, 
+discard after 16 days.   </p>
+<ol>
+<li>Repeat steps 1-3 and 6-12 for each 
+next dose. </li>
+</ol>
+<p>If you take more ZTALMY than you should 
+If you accidentally take more ZTALMY than you should, tell a doctor or pharmacist immediately, 
+or contact your nearest hospital casualty department, and take the medicine with you. You may feel 
+drowsy or sleepy from taking too much medicine.  </p>
+<p>If you forget to take ZTALMY 
+If you forget to take a dose, the missed dose may be taken up to 4 hours before the next scheduled 
+dose. When the next dose is due in less than 4 hours, it is recommended to skip the dose and continue 
+with the next scheduled dose.  </p>
+<p>If you stop taking ZTALMY 
+Do not reduce the dose or stop taking ZTALMY without first talking to your doctor. Stopping this 
+treatment abruptly could increase your seizures. The doctor will explain how to gradually stop taking 
+ZTALMY.  </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>You may get the following side effects with this medicine. Tell the doctor if you have any of the 
+following: </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>feeling drowsy or sleepy; </li>
+<li>fever. </li>
+</ul>
+<p>Common (may affect more than 1 in 100 people):</p>
+<ul>
+<li>feeling overly calm or relaxed; </li>
+<li>feeling excessively tired during the day or sleeping longer than usual at night;  </li>
+<li>lack of energy; </li>
+<li>drooling; </li>
+<li>producing more saliva than usual. </li>
+</ul>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
+of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ztalmy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store ztalmy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>the bottle by pushing the cap down 
-whilst turning the cap to the left 
-(anti-clockwise). </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the bottle label after 
+EXP. The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special temperature storage conditions. Discard any unused 
+medicine 30 days after first opening. </p>
+<p>Do not throw away any medicines in the wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -258,7 +420,127 @@ whilst turning the cap to the left
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>seal from the bottle. </p>
-<p>NOTE: This step is only for the first 
-use of the bottle. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ZTALMY contains 
+- The active substance is ganaxolone. Each mL of oral suspension contains 50 mg of ganaxolone. </p>
+<ul>
+<li>The other ingredients are: hypromellose (E464), polyvinyl alcohol (E1203), sodium lauryl 
+sulfate (E487), methyl parahydroxybenzoate (E218), propyl parahydroxybenzoate (E216), 
+sodium benzoate (E211), citric acid anhydrous (E330), sodium citrate dihydrate (E311), 
+artificial cherry flavour (including propylene glycol [E1520] and benzyl alcohol [E1519]), 
+sucralose (E955), simethicone emulsion (simethicone, polysorbate 65, methylcellulose, 
+polyethelene, glycolmonostearate, glycerol monostrearate, xanthan gum, benzoic acid [E210], 
+sorbic acid and purified water), purified water (see also section 2  ZTALMY contains sodium ; 
+ ZTALMY contains sodium benzoate ,  ZTALMY contains benzoic acid ,  ZTALMY contains 
+benzyl alcohol , and  ZTALMY contains methyl parahydroxybenzoate and propyl 
+parahydroxybenzoate ). </li>
+</ul>
+<p>What ZTALMY looks like and contents of the pack 
+ZTALMY is a white to off-white oral suspension.  It comes in a plastic bottle which has a plastic 
+child-resistant cap. Each bottle contains 110 mL of oral suspension. </p>
+<p>ZTALMY is supplied in packs of either:</p>
+<ul>
+<li>one bottle of oral suspension, two 12 mL and two 3 mL oral dosing syringes, and one bottle 
+adaptor; or  </li>
+<li>five bottles of oral suspension, five 12 mL oral dosing syringes, and five bottle adaptors.  </li>
+</ul>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Marinus Pharmaceuticals Emerald Limited 
+10 Earlsfort Terrace 
+Dublin 2 
+D02 TIreland </p>
+<p>Manufacturer 
+Orion Corporation Orion Pharma<br />
+Joensuunkatu 7 
+FI-24100 Salo<br />
+Finland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder.  </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg<br />
+Orion Pharma BVBA/SPRL 
+T l/Tel: +32 (0)15 64 10<br />
+Danmark 
+Orion Pharma A/S 
+Tlf: +45 8614 00 Nederland 
+Orion Pharma BVBA/SPRL 
+Tel: +32 (0)15 64 10<br />
+Eesti 
+Orion Pharma Eesti O <br />
+Tel: +372 6 644<br />
+ esk  republika 
+Orion Pharma s.r.o. 
+Tel: +420 234 703<br />
+Espa a 
+Orion Pharma S.L. 
+Tel: + 34 91 599 86<br />
+Deutschland<br />
+ sterreich 
+Orion Pharma GmbH 
+Tel: + 49 40 899 6 
+Ireland 
+Orion Pharma (Ireland) Ltd. 
+c/o Allphar Services Ltd.<br />
+Tel: + 353 1 428 7 </p>
+<p>Orion Pharma Hellas M.E. .E 
+ : + 30 210 980 3 
+Italia 
+Orion Pharma S.r.l. 
+Tel: + 39 02 67876 
+France 
+Orion Pharma<br />
+T l: +33 (0) 1 85 18 00<br />
+Latvija 
+Orion Corporation<br />
+Orion Pharma p rst vniec ba 
+Tel: +371 20028 
+ sland 
+Vistor hf. 
+Simi: +354 535 7 
+Magyarorsz g 
+Orion Pharma Kft. 
+Tel.: +36 1 239 9 </p>
+<p>Lifepharma (ZAM) Ltd 
+ .: +357 22056300<br />
+Polska 
+Orion Pharma Poland Sp. z.o.o. 
+Tel.: + 48 22 8 333<br />
+Lietuva 
+UAB Orion Pharma 
+Tel: +370 5 276 9 
+Slovenija 
+Orion Pharma d.o.o. 
+Tel: +386 (0) 1 600 8 
+Norge 
+Orion Pharma AS 
+Tlf: + 47 4000 4 
+Suomi/Finland 
+Orion Corporation 
+Puh/Tel: + 358 10 4 
+Portugal 
+Orionfin Unipessoal Lda 
+Tel: + 351 21 154 68<br />
+Rom nia 
+Orion Corporation 
+Tel: + 358 10 4 
+Hrvatska 
+Orion Pharma d.o.o. <br />
+Tel: +386 (0) 1 600 8015  </p>
+<p>United Kingdom (Northern Ireland): 
+Orion Pharma (Ireland) Ltd. 
+c/o Allphar Services Ltd.<br />
+Tel: +353 1 428 7 
+Malta 
+Salomone Pharma<br />
+Tel: +356 21220174   </p>
+<p>Sverige 
+Orion Pharma AB 
+Tel: + 46 8 623 6Slovensk  republika 
+Orion Pharma s.r.o. 
+Tel: +420 234 703  </p>
+<p>Orion Pharma Poland Sp z.o.o.<br />
+Tel.: + 48 22 8333177  </p>
+<p>This leaflet was last revised in:  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

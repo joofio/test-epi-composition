@@ -4,7 +4,7 @@ Instance: composition-en-d143dc49ab0647909fad048e72ad56b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for inrebic Package Leaflet"
 Description:  "Composition for inrebic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,8 +70,8 @@ Usage: #example
   * code.text =  "1. What inrebic is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Inrebic is 
-Inrebic contains the active substance fedratinib. It is a type of medicine known as ‘protein kinase 
-inhibitors’. </p>
+Inrebic contains the active substance fedratinib. It is a type of medicine known as  protein kinase 
+inhibitors . </p>
 <p>What Inrebic is used for 
 Inrebic is used to treat adult patients with an enlarged spleen or with symptoms related to 
 myelofibrosis, a rare form of blood cancer. </p>
@@ -97,17 +97,17 @@ section 6).
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking these capsules and during treatment, if you have any 
 of the following signs or symptoms: </p>
-<p>Condition affecting the brain called encephalopathy, including Wernicke’s encephalopathy 
+<p>Condition affecting the brain called encephalopathy, including Wernicke s encephalopathy 
 * Confusion, memory loss, or difficulty thinking; loss of balance or difficulty walking. 
 * Eye problems such as random eye movement, double-vision, blurred vision and loss of vision. 
-These maybe signs of a brain condition called encephalopathy, including Wernicke’s 
+These maybe signs of a brain condition called encephalopathy, including Wernicke s 
 encephalopathy which may lead to death. 
 Contact your doctor immediately if you get any of these signs or symptoms. </p>
 <p>Talk to your doctor or pharmacist during your treatment 
-* if you are feeling very tired, being short of breath, pale skin or fast heartbeat – these may be 
+* if you are feeling very tired, being short of breath, pale skin or fast heartbeat   these may be 
 signs of a low red blood cell count. 
 * if you have unusual bleeding or bruising under the skin, longer than usual bleeding after your 
-blood has been drawn, or bleeding from your gums – these may be signs of a low blood platelet 
+blood has been drawn, or bleeding from your gums   these may be signs of a low blood platelet 
 count. 
 * if you have frequent or re-occurring of infections which may be a sign of a low white blood cell 
 count. 
@@ -171,7 +171,7 @@ if this medicine passes into breast milk. </p>
 If you feel dizzy, do not drive or operate machines until these side effects have gone away. </p>
 <p>Inrebic contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inrebic"
@@ -210,7 +210,7 @@ If you have any further questions on the use of this medicine, ask your doctor, 
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately if you notice any of the following symptoms which could be a sign 
-of a serious condition which affects the brain called encephalopathy (including Wernicke’s 
+of a serious condition which affects the brain called encephalopathy (including Wernicke s 
 encephalopathy): 
 * Confusion, memory loss or difficulty thinking, 
 * Loss of balance or difficulty walking, 
@@ -269,20 +269,17 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Inrebic contains 
 * The active substance is fedratinib. Each hard capsule contains fedratinib dihydrochloride 
 monohydrate equivalent to 100 mg fedratinib. 
-* The other ingredients are: 
-o 
+* The other ingredients are: * 
 The capsule content contains silicified microcrystalline cellulose (contains 
 microcrystalline cellulose (E460) and silica colloidal anhydrous (E551)) and sodium 
-stearyl fumarate (see section 2, “Inrebic contains sodium”). 
-o 
+stearyl fumarate (see section 2,  Inrebic contains sodium ). * 
 The capsule shell contains gelatin (E441), titanium dioxide (E171) and red iron oxide 
-(E172). 
-o 
+(E172). * 
 The white printing ink is composed of shellac (E904), titanium dioxide (E171) and 
 propylene glycol (E1520). </p>
 <p>What Inrebic looks like and contents of the pack 
-* Inrebic are 21.4 -22.0 mm, reddish-brown capsules, printed with “FEDR” on the cap and 
-“100 mg” on the body in white ink. 
+* Inrebic are 21.4 -22.0 mm, reddish-brown capsules, printed with  FEDR  on the cap and 
+ 100 mg  on the body in white ink. 
 * The capsules are packaged in a high-density polyethylene (HDPE) bottle with a seal and 
 polypropylene child resistant cap. Each bottle contains 120 capsules and is packed in a 
 cardboard carton. </p>

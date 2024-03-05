@@ -4,7 +4,7 @@ Instance: composition-en-d14c5d7dea1d2e7785c6d37dbbff6788
 InstanceOf: CompositionUvEpi
 Title: "Composition for orphacol Package Leaflet"
 Description:  "Composition for orphacol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Orphacol 
 4. Possible side effects 
 5. How to store Orphacol 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -124,7 +123,7 @@ have an intolerance to some sugars, contact your doctor before taking Orphacol. 
 <p>The usual starting dose is 5 to 15 mg per kilogram body weight every day in infants, children, adolescents 
 and adults. </p>
 <p>Before treatment your doctor will make an assessment from your laboratory tests to determine the correct 
-dose for you. The dose will then be further adjusted by your doctor depending on your body’s response.  </p>
+dose for you. The dose will then be further adjusted by your doctor depending on your body s response.  </p>
 <p>Orphacol capsules are taken by mouth with a meal at approximately the same time each day, in the 
 morning and/or evening. Taking Orphacol at regular times with a meal will help you remember to take 
 this medicine, and may help your body to better take it up. Capsules must be swallowed whole with water. 
@@ -178,7 +177,7 @@ reporting side effects you can help provide more information on the safety of th
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the reach and sight of children. </p>
 <p>Do not use Orphacol after the expiry date which is stated on the carton and blister after EXP. The expiry 
 date refers to the last day of that month. </p>
-<p>Store below 30°C. </p>
+<p>Store below 30 C. </p>
 <p>Medicines should not be disposed of via wasterwater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -193,7 +192,7 @@ dispose of medicines no longer required. These measures will help to protect the
 Orphacol 50 mg: Each hard capsule contains 50 mg of cholic acid. 
 Orphacol 250 mg: Each hard capsule contains 250 mg of cholic acid. 
 - The other ingredients are: 
-Content of capsules: Lactose monohydrate (see section 2 under ‘Orphacol contains lactose’ for 
+Content of capsules: Lactose monohydrate (see section 2 under  Orphacol contains lactose  for 
 more information), colloidal anhydrous silica, magnesium stearate 
 Capsule shell:<br />
 Orphacol 50 mg: gelatin, titanium dioxide (E171), carmine blue (E132); 
@@ -217,23 +216,22 @@ THERAVIA
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 THERAVIA 
-Tél/Tel: +32 (0)2 40 11 question@theravia.com   </p>
+T l/Tel: +32 (0)2 40 11 question@theravia.com   </p>
 <p>Lietuva 
 Immedica Pharma AB 
 Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com 
-България 
-THERAVIA 
-Teл.: +33 (0)1 72 69 01 question@theravia.com  </p>
+info@immedica.com </p>
+<p>THERAVIA 
+Te .: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Luxembourg/Luxemburg 
 THERAVIA 
-Tél/Tel: +352 278 62 question@theravia.com  </p>
-<p>Česká republika 
+T l/Tel: +352 278 62 question@theravia.com  </p>
+<p>esk  republika 
 THERAVIA 
 Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Medis Hungary Kft 
 Tel: +36 (2) 380 1info@medis.hu  </p>
 <p>Danmark 
@@ -256,14 +254,13 @@ info@immedica.com  </p>
 <p>Norge 
 Immedica Pharma AB 
 Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com<br />
-Ελλάδα 
-THERAVIA 
-Τηλ: +33 (0)1 72 69 01 question@theravia.com<br />
-Österreich 
+info@immedica.com  </p>
+<p>THERAVIA 
+ : +33 (0)1 72 69 01 question@theravia.com<br />
+ sterreich 
 THERAVIA 
 Tel: +43 (0) 800 909 question@theravia.com  </p>
-<p>España 
+<p>Espa a 
 THERAVIA 
 Tel: + (34) 914 146 question@theravia.com  </p>
 <p>Polska 
@@ -271,14 +268,14 @@ THERAVIA
 Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>France 
 THERAVIA 
-Tél: +33 (0)1 72 69 01 question@theravia.com  </p>
+T l: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Portugal 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Hrvatska 
 Medis Adria d.o.o. 
 Tel: +385 (1) 230 3info@medisadria.hr  </p>
-<p>România 
+<p>Rom nia 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Ireland 
@@ -287,10 +284,10 @@ Tel: +353 (0)1 695 00 question@theravia.com  </p>
 <p>Slovenija 
 Medis d.o.o. 
 Tel: +386 (1) 589 6info@medis.si  </p>
-<p>Ísland 
+<p>sland 
 Immedica Pharma AB 
-Sími: + 46 (0)8 533 39 info@immedica.com 
-Slovenská republika 
+S mi: + 46 (0)8 533 39 info@immedica.com 
+Slovensk  republika 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Italia 
@@ -299,10 +296,9 @@ Tel: +39 (0)800 959 question@theravia.com  </p>
 <p>Suomi/Finland 
 Immedica Pharma AB 
 Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com 
-Κύπρος 
-THERAVIA 
-Τηλ: +33 (0)1 72 69 01 question@theravia.com </p>
+info@immedica.com </p>
+<p>THERAVIA 
+ : +33 (0)1 72 69 01 question@theravia.com </p>
 <p>Sverige 
 Immedica Pharma AB<br />
 Tel: +46 (0)8 533 39 500<br />
@@ -315,7 +311,7 @@ United Kingdom (Northern Ireland)
 THERAVIA 
 Tel: +44 (0)3 301 002 question@theravia.com    </p>
 <p>This leaflet was last revised in </p>
-<p>This medicine has been authorised under “Exceptional Circumstances”. 
+<p>This medicine has been authorised under  Exceptional Circumstances . 
 This means that because of the rarity of this disease and for ethical reasons it has been impossible to get 
 complete information on this medicine. 
 The European Medicines Agency will review any new information on the medicine every year and this 

@@ -4,7 +4,7 @@ Instance: composition-en-43a04579e02ef19c7380d883dba8b26f
 InstanceOf: CompositionUvEpi
 Title: "Composition for scemblix Package Leaflet"
 Description:  "Composition for scemblix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,66 +95,80 @@ you, ask your doctor or pharmacist. </p>         </div>"""
 - if you are allergic to asciminib or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Scemblix if any of the following applies to you: 
-- if you have or have ever had severe upper stomach pain that could be due to problems with your 
-pancreas (inflamed pancreas, pancreatitis). 
-- if you have ever had or might now have a hepatitis B infection. This is because Scemblix could 
+Talk to your doctor or pharmacist before taking Scemblix if any of the following applies to you:</p>
+<ul>
+<li>if you have or have ever had severe upper stomach pain that could be due to problems with your 
+pancreas (inflamed pancreas, pancreatitis). </li>
+<li>if you have ever had or might now have a hepatitis B infection. This is because Scemblix could 
 cause hepatitis B to become active again. You will be carefully checked by your doctor for signs 
-of this infection before treatment is started. </p>
+of this infection before treatment is started. </li>
+</ul>
 <p>Tell your doctor or pharmacist immediately if you get any of the following during treatment 
-with Scemblix: 
-- if you experience weakness, spontaneous bleeding or bruising and frequent infections with signs 
+with Scemblix:</p>
+<ul>
+<li>if you experience weakness, spontaneous bleeding or bruising and frequent infections with signs 
 such as fever, chills, sore throat or mouth ulcers. These can be signs of decreased bone marrow 
 activity, resulting in myelosuppression (a reduction in the number of white blood cells, red 
-blood cells and platelets). 
-- if blood tests show that you have high levels of enzymes called lipase and amylase (signs of 
-damage to the pancreas, also known as pancreatic toxicity). 
-- if you have a heart disorder or a heart rhythm disorder, such as an irregular heartbeat or an 
+blood cells and platelets). </li>
+<li>if blood tests show that you have high levels of enzymes called lipase and amylase (signs of 
+damage to the pancreas, also known as pancreatic toxicity). </li>
+<li>if you have a heart disorder or a heart rhythm disorder, such as an irregular heartbeat or an 
 abnormal electrical activity of the heart called QT interval prolongation that can be seen on an 
-electrocardiogram (ECG). 
-- if blood tests show that you have a low level of potassium or magnesium (hypokalaemia or 
-hypomagnesaemia). 
-- if you are being treated with medicines that may have an unwanted effect on the function of the 
-heart (torsades de pointes) (see “Other medicines and Scemblix”). 
-- if you experience headache, dizziness, chest pain or shortness of breath (possible signs of high 
-blood pressure, also known as hypertension). </p>
+electrocardiogram (ECG). </li>
+<li>if blood tests show that you have a low level of potassium or magnesium (hypokalaemia or 
+hypomagnesaemia). </li>
+<li>if you are being treated with medicines that may have an unwanted effect on the function of the 
+heart (torsades de pointes) (see  Other medicines and Scemblix ). </li>
+<li>if you experience headache, dizziness, chest pain or shortness of breath (possible signs of high 
+blood pressure, also known as hypertension). </li>
+</ul>
 <p>Monitoring during your treatment with Scemblix 
 Your doctor will regularly monitor your condition to check that the treatment is having the desired 
-effect. You will have regular tests including blood tests during treatment. These tests will monitor: 
-- the amount of blood cells (white blood cells, red blood cells and platelets). 
-- the levels of pancreas enzymes (amylase and lipase). 
-- the levels of electrolytes (potassium, magnesium). 
-- your heart rate and blood pressure. </p>
+effect. You will have regular tests including blood tests during treatment. These tests will monitor:</p>
+<ul>
+<li>the amount of blood cells (white blood cells, red blood cells and platelets). </li>
+<li>the levels of pancreas enzymes (amylase and lipase). </li>
+<li>the levels of electrolytes (potassium, magnesium). </li>
+<li>your heart rate and blood pressure. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents aged under 18 years. </p>
 <p>Other medicines and Scemblix 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. In particular, tell your doctor or pharmacist if you are using: 
-- medicines usually used to treat seizures (fits), such as carbamazepine, phenobarbital or 
-phenytoin. 
-- medicines used to treat pain and/or as sedatives before or during medical or surgical procedures, 
-such as alfentanil or fentanyl. 
-- medicines used to treat migraine or dementia, such as dihydroergotamine or ergotamine. 
-- medicines that may have an unwanted effect on the electrical activity of the heart (torsades de 
+medicines. In particular, tell your doctor or pharmacist if you are using:</p>
+<ul>
+<li>medicines usually used to treat seizures (fits), such as carbamazepine, phenobarbital or 
+phenytoin. </li>
+<li>medicines used to treat pain and/or as sedatives before or during medical or surgical procedures, 
+such as alfentanil or fentanyl. </li>
+<li>medicines used to treat migraine or dementia, such as dihydroergotamine or ergotamine. </li>
+<li>medicines that may have an unwanted effect on the electrical activity of the heart (torsades de 
 pointes), such as bepridil, chloroquine, clarithromycin, halofantrine, haloperidol, methadone, 
-moxifloxacin or pimozide. 
-- medicines used to reduce the blood’s ability to clot, such as warfarin. 
-- medicines used to treat severe inflammation of the bowel or severe rheumatic joint 
-inflammation, such as sulfasalazine. 
-- medicines used to treat cancer, severe rheumatic joint inflammation or psoriasis, such as 
-methotrexate. 
-- medicines used to reduce blood cholesterol levels, such as pravastatin, atorvastatin, pitavastatin, 
-rosuvastatin and simvastatin. 
-- St. John’s wort (also known as Hypericum perforatum), a herbal medicine used to treat 
+moxifloxacin or pimozide. </li>
+<li>medicines used to reduce the blood s ability to clot, such as warfarin. </li>
+<li>medicines used to treat severe inflammation of the bowel or severe rheumatic joint 
+inflammation, such as sulfasalazine. </li>
+<li>medicines used to treat cancer, severe rheumatic joint inflammation or psoriasis, such as 
+methotrexate. </li>
+<li>medicines used to reduce blood cholesterol levels, such as pravastatin, atorvastatin, pitavastatin, 
+rosuvastatin and simvastatin. </li>
+<li>St. John s wort (also known as Hypericum perforatum), a herbal medicine used to treat 
 depression. 
 If you are already taking Scemblix, you should tell your doctor if you are prescribed any new 
-medicine. </p>
+medicine. </li>
+</ul>
 <p>Ask your doctor or pharmacist if you are not sure whether your medicine is one of the medicines listed 
 above. </p>
 <p>Scemblix with food and drink 
 Do not take this medicine with food. Take it at least 2 hours after and 1 hour before any food. For 
-more information, see “When to take Scemblix” in section 3.<br />
-Pregnancy and breast-feeding 
+more information, see  When to take Scemblix  in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take scemblix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take scemblix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Pregnancy 
@@ -180,12 +194,13 @@ activities until the effect has disappeared. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take scemblix"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take scemblix"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -196,10 +211,12 @@ one approximately 12 hours later. </p>
 <p>Depending on how you respond to treatment and on possible side effects, your doctor may ask you to 
 change to a lower dose or to temporarily or permanently stop the treatment. </p>
 <p>When to take Scemblix 
-Take Scemblix: 
-- at least 2 hours after any food 
-- then wait at least 1 hour before eating again. 
-Taking this medicine at the same time each day will help you to remember when to take it. </p>
+Take Scemblix:</p>
+<ul>
+<li>at least 2 hours after any food </li>
+<li>then wait at least 1 hour before eating again. 
+Taking this medicine at the same time each day will help you to remember when to take it. </li>
+</ul>
 <p>How to take Scemblix 
 Swallow the tablets whole with a glass of water. Do not break, crush or chew them to ensure proper 
 dosing. </p>
@@ -219,13 +236,12 @@ If there are more than 6 hours until your next dose, take the missed dose and th
 planned. </p>
 <p>If you stop taking Scemblix 
 Do not stop taking this medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store scemblix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store scemblix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be serious 
@@ -236,7 +252,7 @@ If you experience any serious side effects, stop taking this medicine and tell y
 <p>Uncommon (may affect up to 1 in every 100 people) 
 - irregular heart-beat, change in the electrical activity of the heart (prolongation of the QT 
 interval) 
-- fever above 38°C associated with a low level of white blood cells (febrile neutropenia) </p>
+- fever above 38 C associated with a low level of white blood cells (febrile neutropenia) </p>
 <p>Other possible side effects 
 Other side effects include the following listed below. If these side effects become severe, please tell 
 your doctor or pharmacist. </p>
@@ -292,147 +308,19 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store scemblix"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store scemblix"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
-The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. </p>
-<p>Store in the original package in order to protect from moisture. </p>
-<p>Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
-tampering. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Scemblix contains 
-- The active substance is asciminib. 
-Each 20 mg film-coated tablet contains asciminib hydrochloride, equivalent to 20 mg asciminib. 
-Each 40 mg film-coated tablet contains asciminib hydrochloride, equivalent to 40 mg asciminib. 
-- The other ingredients are: 
-20 mg and 40 mg film-coated tablets: lactose monohydrate, microcrystalline cellulose (E460i), 
-hydroxypropylcellulose (E463), croscarmellose sodium (E468), polyvinyl alcohol (E1203), 
-titanium dioxide (E171), magnesium stearate, talc (E553b), colloidal silicon dioxide, lecithin 
-(E322), xanthan gum (E415), iron oxide red (E172). 
-20 mg film-coated tablets only: iron oxide yellow (E172) 
-40 mg film-coated tablets only: iron oxide black (E172). 
-See “Scemblix contains lactose and sodium” in section 2.<br />
-What Scemblix looks like and contents of the pack 
-Scemblix 20 mg film-coated tablets (tablets): pale yellow, round, biconvex tablet with bevelled edges 
-of approximately 6 mm diameter, debossed with company logo on one side and “20” on the other side. </p>
-<p>Scemblix 40 mg film-coated tablets (tablets): violet white, round, biconvex tablet with bevelled edges 
-of approximately 8 mm diameter, debossed with company logo on one side and “40” on the other side. </p>
-<p>Scemblix is supplied in blisters containing 10 film-coated tablets. </p>
-<p>The following pack sizes are available: 
-Packs containing 20 or 60 film-coated tablets. </p>
-<p>Scemblix 40 mg film-coated tablets are also available in multipacks containing 180 (3 packs of 60) 
-film-coated tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Novartis Europharm Limited 
-Vista Building 
-Elm Park, Merrion Road 
-Dublin 4 
-Ireland </p>
-<p>Manufacturer 
-Novartis Farmacéutica S.A. 
-Gran Via de les Corts Catalanes, 08013 Barcelona 
-Spain </p>
-<p>Novartis Pharma GmbH 
-Roonstrasse 90429 Nuremberg 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Lietuva 
-SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
-Luxembourg/Luxemburg 
-Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
-Novartis s.r.o. 
-Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
-Tel.: +36 1 457 65 Danmark 
-Novartis Healthcare A/S 
-Tlf: +45 39 16 84<br />
-Malta 
-Novartis Pharma Services Inc. 
-Tel: +356 2122 2Deutschland 
-Novartis Pharma GmbH 
-Tel: +49 911 273 0 </p>
-<p>Nederland 
-Novartis Pharma B.V. 
-Tel: +31 88 04 52 Eesti 
-SIA Novartis Baltics Eesti filiaal 
-Tel: +372 66 30<br />
-Norge 
-Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
-Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
-Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
-Tel: +34 93 306 42<br />
-Polska 
-Novartis Poland Sp. z o.o. 
-Tel.: +48 22 375 4France 
-Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
-Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
-Tel: +351 21 000 8Hrvatska 
-Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-România 
-Novartis Pharma Services Romania SRL 
-Tel: +40 21 31299 Ireland 
-Novartis Ireland Limited 
-Tel: +353 1 260 12<br />
-Slovenija 
-Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Novartis Slovakia s.r.o. 
-Tel: +421 2 5542 5 
-Italia 
-Novartis Farma S.p.A. 
-Tel: +39 02 96 54 1 
-Suomi/Finland 
-Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
-Sverige 
-Novartis Sverige AB 
-Tel: +46 8 732 32<br />
-Latvija 
-SIA Novartis Baltics 
-Tel: +371 67 887<br />
-United Kingdom (Northern Ireland) 
-Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. </p>
+<p>Store in the original package in order to protect from moisture. </p>
+<p>Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
+tampering. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2c591e8db8f43437448245621750c7d7
 InstanceOf: CompositionUvEpi
 Title: "Composition for javlor Package Leaflet"
 Description:  "Composition for javlor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,15 +88,17 @@ vincristine, vindesine, vinorelbine),
 - if you are breast-feeding, 
 - if your levels of white blood cells and/or platelets are too low </p>
 <p>Warnings and precautions 
-Tell your doctor: 
-- if you have liver, kidney or heart problems, 
-- if you experience any neurological symptoms such as headaches, changed mental state which may 
+Tell your doctor:</p>
+<ul>
+<li>if you have liver, kidney or heart problems, </li>
+<li>if you experience any neurological symptoms such as headaches, changed mental state which may 
 lead to confusion and coma, convulsions, blurred vision and high blood pressure as you may need 
-to stop taking this medicine, 
-- if you are taking other medicines mentioned in “Using other medicines” below, 
-- if you have constipation, or if you are treated with medicines against pain (opioids), or if you have 
-an abdominal cancer, or if you had abdominal surgery, 
-- if you would like to father a child (see “Pregnancy, breast-feeding and fertility” below). </p>
+to stop taking this medicine, </li>
+<li>if you are taking other medicines mentioned in  Using other medicines  below, </li>
+<li>if you have constipation, or if you are treated with medicines against pain (opioids), or if you have 
+an abdominal cancer, or if you had abdominal surgery, </li>
+<li>if you would like to father a child (see  Pregnancy, breast-feeding and fertility  below). </li>
+</ul>
 <p>Your blood cell counts will be checked regularly before and during your treatment, since low counts 
 of blood cells is a very common side effect with Javlor. 
 Constipation is a very common side effect of Javlor. To prevent constipation you may be given 
@@ -107,14 +109,16 @@ Javlor is not intended for use in children and adolescents. </p>
 <p>Other medicines and Javlor 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
 <p>In particular, you should tell your doctor if you are taking medicines containing any of the following 
-active substances: 
-- ketoconazole and itraconazole, used to treat fungal infection, 
-- opioids, used to treat pain, 
-- ritonavir, used to treat HIV infection,<br />
-- doxorubicin and pegylated liposomal doxorubicin, used to treat some kinds of cancer,<br />
-- rifampicin, used to treat tuberculosis or meningitis, 
-- herbal preparation containing hypericum perforatum (St John’s wort) used to treat minor to 
-moderate depression. </p>
+active substances:</p>
+<ul>
+<li>ketoconazole and itraconazole, used to treat fungal infection, </li>
+<li>opioids, used to treat pain, </li>
+<li>ritonavir, used to treat HIV infection,  </li>
+<li>doxorubicin and pegylated liposomal doxorubicin, used to treat some kinds of cancer,  </li>
+<li>rifampicin, used to treat tuberculosis or meningitis, </li>
+<li>herbal preparation containing hypericum perforatum (St John s wort) used to treat minor to 
+moderate depression. </li>
+</ul>
 <p>Javlor with food and drink 
 You should tell your doctor if you are drinking grapefruit juice since it may increase the effect of 
 Javlor. 
@@ -138,13 +142,15 @@ experience side effects that affect your ability to concentrate and react. </p> 
   * code.text = "3. How to take javlor"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose 
-The recommended dose in adult patients is 320 mg/m² body surface (this is calculated by the doctor 
+The recommended dose in adult patients is 320 mg/m  body surface (this is calculated by the doctor 
 based on your weight and your height). The treatment will be repeated every 3 weeks.  </p>
 <p>Your doctor will adjust the starting dose of Javlor based on your age and physical conditions and in 
-specific situations:<br />
-- if you had a previous irradiation of the pelvis<br />
-- if you have moderate or severe kidney problems 
-- if you have liver problems. </p>
+specific situations:</p>
+<ul>
+<li>if you had a previous irradiation of the pelvis  </li>
+<li>if you have moderate or severe kidney problems </li>
+<li>if you have liver problems. </li>
+</ul>
 <p>During treatment, your doctor may reduce the dose of Javlor, delay or interrupt the treatment if you 
 experience certain side effects. </p>
 <p>How Javlor is given 
@@ -160,13 +166,15 @@ Javlor is a concentrate that has to be diluted before administration.  </p>     
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately if you develop any of the following serious side effects while being 
-treated with Javlor: 
-- fever and / or chills which could be signs of infection, 
-- chest pain which could be sign of heart attack, 
-- constipation that resists to laxative treatment, 
-- headaches, changed mental state which may lead to confusion and coma, convulsions, blurred 
-vision and high blood pressure, which could be sign of a neurological disorder such as “posterior 
-reversible encephalopathy syndrome” (see section 2 “warnings and precautions”). </p>
+treated with Javlor:</p>
+<ul>
+<li>fever and / or chills which could be signs of infection, </li>
+<li>chest pain which could be sign of heart attack, </li>
+<li>constipation that resists to laxative treatment, </li>
+<li>headaches, changed mental state which may lead to confusion and coma, convulsions, blurred 
+vision and high blood pressure, which could be sign of a neurological disorder such as  posterior 
+reversible encephalopathy syndrome  (see section 2  warnings and precautions ). </li>
+</ul>
 <p>Other side effects may include:<br />
 Very common (may affect more than 1 in 10 people) 
 - abdominal pain, nausea, vomiting 
@@ -201,7 +209,7 @@ pain, ear pain
 - urinary problems 
 - ringing or buzzing in the ears (tinnitus) 
 - increase in liver enzymes (seen in blood test) 
-- “Syndrome of inappropriate antidiuretic hormone secretion”, which is a condition that causes low 
+-  Syndrome of inappropriate antidiuretic hormone secretion , which is a condition that causes low 
 levels of blood sodium 
 - tumour pain. </p>
 <p>Reporting of side effects 
@@ -220,7 +228,7 @@ EXP. </p>
 <p>It is most unlikely that you will be asked to store this medicine yourself. 
 Storage conditions are detailed in the section intended for medicinal or heathcare professionals. </p>
 <p>Unopened vials 
-Store in a refrigerator (2°C-8°C). 
+Store in a refrigerator (2 C-8 C). 
 Store in the original package in order to protect from light. </p>
 <p>Diluted solution 
 The diluted solution should be use immediately </p>
@@ -252,7 +260,7 @@ France </p>
 <p>Manufacturer </p>
 <p>FAREVA PAU 
 FAREVA PAU 1 
-Avenue du Béarn 
+Avenue du B arn 
 F-64320 Idron 
 France </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>

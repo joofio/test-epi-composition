@@ -4,7 +4,7 @@ Instance: composition-en-909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: CompositionUvEpi
 Title: "Composition for zessly Package Leaflet"
 Description:  "Composition for zessly Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,14 +71,14 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zessly contains the active substance infliximab. Infliximab is a monoclonal antibody - a type of 
 protein that attaches to a specific target in the body called TNF (tumour necrosis factor) alpha. </p>
-<p>Zessly belongs to a group of medicines called ‘TNF blockers’. It is used in adults for the following 
+<p>Zessly belongs to a group of medicines called  TNF blockers . It is used in adults for the following 
 inflammatory diseases: 
 * Rheumatoid arthritis 
 * Psoriatic arthritis 
-* Ankylosing spondylitis (Bechterew’s disease) 
+* Ankylosing spondylitis (Bechterew s disease) 
 * Psoriasis. </p>
 <p>Zessly is also used in adults and children 6 years of age or older for: 
-* Crohn’s disease 
+* Crohn s disease 
 * Ulcerative colitis. </p>
 <p>Zessly works by selectively attaching to TNF alpha and blocking its action. TNF alpha is involved 
 in inflammatory processes of the body so blocking it can reduce the inflammation in your body. </p>
@@ -98,7 +98,7 @@ work well enough, you will be given Zessly to: </p>
 <li>Slow down the damage in your joints </li>
 <li>Improve your physical function. </li>
 </ul>
-<p>Ankylosing spondylitis (Bechterew’s disease) 
+<p>Ankylosing spondylitis (Bechterew s disease) 
 Ankylosing spondylitis is an inflammatory disease of the spine. If you have ankylosing spondylitis 
 you will first be given other medicines. If these medicines do not work well enough, you will be 
 given Zessly to: 
@@ -113,10 +113,10 @@ your disease. </p>
 Ulcerative colitis is an inflammatory disease of the bowel. If you have ulcerative colitis you will 
 first be given other medicines. If these medicines do not work well enough, you will be given 
 Zessly to treat your disease. </p>
-<p>Crohn’s disease 
-Crohn’s disease is an inflammatory disease of the bowel. If you have Crohn’s disease you will first 
+<p>Crohn s disease 
+Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s disease you will first 
 be given other medicines. If these medicines do not work well enough, you will be given Zessly to: 
-* treat active Crohn’s disease 
+* treat active Crohn s disease 
 * reduce the number of abnormal openings (fistulae) between your bowel and your skin that 
 have not been controlled by other medicines or surgery. </p>         </div>"""   
           
@@ -187,7 +187,7 @@ higher risk of developing lymphoma.
 another cancer. 
 * Some patients who have received TNF-blockers, including infliximab, have developed a rare 
 type of cancer called hepatosplenic T-cell lymphoma. Of these patients, most were teenage 
-boys or young men and most had either Crohn’s disease or ulcerative colitis. This type of 
+boys or young men and most had either Crohn s disease or ulcerative colitis. This type of 
 cancer has usually resulted in death. Almost all patients had also received medicines 
 containing azathioprine or 6-mercaptopurine in addition to TNF-blockers. 
 * Some patients treated with infliximab have developed certain kinds of skin cancer. If there 
@@ -204,8 +204,8 @@ developing cancer with Zessly treatment. </li>
 </ul>
 <p>Nervous system disease 
 * Tell your doctor if you have or have ever had a problem that affects your nervous system 
-before you are given Zessly. This includes multiple sclerosis, Guillain-Barré syndrome, if 
-you have fits or have been diagnosed with ‘optic neuritis’. 
+before you are given Zessly. This includes multiple sclerosis, Guillain-Barr  syndrome, if 
+you have fits or have been diagnosed with  optic neuritis . 
 Tell your doctor straight away if you get symptoms of a nerve disease during treatment with Zessly. 
 Signs include changes in your vision, weakness in your arms or legs, numbness or tingling in any 
 part of your body. </p>
@@ -223,7 +223,7 @@ getting an infection as a result of receiving a live vaccine during the first ye
 important that you tell your baby's doctors and other healthcare professionals about your 
 Zessly use so they can decide when your baby should receive any vaccine, including live 
 vaccines such as the BCG vaccine (used to prevent tuberculosis). 
-* If you are breast-feeding, it is important that you tell your baby’s doctors and other 
+* If you are breast-feeding, it is important that you tell your baby s doctors and other 
 healthcare professionals about your Zessly use before your baby is given any vaccine. For 
 more information see section on Pregnancy and breast-feeding. </p>
 <p>Therapeutic infectious agents 
@@ -264,7 +264,7 @@ Patients who have inflammatory diseases already take medicines to treat their pr
 medicines may cause side effects. Your doctor will advise you what other medicines you must keep 
 using while you are having Zessly. </p>
 <p>Tell your doctor if you are using or have recently used any other medicines, including any other 
-medicines to treat Crohn’s disease, ulcerative colitis, rheumatoid arthritis, ankylosing spondylitis, 
+medicines to treat Crohn s disease, ulcerative colitis, rheumatoid arthritis, ankylosing spondylitis, 
 psoriatic arthritis or psoriasis or medicines obtained without a prescription, such as vitamins and 
 herbal medicines. </p>
 <p>In particular, tell your doctor if you are using any of the following medicines: 
@@ -272,7 +272,7 @@ herbal medicines. </p>
 * Kineret (anakinra). Zessly and Kineret should not be used together. 
 * Orencia (abatacept). Zessly and Orencia should not be used together. </p>
 <p>While using Zessly you should not receive live vaccines. If you were using Zessly during 
-pregnancy or if you are receiving Zessly while breast-feeding, tell your baby’s doctor and other 
+pregnancy or if you are receiving Zessly while breast-feeding, tell your baby s doctor and other 
 health care professionals caring for your baby about your Zessly use before the baby receives any 
 vaccines. </p>
 <p>If you are not sure if any of the above apply to you, talk to your doctor or pharmacist before using 
@@ -286,27 +286,27 @@ after you stop being treated with it. Discuss the use of contraception during th
 your doctor. 
 * If you received Zessly during your pregnancy, your baby may have a higher risk for getting 
 an infection. 
-* It is important that you tell your baby’s doctors and other health care professionals about 
+* It is important that you tell your baby s doctors and other health care professionals about 
 your Zessly use before your baby is given any vaccine. If you received Zessly while 
 pregnant, giving BCG vaccine (used to prevent tuberculosis) to your baby within 12 months 
 after birth may result in infection with serious complications, including death. Live vaccines 
 such as the BCG vaccine should not be given to your baby within 12 months after birth, 
-unless your baby’s doctor recommends otherwise. For more information see section on 
+unless your baby s doctor recommends otherwise. For more information see section on 
 vaccination. </p>
 <ul>
-<li>If you are breast-feeding, it is important that you tell your baby’s doctors and other 
+<li>If you are breast-feeding, it is important that you tell your baby s doctors and other 
 healthcare professionals about your Zessly use before your baby is given any vaccine. Live 
-vaccines should not be given to your baby while you are breast-feeding unless your baby’s 
+vaccines should not be given to your baby while you are breast-feeding unless your baby s 
 doctor recommends otherwise. </li>
 <li>Severely decreased numbers of white blood cells have been reported in infants born to 
 women treated with infliximab during pregnancy. If your baby has continual fevers or 
-infections, contact your baby’s doctor immediately. </li>
+infections, contact your baby s doctor immediately. </li>
 </ul>
 <p>Driving and using machines 
 Zessly is not likely to affect your ability to drive or use tools or machines. If you feel tired, dizzy or 
 unwell after having Zessly, do not drive or use any tools or machines. </p>
 <p>Zessly contains sodium 
-Zessly contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-free’. 
+Zessly contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . 
 However, before Zessly is given to you, it is mixed with a solution that contains sodium. Talk to 
 your doctor if you are on a low salt diet. </p>         </div>"""   
                     
@@ -317,7 +317,7 @@ your doctor if you are on a low salt diet. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rheumatoid arthritis 
 The usual dose is 3 mg for every kg of body weight. </p>
-<p>Psoriatic arthritis, ankylosing spondylitis (Bechterew’s disease), psoriasis, ulcerative colitis 
+<p>Psoriatic arthritis, ankylosing spondylitis (Bechterew s disease), psoriasis, ulcerative colitis 
 and Crohn's disease 
 The usual dose is 5 mg for every kg of body weight. </p>
 <p>How Zessly is given 
@@ -338,7 +338,7 @@ on your disease, weight and how well you respond to Zessly.
 Further doses 
 Every 6 to 8 weeks depending on yourdisease </p>
 <p>Use in children and adolescents 
-Zessly should only be used in children if they are being treated for Crohn’s disease or ulcerative 
+Zessly should only be used in children if they are being treated for Crohn s disease or ulcerative 
 colitis. These children must be 6 years of age or older. </p>
 <p>If you are given too much Zessly 
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too 
@@ -453,7 +453,7 @@ reactions to foreign proteins
 * Kidney infections 
 * Low platelet count, too many white blood cells 
 * Infections of the vagina 
-* Blood test result showing ‘antibodies’ against your own body 
+* Blood test result showing  antibodies  against your own body 
 * Changes in cholesterol and fat levels in the blood. </p>
 <p>Rare (may affect up to 1 in 1 000 people) 
 * A type of blood cancer (lymphoma) 
@@ -478,7 +478,7 @@ acute generalised exanthematous pustulosis<br />
 skin rash and/or threadlike white-grey lines on mucous membranes), blisters and peeling 
 skin, or boils (furunculosis) 
 * Serious nervous system disorders such as transverse myelitis, multiple sclerosis-like disease, 
-optic neuritis and Guillain-Barré syndrome 
+optic neuritis and Guillain-Barr  syndrome 
 * Inflammation in the eye that may cause changes in the vision, including blindness 
 * Fluid in the lining of the heart (pericardial effusion) 
 * Serious lung problems (such as interstitial lung disease) 
@@ -486,7 +486,7 @@ optic neuritis and Guillain-Barré syndrome
 * Cervical cancer 
 * Low blood counts, including a severely decreased number of white blood cells 
 * Small red or purple spots caused by bleeding under the skin 
-* Abnormal values of a blood protein called ‘complement factor’ which is part of the immune 
+* Abnormal values of a blood protein called  complement factor  which is part of the immune 
 system. </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 * Cancer in children and adults 
@@ -494,7 +494,7 @@ system. </p>
 lymphoma) 
 * Liver failure 
 * Merkel cell carcinoma (a type of skin cancer) 
-* Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s 
+* Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin 
 * Worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
 weakness) 
@@ -503,7 +503,7 @@ weakness)
 * Temporary loss of sight during or within 2 hours of infusion 
 * Infection due to a live vaccine because of a weakened immune system. </p>
 <p>Additional side effects in children and adolescents </p>
-<p>Children who took infliximab for Crohn’s disease showed some differences in side effects 
+<p>Children who took infliximab for Crohn s disease showed some differences in side effects 
 compared with adults who took infliximab for Crohn's disease. The side effects that happened more 
 in children were: low red blood cells (anaemia), blood in stool, low overall levels of white blood 
 cells (leukopenia), redness or blushing (flushing), viral infections, low levels of white blood cells 
@@ -524,16 +524,16 @@ the safety of this medicine. </p>         </div>"""
 them are as follows: 
 * Keep this medicine out of the sight and reach of children. 
 * Do not use this medicine after the expiry date which is stated on the label and the carton after 
-“EXP”. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2 °C – 8 °C). 
+ EXP . The expiry date refers to the last day of that month. 
+* Store in a refrigerator (2  C   8  C). 
 * This medicine can also be stored in the original carton outside of refrigerated storage up to a 
-maximum of 30 °C for a single period of up to six months, but not beyond the original expiry 
+maximum of 30  C for a single period of up to six months, but not beyond the original expiry 
 date. In this situation, do not return to the refrigerated storage again. Write the new expiry 
 date on the carton including day/month/year. Discard this medicine if not used by the new 
 expiry date or the expiry date printed on the carton, whichever is earlier. 
 * It is recommended that when Zessly is prepared for infusion, it is used as soon as possible 
 (within 3 hours). However, if the solution is prepared in germ-free conditions, it can be 
-stored in a refrigerator at 2 °C – 8 °C for 24 hours. 
+stored in a refrigerator at 2  C   8  C for 24 hours. 
 * Do not use this medicine if it is discoloured or if there are particles present. </p>         </div>"""      
         
         
@@ -560,28 +560,27 @@ Austria </p>
 Biochemiestr. 6336 Langkampfen 
 Austria </p>
 <p>Lek Pharmaceuticals d.d. 
-Verovškova ulica 1526 Ljubljana 
+Verov kova ulica 1526 Ljubljana 
 Slovenia  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sandoz nv/sa 
-Tél/Tel: +32 2 722 97<br />
+T l/Tel: +32 2 722 97<br />
 Lietuva 
 Sandoz Pharmaceuticals d.d filialas 
-Tel: +370 5 2636 България 
-Сандоз България КЧТ 
-Тел.: +359 2 970 47<br />
+Tel: +370 5 2636   </p>
+<p>.: +359 2 970 47<br />
 Luxembourg/Luxemburg 
 Sandoz nv/sa 
-Tél/Tel.: +32 2 722 97<br />
-Česká republika 
+T l/Tel.: +32 2 722 97<br />
+ esk  republika 
 Sandoz s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Sandoz Hungária Kft. 
+Magyarorsz g 
+Sandoz Hung ria Kft. 
 Tel.: +36 1 430 2 
-Danmark/Norge/Ísland/Sverige 
+Danmark/Norge/ sland/Sverige 
 Sandoz A/S 
 Tlf: +45 63 95 10<br />
 Malta 
@@ -595,51 +594,50 @@ Tel: +31 36 52 41<br />
 Eesti 
 Sandoz d.d. Eesti filiaal 
 Tel: +372 665 2 
-Österreich 
+ sterreich 
 Sandoz GmbH 
-Tel: +43 5338 2Ελλάδα 
-SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε. 
-Τηλ: +30 216 600 5 
+Tel: +43 5338 2<br />
+SANDOZ HELLAS    . . 
+ : +30 216 600 5 
 Polska 
 Sandoz Polska Sp. z o.o. 
 Tel.: +48 22 209 70<br />
-España 
-Sandoz Farmacéutica, S.A. 
+Espa a 
+Sandoz Farmac utica, S.A. 
 Tel: +34 900 456<br />
 Portugal 
-Sandoz Farmacêutica Lda. 
+Sandoz Farmac utica Lda. 
 Tel: +351 21 000 86<br />
 France 
 Sandoz SAS 
-Tél: +33 1 49 64 48<br />
-România 
+T l: +33 1 49 64 48<br />
+Rom nia 
 Sandoz Pharmaceuticals SRL 
 Tel: +40 21 407 51<br />
 Hrvatska 
 Sandoz d.o.o. 
 Tel: +385 1 23 53 111  </p>
 <p>Slovenija 
-Sandoz farmacevtska družba d.d. 
+Sandoz farmacevtska dru ba d.d. 
 Tel: +386 1 580 29 Ireland 
 Rowex Ltd. 
 Tel: + 353 27 50 
-Slovenská republika 
-Sandoz d.d. - organizačná zložka 
+Slovensk  republika 
+Sandoz d.d. - organiza n  zlo ka 
 Tel: +421 2 50 70 6 
 Italia 
 Sandoz S.p.A. 
 Tel: +39 02 96 
 Suomi/Finland 
 Sandoz A/S 
-Puh/Tel: +358 10 6133<br />
-Κύπρος 
-Sandoz Pharmaceuticals d.d. 
-Τηλ: +357 22 69 0 
+Puh/Tel: +358 10 6133  </p>
+<p>Sandoz Pharmaceuticals d.d. 
+ : +357 22 69 0 
 United Kingdom (Northern Ireland) 
 Sandoz GmbH 
 Tel: +43 5338 2 
 Latvija 
-Sandoz d.d. Latvia filiāle 
+Sandoz d.d. Latvia fili le 
 Tel: +371 67 892  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>

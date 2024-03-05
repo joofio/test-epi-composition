@@ -4,7 +4,7 @@ Instance: composition-en-8ad222fa20f6122792e54d69414353b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for alymsys Package Leaflet"
 Description:  "Composition for alymsys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -253,7 +253,7 @@ your vision or concentration, or your ability to react, do not drive and use mac
 disappear. </p>
 <p>Alymsys contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alymsys"
@@ -366,7 +366,7 @@ heartbeat, sweating and loss of consciousness (anaphylactic shock). </p>
 include: 
 * serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
 gut wall or problems with wound healing, 
-* a negative effect on a woman’s ability to have children (see the paragraphs below the list of side 
+* a negative effect on a woman s ability to have children (see the paragraphs below the list of side 
 effects for further recommendations), 
 * a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
 vision (Posterior Reversible Encephalopathy Syndrome or PRES), 
@@ -432,13 +432,13 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C–8°C). Do not freeze. 
+<p>Store in a refrigerator (2 C 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions are the responsibility of the user and would normally not be longer than 24 hours 
-at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile environment. When 
-dilution has taken place in a sterile environment, Alymsys is stable for a period of up to 30 days at 2°C 
-to 8°C after dilution and a period of up to 48 hours at temperatures not exceeding 30°C. </p>
+at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile environment. When 
+dilution has taken place in a sterile environment, Alymsys is stable for a period of up to 30 days at 2 C 
+to 8 C after dilution and a period of up to 48 hours at temperatures not exceeding 30 C. </p>
 <p>Do not use Alymsys if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -457,8 +457,8 @@ recommended.
 Each 16 mL vial contains 400 mg of bevacizumab, corresponding to 16.5 mg/mL when diluted 
 as recommended 
 * The other ingredients are trehalose dihydrate, monobasic sodium phosphate monohydrate, 
-disodium phosphate, polysorbate 20 and water for injections (see section 2 “Alymsys contains 
-sodium”). </p>
+disodium phosphate, polysorbate 20 and water for injections (see section 2  Alymsys contains 
+sodium ). </p>
 <p>What Alymsys looks like and contents of the pack 
 Alymsys is a concentrate for solution for infusion (sterile concentrate). The concentrate is a colourless 
 to yellowish or brownish liquid with opalescence in a glass vial with a rubber stopper. Each vial 
@@ -471,28 +471,27 @@ C/ Manuel Pombo Angulo 28 - 3a y 4a Planta
 Spain </p>
 <p>Manufacturer 
 GH GENHELIX S.A. 
-Parque Tecnológico de León 
-Edifício GENHELIX 
+Parque Tecnol gico de Le n 
+Edif cio GENHELIX 
 C/Julia Morros, s/n 
-Armunia, 24009 León, Spain </p>
+Armunia, 24009 Le n, Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mabxience Research SL 
-Tél/Tel: +34 917 711<br />
+T l/Tel: +34 917 711<br />
 Lietuva 
 Zentiva, k.s. 
-Tel: +370 52152 
-България 
-Zentiva, k.s. 
-Teл.: +35924417 
+Tel: +370 52152 </p>
+<p>Zentiva, k.s. 
+Te .: +35924417 
 Luxembourg/Luxemburg 
 Mabxience Research SL 
-Tél/Tel: +34 917 711<br />
-Česká republika 
+T l/Tel: +34 917 711<br />
+ esk  republika 
 Zentiva, k.s. 
 Tel: +420 267 241<br />
-Magyarország 
+Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel.: +36 1 299 1 
 Danmark 
@@ -512,28 +511,27 @@ Zentiva, k.s.
 Tel: +372 52 70 
 Norge 
 Medical Valley Invest AB 
-Tlf: +46 40 122 
-Ελλάδα 
-Win Medica S.A. 
-Τηλ: +30 210 7488<br />
-Österreich 
+Tlf: +46 40 122 </p>
+<p>Win Medica S.A. 
+ : +30 210 7488<br />
+ sterreich 
 G.L. Pharma GmbH 
 Tel: +43 3136 82 
-España 
+Espa a 
 Cipla Europe NV Sucursal EN ESPANA 
 Tel: +34 91 534 16 Polska 
 Zentiva Polska Sp. z o.o. 
 Tel: +48 22 375 92<br />
 France 
 Zentiva France 
-Tél: +33 (0) 800 089<br />
+T l: +33 (0) 800 089<br />
 Portugal 
 Zentiva Portugal, Lda 
 Tel: +351210601 
 Hrvatska 
 Zentiva d.o.o. 
 Tel: +385 1 6641<br />
-România 
+Rom nia 
 ZENTIVA S.A. 
 Tel: +4 021 304 7 
 Ireland 
@@ -542,10 +540,10 @@ Tel: +353 818 882<br />
 Slovenija 
 Zentiva, k.s. 
 Tel: +386 360 00<br />
-Ísland 
+ sland 
 Alvogen ehf. 
-Sími: +354 522 2 
-Slovenská republika 
+S mi: +354 522 2 
+Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3 
 Italia 
@@ -553,10 +551,9 @@ Zentiva Italia S.r.l.
 Tel: +39 02 38598 
 Suomi/Finland 
 Medical Valley Invest AB 
-Puh/Tel: +46 40 122 
-Κύπρος 
-Win Medica S.A. 
-Τηλ: +30 210 7488<br />
+Puh/Tel: +46 40 122 </p>
+<p>Win Medica S.A. 
+ : +30 210 7488<br />
 Sverige 
 Medical Valley Invest AB 
 Tel: +46 40 122 
@@ -566,7 +563,7 @@ Tel: +371 67893
 United Kingdom (Northern Ireland) 
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

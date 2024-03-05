@@ -4,7 +4,7 @@ Instance: composition-en-0765874a313ce115023e01847b82b59e
 InstanceOf: CompositionUvEpi
 Title: "Composition for arsenic Package Leaflet"
 Description:  "Composition for arsenic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -113,22 +113,24 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines, including medicines obtained without a prescription. </p>
 <p>In particular tell your doctor or pharmacist 
 * if you are taking any of various types of medicines which could cause a change in the rhythm of 
-your heartbeat. These include: 
-- some types of antiarrhythmics (medicines used to correct irregular heart beats, e.g. 
-quinidine, amiodarone, sotalol, dofetilide) 
-- medicines to treat psychosis (loss of contact with reality, e.g. thioridazine) 
-- medicines for depression (e.g. amitriptyline) 
-- some types of medicines to treat bacterial infections (e.g. erythromycin and 
-sparfloxacin) 
-- some medicines to treat allergies such as hayfever, called antihistamines (e.g. 
-terfenadine and astemizole) 
-- any medicines that cause a decrease in magnesium or potassium in your blood (e.g. 
-amphotericin B) 
-- cisapride (a medicine used to relieve certain stomach problems). 
+your heartbeat. These include:</p>
+<ul>
+<li>some types of antiarrhythmics (medicines used to correct irregular heart beats, e.g. 
+quinidine, amiodarone, sotalol, dofetilide) </li>
+<li>medicines to treat psychosis (loss of contact with reality, e.g. thioridazine) </li>
+<li>medicines for depression (e.g. amitriptyline) </li>
+<li>some types of medicines to treat bacterial infections (e.g. erythromycin and 
+sparfloxacin) </li>
+<li>some medicines to treat allergies such as hayfever, called antihistamines (e.g. 
+terfenadine and astemizole) </li>
+<li>any medicines that cause a decrease in magnesium or potassium in your blood (e.g. 
+amphotericin B) </li>
+<li>cisapride (a medicine used to relieve certain stomach problems). 
 The effect of these medicines on your heartbeat can be made worse by Arsenic trioxide medac. 
-You must be sure to tell your doctor or pharmacist about all medicines you are taking. 
-* if you are taking or have recently taken any medicine which may affect your liver. If you are not 
-sure, show the bottle or pack to your doctor or pharmacist. </p>
+You must be sure to tell your doctor or pharmacist about all medicines you are taking. </li>
+<li>if you are taking or have recently taken any medicine which may affect your liver. If you are not 
+sure, show the bottle or pack to your doctor or pharmacist. </li>
+</ul>
 <p>Arsenic trioxide medac with food and drink 
 There are no restrictions on your food or drink while you are receiving Arsenic trioxide medac. </p>
 <p>Pregnancy 
@@ -150,8 +152,8 @@ Arsenic trioxide medac is expected to have no or negligible influence on your ab
 machines. If you experience discomfort or if you feel unwell after an Arsenic trioxide medac injection, 
 you should wait until the symptoms go away before driving or using machines. </p>
 <p>Arsenic trioxide medac contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arsenic"
@@ -195,7 +197,7 @@ Arsenic trioxide medac must be stopped immediately and your doctor will treat th
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or nurse straight away if you notice the following side effects, as these may be 
-signs of a severe condition called “differentiation syndrome”, which might be fatal: 
+signs of a severe condition called  differentiation syndrome , which might be fatal: 
 * difficulty in breathing 
 * coughing 
 * chest pain 
@@ -251,7 +253,7 @@ safety of this medicine. </p>         </div>"""
 medicinal product does not require any special storage conditions. </p>
 <p>Once opened the product should be used immediately. </p>
 <p>After dilution, if not used immediately, storage times and conditions before use are the responsibility 
-of your doctor and would normally not be longer than 24 hours at 2ºC–8ºC, unless dilution has taken 
+of your doctor and would normally not be longer than 24 hours at 2 C 8 C, unless dilution has taken 
 place in a sterile environment. </p>
 <p>This medicine will not be used if it appears to contain foreign particulate matter or if the solution is 
 discoloured. </p>
@@ -268,14 +270,14 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is arsenic trioxide. One ml of concentrate contains 1 mg arsenic trioxide. 
 One vial contains 10 mg of arsenic trioxide. 
 - The other ingredients are sodium hydroxide, hydrochloric acid and water for injections. See 
-section 2 “Arsenic trioxide medac contains sodium”. </p>
+section 2  Arsenic trioxide medac contains sodium . </p>
 <p>What Arsenic trioxide medac looks like and contents of the pack 
 Arsenic trioxide medac is a concentrate for solution for infusion (sterile concentrate). It is supplied in 
 glass vials as a concentrated, sterile, clear, colourless, aqueous solution. Each carton contains 
 10 single-use glass vials. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 medac 
-Gesellschaft für klinische Spezialpräparate mbH 
+Gesellschaft f r klinische Spezialpr parate mbH 
 Theaterstr. 6 
 22880 Wedel 
 Germany </p>

@@ -4,7 +4,7 @@ Instance: composition-en-f9f99ae69c31ce78eb86e2425f62e81a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tybost Package Leaflet"
 Description:  "Composition for tybost Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,23 +95,25 @@ stay in the body for longer. </p>         </div>"""
 section 6 of this leaflet). </p>
 </li>
 <li>
-<p>If you are taking medicines containing any of the following: </p>
+<p>If you are taking medicines containing any of the following:</p>
 </li>
-<li>alfuzosin, used to treat an enlarged prostate gland </li>
+<li>
+<p>alfuzosin, used to treat an enlarged prostate gland </p>
+</li>
 <li>amiodarone, quinidine, used to correct irregular heartbeats </li>
 <li>dabigatran, used to prevent and treat blood clots </li>
 <li>carbamazepine, phenobarbital, phenytoin, used to prevent seizures </li>
 <li>rifampicin, used to prevent and treat tuberculosis and other infections </li>
 <li>dihydroergotamine, ergometrine, ergotamine, used to treat migraine headache </li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and 
+<li>St. John s wort (Hypericum perforatum), a herbal remedy used for depression and 
 anxiety </li>
 <li>lovastatin, simvastatin, used to lower blood cholesterol </li>
 <li>pimozide, lurasidone, used to treat abnormal thoughts or feelings </li>
-<li>sildenafil, used to treat pulmonary arterial hypertension – a lung disease that makes 
+<li>sildenafil, used to treat pulmonary arterial hypertension   a lung disease that makes 
 breathing difficult </li>
 <li>orally administered midazolam, triazolam, used to help you sleep and/or relieve anxiety </li>
 </ul>
-<p> If any of these applies to you, you should not take Tybost and you should tell your doctor 
+<p>If any of these applies to you, you should not take Tybost and you should tell your doctor 
 immediately. </p>
 <p>Warnings and precautions </p>
 <p>You must remain under the care of your doctor while taking Tybost. </p>
@@ -132,7 +134,7 @@ have shown problems with your liver.  Your doctor will carefully consider whethe
 you with Tybost. </p>
 </li>
 </ul>
-<p> If any of these applies to you, talk to your doctor before taking Tybost. </p>
+<p>If any of these applies to you, talk to your doctor before taking Tybost. </p>
 <p>Children and adolescents </p>
 <p>Do not give this medicine to children under 12 years of age, or who weigh less than 35 kg (or 40 kg) 
 as explained in section 3 of this leaflet.  The use of Tybost in children under 12 years of age or who 
@@ -144,8 +146,8 @@ medicines in your blood may be affected.  This may stop your medicines from work
 may make any side effects worse.  In some cases, your doctor may need to adjust your dose or check 
 the levels of medicine in your blood. </p>
 <p>There are some medicines that should never be taken with Tybost. 
-These are mentioned above under the heading “Do not take Tybost-If you are taking medicines 
-containing any one of the following”. </p>
+These are mentioned above under the heading  Do not take Tybost-If you are taking medicines 
+containing any one of the following . </p>
 <p>Medicines used in treating HIV infection: 
 You should not take Tybost with other medicines containing: 
 * ritonavir 
@@ -156,7 +158,7 @@ Talk to your doctor if you are taking
 * etravirine 
 * nevirapine 
 * maraviroc 
- Tell your doctor if you are taking any of these HIV medicines. </p>
+  Tell your doctor if you are taking any of these HIV medicines. </p>
 <p>Other types of medicine: 
 * ketoconazole, itraconazole, voriconazole, posaconazole and fluconazole, medicines used to 
 treat fungal infections 
@@ -183,14 +185,14 @@ cholesterol
 * sildenafil and vardenafil, medicines used to treat impotence, and tadalafil, a medicine used to 
 treat impotence and pulmonary hypertension 
 * trazodone, a medicine used to treat depression 
-* ciclosporin, sirolimus and tacrolimus, medicines used to control your body’s immune 
+* ciclosporin, sirolimus and tacrolimus, medicines used to control your body s immune 
 response after a transplant 
 * buspirone, clorazepate, diazepam, estazolam, flurazepam, perphenazine, risperidone, 
 thioridazine, zolpidem, medicines used to treat nervous system disorders 
 * colchicine, a medicine used to treat gout 
 * clopidogrel, a medicine used to reduce the risk of blood clots </p>
-<p> Tell your doctor if you are taking any of these medicines. </p>
-<p> Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
+<p>Tell your doctor if you are taking any of these medicines. </p>
+<p>Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
 without contacting your doctor. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -223,7 +225,7 @@ affected while taking Tybost, do not drive and do not use any tools or machines.
 yellow FCF which may cause allergic reactions. </p>
 <p>Tybost contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tybost"
@@ -267,7 +269,7 @@ Wait and take the next dose, with food, at your usual time. </p>
 <p>Do not stop taking Tybost </p>
 <p>Do not stop taking Tybost without talking to your doctor.  Stopping Tybost and atazanavir or 
 darunavir may reduce the success of future treatments prescribed by your doctor. </p>
-<p>Always keep enough Tybost so you don’t run out.  When your supply of Tybost starts to run low, 
+<p>Always keep enough Tybost so you don t run out.  When your supply of Tybost starts to run low, 
 get more from your doctor or pharmacist. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -341,7 +343,7 @@ Croscarmellose sodium, magnesium stearate, microcrystalline cellulose (E460), si
 Sunset yellow FCF (E110), macrogol 3350 (E1521), polyvinyl alcohol (partially hydrolysed) (E1203), 
 talc (E553b), titanium dioxide (E171), iron oxide yellow (E172) (see section 2 of this leaflet). </p>
 <p>What Tybost looks like and contents of the pack </p>
-<p>Tybost film-coated tablets are orange, round, biconvex tablets, debossed on one side with “GSI” and 
+<p>Tybost film-coated tablets are orange, round, biconvex tablets, debossed on one side with  GSI  and 
 plain-faced on the other side of the tablet. </p>
 <p>Tybost comes in bottles of 30 tablets (with a silica gel sachet or canister that must be kept in the bottle 
 to help protect your tablets).  The silica gel desiccant is contained in a separate sachet or canister and 
@@ -360,22 +362,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SPRL-BVBA 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -395,14 +396,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -410,14 +410,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -426,10 +426,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -437,10 +437,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

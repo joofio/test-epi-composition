@@ -4,7 +4,7 @@ Instance: composition-en-3c1db916d2062445ec61cc58880ca8a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for skyclarys Package Leaflet"
 Description:  "Composition for skyclarys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,13 +73,13 @@ Usage: #example
 Skyclarys contains the active substance omaveloxolone, which activates a specific protein, Nrf2, in 
 your body. </p>
 <p>What is Skyclarys used for? 
-Skyclarys is used to treat adults and adolescents who are at least 16 years of age who have Friedreich’s 
-ataxia, a neurodegenerative movement disorder. Friedreich’s ataxia is a rare inherited disease that 
+Skyclarys is used to treat adults and adolescents who are at least 16 years of age who have Friedreich s 
+ataxia, a neurodegenerative movement disorder. Friedreich s ataxia is a rare inherited disease that 
 causes progressive damage to your nervous system and movement problems. </p>
 <p>How does Skyclarys work? 
 The protein called Nrf2 in your body has a key role in managing oxidative stress (a condition that can 
 damage cells in your body) and has a protective role against neurodegenerative diseases. In patients 
-with Friedreich’s ataxia, Nrf2 activity is reduced. Skyclarys activates Nrf2 so it can manage oxidative 
+with Friedreich s ataxia, Nrf2 activity is reduced. Skyclarys activates Nrf2 so it can manage oxidative 
 stress. </p>
 <p>In a clinical trial patients treated with Skyclarys scored better on tests of neurological function than 
 patients who were treated with an inactive substance. </p>         </div>"""   
@@ -94,11 +94,12 @@ patients who were treated with an inactive substance. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Skyclarys if you are allergic to omaveloxolone or any of the other ingredients of this 
 medicine (listed in section 6). </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before taking Skyclarys: 
-- If you have problems with your liver, your doctor may decide to change the dose or not start 
-treatment with Skyclarys. 
--<br />
-Tell your doctor about all the medicines you are taking before you start Skyclarys. </p>
+<p>Talk to your doctor before taking Skyclarys:</p>
+<ul>
+<li>If you have problems with your liver, your doctor may decide to change the dose or not start 
+treatment with Skyclarys. </li>
+<li>Tell your doctor about all the medicines you are taking before you start Skyclarys. </li>
+</ul>
 <p>Your doctor will check to see how well your liver is working and will check your cholesterol level 
 before you start taking Skyclarys. Your doctor will also check your level of BNP (B-type natriuretic 
 peptide, a blood test for heart problems) before you start taking Skyclarys. </p>
@@ -119,27 +120,33 @@ Tell your doctor if you are taking, have recently taken, or might take any other
 because some medicines may affect the way Skyclarys works. Also, Skyclarys may affect the way 
 some medicines work. </p>
 <p>Certain medicines may increase the risk of side effects of Skyclarys by increasing the levels of 
-Skyclarys in the blood. Some of these medicines include: 
-- itraconazole, fluconazole, or ketoconazole (antifungal medicines used to treat a number of 
-fungal infections) 
-- cyclosporine (a medicine used after organ transplant) 
-- ciprofloxacin or clarithromycin (antibiotics used for bacterial infections) 
-- fluvoxamine (an antidepressant known as a selective serotinin reuptake inibitor [SSRI]) 
+Skyclarys in the blood. Some of these medicines include:</p>
+<ul>
+<li>itraconazole, fluconazole, or ketoconazole (antifungal medicines used to treat a number of 
+fungal infections) </li>
+<li>cyclosporine (a medicine used after organ transplant) </li>
+<li>ciprofloxacin or clarithromycin (antibiotics used for bacterial infections) </li>
+<li>fluvoxamine (an antidepressant known as a selective serotinin reuptake inibitor [SSRI]) 
 If your doctor prescribes one of these medicines, your dose of Skyclarys may be reduced to prevent 
-side effects when taking both drugs at the same time. </p>
+side effects when taking both drugs at the same time. </li>
+</ul>
 <p>Certain medicines may reduce how well Skyclarys works by decreasing the amount of Skyclarys in the 
-blood. Some of these medicines include: 
-- St. John’s wort (a herbal remedy used for mild depression) 
-- rifampicin (used to treat tuberculosis) 
-- carbamazepine, phenobarbital, phenytoin, primidone (used to treat epilepsy) 
-- efavirenz (medicine used for HIV) </p>
+blood. Some of these medicines include:</p>
+<ul>
+<li>St. John s wort (a herbal remedy used for mild depression) </li>
+<li>rifampicin (used to treat tuberculosis) </li>
+<li>carbamazepine, phenobarbital, phenytoin, primidone (used to treat epilepsy) </li>
+<li>efavirenz (medicine used for HIV) </li>
+</ul>
 <p>Skyclarys may reduce how well some other medicines work by decreasing the amount of these 
-medicines in the blood. Some of these medicines include: 
-- midazolam (used as a sedative and to treat severe agitation) 
-- repaglinide (a medicine to control type II diabetes) 
-- rosuvastatin (a statin medicine used to reduce harmful lipids) 
-- hormonal contraceptives (a type of birth control that uses homones to prevent pregnancy, such 
-as the pill, patch, or ring) </p>
+medicines in the blood. Some of these medicines include:</p>
+<ul>
+<li>midazolam (used as a sedative and to treat severe agitation) </li>
+<li>repaglinide (a medicine to control type II diabetes) </li>
+<li>rosuvastatin (a statin medicine used to reduce harmful lipids) </li>
+<li>hormonal contraceptives (a type of birth control that uses homones to prevent pregnancy, such 
+as the pill, patch, or ring) </li>
+</ul>
 <p>Talk to your doctor if you are taking any medicines, particularly those mentioned above, as they may 
 affect the way Skyclarys or other medicines work. </p>
 <p>Skyclarys with food and drink 
@@ -161,8 +168,8 @@ medicine passes into the breast milk. </p>
 Some patients may feel tired after taking this medicine. If you feel tired after taking Skyclarys, avoid 
 driving and using machines. </p>
 <p>Skyclarys contains a negligible amount of sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium 
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skyclarys"
@@ -207,17 +214,19 @@ If you have any further questions on the use of this medicine, ask your doctor. 
 <p>Talk to your doctor immediately if you have any of these side effects: 
 Very common (may affect more than 1 in 10 people) 
 - digestive problems. You may have symptoms such as 
-− nausea (feeling sick) 
-− diarrhoea 
-− vomiting 
-− stomach pain 
-− decrease in weight 
+  nausea (feeling sick) 
+  diarrhoea 
+  vomiting 
+  stomach pain 
+  decrease in weight 
 If you have any of these side effects, talk to your doctor. </p>
-<p>Based on your blood tests, your doctor may tell you that you have: 
-- high liver enzymes in your blood (very common, may affect more than 1 in 10 people) 
-- increased BNP (a marker for heart problems); (common, may affect up to 1 in 10 people) 
-- changes in your blood cholesterol and triglycerides (common, may affect up to 1 in 10 people) 
-Your doctor will decide on treatment and whether Skyclarys should be continued. </p>
+<p>Based on your blood tests, your doctor may tell you that you have:</p>
+<ul>
+<li>high liver enzymes in your blood (very common, may affect more than 1 in 10 people) </li>
+<li>increased BNP (a marker for heart problems); (common, may affect up to 1 in 10 people) </li>
+<li>changes in your blood cholesterol and triglycerides (common, may affect up to 1 in 10 people) 
+Your doctor will decide on treatment and whether Skyclarys should be continued. </li>
+</ul>
 <p>Other possible side effects of Skyclarys 
 Very common (may affect more than 1 in 10 people) 
 - headache 
@@ -241,7 +250,7 @@ By reporting side effects, you can help provide more information on the safety o
   * code.text = "5. How to store skyclarys"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after “EXP”. The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>If the capsule is opened and mixed with apple puree you must eat all the apple puree/medicine mixture 
@@ -266,40 +275,38 @@ Capsule shell: hypromellose, titanium dioxide (E171), Brilliant Blue FCF (E133),
 yellow (E172) 
 Printing ink: shellac (E904), titanium dioxide (E171) </p>
 <p>What Skyclarys looks like and contents of the pack 
-Skyclarys 50 mg hard capsules are made of an opaque light green body imprinted with “RTA 408” in 
-white ink and a blue cap imprinted with “50” in white ink. </p>
+Skyclarys 50 mg hard capsules are made of an opaque light green body imprinted with  RTA 408  in 
+white ink and a blue cap imprinted with  50  in white ink. </p>
 <p>Skyclarys 50 mg is available in a pack containing 90 hard capsules and in a pack of 3 bottles, each 
 containing 90 hard capsules. </p>
 <p>Marketing Authorisation Holder 
 Reata Ireland Limited 
-Block A, George’s Quay Plaza 
-George’s Quay 
+Block A, George s Quay Plaza 
+George s Quay 
 Dublin 2 
 D02 E440 Ireland </p>
 <p>Manufacturer 
 Jenson R+ (Ireland) Limited 
-Unit 15
-Daingean Hall
+Unit Daingean Hall
 N4 Axis Centre 
 Longford 
 N39 W6K0 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biogen Belgium N.V./S.A. 
-Tél/Tel: +32 2 219 12<br />
+T l/Tel: +32 2 219 12<br />
 Lietuva 
 Biogen Lithuania UAB 
-Tel: +370 5 259 6България 
-ТП ЕВОФАРМА 
-Teл.: +359 2 962 12<br />
+Tel: +370 5 259 6  </p>
+<p>Te .: +359 2 962 12<br />
 Luxembourg/Luxemburg 
 Biogen Belgium N.V./S.A. 
-Tél/Tel: +32 2 219 12<br />
-Česká republika 
+T l/Tel: +32 2 219 12<br />
+ esk  republika 
 Biogen (Czech Republic) s.r.o. 
 Tel: +420 255 706<br />
-Magyarország 
+Magyarorsz g 
 Biogen Hungary Kft. 
 Tel.: +36 (1) 899 9Danmark 
 Biogen (Denmark) A/S 
@@ -313,17 +320,17 @@ Tel: +49 (0) 89 99 6
 Nederland 
 Biogen Netherlands B.V. 
 Tel: +31 20 542 2Eesti 
-Biogen Estonia OÜ 
+Biogen Estonia O<br />
 Tel: + 372 618 9 
 Norge 
 Biogen Norway AS 
-Tlf: +47 23 40 01 Ελλάδα 
+Tlf: +47 23 40 01 <br />
 Genesis Pharma SA 
-Τηλ: +30 210 8771 
-Österreich 
+ : +30 210 8771 
+ sterreich 
 Biogen Austria GmbH 
 Tel: +43 1 484 46<br />
-España 
+Espa a 
 Biogen Spain SL 
 Tel: +34 91 310 7 
 Polska 
@@ -331,13 +338,13 @@ Biogen Poland Sp. z o.o.
 Tel.: +48 22 351 51<br />
 France 
 Biogen France SAS 
-Tél: +33 (0)1 41 37 95 Portugal 
+T l: +33 (0)1 41 37 95 Portugal 
 Biogen Portugal 
 Tel.: +351 21 318 8 
 Hrvatska 
 Biogen Pharma d.o.o. 
 Tel: +385 (0) 1 775 73<br />
-România 
+Rom nia 
 Ewopharma AG Representative Office 
 Tel: + 40 377 881 Ireland 
 Biogen Idec (Ireland) Ltd. 
@@ -345,20 +352,19 @@ Tel: +353 (0)1 463 7
 Slovenija 
 Biogen Pharma d.o.o. 
 Tel.: +386 1 511 02<br />
-Ísland 
+ sland 
 Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Biogen Slovakia s.r.o. 
 Tel.: +421 2 323 340 Italia 
 Biogen Italia s.r.l. 
 Tel: +39 02 584 9 
 Suomi/Finland 
 Biogen Finland Oy 
-Puh/Tel: +358 207 401<br />
-Κύπρος 
-Genesis Pharma Cyprus Ltd 
-Τηλ: +357 22765 
+Puh/Tel: +358 207 401  </p>
+<p>Genesis Pharma Cyprus Ltd 
+ : +357 22765 
 Sverige 
 Biogen Sweden AB 
 Tel: +46 8 594 113<br />

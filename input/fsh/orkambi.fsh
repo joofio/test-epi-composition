@@ -4,7 +4,7 @@ Instance: composition-en-8eabca438b9c6aec8be0a0c5c738dadd
 InstanceOf: CompositionUvEpi
 Title: "Composition for orkambi Package Leaflet"
 Description:  "Composition for orkambi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -139,7 +139,7 @@ fluconazole, ketoconazole, itraconazole, posaconazole, voriconazole
 * Immunosuppressants (used after an organ transplantation) for example: 
 ciclosporin, everolimus, sirolimus, tacrolimus 
 * Herbal medicines, for example: 
-St. John’s wort (Hypericum perforatum) </p>
+St. John s wort (Hypericum perforatum) </p>
 <ul>
 <li>Anti-allergic medicines (used for the treatment of allergies and/or asthma) for example: 
 montelukast, fexofenadine </li>
@@ -184,8 +184,8 @@ machines until these symptoms disappear. </p>
 <p>If a child experiences dizziness while taking Orkambi, it is advised that the child does not ride a 
 bike or do anything else that needs their full attention, until their symptoms disappear. </p>
 <p>Orkambi contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orkambi"
@@ -344,12 +344,65 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>Orkambi 100 mg/125 mg film-coated tablets and Orkambi 200 mg/125 mg film-coated tablets: 
 The other ingredients are: 
 * Tablet core: cellulose, microcrystalline; croscarmellose sodium; hypromellose acetate succinate; 
-povidone (K30); sodium laurilsulfate; and magnesium stearate (see section 2 “Orkambi contains 
-sodium”). 
+povidone (K30); sodium laurilsulfate; and magnesium stearate (see section 2  Orkambi contains 
+sodium ). 
 * Tablet coating: polyvinyl alcohol; titanium dioxide (E171); macrogol 3350; talc; carmine 
 (E120); brilliant blue FCF aluminium lake (E133); and indigo carmine aluminium lake (E132). 
 * Printing ink: shellac; iron oxide black (E172); propylene glycol; and ammonium hydroxide. 
 What Orkambi looks like and contents of the pack </p>
 <p>Orkambi 100 mg/125 mg film-coated tablets </p>
-<p>Orkambi 100 mg/125 mg film-coated tablets (tablets) are pink, oval-shaped tablets (dimensions 14 × </p>         </div>"""      
+<p>Orkambi 100 mg/125 mg film-coated tablets (tablets) are pink, oval-shaped tablets (dimensions 14 <br />
+7.6   4.9 mm) printed with  1V125  in black ink on one side. </p>
+<p>Orkambi 100 mg/125 mg is available in packs containing 112 film-coated tablets (4 packs of 28 film-
+coated tablets).  </p>
+<p>Orkambi 200 mg/125 mg film-coated tablets </p>
+<p>Orkambi 200 mg/125 mg film-coated tablets (tablets) are pink, oval-shaped tablets (dimensions 14 <br />
+8.4   6.8 mm) printed with  2V125  in black ink on one side. 
+Orkambi 200 mg/125 mg is available in multipacks containing 112 film-coated tablets (4 packs of film-coated tablets). </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Vertex Pharmaceuticals (Ireland) Limited 
+Unit 49, Block F2, Northwood Court, Santry,<br />
+Dublin 9, D09 T665,<br />
+Ireland 
+Tel: +353 (0)1 761 7 
+Manufacturer 
+Almac Pharma Services (Ireland) Limited 
+Finnabair Industrial Estate 
+Dundalk 
+Co. Louth 
+A91 P9KD 
+Ireland </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Craigavon 
+Northern Ireland 
+BT63 5UA 
+United Kingdom </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien,  ,  esk<br />
+republika, Danmark, Deutschland, Eesti, 
+France, Hrvatska, Ireland,  sland,  , 
+Latvija, Lietuva, Luxembourg/Luxemburg, 
+Magyarorsz g, Malta, Nederland, Norge, 
+ sterreich, Polska, Portugal, Rom nia, 
+Slovenija, Slovensk  republika, 
+Suomi/Finland, Sverige, United Kingdom 
+(Northern Ireland) 
+Vertex Pharmaceuticals (Ireland) Limited 
+T l/Tel/Te /Tlf/S mi/ /Puh:<br />
++353 (0) 1 761 7 
+Espa a 
+Vertex Pharmaceuticals Spain, S.L. 
+Tel: + 34 91 7892 </p>
+<p>Vertex       </p>
+<p>: +30 (211) 2120 
+Italia 
+Vertex Pharmaceuticals 
+(Italy) S.r.l. 
+Tel: +39 0697794 </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

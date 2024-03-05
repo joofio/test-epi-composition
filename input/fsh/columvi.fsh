@@ -4,7 +4,7 @@ Instance: composition-en-bb22e3a2d3ee768b14a39522c099f1f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for columvi Package Leaflet"
 Description:  "Composition for columvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,12 +72,12 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Columvi is </p>
 <p>Columvi is a cancer medicine that contains the active substance glofitamab. </p>
 <p>What Columvi is used for </p>
-<p>Columvi is used to treat adults with a cancer called “diffuse large B-cell lymphoma” (DLBCL). It is 
+<p>Columvi is used to treat adults with a cancer called  diffuse large B-cell lymphoma  (DLBCL). It is 
 used when the cancer: 
 * has come back (relapsed), or<br />
 * did not respond to previous treatments.  </p>
-<p>Diffuse large B-cell lymphoma is a cancer of a part of your immune system (the body’s defences). 
-* It affects a type of white blood cell called ‘B cells’.<br />
+<p>Diffuse large B-cell lymphoma is a cancer of a part of your immune system (the body s defences). 
+* It affects a type of white blood cell called  B cells .<br />
 * In DLBCL, B cells multiply in an uncontrolled manner and build up in your tissues. </p>
 <p>How Columvi works </p>
 <ul>
@@ -100,7 +100,7 @@ in turn, results in the destruction of the B cells, including the cancerous cell
 <li>if you are allergic to glofitamab or any of the other ingredients of this medicine (listed in 
 section 6) </li>
 <li>if you are allergic to obinutuzumab, which is another medicine given before starting Columvi 
-treatment (see also section 3 ‘How Columvi is given’), or any of the other ingredients of this 
+treatment (see also section 3  How Columvi is given ), or any of the other ingredients of this 
 medicine </li>
 </ul>
 <p>If you are not sure if any of the above apply to you, talk to your doctor or nurse before you are given 
@@ -117,21 +117,29 @@ Columvi. </p>
 <p>Some side effects of Columvi are serious and can be life-threatening. These may happen any time 
 during Columvi treatment. </p>
 <p>Tell your doctor straight away if you experience any of the following side effects while receiving 
-Columvi. The symptoms of each side effect are listed in section 4.<br />
-<em> Cytokine release syndrome: an exaggerated inflammatory condition associated with medicines 
+Columvi. The symptoms of each side effect are listed in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Cytokine release syndrome: an exaggerated inflammatory condition associated with medicines 
 that stimulate T cells, characterized by fever and impairment to multiple organs in the body. 
 Cytokine release syndrome is more likely to occur during Cycle 1 after Columvi is given (see 
-section 3 ‘How Columvi is given’). Close monitoring is needed. Before each infusion, you may 
-be given medicines, which help reduce possible side effects of cytokine release syndrome.<br />
-</em> Tumour lysis syndrome: some people may get unusual levels of some salts in the blood (such 
-as potassium and uric acid) – caused by the fast breakdown of cancer cells during treatment. 
+section 3  How Columvi is given ). Close monitoring is needed. Before each infusion, you may 
+be given medicines, which help reduce possible side effects of cytokine release syndrome.  </li>
+<li>Tumour lysis syndrome: some people may get unusual levels of some salts in the blood (such 
+as potassium and uric acid)   caused by the fast breakdown of cancer cells during treatment. 
 Your doctor or nurse will do blood tests to check for this condition. Before each infusion, you 
 should be well-hydrated and may be given medicines that can help reduce high levels of uric 
-acid. These may help reduce possible side effects of tumour lysis syndrome. 
-* Tumour flare: a reaction to certain medicines that act on the immune system which is/appears 
-similar to worsening of the cancer. 
-* Infections: you may get signs of infection, which can vary depending on where in the body the 
-infection is. </p>
+acid. These may help reduce possible side effects of tumour lysis syndrome. </li>
+<li>Tumour flare: a reaction to certain medicines that act on the immune system which is/appears 
+similar to worsening of the cancer. </li>
+<li>Infections: you may get signs of infection, which can vary depending on where in the body the 
+infection is. </li>
+</ul>
 <p>If you have, or think you may have, any of the above symptoms tell your doctor straight away.<br />
 Your doctor may:<br />
 <em> give you other medicines to reduce symptoms and prevent complications, 
@@ -159,14 +167,15 @@ because it is not known if this medicine can pass into breast milk and harm your
 <p>Driving and using machines </p>
 <p>Columvi has minor influence on your ability to drive, cycle or use any tools or machines.  </p>
 <p>If you feel any symptoms that may affect your ability to drive, including symptoms of cytokine release 
-syndrome (such as fever, fast heartbeat, feeling dizzy or lightheaded, chills or shortness of breath) – do 
+syndrome (such as fever, fast heartbeat, feeling dizzy or lightheaded, chills or shortness of breath)   do 
 not drive, cycle or use any tools or machines until you feel better. See section 4 for more information 
-about side effects. </p>         </div>"""   
-                    
+about side effects. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take columvi"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take columvi"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will be given Columvi under the supervision of a doctor experienced in cancer treatment, in a 
 hospital or clinic. </p>
@@ -174,10 +183,14 @@ hospital or clinic. </p>
 <ul>
 <li>Seven days before starting Columvi treatment, you will be given another medicine, 
 obinutuzumab, to reduce the number of B cells in your blood.  </li>
-<li>30 to 60 minutes before you are given Columvi, you may be given other medicines 
+<li>
+<p>30 to 60 minutes before you are given Columvi, you may be given other medicines 
 (pre-medication) to help reduce reactions associated with cytokine release syndrome. These 
-medicines may include: </li>
-<li>A corticosteroid such as dexamethasone </li>
+medicines may include:</p>
+</li>
+<li>
+<p>A corticosteroid such as dexamethasone </p>
+</li>
 <li>A fever-reducing medicine such as paracetamol </li>
 <li>An antihistamine such as diphenhydramine </li>
 </ul>
@@ -187,13 +200,13 @@ cycles, your doctor will begin Columvi treatment with a low dose and will gradua
 full dose. </p>
 <p>A typical schedule is shown below.  </p>
 <p>Cycle 1: This will include a pre-treatment and 2 low doses of Columvi during the 21 days: 
-* Day 1 – Pre-treatment with obinutuzumab </p>
+* Day 1   Pre-treatment with obinutuzumab </p>
 <ul>
-<li>Day 8 – 2.5 mg starting dose of Columvi </li>
-<li>Day 15 – 10 mg intermediate dose of Columvi </li>
+<li>Day 8   2.5 mg starting dose of Columvi </li>
+<li>Day 15   10 mg intermediate dose of Columvi </li>
 </ul>
 <p>Cycle 2 to Cycle 12: This will be just one dose in the 21 days: 
-* Day 1 – 30 mg full dose of Columvi </p>
+* Day 1   30 mg full dose of Columvi </p>
 <p>How Columvi is given and monitoring </p>
 <p>Columvi is given as a drip into a vein (an intravenous infusion). Your doctor will adjust the time 
 required for infusion depending on how you respond to treatment. 
@@ -211,17 +224,16 @@ is very important not to miss a dose. </p>
 <p>Before stopping Columvi treatment </p>
 <p>Speak with your doctor before stopping treatment. This is because stopping treatment may make your 
 condition worse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store columvi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store columvi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
-<p>Tell your doctor straight away if you get any of the serious side effects listed below – you may need 
+<p>Tell your doctor straight away if you get any of the serious side effects listed below   you may need 
 urgent medical treatment.  </p>
 <ul>
 <li>Cytokine release syndrome (very common): symptoms may include, but are not limited to, 
@@ -239,9 +251,13 @@ shortness of breath, feeling confused, irregular heartbeat, muscle cramps </li>
 worse: </p>
 <p>Very common (may affect more than 1 in 10 people) </p>
 <ul>
-<li>lowered levels, as measured in blood tests, of: </li>
-<li>neutrophils (a type of white blood cell; neutropenia), which may cause fever or any 
-symptoms of an infection </li>
+<li>
+<p>lowered levels, as measured in blood tests, of:</p>
+</li>
+<li>
+<p>neutrophils (a type of white blood cell; neutropenia), which may cause fever or any 
+symptoms of an infection </p>
+</li>
 <li>red blood cells (anaemia), which may cause tiredness, feeling unwell and pale skin  </li>
 <li>platelets (a type of blood cell; thrombocytopenia), which may cause bruising or bleeding  </li>
 <li>fever </li>
@@ -285,140 +301,20 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store columvi"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store columvi"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor, pharmacist or nurse is responsible for storing this medicine and disposing of any unused 
-product correctly. The following information is intended for healthcare professionals. <br />
-* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date, which is stated on the carton and the vial label 
-after EXP. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2°C - 8°C). 
-* Do not freeze. 
-* Keep the vial in the outer carton in order to protect from light. 
-* Do not use this medicine if it appears cloudy, discoloured or contains particles. </p>
-<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Columvi contains  </p>
-<ul>
-<li>The active substance is glofitamab.  </li>
-<li>Columvi 2.5 mg: Each vial contains 2.5 milligrams of glofitamab (in 2.5 mL concentrate) at a 
-concentration of 1 mg/mL </li>
-<li>Columvi 10 mg: Each vial contains 10 milligrams of glofitamab (in 10 mL concentrate) at a 
-concentration of 1 mg/mL </li>
-<li>The other ingredients are: L-histidine, L-histidine hydrochloride monohydrate, L-methionine, 
-sucrose, polysorbate 20 (E432) and water for injections. </li>
-</ul>
-<p>What Columvi looks like and contents of the pack </p>
-<p>Columvi concentrate for solution for infusion (sterile concentrate) is a colourless, clear solution 
-provided in a glass vial.  </p>
-<p>Each pack of Columvi contains one vial. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Roche Registration GmbH 
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>Manufacturer </p>
-<p>Roche Pharma AG 
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-N.V. Roche S.A.<br />
-Tél/Tel: +32 (0) 2 525 82 Lietuva 
-UAB “Roche Lietuva”<br />
-Tel: +370 5 2546 </p>
-<p>България 
-Рош България ЕООД<br />
-Тел: +359 2 818 44<br />
-Luxembourg/Luxemburg 
-(Voir/siehe Belgique/Belgien) 
-Česká republika 
-Roche s. r. o.<br />
-Tel: +420 - 2 20382Magyarország 
-Roche (Magyarország) Kft.<br />
-Tel: +36 - 1 279 4 
-Danmark 
-Roche Pharmaceuticals A/S Tlf: +45 - 36 39<br />
-Malta 
-(See Ireland) </p>
-<p>Deutschland 
-Roche Pharma AG<br />
-Tel: +49 (0) 7624 140<br />
-Nederland 
-Roche Nederland B.V.<br />
-Tel: +31 (0) 348 438 
-Eesti 
-Roche Eesti OÜ<br />
-Tel: + 372 - 6 177 380<br />
-Norge 
-Roche Norge AS<br />
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
-Roche Austria GmbH<br />
-Tel: +43 (0) 1 27España 
-Roche Farma S.A.<br />
-Tel: +34 - 91 324 81 Polska 
-Roche Polska Sp.z o.o.<br />
-Tel: +48 - 22 345 18<br />
-France 
-Roche<br />
-Tél: +33 (0) 1 47 61 40 00<br />
-Portugal 
-Roche Farmacêutica Química, Lda<br />
-Tel: +351 - 21 425 70<br />
-Hrvatska 
-Roche d.o.o.<br />
-Tel: +385 1 4722 333<br />
-România 
-Roche România S.R.L.<br />
-Tel: +40 21 206 47 01  </p>
-<p>Ireland 
-Roche Products (Ireland) Ltd.<br />
-Tel: +353 (0) 1 469 0Slovenija 
-Roche farmacevtska družba d.o.o.<br />
-Tel: +386 - 1 360 26<br />
-Ísland 
-Roche Pharmaceuticals A/S<br />
-c/o Icepharma hf<br />
-Sími: +354 540 8Slovenská republika 
-Roche Slovensko, s.r.o.<br />
-Tel: +421 - 2 52638201  </p>
-<p>Italia 
-Roche S.p.A.<br />
-Tel: +39 - 039 2Suomi/Finland 
-Roche Oy<br />
-Puh/Tel: +358 (0) 10 554 500  </p>
-<p>Κύπρος 
-Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
-Τηλ: +357 - 22 76 62 76<br />
-Sverige 
-Roche AB<br />
-Tel: +46 (0) 8 726 1 
-Latvija 
-Roche Latvija SIA<br />
-Tel: +371 - 6 7039831<br />
-United Kingdom (Northern Ireland) 
-Roche Products (Ireland) Ltd.<br />
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
-about this medicine. 
-The European Medicines Agency will review new information on this medicine at least every year and 
-this leaflet will be updated as necessary. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor, pharmacist or nurse is responsible for storing this medicine and disposing of any unused 
+product correctly. The following information is intended for healthcare professionals. <br />
+* Keep this medicine out of the sight and reach of children. 
+* Do not use this medicine after the expiry date, which is stated on the carton and the vial label 
+after EXP. The expiry date refers to the last day of that month. 
+* Store in a refrigerator (2 C - 8 C). 
+* Do not freeze. 
+* Keep the vial in the outer carton in order to protect from light. 
+* Do not use this medicine if it appears cloudy, discoloured or contains particles. </p>
+<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
 

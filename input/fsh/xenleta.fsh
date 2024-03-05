@@ -4,7 +4,7 @@ Instance: composition-en-962167f0883d517c612253bd6d108856
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenleta Package Leaflet"
 Description:  "Composition for xenleta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What xenleta is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xenleta is an antibiotic medicine containing the active substance lefamulin. It belongs to a group of 
-medicines called ‘pleuromutilins’. </p>
+medicines called  pleuromutilins . </p>
 <p>Lefamulin works by killing certain bacteria which cause infections. </p>
 <p>Xenleta is used to treat adults who have bacterial infections in the lung, also known as pneumonia, 
 when other treatments for pneumonia are not considered to be suitable. </p>         </div>"""   
@@ -89,9 +89,9 @@ when other treatments for pneumonia are not considered to be suitable. </p>     
 - if you are taking certain medicines that might interact with Xenleta. This is because some 
 medicines may stop Xenleta working or lead to side effects if they are given with Xenleta. See 
 below under Other medicines and Xenleta for examples. 
-- if you are taking medicines that can cause changes in the heart’s electrical activity seen with an 
+- if you are taking medicines that can cause changes in the heart s electrical activity seen with an 
 ECG (see below under Other medicines and Xenleta). This is because lefamulin can cause a 
-condition called QT interval prolongation i.e. abnormal electrical activity that affects the heart’s 
+condition called QT interval prolongation i.e. abnormal electrical activity that affects the heart s 
 rhythm. 
 - if you have a salt imbalance in the blood (especially low levels of potassium in the blood) 
 - if you have or have had an irregular heart rhythm or an abnormal ECG finding called QT 
@@ -120,17 +120,19 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines, as some of them could affect or be affected by Xenleta. The lists below provide only some 
 examples of medicines that should be avoided while taking lefamulin or for which caution is needed. 
 Your doctor will a dvise you if lefamulin is suitable for you. </p>
-<p>You must not take any of the following medicines with lefamulin: 
-- carbamazepine, phenytoin, primidone (for epilepsy) 
-- efavirenz, ritonavir- (for HIV) 
-- St. John’s Wort, an herbal remedy (for depression or low mood) 
-- bosentan diltiazem, amiodarone, sotalol, quinidine, procainamide (for angina, high blood 
-pressure or heart rhythm disturbances) 
-- rifampicin, clarithromycin, erythromycin (for bacterial infections) 
-- fluconazole, itraconazole, posaconazole, voriconazole (for fungal infections) 
-- ketoconazole (for Cushing’s disease) 
-- repaglinide (for diabetes) 
-- nefazodone, amitryptylline or pimozide (for depression or other mental illness) </p>
+<p>You must not take any of the following medicines with lefamulin:</p>
+<ul>
+<li>carbamazepine, phenytoin, primidone (for epilepsy) </li>
+<li>efavirenz, ritonavir- (for HIV) </li>
+<li>St. John s Wort, an herbal remedy (for depression or low mood) </li>
+<li>bosentan diltiazem, amiodarone, sotalol, quinidine, procainamide (for angina, high blood 
+pressure or heart rhythm disturbances) </li>
+<li>rifampicin, clarithromycin, erythromycin (for bacterial infections) </li>
+<li>fluconazole, itraconazole, posaconazole, voriconazole (for fungal infections) </li>
+<li>ketoconazole (for Cushing s disease) </li>
+<li>repaglinide (for diabetes) </li>
+<li>nefazodone, amitryptylline or pimozide (for depression or other mental illness) </li>
+</ul>
 <p>Your doctor may need to adjust the dose of some medicines while you are taking lefamulin. These 
 medicines include: 
 * alprazolam, midazolam, triazolam or other drugs called benzodiazepines (for anxiety) 
@@ -154,8 +156,8 @@ taking this medicine. </p>
 <p>Driving and using machines 
 Taking Xenleta will not influence the ability to drive or use machines. </p>
 <p>Xenleta contains sodium 
-This medicine contains less than 1 mmol sodium (23mg) per tablet, that is to say essentially, ‘sodium 
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23mg) per tablet, that is to say essentially,  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xenleta"
@@ -256,7 +258,7 @@ talc (E553b).
 - Film Coating: black iron oxide (E172), indigo carmine lake (E132), macrogol, poly (vinyl 
 alcohol) (E1203), propylene glycol, shellac (E904), talc, titanium dioxide (E171). </p>
 <p>What Xenleta looks like and contents of the pack 
-Xenleta 600 mg film-coated tablets are blue, oval, film-coated tablets printed with “LEF 600” in black 
+Xenleta 600 mg film-coated tablets are blue, oval, film-coated tablets printed with  LEF 600  in black 
 on one side. </p>
 <p>Xenleta film-coated tablets are provided in blister packs of 10 tablets. </p>
 <p>Marketing Authorisation Holder and Manufacturer 

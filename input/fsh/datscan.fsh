@@ -4,7 +4,7 @@ Instance: composition-en-d047904bec391590dca84caa3af7d489
 InstanceOf: CompositionUvEpi
 Title: "Composition for datscan Package Leaflet"
 Description:  "Composition for datscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What datscan is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DaTSCAN contains the active substance ioflupane (123I) which is used to help identify (diagnose) 
-conditions in the brain. It belongs to a group of medicines called “radiopharmaceuticals”, which contain 
+conditions in the brain. It belongs to a group of medicines called  radiopharmaceuticals , which contain 
 a small amount of radioactivity.<br />
 <em> When a radiopharmaceutical is injected, it collects in a specific organ or area of the body for a 
 short time.<br />
@@ -81,7 +81,7 @@ inside the organ and the body. This can give the doctor valuable information abo
 is working. </p>
 <p>When DaTSCAN is injected into an adult, it is carried around the body in the blood. It collects in a small 
 area of your brain. Changes in this area of the brain occur in: 
-* Parkinsonism (including Parkinson’s disease) and<br />
+* Parkinsonism (including Parkinson s disease) and<br />
 * dementia with Lewy bodies.  </p>
 <p>A scan will give your doctor information about any changes in this area of your brain. Your doctor may 
 feel that the scan would help in finding out more about your condition and deciding on possible 
@@ -112,7 +112,7 @@ Tell your nuclear medicine doctor if you are taking or have recently taken any o
 Some medicines or substances can affect the way that DaTSCAN works.<br />
 These include: 
 * buproprion (used to treat depression (sadness)) 
-* benzatropine (used to treat Parkinson’s disease) 
+* benzatropine (used to treat Parkinson s disease) 
 * mazindol (reduces appetite, as a means to treat obesity)<br />
 <em> sertraline (used to treat depression (sadness)) 
 * methylphenidate (used to treat hyperactivity in children and narcolepsy (excessive sleepiness)) 
@@ -215,7 +215,7 @@ in appropriate premises. Storage of radiopharmaceuticals will be in accordance w
 on radioactive materials.  </p>
 <p>The following information is intended for the specialist only: 
 * Keep this medicine out of the sight and reach of children. 
-* Do not store above 25°C.<br />
+* Do not store above 25 C.<br />
 * Do not freeze. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial after EXP. The 
 expiry date refers to the last day of that month.  Hospital staff will ensure that the product is stored and 
@@ -229,7 +229,7 @@ thrown away correctly and not used after the expiry date stated on the label.  <
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What DaTSCAN contains 
 * The active substance is ioflupane (123I). Each ml of solution contains ioflupane (123I) 74 MBq at<br />
-reference time (0.07 to 0.13 μg/ml of ioflupane).<br />
+reference time (0.07 to 0.13  g/ml of ioflupane).<br />
 * The other ingredients are acetic acid, sodium acetate, ethanol and water for injections. </p>
 <p>What DaTSCAN looks like and contents of the pack 
 DaTSCAN is a 2.5 or 5 ml colourless solution for injection, supplied in a single colourless 10 ml glass 
@@ -241,21 +241,20 @@ De Rondom 8
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 GE Healthcare<br />
-Tél/Tel: +32 (0) 2 719 7 
+T l/Tel: +32 (0) 2 719 7 
 Lietuva 
 VitaFARMA UAB 
-Tel.: +370 37 225 
-България 
-GE Healthcare Bulgaria EOOD 
-Teл: +359 2 9712Luxembourg/Luxemburg<br />
+Tel.: +370 37 225 </p>
+<p>GE Healthcare Bulgaria EOOD 
+Te : +359 2 9712Luxembourg/Luxemburg<br />
 GE Healthcare<br />
-België/Belgique/Belgien 
-Tél/Tel: +32 (0) 2 719 7 </p>
-<p>Česká republika 
+Belgi /Belgique/Belgien 
+T l/Tel: +32 (0) 2 719 7 </p>
+<p>esk  republika 
 M.G.P. spol. s r.o. 
-Tel.: +420 577 212 Magyarország 
+Tel.: +420 577 212 Magyarorsz g 
 Radizone Diagnost-X Kft. 
 Tel: +36 1 787-5 
 Danmark 
@@ -269,29 +268,28 @@ Tel: +49 (0) 5 307 93 Nederland
 GE Healthcare B.V. 
 Tel: +31 (0) 40 299 10 00  </p>
 <p>Eesti 
-GE Healthcare Estonia OÜ 
+GE Healthcare Estonia O<br />
 Tel: +372 6260 Norge 
 GE Healthcare AS 
-Tlf: +47 23 18 50<br />
-Ελλάδα 
-GE Healthcare A.E. 
-Τηλ: +30 210 8930Österreich 
+Tlf: +47 23 18 50  </p>
+<p>GE Healthcare A.E. 
+ : +30 210 8930 sterreich 
 GE Healthcare Handels GmbH 
 Tel: +43 (0) 1 97272-0 </p>
-<p>España 
+<p>Espa a 
 GE Healthcare Bio-Sciences, S.A.U 
 Tel: +34 91 663 25 Polska 
 GE Medical Systems Polska Sp. z o.o. 
 Tel: +4822 330 83<br />
 France 
 GE Healthcare SAS 
-Tél: +33 1 34 49 54 Portugal 
-Satis – GE Healthcare 
+T l: +33 1 34 49 54 Portugal 
+Satis   GE Healthcare 
 Tel: +351 214251 
 Hrvatska 
 BIOVIT d.o.o. 
 Tel: + 385 42 260<br />
-România 
+Rom nia 
 MagnaPharm Marketing &amp; Sales Romania 
 S.R.L. 
 Tel: + 40 372 502<br />
@@ -300,19 +298,18 @@ GE Healthcare Limited UK
 Tel: +44 (0) 1494 54 5 
 Slovenija 
 Biomedis M.B. trgovina d.o.o. 
-Tel: +386 2 4716Ísland 
+Tel: +386 2 4716 sland 
 Icepharma 
-Sími: + 354 540 8Slovenská republika 
+S mi: + 354 540 8Slovensk  republika 
 MGP, spol. s r. o. 
 Tel: +421 2 5465 4 
 Italia 
 GE Healthcare S.r.l. 
 Tel: +39 02 26001 Suomi/Finland 
 Oy GE Healthcare Bio-Sciences Ab 
-Puh/Tel: +358 10 39 
-Κύπρος 
-Phadisco Ltd 
-Τηλ: +357 22 715Sverige 
+Puh/Tel: +358 10 39 </p>
+<p>Phadisco Ltd 
+ : +357 22 715Sverige 
 GE Healthcare AB 
 Tel: +46 (0) 8 559 504<br />
 Latvija 

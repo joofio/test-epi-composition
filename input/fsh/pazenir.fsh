@@ -4,7 +4,7 @@ Instance: composition-en-92b31dfcd94fef6128e5d86cc210fa3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for pazenir Package Leaflet"
 Description:  "Composition for pazenir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use Pazenir 
 4. Possible side effects 
 5. How to store Pazenir 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -69,24 +68,23 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What pazenir is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pazenir is and what it is used for </p>
-<p>What Pazenir is 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pazenir is 
 Pazenir contains, as its active substance, paclitaxel attached to the human protein albumin, in the form 
-of tiny particles known as nanoparticles. Paclitaxel belongs to a group of medicines called “taxanes” 
+of tiny particles known as nanoparticles. Paclitaxel belongs to a group of medicines called  taxanes<br />
 used in cancer. 
 * Paclitaxel is the part of the medicine that affects the cancer, it works by stopping cancer cells 
-from dividing – this means that they die. 
+from dividing   this means that they die. 
 * Albumin is the part of the medicine that helps paclitaxel dissolve in the blood and get across the 
 walls of the blood vessels into the tumour. This means that other chemicals that can cause side 
 effects that can be life threatening are not needed. Such side effects occur far less with Pazenir. </p>
 <p>What Pazenir is used for 
 Pazenir is used to treat the following types of cancer: </p>
 <p>Breast cancer 
-* Breast cancer which has spread to other parts of the body (this is called “metastatic” breast 
+* Breast cancer which has spread to other parts of the body (this is called  metastatic  breast 
 cancer). 
 * Pazenir is used in metastatic breast cancer when at least one other therapy has been tried but has 
 not worked and you are unsuitable for treatments containing a group of medicines called 
-“anthracyclines”. 
+ anthracyclines . 
 * People with metastatic breast cancer who received paclitaxel attached to the human protein 
 albumin where another therapy had failed, were more likely to experience a reduction in tumour 
 size, and lived longer than people who took an alternative therapy. </p>
@@ -97,7 +95,7 @@ pancreas. People with metastatic pancreatic cancer (pancreatic cancer that has s
 gemcitabine in a clinical trial lived longer than people who had only received gemcitabine. </p>
 <p>Lung cancer 
 * Pazenir is also used together with a medicine called carboplatin if you have the most common 
-type of lung cancer, called “non-small cell lung cancer”. 
+type of lung cancer, called  non-small cell lung cancer . 
 * Pazenir is used in non-small cell lung cancer where surgery or radiotherapy would not be 
 suitable to treat the disease. </p>         </div>"""   
           
@@ -108,8 +106,7 @@ suitable to treat the disease. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take pazenir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before you are given Pazenir </p>
-<p>Do not use Pazenir 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Pazenir 
 * if you are allergic (hypersensitive) to paclitaxel or any of the other ingredients of Pazenir (listed 
 in section 6); 
 * if you are breast-feeding; 
@@ -153,7 +150,7 @@ doctor will arrange a pregnancy test before starting treatment with Pazenir. </p
 <p>Women of childbearing age should use effective contraception during and up to 1 month after 
 receiving treatment with Pazenir. </p>
 <p>Do not breast-feed when taking Pazenir as it is not known if the active ingredient paclitaxel passes into 
-the mother’s milk. </p>
+the mother s milk. </p>
 <p>Male patients are advised to use effective contraception and to avoid fathering a child during and up to 
 six months after treatment and should seek advice on conservation of sperm prior to treatment because 
 of the possibility of irreversible infertility due to therapy with Pazenir. </p>
@@ -165,15 +162,14 @@ use any tools or machines. </p>
 driving and using machines. </p>
 <p>Pazenir contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pazenir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take pazenir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to use Pazenir </p>
-<p>Pazenir will be given to you by a doctor or nurse into a vein from an intravenous drip. The dose you 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pazenir will be given to you by a doctor or nurse into a vein from an intravenous drip. The dose you 
 receive is based on your body surface area and blood test results. The usual dose for breast cancer is 
 260 mg/m2 of body surface area given over a 30 minute period. The usual dose for advanced 
 pancreatic cancer is 125 mg/m2 of body surface area given over a 30 minute period. The usual dose for 
@@ -193,8 +189,7 @@ day cycle), immediately after the Pazenir dose has been given. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everyone gets them. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everyone gets them. </p>
 <p>The very common side effects may affect more than 1 in 10 people: 
 * Loss of hair (the majority of cases of hair loss happened less than one month after starting 
 paclitaxel. When it happens, hair loss is pronounced (over 50%) in the majority of patients) 
@@ -299,16 +294,15 @@ medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store pazenir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to store Pazenir  </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>Unopened vials: Keep the container in the outer carton until use in order to protect from light. </p>
 <p>After first reconstitution the dispersion should be used immediately. If not used immediately, the 
-dispersion may be stored in a refrigerator (2°C-8°C) for up to 24 hours in the vial when kept in the 
+dispersion may be stored in a refrigerator (2 C-8 C) for up to 24 hours in the vial when kept in the 
 outer carton in order to protect it from light. </p>
-<p>The reconstituted dispersion in the intravenous drip may be stored for up to 24 hours at 2°C-8°C, 
-protected from light followed by 4 hours at 15°C-25°C. </p>
+<p>The reconstituted dispersion in the intravenous drip may be stored for up to 24 hours at 2 C-8 C, 
+protected from light followed by 4 hours at 15 C-25 C. </p>
 <p>Your doctor or pharmacist is responsible for disposing of any unused Pazenir correctly. </p>         </div>"""      
         
         
@@ -317,26 +311,25 @@ protected from light followed by 4 hours at 15°C-25°C. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What Pazenir contains 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pazenir contains 
 The active substance is paclitaxel. 
 Each vial contains 100 mg of paclitaxel formulated as albumin bound nanoparticles. 
 After reconstitution, each ml of dispersion contains 5 mg of paclitaxel formulated as albumin bound 
 nanoparticles. 
 The other ingredient is human albumin (containing sodium caprylate and N-acetyl-DL-tryptophan), 
-see section 2 “Pazenir contains sodium”. </p>
+see section 2  Pazenir contains sodium . </p>
 <p>What Pazenir looks like and contents of the pack 
 Pazenir is a white to yellow powder for dispersion for infusion. Pazenir is available in glass vials 
 containing 100 mg of paclitaxel formulated as albumin bound nanoparticles. </p>
 <p>Each pack contains 1 vial. </p>
 <p>Marketing Authorisation Holder  </p>
 <p>ratiopharm GmbH 
-Graf-Arco-Straße 3 
+Graf-Arco-Stra e 3 
 89079 Ulm 
 Germany </p>
 <p>Manufacturer </p>
 <p>Merckle GmbH 
-Ludwig-Merckle-Straße 3 
+Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
 Germany </p>
 <p>Pharmachemie B.V. 
@@ -354,24 +347,22 @@ Swensweg 5
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -379,7 +370,7 @@ Tlf: +45 44985
 Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Τel: +44 2075407 
+ el: +44 2075407 
 Deutschland 
 ratiopharm GmbH 
 Tel: +49 73140 
@@ -391,30 +382,29 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS Α.Ε. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS  . . 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 </p>
 <p>France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, 
+Teva Pharma - Produtos Farmac uticos, 
 Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -423,10 +413,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -434,16 +424,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS Α.Ε. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>TEVA HELLAS  . . </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā<br />
+UAB Teva Baltics fili le Latvij <br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

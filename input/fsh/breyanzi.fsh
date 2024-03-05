@@ -4,7 +4,7 @@ Instance: composition-en-0033e02023c8b1bd6906c2cf5f7b744d
 InstanceOf: CompositionUvEpi
 Title: "Composition for breyanzi Package Leaflet"
 Description:  "Composition for breyanzi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Breyanzi is 
 Breyanzi contains the active substance lisocabtagene maraleucel, a type of treatment called 
-‘genetically modified cell therapy’. </p>
+ genetically modified cell therapy . </p>
 <p>Breyanzi is made from your own white blood cells.This involves taking some of your blood and 
 separating out the white blood cells and sending the white blood cells to a laboratory so that they can 
 be modified to make Breyanzi. </p>
@@ -106,7 +106,7 @@ Before you are given Breyanzi you should tell your doctor if:
 * you have low blood pressure 
 * you have an infection or other inflammatory conditions. The infection will be treated before you 
 are given Breyanzi 
-* you have had a stem cell transplant from another person in the last 4 months – the transplanted 
+* you have had a stem cell transplant from another person in the last 4 months   the transplanted 
 cells can attack your body (graft-versus-host disease), causing symptoms such as rash, nausea, 
 vomiting, diarrhoea and bloody stools 
 * you notice the symptoms of your cancer are getting worse. These symptoms include fever, 
@@ -118,7 +118,7 @@ months. See Live vaccines below for more information. </p>
 <p>Tests and checks 
 Before you are given Breyanzi, your doctor will: 
 * check your lungs, heart and blood pressure 
-* look for signs of infection – any infection will be treated before you receive Breyanzi 
+* look for signs of infection   any infection will be treated before you receive Breyanzi 
 * look for signs of graft-versus-host disease, which can happen after a stem cell transplant from 
 another person 
 * check your blood for uric acid and for how many cancer cells there are in your blood. This will 
@@ -128,7 +128,7 @@ medicines to help prevent the condition.
 * check for hepatitis B and C, and HIV infection </p>
 <p>After you have been given Breyanzi 
 * If you get certain serious side effects, you must tell your doctor or nurse straight away because 
-you may need treatment for them. See section 4 under ‘Serious side effects’. 
+you may need treatment for them. See section 4 under  Serious side effects . 
 * Your doctor will regularly check your blood counts, as the number of blood cells may decrease. 
 * Stay close to the treatment centre where you had Breyanzi for at least 4 weeks. See sections 3 
 and 4. * Do not donate blood, organs, tissues or cells for transplantation. </p>
@@ -209,12 +209,10 @@ the patient identity information on the medicine labels matches your details.
 CD4 positive cells. The time for infusion will vary, but will usually be less than 15 minutes for 
 each of the 2 cell types. </p>
 <p>After Breyanzi is given 
-* Stay close to the treatment centre where you received Breyanzi – for at least 4 weeks. 
+* Stay close to the treatment centre where you received Breyanzi   for at least 4 weeks. 
 * During the first week after treatment, you will need to return to the treatment centre 2 to 3 times 
-so that your doctor can check that the treatment is working – and to help you with any side 
-effects. See sections 2 and 4.<br />
-If you miss an appointment 
-Call your doctor or the treatment centre as soon as possible to make another appointment. </p>         </div>"""         
+so that your doctor can check that the treatment is working   and to help you with any side 
+effects. See sections 2 and </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -222,22 +220,34 @@ Call your doctor or the treatment centre as soon as possible to make another app
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you miss an appointment 
+Call your doctor or the treatment centre as soon as possible to make another appointment. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store breyanzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store breyanzi"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
 Tell your doctor immediately if you get any of the following side effects after being given Breyanzi: </p>
 <ul>
 <li>fever, chills or shaking, feeling tired, fast or uneven heartbeat, feeling light-headed and short of 
-breath – these may be signs of a serious problem called cytokine release syndrome </li>
+breath   these may be signs of a serious problem called cytokine release syndrome </li>
 <li>confusion, being less alert (decreased consciousness), difficulty speaking or slurred speech, 
-shaking (tremor), feeling anxious, feeling dizzy and headache – these may be signs of problems 
+shaking (tremor), feeling anxious, feeling dizzy and headache   these may be signs of problems 
 with your nervous system </li>
-<li>feeling warm, fever, chills or shivering – these may be signs of infection 
-The infections may be caused by: </li>
-<li>low levels of white blood cells, which help fight infections, or </li>
+<li>
+<p>feeling warm, fever, chills or shivering   these may be signs of infection 
+The infections may be caused by:</p>
+</li>
+<li>
+<p>low levels of white blood cells, which help fight infections, or </p>
+</li>
 <li>low levels of antibodies called immunoglobulins </li>
-<li>feeling very tired, weak and short of breath – these may be signs of low red blood cell levels 
+<li>feeling very tired, weak and short of breath   these may be signs of low red blood cell levels 
 (anaemia) </li>
-<li>bleeding or bruising more easily –these may be signs of low levels of blood cells known as 
+<li>bleeding or bruising more easily  these may be signs of low levels of blood cells known as 
 platelets. </li>
 </ul>
 <p>Tell your doctor immediately if you get any of the side effects above after being given Breyanzi, as 
@@ -263,14 +273,14 @@ sleeping
 * blood clots or problems with blood clotting 
 * bleeding in your gut<br />
 </em> passing less urine 
-* infusion reactions – such as feeling dizzy, fever, and shortness of breath 
+* infusion reactions   such as feeling dizzy, fever, and shortness of breath 
 * low blood levels of phosphates 
 * low levels of oxygen in the blood 
 * rash </p>
 <p>Uncommon: may affect up to 1 in 100 people 
 * the fast breakdown of cancer cells, resulting in the release of toxic waste products into the 
-bloodstream – a sign may be dark urine with symptoms of nausea or pain on side of stomach 
-* severe inflammatory condition – symptoms may include fever, rash, enlarged liver, spleen and 
+bloodstream   a sign may be dark urine with symptoms of nausea or pain on side of stomach 
+* severe inflammatory condition   symptoms may include fever, rash, enlarged liver, spleen and 
 lymph nodes<br />
 * heart weakness, causing shortness of breath and ankle swelling 
 * fluid around the lungs 
@@ -282,48 +292,13 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store breyanzi"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store breyanzi"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the cartons and vial label after ‘EXP’.  </p>
-<p>Store frozen in the vapour phase of liquid nitrogen (≤ -130 °C). </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Breyanzi contains<br />
-* The active substance is lisocabtagene maraleucel. Each 4.6 mL vial contains a dispersion of 
-CAR-positive viable T cells (CD8 positive cell component or CD4 positive cell component) 
-with a strength of 1.1 × 106 to 70 × 106 CAR-positive viable T cells/mL for each cell 
-component. There may be up to 4 vials of each of the CD8 positive or CD4 positive cell 
-components, depending upon the concentration of cryopreserved medicine. </p>
-<ul>
-<li>The other ingredients (excipients) are Cryostor CS10 (contains dimethyl sulfoxide or DMSO), 
-sodium chloride, sodium gluconate, sodium acetate trihydrate, potassium chloride, magnesium 
-chloride, human albumin, N-acetyl-DL-tryptophan, caprylic acid, water for injections. See 
-section 2, “Breyanzi contains sodium, potassium and dimethyl sulfoxide (DMSO)”. </li>
-</ul>
-<p>This medicine contains genetically modified human blood cells. </p>
-<p>What Breyanzi looks like and contents of the pack 
-Breyanzi is a cell dispersion for infusion. It is supplied as vials of slightly opaque to opaque, 
-colourless to yellow, or brownish-yellow dispersion. Each vial contains 4.6 mL cell dispersion of 
-either CD8 positive or CD4 positive cell component. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Bristol-Myers Squibb Pharma EEIG 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland </p>
-<p>Manufacturer 
-Celgene Distribution B.V. 
-Orteliuslaan 1000<br />
-3528 BD Utrecht<br />
-Netherlands </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the cartons and vial label after  EXP .  </p>
+<p>Store frozen in the vapour phase of liquid nitrogen (  -130  C). </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-65348d0704af82b9a03c835ed62f4089
 InstanceOf: CompositionUvEpi
 Title: "Composition for omvoh Package Leaflet"
 Description:  "Composition for omvoh Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
  
 1. What Omvoh is and what it is used for 
-2. What you need to know before you receive Omvoh 
+2. What you need to know before you receive  Omvoh 
 3. How Omvoh is used 
 4. Possible side effects 
 5. How to store Omvoh 
@@ -99,15 +99,7 @@ section 6). If you think you may be allergic, ask your doctor for advice before 
 * Treatment with Omvoh should not be started if you have an active infection until the infection is 
 gone. 
 * After starting the treatment, tell your doctor right away if you have any symptoms of an infection 
-such as: 
-o fever 
-o shortness of breath 
-o chills 
-o runny nose 
-o muscle aches 
-o sore throat 
-o cough 
-o pain during urination </p>
+such as: * fever * shortness of breath * chills * runny nose * muscle aches * sore throat * cough * pain during urination </p>
 <ul>
 <li>Also tell your doctor if you have recently been near anyone who might have tuberculosis.  </li>
 <li>Your doctor will examine you and may do a test for tuberculosis before you have Omvoh.  </li>
@@ -121,14 +113,8 @@ of vaccines (live vaccines) should not be given while using Omvoh. </li>
 <p>Allergic reactions 
 * Omvoh can potentially cause serious allergic reactions. 
 * Stop using Omvoh and get emergency medical help right away if you develop any of the 
-following symptoms of a serious allergic reaction: 
-o rash 
-o low blood pressure 
-o fainting 
-o swelling of the face, lips, mouth, tongue 
-or throat, trouble breathing 
-o dizziness 
-o sensation of throat tightening or chest 
+following symptoms of a serious allergic reaction: * rash * low blood pressure * fainting * swelling of the face, lips, mouth, tongue 
+or throat, trouble breathing * dizziness * sensation of throat tightening or chest 
 tightness. </p>
 <p>Liver blood test 
 Your doctor will conduct blood tests before starting and during treatment with Omvoh to check if 
@@ -175,9 +161,18 @@ intravenous infusion (drip in a vein in your arm) over at least 30 minutes. Afte
 you will receive another dose of Omvoh 300 mg 4 weeks later and again after an additional 
 4 weeks. 
 If you do not have adequate therapeutic response after these 3 infusions, your doctor might 
-consider continuing intravenous infusions at weeks 12, 16 and 20.  </li>
+consider continuing intravenous infusions at weeks 12, 16 and 2</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Maintenance therapy: 4 weeks after the last intravenous infusion, a maintenance dose of 
-Omvoh 200 mg will be given by an injection under the skin (‘subcutaneously’) and then every 
+Omvoh 200 mg will be given by an injection under the skin ( subcutaneously ) and then every 
 4 weeks. The maintenance dose of 200 mg will be given by using 2 injections each containing 
 100 mg of Omvoh. 
 If you lose response after receiving the maintenance dose of Omvoh, your doctor may decide 
@@ -196,13 +191,12 @@ If you missed a dose of Omvoh, talk to your doctor. </p>
 <p>If you stop using Omvoh<br />
 You should not stop using Omvoh without speaking to your doctor first. If you stop treatment, 
 symptoms of ulcerative colitis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store omvoh"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store omvoh"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Common (may affect up to 1 in 10 people) 
@@ -221,15 +215,16 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store omvoh"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store omvoh"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and on the outer carton 
-after “EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C - 8 °C). Do not freeze. </p>
+after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C - 8  C). Do not freeze. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not use this medicine if you notice that the vial is damaged, or the medicine is cloudy, distinctly 
 brown, or has particles in it.  </p>
@@ -239,132 +234,15 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>Diluted solution 
 It is recommended to start the infusion immediately after dilution. If not immediately used, the 
 diluted solution prepared with sodium chloride 9 mg/mL (0.9 %) solution for injection may be stored 
-refrigerated (2 ºC – 8 ºC) for not more than 96 hours or at room temperature not exceeding 25 ºC for 
+refrigerated (2  C   8  C) for not more than 96 hours or at room temperature not exceeding 25  C for 
 not more than 10 hours (total time must not exceed 96 hours) starting from the time of vial puncture. 
 The diluted infusion solution prepared with 5 % glucose must be used within 48 hours, of which not 
-more than 5 hours are permitted at nonrefrigerated temperature not to exceed 25 °C, starting at the 
+more than 5 hours are permitted at nonrefrigerated temperature not to exceed 25  C, starting at the 
 time of vial puncture. </p>
 <p>From a microbiological point of view, the product should be used immediately. If not used 
 immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-would normally not be longer than 24 hours at 2 to 8 °C, unless dilution has taken place in controlled 
+would normally not be longer than 24 hours at 2 to 8  C, unless dilution has taken place in controlled 
 and validated aseptic conditions. </p>
 <p>Keep the diluted solution away from direct heat or light. 
 Do not freeze the diluted solution. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Omvoh contains 
-- The active substance is mirikizumab. </p>
-<p>Each vial contains 300 mg mirikizumab in 15 mL (20 mg/mL). 
-- The other ingredients are sodium citrate dihydrate; citric acid, anhydrous; sodium chloride; 
-polysorbate 80; water for injections. </p>
-<p>What Omvoh looks like and contents of the pack 
-Omvoh is a solution in a clear glass vial. Its colour may vary from colourless to slightly yellow.  </p>
-<p>Pack size of 1 vial. </p>
-<p>Marketing Authorisation Holder<br />
-Eli Lilly Nederland B.V. 
-Papendorpseweg 3528 BJ Utrecht 
-The Netherlands </p>
-<p>Manufacturer 
-Lilly France S.A.S. 
-Rue du Colonel Lilly 
-67640 Fegersheim 
-France </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
-Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
-Lietuva 
-Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
-Luxembourg/Luxemburg 
-Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
-Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
-Tel: + 36 1 328 5Danmark 
-Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 60<br />
-Malta 
-Charles de Giorgio Ltd. 
-Tel: + 356 25600 Deutschland 
-Lilly Deutschland GmbH 
-Tel. + 49-(0) 6172 273 2 
-Nederland 
-Eli Lilly Nederland B.V.<br />
-Tel: + 31-(0) 30 60 25 Eesti 
-Eli Lilly Nederland B.V. 
-Tel: +372 6 817<br />
-Norge 
-Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 Ελλάδα 
-Österreich 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
-Lilly S.A. 
-Tel: + 34-91 663 50<br />
-Polska<br />
-Eli Lilly Polska Sp. z o.o. 
-Tel: +48 22 440 33 France 
-Lilly France<br />
-Tél: +33-(0) 1 55 49 34<br />
-Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
-Tel: + 351-21-4126Hrvatska 
-Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
-Tel: + 40 21 4023Ireland 
-Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-Slovenija<br />
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
-Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
-Eli Lilly Slovakia, s.r.o. 
-Tel: + 421 220 663 Italia 
-Eli Lilly Italia S.p.A. 
-Tel: + 39- 055 42 
-Suomi/Finland 
-Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
-Phadisco Ltd<br />
-Τηλ: +357 22 715 
-Sverige 
-Eli Lilly Sweden AB 
-Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A. Pārstāvniecība Latvijā 
-Tel: +371 67364United Kingdom (Northern Ireland) 
-Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.  </p>
-<p>----------------------------------------------------------------------------------------------------------------------<br />
-Omvoh 300 mg concentrate for solution for infusion 
-mirikizumab </p>
-<p>The following information is intended for healthcare professionals only: </p>
-<p>Do not use Omvoh that has been frozen. </p>
-<p>Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements.  </p>
-<p>Traceability 
-In order to improve the traceability of biological medicinal products, the name and the batch number 
-of the administered product should be clearly recorded. </p>
-<p>Dilution prior to intravenous infusion </p>         </div>"""      
 

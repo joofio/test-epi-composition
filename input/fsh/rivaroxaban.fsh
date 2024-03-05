@@ -4,7 +4,7 @@ Instance: composition-en-9783bb619d590edd01b19075a96dfce9
 InstanceOf: CompositionUvEpi
 Title: "Composition for rivaroxaban Package Leaflet"
 Description:  "Composition for rivaroxaban Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -113,7 +113,7 @@ venous or arterial line to keep it open </li>
 brain (stroke)  </li>
 <li>if you have coronary artery disease or peripheral artery disease and previously had a bleeding in 
 your brain (stroke) or where there was a blockage of the small arteries providing blood to the 
-brain’s deep tissues (lacunar stroke) or if you had a blood clot in your brain (ischaemic, non-
+brain s deep tissues (lacunar stroke) or if you had a blood clot in your brain (ischaemic, non-
 lacunar stroke) in the previous month </li>
 <li>if you have a liver disease which leads to an increased risk of bleeding </li>
 <li>if you are pregnant or breast feeding 
@@ -124,47 +124,37 @@ Talk to your doctor or pharmacist before taking Rivaroxaban Accord.
 Rivaroxaban Accord should not be used in combination with certain other medicines which reduce 
 blood clotting such as prasugrel or ticagrelor other than acetylsalicylic acid and 
 clopidogrel/ticlopidine. </p>
-<p>Take special care with Rivaroxaban Accord 
-▪ 
-if you have an increased risk of bleeding, as could be the case in situations such as: 
-▪ 
-severe kidney disease, since your kidney function may affect the amount of medicine that 
-works in your body 
-▪ 
-if you are taking other medicines to prevent blood clotting (e.g. warfarin, dabigatran, 
+<p>Take special care with Rivaroxaban Accord </p>
+<p>if you have an increased risk of bleeding, as could be the case in situations such as: </p>
+<p>severe kidney disease, since your kidney function may affect the amount of medicine that 
+works in your body </p>
+<p>if you are taking other medicines to prevent blood clotting (e.g. warfarin, dabigatran, 
 apixaban or heparin), when changing anticoagulant treatment or while getting heparin 
-through a venous or arterial line to keep it open (see section ‘Other medicines and 
-Rivaroxaban Accord’) 
+through a venous or arterial line to keep it open (see section  Other medicines and 
+Rivaroxaban Accord ) 
 * bleeding disorders 
-* very high blood pressure, not controlled by medical treatment 
-▪ 
-diseases of your stomach or bowel that might result in bleeding, e.g. inflammation of the 
+* very high blood pressure, not controlled by medical treatment </p>
+<p>diseases of your stomach or bowel that might result in bleeding, e.g. inflammation of the 
 bowels or stomach, or inflammation of the oesophagus (gullet), e.g. due to 
 gastroesophageal reflux disease (disease where stomach acid goes upwards into the 
-oesophagus) or tumours located in the stomach or bowels or genital tract or urinary tract 
-▪ 
-a problem with the blood vessels in the back of your eyes (retinopathy) 
-▪ 
-a lung disease where your bronchi are widened and filled with pus (bronchiectasis), or 
+oesophagus) or tumours located in the stomach or bowels or genital tract or urinary tract </p>
+<p>a problem with the blood vessels in the back of your eyes (retinopathy) </p>
+<p>a lung disease where your bronchi are widened and filled with pus (bronchiectasis), or 
 previous bleeding from your lung 
 * you are older than 75 years<br />
 <em> you weigh less than 60 kg<br />
-</em> you have a coronary artery disease with severe symptomatic heart failure<br />
-▪ 
-if you have a prosthetic heart valve 
-▪ 
-if you know that you have a disease called antiphospholipid syndrome (a disorder of the 
+</em> you have a coronary artery disease with severe symptomatic heart failure  </p>
+<p>if you have a prosthetic heart valve </p>
+<p>if you know that you have a disease called antiphospholipid syndrome (a disorder of the 
 immune system that causes an increased risk of blood clots), tell your doctor who will decide if 
 the treatment may need to be changed. </p>
 <p>If any of the above apply to you, tell your doctor before you take Rivaroxaban Accord. Your doctor 
 will decide, if you should be treated with this medicine and if you should be kept under closer 
 observation. </p>
 <p>If you need to have an operation: </p>
-<p>▪ 
-it is very important to take Rivaroxaban Accord before and after the operation exactly at the 
-times you have been told by your doctor. 
-▪ 
-If your operation involves a catheter or injection into your spinal column (e.g. for epidural or 
+<p>it is very important to take Rivaroxaban Accord before and after the operation exactly at the 
+times you have been told by your doctor. </p>
+<p>If your operation involves a catheter or injection into your spinal column (e.g. for epidural or 
 spinal anaesthesia or pain reduction): 
 * it is very important to take Rivaroxaban Accord before and after the injection or removal 
 of the catheter exactly at the times you have been told by your doctor 
@@ -176,27 +166,19 @@ information on its use in children and adolescents. </p>
 <p>Other medicines and Rivaroxaban Accord 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription. 
-- If you are taking: 
-▪ 
-some medicines for fungal infections (e.g. fluconazole, itraconazole, voriconazole, 
-posaconazole), unless they are only applied to the skin<br />
-▪ 
-ketoconazole tablets (used to treat Cushing’s syndrome - when the body produces an 
-excess of cortisol)<br />
-▪ 
-some medicines for bacterial infections (e.g. clarithromycin, erythromycin) 
-▪ 
-some anti-viral medicines for HIV / AIDS (e.g. ritonavir) 
-▪ 
-other medicines to reduce blood clotting (e.g. enoxaparin, clopidogrel or vitamin K 
+- If you are taking: </p>
+<p>some medicines for fungal infections (e.g. fluconazole, itraconazole, voriconazole, 
+posaconazole), unless they are only applied to the skin  </p>
+<p>ketoconazole tablets (used to treat Cushing s syndrome - when the body produces an 
+excess of cortisol)  </p>
+<p>some medicines for bacterial infections (e.g. clarithromycin, erythromycin) </p>
+<p>some anti-viral medicines for HIV / AIDS (e.g. ritonavir) </p>
+<p>other medicines to reduce blood clotting (e.g. enoxaparin, clopidogrel or vitamin K 
 antagonists such as warfarin and acenocoumarol prasugrel and ticagrelor (see section 
-“Warnings and Precautions”)) 
-▪ 
-anti-inflammatory and pain relieving medicines (e.g. naproxen or acetylsalicylic acid) 
-▪ 
-dronedarone, a medicine to treat abnormal heart beat 
-▪ 
-some medicines to treat depression (selective serotonin reuptake inhibitors (SSRIs) or 
+ Warnings and Precautions )) </p>
+<p>anti-inflammatory and pain relieving medicines (e.g. naproxen or acetylsalicylic acid) </p>
+<p>dronedarone, a medicine to treat abnormal heart beat </p>
+<p>some medicines to treat depression (selective serotonin reuptake inhibitors (SSRIs) or 
 serotonin norepinephrine reuptake inhibitors (SNRIs)). </p>
 <p>If any of the above apply to you, tell your doctor before taking Rivaroxaban Accord, because the 
 effect of Rivaroxaban Accord may be increased. Your doctor will decide, if you should be treated with 
@@ -205,9 +187,9 @@ If your doctor thinks that you are at increased risk of developing stomach or bo
 use a preventative ulcer treatment. </p>
 <ul>
 <li>If you are taking: 
-▪ some medicines for treatment of epilepsy (phenytoin, carbamazepine, phenobarbital) 
-▪ St John’s Wort (Hypericum perforatum), a herbal product used for depression 
-▪ rifampicin, an antibiotic 
+  some medicines for treatment of epilepsy (phenytoin, carbamazepine, phenobarbital) 
+  St John s Wort (Hypericum perforatum), a herbal product used for depression 
+  rifampicin, an antibiotic 
 If any of the above apply to you, tell your doctor before taking Rivaroxaban Accord, because 
 the effect of Rivaroxaban Accord may be reduced. Your doctor will decide, if you should be 
 treated with Rivaroxaban Accord and if you should be kept under closer observation. </li>
@@ -219,13 +201,13 @@ become pregnant while you are taking this medicine, tell your doctor immediately
 how you should be treated. </p>
 <p>Driving and using machines </p>
 <p>Rivaroxaban Accord may cause dizziness (common side effect) or fainting (uncommon side effect) 
-(see section 4, ‘Possible side effects’). You should not drive, ride a bicycle or use any tools or 
+(see section 4,  Possible side effects ). You should not drive, ride a bicycle or use any tools or 
 machines if you are affected by these symptoms. </p>
 <p>Rivaroxaban Accord contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rivaroxaban"
@@ -310,91 +292,54 @@ anaphylactic shock; may affect up to 1 in 10,000 people) and uncommon (angioedem
 allergic oedema; may affect up to 1 in 100 people). </li>
 </ul>
 <p>Overall list of possible side effects </p>
-<p>Common (may affect up to 1 in 10 people) 
-▪ 
-reduction in red blood cells which can make the skin pale and cause weakness or breathlessness 
-▪ 
-bleeding in the stomach or bowel, urogenital bleeding (including blood in the urine and heavy 
-menstrual bleeding), nose bleed, bleeding in the gum 
-▪ 
-bleeding into the eye (including bleeding from the whites of the eyes) 
-▪ 
-bleeding into tissue or a cavity of the body (haematoma, bruising) 
-▪ 
-coughing up blood </p>
-<p>▪ 
-bleeding from the skin or under the skin 
-▪ 
-bleeding following an operation 
-▪ 
-oozing of blood or fluid from surgical wound 
-▪ 
-swelling in the limbs 
-▪ 
-pain in the limbs 
-▪ 
-impaired function of the kidneys (may be seen in tests performed by your doctor) 
-▪ 
-fever 
-▪ 
-stomach ache, indigestion, feeling or being sick, constipation, diarrhoea 
-▪ 
-low blood pressure (symptoms may be feeling dizzy or fainting when standing up) 
-▪ 
-decreased general strength and energy (weakness, tiredness), headache, dizziness 
-▪ 
-rash, itchy skin 
-▪ 
-blood tests may show an increase in some liver enzymes </p>
-<p>Uncommon (may affect up to 1 in 100 people) 
-▪ 
-bleeding into the brain or inside the skull (see above, signs of bleeding) 
-▪ 
-bleeding into a joint causing pain and swelling 
-▪ 
-thrombocytopenia (low number of platelets, which are cells that help blood to clot) 
-▪ 
-allergic reactions, including allergic skin reactions 
-▪ 
-impaired function of the liver (may be seen in tests performed by your doctor) 
-▪ 
-blood tests may show an increase in bilirubin, some pancreatic or liver enzymes or in the 
-number of platelets 
-▪ 
-fainting 
-▪ 
-feeling unwell 
-▪ 
-faster heartbeat 
-▪ 
-dry mouth 
-▪ 
-hives </p>
-<p>Rare (may affect up to 1 in 1,000 people) 
-▪ 
-bleeding into a muscle 
-▪ 
-cholestasis (decreased bile flow), hepatitis incl. hepatocellular injury (inflamed liver incl. liver 
-injury) 
-▪ 
-yellowing of the skin and eye (jaundice) 
-▪ 
-localised swelling 
-▪ 
-collection of blood (haematoma) in the groin as a complication of the cardiac procedure where a 
+<p>Common (may affect up to 1 in 10 people) </p>
+<p>reduction in red blood cells which can make the skin pale and cause weakness or breathlessness </p>
+<p>bleeding in the stomach or bowel, urogenital bleeding (including blood in the urine and heavy 
+menstrual bleeding), nose bleed, bleeding in the gum </p>
+<p>bleeding into the eye (including bleeding from the whites of the eyes) </p>
+<p>bleeding into tissue or a cavity of the body (haematoma, bruising) </p>
+<p>coughing up blood </p>
+<p>bleeding from the skin or under the skin </p>
+<p>bleeding following an operation </p>
+<p>oozing of blood or fluid from surgical wound </p>
+<p>swelling in the limbs </p>
+<p>pain in the limbs </p>
+<p>impaired function of the kidneys (may be seen in tests performed by your doctor) </p>
+<p>fever </p>
+<p>stomach ache, indigestion, feeling or being sick, constipation, diarrhoea </p>
+<p>low blood pressure (symptoms may be feeling dizzy or fainting when standing up) </p>
+<p>decreased general strength and energy (weakness, tiredness), headache, dizziness </p>
+<p>rash, itchy skin </p>
+<p>blood tests may show an increase in some liver enzymes </p>
+<p>Uncommon (may affect up to 1 in 100 people) </p>
+<p>bleeding into the brain or inside the skull (see above, signs of bleeding) </p>
+<p>bleeding into a joint causing pain and swelling </p>
+<p>thrombocytopenia (low number of platelets, which are cells that help blood to clot) </p>
+<p>allergic reactions, including allergic skin reactions </p>
+<p>impaired function of the liver (may be seen in tests performed by your doctor) </p>
+<p>blood tests may show an increase in bilirubin, some pancreatic or liver enzymes or in the 
+number of platelets </p>
+<p>fainting </p>
+<p>feeling unwell </p>
+<p>faster heartbeat </p>
+<p>dry mouth </p>
+<p>hives </p>
+<p>Rare (may affect up to 1 in 1,000 people) </p>
+<p>bleeding into a muscle </p>
+<p>cholestasis (decreased bile flow), hepatitis incl. hepatocellular injury (inflamed liver incl. liver 
+injury) </p>
+<p>yellowing of the skin and eye (jaundice) </p>
+<p>localised swelling </p>
+<p>collection of blood (haematoma) in the groin as a complication of the cardiac procedure where a 
 catheter is inserted in your leg artery (pseudoaneurysm) </p>
-<p>Very rare (may affect up to 1 in 10,000 people) 
-▪ 
-accumulation of eosinophils, a type of white granulocytic blood cells that cause inflammation in 
+<p>Very rare (may affect up to 1 in 10,000 people) </p>
+<p>accumulation of eosinophils, a type of white granulocytic blood cells that cause inflammation in 
 the lung (eosinophilic pneumonia) </p>
-<p>Not known (frequency cannot be estimated from the available data) 
-▪ 
-kidney failure after a severe bleeding 
-▪ 
-bleeding in the kidney sometimes with presence of blood in urine leading to inability of 
-the kidneys to work properly (anticoagulant-related nephropathy) 
-▪ 
-increased pressure within muscles of the legs or arms after a bleeding, which leads to pain, 
+<p>Not known (frequency cannot be estimated from the available data) </p>
+<p>kidney failure after a severe bleeding </p>
+<p>bleeding in the kidney sometimes with presence of blood in urine leading to inability of 
+the kidneys to work properly (anticoagulant-related nephropathy) </p>
+<p>increased pressure within muscles of the legs or arms after a bleeding, which leads to pain, 
 swelling, altered sensation, numbness or paralysis (compartment syndrome after a bleeding) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -422,12 +367,9 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What Rivaroxaban Accord contains 
-▪ 
-The active substance is rivaroxaban. Each tablet contains 2.5 mg of rivaroxaban. 
-▪ 
-The other ingredients are:  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rivaroxaban Accord contains </p>
+<p>The active substance is rivaroxaban. Each tablet contains 2.5 mg of rivaroxaban. </p>
+<p>The other ingredients are:  </p>
 <p>Tablet core 
 Lactose monohydrate 
 Croscarmellose sodium (E468) 
@@ -443,11 +385,13 @@ Titanium dioxide (E171)
 Iron oxide yellow (E172) </p>
 <p>What Rivaroxaban Accord looks like and contents of the pack </p>
 <p>Rivaroxaban Accord 2.5 mg film-coated tablets are light yellow coloured, round, biconvex, 
-approximately 6.00 mm in diameter, film coated tablets debossed with “IL4” on one side and plain on 
+approximately 6.00 mm in diameter, film coated tablets debossed with  IL4  on one side and plain on 
 other side. </p>
-<p>Rivaroxaban Accord film-coated tablets are packed in clear PVC/Aluminium blisters available in:<br />
-- blister of 28, 56, 98, 100, 168 or 196 tablets, or<br />
-- perforated unit dose blisters of 10 x 1 or 100 x 1 tablets.  </p>
+<p>Rivaroxaban Accord film-coated tablets are packed in clear PVC/Aluminium blisters available in:</p>
+<ul>
+<li>blister of 28, 56, 98, 100, 168 or 196 tablets, or  </li>
+<li>perforated unit dose blisters of 10 x 1 or 100 x 1 tablets.  </li>
+</ul>
 <p>Rivaroxaban Accord film-coated tablets are also available in HDPE bottles containing 30, 90 or 
 500 tablets. </p>
 <p>Not all pack sizes may be marketed.  </p>
@@ -462,7 +406,7 @@ Ul. Lutomierska 50,<br />
 <p>Pharmadox Healthcare Limited<br />
 KW20A Kordin Industrial Park, Paola<br />
 PLA 3000, Malta </p>
-<p>Laboratori Fundació DAU 
+<p>Laboratori Fundaci  DAU 
 C/ C, 12-14 Pol. Ind. Zona Franca, 
 08040 Barcelona, Spain </p>
 <p>Accord Healthcare B.V 

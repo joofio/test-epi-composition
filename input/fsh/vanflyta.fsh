@@ -4,7 +4,7 @@ Instance: composition-en-1ff94cd25db3b18c09de52395c558d2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for vanflyta Package Leaflet"
 Description:  "Composition for vanflyta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,16 +70,16 @@ Usage: #example
   * code.text =  "1. What vanflyta is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What VANFLYTA is 
-VANFLYTA contains the active substance quizartinib. It is a type of cancer medicine called a ‘protein 
-kinase inhibitor’. The medicine is used along with chemotherapy to treat adults who have acute 
+VANFLYTA contains the active substance quizartinib. It is a type of cancer medicine called a  protein 
+kinase inhibitor . The medicine is used along with chemotherapy to treat adults who have acute 
 myeloid leukaemia (AML, a type of blood cancer), with a mutation (change) in the FLT3 gene called 
-‘FLT3-ITD’. VANFLYTA treatment may be continued also after a bone marrow transplant when 
+ FLT3-ITD . VANFLYTA treatment may be continued also after a bone marrow transplant when 
 patients have sufficiently recovered. </p>
 <p>Your doctor will test your cancer cells for changes in the FLT3 gene to look for FLT3-ITD mutations 
 beforehand to make sure that VANFLYTA is right for you. </p>
 <p>How VANFLYTA works 
 In AML, the body makes a large amount of abnormal white blood cells that do not mature to become 
-healthy cells. VANFLYTA works by blocking the action of proteins called ‘tyrosine kinases’ in these 
+healthy cells. VANFLYTA works by blocking the action of proteins called  tyrosine kinases  in these 
 abnormal cells. This slows down or stops the abnormal cells from dividing and growing 
 uncontrollably, and helps immature cells grow into normal cells. </p>         </div>"""   
           
@@ -93,19 +93,19 @@ uncontrollably, and helps immature cells grow into normal cells. </p>         </
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take VANFLYTA 
 * if you are allergic to quizartinib or any of the other ingredients in this medicine (listed in 
 section 6). If you think you may be allergic, ask your doctor for advice. 
-* if you were born with a heart problem called ‘long QT syndrome’ (abnormal electrical activity 
+* if you were born with a heart problem called  long QT syndrome  (abnormal electrical activity 
 of the heart that affects its rhythm). 
-* if you are breast-feeding (see ‘Pregnancy, breast-feeding and fertility’). </p>
+* if you are breast-feeding (see  Pregnancy, breast-feeding and fertility ). </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking VANFLYTA: 
 * if you have or have had any heart problems including arrhythmia (abnormal heart rhythm), 
-myocardial infarction (heart attack) within 6 months, congestive heart failure (heart isn’t 
+myocardial infarction (heart attack) within 6 months, congestive heart failure (heart isn t 
 pumping hard enough), uncontrolled angina pectoris (chest pain) or uncontrolled hypertension 
-(blood pressure that’s too high). 
+(blood pressure that s too high). 
 * if you have been told you have low blood levels of potassium or magnesium. 
-* if you are taking medicines that can prolong the QT interval (irregular heart rhythm; see ‘Other 
-medicines and VANFLYTA’). 
-* if you are taking strong CYP3A inhibitors (see ‘Other medicines and VANFLYTA’). 
+* if you are taking medicines that can prolong the QT interval (irregular heart rhythm; see  Other 
+medicines and VANFLYTA ). 
+* if you are taking strong CYP3A inhibitors (see  Other medicines and VANFLYTA ). 
 * if you have or have had fever, cough, chest pain, shortness of breath, tiredness or pain when 
 urinating. </p>
 <p>Monitoring during treatment with VANFLYTA 
@@ -118,7 +118,7 @@ electrolytes more often if you are experiencing diarrhoea or vomiting. </p>
 Before and during your treatment, your doctor will check your heart with an electrocardiogram (ECG) 
 to make sure your heart is beating normally. ECGs will be done weekly initially and less often 
 thereafter as decided by your doctor. Your doctor will check your heart more often if you are taking 
-other medicines that prolong the QT interval (see ‘Other medicines and VANFLYTA’). </p>
+other medicines that prolong the QT interval (see  Other medicines and VANFLYTA ). </p>
 <p>Infections in patients older than 65 years 
 Elderly patients are at increased risk for very serious infections when compared to younger patients, 
 especially in the early treatment period. If you are older than 65 years of age you will be closely 
@@ -133,19 +133,19 @@ heartburn and stomach acidity) and herbal supplements. This is because some medi
 how VANFLYTA works. </p>
 <p>In particular, the following medicines may increase the risk of side effects with VANFLYTA by 
 increasing the levels of this medicine in the blood: 
-* certain medicines used to treat fungal infections – such as itraconazole, posaconazole or 
+* certain medicines used to treat fungal infections   such as itraconazole, posaconazole or 
 voriconazole; 
-* certain antibiotics – such as clarithromycin or telithromycin; 
+* certain antibiotics   such as clarithromycin or telithromycin; 
 * nefazodone, a medicine used to treat major depression. </p>
 <p>The following medicines may reduce the effectiveness of VANFLYTA: 
-* certain medicines used to treat tuberculosis – such as rifampicin; 
-* certain medicines used to treat seizures or epilepsy – such as carbamazepine, primidone, 
+* certain medicines used to treat tuberculosis   such as rifampicin; 
+* certain medicines used to treat seizures or epilepsy   such as carbamazepine, primidone, 
 phenobarbital or phenytoin; 
-* certain medicines to treat prostatic cancer – such as apalutamide and enzalutamide; 
-* mitotane – a medicine used for the treatment of symptoms of tumours of the adrenal glands; 
-* bosentan – a medicine used to treat high blood pressure in the lungs (pulmonary arterial 
+* certain medicines to treat prostatic cancer   such as apalutamide and enzalutamide; 
+* mitotane   a medicine used for the treatment of symptoms of tumours of the adrenal glands; 
+* bosentan   a medicine used to treat high blood pressure in the lungs (pulmonary arterial 
 hypertension); 
-* St. John’s Wort (Hypericum perforatum) – an herbal product used for anxiety and mild 
+* St. John s Wort (Hypericum perforatum)   an herbal product used for anxiety and mild 
 depression. </p>
 <p>Certain medicines use to treat HIV may either increase the risk of side effects (e.g., ritonavir) or 
 reduce the effectiveness (e.g., efavirenz or etravirine) of VANFLYTA. </p>
@@ -166,8 +166,8 @@ VANFLYTA and for at least 4 months after stopping treatment. </p>
 pharmacist or nurse for advice before taking this medicine. </p>
 <p>Breast-feeding </p>
 <p>Do not breast-feed during treatment with VANFLYTA, and for at least 5 weeks after stopping 
-treatment. This is because it is not known if VANFLYTA passes into your breast milk (see ‘Do not 
-take VANFLYTA’). 
+treatment. This is because it is not known if VANFLYTA passes into your breast milk (see  Do not 
+take VANFLYTA ). 
 If you are breast-feeding, ask your doctor, pharmacist or nurse for advice before taking this medicine. </p>
 <p>Fertility </p>
 <p>VANFLYTA may reduce fertility in women and men. You should discuss this with your doctor before 
@@ -228,8 +228,8 @@ taking your medicine unless your doctor tells you to do so. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
 Tell your doctor, pharmacist or nurse immediately if you notice the following side effects: 
-* feeling dizzy, lightheaded or faint. These could be signs of a heart problem called ‘prolonged 
-QT interval’ (abnormal electrical activity of the heart that affects its rhythm). 
+* feeling dizzy, lightheaded or faint. These could be signs of a heart problem called  prolonged 
+QT interval  (abnormal electrical activity of the heart that affects its rhythm). 
 * fever, cough, chest pain, shortness of breath, tiredness or pain when urinating. These could be 
 signs of an infection or febrile neutropenia (low white blood cell counts with fever).  </p>
 <p>Very common side effects 
@@ -299,10 +299,10 @@ VANFLYTA 26.5 mg:
 Tablet core: Hydroxypropylbetadex, microcrystalline cellulose, magnesium stearate 
 Film-coating: Hypromellose, talc, triacetin, titanium dioxide, yellow iron oxide </p>
 <p>What VANFLYTA looks like and contents of the pack 
-VANFLYTA 17.7 mg film-coated tablets (tablets) are white, round and with ‘DSC 511’ on one side, 
+VANFLYTA 17.7 mg film-coated tablets (tablets) are white, round and with  DSC 511  on one side, 
 and available in cartons containing 14 x 1 or 28 x 1 film-coated tablets in aluminium/aluminium 
 perforated unit dose blisters.  </p>
-<p>VANFLYTA 26.5 mg film-coated tablets (tablets) are yellow, round and with ‘DSC 512’ on one side, 
+<p>VANFLYTA 26.5 mg film-coated tablets (tablets) are yellow, round and with  DSC 512  on one side, 
 and available in cartons containing 14 x 1, 28 x 1 or 56 x 1 film-coated tablets in 
 aluminium/aluminium perforated unit dose blisters. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -317,20 +317,19 @@ Luitpoldstrasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Daiichi Sankyo Belgium N.V.-S.A 
-Tél/Tel: +32-(0) 2 227 18 Lietuva 
+T l/Tel: +32-(0) 2 227 18 Lietuva 
 Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-България 
-Daiichi Sankyo Europe GmbH 
-Teл.: +49-(0) 89 7808 0 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Daiichi Sankyo Europe GmbH 
+Te .: +49-(0) 89 7808 0 
 Luxembourg/Luxemburg 
 Daiichi Sankyo Belgium N.V.-S.A 
-Tél/Tel: +32-(0) 2 227 18 Česká republika 
+T l/Tel: +32-(0) 2 227 18  esk  republika 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
-Magyarország 
+Magyarorsz g 
 Daiichi Sankyo Europe GmbH 
 Tel.: +49-(0) 89 7808 0 
 Danmark 
@@ -348,26 +347,25 @@ Daiichi Sankyo Europe GmbH
 Tel: +49-(0) 89 7808 0 
 Norge 
 Daiichi Sankyo Nordics ApS 
-Tlf: +47 (0) 21 09 38<br />
-Ελλάδα 
-Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 
-Österreich 
+Tlf: +47 (0) 21 09 38  </p>
+<p>Daiichi Sankyo Europe GmbH 
+ : +49-(0) 89 7808 0 
+ sterreich 
 Daiichi Sankyo Austria GmbH 
 Tel: +43-(0) 1 4858642 0 
-España 
-Daiichi Sankyo España, S.A. 
+Espa a 
+Daiichi Sankyo Espa a, S.A. 
 Tel: +34 91 539 99 Polska 
 Daiichi Sankyo Europe GmbH 
 Tel.: +49-(0) 89 7808 0 
 France 
 Daiichi Sankyo France S.A.S 
-Tél: +33 (0) 1 55 62 14 Portugal 
+T l: +33 (0) 1 55 62 14 Portugal 
 Daiichi Sankyo Portugal, Unip. LDA 
 Tel: +351 21 4232Hrvatska 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
-România 
+Rom nia 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
 Ireland 
@@ -375,18 +373,18 @@ Daiichi Sankyo Ireland Ltd
 Tel: +353-(0) 1 489 3Slovenija 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
-Ísland 
+ sland 
 Daiichi Sankyo Nordics ApS 
-Sími: +354 5357Slovenská republika 
+S mi: +354 5357Slovensk  republika 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
 Italia 
 Daiichi Sankyo Italia S.p.A. 
 Tel: +39-06 85 2Suomi/Finland 
 Daiichi Sankyo Nordics ApS 
-Puh/Tel: +358 (0) 9 3540 7Κύπρος 
+Puh/Tel: +358 (0) 9 3540 7<br />
 Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 
+ : +49-(0) 89 7808 0 
 Sverige 
 Daiichi Sankyo Nordics ApS 
 Tel: +46 (0) 40 699 2Latvija 

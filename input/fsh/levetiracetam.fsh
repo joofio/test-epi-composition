@@ -4,7 +4,7 @@ Instance: composition-en-e4c758c9b76c24f48a2ecc149820b3c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for levetiracetam Package Leaflet"
 Description:  "Composition for levetiracetam Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Levetiracetam ratiopharm 
 4. Possible side effects 
 5. How to store Levetiracetam ratiopharm 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -76,15 +75,12 @@ treat a certain form of epilepsy. Epilepsy is a condition where the patients hav
 side of the brain, but could thereafter extend to larger areas on both sides of the brain (partial 
 onset seizure with or without secondary generalisation). Levetiracetam has been given to you by 
 your doctor to reduce the number of fits. 
-* as an add-on to other antiepileptic medicines to treat: 
-■ 
-partial onset seizures with or without generalisation in adults, adolescents, children and 
-infants from one month of age 
-■ 
-myoclonic seizures (short, shock-like jerks of a muscle or group of muscles) in adults and 
-adolescents from 12 years of age with juvenile myoclonic epilepsy 
-■ 
-primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in 
+* as an add-on to other antiepileptic medicines to treat: </p>
+<p>partial onset seizures with or without generalisation in adults, adolescents, children and 
+infants from one month of age </p>
+<p>myoclonic seizures (short, shock-like jerks of a muscle or group of muscles) in adults and 
+adolescents from 12 years of age with juvenile myoclonic epilepsy </p>
+<p>primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in 
 adults and adolescents from 12 years of age with idiopathic generalised epilepsy (the type 
 of epilepsy that is thought to have a genetic cause). </p>         </div>"""   
           
@@ -101,7 +97,7 @@ this medicine (listed in Section 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor before taking Levetiracetam ratiopharm  </p>
 <ul>
-<li>If you suffer from kidney problems, follow your doctor’s instructions. He/she may decide if 
+<li>If you suffer from kidney problems, follow your doctor s instructions. He/she may decide if 
 your dose should be adjusted. </li>
 <li>If you notice any slow down in the growth or unexpected puberty development of your child, 
 please contact your doctor. </li>
@@ -154,13 +150,13 @@ activities is not affected. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>Take the number of tablets following your doctor’s instructions. </p>
+<p>Take the number of tablets following your doctor s instructions. </p>
 <p>Levetiracetam ratiopharm must be taken twice a day, once in the morning and once in the evening, at 
 about the same time each day. </p>
 <p>Adjunctive Therapy and monotherapy (from 16 years of age)  </p>
 <ul>
 <li>
-<p>Adults (≥18 years) and adolescents (12 to 17 years) weighing 50 kg or more: 
+<p>Adults ( 18 years) and adolescents (12 to 17 years) weighing 50 kg or more: 
 Recommended dose: between 1000 mg and 3000 mg each day. 
 When you will first start taking Levetiracetam ratiopharm, your doctor will prescribe you a 
 lower dose during 2 weeks before giving you the lowest daily dose. 
@@ -179,7 +175,7 @@ Your doctor will prescribe the most appropriate pharmaceutical form of Levetirac
 according to the age, weight and dose. </p>
 <p>Levetiracetam ratiopharm 100 mg/ml oral solution is a formulation more appropriate to infants and 
 children under the age of 6 years and to children and adolescent (from 6 to 17 years) weighing less 
-than 50 kg and when tablets don’t allow accurate dosage. </p>
+than 50 kg and when tablets don t allow accurate dosage. </p>
 <p>Method of administration 
 Swallow Levetiracetam ratiopharm film-coated tablets with a sufficient quantity of liquid (e.g. a glass 
 of water). You may take Levetiracetam ratiopharm with or without food. After oral administration the 
@@ -187,7 +183,7 @@ bitter taste of levetiracetam may be experienced.  </p>
 <p>Duration of treatment 
 * Levetiracetam ratiopharm is used as a chronic treatment. You should continue Levetiracetam 
 ratiopharm treatment for as long as your doctor has told you.<br />
-* Do not stop your treatment without your doctor’s advice as this could increase your seizures.  </p>
+* Do not stop your treatment without your doctor s advice as this could increase your seizures.  </p>
 <p>If you take more Levetiracetam ratiopharm than you should 
 The possible side effects of an overdose of Levetiracetam ratiopharm are sleepiness, agitation, 
 aggression, decrease of alertness, inhibition of breathing and coma. 
@@ -213,7 +209,7 @@ instruct you about the gradual withdrawal of Levetiracetam ratiopharm. </p>
 <ul>
 <li>weakness, feel light-headed or dizzy or have difficulty breathing, as these may be signs of a 
 serious allergic (anaphylactic) reaction </li>
-<li>swelling of the face, lips, tongue and throat (Quincke’s oedema) </li>
+<li>swelling of the face, lips, tongue and throat (Quincke s oedema) </li>
 <li>flu-like symptoms and a rash on the face followed by an extended rash with a high temperature, 
 increased levels of liver enzymes seen in blood tests and an increase in a type of white blood cell 
 (eosinophilia) and enlarged lymph nodes (Drug Reaction with Eosinophilia and Systemic 
@@ -266,12 +262,12 @@ concentration);
 * infection; 
 * decreased number of all blood cell types;<br />
 <em> severe allergic reactions (DRESS, anaphylactic reaction [severe and important allergic reaction], 
-Quincke’s oedema [swelling of the face, lips, tongue and throat]); 
+Quincke s oedema [swelling of the face, lips, tongue and throat]); 
 * decreased blood sodium concentration; 
 * suicide, personality disorders (behavioural problems), thinking abnormal (slow thinking, unable 
 to concentrate); 
 * delirium; 
-* encephalopathy (see sub-section “Tell your doctor immediately” for a detailed description of 
+* encephalopathy (see sub-section  Tell your doctor immediately  for a detailed description of 
 symptoms); 
 * seizures may become worse or happen more often;<br />
 </em> uncontrollable muscle spasms affecting the head, torso and limbs, difficulty in controlling 
@@ -283,7 +279,7 @@ movements, hyperkinesia (hyperactivity);
 * skin rash, which may form blisters and looks like small targets (central dark spots surrounded 
 by a paler area, with a dark ring around the edge) (erythema multiforme), a widespread rash with 
 blisters and peeling skin, particularly around the mouth, nose, eyes and<br />
-genitals (Stevens–
+genitals (Stevens 
 Johnson syndrome), and a more severe form causing skin peeling in more than 30% of the body 
 surface (toxic epidermal necrolysis); 
 * rhabdomyolysis (breakdown of muscle tissue) and associated blood creatine phosphokinase 
@@ -360,35 +356,33 @@ Film-coated tablets are white, oblong and scored on both sides and are supplied 
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 ratiopharm GmbH 
-Graf-Arco-Straße 3 
+Graf-Arco-Stra e 3 
 89079 Ulm 
 Germany 
 Email: info@ratiopharm.de </p>
 <p>Manufacturer 
 Merckle GmbH 
-Ludwig-Merckle-Straße 3 
+Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tel./Tél.: +32 38207 
+Tel./T l.: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 ratiopharm GmbH 
 Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
+T l/Tel: +49 73140 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o.<br />
 Tel: +420 251007111  </p>
-<p>Magyarország 
-Teva Gyógyszergyár Zrt.<br />
+<p>Magyarorsz g 
+Teva Gy gyszergy r Zrt.<br />
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -405,28 +399,27 @@ Tel.: +31 8000228Eesti
 UAB Teva Baltics Eesti filiaal 
 Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E.<br />
-Τηλ: +30 2118805Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E.<br />
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España </p>
+Espa a </p>
 <p>Teva Pharma, S.L.U.<br />
-Tél: +34 913873280  </p>
+T l: +34 913873280  </p>
 <p>Polska 
 Teva Pharmaceuticals Polska Sp.z.o.o 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917Portugal 
-ratiopharm, Comércio e Indústria de Produtos 
-Farmacêuticos Lda. </p>
+Teva Sant<br />
+T l: +33 155917Portugal 
+ratiopharm, Com rcio e Ind stria de Produtos 
+Farmac uticos Lda. </p>
 <p>Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -435,25 +428,23 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 Teva Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267Italia 
 Teva Italia S.r.l. 
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805Sverige 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
 Tel: +46 42121 </p>
 <p>Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

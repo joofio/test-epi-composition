@@ -4,7 +4,7 @@ Instance: composition-en-1f96cd88f64662096f991c68963865d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for baraclude Package Leaflet"
 Description:  "Composition for baraclude Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,7 +95,7 @@ Baraclude is eliminated from your body through the kidneys and your dose or dosi
 may need to be adjusted. </p>
 <ul>
 <li>
-<p>do not stop taking Baraclude without your doctor’s advice since your hepatitis may worsen 
+<p>do not stop taking Baraclude without your doctor s advice since your hepatitis may worsen 
 after stopping treatment. When your treatment with Baraclude is stopped, your doctor will 
 continue to monitor you and take blood tests for several months. </p>
 </li>
@@ -171,15 +171,9 @@ you to take it less often than once a day.
 * the condition of your liver. </p>
 <p>For children and adolescents (from 2 to less than 18 years of age), your child's doctor will decide the 
 right dose based on your child's weight. The Baraclude oral solution is recommended for patients 
-weighing from 10 kg to 32.5 kg.Children weighing at least 32.6 kg may take the oral solution or the </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>for Baraclude in children less than 2 years of age or weighing less than 10 kg. </p>
+weighing from 10 kg to 32.5 kg.Children weighing at least 32.6 kg may take the oral solution or the 
+0.5 mg tablet. All dosing will be taken once daily orally (by mouth). There are no recommendations 
+for Baraclude in children less than 2 years of age or weighing less than 10 kg. </p>
 <p>Your doctor will advise you on the dose that is right for you. Always take the dose recommended by 
 your doctor to ensure that your medicine is fully effective and to reduce the development of resistance 
 to treatment. Take Baraclude as long as your doctor has told you. Your doctor will tell you if and when 
@@ -194,15 +188,16 @@ It is important that you do not miss any doses. If you miss a dose of Baraclude,
 possible, and then take your next scheduled dose at its regular time. If it is almost time for your next 
 dose, do not take the missed dose. Wait and take the next dose at the regular time. Do not take a 
 double dose to make up for a forgotten dose. </p>
-<p>Do not stop Baraclude without your doctor’s advice 
+<p>Do not stop Baraclude without your doctor s advice 
 Some people get very serious hepatitis symptoms when they stop taking Baraclude. Tell your doctor 
 immediately about any changes in symptoms that you notice after stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store baraclude"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store baraclude"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Patients treated with Baraclude have reported the following side effects: </p>
@@ -225,17 +220,52 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store baraclude"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store baraclude"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the bottle, blister or carton after EXP. 
+That expiry date refers to the last day of that month. </p>
+<p>Blister packs: do not store above 30 C. Store in the original carton. 
+Bottle packs: do not store above 25 C. Keep the bottle tightly closed. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle, blister or carton after EXP. 
-That expiry date refers to the last day of that month. </p>
-<p>Blister packs: do not store above 30°C. Store in the original carton. 
-Bottle packs: do not store above 25°C. Keep the bottle tightly closed. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Baraclude contains 
+* The active substance is entecavir. Each film-coated tablet contains 0.5 mg entecavir. 
+* The other ingredients are: 
+Tablet core: crospovidone, lactose monohydrate, magnesium stearate, cellulose microcrystalline 
+and povidone. 
+Tablet coating: hypromellose, macrogol 400, titanium dioxide (E171), and polysorbate (E433). </p>
+<p>What Baraclude looks like and contents of the pack 
+The film-coated tablets (tablets) are white to off-white and triangular-shaped. They are marked with 
+ BMS  on one side and  1611  on the other. Baraclude 0.5 mg film-coated tablets are supplied in 
+cartons containing 30 x 1 or 90 x 1 film-coated tablet (in unit-dose blisters) and in bottles containing 
+30 film-coated tablets. </p>
+<p>Not all pack sizes may be marketed in your country. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Marketing Authorisation Holder: 
+Bristol-Myers Squibb Pharma EEIG<br />
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>Manufacturer: 
+CATALENT ANAGNI S.R.L. 
+Loc. Fontana del Ceraso snc 
+Strada Provinciale 12 Casilina, 03012 Anagni (FR) 
+Italy </p>
+<p>Swords Laboratories  Unlimited Company T/A Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

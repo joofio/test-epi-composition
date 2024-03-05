@@ -4,7 +4,7 @@ Instance: composition-en-a0d64103b1c8a608be4329399bf17c80
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyftor Package Leaflet"
 Description:  "Composition for hyftor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -217,7 +217,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the tube after EXP. 
 The expiry date refers to the last day of that month. 
-Store in a refrigerator (2°C – 8°C). 
+Store in a refrigerator (2 C   8 C). 
 Store in the original tube in order to protect from light. 
 Keep away from fire. </p>
 <p>Throw away the tube and any remaining gel 4 weeks after opening. </p>
@@ -233,17 +233,17 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Hyftor contains<br />
 <em> The active substance is sirolimus. Each gram of gel contains 2 mg of sirolimus<br />
 </em> The other ingredients are carbomer, anhydrous ethanol, trolamine and purified water (see 
-section 2 “Hyftor contains alcohol”). </p>
+section 2  Hyftor contains alcohol ). </p>
 <p>What Hyftor looks like and contents of the pack 
 Hyftor is a transparent, colourless gel. It is supplied in an aluminium tube containing 10 g of gel. </p>
 <p>Pack size: 1 tube </p>
 <p>Marketing Authorisation Holder 
 Plusultra pharma GmbH 
-Fritz-Vomfelde-Str. 40547 Düsseldorf 
+Fritz-Vomfelde-Str. 40547 D sseldorf 
 Germany </p>
 <p>Manufacturer 
 MSK Pharmalogistic GmbH.<br />
-Donnersbergstraße 4<br />
+Donnersbergstra e 4<br />
 64646 Heppenheim<br />
 Germany </p>
 <p>This leaflet was last revised in </p>

@@ -4,7 +4,7 @@ Instance: composition-en-f5bf35ae4883076cccfcead008b65f47
 InstanceOf: CompositionUvEpi
 Title: "Composition for heplisav Package Leaflet"
 Description:  "Composition for heplisav Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What HEPLISAV B is and what it is used for  
-2. What you need to know before you receive HEPLISAV B  
+2. What you need to know before you receive  HEPLISAV B  
 3. How HEPLISAV B is given  
 4. Possible side effects  
 5. How to store HEPLISAV B 
@@ -77,7 +77,7 @@ B infection. </p>
 <ul>
 <li>
 <p>Hepatitis B is an infectious illness of the liver, caused by a virus. Hepatitis B virus infection can 
-cause serious liver problems such as “cirrhosis” (scarring in the liver) or liver cancer. </p>
+cause serious liver problems such as  cirrhosis  (scarring in the liver) or liver cancer. </p>
 </li>
 <li>
 <p>Some people infected with the hepatitis B virus become carriers, which means that they may not 
@@ -85,7 +85,7 @@ feel ill but continue to have the virus in their body and they can still infect 
 </li>
 <li>
 <p>The disease spreads by the hepatitis B virus entering the body through contact with an infected 
-person’s body fluids, such as in the vagina, blood, semen, or spit (saliva). A mother who is a 
+person s body fluids, such as in the vagina, blood, semen, or spit (saliva). A mother who is a 
 carrier of the virus can also pass the virus to her baby at birth. </p>
 </li>
 <li>
@@ -95,11 +95,11 @@ some people with hepatitis B do not look or feel ill. </p>
 </li>
 </ul>
 <p>How HEPLISAV B works </p>
-<p>When a person is given the HEPLISAV B vaccine, it helps the body’s natural defence system 
+<p>When a person is given the HEPLISAV B vaccine, it helps the body s natural defence system 
 (immune system) produce specific protection (antibodies) against the hepatitis B virus.  </p>
 <ul>
 <li>
-<p>HEPLISAV B contains an adjuvant, a substance which improves the body’s production of 
+<p>HEPLISAV B contains an adjuvant, a substance which improves the body s production of 
 antibodies and makes the protection last for longer. </p>
 </li>
 <li>
@@ -119,40 +119,43 @@ including people infected with the hepatitis B virus and have become carriers fo
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take heplisav"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not receive HEPLISAV B: 
-- If you are allergic to any of the components of this vaccine, including yeast (listed in section 6). 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not receive HEPLISAV B:</p>
+<ul>
+<li>If you are allergic to any of the components of this vaccine, including yeast (listed in section 6). 
 Signs of an allergic reaction may include itchy skin, rash, shortness of breath and swelling of 
-the face or tongue. 
-- If you have had a sudden life-threatening, allergic reaction after receiving HEPLISAV B in the 
-past. </p>
+the face or tongue. </li>
+<li>If you have had a sudden life-threatening, allergic reaction after receiving HEPLISAV B in the 
+past. </li>
+</ul>
 <p>HEPLISAV B should not be given if any of the above apply to you. If you are not sure, talk to your 
-doctor, pharmacist or nurse before vaccination with HEPLISAV B. </p>
+doctor, <em>pharmacist</em> or nurse before vaccination with HEPLISAV B. </p>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist or nurse before receiving HEPLISAV B: 
-- If you have any allergies to any of the components of HEPLISAV B (see section 6). 
-- If you have had any health problems after having a vaccine in the past. 
--<br />
-Fainting can occur after, or even before, any injection. Therefore tell the doctor, pharmacist 
-or nurse if you fainted with a previous injection. 
-- If you are ill with a high fever, your doctor, pharmacist or nurse will delay the vaccination 
+Talk to your doctor, <em>pharmacist</em> or nurse before receiving HEPLISAV B:</p>
+<ul>
+<li>If you have any allergies to any of the components of HEPLISAV B (see section 6). </li>
+<li>If you have had any health problems after having a vaccine in the past. </li>
+<li>Fainting can occur after, or even before, any injection. Therefore tell the doctor, <em>pharmacist</em> 
+or nurse if you fainted with a previous injection. </li>
+<li>If you are ill with a high fever, your doctor, <em>pharmacist</em> or nurse will delay the vaccination 
 until you are feeling better. A minor infection such as a cold should not be a problem, but your 
-doctor, pharmacist or nurse will decide if you could still be vaccinated. </p>
+doctor, <em>pharmacist</em> or nurse will decide if you could still be vaccinated. </li>
+</ul>
 <p>If you are on dialysis for a kidney problem or if you have a weakened immune system your doctor 
 may need to do a blood test to check if the vaccination has worked well enough to protect you against 
 hepatitis B. </p>
 <p>HEPLISAV B does not protect you against other liver infections such as hepatitis A, C, and E. </p>
 <p>As with any vaccine, HEPLISAV B may not protect all people who are vaccinated. </p>
-<p>If you are not sure if any of the above apply to you, talk to your doctor, pharmacist or nurse before 
+<p>If you are not sure if any of the above apply to you, talk to your doctor, <em>pharmacist</em> or nurse before 
 receiving HEPLISAV B. </p>
 <p>Children and adolescents 
 Since HEPLISAV B has not been tested fully in young people under 18 years of age, it should not be 
 used in this age group. </p>
 <p>Other medicines and HEPLISAV B 
-Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
+Tell your doctor, <em>pharmacist</em> or nurse if you are taking, have recently taken or might take any other 
 medicines or vaccines. </p>
-<p>If HEPLISAV B is given at the same time as an injection of hepatitis B “immuno-globulins”, which 
+<p>If HEPLISAV B is given at the same time as an injection of hepatitis B  immuno-globulins , which 
 would be given to provide immediate, short-term protection against hepatitis B infection, your doctor, 
-pharmacist or nurse will make sure that the two are injected into different parts of the body. </p>
+<em>pharmacist</em> or nurse will make sure that the two are injected into different parts of the body. </p>
 <p>Pregnancy, breast-feeding and fertility 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before receiving this vaccine.  </p>
@@ -165,26 +168,30 @@ benefit of vaccination for you. </p>
 You may feel tired or get a headache after receiving HEPLISAV B. If this happens, do not drive or use 
 any tools or machines.  </p>
 <p>HEPLISAV B contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium 
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take heplisav"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take heplisav"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor, pharmacist or nurse will give HEPLISAV B as an injection into your muscle, usually in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor, <em>pharmacist</em> or nurse will give HEPLISAV B as an injection into your muscle, usually in 
 your upper arm. </p>
-<p>For adults, the course of vaccination is 2 injections: 
-- The first injection on a date agreed upon with your doctor or nurse. 
-- The second injection 1 month after the first injection. </p>
+<p>For adults, the course of vaccination is 2 injections:</p>
+<ul>
+<li>The first injection on a date agreed upon with your doctor or nurse. </li>
+<li>The second injection 1 month after the first injection. </li>
+</ul>
 <p>For adults with a kidney problem including those receiving haemodialysis, the course of vaccination is 
-4 injections: 
-- The first injection on a date agreed upon with your doctor or nurse. 
-- The second injection 1 month after the first injection. 
-- The third injection 2 months after the first injection 
-- The fourth injection 4 months after the first injection </p>
-<p>Your doctor will tell you if you need any extra or “booster” injections in the future. 
+4 injections:</p>
+<ul>
+<li>The first injection on a date agreed upon with your doctor or nurse. </li>
+<li>The second injection 1 month after the first injection. </li>
+<li>The third injection 2 months after the first injection </li>
+<li>The fourth injection 4 months after the first injection </li>
+</ul>
+<p>Your doctor will tell you if you need any extra or  booster  injections in the future. 
 If you forget a return visit to receive HEPLISAV B 
 Talk to your doctor and arrange another visit. </p>
 <p>Make sure you complete the injections or you may not be fully protected. Once you have had the first 
@@ -225,7 +232,7 @@ fever, joint stiffness and a skin rash. Such reactions usually start very soon a
 * Dizziness 
 * Pins and needles </p>
 <p>Reporting of side effects 
-If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+If you get any side effects, talk to your doctor, <em>pharmacist</em> or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
@@ -238,7 +245,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use this vaccine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. </p>
 <p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -271,21 +278,21 @@ syringe. </p>
 <p>Not all pack sizes may be marketed.  </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Dynavax GmbH<br />
-Eichsfelder Strasse D-40595 Düsseldorf<br />
+Eichsfelder Strasse D-40595 D sseldorf<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien, България, Česká 
-republika, Danmark, Eesti, Ελλάδα, España, 
-France, Hrvatska, Ireland, Ísland, Italia, 
-Κύπρος, Latvija, Lietuva, 
-Luxembourg/Luxemburg, Magyarország, 
-Malta, Nederland, Norge, Österreich, Polska, 
-Portugal, România, Slovenija, Slovenská 
+<p>Belgi /Belgique/Belgien,  ,  esk<br />
+republika, Danmark, Eesti,  , Espa a, 
+France, Hrvatska, Ireland,  sland, Italia, 
+ , Latvija, Lietuva, 
+Luxembourg/Luxemburg, Magyarorsz g, 
+Malta, Nederland, Norge,  sterreich, Polska, 
+Portugal, Rom nia, Slovenija, Slovensk<br />
 republika, Suomi/Finland, Sverige, United 
 Kingdom (Northern Ireland) 
 Dynavax GmbH 
-Tél/Tel/Teл./Tlf/Τηλ/Sími/Puh: 
+T l/Tel/Te ./Tlf/ /S mi/Puh: 
 +49 211 758 
 Deutschland 
 Bavarian Nordic A/S 

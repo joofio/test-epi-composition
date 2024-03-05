@@ -4,7 +4,7 @@ Instance: composition-en-795a948b51ababd9aac8a7f4e39608a5
 InstanceOf: CompositionUvEpi
 Title: "Composition for phelinun Package Leaflet"
 Description:  "Composition for phelinun Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,13 +73,13 @@ Usage: #example
 called cytotoxics (also called chemotherapy) and it works by reducing the number of certain cells.  </p>
 <p>PHELINUN can be used, alone or in combination with other medicines or with total body irradiation 
 for the treatment of:<br />
-• different types of bone marrow cancer: multiple myeloma, acute lymphoblastic leukaemia (also 
+  different types of bone marrow cancer: multiple myeloma, acute lymphoblastic leukaemia (also 
 called acute lymphocytic leukaemia ALL) and acute myeloid leukaemia (AML)<br />
-• malignant lymphoma (Hodgkin lymphoma and non-Hodgkin lymphoma) - cancer that affects 
+  malignant lymphoma (Hodgkin lymphoma and non-Hodgkin lymphoma) - cancer that affects 
 some types of white blood cells called lymphocytes (cells that fight against infections) 
-• neuroblastoma, a type of cancer that grows from abnormal nerve cells in the body<br />
-• advanced cancer of the ovaries 
-• advanced breast cancer  </p>
+  neuroblastoma, a type of cancer that grows from abnormal nerve cells in the body<br />
+  advanced cancer of the ovaries 
+  advanced breast cancer  </p>
 <p>PHELINUN is also used, in combination with other cytotoxic medicines, as a preparation medicine 
 before blood stem cell transplantation to treat cancer of the blood in adults and cancer and non-
 cancerous disorders of the blood in the paediatric population. </p>         </div>"""   
@@ -100,10 +100,12 @@ or breast-feeding. </p>
 <p>Warnings and precautions  </p>
 <p>If you are going to be treated with melphalan careful monitoring of the blood will be performed as this 
 medicine is a potent cytotoxic that results in profound decrease of blood cells. </p>
-<p>Before treatment with melphalan, tell your doctor if any of the following apply to you:<br />
-- if you have had recent radiotherapy or cancer medicines because they frequently decrease the 
-number of blood cell levels; </p>
+<p>Before treatment with melphalan, tell your doctor if any of the following apply to you:</p>
 <ul>
+<li>
+<p>if you have had recent radiotherapy or cancer medicines because they frequently decrease the 
+number of blood cell levels; </p>
+</li>
 <li>
 <p>if you have signs of an infection (fever, chills, etc.). In case of treatment with melphalan, your 
 doctor may prescribe medicines such as antibiotics, antifungals or antivirals to prevent 
@@ -116,7 +118,7 @@ attenuated vaccines (like polio, measles, mumps and rubella) may give you an inf
 you are being treated with melphalan; </p>
 </li>
 <li>
-<p>if you have kidney problems or kidney failure (your kidneys don’t work well enough). In this 
+<p>if you have kidney problems or kidney failure (your kidneys don t work well enough). In this 
 case the dose of PHELINUN must be reduced; </p>
 </li>
 <li>
@@ -201,7 +203,7 @@ If you are addicted to alcohol, talk to your doctor or pharmacist before taking 
 This medicine contains 6.2 g propylene glycol in each 10 ml of solvent which is equivalent to 0.62 g/ml. 
 If your child is less than 5 years old, talk to your doctor or pharmacist before giving them this medicine, 
 in particular if they use other medicines that contain propylene glycol or alcohol. </p>
-<p>If you are pregnant or breast‑feeding, do not take this medicine unless recommended by your doctor.<br />
+<p>If you are pregnant or breast feeding, do not take this medicine unless recommended by your doctor.<br />
 See also the information under pregnancy above. </p>
 <p>If you suffer from a liver or kidney disease, do not take this medicine unless recommended by your 
 doctor. Your doctor may carry out extra checks while you are using this medicine. </p>
@@ -210,8 +212,8 @@ likelihood of side effects. </p>
 <p>Use this medicine only if recommended by a doctor. Your doctor may carry out extra checks while you 
 are using this medicine. </p>
 <p>PHELINUN contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take phelinun"
@@ -259,19 +261,19 @@ your body, which is potentially life-threatening)
 of red blood cells), abnormal bleeding, haematoma 
 * Alopecia (hair loss) - for high doses </p>
 <p>Common side effects (may affect up to 1 in 10 people): 
-• Infection sometimes severe and life-threatening 
-• Gastrointestinal bleeding<br />
-• Nausea 
-• Vomiting 
-• Diarrhoea 
-• Inflamation in and around the mouth (stomatitis) 
-• Dysfunction of two or more organ systems which may cause discomfort and can be life-threatening 
-• Fever, chills 
-• Absence of menstrual periods (amenorrhea) 
-• Female reproductive function disorders which may cause ovarian dysfunction and premature 
+  Infection sometimes severe and life-threatening 
+  Gastrointestinal bleeding<br />
+  Nausea 
+  Vomiting 
+  Diarrhoea 
+  Inflamation in and around the mouth (stomatitis) 
+  Dysfunction of two or more organ systems which may cause discomfort and can be life-threatening 
+  Fever, chills 
+  Absence of menstrual periods (amenorrhea) 
+  Female reproductive function disorders which may cause ovarian dysfunction and premature 
 menopause 
-• For men: the absence of sperm in the semen (azoospermia) 
-• Alopecia (hair loss) - for normal doses </p>
+  For men: the absence of sperm in the semen (azoospermia) 
+  Alopecia (hair loss) - for normal doses </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people): 
 * Septic shock 
 * Progression, relapse or recurrence of cancer, appearance of a new cancer <br />
@@ -296,7 +298,7 @@ of eyes and skin)
 * An illness where the red blood cells are being broken down prematurely - this can make you feel 
 very tired, breathless and dizzy and can give you headaches or make your skin or eyes yellow </p>
 <p>Not known (frequency cannot be estimated from the available data): 
-* Cardiovascular disorders: changes and abnormalities in the heart’s ability to pump causing fluid 
+* Cardiovascular disorders: changes and abnormalities in the heart s ability to pump causing fluid 
 retention, shortness of breath, feeling tired (cardiac failure cardiomyopathy), and inflammation 
 around the heart (pericardial effusion) 
 * Increased blood pressure within the arteries of the lungs 
@@ -327,7 +329,7 @@ more information on the safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the vials label and carton after 
-”EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not refrigerate. 
 Keep the vials in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 

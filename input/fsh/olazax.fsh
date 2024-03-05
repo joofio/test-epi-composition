@@ -4,7 +4,7 @@ Instance: composition-en-e71576be929eba887e5dad10b630fab2
 InstanceOf: CompositionUvEpi
 Title: "Composition for olazax Package Leaflet"
 Description:  "Composition for olazax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,13 +69,11 @@ Usage: #example
   * code.text =  "1. What olazax is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olazax contains the active substance olanzapine. Olazax belongs to a group of medicines called 
-antipsychotics and is used to treat the following conditions: 
- 
-Schizophrenia, a disease with symptoms such as hearing, seeing or sensing things which are not 
+antipsychotics and is used to treat the following conditions: </p>
+<p>Schizophrenia, a disease with symptoms such as hearing, seeing or sensing things which are not 
 there, mistaken beliefs, unusual suspiciousness, and becoming withdrawn. People with this 
 disease may also feel depressed, anxious or tense. </p>
-<p> 
-Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </p>
+<p>Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </p>
 <p>Olazax has been shown to prevent recurrence of these symptoms in patients with bipolar disorder 
 whose manic episode has responded to olanzapine treatment. </p>         </div>"""   
           
@@ -93,50 +91,34 @@ swollen face, swollen lips or shortness of breath. If this has happened to you, 
 - If you have been previously diagnosed with eye problems such as certain kinds of glaucoma 
 (increased pressure in the eye). </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before you take OLAZAX. 
- 
-The use of OLAZAX in elderly patients with dementia is not recommended as it may have serious 
-side effects. 
- 
-Medicines of this type may cause unusual movements mainly of the face or tongue. If this 
-happens after you have been given Olazax, tell your doctor. 
- 
-Very rarely, medicines of this type cause a combination of fever, faster breathing, sweating, 
-muscle stiffness and drowsiness or sleepiness. If this happens, contact your doctor at once. 
- 
-Weight gain has been seen in patients taking Olazax. You and your doctor should check your 
-weight regularly. Consider referral to a dietician or help with a diet plan if necessary. 
- 
-High blood sugar and high levels of fat (triglycerides and cholesterol) have been seen in patients 
+Talk to your doctor or pharmacist before you take OLAZAX. </p>
+<p>The use of OLAZAX in elderly patients with dementia is not recommended as it may have serious 
+side effects. </p>
+<p>Medicines of this type may cause unusual movements mainly of the face or tongue. If this 
+happens after you have been given Olazax, tell your doctor. </p>
+<p>Very rarely, medicines of this type cause a combination of fever, faster breathing, sweating, 
+muscle stiffness and drowsiness or sleepiness. If this happens, contact your doctor at once. </p>
+<p>Weight gain has been seen in patients taking Olazax. You and your doctor should check your 
+weight regularly. Consider referral to a dietician or help with a diet plan if necessary. </p>
+<p>High blood sugar and high levels of fat (triglycerides and cholesterol) have been seen in patients 
 taking Olazax. Your doctor should do blood tests to check blood sugar and certain fat levels 
-before you start taking Olazax and regularly during treatment. 
- 
-Tell the doctor if you or someone else in your family has a history of blood clots, as medicines 
+before you start taking Olazax and regularly during treatment. </p>
+<p>Tell the doctor if you or someone else in your family has a history of blood clots, as medicines 
 like these have been associated with the formation of blood clots.  </p>
 <p>If you suffer from any of the following illnesses tell your doctor as soon as possible: </p>
-<p> 
-Stroke or “mini” stroke (temporary symptoms of stroke) 
- 
-Parkinson’s disease 
- 
-Prostate problems 
- 
-A blocked intestine (Paralytic ileus) 
- 
-Liver or kidney disease 
- 
-Blood disorders 
- 
-Heart disease 
- 
-Diabetes 
- 
-Seizures 
- 
-If you know that you may have salt depletion as a result of prolonged severe diarrhoea and 
+<p>Stroke or  mini  stroke (temporary symptoms of stroke) </p>
+<p>Parkinson s disease </p>
+<p>Prostate problems </p>
+<p>A blocked intestine (Paralytic ileus) </p>
+<p>Liver or kidney disease </p>
+<p>Blood disorders </p>
+<p>Heart disease </p>
+<p>Diabetes </p>
+<p>Seizures </p>
+<p>If you know that you may have salt depletion as a result of prolonged severe diarrhoea and 
 vomiting (being sick) or usage of diuretics (water tablets) </p>
 <p>If you suffer from dementia, you or your carer/relative should tell your doctor if you have ever had 
-a stroke or “mini” stroke. </p>
+a stroke or  mini  stroke. </p>
 <p>As a routine precaution, if you are over 65 years your blood pressure may be monitored by your 
 doctor. </p>
 <p>Children and adolescents 
@@ -146,11 +128,9 @@ Only take other medicines while you are on Olazax if your doctor tells you that 
 feel drowsy if Olazax is taken in combination with antidepressants or medicines taken for anxiety or 
 to help you sleep (tranquillisers). </p>
 <p>Tell your doctor if you are taking,  have recently taken or might take any other medicines.  </p>
-<p>In particular, tell your doctor if you are taking: 
- 
-medicines for Parkinson’s disease. 
- 
-carbamazepine (an anti-epileptic and mood stabiliser), fluvoxamine (an antidepressant) or 
+<p>In particular, tell your doctor if you are taking: </p>
+<p>medicines for Parkinson s disease. </p>
+<p>carbamazepine (an anti-epileptic and mood stabiliser), fluvoxamine (an antidepressant) or 
 ciprofloxacin (an antibiotic) - it may be necessary to change your Olazax dose </p>
 <p>Olazax with alcohol 
 Do not drink any alcohol if you have been given Olazax as together with alcohol it may make you feel 
@@ -208,17 +188,14 @@ stopping treatment.  </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately if you have:<br />
- 
-unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the face 
-or tongue; 
- 
-blood clots in the veins (an uncommon side effect that may affect up to 1 in 100 people) especially 
+<p>Tell your doctor immediately if you have:  </p>
+<p>unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the face 
+or tongue; </p>
+<p>blood clots in the veins (an uncommon side effect that may affect up to 1 in 100 people) especially 
 in the legs (symptoms include swelling, pain, and redness in the leg), which may travel through 
 blood vessels to the lungs causing chest pain and difficulty in breathing. If you notice any of these 
-symptoms seek medical advice immediately; 
- 
-a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
+symptoms seek medical advice immediately; </p>
+<p>a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
 (the frequency of this side effect cannot be estimated from the available data). </p>
 <p>Very common side effects (may affect more than 1 in 10 people) include weight gain; sleepiness; and 
 increases in levels of prolactin in the blood. In the early stages of treatment, some people may feel 
@@ -252,7 +229,7 @@ nodes, increased levels of liver enzymes seen in blood tests and an increase in 
 incontinence, falls, extreme tiredness, visual hallucinations, a rise in body temperature, redness of the 
 skin and have trouble walking. Some fatal cases have been reported in this particular group of 
 patients. </p>
-<p>In patients with Parkinson’s disease Olazax may worsen the symptoms </p>
+<p>In patients with Parkinson s disease Olazax may worsen the symptoms </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -267,7 +244,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month.   </p>
-<p>Store below 30C. </p>
+<p>Store below 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -283,27 +260,27 @@ throw away medicines you no longer use. These measures will help to protect the 
 - The other ingredients are mannitol (E 421), microcrystalline cellulose, aspartame (E 951), 
 crospovidone, magnesium stearate </p>
 <p>What Olazax looks like and contents of the pack </p>
-<p>Olazax 5mg is supplied as a yellow coloured circular flat beveled edge tablet with ‘B’ debossed on 
+<p>Olazax 5mg is supplied as a yellow coloured circular flat beveled edge tablet with  B  debossed on 
 one side. 
 Olazax 7.5 mg: 
-yellow coloured circular flat bevelled edge tablets with ‘C’ debossed on one side. 
+yellow coloured circular flat bevelled edge tablets with  C  debossed on one side. 
 Olazax 10 mg:<br />
-yellow coloured circular flat bevelled edge tablets with ‘OL’ debossed on one side and  ‘D’ debossed 
+yellow coloured circular flat bevelled edge tablets with  OL  debossed on one side and   D  debossed 
 on other side. 
 Olazax 15 mg:<br />
-yellow coloured circular flat bevelled edge tablets with ‘OL’ debossed on one side and ‘E’ debossed 
+yellow coloured circular flat bevelled edge tablets with  OL  debossed on one side and  E  debossed 
 on other side. 
 Olazax 20 mg:<br />
-yellow coloured circular flat bevelled edge tablets  with ‘OL’ debossed on one side and ‘F’ debossed 
+yellow coloured circular flat bevelled edge tablets  with  OL  debossed on one side and  F  debossed 
 on other side. </p>
 <p>Olazax, 5 mg, 7.5 mg, 10 mg, 15 mg, 20 mg are available in aluminium foil blisters of 28 or 56 tablets  </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Glenmark Pharmaceuticals s.r.o. 
-Hvězdova 1716/2b, 140 78 Praha 4 
+Hv zdova 1716/2b, 140 78 Praha 4 
 Czech Republic </p>
 <p>Manufacturer 
 Glenmark Pharmaceuticals s.r.o. 
-Hvězdova 1716/2b, 140 78 Praha 4 
+Hv zdova 1716/2b, 140 78 Praha 4 
 Czech Republic  </p>
 <p>This leaflet was last revised in {month/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency (EMA) 

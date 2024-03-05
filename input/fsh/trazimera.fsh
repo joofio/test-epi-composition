@@ -4,7 +4,7 @@ Instance: composition-en-c116ac444efe9566cd4664c5b73e7669
 InstanceOf: CompositionUvEpi
 Title: "Composition for trazimera Package Leaflet"
 Description:  "Composition for trazimera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,8 +74,16 @@ antigen called human epidermal growth factor receptor 2 (HER2). HER2 is found in
 on the surface of some cancer cells where it stimulates their growth. When Trazimera binds to HER2 
 it stops the growth of such cells and causes them to die. </p>
 <p>Your doctor may prescribe Trazimera for the treatment of breast and gastric cancer when: 
-* You have early breast cancer, with high levels of a protein called HER2.  </p>
-<ul>
+* You have early breast cancer, with high levels of a protein called HER</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trazimera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trazimera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>
 <p>You have metastatic breast cancer (breast cancer that has spread beyond the original tumour) 
 with high levels of HER2. Trazimera may be prescribed in combination with the 
@@ -90,13 +98,11 @@ presence of female sex hormones).  </p>
 the other cancer medicines capecitabine or 5-flououracil and cisplatin. </p>
 </li>
 </ul>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take trazimera"
+  * title =  "3. How to take trazimera"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take trazimera"
+  * code.text = "3. How to take trazimera"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Trazimera if 
 * you are allergic to trastuzumab, to murine (mouse) proteins, or to any of the other ingredients 
@@ -171,12 +177,13 @@ Trazimera, as Trazimera may pass to your baby through your breast milk. </p>
 <p>Driving and using machines 
 Trazimera may affect your ability to drive a car or operate machines. If during treatment you 
 experience symptoms, such as dizziness, sleepiness, chills or fever, you should not drive or use 
-machines until these symptoms disappear. </p>         </div>"""   
-                    
+machines until these symptoms disappear. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take trazimera"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take trazimera"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before starting the treatment your doctor will determine the amount of HER2 in your tumour. Only 
 patients with a large amount of HER2 will be treated with Trazimera. Trazimera should only be 
@@ -184,11 +191,11 @@ given by a doctor or nurse. Your doctor will prescribe a dose and treatment regi
 you. The dose of Trazimera depends on your body weight. </p>
 <p>Trazimera intravenous formulation is not for subcutaneous use and should be given as an intravenous 
 infusion only. </p>
-<p>Trazimera intravenous formulation is given as an intravenous infusion (“drip”) directly into your 
+<p>Trazimera intravenous formulation is given as an intravenous infusion ( drip ) directly into your 
 veins. The first dose of your treatment is given over 90 minutes and you will be observed by a health 
 professional while it is being given in case you have any side effects. If the first dose is well 
-tolerated the next doses may be given over 30 minutes (see section 2 under “Warnings and 
-precautions”). The number of infusions you receive will depend on how you respond to the 
+tolerated the next doses may be given over 30 minutes (see section 2 under  Warnings and 
+precautions ). The number of infusions you receive will depend on how you respond to the 
 treatment. Your doctor will discuss this with you. </p>
 <p>In order to prevent medication errors it is important to check the vial labels to ensure that the 
 medicine being prepared and given is Trazimera (trastuzumab) and not another 
@@ -201,13 +208,12 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can. </p>
 <p>It may take up to 7 months for Trazimera to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store trazimera"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store trazimera"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Trazimera can cause side effects, although not everybody gets them. Some of 
 these side effects may be serious and may lead to hospitalisation. </p>
@@ -216,8 +222,8 @@ common (may affect more than 1 in 10 people). Other infusion-related symptoms ar
 (nausea), vomiting, pain, increased muscle tension and shaking, headache, dizziness, breathing 
 difficulties, high or low blood pressure, heart rhythm disturbances (palpitations, heart fluttering or </p>
 <p>irregular heart beat), swelling of the face and lips, rash and feeling tired. Some of these symptoms 
-can be serious and some patients have died (see section 2 under “Warnings and precautions”). </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+can be serious and some patients have died (see section 2 under  Warnings and precautions ). </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 healthcare professional during the infusion and for at least six hours after the start of the first 
 infusion and for two hours after the start of other infusions. If you develop a reaction, they will slow 
@@ -234,7 +240,7 @@ stopped and can be serious. They include weakening of the heart muscle possibly 
 heart failure, inflammation of the lining around the heart and heart rhythm disturbances. This 
 can lead to symptoms such as breathlessness (including breathlessness at night), cough, fluid 
 retention (swelling) in the legs or arms, and palpitations (heart fluttering or irregular heart 
-beat) (see section 2 under “Heart checks”). </li>
+beat) (see section 2 under  Heart checks ). </li>
 </ul>
 <p>Your doctor will monitor your heart regularly during and after treatment but you should tell your 
 doctor immediately if you notice any of the above symptoms. </p>
@@ -365,148 +371,23 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store trazimera"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store trazimera"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
-after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). </p>
-<p>Store in the original package in order to protect from light. </p>
-<p>Unopened vials of Trazimera may be stored up to 30°C for a single period of up to 3 months. Upon 
-removal from refrigerated storage, Trazimera must not be returned to refrigerated storage. Discard at 
-the end of this 3-month period or by the expiry date on the vial, whichever occurs first. Record the 
-“discard by” date in the date field provided on the carton. </p>
-<p>Infusion solutions should be used immediately after dilution. Do not use Trazimera if you notice any 
-particulate matter or discoloration prior to administration. </p>
-<p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how 
-to dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Trazimera contains 
-- The active substance is trastuzumab. One vial contains either: 
-* 150 mg trastuzumab that has to be dissolved in 7.2 mL of sterile water for injections, or 
-* 420 mg trastuzumab that has to be dissolved in 20 mL of sterile water for injections.<br />
-The resulting solution contains approximately 21 mg/mL trastuzumab. </p>
-<ul>
-<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine, sucrose, 
-polysorbate 20 (E 432). </li>
-</ul>
-<p>What Trazimera looks like and contents of the pack </p>
-<p>Trazimera is a powder for concentrate for solution for infusion, which is supplied in a glass vial with 
-a rubber stopper containing either 150 mg or 420 mg of trastuzumab. The powder is a white cake. 
-Each carton contains 1 vial of powder. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Pfizer Europe MA EEIG 
-Boulevard de la Plaine 1050 Bruxelles 
-Belgium </p>
-<p>Manufacturer </p>
-<p>Pfizer Manufacturing Belgium NV 
-Rijksweg 2870 Puurs-Sint-Amands 
-Belgium </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Luxembourg/Luxemburg 
-Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
-Kύπρος 
-Pfizer Ελλάς A.E. (Cyprus Branch) 
-T: +357 22817 
-Česká republika 
-Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Magyarország 
-Pfizer Kft. 
-Tel.: +36 1 488 37<br />
-Danmark 
-Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Malta 
-Drugsales Ltd 
-Tel: +356 21419070/1/2 </p>
-<p>Deutschland 
-PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Nederland 
-Pfizer bv 
-Tel: +31 (0)800 63 34<br />
-България 
-Пфайзер Люксембург САРЛ, 
-Клон България 
-Teл.: +359 2 970 4 
-Norge 
-Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
-Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
-Österreich 
-Pfizer Corporation Austria Ges.m.b.H. 
-Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ: +30 210 6785 
-Polska 
-Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61  </p>
-<p>España 
-Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal 
-Laboratórios Pfizer, Lda. 
-Tel: +351 21 423 5 
-France 
-Pfizer 
-Tél: + 33 (0)1 58 07 34<br />
-România 
-Pfizer Romania S.R.L 
-Tel: +40 (0) 21 207 28<br />
-Hrvatska 
-Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
-Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
-farmacevtske 
-dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
-Ireland 
-Pfizer Healthcare Ireland 
-Tel: +1800 633 363 (toll free) 
-Tel: +44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
-Tel: +421 2 3355 5 
-Ísland 
-Icepharma hf. 
-Sími: +354 540 8 
-Suomi/Finland 
-Pfizer Oy 
-Puh/Tel: +358 (0)9 430<br />
-Italia 
-Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Sverige 
-Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
-Tel: +371 670 35<br />
-United Kingdom (Northern Ireland) 
-Pfizer Limited 
-Tel: +44 (0)1304 616 
-Lietuva 
-Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 5 251 4 </p>
-<p>This leaflet was last revised in MM/YYYY. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). </p>
+<p>Store in the original package in order to protect from light. </p>
+<p>Unopened vials of Trazimera may be stored up to 30 C for a single period of up to 3 months. Upon 
+removal from refrigerated storage, Trazimera must not be returned to refrigerated storage. Discard at 
+the end of this 3-month period or by the expiry date on the vial, whichever occurs first. Record the 
+ discard by  date in the date field provided on the carton. </p>
+<p>Infusion solutions should be used immediately after dilution. Do not use Trazimera if you notice any 
+particulate matter or discoloration prior to administration. </p>
+<p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how 
+to dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
 

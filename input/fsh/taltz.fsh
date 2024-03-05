@@ -4,7 +4,7 @@ Instance: composition-en-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: CompositionUvEpi
 Title: "Composition for taltz Package Leaflet"
 Description:  "Composition for taltz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,13 +81,13 @@ adolescents
 works by blocking the activity of a protein called IL-17A, which promotes psoriasis and 
 inflammatory disease of the joints and the spine. </p>
 <p>Plaque psoriasis 
-Taltz is used to treat a skin condition called “plaque psoriasis” in adults and in children from the age 
+Taltz is used to treat a skin condition called  plaque psoriasis  in adults and in children from the age 
 of 6 years and with a body weight of at least 25 kg and in adolescents with moderate to severe 
 disease. Taltz reduces the signs and symptoms of the disease.  </p>
 <p>Using Taltz will benefit you by improvements of skin clearance and reducing your symptoms 
 such as scaling, itching and pain. </p>
 <p>Psoriatic arthritis<br />
-Taltz is used to treat a condition called “psoriatic arthritis” in adults, an inflammatory disease of the 
+Taltz is used to treat a condition called  psoriatic arthritis  in adults, an inflammatory disease of the 
 joints, often accompanied by psoriasis. If you have psoriatic arthritis you will first be given other 
 medicines. If you do not respond well enough to these medicines or in case of intolerance, you will be 
 given Taltz to reduce the signs and symptoms of the disease. Taltz can be used alone or with another 
@@ -97,8 +97,8 @@ function (ability to do normal daily activities), and slowing down the damage to
 <p>Axial spondyloarthritis 
 Taltz is used to treat adults with an inflammatory disease primarily affecting the spine which causes 
 inflammation of the spinal joints, called axial spondyloarthritis. If the condition is visible using 
-X-rays, it is referred to as “radiographic axial spondyloarthritis”; if it occurs in patients with no visible 
-signs on X-rays, it is referred to as “non-radiographic axial spondyloarthritis”. If you have axial 
+X-rays, it is referred to as  radiographic axial spondyloarthritis ; if it occurs in patients with no visible 
+signs on X-rays, it is referred to as  non-radiographic axial spondyloarthritis . If you have axial 
 spondyloarthritis you will first be given other medicines. If you do not respond well enough to these 
 medicines, you will be given Taltz to reduce the signs and symptoms of the disease, reduce 
 inflammation and improve your physical function. </p>         </div>"""   
@@ -116,10 +116,10 @@ section 6). If you think you may be allergic, ask your doctor for advice before 
 - if you have an infection which your doctor thinks is important (for example, active 
 tuberculosis). </p>
 <p>Warnings and precautions 
-Talk to your doctor before using Taltz:  </p>
+Talk to your doctor before using Taltz:</p>
 <ul>
 <li>if you currently have an infection or if you have long-term or repeated infections. </li>
-<li>if you have an inflammatory disease affecting the gut named Crohn’s disease. </li>
+<li>if you have an inflammatory disease affecting the gut named Crohn s disease. </li>
 <li>if you have an inflammation of the large intestine named ulcerative colitis. </li>
 <li>if you are receiving any other treatment for psoriasis (such as immunosuppressant or 
 phototherapy with ultraviolet light) or for psoriatic arthritis. </li>
@@ -132,9 +132,15 @@ cramps and pain, diarrhoea, weight loss or blood in the stool (any signs of bowe
 Taltz can potentially cause serious side effects, including infections and allergic reactions. You must 
 look out for signs of these conditions while you are using Taltz. </p>
 <p>Stop using Taltz and tell your doctor or seek medical help immediately if you notice any signs of a 
-serious infection or an allergic reaction. Such signs are listed under “Serious side effects” in 
-section 4.<br />
-Children and adolescents 
+serious infection or an allergic reaction. Such signs are listed under  Serious side effects  in 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take taltz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take taltz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
 Do not use this medicine for the treatment of plaque psoriasis in children under 6 years of age because 
 it has not been studied in this age group. </p>
 <p>Do not use this medicine for the treatment of psoriatic arthritis in children and adolescents under 
@@ -157,12 +163,13 @@ You and your doctor should decide if you can breast-feed or use Taltz. You shoul
 Taltz is unlikely to influence your ability to drive and use machines. </p>
 <p>Taltz contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 80 mg dose, that is to say essentially 
-“sodium-free”.  </p>         </div>"""   
-                    
+ sodium-free .  </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take taltz"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take taltz"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or nurse has told you. Check with your doctor, 
 nurse or pharmacist if you are not sure. </p>
@@ -178,7 +185,7 @@ that you avoid missing or repeating doses. </p>
 that the treatment is having the desired effect. </p>
 <p>Each syringe contains one dose of Taltz (80 mg). Each syringe delivers only one dose. The syringe 
 must not be shaken. </p>
-<p>Read the “Instructions for use” for the syringe carefully before using Taltz. </p>
+<p>Read the  Instructions for use  for the syringe carefully before using Taltz. </p>
 <p>How much Taltz is given and for how long 
 Your doctor will explain to you how much Taltz you need and for how long.  </p>
 <p>Plaque psoriasis in adults 
@@ -189,7 +196,7 @@ week 12, you will use an 80 mg dose (1 syringe) every 4 weeks.  </p>
 <p>Plaque psoriasis in children (age 6 years and above and at least 25 kg body weight) and in adolescents. 
 The recommended dose given by subcutaneous injection in children is based on the following 
 weight categories: </p>
-<p>Children’s body 
+<p>Children s body 
 weight 
 Recommended starting 
 dose (week 0) 
@@ -205,11 +212,13 @@ Greater than 50 kg<br />
 Ixekizumab doses of 40 mg must be prepared and administered by a qualified healthcare professional. 
 Taltz is not recommended for use in children with a body weight below 25 kg. </p>
 <p>Psoriatic arthritis<br />
-For psoriatic arthritis patients who also have moderate to severe plaque psoriasis:<br />
-- The first dose is 160 mg (2 syringes with 80 mg each) by subcutaneous injection. This may be 
-given by your doctor or nurse. 
-- After the first dose, you will use an 80 mg dose (1 syringe) at weeks 2, 4, 6, 8, 10, and 12. From 
-week 12, you will use an 80 mg dose (1 syringe) every 4 weeks. </p>
+For psoriatic arthritis patients who also have moderate to severe plaque psoriasis:</p>
+<ul>
+<li>The first dose is 160 mg (2 syringes with 80 mg each) by subcutaneous injection. This may be 
+given by your doctor or nurse. </li>
+<li>After the first dose, you will use an 80 mg dose (1 syringe) at weeks 2, 4, 6, 8, 10, and 12. From 
+week 12, you will use an 80 mg dose (1 syringe) every 4 weeks. </li>
+</ul>
 <p>For other psoriatic arthritis patients 
 - The first dose is 160 mg (2 syringes with 80 mg each) by subcutaneous injection. This may be 
 given by your doctor or nurse. 
@@ -225,34 +234,37 @@ If you have forgotten to inject a dose of Taltz, talk to your doctor. </p>
 <p>If you stop using Taltz<br />
 You should not stop using Taltz without speaking to your doctor first. If you stop treatment, symptoms 
 of psoriasis or psoriatic arthritis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store taltz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store taltz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects<br />
 Stop using Taltz and tell your doctor or seek medical help immediately if you get any of the following 
 side effects. Your doctor will decide if and when you may restart the treatment:  </p>
-<p>Possible serious infection (may affect up to 1 in 100 people) - the signs may include:<br />
-- fever, flu-like symptoms, night sweats 
-- feeling tired or short of breath, cough which will not go away 
-- warm, red and painful skin, or a painful skin rash with blisters </p>
-<p>Serious allergic reaction (may affect up to 1 in 1,000 people) - the signs may include:<br />
-- difficulty breathing or swallowing 
-- low blood pressure, which can cause dizziness or light-headedness 
-- swelling of the face, lips, tongue or throat 
-- severe itching of the skin, with a red rash or raised bumps </p>
+<p>Possible serious infection (may affect up to 1 in 100 people) - the signs may include:</p>
+<ul>
+<li>fever, flu-like symptoms, night sweats </li>
+<li>feeling tired or short of breath, cough which will not go away </li>
+<li>warm, red and painful skin, or a painful skin rash with blisters </li>
+</ul>
+<p>Serious allergic reaction (may affect up to 1 in 1,000 people) - the signs may include:</p>
+<ul>
+<li>difficulty breathing or swallowing </li>
+<li>low blood pressure, which can cause dizziness or light-headedness </li>
+<li>swelling of the face, lips, tongue or throat </li>
+<li>severe itching of the skin, with a red rash or raised bumps </li>
+</ul>
 <p>Other side effects that have been reported: </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - upper respiratory tract infections with symptoms such as sore throat and stuffy nose. 
 - injection site reactions (e.g. red skin, pain). </p>
 <p>Common (may affect up to 1 in 10 people) 
 - nausea. 
-- fungal infections such as athlete’s foot. 
+- fungal infections such as athlete s foot. 
 - pain in the back of the throat. 
 - cold sores of mouth, skin and mucous membranes (herpes simplex, mucocutaneous) </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
@@ -278,128 +290,21 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store taltz"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store taltz"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the syringe label and on the outer 
-carton after “EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C to 8 °C). Do not freeze. Do not push to the back panel of the fridge. </p>
-<p>Store in the original packaging in order to protect from light. </p>
-<p>Taltz can be left out of the fridge for up to 5 days at a temperature not above 30 ºC. </p>
-<p>Do not use this medicine if you notice that the syringe is damaged, or the medicine is cloudy, 
-distinctly brown, or has particles in it.  </p>
-<p>This medicine is for single use only.  </p>
-<p>Do not throw away any medicines via wastewater. Ask your doctor, nurse or pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Taltz contains 
-- The active substance is ixekizumab. </p>
-<p>Each pre-filled syringe contains 80 mg of ixekizumab in 1 ml solution. 
-- The other ingredients are sucrose; polysorbate 80; water for injections. In addition, sodium 
-hydroxide may have been added for pH adjustment. </p>
-<p>What Taltz looks like and contents of the pack 
-Taltz is a solution in a clear glass syringe. Its colour may vary from colourless to slightly yellow.  </p>
-<p>Pack sizes of 1, 2, 3 pre-filled syringes. Not all pack sizes may be available in your country. </p>
-<p>Marketing Authorisation Holder<br />
-Eli Lilly and Company (Ireland) Limited, Dunderrow, Kinsale, Co. Cork, Ireland. </p>
-<p>Manufacturer 
-Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino (FI), Italy. </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
-Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
-Lietuva 
-Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
-Luxembourg/Luxemburg 
-Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
-Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
-Tel: + 36 1 328 5Danmark 
-Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 60<br />
-Malta 
-Charles de Giorgio Ltd. 
-Tel: + 356 25600 Deutschland 
-Lilly Deutschland GmbH 
-Tel. + 49-(0) 6172 273 2 
-Nederland 
-Eli Lilly Nederland B.V.<br />
-Tel: + 31-(0) 30 60 25 Eesti 
-Eli Lilly Nederland B.V. 
-Tel: +372 6 817<br />
-Norge 
-Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18  </p>
-<p>Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
-Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
-Lilly S.A. 
-Tel: + 34-91 663 50<br />
-Polska 
-Eli Lilly Polska Sp. z o.o. 
-Tel: +48 22 440 33 France 
-Lilly France 
-Tél: +33-(0) 1 55 49 34<br />
-Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
-Tel: + 351-21-4126Hrvatska 
-Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
-Tel: + 40 21 4023Ireland 
-Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
-Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
-Eli Lilly Slovakia s.r.o. 
-Tel: + 421 220 663 Italia 
-Eli Lilly Italia S.p.A. 
-Tel: + 39- 055 42 
-Suomi/Finland 
-Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
-Phadisco Ltd<br />
-Τηλ: +357 22 715 
-Sverige 
-Eli Lilly Sweden AB 
-Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
-Tel: +371 67364United Kingdom (Northern Ireland) 
-Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.  </p>
-<hr />
-<p>The following information is intended for medical or healthcare professionals only: </p>
-<p>40 mg preparation of ixekizumab for children 25-50 kg body weight </p>
-<p>Ixekizumab doses of 40 mg must be prepared and administered by a qualified healthcare professional. 
-Use only the Taltz 80 mg solution for injection in pre-filled syringe when preparing the prescribed 
-40 mg paediatric doses. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the syringe label and on the outer 
+carton after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C to 8  C). Do not freeze. Do not push to the back panel of the fridge. </p>
+<p>Store in the original packaging in order to protect from light. </p>
+<p>Taltz can be left out of the fridge for up to 5 days at a temperature not above 30  C. </p>
+<p>Do not use this medicine if you notice that the syringe is damaged, or the medicine is cloudy, 
+distinctly brown, or has particles in it.  </p>
+<p>This medicine is for single use only.  </p>
+<p>Do not throw away any medicines via wastewater. Ask your doctor, nurse or pharmacist how to throw 
+away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

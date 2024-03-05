@@ -4,7 +4,7 @@ Instance: composition-en-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for arava Package Leaflet"
 Description:  "Composition for arava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -129,28 +129,30 @@ Arava is not recommended for use in children and adolescents below 18 years of a
 <p>Other medicines and Arava 
 Please tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This includes medicines obtained without a prescription. </p>
-<p>This is especially important if you are taking: 
-- other medicines for rheumatoid arthritis such as antimalarials (e.g. chloroquine and 
+<p>This is especially important if you are taking:</p>
+<ul>
+<li>other medicines for rheumatoid arthritis such as antimalarials (e.g. chloroquine and 
 hydroxychloroquine), intramuscular or oral gold, D-penicillamine, azathioprine and other 
-immunosuppressive medicines (e.g. methotrexate) as these combinations are not advisable, 
-- warfarin and other oral medicines used to thin the blood, as monitoring is necessary to reduce 
-the risk of side effects of this medicine 
-- teriflunomide for multiple sclerosis 
-- repaglinide, pioglitazone, nateglinide, or rosiglitazone for diabetes<br />
-- daunorubicin, doxorubicin, paclitaxel, or topotecan for cancer<br />
-- duloxetine for depression, urinary incontinence or in kidney disease in diabetics<br />
-- alosetron for the management of severe diarrhoea 
-- theophylline for asthma 
-- tizanidine, a muscle relaxant<br />
-- oral contraceptives (containing ethinylestradiol and levonorgestrel) 
-- cefaclor, benzylpenicillin (penicillin G), ciprofloxacin for infections<br />
-- indomethacin, ketoprofen for pain or inflammation<br />
-- furosemide for heart disease (diuretic, water pill) 
-- zidovudine for HIV infection<br />
-- rosuvastatin, simvastatin, atorvastatin, pravastatin for hypercholesterolemia (high cholesterol)<br />
-- sulfasalazine for inflammatory bowel disease or rheumatoid arthritis 
-- a medicine called colestyramine (used to reduce high cholesterol) or activated charcoal as these 
-medicines can reduce the amount of Arava which is absorbed by the body. </p>
+immunosuppressive medicines (e.g. methotrexate) as these combinations are not advisable, </li>
+<li>warfarin and other oral medicines used to thin the blood, as monitoring is necessary to reduce 
+the risk of side effects of this medicine </li>
+<li>teriflunomide for multiple sclerosis </li>
+<li>repaglinide, pioglitazone, nateglinide, or rosiglitazone for diabetes  </li>
+<li>daunorubicin, doxorubicin, paclitaxel, or topotecan for cancer  </li>
+<li>duloxetine for depression, urinary incontinence or in kidney disease in diabetics  </li>
+<li>alosetron for the management of severe diarrhoea </li>
+<li>theophylline for asthma </li>
+<li>tizanidine, a muscle relaxant  </li>
+<li>oral contraceptives (containing ethinylestradiol and levonorgestrel) </li>
+<li>cefaclor, benzylpenicillin (penicillin G), ciprofloxacin for infections  </li>
+<li>indomethacin, ketoprofen for pain or inflammation  </li>
+<li>furosemide for heart disease (diuretic, water pill) </li>
+<li>zidovudine for HIV infection  </li>
+<li>rosuvastatin, simvastatin, atorvastatin, pravastatin for hypercholesterolemia (high cholesterol)  </li>
+<li>sulfasalazine for inflammatory bowel disease or rheumatoid arthritis </li>
+<li>a medicine called colestyramine (used to reduce high cholesterol) or activated charcoal as these 
+medicines can reduce the amount of Arava which is absorbed by the body. </li>
+</ul>
 <p>If you are already taking a nonsteroidal anti-inflammatory drug (NSAID) and/or corticosteroids, 
 you may continue to take them after starting Arava. </p>
 <p>Vaccinations 
@@ -214,23 +216,33 @@ dose. Do not take a double dose to make up for a forgotten dose. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately and stop taking Arava: 
-- if you experience weakness, feel light-headed or dizzy or have difficulty breathing, as these 
-may be signs of a serious allergic reaction, 
-- if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
+<p>Tell your doctor immediately and stop taking Arava:</p>
+<ul>
+<li>if you experience weakness, feel light-headed or dizzy or have difficulty breathing, as these 
+may be signs of a serious allergic reaction, </li>
+<li>if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
 life-threatening reactions (e.g. Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema 
-multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section 2.<br />
-Tell your doctor immediately if you experience: 
-- pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
-in the different types of blood cells which make up blood, 
-- tiredness, abdominal pain, or jaundice (yellow discolouration of the eyes or skin), as these 
-may indicate serious conditions such as liver failure, which may be fatal, 
-- any symptoms of an infection such as fever, sore throat or cough, as this medicine may 
-increase the chance of a severe infection which may be life-threatening, 
-- cough or breathing problems as these may indicate problems of the lung (interstitial lung 
-disease or pulmonary hypertension), <br />
-- unusual tingling, weakness or pain in your hands or feet as these may indicate problems with 
-your nerves (peripheral neuropathy). </p>
+multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor immediately if you experience:</p>
+<ul>
+<li>pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
+in the different types of blood cells which make up blood, </li>
+<li>tiredness, abdominal pain, or jaundice (yellow discolouration of the eyes or skin), as these 
+may indicate serious conditions such as liver failure, which may be fatal, </li>
+<li>any symptoms of an infection such as fever, sore throat or cough, as this medicine may 
+increase the chance of a severe infection which may be life-threatening, </li>
+<li>cough or breathing problems as these may indicate problems of the lung (interstitial lung 
+disease or pulmonary hypertension),   </li>
+<li>unusual tingling, weakness or pain in your hands or feet as these may indicate problems with 
+your nerves (peripheral neuropathy). </li>
+</ul>
 <p>Common side effects (may affect up to 1 in 10 people) 
 - a slight decrease in the number of white blood cells (leucopenia),<br />
 - mild allergic reactions, 
@@ -290,10 +302,11 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store arava"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store arava"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the packaging. The expiry date refers 
@@ -304,127 +317,4 @@ Store in the original package. </p>
 Keep the bottle tightly closed.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Arava contains 
-- The active substance is leflunomide. One film-coated tablet contains 10 mg of leflunomide. 
-- The other ingredients are: maize starch, povidone (E1201), crospovidone (E1202), silica 
-colloidal anhydrous, magnesium stearate (E470b), and lactose monohydrate in the tablet core, as well 
-as talc (E553b), hypromellose (E464), titanium dioxide (E171), and macrogol 8000 in the film-
-coating. </p>
-<p>What Arava looks like and contents of the pack 
-Arava 10 mg film-coated tablets are white to almost white and round. 
-Imprint on one side: ZBN. </p>
-<p>The tablets are packed in blisters or bottles. 
-Packs of 30 and 100 tablets are available. </p>
-<p>Not all pack size may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Sanofi-Aventis Deutschland GmbH 
-D-65926 Frankfurt am Main 
-Germany </p>
-<p>Manufacturer<br />
-Opella Healthcare International SAS 
-56, Route de Choisy 
-60200 Compiègne 
-France </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
-Lietuva 
-Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma  EOOD 
-Тел.: +359 (0)2 4942<br />
-Luxembourg/Luxemburg 
-Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
-sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarország 
-SANOFI-AVENTIS Zrt. 
-Tel.: +36 1 505 0 
-Danmark 
-Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Malta 
-Sanofi S.r.l. 
-Tel: +39 02 39394 
-Deutschland 
-Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
-Nederland 
-Sanofi B.V. 
-Tel: +31 20 245 4 
-Eesti 
-Swixx Biopharma OÜ 
-Tel: +372 640 10<br />
-Norge 
-sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
-sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
-sanofi-aventis, S.A.<br />
-Tel: +34 93 485 94<br />
-Polska 
-sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-France 
-Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
-Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
-Tel: +351 21 35 89<br />
-Hrvatska<br />
-Swixx Biopharma d.o.o.<br />
-Tel: +385 1 2078<br />
-România 
-Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Ireland 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenija 
-Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51<br />
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
-Sanofi S.r.l. 
-Tel: 800 536 
-Suomi/Finland 
-Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
-Sverige 
-Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
-Swixx Biopharma SIA 
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

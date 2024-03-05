@@ -4,7 +4,7 @@ Instance: composition-en-e3e38f96bdd05d0b2e420ed431026ab9
 InstanceOf: CompositionUvEpi
 Title: "Composition for effentora Package Leaflet"
 Description:  "Composition for effentora Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -112,24 +112,26 @@ system breaks down the medicine.
 * You are over 65 years old - you may need a lower dose and any dose increase will be reviewed 
 very carefully by your doctor. 
 * You have problems with your heart especially slow heart rate. 
-* You use benzodiazepines (see section 2 under “Other medicines and Effentora”). Using 
+* You use benzodiazepines (see section 2 under  Other medicines and Effentora ). Using 
 benzodiazepines can increase the chances of getting serious side effects including death 
 * You use antidepressants or antipsychotics (selective serotonin reuptake inhibitors [SSRIs], 
 serotonin norepinephrine reuptake inhibitors [SNRIs], monoamine oxidase (MAO) inhibitors; see 
-section 2 under “Do not use Effentora” and “Other medicines and Effentora”)The use of these 
+section 2 under  Do not use Effentora  and  Other medicines and Effentora )The use of these 
 medicines with Effentora can lead to a serotonin syndrome a potentially life-threatening 
-condition (see section 2 under “Other medicines and Effentora”). 
+condition (see section 2 under  Other medicines and Effentora ). 
 * You have ever developed adrenal insufficiency, a condition in which the adrenal glands do not 
 produce enough hormones or lack of sex hormones (androgen deficiency) with opioid use (see 
-section 4 under “Serious side effects”). 
+section 4 under  Serious side effects ). 
 * You have ever abused or been dependent on opioids or any other drug, alcohol or illegal drugs. 
 * You drink alcohol; please refer to section Effentora with food, drink and alcohol. </p>
-<p>Your doctor may need to check you more closely if: 
-- You or anyone in your family have ever abused or been dependent on alcohol, prescription 
-medicines or illegal drugs (“addiction”). 
-- You are a smoker. 
-- You have ever had problems with your mood (depression, anxiety or a personality disorder) or have 
-been treated by a psychiatrist for other mental illnesses. </p>
+<p>Your doctor may need to check you more closely if:</p>
+<ul>
+<li>You or anyone in your family have ever abused or been dependent on alcohol, prescription 
+medicines or illegal drugs ( addiction ). </li>
+<li>You are a smoker. </li>
+<li>You have ever had problems with your mood (depression, anxiety or a personality disorder) or have 
+been treated by a psychiatrist for other mental illnesses. </li>
+</ul>
 <p>Consult your doctor WHILE using Effentora if: 
 * You experience pain or increased sensitivity to pain (hyperalgesia) which does not respond to a 
 higher dosage of your medicine as prescribed by your doctor. 
@@ -149,12 +151,12 @@ you consult your doctor. </p>
 <p>Seek URGENT medical advice if: 
 * You experience symptoms such as difficulty in breathing or dizziness, swelling of the tongue, lip 
 or throat while using Effentora. These might be early symptoms of a serious allergic reaction 
-(anaphylaxis, hypersensitivity; see section 4 under “Serious side effects”) </p>
+(anaphylaxis, hypersensitivity; see section 4 under  Serious side effects ) </p>
 <p>What to do if someone accidentally takes Effentora 
 If you think someone has accidentally taken Effentora please seek immediate medical assistance. Try 
 to keep the person awake until emergency help arrives. </p>
 <p>If someone has accidentally taken Effentora, they may have the same side effects as described in the 
-section 3 “If you use more Effentora than you should”. </p>
+section 3  If you use more Effentora than you should . </p>
 <p>Children and adolescents 
 Do not give this medicine to children and adolescents below18 years of age. </p>
 <p>Other medicines and Effentora 
@@ -168,11 +170,11 @@ treatment options are not possible.  </p>
 duration of concomitant treatment should be limited by your doctor.  </p>
 <p>Please tell your doctor about all sedative medicines you are taking (such as sleeping pills, 
 medicines to treat anxiety, some medicines to treat allergic reactions (antihistamines), or 
-tranquillisers) and follow your doctor’s dose recommendation closely. It could be helpful to 
+tranquillisers) and follow your doctor s dose recommendation closely. It could be helpful to 
 inform friends or relatives to be aware of the signs and symptoms stated above. Contact your 
 doctor when experiencing such symptoms. 
-* Some muscle relaxants - such as baclofen, diazepam (see also section “Warnings and 
-precautions”. 
+* Some muscle relaxants - such as baclofen, diazepam (see also section  Warnings and 
+precautions . 
 * Any medicines that might have an effect on the way in which your body breaks down Effentora, 
 such as ritonavir, nelfinavir, amprenavir, and fosamprenavir (medicines that help control HIV 
 infection) or other so-called CYP3A4 inhibitors such as ketoconazole, itraconazole, or fluconazole 
@@ -189,7 +191,7 @@ using these medicines.
 * The risk of side effects increases if you are taking medicines such as certain antidepressants or 
 antipsychotics. Effentora may interact with these medicines and you may experience mental status 
 changes (e.g. agitation, hallucinations, coma), and other effects such as body temperature above 
-38°C, increase in heart rate, unstable blood pressure, and exaggeration of reflexes, muscular rigidity, 
+38 C, increase in heart rate, unstable blood pressure, and exaggeration of reflexes, muscular rigidity, 
 lack of coordination and/or gastrointestinal symptoms (e.g nausea, vomiting, diarrhoea). Your 
 doctor will tell you whether Effentora is suitable for you. </p>
 <p>Tell your doctor or pharmacist if you are taking or have recently taken or might take any other 
@@ -253,7 +255,7 @@ doctor will decide if your dose needs to be changed. </p>
 as a change may be required to your treatment regimen. Your doctor may change the treatment for 
 your persistent pain; when your persistent pain is controlled, your doctor may need to change the dose 
 of Effentora. If your doctor suspects Effentora-related increased sensitivity to pain (hyperalgesia), a 
-reduction of your Effentora dose may be considered (see section 2 under “Warnings and precautions”). 
+reduction of your Effentora dose may be considered (see section 2 under  Warnings and precautions ). 
 For the most effective relief, let your doctor know about your pain and how Effentora is working for 
 you, so that the dose can be changed if needed. </p>
 <p>Do not change doses of Effentora or your other pain medicines on your own. Any change in dosage 
@@ -419,9 +421,9 @@ The active substance is fentanyl. Each tablet contains either:
 The other ingredients are mannitol, sodium starch glycolate type A, sodium hydrogen carbonate, 
 sodium carbonate, citric acid, magnesium stearate. </p>
 <p>What Effentora looks like and contents of the pack 
-The buccal tablets are flat-faced, round bevelled-edge tablet, embossed one side with a “C” and on the 
-other side with “1” for Effentora 100 micrograms, with “2” for Effentora 200 micrograms, with “4” 
-for Effentora 400 micrograms, with “6” for Effentora 600 micrograms, with “8” for Effentora 
+The buccal tablets are flat-faced, round bevelled-edge tablet, embossed one side with a  C  and on the 
+other side with  1  for Effentora 100 micrograms, with  2  for Effentora 200 micrograms, with  4<br />
+for Effentora 400 micrograms, with  6  for Effentora 600 micrograms, with  8  for Effentora 
 800 micrograms. </p>
 <p>Each blister contains 4 buccal tablets, supplied in cartons of 4 or 28 buccal tablets. 
 Not all pack sizes may be marketed. </p>
@@ -436,26 +438,25 @@ Swensweg 5<br />
 2031 GA HAARLEM 
 Netherlands </p>
 <p>Merckle GmbH 
-Ludwig-Merckle-Straße 3 
+Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder or call the following number: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tel/Tél: +32 3 820 73<br />
+Tel/T l: +32 3 820 73<br />
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 5 266 02 България 
-Тева Фарма ЕАД 
-Teл.: +359 2 489 95<br />
+Tel: +370 5 266 02   </p>
+<p>Te .: +359 2 489 95<br />
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG. 
-Tél: +32 3 820 73 Česká republika 
+T l: +32 3 820 73  esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251 007<br />
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel.: (+ 36) 1 288 6Danmark 
 Teva Denmark A/S 
 Tlf: +45 44 98 55<br />
@@ -473,29 +474,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: + 372 661 0 
 Norge 
 Teva Norway AS 
-Tlf: +47 66 77 55<br />
-Ελλάδα 
-Specifar Α.Β.Ε.Ε. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66 77 55  </p>
+<p>Specifar  . . . . 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 197007 0 
-España 
+Espa a 
 Teva Pharma, S.L.U.<br />
 Tel: + 34 91 387 32<br />
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel.: +48 22 345 93 00  </p>
 <p>France 
-Teva Santé 
-Tél: +33 1 55 91 78<br />
+Teva Sant<br />
+T l: +33 1 55 91 78<br />
 Hrvatska 
 Pliva Hrvatska d.o.o 
 Tel: + 385 1 37 20<br />
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 21 476 75<br />
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +4021 230 65<br />
 Ireland 
@@ -503,9 +503,9 @@ Teva Pharmaceuticals Ireland
 Tel: +44 (0) 207 540 7 
 Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 1 58 90 Ísland 
+Tel: +386 1 58 90  sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503Slovenská republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421257267 
 Italia 
@@ -513,13 +513,13 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 20 180 5Κύπρος 
-Specifar Α.Β.Ε.Ε. 
-Τηλ: +30 2118805 
+Puh/Tel: +358 20 180 5<br />
+Specifar  . . . . 
+ : +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 (0)42 12 11 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67 323<br />
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

@@ -4,7 +4,7 @@ Instance: composition-en-7957aafe253d586bcd1a37e5702661ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for hetlioz Package Leaflet"
 Description:  "Composition for hetlioz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What hetlioz is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>HETLIOZ contains the active substance tasimelteon.  This type of medicine is called a “melatonin agonist” 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>HETLIOZ contains the active substance tasimelteon.  This type of medicine is called a  melatonin agonist<br />
 that acts as a regulator of daily body rhythms. </p>
 <p>It is used to treat Non-24-Hour Sleep-Wake Disorder (Non-24) in adults who are totally blind. </p>
 <p>How HETLIOZ works 
@@ -80,7 +80,7 @@ through many pathways including increases and decreases in the production of the
 the 24-hour world, resulting in periods of feeling sleepy during the day and the inability to sleep at night. The 
 active substance in HETLIOZ, tasimelteon, is able to act as a time-keeper for the body rhythms and resets 
 them each day.  It aligns body rhythms with the usual 24-hour day and night cycle and so improve sleep 
-patterns. Because of individual differences in each person’s body rhythms, it could take weeks or up to 3 
+patterns. Because of individual differences in each person s body rhythms, it could take weeks or up to 3 
 months for an improvement in symptoms to be noticed.  </p>         </div>"""   
           
 
@@ -100,17 +100,19 @@ Do not give HETLIOZ to children under the age of 18 years.  This is because HETL
 in people under 18 years of age and the effects are unknown.  </p>
 <p>Other medicines and HETLIOZ 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines.  This 
-includes:<br />
-- medicines known to reduce the activity of an enzyme called ‘CYP1A2’.  An example is 
-fluvoxamine, which is used to treat depression and obsessive compulsive disorder (OCD). <br />
-- medicines known to reduce the activity of an enzyme called ‘CYP3A4’.  An example is 
-ketoconazole, which is used to treat fungal infections. 
-- medicines known to increase the activity of an enzyme called ‘CYP3A4’.  An example is rifampicin, 
-which is used to treat tuberculosis (TB). 
-- medicines known to reduce the activity of an enzyme called ‘CYP2C19’.  An example is 
-omeprazole, which is used to treat hearburn and gastroesophageal reflux disease (GERD). 
-- medicines called “beta blockers” used to treat high blood pressure and other heart problems.  Some 
-examples include atenolol, metoprolol, and propanolol. </p>
+includes:</p>
+<ul>
+<li>medicines known to reduce the activity of an enzyme called  CYP1A2 .  An example is 
+fluvoxamine, which is used to treat depression and obsessive compulsive disorder (OCD).   </li>
+<li>medicines known to reduce the activity of an enzyme called  CYP3A4 .  An example is 
+ketoconazole, which is used to treat fungal infections. </li>
+<li>medicines known to increase the activity of an enzyme called  CYP3A4 .  An example is rifampicin, 
+which is used to treat tuberculosis (TB). </li>
+<li>medicines known to reduce the activity of an enzyme called  CYP2C19 .  An example is 
+omeprazole, which is used to treat hearburn and gastroesophageal reflux disease (GERD). </li>
+<li>medicines called  beta blockers  used to treat high blood pressure and other heart problems.  Some 
+examples include atenolol, metoprolol, and propanolol. </li>
+</ul>
 <p>If any of the above applies to you (or you are not sure), talk to your doctor or pharmacist before taking 
 HETLIOZ. </p>
 <p>Pregnancy and breast-feeding 
@@ -127,7 +129,7 @@ Tell your doctor if you have an allergy to Orange Yellow S (E110).  HETLIOZ cont
 (E110) which may cause allergic reactions. </p>
 <p>HETLIOZ contains sodium<br />
 This medicinal product contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hetlioz"
@@ -138,7 +140,7 @@ This medicinal product contains less than 1 mmol sodium (23 mg) per capsule, tha
 pharmacist if you are not sure. </p>
 <p>How much to take 
 The recommended dose is one capsule every night, taken one hour before you go to bed. Try to take the 
-medicine at the same time every night.  Because of individual differences in each person’s body rhythms, it 
+medicine at the same time every night.  Because of individual differences in each person s body rhythms, it 
 could take weeks or months for you to notice an improvement in your symptoms.  Therefore, your doctor 
 may ask you to take HETLIOZ for up to 3 months before checking if it is working for you. </p>
 <p>Taking HETLIOZ 
@@ -199,14 +201,16 @@ V. By reporting side effects, you can help provide more information on the safet
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store hetlioz"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the bottle and the carton after EXP. 
-The expiry date refers to the last day of that month. 
-- This medicine does not require any special temperature storage conditions.<br />
-- Store in the original container and keep the bottle tightly closed in order to protect from moisture and 
-light. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the bottle and the carton after EXP. 
+The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special temperature storage conditions.  </li>
+<li>Store in the original container and keep the bottle tightly closed in order to protect from moisture and 
+light. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -223,7 +227,7 @@ Orange Yellow S (E 110).<br />
 - The white printing ink contains shellac, propylene glycol, sodium hydroxide, povidone  and titanium 
 dioxide. </p>
 <p>What HETLIOZ looks like and contents of the pack 
-HETLIOZ hard capsules are opaque dark blue printed with “VANDA 20 mg” in white.  Each bottle has a 
+HETLIOZ hard capsules are opaque dark blue printed with  VANDA 20 mg  in white.  Each bottle has a 
 child-resistant cap and contains 30 hard capsules.  </p>
 <p>Marketing Authorisation Holder 
 Vanda Pharmaceuticals Netherlands B.V. 
@@ -235,19 +239,18 @@ Boschstraat 4811 GC Breda
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tél/Tel: +49 (0)30 800 98Lietuva 
+T l/Tel: +49 (0)30 800 98Lietuva 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel. +49 (0)30 800 98 
-България 
-Vanda Pharmaceuticals Netherlands B.V. 
-Teл: +49 (0)30 800 98 
+Tel. +49 (0)30 800 98 </p>
+<p>Vanda Pharmaceuticals Netherlands B.V. 
+Te : +49 (0)30 800 98 
 Luxembourg/Luxemburg 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tél/Tel: +49 (0)30 800 98Česká republika 
+T l/Tel: +49 (0)30 800 98 esk  republika 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98Magyarország 
+Tel: +49 (0)30 800 98Magyarorsz g 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel.: +49 (0)30 800 98Danmark 
 Vanda Pharmaceuticals Netherlands B.V. 
@@ -263,26 +266,25 @@ Tel: +49 (0)30 800 98Eesti
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Norge 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tlf: +49 (0)30 800 98 
-Ελλάδα 
-Vanda Pharmaceuticals Netherlands B.V. 
-Tηλ: +49 (0)30 800 98Österreich 
+Tlf: +49 (0)30 800 98 </p>
+<p>Vanda Pharmaceuticals Netherlands B.V. 
+T : +49 (0)30 800 98 sterreich 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
-España 
+Espa a 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Polska 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel.: +49 (0)30 800 98 
 France 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tél: +49 (0)30 800 98Portugal 
+T l: +49 (0)30 800 98Portugal 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
 Hrvatska 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
-România 
+Rom nia 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
 Ireland 
@@ -291,19 +293,18 @@ Tel: +49 (0)30 800 98
 Slovenija 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
-Ísland 
+ sland 
 Vanda Pharmaceuticals Netherlands B.V. 
-Sími: +49 (0)30 800 98Slovenská republika 
+S mi: +49 (0)30 800 98Slovensk  republika 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
 Italia 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Suomi/Finland 
 Vanda Pharmaceuticals Netherlands B.V. 
-Puh/Tel: +49 (0)30 800 98 
-Κύπρος 
-Vanda Pharmaceuticals Netherlands B.V. 
-Tηλ: +49 (0)30 800 98Sverige 
+Puh/Tel: +49 (0)30 800 98 </p>
+<p>Vanda Pharmaceuticals Netherlands B.V. 
+T : +49 (0)30 800 98Sverige 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98 
 Latvija 

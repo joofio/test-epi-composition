@@ -4,7 +4,7 @@ Instance: composition-en-831dc32174e3de65bc27162f5e1c766f
 InstanceOf: CompositionUvEpi
 Title: "Composition for azopt Package Leaflet"
 Description:  "Composition for azopt Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,22 +91,30 @@ diabetes and infections and also diuretics (water tablets). AZOPT may cause the 
 - if you have too much acidity in your blood (a condition called hyperchloraemic acidosis). </p>
 <p>If you have further questions, ask your doctor for advice. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before using AZOPT: 
-- if you have kidney or liver problems. 
-- if you have dry eyes or cornea problems. 
-- if you are taking other sulphonamide medicines 
-- if you have a specific form of glaucoma in which the pressure inside the eye rises due to 
+Talk to your doctor or pharmacist before using AZOPT:</p>
+<ul>
+<li>if you have kidney or liver problems. </li>
+<li>if you have dry eyes or cornea problems. </li>
+<li>if you are taking other sulphonamide medicines </li>
+<li>if you have a specific form of glaucoma in which the pressure inside the eye rises due to 
 deposits that block fluid draining out (pseudoexfoliative glaucoma or pigmentary glaucoma) or 
 a specific form of glaucoma in which the pressure inside the eye (sometimes rapidly) rises 
-because the eye bulges forward and blocks fluid draining out (narrow-angle glaucoma) 
-- if you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores after 
-using AZOPT or other related medicines. </p>
+because the eye bulges forward and blocks fluid draining out (narrow-angle glaucoma) </li>
+<li>if you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores after 
+using AZOPT or other related medicines. </li>
+</ul>
 <p>Take special care with AZOPT: 
 Serious skin reactions including Stevens-Johnson syndrome and toxic epidermal necrolysis have been 
 reported in association with brinzolamide treatment. Stop using AZOPT and seek medical attention 
 immediately if you notice any of the symptoms related to these serious skin reactions described in 
-section 4.<br />
-Children and adolescents 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take azopt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take azopt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
 AZOPT is not to be used by infants, children or adolescents under 18 years of age unless advised by 
 your doctor. </p>
 <p>Other medicines and AZOPT 
@@ -127,14 +135,9 @@ time just after using AZOPT. </p>
 <p>AZOPT may impair the ability to perform tasks requiring mental alertness and/or physical 
 coordination. If affected, take care when driving or using machines. </p>
 <p>AZOPT contains benzalkonium chloride </p>
-<p>This medicine contains 3.35 µg benzalkonium chloride per drop (= 1 dose) which is equivalent to </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take azopt"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take azopt"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AZOPT contains a preservative (benzalkonium chloride) which may be absorbed by soft contact 
+<p>This medicine contains 3.35  g benzalkonium chloride per drop (= 1 dose) which is equivalent to 
+0.01% or 0.1 mg/ml. </p>
+<p>AZOPT contains a preservative (benzalkonium chloride) which may be absorbed by soft contact 
 lenses and may change the colour of the contact lenses. You should remove contact lenses before 
 using this medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause 
 eye irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of 
@@ -164,7 +167,7 @@ your doctor told you to. Take it for as long as your doctor told you to. </p>
 <li>Shake the bottle and twist off the cap. After the cap is removed, if the tamper evident snap collar 
 is loose, remove before using product. </li>
 <li>Hold the bottle, pointing down, between your thumb and middle finger </li>
-<li>Tilt your head back. Pull down your eyelid with a clean finger, until there is a ‘pocket’ between 
+<li>Tilt your head back. Pull down your eyelid with a clean finger, until there is a  pocket  between 
 the eyelid and your eye. The drop will go in here (picture 1) </li>
 <li>Bring the bottle tip close to the eye. Use the mirror if it helps </li>
 <li>Do not touch your eye or eyelid, surrounding areas or other surfaces with the dropper. It could 
@@ -183,7 +186,7 @@ infect the drops </li>
 drops. Eye ointments should be administered last. </p>
 <p>If you use more AZOPT than you should 
 If you get too much in your eyes, rinse it all out with warm water. Do not put in any more drops until 
-it’s time for your next regular dose. </p>
+it s time for your next regular dose. </p>
 <p>If you forget to use AZOPT 
 Use a single drop as soon as you remember, and then go back to your regular routine. Do not use a 
 double dose to make up for a forgotten dose. </p>
@@ -280,7 +283,7 @@ this medicine. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and box after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and box after  EXP . The 
 expiry date refers to the last day of the month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>You must throw away a bottle four weeks after you first opened it, to prevent infections. Write 
@@ -312,12 +315,12 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>S.A. Alcon - Couvreur N.V. 
 Rijksweg B-2870 Puurs 
 Belgium </p>
-<p>Novartis Farmacéutica, S.A. 
+<p>Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Siegfried El Masnou, S.A. 
@@ -326,22 +329,22 @@ Camil Fabra El Masnou
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16 България 
+Tel: +370 5 269 16 <br />
 Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -358,24 +361,24 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4 
 France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274 România 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299<br />
 Ireland 
@@ -383,9 +386,9 @@ Novartis Ireland Limited
 Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
 Tel: +386 1 300 75<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7Slovenská republika 
+S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: + 421 2 5542 5 
 Italia 
@@ -393,9 +396,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 </p>
 <p>Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133 Κύπρος 
+Puh/Tel: +358 (0)10 6133 <br />
 Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32 Latvija 

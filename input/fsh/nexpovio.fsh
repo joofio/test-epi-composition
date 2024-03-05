@@ -4,7 +4,7 @@ Instance: composition-en-7213aca022d38d404e1e1e0d23413856
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexpovio Package Leaflet"
 Description:  "Composition for nexpovio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -135,7 +135,7 @@ NEXPOVIO can cause fatigue, confusion and dizziness. Do not drive or use machine
 a reaction while being treated with this medicine. </p>
 <p>NEXPOVIO contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 20 mg tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexpovio"
@@ -165,7 +165,7 @@ NEXPOVIO tablets with you. </p>
 Do not take a double dose to make up for a forgotten dose. Also, do not take an extra dose if you vomit 
 after taking NEXPOVIO. Take your next dose when scheduled. </p>
 <p>If you stop taking NEXPOVIO 
-Do not stop taking or change your dose of NEXPOVIO without your doctor’s approval. However, if 
+Do not stop taking or change your dose of NEXPOVIO without your doctor s approval. However, if 
 you become pregnant while taking NEXPOVIO, you must immediately stop treatment and inform 
 your doctor. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
@@ -185,10 +185,14 @@ Your doctor will carry out blood tests before you start taking NEXPOVIO, and as 
 and after treatment. These tests will be more frequent during the first two months of treatment to 
 monitor your blood platelet counts. Your doctor may stop treatment or adjust the dose based on 
 your platelet counts. Tell your doctor immediately if you have signs of reduced number of blood 
-platelets such as: 
-- easy or excessive bruising </p>
+platelets such as:</p>
 <ul>
-<li>skin changes that appear as a rash of pinpoint-sized reddish-purple spots </li>
+<li>
+<p>easy or excessive bruising </p>
+</li>
+<li>
+<p>skin changes that appear as a rash of pinpoint-sized reddish-purple spots </p>
+</li>
 <li>prolonged bleeding from cuts </li>
 <li>bleeding from your gums or nose </li>
 <li>blood in your urine or stools </li>
@@ -258,7 +262,7 @@ neuropathy)
 <p>Common (may affect more than 1 in 100 people) 
 * Bacterial infection in the blood 
 * The body normally releases chemicals into the blood stream to fight an infection, when the 
-body’s response to these chemicals is out of balance, triggering changes that can damage 
+body s response to these chemicals is out of balance, triggering changes that can damage 
 multiple organ systems (sepsis) 
 * Reduced number of neutrophils with fever 
 * Decreased phosphate level 
@@ -313,7 +317,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the blister pack, the inner carton, and 
-the outer carton after “EXP:” The expiry date refers to the last day of that month. </p>
+the outer carton after  EXP:  The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice any damage or signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -331,9 +335,9 @@ throw away medicines you no longer use. These measures will help protect the env
 sodium lauryl sulphate, colloidal silicon dioxide, magnesium stearate. For the tablet coating 
 the ingredients are talc, poly(vinyl alcohol) partially hydrolysed, glyceryl monostearate, 
 polysorbate 80, titanium dioxide, macrogol, indigo carmine aluminium lake and brilliant blue 
-FCF aluminium lake. See section 2 “NEXPOVIO contains sodium”. </p>
+FCF aluminium lake. See section 2  NEXPOVIO contains sodium . </p>
 <p>What NEXPOVIO looks like and contents of the pack 
-NEXPOVIO film-coated tablets are blue, round, with “K20” debossed on one side. </p>
+NEXPOVIO film-coated tablets are blue, round, with  K20  debossed on one side. </p>
 <p>Each outer carton contains four child-resistant inner packs. Each inner pack contains one plastic blister 
 with 2, 3, 4, 5, or 8 tablets, providing a total of 8, 12, 16, 20, or 32 tablets. </p>
 <p>Marketing Authorisation Holder 
@@ -351,30 +355,30 @@ Glienicker Weg 12489 Berlin<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien; България; 
-Česká republika; Danmark; Eesti; 
-Ελλάδα; Hrvatska; Ireland; Ísland; 
-Κύπρος; Latvija; Lietuva; 
+<p>Belgi /Belgique/Belgien;  ; 
+ esk  republika; Danmark; Eesti; 
+ ; Hrvatska; Ireland;  sland; 
+ ; Latvija; Lietuva; 
 Luxembourg/Luxemburg; 
-Magyarország; Malta; Nederland; 
-Norge; Polska; Portugal; România; 
-Slovenija; Slovenská republika; 
+Magyarorsz g; Malta; Nederland; 
+Norge; Polska; Portugal; Rom nia; 
+Slovenija; Slovensk  republika; 
 Suomi/Finland; Sverige 
 Stemline Therapeutics B.V. 
 Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
 <p>Deutschland 
 Stemline Therapeutics B.V. 
 Tel: +49 (0)800 0008EUmedinfo@menarinistemline.com  </p>
-<p>España 
+<p>Espa a 
 Laboratorios Menarini, S.A. 
 Tel: +34919490EUmedinfo@menarinistemline.com 
 France 
 Stemline Therapeutics B.V. 
-Tél: +33 (0)800 991 EUmedinfo@menarinistemline.com </p>
+T l: +33 (0)800 991 EUmedinfo@menarinistemline.com </p>
 <p>Italia 
 Menarini Stemline Italia S.r.l. 
 Tel: +39 800776EUmedinfo@menarinistemline.com 
-Österreich 
+ sterreich 
 Stemline Therapeutics B.V. 
 Tel: +43 (0)800 297 EUmedinfo@menarinistemline.com </p>
 <p>United Kingdom (Northern Ireland) 

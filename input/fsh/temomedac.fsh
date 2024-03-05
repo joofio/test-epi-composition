@@ -4,7 +4,7 @@ Instance: composition-en-065d110b327b470e1ddc262836549605
 InstanceOf: CompositionUvEpi
 Title: "Composition for temomedac Package Leaflet"
 Description:  "Composition for temomedac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,13 +69,15 @@ Usage: #example
   * code.text =  "1. What temomedac is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Temomedac contains a medicine called temozolomide. This medicine is an antitumour agent. </p>
-<p>Temomedac is used for the treatment of specific forms of brain tumours: 
-- in adults with newly-diagnosed glioblastoma multiforme. Temomedac is first used together with 
+<p>Temomedac is used for the treatment of specific forms of brain tumours:</p>
+<ul>
+<li>in adults with newly-diagnosed glioblastoma multiforme. Temomedac is first used together with 
 radiotherapy (concomitant phase of treatment) and after that alone (monotherapy phase of 
-treatment). 
-- in children 3 years and older and adult patients with malignant glioma, such as glioblastoma 
+treatment). </li>
+<li>in children 3 years and older and adult patients with malignant glioma, such as glioblastoma 
 multiforme or anaplastic astrocytoma. Temomedac is used in these tumours if they return or get 
-worse after standard treatment. </p>         </div>"""   
+worse after standard treatment. </li>
+</ul>         </div>"""   
           
 
              
@@ -148,7 +150,7 @@ Temomedac contains lactose (a kind of sugar). If you have been told by your doct
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Temomedac contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per hard capsule, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>Additional information for Temomedac 20 mg hard capsules 
 The excipient sunset yellow FCF (E110) included in the capsules shell may cause allergic reactions. </p>         </div>"""   
                     
@@ -165,10 +167,12 @@ and if you have a recurrent tumour and have had chemotherapy treatment in the pa
 You may be given other medicines (anti-emetics) to take before and/or after taking Temomedac to 
 prevent or control nausea and vomiting. </p>
 <p>Patients with newly-diagnosed glioblastoma multiforme 
-If you are a newly-diagnosed patient, treatment will occur in two phases: 
-- treatment together with radiotherapy (concomitant phase) first 
-- followed by treatment with only Temomedac (monotherapy phase). </p>
-<p>During the concomitant phase, your doctor will start Temomedac at a dose of 75 mg/m² (usual dose). 
+If you are a newly-diagnosed patient, treatment will occur in two phases:</p>
+<ul>
+<li>treatment together with radiotherapy (concomitant phase) first </li>
+<li>followed by treatment with only Temomedac (monotherapy phase). </li>
+</ul>
+<p>During the concomitant phase, your doctor will start Temomedac at a dose of 75 mg/m  (usual dose). 
 You will take this dose every day for 42 days (up to 49 days) in combination with radiotherapy. The 
 Temomedac dose may be delayed or stopped, depending on your blood counts and how you tolerate 
 your medicine during the concomitant phase. 
@@ -177,8 +181,8 @@ a chance to recover.
 Then, you will start the monotherapy phase. </p>
 <p>During the monotherapy phase, the dose and way you take Temomedac will be different. Your doctor 
 will work out your exact dose. There may be up to 6 treatment periods (cycles). Each one lasts 
-28 days. You will take your new dose of Temomedac alone once daily for the first 5 days (“dosing 
-days”) of each cycle. The first dose will be 150 mg/m². Then you will have 23 days without 
+28 days. You will take your new dose of Temomedac alone once daily for the first 5 days ( dosing 
+days ) of each cycle. The first dose will be 150 mg/m . Then you will have 23 days without 
 Temomedac. This adds up to a 28 day treatment cycle. 
 After Day 28, the next cycle will begin. You will again take Temomedac once daily for 5 days 
 followed by 23 days without Temomedac. The Temomedac dose may be adjusted, delayed or stopped 
@@ -189,8 +193,8 @@ multiforme or anaplastic astrocytoma) taking Temomedac only </p>
 You will take Temomedac alone once daily for the first 5 days. This daily dose depends on whether or 
 not you have received chemotherapy before. </p>
 <p>If you have not been previously treated with chemotherapy, your first dose of Temomedac will be 
-200 mg/m² once daily for the first 5 days. If you have been previously treated with chemotherapy, 
-your first dose of Temomedac will be 150 mg/m² once daily for the first 5 days. 
+200 mg/m  once daily for the first 5 days. If you have been previously treated with chemotherapy, 
+your first dose of Temomedac will be 150 mg/m  once daily for the first 5 days. 
 Then, you will have 23 days without Temomedac. This adds up to a 28 day treatment cycle. </p>
 <p>After Day 28, the next cycle will begin. You will again receive Temomedac once daily for 5 days, 
 followed by 23 days without Temomedac. </p>
@@ -209,33 +213,35 @@ different for each strength (see table below). </p>
 Colour/marking 
 Temomedac 5 mg 
 two stripes in green ink on the cap 
-and “T 5 mg” in green ink on the 
+and  T 5 mg  in green ink on the 
 body 
 Temomedac 20 mg 
 two stripes in orange ink on the cap 
-and “T 20 mg” in orange ink on the 
+and  T 20 mg  in orange ink on the 
 body 
 Temomedac 100 mg 
 two stripes in pink ink on the cap 
-and “T 100 mg” in pink ink on the 
+and  T 100 mg  in pink ink on the 
 body 
 Temomedac 140 mg 
 two stripes in blue ink on the cap 
-and “T 140 mg” in blue ink on the 
+and  T 140 mg  in blue ink on the 
 body 
 Temomedac 180 mg 
 two stripes in red ink on the cap and 
-“T 180 mg” in red ink on the body 
+ T 180 mg  in red ink on the body 
 Temomedac 250 mg 
 two stripes in black ink on the cap 
-and “T 250 mg” in black ink on the 
+and  T 250 mg  in black ink on the 
 body </p>
-<p>You should make sure you fully understand and remember the following: 
-- how many capsules you need to take every dosing day. Ask your doctor or pharmacist to write it 
-down (including the colour). 
-- which days are your dosing days. 
+<p>You should make sure you fully understand and remember the following:</p>
+<ul>
+<li>how many capsules you need to take every dosing day. Ask your doctor or pharmacist to write it 
+down (including the colour). </li>
+<li>which days are your dosing days. 
 Review the dose with your doctor each time you start a new cycle, since it may be different from the 
-last cycle. </p>
+last cycle. </li>
+</ul>
 <p>Always take Temomedac exactly as your doctor has told you. It is very important to check with your 
 doctor or pharmacist if you are not sure. Errors in how you take this medicine may have serious health 
 consequences. </p>
@@ -255,13 +261,15 @@ do so. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact your doctor immediately if you have any of the following: 
-- a severe allergic (hypersensitive) reaction (hives, wheezing or other breathing difficulty), 
-- uncontrolled bleeding, 
-- seizures (convulsions), 
-- fever, 
-- chills, 
-- severe headache that does not go away. </p>
+<p>Contact your doctor immediately if you have any of the following:</p>
+<ul>
+<li>a severe allergic (hypersensitive) reaction (hives, wheezing or other breathing difficulty), </li>
+<li>uncontrolled bleeding, </li>
+<li>seizures (convulsions), </li>
+<li>fever, </li>
+<li>chills, </li>
+<li>severe headache that does not go away. </li>
+</ul>
 <p>Temomedac treatment can cause a reduction in certain kinds of blood cells. This may cause you to 
 have increased bruising or bleeding, anaemia (a shortage of red blood cells), fever, and reduced 
 resistance to infections. The reduction in blood cell counts is usually short-lived. In some cases, it may 
@@ -269,38 +277,46 @@ be prolonged and may lead to a very severe form of anaemia (aplastic anaemia). Y
 monitor your blood regularly for any changes, and will decide if any specific treatment is needed. In 
 some cases, your Temomedac dose will be reduced or treatment stopped. </p>
 <p>Other side effects that have been reported are listed below: </p>
-<p>Very Common side effects (may affect more than 1 in 10 people) are: 
-- loss of appetite, difficulty speaking, headache 
-- vomiting, nausea, diarrhoea, constipation 
-- rash, hair loss 
-- tiredness </p>
-<p>Common side effects (may affect up to 1 in 10 people) are: 
-- infections, oral infections,<br />
-- reduced number of blood cells (neutropenia, lymphopenia, thrombocytopenia) 
-- allergic reaction 
-- increased blood sugar 
-- memory impairment, depression, anxiety, confusion, inability to fall asleep or stay asleep 
-- impaired coordination and balance 
-- difficulty concentrating, change in mental status or alertness, forgetfulness 
-- dizziness, impaired sensations, tingling sensations, shaking, abnormal taste 
-- partial loss of vision, abnormal vision, double vision, painful eyes 
-- deafness, ringing in the ears, earache 
-- blood clot in lung or legs, high blood pressure 
-- pneumonia, shortness of breath, bronchitis, cough, inflammation of your sinuses 
-- stomach or abdominal pain, upset stomach/heartburn, difficulty swallowing 
-- dry skin, itching 
-- muscle damage, muscle weakness, muscle aches and pain 
-- painful joint, back pain 
-- frequent urination, difficulty withholding your urine 
-- fever, flu-like symptoms, pain, feeling unwell, a cold or the flu 
-- fluid retention, swollen legs 
-- liver enzyme elevations 
-- loss of weight, weight gain 
-- radiation injury </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people) are: 
-- brain infections (meningoencephalitis herpetic) including fatal cases </p>
+<p>Very Common side effects (may affect more than 1 in 10 people) are:</p>
 <ul>
-<li>new or reactivated cytomegalovirus infections </li>
+<li>loss of appetite, difficulty speaking, headache </li>
+<li>vomiting, nausea, diarrhoea, constipation </li>
+<li>rash, hair loss </li>
+<li>tiredness </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people) are:</p>
+<ul>
+<li>infections, oral infections,  </li>
+<li>reduced number of blood cells (neutropenia, lymphopenia, thrombocytopenia) </li>
+<li>allergic reaction </li>
+<li>increased blood sugar </li>
+<li>memory impairment, depression, anxiety, confusion, inability to fall asleep or stay asleep </li>
+<li>impaired coordination and balance </li>
+<li>difficulty concentrating, change in mental status or alertness, forgetfulness </li>
+<li>dizziness, impaired sensations, tingling sensations, shaking, abnormal taste </li>
+<li>partial loss of vision, abnormal vision, double vision, painful eyes </li>
+<li>deafness, ringing in the ears, earache </li>
+<li>blood clot in lung or legs, high blood pressure </li>
+<li>pneumonia, shortness of breath, bronchitis, cough, inflammation of your sinuses </li>
+<li>stomach or abdominal pain, upset stomach/heartburn, difficulty swallowing </li>
+<li>dry skin, itching </li>
+<li>muscle damage, muscle weakness, muscle aches and pain </li>
+<li>painful joint, back pain </li>
+<li>frequent urination, difficulty withholding your urine </li>
+<li>fever, flu-like symptoms, pain, feeling unwell, a cold or the flu </li>
+<li>fluid retention, swollen legs </li>
+<li>liver enzyme elevations </li>
+<li>loss of weight, weight gain </li>
+<li>radiation injury </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people) are:</p>
+<ul>
+<li>
+<p>brain infections (meningoencephalitis herpetic) including fatal cases </p>
+</li>
+<li>
+<p>new or reactivated cytomegalovirus infections </p>
+</li>
 <li>wound infections </li>
 <li>reactivated hepatitis B virus infections </li>
 <li>secondary cancers including leukaemia </li>
@@ -338,7 +354,7 @@ safety of this medicine. </p>         </div>"""
 ingestion can be lethal for children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton. The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 30 °C. 
+<p>Do not store above 30  C. 
 Store in the original package in order to protect from moisture.<br />
 Keep the bottle tightly closed. </p>
 <p>Tell your pharmacist if you notice any change in the appearance of the capsules. </p>
@@ -365,7 +381,7 @@ Temomedac 250 mg hard capsules: Each capsule contains 250 mg temozolomide. </p>
 <li>The other ingredients are: 
 capsule content: 
 anhydrous lactose, colloidal anhydrous silica, sodium starch glycolate type A, tartaric acid, 
-stearic acid (see section 2 “Temomedac contains lactose”). 
+stearic acid (see section 2  Temomedac contains lactose ). 
 capsule shell (including printing ink): 
 Temomedac 5 mg hard capsules: gelatin, titanium dioxide (E 171), shellac, propylene glycol, 
 indigo carmine (E 132) aluminium lake, yellow iron oxide (E 172)<br />
@@ -382,22 +398,22 @@ black iron oxide (E 172). </li>
 </ul>
 <p>What Temomedac looks like and contents of the pack </p>
 <p>Temomedac 5 mg hard capsules have a white opaque body and cap with two stripes in green ink on 
-the cap and with “T 5 mg” in green ink on the body. </p>
+the cap and with  T 5 mg  in green ink on the body. </p>
 <p>Temomedac 20 mg hard capsules have a white opaque body and cap with two stripes in orange ink on 
-the cap and with “T 20 mg” in orange ink on the body. </p>
+the cap and with  T 20 mg  in orange ink on the body. </p>
 <p>Temomedac 100 mg hard capsules have a white opaque body and cap with two stripes in pink ink on 
-the cap and with “T 100 mg” in pink ink on the body. </p>
+the cap and with  T 100 mg  in pink ink on the body. </p>
 <p>Temomedac 140 mg hard capsules have a white opaque body and cap with two stripes in blue ink on 
-the cap and with “T 140 mg” in blue ink on the body. </p>
+the cap and with  T 140 mg  in blue ink on the body. </p>
 <p>Temomedac 180 mg hard capsules have a white opaque body and cap with two stripes in red ink on 
-the cap and with “T 180 mg” in red ink on the body. </p>
+the cap and with  T 180 mg  in red ink on the body. </p>
 <p>Temomedac 250 mg hard capsules have a white opaque body and cap with two stripes in black ink on 
-the cap and with “T 250 mg” in black ink on the body. </p>
+the cap and with  T 250 mg  in black ink on the body. </p>
 <p>The hard capsules for oral use are dispensed in amber glass bottles containing 5 or 20 capsules. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>medac 
-Gesellschaft für klinische Spezialpräparate mbH 
+Gesellschaft f r klinische Spezialpr parate mbH 
 Theaterstr. 6 
 22880 Wedel 
 Germany </p>

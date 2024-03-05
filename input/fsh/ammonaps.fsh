@@ -4,7 +4,7 @@ Instance: composition-en-36d93771f3347f288be457a7d33515c7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ammonaps Package Leaflet"
 Description:  "Composition for ammonaps Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,12 +109,14 @@ since sodium phenylbutyrate may influence certain laboratory test results. </p>
 <p>Other medicines and AMMONAPS 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>It is especially important to tell your doctor if you are taking medicines containing: 
-- valproic acid (an antiepileptic drug),<br />
-- haloperidol (used in certain psychotic disorders),<br />
-- corticosteroids (cortisone-like medicines that are used to provide relief for inflamed areas of the 
-body),<br />
-- probenecid (for treatment of hyperuricemia associated with gout). </p>
+<p>It is especially important to tell your doctor if you are taking medicines containing:</p>
+<ul>
+<li>valproic acid (an antiepileptic drug),  </li>
+<li>haloperidol (used in certain psychotic disorders),  </li>
+<li>corticosteroids (cortisone-like medicines that are used to provide relief for inflamed areas of the 
+body),  </li>
+<li>probenecid (for treatment of hyperuricemia associated with gout). </li>
+</ul>
 <p>These medicines may change the effect of AMMONAPS and you will need more frequent blood 
 controls. If you are uncertain if your medicines contain these substances, you should check with your 
 doctor or pharmacist.  </p>
@@ -151,14 +153,16 @@ recommended that AMMONAPS granules are used instead. </p>
 <p>You will need to have treatment and to follow a diet throughout your life, unless you have a successful 
 liver transplantation. </p>
 <p>If you take more AMMONAPS than you should 
-Patients who have taken very high doses of AMMONAPS experienced: 
-- sleepiness, tiredness, light-headedness and less frequently confusion,<br />
-- headache,<br />
-- changes in taste (taste disturbances),<br />
-- decrease in hearing,<br />
-- disorientation,<br />
-- impaired memory, 
-- worsening of existing neurological conditions. </p>
+Patients who have taken very high doses of AMMONAPS experienced:</p>
+<ul>
+<li>sleepiness, tiredness, light-headedness and less frequently confusion,  </li>
+<li>headache,  </li>
+<li>changes in taste (taste disturbances),  </li>
+<li>decrease in hearing,  </li>
+<li>disorientation,  </li>
+<li>impaired memory, </li>
+<li>worsening of existing neurological conditions. </li>
+</ul>
 <p>If you experience any of these symptoms, you should immediately contact your doctor or the nearest 
 hospital emergency department for supportive treatment. </p>
 <p>If you forget to take AMMONAPS 
@@ -205,8 +209,8 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the bottle label after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
         
@@ -224,7 +228,7 @@ Each tablet of AMMONAPS contains 500 mg of sodium phenylbutyrate. </li>
 anhydrous silica. </li>
 </ul>
 <p>What AMMONAPS looks like and contents of the pack 
-AMMONAPS tablets are off-white, oval and embossed with “UCY 500”. </p>
+AMMONAPS tablets are off-white, oval and embossed with  UCY 500 . </p>
 <p>The tablets are packaged in plastic bottles with child-resistant caps. Each bottle contains 250 or 
 500 tablets.  </p>
 <p>Marketing Authorisation Holder<br />
@@ -232,7 +236,7 @@ Immedica Pharma AB
 SE-113 63 Stockholm 
 Sweden </p>
 <p>Manufacturer 
-PATHEON France – BOURGOIN JALLIEU 
+PATHEON France   BOURGOIN JALLIEU 
 40 boulevard de Champaret 
 BOURGOIN JALLIEU 
 38France </p>

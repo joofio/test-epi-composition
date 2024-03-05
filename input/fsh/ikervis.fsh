@@ -4,7 +4,7 @@ Instance: composition-en-1f85f95883d4c92167ca0868ad5c50fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for ikervis Package Leaflet"
 Description:  "Composition for ikervis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -136,39 +136,25 @@ understand. </p>
 <p>1 
 2 
 3 </p>
-<p> 
-Wash your hands. 
- 
-If you wear contact lenses, take them out at bedtime before using the drops; you can reinsert 
-them when you wake up. 
- 
-Open the aluminium pouch, which contains 5 single-dose containers. 
- 
-Take one single-dose container from the aluminium pouch. 
- 
-Gently shake the single dose container prior to use. 
- 
-Twist off the cap (picture 1). 
- 
-Pull down your lower eyelid (picture 2). 
- 
-Tilt your head back and look up at the ceiling. 
- 
-Gently squeeze one drop of the medicine onto your eye. Make sure you do not touch your eye 
-with the tip of the single-dose container. 
- 
-Blink a few times so that the medicine covers your eye. 
- 
-After using IKERVIS, press a finger into the corner of your eye by the nose and close gently 
+<p>Wash your hands. </p>
+<p>If you wear contact lenses, take them out at bedtime before using the drops; you can reinsert 
+them when you wake up. </p>
+<p>Open the aluminium pouch, which contains 5 single-dose containers. </p>
+<p>Take one single-dose container from the aluminium pouch. </p>
+<p>Gently shake the single dose container prior to use. </p>
+<p>Twist off the cap (picture 1). </p>
+<p>Pull down your lower eyelid (picture 2). </p>
+<p>Tilt your head back and look up at the ceiling. </p>
+<p>Gently squeeze one drop of the medicine onto your eye. Make sure you do not touch your eye 
+with the tip of the single-dose container. </p>
+<p>Blink a few times so that the medicine covers your eye. </p>
+<p>After using IKERVIS, press a finger into the corner of your eye by the nose and close gently 
 the eyelids for 2 minutes (picture 3). This helps to stop IKERVIS getting into the rest of the 
-body. 
- 
-If you use drops in both eyes, repeat the steps for your other eye. 
- 
-Discard the single dose container as soon as you have used it, even if there is still some 
-medicine left in it. 
- 
-The remaining single-dose containers should be kept in the aluminium pouch. </p>
+body. </p>
+<p>If you use drops in both eyes, repeat the steps for your other eye. </p>
+<p>Discard the single dose container as soon as you have used it, even if there is still some 
+medicine left in it. </p>
+<p>The remaining single-dose containers should be kept in the aluminium pouch. </p>
 <p>If a drop misses your eye, try again. </p>
 <p>If you use more IKERVIS than you should, rinse your eye with water. Do not put in any more drops 
 until it is time for your next regular dose. </p>
@@ -228,9 +214,9 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton, the aluminium pouch 
-and on the single-dose containers after “EXP”. The expiry date refers to the last day of that month. </p>
+and on the single-dose containers after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not freeze. 
-Store below 25°C. 
+Store below 25 C. 
 After opening of the aluminium pouches, the single-dose containers should be kept in the pouches in 
 order to protect from light and avoid evaporation. Discard any opened individual single-dose container 
 with any remaining emulsion immediately after use. </p>
@@ -260,8 +246,8 @@ Niittyhaankatu 33720 Tampere
 Finland </p>
 <p>Manufacturer 
 EXCELVISION 
-Rue de la Lombardière 
-ZI la Lombardière 
+Rue de la Lombardi re 
+ZI la Lombardi re 
 F-07100 Annonay 
 France </p>
 <p>SANTEN Oy 
@@ -270,20 +256,19 @@ Kelloportinkatu 1
 Finland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Santen Oy 
-Tél/Tel : +32 (0) 24019Lietuva 
+T l/Tel : +32 (0) 24019Lietuva 
 Santen Oy 
-Tel: +370 37 366 
-България 
-Santen Oy 
-Teл.: +359 (0) 888 755<br />
+Tel: +370 37 366 </p>
+<p>Santen Oy 
+Te .: +359 (0) 888 755<br />
 Luxembourg/Luxemburg 
 Santen Oy 
-Tél/Tel: +352 (0) 27862 
-Česká republika 
+T l/Tel: +352 (0) 27862 
+ esk  republika 
 Santen Oy 
-Tel: +358 (0) 3 284 8Magyarország 
+Tel: +358 (0) 3 284 8Magyarorsz g 
 Santen Oy 
 Tel.: +358 (0) 3 284 8 
 Danmark 
@@ -302,14 +287,13 @@ Santen Oy<br />
 Tel: +372 5067 
 Norge 
 Santen Oy 
-Tlf: +47 21939 
-Ελλάδα 
-Santen Oy<br />
-Τηλ: + 358 (0) 3 284 8 
-Österreich 
+Tlf: +47 21939 </p>
+<p>Santen Oy<br />
+ : + 358 (0) 3 284 8 
+ sterreich 
 Santen Oy 
 Tel: +43 (0) 720116 
-España 
+Espa a 
 Santen Pharmaceutical Spain S.L. 
 Tel: + 34 914 142<br />
 Polska 
@@ -317,14 +301,14 @@ Santen Oy
 Tel.: +48(0) 221042 
 France 
 Santen S.A.S. 
-Tél: +33 (0) 1 70 75 26<br />
+T l: +33 (0) 1 70 75 26<br />
 Portugal 
 Santen Oy 
 Tel: + 351 308 805<br />
 Hrvatska 
 Santen Oy 
 Tel: + 358 (0) 3 284 8 
-România 
+Rom nia 
 Santen Oy 
 Tel: +358 (0) 3 284 8 
 Ireland 
@@ -333,10 +317,10 @@ Tel: + 353 (0) 16950
 Slovenija 
 Santen Oy 
 Tel: + 358 (0) 3 284 8 
-Ísland 
+ sland 
 Santen Oy 
-Sími: + 358 (0) 3 284 8 
-Slovenská republika 
+S mi: + 358 (0) 3 284 8 
+Slovensk  republika 
 Santen Oy 
 Tel: +358 (0) 3 284 8 
 Italia 
@@ -344,10 +328,9 @@ Santen Italy S.r.l.
 Tel: +39 0236009 
 Suomi/Finland 
 Santen Oy 
-Puh/Tel: +358 (0) 974790 
-Κύπρος 
-Santen Oy<br />
-Τηλ: + 358 (0) 3 284 8 
+Puh/Tel: +358 (0) 974790 </p>
+<p>Santen Oy<br />
+ : + 358 (0) 3 284 8 
 Sverige 
 Santen Oy 
 Tel: +46 (0) 850598 

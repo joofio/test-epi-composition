@@ -4,7 +4,7 @@ Instance: composition-en-188afbad7741da761c6e6e81c9577944
 InstanceOf: CompositionUvEpi
 Title: "Composition for somakit Package Leaflet"
 Description:  "Composition for somakit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,24 +91,26 @@ radiopharmaceutical outweighs the risk due to radiation. </p>         </div>"""
 - if you are allergic to edotreotide or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your nuclear medicine doctor before you are given SomaKit TOC: 
-- if you experienced any signs of allergic reaction (listed in section 4) after previous 
-administration of SomaKit TOC; 
-- if you have kidney or liver problems (renal or hepatic disease); 
-- if you are under 18 years of age; 
-- if you have signs of dehydration before and after the examination; 
-- if you have other medical conditions, such as high level of cortisol in the body (Cushing 
+Talk to your nuclear medicine doctor before you are given SomaKit TOC:</p>
+<ul>
+<li>if you experienced any signs of allergic reaction (listed in section 4) after previous 
+administration of SomaKit TOC; </li>
+<li>if you have kidney or liver problems (renal or hepatic disease); </li>
+<li>if you are under 18 years of age; </li>
+<li>if you have signs of dehydration before and after the examination; </li>
+<li>if you have other medical conditions, such as high level of cortisol in the body (Cushing 
 syndrome), inflammation, thyroid disease, other type of tumour (of pituitary gland, lung, brain, 
 breast, immune system, thyroid, adrenal gland or others) or disease of the spleen (including 
 previous trauma or surgery involving the spleen). Such conditions may be visible and affect the 
 interpretation of the images. Your doctor may therefore perform additional scans and tests to 
-confirm the findings on gallium (68Ga) edotreotide imaging. 
-- if you have been recently vaccinated. Enlarged lymph nodes due to vaccination may become 
-visible during gallium (68Ga) edotreotide imaging; 
-- if you have been taking other medicines, such as somatostatin analogues and glucocorticoids, 
-which may interact with SomaKit TOC; 
-- if you are pregnant or believe you may be pregnant; 
-- if you are breast-feeding. </p>
+confirm the findings on gallium (68Ga) edotreotide imaging. </li>
+<li>if you have been recently vaccinated. Enlarged lymph nodes due to vaccination may become 
+visible during gallium (68Ga) edotreotide imaging; </li>
+<li>if you have been taking other medicines, such as somatostatin analogues and glucocorticoids, 
+which may interact with SomaKit TOC; </li>
+<li>if you are pregnant or believe you may be pregnant; </li>
+<li>if you are breast-feeding. </li>
+</ul>
 <p>Your nuclear medicine doctor will inform you if you need to take any other special precaution before 
 or after using SomaKit TOC. </p>
 <p>Before administration of SomaKit TOC 
@@ -140,8 +142,8 @@ Please ask your nuclear medicine doctor when you can resume breast-feeding. </p>
 <p>Driving and using machines 
 It is considered unlikely that SomaKit TOC will affect your ability to drive or to use machines. </p>
 <p>SomaKit TOC contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium 
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take somakit"
@@ -163,10 +165,12 @@ After injection, you will be offered something to drink and asked to urinate imm
 test. </p>
 <p>Duration of the procedure 
 Your nuclear medicine doctor will inform you about the usual duration of the procedure. </p>
-<p>After administration of SomaKit TOC, you should: 
-- avoid any close contact with young children and pregnant women for 12 hours after the 
-injection 
-- urinate frequently in order to eliminate the medicine from your body. </p>
+<p>After administration of SomaKit TOC, you should:</p>
+<ul>
+<li>avoid any close contact with young children and pregnant women for 12 hours after the 
+injection </li>
+<li>urinate frequently in order to eliminate the medicine from your body. </li>
+</ul>
 <p>The nuclear medicine doctor will inform you if you need to take any special precautions after 
 receiving this medicine. Contact your nuclear medicine doctor if you have any questions. </p>
 <p>If you have been given more SomaKit TOC than you should 
@@ -188,8 +192,10 @@ doctor who supervises the procedure. </p>         </div>"""
 exists with SomaKit TOC. Symptoms may include: warm flush, redness of the skin, swelling, itching, 
 nausea and difficulty breathing. In the event of an allergic reaction you will receive the appropriate 
 treatment from your medical staff. </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- Stinging near the injection site </p>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Stinging near the injection site </li>
+</ul>
 <p>The spleen is an organ located in the abdomen (belly). Some people are born with an extra spleen (an 
 accessory spleen). Extra spleen tissue may also be found in the abdomen following surgery or trauma 
 to the spleen (this is known as splenosis). Gallium (68Ga) edotreotide may make an accessory spleen or 
@@ -216,9 +222,9 @@ regulation on radioactive materials. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>SomaKit TOC must not be used after the expiry date which is stated on the carton. The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). 
+<p>Store in a refrigerator (2 C to 8 C). 
 Store in the original package in order to protect from light. </p>
-<p>After radiolabelling, SomaKit TOC should be used within 4 hours. Do not store above 25°C after 
+<p>After radiolabelling, SomaKit TOC should be used within 4 hours. Do not store above 25 C after 
 radiolabelling. </p>
 <p>SomaKit TOC must not be used if there are visible signs of deterioration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Wait for the level of 
@@ -238,9 +244,11 @@ help protect the environment. </p>         </div>"""
 hydroxide, water for injections. 
 After radiolabelling, the solution obtained also contains hydrochloric acid. </p>
 <p>What SomaKit TOC looks like and contents of the pack 
-SomaKit TOC is a kit for radiopharmaceutical preparation containing: 
-- A glass vial with black flip-off cap containing a white powder. 
-- A cyclic olefin polymer vial with yellow flip-off cap containing a clear and colourless solution. </p>
+SomaKit TOC is a kit for radiopharmaceutical preparation containing:</p>
+<ul>
+<li>A glass vial with black flip-off cap containing a white powder. </li>
+<li>A cyclic olefin polymer vial with yellow flip-off cap containing a clear and colourless solution. </li>
+</ul>
 <p>The radioactive substance is not part of the kit and should be added during the preparation steps before 
 injection. </p>
 <p>Marketing authorisation holder 
@@ -255,24 +263,23 @@ Via Crescentino snc,
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SAM Nordic 
-Švedija 
-Tel: +46 8 720 58<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+ vedija 
+Tel: +46 8 720 58  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 M.G.P. spol. s r.o. 
 Tel: +420 602 303<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65<br />
 Danmark 
 SAM Nordic 
@@ -292,14 +299,12 @@ Tel: +46 8 720 58<br />
 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58<br />
-Ελλάδα 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Τηλ: +30 22920 63 
-Österreich 
+Tlf: +46 8 720 58  </p>
+<p>: +30 22920 63 
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Advanced Accelerator Applications Ibérica, 
+Tel: +43 1 86 6Espa a 
+Advanced Accelerator Applications Ib rica, 
 S.L.U. 
 Tel: +34 97 6600<br />
 Polska 
@@ -308,14 +313,14 @@ o.o.
 Tel.: +48 22 275 56<br />
 France 
 Advanced Accelerator Applications 
-Tél: +33 1 55 47 63<br />
+T l: +33 1 55 47 63<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
@@ -323,11 +328,11 @@ Tel: +353 1 260 12 Slovenija
 Advanced Accelerator Applications 
 Francija 
 Tel: +33 1 55 47 63<br />
-Ísland 
+ sland 
 SAM Nordic 
-Svíþjóð 
-Sími: +46 8 720 58<br />
-Slovenská republika 
+Sv j<br />
+S mi: +46 8 720 58<br />
+Slovensk  republika 
 MGP, spol. s r.o. 
 Tel: +421 254 654<br />
 Italia 
@@ -336,11 +341,8 @@ Tel: +39 0125 561
 Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58<br />
-Κύπρος 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Ελλάδα 
-Τηλ: +30 22920 63 
+Puh/Tel: +46 8 720 58  </p>
+<p>: +30 22920 63 
 Sverige 
 SAM Nordic 
 Tel: +46 8 720 58<br />

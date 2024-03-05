@@ -4,7 +4,7 @@ Instance: composition-en-f4a6bd0f84938c78fdaccb98fced40ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for cymbalta Package Leaflet"
 Description:  "Composition for cymbalta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Cymbalta 
 4. Possible side effects 
 5. How to store Cymbalta 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -90,39 +89,35 @@ doctor if you do not feel better after 2 months. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take cymbalta"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT take Cymbalta if you: 
-− 
-are allergic to duloxetine or any of the other ingredients of  this medicine (listed in section 6) 
-− 
-have liver disease 
-− 
-have severe kidney disease 
-− 
-are taking or have taken within the last 14 days, another medicine known as a monoamine 
-oxidase inhibitor (MAOI) (see ‘Other medicines and Cymbalta’) 
-− 
-are taking fluvoxamine which is usually used to treat depression, ciprofloxacin or enoxacin 
-which are used to treat some infections 
-− 
-are taking other medicines containing duloxetine (see ‘Other medicines and Cymbalta’)  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT take Cymbalta if you: </p>
+<p>are allergic to duloxetine or any of the other ingredients of  this medicine (listed in section 6) </p>
+<p>have liver disease </p>
+<p>have severe kidney disease </p>
+<p>are taking or have taken within the last 14 days, another medicine known as a monoamine 
+oxidase inhibitor (MAOI) (see  Other medicines and Cymbalta ) </p>
+<p>are taking fluvoxamine which is usually used to treat depression, ciprofloxacin or enoxacin 
+which are used to treat some infections </p>
+<p>are taking other medicines containing duloxetine (see  Other medicines and Cymbalta )  </p>
 <p>Talk to your doctor if you have high blood pressure or heart disease. Your doctor will tell you if you 
 should be taking Cymbalta. </p>
 <p>Warnings and precautions 
 The following are reasons why Cymbalta may not be suitable for you. Talk to your doctor before you 
-take Cymbalta if you: 
-- are taking other medicines to treat depression (see ‘Other medicines and Cymbalta’) 
-- are taking St. John’s Wort, a herbal treatment (Hypericum perforatum) 
-- have kidney disease 
-- have had seizures (fits) 
-- have had mania 
-- suffer from bipolar disorder 
-- have eye problems, such as certain kinds of glaucoma (increased pressure in the eye) 
-- have a history of bleeding disorders (tendency to develop bruises), especially if you are 
-pregnant (see ‘Pregnancy and breast-feeding‘) 
-- are at risk of low sodium levels (for example if you are taking diuretics, especially if you are 
-elderly) 
-- are currently being treated with another medicine which may cause liver damage 
-- are taking other medicines containing duloxetine (see ‘Other medicines and Cymbalta’) </p>
+take Cymbalta if you:</p>
+<ul>
+<li>are taking other medicines to treat depression (see  Other medicines and Cymbalta ) </li>
+<li>are taking St. John s Wort, a herbal treatment (Hypericum perforatum) </li>
+<li>have kidney disease </li>
+<li>have had seizures (fits) </li>
+<li>have had mania </li>
+<li>suffer from bipolar disorder </li>
+<li>have eye problems, such as certain kinds of glaucoma (increased pressure in the eye) </li>
+<li>have a history of bleeding disorders (tendency to develop bruises), especially if you are 
+pregnant (see  Pregnancy and breast-feeding ) </li>
+<li>are at risk of low sodium levels (for example if you are taking diuretics, especially if you are 
+elderly) </li>
+<li>are currently being treated with another medicine which may cause liver damage </li>
+<li>are taking other medicines containing duloxetine (see  Other medicines and Cymbalta ) </li>
+</ul>
 <p>Cymbalta may cause a sensation of restlessness or an inability to sit or stand still. You should tell your 
 doctor if this happens to you. </p>
 <p>Medicines like Cymbalta (so called SSRIs/SNRIs) may cause symptoms of sexual dysfunction (see 
@@ -131,11 +126,13 @@ section 4). In some cases, these symptoms have continued after stopping treatmen
 If you are depressed and/or have anxiety disorders you can sometimes have thoughts of harming or 
 killing yourself. These may be increased when first starting antidepressants, since these medicines all 
 take time to work, usually about two weeks but sometimes longer. 
-You may be more likely to think like this if you:<br />
-- have previously had thoughts about killing or harming yourself 
-- are a young adult. Information from clinical trials has shown an increased risk of suicidal 
+You may be more likely to think like this if you:</p>
+<ul>
+<li>have previously had thoughts about killing or harming yourself </li>
+<li>are a young adult. Information from clinical trials has shown an increased risk of suicidal 
 behaviour in adults aged less than 25 years with psychiatric conditions who were treated with an 
-antidepressant </p>
+antidepressant </li>
+</ul>
 <p>If you have thoughts of harming or killing yourself at any time, contact your doctor or go to a 
 hospital straight away. </p>
 <p>You may find it helpful to tell a relative or close friend that you are depressed or have an anxiety 
@@ -154,7 +151,7 @@ behavioural development of Cymbalta in this age group have not yet been demonstr
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription.  </p>
 <p>The main ingredient of Cymbalta, duloxetine, is used in other medicines for other conditions:<br />
-• diabetic neuropathic pain, depression, anxiety and urinary incontinence 
+  diabetic neuropathic pain, depression, anxiety and urinary incontinence 
 Using more than one of these medicines at the same time should be avoided. Check with your doctor if 
 you are already taking other medicines containing duloxetine.  </p>
 <p>Your doctor should decide whether you can take Cymbalta with other medicines. Do not start or stop 
@@ -172,7 +169,7 @@ taking Cymbalta before you take a MAOI. </p>
 benzodiazepines, strong painkillers, antipsychotics, phenobarbital and antihistamines.  </p>
 <p>Medicines that increase the level of serotonin: Triptans, tramadol, tryptophan, SSRIs (such as 
 paroxetine and fluoxetine), SNRIs (such as venlafaxine), tricyclic antidepressants (such as 
-clomipramine, amitriptyline), pethidine, St John’s Wort and MAOIs (such as moclobemide and 
+clomipramine, amitriptyline), pethidine, St John s Wort and MAOIs (such as moclobemide and 
 linezolid). These medicines increase the risk of side effects; if you get any unusual symptom taking 
 any of these medicines together with Cymbalta, you should see your doctor. </p>
 <p>Oral anticoagulants or antiplatelet agents: Medicines which thin the blood or prevent the blood from 
@@ -199,7 +196,7 @@ this happens to your baby you should contact your midwife and/or doctor immediat
 when it is born. These usually begin at birth or within a few days of your baby being born. 
 These symptoms may include floppy muscles, trembling, jitteriness, not feeding properly, 
 trouble with breathing and fits. If your baby has any of these symptoms when it is born, or you 
-are concerned about your baby’s health, contact your doctor or midwife who will be able to 
+are concerned about your baby s health, contact your doctor or midwife who will be able to 
 advise you.  </p>
 </li>
 <li>
@@ -227,7 +224,7 @@ Cymbalta contains sucrose. If you have been told by your doctor that you have an
 sugars, contact your doctor before taking this medicinal product. </p>
 <p>Cymbalta contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cymbalta"
@@ -314,7 +311,7 @@ sit or stand still, feeling nervous, difficulty concentrating, changes in sense 
 controlling movement e.g. lack of coordination or involuntary movements of the muscles, 
 restless legs syndrome, poor sleep quality<br />
 <em> large pupils (the dark centre of the eye), problems with eyesight 
-* feeling of dizziness or “spinning” (vertigo), ear pain 
+* feeling of dizziness or  spinning  (vertigo), ear pain 
 * fast and/or irregular heart beat 
 * fainting, dizziness, lightheadedness or fainting on standing up, cold fingers and/or toes 
 * throat tightness, nose bleeds 
@@ -341,7 +338,7 @@ serious symptoms are fainting, fits or falls), syndrome of inappropriate secreti
 hormone (SIADH) <br />
 <em> suicidal behaviour, mania (over activity, racing thoughts and decreased need for sleep), 
 hallucinations, aggression and anger 
-*  “Serotonin syndrome” (a rare reaction which may cause feelings of great happiness, 
+*   Serotonin syndrome  (a rare reaction which may cause feelings of great happiness, 
 drowsiness, clumsiness, restlessness, feeling of being drunk, fever, sweating or rigid muscles), 
 fits 
 * increased pressure in the eye (glaucoma) 
@@ -370,7 +367,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton. </p>
-<p>Store in the original package to protect from moisture. Do not store above 30°C. </p>
+<p>Store in the original package to protect from moisture. Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -395,8 +392,8 @@ Edible white ink: titanium dioxide (E171), propylene glycol, shellac, povidone. 
 Cymbalta is a hard gastro-resistant capsule. Each capsule of Cymbalta contains pellets of duloxetine 
 hydrochloride with a covering to protect them from stomach acid.   </p>
 <p>Cymbalta is available in 2 strengths: 30 mg and 60 mg. 
-The 30 mg capsules are blue and white and are printed with ‘30 mg’ and the code ‘9543’. 
-The 60 mg capsules are blue and green and are printed with ‘60 mg’ and the code ‘9542’. </p>
+The 30 mg capsules are blue and white and are printed with  30 mg  and the code  9543 . 
+The 60 mg capsules are blue and green and are printed with  60 mg  and the code  9542 . </p>
 <p>Cymbalta 30 mg is available in packs of 7, 28 and 98 hard gastro-resistant capsules.<br />
 Cymbalta 60 mg is available in packs of 28, 56, 84 and 98 hard gastro-resistant capsules and in 
 multipacks containing 100 (5 packs of 20) and 500 (25 packs of 20) hard gastro-resistant capsules. </p>
@@ -407,22 +404,22 @@ Netherlands.<br />
 Manufacturer: Lilly S.A., Avda. De la Industria, 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
-Česká republika 
-ELI LILLY ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84<br />
+ esk  republika 
+ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5 
 Danmark 
 Eli Lilly Danmark A/S<br />
@@ -441,14 +438,14 @@ Eli Lilly Nederland B.V.
 Tel: +372 6 817<br />
 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18<br />
-Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: + 47 22 88 18  </p>
+<ul>
+<li>. . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
 Tel: + 43-(0) 1 711<br />
-España 
+Espa a 
 Dista S.A. 
 Tel: + 34 91 623 17<br />
 Polska 
@@ -456,25 +453,25 @@ Eli Lilly Polska Sp. z o.o.
 Tel: +48 22 440 33<br />
 France 
 Lilly France 
-Tél: +33-(0) 1 55 49 34<br />
+T l: +33-(0) 1 55 49 34<br />
 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126 
 Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
 Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
+Eli Lilly farmacevtska dru ba, d.o.o. 
 Tel: +386 (0)1 580 00<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663<br />
 Italia 
@@ -482,14 +479,15 @@ Eli Lilly Italia S.p.A.
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab 
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Tηλ: +357 22 715 
+T : +357 22 715 
 Sverige 
 Eli Lilly Sweden AB 
-Tel: + 46-(0) 8 7378 </p>
+Tel: + 46-(0) 8 7378 </li>
+</ul>
 <p>Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364 
 United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

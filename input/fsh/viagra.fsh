@@ -4,7 +4,7 @@ Instance: composition-en-8faa7fbd6f78086e379dcef9dff9ad32
 InstanceOf: CompositionUvEpi
 Title: "Composition for viagra Package Leaflet"
 Description:  "Composition for viagra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -82,47 +82,34 @@ is when a man cannot get, or keep a hard, erect penis suitable for sexual activi
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take viagra"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take VIAGRA 
- 
-If you are allergic to sildenafil or any of the other ingredients of this medicine (listed in section 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take VIAGRA </p>
+<p>If you are allergic to sildenafil or any of the other ingredients of this medicine (listed in section 
 6). </p>
-<p> 
-If you are taking medicines called nitrates, as the combination may lead to a dangerous fall in 
+<p>If you are taking medicines called nitrates, as the combination may lead to a dangerous fall in 
 your blood pressure. Tell your doctor if you are taking any of these medicines which are often 
-given for relief of angina pectoris (or “chest pain”). If you are not certain, ask your doctor or 
+given for relief of angina pectoris (or  chest pain ). If you are not certain, ask your doctor or 
 pharmacist. </p>
-<p> 
-If you are using any of the medicines known as nitric oxide donors such as amyl nitrite 
-(“poppers”), as the combination may also lead to a dangerous fall in your blood pressure. </p>
-<p> 
-If you are taking riociguat. This drug is used to treat pulmonary arterial hypertension (i.e., high 
+<p>If you are using any of the medicines known as nitric oxide donors such as amyl nitrite 
+( poppers ), as the combination may also lead to a dangerous fall in your blood pressure. </p>
+<p>If you are taking riociguat. This drug is used to treat pulmonary arterial hypertension (i.e., high 
 blood pressure in the lungs) and chronic thromboembolic pulmonary hypertension (i.e., high 
 blood pressure in the lungs secondary to blood clots). PDE5 inhibitors, such as Viagra have 
 been shown to increase the hypotensive effects of this medicine. If you are taking riociguat or 
 are unsure tell your doctor. </p>
-<p> 
-If you have a severe heart or liver problem. </p>
-<p> 
-If you have recently had a stroke or a heart attack, or if you have low blood pressure. </p>
-<p> 
-If you have certain rare inherited eye diseases (such as retinitis pigmentosa). </p>
-<p> 
-If you have ever had loss of vision due to non-arteritic anterior ischaemic optic neuropathy 
+<p>If you have a severe heart or liver problem. </p>
+<p>If you have recently had a stroke or a heart attack, or if you have low blood pressure. </p>
+<p>If you have certain rare inherited eye diseases (such as retinitis pigmentosa). </p>
+<p>If you have ever had loss of vision due to non-arteritic anterior ischaemic optic neuropathy 
 (NAION). </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before taking VIAGRA 
- 
-If you have sickle cell anaemia (an abnormality of red blood cells), leukaemia (cancer of blood 
+Talk to your doctor, pharmacist or nurse before taking VIAGRA </p>
+<p>If you have sickle cell anaemia (an abnormality of red blood cells), leukaemia (cancer of blood 
 cells), multiple myeloma (cancer of bone marrow). </p>
-<p> 
-If you have a deformity of your penis or Peyronie’s Disease. </p>
-<p> 
-If you have problems with your heart. Your doctor should carefully check whether your heart 
+<p>If you have a deformity of your penis or Peyronie s Disease. </p>
+<p>If you have problems with your heart. Your doctor should carefully check whether your heart 
 can take the additional strain of having sex. </p>
-<p> 
-If you currently have a stomach ulcer, or a bleeding problems (such as haemophilia). </p>
-<p> 
-If you experience sudden decrease or loss of vision, stop taking VIAGRA and contact your 
+<p>If you currently have a stomach ulcer, or a bleeding problems (such as haemophilia). </p>
+<p>If you experience sudden decrease or loss of vision, stop taking VIAGRA and contact your 
 doctor immediately. </p>
 <p>You should not use VIAGRA with any other oral or local treatments for erectile dysfunction.<br />
 You should not use VIAGRA with treatments for pulmonary arterial hypertension (PAH) containing 
@@ -133,8 +120,14 @@ sildenafil or any other PDE5 inhibitors. </p>
 You should tell your doctor if you have kidney or liver problems. Your doctor may decide on a lower 
 dose for you.  </p>
 <p>Children and adolescents 
-VIAGRA should not be given to individuals under the age of 18.<br />
-Other medicines and VIAGRA 
+VIAGRA should not be given to individuals under the age of 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take viagra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take viagra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and VIAGRA 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>VIAGRA tablets may interfere with some medicines, especially those used to treat chest pain. In the 
@@ -144,9 +137,9 @@ that you can. </p>
 <p>You should not take VIAGRA if you are taking medicines called nitrates, as the combination of these 
 medicines may lead to a dangerous fall in your blood pressure. Always tell your doctor, pharmacist or 
 nurse if you are taking any of these medicines that are often used for the relief of angina pectoris (or 
-“chest pain”). </p>
+ chest pain ). </p>
 <p>You should not take VIAGRA if you are using any of the medicines known as nitric oxide donors such 
-as amyl nitrite (“poppers”) as the combination may also lead to a dangerous fall in your blood 
+as amyl nitrite ( poppers ) as the combination may also lead to a dangerous fall in your blood 
 pressure. </p>
 <p>Tell your doctor or pharmacist if you are already taking riociguat. </p>
 <p>If you are taking medicines known as protease inhibitors, such as for the treatment of HIV, your 
@@ -176,12 +169,13 @@ If you have been told by your doctor that you have an intolerance to some sugars
 contact your doctor before taking VIAGRA. </p>
 <p>VIAGRA contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take viagra"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take viagra"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. The recommended starting dose is 50 mg. </p>
@@ -201,25 +195,22 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy. </p>
 <p>You should not take more tablets than your doctor tells you to.  </p>
 <p>Contact your doctor if you take more tablets than you should. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store viagra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store viagra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects although not everybody gets them. The side 
 effects reported in association with the use of VIAGRA are usually mild to moderate and of a short 
 duration. </p>
 <p>If you experience any of the following serious side effects stop taking VIAGRA and seek medical 
 help immediately: </p>
-<p> 
-An allergic reaction - this occurs uncommonly (may affect up to 1 in 100 people) 
+<p>An allergic reaction - this occurs uncommonly (may affect up to 1 in 100 people) 
 Symptoms include sudden wheeziness, difficulty in breathing or dizziness, swelling of the 
 eyelids, face, lips or throat. </p>
-<p> 
-Chest pains - this occurs uncommonly </p>
+<p>Chest pains - this occurs uncommonly </p>
 <p>If this occurs during or after intercourse </p>
 <ul>
 <li>
@@ -229,14 +220,14 @@ Chest pains - this occurs uncommonly </p>
 <p>Do not use nitrates to treat your chest pain. </p>
 </li>
 </ul>
-<p>  Prolonged and sometimes painful erections - this occurs rarely (may affect up to 1 in 1 people) 
+<p>Prolonged and sometimes painful erections - this occurs rarely (may affect up to 1 in 1 people) 
   If you have an erection which lasts for more than 4 hours, you should contact a doctor 
  immediately. </p>
-<p>  A sudden decrease or loss of vision - this occurs rarely </p>
-<p>  Serious skin reactions - this occurs rarely<br />
+<p>A sudden decrease or loss of vision - this occurs rarely </p>
+<p>Serious skin reactions - this occurs rarely<br />
 Symptoms may include severe peeling and swelling of the skin, blistering of the mouth, 
 genitals and around the eyes, fever. </p>
-<p>  Seizures or fits - this occurs rarely  </p>
+<p>Seizures or fits - this occurs rarely  </p>
 <p>Other side effects: </p>
 <p>Very common (may affect more than 1 in 10 people): headache.  </p>
 <p>Common (may affect up to 1 in 10 people): nausea, facial flushing, hot flush (symptoms include a 
@@ -266,10 +257,11 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store viagra"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store viagra"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not store above 30 oC. </p>
@@ -278,121 +270,4 @@ expiry date refers to the last day of that month.
 Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What VIAGRA contains 
- 
-The active substance is sildenafil. Each tablet contains 25 mg of sildenafil (as the citrate salt). 
- 
-The other ingredients are: 
- 
-Tablet core: 
-microcrystalline cellulose, calcium hydrogen phosphate (anhydrous), </p>
-<p>croscarmellose sodium (see section 2 “VIAGRA contains sodium”), </p>
-<p>magnesium stearate<br />
- 
-Film coat:  hypromellose, titanium dioxide (E171), lactose monohydrate (see section 2 </p>
-<p>“VIAGRA contains lactose”), triacetin, indigo  carmine aluminium  </p>
-<p>lake (E132) </p>
-<p>What VIAGRA looks like and contents of the pack 
-VIAGRA film-coated tablets (tablets) are blue, with a rounded-diamond shape. They are marked 
-“PFIZER” on one side and “VGR 25” on the other side. The tablets are provided in blister packs 
-containing 2, 4, 8 or 12 tablets. Some pack sizes may not be marketed in your country. </p>
-<p>Marketing Authorisation Holder 
-Upjohn EESV, Rivium Westlaan 142, 2909 LD Capelle aan den IJssel, Netherlands. </p>
-<p>Manufacturer 
-Fareva Amboise, Zone Industrielle, 29 route des Industries, 37530 Pocé-sur-Cisse, France. </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België /Belgique / Belgien 
-Viatris 
-Tél/Tel: +32 (0)2 658 61<br />
-Luxembourg/Luxemburg 
-Viatris 
-Tél/Tel: +32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>България<br />
-Майлан ЕООД 
-Тел.: +359 2 44 55<br />
-Magyarország 
-Viatris Healthcare Kft.<br />
-Tel.: + 36 1 4 65 2Česká republika 
-Viatris CZ s.r.o.<br />
-Tel: +420 222 004<br />
-Malta 
-V.J. Salomone Pharma Limited 
-Tel: (+356) 21 220 Danmark 
-Viatris ApS 
-Tlf: +45 28 11 69<br />
-Nederland 
-Mylan Healthcare BV 
-Tel: +31 (0) 20 426 3Deutschland 
-Viatris Healthcare GmbH 
-Tel: +49 (0) 800 0700 Norge 
-Viatris AS 
-Tlf: +47 66 75 33 Eesti 
-Viatris OÜ 
-Tel: +372 6363<br />
-Österreich 
-Mylan Österreich GmbH 
-Tel: +43 1 86 
-Ελλάδα 
-Viatris Hellas Ltd 
-Τηλ.: +30 2100 100<br />
-Polska 
-Mylan Healthcare Sp. z o.o.,<br />
-Tel.: +48 22 546 64<br />
-España 
-Viatris Pharmaceuticals, S.L. 
-Tel: +34 900 102 Portugal 
-Viatris Healthcare, Lda.<br />
-Tel: +351 21 412 72<br />
-France 
-Viatris Santé 
-Tél: +33 (0)4 37 25 75<br />
-România 
-BGP Products SRL 
-Tel: +40 372 579<br />
-Hrvatska 
-Viatris Hrvatska d.o.o. 
-Tel: + 385 1 23 50<br />
-Slovenija 
-Viatris d.o.o. 
-Tel: + 386 1 236 31  </p>
-<p>Ireland 
-Mylan Ireland Limited 
-Tel: + 353 1 8711Slovenská republika 
-Viatris Slovakia s.r.o. 
-Tel: +421 2 32 199  </p>
-<p>Ísland 
-Icepharma hf. 
-Sími: + 354 540 8 
-Suomi/Finland 
-Viatris Oy 
-Puh/Tel: +358 20 720 9 
-Italia 
-Viatris Pharma S.r.l. 
-Tel: +39 02 612 46 
-Sverige<br />
-Viatris AB 
-Tel: +46 (0)8 630 19<br />
-Κύπρος 
-GPA Pharmaceuticals Ltd<br />
-Τηλ: +357 22863 
-United Kingdom (Northern Ireland) 
-Mylan IRE Healthcare Limited 
-Tel: + 353 18711 
-Latvija 
-Viatris SIA 
-Tel: +371 676 055  </p>
-<p>Lietuva 
-Viatris UAB 
-Tel. +370 52051 </p>
-<p>This leaflet was last revised in. </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

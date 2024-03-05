@@ -4,7 +4,7 @@ Instance: composition-en-b7ea2b843cac38255840aa11da0bbc43
 InstanceOf: CompositionUvEpi
 Title: "Composition for atosiban Package Leaflet"
 Description:  "Composition for atosiban Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ Usage: #example
 Atosiban SUN is used in pregnant adult women, from week 24 to week 33 of the pregnancy. </p>
 <p>Atosiban SUN works by making the contractions in your womb (uterus) weaker. It also makes the 
 contractions happen less often. It does this by blocking the effect of a natural hormone in your body 
-called “oxytocin” which causes your womb (uterus) to contract. </p>         </div>"""   
+called  oxytocin  which causes your womb (uterus) to contract. </p>         </div>"""   
           
 
              
@@ -92,10 +92,10 @@ section 6).
 - If your unborn baby (foetus) has an abnormal heart rate. 
 - If you have bleeding from your vagina and your doctor wants your unborn baby to be delivered 
 straight away. 
-- If you have something called “severe pre-eclampsia” and your doctor wants your unborn baby 
+- If you have something called  severe pre-eclampsia  and your doctor wants your unborn baby 
 to be delivered straight away. Severe pre-eclampsia is when you have very high blood pressure, 
 fluid retention and/or protein in your urine. 
-- If you have something called “eclampsia” which is similar to “severe pre-eclampsia” but you 
+- If you have something called  eclampsia  which is similar to  severe pre-eclampsia  but you 
 would also have fits (convulsions). This will mean your unborn baby needs to be delivered 
 straight away. 
 - If your unborn baby has died. 
@@ -140,15 +140,17 @@ given Atosiban SUN. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Atosiban SUN will be given to you in a hospital by a doctor, nurse or midwife. They will decide how 
 much you need. They will also make sure the solution is clear and free from particles. </p>
-<p>Atosiban SUN will be given into a vein (intravenously) in three stages: 
-- The first injection of 6.75 mg in 0.9 ml will be slowly injected into your vein over one minute. 
-- Then a continuous infusion (drip) will be given at a dose of 18 mg per hour for 3 hours. 
-- Then another continuous infusion (drip) at a dose of 6 mg per hour will be given for up to 
+<p>Atosiban SUN will be given into a vein (intravenously) in three stages:</p>
+<ul>
+<li>The first injection of 6.75 mg in 0.9 ml will be slowly injected into your vein over one minute. </li>
+<li>Then a continuous infusion (drip) will be given at a dose of 18 mg per hour for 3 hours. </li>
+<li>Then another continuous infusion (drip) at a dose of 6 mg per hour will be given for up to 
 45 hours, or until your contractions have stopped. 
-Treatment should last no longer than 48 hours in total. </p>
+Treatment should last no longer than 48 hours in total. </li>
+</ul>
 <p>Further treatment with Atosiban SUN can be used if your contractions start again. Treatment with 
 Atosiban SUN can be repeated up to three more times. </p>
-<p>During treatment with Atosiban SUN, your contractions and your unborn baby’s heart rate may be 
+<p>During treatment with Atosiban SUN, your contractions and your unborn baby s heart rate may be 
 monitored. </p>
 <p>It is recommended that no more than three re-treatments should be used during a pregnancy. </p>         </div>"""         
 
@@ -199,7 +201,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP {MM/YYYY}. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Once the vial has been opened, the medicinal product must be used 
+<p>Store in a refrigerator (2 C - 8 C). Once the vial has been opened, the medicinal product must be used 
 straight away. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not use Atosiban SUN if you notice particulate matter and discoloration prior to administration. </p>
@@ -226,29 +228,29 @@ Polarisavenue 2132 JH Hoofddorp
 The Netherlands </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien/България/Česká republika/ 
-Danmark/Eesti/Ελλάδα/Hrvatska/Ireland/Ísland/Κύπρος/ 
-Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
-Malta/Nederland/Norge/Österreich/Portugal/Slovenija/ 
-Slovenská republika/Suomi/Finland/Sverige 
+<p>Belgi /Belgique/Belgien/ / esk  republika/ 
+Danmark/Eesti/ /Hrvatska/Ireland/ sland/ / 
+Latvija/Lietuva/Luxembourg/Luxemburg/Magyarorsz g/ 
+Malta/Nederland/Norge/ sterreich/Portugal/Slovenija/ 
+Slovensk  republika/Suomi/Finland/Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
 Polarisavenue 2132 JH Hoofddorp 
-Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
-Nederlandene/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
-Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/ 
-Hollandia/L-Olanda/Nederland/Niederlande/Países Baixos/ 
-Nizozemska/Holandsko/Alankomaat/Nederländerna 
-Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
+Nederland/Pays-Bas/Niederlande/ /Nizozemsko/ 
+Nederlandene/ /Nizozemska/The Netherlands/Holland/ 
+ /N derlande/Nyderlandai/Pays-Bas/Niederlande/ 
+Hollandia/L-Olanda/Nederland/Niederlande/Pa ses Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederl nderna 
+Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
 +31 (0)23 568 5 
 Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland 
 tel. +49 214 403<br />
-España 
+Espa a 
 Sun Pharma Laboratorios, S.L.  </p>
 <p>Rambla de Catalunya 53-08007 Barcelona 
-España 
+Espa a 
 tel. +34 93 342 78<br />
 France 
 Sun Pharma France 
@@ -268,10 +270,10 @@ ul. Kubickiego 11<br />
 02-954 Warszawa<br />
 Polska 
 tel. +48 22 642 07<br />
-România 
+Rom nia 
 Terapia S.A. 
-Str. Fabricii nr Cluj-Napoca, Judeţul Cluj 
-România 
+Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
+Rom nia 
 tel. +40 (264) 501<br />
 United Kingdom (Northern Ireland) 
 Ranbaxy UK Ltd 
@@ -291,12 +293,14 @@ http://www.ema.europa.eu. </p>
 <p>Instructions for use 
 Before using Atosiban SUN, the solution should be examined to ensure it is clear and free from 
 particles. </p>
-<p>Atosiban SUN is given intravenously in three successive stages: 
-- The initial intravenous injection of 6.75 mg in 0.9 ml is slowly injected into a vein over one 
-minute. 
-- A continuous infusion at a rate of 24 ml/hour is given for 3 hours. 
-- A continuous infusion at a rate of 8 ml/hour is given for up to 45 hours, or until the contractions 
-of the uterus have subsided. </p>
+<p>Atosiban SUN is given intravenously in three successive stages:</p>
+<ul>
+<li>The initial intravenous injection of 6.75 mg in 0.9 ml is slowly injected into a vein over one 
+minute. </li>
+<li>A continuous infusion at a rate of 24 ml/hour is given for 3 hours. </li>
+<li>A continuous infusion at a rate of 8 ml/hour is given for up to 45 hours, or until the contractions 
+of the uterus have subsided. </li>
+</ul>
 <p>The total duration of the treatment should be no more than 48 hours. Further treatment cycles of 
 Atosiban SUN can be used should contractions recur. It is recommended that no more than three 
 retreatments should be used during a pregnancy. </p>
@@ -308,5 +312,5 @@ information for you.
 - Keep this leaflet. You may need to read it again. 
 - If you have any further questions, ask your doctor, midwife or pharmacist. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+effects not listed in this leaflet. See section </p>         </div>"""      
 

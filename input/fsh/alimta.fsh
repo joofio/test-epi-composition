@@ -4,7 +4,7 @@ Instance: composition-en-693ec639d0b8a54f262a97c90b198443
 InstanceOf: CompositionUvEpi
 Title: "Composition for alimta Package Leaflet"
 Description:  "Composition for alimta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,9 +87,8 @@ progressed after other initial chemotherapy has been used. </p>         </div>""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take alimta"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use ALIMTA 
--<br />
-if you are allergic (hypersensitive) to pemetrexed or any of the other ingredients of this 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Do not use ALIMTA</h2>
+<p>if you are allergic (hypersensitive) to pemetrexed or any of the other ingredients of this 
 medicine (listed in section 6). 
 -<br />
 if you are breast-feeding; you must discontinue breast-feeding during treatment with ALIMTA. 
@@ -117,8 +116,8 @@ This medicine should not be used in children or adolescents, since there is no e
 medicine in children and adolescents under 18 years of age. </p>
 <p>Other medicines and ALIMTA 
 Please tell your doctor if you are taking any medicine for pain or inflammation (swelling), such as 
-medicines called “nonsteroidal anti-inflammatory drugs” (NSAIDs), including medicines purchased 
-without a doctor’s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
+medicines called  nonsteroidal anti-inflammatory drugs  (NSAIDs), including medicines purchased 
+without a doctor s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
 durations of activity. Based on the planned date of your infusion of ALIMTA and/or on the status of 
 your kidney function, your doctor needs to advise you on which medicines you can take and when you 
 can take them. If you are unsure, ask your doctor or pharmacist if any of your medicines are NSAIDs. </p>
@@ -144,7 +143,7 @@ ALIMTA may make you feel tired. Be careful when driving a car or using machines.
 <p>ALIMTA contains sodium 
 ALIMTA 100 mg powder for concentrate for solution for infusion 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>ALIMTA 500 mg powder for concentrate for solution for infusion 
 This medicine contains 54 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 2.7 % of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
@@ -154,7 +153,7 @@ equivalent to 2.7 % of the recommended maximum daily dietary intake of sodium fo
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take alimta"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose of ALIMTA is 500 milligrams for every square metre of your body’s surface area. Your 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose of ALIMTA is 500 milligrams for every square metre of your body s surface area. Your 
 height and weight are measured to work out the surface area of your body. Your doctor will use this 
 body surface area to work out the right dose for you.  This dose may be adjusted, or treatment may be 
 delayed depending on your blood cell counts and on your general condition. A hospital pharmacist, 
@@ -189,7 +188,7 @@ folic acid are given to you to reduce the possible toxic effects of the anticanc
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>You must contact your doctor immediately if you notice any of the following: 
-* Fever or infection (respectively, common or very common): if you have a temperature of 38ºC 
+* Fever or infection (respectively, common or very common): if you have a temperature of 38 C 
 or greater, sweating or other signs of infection(since you might have less white blood cells than 
 normal which is very common). Infection (sepsis) may be severe and could lead to death. 
 * If you start feeling chest pain (common) or having a fast heart rate (uncommon). 
@@ -353,18 +352,18 @@ F-67640 Fegersheim
 France </p>
 <p>For any information about this medicine, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A/N.V. 
-Tél/Tel: + 32-(0)2 548 84 Lietuva 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
 Eli Lilly Lietuva<br />
-Tel. +370 (5) 2649България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41 Luxembourg/Luxemburg 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A/N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
-Tel: + 420 234 664 Magyarország 
-Lilly Hungária Kft. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
+Tel: + 420 234 664 Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
 Tlf: +45 45 26 60 Malta 
@@ -377,43 +376,43 @@ Tel: + 31-(0) 30 60 25 Eesti
 Eli Lilly Nederland B.V.<br />
 Tel: +372 6 817 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4Österreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
 Tel: + 34-91-663 50 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel.: +48 22 440 33 France 
 Lilly France<br />
-Tél: +33-(0) 1 55 49 34 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+T l: +33-(0) 1 55 49 34 Portugal 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350 România 
-Eli Lilly România S.R.L. 
+Tel: +385 1 2350 Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-Sími + 354 540 8Slovenská republika 
+S mi + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
 Tel: + 39- 055 42Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Τηλ: +357 22 715Sverige 
+ : +357 22 715Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 6 7364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
-This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
+This leaflet was last revised in <em>{MM/YYYY}</em> </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

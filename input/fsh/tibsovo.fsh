@@ -4,7 +4,7 @@ Instance: composition-en-987aff669508e9ccbe676197e17e96d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tibsovo Package Leaflet"
 Description:  "Composition for tibsovo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -79,8 +79,8 @@ growing.  </p>
 <p>What Tibsovo is used for 
 Tibsovo is used to treat adults with: 
 * acute myeloid leukaemia (AML). When used for patients with AML, Tibsovo will be given in 
-combination with another anti-cancer medicine called ‘azacitidine’. 
-* bile duct cancer (also known as ‘cholangiocarcinoma’). Tibsovo is used on its own to treat patients 
+combination with another anti-cancer medicine called  azacitidine . 
+* bile duct cancer (also known as  cholangiocarcinoma ). Tibsovo is used on its own to treat patients 
 whose bile duct cancer has spread to other parts of the body and who have been treated with at 
 least one prior therapy. 
 Tibsovo is only used in patients whose AML or bile duct cancer is related to a change (mutation) in 
@@ -99,14 +99,14 @@ this medicine is the right treatment for you. </p>
 * if you are allergic to ivosidenib or any of the other ingredients of this medicine (listed in 
 section 6); 
 * if you are already taking medicines such as dabigatran (a medicine used for preventing the 
-formation of blood clots), St. John’s wort (an herbal remedy used for depression and anxiety), 
+formation of blood clots), St. John s wort (an herbal remedy used for depression and anxiety), 
 rifampicin (a medicine used for treating bacterial infections) or certain medicines used to treat 
 epilepsy (e.g. carbamazepine, phenobarbital, phenytoin). 
-* if you have a heart problem that you were born with called ‘congenital long QTc syndrome’. 
+* if you have a heart problem that you were born with called  congenital long QTc syndrome . 
 * if you have a familial history of sudden death or an abnormal or irregular heartbeat in the lower 
 chambers of the heart. 
 * if you have a severe abnormality of electrical activity of the heart that affects its rhythm called 
-‘QTc prolongation’. </p>
+ QTc prolongation . </p>
 <p>Do not take Tibsovo if any of the above applies to you. If you are not sure, talk to your doctor or 
 nurse. </p>
 <p>Warnings and precautions  </p>
@@ -114,7 +114,7 @@ nurse. </p>
 Tibsovo can cause a serious condition known as QTc interval prolongation which can cause 
 irregular heartbeats and life-threatening arrythmias (abnormal electrical activity of the heart that 
 affects its rhythm). Your doctor must check the electrical activity of your heart before and 
-during treatment with Tibsovo (see ‘Regular tests’).<br />
+during treatment with Tibsovo (see  Regular tests ).<br />
 Seek urgent medical attention if you feel dizzy, light-headed, palpitations or faint (see also 
 section 4) after taking Tibsovo.<br />
 During treatment, tell your doctors you are taking Tibsovo before starting any new medicine as 
@@ -125,14 +125,14 @@ them and they may tell you to stop taking Tibsovo for a while or stop taking it 
 <p>Tibsovo can cause a serious condition known as differentiation syndrome in patients with AML. 
 This is a condition that affects your blood cells and may be life-threatening if not treated. </p>
 <p>Seek urgent medical attention if you have any of the following symptoms after taking Tibsovo: 
-• fever, 
-• cough, 
-• trouble breathing, 
-• rash, 
-• decreased urination, 
-• dizziness or light-headedness, 
-• rapid weight gain 
-• swelling of your arms or legs. </p>
+  fever, 
+  cough, 
+  trouble breathing, 
+  rash, 
+  decreased urination, 
+  dizziness or light-headedness, 
+  rapid weight gain 
+  swelling of your arms or legs. </p>
 <p>These may be signs of differentiation syndrome. </p>
 <p>The pack contains a patient alert card to carry with you at all times. It contains important 
 information for you and your healthcare professionals about what to do if you get any of the 
@@ -142,7 +142,7 @@ Talk to your doctor before taking Tibsovo if:
 sodium, potassium, calcium or magnesium); 
 * you are taking certain medicines that can affect the heart (e.g. those used to prevent 
 arrhythmia called anti-arrhythmics, some antibiotics, some antifungals and those used to prevent 
-nausea and vomiting - see ‘Other medicines and Tibsovo’); 
+nausea and vomiting - see  Other medicines and Tibsovo ); 
 * you have kidney problems; 
 * you have liver problems. </p>
 <p>Regular tests 
@@ -217,8 +217,8 @@ unwell after taking Tibsovo, do not drive or use any tools or machines until you
 <p>Tibsovo contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tibsovo"
@@ -262,7 +262,7 @@ before discussing it with your doctor first. </p>
 <p>Serious side effects </p>
 <p>Seek urgent medical attention if you get any of the following side effects. The symptoms listed 
 below could be due to serious conditions known as differentiation syndrome or QTc interval 
-prolongation, which can both be life-threatening: </p>
+prolongation, which can both be life-threatening:</p>
 <ul>
 <li>Heart rhythm problems (QTc interval prolongation) 
 Contact your doctor straight away if you have a change in your heartbeat, or if you feel: dizzy, 
@@ -270,7 +270,7 @@ lightheaded, or faint. These may be signs of a heart problem called QT prolongat
 more than 1 in 10 people). </li>
 </ul>
 <p>Other side effects 
-Tell your doctor if you notice any of the following side effects: </p>
+Tell your doctor if you notice any of the following side effects:</p>
 <ul>
 <li>Differentiation syndrome 
 Contact your doctor straight away if you have any of the following symptoms: </li>
@@ -353,9 +353,9 @@ throw away medicines you no longer use. These measures will help protect the env
 * The other ingredients are microcrystalline cellulose, croscarmellose sodium, hypromellose 
 acetate succinate, colloidal silica anhydrous, magnesium stearate, sodium lauryl sulfate (E487), 
 hypromellose, titanium dioxide (E171), lactose monohydrate, triacetin and indigo carmine 
-aluminum lake (E132) (see section 2 ‘Tibsovo contains lactose and sodium’). </p>
+aluminum lake (E132) (see section 2  Tibsovo contains lactose and sodium ). </p>
 <p>What Tibsovo looks like and contents of the pack 
-* The film-coated tablets are blue, oval shaped, with “IVO” on one side and “250” on the other 
+* The film-coated tablets are blue, oval shaped, with  IVO  on one side and  250  on the other 
 side. 
 * Tibsovo is available in plastic bottles containing 60 film-coated tablets and a desiccant. The 
 bottles are packaged in a cardboard box; each box contains 1 bottle. </p>
@@ -371,20 +371,19 @@ Les Laboratoires Servier Industrie
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 S.A. Servier Benelux N.V. 
 Tel: +32 (0)2 529 43<br />
 Lietuva 
-UAB “SERVIER PHARMA” 
-Tel: +370 (5) 2 63 86 България 
-Сервие Медикал ЕООД 
-Тел.: +359 2 921 57<br />
+UAB  SERVIER PHARMA<br />
+Tel: +370 (5) 2 63 86   </p>
+<p>.: +359 2 921 57<br />
 Luxembourg/Luxemburg 
 S.A. Servier Benelux N.V. 
 Tel: +32 (0)2 529 43<br />
-Česká republika 
+ esk  republika 
 Servier s.r.o. 
-Tel: +420 222 118 Magyarország 
+Tel: +420 222 118 Magyarorsz g 
 Servier Hungaria Kft. 
 Tel: +36 1 238 7 
 Danmark 
@@ -399,18 +398,17 @@ Nederland
 Servier Nederland Farma B.V. 
 Tel: +31 (0)71 5246 
 Eesti 
-Servier Laboratories OÜ<br />
+Servier Laboratories O <br />
 Tel:+ 372 664 5 
 Norge 
 Servier Danmark A/S 
 Tlf: +45 36 44 22<br />
-Eλλάδα 
-ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
-Τηλ: +30 210 939 1 
-Österreich 
+E  </p>
+<p>: +30 210 939 1 
+ sterreich 
 Servier Austria GmbH 
 Tel: +43 (1) 524 39<br />
-España 
+Espa a 
 Laboratorios Servier S.L. 
 Tel: +34 91 748 96<br />
 Polska 
@@ -423,7 +421,7 @@ Servier Portugal, Lda
 Tel.: +351 21 312 20 Hrvatska 
 Servier Pharma, d. o. o. 
 Tel.: +385 (0)1 3016<br />
-România 
+Rom nia 
 Servier Pharma SRL 
 Tel: +4 021 528 52<br />
 Ireland 
@@ -431,20 +429,19 @@ Servier Laboratories (Ireland) Ltd.
 Tel: +353 (0)1 663 8 
 Slovenija 
 Servier Pharma d. o. o.<br />
-Tel.: +386 (0)1 563 48 Ísland 
+Tel.: +386 (0)1 563 48  sland 
 Servier Laboratories 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Servier Slovensko spol. s r.o. 
 Tel.:+421 (0) 2 5920 41 Italia 
 Servier Italia S.p.A. 
 Tel: +39 06 669Suomi/Finland 
 Servier Finland Oy 
-P. /Tel: +358 (0)9 279 80<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22741 
+P. /Tel: +358 (0)9 279 80  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22741 
 Sverige 
 Servier Sverige AB 
 Tel : +46 (0)8 522 508<br />

@@ -4,7 +4,7 @@ Instance: composition-en-f39d85b5533e098d34a976dedd3b1e91
 InstanceOf: CompositionUvEpi
 Title: "Composition for ganirelix Package Leaflet"
 Description:  "Composition for ganirelix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What ganirelix is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ganirelix Gedeon Richter contains the active substance ganirelix and belongs to a group of medicines 
-called “antigonadotropin-releasing hormones” which act against the actions of the natural 
+called  antigonadotropin-releasing hormones  which act against the actions of the natural 
 gonadotropin-releasing hormone (GnRH). GnRH regulates the release of gonadotropins (luteinising 
 hormone (LH) and follicle stimulating hormone (FSH)). Gonadotropins play an important role in 
 human fertility and reproduction. In women, FSH is needed for the growth and development of 
@@ -139,7 +139,7 @@ Do not use Ganirelix Gedeon Richter during pregnancy and breast-feeding. </p>
 The effects of Ganirelix Gedeon Richter on ability to drive and use machines have not been studied. </p>
 <p>Ganirelix Gedeon Richter contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ganirelix"
@@ -183,7 +183,7 @@ example alcohol) to remove any surface bacteria. Clean about 5 cm (two inches) a
 where the needle will go in and let the disinfectant dry for at least one minute before proceeding. </p>
 <p>Inserting the needle 
 Remove needle shield. Pinch a fold of skin between index finger and thumb. Insert the needle at the 
-base of the pinched-up skin at an angle of 45° to the skin surface. Vary the injection site with each 
+base of the pinched-up skin at an angle of 45  to the skin surface. Vary the injection site with each 
 injection. </p>
 <p>Checking the correct needle position 
 Gently draw back the plunger to check if the needle is positioned correctly. Any blood drawn into the 
@@ -218,28 +218,22 @@ outcome of your treatment. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The chance of having a side effect is described by the following categories: </p>
-<p>Very common (may affect more than 1 in 10 women) 
-− 
-Local skin reactions at the site of injection (predominantly redness, with or without swelling). 
+<p>Very common (may affect more than 1 in 10 women) </p>
+<p>Local skin reactions at the site of injection (predominantly redness, with or without swelling). 
 The local reaction normally disappears within 4 hours of administration. </p>
-<p>Uncommon (may affect up to 1 in 100 women) 
-− 
-Headache 
-− 
-Nausea 
-− 
-Feeling generally unwell (malaise) </p>
-<p>Very rare (may affect up to 1 in 10,000 women) 
-− 
-Allergic reactions have been observed, as early as with the first dose. 
+<p>Uncommon (may affect up to 1 in 100 women) </p>
+<p>Headache </p>
+<p>Nausea </p>
+<p>Feeling generally unwell (malaise) </p>
+<p>Very rare (may affect up to 1 in 10,000 women) </p>
+<p>Allergic reactions have been observed, as early as with the first dose. 
 * Rash 
 * Facial swelling 
 * Difficulty breathing (dyspnoea) 
 * Swelling of face, lips, tongue, and/or throat that may cause difficulty in breathing and/or 
 swallowing (angioedema and/or anaphylaxis) 
-* Hives (urticaria) 
-− 
-Worsening of a pre-existing rash (eczema) has been reported in one subject after the first 
+* Hives (urticaria) </p>
+<p>Worsening of a pre-existing rash (eczema) has been reported in one subject after the first 
 ganirelix dose. </p>
 <p>In addition, side effects are reported which are known to occur with controlled ovarian 
 hyperstimulation treatment (e.g. abdominal pain, ovarian hyperstimulation syndrome (OHSS), ectopic 
@@ -279,7 +273,7 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is ganirelix (0.25 mg in 0.5 mL solution). 
 - The other ingredients are: glacial acetic acid, mannitol (E 421), water for injection. The pH 
 (measurement of the acidity) may have been adjusted with sodium hydroxide (see section 2 
-“Ganirelix Gedeon Richter contains sodium”). </p>
+ Ganirelix Gedeon Richter contains sodium ). </p>
 <p>What Ganirelix Gedeon Richter looks like and contents of the pack 
 Ganirelix Gedeon Richter is a clear and colourless solution for injection (injection). The medicine is 
 filled in a glass syringe with staked stainless steel needle, closed with a plunger stopper and supplied 
@@ -288,7 +282,7 @@ with a plunger rod. The injection needle is provided with a rigid needle shield.
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Gedeon Richter Plc. 
-Gyömrői út 19-21. 1103 Budapest 
+Gy mr i  t 19-21. 1103 Budapest 
 Hungary </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>

@@ -4,7 +4,7 @@ Instance: composition-en-244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: CompositionUvEpi
 Title: "Composition for azarga Package Leaflet"
 Description:  "Composition for azarga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -103,7 +103,7 @@ your doctor. </p>
 choking), heart failure, low blood pressure 
 * disturbances of heart rate such as slow heart beat 
 * breathing problems, asthma or chronic obstructive pulmonary disease 
-* poor blood circulation disease (such as Raynaud’s disease or Raynaud’s syndrome) 
+* poor blood circulation disease (such as Raynaud s disease or Raynaud s syndrome) 
 * diabetes as timolol may mask signs and symptoms of low blood sugar 
 * overactivity of the thyroid gland as timolol may mask signs and symptoms of thyroid disease 
 * muscular weakness (myasthenia gravis) 
@@ -122,8 +122,14 @@ using AZARGA or other related medicines. </p>
 Serious skin reactions including Stevens-Johnson syndrome and toxic epidermal necrolysis have been 
 reported in association with brinzolamide treatment. Stop using AZARGA and seek medical attention 
 immediately if you notice any of the symptoms related to these serious skin reactions described in 
-section 4.<br />
-Children and adolescents 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
 AZARGA is not recommended for children and adolescents under 18 years. </p>
 <p>Other medicines and AZARGA 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. </p>
@@ -149,14 +155,9 @@ some time just after using AZARGA. </p>
 <p>One of the active ingredients may impair the ability to perform tasks requiring mental alertness and/or 
 physical coordination. If affected take care when driving or using machines. </p>
 <p>AZARGA contains benzalkonium chloride </p>
-<p>This medicine contains 3.34 µg benzalkonium chloride per drop (= 1 dose) which is equivalent to </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take azarga"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take azarga"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AZARGA contains a preservative (benzalkonium chloride) which may be absorbed by soft contact 
+<p>This medicine contains 3.34  g benzalkonium chloride per drop (= 1 dose) which is equivalent to 
+0.01% or 0.1 mg/ml. </p>
+<p>AZARGA contains a preservative (benzalkonium chloride) which may be absorbed by soft contact 
 lenses and may change the colour of the contact lenses. You should remove contact lenses before 
 using this medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause 
 eye irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of 
@@ -178,9 +179,11 @@ pharmacist if you are not sure </p>
 the eyelids, surrounding areas or other surfaces with the dropper tip. Keep the bottle tightly closed 
 when not in use. </p>
 <p>The following measure is useful to limit the amount of medicine that will come into the blood after 
-application of eye drops: 
-- Keep the eyelid closed, while simultaneously applying gentle pressure to the corner of the eye 
-next to the nose with a finger for at least 2 minutes. </p>
+application of eye drops:</p>
+<ul>
+<li>Keep the eyelid closed, while simultaneously applying gentle pressure to the corner of the eye 
+next to the nose with a finger for at least 2 minutes. </li>
+</ul>
 <p>The recommended dose is 
 One drop in the affected eye or eyes, twice a day. 
 Only use AZARGA in both eyes if your doctor told you to. Take it for as long as your doctor told you 
@@ -196,7 +199,7 @@ to. </p>
 <li>Twist off the bottle cap. After the cap is removed, if the tamper evident snap collar is loose, 
 remove before using product. </li>
 <li>Hold the bottle, pointing down, between your thumb and fingers. </li>
-<li>Tilt your head back. Pull down your eyelid with a clean finger, until there is a ‘pocket’ between 
+<li>Tilt your head back. Pull down your eyelid with a clean finger, until there is a  pocket  between 
 the eyelid and your eye. The drop will go in here (picture 1). </li>
 <li>Bring the bottle tip close to the eye. Use the mirror if it helps. </li>
 <li>Do not touch your eye or eyelid, surrounding areas or other surfaces with the dropper. It could 
@@ -269,7 +272,7 @@ a type of heart rhythm disorder, abnormal increase in heart rate, chest pain, re
 function, heart attack, increased blood pressure, reduced blood supply to the brain, stroke, 
 oedema (fluid build up), congestive heart failure (heart disease with shortness of breath and 
 swelling of the feet and legs due to fluid build up), swelling of the extremities, low blood 
-pressure, discoloration of the fingers, toes, and occasionally other areas of the body (Raynaud’s 
+pressure, discoloration of the fingers, toes, and occasionally other areas of the body (Raynaud s 
 phenomenon), cold hands and feet. 
 * Respiratory: Constriction of the airways in the lungs (predominantly in patients with pre-
 existing disease) shortness of breath or difficulty breathing, cold symptoms, chest congestion, 

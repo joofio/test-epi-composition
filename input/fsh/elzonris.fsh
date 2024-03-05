@@ -4,7 +4,7 @@ Instance: composition-en-5ac4a49a9ba51d620f11b22f100bae66
 InstanceOf: CompositionUvEpi
 Title: "Composition for elzonris Package Leaflet"
 Description:  "Composition for elzonris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ Usage: #example
 from two proteins from different sources. One of the proteins can kill cancer cells. This protein is 
 delivered to the cancer cell by the second protein. </p>
 <p>ELZONRIS is used to treat adult patients with blastic plasmacytoid dendritic cell neoplasm (BPDCN).  </p>
-<p>BPDCN is a cancer of a rare type of immature immune cells called ‘plasmacytoid dendritic cells’.  It 
+<p>BPDCN is a cancer of a rare type of immature immune cells called  plasmacytoid dendritic cells .  It 
 can affect many organs including the skin, bone marrow, and lymph nodes. </p>         </div>"""   
           
 
@@ -87,12 +87,12 @@ can affect many organs including the skin, bone marrow, and lymph nodes. </p>   
 - if you are allergic to tagraxofusp or any of the other ingredients of this medicine (listed in 
 section 6).  </p>
 <p>Warnings and precautions<br />
-Talk to your doctor before using ELZONRIS and during treatment if you: </p>
+Talk to your doctor before using ELZONRIS and during treatment if you:</p>
 <ul>
 <li>suddenly gain weight after starting treatment, have new or worsening swelling of your face, limbs 
 or joints (oedema) or dizziness (a symptom of low blood pressure). These may be signs of a 
 potentially life-threatening condition known as capillary leak syndrome. For more information see 
-“Capillary Leak Syndrome” in section 4. - get a whistling sound during breathing (wheezing) or have difficulty breathing, hives/ rash, 
+ Capillary Leak Syndrome  in section 4. - get a whistling sound during breathing (wheezing) or have difficulty breathing, hives/ rash, 
 itching, or swelling (signs of an allergic reaction).  </li>
 <li>have been told you have a low level of platelets in your blood (thrombocytopenia). </li>
 <li>
@@ -103,7 +103,7 @@ itching, or swelling (signs of an allergic reaction).  </li>
 changes in heart rhythm (signs of  tumour lysis syndrome). </p>
 </li>
 <li>have abnormal liver test results (possible sign of serious liver injury). </li>
-<li>have hereditary fructose intolerance (HFI), a rare genetic disorder which means you can’t break 
+<li>have hereditary fructose intolerance (HFI), a rare genetic disorder which means you can t break 
 down sugar in foods and drinks.  </li>
 <li>have kidney or liver problems. </li>
 <li>start getting headaches, or feeling confused or drowsy, or having speech, vision or memory 
@@ -140,7 +140,7 @@ may cause serious side effects. </p>
 sweet foods or drinks because you feel sick, vomit or get unpleasant effects such as bloating, stomach 
 cramps or diarrhoea. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elzonris"
@@ -182,134 +182,142 @@ medical attention: </p>
 <li>any one or combination of: weight gain,  swelling or puffiness, which may be associated with 
 passing water less frequently, difficulty breathing, abdominal swelling and feeling of fullness, and 
 a general feeling of tiredness. These symptoms generally develop in a rapid fashion. These could 
-be symptoms of a condition called “capillary leak syndrome” which causes blood to leak from the 
+be symptoms of a condition called  capillary leak syndrome  which causes blood to leak from the 
 small blood vessels into your body and needs urgent medical attention. </li>
 </ul>
 <p>Other side effects: 
 Tell your doctor if you notice any of the following side effects: </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- Abnormal blood tests (decreased platelets [thrombocytopenia]; red blood cells [anaemia]; 
-decreased albumin in the blood [hypoalbuminemia]) 
-- Low blood pressure (hypotension) 
-- Feeling or being sick (nausea; vomiting) 
-- Fever (pyrexia) 
-- Chills 
-- Tiredness (fatigue) 
-- Swelling of limbs and/or joints (peripheral oedema) 
-- Abnormal liver function tests (increased aspartate aminotransferase; increased alanine 
-aminotransferase) </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
 <ul>
-<li>Weight gain  </li>
+<li>Abnormal blood tests (decreased platelets [thrombocytopenia]; red blood cells [anaemia]; 
+decreased albumin in the blood [hypoalbuminemia]) </li>
+<li>Low blood pressure (hypotension) </li>
+<li>Feeling or being sick (nausea; vomiting) </li>
+<li>Fever (pyrexia) </li>
+<li>Chills </li>
+<li>Tiredness (fatigue) </li>
+<li>Swelling of limbs and/or joints (peripheral oedema) </li>
+<li>
+<p>Abnormal liver function tests (increased aspartate aminotransferase; increased alanine 
+aminotransferase) </p>
+</li>
+<li>
+<p>Weight gain  </p>
+</li>
 </ul>
-<p>Common (may affect up to 1 in 10 people): 
-- Skin infection (cellulitis) 
-- Decreased white blood cells with/without a fever (neutropenia, leukopenia, lymphopenia; febrile 
-neutropenia) 
-- Complications from breakdown of cancer cells (tumour lysis syndrome) 
-- Reaction to treatment [including fever, feeling sick, headache, rash, rapid heartbeat] (cytokine 
-release syndrome) 
-- Abnormal blood tests [Increased white blood cells (leukocytosis), increased uric acid in the blood 
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Skin infection (cellulitis) </li>
+<li>Decreased white blood cells with/without a fever (neutropenia, leukopenia, lymphopenia; febrile 
+neutropenia) </li>
+<li>Complications from breakdown of cancer cells (tumour lysis syndrome) </li>
+<li>Reaction to treatment [including fever, feeling sick, headache, rash, rapid heartbeat] (cytokine 
+release syndrome) </li>
+<li>Abnormal blood tests [Increased white blood cells (leukocytosis), increased uric acid in the blood 
 (hyperuricaemia); decreased calcium in the blood (hypocalcaemia); decreased magnesium in the 
 blood (hypomagnesaemia); decreased sodium in the blood (hyponatraemia); decreased potassium 
 in the blood (hypokalaemia), increased blood potassium (hyperkalaemia), increased blood 
 phosphate (hyperphosphataemia), increased bile pigment in the blood (hyperbilirubinemia), 
 increased level of blood sugar (hyperglycaemia), incresed time for blood to clot (activated partial 
-thromboplastin time prolonged, international normalised ratio increased)] 
-- Decreased appetite 
-- Feeling confused 
-- Fainting (syncope) 
-- Headache 
-- Dizziness 
-- Blurred vision 
-- Fluid around the heart (percardial effusion) 
-- Abnormal or fast heartbeat (tachycardia, sinus tachycardia) 
-- Blushing (flushing) 
-- Decreased level of oxygen in the body (hypoxia) 
-- Fluid in the lungs (pulmonary oedema) 
-- Build-up of fluid around the lungs that may cause breathlessness (pleural effusion) 
-- Difficulty breathing (dyspnoea) 
-- Nose bleeds (epistaxis) 
-- Coughing 
-- Difficulty swallowing (dysphagia) 
-- Diarrhoea 
-- Constipation 
-- Dry mouth or a swollen and sore mouth (stomatitis) 
-- Indigestion (dyspepsia) 
-- Itchy skin (pruritis) 
-- Skin rashes 
-- Excessive sweating (hyperhydrosis) 
-- Very small purple, red, or brown spots on the skin (petechiae) 
-- Pain in shoulders, neck, wrists, legs, and/or arms (pain in extremity), chest, back, joints 
-(arthralgia), muscles (myalgia) or bones. 
-- Muscle weakness 
-- Kidneys suddenly stop working (acute kidney injury) and/or abnormal kidney function tests 
-(increased blood creatinine) 
-- Flu-like symptoms such as aches and pains, fever and shaking<br />
-- Chest pain 
-- Generally feeling unwell (malaise) 
-- Abnormal heart rhythm (Electrocardiogram QT prolonged) 
-- Increased levels of enzymes in the blood seen in blood tests (lactate dehydrogenase, alkaline 
-phosphatase and creatine phosphokinase) 
-- Flushing, shivering, fits, fever, trouble breathing, low blood pressure, rapid heartbeat, sudden 
+thromboplastin time prolonged, international normalised ratio increased)] </li>
+<li>Decreased appetite </li>
+<li>Feeling confused </li>
+<li>Fainting (syncope) </li>
+<li>Headache </li>
+<li>Dizziness </li>
+<li>Blurred vision </li>
+<li>Fluid around the heart (percardial effusion) </li>
+<li>Abnormal or fast heartbeat (tachycardia, sinus tachycardia) </li>
+<li>Blushing (flushing) </li>
+<li>Decreased level of oxygen in the body (hypoxia) </li>
+<li>Fluid in the lungs (pulmonary oedema) </li>
+<li>Build-up of fluid around the lungs that may cause breathlessness (pleural effusion) </li>
+<li>Difficulty breathing (dyspnoea) </li>
+<li>Nose bleeds (epistaxis) </li>
+<li>Coughing </li>
+<li>Difficulty swallowing (dysphagia) </li>
+<li>Diarrhoea </li>
+<li>Constipation </li>
+<li>Dry mouth or a swollen and sore mouth (stomatitis) </li>
+<li>Indigestion (dyspepsia) </li>
+<li>Itchy skin (pruritis) </li>
+<li>Skin rashes </li>
+<li>Excessive sweating (hyperhydrosis) </li>
+<li>Very small purple, red, or brown spots on the skin (petechiae) </li>
+<li>Pain in shoulders, neck, wrists, legs, and/or arms (pain in extremity), chest, back, joints 
+(arthralgia), muscles (myalgia) or bones. </li>
+<li>Muscle weakness </li>
+<li>Kidneys suddenly stop working (acute kidney injury) and/or abnormal kidney function tests 
+(increased blood creatinine) </li>
+<li>Flu-like symptoms such as aches and pains, fever and shaking  </li>
+<li>Chest pain </li>
+<li>Generally feeling unwell (malaise) </li>
+<li>Abnormal heart rhythm (Electrocardiogram QT prolonged) </li>
+<li>Increased levels of enzymes in the blood seen in blood tests (lactate dehydrogenase, alkaline 
+phosphatase and creatine phosphokinase) </li>
+<li>Flushing, shivering, fits, fever, trouble breathing, low blood pressure, rapid heartbeat, sudden 
 swelling of your face, tongue, or trouble swallowing during the infusion or after the infusion on the 
-first day of treatment (infusion-related reaction) 
-- Bruising (contusions) </p>
-<p>Uncommon: may affect up to 1 in 100 people: 
-- Lung infection (pneumonia) 
-- Urinary tract infection 
-- Gum disease (gingivitis) including bleeding gums 
-- Blood test abnormalities [decreased phosphate in the blood (hypophosphataemia), increased lactic 
+first day of treatment (infusion-related reaction) </li>
+<li>Bruising (contusions) </li>
+</ul>
+<p>Uncommon: may affect up to 1 in 100 people:</p>
+<ul>
+<li>Lung infection (pneumonia) </li>
+<li>Urinary tract infection </li>
+<li>Gum disease (gingivitis) including bleeding gums </li>
+<li>Blood test abnormalities [decreased phosphate in the blood (hypophosphataemia), increased lactic 
 acid in the bloodstream (lactic acidosis/acidosis), decreased levels of a blood clotting protein 
-(blood fibrinogen decreased)] 
-- Unusual mood changes including depression and anxiety 
-- Trouble sleeping (insomnia) 
-- Brain function disturbances (encephalopathy/ metabolic encephalopathy) 
-- Stroke 
-- Loss of movement in face (facial paralysis) 
-- Persistent bad taste in mouth (dysgeusia)<br />
-- Worsening of multiple sclerosis (relapse) 
-- Drowsiness (somnolence) 
-- Tingling or numbness (paraesthesia, peripheral sensory neuropathy) 
-- Weakness in muscles (peripheral motor neuropathy) 
-- Bleeding in the white of the eye (conjunctival haemorrhage) 
-- Eye redness (ocular hyperaemia) 
-- Eye floaters (vitreous floaters) 
-- Irregular heartbeat which can lead to the heart stopping (supraventricular extrasystoles, ventricular 
-fibrillation, atrial fibrillation) 
-- Slow heart rate (bradycardia) 
-- Heart attack (myocardial infarction) 
-- High blood pressure (hypertension) 
-- Lungs do not function as they should, causing breathlessness (respiratory failure)<br />
-- Noisy breathing (wheezing) 
-- Mouth and/or throat pain (oropharyngeal pain) 
-- Rapid breathing (tachypnoea) 
-- Bloated stomach and stomach ache 
-- Blisters on the tongue 
-- Blood blister on tongue (tongue haematoma) 
-- Swelling of the face, tongue, limbs or joints (angioedema) 
-- Redness, swelling and pain on the palms of the hands and/or the soles of the feet (palmar-plantar 
-erythrodysesthesia syndrome) 
-- Hives (urticaria) 
-- Hair loss (alopecia) 
-- Skin pain 
-- Dry, red, itchy skin and/or sores on the lower legs (stasis dermatitis) 
-- Cold sweat 
-- Dry skin 
-- Pain of joints, muscles and/or bones, including tail bone (musculoskeletal pain, coccydynia) 
-- Muscle spasm 
-- Muscle pain, weakness, dark or brown urine (rhabdomyolysis) 
-- Kidney failure 
-- Difficulty passing urine 
-- Pain in lower back/ abdomen and/or painful urination (urinary tract pain)<br />
-- Frequent daytime urination (pollakiuria) 
-- Urine test abnormality [increased protein (proteinuria)] 
-- Inability to tolerate side effects of this medicine (drug intolerance) 
-- Low body temperature (hypothermia) 
-- Fever or low body temperature, increased heart rate, increased breathing (systemic inflammatory 
-response syndrome) 
-- Increase in time taken for blood to clot (shown in blood tests)<br />
-- Test positive for bacteria 
-- Decreased weight </p>
+(blood fibrinogen decreased)] </li>
+<li>Unusual mood changes including depression and anxiety </li>
+<li>Trouble sleeping (insomnia) </li>
+<li>Brain function disturbances (encephalopathy/ metabolic encephalopathy) </li>
+<li>Stroke </li>
+<li>Loss of movement in face (facial paralysis) </li>
+<li>Persistent bad taste in mouth (dysgeusia)  </li>
+<li>Worsening of multiple sclerosis (relapse) </li>
+<li>Drowsiness (somnolence) </li>
+<li>Tingling or numbness (paraesthesia, peripheral sensory neuropathy) </li>
+<li>Weakness in muscles (peripheral motor neuropathy) </li>
+<li>Bleeding in the white of the eye (conjunctival haemorrhage) </li>
+<li>Eye redness (ocular hyperaemia) </li>
+<li>Eye floaters (vitreous floaters) </li>
+<li>Irregular heartbeat which can lead to the heart stopping (supraventricular extrasystoles, ventricular 
+fibrillation, atrial fibrillation) </li>
+<li>Slow heart rate (bradycardia) </li>
+<li>Heart attack (myocardial infarction) </li>
+<li>High blood pressure (hypertension) </li>
+<li>Lungs do not function as they should, causing breathlessness (respiratory failure)  </li>
+<li>Noisy breathing (wheezing) </li>
+<li>Mouth and/or throat pain (oropharyngeal pain) </li>
+<li>Rapid breathing (tachypnoea) </li>
+<li>Bloated stomach and stomach ache </li>
+<li>Blisters on the tongue </li>
+<li>Blood blister on tongue (tongue haematoma) </li>
+<li>Swelling of the face, tongue, limbs or joints (angioedema) </li>
+<li>Redness, swelling and pain on the palms of the hands and/or the soles of the feet (palmar-plantar 
+erythrodysesthesia syndrome) </li>
+<li>Hives (urticaria) </li>
+<li>Hair loss (alopecia) </li>
+<li>Skin pain </li>
+<li>Dry, red, itchy skin and/or sores on the lower legs (stasis dermatitis) </li>
+<li>Cold sweat </li>
+<li>Dry skin </li>
+<li>Pain of joints, muscles and/or bones, including tail bone (musculoskeletal pain, coccydynia) </li>
+<li>Muscle spasm </li>
+<li>Muscle pain, weakness, dark or brown urine (rhabdomyolysis) </li>
+<li>Kidney failure </li>
+<li>Difficulty passing urine </li>
+<li>Pain in lower back/ abdomen and/or painful urination (urinary tract pain)  </li>
+<li>Frequent daytime urination (pollakiuria) </li>
+<li>Urine test abnormality [increased protein (proteinuria)] </li>
+<li>Inability to tolerate side effects of this medicine (drug intolerance) </li>
+<li>Low body temperature (hypothermia) </li>
+<li>Fever or low body temperature, increased heart rate, increased breathing (systemic inflammatory 
+response syndrome) </li>
+<li>Increase in time taken for blood to clot (shown in blood tests)  </li>
+<li>Test positive for bacteria </li>
+<li>Decreased weight </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
@@ -324,9 +332,9 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Unopened vial: Store and transport frozen (-20 °C±5 °C) </p>
+<p>Unopened vial: Store and transport frozen (-20  C 5  C) </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>Diluted solution: use immediately or store below 25 °C and use within 4 hours.  Do not re-freeze, once 
+<p>Diluted solution: use immediately or store below 25  C and use within 4 hours.  Do not re-freeze, once 
 thawed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your healthcare professional 
 will throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -340,7 +348,7 @@ will throw away medicines you no longer use. These measures will help protect th
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ELZONRIS contains<br />
 - The active substance is tagraxofusp. Each vial contains 1 mg of tagraxofusp in 1mL of concetrate.<br />
 - The other ingredients are trometamol, sodium chloride, sorbitol (E420) and water for injections 
-(see section 2 ‘ELZONRIS contains sorbitol (E420) and sodium’).  </p>
+(see section 2  ELZONRIS contains sorbitol (E420) and sodium ).  </p>
 <p>What ELZONRIS looks like and contents of the pack 
 ELZONRIS concentrate for solution for infusion (sterile concentrate) is a clear, colourless liquid. A 
 few white to translucent particles may be present. </p>
@@ -357,37 +365,37 @@ Basisweg 10,
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing<br />
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien; България; 
-Česká republika; Danmark; Eesti; 
-Ελλάδα; Hrvatska; Ireland; Ísland; 
-Κύπρος; Latvija; Lietuva; 
+<p>Belgi /Belgique/Belgien;  ; 
+ esk  republika; Danmark; Eesti; 
+ ; Hrvatska; Ireland;  sland; 
+ ; Latvija; Lietuva; 
 Italia 
 Menarini Stemline Italia S.r.l. 
 Tel: +39 800776EUmedinfo@menarinistemline.com </p>
 <p>Luxembourg/Luxemburg; 
-Magyarország; Malta; Nederland; 
-Norge; Polska; Portugal; România; 
-Slovenija; Slovenská republika; 
+Magyarorsz g; Malta; Nederland; 
+Norge; Polska; Portugal; Rom nia; 
+Slovenija; Slovensk  republika; 
 Suomi/Finland; Sverige 
 Stemline Therapeutics B.V. 
 Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
 <p>Deutschland 
 Menarini Stemline Deutschland GmbH 
 Tel: +49 (0)800 0008EUmedinfo@menarinistemline.com </p>
-<p>Österreich 
+<p>sterreich 
 Stemline Therapeutics B.V. 
 Tel: +43 (0)800 297 EUmedinfo@menarinistemline.com 
-España 
-Menarini Stemline España, S.L.U. 
+Espa a 
+Menarini Stemline Espa a, S.L.U. 
 Tel: +34919490EUmedinfo@menarinistemline.com </p>
 <p>United Kingdom (Northern Ireland) 
 Stemline Therapeutics B.V. 
 Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
 <p>France 
 Stemline Therapeutics B.V. 
-Tél: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
+T l: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

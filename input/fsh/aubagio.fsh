@@ -4,7 +4,7 @@ Instance: composition-en-69e7e3b7b762d214fbbb48c707c30105
 InstanceOf: CompositionUvEpi
 Title: "Composition for aubagio Package Leaflet"
 Description:  "Composition for aubagio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -80,10 +80,12 @@ and spinal cord. In multiple sclerosis, inflammation destroys the protective she
 nerves in the CNS. This loss of myelin is called demyelination. This stops nerves from working properly.  </p>
 <p>People with relapsing form of multiple sclerosis will have repeated attacks (relapses) of physical symptoms 
 caused by their nerves not working properly. These symptoms vary from patient to patient but usually 
-involve: 
-- difficulty walking 
-- vision problems 
-- balance problems. </p>
+involve:</p>
+<ul>
+<li>difficulty walking </li>
+<li>vision problems </li>
+<li>balance problems. </li>
+</ul>
 <p>Symptoms may disappear completely after the relapse is over, but over time, some problems may remain 
 between relapses. This can cause physical disabilities that may interfere with your daily activities. </p>
 <p>How AUBAGIO works 
@@ -98,24 +100,26 @@ damage in MS. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take aubagio"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take AUBAGIO:<br />
-- if you are allergic to teriflunomide or any of the other ingredients of this medicine (listed in section 6), 
-- if you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores after 
-taking teriflunomide or leflunomide, 
-- if you have severe liver problems, 
-- if you are pregnant, think you may be pregnant, or are breast-feeding, 
-- if you suffer from a serious problem which affects your immune system e.g. acquired 
-immunodeficiency syndrome (AIDS), 
-- if you have a serious problem with your bone marrow, or if you have low numbers of red or white 
-cells in your blood or a reduced number of blood platelets, 
-- if you are suffering from a serious infection, 
-- if you have severe kidney problems which require dialysis, 
-- if you have very low levels of proteins in your blood (hypoproteinaemia), 
-If you are not sure, talk to your doctor or pharmacist before taking this medicine. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take AUBAGIO:</p>
+<ul>
+<li>if you are allergic to teriflunomide or any of the other ingredients of this medicine (listed in section 6), </li>
+<li>if you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores after 
+taking teriflunomide or leflunomide, </li>
+<li>if you have severe liver problems, </li>
+<li>if you are pregnant, think you may be pregnant, or are breast-feeding, </li>
+<li>if you suffer from a serious problem which affects your immune system e.g. acquired 
+immunodeficiency syndrome (AIDS), </li>
+<li>if you have a serious problem with your bone marrow, or if you have low numbers of red or white 
+cells in your blood or a reduced number of blood platelets, </li>
+<li>if you are suffering from a serious infection, </li>
+<li>if you have severe kidney problems which require dialysis, </li>
+<li>if you have very low levels of proteins in your blood (hypoproteinaemia), 
+If you are not sure, talk to your doctor or pharmacist before taking this medicine. </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking AUBAGIO if: 
--<br />
-you have liver problems and/or if you drink large amounts of alcohol. Your doctor will carry out blood 
+Talk to your doctor or pharmacist before taking AUBAGIO if:</p>
+<ul>
+<li>you have liver problems and/or if you drink large amounts of alcohol. Your doctor will carry out blood 
 tests before and during treatment to check how well your liver is working. If your test results show a 
 problem with your liver, your doctor may stop your treatment with AUBAGIO. Please read section 4. -<br />
 you have high blood pressure (hypertension) whether it is controlled with medicines or not. 
@@ -124,13 +128,14 @@ before the start of treatment and regularly thereafter. Please read section 4. -
 you have an infection. Before you take AUBAGIO, your doctor will make sure you have enough white 
 blood cells and platelets in your blood. As AUBAGIO decreases the number of white cells in the 
 blood this may affect your ability to fight the infection. Your doctor may do blood tests to check your 
-white blood cells if you think you have an infection. Please read section 4. - you have severe skin reactions. 
-- you have respiratory symptoms. 
-- you have weakness, numbness and pain in the hands and feet. 
-- you are going to have a vaccination. 
-- you take leflunomide with AUBAGIO. 
-- you are switching to or from AUBAGIO.<br />
-- you are due to have a specific blood test (calcium level). Falsely low levels of calcium can be detected. </p>
+white blood cells if you think you have an infection. Please read section 4. - you have severe skin reactions. </li>
+<li>you have respiratory symptoms. </li>
+<li>you have weakness, numbness and pain in the hands and feet. </li>
+<li>you are going to have a vaccination. </li>
+<li>you take leflunomide with AUBAGIO. </li>
+<li>you are switching to or from AUBAGIO.  </li>
+<li>you are due to have a specific blood test (calcium level). Falsely low levels of calcium can be detected. </li>
+</ul>
 <p>Respiratory reactions<br />
 Tell your doctor if you have unexplained cough and dyspnoea (shortness of breath). Your doctor may 
 perform additional tests </p>
@@ -138,35 +143,39 @@ perform additional tests </p>
 AUBAGIO is not intended for use in children under 10 years of age, as it has not been studied in MS patients 
 in this age group.<br />
 The warnings and precautions listed above also apply to children. The following information is important for 
-children and their caregivers:<br />
-- inflammation of the pancreas has been observed in patients receiving teriflunomide. Your child’s 
-doctor may carry out blood tests if an inflammation to the pancreas is suspected.   </p>
+children and their caregivers:</p>
+<ul>
+<li>inflammation of the pancreas has been observed in patients receiving teriflunomide. Your child s 
+doctor may carry out blood tests if an inflammation to the pancreas is suspected.   </li>
+</ul>
 <p>Other medicines and AUBAGIO<br />
 Tell your your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. 
 This includes medicines obtained without a prescription. 
-In particular, tell your doctor or pharmacist if you are taking any of the following:<br />
-- leflunomide, methotrexate and other medicines that affect the immune system (often called 
-immunosuppressants or immunomodulators) 
-- rifampicin (a medicine used to treat tuberculosis and other infections) 
-- carbamazepine, phenobarbital, phenytoin for epilepsy 
-- St John’s wort (a herbal medicine for depression) 
-- repaglinide, pioglitazone, nateglinide, or rosiglitazone for diabetes 
-- daunorubicin, doxorubicin, paclitaxel, or topotecan for cancer 
-- duloxetine for depression, urinary incontinenece or in kidney disease in diabetics 
-- alosetron for the management of severe diarrhoea 
-- theophylline for asthma 
-- tizanidine, a muscle relaxant 
-- warfarin, an anticoagulant used to make the blood thinner (i.e. more fluid) in order to avoid blood clots 
-- oral contraceptives (containing ethinylestradiol and levonorgestrel) 
-- cefaclor, benzylpenicillin (penicillin G), ciprofloxacin for infections 
-- indometacin, ketoprofen for pain or inflammation 
-- furosemide for heart disease 
-- cimetidine for reducing gastric acid 
-- zidovudine for HIV infection 
-- rosuvastatin, simvastatin, atorvastatin, pravastatin for hypercholesterolemia (high cholesterol) 
-- sulfasalazine for inflammatory bowel disease or rheumatoid arthritis 
-- cholestyramine for high cholesterol or relief from itching in liver disease 
-- activated charcoal to reduce absorption of medicines or other substances </p>
+In particular, tell your doctor or pharmacist if you are taking any of the following:</p>
+<ul>
+<li>leflunomide, methotrexate and other medicines that affect the immune system (often called 
+immunosuppressants or immunomodulators) </li>
+<li>rifampicin (a medicine used to treat tuberculosis and other infections) </li>
+<li>carbamazepine, phenobarbital, phenytoin for epilepsy </li>
+<li>St John s wort (a herbal medicine for depression) </li>
+<li>repaglinide, pioglitazone, nateglinide, or rosiglitazone for diabetes </li>
+<li>daunorubicin, doxorubicin, paclitaxel, or topotecan for cancer </li>
+<li>duloxetine for depression, urinary incontinenece or in kidney disease in diabetics </li>
+<li>alosetron for the management of severe diarrhoea </li>
+<li>theophylline for asthma </li>
+<li>tizanidine, a muscle relaxant </li>
+<li>warfarin, an anticoagulant used to make the blood thinner (i.e. more fluid) in order to avoid blood clots </li>
+<li>oral contraceptives (containing ethinylestradiol and levonorgestrel) </li>
+<li>cefaclor, benzylpenicillin (penicillin G), ciprofloxacin for infections </li>
+<li>indometacin, ketoprofen for pain or inflammation </li>
+<li>furosemide for heart disease </li>
+<li>cimetidine for reducing gastric acid </li>
+<li>zidovudine for HIV infection </li>
+<li>rosuvastatin, simvastatin, atorvastatin, pravastatin for hypercholesterolemia (high cholesterol) </li>
+<li>sulfasalazine for inflammatory bowel disease or rheumatoid arthritis </li>
+<li>cholestyramine for high cholesterol or relief from itching in liver disease </li>
+<li>activated charcoal to reduce absorption of medicines or other substances </li>
+</ul>
 <p>Pregnancy and breast-feeding<br />
 Do not take AUBAGIO if you are, or think you may be pregnant. If you are pregnant or become pregnant 
 while taking AUBAGIO, the risk of having a baby with birth defects is increased. Women of childbearing 
@@ -200,7 +209,7 @@ affected, do not drive or use machines. </p>
 AUBAGIO contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>AUBAGIO contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aubagio"
@@ -213,9 +222,11 @@ sclerosis. </p>
 <p>Adults 
 The recommended dose is one 14 mg tablet daily.  </p>
 <p>Children and adolescents (10 years of age and above)<br />
-The dose depends on body weight: 
-- Children with body weight greater than 40 kg: one 14 mg tablet daily.<br />
-- Children with body weight less than or equal to 40 kg: one 7 mg tablet daily.  </p>
+The dose depends on body weight:</p>
+<ul>
+<li>Children with body weight greater than 40 kg: one 14 mg tablet daily.  </li>
+<li>Children with body weight less than or equal to 40 kg: one 7 mg tablet daily.  </li>
+</ul>
 <p>Children and adolescents who reach a stable body weight above 40 kg will be instructed by their doctor to 
 switch to one 14 mg tablet daily. </p>
 <p>Route/method of administration 
@@ -253,9 +264,11 @@ mouth
 - severe infections or sepsis (a potentially life-threatening type of infection) which might include 
 symptoms of high fever, shaking, chills, reduced urine flow, or confusion 
 - inflammation of the lungs which might include symptoms of shortness of breath or persistent cough </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- serious liver disease which might include symptoms of yellowing of your skin or the whites of your 
-eyes, darker urine than normal, unexplained nausea and vomiting, or abdominal pain </p>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>serious liver disease which might include symptoms of yellowing of your skin or the whites of your 
+eyes, darker urine than normal, unexplained nausea and vomiting, or abdominal pain </li>
+</ul>
 <p>Other side effects can occur with the following frequencies: 
 Very common (may affect more than 1 in 10 people) 
 - Headache 
@@ -314,7 +327,7 @@ V. By reporting side effects you can help provide more information on the safety
   * code.text = "5. How to store aubagio"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and wallet after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and wallet after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
@@ -333,25 +346,27 @@ The active substance is teriflunomide.  </p>
 - The other ingredients are lactose monohydrate, maize starch, microcrystalline cellulose, sodium starch 
 glycolate (Type A), hydroxypropylcellulose, magnesium stearate, hypromellose, titanium dioxide 
 (E171), talc, macrogol 8000, indigo carmine aluminum lake (E132), and iron oxide yellow (E172) (see 
-section 2 “Aubagio contains lactose”).  </p>
+section 2  Aubagio contains lactose ).  </p>
 <p>AUBAGIO 14 mg film-coated tablets 
 - Each tablet contains 14 mg of teriflunomide.<br />
 - The other ingredients are lactose monohydrate, maize starch, microcrystalline cellulose, sodium starch 
 glycolate (Type A), hydroxypropylcellulose, magnesium stearate, hypromellose, titanium dioxide 
-(E171), talc, macrogol 8000, indigo carmine aluminum lake (E132) (see section 2 “Aubagio contains 
-lactose”).  </p>
+(E171), talc, macrogol 8000, indigo carmine aluminum lake (E132) (see section 2  Aubagio contains 
+lactose ).  </p>
 <p>What AUBAGIO looks like and contents of the pack </p>
 <p>AUBAGIO 7 mg film-coated tablet (tablets)<br />
 The film-coated tablets are very light greenish-bluish grey to pale greenish-blue, hexagonal film-coated 
-tablet with imprint on one side (‘7’) and engraved with the corporate logo on other side. </p>
+tablet with imprint on one side ( 7 ) and engraved with the corporate logo on other side. </p>
 <p>AUBAGIO 7 mg film-coated tablets are available in cardboard cartons containing 28 tablets in a wallet 
 packs with the integrated blisters. </p>
 <p>AUBAGIO 14 mg film-coated tablet (tablets)<br />
 The film-coated tablets are pale blue to pastel blue, pentagonal film-coated tablet with imprint on one side 
-(‘14’) and engraved with a corporate logo on the other side. </p>
-<p>AUBAGIO 14 mg film-coated tablets are available in cardboard cartons containing: 
-- 14, 28, 84 and 98 tablets in wallet packs with integrated blisters; 
-- 10x1 tablet in perforated unit-dose blisters. </p>
+( 14 ) and engraved with a corporate logo on the other side. </p>
+<p>AUBAGIO 14 mg film-coated tablets are available in cardboard cartons containing:</p>
+<ul>
+<li>14, 28, 84 and 98 tablets in wallet packs with integrated blisters; </li>
+<li>10x1 tablet in perforated unit-dose blisters. </li>
+</ul>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Sanofi Winthrop Industrie 
@@ -362,7 +377,7 @@ France </p>
 Opella Healthcare International SAS 
 56, Route de Choisy 
 60200<br />
-Compiègne 
+Compi gne 
 France </p>
 <p>Sanofi Winthrop Industrie<br />
 30-36, avenue Gustave Eiffel 
@@ -370,22 +385,21 @@ France </p>
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tel/Tél/Tel: +32 (0)2 710 54<br />
+Tel/T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
  Tel: +36 1 505 0 
 Danmark 
@@ -400,32 +414,31 @@ Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
 Nederland 
 Sanofi B.V. 
 Tel: +31 20 245 4Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10  </p>
 <p>Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis S.A. 
 Tel: +34 93 485 94 Polska 
 sanofi-aventis Sp. z o.o.<br />
 Tel: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie<br />
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23  </p>
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23  </p>
 <p>Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
+Sanofi - Produtos Farmac uticos, Lda 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -433,10 +446,10 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +353 (0) 1 403 56 Slovenija 
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51  </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33 <br />
 Italia 
@@ -444,10 +457,9 @@ Sanofi S.r.l.
 Tel: 800536 
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB<br />
 Tel: +46 (0) 8 634 5 

@@ -4,7 +4,7 @@ Instance: composition-en-6c515aae840296fe980507ee7ecb6244
 InstanceOf: CompositionUvEpi
 Title: "Composition for yargesa Package Leaflet"
 Description:  "Composition for yargesa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ metabolism. It is used to treat two conditions: </p>
 <ul>
 <li>Yargesa is used to treat mild to moderate type 1 Gaucher disease in adults. 
 In type 1 Gaucher disease, a substance called glucosylceramide is not removed from your body. It 
-starts to build up in certain cells of the body’s immune system. This can result in liver and spleen 
+starts to build up in certain cells of the body s immune system. This can result in liver and spleen 
 enlargement, changes in the blood and bone disease. </li>
 </ul>
 <p>The usual treatment for type 1 Gaucher disease is enzyme replacement therapy. Yargesa is only used 
@@ -85,7 +85,7 @@ If you have Niemann-Pick type C disease, fats such as glycosphingolipids build u
 brain. This can result in disturbances in neurological functions such as slow eye movements, balance, 
 swallowing, and memory, and in seizures. </li>
 </ul>
-<p>Yargesa works by inhibiting the enzyme called ‘glucosylceramide synthase’ which is responsible for 
+<p>Yargesa works by inhibiting the enzyme called  glucosylceramide synthase  which is responsible for 
 the first step in the synthesis of most glycosphingolipids. </p>         </div>"""   
           
 
@@ -160,7 +160,16 @@ For children less than 12 years old, your doctor will adjust the dose for Nieman
 If you have a problem with your kidneys you may receive a lower starting dose. Your doctor may 
 reduce your dose, e.g., to one capsule (100 mg) once or twice a day, if you suffer from diarrhoea when 
 taking Yargesa (see section 4). Your doctor will tell you how long your treatment will last. </p>
-<p>To remove the capsule: </p>         </div>"""         
+<p>To remove the capsule: 
+1. Separate at perforations 
+2. Peel back paper at arrows 
+3. Push product through foil </p>
+<p>Yargesa can be taken with or without food. You should swallow the whole capsule with a glass of 
+water. </p>
+<p>If you take more Yargesa than you should 
+If you take more capsules than you were told to, consult your doctor immediately. Miglustat has been 
+used in clinical trials at doses up to 3000 mg : this caused decreases in white blood cells and other 
+side effects similar to those described in section </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -168,32 +177,16 @@ taking Yargesa (see section 4). Your doctor will tell you how long your treatmen
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Peel back paper at arrows </li>
-</ol>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store yargesa"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store yargesa"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yargesa can be taken with or without food. You should swallow the whole capsule with a glass of 
-water. </p>
-<p>If you take more Yargesa than you should 
-If you take more capsules than you were told to, consult your doctor immediately. Miglustat has been 
-used in clinical trials at doses up to 3000 mg : this caused decreases in white blood cells and other 
-side effects similar to those described in section 4.<br />
-If you forget to take Yargesa </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Yargesa </p>
 <p>Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Yargesa 
 Do not stop taking this medicine without talking to your doctor. 
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store yargesa"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store yargesa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Most serious side effects 
@@ -209,7 +202,7 @@ will need to reduce the dose or stop Yargesa treatment to stop the tremor. </p>
 <p>Very common effects (may affect more than 1 in 10 people) 
 The most common side effects are diarrhoea, flatulence (wind), abdominal (stomach) pain, weight loss 
 and decreased appetite. </p>
-<p>If you do lose some weight when you start treatment with Yargesa don’t worry. People usually stop </p>
+<p>If you do lose some weight when you start treatment with Yargesa don t worry. People usually stop </p>
 <p>losing weight as treatment goes on. </p>
 <p>Common effects (may affect up to 1 in 10 people) 
 Common side effects of treatment include headache, dizziness, paraesthesia (tingling or numbness), 
@@ -228,4 +221,17 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system<br />
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not take this medicine after the expiry date which is stated on the blister and carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer take. These measures will help protect the environment. </p>         </div>"""      
 

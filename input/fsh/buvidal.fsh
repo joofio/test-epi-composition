@@ -4,7 +4,7 @@ Instance: composition-en-65c3d51a8623ae84242075e46df738cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for buvidal Package Leaflet"
 Description:  "Composition for buvidal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Buvidal is and what it is used for  
-2. What you need to know before you receive Buvidal 
+2. What you need to know before you receive  Buvidal 
 3. How Buvidal is given 
 4. Possible side effects  
 5. How to store Buvidal 
@@ -90,21 +90,23 @@ section 6) </li>
 hallucinations caused by alcohol. </li>
 </ul>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before receiving Buvidal if you have: 
-- asthma or other breathing problems 
-- any liver disease such as hepatitis 
-- severe kidney impairment 
-- certain heart rhythm conditions (long QT syndrome or prolonged QT interval) 
-- low blood pressure 
-- recently suffered a head injury or brain disease 
-- a urinary disorder (especially linked to enlarged prostate in men) 
-- thyroid problems 
-- an adrenocortical disorder (e.g. Addison’s disease) 
-- gall bladder problems 
-- depression or other conditions that are treated with antidepressants.<br />
+<p>Talk to your doctor before receiving Buvidal if you have:</p>
+<ul>
+<li>asthma or other breathing problems </li>
+<li>any liver disease such as hepatitis </li>
+<li>severe kidney impairment </li>
+<li>certain heart rhythm conditions (long QT syndrome or prolonged QT interval) </li>
+<li>low blood pressure </li>
+<li>recently suffered a head injury or brain disease </li>
+<li>a urinary disorder (especially linked to enlarged prostate in men) </li>
+<li>thyroid problems </li>
+<li>an adrenocortical disorder (e.g. Addison s disease) </li>
+<li>gall bladder problems </li>
+<li>depression or other conditions that are treated with antidepressants.<br />
 The use of these medicines together with Buvidal can lead to serotonin syndrome, a potentially 
-life-threatening condition (see “Other medicines and Buvidal”) 
-- if you have ever had an allergic reaction to latex. </p>
+life-threatening condition (see  Other medicines and Buvidal ) </li>
+<li>if you have ever had an allergic reaction to latex. </li>
+</ul>
 <p>Important things to be aware of 
 - Breathing problems: Some people have died from very slow or shallow breathing caused by 
 taking buprenorphine with other central nervous system depressants (substances that slow down 
@@ -139,52 +141,54 @@ doctor if you are an adolescent (16-17 years old). </p>
 <p>Other medicines and Buvidal </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines. 
 Some medicines may increase the side effects of Buvidal and may cause very serious reactions.  </p>
-<p>It is especially important to tell your doctor if you are taking: 
-- benzodiazepines (used to treat anxiety or sleep disorders). Taking too much of a 
+<p>It is especially important to tell your doctor if you are taking:</p>
+<ul>
+<li>benzodiazepines (used to treat anxiety or sleep disorders). Taking too much of a 
 benzodiazepine together with Buvidal may lead to death because both medicines can cause very 
 slow and shallow breathing (respiratory depression). If you need a benzodiazepine, your doctor 
-will prescribe the correct dose. 
-- gabapentinoids (gabapentin or pregabalin) (used to treat epilepsy or neuropathic pain). 
+will prescribe the correct dose. </li>
+<li>gabapentinoids (gabapentin or pregabalin) (used to treat epilepsy or neuropathic pain). 
 Taking too much of a gabapentinoid may lead to death because both medicines can cause very 
 slow and shallow breathing (respiratory depression). You must use the dose that your doctor has 
-prescribed for you. 
-- alcohol or medicines containing alcohol. Alcohol can worsen the sedative effect of this 
-medicine. 
-- other medicines that may make you feel sleepy which are used to treat illnesses such as 
+prescribed for you. </li>
+<li>alcohol or medicines containing alcohol. Alcohol can worsen the sedative effect of this 
+medicine. </li>
+<li>other medicines that may make you feel sleepy which are used to treat illnesses such as 
 anxiety, sleeplessness, convulsions (fits) and pain. These medicines when taken together with 
 Buvidal can slow down some brain activity and reduce alertness and how well you will drive 
 and use machines. 
-Examples of medicines that can make you feel sleepy or less alert include: 
-* other opioids such as methadone, certain painkillers and cough medicines. These 
-medicines may also increase the risk of opioid overdose 
-* antidepressants (used to treat depression) 
-* sedative antihistamines (used to treat allergic reactions) 
-* barbiturates (used to cause sleep or sedation) 
-* certain anxiolytics (used to treat anxiety disorders) 
-* antipsychotics (used to treat psychiatric disorders such as schizophrenia) 
-* clonidine (used to treat high blood pressure). 
-- opioid painkillers. These medicines may not work properly when taken together with Buvidal 
-and they may increase the risk of overdose. 
-- naltrexone and nalmefene (used to treat addiction disorders) as they can stop Buvidal from 
-working properly. You should not take them at the same time as this medicine. 
-- certain antiretrovirals (used to treat HIV infection) such as ritonavir, nelfinavir or indinavir as 
-they may increase the effects of this medicine. 
-- certain antifungal medicines (used to treat fungal infections) such as ketoconazole, 
-itraconazole as they may increase the effects of this medicine. 
-- macrolide antibiotics (used to treat bacterial infections) such as clarithromycin and 
-erythromycin as they may increase the effects of this medicine. 
-- certain antiepileptic medicines (used to treat epilepsy) such as phenobarbital, carbamazepine 
-and phenytoin as they may decrease the effect of Buvidal. 
-- rifampicin (used to treat tuberculosis). Rifampicin may decrease the effect of Buvidal. 
-- monoamine oxidase inhibitors (used to treat depression) such as phenelzine, isocarboxazid, 
-iponiazid and tranylcypromine as they may increase the effects of this medicine. 
-- anti-depressants such as moclobemide, tranylcypromine, citalopram, escitalopram, fluoxetine, 
+Examples of medicines that can make you feel sleepy or less alert include: </li>
+<li>other opioids such as methadone, certain painkillers and cough medicines. These 
+medicines may also increase the risk of opioid overdose </li>
+<li>antidepressants (used to treat depression) </li>
+<li>sedative antihistamines (used to treat allergic reactions) </li>
+<li>barbiturates (used to cause sleep or sedation) </li>
+<li>certain anxiolytics (used to treat anxiety disorders) </li>
+<li>antipsychotics (used to treat psychiatric disorders such as schizophrenia) </li>
+<li>clonidine (used to treat high blood pressure). </li>
+<li>opioid painkillers. These medicines may not work properly when taken together with Buvidal 
+and they may increase the risk of overdose. </li>
+<li>naltrexone and nalmefene (used to treat addiction disorders) as they can stop Buvidal from 
+working properly. You should not take them at the same time as this medicine. </li>
+<li>certain antiretrovirals (used to treat HIV infection) such as ritonavir, nelfinavir or indinavir as 
+they may increase the effects of this medicine. </li>
+<li>certain antifungal medicines (used to treat fungal infections) such as ketoconazole, 
+itraconazole as they may increase the effects of this medicine. </li>
+<li>macrolide antibiotics (used to treat bacterial infections) such as clarithromycin and 
+erythromycin as they may increase the effects of this medicine. </li>
+<li>certain antiepileptic medicines (used to treat epilepsy) such as phenobarbital, carbamazepine 
+and phenytoin as they may decrease the effect of Buvidal. </li>
+<li>rifampicin (used to treat tuberculosis). Rifampicin may decrease the effect of Buvidal. </li>
+<li>monoamine oxidase inhibitors (used to treat depression) such as phenelzine, isocarboxazid, 
+iponiazid and tranylcypromine as they may increase the effects of this medicine. </li>
+<li>anti-depressants such as moclobemide, tranylcypromine, citalopram, escitalopram, fluoxetine, 
 fluvoxamine, paroxetine, sertraline, duloxetine, venlafaxine, amitriptyline, doxepine, or 
 trimipramine. These medicines may interact with Buvidal and you may experience symptoms 
 such as involuntary, rhythmic contractions of muscles, including the muscles that control 
 movement of the eye, agitation, hallucinations, coma, excessive sweating, tremor, exaggeration 
-of reflexes, increased muscle tension, body temperature above 38°C. Contact your doctor when 
-experiencing such symptoms.  </p>
+of reflexes, increased muscle tension, body temperature above 38 C. Contact your doctor when 
+experiencing such symptoms.  </li>
+</ul>
 <p>Buvidal with alcohol </p>
 <p>Do not take alcohol while using Buvidal, (see section 2 warnings and precautions). Taking alcohol 
 with this medicine may increase drowsiness and may increase the risk of breathing problems.  </p>
@@ -271,51 +275,63 @@ If you have any further questions on the use of this product, ask your doctor. <
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately or get urgent medical attention if you have side effects such as: 
-- sudden wheezing, difficulty breathing, swelling of the eyelids, face, tongue, lips, throat or 
+<p>Tell your doctor immediately or get urgent medical attention if you have side effects such as:</p>
+<ul>
+<li>sudden wheezing, difficulty breathing, swelling of the eyelids, face, tongue, lips, throat or 
 hands; rash or itching especially over your whole body. These may be signs of a life-threatening 
-allergic reaction. 
-- if you start to breathe more slowly or weakly than usual (respiratory depression). 
-- if you start to feel faint, as this may be a sign of low blood pressure. </p>
-<p>Also tell your doctor immediately if you get side effects such as: 
-- severe tiredness, have no appetite or if your skin or eyes look yellow. These may be symptoms 
-of liver damage. </p>
+allergic reaction. </li>
+<li>if you start to breathe more slowly or weakly than usual (respiratory depression). </li>
+<li>if you start to feel faint, as this may be a sign of low blood pressure. </li>
+</ul>
+<p>Also tell your doctor immediately if you get side effects such as:</p>
+<ul>
+<li>severe tiredness, have no appetite or if your skin or eyes look yellow. These may be symptoms 
+of liver damage. </li>
+</ul>
 <p>Other side effects: 
-Very common side effects (may affect more than 1 in 10 people): 
-- Insomnia (inability to sleep) 
-- Headache 
-- Nausea (feeling sick) 
-- Sweating, drug withdrawal syndrome, pain. </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- Infection, influenza, sore throat and painful swallowing, runny nose 
-- Swollen glands (lymph nodes) 
-- Hypersensitivity 
-- Decreased appetite 
-- Anxiety, agitation, depression, hostility, nervousness, abnormal thinking, paranoia 
-- Sleepiness, feeling dizzy, migraine, burning or tingling in hands and feet, fainting, tremor, 
-increase in muscle tension, speech disorders 
-- Watery eyes, abnormal widening or narrowing of the pupil (the dark part of the eye) 
-- Palpitations 
-- Low blood pressure 
-- Cough, shortness of breath, yawning, asthma, bronchitis 
-- Constipation, vomiting (being sick), belly pain, flatulence (wind), indigestion, dry mouth, 
-diarrhoea 
-- Rash, itching, hives 
-- Joint pain, back pain, muscle pain, muscle spasms, neck pain, bone pain 
-- Painful period 
-- Injection site reactions e.g. pain, itching, red skin, swelling and hardening of skin, swelling of 
+Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Insomnia (inability to sleep) </li>
+<li>Headache </li>
+<li>Nausea (feeling sick) </li>
+<li>Sweating, drug withdrawal syndrome, pain. </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Infection, influenza, sore throat and painful swallowing, runny nose </li>
+<li>Swollen glands (lymph nodes) </li>
+<li>Hypersensitivity </li>
+<li>Decreased appetite </li>
+<li>Anxiety, agitation, depression, hostility, nervousness, abnormal thinking, paranoia </li>
+<li>Sleepiness, feeling dizzy, migraine, burning or tingling in hands and feet, fainting, tremor, 
+increase in muscle tension, speech disorders </li>
+<li>Watery eyes, abnormal widening or narrowing of the pupil (the dark part of the eye) </li>
+<li>Palpitations </li>
+<li>Low blood pressure </li>
+<li>Cough, shortness of breath, yawning, asthma, bronchitis </li>
+<li>Constipation, vomiting (being sick), belly pain, flatulence (wind), indigestion, dry mouth, 
+diarrhoea </li>
+<li>Rash, itching, hives </li>
+<li>Joint pain, back pain, muscle pain, muscle spasms, neck pain, bone pain </li>
+<li>Painful period </li>
+<li>Injection site reactions e.g. pain, itching, red skin, swelling and hardening of skin, swelling of 
 the ankles, feet or fingers, weakness, feeling unwell, fever, chills, drug withdrawal syndrome in 
-the new-born, chest pain 
-- Abnormal liver test results. </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- Skin infection at the injection site 
-- A feeling of dizziness or spinning (vertigo). </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- Hallucinations, feeling happiness and excitement (euphoria) 
-- Abnormal redness of the skin 
-- Painful or difficult urination 
-- Injection site reactions e.g. open sores, a swollen area with collected pus, and death of cells or 
-tissue at the injection site. </p>
+the new-born, chest pain </li>
+<li>Abnormal liver test results. </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Skin infection at the injection site </li>
+<li>A feeling of dizziness or spinning (vertigo). </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Hallucinations, feeling happiness and excitement (euphoria) </li>
+<li>Abnormal redness of the skin </li>
+<li>Painful or difficult urination </li>
+<li>Injection site reactions e.g. open sores, a swollen area with collected pus, and death of cells or 
+tissue at the injection site. </li>
+</ul>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
@@ -375,7 +391,7 @@ Sweden
 medicalinfo@camurus.com </p>
 <p>Manufacturer 
 Rechon Life Science AB 
-Soldattorpsvägen 5 
+Soldattorpsv gen 5 
 216 13 Limhamn 
 Sweden </p>
 <p>This leaflet was last revised in . </p>

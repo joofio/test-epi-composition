@@ -4,7 +4,7 @@ Instance: composition-en-d184441eaf6370e77e170ec9c0dc05db
 InstanceOf: CompositionUvEpi
 Title: "Composition for zimbus Package Leaflet"
 Description:  "Composition for zimbus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use Zimbus Breezhaler 
 4. Possible side effects 
 5. How to store Zimbus Breezhaler 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -70,10 +69,12 @@ Usage: #example
   * code.text =  "1. What zimbus is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zimbus Breezhaler is and how it works 
-Zimbus Breezhaler contains three active substances: 
-- indacaterol 
-- glycopyrronium 
-- mometasone furoate </p>
+Zimbus Breezhaler contains three active substances:</p>
+<ul>
+<li>indacaterol </li>
+<li>glycopyrronium </li>
+<li>mometasone furoate </li>
+</ul>
 <p>Indacaterol and glycopyrronium belong to a group of medicines called bronchodilators. They work in 
 different ways to relax the muscles of the small airways in the lungs. This helps to open the airways 
 and makes it easier for air to get in and out of the lungs. When they are taken regularly, they help the 
@@ -99,52 +100,58 @@ prescribed for you, ask your doctor. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take zimbus"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all the doctor’s instructions carefully. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all the doctor s instructions carefully. </p>
 <p>Do not use Zimbus Breezhaler 
 - if you are allergic to indacaterol, glycopyrronium, mometasone furoate, or any of the other 
 ingredients of this medicine (listed in section 6). If you think you may be allergic, ask your 
 doctor for advice. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using Zimbus Breezhaler if any of the following 
-applies to you: 
-- if you have heart problems, including an irregular or fast heartbeat. 
-- if you have thyroid gland problems. 
-- if you have ever been told you have diabetes or high blood sugar. 
-- if you suffer from seizures or fits. 
-- if you have severe kidney problems. 
-- if you have severe liver problems. 
-- if you have a low level of potassium in your blood. 
-- if you have an eye problem called angle-closure glaucoma. 
-- if you have difficulty passing urine. 
-- if you have tuberculosis (TB) of the lung, or any long standing or untreated infections. </p>
+applies to you:</p>
+<ul>
+<li>if you have heart problems, including an irregular or fast heartbeat. </li>
+<li>if you have thyroid gland problems. </li>
+<li>if you have ever been told you have diabetes or high blood sugar. </li>
+<li>if you suffer from seizures or fits. </li>
+<li>if you have severe kidney problems. </li>
+<li>if you have severe liver problems. </li>
+<li>if you have a low level of potassium in your blood. </li>
+<li>if you have an eye problem called angle-closure glaucoma. </li>
+<li>if you have difficulty passing urine. </li>
+<li>if you have tuberculosis (TB) of the lung, or any long standing or untreated infections. </li>
+</ul>
 <p>During treatment with Zimbus Breezhaler 
-Stop using this medicine and get medical help immediately if you have any of the following: 
-- tightness of the chest, coughing, wheezing or breathlessness immediately after using Zimbus 
+Stop using this medicine and get medical help immediately if you have any of the following:</p>
+<ul>
+<li>tightness of the chest, coughing, wheezing or breathlessness immediately after using Zimbus 
 Breezhaler (signs the medicine is unexpectedly tightening the airways, known as paradoxical 
-bronchospasm). 
-- difficulty breathing or swallowing, swelling of the tongue, lips or face, skin rash, itching and 
-hives (signs of allergic reaction). 
-- eye pain or discomfort, temporary blurring of vision, visual haloes (seeing bright circles around 
+bronchospasm). </li>
+<li>difficulty breathing or swallowing, swelling of the tongue, lips or face, skin rash, itching and 
+hives (signs of allergic reaction). </li>
+<li>eye pain or discomfort, temporary blurring of vision, visual haloes (seeing bright circles around 
 lights) or coloured images in association with red eyes (signs of an attack of angle-closure 
-glaucoma). </p>
+glaucoma). </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents (below the age of 18 years) because it has not 
 been studied in this age group. </p>
 <p>Other medicines and Zimbus Breezhaler 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. 
-In particular, tell your doctor or pharmacist if you are using: 
-- medicines that decrease the level of potassium in your blood. These include diuretics (which 
+In particular, tell your doctor or pharmacist if you are using:</p>
+<ul>
+<li>medicines that decrease the level of potassium in your blood. These include diuretics (which 
 increase urine production and can be used to treat high blood pressure, e.g. 
 hydrochlorothiazide), other bronchodilators such as methylxanthines used for breathing 
-problems (e.g. theophylline) or corticosteroids (e.g. prednisolone). 
-- tricyclic antidepressants or monoamine oxidase inhibitors (medicines used in the treatment of 
-depression). 
-- any medicines that may be similar to Zimbus Breezhaler (contain similar active substances); 
-using them together may increase the risk of possible side effects. 
-- medicines called beta blockers used to treat high blood pressure or other heart problems (e.g. 
-propranolol) or to treat glaucoma (e.g. timolol). 
-- ketoconazole or itraconazole (medicines used to treat fungal infections). 
-- ritonavir, nelfinavir or cobicistat (medicines used to treat HIV infection). </p>
+problems (e.g. theophylline) or corticosteroids (e.g. prednisolone). </li>
+<li>tricyclic antidepressants or monoamine oxidase inhibitors (medicines used in the treatment of 
+depression). </li>
+<li>any medicines that may be similar to Zimbus Breezhaler (contain similar active substances); 
+using them together may increase the risk of possible side effects. </li>
+<li>medicines called beta blockers used to treat high blood pressure or other heart problems (e.g. 
+propranolol) or to treat glaucoma (e.g. timolol). </li>
+<li>ketoconazole or itraconazole (medicines used to treat fungal infections). </li>
+<li>ritonavir, nelfinavir or cobicistat (medicines used to treat HIV infection). </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine. Your doctor will discuss with you whether you can 
@@ -258,17 +265,19 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store zimbus"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and blister after 
-“EXP”. The expiry date refers to the last day of that month. 
-- Do not store above 30°C. 
-- Store the capsules in the original blister, in order to protect from light and moisture, and do not 
-remove until immediately before use. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and blister after 
+ EXP . The expiry date refers to the last day of that month. </li>
+<li>Do not store above 30 C. </li>
+<li>Store the capsules in the original blister, in order to protect from light and moisture, and do not 
+remove until immediately before use. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. 
-- If your pack contains an electronic sensor for Enerzair Breezhaler, see the Instructions for Use 
-provided in the sensor pack for detailed instructions on how to store and when to discard it. </p>         </div>"""      
+environment. </li>
+<li>If your pack contains an electronic sensor for Enerzair Breezhaler, see the Instructions for Use 
+provided in the sensor pack for detailed instructions on how to store and when to discard it. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -284,12 +293,12 @@ and 160 micrograms of mometasone furoate. Each delivered dose (the dose that lea
 mouthpiece of the inhaler) contains 114 micrograms of indacaterol (as acetate), 58 micrograms 
 of glycopyrronium bromide (equivalent to 46 micrograms of glycopyrronium) and 
 136 micrograms of mometasone furoate. 
-- The other ingredients are lactose monohydrate and magnesium stearate (see “Zimbus Breezhaler 
-contains lactose” in section 2). </p>
+- The other ingredients are lactose monohydrate and magnesium stearate (see  Zimbus Breezhaler 
+contains lactose  in section 2). </p>
 <p>What Zimbus Breezhaler looks like and contents of the pack 
 In this pack, you will find an inhaler together with capsules in blisters. Some packs also contain a 
 sensor device. The capsules are transparent and contain a white powder. They have a black product 
-code “IGM150-50-160” printed above two black bars on the body with a logo printed in black and 
+code  IGM150-50-160  printed above two black bars on the body with a logo printed in black and 
 surrounded by a black bar on the cap. </p>
 <p>The following pack sizes are available: 
 Single pack containing 10 x 1, 30 x 1 or 90 x 1 hard capsules, together with 1 inhaler. 
@@ -303,31 +312,30 @@ Elm Park, Merrion Road
 Dublin 4 
 Ireland </p>
 <p>Manufacturer 
-Novartis Farmacéutica, S.A. 
+Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -343,35 +351,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
+Tel: +43 1 86 6Espa a 
 Laboratorios Gebro Pharma, S.A. 
 Tel: +34 93 205 86<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Laboratório Medinfar - Produtos Farmacêuticos, S.A. 
+Laborat rio Medinfar - Produtos Farmac uticos, S.A. 
 Tel: +351 21 499 7Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -379,10 +387,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

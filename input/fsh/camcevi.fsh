@@ -4,7 +4,7 @@ Instance: composition-en-d96fa44827f5ab161c32cbffe0ee34b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for camcevi Package Leaflet"
 Description:  "Composition for camcevi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,9 +74,11 @@ natural homone called gonadotropin releasing hormone) and acts in the same way a
 hormone to lower the level of the sex hormone testosterone in the body. </p>
 <p>Prostate cancer is sensitive to hormones such as testosterone, and reducing testosterone levels helps 
 control the growth of the cancer. </p>
-<p>CAMCEVI is used to treat adult men who have: 
-- hormone dependent metastatic prostate cancer and 
-- high-risk non-metastatic hormone dependent prostate cancer in combination with radiotherapy. </p>         </div>"""   
+<p>CAMCEVI is used to treat adult men who have:</p>
+<ul>
+<li>hormone dependent metastatic prostate cancer and </li>
+<li>high-risk non-metastatic hormone dependent prostate cancer in combination with radiotherapy. </li>
+</ul>         </div>"""   
           
 
              
@@ -85,36 +87,36 @@ control the growth of the cancer. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take camcevi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT use CAMCEVI: 
-- if you are a woman or a child under the age of 18; 
-- if you are allergic to leuprorelin, or to similar medicines that affect your sex hormones 
-(GnRH agonists); your doctor will help you identify these if necessary, <br />
-- if you are allergic to any of the other ingredients of this medicine (listed in section 6); 
-- following surgical removal of your testicles. This medicine cannot further help to lower 
-your testosterone levels once you have no testicles; 
-- as the only treatment if you suffer from symptoms related to pressure on the spinal cord or 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT use CAMCEVI:</p>
+<ul>
+<li>if you are a woman or a child under the age of 18; </li>
+<li>if you are allergic to leuprorelin, or to similar medicines that affect your sex hormones 
+(GnRH agonists); your doctor will help you identify these if necessary,   </li>
+<li>if you are allergic to any of the other ingredients of this medicine (listed in section 6); </li>
+<li>following surgical removal of your testicles. This medicine cannot further help to lower 
+your testosterone levels once you have no testicles; </li>
+<li>as the only treatment if you suffer from symptoms related to pressure on the spinal cord or 
 a tumour in the spinal column. In this case, CAMCEVI may only be used in combination 
-with other medicines for prostate cancer. </p>
+with other medicines for prostate cancer. </li>
+</ul>
 <p>Warnings and precautions </p>
-<p>Seek urgent medical attention if you develop: 
-- sudden headache; 
-- vomiting; 
-- loss of, or double vision; 
-- loss of the ability to move the muscles in, or around, your eye; 
-- altered mental state; 
-- early symptoms of heart failure including 
-o 
-fatigue 
-o 
-swelling in your ankles; 
-o 
-increased need to urinate at night; 
-o 
+<p>Seek urgent medical attention if you develop:</p>
+<ul>
+<li>sudden headache; </li>
+<li>vomiting; </li>
+<li>loss of, or double vision; </li>
+<li>loss of the ability to move the muscles in, or around, your eye; </li>
+<li>altered mental state; </li>
+<li>early symptoms of heart failure including * 
+fatigue * 
+swelling in your ankles; * 
+increased need to urinate at night; * 
 more severe symptoms such as rapid breathing, chest pain, and fainting. 
 These may be signs of a condition called pituitary apoplexy, involving bleeding into, or impaired 
 blood supply to the pituitary gland found at the base of the brain. Pituitary apoplexy can occur due to a 
 tumor of the pituitary and can emerge rarely after starting treatment. Most cases occur within 2 weeks 
-of the first dose, and some within the first hour. </p>
+of the first dose, and some within the first hour. </li>
+</ul>
 <p>Talk to your doctor, pharmacist or nurse before using CAMCEVI if you 
 - develop cardiovascular signs and symptoms such as fast chaotic heartbeats. These rapid 
 heartbeats might cause you to faint or have fits (seizures); 
@@ -145,12 +147,14 @@ treatment. </p>
 <p>Problems you may experience during the first weeks of treatment 
 During the first weeks of treatment, there is generally a brief increase in the male sex hormone 
 testosterone in the blood. This can lead to a temporary worsening in disease-related symptoms and 
-also to new symptoms that you may not have experienced before. These especially include: 
-- bone pain; 
-- problems with urinating, pain, numbness, or weakness in the arms, hands, legs, or feet, or loss 
-of bladder or bowel control as a result of spinal compression; 
-- blood in your urine. 
-These symptoms usually lessen with ongoing treatment. If not, you should contact your doctor. </p>
+also to new symptoms that you may not have experienced before. These especially include:</p>
+<ul>
+<li>bone pain; </li>
+<li>problems with urinating, pain, numbness, or weakness in the arms, hands, legs, or feet, or loss 
+of bladder or bowel control as a result of spinal compression; </li>
+<li>blood in your urine. 
+These symptoms usually lessen with ongoing treatment. If not, you should contact your doctor. </li>
+</ul>
 <p>You may be given another medicine before starting CAMCEVI to help lessen the initial rise of 
 testosterone in your blood. You may remain on this other medicine for a few weeks of CAMCEVI 
 treatment. </p>
@@ -210,43 +214,45 @@ treatment early without talking with your doctor first. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Seek urgent medical attention if you develop: 
-- sudden headache; 
-- vomiting; 
-- loss of, or double vision; 
-- loss of the ability to move the muscles in, or around, your eye; 
-- altered mental state; 
-- early symptoms of heart failure including 
-o 
-fatigue 
-o 
-swelling in your ankles; 
-o 
-increased need to urinate at night; 
-o 
+<p>Seek urgent medical attention if you develop:</p>
+<ul>
+<li>sudden headache; </li>
+<li>vomiting; </li>
+<li>loss of, or double vision; </li>
+<li>loss of the ability to move the muscles in, or around, your eye; </li>
+<li>altered mental state; </li>
+<li>early symptoms of heart failure including * 
+fatigue * 
+swelling in your ankles; * 
+increased need to urinate at night; * 
 more severe symptoms such as rapid breathing, chest pain, and fainting. 
 These may be signs of a condition called pituitary apoplexy, involving bleeding into, or impaired 
 blood supply to the pituitary gland found at the base of the brain. Pituitary apoplexy can occur due to a 
 tumor of the pituitary and can emerge rarely after starting treatment. Most cases occur within 2 weeks 
-of the first dose, and some within the first hour. </p>
+of the first dose, and some within the first hour. </li>
+</ul>
 <p>Initial side effects 
 During the first week of treatment, there is generally a brief increase in the male sex hormone 
 testosterone in the blood. This can lead to a temporary worsening in the disease-related symptoms 
-and also to new symptoms that you may not have experienced before. These especially include: 
-- bone pain; 
-- problems with urinating, pain, numbness, or weakness in the arms, hands, legs, or feet, or loss 
-of bladder or bowel control, which may be symptoms of spinal compression; 
-- blood in your urine. 
+and also to new symptoms that you may not have experienced before. These especially include:</p>
+<ul>
+<li>bone pain; </li>
+<li>problems with urinating, pain, numbness, or weakness in the arms, hands, legs, or feet, or loss 
+of bladder or bowel control, which may be symptoms of spinal compression; </li>
+<li>blood in your urine. 
 Your doctor may give you another medicine at the beginning of the treatment to reduce some of these 
-initial side effects (See also section 2 Problems you may experience during first weeks of treatment). </p>
+initial side effects (See also section 2 Problems you may experience during first weeks of treatment). </li>
+</ul>
 <p>Side effects at injection site 
-You may experience the following side effects around the injection site, after your injection: 
-- mild burning and numbness immediately after the injection (very common: may affect more 
-than 1 in 10 people) 
-- pain, bruising and stinging after the injection (common: may affect up to 1 in 10 people) 
-- itchiness and hardening of skin around injection site (uncommon: may affect up to 1 in 
-100 people) 
-- damage or sore on the skin at injection site (rare: may affect up to 1 in 1,000 people); </p>
+You may experience the following side effects around the injection site, after your injection:</p>
+<ul>
+<li>mild burning and numbness immediately after the injection (very common: may affect more 
+than 1 in 10 people) </li>
+<li>pain, bruising and stinging after the injection (common: may affect up to 1 in 10 people) </li>
+<li>itchiness and hardening of skin around injection site (uncommon: may affect up to 1 in 
+100 people) </li>
+<li>damage or sore on the skin at injection site (rare: may affect up to 1 in 1,000 people); </li>
+</ul>
 <p>dead tissue at injection site (very rare, may affect up to 1 in 10,000 people). </p>
 <p>These side effects are mild and do not last very long. They only occur at the time of your injection. If 
 you get any of these side effects, talk to your doctor. </p>
@@ -335,9 +341,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer packaging after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C).<br />
+<p>Store in a refrigerator (2 C   8 C).<br />
 Store in the original package in order to protect from light. 
-Prior to use allow CAMCEVI to reach room temperature (15 °C to 25 °C). This takes approximately 
+Prior to use allow CAMCEVI to reach room temperature (15  C to 25  C). This takes approximately 
 15 to 20 minutes. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -361,7 +367,7 @@ protection device. </p>
 Accord Healthcare S.L.U.<br />
 World Trade Center,<br />
 Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
+Edifici Est 6  planta,<br />
 08039, Barcelona,<br />
 Spain </p>
 <p>Manufacturer 

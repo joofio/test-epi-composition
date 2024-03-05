@@ -4,7 +4,7 @@ Instance: composition-en-a2d91e093ece9c0d3351fd31285a05ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for voriconazole Package Leaflet"
 Description:  "Composition for voriconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,9 +90,11 @@ fungi). </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take voriconazole"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Voriconazole Hikma: 
-- If you are allergic to the active ingredient voriconazole or to sulfobutylether beta cyclodextrin sodium 
-(listed in section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Voriconazole Hikma:</p>
+<ul>
+<li>If you are allergic to the active ingredient voriconazole or to sulfobutylether beta cyclodextrin sodium 
+(listed in section 6). </li>
+</ul>
 <p>It is very important that you inform your doctor or pharmacist if you are taking or have taken any other 
 medicines, even those that are obtained without a prescription, or herbal medicines. </p>
 <p>The medicines in the following list must not be taken during your Voriconazole Hikma treatment: </p>
@@ -110,7 +112,7 @@ medicines, even those that are obtained without a prescription, or herbal medici
 <li>Ergot alkaloids (e.g., ergotamine, dihydroergotamine; used for migraine) </li>
 <li>Sirolimus (used in transplant patients) </li>
 <li>Ritonavir (used for treating HIV) in doses of 400 mg and more twice daily </li>
-<li>St John’s Wort (herbal supplement) </li>
+<li>St John s Wort (herbal supplement) </li>
 <li>Naloxegol (used to treat constipation specifically caused by pain medicines, called opioids, (e.g., 
 morphine, oxycodone, fentanyl, tramadol, codeine)) </li>
 <li>Tolvaptan (used to treat hyponatremia (low levels of sodium in your blood) or to slow kidney 
@@ -126,23 +128,20 @@ Talk to your doctor, pharmacist or nurse before taking Voriconazole Hikma if: </
 doctor may prescribe a lower dose of Voriconazole Hikma. Your doctor should also monitor your 
 liver function while you are being treated with Voriconazole Hikma by doing blood tests. </li>
 <li>You are known to have cardiomyopathy, irregular heart beat, slow heart rate or an abnormality of 
-electrocardiogram (ECG) called ‘long QTc syndrome’. </li>
+electrocardiogram (ECG) called  long QTc syndrome . </li>
 </ul>
 <p>You should avoid any sunlight and sun exposure while being treated.  It is important to cover sun exposed 
 areas of skin and use sunscreen with high sun protection factor (SPF), as an increased sensitivity of skin to 
-the sun’s UV rays can occur. These precautions are also applicable to children. </p>
+the sun s UV rays can occur. These precautions are also applicable to children. </p>
 <p>While being treated with Voriconazole Hikma: 
-* Tell your doctor immediately if you develop<br />
-o sunburn 
-o severe skin rash or blisters<br />
-o bone pain. </p>
+* Tell your doctor immediately if you develop  * sunburn * severe skin rash or blisters  * bone pain. </p>
 <p>If you develop skin disorders as described above, your doctor may refer you to a dermatologist, who after 
 consultation may decide that it is important for you to be seen on a regular basis. There is a small chance that 
 skin cancer could develop with long term use of Voriconazole Hikma. </p>
-<p>If you develop signs of ‘adrenal insufficiency’ where the adrenal glands do not produce adequate amounts of 
+<p>If you develop signs of  adrenal insufficiency  where the adrenal glands do not produce adequate amounts of 
 certain steroid hormones such as cortisol which may lead to symptoms such as: chronic, or long lasting 
 fatigue, muscle weakness, loss of appetite, weight loss, abdominal pain, please tell your doctor. </p>
-<p>If you develop signs of ‘Cushing’s syndrome’ where the body produces too much of the hormone cortisol 
+<p>If you develop signs of  Cushing s syndrome  where the body produces too much of the hormone cortisol 
 which may lead to symptoms such as: weight gain, fatty hump between the shoulders, a rounded face, 
 darkening of the skin on the stomach, thighs breasts, and arms, thinning skin, bruising easily, high blood 
 sugar, excessive hair growth, excessive sweating, please tell your doctor. </p>
@@ -157,7 +156,7 @@ Hikma works or Voriconazole Hikma may affect the way they work. </p>
 <p>Tell your doctor if you are taking the following medicine, as treatment with Voriconazole Hikma at the same 
 time should be avoided if possible: 
 * Ritonavir (used for treating HIV) in doses of 100 mg twice daily 
-• Glasdegib (used for treating cancer) – if you need to use both drugs your doctor will monitor your 
+  Glasdegib (used for treating cancer)   if you need to use both drugs your doctor will monitor your 
 heart rhythm frequently  </p>
 <p>Tell your doctor if you are taking either of the following medicines, as treatment with Voriconazole Hikma at 
 the same time should be avoided if possible, and a dose adjustment of voriconazole may be required: 
@@ -278,101 +277,101 @@ your condition improves. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If any side effects occur, most are likely to be minor and temporary.  However, some may be serious and 
 need medical attention. </p>
-<p>Serious side effects – Stop taking Voriconazole Hikma and see a doctor immediately 
+<p>Serious side effects   Stop taking Voriconazole Hikma and see a doctor immediately 
 * Rash 
 * Jaundice; changes in blood tests of liver function 
 * Pancreatitis </p>
 <p>Other side effects </p>
 <p>Very common: may affect more than 1 in 10 people </p>
-<p>• Visual impairment (change in vision including blurred vision, visual color alterations, abnormal 
+<p>Visual impairment (change in vision including blurred vision, visual color alterations, abnormal 
 intolerance to visual perception of light, colour blindness, eye disorder, halo vision, night blindness, 
 swinging vision, seeing sparks, visual aura, visual acuity reduced, visual brightness, loss of part of 
 the usual field of vision, spots before the eyes) 
-• Fever 
-• Rash 
-• Nausea, vomiting, diarrhoea 
-• Headache 
-• Swelling of the extremities 
-• Stomach pains 
-• Breathing difficulties. 
-• Elevated liver enzymes </p>
+  Fever 
+  Rash 
+  Nausea, vomiting, diarrhoea 
+  Headache 
+  Swelling of the extremities 
+  Stomach pains 
+  Breathing difficulties. 
+  Elevated liver enzymes </p>
 <p>Common: may affect up to 1 in 10 people </p>
-<p>• Inflammation of the sinuses, inflammation of the gums, chills, weakness </p>
-<p>• Low numbers of some types, including severe, of red (sometimes immune-related) and/or white 
+<p>Inflammation of the sinuses, inflammation of the gums, chills, weakness </p>
+<p>Low numbers of some types, including severe, of red (sometimes immune-related) and/or white 
 blood cells (sometimes with fever), low numbers of cells called platelets that help blood to clot 
-• Low blood sugar, low blood potassium, low sodium in the blood 
-• Anxiety, depression, confusion, agitation, inability to sleep, hallucinations 
-• Seizures, tremors or uncontrolled muscle movements, tingling or abnormal skin sensations, increase 
+  Low blood sugar, low blood potassium, low sodium in the blood 
+  Anxiety, depression, confusion, agitation, inability to sleep, hallucinations 
+  Seizures, tremors or uncontrolled muscle movements, tingling or abnormal skin sensations, increase 
 in muscle tone, sleepiness, dizziness 
-• Bleeding in the eye 
-• Heart rhythm problems including very fast heartbeat, very slow heartbeat, fainting 
-• Low blood pressure, inflammation of a vein (which may be associated with the formation of a blood 
+  Bleeding in the eye 
+  Heart rhythm problems including very fast heartbeat, very slow heartbeat, fainting 
+  Low blood pressure, inflammation of a vein (which may be associated with the formation of a blood 
 clot) 
-• Acute breathing difficulty, chest pain, swelling of the face (mouth, lips and around eyes), fluid 
+  Acute breathing difficulty, chest pain, swelling of the face (mouth, lips and around eyes), fluid 
 accumulation in the lungs 
-• Constipation, indigestion, inflammation of the lips 
-• Jaundice, inflammation of the liver and liver injury 
-• Skin rashes which may lead to severe blistering and peeling of the skin characterized by a flat, red 
+  Constipation, indigestion, inflammation of the lips 
+  Jaundice, inflammation of the liver and liver injury 
+  Skin rashes which may lead to severe blistering and peeling of the skin characterized by a flat, red 
 area on the skin that is covered with small confluent bumps, redness of the skin 
-• Itchiness 
-• Hair loss 
-• Back pain 
-• Kidney failure, blood in the urine, changes in kidney function tests. </p>
+  Itchiness 
+  Hair loss 
+  Back pain 
+  Kidney failure, blood in the urine, changes in kidney function tests. </p>
 <p>Uncommon: may affect up to 1 in 100 people </p>
-<p>• Flu-like symptoms, irritation and inflammation of the gastrointestinal tract, inflammation of the 
+<p>Flu-like symptoms, irritation and inflammation of the gastrointestinal tract, inflammation of the 
 gastrointestinal tract causing antibiotic associated diarrhoea, inflammation of the lymphatic vessels 
-• Inflammation of the thin tissue that lines the inner wall of the abdomen and covers the abdominal 
+  Inflammation of the thin tissue that lines the inner wall of the abdomen and covers the abdominal 
 organs 
-• Enlarged lymph glands (sometimes painful), failure of blood marrow, increased eosinophil 
-• Depressed function of the adrenal gland, underactive thyroid gland 
-• Abnormal brain function, Parkinson-like symptoms, nerve injury resulting in numbness, pain, 
+  Enlarged lymph glands (sometimes painful), failure of blood marrow, increased eosinophil 
+  Depressed function of the adrenal gland, underactive thyroid gland 
+  Abnormal brain function, Parkinson-like symptoms, nerve injury resulting in numbness, pain, 
 tingling or burning in the hands or feet 
-• Problems with balance or coordination 
-• Swelling of the brain 
-• Double vision, serious conditions of the eye including: pain and inflammation of the eyes and 
+  Problems with balance or coordination 
+  Swelling of the brain 
+  Double vision, serious conditions of the eye including: pain and inflammation of the eyes and 
 eyelids, abnormal eye movement, damage to the optic nerve resulting in vision impairment, optic 
 disc swelling 
-• Decreased sensitivity to touch 
-• Abnormal sense of taste 
-• Hearing difficulties, ringing in the ears, vertigo 
-• Inflammation of certain internal organs- pancreas and duodenum, swelling and inflammation of the 
+  Decreased sensitivity to touch 
+  Abnormal sense of taste 
+  Hearing difficulties, ringing in the ears, vertigo 
+  Inflammation of certain internal organs- pancreas and duodenum, swelling and inflammation of the 
 tongue 
-• Enlarged liver, liver failure, gallbladder disease, gallstones 
-• Joint inflammation, inflammation of the veins under the skin (which may be associated with the 
+  Enlarged liver, liver failure, gallbladder disease, gallstones 
+  Joint inflammation, inflammation of the veins under the skin (which may be associated with the 
 formation of a blood clot) 
-• Inflammation of the kidney, proteins in the urine, damage to the kidney <br />
-• Very fast heart rate or skipped heartbeats, sometimes with erratic electrical impulses 
-• Abnormal electrocardiogram (ECG) 
-• Blood cholesterol increased, blood urea increased 
-• Allergic skin reactions (sometimes severe), including life-threatening skin condition that causes 
+  Inflammation of the kidney, proteins in the urine, damage to the kidney <br />
+  Very fast heart rate or skipped heartbeats, sometimes with erratic electrical impulses 
+  Abnormal electrocardiogram (ECG) 
+  Blood cholesterol increased, blood urea increased 
+  Allergic skin reactions (sometimes severe), including life-threatening skin condition that causes 
 painful blisters and sores of the skin and mucous membranes, especially in the mouth, inflammation 
 of the skin, hives, sunburn or severe skin reaction following exposure to light or sun, skin redness 
 and irritation, red or purple discoloration of the skin which may be caused by low platelet count, 
 eczema 
-• Infusion site reaction 
-• Allergic reaction or exaggerated immune response </p>
+  Infusion site reaction 
+  Allergic reaction or exaggerated immune response </p>
 <p>Rare: may affect up to 1 in 1000 people </p>
-<p>• Overactive thyroid gland 
-• Deterioration of brain function that is a serious complication of liver disease 
-• Loss of most fibers in the optic nerve clouding of the cornea, involuntary movement of the eye 
-• Bullous photosensitivity 
-• A disorder in which the body’s immune system attacks part of the peripheral nervous system 
-• Heart rhythm or conduction problems that (sometimes life threatening) 
-• Life threatening allergic reaction<br />
-• Disorder of blood clotting system 
-• Allergic skin reactions (sometimes severe), including rapid swelling (oedema) of the dermis, 
+<p>Overactive thyroid gland 
+  Deterioration of brain function that is a serious complication of liver disease 
+  Loss of most fibers in the optic nerve clouding of the cornea, involuntary movement of the eye 
+  Bullous photosensitivity 
+  A disorder in which the body s immune system attacks part of the peripheral nervous system 
+  Heart rhythm or conduction problems that (sometimes life threatening) 
+  Life threatening allergic reaction<br />
+  Disorder of blood clotting system 
+  Allergic skin reactions (sometimes severe), including rapid swelling (oedema) of the dermis, 
 subcutaneous tissue, mucosa and submucosal tissues, itchy or sore patches of thick, red skin with 
 silvery scales of skin, irritation of the skin and mucous membranes, life-threatening skin condition 
 that causes large portions of the epidermis, the skin's outermost layer, to detach from the layers of 
 skin below 
-• Small dry scaly skin patches, sometimes thick with spikes or ‘horns’ </p>
+  Small dry scaly skin patches, sometimes thick with spikes or  horns  </p>
 <p>Side effects with frequency not known: 
-• Freckles and pigmented spots </p>
+  Freckles and pigmented spots </p>
 <p>Other significant side effects whose frequency is not known, but should be reported to your doctor 
 immediately: 
-• Skin cancer 
-• Inflammation of the tissue surrounding the bone 
-• Red, scaly patches or ring-shaped skin lesions that may be a symptom of an autoimmune disease 
+  Skin cancer 
+  Inflammation of the tissue surrounding the bone 
+  Red, scaly patches or ring-shaped skin lesions that may be a symptom of an autoimmune disease 
 called cutaneous lupus erythematosus </p>
 <p>Reactions during the infusion have occurred uncommonly with Voriconazole Hikma (including flushing, 
 fever, sweating, increased heart rate and shortness of breath). Your doctor may stop the infusion if this 
@@ -419,8 +418,8 @@ solution when reconstituted as directed by your hospital pharmacist or nurse.
 <p>Voriconazole Hikma is presented in packs of 1 or 5 glass vials as a powder for solution for infusion. Not all 
 pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
-Hikma Farmacêutica (Portugal), S.A. 
-Estrada do Rio da Mó n.º 8, 8A e 8B, Fervença 
+Hikma Farmac utica (Portugal), S.A. 
+Estrada do Rio da M  n.  8, 8A e 8B, Ferven a 
 2705-906 Terrugem SNT 
 Portugal </p>
 <p>Manufacturer 
@@ -437,11 +436,11 @@ Authorisation Holder: </p>
 Hikma Pharma GmbH 
 Tel: +49 89-45450- IT 
 Hikma Italia S.p.A. 
-Tél/Tel: + 39 0382 1751 
+T l/Tel: + 39 0382 1751 
 BG / CY / CZ / DK / EE / ES / EL / FI / HR / 
 HU / IE / IS / LI / LT / LU / LV / MT / NO / PL 
 / PT / RO / SE / SI / SK 
-Hikma Farmacêutica (Portugal), S.A. 
+Hikma Farmac utica (Portugal), S.A. 
 Tel.: +351 219 608<br />
 UK 
 Consilient Health Ltd 

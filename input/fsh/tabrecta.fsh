@@ -4,7 +4,7 @@ Instance: composition-en-be5ceff4154e41596bab87f1698ba47a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tabrecta Package Leaflet"
 Description:  "Composition for tabrecta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,17 +95,21 @@ you, ask your doctor or pharmacist. </p>         </div>"""
 - if you are allergic to capmatinib or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before taking Tabrecta: 
-- if you have or have had lung or breathing problems other than your lung cancer. 
-- if you have or have had liver problems. 
-- if you have or have had pancreatic problems. </p>
+Talk to your doctor, pharmacist or nurse before taking Tabrecta:</p>
+<ul>
+<li>if you have or have had lung or breathing problems other than your lung cancer. </li>
+<li>if you have or have had liver problems. </li>
+<li>if you have or have had pancreatic problems. </li>
+</ul>
 <p>Limit direct exposure to the sun or artificial ultraviolet (UV) light while using Tabrecta. Use 
 sunscreen, wear sunglasess and clothes that cover your skin, and avoid sunbathing while you are 
 taking Tabrecta and for at least 7 days after you stop taking it. </p>
 <p>Tell your doctor, pharmacist or nurse immediately if you have an allergic reaction during treatment 
-with Tabrecta: 
-- Symptoms of an allergic reaction may include rash, hives, fever, difficulty breathing, or low 
-blood pressure. </p>
+with Tabrecta:</p>
+<ul>
+<li>Symptoms of an allergic reaction may include rash, hives, fever, difficulty breathing, or low 
+blood pressure. </li>
+</ul>
 <p>Monitoring during your treatment with Tabrecta 
 Your doctor will do blood tests before you start treatment with Tabrecta to check your liver and 
 pancreatic function. Your doctor will continue to check your liver and pancreatic function during 
@@ -115,29 +119,31 @@ Do not give this medicine to children and adolescents below 18 years of age beca
 been studied in this age group. </p>
 <p>Other medicines and Tabrecta 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines </p>
-<p>It is particularly important that you mention any of the following medicines: 
-- medicines used to treat seizures, such as carbamazepine, phenobarbital, phenytoin 
-- St. John’s wort (also known as Hypericum perforatum), a herbal product used to treat 
-depression and other conditions 
-- medicines used to treat tuberculosis, such as rifampicin 
-- antibiotics used to treat bacterial infections, such as telithromycin, clarithromycin 
-- medicines used to treat fungal infections, such as ketoconazole, itraconazole, posaconazole, 
-voriconazole 
-- medicines used to treat HIV/AIDS, such as ritonavir (either alone or in combination with 
-lopinavir), saquinavir, indinavir, nelfinavir, efavirenz 
-- medicines used to treat hepatitis, such as telaprevir 
-- medicines used to treat depression, such as nefazodone 
-- medicines used to treat high blood pressure or heart problems, such as verapamil 
-- medicines used to treat breathing problems, such as theophylline 
-- medicines used to treat muscle spasms, such as tizanidine 
-- medicines used to treat heart problems, such as digoxin 
-- medicines used to treat blood clots, such as dabigatran etexilate 
-- medicines used to treat gout, such as colchicine 
-- medicines used to treat diabetes, such as sitagliptin, saxagliptin 
-- medicines used to treat high cholesterol, such as rosuvastatin, pravastatin 
-- medicines used to treat certain types of cancer or autoimune diseases, such as methotrexate, 
-mitoxantrone 
-- sulfasalazine, a medicine used to treat bowel and rheumatic joint inflammation </p>
+<p>It is particularly important that you mention any of the following medicines:</p>
+<ul>
+<li>medicines used to treat seizures, such as carbamazepine, phenobarbital, phenytoin </li>
+<li>St. John s wort (also known as Hypericum perforatum), a herbal product used to treat 
+depression and other conditions </li>
+<li>medicines used to treat tuberculosis, such as rifampicin </li>
+<li>antibiotics used to treat bacterial infections, such as telithromycin, clarithromycin </li>
+<li>medicines used to treat fungal infections, such as ketoconazole, itraconazole, posaconazole, 
+voriconazole </li>
+<li>medicines used to treat HIV/AIDS, such as ritonavir (either alone or in combination with 
+lopinavir), saquinavir, indinavir, nelfinavir, efavirenz </li>
+<li>medicines used to treat hepatitis, such as telaprevir </li>
+<li>medicines used to treat depression, such as nefazodone </li>
+<li>medicines used to treat high blood pressure or heart problems, such as verapamil </li>
+<li>medicines used to treat breathing problems, such as theophylline </li>
+<li>medicines used to treat muscle spasms, such as tizanidine </li>
+<li>medicines used to treat heart problems, such as digoxin </li>
+<li>medicines used to treat blood clots, such as dabigatran etexilate </li>
+<li>medicines used to treat gout, such as colchicine </li>
+<li>medicines used to treat diabetes, such as sitagliptin, saxagliptin </li>
+<li>medicines used to treat high cholesterol, such as rosuvastatin, pravastatin </li>
+<li>medicines used to treat certain types of cancer or autoimune diseases, such as methotrexate, 
+mitoxantrone </li>
+<li>sulfasalazine, a medicine used to treat bowel and rheumatic joint inflammation </li>
+</ul>
 <p>Ask your doctor, pharmacist or nurse if you are not sure whether you are taking any of the medicines 
 listed above. </p>
 <p>You should also tell your doctor if you are prescribed a new medicine when you are already taking 
@@ -158,8 +164,8 @@ Tabrecta and for at least 7 days after you stop taking it. </p>
 <p>Driving and using machines 
 Tabrecta is not expected to affect your ability to drive or use machines. </p>
 <p>Tabrecta contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tabrecta"
@@ -262,16 +268,18 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store tabrecta"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and the blister foil 
-after EXP. The expiry date refers to the last day of that month. 
-- This medicine does not require any special temperature storage conditions. Store in the original 
-package in order to protect from moisture. 
-- Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
-tampering. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the blister foil 
+after EXP. The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special temperature storage conditions. Store in the original 
+package in order to protect from moisture. </li>
+<li>Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
+tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -285,19 +293,21 @@ environment. </p>         </div>"""
 150 mg capmatinib. 
 - Each 200 mg film-coated tablet contains capmatinib dihydrochloride monohydrate equivalent to 
 200 mg capmatinib. 
-- The other ingredients are: 
-- Tablet core: cellulose microcrystalline; mannitol; crospovidone; povidone; magnesium 
-stearate; silica colloidal anhydrous; sodium laurilsulfate (see “Tabrecta contains sodium” 
-in section 2). 
-- Film coating (150 mg): Hypromellose; titanium dioxide (E171); macrogol; talc; iron 
-oxide, yellow (E172); iron oxide, red (E172); iron oxide, black (E172). 
-- Film coating (200 mg): Hypromellose; titanium dioxide (E171); macrogol; talc; iron 
-oxide, yellow (E172). </p>
+- The other ingredients are:</p>
+<ul>
+<li>Tablet core: cellulose microcrystalline; mannitol; crospovidone; povidone; magnesium 
+stearate; silica colloidal anhydrous; sodium laurilsulfate (see  Tabrecta contains sodium<br />
+in section 2). </li>
+<li>Film coating (150 mg): Hypromellose; titanium dioxide (E171); macrogol; talc; iron 
+oxide, yellow (E172); iron oxide, red (E172); iron oxide, black (E172). </li>
+<li>Film coating (200 mg): Hypromellose; titanium dioxide (E171); macrogol; talc; iron 
+oxide, yellow (E172). </li>
+</ul>
 <p>What Tabrecta looks like and contents of the pack </p>
-<p>Tabrecta 150 mg film-coated tablets (tablets) are pale orange brown ovaloid tablets. They have “DU” 
-on one side and “NVR” on the other side. Approximate size: 18.3 mm (length) x 7.3 mm (width). </p>
-<p>Tabrecta 200 mg film-coated tablets (tablets) are yellow ovaloid tablets. They have “LO” on one side 
-and “NVR” on the other side. Approximate size: 20.3 mm (length) x 8.1 mm (width). </p>
+<p>Tabrecta 150 mg film-coated tablets (tablets) are pale orange brown ovaloid tablets. They have  DU<br />
+on one side and  NVR  on the other side. Approximate size: 18.3 mm (length) x 7.3 mm (width). </p>
+<p>Tabrecta 200 mg film-coated tablets (tablets) are yellow ovaloid tablets. They have  LO  on one side 
+and  NVR  on the other side. Approximate size: 20.3 mm (length) x 8.1 mm (width). </p>
 <p>Tabrecta film-coated tablets are provided in blisters and are available in packs containing 60 or 
 120 film-coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -315,26 +325,25 @@ Germany </p>
 Trimlini 2D 
 9220 Lendava 
 Slovenia </p>
-<p>Novartis Farmacéutica S.A. 
+<p>Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16 Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
-Tel: +420 225 775 Magyarország 
-Novartis Hungária Kft. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65<br />
 Danmark 
 Novartis Healthcare A/S 
@@ -353,37 +362,37 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30 <br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6 
-España 
-Novartis Farmacéutica, S.A. 
+Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42 <br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -391,10 +400,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

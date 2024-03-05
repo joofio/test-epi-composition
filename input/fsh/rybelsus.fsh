@@ -4,7 +4,7 @@ Instance: composition-en-b74140ab033fc1249f12696486a5f0cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for rybelsus Package Leaflet"
 Description:  "Composition for rybelsus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,8 +73,8 @@ Usage: #example
 levels. </p>
 <p>Rybelsus is used to treat adults (aged 18 years and older) with type 2 diabetes when diet and exercise 
 is not enough: 
-* on its own – when you cannot use metformin (another diabetes medicine) or 
-* with other medicines for diabetes – when the other medicines are not enough to control your 
+* on its own   when you cannot use metformin (another diabetes medicine) or 
+* with other medicines for diabetes   when the other medicines are not enough to control your 
 blood sugar levels. These may be medicines you take by mouth or inject such as insulin. </p>
 <p>It is important that you continue with your diet and exercise plan as agreed with your doctor, 
 pharmacist or nurse. </p>
@@ -114,7 +114,7 @@ diarrhoea. These side effects can cause dehydration (loss of fluids). It is impo
 enough fluids to prevent dehydration. This is especially important if you have kidney problems. Talk 
 to your doctor if you have any questions or concerns. </p>
 <p>Severe and on-going stomach pain which could be due to an inflamed pancreas 
-If you have severe and on-going pain in the stomach area – see a doctor straight away as this could be 
+If you have severe and on-going pain in the stomach area   see a doctor straight away as this could be 
 a sign of inflamed pancreas (acute pancreatitis). </p>
 <p>Low blood sugar (hypoglycaemia) 
 Taking a sulfonylurea medicine or insulin with Rybelsus might increase the risk of getting low blood 
@@ -159,7 +159,7 @@ Rybelsus is unlikely to affect your ability to drive and use machines. </p>
 or using machines. Talk to your doctor for the further information. </p>
 <p>If you use this medicine in combination with a sulfonylurea or insulin, low blood sugar 
 (hypoglycaemia) may occur which may reduce your ability to concentrate. Do not drive or use 
-machines if you get any signs of low blood sugar. See section 2, ‘Warning and precautions’ for 
+machines if you get any signs of low blood sugar. See section 2,  Warning and precautions  for 
 information on increased risk of low blood sugar and section 4 for the warning signs of low blood 
 sugar. Talk to your doctor for further information. </p>
 <p>Rybelsus contains sodium 
@@ -218,8 +218,8 @@ which does not go away. You should see a doctor immediately if you experience su
 symptoms. </p>
 <p>Other side effects </p>
 <p>Very common (may affect more than 1 in 10 people) 
-* feeling sick (nausea) – this usually goes away over time 
-* diarrhoea – this usually goes away over time 
+* feeling sick (nausea)   this usually goes away over time 
+* diarrhoea   this usually goes away over time 
 * low blood sugar (hypoglycaemia) when this medicine is used with medicines that contain a 
 sulfonylurea or insulin. Your doctor may reduce your dose of these medicines before you start 
 using this medicine. </p>
@@ -233,9 +233,9 @@ signs. </p>
 than sulfonylurea or insulin 
 * being sick (vomiting) 
 * upset stomach or indigestion 
-* inflamed stomach (‘gastritis’) – the signs include stomach ache, feeling sick (nausea) or being 
+* inflamed stomach ( gastritis )   the signs include stomach ache, feeling sick (nausea) or being 
 sick (vomiting) 
-* reflux or heartburn – also called ‘gastro-esophageal reflux disease’ 
+* reflux or heartburn   also called  gastro-esophageal reflux disease<br />
 * stomach pain 
 * bloating of the stomach 
 * constipation 
@@ -243,15 +243,15 @@ sick (vomiting)
 * less appetite 
 * gas (flatulence) 
 * increase of pancreatic enzymes (such as lipase and amylase) shown in blood tests 
-•         feeling dizzy. </p>
+          feeling dizzy. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * weight loss 
 * gallstones 
 * burping 
 * fast pulse 
 * allergic reactions like rash, itching or hives 
-•         a delay in the emptying of the stomach 
-•         change in the way food or drink tastes. </p>
+          a delay in the emptying of the stomach 
+          change in the way food or drink tastes. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -264,7 +264,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store rybelsus"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and carton after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light and moisture. This medicine does not 
 require any special temperature storage conditions. </p>
@@ -282,19 +282,19 @@ throw away medicines you no longer use. These measures will help protect the env
 * The other ingredients are salcaprozate sodium, povidone K90, cellulose microcrystalline, 
 magnesium stearate. </p>
 <p>What Rybelsus looks like and contents of the pack 
-Rybelsus 3 mg tablets are white to light yellow and oval shaped (7.5 mm x 13.5 mm). They have ‘3’ 
-on one side and ‘novo’ on the other side. 
-Rybelsus 7 mg tablets are white to light yellow and oval shaped (7.5 mm x 13.5 mm). They have ‘7’ 
-on one side and ‘novo’ on the other side. 
-Rybelsus 14 mg tablets are white to light yellow and oval shaped (7.5 mm x 13.5 mm). They have ‘14’ 
-on one side and ‘novo’ on the other side. </p>
+Rybelsus 3 mg tablets are white to light yellow and oval shaped (7.5 mm x 13.5 mm). They have  3<br />
+on one side and  novo  on the other side. 
+Rybelsus 7 mg tablets are white to light yellow and oval shaped (7.5 mm x 13.5 mm). They have  7<br />
+on one side and  novo  on the other side. 
+Rybelsus 14 mg tablets are white to light yellow and oval shaped (7.5 mm x 13.5 mm). They have  14<br />
+on one side and  novo  on the other side. </p>
 <p>The 3 mg, 7 mg and 14 mg tablets are available in alu/alu blister cards in pack sizes of 10, 30, 60, and 100 tablets. 
 . </p>
 <p>Not all pack sizes may be marketed in your country. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Novo Nordisk A/S 
-Novo Allé 
-DK-2880 Bagsværd 
+Novo All<br />
+DK-2880 Bagsv rd 
 Denmark </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>

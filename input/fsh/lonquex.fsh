@@ -4,7 +4,7 @@ Instance: composition-en-c90b79fb8cf9d2067c35819ca84918df
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonquex Package Leaflet"
 Description:  "Composition for lonquex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -100,9 +100,9 @@ medicine (listed in section 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using Lonquex: 
 * if you or your child get left upper abdominal pain or pain at the tip of your shoulder. It could be 
-a consequence of a spleen disorder (see section 4 “Possible side effects”). 
+a consequence of a spleen disorder (see section 4  Possible side effects ). 
 * if you or your child have a cough, fever and difficulty breathing. It could be a consequence of a 
-pulmonary disorder (see section 4 “Possible side effects”). 
+pulmonary disorder (see section 4  Possible side effects ). 
 * if you or your child have sickle cell anaemia, which is an inherited disease characterised by 
 sickle-shaped red blood cells. 
 * if you or your child have previously experienced allergic reactions to other medicines like this 
@@ -112,7 +112,7 @@ of reacting to Lonquex too. </p>
 levels. Your doctor will also check your or your child`s urine regularly as other medicines similar to 
 this one (e.g. other granulocyte colony stimulating factors such as filgrastim, lenograstim or 
 pegfilgrastim) can possibly harm the tiny filters inside your kidneys (glomerulonephritis; see section 4 
-“Possible side effects”). </p>
+ Possible side effects ). </p>
 <p>Tell your doctor if you or your child are being treated for breast or lung cancer in combination 
 with chemotherapy and/or radiation therapy and experience symptoms such as tiredness, fever, 
 and easy bruising or bleeding. These symptoms could be a consequence of a precancerous blood 
@@ -140,7 +140,7 @@ Lonquex has no or negligible influence on your ability to drive and use machines
 This medicine contains 30 mg sorbitol in each pre-filled syringe. </p>
 <p>Lonquex contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lonquex"
@@ -164,8 +164,8 @@ just under the skin (subcutaneous injection). </p>
 <p>Your doctor may suggest that you learn how to inject yourself with this medicine or how to give the 
 injection to your child. Your doctor or nurse will give you instructions on how to do this. Do not 
 attempt to give Lonquex to yourself or to your child without this training. Information required for 
-using the pre-filled syringe can be found under “Information for injecting yourself or your child”. 
-Proper treatment of your or of your child´s disease, however, requires close and constant co-operation 
+using the pre-filled syringe can be found under  Information for injecting yourself or your child . 
+Proper treatment of your or of your child s disease, however, requires close and constant co-operation 
 with your doctor. </p>
 <p>Information for injecting yourself or your child </p>
 <p>This section contains information on how to give yourself or your child an injection of Lonquex under 
@@ -182,7 +182,163 @@ To give yourself or your child an injection into the tissue under the skin you w
 * a piece of gauze bandage or a sterile gauze swab, 
 * a puncture-proof container (plastic container provided by the hospital or pharmacy) so you can 
 dispose of used syringes safely. </p>
-<p>What you should do before the injection </p>         </div>"""         
+<p>What you should do before the injection 
+1. Take the medicine out of the refrigerator. 
+2. Open the blister and take the pre-filled syringe out of the blister (see picture 1). Do not pick up 
+the pre-filled syringe by the plunger or needle cover. 
+3. Check the expiry date on the pre-filled syringe label (EXP). Do not use it if the date has passed 
+the last day of the month shown. 
+4. Check the appearance of Lonquex. It must be a clear and colourless liquid. If there are particles 
+in it or if it is cloudy, you must not use it. 
+5. Do not shake Lonquex vigorously as this may affect its activity. 
+6. For a more comfortable injection:<br />
+* let the pre-filled syringe stand for 30 minutes to reach room temperature (not above 
+25  C) or 
+* hold the pre-filled syringe gently in your hand for a few minutes. 
+Do not warm Lonquex in any other way (for example, do not warm it in a microwave or in hot 
+water). 
+7. Do not remove the needle cover from the syringe until you are ready to inject. 
+8. Find a comfortable, well-lit place. Put everything you need within easy reach (the Lonquex 
+pre-filled syringe, an alcohol wipe, a piece of gauze bandage or a sterile gauze swab and the 
+puncture-proof container). 
+9. Wash your hands thoroughly. </p>
+<p>1 </p>
+<p>Where the injection should be given 
+The most suitable places for the injection are: 
+* the top of the thighs, 
+* the abdomen (see grey areas in picture 2) avoiding the skin directly surrounding the navel. </p>
+<p>2 </p>
+<p>If someone else is injecting you or if you are injecting your child, the following places can also be 
+used: 
+* the back and side of the upper arms (see grey areas in pictures 3 and 4). </p>
+<p>3 
+4 </p>
+<p>How to prepare for the injection 
+Before you give yourself or your child a Lonquex injection, you must do the following: 
+1. Disinfect the injection site on the skin by using an alcohol wipe. 
+2. Hold the syringe and gently remove the cover from the needle without twisting. Pull straight as 
+shown in pictures 5 and 6. Do not touch the needle or push the plunger. </p>
+<p>5 
+6 </p>
+<ol>
+<li>You may notice small air bubbles in the pre-filled syringe. If there are air bubbles present, hold 
+the syringe with the needle pointing upwards (see picture 7), gently tap the syringe with your 
+fingers until the air bubbles rise to the top of the syringe. With the syringe pointing upwards, 
+expel all air from the syringe by pushing the plunger slowly upwards. </li>
+</ol>
+<p>7 </p>
+<ol>
+<li>You can now use the pre-filled syringe. </li>
+</ol>
+<p>How you should inject yourself or your child 
+1. Pinch the disinfected skin between your thumb and forefinger, without squeezing it (see 
+picture 8). 
+2. Put the needle fully into the skin as shown by your doctor or nurse. The angle between the 
+syringe and skin should not be too narrow (at least 45 , see picture 9). 
+3. Inject the liquid into the tissue slowly and evenly, always keeping the skin pinched. 
+4. After injecting the liquid, remove the needle and let go of the skin. 
+5. Press the injection site with a piece of gauze bandage or a sterile gauze swab for several 
+seconds. 
+6. Only use each syringe for one injection. Do not use any Lonquex that is left in the syringe. </p>
+<p>8 
+9 </p>
+<p>Remember 
+If you have any problems, please ask your doctor or nurse for help and advice. </p>
+<p>Disposing of used syringes 
+* Do not put the cover back on used needles. 
+* Put used syringes into the puncture-proof container and keep this container out of the sight and 
+reach of children. 
+* Dispose of the full puncture-proof container as instructed by your doctor, pharmacist or nurse. 
+* Never put the syringes that you have used into your normal household rubbish bin. </p>
+<p>Information for injecting yourself or your child </p>
+<p>This section contains information on how to give yourself or your child an injection of Lonquex under 
+the skin. It is important that you do not try to give yourself or your child the injection unless you have 
+received special training from your doctor or nurse. If you are not sure about giving yourself the 
+injection or you have any questions, please ask your doctor or nurse for help. </p>
+<p>How Lonquex is used 
+You will need to give yourself or your child the injection into the tissue just under the skin. This is 
+known as a subcutaneous injection. </p>
+<p>Equipment that you need 
+To give yourself or your child an injection into the tissue under the skin you will need: 
+* a pre-filled syringe of Lonquex, 
+* an alcohol wipe, 
+* a piece of gauze bandage or a sterile gauze swab. </p>
+<p>What you should do before the injection 
+1. Take the medicine out of the refrigerator. 
+2. Open the blister and take the pre-filled syringe out of the blister (see picture 1). Do not pick up 
+the pre-filled syringe by the plunger or needle cover. This could damage the safety device. 
+3. Check the expiry date on the pre-filled syringe label (EXP). Do not use it if the date has passed 
+the last day of the month shown. 
+4. Check the appearance of Lonquex. It must be a clear and colourless liquid. If there are particles 
+in it or if it is cloudy, you must not use it. 
+5. Do not shake Lonquex vigorously as this may affect its activity.<br />
+6. For a more comfortable injection: </p>
+<ul>
+<li>
+<p>let the pre-filled syringe stand for 30 minutes to reach room temperature (not above<br />
+25  C) or  </p>
+</li>
+<li>
+<p>hold the pre-filled syringe gently in your hand for a few minutes. </p>
+</li>
+</ul>
+<p>Do not warm Lonquex in any other way (for example, do not warm it in a microwave or in hot 
+water). 
+7. Do not remove the needle cover from the syringe until you are ready to inject. 
+8. Find a comfortable, well-lit place. Put everything you need within easy reach (the Lonquex 
+pre-filled syringe, an alcohol wipe and a piece of gauze bandage or a sterile gauze swab). 
+9. Wash your hands thoroughly. </p>
+<p>1 </p>
+<p>Where the injection should be given 
+The most suitable places for the injection are: 
+* the top of the thighs, 
+* the abdomen (see grey areas in picture 2) avoiding the skin directly surrounding the navel. </p>
+<p>2 </p>
+<p>If someone else is injecting you or if you are injecting your child, the following places can also be 
+used: 
+* the back and side of the upper arms (see grey areas in pictures 3 and 4). </p>
+<p>3 
+4 </p>
+<p>How to prepare for the injection 
+Before you give yourself or your child a Lonquex injection, you must do the following: 
+1. Disinfect the injection site on the skin by using an alcohol wipe. 
+2. Hold the syringe and gently remove the cover from the needle without twisting. Pull straight as 
+shown in pictures 5 and 6. Do not touch the needle or push the plunger. </p>
+<p>5 
+6 </p>
+<ol>
+<li>You may notice small air bubbles in the pre-filled syringe. If there are air bubbles present, hold 
+the syringe with the needle pointing upwards (see picture 7), gently tap the syringe with your 
+fingers until the air bubbles rise to the top of the syringe. With the syringe pointing upwards, 
+expel all air from the syringe by pushing the plunger slowly upwards. </li>
+</ol>
+<p>7 </p>
+<ol>
+<li>You can now use the pre-filled syringe. </li>
+</ol>
+<p>How you should inject yourself or your child 
+1. Pinch the disinfected skin between your thumb and forefinger, without squeezing it (see 
+picture 8). 
+2. Put the needle fully into the skin as shown by your doctor or nurse. The angle between the 
+syringe and skin should not be too narrow (at least 45 , see picture 9). 
+3. Inject the liquid into the tissue slowly and evenly, always keeping the skin pinched (see 
+picture 10). 
+4. Push the plunger as far as it will go to inject all the liquid. While the plunger is still pressed all 
+the way down, remove the needle from the skin (see picture 11). Then release the plunger. The 
+safety device will be activated immediately. The entire needle and syringe will be drawn back 
+automatically and covered so that you cannot prick yourself (see picture 12). 
+5. Press the injection site with a piece of gauze bandage or a sterile gauze swab for several 
+seconds. 
+6. Each pre-filled syringe is for single use only. </p>
+<p>8 
+9 </p>
+<p>Remember 
+If you have any problems, please ask your doctor or nurse for help and advice. </p>
+<p>If you use more Lonquex than you should 
+If you use more Lonquex than you should, talk to your doctor. </p>
+<p>If you forget to use Lonquex 
+If you have missed an injection, contact your doctor to discuss when you should inject the next dose. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -190,17 +346,67 @@ dispose of used syringes safely. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Open the blister and take the pre-filled syringe out of the blister (see picture 1). Do not pick up 
-the pre-filled syringe by the plunger or needle cover. </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Most serious side effects </p>
+<ul>
+<li>Allergic reactions such as skin rash, raised itchy areas of skin and serious allergic reactions with 
+weakness, drop in blood pressure, difficulty breathing and swelling of the face have been 
+reported uncommonly (may affect up to 1 in 100 people). If you think you are having this type 
+of reaction, you must stop your Lonquex injection and get medical help immediately. </li>
+<li>Increased spleen size has been reported uncommonly  and cases of splenic ruptures have been 
+reported with other medicines similar to Lonquex. Some cases of splenic rupture were fatal. It is 
+important to contact your doctor immediately if you experience pain in the upper left side of the 
+abdomen or left shoulder pain since this may relate to a problem with your spleen. </li>
+<li>Cough, fever and difficult or painful breathing can be signs of uncommon  serious pulmonary 
+side effects, such as pneumonia and acute respiratory distress syndrome, which may be fatal. If 
+you have a fever or any of these symptoms, it is important to contact your doctor immediately.  </li>
+<li>It is important to contact your doctor immediately if you have any of the following symptoms: 
+swelling or puffiness, which may be associated with passing water less frequently, difficulty 
+breathing, abdominal swelling and feeling of fullness, and a general feeling of tiredness. These 
+symptoms generally develop in a rapid fashion. 
+These could be symptoms of a condition reported with frequency not known (cannot be 
+estimated from the available data), called  capillary leak syndrome , which causes blood to leak 
+from the small blood vessels into your body and needs urgent medical attention. </li>
+</ul>
+<p>Other side effects </p>
+<p>Very common (may affect more than 1 in 10 people) 
+* Musculoskeletal pains such as bone pain and pain in the joints, muscles, limbs, chest, neck or 
+back. Tell your doctor if you experience severe musculoskeletal pain. 
+* Nausea. </p>
+<p>Common (may affect up to 1 in 10 people) 
+* Reduction in blood platelets, which increases risk of bleeding or bruising. 
+* Headache. 
+* Skin reactions, such as redness or rash. 
+* Low blood levels of potassium, which can cause muscle weakness, twitching or abnormal heart 
+rhythm. 
+* Chest pain. 
+* Coughing up blood. </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* Rise in white blood cells. 
+* Local reactions at the injection site, such as pain or hardening. 
+* Some changes may occur in your blood, but these will be detected by routine blood tests. 
+* Bleeding from the lung. </p>
+<p>Not known (frequency cannot be estimated from the available data): 
+* Inflammation of the aorta (the large blood vessel which transports blood from the heart to the 
+body), see section </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lonquex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store lonquex"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>the last day of the month shown. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Side effects that have been seen with similar medicines, but not yet with Lonquex 
+* Sickle cell crises in patients with sickle cell anaemia. 
+* Plum-coloured raised painful sores on the limbs and sometimes the face and neck with fever 
+(Sweet s syndrome). 
+* Inflammation of the blood vessels in the skin. 
+* Damage to the tiny filters inside your kidneys (glomerulonephritis; see section 2 under 
+ Warnings and precautions ). </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -208,5 +414,16 @@ the pre-filled syringe by the plunger or needle cover. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>in it or if it is cloudy, you must not use it. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the label of 
+the pre-filled syringe after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C   8  C). </p>
+<p>Do not freeze. </p>
+<p>Keep the pre-filled syringe in the outer carton, in order to protect from light. </p>
+<p>Lonquex may be removed from the refrigerator and stored below 25  C for a maximum single period 
+of up to 7 days. Once removed from the refrigerator, the medicine must be used within this period or 
+disposed of. </p>
+<p>Do not use this medicine if you notice that it is cloudy or there are particles in it. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

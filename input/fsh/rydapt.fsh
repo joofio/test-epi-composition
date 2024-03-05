@@ -4,7 +4,7 @@ Instance: composition-en-00913882b59a9d04c9763a602ce7c1ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for rydapt Package Leaflet"
 Description:  "Composition for rydapt Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,35 +96,41 @@ ask your doctor, pharmacist or nurse. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take rydapt"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow the doctor’s instructions carefully. They may differ from the general information in this leaflet. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow the doctor s instructions carefully. They may differ from the general information in this leaflet. </p>
 <p>Do not take Rydapt 
 - if you are allergic to midostaurin or to any of the other ingredients of this medicine (listed in 
 section 6). If you think you may be allergic, ask your doctor for advice. 
-- if you are already taking any of the following medicines: 
-- medicines used to treat tuberculosis, such as rifampicin; 
-- medicines used to treat epilepsy, such as carbamazepine or phenytoin; 
-- enzalutamide, a medicine used to treat prostate cancer; 
-- St. John’s Wort (also known as Hypericum perforatum), a herbal medicine used to treat 
+- if you are already taking any of the following medicines:</p>
+<ul>
+<li>medicines used to treat tuberculosis, such as rifampicin; </li>
+<li>medicines used to treat epilepsy, such as carbamazepine or phenytoin; </li>
+<li>enzalutamide, a medicine used to treat prostate cancer; </li>
+<li>St. John s Wort (also known as Hypericum perforatum), a herbal medicine used to treat 
 depression. 
 These medicines must be avoided during treatment with Rydapt. Talk to your doctor if you are 
-told that you have to start taking one of them during Rydapt treatment. </p>
+told that you have to start taking one of them during Rydapt treatment. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before taking Rydapt: 
-- if you have any infections. 
-- if you have a heart disorder. 
-- if you have problems with your lungs or problems breathing. 
-- if you have problems with your kidneys. </p>
+Talk to your doctor, pharmacist or nurse before taking Rydapt:</p>
+<ul>
+<li>if you have any infections. </li>
+<li>if you have a heart disorder. </li>
+<li>if you have problems with your lungs or problems breathing. </li>
+<li>if you have problems with your kidneys. </li>
+</ul>
 <p>Tell your doctor, pharmacist or nurse straight away if you get any of these symptoms during treatment 
-with Rydapt: 
-- if you have fever, sore throat or mouth ulcers, because these may indicate that your white blood 
-cell count is low. 
-- if you have new or worsening symptoms such as fever, cough with or without mucous, chest 
-pain, trouble breathing or shortness of breath, because these may be signs of lung problems. 
-- if you have or experience chest pain or discomfort, light-headedness, fainting, dizziness, blue 
+with Rydapt:</p>
+<ul>
+<li>if you have fever, sore throat or mouth ulcers, because these may indicate that your white blood 
+cell count is low. </li>
+<li>if you have new or worsening symptoms such as fever, cough with or without mucous, chest 
+pain, trouble breathing or shortness of breath, because these may be signs of lung problems. </li>
+<li>if you have or experience chest pain or discomfort, light-headedness, fainting, dizziness, blue 
 discolouration of your lips, hands or feet, shortness of breath, or swelling of your lower limbs 
 (oedema) or skin, because these may be signs of heart problems. 
 Your doctor may need to adjust, temporarily stop or completely discontinue your treatment with 
-Rydapt. </p>
+Rydapt. </li>
+</ul>
 <p>Monitoring during treatment with Rydapt 
 Your doctor will perform regular blood tests during treatment with Rydapt in order to monitor the 
 amount of blood cells (white blood cells, red blood cells and platelets) and electrolytes (e.g. calcium, 
@@ -136,19 +142,23 @@ other chemotherapy, because it could cause a severe reduction of certain types o
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This is because Rydapt can affect the way some medicines work. Some other medicines 
 can also affect how Rydapt works. </p>
-<p>The following medicines must be avoided during treatment with Rydapt: 
-- medicines used to treat tuberculosis, such as rifampicin; 
-- medicines used to treat epilepsy, such as carbamazepine or phenytoin; 
-- enzalutamide, a medicine used to treat prostate cancer; 
-- St. John’s Wort (also known as Hypericum perforatum), a herbal medicine used to treat 
-depression. </p>
-<p>Tell your doctor or pharmacist if you are taking any of the following medicines: 
-- some medicines used to treat infections, such as ketoconazole or clarithromycin; 
-- some medicines used to treat HIV, such as ritonavir or efavirenz; 
-- some medicines used to treat depression, such as nefazodone or bupropion; 
-- some medicines used to control levels of fat in your blood, such as atorvastatin or rosuvastatin; 
-- tizanidine, a medicine used to relax muscles; 
-- chlorzoxazone, a medicine used for treating discomfort caused by muscle spasms. </p>
+<p>The following medicines must be avoided during treatment with Rydapt:</p>
+<ul>
+<li>medicines used to treat tuberculosis, such as rifampicin; </li>
+<li>medicines used to treat epilepsy, such as carbamazepine or phenytoin; </li>
+<li>enzalutamide, a medicine used to treat prostate cancer; </li>
+<li>St. John s Wort (also known as Hypericum perforatum), a herbal medicine used to treat 
+depression. </li>
+</ul>
+<p>Tell your doctor or pharmacist if you are taking any of the following medicines:</p>
+<ul>
+<li>some medicines used to treat infections, such as ketoconazole or clarithromycin; </li>
+<li>some medicines used to treat HIV, such as ritonavir or efavirenz; </li>
+<li>some medicines used to treat depression, such as nefazodone or bupropion; </li>
+<li>some medicines used to control levels of fat in your blood, such as atorvastatin or rosuvastatin; </li>
+<li>tizanidine, a medicine used to relax muscles; </li>
+<li>chlorzoxazone, a medicine used for treating discomfort caused by muscle spasms. </li>
+</ul>
 <p>If you are taking any of these medicines, your doctor might prescribe a different medicine for you 
 during your treatment with Rydapt. </p>
 <p>You should also tell your doctor if you are already taking Rydapt and you are prescribed a new 
@@ -208,7 +218,7 @@ evening meal).
 - Swallow the capsules whole with a glass of water. Do not open, crush or chew them to ensure 
 proper dosing and avoid the unpleasant taste of the capsule content. 
 - For patients with AML, Rydapt is taken with chemotherapy medicines. It is very important to 
-follow your doctor’s recommendations. 
+follow your doctor s recommendations. 
 - If you vomit after you swallow the capsules, do not take any more capsules until your next 
 scheduled dose. </p>
 <p>How long to take Rydapt 
@@ -238,21 +248,25 @@ your medicine unless your doctor tells you to do so. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop taking Rydapt and tell your doctor straight away if you notice any of the following as these 
-could be signs of an allergic reaction: 
-- difficulty breathing or swallowing 
-- dizziness 
-- swelling of the face, lips, tongue or throat 
-- severe itching of the skin, with a red rash or raised bumps </p>
+could be signs of an allergic reaction:</p>
+<ul>
+<li>difficulty breathing or swallowing </li>
+<li>dizziness </li>
+<li>swelling of the face, lips, tongue or throat </li>
+<li>severe itching of the skin, with a red rash or raised bumps </li>
+</ul>
 <p>Some side effects in patients with AML could be serious. 
-Tell your doctor, pharmacist or nurse straight away if you notice any of the following: 
-- weakness, spontaneous bleeding or bruising, frequent infections with signs such as fever, chills, 
-sore throat or mouth ulcers (signs of a low level of blood cells) 
-- fever, cough with or without mucus, chest pain, trouble breathing or shortness of breath (signs of 
-non-infectious interstitial lung disease or pneumonitis) 
-- severe shortness of breath, laboured and unusually rapid breathing, dizziness, light-headedness, 
-confusion and extreme tiredness (signs of acute respiratory distress syndrome) 
-- infections, fever, low blood pressure, decreased urination, rapid pulse, rapid breathing (signs of 
-sepsis or neutropenic sepsis) </p>
+Tell your doctor, pharmacist or nurse straight away if you notice any of the following:</p>
+<ul>
+<li>weakness, spontaneous bleeding or bruising, frequent infections with signs such as fever, chills, 
+sore throat or mouth ulcers (signs of a low level of blood cells) </li>
+<li>fever, cough with or without mucus, chest pain, trouble breathing or shortness of breath (signs of 
+non-infectious interstitial lung disease or pneumonitis) </li>
+<li>severe shortness of breath, laboured and unusually rapid breathing, dizziness, light-headedness, 
+confusion and extreme tiredness (signs of acute respiratory distress syndrome) </li>
+<li>infections, fever, low blood pressure, decreased urination, rapid pulse, rapid breathing (signs of 
+sepsis or neutropenic sepsis) </li>
+</ul>
 <p>Other possible side effects in patients with AML 
 Other side effects include those listed below. If any of these side effects become severe, tell your 
 doctor or pharmacist. </p>
@@ -296,7 +310,7 @@ twitching (signs of high levels of calcium in the blood, known as hypercalcaemia
 - involuntary shaking of the body 
 - headache, dizziness (high blood pressure) 
 - fast heart beat (sinus tachycardia) 
-- collection of fluid around the heart, which, if severe, can decrease the heart’s ability to pump 
+- collection of fluid around the heart, which, if severe, can decrease the heart s ability to pump 
 blood (pericardial effusion) 
 - fluid collection in the lungs/chest cavity, which, if severe, could make you breathless (pleural 
 effusion) 
@@ -317,16 +331,18 @@ body are functioning: high levels of uric acid </p>
 - Raised, painful, red to dark reddish-purple skin patches or sores that appear mainly on the arms, 
 legs, face and neck, with a fever (signs of acute febrile neutrophilic dermatosis) </p>
 <p>Some side effects in patients with ASM, SM-AHN and MCL could be serious. 
-Tell your doctor, pharmacist or nurse straight away if you notice any of the following: 
-- weakness, spontaneous bleeding or bruising, frequent infections with signs such as fever, chills, 
-sore throat or mouth ulcers (signs of a low level of blood cells) 
-- fever, cough, difficult or painful breathing, wheezing, chest in pain when breathing (signs of 
-pneumonia) 
-- fever, cough with or without mucus, chest pain, trouble breathing or shortness of breath (signs of 
-non-infectious interstitial lung disease or pneumonitis) 
-- infections, fever, dizziness, light-headedness, decreased urination, rapid pulse, rapid breathing 
-(signs of sepsis or neutropenic sepsis) 
-- vomiting of blood, black or bloody stools (signs of gastrointestinal bleeding) </p>
+Tell your doctor, pharmacist or nurse straight away if you notice any of the following:</p>
+<ul>
+<li>weakness, spontaneous bleeding or bruising, frequent infections with signs such as fever, chills, 
+sore throat or mouth ulcers (signs of a low level of blood cells) </li>
+<li>fever, cough, difficult or painful breathing, wheezing, chest in pain when breathing (signs of 
+pneumonia) </li>
+<li>fever, cough with or without mucus, chest pain, trouble breathing or shortness of breath (signs of 
+non-infectious interstitial lung disease or pneumonitis) </li>
+<li>infections, fever, dizziness, light-headedness, decreased urination, rapid pulse, rapid breathing 
+(signs of sepsis or neutropenic sepsis) </li>
+<li>vomiting of blood, black or bloody stools (signs of gastrointestinal bleeding) </li>
+</ul>
 <p>Other possible side effects in patients with ASM, SM-AHN and MCL 
 Other side effects include those listed below. If any of these side effects become severe, tell your 
 doctor or pharmacist. </p>
@@ -388,16 +404,18 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store rydapt"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and the blister foil 
-after EXP. The expiry date refers to the last day of that month. 
-- This medicine does not require any special temperature storage conditions. Store in the original 
-container in order to protect from moisture. 
-- Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
-tampering. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the blister foil 
+after EXP. The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special temperature storage conditions. Store in the original 
+container in order to protect from moisture. </li>
+<li>Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
+tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -407,13 +425,13 @@ environment. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rydapt contains 
 - The active substance is midostaurin. Each soft capsule contains 25 mg midostaurin. 
-- The other ingredients are: macrogolglycerol hydroxystearate (see “Rydapt contains 
-macrogolglycerol hydroxystearate (castor oil)” in section 2), gelatin, macrogol, glycerol, ethanol 
-anhydrous (see “Rydapt contains ethanol anhydrous (alcohol)” in section 2), maize oil 
+- The other ingredients are: macrogolglycerol hydroxystearate (see  Rydapt contains 
+macrogolglycerol hydroxystearate (castor oil)  in section 2), gelatin, macrogol, glycerol, ethanol 
+anhydrous (see  Rydapt contains ethanol anhydrous (alcohol)  in section 2), maize oil 
 mono-di-triglycerides, titanium dioxide (E171), all-rac-alpha-tocopherol, iron oxide yellow 
 (E172), iron oxide red (E172), carmine (E120), hypromellose, propylene glycol, purified water. </p>
 <p>What Rydapt looks like and contents of the pack 
-Rydapt 25 mg soft capsules (capsules) are pale orange, oblong capsules with red imprint “PKC NVR”. </p>
+Rydapt 25 mg soft capsules (capsules) are pale orange, oblong capsules with red imprint  PKC NVR . </p>
 <p>The capsules are provided in blisters and are available in packs containing 56 capsules (2 packs of 
 28 capsules) or 112 capsules (4 packs of 28 capsules). Not all pack sizes may be marketed in your 
 country. </p>
@@ -429,23 +447,22 @@ Roonstrasse 90429 Nuremberg
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -461,35 +478,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -497,10 +514,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

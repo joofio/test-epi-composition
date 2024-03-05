@@ -4,7 +4,7 @@ Instance: composition-en-03637352751fb140a2fd90a9d4f091a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for pelgraz Package Leaflet"
 Description:  "Composition for pelgraz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -107,13 +107,17 @@ and may cause severe allergic reactions. </p>
 </li>
 <li>experience a cough, fever and difficulty breathing. This can be a sign of Acute Respiratory 
 Distress Syndrome (ARDS). </li>
-<li>have any of the following or combination of the following side effects: </li>
-<li>swelling or puffiness, which may be associated with passing water less frequently, 
+<li>
+<p>have any of the following or combination of the following side effects:</p>
+</li>
+<li>
+<p>swelling or puffiness, which may be associated with passing water less frequently, 
 difficulty breathing, abdominal swelling and feeling of fullness, and a general feeling of 
 tiredness. 
-These could be symptoms of condition called “Capillary Leak Syndrome” which causes blood 
+These could be symptoms of condition called  Capillary Leak Syndrome  which causes blood 
 to leak from the small blood vessels into your body. See section 4. * get left upper abdominal pain or pain at the tip of your shoulder. This may be a sign of a 
-problem with your spleen (splenomegaly). </li>
+problem with your spleen (splenomegaly). </p>
+</li>
 <li>have recently had a serious lung infection (pneumonia), fluid in the lungs (pulmonary oedema), 
 inflammation of the lungs (interstitial lung disease) or an abnormal chest x-ray (lung 
 infiltration). </li>
@@ -138,14 +142,20 @@ count). Tell your doctor if you experience these symptoms. </li>
 kidneys (glomerulonephritis). </p>
 <p>Severe skin reactions (Stevens-Johnson syndrome) have been reported with the use of Pelgraz. Stop 
 using Pelgraz and seek medical attention immediately if you notice any of the symptoms described in 
-section 4.<br />
-You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pelgraz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pelgraz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
 are likely to develop cancers of the blood, you should not use Pelgraz, unless instructed by your 
 doctor. </p>
 <p>Loss of response to pegfilgrastim </p>
 <p>If you experience a loss of response or failure to maintain a response with pegfilgrastim treatment, 
 your doctor will investigate the reasons why including whether you have developed antibodies which 
-neutralise pegfilgrastim’s activity. </p>
+neutralise pegfilgrastim s activity. </p>
 <p>Children and adolescents </p>
 <p>The safety and efficacy of Pelgraz in children has not yet been established. Ask your doctor or 
 pharmacist for advice before taking any medicine. </p>
@@ -165,12 +175,13 @@ pregnant women. It is important to tell your doctor if you:
 <p>Pelgraz contains sorbitol (E420) and sodium  </p>
 <p>This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
-‘sodium-free’ </p>         </div>"""   
-                    
+ sodium-free  </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take pelgraz"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take pelgraz"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelgraz is for use in adults aged 18 and over. </p>
 <p>Always take Pelgraz exactly as your doctor has told you. You should check with your doctor or 
@@ -194,24 +205,44 @@ subcutaneous injection.  </p>
 <p>To give yourself a subcutaneous injection you will need:<br />
 <em> a pre-filled syringe of Pelgraz;<br />
 </em> alcohol swab.  </p>
-<p>What should I do before I give myself a subcutaneous injection of Pelgraz? </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<p>What should I do before I give myself a subcutaneous injection of Pelgraz? </p>
+<ol>
+<li>Take the pre-filled syringe out of the refrigerator.  </li>
 <li>Do not remove the needle cover from the syringe until just before you are ready to inject. </li>
-</ol>         </div>"""      
+<li>Check the expiry date on the pre-filled syringe label (EXP). Do not use it if the date has passed 
+the last day of the month shown or if it has been kept outside of the refrigerator for more than days or has otherwise expired.  </li>
+<li>Check the appearance of Pelgraz. It must be a clear and colourless liquid. If there are particles in 
+it, you must not use it.  </li>
+<li>For a more comfortable injection, let the pre-filled syringe stand for 30 minutes to reach room 
+temperature or hold the pre-filled syringe gently in your hand for a few minutes. Do not warm 
+Pelgraz in any other way (for example, do not warm it in a microwave or in hot water).  </li>
+<li>Wash your hands thoroughly.  </li>
+<li>Find a comfortable, well-lit place and put everything you need where you can reach them (the 
+pre-filled syringe and alcohol swab).  </li>
+</ol>
+<p>How do I prepare my Pelgraz injection? </p>
+<p>Before you inject Pelgraz you must do the following:<br />
+Do not use a pre-filled syringe if it has been dropped on a hard surface. </p>
+<p>Step-1: Check the integrity of the system  </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pelgraz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store pelgraz"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>the last day of the month shown or if it has been kept outside of the refrigerator for more than days or has otherwise expired.  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ensure the system is intact/ not damaged. Do not use the product if you see any damage (syringe 
+or needle safety guard breakage) or lose components and if the needle safety guard is on safety 
+position before use as shown on picture 9 because this indicate system already operated. In 
+general the product should not be used if it does not conform to the picture 1. If so discard the 
+product in a biohazard (sharps) container. </p>
+<p>Picture 1 </p>
+<p>Step 2: Remove the Needle Cap </p>
+<ol>
+<li>Remove the protective cap as shown in picture 2. Hold the body of the needle safety guard in 
+one hand with the needle end pointing away from you and without touching the plunge rod. Pull 
+the needle cap straight off with your other hand. After removal, throw away the needles cap in a 
+biohazard (sharps) container. </li>
+</ol>         </div>"""      
         
         
 * section[=].section[+]
@@ -219,5 +250,6 @@ subcutaneous injection.  </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>it, you must not use it.  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You may notice a small air bubble in the pre-filled syringe. You do not have to remove the air 
+bubble before injecting. Injecting the solution with the air bubble is harmless.  </p>         </div>"""      
 

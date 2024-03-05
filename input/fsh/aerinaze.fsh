@@ -4,7 +4,7 @@ Instance: composition-en-67197f446ece70b3d37301b0d5a7f6eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for aerinaze Package Leaflet"
 Description:  "Composition for aerinaze Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Aerinaze  
 4. Possible side effects 
 5. How to store Aerinaze 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -87,35 +86,41 @@ adolescents 12 years of age and older. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take aerinaze"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Aerinaze: 
-- if you are allergic to desloratadine, pseudoephedrine sulphate, adrenergic medicines, or any of 
-the other ingredients of this medicine (listed in section 6) or to loratadine 
-- if you have high blood pressure, heart or blood vessel disease or a history of stroke 
-- if you have glaucoma, difficulty in urinating, urinary tract blockage, or an overactive thyroid 
-- if you are taking monoamine oxidase (MAO) inhibitor (a class of antidepressant medicines) 
-therapy or have stopped taking these types of medicines within the last 14 days. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Aerinaze:</p>
+<ul>
+<li>if you are allergic to desloratadine, pseudoephedrine sulphate, adrenergic medicines, or any of 
+the other ingredients of this medicine (listed in section 6) or to loratadine </li>
+<li>if you have high blood pressure, heart or blood vessel disease or a history of stroke </li>
+<li>if you have glaucoma, difficulty in urinating, urinary tract blockage, or an overactive thyroid </li>
+<li>if you are taking monoamine oxidase (MAO) inhibitor (a class of antidepressant medicines) 
+therapy or have stopped taking these types of medicines within the last 14 days. </li>
+</ul>
 <p>Warnings and precautions 
 Certain conditions may make you unusually sensitive to the decongestant pseudoephedrine sulphate 
-contained in this medicine. Talk to your doctor, pharmacist or nurse before taking Aerinaze: 
-- if you are 60 years of age or older. Older adults may be more sensitive to the effects of this 
-medicine 
-- if you have diabetes<br />
-- if you have intestinal ulcers leading to the narrowing of the stomach, small intestine or 
-esophagus (stenosing peptic ulcer) 
-- if you have intestinal blockage (pyloral or duodenal blockage)<br />
-- if you have bladder neck blockage (vesical cervix blockage) 
-- if you have a history of difficulty breathing due to tightening of the lung muscles 
-(bronchospasm) 
-- if you have problems with your liver, kidney, or bladder. </p>
+contained in this medicine. Talk to your doctor, pharmacist or nurse before taking Aerinaze:</p>
+<ul>
+<li>if you are 60 years of age or older. Older adults may be more sensitive to the effects of this 
+medicine </li>
+<li>if you have diabetes  </li>
+<li>if you have intestinal ulcers leading to the narrowing of the stomach, small intestine or 
+esophagus (stenosing peptic ulcer) </li>
+<li>if you have intestinal blockage (pyloral or duodenal blockage)  </li>
+<li>if you have bladder neck blockage (vesical cervix blockage) </li>
+<li>if you have a history of difficulty breathing due to tightening of the lung muscles 
+(bronchospasm) </li>
+<li>if you have problems with your liver, kidney, or bladder. </li>
+</ul>
 <p>In addition, if you experience or are diagnosed with any of the following conditions you should talk to 
-your doctor, pharmacist or nurse as they may advise you to stop taking Aerinaze: 
-- high blood pressure 
-- a fast or pounding heart beat 
-- abnormal heart rhythm 
-- feeling sick and headache or increase headache while using Aerinaze.<br />
-- if you have medical of familial history of seizures 
-- severe skin reactions, including signs and symptoms such as reddening of the skin, many small 
-pimples, with or without fever  </p>
+your doctor, pharmacist or nurse as they may advise you to stop taking Aerinaze:</p>
+<ul>
+<li>high blood pressure </li>
+<li>a fast or pounding heart beat </li>
+<li>abnormal heart rhythm </li>
+<li>feeling sick and headache or increase headache while using Aerinaze.  </li>
+<li>if you have medical of familial history of seizures </li>
+<li>severe skin reactions, including signs and symptoms such as reddening of the skin, many small 
+pimples, with or without fever  </li>
+</ul>
 <p>If you are scheduled to have surgery, your doctor may advise you to stop taking Aerinaze 24 hours 
 beforehand. </p>
 <p>One of the active ingredients in Aerinaze, pseudoephedrine sulphate, has the potential to be abused 
@@ -130,21 +135,23 @@ Athletes taking Aerinaze may have positive doping-tests. </p>
 Do not give this medicine to children less than 12 years of age. </p>
 <p>Other medicines and Aerinaze 
 Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
-medicines. This is especially important if you are taking: 
-- digitalis, a medicine used to treat certain heart disorders 
-- medicines for blood pressure (e.g. α-methyldopa, mecamylamine, reserpine, veratrum alkaloids 
-and guanethidine) 
-- decongestants by oral or nasal route (such as phenylpropanolamine, phenylephrine, ephedrine, 
-oxymetazoline, naphazoline) 
-- diet pills (appetite suppressants) 
-- amphetamines 
-- medicines for migraines e.g. ergot alkaloids (such as, dihydroergotamine, ergotamine, or 
-methylergometrine) 
-- medicines for Parkinson’s disease or for infertility e.g. bromocriptine, cabergoline, lisuride and 
-pergolide 
-- antacids for indigestion or stomach problems 
-- a medicine for diarrhoea called kaolin. 
-- tricyclic antidepressants (such as nortriptyline), antihistamines (such as cetirizine, fexofenadine) </p>
+medicines. This is especially important if you are taking:</p>
+<ul>
+<li>digitalis, a medicine used to treat certain heart disorders </li>
+<li>medicines for blood pressure (e.g.  -methyldopa, mecamylamine, reserpine, veratrum alkaloids 
+and guanethidine) </li>
+<li>decongestants by oral or nasal route (such as phenylpropanolamine, phenylephrine, ephedrine, 
+oxymetazoline, naphazoline) </li>
+<li>diet pills (appetite suppressants) </li>
+<li>amphetamines </li>
+<li>medicines for migraines e.g. ergot alkaloids (such as, dihydroergotamine, ergotamine, or 
+methylergometrine) </li>
+<li>medicines for Parkinson s disease or for infertility e.g. bromocriptine, cabergoline, lisuride and 
+pergolide </li>
+<li>antacids for indigestion or stomach problems </li>
+<li>a medicine for diarrhoea called kaolin. </li>
+<li>tricyclic antidepressants (such as nortriptyline), antihistamines (such as cetirizine, fexofenadine) </li>
+</ul>
 <p>Aerinaze with alcohol 
 Speak with your doctor, pharmacist or nurse regarding whether you can drink alcohol while taking 
 Aerinaze. Drinking alcohol while taking Aerinaze is not recommended. </p>
@@ -194,76 +201,76 @@ If you have any further questions on the use of this medicine, ask your doctor, 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects have been seen in studies: </p>
 <p>Common: the following may affect up to 1 in 10 people<br />
-• fast heartbeat 
-• restlessness with increased 
+  fast heartbeat 
+  restlessness with increased 
 body movement 
-• dry mouth 
-• dizziness 
-• sore throat 
-• decreased appetite 
-• constipation </p>
-<p>• tiredness<br />
-• headache 
-• trouble sleeping 
-• nervousness 
-• drowsiness </p>
+  dry mouth 
+  dizziness 
+  sore throat 
+  decreased appetite 
+  constipation </p>
+<p>tiredness<br />
+  headache 
+  trouble sleeping 
+  nervousness 
+  drowsiness </p>
 <p>Uncommon: the following may affect up to 1 in 100 people 
-• pounding or irregular heart 
+  pounding or irregular heart 
 beat 
-• increased body movement 
-• flushing 
-• hot flush 
-• confusion 
-• blurry vision 
-• dry eye 
-• nose bleeds 
-• irritated nose<br />
-• inflammation of the nose 
-• runny nose 
-• inflammation of the sinus 
-• dry throat 
-• stomach ache 
-• stomach flu 
-• feeling sick (nausea) 
-• abnormal stool 
-• painful or difficult 
+  increased body movement 
+  flushing 
+  hot flush 
+  confusion 
+  blurry vision 
+  dry eye 
+  nose bleeds 
+  irritated nose<br />
+  inflammation of the nose 
+  runny nose 
+  inflammation of the sinus 
+  dry throat 
+  stomach ache 
+  stomach flu 
+  feeling sick (nausea) 
+  abnormal stool 
+  painful or difficult 
 urination<br />
-• sugar in urine 
-• increased sugar in blood 
-• thirst 
-• problems urinating 
-• changes in frequency of 
+  sugar in urine 
+  increased sugar in blood 
+  thirst 
+  problems urinating 
+  changes in frequency of 
 urination 
-• itching 
-• chills 
-• decreased sense of smell 
-• abnormal liver function tests 
-• agitation 
-• anxiety 
-• irritability </p>
+  itching 
+  chills 
+  decreased sense of smell 
+  abnormal liver function tests 
+  agitation 
+  anxiety 
+  irritability </p>
 <p>Very rarely: the following other side effects reported during the marketing of desloratadine, may 
 affect up to 1 in 10,000 people 
-• severe allergic reactions 
+  severe allergic reactions 
 (difficulty in breathing, 
 wheezing, itching, hives and 
 swelling)<br />
-• rash  </p>
-<p>• vomiting 
-• diarrhoea 
-• hallucination </p>
-<p>• muscle pain 
-• convulsion 
-• liver inflammation 
-•  abnormal liver function 
+  rash  </p>
+<p>vomiting 
+  diarrhoea 
+  hallucination </p>
+<p>muscle pain 
+  convulsion 
+  liver inflammation 
+   abnormal liver function 
 tests 
 Not known: frequency cannot be estimated from the available data 
-• abnormal behaviour  </p>
-<p>• aggression<br />
-• changes in the way the heart 
+  abnormal behaviour  </p>
+<p>aggression<br />
+  changes in the way the heart 
 beats<br />
-• weight increased, increased 
+  weight increased, increased 
 appetite 
-• depressed mood </p>
+  depressed mood </p>
 <p>Cases of severe skin reactions, including signs and symptoms such as fever, reddening of the skin, or 
 many small pimples, have been reported with pseudoephedrine-containing products. </p>
 <p>Reporting of side effects 
@@ -280,7 +287,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and blister after EXP.<br />
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. Keep the blisters in the outer carton in order to protect from light. </p>
+<p>Do not store above 30 C. Keep the blisters in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -293,14 +300,16 @@ throw away medicines you no longer use. These measures will help to protect the 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Aerinaze contains 
 - The active substances are desloratadine and pseudoephedrine sulphate. 
 - Each tablet contains 2.5 mg desloratadine and 120 mg pseudoephedrine sulphate.<br />
-- The other ingredients are: 
-- Ingredients in the blue, immediate-release layer: maize starch, microcrystalline cellulose, 
+- The other ingredients are:</p>
+<ul>
+<li>Ingredients in the blue, immediate-release layer: maize starch, microcrystalline cellulose, 
 edetate disodium, citric acid, stearic acid and colorant (Indigo Carmine E132, Aluminum 
-lake). 
-- Ingredients in the white, sustained-release layer: hypromellose 2208, microcrystalline 
-cellulose, povidone K30, silicon dioxide and magnesium stearate. </p>
+lake). </li>
+<li>Ingredients in the white, sustained-release layer: hypromellose 2208, microcrystalline 
+cellulose, povidone K30, silicon dioxide and magnesium stearate. </li>
+</ul>
 <p>What Aerinaze looks like and contents of the pack </p>
-<p>Aerinaze is a blue and white oval bilayer modified-release tablet with “D12” debossed in the blue 
+<p>Aerinaze is a blue and white oval bilayer modified-release tablet with  D12  debossed in the blue 
 layer. Aerinaze tablets are packed as 2, 4, 7, 10, 14, or 20 tablets in blisters comprised of laminate 
 blister film and foil lidding. 
 Not all pack sizes may be marketed. </p>
@@ -316,24 +325,23 @@ Industriepark 2220 Heist-op-den-Berg
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
 <p>Lietuva 
-Organon Pharma B.V. Lithuania atstovybė 
+Organon Pharma B.V. Lithuania atstovyb<br />
 Tel.: +370 52041dpoc.lithuania@organon.com </p>
-<p>България 
-Органон (И.А.) Б.В. - клон България 
-Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com </p>
 <p>Luxembourg/Luxemburg 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Organon Czech Republic s.r.o. 
 Tel: +420 233 010 dpoc.czech@organon.com </p>
-<p>Magyarország<br />
+<p>Magyarorsz g<br />
 Organon Hungary Kft. 
 Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
 <p>Danmark 
@@ -356,13 +364,12 @@ Tel: +372 66 61 dpoc.estonia@organon.com </p>
 <p>Norge 
 Organon Norway AS 
 Tlf: +47 24 14 56 info.norway@organon.com </p>
-<p>Ελλάδα 
-BIANEΞ Α.Ε. 
-Τηλ: +30 210 80091 Mailbox@vianex.gr </p>
-<p>Österreich 
+<p>BIANE   . . 
+ : +30 210 80091 Mailbox@vianex.gr </p>
+<p>sterreich 
 Organon Austria GmbH 
 Tel: +43 (0) 1 263 28 dpoc.austria@organon.com </p>
-<p>España 
+<p>Espa a 
 Organon Salud, S.L. 
 Tel: +34 91 591 12 organon_info@organon.com </p>
 <p>Polska 
@@ -370,27 +377,27 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-Tél: +33 (0) 1 57 77 32<br />
+T l: +33 (0) 1 57 77 32<br />
 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
-Tel: +351 218705geral_pt@organon.com </p>
+Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
 Organon Pharma d.o.o. 
 Tel: +385 1 638 4dpoc.croatia@organon.com </p>
-<p>România 
+<p>Rom nia 
 Organon Biosciences S.R.L. 
 Tel: +40 21 527 29 dpoc.romania@organon.com </p>
 <p>Ireland 
 Organon Pharma (Ireland) Limited 
 Tel: +353 15828medinfo.ROI@organon.com </p>
 <p>Slovenija 
-Organon Pharma B.V., Oss, podružnica 
+Organon Pharma B.V., Oss, podru nica 
 Ljubljana 
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 70<br />
-Slovenská republika 
+S mi: +354 535 70<br />
+Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 
@@ -399,15 +406,14 @@ Tel: +39 06 90259dpoc.italy@organon.com </p>
 <p>Suomi/Finland 
 Organon Finland Oy 
 Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
-<p>Κύπρος<br />
-Organon Pharma B.V., Cyprus branch 
-Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ : +357 22866dpoc.cyprus@organon.com </p>
 <p>Sverige 
 Organon Sweden AB 
 Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
 <p>Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
-pārstāvniecība 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
 Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland)<br />
 Organon Pharma (UK) Limited 

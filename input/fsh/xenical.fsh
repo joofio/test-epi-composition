@@ -4,7 +4,7 @@ Instance: composition-en-37d610f9c96d541562699215b0864126
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenical Package Leaflet"
 Description:  "Composition for xenical Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Xenical 
 4. Possible side effects 
 5. How to store Xenical 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +104,7 @@ contraception that could occur in case of severe diarrhoea. </p>
 <p>The use of orlistat may be associated with renal stones in patients suffering from chronic kidney 
 disease. Inform your doctor whether you suffer from problems with your kidney. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>Children 
 Xenical is not intended to be used in children. </p>
 <p>Other medicines and Xenical 
@@ -137,7 +136,7 @@ hypothyroidism may occur. </p>
 </li>
 </ul>
 <p>Xenical reduces the absorption of supplements of some fat soluble nutrients, particularly beta-carotene 
-and vitamin E. You should therefore follow your doctor’s advice in taking a well balanced diet rich in 
+and vitamin E. You should therefore follow your doctor s advice in taking a well balanced diet rich in 
 fruit and vegetables. Your doctor may suggest you take a multivitamin supplement. </p>
 <p>Orlistat may unbalance an anticonvulsant treatment, by decreasing the absorption of antiepileptic 
 drugs, thus leading to convulsions. Please contact your doctor if you think that the frequency and/or 
@@ -231,12 +230,12 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children </p>
 <p>Blister packs 
 Do not use Xenical after the expiry date stated on the carton. 
-Do not store above 25 °C. 
+Do not store above 25  C. 
 Store in original package and keep the blister in the outer carton in order to protect from light and 
 moisture.  </p>
 <p>Glass bottles 
 Do not use Xenical after the expiry date stated on the bottle. 
-Do not store above 30 °C.<br />
+Do not store above 30  C.<br />
 Keep container tightly closed in order to protect from moisture. </p>
 <p>Medicines should not be disposed via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
@@ -255,7 +254,7 @@ povidone (E1201), sodium laurilsulfate and talc. The capsule shell consists of g
 carmine (E132), titanium dioxide (E171) and edible printing ink. </li>
 </ul>
 <p>What XENICAL looks like and contents of the pack </p>
-<p>Xenical capsules are turquoise with the imprint “XENICAL 120” and are supplied in blister packs and 
+<p>Xenical capsules are turquoise with the imprint  XENICAL 120  and are supplied in blister packs and 
 glass bottles, containing 21, 42 and 84 capsules.<br />
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
@@ -271,6 +270,6 @@ Germany </p>
 <p>CHEPLAPHARM Arzneimittel GmbH 
 Ziegelhof 23-17489 Greifswald 
 Germany  </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt; &lt;{month YYYY}</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-840beeb8abda55f48f21ddfba1d52ce3
 InstanceOf: CompositionUvEpi
 Title: "Composition for orfadin Package Leaflet"
 Description:  "Composition for orfadin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,10 +69,12 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What orfadin is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orfadin contains the active substance nitisinone. Orfadin is used to treat: 
-- a rare disease called hereditary tyrosinemia type 1 in adults, adolescents and children (in any 
-age range) 
-- a rare disease called alkaptonuria (AKU) in adults. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orfadin contains the active substance nitisinone. Orfadin is used to treat:</p>
+<ul>
+<li>a rare disease called hereditary tyrosinemia type 1 in adults, adolescents and children (in any 
+age range) </li>
+<li>a rare disease called alkaptonuria (AKU) in adults. </li>
+</ul>
 <p>In these diseases your body is unable to completely break down the amino acid tyrosine (amino acids 
 are building blocks of our proteins), forming harmful substances. These substances are accumulated in 
 your body. Orfadin blocks the breakdown of tyrosine and the harmful substances are not formed.  </p>
@@ -91,7 +93,7 @@ and phenylalanine (another amino acid) content. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Orfadin 
 - if you are allergic to nitisinone or any of the other ingredients of this medicine (listed in 
 section 6). </p>
-<p>Do not breast-feed while taking this medicine, see section “Pregnancy and breast-feeding”. </p>
+<p>Do not breast-feed while taking this medicine, see section  Pregnancy and breast-feeding . </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Orfadin. 
 - Your eyes will be checked by an ophthalmologist before and regularly during nitisinone 
@@ -107,9 +109,11 @@ shorter intervals are recommended. </p>
 <p>Other medicines and Orfadin 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. 
-Orfadin may interfere with the effect of other medicines, such as: 
-- Medicines for epilepsy (such as phenytoin) 
-- Medicines against blood clotting (such as warfarin). </p>
+Orfadin may interfere with the effect of other medicines, such as:</p>
+<ul>
+<li>Medicines for epilepsy (such as phenytoin) </li>
+<li>Medicines against blood clotting (such as warfarin). </li>
+</ul>
 <p>Orfadin with food 
 If you start treatment by taking it with food, it is recommended that you carry on taking it with food 
 throughout your course of treatment. </p>
@@ -117,11 +121,11 @@ throughout your course of treatment. </p>
 The safety of this medicine has not been studied in pregnant and breast-feeding women.<br />
 Please contact your doctor if you plan to become pregnant. If you become pregnant you should contact 
 your doctor immediately. 
-Do not breast-feed while taking this medicine, see section “Do not take Orfadin”. </p>
+Do not breast-feed while taking this medicine, see section  Do not take Orfadin . </p>
 <p>Driving and using machines 
 This medicine has minor influence on the ability to drive and use machines. However, if you 
 experience side effects affecting your vision you should not drive or use machines until your vision is 
-back to normal (see section 4 “Possible side effects”).  </p>         </div>"""   
+back to normal (see section 4  Possible side effects ).  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orfadin"
@@ -191,11 +195,11 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store orfadin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after “EXP”.<br />
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after  EXP .<br />
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
+<p>Store in a refrigerator (2 C   8 C). 
 The medicine can be stored for a single period of 2 months (for 2 mg capsules) or 3 months (for 5 mg, 
-10 mg and 20 mg capsules) at a temperature not above 25°C, after which it must be discarded. </p>
+10 mg and 20 mg capsules) at a temperature not above 25 C, after which it must be discarded. </p>
 <p>Do not forget to mark the date on the bottle, when removed from the refrigerator. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -219,8 +223,8 @@ throw away medicines you no longer use. These measures will help to protect the 
 <p>Capsule shell: gelatine, titanium dioxide (E 171). </p>
 <p>Printing ink: iron oxide (E 172), shellac, propylene glycol, ammonium hydroxide. </p>
 <p>What Orfadin looks like and contents of the pack<br />
-The hard capsules are white, opaque, imprinted with “NTBC” and the strength “2 mg”, “5 mg”, 
-“10 mg” or “20 mg”, in black. The capsule contains a white to off-white powder. </p>
+The hard capsules are white, opaque, imprinted with  NTBC  and the strength  2 mg ,  5 mg , 
+ 10 mg  or  20 mg , in black. The capsule contains a white to off-white powder. </p>
 <p>The capsules are packaged in plastic bottles with tamper-proof closures. Each bottle contains 
 60 capsules. </p>
 <p>Marketing Authorisation Holder 
@@ -229,7 +233,7 @@ SE-112 76 Stockholm
 Sweden </p>
 <p>Manufacturer 
 Apotek Produktion &amp; Laboratorier AB 
-Prismavägen 2 
+Prismav gen 2 
 SE-141 75 Kungens Kurva 
 Sweden </p>
 <p>This leaflet was last revised in 10/2 </p>

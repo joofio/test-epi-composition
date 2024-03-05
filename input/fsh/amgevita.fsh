@@ -4,7 +4,7 @@ Instance: composition-en-05c018e3ef88203006356584dfd470dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for amgevita Package Leaflet"
 Description:  "Composition for amgevita Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What amgevita is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AMGEVITA contains the active substance adalimumab, a medicine that acts on your body’s immune 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AMGEVITA contains the active substance adalimumab, a medicine that acts on your body s immune 
 (defence) system.  </p>
 <p>AMGEVITA is intended for the treatment of the inflammatory diseases described below: 
 * Rheumatoid arthritis 
@@ -80,14 +80,14 @@ Usage: #example
 * Psoriatic arthritis 
 * Plaque psoriasis<br />
 <em> Hidradenitis suppurativa 
-* Crohn’s disease<br />
+* Crohn s disease<br />
 </em> Ulcerative colitis 
 * Non-infectious uveitis </p>
 <p>The active ingredient in AMGEVITA, adalimumab, is a human monoclonal antibody. Monoclonal 
 antibodies are proteins that attach to a specific target.  </p>
-<p>The target of adalimumab is a protein called tumour necrosis factor (TNFα), which is involved in the 
+<p>The target of adalimumab is a protein called tumour necrosis factor (TNF ), which is involved in the 
 immune (defence) system and is present at increased levels in the inflammatory diseases listed above. 
-By attaching to TNFα, AMGEVITA decreases the process of inflammation in these diseases. </p>
+By attaching to TNF , AMGEVITA decreases the process of inflammation in these diseases. </p>
 <p>Rheumatoid arthritis  </p>
 <p>Rheumatoid arthritis is an inflammatory disease of the joints.  </p>
 <p>AMGEVITA is used to treat rheumatoid arthritis in adults. If you have moderate to severe active 
@@ -124,7 +124,7 @@ cartilage and bone of the joints caused by the disease and to improve physical f
 <p>Plaque psoriasis is a skin condition that causes red, flaky, crusty patches of skin covered with silvery 
 scales. Plaque psoriasis can also affect the nails, causing them to crumble, become thickened and lift 
 away from the nail bed which can be painful. Psoriasis is believed to be caused by a problem with the 
-body’s immune system that leads to an increased production of skin cells. </p>
+body s immune system that leads to an increased production of skin cells. </p>
 <p>AMGEVITA is used to treat moderate to severe plaque psoriasis in adults. AMGEVITA is also used 
 to treat severe plaque psoriasis in children and adolescents aged 4 to 17 years for whom topical 
 therapy and phototherapies have either not worked very well or are not suitable. </p>
@@ -137,11 +137,11 @@ thighs, groin and buttocks. Scarring may also occur in affected areas. </p>
 AMGEVITA can reduce the number of nodules and abscesses you have, and the pain that is often 
 associated with the disease. You may first be given other medicines. If you do not respond well 
 enough to these medicines, you will be given AMGEVITA. </p>
-<p>Crohn’s disease in adults and children  </p>
-<p>Crohn’s disease is an inflammatory disease of the digestive tract. </p>
-<p>AMGEVITA is used to treat Crohn’s disease in adults and children aged 6 to 17 years. If you have 
-Crohn’s disease you will first be given other medicines. If you do not respond well enough to these 
-medicines, you will be given AMGEVITA to reduce the signs and symptoms of your Crohn’s disease.  </p>
+<p>Crohn s disease in adults and children  </p>
+<p>Crohn s disease is an inflammatory disease of the digestive tract. </p>
+<p>AMGEVITA is used to treat Crohn s disease in adults and children aged 6 to 17 years. If you have 
+Crohn s disease you will first be given other medicines. If you do not respond well enough to these 
+medicines, you will be given AMGEVITA to reduce the signs and symptoms of your Crohn s disease.  </p>
 <p>Ulcerative colitis in adults and children  </p>
 <p>Ulcerative colitis is an inflammatory disease of the large intestine. </p>
 <p>AMGEVITA is used to treat moderate to severe ulcerative colitis in adults and children aged 6 to years. If you have ulcerative colitis you may first be given other medicines. If you do not respond well 
@@ -164,16 +164,16 @@ inflammation. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take amgevita"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use AMGEVITA: </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use AMGEVITA:</p>
 <ul>
 <li>if you are allergic to adalimumab or any of the other ingredients of this medicine (listed in 
 section 6). </li>
 <li>if you have a severe infection, including active tuberculosis, sepsis (blood infection) or other 
 opportunistic infections (unusual infections associated with a weakened immune system) (see 
-“Warnings and precautions”). It is important that you tell your doctor if you have symptoms of 
+ Warnings and precautions ). It is important that you tell your doctor if you have symptoms of 
 infections, e.g. fever, wounds, feeling tired, dental problems.  </li>
 <li>if you have moderate or severe heart failure. It is important to tell your doctor if you have had or 
-have a serious heart condition (see “Warnings and precautions”).  </li>
+have a serious heart condition (see  Warnings and precautions ).  </li>
 </ul>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor or pharmacist before using AMGEVITA: </p>
@@ -316,7 +316,7 @@ age of 2 years. </p>
 <p>Do not give AMGEVITA to children with plaque psoriasis below the age of 4 years. </p>
 </li>
 <li>
-<p>Do not give AMGEVITA to children with Crohn’s disease or ulcerative colitis below the age of 
+<p>Do not give AMGEVITA to children with Crohn s disease or ulcerative colitis below the age of 
 6 years.  </p>
 </li>
 </ul>
@@ -341,16 +341,16 @@ not receive AMGEVITA. </li>
 <li>AMGEVITA can be used during breast-feeding. </li>
 <li>If you receive AMGEVITA during your pregnancy, your baby may have a higher risk for 
 getting an infection. </li>
-<li>It is important that you tell your baby’s doctors and other health care professionals about your 
+<li>It is important that you tell your baby s doctors and other health care professionals about your 
 AMGEVITA use during your pregnancy before the baby receives any vaccine. For more 
-information on vaccines see the “Warnings and precautions” section. </li>
+information on vaccines see the  Warnings and precautions  section. </li>
 </ul>
 <p>Driving and using machines </p>
 <p>AMGEVITA may have a minor influence on your ability to drive, cycle or use machines. Room 
 spinning sensation (vertigo) and vision disturbances may occur after taking AMGEVITA. </p>
 <p>AMGEVITA contains sodium </p>
 <p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.8 mL dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amgevita"
@@ -402,8 +402,8 @@ day), followed by 40 mg every other week starting one week later. If you have an
 to AMGEVITA 40 mg every other week, your doctor may increase the dose to 40 mg every week or 
 80 mg every other week.  </p>
 <p>It is recommended that you use an antiseptic wash daily on the affected areas. </p>
-<p>Adults with Crohn’s disease  </p>
-<p>The usual dose regimen for Crohn’s disease is 80 mg (as two 40 mg injections in one day) initially 
+<p>Adults with Crohn s disease  </p>
+<p>The usual dose regimen for Crohn s disease is 80 mg (as two 40 mg injections in one day) initially 
 followed by 40 mg every other week two weeks later. If a faster response is required, your doctor may 
 prescribe an initial dose of 160 mg (as four 40 mg injections in one day or two 40 mg injections per 
 day for two consecutive days), followed by 80 mg (as two 40 mg injections in one day) two weeks 
@@ -457,7 +457,7 @@ the start of the usual dose. </p>
 the start of the usual dose. </p>
 <p>Method and route of administration  </p>
 <p>AMGEVITA is administered by injection under the skin (subcutaneous injection).  </p>
-<p>Detailed instructions on how to inject AMGEVITA are provided in “Instructions for use” section.  </p>
+<p>Detailed instructions on how to inject AMGEVITA are provided in  Instructions for use  section.  </p>
 <p>If you use more AMGEVITA than you should </p>
 <p>If you accidentally inject AMGEVITA more frequently than told to by your doctor or pharmacist, call 
 your doctor or pharmacist and tell him/her that you have taken more. Always take the outer carton of 
@@ -600,7 +600,7 @@ organ systems);<br />
 <em> leukaemia (cancer affecting the blood and bone marrow);<br />
 </em> severe allergic reaction with shock;<br />
 <em> multiple sclerosis;<br />
-</em> nerve disorders (such as eye nerve inflammation and Guillain-Barré syndrome that may cause 
+</em> nerve disorders (such as eye nerve inflammation and Guillain-Barr  syndrome that may cause 
 muscle weakness, abnormal sensations, tingling in the arms and upper body);<br />
 <em> heart stops pumping;<br />
 </em> pulmonary fibrosis (scarring of the lung);<br />
@@ -621,7 +621,7 @@ rash);<br />
 <p>Not known (frequency cannot be estimated from available data) 
 * hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal);<br />
 <em> Merkel cell carcinoma (a type of skin cancer); 
-* Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s 
+* Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin;<br />
 </em> liver failure;<br />
 * worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
@@ -663,9 +663,9 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label/blister and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2C – 8C). Do not freeze.  </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze.  </p>
 <p>Store in the original carton in order to protect from light.  </p>
-<p>A single AMGEVITA pre-filled syringe may be stored at temperatures up to a maximum of 25°C for a 
+<p>A single AMGEVITA pre-filled syringe may be stored at temperatures up to a maximum of 25 C for a 
 period of up to 14 days. The pre-filled syringe must be protected from light, and discarded if not used 
 within the 14-day period. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -678,5 +678,127 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What AMGEVITA contains<br />
-- The active substance is adalimumab. Each pre-filled syringe contains 20 mg of adalimumab in </p>         </div>"""      
+- The active substance is adalimumab. Each pre-filled syringe contains 20 mg of adalimumab in 
+0.4 mL of solution or 40 mg of adalimumab in 0.8 mL of solution. 
+- The other ingredients are glacial acetic acid, sucrose, polysorbate 80, sodium hydroxide and 
+water for injections. </p>
+<p>What AMGEVITA looks like and contents of the pack </p>
+<p>AMGEVITA is a clear and colourless to slightly yellow solution. </p>
+<p>Each pack contains 1 single-use 20 mg pre-filled syringe (with yellow plunger rod).<br />
+Each pack contains 1, 2, 4 or 6 single-use 40 mg pre-filled syringes (with blue plunger rod). </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V.<br />
+Minervum 7061<br />
+4817 ZK Breda<br />
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V.<br />
+Minervum 7061<br />
+4817 ZK Breda<br />
+The Netherlands </p>
+<p>Manufacturer 
+Amgen Technology Ireland UC<br />
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Ireland </p>
+<p>Manufacturer 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+T l/Tel: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 </p>
+<p>.: +359 (0)2 424 7 
+Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+T l/Tel: +32 (0)2 7752 
+ esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen S.r.l. 
+Italy 
+Tel: +39 02 6241 
+Deutschland 
+Amgen GmbH 
+Tel: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tlf: +47 23308 </p>
+<p>Amgen      . . .<br />
+ : +30 210 3447 
+ sterreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50<br />
+Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 60  </p>
+<p>Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7 
+Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114  </p>
+<p>Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Orion Pharma 
+Puh/Tel: +358 10 4 
+K<br />
+C.A. Papaellinas Ltd 
+ : +357 22741<br />
+Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

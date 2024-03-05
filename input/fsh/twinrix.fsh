@@ -4,7 +4,7 @@ Instance: composition-en-c3bcf9603926d754cd4924142c795340
 InstanceOf: CompositionUvEpi
 Title: "Composition for twinrix Package Leaflet"
 Description:  "Composition for twinrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,7 +55,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
 1. What Twinrix Adult is and what it is used for 
-2. What you need to know before you receive Twinrix Adult 
+2. What you need to know before you receive  Twinrix Adult 
 3. How Twinrix Adult is given 
 4. Possible side effects 
 5. How to store Twinrix Adult 
@@ -72,7 +72,7 @@ Usage: #example
 <p>Twinrix Adult is a vaccine used in adults and adolescents 16 years of age and above to prevent two 
 diseases: hepatitis A and hepatitis B. The vaccine works by causing the body to produce its own 
 protection (antibodies) against these diseases. </p>
-<p>• Hepatitis A: Hepatitis A is an infectious disease, which can affect the liver.  This disease is caused 
+<p>Hepatitis A: Hepatitis A is an infectious disease, which can affect the liver.  This disease is caused 
 by the hepatitis A virus.  The hepatitis A virus can be passed from person to person in food and 
 drink, or by swimming in water contaminated by sewage.  Symptoms of hepatitis A begin 3 to 6 
 weeks after coming into contact with the virus.  These consist of nausea (feeling sick), fever and 
@@ -95,17 +95,18 @@ are infectious.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take twinrix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before you receive Twinrix Adult  </p>
-<p>Twinrix Adult should not be given if 
-* you are allergic to: 
-- the active substances or any of the other ingredients of this medicine (listed in section 6).<br />
-- neomycin. 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Twinrix Adult should not be given if 
+* you are allergic to:</p>
+<ul>
+<li>the active substances or any of the other ingredients of this medicine (listed in section 6).  </li>
+<li>neomycin. 
 Signs of an allergic reaction may include itchy skin rash, shortness of breath and swelling of the 
-face or tongue. 
-* you have previously had an allergic reaction to any vaccine against hepatitis A and hepatitis B 
-diseases. 
-* you have a severe infection with a high temperature (over 38°C).  A minor infection such as a 
-cold should not be a problem, but talk to your doctor first. </p>
+face or tongue. </li>
+<li>you have previously had an allergic reaction to any vaccine against hepatitis A and hepatitis B 
+diseases. </li>
+<li>you have a severe infection with a high temperature (over 38 C).  A minor infection such as a 
+cold should not be a problem, but talk to your doctor first. </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before receiving Twinrix Adult if 
 * you have experienced any health problems after previous administration of a vaccine. 
@@ -130,8 +131,8 @@ Adult passes into breast milk, however the vaccine is not expected to cause prob
 babies. </p>
 <p>Twinrix Adult contains neomycin and sodium 
 Please tell your doctor if you have had an allergic reaction to neomycin (antibiotic). 
-This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take twinrix"
@@ -185,15 +186,14 @@ protection may be less. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects  </p>
-<p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. </p>
 <p>Side effects that may occur are the following: </p>
 <p>Very common (These may occur in 1 in 10 doses or more of the vaccine): headache, pain and redness 
 at the injection site, tiredness. </p>
 <p>Common (These may occur in up to 1 in 10 doses of the vaccine): diarrhoea, nausea, swelling, 
 bruising or itching at the injection site, generally feeling unwell. </p>
 <p>Uncommon (These may occur in up to 1 in 100 doses of the vaccine): dizziness, vomiting, stomach 
-pain, aching muscles, upper respiratory tract infection, fever equal to or greater than 37.5°C. </p>
+pain, aching muscles, upper respiratory tract infection, fever equal to or greater than 37.5 C. </p>
 <p>Rare (These may occur in up to 1 in 1,000 doses of the vaccine): swollen glands in the neck armpit or 
 groin (lymphadenopathy), loss of skin sensitivity to pain or touch (hypoaesthesia), feeling of pins and 
 needles (paraesthesia), rash, itching, joint pain, loss of appetite, low blood pressure, flu-like symptoms 
@@ -211,13 +211,13 @@ severe headache with stiff neck and sensitivity to light (meningitis), inflammat
 vessels (vasculitis), abnormal laboratory liver test results, multiple sclerosis, swelling of the spinal 
 cord (myelitis), drooping eyelid and sagging muscles on one side of the face (facial palsy), a 
 temporary inflammation of the nerves, causing pain, weakness and paralysis in the extremities and 
-often progressing to the chest and face (Guillain-Barré syndrome), a disease of the nerves of the eye 
+often progressing to the chest and face (Guillain-Barr  syndrome), a disease of the nerves of the eye 
 (optic neuritis), immediate injection site pain, stinging and burning feeling.<br />
 Serious allergic reactions (anaphylaxis, anaphylactoid reactions and mimicking serum sickness) may 
 also occur very rarely (with up to 1 in 10,000 doses of the vaccine). 
 Signs of serious allergic reactions may be rashes that may be itchy or blistering, swelling of the eyes 
 and face, difficulty in breathing or swallowing, a sudden drop in blood pressure and loss of 
-consciousness. Such reactions may occur before leaving the doctor’s surgery. However, if you get any 
+consciousness. Such reactions may occur before leaving the doctor s surgery. However, if you get any 
 of these symptoms you should contact a doctor urgently. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -230,11 +230,10 @@ this medicine.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store twinrix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to store Twinrix Adult  </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton.  The expiry date refers to 
 the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C).<br />
+<p>Store in a refrigerator (2 C - 8 C).<br />
 Store in the original package in order to protect from light. 
 Do not freeze.  Freezing destroys the vaccine. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -255,5 +254,17 @@ Hepatitis B surface antigen3,4
 20 micrograms </li>
 </ul>
 <p>1Produced on human diploid (MRC-5) cells 
-2Adsorbed on aluminium hydroxide, hydrated </p>         </div>"""      
+2Adsorbed on aluminium hydroxide, hydrated 
+0.05 milligrams Al3+ 
+3Produced in yeast cells (Saccharomyces cerevisiae) by recombinant DNA technology 
+4Adsorbed on aluminium phosphate 
+0.4 milligrams Al3+ </p>
+<ul>
+<li>The other ingredients in Twinrix Adult are: sodium chloride, water for injections. </li>
+</ul>
+<p>What Twinrix Adult looks like and contents of the pack </p>
+<p>Suspension for injection in pre-filled syringe. </p>
+<p>Twinrix Adult is a white, slightly milky liquid.  </p>
+<p>Twinrix Adult is available in 1-dose pre-filled syringe with or without separate needles, pack sizes of 
+1, 10 and 2</p>         </div>"""      
 

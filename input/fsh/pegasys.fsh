@@ -4,7 +4,7 @@ Instance: composition-en-0b227cd2a54454e66a70766913e35ba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for pegasys Package Leaflet"
 Description:  "Composition for pegasys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,77 +86,50 @@ chronic hepatitis C (CHC).  </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take pegasys"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Pegasys 
-● 
-if you are allergic to peginterferon alfa-2a, to any interferon or any of the other ingredients of 
-this medicine (listed in section 6). 
-● 
-if you have ever had a heart attack or have been hospitalised for serious chest pains in the last 
-six months. 
-● 
-if you have, so called autoimmune hepatitis. 
-● 
-if you have advanced liver disease and your liver does not work properly (e.g. your skin has 
-become yellow). 
-● 
-if the patient is a child less than 3 years old. 
-● 
-if the patient is a child who has ever had serious psychiatric conditions such as severe 
-depression or thoughts of committing suicide. 
-● 
-if you are infected with both the hepatitis C virus and the human immunodeficiency virus, and 
-your liver does not work properly (e.g. your skin has become yellow). 
-● 
-if you are being treated with telbivudine, a medicine for hepatitis B infection (see “Other 
-medicines and Pegasys”). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Pegasys </p>
+<p>if you are allergic to peginterferon alfa-2a, to any interferon or any of the other ingredients of 
+this medicine (listed in section 6). </p>
+<p>if you have ever had a heart attack or have been hospitalised for serious chest pains in the last 
+six months. </p>
+<p>if you have, so called autoimmune hepatitis. </p>
+<p>if you have advanced liver disease and your liver does not work properly (e.g. your skin has 
+become yellow). </p>
+<p>if the patient is a child less than 3 years old. </p>
+<p>if the patient is a child who has ever had serious psychiatric conditions such as severe 
+depression or thoughts of committing suicide. </p>
+<p>if you are infected with both the hepatitis C virus and the human immunodeficiency virus, and 
+your liver does not work properly (e.g. your skin has become yellow). </p>
+<p>if you are being treated with telbivudine, a medicine for hepatitis B infection (see  Other 
+medicines and Pegasys ). </p>
 <p>Warnings and precautions 
-Talk to your doctor, or pharmacist or nurse before using Pegasys 
-● 
-if you have had a severe nervous or mental disorder. 
-● 
-if you have ever had depression or symptoms associated with depression (e.g. feelings of 
-sadness, dejection, etc.). 
-● 
-if you are an adult who has or had a history of substance abuse (e.g. alcohol or drugs). 
-● 
-if you have psoriasis, it may get worse during treatment with Pegasys. 
-● 
-if you have a problem with your liver other than hepatitis B or C. 
-● 
-if you have diabetes or high blood pressure, your doctor may ask you to have an eye 
-examination. 
-● 
-if you have been told you have VKH syndrome.<br />
-● 
-if you have thyroid disease that is not well controlled with medicines. 
-● 
-if you have ever had anaemia. 
-● 
-if you have had an organ transplant (liver or kidney) or have one planned in the near future. 
-● 
-if you are coinfected with HIV and treated with anti HIV medicinal products. 
-● 
-if you have been withdrawn from previous therapy for Hepatitis C because of anaemia or low 
+Talk to your doctor, or pharmacist or nurse before using Pegasys </p>
+<p>if you have had a severe nervous or mental disorder. </p>
+<p>if you have ever had depression or symptoms associated with depression (e.g. feelings of 
+sadness, dejection, etc.). </p>
+<p>if you are an adult who has or had a history of substance abuse (e.g. alcohol or drugs). </p>
+<p>if you have psoriasis, it may get worse during treatment with Pegasys. </p>
+<p>if you have a problem with your liver other than hepatitis B or C. </p>
+<p>if you have diabetes or high blood pressure, your doctor may ask you to have an eye 
+examination. </p>
+<p>if you have been told you have VKH syndrome.  </p>
+<p>if you have thyroid disease that is not well controlled with medicines. </p>
+<p>if you have ever had anaemia. </p>
+<p>if you have had an organ transplant (liver or kidney) or have one planned in the near future. </p>
+<p>if you are coinfected with HIV and treated with anti HIV medicinal products. </p>
+<p>if you have been withdrawn from previous therapy for Hepatitis C because of anaemia or low 
 blood count. </p>
-<p>Once you have started Pegasys treatment, talk to your doctor, nurse or pharmacist: 
-● 
-if you develop symptoms associated with depression (e.g. feelings of sadness, dejection, etc.) 
-(see section 4). 
-● 
-if you notice a change in your vision. 
-● 
-if you develop symptoms associated with a cold or other respiratory infection (such as cough, 
-fever or any difficulty in breathing). 
-● 
-if you think you are getting an infection (such as pneumonia) as when receiving Pegasys you 
-may temporarily have a greater risk of getting an infection. 
-● 
-if you develop any signs of bleeding or unusual bruising, check with your doctor immediately. 
-● 
-if you develop signs of a severe allergic reaction (such as difficulty in breathing, wheezing or 
-hives) while on this medication, seek medical help immediately. 
-● 
-if you develop symptoms of Vogt-Koyanagi-Harada syndrome; combination of complaints of 
+<p>Once you have started Pegasys treatment, talk to your doctor, nurse or pharmacist: </p>
+<p>if you develop symptoms associated with depression (e.g. feelings of sadness, dejection, etc.) 
+(see section 4). </p>
+<p>if you notice a change in your vision. </p>
+<p>if you develop symptoms associated with a cold or other respiratory infection (such as cough, 
+fever or any difficulty in breathing). </p>
+<p>if you think you are getting an infection (such as pneumonia) as when receiving Pegasys you 
+may temporarily have a greater risk of getting an infection. </p>
+<p>if you develop any signs of bleeding or unusual bruising, check with your doctor immediately. </p>
+<p>if you develop signs of a severe allergic reaction (such as difficulty in breathing, wheezing or 
+hives) while on this medication, seek medical help immediately. </p>
+<p>if you develop symptoms of Vogt-Koyanagi-Harada syndrome; combination of complaints of 
 neck stiffness, headache, loss of colour in skin or hair, eye disorders (such as blurred vision), 
 and/or hearing abnormality (such as ringing in the ears). </p>
 <p>During treatment your doctor will take blood samples regularly to check for changes in your white 
@@ -178,7 +151,7 @@ monitor your child for signs or symptoms of depression (see section 4).
 * When receiving Pegasys, your child may have slower growth and development (see 
 section 4). </p>
 <p>Other medicines and Pegasys 
-Do not use Pegasys if you are taking telbivudine (see “Do not use Pegasys”) because the combination 
+Do not use Pegasys if you are taking telbivudine (see  Do not use Pegasys ) because the combination 
 of these medicines increases the risk of developing peripheral neuropathy (numbness, tingling, and/or 
 burning sensations in the arms and/or legs). Therefore, the combination of Pegasys with telbivudine is 
 contraindicated. Tell your doctor or pharmacist if you are being treated with telbivudine. 
@@ -207,7 +180,7 @@ the time you are taking the treatment and for 4 months after stopping treatment.
 discussed with your doctor. 
 * if you are a man who is taking Pegasys in combination with ribavirin, do not have sex with a 
 pregnant woman unless you use a condom. This will lessen the chance for ribavirin to be left in 
-the woman’s body. If your female partner is not pregnant now, but is of childbearing potential, 
+the woman s body. If your female partner is not pregnant now, but is of childbearing potential, 
 she must be tested for pregnancy each month during treatment and for the 7 months after 
 treatment has stopped. You or your partner must use an effective contraceptive during the time 
 you are taking the treatment and for 7 months after stopping treatment. This can be discussed 
@@ -223,13 +196,13 @@ Do not drive or use machines if you feel drowsy, tired, or confused while taking
 Pegasys contains 10 mg benzyl alcohol in each vial which is equivalent to 10 mg/ml.  </p>
 <p>Benzyl alcohol may cause toxic reactions and allergic reactions. </p>
 <p>Benzyl alcohol has been linked with the risk of severe side effects including breathing problems 
-(called “gasping syndrome”) in young children. Pegasys must not be given to premature babies, 
+(called  gasping syndrome ) in young children. Pegasys must not be given to premature babies, 
 neonates or children up to 3 years old.  </p>
-<p>Ask your doctor or pharmacist for advice if you are pregnant or breast‑feeding, or if you have a liver 
+<p>Ask your doctor or pharmacist for advice if you are pregnant or breast feeding, or if you have a liver 
 or kidney disease. This is because large amounts of benzyl alcohol can build-up in your body and may 
-cause side effects (called “metabolic acidosis”). </p>
+cause side effects (called  metabolic acidosis ). </p>
 <p>Sodium 
-Pegasys contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium-free”. </p>         </div>"""   
+Pegasys contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pegasys"
@@ -250,7 +223,7 @@ Please check with your doctor and follow the recommended duration of treatment.
 Pegasys injection is normally taken at bedtime. </p>
 <p>Use in children and adolescents 
 Your doctor has determined the exact dose of Pegasys for your child and will tell you how often to use 
-it. The usual dose of Pegasysis based on your child’s height and weight. If necessary, the dose may be 
+it. The usual dose of Pegasysis based on your child s height and weight. If necessary, the dose may be 
 changed during treatment. It is recommended that Pegasys pre-filled syringes be used for children and 
 adolescents, as they allow for dose adjustments.  Do not exceed the recommended dose. </p>
 <p>The duration of combination treatment in children with chronic hepatitis C varies from 6 to 12 months 
@@ -260,7 +233,7 @@ the recommended duration of treatment. Pegasys injection is normally taken at be
 <p>Pegasys is intended for subcutaneous use (under the skin). This means that Pegasys is injected with a 
 short needle into the fatty tissue under the skin in the abdomen or thigh. If you are injecting this 
 medicine yourself, you will be instructed how to give the injection. Detailed instructions are provided 
-at the end of this leaflet (see “How to inject Pegasys”). </p>
+at the end of this leaflet (see  How to inject Pegasys ). </p>
 <p>Use Pegasys exactly as described by your doctor, for as long as prescribed by your doctor. 
 If you have the impression that the effect of Pegasys is too strong or too weak, talk to your doctor or 
 pharmacist. </p>
@@ -403,7 +376,7 @@ the skin), angioedema (swelling in the skin and mucosa) </p>
 <p>Side effects with unknown frequency: </p>
 <p>Blood disorders: Pure red cell aplasia (a severe form of anaemia where red blood cell production is 
 decreased or stopped); it can result in symptoms such as feeling very tired with no energy 
-Immune system disorders: Vogt Koyanagi Harada disease – a rare disease characterised by loss of 
+Immune system disorders: Vogt Koyanagi Harada disease   a rare disease characterised by loss of 
 vision, hearing and skin pigmentation; liver and kidney transplant rejections 
 Psychiatric and nervous system disorders: Mania (episodes of exaggerated elevation of mood) and 
 bipolar disorders (episodes of exaggerated elevation of mood alternating with sadness and 
@@ -433,7 +406,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label. The expiry date refers to the 
 last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. Keep the vial in the outer carton in order to protect 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. Keep the vial in the outer carton in order to protect 
 from light. </p>
 <p>Do not use this medicine if you notice the vial or packaging is damaged, if the solution is cloudy or if 
 it has floating particles or if the medicine is any colour besides colourless to light yellow. </p>
@@ -446,11 +419,9 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pegasys contains 
-● 
-The active substance is peginterferon alfa-2a. Each vial of 1.0 ml solution contains micrograms peginterferon alfa-2a. 
-● 
-The other ingredients are sodium chloride, polysorbate 80, benzyl alcohol, sodium acetate, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pegasys contains </p>
+<p>The active substance is peginterferon alfa-2a. Each vial of 1.0 ml solution contains micrograms peginterferon alfa-2a. </p>
+<p>The other ingredients are sodium chloride, polysorbate 80, benzyl alcohol, sodium acetate, 
 acetic acid and water for injections. </p>
 <p>What Pegasys looks like and contents of the pack 
 Pegasys is presented as a solution for injection in a vial (1 ml). It is available in packs containing 1 or 
@@ -475,86 +446,55 @@ assistant will instruct you on how to give the injections. </p>
 <p>Getting ready </p>
 <p>Wash your hand carefully before handling any of the items. </p>
 <p>Collect the necessary items before beginning: 
-Included in the pack: 
-● 
-a vial of Pegasys solution for injection 
-Not included in the pack: 
-● 
-a 1 ml syringe 
-● 
-a long needle to withdraw Pegasys from the vial 
-● 
-a short needle for the subcutaneous injection 
-● 
-a cleansing swab 
-● 
-small bandage or sterile gauze 
-● 
-an adhesive bandage 
-● 
-a container for the waste material </p>
+Included in the pack: </p>
+<p>a vial of Pegasys solution for injection 
+Not included in the pack: </p>
+<p>a 1 ml syringe </p>
+<p>a long needle to withdraw Pegasys from the vial </p>
+<p>a short needle for the subcutaneous injection </p>
+<p>a cleansing swab </p>
+<p>small bandage or sterile gauze </p>
+<p>an adhesive bandage </p>
+<p>a container for the waste material </p>
 <p>Measuring the dose of Pegasys </p>
-<p>● 
-Remove the protective cap from the Pegasys vial (1). </p>
-<p>● 
-Clean the rubber top of the vial with a cleansing swab. 
+<p>Remove the protective cap from the Pegasys vial (1). </p>
+<p>Clean the rubber top of the vial with a cleansing swab. 
 You can save the swab to clean the skin area where you will inject Pegasys. </p>
-<p>● 
-Remove the syringe from the wrapping. Do not touch the tip of the syringe.<br />
-● 
-Take the long needle and place it firmly on to the tip of the syringe (2).  </p>
-<p>● 
-Remove the needle guard without touching the needle and keep the syringe with the needle in 
-your hand. 
-● 
-Insert the needle through the rubber top of the Pegasys vial (3). </p>
-<p>● 
-Hold the vial and syringe in one hand and turn the vial and the syringe upside down (4). </p>
+<p>Remove the syringe from the wrapping. Do not touch the tip of the syringe.  </p>
+<p>Take the long needle and place it firmly on to the tip of the syringe (2).  </p>
+<p>Remove the needle guard without touching the needle and keep the syringe with the needle in 
+your hand. </p>
+<p>Insert the needle through the rubber top of the Pegasys vial (3). </p>
+<p>Hold the vial and syringe in one hand and turn the vial and the syringe upside down (4). </p>
 <p>4 </p>
 <p>With the syringe pointing up, make certain that the tip of the needle is in the Pegasys solution. Your 
-other hand will be free to move the plunger of the syringe. 
-● 
-Slowly pull back the plunger to withdraw a bit more than the dose prescribed by your doctor 
-into the syringe. 
-● 
-Hold the syringe with the needle in the vial pointing up, remove the syringe from the long 
-needle while keeping the needle in the vial and without touching the tip of the syringe. 
-● 
-Take the short needle and place it firmly on to the tip of the syringe (5). </p>
-<p>● 
-Remove the needle guard from the syringe needle. 
-● 
-Check for air bubbles in the syringe. If you see any bubbles, pull the plunger slightly back. To 
+other hand will be free to move the plunger of the syringe. </p>
+<p>Slowly pull back the plunger to withdraw a bit more than the dose prescribed by your doctor 
+into the syringe. </p>
+<p>Hold the syringe with the needle in the vial pointing up, remove the syringe from the long 
+needle while keeping the needle in the vial and without touching the tip of the syringe. </p>
+<p>Take the short needle and place it firmly on to the tip of the syringe (5). </p>
+<p>Remove the needle guard from the syringe needle. </p>
+<p>Check for air bubbles in the syringe. If you see any bubbles, pull the plunger slightly back. To 
 remove air bubbles from the syringe, hold the syringe with the needle pointing up. Tap the 
 syringe gently to bring the bubbles to the top. Push the plunger up slowly to the correct dose. 
 Replace the needle guard and place the syringe in a horizontal position until ready for use. </p>
-<p>● 
-Allow the solution to reach room temperature before injection or warm the syringe between 
-your palms. 
-● 
-Visually inspect the solution prior to administration: do not use if it is discoloured or if particles 
+<p>Allow the solution to reach room temperature before injection or warm the syringe between 
+your palms. </p>
+<p>Visually inspect the solution prior to administration: do not use if it is discoloured or if particles 
 are present. You are now ready to inject the dose. </p>
 <p>Injecting the solution </p>
-<p>● 
-Select the injection site in the abdomen or thigh (except your navel or waistline). Change your 
-injection site each time. 
-● 
-Clean and disinfect the skin where the injection is to be made with a cleansing swab. 
-● 
-Wait for the area to dry. 
-● 
-Remove the needle guard. 
-● 
-With one hand, pinch a fold of loose skin. With your other hand hold the syringe as you would a 
-pencil. 
-● 
-Insert the needle all the way into the pinched skin at an angle of 45° to 90° (6). </p>
-<p>● 
-Inject the solution by gently pushing the plunger all the way down. 
-● 
-Pull the needle straight out of the skin. 
-● 
-Press the injection site with a small bandage or sterile gauze if necessary for several seconds. </p>
+<p>Select the injection site in the abdomen or thigh (except your navel or waistline). Change your 
+injection site each time. </p>
+<p>Clean and disinfect the skin where the injection is to be made with a cleansing swab. </p>
+<p>Wait for the area to dry. </p>
+<p>Remove the needle guard. </p>
+<p>With one hand, pinch a fold of loose skin. With your other hand hold the syringe as you would a 
+pencil. </p>
+<p>Insert the needle all the way into the pinched skin at an angle of 45  to 90  (6). </p>
+<p>Inject the solution by gently pushing the plunger all the way down. </p>
+<p>Pull the needle straight out of the skin. </p>
+<p>Press the injection site with a small bandage or sterile gauze if necessary for several seconds. </p>
 <p>Do not massage the injection site. If there is bleeding, cover with an adhesive bandage. </p>
 <p>Disposal of the injection materials </p>
 <p>The syringe, needle and all injection materials are intended for single use and must be discarded after 
@@ -566,15 +506,11 @@ Pegasys 135 micrograms solution for injection in pre-filled syringe
 Pegasys 180 micrograms solution for injection in pre-filled syringe 
 peginterferon alfa-2a </p>
 <p>Read all of this leaflet carefully before you start using this medicine because it contains 
-important information for you. 
-● 
-Keep this leaflet. You may need to read it again. 
-● 
-If you have any further questions, ask your doctor, pharmacist or nurse. 
-● 
-This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
-even if their signs of illness are the same as yours. 
-● 
-If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+important information for you. </p>
+<p>Keep this leaflet. You may need to read it again. </p>
+<p>If you have any further questions, ask your doctor, pharmacist or nurse. </p>
+<p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. </p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet. See section </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-08bd32995710017e5d1be3af6c537328
 InstanceOf: CompositionUvEpi
 Title: "Composition for daptomycin Package Leaflet"
 Description:  "Composition for daptomycin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -92,15 +92,19 @@ If you are allergic to daptomycin or to sodium hydroxide or to any of the other 
 <p>If this applies to you, tell your doctor or nurse. If you think you may be allergic, ask your doctor or nurse 
 for advice. </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or nurse before you are given Daptomycin Hospira:<br />
-- If you have, or have previously had kidney problems. Your doctor may need to change the dose of 
-Daptomycin Hospira (see section 3 of this leaflet).  </p>
+Talk to your doctor or nurse before you are given Daptomycin Hospira:</p>
 <ul>
-<li>Occasionally, patients receiving Daptomycin Hospira may develop tender or aching muscles or 
+<li>
+<p>If you have, or have previously had kidney problems. Your doctor may need to change the dose of 
+Daptomycin Hospira (see section 3 of this leaflet).  </p>
+</li>
+<li>
+<p>Occasionally, patients receiving Daptomycin Hospira may develop tender or aching muscles or 
 muscle weakness (see section 4 of this leaflet for more information). If this happens tell your doctor. 
 Your doctor will make sure you have a blood test and will advise whether or not to continue with 
 Daptomycin Hospira. The symptoms generally go away within a few days of stopping Daptomycin 
-Hospira.  </li>
+Hospira.  </p>
+</li>
 <li>If you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores, or 
 serious kidney problems after taking daptomycin. </li>
 <li>If you are very overweight. There is a possibility that your blood levels of Daptomycin Hospira 
@@ -108,25 +112,31 @@ could be higher than those found in persons of average weight and you may need c
 in case of side effects.  </li>
 </ul>
 <p>If any of these applies to you, tell your doctor or nurse before you are given Daptomycin Hospira.  </p>
-<p>Tell your doctor or nurse straight away if you develop any of the following symptoms:<br />
-- Serious, acute allergic reactions have been observed in patients treated with nearly all antibacterial 
+<p>Tell your doctor or nurse straight away if you develop any of the following symptoms:</p>
+<ul>
+<li>Serious, acute allergic reactions have been observed in patients treated with nearly all antibacterial 
 agents, including Daptomycin Hospira. The symptoms can include wheezing, difficulty breathing, 
-swelling of the face, neck and throat, rashes and hives, or fever. 
-- Serious skin disorders have been reported with the use of Daptomycin Hospira. The symptoms that 
-occur with these skin disorders can include: 
-- a new or worsening fever, 
-- red raised or fluid-filled skin spots which may start in your armpits or on your chest or groin 
-areas and which can spread over a large area of your body, 
-- blisters or sores in your mouth or on your genitals. 
-- A serious kidney problem has been reported with the use of Daptomycin Hospira. The symptoms 
-can include fever and rash. 
-- Any unusual tingling or numbness of the hands or feet, loss of feeling or difficulties with 
+swelling of the face, neck and throat, rashes and hives, or fever. </li>
+<li>
+<p>Serious skin disorders have been reported with the use of Daptomycin Hospira. The symptoms that 
+occur with these skin disorders can include:</p>
+</li>
+<li>
+<p>a new or worsening fever, </p>
+</li>
+<li>red raised or fluid-filled skin spots which may start in your armpits or on your chest or groin 
+areas and which can spread over a large area of your body, </li>
+<li>blisters or sores in your mouth or on your genitals. </li>
+<li>A serious kidney problem has been reported with the use of Daptomycin Hospira. The symptoms 
+can include fever and rash. </li>
+<li>Any unusual tingling or numbness of the hands or feet, loss of feeling or difficulties with 
 movements. If this happens, tell your doctor who will decide whether you should continue the 
-treatment.<br />
-- Diarrhoea, especially if you notice blood or mucus, or if diarrhoea becomes severe or persistent.<br />
-- New or worsening fever, cough or difficulty breathing. These may be signs of a rare but serious 
+treatment.  </li>
+<li>Diarrhoea, especially if you notice blood or mucus, or if diarrhoea becomes severe or persistent.  </li>
+<li>New or worsening fever, cough or difficulty breathing. These may be signs of a rare but serious 
 lung disorder called eosinophilic pneumonia. Your doctor will check the condition of your lungs 
-and decide whether or not you should continue Daptomycin Hospira treatment.  </p>
+and decide whether or not you should continue Daptomycin Hospira treatment.  </li>
+</ul>
 <p>Daptomycin Hospira may interfere with laboratory tests that measure how well your blood is clotting. The 
 results can suggest poor blood clotting when, in fact, there is no problem. Therefore, it is important that 
 your doctor takes into account that you are receiving Daptomycin Hospira. Please inform your doctor that 
@@ -141,17 +151,19 @@ People over the age of 65 can be given the same dose as other adults, provided t
 well. </p>
 <p>Other medicines and Daptomycin Hospira 
 Tell your doctor or nurse if you are taking, have recently taken or might take any other medicines.<br />
-It is particularly important that you mention the following:<br />
-- Medicines called statins or fibrates (to lower cholesterol) or ciclosporin (a medicinal product used in 
+It is particularly important that you mention the following:</p>
+<ul>
+<li>Medicines called statins or fibrates (to lower cholesterol) or ciclosporin (a medicinal product used in 
 transplantation to prevent organ rejection or for other conditions, e.g. rheumatoid arthritis or atopic 
 dermatitis). It is possible that the risk of side effects affecting the muscles may be higher when any 
 of these medicines (and some others that can affect muscles) is taken during treatment with 
 Daptomycin Hospira. Your doctor may decide not to give you Daptomycin Hospira or to stop the 
-other medicine for a while.<br />
-- Pain killing medicines called non-steroidal anti-inflammatory drugs (NSAIDs) or COX-2 inhibitors 
-(e.g. celecoxib). These could interfere with the effects of Daptomycin Hospira in the kidney.<br />
-- Oral anti-coagulants (e.g. warfarin), which are medicines that prevent blood from clotting. It may be 
-necessary for your doctor to monitor your blood clotting times.  </p>
+other medicine for a while.  </li>
+<li>Pain killing medicines called non-steroidal anti-inflammatory drugs (NSAIDs) or COX-2 inhibitors 
+(e.g. celecoxib). These could interfere with the effects of Daptomycin Hospira in the kidney.  </li>
+<li>Oral anti-coagulants (e.g. warfarin), which are medicines that prevent blood from clotting. It may be 
+necessary for your doctor to monitor your blood clotting times.  </li>
+</ul>
 <p>Pregnancy and breast-feeding<br />
 Daptomycin Hospira is not usually given to pregnant women. If you are pregnant or breast-feeding, think 
 you may be pregnant or are planning to have a baby, ask your doctor or pharmacist for advice before you 
@@ -161,7 +173,7 @@ and could affect the baby.  </p>
 <p>Driving and using machines  </p>
 <p>Daptomycin Hospira has no known effects on the ability to drive or use machines.  </p>
 <p>Daptomycin Hospira contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daptomycin"
@@ -199,33 +211,43 @@ skin infections your doctor will decide how long you should be treated.  </p>
 - A hypersensitivity reaction (serious allergic reaction including anaphylaxis and angioedema) has 
 been reported, in some cases during administration of daptomycin. This serious allergic reaction 
 needs immediate medical attention. Tell your doctor or nurse straight away if you experience any of 
-the following symptoms:<br />
-- Chest pain or tightness,<br />
-- Rash or hives,<br />
-- Swelling around throat,<br />
-- Rapid or weak pulse,<br />
-- Wheezing,<br />
-- Fever,<br />
-- Shivering or trembling,<br />
-- Hot flushes,<br />
-- Dizziness,<br />
-- Fainting,<br />
-- Metallic taste.<br />
-- Tell your doctor straight away if you experience unexplained muscle pain, tenderness, or weakness. 
+the following symptoms:</p>
+<ul>
+<li>Chest pain or tightness,  </li>
+<li>Rash or hives,  </li>
+<li>Swelling around throat,  </li>
+<li>Rapid or weak pulse,  </li>
+<li>Wheezing,  </li>
+<li>Fever,  </li>
+<li>Shivering or trembling,  </li>
+<li>Hot flushes,  </li>
+<li>Dizziness,  </li>
+<li>Fainting,  </li>
+<li>Metallic taste.  </li>
+<li>
+<p>Tell your doctor straight away if you experience unexplained muscle pain, tenderness, or weakness. 
 Muscle problems can be serious, including muscle breakdown (rhabdomyolysis), which can result 
 in kidney damage.<br />
-Other serious side effects that have been reported with the use of Daptomycin Hospira are: 
-- A rare but potentially serious lung disorder called eosinophilic pneumonia, mostly after more than 
+Other serious side effects that have been reported with the use of Daptomycin Hospira are:</p>
+</li>
+<li>
+<p>A rare but potentially serious lung disorder called eosinophilic pneumonia, mostly after more than 
 2 weeks of treatment. The symptoms can include difficulty breathing, new or worsening cough, or 
-new or worsening fever. 
-- Serious skin disorders. The symptoms can include: 
-- a new or worsening fever, 
-- red raised or fluid-filled skin spots which may start in your armpits or on your chest or groin 
-areas and which can spread over a large area of your body, 
-- blisters or sores in your mouth or on your genitals. 
-- A serious kidney problem. The symptoms can include fever and rash. 
+new or worsening fever. </p>
+</li>
+<li>
+<p>Serious skin disorders. The symptoms can include:</p>
+</li>
+<li>
+<p>a new or worsening fever, </p>
+</li>
+<li>red raised or fluid-filled skin spots which may start in your armpits or on your chest or groin 
+areas and which can spread over a large area of your body, </li>
+<li>blisters or sores in your mouth or on your genitals. </li>
+<li>A serious kidney problem. The symptoms can include fever and rash. 
 If you experience these symptoms, tell your doctor or nurse straight away. Your doctor will perform 
-additional tests to make a diagnosis. </p>
+additional tests to make a diagnosis. </li>
+</ul>
 <p>The most frequently reported side effects are described below:  </p>
 <p>Common: may affect up to 1 in 10 people<br />
 - Fungal infections such as thrush,<br />
@@ -280,10 +302,12 @@ medicine.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store daptomycin"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children.<br />
-- Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
-expiry date refers to the last day of the month.<br />
-- Do not store above 30°C.  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children.  </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
+expiry date refers to the last day of the month.  </li>
+<li>Do not store above 30 C.  </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -310,20 +334,20 @@ Hoge Wei 10<br />
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: + 32 (0)2 554 62<br />
+T l/Tel: + 32 (0)2 554 62<br />
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: + 370 5 251 4 
-България 
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: + 359 2 970 4 
-Magyarország 
+Tel: + 370 5 251 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: + 359 2 970 4 
+Magyarorsz g 
 Pfizer Kft. 
 Tel.: + 36 1 488 37<br />
-Česká republika 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
 Malta 
@@ -343,24 +367,23 @@ Pfizer AS
 Tlf: + 47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: + 372 666 7 
-Österreich<br />
+ sterreich<br />
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: + 43 (0)1 521 15-0 </p>
-<p>Ελλάδα<br />
-Pfizer Ελλάς A.E. 
-Τηλ.: + 30 210 6785 
+<p>Pfizer   A.E. 
+ .: + 30 210 6785 
 Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: + 48 22 335 61 España 
+Tel.: + 48 22 335 61 Espa a 
 Pfizer, S.L. <br />
 Tel: + 34 91 490 99<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: + 351 21 423 5 
 France 
 Pfizer<br />
-Tél: + 33 (0)1 58 07 34<br />
-România 
+T l: + 33 (0)1 58 07 34<br />
+Rom nia 
 Pfizer Romania S.R.L. 
 Tel: + 40 (0) 21 207 28<br />
 Hrvatska 
@@ -368,18 +391,18 @@ Pfizer Croatia d.o.o.
 Tel: + 385 1 3908<br />
 Slovanija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: + 386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: + 1800 633 363 (toll free) 
 Tel: + 44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: + 421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: + 354 540 8 
+S mi: + 354 540 8 
 Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430 Italia 
@@ -387,15 +410,14 @@ Pfizer S.r.l.<br />
 Tel: + 39 06 33 18<br />
 Sverige 
 Pfizer AB 
-Tel: + 46 (0)8 550 520<br />
-Κύπρος<br />
-Pharmaceutical Trading Co Ltd<br />
-Τηλ: + 357 24656 
+Tel: + 46 (0)8 550 520  </p>
+<p>Pharmaceutical Trading Co Ltd<br />
+ : + 357 24656 
 United Kingdom (Northern Ireland) 
 Pfizer Limited<br />
 Tel: + 44 (0) 1304 616 
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35  </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

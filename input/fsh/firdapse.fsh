@@ -4,7 +4,7 @@ Instance: composition-en-8e3f73294a020fb836dccebb0eb47004
 InstanceOf: CompositionUvEpi
 Title: "Composition for firdapse Package Leaflet"
 Description:  "Composition for firdapse Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -122,7 +122,7 @@ Tell your doctor if you are taking, have recently taken or might take any other 
 not be combined with FIRDAPSE:<br />
 Medicines that may change the electrical activity of your heart (QT-interval prolongation - detectable 
 in the electrocardiogram) e.g., sultopride, disopyramide, cisapride, domperidone, rifampicin, and 
-ketoconazole (see “Do not take FIRDAPSE”) </p>
+ketoconazole (see  Do not take FIRDAPSE ) </p>
 <p>It is especially important to talk to your doctor if you are taking one of the following medicines or plan 
 to start taking the following medicines: 
 Medicines for malaria (e.g. halofantrine and mefloquine) 
@@ -232,7 +232,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the packaging after EXP. The expiry 
 date refers to the last day of that month. </p>
-<p>Do not store above 30°C. Store in the original package, in order to protect from light and moisture. </p>
+<p>Do not store above 30 C. Store in the original package, in order to protect from light and moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -259,14 +259,14 @@ Avenue Louise 480 <br />
 Belgium </p>
 <p>Manufacturers 
 EXCELLA GmbH &amp; Co KG 
-Nürnberger Strasse 90537 Feucht<br />
+N rnberger Strasse 90537 Feucht<br />
 Germany </p>
 <p>SERB S.A.<br />
 Avenue Louise 480 <br />
 1050 Bruxelles 
 Belgium  </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under “Exceptional Circumstances”. This means that because of the 
+<p>This medicine has been authorised under  Exceptional Circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on the medicine every year and 
 this leaflet will be updated as necessary. </p>

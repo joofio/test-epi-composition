@@ -4,7 +4,7 @@ Instance: composition-en-25e890f25f8f1bec07dd339802b5338b
 InstanceOf: CompositionUvEpi
 Title: "Composition for velsipity Package Leaflet"
 Description:  "Composition for velsipity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ If you have ulcerative colitis you will first be given other medicines. If you d
 enough or cannot take these medicines, you may be given Velsipity to reduce the signs and symptoms 
 of the disease. </p>
 <p>The active substance in Velsipity, etrasimod, prevents lymphocytes (a type of white blood cell) from 
-travelling from the lymph nodes (part of the body’s immune system that contains lymphocytes) into 
+travelling from the lymph nodes (part of the body s immune system that contains lymphocytes) into 
 the blood. These lymphocytes are involved in the inflammation that is linked to the development of 
 ulcerative colitis. By reducing the number of lymphocytes circulating in the blood surrounding the 
 large bowel, etrasimod helps to reduce bowel inflammation and the symptoms associated with the 
@@ -95,10 +95,10 @@ disease.  </p>         </div>"""
 6); 
 * if your healthcare professional has told you that you have a severely weakened immune system; 
 * if you have had a heart attack, unstable angina pectoris (chest pain caused by interruptions in the 
-heart’s blood supply that occurs at rest or without an obvious trigger), stroke, transient 
+heart s blood supply that occurs at rest or without an obvious trigger), stroke, transient 
 ischaemic attack (TIA, also known as a mini-stroke) or certain types of severe heart failure in 
 the last 6 months; 
-* if you have certain types of arrhythmia (irregular or abnormal heartbeat) – your doctor will 
+* if you have certain types of arrhythmia (irregular or abnormal heartbeat)   your doctor will 
 check your heart before starting treatment; 
 * if you have a severe active infection or active chronic infection, such as hepatitis (inflammation 
 of the liver) or tuberculosis; 
@@ -124,7 +124,7 @@ thickening), asthma or chronic obstructive pulmonary disease (a type of lung dis
 permanent damage to lung tissues). </p>
 <p>Slow heart rate and irregular heart rhythm 
 Before you start taking Velsipity, your doctor will check your heart using an electrocardiogram (ECG; 
-a test of the heart’s electrical activity). This is because Velsipity can cause a temporary decrease in 
+a test of the heart s electrical activity). This is because Velsipity can cause a temporary decrease in 
 heart rate and other heart rhythm disorders when starting treatment. When this happens, you may feel 
 dizzy or tired or be consciously aware of your heartbeat, or your blood pressure may drop. If these 
 effects are severe, tell your doctor, because you may need treatment right away. If you restart 
@@ -180,7 +180,7 @@ Posterior reversible encephalopathy syndrome (PRES) is a condition where the bra
 symptoms include headache, changes in vision, reduced awareness, confusion, and seizures (fits). If 
 you develop any of these symptoms, speak to your doctor straight away. </p>
 <p>Vaccinations 
-If you need to receive a vaccine, seek your doctor’s advice first. Vaccines may not work as well as 
+If you need to receive a vaccine, seek your doctor s advice first. Vaccines may not work as well as 
 they should during your treatment with Velsipity. You are advised to make sure your vaccinations are 
 up-to-date before you start treatment. So-called live vaccines may trigger the infection that they are 
 supposed to prevent and should therefore be given at least 4 weeks before you start treatment, or at 
@@ -208,7 +208,7 @@ Velsipity, your doctor will explain the risk to you and ask you to do a pregnanc
 that you are not pregnant. Your doctor will give you a patient card which explains why you should not 
 become pregnant while taking Velsipity. It also explains what you should do to avoid becoming 
 pregnant while you are taking Velsipity. You must use effective contraception during treatment and 
-for at least 14 days after stopping treatment (see “Pregnancy, contraception, and breast-feeding” in 
+for at least 14 days after stopping treatment (see  Pregnancy, contraception, and breast-feeding  in 
 section 2). </p>
 <p>If any of these apply to you, tell your doctor or pharmacist before taking Velsipity. </p>
 <p>Children and adolescents 
@@ -252,7 +252,7 @@ about reliable methods of contraception. </p>
 <p>Your doctor will give you a patient card which explains why you should not become pregnant while 
 taking Velsipity. </p>
 <p>If you do become pregnant while taking Velsipity, tell your doctor straight away. Your doctor will 
-likely stop treatment (see “If you stop taking Velsipity” in section 3) and pre-natal checks will be 
+likely stop treatment (see  If you stop taking Velsipity  in section 3) and pre-natal checks will be 
 performed to monitor the health of the unborn baby. </p>
 <p>Breast-feeding 
 You should not breast-feed while you are taking Velsipity. This is to avoid a risk of side effects for the 
@@ -263,8 +263,8 @@ however, feel dizzy after taking Velsipity. If this happens, do not drive or use
 <p>Velsipity contains tartrazine (E102) 
 The colouring agent in Velsipity contains tartrazine (E102), which may cause allergic reactions.  </p>
 <p>Velsipity contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velsipity"
@@ -298,7 +298,7 @@ at the hospital or clinic. Do not restart Velsipity after stopping it for more t
 advice from your doctor. </p>
 <p>Velsipity will stay in your body for up to 14 days after you stop taking it. Your white blood cell count 
 (lymphocyte count) may remain low for up to about 2 weeks and side effects described in this leaflet 
-may still occur (see “Possible side effects” in section 4) during this period.  </p>
+may still occur (see  Possible side effects  in section 4) during this period.  </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -342,15 +342,17 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store velsipity"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the bottle, blister, and carton 
-after EXP. The expiry date refers to the last day of that month. 
-* This medicine does not require any special temperature storage conditions. 
-* Store in the original package in order to protect from moisture. 
-* Do not use this medicine if you notice any damage or signs of tampering with the pack. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the bottle, blister, and carton 
+after EXP. The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special temperature storage conditions. </li>
+<li>Store in the original package in order to protect from moisture. </li>
+<li>Do not use this medicine if you notice any damage or signs of tampering with the pack. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -370,8 +372,8 @@ Brilliant blue FCF aluminium lake (E133), indigo carmine aluminium lake (E132), 
 aluminium lake (E102), macrogol 4000 (E1521), poly(vinyl alcohol) (E1203), talc (E553b), and 
 titanium dioxide (E171) </p>
 <p>What Velsipity looks like and contents of the pack 
-Velsipity 2 mg is a green, round, film-coated tablet of approximately 6 mm diameter with “ETR” on 
-one side and “2” on the other side.  </p>
+Velsipity 2 mg is a green, round, film-coated tablet of approximately 6 mm diameter with  ETR  on 
+one side and  2  on the other side.  </p>
 <p>Pack sizes: 
 * Bottle of 30 film-coated tablets<br />
 <em> Blisters of 28 film-coated tablets<br />
@@ -393,21 +395,20 @@ Portadown, Craigavon, BT63 5UA
 United Kingdom </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
+T l/Tel: +32 (0)2 554 62<br />
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 5 251 4 
-България 
-Пфайзер Люксембург САРЛ, Клон 
-България 
-Тел.: +359 2 970 4 
-Magyarország 
+Tel: +370 5 251 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4 
+Magyarorsz g 
 Pfizer Kft. 
 Tel.: +36 1 488 37<br />
-Česká republika 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
 Malta 
@@ -427,42 +428,41 @@ Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ: +30 210 6785 
+<p>Pfizer   A.E. 
+ : +30 210 6785 
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5 
 France 
 Pfizer<br />
-Tél: +33 (0)1 58 07 34 România 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28<br />
 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka<br />
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
 Tel: +421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430<br />
 Italia 
@@ -470,13 +470,13 @@ Pfizer S.r.l.
 Tel: +39 06 33 18 Sverige<br />
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
-Kύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
-Tηλ: +357 22817United Kingdom (Northern Ireland) 
+K<br />
+Pfizer    . . (Cyprus Branch) 
+T : +357 22817United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0) 1304 616 
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35  </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>

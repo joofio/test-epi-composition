@@ -4,7 +4,7 @@ Instance: composition-en-b9e406d2f0e8fcd3c2ddc68fcfd21aa0
 InstanceOf: CompositionUvEpi
 Title: "Composition for champix Package Leaflet"
 Description:  "Composition for champix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,7 +96,7 @@ you should stop taking CHAMPIX and contact your doctor immediately for treatment
 <p>The effects of stopping smoking 
 The effects of changes in your body resulting from stopping smoking, with or without treatment with 
 CHAMPIX, may alter the way other medicines work. Therefore, in some cases an adjustment of the 
-dose may be necessary. See below under ‘Other medicines and CHAMPIX’ for further details. </p>
+dose may be necessary. See below under  Other medicines and CHAMPIX  for further details. </p>
 <p>For some people, stopping smoking with or without treatment has been associated with an increased 
 risk of experiencing changes in thinking or behaviour, feelings of depression and anxiety and can be 
 associated with a worsening of psychiatric disorder. If you have a history of psychiatric disorder you 
@@ -146,7 +146,7 @@ not drive, operate complex machinery or engage in any other potentially hazardou
 know whether this medicine affects your ability to perform these activities. </p>
 <p>CHAMPIX contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take champix"
@@ -164,8 +164,15 @@ a target quit date within 2 weeks, you may choose your own target quit date with
 starting treatment. You should write this date on the pack as a reminder.  </p>
 <p>CHAMPIX comes as a white tablet (0.5 mg) and a light blue tablet (1 mg). You start with the white 
 tablet and then usually go to the light blue tablet. See the chart below for the usual dosing instructions 
-which you should follow from Day 1.<br />
-Week 1 
+which you should follow from Day </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Week 1 
 Dose 
 Day 1 - 3 
 From day 1 to day 3, you should take one white CHAMPIX 0.5 mg film-coated tablet once 
@@ -174,7 +181,7 @@ a day. </p>
 From day 4 to day 7, you should take one white CHAMPIX 0.5 mg film-coated tablet twice 
 daily, once in the morning and once in the evening, at about the same time each day. </p>
 <p>Week 2 </p>
-<p>Day 8 – 14<br />
+<p>Day 8   14<br />
 From day 8 to day 14, you should take one light blue CHAMPIX 1 mg film-coated tablet 
 twice daily, once in the morning and once in the evening, at about the same time each day. </p>
 <p>Weeks 3 -<br />
@@ -213,13 +220,12 @@ CHAMPIX, according to the instructions described in the table above. </p>
 following the end of treatment. You may temporarily experience increased irritability, urge to smoke, 
 depression and/or sleep disturbances when you stop taking CHAMPIX. Your doctor may decide to 
 gradually lower your dose of CHAMPIX at the end of treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store champix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store champix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Giving up smoking with or without treatment can cause various symptoms. These could include 
@@ -237,140 +243,88 @@ of the skin, mouth, around the eyes or genitals) and serious allergic reactions 
 (swelling of the face, mouth, or throat). </p>
 <ul>
 <li>Very common: may affect more than 1 in 10 people  </li>
-</ul>
-<p>o 
-Inflammation of the nose and throat, abnormal dreams, difficulty sleeping, headache,<br />
-o 
+<li>
+<p>Inflammation of the nose and throat, abnormal dreams, difficulty sleeping, headache,  * 
 Nausea  </p>
-<ul>
-<li>Common: may affect up to 1 in 10 people  </li>
-</ul>
-<p>o 
-Chest infection, inflammation of the sinuses 
-o 
-Increased weight, decreased appetite, increased appetite 
-o 
-Sleepiness, dizziness, changes in the way things taste 
-o 
-Shortness of breath, cough 
-o 
+</li>
+<li>
+<p>Common: may affect up to 1 in 10 people  </p>
+</li>
+<li>
+<p>Chest infection, inflammation of the sinuses * 
+Increased weight, decreased appetite, increased appetite * 
+Sleepiness, dizziness, changes in the way things taste * 
+Shortness of breath, cough * 
 Heartburn, vomiting, constipation, diarrhoea, feeling bloated, abdominal pain, toothache, 
-indigestion, flatulence, dry mouth 
-o 
-Skin rash, itching 
-o 
-Joint ache, muscle ache, back pain 
-o 
+indigestion, flatulence, dry mouth * 
+Skin rash, itching * 
+Joint ache, muscle ache, back pain * 
 Chest pain, tiredness </p>
-<ul>
-<li>Uncommon: may affect up to 1 in 100 people  </li>
-</ul>
-<p>o 
-Fungal infection, viral infection 
-o 
+</li>
+<li>
+<p>Uncommon: may affect up to 1 in 100 people  </p>
+</li>
+<li>
+<p>Fungal infection, viral infection * 
 Feeling of panic, difficulty thinking, restlessness, mood swings, depression, anxiety, 
-hallucinations, changes in sex drive 
-o 
-Seizure, tremor, feeling sluggish, less sensitive to touch 
-o 
-Conjunctivitis, eye pain 
-o 
-Ringing in the ears 
-o 
-Angina, rapid heart rate, palpitations, increased heart rate 
-o 
-Increased blood pressure, hot flush 
-o 
+hallucinations, changes in sex drive * 
+Seizure, tremor, feeling sluggish, less sensitive to touch * 
+Conjunctivitis, eye pain * 
+Ringing in the ears * 
+Angina, rapid heart rate, palpitations, increased heart rate * 
+Increased blood pressure, hot flush * 
 Inflammation of nose, sinuses and throat, congestion of nose, throat and chest, 
 hoarseness, hay fever, throat irritation, congested sinuses, excess mucous from nose 
-causing cough, runny nose 
-o 
+causing cough, runny nose * 
 Red blood in stools, irritated stomach, change of bowel habit, belching, mouth ulcers, 
-pain in the gums 
-o 
-Reddening of the skin, acne, increased sweating, night sweats 
-o 
-Muscle spasms, chest wall pain 
-o 
-Abnormally frequent urination, urination at night 
-o 
-Increased menstrual flow 
-o 
-Chest discomfort, flu like illness, fever, feeling weak or unwell 
-o 
-High blood sugar 
-o 
-Heart attack 
-o 
-Suicidal thoughts 
-o 
+pain in the gums * 
+Reddening of the skin, acne, increased sweating, night sweats * 
+Muscle spasms, chest wall pain * 
+Abnormally frequent urination, urination at night * 
+Increased menstrual flow * 
+Chest discomfort, flu like illness, fever, feeling weak or unwell * 
+High blood sugar * 
+Heart attack * 
+Suicidal thoughts * 
 Changes in thinking or behaviour (such as aggression) </p>
-<ul>
-<li>Rare: may affect up to 1 in 1,000 people  </li>
-</ul>
-<p>o 
-Excessive thirst 
-o 
-Feeling unwell or unhappy, slow thinking 
-o 
-Stroke 
-o 
+</li>
+<li>
+<p>Rare: may affect up to 1 in 1,000 people  </p>
+</li>
+<li>
+<p>Excessive thirst * 
+Feeling unwell or unhappy, slow thinking * 
+Stroke * 
 Increased muscle tension, difficulty with speech, difficulty with coordination, reduced 
-sense of taste, altered sleep pattern 
-o 
+sense of taste, altered sleep pattern * 
 Disturbed vision, eyeball discolouration, dilated pupils, sensitivity to light, 
-shortsightedness, watery eyes 
-o 
-Irregular heart beat or heart rhythm disturbances 
-o 
-Throat pain, snoring 
-o 
-Blood in vomit, abnormal stools, coated tongue 
-o 
-Stiff joints, rib pain 
-o 
-Glucose in urine, increased urine volume and frequency 
-o 
-Vaginal discharge, changes in sexual ability 
-o 
-Feeling cold, cyst 
-o 
-Diabetes 
-o 
-Sleep walking 
-o 
-Loss of contact with reality and unable to think or judge clearly (psychosis) 
-o 
-Abnormal behaviour 
-o 
+shortsightedness, watery eyes * 
+Irregular heart beat or heart rhythm disturbances * 
+Throat pain, snoring * 
+Blood in vomit, abnormal stools, coated tongue * 
+Stiff joints, rib pain * 
+Glucose in urine, increased urine volume and frequency * 
+Vaginal discharge, changes in sexual ability * 
+Feeling cold, cyst * 
+Diabetes * 
+Sleep walking * 
+Loss of contact with reality and unable to think or judge clearly (psychosis) * 
+Abnormal behaviour * 
 Severe skin reactions including Erythema Multiforme (a type of rash) and Stevens-
 Johnson Syndrome (a serious illness with blistering of the skin, mouth, around the eyes or 
-genitals)<br />
-o 
+genitals)  * 
 Serious allergic reactions including angioedema (swelling of the face, mouth, or throat) </p>
-<ul>
-<li>Not known </li>
+</li>
+<li>
+<p>Not known </p>
+</li>
+<li>Transient loss of consciousness </li>
 </ul>
-<p>o 
-Transient loss of consciousness </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store champix"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store champix"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the card packaging or carton after 
-EXP. The expiry date refers to the last day of that month. </p>
-<p>Blisters: Store below 30°C 
-Bottle: This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -378,173 +332,11 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CHAMPIX contains 
-- The active substance is varenicline. 
-- Each 0.5 mg film-coated tablet contains 0.5 mg of varenicline (as tartrate). 
-- Each 1 mg film-coated tablet contains 1 mg of varenicline (as tartrate). 
-- The other ingredients are: </p>
-<p>Tablet Core - CHAMPIX 0.5 mg and 1 mg film-coated tablets<br />
-Cellulose, Microcrystalline 
-Calcium Hydrogen Phosphate Anhydrous 
-Croscarmellose Sodium (see section 2 “CHAMPIX contains 
-sodium” 
-Silica, Colloidal Anhydrous 
-Magnesium Stearate </p>
-<p>Tablet film coating - CHAMPIX 0.5 mg film-coated tablets<br />
-Hypromellose 
-Titanium dioxide (E171) 
-Macrogol Triacetin </p>
-<p>Tablet film coating - CHAMPIX 1 mg film-coated tablets<br />
-Hypromellose 
-Titanium dioxide (E171) 
-Macrogol Indigo Carmine Aluminium Lake (E132) 
-Triacetin </p>
-<p>What CHAMPIX looks like and contents of the pack 
-- CHAMPIX 0.5 mg film-coated tablets are white, film-coated, modified capsular shaped tablets, 
-marked “Pfizer” and “CHX 0.5” </p>
-<ul>
-<li>CHAMPIX 1 mg film-coated tablets are light blue film-coated, modified capsular shaped 
-tablets, marked “Pfizer” and “CHX 1.0” </li>
-</ul>
-<p>CHAMPIX is available in the following pack presentations: </p>
-<ul>
-<li>Treatment initiation pack containing 2 blisters; 1 clear blister of 11 x CHAMPIX 0.5 mg 
-film-coated tablets and 1 clear blister of 14 x CHAMPIX 1 mg film-coated tablets in card 
-packaging. </li>
-<li>Treatment initiation pack containing 2 blisters; 1 clear blister of 11 x CHAMPIX 0.5 mg and 
-14 x 1 mg film-coated tablets and 1 clear blister of 28 or 2 clear blisters of 14 x CHAMPIX 
-1 mg film-coated tablets in card packaging. </li>
-<li>Treatment initiation pack in an outer carton containing 1 pack with 1 clear blister of 
-11 x CHAMPIX 0.5 mg and 14 x 1 mg film-coated tablets and 1 clear blister of 28 or 2 clear 
-blisters of 14 x CHAMPIX 1 mg film-coated tablets in card packaging and 2 packs each 
-containing 2 clear blisters of 28 or 4 clear blisters of 14 x CHAMPIX 1 mg film-coated tablets in 
-card packaging. </li>
-<li>Follow-on (maintenance) packs containing 2 or 4 clear blisters of 14 or 2 clear blisters of 
-28 x CHAMPIX 1 mg film-coated tablets in card packaging. </li>
-<li>Follow-on (maintenance) packs containing 2 or 4 clear blisters of 14 or 2 clear blisters of 
-28 x CHAMPIX 0.5 mg film-coated tablets in card packaging. </li>
-<li>Treatment initiation pack containing 2 blisters; 1 clear blister of 11 x CHAMPIX 0.5 mg 
-film-coated tablets and 1 clear blister of 14 x CHAMPIX 1 mg film-coated tablets in a carton. </li>
-<li>Follow-on (maintenance) packs containing 2, 4, 8, or 10 clear blisters of 14 x CHAMPIX 1 mg 
-film-coated tablets in a carton. </li>
-<li>Sealed white HDPE bottle pack, with a child resistant screw cap, in a carton, containing 
-56 x CHAMPIX 1 mg film-coated tablets. </li>
-<li>Sealed white HDPE bottle pack, with a child resistant screw cap, in a carton, containing 
-56 x CHAMPIX 0.5 mg film-coated tablets. </li>
-</ul>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Pfizer Europe MA EEIG 
-Boulevard de la Plaine 1050 Bruxelles 
-Belgium </p>
-<p>Manufacturer 
-Pfizer Manufacturing Deutschland GmbH 
-Betriebsstätte Freiburg 
-Mooswaldallee 1 
-79090 Freiburg 
-Germany </p>
-<p>or </p>
-<p>Pfizer Italia S.r.l.<br />
-Località Marino del Tronto, 63100<br />
-Ascoli Piceno (AP)<br />
-Italy </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Pfizer S.A./N.V. 
-Tél/Tel: + 32 (0)2 554 62<br />
-Lietuva 
-Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. +370 5 2514 
-България<br />
-Пфайзер Люксембург САРЛ,<br />
-Клон България<br />
-Тел.: +359 2 970 4 
-Luxembourg/Luxemburg 
-Pfizer S.A. 
-Tél/Tel: + 32 (0)2 554 62<br />
-Česká republika 
-Pfizer, spol. s r.o. 
-Tel: + 420 283 004<br />
-Magyarország 
-Pfizer Kft. 
-Tel.: +36 1 488 37<br />
-Danmark 
-Pfizer ApS 
-Tlf: + 45 44 20 11<br />
-Malta 
-Vivian Corporation Ltd. 
-Tel: +356 21344 
-Deutschland 
-Pfizer Pharma GmbH 
-Tel: +49 (0)30 550055-51 
-Nederland 
-Pfizer bv 
-Tel: +31 (0)10 406 43<br />
-Eesti 
-Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
-Norge 
-Pfizer AS 
-Tlf: +47 67 52 61<br />
-Ελλάδα 
-PFIZER ΕΛΛΑΣ Α.Ε.,<br />
-Τηλ.: +30 210 67 85<br />
-Österreich 
-Pfizer Corporation Austria Ges.m.b.H. 
-Tel.: +43 (0)1 521 15-0 </p>
-<p>España 
-Pfizer, S.L. 
-Tel: + 34 91 490 99<br />
-Polska 
-Pfizer Polska Sp. z o.o. 
-Tel.: + 48 22 335 61<br />
-France 
-Pfizer 
-Tél: + 33 (0)1 58 07 34<br />
-Portugal 
-Laboratórios Pfizer, Lda. 
-Tel: +351 21 423 5 
-Hrvatska 
-Pfizer Croatia d.o.o. 
-Tel: + 385 1 3908<br />
-România 
-Pfizer România S.R.L. 
-Tel: +40 (0)21 207 28<br />
-Ireland 
-Pfizer Healthcare Ireland </p>
-<p>Tel: 1800 633 363 (toll free) 
-+44 (0) 1304 616 
-Slovenija 
-Pfizer Luxembourg SARL, Pfizer, podružnica za 
-svetovanje s področja farmacevtske dejavnosti, 
-Ljubljana 
-Tel: + 386 (0) 1 52 11<br />
-Ísland 
-Icepharma hf. 
-Simi: +354 540 8000  </p>
-<p>Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka<br />
-Tel: +421-2-3355 5 
-Italia 
-Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Suomi/Finland 
-Pfizer Oy 
-Puh/Tel: + 358 (0)9 43 00<br />
-Κύπρος 
-PFIZER ΕΛΛΑΣ Α.Ε. (CYPRUS BRANCH), 
-Τηλ: +357 22 817 
-Sverige 
-Pfizer AB 
-Tel: + 46 (0)8 550 520<br />
-Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
-Tel: + 371 670 35<br />
-United Kingdom (Northern Ireland) 
-Pfizer Limited 
-Tel: + 44 (0) 1304 616 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the card packaging or carton after 
+EXP. The expiry date refers to the last day of that month. </p>
+<p>Blisters: Store below 30 C 
+Bottle: This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

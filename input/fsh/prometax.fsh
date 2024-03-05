@@ -4,7 +4,7 @@ Instance: composition-en-78ea274f37edfa196d1a7ba45e31f4e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for prometax Package Leaflet"
 Description:  "Composition for prometax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,16 +71,16 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance of Prometax is rivastigmine. </p>
 <p>Rivastigmine belongs to a class of substances called cholinesterase inhibitors. In patients with 
-Alzheimer’s dementia or dementia due to Parkinson’s disease, certain nerve cells die in the brain, 
+Alzheimer s dementia or dementia due to Parkinson s disease, certain nerve cells die in the brain, 
 resulting in low levels of the neurotransmitter acetylcholine (a substance that allows nerve cells to 
 communicate with each other). Rivastigmine works by blocking the enzymes that break down 
 acetylcholine: acetylcholinesterase and butyrylcholinesterase. By blocking these enzymes, Prometax 
 allows levels of acetylcholine to be increased in the brain, helping to reduce the symptoms of 
-Alzheimer’s disease and dementia associated with Parkinson’s disease. </p>
-<p>Prometax is used for the treatment of adult patients with mild to moderately severe Alzheimer’s 
+Alzheimer s disease and dementia associated with Parkinson s disease. </p>
+<p>Prometax is used for the treatment of adult patients with mild to moderately severe Alzheimer s 
 dementia, a progressive brain disorder that gradually affects memory, intellectual ability and 
 behaviour. The capsules and oral solution can also be used for the treatment of dementia in adult 
-patients with Parkinson’s disease. </p>         </div>"""   
+patients with Parkinson s disease. </p>         </div>"""   
           
 
              
@@ -97,33 +97,35 @@ reaction (such as blisters, increasing skin inflammation, swelling) and if it do
 within 48 hours after removal of the transdermal patch. 
 If this applies to you, tell your doctor and do not take Prometax. </p>
 <p>Warnings and precautions 
-Talk to your doctor before taking Prometax: 
-- if you have, or have ever had, a heart condition such as an irregular or slow heartbeat, QTc 
+Talk to your doctor before taking Prometax:</p>
+<ul>
+<li>if you have, or have ever had, a heart condition such as an irregular or slow heartbeat, QTc 
 prolongation, a family history of QTc prolongation, torsade de pointes, or have a low blood level 
-of potassium or magnesium. 
-- if you have, or have ever had, an active stomach ulcer. 
-- if you have, or have ever had, difficulties in passing urine. 
-- if you have, or have ever had, seizures. 
-- if you have, or have ever had, asthma or severe respiratory disease. 
-- if you have, or have ever had impaired kidney function. 
-- if you have, or have ever had, impaired liver function. 
-- if you suffer from trembling. 
-- if you have a low body weight. 
-- if you have gastrointestinal reactions such as feeling sick (nausea), being sick (vomiting) and 
+of potassium or magnesium. </li>
+<li>if you have, or have ever had, an active stomach ulcer. </li>
+<li>if you have, or have ever had, difficulties in passing urine. </li>
+<li>if you have, or have ever had, seizures. </li>
+<li>if you have, or have ever had, asthma or severe respiratory disease. </li>
+<li>if you have, or have ever had impaired kidney function. </li>
+<li>if you have, or have ever had, impaired liver function. </li>
+<li>if you suffer from trembling. </li>
+<li>if you have a low body weight. </li>
+<li>if you have gastrointestinal reactions such as feeling sick (nausea), being sick (vomiting) and 
 diarrhoea. You may become dehydrated (losing too much fluid) if vomiting or diarrhoea are 
 prolonged. 
 If any of these apply to you, your doctor may need to monitor you more closely while you are on this 
-medicine. </p>
+medicine. </li>
+</ul>
 <p>If you have not taken Prometax for more than three days, do not take the next dose until you have 
 talked to your doctor. </p>
 <p>Children and adolescents 
-There is no relevant use of Prometax in the paediatric population in the treatment of Alzheimer’s disease. </p>
+There is no relevant use of Prometax in the paediatric population in the treatment of Alzheimer s disease. </p>
 <p>Other medicines and Prometax 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Prometax should not be given at the same time as other medicines with similar effects to Prometax. 
 Prometax might interfere with anticholinergic medicines (medicines used to relieve stomach cramps or 
-spasms, to treat Parkinson’s disease or to prevent travel sickness). </p>
+spasms, to treat Parkinson s disease or to prevent travel sickness). </p>
 <p>Prometax should not be given at the same time as metoclopramide (a medicine used to relieve or 
 prevent nausea and vomiting). Taking the two medicines together could cause problems such as stiff 
 limbs and trembling hands. </p>
@@ -220,10 +222,10 @@ Usually, the side effects will slowly go away as your body gets used to the medi
 * Urinary tract infection 
 * Seeing things that are not there (hallucinations) 
 * Problems with your heartbeat such as fast or slow heartbeat 
-* Bleeding in the gut – shows as blood in stools or when being sick 
-* Inflammation of the pancreas – the signs include serious upper stomach pain, often with feeling 
+* Bleeding in the gut   shows as blood in stools or when being sick 
+* Inflammation of the pancreas   the signs include serious upper stomach pain, often with feeling 
 sick (nausea) or being sick (vomiting) 
-* The signs of Parkinson’s disease get worse or getting similar signs – such as stiff muscles, 
+* The signs of Parkinson s disease get worse or getting similar signs   such as stiff muscles, 
 difficulty in carrying out movements </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 * Being violently sick (vomiting) that can cause tearing of the tube that connects your mouth with 
@@ -233,7 +235,7 @@ your stomach (oesophagus)
 urine or unexplained nausea, vomiting, tiredness and loss of appetite) 
 * Aggression, feeling restless 
 * Uneven heartbeat </p>
-<p>Patients with dementia and Parkinson’s disease 
+<p>Patients with dementia and Parkinson s disease 
 These patients have some side effects more often. They also have some additional side effects: </p>
 <p>Very common (may affect more than 1 in 10 people) 
 * Trembling 
@@ -246,7 +248,7 @@ These patients have some side effects more often. They also have some additional
 * Difficulty in sleeping 
 * Too much saliva and dehydration 
 * Unusually slow movements or movements you cannot control 
-* The signs of Parkinson’s disease get worse or getting similar signs – such as stiff muscles, 
+* The signs of Parkinson s disease get worse or getting similar signs   such as stiff muscles, 
 difficulty in carrying out movements and muscle weakness </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * Uneven heartbeat and poor control of movements </p>
@@ -272,13 +274,15 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store prometax"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton after EXP. The 
-expiry date refers to the last day of that month. 
-* Do not store above 30°C. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton after EXP. The 
+expiry date refers to the last day of that month. </li>
+<li>Do not store above 30 C. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -297,13 +301,13 @@ Each Prometax 4.5 mg capsule contains 4.5 mg of rivastigmine.
 Each Prometax 6.0 mg capsule contains 6.0 mg of rivastigmine. </p>
 <p>What Prometax looks like and contents of the pack 
 - Prometax 1.5 mg hard capsules, which contain an off-white to slightly yellow powder, have a 
-yellow cap and yellow body, with red imprint “ENA 713 1,5 mg” on the body. 
+yellow cap and yellow body, with red imprint  ENA 713 1,5 mg  on the body. 
 - Prometax 3.0 mg hard capsules, which contain an off-white to slightly yellow powder, have an 
-orange cap and orange body, with a red imprint “ENA 713 3 mg” on the body. 
+orange cap and orange body, with a red imprint  ENA 713 3 mg  on the body. 
 - Prometax 4.5 mg hard capsules, which contain an off-white to slightly yellow powder, have a 
-red cap and red body, with a white imprint “ENA 713 4,5 mg” on the body. 
+red cap and red body, with a white imprint  ENA 713 4,5 mg  on the body. 
 - Prometax 6.0 mg hard capsules, which contain an off-white to slightly yellow powder, have a 
-red cap and orange body, with a red imprint “ENA 713 6 mg” on the body. 
+red cap and orange body, with a red imprint  ENA 713 6 mg  on the body. 
 They are packed in blisters available in three different pack sizes (28, 56 or 112 capsules) but these 
 may not all be available in your country. </p>
 <p>Marketing Authorisation Holder 
@@ -313,31 +317,30 @@ Elm Park, Merrion Road
 Dublin 4 
 Ireland </p>
 <p>Manufacturer 
-Novartis Farmacéutica, S.A. 
+Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma GmbH 
-Tél/Tel: +49 911 273 0 </p>
-<p>Česká republika 
+T l/Tel: +49 911 273 0 </p>
+<p>esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -353,37 +356,37 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Sandoz Polska Sp. z o.o. 
 Tel.: +48 22 549 1France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Laboratório Normal - Produtos Farmacêuticos, 
+Laborat rio Normal - Produtos Farmac uticos, 
 Lda. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -391,10 +394,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />
@@ -418,5 +420,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+side effects not listed in this leaflet. See section </p>         </div>"""      
 

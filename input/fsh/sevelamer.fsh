@@ -4,7 +4,7 @@ Instance: composition-en-682a1ddf5b561c3896c1e826a81d2aed
 InstanceOf: CompositionUvEpi
 Title: "Composition for sevelamer Package Leaflet"
 Description:  "Composition for sevelamer Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -147,7 +147,7 @@ may monitor the levels of thyroid stimulating hormone in your blood more closely
 </li>
 <li>
 <p>Medicines treating heartburn and reflux from your stomach or oesophagus, such as omeprazole, 
-pantoprazole, or lansoprazole, known as “proton pump inhibitors”, may reduce the efficacy of 
+pantoprazole, or lansoprazole, known as  proton pump inhibitors , may reduce the efficacy of 
 Sevelamer carbonate Winthrop.  Your doctor may monitor the phosphate level in your blood. </p>
 </li>
 </ul>
@@ -167,7 +167,7 @@ Sevelamer carbonate Winthrop treatment. </p>
 <p>Driving and using machines 
 Sevelamer carbonate Winthrop is unlikely to affect your ability to drive or to use machines.  </p>
 <p>Excipients 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sevelamer"
@@ -205,16 +205,18 @@ If you have any further questions on the use of this medicine, ask your doctor o
 <p>Constipation is a very common side effect. It can be an early symptom of a blockage in your intestine. In 
 case of constipation, please inform your doctor or pharmacist if you experience it. </p>
 <p>Some side effects could be serious. If you get any of the following side effects, seek immediate medical 
-attention: 
-- Allergic reaction (signs including rash, hives, swelling, trouble breathing). This is a very rare side effect (may 
-affect up to 1 in 10,000 people). 
-- Blockage in the intestine (signs include: severe bloating; abdominal pain, swelling or cramps; severe 
-constipation) has been reported. Frequency is not known. 
-- Rupture in the intestinal wall (signs include: severe stomach pain, chills, fever, nausea, vomiting, or a 
-tender abdomen) has been reported. Frequency is not known. 
-- Serious inflammation of the large bowel (symptoms include: severe abdominal pain, stomach or intestine 
+attention:</p>
+<ul>
+<li>Allergic reaction (signs including rash, hives, swelling, trouble breathing). This is a very rare side effect (may 
+affect up to 1 in 10,000 people). </li>
+<li>Blockage in the intestine (signs include: severe bloating; abdominal pain, swelling or cramps; severe 
+constipation) has been reported. Frequency is not known. </li>
+<li>Rupture in the intestinal wall (signs include: severe stomach pain, chills, fever, nausea, vomiting, or a 
+tender abdomen) has been reported. Frequency is not known. </li>
+<li>Serious inflammation of the large bowel (symptoms include: severe abdominal pain, stomach or intestine 
 disorders, or blood in the stool [gastrointestinal bleeding]) and crystal deposit in the intestine have been 
-reported. Frequency is not known. </p>
+reported. Frequency is not known. </li>
+</ul>
 <p>Other side effects have been reported in patients taking Sevelamer carbonate Winthrop:  </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * vomiting,<br />
@@ -240,7 +242,7 @@ side effects, you can help provide more information on the safety of this medici
   * code.text = "5. How to store sevelamer"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date stated on the bottle and/or carton after “EXP”. The expiry date 
+<p>Do not use this medicine after the expiry date stated on the bottle and/or carton after  EXP . The expiry date 
 refers to the last day of that month. </p>
 <p>Keep the bottle container tightly closed in order to protect from moisture.<br />
 This medicine does not require any special temperature storage conditions.  </p>
@@ -285,19 +287,18 @@ Ambares et Lagrave
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
+T l/Tel: + 32 2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Magyarorsz g 
 SANOFI-AVENTIS Zrt 
-Tel: +36 1 505 0Česká republika 
+Tel: +36 1 505 0 esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
 Malta 
@@ -316,27 +317,26 @@ Norge
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71<br />
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 1 
 Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
-España 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda.. 
+Sanofi   Produtos Farmac uticos, Lda.. 
 Tel: +351 21 35 89<br />
 France 
 Sanofi Winthrop Industrie 
-Tél : 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
-România 
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 36  </p>
 <p>Hrvatska 
@@ -348,12 +348,12 @@ Tel: +386 1 235 51<br />
 Ireland 
 sanofi-aventis Ireland Ltd T/A SANOFI 
 Tel: +353 (0) 1 4035 600  </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
@@ -362,9 +362,9 @@ Sanofi S.r.l.
 Tel: 800 536 389  </p>
 <p>Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50 Κύπρος 
+Tel: +46 (0)8 634 50 <br />
 C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+ : +357 22 741 
 Latvija 
 Swixx Biopharma SIA<br />
 Tel: +371 6 616 47<br />

@@ -4,7 +4,7 @@ Instance: composition-en-0d7ee15ee10dc2578a331f45f3babb36
 InstanceOf: CompositionUvEpi
 Title: "Composition for enspryng Package Leaflet"
 Description:  "Composition for enspryng Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -78,7 +78,7 @@ body. </p>
 young people from 12 years of age. </p>
 <p>What is NMOSD  </p>
 <p>NMOSD is a disease of the central nervous system that mainly affects the optic nerves and spinal cord. 
-It is caused by the immune system (the body’s defences) working incorrectly and attacking nerves in 
+It is caused by the immune system (the body s defences) working incorrectly and attacking nerves in 
 the body. 
 * The damage to the optic nerves causes swelling, leading to pain and loss of sight. 
 * The damage to the spinal cord causes weakness or loss of movement in the legs or arms, loss of 
@@ -168,8 +168,8 @@ or pharmacist if you are not sure. </p>
 <p>How much Enspryng to use </p>
 <p>Each injection contains 120 mg of satralizumab. The first injection will be given under the supervision 
 of your doctor or nurse. 
-* The first three injections are given once every 2 weeks. These are called ‘loading doses’.<br />
-* After this, the injection is given every 4 weeks. This is called the ‘maintenance dose’. Continue 
+* The first three injections are given once every 2 weeks. These are called  loading doses .<br />
+* After this, the injection is given every 4 weeks. This is called the  maintenance dose . Continue 
 with the injections once every 4 weeks for as long as your doctor tells you to. </p>
 <p>How to use Enspryng </p>
 <ul>
@@ -180,7 +180,7 @@ with the injections once every 4 weeks for as long as your doctor tells you to. 
 an adult caregiver can inject Enspryng.<br />
 <em> You or your caregiver will get training on how to inject Enspryng.<br />
 </em> Talk to your doctor or nurse if you or your caregiver have any questions about giving injections.  </p>
-<p>Read carefully and follow the “Instructions for use” at the end of this leaflet on how to inject 
+<p>Read carefully and follow the  Instructions for use  at the end of this leaflet on how to inject 
 Enspryng. </p>
 <p>If you use more Enspryng than you should </p>
 <p>Because Enspryng is in a pre-filled syringe, it is unlikely that you will receive too much. However, if 
@@ -194,8 +194,8 @@ straight away.  </p>
 <p>If you are injecting Enspryng yourself and you miss an injection, inject it as soon as possible. Do not 
 wait until the next planned dose. After you have had the injection for the missed dose, your next 
 injection should be either: 
-* for loading doses – 2 weeks later 
-* for maintenance doses – 4 weeks later </p>
+* for loading doses   2 weeks later 
+* for maintenance doses   4 weeks later </p>
 <p>Check with your doctor, pharmacist or nurse if you are not sure.  </p>
 <p>If you stop using Enspryng </p>
 <p>Do not suddenly stop using Enspryng without asking your doctor first. If you have any further 
@@ -252,15 +252,11 @@ particularly in the first 24 hours after the injection:
 * allergies or hay fever 
 * stomach inflammation (gastritis), including stomach pain and nausea 
 * weight increase 
-* blood tests showing: 
-− 
-low fibrinogen levels (a protein involved in blood clotting) 
-− 
-high level of liver enzymes (transaminases, possible sign of liver problems) 
-− 
-high level of bilirubin (possible sign of liver problems) 
-− 
-low level of platelets (which may lead to bleeding or bruising easily) </p>
+* blood tests showing: </p>
+<p>low fibrinogen levels (a protein involved in blood clotting) </p>
+<p>high level of liver enzymes (transaminases, possible sign of liver problems) </p>
+<p>high level of bilirubin (possible sign of liver problems) </p>
+<p>low level of platelets (which may lead to bleeding or bruising easily) </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -272,16 +268,18 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store enspryng"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the pre-filled syringe label and 
-carton after ‘EXP’. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2°C – 8°C). Do not freeze. Do not use the syringe if it has been frozen. 
-Always keep the syringe dry.<br />
-* Keep the pre-filled syringes in the outer carton in order to protect from light and moisture. 
-* If unopened and kept in the outer carton, Enspryng may be left out of the refrigerator below 
-30°C for a single period up to 8 days. Do not return Enspryng to the refrigerator. 
-* Do not use and discard the pre-filled syringe if it has been left out of the refrigerator for longer 
-than 8 days. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the pre-filled syringe label and 
+carton after  EXP . The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2 C   8 C). Do not freeze. Do not use the syringe if it has been frozen. 
+Always keep the syringe dry.  </li>
+<li>Keep the pre-filled syringes in the outer carton in order to protect from light and moisture. </li>
+<li>If unopened and kept in the outer carton, Enspryng may be left out of the refrigerator below 
+30 C for a single period up to 8 days. Do not return Enspryng to the refrigerator. </li>
+<li>Do not use and discard the pre-filled syringe if it has been left out of the refrigerator for longer 
+than 8 days. </li>
+</ul>
 <p>Do not use this medicine if it is cloudy, discoloured or contains particles. Enspryng is a colourless to 
 slightly yellow liquid. </p>
 <p>The medicine must be injected right after removing the cap and no later than 5 minutes to prevent the 
@@ -322,22 +320,20 @@ Emil-Barell-Strasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 N.V. Roche S.A.<br />
-Tél/Tel: +32 (0) 2 525 82 11<br />
+T l/Tel: +32 (0) 2 525 82 11<br />
 Lietuva<br />
-UAB “Roche Lietuva”<br />
-Tel: +370 5 2546799<br />
-България<br />
-Рош България ЕООД<br />
-Тел: +359 2 818 44 44<br />
+UAB  Roche Lietuva <br />
+Tel: +370 5 2546799  </p>
+<p>: +359 2 818 44 44<br />
 Luxembourg/Luxemburg<br />
 (Voir/siehe Belgique/Belgien)<br />
-Česká republika<br />
+ esk  republika<br />
 Roche s. r. o.<br />
 Tel: +420 - 2 20382111<br />
-Magyarország<br />
-Roche (Magyarország) Kft.<br />
+Magyarorsz g<br />
+Roche (Magyarorsz g) Kft.<br />
 Tel: +36 - 12 794 500<br />
 Danmark<br />
 Roche Pharmaceuticals A/S<br />
@@ -351,18 +347,17 @@ Nederland<br />
 Roche Nederland B.V.<br />
 Tel: +31 (0) 348 438050<br />
 Eesti<br />
-Roche Eesti OÜ<br />
+Roche Eesti O <br />
 Tel: + 372 - 6 177 380<br />
 Norge<br />
 Roche Norge AS<br />
-Tlf: +47 - 22 78 90 00<br />
-Ελλάδα<br />
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66 100<br />
-Österreich<br />
+Tlf: +47 - 22 78 90 00  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66 100<br />
+ sterreich<br />
 Roche Austria GmbH<br />
 Tel: +43 (0) 1 27739<br />
-España<br />
+Espa a<br />
 Roche Farma S.A.<br />
 Tel: +34 - 91 324 81 00<br />
 Polska<br />
@@ -370,27 +365,27 @@ Roche Polska Sp.z o.o.<br />
 Tel: +48 - 22 345 18 88<br />
 France<br />
 Roche<br />
-Tél: +33 (0) 1 47 61 40 00<br />
+T l: +33 (0) 1 47 61 40 00<br />
 Portugal<br />
-Roche Farmacêutica Química, Lda<br />
+Roche Farmac utica Qu mica, Lda<br />
 Tel: +351 - 21 425 70 00<br />
 Hrvatska<br />
 Roche d.o.o.<br />
 Tel: +385 1 4722 333<br />
-România<br />
-Roche România S.R.L.<br />
+Rom nia<br />
+Roche Rom nia S.R.L.<br />
 Tel: +40 21 206 47 01<br />
 Ireland<br />
 Roche Products (Ireland) Ltd.<br />
 Tel: +353 (0) 1 469 0700<br />
 Slovenija<br />
-Roche farmacevtska družba d.o.o.<br />
+Roche farmacevtska dru ba d.o.o.<br />
 Tel: +386 - 1 360 26 00<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
-Sími: +354 540 8<br />
-Slovenská republika<br />
+S mi: +354 540 8<br />
+Slovensk  republika<br />
 Roche Slovensko, s.r.o.<br />
 Tel: +421 - 2 52638201<br />
 Italia<br />
@@ -399,9 +394,9 @@ Tel: +39 - 039 2471<br />
 Suomi/Finland<br />
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554 500<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
-Τηλ: +357 - 22 76 62 76<br />
+K <br />
+ . .  &amp;    .<br />
+ : +357 - 22 76 62 76<br />
 Sverige<br />
 Roche AB<br />
 Tel: +46 (0) 8 726 1200  </p>

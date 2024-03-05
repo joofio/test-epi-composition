@@ -4,7 +4,7 @@ Instance: composition-en-e0dd692dcb560bc04bfa1cbfaca9ecff
 InstanceOf: CompositionUvEpi
 Title: "Composition for tobi Package Leaflet"
 Description:  "Composition for tobi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,7 +109,7 @@ mother
 * unusual difficulty in breathing with wheezing or coughing, chest tightness 
 * blood in your sputum (the substance you cough up) 
 * muscle weakness that lasts or becomes worse over time, a symptom mostly related to conditions 
-such as myasthenia or Parkinson’s disease. 
+such as myasthenia or Parkinson s disease. 
 If any of these apply to you, tell your doctor before taking TOBI Podhaler. </p>
 <p>If you are aged 65 years or older, your doctor may perform additional tests to decide if TOBI Podhaler 
 is right for you. </p>
@@ -205,7 +205,7 @@ If you have questions about how long to take TOBI Podhaler for, talk to your doc
 pharmacist. </p>
 <p>If you take more TOBI Podhaler than you should 
 If you inhale too much TOBI Podhaler, tell your doctor as soon as possible. If TOBI Podhaler is 
-swallowed, don’t worry but tell your doctor as soon as possible. </p>
+swallowed, don t worry but tell your doctor as soon as possible. </p>
 <p>If you forget to take TOBI Podhaler 
 If you forget to take TOBI Podhaler and there are at least 6 hours to your next dose, take your dose as 
 soon as you can. Otherwise, wait for your next dose. Do not take a double dose to make up for a 
@@ -262,9 +262,11 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store tobi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the box or capsule card. 
-* Store in the original packaging in order to protect from moisture. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the box or capsule card. </li>
+<li>Store in the original packaging in order to protect from moisture. </li>
+</ul>
 <p>Once removed from the capsule card (blister), a capsule should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -281,7 +283,7 @@ dispose of medicines you no longer use. These measures will help protect the env
 chloride, sulfuric acid (for pH adjustment). </p>
 <p>What TOBI Podhaler looks like and contents of the pack 
 TOBI Podhaler inhalation powder, hard capsules consist of a white to almost white powder for 
-inhalation filled into clear colourless hard capsules with “MYL TPH” imprinted in blue ink on one 
+inhalation filled into clear colourless hard capsules with  MYL TPH  imprinted in blue ink on one 
 part of the capsule and the Mylan logo imprinted in blue on the other part of the capsule. </p>
 <p>TOBI Podhaler is supplied in monthly packs containing 4 weekly cartons and a reserve Podhaler 
 device in its storage case. </p>
@@ -311,22 +313,20 @@ Benzstrasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Viatris<br />
-Tél/Tel: +32 2 658 61<br />
+T l/Tel: +32 2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел.: +359 2 44 55<br />
+Tel: +370 5 205 1 </p>
+<p>.: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Viatris<br />
-Tél/Tel: +32 2 658 61<br />
-Česká republika 
+T l/Tel: +32 2 658 61<br />
+ esk  republika 
 Viatris CZ s.r.o. 
 Tel: +420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Viatris Healthcare Kft. 
 Tel.: +36 1 465 2 
 Danmark 
@@ -346,29 +346,28 @@ BGP Products Switzerland GmbH Eesti filiaal
 Tel: + 372 6363<br />
 Norge 
 Viatris AS 
-Tlf: +47 66 75 33<br />
-Ελλάδα 
-Viatris Hellas Ltd 
-Τηλ: +30 210 0100 
-Österreich 
-Mylan Österreich GmbH 
+Tlf: +47 66 75 33  </p>
+<p>Viatris Hellas Ltd 
+ : +30 210 0100 
+ sterreich 
+Mylan  sterreich GmbH 
 Tel: + 43 1 86 390  </p>
-<p>España 
+<p>Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: +34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel.: +48 22 546 6 
 France 
-Viatris Santé 
-Tél: +33 1 40 80 15<br />
+Viatris Sant<br />
+T l: +33 1 40 80 15<br />
 Portugal 
 Viatris Healthcare, Lda. 
 Tel: +351 214 127<br />
 Hrvatska 
 Viatris Hrvatska d.o.o. 
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP PRODUCTS SRL 
 Tel: +40 372 579<br />
 Ireland 
@@ -377,10 +376,10 @@ Tel: +353 1 8711
 Slovenija 
 Viatris d.o.o. 
 Tel: +386 1 236 31<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: + 354 540 8 
-Slovenská republika 
+S mi: + 354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199<br />
 Italia 
@@ -388,10 +387,9 @@ Viatris Italia S.r.l.
 Tel: +39 02 612 46 
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd 
-Τηλ: +357 2220 7 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd 
+ : +357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: +46 8 630 19<br />

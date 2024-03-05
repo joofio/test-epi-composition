@@ -4,7 +4,7 @@ Instance: composition-en-f8e8c83bf775a0a91c665d5fc646c400
 InstanceOf: CompositionUvEpi
 Title: "Composition for mircera Package Leaflet"
 Description:  "Composition for mircera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use MIRCERA 
 4. Possible side effects 
 5. How to store MIRCERA 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -70,7 +69,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine is prescribed to you because you have anaemia caused by your chronic kidney disease 
 and associated with typical symptoms, such as tiredness, weakness and shortness of breath. This 
-means that you have too few red blood cells and your haemoglobin level is too low (your body’s 
+means that you have too few red blood cells and your haemoglobin level is too low (your body s 
 tissues might not receive enough oxygen). </p>
 <p>MIRCERA is indicated to treat only the symptomatic anaemia caused by chronic kidney disease in 
 adult patients and in paediatric patients (aged 3 months to less than 18 years) on erythropoiesis 
@@ -172,7 +171,7 @@ unknown. </p>
 MIRCERA does not affect your ability to drive and use machines.  </p>
 <p>Important information about some of the ingredients of MIRCERA 
 This medicine contains less than 1 mmol sodium (23 mg) per ml, that is to say it is essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mircera"
@@ -198,21 +197,15 @@ by measuring your haemoglobin level. </p>
 <li>If you are an adult not currently treated with an ESA 
 If you are not on dialysis, the recommended starting dose of MIRCERA is 1.2 micrograms for every 
 kilogram of your body weight to be administered under the skin once every month as a single 
-injection. Alternatively, your doctor may decide to administer a starting dose of MIRCERA of </li>
-</ul>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>two weeks as a single injection under the skin or into a vein. Once your anaemia is corrected your 
+injection. Alternatively, your doctor may decide to administer a starting dose of MIRCERA of 
+0.6 micrograms for every kilogram of your body weight. The dose is to be administered once every 
+two weeks as a single injection under the skin or into a vein. Once your anaemia is corrected your 
 doctor may change your dosing to once a month administration. 
 If you are on dialysis, the recommended starting dose is 0.6 micrograms for every kilogram of your 
 body weight. The dose is to be administered once every two weeks as a single injection under the skin 
 or into a vein. Once your anaemia is corrected your doctor may change your dosing to once a month 
-administration. </p>
+administration. </li>
+</ul>
 <p>Your doctor may increase or decrease your dose or temporarily stop your treatment to adjust your 
 haemoglobin level, as appropriate for you. Dose changes will not be made more often than once a 
 month. </p>
@@ -235,12 +228,13 @@ doctor about when to use the next doses.  </p>
 <p>If you stop using MIRCERA 
 Treatment with MIRCERA is normally long-term. It can, however, be stopped on the advice of your 
 doctor at any time. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store mircera"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mircera"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The frequency of possible side effects listed below:  </p>
@@ -267,8 +261,14 @@ Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis have been reported
 with epoetin treatment. These can appear as reddish target-like macules or circular patches often with 
 central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes and can be 
 preceded by fever and flu-like symptoms. Stop using Mircera if you develop these symptoms and 
-contact your doctor or seek medical attention immediately, see also section 2.<br />
-As with other ESAs, cases of thrombosis, including pulmonary embolism, have been reported in the 
+contact your doctor or seek medical attention immediately, see also section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mircera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mircera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>As with other ESAs, cases of thrombosis, including pulmonary embolism, have been reported in the 
 post-marketing setting. </p>
 <p>A condition called Pure Red Cell Aplasia (PRCA, stopped or reduced production of red blood cells) 
 due to anti-erythropoietin antibodies was observed in some patients treated with ESAs, including 
@@ -287,12 +287,12 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and pre-filled syringe 
-label after ‘EXP’. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. 
+label after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. 
 Keep the pre-filled syringe in the outer carton in order to protect from light. 
 You may remove your MIRCERA pre-filled syringe from the refrigerator and store it at a room 
-temperature not above 30 °C for a single period of one month. During this period when you have 
-stored MIRCERA at a room temperature not above 30 °C you may not put MIRCERA back in the 
+temperature not above 30  C for a single period of one month. During this period when you have 
+stored MIRCERA at a room temperature not above 30  C you may not put MIRCERA back in the 
 refrigerator before use. Once you have removed your medicine from the refrigerator you must use it 
 within this period of one month. </p>
 <p>Only solutions which are clear, colourless to slightly yellowish and free of visible particles must be 

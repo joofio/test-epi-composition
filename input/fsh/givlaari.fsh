@@ -4,7 +4,7 @@ Instance: composition-en-5e3f046139a16b84f12a9b50f2d2b2ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for givlaari Package Leaflet"
 Description:  "Composition for givlaari Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What givlaari is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Givlaari is </p>
-<p>Givlaari contains the active substance ‘givosiran’. </p>
+<p>Givlaari contains the active substance  givosiran . </p>
 <p>What Givlaari is used for </p>
 <p>Givlaari is used to treat acute hepatic porphyria in adults and adolescents aged 12 years and older. </p>
 <p>What acute hepatic porphyria is </p>
@@ -104,7 +104,7 @@ medicine (listed in section 6). </li>
 <p>Severe allergic reaction </p>
 <ul>
 <li>Tell your doctor or nurse straight away if you get any signs of a severe allergic reaction. The 
-signs are listed in “Serious side effects” in section 4. * If you have a severe allergic reaction, your doctor or nurse will stop using the medicine straight 
+signs are listed in  Serious side effects  in section 4. * If you have a severe allergic reaction, your doctor or nurse will stop using the medicine straight 
 away and you may need to take other medicines to control the symptoms. </li>
 </ul>
 <p>Liver problems </p>
@@ -141,8 +141,8 @@ your child and benefit of therapy for you. </p>
 <p>Driving and using machines </p>
 <p>This medicine is unlikely to have any effect on your ability to drive or use machines. </p>
 <p>Givlaari contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take givlaari"
@@ -178,9 +178,9 @@ If you have any further questions on the use of this medicine, ask your doctor o
 <p>Serious side effects </p>
 <p>Severe allergic reactions (uncommon: may affect up to 1 in 100 people) </p>
 <p>Tell your doctor or nurse straight away if you get any of the following signs of a severe allergic 
-reaction (anaphylactic reaction) – the injection will need to be stopped and you may need to take other 
+reaction (anaphylactic reaction)   the injection will need to be stopped and you may need to take other 
 medicines to manage the reaction: 
-* swelling – mainly of the lips, tongue or throat which makes it difficult to swallow or breathe 
+* swelling   mainly of the lips, tongue or throat which makes it difficult to swallow or breathe 
 * breathing problems or wheezing 
 * feeling dizzy or fainting 
 * rash, hives 
@@ -197,7 +197,7 @@ liver inflammation)
 * Blood tests showing an increase in creatinine, a substance removed from your body by your 
 kidneys, or decrease in glomerular filtration rate (signs of possible kidney problems) </p>
 <p>Common: may affect up to 1 in 10 people 
-* A type of allergic reaction (hypersensitivity) – with symptoms such as hives, rash, swelling of 
+* A type of allergic reaction (hypersensitivity)   with symptoms such as hives, rash, swelling of 
 eyes, mouth or face, difficulty breathing, itching. 
 * Inflammation of the pancreas (pancreatitis). 
 * Blood test showing an increase in homocysteine (a type of amino acid) </p>
@@ -216,7 +216,7 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>This medicine is for single use only. Once the product is opened, use immediately. </p>
-<p>Do not store above 25 °C. </p>
+<p>Do not store above 25  C. </p>
 <p>Keep vial in the outer carton to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your doctor or nurse will throw 
 away any medicines that are no longer being used. These measures will help protect the environment. </p>         </div>"""      
@@ -243,21 +243,20 @@ Antonio Vivaldistraat 150<br />
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Alnylam Netherlands B.V. 
-Tél/Tel: 0800 81 443 (+32 234 208 71) 
+T l/Tel: 0800 81 443 (+32 234 208 71) 
 medinfo@alnylam.com </p>
 <p>Luxembourg/Luxemburg 
 Alnylam Netherlands B.V. 
-Tél/Tel: 80085235 (+352 203 014 48) 
+T l/Tel: 80085235 (+352 203 014 48) 
 medinfo@alnylam.com </p>
-<p>България 
-Genesis Pharma Bulgaria EOOD 
-Teл.: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Genesis Pharma Bulgaria EOOD 
+Te .: +359 2 969 3medinfo@genesispharmagroup.com </p>
 <p>Malta 
 Genesis Pharma (Cyprus) Ltd 
 Tel: +357 22765medinfo@genesispharmagroup.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Alnylam Czech s.r.o. 
 Tel: 800 050 450 (+420 234 092 195) 
 medinfo@alnylam.com </p>
@@ -277,27 +276,27 @@ medinfo@alnylam.com </p>
 Alnylam Germany GmbH 
 Tel: 08002569526 (+49 8920190112) 
 medinfo@alnylam.com </p>
-<p>Österreich 
+<p>sterreich 
 Alnylam Austria GmbH 
 Tel: 0800070339 (+43 720 778 072) 
 medinfo@alnylam.com </p>
-<p>Ελλάδα 
-ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε<br />
-Τηλ: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<pre><code> .
+</code></pre>
+<p>: +30 210 87 71 medinfo@genesispharmagroup.com </p>
 <p>Portugal 
 Alnylam Portugal 
 Tel: 707201512 (+351 707502642) 
 medinfo@alnylam.com </p>
-<p>España 
+<p>Espa a 
 Alnylam Pharmaceuticals Spain SL 
 Tel: 900810212 (+34 910603753) 
 medinfo@alnylam.com </p>
-<p>România 
+<p>Rom nia 
 Genesis Biopharma Romania SRL 
 Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
 <p>France 
 Alnylam France SAS 
-Tél: 0805542656 (+33 187650921) 
+T l: 0805542656 (+33 187650921) 
 medinfo@alnylam.com </p>
 <p>Slovenija 
 Genesis Pharma Adriatic d.o.o 
@@ -325,13 +324,12 @@ medinfo@alnylam.com </p>
 Alnylam UK Ltd. 
 Tel: 08001412569 (+44 1628 878592) 
 medinfo@alnylam.com </p>
-<p>Κύπρος 
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: +357 22765medinfo@genesispharmagroup.com </p>
-<p>Eesti, Ísland, Latvija, Lietuva, Magyarország, 
-Polska, Slovenská republika 
+<p>Genesis Pharma (Cyprus) Ltd 
+ : +357 22765medinfo@genesispharmagroup.com </p>
+<p>Eesti,  sland, Latvija, Lietuva, Magyarorsz g, 
+Polska, Slovensk  republika 
 Alnylam Netherlands B.V. 
-Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
+Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

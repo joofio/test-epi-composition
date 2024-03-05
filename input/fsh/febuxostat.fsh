@@ -4,7 +4,7 @@ Instance: composition-en-4ee334e9551b40764860d0c83a3de6c2
 InstanceOf: CompositionUvEpi
 Title: "Composition for febuxostat Package Leaflet"
 Description:  "Composition for febuxostat Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -106,13 +106,15 @@ medication used for the treatment of Gout)
 rare inherited condition in which there is too much uric acid in the blood) 
 * If you have thyroid problems. </p>
 <p>Should you experience allergic reactions to Febuxostat Viatris, stop taking this medicine (see 
-also section 4). Possible symptoms of allergic reactions might be: 
-- rash including severe forms (e.g. blisters, nodules, itchy, exfoliative rash), itchiness 
-- swelling of limbs or face 
-- difficulties in breathing 
-- fever with enlarged lymph nodes 
-- but also serious life threatening allergic conditions with cardiac and circulatory arrest. 
-Your doctor might decide to permanently stop treatment with Febuxostat Viatris. </p>
+also section 4). Possible symptoms of allergic reactions might be:</p>
+<ul>
+<li>rash including severe forms (e.g. blisters, nodules, itchy, exfoliative rash), itchiness </li>
+<li>swelling of limbs or face </li>
+<li>difficulties in breathing </li>
+<li>fever with enlarged lymph nodes </li>
+<li>but also serious life threatening allergic conditions with cardiac and circulatory arrest. 
+Your doctor might decide to permanently stop treatment with Febuxostat Viatris. </li>
+</ul>
 <p>There have been rare reports of potentially life-threatening skin rashes (Stevens-Johnson 
 Syndrome) with the use of febuxostat, appearing initially as reddish target-like spots or circular 
 patches often with central blister on the trunk. It may also include ulcers in the mouth, throat, 
@@ -163,7 +165,7 @@ tingling sensation during treatment and should not drive or operate machines if 
 that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Febuxostat Viatris contains sodium 
 Febuxostat Viatris contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take febuxostat"
@@ -185,7 +187,7 @@ attack. </p>
 <p>Prevention and treatment of high uric acid levels in patients undergoing cancer chemotherapy 
 Febuxostat Viatris is available as a 120 mg tablet. 
 Start taking Febuxostat Viatris two days before chemotherapy and continue its use according to </p>
-<p>your doctor’s advice. Usually treatment is short-term. </p>
+<p>your doctor s advice. Usually treatment is short-term. </p>
 <p>If you take more Febuxostat Viatris than you should </p>
 <p>In the event of an accidental overdose ask your doctor what to do, or contact your nearest 
 accident and emergency department. </p>
@@ -209,8 +211,8 @@ may worsen due to the formation of new crystals of urate in and around your join
 <p>Stop taking this medicine and contact your doctor immediately or go to an emergency 
 department nearby if the following rare (may affect up to 1 in 1,000 people) side effects occur, 
 because a serious allergic reaction might follow: 
-* anaphylactic reactions, drug hypersensitivity (see also section 2 “Warnings and 
-precautions”) 
+* anaphylactic reactions, drug hypersensitivity (see also section 2  Warnings and 
+precautions ) 
 * potentially life-threatening skin rashes characterised by formation of blisters and 
 shedding of the skin and inner surfaces of body cavities, e.g. mouth and genitals, painful 
 ulcers in the mouth and/or genital areas, accompanied by fever, sore throat and fatigue 
@@ -223,7 +225,7 @@ blood (drug reaction with eosinophilia and systemic symptoms-DRESS) (see section
 * abnormal liver test results 
 * diarrhoea 
 * headache 
-* rash (including various types of rash, please see below under “uncommon” and “rare” 
+* rash (including various types of rash, please see below under  uncommon  and  rare<br />
 sections) 
 * nausea 
 * increase in gout symptoms 
@@ -335,7 +337,7 @@ information on the safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store febuxostat"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the packaging after ‘EXP.’ The 
+Do not use this medicine after the expiry date which is stated on the packaging after  EXP.  The 
 expiry date refers to the last day of that month. 
 For bottles, after first opening use within 180 days 
 This medicine does not require any special storage conditions. </p>
@@ -352,7 +354,7 @@ how to throw away medicines you no longer use. These measures will help protect 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Febuxostat Viatris contains </p>
 <p>The active substance is febuxostat. Each tablet contains 80 mg or 120 mg of febuxostat. </p>
 <p>The other ingredients are: 
-Tablet core: lactose (see section 2, “Febuxostat Viatris contains lactose”), microcrystalline 
+Tablet core: lactose (see section 2,  Febuxostat Viatris contains lactose ), microcrystalline 
 cellulose, magnesium stearate, hydroxypropylcellulose, croscarmellose sodium, colloidal 
 hydrated silica, colloidal anhydrous silica, crospovidone and talc. 
 Film-coating: hypromellose, titanium dioxide (E171), ethylcellulose, iron oxide yellow (E172), 
@@ -376,7 +378,7 @@ Ireland </p>
 <p>Manufacturer 
 Mylan Hungary Kft 
 Mylan utca 1 
-H-2900 Komárom 
+H-2900 Kom rom 
 Hungary </p>
 <p>McDermott Laboratories Limited trading as Gerard Laboratories 
 35/36 Baldoyle Industrial Estate 
@@ -390,21 +392,19 @@ Germany </p>
 <p>For any information about this medicine, please contact the local representative of the 
 Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: +359 2 44 55 Luxembourg/Luxemburg 
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
-Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
+ esk  republika 
 Viatris CZ s.r.o. 
 Tel: +420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft. 
 Tel.: + 36 1 465 2 
 Danmark 
@@ -422,28 +422,27 @@ BGP Products Switzerland GmbH Eesti filiaal
 Tel: + 372 6363<br />
 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33<br />
-Ελλάδα<br />
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ: +30 210 993 6410  </p>
-<p>Österreich 
+Tlf: + 47 66 75 33  </p>
+<p>Generics Pharma Hellas  <br />
+ : +30 210 993 6410  </p>
+<p>sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel.: + 48 22 546 64 France 
-Viatris Santé 
-Tél: +33 4 37 25 75<br />
+Viatris Sant<br />
+T l: +33 4 37 25 75<br />
 Portugal 
 Mylan, Lda. 
 Tel: + 351 214 127<br />
 Hrvatska 
 Viatris Hrvatska d.o.o. 
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: +40 372 579<br />
 Ireland 
@@ -451,10 +450,10 @@ Mylan Ireland Limited
 Tel: +353 1 8711Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf.<br />
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199  </p>
 <p>Italia 
@@ -462,10 +461,9 @@ Mylan Italia S.r.l
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: +46 (0)8 630 19 Latvija 

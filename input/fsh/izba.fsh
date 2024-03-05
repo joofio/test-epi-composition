@@ -4,7 +4,7 @@ Instance: composition-en-ded378039327f28c36307d251503f7d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for izba Package Leaflet"
 Description:  "Composition for izba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -80,32 +80,25 @@ old onward. This pressure can lead to an illness called glaucoma. </p>         <
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take izba"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use IZBA 
- 
-if you are allergic to travoprost or any of the other ingredients of this medicine (listed in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use IZBA </p>
+<p>if you are allergic to travoprost or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Ask your doctor for advice if this applies to you. </p>
 <p>Warnings and precautions </p>
-<p> 
-IZBA may increase the length, thickness, colour and/or number of your eyelashes. Changes in 
+<p>IZBA may increase the length, thickness, colour and/or number of your eyelashes. Changes in 
 the eyelids including unusual hair growth or in the tissues around the eye have also been 
 observed. </p>
-<p> 
-IZBA may gradually change the colour of your iris (the coloured part of your eye). This 
+<p>IZBA may gradually change the colour of your iris (the coloured part of your eye). This 
 change may be permanent. </p>
-<p> 
-If you have had cataract surgery talk to your doctor before you use IZBA. IZBA may increase 
+<p>If you have had cataract surgery talk to your doctor before you use IZBA. IZBA may increase 
 the risk of inflammation of the back of the eye. </p>
-<p> 
-If you have current or previous history of an eye inflammation (iritis and uveitis) talk to your 
+<p>If you have current or previous history of an eye inflammation (iritis and uveitis) talk to your 
 doctor before you use IZBA. Eye inflammation is a possible side effect which may be 
 associated with the use of prostaglandin analogues such as IZBA. </p>
-<p> 
-Travoprost may be absorbed through the skin. If any of the medicinal product comes into 
+<p>Travoprost may be absorbed through the skin. If any of the medicinal product comes into 
 contact with the skin, it should be washed off straight away. This is especially important in 
 women who are pregnant or are attempting to become pregnant. </p>
-<p> 
-If you wear soft contact lenses, do not use the drops with your lenses in. After using the drops 
+<p>If you wear soft contact lenses, do not use the drops with your lenses in. After using the drops 
 wait 15 minutes before putting your lenses back in. </p>
 <p>Talk to your doctor or pharmacist before using IZBA. </p>
 <p>Children and adolescents 
@@ -141,47 +134,35 @@ IZBA can be used in children from 3 years to &lt;18 years at the same dose as fo
 2 
 3 
 4 </p>
-<p> 
-Immediately before using a bottle for the first time, tear open the overwrap pouch, take the 
-bottle out (picture 1) and write the date of opening on the carton in the space provided. 
- 
-Wash your hands. 
- 
-Twist off the cap. 
- 
-Hold the bottle, pointing down, between your thumb and fingers. 
- 
-Tilt your head or your child’s head gently back. Pull down the eyelid with a clean finger, until 
-there is a ‘pocket’ between the eyelid and the eye. The drop will go in here (picture 2). 
- 
-Bring the bottle tip close to the eye. Use a mirror if it helps. 
- 
-Do not touch the eye or eyelid, surrounding areas or other surfaces with the dropper. It 
-could infect the drops. 
- 
-Gently squeeze the bottle to release one drop of IZBA at a time. (picture 3). 
- 
-After using IZBA, keep the eyelid closed, apply gentle pressure by pressing a finger into the 
+<p>Immediately before using a bottle for the first time, tear open the overwrap pouch, take the 
+bottle out (picture 1) and write the date of opening on the carton in the space provided. </p>
+<p>Wash your hands. </p>
+<p>Twist off the cap. </p>
+<p>Hold the bottle, pointing down, between your thumb and fingers. </p>
+<p>Tilt your head or your child s head gently back. Pull down the eyelid with a clean finger, until 
+there is a  pocket  between the eyelid and the eye. The drop will go in here (picture 2). </p>
+<p>Bring the bottle tip close to the eye. Use a mirror if it helps. </p>
+<p>Do not touch the eye or eyelid, surrounding areas or other surfaces with the dropper. It 
+could infect the drops. </p>
+<p>Gently squeeze the bottle to release one drop of IZBA at a time. (picture 3). </p>
+<p>After using IZBA, keep the eyelid closed, apply gentle pressure by pressing a finger into the 
 corner of the eye, by the nose (picture 4) for at least 1 minute. This helps to stop IZBA getting 
-into the rest of the body. 
- 
-If you use drops in both eyes, repeat the steps for the other eye. 
- 
-Close the bottle cap firmly immediately after use. 
- 
-Only use one bottle at a time. Do not open the pouch until you need to use the bottle. </p>
+into the rest of the body. </p>
+<p>If you use drops in both eyes, repeat the steps for the other eye. </p>
+<p>Close the bottle cap firmly immediately after use. </p>
+<p>Only use one bottle at a time. Do not open the pouch until you need to use the bottle. </p>
 <p>If a drop misses your eye, try again. </p>
 <p>If you or your child are using other eye preparations such as eye drop or eye ointment, wait for at 
 least 5 minutes between putting in IZBA and the other eye preparations. </p>
 <p>If you or your child use more IZBA than you should 
-Rinse all the medicine out with warm water. Don’t put in any more drops until it’s time for your next 
+Rinse all the medicine out with warm water. Don t put in any more drops until it s time for your next 
 regular dose. If IZBA is swallowed, consult your doctor or pharmacist immediately. </p>
 <p>If you forget to use IZBA 
 Continue with the next dose as planned. Do not use a double dose to make up for a forgotten dose. 
 Never use more than one drop in the affected eye(s) in a single day. </p>
 <p>If you stop using IZBA 
 Do not stop using IZBA without first speaking to your doctor or the doctor treating your child, the 
-pressure in your eye or your child’s eye will not be controlled which could lead to loss of sight. </p>
+pressure in your eye or your child s eye will not be controlled which could lead to loss of sight. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, the doctor treating your 
 child or pharmacist. </p>         </div>"""         
 
@@ -250,7 +231,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store izba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the box after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the box after  EXP . 
 The expiry date refers to the last day of the month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>You must throw away the bottle 4 weeks after you first opened it, to prevent infections, and use a 
@@ -287,21 +268,21 @@ Rijksweg B-2870 Puurs
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16 България 
+Tel: +370 5 269 16 <br />
 Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
-Tel: +420 225 775 Magyarország 
-Novartis Hungária Kft. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -318,24 +299,24 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4 
 France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274 România 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299<br />
 Ireland 
@@ -343,9 +324,9 @@ Novartis Ireland Limited
 Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
 Tel: +386 1 300 75<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7Slovenská republika 
+S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: + 421 2 5542 5 
 Italia 
@@ -353,9 +334,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 </p>
 <p>Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133 Κύπρος 
+Puh/Tel: +358 (0)10 6133 <br />
 Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32 Latvija 

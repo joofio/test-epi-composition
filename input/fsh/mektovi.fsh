@@ -4,7 +4,7 @@ Instance: composition-en-1fc6739ba81d50a7087579c92c2a7274
 InstanceOf: CompositionUvEpi
 Title: "Composition for mektovi Package Leaflet"
 Description:  "Composition for mektovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,8 +75,8 @@ melanoma when it has
 * a particular change (mutation) in a gene responsible for producing a protein called BRAF, and 
 * spread to other parts of the body or cannot be removed by surgery. </p>
 <p>Mutations in the BRAF gene can produce proteins that cause the melanoma to grow. Mektovi targets 
-another protein called “MEK” that stimulates cancer cell growth. When Mektovi is used in 
-combination with encorafenib (which targets the changed “BRAF” protein), the combination slows 
+another protein called  MEK  that stimulates cancer cell growth. When Mektovi is used in 
+combination with encorafenib (which targets the changed  BRAF  protein), the combination slows 
 down or stops the growth of your cancer. </p>         </div>"""   
           
 
@@ -120,7 +120,7 @@ feel like your heart is pounding, racing, beating irregularly or if you have swe
 <li>
 <p>Bleeding problems: Mektovi may cause serious bleeding problems. Talk to your doctor 
 immediately if you have any symptoms of bleeding problems such as coughing up of blood, 
-blood clots, vomit containing blood or that looks like “coffee grounds”, red or black stools 
+blood clots, vomit containing blood or that looks like  coffee grounds , red or black stools 
 that look like tar, passing blood in the urine, stomach (abdominal) pain, unusual vaginal 
 bleeding. Also tell your doctor if you have headache, dizziness or weakness.  </p>
 </li>
@@ -186,7 +186,7 @@ In particular, tell your doctor if you are taking anything in this list or any o
 carbamazepine 
 * some medicines to treat HIV such as indinavir, atazanavir 
 * a medicine for carcinoma treatment called sorafenib 
-* an herbal treatment for depression: St. John’s wort<br />
+* an herbal treatment for depression: St. John s wort<br />
 * medicine used to treat depression such as duloxetine 
 * medicine typically used to treat high cholesterol such as pravastatin 
 * a medicine used to treat breathing problems, theophylline.  </p>
@@ -280,10 +280,10 @@ kidney damage and can be fatal; signs and symptoms can include:
 have any unusual bleeding or signs of bleeding, including:<br />
 <em> headaches, dizziness or weakness 
 * coughing up of blood or blood clots 
-* vomit containing blood or that looks like “coffee grounds” 
-* red or black stools that look like tar 
+* vomit containing blood or that looks like  coffee grounds<br />
+</em> red or black stools that look like tar 
 * passing blood in the urine<br />
-</em> stomach (abdominal) pain 
+* stomach (abdominal) pain 
 * unusual vaginal bleeding </p>
 <p>Other skin cancers: When Mektovi is taken with encorafenib, the patient may develop different 
 types of skin cancer such as cutaneous squamous cell carcinoma. Usually, these skin cancers (see 
@@ -367,13 +367,13 @@ throw away medicines you no longer use. These measures will help protect the env
 <em><br />
 Tablet core: lactose monohydrate, cellulose microcrystalline (E460i), silica colloidal 
 anhydrous (E551), croscarmellose sodium (E468) and magnesium stearate (E470b). See 
-section 2 “Mektovi contains lactose”. 
+section 2  Mektovi contains lactose . 
 </em><br />
 Tablet film-coat: poly(vinyl alcohol) (E1203), macrogol 3350 (E1521), titanium 
 dioxide (E171), talc (E533b), iron oxide yellow (E172) and iron oxide black (E172). </p>
 <p>What Mektovi looks like and contents of the pack 
 Mektovi film-coated tablets are yellow/dark yellow, unscored biconvex, oval film-coated tablets 
-debossed with “A” on one side and “15” on the other side.  </p>
+debossed with  A  on one side and  15  on the other side.  </p>
 <p>Mektovi is available in packs of 84 tablets (7 blisters of 12 tablets each) or 168 tablets (14 blisters of 
 12 tablets each).<br />
 Not all pack sizes may be marketed. </p>
@@ -384,7 +384,7 @@ Les Cauquillous
 France </p>
 <p>Manufacturer 
 PIERRE FABRE MEDICAMENT PRODUCTION 
-Site Progipharm, Rue du Lycée<br />
+Site Progipharm, Rue du Lyc e<br />
 45500 GIEN<br />
 France </p>
 <p>This leaflet was last revised in </p>

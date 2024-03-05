@@ -4,7 +4,7 @@ Instance: composition-en-741439ba6d0ec3fbe3a33d580ea9911d
 InstanceOf: CompositionUvEpi
 Title: "Composition for dynastat Package Leaflet"
 Description:  "Composition for dynastat Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -85,7 +85,7 @@ lowering the amount of these prostaglandins. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Dynastat 
 - if you are allergic to parecoxib or any of the other ingredients of this medicine (listed in section 6) 
 - if you have had a serious allergic reaction (especially a serious skin reaction) to any medicines 
-- if you have had an allergic reaction to a group of medicines called “sulfonamides” (e.g. some 
+- if you have had an allergic reaction to a group of medicines called  sulfonamides  (e.g. some 
 antibiotics used to treat infections) 
 - if you currently have a gastric or intestinal ulcer or bleeding in the stomach or gut 
 - if you have had an allergic reaction to acetylsalicylic acid (aspirin) or to other NSAIDs (e.g. 
@@ -95,7 +95,7 @@ nasal polyps after taking these medicines
 - if you are more than 6 months pregnant 
 - if you are breast-feeding 
 - if you have severe liver disease 
-- if you have inflammation of the intestines (ulcerative colitis or Crohn’s disease) 
+- if you have inflammation of the intestines (ulcerative colitis or Crohn s disease) 
 - if you have heart failure<br />
 - if you are about to have heart surgery or surgery on your arteries (including any coronary artery 
 procedure) 
@@ -118,7 +118,7 @@ immediately. </p>
 * If you are taking antiplatelet therapies 
 * If you have fluid retention (oedema) 
 * If you have liver or kidney disease. 
-* If you are dehydrated – this may happen if you have had diarrhoea or have been vomiting (being 
+* If you are dehydrated   this may happen if you have had diarrhoea or have been vomiting (being 
 sick) or unable to drink fluids 
 * If you have an infection as it may hide a fever (which is a sign of infection) 
 * If you use medicines to reduce blood clotting (e.g. warfarin/warfarin like anticoagulants or novel 
@@ -134,25 +134,25 @@ Children and adolescents under the age of 18 should not be given Dynastat. </p>
 <p>Other medicines and Dynastat 
 Tell your doctor or nurse if you are taking, have recently taken or might take any other medicines. 
 Medicines can sometimes interfere with each other. Your doctor may reduce the dose of Dynastat or 
-other medicines, or you may need to take a different medicine. It’s especially important to mention: 
+other medicines, or you may need to take a different medicine. It s especially important to mention: 
 * Acetylsalicylic acid (aspirin) or other anti-inflammatory medicines 
-* Fluconazole – used for fungal infections 
-* ACE inhibitors, Angiotensin-II inhibitors, beta blockers and diuretics – used for high blood 
+* Fluconazole   used for fungal infections 
+* ACE inhibitors, Angiotensin-II inhibitors, beta blockers and diuretics   used for high blood 
 pressure and heart conditions 
-* Ciclosporin or Tacrolimus – used after transplants 
-* Warfarin – or other warfarin like medicines used to prevent blood clots including newer medicines 
+* Ciclosporin or Tacrolimus   used after transplants 
+* Warfarin   or other warfarin like medicines used to prevent blood clots including newer medicines 
 like apixaban, dabigatran, and rivaroxaban 
-* Lithium – used to treat depression 
-* Rifampicin – used for bacterial infections 
-* Antiarrhythmics – used to treat an irregular heartbeat 
-* Phenytoin or Carbamazepine – used for epilepsy 
-* Methotrexate – used for rheumatoid arthritis and cancer 
-* Diazepam – used for sedation and anxiety 
-* Omeprazole – used for treating ulcers </p>
+* Lithium   used to treat depression 
+* Rifampicin   used for bacterial infections 
+* Antiarrhythmics   used to treat an irregular heartbeat 
+* Phenytoin or Carbamazepine   used for epilepsy 
+* Methotrexate   used for rheumatoid arthritis and cancer 
+* Diazepam   used for sedation and anxiety 
+* Omeprazole   used for treating ulcers </p>
 <p>Pregnancy, breast-feeding and fertility 
 * Dynastat must not be used if you are in the last 3 months of pregnancy as it could harm your 
 unborn child or cause problems at delivery. It can cause kidney and heart problems in your unborn 
-baby. It may affect your and your baby’s tendency to bleed and cause labour to be later or longer 
+baby. It may affect your and your baby s tendency to bleed and cause labour to be later or longer 
 55<br />
 than expected. Dynastat should not be used during the first 6 months of pregnancy unless 
 absolutely necessary and advised by your doctor. If you need treatment during this period or while 
@@ -172,7 +172,7 @@ your doctor or nurse for advice before taking this medicine. </p>
 If the injection makes you feel dizzy or tired, do not drive or use machines until you feel better again. </p>
 <p>Dynastat contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per ml that is to say essentially 
-‘sodium-free’.  </p>         </div>"""   
+ sodium-free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dynastat"
@@ -185,7 +185,7 @@ and directly into a vein or into an existing intravenous line (a thin tube runni
 be given slowly and deeply into a muscle. You will only be given Dynastat for short periods, and only 
 for pain relief. </p>
 <p>The usual dose to start with is 40 mg. 
-You may be given another dose – either 20 mg or 40 mg – 6 to 12 hours after the first one. </p>
+You may be given another dose   either 20 mg or 40 mg   6 to 12 hours after the first one. </p>
 <p>You will not be given more than 80 mg in 24 hours. </p>
 <p>Some people may be given lower doses: 
 * People with liver problems 
@@ -206,25 +206,27 @@ reported with recommended doses. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>56<br />
-Stop taking Dynastat and tell your doctor immediately: 
-- if you develop a rash or ulceration in any part of your body (e.g. skin, mouth, eyes, face, lips or 
+Stop taking Dynastat and tell your doctor immediately:</p>
+<ul>
+<li>if you develop a rash or ulceration in any part of your body (e.g. skin, mouth, eyes, face, lips or 
 tongue), or develop any other signs of an allergic reaction such as skin rash, swelling of the 
-face, lips or tongue which may cause wheezing, difficulty breathing, or swallowing – this occurs 
-rarely 
-- if you have blistering or peeling of the skin - this occurs rarely 
-- the onset of skin reactions can occur at any time but most often occur in the first month of 
+face, lips or tongue which may cause wheezing, difficulty breathing, or swallowing   this occurs 
+rarely </li>
+<li>if you have blistering or peeling of the skin - this occurs rarely </li>
+<li>the onset of skin reactions can occur at any time but most often occur in the first month of 
 treatment; the reported rate of these events appears to be greater for valdecoxib, a medicine 
-related to parecoxib, as compared to other COX-2 inhibitors 
-- if you have jaundice (your skin or the whites of your eyes appear yellow) 
-- if you have any signs of bleeding in the stomach or intestine, such as passing a black or 
-blood-stained bowel movement or vomiting blood </p>
+related to parecoxib, as compared to other COX-2 inhibitors </li>
+<li>if you have jaundice (your skin or the whites of your eyes appear yellow) </li>
+<li>if you have any signs of bleeding in the stomach or intestine, such as passing a black or 
+blood-stained bowel movement or vomiting blood </li>
+</ul>
 <p>Very common: may affect more than 1 in 10 people 
 * Nausea (feeling sick) </p>
 <p>Common: may affect up to 1 in 10 people 
 * Change in your blood pressure (up or down) 
 * You may get back pain 
 * Ankles, legs and feet may swell (fluid retention) 
-* You may feel numb – your skin may lose sensitivity to pain and touch 
+* You may feel numb   your skin may lose sensitivity to pain and touch 
 * You may get vomiting, stomach ache, indigestion, constipation, bloating and wind 
 * Tests may show abnormal kidney function 
 * You may feel agitated or find it hard to sleep 
@@ -326,20 +328,20 @@ Belgium
 Manufacturer: Pfizer Manufacturing Belgium NV, Rijksweg 12, 2870 Puurs-Sint-Amands, Belgium </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
+T l/Tel: +32 (0)2 554 62<br />
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje. 
-Tel: +370 5 251 4 
-България<br />
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: +359 2 970 4 
-Magyarország 
+Tel: +370 5 251 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4 
+Magyarorsz g 
 Pfizer Kft. 
 Tel: +36 1 488 37<br />
-Česká republika 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
 Malta 
@@ -360,25 +362,24 @@ Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-PFIZER Ελλάς A.E. 
-Τηλ: +30 210 6785 
+<p>PFIZER   A.E. 
+ : +30 210 6785 
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5 
 France 
 Pfizer 
-Tél: +33 (0)1 58 07 34<br />
-România 
+T l: +33 (0)1 58 07 34<br />
+Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0)21 207 28<br />
 59<br />
@@ -387,19 +388,19 @@ Pfizer Croatia d.o.o.
 Tel: +385 1 3908<br />
 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)152 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 + 44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: +421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
+S mi: +354 540 8 
 Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358(0)9 43 00<br />
@@ -408,17 +409,16 @@ Pfizer S.r.l.
 Tel: +39 06 33 18<br />
 Sverige<br />
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Κύπρος 
-PFIZER Ελλάς Α.Ε. (Cyprus Branch)<br />
-Τηλ: +357 22817 
+Tel: +46 (0)8 550 520  </p>
+<p>PFIZER    . . (Cyprus Branch)<br />
+ : +357 22817 
 United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0)1304 616 
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā<br />
+Pfizer Luxembourg SARL fili le Latvij <br />
 Tel: +371 670 35  </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
 <p>&lt;------------------------------------------------------------------------------------------------------------------<br />
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

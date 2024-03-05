@@ -4,7 +4,7 @@ Instance: composition-en-341d92e7ebcda3c3a941ccdae62ee683
 InstanceOf: CompositionUvEpi
 Title: "Composition for ledaga Package Leaflet"
 Description:  "Composition for ledaga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,9 +71,9 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ledaga contains the active substance chlormethine. This is an anti-cancer medicine used on the skin to 
 treat mycosis fungoides-type cutaneous T-cell lymphoma (MF-type CTCL). </p>
-<p>MF-type CTCL is a condition in which certain cells of the body’s immune system called<br />
+<p>MF-type CTCL is a condition in which certain cells of the body s immune system called<br />
 T-lymphocytes become cancerous and affect the skin. Chlormethine is a type of anti-cancer medicine 
-called an ‘alkylating agent’. It attaches to the DNA of dividing cells, like cancer cells, which stops 
+called an  alkylating agent . It attaches to the DNA of dividing cells, like cancer cells, which stops 
 them from multiplying and growing. </p>
 <p>Ledaga is for use in adults only. </p>         </div>"""   
           
@@ -95,7 +95,7 @@ of the nostrils, the inside of the ear or on the lips. </li>
 <li>If Ledaga gets in your eyes, it can cause pain, burning, swelling, redness, sensitivity to light, and 
 blurred vision. It may also cause blindness and severe permanent injury to your eyes. If Ledaga 
 gets in your eyes, rinse your eyes right away for at least 15 minutes with large amounts of water, 
-a solution known as “0.9% sodium chloride solution” or an eye-wash solution, and seek medical 
+a solution known as  0.9% sodium chloride solution  or an eye-wash solution, and seek medical 
 assistance (including an eye doctor) as soon as possible. </li>
 <li>If this medicine gets in your mouth or nose, it can cause pain, redness, and ulcers that may be 
 severe. Rinse the affected area right away for at least 15 minutes with large amounts of water, 
@@ -129,7 +129,7 @@ ask your doctor for advice before taking this medicine. </p>
 <p>There is limited experience of chlormethine in pregnant women. Therefore, the use of this medicine is 
 not recommended during pregnancy and in women of childbearing age not using contraception. </p>
 <p>It is not known whether Ledaga passes into breast milk, and there may be a risk that the breast-feeding 
-baby is exposed to Ledaga via contact with the mother’s skin. Therefore, it is not recommended to 
+baby is exposed to Ledaga via contact with the mother s skin. Therefore, it is not recommended to 
 breast-feed while taking this medicine.You should talk to your doctor before breast-feeding to 
 determine whether or not it is best to breast-feed or to use Ledaga. </p>
 <p>Driving and using machines 
@@ -152,7 +152,7 @@ dose is the same for elderly patients (aged 65 years and older) as for younger a
 <p>Your doctor may stop your treatment if you develop severe inflammation of the skin (i.e., redness and 
 swelling), blisters and ulcers. Your doctor may restart the treatment upon improvement of your 
 symptoms. </p>
-<p>Instructions for use: </p>
+<p>Instructions for use:</p>
 <ul>
 <li>Use Ledaga exactly as your doctor or pharmacist tells you. </li>
 <li>Caregivers must wear disposable nitrile gloves when applying this medicine to patients (this is a 
@@ -200,7 +200,7 @@ Do not stop using your medicine until your doctor advises you to do so. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>STOP taking Ledaga and tell your doctor immediately if you experience allergic reactions 
 (hypersensitivity). </p>
-<p>These reactions may include some or all of the following symptoms: </p>
+<p>These reactions may include some or all of the following symptoms:</p>
 <ul>
 <li>Swelling of the lips, face, throat or tongue </li>
 <li>Rash </li>
@@ -209,14 +209,18 @@ Do not stop using your medicine until your doctor advises you to do so. </p>
 <p>Other side effects may include 
 Tell your doctor or pharmacist as soon as possible if you notice any of the following side effects listed 
 below. </p>
-<p>Very common side effects on the treatment area (may affect more than 1 in 10 people): 
-- Skin inflammation (dermatitis) 
-- Infections of the skin 
-- Itching (pruritus) </p>
-<p>Common side effects on the treatment area (may affect up to 1 in 10 people): 
-- Skin ulcers 
-- Blisters 
-- Darkening of the skin </p>
+<p>Very common side effects on the treatment area (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Skin inflammation (dermatitis) </li>
+<li>Infections of the skin </li>
+<li>Itching (pruritus) </li>
+</ul>
+<p>Common side effects on the treatment area (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Skin ulcers </li>
+<li>Blisters </li>
+<li>Darkening of the skin </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -231,7 +235,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the tube label and box after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (+2 °C to +8 °C) at all times, ensuring the tube is in the box inside the child-
+<p>Store in a refrigerator (+2  C to +8  C) at all times, ensuring the tube is in the box inside the child-
 resistant, transparent, sealable, plastic bag. </p>
 <p>Do not use an opened or unopened tube of Ledaga after 60 days of storage in the refrigerator. </p>
 <p>Ask your pharmacist how to throw away used nitrile gloves, the plastic bag and the medicine you no 
@@ -267,24 +271,23 @@ Mulhuddart
 Dublin Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Recordati 
-Tél/Tel: +32 2 46101<br />
+T l/Tel: +32 2 46101<br />
 Lietuva 
 Recordati AB. 
-Tel: + 46 8 545 80 Švedija </p>
-<p>България 
-Recordati Rare Diseases 
-Teл.: +33 (0)1 47 73 64 Франция </p>
+Tel: + 46 8 545 80  vedija </p>
+<p>Recordati Rare Diseases 
+Te .: +33 (0)1 47 73 64   </p>
 <p>Luxembourg/Luxemburg 
 Recordati 
-Tél/Tel: +32 2 46101 Belgique/Belgien 
-Česká republika 
+T l/Tel: +32 2 46101 Belgique/Belgien 
+ esk  republika 
 Recordati Rare Diseases 
 Tel: +33 (0)1 47 73 64 Francie </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Recordati Rare Diseases 
-Tel: +33 (0)1 47 73 64 Franciaország 
+Tel: +33 (0)1 47 73 64 Franciaorsz g 
 Danmark 
 Recordati AB. 
 Tlf: + 46 8 545 80 Sverige </p>
@@ -296,21 +299,20 @@ Recordati Rare Diseases Germany GmbH
 Tel: +49 731 140 554 0 </p>
 <p>Nederland 
 Recordati 
-Tel: +32 2 46101 België </p>
+Tel: +32 2 46101 Belgi  </p>
 <p>Eesti 
 Recordati AB. 
 Tel: + 46 8 545 80 Rootsi </p>
 <p>Norge 
 Recordati AB. 
-Tlf: + 46 8 545 80 Sverige 
-Ελλάδα 
-Recordati Hellas 
-Τηλ: +30 210 6773 
-Österreich 
+Tlf: + 46 8 545 80 Sverige </p>
+<p>Recordati Hellas 
+ : +30 210 6773 
+ sterreich 
 Recordati Rare Diseases Germany GmbH 
 Tel: +49 731 140 554 0 
 Deutschland </p>
-<p>España 
+<p>Espa a 
 Recordati Rare Diseases Spain S.L.U. 
 Tel: + 34 91 659 28<br />
 Polska 
@@ -318,36 +320,35 @@ Recordati Rare Diseases
 Tel: +33 (0)1 47 73 64 Francja </p>
 <p>France 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64<br />
+T l: +33 (0)1 47 73 64<br />
 Portugal 
 Jaba Recordati S.A. 
 Tel: +351 21 432 95 Hrvatska 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Francuska </p>
-<p>România 
+T l: +33 (0)1 47 73 64 Francuska </p>
+<p>Rom nia 
 Recordati Rare Diseases 
-Tel: +33 (0)1 47 73 64 Franţa 
+Tel: +33 (0)1 47 73 64 Fran a 
 Ireland 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 France </p>
+T l: +33 (0)1 47 73 64 France </p>
 <p>Slovenija 
 Recordati Rare Diseases 
 Tel: +33 (0)1 47 73 64 Francija 
-Ísland 
+ sland 
 Recordati AB. 
-Simi: + 46 8 545 80 Svíþjóð </p>
-<p>Slovenská republika 
+Simi: + 46 8 545 80 Sv j  </p>
+<p>Slovensk  republika 
 Recordati Rare Diseases 
-Tel: +33 (0)1 47 73 64 Francúzsko 
+Tel: +33 (0)1 47 73 64 Franc zsko 
 Italia 
 Recordati Rare Diseases Italy Srl 
 Tel: +39 02 487 87<br />
 Suomi/Finland 
 Recordati AB. 
 Puh/Tel : +46 8 545 80 Sverige </p>
-<p>Κύπρος 
-Recordati Rare Diseases 
-Τηλ : +33 1 47 73 64 Γαλλία </p>
+<p>Recordati Rare Diseases 
+  : +33 1 47 73 64   </p>
 <p>Sverige 
 Recordati AB. 
 Tel : +46 8 545 80 Latvija 
@@ -355,7 +356,7 @@ Recordati AB.
 Tel: + 46 8 545 80 Zviedrija 
 United Kingdom (Northern Ireland) 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 France </p>
+T l: +33 (0)1 47 73 64 France </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

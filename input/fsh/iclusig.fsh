@@ -4,7 +4,7 @@ Instance: composition-en-5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: CompositionUvEpi
 Title: "Composition for iclusig Package Leaflet"
 Description:  "Composition for iclusig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -131,7 +131,7 @@ The following medicines can affect or be affected by Iclusig:
 * indinavir, nelfinavir, ritonavir, saquinavir: medicines to treat HIV infection. 
 * clarithromycin, telithromycin, troleandomycin: medicines to treat bacterial infections. 
 * nefazodone: a medicine to treat depression. 
-* St. John’s wort: a herbal product used to treat depression.<br />
+* St. John s wort: a herbal product used to treat depression.<br />
 * carbamazepine: a medicine to treat epilepsy, euphoric/depressive stages and certain pain 
 conditions. 
 * phenobarbital, phenytoin: medicines to treat epilepsy. 
@@ -204,7 +204,7 @@ crush or dissolve the tablets. </p>
 <p>If you forget to take Iclusig </p>
 <p>Do not take a double dose to make up for a forgotten dose. Take your next dose at your regular time.  </p>
 <p>If you stop taking Iclusig </p>
-<p>Do not stop taking Iclusig without your doctor’s permission. </p>
+<p>Do not stop taking Iclusig without your doctor s permission. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -224,36 +224,38 @@ Symptoms are severe pain in the stomach and back.
 * fever, often with other signs of infection due to decreased number of white blood cells<br />
 * heart attack (symptoms include: sudden feeling of increased heart rate, chest pain, 
 breathlessness) 
-* changes in blood levels:<br />
-- decreased number of red blood cells (symptoms include: weakness, dizziness, fatigue) 
-- decreased number of blood platelets (symptoms include: increased tendency to bleed or 
-bruise) 
-- decreased number of white blood cells called neutrophilis (symptoms include: increase 
-tendency of infection) 
-- increased level of the serum protein known as lipase 
-* a heart rhythm disorder, abnormal pulse 
-* heart failure (symptoms include: weakness, fatigue, swollen legs) 
-* uncomfortable pressure, fullness, squeezing or pain in the centre of the chest (Angina pectoris) 
-and chest pain not in connection with the heart 
-* high blood pressure 
-* narrowing of the arteries in the brain 
-* problems of the blood vessels in the heart muscle 
-* blood infection 
-* swollen, or red area of skin that feels hot and tender (cellulitis) 
-* dehydration 
-* breathing difficulties 
-* fluid in the thorax (may cause breathing difficulty) 
-* diarrhoea 
-* blood clot in a deep vein, sudden vein obstruction, blood clot in a blood vessel of the lung 
-(symptoms include: hot flush, flushing, redness of the face, breathing difficulty) 
-* stroke (symptoms include: difficulty to speak or move, sleepiness, migraine, abnormal 
-sensations) 
-* blood circulation problems (symptoms include: pain in the legs or arms, coldness of the 
-extremities of the limbs) 
-* blood clot in the main arteries carrying blood to the head or neck (carotid artery) 
-* constipation 
-* sodium decrease in the blood 
-* increased tendency to bleed or bruise </p>
+* changes in blood levels:</p>
+<ul>
+<li>decreased number of red blood cells (symptoms include: weakness, dizziness, fatigue) </li>
+<li>decreased number of blood platelets (symptoms include: increased tendency to bleed or 
+bruise) </li>
+<li>decreased number of white blood cells called neutrophilis (symptoms include: increase 
+tendency of infection) </li>
+<li>increased level of the serum protein known as lipase </li>
+<li>a heart rhythm disorder, abnormal pulse </li>
+<li>heart failure (symptoms include: weakness, fatigue, swollen legs) </li>
+<li>uncomfortable pressure, fullness, squeezing or pain in the centre of the chest (Angina pectoris) 
+and chest pain not in connection with the heart </li>
+<li>high blood pressure </li>
+<li>narrowing of the arteries in the brain </li>
+<li>problems of the blood vessels in the heart muscle </li>
+<li>blood infection </li>
+<li>swollen, or red area of skin that feels hot and tender (cellulitis) </li>
+<li>dehydration </li>
+<li>breathing difficulties </li>
+<li>fluid in the thorax (may cause breathing difficulty) </li>
+<li>diarrhoea </li>
+<li>blood clot in a deep vein, sudden vein obstruction, blood clot in a blood vessel of the lung 
+(symptoms include: hot flush, flushing, redness of the face, breathing difficulty) </li>
+<li>stroke (symptoms include: difficulty to speak or move, sleepiness, migraine, abnormal 
+sensations) </li>
+<li>blood circulation problems (symptoms include: pain in the legs or arms, coldness of the 
+extremities of the limbs) </li>
+<li>blood clot in the main arteries carrying blood to the head or neck (carotid artery) </li>
+<li>constipation </li>
+<li>sodium decrease in the blood </li>
+<li>increased tendency to bleed or bruise </li>
+</ul>
 <p>Other possible side effects that may occur with the following frequencies are: </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
 * upper airway infection (may cause breathing difficulty) 
@@ -262,17 +264,19 @@ extremities of the limbs)
 * headache, dizziness 
 * cough 
 * diarrhoea, vomiting, nausea<br />
-</em> increased blood levels of several liver enzymes called: 
-- alanine aminotransferase 
-- aspartate aminotransferase 
-* rash, dry skin, itching 
-* pain in bones, joints, pain in muscles, back, arms or legs, muscle spasms 
-* fatigue, accumulation of fluid in arms and/or legs, fever, pain </p>
+</em> increased blood levels of several liver enzymes called:</p>
+<ul>
+<li>alanine aminotransferase </li>
+<li>aspartate aminotransferase </li>
+<li>rash, dry skin, itching </li>
+<li>pain in bones, joints, pain in muscles, back, arms or legs, muscle spasms </li>
+<li>fatigue, accumulation of fluid in arms and/or legs, fever, pain </li>
+</ul>
 <p>Common side effects (may affect up to 1 in 10 people): 
 * inflammation of hair follicles, swollen, red area of skin or underneath skin that feels hot and 
 tender 
 * decreased activity of thyroid gland<br />
-<em> fluid retention 
+* fluid retention 
 * low calcium, phosphate or potassium levels in the blood 
 * increased blood sugar or uric acid levels in the blood, high blood fat values of triglycerides 
 * weight loss 
@@ -288,22 +292,24 @@ and itchiness
 rest 
 * hot flush, flushing 
 * nosebleed, difficulty producing voice sounds, hypertension in the lungs 
-* increased blood levels of liver and pancreatic enzymes: 
-- amylase 
-- alkaline phosphatase 
-- gamma-glutamyltransferase 
-* heartburn caused by reflux of stomach juices, inflammation in the mouth, abdominal swelling or 
-discomfort or indigestion, dry mouth 
-* stomach bleeding (symptoms include: stomach pain, vomiting blood) 
-* increased blood level of bilirubin - the yellow breakdown substance of the blood pigment 
-(symptoms include: dark amber urine) 
-* pain in skeletal system or neck<br />
-</em> skin rash, peeling of the skin, abnormal thickening of the skin, redness, bruising, skin pain, 
-changes in skin colour, hair loss<br />
-* tissue swelling in face caused by excess fluid 
-* night sweats, increased sweating 
-* inability to develop or maintain an erection 
-* chills, flu-like illness </p>
+* increased blood levels of liver and pancreatic enzymes:</p>
+<ul>
+<li>amylase </li>
+<li>alkaline phosphatase </li>
+<li>gamma-glutamyltransferase </li>
+<li>heartburn caused by reflux of stomach juices, inflammation in the mouth, abdominal swelling or 
+discomfort or indigestion, dry mouth </li>
+<li>stomach bleeding (symptoms include: stomach pain, vomiting blood) </li>
+<li>increased blood level of bilirubin - the yellow breakdown substance of the blood pigment 
+(symptoms include: dark amber urine) </li>
+<li>pain in skeletal system or neck  </li>
+<li>skin rash, peeling of the skin, abnormal thickening of the skin, redness, bruising, skin pain, 
+changes in skin colour, hair loss  </li>
+<li>tissue swelling in face caused by excess fluid </li>
+<li>night sweats, increased sweating </li>
+<li>inability to develop or maintain an erection </li>
+<li>chills, flu-like illness </li>
+</ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people): 
 * metabolic disorders caused by the break-down products of dying cancer cells 
 * bleeding in the brain 
@@ -358,7 +364,7 @@ Each 30 mg film-coated tablet contains 30 mg ponatinib (as ponatinib hydrochlori
 Each 45 mg film-coated tablet contains 45 mg ponatinib (as ponatinib hydrochloride). </li>
 <li>The other ingredients are lactose monohydrate, microcrystalline cellulose, sodium starch 
 glycolate, silica (colloidal anhydrous), magnesium stearate, talc, macrogol 4000, polyvinyl 
-alcohol, titanium dioxide (E171). See section 2 “Iclusig contains lactose”. </li>
+alcohol, titanium dioxide (E171). See section 2  Iclusig contains lactose . </li>
 </ul>
 <p>What Iclusig looks like and contents of the pack </p>
 <p>Iclusig film-coated tablets are white, round and rounded on the upper and lower side. 

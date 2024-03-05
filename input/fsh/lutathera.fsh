@@ -4,7 +4,7 @@ Instance: composition-en-f671edcc4f8d6bccb96aa87657eaa0a4
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutathera Package Leaflet"
 Description:  "Composition for lutathera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,48 +98,56 @@ medicine (listed in section 6).
 pregnant. 
 - if your kidneys are seriously impaired. </p>
 <p>Warnings and precautions 
-Talk to your doctor before you are given Lutathera as it may cause: 
-- secondary blood cancer (myelodysplastic syndrome or acute leukaemia), which can occur in 
-rare cases several years after completion of Lutathera treatment. </p>
+Talk to your doctor before you are given Lutathera as it may cause:</p>
+<ul>
+<li>secondary blood cancer (myelodysplastic syndrome or acute leukaemia), which can occur in 
+rare cases several years after completion of Lutathera treatment. </li>
+</ul>
 <p>If any of these apply to you before or during treatment with Lutathera, tell your doctor or other 
-healthcare professional: 
-- if you have or have had weakness, tiredness, shortness of breath, poor concentration, infections, 
+healthcare professional:</p>
+<ul>
+<li>if you have or have had weakness, tiredness, shortness of breath, poor concentration, infections, 
 fever, bleeding or bruising more easily than normal or difficulty to stop bleeding (signs and 
-symptoms of myelosuppression). 
-- if you have had any other type of cancer in the last 5 years, bone metastasis, or previous 
-anti-cancer treatment (chemotherapy) or radiation therapy. 
-- if you have or have had swollen feet and ankles, too much urine or not enough urine, itching or 
-trouble catching your breath (signs and symptoms of chronic kidney disease). 
-- if you have or have had itchy yellow skin, yellowing of the whites of your eyes, nausea or 
+symptoms of myelosuppression). </li>
+<li>if you have had any other type of cancer in the last 5 years, bone metastasis, or previous 
+anti-cancer treatment (chemotherapy) or radiation therapy. </li>
+<li>if you have or have had swollen feet and ankles, too much urine or not enough urine, itching or 
+trouble catching your breath (signs and symptoms of chronic kidney disease). </li>
+<li>if you have or have had itchy yellow skin, yellowing of the whites of your eyes, nausea or 
 vomiting, tiredness, loss of appetite, pain in the upper right side of your stomach area 
 (abdomen), dark or brown urine, or bleeding or bruising more easily than normal (signs and 
-symptoms of liver disease). 
-- if you have breathlessness, weakness, numbness, chest pain, palpitations or abnormal heart 
-rhythm (signs and symptoms of high potassium levels in blood, also known as hyperkalaemia). 
-- if you have breathlessness, difficulty breathing when lying down or swelling of the feet or legs 
-(signs and symptoms of heart failure). 
-- if your kidney or urinary tract is not correctly developed. 
-- if you are suffering from urinary incontinence. </p>
+symptoms of liver disease). </li>
+<li>if you have breathlessness, weakness, numbness, chest pain, palpitations or abnormal heart 
+rhythm (signs and symptoms of high potassium levels in blood, also known as hyperkalaemia). </li>
+<li>if you have breathlessness, difficulty breathing when lying down or swelling of the feet or legs 
+(signs and symptoms of heart failure). </li>
+<li>if your kidney or urinary tract is not correctly developed. </li>
+<li>if you are suffering from urinary incontinence. </li>
+</ul>
 <p>Tell your doctor or other healthcare professional right away if you experience any of the following 
-after the start of Lutathera treatment: 
-- facial/throat swelling and/or difficulty breathing (signs and symptoms of angioedema). 
-- flushing, diarrhoea, difficulty breathing with wheezing or coughing, dizziness, light-headedness 
+after the start of Lutathera treatment:</p>
+<ul>
+<li>facial/throat swelling and/or difficulty breathing (signs and symptoms of angioedema). </li>
+<li>flushing, diarrhoea, difficulty breathing with wheezing or coughing, dizziness, light-headedness 
 (signs and symptoms of neuroendocrine hormone crisis), which may appear within the first 
-24 hours after Lutathera administration. 
-- if you feel tired, loss of appetite, feel changes in your heartbeat, have trouble thinking clearly 
-(signs and symptoms of metabolic acidosis). 
-- if you have muscle cramping, muscle weakness, confusion or shortness of breath (signs and 
+24 hours after Lutathera administration. </li>
+<li>if you feel tired, loss of appetite, feel changes in your heartbeat, have trouble thinking clearly 
+(signs and symptoms of metabolic acidosis). </li>
+<li>if you have muscle cramping, muscle weakness, confusion or shortness of breath (signs and 
 symptoms of tumour lysis syndrome). Treatment with Lutathera (lutetium (177Lu) 
 oxodotreotide) may cause tumour lysis syndrome, due to the rapid breakdown of tumour cells. 
 This may result in abnormal blood test results, irregular heartbeat, kidney failure or seizures 
-within a week of treatment. Your doctor will order blood tests to monitor you for this syndrome. </p>
+within a week of treatment. Your doctor will order blood tests to monitor you for this syndrome. </li>
+</ul>
 <p>Unless your doctor has considered that the clinical benefit of the treatment outweighs the possible 
-risks, you will not be given this medicine: 
-- if you have ever received external radiation therapy on more than 25% of your bone marrow. 
-- if your heart is seriously impaired. 
-- if you have seriously affected blood cell counts. 
-- if your liver is seriously impaired. 
-- if it appears that your tumour does not have sufficient somatostatin receptors. </p>
+risks, you will not be given this medicine:</p>
+<ul>
+<li>if you have ever received external radiation therapy on more than 25% of your bone marrow. </li>
+<li>if your heart is seriously impaired. </li>
+<li>if you have seriously affected blood cell counts. </li>
+<li>if your liver is seriously impaired. </li>
+<li>if it appears that your tumour does not have sufficient somatostatin receptors. </li>
+</ul>
 <p>Before administration of Lutathera you should 
 - drink plenty of water in order to urinate as often as possible during the first hours after the 
 infusion. </p>
@@ -208,7 +216,7 @@ an antiemetic before the start of the treatment that will help to reduce these s
 <p>Duration of the administration procedure 
 Your nuclear medicine doctor or other healthcare professional will inform you about the usual 
 duration of the procedure. 
-The infusion of Lutathera takes 30 ±10 minutes, but the complete administration procedure will take 
+The infusion of Lutathera takes 30  10 minutes, but the complete administration procedure will take 
 approximately 5 hours. Your doctor will regularly monitor your condition during the administration. </p>
 <p>Treatment monitoring 
 Treatment with Lutathera can have an impact on blood cells, liver and kidneys (see section 4). Your 
@@ -240,21 +248,25 @@ Furthermore, drink frequently and try to urinate as often as possible on the day
 and on the day after. Follow the advice of your doctor or other healthcare professional on how much 
 fluid to drink. </p>
 <p>Take special precautions to avoid contamination during the 7 days after treatment (these apply to all 
-patients, regardless of gender): 
-- You must always sit when using the toilet. 
-- It is essential that you use toilet paper every time you use the toilet. 
-- Always wash your hands well after using the toilet. 
-- Flush all wipes and/or toilet paper down the toilet immediately after use. 
-- Flush any tissues or any other items that contain bodily waste, such as blood, urine and faeces 
+patients, regardless of gender):</p>
+<ul>
+<li>You must always sit when using the toilet. </li>
+<li>It is essential that you use toilet paper every time you use the toilet. </li>
+<li>Always wash your hands well after using the toilet. </li>
+<li>Flush all wipes and/or toilet paper down the toilet immediately after use. </li>
+<li>Flush any tissues or any other items that contain bodily waste, such as blood, urine and faeces 
 down the toilet. Items that cannot be flushed down the toilet, such as sanitary pads and 
-bandages, must be placed in separate plastic waste disposal plastic bags (according to “Waste 
-disposal recommendations” below). </p>
+bandages, must be placed in separate plastic waste disposal plastic bags (according to  Waste 
+disposal recommendations  below). </li>
+</ul>
 <p>Showering and laundry 
-Take special precautions during the 7 days after treatment: 
-- Take a shower every day, 
-- Wash your underwear, pyjamas, sheets and any clothes that contain sweat, blood or urine 
+Take special precautions during the 7 days after treatment:</p>
+<ul>
+<li>Take a shower every day, </li>
+<li>Wash your underwear, pyjamas, sheets and any clothes that contain sweat, blood or urine 
 separately from the laundry of other members of your household, using a standard washing 
-cycle. You do not need to use bleach and do not need extra rinses. </p>
+cycle. You do not need to use bleach and do not need extra rinses. </li>
+</ul>
 <p>People with reduced mobility 
 People who are confined to bed or have reduced mobility will preferably receive assistance from a 
 care provider. It is recommended that when providing assistance in the bathroom, the care provider 
@@ -262,7 +274,7 @@ wears disposable gloves for the 7 days after administration. Any special medical
 be contaminated by your bodily fluids (e.g. catheters, colostomy bags, bedpans, water nozzles) must 
 be emptied immediately into the toilet and then cleaned. Carers who clean up vomit, blood, urine or 
 faeces should wear plastic gloves, which should be disposed of in a separate plastic waste disposal bag 
-(see “Waste disposal recommendations” below). </p>
+(see  Waste disposal recommendations  below). </p>
 <p>Waste disposal recommendations 
 All items to be thrown away should be discarded in a separate plastic waste disposal bag to be used 
 only for this purpose. Keep the plastic waste disposal bags separate from other household waste and 
@@ -501,18 +513,15 @@ discomfort)
 <p>During Lutathera treatment, you may also have side effects of abnormal blood test results, 
 which can give your doctor information on the functioning of some parts of your body </p>
 <p>Common: may affect up to 1 in every 10 people 
-* High level of the following enzymes: 
-o 
+* High level of the following enzymes: * 
 Gamma-glutamyltransferase, alanine aminotransferase, aspartate aminotransferase, blood 
 alkaline phosphatase 
 * High level of blood creatinine 
 * Low levels of magnesium and sodium in the blood </p>
 <p>Uncommon: may affect up to 1 in every 100 people 
-* High level of the following enzymes: 
-o 
+* High level of the following enzymes: * 
 Creatine phosphokinase in the blood that may indicate muscle damage, such as of the 
-heart 
-o 
+heart * 
 Lactate dehydrogenase in the blood that gives information about the health of certain 
 organs 
 * Low levels of potassium, phosphate, calcium and albumin in the blood 
@@ -550,7 +559,7 @@ The following information is intended for the specialist only:
 * Keep this medicine out of the sight and reach of children. 
 * Lutathera must not be used after the expiry date and time which are stated on the label after 
 EXP. 
-* Store below 25 ºC. Do not freeze. 
+* Store below 25  C. Do not freeze. 
 * Store in the original package to protect from ionising radiation (lead shielding). </p>         </div>"""      
         
         
@@ -563,8 +572,8 @@ EXP.
 - The active substance is lutetium (177Lu) oxodotreotide. One mL of solution for infusion contains 
 370 MBq lutetium (177Lu) oxodotreotide at the date and time of calibration. 
 - The other ingredients are: acetic acid, sodium acetate, gentisic acid, ascorbic acid, pentetic acid, 
-sodium chloride, sodium hydroxide, water for injections (see section 2 “Lutathera contains 
-sodium”). </p>
+sodium chloride, sodium hydroxide, water for injections (see section 2  Lutathera contains 
+sodium ). </p>
 <p>What Lutathera looks like and contents of the pack 
 Lutathera is a clear, colourless to slightly yellow solution for infusion, supplied in a clear, colourless 
 type I glass vial, closed with a bromobutyl rubber stopper and sealed with an aluminium seal. 
@@ -577,9 +586,9 @@ Advanced Accelerator Applications
 92500 Rueil-Malmaison 
 France </p>
 <p>Manufacturer 
-Advanced Accelerator Applications Ibérica, S.L.U. 
-Polígono Industrial la Cuesta – Sector 3 
-Parcelas 1 y 2 La Almunia de Doña Godina 
+Advanced Accelerator Applications Ib rica, S.L.U. 
+Pol gono Industrial la Cuesta   Sector 3 
+Parcelas 1 y 2 La Almunia de Do a Godina 
 50100 Zaragoza 
 Spain </p>
 <p>Advanced Accelerator Applications (Italy) S.r.l 
@@ -588,24 +597,23 @@ Via Ribes 5
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SAM Nordic 
-Švedija 
-Tel: +46 8 720 58<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+ vedija 
+Tel: +46 8 720 58  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 M.G.P. spol. s r.o. 
 Tel: +420 602 303<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65<br />
 Danmark 
 SAM Nordic 
@@ -625,14 +633,12 @@ Tel: +46 8 720 58<br />
 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58<br />
-Ελλάδα 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Τηλ: +30 22920 63 
-Österreich 
+Tlf: +46 8 720 58  </p>
+<p>: +30 22920 63 
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Advanced Accelerator Applications Ibérica, 
+Tel: +43 1 86 6Espa a 
+Advanced Accelerator Applications Ib rica, 
 S.L.U. 
 Tel: +34 97 6600<br />
 Polska 
@@ -641,14 +647,14 @@ o.o.
 Tel.: +48 22 275 56<br />
 France 
 Advanced Accelerator Applications 
-Tél: +33 1 55 47 63<br />
+T l: +33 1 55 47 63<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
@@ -656,11 +662,11 @@ Tel: +353 1 260 12 Slovenija
 Advanced Accelerator Applications 
 Francija 
 Tel: +33 1 55 47 63<br />
-Ísland 
+ sland 
 SAM Nordic 
-Svíþjóð 
-Sími: +46 8 720 58<br />
-Slovenská republika 
+Sv j<br />
+S mi: +46 8 720 58<br />
+Slovensk  republika 
 MGP, spol. s r.o. 
 Tel: +421 254 654<br />
 Italia 
@@ -669,11 +675,8 @@ Tel: +39 0125 561
 Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58<br />
-Κύπρος 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Ελλάδα 
-Τηλ: +30 22920 63 
+Puh/Tel: +46 8 720 58  </p>
+<p>: +30 22920 63 
 Sverige 
 SAM Nordic 
 Tel: +46 8 720 58<br />

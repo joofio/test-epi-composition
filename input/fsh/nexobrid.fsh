@@ -4,7 +4,7 @@ Instance: composition-en-9af2a44fa579cd6ab6e3934e61bad8e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexobrid Package Leaflet"
 Description:  "Composition for nexobrid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,8 +70,8 @@ Usage: #example
   * code.text =  "1. What nexobrid is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NexoBrid is 
-NexoBrid contains a mixture of enzymes called “concentrate of proteolytic enzymes enriched in 
-bromelain”, which is produced from an extract from the stem of the pineapple plant. </p>
+NexoBrid contains a mixture of enzymes called  concentrate of proteolytic enzymes enriched in 
+bromelain , which is produced from an extract from the stem of the pineapple plant. </p>
 <p>What NexoBrid is used for 
 NexoBrid is used in adults, adolescents and children of all ages to remove burnt tissue from deep or 
 partially deep burn wounds of the skin.<br />
@@ -85,14 +85,16 @@ transplantation. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take nexobrid"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NexoBrid must not be used: 
-- if you or your child are allergic to bromelain 
-- if you or your child are allergic to pineapples 
-- if you or your child are allergic to papaya/papain 
-- if you or your child are allergic to any of the other ingredients of the powder or gel (listed in section 
-6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NexoBrid must not be used:</p>
+<ul>
+<li>if you or your child are allergic to bromelain </li>
+<li>if you or your child are allergic to pineapples </li>
+<li>if you or your child are allergic to papaya/papain </li>
+<li>if you or your child are allergic to any of the other ingredients of the powder or gel (listed in section 
+6). </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor or nurse before NexoBrid is used if: </p>
+Talk to your doctor or nurse before NexoBrid is used if:</p>
 <ul>
 <li>you or your child have a heart disease; </li>
 <li>you or your child have diabetes; </li>
@@ -118,7 +120,7 @@ less likely. </li>
 and possibly to general infection. You or your child may be checked regularly for these conditions and<br />
 may receive medicines to prevent or treat infections. </p>
 <p>NexoBrid may reduce the ability of the blood to form clots, which increases the risk of bleeding. NexoBrid 
-should be used with caution if you or your child are treated with medicines that reduce the blood’s ability 
+should be used with caution if you or your child are treated with medicines that reduce the blood s ability 
 to form clots (so-called blood-thinners) or if you or your child have a general tendency to bleed, a stomach 
 ulcer, blood poisoning, or another condition that could cause you or your child to bleed. After treatment 
 with NexoBrid your doctor may check blood coagulation levels. </p>
@@ -136,10 +138,12 @@ Tell your doctor if you or your child are taking, have recently taken or might t
 <p>Your doctor will be cautious and watch for signs of reduced blood coagulation or bleeding when 
 prescribing other medicines that affect blood coagulation, because NexoBrid may reduce blood 
 coagulation. </p>
-<p>NexoBrid may: 
-- increase the effects of certain medicines that are inactivated by a liver enzyme called CYP2C8 and 
-CYP2C9. This is because NexoBrid can be absorbed from the burn wound into the blood stream. </p>
-<p>Examples of such medicines are:  </p>
+<p>NexoBrid may:</p>
+<ul>
+<li>increase the effects of certain medicines that are inactivated by a liver enzyme called CYP2C8 and 
+CYP2C9. This is because NexoBrid can be absorbed from the burn wound into the blood stream. </li>
+</ul>
+<p>Examples of such medicines are:</p>
 <ul>
 <li>
 <p>amiodarone (used to treat certain forms of irregular heartbeat), </p>
@@ -168,7 +172,7 @@ CYP2C9. This is because NexoBrid can be absorbed from the burn wound into the bl
 <li>
 <p>phenytoin (used to treat epilepsy). </p>
 </li>
-<li>intensify your or your child’s reaction to the cancer medicines fluorouracil and vincristine. </li>
+<li>intensify your or your child s reaction to the cancer medicines fluorouracil and vincristine. </li>
 <li>cause an unwanted drop in blood pressure when you or your child are treated with medicines called 
 ACE inhibitors, which are used to treat high blood pressure and other conditions.  </li>
 <li>increase drowsiness when used at the same time with medicines that can cause drowsiness. These 
@@ -193,35 +197,27 @@ your doctor or pharmacist before this medicine is used. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NexoBrid is for use by specialists in burn clinics only. It will be prepared directly before use and applied by 
 a doctor or another healthcare professional.  </p>
 <p>2 g NexoBrid powder mixed in 20 g gel is applied 1.5 to 3 millimetres thick to a burn wound area of 1 
-percent of an adult patient’s body surface. </p>
+percent of an adult patient s body surface. </p>
 <p>It should be left for 4 hours, and then be removed. A second and subsequent application is not 
 recommended.  </p>
-<p>•<br />
-NexoBrid should not be applied to more than 15% of the total body surface in adults and 
-children/adolescents from 4 – 18 years. 
-•<br />
-In children aged 0-3 years this medicine should not be applied to more than 10% of the total body </p>
+<p>NexoBrid should not be applied to more than 15% of the total body surface in adults and 
+children/adolescents from 4   18 years. </p>
+<p>In children aged 0-3 years this medicine should not be applied to more than 10% of the total body </p>
 <p>surface. </p>
 <p>Instructions for the preparation of the NexoBrid gel are given at the end of this leaflet in the section 
 intended for medical or healthcare professionals. </p>
 <p>Before it is applied to a burn wound, NexoBrid powder is mixed into a gel. It should be used within 
 15 minutes after mixing. </p>
-<p>•<br />
-NexoBrid will be applied to a wound area that is clean, blister free, and moist. </p>
-<p>•<br />
-Other medicines (such as silver sulfadiazine or povidone-iodine) will be removed from the wound 
+<p>NexoBrid will be applied to a wound area that is clean, blister free, and moist. </p>
+<p>Other medicines (such as silver sulfadiazine or povidone-iodine) will be removed from the wound 
 area before NexoBrid is applied. </p>
-<p>•<br />
-Before NexoBrid application, a dressing soaked with an antibacterial solution will be applied for 
+<p>Before NexoBrid application, a dressing soaked with an antibacterial solution will be applied for 
 2 hours. </p>
-<p>•<br />
-You or your child will be given appropriate medicine to prevent and treat pain at least 15 minutes 
+<p>You or your child will be given appropriate medicine to prevent and treat pain at least 15 minutes 
 before NexoBrid is applied and before removal.  </p>
-<p>•<br />
-After NexoBrid and the dead tissue have been removed from the wound, a dressing soaked with an 
+<p>After NexoBrid and the dead tissue have been removed from the wound, a dressing soaked with an 
 antibacterial solution will be applied for an additional 2 hours. </p>
-<p>•<br />
-The vial containing powder, gel bottle, and the prepared mixed gel are for single use only. </p>
+<p>The vial containing powder, gel bottle, and the prepared mixed gel are for single use only. </p>
 <p>If too much NexoBrid is used<br />
 If too much NexoBrid gel is applied on a burn wound, excess gel may be wiped off. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
@@ -267,8 +263,8 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use NexoBrid after the expiry date which is stated on the label of the vial, bottle, and box after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2°C-8°C). </p>
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Store and transport refrigerated (2 C-8 C). </p>
 <p>NexoBrid must be stored upright to keep the gel at the bottom of the bottle and in the original package to 
 protect from light. 
 Do not freeze.  </p>
@@ -286,10 +282,8 @@ away medicines you no longer use. These measures will help protect the environme
 - The active substance (in the powder in the vial) is a concentrate of proteolytic enzymes enriched in 
 bromelain: one vial contains 2 g, corresponding to 0.09 g/g concentrate of proteolytic enzymes 
 enriched in bromelain after mixing.<br />
-- The other ingredients are:<br />
-o 
-for the powder: ammonium sulphate and acetic acid<br />
-o 
+- The other ingredients are:  * 
+for the powder: ammonium sulphate and acetic acid  * 
 and for the gel carbomer 980, disodium phosphate anhydrous, sodium hydroxide, and water 
 for injections. </p>
 <p>What NexoBrid looks like and contents of the pack 
@@ -299,12 +293,12 @@ This medicinal product is provided as a powder and gel for gel (powder in a vial
 <p>For any information about this medicine, please contact the Marketing Authorisation holder. </p>
 <p>Marketing Authorisation Holder  </p>
 <p>MediWound Germany GmbH 
-Hans-Sachs-Strasse 65428 Rüsselsheim 
+Hans-Sachs-Strasse 65428 R sselsheim 
 Germany 
 e-mail: info@mediwound.com </p>
 <p>Manufacturer 
 Diapharm GmbH &amp; Co. KG<br />
-Am Mittelhafen 56 48155 Münster<br />
+Am Mittelhafen 56 48155 M nster<br />
 Germany </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 

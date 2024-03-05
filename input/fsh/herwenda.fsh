@@ -4,7 +4,7 @@ Instance: composition-en-0f6a84278808352360adad06f9595bc9
 InstanceOf: CompositionUvEpi
 Title: "Composition for herwenda Package Leaflet"
 Description:  "Composition for herwenda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -150,7 +150,7 @@ experience symptoms, such as dizziness, sleepiness, chills or fever, you should 
 machines until these symptoms disappear. </p>
 <p>Herwenda contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take herwenda"
@@ -163,10 +163,10 @@ by a doctor or nurse. Your doctor will prescribe a dose and treatment regimen th
 dose of Herwenda depends on your body weight. </p>
 <p>Herwenda intravenous formulation is not for subcutaneous use and should be given as an intravenous 
 infusion only. </p>
-<p>Herwenda is given as an intravenous infusion (“drip”) directly into your veins. The first dose of your 
+<p>Herwenda is given as an intravenous infusion ( drip ) directly into your veins. The first dose of your 
 treatment is given over 90 minutes and you will be observed by a health professional while it is being 
 given in case you have any side effects. If the first dose is well tolerated, the next doses may be given 
-over 30 minutes (see section 2 under “Warnings and precautions”). The number of infusions you 
+over 30 minutes (see section 2 under  Warnings and precautions ). The number of infusions you 
 receive will depend on how you respond to the treatment. Your doctor will discuss this with you. </p>
 <p>For early breast cancer, metastatic breast cancer and metastatic gastric cancer, Herwenda is given 
 every 3 weeks. Herwenda may also be given once a week for metastatic breast cancer. </p>
@@ -194,8 +194,8 @@ common (may affect more than 1 in 10 people). Other infusion-related symptoms ar
 (nausea), vomiting, pain, increased muscle tension and shaking, headache, dizziness, breathing 
 difficulties, high or low blood pressure, heart rhythm disturbances (palpitations, heart fluttering or 
 irregular heart beat), swelling of the face and lips, rash and feeling tired. Some of these symptoms can 
-be serious and some patients have died (see section 2 under “Warnings and precautions”). </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+be serious and some patients have died (see section 2 under  Warnings and precautions ). </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 healthcare professional during the infusion and for at least six hours after the start of the first infusion 
 and for two hours after the start of other infusions. If you develop a reaction, they will slow down or 
@@ -344,11 +344,11 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C).  </p>
+<p>Store in a refrigerator (2  C   8  C).  </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions prior to use are the responsibility of the user, and would not normally be longer 
-than 24 hours at 2 °C – 8 °C. Do not freeze the reconstituted solution. </p>
+than 24 hours at 2  C   8  C. Do not freeze the reconstituted solution. </p>
 <p>Do not use this medicine if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -364,7 +364,7 @@ throw away medicines you no longer use. These measures will help protect the env
 dissolved in 7.2 mL of water for injections. The resulting solution contains approximately 
 21 mg/mL trastuzumab. </p>
 <ul>
-<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine, α,α-trehalose 
+<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine,  , -trehalose 
 dihydrate, polysorbate 20 (E 432). </li>
 </ul>
 <p>What Herwenda looks like and contents of the pack </p>
@@ -377,10 +377,10 @@ Biochemiestr. 6250 Kundl
 Austria </p>
 <p>Manufacturer<br />
 Novartis Pharma GmbH 
-Roonstraße 90429 Nuremberg 
+Roonstra e 90429 Nuremberg 
 Germany </p>
-<p>Novartis Farmacéutica, S.A. 
-Gran Vía de les Corts Catalanes, 08013 Barcelona 
+<p>Novartis Farmac utica, S.A. 
+Gran V a de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

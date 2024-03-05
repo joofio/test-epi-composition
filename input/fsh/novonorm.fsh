@@ -4,7 +4,7 @@ Instance: composition-en-3d8be59753418e73dbd90a9360e898ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for novonorm Package Leaflet"
 Description:  "Composition for novonorm Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -115,8 +115,14 @@ doctor will advise you. </p>
 <p>You may get a hypo (short for hypoglycaemia) if your blood sugar gets too low. This may happen: 
 * If you take too much NovoNorm 
 * If you exercise more than usual 
-* If you take other medicines or suffer from liver or kidney problems (see other sections of 2. What you need to know before you take NovoNorm). </p>
-<p>The warning signs of a hypo may come on suddenly and can include: cold sweat; cool pale skin; 
+* If you take other medicines or suffer from liver or kidney problems (see other sections of </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take novonorm"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take novonorm"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The warning signs of a hypo may come on suddenly and can include: cold sweat; cool pale skin; 
 headache; rapid heart beat; feeling sick; feeling very hungry; temporary changes in vision; 
 drowsiness; unusual tiredness and weakness; nervousness or tremor; feeling anxious; feeling 
 confused; difficulty in concentrating. 
@@ -146,16 +152,16 @@ medicines.
 You can take NovoNorm with metformin, another medicine for diabetes, if your doctor prescribes it. 
 If you take gemfibrozil (used to lower increased fat levels in the blood) you should not take 
 NovoNorm. </p>
-<p>Your body’s response to NovoNorm may change if you take other medicines, especially these: 
+<p>Your body s response to NovoNorm may change if you take other medicines, especially these: 
 * Monoamine oxidase inhibitors (MAOI) (used to treat depression) 
 * Beta blockers (used to treat high blood pressure or heart conditions) 
 * ACE-inhibitors (used to treat heart conditions) 
 * Salicylates (e.g. aspirin) 
 * Octreotide (used to treat cancer) 
 * Nonsteroidal anti-inflammatory drugs (NSAID) (a type of painkillers) 
-* Steroids (anabolic steroids and corticosteroids – used for anemia or to treat inflammation) 
+* Steroids (anabolic steroids and corticosteroids   used for anemia or to treat inflammation) 
 * Oral contraceptives (birth control pills) 
-* Thiazides (diuretics or ‘water pills’) 
+* Thiazides (diuretics or  water pills ) 
 * Danazol (used to treat breast cysts and endometriosis) 
 * Thyroid products (used to treat low levels of thyroid hormones) 
 * Sympathomimetics (used to treat asthma) 
@@ -166,7 +172,7 @@ NovoNorm. </p>
 * Deferasirox (used to reduce chronic iron overload) 
 * Clopidogrel (prevents blood clots) 
 * Phenytoin, carbamazepine, phenobarbital (used to treat epilepsy) 
-* St. John’s wort (herbal medicine). </p>
+* St. John s wort (herbal medicine). </p>
 <p>NovoNorm with alcohol </p>
 <p>Alcohol can change the ability of NovoNorm to reduce the blood sugar. Watch for signs of a hypo. </p>
 <p>Pregnancy and breast-feeding </p>
@@ -179,12 +185,13 @@ your doctor for advice before taking this medicine. </p>
 mind that you could endanger yourself or others. Please ask your doctor whether you can drive a car if 
 you: 
 * Have frequent hypos 
-* Have few or no warning signs of hypos. </p>         </div>"""   
-                    
+* Have few or no warning signs of hypos. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take novonorm"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take novonorm"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. 
@@ -204,13 +211,12 @@ you get a hypo on what a hypo is and how to treat it. </p>
 <p>If you stop taking NovoNorm </p>
 <p>Be aware that the desired effect is not achieved if you stop taking NovoNorm. Your diabetes may get 
 worse. If any change of your treatment is necessary contact your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store novonorm"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store novonorm"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Hypoglycaemia 
@@ -242,10 +248,11 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store novonorm"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store novonorm"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister foil after 
@@ -253,31 +260,4 @@ EXP. The expiry date refers to the last date of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NovoNorm contains </p>
-<p>– 
-The active substance is repaglinide. 
-– 
-The other ingredients are microcrystalline cellulose (E460), calcium hydrogen phosphate 
-anhydrous, maize starch, polacrilin potassium, povidone (polyvidone), glycerol 85%, 
-magnesium stearate, meglumine, poloxamer, iron oxide yellow (E172) only in the 1 mg tablets 
-and iron oxide red (E172) only in the 2 mg tablets. </p>
-<p>What NovoNorm looks like and contents of the pack </p>
-<p>NovoNorm tablets are round and convex and engraved with the Novo Nordisk logo (Apis bull). The 
-strengths are 0.5 mg, 1 mg and 2 mg. 0.5 mg tablets are white, 1 mg tablets are yellow and 2 mg 
-tablets are peach-coloured. Four blister pack sizes are available. Each pack contains 30, 90, 120 or 
-270 tablets. 
-Not all pack sizes may be marketed. </p>
-<p>Marketing authorisation holder and manufacturer </p>
-<p>Novo Nordisk A/S 
-Novo Allé, DK-2880 Bagsværd, Denmark. </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

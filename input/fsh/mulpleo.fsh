@@ -4,7 +4,7 @@ Instance: composition-en-ae95ec75d9c7638e000a13f3c8891532
 InstanceOf: CompositionUvEpi
 Title: "Composition for mulpleo Package Leaflet"
 Description:  "Composition for mulpleo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,26 +83,27 @@ chronic liver disease. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take mulpleo"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Mulpleo: 
-- if you are allergic to lusutrombopag or any of the other ingredients of this medicine (listed in 
-section 6 under ‘What Mulpleo contains’).<br />
-➤ Check with your doctor if this applies to you before you take Mulpleo </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Mulpleo:</p>
+<ul>
+<li>if you are allergic to lusutrombopag or any of the other ingredients of this medicine (listed in 
+section 6 under  What Mulpleo contains ).<br />
+  Check with your doctor if this applies to you before you take Mulpleo </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor: 
-- if you are at risk of blood clots in your veins or arteries, or if you previously have had blood 
-clots 
-- if you have severe liver disease 
-- if your spleen has been removed 
-- if you are having interferon treatment. 
-➤ Talk to your doctor before taking Mulpleo, if any of these applies. </p>
-<p>Signs of a blood clot: look out for any of the signs below: 
- 
-swelling, pain, heat, redness, or tenderness in your leg 
- 
-sudden shortness of breath, especially with sharp pain in the chest or rapid breathing 
- 
-pain in the abdomen (tummy), swollen abdomen, blood in your stools.  </p>
-<p>➤ Get medical help immediately if you notice any of these. </p>
+Talk to your doctor:</p>
+<ul>
+<li>if you are at risk of blood clots in your veins or arteries, or if you previously have had blood 
+clots </li>
+<li>if you have severe liver disease </li>
+<li>if your spleen has been removed </li>
+<li>if you are having interferon treatment. 
+  Talk to your doctor before taking Mulpleo, if any of these applies. </li>
+</ul>
+<p>Signs of a blood clot: look out for any of the signs below: </p>
+<p>swelling, pain, heat, redness, or tenderness in your leg </p>
+<p>sudden shortness of breath, especially with sharp pain in the chest or rapid breathing </p>
+<p>pain in the abdomen (tummy), swollen abdomen, blood in your stools.  </p>
+<p>Get medical help immediately if you notice any of these. </p>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents under the age of 18 years, because the medicine 
 has not been studied in children and adolescents. </p>
@@ -118,12 +119,12 @@ a baby.
 immediately. </p>
 <p>Do not breast-feed during treatment with Mulpleo, as it is not known if the medicine passes into 
 milk.<br />
-→ If you are already breast-feeding, talk to your doctor immediately. </p>
+  If you are already breast-feeding, talk to your doctor immediately. </p>
 <p>Driving and using machines 
 Mulpleo has no known effects on your ability to drive or to use machines. </p>
 <p>Mulpleo contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mulpleo"
@@ -141,8 +142,8 @@ schedule for taking Mulpleo unless your doctor or pharmacist tells you to. </p>
 <p>If you take more than you should 
 If you have taken more Mulpleo than you should, talk to your doctor or go to the hospital. If possible, 
 show them the pack, or this leaflet. You may be monitored for side effects associated with excessive 
-platelets such as blood clots (see section 2, ‘Warnings and precautions’, and section 4, ‘Possible side 
-effects’). </p>
+platelets such as blood clots (see section 2,  Warnings and precautions , and section 4,  Possible side 
+effects ). </p>
 <p>If you forget to take a tablet 
 If you miss a tablet of Mulpleo, take it as soon as you remember on the same day. 
 Do not take a double dose to make up for a forgotten tablet. </p>
@@ -161,24 +162,17 @@ Do not stop taking Mulpleo without talking to your doctor and do not take Mulple
 <p>Higher risk of blood clots<br />
 Certain people may have a higher risk of blood clots, including people with liver disease, and 
 medicines like Mulpleo could make this problem worse.  </p>
-<p>Signs of a blood clot: look out for any of the signs below: 
- 
-swelling, pain, heat, redness, or tenderness in your leg<br />
- 
-sudden shortness of breath, especially with sharp pain in the chest or rapid breathing<br />
- 
-pain in the abdomen (tummy), swollen abdomen, blood in your stools.<br />
-➤ Get medical help immediately if you notice any of these. </p>
+<p>Signs of a blood clot: look out for any of the signs below: </p>
+<p>swelling, pain, heat, redness, or tenderness in your leg  </p>
+<p>sudden shortness of breath, especially with sharp pain in the chest or rapid breathing  </p>
+<p>pain in the abdomen (tummy), swollen abdomen, blood in your stools.<br />
+  Get medical help immediately if you notice any of these. </p>
 <p>Common side effects<br />
-(may affect up to 1 in 10 people) 
- 
-Headache 
- 
-Nausea 
- 
-Blood clot in the liver (portal vein thrombosis) 
- 
-Rash. </p>
+(may affect up to 1 in 10 people) </p>
+<p>Headache </p>
+<p>Nausea </p>
+<p>Blood clot in the liver (portal vein thrombosis) </p>
+<p>Rash. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -206,14 +200,16 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Mulpleo contains<br />
 - The active substance is lusutrombopag. Each film-coated tablet contains 3 mg lusutrombopag. 
-- The other ingredients are:<br />
-- Tablet core: mannitol, microcrystalline cellulose, magnesium oxide, sodium lauryl sulfate, 
-hydroxypropylcellulose, carmellose calcium and magnesium stearate (see section 2 “Mulpleo 
-contains sodium”). 
-- Film coating: hypromellose, titanium dioxide, triethyl citrate, talc and red-ferric oxide (E172) </p>
+- The other ingredients are:</p>
+<ul>
+<li>Tablet core: mannitol, microcrystalline cellulose, magnesium oxide, sodium lauryl sulfate, 
+hydroxypropylcellulose, carmellose calcium and magnesium stearate (see section 2  Mulpleo 
+contains sodium ). </li>
+<li>Film coating: hypromellose, titanium dioxide, triethyl citrate, talc and red-ferric oxide (E172) </li>
+</ul>
 <p>What Mulpleo looks like and contents of the pack </p>
 <p>Mulpleo 3 mg film-coated tablets are light red, 7 mm, round, film-coated tablets debossed with the 
-Shionogi trademark above the identifier code “551” on one side and debossed with the strength “3” on 
+Shionogi trademark above the identifier code  551  on one side and debossed with the strength  3  on 
 the other side. </p>
 <p>Mulpleo is supplied in aluminium blisters in a carton containing 7 film-coated tablets. </p>
 <p>Marketing Authorisation Holder<br />
@@ -230,7 +226,7 @@ The Netherlands </p>
 Authorisation Holder: </p>
 <p>AT, BE, BG, CY, CZ, DK, EE, IE, EL, FI, HR, HU, IE, IS, LT, LU, 
 LV, MT, NL, NO, PL, PT, RO, SE, SI, SK<br />
-Shionogi B.V. Tel/Tel./Teл./Tlf/Tél/Puh/Sími/Τηλ:<br />
+Shionogi B.V. Tel/Tel./Te ./Tlf/T l/Puh/S mi/ :<br />
 +31204917contact@shionogi.eu </p>
 <p>DE 
 Shionogi GmbH 

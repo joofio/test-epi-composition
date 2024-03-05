@@ -4,7 +4,7 @@ Instance: composition-en-fa53d03d2fac0e63ca1ebb6facc489ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for exparel Package Leaflet"
 Description:  "Composition for exparel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -163,7 +163,7 @@ and mexiletine; </li>
 <li>Antibiotics - dapsone, sulfonamides, nitrofurantoin, para-aminosalicylic acid; </li>
 <li>Antimalarials - chloroquine, primaquine, quinine; </li>
 <li>Anticonvulsants - phenytoin, sodium valproate, phenobarbital; </li>
-<li>Other medicines – acetaminophen (paracetamol), metoclopramide (for stomach problems and 
+<li>Other medicines   acetaminophen (paracetamol), metoclopramide (for stomach problems and 
 anti-sickness), sulfasalazine (for inflammatory conditions), povidone iodine (topical antiseptic). </li>
 </ul>
 <p>If you are in doubt about any of these medicines, ask your doctor. </p>
@@ -311,7 +311,7 @@ or older.  </p>
 </ul>
 <p>Common (may affect up to 1 in 10 people): </p>
 <ul>
-<li>tingling sensation (‘pins and needles’); </li>
+<li>tingling sensation ( pins and needles ); </li>
 <li>hearing loss; </li>
 <li>rapid breathing; </li>
 <li>delayed recovery from anaesthesia. </li>
@@ -330,22 +330,22 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label after EXP. The expiry 
 date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. 
-EXPAREL liposomal may also be stored at room temperature (below 25°C) for up to 30 days in 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. 
+EXPAREL liposomal may also be stored at room temperature (below 25 C) for up to 30 days in 
 sealed, unopened vials. Vials should not be re-refrigerated.  </p>
 <p>After first opening 
 Chemical and physical in-use stability of EXPAREL liposomal withdrawn from vials and transferred 
-into polypropylene syringes has been demonstrated for 48 hours when stored in a refrigerator (2°C to 
-8°C), or 6 hours when stored at room temperature (below 25°C). From a microbiological point of 
+into polypropylene syringes has been demonstrated for 48 hours when stored in a refrigerator (2 C to 
+8 C), or 6 hours when stored at room temperature (below 25 C). From a microbiological point of 
 view, the product should be used immediately. If not used immediately, in-use storage times and 
-conditions prior to use are the responsibility of the user and should not be longer than 24 hours at 2°C 
-to 8°C unless opening has taken place in controlled and validated aseptic conditions. </p>
+conditions prior to use are the responsibility of the user and should not be longer than 24 hours at 2 C 
+to 8 C unless opening has taken place in controlled and validated aseptic conditions. </p>
 <p>After dilution 
 Chemical and physical in-use stability of EXPAREL liposomal when admixed with other formulations 
-of bupivacaine has been demonstrated for 24 hours at room temperature (below 25°C). When admixed 
-with 9 mg/mL (0.9%) sodium chloride or lactated Ringer’s solution, chemical and physical in-use 
-stability has been demonstrated for 4 hours when stored in a refrigerator (2°C to 8°C) and at room 
-temperature (below 25°C). From a microbiological point of view, unless the method of dilution 
+of bupivacaine has been demonstrated for 24 hours at room temperature (below 25 C). When admixed 
+with 9 mg/mL (0.9%) sodium chloride or lactated Ringer s solution, chemical and physical in-use 
+stability has been demonstrated for 4 hours when stored in a refrigerator (2 C to 8 C) and at room 
+temperature (below 25 C). From a microbiological point of view, unless the method of dilution 
 precludes the risk of microbial contamination, the product should be used immediately. If not used 
 immediately, in-use storage times and conditions are the responsibility of the user.  </p>         </div>"""      
         

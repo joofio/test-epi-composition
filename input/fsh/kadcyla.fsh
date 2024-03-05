@@ -4,7 +4,7 @@ Instance: composition-en-b8f579293abab7be62522da4567f714e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kadcyla Package Leaflet"
 Description:  "Composition for kadcyla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ linked together:
 human epidermal growth factor receptor 2 (HER2). HER2 is found in large amounts on the surface 
 of some cancer cells where it stimulates their growth. When trastuzumab binds to HER2 it can 
 stop the cancer cells growth and cause them to die. 
-* DM1 – an anti-cancer substance that becomes active once Kadcyla enters the cancer cell.  </p>
+* DM1   an anti-cancer substance that becomes active once Kadcyla enters the cancer cell.  </p>
 <p>What Kadcyla is used for 
 Kadcyla is used to treat breast cancer in adults when: 
 * the cancer cells have many HER2 proteins on them - your doctor will test your cancer cells for 
@@ -205,7 +205,7 @@ experience flushing, shivering fits, fever, trouble breathing, low blood pressur
 (infusion-related reaction), blurred vision, tiredness, headache, or dizziness, do not drive, cycle, use 
 tools or machines until these reactions stop. </p>
 <p>Important information about some of the ingredients of Kadcyla 
-This medicine contains less than 1 mmol sodium (23 mg) per dose. It is essentially ‘sodium- free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose. It is essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kadcyla"
@@ -252,15 +252,15 @@ elevated mildly and temporarily, do not cause any symptoms, and do not affect li
 These symptoms may indicate nerve damage. </p>
 <p>Common (may affect up to 1 in 10 people): 
 * Flushing, shivering fits, fever, trouble breathing, low blood pressure or a rapid heartbeat during the 
-infusion or up to 24 hours after the infusion – these are so-called infusion-related reactions.<br />
+infusion or up to 24 hours after the infusion   these are so-called infusion-related reactions.<br />
 * Heart problems can occur. Most patients will not have symptoms from the heart problems. If 
 symptoms do occur, cough shortness of breath at rest or when sleeping flat, chest pain and swollen 
 ankles or arms, a sensation of rapid or irregular heartbeats may be observed.  </p>
 <p>Uncommon (may affect up to 1 in 100 people): 
 * Inflammation of your lungs can cause breathing problems such as shortness of breath (either at 
-rest or while performing any type of activity), coughing or coughing spells with a dry cough – 
+rest or while performing any type of activity), coughing or coughing spells with a dry cough <br />
 these are signs of inflammation of your lung tissue. 
-* Your skin and whites of your eyes get yellow (jaundice) – these could be signs of severe liver 
+* Your skin and whites of your eyes get yellow (jaundice)   these could be signs of severe liver 
 damage. 
 * Allergic reactions can occur and most patients will have mild symptoms such as itching or 
 tightness in the chest. In more severe cases, swelling of your face or tongue, trouble swallowing or 
@@ -332,8 +332,8 @@ reporting side effects you can help provide more information on the safety of th
 <li>Keep this medicine out of the sight and reach of children. </li>
 <li>Do not use this medicine after the expiry date which is stated on the outer carton and vial after 
 EXP. The expiry date refers to the last day of that month. </li>
-<li>Store in a refrigerator (2°C - 8°C). Do not freeze. </li>
-<li>When prepared as a solution for infusion Kadcyla is stable for up to 24 hours at 2°C to 8°C, and 
+<li>Store in a refrigerator (2 C - 8 C). Do not freeze. </li>
+<li>When prepared as a solution for infusion Kadcyla is stable for up to 24 hours at 2 C to 8 C, and 
 must be discarded thereafter.  </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to dispose of medicines you no longer use. These measures will help to protect the 
@@ -348,118 +348,12 @@ environment. </li>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kadcyla contains 
 * The active substance is trastuzumab emtansine.<br />
-<em> Kadcyla 100mg: One vial of powder for concentrate for solution for infusion contains 100 mg of 
+* Kadcyla 100mg: One vial of powder for concentrate for solution for infusion contains 100 mg of 
 trastuzumab emtansine. After reconstitution one vial of 5 mL solution contains 20 mg/mL of 
 trastuzumab emtansine. 
 * Kadcyla 160mg: One vial of powder for concentrate for solution for infusion contains 160 mg of 
 trastuzumab emtansine. After reconstitution one vial of 8 mL solution contains 20 mg/mL of 
 trastuzumab emtansine. 
-* The other ingredients are succinic acid, sodium hydroxide (see section 2 under ‘Important 
-information about some of the ingredients of Kadcyla’), sucrose, and polysorbate 20.<br />
-What Kadcyla looks like and contents of the pack 
-* Kadcyla is a white to off-white lyophilised powder for concentrate for solution for infusion 
-supplied in glass vials.<br />
-</em> Kadcyla is available in packs containing 1 vial. </p>
-<p>Marketing Authorisation Holder 
-Roche Registration GmbH<br />
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>Manufacturer 
-Roche Pharma AG 
-Emil-Barell-Strasse 1 
-D-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
-Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-Luxembourg/Luxemburg 
-(Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
-Roche s. r. o. 
-Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
-Tel: +36 1 279 4 
-Danmark 
-Roche Pharmaceuticals A/S <br />
-Tlf: +45 - 36 39 99<br />
-Malta 
-(See Ireland) 
-Deutschland 
-Roche Pharma AG 
-Tel: +49 (0) 7624<br />
-Nederland 
-Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
-Roche Eesti OÜ 
-Tel: + 372 - 6 177<br />
-Norge 
-Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
-Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-España 
-Roche Farma S.A. 
-Tel: +34 - 91 324 81<br />
-Polska 
-Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-France 
-Roche 
-Tél: +33 (0)1 47 61 40<br />
-Portugal 
-Roche Farmacêutica Química, Lda 
-Tel: +351 - 21 425 70<br />
-Hrvatska 
-Roche d.o.o 
-Tel:  +385 1 4722 România 
-Roche România S.R.L. 
-Tel: +40 21 206 47<br />
-Ireland 
-Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Slovenija 
-Roche farmacevtska družba d.o.o. 
-Tel: +386 - 1 360 26<br />
-Ísland<br />
-Roche Pharmaceuticals A/S 
-c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
-Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
-Roche S.p.A. 
-Tel: +39 - 039 2Suomi/Finland 
-Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
-Sverige 
-Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
-Roche Latvija SIA 
-Tel: +371 - 6 7039 
-United Kingdom (Northern Ireland) 
-Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+* The other ingredients are succinic acid, sodium hydroxide (see section 2 under  Important 
+information about some of the ingredients of Kadcyla ), sucrose, and polysorbate 2</p>         </div>"""      
 

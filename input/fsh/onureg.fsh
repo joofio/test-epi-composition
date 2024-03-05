@@ -4,7 +4,7 @@ Instance: composition-en-6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: CompositionUvEpi
 Title: "Composition for onureg Package Leaflet"
 Description:  "Composition for onureg Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,8 +91,8 @@ has been prescribed for you. </p>         </div>"""
   * code.text = "2. What you need to know before you take onureg"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Onureg 
-• if you are allergic to azacitidine or any of the other ingredients of this medicine (listed in section 6). 
-• if you are breast-feeding. </p>
+  if you are allergic to azacitidine or any of the other ingredients of this medicine (listed in section 6). 
+  if you are breast-feeding. </p>
 <p>Warnings and precautions </p>
 <p>Blood tests 
 You will have blood tests before you begin treatment with Onureg and during treatment with Onureg 
@@ -100,15 +100,21 @@ to check that you have enough blood cells and that your liver and kidneys are wo
 doctor will decide how often you have blood tests. </p>
 <p>Tell your doctor, pharmacist or nurse straight away if you get any of these symptoms during treatment 
 with Onureg: 
-• bruising or bleeding - this could be due to a low count of blood cells called platelets; 
-• fever - this could be due to an infection as a result of having low levels of white blood cells, which 
+  bruising or bleeding - this could be due to a low count of blood cells called platelets; 
+  fever - this could be due to an infection as a result of having low levels of white blood cells, which 
 can be life-threatening; 
-• diarrhoea, vomiting or nausea (feeling sick). </p>
+  diarrhoea, vomiting or nausea (feeling sick). </p>
 <p>Your doctor may need to change the dose, interrupt treatment or stop treatment with Onureg 
 completely. The doctor may prescribe other medicines to help manage these symptoms. </p>
 <p>Children and adolescents 
-Onureg is not recommended for use in children and adolescents below the age of 18.<br />
-Other medicines and Onureg<br />
+Onureg is not recommended for use in children and adolescents below the age of 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take onureg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take onureg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Onureg<br />
 Tell your doctor if you are taking, have recently taken or might take any other medicines. This is 
 because Onureg may affect the way some other medicines work. Also, some other medicines may 
 affect the way Onureg works. </p>
@@ -137,34 +143,35 @@ Onureg contains lactose. If you have been told by your doctor that you have into
 sugars, contact your doctor before taking this medicine. </p>
 <p>Onureg contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take onureg"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take onureg"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
 <p>How much to take 
-• The recommended dose is 300 mg taken by mouth once daily. 
-• Your doctor may reduce your dose to 200 mg once daily. </p>
+  The recommended dose is 300 mg taken by mouth once daily. 
+  Your doctor may reduce your dose to 200 mg once daily. </p>
 <p>Onureg is given in treatment cycles of 28 days. 
-• You take Onureg every day for the first 14 days of each 28-day cycle. 
-• This is followed by a treatment-free period of 14 days for the rest of the cycle. </p>
+  You take Onureg every day for the first 14 days of each 28-day cycle. 
+  This is followed by a treatment-free period of 14 days for the rest of the cycle. </p>
 <p>Your doctor will tell you what dose of Onureg to take. The doctor may decide to: 
-• extend your treatment beyond 14 days in each treatment cycle 
-• lower your dose or temporarily stop treatment 
-• reduce your treatment to 7 days. 
+  extend your treatment beyond 14 days in each treatment cycle 
+  lower your dose or temporarily stop treatment 
+  reduce your treatment to 7 days. 
 Always take Onureg as prescribed by your doctor. </p>
 <p>Your doctor will give you a medicine that helps to reduce nausea (feeling sick)  and vomiting. You 
 take it 30 minutes before each Onureg tablet, during your first and second treatment cycles. Your 
 doctor will tell you to take it for a longer period, if you need it. </p>
 <p>Taking this medicine 
-• Take Onureg once a day - at the same time each day. 
-• Swallow the tablets whole with a full glass of water. 
-• To make sure you get the right dose, do not break, crush, dissolve or chew the tablets. 
-• You can take the medicine with food or between meals. 
+  Take Onureg once a day - at the same time each day. 
+  Swallow the tablets whole with a full glass of water. 
+  To make sure you get the right dose, do not break, crush, dissolve or chew the tablets. 
+  You can take the medicine with food or between meals. 
 If you vomit after taking a tablet, do not take another dose on the same day. Instead, wait till the next 
 day and take your next scheduled dose then. Do not take two doses on the same day. </p>
 <p>If powder from a broken tablet touches your skin, wash the skin straight away and thoroughly with 
@@ -178,55 +185,42 @@ same day and take your next dose at the usual time the next day. Do not take a d
 for a forgotten or vomited tablet. </p>
 <p>If you stop taking Onureg 
 Do not stop taking Onureg unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Serious side effects 
-Tell your doctor, pharmacist or nurse straight away if you get any of these symptoms during 
-treatment with Onureg: 
-• bruising or bleeding - this could be due to a low count of blood cells called platelets; 
-• fever - this could be due to an infection as a result of having low levels of white blood cells, which 
-can be life-threatening; 
-• diarrhoea, vomiting or nausea (feeling sick). </p>
-<p>Other side effects include: </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-• constipation 
-• pain in your belly 
-• infections of the nose, sinuses and throat 
-• infection of the lungs 
-• feeling tired or weak 
-• loss of appetite 
-• pain that affect different parts of the body - this can range from a sharp pain to a dull ache 
-• stiff joints 
-• back pain. </p>
-<p>Common side effects  (may affect up to 1 in 10 people): 
-• flu 
-• infection of the urinary tract 
-• hay fever 
-• anxiety 
-• loss of weight. </p>
-<p>Reporting of side effects 
-If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
-leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side affects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onureg"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store onureg"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
-The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Serious side effects 
+Tell your doctor, pharmacist or nurse straight away if you get any of these symptoms during 
+treatment with Onureg: 
+  bruising or bleeding - this could be due to a low count of blood cells called platelets; 
+  fever - this could be due to an infection as a result of having low levels of white blood cells, which 
+can be life-threatening; 
+  diarrhoea, vomiting or nausea (feeling sick). </p>
+<p>Other side effects include: </p>
+<p>Very common side effects (may affect more than 1 in 10 people): 
+  constipation 
+  pain in your belly 
+  infections of the nose, sinuses and throat 
+  infection of the lungs 
+  feeling tired or weak 
+  loss of appetite 
+  pain that affect different parts of the body - this can range from a sharp pain to a dull ache 
+  stiff joints 
+  back pain. </p>
+<p>Common side effects  (may affect up to 1 in 10 people): 
+  flu 
+  infection of the urinary tract 
+  hay fever 
+  anxiety 
+  loss of weight. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
+leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
+By reporting side affects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -234,34 +228,10 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Onureg contains 
-• The active substance is azacitidine. Each film-coated tablet contains either 200 mg or 300 mg 
-azacitidine. 
-• The other ingredients are croscarmellose sodium (E468), magnesium stearate (E572), mannitol 
-(E421), and silicified microcrystalline cellulose (E460, E551).  </p>
-<p>• The 200 mg tablet coating – Opadry II pink contains: hypromellose (E464), titanium dioxide 
-(E171), lactose monohydrate, polyethylene glycol/macrogols (E1521), triacetin (E1518), and iron 
-oxide red (E172). See section 2 “Onureg contains sodium”. </p>
-<p>• The 300 mg tablet coating – Opadry II brown contains: hypromellose (E464), titanium dioxide 
-(E171), lactose monohydrate, polyethylene glycol/macrogols (E1521), triacetin (E1518), iron oxide 
-red (E172), iron oxide yellow (E172), and iron oxide black (E172). See section 2 “Onureg contains 
-sodium”. </p>
-<p>What Onureg looks like and contents of the pack </p>
-<p>Onureg 200 mg film-coated tablets are pink and oval shaped with “200” imprinted on one side and 
-“ONU” on the other side. </p>
-<p>Onureg 300 mg film-coated tablets are brown and oval shaped with “300” imprinted on one side and 
-“ONU” on the other side. </p>
-<p>The film-coated tablets are packaged in aluminium foil blisters. </p>
-<p>Each pack contains either 7 or 14 film-coated tablets. Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder<br />
-Bristol-Myers Squibb Pharma EEIG 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland </p>
-<p>Manufacturer 
-Celgene Distribution B.V.<br />
-Orteliuslaan 13528 BD Utrecht<br />
-Netherlands </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-15a73917bf3a8bd9b5488de0aa2b271d
 InstanceOf: CompositionUvEpi
 Title: "Composition for galafold Package Leaflet"
 Description:  "Composition for galafold Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,8 +72,8 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Galafold contains the active substance migalastat. </p>
 <p>This medicine is used for the long-term treatment of Fabry disease in adults and adolescents aged 
 12 years and older who have certain genetic mutations (changes).  </p>
-<p>Fabry disease is caused by the lack of or a faulty enzyme called alpha-galactosidase A (α-Gal A). 
-Depending upon the kind of mutation (change) in the gene that produces α-Gal A, the enzyme does 
+<p>Fabry disease is caused by the lack of or a faulty enzyme called alpha-galactosidase A ( -Gal A). 
+Depending upon the kind of mutation (change) in the gene that produces  -Gal A, the enzyme does 
 not work properly or is completely absent. This enzyme defect leads to abnormal deposits of a fatty 
 substance known as globotriaosylceramide (GL-3) in kidneys, heart, and other organs, leading to the 
 symptoms of Fabry disease.  </p>
@@ -90,7 +90,7 @@ better to reduce the amount of GL-3 that has accumulated in your cells and tissu
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Galafold if you: 
 * are allergic to migalastat or any of the other ingredients of this medicine (listed in section 6). </p>
 <p>Warnings and precautions  </p>
-<p>123 mg migalastat capsules are not for children (≥12 years) weighing less than 45 kg. </p>
+<p>123 mg migalastat capsules are not for children ( 12 years) weighing less than 45 kg. </p>
 <p>Talk to your doctor before taking Galafold if you are currently taking enzyme replacement therapy. 
 You should not take Galafold if you are also receiving enzyme replacement therapy.  </p>
 <p>Your doctor will monitor your condition and whether your medicine is working every 6 months while 
@@ -151,16 +151,16 @@ can be consumed during the 4-hour fasting period. </p>
 cover. 
 Lift the cover of your Galafold carton 
 (see Figure A). 
-Figure B – Opened carton </p>
+Figure B   Opened carton </p>
 <p>Step 2: Press and continue holding down the 
 purple tab with your thumb at the left 
 side of the carton (see Figure B), and 
 continue to Step 3. Figure C </p>
 <p>Step 3: Now GRASP the tab on the right side 
-where it says “PULL OUT HERE” and<br />
+where it says  PULL OUT HERE  and<br />
 pull out the folded blister card<br />
 (see Figure C). 
-Figure D – Front of the blister card  </p>
+Figure D   Front of the blister card  </p>
 <p>Step 4: Unfold the blister card 
 (see Figure D). 
 Taking Galafold Capsule: 
@@ -168,13 +168,13 @@ One Galafold blister card = 14 hard capsules = 28 days of treatment with Galafol
 cardboard circles. 
 The white cardboard circles are to remind you to take Galafold every other day. 
 The arrow directs the patient to begin the next 2 weeks of treatment. </p>
-<p>Figure E – Front of the blister card </p>
-<p>Figure F – Front of the blister card </p>
+<p>Figure E   Front of the blister card </p>
+<p>Figure F   Front of the blister card </p>
 <p>Step 5: On your first day of taking this 
 medicine from a new blister card, 
 record the date on the blister card 
 (see Figure F).<br />
-Figure G – Back of the blister card  </p>
+Figure G   Back of the blister card  </p>
 <p>Step 6: TURN the card OVER showing<br />
 the back of the card. 
 LOCATE capsule to remove. 
@@ -182,18 +182,18 @@ BEND the card as shown<br />
 (see Figure G). </p>
 <p>Note: Bending the card helps raise the oval 
 perforated cardboard. 
-Figure H – Back of the blister card </p>
+Figure H   Back of the blister card </p>
 <p>Step 7: REMOVE the oval perforated
 cardboard (see Figure H). </p>
 <p>Note: After removing the cardboard,<br />
 the white backing of the foil may be 
 present, which is ok. 
-Figure I – Front of the blister card </p>
+Figure I   Front of the blister card </p>
 <p>Step 8: TURN the card OVER showing the<br />
 front of the card. </p>
 <p>PUSH the capsule out 
 (see Figure I). 
-Figure J – Front of the blister card </p>
+Figure J   Front of the blister card </p>
 <p>Step 9: On the next day, move to the perforated 
 white cardboard circle on the top row 
 labelled Day 2. Press down on the white cardboard 
@@ -206,7 +206,7 @@ day. </p>
 <p>Close package and store after each use. 
 After Day 2, move to Day 3 on the blister card.<br />
 Alternate daily between taking the capsule and pushing out the perforated white cardboard circles, 
-up to and including day 28. Figure K – Front of the unfolded blister card </p>
+up to and including day 28. Figure K   Front of the unfolded blister card </p>
 <p>If you take more Galafold than you should 
 If you take more capsules than you should, then you should stop taking the medicine and contact your 
 doctor. You may get a headache and feel dizzy. </p>
@@ -301,7 +301,7 @@ Capsule contents: Pregelatinised starch (maize) and magnesium stearate
 Capsule shell: Gelatin, titanium dioxide (E171), and indigo carmine (E132) 
 Printing ink: Shellac, black iron oxide, and potassium hydroxide </p>
 <p>What Galafold looks like and contents of the pack 
-Opaque, blue, and white hard capsules, marked with “A1001” in black ink, size 2 hard capsule (6.4 x 
+Opaque, blue, and white hard capsules, marked with  A1001  in black ink, size 2 hard capsule (6.4 x 
 18.0 mm) containing white to pale brown powder. </p>
 <p>Galafold is available in a blister pack containing 14 capsules. </p>
 <p>Marketing Authorisation Holder 
@@ -321,22 +321,21 @@ Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder (if you cannot reach your Amicus representative by phone please contact via the 
 e-mail address listed below): </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Amicus Therapeutics Europe Limited 
-Tél/Tel: (+32) 0800 89e-mail: MedInfo@amicusrx.com </p>
+T l/Tel: (+32) 0800 89e-mail: MedInfo@amicusrx.com </p>
 <p>Lietuva 
 Amicus Therapeutics Europe Limited<br />
-Tel: (+370) 8800 33El. paštas: MedInfo@amicusrx.com 
-България 
-Amicus Therapeutics Europe Limited<br />
-Teл.: (+359) 00800 111 3имейл: MedInfo@amicusrx.com </p>
+Tel: (+370) 8800 33El. pa tas: MedInfo@amicusrx.com </p>
+<p>Amicus Therapeutics Europe Limited<br />
+Te .: (+359) 00800 111 3 : MedInfo@amicusrx.com </p>
 <p>Luxembourg/Luxemburg 
 Amicus Therapeutics Europe Limited<br />
-Tél/Tel: (+352) 800 27e-mail: MedInfo@amicusrx.com 
-Česká republika 
+T l/Tel: (+352) 800 27e-mail: MedInfo@amicusrx.com 
+ esk  republika 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+420) 800 142 e-mail: MedInfo@amicusrx.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+36) 06 800 21e-mail: MedInfo@amicusrx.com 
 Danmark 
@@ -357,13 +356,12 @@ Tel: (+372) 800 0111 e-post: MedInfo@amicusrx.com </p>
 <p>Norge 
 Amicus Therapeutics Europe Limited<br />
 Tlf: (+47) 800 13e-post: MedInfo@amicusrx.com </p>
-<p>Ελλάδα 
-Amicus Therapeutics Europe Limited<br />
-Τηλ: (+30) 00800 126 e-mail: MedInfo@amicusrx.com </p>
-<p>Österreich 
+<p>Amicus Therapeutics Europe Limited<br />
+ : (+30) 00800 126 e-mail: MedInfo@amicusrx.com </p>
+<p>sterreich 
 Amicus Therapeutics Europe Limited<br />
 Tel: (+43) 0800 909 E-Mail: MedInfo@amicusrx.com 
-España 
+Espa a 
 Amicus Therapeutics S.L.U. 
 Tel: (+34) 900 941 616<br />
 e-mail: MedInfo@amicusrx.com </p>
@@ -372,27 +370,27 @@ Amicus Therapeutics Europe Limited<br />
 Tel.: (+48) 0080 012 15e-mail: MedInfo@amicusrx.com 
 France 
 Amicus Therapeutics SAS 
-Tél: (+33) 0 800 906 e-mail: MedInfo@amicusrx.com </p>
+T l: (+33) 0 800 906 e-mail: MedInfo@amicusrx.com </p>
 <p>Portugal 
 Amicus Therapeutics Europe Limited<br />
 Tel: (+351) 800 812 e-mail: MedInfo@amicusrx.com 
 Hrvatska 
 Amicus Therapeutics Europe Limited<br />
-Tel: (+358) 0800 222 e-pošta: MedInfo@amicusrx.com </p>
+Tel: (+358) 0800 222 e-po ta: MedInfo@amicusrx.com </p>
 <p>Ireland 
 Amicus Therapeutics Europe Limited<br />
 Tel: (+353) 1800 936 e-mail: MedInfo@amicusrx.com </p>
-<p>România 
+<p>Rom nia 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+40) 0808 034 288<br />
 e-mail: MedInfo@amicusrx.com </p>
 <p>Slovenija 
 Amicus Therapeutics Europe Limited<br />
-Tel.: (+386) 0800 81e-pošta: MedInfo@amicusrx.com </p>
-<p>Ísland 
+Tel.: (+386) 0800 81e-po ta: MedInfo@amicusrx.com </p>
+<p>sland 
 Amicus Therapeutics Europe Limited<br />
-Sími: (+354) 800 7Netfang: MedInfo@amicusrx.com 
-Slovenská republika 
+S mi: (+354) 800 7Netfang: MedInfo@amicusrx.com 
+Slovensk  republika 
 Amicus Therapeutics Europe Limited<br />
 Tel: (+421) 0800 002 e-mail: MedInfo@amicusrx.com </p>
 <p>Italia 
@@ -400,10 +398,9 @@ Amicus Therapeutics S.r.l.
 Tel: (+39) 800 795 e-mail: MedInfo@amicusrx.com </p>
 <p>Suomi/Finland 
 Amicus Therapeutics Europe Limited<br />
-Puh/Tel: (+358) 0800 917 sähköposti/e-mail: MedInfo@amicusrx.com </p>
-<p>Κύπρος 
-Amicus Therapeutics Europe Limited<br />
-Τηλ: (+357) 800 97e-mail: MedInfo@amicusrx.com </p>
+Puh/Tel: (+358) 0800 917 s hk posti/e-mail: MedInfo@amicusrx.com </p>
+<p>Amicus Therapeutics Europe Limited<br />
+ : (+357) 800 97e-mail: MedInfo@amicusrx.com </p>
 <p>Sverige 
 Amicus Therapeutics Europe Limited<br />
 Tfn: (+46) 020 795 e-post: MedInfo@amicusrx.com </p>

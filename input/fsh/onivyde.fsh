@@ -4,7 +4,7 @@ Instance: composition-en-c423173deb9255bac28552e97801a6f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for onivyde Package Leaflet"
 Description:  "Composition for onivyde Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ONIVYDE pegylated liposomal is and how it works </p>
 <p>ONIVYDE pegylated liposomal is a cancer medicine that contains the active substance irinotecan. 
 This active substance is held in tiny lipid (fatty) particles called liposomes. </p>
-<p>Irinotecan belongs to a group of cancer medicines called ‘topoisomerase inhibitors’. It blocks an 
+<p>Irinotecan belongs to a group of cancer medicines called  topoisomerase inhibitors . It blocks an 
 enzyme called topoisomerase I, which is involved in the division of cell DNA. This prevents the 
 cancer cells from multiplying and growing, and they eventually die. </p>
 <p>The liposomes are expected to accumulate within the tumour and release the medicine slowly over 
@@ -105,8 +105,8 @@ medicine (listed in section 6). </li>
 - if you have ever had any liver problems or jaundice 
 - if you have ever had lung disease or have previously received medicines (colony stimulating 
 factors) to increase your blood count or radiation therapy 
-- if you are taking other medicines (see section “Other medicines and ONIVYDE pegylated 
-liposomal”) 
+- if you are taking other medicines (see section  Other medicines and ONIVYDE pegylated 
+liposomal ) 
 - if you are planning to have a vaccination as many vaccinations must not be given during 
 chemotherapy 
 - if you are on a controlled sodium diet as this medicine contains sodium. </p>
@@ -121,7 +121,7 @@ treatment (see below)
 - if you experience signs or symptoms of a blood clot, like sudden pain and swelling in a leg or an 
 arm, sudden onset of coughing, chest pain or difficulty breathing. </p>
 <p>What to do in case of diarrhoea </p>
-<p>As soon as the first liquid stool occurs, start drinking large volumes of rehydration fluids (е.g. water, 
+<p>As soon as the first liquid stool occurs, start drinking large volumes of rehydration fluids ( .g. water, 
 soda water, fizzy drinks, soup) to avoid losing too much liquid and salts from your body. Contact your 
 doctor immediately to give you a suitable treatment. Your doctor may give you a medicine which 
 contains loperamide to begin treatment at home but it must not be used for longer than 48 consecutive 
@@ -145,20 +145,24 @@ form. </p>
 <p>Tell your doctor, pharmacist or nurse if you are already having, or have recently had chemotherapy 
 and/or radiotherapy or treatment with the antifungal medicine flucytosine. </p>
 <p>It is also especially important that you tell your doctor if you are also taking the following medicines, 
-since they reduce the level of irinotecan in your body: 
-- phenytoin, phenobarbital or carbamazepine (medicines used to treat convulsions and falls) 
-- rifampicin and rifabutin (medicines used to treat tuberculosis) 
-- St. John´s wort (a plant-based medicine used to treat depression and low mood) </p>
+since they reduce the level of irinotecan in your body:</p>
+<ul>
+<li>phenytoin, phenobarbital or carbamazepine (medicines used to treat convulsions and falls) </li>
+<li>rifampicin and rifabutin (medicines used to treat tuberculosis) </li>
+<li>St. John s wort (a plant-based medicine used to treat depression and low mood) </li>
+</ul>
 <p>It is especially important that you tell your doctor if you are also taking the following medicines, since 
-they increase the level of irinotecan in your body: 
-- ketoconazole, itraconazole or voriconazole (medicines used to treat fungal infections) 
-- clarithromycin (an antibiotic medicine used to treat bacterial infections) 
-- indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, atazanavir (medicines against HIV 
-infection)<br />
-- regorafenib (a medicine against certain forms of cancer) 
-- telaprevir (a medicine used to treat a liver disease called hepatitis C) 
-- nefazodone (a medicine used to treat depression, low mood) 
-- gemfibrozil (medicine used to treat high fat levels in the blood) </p>
+they increase the level of irinotecan in your body:</p>
+<ul>
+<li>ketoconazole, itraconazole or voriconazole (medicines used to treat fungal infections) </li>
+<li>clarithromycin (an antibiotic medicine used to treat bacterial infections) </li>
+<li>indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, atazanavir (medicines against HIV 
+infection)  </li>
+<li>regorafenib (a medicine against certain forms of cancer) </li>
+<li>telaprevir (a medicine used to treat a liver disease called hepatitis C) </li>
+<li>nefazodone (a medicine used to treat depression, low mood) </li>
+<li>gemfibrozil (medicine used to treat high fat levels in the blood) </li>
+</ul>
 <p>ONIVYDE pegylated liposomal with food and drink </p>
 <p>Avoid eating grapefruits and drinking grapefruit juice while you are receiving ONIVYDE pegylated 
 liposomal as it may increase the level of irinotecan in your body. </p>
@@ -213,7 +217,7 @@ ONIVYDE pegylated liposomal to prevent or reduce this in the following treament 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. It is 
 important that you are aware of what these side effects may be. </p>
 <p>Your doctor may also prescribe other medicines to help control your side effects. </p>
-<p>Tell your doctor or nurse about any of the following serious side effects straight away: </p>
+<p>Tell your doctor or nurse about any of the following serious side effects straight away:</p>
 <ul>
 <li>if you experience swelling under the skin (angioedema) and/or symptoms of possible 
 anaphylactic/anaphylactoid reactions such as sudden shortness of breath, flushing, nausea, 
@@ -222,7 +226,7 @@ suddenly), itching, swelling around the eyes, and tightness in the chest or thro
 infusion or shortly after it. Severe allergic reactions may be life threatening.The infusion may 
 need to be stopped and you may need to be treated or observed for the side effects </li>
 <li>if you get fever, chills and signs of an infection (as this might require immediate treatment) </li>
-<li>if you have severe persistent diarrhoea (liquid and frequent stools)—see section 2 </li>
+<li>if you have severe persistent diarrhoea (liquid and frequent stools) see section 2 </li>
 </ul>
 <p>The following other side effects may occur: </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -287,7 +291,7 @@ sepsis)
 - Allergic reaction to ONIVYDE pegylated liposomal (the active substance or the excipients) 
 - Diminished availability of oxygen to the body tissues 
 - Inflammation of the oesophagus (food pipe) 
-- Formation or presence of a blood clot within a blood vessel – vein or artery (thrombosis) 
+- Formation or presence of a blood clot within a blood vessel   vein or artery (thrombosis) 
 - Inflammation of the lining of the rectum (the end of the large intestine) 
 - Hives (swollen red bumps)<br />
 - Skin rash<br />
@@ -308,15 +312,15 @@ medicine. </p>         </div>"""
   * code.text = "5. How to store onivyde"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and vial after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and vial after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). 
+<p>Store in a refrigerator (2 C - 8 C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Once the concentrate has been diluted for infusion with 5% glucose solution for injection or sodium 
 chloride 9 mg/ml (0.9%) solution for injection, the dispersion should be used as soon as possible, but 
-may be stored at ambient temperature (15°C to 25°C) for up to 6 hours. The diluted dispersion for 
-infusion can be stored in the refrigerator (2°C - 8°C) for no more than 24 hours prior to use. It must be 
+may be stored at ambient temperature (15 C to 25 C) for up to 6 hours. The diluted dispersion for 
+infusion can be stored in the refrigerator (2 C - 8 C) for no more than 24 hours prior to use. It must be 
 protected from light, and it must not be frozen. </p>
 <p>Do not throw away this medicine via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -336,115 +340,6 @@ N-(carbonyl-methoxypolyethylene glycol-2000)-1,2-distearoly-sn-glycero-3-phospho
 ine (MPEG-2000-DSPE); sucrose 
 octasulphate; 2- [4- (2-Hydroxyethyl)piperazin-1-yl]ethanesulfonic acid (HEPES buffer); 
 sodium chloride and water for injections. ONIVYDE pegylated liposomal contains sodium, if 
-you are on a controlled sodium diet, see section 2.<br />
-What ONIVYDE pegylated liposomal looks like and contents of the pack </li>
-</ul>
-<p>ONIVYDE pegylated liposomal is supplied as a white to slightly yellow opaque isotonic liposomal 
-dispersion in a glass vial. </p>
-<p>Each pack contains one vial with 10 ml of concentrate. </p>
-<p>Marketing Authorisation Holder 
-Les Laboratoires Servier 
-50, rue Carnot 
-92284 Suresnes cedex 
-France </p>
-<p>Manufacturer 
-Les Laboratoires Servier Industrie 
-905 Route de Saran 
-45520 Gidy<br />
-France  </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-S.A. Servier Benelux N.V. 
-Tél/Tel: +32 (0)2 529 43<br />
-Lietuva 
-UAB “SERVIER PHARMA” 
-Tel: +370 (5) 2 63 86<br />
-България 
-Сервие Медикал ЕООД 
-Тел.: +359 2 921 57<br />
-Luxembourg/Luxemburg 
-S.A. Servier Benelux N.V. 
-Tel: +32 (0)2 529 43<br />
-Česká republika 
-Servier s.r.o. 
-Tel: +420 222 118<br />
-Magyarország 
-Servier Hungaria Kft. 
-Tel: +36 1 238 7 
-Danmark 
-Servier Danmark A/S 
-Tlf: +45 36 44 22<br />
-Malta 
-V.J. Salomone Pharma Ltd<br />
-Tel: + 356 21 22 01  </p>
-<p>Deutschland 
-Servier Deutschland GmbH 
-Tel: +49 (0)89 57095<br />
-Nederland 
-Servier Nederland Farma B.V. 
-Tel: + 31 (0)71 5246 
-Eesti 
-Servier Laboratories OÜ<br />
-Tel:+ 372 664 5 
-Norge 
-Servier Danmark A/S 
-Tlf: +45 36 44 22<br />
-Eλλάδα 
-ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
-Τηλ: + 30 210 939 1 
-Österreich 
-Servier Austria GmbH 
-Tel: +43 (1) 524 39<br />
-España 
-Laboratorios Servier S.L. 
-Tel: + 34 91 748 96<br />
-Polska 
-Servier Polska Sp. z o.o. 
-Tel: + 48 (0) 22 594 90<br />
-France 
-Les Laboratoires Servier 
-Tél: + 33 (0)1 55 72 60<br />
-Portugal 
-Servier Portugal, Lda 
-Tel: + 351 21 312 20<br />
-Hrvatska 
-Servier Pharma, d. o. o. 
-Tel: + 385 (0)1 3016<br />
-România 
-Servier Pharma SRL 
-Tel: + 4 021 528 52<br />
-Ireland 
-Servier Laboratories (Ireland) Ltd. 
-Tel: + 353 (0)1 663 8 
-Slovenija 
-Servier Pharma d. o. o.<br />
-Tel: + 386 (0)1 563 48<br />
-Ísland 
-Servier Laboratories 
-c/o Icepharma hf 
-Sími: + 354 540 8 
-Slovenská republika 
-Servier Slovensko spol. s r.o. 
-Tel: + 421 2 5920 41<br />
-Italia 
-Servier Italia S.p.A. 
-Tel: + 39 (06) 669 
-Suomi/Finland 
-Servier Finland Oy 
-P. /Tel: +358 (0)9 279 80<br />
-Κύπρος 
-CA Papaellinas Ltd. 
-Τηλ: + 357 22 741<br />
-Sverige 
-Servier Sverige AB 
-Tel : +46 (0)8 522 508<br />
-Latvija 
-SIA Servier Latvia 
-Tel: + 371 67502 
-United Kingdom (Northern Ireland) 
-Servier Laboratories (Ireland) Ltd 
-Tel: +44 (0)1753 666 
-This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+you are on a controlled sodium diet, see section </li>
+</ul>         </div>"""      
 

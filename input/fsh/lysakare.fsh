@@ -4,7 +4,7 @@ Instance: composition-en-73814721e492c5f1086b1c5537e49b46
 InstanceOf: CompositionUvEpi
 Title: "Composition for lysakare Package Leaflet"
 Description:  "Composition for lysakare Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,7 +83,7 @@ Lutathera (lutetium (177Lu) oxodotreotide), a radioactive medicine used to treat
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take lysakare"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all of your doctor’s instructions carefully. As you will receive another treatment, Lutathera, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all of your doctor s instructions carefully. As you will receive another treatment, Lutathera, 
 with LysaKare, read the Lutathera leaflet carefully as well as this leaflet. 
 If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>
 <p>You should not be given LysaKare 
@@ -99,7 +99,7 @@ given medicines to prevent nausea and vomitting 30 minutes before the LysaKare i
 starting the infusion. The doctor will also check your kidney and liver function before starting the 
 infusion. For other tests which need to be performed before your treatment, please read the Lutathera 
 leaflet. 
-Follow your doctor’s advice on how much fluid to drink on the day of your treatment so you stay well 
+Follow your doctor s advice on how much fluid to drink on the day of your treatment so you stay well 
 hydrated. </p>
 <p>Children and adolescents 
 This medicine should not be given to children and adolescents under 18 years old because it is not 
@@ -153,15 +153,17 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the label after EXP. The expiry date 
 refers to the last day of that month. 
-LysaKare should be stored below 25°C. 
+LysaKare should be stored below 25 C. 
 You will not have to store this medicine. The correct storage, use and disposal of this medicine are 
 under the responsibility of the specialist in appropriate premises. You will receive LysaKare in a 
 controlled clinical setting. 
 The following information is intended for the healthcare specialist charged with your care. 
-Do not use this medicine: 
-- if you notice the solution is cloudy or has deposits. 
-- if overwrap has been previously opened or damaged. 
-- if the infusion bag is damaged or leaking  </p>         </div>"""      
+Do not use this medicine:</p>
+<ul>
+<li>if you notice the solution is cloudy or has deposits. </li>
+<li>if overwrap has been previously opened or damaged. </li>
+<li>if the infusion bag is damaged or leaking  </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -189,24 +191,23 @@ Zone Industrielle de Jalday
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SAM Nordic 
-Švedija 
-Tel: +46 8 720 58<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+ vedija 
+Tel: +46 8 720 58  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 M.G.P. spol. s r.o. 
 Tel: +420 602 303<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 SAM Nordic 
 Sverige 
@@ -225,14 +226,12 @@ Tel: +46 8 720 58<br />
 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58<br />
-Ελλάδα 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Τηλ: +30 22920 63 
-Österreich 
+Tlf: +46 8 720 58  </p>
+<p>: +30 22920 63 
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Advanced Accelerator Applications Ibérica, 
+Tel: +43 1 86 6Espa a 
+Advanced Accelerator Applications Ib rica, 
 S.L.U. 
 Tel: +34 97 6600<br />
 Polska 
@@ -241,13 +240,13 @@ o.o.
 Tel.: +48 22 275 56<br />
 France 
 Advanced Accelerator Applications 
-Tél: +33 1 55 47 63<br />
+T l: +33 1 55 47 63<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
@@ -255,11 +254,11 @@ Tel: +353 1 260 12 Slovenija
 Advanced Accelerator Applications 
 Francija 
 Tel: +33 1 55 47 63<br />
-Ísland 
+ sland 
 SAM Nordic 
-Svíþjóð 
-Sími: +46 8 720 58<br />
-Slovenská republika 
+Sv j<br />
+S mi: +46 8 720 58<br />
+Slovensk  republika 
 MGP, spol. s r.o. 
 Tel: +421 254 654<br />
 Italia 
@@ -267,11 +266,8 @@ Advanced Accelerator Applications (Italy) S.r.l.
 Tel: +39 0125 561Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58<br />
-Κύπρος 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Ελλάδα 
-Τηλ: +30 22920 63 
+Puh/Tel: +46 8 720 58  </p>
+<p>: +30 22920 63 
 Sverige 
 SAM Nordic 
 Tel: +46 8 720 58<br />

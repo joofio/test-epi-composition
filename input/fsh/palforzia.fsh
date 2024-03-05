@@ -4,7 +4,7 @@ Instance: composition-en-2a5703f6da594e7a35f6df08af026e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for palforzia Package Leaflet"
 Description:  "Composition for palforzia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ medicines called food allergens. It is a treatment for people who are allergic t
 hypogaea L.).  </p>
 <p>PALFORZIA is intended for children and young people aged from 4 to 17 years and those who 
 become adults whilst on treatment. </p>
-<p>PALFORZIA works in people with peanut allergy by gradually increasing the body’s ability to 
+<p>PALFORZIA works in people with peanut allergy by gradually increasing the body s ability to 
 tolerate small amounts of peanut (desensitisation). PALFORZIA can help reduce the severity of 
 allergic reactions after coming into contact with peanut. </p>
 <p>PALFORZIA is not effective against any other nut or food allergies. </p>
@@ -102,7 +102,7 @@ you have. </p>
 <p>You must not take any peanut or peanut containing food in your diet whilst taking PALFORZIA. </p>
 <p>It is important to keep a record of the batch number of your PALFORZIA. So, every time you get a 
 new package of PALFORZIA, note down the date and the batch number (which is on the packaging 
-after “Lot”) and keep this information in a safe place. </p>
+after  Lot ) and keep this information in a safe place. </p>
 <p>PALFORZIA does not treat the symptoms of peanut allergy and you must not take 
 PALFORZIA during an allergic reaction. </p>
 <p>Your doctor will advise the best time to start treatment depending on any medical conditions that you 
@@ -111,33 +111,37 @@ have.  </p>
 PALFORZIA may occur during treatment. These reactions mostly occur during the first two hours 
 after taking a PALFORZIA dose and are usually mild or moderate but ocasionally can be severe. </p>
 <p>Stop taking PALFORZIA and get medical treatment straight away if you have any of the following 
-symptoms: 
-- Trouble breathing 
-- Throat tightness or feeling of fulness in throat<br />
-- Trouble swallowing 
-- Change in voice<br />
-- Dizziness or fainting or feeling of impending doom 
-- Severe stomach cramps or pain, vomiting or diarrhoea 
-- Severe flushing or itching of the skin 
-- Worsening of asthma or of any other breathing condition 
-- Heartburn, difficult swallowing, pain with swallowing, stomach pain or chest pain that does 
-not go away or worsens </p>
-<p>Certain conditions or factors can increase the likelihood of an allergic reaction. These include: 
-- Worsening of asthma 
-- Having an open sore or other damage to the lining of the mouth or the passage leading from the 
-mouth to the stomach (oesophagus) 
-- Exercising 
-- Having a hot bath or shower 
-- Being very tired or missing sleep 
-- For women, having your period<br />
-- Taking certain pain medications such as aspirin or ibuprofen 
-- Drinking alcohol 
-- Being stressed 
-- Taking PALFORZIA on an empty stomach 
-- Having an illness such as a cold or flu or other viral infections </p>
+symptoms:</p>
+<ul>
+<li>Trouble breathing </li>
+<li>Throat tightness or feeling of fulness in throat  </li>
+<li>Trouble swallowing </li>
+<li>Change in voice  </li>
+<li>Dizziness or fainting or feeling of impending doom </li>
+<li>Severe stomach cramps or pain, vomiting or diarrhoea </li>
+<li>Severe flushing or itching of the skin </li>
+<li>Worsening of asthma or of any other breathing condition </li>
+<li>Heartburn, difficult swallowing, pain with swallowing, stomach pain or chest pain that does 
+not go away or worsens </li>
+</ul>
+<p>Certain conditions or factors can increase the likelihood of an allergic reaction. These include:</p>
+<ul>
+<li>Worsening of asthma </li>
+<li>Having an open sore or other damage to the lining of the mouth or the passage leading from the 
+mouth to the stomach (oesophagus) </li>
+<li>Exercising </li>
+<li>Having a hot bath or shower </li>
+<li>Being very tired or missing sleep </li>
+<li>For women, having your period  </li>
+<li>Taking certain pain medications such as aspirin or ibuprofen </li>
+<li>Drinking alcohol </li>
+<li>Being stressed </li>
+<li>Taking PALFORZIA on an empty stomach </li>
+<li>Having an illness such as a cold or flu or other viral infections </li>
+</ul>
 <p>There are actions you should take to avoid some of these factors from affecting you. These factors 
 include: exercise, having a hot bath or shower, drinking alcohol, or taking this medicine on an empty 
-stomach. See the sections on ‘PALFORZIA with food, drink and alcohol’ and ‘Dosing instructions’ 
+stomach. See the sections on  PALFORZIA with food, drink and alcohol  and  Dosing instructions<br />
 for advice on what to do about these. </p>
 <p>For all other conditions or factors listed above, contact your doctor for advice if you experience 
 allergic reactions during any of these. </p>
@@ -194,10 +198,10 @@ precise way. During the maintenance phase, you take the same dose of PALFORZIA e
 less controlled. </p>
 <p>Initial dose escalation </p>
 <p>You will be treated with the first doses (initial dose escalation) of PALFORZIA over about 4 to 
-5 hours in your doctor’s clinic. On the first day you will be treated with 0.5 mg, 1 mg, 1.5 mg, 3 mg, 
+5 hours in your doctor s clinic. On the first day you will be treated with 0.5 mg, 1 mg, 1.5 mg, 3 mg, 
 and 6 mg of PALFORZIA. </p>
 <p>Up-dosing </p>
-<p>If you tolerate the initial dose-escalation phase, you will be asked to return to your doctor’s clinic on 
+<p>If you tolerate the initial dose-escalation phase, you will be asked to return to your doctor s clinic on 
 another day (usually the next day) to start the up-dosing phase. </p>
 <p>There are 11 different dose levels of up-dosing, starting with PALFORZIA 3 mg (level 1) and 
 increasing to PALFORZIA 300 mg (level 11). </p>
@@ -207,39 +211,39 @@ Dose level
 Presentation of dose 
 3 mg 
 level 1 
-3 × 1 mg capsules (red) 
+3   1 mg capsules (red) 
 6 mg 
 level 2 
-6 × 1 mg capsules (red) 
+6   1 mg capsules (red) 
 12 mg 
 level 3 
-2 × 1 mg capsules (red) and<br />
-1 × 10 mg capsule (blue) 
+2   1 mg capsules (red) and<br />
+1   10 mg capsule (blue) 
 20 mg 
 level 4 
-1 × 20 mg capsule (white) 
+1   20 mg capsule (white) 
 40 mg 
 level 5 
-2 × 20 mg capsules (white) 
+2   20 mg capsules (white) 
 80 mg 
 level 6 
-4 × 20 mg capsules (white) 
+4   20 mg capsules (white) 
 120 mg 
 level 7 
-1 × 20 mg capsule (white) and<br />
-1 × 100 mg capsule (red) 
+1   20 mg capsule (white) and<br />
+1   100 mg capsule (red) 
 160 mg 
 level 8 
-3 × 20 mg capsules (white) and<br />
-1 × 100 mg capsule (red) 
+3   20 mg capsules (white) and<br />
+1   100 mg capsule (red) 
 200 mg 
 level 9 
-2 × 100 mg capsules (red) 
+2   100 mg capsules (red) 
 240 mg 
-level 2 × 20 mg capsules (white) and<br />
-2 × 100 mg capsules (red) 
+level 2   20 mg capsules (white) and<br />
+2   100 mg capsules (red) 
 300 mg 
-level 1 × 300mg sachet </p>
+level 1   300mg sachet </p>
 <p>The first dose of each up-dosing level is given to you by your doctor in a clinic. If you tolerate the first 
 dose of a new dose level, your doctor will ask you to continue to take that dose every day at home for 
 about 2 weeks. </p>
@@ -331,11 +335,13 @@ previously provided by your doctor, and then contact a doctor immediately.
 - Severe flushing or itching of the skin </p>
 <p>PALFORZIA can cause problems with the stomach and digestive system including eosinophilic 
 oesophagitis. This is a condition that affects the passage between the mouth and the stomach and 
-affects up to 1 in 1,000 people. Symptoms of eosinophilic oesophagitis can include: 
-- Trouble swallowing 
-- Food stuck in throat 
-- Burning in chest, mouth, or throat 
-- Regurgitation </p>
+affects up to 1 in 1,000 people. Symptoms of eosinophilic oesophagitis can include:</p>
+<ul>
+<li>Trouble swallowing </li>
+<li>Food stuck in throat </li>
+<li>Burning in chest, mouth, or throat </li>
+<li>Regurgitation </li>
+</ul>
 <p>If you have these symptoms persistently, contact a doctor. </p>
 <p>Other side effects </p>
 <p>Very common (may affect up to 1 in 10 people) 
@@ -355,11 +361,13 @@ affects up to 1 in 1,000 people. Symptoms of eosinophilic oesophagitis can inclu
 - Difficulty breathing 
 - Allergic reactions (severe) 
 - Wheezing </p>
-<p>Allergic reactions may affect different parts of the body as follows:<br />
-- Skin related: hives, flushing or itching of the skin, face swelling, rash 
-- Breathing related: difficulty breathing, wheezing, cough, throat tightness, runny nose, throat 
-irritation 
-- Stomach related: stomach pain, feeling sick, vomiting </p>
+<p>Allergic reactions may affect different parts of the body as follows:</p>
+<ul>
+<li>Skin related: hives, flushing or itching of the skin, face swelling, rash </li>
+<li>Breathing related: difficulty breathing, wheezing, cough, throat tightness, runny nose, throat 
+irritation </li>
+<li>Stomach related: stomach pain, feeling sick, vomiting </li>
+</ul>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -374,7 +382,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister or sachet 
 after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store below 25°C. </p>
+<p>Store below 25 C. </p>
 <p>Do not use this medicine if you notice any hard lumps of powder that do not easily fall apart or if the 
 powder is discoloured. </p>
 <p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
@@ -399,12 +407,14 @@ Microcrystalline cellulose, colloidal anhydrous silica, magnesium stearate </p>
 <p>What PALFORZIA looks like and contents of the pack </p>
 <p>White to beige oral powder in capsule for opening or sachet. </p>
 <p>Initial dose escalation (see section 3) </p>
-<p>Each carton contains 13 capsules in 5 single-dose blisters: 
-- 0.5 mg (1 × 0.5 mg capsule) 
-- 1 mg (1 × 1 mg capsule) 
-- 1.5 mg (1 × 0.5 mg capsule and 1 × 1 mg capsule) 
-- 3 mg (3 × 1 mg capsules) 
-- 6 mg (6 × 1 mg capsules) </p>
+<p>Each carton contains 13 capsules in 5 single-dose blisters:</p>
+<ul>
+<li>0.5 mg (1   0.5 mg capsule) </li>
+<li>1 mg (1   1 mg capsule) </li>
+<li>1.5 mg (1   0.5 mg capsule and 1   1 mg capsule) </li>
+<li>3 mg (3   1 mg capsules) </li>
+<li>6 mg (6   1 mg capsules) </li>
+</ul>
 <p>Up-dosing phase (see section 3) </p>
 <p>Name/Capsule or sachet strength 
 Pack contents by dose level (daily dose) 
@@ -476,7 +486,7 @@ Co Meath
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
@@ -491,15 +501,13 @@ Northwood Crescent
 Northwood, Dublin 9 
 D09 C6X8 
 Airija 
-Tel: +353 (0)1 5827 
-България 
-Aimmune Therapeutics Ireland Ltd. 
+Tel: +353 (0)1 5827 </p>
+<p>Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
-D09 C6X8 
-Ирландия<br />
-Teл.: +353 (0)1 5827 
+D09 C6X8 </p>
+<p>Te .: +353 (0)1 5827 
 Luxembourg/Luxemburg 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
@@ -507,8 +515,8 @@ Northwood Crescent
 Northwood, Dublin 9 
 D09 C6X8 
 Irlande/Irland 
-Tél/Tel: +353 (0)1 5827 
-Česká republika 
+T l/Tel: +353 (0)1 5827 
+ esk  republika 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
@@ -516,13 +524,13 @@ Northwood, Dublin 9
 D09 C6X8 
 Irsko<br />
 Tel: +353 (0)1 5827 
-Magyarország 
+Magyarorsz g 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
-Írország 
+ rorsz g 
 Tel.: +353 (0)1 5827 
 Danmark 
 Aimmune Therapeutics Ireland Ltd. 
@@ -542,8 +550,8 @@ L-Irlanda<br />
 Tel: +353 (0)1 5827 </p>
 <p>Deutschland 
 Aimmune Therapeutics Germany GmbH 
-Mies-van-der-Rohe-Straße 6 
-80807 München 
+Mies-van-der-Rohe-Stra e 6 
+80807 M nchen 
 Deutschland 
 Tel: +49 (0)800 00 09<br />
 Nederland 
@@ -569,22 +577,20 @@ Northwood Crescent
 Northwood, Dublin 9 
 D09 C6X8 
 Irland<br />
-Tlf: +47 800 60 
-Ελλάδα 
-Aimmune Therapeutics Ireland Ltd. 
+Tlf: +47 800 60 </p>
+<p>Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
-D09 C6X8 
-Ιρλανδία<br />
-Τηλ: +353 (0)1 5827 
-Österreich </p>
+D09 C6X8 </p>
+<p>: +353 (0)1 5827 
+ sterreich </p>
 <p>Aimmune Therapeutics Germany GmbH 
-Mies-van-der-Rohe-Straße 6 
-80807 München 
+Mies-van-der-Rohe-Stra e 6 
+80807 M nchen 
 Deutschland 
 Tel: +43 (0)800 017 
-España 
+Espa a 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
@@ -622,7 +628,7 @@ Northwood, Dublin 9
 D09 C6X8 
 Irska<br />
 Tel: +353 (0)1 5827 
-România 
+Rom nia 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
@@ -646,21 +652,21 @@ Northwood, Dublin 9
 D09 C6X8 
 Irska<br />
 Tel: +353 (0)1 5827 
-Ísland 
+ sland 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
-Írland<br />
-Sími: +353 (0)1 5827 
-Slovenská republika 
+ rland<br />
+S mi: +353 (0)1 5827 
+Slovensk  republika 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
-Írsko<br />
+ rsko<br />
 Tel: +353 (0)1 5827 
 Italia 
 Aimmune Therapeutics Ireland Ltd. 
@@ -677,15 +683,13 @@ Northwood Crescent
 Northwood, Dublin 9 
 D09 C6X8 
 Irlanti<br />
-Puh/Tel: +358 (0)800 916 
-Κύπρος 
-Aimmune Therapeutics Ireland Ltd. 
+Puh/Tel: +358 (0)800 916 </p>
+<p>Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
-D09 C6X8 
-Ιρλανδία<br />
-Τηλ: +353 (0)1 5827 
+D09 C6X8 </p>
+<p>: +353 (0)1 5827 
 Sverige 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
@@ -699,7 +703,7 @@ Block B, The Crescent Building
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
-Īrija 
+ rija 
 Tel: +353 (0)1 5827 
 United Kingdom (Northern Ireland) 
 Aimmune Therapeutics UK Ltd. 

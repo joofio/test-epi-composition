@@ -4,7 +4,7 @@ Instance: composition-en-7864f63eceae865956b53410a93ee1e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for cellcept Package Leaflet"
 Description:  "Composition for cellcept Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What cellcept is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CellCept contains mycophenolate mofetil.<br />
-* This belongs to a group of medicines called “immunosuppressants”.<br />
+* This belongs to a group of medicines called  immunosuppressants .<br />
 CellCept is used to prevent your body rejecting a transplanted organ. 
 * A kidney, heart or liver.<br />
 CellCept should be used together with other medicines: 
@@ -90,8 +90,8 @@ given to you by your doctor. </p>
 <p>Your doctor will speak to you and give you written information, particularly on the effects of 
 mycophenolate on unborn babies. Read the information carefully and follow the instructions. 
 If you do not fully understand these instructions, please ask your doctor to explain them again before you 
-take mycophenolate. See also further information in this section under “Warnings and precautions” and 
-“Pregnancy and breast-feeding”. </p>
+take mycophenolate. See also further information in this section under  Warnings and precautions  and 
+ Pregnancy and breast-feeding . </p>
 <p>Do not take CellCept: 
 * If you are allergic to mycophenolate mofetil, mycophenolic acid or any of the other ingredients of 
 this medicine (listed in section 6). 
@@ -117,7 +117,7 @@ syndrome </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor straight away before starting 
 treatment with CellCept. </p>
 <p>The effect of sunlight 
-CellCept reduces your body’s defences. As a result, there is an increased risk of skin cancer. Limit the 
+CellCept reduces your body s defences. As a result, there is an increased risk of skin cancer. Limit the 
 amount of sunlight and UV light you get. Do this by: 
 * wearing protective clothing that also covers your head, neck, arms and legs 
 * using a sunscreen with a high protection factor. </p>
@@ -130,16 +130,16 @@ medicines obtained without a prescription, such as herbal medicines. This is bec
 the way some other medicines work. Also other medicines can affect the way CellCept works. 
 In particular, tell your doctor or pharmacist if you are taking any of the following medicines before you 
 start CellCept: 
-* azathioprine or other medicines that suppress your immune system – given after a transplant 
+* azathioprine or other medicines that suppress your immune system   given after a transplant 
 operation 
-* cholestyramine – used to treat high cholesterol 
-* rifampicin – an antibiotic used to prevent and treat infections such as tuberculosis (TB) 
-* antacids or proton pump inhibitors – used for acid problems in your stomach such as indigestion 
-* phosphate binders – used by people with chronic kidney failure to reduce how much phosphate gets 
+* cholestyramine   used to treat high cholesterol 
+* rifampicin   an antibiotic used to prevent and treat infections such as tuberculosis (TB) 
+* antacids or proton pump inhibitors   used for acid problems in your stomach such as indigestion 
+* phosphate binders   used by people with chronic kidney failure to reduce how much phosphate gets 
 absorbed into their blood 
-* antibiotics – used to treat bacterial infections<br />
-* isavuconazole – used to treat fungal infections 
-* telmisartan – used to treat high blood pressure </p>
+* antibiotics   used to treat bacterial infections<br />
+* isavuconazole   used to treat fungal infections 
+* telmisartan   used to treat high blood pressure </p>
 <p>Vaccines 
 If you need to have a vaccination (a live vaccine) while taking CellCept, talk to your doctor or pharmacist 
 first. Your doctor will have to advise you on what vaccines you can have. </p>
@@ -168,7 +168,7 @@ salpingo-oophorectomy)
 * Your ovaries no longer work (premature ovarian failure, which has been confirmed by a specialist 
 gynaecologist) 
 * You were born with one of the following rare conditions that make pregnancy impossible: the XY 
-genotype, Turner’s syndrome or uterine agenesis 
+genotype, Turner s syndrome or uterine agenesis 
 * You are a child or teenager who has not started having periods. </p>
 <p>Contraception in men taking CellCept 
 The available evidence does not indicate an increased risk of malformations or miscarriage if the father 
@@ -197,14 +197,14 @@ starting treatment and must follow the contraception advice given to you by your
 request more than one test to ensure you are not pregnant before starting treatment. </p>
 <p>Breast-feeding 
 Do not take CellCept if you are breast-feeding. This is because small amounts of the medicine can pass 
-into the mother’s milk. </p>
+into the mother s milk. </p>
 <p>Driving and using machines 
 CellCept has a moderate influence on your ability to drive or use any tools or machines. If you feel 
 drowsy, numb or confused, talk to your doctor or nurse and do not drive or use any tools or machines until 
 you feel better. </p>
 <p>CellCept contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cellcept"
@@ -223,8 +223,8 @@ Adults
 <em> Take 4 capsules in the morning and then 4 capsules in the evening. 
 Children (aged 2 to 18 years) 
 * The dose given will vary depending on the size of the child.<br />
-</em> Your doctor will decide the most appropriate dose based on your child’s height and weight (body 
-surface area – measured as square metres or “m2”). The recommended dose is 600 mg/m² taken 
+</em> Your doctor will decide the most appropriate dose based on your child s height and weight (body 
+surface area   measured as square metres or  m2 ). The recommended dose is 600 mg/m  taken 
 twice a day. </p>
 <p>Heart transplant 
 Adults 
@@ -267,7 +267,7 @@ If you have any further questions on the use of this product, ask your doctor or
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, CellCept can cause side effects, although not everybody gets them. </p>
-<p>Talk to a doctor straight away if you notice any of the following serious side effects – you may need 
+<p>Talk to a doctor straight away if you notice any of the following serious side effects   you may need 
 urgent medical treatment: 
 * you have a sign of infection such as a fever or sore throat 
 * you have any unexpected bruising or bleeding 
@@ -280,7 +280,7 @@ vomiting. Your doctor will do regular blood tests to check for any changes in:
 <p>Children may be more likely than adults to have some side effects. These include diarrhoea, infections, 
 fewer white cells and fewer red cells in the blood. </p>
 <p>Fighting infections 
-CellCept reduces your body’s defences. This is to stop you rejecting your transplant. As a result, your 
+CellCept reduces your body s defences. This is to stop you rejecting your transplant. As a result, your 
 body will not be as good as normal at fighting infections. This means you may catch more infections than 
 usual. This includes infections of the brain, skin, mouth, stomach and gut, lungs and urinary system.  </p>
 <p>Lymph and skin cancer 
@@ -327,12 +327,14 @@ medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store cellcept"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton after EXP. 
-* Do not store above 25 °C.<br />
-* Store in the original package in order to protect from moisture. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton after EXP. </li>
+<li>Do not store above 25  C.  </li>
+<li>Store in the original package in order to protect from moisture. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -350,7 +352,7 @@ magnesium stearate
 titanium dioxide (E171), black iron oxide (E172), potassium hydroxide, shellac. </p>
 <p>What CellCept looks like and contents of the pack 
 - CellCept capsules are oblong-shaped with one end blue and the other end brown. They have 
-“CellCept 250” printed in black on the capsule cap and “Roche” printed in black on the capsule 
+ CellCept 250  printed in black on the capsule cap and  Roche  printed in black on the capsule 
 body. 
 - They are available as a carton of 100 or 300 capsules (both in blister packs of 10) or as a multipack 
 containing 300 (3 packs of 100) capsules. Not all pack sizes may be marketed. </p>
@@ -363,22 +365,20 @@ Germany </p>
 Roche Pharma AG, Emil-Barell-Str. 1, 79639 Grenzach Wyhlen, Germany. </p>
 <p>For any information about this medicinal product, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 
 Danmark 
 Roche Pharmaceuticals A/S 
@@ -392,18 +392,17 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
 Tel: +43 (0) 1 27 
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Polska 
@@ -411,27 +410,27 @@ Roche Polska Sp.z o.o.
 Tel: +48 - 22 345 18<br />
 France 
 Roche 
-Tél: +33 (0)1 47 61 40<br />
+T l: +33 (0)1 47 61 40<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o. 
 Tel: + 385 1 47 22<br />
-România 
-Roche România S.R.L. 
+Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47<br />
 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 
 Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
+S mi: +354 540 8 
+Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -439,9 +438,9 @@ Roche S.p.A.
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 
@@ -466,6 +465,6 @@ information for you. </p>
 <li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even 
 if their signs of illness are the same as yours. </li>
 <li>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
-listed in this leaflet. See section 4.  </li>
+listed in this leaflet. See section </li>
 </ul>         </div>"""      
 

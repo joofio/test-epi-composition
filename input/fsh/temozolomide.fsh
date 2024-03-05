@@ -4,7 +4,7 @@ Instance: composition-en-3303bb5898bc0c0c96b4a3e7898ece7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for temozolomide Package Leaflet"
 Description:  "Composition for temozolomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,13 +70,15 @@ Usage: #example
   * code.text =  "1. What temozolomide is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Temozolomide SUN contains a medicine called temozolomide. This medicine is an antitumour agent. </p>
-<p>Temozolomide SUN is used for the treatment of specific forms of brain tumours: 
-- in adults with newly-diagnosed glioblastoma multiforme. Temozolomide SUN is at first used 
+<p>Temozolomide SUN is used for the treatment of specific forms of brain tumours:</p>
+<ul>
+<li>in adults with newly-diagnosed glioblastoma multiforme. Temozolomide SUN is at first used 
 together with radiotherapy (concomitant phase of treatment) and after that alone (monotherapy 
-phase of treatment). 
-- in children 3 years and older and adult patients with malignant glioma, such as glioblastoma 
+phase of treatment). </li>
+<li>in children 3 years and older and adult patients with malignant glioma, such as glioblastoma 
 multiforme or anaplastic astrocytoma. Temozolomide SUN is used in these tumours if they 
-return or get worse after standard treatment. </p>         </div>"""   
+return or get worse after standard treatment. </li>
+</ul>         </div>"""   
           
 
              
@@ -163,9 +165,11 @@ weight) and whether you have a recurrent tumour and have had chemotherapy treatm
 You may be given other medicines (anti-emetics) to take before and/or after taking Temozolomide 
 SUN to prevent or control nausea and vomiting. </p>
 <p>Patients with newly-diagnosed glioblastoma multiforme </p>
-<p>If you are a newly-diagnosed patient, treatment will occur in two phases: 
-- treatment together with radiotherapy (concomitant phase) first 
-- followed by treatment with Temozolomide SUN only (monotherapy phase). </p>
+<p>If you are a newly-diagnosed patient, treatment will occur in two phases:</p>
+<ul>
+<li>treatment together with radiotherapy (concomitant phase) first </li>
+<li>followed by treatment with Temozolomide SUN only (monotherapy phase). </li>
+</ul>
 <p>During the concomitant phase, your doctor will start Temozolomide SUN at a dose of 75 mg/m2 (usual 
 dose). You will take this dose every day for 42 to 49 days in combination with radiotherapy. The 
 Temozolomide SUN dose may be delayed or stopped, depending on your blood counts and how you 
@@ -175,7 +179,7 @@ a chance to recover.
 Then, you will start the monotherapy phase. </p>
 <p>During the monotherapy phase, the dose and way you take Temozolomide SUN can vary. Your doctor 
 will work out your exact dose. There may be up to 6 treatment periods (cycles). Each one lasts days. The first dose will be 150 mg/m2. You will take your new dose of Temozolomide SUN once 
-daily for the first 5 days (“dosing days”) of each cycle. Then you will have 23 days without 
+daily for the first 5 days ( dosing days ) of each cycle. Then you will have 23 days without 
 Temozolomide SUN. This adds up to a 28-day treatment cycle. 
 After day 28, the next cycle will begin. You will again take Temozolomide SUN once daily for 5 days 
 followed by 23 days without Temozolomide SUN. The Temozolomide SUN dose may be adjusted, 
@@ -219,12 +223,14 @@ Temozolomide SUN 180 mg hard capsules
 930 &amp; 180 mg 
 Temozolomide SUN 250 mg hard capsules 
 893 &amp; 250 mg </p>
-<p>You should make sure you fully understand and remember the following: 
-- the number of capsules you need to take every dosing day. Ask your doctor or pharmacist to 
-write it down (including the marking) 
-- which days are your dosing days. 
+<p>You should make sure you fully understand and remember the following:</p>
+<ul>
+<li>the number of capsules you need to take every dosing day. Ask your doctor or pharmacist to 
+write it down (including the marking) </li>
+<li>which days are your dosing days. 
 Review the dose with your doctor each time you start a new cycle, since it may be different from the 
-last cycle. </p>
+last cycle. </li>
+</ul>
 <p>Always take Temozolomide SUN exactly as your doctor has told you. It is very important to check 
 with your doctor or pharmacist if you are not sure. Making a mistake in how you take this medicine 
 may have serious health consequences. </p>
@@ -244,13 +250,15 @@ do so. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact your doctor immediately if you have any of the following: 
-- a severe allergic (hypersensitive) reaction (hives, wheezing or other breathing difficulty) 
-- uncontrolled bleeding 
-- seizures (convulsions) 
-- fever 
-- chills 
-- severe headache that does not go away. </p>
+<p>Contact your doctor immediately if you have any of the following:</p>
+<ul>
+<li>a severe allergic (hypersensitive) reaction (hives, wheezing or other breathing difficulty) </li>
+<li>uncontrolled bleeding </li>
+<li>seizures (convulsions) </li>
+<li>fever </li>
+<li>chills </li>
+<li>severe headache that does not go away. </li>
+</ul>
 <p>Temozolomide SUN treatment can cause a reduction in certain kinds of blood cells. This may cause 
 you to have increased bruising or bleeding, anaemia (a shortage of red blood cells), fever, and reduced 
 resistance to infections. The reduction in blood cell counts is usually short-lived. In some cases, it may 
@@ -258,56 +266,62 @@ be prolonged and may lead to a very severe form of anaemia (aplastic anaemia). Y
 monitor your blood regularly for any changes, and will decide if any specific treatment is needed. In 
 some cases, your Temozolomide SUN dose will be reduced or treatment stopped. </p>
 <p>Other side effects that have been reported are listed below: </p>
-<p>Very common side effects (may affect more than 1 in 10 people) are: 
-- loss of appetite, difficulty speaking, headache 
-- vomiting, nausea, diarrhoea, constipation 
-- rash, hair loss 
-- tiredness. </p>
-<p>Common side effects (may affect up to 1 in 10 people) are: 
-- infections, oral infections, wound infections 
-- reduced number of blood cells (neutropenia, lymphopenia, thrombocytopenia) 
-- allergic reaction 
-- increased blood sugar 
-- memory impairment, depression, anxiety, confusion, inability to fall asleep or stay asleep 
-- impaired coordination and balance 
-- difficulty concentrating, change in mental status or alertness, forgetfulness 
-- dizziness, impaired sensations, tingling sensations, shaking, abnormal taste 
-- partial loss of vision, abnormal vision, double vision, dry or painful eyes 
-- deafness, ringing in the ears, earache 
-- blood clot in lung or legs, high blood pressure 
-- pneumonia, shortness of breath, bronchitis, cough, inflammation of your sinuses 
-- stomach or abdominal pain, upset stomach/heartburn, difficulty swallowing 
-- dry skin, itching 
-- muscle damage, muscle weakness, muscle aches and pain 
-- painful joint, back pain 
-- frequent urination, difficulty withholding your urine 
-- fever, flu-like symptoms, pain, feeling unwell, a cold or the flu 
-- fluid retention, swollen legs 
-- liver enzyme elevations 
-- loss of weight, weight gain 
-- radiation injury. </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people) are: 
-- brain infections (meningoencephalitis herpetic) including fatal cases 
-- new or reactivated cytomegalovirus infections 
-- reactivated hepatitis B virus infections 
-- secondary cancers including leukaemia 
-- reduced blood cell counts (pancytopenia, anaemia, leukopenia) 
-- red spots under the skin 
-- diabetes insipidus (symptoms include increased urination and feeling thirsty), low potassium 
-level in the blood 
-- mood swings, hallucination 
-- partial paralysis, change in your sense of smell 
-- hearing impairment, infection of the middle ear 
-- palpitations (when you can feel your heart beat), hot flushes 
-- swollen stomach, difficulty controlling your bowel movements, haemorrhoids, dry mouth 
-- hepatitis and injury to the liver (including fatal liver failure), cholestasis, increased bilirubin 
-- blisters on body or in mouth, skin peeling, skin eruption, painful reddening of the skin, severe 
-rash with skin swelling (including palms and soles) 
-- increased sensitivity to sunlight, urticaria (hives), increased sweating, change in skin colour 
-- difficulty in urinating 
-- vaginal bleeding, vaginal irritation, absent or heavy menstrual periods, breast pain, sexual 
-impotence 
-- shivering, face swelling, discolouration of the tongue, thirst, tooth disorder. </p>
+<p>Very common side effects (may affect more than 1 in 10 people) are:</p>
+<ul>
+<li>loss of appetite, difficulty speaking, headache </li>
+<li>vomiting, nausea, diarrhoea, constipation </li>
+<li>rash, hair loss </li>
+<li>tiredness. </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people) are:</p>
+<ul>
+<li>infections, oral infections, wound infections </li>
+<li>reduced number of blood cells (neutropenia, lymphopenia, thrombocytopenia) </li>
+<li>allergic reaction </li>
+<li>increased blood sugar </li>
+<li>memory impairment, depression, anxiety, confusion, inability to fall asleep or stay asleep </li>
+<li>impaired coordination and balance </li>
+<li>difficulty concentrating, change in mental status or alertness, forgetfulness </li>
+<li>dizziness, impaired sensations, tingling sensations, shaking, abnormal taste </li>
+<li>partial loss of vision, abnormal vision, double vision, dry or painful eyes </li>
+<li>deafness, ringing in the ears, earache </li>
+<li>blood clot in lung or legs, high blood pressure </li>
+<li>pneumonia, shortness of breath, bronchitis, cough, inflammation of your sinuses </li>
+<li>stomach or abdominal pain, upset stomach/heartburn, difficulty swallowing </li>
+<li>dry skin, itching </li>
+<li>muscle damage, muscle weakness, muscle aches and pain </li>
+<li>painful joint, back pain </li>
+<li>frequent urination, difficulty withholding your urine </li>
+<li>fever, flu-like symptoms, pain, feeling unwell, a cold or the flu </li>
+<li>fluid retention, swollen legs </li>
+<li>liver enzyme elevations </li>
+<li>loss of weight, weight gain </li>
+<li>radiation injury. </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people) are:</p>
+<ul>
+<li>brain infections (meningoencephalitis herpetic) including fatal cases </li>
+<li>new or reactivated cytomegalovirus infections </li>
+<li>reactivated hepatitis B virus infections </li>
+<li>secondary cancers including leukaemia </li>
+<li>reduced blood cell counts (pancytopenia, anaemia, leukopenia) </li>
+<li>red spots under the skin </li>
+<li>diabetes insipidus (symptoms include increased urination and feeling thirsty), low potassium 
+level in the blood </li>
+<li>mood swings, hallucination </li>
+<li>partial paralysis, change in your sense of smell </li>
+<li>hearing impairment, infection of the middle ear </li>
+<li>palpitations (when you can feel your heart beat), hot flushes </li>
+<li>swollen stomach, difficulty controlling your bowel movements, haemorrhoids, dry mouth </li>
+<li>hepatitis and injury to the liver (including fatal liver failure), cholestasis, increased bilirubin </li>
+<li>blisters on body or in mouth, skin peeling, skin eruption, painful reddening of the skin, severe 
+rash with skin swelling (including palms and soles) </li>
+<li>increased sensitivity to sunlight, urticaria (hives), increased sweating, change in skin colour </li>
+<li>difficulty in urinating </li>
+<li>vaginal bleeding, vaginal irritation, absent or heavy menstrual periods, breast pain, sexual 
+impotence </li>
+<li>shivering, face swelling, discolouration of the tongue, thirst, tooth disorder. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -323,7 +337,7 @@ safety of this medicine. </p>         </div>"""
 ingestion can be lethal for children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton. The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 25°C.  </p>
+<p>Do not store above 25 C.  </p>
 <p>Tell your pharmacist if you notice any change in the appearance of the capsules. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -365,22 +379,22 @@ Temozolomide SUN 250 mg hard capsules: shellac, propylene glycol, black iron oxi
 <p>What Temozolomide SUN looks like and contents of the pack </p>
 <p>5 mg hard capsules 
 Temozolomide SUN 5 mg hard capsules have a white opaque body and cap, imprinted in green ink. 
-The cap is imprinted with ‘890’. The body is imprinted with ‘5 mg’ and two stripes. </p>
+The cap is imprinted with  890 . The body is imprinted with  5 mg  and two stripes. </p>
 <p>20 mg hard capsules 
 Temozolomide SUN 20 mg hard capsules have a white opaque body and cap, imprinted in yellow ink. 
-The cap is imprinted with ‘891’. The body is imprinted with ’20 mg’ and two stripes. </p>
+The cap is imprinted with  891 . The body is imprinted with  20 mg  and two stripes. </p>
 <p>100 mg hard capsules 
 Temozolomide SUN 100 mg hard capsules have a white opaque body and cap, imprinted in pink ink. 
-The cap is imprinted with ‘892’. The body is imprinted with ‘100 mg’ and two stripes. </p>
+The cap is imprinted with  892 . The body is imprinted with  100 mg  and two stripes. </p>
 <p>140 mg hard capsules 
 Temozolomide SUN 140 mg hard capsules have a white opaque body and cap, imprinted in blue ink. 
-The cap is imprinted with ‘929’. The body is imprinted with ‘140 mg’ and two stripes. </p>
+The cap is imprinted with  929 . The body is imprinted with  140 mg  and two stripes. </p>
 <p>180 mg hard capsules 
 Temozolomide SUN 180 mg hard capsules have a white opaque body and cap, imprinted in red ink. 
-The cap is imprinted with ‘930’. The body is imprinted with ‘180 mg’ and two stripes. </p>
+The cap is imprinted with  930 . The body is imprinted with  180 mg  and two stripes. </p>
 <p>250 mg hard capsules 
 Temozolomide SUN 250 mg hard capsules have a white opaque body and cap, imprinted in black ink. 
-The cap is imprinted with ‘893’. The body is imprinted with ‘250 mg’ and two stripes. </p>
+The cap is imprinted with  893 . The body is imprinted with  250 mg  and two stripes. </p>
 <p>The hard capsules are available in blister packs containing 5 capsules. For the 20 capsules packs, 4 
 blisters of 5 capsules will be included in a carton. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -390,19 +404,19 @@ Polarisavenue 2132 JH Hoofddorp
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien/България/Česká republika/ 
-Danmark/Eesti/Ελλάδα/Hrvatska/Ireland/Ísland/ 
-Κύπρος/Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
-Malta/Nederland/Norge/Österreich/Portugal/ 
-Slovenija/Slovenská republika/Suomi/Finland/Sverige 
+<p>Belgi /Belgique/Belgien/ / esk  republika/ 
+Danmark/Eesti/ /Hrvatska/Ireland/ sland/ 
+ /Latvija/Lietuva/Luxembourg/Luxemburg/Magyarorsz g/ 
+Malta/Nederland/Norge/ sterreich/Portugal/ 
+Slovenija/Slovensk  republika/Suomi/Finland/Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
 Polarisavenue 2132 JH Hoofddorp 
-Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
-Nederlandene/Holland/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
-Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
-L-Olanda/Nederland/Nederland/Niederlande/Países Baixos/ 
-Nizozemska/Holandsko/Alankomaat/Nederländerna/Nederländerna 
-Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
+Nederland/Pays-Bas/Niederlande/ /Nizozemsko/ 
+Nederlandene/Holland/ /Nizozemska/The Netherlands/Holland/ 
+ /N derlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
+L-Olanda/Nederland/Nederland/Niederlande/Pa ses Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederl nderna/Nederl nderna 
+Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
  +31 (0)23 568 5 
 Deutschland 
 Sun Pharmaceuticals Germany GmbH 
@@ -410,10 +424,10 @@ Hemmelrather Weg<br />
 51377 Leverkusen 
 Deutschland 
 tel. +49 214 403<br />
-España 
+Espa a 
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
-España 
+Espa a 
 tel. +34 93 342 78<br />
 France 
 Sun Pharma France 
@@ -433,10 +447,10 @@ ul. Kubickiego 11<br />
 02-954 Warszawa<br />
 Polska 
 Tel. +48 22 642 07<br />
-România 
+Rom nia 
 Terapia S.A. 
-Str. Fabricii nr Cluj-Napoca, Judeţul Cluj 
-România 
+Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
+Rom nia 
 Tel. +40 (264) 501<br />
 United Kingdom (Northern Ireland) 
 Ranbaxy UK Ltd 

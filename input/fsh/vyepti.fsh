@@ -4,7 +4,7 @@ Instance: composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyepti Package Leaflet"
 Description:  "Composition for vyepti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -146,17 +146,19 @@ If a dose is missed, your doctor will decide when the next dose should be given.
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact your doctor or nurse immediately if you notice any of the following side effects – you may 
+<p>Contact your doctor or nurse immediately if you notice any of the following side effects   you may 
 need urgent medical treatment: </p>
 <p>Common: may affect up to 1 in 10 people: 
 * allergic reactions and other reactions due to the infusion 
-Reactions can develop quickly during infusion. Symptoms of allergic reactions are: 
-- breathing difficulties 
-- fast or weak pulse 
-- sudden drop in blood pressure making you feel dizzy or lightheaded 
-- swelling of the lips or tongue 
-- severe skin itching, rash 
-Serious allergic reactions are uncommon (may affect up to 1 in 100 people). </p>
+Reactions can develop quickly during infusion. Symptoms of allergic reactions are:</p>
+<ul>
+<li>breathing difficulties </li>
+<li>fast or weak pulse </li>
+<li>sudden drop in blood pressure making you feel dizzy or lightheaded </li>
+<li>swelling of the lips or tongue </li>
+<li>severe skin itching, rash 
+Serious allergic reactions are uncommon (may affect up to 1 in 100 people). </li>
+</ul>
 <p>Other symptoms that may occur due to the infusion include respiratory symptoms (such as blocked or 
 runny nose, throat irritation, cough, sneezing, shortness of breath) and feeling tired. These symptoms 
 are usually non-serious and of short duration. </p>
@@ -179,14 +181,14 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerater (2°C - 8°C). 
+<p>Store in a refrigerater (2 C - 8 C). 
 Do not freeze or shake. 
 Keep the vial in the outer carton in order to protect from light. </p>
-<p>If removed from the refrigerator, VYEPTI must be kept at room temperature (below 25°C) in the 
+<p>If removed from the refrigerator, VYEPTI must be kept at room temperature (below 25 C) in the 
 original carton and used within 2 days, or else discarded. Do not put VYEPTI back in the<br />
 refrigerator once it has been removed. 
-After dilution, the solution may be stored at room temperature (below 25°C) or in a refrigerater at 
-2°C - 8°C. The diluted solution for infusion must be given within 8 hours. </p>
+After dilution, the solution may be stored at room temperature (below 25 C) or in a refrigerater at 
+2 C - 8 C. The diluted solution for infusion must be given within 8 hours. </p>
 <p>Do not use this medicine if you notice that the solution contains visible particles or is cloudy or 
 discolored. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
@@ -218,23 +220,22 @@ Ottiliavej 9
 Denmark </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Lundbeck S.A./N.V. 
-Tél/Tel: +32 2 535 7979  </p>
+T l/Tel: +32 2 535 7979  </p>
 <p>Lietuva 
 H. Lundbeck A/S 
 Tel: +45 36301311(Danija)<br />
 lietuva@lundbeck.com </p>
-<p>България 
-Lundbeck Export A/S Representative Office 
+<p>Lundbeck Export A/S Representative Office 
 Tel: +359 2 962 4 
 Luxembourg/Luxemburg 
 Lundbeck S.A. 
-Tél: +32 2 535 7 
-Česká republika 
-Lundbeck Česká republika s.r.o. 
+T l: +32 2 535 7 
+ esk  republika 
+Lundbeck  esk  republika s.r.o. 
 Tel: +420 225 275<br />
-Magyarország 
+Magyarorsz g 
 Lundbeck Hungaria Kft. 
 Tel: +36 1 4369 
 Danmark 
@@ -253,21 +254,20 @@ Lundbeck Eesti AS
 Tel: + 372 605 9 
 Norge 
 H. Lundbeck AS<br />
-Tlf: +47 91 300<br />
-Ελλάδα 
-Lundbeck Hellas S.A. 
-Τηλ: +30 210 610 5 
-Österreich 
+Tlf: +47 91 300  </p>
+<p>Lundbeck Hellas S.A. 
+ : +30 210 610 5 
+ sterreich 
 Lundbeck Austria GmbH 
 Tel: +43 1 253 621 6033  </p>
-<p>España 
-Lundbeck España S.A. 
+<p>Espa a 
+Lundbeck Espa a S.A. 
 Tel: +34 93 494 9Polska 
 Lundbeck Poland Sp. z o. o.<br />
 Tel.: + 48 22 626 93<br />
 France 
 Lundbeck SAS 
-Tél: + 33 1 79 41 29<br />
+T l: + 33 1 79 41 29<br />
 Portugal 
 Lundbeck Portugal Lda 
 Tel: +351 21 00 45<br />
@@ -277,15 +277,15 @@ Tel.: + 385 1 6448
 Ireland 
 Lundbeck (Ireland) Limited 
 Tel: +353 1 468 9 
-România 
+Rom nia 
 Lundbeck Romania SRL<br />
 Tel: +40 21319 88<br />
 Slovenija 
 Lundbeck Pharma d.o.o. 
-Tel.: +386 2 229 4Ísland 
+Tel.: +386 2 229 4 sland 
 Vistor hf.<br />
 Tel: +354 535 7000  </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Lundbeck Slovensko s.r.o. 
 Tel: +421 2 5341 42<br />
 Italia 
@@ -293,16 +293,15 @@ Lundbeck Italia S.p.A.
 Tel: +39 02 677 4 
 Suomi/Finland 
 Oy H. Lundbeck Ab 
-Puh/Tel: +358 2 276 5 
-Κύπρος 
-Lundbeck Hellas A.E 
-Τηλ.: +357 22490 
+Puh/Tel: +358 2 276 5 </p>
+<p>Lundbeck Hellas A.E 
+ .: +357 22490 
 Sverige 
 H. Lundbeck AB 
 Tel: +46 40 699 8200  </p>
 <p>Latvija 
 H. Lundbeck A/S 
-Tel: +45 36301311(Dānija) 
+Tel: +45 36301311(D nija) 
 latvia@lundbeck.com </p>
 <p>United Kingdom (Northern Ireland) 
 Lundbeck Ireland Limited 

@@ -4,7 +4,7 @@ Instance: composition-en-d3bf47e7430f03a3543b0c027649dc7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for roteas Package Leaflet"
 Description:  "Composition for roteas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,13 +71,15 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Roteas contains the active substance edoxaban and belongs to a group of medicines called 
 anticoagulants. This medicine helps to prevent blood clots from forming. It works by blocking the 
 activity of factor Xa, which is an important component of blood clotting. </p>
-<p>Roteas is used in adults to: 
-- prevent blood clots in the brain (stroke) and other blood vessels in the body if you have a 
+<p>Roteas is used in adults to:</p>
+<ul>
+<li>prevent blood clots in the brain (stroke) and other blood vessels in the body if you have a 
 form of irregular heart rhythm called nonvalvular atrial fibrillation and at least one additional 
-risk factor, such as heart failure, previous stroke or high blood pressure; 
-- treat blood clots in the veins of the legs (deep vein thrombosis) and in the blood vessels in 
+risk factor, such as heart failure, previous stroke or high blood pressure; </li>
+<li>treat blood clots in the veins of the legs (deep vein thrombosis) and in the blood vessels in 
 the lungs (pulmonary embolism), and to prevent blood clots from re-occurring in the blood 
-vessels in the legs and/or lungs. </p>         </div>"""   
+vessels in the legs and/or lungs. </li>
+</ul>         </div>"""   
           
 
              
@@ -112,8 +114,14 @@ conditions:
 * problems with the blood vessels in your brain or spinal column; 
 - if you have a mechanical heart valve. </p>
 <p>Roteas 15 mg is only to be used when changing from Roteas 30 mg to a vitamin K antagonist (e.g. 
-warfarin) (see section 3. How to take Roteas). </p>
-<p>Take special care with Roteas, 
+warfarin) (see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take roteas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take roteas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Take special care with Roteas, 
 - if you know that you have a disease called antiphospholipid syndrome (a disorder of the 
 immune system that causes an increased risk for blood clots), tell your doctor who will decide if 
 the treatment may need to be changed. </p>
@@ -143,7 +151,7 @@ may increase the effects of Roteas and the chance of unwanted bleeding. Your doc
 you should be treated with Roteas and if you should be kept under observation. </p>
 <p>If you are taking any of the following: 
 * some medicines for treatment of epilepsy (e.g. phenytoin, carbamazepine, phenobarbital); 
-* St John’s Wort, a herbal product used for anxiety and mild depression; 
+* St John s Wort, a herbal product used for anxiety and mild depression; 
 * rifampicin, an antibiotic medicine. </p>
 <p>If any of the above apply to you, tell your doctor before taking Roteas, because the effect of Roteas 
 may be reduced. Your doctor will decide if you should be treated with Roteas and if you should be 
@@ -153,12 +161,13 @@ kept under observation. </p>
 pregnant, use a reliable contraceptive while you are taking Roteas. If you become pregnant while you 
 are taking Roteas, immediately tell your doctor, who will decide how you should be treated. </p>
 <p>Driving and using machines </p>
-<p>Roteas has no or negligible effects on your ability to drive or use machines. </p>         </div>"""   
-                    
+<p>Roteas has no or negligible effects on your ability to drive or use machines. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take roteas"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take roteas"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -214,13 +223,12 @@ as usual. Do not take a double dose on the same day to make up for a forgotten d
 <p>If you stop taking Roteas </p>
 <p>Do not stop taking Roteas without talking to your doctor first, because Roteas treats and prevents 
 serious conditions. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store roteas"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store roteas"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Like other similar medicines (medicines to reduce blood clotting), Roteas may cause bleeding which 
@@ -274,10 +282,11 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store roteas"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store roteas"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on each blister or 
@@ -285,159 +294,4 @@ bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Roteas contains  </p>
-<ul>
-<li>The active substance is edoxaban (as tosilate). </li>
-</ul>
-<p>Roteas 15 mg film-coated tablets 
-Each tablet contains 15 mg edoxaban (as tosilate). </p>
-<p>Roteas 30 mg film-coated tablets 
-Each tablet contains 30 mg edoxaban (as tosilate). </p>
-<p>Roteas 60 mg film-coated tablets 
-Each tablet contains 60 mg edoxaban (as tosilate). </p>
-<ul>
-<li>The other ingredients are: </li>
-</ul>
-<p>Roteas 15 mg film-coated tablets 
-Tablet core: mannitol (E421), pregelatinised starch, crospovidone (E1202), hydroxypropyl cellulose 
-(E463), magnesium stearate (E470b). 
-Film coat: hypromellose (E464), macrogol (8000), titanium dioxide (E171), talc (E553b), carnauba 
-wax, iron oxide red (E172), iron oxide yellow (E172). </p>
-<p>Roteas 30 mg film-coated tablets 
-Tablet core: mannitol (E421), pregelatinised starch, crospovidone (E1202), hydroxypropyl cellulose 
-(E463), magnesium stearate (E470b). 
-Film coat: hypromellose (E464), macrogol (8000), titanium dioxide (E171), talc (E553b), carnauba 
-wax, iron oxide red (E172). </p>
-<p>Roteas 60 mg film-coated tablets 
-Tablet core: mannitol (E421), pregelatinised starch, crospovidone (E1202), hydroxypropyl cellulose 
-(E463), magnesium stearate (E470b). 
-Film coat: hypromellose (E464), macrogol (8000), titanium dioxide (E171), talc (E553b), carnauba 
-wax, iron oxide yellow (E172). </p>
-<p>What Roteas looks like and contents of the pack </p>
-<p>Roteas 15 mg film-coated tablets are orange, round-shaped (6.7 mm diameter) and debossed with 
-“DSC L15” on one side. 
-They come in blisters in cartons of 10 film-coated tablets or unit dose blisters in cartons of 10 x 1 film-
-coated tablets. </p>
-<p>Roteas 30 mg film-coated tablets are pink, round-shaped (8.5 mm diameter) and debossed with 
-“DSC L30” on one side. 
-They come in blisters in cartons of 10, 14, 28, 30, 56, 60, 84, 90, 98 or 100 film-coated tablets or unit 
-dose blisters in cartons of 10 x 1, 50 x 1, or 100 x 1 film-coated tablets, or in bottles of 90 film-coated 
-tablets. </p>
-<p>Roteas 60 mg film-coated tablets are yellow, round-shaped (10.5 mm diameter) and debossed with 
-“DSC L60” on one side. 
-They come in blisters in cartons of 10, 14, 28, 30, 56, 60, 84, 90, 98 or 100 film-coated tablets or unit 
-dose blisters in cartons of 10 x 1, 50 x 1, or 100 x 1 film-coated tablets, or in bottles of 90 film-coated 
-tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Berlin-Chemie AG 
-Glienicker Weg 12489 Berlin 
-Germany </p>
-<p>Manufacturer 
-Daiichi Sankyo Europe GmbH 
-Luitpoldstrasse 1 
-85276 Pfaffenhofen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Lietuva 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-България 
-“Берлин-Хеми/А. Менарини<br />
-България”  EООД 
-тел.: +359 2 454 0 
-Luxembourg/Luxemburg 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Česká republika 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Magyarország 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Danmark 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Malta 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Deutschland 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Nederland 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Eesti 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Norge 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Ελλάδα 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Österreich 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-España 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Polska 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-France 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Portugal 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Hrvatska 
-Berlin-Chemie Menarini Hrvatska d.o.o. 
-Tel : +385 1 4821<br />
-România 
-Berlin-Chemie А.Menarini S.R.L. 
-Tel: +40 21 232 34 Ireland 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Slovenija 
-Berlin-Chemie / A. Menarini Distribution 
-Ljubljana d.o.o. 
-Tel: +386 01 300 2 
-Ísland 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Slovenská republika 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Italia 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Suomi/Finland 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Κύπρος 
-Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 </p>
-<p>Sverige 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Latvija 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-United Kingdom (Northern Ireland) 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

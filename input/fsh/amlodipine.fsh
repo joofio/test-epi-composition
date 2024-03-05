@@ -4,7 +4,7 @@ Instance: composition-en-613075564472c8742b180667f231d172
 InstanceOf: CompositionUvEpi
 Title: "Composition for amlodipine Package Leaflet"
 Description:  "Composition for amlodipine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,13 +69,11 @@ Usage: #example
   * code.text =  "1. What amlodipine is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Amlodipine/Valsartan Mylan tablets contain two active substances called amlodipine and valsartan. 
-Both of these substances help to control high blood pressure.<br />
-− 
-Amlodipine belongs to a group of substances called “calcium channel blockers”. Amlodipine 
+Both of these substances help to control high blood pressure.  </p>
+<p>Amlodipine belongs to a group of substances called  calcium channel blockers . Amlodipine 
 stops calcium from moving into the blood vessel wall which stops the blood vessels from 
-tightening.<br />
-− 
-Valsartan belongs to a group of substances called “angiotensin-II receptor antagonists”. 
+tightening.  </p>
+<p>Valsartan belongs to a group of substances called  angiotensin-II receptor antagonists . 
 Angiotensin II is produced by the body and makes the blood vessels tighten, thus increasing the 
 blood pressure. Valsartan works by blocking the effect of angiotensin II.<br />
 This means that both of these substances help to stop the blood vessels tightening. As a result, the 
@@ -90,64 +88,45 @@ controlled enough with either amlodipine or valsartan on its own. </p>         <
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take amlodipine"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Amlodipine/Valsartan Mylan: 
-− 
-if you are allergic to amlodipine or to any other calcium channel blockers. This may involve 
-itching, reddening of the skin or difficulty in breathing.<br />
-− 
-if you are allergic to valsartan or any of the other ingredients of this medicine (listed in section<br />
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Amlodipine/Valsartan Mylan: </p>
+<p>if you are allergic to amlodipine or to any other calcium channel blockers. This may involve 
+itching, reddening of the skin or difficulty in breathing.  </p>
+<p>if you are allergic to valsartan or any of the other ingredients of this medicine (listed in section<br />
 6). If you think you may be allergic, talk to your doctor before taking Amlodipine/Valsartan 
-Mylan.<br />
-− 
-if you have severe liver problems or bile problems such as biliary cirrhosis or cholestasis.<br />
-− 
-if you are more than 3 months pregnant (It is also better to avoid Amlodipine/Valsartan Mylan 
-in early pregnancy, see Pregnancy section).<br />
-− 
-if you have severe low blood pressure (hypotension).<br />
-− 
-if you have narrowing of the aortic valve (aortic stenosis) or cardiogenic shock (a condition 
-where your heart is unable to supply enough blood to the body). 
-− 
-if you suffer from heart failure after a heart attack.  </p>
-<p>− 
-if you have diabetes or impaired kidney function and you are treated with a blood pressure 
+Mylan.  </p>
+<p>if you have severe liver problems or bile problems such as biliary cirrhosis or cholestasis.  </p>
+<p>if you are more than 3 months pregnant (It is also better to avoid Amlodipine/Valsartan Mylan 
+in early pregnancy, see Pregnancy section).  </p>
+<p>if you have severe low blood pressure (hypotension).  </p>
+<p>if you have narrowing of the aortic valve (aortic stenosis) or cardiogenic shock (a condition 
+where your heart is unable to supply enough blood to the body). </p>
+<p>if you suffer from heart failure after a heart attack.  </p>
+<p>if you have diabetes or impaired kidney function and you are treated with a blood pressure 
 lowering medicine containing aliskiren.  </p>
 <p>If any of the above applies to you, do not take Amlodipine/Valsartan Mylan and talk to your 
 doctor. </p>
 <p>Warnings and precautions<br />
-Talk to your doctor before taking Amlodipine/Valsartan Mylan:<br />
-− 
-if you have been sick (vomiting or diarrhoea).<br />
-− 
-if you have liver or kidney problems.<br />
-− 
-if you have had a kidney transplant or if you had been told that you have a narrowing of your 
-kidney arteries.<br />
-− 
-if you have a condition affecting the renal glands called “primary hyperaldosteronism”.<br />
-− 
-if you have had heart failure or have experienced a heart attack. Follow your doctor’s 
-instructions for the starting dose carefully. Your doctor may also check your kidney function.<br />
-− 
-if your doctor has told you that you have a narrowing of the valves in your heart (called “aortic 
-or mitral stenosis”) or that the thickness of your heart muscle is abnormally increased (called 
-“obstructive hypertrophic cardiomyopathy”).<br />
-− 
-if you have experienced swelling, particularly of the face and throat, while taking other 
+Talk to your doctor before taking Amlodipine/Valsartan Mylan:  </p>
+<p>if you have been sick (vomiting or diarrhoea).  </p>
+<p>if you have liver or kidney problems.  </p>
+<p>if you have had a kidney transplant or if you had been told that you have a narrowing of your 
+kidney arteries.  </p>
+<p>if you have a condition affecting the renal glands called  primary hyperaldosteronism .  </p>
+<p>if you have had heart failure or have experienced a heart attack. Follow your doctor s 
+instructions for the starting dose carefully. Your doctor may also check your kidney function.  </p>
+<p>if your doctor has told you that you have a narrowing of the valves in your heart (called  aortic 
+or mitral stenosis ) or that the thickness of your heart muscle is abnormally increased (called 
+ obstructive hypertrophic cardiomyopathy ).  </p>
+<p>if you have experienced swelling, particularly of the face and throat, while taking other 
 medicines (including angiotensin converting enzyme inhibitors). If you get these symptoms, 
 stop taking Amlodipine/Valsartan Mylan and contact your doctor straight away. You should 
-never take Amlodipine/Valsartan Mylan again.<br />
-− 
-if you have kidney problems where the blood supply to your kidneys is reduced (renal artery 
-stenosis) 
-− 
-if you are taking any of the following medicines used to treat high blood pressure:<br />
-− 
-an angiotensin converting enzyme (ACE) inhibitor (for example enalapril, lisinopril, 
-ramipril), in particular if you have diabetes-related kidney problems.<br />
-− 
-aliskiren.  </p>
+never take Amlodipine/Valsartan Mylan again.  </p>
+<p>if you have kidney problems where the blood supply to your kidneys is reduced (renal artery 
+stenosis) </p>
+<p>if you are taking any of the following medicines used to treat high blood pressure:  </p>
+<p>an angiotensin converting enzyme (ACE) inhibitor (for example enalapril, lisinopril, 
+ramipril), in particular if you have diabetes-related kidney problems.  </p>
+<p>aliskiren.  </p>
 <p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. 
 potassium) in your blood at regular intervals.  </p>
 <p>If any of these apply to you, tell your doctor before taking Amlodipine/Valsartan Mylan. </p>
@@ -157,43 +136,28 @@ Do not give this medicine to children and adolescents below 18 years old. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Your doctor may need to change your dose and/or to take other precautions. In some cases 
 you may have to stop taking one of the medicines. This applies especially to the medicines listed 
-below:<br />
-− 
-ACE inhibitors or aliskiren (see also information under the headings “Do not take 
-Amlodipine/Valsartan Mylan” and “Warnings and precautions”);<br />
-− 
-diuretics (a type of medicine also called “water tablets” which increases the amount of urine you 
-produce);<br />
-− 
-lithium (a medicine used to treat some types of depression);<br />
-− 
-potassium-sparing diuretics, potassium supplements, salt substitutes containing potassium and 
-other substances that may increase potassium levels;<br />
-− 
-certain types of painkillers called non-steroidal anti-inflammatory medicines (NSAIDs) or 
+below:  </p>
+<p>ACE inhibitors or aliskiren (see also information under the headings  Do not take 
+Amlodipine/Valsartan Mylan  and  Warnings and precautions );  </p>
+<p>diuretics (a type of medicine also called  water tablets  which increases the amount of urine you 
+produce);  </p>
+<p>lithium (a medicine used to treat some types of depression);  </p>
+<p>potassium-sparing diuretics, potassium supplements, salt substitutes containing potassium and 
+other substances that may increase potassium levels;  </p>
+<p>certain types of painkillers called non-steroidal anti-inflammatory medicines (NSAIDs) or 
 selective cyclooxygenase-2 inhibitors (COX-2 inhibitors). Your doctor may also check your 
-kidney function;<br />
-− 
-anticonvulsant agents (e.g. carbamazepine, phenobarbital, phenytoin, fosphenytoin, primidone);<br />
-− 
-St. John’s wort;<br />
-− 
-nitroglycerin and other nitrates, or other substances called “vasodilators”;<br />
-− 
-medicines used for HIV/AIDS (e.g. ritonavir, indinavir, nelfinavir); </p>
-<p>− 
-medicines used to treat fungal infections (e.g. ketoconazole, itraconazole);<br />
-− 
-medicines used to treat bacterial infections (such as rifampicin, erythromycin, clarithromycin, 
-talithromycin); 
-− 
-verapamil, diltiazem (heart medicines);<br />
-− 
-simvastatin (a medicine used to control high cholesterol levels);<br />
-− 
-dantrolene (infusion for severe body temperature abnormalities);<br />
-− 
-medicines used to protect against transplant rejection (ciclosporin).  </p>
+kidney function;  </p>
+<p>anticonvulsant agents (e.g. carbamazepine, phenobarbital, phenytoin, fosphenytoin, primidone);  </p>
+<p>St. John s wort;  </p>
+<p>nitroglycerin and other nitrates, or other substances called  vasodilators ;  </p>
+<p>medicines used for HIV/AIDS (e.g. ritonavir, indinavir, nelfinavir); </p>
+<p>medicines used to treat fungal infections (e.g. ketoconazole, itraconazole);  </p>
+<p>medicines used to treat bacterial infections (such as rifampicin, erythromycin, clarithromycin, 
+talithromycin); </p>
+<p>verapamil, diltiazem (heart medicines);  </p>
+<p>simvastatin (a medicine used to control high cholesterol levels);  </p>
+<p>dantrolene (infusion for severe body temperature abnormalities);  </p>
+<p>medicines used to protect against transplant rejection (ciclosporin).  </p>
 <p>Amlodipine/Valsartan Mylan with food and drink 
 Grapefruit and grapefruit juice should not be consumed by people who are taking 
 Amlodipine/Valsartan Mylan. This is because grapefruit and grapefruit juice can lead to an increase in 
@@ -226,13 +190,10 @@ need to concentrate on. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. This will help you get the best results and lower the risk of side effects.  </p>
-<p>The usual dose of Amlodipine/Valsartan Mylan is one tablet per day.<br />
-− 
-It is preferable to take your medicine at the same time each day.<br />
-− 
-Swallow the tablets with a glass of water.<br />
-− 
-You can take Amlodipine/Valsartan Mylan with or without food. Do not take 
+<p>The usual dose of Amlodipine/Valsartan Mylan is one tablet per day.  </p>
+<p>It is preferable to take your medicine at the same time each day.  </p>
+<p>Swallow the tablets with a glass of water.  </p>
+<p>You can take Amlodipine/Valsartan Mylan with or without food. Do not take 
 Amlodipine/Valsartan Mylan with grapefruit or grapefruit juice.  </p>
 <p>Depending on how you respond to the treatment, your doctor may suggest a higher or lower strength.  </p>
 <p>Do not exceed the prescribed dose.  </p>
@@ -285,21 +246,15 @@ Amlodipine/Valsartan Mylan or observed with a higher frequency than with
 Amlodipine/Valsartan Mylan: </p>
 <p>Amlodipine  </p>
 <p>Consult a doctor immediately if you experience any of the following very rare, severe side effects 
-after taking this medicine:<br />
-− 
-Sudden wheeziness, chest pain, shortness of breath or difficulty in breathing.  </p>
-<p>− 
-Swelling of eyelids, face or lips.<br />
-− 
-Swelling of the tongue and throat which causes great difficulty breathing.<br />
-− 
-Severe skin reactions including intense skin rash, hives, reddening of the skin over your whole 
+after taking this medicine:  </p>
+<p>Sudden wheeziness, chest pain, shortness of breath or difficulty in breathing.  </p>
+<p>Swelling of eyelids, face or lips.  </p>
+<p>Swelling of the tongue and throat which causes great difficulty breathing.  </p>
+<p>Severe skin reactions including intense skin rash, hives, reddening of the skin over your whole 
 body, severe itching, blistering, peeling and swelling of the skin, inflammation of the mucous 
-membranes (Stevens-Johnson Syndrome, toxic epidermal necrolysis) or other allergic reactions.<br />
-− 
-Heart attack, abnormal heart beat.<br />
-− 
-Inflamed pancreas, which may cause severe abdominal and back pain accompanied with feeling 
+membranes (Stevens-Johnson Syndrome, toxic epidermal necrolysis) or other allergic reactions.  </p>
+<p>Heart attack, abnormal heart beat.  </p>
+<p>Inflamed pancreas, which may cause severe abdominal and back pain accompanied with feeling 
 of being very unwell.  </p>
 <p>The following side effects have been reported. If any of these cause you problems or if they last for 
 more than one week, you should contact your doctor. </p>
@@ -381,13 +336,13 @@ colloidal anhydrous; hypromellose; macrogol 8000; talc; titanium dioxide (E171);
 <p>What Amlodipine/Valsartan Mylan looks like and contents of the pack </p>
 <p>Amlodipine/Valsartan Mylan 5 mg/80 mg film-coated tablets 
 Amlodipine/Valsartan Mylan 5 mg/80 mg tablets are light yellow, round, biconvex film-coated tablet 
-marked with “AV1” on one side and “M” on the other side. </p>
+marked with  AV1  on one side and  M  on the other side. </p>
 <p>Amlodipine/Valsartan Mylan 5 mg/160 mg film-coated tablets 
 Amlodipine/Valsartan Mylan 5 mg/160 mg tablets are yellow, oval, biconvex film-coated tablet 
-marked with “AV2” on one side and “M” on the other side. </p>
+marked with  AV2  on one side and  M  on the other side. </p>
 <p>Amlodipine/Valsartan Mylan 10 mg/160 mg film-coated tablets 
 Amlodipine/Valsartan Mylan 10 mg/160 mg tablets are light brown, oval, biconvex film-coated tablet 
-marked with “AV3” on one side and “M” on the other side. </p>
+marked with  AV3  on one side and  M  on the other side. </p>
 <p>Amlodipine/Valsartan Mylan is available in blister packs containing 14, 28, 30, 56, 90 or 98 tablets. 
 All packs are available in perforated unit dose blisters; the 14, 28, 56 and 98 tablet packs are also 
 available in standard blisters.<br />
@@ -405,27 +360,25 @@ Unit 35/36 Baldoyle Industrial Estate,
 Grange Road, Dublin Ireland </p>
 <p>Mylan Hungary Kft. 
 Mylan utca 1, 
-Komárom - 2Hungary </p>
+Kom rom - 2Hungary </p>
 <p>Mylan Germany GmbH 
 Zweigniederlassung Bad Homburg v. d. Hoehe 
 Benzstrasse 1, Bad Homburg v. d. Hoehe, Hessen, 61Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Viatris<br />
-Tél/Tel: + 32 (0)2 658 61 00  </p>
+T l/Tel: + 32 (0)2 658 61 00  </p>
 <p>Lietuva 
 Mylan Healthcare UAB<br />
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: +359 2 44 55 Luxembourg/Luxemburg 
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
 Viatris<br />
 Tel: + 32 (0)2 658 61 00<br />
 (Belgique/Belgien)  </p>
-<p>Česká republika 
+<p>esk  republika 
 Viatris CZ s.r.o.<br />
-Tel: + 420 222 004 Magyarország 
+Tel: + 420 222 004 Magyarorsz g 
 Mylan EPD Kft 
 Tel: + 36 1 465 2 
 Danmark<br />
@@ -444,21 +397,20 @@ Norge </p>
 Tel: + 372 6363<br />
 Viatris AS 
 Tlf: + 47 66 75 33 00  </p>
-<p>Ελλάδα 
-Viatris Hellas Ltd<br />
-Τηλ: + 30 2100 100 002  </p>
-<p>Österreich 
+<p>Viatris Hellas Ltd<br />
+ : + 30 2100 100 002  </p>
+<p>sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2<br />
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U<br />
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z.o.o.<br />
 Tel: + 48 22 546 64 00<br />
 France 
-Viatris Santé 
-Tél: + 33 4 37 25 75 00  </p>
+Viatris Sant<br />
+T l: + 33 4 37 25 75 00  </p>
 <p>Portugal 
 Mylan, Lda.<br />
 Tel: + 351 214 127 200<br />
@@ -467,16 +419,16 @@ Viatris Hrvatska d.o.o.<br />
 Tel: +385 1 23 50<br />
 Ireland 
 Mylan Ireland Limited 
-Tel: +353 1 8711România 
+Tel: +353 1 8711Rom nia 
 BGP Products SRL<br />
 Tel: + 40 372 579<br />
 Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63  </p>
-<p>Ísland 
+<p>sland 
 Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o.<br />
 Tel: +421 2 32 199<br />
 Italia<br />
@@ -484,9 +436,8 @@ Mylan Italia S.r.l.
 Tel: + 39 02 612 46921<br />
 Suomi/Finland 
 Viatris OyPuh/Tel: + 358 20 720 9  </p>
-<p>Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7 
+<p>Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: + 46 (0)8 630 19 00<br />

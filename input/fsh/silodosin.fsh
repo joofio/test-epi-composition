@@ -4,7 +4,7 @@ Instance: composition-en-97c09c3f6bb46169676674f25613736c
 InstanceOf: CompositionUvEpi
 Title: "Composition for silodosin Package Leaflet"
 Description:  "Composition for silodosin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -108,8 +108,8 @@ before taking Silodosin Recordati.<br />
 Dizziness when standing up and occasionally fainting may occur when taking Silodosin 
 Recordati, particularly when starting treatment or if you are taking other medicines that lower 
 blood pressure. If this occurs, make sure you sit or lie down straight away until the symptoms 
-have disappeared and inform your doctor as soon as possible (see also section “Driving and 
-using machines”).  </p>
+have disappeared and inform your doctor as soon as possible (see also section  Driving and 
+using machines ).  </p>
 </li>
 <li>
 <p>If you have severe liver problems, you should not take Silodosin Recordati, as it was not tested 
@@ -118,7 +118,7 @@ in this condition. </p>
 <li>
 <p>If you have problems with your kidneys, please ask your doctor for advice.<br />
 If you have moderate kidney problems, your doctor will start Silodosin Recordati with caution 
-and possibly with a lower dose (see section 3 “Dose”).<br />
+and possibly with a lower dose (see section 3  Dose ).<br />
 If you have severe kidney problems, you should not take Silodosin Recordati. </p>
 </li>
 <li>
@@ -162,7 +162,7 @@ taking this medicine. </p>
 <p>Do not drive or operate machines if you feel faint, dizzy, drowsy or have blurred vision. </p>
 <p>Silodosin Recordati contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take silodosin"
@@ -206,13 +206,13 @@ If you do feel weak or dizzy, make sure you sit or lie down straight away until 
 disappeared. If dizziness when standing up or fainting occurs, please inform your doctor as soon as 
 possible. </p>
 <p>Silodosin Recordati may cause complications during a cataract surgery (eye surgery because of 
-cloudiness of the lens, see section “Warnings and precautions”). 
+cloudiness of the lens, see section  Warnings and precautions ). 
 It is important that you immediately inform your eye specialist if you are using or have previously 
 used Silodosin Recordati. </p>
 <p>The possible side effects are listed below: </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
-* Abnormal ejaculation (less or no noticeable semen is released during sex, see section “Warnings 
-and precautions”) </p>
+* Abnormal ejaculation (less or no noticeable semen is released during sex, see section  Warnings 
+and precautions ) </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
 * Dizziness, including dizziness when standing up (see also above, in this section) 
 * Runny or blocked nose 
@@ -249,7 +249,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 °C. 
+<p>Do not store above 30  C. 
 Store in the original package in order to protect from light and moisture. </p>
 <p>Do not use this medicine if you notice that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -265,13 +265,124 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>Silodosin Recordati 8 mg 
 The active substance is silodosin. Each capsule contains 8 mg of silodosin.  </p>
 <p>The other ingredients are pregelatinised maize starch, mannitol (E421), magnesium stearate, sodium 
-laurilsulfate, gelatin and titanium dioxide (E171). Please refer to section 2 “Silodosin Recordati 
-contains sodium”. </p>
+laurilsulfate, gelatin and titanium dioxide (E171). Please refer to section 2  Silodosin Recordati 
+contains sodium . </p>
 <p>Silodosin Recordati 4 mg 
 The active substance is silodosin. Each capsule contains 4 mg of silodosin.  </p>
 <p>The other ingredients are pregelatinised maize starch, mannitol (E421), magnesium stearate, sodium 
 laurilsulfate gelatin, titanium dioxide (E171), and yellow iron oxide (E172). Please refer to section 2 
-“Silodosin Recordati contains sodium”. </p>
+ Silodosin Recordati contains sodium . </p>
 <p>What Silodosin Recordati looks like and contents of the pack </p>
-<p>Silodosin Recordati 8 mg are white, opaque, hard gelatin capsules, size 0 (approximately 21.7 x </p>         </div>"""      
+<p>Silodosin Recordati 8 mg are white, opaque, hard gelatin capsules, size 0 (approximately 21.7 x 
+7.6 mm). </p>
+<p>Silodosin Recordati 4 mg are yellow, opaque, hard gelatin capsules, size 3 (approximately 15.9 x 
+5.8 mm). </p>
+<p>Silodosin Recordati is available in packs containing 10, 20, 30, 50, 90, 100 capsules. Not all pack sizes 
+may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Recordati Ireland Ltd. 
+Raheens East 
+Ringaskiddy Co. Cork 
+Ireland </p>
+<p>Manufacturer </p>
+<p>Recordati Industria Chimica e Farmaceutica S.p.A. 
+Via Matteo Civitali 1 
+20148 Milan 
+Italy </p>
+<p>Laboratoires Bouchara-Recordati 
+Parc M catronic 
+03410 Saint Victor 
+France </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:  </p>
+<p>Belgi /Belgique/Belgien 
+Recordati Ireland Ltd. 
+T l/Tel: + 353 21 4379 
+Lietuva 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 </p>
+<p>Recordati Ireland Ltd. 
+ .: + 353 21 4379 
+Luxembourg/Luxemburg 
+Recordati Ireland Ltd. 
+T l/Tel: + 353 21 4379 
+ esk  republika 
+Herbacos Recordati s.r.o. 
+Tel: + 420 466 741<br />
+Magyarorsz g 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Danmark 
+Recordati Ireland Ltd. 
+Tlf: + 353 21 4379 
+Malta 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Deutschland 
+Recordati Pharma GmbH 
+Tel: + 49 731 70 
+Nederland 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Eesti 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Norge 
+Recordati Ireland Ltd. 
+Tlf: + 353 21 4379 </p>
+<p>Recordati Hellas Pharmaceuticals A.E. 
+ : + 30 210-6773 
+ sterreich 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Espa a 
+Casen Recordati, S.L. 
+Tel: + 34 91 659 15<br />
+Polska 
+Recordati Polska sp. z o.o. 
+Tel: + 48 22 206 84<br />
+France 
+Laboratoires BOUCHARA-RECORDATI 
+T l: + 33 1 45 19 10<br />
+Portugal 
+Jaba Recordati, S.A. 
+Tel: + 351 21 432 95<br />
+Hrvatska 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Rom nia 
+Recordati Rom nia S.R.L. 
+Tel: + 40 21 667 17<br />
+Ireland 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Slovenija 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+ sland 
+Recordati Ireland Ltd. 
+S mi: + 353 21 4379 
+Slovensk  republika 
+Herbacos Recordati s.r.o. 
+Tel: + 420 466 741<br />
+Italia 
+Recordati Industria Chimica e Farmaceutica S.p.A. 
+Tel: + 39 02 487 
+Suomi/Finland 
+Recordati Ireland Ltd. 
+Puh/Tel: + 353 21 4379 </p>
+<p>Recordati Ireland Ltd. 
+ : + + 353 21 4379 
+Sverige 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+Latvija 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 
+United Kingdom (Northern Ireland) 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379 </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

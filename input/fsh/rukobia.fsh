@@ -4,7 +4,7 @@ Instance: composition-en-4ebd45ede513ed024b967ea8c9e55dab
 InstanceOf: CompositionUvEpi
 Title: "Composition for rukobia Package Leaflet"
 Description:  "Composition for rukobia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,28 +89,23 @@ in helping your body fight infection. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rukobia<br />
 * if you are allergic to fostemsavir or to any of the other ingredients of this medicine (listed in 
 Section 6) 
-* if you are taking any of these medicines: 
-o carbamazepine, or phenytoin (used to treat epilepsy and prevent seizures (fits)) 
-o mitotane (to treat several types of cancer) 
-o enzalutamide (to treat prostate cancer) 
-o rifampicin (to treat some bacterial infections such as tuberculosis) 
-o medicines that contain St John’s wort (Hypericum perforatum) (a herbal product for 
+* if you are taking any of these medicines: * carbamazepine, or phenytoin (used to treat epilepsy and prevent seizures (fits)) * mitotane (to treat several types of cancer) * enzalutamide (to treat prostate cancer) * rifampicin (to treat some bacterial infections such as tuberculosis) * medicines that contain St John s wort (Hypericum perforatum) (a herbal product for 
 depression). 
- If you think any of these apply to you, do not take Rukobia until you have checked with your 
+  If you think any of these apply to you, do not take Rukobia until you have checked with your 
 doctor. </p>
 <p>Warnings and precautions<br />
 Conditions you need to look out for<br />
 Some people taking medicines for HIV infection develop other conditions, which can be serious. 
 These include:  </p>
-<p>• infections and inflammation 
-• joint pain, stiffness and bone problems 
+<p>infections and inflammation 
+  joint pain, stiffness and bone problems 
 You need to know about important signs and symptoms to look out for while you are taking Rukobia.<br />
- See Section 4 of this leaflet. </p>
+  See Section 4 of this leaflet. </p>
 <p>Before you take Rukobia your doctor needs to know 
 * if you have or had a heart problem, or if you notice any unusual changes in your heart beat 
 (such as beating too fast or too slow). Rukobia can affect heart rhythm. 
 * if you have or had liver disease, including hepatitis B or hepatitis C. <br />
- Talk to your doctor if this applies to you. You may need extra check-ups, including blood tests, 
+  Talk to your doctor if this applies to you. You may need extra check-ups, including blood tests, 
 while you are taking your medicines. </p>
 <p>You will need regular blood tests 
 For as long as you are taking Rukobia, your doctor will arrange regular blood tests to measure the 
@@ -120,7 +115,7 @@ effects in Section 4 of this leaflet. </p>
 Rukobia helps to control your condition, but it is not a cure for HIV infection. You need to keep taking 
 it every day to stop your illness from getting worse. Because Rukobia does not cure HIV infection, 
 you may still develop other infections and illnesses linked to HIV infection. 
- Keep in touch with your doctor, and do not stop taking Rukobia without your doctor’s advice. </p>
+  Keep in touch with your doctor, and do not stop taking Rukobia without your doctor s advice. </p>
 <p>Children and adolescents 
 Rukobia is not recommended for people aged under 18 years because it has not been studied in this 
 age group. </p>
@@ -133,11 +128,11 @@ or if you start taking new ones.  </p>
 * mitotane, to treat several types of cancer 
 * enzalutamide, to treat prostate cancer 
 * rifampicin, to treat some bacterial infections such as tuberculosis 
-* products that contain St John’s wort (Hypericum perforatum) (an herbal product for 
+* products that contain St John s wort (Hypericum perforatum) (an herbal product for 
 depression). 
 This medicine is not recommended with Rukobia: </p>
-<p>• elbasvir/grazoprevir, to treat hepatitis C infection. </p>
-<p> Tell your doctor or pharmacist if you are being treated with this medicine. </p>
+<p>elbasvir/grazoprevir, to treat hepatitis C infection. </p>
+<p>Tell your doctor or pharmacist if you are being treated with this medicine. </p>
 <p>Some medicines can affect how Rukobia works  </p>
 <p>Or they can make it more likely that you will have side effects. Rukobia can also affect how some 
 other medicines work. 
@@ -148,12 +143,12 @@ conditions
 cholesterol levels 
 * ethinyl estradiol, used for birth control 
 * tenofovir alafenamide, used as an antiviral. 
- Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust 
+  Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust 
 your dose or that you need extra check-ups. </p>
 <p>Pregnancy<br />
 If you are pregnant, or think you could be, or if you are planning to have a baby, do not take 
 Rukobia without checking with your doctor. Your doctor will discuss with you the benefit and the 
-risk to your baby of taking Rukobia while you’re pregnant. </p>
+risk to your baby of taking Rukobia while you re pregnant. </p>
 <p>Breast-feeding 
 Breast-feeding is not recommended in women living with HIV because HIV infection can be passed 
 on to the baby in breast milk.  </p>
@@ -175,7 +170,7 @@ if you are not sure. </p>
 <li>The usual dose of Rukobia is one 600 mg tablet, twice a day. </li>
 <li>
 <p>Rukobia should be swallowed whole, with some liquid. Do not chew, crush or split the tablets 
-— if you do, there is a danger the medicine may be released into your body too quickly.  </p>
+  if you do, there is a danger the medicine may be released into your body too quickly.  </p>
 </li>
 <li>
 <p>You can take Rukobia with or without food. </p>
@@ -207,19 +202,19 @@ People with advanced HIV infection (AIDS) have weak immune systems, and are more
 develop serious infections (opportunistic infections). When they start treatment, the immune system 
 becomes stronger, so the body starts to fight infections. 
 Symptoms of infection and inflammation may develop, caused by either: 
-• old, hidden infections flaring up again as the body fights them<br />
-• the immune system mistakenly attacking healthy body tissue (autoimmune disorders). </p>
+  old, hidden infections flaring up again as the body fights them<br />
+  the immune system mistakenly attacking healthy body tissue (autoimmune disorders). </p>
 <p>The symptoms of autoimmune disorders may develop many months after you start taking medicine to 
 treat your HIV infection.  </p>
 <p>Symptoms may include: 
-• muscle weakness and/or pain 
-• joint pain or swelling 
-• weakness that starts in the hands and feet and moves up towards the trunk of the body 
-• palpitations or tremor 
-• excessive restlessness and movement (hyperactivity). </p>
+  muscle weakness and/or pain 
+  joint pain or swelling 
+  weakness that starts in the hands and feet and moves up towards the trunk of the body 
+  palpitations or tremor 
+  excessive restlessness and movement (hyperactivity). </p>
 <p>If you get any symptoms of infection and inflammation or if you notice any of the symptoms 
 above: 
- Tell your doctor immediately. Do not take other medicines for the infection without 
+  Tell your doctor immediately. Do not take other medicines for the infection without 
 checking with your doctor. </p>
 <p>Very common side effects (may affect more than 1 in 10 people):<br />
 * feeling sick (nausea) 
@@ -228,7 +223,7 @@ checking with your doctor. </p>
 * stomach pain (abdominal pain) 
 * headache 
 * rash. 
- Talk to your doctor if you get any side effects. </p>
+  Talk to your doctor if you get any side effects. </p>
 <p>Common side effects (may affect up to 1 in 10 people):<br />
 * indigestion (dyspepsia) 
 * lack of energy (fatigue) 
@@ -240,7 +235,7 @@ checking with your doctor. </p>
 * wind 
 * difficulty sleeping (insomnia) 
 * itching (pruritus). 
- Talk to your doctor if you get any side effects. </p>
+  Talk to your doctor if you get any side effects. </p>
 <p>Some side effects may only be seen in your blood tests and may not appear immediately after you start 
 taking Rukobia.  </p>
 <p>Common side effects that may show up in blood tests are: 
@@ -257,17 +252,17 @@ Other side effects have occurred in some people but their exact frequency is unk
 Some people taking combination therapy for HIV develop a condition called osteonecrosis. With this 
 condition, parts of the bone tissue die because of reduced blood supply to the bone. People may be 
 more likely to get this condition: 
-• if they have been taking combination therapy for a long time 
-• if they are also taking anti-inflammatory medicines called corticosteroids 
-• if they drink alcohol 
-• if their immune systems are very weak 
-• if they are overweight. 
+  if they have been taking combination therapy for a long time 
+  if they are also taking anti-inflammatory medicines called corticosteroids 
+  if they drink alcohol 
+  if their immune systems are very weak 
+  if they are overweight. 
 Signs of osteonecrosis include: 
-• stiffness in the joints 
-• aches and pains in the joints (especially in the hip, knee or shoulder) 
-• difficulty moving. </p>
+  stiffness in the joints 
+  aches and pains in the joints (especially in the hip, knee or shoulder) 
+  difficulty moving. </p>
 <p>If you notice any of these symptoms: </p>
-<p>→ Tell your doctor. </p>
+<p>Tell your doctor. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -293,14 +288,14 @@ throw away medicines no longer required. This will help protect the environment.
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rukobia contains<br />
-– The active substance is fostemsavir. Each tablet contains fostemsavir tromethamine 
+  The active substance is fostemsavir. Each tablet contains fostemsavir tromethamine 
 equivalent to 600 mg fostemsavir.<br />
-– The other ingredients are hydroxypropylcellulose, hypromellose, colloidal anhydrous silica, 
+  The other ingredients are hydroxypropylcellulose, hypromellose, colloidal anhydrous silica, 
 magnesium stearate, poly(vinyl alcohol), titanium dioxide (E171), macrogol 3350, talc, iron 
 oxide yellow (E172), iron oxide red (E172). </p>
 <p>What Rukobia looks like and contents of the pack 
 Rukobia 600 mg prolonged-release tablets are beige, oval, biconvex tablets, approximately 19 mm in 
-length, 10 mm in width, and 8 mm in thickness, film-coated, and marked with the code ‘SV 1V7’ on 
+length, 10 mm in width, and 8 mm in thickness, film-coated, and marked with the code  SV 1V7  on 
 one side.  </p>
 <p>Each pack consists of one or three bottles, each containing 60 prolonged-release tablets.  </p>
 <p>Not all pack sizes may be available in your country. </p>
@@ -315,21 +310,20 @@ Strada Provinciale Asolana, San Polo di Torrile
 Parma, 43Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 ViiV Healthcare srl/bv<br />
-Tél/Tel: + 32 (0) 10 85 65 Lietuva 
+T l/Tel: + 32 (0) 10 85 65 Lietuva 
 ViiV Healthcare BV 
-Tel: + 370 80000 
-България 
-ViiV Healthcare BV 
-Teл.: + 359 80018Luxembourg/Luxemburg 
+Tel: + 370 80000 </p>
+<p>ViiV Healthcare BV 
+Te .: + 359 80018Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv<br />
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 65<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 65<br />
+ esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 ViiV Healthcare BV 
 Tel: + 36 80088 
 Danmark 
@@ -351,14 +345,13 @@ Tel: + 372 8002 </p>
 <p>Norge 
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20  </p>
-<p>Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 Laboratorios ViiV Healthcare, S.L.<br />
 Tel: + 34 900 923 501<br />
 es-ci@viivhealthcare.com </p>
@@ -367,7 +360,7 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 </p>
 <p>France 
 ViiV Healthcare SAS<br />
-Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com 
+T l.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com 
 Portugal 
 VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
 Tel: + 351 21 094 08 01<br />
@@ -375,7 +368,7 @@ viiv.fi.pt@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV 
 Tel: + 385 800787 
-România 
+Rom nia 
 ViiV Healthcare BV 
 Tel: + 40800672 
 Ireland 
@@ -384,10 +377,10 @@ Tel: + 353 (0)1 4955
 Slovenija 
 ViiV Healthcare BV 
 Tel: + 386 80688 </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 ViiV Healthcare BV 
 Tel: + 421 800500 </p>
 <p>Italia 
@@ -396,9 +389,8 @@ Tel: + 39 (0)45 7741
 Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 (0)10 30 30 Finland.tuoteinfo@gsk.com </p>
-<p>Κύπρος 
-ViiV Healthcare BV 
-Τηλ: + 357 80070 </p>
+<p>ViiV Healthcare BV 
+ : + 357 80070 </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

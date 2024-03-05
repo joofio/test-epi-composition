@@ -4,7 +4,7 @@ Instance: composition-en-5c2b8f77912f929e72c278c66c99126f
 InstanceOf: CompositionUvEpi
 Title: "Composition for evoltra Package Leaflet"
 Description:  "Composition for evoltra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,8 +70,8 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Evoltra contains the active substance clofarabine. Clofarabine is one of a family of medicines called 
 anticancer medicines. It works by hindering the growth of abnormal white blood cells, and eventually 
-kills them. It works best against cells which are multiplying quickly – such as cancer cells. </p>
-<p>Evoltra is used to treat children (≥ 1 year old), teenagers and young adults up to 21 years old with 
+kills them. It works best against cells which are multiplying quickly   such as cancer cells. </p>
+<p>Evoltra is used to treat children (  1 year old), teenagers and young adults up to 21 years old with 
 acute lymphoblastic leukaemia (ALL) when previous treatments have not worked or have stopped 
 working. Acute lymphoblastic leukaemia is caused by abnormal growth of some types of white blood 
 cells. </p>         </div>"""   
@@ -86,48 +86,54 @@ cells. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Evoltra<br />
 - if you are allergic to clofarabine or any of the other ingredients of this medicine (listed in 
 section 6); 
-- if you are breast-feeding (please read the section “Pregnancy and breast-feeding” below); 
+- if you are breast-feeding (please read the section  Pregnancy and breast-feeding  below); 
 - if you have severe kidney or liver problems. </p>
 <p>Tell your doctor if any of these conditions apply to you.  If you are the parent of a child who is 
 being treated with Evoltra, tell the doctor if any of them apply to your child. </p>
 <p>Warnings and precautions<br />
-Tell your doctor if any of these apply to you.  Evoltra may not be suitable for you: 
-- if you have suffered a severe reaction after previously using this medicine; 
-- if you have kidney disease, or used to have it; 
-- if you have liver disease, or used to have it; 
-- if you have heart disease, or used to have it. </p>
+Tell your doctor if any of these apply to you.  Evoltra may not be suitable for you:</p>
+<ul>
+<li>if you have suffered a severe reaction after previously using this medicine; </li>
+<li>if you have kidney disease, or used to have it; </li>
+<li>if you have liver disease, or used to have it; </li>
+<li>if you have heart disease, or used to have it. </li>
+</ul>
 <p>Tell your doctor or carer immediately if you experience any of the following as you may need to 
-stop treatment: 
-- if you get a fever or high temperature – because clofarabine reduces the number of blood cells 
-made in the bone marrow, you may be more likely to catch infections; 
-- if you have breathing difficulties, rapid breathing, or breathlessness; 
-- if you feel a change in your heart rate; 
-- if you suffer from dizziness (light-headedness) or fainting – it may be a symptom of low blood 
-pressure; 
-- if you feel sick or have diarrhoea (loose bowels); 
-- if your urine is darker than usual – it is important to drink plenty of water to avoid dehydration; 
-- if you get a rash with blisters or mouth ulcers;<br />
-- if you lose your appetite, have nausea (feeling sick), vomiting, diarrhea, dark-colored urine and 
+stop treatment:</p>
+<ul>
+<li>if you get a fever or high temperature   because clofarabine reduces the number of blood cells 
+made in the bone marrow, you may be more likely to catch infections; </li>
+<li>if you have breathing difficulties, rapid breathing, or breathlessness; </li>
+<li>if you feel a change in your heart rate; </li>
+<li>if you suffer from dizziness (light-headedness) or fainting   it may be a symptom of low blood 
+pressure; </li>
+<li>if you feel sick or have diarrhoea (loose bowels); </li>
+<li>if your urine is darker than usual   it is important to drink plenty of water to avoid dehydration; </li>
+<li>if you get a rash with blisters or mouth ulcers;  </li>
+<li>if you lose your appetite, have nausea (feeling sick), vomiting, diarrhea, dark-colored urine and 
 light-coloured stools, stomach pain, jaundice (yellowing of the skin and eyes), or if you feel 
 generally unwell, these could be symptoms of an inflammation of the liver (hepatitis), or liver 
-damage (hepatic failure); 
-- if you pass little or no urine, or experience drowsiness, nausea, vomiting, breathlessness, loss of 
-appetite and / or weakness (these may be signs of acute kidney failure / kidney failure).  </p>
+damage (hepatic failure); </li>
+<li>if you pass little or no urine, or experience drowsiness, nausea, vomiting, breathlessness, loss of 
+appetite and / or weakness (these may be signs of acute kidney failure / kidney failure).  </li>
+</ul>
 <p>If you are the parent of a child who is being treated with Evoltra, tell the doctor if any of the above 
 conditions apply to your child. </p>
 <p>During treatment with Evoltra, your doctor will carry out regular blood tests and other tests to 
 monitor your health.  Because of the way this medicine works, it will affect your blood and other 
 organs. </p>
 <p>Talk to your doctor about contraception.  Young men and women must use effective contraception 
-during and after treatment.  See the section ‘Pregnancy and breast-feeding’ below.  Evoltra may harm 
+during and after treatment.  See the section  Pregnancy and breast-feeding  below.  Evoltra may harm 
 both male and female reproductive organs.  Ask your doctor to explain what can be done to protect 
 you or allow you to have a family. </p>
 <p>Other medicines and Evoltra 
-Tell your doctor if you are using or have recently used: 
-- medicines for heart disease; 
-- any medicine that changes your blood pressure; 
-- medicines that affect your liver or kidneys; 
-- any other medicines including those obtained without a prescription. </p>
+Tell your doctor if you are using or have recently used:</p>
+<ul>
+<li>medicines for heart disease; </li>
+<li>any medicine that changes your blood pressure; </li>
+<li>medicines that affect your liver or kidneys; </li>
+<li>any other medicines including those obtained without a prescription. </li>
+</ul>
 <p>Pregnancy and breast-feeding<br />
 Clofarabine should not be used during pregnancy unless clearly necessary. 
 Women who are able to get pregnant: you must use effective contraception during treatment with 
@@ -186,36 +192,40 @@ and other areas;
 types of blood cells in your body; 
 - skin rashes which may be itchy, red, painful or peeling skin including palms of the hands and 
 soles of the feet, or small reddish or purple spots underneath the skin. </p>
-<p>Common (may affect up to 1 in 10 people): 
-- infections of the blood, pneumonia, shingles, implant infections, infections of the mouth such as 
-thrush and cold sores; 
-- changes in blood chemistry, changes in white blood cells; 
-- allergic reactions; 
-- feeling thirsty and producing darker or less urine than normal, decreased or loss of appetite, 
-weight loss; 
-- agitation, irritability, or restlessness; 
-- feeling numb or weak in the arms and legs, numbness of the skin, sleepiness, dizziness, tremor; 
-- hearing problems; 
-- water collecting around the heart, fast heartbeat; 
-- low blood pressure, lump due to bad bruising; 
-- leaking from tiny blood vessels, rapid breathing, nosebleeds, breathing difficulties, 
-breathlessness, cough; 
-- vomiting blood, stomach ache, pain in the bottom; 
-- bleeding inside the head, stomach, intestine or lungs, mouth or gums, mouth ulcers, inflamed 
-mouth lining; 
-- yellowing of the skin and eyes (also called jaundice), or other liver disorders; 
-- bruising, hair loss, changes to skin colour, increased sweating, dry skin, or other skin problems; 
-- pain in the chest wall or bones, neck or back pain, pain in limbs, muscles, or joints; 
-- blood in urine; 
-- failure of organs, pain, increased muscle tension, water retention and swelling in parts of the 
-body, including the arms and legs, changes in mental state, feeling hot, cold or abnormal; 
-- clofarabine may affect the levels of certain substances in the blood.  Your doctor will carry out 
-regular blood tests to check whether your body is working properly;<br />
-- liver damage (liver failure). 
-- little or no urine, drowsiness, nausea, vomiting, breathlessness, loss of appetite and /or weakness 
-(possible signs of acute kidney failure  or kidney failure). </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- inflammation of the liver (hepatitis). </p>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>infections of the blood, pneumonia, shingles, implant infections, infections of the mouth such as 
+thrush and cold sores; </li>
+<li>changes in blood chemistry, changes in white blood cells; </li>
+<li>allergic reactions; </li>
+<li>feeling thirsty and producing darker or less urine than normal, decreased or loss of appetite, 
+weight loss; </li>
+<li>agitation, irritability, or restlessness; </li>
+<li>feeling numb or weak in the arms and legs, numbness of the skin, sleepiness, dizziness, tremor; </li>
+<li>hearing problems; </li>
+<li>water collecting around the heart, fast heartbeat; </li>
+<li>low blood pressure, lump due to bad bruising; </li>
+<li>leaking from tiny blood vessels, rapid breathing, nosebleeds, breathing difficulties, 
+breathlessness, cough; </li>
+<li>vomiting blood, stomach ache, pain in the bottom; </li>
+<li>bleeding inside the head, stomach, intestine or lungs, mouth or gums, mouth ulcers, inflamed 
+mouth lining; </li>
+<li>yellowing of the skin and eyes (also called jaundice), or other liver disorders; </li>
+<li>bruising, hair loss, changes to skin colour, increased sweating, dry skin, or other skin problems; </li>
+<li>pain in the chest wall or bones, neck or back pain, pain in limbs, muscles, or joints; </li>
+<li>blood in urine; </li>
+<li>failure of organs, pain, increased muscle tension, water retention and swelling in parts of the 
+body, including the arms and legs, changes in mental state, feeling hot, cold or abnormal; </li>
+<li>clofarabine may affect the levels of certain substances in the blood.  Your doctor will carry out 
+regular blood tests to check whether your body is working properly;  </li>
+<li>liver damage (liver failure). </li>
+<li>little or no urine, drowsiness, nausea, vomiting, breathlessness, loss of appetite and /or weakness 
+(possible signs of acute kidney failure  or kidney failure). </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>inflammation of the liver (hepatitis). </li>
+</ul>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
@@ -260,22 +270,21 @@ SANOFI WINTHROP INDUSTRIE
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
+T l/Tel: + 32 2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel. +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Tел: +359 (0) 2 4942  </p>
-<p>Česká republika 
+Tel. +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+T : +359 (0) 2 4942  </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54 (Belgique/Belgien) </p>
-<p>Magyarország 
+T l/Tel: + 32 2 710 54 (Belgique/Belgien) </p>
+<p>Magyarorsz g 
 sanofi-aventis Zrt. 
 Tel: +36 1 505 0 </p>
 <p>Malta 
@@ -293,26 +302,25 @@ Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21  </p>
 <p>Norge 
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel. +372 640 10<br />
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE<br />
-Τηλ: +30 210 900 1Polska 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Sanofi-Aventis   AEBE<br />
+ : +30 210 900 1Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
-España 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi   Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 France 
 Sanofi Winthrop Industrie 
-Tél : 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
-România 
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 Hrvatska 
 Swixx Biopharma d.o.o. 
@@ -322,21 +330,20 @@ Tel: +386 1 235 51<br />
 Ireland 
 sanofi-aventis Ireland Ltd T/A SANOFI 
 Tel:  +353 (0) 1 4035 600  </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel:  +421 2 208 33<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
 Italia 
 Sanofi S.r.l 
-Tel: 800536 
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Tel: 800536 </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />
@@ -347,7 +354,7 @@ United Kingdom (Northern Ireland)
 Sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2 </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under “Exceptional Circumstances”.  This means that because of 
+<p>This medicine has been authorised under  Exceptional Circumstances .  This means that because of 
 the rarity of this disease it has been impossible to get complete information on this medicine. The 
 European Medicines Agency will review any new information on the medicine every year and this 
 leaflet will be updated as necessary. </p>
@@ -359,13 +366,39 @@ also links to other websites about rare diseases and treatments. </p>
 Evoltra 1 mg/ml concentrate for solution for infusion must be diluted prior to administration. It should 
 be filtered through a sterile 0.2 micrometre syringe filter and then diluted with sodium chloride 9 
 mg/ml (0.9%) intravenous infusion to produce a total volume according to the examples given in the 
-table below. However, the final dilution volume may vary depending on the patient’s clinical status 
+table below. However, the final dilution volume may vary depending on the patient s clinical status 
 and physician discretion. (If the use of a 0.2 micrometre syringe filter is not feasible, the concentrate 
 should be pre-filtered with a 5 micrometre filter, diluted and then administered through a 0.micrometre inline filter.) </p>
 <p>Suggested dilution schedule based on the recommended dosage of 52 mg/m2/day clofarabine 
 Body surface area (m2) 
-Concentrate (ml)* 
+Concentrate (ml)<em> 
 Total diluted volume 
-≤ 1.≤ 74.9 
-100 ml </p>         </div>"""      
+  1.  74.9 
+100 ml 
+1.45 to 2.75.4 to 124.8 
+150 ml 
+2.41 to 2.125.3 to 130.0 
+200 ml 
+</em>Each ml of concentrate contains 1 mg of clofarabine. Each 20 ml vial contains 20 mg of clofarabine. 
+Therefore, for patients with a body surface area   0.38 m2, the partial contents of a single vial will be 
+required to produce the recommended daily dosage of clofarabine. However, for patients with a body 
+surface area &gt; 0.38 m2, the contents of between 1 to 7 vials will be required to produce the 
+recommended daily dosage of clofarabine. </p>
+<p>The diluted concentrate should be a clear, colourless solution. It should be visually inspected for 
+particulate matter and discolouration prior to administration. </p>
+<p>The diluted concentrate is chemically and physically stable for 3 days at 2 C to 8 C and at room 
+temperature (up to 25 C). From a microbiological point of view, it should be used immediately. If not 
+used immediately, in-use storage times and conditions prior to use are the responsibility of the user 
+and would normally not be longer than 24 hours at 2 C to 8 C unless dilution has taken place under 
+controlled and validated aseptic conditions. Do not freeze. </p>
+<p>Instructions for handling </p>
+<p>Procedures for proper handling of antineoplastic agents should be observed. Cytotoxic medicinal 
+products should be handled with caution. </p>
+<p>The use of disposable gloves and protective garments is recommended when handling Evoltra. If the 
+product comes into contact with eyes, skin or mucous membranes, rinse immediately with copious 
+amounts of water. 
+Evoltra should not be handled by pregnant women. </p>
+<p>Disposal </p>
+<p>Evoltra is for single use only. Any unused medicinal product or waste material should be disposed of 
+in accordance with local requirements. </p>         </div>"""      
 

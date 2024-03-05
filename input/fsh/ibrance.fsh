@@ -4,7 +4,7 @@ Instance: composition-en-c81102ba15ecf1ae72d97505f0c21e9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibrance Package Leaflet"
 Description:  "Composition for ibrance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,7 +89,7 @@ hormonal anticancer therapies. </p>         </div>"""
 <ul>
 <li>if you are allergic to palbociclib or any of the other ingredients of this medicine (listed in 
 section 6).  </li>
-<li>use of preparations containing St. John’s Wort, an herbal product used to treat mild depression 
+<li>use of preparations containing St. John s Wort, an herbal product used to treat mild depression 
 and anxiety, should be avoided while you are taking IBRANCE. </li>
 </ul>
 <p>Warnings and precautions  </p>
@@ -135,7 +135,7 @@ rejection.
 * Carbamazepine and phenytoin, used to stop seizures or fits. 
 * Enzalutamide to treat prostate cancer. 
 * Rifampin used to treat tuberculosis (TB). 
-* St. John’s Wort, an herbal product used to treat mild depression and anxiety. </p>
+* St. John s Wort, an herbal product used to treat mild depression and anxiety. </p>
 <p>IBRANCE with food and drink </p>
 <p>Avoid grapefruit and grapefruit juice while you are taking IBRANCE as it may increase the side 
 effects of IBRANCE. </p>
@@ -163,7 +163,7 @@ when driving or using machines. </p>
 This medicine contains lactose (found in milk or dairy products). If you have been told by your doctor 
 that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say it is essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ibrance"
@@ -174,8 +174,8 @@ that you have an intolerance to some sugars, contact your doctor before taking t
 or pharmacist if you are not sure.  </p>
 <p>The recommended dose is 125 mg of IBRANCE taken once a day for 3 weeks followed by 1 week 
 without taking IBRANCE. Your doctor will tell you how many capsules of IBRANCE to take. </p>
-<p>If you experience certain side effects while you are taking IBRANCE (see section 4 “Possible side 
-effects”), your doctor may lower your dose or stop treatment, either temporarily or permanently. The 
+<p>If you experience certain side effects while you are taking IBRANCE (see section 4  Possible side 
+effects ), your doctor may lower your dose or stop treatment, either temporarily or permanently. The 
 dose may be lowered to one of the other available strengths 100 mg or 75 mg. </p>
 <p>Take IBRANCE once a day at about the same time every day with food, preferably a meal. </p>
 <p>Swallow the capsule whole with a glass of water. Do not chew or crush the capsules. Do not open the 
@@ -241,7 +241,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle or blister and carton after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -254,23 +254,25 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What IBRANCE contains<br />
-- The active substance is palbociclib. IBRANCE hard capsules come in different strengths: 
-- IBRANCE 75 mg hard capsule: each capsule contains 75 mg palbociclib. 
-- IBRANCE 100 mg hard capsule: each capsule contains 100 mg palbociclib. 
-- IBRANCE 125 mg hard capsule: each capsule contains 125 mg palbociclib. 
-- The other ingredients are: 
+- The active substance is palbociclib. IBRANCE hard capsules come in different strengths:</p>
+<ul>
+<li>IBRANCE 75 mg hard capsule: each capsule contains 75 mg palbociclib. </li>
+<li>IBRANCE 100 mg hard capsule: each capsule contains 100 mg palbociclib. </li>
+<li>IBRANCE 125 mg hard capsule: each capsule contains 125 mg palbociclib. </li>
+<li>The other ingredients are: 
 Capsule content: microcrystalline cellulose, lactose monohydrate, sodium starch glycolate type A, 
 colloidal anhydrous silica, magnesium stearate.<br />
 Capsule shell: gelatin, red iron oxide (E172), yellow iron oxide (E172), titanium dioxide (E171).<br />
 Printing ink: shellac, titanium dioxide (E171), ammonium hydroxide (28% solution), propylene 
-glycol, simeticone (see section 2 “IBRANCE contains lactose and sodium”). </p>
+glycol, simeticone (see section 2  IBRANCE contains lactose and sodium ). </li>
+</ul>
 <p>What IBRANCE looks like and contents of the pack 
 - IBRANCE 75 mg is supplied as opaque, hard capsules, with a light orange body (printed 
-“PBC 75” in white) and a light orange cap (printed “Pfizer” in white). 
+ PBC 75  in white) and a light orange cap (printed  Pfizer  in white). 
 - IBRANCE 100 mg is supplied as opaque, hard capsules, with a light orange body (printed 
-“PBC 100” in white) and a caramel cap (printed “Pfizer” in white). 
-- IBRANCE 125 mg is supplied as opaque, hard capsules, with a caramel body (printed “PBC 125” 
-in white) and a caramel cap (printed “Pfizer” in white). </p>
+ PBC 100  in white) and a caramel cap (printed  Pfizer  in white). 
+- IBRANCE 125 mg is supplied as opaque, hard capsules, with a caramel body (printed  PBC 125<br />
+in white) and a caramel cap (printed  Pfizer  in white). </p>
 <p>IBRANCE 75 mg, 100 mg, and 125 mg are available in blister packs of 21 or 63 hard capsules and in 
 plastic bottles of 21 hard capsules. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -280,25 +282,25 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer </p>
 <p>Pfizer Manufacturing Deutschland GmbH 
-Betriebsstätte Freiburg 
+Betriebsst tte Freiburg 
 Mooswaldallee 1 
 79090 Freiburg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
+T l/Tel: +32 (0)2 554 62<br />
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 5 251 4 
-България 
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: +359 2 970 4Magyarország 
+Tel: +370 5 251 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4Magyarorsz g 
 Pfizer Kft. 
 Tel.: +36 1 488 37<br />
-Česká republika 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
 Malta 
@@ -318,41 +320,40 @@ Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ: +30 210 6785 
+<p>Pfizer   A.E. 
+ : +30 210 6785 
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer<br />
-Tél: +33 (0)1 58 07 34 România 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28<br />
 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka<br />
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
 Tel: +421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430<br />
 Italia 
@@ -360,13 +361,13 @@ Pfizer S.r.l.
 Tel: +39 06 33 18 Sverige<br />
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
-Kύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
-Tηλ: +357 22817United Kingdom (Northern Ireland) 
+K<br />
+Pfizer    . . (Cyprus Branch) 
+T : +357 22817United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0) 1304 616 
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35  </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

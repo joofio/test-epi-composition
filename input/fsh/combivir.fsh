@@ -4,7 +4,7 @@ Instance: composition-en-3df7bf1a2aef2fb435183285c8ded1c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for combivir Package Leaflet"
 Description:  "Composition for combivir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Combivir 
 4. Possible side effects 
 5. How to store Combivir 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +95,7 @@ Check with your doctor if you think any of these apply to you. </p>
 Some people taking Combivir or other combination treatments for HIV are more at risk of serious side 
 effects. You need to be aware of the extra risks:<br />
 <em> if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B 
-infection, do not stop Combivir without your doctor’s advice, as your hepatitis may come 
+infection, do not stop Combivir without your doctor s advice, as your hepatitis may come 
 back)<br />
 </em> if you have kidney disease<br />
 * if you are seriously overweight (especially if you are a woman)<br />
@@ -106,7 +105,7 @@ are taking your medicine. See Section 4 for more information.  </p>
 <p>Look out for important symptoms<br />
 Some people taking medicines for HIV infection develop other conditions, which can be serious. You 
 need to know about important signs and symptoms to look out for while you are taking Combivir. <br />
-Read the information ‘Other possible side effects of combination therapy for HIV’ in 
+Read the information  Other possible side effects of combination therapy for HIV  in 
 Section 4 of this leaflet.  </p>
 <p>Other medicines and Combivir<br />
 Tell your doctor or pharmacist if you are taking any other medicines, or if you have taken any 
@@ -122,7 +121,7 @@ infection<br />
 <em> high doses of co-trimoxazole, an antibiotic<br />
 </em> cladribine, used to treat hairy cell leukaemia<br />
 Tell your doctor if you are being treated with any of these.  </p>
-<p>Some medicines can make it more likely that you’ll have side effects, or make side effects worse. 
+<p>Some medicines can make it more likely that you ll have side effects, or make side effects worse. 
 These include:<br />
 <em> sodium valproate, to treat epilepsy<br />
 </em> interferon, to treat viral infections<br />
@@ -159,14 +158,14 @@ benefit from the protection against HIV outweighed the risk of side effects.  </
 Breast-feeding is not recommended in women living with HIV because HIV infection can be passed 
 on to the baby in breast milk. <br />
 A small amount of the ingredients in Combivir can also pass into your breast-milk. 
-If you’re breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as 
+If you re breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as 
 soon as possible.  </p>
 <p>Driving and using machines<br />
 Combivir can make you dizzy and have other side effects that make you less alert.<br />
 Do not drive or operate machines unless you are feeling well.  </p>
 <p>Combivir contains sodium 
 * This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take combivir"
@@ -181,17 +180,17 @@ food or drink, and take all the dose immediately. </p>
 <p>Stay in regular contact with your doctor 
 Combivir helps to control your condition. You need to keep taking it every day to stop your illness 
 getting worse. You may still develop other infections and illnesses linked to HIV infection. 
-Keep in touch with your doctor, and do not stop taking Combivir without your doctor’s 
+Keep in touch with your doctor, and do not stop taking Combivir without your doctor s 
 advice. </p>
 <p>How much to take </p>
 <p>Adults and adolescents 30 kg or more 
 The usual dose of Combivir is one tablet twice a day. 
 Take the tablets at regular times, leaving approximately 12 hours between each tablet. </p>
 <p>Children who weigh between 21 and 30 kg 
-The usual starting dose of Combivir is one half tablet (½) taken in the morning and one whole tablet 
+The usual starting dose of Combivir is one half tablet ( ) taken in the morning and one whole tablet 
 taken in the evening. </p>
 <p>Children who weigh between 14 and 21 kg 
-The usual starting dose of Combivir is one half tablet (½) taken in the morning and one half tablet (½) 
+The usual starting dose of Combivir is one half tablet ( ) taken in the morning and one half tablet ( ) 
 taken in the evening. </p>
 <p>For children who weigh less than 14 kg lamivudine and zidovudine (the ingredients of Combivir) 
 should be taken separately.   </p>
@@ -222,8 +221,8 @@ Combivir or other medicines you are taking, or an effect of the HIV disease itse
 important to talk to your doctor about any changes in your health. </p>
 <p>As well as the side effects listed below for Combivir, other conditions can develop during 
 combination therapy for HIV.<br />
-It is important to read the information later in this section under ‘Other possible side effects of 
-combination therapy for HIV’. </p>
+It is important to read the information later in this section under  Other possible side effects of 
+combination therapy for HIV . </p>
 <p>Very common side effects 
 These may affect more than 1 in 10 people: 
 * headache<br />
@@ -265,15 +264,15 @@ These may affect up to 1 in 1000 people:
 * serious allergic reaction causing swelling of the face, tongue or throat which may cause 
 difficulty in swallowing or breathing 
 * liver disorders, such as jaundice, enlarged liver or fatty liver, inflammation (hepatitis) 
-* lactic acidosis (excess lactic acid in the blood; see the next section, ‘Other possible side 
-effects of combination therapy for HIV’) 
+* lactic acidosis (excess lactic acid in the blood; see the next section,  Other possible side 
+effects of combination therapy for HIV ) 
 * inflammation of the pancreas (pancreatitis) 
 * chest pain; disease of the heart muscle (cardiomyopathy) 
 * fits (convulsions) 
 * feeling depressed or anxious, not being able to concentrate, feeling drowsy 
 * indigestion, taste disturbance 
 * changes in the colour of your nails, your skin or the skin inside your mouth 
-* a flu-like feeling – chills and sweating 
+* a flu-like feeling   chills and sweating 
 * tingly feelings in the skin (pins and needles) 
 * sensation of weakness in the limbs 
 * breakdown of muscle tissue 
@@ -296,7 +295,7 @@ Combination therapy such as Combivir may cause other conditions to develop durin
 People with advanced HIV infection (AIDS) have weak immune systems and are more likely to 
 develop serious infections (opportunistic infections). When these people start treatment, they may find 
 that old, hidden infections flare up, causing signs and symptoms of inflammation. These symptoms are 
-probably caused by the body’s immune system becoming stronger, so that the body starts to fight these 
+probably caused by the body s immune system becoming stronger, so that the body starts to fight these 
 infections. </p>
 <p>In addition to the opportunistic infections, autoimmune disorders (a condition that occurs when the 
 immune system attacks healthy body tissue) may also occur after you start taking medicines for the 
@@ -306,7 +305,7 @@ weakness beginning in the hands and feet and moving up towards the trunk of the 
 tremor or hyperactivity, please inform your doctor immediately to seek necessary treatment. </p>
 <p>If you get any symptoms of infection while you are taking Combivir: 
 Tell your doctor immediately. Do not take other medicines for the infection without your 
-doctor’s advice. </p>
+doctor s advice. </p>
 <p>Lactic acidosis is a rare but serious side effect 
 Some people taking Combivir develop a condition called lactic acidosis, together with an enlarged 
 liver. </p>
@@ -369,111 +368,5 @@ throw away medicines you no longer use. These measures will help to protect the 
 The active substances are lamivudine and zidovudine. The other ingredients are<br />
 * tablet core; microcrystalline cellulose, sodium starch glycollate (gluten free), magnesium 
 stearate, colloidal silicon dioxide 
-* tablet film-coat; hypromellose, titanium dioxide, macrogol 400 and polysorbate 80.<br />
-What Combivir looks like and contents of the pack </p>
-<p>Combivir film-coated tablets are provided in cartons, containing blister packs or bottles with a child 
-resistant-closure. Each pack type contains 60 film-coated tablets. They are white to off-white, capsule-
-shaped scored tablets marked with the code GXFC3 on both sides. 
-Marketing Authorisation Holder and Manufacturer </p>
-<p>Manufacturer 
-Marketing Authorisation Holder </p>
-<p>Delpharm Poznań Spółka 
-Akcyjna 
-ul. Grunwaldzka 60-322 Poznan 
-Poland 
-ViiV Healthcare BV 
-Van Asch van Wijckstraat 55H 
-3811 LP Amersfoort 
-Netherlands 
-For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
-ViiV Healthcare srl/bv<br />
-Tél/Tel: + 32 (0)10 85 65 Lietuva 
-ViiV Healthcare BV<br />
-Tel: + 370 5 80000 
-България 
-ViiV Healthcare BV 
-Teл.: + 359 80018 
-Luxembourg/Luxemburg 
-ViiV Healthcare srl/bv<br />
-Belgique/Belgien 
-Tél/Tel: + 32 (0)10 85 65<br />
-Česká republika 
-GlaxoSmithKline s.r.o. 
-Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
-ViiV Healthcare BV 
-Tel.: + 36 80088Danmark 
-GlaxoSmithKline Pharma A/S 
-Tlf: + 45 36 35 91 dk-info@gsk.com </p>
-<p>Malta 
-ViiV Healthcare BV<br />
-Tel: + 356 80065Deutschland 
-ViiV Healthcare GmbH<br />
-Tel.: + 49 (0)89 203 0038-10<br />
-viiv.med.info@viivhealthcare.com  </p>
-<p>Nederland 
-ViiV Healthcare BV<br />
-Tel: + 31 (0)33 2081 
-Eesti 
-ViiV Healthcare BV 
-Tel: + 372 8002 
-Norge 
-GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82 Österreich 
-GlaxoSmithKline Pharma GmbH 
-Tel: + 43 (0)1 97075 0 
-at.info@gsk.com </p>
-<p>España 
-Laboratorios ViiV Healthcare, S.L.<br />
-Tel: +34 900 923 es-ci@viivhealthcare.com </p>
-<p>Polska 
-GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 
-France 
-ViiV Healthcare SAS<br />
-Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
-<p>Portugal 
-VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
-Tel: + 351 21 094 08 01<br />
-viiv.fi.pt@viivhealthcare.com </p>
-<p>Hrvatska 
-ViiV Healthcare BV 
-Tel: +385 800787 
-România 
-ViiV Healthcare BV 
-Tel: + 40 800672Ireland 
-GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955Slovenija 
-ViiV Healthcare BV 
-Tel: + 386 80688 
-Ísland 
-Vistor hf.<br />
-Slovenská republika 
-ViiV Healthcare BV 
-Sími: +354 535 7 
-Tel: + 421 800500 
-Italia 
-ViiV Healthcare S.r.l<br />
-Tel: + 39 (0)45 7741Suomi/Finland 
-GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-ViiV Healthcare BV<br />
-Τηλ: + 357 80070 
-Sverige 
-GlaxoSmithKline AB 
-Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
-<p>Latvija 
-ViiV Healthcare BV 
-Tel: + 371 80205 
-United Kingdom (Northern Ireland) 
-ViiV Healthcare BV 
-Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
-<p>This leaflet was last revised in {MM/YYYY}  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+* tablet film-coat; hypromellose, titanium dioxide, macrogol 400 and polysorbate 8</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-53506f739e6f34ca79778a9dce57bf48
 InstanceOf: CompositionUvEpi
 Title: "Composition for spikevax Package Leaflet"
 Description:  "Composition for spikevax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,13 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Spikevax is a vaccine used to prevent COVID-19 caused by SARS-CoV-2. It is given to adults and 
 children aged 6 months and older. The active substance in Spikevax is mRNA encoding the 
 SARS-CoV-2 spike protein. The mRNA is embedded in SM-102 lipid nanoparticles. </p>
-<p>As Spikevax does not contain the virus, it cannot give you COVID-19.<br />
-How the vaccine works<br />
-Spikevax stimulates the body’s natural defences (immune system). The vaccine works by causing the 
-body to produce protection (antibodies) against the virus that causes COVID-19. Spikevax uses a 
-substance called messenger ribonucleic acid (mRNA) to carry instructions that cells in the body can 
-use to make the spike protein that is also on the virus. The cells then make antibodies against the spike 
-protein to help fight off the virus. This will help to protect you against COVID-19.  </p>         </div>"""   
+<p>As Spikevax does not contain the virus, it cannot give you COVID-1</p>         </div>"""   
           
 
              
@@ -87,10 +81,30 @@ protein to help fight off the virus. This will help to protect you against COVID
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take spikevax"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How the vaccine works<br />
+Spikevax stimulates the body s natural defences (immune system). The vaccine works by causing the 
+body to produce protection (antibodies) against the virus that causes COVID-19. Spikevax uses a 
+substance called messenger ribonucleic acid (mRNA) to carry instructions that cells in the body can 
+use to make the spike protein that is also on the virus. The cells then make antibodies against the spike 
+protein to help fight off the virus. This will help to protect you against COVID-1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The vaccine must not be given if you are allergic to the active substance or any of the other 
 ingredients of this vaccine (listed in section 6). </p>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist or nurse before you are given Spikevax if: </p>
+Talk to your doctor, pharmacist or nurse before you are given Spikevax if:</p>
 <ul>
 <li>
 <p>you have previously had a severe, life-threatening allergic reaction after any other vaccine 
@@ -150,12 +164,12 @@ Do not drive or use machines if you are feeling unwell after vaccination. Wait u
 vaccine have worn off before you drive or use machines.  </p>
 <p>Spikevax contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""      
+        
 * section[=].section[+]
-  * title =  "3. How to take spikevax"
+  * title = "5. How to store spikevax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take spikevax"
+  * code.text = "5. How to store spikevax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Table 1. Spikevax dosing for primary series, a third dose in severely immunocompromised and 
 booster doses  </p>
@@ -165,15 +179,9 @@ type
 Age(s) </p>
 <p>Dose 
 Recommendations 
-Spikevax </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>dispersion for 
+Spikevax 
+0.2 mg/mL 
+dispersion for 
 injection </p>
 <p>Primary series </p>
 <p>Individuals 
@@ -212,14 +220,9 @@ Individuals
 12 years of 
 age and 
 older </p>
-<p>1 (one) dose of </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store spikevax"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store spikevax"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>100 micrograms 
+<p>1 (one) dose of 
+0.5 mL, containing 
+100 micrograms 
 mRNA </p>
 <p>A third dose may be 
 given at least 28 days 
@@ -229,15 +232,9 @@ Children
 through 
 11 years of 
 age </p>
-<p>1 (one) dose of </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>containing 
+<p>1 (one) dose of 
+0.25 mL, 
+containing 
 50 micrograms 
 mRNA 
 Booster dose  </p>
@@ -245,5 +242,147 @@ Booster dose  </p>
 12 years of 
 age and 
 older </p>
-<p>1 (one) dose of </p>         </div>"""      
+<p>1 (one) dose of 
+0.25 mL, 
+containing 
+50 micrograms 
+mRNA<br />
+Spikevax may be used 
+to boost individuals 
+12 years of age and 
+older who have 
+received a primary 
+series with Spikevax 
+or a primary series 
+comprised of another 
+mRNA vaccine or 
+adenoviral vector </p>
+<p>Strength 
+Vaccination 
+type 
+Age(s) </p>
+<p>Dose 
+Recommendations 
+vaccine at least 
+3 months after 
+completion of the 
+primary series.  </p>
+<p>Spikevax 
+0.1 mg/mL 
+dispersion for 
+injection 
+and Spikevax 
+50 micrograms 
+dispersion for 
+injection in pre-
+filled syringe* </p>
+<p>Primary series<br />
+Children 
+6 years 
+through 
+11 years of 
+age 
+2 (two) doses 
+(0.5 mL each, 
+containing 
+50 micrograms 
+mRNA each)  </p>
+<p>It is recommended to 
+administer the second 
+dose 28 days after the 
+first dose. 
+Children 
+6 months 
+through 
+5 years of 
+age 
+2 (two) doses 
+(0.25 mL each, 
+containing 
+25 micrograms 
+mRNA each, 
+which is half of 
+the primary dose 
+for children 6 
+years through years of age)* </p>
+<p>Third dose in 
+severely 
+immuno-
+compromised <br />
+Children 
+6 years 
+through 
+11 years of 
+age </p>
+<p>1 (one) dose of 
+0.5 mL, containing 
+50 micrograms 
+mRNA </p>
+<p>A third dose may be 
+given at least 28 days 
+after the second dose. 
+Children 
+6 months 
+through 
+5 years of 
+age </p>
+<p>1 (one) dose of 
+0.25 mL, 
+containing 
+25 micrograms 
+mRNA* </p>
+<p>Booster dose  </p>
+<p>Individuals 
+12 years of 
+age and 
+older </p>
+<p>1 (one) dose of 
+0.5 mL, containing 
+50 micrograms 
+mRNA<br />
+Spikevax may be used 
+to boost individuals 
+6 years of age and 
+older who have 
+received a primary 
+series with Spikevax 
+or a primary series 
+comprised of another 
+mRNA vaccine or 
+adenoviral vector 
+vaccine at least 
+3 months after 
+completion of the 
+primary series. </p>
+<p>Children 
+6 years 
+through 
+11 years of 
+age 
+1 (one) dose of 
+0.25 mL, 
+containing 
+25 micrograms 
+mRNA<em><br />
+</em>Do not use the pre-filled syringe to deliver a partial volume of 0.25 mL. 
+ For primary series for individuals 12 years of age and older, the 0.2 mg/mL strength vial should be 
+used. 
+ For the third dose in severely immunocompromised individuals 12 years of age and older, the 
+0.2 mg/mL strength vial should be used. </p>
+<p>If you miss an appointment for your primary 2nd dose of Spikevax 
+- If you miss an appointment, arrange another visit as soon as possible with your doctor, pharmacist 
+or nurse. 
+- If you miss a scheduled injection, you may not be fully protected against COVID-1</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor, pharmacist or nurse will inject the vaccine into a muscle (intramuscular injection) in your 
+upper arm. </p>
+<p>After each injection of the vaccine, your doctor, pharmacist or nurse will watch over you for at least 
+15 minutes to monitor for signs of an allergic reaction. </p>
+<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
 

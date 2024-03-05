@@ -4,7 +4,7 @@ Instance: composition-en-2440cbc7bcf5f09685459c4222f929e1
 InstanceOf: CompositionUvEpi
 Title: "Composition for spectrila Package Leaflet"
 Description:  "Composition for spectrila Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -118,7 +118,7 @@ which plays an important role in removing medicines from the body. </p>
 medicines: 
 * Vincristine (used to treat certain types of cancer) since the simultaneous use of vincristine and 
 asparaginase may increase the risk of certain side effects. To avoid this, vincristine is usually 
-given 3–24 hours before asparaginase. 
+given 3 24 hours before asparaginase. 
 * Glucocorticoids (anti-inflammation medicines that dampen down your immune system) since 
 the simultaneous use of glucocorticoids and asparaginase may increase the formation of blood 
 clots (thrombosis). 
@@ -128,7 +128,7 @@ using these medicines with asparaginase may increase the risk of bleeding.
 * Medicines which are metabolised in the liver (e.g. paracetamol, acetylsalicylic acid, 
 tetracycline) because the risk of side effects may increase. 
 * Asparaginase may influence the efficacy of methotrexate or cytarabine (used to treat certain 
-types of cancer):  </p>
+types of cancer):</p>
 <ul>
 <li>if asparaginase is given after these medicines their effect may be increased.  </li>
 <li>if asparaginase is given before these medicines their effect may be weakened.  </li>
@@ -172,15 +172,17 @@ The dose depends on your body surface area (BSA) which is calculated from your h
 <p>Spectrila is given into a vein. It is usually given with other anti-cancer medicines. The duration of 
 treatment depends on the specific chemotherapy protocol that is used to treat your disease. </p>
 <p>Use in adults 
-The recommended dose of Spectrila for adults is 5,000 U per m² body surface area (BSA) given every 
+The recommended dose of Spectrila for adults is 5,000 U per m  body surface area (BSA) given every 
 third day. </p>
 <p>Use in children and adolescents 
-The recommended dose in children and adolescents aged 1–18 years is 5,000 U per m² BSA given 
+The recommended dose in children and adolescents aged 1 18 years is 5,000 U per m  BSA given 
 every third day. </p>
-<p>The recommended dose in infants aged 0–12 months is as follows: 
-- age less than 6 months:  6,700 U/m² BSA,<br />
-- age 6–12 months: <br />
-7,500 U/m² BSA.  </p>
+<p>The recommended dose in infants aged 0 12 months is as follows:</p>
+<ul>
+<li>age less than 6 months:  6,700 U/m  BSA,  </li>
+<li>age 6 12 months: <br />
+7,500 U/m  BSA.  </li>
+</ul>
 <p>If you were given more Spectrila than you should 
 If you think that you received too much Spectrila, tell your doctor or nurse as soon as possible. </p>
 <p>Up to date it is not known that an overdose with asparaginase led to any signs of an overdose. If 
@@ -254,11 +256,11 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton. The expiry date refers to 
 the last day of that month. </p>
-<p>Store in a refrigerator (2 °C–8 °C). 
+<p>Store in a refrigerator (2  C 8  C). 
 Keep the vial in the outer carton in order to protect from light. </p>
-<p>The reconstituted solution is stable for 2 days when stored at 2 °C–8 °C. If the medicine is not used 
+<p>The reconstituted solution is stable for 2 days when stored at 2  C 8  C. If the medicine is not used 
 immediately, the user preparing this medicine is responsible for storage times and conditions to ensure 
-sterility of the product. Storage would normally not be longer than 24 hours at 2 °C–8 °C. </p>
+sterility of the product. Storage would normally not be longer than 24 hours at 2  C 8  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -280,7 +282,7 @@ and a plastic flip-off cap. </p>
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 medac<br />
-Gesellschaft für klinische Spezialpräparate mbH 
+Gesellschaft f r klinische Spezialpr parate mbH 
 Theaterstr. 6 
 22880 Wedel 
 Germany 

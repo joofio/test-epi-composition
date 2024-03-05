@@ -4,7 +4,7 @@ Instance: composition-en-b3a7e562e5ab08730073fe4737f50e1b
 InstanceOf: CompositionUvEpi
 Title: "Composition for inomax Package Leaflet"
 Description:  "Composition for inomax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How INOmax is given 
 4. Possible side effects 
 5. How to store INOmax  
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -73,7 +72,7 @@ Usage: #example
 * newborn babies with lung failure associated with high blood pressure in the lungs, a condition 
 known as hypoxic respiratory failure. When inhaled, this gas mixture can improve the flow of 
 blood through the lungs, which may help to increase the amount of oxygen that reaches your 
-baby’s blood. </p>
+baby s blood. </p>
 <ul>
 <li>newborn babies, babies, children, teenagers 0-17 years and adults with high blood pressure in 
 the lungs, connected with heart surgery. This gas mixture can improve heart function and 
@@ -92,7 +91,7 @@ that reaches the blood. </li>
 <ul>
 <li>
 <p>If you (as the patient) or your child (as the patient) are allergic (hypersensitive) to nitric oxide or 
-any other ingredients of INOmax (see section 6 ‘further information’ where the full list of 
+any other ingredients of INOmax (see section 6  further information  where the full list of 
 ingredients is provided). </p>
 </li>
 <li>
@@ -106,15 +105,15 @@ for you or your child. </p>
 <p>Inhaled nitric oxide may influence the oxygen carrying capacity of the blood. This will be monitored 
 by blood samples and if required the dose of inhaled nitric oxide must be reduced. </p>
 <p>Nitric oxide may react with oxygen forming nitrogen dioxide that may cause airway irritation. Your or 
-your child’s doctor will undertake monitoring of nitrogen dioxide and in case of elevated values the 
+your child s doctor will undertake monitoring of nitrogen dioxide and in case of elevated values the 
 INOmax therapy will be adjusted, decreased accordingly. </p>
 <p>Inhaled nitric oxide may have a mild but influence on the platelets (components that help the blood to 
 clot) of you or your child and any signs of bleeding and or haematoma should be observed. If you see 
 any signs or symptoms that may be associated to bleeding, you should directly inform the doctor. </p>
 <p>No effect of inhaled nitric oxide has been documented in newborn babies with a malformation where 
-the diaphragm is not fully complete, so called ‘congenital diaphragmatic hernia’. </p>
-<p>In newborn babies with special malformations of the heart, ‘what doctors calls congenital heart 
-defects’ inhaled nitric oxide may cause a worsening of the circulation.  </p>
+the diaphragm is not fully complete, so called  congenital diaphragmatic hernia . </p>
+<p>In newborn babies with special malformations of the heart,  what doctors calls congenital heart 
+defects  inhaled nitric oxide may cause a worsening of the circulation.  </p>
 <p>Children </p>
 <p>INOmax should not be used in preterm baby &lt; 34 weeks of gestational age. </p>
 <p>Other medicines and INOmax </p>
@@ -141,10 +140,10 @@ Not relevant. </p>
   * code.text = "3. How to take inomax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor will decide the correct dose of INOmax and will administer INOmax to you or your 
-child’s lungs through a system designed for delivering this gas. This delivery system will ensure that 
+child s lungs through a system designed for delivering this gas. This delivery system will ensure that 
 the correct amount of nitric oxide is delivered by diluting INOmax with an oxygen/air mixture 
 immediately before giving it to you.  </p>
-<p>For you or your child’s safety, the delivery systems intended for administration of INOmax are fitted 
+<p>For you or your child s safety, the delivery systems intended for administration of INOmax are fitted 
 with devices that constantly measure the amount of nitric oxide, oxygen, and nitrogen dioxide (a 
 chemical formed when nitric oxide and oxygen are mixed) being delivered to the lungs.   </p>
 <p>Your doctor will decide how long you or your child should be treated with INOmax. </p>
@@ -258,7 +257,7 @@ specific outlet connection and a INOmeter device equipped valve hand-wheel. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Marketing Authorisation Holder<br />
 Linde Healthcare AB 
-Rättarvägen 3 
+R ttarv gen 3 
 169 68 Solna 
 Sweden </p>
 <p>Manufacturer 
@@ -269,50 +268,48 @@ Z.I. Limay Porcheville
 France  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Linde Gas Belgium N.V. 
 Borsbeeksebrug 34<br />
 B - 2600 Antwerpen 
-Tél/Tel.: +32 70 233 info.healthcare.be@linde.com </p>
+T l/Tel.: +32 70 233 info.healthcare.be@linde.com </p>
 <p>Lietuva 
 Linde Gas UAB 
 Didlaukio g. LT - 08300 Vilnius 
 Tel.: +370 2787administracija.lt@linde.com </p>
-<p>България 
-Linde Healthcare AB 
-Rättarvägen 3 
-S - 169 68 Solna 
-Швеция 
-Tel: +46 8 7311healthcare.se@linde.com </p>
+<p>Linde Healthcare AB 
+R ttarv gen 3 
+S - 169 68 Solna </p>
+<p>Tel: +46 8 7311healthcare.se@linde.com </p>
 <p>Luxembourg/Luxemburg 
 Linde Gas Belgium N.V. 
 Borsbeeksebrug 34<br />
 B - 2600 Antwerpen 
 Belgique/Belgien 
-Tél/Tel.: +32 70 233 info.healthcare.be@linde.com 
-Česká republika 
+T l/Tel.: +32 70 233 info.healthcare.be@linde.com 
+ esk  republika 
 Linde Gas a.s. 
 U Technoplynu 1CZ - 198 00 Praha 9 
 Tel: +420 800 121 info.cz@linde.com </p>
-<p>Magyarország 
-Linde Gáz Magyarország Zrt. 
-Illatos út 11/A. 
+<p>Magyarorsz g 
+Linde G z Magyarorsz g Zrt. 
+Illatos  t 11/A. 
 H - 1097 Budapest 
 Tel.: +36 30 349 2tunde.bencze@linde.com </p>
 <p>Danmark 
 Linde Gas A/S 
-Lautruphøj 2-6 
+Lautruph j 2-6 
 DK - 2750 Ballerup 
 Tlf: + 45 70 104 healthcare.dk@linde.com </p>
 <p>Malta 
 Linde Healthcare AB 
-Rättarvägen 3 
+R ttarv gen 3 
 S - 169 68 Solna 
 l-Isvezja 
 Tel: +46 8 7311healthcare.se@linde.com 
 Deutschland 
 Linde GmbH 
-Seitnerstraße 70<br />
+Seitnerstra e 70<br />
 D - 82049 Pullach 
 Tel: +49 89 31001 0 
 medgas@linde.com  </p>
@@ -330,33 +327,30 @@ Tel: +372 650 4linde.ee@linde.com </p>
 Linde Gas AS 
 Postboks 13 Nydalen 
 N - 0409 Oslo 
-Tlf. +47 81559healthcare.no@linde.com 
-Ελλάδα 
-ΛΙΝΤΕ ΕΛΛΑΣ ΜΟΝ ΕΠΕ 
-Θέση Τρύπιο Λιθάρι<br />
-EL – 19600 Μάνδρα Αττικής<br />
-Τηλ: +30 211-1045500-healthcare.gr@linde.com 
-Österreich 
+Tlf. +47 81559healthcare.no@linde.com </p>
+<p>EL   19600    <br />
+ : +30 211-1045500-healthcare.gr@linde.com 
+ sterreich 
 Linde Gas GmbH 
 Modecenterstr.17/ Objekt 2/1.OG 
 A - 1110 Wien 
 Tel: +43(0)50.4273-2healthcare.at@linde.com 
-España 
-Linde Gas España, S.A.U. 
+Espa a 
+Linde Gas Espa a, S.A.U. 
 Camino de Liria, s/n 
 E - 46530 Puzol (Valencia)<br />
 Tel: +34 900 941 857 / +34 902 426 lindehealthcare.spain@linde.com </p>
 <p>Polska 
 Linde Gaz Polska Sp. z o.o. 
-ul. prof. Michała Życzkowskiego PL - 31-864 Krakow 
+ul. prof. Micha a  yczkowskiego PL - 31-864 Krakow 
 Tel.: +48 (65) 511 89 dzialania.niepozadane.pl@linde.com 
 France 
-Linde France - Activité médicale - Linde 
+Linde France - Activit  m dicale - Linde 
 Healthcare 
 Z.I. Limay-Porcheville 
 3 avenue Ozanne 
 F - 78440 Porcheville 
-Tél:+33 810 421 infotherapies@linde.com </p>
+T l:+33 810 421 infotherapies@linde.com </p>
 <p>Portugal 
 Linde Portugal, Lda. 
 Av. Infante D. Henrique Lotes 21-P - 1800-217 Lisboa 
@@ -366,8 +360,8 @@ GTG plin d.o.o.
 Kalinovac 2/a 
 47000 Karlovac 
 Tel. +385 47 609 info.hr@gtg-plin.com </p>
-<p>România 
-Linde Gaz România SRL 
+<p>Rom nia 
+Linde Gaz Rom nia SRL 
 str. Avram Imbroane nr. 9 
 Timisoara 300136 - RO 
 Tel: +40 256 300 healthcare.ro@linde.com 
@@ -377,18 +371,18 @@ Forge, 43 Church Street West
 Woking, Surrey, GU21 6HT - UK 
 Tel: 0800 917 4Slovenija 
 GTG plin d.o.o. 
-Bukovžlak 65/b 
+Bukov lak 65/b 
 SI - 3000 CELJE 
-Tel: + 386 (0)3 42 60 746</p>
-<p>ukcsc@inotherapy.co.uk 
+Tel: + 386 (0)3 42 60<br />
+ukcsc@inotherapy.co.uk 
 prodaja@gtg-plin.com 
-Ísland 
+ sland 
 Linde Gas ehf<br />
-Breiðhöfða IS - 110 Reykjavik 
-Sími: + 354 577 3healthcare.is@linde.com </p>
-<p>Slovenská republika 
+Brei h f a IS - 110 Reykjavik 
+S mi: + 354 577 3healthcare.is@linde.com </p>
+<p>Slovensk  republika 
 Linde Gas s.r.o. 
-Tuhovská 3 
+Tuhovsk  3 
 SK - 831 06 Bratislava 
 Tel: +421 2 49 10 25 healthcare.sk@linde.com 
 Italia 
@@ -401,20 +395,19 @@ Oy Linde Gas Ab
 Itsehallintokuja 6 
 FI - 02600 Espoo 
 Puh/Tel: + 358 10 2hctilaus.fi@linde.com </p>
-<p>Κύπρος 
-Linde Hadjikyriakos Gas Ltd 
-Λεωφόρος Λεμεσού 260, 2029 Στρόβολος 
-CY - Λευκωσία, Κύπρος. 
-Τηλ. +357-22482info.cy@linde.com  </p>
+<p>Linde Hadjikyriakos Gas Ltd 
+    260, 2029 <br />
+CY -  ,  . 
+ . +357-22482info.cy@linde.com  </p>
 <p>Sverige 
 Linde Gas AB 
-Rättarvägen 3 
+R ttarv gen 3 
 S - 169 68 Solna 
 Tel: + 46 8 7311healthcare.se@linde.com 
 Latvija 
 Linde Gas SIA<br />
-Katrīnas iela 5 
-Rīga, LV-1Tel: +371 67023ksc.lv@linde.com 
+Katr nas iela 5 
+R ga, LV-1Tel: +371 67023ksc.lv@linde.com 
 United Kingdom (Northern Ireland) 
 BOC Ltd. 
 Forge, 43 Church Street West 

@@ -4,7 +4,7 @@ Instance: composition-en-d5d8894da2fa70f6a957a74ada445d1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for xadago Package Leaflet"
 Description:  "Composition for xadago Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,11 +71,11 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xadago is a medicine that contains the active substance safinamide. It acts to increase the level of a 
 substance called dopamine in the brain, which is involved in the control of movement and is present in 
-reduced amounts in the brain of patients with Parkinson’s disease. Xadago is used for the treatment of 
-Parkinson’s disease in adults.  </p>
-<p>In mid- to late-stage patients experiencing sudden switches between being “ON” and able to move and 
-being “OFF” and having difficulties moving about, Xadago is added to a stable dose of the medicine 
-called levodopa alone or in combination with other medicines for Parkinson’s disease. </p>         </div>"""   
+reduced amounts in the brain of patients with Parkinson s disease. Xadago is used for the treatment of 
+Parkinson s disease in adults.  </p>
+<p>In mid- to late-stage patients experiencing sudden switches between being  ON  and able to move and 
+being  OFF  and having difficulties moving about, Xadago is added to a stable dose of the medicine 
+called levodopa alone or in combination with other medicines for Parkinson s disease. </p>         </div>"""   
           
 
              
@@ -87,26 +87,28 @@ called levodopa alone or in combination with other medicines for Parkinson’s d
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Xadago 
 - If you are allergic to safinamide or any of the other ingredients of this medicine (listed in 
 section 6).<br />
-- If you are taking any of the following medicines: 
-- Monoamine oxidase (MAO) inhibitors such as selegiline, rasagiline, moclobemide, 
-phenelzine, isocarboxazid, tranylcypromine (e.g. for treatment of Parkinson’s disease or 
-depression, or used for any other condition).<br />
-- Pethidine (a strong pain killer).<br />
+- If you are taking any of the following medicines:</p>
+<ul>
+<li>Monoamine oxidase (MAO) inhibitors such as selegiline, rasagiline, moclobemide, 
+phenelzine, isocarboxazid, tranylcypromine (e.g. for treatment of Parkinson s disease or 
+depression, or used for any other condition).  </li>
+<li>Pethidine (a strong pain killer).<br />
 You must wait at least 7 days after stopping Xadago treatment before starting treatment with 
-MAO inhibitors or pethidine. 
-- If you have been told that you have severe liver problems<br />
-- If you have an eye condition which might put you at risk of potential damage to your retina (the 
+MAO inhibitors or pethidine. </li>
+<li>If you have been told that you have severe liver problems  </li>
+<li>If you have an eye condition which might put you at risk of potential damage to your retina (the 
 light sensitive layers at the back of your eyes), e.g. albinism (lack of pigment in your skin and 
 eyes), retinal degeneration (loss of cells from light sensitive layer at the back of the eye), or 
 uveitis (inflammation inside of the eye), inherited retinopathy (inherited disorders of the vision), 
-or severe progressive diabetic retinopathy (a progressive decrease of the vision due to diabetes). </p>
+or severe progressive diabetic retinopathy (a progressive decrease of the vision due to diabetes). </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor before taking Xadago<br />
 - If  you have liver problems<br />
 - Patients and carers should be made aware that certain compulsive behaviours such as 
 compulsions, obsessive thoughts, pathological gambling, increased libido, hypersexuality, 
 impulsive behaviour and compulsive spending or buying have been reported with other 
-medicines for Parkinson’s disease.<br />
+medicines for Parkinson s disease.<br />
 - Uncontrollable jerky movements may occur or worsen when Xadago is used together with 
 levodopa.  </p>
 <p>Children and adolescents 
@@ -115,19 +117,21 @@ data on safety and efficacy in this population. </p>
 <p>Other medicines and Xadago 
 Tell your doctor or pharmacist if you are taking or have recently taken or might take any other 
 medicines. Ask your doctor for advice before taking any of the following medicines together with 
-Xadago:<br />
-- Cold or cough remedies containing dextromethorphan, ephedrine or pseudoephedrine 
-- Medicines called selective serotonin reuptake inhibitors (SSRIs) typically used to treat anxiety 
-disorders, and some personality disorders (e.g. fluoxetine or fluvoxamine) 
-- Medicines called serotonin–norepinephrine reuptake inhibitors (SNRIs), used in the treatment of 
-major depression and other mood disorders, such as venlafaxine 
-- Medicines for high cholesterol such as rosuvastatin, pitavastatin, pravastatin 
-- Fluoroquinolone antibiotic such as ciprofloxacin 
-- Medicines that affect the immune system such as methotrexate<br />
-- Medicines to treat metastatic carcinoma such as topotecan 
-- Medicine to treat pain and inflammation such as diclofenac 
-- Medicines to treat type 2 diabetes such as glyburide, metformin 
-- Medicines to treat virus infection such as aciclovir, ganciclovir </p>
+Xadago:</p>
+<ul>
+<li>Cold or cough remedies containing dextromethorphan, ephedrine or pseudoephedrine </li>
+<li>Medicines called selective serotonin reuptake inhibitors (SSRIs) typically used to treat anxiety 
+disorders, and some personality disorders (e.g. fluoxetine or fluvoxamine) </li>
+<li>Medicines called serotonin norepinephrine reuptake inhibitors (SNRIs), used in the treatment of 
+major depression and other mood disorders, such as venlafaxine </li>
+<li>Medicines for high cholesterol such as rosuvastatin, pitavastatin, pravastatin </li>
+<li>Fluoroquinolone antibiotic such as ciprofloxacin </li>
+<li>Medicines that affect the immune system such as methotrexate  </li>
+<li>Medicines to treat metastatic carcinoma such as topotecan </li>
+<li>Medicine to treat pain and inflammation such as diclofenac </li>
+<li>Medicines to treat type 2 diabetes such as glyburide, metformin </li>
+<li>Medicines to treat virus infection such as aciclovir, ganciclovir </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine.  </p>
@@ -176,11 +180,11 @@ Seek medical advice in case of hypertensive crisis (very high blood pressure, co
 malignant syndrome (confusion, sweating, muscle rigidity, hyperthermia, increase level of enzyme 
 creatine kinase in your blood), serotonin syndrome (confusion, hypertension, muscle stiffness, 
 hallucinations), and hypotension. </p>
-<p>The following side effects have been reported in patients at a mid- to late-stage of Parkinson’s disease 
+<p>The following side effects have been reported in patients at a mid- to late-stage of Parkinson s disease 
 (patients taking safinamide as add-on to levodopa alone or in combination with other medicines for 
-Parkinson’s disease): </p>
+Parkinson s disease): </p>
 <p>Common (may affect up to 1 in 10 people): insomnia, difficulty in performing voluntary movements, 
-feeling sleepy, dizziness, headache, worsening of Parkinson’s disease, clouding of the lens of the eye, 
+feeling sleepy, dizziness, headache, worsening of Parkinson s disease, clouding of the lens of the eye, 
 fall in blood pressure when rising to a standing position, nausea, falling.  </p>
 <p>Uncommon (may affect up to 1 in 100 people): urine infection, skin cancer, low iron in your blood, 
 low white cell count, red blood cell abnormality, decreased appetite, high fat in blood, increased 
@@ -229,7 +233,7 @@ of this medicine. </p>         </div>"""
   * code.text = "5. How to store xadago"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”<br />
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP <br />
 The expiry date refers to the last day of that month.  </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -244,16 +248,18 @@ throw away medicines you no longer use. These measures will help to protect the 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Xadago contains<br />
 - The active substance is safinamide. Each tablet contains 50 mg or 100 mg of safinamide (as 
 methansulfonate).<br />
-- The other ingredients are: 
-- Tablet core: microcrystalline cellulose, crospovidone type A, magnesium stearate, silica 
-colloidal anhydrous<br />
-- Tablet coating: hypromellose, macrogol (6000), titanium dioxide (E171), iron oxide red 
-(E172), mica (E555). </p>
+- The other ingredients are:</p>
+<ul>
+<li>Tablet core: microcrystalline cellulose, crospovidone type A, magnesium stearate, silica 
+colloidal anhydrous  </li>
+<li>Tablet coating: hypromellose, macrogol (6000), titanium dioxide (E171), iron oxide red 
+(E172), mica (E555). </li>
+</ul>
 <p>What Xadago looks like and contents of the pack 
 Xadago 50 mg are orange to copper, round, biconcave film-coated tablets of 7 mm diameter with 
-metallic gloss, embossed with “50” on one side of the tablet. </p>
+metallic gloss, embossed with  50  on one side of the tablet. </p>
 <p>Xadago 100 mg are orange to copper, round, biconcave film-coated tablets 9 mm diameter with 
-metallic gloss, embossed with “100” on one side of the tablet.  </p>
+metallic gloss, embossed with  100  on one side of the tablet.  </p>
 <p>Xadago is supplied in packs containing 14, 28, 30, 90 or 100 film coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder  </p>
@@ -272,18 +278,18 @@ Via della Chimica, 9
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Zambon N.V./S.A.<br />
-Tél/Tel: + 32 2 777 02<br />
+T l/Tel: + 32 2 777 02<br />
 France 
 Zambon France S.A. 
-Tél: + 33 (0)1 58 04 41<br />
-България/ Eesti/<br />
-Ireland/Ísland/Κύπρος/Latvija/ Malta/Polska/ 
-România/ / United Kingdom (Northern Ireland) <br />
+T l: + 33 (0)1 58 04 41<br />
+ / Eesti/<br />
+Ireland/ sland/ /Latvija/ Malta/Polska/ 
+Rom nia/ / United Kingdom (Northern Ireland) <br />
 Zambon S.p.A. 
-Teл./Tel/Τηλ/Sími: + 39 02665 </p>
+Te ./Tel/ /S mi: + 39 02665 </p>
 <p>Italia 
 Zambon Italia S.r.l. 
 Tel: + 39 02665 
@@ -293,29 +299,28 @@ Tlf/Puh/Tel: + 46 10 33 50<br />
 Nederland 
 Zambon Nederland B.V. 
 Tel: + 31 (0) 20 3085185  </p>
-<p>Deutschland/Österreich 
+<p>Deutschland/ sterreich 
 Zambon GmbH 
 Tel: 00800 92626 
 Portugal 
-Zambon - Produtos Farmacêuticos, Lda. 
-Tel: + 351 217 600 952 / 217 600 España 
+Zambon - Produtos Farmac uticos, Lda. 
+Tel: + 351 217 600 952 / 217 600 Espa a 
 Zambon, S.A.U. 
 Tel: + 34 93 544 64 Hrvatska/Slovenija 
 SALUS, Veletrgovina, d.o.o. 
 Tel: + 386 1 5899<br />
-Česká republika 
+ esk  republika 
 Desitin Pharma spol. s r.o. 
 Tel: + 420 222 245<br />
-Slovenská republika 
+Slovensk  republika 
 Desitin Pharma s.r.o.<br />
-Tel: + 421 2 5556 3 
-Ελλάδα 
-Innovis Pharma A.E.B.E. 
-Τηλ:+ 30 216 200 5Magyarország<br />
+Tel: + 421 2 5556 3 </p>
+<p>Innovis Pharma A.E.B.E. 
+ :+ 30 216 200 5Magyarorsz g<br />
 Richter Gedeon Nyrt. 
 Tel.: +36 1 505 7032<br />
 Lietuva 
-UAB „Norameda“<br />
+UAB  Norameda <br />
 Tel: + 370 5 2306 
 This leaflet was last revised in . </p>
 <p>Other sources of information </p>

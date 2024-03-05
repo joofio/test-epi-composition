@@ -4,7 +4,7 @@ Instance: composition-en-987766e2219c5177d278b3430b3652be
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgovyx Package Leaflet"
 Description:  "Composition for orgovyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,19 +86,21 @@ very low levels, relugolix prevents prostate cancer cells from growing and divid
 - if you are allergic to relugolix or any of the other ingredients of this medicine (listed in 
 section 6).  </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking Orgovyx if you have any of the following: 
-- Heart circulation conditions such as heart rhythm problems (arrhythmia). The risk of heart 
+Talk to your doctor or pharmacist before taking Orgovyx if you have any of the following:</p>
+<ul>
+<li>Heart circulation conditions such as heart rhythm problems (arrhythmia). The risk of heart 
 rhythm problems may be increased when using Orgovyx. Your doctor may check your body 
-salts (electrolytes) and the electrical activity of your heart during treatment with Orgovyx.<br />
-- Tell your doctor right away if you get any signs or symptoms like dizziness, fainting, feeling 
+salts (electrolytes) and the electrical activity of your heart during treatment with Orgovyx.  </li>
+<li>Tell your doctor right away if you get any signs or symptoms like dizziness, fainting, feeling 
 that your heart is pounding or racing (palpitations) or chest pain. Those can be symptoms of 
-serious heart rhythm problems. 
-- Liver disease. Liver function may need to be monitored. Use of Orgovyx has not been 
-investigated in patients with severe liver disease. 
-- Renal (kidney) disease. 
-- Osteoporosis or any condition that affects the strength of your bones. Reduced levels of 
-testosterone may lead to thinning of bones. 
-- Monitoring of your disease with a blood test for prostatespecific antigen (PSA). </p>
+serious heart rhythm problems. </li>
+<li>Liver disease. Liver function may need to be monitored. Use of Orgovyx has not been 
+investigated in patients with severe liver disease. </li>
+<li>Renal (kidney) disease. </li>
+<li>Osteoporosis or any condition that affects the strength of your bones. Reduced levels of 
+testosterone may lead to thinning of bones. </li>
+<li>Monitoring of your disease with a blood test for prostatespecific antigen (PSA). </li>
+</ul>
 <p>Children and adolescents 
 Orgovyx is not for use in children and adolescents under 18 years of age. </p>
 <p>Other medicines and Orgovyx 
@@ -110,21 +112,23 @@ with some other drugs (e.g. methadone [used for pain relief and part of drug add
 moxifloxacin [an antibiotic], antipsychotics used for serious mental illnesses).  </p>
 <p>Other medicines may interfere with the absorption of relugolix, resulting in either an increase in blood 
 levels that may increase side effects or decrease in blood levels that may decrease the effectiveness of 
-Orgovyx. Examples of medicines that may interfere with Orgovyx include: 
-- Certain medicines used to treat epilepsy (e.g. carbamazepine, phenytoin, phenobarbital). 
-- Certain medicines used to treat bacterial infections (e.g. rifampicin, azithromycin, 
-erythromycin, clarithromycin, gentamicin, tetracycline).<br />
-- Certain medicines used to treat fungal infections (e.g. ketoconazole, itraconazole). 
-- Certain medicines used to treat prostate cancer (e.g. apalutamide). 
-- Herbal remedies containing St John’s Wort (Hypericum perforatum). <br />
-- Certain medicines used to treat high blood pressure (e.g. carvedilol, verapamil). 
-- Certain medicines used to treat arrhythmias (e.g. amiodarone, dronedarone, propafenone, 
-quinidine). 
-- Certain medicines used to treat angina (e.g. ranolazine). 
-- Certain medicines used as immunosuppressants (e.g. cyclosporine). 
-- Certain medicines used to treat HIV infections (e.g. ritonavir [or ritonavir-containing 
-combinations], efavirenz). 
-- Certain medicines used to treat hepatitis C (e.g. telaprevir). </p>
+Orgovyx. Examples of medicines that may interfere with Orgovyx include:</p>
+<ul>
+<li>Certain medicines used to treat epilepsy (e.g. carbamazepine, phenytoin, phenobarbital). </li>
+<li>Certain medicines used to treat bacterial infections (e.g. rifampicin, azithromycin, 
+erythromycin, clarithromycin, gentamicin, tetracycline).  </li>
+<li>Certain medicines used to treat fungal infections (e.g. ketoconazole, itraconazole). </li>
+<li>Certain medicines used to treat prostate cancer (e.g. apalutamide). </li>
+<li>Herbal remedies containing St John s Wort (Hypericum perforatum).   </li>
+<li>Certain medicines used to treat high blood pressure (e.g. carvedilol, verapamil). </li>
+<li>Certain medicines used to treat arrhythmias (e.g. amiodarone, dronedarone, propafenone, 
+quinidine). </li>
+<li>Certain medicines used to treat angina (e.g. ranolazine). </li>
+<li>Certain medicines used as immunosuppressants (e.g. cyclosporine). </li>
+<li>Certain medicines used to treat HIV infections (e.g. ritonavir [or ritonavir-containing 
+combinations], efavirenz). </li>
+<li>Certain medicines used to treat hepatitis C (e.g. telaprevir). </li>
+</ul>
 <p>Your doctor may therefore change your medications, change when you take your certain medications, 
 the dose of the medicines, or increase the dose of Orgovyx. </p>
 <p>Pregnancy, breast-feeding, and fertility 
@@ -133,10 +137,14 @@ on male fertility.<br />
 This medicine is not indicated in women who could become pregnant. It is not used in women who 
 are, or may be pregnant or breast-feeding.  </p>
 <ul>
-<li>Information for men:  </li>
-<li>If you are having sex with a woman who can become pregnant, use a condom and another 
+<li>
+<p>Information for men:</p>
+</li>
+<li>
+<p>If you are having sex with a woman who can become pregnant, use a condom and another 
 effective birth control method used by your partner, during treatment and for 2 weeks 
-after treatment with this medicine, to prevent pregnancy.  </li>
+after treatment with this medicine, to prevent pregnancy.  </p>
+</li>
 <li>If you are having sex with a pregnant woman, use a condom to protect the unborn child. </li>
 </ul>
 <p>Driving and using machines 
@@ -145,7 +153,7 @@ impair your ability to drive and use machines. These side effects may be due to 
 resulting from the underlying disease. </p>
 <p>Orgovyx contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orgovyx"
@@ -181,41 +189,53 @@ effects of stopping treatment and discuss other possibilities with you.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be serious. 
-Seek urgent medical attention if you develop: 
-- Rapid swelling of your face, mouth, lips, tongue, throat, abdomen, or arms and legs 
-(angioedema) (uncommon: may affect up to 1 in 100 people). </p>
+Seek urgent medical attention if you develop:</p>
+<ul>
+<li>Rapid swelling of your face, mouth, lips, tongue, throat, abdomen, or arms and legs 
+(angioedema) (uncommon: may affect up to 1 in 100 people). </li>
+</ul>
 <p>The following side effects have been reported with Orgovyx and are listed below according to the 
 frequency with which they occur.  </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- hot flush 
-- diarrhoea 
-- constipation<br />
-- muscle and joint pain 
-- tiredness </p>
-<p>Common (may affect up to 1 in 10 people): 
-- low red cell count (anaemia) 
-- breast enlargement in men (gynaecomastia)<br />
-- sleeplessness 
-- depression 
-- dizziness 
-- headache 
-- high blood pressure 
-- upset stomach including feeling sick (nausea) 
-- increased sweating<br />
-- rash 
-- decreased interest in sex 
-- increased weight<br />
-- increased blood sugar levels 
-- increased blood fat (triglyceride) levels 
-- increased blood cholesterol level </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- thinning of the bones (osteoporosis) 
-- increased liver enzymes<br />
-- hives (urticaria) </p>
-<p>Rare (may affect up to 1 in 1,000 people): 
-- heart attack </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- changes in the electrocardiogram (QT prolongation) </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>hot flush </li>
+<li>diarrhoea </li>
+<li>constipation  </li>
+<li>muscle and joint pain </li>
+<li>tiredness </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>low red cell count (anaemia) </li>
+<li>breast enlargement in men (gynaecomastia)  </li>
+<li>sleeplessness </li>
+<li>depression </li>
+<li>dizziness </li>
+<li>headache </li>
+<li>high blood pressure </li>
+<li>upset stomach including feeling sick (nausea) </li>
+<li>increased sweating  </li>
+<li>rash </li>
+<li>decreased interest in sex </li>
+<li>increased weight  </li>
+<li>increased blood sugar levels </li>
+<li>increased blood fat (triglyceride) levels </li>
+<li>increased blood cholesterol level </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>thinning of the bones (osteoporosis) </li>
+<li>increased liver enzymes  </li>
+<li>hives (urticaria) </li>
+</ul>
+<p>Rare (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>heart attack </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>changes in the electrocardiogram (QT prolongation) </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed 
@@ -245,10 +265,10 @@ throw away medicines you no longer use. These measures will help protect the env
 - The other ingredients are mannitol (E421), sodium starch glycolate (E468), hydroxypropyl 
 cellulose (E463), magnesium stearate (E572), hypromellose (E464), titanium dioxide (E171), 
 iron oxide red (E172), carnauba wax (E903).  </p>
-<p>See “Orgovyx contains sodium” in section 2 for more information. </p>
+<p>See  Orgovyx contains sodium  in section 2 for more information. </p>
 <p>What Orgovyx looks like and contents of the pack 
-Orgovyx film-coated tablets are light red, almond-shaped, film-coated tablets (11 mm [length] × 8 mm 
-[width]) with “R” on one side and “120” on the other side. Orgovyx is available in a plastic white 
+Orgovyx film-coated tablets are light red, almond-shaped, film-coated tablets (11 mm [length]   8 mm 
+[width]) with  R  on one side and  120  on the other side. Orgovyx is available in a plastic white 
 bottle containing 30 film-coated tablets, in pack sizes of 30 film-coated tablets and 90 film-coated 
 tablets (3 bottles of 30 film-coated tablets). Each bottle also contains a desiccant to help to keep your 
 medicine dry (protect it from moisture), do not remove the desiccant from the bottle. Each bottle is 
@@ -257,7 +277,7 @@ Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
 Accord Healthcare S.L.U. 
 World Trade Center, Moll de Barcelona, s/n, 
-Edifici Est 6ª planta, 
+Edifici Est 6  planta, 
 08039 Barcelona, 
 Spain </p>
 <p>Manufacturer 

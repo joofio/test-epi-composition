@@ -4,7 +4,7 @@ Instance: composition-en-a3c1ea9abcddf2c56e0dc62a56cac1fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for neparvis Package Leaflet"
 Description:  "Composition for neparvis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,7 +90,7 @@ in section 6).
 * if you are taking another type of medicine called an angiotensin converting enzyme (ACE) 
 inhibitor (for example enalapril, lisinopril or ramipril), which is used to treat high blood 
 pressure or heart failure. If you have been taking an ACE inhibitor, wait for 36 hours after 
-taking the last dose before you start to take Neparvis (see “Other medicines and Neparvis”). 
+taking the last dose before you start to take Neparvis (see  Other medicines and Neparvis ). 
 * if you have ever had a reaction called angioedema (rapid swelling under the skin in areas such 
 as the face, throat, arms and legs which can be life threatening if throat swelling blocks the 
 airway) when taking an ACE inhibitor or an angiotensin receptor blocker (ARB) (such as 
@@ -98,16 +98,16 @@ valsartan, telmisartan or irbesartan).
 * if you have a history of angioedema which is hereditary or for which the cause is unknown 
 (idiopathic). 
 * if you have diabetes or impaired kidney function and you are being treated with a blood pressure 
-lowering medicine containing aliskiren (see “Other medicines and Neparvis”). 
+lowering medicine containing aliskiren (see  Other medicines and Neparvis ). 
 * if you have severe liver disease. 
-* if you are more than 3 months pregnant (see “Pregnancy and breast-feeding”). 
+* if you are more than 3 months pregnant (see  Pregnancy and breast-feeding ). 
 If any of the above applies to you, do not take Neparvis and talk to your doctor. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before or when taking Neparvis: 
-* if you are being treated with an angiotensin receptor blocker (ARB) or aliskiren (see “Do not 
-take Neparvis”). 
-* if you have ever had angioedema (see “Do not take Neparvis” and section 4 “Possible side 
-effects”). 
+* if you are being treated with an angiotensin receptor blocker (ARB) or aliskiren (see  Do not 
+take Neparvis ). 
+* if you have ever had angioedema (see  Do not take Neparvis  and section 4  Possible side 
+effects ). 
 * if you have low blood pressure or are taking any other medicines that reduce your blood 
 pressure (for example, a medicine that increases urine production (diuretic)) or are suffering 
 from vomiting or diarrhoea, especially if you are aged 65 years or more, or if you have kidney 
@@ -135,10 +135,10 @@ medicines. It may be necessary to change the dose, to take other precautions, or
 one of the medicines. This is particularly important for the following medicines: 
 * ACE inhibitors. Do not take Neparvis with ACE inhibitors. If you have been taking an ACE 
 inhibitor, wait 36 hours after taking the last dose of the ACE inhibitor before starting to take 
-Neparvis (see “Do not take Neparvis”). If you stop taking Neparvis, wait 36 hours after taking 
+Neparvis (see  Do not take Neparvis ). If you stop taking Neparvis, wait 36 hours after taking 
 your last dose of Neparvis before starting an ACE inhibitor. 
 * other medicines used to treat heart failure or lower blood pressure, such as angiotensin receptor 
-blockers or aliskiren (see “Do not take Neparvis”). 
+blockers or aliskiren (see  Do not take Neparvis ). 
 * some medicines known as statins that are used to lower high cholesterol levels (for example 
 atorvastatin). 
 * sildenafil, tadalafil, vardenafil or avanafil, which are medicines used to treat erectile dysfunction 
@@ -147,8 +147,8 @@ or lung hypertension.
 supplements, salt substitutes containing potassium, potassium-sparing medicines and heparin. 
 * painkillers of the type called non-steroidal anti-inflammatory medicines (NSAIDs) or selective 
 cyclooxygenase-2 (Cox-2) inhibitors. If you are taking one of these, your doctor may want to 
-check your kidney function when starting or adjusting treatment (see “Warnings and 
-precautions”). 
+check your kidney function when starting or adjusting treatment (see  Warnings and 
+precautions ). 
 * lithium, a medicine used to treat some types of psychiatric illness. 
 * furosemide, a medicine belonging to the type known as diuretics, which are used to increase the 
 amount of urine you produce. 
@@ -176,7 +176,7 @@ concentration, make sure you know how Neparvis affects you. If you feel dizzy or
 taking this medicine, do not drive a vehicle, cycle or use any tools or machines. </p>
 <p>Neparvis contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 97 mg/103 mg dose, that is to say 
-essentially ‘sodium free’. </p>         </div>"""   
+essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neparvis"
@@ -194,7 +194,7 @@ you is found. </p>
 <p>The usual recommended target dose is 97 mg/103 mg twice a day (one tablet in the morning and one 
 tablet in the evening). </p>
 <p>Children and adolescents (one year and older) 
-Your (or your child’s) doctor will decide the starting dose based on body weight and other factors 
+Your (or your child s) doctor will decide the starting dose based on body weight and other factors 
 including previously taken medicines. The doctor will adjust the dose every 2-4 weeks until the best 
 dose is found. </p>
 <p>Neparvis should be given twice a day (one tablet in the morning and one tablet in the evening). </p>
@@ -289,30 +289,27 @@ you no longer use. These measures will help protect the environment. </p>       
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Neparvis contains 
-* The active substances are sacubitril and valsartan. 
-o 
+* The active substances are sacubitril and valsartan. * 
 Each 24 mg/26 mg film-coated tablet contains 24.3 mg sacubitril and 25.7 mg valsartan 
-(as sacubitril valsartan sodium salt complex). 
-o 
+(as sacubitril valsartan sodium salt complex). * 
 Each 49 mg/51 mg film-coated tablet contains 48.6 mg sacubitril and 51.4 mg valsartan 
-(as sacubitril valsartan sodium salt complex). 
-o 
+(as sacubitril valsartan sodium salt complex). * 
 Each 97 mg/103 mg film-coated tablet contains 97.2 mg sacubitril and 102.8 mg valsartan 
 (as sacubitril valsartan sodium salt complex). 
 * The other ingredients in the tablet core are microcrystalline cellulose, low-substituted 
 hydroxypropylcellulose, crospovidone, magnesium stearate, talc and silica colloidal anhydrous 
-(see end of section 2 under ‘Neparvis contains sodium’). 
+(see end of section 2 under  Neparvis contains sodium ). 
 * The 24 mg/26 mg and the 97 mg/103 mg tablet coatings contain hypromellose, titanium dioxide 
 (E171), Macrogol (4000), talc, iron oxide red (E172) and iron oxide black (E172). 
 * The 49 mg/51 mg tablet coating contains hypromellose, titanium dioxide (E171), Macrogol 
 (4000), talc, iron oxide red (E172) and iron oxide yellow (E172). </p>
 <p>What Neparvis looks like and contents of the pack 
-Neparvis 24 mg/26 mg film-coated tablets are violet-white oval tablets with “NVR” on one side and 
-“LZ” on the other side. Approximate tablet dimensions 13.1 mm x 5.2 mm. 
-Neparvis 49 mg/51 mg film-coated tablets are pale yellow oval tablets with “NVR” on one side and 
-“L1” on the other side. Approximate tablet dimensions 13.1 mm x 5.2 mm 
-Neparvis 97 mg/103 mg film-coated tablets are light pink oval tablets with “NVR” on one side and 
-“L11” on the other side. Approximate tablet dimensions 15.1 mm x 6.0 mm. </p>
+Neparvis 24 mg/26 mg film-coated tablets are violet-white oval tablets with  NVR  on one side and 
+ LZ  on the other side. Approximate tablet dimensions 13.1 mm x 5.2 mm. 
+Neparvis 49 mg/51 mg film-coated tablets are pale yellow oval tablets with  NVR  on one side and 
+ L1  on the other side. Approximate tablet dimensions 13.1 mm x 5.2 mm 
+Neparvis 97 mg/103 mg film-coated tablets are light pink oval tablets with  NVR  on one side and 
+ L11  on the other side. Approximate tablet dimensions 15.1 mm x 6.0 mm. </p>
 <p>The tablets are supplied in packs containing 14, 20, 28 or 56 tablets and in multipacks comprising 
 7 cartons, each containing 28 tablets. The 49 mg/51 mg and 97 mg/103 mg tablets are also supplied in 
 multipacks comprising 3 cartons, each containing 56 tablets. </p>
@@ -333,28 +330,27 @@ Italy </p>
 <p>Novartis Pharma GmbH 
 Roonstrasse 90429 Nuremberg 
 Germany </p>
-<p>LEK farmacevtska družba d. d., Poslovna enota PROIZVODNJA LENDAVA 
+<p>LEK farmacevtska dru ba d. d., Poslovna enota PROIZVODNJA LENDAVA 
 Trimlini 2D 
 Lendava, 9Slovenia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -370,37 +366,37 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Laboratorios Farmacéuticos ROVI, S.A. 
+Tel: +43 1 86 6Espa a 
+Laboratorios Farmac uticos ROVI, S.A. 
 Tel: +34 91 375 62<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Servier Portugal - Especialidades Farmacêuticas, 
+Servier Portugal - Especialidades Farmac uticas, 
 Lda. 
 Tel: +351 21 312 2 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -408,10 +404,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

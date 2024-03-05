@@ -4,7 +4,7 @@ Instance: composition-en-f9db4716a8c7e3db3f37b741c69dca3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenz Package Leaflet"
 Description:  "Composition for efavirenz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Efavirenz Teva 
 4. Possible side effects 
 5. How to store Efavirenz Teva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -95,9 +94,13 @@ slow heart beat, or severe heart disease. </li>
 to a heart problem or was born with heart problems. </li>
 <li>if your doctor has told you that you have high or low levels of electrolytes such as potassium or 
 magnesium in your blood. </li>
-<li>if you are currently taking any of the following medicines (see also “Other medicines and 
-Efavirenz Teva): </li>
-<li>astemizole or terfenadine (used to treat allergy symptoms) </li>
+<li>
+<p>if you are currently taking any of the following medicines (see also  Other medicines and 
+Efavirenz Teva):</p>
+</li>
+<li>
+<p>astemizole or terfenadine (used to treat allergy symptoms) </p>
+</li>
 <li>bepridil (used to treat heart disease) </li>
 <li>cisapride (used to treat heartburn) </li>
 <li>
@@ -133,11 +136,13 @@ other illnesses associated with HIV disease. </li>
 <p>You must remain under the care of your doctor while taking Efavirenz Teva. </p>
 </li>
 <li>
-<p>Tell your doctor: </p>
+<p>Tell your doctor:</p>
 </li>
-<li>if you have a history of mental illness, including depression, or of substance or alcohol 
+<li>
+<p>if you have a history of mental illness, including depression, or of substance or alcohol 
 abuse. Tell your doctor immediately if you feel depressed, have suicidal thoughts or have 
-strange thoughts (see section 4, Possible side effects). </li>
+strange thoughts (see section 4, Possible side effects). </p>
+</li>
 <li>if you have a history of convulsions (fits or seizures) or if you are being treated with 
 anticonvulsant therapy such as carbamazepine, phenobarbital and phenytoin. If you are 
 taking any of these medicines, your doctor may need to check the level of anticonvulsant 
@@ -154,18 +159,20 @@ Do not take Efavirenz Teva). </li>
 of the QT interval. </p>
 </li>
 <li>
-<p>Once you start taking Efavirenz Teva, look out for: </p>
+<p>Once you start taking Efavirenz Teva, look out for:</p>
 </li>
-<li>signs of dizziness, difficulty sleeping, drowsiness, difficulty concentrating or 
+<li>
+<p>signs of dizziness, difficulty sleeping, drowsiness, difficulty concentrating or 
 abnormal dreaming. These side effects may start in the first 1 or 2 days of treatment and 
-usually go away after the first 2 to 4 weeks. </li>
+usually go away after the first 2 to 4 weeks. </p>
+</li>
 <li>any signs of skin rash. If you see any signs of a severe rash with blistering or fever, stop 
 taking Efavirenz Teva and tell your doctor at once. If you had a rash while taking another 
 NNRTI, you may be at a higher risk of getting a rash with Efavirenz Teva. </li>
 <li>any signs of inflammation or infection. In some patients with advanced HIV infection 
 (AIDS) and a history of opportunistic infection, signs and symptoms of inflammation 
 from previous infections may occur soon after anti-HIV treatment is started. It is believed 
-that these symptoms are due to an improvement in the body’s immune response, enabling 
+that these symptoms are due to an improvement in the body s immune response, enabling 
 the body to fight infections that may have been present with no obvious symptoms. If you 
 notice any symptoms of infection, please tell your doctor immediately. In addition to the </li>
 </ul>
@@ -189,44 +196,58 @@ weighing less than 40 kg. </p>
 <p>Other medicines and Efavirenz Teva 
 You must not take Efavirenz Teva with certain medicines. These are listed under "Do not take 
 Efavirenz Teva", at the start of Section 2. They include some common medicines and a herbal remedy 
-(St. John’s wort) which can cause serious interactions. </p>
+(St. John s wort) which can cause serious interactions. </p>
 <p>Tell your doctor, pharmacist or nurse if you are taking, have recently taken, or might take any other 
 medicines. </p>
 <p>Efavirenz Teva may interact with other medicines, including herbal preparations such as Ginkgo 
 biloba extracts. As a result, the amounts of Efavirenz Teva or other medicines in your blood may be 
 affected. This may stop the medicines from working properly, or may make any side effects worse. In 
 some cases, your doctor may need to adjust your dose or check your blood levels. It is important to 
-tell your doctor or pharmacist if you are taking any of the following: 
-- Other medicines used for HIV infection: 
-- protease inhibitors: darunavir, indinavir, lopinavir/ritonavir, ritonavir, ritonavir-boosted 
+tell your doctor or pharmacist if you are taking any of the following:</p>
+<ul>
+<li>
+<p>Other medicines used for HIV infection:</p>
+</li>
+<li>
+<p>protease inhibitors: darunavir, indinavir, lopinavir/ritonavir, ritonavir, ritonavir-boosted 
 atazanavir, saquinavir or fosamprenavir/saquinavir. Your doctor may consider giving you 
-an alternative medicine or changing the dose of the protease inhibitors. 
-- maraviroc 
-- the combination tablet containing efavirenz, emtricitabine, and tenofovir should not be 
+an alternative medicine or changing the dose of the protease inhibitors. </p>
+</li>
+<li>maraviroc </li>
+<li>
+<p>the combination tablet containing efavirenz, emtricitabine, and tenofovir should not be 
 taken with Efavirenz Teva unless recommended by your doctor since it contains 
 efavirenz, the active ingredient of Efavirenz Teva. </p>
-<ul>
-<li>Medicines used to treat infection with the hepatitis C virus: boceprevir, telaprevir, 
+</li>
+<li>
+<p>Medicines used to treat infection with the hepatitis C virus: boceprevir, telaprevir, 
 elbasvir/grazoprevir, simeprevir, sofosbuvir/velpatasvir, sofosbuvir/velpatasvir/voxilaprevir, 
-glecaprevir/pibrentasvir. </li>
+glecaprevir/pibrentasvir. </p>
+</li>
 <li>Medicines used to treat bacterial infections including tuberculosis and AIDS-related 
 mycobacterium avium complex: clarithromycin, rifabutin, rifampicin. Your doctor may 
 consider changing your dose or giving you an alternative antibiotic. In addition, your doctor 
 may prescribe a higher dose of Efavirenz Teva. </li>
-<li>Medicines used to treat fungal infections (antifungals): </li>
-<li>voriconazole. Efavirenz Teva may reduce the amount of voriconazole in your blood and 
+<li>
+<p>Medicines used to treat fungal infections (antifungals):</p>
+</li>
+<li>
+<p>voriconazole. Efavirenz Teva may reduce the amount of voriconazole in your blood and 
 voriconazole may increase the amount of efavirenz in your blood. If you take these two 
 medicines together, the dose of voriconazole must be increased and the dose of efavirenz 
-must be reduced. You must check with your doctor first. </li>
+must be reduced. You must check with your doctor first. </p>
+</li>
 <li>itraconazole. Efavirenz Teva may reduce the amount of itraconazole in your blood.  </li>
 <li>
 <p>posaconazole. Efavirenz Teva may reduce the amount of posaconazole in your blood. </p>
 </li>
 <li>
-<p>Medicines used to treat malaria: </p>
+<p>Medicines used to treat malaria:</p>
 </li>
-<li>artemether/lumefantrine: Efavirenz Teva may reduce the amount of 
-artemether/lumefantrine in your blood </li>
+<li>
+<p>artemether/lumefantrine: Efavirenz Teva may reduce the amount of 
+artemether/lumefantrine in your blood </p>
+</li>
 <li>atovaquone/proguanil: Efavirenz Teva may reduce the amount of atovaquone/proguanil in 
 your blood. </li>
 <li>Praziquantel (a medicine used to treat parasitic infections). Efavirenz Teva may reduce 
@@ -261,8 +282,12 @@ not been established that the Efavirenz Teva therapy caused the contraceptive to
 <li>Warfarin or acenocoumarol (medicines used to reduce clotting of the blood): your doctor may 
 need to adjust your dose of warfarin or acenocoumarol. </li>
 <li>Ginkgo biloba extracts (a herbal preparation) </li>
-<li>Medicines that impact heart rhythm: </li>
-<li>Medicines used to treat heart rhythm problems: such as flecainide or metoprolol. </li>
+<li>
+<p>Medicines that impact heart rhythm:</p>
+</li>
+<li>
+<p>Medicines used to treat heart rhythm problems: such as flecainide or metoprolol. </p>
+</li>
 <li>Medicines used to treat depression such as imipramine, amitriptyline or clomipramine </li>
 <li>Antibiotics, including the following types: macrolides, fluoroquinolones or imidazole. </li>
 </ul>
@@ -299,8 +324,8 @@ This medicine contains 9.98 mg lactose (as monohydrate) per tablet.<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product.  </p>
 <p>Efavirenz Teva contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efavirenz"
@@ -374,9 +399,13 @@ problems with coordination or balance
 - itching </p>
 <ul>
 <li>tiredness </li>
-<li>feeling anxious, feeling depressed 
-Tests may show: </li>
-<li>increased liver enzymes in the blood </li>
+<li>
+<p>feeling anxious, feeling depressed 
+Tests may show:</p>
+</li>
+<li>
+<p>increased liver enzymes in the blood </p>
+</li>
 <li>increased triglycerides (fatty acids) in the blood </li>
 </ul>
 <p>Uncommon (affects 1 to 10 users in 1,000) 
@@ -396,8 +425,10 @@ motionless and speechless for a period)
 - whistling, ringing or other persistent noise in the ears 
 - tremor (shaking) 
 - flushing 
-Tests may show: 
-- increased cholesterol in the blood </p>
+Tests may show:</p>
+<ul>
+<li>increased cholesterol in the blood </li>
+</ul>
 <p>Rare (affects 1 to 10 users in 10,000) 
 - itchy rash caused by a reaction to sunlight 
 - liver failure, in some cases leading to death or liver transplant, has occurred with efavirenz. 
@@ -443,8 +474,8 @@ macrogol/PEG 3350, triacetin and iron oxide yellow. </p>
 </ul>
 <p>What Efavirenz Teva looks like and contents of the pack </p>
 <ul>
-<li>Film-coated tablet: yellow, capsule-shaped, film-coated tablet debossed with “Teva” on one side 
-and “7541” on the other </li>
+<li>Film-coated tablet: yellow, capsule-shaped, film-coated tablet debossed with  Teva  on one side 
+and  7541  on the other </li>
 <li>Efavirenz Teva is available in pack sizes of 30, 90 film-coated tablets or 30 x 1 / 90 x 1 
 film-coated tablets (in perforated unit dose blisters) or a multi-pack bundle or carton containing 
 90 film-coated tablets (3 packs of 30 x 1 film-coated tablet). Not all pack sizes may be 
@@ -453,25 +484,24 @@ marketed. </li>
 <p>Marketing Authorisation Holder </p>
 <p>Teva B.V., Swensweg 5, 2031GA Haarlem, The Netherlands </p>
 <p>Manufacturer </p>
-<p>PLIVA Hrvatska d.o.o. (PLIVA Croatia Ltd.), Prilaz baruna Filipovića 25, 10000 Zagreb, Croatia </p>
+<p>PLIVA Hrvatska d.o.o. (PLIVA Croatia Ltd.), Prilaz baruna Filipovi a 25, 10000 Zagreb, Croatia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660България 
-Тева Фарма ЕАД 
-Тел: +359 24899Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt.<br />
+Magyarorsz g 
+Teva Gy gyszergy r Zrt.<br />
 Tel: +36 12886Danmark 
 Teva Denmark A/S 
 Tlf: +45 44985 
@@ -488,51 +518,49 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970España 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U. 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. </p>
 <p>Tel: +34 913873 
 Tel: +48 223459France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767550<br />
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: + 385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
 Tel: +44 2075407 
 Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890Ísland 
+Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503<br />
-Slovenská republika 
+S mi: +354 5503<br />
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267Italia 
 Teva Italia S.r.l. 
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

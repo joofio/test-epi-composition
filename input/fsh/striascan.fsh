@@ -4,7 +4,7 @@ Instance: composition-en-f556f9575aa3afd9667732b8d9b41fc4
 InstanceOf: CompositionUvEpi
 Title: "Composition for striascan Package Leaflet"
 Description:  "Composition for striascan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine is a radiopharmaceutical product for diagnostic use only.  </p>
 <p>Striascan contains the active substance ioflupane (123I) which is used to help identify (diagnose) conditions 
-in the brain. It belongs to a group of medicines called “radiopharmaceuticals”, which contain a small 
+in the brain. It belongs to a group of medicines called  radiopharmaceuticals , which contain a small 
 amount of radioactivity. 
 * When a radiopharmaceutical is injected, it collects in a specific organ or area of the body for a 
 short time. 
@@ -83,7 +83,7 @@ is working. </p>
 <p>Striascan is used only to identify illness. When this medicine is injected into a patient, it is carried around 
 the body in the blood and collects in a small area of your brain. Changes in this area of the brain occur in: </p>
 <ul>
-<li>parkinsonism (including Parkinson’s disease) and </li>
+<li>parkinsonism (including Parkinson s disease) and </li>
 <li>dementia with Lewy bodies. </li>
 </ul>
 <p>A scan will give your doctor information about any changes in this area of your brain. Your doctor may 
@@ -116,7 +116,7 @@ Some medicines or substances can affect the way that this medicine works.
 These include: </p>
 <ul>
 <li>bupropion (used to treat depression (sadness)) </li>
-<li>benzatropine (used to treat Parkinson’s disease) </li>
+<li>benzatropine (used to treat Parkinson s disease) </li>
 <li>mazindol (reduces appetite, as a means to treat obesity) </li>
 <li>sertraline (used to treat depression (sadness)) </li>
 <li>methylphenidate (used to treat hyperactivity in children and narcolepsy (excessive sleepiness)) </li>
@@ -146,7 +146,7 @@ It is considered unlikely that Striascan will affect your ability to drive or to
 <p>Striascan contains alcohol (ethanol): up to 197 mg of alcohol in each dose which is equivalent to 39.5 
 mg/mL (5% by volume). The amount in 5 mL of this medicine is equivalent to 5 mL beer or 2 mL wine. 
 The small amount of alcohol in this medicine will not have any noticeable effects. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take striascan"
@@ -229,7 +229,7 @@ By reporting side effects you can help provide more information on the safety of
 in appropriate premises. Storage of radiopharmaceuticals will be in accordance with national regulation 
 on radioactive materials. </p>
 <p>The following information is intended for the specialist only: 
-* Do not store above 25°C. 
+* Do not store above 25 C. 
 * Do not freeze. </p>
 <p>Do not use this medicine after the expiry date which is stated on the labels after EXP. Hospital staff will 
 ensure that the product is stored and thrown away correctly and not used after the expiry date stated on 
@@ -254,7 +254,7 @@ rubber closure and metal overseal. </p>
 <p>Pack size: 1 vial containing 2.5 mL or 5 mL. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>CIS bio international 
-RN 306 – Saclay 
+RN 306   Saclay 
 B.P. F-91192 Gif-sur-Yvette Cedex 
 FRANCE </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>

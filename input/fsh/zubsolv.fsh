@@ -4,7 +4,7 @@ Instance: composition-en-cfd694ab9fea1a901bb7d3272079545a
 InstanceOf: CompositionUvEpi
 Title: "Composition for zubsolv Package Leaflet"
 Description:  "Composition for zubsolv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,14 +84,16 @@ dependence. It also contains naloxone which is used to deter intravenous abuse o
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take zubsolv"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Zubsolv if you: 
-- are allergic to buprenorphine, naloxone or any of the other ingredients of this medicine 
-(listed in section 6) 
-- have serious breathing problems 
-- have serious liver problems 
-- are intoxicated due to alcohol or have trembling, sweating, anxiety, confusion, or 
-hallucinations caused by alcohol 
-- are taking naltrexone or nalmefene for the treatment of alcohol or opioid dependence </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Zubsolv if you:</p>
+<ul>
+<li>are allergic to buprenorphine, naloxone or any of the other ingredients of this medicine 
+(listed in section 6) </li>
+<li>have serious breathing problems </li>
+<li>have serious liver problems </li>
+<li>are intoxicated due to alcohol or have trembling, sweating, anxiety, confusion, or 
+hallucinations caused by alcohol </li>
+<li>are taking naltrexone or nalmefene for the treatment of alcohol or opioid dependence </li>
+</ul>
 <p>Warnings and precautions </p>
 <ul>
 <li>
@@ -103,7 +105,7 @@ safe place to protect it from theft (see section 5). Do not give this medicine t
 cause death or otherwise harm them. </p>
 </li>
 <li>
-<p>Breathing problems (see also ‘Do not take Zubsolv’ above ) 
+<p>Breathing problems (see also  Do not take Zubsolv  above ) 
 Some people have died from respiratory failure (inability to breathe) because they misused this 
 medicine or took it in combination with other central nervous system depressants, such as alcohol, 
 benzodiazepines (tranquilisers), or other opioids. </p>
@@ -166,13 +168,13 @@ forget to advise your doctor if you take this medicine. </p>
 <p>Talk to your doctor before taking Zubsolv if you: 
 * have a depression or other conditions that are treated with antidepressants. 
 The use of these medicines together with Zubsolv can lead to serotonin syndrome, a 
-potentially life-threatening condition (see “Other medicines and Zubsolv”) 
+potentially life-threatening condition (see  Other medicines and Zubsolv ) 
 * have kidney problems 
 * have recently suffered a head injury or brain disease 
 * have low blood pressure, enlarged prostate gland or difficulties passing water because 
 of narrowing of the urethra 
 * have under-active thyroid gland which can cause tiredness or weight gain 
-* have poor adrenal gland function (e.g. Addison’s disease) 
+* have poor adrenal gland function (e.g. Addison s disease) 
 * have problems with the biliary tract (e.g. gall bladder, bile duct) 
 * are elderly 
 * are debilitated </p>
@@ -187,7 +189,7 @@ doxepine, or trimipramine. These medicines may interact with Zubsolv and you may
 experience symptoms such as involuntary, rhythmic contractions of muscles, including the 
 muscles that control movement of the eye, agitation, hallucinations, coma, excessive 
 sweating, tremor, exaggeration of reflexes, increased muscle tension, body temperature 
-above 38°C. Contact your doctor when experiencing such symptoms. 
+above 38 C. Contact your doctor when experiencing such symptoms. 
 * Naltrexone and nalmefene (drugs used to treat addictive disorders) as they may prevent 
 the therapeutic effects of Zubsolv. They must not be taken at the same time as Zubsolv 
 treatment because you may experience a sudden onset of prolonged and intense withdrawal. 
@@ -198,24 +200,28 @@ depression), coma and may be life-threatening. Because of this, concomitant use 
 only be considered when other treatment options are not possible. However if your doctor 
 does prescribe Zubsolv together with sedative medicines the dose and duration of 
 concomitant treatment should be limited by your doctor. Please tell your doctor about all 
-sedative medicines you are taking, and follow your doctor’s dose recommendation 
+sedative medicines you are taking, and follow your doctor s dose recommendation 
 closely. It could be helpful to inform friends or relatives to be aware of the signs and 
 symptoms stated above. Contact your doctor when experiencing such symptoms. 
 * Other medicines that may make you feel sleepy which are used to treat illnesses such 
 as anxiety, sleeplessness, convulsions/seizures, pain and other mental disorders. These 
 types of medicines will reduce your alertness levels making it dangerous for you to drive 
 and use machines. They may also cause central nervous system depression, which is very 
-serious. Below is a list of examples of these types of medicines: 
-- other opioid containing medicines such as methadone, certain pain killers and 
-cough suppressants 
-- some anti-depressants (used to treat depression) such as isocarboxazid, phenelzine, 
-selegiline, tranylcypromine, valproate and monoamine oxidase inhibitors (MAOIs) may 
-increase the effects of this medicine 
-- sedative Hı receptor antagonists (used to treat allergic reactions) such as 
-diphenhydramine and chlorphenamine 
-- barbiturates (used to cause sleep or sedation) such as phenobarbital, secobarbital </p>
+serious. Below is a list of examples of these types of medicines:</p>
 <ul>
-<li>tranquilisers (used to cause sleep or sedation) such as chloral hydrate </li>
+<li>other opioid containing medicines such as methadone, certain pain killers and 
+cough suppressants </li>
+<li>some anti-depressants (used to treat depression) such as isocarboxazid, phenelzine, 
+selegiline, tranylcypromine, valproate and monoamine oxidase inhibitors (MAOIs) may 
+increase the effects of this medicine </li>
+<li>sedative H  receptor antagonists (used to treat allergic reactions) such as 
+diphenhydramine and chlorphenamine </li>
+<li>
+<p>barbiturates (used to cause sleep or sedation) such as phenobarbital, secobarbital </p>
+</li>
+<li>
+<p>tranquilisers (used to cause sleep or sedation) such as chloral hydrate </p>
+</li>
 <li>clonidine (used to treat high blood pressure) and related medicines may extend the 
 effects of this medicine </li>
 <li>anti-retrovirals (used to treat HIV) such as ritonavir, nelfinavir, indinavir may increase 
@@ -246,7 +252,7 @@ alcohol or take other sedative medicines when you take Zubsolv. Do not drive, us
 machines, or perform dangerous activities until you know how this medicine affects you. </p>
 <p>Zubsolv contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zubsolv"
@@ -260,7 +266,7 @@ dependence. </p>
 <p>Your doctor will determine the best dose for you. During your treatment, the doctor may adjust the 
 dose, depending upon your response. </p>
 <p>Starting treatment 
-The recommended starting dose for adults and adolescents over the age of 15 years is: </p>
+The recommended starting dose for adults and adolescents over the age of 15 years is:</p>
 <ul>
 <li>
 <p>one tablet of Zubsolv 1.4 mg/0.36 mg each day, or </p>
@@ -274,7 +280,7 @@ The recommended starting dose for adults and adolescents over the age of 15 year
 <p>There are other strengths that are available to be used by your doctor who will decide what is the 
 best treatment for you. This may involve taking a combination of different strengths, but your daily 
 dose should not exceed 17.2 mg of buprenorphine. </p>
-<p>Clear signs of withdrawal should be evident before taking your first dose of Zubsolv. A doctor’s 
+<p>Clear signs of withdrawal should be evident before taking your first dose of Zubsolv. A doctor s 
 assessment of your readiness for treatment will guide the timing of your first Zubsolv dose. </p>
 <ul>
 <li>
@@ -312,7 +318,47 @@ notice that most of the table disintegrates within 40 seconds, it may take 5 to 
 the entire table to disappear from your mouth </p>
 </li>
 </ul>
-<p>How to remove the tablet from the blister </p>         </div>"""         
+<p>How to remove the tablet from the blister </p>
+<ol>
+<li>
+<p>Do not push the tablet through the foil. </p>
+</li>
+<li>
+<p>Remove just one section from the blister pack, tearing it along the 
+perforated line. </p>
+</li>
+<li>
+<p>Fold the packet along the dotted line.  </p>
+</li>
+<li>
+<p>Tear following the direction of the arrow. If the blister is damaged, 
+discard the tablet. </p>
+</li>
+</ol>
+<p>Dose adjustment and maintenance therapy 
+Your doctor may increase the dose of Zubsolv you take according to your needs. If you feel that 
+the effect of Zubsolv is too strong or too weak, talk to your doctor or pharmacist. The maximum 
+daily dose is 17.2 mg. </p>
+<p>After a period of successful treatment, you may agree with your doctor to reduce the dose gradually 
+to a lower maintenance dose. </p>
+<p>Stopping treatment 
+Do not change the treatment in any way or stop treatment without the agreement of the doctor who 
+is treating you. </p>
+<p>Depending on your condition, the dose of Zubsolv may continue to be reduced under careful 
+medical supervision, until eventually it may be stopped. </p>
+<p>If you take more Zubsolv than you should 
+If you or someone else takes too much of this medicine, you must go or be taken immediately to an 
+emergency centre or hospital for treatment as overdose with Zubsolv may cause serious and 
+life-threatening breathing problems. </p>
+<p>Symptoms of overdose may include breathing more slowly and weakly than normal, feeling more 
+sleepy than normal, reduction in the size of the pupils, low blood pressure, feeling sick, vomit 
+and/or slurred speech. </p>
+<p>If you forget to take Zubsolv 
+Tell your doctor as soon as possible if you miss a dose. </p>
+<p>If you stop taking Zubsolv 
+Do not change the treatment in any way or stop treatment without the agreement of the doctor who is 
+treating you. Stopping treatment suddenly may cause withdrawal symptoms. </p>
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -320,14 +366,95 @@ the entire table to disappear from your mouth </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Tell your doctor immediately or seek urgent medical attention if you experience serious side 
+effects, such as: 
+* swelling of the face, lips, tongue or throat which may cause difficulty in swallowing or 
+breathing, severe hives/nettle rash. These may be signs of a life-threatening allergic 
+reaction 
+* feeling sleepy and uncoordinated, have blurred vision, have slurred speech, cannot think well 
+or clearly, or your breathing gets much slower than is normal for you 
+* severe tiredness, itching with yellowing of skin or eyes. These may be symptoms of 
+liver damage 
+* seeing or hearing things that are not there (hallucinations) </p>
+<p>Other side effects 
+Very common side effects (may affect more than one in 10 people): 
+* insomnia (inability to sleep) 
+* headache 
+* constipation, nausea 
+* excessive sweating 
+* drug withdrawal syndrome </p>
+<p>Common side effects (may affect up to 1 in 10 people): 
+* flu-like symptoms, infection, sore throat and painful swallowing, runny nose 
+* anxiety, depression, decreased sexual drive, nervousness, abnormal thinking 
+* migraines, dizziness, fainting, increase in muscle tension, tingling, drowsiness 
+* increased tearing (watering eyes) or other tearing disorder, blurred vision 
+* increased blood pressure, flushing 
+* increased cough 
+* abdominal pain, upset stomach or other stomach discomfort, diarrhoea, flatulence, vomiting 
+* rash, itching, hives 
+* back pain, joint pain, muscle pain, leg cramps (muscle spasm) 
+* urine abnormality 
+* difficulty in getting or keeping an erection 
+* weakness, chest pain, chills, fever, feeling of general discomfort, pain, swelling (hands and 
+feet) 
+* abnormal liver function, weight loss 
+* accidental injury caused by loss of alertness or co-ordination </p>
+<p>Uncommon side effects (may affect up to 1 in 100 people): 
+* abnormal blood tests, swollen glands (lymph nodes) 
+* abnormal dreams, agitation, loss of interest, depersonalisation (not feeling like 
+yourself), medicine dependence, exaggerated feeling of well-being, feelings of 
+hostility 
+* amnesia (memory disturbance), convulsion (fits), speech disorder, tremor 
+* eye inflammation or infection, small pupil size 
+* rapid or slow heartbeat, myocardial infarction (heart attack), palpitations, chest tightness 
+* low blood pressure 
+* asthma, shortness of breath, yawning 
+* pain and sores in mouth, tongue discolouration 
+* acne, hair loss, dry or scaling skin, skin nodule 
+* inflammation of joints 
+* protein in your urine, urinary tract infection, difficulty urinating, painful or difficult </p>
+<p>urination, blood in urine, kidney stone 
+* menstrual or vaginal problems, abnormal ejaculation 
+* sensitivity to heat or cold 
+* heat stroke 
+* excessive muscle activity 
+* loss of appetite </p>
+<p>Not known (frequency cannot be estimated from the available data): 
+* slow or difficult breathing 
+* liver injury with or without jaundice 
+* hallucinations 
+* swelling of face and throat or life threatening allergic reactions 
+* drop in blood pressure on changing position from sitting or lying down to standing 
+* sudden withdrawal syndrome caused by taking product too soon after use of illicit opioids, 
+*  drug withdrawal syndrome in newborn babies </p>
+<p>Misusing this medicine by injecting it can cause withdrawal symptoms, infections, other skin 
+reactions and potentially serious liver problems (see section 2, Warnings and precautions). </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety 
+of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zubsolv"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store zubsolv"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>perforated line. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Store below 25  C. 
+Store in the original package in order to protect from moisture. </p>
+<p>Zubsolv can be a target for people who abuse prescription medicine. Keep this medicine in a safe 
+place to protect it from theft. </p>
+<p>Store the blister safely. </p>
+<p>Never open the blister in advance. </p>
+<p>Do not take this medicine in front of children. </p>
+<p>An emergency unit should be contacted immediately in case of accidental ingestion or suspicion of 
+ingestion. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -335,5 +462,76 @@ the entire table to disappear from your mouth </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zubsolv contains </p>
+<p>The active substances are buprenorphine and naloxone. </p>
+<p>Each 0.7 mg/0.18 mg sublingual tablet contains 0.7 mg buprenorphine (as hydrochloride) and 
+0.18 mg naloxone (as hydrochloride dihydrate). </p>
+<p>Each 1.4 mg/0.36 mg sublingual tablet contains 1.4 mg buprenorphine (as hydrochloride) and 
+0.36 mg naloxone (as hydrochloride dihydrate). </p>
+<p>Each 2.9 mg/0.71 mg sublingual tablet contains 2.9 mg buprenorphine (as hydrochloride) and 
+0.71 mg naloxone (as hydrochloride dihydrate). </p>
+<p>Each 5.7 mg/1.4 mg sublingual tablet contains 5.7 mg buprenorphine (as hydrochloride) and 1.4 mg 
+naloxone (as hydrochloride dihydrate). </p>
+<p>Each 8.6 mg/2.1 mg sublingual tablet contains 8.6 mg buprenorphine (as hydrochloride) and 2.1 mg 
+naloxone (as hydrochloride dihydrate). </p>
+<p>Each 11.4 mg/2.9 mg sublingual tablet contains 11.4 mg buprenorphine (as hydrochloride) and 
+2.9 mg naloxone (as hydrochloride dihydrate). </p>
+<p>The other ingredients are mannitol, citric acid, sodium citrate, microcrystalline cellulose, 
+croscarmellose sodium, sucralose, levomenthol, colloidal anhydrous silica and sodium stearyl 
+fumarate (see section 2 "Zubsolv contains sodium"). </p>
+<p>What Zubsolv looks like and contents of the pack </p>
+<p>Zubsolv is available in six different strengths, differentiated by shape and debossing: </p>
+<p>Zubsolv tablet strength 
+(buprenorphine/naloxone) 
+Zubsolv tablet description 
+Zubsolv tablet 
+debossing 
+Appearance 
+0.7 mg/0.18 mg 
+A white to off-white, oval 
+tablet, length 
+6.8 mm and width 4.0 mm 
+ .7  on one side </p>
+<p>1.4 mg/0.36 mg 
+A white to off-white, 
+triangular tablet, base 7.2 
+mm and height 6.9 mm 
+ 1.4  on one side </p>
+<p>2.9 mg/0.71 mg 
+A white to off-white, D-
+shaped tablet, height 7.3 
+mm and width 5.65 mm 
+ 2.9  on one side </p>
+<p>5.7 mg/1.4 mg 
+A white to off-white, 
+round tablet, 7 mm in 
+diameter 
+ 5.7  on one side </p>
+<p>8.6 mg/2.1 mg 
+A white to off-white, 
+diamond shaped tablet, 
+length 9.5 mm and width 
+8.2 mm 
+ 8.6  on one side </p>
+<p>11.4 mg/2.9 mg 
+A white to off-white, 
+capsule shaped tablet, 
+length 10.3 mm and width 
+8.2 mm 
+ 11.4  on one side </p>
+<p>Zubsolv is available in blisters of 7, 28 or 30 sublingual tablets.<br />
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n<br />
+Edifici Est 6  planta<br />
+08039 Barcelona<br />
+Spain </p>
+<p>Manufacturer<br />
+Orexo AB<br />
+Virdings all  32 A<br />
+Uppsala 754 50<br />
+Sweden </p>
+<p>This leaflet was last revised in MM/YYYY. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

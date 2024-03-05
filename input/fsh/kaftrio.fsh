@@ -4,7 +4,7 @@ Instance: composition-en-9907a30e9752c1b71142c1d64ee9aa50
 InstanceOf: CompositionUvEpi
 Title: "Composition for kaftrio Package Leaflet"
 Description:  "Composition for kaftrio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -102,13 +102,21 @@ Kaftrio, especially if your blood tests showed high liver enzymes in the past. L
 the blood can increase in patients receiving Kaftrio. </li>
 </ul>
 <p>Tell your doctor right away if you have any symptoms of liver problems. These are listed in 
-section 4.<br />
-* Depression (including suicidal thoughts and behaviours) has been reported in patients while 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Depression (including suicidal thoughts and behaviours) has been reported in patients while 
 taking Kaftrio, usually starting within the first three months of treatment. Talk to your doctor 
 straight away if you (or someone taking this medicine) experience any of the following 
 symptoms which may be signs of depression: sad or altered mood, anxiety, feelings of emotional 
 discomfort or thoughts of harming or killing yourself. </p>
-<ul>
+</li>
 <li>
 <p>Talk to your doctor if you have kidney problems, or you have previously had them. </p>
 </li>
@@ -117,7 +125,7 @@ discomfort or thoughts of harming or killing yourself. </p>
 transplant. </p>
 </li>
 <li>
-<p>Talk to your doctor if you are using hormonal contraception – for example, women using the 
+<p>Talk to your doctor if you are using hormonal contraception   for example, women using the 
 contraceptive pill. This may mean you are more likely to get a rash while taking Kaftrio.   </p>
 </li>
 <li>
@@ -140,7 +148,7 @@ itraconazole, ketoconazole, posaconazole and voriconazole.
 clarithromycin, erythromycin, rifampicin, rifabutin and telithromycin. 
 * Epilepsy medicines (used for the treatment of epileptic seizures or fits). These include 
 carbamazepine, phenobarbital and phenytoin. 
-* Herbal medicines. These include St. John’s wort (Hypericum perforatum). 
+* Herbal medicines. These include St. John s wort (Hypericum perforatum). 
 * Immunosuppressants (used after an organ transplantation). These include ciclosporin, 
 everolimus, sirolimus and tacrolimus. 
 * Cardiac glycosides (used for the treatment of some heart conditions). These include digoxin. 
@@ -165,12 +173,13 @@ Kaftrio can make you dizzy. If you feel dizzy, do not drive, cycle, or use machi
 affected. </p>
 <p>Kaftrio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take kaftrio"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take kaftrio"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -187,7 +196,7 @@ Two ivacaftor 37.5 mg/tezacaftor
 25 mg/elexacaftor 50 mg tablets 
 One ivacaftor 75 mg tablet 
 6 to &lt; 12 years 
-≥30 kg 
+ 30 kg 
 Two ivacaftor 75 mg/tezacaftor 
 50 mg/elexacaftor 100 mg tablets 
 One ivacaftor 150 mg tablet 
@@ -208,8 +217,14 @@ drink in section 2 for more details. </p>
 <p>Swallow the tablets whole. Do not chew, crush or break the tablets before swallowing. </p>
 <p>You must keep using all your other medicines, unless your doctor tells you to stop. </p>
 <p>If you have liver problems, either moderate or severe, your doctor may reduce the dose of your 
-tablets or decide to stop treatment with Kaftrio. See also Warnings and precautions in section 2.<br />
-If you take more Kaftrio than you should 
+tablets or decide to stop treatment with Kaftrio. See also Warnings and precautions in section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you take more Kaftrio than you should 
 Contact your doctor or pharmacist for advice. If possible, take your medicine and this leaflet with 
 you. You may get side effects, including those mentioned in section 4 below. </p>
 <p>If you forget to take Kaftrio 
@@ -225,13 +240,13 @@ Do not take a double dose to make up for any missed tablets. </p>
 <p>If you stop taking Kaftrio 
 Your doctor will tell you how long you need to keep taking Kaftrio. It is important to take this 
 medicine regularly. Do not make changes unless your doctor tells you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
@@ -292,108 +307,4 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store kaftrio"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kaftrio"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the blister 
-after EXP. The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kaftrio contains 
-* The active substances are ivacaftor, tezacaftor and elexacaftor.  </p>
-<p>Kaftrio 37.5 mg/25 mg/50 mg film-coated tablets 
-Each film-coated tablet contains 37.5 mg of ivacaftor, 25 mg of tezacaftor and 50 mg elexacaftor. </p>
-<p>Kaftrio 75 mg/50 mg/100 mg film-coated tablets<br />
-Each film-coated tablet contains 75 mg of ivacaftor, 50 mg of tezacaftor and 100 mg elexacaftor. </p>
-<ul>
-<li>The other ingredients are: 
-− 
-Tablet core: Hypromellose (E464), hypromellose acetate succinate, sodium laurilsulfate 
-(E487), croscarmellose sodium (E468), microcrystalline cellulose (E460(i)), and magnesium 
-stearate (E470b). 
-− 
-Tablet film coating: Hypromellose (E464), hydroxypropyl cellulose (E463), titanium dioxide 
-(E171), talc (E553b), iron oxide yellow (E172), and iron oxide red (E172). </li>
-</ul>
-<p>See the end of section 2 for important information about the contents of Kaftrio. </p>
-<p>What Kaftrio looks like and contents of the pack 
-Kaftrio 37.5 mg/25 mg/50 mg film-coated tablets are light orange, capsule-shaped tablets stamped 
-with “T50” on one side and plain on the other. </p>
-<p>Kaftrio 75 mg/50 mg/100 mg film-coated tablets are orange, capsule-shaped tablets stamped with 
-“T100” on one side and plain on the other. </p>
-<p>Kaftrio is available in pack size of 56 tablets (4 blister cards, each with 14 tablets). </p>
-<p>Marketing Authorisation Holder 
-Vertex Pharmaceuticals (Ireland) Limited 
-Unit 49, Block F2, Northwood Court, Santry,<br />
-Dublin 9, D09 T665,<br />
-Ireland 
-Tel: +353 (0)1 761 7 
-Manufacturer 
-Almac Pharma Services (Ireland) Limited 
-Finnabair Industrial Estate 
-Dundalk 
-Co. Louth 
-A91 P9KD 
-Ireland </p>
-<p>Almac Pharma Services Limited 
-Seagoe Industrial Estate 
-Craigavon 
-Northern Ireland 
-BT63 5UA 
-United Kingdom </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien, България, Česká 
-republika, Danmark, Deutschland, Eesti, 
-France, Hrvatska, Ireland, Ísland, Κύπρος, 
-Latvija, Lietuva, Luxembourg/Luxemburg, 
-Magyarország, Malta, Nederland, Norge, 
-Österreich, Polska, Portugal, România, 
-Slovenija, Slovenská republika, 
-Suomi/Finland, Sverige, United Kingdom 
-(Northern Ireland) 
-Vertex Pharmaceuticals (Ireland) Limited 
-Tél/Tel/Teл/Tlf/Sími/Τηλ/Puh:<br />
-+353 (0) 1 761 7 
-España 
-Vertex Pharmaceuticals Spain, S.L. 
-Tel: + 34 91 7892 
-Ελλάδα 
-Vertex Φαρμακευτική Μονοπρόσωπη Ανώνυμη 
-Εταιρία 
-Τηλ: +30 (211) 2120Italia 
-Vertex Pharmaceuticals 
-(Italy) S.r.l. 
-Tel: +39 0697794 </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>
-<p>Package leaflet: Information for the patient </p>
-<p>Kaftrio 60 mg/40 mg/80 mg granules in sachet<br />
-Kaftrio 75 mg/50 mg/100 mg granules in sachet 
-ivacaftor/tezacaftor/elexacaftor </p>
-<p>This medicine is subject to additional monitoring. This will allow quick identification of new 
-safety information. You can help by reporting any side effects you may get. See the end of section 4 
-for how to report side effects. </p>
-<p>Read all of this leaflet carefully before your child starts taking this medicine because it contains 
-important information for your child. 
-* Keep this leaflet. You may need to read it again. 
-* If you have any further questions, ask your child’s doctor or pharmacist. 
-* This medicine has been prescribed for your child only. Do not pass it on to others. It may harm 
-them, even if their signs of illness are the same as your child. 
-* If you get any side effects, talk to your child’s doctor or pharmacist. This includes any possible 
-side effects not listed in this leaflet. See section 4.  </p>         </div>"""      
 

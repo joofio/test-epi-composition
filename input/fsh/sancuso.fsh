@@ -4,7 +4,7 @@ Instance: composition-en-cd1253bc1e51a6309a46a454334120e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for sancuso Package Leaflet"
 Description:  "Composition for sancuso Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,24 +84,28 @@ chemotherapy. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take sancuso"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use SANCUSO: 
-- if you are allergic to granisetron or any of the other ingredients of this medicine (listed in 
-section 6) 
-- if you are allergic to any other anti-sickness medicines whose name ends in “setron” e.g. 
-ondansetron. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use SANCUSO:</p>
+<ul>
+<li>if you are allergic to granisetron or any of the other ingredients of this medicine (listed in 
+section 6) </li>
+<li>if you are allergic to any other anti-sickness medicines whose name ends in  setron  e.g. 
+ondansetron. </li>
+</ul>
 <p>Warnings and precautions 
-Tell your doctor or nurse before using this treatment if any of the following applies to you: </p>
+Tell your doctor or nurse before using this treatment if any of the following applies to you:</p>
 <ul>
 <li>if you have been told you have a heart disorder or disease </li>
 <li>if you have pain in your stomach or your stomach is swollen </li>
 <li>if you have problems with your kidneys or liver. </li>
 </ul>
 <p>This medicine may not work as well and/or may affect your skin if exposed to direct sunlight or the 
-light from sunlamps or tanning beds. It is important to do the following: 
-- while you wear the transdermal patch, keep it covered with clothing if you will be in sunlight or 
-near a sunlamp, including tanning beds 
-- keep the skin where this medicine was applied covered for another 10 days after the  transdermal 
-patch is taken off to protect from exposure to direct sunlight. </p>
+light from sunlamps or tanning beds. It is important to do the following:</p>
+<ul>
+<li>while you wear the transdermal patch, keep it covered with clothing if you will be in sunlight or 
+near a sunlamp, including tanning beds </li>
+<li>keep the skin where this medicine was applied covered for another 10 days after the  transdermal 
+patch is taken off to protect from exposure to direct sunlight. </li>
+</ul>
 <p>It is not known how activities such as swimming, strenuous exercise or using a sauna or whirlpool, 
 may affect this medicine. Avoid these activities while wearing this transdermal patch. You can continue 
 to shower and wash normally while wearing the transdermal patch. </p>
@@ -112,11 +116,13 @@ This medicine should not be used by children or adolescents under 18 years. </p>
 <p>Other medicines and SANCUSO 
 Tell your doctor or nurse if you are taking, have recently taken or might take any other medicines. 
 SANCUSO can affect the way some medicines work. Also, some other medicines can affect the way 
-SANCUSO works. In particular, tell your doctor or nurse if you are taking the following medicines: 
-- Paracetamol, used to treat pain. 
-- Phenobarbital, used to treat epilepsy. 
-- Ketoconazole, used to treat fungal infections. 
-- SSRIs (selective serotonin reuptake inhibitors) used to treat depression and/or anxiety including </p>
+SANCUSO works. In particular, tell your doctor or nurse if you are taking the following medicines:</p>
+<ul>
+<li>Paracetamol, used to treat pain. </li>
+<li>Phenobarbital, used to treat epilepsy. </li>
+<li>Ketoconazole, used to treat fungal infections. </li>
+<li>SSRIs (selective serotonin reuptake inhibitors) used to treat depression and/or anxiety including </li>
+</ul>
 <p>fluoxetine, paroxetine, sertraline, fluvoxamine, citalopram, escitalopram. 
 - SNRIs (serotonin noradrenaline reuptake inhibitors) used to treat depression and/or anxiety </p>
 <p>including venlafaxine, duloxetine. 
@@ -174,7 +180,49 @@ your abdomen. The area you choose should not be oily, recently shaved or have an
 such as being injured (cut or scraped) or irritated (redness or a rash). Do not put SANCUSO on areas 
 that have been treated with creams, oils, lotions, powders or other skin products that could keep the 
 transdermal patch from sticking well to your skin. </p>
-<p>How to apply the transdermal patch </p>         </div>"""         
+<p>How to apply the transdermal patch 
+1. Remove a sachet from the box and tear it open using the slit provided. Each sachet contains one 
+transdermal patch stuck onto a rigid plastic film. 
+2. Take the transdermal patch out of the sachet. </p>
+<ol>
+<li>The sticky side of the transdermal patch is covered by a two-piece rigid plastic film. Bend the 
+transdermal patch in the middle and remove one half of the rigid plastic film. Be careful not to 
+stick the transdermal patch to itself and avoid touching the sticky side of the transdermal patch. </li>
+<li>While holding the remaining half of the rigid plastic film, apply the transdermal patch to the skin 
+on the outside part of your upper arm. </li>
+<li>Remove the second half of the rigid plastic film and press the whole transdermal patch firmly in 
+place with your fingers and smooth down. Press firmly making sure there is good contact with 
+the skin, especially around the edges. </li>
+<li>Wash your hands after applying the transdermal patch. </li>
+<li>Keep the transdermal patch in place for the whole time you are having chemotherapy. </li>
+<li>Do not re-use the transdermal patch after removal, see below for instructions on transdermal 
+patch removal and disposal (see section 5). </li>
+</ol>
+<p>After removing the transdermal patch 
+1. The used transdermal patch will still contain some granisetron and should be disposed of 
+immediately as described in section 5. 2. After removing the transdermal patch you may find some sticky material is left on your skin. 
+Gently wash the area with soap and water to remove it. Alcohol or other dissolving liquids such 
+as nail polish remover may cause skin irritation and should not be used. 
+3. Wash your hands. 
+4. You may see mild redness on the skin where the transdermal patch is removed. This redness 
+should go away over time. If it does not, tell your doctor. </p>
+<p>If the transdermal patch becomes unstuck 
+If the transdermal patch starts to become unstuck, the same transdermal patch may be secured to the 
+same area of skin. If required, use surgical bandages or medical adhesive tape to keep the transdermal 
+patch in place. If the transdermal patch is lost or becomes damaged go back to your doctor. </p>
+<p>If you use more SANCUSO than you should 
+If you use more SANCUSO than you should, simply remove the extra patch(es) and contact your 
+doctor. </p>
+<p>If you forget to use SANCUSO 
+It is important to use this medicinal product as instructed by your doctor to prevent you feeling sick or 
+being sick following your chemotherapy. If you have forgotten to apply your transdermal patch at the 
+right time, apply it as soon as you remember, and tell your doctor as soon as possible before your 
+chemotherapy treatment. </p>
+<p>If you stop using SANCUSO 
+It is important to use this medicine during the whole length of your chemotherapy (up to 7 days) to 
+prevent you feeling sick or being sick following your chemotherapy. Talk to your doctor if you want 
+to remove the patch before the end of your chemotherapy treatment course (up to 7 days). </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -182,14 +230,76 @@ transdermal patch from sticking well to your skin. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>transdermal patch stuck onto a rigid plastic film. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>If you are being treated with chemotherapy that is moderately or highly capable of making you feel 
+sick, you may still be sick despite treatment with anti-sickness medicine, including this medicine. </p>
+<p>Tell your doctor immediately if you develop constipation or if your stomach becomes painful or 
+swollen. Constipation is a common side effect and may affect up to 1 in 10 people. </p>
+<p>Remove the transdermal patch and tell your doctor if you notice: 
+* signs and symptoms of a condition called Serotonin Syndrome, which can be serious and in 
+some cases life threatening. These may include changes in blood pressure (which could 
+make you feel dizzy or have a headache), fast heartbeat, blurred vision (which may be due 
+to dilation of the pupil of the eye), sweating, increased bowel movements/noises, shivering, 
+tremor, muscle twitching or jerking, and overactive reflexes. You may also have a high or 
+very high temperature (fever), feel agitated or confused, have stiff muscles, and notice that 
+you are talking faster. How many people will get Serotonin Syndrome is not known (cannot 
+be estimated from available data) 
+* a serious skin reaction (if your skin is very red, itchy or you notice any blisters). Skin 
+reactions at the site of application, such as irritation, itching or redness are uncommon and 
+may affect up to 1 in 100 people. </p>
+<p>Other possible side effects: 
+Uncommon side effects are:</p>
+<ul>
+<li>headache, a feeling of  spinning  even when you are standing still (vertigo) </li>
+<li>decreased appetite, weight loss </li>
+<li>flushing (or redness) </li>
+<li>feeling sick (nausea), retching, dry mouth </li>
+<li>pain in your joints </li>
+<li>swelling due to water retention (oedema) </li>
+<li>changes in liver function tests (if you are having blood tests, tell the doctor or nurse that you </li>
+</ul>
+<p>have been given SANCUSO). </p>
+<p>Rare side effects (may affect up to 1 in 1,000 people) are:</p>
+<ul>
+<li>abnormal muscle movements (such as shaking, muscle rigidity and muscle contractions). </li>
+</ul>
+<p>Side effects with a frequency not known (cannot be estimated from available data):</p>
+<ul>
+<li>allergic skin reactions. The signs may include red, raised itchy bumps </li>
+</ul>
+<p>Other possible side effects associated with granisetron products (frequency not known):</p>
+<ul>
+<li>Allergic reactions including urticaria (itchy, red, raised skin rash) and anaphalaxis (a serious 
+allergic reaction which may include sudden wheeziness, difficulty in breathing, swelling of the 
+eyelids, face or lips, rash or itching) </li>
+<li>Difficulty sleeping/disturbed sleep </li>
+<li>Excessive sleepiness </li>
+<li>Prolonged QT interval in the ECG (changes to the heart rate trace (ECG) indicating a heart 
+rhythm disorder) </li>
+<li>Constipation </li>
+<li>Diarrhoea </li>
+<li>Lack of energy/weakness /Loss of strength </li>
+</ul>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
+listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects you can help provide more information on the safety of this 
+medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sancuso"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store sancuso"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and the sachet after 
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in the original package in order to protect from light. </p>
+<p>Used transdermal patches still contain active ingredients, which may be harmful to others. Fold the 
+used transdermal patch in half with the sticky side inwards and dispose of it safely, out of the reach of 
+children. Do not throw away any medicines via wastewater or household waste.  </p>
+<p>Ask your pharmacist how to throw away medicines you no longer use. These measures will help 
+protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -197,6 +307,30 @@ transdermal patch from sticking well to your skin. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>transdermal patch in the middle and remove one half of the rigid plastic film. Be careful not to 
-stick the transdermal patch to itself and avoid touching the sticky side of the transdermal patch. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What SANCUSO contains 
+- The active substance is granisetron. Each 52 cm2 transdermal patch contains 34.3 mg of 
+granisetron, releasing 3.1 mg of granisetron in 24 hours. 
+- The other ingredients are:</p>
+<ul>
+<li>Transdermal patch adhesive: acrylate-vinylacetate copolymer </li>
+<li>Backing layer: polyester </li>
+<li>Rigid plastic film: siliconised polyester </li>
+</ul>
+<p>What SANCUSO looks like and contents of the pack 
+SANCUSO is a thin, clear, rectangular-shaped transdermal patch with rounded corners, stuck onto a 
+rigid plastic film. The transdermal patch is contained in a sachet. Each carton contains one transdermal 
+patch. </p>
+<p>Marketing Authorisation Holder and Manufacturer  </p>
+<p>Marketing Authorisation Holder 
+Kyowa Kirin Holdings B.V. 
+Bloemlaan 2 
+2132NP Hoofddorp 
+The Netherlands<br />
+Tel: +31 (0) 237200 
+Manufacturer 
+Pharbil Waltrop GmbH (a subsidiary of NextPharma) 
+Im Wirrigen 45731 Waltrop 
+Germany </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 

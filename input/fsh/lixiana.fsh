@@ -4,7 +4,7 @@ Instance: composition-en-f4481348d9114628b637efdc170b1539
 InstanceOf: CompositionUvEpi
 Title: "Composition for lixiana Package Leaflet"
 Description:  "Composition for lixiana Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,13 +71,15 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lixiana contains the active substance edoxaban and belongs to a group of medicines called 
 anticoagulants. This medicine helps to prevent blood clots from forming. It works by blocking the 
 activity of factor Xa, which is an important component of blood clotting. </p>
-<p>Lixiana is used in adults to: 
-- prevent blood clots in the brain (stroke) and other blood vessels in the body if you have a 
+<p>Lixiana is used in adults to:</p>
+<ul>
+<li>prevent blood clots in the brain (stroke) and other blood vessels in the body if you have a 
 form of irregular heart rhythm called nonvalvular atrial fibrillation and at least one additional 
-risk factor, such as heart failure, previous stroke or high blood pressure; 
-- treat blood clots in the veins of the legs (deep vein thrombosis) and in the blood vessels in 
+risk factor, such as heart failure, previous stroke or high blood pressure; </li>
+<li>treat blood clots in the veins of the legs (deep vein thrombosis) and in the blood vessels in 
 the lungs (pulmonary embolism), and to prevent blood clots from re-occurring in the blood 
-vessels in the legs and/or lungs. </p>         </div>"""   
+vessels in the legs and/or lungs. </li>
+</ul>         </div>"""   
           
 
              
@@ -112,8 +114,14 @@ conditions:
 * problems with the blood vessels in your brain or spinal column; 
 - if you have a mechanical heart valve. </p>
 <p>Lixiana 15 mg is only to be used when changing from Lixiana 30 mg to a vitamin K antagonist (e.g. 
-warfarin) (see section 3. How to take Lixiana). </p>
-<p>Take special care with Lixiana, 
+warfarin) (see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lixiana"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lixiana"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Take special care with Lixiana, 
 - if you know that you have a disease called antiphospholipid syndrome (a disorder of the 
 immune system that causes an increased risk for blood clots), tell your doctor who will decide if 
 the treatment may need to be changed. </p>
@@ -143,7 +151,7 @@ may increase the effects of Lixiana and the chance of unwanted bleeding. Your do
 you should be treated with Lixiana and if you should be kept under observation. </p>
 <p>If you are taking any of the following: 
 * some medicines for treatment of epilepsy (e.g. phenytoin, carbamazepine, phenobarbital); 
-* St John’s Wort, a herbal product used for anxiety and mild depression; 
+* St John s Wort, a herbal product used for anxiety and mild depression; 
 * rifampicin, an antibiotic medicine. </p>
 <p>If any of the above apply to you, tell your doctor before taking Lixiana, because the effect of 
 Lixiana may be reduced. Your doctor will decide if you should be treated with Lixiana and if you 
@@ -153,12 +161,13 @@ should be kept under observation. </p>
 pregnant, use a reliable contraceptive while you are taking Lixiana. If you become pregnant while you 
 are taking Lixiana, immediately tell your doctor, who will decide how you should be treated. </p>
 <p>Driving and using machines </p>
-<p>Lixiana has no or negligible effects on your ability to drive or use machines. </p>         </div>"""   
-                    
+<p>Lixiana has no or negligible effects on your ability to drive or use machines. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take lixiana"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take lixiana"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -214,13 +223,12 @@ as usual. Do not take a double dose on the same day to make up for a forgotten d
 <p>If you stop taking Lixiana </p>
 <p>Do not stop taking Lixiana without talking to your doctor first, because Lixiana treats and prevents 
 serious conditions. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store lixiana"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store lixiana"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Like other similar medicines (medicines to reduce blood clotting), Lixiana may cause bleeding which 
@@ -274,10 +282,11 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store lixiana"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store lixiana"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on each blister or 
@@ -285,153 +294,4 @@ bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Lixiana contains </p>
-<ul>
-<li>The active substance is edoxaban (as tosilate). </li>
-</ul>
-<p>Lixiana 15 mg film-coated tablets<br />
-Each tablet contains 15 mg edoxaban (as tosilate). </p>
-<p>Lixiana 30 mg film-coated tablets 
-Each tablet contains 30 mg edoxaban (as tosilate). </p>
-<p>Lixiana 60 mg film-coated tablets 
-Each tablet contains 60 mg edoxaban (as tosilate). </p>
-<ul>
-<li>The other ingredients are: </li>
-</ul>
-<p>Lixiana 15 mg film-coated tablets 
-Tablet core: mannitol (E421), pregelatinised starch, crospovidone (E1202), hydroxypropyl cellulose 
-(E463), magnesium stearate (E470b). 
-Film coat: hypromellose (E464), macrogol (8000), titanium dioxide (E171), talc (E553b), carnauba 
-wax, iron oxide red (E172), iron oxide yellow (E172). </p>
-<p>Lixiana 30 mg film-coated tablets 
-Tablet core: mannitol (E421), pregelatinised starch, crospovidone (E1202), hydroxypropyl cellulose 
-(E463), magnesium stearate (E470b). 
-Film coat: hypromellose (E464), macrogol (8000), titanium dioxide (E171), talc (E553b), carnauba 
-wax, iron oxide red (E172). </p>
-<p>Lixiana 60 mg film-coated tablets 
-Tablet core: mannitol (E421), pregelatinised starch, crospovidone (E1202), hydroxypropyl cellulose 
-(E463), magnesium stearate (E470b). 
-Film coat: hypromellose (E464), macrogol (8000), titanium dioxide (E171), talc (E553b), carnauba 
-wax, iron oxide yellow (E172). </p>
-<p>What Lixiana looks like and contents of the pack </p>
-<p>Lixiana 15 mg film-coated tablets are orange, round-shaped (6.7 mm diameter) and debossed with 
-“DSC L15” on one side. 
-They come in blisters in cartons of 10 film-coated tablets or unit dose blisters in cartons of 10 x 1 film-
-coated tablets. </p>
-<p>Lixiana 30 mg film-coated tablets are pink, round-shaped (8.5 mm diameter) and debossed with 
-“DSC L30” on one side. 
-They come in blisters in cartons of 10, 14, 28, 30, 56, 60, 84, 90, 98 or 100 film-coated tablets or unit 
-dose blisters in cartons of 10 x 1, 50 x 1, or 100 x 1 film-coated tablets, or in bottles of 90 film-coated 
-tablets. </p>
-<p>Lixiana 60 mg film-coated tablets are yellow, round-shaped (10.5 mm diameter) and debossed with 
-“DSC L60” on one side. 
-They come in blisters in cartons of 10, 14, 28, 30, 56, 60, 84, 90, 98 or 100 film-coated tablets or unit 
-dose blisters in cartons of 10 x 1, 50 x 1, or 100 x 1 film-coated tablets, or in bottles of 90 film-coated 
-tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Daiichi Sankyo Europe GmbH 
-Zielstattstrasse 81379 Munich 
-Germany </p>
-<p>Manufacturer 
-Daiichi Sankyo Europe GmbH 
-Luitpoldstrasse 1 
-85276 Pfaffenhofen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Daiichi Sankyo Belgium N.V.-S.A<br />
-Tél/Tel: +32-(0) 2 227 18<br />
-Lietuva 
-UAB “SERVIER PHARMA” 
-Tel: +370 (5) 2 63 86 28<br />
-България 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Luxembourg/Luxemburg 
-Daiichi Sankyo Belgium N.V.-S.A<br />
-Tél/Tel: +32-(0) 2 227 18 Česká republika 
-Organon Czech Republic s.r.o. 
-Tel: +420 233 010<br />
-Magyarország 
-Organon Hungary Kft. 
-Tel.: +36 1 766 1Danmark 
-Organon Denmark ApS<br />
-Tlf: +45 4484 6 
-Malta 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Deutschland 
-Daiichi Sankyo Deutschland GmbH<br />
-Tel. +49-(0) 89 7808 0 </p>
-<p>Nederland 
-Daiichi Sankyo Nederland B.V.<br />
-Tel: +31-(0) 20 4 07 20 Eesti 
-Servier Laboratories OÜ 
-Tel: +372 664 5 
-Norge 
-Organon Norway AS 
-Tlf: +47 24 14 56 Ελλάδα 
-Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 </p>
-<p>Österreich 
-Daiichi Sankyo Austria GmbH<br />
-Tel: +43-(0) 1 485 86 42 0 
-España 
-Daiichi Sankyo España, S.A.<br />
-Tel: +34 91 539 99<br />
-Polska 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-France 
-Daiichi Sankyo France S.A.S.<br />
-Tél: +33-(0) 1 55 62 14<br />
-Portugal 
-Daiichi Sankyo Portugal, Unip. LDA 
-Tel: +351 21 4232Hrvatska 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>România 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Ireland 
-Daiichi Sankyo Ireland Ltd<br />
-Tel: +353-(0) 1 489 3 
-Slovenija 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Organon Slovakia s. r. o. 
-Tel: +421 2 44 88 98 Italia 
-Daiichi Sankyo Italia S.p.A.<br />
-Tel: +39-06 85 2 
-Suomi/Finland 
-Organon Finland Oy 
-Puh/Tel: +358 (0) 29 170 3Κύπρος 
-Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 </p>
-<p>Sverige 
-Organon Sweden AB 
-Tel: +46 8 502 597 Latvija 
-SIA Servier Latvia 
-Tel: +371 67502United Kingdom (Northern Ireland) 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available by scanning the QR Code below with a smartphone.<br />
-The same information is also available on the following URL: www.dspatient.eu. </p>
-<p>QR code to be included </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

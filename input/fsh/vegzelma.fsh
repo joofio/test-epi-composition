@@ -4,7 +4,7 @@ Instance: composition-en-70c37efbcc66b94190d4774fa8f2fb33
 InstanceOf: CompositionUvEpi
 Title: "Composition for vegzelma Package Leaflet"
 Description:  "Composition for vegzelma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -112,86 +112,65 @@ alternatively, paclitaxel and topotecan in patients who cannot receive platinum 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take vegzelma"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use VEGZELMA if: 
-● 
-you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
-medicine (listed in section 6).<br />
-● 
-you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
-recombinant human or humanised antibodies.<br />
-● 
-you are pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use VEGZELMA if: </p>
+<p>you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
+medicine (listed in section 6).  </p>
+<p>you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
+recombinant human or humanised antibodies.  </p>
+<p>you are pregnant. </p>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor, pharmacist or nurse before using VEGZELMA </p>
-<p>● 
-It is possible that VEGZELMA may increase the risk of developing holes in the gut wall. If you 
+<p>It is possible that VEGZELMA may increase the risk of developing holes in the gut wall. If you 
 have conditions causing inflammation inside the abdomen (e.g. diverticulitis, stomach ulcers, 
 colitis associated with chemotherapy), please discuss this with your doctor.  </p>
-<p>● 
-VEGZELMA may increase the risk of developing an abnormal connection or passageway 
+<p>VEGZELMA may increase the risk of developing an abnormal connection or passageway 
 between two organs or vessels. The risk of developing connections between the vagina and any 
 parts of the gut can increase if you have persistent, recurrent or metastatic cervical cancer.  </p>
-<p>● 
-VEGZELMA can increase the risk of bleeding or increase the risk of problems with wound 
+<p>VEGZELMA can increase the risk of bleeding or increase the risk of problems with wound 
 healing after surgery. If you are going to have an operation, if you have had major surgery 
 within the last 28 days or if you still have an unhealed wound following surgery, you should not 
 receive this medicine.  </p>
-<p>● 
-VEGZELMA may increase the risk of developing serious infections of the skin or deeper layers 
+<p>VEGZELMA may increase the risk of developing serious infections of the skin or deeper layers 
 under the skin, especially if you had holes in the gut wall or problems with wound healing.  </p>
-<p>● 
-VEGZELMA can increase the incidence of high blood pressure. If you have high blood pressure 
+<p>VEGZELMA can increase the incidence of high blood pressure. If you have high blood pressure 
 which is not well controlled with blood pressure medicines, please consult your doctor as it is 
 important to make sure that your blood pressure is under control before starting VEGZELMA 
 treatment.  </p>
-<p>● 
-If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
+<p>If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
 tear in a blood vessel wall. </p>
-<p>● 
-VEGZELMA increases the risk of having protein in your urine especially if you already have 
+<p>VEGZELMA increases the risk of having protein in your urine especially if you already have 
 high blood pressure. </p>
-<p>● 
-The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
+<p>The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
 are over 65 years old, if you have diabetes, or if you have had previous blood clots in your 
 arteries. Please talk to your doctor since blood clots can lead to heart attack and stroke. </p>
-<p>● 
-VEGZELMA can also increase the risk of developing blood clots in your veins (a type of blood 
+<p>VEGZELMA can also increase the risk of developing blood clots in your veins (a type of blood 
 vessel).  </p>
-<p>● 
-VEGZELMA may cause bleeding, especially tumour-related bleeding. Please consult your 
+<p>VEGZELMA may cause bleeding, especially tumour-related bleeding. Please consult your 
 doctor if you or your family tend to suffer from bleeding problems or you are taking medicines 
 to thin the blood for any reason.  </p>
-<p>● 
-It is possible that VEGZELMA may cause bleeding in and around your brain. Please discuss 
+<p>It is possible that VEGZELMA may cause bleeding in and around your brain. Please discuss 
 this with your doctor if you have metastatic cancer affecting your brain.  </p>
-<p>● 
-It is possible that VEGZELMA can increase the risk of bleeding in your lungs, including 
+<p>It is possible that VEGZELMA can increase the risk of bleeding in your lungs, including 
 coughing or spitting blood. Please discuss with your doctor if you noticed this previously.  </p>
-<p>● 
-VEGZELMA can increase the risk of developing a weak heart. It is important that your doctor 
+<p>VEGZELMA can increase the risk of developing a weak heart. It is important that your doctor 
 knows if you have ever received anthracyclines (for example doxorubicin, a specific type of 
 chemotherapy used to treat some cancers) or had radiotherapy to your chest, or if you have heart 
 disease.  </p>
-<p>● 
-VEGZELMA may cause infections and a decreased number of your neutrophils (a type of blood 
+<p>VEGZELMA may cause infections and a decreased number of your neutrophils (a type of blood 
 cell important for your protection against bacteria).  </p>
-<p>● 
-It is possible that VEGZELMA can cause hypersensitivity (including anaphylactic shock) 
+<p>It is possible that VEGZELMA can cause hypersensitivity (including anaphylactic shock) 
 and/or infusion reactions (reactions related to your injection of the medicine). Please let your 
 doctor, pharmacist or nurse know if you have previously experienced problems after injections, 
 such as dizziness/feeling of fainting, breathlessness, swelling or skin rash.  </p>
-<p>● 
-A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
+<p>A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
 has been associated with VEGZELMA treatment. If you have headache, vision changes, 
 confusion or seizure with or without high blood pressure, please contact your doctor. </p>
 <p>Please consult your doctor, even if these above statements were only applicable to you in the past.  </p>
 <p>Before you are given VEGZELMA or while you are being treated with VEGZELMA:  </p>
-<p>● 
-if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, 
+<p>if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, 
 numbness or a feeling of heaviness in the jaw, or loosening of a tooth tell your doctor and 
-dentist immediately.<br />
-● 
-if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
+dentist immediately.  </p>
+<p>if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
 are being treated with VEGZELMA (bevacizumab), in particular when you are also receiving or 
 have received an injection of bisphosphonate into your blood.  </p>
 <p>You may be advised to have a dental check-up before you start treatment with VEGZELMA. </p>
@@ -227,8 +206,8 @@ However, sleepiness and fainting have been reported with VEGZELMA use. If you ex
 symptoms that affect your vision or concentration, or your ability to react, do not drive and use 
 machines until symptoms disappear.  </p>
 <p>Important information about some of the ingredients of VEGZELMA<br />
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’.  </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vegzelma"
@@ -249,39 +228,26 @@ before use. A doctor or nurse will give you this diluted VEGZELMA solution by in
 (a drip into your vein). The first infusion will be given to you over 90 minutes. If this is well-tolerated 
 the second infusion may be given over 60 minutes. Later infusions may be given to you over minutes.  </p>
 <p>The administration of VEGZELMA should be temporarily discontinued  </p>
-<p>● 
-if you develop severe high blood pressure requiring treatment with blood pressure medicines,<br />
-● 
-if you have problems with wound healing following surgery,<br />
-● 
-if you undergo surgery  </p>
+<p>if you develop severe high blood pressure requiring treatment with blood pressure medicines,  </p>
+<p>if you have problems with wound healing following surgery,  </p>
+<p>if you undergo surgery  </p>
 <p>The administration of VEGZELMA should be permanently discontinued if you develop  </p>
-<p>● 
-severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
-severe rise in blood pressure,<br />
-● 
-presence of protein in your urine accompanied by swelling of your body, 
-● 
-a hole in your gut wall,<br />
-● 
-an abnormal tube-like connection or passage between the windpipe and the gullet, between 
+<p>severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
+severe rise in blood pressure,  </p>
+<p>presence of protein in your urine accompanied by swelling of your body, </p>
+<p>a hole in your gut wall,  </p>
+<p>an abnormal tube-like connection or passage between the windpipe and the gullet, between 
 internal organs and skin, between the vagina and any parts of the gut or between other tissues 
-that are not normally connected (fistula), and are judged by your doctor to be severe,<br />
-● 
-serious infections of the skin or deeper layers under the skin,<br />
-● 
-a blood clot in your arteries,<br />
-● 
-a blood clot in the blood vessels of your lungs,<br />
-● 
-any severe bleeding. </p>
+that are not normally connected (fistula), and are judged by your doctor to be severe,  </p>
+<p>serious infections of the skin or deeper layers under the skin,  </p>
+<p>a blood clot in your arteries,  </p>
+<p>a blood clot in the blood vessels of your lungs,  </p>
+<p>any severe bleeding. </p>
 <p>If too much VEGZELMA is given  </p>
-<p>● 
-you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
+<p>you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
 or nurse immediately.  </p>
 <p>If a dose of VEGZELMA is missed  </p>
-<p>● 
-your doctor will decide when you should be given your next dose of VEGZELMA. You should 
+<p>your doctor will decide when you should be given your next dose of VEGZELMA. You should 
 discuss this with your doctor.  </p>
 <p>If you stop treatment with VEGZELMA  </p>
 <p>Stopping your treatment with VEGZELMA may stop the effect on tumour growth. Do not stop 
@@ -305,168 +271,101 @@ signs may include: difficulty in breathing or chest pain. You could also experie
 of the skin or a rash, chills and shivering, feeling sick (nausea) or being sick (vomiting), swelling, 
 lightheadedness, fast heartbeat and loss of consciousness. </p>
 <p>You should seek help immediately if you suffer from any of the below mentioned side effects.  </p>
-<p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include:<br />
-● 
-high blood pressure,<br />
-● 
-feeling of numbness or tingling in hands or feet,<br />
-● 
-decreased number of cells in the blood, including white cells that help to fight against infections 
-(this may be accompanied by fever), and cells that help the blood to clot,<br />
-● 
-feeling weak and having no energy,<br />
-● 
-tiredness,<br />
-● 
-diarrhoea, nausea, vomiting and abdominal pain.  </p>
-<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include:<br />
-● 
-perforation of the gut,<br />
-● 
-bleeding, including bleeding in the lungs in patients with non-small cell lung cancer,<br />
-● 
-blocking of the arteries by a blood clot,<br />
-● 
-blocking of the veins by a blood clot,<br />
-● 
-blocking of the blood vessels of the lungs by a blood clot,<br />
-● 
-blocking of the veins of the legs by a blood clot, 
-● 
-heart failure,<br />
-● 
-problems with wound healing after surgery,<br />
-● 
-redness, peeling, tenderness, pain, or blistering on the fingers or feet,<br />
-● 
-decreased number of red cells in the blood,<br />
-● 
-lack of energy,<br />
-● 
-stomach and intestinal disorder,<br />
-● 
-muscle and joint pain, muscular weakness,<br />
-● 
-dry mouth in combination with thirst and/or reduced or darkened urine,<br />
-● 
-inflammation of the moist lining of mouth and gut, lungs and air passages, reproductive, and 
-urinary tracts,<br />
-● 
-sores in the mouth and the tube from the mouth to the stomach, which may be painful and cause 
-difficulty swallowing,<br />
-● 
-pain, including headache, back pain and pain in the pelvis and anal regions,<br />
-● 
-localised pus collection,<br />
-● 
-infection, and in particular infection in the blood or bladder,<br />
-● 
-reduced blood supply to the brain or stroke,<br />
-● 
-sleepiness,<br />
-● 
-nose bleed,<br />
-● 
-increase in heart rate (pulse),<br />
-● 
-blockage in the gut or bowel,<br />
-● 
-abnormal urine test (protein in the urine),<br />
-● 
-shortness of breath or low levels of oxygen in the blood,<br />
-● 
-infections of the skin or deeper layers under the skin,<br />
-● 
-fistula: abnormal tube-like connection between internal organs and skin or other tissues that are 
+<p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include:  </p>
+<p>high blood pressure,  </p>
+<p>feeling of numbness or tingling in hands or feet,  </p>
+<p>decreased number of cells in the blood, including white cells that help to fight against infections 
+(this may be accompanied by fever), and cells that help the blood to clot,  </p>
+<p>feeling weak and having no energy,  </p>
+<p>tiredness,  </p>
+<p>diarrhoea, nausea, vomiting and abdominal pain.  </p>
+<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include:  </p>
+<p>perforation of the gut,  </p>
+<p>bleeding, including bleeding in the lungs in patients with non-small cell lung cancer,  </p>
+<p>blocking of the arteries by a blood clot,  </p>
+<p>blocking of the veins by a blood clot,  </p>
+<p>blocking of the blood vessels of the lungs by a blood clot,  </p>
+<p>blocking of the veins of the legs by a blood clot, </p>
+<p>heart failure,  </p>
+<p>problems with wound healing after surgery,  </p>
+<p>redness, peeling, tenderness, pain, or blistering on the fingers or feet,  </p>
+<p>decreased number of red cells in the blood,  </p>
+<p>lack of energy,  </p>
+<p>stomach and intestinal disorder,  </p>
+<p>muscle and joint pain, muscular weakness,  </p>
+<p>dry mouth in combination with thirst and/or reduced or darkened urine,  </p>
+<p>inflammation of the moist lining of mouth and gut, lungs and air passages, reproductive, and 
+urinary tracts,  </p>
+<p>sores in the mouth and the tube from the mouth to the stomach, which may be painful and cause 
+difficulty swallowing,  </p>
+<p>pain, including headache, back pain and pain in the pelvis and anal regions,  </p>
+<p>localised pus collection,  </p>
+<p>infection, and in particular infection in the blood or bladder,  </p>
+<p>reduced blood supply to the brain or stroke,  </p>
+<p>sleepiness,  </p>
+<p>nose bleed,  </p>
+<p>increase in heart rate (pulse),  </p>
+<p>blockage in the gut or bowel,  </p>
+<p>abnormal urine test (protein in the urine),  </p>
+<p>shortness of breath or low levels of oxygen in the blood,  </p>
+<p>infections of the skin or deeper layers under the skin,  </p>
+<p>fistula: abnormal tube-like connection between internal organs and skin or other tissues that are 
 not normally connected, including connections between vagina and the gut in patients with 
-cervical cancer, 
-● 
-allergic reactions (the signs may include breathing difficulty, facial redness, rash, low blood 
+cervical cancer, </p>
+<p>allergic reactions (the signs may include breathing difficulty, facial redness, rash, low blood 
 pressure or high blood pressure, low oxygen in your blood, chest pain, or nausea/vomiting). </p>
-<p>Severe side effect, which may be rare (may affect up to 1 in 1,000 people), include:<br />
-● 
-sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, fast 
+<p>Severe side effect, which may be rare (may affect up to 1 in 1,000 people), include:  </p>
+<p>sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, fast 
 heartbeat, sweating, and loss of consciousness (anaphylactic shock). </p>
 <p>Severe side effects of unknown frequency (frequency cannot be estimated from the available data), 
-include:<br />
-● 
-serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
-gut wall or problems with wound healing,<br />
-● 
-a negative effect on a woman’s ability to have children (see the paragraphs below the list of side 
-effects for further recommendations),<br />
-● 
-a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
-vision (Posterior Reversible Encephalopathy Syndrome or PRES),<br />
-● 
-symptoms that suggest changes in normal brain function (headaches, vision changes, confusion, 
-or seizures), and high blood pressure,<br />
-● 
-an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall 
-(aneurysms and artery dissections),<br />
-● 
-clogging of a very small blood vessel(s) in the kidney,<br />
-● 
-abnormally high blood pressure in the blood vessels of the lungs which makes the right side of 
-the heart work harder than normal,<br />
-● 
-a hole in the cartilage wall separating the nostrils of the nose,<br />
-● 
-a hole in the stomach or intestines,<br />
-● 
-an open sore or hole in the lining of the stomach or small intestine (the signs may include 
+include:  </p>
+<p>serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
+gut wall or problems with wound healing,  </p>
+<p>a negative effect on a woman s ability to have children (see the paragraphs below the list of side 
+effects for further recommendations),  </p>
+<p>a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
+vision (Posterior Reversible Encephalopathy Syndrome or PRES),  </p>
+<p>symptoms that suggest changes in normal brain function (headaches, vision changes, confusion, 
+or seizures), and high blood pressure,  </p>
+<p>an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall 
+(aneurysms and artery dissections),  </p>
+<p>clogging of a very small blood vessel(s) in the kidney,  </p>
+<p>abnormally high blood pressure in the blood vessels of the lungs which makes the right side of 
+the heart work harder than normal,  </p>
+<p>a hole in the cartilage wall separating the nostrils of the nose,  </p>
+<p>a hole in the stomach or intestines,  </p>
+<p>an open sore or hole in the lining of the stomach or small intestine (the signs may include 
 abdominal pain, feeling bloated, black tarry stools or blood in your stools (faeces) or blood in 
-your vomit),<br />
-● 
-bleeding from the lower part of the large bowel,<br />
-● 
-lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
+your vomit),  </p>
+<p>bleeding from the lower part of the large bowel,  </p>
+<p>lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
 pain and inflammation of the surrounding tissue (see the paragraphs below the list of side 
-effects for further recommendations), 
-● 
-hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
+effects for further recommendations), </p>
+<p>hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
 nausea/vomiting). </p>
 <p>You should seek help as soon as possible if you suffer from any of the below mentioned side 
 effects.  </p>
-<p>Very common (may affect more than 1 in 10 people) side effects, which were not severe, include:<br />
-● 
-constipation,<br />
-● 
-loss of appetite,<br />
-● 
-fever,<br />
-● 
-problems with the eyes (including increased production of tears),<br />
-● 
-changes in speech,<br />
-● 
-change in the sense of taste,<br />
-● 
-runny nose,<br />
-● 
-dry skin, flaking and inflammation of the skin, change in skin colour,<br />
-● 
-loss of body weight,<br />
-● 
-nose bleeds.  </p>
-<p>Common (may affect up to 1 in 10 people) side effects, which were not severe, include:<br />
-● 
-voice changes and hoarseness.  </p>
-<p>Patients older than 65 years have an increased risk of experiencing the following side effects:<br />
-● 
-blood clot in the arteries which can lead to a stroke or a heart attack,<br />
-● 
-reduction in the number of white cells in the blood, and cells that help the blood clot,<br />
-● 
-diarrhoea,<br />
-● 
-sickness,<br />
-● 
-headache,<br />
-● 
-fatigue,<br />
-● 
-high blood pressure. </p>
+<p>Very common (may affect more than 1 in 10 people) side effects, which were not severe, include:  </p>
+<p>constipation,  </p>
+<p>loss of appetite,  </p>
+<p>fever,  </p>
+<p>problems with the eyes (including increased production of tears),  </p>
+<p>changes in speech,  </p>
+<p>change in the sense of taste,  </p>
+<p>runny nose,  </p>
+<p>dry skin, flaking and inflammation of the skin, change in skin colour,  </p>
+<p>loss of body weight,  </p>
+<p>nose bleeds.  </p>
+<p>Common (may affect up to 1 in 10 people) side effects, which were not severe, include:  </p>
+<p>voice changes and hoarseness.  </p>
+<p>Patients older than 65 years have an increased risk of experiencing the following side effects:  </p>
+<p>blood clot in the arteries which can lead to a stroke or a heart attack,  </p>
+<p>reduction in the number of white cells in the blood, and cells that help the blood clot,  </p>
+<p>diarrhoea,  </p>
+<p>sickness,  </p>
+<p>headache,  </p>
+<p>fatigue,  </p>
+<p>high blood pressure. </p>
 <p>VEGZELMA may also cause changes in laboratory tests carried out by your doctor. These include a 
 decreased number of white cells in the blood, in particular neutrophils (one type of white blood cell 
 which helps protect against infections) in the blood; presence of protein in the urine; decreased blood 
@@ -484,16 +383,11 @@ you should discuss this with your doctor before your treatment starts.  </p>
 not been developed or made for injection into the eye. It is therefore not authorised to be used in this 
 way. When bevacizumab is injected directly into the eye (unapproved use), the following side effects 
 may occur:  </p>
-<p>● 
-Infection or inflammation of the eye globe,<br />
-● 
-Redness of the eye, small particles or spots in your vision (floaters), eye pain,<br />
-● 
-Seeing flashes of light with floaters, progressing to a loss of some of your vision,<br />
-● 
-Increased eye pressure,<br />
-● 
-Bleeding in the eye. </p>
+<p>Infection or inflammation of the eye globe,  </p>
+<p>Redness of the eye, small particles or spots in your vision (floaters), eye pain,  </p>
+<p>Seeing flashes of light with floaters, progressing to a loss of some of your vision,  </p>
+<p>Increased eye pressure,  </p>
+<p>Bleeding in the eye. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -508,14 +402,14 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month.  </p>
-<p>Store in a refrigerator (2°C–8°C).<br />
+<p>Store in a refrigerator (2 C 8 C).<br />
 Do not freeze.<br />
 Keep the vial in the outer carton in order to protect from light.  </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions are the responsibility of the user and would normally not be longer than 24 hours 
-at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile environment. When dilution 
-has taken place in a sterile environment, VEGZELMA is stable for 60 days at 2°C to 8°C plus an 
-additional 7 days at 2°C to 30°C.  </p>
+at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile environment. When dilution 
+has taken place in a sterile environment, VEGZELMA is stable for 60 days at 2 C to 8 C plus an 
+additional 7 days at 2 C to 30 C.  </p>
 <p>Do not use VEGZLMA if you notice any particulate matter or discolouration prior to administration.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -527,15 +421,13 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What VEGZELMA contains  </p>
-<p>● 
-The active substance is bevacizumab. Each mL of concentrate contains 25 mg of bevacizumab, 
+<p>The active substance is bevacizumab. Each mL of concentrate contains 25 mg of bevacizumab, 
 corresponding to 1.4 to 16.5 mg/mL when diluted as recommended.<br />
 Each 4 mL vial contains 100 mg of bevacizumab, corresponding to 1.4 mg/mL when diluted as 
 recommended.<br />
 Each 16 mL vial contains 400 mg of bevacizumab, corresponding to 16.5 mg/mL when diluted 
-as recommended<br />
-● 
-The other ingredients are trehalose dihydrate, sodium phosphate, polysorbate 20 and water for 
+as recommended  </p>
+<p>The other ingredients are trehalose dihydrate, sodium phosphate, polysorbate 20 and water for 
 injections.  </p>
 <p>What VEGZELMA looks like and contents of the pack </p>
 <p>VEGZELMA is a concentrate for solution for infusion. The concentrate is a clear, colourless to pale 
@@ -545,7 +437,7 @@ solution or 400 mg bevacizumab in 16 mL of solution. Each pack of VEGZELMA conta
 <p>Marketing Authorisation Holder </p>
 <p>Celltrion Healthcare Hungary Kft.<br />
 1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
+V ci  t 1-3. WestEnd Office Building B torony 
 Hungary </p>
 <p>Manufacturer </p>
 <p>Millmount Healthcare Ltd. 
@@ -553,38 +445,37 @@ Block 7
 City North Business Campus<br />
 Stamullen, Co. Meath K32 YDIreland </p>
 <p>Nuvisan GmbH 
-Wegenerstraße 89231 Neu Ulm 
+Wegenerstra e 89231 Neu Ulm 
 Germany </p>
 <p>Nuvisan France SARL 
 2400, Route des Colles 
 06410, Sophia Antipolis 
 France </p>
 <p>Kymos S.L. 
-Ronda Can Fatjó 7B 
-(Parque Tecnológico del Vallès) Cerdanyola del Vallès,<br />
+Ronda Can Fatj  7B 
+(Parque Tecnol gico del Vall s) Cerdanyola del Vall s,<br />
 08290 Barcelona, 
 Spain </p>
 <p>Midas Pharma GmbH 
-Rheinstraße 55218 Ingelheim am Rhein 
+Rheinstra e 55218 Ingelheim am Rhein 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Celltrion Healthcare Belgium BVBA<br />
 Lietuva 
 Celltrion Healthcare Hungary Kft. 
-Tél/Tel: + 32 1528 7 
-Tel.: +36 1 231 0 
-България 
-Celltrion Healthcare Hungary Kft. 
-Teл.: +36 1 231 0 
+T l/Tel: + 32 1528 7 
+Tel.: +36 1 231 0 </p>
+<p>Celltrion Healthcare Hungary Kft. 
+Te .: +36 1 231 0 
 Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA<br />
-Tél/Tel: + 32 1528 7<br />
-Česká republika 
+T l/Tel: + 32 1528 7<br />
+ esk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 
-Magyarország 
+Magyarorsz g 
 Celltrion Healthcare Hungary Kft. 
 Tel.: +36 1 231 0 
 Danmark 
@@ -603,29 +494,28 @@ Celltrion Healthcare Hungary Kft.<br />
 Tel: +36 1 231 0<br />
 Norge 
 Celltrion Healthcare Hungary Kft.<br />
-Tlf: +36 1 231 0España 
+Tlf: +36 1 231 0Espa a 
 Kern Pharma, S.L. 
 Tel: +34 93 700 2 
-Österreich 
+ sterreich 
 Astro-Pharma GmbH 
-Tel: +43 1 97 99<br />
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 8009111 -<br />
+Tel: +43 1 97 99  </p>
+<p>. . 
+ : +30 210 8009111 -<br />
 Polska 
 Celltrion Healthcare Hungary Kft. 
 Tel.: +36 1 231 0 
 France 
 CELLTRION HEALTHCARE FRANCE SAS 
-Tél.: +33 (0)1 71 25 27<br />
+T l.: +33 (0)1 71 25 27<br />
 Portugal 
 PharmaKERN Portugal - Produtos 
-Farmacêuticos, Sociedade Unipessoal, Lda. 
+Farmac uticos, Sociedade Unipessoal, Lda. 
 Tel: +351 214 200<br />
 Hrvatska 
 Oktal Pharma d.o.o. 
 Tel: +385 1 6595<br />
-România 
+Rom nia 
 Celltrion Healthcare Hungary Kft.<br />
 Tel: +36 1 231 0 
 Ireland 
@@ -634,10 +524,10 @@ Tel: +353 1 223 4
 Slovenija 
 OPH Oktal Pharma d.o.o. 
 Tel.: +386 1 519 29<br />
-Ísland 
+ sland 
 Celltrion Healthcare Hungary Kft.<br />
-Sími: +36 1 231 0 
-Slovenská republika 
+S mi: +36 1 231 0 
+Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 
 Italia 
@@ -645,18 +535,18 @@ Celltrion Healthcare Italy S.R.L.<br />
 Tel: +39 0247927 
 Suomi/Finland 
 Celltrion Healthcare Finland Oy. 
-Puh/Tel: +358 29 170 7Κύπρος 
+Puh/Tel: +358 29 170 7<br />
 C.A. Papaellinas Ltd 
-Τηλ: +357 22741 
+ : +357 22741 
 Sverige 
 Celltrion Healthcare Hungary Kft.<br />
 Tel: +36 1 231 0 
 Latvija 
 United Kingdom (Northern Ireland) 
 Celltrion Healthcare Hungary Kft. 
-Tālr.: +36 1 231 0Celltrion Healthcare Ireland Limited<br />
+T lr.: +36 1 231 0Celltrion Healthcare Ireland Limited<br />
 Tel: +353 1 223 4 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-b681cc309a06b1eb9ced4a87b0d16f81
 InstanceOf: CompositionUvEpi
 Title: "Composition for xiliarx Package Leaflet"
 Description:  "Composition for xiliarx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,8 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What xiliarx is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance of Xiliarx, vildagliptin, belongs to a group of medicines called “oral 
-antidiabetics”. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance of Xiliarx, vildagliptin, belongs to a group of medicines called  oral 
+antidiabetics . </p>
 <p>Xiliarx is used to treat adult patients with type 2 diabetes. It is used when diabetes cannot be 
 controlled by diet and exercise alone. It helps to control the level of sugar in the blood. Your doctor 
 will prescribe Xiliarx either alone or together with certain other antidiabetic medicines which you will 
@@ -123,11 +123,13 @@ The use of Xiliarx in children and adolescents up to 18 years of age is not reco
 <p>Other medicines and Xiliarx 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>Your doctor may wish to alter your dose of Xiliarx if you are taking other medicines such as: 
-- thiazides or other diuretics (also called water tablets) 
-- corticosteroids(generally used to treat inflammation) 
-- thyroid medicines 
-- certain medicines affecting the nervous system. </p>
+<p>Your doctor may wish to alter your dose of Xiliarx if you are taking other medicines such as:</p>
+<ul>
+<li>thiazides or other diuretics (also called water tablets) </li>
+<li>corticosteroids(generally used to treat inflammation) </li>
+<li>thyroid medicines </li>
+<li>certain medicines affecting the nervous system. </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
@@ -139,8 +141,8 @@ If you feel dizzy while taking Xiliarx, do not drive or use machines. </p>
 Xiliarx contains lactose (milk sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Xiliarx contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium 
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xiliarx"
@@ -197,7 +199,7 @@ You should stop taking Xiliarx and see your doctor immediately if you experience
 effects: 
 * Angioedema (rare: may affect up to 1 in 1 000 people): Symptoms include swollen face, tongue 
 or throat, difficulty swallowing, difficulties breathing, sudden onset rash or hives, which may 
-indicate a reaction called “angioedema”. 
+indicate a reaction called  angioedema . 
 * Liver disease (hepatitis) (frequency not known): Symptoms include yellow skin and eyes, 
 nausea, loss of appetite or dark-coloured urine, which may indicate liver disease (hepatitis). 
 * Inflammation of the pancreas (pancreatitis) (rare: may affect up to 1 in 1 000 people): 
@@ -228,14 +230,16 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store xiliarx"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the blister and the carton after 
-“EXP”. The expiry date refers to the last day of that month. 
-* Store in the original package in order to protect from moisture. 
-* Do not use any Xiliarx pack that is damaged or shows signs of tampering. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the blister and the carton after 
+ EXP . The expiry date refers to the last day of that month. </li>
+<li>Store in the original package in order to protect from moisture. </li>
+<li>Do not use any Xiliarx pack that is damaged or shows signs of tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -249,7 +253,7 @@ Each tablet contains 50 mg vildagliptin.
 * The other ingredients are lactose anhydrous, microcrystalline cellulose, sodium starch glycolate 
 (type A) and magnesium stearate. </p>
 <p>What Xiliarx looks like and contents of the pack 
-Xiliarx 50 mg tablets are round, white to light yellowish and flat, with “NVR” on one side and “FB” 
+Xiliarx 50 mg tablets are round, white to light yellowish and flat, with  NVR  on one side and  FB<br />
 on the other. </p>
 <p>Xiliarx 50 mg tablets are available in packs containing 7, 14, 28, 30, 56, 60, 90, 112, 180 or 
 336 tablets and in multipacks comprising 3 cartons, each containing 112 tablets. </p>
@@ -263,7 +267,7 @@ Ireland </p>
 <p>Manufacturer 
 Lek d.d. 
 Verovskova ulica Ljubljana 1Slovenia </p>
-<p>Novartis Farmacéutica S.A. 
+<p>Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
@@ -273,22 +277,21 @@ Germany </p>
 Verovskova ulica Ljubljana 1Slovenia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16 Česká republika 
+T l/Tel: +32 2 246 16  esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -304,37 +307,37 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
+Tel: +43 1 86 6Espa a 
 Laboratorios Gebro Pharma, S.A. 
 Tel: +34 93 205 86<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Laboratório Normal – Produtos Farmacêuticos 
+Laborat rio Normal   Produtos Farmac uticos 
 Lda. 
 Tel. +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -342,10 +345,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

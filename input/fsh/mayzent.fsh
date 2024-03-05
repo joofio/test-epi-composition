@@ -4,7 +4,7 @@ Instance: composition-en-915e89a600adbc6365861bb1b0863445
 InstanceOf: CompositionUvEpi
 Title: "Composition for mayzent Package Leaflet"
 Description:  "Composition for mayzent Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,13 +77,15 @@ Mayzent is used to treat adults with secondary progressive multiple sclerosis (S
 disease. Active disease in SPMS is when there are still relapses or when MRI (magnetic resonance 
 imaging) results show signs of inflammation. </p>
 <p>How Mayzent works 
-Mayzent helps to protect the central nervous system (CNS) from attacks by the body’s own immune 
-system. It does this by: 
-- making some white blood cells (called lymphocytes) less able to move freely within the body, 
-and 
-- stopping these cells from reaching the brain and spinal cord. 
+Mayzent helps to protect the central nervous system (CNS) from attacks by the body s own immune 
+system. It does this by:</p>
+<ul>
+<li>making some white blood cells (called lymphocytes) less able to move freely within the body, 
+and </li>
+<li>stopping these cells from reaching the brain and spinal cord. 
 This reduces nerve damage caused by SPMS and as a result Mayzent helps to slow down the effects of 
-the disease activity (such as worsening disability, brain lesions and relapses). </p>         </div>"""   
+the disease activity (such as worsening disability, brain lesions and relapses). </li>
+</ul>         </div>"""   
           
 
              
@@ -104,18 +106,18 @@ heart failure.
 - if you have certain types of irregular or abnormal heartbeat (arrhythmia) and you do not have a 
 pacemaker. 
 - if blood tests show that your body cannot break down this medicine well enough, you should 
-not take it (see “Blood tests before and during treatment” below). 
+not take it (see  Blood tests before and during treatment  below). 
 - if you are pregnant or could become pregnant and are not using effective contraception. </p>
 <p>Warnings and precautions 
 Talk to your doctor before taking Mayzent: 
 * if you have an infection or if your immune system does not work properly (for example due to a 
-disease or to medicines that suppress the immune system; see also “Other medicines and 
-Mayzent”). 
+disease or to medicines that suppress the immune system; see also  Other medicines and 
+Mayzent ). 
 * if you have never had chickenpox and have not been vaccinated against it. You may be at 
 greater risk of complications if you develop chickenpox during Mayzent treatment. Your doctor 
 may want to vaccinate you against chickenpox before you start treatment. 
-* if you are planning to have any vaccinations. Your doctor will advise you on this (see “Other 
-medicines and Mayzent”). 
+* if you are planning to have any vaccinations. Your doctor will advise you on this (see  Other 
+medicines and Mayzent ). 
 * if you have ever had, or have, difficulties with your vision (in particular a condition called 
 macular oedema) or an infection or inflammation of the eye (uveitis). Your doctor may want 
 you to have eye examinations before you start treatment and regularly while you are on 
@@ -137,8 +139,8 @@ liver function before prescribing Mayzent.
 * if you could become pregnant, because siponimod can harm the unborn baby when used during 
 pregnancy. Before you start treatment, your doctor will explain the risk and ask you to do a 
 pregnancy test to ensure that you are not pregnant. You must use effective contraception during 
-treatment and up to 10 days after stopping treatment (see “Pregnancy, breast-feeding and 
-fertility”). 
+treatment and up to 10 days after stopping treatment (see  Pregnancy, breast-feeding and 
+fertility ). 
 If any of the above applies to you, tell your doctor before taking Mayzent. </p>
 <p>Look out for the following while taking Mayzent 
 If you get any of the following while taking Mayzent, tell your doctor immediately because it could 
@@ -209,7 +211,7 @@ should limit your exposure to the sun and UV rays by:
 <p>Worsening of MS after stopping Mayzent treatment 
 Do not stop taking Mayzent or change your dose without talking to your doctor first. </p>
 <p>Tell your doctor straight away if you think your MS worsens after you have stopped treatment with 
-Mayzent (see “If you stop taking Mayzent” in section 3). </p>
+Mayzent (see  If you stop taking Mayzent  in section 3). </p>
 <p>Elderly patients (65 years of age and above) 
 There is no experience with Mayzent in elderly patients. Talk to your doctor if you have any concerns. </p>
 <p>Children and adolescents 
@@ -256,7 +258,7 @@ ask you to do a pregnancy test in order to ensure that you are not pregnant. You
 contraception while taking Mayzent and for at least 10 days after you stop taking it to avoid becoming 
 pregnant. Ask your doctor about reliable methods of contraception. </p>
 <p>If you do become pregnant while taking Mayzent, tell your doctor straight away. Your doctor will 
-decide to stop treatment (see “If you stop taking Mayzent” in section 3). Specialised pre-natal 
+decide to stop treatment (see  If you stop taking Mayzent  in section 3). Specialised pre-natal 
 monitoring will be performed. </p>
 <p>You should not breast-feed while you are taking Mayzent. Mayzent may pass into breast milk and 
 there is a risk of serious side effects for the baby. </p>
@@ -281,7 +283,7 @@ sure. </p>
 <p>How much Mayzent to take 
 Starting treatment 
 You will be given a titration pack, with which your dose will be gradually increased over 5 days. 
-Follow the instructions on the pack (see also the “Titration pack” table). </p>
+Follow the instructions on the pack (see also the  Titration pack  table). </p>
 <p>The purpose of the titration phase is to reduce the risk of side effects on your heart at the start of 
 treatment. Your doctor may monitor you closely at the start of treatment if you are at risk of your 
 heartbeat becoming slower or irregular. </p>
@@ -290,7 +292,40 @@ heartbeat becoming slower or irregular. </p>
 Dose 
 Number of Mayzent 0.25 mg 
 tablets to take 
-Day 1 </p>         </div>"""         
+Day 1 
+0.25 mg 
+1 tablet 
+Day 2 
+0.25 mg 
+1 tablet 
+Day 3 
+0.5 mg 
+2 tablets 
+Day 4 
+0.75 mg 
+3 tablets 
+Day 5 
+1.25 mg 
+5 tablets </p>
+<p>On day 6, you will switch to your regular treatment dose. </p>
+<p>On the first 6 days of treatment, it is recommended that you take the tablets in the morning with or 
+without food. </p>
+<p>Treatment dose 
+The recommended dose is 2 mg once daily (one tablet of 2 mg Mayzent) with or without food. </p>
+<p>Your doctor may instruct you to take only 1 mg once daily (one tablet of Mayzent 1 mg or four tablets 
+of Mayzent 0.25 mg) if the blood test performed before the start of treatment showed that your body 
+breaks down Mayzent slowly (see  Tests before and during treatment ). If this applies to you, note 
+that it is nevertheless safe for you to take five 0.25 mg tablets on day 5 of the titration period as 
+indicated above. </p>
+<p>Mayzent is for oral use. Take the tablet with water. </p>
+<p>If you take more Mayzent than you should 
+If you have taken too many Mayzent tablets, or if you take your first tablet from the treatment dose 
+pack instead of the titration pack by mistake, call your doctor straight away. Your doctor may decide 
+to keep you under observation. </p>
+<p>If you forget to take Mayzent 
+During the first 6 days of treatment, if you have forgotten to take your dose on one day, call your 
+doctor before you take the next dose. Your doctor will need to prescribe a new titration pack. You will 
+have to restart at day </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -298,16 +333,28 @@ Day 1 </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1 tablet 
-Day 2 </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you miss a dose when you are on the regular treatment dose (day 7 onwards), take it as soon as you 
+remember. If it is almost time for your next dose, skip the missed dose and continue as usual. Do not 
+take a double dose to make up for a forgotten dose. If you forget to take Mayzent for 4 or more days in 
+a row, call your doctor before you take the next dose. Your doctor will need to prescribe a new 
+titration pack and you will have to restart treatment at day </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mayzent"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store mayzent"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1 tablet 
-Day 3 </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you stop taking Mayzent 
+Do not stop taking Mayzent or change your dose without talking to your doctor first. </p>
+<p>Mayzent will stay in your body for up to 10 days after you stop taking it. Your white blood cell 
+(lymphocyte) count may remain low for up to 3 to 4 weeks after you stop taking Mayzent. The side 
+effects described in this leaflet may still occur during this period (see  Possible side effects  in 
+section 4). </p>
+<p>If you have to restart Mayzent more than 4 days after you stopped taking it, your doctor will prescribe 
+a new titration pack and you will have to restart treatment at day 1 again. </p>
+<p>Tell your doctor straight away if you think your MS worsens after you have stopped treatment with 
+Mayzent. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -315,6 +362,52 @@ Day 3 </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>2 tablets 
-Day 4 </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Some side effects could be serious 
+Common (may affect up to 1 in 10 people) 
+* Rash with small fluid-filled blisters, appearing on reddened skin (symptoms of a viral infection 
+called herpes zoster that can be severe) 
+* A type of skin cancer called basal cell carcinoma (BCC) which often appears as a pearly nodule, 
+though it can also take other forms. 
+* Fever, sore throat and/or mouth ulcers due to infection (lymphopenia) 
+* Convulsions, fits 
+* Visual disturbances such as a shadow or a blind spot in the centre of vision, blurred vision, 
+problems seeing colours or details (symptoms of macular oedema, which is a swelling in the 
+macular area of the retina at the back of the eye) 
+* Irregular heartbeat (atrioventricular block) 
+* Slow heartbeat (bradycardia) </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* A type of skin cancer called squamous cell carcinoma which may present as a firm red nodule, a 
+sore with a crust, or a new sore on an existing scar </p>
+<p>Rare (may affect up to 1 in 1 000 people) 
+* A brain infection called progressive multifocal leukoencephalopathy (PML). The symptoms of 
+PML may be similar to MS such as weakness or visual changes, memory loss, trouble thinking 
+or difficulty walking. </p>
+<p>Not known (frequency cannot be estimated from the available data) 
+* Cryptococcal infections (a type of fungal infection) or viral infections (caused by herpes or 
+varicella zoster virus), including meningitis and/or encephalitis with symptoms such as 
+headache together with stiff neck, sensitivity to light, feeling sick (nausea) or confusion </p>
+<p>If you get any of these, tell your doctor straight away. </p>
+<p>Other possible side effects 
+Other side effects include those listed below. If any of these side effects becomes severe, tell your 
+doctor or pharmacist. </p>
+<p>Very common (may affect more than 1 in 10 people) 
+* headache 
+* high blood pressure (hypertension), sometimes with symptoms such as headache and dizziness 
+* blood test results showing increased liver enzyme levels </p>
+<p>Common (may affect up to 1 in 10 people) 
+* new moles 
+* dizziness 
+* involuntary shaking of the body (tremor) 
+* diarrhoea 
+* feeling sick (nausea) 
+* pain in hands or feet 
+* swollen hands, ankles, legs or feet (peripheral oedema) 
+* weakness (asthenia) 
+* lung function test results showing decreased function </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
 

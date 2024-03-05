@@ -4,7 +4,7 @@ Instance: composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 InstanceOf: CompositionUvEpi
 Title: "Composition for inlyta Package Leaflet"
 Description:  "Composition for inlyta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -173,7 +173,7 @@ leaflet may not be the only ones that could interact with Inlyta. </p>
 * dexamethasone, a steroid medicine prescribed for many different conditions, including serious 
 illnesses; 
 * phenytoin, carbamazepine or phenobarbital, anti-epileptics used to stop seizures or fits; 
-* St. John’s wort (Hypericum perforatum), a herbal product used to treat depression. </p>
+* St. John s wort (Hypericum perforatum), a herbal product used to treat depression. </p>
 <p>You should not take these medicines during your treatment with Inlyta. If you are taking any of them, 
 tell your doctor, pharmacist or nurse. Your doctor may change the dose of these medicines, change the 
 dose of Inlyta, or switch you to a different medicine. </p>
@@ -212,7 +212,7 @@ driving or using machines. </p>
 before taking this medicine. </p>
 <p>Inlyta contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium per film-coated tablet, that is to say 
-essentially ‘sodium-free’.  </p>         </div>"""   
+essentially  sodium-free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inlyta"
@@ -247,8 +247,8 @@ anymore, contact your doctor right away.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be serious. You must immediately contact your doctor if you experience 
-any of those following serious side effects (see also section 2 “What you need to know before you 
-take Inlyta”): </p>
+any of those following serious side effects (see also section 2  What you need to know before you 
+take Inlyta ): </p>
 <ul>
 <li>
 <p>Heart failure events. Tell your doctor if you experience excessive tiredness, swelling of the 
@@ -338,7 +338,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the blister foil or 
-bottle after “EXP”. The expiry date refers to the last day of the month. </p>
+bottle after  EXP . The expiry date refers to the last day of the month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use any pack that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -358,21 +358,21 @@ Inlyta 5 mg: each tablet contains 5 mg axitinib
 Inlyta 7 mg: each tablet contains 7 mg axitinib </p>
 <ul>
 <li>The other ingredients are microcrystalline cellulose, lactose monohydrate, croscarmellose 
-sodium, magnesium stearate, hypromellose 2910 (15 mPa·s), titanium dioxide (E171), triacetin 
+sodium, magnesium stearate, hypromellose 2910 (15 mPa s), titanium dioxide (E171), triacetin 
 (E1518), iron oxide red (E172) (see section 2 Inlyta contains lactose). </li>
 </ul>
 <p>What Inlyta looks like and contents of the pack </p>
-<p>Inlyta 1 mg film-coated tablets are red, oval and debossed with “Pfizer” on one side and “1 XNB” on 
+<p>Inlyta 1 mg film-coated tablets are red, oval and debossed with  Pfizer  on one side and  1 XNB  on 
 the other. Inlyta 1 mg is available in bottles of 180 tablets and blisters of 14 tablets. Each blister pack 
 contains 28 tablets or 56 tablets. </p>
-<p>Inlyta 3 mg film-coated tablets are red, round and debossed with “Pfizer” on one side and “3 XNB” on 
+<p>Inlyta 3 mg film-coated tablets are red, round and debossed with  Pfizer  on one side and  3 XNB  on 
 the other. Inlyta 3 mg is available in bottles of 60 tablets and blisters of 14 tablets. Each blister pack 
 contains 28 tablets or 56 tablets. </p>
-<p>Inlyta 5 mg film-coated tablets are red, triangular and debossed with “Pfizer” on one side and 
-“5 XNB” on the other. Inlyta 5 mg is available in bottles of 60 tablets and blisters of 14 tablets. Each 
+<p>Inlyta 5 mg film-coated tablets are red, triangular and debossed with  Pfizer  on one side and 
+ 5 XNB  on the other. Inlyta 5 mg is available in bottles of 60 tablets and blisters of 14 tablets. Each 
 blister pack contains 28 tablets or 56 tablets. </p>
-<p>Inlyta 7 mg film-coated tablets are red, diamond shaped and debossed with “Pfizer” on one side and 
-“7 XNB” on the other. Inlyta 7 mg is available in bottles of 60 tablets and blisters of 14 tablets. Each 
+<p>Inlyta 7 mg film-coated tablets are red, diamond shaped and debossed with  Pfizer  on one side and 
+ 7 XNB  on the other. Inlyta 7 mg is available in bottles of 60 tablets and blisters of 14 tablets. Each 
 blister pack contains 28 tablets or 56 tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder </p>
@@ -381,25 +381,25 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer  </p>
 <p>Pfizer Manufacturing Deutschland GmbH 
-Betriebsstätte Freiburg 
+Betriebsst tte Freiburg 
 Mooswaldallee 1 
 79090 Freiburg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>Belgique/ België /Belgien 
+<p>Belgique/ Belgi  /Belgien 
 Pfizer SA/NV 
-Tél/Tel: +32 (0)2 554 62 Lietuva 
+T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 
-България 
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: +359 2 970 4Luxembourg/Luxemburg 
+Tel. + 370 52 51 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4Luxembourg/Luxemburg 
 Pfizer S.A. 
-Tél/Tel: +32 (0)2 554 62<br />
-Česká republika 
+T l/Tel: +32 (0)2 554 62<br />
+ esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004 Magyarország 
+Tel: +420 283 004 Magyarorsz g 
 Pfizer Kft. 
 Tel.: +36-1-488-37-Danmark 
 Pfizer ApS 
@@ -416,25 +416,24 @@ Eesti
 Pfizer Luxembourg SARL Eesti filiaal<br />
 Tel.: +372 666 7Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τλ: +30 210 6785 Österreich 
+Tlf: +47 67 52 61  </p>
+<p>Pfizer   A.E. 
+ : +30 210 6785  sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>España 
+<p>Espa a 
 Pfizer S.L. 
-Tél: +34 91 490 99 Polska 
+T l: +34 91 490 99 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.:+48 22 335 61<br />
 France 
 Pfizer<br />
-Tél: +33 (0)1 58 07 34 Portugal 
-Laboratórios Pfizer, Lda. 
+T l: +33 (0)1 58 07 34 Portugal 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5 
 Hrvatska<br />
 Pfizer Croatia d.o.o. 
-Tel: + 385 1 3908 România 
+Tel: + 385 1 3908 Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28<br />
 Ireland 
@@ -442,26 +441,26 @@ Pfizer Healthcare Ireland
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel.: + 386 (0)1 52 11<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka<br />
+S mi: +354 540 8 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
 Tel.: + 421 2 3355 5Italia 
 Pfizer S.r.l. 
 Tel: +39 06 33 18 Suomi/Finland 
 Pfizer Oy 
-Puh./Tel: +358 (0)9 43 00 Kύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch)<br />
-Τηλ: +357 22 817 
+Puh./Tel: +358 (0)9 43 00 K<br />
+Pfizer    . . (Cyprus Branch)<br />
+ : +357 22 817 
 Sverige<br />
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35<br />
 United Kingdom (Northern Ireland) 
 Pfizer Limited 

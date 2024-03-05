@@ -4,7 +4,7 @@ Instance: composition-en-28bc9e8680cc0c55edc2ed45f832ee0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for tasmar Package Leaflet"
 Description:  "Composition for tasmar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Tasmar 
 4. Possible side effects 
 5. How to store Tasmar 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -68,14 +67,14 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What tasmar is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>For the treatment of Parkinson’s disease, Tasmar is used together with the medicinal product levodopa 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>For the treatment of Parkinson s disease, Tasmar is used together with the medicinal product levodopa 
 (as levodopa/benserazide or levodopa/carbidopa). 
-Tasmar is used when all other alternative medicines cannot stabilise your Parkinson’s disease.  </p>
-<p>For the treatment of your Parkinson’s disease you already take levodopa. 
+Tasmar is used when all other alternative medicines cannot stabilise your Parkinson s disease.  </p>
+<p>For the treatment of your Parkinson s disease you already take levodopa. 
 A natural protein (enzyme) in your body, the (COMT) Catechol-O-methyltransferase breaks down the 
 levodopa. Tasmar blocks this enzyme and thus slows the breakdown of levodopa. This means when it 
 is taken together with levodopa (as levodopa/benserazide or levodopa/carbidopa) you should have an 
-improvement in the symptoms of your Parkinson’s disease.  </p>         </div>"""   
+improvement in the symptoms of your Parkinson s disease.  </p>         </div>"""   
           
 
              
@@ -84,17 +83,19 @@ improvement in the symptoms of your Parkinson’s disease.  </p>         </div>"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take tasmar"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tasmar: 
-- if you have liver disease or increased liver enzymes 
-- if you have severe involuntary movement (dyskinesia) 
-- if you have a previous history of severe symptoms of muscle stiffening, fever or mental 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tasmar:</p>
+<ul>
+<li>if you have liver disease or increased liver enzymes </li>
+<li>if you have severe involuntary movement (dyskinesia) </li>
+<li>if you have a previous history of severe symptoms of muscle stiffening, fever or mental 
 confusion (Neuroleptic Malignant Syndrome (NMS) Symptom Complex) and/or if you have 
-damage of skeletal muscle tissue (non-traumatic rhabdomyolysis) or fever (hyperthermia) 
-- if you are hypersensitive (allergic) to the active substance tolcapone or to any of the other 
-ingredients of Tasmar 
-- if you have a special type of tumour in the adrenal medulla (Phaeochromocytoma) 
-- if you take a certain medication to treat depression and anxiety, called non-selective mono 
-amino oxidase (MAO) inhibitors  </p>
+damage of skeletal muscle tissue (non-traumatic rhabdomyolysis) or fever (hyperthermia) </li>
+<li>if you are hypersensitive (allergic) to the active substance tolcapone or to any of the other 
+ingredients of Tasmar </li>
+<li>if you have a special type of tumour in the adrenal medulla (Phaeochromocytoma) </li>
+<li>if you take a certain medication to treat depression and anxiety, called non-selective mono 
+amino oxidase (MAO) inhibitors  </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Tasmar. 
 You should not start taking Tasmar until your doctor 
@@ -110,7 +111,7 @@ activities that could harm yourself or others. These behaviours are called impul
 can include addictive gambling, excessive eating or spending, an abnormally high sex drive or a 
 preoccupation with an increase in sexual thoughts or feelings. Your doctor may need to review your 
 treatments. </p>
-<p>You should only receive Tasmar if your Parkinson’s disease is not adequately controlled by the use of<br />
+<p>You should only receive Tasmar if your Parkinson s disease is not adequately controlled by the use of<br />
 other therapies. </p>
 <p>In addition, your doctor will stop Tasmar treatment if after 3 weeks you do not improve enough to 
 justify the risks of continuing treatment. </p>
@@ -124,11 +125,13 @@ To reduce the risk of liver injury you should not use Tasmar if<br />
 - in case of elevated liver function tests in the blood test done before starting treatment (tests 
 of alanine amino transferase (ALT) and aspartate amino transferase (AST)).  </p>
 <p>While receiving treatment: 
-During treatment, blood tests will be done in the following time intervals: 
-- every 2 weeks during the first 12 months of therapy, 
-- every 4 weeks during the following 6 months of therapy, 
-- every 8 weeks during further treatment. 
-The treatment will be stopped, if these blood tests become abnormal.  </p>
+During treatment, blood tests will be done in the following time intervals:</p>
+<ul>
+<li>every 2 weeks during the first 12 months of therapy, </li>
+<li>every 4 weeks during the following 6 months of therapy, </li>
+<li>every 8 weeks during further treatment. 
+The treatment will be stopped, if these blood tests become abnormal.  </li>
+</ul>
 <p>The treatment with Tasmar may sometimes lead to disturbances in the way the liver works. Therefore, 
 you should contact your doctor immediately if you experience symptoms such as nausea, vomiting, 
 pain in your stomach (particularly over the liver in the right upper area), loss of appetite, weakness, 
@@ -137,10 +140,12 @@ If you have been already treated with Tasmar and developed acute liver injury du
 Tasmar should not be re-introduced again. </p>
 <p>NMS (Neuroleptic Malignant Syndrome)<br />
 Symptoms of Neuroleptic Malignant Syndrome (NMS) may occur during Tasmar treatment. 
-The NMS consists of some or all of the following: 
-- severe muscle stiffness, jerking movements of muscles, arms or legs, and soreness of muscles. 
-Muscle injury can sometimes cause dark urine. 
-- other important symptoms are high fever and mental confusion. </p>
+The NMS consists of some or all of the following:</p>
+<ul>
+<li>severe muscle stiffness, jerking movements of muscles, arms or legs, and soreness of muscles. 
+Muscle injury can sometimes cause dark urine. </li>
+<li>other important symptoms are high fever and mental confusion. </li>
+</ul>
 <p>Rarely, after abruptly reducing or stopping Tasmar or other antiparkinsonian drugs, you may 
 experience severe symptoms of muscle stiffening, fever or mental confusion. If this happens notify 
 your doctor. </p>
@@ -153,13 +158,15 @@ increased if you are taking some specific medications. </p>
 <p>While receiving treatment: 
 If you develop any symptoms as described above, that you think may be NMS, you should report them 
 to your doctor immediately.<br />
-Do not stop Tasmar or any other Parkinson’s medications without telling your doctor as this may 
+Do not stop Tasmar or any other Parkinson s medications without telling your doctor as this may 
 increase the risk of NMS. </p>
-<p>Inform your doctor also: 
-- if you have any illnesses other than Parkinson’s disease 
-- if you are allergic to other medicines, food and dyes 
-- if soon after beginning and during treatment with Tasmar you have symptoms which may be 
-caused by levodopa such as involuntary movement (dyskinesia) and nausea. </p>
+<p>Inform your doctor also:</p>
+<ul>
+<li>if you have any illnesses other than Parkinson s disease </li>
+<li>if you are allergic to other medicines, food and dyes </li>
+<li>if soon after beginning and during treatment with Tasmar you have symptoms which may be 
+caused by levodopa such as involuntary movement (dyskinesia) and nausea. </li>
+</ul>
 <p>If you feel unwell, you should contact your doctor because you may need to take less levodopa. </p>
 <p>Children and adolescents 
 Tasmar is not recommended for use in children below the age of 18 due to insufficient data on safety 
@@ -167,14 +174,16 @@ or efficacy. There is no relevant indication for use in children and adolescents
 <p>Other Medicines and Tasmar 
 Please tell your doctor or pharmacist if you are taking or have recently taken any other medicines, 
 even those not prescribed (non-prescription medicines and herbals). </p>
-<p>Please inform your doctor about all other medicines you are taking especially: 
-- antidepressants 
-- alpha-methyldopa (used to treat increased blood pressure) 
-- apomorphine (used for Parkinson’s disease) 
-- dobutamine (used for the chronic heart disease) 
-- adrenaline and isoprenaline (both used for heart attacks) 
-- anticoagulants of the warfarin type (that prevent blood clotting). In this case your doctor may 
-perform regular blood tests to monitor how easily your blood clots. </p>
+<p>Please inform your doctor about all other medicines you are taking especially:</p>
+<ul>
+<li>antidepressants </li>
+<li>alpha-methyldopa (used to treat increased blood pressure) </li>
+<li>apomorphine (used for Parkinson s disease) </li>
+<li>dobutamine (used for the chronic heart disease) </li>
+<li>adrenaline and isoprenaline (both used for heart attacks) </li>
+<li>anticoagulants of the warfarin type (that prevent blood clotting). In this case your doctor may 
+perform regular blood tests to monitor how easily your blood clots. </li>
+</ul>
 <p>If you go to hospital or if you are prescribed a new medicine, you must tell your doctor that you are 
 taking Tasmar. </p>
 <p>Tasmar with food and drink and alcohol 
@@ -186,17 +195,17 @@ the risks and benefits of taking Tasmar during pregnancy. </p>
 <p>The effects of Tasmar have not been studied in infants. You should not breast-feed your infant during 
 treatment with Tasmar. </p>
 <p>Driving and using machines 
-Since your ability to drive a car or operate machinery may be affected by Parkinson’s disease, you 
+Since your ability to drive a car or operate machinery may be affected by Parkinson s disease, you 
 should discuss this with your doctor. </p>
-<p>Tasmar has an effect on the symptoms of your Parkinson’s disease. 
+<p>Tasmar has an effect on the symptoms of your Parkinson s disease. 
 Tasmar used with your other Parkinson medicines can cause excessive drowsiness (somnolence) and 
 sudden sleep onset episodes (you may suddenly fall asleep). Therefore you must refrain from driving 
 or operating machines until such recurrent episodes and excessive drowsiness have resolved.  </p>
 <p>Tasmar contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tasmar"
@@ -211,7 +220,7 @@ Your doctor should always begin your treatment with the standard dose of 3 times
 If benefits are not seen within 3 weeks of the initiation of the treatment, Tasmar should be 
 discontinued. 
 To improve efficacy your doctor should only increase the dose to 3 times daily 2 tablets (200 mg three 
-times a day) if the increase in how your Parkinson’s disease symptoms are controlled outweighs the 
+times a day) if the increase in how your Parkinson s disease symptoms are controlled outweighs the 
 expected increase in side effects. The side effects at the higher dose can often be severe and affect 
 your liver. If you do not get better at the higher dose after a total of 3 weeks, your doctor should stop 
 your treatment with Tasmar.  </p>
@@ -221,7 +230,7 @@ Your doctor will advise you what to do. </p>
 Swallow Tasmar with 1 glass of water. 
 Do not break or crush the tablets. 
 The first tablet Tasmar is to be taken in the morning together with your other parkinsonian medicine 
-‘levodopa’. 
+ levodopa . 
 The following doses of Tasmar should be taken 6 and 12 hours later. </p>
 <p>Time of day 
 Dose 
@@ -267,55 +276,61 @@ Very rare
 may affect up to 1 in 10,000 people 
 Not known 
 frequency cannot be estimated from the available data </p>
-<p>Tell your doctor or a pharmacist as soon as possible: 
-- if you do not feel well while you are taking Tasmar<br />
-- if you experience symptoms such as nausea, vomiting, abdominal pain, loss of appetite, 
+<p>Tell your doctor or a pharmacist as soon as possible:</p>
+<ul>
+<li>if you do not feel well while you are taking Tasmar  </li>
+<li>if you experience symptoms such as nausea, vomiting, abdominal pain, loss of appetite, 
   weakness, fever, darkening of urine or jaundice since uncommonly<br />
-  disturbances in the way the liver works, sometimes severe hepatitis was observed, 
-- if you notice a darkening of your urine since this could be a sign of  a muscular or liver 
+  disturbances in the way the liver works, sometimes severe hepatitis was observed, </li>
+<li>if you notice a darkening of your urine since this could be a sign of  a muscular or liver 
 injury. 
-  Any other yellow urine discolouring is usually harmless. 
-- if you develop persistent or severe diarrhoea  </p>
+  Any other yellow urine discolouring is usually harmless. </li>
+<li>if you develop persistent or severe diarrhoea  </li>
+</ul>
 <p>Soon after beginning and during your treatment with Tasmar, you may have symptoms caused by 
 levodopa such as involuntary movement and nausea. Therefore, if you feel unwell, you should contact 
 your doctor since you may need to have your levodopa dose changed. </p>
 <p>Other possible side effects: </p>
-<p>Very common: 
-- involuntary movement (dyskinesia) 
-- nausea, decreased appetite, diarrhoea 
-- headache, dizziness 
-- sleep problems, somnolence 
-- feeling lightheaded while you stand (orthostatic complaints) 
-- mental confusion and hallucinations 
-- movement disorder with involuntary muscle spasms or malpositions (dystonia) 
-- dreaming excessive </p>
-<p>Common: 
-- chest pain 
-- constipation, dyspepsia, stomach ache, vomiting, dry mouth 
-- fainting 
-- increased sweating 
-- influenza-like symptoms 
-- reduced voluntary and involuntary movement (hypokinesia) 
-- upper respiratory tract infection 
-- increase of specific liver enzymes 
-- urine discoloration </p>
-<p>Uncommon: 
-- liver injury, in rare cases with fatal outcome </p>
-<p>Rare: 
-- severe symptoms of muscle stiffening, fever or mental confusion (Neuroleptic Malignant 
-Syndrome) when antiparkinsonian treatments are abruptly reduced or withdrawn 
-- impulse control disorders (inability to resist the impulse of an action that could be harmful) 
-This may include: 
-o 
-Strong impulse to gamble excessively despite serious personal or family consequences. 
-o 
+<p>Very common:</p>
+<ul>
+<li>involuntary movement (dyskinesia) </li>
+<li>nausea, decreased appetite, diarrhoea </li>
+<li>headache, dizziness </li>
+<li>sleep problems, somnolence </li>
+<li>feeling lightheaded while you stand (orthostatic complaints) </li>
+<li>mental confusion and hallucinations </li>
+<li>movement disorder with involuntary muscle spasms or malpositions (dystonia) </li>
+<li>dreaming excessive </li>
+</ul>
+<p>Common:</p>
+<ul>
+<li>chest pain </li>
+<li>constipation, dyspepsia, stomach ache, vomiting, dry mouth </li>
+<li>fainting </li>
+<li>increased sweating </li>
+<li>influenza-like symptoms </li>
+<li>reduced voluntary and involuntary movement (hypokinesia) </li>
+<li>upper respiratory tract infection </li>
+<li>increase of specific liver enzymes </li>
+<li>urine discoloration </li>
+</ul>
+<p>Uncommon:</p>
+<ul>
+<li>liver injury, in rare cases with fatal outcome </li>
+</ul>
+<p>Rare:</p>
+<ul>
+<li>severe symptoms of muscle stiffening, fever or mental confusion (Neuroleptic Malignant 
+Syndrome) when antiparkinsonian treatments are abruptly reduced or withdrawn </li>
+<li>impulse control disorders (inability to resist the impulse of an action that could be harmful) 
+This may include: * 
+Strong impulse to gamble excessively despite serious personal or family consequences. * 
 Altered or increased sexual interest and behaviour of significant concern to you or to 
-others, for example, an increased sexual drive. 
-o 
-Uncontrolled excessive shopping or spending. 
-o 
+others, for example, an increased sexual drive. * 
+Uncontrolled excessive shopping or spending. * 
 Binge eating (eating large amounts of food in a short time period) or compulsive eating 
-(eating more food than normal and more than needed to satisfy your hunger). </p>
+(eating more food than normal and more than needed to satisfy your hunger). </li>
+</ul>
 <p>Tell your doctor if you experience any of these behaviours; they will discuss ways of managing 
 or reducing the symptoms. </p>
 <p>Reporting of side effects 
@@ -344,12 +359,12 @@ Appendix V*. </p>
 - The active substance is tolcapone (100 mg in each film-coated tablet). 
 - The other ingredients are: </p>
 <p>Tablet core: calcium hydrogen phosphate, microcrystalline cellulose, povidone K30, sodium 
-starch glycolate, lactose monohydrate (see Section 2 ‘Tasmar contains lactose’), talc, 
+starch glycolate, lactose monohydrate (see Section 2  Tasmar contains lactose ), talc, 
 magnesium stearate. </p>
 <p>Film-coat: hydroxypropyl methylcellulose, talc, yellow iron oxide, ethyl cellulose, titanium 
 dioxide (E171), triacetin, sodium lauril sulfate. </p>
 <p>What Tasmar looks like and contents of the pack 
-Tasmar is a pale to light yellow, oval shaped, film-coated tablet. “TASMAR” and “100” are engraved 
+Tasmar is a pale to light yellow, oval shaped, film-coated tablet.  TASMAR  and  100  are engraved 
 on one side. Tasmar is supplied as film-coated tablets containing 100 mg tolcapone. It is available in 
 blisters in pack sizes of 30 or 60 tablets and in glass bottles in pack sizes of 30, 60, 100 or 200 film-
 coated tablets. </p>
@@ -361,30 +376,27 @@ Mulhuddart
 Dublin DUBLIN 
 Ireland </p>
 <p>Manufacturer 
-ICN Polfa Rzeszów S.A.<br />
-ul. Przemysłowa 2 
-35-959 Rzeszów<br />
+ICN Polfa Rzesz w S.A.<br />
+ul. Przemys owa 2 
+35-959 Rzesz w<br />
 Poland </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: +32 (0) 26586 
+T l/Tel: +32 (0) 26586 
 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
 Belgique/Belgien 
-Tél/Tel: +32 (0) 26586 
-България 
-Майлан ЕООД 
-бул. Ситняково 48, ет. 7 
-Офис сграда „Сердика Офиси“ 
-1505 София 
-Тел: +359 2 44 55 </p>
-<p>Magyarország 
+T l/Tel: +32 (0) 26586 </p>
+<p>.   48,  . 7 </p>
+<p>1505 <br />
+ : +359 2 44 55 </p>
+<p>Magyarorsz g 
 Mylan EPD Kft. 
 H-1138 Budapest, 
-Váci út 150. Tel.: +36 1 465 2 
-Česká republika 
+V ci  t 150. Tel.: +36 1 465 2 
+ esk  republika 
 Viatris CZ s.r.o. 
 Tel:  +420 222 004<br />
 Malta 
@@ -406,37 +418,36 @@ Tlf: +47 66 75 33 Eesti
 Meda Pharma SIA<br />
 Liivalaia 13/10118 Tallinn<br />
 Tel: +372 62 61 025  </p>
-<p>Österreich 
-Mylan Österreich GmbH 
+<p>sterreich 
+Mylan  sterreich GmbH 
 Guglgasse A-1110 Wien 
 Tel: + 43 1 86 390  </p>
-<p>Ελλάδα 
-MEDA Pharmaceuticals A.E. 
-Τηλ: +30 210 6 77 5 
+<p>MEDA Pharmaceuticals A.E. 
+ : +30 210 6 77 5 
 Polska 
 Mylan Healthcare Sp. z o.o.<br />
-ul. Postępu 21 B 
+ul. Post pu 21 B 
 02-676 Warszawa<br />
 Tel: +48 22 5466 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: +34 900 102  </p>
 <p>Portugal 
 BGP Products, Unipessoal, Lda. 
-Av. D. João II,<br />
-Edifício Atlantis, nº 44C – 7.3 e 7.4 
+Av. D. Jo o II,<br />
+Edif cio Atlantis, n  44C   7.3 e 7.4 
 1990-095 Lisboa 
 Tel:+351 214 127<br />
 France 
-ViatrisMédical<br />
-1 Bis place de la Défense 
+ViatrisM dical<br />
+1 Bis place de la D fense 
 Tour Trinity 
 92400 Courbevoie 
-Tél: +33 1 40 80 15<br />
+T l: +33 1 40 80 15<br />
 Hrvatska 
 Mylan Hrvatska d.o.o. 
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP PRODUCTS SRL 
 Tel.: +40372 579<br />
 Ireland 
@@ -445,10 +456,10 @@ Tel:  +353 18711 </p>
 <p>Slovenija<br />
 Viatris d.o.o. 
 Tel: +386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199<br />
 Italia 
@@ -458,24 +469,23 @@ Via Felice Casati, 20<br />
 Tel: +39 0261246921    </p>
 <p>Suomi/Finland 
 Viatris Oy<br />
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7700  </p>
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7700  </p>
 <p>Sverige 
 Viatris AB 
 Box 23104 35 Stockholm 
 Tel: +46 8 630 1 
 Latvija 
 Meda Pharma SIA 
-101 Mūkusalas str. 
-Rīga LV‐1Tālr: +371 67616 
+101 M kusalas str. 
+R ga LV 1T lr: +371 67616 
 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: +353 18711 
 Lietuva 
 Meda Pharma SIA 
-Žalgirio str. 90-Vilnius LT-09303<br />
+ algirio str. 90-Vilnius LT-09303<br />
 Tel. + 370 52051 </p>
 <p>This leaflet was last revised in:  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-dbdbf98ea44926c7f122d6f81a850a2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for myozyme Package Leaflet"
 Description:  "Composition for myozyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ of Pompe disease. </p>
 <p>People with Pompe disease have low levels of an enzyme called alpha-glucosidase. This enzyme helps 
 the body control levels of glycogen (a type of carbohydrate). Glycogen provides the body with energy, 
 but in Pompe disease the levels of glycogen can get too high. </p>
-<p>Myozyme contains an artificial enzyme called alglucosidase alfa – this can replace the natural enzyme 
+<p>Myozyme contains an artificial enzyme called alglucosidase alfa   this can replace the natural enzyme 
 which is lacking in Pompe disease. </p>         </div>"""   
           
 
@@ -119,7 +119,7 @@ pharmacist for advice before taking this medicine. </p>
 Take care when driving or using any tools or machines shortly after infusion of Myozyme, since you 
 may experience dizziness, sleepiness, shaking, and/or low blood pressure. </p>
 <p>Myozyme contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially ‘sodium free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myozyme"
@@ -162,8 +162,8 @@ If you have missed an infusion, please contact your doctor. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Side effects were mainly seen while patients were being given the medicine or shortly after (“infusion 
-related effects”). Some of these infusion related side effects were serious or life-threatening. Life 
+<p>Side effects were mainly seen while patients were being given the medicine or shortly after ( infusion 
+related effects ). Some of these infusion related side effects were serious or life-threatening. Life 
 threatening reactions, including very severe generalised allergic reactions and anaphylactic shock, 
 have been reported in some patients. Symptoms of such reactions include low blood pressure, very fast 
 heart rate, difficulty breathing, vomiting, facial, lip or tongue swelling, hives or rash. Some patients 
@@ -260,11 +260,11 @@ reporting side effects you can help provide more information on the safety of th
   * code.text = "5. How to store myozyme"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children  </p>
-<p>Do not use this medicine after the expiry date which is stated on the label after ‘EXP’. The expiry date 
+<p>Do not use this medicine after the expiry date which is stated on the label after  EXP . The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C).  </p>
+<p>Store in a refrigerator (2 C   8 C).  </p>
 <p>After dilution, an immediate use is recommended. However, chemical and physical in-use stability has 
-been demonstrated for 24 hours at 2 to 8°C when stored under protection from light. </p>
+been demonstrated for 24 hours at 2 to 8 C when stored under protection from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -297,19 +297,18 @@ Paasheuvelweg 1105 BP Amsterdam
 Genzyme Ireland Limited, IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
+T l/Tel: + 32 2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB<br />
-Tel. +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
+Tel. +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
-Tel: +36 1 505 0Česká republika 
+Tel: +36 1 505 0 esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233086<br />
 Malta 
@@ -327,27 +326,26 @@ Norge
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71<br />
 Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel. +372 640 10<br />
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 – 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1 
+Tel: + 43 1 80 185   0 </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 1 
 Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
-España 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi   Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 France 
 Sanofi Winthrop Industrie<br />
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
-România 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Hrvatska 
@@ -359,12 +357,12 @@ Tel: +386 1 235 51<br />
 Ireland 
 Sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +353 (0) 1 403 56<br />
-Slovenská republika 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel.:  +421 2 208 33<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
@@ -372,10 +370,9 @@ Italia
 Sanofi S.r.l. 
 Tel: 800536Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741741  </p>
+Tel: +46 (0)8 634 50  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741741  </p>
 <p>United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel +44 (0) 800 035 2 

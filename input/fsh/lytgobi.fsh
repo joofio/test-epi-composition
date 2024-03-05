@@ -4,7 +4,7 @@ Instance: composition-en-dbc2060ee6f62aba124d52b5666f8915
 InstanceOf: CompositionUvEpi
 Title: "Composition for lytgobi Package Leaflet"
 Description:  "Composition for lytgobi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,7 +75,7 @@ receptor (FGFR), that helps regulate cell growth. Cancer cells may have an abnor
 protein. By blocking FGFR, futibatinib can prevent the growth of such cancer cells. </p>
 <p>Lytgobi is used on its own (monotherapy)to treat adults with bile duct cancer (also known as 
 cholangiocarcinoma) that has spread or cannot be removed by surgery in patients who have already 
-received previous treatment, and whose tumour has a certain type of abnormal “FGFR”. </p>         </div>"""   
+received previous treatment, and whose tumour has a certain type of abnormal  FGFR . </p>         </div>"""   
           
 
              
@@ -154,7 +154,7 @@ machinery if this happens. </p>
 This medicine contains lactose (found in milk or dairy products). If you have been told by your doctor 
 that you have an intolerance to some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lytgobi"
@@ -217,7 +217,7 @@ Talk to your doctor if you get any other side effects. These may occur with the 
 * inflammation of the lining of the mouth (stomatitis) 
 * decreased appetite 
 * dry eye 
-* redness, swelling, peeling or tenderness, mainly on the hands or feet (‘hand-foot’ syndrome) 
+* redness, swelling, peeling or tenderness, mainly on the hands or feet ( hand-foot  syndrome) 
 * change in sense of taste 
 * muscle pain 
 * joint pain </p>
@@ -257,12 +257,12 @@ Each film-coated tablet contains 4 mg futibatinib.  </p>
 </ul>
 <p>Tablet core: maize starch, crospovidone, hydroxypropylcellulose, lactose monohydrate, 
 magnesium stearate, mannitol, cellulose microcrystalline and sodium lauril sulfate (see section 2, 
-“Lytgobi contains lactose and sodium”)<br />
+ Lytgobi contains lactose and sodium )<br />
 Film coating: hypromellose, macrogols, and titanium dioxide<br />
 Lustering agent: magnesium stearate </p>
 <p>What Lytgobi looks like and contents of the pack 
-Lytgobi 4 mg is supplied as round, white, film-coated tablets, debossed on one side with “4MG” and 
-“FBN” on the other side. </p>
+Lytgobi 4 mg is supplied as round, white, film-coated tablets, debossed on one side with  4MG  and 
+ FBN  on the other side. </p>
 <p>Lytgobi tablets are packaged in a blister card sealed inside a folding wallet containing a 7-day supply 
 as follows: 
 * 20 mg daily dose: Each wallet contains 35 tablets (5 tablets once daily). <br />
@@ -277,7 +277,7 @@ PCI Pharma Services (Millmount Healthcare Limited)
 Block 7, City North Business Campus 
 Stamullen, Co. Meath, K32 YDIreland </p>
 <p>This leaflet was last revised in {MM/YYYY} 
-This medicine has been given ‘conditional approval’.<br />
+This medicine has been given  conditional approval .<br />
 This means that there is more evidence to come about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year 
 and this leaflet will be updated as necessary. </p>

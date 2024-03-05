@@ -4,7 +4,7 @@ Instance: composition-en-96e3a078093b1cdfc599d6c2d6322437
 InstanceOf: CompositionUvEpi
 Title: "Composition for alprolix Package Leaflet"
 Description:  "Composition for alprolix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -136,7 +136,7 @@ doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines<br />
 ALPROLIX has no influence on the ability to drive and use machines. </p>
 <p>ALPROLIX contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial that is to say essentially “sodium free”. In 
+This medicine contains less than 1 mmol sodium (23 mg) per vial that is to say essentially  sodium free . In 
 case of treatment with multiple vials, the total sodium content should be taken into consideration. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -148,7 +148,7 @@ case of treatment with multiple vials, the total sodium content should be taken 
 haemophilia. Always use this medicine exactly as your doctor has told you (see section 7). Check with your 
 doctor, pharmacist or nurse if you are not sure. </p>
 <p>ALPROLIX is given as an injection into a vein. You or somebody else may administer it after receiving 
-adequate training. Your doctor will decide the dose (in International Units or “IU”) you will receive. The 
+adequate training. Your doctor will decide the dose (in International Units or  IU ) you will receive. The 
 dose will depend on your individual needs for replacement factor IX therapy and on whether it is used for 
 prevention or treatment of bleeding. Talk to your doctor if you think that your bleeding is not being 
 controlled with the dose you receive. </p>
@@ -212,10 +212,10 @@ Appendix V. By reporting side effects you can help provide more information on t
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial label, listed after 
-“EXP”. The expiry date refers to the last day of that month. Do not use this medicine if it has been stored at 
+ EXP . The expiry date refers to the last day of that month. Do not use this medicine if it has been stored at 
 room temperature for longer than 6 months. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. Store in the original pack in order to protect from light. </p>
-<p>Alternatively, ALPROLIX may be stored at room temperature (up to 30 °C) for a single period not 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. Store in the original pack in order to protect from light. </p>
+<p>Alternatively, ALPROLIX may be stored at room temperature (up to 30  C) for a single period not 
 exceeding 6 months. Please record on the carton the date that ALPROLIX is removed from the refrigerator 
 and set at room temperature. After storage at room temperature, the product must not be put back in the 
 refrigerator.  </p>
@@ -240,20 +240,5 @@ Powder:
 * The active substance is eftrenonacog alfa (recombinant coagulation factor IX, Fc fusion protein). Each 
 vial of ALPROLIX contains nominally 250, 500, 1000, 2000 or 3000 IU eftrenonacog alfa.<br />
 * The other ingredients are sucrose, histidine, mannitol, polysorbate 20, sodium hydroxide and 
-hydrochloric acid. If you are on a controlled sodium diet, see section 2.<br />
-Solvent: 
-5 mL sodium chloride and water for injections. </p>
-<p>What ALPROLIX looks like and contents of the pack 
-ALPROLIX is provided as a powder and solvent for solution for injection. The powder is a white to off-
-white powder or cake. The solvent provided for preparation of the solution, is a clear, colourless solution. 
-After preparation, the solution is clear to slightly opalescent and colourless. </p>
-<p>Each pack of ALPROLIX contains 1 powder vial, 5 mL solvent in pre-filled syringe, 1 plunger rod, 1 vial 
-adapter, 1 infusion set, 2 alcohol swabs, 2 plasters and 1 gauze pad. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Swedish Orphan Biovitrum AB (publ)<br />
-SE-112 76 Stockholm 
-Sweden 
-Phone: +46 8 697 20  </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+hydrochloric acid. If you are on a controlled sodium diet, see section </p>         </div>"""      
 

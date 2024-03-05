@@ -4,7 +4,7 @@ Instance: composition-en-9690a7f47a287edf985eddd979c0833b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imnovid Package Leaflet"
 Description:  "Composition for imnovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,23 +70,23 @@ Usage: #example
   * code.text =  "1. What imnovid is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Imnovid is 
-Imnovid contains the active substance ‘pomalidomide’. This medicine is related to thalidomide and 
-belongs to a group of medicines which affect the immune system (the body’s natural defences). </p>
+Imnovid contains the active substance  pomalidomide . This medicine is related to thalidomide and 
+belongs to a group of medicines which affect the immune system (the body s natural defences). </p>
 <p>What Imnovid is used for 
-Imnovid is used to treat adults with a type of cancer called ‘multiple myeloma’. </p>
+Imnovid is used to treat adults with a type of cancer called  multiple myeloma . </p>
 <p>Imnovid is either used with: 
-* two other medicines - called ‘bortezomib’ (a type of chemotherapy medicine) and 
-‘dexamethasone’ (an anti-inflammatory medicine) in people who have had at least one other 
+* two other medicines - called  bortezomib  (a type of chemotherapy medicine) and 
+ dexamethasone  (an anti-inflammatory medicine) in people who have had at least one other 
 treatment - including lenalidomide.  </p>
 <p>Or 
-*  one other medicine - called ‘dexamethasone’ in people whose myeloma has become worse, 
+*  one other medicine - called  dexamethasone  in people whose myeloma has become worse, 
 despite having at least two other treatments - including lenalidomide and bortezomib. </p>
 <p>What is multiple myeloma 
 Multiple myeloma is a type of cancer which affects a certain type of white blood cell (called the 
-‘plasma cell’). These cells grow out of control and accumulate in the bone marrow. This results in 
+ plasma cell ). These cells grow out of control and accumulate in the bone marrow. This results in 
 damage to the bones and kidneys. </p>
 <p>Multiple myeloma generally cannot be cured. However, treatment can reduce the signs and symptoms 
-of the disease, or make them disappear for a period of time. When this happens, it is called ‘response’. </p>
+of the disease, or make them disappear for a period of time. When this happens, it is called  response . </p>
 <p>How Imnovid works 
 Imnovid works in a number of different ways: 
 * by stopping the myeloma cells developing 
@@ -95,7 +95,7 @@ Imnovid works in a number of different ways:
 <p>The benefit of using Imnovid with bortezomib and dexamethasone 
 When Imnovid is used with bortezomib and dexamethasone, in people who have had at least one other 
 treatment, it can stop multiple myeloma getting worse: 
-• On average, Imnovid when used with bortezomib and dexamethasone stopped multiple 
+  On average, Imnovid when used with bortezomib and dexamethasone stopped multiple 
 myeloma from coming back for up to 11 months - compared with 7 months for those patients 
 who only used bortezomib and dexamethasone. </p>
 <p>The benefit of using Imnovid with dexamethasone<br />
@@ -113,13 +113,13 @@ dexamethasone. </p>         </div>"""
   * code.text = "2. What you need to know before you take imnovid"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Imnovid: 
-* if you are pregnant or think you may be pregnant or are planning to become pregnant – this is 
+* if you are pregnant or think you may be pregnant or are planning to become pregnant   this is 
 because Imnovid is expected to be harmful to an unborn child. (Men and women taking this 
-medicine must read the section “Pregnancy, contraception and breast-feeding – information for 
-women and men” below). 
+medicine must read the section  Pregnancy, contraception and breast-feeding   information for 
+women and men  below). 
 * if you are able to become pregnant, unless you follow all the necessary measures to prevent you 
-from becoming pregnant (see “Pregnancy, contraception and breast-feeding – information for 
-women and men”). If you are able to become pregnant, your doctor will record with each 
+from becoming pregnant (see  Pregnancy, contraception and breast-feeding   information for 
+women and men ). If you are able to become pregnant, your doctor will record with each 
 prescription that the necessary measures have been taken and will provide you with this 
 confirmation. 
 * if you are allergic to pomalidomide or any of the other ingredients of this medicine (listed in 
@@ -133,7 +133,7 @@ increased risk of getting blood clots in your veins and arteries. Your doctor ma
 you take additional treatments (e.g. warfarin) or lower the dose of Imnovid to reduce the chance 
 that you get blood clots.<br />
 * you have ever had an allergic reaction such as rash, itching, swelling, feeling dizzy or trouble 
-breathing while taking related medicines called ‘thalidomide’ or ‘lenalidomide’. 
+breathing while taking related medicines called  thalidomide  or  lenalidomide . 
 * you have had a heart attack, have heart failure, have difficulty breathing, or if you smoke, have 
 high blood pressure or high cholesterol levels. 
 * you have a high total amount of tumour throughout the body, including your bone marrow. This 
@@ -148,7 +148,7 @@ of the infection. Your doctor should check whether you have ever had hepatitis B
 symptoms: rash on face or extended rash, red skin, high fever, flu-like symptoms, enlarged 
 lymph nodes (signs of severe skin reaction called Drug Reaction with Eosinophilia and 
 Systemic Symptoms (DRESS) or drug hypersensitivity syndrome, Toxic Epidermal Necrolysis 
-(TEN) or Stevens-Johnson Syndrome (SJS). See also section 4 “Possible side effects”).  </p>
+(TEN) or Stevens-Johnson Syndrome (SJS). See also section 4  Possible side effects ).  </p>
 <p>It is important to note that patients with multiple myeloma treated with pomalidomide may develop 
 additional types of cancer, therefore your doctor should carefully evaluate the benefit and risk when 
 you are prescribed this medicine. </p>
@@ -159,7 +159,7 @@ sensation, memory loss or confusion. These may all be symptoms of a serious and 
 brain condition known as progressive multifocal leukoencephalopathy (PML). If you had these 
 symptoms prior to treatment with Imnovid, tell your doctor about any change in these symptoms. </p>
 <p>At the end of the treatment you should return all unused capsules to the pharmacist. </p>
-<p>Pregnancy, contraception and breast-feeding – information for women and men 
+<p>Pregnancy, contraception and breast-feeding   information for women and men 
 The following must be followed as stated in the Imnovid Pregnancy Prevention Programme. 
 Women and men taking Imnovid must not become pregnant or father a child. This is because 
 pomalidomide is expected to harm the unborn baby. You and your partner should use effective 
@@ -218,7 +218,7 @@ Some people feel tired, dizzy, faint, confused or less alert when taking Imnovid
 do not drive or operate tools or machinery. </p>
 <p>Imnovid contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imnovid"
@@ -232,12 +232,10 @@ or nurse if you are not sure. </p>
 <p>Imnovid with bortezomib and dexamethasone 
 * See the leaflets that come with bortezomib and dexamethasone for further information on their 
 use and effects. 
-* Imnovid, bortezomib and dexamethasone are taken in ‘treatment cycles’. Each cycle lasts 
+* Imnovid, bortezomib and dexamethasone are taken in  treatment cycles . Each cycle lasts 
 21 days (3 weeks). 
-* Look at the chart below to see what to take on each day of the 3-week cycle:<br />
-o 
-Each day, look down the chart and find the correct day to see which medicines to take.<br />
-o 
+* Look at the chart below to see what to take on each day of the 3-week cycle:  * 
+Each day, look down the chart and find the correct day to see which medicines to take.  * 
 Some days, you take all 3 medicines, some days just 2 or 1 medicines, and some days 
 none at all. 
 IMN: Imnovid; BOR: Bortezomib; DEX: Dexamethasone </p>
@@ -253,81 +251,33 @@ DEX </p>
 IMN 
 BOR 
 DEX 
-1 
-√ 
-√ 
-√ </p>
-<p>1 
-√ 
-√ 
-√ 
-2 
-√ </p>
-<p>√ </p>
-<p>2 
-√ </p>
-<p>√ 
-3 
-√ </p>
-<p>3 
-√ </p>
-<p>4 
-√ 
-√ 
-√ </p>
-<p>4 
-√ </p>
-<p>5 
-√ </p>
-<p>√ </p>
-<p>5 
-√ </p>
-<p>6 
-√ </p>
-<p>6 
-√ </p>
-<p>7 
-√ </p>
-<p>7 
-√ </p>
-<p>8 
-√ 
-√ 
-√ </p>
-<p>8 
-√ 
-√ 
-√ 
-9 
-√ </p>
-<p>√ </p>
-<p>9 
-√ </p>
-<p>√ 
-√ </p>
-<p>√ </p>
-<p>√ 
-√ 
-√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
+1 </p>
+<p>1 </p>
+<p>2 </p>
+<p>2 </p>
+<p>3 </p>
+<p>3 </p>
+<p>4 </p>
+<p>4 </p>
+<p>5 </p>
+<p>5 </p>
+<p>6 </p>
+<p>6 </p>
+<p>7 </p>
+<p>7 </p>
+<p>8 </p>
+<p>8 </p>
+<p>9 </p>
+<p>9 </p>
 <ul>
 <li>After completing each 3-week cycle, start a new one. </li>
 </ul>
 <p>Imnovid with dexamethasone only 
 * See the leaflet that comes with dexamethasone for further information on its use and effects. </p>
 <ul>
-<li>Imnovid and dexamethasone are taken in ‘treatment cycles’. Each cycle lasts 28 days (4 weeks). </li>
-<li>Look at the chart below to see what to take on each day of the 4-week cycle:<br />
-o 
-Each day, look down the chart and find the correct day to see which medicines to take.<br />
-o 
+<li>Imnovid and dexamethasone are taken in  treatment cycles . Each cycle lasts 28 days (4 weeks). </li>
+<li>Look at the chart below to see what to take on each day of the 4-week cycle:  * 
+Each day, look down the chart and find the correct day to see which medicines to take.  * 
 Some days, you take both medicines, some days just 1 medicine, and some days none at 
 all.  </li>
 </ul>
@@ -336,40 +286,15 @@ all.  </li>
 Day 
 IMN 
 DEX 
-1 
-√ 
-√ 
-2 
-√ </p>
-<p>3 
-√ </p>
-<p>4 
-√ </p>
-<p>5 
-√ </p>
-<p>6 
-√ </p>
-<p>7 
-√ </p>
-<p>8 
-√ 
-√ 
-9 
-√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ 
-√ 
-√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
-<p>√ </p>
+1 </p>
+<p>2 </p>
+<p>3 </p>
+<p>4 </p>
+<p>5 </p>
+<p>6 </p>
+<p>7 </p>
+<p>8 </p>
+<p>9 </p>
 <ul>
 <li>After completing each 4-week cycle, start a new one. </li>
 </ul>
@@ -425,12 +350,12 @@ day. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>Stop taking Imnovid and see a doctor straight away if you notice any of the following serious 
-side effects – you may need urgent medical treatment: </p>
+side effects   you may need urgent medical treatment: </p>
 <ul>
 <li>Fever, chills, sore throat, cough, mouth ulcers or any other signs of infection (due to less white 
 blood cells, which fight infection).  </li>
 <li>Bleeding or bruising without a cause, including nosebleeds and bleeding from the bowels or 
-stomach (due to effects on blood cells called ‘platelets’). </li>
+stomach (due to effects on blood cells called  platelets ). </li>
 <li>Rapid breathing, rapid pulse, fever and chills, passing very little to no urine, nausea and 
 vomiting, confusion, unconsciousness (due to infection of blood called sepsis or septic shock). </li>
 <li>Severe, persistent or bloody diarrhoea (possibly with stomach pain or fever) caused by bacteria 
@@ -451,10 +376,16 @@ Tell your doctor straightaway if you notice any of these symptoms. </li>
 involvement (Drug Reaction with Eosinophilia and Systemic Symptoms which is also known as 
 DRESS or drug hypersensitivity syndrome, Toxic Epidermal Necrolysis or Stevens-Johnson 
 Syndrome). Stop using pomalidomide if you develop these symptoms and contact your doctor 
-or seek medical attention immediately. See also section 2.<br />
-Stop taking Imnovid and see a doctor straight away if you notice any of the serious side effects 
-listed above – you may need urgent medical treatment. </li>
-</ul>
+or seek medical attention immediately. See also section </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store imnovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store imnovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stop taking Imnovid and see a doctor straight away if you notice any of the serious side effects 
+listed above   you may need urgent medical treatment. </p>
 <p>Other side effects 
 Very common (may affect more than 1 in 10 people): 
 * Shortness of breath (dyspnoea). 
@@ -542,10 +473,11 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store imnovid"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store imnovid"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and carton after EXP. The 
@@ -554,60 +486,4 @@ expiry date refers to the last day of that month. </p>
 <p>Do not use Imnovid if you notice any damage or signs of tampering to medicine packaging. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Any unused medicine should be 
 returned to the pharmacist at the end of treatment. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Imnovid contains 
-* The active substance is pomalidomide. 
-* The other ingredients are mannitol (E421), starch, pregelatinised, and sodium stearyl fumarate. </p>
-<p>Imnovid 1 mg hard capsule: 
-* Each capsule contains 1 mg of pomalidomide. 
-* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132) and yellow iron 
-oxide (E172) and white and black ink. 
-* The printing ink contains: shellac, titanium dioxide (E171), simeticone, propylene glycol 
-(E1520) and ammonium hydroxide (E527) (white ink) and shellac, iron oxide black (E172), 
-propylene glycol (E1520) and ammonium hydroxide (E527) (black ink). </p>
-<p>Imnovid 2 mg hard capsule: 
-* Each capsule contains 2 mg of pomalidomide. 
-* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132), yellow iron 
-oxide (E172), erythrosin (E127) and white ink. 
-* The printing ink contains: white ink - shellac, titanium dioxide (E171), simeticone, propylene 
-glycol (E1520) and ammonium hydroxide (E527). </p>
-<p>Imnovid 3 mg hard capsule: 
-* Each capsule contains 3 mg of pomalidomide. 
-* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132), yellow iron 
-oxide (E172) and white ink. 
-* The printing ink contains: white ink - shellac, titanium dioxide (E171), simeticone, propylene 
-glycol (E1520) and ammonium hydroxide (E527). </p>
-<p>Imnovid 4 mg hard capsule: 
-* Each capsule contains 4 mg of pomalidomide. 
-* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132), brilliant blue 
-FCF (E133), and white ink. 
-* The printing ink contains: white ink - shellac, titanium dioxide (E171), simeticone, propylene 
-glycol (E1520) and ammonium hydroxide (E527). </p>
-<p>What Imnovid looks like and contents of the pack 
-Imnovid 1 mg hard capsules: Dark blue opaque cap and yellow opaque body, with “POML 1 mg” 
-written on them. 
-Imnovid 2 mg hard capsules: Dark blue opaque cap and orange opaque body, with “POML 2 mg” 
-written on them. 
-Imnovid 3 mg hard capsules: Dark blue opaque cap and green opaque body, with “POML 3 mg” 
-written on them. 
-Imnovid 4 mg hard capsules: Dark blue opaque cap and blue opaque body, with “POML 4 mg” written 
-on them. </p>
-<p>Each pack contains 14 or 21 capsules. Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Bristol-Myers Squibb Pharma EEIG 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland </p>
-<p>Manufacturer </p>
-<p>Celgene Distribution B.V. 
-Orteliuslaan 13528 BD Utrecht<br />
-Netherlands </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

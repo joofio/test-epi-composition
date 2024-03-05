@@ -4,7 +4,7 @@ Instance: composition-en-1e954682407ee7d7521ef7ec82e30f79
 InstanceOf: CompositionUvEpi
 Title: "Composition for kimmtrak Package Leaflet"
 Description:  "Composition for kimmtrak Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,11 +71,11 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>KIMMTRAK contains the active substance tebentafusp.Tebentafusp is an anticancer medicine made 
 from two different proteins that are fused together. One of these proteins recognises and attaches to an 
-antigen (a target protein) called ‘gp100’. Gp100 is found at high levels in uveal melanoma cancer 
+antigen (a target protein) called  gp100 . Gp100 is found at high levels in uveal melanoma cancer 
 cells. The other protein recognises and attaches to a protein called CD3. CD3 is found on certain cells 
-of the body’s immune system. By binding to gp100 and CD3, KIMMTRAK activates your immune 
+of the body s immune system. By binding to gp100 and CD3, KIMMTRAK activates your immune 
 system to recognise and destroy the cancer cells. </p>
-<p>KIMMTRAK is used to treat adults with a rare eye cancer called ‘uveal melanoma’. The medicine is 
+<p>KIMMTRAK is used to treat adults with a rare eye cancer called  uveal melanoma . The medicine is 
 used when the uveal melanoma has grown despite local treatment, or has spread to other parts of the 
 body. </p>         </div>"""   
           
@@ -91,26 +91,23 @@ medicine (listed in section 6). If you are not sure whether you are allergic to 
 talk to your doctor or nurse before you are given KIMMTRAK. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or nurse before you are given KIMMTRAK, about all of your medical conditions, 
-particularly if you have following: 
-− 
-heart problems including a change in the electrical activity of your heart (QT interval 
+particularly if you have following: </p>
+<p>heart problems including a change in the electrical activity of your heart (QT interval 
 prolongation) </p>
 <p>Your doctor may give you a blood test called HLA genotyping before treatment to determine if 
 KIMMTRAK is suitable for you. </p>
 <p>Tell your doctor before being given KIMMTRAK if you are taking corticosteroid medication to treat 
-adrenal insufficiency (also known as ‘Addison’s disease’). Your doctor may need to adjust your 
+adrenal insufficiency (also known as  Addison s disease ). Your doctor may need to adjust your 
 corticosteroid dose while you are being treated with KIMMTRAK. </p>
 <p>Tell your doctor or nurse immediately or seek urgent medical attention if you have any of the 
-following side effects during or after your treatment: 
-− 
-fever, dizziness, light headedness. These may be symptoms of a serious condition called 
+following side effects during or after your treatment: </p>
+<p>fever, dizziness, light headedness. These may be symptoms of a serious condition called 
 cytokine release syndrome. Other symptoms of cytokine release syndrome are difficulty 
 breathing, nausea, vomiting, fatigue, muscle pain, joint pain, swelling, low blood pressure, 
-rapid heart rate, or headache. 
-− 
-itchy skin, rash, severe hives (itchy swellings under the skin), peeling or flaking skin, or 
+rapid heart rate, or headache. </p>
+<p>itchy skin, rash, severe hives (itchy swellings under the skin), peeling or flaking skin, or 
 swelling of body and/or skin around the eyes which may be symptoms of skin reactions. 
-− heart problems such as rapid or irregular heart beat or a change in the electrical activity of the 
+  heart problems such as rapid or irregular heart beat or a change in the electrical activity of the 
 heart that can cause serious irregular heart rhythms which can manifest as palpitations, 
 shortness of breath, light headedness or dizziness, or chest pain. </p>
 <p>Your doctor or nurse will monitor you for signs and symptoms of these reactions during and after each 
@@ -140,8 +137,8 @@ passes into your breast milk.  </p>
 KIMMTRAK is unlikely to affect your ability to drive or use machines. If you feel unwell while being 
 treated with this medicine you should not drive or operate machinery until you feel well again. </p>
 <p>KIMMTRAK contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kimmtrak"
@@ -180,7 +177,7 @@ as possible to reschedule your appointment.  </p>
 <p>Tell your doctor or nurse immediately or seek urgent medical attention if you experience any of the 
 following very common side effects during or after treatment:<br />
 * Fever, dizziness, light headedness. These may be symptoms of a serious condition called 
-‘cytokine release syndrome’. Other symptoms of cytokine release syndrome are difficulty 
+ cytokine release syndrome . Other symptoms of cytokine release syndrome are difficulty 
 breathing, nausea, vomiting, fatigue, muscle pain, joint pain, swelling, low blood pressure, rapid 
 heart rate, or headache. These symptoms mostly occur after the first three infusions. 
 * Itchy skin, rash, severe hives(itchy swellings under the skin, peeling or flaking skin, swelling of 
@@ -259,10 +256,10 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Unopened vials should be stored at 2 °C to 8 °C. </p>
+<p>Unopened vials should be stored at 2  C to 8  C. </p>
 <p>Keep the vial in the outer carton to protect from light. </p>
-<p>If not used immediately, the prepared infusion may be stored below 30 °C for up to 4 hours or at 2 °C 
-to 8 °C for 24 hours from the time of preparation/dilution until the end of administration. </p>
+<p>If not used immediately, the prepared infusion may be stored below 30  C for up to 4 hours or at 2  C 
+to 8  C for 24 hours from the time of preparation/dilution until the end of administration. </p>
 <p>Do not use this medicine if you notice visible signs of deterioration (i.e. particles, discolouration). </p>
 <p>Do not store any unused medicine for reuse. Any unused medicine or waste material should be 
 disposed of in accordance with local requirements. These measures will help protect the environment. </p>         </div>"""      
@@ -289,7 +286,7 @@ Unit 1, Sky Business Centre
 Dublin 17, D17 FYIreland </p>
 <p>Manufacturer 
 Baxter Oncology GmbH 
-Kantstraße 2 
+Kantstra e 2 
 33790 Halle/Westfalen 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
@@ -299,13 +296,12 @@ LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI,
 SK, FI, SE, UK-NI: 
 Immunocore Ireland Limited 
 EL: </p>
-<p>Medison Pharma Greece Μονοπροσωπη 
-Ανωνυμη Εταιρεία 
-Τηλ: +30 210 0100<br />
-Ирландия/Irsko/Irland/Ιρλανδία/Iirimaa/Irlanti/Irl
-ande/Irska/Írország/Írland/Irlanda/Airija/Īrija/L-
-Irlanda/Ierland/Irlandia/Írsko/Irska 
-Tél/Tel/Tel./Teл./Tlf/Τηλ/Sími/Puh: +3531 5 </p>
+<p>Medison Pharma Greece   </p>
+<p>: +30 210 0100<br />
+ /Irsko/Irland/ /Iirimaa/Irlanti/Irl
+ande/Irska/ rorsz g/ rland/Irlanda/Airija/ rija/L-
+Irlanda/Ierland/Irlandia/ rsko/Irska 
+T l/Tel/Tel./Te ./Tlf/ /S mi/Puh: +3531 5 </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

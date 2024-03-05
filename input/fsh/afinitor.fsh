@@ -4,7 +4,7 @@ Instance: composition-en-da6b4339076346d51f1c98fff12b57db
 InstanceOf: CompositionUvEpi
 Title: "Composition for afinitor Package Leaflet"
 Description:  "Composition for afinitor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,19 +71,16 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Afinitor is an anticancer medicine containing the active substance everolimus. Everolimus reduces the 
 blood supply to the tumour and slows down the growth and spread of cancer cells. </p>
-<p>Afinitor is used to treat adult patients with: 
-− 
-hormone receptor-positive advanced breast cancer in postmenopausal women, in whom other 
-treatments (so called “non-steroidal aromatase inhibitors”) no longer keep the disease under 
+<p>Afinitor is used to treat adult patients with: </p>
+<p>hormone receptor-positive advanced breast cancer in postmenopausal women, in whom other 
+treatments (so called  non-steroidal aromatase inhibitors ) no longer keep the disease under 
 control. It is given together with a medicine called exemestane, a steroidal aromatase inhibitor, 
-which is used for hormonal anticancer therapy. 
-− 
-advanced tumours called neuroendocrine tumours that originate from the stomach, bowels, lung 
+which is used for hormonal anticancer therapy. </p>
+<p>advanced tumours called neuroendocrine tumours that originate from the stomach, bowels, lung 
 or pancreas. It is given if the tumours are inoperable and do not overproduce specific hormones 
-or other related natural substances. 
-− 
-advanced kidney cancer (advanced renal cell carcinoma), where other treatments (so-called 
-“VEGF-targeted therapy”) have not helped stop your disease. </p>         </div>"""   
+or other related natural substances. </p>
+<p>advanced kidney cancer (advanced renal cell carcinoma), where other treatments (so-called 
+ VEGF-targeted therapy ) have not helped stop your disease. </p>         </div>"""   
           
 
              
@@ -93,11 +90,10 @@ advanced kidney cancer (advanced renal cell carcinoma), where other treatments (
   * code.text = "2. What you need to know before you take afinitor"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Afinitor will only be prescribed for you by a doctor with experience in cancer treatment. Follow all the 
-doctor’s instructions carefully. They may differ from the general information contained in this leaflet. 
+doctor s instructions carefully. They may differ from the general information contained in this leaflet. 
 If you have any questions about Afinitor or why it has been prescribed for you, ask your doctor. </p>
-<p>Do not take Afinitor 
-− 
-if you are allergic to everolimus, to related substances such as sirolimus or temsirolimus, or to 
+<p>Do not take Afinitor </p>
+<p>if you are allergic to everolimus, to related substances such as sirolimus or temsirolimus, or to 
 any of the other ingredients of this medicine (listed in section 6). 
 If you think you may be allergic, ask your doctor for advice. </p>
 <p>Warnings and precautions 
@@ -115,7 +111,7 @@ frequency of urination.
 Afinitor may increase the risk of problems with wound healing. 
 * if you have an infection. It may be necessary to treat your infection before starting Afinitor. 
 * if you have previously had hepatitis B, because this may be reactivated during treatment with 
-Afinitor (see section 4 ‘Possible side effects’). 
+Afinitor (see section 4  Possible side effects ). 
 * if you have received or are about to receive radiation therapy. </p>
 <p>Afinitor may also: 
 * weaken your immune system. Therefore, you may be at risk of getting an infection while you 
@@ -167,7 +163,7 @@ pressure or other cardiovascular problems.
 <p>The following may reduce the effectiveness of Afinitor: 
 * rifampicin, used to treat tuberculosis (TB). 
 * efavirenz or nevirapine, used to treat HIV infection/AIDS. 
-* St. John’s wort (Hypericum perforatum), a herbal product used to treat depression and other 
+* St. John s wort (Hypericum perforatum), a herbal product used to treat depression and other 
 conditions. 
 * dexamethasone, a corticosteroid used to treat a wide variety of conditions including 
 inflammatory or immune problems. 
@@ -356,19 +352,13 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store afinitor"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>− 
-Keep this medicine out of the sight and reach of children. 
-− 
-Do not use this medicine after the expiry date which is stated on the carton and blister foil. The 
-expiry date refers to the last day of that month. 
-− 
-Do not store above 25°C. 
-− 
-Store in the original package in order to protect from light and moisture. 
-− 
-Open the blister just before taking the tablets. 
-− 
-Do not use this medicine if any pack is damaged or shows signs of tampering. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister foil. The 
+expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. </p>
+<p>Store in the original package in order to protect from light and moisture. </p>
+<p>Open the blister just before taking the tablets. </p>
+<p>Do not use this medicine if any pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -387,11 +377,11 @@ throw away medicines you no longer use. These measures will help to protect the 
 hypromellose, crospovidone type A and lactose anhydrous. </p>
 <p>What Afinitor looks like and contents of the pack 
 Afinitor 2.5 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with 
-“LCL” on one side and “NVR” on the other. 
-Afinitor 5 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with “5” on 
-one side and “NVR” on the other. 
+ LCL  on one side and  NVR  on the other. 
+Afinitor 5 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with  5  on 
+one side and  NVR  on the other. 
 Afinitor 10 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with 
-“UHE” on one side and “NVR” on the other. </p>
+ UHE  on one side and  NVR  on the other. </p>
 <p>Afinitor 2.5 mg is available in blister packs containing 30 or 90 tablets. 
 Afinitor 5 mg and Afinitor 10 mg are available in blister packs containing 10, 30 or 90 tablets. 
 Not all pack sizes or strengths may be marketed in your country. </p>
@@ -402,7 +392,7 @@ Elm Park, Merrion Road
 Dublin 4 
 Ireland </p>
 <p>Manufacturer 
-Novartis Farmacéutica SA 
+Novartis Farmac utica SA 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
@@ -410,23 +400,22 @@ Roonstrasse D-90429 Nuremberg
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -442,35 +431,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -478,10 +467,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

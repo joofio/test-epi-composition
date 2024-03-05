@@ -4,7 +4,7 @@ Instance: composition-en-24658ce59b10f683d894acb365dd27b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for granpidam Package Leaflet"
 Description:  "Composition for granpidam Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,7 +87,7 @@ pressure in the blood vessels in the lungs (pulmonary arterial hypertension). </
 <li>if you are allergic to sildenafil or any of the other ingredients of this medicine (listed in 
 section 6). </li>
 <li>if you are taking medicines containing nitrates, or nitric oxide donors such as amyl nitrate 
-(“poppers”). These medicines are often given for relief of chest pain (or “angina pectoris”). 
+( poppers ). These medicines are often given for relief of chest pain (or  angina pectoris ). 
 Granpidam can cause a serious increase in the effects of these medicines. Tell your doctor if you 
 are taking any of these medicines. If you are not certain, ask your doctor or pharmacist. </li>
 <li>if you are taking riociguat. This drug is used to treat pulmonary arterial hypertension (i.e., high 
@@ -103,7 +103,7 @@ medicines containing ritonavir (for HIV). </li>
 called non-arteritic anterior ischaemic optic neuropathy (NAION). </li>
 </ul>
 <p>Warnings and precautions 
-Talk to your doctor before taking Granpidam if you: </p>
+Talk to your doctor before taking Granpidam if you:</p>
 <ul>
 <li>have a disease due to a blocked or narrow vein in the lungs rather than a blocked or narrow 
 artery. </li>
@@ -137,12 +137,12 @@ Granpidam should not be given to children below 1 year of age. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <ul>
-<li>Medicines containing nitrates, or nitric oxide donors such as amyl nitrate (“poppers”). These 
-medicines are often given for relief of angina pectoris or “chest pain” (see section 2. Do not take 
+<li>Medicines containing nitrates, or nitric oxide donors such as amyl nitrate ( poppers ). These 
+medicines are often given for relief of angina pectoris or  chest pain  (see section 2. Do not take 
 Granpidam) </li>
 <li>Tell your doctor or pharmacist if you are already taking riociguat. </li>
 <li>Therapies for pulmonary hypertension (e.g. bosentan, iloprost) </li>
-<li>Medicines containing St. John’s Wort (herbal medicinal product), rifampicin (used to treat 
+<li>Medicines containing St. John s Wort (herbal medicinal product), rifampicin (used to treat 
 bacterial infections), carbamazepine, phenytoin and phenobarbital (used, among others, to treat 
 epilepsy) </li>
 <li>Blood thinning medicines (for example warfarin) although these did not result in any side effect. </li>
@@ -171,8 +171,8 @@ medicine before you drive or use machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>Granpidam contains sodium 
-This medicine contain less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contain less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take granpidam"
@@ -185,10 +185,10 @@ if you are not sure. </p>
 without food. </p>
 <p>Use in children and adolescents 
 For children and adolescents aged 1 year to 17 years old, the recommended dose is either 10 mg three 
-times a day for children and adolescents ≤20 kg or 20 mg three times a day for children and 
+times a day for children and adolescents  20 kg or 20 mg three times a day for children and 
 adolescents &gt;20 kg, taken with or without food. Higher doses should not be used in children. This 
 medicine should be used only in case of administration of 20 mg three times a day. Other 
-pharmaceutical forms may be more appropriate for administration to patients ≤ 20 kg and other 
+pharmaceutical forms may be more appropriate for administration to patients   20 kg and other 
 younger patients who are not able to swallow tablets. </p>
 <p>If you take more Granpidam than you should 
 You should not take more medicine than your doctor tells you to. 
@@ -211,17 +211,19 @@ over a few days before stopping completely. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>If you experience any of the following side effects you should stop taking Granpidam and contact a 
-doctor immediately (see also section 2): 
-- if you experience sudden decrease or loss of vision (frequency not known) 
-- if you have an erection, which lasts continuously for more than 4 hours. Prolonged and 
+doctor immediately (see also section 2):</p>
+<ul>
+<li>if you experience sudden decrease or loss of vision (frequency not known) </li>
+<li>if you have an erection, which lasts continuously for more than 4 hours. Prolonged and 
 sometimes painful erections have been reported in men after taking sildenafil (frequency not 
-known). </p>
+known). </li>
+</ul>
 <p>Adults 
 Side effects reported very commonly (may affect more than 1 in 10 people) were headache, facial 
 flushing, indigestion, diarrhoea and pain in the arms or legs. </p>
 <p>Side effects reported commonly (may affect up to 1 in 10 people) included: infection under the skin, 
 flu-like symptoms, inflammation of the sinuses, reduced number of red blood cells (anaemia), fluid 
-retention, difficulty sleeping, anxiety, migraine, shaking, “pins and needles”-like sensation, burning 
+retention, difficulty sleeping, anxiety, migraine, shaking,  pins and needles -like sensation, burning 
 sensation, reduced sense of touch, bleeding at the back of the eye, effects on vision, blurred vision and 
 light sensitivity, effects on colour vision, eye irritation, bloodshot eyes /red eyes, vertigo, bronchitis, 
 nosebleed, runny nose, cough, stuffy nose, stomach inflammation, gastroenteritis, heartburn, piles, 
@@ -258,7 +260,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store granpidam"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -274,11 +276,11 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is sildenafil. Each tablet contains 20 mg of sildenafil (as citrate).<br />
 - The other ingredients are:<br />
 Tablet core: microcrystalline cellulose, calcium hydrogen phosphate, croscarmellose sodium 
-(see section 2 “Granpidam contains sodium”), hypromellose 2910 (E464), magnesium stearate 
+(see section 2  Granpidam contains sodium ), hypromellose 2910 (E464), magnesium stearate 
 Film coat: hypromellose 2910 (E464), titanium dioxide (E171), lactose monohydrate, triacetin. </p>
 <p>What Granpidam looks like and contents of the pack 
 White to off white, round shaped, approximately 6.6 mm in diameter, biconvex, film-coated tablets, 
-debossed with ‘20’ on one side and plain on other side. </p>
+debossed with  20  on one side and plain on other side. </p>
 <p>Granpidam 20 mg film-coated tablets are provided in PVC/Alu blister packs containing 90 tablets and 
 300 tablets. 
 Granpidam 20 mg film-coated tablets are also provided in PVC/Alu perforated unit dose blister packs 
@@ -287,7 +289,7 @@ containing 15x1, 90x1 and 300x1 tablets. </p>
 <p>Marketing Authorisation Holder 
 Accord Healthcare S.L.U.<br />
 World Trade Center, Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
+Edifici Est 6  planta,<br />
 08039 Barcelona,<br />
 Spain </p>
 <p>Manufacturer 
@@ -296,7 +298,7 @@ Winthontlaan 200,<br />
 3526 KV Utrecht,<br />
 The Netherlands<br />
 or </p>
-<p>Laboratori Fundació DAU 
+<p>Laboratori Fundaci  DAU 
 C/ C, 12-14 Pol. Ind. Zona Franca, 08040 Barcelona, 
 Spain </p>
 <p>or </p>

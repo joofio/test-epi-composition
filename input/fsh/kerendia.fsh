@@ -4,7 +4,7 @@ Instance: composition-en-ea2d9477557df2cb8572d829cd765247
 InstanceOf: CompositionUvEpi
 Title: "Composition for kerendia Package Leaflet"
 Description:  "Composition for kerendia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,13 +88,13 @@ sugar in your blood. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Kerendia if you 
 - are allergic to finerenone or any of the other ingredients of this medicine (listed in section 6). 
-- are taking medicines that belong to the group of ‘strong CYP3A4 inhibitors’, for example 
+- are taking medicines that belong to the group of  strong CYP3A4 inhibitors , for example 
 - itraconazole or ketoconazole (to treat fungal infections) 
 - ritonavir, nelfinavir, or cobicistat (to treat HIV infection) 
 - clarithromycin, telithromycin (to treat bacterial infections) 
 - nefazodone (to treat depression). 
-- have Addison’s disease (when your body does not produce enough of the hormones ‘cortisol’ 
-and ‘aldosterone’). </p>
+- have Addison s disease (when your body does not produce enough of the hormones  cortisol<br />
+and  aldosterone ). </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Kerendia if you have 
 - ever been told you had a high level of potassium in your blood. 
@@ -114,8 +114,8 @@ whether it is safe and effective in this age group. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Your doctor will tell you which medicines you can take. Your doctor may need to test your 
 blood to make sure. </p>
-<p>You must not take medicines that belong to the group of ‘strong CYP3A4 inhibitors,’ while taking 
-Kerendia (see section 2 “Do not take Kerendia…”). </p>
+<p>You must not take medicines that belong to the group of  strong CYP3A4 inhibitors,  while taking 
+Kerendia (see section 2  Do not take Kerendia ). </p>
 <p>Talk to your doctor or pharmacist if you are taking other medicines while taking Kerendia, 
 especially 
 - if you take for example 
@@ -131,14 +131,14 @@ medicines may be unsafe for you. </p>
 <li>if you take for example </li>
 <li>erythromycin (to treat bacterial infections) </li>
 <li>verapamil (to treat high blood pressure, chest pain, and fast heartbeat) </li>
-<li>fluvoxamine (to treat depression and ‘obsessive-compulsive disorder’) </li>
+<li>fluvoxamine (to treat depression and  obsessive-compulsive disorder ) </li>
 <li>rifampicin (to treat bacterial infections) </li>
 <li>carbamazepine, phenytoin, or phenobarbital (to treat epilepsy) </li>
-<li>St. John´s Wort (Hypericum perforatum) (a herbal medicine to treat depression) </li>
+<li>St. John s Wort (Hypericum perforatum) (a herbal medicine to treat depression) </li>
 <li>
 <p>efavirenz (to treat HIV infection) 
 or if you take other medicines that belong to the same groups of medicines as the ones listed 
-above (certain ‘CYP3A4 inhibitors’ and ‘inducers’). You may have more side effects, or 
+above (certain  CYP3A4 inhibitors  and  inducers ). You may have more side effects, or 
 Kerendia may not work as expected. </p>
 </li>
 <li>
@@ -166,8 +166,8 @@ Kerendia has no effect on your ability to drive or use machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>Kerendia contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kerendia"
@@ -187,7 +187,7 @@ your blood. The results help your doctor to decide, if you can start with 1 tabl
 dose for you. This might be 1 tablet of 20 mg or 10 mg once daily. 
 Your doctor may also tell you to interrupt or stop taking Kerendia. </li>
 </ul>
-<p>Your doctor may decide on changes in your treatment after testing your blood. See “Blood tests” in 
+<p>Your doctor may decide on changes in your treatment after testing your blood. See  Blood tests  in 
 section 2 for more information. </p>
 <p>How to take this medicine 
 Kerendia is taken by mouth. Take Kerendia at the same time every day. This makes it easier for you to 
@@ -195,7 +195,7 @@ remember. </p>
 <p>Swallow the tablet whole. 
 - You can take it with a glass of water. 
 - You can take it with or without food. 
-- Do not take it with grapefruit juice or grapefruit. See “Kerendia with food and drink” in 
+- Do not take it with grapefruit juice or grapefruit. See  Kerendia with food and drink  in 
 section 2 for more information. </p>
 <p>If you cannot swallow the tablet whole, you can crush it. 
 - Mix it with water or soft foods, such as apple sauce. 
@@ -204,9 +204,9 @@ section 2 for more information. </p>
 Talk to your doctor or pharmacist if you think you have taken too much of this medicine. </p>
 <p>If you forget to take Kerendia 
 If you forget to take your tablet at your regular time that day 
-►take the tablet as soon as you notice it that day. </p>
+ take the tablet as soon as you notice it that day. </p>
 <p>If you miss a day 
-►take the next tablet on the next day, at your regular time. </p>
+ take the next tablet on the next day, at your regular time. </p>
 <p>Do not take 2 tablets to make up for a forgotten tablet. </p>
 <p>If you stop taking Kerendia 
 Only stop taking Kerendia if your doctor has told you. 
@@ -266,23 +266,25 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is finerenone. 
 - Each tablet of Kerendia 10 mg film-coated tablets contains 10 mg finerenone. 
 - Each tablet of Kerendia 20 mg film-coated tablets contains 20 mg finerenone. 
-- The other ingredients are: 
-- Tablet core: microcrystalline cellulose, croscarmellose sodium, hypromellose 2910, 
-lactose monohydrate, magnesium stearate, sodium laurilsulfate. See “Kerendia contains 
-lactose” and “Kerendia contains sodium” in section 2 for more information. 
-- Tablet coat: hypromellose 2910, titanium dioxide, talc, 
+- The other ingredients are:</p>
+<ul>
+<li>Tablet core: microcrystalline cellulose, croscarmellose sodium, hypromellose 2910, 
+lactose monohydrate, magnesium stearate, sodium laurilsulfate. See  Kerendia contains 
+lactose  and  Kerendia contains sodium  in section 2 for more information. </li>
+<li>Tablet coat: hypromellose 2910, titanium dioxide, talc, 
 iron oxide red (E 172, in Kerendia 10 mg film-coated tablets only), 
-iron oxide yellow (E 172, in Kerendia 20 mg film-coated tablets only). </p>
+iron oxide yellow (E 172, in Kerendia 20 mg film-coated tablets only). </li>
+</ul>
 <p>What Kerendia looks like and contents of the pack 
 Kerendia 10 mg film-coated tablets (tablets) are pink and oval-oblong, 10 mm long and 5 mm wide, 
-marked ‘10’ on one side and ‘FI’ on the other side. </p>
+marked  10  on one side and  FI  on the other side. </p>
 <p>Kerendia 20 mg film-coated tablets (tablets) are yellow and oval-oblong, 10 mm long and a 5 mm 
-wide, marked ‘20’ on one side and ‘FI’ on the other side. </p>
+wide, marked  20  on one side and  FI  on the other side. </p>
 <p>Kerendia is available in cartons containing 
 - 14, 28 or 98 film-coated tablets. </p>
 <p>Each calendarised transparent blister contains 14 film-coated tablets. </p>
 <ul>
-<li>100 × 1 film-coated tablets. </li>
+<li>100   1 film-coated tablets. </li>
 </ul>
 <p>Each perforated transparent unit dose blister contains 10 film-coated tablets. </p>
 <ul>
@@ -300,18 +302,17 @@ Kaiser-Wilhelm-Allee
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36 България 
-Байер България ЕООД 
-Tел.: +359 02 4247Luxembourg/Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>T .: +359 02 4247Luxembourg/Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420 266 101 Magyarország 
-Bayer Hungária KFT 
+Tel: +420 266 101 Magyarorsz g 
+Bayer Hung ria KFT 
 Tel: +36 14 87-41 Danmark 
 Bayer A/S 
 Tlf: +45 45 23 50 Malta 
@@ -321,42 +322,42 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
 Tel: +31-(0)23-799 1Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8Norge 
 Bayer AS 
-Tlf: +47 23 13 05 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30-210-61 87 Österreich 
+Tlf: +47 23 13 05 <br />
+Bayer   <br />
+ : +30-210-61 87  sterreich 
 Bayer Austria Ges.m.b.H. 
 Tel: +43-(0)1-711 46-0 
-España 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
 Tel: +48 22 572 35 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54 Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: +385-(0)1-6599 România 
+Tel: +385-(0)1-6599 Rom nia 
 SC Bayer SRL 
 Tel: +40 21 529 59 Ireland 
 Bayer Limited 
 Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386 (0)1 58 14 Ísland 
+Tel: +386 (0)1 58 14  sland 
 Icepharma hf. 
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Bayer spol. s r.o. 
 Tel. +421 2 59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39 02 397 8 1 
 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358- 20 785 Κύπρος 
+Puh/Tel: +358- 20 785 <br />
 NOVAGEM Limited 
-Tηλ: +357 22 48 38 Sverige 
+T : +357 22 48 38 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 

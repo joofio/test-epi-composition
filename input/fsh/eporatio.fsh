@@ -4,7 +4,7 @@ Instance: composition-en-f46407e1e0462c87d0387a21507bffa2
 InstanceOf: CompositionUvEpi
 Title: "Composition for eporatio Package Leaflet"
 Description:  "Composition for eporatio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -97,9 +97,11 @@ medicine (listed in section 6);
 <p>Warnings and precautions </p>
 <p>General 
 This medicine may not be suitable for the following patients. Please speak with your doctor if you 
-belong to one of these patient groups: 
-- patients with liver problems, 
-- patients with pathological changes in their red blood cells (homozygous sickle cell anaemia). </p>
+belong to one of these patient groups:</p>
+<ul>
+<li>patients with liver problems, </li>
+<li>patients with pathological changes in their red blood cells (homozygous sickle cell anaemia). </li>
+</ul>
 <p>Your blood pressure needs to be checked closely before and during treatment with this medicine. If 
 your blood pressure rises, your doctor may give you medicines to reduce your blood pressure. If you 
 are already taking a medicine to reduce your blood pressure, your doctor might increase the dose. It 
@@ -163,7 +165,7 @@ your doctor may decide that you should not use this medicine if you are breast-f
 This medicine does not affect your ability to drive and use machines. </p>
 <p>Eporatio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, i.e. essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eporatio"
@@ -174,7 +176,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, i
 above-mentioned indications. </p>
 <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>The recommended dose is… 
+<p>The recommended dose is<br />
 The dose of Eporatio (expressed in International Units or IU) depends on your disease condition, your 
 body weight and the way the injection is given (under the skin [subcutaneous injection] or into a vein 
 [intravenous injection]). Your doctor will work out the right dose for you. </p>
@@ -213,7 +215,7 @@ vein (intravenous injection) or into the tissue just under the skin (subcutaneou
 <p>If you are receiving Eporatio as an injection under the skin, your doctor may suggest that you learn 
 how to inject yourself this medicine. Your doctor or nurse will give you instructions on how to do this. 
 Do not attempt to give this medicine to yourself without this training. Some of the information 
-required for using the pre-filled syringe can be found at the end of this package leaflet (see section “7. Information for injecting yourself”). Proper treatment of your disease, however, requires close and 
+required for using the pre-filled syringe can be found at the end of this package leaflet (see section  7. Information for injecting yourself ). Proper treatment of your disease, however, requires close and 
 constant co-operation with your doctor. </p>
 <p>Each pre-filled syringe is for single use only. </p>
 <p>If you use more Eporatio than you should 
@@ -234,27 +236,35 @@ Before you stop using this medicine, talk to your doctor. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Serious side effects: 
-- Severely elevated blood pressure: 
+<p>Serious side effects:</p>
+<ul>
+<li>Severely elevated blood pressure: 
 If you get headaches, especially sudden, stabbing, migraine-like headaches, confusion, speech 
 disturbance, unsteady walking, fits or convulsions, tell your doctor immediately. These may be 
 signs of severely elevated blood pressure (common in patients with chronic renal failure, may 
 affect up to 1 in 10 people), even if your blood pressure is usually normal or low. It needs to be 
-treated at once. 
-- Allergic reactions: 
+treated at once. </li>
+<li>Allergic reactions: 
 Allergic reactions such as skin rash, raised areas of the skin that itch and severe allergic 
 reactions with weakness, drop in blood pressure, difficulty breathing and swelling of the face 
 have been reported (not known, frequency cannot be estimated from the available data). If you 
 think you are having this type of reaction, you must stop your Eporatio injection and get 
-medical help immediately. 
-- Serious skin rashes: 
+medical help immediately. </li>
+<li>Serious skin rashes: 
 Serious skin rashes including Stevens-Johnson syndrome and toxic epidermal necrolysis have 
 been reported in association with epoetin treatment. These can appear as reddish target-like 
 macules or circular patches often with central blisters on the trunk, skin peeling, ulcers of 
 mouth, throat, nose, genitals and eyes and can be preceded by fever and flu-like symptoms. Stop 
 using Eporatio if you develop these symptoms and contact your doctor or seek medical attention 
-immediately. See also section 2.<br />
-You may experience the following additional side effects: </p>
+immediately. See also section </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store eporatio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store eporatio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You may experience the following additional side effects: </p>
 <p>Common (may affect up to 1 in 10 people) 
 - Headache; 
 - High blood pressure; 
@@ -278,175 +288,22 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store eporatio"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store eporatio"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
-syringe after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). </p>
-<p>Do not freeze. </p>
-<p>Keep the pre-filled syringe in the outer carton, in order to protect from light. </p>
-<p>You may remove Eporatio from the refrigerator and store it not above 25 °C for a single period of up 
-to 7 days without exceeding the expiry date. Once you have removed your medicine from the 
-refrigerator you must use it within this period or it must be discarded. </p>
-<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eporatio contains 
-- The active substance is epoetin theta. 
-Eporatio 1,000 IU/0.5 ml: One pre-filled syringe contains 1,000 international units (IU) 
-(8.3 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
-2,000 international units (IU) (16.7 micrograms) per ml. 
-Eporatio 2,000 IU/0.5 ml: One pre-filled syringe contains 2,000 international units (IU) 
-(16.7 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
-4,000 international units (IU) (33.3 micrograms) per ml. 
-Eporatio 3,000 IU/0.5 ml: One pre-filled syringe contains 3,000 international units (IU) 
-(25 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
-6,000 international units (IU) (50 micrograms) per ml. 
-Eporatio 4,000 IU/0.5 ml: One pre-filled syringe contains 4,000 international units (IU) 
-(33.3 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
-8,000 international units (IU) (66.7 micrograms) per ml. 
-Eporatio 5,000 IU/0.5 ml: One pre-filled syringe contains 5,000 international units (IU) 
-(41.7 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
-10,000 international units (IU) (83.3 micrograms) per ml.. 
-Eporatio 10,000 IU/1 ml: One pre-filled syringe contains 10,000 international units (IU) 
-(83.3 micrograms) epoetin theta in 1 ml solution for injection corresponding to 
-10,000 international units (IU) (83.3 micrograms) per ml. 
-Eporatio 20,000 IU/1 ml: One pre-filled syringe contains 20,000 international units (IU) 
-(166.7 micrograms) epoetin theta in 1 ml solution for injection corresponding to 
-20,000 international units (IU) (166.7 micrograms) per ml. 
-Eporatio 30,000 IU/1 ml: One pre-filled syringe contains 30,000 international units (IU) 
-(250 micrograms) epoetin theta in 1 ml solution for injection corresponding to 
-30,000 international units (IU) (250 micrograms) per ml. 
-- The other ingredients are sodium dihydrogen phosphate dihydrate, sodium chloride, polysorbate 
-20, trometamol, hydrochloric acid (6 M) (for pH adjustment) and water for injections. </p>
-<p>What Eporatio looks like and contents of the pack 
-Eporatio is a clear and colourless solution for injection in pre-filled syringe along with an injection 
-needle. </p>
-<p>Eporatio 1,000 IU/0.5 ml, Eporatio 2,000 IU/0.5 ml, Eporatio 3,000 IU/0.5 ml, Eporatio 
-4,000 IU/0.5 ml and Eporatio 5,000 IU/0.5 ml: Each pre-filled syringe contains 0.5 ml of solution. 
-Packs of 6 pre-filled syringes; 6 pre-filled syringes with safety needle or 6 pre-filled syringes with 
-safety device. </p>
-<p>Eporatio 10,000 IU/1 ml, Eporatio 20,000 IU/1 ml and Eporatio 30,000 IU/1 ml: Each pre-filled 
-syringe contains 1 ml of solution. Packs of 1, 4 and 6 pre-filled syringes; 1, 4 and 6 pre-filled syringes 
-with safety needle or 1, 4 and 6 pre-filled syringes with safety device. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-ratiopharm GmbH 
-Graf-Arco-Straße 3 
-89079 Ulm 
-Germany </p>
-<p>Manufacturer 
-Merckle GmbH 
-Graf-Arco-Straße 3 
-89079 Ulm 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
-Lietuva 
-UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
-Luxembourg/Luxemburg 
-ratiopharm GmbH 
-Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
-Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
-Tel: +36 12886 
-Danmark 
-Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
-Teva Pharmaceuticals Ireland 
-L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
-ratiopharm GmbH 
-Tel: +49 73140 
-Nederland 
-Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
-UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
-Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS Α.Ε. 
-Österreich 
-ratiopharm Arzneimittel Vertriebs-GmbH 
-Τηλ: +30 2118805 
-Tel: +43 1970 
-España 
-Teva Pharma, S.L.U. 
-Tel: +34 913873Polska 
-Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
-Teva Santé 
-Tél: +33 155917 
-Portugal 
-ratiopharm - Comércio e Indústria de Produtos 
-Farmacêuticos, Lda. 
-Tel: +351 214248 
-Hrvatska 
-Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-România 
-Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
-Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
-Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
-Ísland 
-Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
-TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
-Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
-Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS Α.Ε. 
-Ελλάδα 
-Τηλ: +30 2118805 
-Sverige 
-Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
-UAB Teva Baltics filiāle Latvijā 
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
-Teva Pharmaceuticals Ireland 
-Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last approved in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
+syringe after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C   8  C). </p>
+<p>Do not freeze. </p>
+<p>Keep the pre-filled syringe in the outer carton, in order to protect from light. </p>
+<p>You may remove Eporatio from the refrigerator and store it not above 25  C for a single period of up 
+to 7 days without exceeding the expiry date. Once you have removed your medicine from the 
+refrigerator you must use it within this period or it must be discarded. </p>
+<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-8727047706feba67762f580057591e03
 InstanceOf: CompositionUvEpi
 Title: "Composition for crysvita Package Leaflet"
 Description:  "Composition for crysvita Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,10 +81,12 @@ in adults.  </p>
 X-Linked Hypophosphataemia (XLH) is a genetic disease. 
 * People with XLH have higher levels of a hormone called fibroblast growth factor 23 (FGF23). 
 * FGF23 lowers the amount of phosphate in the blood. 
-* The low level of phosphate may:<br />
-- lead to bones that may not harden properly and, in children and adolescents, cannot grow 
-properly 
-- result in pain and stiffness in bones and joints </p>
+* The low level of phosphate may:</p>
+<ul>
+<li>lead to bones that may not harden properly and, in children and adolescents, cannot grow 
+properly </li>
+<li>result in pain and stiffness in bones and joints </li>
+</ul>
 <p>What is Tumour-induced osteomalacia (TIO) 
 * People with TIO have higher levels of a hormone called FGF23 produced by certain types of 
 tumours. 
@@ -106,7 +108,7 @@ phosphate levels in the blood so that normal levels of phosphate can be achieved
 * you are allergic to burosumab or any of the other ingredients of this medicine (listed in section 6)<br />
 * you are taking any phosphate supplements or certain vitamin D supplements (that contain so 
 called active vitamin D, e.g. calcitriol) 
-* you already have a high level of phosphate in your blood (“hyper-phosphataemia”) 
+* you already have a high level of phosphate in your blood ( hyper-phosphataemia ) 
 * you have severe kidney disease or kidney failure. </p>
 <p>Allergic reactions 
 Stop taking CRYSVITA and contact your doctor straight away if you have any of the following side 
@@ -138,7 +140,7 @@ Tell your doctor if you are taking, have recently taken, or might take any other
 some vitamin D supplements you can continue or start to use and your doctor will advise which 
 ones these are.  </p>
 <p>Talk to your doctor before taking CRYSVITA: 
-* if you are taking medicines that work in the same way as calcium in the body (“calcimimetics”). 
+* if you are taking medicines that work in the same way as calcium in the body ( calcimimetics ). 
 If used together they may lower blood calcium. 
 * if you are a patient with TIO and you are about to receive treatment of the underlying tumour (i.e. 
 radiation therapy or surgical removal). In this case, treatment with CRYSVITA will not be started 
@@ -168,7 +170,7 @@ This medicine contains 45.91 mg of sorbitol in each vial which is equivalent to 
 buttock or thigh. This medicine will be given to you or your child by a healthcare provider. 
 Alternatively, your doctor may recommend that you inject yourself or your child. A healthcare provider 
 will show you how to do this. The first self-injection after start of treatment or after any dose change 
-should be carried out in front of them. A detailed ‘Instructions for Use’ section is provided at the end of 
+should be carried out in front of them. A detailed  Instructions for Use  section is provided at the end of 
 this leaflet. Always follow these instructions carefully when giving yourself or your child the 
 CRYSVITA injection.  </p>
 <p>Always use this medicine exactly as your doctor, nurse or pharmacist has told you. Check with your 
@@ -176,17 +178,21 @@ doctor, nurse or pharmacist if you are not sure. </p>
 <p>How much CRYSVITA you will need 
 The dose is based on your body weight. Your doctor will work out the right dose for you.  </p>
 <p>Dose for XLH and TIO 
-Your CRYSVITA dose will need to be injected: 
-- every two weeks in children and adolescents aged 1 - 17 years<br />
-- every four weeks in adults </p>
+Your CRYSVITA dose will need to be injected:</p>
+<ul>
+<li>every two weeks in children and adolescents aged 1 - 17 years  </li>
+<li>every four weeks in adults </li>
+</ul>
 <p>Your doctor will perform checks to make sure that you are getting the right dose and may change your 
 dose or frequency of dose if needed. </p>
 <p>Maximum dose for XLH patients 
 The maximum dose you will be given for the treatment of XLH is 90 mg. </p>
 <p>Maximum dose for TIO patients<br />
-The maximum dose you will be given for the treatment of TIO: 
-- for children aged 1 to 12, is 90 mg<br />
-- for adolescents aged 13 to 17 and for adults, is 180 mg </p>
+The maximum dose you will be given for the treatment of TIO:</p>
+<ul>
+<li>for children aged 1 to 12, is 90 mg  </li>
+<li>for adolescents aged 13 to 17 and for adults, is 180 mg </li>
+</ul>
 <p>Patients with TIO 
 If you are a patient with TIO who requires treatment of the underlying tumour (i.e. radiation therapy or 
 surgical removal), treatment with CRYSVITA will be stopped by your doctor. After treatment of the 
@@ -219,14 +225,10 @@ Very common (may affect more than 1 in 10 children and adolescents)
 * Tooth decay or cavities 
 * Rash 
 * Pain in muscles (myalgia) and hands and feet 
-* Reactions where the injection was given, which may include: 
-o 
-redness or rash 
-o 
-pain or itching 
-o 
-swelling 
-o 
+* Reactions where the injection was given, which may include: * 
+redness or rash * 
+pain or itching * 
+swelling * 
 bleeding or bruising 
 These injection site reactions are usually mild and occur within a day after the injection and 
 usually get better in around 1 to 3 days. 
@@ -264,12 +266,12 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep CRYSVITA out of the sight and reach of children. 
 Do not use CRYSVITA after the expiry date which is stated on the carton and label. 
-Store in a refrigerator (2°C to 8°C). Do not freeze. 
+Store in a refrigerator (2 C to 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. 
 Do not use CRYSVITA if it contains visible particles.<br />
 Do not throw away any medicines via wastewater or household waste. These measures will help protect 
 the environment. 
-If self-injecting, see step 5 of the ‘Instructions for Use’ in the end of the Package Leaflet for instructions 
+If self-injecting, see step 5 of the  Instructions for Use  in the end of the Package Leaflet for instructions 
 on disposal of unused medicines and supplies. If you have questions on how to throw away medicines 
 you no longer use, ask your healthcare provider or pharmacist. </p>         </div>"""      
         
@@ -282,7 +284,7 @@ you no longer use, ask your healthcare provider or pharmacist. </p>         </di
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CRYSVITA contains  </p>
 <p>The active substance is burosumab. Each vial contains either 10, 20 or 30 mg of burosumab. 
 The other ingredients are L-histidine, D-sorbitol (E420), polysorbate 80, L-methionine, 10%,<br />
-hydrochloric acid, and water for injections. (See “CRYSVITA contains sorbitol” in section 2 for more 
+hydrochloric acid, and water for injections. (See  CRYSVITA contains sorbitol  in section 2 for more 
 information). </p>
 <p>What CRYSVITA looks like and contents of the pack 
 CRYSVITA comes as a clear to slightly opalescent, colourless to pale yellow/brown solution for 
@@ -295,7 +297,7 @@ The Netherlands<br />
 medinfo@kyowakirin.com </p>
 <p>Manufacturer </p>
 <p>allphamed PHARBIL Arzneimittel GmbH 
-Hildebrandstr. 10-37081 Göttingen 
+Hildebrandstr. 10-37081 G ttingen 
 Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 

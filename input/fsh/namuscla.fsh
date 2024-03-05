@@ -4,7 +4,7 @@ Instance: composition-en-396604b2a44a552f3c94ac2d7537f02d
 InstanceOf: CompositionUvEpi
 Title: "Composition for namuscla Package Leaflet"
 Description:  "Composition for namuscla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -97,23 +97,23 @@ and Namuscla)
 medicines and Namuscla). </p>
 <p>If you have any doubt, ask your doctor or pharmacist. </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist or nurse before taking Namuscla if you have: 
-- heart problems<br />
-Internal Doc Ref: v6.6 
-- liver problems 
-- kidney problems 
-- low or high potassium blood levels 
--<br />
-low magnesium blood levels 
--<br />
-epilepsy  </p>
+Talk to your doctor or pharmacist or nurse before taking Namuscla if you have:</p>
+<ul>
+<li>heart problems<br />
+Internal Doc Ref: v6.6 </li>
+<li>liver problems </li>
+<li>kidney problems </li>
+<li>low or high potassium blood levels </li>
+<li>low magnesium blood levels </li>
+<li>epilepsy  </li>
+</ul>
 <p>Heart function 
 Before starting treatment with Namuscla, you will have tests to check how well your heart is working, 
 including ECG (Electrocardiogram). These tests will also be performed regularly during treatment 
 with Namuscla, and before and after your dose of Namuscla is modified. How often these tests will be 
 performed depends on your heart function.<br />
 If you or your doctor detects any heart rhythm disturbances or any of the conditions stated in section 
-“Do not take Namuscla”, your doctor will stop your treatment with Namuscla. </p>
+ Do not take Namuscla , your doctor will stop your treatment with Namuscla. </p>
 <p>If you notice that the rhythm of your heart changes (the heart beats faster or slower), if you feel 
 fluttering or pain in your chest, if you have difficulty breathing, if you feel dizzy, if you sweat or if 
 you faint, you have to contact an emergency centre immediately. </p>
@@ -126,7 +126,7 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines.  </p>
 <p>Do not take Namuscla with certain medicines for treating heart rhythm disorders (quinidine, 
 procainamide, disopyramide, ajmaline, encainide, flecainide, propafenone, moricizine, amiodarone, 
-sotalol, ibutilide, dofetilide, dronedarone, vernakalant). See section “Do not take Namuscla”. Taking 
+sotalol, ibutilide, dofetilide, dronedarone, vernakalant). See section  Do not take Namuscla . Taking 
 Namuscla together with any of these medicines increases the risk of a serious heart rhythm disturbance 
 called torsades de pointes. </p>
 <p>Do not take Namuscla with certain medicines which have a so called narrow therapeutic window 
@@ -138,13 +138,8 @@ the medicine or side effects). Examples of such medicines are digoxin (for heart
 or be affected by Namuscla:<br />
 <em> medicines for heart problems (lidocaine, tocainide, propranolol, esmolol, metoprolol, atenolol, 
 carvedilol, bisoprolol, nebivolol, verapamil, diltiazem),<br />
-</em> certain other medicines:<br />
-o timolol for treating high pressure in the eye (glaucoma),  </p>
-<p>o certain antibiotics (ciprofloxacin, rifampicin),<br />
-o certain antidepressants (fluvoxamine),<br />
-o tizanidine (used to relax the muscles),<br />
-o metformin (used against diabetes) 
-o omeprazole (to treat stomach ulcer and gastric acid reflux).  </p>
+</em> certain other medicines:  * timolol for treating high pressure in the eye (glaucoma),<br />
+ * certain antibiotics (ciprofloxacin, rifampicin),  * certain antidepressants (fluvoxamine),  * tizanidine (used to relax the muscles),  * metformin (used against diabetes) * omeprazole (to treat stomach ulcer and gastric acid reflux).  </p>
 <p>Smoking and Namuscla 
 Tell your doctor or pharmacist if you start to smoke or quit smoking while taking Namuscla because 
 smoking impacts the Namuscla blood levels and your dose may need to be adjusted accordingly. </p>
@@ -177,12 +172,12 @@ at regular intervals throughout the day. </p>
 <p>Check of heart function 
 Before starting treatment with Namuscla and regularly during treatment, you will have tests to check 
 how well your heart is working,. Depending on your heart function you may also need testing before 
-and after any dose adjustment. See section “Warnings and precautions”. Your doctor will also 
+and after any dose adjustment. See section  Warnings and precautions . Your doctor will also 
 regularly reassess your treatment to make sure Namuscla is still the best medicine for you. </p>
 <p>Method of administration 
 Namuscla is for oral use. </p>
 <p>Swallow the capsule with a glass of water, while standing or sitting up. You may take Namuscla 
-during a meal to avoid belly pain (see section “Possible side effects”). </p>
+during a meal to avoid belly pain (see section  Possible side effects ). </p>
 <p>If you take more Namuscla than you should 
 Contact your doctor if you take more than the recommended dose of Namuscla. This could be very 
 harmful to your health. You or your companion should contact the doctor immediately if you have 
@@ -203,59 +198,73 @@ If you have forgotten a dose, do not take a double dose and take the next dose a
 Internal Doc Ref: v6.6 </p>
 <p>The most serious side effects are:<br />
 Contact your doctor or go to your nearest emergency center immediately if you experience any of the 
-following side effects: 
-- severe allergy to mexiletine (with symptoms such as severe rash with fever); this is a very rare side 
-effect, may affect up to 1 in 10,000 people. 
-- disorders of heart rhythm, see section “Warnings and precautions” for symptoms and more 
-information; this is a common side effect, may affect up to 1 in 10 people. </p>
+following side effects:</p>
+<ul>
+<li>severe allergy to mexiletine (with symptoms such as severe rash with fever); this is a very rare side 
+effect, may affect up to 1 in 10,000 people. </li>
+<li>disorders of heart rhythm, see section  Warnings and precautions  for symptoms and more 
+information; this is a common side effect, may affect up to 1 in 10 people. </li>
+</ul>
 <p>Other side effects that may occur: 
-Very common side effects (may affect more than 1 in 10 people): 
-- Abdominal (belly) pain 
-- Insomnia (difficulty sleeping) </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- Somnolence (sleepiness) 
-- Headache 
-- Tingling in the arms and legs 
-- Blurred vision 
-- Vertigo (sensation of feeling off balance) 
-- Rapid heart rate 
-- Flushing 
-- Low blood pressure (which can cause dizziness and feeling faint) 
-- Nausea (feeling sick) 
-- Acne 
-- Pain in the arms and legs 
-- Tiredness 
-- Weakness 
-- Chest discomfort 
-- Malaise (a feeling of general discomfort and illness) </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- Convulsions (fits) 
-- Speech disorders 
-- Slow heart rate </p>
-<p>Rare side effects (may affect up to 1 in 1,000 people): 
-- Abnormal functioning of the liver (observed after blood analysis). </p>
-<p>Very rare side effects (may affect up to 1 in 10,000 people): 
-- Liver injury including inflammation (hepatitis) 
-- Severe reaction to the medicine (with rash and fever) </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- Decrease in white blood cells or in platelets<br />
-- Lupus syndrome (disease of the immune system) 
-- Redness and peeling of the skin<br />
-- Stevens-Johnson syndrome: a severe allergic reaction with skin rashes, often in the form of blisters 
-and sores in the mouth and eyes, and other mucous membranes 
-- Blisters of the skin, malaise and fever in the context of a condition called DRESS 
-- Hallucinations (seeing or hearing something that is not present). 
-- Transient confusion (a temporary inability to think clearly or concentrate) 
-- Double vision 
-- Altered sense of taste 
-- Disorders of heart rhythm 
-- Collapse 
-- Hot flushes 
-Internal Doc Ref: v6.6 
-- Pulmonary fibrosis (disease of the lung) 
-- Diarrhoea 
-- Vomiting 
-- Injury of the oesophagus (food pipe) </p>
+Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Abdominal (belly) pain </li>
+<li>Insomnia (difficulty sleeping) </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Somnolence (sleepiness) </li>
+<li>Headache </li>
+<li>Tingling in the arms and legs </li>
+<li>Blurred vision </li>
+<li>Vertigo (sensation of feeling off balance) </li>
+<li>Rapid heart rate </li>
+<li>Flushing </li>
+<li>Low blood pressure (which can cause dizziness and feeling faint) </li>
+<li>Nausea (feeling sick) </li>
+<li>Acne </li>
+<li>Pain in the arms and legs </li>
+<li>Tiredness </li>
+<li>Weakness </li>
+<li>Chest discomfort </li>
+<li>Malaise (a feeling of general discomfort and illness) </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Convulsions (fits) </li>
+<li>Speech disorders </li>
+<li>Slow heart rate </li>
+</ul>
+<p>Rare side effects (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Abnormal functioning of the liver (observed after blood analysis). </li>
+</ul>
+<p>Very rare side effects (may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>Liver injury including inflammation (hepatitis) </li>
+<li>Severe reaction to the medicine (with rash and fever) </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Decrease in white blood cells or in platelets  </li>
+<li>Lupus syndrome (disease of the immune system) </li>
+<li>Redness and peeling of the skin  </li>
+<li>Stevens-Johnson syndrome: a severe allergic reaction with skin rashes, often in the form of blisters 
+and sores in the mouth and eyes, and other mucous membranes </li>
+<li>Blisters of the skin, malaise and fever in the context of a condition called DRESS </li>
+<li>Hallucinations (seeing or hearing something that is not present). </li>
+<li>Transient confusion (a temporary inability to think clearly or concentrate) </li>
+<li>Double vision </li>
+<li>Altered sense of taste </li>
+<li>Disorders of heart rhythm </li>
+<li>Collapse </li>
+<li>Hot flushes 
+Internal Doc Ref: v6.6 </li>
+<li>Pulmonary fibrosis (disease of the lung) </li>
+<li>Diarrhoea </li>
+<li>Vomiting </li>
+<li>Injury of the oesophagus (food pipe) </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -270,7 +279,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister. The expiry date 
 refers to the last day of that month. </p>
-<p>Store below 30°C. Store in the original package in order to protect from moisture. </p>
+<p>Store below 30 C. Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -281,22 +290,24 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Namuscla contains<br />
-Each hard capsule contains: 
-- mexiletine hydrochloride corresponding to 166.62 mg of mexiletine (active substance) 
-- Other ingredients (maize starch, colloidal anhydrous silica, magnesium stearate, gelatin, iron 
-oxide [E 172], titanium dioxide [E 171]).  </p>
+Each hard capsule contains:</p>
+<ul>
+<li>mexiletine hydrochloride corresponding to 166.62 mg of mexiletine (active substance) </li>
+<li>Other ingredients (maize starch, colloidal anhydrous silica, magnesium stearate, gelatin, iron 
+oxide [E 172], titanium dioxide [E 171]).  </li>
+</ul>
 <p>What Namuscla looks like and contents of the pack 
 Namuscla hard capsules are reddish hard gelatin capsules filled with white powder. 
 Namuscla is available in blister packs containing 30, 50, 100 or 200 capsules. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Lupin Europe GmbH 
-Hanauer Landstraße 139-143,<br />
+Hanauer Landstra e 139-143,<br />
 60314 Frankfurt am Main 
 Germany </p>
 <p>Manufacturer 
 Hormosan Pharma GmbH 
-Hanauer Landstraße 139-143,<br />
+Hanauer Landstra e 139-143,<br />
 60314 Frankfurt am Main 
 Germany </p>
 <p>Lupin Healthcare (UK) Ltd 

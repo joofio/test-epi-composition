@@ -4,7 +4,7 @@ Instance: composition-en-703c0707f76711c32684f846cc20b14e
 InstanceOf: CompositionUvEpi
 Title: "Composition for potactasol Package Leaflet"
 Description:  "Composition for potactasol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,10 +69,12 @@ Usage: #example
   * code.text =  "1. What potactasol is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Potactasol contains the active substance topotecan which helps to kill tumour cells.  </p>
-<p>Potactasol is used to treat: 
-- ovarian cancer or small cell lung cancer that has come back after chemotherapy 
-- advanced cervical cancer if surgery or radiotherapy is not possible. In this case Potactasol 
-treatment is combined with medicines containing cisplatin.  </p>         </div>"""   
+<p>Potactasol is used to treat:</p>
+<ul>
+<li>ovarian cancer or small cell lung cancer that has come back after chemotherapy </li>
+<li>advanced cervical cancer if surgery or radiotherapy is not possible. In this case Potactasol 
+treatment is combined with medicines containing cisplatin.  </li>
+</ul>         </div>"""   
           
 
              
@@ -89,12 +91,14 @@ section 6);
 the results of your last blood test. 
 Tell you doctor if you think any of these could apply to you. </p>
 <p>Warnings and precautions 
-Talk to your doctor before using Potactasol:<br />
-- if you have any kidney problems. Your dose of Potactasol may need to be adjusted. Potactasol is 
-not recommended in case of severe kidney impairment; 
-- if you have liver problems. Potactasol is not recommended in case of severe liver impairment; 
-- if you suffer from lung inflammation with signs such as cough, fever and difficulties in 
-breathing, see also section 4 “Possible side effects”. </p>
+Talk to your doctor before using Potactasol:</p>
+<ul>
+<li>if you have any kidney problems. Your dose of Potactasol may need to be adjusted. Potactasol is 
+not recommended in case of severe kidney impairment; </li>
+<li>if you have liver problems. Potactasol is not recommended in case of severe liver impairment; </li>
+<li>if you suffer from lung inflammation with signs such as cough, fever and difficulties in 
+breathing, see also section 4  Possible side effects . </li>
+</ul>
 <p>Potactasol may cause a decrease in the number of blood clotting cells (platelets). This can lead to 
 severe bleeding from relatively small injuries such as a small cut. Rarely, it can lead to more severe 
 bleeding (haemorrhage). Talk to your doctor for advice on how to minimize the risk of bleeding. </p>
@@ -116,18 +120,20 @@ family planning options prior to starting treatment. </p>
 <p>Driving and using machines 
 Potactasol can make you feel tired or weak. If you experience this, do not drive or use machines. </p>
 <p>Potactasol contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take potactasol"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take potactasol"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your dose of Potactasol will depend on: 
-- the disease being treated, 
-- your body surface area (m2), 
-- the results of blood tests carried out before and during treatment, 
-- how well you tolerate treatment. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your dose of Potactasol will depend on:</p>
+<ul>
+<li>the disease being treated, </li>
+<li>your body surface area (m2), </li>
+<li>the results of blood tests carried out before and during treatment, </li>
+<li>how well you tolerate treatment. </li>
+</ul>
 <p>Adults 
 Ovarian cancer and small cell lung cancer 
 The usual dose is 1.5 mg per m2 of body surface area once daily for 5 days. This treatment cycle will 
@@ -161,8 +167,12 @@ nurse if you have any concerns about the amount of medicine that you receive. </
 You must tell your doctor immediately if you experience any of the following serious side effects. 
 They may require hospitalisation and could even be life-threatening. </p>
 <ul>
-<li>Infections (very common; may affect more than 1 in 10 people), with signs such as: </li>
-<li>fever </li>
+<li>
+<p>Infections (very common; may affect more than 1 in 10 people), with signs such as:</p>
+</li>
+<li>
+<p>fever </p>
+</li>
 <li>serious decline of your general condition </li>
 <li>local symptoms, such as sore throat or burning sensation when urinating </li>
 <li>
@@ -171,22 +181,26 @@ inflammation (neutropenic colitis)
 Potactasol may reduce your ability to fight infections. </p>
 </li>
 <li>
-<p>Lung inflammation (rare; may affect up to 1 in 1,000 people), with signs such as: </p>
+<p>Lung inflammation (rare; may affect up to 1 in 1,000 people), with signs such as:</p>
 </li>
-<li>difficulty breathing </li>
+<li>
+<p>difficulty breathing </p>
+</li>
 <li>cough </li>
 <li>
 <p>fever 
 The risk of developing this severe condition (interstitial lung disease) is higher if you currently have 
 lung problems, or if you have received previous radiation treatment or medicines that affected your 
-lungs, see also section 2 “Warnings and precautions”. This condition can be fatal. </p>
+lungs, see also section 2  Warnings and precautions . This condition can be fatal. </p>
 </li>
 <li>
 <p>Severe allergic (anaphylactic) reactions (rare; may affect up to 1 in 1,000 people), with signs 
-such as: </p>
+such as:</p>
 </li>
-<li>swelling of the face, lips, tongue or throat, difficulty breathing, low blood pressure, dizziness 
-and itchy rash. </li>
+<li>
+<p>swelling of the face, lips, tongue or throat, difficulty breathing, low blood pressure, dizziness 
+and itchy rash. </p>
+</li>
 </ul>
 <p>Other side effects with Potactasol include: </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
@@ -241,15 +255,15 @@ medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
 <p>Storage after reconstitution and dilution 
-Chemical and physical stability of the concentrate has been demonstrated for 24 hours at 25 ± 2°C, in 
-normal light conditions and 24 hours at 2°C to 8°C, protected from light. </p>
+Chemical and physical stability of the concentrate has been demonstrated for 24 hours at 25   2 C, in 
+normal light conditions and 24 hours at 2 C to 8 C, protected from light. </p>
 <p>The physico-chemical stability of the medicinal product solution obtained after dilution in solutions 
 for infusion (NaCl 0.9 % and Glucose 5 %) has been demonstrated for 4 hours at room temperature, in 
 normal lighting conditions, on samples reconstituted and stored for 12 hours and respectively 24 hours 
-at 25oC ± 2oC and then diluted. </p>
+at 25oC   2oC and then diluted. </p>
 <p>From a microbiological point of view, the product should be used immediately. If not used 
 immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-would normally not be longer than 24 hours at 2°C to 8°C, unless reconstitution/dilution has taken 
+would normally not be longer than 24 hours at 2 C to 8 C, unless reconstitution/dilution has taken 
 place in controlled and validated aseptic conditions. </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements for 
 cytotoxic material. </p>         </div>"""      
@@ -273,7 +287,7 @@ either 1 mg or 4 mg of topotecan. </p>
 <p>Marketing Authorisation Holder<br />
 Actavis Group PTC ehf. 
 Dalshraun 1 
-220 Hafnarfjörður 
+220 Hafnarfj r ur 
 Iceland </p>
 <p>Manufacturer 
 S.C. Sindan-Pharma S.R.L. 
@@ -282,23 +296,21 @@ Bucharest
 Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -317,29 +329,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o.<br />
 Tel: +385 13720000  </p>
-<p>România 
+<p>Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -348,10 +359,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -359,16 +370,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E.<br />
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E.  </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā<br />
+UAB Teva Baltics fili le Latvij <br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

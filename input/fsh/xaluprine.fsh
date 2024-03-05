@@ -4,7 +4,7 @@ Instance: composition-en-f55146b06bad26b63272dae234a560c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xaluprine Package Leaflet"
 Description:  "Composition for xaluprine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,10 +84,12 @@ therefore cannot fight infections and may cause bleeding. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take xaluprine"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Do not take Xaluprine if you are allergic to mercaptopurine or any of the other ingredients of 
-this medicine (listed in section 6). 
-- Do not get vaccinated with yellow fever vaccine whilst you are taking Xaluprine because it 
-may be fatal. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Do not take Xaluprine if you are allergic to mercaptopurine or any of the other ingredients of 
+this medicine (listed in section 6). </li>
+<li>Do not get vaccinated with yellow fever vaccine whilst you are taking Xaluprine because it 
+may be fatal. </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking Xaluprine 
 - if you have been vaccinated with yellow fever vaccine 
@@ -96,30 +98,38 @@ properly.
 - if you have a condition where your body produces too little of the enzyme called TPMT 
 (thiopurine methyltransferase), as your doctor may need to adjust the dose.<br />
 - if you are planning to have a baby.  This applies to both men and women.  Xaluprine may harm 
-your sperm or eggs (see ‘Pregnancy, breast-feeding and fertility’ below).   </p>
-<p>If you are receiving immunosuppressive therapy, taking Xaluprine could put you at greater risk of: 
-- tumours, including skin cancer. Therefore, when taking Xaluprine, avoid excessive exposure to 
-sunlight, wear protective clothing and use protective sunscreen with a high protection factor 
-- lymphoproliferative disorders 
-o 
+your sperm or eggs (see  Pregnancy, breast-feeding and fertility  below).   </p>
+<p>If you are receiving immunosuppressive therapy, taking Xaluprine could put you at greater risk of:</p>
+<ul>
+<li>tumours, including skin cancer. Therefore, when taking Xaluprine, avoid excessive exposure to 
+sunlight, wear protective clothing and use protective sunscreen with a high protection factor </li>
+<li>lymphoproliferative disorders * 
 treatment with Xaluprine increases your risk of getting a type of cancer called 
 lymphoproliferative disorder. With treatment regimen containing multiple 
-immunosuppressants (including thiopurines), this may lead to death. 
-o 
+immunosuppressants (including thiopurines), this may lead to death. * 
 A combination of multiple immunosuppressants, given concomitantly increases the 
 risk of disorders of the lymph system due to a viral infection (Epstein-Barr virus 
-(EBV)-associated lymphoproliferative disorders). </p>
-<p>Taking Xaluprine could put you at greater risk of: 
-- developing a serious condition called Macrophage Activation Syndrome (excessive activation 
+(EBV)-associated lymphoproliferative disorders). </li>
+</ul>
+<p>Taking Xaluprine could put you at greater risk of:</p>
+<ul>
+<li>developing a serious condition called Macrophage Activation Syndrome (excessive activation 
 of white blood cells associated with inflammation), which usually occurs in people who have 
-certain types of arthritis. </p>
+certain types of arthritis. </li>
+</ul>
 <p>Some patients with inflammatory bowel disease who have received 6-mercaptopurine have developed 
 a rare and aggressive type of cancer called Hepatosplenic T-cell Lymphoma (see section 4, Possible 
 side effects).  </p>
 <p>Infections 
 When you are treated with Xaluprine the risk of viral, fungal and bacterial infections is increased and 
-the infections may be more serious. See also section 4.<br />
-Tell your doctor before starting treatment whether or not you have had chickenpox, shingles or 
+the infections may be more serious. See also section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xaluprine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xaluprine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor before starting treatment whether or not you have had chickenpox, shingles or 
 hepatitis B (a liver disease caused by a virus). </p>
 <p>NUDT15-gene mutation 
 If you have an inherited mutation in the NUDT15-gene (a gene which is involved in the break-down 
@@ -131,11 +141,11 @@ nose, flush the area with water. </p>
 Xaluprine. </p>
 <p>Children and adolescents 
 Low blood sugar has sometimes been seen in children, mainly in children under the age of six or with 
-a low body mass index. Talk to your child´s doctor if this happens. </p>
+a low body mass index. Talk to your child s doctor if this happens. </p>
 <p>Other medicines and Xaluprine 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>In particular, tell your doctor, nurse or pharmacist if you are taking any of the following: </p>
+<p>In particular, tell your doctor, nurse or pharmacist if you are taking any of the following:</p>
 <ul>
 <li>other cytotoxic medicines (chemotherapy) - when used with Xaluprine there is a greater chance 
 of side effects, such as anaemia </li>
@@ -174,12 +184,13 @@ builds up because the body cannot remove it properly.  </p>
 <p>Xaluprine also contains sodium methyl parahydroxybenzoate (E219) and sodium ethyl 
 parahydroxybenzoate (E215) which may cause allergic reactions (possibly delayed).  </p>
 <p>Xaluprine contains sucrose. If you have been told by your doctor that you have an intolerance to some 
-sugars, contact your doctor before taking this medicinal product. May be harmful to the teeth. </p>         </div>"""   
-                    
+sugars, contact your doctor before taking this medicinal product. May be harmful to the teeth. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take xaluprine"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take xaluprine"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xaluprine should only be given to you by a specialist doctor who is experienced in treating blood 
 problems.  </p>
@@ -214,25 +225,121 @@ administering a dose. Wipe up spillages immediately. To decrease the risk of exp
 gloves should be used when handling Xaluprine. </p>
 <p>If Xaluprine comes into contact with skin, eyes or nose, it should be washed immediately and 
 thoroughly with soap and water. </p>
-<p>When you use the medicine follow the instructions below: </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<p>When you use the medicine follow the instructions below: </p>
+<ol>
+<li>Put on disposable hand gloves before handling Xaluprine. </li>
 <li>Shake the bottle vigorously for at least 30 seconds to ensure the medicine is well mixed 
 (figure 1). </li>
-</ol>         </div>"""      
+<li>Remove the bottle cap (figure 2) and push the adaptor firmly into the top of the bottle and leave in 
+place for future doses (figure 3).  </li>
+<li>Push the tip of the dosing syringe into the hole in the adaptor (figure 4). Your doctor or 
+pharmacist will advise you of the correct syringe to use, either the 1 ml or the 5 ml  in order to 
+give the correct dose.  </li>
+<li>Turn the bottle upside down (figure 5).  </li>
+<li>Pull the plunger of the syringe back so that the medicine is drawn from the bottle into the syringe. 
+Pull the plunger back to the point on the scale that corresponds to the dose prescribed (figure 5). If 
+you are not sure about how much medicine to draw into the syringe, always ask your doctor or nurse 
+for advice.  </li>
+<li>Turn the bottle back the right way up and carefully remove the syringe from the adaptor, holding it 
+by the barrel rather than the plunger.  </li>
+<li>Gently put the tip of the syringe into your mouth and to the inside of your cheek.  </li>
+<li>Slowly and gently push the plunger down to gently squirt the medicine into the inside of your cheek 
+and swallow it. DO NOT forcefully push down the plunger, or squirt the medicine to the back of your 
+mouth or throat, as you may choke.  </li>
+<li>Remove the syringe from your mouth.  </li>
+<li>Swallow the dose of oral suspension then drink some water, making sure no medicine is left in 
+your mouth. </li>
+<li>Put the cap back on the bottle with the adaptor left in place.  Ensure that the cap is tightly closed. </li>
+<li>Wash the syringe with warm water and rinse well. Hold the syringe under water and move the 
+plunger up and down several times to make sure the inside of the syringe is clean. Let the syringe air 
+dry completely before you use that syringe again for dosing. Do not wipe dry. Store the syringe in a 
+hygienic place with the medicine. </li>
+</ol>
+<p>Repeat the above for each dose as instructed by your doctor or pharmacist.  </p>
+<p>If you take more Xaluprine than you should 
+If you take more Xaluprine than you should, tell your doctor or go to a hospital immediately.  You 
+may feel sick, vomit or have diarrhoea. Take the medicine pack and this leaflet with you. </p>
+<p>If you forget to take Xaluprine 
+Tell your doctor.  Do not take a double dose to make up for a forgotten dose. </p>
+<p>If you stop taking Xaluprine 
+Do not stop taking your medicine unless your doctor tells you to or you may get a relapse of your 
+condition. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xaluprine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store xaluprine"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>place for future doses (figure 3).  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>If you get any of the following side effects, talk to your specialist doctor or go to hospital 
+immediately:</p>
+<ul>
+<li>
+<p>Allergic reaction, the signs may include: * 
+skin rashes * 
+high temperature * 
+joint pain * 
+swollen face * 
+skin nodules (erythema nodosum) (the frequency is unknown) </p>
+</li>
+<li>
+<p>Any signs of fever or infection (sore throat, sore mouth or urinary problems) </p>
+</li>
+<li>
+<p>Any unexpected bruising or bleeding, as this could mean that too few blood cells of a particular 
+type are being produced </p>
+</li>
+<li>
+<p>If you suddenly feel unwell (even with a normal temperature) and have abdominal pain and 
+sickness, as this could be a sign of an inflamed pancreas </p>
+</li>
+<li>
+<p>Any yellowing of the whites of the eyes or skin (jaundice) </p>
+</li>
+<li>
+<p>If you have diarrhoea </p>
+</li>
+</ul>
+<p>Talk to your doctor if you have any of the following side effects which may also happen with this 
+medicine: </p>
+<p>Very common (affects more than 1 in 10 people) 
+- a drop in the number of white blood cells and platelets (may show up in blood tests) </p>
+<p>Common (affects less than 1 in 10 people) 
+- feeling or being sick (nausea or vomiting) 
+- liver damage - this may show up in blood tests 
+- a drop in red blood cells which may make you tired, weak or breathless (called anaemia) 
+- loss of appetite 
+- diarrhoea 
+- inflammation of the mouth (stomatitis) </p>
+<p>Uncommon (affects less than 1 in 100 people) 
+- mouth ulcers 
+- inflamed pancreas 
+- joint pain 
+- skin rash 
+- fever 
+- permanent damage to the liver (hepatic necrosis) </p>
+<p>Rare (affects less than 1 in 1,000 people) 
+- hair loss 
+- in men: temporary low sperm count 
+- swollen face 
+- various types of cancers including blood, lymph and skin cancers </p>
+<p>Very rare (affects less than 1 in 10,000 people) 
+- a different type of leukaemia to that being treated 
+- ulcers in the intestines </p>
+<p>Other side effects (the frequency is unknown)<br />
+- a rare type of cancer (hepatosplenic T-cell lymphoma), (see section 2, Warnings and 
+Precautions). 
+- Sensitivity to sunlight causing skin reactions </p>
+<p>Additional side effects in children and adolescents 
+Low blood sugar (hypoglycaemia) - the frequency is unknown.  </p>
+<p>If any of the side effects gets serious, or if you notice any side effects not listed in this leaflet, please 
+tell your doctor or pharmacist. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -240,6 +347,16 @@ thoroughly with soap and water. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>pharmacist will advise you of the correct syringe to use, either the 1 ml or the 5 ml  in order to 
-give the correct dose.  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children, preferably in a locked cupboard. 
+Accidental ingestion can be lethal for children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the bottle after 
+ EXP . The expiry date refers to the last day of that month. </li>
+<li>Do not store above 25 C. </li>
+<li>Keep the bottle tightly closed to prevent spoilage of the medicine and reduce the risk of 
+accidental spillage. </li>
+<li>After first opening of the bottle, discard any unused contents after 56 days. </li>
+</ul>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

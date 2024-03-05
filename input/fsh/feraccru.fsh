@@ -4,7 +4,7 @@ Instance: composition-en-02a1ba5129f4c436758a0bf386350823
 InstanceOf: CompositionUvEpi
 Title: "Composition for feraccru Package Leaflet"
 Description:  "Composition for feraccru Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -79,15 +79,17 @@ your body. Low iron causes anaemia (too few red blood cells). </p>         </div
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take feraccru"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Feraccru: 
-- If you are allergic to ferric maltol or any of the other ingredients of this medicine (listed in 
-section 6). 
-- If you have any illness causing iron overload or a disturbance in how your body uses iron. 
-- If you have received multiple blood transfusions. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Feraccru:</p>
+<ul>
+<li>If you are allergic to ferric maltol or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>If you have any illness causing iron overload or a disturbance in how your body uses iron. </li>
+<li>If you have received multiple blood transfusions. </li>
+</ul>
 <p>Warnings and precautions 
 Before starting treatment, your doctor will use a blood test to make sure that your anaemia is not 
 severe or caused by anything other than iron deficiency (low iron stores). </p>
-<p>You should avoid taking Feraccru if you are experiencing a “flare” of your inflammatory bowel 
+<p>You should avoid taking Feraccru if you are experiencing a  flare  of your inflammatory bowel 
 disease (IBD). </p>
 <p>You should not take Feraccru if you are taking dimercaprol (a medicine used to remove toxic metals 
 from the blood), chloramphenicol (used to treat bacterial infections), or methyldopa (used to treat high 
@@ -106,7 +108,7 @@ and ofloxacin. </li>
 <li>Bisphosphonates (used to treat bone diseases). </li>
 <li>Penicillamine (used to bind metals). </li>
 <li>
-<p>Some medicines used to treat Parkinson’s disease (entacapone, levodopa) and thyroid problems 
+<p>Some medicines used to treat Parkinson s disease (entacapone, levodopa) and thyroid problems 
 (levothyroxine)  </p>
 </li>
 <li>
@@ -126,7 +128,7 @@ doctor before taking this medicine. </p>
 Sunset Yellow FCF (E 110) and Allura Red AC (E 129) may cause allergic reactions. </p>
 <p>Feraccru contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take feraccru"
@@ -191,7 +193,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP: The expiry 
 date refers to the last day of that month. </p>
-<p>Do not use this medicine for more than 45 days after first opening the bottle. Store below 25°C. </p>         </div>"""      
+<p>Do not use this medicine for more than 45 days after first opening the bottle. Store below 25 C. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -219,7 +221,7 @@ The active substance is 30 mg of iron as ferric maltol. </p>
 <li>Ammonium hydroxide </li>
 </ul>
 <p>What Feraccru looks like and contents of the pack 
-Feraccru is a red hard capsule printed “30” containing a 
+Feraccru is a red hard capsule printed  30  containing a 
 reddish-brown powder. Feraccru is available in packs, 
 each containing 14, 50, 56 or 100 (2 bottles of 50) 
 capsules. 
@@ -252,7 +254,7 @@ IE/UK (NI)
 Norgine Pharmaceuticals Ltd. 
 +44 1895 826MedInfo@norgine.com </p>
 <p>ES 
-Norgine de España, S.L.U 
+Norgine de Espa a, S.L.U 
 +34 91 375 8iberiamedinfo@norgine.com </p>
 <p>FR 
 Norgine SAS 
@@ -264,7 +266,7 @@ Norgine Italia S.r.l.
 Norgine B.V. 
 +31 20 567 0medinfo.benelux@norgine.com </p>
 <p>PT 
-Norgine Portugal Farmacêutica Unipessoal, Lda 
+Norgine Portugal Farmac utica Unipessoal, Lda 
 +351 218952iberiamedinfo@norgine.com </p>
 <p>EE\EL\CY\LV\LT\MT 
 Norgine B.V. 

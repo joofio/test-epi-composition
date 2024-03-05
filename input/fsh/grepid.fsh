@@ -4,7 +4,7 @@ Instance: composition-en-744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: CompositionUvEpi
 Title: "Composition for grepid Package Leaflet"
 Description:  "Composition for grepid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,25 +76,27 @@ process called thrombosis). </p>
 a process known as atherothrombosis, which can lead to atherothrombotic events (such as stroke, heart 
 attack or death). </p>
 <p>You have been prescribed Grepid to help prevent blood clots and reduce the risk of these severe events 
-because: 
-- You have a condition of hardening of arteries (also known as atherosclerosis), and<br />
-- You have previously experienced a heart attack, stroke or have a condition known as peripheral 
-arterial disease, or 
-- You have experienced a severe type of chest pain known as ‘unstable angina’ or ‘myocardial 
-infarction’ (heart attack). For the treatment of this condition your doctor may have placed a 
+because:</p>
+<ul>
+<li>You have a condition of hardening of arteries (also known as atherosclerosis), and  </li>
+<li>You have previously experienced a heart attack, stroke or have a condition known as peripheral 
+arterial disease, or </li>
+<li>You have experienced a severe type of chest pain known as  unstable angina  or  myocardial 
+infarction  (heart attack). For the treatment of this condition your doctor may have placed a 
 stent in the blocked or narrowed artery to restore effective blood flow. You may also be given 
 acetylsalicylic acid (a substance present in many medicines used to relieve pain and lower fever 
-as well as to prevent blood clotting) by your doctor. 
-- You have experienced symptoms of a stroke which go away within a short period of time (also 
+as well as to prevent blood clotting) by your doctor. </li>
+<li>You have experienced symptoms of a stroke which go away within a short period of time (also 
 known as transient ischemic attack) or an ischemic stroke mild in severity. You may also be 
-given acetylsalicylic acid by your doctor starting within the first 24 hours. 
-- You have an irregular heartbeat, a condition called ‘atrial fibrillation’, and you cannot take 
-medicines known as ‘oral anticoagulants’ (vitamin K antagonists) which prevent new clots from 
-forming and prevent existing clots from growing. You should have been told that ‘oral 
-anticoagulants’ are more effective than acetylsalicylic acid or the combined use of Grepid and 
+given acetylsalicylic acid by your doctor starting within the first 24 hours. </li>
+<li>You have an irregular heartbeat, a condition called  atrial fibrillation , and you cannot take 
+medicines known as  oral anticoagulants  (vitamin K antagonists) which prevent new clots from 
+forming and prevent existing clots from growing. You should have been told that  oral 
+anticoagulants  are more effective than acetylsalicylic acid or the combined use of Grepid and 
 acetylsalicylic acid for this condition. Your doctor should have prescribed Grepid plus 
-acetylsalicylic acid if you cannot take ‘oral anticoagulants’ and you do not have a risk of major 
-bleeding. </p>         </div>"""   
+acetylsalicylic acid if you cannot take  oral anticoagulants  and you do not have a risk of major 
+bleeding. </li>
+</ul>         </div>"""   
           
 
              
@@ -133,12 +135,12 @@ seven days.
 * You should also tell your doctor immediately if you develop a medical condition (also known 
 as Thrombotic Thrombocytopenic Purpura or TTP) that includes fever and bruising under the 
 skin that may appear as red pinpoint dots, with or without unexplained extreme tiredness, 
-confusion, yellowing of the skin or eyes (jaundice) (see section 4 ‘Possible side effects’). 
+confusion, yellowing of the skin or eyes (jaundice) (see section 4  Possible side effects ). 
 * If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked 
 to the way your medicine works as it prevents the ability of blood clots to form. For minor 
 cuts and injuries e.g., cutting yourself, shaving, this is usually of no concern. However, if you 
 are concerned by your bleeding, you should contact your doctor straightaway (see section 4 
-‘Possible side effects’). 
+ Possible side effects ). 
 * Your doctor may order blood tests. </p>
 <p>Children and adolescents 
 Do not give this medicine to children because it does not work. </p>
@@ -146,26 +148,22 @@ Do not give this medicine to children because it does not work. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines, 
 including medicines obtained without a prescription.<br />
 Some other medicines may influence the use of Grepid or vice versa. </p>
-<p>You should specially tell your doctor if you take:<br />
-- medicines that may increase your risk of bleeding such as: 
-o oral anticoagulants, medicines used to reduce blood clotting 
-o a non-steroidal anti-inflammatory medicine, usually used to treat painful and/or 
-inflammatory conditions of muscles or joints 
-o heparin or any other injectable medicine used to reduce blood clotting 
-o ticlopidine, or other antiplatelet agents 
-o a selective serotonin reuptake inhibitor (including but not restricted to fluoxetine or 
-fluvoxamine), medicines usually used to treat depression 
-o rifampicin (used to treat severe infections) 
-- omeprazole or esomeprazole, medicines to treat upset stomach 
-- fluconazole or voriconazole, medicines to treat fungal infections 
-- efavirenz, or other anti-retroviral medicines (used to treat HIV infections) 
-- carbamazepine, a medicine to treat some forms of epilepsy 
-- moclobemide, medicine to treat depression 
-- repaglinide, medicine to treat diabetes 
-- paclitaxel, medicine to treat cancer 
-- opioids: while you are treated with clopidogrel, you should inform your doctor before being 
-prescribed any opioid (used to treat severe pain) 
-- rosuvastatin (used to lower your cholesterol level) </p>
+<p>You should specially tell your doctor if you take:</p>
+<ul>
+<li>medicines that may increase your risk of bleeding such as: * oral anticoagulants, medicines used to reduce blood clotting * a non-steroidal anti-inflammatory medicine, usually used to treat painful and/or 
+inflammatory conditions of muscles or joints * heparin or any other injectable medicine used to reduce blood clotting * ticlopidine, or other antiplatelet agents * a selective serotonin reuptake inhibitor (including but not restricted to fluoxetine or 
+fluvoxamine), medicines usually used to treat depression * rifampicin (used to treat severe infections) </li>
+<li>omeprazole or esomeprazole, medicines to treat upset stomach </li>
+<li>fluconazole or voriconazole, medicines to treat fungal infections </li>
+<li>efavirenz, or other anti-retroviral medicines (used to treat HIV infections) </li>
+<li>carbamazepine, a medicine to treat some forms of epilepsy </li>
+<li>moclobemide, medicine to treat depression </li>
+<li>repaglinide, medicine to treat diabetes </li>
+<li>paclitaxel, medicine to treat cancer </li>
+<li>opioids: while you are treated with clopidogrel, you should inform your doctor before being 
+prescribed any opioid (used to treat severe pain) </li>
+<li>rosuvastatin (used to lower your cholesterol level) </li>
+</ul>
 <p>If you have experienced severe chest pain (unstable angina or heart attack), transient ischemic attack 
 or ischemic stroke in mild severity, you may be prescribed Grepid in combination with acetylsalicylic 
 acid, a substance present in many medicines used to relieve pain and lower fever. An occasional use of 
@@ -187,8 +185,8 @@ Grepid is unlikely to affect your ability to drive or to use machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars (e.g. lactose), contact 
 your doctor before taking this medicine. </p>
 <p>Grepid contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ”sodium-
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take grepid"
@@ -197,7 +195,7 @@ free”. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>The recommended dose, including for patients with a condition called ‘atrial fibrillation’ (an irregular 
+<p>The recommended dose, including for patients with a condition called  atrial fibrillation  (an irregular 
 heartbeat), is one 75 mg tablet of Grepid per day to be taken orally with or without food, and at the 
 same time each day. </p>
 <p>If you have experienced severe chest pain (unstable angina or heart attack), your doctor may give you 
@@ -229,14 +227,16 @@ stopping. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact your doctor immediately if you experience: 
-- fever, signs of infection or extreme tiredness. These may be due to rare decrease of some blood 
-cells. 
-- signs of liver problems such as yellowing of the skin and/or the eyes (jaundice), whether or not 
+<p>Contact your doctor immediately if you experience:</p>
+<ul>
+<li>fever, signs of infection or extreme tiredness. These may be due to rare decrease of some blood 
+cells. </li>
+<li>signs of liver problems such as yellowing of the skin and/or the eyes (jaundice), whether or not 
 associated with bleeding which appears under the skin as red pinpoint dots and/or confusion (see 
-section 2 ‘Warnings and precautions’). 
-- swelling in the mouth or skin disorders such as rashes and itching, blisters of the skin. These 
-may be the signs of an allergic reaction. </p>
+section 2  Warnings and precautions ). </li>
+<li>swelling in the mouth or skin disorders such as rashes and itching, blisters of the skin. These 
+may be the signs of an allergic reaction. </li>
+</ul>
 <p>The most common side effect reported with Grepid is bleeding. Bleeding may occur as bleeding in 
 the stomach or bowels, bruising, haematoma (unusual bleeding or bruising under the skin), nose bleed, 
 blood in the urine. In a small number of cases, bleeding in the eye, inside the head, the lung or the 
@@ -245,7 +245,7 @@ joints has also been reported. </p>
 If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked to the 
 way your medicine works as it prevents the ability of blood clots to form. For minor cuts and injuries 
 e.g., cutting yourself, shaving, this is usually of no concern. However, if you are concerned by your 
-bleeding, you should contact your doctor straightaway (see section 2 ‘Warnings and precautions’). </p>
+bleeding, you should contact your doctor straightaway (see section 2  Warnings and precautions ). </p>
 <p>Other side effects include: <br />
 Common side effects (may affect up to 1 in 10 people):<br />
 Diarrhoea, abdominal pain, indigestion or heartburn. </p>
@@ -277,7 +277,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the carton and on the blister, after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store below 25°C.<br />
+<p>Store below 25 C.<br />
 Do not use this medicine if you notice any visible sign of deterioration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -292,7 +292,7 @@ throw away medicines you no longer use. These measures will help protect the env
 <ul>
 <li>The active substance is clopidogrel. Each film-coated tablet contains 75 mg of clopidogrel (as 
 besilate). </li>
-<li>The other ingredients are (see section 2 ‘Grepid contains lactose’): 
+<li>The other ingredients are (see section 2  Grepid contains lactose ): 
 Tablet core: Microcrystalline cellulose, hydroxypropylcellulose (E463), mannitol (E421), 
 crospovidone (type A), citric acid monohydrate, macrogol 6000, stearic acid, sodium stearyl 
 fumarate 
@@ -327,20 +327,19 @@ Energivej 5260 Odense S,<br />
 Denmark </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Pharmathen S.A. 
-Tél/Tel: +30 210 66 04<br />
+T l/Tel: +30 210 66 04<br />
 Lietuva 
 SIA ELVIM 
-Tel: +371 67808 
-България<br />
-Pharmathen S.A. 
-Teл.: +30 210 66 04 Luxembourg/Luxemburg 
+Tel: +371 67808 </p>
+<p>Pharmathen S.A. 
+Te .: +30 210 66 04 Luxembourg/Luxemburg 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
-Česká republika 
+ esk  republika 
 Pharmathen S.A. 
-Puh/Tel: +30 210 66 04 Magyarország<br />
+Puh/Tel: +30 210 66 04 Magyarorsz g<br />
 Pharmathen S.A. 
 Tel.: +30 210 66 04<br />
 Danmark 
@@ -358,12 +357,11 @@ Tel: +31 (0)8003355Eesti (Estonia)
 Pharmathen S.A. 
 Tel: +30 210 66 04 Norge 
 Orifarm Generics AS 
-Tlf: + 47 21 69 69<br />
-Ελλάδα 
-INNOVIS PHARMA ΑΕΒΕ 
-Τηλ: +30 210 6664805- Österreich<br />
+Tlf: + 47 21 69 69  </p>
+<p>INNOVIS PHARMA <br />
+ : +30 210 6664805-  sterreich<br />
 Pharmathen S.A. 
-Tel: +30 210 66 04 España 
+Tel: +30 210 66 04 Espa a 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
 Polska 
@@ -371,23 +369,23 @@ Symphar Sp. z o.o.
 Tel.: +48 22 822 93<br />
 France 
 Pharmathen S.A. 
-Tél: +30 210 66 04 Portugal 
+T l: +30 210 66 04 Portugal 
 Pharmathen S.A. 
 Tel: +30 210 66  04<br />
 Hrvatska 
 Pharmathen S.A. 
 Tel: +30 210 66  04<br />
-România 
+Rom nia 
 Neola Pharma SRL 
 Tel: +40-(0)21-233 17 Ireland 
 Pinewood Healthcare 
 Tel: + 353 52 6186 
 Slovenija 
 Pharmathen S.A. 
-Tel: +30 210 66  04 Ísland 
+Tel: +30 210 66  04  sland 
 Alvogen ehf. 
-Sími: +354 522 2 
-Slovenská republika<br />
+S mi: +354 522 2 
+Slovensk  republika<br />
 Valeant Slovakia s.r.o.<br />
 Tel: + 421 2 6920 3 
 Italia 
@@ -395,9 +393,9 @@ Pharmathen S.A.
 Tel:+30 210 66 04<br />
 Suomi/Finland 
 Ailon Pharma Oy<br />
-Puh/Tel: +358 40 702 4Κύπρος 
+Puh/Tel: +358 40 702 4<br />
 The Star Medicines Importers Co. Ltd<br />
-Τηλ: +357 25371 
+ : +357 25371 
 Sverige<br />
 Orifarm Generics AB 
 Tel: +46 40 680 02 Latvija<br />
@@ -406,7 +404,7 @@ Tel: +371 67808
 United Kingdom (Northern Ireland) 
 Athlone Pharmaceuticals 
 Tel: +44 (0) 845 4375 
-This leaflet was last revised in -Month YYYY-.  </p>
+This leaflet was last revised in <em>Month YYYY</em>.  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/  </p>         </div>"""      
 

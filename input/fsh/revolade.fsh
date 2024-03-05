@@ -4,7 +4,7 @@ Instance: composition-en-f34ab6116c3c4c0c8f28f2de9888b61e
 InstanceOf: CompositionUvEpi
 Title: "Composition for revolade Package Leaflet"
 Description:  "Composition for revolade Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Revolade 
 4. Possible side effects 
 5. How to store Revolade 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -106,9 +105,8 @@ deficiency of the red blood cells (anaemia), white blood cells (leukopenia) and 
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Revolade 
 * if you are allergic to eltrombopag or any of the other ingredients of this medicine (listed in 
-section 6 under ‘What Revolade contains’). 
-➔ 
-Check with your doctor if you think this applies to you. </p>
+section 6 under  What Revolade contains ). </p>
+<p>Check with your doctor if you think this applies to you. </p>
 <p>Warnings and precautions 
 Talk to your doctor before taking Revolade: 
 * if you have liver problems. People who have low platelet counts as well as advanced chronic 
@@ -117,25 +115,25 @@ and blood clots. If your doctor considers that the benefits of taking Revolade o
 you will be closely monitored during treatment. 
 * if you are at risk of blood clots in your veins or arteries, or you know that blood clots are 
 common in your family. 
-You may be at higher risk of blood clots: 
-- as you get older 
-- if you have had to stay in bed for a long time 
-- if you have cancer 
-- if you are taking the contraceptive birth control pill or hormone replacement therapy 
-- if you have recently had surgery or received a physical injury 
-- if you are very overweight (obese) 
-- if you are a smoker 
-- if you have advanced chronic liver disease 
-➔ 
-If any of these apply to you, tell your doctor before starting treatment. You should not 
+You may be at higher risk of blood clots:</p>
+<ul>
+<li>as you get older </li>
+<li>if you have had to stay in bed for a long time </li>
+<li>if you have cancer </li>
+<li>if you are taking the contraceptive birth control pill or hormone replacement therapy </li>
+<li>if you have recently had surgery or received a physical injury </li>
+<li>if you are very overweight (obese) </li>
+<li>if you are a smoker </li>
+<li>if you have advanced chronic liver disease </li>
+</ul>
+<p>If any of these apply to you, tell your doctor before starting treatment. You should not 
 take Revolade unless your doctor considers that the expected benefits outweigh the risk of 
 blood clots. 
 * if you have cataracts (the lens of the eye getting cloudy) 
 * if you have another blood condition, such as myelodysplastic syndrome (MDS). Your doctor 
 will carry out tests to check that you do not have this blood condition before you start Revolade. 
-If you have MDS and take Revolade, your MDS may get worse. 
-➔ 
-Tell your doctor if any of these apply to you. </p>
+If you have MDS and take Revolade, your MDS may get worse. </p>
+<p>Tell your doctor if any of these apply to you. </p>
 <p>Eye examinations 
 Your doctor will recommend that you are checked for cataracts. If you do not have routine eye-tests 
 your doctor should arrange regular testing. You may also be checked for the occurrence of any 
@@ -150,9 +148,8 @@ treatments together with Revolade to treat low platelet count due to hepatitis C
 can get worse. </p>
 <p>You will have blood tests to check your liver function before you start taking Revolade and at 
 intervals while you are taking it. You may need to stop taking Revolade if the amount of these 
-substances increases too much, or if you get other signs of liver damage. 
-➔ 
-Read the information ‘Liver problems’ in section 4 of this leaflet. </p>
+substances increases too much, or if you get other signs of liver damage. </p>
+<p>Read the information  Liver problems  in section 4 of this leaflet. </p>
 <p>Blood tests for platelet count 
 If you stop taking Revolade, your blood platelet count is likely to become low again within several 
 days. The platelet count will be monitored, and your doctor will discuss appropriate precautions with 
@@ -185,18 +182,17 @@ anaemia. </p>
 <p>Other medicines and Revolade 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This includes medicines obtained without prescription and vitamins. </p>
-<p>Some everyday medicines interact with Revolade – including prescription and non-prescription 
+<p>Some everyday medicines interact with Revolade   including prescription and non-prescription 
 medicines and minerals. These include: 
-* antacid medicines to treat indigestion, heartburn or stomach ulcers (see also ‘When to take it’ 
+* antacid medicines to treat indigestion, heartburn or stomach ulcers (see also  When to take it<br />
 in section 3) 
 * medicines called statins, to lower cholesterol 
 * some medicines to treat HIV infection, such as lopinavir and/or ritonavir 
 * ciclosporin used in the context of transplantations or immune diseases 
 * minerals such as iron, calcium, magnesium, aluminium, selenium and zinc which may be found 
-in vitamin and mineral supplements (see also ‘When to take it’ in section 3) 
-* medicines such as methotrexate and topotecan, to treat cancer 
-➔ 
-Talk to your doctor if you take any of these. Some of them are not to be taken with Revolade, 
+in vitamin and mineral supplements (see also  When to take it  in section 3) 
+* medicines such as methotrexate and topotecan, to treat cancer </p>
+<p>Talk to your doctor if you take any of these. Some of them are not to be taken with Revolade, 
 or the dose may need adjusting, or you may need to alter the timing of when you take them. 
 Your doctor will review the medicines you are taking, and suggest suitable replacements if 
 necessary. </p>
@@ -206,30 +202,35 @@ will discuss this with you. </p>
 to stop taking them while you are taking Revolade. </p>
 <p>Revolade with food and drink 
 Do not take Revolade with dairy foods or drinks as the calcium in dairy products affects the absorption 
-of the medicine. For more information, see ‘When to take it’ in section 3.<br />
-Pregnancy and breast-feeding 
-Don’t use Revolade if you are pregnant unless your doctor specifically recommends it. The effect of 
-Revolade during pregnancy is not known. 
-* Tell your doctor if you are pregnant, think you may be pregnant, or are planning to have a 
-baby. 
-* Use a reliable method of contraception while you’re taking Revolade, to prevent pregnancy 
-* If you do become pregnant during treatment with Revolade, tell your doctor. </p>
-<p>Don’t breast-feed while you are taking Revolade. It is not known whether Revolade passes into 
-breast-milk. 
-➔ 
-If you are breast-feeding or planning to breast-feed, tell your doctor. </p>
-<p>Driving and using machines 
-Revolade can make you dizzy and have other side effects that make you less alert. 
-➔ 
-Don’t drive or use machines unless you are sure you’re not affected. </p>
-<p>Revolade contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+of the medicine. For more information, see  When to take it  in section </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revolade"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast-feeding 
+Don t use Revolade if you are pregnant unless your doctor specifically recommends it. The effect of 
+Revolade during pregnancy is not known. 
+* Tell your doctor if you are pregnant, think you may be pregnant, or are planning to have a 
+baby. 
+* Use a reliable method of contraception while you re taking Revolade, to prevent pregnancy 
+* If you do become pregnant during treatment with Revolade, tell your doctor. </p>
+<p>Don t breast-feed while you are taking Revolade. It is not known whether Revolade passes into 
+breast-milk. </p>
+<p>If you are breast-feeding or planning to breast-feed, tell your doctor. </p>
+<p>Driving and using machines 
+Revolade can make you dizzy and have other side effects that make you less alert. </p>
+<p>Don t drive or use machines unless you are sure you re not affected. </p>
+<p>Revolade contains sodium 
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. Do not change the dose or schedule for taking Revolade unless your doctor or 
@@ -237,9 +238,9 @@ pharmacist advises you to. While you are taking Revolade, you will be under the 
 specialist experience in treating your condition. </p>
 <p>How much to take 
 For ITP 
-Adults and children (6 to 17 years) – the usual starting dose for ITP is one 50 mg tablet of Revolade 
+Adults and children (6 to 17 years)   the usual starting dose for ITP is one 50 mg tablet of Revolade 
 a day. If you are of East-/Southeast-Asian origin you may need to start at a lower dose of 25 mg. </p>
-<p>Children (1 to 5 years) — the usual starting dose for ITP is one 25 mg tablet of Revolade a day. </p>
+<p>Children (1 to 5 years)   the usual starting dose for ITP is one 25 mg tablet of Revolade a day. </p>
 <p>For hepatitis C 
 Adults - the usual starting dose for hepatitis C is one 25 mg tablet of Revolade a day. If you are of 
 East-/Southeast-Asian origin you will start on the same 25 mg dose. </p>
@@ -251,10 +252,10 @@ recommend that your daily dose is changed. </p>
 <p>How to take the tablets 
 Swallow the tablet whole, with some water. </p>
 <p>When to take it </p>
-<p>Make sure that – 
+<p>Make sure that <br />
 * in the 4 hours before you take Revolade 
 * and the 2 hours after you take Revolade </p>
-<p>you don’t consume any of the following: 
+<p>you don t consume any of the following: 
 * dairy foods such as cheese, butter, yoghurt or ice cream 
 * milk or milk shakes, drinks containing milk, yoghurt or cream 
 * antacids, a type of medicine for indigestion and heartburn 
@@ -269,16 +270,22 @@ immediately. </p>
 <p>If you forget to take Revolade 
 Take the next dose at the usual time. Do not take more than one dose of Revolade in one day. </p>
 <p>If you stop taking Revolade 
-Don’t stop taking Revolade without talking to your doctor. If your doctor advises you to stop 
-treatment, your platelet count will then be checked each week for four weeks. See also ‘Bleeding or 
-bruising after you stop treatment’ in section 4.<br />
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+Don t stop taking Revolade without talking to your doctor. If your doctor advises you to stop 
+treatment, your platelet count will then be checked each week for four weeks. See also  Bleeding or 
+bruising after you stop treatment  in section </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store revolade"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Symptoms needing attention: see a doctor 
@@ -308,24 +315,21 @@ problems (increased enzymes showing up in blood tests) are common and may affect
 10 people. Other liver problems are uncommon and may affect up to 1 in 100 people. </p>
 <p>If you have either of these signs of liver problems: 
 * yellowing of the skin or the whites of the eyes (jaundice) 
-* unusually dark-coloured urine 
-➔ 
-tell your doctor immediately. </p>
+* unusually dark-coloured urine </p>
+<p>tell your doctor immediately. </p>
 <p>Bleeding or bruising after you stop treatment 
 Within two weeks of stopping Revolade, your blood platelet count will usually drop back down to 
 what it was before starting Revolade. The lower platelet count may increase the risk of bleeding or 
 bruising. Your doctor will check your platelet count for at least 4 weeks after you stop taking 
-Revolade. 
-➔ 
-Tell your doctor if you have any bleeding or bruising after stopping Revolade. </p>
+Revolade. </p>
+<p>Tell your doctor if you have any bleeding or bruising after stopping Revolade. </p>
 <p>Some people have bleeding in the digestive system after they stop taking peginterferon, ribavirin, and 
 Revolade. Symptoms include: 
 * black tarry stools (discoloured bowel movements are a uncommon side effect that may affect up 
 to 1 in 100 people) 
 * blood in your stools 
-* vomiting blood or something that looks like coffee grounds 
-➔ 
-Tell your doctor immediately if you have any of these symptoms. </p>
+* vomiting blood or something that looks like coffee grounds </p>
+<p>Tell your doctor immediately if you have any of these symptoms. </p>
 <p>The following side effects have been reported to be associated with treatment with Revolade in 
 adult patients with ITP: </p>
 <p>Very common side effects 
@@ -344,7 +348,7 @@ These may affect up to 1 in 10 people:
 * bone pain 
 * heavy menstrual period 
 * sore throat and discomfort when swallowing<br />
-* eye problems including abnormal eye test, dry eye, eye pain and blurred vision 
+<em> eye problems including abnormal eye test, dry eye, eye pain and blurred vision 
 * vomiting 
 * flu (influenza) 
 * cold sore 
@@ -354,8 +358,8 @@ These may affect up to 1 in 10 people:
 *  infection of the lungs, sinuses, nose and throat 
 * inflammation of the gum tissue 
 * loss of appetite 
-* feeling of tingling, prickling or numbness, commonly called “pins and needles” 
-* decreased skin sensations 
+* feeling of tingling, prickling or numbness, commonly called  pins and needles<br />
+</em> decreased skin sensations 
 * feeling drowsy 
 * ear pain 
 * pain, swelling and tenderness in one of your legs (usually the calf) with warm skin in the 
@@ -399,13 +403,13 @@ These may affect up to 1 in 100 people:
 * allergic reaction 
 * interruption of blood supply to part of the heart 
 * sudden shortness of breath, especially when accompanied with sharp pain in the chest and /or 
-rapid breathing, which could be signs of a blood clot in the lungs (see ‘Higher risk of blood 
-clots’ earlier in section 4) 
+rapid breathing, which could be signs of a blood clot in the lungs (see  Higher risk of blood 
+clots  earlier in section 4) 
 * the loss of function of part of the lung caused by a blockage in the lung artery 
 * possible pain, swelling, and/or redness around a vein which could be signs of blood clot in a 
 vein 
 * yellowing of the skin and/or abdominal pain which could be signs of a blockage in the bile tract, 
-lesion on liver, liver damage due to inflammation (see ‘Liver problems’ earlier in section 4) 
+lesion on liver, liver damage due to inflammation (see  Liver problems  earlier in section 4) 
 * liver injury due to medication 
 * heart beating faster, irregular heartbeat, bluish discolouration of the skin, disturbances of heart 
 rhythm (QT prolongation) which could be signs of a disorder related to the heart and the blood 
@@ -521,7 +525,7 @@ stomach, taste disturbances, piles (haemorrhoids), stomach pain/discomfort, swol
 vessels and bleeding in the gullet (oesophagus) 
 * toothache 
 * liver problems, including tumour in the liver, yellowing of the whites of the eyes or skin 
-(jaundice), liver injury due to medication (see ‘Liver problems’ earlier in section 4) 
+(jaundice), liver injury due to medication (see  Liver problems  earlier in section 4) 
 * skin changes, including rash, dry skin, eczema, redness of the skin, itching, excessive sweating, 
 unusual skin growths, hair loss 
 * joint pain, back pain, bone pain, pain in extremities (arms, legs, hands or feet), muscle spasms 
@@ -618,156 +622,4 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store revolade"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store revolade"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the blister. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Revolade contains 
-The active substance in Revolade is eltrombopag. </p>
-<p>12.5 mg film-coated tablets 
-Each film-coated tablet contains eltrombopag olamine equivalent to 12.5 mg eltrombopag. </p>
-<p>25 mg film-coated tablets 
-Each film-coated tablet contains eltrombopag olamine equivalent to 25 mg eltrombopag. </p>
-<p>50 mg film-coated tablets 
-Each film-coated tablet contains eltrombopag olamine equivalent to 50 mg eltrombopag. </p>
-<p>75 mg film-coated tablets 
-Each film-coated tablet contains eltrombopag olamine equivalent to 75 mg eltrombopag. </p>
-<p>The other ingredients are: hypromellose, macrogol 400, magnesium stearate, mannitol (E421), 
-microcrystalline cellulose, povidone, sodium starch glycolate, titanium dioxide (E171). </p>
-<p>Revolade 12.5 mg and 25 mg film-coated tablets also contain polysorbate 80 (E433). </p>
-<p>Revolade 50 mg film-coated tablets also contain iron oxide red (E172) and iron oxide yellow (E172). </p>
-<p>Revolade 75 mg film-coated tablets also contain iron oxide red (E172) and iron oxide black (E172). </p>
-<p>What Revolade looks like and contents of the pack 
-Revolade 12.5 mg film-coated tablets are round, biconvex, white, debossed with ‘GS MZ1’ and ‘12.5’ 
-on one side. </p>
-<p>Revolade 25 mg film-coated tablets are round, biconvex, white, debossed with ‘GS NX3’ and ‘25’ on 
-one side. </p>
-<p>Revolade 50 mg film-coated tablets are round, biconvex, brown, debossed with ‘GS UFU’ and ‘50’ on 
-one side. </p>
-<p>Revolade 75 mg film-coated tablets are round, biconvex, pink, debossed with ‘GS FFS’ and ‘75’ on 
-one side. </p>
-<p>They are supplied in aluminum blisters in a carton containing 14 or 28 film-coated tablets and 
-multipacks containg 84 (3 packs of 28) film-coated tablets). </p>
-<p>Not all pack sizes may be available in your country. </p>
-<p>Marketing authorisation holder 
-Novartis Europharm Limited 
-Vista Building 
-Elm Park, Merrion Road 
-Dublin 4 
-Ireland </p>
-<p>Manufacturer 
-Lek d.d 
-Verovskova Ulica Ljubljana 1Slovenia </p>
-<p>Novartis Pharmaceutical Manufacturing LLC 
-Verovskova Ulica Ljubljana 1Slovenia </p>
-<p>Novartis Farmacéutica SA 
-Gran Via de les Corts Catalanes, 08013 Barcelona 
-Spain </p>
-<p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
-Germany </p>
-<p>Glaxo Wellcome S.A. 
-Avenida de Extremadura 3 
-09400 Aranda de Duero 
-Burgos 
-Spain </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Lietuva 
-SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
-Luxembourg/Luxemburg 
-Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
-Novartis s.r.o. 
-Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
-Tel.: +36 1 457 65 Danmark 
-Novartis Healthcare A/S 
-Tlf: +45 39 16 84<br />
-Malta 
-Novartis Pharma Services Inc. 
-Tel: +356 2122 2Deutschland 
-Novartis Pharma GmbH 
-Tel: +49 911 273 0 </p>
-<p>Nederland 
-Novartis Pharma B.V. 
-Tel: +31 88 04 52 Eesti 
-SIA Novartis Baltics Eesti filiaal 
-Tel: +372 66 30<br />
-Norge 
-Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
-Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
-Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
-Tel: +34 93 306 42<br />
-Polska 
-Novartis Poland Sp. z o.o. 
-Tel.: +48 22 375 4France 
-Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
-Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
-Tel: +351 21 000 8Hrvatska 
-Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-România 
-Novartis Pharma Services Romania SRL 
-Tel: +40 21 31299 Ireland 
-Novartis Ireland Limited 
-Tel: +353 1 260 12<br />
-Slovenija 
-Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Novartis Slovakia s.r.o. 
-Tel: +421 2 5542 5 
-Italia 
-Novartis Farma S.p.A. 
-Tel: +39 02 96 54 1 
-Suomi/Finland 
-Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
-Sverige 
-Novartis Sverige AB 
-Tel: +46 8 732 32<br />
-Latvija 
-SIA Novartis Baltics 
-Tel: +371 67 887<br />
-United Kingdom (Northern Ireland) 
-Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

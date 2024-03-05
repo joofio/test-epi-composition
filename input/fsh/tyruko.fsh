@@ -4,7 +4,7 @@ Instance: composition-en-47051919a8e9d48444ba2eb642a73065
 InstanceOf: CompositionUvEpi
 Title: "Composition for tyruko Package Leaflet"
 Description:  "Composition for tyruko Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Tyruko is and what it is used for  
-2. What you need to know before you receive Tyruko 
+2. What you need to know before you receive  Tyruko 
 3. How Tyruko is given 
 4. Possible side effects  
 5. How to store Tyruko 
@@ -277,7 +277,7 @@ reactions during the infusion and for 1 hour afterwards. See also section 4, Pos
 If you miss your usual dose of Tyruko, arrange with your doctor to receive it as soon as you can. You 
 can then continue to receive your dose of Tyruko every 4 weeks. </p>
 <p>Will Tyruko always work? 
-In a few patients receiving Tyruko, the body’s natural defences may stop the medicine from working 
+In a few patients receiving Tyruko, the body s natural defences may stop the medicine from working 
 properly over time, as the body develops antibodies to the medicine. Your doctor can decide whether 
 this medicine is not working properly for you from blood tests and will stop the treatment, if 
 necessary. </p>
@@ -367,7 +367,7 @@ you feel breathless or lacking energy).
 * High levels of bilirubin in the blood (hyperbilirubinaemia) which may cause symptoms such as 
 yellowing of your eyes or skin, fever and tiredness </p>
 <p>Not known (frequency cannot be estimated from the available data) 
-* Unusual infections (so-called “opportunistic infections”) 
+* Unusual infections (so-called  opportunistic infections ) 
 * Damage to your liver </p>
 <p>Speak to your doctor as soon as possible if you think you have an infection. 
 You will also find this information in the patient alert card you have been given by your doctor. </p>
@@ -389,7 +389,7 @@ Store in a refrigerator. Do not freeze.
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Diluted solution: 
 After dilution, immediate use is recommended. If not used immediately, the diluted solution must be 
-stored at 2˚C to 8˚C and infused within 24 hours of dilution. </p>
+stored at 2 C to 8 C and infused within 24 hours of dilution. </p>
 <p>Do not use this medicine if you notice particles in the liquid and/or the liquid in the vial is discoloured. </p>         </div>"""      
         
         
@@ -403,7 +403,7 @@ The active substance is natalizumab. Each 15 mL vial of concentrate contains 300
 (20 mg/mL). When diluted, the solution for infusion contains approximately 2.6 mg per mL of 
 natalizumab. </p>
 <p>The other ingredients are: 
-Sodium chloride (see section 2 ‘Tyruko contains sodium’) 
+Sodium chloride (see section 2  Tyruko contains sodium ) 
 Histidine 
 Histidine monohydrochloride Polysorbate 80 (E 433) 
 water for injections </p>

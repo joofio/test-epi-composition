@@ -4,7 +4,7 @@ Instance: composition-en-8ff5d67e0b7de732bda1082340f24212
 InstanceOf: CompositionUvEpi
 Title: "Composition for sotyktu Package Leaflet"
 Description:  "Composition for sotyktu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,11 +73,11 @@ Usage: #example
 SOTYKTU contains the active substance deucravacitinib, which belongs to a group of medicines 
 called tyrosine kinase 2 (TYK2) inhibitors that help to reduce inflammation associated with psoriasis. </p>
 <p>What SOTYKTU is used for 
-SOTYKTU is used to treat adults with moderate to severe “plaque psoriasis”, an inflammatory 
+SOTYKTU is used to treat adults with moderate to severe  plaque psoriasis , an inflammatory 
 condition affecting the skin, which can cause red, scaly, thick, itchy, painful patches on your skin and 
 can also affect your scalp and nails, hands, and feet. </p>
 <p>How SOTYKTU works 
-SOTYKTU works by selectively blocking the activity of an enzyme called ‘TYK2’ (tyrosine kinase 2) 
+SOTYKTU works by selectively blocking the activity of an enzyme called  TYK2  (tyrosine kinase 2) 
 which is involved in the process of inflammation. By reducing the activity of this enzyme, SOTYKTU 
 can help to control the inflammation associated with plaque psoriasis and thereby reduce the signs 
 (skin dryness, cracking, scaling, shedding, or flaking, redness and bleeding) and can therefore help to 
@@ -131,7 +131,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>SOTYKTU contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sotyktu"
@@ -146,20 +146,26 @@ taken either with or without food. Do not crush, cut, or chew the tablets. </p>
 <p>If your condition has not improved after six months of treatment, talk to your doctor. </p>
 <p>If you take more SOTYKTU than you should 
 If you have taken more SOTYKTU than you should, talk to your doctor as soon as possible. You may 
-get some of the side effects listed in section 4.<br />
-If you forget to take SOTYKTU 
-If you forgot to take SOTYKTU, just take the normal dose the next day. Do not take a double dose to 
-make up for a forgotten tablet. </p>
-<p>If you stop taking SOTYKTU 
-Do not stop taking SOTYKTU without talking to your doctor first. If you stop treatment, symptoms of 
-psoriasis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+get some of the side effects listed in section </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take SOTYKTU 
+If you forgot to take SOTYKTU, just take the normal dose the next day. Do not take a double dose to 
+make up for a forgotten tablet. </p>
+<p>If you stop taking SOTYKTU 
+Do not stop taking SOTYKTU without talking to your doctor first. If you stop treatment, symptoms of 
+psoriasis may come back. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sotyktu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -179,147 +185,18 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store sotyktu"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sotyktu"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and carton after “EXP”. 
-The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not use this medicine if you notice the tablets are damaged or there are signs of tampering with the 
-medicine packaging. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What SOTYKTU contains 
-The active substance is deucravacitinib. Each film-coated tablet contains 6 mg of deucravacitinib. </p>
-<p>The other ingredients are 
-* tablet core: hypromellose acetate succinate, anhydrous lactose, microcrystalline cellulose, 
-croscarmellose sodium, colloidal hydrated silica and magnesium stearate. 
-* film-coating: polyvinyl alcohol, titanium dioxide (E171), macrogol, talc, iron oxide red (E172) 
-and iron oxide yellow (E172). </p>
-<p>What SOTYKTU looks like and contents of the pack 
-SOTYKTU is a pink, round, biconvex, film-coated tablet printed with “BMS 895”and “6 mg” on one 
-side, in two lines, plain on the other side. </p>
-<p>The film-coated tablets are provided in calendar or non-calendar blisters containing 7 or 14 tablets. 
-Each pack contains 7, 14, 28 or 84 film-coated tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Bristol-Myers Squibb Pharma EEIG 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland </p>
-<p>Manufacturer 
-Swords Laboratories Unlimited Company 
-T/A Bristol-Myers Squibb Pharmaceutical Operations 
-External Manufacturing 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing<br />
-Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
-N.V. Bristol-Myers Squibb Belgium S.A. 
-Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
-<p>Lietuva 
-Swixx Biopharma UAB 
-Tel: + 370 52 369medinfo.lithuania@swixxbiopharma.com </p>
-<p>България 
-Swixx Biopharma EOOD 
-Teл.: + 359 2 4942 medinfo.bulgaria@swixxbiopharma.com </p>
-<p>Luxembourg/Luxemburg 
-N.V. Bristol-Myers Squibb Belgium S.A. 
-Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
-<p>Česká republika 
-Bristol-Myers Squibb spol. s r.o. 
-Tel: + 420 221 016 medinfo.czech@bms.com </p>
-<p>Magyarország 
-Bristol-Myers Squibb Kft. 
-Tel.: + 36 1 301 9Medinfo.hungary@bms.com </p>
-<p>Danmark 
-Bristol-Myers Squibb Denmark 
-Tlf: + 45 45 93 05 medinfo.denmark@bms.com </p>
-<p>Malta 
-A.M. Mangion Ltd 
-Tel: + 356 23976pv@ammangion.com </p>
-<p>Deutschland 
-Bristol-Myers Squibb GmbH &amp; Co. KGaA 
-Tel: 0800 0752002 (+ 49 89 121 42 350) 
-medwiss.info@bms.com </p>
-<p>Nederland 
-Bristol-Myers Squibb B.V. 
-Tel: + 31 (0)30 300 2medischeafdeling@bms.com </p>
-<p>Eesti 
-Swixx Biopharma OÜ 
-Tel: + 372 640 1medinfo.estonia@swixxbiopharma.com </p>
-<p>Norge 
-Bristol-Myers Squibb Norway Ltd. 
-Tlf: + 47 67 55 53 medinfo.norway@bms.com </p>
-<p>Ελλάδα 
-Bristol-Myers Squibb A.E. 
-Τηλ: + 30 210 6074medinfo.greece@bms.com </p>
-<p>Österreich 
-Bristol-Myers Squibb GesmbH 
-Tel: + 43 1 60 14 medinfo.austria@bms.com </p>
-<p>España 
-Bristol-Myers Squibb, S.A. 
-Tel: + 34 91 456 53 informacion.medica@bms.com </p>
-<p>Polska 
-Bristol-Myers Squibb Polska Sp. z o.o. 
-Tel.: + 48 22 2606informacja.medyczna@bms.com </p>
-<p>France 
-Bristol-Myers Squibb SAS 
-Tél: + 33 (0)1 58 83 84 infomed@bms.com </p>
-<p>Portugal 
-Bristol-Myers Squibb Farmacêutica Portuguesa, 
-S.A. 
-Tel: + 351 21 440 70 portugal.medinfo@bms.com </p>
-<p>Hrvatska 
-Swixx Biopharma d.o.o. 
-Tel: + 385 1 2078 medinfo.croatia@swixxbiopharma.com </p>
-<p>România 
-Bristol-Myers Squibb Marketing Services S.R.L. 
-Tel: + 40 (0)21 272 16 medinfo.romania@bms.com </p>
-<p>Ireland 
-Bristol-Myers Squibb Pharmaceuticals uc 
-Tel: 1 800 749 749 (+ 353 (0)1 483 3625) 
-medical.information@bms.com </p>
-<p>Slovenija 
-Swixx Biopharma d.o.o. 
-Tel: + 386 1 2355 medinfo.slovenia@swixxbiopharma.com </p>
-<p>Ísland 
-Vistor hf. 
-Sími: + 354 535 7vistor@vistor.is 
-medical.information@bms.com </p>
-<p>Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel: + 421 2 20833 medinfo.slovakia@swixxbiopharma.com<br />
-Italia 
-Bristol-Myers Squibb S.r.l. 
-Tel: + 39 06 50 39 medicalinformation.italia@bms.com </p>
-<p>Suomi/Finland 
-Oy Bristol-Myers Squibb (Finland) Ab 
-Puh/Tel: + 358 9 251 21 medinfo.finland@bms.com </p>
-<p>Κύπρος 
-Bristol-Myers Squibb A.E. 
-Τηλ:  800 92666 (+ 30 210 6074300) 
-medinfo.greece@bms.com </p>
-<p>Sverige 
-Bristol-Myers Squibb Aktiebolag 
-Tel: + 46 8 704 71 medinfo.sweden@bms.com </p>
-<p>Latvija 
-Swixx Biopharma SIA 
-Tel: + 371 66164medinfo.latvia@swixxbiopharma.com </p>
-<p>United Kingdom (Northern Ireland) 
-Bristol-Myers Squibb Pharmaceutical Limited 
-Tel: +44 (0)800 731 1medical.information@bms.com </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not use this medicine if you notice the tablets are damaged or there are signs of tampering with the 
+medicine packaging. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: CompositionUvEpi
 Title: "Composition for camzyos Package Leaflet"
 Description:  "Composition for camzyos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -99,14 +99,16 @@ body. As a result, it may improve your symptoms and your ability to be active. <
 * you are allergic to mavacamten or any of the other ingredients of this medicine (listed in 
 section 6). 
 * you are pregnant or a woman of childbearing potential not using effective contraception. 
-* if you are taking medicines which may increase the level of CAMZYOS in your blood such as: 
-- oral medicines to treat fungal infections such as itraconazole, ketoconazole, 
-posaconazole, voriconazole, 
-- certain medicines to treat bacterial infections such as the antibiotics clarithromycin, 
-- certain medicines to treat HIV infection such as cobicistat, ritonavir, 
-- certain medicines to treat cancer such as ceritinib, idelalisib, tucatinib. 
+* if you are taking medicines which may increase the level of CAMZYOS in your blood such as:</p>
+<ul>
+<li>oral medicines to treat fungal infections such as itraconazole, ketoconazole, 
+posaconazole, voriconazole, </li>
+<li>certain medicines to treat bacterial infections such as the antibiotics clarithromycin, </li>
+<li>certain medicines to treat HIV infection such as cobicistat, ritonavir, </li>
+<li>certain medicines to treat cancer such as ceritinib, idelalisib, tucatinib. 
 Ask your doctor if the medicine you are taking prevents you from taking mavacamten. See section 
-“Other medicines and CAMZYOS” </p>
+ Other medicines and CAMZYOS  </li>
+</ul>
 <p>Warnings and precautions </p>
 <p>Routine tests 
 Your doctor will assess how well your heart is working (your heart function) using an echocardiogram 
@@ -119,27 +121,29 @@ starting treatment with CAMZYOS.
 Your doctor may do a test to check how this medicine is broken down (metabolised) in your body as 
 this may be used to guide your CAMZYOS treatment (see section 3). </p>
 <p>Tell your doctor or pharmacist straight away: 
-* if you get any of these symptoms during your treatment with CAMZYOS: 
-- new or worsening shortness of breath, 
-- chest pain, 
-- tiredness, 
-- palpitations (a forceful heartbeat that may be rapid or irregular), or 
-- leg swelling. 
+* if you get any of these symptoms during your treatment with CAMZYOS:</p>
+<ul>
+<li>new or worsening shortness of breath, </li>
+<li>chest pain, </li>
+<li>tiredness, </li>
+<li>palpitations (a forceful heartbeat that may be rapid or irregular), or </li>
+<li>leg swelling. 
 These could be signs and symptoms of systolic dysfunction, a condition where the heart cannot 
-pump with enough force, which can be life-threatening and lead to heart failure. 
-* if you develop a serious infection or irregular heart beat (arrhythmia) as this could increase your 
+pump with enough force, which can be life-threatening and lead to heart failure. </li>
+<li>if you develop a serious infection or irregular heart beat (arrhythmia) as this could increase your 
 risk of developing heart failure. 
 Your doctor may need to do additional tests of your heart function, interrupt the treatment or change 
-your dose, depending on how you feel. </p>
+your dose, depending on how you feel. </li>
+</ul>
 <p>Women of childbearing potential 
 If used during pregnancy, CAMZYOS can harm the unborn baby. Before you start treatment with 
 CAMZYOS your doctor will explain the risk to you and ask you to do a pregnancy test in order to 
 ensure that you are not pregnant. Your doctor will give you a card which explains why you should not 
 become pregnant while taking CAMZYOS. It also explains what you should do to avoid becoming 
 pregnant while you are taking CAMZYOS. You must use effective contraception during treatment and 
-for 6 months after stopping treatment (see section “Pregnancy and breastfeeding”). 
+for 6 months after stopping treatment (see section  Pregnancy and breastfeeding ). 
 If you do become pregnant while taking CAMZYOS, tell your doctor straight away. Your doctor will 
-stop treatment (see “If you stop taking CAMZYOS” in section 3). </p>
+stop treatment (see  If you stop taking CAMZYOS  in section 3). </p>
 <p>Children and adolescents 
 Do not give this medicine to children (aged below 18 years) because the effectiveness and safety of 
 CAMZYOS have not been studied in children and adolescents. </p>
@@ -163,7 +167,7 @@ posaconazole and voriconazole)
 to treat certain types of cancer) 
 * medicines for fits (seizures) or epilepsy (such as carbamazepine and phenytoin, phenobarbital, 
 primidone) 
-* St. John’s wort (a herbal medicine for depression) 
+* St. John s wort (a herbal medicine for depression) 
 * medicines that affect your heart (such as beta blockers and calcium channel blockers e.g. 
 verapamil and diltiazem) 
 * medicines that make your heart more resistant to abnormal activity (such as sodium channel 
@@ -201,7 +205,7 @@ Mavacamten may have a small effect on your ability to drive and use machines. If
 while taking this medicine, do not drive a vehicle, cycle or use any tools or machines. </p>
 <p>CAMZYOS contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per capsule, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take camzyos"
@@ -288,11 +292,12 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CAMZYOS contains 
 * The active substance(s) is mavacamten. Each hard capsule contains either 2.5 mg, 5 mg, 10 mg 
 or 15 mg of mavacamten. 
-* The other ingredients are: 
-- capsule content: silica, colloidal hydrated, mannitol (E421), hypromellose (E464), 
-croscarmellose sodium (E468, see section 2 “CAMZYOS contains sodium”), magnesium 
-stearate 
-- capsule shell: 
+* The other ingredients are:</p>
+<ul>
+<li>capsule content: silica, colloidal hydrated, mannitol (E421), hypromellose (E464), 
+croscarmellose sodium (E468, see section 2  CAMZYOS contains sodium ), magnesium 
+stearate </li>
+<li>capsule shell: 
 CAMZYOS 2.5 mg hard capsules 
 gelatin, titanium dioxide (E171), iron oxide black (E172), iron oxide red (E172) 
 CAMZYOS 5 mg hard capsules 
@@ -300,21 +305,22 @@ gelatin, titanium dioxide (E171), iron oxide yellow (E172)
 CAMZYOS 10 mg hard capsules 
 gelatin, titanium dioxide (E171), iron oxide red (E172) 
 CAMZYOS 15 mg hard capsules 
-gelatin, titanium dioxide (E171), iron oxide black (E172) 
-- printing ink: iron oxide black (E172), shellac (E904), propylene glycol (E1520), ammonia 
-solution, concentrated (E527), potassium hydroxide (E525). </p>
+gelatin, titanium dioxide (E171), iron oxide black (E172) </li>
+<li>printing ink: iron oxide black (E172), shellac (E904), propylene glycol (E1520), ammonia 
+solution, concentrated (E527), potassium hydroxide (E525). </li>
+</ul>
 <p>What CAMZYOS looks like and contents of the pack 
 * The CAMZYOS 2.5 mg, approximately 18.0 mm in length, hard capsules (capsules) have a 
-light purple opaque cap and white opaque body imprinted in black ink with “2.5 mg” on the cap 
-and “Mava” on the body. 
+light purple opaque cap and white opaque body imprinted in black ink with  2.5 mg  on the cap 
+and  Mava  on the body. 
 * The CAMZYOS 5 mg, approximately 18.0 mm in length, hard capsules (capsules) have a 
-yellow opaque cap and white opaque body imprinted in black ink with “5 mg” on the cap and 
-“Mava” on the body. 
+yellow opaque cap and white opaque body imprinted in black ink with  5 mg  on the cap and 
+ Mava  on the body. 
 * The CAMZYOS 10 mg, approximately 18.0 mm in length, hard capsules (capsules) have a pink 
-opaque cap and white opaque body imprinted in black ink with “10 mg” on the cap and “Mava” 
+opaque cap and white opaque body imprinted in black ink with  10 mg  on the cap and  Mava<br />
 on the body. 
 * The CAMZYOS 15 mg, approximately 18.0 mm in length, hard capsules (capsules) have a grey 
-opaque cap and white opaque body imprinted in black ink with “15 mg” on the cap and “Mava” 
+opaque cap and white opaque body imprinted in black ink with  15 mg  on the cap and  Mava<br />
 on the body. </p>
 <p>The hard capsules are packaged in aluminium foil blisters containing 14 hard capsules. </p>
 <p>Each pack contains either 14, 28 or 98 hard capsules. Not all pack sizes may be marketed. </p>

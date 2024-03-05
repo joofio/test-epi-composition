@@ -4,7 +4,7 @@ Instance: composition-en-df6c7db31dd11bfbd41b9384e5297ec4
 InstanceOf: CompositionUvEpi
 Title: "Composition for tachosil Package Leaflet"
 Description:  "Composition for tachosil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -120,8 +120,7 @@ Tell your doctor if you are taking, have recently taken or might take any other 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take tachosil"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to use TachoSil </p>
-<p>The doctor treating you will apply TachoSil during surgery. The quantity of TachoSil used depends on 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor treating you will apply TachoSil during surgery. The quantity of TachoSil used depends on 
 the size of the wound. The doctor will place TachoSil on the internal organ to stop the bleeding or to 
 seal the tissue. During the following time TachoSil will dissolve and disappear. </p>         </div>"""         
 
@@ -131,8 +130,7 @@ seal the tissue. During the following time TachoSil will dissolve and disappear.
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>TachoSil is made of protein-containing components. The active components are made from human 
 blood. All medicines based on human blood may uncommonly cause allergic reactions. In isolated 
 cases these allergic reactions may progress to anaphylactic shock. 
@@ -155,11 +153,10 @@ By reporting side effects, you can help provide more information on the safety o
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store tachosil"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to store TachoSil </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label after “EXP”. The expiry date 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label after  EXP . The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 25 °C. </p>
+<p>Do not store above 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -169,8 +166,7 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What TachoSil contains </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What TachoSil contains </p>
 <ul>
 <li>The active substances are human fibrinogen (5.5 mg per cm2) and human thrombin (2.0 IU per 
 cm2). </li>
@@ -189,7 +185,7 @@ Package with 1 pre-rolled matrix of 4.8 cm x 4.8 cm </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder  </p>
 <p>Corza Medical GmbH 
-Speditionstraße 40221 Düsseldorf 
+Speditionstra e 40221 D sseldorf 
 Germany </p>
 <p>Manufacturer </p>
 <p>Takeda Austria GmbH<br />

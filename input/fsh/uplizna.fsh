@@ -4,7 +4,7 @@ Instance: composition-en-664d393693f4983d6c9e5af3f5904561
 InstanceOf: CompositionUvEpi
 Title: "Composition for uplizna Package Leaflet"
 Description:  "Composition for uplizna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uplizna contains the active substance inebilizumab and belongs to a class of medicines called 
 monoclonal antibodies. It is a protein that targets antibody-producing cells in the immune system (the 
-body’s natural defences) called B-cells. 
+body s natural defences) called B-cells. 
 Uplizna is used to reduce the risk of attacks in adults with a rare condition called neuromyelitis optic 
 spectrum disorder (NMOSD), which affects the nerves of the eye and spinal cord. The condition is 
 thought to be due to the immune system mistakenly attacking the nerves in the body. Uplizna is given 
@@ -97,14 +97,18 @@ serious brain infection caused by a virus. </li>
 <li>if you have cancer. </li>
 </ul>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist, or nurse before you are given Uplizna if you: 
-- have or think you have an infection. 
-- have ever taken, take, or plan to take medicines that affect your immune system, or other 
-treatments for NMOSD. These medicines could increase your risk of getting an infection. 
-- have ever had hepatitis B or are a calirrier of the hepatitis B virus. </p>
+Talk to your doctor, pharmacist, or nurse before you are given Uplizna if you:</p>
 <ul>
-<li>have had a recent vaccination or are scheduled to receive any vaccinations. You should receive 
-any required vaccines at least 4 weeks before you start treatment with Uplizna. </li>
+<li>have or think you have an infection. </li>
+<li>have ever taken, take, or plan to take medicines that affect your immune system, or other 
+treatments for NMOSD. These medicines could increase your risk of getting an infection. </li>
+<li>
+<p>have ever had hepatitis B or are a calirrier of the hepatitis B virus. </p>
+</li>
+<li>
+<p>have had a recent vaccination or are scheduled to receive any vaccinations. You should receive 
+any required vaccines at least 4 weeks before you start treatment with Uplizna. </p>
+</li>
 </ul>
 <p>Infusion-related reactions 
 Uplizna can cause infusion-related reactions, which can include headache, feeling sick (nausea), 
@@ -201,9 +205,9 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store uplizna"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.<br />
-Do not use this medicine after the expiry date, which is stated on the carton after “EXP”. The expiry 
+Do not use this medicine after the expiry date, which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. 
-Store in a refrigerator at 2°C to 8°C. </p>
+Store in a refrigerator at 2 C to 8 C. </p>
 <p>Store in the original carton to protect from light. 
 Do not freeze. 
 Do not use this medicine if you notice particulate matter and discoloration. </p>         </div>"""      
@@ -226,7 +230,7 @@ sodium chloride, trehalose dihydrate, and water for injections. </li>
 slightly yellow solution supplied as one carton containing 3 vials.  </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Horizon Therapeutics Ireland DAC 
-70 St. Stephen’s Green 
+70 St. Stephen s Green 
 Dublin 2 
 D02 E2X4 
 Ireland </p>

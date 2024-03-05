@@ -4,7 +4,7 @@ Instance: composition-en-da0c248904d382a9eb3bce64c5a02953
 InstanceOf: CompositionUvEpi
 Title: "Composition for veltassa Package Leaflet"
 Description:  "Composition for veltassa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ Usage: #example
 in their blood. </p>
 <p>Too much potassium in the blood can affect how nerves control muscles. This can lead to weakness or 
 even paralysis. High potassium levels can also result in an abnormal heartbeat, which can cause 
-serious effects on your or your child’s heart rhythm. </p>
+serious effects on your or your child s heart rhythm. </p>
 <p>This medicine works by attaching to potassium in the gut. This prevents potassium from entering the 
 bloodstream and lowers potassium levels in blood back to normal. </p>         </div>"""   
           
@@ -89,7 +89,7 @@ bloodstream and lowers potassium levels in blood back to normal. </p>         </
 (listed in section 6). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before using Veltassa if you or your child have: 
-* problems swallowing - If you cannot swallow this medication, it won’t work. 
+* problems swallowing - If you cannot swallow this medication, it won t work. 
 * severe stomach or bowel problems - This medicine may cause constipation or diarrhea in some 
 patients. 
 * had major surgery on your stomach or bowel - This medicine works while passing through the 
@@ -129,7 +129,7 @@ hereditary fructose intolerance (HFI), a rare genetic disorder in which a person
 fructose, talk to your doctor before using this medicine. Sorbitol may cause gastrointestinal discomfort 
 and mild laxative effect. </p>
 <p>Veltassa contains calcium<br />
-If your doctor has told you to limit calcium in your or your child’s diet, talk to your doctor before you 
+If your doctor has told you to limit calcium in your or your child s diet, talk to your doctor before you 
 use this medicine. Your doctor will check the calcium level during treatment with this medicine for at 
 least 1 month. </p>         </div>"""   
                     
@@ -142,7 +142,7 @@ least 1 month. </p>         </div>"""
 pharmacist if you are not sure. </p>
 <p>This medicine is administered once daily. The recommended starting dose of this medicine varies with 
 age. Multiple sachets may be used to achieve the desired dose. Your doctor may adjust the daily dose 
-depending on the potassium level in your or your child’s blood, up to a maximum dose of 25.2 g daily. </p>
+depending on the potassium level in your or your child s blood, up to a maximum dose of 25.2 g daily. </p>
 <p>Adults<br />
 Starting dose: 8.4 g patiromer (the content of one 8.4 g sachet) once daily. </p>
 <p>Adolescents aged 12 to 17 years 
@@ -172,7 +172,7 @@ you have taken all the powder. </p>
 following the same steps as described above: apple juice, cranberry juice, pineapple juice, orange 
 juice, grape juice, pear juice, apricot nectar, peach nectar, yoghurt, milk, thickener (for example: 
 cornstarch), apple sauce, vanilla and chocolate pudding.  </p>
-<p>When using such liquids and soft foods, follow your or your child’s dietary recommendations on 
+<p>When using such liquids and soft foods, follow your or your child s dietary recommendations on 
 potassium intake. Check with your doctor or pharmacist if you are not sure. </p>
 <p>You should drink only moderate amounts (less than 400 mL per day) of cranberry juice as it can affect 
 other medicines. </p>
@@ -184,14 +184,14 @@ above to prepare the suspension for oral administration. For doses up to 8.4 g p
 volume as described above. For doses above 8.4 g and up to16.8 g patiromer use a total volume of mL (12 tablespoons) and for doses above 16.8 g and up to 25.2 g patiromer use a total volume of mL (18 tablespoons). These volumes ensure that the suspension readily flows through the tubes.  </p>
 <p>Tubes made from polyurethane, silicone, and polyvinyl chloride may be used. The recommended 
 diameter of tubes is 2.17 mm (6.5 Fr) or larger. After administration of the suspension, the tube should 
-be flushed with water. Follow tube manufacturer’s instructions. </p>
+be flushed with water. Follow tube manufacturer s instructions. </p>
 <p>If you take more Veltassa than you should 
 Stop using this medicine and talk to your doctor or pharmacist immediately. </p>
 <p>If you forget to take Veltassa 
 If you or your child have missed a dose, take it as soon as possible on the same day. Do not take a 
 double dose to make up for a forgotten dose. If you miss more than one dose, contact your doctor. </p>
 <p>If you stop taking Veltassa 
-Do not stop using this medicine without your doctor’s approval, as the potassium blood level may 
+Do not stop using this medicine without your doctor s approval, as the potassium blood level may 
 increase. </p>         </div>"""         
 
         
@@ -225,10 +225,10 @@ of this medicine. </p>         </div>"""
   * code.text = "5. How to store veltassa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or sachet after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton or sachet after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2°C – 8°C). </p>
-<p>Once you have received this medicine, it can be stored below 25°C for up to 6 months. </p>
+<p>Store and transport refrigerated (2 C   8 C). </p>
+<p>Once you have received this medicine, it can be stored below 25 C for up to 6 months. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -254,15 +254,15 @@ cartons, each containing 30 sachets. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris La Défense Cedex 
+100 101 Terrasse Boieldieu 
+Tour Franklin La D fense 8 
+92042 Paris La D fense Cedex 
 France </p>
 <p>Manufacturer 
 Vifor France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris La Défense Cedex 
+100 101 Terrasse Boieldieu 
+Tour Franklin La D fense 8 
+92042 Paris La D fense Cedex 
 France </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

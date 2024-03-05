@@ -4,7 +4,7 @@ Instance: composition-en-db55bd922aa6d7007a8fefbeb8bc2264
 InstanceOf: CompositionUvEpi
 Title: "Composition for gavreto Package Leaflet"
 Description:  "Composition for gavreto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,8 +72,8 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Gavreto is </p>
 <p>Gavreto is a cancer medicine that contains the active substance pralsetinib. </p>
 <p>What Gavreto is used for </p>
-<p>Gavreto is used to treat adults with advanced stages of a form of lung cancer called ‘non-small cell 
-lung cancer’ (‘NSCLC’), that presents with a specific rearrangement in a gene called rearranged 
+<p>Gavreto is used to treat adults with advanced stages of a form of lung cancer called  non-small cell 
+lung cancer  ( NSCLC ), that presents with a specific rearrangement in a gene called rearranged 
 during transfection (RET) if you have not been previously treated with another RET inhibitor 
 medicine.  </p>
 <p>How Gavreto works </p>
@@ -129,7 +129,7 @@ being awakened.
 * abnormal ECG. Gavreto may result in abnormal ECGs. You will have an ECG taken before 
 and during your treatment with Gavreto. Tell your Doctor if you feel light-headed or experience 
 palpitations as it may be a symptom of abnormal ECG. </p>
-<p>Look out for this while you are taking Gavreto. See ‘Side effects’ in section 4 for more information. </p>
+<p>Look out for this while you are taking Gavreto. See  Side effects  in section 4 for more information. </p>
 <p>Children and adolescents </p>
 <p>Gavreto has not been studied in children or adolescents. Do not give this medicine to children or 
 adolescents under the age of 18 years. </p>
@@ -149,7 +149,7 @@ treat certain types of bacterial infection (antibiotics such as telithromycin)
 * medicines used to stop seizures or fits (anti-epileptics such as phenytoin, carbamazepine, or 
 phenobarbital) 
 * medicines used to treat tuberculosis (e.g. rifampicin, rifabutin) 
-* St. John’s Wort, a herbal medicine used to treat depression </p>
+* St. John s Wort, a herbal medicine used to treat depression </p>
 <p>Gavreto may affect the way some other medicines work, including: 
 * cyclosporine 
 * paclitaxel 
@@ -191,7 +191,7 @@ this happens, you should not drive or operate heavy machinery until your symptom
 your doctor about whether it is okay for you to drive or use machines. </p>
 <p>Gavreto contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per hard capsule, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gavreto"
@@ -282,7 +282,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label and outer carton 
-after ”EXP”. The expiry date refers to the last day of that month. </p>
+after  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original 
 package in order to protect from moisture. </p>
 <p>Do not use this medicine if you notice that the bottle is damaged or shows signs of tampering. </p>
@@ -298,21 +298,18 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Gavreto contains  </p>
 <ul>
 <li>The active substance is pralsetinib. Each hard capsule contains 100 mg of pralsetinib. </li>
-<li>The other ingredients are: 
-− 
-The capsule content contains: hypromellose, microcrystalline cellulose, pregelatinised 
-starch, sodium hydrogen carbonate, citric acid, and magnesium stearate (see section 2 
-“Gavreto contains sodium”). 
-− 
-The capsule shell contains: brilliant blue FCF (E133), hypromellose, and titanium dioxide 
-(E171). 
-− 
-The printing ink contains: shellac, propylene glycol (E1520), potassium hydroxide, and 
-titanium dioxide (E171). </li>
+<li>The other ingredients are: </li>
 </ul>
+<p>The capsule content contains: hypromellose, microcrystalline cellulose, pregelatinised 
+starch, sodium hydrogen carbonate, citric acid, and magnesium stearate (see section 2 
+ Gavreto contains sodium ). </p>
+<p>The capsule shell contains: brilliant blue FCF (E133), hypromellose, and titanium dioxide 
+(E171). </p>
+<p>The printing ink contains: shellac, propylene glycol (E1520), potassium hydroxide, and 
+titanium dioxide (E171). </p>
 <p>What Gavreto looks like and contents of the pack </p>
-<p>Gavreto 100 mg hard capsules are light blue, opaque hard capsules with “BLU-667” printed on the 
-capsule shell body and “100 mg” on the capsule shell cap in white ink. </p>
+<p>Gavreto 100 mg hard capsules are light blue, opaque hard capsules with  BLU-667  printed on the 
+capsule shell body and  100 mg  on the capsule shell cap in white ink. </p>
 <p>Gavreto is available in a plastic bottle with child-resistant closure containing 60, 90 or 120 hard 
 capsules and a desiccant sachet. Each carton contains one bottle. </p>
 <p>Keep the desiccant sachet in the bottle. The desiccant is a moisture absorbing material filled in a small 
@@ -330,22 +327,20 @@ Emil-Barell-Strasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 
 Danmark 
 Roche Pharmaceuticals A/S 
@@ -359,70 +354,20 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
 Tel: +43 (0) 1 27 
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81 00  </p>
 <p>Polska 
 Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18 88.<br />
-France 
-Roche 
-Tél: +33  (0)1 47 61 40<br />
-Portugal 
-Roche Farmacêutica Química, Lda 
-Tel: +351 - 21 425 70<br />
-Hrvatska 
-Roche d.o.o. 
-Tel: + 385 1 47 22<br />
-România 
-Roche România S.R.L. 
-Tel: +40 21 206 47<br />
-Ireland 
-Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Slovenija 
-Roche farmacevtska družba d.o.o. 
-Tel: +386 - 1 360 26<br />
-Ísland 
-Roche Pharmaceuticals A/S 
-c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
-Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
-Roche S.p.A. 
-Tel: +39 - 039 2Suomi/Finland 
-Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-Κύπρος 
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
-Sverige 
-Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
-Roche Latvija SIA 
-Tel: +371 - 6 7039 
-United Kingdom (Northern Ireland) 
-Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in. </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come about 
-this medicine.  </p>
-<p>The European Medicines Agency will review new information on this medicine at least every year and this 
-leaflet will be updated as necessary. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Tel: +48 - 22 345 18 8</p>         </div>"""      
 

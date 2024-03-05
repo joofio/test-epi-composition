@@ -4,7 +4,7 @@ Instance: composition-en-c6f251ac470345e2bc0f62b0b3ff2ff0
 InstanceOf: CompositionUvEpi
 Title: "Composition for mavenclad Package Leaflet"
 Description:  "Composition for mavenclad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -99,10 +99,12 @@ section 6). </p>
 <li>
 <p>if you have a weakened immune system due to medical conditions or because you are taking 
 other medicines that weaken your immune system or reduce the production of blood cells in 
-your bone marrow. These include: </p>
+your bone marrow. These include:</p>
 </li>
-<li>ciclosporin, cyclophosphamide and azathioprine (used to suppress the immune system, 
-for example after organ transplantation); </li>
+<li>
+<p>ciclosporin, cyclophosphamide and azathioprine (used to suppress the immune system, 
+for example after organ transplantation); </p>
+</li>
 <li>methotrexate (used to treat conditions such as psoriasis or rheumatoid arthritis); </li>
 <li>
 <p>long-term corticosteroids (used to reduce inflammation, for example in asthma). 
@@ -174,7 +176,7 @@ been investigated in this age group. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Do not start MAVENCLAD together with medicines that weaken your immune system or reduce the 
-production of blood cells by your bone marrow. These include: </p>
+production of blood cells by your bone marrow. These include:</p>
 <ul>
 <li>
 <p>ciclosporin, cyclophosphamide and azathioprine (used to suppress the immune system, for 
@@ -193,7 +195,7 @@ doctor. </p>
 <p>Do not take MAVENCLAD at the same time as any other medicine. Leave a gap of at least 
 3 hours between taking MAVENCLAD and other medicines taken by mouth. MAVENCLAD 
 contains hydroxypropylbetadex that may interact with other medicines in your stomach. </p>
-<p>Talk to your doctor, if you are or have been treated with: </p>
+<p>Talk to your doctor, if you are or have been treated with:</p>
 <ul>
 <li>
 <p>medicines which may affect your blood cells (for example carbamazepine, used to treat 
@@ -267,7 +269,85 @@ lymphocytes (a type of white blood cells) are in an acceptable range. If this is
 treatment will be delayed. </p>
 <p>Once you have completed the 2 treatment courses over 2 years, your doctor will continue to monitor 
 your health for another 2 years, in which you do not need to take the medicine. </p>
-<p>Dose </p>         </div>"""         
+<p>Dose </p>
+<ol>
+<li>You will be prescribed the correct number of tablets for each treatment week, based on your 
+body weight as shown in Table 2. 2. You will need one or more packs to provide the correct number of tablets. </li>
+<li>When you receive your supply of medicine, check that you have the correct number of tablets. </li>
+<li>In the left column of the table below find the row that fits your body weight (in kg), and then 
+check the number of tablets that should be in the pack(s) for the treatment week you will be 
+starting. </li>
+<li>If the number of tablets in your pack(s) is different from the number shown for your weight in 
+the table below, speak to your doctor.  </li>
+<li>Note that for some weight ranges the number of tablets may vary from one treatment week to 
+the next. </li>
+</ol>
+<p>Example: if you weigh 85 kg and are about to start treatment week 1, you will be given 8 tablets. </p>
+<p>Table 2 
+Your weight 
+Number of tablets to take 
+Year 1 treatment course 
+Year 2 treatment course 
+Treatment week 1 Treatment week 2 Treatment week 1 Treatment week 2 
+less than 40 kg 
+Your doctor will tell you the number of tablets to take 
+40 to less than 50 kg 
+4 
+4 
+4 
+4 
+50 to less than 60 kg 
+5 
+5 
+5 
+5 
+60 to less than 70 kg 
+6 
+6 
+6 
+6 
+70 to less than 80 kg 
+7 
+7 
+7 
+7 
+80 to less than 90 kg 
+8 
+7 
+8 
+7 
+90 to less than 100 kg 
+9 
+8 
+9 
+8 
+100 to less than 110 kg 
+9 
+9 
+110 kg and above </p>
+<p>How to take your medicine </p>
+<p>Take the tablet(s) at about the same time each day. Swallow them with water and without chewing. 
+You do not have to take the tablets at meal times. You can take them with meals or between meals. </p>
+<p>Read the 'Step-by-Step Guide' at the end of this package leaflet on how to handle the child-
+resistant package and how to take the tablets included in the pack. </p>
+<p>Important </p>
+<ul>
+<li>Ensure your hands are dry before picking up your tablet(s). </li>
+<li>Push your tablet(s) through the blister and swallow immediately. </li>
+<li>Do not leave your tablet(s) exposed on surfaces, for example on a table, or handle the tablet 
+longer than necessary. </li>
+<li>If a tablet is left on a surface or if it breaks and fragments fall from the blister, the area must be 
+thoroughly washed. </li>
+<li>Thoroughly wash your hands after handling the tablets. </li>
+<li>If you lose a tablet, contact your doctor for advice. </li>
+</ul>
+<p>Duration of a treatment week </p>
+<p>Depending on the total number of tablets you have been prescribed, you have to take them over 4 or 
+5 days, in each treatment week. 
+Table 3 shows how many tablets (1 or 2 tablets) you have to take on each day. If your daily dose is 
+2 tablets, take them at the same time. </p>
+<p>Example: if you have to take 8 tablets, you would take 2 tablets on Day 1, Day 2, Day 3, then 1 tablet 
+on Day 4 and Day </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -275,18 +355,111 @@ your health for another 2 years, in which you do not need to take the medicine. 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>body weight as shown in Table 2. 2. You will need one or more packs to provide the correct number of tablets. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Table 3 
+Total number of tablets<br />
+per treatment week 
+Day 1 
+Day 2 
+Day 3 
+Day 4 
+Day 5 
+4 
+1 
+1 
+1 
+1 
+0 
+5 
+1 
+1 
+1 
+1 
+1 
+6 
+2 
+1 
+1 
+1 
+1 
+7 
+2 
+2 
+1 
+1 
+1 
+8 
+2 
+2 
+2 
+1 
+1 
+9 
+2 
+2 
+2 
+2 
+1 
+2 
+2 
+2 
+2 
+2 </p>
+<p>If you take more MAVENCLAD than you should </p>
+<p>If you have taken more tablets than you should, contact your doctor immediately. Your doctor will 
+decide if you need to stop treatment or not. </p>
+<p>There is limited experience with overdose of MAVENCLAD. It is known that the more medicine you 
+take the less lymphocytes may be present in your body, resulting in lymphopenia (see section 4). </p>
+<p>If you forget to take MAVENCLAD </p>
+<p>If you miss a dose and you remember on 
+the same day you were supposed to take it 
+If you miss a dose and do not remember it until 
+the following day 
+Take the missed dose on that day. 
+Do not take the missed dose along with the next 
+scheduled dose. 
+Take the missed dose on the next day and extend the 
+number of days in that treatment week. </p>
+<p>Example: If you forget to take the Day 3 dose and do not remember it until Day 4, take the Day 3 dose 
+on Day 4, and extend the total number of days in the treatment week by 1 day. If you miss 
+2 consecutive doses (for example both Day 3 and Day 4 doses), take the missed doses for the next 
+2 days, and then extend the treatment week by 2 days. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mavenclad"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store mavenclad"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>In the left column of the table below find the row that fits your body weight (in kg), and then 
-check the number of tablets that should be in the pack(s) for the treatment week you will be 
-starting. </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Some side effects could be or could become serious </p>
+<p>Lymphopenia and shingles (may affect more than 1 in 10 people) </p>
+<p>The most important side effect is a reduction in the number of white blood cells called lymphocytes 
+(lymphopenia), which is very common and may be severe. Lymphopenia may increase the risk of 
+getting an infection. An infection commonly seen with MAVENCLAD is shingles. </p>
+<p>Tell your doctor immediately if you have symptoms of shingles such as a 'band' of severe pain and 
+blistering rash, typically on one side of the upper body or the face. Other symptoms may be headache, 
+burning, tingling, numbness or itchiness of the skin in the affected area, feeling generally unwell or 
+feverish in the early stages of infection. </p>
+<p>Shingles will need to be treated, and MAVENCLAD treatment may need to be stopped until the 
+infection is cleared. </p>
+<p>Liver problems (uncommon - may affect up to 1 in 100 people) </p>
+<p>Tell your doctor immediately if you have symptoms such as feeling sick (nausea), vomiting, 
+stomach pain, tiredness (fatigue), loss of appetite, yellow skin or eyes (jaundice) or dark urine. 
+MAVENCLAD treatment may need to be stopped or interrupted. </p>
+<p>Other possible side effects </p>
+<p>Common (may affect up to 1 in 10 people) 
+- cold sore (oral herpes) 
+- rash 
+- hair loss 
+- reduction in the number of certain white blood cells (neutrophils) 
+- allergic reactions, including itching, hives, rash and swelling of the lips, tongue or face </p>
+<p>Very rare (may affect up to 1 in 10,000 people) 
+- tuberculosis </p>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -294,5 +467,10 @@ starting. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>the table below, speak to your doctor.  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the cardboard wallet and the carton 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in the original package in order to protect from moisture. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

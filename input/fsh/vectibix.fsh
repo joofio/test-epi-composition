@@ -4,7 +4,7 @@ Instance: composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vectibix Package Leaflet"
 Description:  "Composition for vectibix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What vectibix is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix is used in the treatment of metastatic colorectal cancer (cancer of the bowel) for adult patients 
-with a certain type of tumour known as a “Wild-type RAS tumour”. Vectibix is used alone or in 
+with a certain type of tumour known as a  Wild-type RAS tumour . Vectibix is used alone or in 
 combination with other anti-cancer medicines. </p>
 <p>Vectibix contains the active substance panitumumab, which belongs to a group of medicines called 
 monoclonal antibodies. Monoclonal antibodies are proteins, which specifically recognise and attach 
@@ -120,14 +120,14 @@ from your body (become dehydrated) and this could damage your kidneys. </p>
 eye, inflammation of the front part of the eye (cornea) or ulcers involving the front part of the eye. </p>
 <p>If you develop acute or worsening redness and pain in the eye, increased eye watering, blurred vision 
 and/or sensitivity to light, please tell your doctor or nurse immediately as you may need urgent 
-treatment (see “Possible side effects” below). </p>
+treatment (see  Possible side effects  below). </p>
 <p>Based on your age (older than 65 years) or general health, your doctor will discuss with you your 
 ability to tolerate taking Vectibix with your chemotherapy treatment. </p>
 <p>Other medicines and Vectibix </p>
 <p>Please tell your doctor or pharmacist if you are taking or have recently taken any other medicines, 
 including medicines obtained without a prescription and herbal medicines. </p>
 <p>Vectibix should not be used in combination with bevacizumab (another monoclonal antibody used in 
-cancer of the bowel) or with a chemotherapy combination known as “IFL”. </p>
+cancer of the bowel) or with a chemotherapy combination known as  IFL . </p>
 <p>Pregnancy and breast-feeding </p>
 <p>Vectibix has not been tested in pregnant women. It is important to tell your doctor if you are pregnant; 
 think you may be pregnant; or plan to get pregnant. Vectibix could affect your unborn baby or ability 
@@ -175,7 +175,7 @@ you experience any of these symptoms, you should notify your doctor immediately.
 decide to reduce the rate of your infusion or discontinue your treatment with Vectibix. </p>
 <p>Allergic reactions </p>
 <p>Very rarely, serious allergic (hypersensitivity) reactions involving symptoms similar to an infusion 
-reaction (see “Infusion reactions”) have occurred more than 24 hours after treatment and resulted in a 
+reaction (see  Infusion reactions ) have occurred more than 24 hours after treatment and resulted in a 
 fatal outcome. Seek medical attention immediately if you experience symptoms of an allergic reaction 
 to Vectibix, including but not limited to difficulty breathing, chest tightness, a sensation of choking, 
 dizziness, or fainting. </p>
@@ -186,8 +186,8 @@ upper chest and back, but can affect any area of the body. Some rashes have been
 redness, itching and flaking of the skin which can become severe. In some cases, it may cause infected 
 sores requiring medical and/or surgical treatment, or cause severe skin infections that in rare cases 
 could be fatal. In rare cases patients may experience blistering of the skin, mouth, eyes and genitals, 
-which may indicate a severe skin reaction called “Stevens-Johnson syndrome” or blistering of the 
-skin, which may indicate a severe skin reaction called “toxic epidermal necrolysis”. If you experience 
+which may indicate a severe skin reaction called  Stevens-Johnson syndrome  or blistering of the 
+skin, which may indicate a severe skin reaction called  toxic epidermal necrolysis . If you experience 
 blistering, you should notify your doctor immediately. Prolonged exposure to the sun can make the 
 rash worse. Also, dry skin, fissures (cracks in the skin) on the fingers or toes, fingernail bed or toenail 
 bed infection (paronychia) or inflammation has been reported. Once treatment is withheld or 
@@ -252,7 +252,7 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix will be stored in the healthcare facility where it is used. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
+<p>Store in a refrigerator (2 C   8 C). 
 Do not freeze. 
 Store in the original carton in order to protect from light. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
@@ -271,7 +271,7 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>Each mL of concentrate contains 20 mg panitumumab. Each vial contains either 100 mg of 
 panitumumab in 5 mL, or 400 mg of panitumumab in 20 mL. </li>
 <li>The other ingredients are sodium chloride, sodium acetate trihydrate, acetic acid (glacial) and 
-water for injections. See section 2 “Vectibix contains sodium”. </li>
+water for injections. See section 2  Vectibix contains sodium . </li>
 </ul>
 <p>What Vectibix looks like and contents of the pack </p>
 <p>Vectibix is a colourless liquid that may contain visible particles and is supplied in a glass vial. Each 
@@ -297,22 +297,20 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
+Tel/T l: +32 (0)2 7752 
 Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+Tel: +370 5 219 7 </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
+Tel/T l: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
 Tel: +420 221 773<br />
-Magyarország 
+Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44<br />
 Danmark 
@@ -333,14 +331,13 @@ Amgen Switzerland AG Vilniaus filialas
 Tel: +372 586 09 
 Norge 
 Amgen AB 
-Tel: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ.: +30 210 3447 
-Österreich 
+Tel: +47 23308 </p>
+<p>Amgen      . . . 
+ .: +30 210 3447 
+ sterreich 
 Amgen GmbH 
 Tel: +43 (0)1 50<br />
-España 
+Espa a 
 Amgen S.A. 
 Tel: +34 93 600 18<br />
 Polska 
@@ -348,15 +345,15 @@ Amgen Biotechnologia Sp. z o.o.
 Tel.: +48 22 581 3 
 France 
 Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
+T l: +33 (0)9 69 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 4220 
 Hrvatska 
 Amgen d.o.o. 
 Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
+Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
@@ -364,10 +361,10 @@ Tel: +353 1 8527
 Slovenija 
 AMGEN zdravila d.o.o. 
 Tel: +386 (0)1 585 1 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114<br />
 Italia 
@@ -377,14 +374,14 @@ Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ.: +357 22741<br />
+ .: +357 22741<br />
 Sverige 
 Amgen AB 
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 

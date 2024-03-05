@@ -4,7 +4,7 @@ Instance: composition-en-7b06c05fd92836401373297097be0166
 InstanceOf: CompositionUvEpi
 Title: "Composition for idacio Package Leaflet"
 Description:  "Composition for idacio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,24 +71,24 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What idacio is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Idacio contains the active substance adalimumab, a medicine that acts on your body’s immune 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Idacio contains the active substance adalimumab, a medicine that acts on your body s immune 
 (defence) system.  </p>
 <p>Idacio is intended for the treatment of the following inflammatory diseases: 
-• rheumatoid arthritis, 
-• polyarticular juvenile idiopathic arthritis,<br />
-• enthesitis-related arthritis,<br />
-• ankylosing spondylitis,<br />
-• axial spondyloarthritis without radiographic evidence of ankylosing spondylitis,<br />
-• psoriatic arthritis,<br />
-• psoriasis,<br />
-• hidradenitis suppurativa,<br />
-• Crohn’s disease,<br />
-• ulcerative colitis and<br />
-• non-infectious uveitis  </p>
+  rheumatoid arthritis, 
+  polyarticular juvenile idiopathic arthritis,<br />
+  enthesitis-related arthritis,<br />
+  ankylosing spondylitis,<br />
+  axial spondyloarthritis without radiographic evidence of ankylosing spondylitis,<br />
+  psoriatic arthritis,<br />
+  psoriasis,<br />
+  hidradenitis suppurativa,<br />
+  Crohn s disease,<br />
+  ulcerative colitis and<br />
+  non-infectious uveitis  </p>
 <p>The active substance in Idacio, adalimumab, is a monoclonal antibody. Monoclonal antibodies are 
 proteins that attach to a specific target in the body.   </p>
-<p>The target of adalimumab is another protein called tumour necrosis factor (TNFα), which is present at 
-increased levels in the inflammatory diseases listed above. By attaching to TNFα, Idacio blocks its 
+<p>The target of adalimumab is another protein called tumour necrosis factor (TNF ), which is present at 
+increased levels in the inflammatory diseases listed above. By attaching to TNF , Idacio blocks its 
 action and reduces the inflammation in these diseases. </p>
 <p>Rheumatoid arthritis </p>
 <p>Rheumatoid arthritis is an inflammatory disease of the joints. </p>
@@ -125,7 +125,7 @@ bone of the joints caused by the disease and improve physical function. </p>
 <p>Plaque psoriasis is an inflammatory skin condition that causes red, flaky, crusty patches of skin 
 covered with silvery scales. Plaque psoriasis can also affect the nails, causing them to crumble, 
 become thickened and lift away from the nail bed which can be painful. Psoriasis is believed to be 
-caused by a problem with the body’s immune system that leads to an increased production of skin 
+caused by a problem with the body s immune system that leads to an increased production of skin 
 cells. </p>
 <p>Idacio is used to treat moderate to severe plaque psoriasis in adults. Idacio is also used to treat severe 
 plaque psoriasis in children and adolescents adolescents aged 4 to 17 years for whom medicines 
@@ -139,11 +139,11 @@ armpits, inner thighs, groin and buttocks. Scarring may also occur in affected a
 can reduce the number of nodules and abscesses you have, and the pain that is often associated with 
 the disease. You may first be given other medicines. If these medicines do not work well enough, you 
 will be given Idacio. </p>
-<p>Crohn’s disease in adults and children </p>
-<p>Crohn’s disease is an inflammatory disease of the gut. </p>
-<p>Idacio is used to treat Crohn’s disease in adults and children aged 6 to 17 years. If you have Crohn’s 
+<p>Crohn s disease in adults and children </p>
+<p>Crohn s disease is an inflammatory disease of the gut. </p>
+<p>Idacio is used to treat Crohn s disease in adults and children aged 6 to 17 years. If you have Crohn s 
 disease you will first be given other medicines. If you do not respond well enough to these medicines, 
-you will be given Idacio to reduce the signs and symptoms of your Crohn’s disease. </p>
+you will be given Idacio to reduce the signs and symptoms of your Crohn s disease. </p>
 <p>Ulcerative colitis in adults and children </p>
 <p>Ulcerative colitis is an inflammatory disease of the large intestine. </p>
 <p>Idacio is used to treat moderate to severe ulcerative colitis in adults and children aged 6 to 17 years. If 
@@ -175,11 +175,11 @@ section 6). </p>
 <p>if you have a severe infection, including tuberculosis, sepsis (blood poisoning) or other 
 opportunistic infections (unusual infections associated with a weakened immune system). It is 
 important that you tell your doctor if you have symptoms of infections, e.g. fever, wounds, 
-feeling tired, dental problems (see “Warnings and precautions”). </p>
+feeling tired, dental problems (see  Warnings and precautions ). </p>
 </li>
 <li>
 <p>if you have moderate or severe heart failure. It is important to tell your doctor if you have had or 
-have a serious heart condition (see “Warnings and precautions”). </p>
+have a serious heart condition (see  Warnings and precautions ). </p>
 </li>
 </ul>
 <p>Warnings and precautions  </p>
@@ -284,7 +284,7 @@ treatment. </li>
 <ul>
 <li>
 <p>There have been very rare cases of certain kinds of cancer in children and adults taking 
-adalimumab or other TNFα blockers. People with more serious rheumatoid arthritis who have 
+adalimumab or other TNF  blockers. People with more serious rheumatoid arthritis who have 
 had the disease for a long time may have a higher than average risk of getting lymphoma  and 
 leukaemia (cancers that affect blood cells and bone marrow). If you take Idacio the risk of 
 getting lymphoma, leukaemia, or other cancers may increase. On rare occasions, a specific and 
@@ -299,11 +299,11 @@ or areas of damage change appearance, tell your doctor. </p>
 </li>
 <li>
 <p>There have been cases of cancers, other than lymphoma, in patients with a specific type of lung 
-disease called chronic obstructive pulmonary disease (COPD) treated with another TNFα </p>
+disease called chronic obstructive pulmonary disease (COPD) treated with another TNF  </p>
 </li>
 </ul>
 <p>blocker. If you have COPD, or are a heavy smoker, you should discuss with your doctor 
-whether treatment with a TNFα blocker is appropriate for you. </p>
+whether treatment with a TNF  blocker is appropriate for you. </p>
 <ul>
 <li>On rare occasions, treatment with Idacio could result in lupus-like syndrome. Contact your 
 doctor if symptoms such as persistent unexplained rash, fever, joint pain or tiredness occur. </li>
@@ -339,7 +339,7 @@ received adalimumab during pregnancy compared with mothers with the same disease
 receive adalimumab. </p>
 <p>Idacio can be used during breast-feeding. </p>
 <p>If you receive Idacio during your pregnancy, your baby may have a higher risk for getting an 
-infection. It is important that you tell your baby’s doctors and other health care professionals about 
+infection. It is important that you tell your baby s doctors and other health care professionals about 
 your Idacio use during your pregnancy before the baby receives any vaccine (for more information 
 see section on vaccination). </p>
 <p>Driving and using machines </p>
@@ -347,7 +347,7 @@ see section on vaccination). </p>
 sensation (vertigo) and vision disturbances may occur after taking Idacio. </p>
 <p>Idacio contains sodium </p>
 <p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.8 ml dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take idacio"
@@ -470,7 +470,7 @@ affected areas. </p>
 more 
 Initial dose of 80 mg (as two 
 40 mg injections in one day), 
-folloàwed by 40 mg every 
+follo wed by 40 mg every 
 other week starting one week 
 later. <br />
 If this dose does not work well 
@@ -481,7 +481,7 @@ every other week.
 It is recommended that you use 
 an antiseptic wash daily on the 
 affected areas. </p>
-<p>Crohn’s disease 
+<p>Crohn s disease 
 Age or body weight 
 How much and how often to 
 take? 
@@ -620,7 +620,7 @@ in combination with
 methotrexate. </p>
 <p>Method and route of administration </p>
 <p>Idacio is administered by injection under the skin (by subcutaneous injection). </p>
-<p>Detailed instructions on how to inject Idacio are provided in section 7 ‘Instructions for use’. </p>
+<p>Detailed instructions on how to inject Idacio are provided in section 7  Instructions for use . </p>
 <p>If you use more Idacio than you should </p>
 <p>If you accidentally inject Idacio more frequently than you should, call your doctor or pharmacist and 
 explain that you have taken more than required. Always take the outer carton of the medicine with 
@@ -761,7 +761,7 @@ joints and other organ systems); </li>
 * leukaemia (cancer affecting the blood and bone marrow); 
 * severe allergic reaction with shock; 
 * multiple sclerosis; 
-* nerve disorders (such as inflammation of the optic nerve to the eye, and Guillain-Barré 
+* nerve disorders (such as inflammation of the optic nerve to the eye, and Guillain-Barr<br />
 syndrome, a condition that may cause muscle weakness, abnormal sensations, tingling in the 
 arms and upper body); 
 * heart stops pumping; 
@@ -781,7 +781,7 @@ rash);
 <p>Not known (frequency cannot be estimated from available data)<br />
 * hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal); 
 * Merkel cell carcinoma (a type of skin cancer); 
-* Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s 
+* Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin; 
 * liver failure; 
 * worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
@@ -823,11 +823,11 @@ reporting side effects you can help provide more information on the safety of th
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label/carton after EXP. The expiry 
 date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
 <p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>Alternative Storage: </p>
 <p>When needed (for example when you are travelling), a single Idacio pre-filled syringe may be stored at 
-room temperature (up to 25°C) for a maximum period of 28 days – be sure to protect it from light. 
+room temperature (up to 25 C) for a maximum period of 28 days   be sure to protect it from light. 
 Once removed from the refrigerator for room temperature storage, your pre-filled syringe must be 
 used within 28 days or discarded, even if it is later returned to the refrigerator. </p>
 <p>You should record the date when the syringe is first removed from refrigerator, and the date after 
@@ -843,6 +843,29 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Idacio contains  </p>
 <ul>
-<li>The active substance is adalimumab. Each pre-filled syringe contains 40 mg of adalimumab in </li>
-</ul>         </div>"""      
+<li>The active substance is adalimumab. Each pre-filled syringe contains 40 mg of adalimumab in 
+0.8 ml of solution. </li>
+<li>The other ingredients are sodium dihydrogen phosphate dihydrate, disodium phosphate 
+dihydrate, mannitol, sodium chloride, citric acid monohydrate, sodium citrate, polysorbate 80, 
+sodium hydroxide and water for injections.  </li>
+</ul>
+<p>What Idacio looks like and contents of the pack </p>
+<p>Idacio 40 mg solution for injection (injection) in pre-filled syringe is supplied as a sterile 0.8 ml clear, 
+colourless solution of 40 mg adalimumab. </p>
+<p>The Idacio pre-filled syringe is supplied in a glass syringe with needle guard and finger flanges. Each 
+pack contains 2 or 6 pre-filled syringes, and 2 or 6 alcohol pads. </p>
+<p>Idacio is available as a vial, a pre-filled syringe and as a pre-filled pen. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Fresenius Kabi Deutschland GmbH 
+Else-Kr ner-Stra e 1 
+61352 Bad Homburg v.d.H he 
+Germany </p>
+<p>Manufacturer </p>
+<p>Fresenius Kabi Austria GmbH 
+Hafnerstra e 36,<br />
+8055 Graz 
+Austria </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

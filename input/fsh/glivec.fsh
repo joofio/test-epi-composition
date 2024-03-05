@@ -4,7 +4,7 @@ Instance: composition-en-27bef6838d192de0f1fa35f67b2e5233
 InstanceOf: CompositionUvEpi
 Title: "Composition for glivec Package Leaflet"
 Description:  "Composition for glivec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glivec is a medicine containing an active substance called imatinib. This medicine works by inhibiting 
 the growth of abnormal cells in the diseases listed below. These include some types of cancer. </p>
-<p>Glivec is a treatment for adults and children for: </p>
+<p>Glivec is a treatment for adults and children for:</p>
 <ul>
 <li>Chronic myeloid leukaemia (CML). Leukaemia is a cancer of white blood cells. These white 
 cells usually help the body to fight infection. Chronic myeloid leukaemia is a form of leukaemia 
@@ -82,7 +82,7 @@ infection. Acute lymphoblastic leukaemia is a form of leukaemia in which certain
 white cells (named lymphoblasts) start growing out of control. Glivec inhibits the growth of 
 these cells. </li>
 </ul>
-<p>Glivec is also a treatment for adults for: </p>
+<p>Glivec is also a treatment for adults for:</p>
 <ul>
 <li>Myelodysplastic/myeloproliferative diseases (MDS/MPD). These are a group of blood 
 diseases in which some blood cells start growing out of control. Glivec inhibits the growth of 
@@ -108,7 +108,7 @@ ask your doctor. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glivec will only be prescribed to you by a doctor with experience in medicines to treat blood cancers 
 or solid tumours. </p>
-<p>Follow all your doctor’s instructions carefully, even if they differ from the general information 
+<p>Follow all your doctor s instructions carefully, even if they differ from the general information 
 contained in this leaflet. </p>
 <p>Do not take Glivec 
 - if you are allergic to imatinib or any of the other ingredients of this medicine (listed in 
@@ -116,16 +116,18 @@ section 6).
 If this applies to you, tell your doctor without taking Glivec. </p>
 <p>If you think you may be allergic but are not sure, ask your doctor for advice. </p>
 <p>Warnings and precautions 
-Talk to your doctor before taking Glivec: 
-- if you have or have ever had a liver, kidney or heart problem. 
-- if you are taking the medicine levothyroxine because your thyroid has been removed. 
-- if you have ever had or might now have a hepatitis B infection. This is because Glivec could cause 
+Talk to your doctor before taking Glivec:</p>
+<ul>
+<li>if you have or have ever had a liver, kidney or heart problem. </li>
+<li>if you are taking the medicine levothyroxine because your thyroid has been removed. </li>
+<li>if you have ever had or might now have a hepatitis B infection. This is because Glivec could cause 
 hepatitis B to become active again, which can be fatal in some cases. Patients will be carefully 
-checked by their doctor for signs of this infection before treatment is started. 
-- if you experience bruising, bleeding, fever, fatigue and confusion when taking Glivec, contact 
+checked by their doctor for signs of this infection before treatment is started. </li>
+<li>if you experience bruising, bleeding, fever, fatigue and confusion when taking Glivec, contact 
 your doctor. This may be a sign of damage to blood vessels known as thrombotic microangiopathy 
 (TMA). 
-If any of these apply to you, tell your doctor before taking Glivec. </p>
+If any of these apply to you, tell your doctor before taking Glivec. </li>
+</ul>
 <p>You may become more sensitive to the sun while taking Glivec. It is important to cover sun-exposed 
 areas of skin and use sunscreen with high sun protection factor (SPF). These precautions are also 
 applicable to children. </p>
@@ -142,7 +144,7 @@ monitor the growth at regular visits. </p>
 <p>Other medicines and Glivec 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription (such as paracetamol) and including 
-herbal medicines (such as St. John’s Wort). Some medicines can interfere with the effect of Glivec 
+herbal medicines (such as St. John s Wort). Some medicines can interfere with the effect of Glivec 
 when taken together. They may increase or decrease the effect of Glivec, either leading to increased 
 side effects or making Glivec less effective. Glivec may do the same to some other medicines. </p>
 <p>Tell your doctor if you are using medicines that prevent the formation of blood clots. </p>
@@ -176,35 +178,31 @@ your doctor prescribed or you feel you do not need it anymore, contact your doct
 <p>How much Glivec to take </p>
 <p>Use in adults 
 Your doctor will tell you exactly how many capsules of Glivec to take. </p>
-<p>− 
-If you are being treated for CML: 
-Depending on your condition the usual starting dose is either 400 mg or 600 mg: 
-- 400 mg to be taken as 4 capsules once a day. 
-- 600 mg to be taken as 6 capsules once a day. </p>
-<p>− 
-If you are being treated for GIST: 
+<p>If you are being treated for CML: 
+Depending on your condition the usual starting dose is either 400 mg or 600 mg:</p>
+<ul>
+<li>400 mg to be taken as 4 capsules once a day. </li>
+<li>600 mg to be taken as 6 capsules once a day. </li>
+</ul>
+<p>If you are being treated for GIST: 
 The starting dose is 400 mg, to be taken as 4 capsules once a day. </p>
 <p>For CML and GIST, your doctor may prescribe a higher or lower dose depending on how you respond 
 to treatment. If your daily dose is 800 mg (8 capsules), you should take 4 capsules in the morning and 
 4 capsules in the evening. </p>
-<p>− 
-If you are being treated for Ph-positive ALL: 
+<p>If you are being treated for Ph-positive ALL: 
 The starting dose is 600 mg to be taken as 6 capsules once a day. </p>
-<p>− 
-If you are being treated for MDS/MPD: 
+<p>If you are being treated for MDS/MPD: 
 The starting dose is 400 mg, to be taken as 4 capsules once a day. </p>
-<p>− 
-If you are being treated for HES/CEL: 
+<p>If you are being treated for HES/CEL: 
 The starting dose is 100 mg, to be taken as one capsule once a day. Your doctor may decide to 
 increase the dose to 400 mg, to be taken as 4 capsules once a day, depending on how you 
 respond to treatment. </p>
-<p>− 
-If you are being treated for DFSP: 
+<p>If you are being treated for DFSP: 
 The dose is 800 mg per day (8 capsules), to be taken as 4 capsules in the morning and 
 4 capsules in the evening. </p>
 <p>Use in children and adolescents 
 The doctor will tell you how many capsules of Glivec to give to your child. The amount of Glivec 
-given will depend on your child’s condition, body weight and height. The total daily dose in children 
+given will depend on your child s condition, body weight and height. The total daily dose in children 
 must not exceed 800 mg with CML and 600 mg with Ph+ALL. The treatment can either be given to 
 your child as a once-daily dose or alternatively the daily dose can be split into two administrations 
 (half in the morning and half in the evening). </p>
@@ -264,7 +262,7 @@ blood cells).
 * Eye pain or deterioration in vision, bleeding in the eyes. 
 * Pain in bones or joints (signs of osteonecrosis). 
 * Blisters on skin or mucous membranes (signs of pemphigus). 
-* Numb or cold toes and fingers (signs of Raynaud’s syndrome). 
+* Numb or cold toes and fingers (signs of Raynaud s syndrome). 
 * Sudden swelling and redness of the skin (signs of a skin infection called cellulitis). 
 * Difficulty hearing. 
 * Muscle weakness and spasms with an abnormal heart rhythm (signs of changes in the amount of 
@@ -385,14 +383,16 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store glivec"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton after EXP. 
-* Do not store above 30°C. 
-* Store in the original package in order to protect from moisture. 
-* Do not use any pack that is damaged or shows signs of tampering. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton after EXP. </li>
+<li>Do not store above 30 C. </li>
+<li>Store in the original package in order to protect from moisture. </li>
+<li>Do not use any pack that is damaged or shows signs of tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -408,7 +408,7 @@ anhydrous colloidal silica. The capsule shell is composed of gelatin, red iron o
 yellow iron oxide (E172) and titanium dioxide (E171). The printing ink is composed of red iron 
 oxide (E172) and shellac. </p>
 <p>What Glivec looks like and contents of the pack 
-Glivec 100 mg capsules are orange to greyish-orange and marked “NVR SI”. They contain a white to 
+Glivec 100 mg capsules are orange to greyish-orange and marked  NVR SI . They contain a white to 
 yellow powder. </p>
 <p>They are supplied in packs containing 24, 48, 96, 120 or 180 capsules, but these may not all be 
 available in your country. </p>
@@ -428,23 +428,22 @@ Str. Livezeni nr. 7A
 Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -460,35 +459,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -496,10 +495,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

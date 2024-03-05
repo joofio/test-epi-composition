@@ -4,7 +4,7 @@ Instance: composition-en-8785831d8660f7dc500cb9e2633fcfc2
 InstanceOf: CompositionUvEpi
 Title: "Composition for beovu Package Leaflet"
 Description:  "Composition for beovu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ which may impact your vision. </p>
 Beovu is used to treat eye conditions in adults which occur when abnormal blood vessels form and 
 grow underneath the macula. The macula, which is at the back of the eye, is responsible for clear 
 vision. The abnormal blood vessels may leak fluid or blood into the eye and interfere with the 
-macula’s function, resulting in diseases which may cause decreased vision such as: 
+macula s function, resulting in diseases which may cause decreased vision such as: 
 * wet age-related macular degeneration (wet AMD) 
 * diabetic macular oedema (DME) </p>
 <p>How Beovu works 
@@ -93,37 +93,45 @@ into the macula </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take beovu"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Beovu: 
-- if you are allergic to brolucizumab or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you have an active or suspected infection in or around the eye. 
-- if you have pain or redness in your eye (eye inflammation). 
-If any of these applies to you, tell your doctor. You should not be given Beovu. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Beovu:</p>
+<ul>
+<li>if you are allergic to brolucizumab or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if you have an active or suspected infection in or around the eye. </li>
+<li>if you have pain or redness in your eye (eye inflammation). 
+If any of these applies to you, tell your doctor. You should not be given Beovu. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor before you are given Beovu if any of the following applies to you: 
-- if you have glaucoma (an eye condition usually caused by high pressure in the eye). 
-- if you have a history of seeing flashes of light or floaters (dark floating spots) and if you have a 
-sudden increase in the size and number of floaters. 
-- if you have had eye surgery in the last 4 weeks or if eye surgery is planned in the next four 
-weeks. 
-- if you have ever had any eye diseases or eye treatments. 
-- if you have a history of sudden vision loss due to blockage of blood vessels in the back of the 
+Talk to your doctor before you are given Beovu if any of the following applies to you:</p>
+<ul>
+<li>if you have glaucoma (an eye condition usually caused by high pressure in the eye). </li>
+<li>if you have a history of seeing flashes of light or floaters (dark floating spots) and if you have a 
+sudden increase in the size and number of floaters. </li>
+<li>if you have had eye surgery in the last 4 weeks or if eye surgery is planned in the next four 
+weeks. </li>
+<li>if you have ever had any eye diseases or eye treatments. </li>
+<li>if you have a history of sudden vision loss due to blockage of blood vessels in the back of the 
 eye (retinal vascular occlusion) or inflammation of blood vessels in the back of the eye (retinal 
-vasculitis) in the last year. </p>
-<p>Tell your doctor immediately if you: 
-- develop redness of the eye, eye pain, increased discomfort, worsening eye redness, blurred or 
+vasculitis) in the last year. </li>
+</ul>
+<p>Tell your doctor immediately if you:</p>
+<ul>
+<li>develop redness of the eye, eye pain, increased discomfort, worsening eye redness, blurred or 
 decreased vision, an increased number of small particles in your vision, increased sensitivity to 
-light. 
-- develop sudden vision loss, which could be a sign of retinal vascular occlusion. 
-Any of the above symptoms may result in your doctor discontinuing your treatment with Beovu. </p>
-<p>Furthermore it is important for you to know that: 
-- the safety and efficacy of Beovu when administered to both eyes at the same time has not been 
-studied and use in this way may lead to an increased risk of experiencing side effects. 
-- injections with Beovu may cause an increase in eye pressure (intraocular pressure) in some 
-patients within 30 minutes of the injection. Your doctor will monitor this after each injection. 
-- your doctor will check whether you have other risk factors that may increase the chance of a 
+light. </li>
+<li>develop sudden vision loss, which could be a sign of retinal vascular occlusion. 
+Any of the above symptoms may result in your doctor discontinuing your treatment with Beovu. </li>
+</ul>
+<p>Furthermore it is important for you to know that:</p>
+<ul>
+<li>the safety and efficacy of Beovu when administered to both eyes at the same time has not been 
+studied and use in this way may lead to an increased risk of experiencing side effects. </li>
+<li>injections with Beovu may cause an increase in eye pressure (intraocular pressure) in some 
+patients within 30 minutes of the injection. Your doctor will monitor this after each injection. </li>
+<li>your doctor will check whether you have other risk factors that may increase the chance of a 
 tear or detachment of one of the layers at the back of the eye (retinal detachment or tear, and 
-retinal pigment epithelial detachment or tear), in which case Beovu must be given with caution. </p>
+retinal pigment epithelial detachment or tear), in which case Beovu must be given with caution. </li>
+</ul>
 <p>The systemic use of VEGF inhibitors, substances similar to those contained in Beovu, is potentially 
 related to the risk of blood clots blocking blood vessels (arterial thromboembolic events), which may 
 lead to heart attack or stroke. There is a theoretical risk of such events following injection of Beovu 
@@ -145,7 +153,7 @@ After your injection with Beovu, you may have temporary vision problems (for exa
 vision). Do not drive or use machines as long as these last. </p>
 <p>Beovu contains sodium 
 The medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take beovu"
@@ -293,11 +301,11 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). </p>
+<p>Store in a refrigerator (2 C - 8 C). </p>
 <p>Do not freeze. </p>
 <p>Keep the pre-filled syringe in the sealed blister and in the outer carton in order to protect from light. </p>
 <p>Prior to use, the unopened blister with the pre-filled syringe may be kept at room temperature (below 
-25°C) for up to 24 hours. </p>         </div>"""      
+25 C) for up to 24 hours. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -326,27 +334,26 @@ S.A. ALCON-COUVREUR N.V.
 Rijksweg 2870 Puurs 
 Belgium </p>
 <p>Novartis Pharma GmbH 
-Roonstraße 90429 Nuremberg 
+Roonstra e 90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -362,35 +369,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -398,10 +405,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

@@ -4,7 +4,7 @@ Instance: composition-en-f8c80c0dde1cf12a2344c36d8be291f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fycompa Package Leaflet"
 Description:  "Composition for fycompa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Fycompa 
 4. Possible side effects 
 5. How to store Fycompa 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -74,12 +73,12 @@ anti epileptics. These medicines are used to treat epilepsy - where someone has 
 It has been given to you by your doctor to reduce the number of fits that you have. </p>
 <p>Fycompa is used in association with other antiepileptic drugs to treat certain forms of epilepsy:<br />
 In adults, adolescents (aged 12 years and older), and children (from 4 to 11 years) 
-- It is used to treat fits that affect one part of your brain (called a “partial seizure”). 
+- It is used to treat fits that affect one part of your brain (called a  partial seizure ). 
 - These partial seizures may or may not then be followed by a fit affecting all of your brain 
-(called a “secondary generalisation”). 
+(called a  secondary generalisation ). 
 In adults and adolescents (aged 12 years and older), and children (from 7 to 11 years) 
-- It is also used to treat certain fits that affect all of your brain from the start (called “generalised 
-seizures”) and cause convulsions or staring spells. </p>         </div>"""   
+- It is also used to treat certain fits that affect all of your brain from the start (called  generalised 
+seizures ) and cause convulsions or staring spells. </p>         </div>"""   
           
 
              
@@ -88,11 +87,13 @@ seizures”) and cause convulsions or staring spells. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take fycompa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT TAKE Fycompa: 
-- If you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores 
-after taking perampanel. 
-- If you are allergic to perampanel or any of the other ingredients of this medicine (listed in 
-section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT TAKE Fycompa:</p>
+<ul>
+<li>If you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores 
+after taking perampanel. </li>
+<li>If you are allergic to perampanel or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Fycompa if you have liver problems or moderate or 
 severe kidney problems. 
@@ -142,7 +143,7 @@ are taking or have recently taken this medicine as your dose may need to be adju
 and sleep problem) may be affected by Fycompa. Tell your doctor if you are taking midazolam 
 as your dose may need to be adjusted. 
 - Some other medicines such as rifampicin (a medicine used to treat bacterial infections), 
-hypericum (St. John’s Wort) (a medicine used to treat mild anxiety) and ketoconazole (a 
+hypericum (St. John s Wort) (a medicine used to treat mild anxiety) and ketoconazole (a 
 medicine used to treat fungal infections) may affect Fycompa. Tell your doctor if you are taking 
 or have recently taken these medicines as your dose may need to be adjusted. 
 - Hormonal contraceptives (including oral contraceptives, implants, injections, and patches) 
@@ -196,7 +197,7 @@ pharmacist if you are not sure. </p>
 - Your doctor may increase this in 2 mg steps to a maintenance dose between 4 mg and 12 mg - depending on your response. 
 - If you have mild or moderate liver problems, your dose should not be more than 8 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>The following table summarises the recommended doses in treating partial seizures in children 4 to 
 11 years of age and generalised seizures in children 7 to 11 years of age. More details are provided 
@@ -212,9 +213,9 @@ starting dose
 1 mg/day 
 Recommended 
 maintenance dose 
-4 – 8 mg/day 
-4 – 6 mg/day 
-2 – 4 mg/day 
+4   8 mg/day 
+4   6 mg/day 
+2   4 mg/day 
 Recommended 
 maximum dose 
 12 mg/day 
@@ -226,7 +227,7 @@ maximum dose
 dose may be increased to a maximum dose of 12 mg/day. 
 - If you have mild or moderate liver problems, your dose should not be more than 4 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>Children (from 4 to 11 years of age) weighing 20 kg and less than 30 kg in treating partial seizures: </p>
 <p>The usual starting dose is 1 mg once a day before you go to bed. 
@@ -234,7 +235,7 @@ the right dose of Fycompa for you. </p>
 dose may be increased to a maximum dose of 8 mg/day. 
 - If you have mild or moderate liver problems, your dose should not be more than 4 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>Children (from 4 to 11 years of age) weighing less than 20 kg in treating partial seizures: </p>
 <p>The usual starting dose is 1 mg once a day before you go to bed. 
@@ -242,7 +243,7 @@ the right dose of Fycompa for you. </p>
 dose may be increased to a maximum dose of 6 mg/day. 
 - If you have mild or moderate liver problems, your dose should not be more than 4 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>Children (from 7 to 11 years of age) weighing 30 kg or more in treating generalised seizures: </p>
 <p>The usual starting dose is 2 mg once a day before you go to bed. 
@@ -250,7 +251,7 @@ the right dose of Fycompa for you. </p>
 dose may be increased to a maximum dose of 12 mg/day. 
 - If you have mild or moderate liver problems, your dose should not be more than 4 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>Children (from 7 to 11 years of age) weighing 20 kg and less than 30 kg in treating generalised 
 seizures: </p>
@@ -259,7 +260,7 @@ seizures: </p>
 dose may be increased to a maximum dose of 8 mg/day. 
 - If you have mild or moderate liver problems, your dose should not be more than 4 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>Children (from 7 to 11 years of age) weighing less than 20 kg in treating generalised seizures: </p>
 <p>The usual starting dose is 1 mg once a day before you go to bed. 
@@ -267,7 +268,7 @@ the right dose of Fycompa for you. </p>
 dose may be increased to a maximum dose of 6 mg/day. 
 - If you have mild or moderate liver problems, your dose should not be more than 4 mg each day 
 and your dose increases should be at least 2 weeks apart. 
-- Don’t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
+- Don t take more Fycompa than your doctor has recommended. It may take a few weeks to find 
 the right dose of Fycompa for you. </p>
 <p>How to take 
 Swallow the tablet whole with a glass of water. You can take Fycompa with or without food. Do not 
@@ -296,52 +297,54 @@ If you have any further questions on the use of this medicine, ask your doctor o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>A small number of people being treated with anti-epileptics have had thoughts of harming or killing 
 themselves. If at any time you have these thoughts, contact your doctor straight away. </p>
-<p>Very common (may affect more than 1 user in 10) are: 
-- feeling dizzy 
-- feeling sleepy (drowsiness or somnolence) </p>
-<p>Common (may affect more than 1 user in 100) are: 
-- increased or decreased appetite, weight gain 
-- feeling aggressive, angry, irritable, anxious or confused 
-- difficulty with walking or other balance problems (ataxia, gait disturbance, balance disorder) 
-- slow speech (dysarthria) 
-- blurred vision or double vision (diplopia) 
-- spinning sensation (vertigo) 
-- feeling sick (nausea) 
-- back pain 
-- feeling very tired (fatigue) 
-- falling down </p>
-<p>Uncommon (may affect more than 1 user in 1000) are: 
-- thoughts about harming yourself or ending your own life (suicidal thoughts), tried to end your 
-own life (attempted suicide) 
-- hallucinations (seeing, hearing or feeling things that are not there) 
-- Abnormal thinking and/or loss of touch with reality (psychotic disorder) </p>
-<p>Not known (the frequency of this side effect cannot be estimated from the available data) are: 
-- Drug Reaction with Eosinophilia and Systemic Symptoms which is also known as DRESS or 
+<p>Very common (may affect more than 1 user in 10) are:</p>
+<ul>
+<li>feeling dizzy </li>
+<li>feeling sleepy (drowsiness or somnolence) </li>
+</ul>
+<p>Common (may affect more than 1 user in 100) are:</p>
+<ul>
+<li>increased or decreased appetite, weight gain </li>
+<li>feeling aggressive, angry, irritable, anxious or confused </li>
+<li>difficulty with walking or other balance problems (ataxia, gait disturbance, balance disorder) </li>
+<li>slow speech (dysarthria) </li>
+<li>blurred vision or double vision (diplopia) </li>
+<li>spinning sensation (vertigo) </li>
+<li>feeling sick (nausea) </li>
+<li>back pain </li>
+<li>feeling very tired (fatigue) </li>
+<li>falling down </li>
+</ul>
+<p>Uncommon (may affect more than 1 user in 1000) are:</p>
+<ul>
+<li>thoughts about harming yourself or ending your own life (suicidal thoughts), tried to end your 
+own life (attempted suicide) </li>
+<li>hallucinations (seeing, hearing or feeling things that are not there) </li>
+<li>Abnormal thinking and/or loss of touch with reality (psychotic disorder) </li>
+</ul>
+<p>Not known (the frequency of this side effect cannot be estimated from the available data) are:</p>
+<ul>
+<li>Drug Reaction with Eosinophilia and Systemic Symptoms which is also known as DRESS or 
 drug hypersensitivity syndrome: widespread rash, high body temperature, liver enzyme 
 elevations, blood abnormalities (eosinophilia), enlarged lymph nodes and other body organs 
-involvement. 
-- Stevens - Johnson syndrome, SJS. This serious skin rash can appear as reddish target-like 
+involvement. </li>
+<li>Stevens - Johnson syndrome, SJS. This serious skin rash can appear as reddish target-like 
 macules or circular patches often with central blisters on the trunk, skin peeling, ulcers of 
 mouth, throat, nose, genitals and eyes and can be preceded by fever and flu-like symptoms. 
 Stop using perampanel if you develop these symptoms and contact your doctor or seek medical 
-attention immediately. See also section 2.<br />
-Reporting of side effects 
-If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+attention immediately. See also section </li>
+</ul>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fycompa"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store fycompa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister. The expiry date 
-refers to the last day of the month. </p>
-<p>This medicinal product does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -349,136 +352,10 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fycompa contains 
-The active substance is perampanel. Each film-coated tablet contains 2 mg, 4 mg, 6 mg, 8 mg, 10 mg, 
-or 12 mg perampanel. </p>
-<p>The other ingredients are: 
-Tablet core (2 mg and 4 mg tablets): 
-Lactose monohydrate, low-substituted hydroxypropyl cellulose, povidone, magnesium stearate 
-(E470b) </p>
-<p>Tablet core (6 mg, 8 mg, 10 mg and 12 mg tablets) 
-Lactose monohydrate, low-substituted hydroxypropyl cellulose, povidone, microcrystalline cellulose, 
-magnesium stearate (E470b) </p>
-<p>Film coating (2 mg, 4 mg, 6 mg, 8 mg, 10 mg and 12 mg tablets) 
-Hypromellose 2910, talc, Macrogol 8000, titanium dioxide (E171), colourants* </p>
-<p>*The colourants are: 
-2 mg tablet: Ferric Oxide, Yellow (E172), Ferric Oxide, Red (E172) 
-4 mg tablet: Ferric Oxide, Red (E172) 
-6 mg tablet: Ferric Oxide, Red (E172) 
-8 mg tablet: Ferric Oxide, Red (E172), Ferric Oxide, Black (E172) 
-10 mg tablet: Ferric Oxide, Yellow (E172), FD&amp;C Blue #2 Indigo carmine aluminium lake (E132) 
-12 mg tablet: FD&amp;C Blue #2 Indigo carmine aluminium lake (E132) </p>
-<p>What Fycompa looks like and contents of the pack 
-All strengths of Fycompa are round, biconvex film-coated tablets 
-2 mg: orange, marked with E275 on one side and 2 on other side 
-4 mg: red, marked with E277 on one side and 4 on other side 
-6 mg: pink, marked with E294 on one side and 6 on other side 
-8 mg: purple, marked with E295 on one side and 8 on other side 
-10 mg: green, marked with E296 on one side and 10 on other side 
-12 mg: blue, marked with E297 on one side and 12 on other side </p>
-<p>Fycompa is available in packs of: 
-2 mg tablet – pack of 7, 28 and 4 mg, 6 mg, 8 mg, 10 mg, 12 mg tablets – packs of 7, 28, 84 and<br />
-Not all pack sizes may be marketed </p>
-<p>Marketing Authorisation Holder </p>
-<p>Eisai GmbH 
-Edmund-Rumpler-Straße 3 
-60549 Frankfurt am Main 
-Germany 
-e-mail: medinfo_de@eisai.net </p>
-<p>Manufacturer 
-Eisai GmbH 
-Edmund-Rumpler-Straße 3 
-60549 Frankfurt am Main 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Eisai SA/NV 
-Tél/Tel: +32 (0)800 158<br />
-Lietuva 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Vokietija) </p>
-<p>България 
-Eisai GmbH 
-Teл.: + 49 (0) 69 66 58 (Германия) </p>
-<p>Luxembourg/Luxemburg 
-Eisai SA/NV 
-Tél/Tel: +32 (0)800 158 (Belgique/Belgien) </p>
-<p>Česká republika 
-Eisai GesmbH organizačni složka 
-Tel: + 420 242 485<br />
-Magyarország 
-Ewopharma Hungary Kft.<br />
-Tel.: + 36 1 200 46 Danmark 
-Eisai AB 
-Tlf: + 46 (0) 8 501 01 (Sverige) </p>
-<p>Malta 
-Cherubino LTD 
-Tel: +356 21343Deutschland 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58<br />
-Nederland 
-Eisai B.V. 
-Tel: + 31 (0) 900 575 3 
-Eesti 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Saksamaa) </p>
-<p>Norge 
-Eisai AB 
-Tlf: + 46 (0) 8 501 01 (Sverige) </p>
-<p>Ελλάδα 
-Arriani Pharmaceutical S.A. 
-Τηλ: + 30 210 668 3 
-Österreich 
-Eisai GesmbH 
-Tel: + 43 (0) 1 535 1980-0 </p>
-<p>España 
-Eisai Farmacéutica, S.A. 
-Tel: + (34) 91 455 94<br />
-Polska 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Niemcy) </p>
-<p>France 
-Eisai SAS 
-Tél: + (33) 1 47 67 00<br />
-Portugal 
-Eisai Farmacêtica, Unipessoal Lda 
-Tel: + 351 214 875<br />
-Hrvatska 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Njemačka) 
-România 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Germania) </p>
-<p>Ireland 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Germany) 
-Slovenija 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Nemčija) </p>
-<p>Ísland 
-Eisai AB 
-Sími: + 46 (0)8 501 01 (Svíþjóð) </p>
-<p>Slovenská republika 
-Eisai GesmbH organizačni složka 
-Tel.: + 420 242 485 (Česká republika) </p>
-<p>Italia 
-Eisai S.r.l. 
-Tel: + 39 02 5181 
-Suomi/Finland 
-Eisai AB 
-Puh/Tel: + 46 (0) 8 501 01 (Ruotsi) </p>
-<p>Κύπρος 
-Arriani Pharmaceuticals S.A. 
-Τηλ: + 30 210 668 3(Ελλάδα) </p>
-<p>Sverige 
-Eisai AB 
-Tel: + 46 (0) 8 501 01 Latvija 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Vācija) </p>
-<p>United Kingdom (Northern Ireland) 
-Eisai GmbH 
-Tel: + 49 (0) 69 66 58 (Germany) </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister. The expiry date 
+refers to the last day of the month. </p>
+<p>This medicinal product does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
 

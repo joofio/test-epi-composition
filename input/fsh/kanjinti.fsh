@@ -4,7 +4,7 @@ Instance: composition-en-d9a2d4a9aed73e1deb35a60f1ae8a7b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for kanjinti Package Leaflet"
 Description:  "Composition for kanjinti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -151,7 +151,7 @@ symptoms, such as dizziness, sleepiness, chills or fever, you should not drive o
 these symptoms disappear. </p>
 <p>Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kanjinti"
@@ -165,10 +165,10 @@ you. The dose of KANJINTI depends on your body weight. </p>
 <p>It is important to check the product labels to ensure that the correct formulation is being given as 
 prescribed. KANJINTI intravenous formulation is not for subcutaneous use and should be given as an 
 intravenous infusion only. </p>
-<p>KANJINTI intravenous formulation is given as an intravenous infusion (“drip”) directly into your 
+<p>KANJINTI intravenous formulation is given as an intravenous infusion ( drip ) directly into your 
 veins. The first dose of your treatment is given over 90 minutes and you will be observed by a health 
 professional while it is being given in case you have any side effects. If the first dose is well tolerated 
-the next doses may be given over 30 minutes (see section 2 under “Warnings and precautions”). The 
+the next doses may be given over 30 minutes (see section 2 under  Warnings and precautions ). The 
 number of infusions you receive will depend on how you respond to the treatment. Your doctor will 
 discuss this with you. </p>
 <p>In order to prevent medication errors it is important to check the vial labels to ensure that the medicine 
@@ -197,8 +197,8 @@ common (may affect more than 1 in 10 people). Other infusion-related symptoms ar
 (nausea), vomiting, pain, increased muscle tension and shaking, headache, dizziness, breathing 
 difficulties, high or low blood pressure, heart rhythm disturbances (palpitations, heart fluttering or 
 irregular heart beat), swelling of the face and lips, rash and feeling tired. Some of these symptoms can 
-be serious and some patients have died (see section 2 under “Warnings and precautions”). </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+be serious and some patients have died (see section 2 under  Warnings and precautions ). </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 health care professional during the infusion and for at least six hours after the start of the first infusion 
 and for two hours after the start of other infusions. If you develop a reaction, they will slow down or 
@@ -342,11 +342,11 @@ safety of this medicine. </p>         </div>"""
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze the reconstituted solution. Store in the original 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze the reconstituted solution. Store in the original 
 package in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions prior to use are the responsibility of the user, and would not normally be longer 
-than 24 hours at 2°C - 8°C. Do not use KANJINTI if you notice any particulate matter or 
+than 24 hours at 2 C - 8 C. Do not use KANJINTI if you notice any particulate matter or 
 discolouration prior to administration. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
@@ -359,123 +359,9 @@ dispose of medicines no longer required. These measures will help to protect the
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What KANJINTI contains<br />
 * The active substance is trastuzumab. Each vial contains either: 
-• 150 mg trastuzumab that has to be dissolved in 7.2 mL of water for injection, or<br />
-• 420 mg trastuzumab that has to be dissolved in 20 mL of water for injection. 
+  150 mg trastuzumab that has to be dissolved in 7.2 mL of water for injection, or<br />
+  420 mg trastuzumab that has to be dissolved in 20 mL of water for injection. 
 * The resulting solution contains approximately 21 mg/mL trastuzumab. 
 * The other ingredient(s) are histidine, histidine monohydrochloride, trehalose dihydrate, 
-polysorbate 20.<br />
-What KANJINTI looks like and contents of the pack 
-KANJINTI is a powder for concentrate for solution, which is supplied in a glass vial with a rubber 
-stopper containing either 150 mg or 420 mg of trastuzumab. The powder is a white to pale yellow 
-pellet. Each carton contains 1 vial of powder. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Amgen Europe B.V. 
-Minervum 7NL-4817 ZK Breda 
-The Netherlands </p>
-<p>Marketing Authorisation Holder 
-Amgen Europe B.V. 
-Minervum 7NL-4817 ZK Breda 
-The Netherlands </p>
-<p>Manufacturer<br />
-Amgen NV 
-Telecomlaan 5-7 
-1831 Diegem 
-Belgium </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
-Lietuva 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7 
-Luxembourg/Luxemburg 
-s.a. Amgen<br />
-Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
-Amgen s.r.o. 
-Tel: +420 221 773<br />
-Magyarország 
-Amgen Kft. 
-Tel.: +36 1 35 44<br />
-Danmark 
-Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
-Amgen S.r.l. 
-Tel: +39 02 6241 
-Deutschland 
-Amgen GmbH 
-Tel.: +49 89 1490 
-Nederland 
-Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +372 586 09 
-Norge 
-Amgen AB 
-Tel: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
-Τηλ.: +30 210 3447 
-Österreich 
-Amgen GmbH<br />
-Tel: +43 (0)1 50<br />
-España 
-Amgen S.A. 
-Tel: +34 93 600 18 60  </p>
-<p>Polska 
-Amgen Biotechnologia Sp. z o.o. 
-Tel.: +48 22 581 3 </p>
-<p>France 
-Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
-Portugal 
-Amgen Biofarmacêutica, Lda. 
-Tel: +351 21 4220 
-Hrvatska 
-Amgen d.o.o. 
-Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
-Tel: +4021 527 3 
-Ireland 
-Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
-AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1 
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114  </p>
-<p>Italia 
-Amgen S.r.l. 
-Tel: +39 02 6241 
-Suomi/Finland 
-Amgen AB, sivuliike Suomessa/Amgen AB, filial 
-i Finland 
-Puh/Tel: +358 (0)9 54900 
-Kύπρος 
-C.A. Papaellinas Ltd 
-Τηλ.: +357 22741<br />
-Sverige 
-Amgen AB<br />
-Tel: +46 (0)8 6951 
-Latvija 
-Amgen Switzerland AG Rīgas filiāle 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
-Amgen Limited 
-Tel: +44 (0)1223 420 </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+polysorbate 2</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-de065403a5793478002be710eeac097c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ritonavir Package Leaflet"
 Description:  "Composition for ritonavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -85,46 +85,47 @@ with HIV, the virus which causes AIDS. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ritonavir Mylan 
 - if you are allergic to ritonavir or any of the other ingredients of this medicine (see section 6). 
 - if you have severe liver disease. 
-- if you are currently taking any of the following medicines: 
-- astemizole or terfenadine (commonly used to treat allergy symptoms – these medicines 
-may be available without prescription); 
-- amiodarone, bepridil, dronedarone, encainide, flecainide, propafenone, quinidine (used to 
-correct irregular heartbeats); 
-- dihydroergotamine, ergotamine (used to treat migraine headache); 
-- ergonovine, methylergonovine (used to stop excessive bleeding that may occur following 
-childbirth or an abortion); 
-- clorazepate, diazepam, estazolam, flurazepam, triazolam or oral (taken by mouth) 
-midazolam (used to help you sleep and/or relieve anxiety); 
-- clozapine, pimozide, (used to treat abnormal thoughts or feelings); 
-- quetiapine (used to treat schizophrenia, bipolar disorder and major depressive disorder); 
-- lurasidone (used to treat depression); 
-- ranolazine (used to treat chronic chest pain [angina]); 
-- pethidine, propoxyphene (used to relieve pain); 
-- cisapride (used to relieve certain stomach problems); 
-- rifabutin (used to prevent/treat certain infections)<em>; 
-- voriconazole (used to treat fungal infections)</em>; 
-- simvastatin, lovastatin (used to lower blood cholesterol);<br />
-- neratinib (used to treat breast cancer); 
-- lomitapide (used to lower blood cholesterol); 
-- alfuzosin (used to treat enlarged prostate gland); 
-- fusidic acid (used to treat bacterial infections); 
-- sildenafil if you suffer from a lung disease called pulmonary arterial hypertension that 
+- if you are currently taking any of the following medicines:</p>
+<ul>
+<li>astemizole or terfenadine (commonly used to treat allergy symptoms   these medicines 
+may be available without prescription); </li>
+<li>amiodarone, bepridil, dronedarone, encainide, flecainide, propafenone, quinidine (used to 
+correct irregular heartbeats); </li>
+<li>dihydroergotamine, ergotamine (used to treat migraine headache); </li>
+<li>ergonovine, methylergonovine (used to stop excessive bleeding that may occur following 
+childbirth or an abortion); </li>
+<li>clorazepate, diazepam, estazolam, flurazepam, triazolam or oral (taken by mouth) 
+midazolam (used to help you sleep and/or relieve anxiety); </li>
+<li>clozapine, pimozide, (used to treat abnormal thoughts or feelings); </li>
+<li>quetiapine (used to treat schizophrenia, bipolar disorder and major depressive disorder); </li>
+<li>lurasidone (used to treat depression); </li>
+<li>ranolazine (used to treat chronic chest pain [angina]); </li>
+<li>pethidine, propoxyphene (used to relieve pain); </li>
+<li>cisapride (used to relieve certain stomach problems); </li>
+<li>rifabutin (used to prevent/treat certain infections)*; </li>
+<li>voriconazole (used to treat fungal infections)*; </li>
+<li>simvastatin, lovastatin (used to lower blood cholesterol);  </li>
+<li>neratinib (used to treat breast cancer); </li>
+<li>lomitapide (used to lower blood cholesterol); </li>
+<li>alfuzosin (used to treat enlarged prostate gland); </li>
+<li>fusidic acid (used to treat bacterial infections); </li>
+<li>sildenafil if you suffer from a lung disease called pulmonary arterial hypertension that 
 makes breathing difficult. Patients without this disease may use sildenafil for impotence 
-(erectile dysfunction) under their doctor’s supervision (see the section on Other 
-medicines and Ritonavir Mylan); 
-- avanafil or vardenafil (used to treat erectile dysfunction); 
-- colchicine (used to treat gout) if you have kidney and/or liver problems (see the section 
-on Other medicines and Ritonavir Mylan); 
-- products containing St John’s wort (Hypericum perforatum) as this may stop ritonavir 
-from working properly. St John’s wort is often used in herbal medicines that you can buy 
-yourself. 
-* 
-Your doctor may decide that you can take rifabutin and/or voriconazole with a booster (lower 
+(erectile dysfunction) under their doctor s supervision (see the section on Other 
+medicines and Ritonavir Mylan); </li>
+<li>avanafil or vardenafil (used to treat erectile dysfunction); </li>
+<li>colchicine (used to treat gout) if you have kidney and/or liver problems (see the section 
+on Other medicines and Ritonavir Mylan); </li>
+<li>products containing St John s wort (Hypericum perforatum) as this may stop ritonavir 
+from working properly. St John s wort is often used in herbal medicines that you can buy 
+yourself. </li>
+<li>Your doctor may decide that you can take rifabutin and/or voriconazole with a booster (lower 
 dose) of ritonavir but a full dose of ritonavir must not be taken together with these two 
-medicines. </p>
+medicines. </li>
+</ul>
 <p>If you are currently taking any of these medicines, ask your doctor about switching to a different 
 medicine while you are taking Ritonavir Mylan. </p>
-<p>Also read the list of medicines under ‘Other medicines and Ritonavir Mylan’ for use with certain other 
+<p>Also read the list of medicines under  Other medicines and Ritonavir Mylan  for use with certain other 
 medicines which require special care. </p>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor before taking Ritonavir Mylan. </p>
@@ -138,7 +139,7 @@ prescribed, please ask your doctor or pharmacist.
 - People taking ritonavir may still develop infections or other illnesses associated with HIV 
 infection or AIDS. It is therefore important that you remain under the supervision of your doctor 
 while taking Ritonavir Mylan. </p>
-<p>Tell your doctor if you have/had: </p>
+<p>Tell your doctor if you have/had:</p>
 <ul>
 <li>A history of liver disease. </li>
 <li>Hepatitis B or C and are being treated with a combination of antiretroviral agents, as you are at 
@@ -155,7 +156,7 @@ mellitus) in some patients taking protease inhibitors. </li>
 <li>Kidney (renal) disease, since your doctor may need to check the dose of your other medicines 
 (such as protease inhibitors). </li>
 </ul>
-<p>Tell your doctor if you experience: </p>
+<p>Tell your doctor if you experience:</p>
 <ul>
 <li>Diarrhoea or vomiting that is not improving (persistent), as this may reduce how well the 
 medicines you are taking work. </li>
@@ -164,7 +165,7 @@ inflammation of the pancreas (pancreatitis). Some patients taking ritonavir can 
 problems with their pancreas. Tell your doctor as soon as possible if this applies to you. </li>
 <li>Symptoms of infection - inform your doctor immediately. Some patients with advanced HIV 
 infection (AIDS) who then start anti-HIV treatment may develop the symptoms of infections 
-they have had in the past even if they didn’t know they had had them. It is believed that this 
+they have had in the past even if they didn t know they had had them. It is believed that this 
 happens because the body's immune response improves and helps the body to fight these 
 infections. 
 In addition to the opportunistic infections, autoimmune disorders (a condition that occurs when 
@@ -191,7 +192,7 @@ a heart defect or conduction defect. </li>
 <p>Other medicines and Ritonavir Mylan </p>
 <p>Tell your doctor or pharmacist if you are taking or have recently taken or might take any other 
 medicines, including medicines obtained without a prescription. There are some medicines you cannot 
-take at all with ritonavir. These are listed earlier in section 2, under ‘Do not take Ritonavir Mylan’. 
+take at all with ritonavir. These are listed earlier in section 2, under  Do not take Ritonavir Mylan . 
 There are some other medicines that can only be used under certain circumstances as described below. </p>
 <p>The following warnings apply when Ritonavir Mylan is taken as a full dose. However, these warnings 
 may also apply when Ritonavir Mylan is used in lower doses (a booster) with other medicines. </p>
@@ -205,8 +206,8 @@ suffer from pulmonary arterial hypertension (see also section 2. What you need t
 before you or your child takes Ritonavir Mylan). Tell your doctor if you are taking tadalafil 
 for pulmonary arterial hypertension. </li>
 <li>Colchicine (for gout) as ritonavir may raise the blood levels of this medicine. You must not take 
-ritonavir with colchicine if you have kidney and/or liver problems (see also ‘Do not take 
-Ritonavir Mylan’ above). </li>
+ritonavir with colchicine if you have kidney and/or liver problems (see also  Do not take 
+Ritonavir Mylan  above). </li>
 <li>Digoxin (heart medicine). Your doctor may need to adjust the dose of digoxin and monitor you 
 while you are taking digoxin and Ritonavir Mylan in order to avoid heart problems. </li>
 <li>Hormonal contraceptives containing ethinylestradiol as ritonavir may reduce the effectiveness 
@@ -215,9 +216,9 @@ contraception is used instead. You may also notice irregular uterine bleeding if
 this type of hormonal contraceptive with ritonavir. </li>
 <li>Atorvastatin or rosuvastatin (for high cholesterol) as ritonavir may raise the blood levels of 
 these medicines. Talk to your doctor before you take any cholesterol-reducing medicines with 
-ritonavir (see also ‘Do not take Ritonavir Mylan’ above). </li>
+ritonavir (see also  Do not take Ritonavir Mylan  above). </li>
 <li>Steroids (e.g. dexamethasone, fluticasone propionate, prednisolone, triamcinolone) as ritonavir 
-may raise the blood levels of these medicines which may lead to Cushing’s syndrome 
+may raise the blood levels of these medicines which may lead to Cushing s syndrome 
 (development of a rounded face) and reduce production of the hormone cortisol. Your doctor 
 may wish to reduce the steroid dose or monitor your side effects more closely. </li>
 <li>Trazodone (a medicine for depression) as, unwanted effects like nausea, dizziness, low blood 
@@ -231,7 +232,7 @@ blood levels of this medicine. </li>
 when taken together. In some cases your doctor may need to perform certain tests, change the dose or 
 monitor you regularly. This is why you should tell your doctor if you are taking any medicines, 
 including those you have bought yourself or herbal products, but it is especially important to mention 
-these: </p>
+these:</p>
 <ul>
 <li>amphetamine or amphetamine derivatives; </li>
 <li>antibiotics (e.g. erythromycin, clarithromycin); </li>
@@ -266,7 +267,7 @@ amlodipine, diltiazem and nifedipine); </li>
 <li>colchicine, a treatment for gout. </li>
 </ul>
 <p>There are some medicines you cannot take at all with ritonavir. These are listed earlier in section 2, 
-under ‘Do not take Ritonavir Mylan’. </p>
+under  Do not take Ritonavir Mylan . </p>
 <p>Taking Ritonavir Mylan with food and drink </p>
 <p>Ritonavir Mylan tablets should be taken with food. </p>
 <p>Pregnancy and breast-feeding </p>
@@ -314,7 +315,7 @@ straight away. During episodes of diarrhoea your doctor may decide that extra mo
 <p>Always keep enough Ritonavir Mylan on hand so you don't run out. When you travel or need to stay in 
 the hospital, make sure you have enough Ritonavir Mylan to last until you can get a new supply. </p>
 <p>If you take more Ritonavir Mylan than you should </p>
-<p>Numbness, tingling, or a “pins and needles” sensation may occur if you take too much ritonavir. If you 
+<p>Numbness, tingling, or a  pins and needles  sensation may occur if you take too much ritonavir. If you 
 realise you have taken more Ritonavir Mylan than you were supposed to, contact your doctor or the 
 Accident and Emergency Department of your nearest hospital straight away. </p>
 <p>If you forget to take Ritonavir Mylan </p>
@@ -453,10 +454,10 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store ritonavir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date on the carton or bottle label after ‘EXP’. The expiry date 
+<p>Do not use this medicine after the expiry date on the carton or bottle label after  EXP . The expiry date 
 refers to the last day of that month. </p>
 <p>For HDPE bottle:  After first opening, use within 45 days. </p>
-<p>Do not store above 30 °C. Store in the original packaging in order to protect from moisture. </p>
+<p>Do not store above 30  C. Store in the original packaging in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help the environment. </p>         </div>"""      
         
@@ -470,125 +471,9 @@ you no longer use. These measures will help the environment. </p>         </div>
 <ul>
 <li>The active substance is ritonavir. Each film-coated tablet contains 100 mg ritonavir. </li>
 <li>The other tablet ingredients are: copovidone, sorbitan laurate, colloidal anhydrous silica, sodium 
-chloride, sodium stearyl fumarate see section 2 ‘Ritonavir Mylan contains sodium’. </li>
+chloride, sodium stearyl fumarate see section 2  Ritonavir Mylan contains sodium . </li>
 <li>The tablet coating is composed of: hypromellose, titanium dioxide (E171), macrogols, 
-hydroxypropylcellulose, talc, iron oxide yellow (E172), colloidal anhydrous silica, polysorbate </li>
-<li>What Ritonavir Mylan looks like and contents of the pack </li>
-</ul>
-<p>Ritonavir Mylan film-coated tablets are yellow, capsule shaped, biconvex, beveled edge and marked 
-with ‘M163’ on one side and blank on the other. </p>
-<p>Ritonavir Mylan film-coated tablets are available in plastic bottles with screw caps and aluminium 
-sealing liner wads, containing 30, 90 or 100 tablets and in multipacks of 90 tablets comprising 3 
-bottles, each containing 30 tablets. The bottles also contain a desiccant. Do not eat the desiccant. </p>
-<p>Also available in blister pack containing 30 and 90 tablets and in perforated unit dose blister packs 
-containing, 30 x 1 and 90 x 1 tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Mylan Pharmaceuticals Limited 
-Damastown Industrial Park,<br />
-Mulhuddart, Dublin 15,<br />
-DUBLIN 
-Ireland </p>
-<p>Manufacturer </p>
-<p>McDermott Laboratories Limited trading as Gerard Laboratories trading as Mylan Dublin, 
-Unit 35/36 Baldoyle Industrial Estate, 
-Grange Road, Dublin 13, 
-Ireland </p>
-<p>Mylan Hungary Kft, 
-Mylan utca 1, Komárom, H-2Hungary </p>
-<p>Mylan Germany GmbH 
-Zweigniederlassung Bad Homburg v. d. Hoehe,<br />
-Benzstrasse 1, Bad Homburg v. d. Hoehe 
-Hessen, 61Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Viatris 
-Tél/Tel: + 32 (0)2 658 61<br />
-Lietuva 
-Viatris UAB<br />
-Tel: + 370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: + 359 2 44 55<br />
-Luxembourg/Luxemburg 
-Viatris 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
-Viatris CZ s.r.o. 
-Tel: + 420 222 004<br />
-Magyarország 
-Viatris Healthcare Kft. 
-Tel.: + 36 1 465 2 
-Danmark 
-Viatris ApS 
-Tlf: + 45 28 11 69 Malta 
-V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
-Viatris Healthcare GmbH<br />
-Tel: + 49 800 0700<br />
-Nederland 
-Mylan BV 
-Tel: + 31 (0)20 426 3Eesti 
-Viatris OÜ 
-Tel: + 372 6363<br />
-Norge 
-Viatris AS 
-Tlf: + 47 66 75 33 Ελλάδα<br />
-Viatris Hellas Ltd 
-Τηλ:  + 30 2100 100 002  </p>
-<p>Österreich 
-Arcana Arzneimittel GmbH 
-Tel: + 43 1 416 2 
-España 
-Viatris Pharmaceuticals, S.L.U. 
-Tel: + 34 900 102<br />
-Polska 
-Mylan Healthcare Sp. z o.o. 
-Tel.: + 48 22 546 64<br />
-France 
-Viatris Santé 
-Tél: + 33 4 37 25 75<br />
-Portugal 
-Mylan, Lda. 
-Tel: + 351 214 127 
-Hrvatska 
-Viatris Hrvatska d.o.o. <br />
-Tel: + 385 1 23 50<br />
-România 
-BGP Products SRL 
-Tel: + 40 372 579<br />
-Ireland 
-Mylan Ireland Limited 
-Tel: +353 1 8711 
-Slovenija 
-Viatris d.o.o. 
-Tel: + 386 1 23 63<br />
-Ísland 
-Icepharma hf. 
-Sími: + 354 540 8 
-Slovenská republika 
-Viatris Slovakia s.r.o. 
-Tel: + 421 2 32 199<br />
-Italia 
-Viatris Italia S.r.l. 
-Tel: + 39 (0) 2 612 46 
-Suomi/Finland 
-Viatris Oy 
-Puh/Tel: + 358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd. 
-Τηλ: + 357 2220 7 
-Sverige 
-Viatris AB<br />
-Tel: + 46 (0)8 630 19<br />
-Latvija 
-Viatris SIA<br />
-Tel: + 371 676 055<br />
-United Kingdom (Northern Ireland) 
-Mylan IRE Healthcare Limited 
-Tel: + 353 18711 </p>
-<p>This leaflet was last revised in { </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+hydroxypropylcellulose, talc, iron oxide yellow (E172), colloidal anhydrous silica, polysorbate 
+8</li>
+</ul>         </div>"""      
 

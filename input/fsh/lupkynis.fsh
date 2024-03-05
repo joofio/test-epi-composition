@@ -4,7 +4,7 @@ Instance: composition-en-41b3735a6e59fac8a0512a47fdc116bd
 InstanceOf: CompositionUvEpi
 Title: "Composition for lupkynis Package Leaflet"
 Description:  "Composition for lupkynis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,8 +71,8 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lupkynis contains the active substance voclosporin. It is used for the treatment of adults from 18 years 
 of age with lupus nephritis (inflammation of the kidney caused by lupus). </p>
 <p>The active ingredient in Lupkynis is one of a group of medicines known as calcineurin inhibitors that 
-can be used to control your body’s immune response (immunosuppressants). In lupus, the immune 
-system (the body’s natural defences) mistakenly attacks parts of your own body, including the kidneys 
+can be used to control your body s immune response (immunosuppressants). In lupus, the immune 
+system (the body s natural defences) mistakenly attacks parts of your own body, including the kidneys 
 (lupus nephritis). By reducing the response of the immune system, the medicine reduces inflammation 
 of your kidneys and lessens symptoms such as swelling of the legs, ankles or feet, high blood pressure, 
 tiredness, as well as improving your kidney function. </p>         </div>"""   
@@ -87,28 +87,30 @@ tiredness, as well as improving your kidney function. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Lupkynis 
 - If you are allergic to voclosporin or any of the other ingredients of this medicine (listed in 
 section 6). 
-- If you are taking other medicines such as ketoconazole tablets (used to treat Cushing’s 
+- If you are taking other medicines such as ketoconazole tablets (used to treat Cushing s 
 syndrome when the body produces an excess of cortisol), itraconazole or clarithromycin (used 
 to treat certain fungal and bacterial infections). </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Lupkynis if any of the following applies to you: 
-- if your kidney disease gets worse, your dose of this medicine may need to be changed. Your 
-doctor will regularly check how well your kidneys are working. 
-- if you have risk factors for pure red cell aplasia (PRCA) – a rare disorder in which the bone 
+Talk to your doctor or pharmacist before taking Lupkynis if any of the following applies to you:</p>
+<ul>
+<li>if your kidney disease gets worse, your dose of this medicine may need to be changed. Your 
+doctor will regularly check how well your kidneys are working. </li>
+<li>if you have risk factors for pure red cell aplasia (PRCA)   a rare disorder in which the bone 
 marrow does not make enough red blood cells. Such risk factors are a former infection with 
-parvovirus B19 or other treatments in the past that may cause PRCA. 
-- if you suffer from or develop high blood pressure. Your doctor will check your blood pressure 
+parvovirus B19 or other treatments in the past that may cause PRCA. </li>
+<li>if you suffer from or develop high blood pressure. Your doctor will check your blood pressure 
 every two weeks for the first month and then regularly. He/she may give you a medicine to 
-lower your blood pressure or tell you to stop taking this medicine. 
-- This medicine can increase the risk of conditions of the nervous system, such as headache, 
+lower your blood pressure or tell you to stop taking this medicine. </li>
+<li>This medicine can increase the risk of conditions of the nervous system, such as headache, 
 shaking, changes in vision, seizures, confusion or weakness in one or more limbs. If you 
 experience any of these new symptoms or worsening of existing symptoms, your doctor may 
-consider stopping or lowering the dose of this medicine (see section 4). 
-- if you are planning to have a vaccination or have had a vaccination within the last 30 days. This 
+consider stopping or lowering the dose of this medicine (see section 4). </li>
+<li>if you are planning to have a vaccination or have had a vaccination within the last 30 days. This 
 medicine may affect the response to vaccination, and vaccination during treatment with this 
-medicine may be less effective. 
-- if you have previously experienced sudden life-threatening allergic reactions (anaphylactic 
-reactions) to soya or peanut, do not take this medicine. </p>
+medicine may be less effective. </li>
+<li>if you have previously experienced sudden life-threatening allergic reactions (anaphylactic 
+reactions) to soya or peanut, do not take this medicine. </li>
+</ul>
 <p>This medicine can increase the potassium levels in your blood, which may be serious and require 
 treatment. Your doctor will check your potassium levels periodically during treatment. </p>
 <p>This medicine has not been studied in patients with severe liver problems and is therefore not 
@@ -132,21 +134,23 @@ in this age group. </p>
 <p>Other medicines and Lupkynis 
 Tell your doctor or pharmacist if you are taking or have recently taken or are planning to take any 
 other medicines. </p>
-<p>In particular, tell your doctor if you take: 
-- Medicines used to treat fungal infection such as itraconazole and fluconazole. 
-- Medicines used to treat Cushing’s syndrome (when the body produces an excess of cortisol), 
-such as ketoconazole tablets. 
-- Medicines used to treat high blood pressure or heart problems such as digoxin, diltiazem and 
-verapamil. 
-- Medicines to prevent the formation of blood clots such as dabigatran etexilate. 
-- Medicines used to treat epilepsy such as carbamazepine and phenobarbital. 
-- Herbal preparations containing St. John’s Wort, used to treat mild depression. 
-- Medicines for the relief of symptoms associated with seasonal allergic rhinitis such as 
-fexofenadine. 
-- Antibiotic medicines used to treat bacterial infections such as rifampicin, clarithromycin and 
-erythromycin. 
-- Medicines that lower cholesterol such as simvastatin, atorvastatin, rosuvastatin and pravastatin. 
-- Medicines used to treat HIV infections, such as the antiretroviral efavirenz. </p>
+<p>In particular, tell your doctor if you take:</p>
+<ul>
+<li>Medicines used to treat fungal infection such as itraconazole and fluconazole. </li>
+<li>Medicines used to treat Cushing s syndrome (when the body produces an excess of cortisol), 
+such as ketoconazole tablets. </li>
+<li>Medicines used to treat high blood pressure or heart problems such as digoxin, diltiazem and 
+verapamil. </li>
+<li>Medicines to prevent the formation of blood clots such as dabigatran etexilate. </li>
+<li>Medicines used to treat epilepsy such as carbamazepine and phenobarbital. </li>
+<li>Herbal preparations containing St. John s Wort, used to treat mild depression. </li>
+<li>Medicines for the relief of symptoms associated with seasonal allergic rhinitis such as 
+fexofenadine. </li>
+<li>Antibiotic medicines used to treat bacterial infections such as rifampicin, clarithromycin and 
+erythromycin. </li>
+<li>Medicines that lower cholesterol such as simvastatin, atorvastatin, rosuvastatin and pravastatin. </li>
+<li>Medicines used to treat HIV infections, such as the antiretroviral efavirenz. </li>
+</ul>
 <p>Lupkynis with food and drink 
 This medicine can be taken with or without food. Avoid eating grapefruit and drinking grapefruit juice 
 during treatment with this medicine, since these can affect how the medicine works. </p>
@@ -247,7 +251,7 @@ of this medicine. </p>         </div>"""
   * code.text = "5. How to store lupkynis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. 
+Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
 The expiry date refers to the last day of that month. 
 Store in the original blister in order to protect from moisture. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -269,7 +273,7 @@ Capsule shell: gelatin, sorbitol, glycerin, purified water, titanium dioxide (E1
 (E172), iron oxide yellow (E172) 
 Processing aid: soya lecithin </p>
 <p>What Lupkynis looks like and contents of the pack 
-Lupkynis 7.9 mg pink/orange, soft capsules measuring approximately 13 mm × 6 mm packed in 
+Lupkynis 7.9 mg pink/orange, soft capsules measuring approximately 13 mm   6 mm packed in 
 blisters. Each blister contains 18 soft capsules. One carton contains 180 or 576 soft capsules. 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -282,21 +286,20 @@ Block-7, City North Business Campus, Stamullen, Co. Meath, K32 YD60,
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tél/Tel: +31 (0) 20 85 46<br />
+T l/Tel: +31 (0) 20 85 46<br />
 Lietuva 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-България 
-Otsuka Pharmaceutical Netherlands B.V. 
-Teл: +31 (0) 20 85 46<br />
+Tel: +31 (0) 20 85 46  </p>
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Te : +31 (0) 20 85 46<br />
 Luxembourg/Luxemburg 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tél/Tel: +31 (0) 20 85 46<br />
-Česká republika 
+T l/Tel: +31 (0) 20 85 46<br />
+ esk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 Magyarország 
+Tel: +31 (0) 20 85 46 Magyarorsz g 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Danmark 
 Otsuka Pharma Scandinavia AB 
@@ -315,14 +318,13 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46<br />
 Norge 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286<br />
-Ελλάδα 
-Otsuka Pharmaceutical Netherlands B.V. 
-Thλ: +31 (0) 20 85 46<br />
-Österreich 
+Tlf: +46 (0) 8 545 286  </p>
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Th : +31 (0) 20 85 46<br />
+ sterreich 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
-España 
+Espa a 
 Otsuka Pharmaceutical S.A 
 Tel: +34 (0) 93 208 1 
 Polska 
@@ -330,14 +332,14 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46<br />
 France 
 Otsuka Pharmaceutical France SAS 
-Tél: +33 (0) 1 47 08 00<br />
+T l: +33 (0) 1 47 08 00<br />
 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
 Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
-România 
+Rom nia 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
 Ireland 
@@ -346,10 +348,10 @@ Tel: +31 (0) 20 85 46<br />
 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
-Ísland 
+ sland 
 Otsuka Pharma Scandinavia AB 
-Sími: +46 (0) 8 545 286<br />
-Slovenská republika 
+S mi: +46 (0) 8 545 286<br />
+Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
 Italia 
@@ -357,10 +359,9 @@ Otsuka Pharmaceutical Italy S.r.l.
 Tel: +39 (0) 2 0063 2 
 Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
-Puh/Tel: +46 (0) 8 545 286<br />
-Κύπρος 
-Otsuka Pharmaceutical Netherlands B.V. 
-Thλ: +31 (0) 20 85 46<br />
+Puh/Tel: +46 (0) 8 545 286  </p>
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Th : +31 (0) 20 85 46<br />
 Sverige 
 Otsuka Pharma Scandinavia AB 
 Tel: +46 (0) 8 545 286<br />

@@ -4,7 +4,7 @@ Instance: composition-en-3a63bcdb9de3ae0f0c08bbb2137c5dc9
 InstanceOf: CompositionUvEpi
 Title: "Composition for scintimun Package Leaflet"
 Description:  "Composition for scintimun Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,23 +89,27 @@ procedure with the radiopharmaceutical outweights the risk due to radiation. </p
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take scintimun"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Scintimun must not be used: 
-- if you are allergic to besilesomab, to antibody from mouse origin or any other antibodies, or to 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Scintimun must not be used:</p>
+<ul>
+<li>if you are allergic to besilesomab, to antibody from mouse origin or any other antibodies, or to 
 sodium pertechnetate (99mTc) solution or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you have a positive response to a test detecting human anti-mouse antibodies (HAMA test). 
-Ask your doctor if you are not sure. 
-- if you are pregnant. </p>
+section 6). </li>
+<li>if you have a positive response to a test detecting human anti-mouse antibodies (HAMA test). 
+Ask your doctor if you are not sure. </li>
+<li>if you are pregnant. </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to the nuclear medicine specialist before using Scintimun: 
-- if you have previously been administered Scintimun, because you should only be administered 
+Talk to the nuclear medicine specialist before using Scintimun:</p>
+<ul>
+<li>if you have previously been administered Scintimun, because you should only be administered 
 Scintimun once in your lifetime. If you are not sure if you have been given this medicine before, 
-please let your doctor know. 
-- if you have had a scintigraphy with technetium in the last 2 days. 
-- if you have a tumoral pathology involving a secretion of carcino-embryonic antigen (CEA) 
-which could interfere with this investigation. 
-- if you have any blood disease. 
-- if you are breast-feeding. </p>
+please let your doctor know. </li>
+<li>if you have had a scintigraphy with technetium in the last 2 days. </li>
+<li>if you have a tumoral pathology involving a secretion of carcino-embryonic antigen (CEA) 
+which could interfere with this investigation. </li>
+<li>if you have any blood disease. </li>
+<li>if you are breast-feeding. </li>
+</ul>
 <p>Before administration of Scintimun 
 In order to obtain images of best quality and to reduce the radiation exposure of your bladder, you 
 should drink sufficient amounts and empty your bladder prior to and after the scintigraphic 
@@ -139,7 +143,7 @@ This medicine contains 2 mg sorbitol in each vial of Scintimun. Sorbitol is a so
 have hereditary fructose intolerance (HFI), a rare genetic disorder, you must not receive this medicine. 
 Patients with HFI cannot break down fructose, which may cause serious side effects.<br />
 You must tell your doctor before receiving this medicine if you  have HFI. </p>
-<p>This medicine contains less than 1 mmol of sodium (23 mg) per vial, that is to say essentially ‘sodium- free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol of sodium (23 mg) per vial, that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take scintimun"
@@ -223,7 +227,7 @@ regulation on radioactive materials. </p>         </div>"""
 - The active substance is besilesomab (anti-granulocyte monoclonal antibody from mouse 
 origin).  </p>
 <p>One vial of Scintimun contains 1 mg of besilesomab. 
-- The other ingredients are (see section 2 “Scintimun contains sorbitol and sodium”): </p>
+- The other ingredients are (see section 2  Scintimun contains sorbitol and sodium ): </p>
 <p>Scintimun </p>
 <p>Sodium dihydrogen phosphate, anhydrous </p>
 <p>Disodium monohydrogen phosphate, anhydrous </p>

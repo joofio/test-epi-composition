@@ -4,7 +4,7 @@ Instance: composition-en-3fb39d4138ab0b1b436f7dc265a1c128
 InstanceOf: CompositionUvEpi
 Title: "Composition for optruma Package Leaflet"
 Description:  "Composition for optruma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -238,19 +238,19 @@ Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, The Netherlands  <
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spain. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Lietuva 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
 Eli Lilly Lietuva<br />
-Tel. +370 (5) 2649България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41 Luxembourg/Luxemburg 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 84<br />
-Česká republika 
-ELI LILLY ČR, s.r.o. 
-Tel: + 420 234 664 Magyarország 
-Lilly Hungária Kft. 
+T l/Tel: + 32-(0)2 548 84 84<br />
+ esk  republika 
+ELI LILLY  R, s.r.o. 
+Tel: + 420 234 664 Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S 
 Tlf: +45 45 26 60 Malta 
@@ -263,41 +263,41 @@ Tel: + 31-(0) 30 60 25 Eesti
 Eli Lilly Nederland B.V. 
 Tel: +372 6 817 Norge 
 Eli Lilly Norge A.S. 
-Tlf: + 47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε. <br />
-Τηλ: +30 210 629 4Österreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . . <br />
+ : +30 210 629 4 sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
 Tel: +34-91-663 50 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
-Pierre Fabre Médicament 
-Tél: + 33-(0) 1 49 10 80 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+Pierre Fabre M dicament 
+T l: + 33-(0) 1 49 10 80 Portugal 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351 21412 66 Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350 România 
-Eli Lilly România S.R.L. 
+Tel: +385 1 2350 Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-Sími + 354 540 8Slovenská republika 
+S mi + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 A. Menarini 
 Industrie Farmaceutiche Riunite s.r.l. 
 Tel: +39-055 56Suomi/Finland 
 Oy Eli Lilly Finland Ab 
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Τηλ: +357 22 715Sverige 
+ : +357 22 715Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 

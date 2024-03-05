@@ -4,7 +4,7 @@ Instance: composition-en-a52e8d08d74bb225bb0d5cb64a7b9638
 InstanceOf: CompositionUvEpi
 Title: "Composition for renagel Package Leaflet"
 Description:  "Composition for renagel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,24 +95,24 @@ the development of renal bone disease. </p>         </div>"""
 section 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor before taking Renagel if any of the following applies to you: 
-• if you are not on dialysis 
-• if you have swallowing problems 
-• if you have problems with motility (movement) in your stomach and bowel 
-• if you have symptoms of delayed emptying of stomach contents such as feeling of fullness, 
+  if you are not on dialysis 
+  if you have swallowing problems 
+  if you have problems with motility (movement) in your stomach and bowel 
+  if you have symptoms of delayed emptying of stomach contents such as feeling of fullness, 
 nausea and/or vomiting<br />
-• if you have prolonged diarrhoea or pain in the abdomen (symptoms of active inflammatory 
+  if you have prolonged diarrhoea or pain in the abdomen (symptoms of active inflammatory 
 bowel disease) 
-• if you have undergone major surgery on your stomach or bowel </p>
+  if you have undergone major surgery on your stomach or bowel </p>
 <p>Talk to your doctor while taking Renagel: 
-• if you experience severe abdominal pain, stomach or intestine disorders, or blood in the stool 
+  if you experience severe abdominal pain, stomach or intestine disorders, or blood in the stool 
 (gastrointestinal bleeding). These symptoms can be due to serious inflammatory bowel disease 
 caused by sevelamer crystals deposit in your bowel. Contact your doctor who will decide on 
 continuing the treatment or not. </p>
 <p>Additional treatments: 
 Due to either your kidney condition or your dialysis treatment you may: 
-• develop a low or high level of calcium in your blood. Since Renagel does not contain calcium 
+  develop a low or high level of calcium in your blood. Since Renagel does not contain calcium 
 your doctor might prescribe additional calcium tablets. 
-• have a low amount of vitamin D in your blood. Therefore, your doctor may monitor the levels 
+  have a low amount of vitamin D in your blood. Therefore, your doctor may monitor the levels 
 of vitamin D in your blood and prescribe additional vitamin D as necessary. If you do not take 
 multivitamin supplements you may also develop low levels of vitamins A, E, K and folic acid in 
 your blood and therefore your doctor may monitor these levels and prescribe supplemental 
@@ -134,14 +134,14 @@ The safety and efficacy in children (below the age of 18 years) has not been stu
 Renagel is not recommended for use in this population. </p>
 <p>Other medicines and Renagel 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
-<p>• Renagel should not be taken at the same time as ciprofloxacin (an antibiotic). </p>
-<p>• If you are taking medicines for heart rhythm problems or for epilepsy, you should consult your 
+<p>Renagel should not be taken at the same time as ciprofloxacin (an antibiotic). </p>
+<p>If you are taking medicines for heart rhythm problems or for epilepsy, you should consult your 
 doctor when taking Renagel. </p>
-<p>• The effects of medicines such as ciclosporin, mycophenolate mofetil and tacrolimus 
+<p>The effects of medicines such as ciclosporin, mycophenolate mofetil and tacrolimus 
 (medicines used in transplant patients) may be reduced by Renagel. Your doctor will advise 
 you if you are taking these medicines. </p>
-<p>• In certain people taking levothyroxine (a thyroid hormone) and Renagel, increased levels of 
-thyroid stimulating hormone (TSH, a substance in your blood which helps control your body’s 
+<p>In certain people taking levothyroxine (a thyroid hormone) and Renagel, increased levels of 
+thyroid stimulating hormone (TSH, a substance in your blood which helps control your body s 
 chemical functions) may very rarely be observed. Therefore your doctor may monitor the 
 levels of TSH in your blood more closely. </p>
 <ul>
@@ -217,9 +217,9 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "5. How to store renagel"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date stated on the carton and bottle after “EXP”. The expiry 
+<p>Do not use this medicine after the expiry date stated on the carton and bottle after  EXP . The expiry 
 date refers to the last day of that month. </p>
-<p>Do not store this medicine above 25 °C. Keep the bottle tightly closed in order to protect from 
+<p>Do not store this medicine above 25  C. Keep the bottle tightly closed in order to protect from 
 moisture.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -264,20 +264,19 @@ Ambares et Lagrave
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
+T l/Tel: + 32 2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Magyarorsz g 
 SANOFI-AVENTIS Zrt 
 Tel: +36 1 505 0 
-Česká republika 
+ esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
 Malta 
@@ -294,26 +293,25 @@ Norge
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71<br />
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1Polska 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 1Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
-España 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi   Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89  </p>
 <p>France 
-România 
+Rom nia 
 Sanofi Winthrop Industrie 
-Tél : 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 36  </p>
 <p>Hrvatska 
@@ -325,12 +323,12 @@ Tel: +386 1 235 51<br />
 Ireland 
 sanofi-aventis Ireland Ltd T/A SANOFI 
 Tel:  +353 (0) 1 4035 600  </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
@@ -338,10 +336,9 @@ Italia
 Sanofi S.r.l. 
 Tel: 800 536 Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Tel: +46 (0)8 634 50  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2 

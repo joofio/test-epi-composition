@@ -4,7 +4,7 @@ Instance: composition-en-9db488ea4436e9188ae22052d9c51b50
 InstanceOf: CompositionUvEpi
 Title: "Composition for insulin Package Leaflet"
 Description:  "Composition for insulin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -94,7 +94,7 @@ need).
 - if you are allergic to insulin lispro or to any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Record the brand name (“Insulin lispro Sanofi”) and Lot number (included on the outer cartons and 
+Record the brand name ( Insulin lispro Sanofi ) and Lot number (included on the outer cartons and 
 labels of each vial, cartridge and pre-filled pen) of the product you are using and provide this 
 information when reporting any side effects. </p>
 <p>Skin changes at the injection site 
@@ -133,14 +133,14 @@ Your insulin needs may change if you are taking
 * acetyl salicylic acid, 
 * sulpha antibiotics, 
 * octreotide, 
-* “beta2 stimulants” (for example ritodrine, salbutamol or terbutaline), 
+*  beta2 stimulants  (for example ritodrine, salbutamol or terbutaline), 
 * beta-blockers, or 
 * some antidepressants (monoamine oxidase inhibitors or selective serotonin reuptake inhibitors), 
 * danazol, 
 * some angiotensin converting enzyme (ACE) inhibitors (for example captopril, enalapril), and 
 * angiotensin II receptor blockers. </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines (see also 
-section “Warnings and precautions”). </p>
+section  Warnings and precautions ). </p>
 <p>Insulin lispro Sanofi with alcohol<br />
 Your blood sugar levels may change if you drink alcohol. Therefore the amount of insulin needed may 
 change. </p>
@@ -156,8 +156,8 @@ a car or using machines). You should contact your doctor about the advisability 
 * frequent episodes of hypoglycaemia 
 * reduced or absent warning signs of hypoglycaemia </p>
 <p>Insulin lispro Sanofi contains sodium 
-This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially “sodium-
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take insulin"
@@ -176,7 +176,7 @@ your diabetes clinic regularly.
 * If you change the type of insulin you use (for example from a human or animal insulin to an 
 Insulin lispro Sanofi product), you may have to use more or less than before. This might just be 
 for the first injection or it may be a gradual change over several weeks or months. 
-* Inject Insulin lispro Sanofi under the skin (subcutaneous use or “SC”). You should only inject it 
+* Inject Insulin lispro Sanofi under the skin (subcutaneous use or  SC ). You should only inject it 
 into a muscle if your doctor has told you to. </p>
 <p>Preparing Insulin lispro Sanofi 
 * Insulin lispro Sanofi is already dissolved in water, so you do not need to mix it. But you must 
@@ -192,7 +192,7 @@ your needles and syringes.
 * Inject under the skin, as you were taught. Do not inject directly into a vein. After your injection, 
 leave the needle in the skin for five seconds to make sure you have injected the whole dose. Do 
 not rub the area you have just injected. Make sure you inject at least half an inch (1 cm) from the 
-last injection and that you ‘rotate’ the places you inject, as you have been taught. It doesn’t 
+last injection and that you  rotate  the places you inject, as you have been taught. It doesn t 
 matter which injection site you use, either upper arm, thigh, buttock or abdomen, your Insulin 
 lispro Sanofi injection will still work quicker than soluble human insulin. 
 * Your doctor will tell you if you have to mix Insulin lispro Sanofi with one of the human insulins. 
@@ -208,7 +208,7 @@ lispro Sanofi by the intravenous route. He will only do this under special circu
 surgery or if you are ill and your glucose levels are too high. </p>
 <p>Using Insulin lispro Sanofi in an infusion pump 
 * Only certain CE-marked insulin infusion pumps may be used to infuse insulin lispro. Before 
-infusing insulin lispro, the manufacturer’s instructions should be studied to ascertain the 
+infusing insulin lispro, the manufacturer s instructions should be studied to ascertain the 
 suitability or otherwise for the particular pump. Read and follow the instructions in the product 
 literature supplied with the infusion pump. 
 * Be sure to use the correct reservoir and catheter for your pump. 
@@ -237,7 +237,7 @@ blood sugar may occur. Check your blood sugar. </p>
 <p>If hypoglycaemia (low blood sugar) or hyperglycaemia (high blood sugar) is not treated, they can be 
 very serious and cause headaches, feeling sick (nausea), being sick (vomiting), loss of fluids 
 (dehydration), unconsciousness, coma or even death (see Hypoglycaemia and Hyperglycaemia and 
-diabetic ketoacidosis in section 4 “Possible Side Effects”). </p>
+diabetic ketoacidosis in section 4  Possible Side Effects ). </p>
 <p>Three simple steps to avoid hypoglycaemia or hyperglycaemia are:<br />
 <em> Always keep spare syringes and a spare vial of Insulin lispro Sanofi 
 * Always carry something to show you are diabetic.<br />
@@ -316,8 +316,8 @@ hours or days. The symptoms include the following:
 <p>Severe symptoms are heavy breathing and a rapid pulse. Get medical help immediately. </p>
 <p>C. Illness 
 If you are ill, especially if you feel sick or are sick, the amount of insulin you need may change. Even 
-when you are not eating normally, you still need insulin. Test your urine or blood, follow your ‘sick 
-rules’, and tell your doctor. </p>         </div>"""      
+when you are not eating normally, you still need insulin. Test your urine or blood, follow your  sick 
+rules , and tell your doctor. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store insulin"
@@ -327,9 +327,9 @@ rules’, and tell your doctor. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the reach and sight of children. </p>
 <p>Do not use Insulin lispro Sanofi after the expiry date which is stated on the label and the carton. The 
 expiry date refers to the last day of that month. </p>
-<p>Before the first use store your medicine in a refrigerator (2°C – 8°C). Do not freeze. 
+<p>Before the first use store your medicine in a refrigerator (2 C   8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
-<p>Keep your vial in use at room temperature (below 30°C) and dispose of after 4 weeks. Do not store the 
+<p>Keep your vial in use at room temperature (below 30 C) and dispose of after 4 weeks. Do not store the 
 vial in a refrigerator. Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not use Insulin lispro Sanofi if it is coloured or it has solid pieces in it. You must use it only if it 
 looks like water. Check this each time you inject yourself. </p>
@@ -343,5 +343,111 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Insulin lispro Sanofi contains<br />
-* The active substance is insulin lispro. One ml of the solution contains 100 units (equivalent to </p>         </div>"""      
+* The active substance is insulin lispro. One ml of the solution contains 100 units (equivalent to 
+3.5 mg) of insulin lispro. Each vial contains 10 ml of solution for injection, equivalent to 
+1,000 units. 
+* The other ingredients are: metacresol, glycerol, disodium hydrogen phosphate heptahydrate, zinc 
+oxide and water for injection. Sodium hydroxide or hydrochloric acid may have been used to 
+adjust the acidity (see section 2  Insulin lispro Sanofi contains sodium ). </p>
+<p>What Insulin lispro Sanofi looks like and contents of the pack<br />
+Insulin lispro Sanofi, solution for injection in a vial is a clear, colourless, aqueous solution 
+Each vial contains 10 ml. 
+The Insulin lispro Sanofi in a vial comes in a pack of 1 vial or 5 vials. Not all pack sizes may be 
+marketed. </p>
+<p>Marketing Authorisation Holder 
+Sanofi Winthrop Industrie, 82 avenue Raspail, 94250 Gentilly, France </p>
+<p>Manufacturer<br />
+Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Germany. 
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Sanofi Belgium 
+T l/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarorsz g 
+SANOFI-AVENTIS Zrt., 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma O<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis    <br />
+ : +30 210 900 16<br />
+ sterreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmac uticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 Rom nia 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51<br />
+ sland 
+Vistor hf. 
+S mi: +354 535 7 
+Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 13 12 12 (domande di tipo tecnico)<br />
+800.536389 (altre domande) </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A Papaellinas Ltd. 
+ : +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6616 47<br />
+United Kingdom (Northern Ireland) 
+Sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>This leaflet was last revised in  </p>
+<p>Other source of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

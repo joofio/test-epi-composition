@@ -4,7 +4,7 @@ Instance: composition-en-d6a8f1a1ebaa6583d4e909e9b830debb
 InstanceOf: CompositionUvEpi
 Title: "Composition for levitra Package Leaflet"
 Description:  "Composition for levitra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -115,8 +115,8 @@ Talk to your doctor or pharmacist before taking Levitra. </p>
 - If you suffer from irregular heart beat (cardiac arrhythmia) or inherited heart diseases affecting 
 your electrocardiogram. 
 - If you have a physical condition affecting the shape of the penis. This includes conditions called 
-angulation, Peyronie’s disease and cavernosal fibrosis. 
-- If you have an illness that can cause erections which won’t go away (priapism). These include 
+angulation, Peyronie s disease and cavernosal fibrosis. 
+- If you have an illness that can cause erections which won t go away (priapism). These include 
 sickle cell disease, multiple myeloma and leukaemia. 
 - If you have stomach ulcers (also called gastric or peptic ulcers). 
 - If you have a bleeding disorder (such as haemophilia). 
@@ -125,39 +125,48 @@ tablets (see section Other medicines and Levitra).
 - If you experience sudden decrease or loss of vision, stop taking Levitra and contact your doctor 
 immediately. </p>
 <p>Children and adolescents 
-Levitra is not intended for use by children or adolescents under 18.<br />
-Other medicines and Levitra 
+Levitra is not intended for use by children or adolescents under 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Levitra 
 Please tell your doctor or pharmacist if you are using, have recently used or might use any other 
 medicines, including medicines obtained without a prescription. 
-Some medicines may cause problems, especially these: 
-- Nitrates, medicines for angina, or nitric oxide donors, such as amyl nitrite. Taking these 
-medicines with Levitra could seriously affect your blood pressure. 
-- Medicine for the treatment of arrhythmias, such as quinidine, procainamide, amiodarone or 
-sotalol. 
-- Ritonavir or indinavir, medicines for HIV. 
-- Ketoconazole or itraconazole, anti-fungal medicines. 
-- Erythromycin or clarithromycin, macrolide antibiotics. 
-- Alpha-blockers, a type of medicine used to treat high blood pressure and enlargement of the 
-prostate (as benign prostatic hyperplasia). 
-- Riociguat. </p>
+Some medicines may cause problems, especially these:</p>
+<ul>
+<li>Nitrates, medicines for angina, or nitric oxide donors, such as amyl nitrite. Taking these 
+medicines with Levitra could seriously affect your blood pressure. </li>
+<li>Medicine for the treatment of arrhythmias, such as quinidine, procainamide, amiodarone or 
+sotalol. </li>
+<li>Ritonavir or indinavir, medicines for HIV. </li>
+<li>Ketoconazole or itraconazole, anti-fungal medicines. </li>
+<li>Erythromycin or clarithromycin, macrolide antibiotics. </li>
+<li>Alpha-blockers, a type of medicine used to treat high blood pressure and enlargement of the 
+prostate (as benign prostatic hyperplasia). </li>
+<li>Riociguat. </li>
+</ul>
 <p>Do not use Levitra film-coated tablets combined with any other treatment for erectile dysfunction, 
 including Levitra orodispersible tablets. </p>
 <p>Levitra with food, drink and alcohol 
 - You can take Levitra with or without food but preferably not after a heavy or high-fat meal as this 
 may delay the effect. 
-- Don’t drink grapefruit juice when you use Levitra. It can interfere with the usual effect of the 
+- Don t drink grapefruit juice when you use Levitra. It can interfere with the usual effect of the 
 medicine. 
 - Alcoholic drink can make erection difficulties worse. </p>
 <p>Pregnancy and breast-feeding 
 Levitra is not for use by women. </p>
 <p>Driving and using machines 
 Levitra might make some people feel dizzy or affect their vision. If you feel dizzy, or if your vision is 
-affected after taking Levitra don’t drive or operate any tools or machines. </p>         </div>"""   
-                    
+affected after taking Levitra don t drive or operate any tools or machines. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take levitra"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take levitra"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
 you are not sure. The recommended dose is 10 mg. </p>
@@ -171,13 +180,12 @@ alternative Levitra formulation with a different dose, depending on how well it 
 <p>If you take more Levitra than you should 
 Men who take too much Levitra may experience more side effects or may get severe back pain. If you 
 take more Levitra than you should, tell your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store levitra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store levitra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most of the 
 effects are mild or moderate.  </p>
@@ -247,109 +255,15 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store levitra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store levitra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after “EXP”. The expiry date 
-refers to the last day of that month. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Levitra contains 
-- The active substance is vardenafil. Each tablet contains 5 mg of vardenafil (as hydrochloride). 
-- The other ingredients of the tablets are: 
-Tablet core: crospovidone, magnesium stearate, microcrystalline cellulose, colloidal anhydrous 
-silica. 
-Film coat: macrogol 400, hypromellose, titanium dioxide (E171), ferric oxide yellow (E172), 
-ferric oxide red (E172). </p>
-<p>What Levitra looks like and contents of the pack 
-Levitra 5 mg film-coated tablets are orange with the BAYER cross on one side and the strength (5) on 
-the other side. The tablets are provided in blister packs containing 2, 4, 8, 12 or 20 tablets. Not all pack 
-sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>Marketing Authorisation Holder<br />
-Bayer AG 
-51368 Leverkusen 
-Germany </p>
-<p>Manufacturer 
-Bayer AG 
-Kaiser-Wilhelm-Allee 
-51368 Leverkusen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Lietuva 
-UAB Bayer 
-Tel: +370 523 36 България 
-Байер България ЕООД 
-Tел.: +359-(0)2-424 72 Luxembourg/Luxemburg 
-Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
-Bayer s.r.o. 
-Tel: +420 266 101 Magyarország 
-Bayer Hungária KFT 
-Tel.: +36 14 87-4Danmark 
-Bayer A/S 
-Tlf: +45 45 23 50 Malta 
-Alfred Gera and Sons Ltd. 
-Tel: +35 621 44 62 Deutschland 
-Jenapharm GmbH &amp; Co. KG 
-Tel: +49 (0)3641-87 97 Nederland 
-Bayer B.V. 
-Tel: +31-(0)23 799 1Eesti 
-Bayer OÜ 
-Tel: +372 655 85 Norge 
-Bayer AS 
-Tlf: +47-23 13 05 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30 210 61 87 Österreich 
-Bayer Austria Ges. m. b. H. 
-Tel: +43-(0)1-711 46-0 
-España 
-Bayer Hispania S.L. 
-Tel: +34-93-495 65 Polska 
-Bayer Sp. z o.o. 
-Tel.: +48 22 572 35 France 
-Bayer HealthCare 
-Tél (N° vert) : +33-(0)800 87 54 Portugal 
-Bayer Portugal, Lda. 
-Tel: +351 21 416 42 Hrvatska 
-Bayer d.o.o. 
-Tel: + 385-(0)1-6599 România 
-SC Bayer SRL. 
-Tel: +40-21-529 59 Ireland 
-Bayer Limited 
-Tel: +353 1 216 3Slovenija 
-Bayer d. o. o. 
-Tel: +386 (0)1 58 14 Ísland 
-Icepharma hf. 
-Sími: +354-540 8Slovenská republika 
-Bayer, spol. s r.o. 
-Tel: +421 2-59 21 31 Italia 
-Bayer S.p.A. 
-Tel: +39 02 397 Suomi/Finland 
-Bayer Oy 
-Puh/Tel: +358-20 785 Κύπρος 
-NOVAGEM Limited 
-Τηλ: +357 22 48 38 Sverige 
-Bayer AB 
-Tel: +46 (0)8 580 223 Latvija 
-SIA Bayer 
-Tel: +371 67 845 United Kingdom (Northern Ireland) 
-Bayer AG<br />
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in  </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry date 
+refers to the last day of that month. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

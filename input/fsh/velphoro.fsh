@@ -4,7 +4,7 @@ Instance: composition-en-655cd017d0250a5b169d71fd018fd71c
 InstanceOf: CompositionUvEpi
 Title: "Composition for velphoro Package Leaflet"
 Description:  "Composition for velphoro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,23 +91,17 @@ phosphorus levels in your blood. </p>         </div>"""
   * code.text = "2. What you need to know before you take velphoro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Velphoro </p>
-<p>– 
-if you are allergic to sucroferric oxyhydroxide or any of the other ingredients of this medicine 
-(listed in section 6); 
-– 
-if you have a history of abnormal iron build-up in your organs (haemochromatosis); 
-– 
-if you have any other disorder associated with too much iron. </p>
+<p>if you are allergic to sucroferric oxyhydroxide or any of the other ingredients of this medicine 
+(listed in section 6); </p>
+<p>if you have a history of abnormal iron build-up in your organs (haemochromatosis); </p>
+<p>if you have any other disorder associated with too much iron. </p>
 <p>If you are not sure, talk to your doctor before taking this medicine. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Velphoro: 
-– 
-if you have had peritonitis, an inflammation of the peritoneum (the thin tissue that lines the inner 
-wall of the abdomen) within the last 3 months; 
-– 
-if you have significant stomach and/or liver problems; 
-– 
-if you have had major surgery on your stomach and/or intestines. </p>
+Talk to your doctor or pharmacist before taking Velphoro: </p>
+<p>if you have had peritonitis, an inflammation of the peritoneum (the thin tissue that lines the inner 
+wall of the abdomen) within the last 3 months; </p>
+<p>if you have significant stomach and/or liver problems; </p>
+<p>if you have had major surgery on your stomach and/or intestines. </p>
 <p>If you are not sure if any of the above applies to you, talk to your doctor or pharmacist before taking 
 this medicine. </p>
 <p>This medicine can cause black stools. Any potential bleeding from your digestive tract (stomach and 
@@ -134,7 +128,7 @@ risk assessment for use during pregnancy. </p>
 <p>If you are breast-feeding, your doctor will discuss with you whether to continue breast-feeding or to 
 continue therapy with Velphoro, taking into account the benefit of Velphoro therapy to you and the 
 benefit of breast-feeding to your child. </p>
-<p>It is unlikely that this medicine would pass into the mother’s milk. </p>
+<p>It is unlikely that this medicine would pass into the mother s milk. </p>
 <p>Driving and using machines 
 This medicine has no significant effect on your ability to drive or to use tools or machines. </p>
 <p>Velphoro contains sucrose and starches (carbohydrates) 
@@ -165,24 +159,17 @@ your blood. </p>
 to less than 12 years. </li>
 </ul>
 <p>Method of administration </p>
-<p>– 
-Take this medicine  only by mouth. 
-– 
-Take the tablet during a meal and chew it (if necessary, the tablet may be crushed to make this 
-easier for you). DO NOT swallow it whole. 
-– 
-Divide the amount of tablets taken per day across the meals of the day. 
-– 
-When taking Velphoro you should adhere to your recommended diet and treatments prescribed 
+<p>Take this medicine  only by mouth. </p>
+<p>Take the tablet during a meal and chew it (if necessary, the tablet may be crushed to make this 
+easier for you). DO NOT swallow it whole. </p>
+<p>Divide the amount of tablets taken per day across the meals of the day. </p>
+<p>When taking Velphoro you should adhere to your recommended diet and treatments prescribed 
 by your doctor such as calcium supplements, vitamin D3 or calcimimetics (used to treat 
 problems with parathyroid glands). </p>
-<p>Only for the blister packs: 
-– 
-Separate the blister pack at perforations. 
-– 
-Peel back the paper foil at the corner. 
-– 
-Push the tablet through the aluminium foil. </p>
+<p>Only for the blister packs: </p>
+<p>Separate the blister pack at perforations. </p>
+<p>Peel back the paper foil at the corner. </p>
+<p>Push the tablet through the aluminium foil. </p>
 <p>If you take more Velphoro than you should 
 If you have accidentally taken too many tablets, do not take any more and talk to your doctor or 
 pharmacist immediately. </p>
@@ -201,8 +188,8 @@ your blood may increase (see section 1). </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Black stools may occur very commonly in patients taking Velphoro. If you also have symptoms like 
-increasing tiredness and breathlessness contact your doctor immediately (see section 2 “Warnings and 
-precautions”). </p>
+increasing tiredness and breathlessness contact your doctor immediately (see section 2  Warnings and 
+precautions ). </p>
 <p>The following side effects have also been reported in patients taking this medicine: </p>
 <p>Very common (may affect more than 1 in 10 people): diarrhoea (generally occurring early on in the 
 treatment, and improving over time). </p>
@@ -225,7 +212,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, bottle or blister after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>After first opening of the bottle the chewable tablets can be used for 90 days. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -237,14 +224,12 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Velphoro contains 
-– 
-The active substance is sucroferric oxyhydroxide which is comprised of polynuclear iron(III)-
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Velphoro contains </p>
+<p>The active substance is sucroferric oxyhydroxide which is comprised of polynuclear iron(III)-
 oxyhydroxide, sucrose, and starches. Each chewable tablet contains sucroferric oxyhydroxide 
 corresponding to 500 mg iron. Each tablet also contains 750 mg sucrose and 700 mg starches. 
-See section 2 for further information on sucrose and starches. 
-– 
-The other ingredients are woodberry flavour, neohesperidin-dihydrochalcone, magnesium 
+See section 2 for further information on sucrose and starches. </p>
+<p>The other ingredients are woodberry flavour, neohesperidin-dihydrochalcone, magnesium 
 stearate, colloidal anhydrous silica. </p>
 <p>What Velphoro looks like and contents of the pack 
 The chewable tablets are brown, circular, and embossed with PA500 on one side. The tablets have a 
@@ -252,19 +237,19 @@ The chewable tablets are brown, circular, and embossed with PA500 on one side. T
 <p>The tablets are packed in high density polyethylene bottles with a child resistant polypropylene closure 
 and a foil induction seal, or in child resistant aluminium blister. </p>
 <p>Velphoro is available in packs containing 30 or 90 chewable tablets. Multipacks are available for the 
-blister packs with 90 chewable tablets (containing 3 individual packs of 30 × 1 chewable tablets each). </p>
+blister packs with 90 chewable tablets (containing 3 individual packs of 30   1 chewable tablets each). </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris la Défense Cedex 
+100 101 Terrasse Boieldieu 
+Tour Franklin La D fense 8 
+92042 Paris la D fense Cedex 
 France </p>
 <p>Manufacturer 
 Vifor France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris la Défense Cedex 
+100 101 Terrasse Boieldieu 
+Tour Franklin La D fense 8 
+92042 Paris la D fense Cedex 
 France </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in </p>

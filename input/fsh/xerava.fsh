@@ -4,7 +4,7 @@ Instance: composition-en-b6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xerava Package Leaflet"
 Description:  "Composition for xerava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Xerava is </p>
 <p>Xerava is an antibiotic medicine that contains the active substance eravacycline. It belongs to a group 
-of antibiotics called ‘tetracyclines’ which work by stopping the growth of certain infectious bacteria.  </p>
+of antibiotics called  tetracyclines  which work by stopping the growth of certain infectious bacteria.  </p>
 <p>What Xerava is used for </p>
 <p>Xerava is used to treat adults with a complicated infection in the abdomen.  </p>         </div>"""   
           
@@ -108,7 +108,7 @@ any of the following at the site of infusion during or after your treatment: red
 inflammation, or pain or tenderness.  </p>
 <p>New infection 
 Although Xerava fights certain bacteria, other bacteria and fungi may continue to grow. This is called 
-‘overgrowth’ or ‘superinfection’. Your doctor will monitor you closely for any new infections or stop 
+ overgrowth  or  superinfection . Your doctor will monitor you closely for any new infections or stop 
 treatment with Xerava and give you another treatment if necessary.  </p>
 <p>Pancreatitis 
 Severe pain in the abdomen and back with fever may be signs of inflammation of the pancreas. Tell 
@@ -124,7 +124,7 @@ because it can cause permanent effects on their teeth such as discolouration. </
 <p>Other medicines and Xerava </p>
 <p>Tell your doctor or nurse if you are taking, have recently taken or might take any other medicines 
 including rifampicin and clarithromycin (antibiotics), phenobarbital, carbamazepine and phenytoin 
-(used to treat epilepsy), St. John’s Wort (a herbal remedy used for treatment of depression and 
+(used to treat epilepsy), St. John s Wort (a herbal remedy used for treatment of depression and 
 anxiety) itraconazole (a medicine to treat fungal infections), ritonavir, atazanavir, lopinavir and 
 saquinavir (medicines used to treat viral infections), and cyclosporine (a medicine used to suppress the 
 immune system). </p>
@@ -132,10 +132,10 @@ immune system). </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before receiving this medicine. Xerava is not recommended for use during 
 pregnancy as it can:<br />
-* permanently stain your unborn child’s teeth 
+* permanently stain your unborn child s teeth 
 * delay the natural formation of the bones of your unborn child. </p>
 <p>It is not known if Xerava passes into breast milk. Long-term use of other similar antibiotic medicines 
-by breast-feeding mothers can stain the child’s teeth permanently. Ask your doctor for advice before 
+by breast-feeding mothers can stain the child s teeth permanently. Ask your doctor for advice before 
 breast-feeding your baby. </p>
 <p>Driving and using machines </p>
 <p>Xerava may affect your ability to drive or use machines safely. Do not drive or use machines if you 
@@ -149,7 +149,7 @@ feel dizzy, light-headed or unsteady after receiving this medicine.  </p>       
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xerava will be given to you by a doctor or nurse. </p>
 <p>The recommended dose for adults is based on body weight and is 1 mg/kg every 12 hours. 
 Your doctor may increase your dose (1.5 mg/kg every 12 hours) if you are taking other medicines 
-including rifampicin, phenobarbital, carbamazepine, phenytoin, or St. John’s Wort. </p>
+including rifampicin, phenobarbital, carbamazepine, phenytoin, or St. John s Wort. </p>
 <p>It will be given to you through a drip directly into a vein (intravenously) over approximately 1 hour. </p>
 <p>A course of treatment usually lasts for 4 to 14 days. Your doctor will decide how long you should be 
 treated for.  </p>
@@ -212,9 +212,9 @@ medicine. </p>         </div>"""
   * code.text = "5. How to store xerava"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C - 8° C). Keep the vial in the carton in order to protect from light. </p>
+<p>Store in a refrigerator (2  C - 8  C). Keep the vial in the carton in order to protect from light. </p>
 <p>Once the powder has been made into a solution and diluted ready for use, it should be given to you 
 immediately. If not, it may be stored at room temperature and used within 12 hours.  </p>
 <p>Reconstituted Xerava should be a clear, pale yellow to orange solution. The solution should not be 
@@ -242,27 +242,27 @@ vial. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder  </p>
 <p>PAION Deutschland GmbH<br />
-Heussstraße 52078 Aachen<br />
+Heussstra e 52078 Aachen<br />
 Germany </p>
 <p>Manufacturer </p>
 <p>Patheon Italia S.p.A. 
-2° Trav. SX. Via Morolense, 5 
+2  Trav. SX. Via Morolense, 5 
 03013 Ferentino (FR) 
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Viatris bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 Lietuva<br />
+T l/Tel: + 32 (0)2 658 61 Lietuva<br />
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4България 
+Tel: + 49 800 4453 4<br />
 PAION Deutschland GmbH<br />
-Teл.: + 49 800 4453 4Luxembourg/Luxemburg<br />
+Te .: + 49 800 4453 4Luxembourg/Luxemburg<br />
 PAION Deutschland GmbH<br />
-Tél/Tel: + 49 800 4453 4Česká republika 
+T l/Tel: + 49 800 4453 4 esk  republika 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4453&lt;{e-mail}&gt; 
-Magyarország<br />
+Tel: + 49 800 4453 4453<em>{e-mail}</em> 
+Magyarorsz g<br />
 PAION Deutschland GmbH<br />
 Tel.: + 49 800 4453 4Danmark<br />
 PAION Deutschland GmbH<br />
@@ -276,38 +276,38 @@ Tel: + 49 800 4453 4Eesti
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Norge 
 PAION Deutschland GmbH<br />
-Tlf: + 49 800 4453 4Ελλάδα 
+Tlf: + 49 800 4453 4<br />
 Viatris Hellas Ltd 
-Τηλ: +30 210 0100Österreich 
+ : +30 210 0100 sterreich 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4España 
+Tel: + 49 800 4453 4Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel.: + 48 22 546 64 France 
-Viatris Santé 
-Tél: +33 4 37 25 75 Portugal 
+Viatris Sant<br />
+T l: +33 4 37 25 75 Portugal 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Hrvatska<br />
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4România 
+Tel: + 49 800 4453 4Rom nia 
 BGP Products SRL 
 Tel: +40 372 579 Ireland<br />
 Slovenija 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4Ísland 
+Tel: + 49 800 4453 4 sland 
 PAION Deutschland GmbH<br />
-Sími: + 49 800 4453 4453<br />
-Slovenská republika<br />
+S mi: + 49 800 4453 4453<br />
+Slovensk  republika<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Italia 
 Mylan Italia S.r.l. 
 Tel: + 39 02 612 46Suomi/Finland 
 PAION Deutschland GmbH<br />
-Puh/Tel: + 49 800 4453 4Κύπρος<br />
+Puh/Tel: + 49 800 4453 4 <br />
 PAION Deutschland GmbH<br />
-Τηλ: + 49 800 4453 4Sverige 
+ : + 49 800 4453 4Sverige 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Latvija<br />
 PAION Deutschland GmbH<br />

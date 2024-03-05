@@ -4,7 +4,7 @@ Instance: composition-en-23483e68b180589da70be31f3872f1d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tepadina Package Leaflet"
 Description:  "Composition for tepadina Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,10 +89,12 @@ TEPADINA can be used in adults and children and adolescents. </p>         </div>
 - if you are breast-feeding, 
 - if you are receiving yellow fever vaccination, live virus and bacterial vaccines. </p>
 <p>Warning and precautions 
-You should tell your doctor if you have: 
-- liver or kidney problems, 
-- heart or lung problems, 
-- seizures/fits (epilepsy) or have had them in the past (if treated with phenytoin or fosphenytoin). </p>
+You should tell your doctor if you have:</p>
+<ul>
+<li>liver or kidney problems, </li>
+<li>heart or lung problems, </li>
+<li>seizures/fits (epilepsy) or have had them in the past (if treated with phenytoin or fosphenytoin). </li>
+</ul>
 <p>Because TEPADINA destroys bone marrow cells responsible for producing blood cells, regular blood 
 tests will be taken during treatment to check your blood cell counts. </p>
 <p>In order to prevent and manage infections, you will be given anti-infectives. </p>
@@ -256,11 +258,11 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use TEPADINA after the expiry date which is stated on the carton and vial label, after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2°C-8°C). 
+<p>Store and transport refrigerated (2 C-8 C). 
 Do not freeze. </p>
-<p>After reconstitution the product is stable for 8 hours when stored at 2°C -8°C. </p>
-<p>After dilution the product is stable for 24 hours when stored at 2°C -8°C and for 4 hours when stored 
-at 25°C. From a microbiological point of view, the product should be used immediately. </p>
+<p>After reconstitution the product is stable for 8 hours when stored at 2 C -8 C. </p>
+<p>After dilution the product is stable for 24 hours when stored at 2 C -8 C and for 4 hours when stored 
+at 25 C. From a microbiological point of view, the product should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -285,19 +287,18 @@ Tel: +39 02 40700445<br />
 adienne@adienne.com </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Accord Healthcare bv 
-Tèl/Tel: +32 51 79 40 Lietuva 
+T l/Tel: +32 51 79 40 Lietuva 
 Accord Healthcare AB 
-Tel: +46 8 624 00<br />
-България 
-Accord Healthcare Polska Sp. z o.o. 
-Teл.: +48 22 577 28 Luxembourg/Luxemburg 
+Tel: +46 8 624 00  </p>
+<p>Accord Healthcare Polska Sp. z o.o. 
+Te .: +48 22 577 28 Luxembourg/Luxemburg 
 Accord Healthcare bv 
-Tèl/Tel: +32 51 79 40<br />
-Česká republika 
+T l/Tel: +32 51 79 40<br />
+ esk  republika 
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28 Magyarország 
+Tel: +48 22 577 28 Magyarorsz g 
 Accord Healthcare Polska Sp. z o.o. 
 Tel.: +48 22 577 28 Danmark 
 Accord Healthcare AB 
@@ -315,26 +316,25 @@ Eesti
 Accord Healthcare AB 
 Tel: +46 8 624 00 Norge 
 Accord Healthcare AB 
-Tlf: + 46 8 624 00<br />
-Ελλάδα 
-Accord Healthcare Italia Srl 
-Τηλ: + 39 02 943 23 700 <br />
-Österreich 
+Tlf: + 46 8 624 00  </p>
+<p>Accord Healthcare Italia Srl 
+ : + 39 02 943 23 700 <br />
+ sterreich 
 Accord Healthcare GmbH 
 Tel: +43 (0)662 424899-0 </p>
-<p>España 
+<p>Espa a 
 Accord Healthcare S.L.U. 
 Tel: +34 93 301 00 Polska 
 Accord Healthcare Polska Sp. z o.o. 
 Tel.: +48 22 577 28   </p>
 <p>France 
 Accord Healthcare France SAS 
-Tél: +33 (0)320 401 Portugal 
+T l: +33 (0)320 401 Portugal 
 Accord Healthcare, Unipessoal Lda 
 Tel: +351 214 697<br />
 Hrvatska<br />
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28 România 
+Tel: +48 22 577 28 Rom nia 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28<br />
 Ireland 
@@ -342,19 +342,18 @@ Accord Healthcare Ireland Ltd
 Tel: +44 (0)1271 385 
 Slovenija 
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28 Ísland 
+Tel: +48 22 577 28  sland 
 Accord Healthcare AB 
-Sími: + 46 8 624 00<br />
-Slovenská republika 
+S mi: + 46 8 624 00<br />
+Slovensk  republika 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28 Italia 
 Accord Healthcare Italia Srl 
 Tel: +39 02 943 23 Suomi/Finland 
 Accord Healthcare Oy 
-Puh/Tel: + 358 10 231 4 
-Κύπρος 
-Accord Healthcare S.L.U. 
-Τηλ: + 34 93 301 00<br />
+Puh/Tel: + 358 10 231 4 </p>
+<p>Accord Healthcare S.L.U. 
+ : + 34 93 301 00<br />
 Sverige 
 Accord Healthcare AB 
 Tel: + 46 8 624 00<br />

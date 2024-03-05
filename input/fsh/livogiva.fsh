@@ -4,7 +4,7 @@ Instance: composition-en-c94b2bb5a2491f8b60f6777b6703f8a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for livogiva Package Leaflet"
 Description:  "Composition for livogiva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,7 +91,7 @@ section 6).
 (metastasised) to your bones.<br />
 </em> if you have certain bone diseases. If you have a bone disease, tell your doctor.<br />
 <em> if you have unexplained high levels of alkaline phosphatase in your blood, which means you 
-might have Paget’s disease of bone (disease with abnormal bone changes). If you are not sure, 
+might have Paget s disease of bone (disease with abnormal bone changes). If you are not sure, 
 ask your doctor.<br />
 </em> if you have had radiation therapy involving your bones.<br />
 * if you are pregnant or breast-feeding.  </p>
@@ -121,8 +121,8 @@ any medicine.  </p>
 Some patients may feel dizzy after injecting Livogiva. If you feel dizzy you should not drive or use 
 machines until you feel better </p>
 <p>Livogiva contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take livogiva"
@@ -225,7 +225,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and pen after EXP. The 
 expiry date refers to the last day of that month.  </p>
-<p>Livogiva should be stored in a refrigerator (2°C to 8°C) at all times. You can use Livogiva for up to days after the first injection, as long as the pen is stored in a refrigerator (2°C to 8°C).  </p>
+<p>Livogiva should be stored in a refrigerator (2 C to 8 C) at all times. You can use Livogiva for up to days after the first injection, as long as the pen is stored in a refrigerator (2 C to 8 C).  </p>
 <p>Avoid placing the pens close to the ice compartment of the refrigerator to prevent freezing. Do not use 
 Livogiva if it is, or has been, frozen.  </p>
 <p>Each pen should be properly disposed of after 28 days, even if it is not completely empty.  </p>
@@ -245,22 +245,5 @@ throw away medicines you no longer use. These measures will help to protect the 
 250 micrograms of teriparatide. Each pre-filled pen of 2.7 mL contains 675 micrograms of 
 teriparatide (corresponding to 250 micrograms per mL). 
 - The other ingredients are glacial acetic acid, sodium acetate trihydrate, mannitol, metacresol, 
-and water for injections. See section 2.  </p>
-<p>What Livogiva looks like and contents of the pack 
-Livogiva is a colourless and clear solution. It is supplied in a cartridge contained in a pre-filled 
-disposable pen. Each pen contains 2.7 mL of solution enough for 28 doses. Livogiva is available in 
-packs containing one or three pre-filled pens.  </p>
-<p>Not all pack sizes may be available. </p>
-<p>Marketing Authorisation Holder<br />
-Theramex Ireland Limited<br />
-3rd Floor Kilmore House, Park Lane, Spencer Dock<br />
-DO1 YE64 Dublin 1<br />
-Ireland  </p>
-<p>Manufacturer 
-Eurofins PROXY Laboratories (PRX) 
-Archimedesweg 25 2333 CM Leiden 
-Netherlands </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+and water for injections. See section </p>         </div>"""      
 

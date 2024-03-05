@@ -4,7 +4,7 @@ Instance: composition-en-44ab08ec2fd441510cd1e000dae630ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyclara Package Leaflet"
 Description:  "Composition for zyclara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zyclara 3.75% cream contains the active substance imiquimod, which is an Immune Response 
 Modifier (to stimulate the human immune system). </p>
 <p>This medicine is prescribed for the treatment of actinic keratosis in adults. </p>
-<p>This medicine stimulates your body’s own immune system to produce natural substances which help 
+<p>This medicine stimulates your body s own immune system to produce natural substances which help 
 fight your actinic keratosis.  </p>
 <p>Actinic keratosis appears as rough areas of skin found in people who have been exposed to a lot of 
 sunshine over the course of their lifetime. These areas can be the same colour as your skin or are 
@@ -174,7 +174,12 @@ you are not sure. Do not use this medicine until your doctor has shown you the r
 Apply this medicine to the affected area once a day just before bedtime. 
 Maximum daily dose is 2 sachets (500 mg = 2 sachets of 250 mg each). 
 This medicine should not be applied to areas larger than either the full face or balding scalp.  </p>
-<p>Method of administration </p>         </div>"""         
+<p>Method of administration </p>
+<ol>
+<li>Before going to bed, wash your hands and the 
+treatment area carefully with mild soap and water. Dry hands 
+thoroughly and allow the area to dry. </li>
+</ol>         </div>"""         
 
         
 * section[=].section[+]
@@ -182,17 +187,128 @@ This medicine should not be applied to areas larger than either the full face or
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>treatment area carefully with mild soap and water. Dry hands 
-thoroughly and allow the area to dry. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Open a new sachet of Zyclara just before use and 
+squeeze some cream onto your fingertip. No more than 2 
+sachets should be used per application. </p>
+<ol>
+<li>
+<p>Apply a thin layer of Zyclara to the affected area. Rub 
+gently into the area until the cream vanishes. Avoid contact 
+with the eyes, lips and nostrils. </p>
+</li>
+<li>
+<p>After application of the cream, throw away the opened 
+sachet. Wash hands well with soap and water. </p>
+</li>
+<li>
+<p>Leave Zyclara on the skin for about 8 hours. Do not 
+shower or bathe the area during this time. Do not cover the 
+treated area with bandages or other dressings. </p>
+</li>
+<li>
+<p>After about 8 hours, wash the area where Zyclara was 
+applied with mild soap and water. </p>
+</li>
+</ol>
+<p>Duration of treatment 
+The treatment starts with a daily application for two weeks, followed by a break without any 
+application for two weeks, and then ends with a daily application again for two weeks. </p>
+<p>If you use more Zyclara than you should </p>
+<p>If you have applied too much cream, wash the extra away with mild soap and water. 
+When any skin reaction has gone you may then continue with your treatment in the recommended 
+regular schedule. The cream should not be applied more than once daily. </p>
+<p>If you accidentally swallow this medicine please contact your doctor immediately. </p>
+<p>If you forget to use Zyclara </p>
+<p>If you miss a dose of Zyclara, wait until the next night to apply it and then continue with the regular 
+schedule. The cream should not be applied more than once daily. Each treatment cycle should last no 
+longer than two weeks, even if you have missed doses. </p>
+<p>If you stop using Zyclara </p>
+<p>Talk to your doctor before you stop treatment with Zyclara. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyclara"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store zyclara"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Open a new sachet of Zyclara just before use and 
-squeeze some cream onto your fingertip. No more than 2 
-sachets should be used per application. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Seek medical attention right away if any of these severe side effects occur when using this medicine: </p>
+<p>Serious skin reactions (frequency not known) with skin lesions or spots on your skin that start out as 
+small red areas and progress to look like mini targets, possibly with symptoms such as itching, fever, 
+overall ill feeling, achy joints, vision problems, burning, painful or itchy eyes and mouth sores. If you 
+experience these, stop using this medicine and tell your doctor immediately. </p>
+<p>In some individuals a lowering of blood counts was noted (frequency not known). This might make 
+you more susceptible to infections, make you bruise more easily or cause tiredness. If you notice any 
+of these symptoms, tell your doctor. 
+Some patients who suffer from autoimmune disorders may experience worsening of their condition. If 
+you notice any change during treatment with Zyclara, tell your doctor. 
+If there is pus or another sign of skin infection (frequency not known), discuss this with your doctor. </p>
+<p>Many of the side effects of this medicine are due to its local action on your skin. Local skin reactions 
+can be a sign that the medicine is working as intended. If your skin reacts badly or becomes too 
+uncomfortable when using this medicine, stop applying the cream and wash the area with mild soap 
+and water. Then contact your doctor or pharmacist. He may advise you to stop applying this medicine 
+for a few days (i.e. to have a short rest from treatment).  </p>
+<p>The following side effects with imiquimod were reported: </p>
+<p>Very common (may affect more than 1 in 10 people) 
+- Skin redness, scabbing, skin scaling, discharge, skin dryness, skin swelling, skin ulcer, and 
+reduced skin pigmentation at the application site </p>
+<p>Common (may affect up to 1 in 10 people) 
+- Further reactions at the application site e.g. skin inflammation, itching, pain, burning, irritation, 
+and rash 
+- Swollen glands 
+- Headache 
+- Dizziness 
+- Loss of appetite 
+- Nausea 
+- Diarrhoea 
+- Vomiting 
+- Flu-like symptoms 
+- Fever 
+- Pain 
+- Muscle and joint pain 
+- Chest pain 
+- Insomnia 
+- Tiredness 
+- Viral infection (herpes simplex) 
+- Increase in blood glucose </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+- Changes at the application site, e.g. bleeding, small swollen areas in the skin, inflammation, pins 
+and needles, increased sensitivity to touch, scarring, feeling of warmth, skin breakdown, blisters or 
+pustules 
+- Weakness 
+- Shivering 
+- Lack of energy (lethargy) 
+- Discomfort 
+- Swelling of the face 
+- Back pain 
+- Pain in limbs 
+- Stuffy nose </p>
+<ul>
+<li>Throat pain </li>
+<li>Eye irritation </li>
+<li>Swelling of the eyelid </li>
+<li>Depression </li>
+<li>Irritability </li>
+<li>Dry mouth </li>
+<li>Abdominal pain </li>
+</ul>
+<p>Rare (may affect up to 1 in 1,000 people) 
+- Flaring up of autoimmune conditions (a disease that results from an abnormal immune response is 
+an autoimmune disease) 
+- Skin reactions remote from the application site </p>
+<p>Frequency not known (frequency cannot be estimated from the available data)<br />
+- Changes in skin colour 
+Some patients have experienced changes in skin colour in the area where Zyclara was applied. 
+While these changes have tended to improve with time, in some patients they may be permanent. 
+- Hair loss 
+A small number of patients have experienced hair loss at the treatment site or surrounding area. 
+- Increase in liver enzymes 
+There have been reports of increased liver enzymes. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -200,6 +316,12 @@ sachets should be used per application. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>gently into the area until the cream vanishes. Avoid contact 
-with the eyes, lips and nostrils. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and the label after 
+EXP. 
+The expiry date refers to the last day of that month. 
+Do not store above 25  C. </p>
+<p>Sachets should not be re-used once opened. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
 

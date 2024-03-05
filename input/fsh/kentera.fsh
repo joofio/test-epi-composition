@@ -4,7 +4,7 @@ Instance: composition-en-a346fcd48e1745156d4e5145052e15e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for kentera Package Leaflet"
 Description:  "Composition for kentera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -111,16 +111,18 @@ such as dry mouth, constipation and drowsiness, may increase how often and how s
 effects are experienced. </p>
 <p>Oxybutynin may slow the digestive tract and thereby influence the adsorption of other oral medicines, 
 or the use of this medicine together with other medicines may increase the effect of oxybutynin, 
-especially: 
-- Ketoconazole, itraconazole or fluconazole (used for the treatment of fungal infections). 
-- Erythromycin a macrolide antibiotic (used to treat bacterial infections). 
-- Biperiden, levodopa, or amantadine (used to treat Parkinson’s disease). 
-- Antihistamines (used in the treatment of allergies such as hay fever). 
-- Phenothiazines or clozapine (used to treat mental illness). 
-- Tricyclic antidepressants (used to treat depression). 
-- Dipyridamole (used to treat blood clotting problems). 
-- Atropine and other anticholinergic medicines (used for treatment in stomach disorders such as 
-irritable bowel syndrome). </p>
+especially:</p>
+<ul>
+<li>Ketoconazole, itraconazole or fluconazole (used for the treatment of fungal infections). </li>
+<li>Erythromycin a macrolide antibiotic (used to treat bacterial infections). </li>
+<li>Biperiden, levodopa, or amantadine (used to treat Parkinson s disease). </li>
+<li>Antihistamines (used in the treatment of allergies such as hay fever). </li>
+<li>Phenothiazines or clozapine (used to treat mental illness). </li>
+<li>Tricyclic antidepressants (used to treat depression). </li>
+<li>Dipyridamole (used to treat blood clotting problems). </li>
+<li>Atropine and other anticholinergic medicines (used for treatment in stomach disorders such as 
+irritable bowel syndrome). </li>
+</ul>
 <p>Kentera with alcohol 
 Oxybutynin may cause drowsiness or blurred vision. Drowsiness may be increased by consumption of 
 alcohol. </p>
@@ -128,7 +130,7 @@ alcohol. </p>
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before using this medicine. </p>
 <p>Kentera should not be used during pregnancy unless clearly necessary. </p>
-<p>When oxybutynin is used during breast-feeding, a small amount is excreted in the mother’s milk. Use 
+<p>When oxybutynin is used during breast-feeding, a small amount is excreted in the mother s milk. Use 
 of oxybutynin while breast-feeding is therefore not recommended. </p>
 <p>Driving and using machines 
 Because Kentera may produce drowsiness, somnolence, or blurred vision, patients should be advised 
@@ -158,7 +160,7 @@ application. Do not apply a patch to the same place on your body for at least 1 
 Each patch is individually sealed in a protective sachet. Please read all the information below before 
 you begin to apply Kentera. </p>
 <p>To apply Kentera </p>
-<p>Step 1: Choose a spot for the patch that is: </p>
+<p>Step 1: Choose a spot for the patch that is:</p>
 <ul>
 <li>Freshly washed, but dry and cool (wait a few minutes after taking a hot bath or shower). </li>
 <li>Free of body powder, lotion, and oil. </li>
@@ -192,7 +194,7 @@ edges. </li>
 </ul>
 <p>Bathing, showering, swimming and exercise 
 You should wear each patch all the time until you apply a new one. Baths, showers, swimming and 
-exercise should not affect the patch as long as you don’t rub the patch as you wash. Avoid soaking in a 
+exercise should not affect the patch as long as you don t rub the patch as you wash. Avoid soaking in a 
 hot bath for a long period of time, which can make the patch come off. </p>
 <p>If the patch comes off 
 If the patch starts to lift off your skin, apply a little bit of pressure using your fingertips. The patch is 
@@ -318,7 +320,7 @@ Swensweg 5
 The Netherlands </p>
 <p>Manufacturer </p>
 <p>Merckle GmbH 
-Ludwig-Merckle-Straße 3 
+Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
 Germany </p>
 <p>Teva Pharmaceuticals Europe B.V. 
@@ -327,24 +329,22 @@ Swensweg 5
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -364,28 +364,27 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970España 
+Tel: +43 1970Espa a 
 Laboratorios Gebro Pharma, S.A. 
 Tel: +34 932058 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -394,10 +393,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -405,16 +404,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Accord Healthcare Ireland Ltd. 

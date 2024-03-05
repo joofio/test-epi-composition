@@ -4,7 +4,7 @@ Instance: composition-en-67eb9f5d8991acd60b19f2204c2773c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for spedra Package Leaflet"
 Description:  "Composition for spedra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ penis suitable for sexual activity. </p>
 your penis, helping it stay hard and erect when you get sexually excited. Spedra does not cure your 
 condition. </p>
 <p>It is important to note that Spedra only works if you are sexually stimulated. You and your partner will 
-still need to use foreplay to get ready for sex – just as you would if you were not taking a medicine to 
+still need to use foreplay to get ready for sex   just as you would if you were not taking a medicine to 
 help you. </p>
 <p>Spedra will not help you if you do not have erectile dysfunction. Spedra is not for women. </p>         </div>"""   
           
@@ -91,7 +91,7 @@ help you. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Spedra: </p>
 <ul>
 <li>If you are allergic to avanafil or any of the other ingredients of this medicine (listed in section 6) </li>
-<li>If you are taking “nitrate” medicines for chest pain (angina), such as amyl nitrite or glyceryl 
+<li>If you are taking  nitrate  medicines for chest pain (angina), such as amyl nitrite or glyceryl 
 trinitrate. Spedra can increase the effects of these medicines and severely lower your blood 
 pressure </li>
 <li>If you are taking   s for HIV or AIDS such as ritonavir, indinavir, saquinavir, nelfinavir or 
@@ -121,13 +121,13 @@ pharmacist before taking Spedra. </p>
 * If you suffer from priapism, that is a persistent erection lasting 4 hours or more. This can 
 happen in men with conditions like sickle cell disease, multiple myeloma or leukaemia. 
 * If you have a physical condition that affects the shape of your penis (such as angulation, 
-Peyronie’s disease or cavernosal fibrosis) 
+Peyronie s disease or cavernosal fibrosis) 
 * If you have any bleeding disorder or active peptic ulceration. </p>
 <p>If any of the above apply to you talk to your doctor or pharmacist before taking Spedra. Check with 
 your doctor or pharmacist if you are not sure. </p>
 <p>Problems with your sight or hearing 
-Some men taking medicines like Spedra have had problems with their sight and hearing – see “Serious 
-side effects” in section 4 for more details. It is not known if these problems are related directly to 
+Some men taking medicines like Spedra have had problems with their sight and hearing   see  Serious 
+side effects  in section 4 for more details. It is not known if these problems are related directly to 
 Spedra, other diseases that you may have or a combination of factors. </p>
 <p>Children and adolescents </p>
 <p>Spedra should not be taken by children and adolescents under 18 years of age. </p>
@@ -135,22 +135,22 @@ Spedra, other diseases that you may have or a combination of factors. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This is because Spedra can affect the way some other medicines work. Also some other 
 medicines can affect the way Spedra works. </p>
-<p>In particular, tell your doctor and do not take Spedra if you are taking “nitrate” medicines for chest 
+<p>In particular, tell your doctor and do not take Spedra if you are taking  nitrate  medicines for chest 
 pain (angina) such as amyl nitrite or glyceryl trinitrate. Spedra has been shown to increase the effects 
 of these medicines and severely lower your blood pressure. Also do not take Spedra if you are taking 
 medicines for HIV or AIDS such as ritonavir, indinavir, saquinavir, nelfinavir or atazanavir or if you 
 are taking medicines for fungal infections such as ketoconazole, itraconazole or voriconazole or 
 certain antibiotics for bacterial infections, such as clarithromycin or telithromycin (see beginning of 
-section 2 under ‘Do not take Spedra’). </p>
+section 2 under  Do not take Spedra ). </p>
 <p>Tell your doctor or pharmacist if you are taking any of the following medicines: 
-* so called “alpha-blockers” – for prostate problems or for lowering your high blood pressure 
-* medicines for an irregular heartbeat (“arrhythmia”) such as quinidine, procainamide, 
+* so called  alpha-blockers    for prostate problems or for lowering your high blood pressure 
+* medicines for an irregular heartbeat ( arrhythmia ) such as quinidine, procainamide, 
 amiodarone or sotalol 
 * antibiotics for infections such as erythromycin 
-* phenobarbital or primidone – for epilepsy 
-* carbamazepine – for epilepsy, to stabilise your mood or for certain types of pain 
-* other medicines that may reduce the breakdown of Spedra in the body (‘moderate CYP3A4 
-inhibitors’) including amprenavir, aprepitant, diltiazem, fluconazole, fosamprenavir, and 
+* phenobarbital or primidone   for epilepsy 
+* carbamazepine   for epilepsy, to stabilise your mood or for certain types of pain 
+* other medicines that may reduce the breakdown of Spedra in the body ( moderate CYP3A4 
+inhibitors ) including amprenavir, aprepitant, diltiazem, fluconazole, fosamprenavir, and 
 verapamil. 
 * riociguat </p>
 <p>Do not use Spedra together with other treatments for erectile dysfunction such as sildenafil, tadalafil or 
@@ -183,7 +183,7 @@ if you are not sure.
 The recommended dose is a 100 mg tablet, as needed. You should not take Spedra more than once a 
 day. You could have been given the dose of one 200 mg tablet if your doctor has decided that the  mg dose was too weak for you, or the dose of one 50 mg tablet if your doctor has decided  that the mg tablet was too strong for you. Dose adjustments can also be required if Spedra is used together 
 with certain other medicines. If you are taking a medicine such as erythromycin, amprenavir, 
-aprepitant, diltiazem, fluconazole, fosamprenavir or verapamil (‘moderate CYP3A4 inhibitors’) the 
+aprepitant, diltiazem, fluconazole, fosamprenavir or verapamil ( moderate CYP3A4 inhibitors ) the 
 recommended dose of Spedra is a 100 mg tablet, with an interval of at least 2 days between doses. 
 You should take Spedra about 30 minutes before you have sexual intercourse. Remember that Spedra 
 will only help you to get an erection if you are sexually stimulated. 
@@ -202,8 +202,8 @@ than usual and they may be worse. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>Stop taking Spedra and see a doctor straight away if you notice any of the following serious side 
-effects – you may need urgent medical treatment: 
-* an erection that will not go away (“priapism”). If you get an erection that lasts more than 
+effects   you may need urgent medical treatment: 
+* an erection that will not go away ( priapism ). If you get an erection that lasts more than 
 4 hours, this must be treated as soon as possible or lasting damage can happen to your penis 
 (including not being able to get erections). 
 * blurred vision. 
@@ -261,7 +261,7 @@ ears). </p>
 * increased blood pressure 
 * pink or red urine, blood in the urine 
 * abnormal extra sound from the heart 
-* an abnormal blood test result for a prostate test called ‘PSA’ 
+* an abnormal blood test result for a prostate test called  PSA<br />
 * an abnormal blood test result for bilirubin, a chemical produced from the normal breakdown of 
 red blood cells 
 * an abnormal blood test result for creatinine, a chemical excreted in the urine, and a measure of 
@@ -281,7 +281,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store spedra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage condition. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -301,7 +301,7 @@ hydroxypropylcellulose low substituted, calcium carbonate, magnesium stearate an
 yellow (E172). </li>
 </ul>
 <p>What Spedra looks like and contents of the pack </p>
-<p>Spedra is a pale yellow oval tablet, marked “50”on one side. The tablets are provided in perforated 
+<p>Spedra is a pale yellow oval tablet, marked  50 on one side. The tablets are provided in perforated 
 unit dose blister packs containing 4x1, 8x1, or 12x1 tablets. </p>
 <p>Not all pack sizes may be marketed in your country. </p>
 <p>Marketing Authorisation Holder:<br />
@@ -311,7 +311,7 @@ L-1611 Luxembourg,<br />
 Luxembourg. </p>
 <p>Manufacturer:<br />
 Menarini - Von Heyden GmbH 
-Leipziger Straβe 7-01097 Dresden<br />
+Leipziger Stra e 7-01097 Dresden<br />
 Germany </p>
 <p>or </p>
 <p>Sanofi Winthrop Industrie 
@@ -321,22 +321,22 @@ Ambares et Lagrave
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4Lietuva 
-UAB “BERLIN-CHEMIE MENARINI 
-BALTIC” 
-Tel: +370 52 691<br />
-България 
-Берлин-Хеми/А. Менарини България ЕООД 
-тел.: +359 2 454 0 
+T l/Tel: + 32 (0)2 721 4Lietuva 
+UAB  BERLIN-CHEMIE MENARINI 
+BALTIC<br />
+Tel: +370 52 691  </p>
+<ul>
+<li>/ .     <br />
+ .: +359 2 454 0 
 Luxembourg/Luxemburg 
 Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4Česká republika 
+T l/Tel: + 32 (0)2 721 4 esk  republika 
 Berlin-Chemie/A.Menarini Ceska republika 
 s.r.o. 
 Tel: +420 267 199<br />
-Magyarország 
+Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 23501Danmark 
 Pharmaprim AB 
@@ -350,38 +350,39 @@ Berlin-Chemie AG
 Tel: +49 (0) 30 67 
 Nederland 
 Menarini Benelux NV/SA 
-Tel: +32 (0)2 721 4 </p>
+Tel: +32 (0)2 721 4 </li>
+</ul>
 <p>Eesti 
-OÜ Berlin-Chemie Menarini Eesti 
+O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5 </p>
 <p>Norge 
 Pharmaprim AB 
-Tlf: +46 8355Ελλάδα 
+Tlf: +46 8355<br />
 MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Österreich 
+ : +30 210 8316111- sterreich 
 A. Menarini Pharma GmbH 
 Tel: +43 1 879 95 85-0 </p>
-<p>España 
+<p>Espa a 
 Laboratorios Menarini S.A. 
 Tel: +34-93 462 88 Polska 
 Berlin-Chemie/Menarini Polska Sp. z o.o. 
 Tel.: +48 22 566 21 France 
 MENARINI France 
-Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
+T l: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal   Farmac utica, S.A. 
 Tel: +351 210 935 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
-Tel: + 385 1 4821 România 
+Tel: + 385 1 4821 Rom nia 
 Berlin-Chemie A. Menarini S.R.L. 
 Tel: +40 21 232 34 Ireland 
 A. Menarini Pharmaceuticals Ireland Ltd 
 Tel: +353 1 284 6Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
-Tel: +386 01 300 2Ísland 
+Tel: +386 01 300 2 sland 
 Pharmaprim AB 
-Sími: +46 8355 
-Slovenská republika 
+S mi: +46 8355 
+Slovensk  republika 
  Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o.Tel: +421 2 544 30 Italia 
 A. Menarini Industrie Farmaceutiche Riunite 
@@ -389,9 +390,9 @@ s.r.l.
 Tel: +39-055 56 
 Suomi/Finland 
 Berlin-Chemie/A.Menarini Suomi OY 
-Puh/Tel: +358 403 000 Κύπρος 
+Puh/Tel: +358 403 000 <br />
 MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Sverige 
+ : +30 210 8316111-Sverige 
 Pharmaprim AB 
 Tel: +46 8355Latvija 
 SIA Berlin-Chemie/Menarini Baltic 

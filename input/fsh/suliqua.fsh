@@ -4,7 +4,7 @@ Instance: composition-en-9150fcc2bde4114d1671dc57e6fd4ca7
 InstanceOf: CompositionUvEpi
 Title: "Composition for suliqua Package Leaflet"
 Description:  "Composition for suliqua Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Suliqua is an injectable diabetes medicine that contains two active substances: 
 * insulin glargine: a long-acting type of insulin which helps control blood sugar (glucose) 
 throughout the day. 
-* lixisenatide: a “GLP-1 analogue” that helps the body produce its own additional insulin in 
+* lixisenatide: a  GLP-1 analogue  that helps the body produce its own additional insulin in 
 response to increases in blood sugar, and slows the absorption of sugar from foods. </p>
 <p>Suliqua is used to treat adults with type 2 diabetes, to help control blood sugar levels when they are 
 too high, it is an adjunct to diet and exercise. It is given, with metformin with or without sodium-
@@ -95,13 +95,13 @@ right for you.
 * you have diabetic ketoacidosis (a complication of diabetes that occurs when the body is unable 
 to use glucose because there is not enough insulin) since this medicine will not be right for you.<br />
 <em> you have a severe stomach or gut problem such as a disease of the muscles of the stomach 
-called “gastroparesis” which results in delayed stomach emptying. Since Suliqua may cause 
+called  gastroparesis  which results in delayed stomach emptying. Since Suliqua may cause 
 stomach side effects (see section 4), the medicine has not been studied in patients with severe 
 stomach or gut problems. Please see the information regarding medicines that should not stay 
-too long in your stomach in the section “Other medicines and Suliqua”.   <br />
+too long in your stomach in the section  Other medicines and Suliqua .   <br />
 </em> you have severe kidney disease or you are on dialysis as the use of this medicine will not be 
 recommended.  </p>
-<p>Follow closely your doctor’s instructions for dose, monitoring (blood and urine tests), diet and 
+<p>Follow closely your doctor s instructions for dose, monitoring (blood and urine tests), diet and 
 physical activity (physical work and exercise) and injection technique. </p>
 <p>Be especially aware of the following: 
 * Too low blood sugar (hypoglycaemia). If your blood sugar is too low, follow the guidance for 
@@ -110,8 +110,14 @@ hypoglycaemia (see information in the box at the end of this leaflet).
 hyperglycaemia (see information in the box at the end of this leaflet). 
 * Ensure that you use the right medicine. You must always check the label before each injection 
 to avoid mix-ups between Suliqua and other insulins. 
-* If you have poor eyesight, please see section 3.<br />
-While using this medicine be aware of the following and talk to your doctor, pharmacist or nurse 
+* If you have poor eyesight, please see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take suliqua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take suliqua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>While using this medicine be aware of the following and talk to your doctor, pharmacist or nurse 
 before using Suliqua: 
 * severe pain in your stomach area (abdomen) that will not go away. This could be a sign of 
 inflamed pancreas (acute pancreatitis). 
@@ -154,7 +160,7 @@ injection.  </p>
 * Fluoxetine, for depression. 
 * Sulphonamide antibiotics, to treat infections. 
 * Fibrates, for lowering high levels of blood fats. 
-* Monoamine oxidase inhibitors (MAOIs), for depression or Parkinson´s disease. 
+* Monoamine oxidase inhibitors (MAOIs), for depression or Parkinson s disease. 
 * Angiotensin converting enzyme (ACE) inhibitors, for heart problems or high blood pressure. 
 * Medicines to relieve pain and lower fever, such as pentoxifylline, propoxyphene and salicylates 
 (such as acetylsalicylic acid). 
@@ -179,15 +185,15 @@ asthma. </p>
 * Beta-blockers or clonidine, for high blood pressure. 
 * Lithium salts, for mental health problems. </p>
 <p>Medicine that may reduce warning signs of low blood sugar 
-Beta-blockers and some other medicines (such as clonidine, guanethidine, reserpine – for high blood 
+Beta-blockers and some other medicines (such as clonidine, guanethidine, reserpine   for high blood 
 pressure) may make it harder to recognise warning signs of your low blood sugar levels 
 (hypoglycaemia). It can even hide or stop the first signs that your blood sugar is too low. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse before 
 using this medicine. </p>
 <p>Warfarin or other anticoagulants 
 Tell your doctor if you are taking warfarin or other anticoagulants (medicines used to prevent clotting 
-of the blood) as you might need to have more frequent blood tests (called ‘International Normalised 
-Ratio’ or INR test) to check your blood clotting. </p>
+of the blood) as you might need to have more frequent blood tests (called  International Normalised 
+Ratio  or INR test) to check your blood clotting. </p>
 <p>Suliqua with alcohol 
 Your blood sugar level may either rise or fall if you drink alcohol. You should check your blood sugar 
 level more often. </p>
@@ -205,14 +211,15 @@ dangerous to yourself and others.  </p>
 * You find it hard to recognise when your blood sugar is too low. </p>
 <p>Suliqua contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>Suliqua contains metacresol<br />
-This medicine contains metacresol which may cause allergic reactions. </p>         </div>"""   
-                    
+This medicine contains metacresol which may cause allergic reactions. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take suliqua"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take suliqua"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Your doctor may tell you to use a 
 different dose of Suliqua compared to your previous insulin dose or glucose lowering medicine if any. 
@@ -226,7 +233,7 @@ Check with your doctor, pharmacist or nurse if you are not sure. </p>
 Suliqua 100 units/ml + 50 micrograms/ml solution for injection in pre-filled pen: 
 * This pen provides a dose of 10 to 40 dose steps in one injection, in steps of 1 dose step.<br />
 * Each dose step you dial contains 1 unit of insulin glargine and 0.5 micrograms of lixisenatide.  </p>
-<p>Your dose of Suliqua is administered as ‘dose steps’. The dose window on the pen shows the number 
+<p>Your dose of Suliqua is administered as  dose steps . The dose window on the pen shows the number 
 of dose steps. </p>
 <p>Do not inject a dose lower than 10 dose steps. Do not inject a dose higher than 40 dose steps. 
 If a dose greater than 40 dose steps is needed, your doctor will prescribe a different strength. For dose 
@@ -243,17 +250,17 @@ If you have kidney or liver problems, talk to your doctor as you may need a lowe
 Use Suliqua once a day, within 1 hour before a meal. Preferably inject Suliqua before the same meal 
 every day, when you have chosen the most convenient meal. </p>
 <p>Before injecting Suliqua<br />
-* Always follow the “Instructions for use” that come with this package leaflet and use the pen as 
+* Always follow the  Instructions for use  that come with this package leaflet and use the pen as 
 described. 
 * If you do not follow all of these instructions, you may get too much or too little of Suliqua. </p>
 <p>To avoid mistakes, always check the medicine pack and label on the pen before each injection to make 
 sure you have the correct pen, especially if you inject more than one medicine.<br />
 Ask your doctor or pharmacist if you are not sure. </p>
 <p>How to inject 
-* Suliqua is injected under the skin (subcutaneous use or “SC”). 
+* Suliqua is injected under the skin (subcutaneous use or  SC ). 
 * Inject it into the front of your thighs, upper arms or the front of your waist (abdomen).<br />
 * Change the place within the area you inject each day. This will reduce the risk of developing 
-dents or lumps at the site (for more information, see “Other side effects” in section 4). </p>
+dents or lumps at the site (for more information, see  Other side effects  in section 4). </p>
 <p>Do not use Suliqua<br />
 * If there are particles in the Suliqua. The solution should be clear, colourless and water-like.  </p>
 <p>Other important information about using the pre-filled pens 
@@ -261,7 +268,7 @@ dents or lumps at the site (for more information, see “Other side effects” i
 needles which may cause under- or overdosing. Dispose of the needle safely after each use. 
 * To prevent infection being passed from one person to another, pens should never be used for 
 more than one person, even when the needle is changed.<br />
-* Only use needles that are compatible with Suliqua pen (see “Instructions for Use”). 
+* Only use needles that are compatible with Suliqua pen (see  Instructions for Use ). 
 * A safety test must be performed before each injection. 
 * Throw away the used needle in a sharps container, or as told by your pharmacist or local 
 authority. </p>
@@ -286,13 +293,12 @@ When needed, Suliqua can be injected before the next meal.
 <p>If you stop using Suliqua<br />
 Do not stop using this medicine without talking to your doctor. If you do, it could lead to very high 
 blood sugar (hyperglycaemia) and a build-up of acid in the blood (ketoacidosis).  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store suliqua"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store suliqua"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you notice signs of your blood sugar being too low (hypoglycaemia), take action to increase your 
@@ -337,149 +343,25 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store suliqua"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store suliqua"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen 
-after “EXP”. The expiry date refers to the last day of that month. </p>
-<p>Before first use 
-Store in a refrigerator (2°C-8°C).<br />
-Do not freeze or place next to the freezer compartment or a freezer pack. 
-Keep the pen in the outer carton in order to protect from light. </p>
-<p>After first use 
-Store your pen in use below 25°C for a maximum of 28 days. Discard the pen after this period. 
-Do not return the pen to a refrigerator and do not freeze. Store the pen away from direct heat or direct 
-light. Always keep the cap on the pen when you are not using it in order to protect it from light. 
-Do not leave the pen in a car on an exceptionally warm or cold day.<br />
-Do not store the pen with the needle attached. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer used. These measures will help protect the environment.  </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Suliqua contains<br />
-<em> The active substances are insulin glargine and lixisenatide.<br />
-Each pen contains 300 units insulin glargine and 150 micrograms lixisenatide in 3 ml of 
-solution. 
-Each ml contains 100 units insulin glargine and 50 micrograms lixisenatide. 
-Each dose step of Suliqua contains 1 unit of insulin glargine and 0.5 micrograms of lixisenatide.<br />
-</em> The other ingredients are: glycerol 85%, methionine, metacresol, zinc chloride, concentrated 
-hydrochloric acid and sodium hydroxide (for pH adjustment) and water for injections. See also 
-section 2 “What you need to know before you use Suliqua” for information on sodium and 
-metacresol. </p>
-<p>What Suliqua looks like and contents of the pack<br />
-Suliqua is a clear and colourless solution for injection (injection) filled in a glass cartridge inserted in a 
-pre-filled pen (SoloStar).  </p>
-<p>Pack sizes of 3, 5 and 10 pre-filled pens.<br />
-Not all pack sizes may be marketed. </p>
-<p>Needles are not included in the pack.  </p>
-<p>Marketing Authorisation Holder <br />
-Sanofi Winthrop Industrie 
-82 avenue Raspail 
-94250 Gentilly 
-France </p>
-<p>Manufacturer<br />
-Sanofi-Aventis Deutschland GmbH<br />
-Industriepark Höchst - 65926 Frankfurt am Main<br />
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
-Lietuva 
-Swixx Biopharma UAB 
-Tel: +370 5 236 91 България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942 Luxembourg/Luxemburg 
-Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
-sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarország 
-SANOFI-AVENTIS Zrt. 
-Tel.: +36 1 505 0 
-Danmark 
-Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Malta 
-Sanofi S.r.l. 
-Tel: +39 02 39394Deutschland 
-Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 52 52<br />
-Tel. aus dem Ausland: +49 69 305 21<br />
-Nederland 
-Sanofi B.V. 
-Tel: +31 20 245 4 
-Eesti 
-Swixx Biopharma OÜ<br />
-Tel: +372 640 10<br />
-Norge 
-sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
-Τηλ: +30 210 900 16<br />
-Österreich 
-sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
-sanofi-aventis, S.A. 
-Tel: +34 93 485 94<br />
-Polska 
-sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-France 
-Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
-Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
-Tel: +351 21 35 89<br />
-Hrvatska 
-Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
-Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Ireland 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenija 
-Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51 00<br />
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33 600<br />
-Italia 
-Sanofi S.r.l. 
-Tel: 800 131212 (domande di tipo tecnico)<br />
-        800 536389 (altre domande) </p>
-<p>Suomi/Finland 
-Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
-Sverige 
-Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
-Swixx Biopharma SIA 
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen 
+after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Before first use 
+Store in a refrigerator (2 C-8 C).<br />
+Do not freeze or place next to the freezer compartment or a freezer pack. 
+Keep the pen in the outer carton in order to protect from light. </p>
+<p>After first use 
+Store your pen in use below 25 C for a maximum of 28 days. Discard the pen after this period. 
+Do not return the pen to a refrigerator and do not freeze. Store the pen away from direct heat or direct 
+light. Always keep the cap on the pen when you are not using it in order to protect it from light. 
+Do not leave the pen in a car on an exceptionally warm or cold day.<br />
+Do not store the pen with the needle attached. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer used. These measures will help protect the environment.  </p>         </div>"""      
 

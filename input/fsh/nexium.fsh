@@ -4,7 +4,7 @@ Instance: composition-en-f820aac92043b070aeae10deaf85e116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexium Package Leaflet"
 Description:  "Composition for nexium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,10 +70,10 @@ Usage: #example
   * code.text =  "1. What nexium is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nexium Control contains the active substance esomeprazole. It belongs to a group of medicines called 
-‘proton pump inhibitors’. They work by reducing the amount of acid that your stomach produces. </p>
+ proton pump inhibitors . They work by reducing the amount of acid that your stomach produces. </p>
 <p>This medicine is used in adults for the short-term treatment of reflux symptoms (for example, 
 heartburn and acid regurgitation). </p>
-<p>Reflux is the backflow of acid from the stomach into the gullet (“foodpipe”) which may become 
+<p>Reflux is the backflow of acid from the stomach into the gullet ( foodpipe ) which may become 
 inflamed and painful. This may cause you symptoms such as a painful sensation in the chest rising up 
 to your throat (heartburn) and a sour taste in the mouth (acid regurgitation). </p>
 <p>Nexium Control is not meant to bring immediate relief. You may need to take the tablets for 2-3 days 
@@ -152,12 +152,12 @@ problems and are treated for a long period of time.
 * Phenytoin (used to treat epilepsy) 
 * Medicines that are used to thin your blood, such as warfarin. Your doctor may need to monitor 
 you when you start or stop taking Nexium Control 
-* Cilostazol (used to treat intermittent claudication – a condition where poor blood supply to the 
+* Cilostazol (used to treat intermittent claudication   a condition where poor blood supply to the 
 leg muscles causes pain and difficulty in walking) 
 * Cisapride (used for indigestion and heartburn) 
 * Rifampicin (used to treat tuberculosis) 
 * Tacrolimus (in cases of organ transplantation) 
-* St. John’s wort (Hypericum perforatum) (used to treat depression) </p>
+* St. John s wort (Hypericum perforatum) (used to treat depression) </p>
 <p>Pregnancy and breast-feeding 
 As a precautionary measure, you should preferably avoid the use of Nexium Control during 
 pregnancy. You should not use this medicine during breast-feeding. 
@@ -172,7 +172,7 @@ Nexium Control contains sugar spheres, which contain sucrose, a type of sugar. I
 by your doctor that you have an intolerance to some sugars, contact your doctor before taking this 
 medicine. </p>
 <p>Nexium Control contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium free’.  </p>         </div>"""   
+ sodium free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexium"
@@ -183,7 +183,7 @@ medicine. </p>
 you. Check with your doctor or pharmacist if you are not sure. </p>
 <p>How much to take 
 * The recommended dose is one tablet a day.<br />
-<em> Do not take more than this recommended dose of one tablet (20 mg) a day, even if you don’t 
+<em> Do not take more than this recommended dose of one tablet (20 mg) a day, even if you don t 
 feel an improvement immediately.<br />
 </em> You may need to take the tablets for 2 or 3 days in a row before your reflux symptoms (for 
 example, heartburn and acid regurgitation) get better. 
@@ -203,7 +203,7 @@ the acid in your stomach. It is important not to damage the pellets. </p>
 * Stir until the tablet breaks up (the mixture will not be clear) then drink the mixture straight away 
 or within 30 minutes. Always stir the mixture just before drinking it. 
 * To make sure that you have drunk all of the medicine, rinse the glass very well with half a glass 
-of water and drink it. The solid pieces contain the medicine – do not chew or crush them. </p>
+of water and drink it. The solid pieces contain the medicine   do not chew or crush them. </p>
 <p>If you take more Nexium Control than you should 
 If you take more Nexium Control than recommended, talk to your doctor or pharmacist straight away. 
 You may experience symptoms such as diarrhoea, stomach ache, constipation, feeling or being sick 
@@ -225,8 +225,8 @@ doctor immediately:
 * Sudden wheezing, swelling of your lips, tongue and throat, rash, fainting or difficulties in 
 swallowing (severe allergic reaction, seen rarely) 
 * Reddening of the skin with blisters or peeling. There may also be severe blisters and bleeding in 
-the lips, eyes, mouth, nose and genitals. This could be ‘Stevens-Johnson syndrome’ or ‘toxic 
-epidermal necrolysis’, seen very rarely. 
+the lips, eyes, mouth, nose and genitals. This could be  Stevens-Johnson syndrome  or  toxic 
+epidermal necrolysis , seen very rarely. 
 * Yellow skin, dark urine and tiredness, which can be symptoms of liver problems, seen rarely. </p>
 <p>Talk to your doctor as soon as possible if you experience any of the following signs of infection: 
 This medicine may in very rare cases affect the white blood cells leading to immune deficiency. If you 
@@ -244,7 +244,7 @@ time. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * Swelling of the feet and ankles. 
 * Disturbed sleep (insomnia), feeling sleepy. 
-* Dizziness, tingling feelings such as “pins and needles”. 
+* Dizziness, tingling feelings such as  pins and needles . 
 * Spinning feeling (vertigo). 
 * Dry mouth. 
 * Increased liver enzymes shown in blood tests that check how the liver is working. 
@@ -258,7 +258,7 @@ weakness, bruising or make infections more likely.
 * Eyesight problems such as blurred vision. 
 * Suddenly feeling wheezy or short of breath (bronchospasm). 
 * An inflammation on the inside of the mouth. 
-* An infection called “thrush” which can affect the gut and is caused by a fungus. 
+* An infection called  thrush  which can affect the gut and is caused by a fungus. 
 * Hair loss (alopecia). 
 * Skin rash on exposure to sunshine. 
 * Joint pain (arthralgia) or muscle pain (myalgia). 
@@ -293,7 +293,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Keep this medicine in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -312,10 +312,10 @@ reddish-brown iron oxide (E172), yellow iron oxide  (E172), magnesium stearate, 
 acid ethylacrylate copolymer (1:1) dispersion 30 per cent, cellulose microcrystalline, synthetic 
 paraffin, macrogol 6000, polysorbate 80, crospovidone (Type A), sodium stearyl fumarate, 
 sugar spheres (sucrose and maize starch), talc, titanium dioxide (E171) and triethyl citrate (see 
-section 2, “Nexium Control contains sucrose and sodium”). </p>
+section 2,  Nexium Control contains sucrose and sodium ). </p>
 <p>What Nexium Control looks like and contents of the pack 
 Nexium Control 20 mg gastro-resistant tablets are light pink, oblong, biconvex, 14 mm x 7 mm, film-
-coated, engraved with ‘20 mG’ on one side and A/EH on the other side. </p>
+coated, engraved with  20 mG  on one side and A/EH on the other side. </p>
 <p>Nexium Control is available in pack sizes of 7, 14 and 28  gastro-resistant tablets in blisters. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -325,25 +325,23 @@ Ireland  </p>
 Haleon Italy Manufacturing S.r.l., Via Nettunense, 90, 04011, Aprilia (LT), Italy. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien,Luxembourg/ 
+<p>Belgi /Belgique/Belgien,Luxembourg/ 
 Luxemburg 
 Haleon Belgium n.v./s.a.<br />
-Tél/Tel: + 32 (0)800 81 </p>
+T l/Tel: + 32 (0)800 81 </p>
 <p>Latvija 
 GlaxoSmithKline Latvia SIA 
 Tel: + 371 67312lv-epasts@gsk.com  </p>
-<p>България 
-ГлаксоСмитКлайн Консюмър Хелткеър 
-Teл.: + 359 2 953 10<br />
+<p>Te .: + 359 2 953 10<br />
 Lietuva<br />
 GlaxoSmithKline Lietuva UAB<br />
 Tel: + 370 5 264 90 info.lt@gsk.com </p>
-<p>Česká republika 
+<p>esk  republika 
 GlaxoSmithKline Consumer Healthcare Czech <br />
 Republic s.r.o.<br />
 Tel.: + 420  222 001 cz.info@gsk.com  </p>
-<p>Magyarország 
-GlaxoSmithKline – Consumer Kft. 
+<p>Magyarorsz g 
+GlaxoSmithKline   Consumer Kft. 
 Tel.: + 36 1 225 5 
 Danmark<br />
 GlaxoSmithKline Consumer Healthcare ApS<br />
@@ -355,34 +353,33 @@ Tel: +31 (0)800 4090 </p>
 GlaxoSmithKline Consumer Healthcare GmbH 
 &amp; Co.KG.<br />
 Tel.: + 49 (0) 800 6645 </p>
-<p>Österreich<br />
+<p>sterreich<br />
 GSK-Gebro Consumer Healthcare GmbH 
 Tel: +43 (0) 5354 563 </p>
 <p>Eesti 
-GlaxoSmithKline Eesti OÜ 
+GlaxoSmithKline Eesti O<br />
 Tel: + 372 6676 900<br />
 estonia@gsk.com </p>
 <p>Norge 
 GlaxoSmithKline Consumer Healthcare<br />
 Tlf:  + 47 80 05 86 30<br />
 scanda.consumer-relations@gsk.com  </p>
-<p>Ελλάδα 
- GSK CH Ελλάς Μονοπρόσωπη Α.Ε. 
-Λεωφ. Κηφισίας 274, 152 32, Χαλάνδρι 
-Τηλ.: 210 6882 </p>
+<p>GSK CH      . . 
+ .   274, 152 32, <br />
+ .: 210 6882 </p>
 <p>Polska 
 GlaxoSmithKline Consumer Healthcare Sp.z.o.o. 
-Tel: + 48 (0)22 576 96 España 
+Tel: + 48 (0)22 576 96 Espa a 
 GlaxoSmithKline Consumer Healthcare, S.A. 
 Tel: + 34 900 816<br />
 Portugal 
-GlaxoSmithKline Consumer Healthcare – 
-Produtos para a Saúde e Higiene, Lda.<br />
+GlaxoSmithKline Consumer Healthcare <br />
+Produtos para a Sa de e Higiene, Lda.<br />
 Tel: 800 784 695<br />
 apoio.consumidor@gsk.com </p>
 <p>France 
-GlaxoSmithKline Santé Grand Public 
-Tél. : + 33 1 57 97 99 România 
+GlaxoSmithKline Sant  Grand Public 
+T l. : + 33 1 57 97 99 Rom nia 
 GlaxoSmithKline Consumer Healthcare S.R.L 
 Tel: + 40 21 302 8<br />
 Hrvatsk 
@@ -394,13 +391,13 @@ Tel: + 386 (0)1 280 25<br />
 Ireland, Malta 
 Haleon Ireland Limited 
 Tel.: + 353 1800 441<br />
-Slovenská republika 
+Slovensk  republika 
 GlaxoSmithKline Consumer Healthcare Slovakia 
 s.r.o.<br />
 Tel: + 421 248 261 cz.info@gsk.com  </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. GlaxoSmithKline ehf. 
-Sími: + 354 535<br />
+S mi: + 354 535<br />
 Suomi/Finland 
 GlaxoSmithKline Oy 
 Consumer Healthcare 
@@ -411,10 +408,9 @@ Tel.: + 39 02 38062
 Sverige 
 GlaxoSmithKline Consumer Healthcare 
 Tel: 020-100scanda.consumer-relations @gsk.com </p>
-<p>Κύπρος 
-C. A. Papaellinas Ltd, 
-Τ.Θ. 24018, 1700 Λευκωσία 
-Tηλ. +357 22 741<br />
+<p>C. A. Papaellinas Ltd, 
+ . . 24018, 1700 <br />
+T . +357 22 741<br />
 United Kingdom (Northern Ireland) 
 Haleon UK Trading Limited<br />
 Tel.: + 44 (0)800 783 8881  </p>

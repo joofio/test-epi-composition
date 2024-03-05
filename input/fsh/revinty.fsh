@@ -4,7 +4,7 @@ Instance: composition-en-3da56d21dbca77ac4fb1bb4e78b231d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for revinty Package Leaflet"
 Description:  "Composition for revinty Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -144,12 +144,14 @@ children and adolescents of any age for the treatment of COPD. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicinesn. If you are not sure what your medicine contains talk to your doctor or pharmacist. </p>
 <p>Some medicines may affect how this medicine works, or make it more likely that you will have side 
-effects. These include: 
-- medicines called beta-blockers, such as metoprolol, used to treat high blood pressure or a heart 
-problems.<br />
-- ketoconazole, to treat fungal infections. 
-- ritonavir or cobicistat, to treat HIV infections. 
-- long-acting beta2-adrenergic agonists, such as salmeterol </p>
+effects. These include:</p>
+<ul>
+<li>medicines called beta-blockers, such as metoprolol, used to treat high blood pressure or a heart 
+problems.  </li>
+<li>ketoconazole, to treat fungal infections. </li>
+<li>ritonavir or cobicistat, to treat HIV infections. </li>
+<li>long-acting beta2-adrenergic agonists, such as salmeterol </li>
+</ul>
 <p>Tell your doctor or pharmacist if you are taking any of these medicines. Your doctor may wish to 
 monitor you carefully if you are taking any of these medicines as they may increase the side effects of 
 Revinty Ellipta.  </p>
@@ -193,7 +195,7 @@ you get this sort of attack you must use a quick-acting inhaler (such as salbuta
 <p>If you feel you are getting breathless or wheezy more often than normal, or if you are using your 
 quick-acting inhaler more than usual, see your doctor. </p>
 <p>How to use Revinty Ellipta<br />
-See ‘Step-by-step instructions for use’ after section 6 of this leaflet for full information. </p>
+See  Step-by-step instructions for use  after section 6 of this leaflet for full information. </p>
 <p>Revinty Ellipta is for oral inhalation. You do not need to prepare Revinty Ellipta in any special way, 
 not even the first time you use it. </p>
 <p>If your symptoms do not improve 
@@ -228,55 +230,55 @@ using it. Do not stop unless your doctor advises you to, even if you feel better
 <p>Allergic reactions are rare (may affect up to 1 in 1,000 people).<br />
 If you have any of the following symptoms after taking Revinty Ellipta stop taking this medicine and 
 tell your doctor immediately. 
-• skin rash (hives) or redness<br />
-• swelling, sometimes of the face or mouth (angioedema) 
-• becoming very wheezy, coughing or having difficulty in breathing 
-• suddenly feeling weak or light headed (which may lead to collapse or loss of consciousness). </p>
+  skin rash (hives) or redness<br />
+  swelling, sometimes of the face or mouth (angioedema) 
+  becoming very wheezy, coughing or having difficulty in breathing 
+  suddenly feeling weak or light headed (which may lead to collapse or loss of consciousness). </p>
 <p>Immediate breathing difficulties </p>
 <p>Immediate breathing difficulties after using Revinty Ellipta are rare. 
 If your breathing or wheezing gets worse straight after using this medicine, stop using it and get 
 medical help immediately. </p>
 <p>Pneumonia (infection of the lung) (common side effect, may affect up to 1 in 10 people) 
-Tell your doctor if you have any of the following while taking Revinty Ellipta – they could be 
+Tell your doctor if you have any of the following while taking Revinty Ellipta   they could be 
 symptoms of a lung infection:<br />
-• fever or chills 
-• increased mucus production, change in mucus colour 
-• increased cough or increased breathing difficulties. </p>
+  fever or chills 
+  increased mucus production, change in mucus colour 
+  increased cough or increased breathing difficulties. </p>
 <p>Other side effects: </p>
 <p>Very common side effects 
 These may affect more than 1 in 10 people: 
-• headache 
-• common cold. </p>
+  headache 
+  common cold. </p>
 <p>Common side effects<br />
 These may affect up to 1 in 10 people:<br />
-• sore, raised patches in the mouth or throat caused by a fungal infection (candidiasis). Rinsing your 
+  sore, raised patches in the mouth or throat caused by a fungal infection (candidiasis). Rinsing your 
 mouth out with water immediately after using Revinty Ellipta may help stop this side effect 
 developing. 
-• inflammation of the lungs (bronchitis) 
-• infection of the nose sinuses or throat 
-• flu (influenza)<br />
-• pain and irritation in the back of the mouth and throat 
-• inflammation of the sinuses 
-• itchy, runny or blocked nose<br />
-• cough 
-• voice disorders 
-• weakening of the bones, leading to fractures 
-• stomach pain<br />
-• back pain 
-• high temperature (fever) 
-• joint pain 
-• muscle spasms. </p>
+  inflammation of the lungs (bronchitis) 
+  infection of the nose sinuses or throat 
+  flu (influenza)<br />
+  pain and irritation in the back of the mouth and throat 
+  inflammation of the sinuses 
+  itchy, runny or blocked nose<br />
+  cough 
+  voice disorders 
+  weakening of the bones, leading to fractures 
+  stomach pain<br />
+  back pain 
+  high temperature (fever) 
+  joint pain 
+  muscle spasms. </p>
 <p>Uncommon side effects<br />
 This may affect up to 1 in 100 people:<br />
-• irregular heartbeat<br />
-• blurred vision 
-• increase in blood sugar (hyperglycaemia). </p>
+  irregular heartbeat<br />
+  blurred vision 
+  increase in blood sugar (hyperglycaemia). </p>
 <p>Rare side effects 
 These may affect up to 1 in 1,000 people:<br />
-• heart beating faster (tachycardia) 
-• awareness of heart beat (palpitations) 
-• tremor 
-• anxiety. </p>
+  heart beating faster (tachycardia) 
+  awareness of heart beat (palpitations) 
+  tremor 
+  anxiety. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -295,7 +297,7 @@ The expiry date refers to the last day of that month. </p>
 first use. Once the tray is opened, the inhaler can be used for up to 6 weeks, starting from the date of 
 opening the tray. Write the date the inhaler should be thrown away on the label in the space provided. 
 The date should be added as soon as the inhaler has been removed from the tray. </p>
-<p>Do not store above 25°C. </p>
+<p>Do not store above 25 C. </p>
 <p>If stored in a refrigerator, allow the inhaler to return to room temperature for at least an hour 
 before use.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -313,14 +315,14 @@ throw away medicines you no longer use. These measures will help protect the env
 mouthpiece) of 92 micrograms of fluticasone furoate and 22 micrograms of vilanterol (as trifenatate).<br />
 - For the 184/22 mcg dose: each single inhalation provides a delivered dose (the dose leaving the 
 mouthpiece) of 184 micrograms of fluticasone furoate and 22 micrograms of vilanterol (as trifenatate).<br />
-- The other ingredients are lactose monohydrate (See section 2 under ‘Revinty Ellipta contains lactose’) 
+- The other ingredients are lactose monohydrate (See section 2 under  Revinty Ellipta contains lactose ) 
 and magnesium stearate.  </p>
 <p>What Revinty Ellipta looks like and contents of the pack<br />
 Revinty Ellipta is an inhalation powder, pre-dispensed.<br />
 The Ellipta inhaler consists of a light grey inhaler with a yellow mouthpiece cover and a dose counter. 
 It is packaged in a foil laminate tray with a peelable foil lid. The tray contains a desiccant sachet, to 
 reduce moisture in the packaging. Once you have opened the lid of the tray, throw the desiccant away 
-– do not eat or inhale it. The inhaler does not need to be stored in the foil laminate tray once it has 
+  do not eat or inhale it. The inhaler does not need to be stored in the foil laminate tray once it has 
 been opened.<br />
 Revinty Ellipta is available in packs of 1 inhaler containing either 14 or 30 doses (14 or 30 day supply) 
 and in multipacks containing 90 (3 inhalers of 30) doses (90 day supply). Not all pack sizes may be 
@@ -338,24 +340,25 @@ Zone Industrielle No.2
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52 Lietuva 
-UAB “BERLIN-CHEMIE MENARINI 
-BALTIC” 
+T l/Tel: + 32 (0) 10 85 52 Lietuva 
+UAB  BERLIN-CHEMIE MENARINI 
+BALTIC<br />
 Tel: +370 52 691 lt@berlin-chemie.com </p>
-<p>България 
-“Берлин-Хеми/А. Менарини България” 
-EООД 
-Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
+<ul>
+<li>/ .   <br />
+E<br />
+Te .: +359 2 454 0bcsofia@berlin-chemie.com </li>
+</ul>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
-Magyarország 
+Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 23501bc-hu@berlin-chemie.com </p>
 <p>Danmark 
@@ -370,18 +373,17 @@ Nederland
 GlaxoSmithKline BV 
 Tel: + 31 (0) 33 2081 
 Eesti 
-OÜ Berlin-Chemie Menarini Eesti<br />
+O  Berlin-Chemie Menarini Eesti<br />
 Tel: +372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-Guidotti Hellas A.E. 
-Τηλ: +30 210 8316111- Österreich 
+Tlf: + 47 22 70 20  </p>
+<p>Guidotti Hellas A.E. 
+ : +30 210 8316111-  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 FAES FARMA, S.A. 
 Tel: + 34 900 460 aweber@faes.es  </p>
 <p>Polska 
@@ -389,7 +391,7 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 
 France 
 MENARINI France 
-Tél.: + 33 (0)1 45 60 77<br />
+T l.: + 33 (0)1 45 60 77<br />
 Portugal 
 BIAL, Portela &amp; Ca. SA. 
 Tel: + 351 22 986 61 info@bial.com  </p>
@@ -397,7 +399,7 @@ Tel: + 351 22 986 61 info@bial.com  </p>
 Berlin-Chemie Menarini Hrvatska d.o.o. 
 Tel: +385 1 4821 361<br />
 office-croatia@berlin-chemie.com </p>
-<p>România 
+<p>Rom nia 
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
@@ -406,10 +408,10 @@ Tel: + 353 (0)1 4955 </p>
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
@@ -419,10 +421,9 @@ Riunite s.r.l.
 Tel: +39-055 56 
 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-GlaxoSmithKline (Ireland) Limited<br />
-Τηλ: +357 80070 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline (Ireland) Limited<br />
+ : +357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
@@ -432,7 +433,7 @@ Tel: +371 67103lv@berlin-chemie.com
 United Kingdom (Northern Ireland) 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;  </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}</em>  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

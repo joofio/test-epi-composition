@@ -4,7 +4,7 @@ Instance: composition-en-0e083183aa938d85093b67721bbbd8fb
 InstanceOf: CompositionUvEpi
 Title: "Composition for reyataz Package Leaflet"
 Description:  "Composition for reyataz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,19 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>What REYATAZ is and What it is used for </li>
+</ol>
+<p>REYATAZ is an antiviral (or antiretroviral) medicine. It is one of a group called protease 
+inhibitors. These medicines control Human Immunodeficiency Virus (HIV) infection by stopping a 
+protein that the HIV needs for its multiplication. They work by reducing the amount of HIV in your 
+body and this in turn, strengthens your immune system. In this way REYATAZ reduces the risk of 
+developing illnesses linked to HIV infection. </p>
+<p>REYATAZ capsules may be used by adults and children 6 years of age and older. Your doctor has 
+prescribed REYATAZ for you because you are infected by the HIV that causes Acquired 
+Immunodeficiency Syndrome (AIDS). It is normally used in combination with other anti-HIV 
+medicines. Your doctor will discuss with you which combination of these medicines with REYATAZ 
+is best for you. </p>         </div>"""   
 
 
 
@@ -69,24 +81,6 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What reyataz is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>REYATAZ is an antiviral (or antiretroviral) medicine. It is one of a group called protease 
-inhibitors. These medicines control Human Immunodeficiency Virus (HIV) infection by stopping a 
-protein that the HIV needs for its multiplication. They work by reducing the amount of HIV in your 
-body and this in turn, strengthens your immune system. In this way REYATAZ reduces the risk of 
-developing illnesses linked to HIV infection. </p>
-<p>REYATAZ capsules may be used by adults and children 6 years of age and older. Your doctor has 
-prescribed REYATAZ for you because you are infected by the HIV that causes Acquired 
-Immunodeficiency Syndrome (AIDS). It is normally used in combination with other anti-HIV 
-medicines. Your doctor will discuss with you which combination of these medicines with REYATAZ 
-is best for you. </p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take reyataz"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take reyataz"
-  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take REYATAZ </p>
 <ul>
 <li>if you are allergic to atazanavir or any of the other ingredients of this medicine (listed in 
@@ -103,7 +97,7 @@ correct heart rhythm); ergotamine, dihydroergotamine, ergonovine, methylergonovi
 <li>quetiapine (used to treat schizophrenia, bipolar disorder, and major depressive disorder); 
 lurasidone (used to treat schizophrenia) </li>
 <li>
-<p>medicines containing St. John’s wort (Hypericum perforatum, a herbal preparation) </p>
+<p>medicines containing St. John s wort (Hypericum perforatum, a herbal preparation) </p>
 </li>
 <li>
 <p>triazolam and oral (taken by mouth) midazolam (used to help you sleep and/or to relieve 
@@ -136,7 +130,7 @@ kidney stones (pain in your side, blood in your urine, pain when you urinate), p
 doctor immediately. </p>
 <p>In some patients with advanced HIV infection (AIDS) and a history of opportunistic infection, signs 
 and symptoms of inflammation from previous infections may occur soon after anti-HIV treatment is 
-started. It is believed that these symptoms are due to an improvement in the body’s immune response, 
+started. It is believed that these symptoms are due to an improvement in the body s immune response, 
 enabling the body to fight infections that may have been present with no obvious symptoms. If you 
 notice any symptoms of infection, please inform your doctor immediately. In addition to the 
 opportunistic infections, autoimmune disorders (a condition that occurs when the immune system 
@@ -166,8 +160,16 @@ use of REYATAZ in children less than 3 months of age and weighing less than 5 kg
 studied due to the risk of serious complications. </p>
 <p>Other medicines and REYATAZ </p>
 <p>You must not take REYATAZ with certain medicines. These are listed under Do not take 
-REYATAZ, at the start of Section 2.<br />
-There are other medicines that may not mix with REYATAZ. Tell your doctor if you are taking, have 
+REYATAZ, at the start of Section </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take reyataz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take reyataz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>There are other medicines that may not mix with REYATAZ. Tell your doctor if you are taking, have 
 recently taken, or might take any other medicines. It is especially important to mention these: </p>
 <ul>
 <li>other medicines to treat HIV infection (e.g., indinavir, nevirapine, and efavirenz) </li>
@@ -243,7 +245,7 @@ Ritonavir Dose<em> once daily
 at least 5 kg. Switching to REYATAZ capsules from REYATAZ oral powder is encouraged as soon as 
 patients are able to consistently swallow capsules. </p>
 <p>A change in dose may occur when switching between oral powder and capsules. Your doctor will 
-decide the right dose based on your child’s weight. </p>
+decide the right dose based on your child s weight. </p>
 <p>There are no dosing recommendations for REYATAZ in paediatric patients less than 3 months of age. </p>
 <p>Take REYATAZ capsules with food (a meal or a substantial snack). Swallow the capsules whole. 
 Do not open the capsules. </p>
@@ -353,7 +355,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label, carton or blister. The expiry 
 date refers to the last day of that month. 
-Do not store above 25°C. </p>
+Do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         

@@ -4,7 +4,7 @@ Instance: composition-en-febe758b815af2dff26af1acacd31f32
 InstanceOf: CompositionUvEpi
 Title: "Composition for xarelto Package Leaflet"
 Description:  "Composition for xarelto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -112,7 +112,7 @@ venous or arterial line to keep it open
 brain (stroke)<br />
 <em> if you have coronary artery disease or peripheral artery disease and previously had a bleeding in 
 your brain (stroke) or where there was a blockage of the small arteries providing blood to the 
-brain’s deep tissues (lacunar stroke) or if you had a blood clot in your brain (ischaemic, non-
+brain s deep tissues (lacunar stroke) or if you had a blood clot in your brain (ischaemic, non-
 lacunar stroke) in the previous month<br />
 </em> if you have a liver disease which leads to an increased risk of bleeding 
 * if you are pregnant or breast-feeding 
@@ -122,35 +122,25 @@ Talk to your doctor or pharmacist before taking Xarelto.
 Xarelto should not be used in combination with certain other medicines which reduce blood clotting 
 such as prasugrel or ticagrelor other than acetylsalicylic acid and clopidogrel/ticlopidine. </p>
 <p>Take special care with Xarelto 
-* if you have an increased risk of bleeding, as could be the case in situations such as: 
-▪ 
- severe kidney disease, since your kidney function may affect the amount of medicine that 
-works in your body 
-▪ 
- if you are taking other medicines to prevent blood clotting (e.g. warfarin, dabigatran, 
+* if you have an increased risk of bleeding, as could be the case in situations such as: </p>
+<p>severe kidney disease, since your kidney function may affect the amount of medicine that 
+works in your body </p>
+<p>if you are taking other medicines to prevent blood clotting (e.g. warfarin, dabigatran, 
 apixaban or heparin), when changing anticoagulant treatment or while getting heparin 
-through a venous or arterial line to keep it open (see section “Other medicines and 
-Xarelto”) 
-▪ 
- bleeding disorders<br />
-▪ 
- very high blood pressure, not controlled by medical treatment 
-▪ 
- diseases of your stomach or bowel that might result in bleeding, e.g. inflammation of the 
+through a venous or arterial line to keep it open (see section  Other medicines and 
+Xarelto ) </p>
+<p>bleeding disorders  </p>
+<p>very high blood pressure, not controlled by medical treatment </p>
+<p>diseases of your stomach or bowel that might result in bleeding, e.g. inflammation of the 
 bowels or stomach, or inflammation of the oesophagus (gullet), e.g. due to 
 gastroesophageal reflux disease (disease where stomach acid goes upwards into the 
-oesophagus) or tumours located in the stomach or bowels or genital tract or urinary tract 
-▪ 
-a problem with the blood vessels in the back of your eyes (retinopathy) 
-▪ 
-a lung disease where your bronchi are widened and filled with pus (bronchiectasis), or 
-previous bleeding from your lung 
-▪ 
-you are older than 75 years<br />
-▪ 
-you weigh less than 60 kg<br />
-▪ 
-you have a coronary artery disease with severe symptomatic heart failure 
+oesophagus) or tumours located in the stomach or bowels or genital tract or urinary tract </p>
+<p>a problem with the blood vessels in the back of your eyes (retinopathy) </p>
+<p>a lung disease where your bronchi are widened and filled with pus (bronchiectasis), or 
+previous bleeding from your lung </p>
+<p>you are older than 75 years  </p>
+<p>you weigh less than 60 kg  </p>
+<p>you have a coronary artery disease with severe symptomatic heart failure 
 * if you have a prosthetic heart valve 
 * if you know that you have a disease called antiphospholipid syndrome (a disorder of the 
 immune system that causes an increased risk of blood clots), tell your doctor who will decide if 
@@ -161,12 +151,10 @@ if you should be treated with this medicine and if you should be kept under clos
 * it is very important to take Xarelto before and after the operation exactly at the times you have 
 been told by your doctor. 
 * If your operation involves a catheter or injection into your spinal column (e.g. for epidural or 
-spinal anaesthesia or pain reduction): 
-▪ 
-it is very important to take Xarelto before and after the injection or removal of the catheter 
-exactly at the times you have been told by your doctor 
-▪ 
-tell your doctor immediately if you get numbness or weakness of your legs or problems 
+spinal anaesthesia or pain reduction): </p>
+<p>it is very important to take Xarelto before and after the injection or removal of the catheter 
+exactly at the times you have been told by your doctor </p>
+<p>tell your doctor immediately if you get numbness or weakness of your legs or problems 
 with your bowel or bladder after the end of anaesthesia, because urgent care is necessary. </p>
 <p>Children and adolescents 
 Xarelto 2.5 mg tablets are not recommended for people under 18 years of age. There is not enough 
@@ -174,27 +162,19 @@ information on their use in children and adolescents. </p>
 <p>Other medicines and Xarelto 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription. 
-* If you are taking 
-▪ 
-some medicines for fungal infections (e.g. fluconazole, itraconazole, voriconazole, 
-posaconazole), unless they are only applied to the skin 
-▪ 
-ketoconazole tablets (used to treat Cushing’s syndrome - when the body produces an 
-excess of cortisol) 
-▪ 
-some medicines for bacterial infections (e.g. clarithromycin, erythromycin)<br />
-▪ 
-some anti-viral medicines for HIV / AIDS (e.g. ritonavir) 
-▪ 
-other medicines to reduce blood clotting (e.g. enoxaparin, clopidogrel or vitamin K 
+* If you are taking </p>
+<p>some medicines for fungal infections (e.g. fluconazole, itraconazole, voriconazole, 
+posaconazole), unless they are only applied to the skin </p>
+<p>ketoconazole tablets (used to treat Cushing s syndrome - when the body produces an 
+excess of cortisol) </p>
+<p>some medicines for bacterial infections (e.g. clarithromycin, erythromycin)  </p>
+<p>some anti-viral medicines for HIV / AIDS (e.g. ritonavir) </p>
+<p>other medicines to reduce blood clotting (e.g. enoxaparin, clopidogrel or vitamin K 
 antagonists such as warfarin and acenocoumarol, prasugrel and ticagrelor (see section 
-“Warnings and Precautions”))<br />
-▪ 
-anti-inflammatory and pain relieving medicines (e.g. naproxen or acetylsalicylic acid) 
-▪ 
-dronedarone, a medicine to treat abnormal heart beat 
-▪ 
-some medicines to treat depression (selective serotonin reuptake inhibitors (SSRIs) or 
+ Warnings and Precautions ))  </p>
+<p>anti-inflammatory and pain relieving medicines (e.g. naproxen or acetylsalicylic acid) </p>
+<p>dronedarone, a medicine to treat abnormal heart beat </p>
+<p>some medicines to treat depression (selective serotonin reuptake inhibitors (SSRIs) or 
 serotonin norepinephrine reuptake inhibitors (SNRIs)) </p>
 <p>If any of the above apply to you, tell your doctor before taking Xarelto, because the effect of 
 Xarelto may be increased. Your doctor will decide, if you should be treated with this medicine 
@@ -202,30 +182,27 @@ and if you should be kept under closer observation.<br />
 If your doctor thinks that you are at increased risk of developing stomach or bowel ulcers, he 
 may also use a preventative ulcer treatment.  </p>
 <ul>
-<li>If you are taking 
-▪ 
-some medicines for treatment of epilepsy (phenytoin, carbamazepine, phenobarbital) 
-▪ 
-St John’s Wort (Hypericum perforatum), a herbal product used for depression 
-▪ 
- rifampicin, an antibiotic 
+<li>If you are taking </li>
+</ul>
+<p>some medicines for treatment of epilepsy (phenytoin, carbamazepine, phenobarbital) </p>
+<p>St John s Wort (Hypericum perforatum), a herbal product used for depression </p>
+<p>rifampicin, an antibiotic 
 If any of the above apply to you, tell your doctor before taking Xarelto, because the effect of 
 Xarelto may be reduced. Your doctor will decide, if you should be treated with Xarelto and if 
-you should be kept under closer observation.  </li>
-</ul>
+you should be kept under closer observation.  </p>
 <p>Pregnancy and breast---feeding 
 Do not take Xarelto if you are pregnant or breast-feeding. If there is a chance that you could become 
 pregnant, use a reliable contraceptive while you are taking Xarelto. If you become pregnant while you 
 are taking this medicine, tell your doctor immediately, who will decide how you should be treated. </p>
 <p>Driving and using machines 
 Xarelto may cause dizziness (common side effect) or fainting (uncommon side effect) (see section 4, 
-”Possible side effects”). You should not drive, ride a bicycle or use any tools or machines if you are 
+ Possible side effects ). You should not drive, ride a bicycle or use any tools or machines if you are 
 affected by these symptoms.  </p>
 <p>Xarelto contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ”sodium-
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xarelto"
@@ -389,13 +366,13 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is rivaroxaban. Each tablet contains 2.5 mg of rivaroxaban. 
 - The other ingredients are:<br />
 Tablet core: microcrystalline cellulose, croscarmellose sodium, lactose monohydrate, 
-hypromellose (2910), sodium laurilsulfate, magnesium stearate. See section 2 “Xarelto contains 
-lactose and sodium”. 
+hypromellose (2910), sodium laurilsulfate, magnesium stearate. See section 2  Xarelto contains 
+lactose and sodium . 
 Tablet film coat: macrogol (3350), hypromellose (2910), titanium dioxide (E 171), iron oxide 
 yellow (E 172).  </p>
 <p>What Xarelto looks like and contents of the pack 
 Xarelto 2.5 mg film-coated tablets are light yellow, round, biconvex and marked with the BAYER-
-cross on one side and “2.5” and a triangle on the other side.<br />
+cross on one side and  2.5  and a triangle on the other side.<br />
 They come<br />
 -<br />
 in blisters in cartons of 14, 20, 28, 30, 56, 60, 98, 168 or 196 film-coated tablets or 
@@ -413,43 +390,38 @@ Germany </p>
 <p>Manufacturer </p>
 <p>The manufacturer can be identified by the batch number printed on the side flap of the carton and on 
 each blister or bottle:  </p>
-<p>•<br />
-If the first and second characters are BX, the manufacturer is<br />
+<p>If the first and second characters are BX, the manufacturer is<br />
 Bayer AG<br />
 Kaiser-Wilhelm-Allee<br />
 51368 Leverkusen<br />
 Germany  </p>
-<p>•<br />
-If the first and second characters are IT, the manufacturer is<br />
+<p>If the first and second characters are IT, the manufacturer is<br />
 Bayer HealthCare Manufacturing Srl.<br />
 Via delle Groane, 126<br />
 20024 Garbagnate Milanese<br />
 Italy  </p>
-<p>•<br />
-If the first and second characters are BT, the manufacturer is<br />
+<p>If the first and second characters are BT, the manufacturer is<br />
 Bayer Bitterfeld GmbH<br />
 Ortsteil Greppin, Salegaster Chaussee 1<br />
 06803 Bitterfeld-Wolfen<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België / Belgique / Belgien 
+<p>Belgi  / Belgique / Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63<br />
+T l/Tel: +32-(0)2-535 63<br />
 Lietuva 
 UAB Bayer 
-Tel: +370-5-233 68<br />
-България 
-Байер България ЕООД 
-Тел: +359-(0)2-424 72<br />
+Tel: +370-5-233 68  </p>
+<p>: +359-(0)2-424 72<br />
 Luxembourg / Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63<br />
-Česká republika 
+T l/Tel: +32-(0)2-535 63<br />
+ esk  republika 
 Bayer s.r.o. 
 Tel: +420-266 101<br />
-Magyarország 
-Bayer Hungária KFT 
+Magyarorsz g 
+Bayer Hung ria KFT 
 Tel: +36-1-487 4 
 Danmark 
 Bayer A/S 
@@ -464,18 +436,17 @@ Nederland
 Bayer B.V. 
 Tel: +31-23-799 1 
 Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372-655 85<br />
 Norge 
 Bayer AS 
-Tlf: +47-23 13 05<br />
-Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30-210-618 75<br />
-Österreich 
+Tlf: +47-23 13 05  </p>
+<p>Bayer   <br />
+ : +30-210-618 75<br />
+ sterreich 
 Bayer Austria Ges. m. b. H. 
 Tel: +43-(0)1-711<br />
-España 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65<br />
 Polska 
@@ -483,14 +454,14 @@ Bayer Sp. z o.o.
 Tel: +48-22-572 35<br />
 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54<br />
+T l (N  vert): +33-(0)800 87 54<br />
 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351-21-416 42<br />
 Hrvatska 
 Bayer d.o.o. 
 Tel: + 385-(0)1-6599<br />
-România 
+Rom nia 
 SC Bayer SRL<br />
 Tel: +40-(0)21-529 59<br />
 Ireland 
@@ -499,10 +470,10 @@ Tel: +353 1 216 3
 Slovenija 
 Bayer d. o. o. 
 Tel: +386-(0)1-58 14<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354-540 80<br />
-Slovenská republika 
+S mi: +354-540 80<br />
+Slovensk  republika 
 Bayer, spol. s r.o. 
 Tel: +421-(0)2-59 21 31<br />
 Italia 
@@ -511,9 +482,8 @@ Tel: +39-02-3978 1 </p>
 <p>Suomi/Finland 
 Bayer Oy 
 Puh/Tel: +358-(0)20-78521  </p>
-<p>Κύπρος 
-NOVAGEM Limited 
-Τηλ: +357-22-48 38<br />
+<p>NOVAGEM Limited 
+ : +357-22-48 38<br />
 Sverige 
 Bayer AB 
 Tel: +46-(0)8-580 223 00  </p>
@@ -536,5 +506,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+effects not listed in this leaflet. See section </p>         </div>"""      
 

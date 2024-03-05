@@ -4,7 +4,7 @@ Instance: composition-en-c4042d3fb4af6b1a99be10ddedae7598
 InstanceOf: CompositionUvEpi
 Title: "Composition for pyrukynd Package Leaflet"
 Description:  "Composition for pyrukynd Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -97,7 +97,7 @@ section 6). </li>
 of your anaemia, with sudden breakdown of red blood cells (acute haemolysis). </p>
 <ul>
 <li>If you want to stop taking Pyrukynd, talk to your doctor first. </li>
-<li>Your doctor will tell you how to stop taking this medicine – usually by reducing the dose 
+<li>Your doctor will tell you how to stop taking this medicine   usually by reducing the dose 
 gradually. This is to prevent any side effects caused by sudden breakdown of the red blood 
 cells. </li>
 </ul>
@@ -161,8 +161,8 @@ you, be careful when driving or using machines. </p>
 <p>Pyrukynd contains lactose and sodium </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pyrukynd"
@@ -189,30 +189,19 @@ to suggest that elderly patients need a different dose compared to younger adult
 <p>The following pictures show how to take the tablet out of the blister. </p>
 <p>Find the correct blister pocket indicated by the day of the week and, if applicable, time of the day 
 (morning or evening dose, as shown on the blister by sun and moon symbols). At the corresponding 
-tab: </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The image above shows the inside of the blister wallet. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store pyrukynd"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store pyrukynd"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The image above shows the back of the blister wallet. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you take more Pyrukynd than you should </p>
+tab: </p>
+<ol>
+<li>Use thumb to PUSH. </li>
+</ol>
+<p>The image above shows the inside of the blister wallet. </p>
+<ol>
+<li>Turn package over, PEEL the raised tab on the back. </li>
+</ol>
+<p>The image above shows the back of the blister wallet. </p>
+<ol>
+<li>Push tablet through the foil. </li>
+</ol>
+<p>If you take more Pyrukynd than you should </p>
 <p>If you have taken more Pyrukynd than you should, talk to a doctor straight away, or contact your 
 nearest accident and emergency department. Take the medicine pack with you so that you can show 
 the doctor what you have taken. </p>
@@ -226,9 +215,109 @@ Do not take a double dose to make up for a forgotten dose. </li>
 <p>If you stop taking Pyrukynd </p>
 <p>Do not suddenly stop taking this medicine. 
 * If you want to stop taking Pyrukynd, talk to your doctor first. 
-* Your doctor will tell you how to stop taking this medicine – usually by reducing the dose 
+* Your doctor will tell you how to stop taking this medicine   usually by reducing the dose 
 gradually.<br />
 This is to prevent any side effects caused by sudden breakdown of the red blood cells. 
 See section 4 below for more information about these side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Very common (may affect more than 1 in 10 people): 
+* Difficulty sleeping (insomnia) 
+* Decreased levels of the hormone oestrone - seen in blood tests in men 
+* Nausea </p>
+<p>Common (may affect up to 1 in 10 people): 
+* Hot flush 
+* Increased levels of the hormone testosterone   seen in blood tests in men 
+* Decreased levels of the hormone oestradiol   seen in blood tests in men </p>
+<p>Side effects that may occur if you suddenly stop taking Pyrukynd </p>
+<p>If you stop taking Pyrukynd suddenly, symptoms may include: 
+* being very tired 
+* your skin and whites of the eyes going yellow (jaundice) 
+* back pain 
+* dark urine. 
+Talk to your doctor straight away if you have any of these symptoms after stopping this medicine. </p>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects, you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pyrukynd"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pyrukynd"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton, blister wallet and blister 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store below 25 C. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pyrukynd contains </p>
+<p>The active substance is mitapivat. </p>
+<p>Pyrukynd 5 mg film-coated tablets </p>
+<p>Each film-coated tablet contains 5 mg of mitapivat (as sulfate). </p>
+<p>Pyrukynd 20 mg film-coated tablets </p>
+<p>Each film-coated tablet contains 20 mg of mitapivat (as sulfate). </p>
+<p>Pyrukynd 50 mg film-coated tablets </p>
+<p>Each film-coated tablet contains 50 mg of mitapivat (as sulfate). </p>
+<p>Pyrukynd 5 mg, 20 mg and 50 mg film-coated tablets </p>
+<p>The other ingredients are:</p>
+<ul>
+<li>Tablet core: microcrystalline cellulose, croscarmellose sodium, mannitol (E421) and sodium stearyl 
+fumarate. </li>
+<li>Film-coating: hypromellose (E464), titanium dioxide (E171), lactose monohydrate, triacetin, indigo 
+carmine aluminium lake (E132). </li>
+<li>Printing ink: shellac (E904), black iron oxide (E172) and ammonium hydroxide (E527). 
+See section 2  Pyrukynd contains lactose and sodium . </li>
+</ul>
+<p>What Pyrukynd looks like and contents of the pack </p>
+<p>Pyrukynd 5 mg film-coated tablets are round, blue, film-coated tablets of approximately 5 mm in 
+diameter with  M5  printed in black ink on one side and plain on the reverse. </p>
+<p>Pyrukynd 20 mg film-coated tablets are round, blue, film-coated tablets of approximately 8 mm in 
+diameter with  M20  printed in black ink on one side and plain on the reverse. </p>
+<p>Pyrukynd 50 mg film-coated tablets are oblong shaped, blue, film-coated tablets of approximately 
+16 mm x 6.8 mm size with  M50  printed in black ink on one side and plain on the reverse. </p>
+<p>Packs for starting and continuing treatment </p>
+<p>Pyrukynd 5 mg, 20 mg and 50 mg film-coated tablets are available in 4 blister wallets, each containing 
+14 film-coated tablets. Each carton contains 56 film-coated tablets. </p>
+<p>Packs for reducing or discontinuing treatment </p>
+<p>Pyrukynd 5 mg film-coated tablets are also available in blister wallets containing 7 film-coated tablets. </p>
+<p>Pyrukynd 20 mg film-coated tablets + Pyrukynd 5 mg film-coated tablets are available in blister 
+wallets containing 14 film-coated tablets (7 film-coated tablets of 20 mg + 7 film-coated tablets of 
+5 mg). </p>
+<p>Pyrukynd 50 mg film-coated tablets + Pyrukynd 20 mg film-coated tablets are available in blister 
+wallets containing 14 film-coated tablets (7 film-coated tablets of 50 mg + 7 film-coated tablets of 
+20 mg). </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Agios Netherlands B.V. 
+Zuidplein Regus Amsterdam WTC 
+1077XV Amsterdam 
+The Netherlands </p>
+<p>Manufacturer </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Portadown 
+Craigavon, County Armagh 
+BT63 5UA 
+United Kingdom (Northern Ireland) </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 

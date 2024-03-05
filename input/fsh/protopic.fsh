@@ -4,7 +4,7 @@ Instance: composition-en-c96fdfd81478e739fb65928482a4a6c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for protopic Package Leaflet"
 Description:  "Composition for protopic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -78,7 +78,7 @@ conventional therapies such as topical corticosteroids.  </p>
 a flare, and if you are experiencing frequent flares (i.e. 4 or more per year), it may be possible to 
 prevent flares coming back or prolong the time you are free from flares by using Protopic 0.03% 
 ointment twice weekly. </p>
-<p>In atopic dermatitis, an over-reaction of the skin’s immune system causes skin inflammation 
+<p>In atopic dermatitis, an over-reaction of the skin s immune system causes skin inflammation 
 (itchiness, redness, dryness). Protopic alters the abnormal immune response and relieves the skin 
 inflammation and the itch. </p>         </div>"""   
           
@@ -97,7 +97,7 @@ Talk to your doctor before using Protopic:
 * If you have liver failure. 
 * If you have any skin malignancies (tumours) or if you have a weakened immune system 
 (immuno-compromised) whatever the cause. 
-* If you have an inherited skin barrier disease such as Netherton’s syndrome, lamellar 
+* If you have an inherited skin barrier disease such as Netherton s syndrome, lamellar 
 ichthyosis (extensive scaling of the skin due to a thickening of the outer layer of the skin), or if 
 you have an inflammatory skin disease such as pyoderma gangrenosum, or if you suffer from 
 generalised erythroderma (inflammatory reddening and scaling of the entire skin). 
@@ -121,7 +121,7 @@ under control. In children, maintenance treatment should be suspended after 12 m
 assess whether the need for continued treatment still exists. 
 * It is recommended to use Protopic ointment at the lowest possible strength, at the lowest 
 frequency and for the shortest possible duration necessary. This decision should be based on 
-your doctor’s assessment of how your eczema responds to Protopic ointment. </p>
+your doctor s assessment of how your eczema responds to Protopic ointment. </p>
 <p>Children 
 * Protopic ointment is not approved for children younger than 2 years of age. Therefore it 
 should not be used in this age group. Please consult your doctor. 
@@ -177,7 +177,7 @@ possible treatments.  </p>
 <p>You may be told by your doctor to use Protopic ointment twice weekly once your atopic dermatitis has 
 cleared or almost cleared (Protopic 0.03% for children and Protopic 0.1% for adults). Protopic 
 ointment should be applied once a day twice weekly (e.g. Monday and Thursday) to areas of your 
-body commonly affected by atopic dermatitis. There should be 2–3 days without Protopic treatment 
+body commonly affected by atopic dermatitis. There should be 2 3 days without Protopic treatment 
 between applications. 
 If symptoms reappear you should use Protopic twice daily as outlined above and arrange to see your 
 doctor to review your treatment. </p>
@@ -232,7 +232,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the tube and carton after EXP. The 
 expiry date refers to the last day of that month. 
-Do not store above 25ºC. </p>
+Do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -246,8 +246,111 @@ throw away medicines you no longer use. These measures will help protect the env
 * The active substance is tacrolimus monohydrate. 
 One gram of Protopic 0.03% ointment contains 0.3 mg tacrolimus (as tacrolimus monohydrate). 
 * The other ingredients are white soft paraffin, liquid paraffin, propylene carbonate, white 
-beeswax, hard paraffin, butylhydroxytoluene (E321) and all-rac-α-tocopherol. </p>
+beeswax, hard paraffin, butylhydroxytoluene (E321) and all-rac- -tocopherol. </p>
 <p>What Protopic looks like and contents of the pack<br />
 Protopic is a white to slightly yellowish ointment. It is supplied in tubes containing 10, 30 or 60 grams 
-of ointment. Not all pack sizes may be marketed. Protopic is available in two strengths (Protopic </p>         </div>"""      
+of ointment. Not all pack sizes may be marketed. Protopic is available in two strengths (Protopic 
+0.03% and Protopic 0.1% ointment). </p>
+<p>Marketing Authorisation Holder 
+LEO Pharma A/S 
+Industriparken 2750 Ballerup 
+Denmark </p>
+<p>Manufacturer<br />
+Astellas Ireland Co. Ltd. 
+Killorglin 
+County Kerry 
+Ireland </p>
+<p>LEO Laboratories Ltd. 
+285 Cashel Road 
+Crumlin, Dublin 12<br />
+Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+LEO Pharma N.V./S.A 
+T l/Tel: +32 3 740 7 
+Lietuva 
+LEO Pharma A/S 
+Tel: +45 44 94 58  </p>
+<p>LEO Pharma A/S 
+Te .: +45 44 94 58<br />
+Luxembourg/Luxemburg 
+LEO Pharma N.V./S.A 
+T l/Tel: +32 3 740 7 
+ esk  republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 982  </p>
+<p>Magyarorsz g 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Danmark 
+LEO Pharma AB 
+Tlf: +45 70 22 49 11  </p>
+<p>Malta 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Deutschland 
+LEO Pharma GmbH 
+Tel: +49 6102 2 
+Nederland 
+LEO Pharma B.V. <br />
+Tel: +31 205104 
+Eesti<br />
+LEO Pharma A/S 
+Tel: +45 44 94 58 Norge 
+LEO Pharma AS 
+Tlf: +47 22514 </p>
+<p>LEO Pharmaceutical Hellas S.A. 
+ : +30 210 68 34 
+ sterreich 
+LEO Pharma GmbH 
+Tel: +43 1 503 6 
+Espa a 
+Laboratorios LEO Pharma, S.A. 
+Tel: +34 93 221 3 
+Polska 
+LEO Pharma Sp. z o.o. 
+Tel: +48 22 244 18<br />
+France 
+Laboratoires LEO 
+T l: +33 1 3014 40<br />
+Portugal 
+LEO Farmac uticos Lda.<br />
+Tel: +351 21 711 0 
+Hrvatska 
+LEO Pharma A/S                                                            <br />
+Tel: +45 44 94 58<br />
+Rom nia 
+LEO Pharma A/S<br />
+Tel: +45 44 94 58<br />
+Ireland 
+LEO Laboratories Ltd 
+Tel: +353 (0) 1 490 8 
+Slovenija 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+ sland 
+Vistor hf. 
+S mi: +354 535 7 
+Slovensk  republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 <br />
+Italia 
+LEO Pharma S.p.A.<br />
+Tel: +39 06 52625 
+Suomi/Finland 
+LEO Pharma Oy 
+Puh./Tel: +358 20 721 8 </p>
+<p>The Star Medicines Importers Co. Ltd. 
+ : +357 2537 1056  </p>
+<p>Sverige 
+LEO Pharma AB 
+Tel: +46 40 3522 00  </p>
+<p>Latvija 
+LEO Pharma A/S 
+Tel: +45 44 94 58 United Kingdom (Northern Ireland) 
+LEO Laboratories Ltd 
+Tel: +44 (0) 1844 347 </p>
+<p>This leaflet was last revised in. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

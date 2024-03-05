@@ -4,7 +4,7 @@ Instance: composition-en-8666fcd1a9a5da616af3cc253cf1b4cf
 InstanceOf: CompositionUvEpi
 Title: "Composition for yentreve Package Leaflet"
 Description:  "Composition for yentreve Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take YENTREVE 
 4. Possible side effects 
 5. How to store YENTREVE 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -85,33 +84,36 @@ Muscle Training (PFMT). </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take yentreve"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before you take YENTREVE </p>
-<p>DO NOT take YENTREVE if you: 
-- are allergic to duloxetine or any of the other ingredients of this medicine (listed in section 6) 
-- have liver disease 
-- have severe kidney disease 
-- are taking or have taken within the last 14 days, another medicine known as a monoamine oxidase 
-inhibitor (MAOI) (see ‘Other medicines and YENTREVE’) 
-- are taking fluvoxamine which is usually used to treat depression, ciprofloxacin or enoxacin which 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT take YENTREVE if you:</p>
+<ul>
+<li>are allergic to duloxetine or any of the other ingredients of this medicine (listed in section 6) </li>
+<li>have liver disease </li>
+<li>have severe kidney disease </li>
+<li>are taking or have taken within the last 14 days, another medicine known as a monoamine oxidase 
+inhibitor (MAOI) (see  Other medicines and YENTREVE ) </li>
+<li>are taking fluvoxamine which is usually used to treat depression, ciprofloxacin or enoxacin which 
 are used to treat some infections 
 Talk to your doctor if you have high blood pressure or heart disease. Your doctor will tell you if you 
-should be taking YENTREVE. </p>
+should be taking YENTREVE. </li>
+</ul>
 <p>Warnings and Precautions 
 The following are reasons why YENTREVE may not be suitable for you. Talk to your doctor before 
-you take Yentreve if you: 
-- are taking medicines to treat depression (see ‘Other medicines and YENTREVE’) 
-- are taking St. John’s Wort, a herbal treatment (Hypericum perforatum) 
-- have kidney disease 
-- have had seizures (fits) 
-- have had mania 
-- suffer from bipolar disorder 
-- have eye problems, such as certain kinds of glaucoma (increased pressure in the eye) 
-- have a history of bleeding disorders (tendency to develop bruises), especially if you are 
-pregnant (see ‘Pregnancy and breast-feeding‘) 
-- are at risk of low sodium levels (for example if you are taking diuretics, especially if you are 
-elderly) 
-- are currently being treated with another medicine which may cause liver damage. 
-- are taking other medicines containing duloxetine (see ‘Other medicines and YENTREVE’) </p>
+you take Yentreve if you:</p>
+<ul>
+<li>are taking medicines to treat depression (see  Other medicines and YENTREVE ) </li>
+<li>are taking St. John s Wort, a herbal treatment (Hypericum perforatum) </li>
+<li>have kidney disease </li>
+<li>have had seizures (fits) </li>
+<li>have had mania </li>
+<li>suffer from bipolar disorder </li>
+<li>have eye problems, such as certain kinds of glaucoma (increased pressure in the eye) </li>
+<li>have a history of bleeding disorders (tendency to develop bruises), especially if you are 
+pregnant (see  Pregnancy and breast-feeding ) </li>
+<li>are at risk of low sodium levels (for example if you are taking diuretics, especially if you are 
+elderly) </li>
+<li>are currently being treated with another medicine which may cause liver damage. </li>
+<li>are taking other medicines containing duloxetine (see  Other medicines and YENTREVE ) </li>
+</ul>
 <p>YENTREVE may cause a sensation of restlessness or an inability to sit or stand still. You should tell 
 your doctor if this happens to you. </p>
 <p>Medicines like Yentreve (so called SSRIs/SNRIs) may cause symptoms of sexual dysfunction (see 
@@ -122,11 +124,13 @@ Although YENTREVE is not indicated for the treatment of depression, its active i
 you can sometimes have thoughts of harming or killing yourself. These may be increased when first 
 starting antidepressants, since these medicines all take time to work, usually about two weeks but 
 sometimes longer. 
-You may be more likely to think like this if you:<br />
-- have previously had thoughts about killing or harming yourself 
-- are a young adult. Information from clinical trials has shown an increased risk of suicidal 
+You may be more likely to think like this if you:</p>
+<ul>
+<li>have previously had thoughts about killing or harming yourself </li>
+<li>are a young adult. Information from clinical trials has shown an increased risk of suicidal 
 behaviour in adults aged less than 25 years with psychiatric conditions who were treated with an 
-antidepressant </p>
+antidepressant </li>
+</ul>
 <p>If you have thoughts of harming or killing yourself at any time, contact your doctor or go to a 
 hospital straight away. 
 You may find it helpful to tell a relative or close friend that you are depressed or have an anxiety 
@@ -160,7 +164,7 @@ you stop taking YENTREVE before you take a MAOI. </p>
 benzodiazepines, strong painkillers, antipsychotics, phenobarbital and sedative antihistamines. </p>
 <p>Medicines that increase the level of serotonin: Triptans, tramadol, tryptophan, SSRIs (such as 
 paroxetine and fluoxetine), SNRIs (such as venlafaxine), tricyclic antidepressants (such as 
-clomipramine, amitriptyline), pethidine, St John’s Wort and MAOIs (such as moclobemide and 
+clomipramine, amitriptyline), pethidine, St John s Wort and MAOIs (such as moclobemide and 
 linezolid). These medicines increase the risk of side effects; if you get any unusual symptom taking 
 any of these medicines together with YENTREVE, you should see your doctor.  </p>
 <p>Oral anticoagulants or antiplatelet agents: Medicines which thin the blood or prevent the blood from 
@@ -187,7 +191,7 @@ this happens to your baby you should contact your midwife and/or doctor immediat
 when it is born. These usually begin at birth or within a few days of your baby being born. 
 These symptoms may include floppy muscles, trembling, jitteriness, not feeding properly, 
 trouble with breathing and fits. If your baby has any of these symptoms when it is born, or you 
-are concerned about your baby’s health, contact your doctor or midwife who will be able to 
+are concerned about your baby s health, contact your doctor or midwife who will be able to 
 advise you. </p>
 </li>
 <li>
@@ -215,15 +219,14 @@ YENTREVE contains sucrose. If you have been told by your doctor that you have an
 some sugars, contact your doctor before taking this medicinal product.  </p>
 <p>YENTREVE contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yentreve"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take yentreve"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to take YENTREVE </p>
-<p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
 <p>YENTREVE is for oral use. You should swallow your capsule whole with a drink of water. </p>
 <p>The recommended dose of YENTREVE is 40 mg twice a day (in the morning and late 
@@ -276,7 +279,7 @@ effects are normally mild to moderate and often disappear after a short time. </
 * headache, dizziness, feeling sluggish, feeling sleepy,  tremor, numbness, including numbness, 
 pricking or tingling of the skin 
 * blurred eyesight 
-* feeling of dizziness or “spinning” (vertigo) 
+* feeling of dizziness or  spinning  (vertigo) 
 * increased blood pressure, flushing 
 * diarrhoea, stomach pain, being sick (vomiting), heartburn or indigestion 
 * increased sweating<br />
@@ -317,7 +320,7 @@ dizzy, weak, confused, sleepy or very tired, or feeling or being sick, more seri
 fainting, fits or falls), syndrome of inappropriate secretion of anti-diuretic hormone (SIADH) <br />
 </em> suicidal behaviour, suicidal thoughts,  mania (over activity, racing thoughts and decreased need 
 for sleep), hallucinations, aggression and anger 
-* “Serotonin syndrome” (a rare reaction which may cause feelings of great happiness, drowsiness, 
+*  Serotonin syndrome  (a rare reaction which may cause feelings of great happiness, drowsiness, 
 clumsiness, restlessness, feeling of being drunk, fever, sweating or rigid muscles), fits, sudden 
 involuntary jerks or twitches of the muscles, sensation of restlessness or an inability to sit or 
 stand still, difficulty controlling movement e.g. lack of coordination or involuntary movements 
@@ -353,7 +356,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton. </p>
-<p>Store in the original package to protect from moisture. Do not store above 30°C. </p>
+<p>Store in the original package to protect from moisture. Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away of medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -363,8 +366,7 @@ throw away of medicines you no longer use. These measures will help to protect t
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What YENTREVE contains 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What YENTREVE contains 
 The active substance is duloxetine.<br />
 Each capsule contains 20 or 40 mg of duloxetine (as hydrochloride).  </p>
 <p>The other ingredients are: 
@@ -377,8 +379,8 @@ Edible ink: synthetic black iron oxide (E172), propylene glycol, shellac. </p>
 YENTREVE is a hard gastro-resistant capsule. Each capsule of YENTREVE contains pellets of 
 duloxetine hydrochloride with a covering to protect them from stomach acid. </p>
 <p>YENTREVE is available in 2 strengths: 20 and 40 mg. 
-The 40 mg capsules are orange and blue and are printed with ’40 mg’ and the code ‘9545’. 
-The 20 mg capsules are blue and are printed with ’20 mg’ and the code ‘9544’. </p>
+The 40 mg capsules are orange and blue and are printed with  40 mg  and the code  9545 . 
+The 20 mg capsules are blue and are printed with  20 mg  and the code  9544 . </p>
 <p>YENTREVE 40 mg is available in packs of 28, 56, 98, 140 and 196 (2 x 98) capsules. 
 YENTREVE 20 mg is available in packs of 28, 56 and 98 capsules. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -388,23 +390,22 @@ Netherlands.
 Manufacturer: Lilly S.A., Avda. De la Industria, 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . - <br />
+ . + 359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 84<br />
-Česká republika 
-Eli Lilly ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84 84<br />
+ esk  republika 
+Eli Lilly  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S 
 Tlf: +45 45 26 60<br />
@@ -420,49 +421,49 @@ Eli Lilly Nederland B.V.
 Tel: +372 6 817<br />
 Norge 
 Eli Lilly Norge A.S 
-Tlf: +47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: +47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
-Spaly Bioquímica, S.A. 
+Tel: + 43-(0) 1 711 Espa a 
+Spaly Bioqu mica, S.A. 
 Tel: + 34-91 623 17 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33<br />
 France 
 Lilly France 
-Tél: +33-(0) 1 55 49 34<br />
+T l: +33-(0) 1 55 49 34<br />
 Portugal 
-Lilly Portugal - Produtos Farmacêuticos, Lda 
+Lilly Portugal - Produtos Farmac uticos, Lda 
 Tel: + 351 21-4126 
 Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: +353-(0) 1 661 4 
 Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab 
-Puh/Tel: +358-(0) 9 85 45 Κύπρος 
+Puh/Tel: +358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Τηλ: +357 22 715 
+ : +357 22 715 
 Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0)8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: + 371 67364 
 United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

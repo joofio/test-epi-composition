@@ -4,7 +4,7 @@ Instance: composition-en-04b40a1714f5b912888d4507d03df94b
 InstanceOf: CompositionUvEpi
 Title: "Composition for lemtrada Package Leaflet"
 Description:  "Composition for lemtrada Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -80,7 +80,7 @@ medicine for MS or if your MS is rapidly evolving. </p>
 <p>What is multiple sclerosis? 
 MS is an autoimmune disease that affects the central nervous system (brain and spinal cord). In MS your 
 immune system mistakenly attacks the protective layer (myelin) around the nerve fibres, causing 
-inflammation. When the inflammation causes symptoms this is often called an “attack” or a “relapse”. In 
+inflammation. When the inflammation causes symptoms this is often called an  attack  or a  relapse . In 
 RRMS patients experience relapses followed by periods of recovery. </p>
 <p>The symptoms you experience are determined by which part of your central nervous system is affected. The 
 damage done to your nerves during this inflammation may be reversible, but as your disease progresses the 
@@ -95,21 +95,11 @@ LEMTRADA adjusts your immune system to limit its attacks on your nervous system.
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take lemtrada"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use LEMTRADA:<br />
-− 
-if you are allergic to alemtuzumab or any of the other ingredients of this medicine (listed in section 6). 
-− 
-if you are infected with human immunodeficiency virus (HIV). 
-− 
-if you are suffering from a serious infection<br />
-− 
-if you have any of the following conditions: 
-o other autoimmune disease besides multiple sclerosis 
-o uncontrolled high blood pressure 
-o history of tears in blood vessels supplying the brain 
-o history of stroke 
-o history of heart attack or chest pain 
-o history of bleeding disorder </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use LEMTRADA:  </p>
+<p>if you are allergic to alemtuzumab or any of the other ingredients of this medicine (listed in section 6). </p>
+<p>if you are infected with human immunodeficiency virus (HIV). </p>
+<p>if you are suffering from a serious infection  </p>
+<p>if you have any of the following conditions: * other autoimmune disease besides multiple sclerosis * uncontrolled high blood pressure * history of tears in blood vessels supplying the brain * history of stroke * history of heart attack or chest pain * history of bleeding disorder </p>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor before LEMTRADA is given. After having a course of treatment with LEMTRADA you 
 may be at greater risk of developing other autoimmune conditions, or experiencing serious infections. It is 
@@ -132,70 +122,82 @@ blood and urine tests are needed until 4 years after your last infusion. Testing
 feeling well and your MS symptoms are under control. There are certain signs and symptoms that you should 
 look out for yourself. In addition, these conditions may occur beyond 4 years, therefore, you must continue 
 to look for signs and symptoms, even after you no longer need to do monthly blood and urine tests. Details 
-about the signs and symptoms, testing, and actions you need to take are described in sections 2 and 4 – 
+about the signs and symptoms, testing, and actions you need to take are described in sections 2 and 4 <br />
 autoimmune conditions.   </p>
 <p>More helpful information about these autoimmune conditions (and the testing for them) can be found in the 
-LEMTRADA Patient Guide. </p>
-<p>o 
+LEMTRADA Patient Guide. 
+ * 
 Acquired haemophilia A 
 Uncommonly, patients developed a bleeding disorder caused by antibodies that work against 
 factor VIII (a protein needed for normal clotting of blood), called acquired hemophilia A. This 
 condition must be diagnosed and treated immediately. Symptoms of acquired hemophilia A are 
-described in section 4.<br />
-o 
+described in section 4.  * 
 Immune Thrombocytopenic Purpura (ITP) 
 Commonly, patients have developed a bleeding disorder caused by a low level of blood 
 platelets, called immune thrombocytopenic purpura (ITP). This must be diagnosed and treated 
 early, as otherwise the effects can be serious or even fatal. Signs and symptoms of ITP are 
-described in section 4.  </p>
-<p>o 
-Kidney disease (such as anti-GBM disease) 
+described in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lemtrada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lemtrada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Kidney disease (such as anti-GBM disease) 
 Rarely, patients have experienced autoimmune related problems with their kidneys, such as anti-
 glomerular basement membrane disease (anti-GBM disease). Signs and symptoms of kidney 
 disease are described in section 4. If untreated it can cause kidney failure requiring dialysis or 
-transplantation, and may lead to death.  </p>
-<p>o 
-Thyroid disorders<br />
+transplantation, and may lead to death.  </li>
+<li>Thyroid disorders<br />
 Very commonly, patients have experienced an autoimmune disorder of the thyroid gland 
 affecting its ability to make or control hormones that are important for your metabolism.<br />
-LEMTRADA may cause different types of thyroid disorders, including: 
-* Over-active thyroid gland (hyperthyroidism) when the thyroid produces too much 
-hormone 
-* Under-active thyroid gland (hypothyroidism) when the thyroid does not produce 
-enough hormone. </p>
-<p>Signs and symptoms of thyroid disorders are described in section 4.<br />
-If you develop a thyroid disorder, in most cases you will need to be treated for the rest of your 
+LEMTRADA may cause different types of thyroid disorders, including: </li>
+<li>Over-active thyroid gland (hyperthyroidism) when the thyroid produces too much 
+hormone </li>
+<li>Under-active thyroid gland (hypothyroidism) when the thyroid does not produce 
+enough hormone. </li>
+</ul>
+<p>Signs and symptoms of thyroid disorders are described in section </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you develop a thyroid disorder, in most cases you will need to be treated for the rest of your 
 life with medicines to control your thyroid disorder, and in some cases your thyroid gland may 
 have to be removed.  </p>
 <p>It is very important that you are properly treated for a thyroid disorder, especially if you become 
 pregnant after using LEMTRADA. Having an untreated thyroid disorder could harm your 
-unborn baby, or harm your baby after birth. </p>
-<p>o 
+unborn baby, or harm your baby after birth. 
+ * 
 Liver inflammation 
 Some patients have developed liver inflammation after receiving LEMTRADA. Liver 
 inflammation can be diagnosed from the blood tests that you will be having regularly after 
 LEMTRADA treatment. If you develop one or more of the following symptoms report this to 
 your doctor: nausea, vomiting, abdominal pain, fatigue, loss of appetite, yellow skin or eyes, 
-dark urine, or bleeding or bruising more easily than normal. </p>
-<p>o 
+dark urine, or bleeding or bruising more easily than normal. 
+ * 
 Thrombotic thrombocytopenic purpura (TTP) 
 A blood clotting disorder called Thrombotic Thrombocytopenic Purpura (TTP), can occur with 
 LEMTRADA. Blood clots form in blood vessels and can happen in the entire body. Get medical 
 help right away if you have any of the following symptoms: skin or mouth bruising that may 
 appear as red pinpoint dots, with or without unexplained extreme tiredness, fever, confusion, 
 speech changes, yellowing of the skin or eyes (jaundice), low amount of urine, dark colored urine. 
-It is advised to seek medical attention urgently as TTP can be fatal (see section 4 ‘Possible side 
-effects’). </p>
-<p>o    Sarcoidosis 
+It is advised to seek medical attention urgently as TTP can be fatal (see section 4  Possible side 
+effects ). 
+ *    Sarcoidosis 
 There have been reports of an immune system disorder (sarcoidosis) in patients treated with 
 LEMTRADA. Symptoms can include persistent dry cough, shortness of breath, chest pain, fever, 
-lymph node swelling, weight loss, skin rashes, and blurred vision </p>
-<p>o Autoimmune Encephalitis 
+lymph node swelling, weight loss, skin rashes, and blurred vision 
+ * Autoimmune Encephalitis 
 Autoimmune encephalitis (an immune mediated brain disorder), can occur after receiving 
 LEMTRADA. This condition may include symptoms such as behavioural and/or psychiatric 
 changes, short term memory loss or seizures. The symptoms may resemble an MS relapse. If you 
-develop one or more of these symptoms contact your doctor. </p>
-<p>o Other autoimmune conditions<br />
+develop one or more of these symptoms contact your doctor. 
+ * Other autoimmune conditions<br />
 Uncommonly, patients have experienced autoimmune conditions involving red blood cells or 
 white blood cells. These can be diagnosed from the blood tests that you will be having regularly 
 after LEMTRADA treatment. If you develop one of these conditions your doctor will tell you, 
@@ -204,7 +206,7 @@ and take appropriate measures to treat it.  </p>
 <li>
 <p>Infusion reactions 
 Most patients treated with LEMTRADA will experience side-effects at the time of the infusion or within hours after the infusion. To try to reduce infusion reactions, your doctor will give you other medicine(s) (see 
-section 4 – infusion reactions). </p>
+section 4   infusion reactions). </p>
 </li>
 <li>
 <p>Other serious reactions occurring shortly after LEMTRADA infusion 
@@ -224,15 +226,15 @@ early. If you experience multiple symptoms such as fever, swollen glands, bruisi
 doctor immediately. </p>
 </li>
 <li>
-<p>Adult Onset Still’s Disease (AOSD) 
+<p>Adult Onset Still s Disease (AOSD) 
 AOSD is a rare condition that has the potential to cause multi-organ inflammation with several symptoms 
-such as fever &gt;39°C or 102.2°F lasting more than 1 week, pain, stiffness with or without swelling in multiple 
+such as fever &gt;39 C or 102.2 F lasting more than 1 week, pain, stiffness with or without swelling in multiple 
 joints and/or a skin rash. If you experience a combination of these symptoms, contact your healthcare 
 provider immediately.   </p>
 </li>
 <li>
 <p>Infections 
-Patients treated with LEMTRADA are at a higher risk of getting a serious infection (see section 4 – 
+Patients treated with LEMTRADA are at a higher risk of getting a serious infection (see section 4 <br />
 infections). In general, the infections can be treated with standard medicines. </p>
 </li>
 </ul>
@@ -321,7 +323,7 @@ before being given this medicine. </p>
 LEMTRADA and for 4 months after each course of treatment. </p>
 <p>If you become pregnant after treatment with LEMTRADA and experience a thyroid disorder during 
 pregnancy, extra caution is needed. Thyroid disorders could be harmful to the baby (see section 2 Warnings 
-and precautions – autoimmune conditions). </p>
+and precautions   autoimmune conditions). </p>
 <p>Breast-feeding 
 It is unknown if LEMTRADA can be transferred to a baby through breast milk, but there is a possibility that 
 it could be. It is recommended that you do not breast-feed during each course of treatment with 
@@ -338,15 +340,12 @@ Many patients experience side effects at the time of the infusion or within 24 h
 LEMTRADA, and some of these, for example dizziness, could make it unsafe to drive or use machines. If 
 affected, stop these activities until you feel better. </p>
 <p>LEMTRADA contains potassium and sodium<br />
-This medicine contains less than 1 mmol potassium (39 mg) per infusion, i.e. it is essentially ‘potassium- free’. 
-This medicine contains less than 1 mmol sodium (23 mg) per infusion, i.e. it is essentially ‘sodium- free’. </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take lemtrada"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take lemtrada"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor will explain to you how LEMTRADA will be given. Ask your doctor if you have any questions. </p>
+This medicine contains less than 1 mmol potassium (39 mg) per infusion, i.e. it is essentially  potassium- free . 
+This medicine contains less than 1 mmol sodium (23 mg) per infusion, i.e. it is essentially  sodium- free . </p>
+<ol>
+<li>How LEMTRADA will be administered </li>
+</ol>
+<p>Your doctor will explain to you how LEMTRADA will be given. Ask your doctor if you have any questions. </p>
 <p>The initial treatment you will receive will consist of one infusion per day for 5 days (course 1) and one 
 infusion per day for 3 days one year later (course 2). 
 There is no LEMTRADA treatment between the two courses. Two treatment courses may reduce MS activity 
@@ -373,19 +372,18 @@ treating the symptoms. </p>
 It is unlikely that your dose would be missed since it is administered by a health care professional. 
 Nevertheless, please note that in case of missed dose, this should not be given on the same day as a scheduled 
 dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store lemtrada"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store lemtrada"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The most important side effects are the autoimmune conditions described in section 2 which include: 
 * Acquired haemophilia A (a type of bleeding disorder), (uncommon - may affect up to 1 in people): may show as spontaneous bruising, nose bleeds, painful or swollen joints, other types of 
 bleeding, or bleeding from a cut that may take longer than usual to stop. 
-* ITP (bleeding disorders), (common – may affect up to 1 in 10 people): may show as small scattered 
+* ITP (bleeding disorders), (common   may affect up to 1 in 10 people): may show as small scattered 
 red, pink or purple spots on your skin; easy bruising; bleeding from a cut that is harder to stop; heavier, 
 longer or more frequent menstrual periods than normal; bleeding between menstrual periods; bleeding 
 from your gums or nose that is new or takes longer than usual to stop; or coughing up blood. 
@@ -393,22 +391,22 @@ from your gums or nose that is new or takes longer than usual to stop; or coughi
 as skin or mouth bruising, that may appear as red pinpoint dots, with or without unexplained extreme 
 tiredness, fever, confusion, speech changes, yellowing of the skin or eyes (jaundice), low amount of 
 urine, dark colored urine.<br />
-* kidney disorders, (rare – may affect up to 1 in 1,000 people): may show as blood in the urine (your 
+* kidney disorders, (rare   may affect up to 1 in 1,000 people): may show as blood in the urine (your 
 urine may be red or tea-coloured), or as swelling in your legs or feet. It can also lead to damage of your 
 lungs, which can result in coughing up blood. </p>
 <p>If you notice any of these signs or symptoms for bleeding or kidney disorders, call your doctor 
 immediately to report the symptoms. If you cannot reach your doctor, you must seek immediate 
 medical attention. </p>
 <ul>
-<li>thyroid disorders (very common – may affect more than 1 in 10 people): may show as excessive 
+<li>thyroid disorders (very common   may affect more than 1 in 10 people): may show as excessive 
 sweating; unexplained weight-loss or gain; eye swelling; nervousness; fast heartbeat; feeling cold; 
 worsening tiredness; or newly occurring constipation. </li>
-<li>red and white blood cells disorders (uncommon – may affect up to 1 in 100 people): diagnosed from 
+<li>red and white blood cells disorders (uncommon   may affect up to 1 in 100 people): diagnosed from 
 your blood tests. </li>
-<li>sarcoidosis (uncommon – may affect up to 1 in 100 people): symptoms can include persistent dry 
+<li>sarcoidosis (uncommon   may affect up to 1 in 100 people): symptoms can include persistent dry 
 cough, shortness of breath, chest pain, fever, lymph node swelling, weight loss, skin rashes, and 
 blurred vision. </li>
-<li>autoimmune encephalitis (uncommon – may affect up to 1 in 100 people): may include symptoms 
+<li>autoimmune encephalitis (uncommon   may affect up to 1 in 100 people): may include symptoms 
 such as behavioural and/or psychiatric changes, short term memory loss or seizures. The symptoms 
 may resemble an MS relapse. </li>
 </ul>
@@ -447,7 +445,7 @@ experience infections). In most cases, these are mild but serious infections can
 <p>To help reduce the risk of some infections your doctor may consider giving you vaccination against 
 chickenpox and/or other vaccinations that they think are necessary for you (see section 2: What you need to 
 know before you are administered LEMTRADA - Vaccines). Your doctor can also prescribe a medicine for 
-cold sores (see section 2: What you need to know before you are administered LEMTRADA – Infections). </p>
+cold sores (see section 2: What you need to know before you are administered LEMTRADA   Infections). </p>
 <p>The most frequent side effects are infusion reactions (see below for information on how often patients 
 experience these), which can happen at the time of the infusion or within 24 hours after the infusion. In most 
 cases these are mild but some serious reactions are possible. Occasionally allergic reactions could occur.  </p>
@@ -504,7 +502,7 @@ thyroid gland in the neck)
 * Infections: stomach flu, inflammation of the gums, nail fungus, tonsil inflammation, acute sinusitis, 
 bacterial skin infection,  cytomegalovirus infection 
 * pneumonitis 
-* athlete’s foot 
+* athlete s foot 
 * abnormal vaginal smear 
 * increased sensation, sensory disturbance such as numbness, tingling and pain, tension headache 
 * double vision 
@@ -539,7 +537,7 @@ lymphohistiocytosis)
 <em> stroke<br />
 </em> tears in carotid or vertebral arteries (blood vessels supplying the brain) 
 * infection due to a virus known as Epstein-Barr virus 
-* inflammatory condition that affects multiple organs, Adult Onset Still’s Disease (AOSD)   </p>
+* inflammatory condition that affects multiple organs, Adult Onset Still s Disease (AOSD)   </p>
 <p>Show the Patient Alert Card and this package leaflet to any doctor involved with your treatment, not only to 
 your neurologist. </p>
 <p>You will also find this information in the Patient Alert Card and Patient Guide that you have been given by 
@@ -549,145 +547,19 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 You can also report side effects directly via the national reporting system listed in Appendix V. By reporting 
 side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store lemtrada"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store lemtrada"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and the vial label after EXP. 
-The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C-8°C). </p>
-<p>Do not freeze. </p>
-<p>Store in the original package to protect from light. </p>
-<p>It is recommended that the product is used immediately after dilution, due to a possible risk for microbial 
-contamination. If it is not used immediately, in-use storage times and conditions prior to use are the 
-responsibility of the user and should not be longer than 8 hours at 2oC to 8oC, under protection from light. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What LEMTRADA contains<br />
-The active substance is alemtuzumab. 
-Each vial contains 12 mg alemtuzumab in 1.2 ml. </p>
-<p>The other ingredients are: 
-* disodium phosphate dihydrate (E339) 
-* disodium edetate dihydrate 
-* potassium chloride (E508) 
-* potassium dihydrogen phosphate (E340) 
-* polysorbate 80 (E433) 
-* sodium chloride 
-* water for injections </p>
-<p>What LEMTRADA looks like and contents of the pack 
-LEMTRADA is a clear, colourless to slightly yellow concentrate for solution for infusion (sterile 
-concentrate) that comes in a glass vial with stopper.  </p>
-<p>There is 1 vial in each carton. </p>
-<p>Marketing Authorisation Holder<br />
-Sanofi Belgium<br />
-Leonardo Da Vincilaan 19<br />
-B-1831 Diegem 
-Belgium </p>
-<p>Manufacturer 
-Genzyme Ireland Limited 
-IDA Industrial Park 
-Old Kilmeaden Road 
-Waterford 
-Ireland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
-Luxemburg/Luxembourg 
-Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
-Lietuva 
-Swixx Biopharma UAB 
-Tel. +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
-SANOFI-AVENTIS Zrt 
-Tel: +36 1 505 0Česká republika 
-Sanofi, s.r.o. 
-Tel: +420 233086<br />
-Malta 
-Sanofi  S.r.l. 
-Tel: +39 02 39394 
-Danmark 
-Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Nederland 
-Sanofi B.V. 
-Tel: +31 20 245 4Deutschland 
-Sanofi Belgium<br />
-Tel: +49 (0) 6102 3674 451<br />
-Norge 
-sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71<br />
-Eesti 
-Swixx Biopharma OÜ 
-Tel. +372 640 10<br />
-Österreich 
-sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16 Polska 
-sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-España 
-sanofi-aventis, S.A. 
-Tel: +34 93 485 94 <br />
-Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
-Tel: +351 21 35 89<br />
-France 
-Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
-România 
-Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Hrvatska 
-Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Slovenija 
-Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51 Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel.: +421 2 208 33<br />
-Ireland 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Suomi/Finland 
-Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
-Italia 
-Sanofi S.r.l. 
-Tel: 800536 
-Sverige 
-Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741United Kingdom (Northern Ireland) 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 
-Latvija 
-Swixx Biopharma SIA 
-Tel: +371 6 616 47  </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>To assist in the education of patients regarding potential side-effects and instructions on what to do in case of 
-certain side-effects, the following risk minimisation materials are available: </p>
-<p>1 Patient Alert Card: For the patient to present to other healthcare providers to alert them to the use of 
-LEMTRADA in this patient. 
-2 Patient Guide: 
-For further information on autoimmune reactions, infections and other information. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and the vial label after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C-8 C). </p>
+<p>Do not freeze. </p>
+<p>Store in the original package to protect from light. </p>
+<p>It is recommended that the product is used immediately after dilution, due to a possible risk for microbial 
+contamination. If it is not used immediately, in-use storage times and conditions prior to use are the 
+responsibility of the user and should not be longer than 8 hours at 2oC to 8oC, under protection from light. </p>         </div>"""      
 

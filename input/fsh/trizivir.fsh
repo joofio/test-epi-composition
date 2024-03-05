@@ -4,7 +4,7 @@ Instance: composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: CompositionUvEpi
 Title: "Composition for trizivir Package Leaflet"
 Description:  "Composition for trizivir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,7 +88,7 @@ effectiveness of your treatment. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Trizivir: 
 * if you are allergic (hypersensitive) to abacavir (or any other medicine containing abacavir 
-— Kivexa, Triumeq or Ziagen), lamivudine or zidovudine, or any of the other ingredients 
+  Kivexa, Triumeq or Ziagen), lamivudine or zidovudine, or any of the other ingredients 
 of this medicine (listed in Section 6) 
 Carefully read all the information about hypersensitivity reactions in Section 4. * if you have severe kidney problems 
 * if you have a very low red blood cell count (anaemia) or a very low white blood cell 
@@ -99,14 +99,14 @@ Some people taking Trizivir are more at risk of serious side effects. You need t
 risks: 
 * if you have moderate or severe liver disease<br />
 * if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B 
-infection, do not stop Trizivir without your doctor’s advice, as your hepatitis may come 
+infection, do not stop Trizivir without your doctor s advice, as your hepatitis may come 
 back) 
 * if you are seriously overweight (especially if you are a woman) 
 Talk to your doctor if any of these apply to you before using Trizivir. 
 You may need extra check-ups, including blood tests, while you are taking your medicine. See 
 Section 4 for more information. </p>
 <p>Abacavir hypersensitivity reactions 
-Even patients who don’t have the HLA-B*5701 gene may still develop a hypersensitivity reaction (a 
+Even patients who don t have the HLA-B*5701 gene may still develop a hypersensitivity reaction (a 
 serious allergic reaction).Carefully read all the information about hypersensitivity reactions in 
 Section 4 of this leaflet. </p>
 <p>Risk of cardiovascular events 
@@ -117,7 +117,7 @@ not stop taking Trizivir unless your doctor advises you to do so. </p>
 <p>Look out for important symptoms 
 Some people taking Trizivir develop other conditions, which can be serious. You need to know about 
 important signs and symptoms to look out for while you are taking Trizivir. 
-Read the information ‘Other possible side effects of Trizivir’ in Section 4 of this leaflet. </p>
+Read the information  Other possible side effects of Trizivir  in Section 4 of this leaflet. </p>
 <p>Other medicines and Trizivir 
 Tell your doctor or pharmacist if you are taking any other medicines, or if you have taken any 
 recently, including herbal medicines or other medicines you bought without a prescription.<br />
@@ -146,7 +146,7 @@ pneumonia (often referred to as PCP)<br />
 them more effective 
 * methadone, used as a heroin substitute 
 * vincristine, vinblastine or doxorubicin, to treat cancer 
-Tell your doctor if you’re taking any of these. </p>
+Tell your doctor if you re taking any of these. </p>
 <p>Some medicines interact with Trizivir 
 These include: 
 * clarithromycin, an antibiotic 
@@ -185,10 +185,10 @@ If you are breast-feeding, or thinking about breast-feeding, you should discuss 
 soon as possible. </p>
 <p>Driving and using machines 
 Trizivir can make you dizzy and have other side effects that make you less alert. 
-Don’t drive or operate machines unless you’re feeling well. </p>
+Don t drive or operate machines unless you re feeling well. </p>
 <p>Important information about some of the other ingredients of Trizivir tablets. 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trizivir"
@@ -197,7 +197,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is 
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or 
 pharmacist if you are not sure. 
-Keep in touch with your doctor, and do not stop taking Trizivir without your doctor’s advice. </p>
+Keep in touch with your doctor, and do not stop taking Trizivir without your doctor s advice. </p>
 <p>How much to take 
 The usual dose of Trizivir for adults is one tablet twice a day.<br />
 Take the tablets at regular times, leaving approximately 12 hours between each tablet. </p>
@@ -211,7 +211,7 @@ Do not take a double dose to make up for a forgotten dose.  </p>
 <p>It is important to take Trizivir regularly, because if you take it at irregular intervals it may not continue 
 to work against the HIV infection, and you may be more likely to have a hypersensitivity reaction. </p>
 <p>If you have stopped taking Trizivir 
-If you have stopped taking Trizivir for any reason — especially because you think you are having side 
+If you have stopped taking Trizivir for any reason   especially because you think you are having side 
 effects, or because you have other illness: 
 Talk to your doctor before you start taking it again. Your doctor will check whether your 
 symptoms were related to a hypersensitivity reaction. If the doctor thinks they may have been 
@@ -237,12 +237,12 @@ arms, and face. When these signs occur, Trizivir should be stopped and your HIV 
 <p>When you are being treated for HIV, it can be hard to tell whether a symptom is a side effect of 
 Trizivir or other medicines you are taking, or an effect of the HIV infection itself. So it is very 
 important to talk to your doctor about any changes in your health. </p>
-<p>Even patients who don’t have the HLA-B*5701 gene may still develop a hypersensitivity reaction (a 
-serious allergic reaction), described in this leaflet in the panel headed ‘Hypersensitivity reactions’. 
+<p>Even patients who don t have the HLA-B*5701 gene may still develop a hypersensitivity reaction (a 
+serious allergic reaction), described in this leaflet in the panel headed  Hypersensitivity reactions . 
 It is very important that you read and understand the information about this serious reaction. </p>
 <p>As well as the side effects listed below for Trizivir, other conditions can develop during treatment.<br />
-It is important to read the information on the other side of this leaflet under ‘Other possible side 
-effects of Trizivir’. </p>
+It is important to read the information on the other side of this leaflet under  Other possible side 
+effects of Trizivir . </p>
 <p>Hypersensitivity reactions 
 Trizivir contains abacavir (which is also an active substance in Kivexa, Triumeq and Ziagen). 
 Abacavir can cause a serious allergic reaction known as a hypersensitivity reaction. These 
@@ -273,7 +273,7 @@ during the first 6 weeks of treatment. </p>
 1 
 if you get a skin rash, OR 
 2 
-if you get symptoms from at least 2 of the following groups: </p>
+if you get symptoms from at least 2 of the following groups:</p>
 <ul>
 <li>
 <p>fever </p>
@@ -294,7 +294,7 @@ if you get symptoms from at least 2 of the following groups: </p>
 AGAIN take Trizivir, or any other medicine containing abacavir (Kivexa, Triumeq or 
 Ziagen). If you do, within hours, your blood pressure could fall dangerously low, which could 
 result in death. </p>
-<p>If you have stopped taking Trizivir for any reason — especially because you think you are having side 
+<p>If you have stopped taking Trizivir for any reason   especially because you think you are having side 
 effects, or because you have other illness: 
       Talk to your doctor before you start again. Your doctor will check whether your symptoms 
 were related to a hypersensitivity reaction. If the doctor thinks they may have been, you will then be 
@@ -353,15 +353,15 @@ kinds of blood cells (pancytopenia) </p>
 <p>Rare side effects 
 These may affect up to 1 in 1000 people: 
 * liver disorders, such as jaundice, enlarged liver or fatty liver, inflammation (hepatitis) 
-* lactic acidosis (excess lactic acid in the blood ; see the next section, ‘Other possible side 
-effects of Trizivir’) 
+* lactic acidosis (excess lactic acid in the blood ; see the next section,  Other possible side 
+effects of Trizivir ) 
 * inflammation of the pancreas (pancreatitis) 
 * chest pain; disease of the heart muscle (cardiomyopathy) 
 * fits (convulsions) 
 * feeling depressed or anxious, not being able to concentrate, feeling drowsy 
 * indigestion, taste disturbance 
 * changes in the colour of your nails, your skin, or the skin inside your mouth 
-* a flu-like feeling — chills and sweating 
+* a flu-like feeling   chills and sweating 
 * tingly feelings in the skin (pins and needles) 
 * sensation of weakness in the limbs 
 * breakdown of muscle tissue 
@@ -376,12 +376,11 @@ These may affect up to 1 in 10,000 people:
 * skin rash, which may form blisters and  looks like small targets (central dark spots 
 surrounded by a paler area, with a dark ring around the edge) (erythema multiforme) 
 * a widespread rash with blisters and peeling skin, particularly around the mouth, nose, eyes 
-and genitals (Stevens–Johnson syndrome), and a more severe form causing skin peeling in 
+and genitals (Stevens Johnson syndrome), and a more severe form causing skin peeling in 
 more than 30% of the body surface (toxic epidermal necrolysis) 
 If you notice any of these symptoms contact a doctor urgently. 
-A very rare side effect that may show up in blood tests is: 
- 
-a failure of the bone marrow to produce new red or white blood cells (aplastic anaemia) </p>
+A very rare side effect that may show up in blood tests is: </p>
+<p>a failure of the bone marrow to produce new red or white blood cells (aplastic anaemia) </p>
 <p>If you get side effects </p>
 <p>Tell your doctor or pharmacist if any of the side effects gets severe or troublesome, or if you 
 notice any side effects not listed in this leaflet. </p>
@@ -392,7 +391,7 @@ Trizivir may cause other conditions to develop during HIV treatment. </p>
 People with advanced HIV infection (AIDS) have weak immune systems, and are more likely to 
 develop serious infections (opportunistic infections). When these people start treatment, they may find 
 that old, hidden infections flare up, causing signs and symptoms of inflammation. These symptoms are 
-probably caused by the body’s immune system becoming stronger, so that the body starts to fight these 
+probably caused by the body s immune system becoming stronger, so that the body starts to fight these 
 infections. Symptoms usually include fever, plus some of the following: 
 * headache 
 * stomach ache 
@@ -403,9 +402,9 @@ start taking medicine to treat your HIV infection. Symptoms may include:
 * palpitations (rapid or irregular heartbeat) or tremor 
 * hyperactivity (excessive restlessness and movement) 
 * weakness beginning in the hands and feet and moving up towards the trunk of the body </p>
-<p>If you get any symptoms of infection while you’re taking Trizivir: 
+<p>If you get any symptoms of infection while you re taking Trizivir: 
 Tell your doctor immediately. Do not take other medicines for the infection without your 
-doctor’s advice. </p>
+doctor s advice. </p>
 <p>Lactic acidosis is a rare but serious side effect 
 Some people taking Trizivir develop a condition called lactic acidosis, together with an enlarged liver.  </p>
 <p>Lactic acidosis is caused by a build-up of lactic acid in the body. It is rare; if it happens, it usually 
@@ -457,7 +456,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not take this medicine after the expiry date shown on the carton. The expiry date refers to the last 
 day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures help protect the environment. </p>         </div>"""      
         
@@ -474,7 +473,7 @@ lamivudine and 300 mg zidovudine. </p>
 in the core of the tablet. The tablet coating contains hypromellose, titanium dioxide, polyethylene 
 glycol, indigo carmine aluminium lake, iron oxide yellow. </p>
 <p>What Trizivir looks like and contents of the pack 
-Trizivir film-coated tablets are engraved with ‘GX LL1’ on one side. They are blue/green and capsule-
+Trizivir film-coated tablets are engraved with  GX LL1  on one side. They are blue/green and capsule-
 shaped and are provided in blister packs containing 60 tablets or bottles containing 60 tablets with 
 child-resistant tops. </p>
 <p>Marketing Authorisation Holder 
@@ -483,26 +482,25 @@ Van Asch van Wijckstraat 55H </p>
 <p>3811 LP Amersfoort 
 Netherlands </p>
 <p>Manufacturer 
-Delpharm Poznań Spółka Akcyjna, ul. Grunwaldzka 189 , 60-322 Poznan, Poland </p>
+Delpharm Pozna  Sp ka Akcyjna, ul. Grunwaldzka 189 , 60-322 Poznan, Poland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 ViiV Healthcare srl/bv </p>
-<p>Tél/Tel: + 32 (0) 10 85 65<br />
+<p>T l/Tel: + 32 (0) 10 85 65<br />
 Lietuva 
 ViiV Healthcare BV 
-Tel: + 370 80000 
-България 
-ViiV Healthcare BV 
-Teл.: + 359 80018 
+Tel: + 370 80000 </p>
+<p>ViiV Healthcare BV 
+Te .: + 359 80018 
 Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv </p>
 <p>Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 65<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 65<br />
+ esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 ViiV Healthcare BV 
 Tel.: + 36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
@@ -520,15 +518,14 @@ ViiV Healthcare BV
 Tel: + 372 8002 
 Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+Tlf: + 47 22 70 20  </p>
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com  </p>
-<p>España 
+<p>Espa a 
 Laboratorios ViiV Healthcare, S.L.<br />
 Tel: +34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
@@ -536,7 +533,7 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 
 France 
 ViiV Healthcare SAS<br />
-Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+T l.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV 
 Tel: + 385 800787 </p>
@@ -544,7 +541,7 @@ Tel: + 385 800787 </p>
 VIIVHIV HEALTHCARE, 
 UNIPESSOAL, LDA<br />
 Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
-<p>România 
+<p>Rom nia 
 ViiV Healthcare BV<br />
 Tel: + 40800672 
 Ireland 
@@ -552,20 +549,19 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 353 (0)1 4955Slovenija 
 ViiV Healthcare BV 
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf.<br />
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 ViiV Healthcare BV 
 Tel: + 421 800500 
 Italia 
 ViiV Healthcare S.r.l<br />
 Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-ViiV Healthcare BV 
-Τηλ: + 357 80070 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>ViiV Healthcare BV 
+ : + 357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com  </p>

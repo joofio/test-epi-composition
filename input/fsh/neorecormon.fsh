@@ -4,7 +4,7 @@ Instance: composition-en-b49a3ab45641cdaf6bd8a0f7bc20385d
 InstanceOf: CompositionUvEpi
 Title: "Composition for neorecormon Package Leaflet"
 Description:  "Composition for neorecormon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,8 +98,8 @@ section 6)
 * if you have blood pressure problems that cannot be controlled<br />
 * if you are donating your own blood before surgery, and: 
 * you had a heart attack or stroke in the month before your treatment 
-* you have unstable angina pectoris – new or increasing chest pain 
-* you are at risk of blood clots in the veins (deep venous thrombosis) – for example, if you 
+* you have unstable angina pectoris   new or increasing chest pain 
+* you are at risk of blood clots in the veins (deep venous thrombosis)   for example, if you 
 have had clots before. 
 If any of these apply to you, or might apply, tell your doctor at once. </p>
 <p>Warnings and precautions 
@@ -169,7 +169,7 @@ No effects on ability to drive or use machines have been observed. </p>
 <p>NeoRecormon contains phenylalanine and sodium 
 This medicine contains phenylalanine. May be harmful for people with phenylketonuria.  <br />
 If you have phenylketonuria, talk to your doctor about your treatment with NeoRecormon. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium- free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neorecormon"
@@ -295,8 +295,14 @@ been reported in association with epoetin treatment. These can appear as reddish
 macules or circular patches often with central blisters on the trunk, skin peeling, ulcers of 
 mouth, throat, nose, genitals and eyes and can be preceded by fever and flu-like symptoms. 
 Stop using NeoRecormon if you develop these symptoms and contact your doctor or seek 
-medical attention immediately. See also section 2.  </p>
-<p>Additional side effects in people with chronic kidney disease (renal anaemia) 
+medical attention immediately. See also section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store neorecormon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store neorecormon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Additional side effects in people with chronic kidney disease (renal anaemia) 
 * Increase in blood pressure, worsening of existing high blood pressure and headaches are 
 the most common side effects (very common may affect more than 1 in 10 people). Your 
 doctor will regularly check your blood pressure, particularly at the beginning of therapy. Your 
@@ -328,30 +334,21 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store neorecormon"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store neorecormon"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use NeoRecormon after the expiry date which is stated on the carton and label. 
-* Store in a refrigerator (2°C – 8°C). 
-* The syringe can be removed from the refrigerator and left at room temperature for a single 
-period of maximum 3 days (but not above 25°C). 
-* Keep the pre-filled syringe in the outer carton, in order to protect from light. 
-* Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist 
-how to dispose of medicines no longer required. These measures will help protect the 
-environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NeoRecormon contains </p>
-<ul>
-<li>The active substance is epoetin beta. One pre-filled syringe contains either 500, 2000, 3000, 
-4000, 5000, 6000, 10,000, 20,000 or 30,000 IU (international units) epoetin beta in 0.3 ml or </li>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use NeoRecormon after the expiry date which is stated on the carton and label. </li>
+<li>Store in a refrigerator (2 C   8 C). </li>
+<li>The syringe can be removed from the refrigerator and left at room temperature for a single 
+period of maximum 3 days (but not above 25 C). </li>
+<li>Keep the pre-filled syringe in the outer carton, in order to protect from light. </li>
+<li>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist 
+how to dispose of medicines no longer required. These measures will help protect the 
+environment. </li>
 </ul>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-27621dca9c70d4aa804aaf075667f6df
 InstanceOf: CompositionUvEpi
 Title: "Composition for aimovig Package Leaflet"
 Description:  "Composition for aimovig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,20 +87,24 @@ starting treatment with Aimovig. </p>         </div>"""
 - if you are allergic to erenumab or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor before using Aimovig: 
-- if you have ever had an allergic reaction to rubber latex. The container of this medicinal product 
-contains latex rubber within the cap. 
-- if you suffer from a cardiovascular disease. Aimovig has not been studied in patients with 
-certain cardiovascular diseases. </p>
-<p>Talk to your doctor or get emergency medical help immediately: 
-- if you get any symptoms of a serious allergic reaction, such as rash or swelling usually of the 
+Talk to your doctor before using Aimovig:</p>
+<ul>
+<li>if you have ever had an allergic reaction to rubber latex. The container of this medicinal product 
+contains latex rubber within the cap. </li>
+<li>if you suffer from a cardiovascular disease. Aimovig has not been studied in patients with 
+certain cardiovascular diseases. </li>
+</ul>
+<p>Talk to your doctor or get emergency medical help immediately:</p>
+<ul>
+<li>if you get any symptoms of a serious allergic reaction, such as rash or swelling usually of the 
 face, mouth, tongue, or throat; or difficulty breathing. Serious allergic reactions can happen 
-within minutes, but some may happen more than one week after using Aimovig. 
-- Contact a doctor if you get constipation and seek medical help immediately if you develop 
+within minutes, but some may happen more than one week after using Aimovig. </li>
+<li>Contact a doctor if you get constipation and seek medical help immediately if you develop 
 constipation with severe or constant belly (abdominal) pain and vomiting, swelling of abdomen 
 or bloating. Constipation can occur when treated with Aimovig. It is usually mild or moderate in 
 intensity. However, some patients using Aimovig have had constipation with serious 
-complications and have been hospitalised. Some cases have required surgery. </p>
+complications and have been hospitalised. Some cases have required surgery. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents (under 18 years old) because the use of Aimovig 
 has not been studied in this age group. </p>
@@ -119,7 +123,7 @@ Aimovig. </p>
 <p>Driving and using machines 
 Aimovig is unlikely to affect your ability to drive and use machines. </p>
 <p>Aimovig contains sodium 
-Aimovig contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium-free”. </p>         </div>"""   
+Aimovig contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aimovig"
@@ -143,8 +147,8 @@ Aimovig. Do not try to inject Aimovig until this training has been given. </p>
 <p>If you have not noticed any treatment effect after 3 months, tell your doctor who will decide whether 
 you should continue treatment. </p>
 <p>Aimovig syringes are for single use only. </p>
-<p>For detailed instructions on how to inject Aimovig, see “Instructions for use of Aimovig pre-filled 
-syringe” at the end of this leaflet. </p>
+<p>For detailed instructions on how to inject Aimovig, see  Instructions for use of Aimovig pre-filled 
+syringe  at the end of this leaflet. </p>
 <p>If you use more Aimovig than you should 
 If you have received more Aimovig than you should or if the dose has been given earlier than it should 
 have been, tell your doctor. </p>
@@ -187,9 +191,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Keep the syringe(s) in the outer carton in order to protect from light. Store in a refrigerator (2°C – 
-8°C). Do not freeze. </p>
-<p>After Aimovig has been taken out of the refrigerator, it must be kept at room temperature (up to 25°C) 
+<p>Keep the syringe(s) in the outer carton in order to protect from light. Store in a refrigerator (2 C <br />
+8 C). Do not freeze. </p>
+<p>After Aimovig has been taken out of the refrigerator, it must be kept at room temperature (up to 25 C) 
 in the outer carton and must be used within 7 days, or else discarded. Do not put Aimovig back in the 
 refrigerator once it has been removed. </p>
 <p>Do not use this medicine if you notice that the solution contains particles, is cloudy or is distinctly 
@@ -229,23 +233,22 @@ Roonstrasse 90429 Nuremberg
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -261,35 +264,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -297,10 +300,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

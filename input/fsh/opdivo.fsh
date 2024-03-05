@@ -4,7 +4,7 @@ Instance: composition-en-d585d8fe14b9492a241ac7bacfd89f6d
 InstanceOf: CompositionUvEpi
 Title: "Composition for opdivo Package Leaflet"
 Description:  "Composition for opdivo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,7 +93,7 @@ gullet cancer) in adults. </p>
 <p>It contains the active substance nivolumab, which is a monoclonal antibody, a type of protein designed 
 to recognise and attach to a specific target substance in the body. </p>
 <p>Nivolumab attaches to a target protein called programmed death-1 receptor (PD-1) that can switch off 
-the activity of T cells (a type of white blood cell that forms part of the immune system, the body’s 
+the activity of T cells (a type of white blood cell that forms part of the immune system, the body s 
 natural defences). By attaching to PD-1, nivolumab blocks its action and prevents it from switching 
 off your T cells. This helps increase their activity against the melanoma, lung, kidney, lymphoid, head 
 and neck, bladder, colon, rectal, stomach, oesophageal or gastro-oesophageal junction cancer cells. </p>
@@ -371,7 +371,7 @@ surrounding the brain and spinal cord (aseptic meningitis)
 * Acid in the blood produced from diabetes (diabetic ketoacidosis), decreased function of the 
 parathyroid gland 
 * A temporary inflammation of the nerves that causes pain, weakness, and paralysis in the 
-extremities (Guillain-Barré syndrome), loss of the protective sheath around nerves 
+extremities (Guillain-Barr  syndrome), loss of the protective sheath around nerves 
 (demyelination), a condition in which the muscles become weak and tire easily (myasthenic 
 syndrome), inflammation of the brain 
 * Inflammatory disease of blood vessels 
@@ -379,7 +379,7 @@ syndrome), inflammation of the brain
 * Severe and possibly fatal peeling of the skin (toxic epidermal necrolysis or Stevens-Johnson 
 syndrome) 
 * Disease in which the immune system attacks the glands that make moisture for the body, such 
-as tears and saliva (Sjogren’s syndrome), aching muscles, muscle tenderness or weakness, not 
+as tears and saliva (Sjogren s syndrome), aching muscles, muscle tenderness or weakness, not 
 caused by exercise (myopathy), inflammation of the muscles (myositis), stiffness in muscles 
 and joints, muscle spasm (rhabdomyolysis) 
 * Inflammation of the kidney, inflammation of the bladder, signs and symptoms may include 
@@ -452,7 +452,7 @@ skin (skin hyperpigmentation), dry skin
 * Acid in the blood produced from diabetes (diabetic ketoacidosis) 
 * Increased acid levels in the blood 
 * A temporary inflammation of the nerves that causes pain, weakness and paralysis in the 
-extremities (Guillain-Barré syndrome); damage to nerves causing numbness and weakness 
+extremities (Guillain-Barr  syndrome); damage to nerves causing numbness and weakness 
 (polyneuropathy); foot drop (peroneal nerve palsy); inflammation of the nerves caused by the 
 body attacking itself, causing numbness, weakness, tingling or burning pain (autoimmune 
 neuropathy); muscle weakness and tiredness without atrophy (myasthenia gravis or syndrome) 
@@ -488,7 +488,7 @@ membranes of the ears, brain and spinal cord (Vogt-Koyanagi-Harada syndrome)
 the skin and/or genital area that are associated with drying out, thinning, itching and pain (lichen 
 sclerosus or other lichen disorders) 
 * Chronic disease of joints (spondyloarthropathy), disease in which the immune system attacks 
-the glands that make moisture for the body, such as tears and saliva (Sjogren’s syndrome), 
+the glands that make moisture for the body, such as tears and saliva (Sjogren s syndrome), 
 muscle spasm (rhabdomyolysis) </p>
 <p>Other side effects that have been reported with frequency not known (cannot be estimated from 
 the available data): 
@@ -528,10 +528,10 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). 
+<p>Store in a refrigerator (2 C to 8 C). 
 Do not freeze. 
 Store in the original package in order to protect from light. 
-The unopened vial can be stored at controlled room temperature up to 25°C with room light for up to 
+The unopened vial can be stored at controlled room temperature up to 25 C with room light for up to 
 48 hours. </p>
 <p>Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste 
 material should be disposed of in accordance with local requirements. </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c
 InstanceOf: CompositionUvEpi
 Title: "Composition for firazyr Package Leaflet"
 Description:  "Composition for firazyr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use Firazyr 
 4. Possible side effects 
 5. How to store Firazyr 
-6. Contents of the pack and other information  
-         </div>"""   
+6. Contents of the pack and other information           </div>"""   
           
 
 * section[=].section[+]
@@ -89,15 +88,19 @@ symptoms like swelling, pain, nausea, and diarrhoea. </p>
 section 6).  </li>
 </ul>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before taking Firazyr: 
-- if you are suffering from angina (reduced blood flow to the heart muscle)<br />
-- if you have recently suffered a stroke </p>
+<p>Talk to your doctor before taking Firazyr:</p>
+<ul>
+<li>if you are suffering from angina (reduced blood flow to the heart muscle)  </li>
+<li>if you have recently suffered a stroke </li>
+</ul>
 <p>Some of the side effects connected with Firazyr are similar to the symptoms of your disease. Tell your 
 doctor immediately if you notice that your symptoms of the attack get worse after you received Firazyr </p>
-<p>In addition: 
-- You or your caregiver must be trained on subcutaneous (under the skin) injection technique 
-before you self-inject or your caregiver injects you with Firazyr. </p>
+<p>In addition:</p>
 <ul>
+<li>
+<p>You or your caregiver must be trained on subcutaneous (under the skin) injection technique 
+before you self-inject or your caregiver injects you with Firazyr. </p>
+</li>
 <li>
 <p>Immediately after you self-inject Firazyr or your caregiver injects you with Firazyr while you 
 are experiencing a laryngeal attack (obstruction of the upper airway), you must seek medical 
@@ -127,7 +130,7 @@ your doctor before starting to use Firazyr. </p>
 Firazyr. </p>
 <p>Firazyr contains sodium </p>
 <p>The injection solution contains less than 1 mmol (23 milligrams) of sodium per syringe, so it is 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take firazyr"
@@ -183,10 +186,12 @@ increasing tummy pain).   </p>
 <p>Firazyr is intended for subcutaneous injection (under the skin). Each syringe should only be used once. </p>
 <p>Firazyr is injected with a short needle into the fatty tissue under the skin in the abdomen (tummy).  </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>
-<p>The following step-by step instructions are intended for: 
-- self-administration (adults)<br />
-- administration by a caregiver or healthcare professional to adults, adolescents or children 
-aged over 2 years (weighing at least 12 kg). </p>
+<p>The following step-by step instructions are intended for:</p>
+<ul>
+<li>self-administration (adults)  </li>
+<li>administration by a caregiver or healthcare professional to adults, adolescents or children 
+aged over 2 years (weighing at least 12 kg). </li>
+</ul>
 <p>The instructions include the following main steps: </p>
 <p>1)<br />
 General Information 
@@ -200,18 +205,12 @@ Injecting the solution
 Disposal of the injection material </p>
 <p>Step-by-Step Instructions for Injection </p>
 <p>1) General Information </p>
-<p> 
-Clean the work area (surface) to be used before beginning the process. </p>
-<p> 
-Wash your hands with soap and water. </p>
-<p> 
-Open the tray by peeling back the seal. </p>
-<p> 
-Remove the pre-filled syringe from the tray. </p>
-<p> 
-Remove the cap from the end of the pre-filled syringe by unscrewing the cap. </p>
-<p> 
-Put down the pre-filled syringe after unscrewing the cap. 
+<p>Clean the work area (surface) to be used before beginning the process. </p>
+<p>Wash your hands with soap and water. </p>
+<p>Open the tray by peeling back the seal. </p>
+<p>Remove the pre-filled syringe from the tray. </p>
+<p>Remove the cap from the end of the pre-filled syringe by unscrewing the cap. </p>
+<p>Put down the pre-filled syringe after unscrewing the cap. 
 2a) Preparing the syringe for<br />
 children and adolescents (2-17 years) 
 weighing 65 kg or less: </p>
@@ -226,7 +225,67 @@ below). </p>
 <p>Table 1: Dosage regimen for children and adolescents </p>
 <p>Body Weight 
 Injection Volume 
-12 kg to 25 kg </p>         </div>"""         
+12 kg to 25 kg 
+1.0 ml 
+26 kg to 40 kg 
+1.5 ml 
+41 kg to 50 kg 
+2.0 ml 
+51 kg to 65 kg 
+2.5 ml </p>
+<p>Patients weighing more than 65 kg will use the full contents of the pre-filled syringe (3 ml). </p>
+<p>If you are not sure which volume of solution to extract, ask your doctor, pharmacist or 
+nurse </p>
+<p>1) Remove the caps on each end of the connector. </p>
+<p>Avoid touching the ends of the connector and syringe tips, to prevent contamination </p>
+<p>2) Screw the connector onto the pre-filled syringe. </p>
+<p>3) Attach the graduated syringe to the other end of the connector ensuring that both connections fit 
+securely. </p>
+<p>Transferring the icatibant solution to the graduated syringe: </p>
+<p>1) To start transfer of icatibant solution, push the pre-filled syringe plunger (on far left of below 
+image). </p>
+<p>2) If the icatibant solution does not begin to transfer to the graduated syringe, pull slightly on the 
+graduated syringe plunger until the icatibant solution starts to flow into the graduated syringe (see 
+below image). </p>
+<p>3) Continue to push on the pre-filled syringe plunger until the required injection volume (dose) is 
+transferred to the graduated syringe. Refer to table 1 for dosage information. </p>
+<p>If there is air in the graduated syringe: </p>
+<p>Turn the connected syringes so that the pre-filled syringe is on top (see below image). </p>
+<p>Push the plunger of the graduated syringe so that any air is transferred back into the pre-filled 
+syringe (this step may need to be repeated several times). </p>
+<p>Withdraw the required volume of icatibant solution. </p>
+<p>4) Remove the pre-filled syringe and connector from the graduated syringe. </p>
+<p>5) Discard the pre-filled syringe and connector into the sharps container. </p>
+<p>2b) Preparing the syringe and needle for injection: 
+All patients (adults, adolescents and children) </p>
+<p>Remove the needle cap from the blister. </p>
+<p>Twist the lid of the needle cap to break the seal (the needle should be still in the needle cap). </p>
+<p>Grip the syringe firmly. Carefully attach the needle to the syringe containing the colourless 
+solution. </p>
+<p>Screw the syringe on the needle still fixed in the needle cap. </p>
+<p>Remove the needle from the needle cap by pulling the syringe. Do not pull up on the plunger. </p>
+<p>The syringe is now ready for injection. </p>
+<p>3) Preparing the injection site </p>
+<p>Choose the injection site. The injection site should be a skin fold on your abdomen approximately 
+5-10 cm (2-4 inches) below your navel on either side. This area should be at least 5 cm (2 inches) 
+away from any scars. Do not choose an area that is bruised, swollen, or painful.  </p>
+<p>Clean the injection site with a rubbing alcohol pad and allow it to dry. </p>
+<p>4) Injecting the solution </p>
+<p>Hold the syringe in one hand between two fingers with your thumb at the bottom of the plunger. </p>
+<p>Make sure that there is no air bubble in the syringe by pressing the plunger until the first drop 
+appears on the tip of the needle. </p>
+<p>Hold syringe between 45-90 degrees angle to skin with needle facing the skin. </p>
+<p>Keeping the syringe in one hand, use your other hand to gently hold a fold of skin between your 
+thumb and fingers at the previously disinfected injection site. </p>
+<p>Hold the fold of skin, bring the syringe to the skin and quickly insert the needle into the skin 
+fold. </p>
+<p>Slowly push the plunger of the syringe with a steady hand until all the fluid is injected into the 
+skin and no liquid remains in the syringe. </p>
+<p>Press slowly so that this takes approximately 30 seconds. </p>
+<p>Release the skin fold and gently pull the needle out. </p>
+<p>5) Disposal of the injection material </p>
+<p>Discard the syringe, needle and needle cap into the sharp container for throwing away waste that 
+might hurt others if not handled properly. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -234,14 +293,48 @@ Injection Volume
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>26 kg to 40 kg </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Almost all 
+patients receiving Firazyr will experience a reaction at the site of the injection (such as skin irritation, 
+swelling, pain, itchiness, redness of the skin and burning sensation). These effects are usually mild and 
+clear up without the need for any additional treatment. </p>
+<p>Very common (may affect more than 1 in 10 people): 
+Additional injection site reactions (pressure sensation, bruising, reduced sensation and/or numbness, 
+raised itchy skin rash and warmth). </p>
+<p>Common (may affect up to 1 in 10 people): 
+Feeling sick 
+Headache 
+Dizziness 
+Fever 
+Itching 
+Rash 
+Skin redness 
+Abnormal liver function test </p>
+<p>Not known (frequency cannot be estimated from the available data): 
+Hives (urticaria) </p>
+<p>Tell your doctor immediately if you notice that the symptoms of your attack get worse after you 
+received Firazyr. </p>
+<p>If you get any side effects talk to your doctor. This includes any possible side effects not listed in this 
+leaflet. </p>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store firazyr"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store firazyr"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>41 kg to 50 kg </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date stated on the label after  EXP . The expiry date refers to 
+the last day of that month.  </p>
+<p>Do not store above 25 C. Do not freeze. </p>
+<p>Do not use this medicine if you notice that the syringe or needle packaging is damaged or if there are 
+any visible signs of deterioration, for example if the solution is cloudy, if it has floating particles, or if 
+the colour of the solution has changed. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -249,5 +342,126 @@ Injection Volume
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>51 kg to 65 kg </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Firazyr contains  </p>
+<p>The active substance is icatibant. Each pre-filled syringe contains 30 milligrams of icatibant (as 
+acetate). The other ingredients are sodium chloride, acetic acid glacial, sodium hydroxide and water 
+for injection. </p>
+<p>What Firazyr looks like and contents of the pack </p>
+<p>Firazyr is presented as a clear, colourless solution for injection in a pre-filled glass syringe of 3 ml. 
+Hypodermic needle is included in the pack. </p>
+<p>Firazyr is available as a single pack containing one pre-filled syringe with one needle or as a 
+multipack containing three pre-filled syringes with three needles. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50 58 Baggot Street Lower 
+Dublin 2 
+D02 HWIreland </p>
+<p>Manufacturer 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50 58 Baggot Street Lower 
+Dublin 2 
+D02 HWIreland </p>
+<p>Shire Pharmaceuticals Ireland Limited 
+Block 2 &amp; 3 Miesian Plaza 
+50 58 Baggot Street Lower 
+Dublin 2 
+D02 YIreland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarorsz g 
+Takeda Pharma Kft. 
+Tel: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Drugsales Ltd 
+Tel: +356 21419safety@drugsalesltd.com 
+Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a S.A 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>A.POTAMITIS MEDICARE LTD 
+ : +357 22583a.potamitismedicare@cytanet.com.cy 
+Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-3fd0e71025c97e85a4b382e052756f99
 InstanceOf: CompositionUvEpi
 Title: "Composition for vabysmo Package Leaflet"
 Description:  "Composition for vabysmo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Vabysmo is and what it is used for  
-2. What you need to know before you receive Vabysmo  
+2. What you need to know before you receive  Vabysmo  
 3. How to use Vabysmo 
 4. Possible side effects  
 5. How to store Vabysmo  
@@ -83,7 +83,7 @@ cause swelling of the macula. </p>
 <p>Vabysmo specifically recognises and blocks the activity of proteins known as angiopoietin-2 and 
 vascular endothelial growth factor A. When these proteins are present at higher levels than normal, 
 they can cause growth of abnormal blood vessels and/or damage to normal vessels, with leakage into 
-the macula, causing swelling or damage that can negatively affect a person’s vision. By attaching to 
+the macula, causing swelling or damage that can negatively affect a person s vision. By attaching to 
 these proteins, Vabysmo can block their actions and prevent abnormal vessel growth, leakage and 
 swelling. Vabysmo may improve the disease and/or slow down worsening of the disease and thereby 
 maintain, or even improve, your vision. </p>         </div>"""   
@@ -163,8 +163,8 @@ you are pregnant during treatment, tell your doctor right away.  </p>
 <p>After your injection with Vabysmo, you may have temporary vision problems (for example blurred 
 vision). Do not drive or use machines as long as these last. </p>
 <p>Vabysmo contains sodium  </p>
-<p>The medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium-
-free”. </p>         </div>"""   
+<p>The medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vabysmo"
@@ -211,7 +211,7 @@ procedure and they mostly affect the eye. </p>
 <p>Contact your doctor immediately if you have any of the following, which are signs of allergic 
 reactions, inflammation or infections: 
 * eye pain, increased discomfort, increased eye redness, blurred or decreased vision, a higher 
-number of small particles in your vision, or increased sensitivity to light – these are signs of a 
+number of small particles in your vision, or increased sensitivity to light   these are signs of a 
 possible eye infection, inflammation, or allergic reaction. 
 * a sudden decrease or change in vision. </p>
 <p>Other possible side effects  </p>
@@ -267,10 +267,10 @@ product correctly. The following information is intended for healthcare professi
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). </p>
+<p>Store in a refrigerator (2 C - 8 C). </p>
 <p>Do not freeze. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>Prior to use, the unopened vial may be kept at room temperature, 20°C to 25°C, for up to 24 hours. </p>         </div>"""      
+<p>Prior to use, the unopened vial may be kept at room temperature, 20 C to 25 C, for up to 24 hours. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -288,5 +288,59 @@ polysorbate 20, water for injections. </li>
 </ul>
 <p>What Vabysmo looks like and contents of the pack </p>
 <p>Vabysmo is a clear to opalescent, colourless to brownish-yellow solution. </p>
-<p>Pack size of one glass vial and one sterile 5 µm blunt transfer filter needle (18-gauge x 1½ inch, </p>         </div>"""      
+<p>Pack size of one glass vial and one sterile 5  m blunt transfer filter needle (18-gauge x 1  inch, 
+1.2 mm x 40 mm) for single-use only. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer </p>
+<p>Roche Pharma AG 
+Emil-Barell-Str 1 
+79639 Grenzach-Whylen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 8</p>         </div>"""      
 

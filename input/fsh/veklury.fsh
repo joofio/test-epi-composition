@@ -4,7 +4,7 @@ Instance: composition-en-0884c8c34711aaaaa6729d5f920f611f
 InstanceOf: CompositionUvEpi
 Title: "Composition for veklury Package Leaflet"
 Description:  "Composition for veklury Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,17 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What veklury is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance in Veklury is remdesivir. It is an antiviral medicine used for treating COVID-19.<br />
-COVID-19 is caused by a virus called a coronavirus. Veklury stops the virus multiplying in cells and 
-this stops the virus multiplying in the body. This can help your body to overcome the virus infection, 
-and may help you get better faster. </p>
-<p>Veklury will be given to treat COVID-19 in: 
-* adults and children (at least 4 weeks old and weighing at least 3 kg) who have 
-pneumonia, and need extra oxygen to help them breathe, but who are not on artificial 
-ventilation (where mechanical means are used to assist or replace spontaneous breathing 
-at start of treatment). 
-* adults and children (weighing at least 40 kg) who do not need extra oxygen to help them 
-breathe and are at increased risk for progressing to severe COVID-19.  </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance in Veklury is remdesivir. It is an antiviral medicine used for treating COVID-1</p>         </div>"""   
           
 
              
@@ -88,10 +78,34 @@ breathe and are at increased risk for progressing to severe COVID-19.  </p>     
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take veklury"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>COVID-19 is caused by a virus called a coronavirus. Veklury stops the virus multiplying in cells and 
+this stops the virus multiplying in the body. This can help your body to overcome the virus infection, 
+and may help you get better faster. </p>
+<p>Veklury will be given to treat COVID-19 in: 
+* adults and children (at least 4 weeks old and weighing at least 3 kg) who have 
+pneumonia, and need extra oxygen to help them breathe, but who are not on artificial 
+ventilation (where mechanical means are used to assist or replace spontaneous breathing 
+at start of treatment). 
+* adults and children (weighing at least 40 kg) who do not need extra oxygen to help them 
+breathe and are at increased risk for progressing to severe COVID-1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take veklury"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take veklury"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not usually be given Veklury: 
 * if you are allergic to remdesivir, or any of the other ingredients of this medicine (listed in 
 section 6) 
- Talk to your doctor or nurse as soon as possible, if this applies to you. </p>
+  Talk to your doctor or nurse as soon as possible, if this applies to you. </p>
 <p>Warnings and precautions 
 Talk to your doctor or nurse before starting on Veklury: 
 * if you have kidney problems. Your doctor may monitor you if you have kidney problems to 
@@ -112,7 +126,7 @@ anaphylactic reactions frequency cannot be estimated from the available data. Sy
 * Being sick (vomiting) 
 * Sweating 
 * Shivering </p>
-<p> Tell your doctor or nurse straight away if you notice any of these effects. </p>
+<p>Tell your doctor or nurse straight away if you notice any of these effects. </p>
 <p>Blood tests before and during treatment 
 If you are prescribed Veklury, you may be given blood tests before treatment starts. Patients being 
 treated with Veklury may have blood tests during their treatment as determined by their healthcare 
@@ -123,7 +137,7 @@ enough is known for it to be given to these children. </p>
 <p>Other medicines and Veklury 
 Tell your doctor or nurse about any other medicines you are taking, or have recently taken. </p>
 <p>Do not take chloroquine or hydroxychloroquine at the same time as Veklury. </p>
-<p> Tell your doctor if you are taking any of these medicines </p>
+<p>Tell your doctor if you are taking any of these medicines </p>
 <p>Pregnancy and breast-feeding 
 Tell your doctor or nurse if you are pregnant, or if you might be. There is not enough information 
 to be sure that Veklury is safe for use in first trimester of pregnancy. Veklury should only be given if 
@@ -142,12 +156,12 @@ body. </p>
 <p>Veklury contains sodium 
 This medicine contains 212 mg sodium (main component of cooking/table salt) in each 100 mg dose 
 unit. This is equivalent to 10.6 % of the recommended maximum daily dietary intake of sodium for an 
-adult. </p>         </div>"""   
-                    
+adult. </p>         </div>"""      
+        
 * section[=].section[+]
-  * title =  "3. How to take veklury"
+  * title = "5. How to store veklury"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take veklury"
+  * code.text = "5. How to store veklury"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Veklury will be given to you by a nurse or doctor, as a drip into a vein (an intravenous infusion) 
 lasting 30 to 120 minutes, once a day. You will be closely monitored during your treatment. </p>
@@ -168,15 +182,9 @@ weight
 Day 2 and onwards 
 (once daily) 
 100 mg 
-100 mg </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>weight </p>
+100 mg 
+2.5 mg per kg of body 
+weight </p>
 <p>How long treatment lasts </p>
 <p>Adults </p>
 <p>Children (weighing at 
@@ -215,10 +223,11 @@ much or too little. If you have been given an extra dose, or missed one, tell yo
 straight away. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store veklury"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store veklury"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be or could become serious: </p>
@@ -241,7 +250,7 @@ straight away. </p>
 Symptoms are the same as for allergic reactions however the reaction is more severe and requires 
 immediate medical care. 
 * Sinus bradycardia (heart beats more slowly than normal).<br />
- Tell your doctor or nurse straight away if you notice any of these effects. </p>
+  Tell your doctor or nurse straight away if you notice any of these effects. </p>
 <p>Other side effects: </p>
 <p>Very common side effects 
 (these may affect more than 1 in 10 patients) 
@@ -257,23 +266,4 @@ If you get any side effects, talk to your doctor or nurse. This includes any pos
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
-expiry date refers to the last day of that month. </p>
-<ul>
-<li>Before use, this medicinal product does not require any special storage conditions. </li>
-<li>Once reconstituted, Veklury should be diluted immediately. </li>
-<li>Once diluted, Veklury should be used immediately. If necessary, bags of diluted solution can 
-be stored for up to 24 hours below 25°C, or for up to 48 hours in a refrigerator. Do not allow 
-more than 48 hours between dilution and administration. </li>
-</ul>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

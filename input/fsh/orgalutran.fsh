@@ -4,7 +4,7 @@ Instance: composition-en-cb749713573713170146b8dc947ab1a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgalutran Package Leaflet"
 Description:  "Composition for orgalutran Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,8 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What orgalutran is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgalutran contains the active substance ganirelix and belongs to a group of medicines called “anti-
-gonadotrophin-releasing hormones” which act against the actions of the natural gonadotrophin 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgalutran contains the active substance ganirelix and belongs to a group of medicines called  anti-
+gonadotrophin-releasing hormones  which act against the actions of the natural gonadotrophin 
 releasing hormone (GnRH). GnRH regulates the release of gonadotrophins (luteinising hormone (LH) 
 and follicle stimulating hormone (FSH)). Gonadotrophins play an important role in human fertility and 
 reproduction. In women, FSH is needed for the growth and development of follicles in the ovaries. 
@@ -92,16 +92,12 @@ corifollitropin alfa, a follicle stimulant with a long duration of action. </p> 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take orgalutran"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Orgalutran 
-− 
-if you are allergic to ganirelix or any of the other ingredients of this medicine (listed in 
-section 6); 
-− 
-if you are hypersensitive to gonadotrophin releasing hormone (GnRH) or a GnRH analogue; 
-− 
-if you have a moderate or severe kidney or liver disease; 
-− 
-if you are pregnant or breast-feeding. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Orgalutran </p>
+<p>if you are allergic to ganirelix or any of the other ingredients of this medicine (listed in 
+section 6); </p>
+<p>if you are hypersensitive to gonadotrophin releasing hormone (GnRH) or a GnRH analogue; </p>
+<p>if you have a moderate or severe kidney or liver disease; </p>
+<p>if you are pregnant or breast-feeding. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using Orgalutran </p>
 <p>Allergic reactions </p>
@@ -145,7 +141,7 @@ Orgalutran should be used during controlled ovarian stimulation for assisted rep
 The effects of Orgalutran on ability to drive and use machines have not been studied. </p>
 <p>Orgalutran contains sodium 
 Orgalutran contains less than 1 mmol sodium (23 mg) per injection,  that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orgalutran"
@@ -183,7 +179,7 @@ example alcohol) to remove any surface bacteria. Clean about 5 cm (two inches) a
 where the needle will go in and let the disinfectant dry for at least one minute before proceeding. </p>
 <p>Inserting the needle 
 Remove needle cover. Pinch up a large area of skin between finger and thumb. Insert the needle at the 
-base of the pinched-up skin at an angle of 45° to the skin surface. Vary the injection site with each 
+base of the pinched-up skin at an angle of 45  to the skin surface. Vary the injection site with each 
 injection. </p>
 <p>Checking the correct needle position 
 Gently draw back the plunger to check if the needle is positioned correctly. Any blood drawn into the 
@@ -217,28 +213,22 @@ treatment. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The chance of having a side effect is described by the following categories: </p>
-<p>Very common: may affect more than 1 in 10 women 
-− 
-Local skin reactions at the site of injection (predominantly redness, with or without swelling). The 
+<p>Very common: may affect more than 1 in 10 women </p>
+<p>Local skin reactions at the site of injection (predominantly redness, with or without swelling). The 
 local reaction normally disappears within 4 hours of administration.  </p>
-<p>Uncommon: may affect up to 1 in 100 women 
-− 
-Headache 
-− 
-Nausea 
-− 
-Malaise  </p>
-<p>Very rare: may affect up to 1 in 10,000 women 
-− 
-Allergic reactions have been observed, as early as with the first dose. 
+<p>Uncommon: may affect up to 1 in 100 women </p>
+<p>Headache </p>
+<p>Nausea </p>
+<p>Malaise  </p>
+<p>Very rare: may affect up to 1 in 10,000 women </p>
+<p>Allergic reactions have been observed, as early as with the first dose. 
 * Rash 
 * Facial swelling 
 * Difficulty breathing (dyspnoea) 
 * Swelling of face, lips, tongue, and/or throat that may cause difficulty in breathing and/or 
 swallowing (angioedema and/or anaphylaxis) 
-* Hives (urticaria) 
-− 
-Worsening of a pre-existing rash (eczema) has been reported in one subject after the first 
+* Hives (urticaria) </p>
+<p>Worsening of a pre-existing rash (eczema) has been reported in one subject after the first 
 Orgalutran dose.  </p>
 <p>In addition, side effects are reported which are known to occur with controlled ovarian 
 hyperstimulation treatment (e.g. abdominal pain, ovarian hyperstimulation syndrome (OHSS), ectopic 
@@ -257,7 +247,7 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label after 
-‘EXP’. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not freeze. 
 Store in the original package, in order to protect from light. </p>
 <p>Inspect the syringe before use. Use only syringes with clear, particle-free solutions and from 
@@ -295,24 +285,23 @@ Postbus 20,
 The Netherlands. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
 <p>Lietuva 
-Organon Pharma B.V. Lithuania atstovybė 
+Organon Pharma B.V. Lithuania atstovyb<br />
 Tel.: +370 52041dpoc.lithuania@organon.com </p>
-<p>България 
-Органон (И.А.) Б.В. - клон България 
-Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com </p>
 <p>Luxembourg/Luxemburg 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Organon Czech Republic s.r.o. 
 Tel: +420 233 010 dpoc.czech@organon.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Organon Hungary Kft. 
 Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
 <p>Danmark 
@@ -335,13 +324,12 @@ Tel: +372 66 61 dpoc.estonia@organon.com  </p>
 <p>Norge 
 Organon Norway AS 
 Tlf: +47 24 14 56 info.norway@organon.com </p>
-<p>Ελλάδα 
-BIANEΞ Α.Ε. 
-Τηλ: +30 210 80091 Mailbox@vianex.gr </p>
-<p>Österreich 
+<p>BIANE   . . 
+ : +30 210 80091 Mailbox@vianex.gr </p>
+<p>sterreich 
 Organon Healthcare GmbH<br />
 Tel: +49 (0) 89 2040022 dpoc.austria@organon.com 
-España 
+Espa a 
 Organon Salud, S.L. 
 Tel: +34 91 591 12 organon_info@organon.com </p>
 <p>Polska 
@@ -349,26 +337,26 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-Tél: +33 (0) 1 57 77 32<br />
+T l: +33 (0) 1 57 77 32<br />
 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
-Tel: +351 218705geral_pt@organon.com </p>
+Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
 Organon Pharma d.o.o. 
 Tel: +385 1 638 4dpoc.croatia@organon.com </p>
-<p>România 
+<p>Rom nia 
 Organon Biosciences S.R.L. 
 Tel: +40 21 527 29 dpoc.romania@organon.com<br />
 Ireland 
 Organon Pharma (Ireland) Limited 
 Tel: +353 15828medinfo.ROI@organon.com </p>
 <p>Slovenija 
-Organon Pharma B.V., Oss, podružnica Ljubljana 
+Organon Pharma B.V., Oss, podru nica Ljubljana 
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 
@@ -377,15 +365,14 @@ Tel: +39 06 90259dpoc.italy@organon.com </p>
 <p>Suomi/Finland 
 Organon Finland Oy 
 Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
-<p>Κύπρος 
-Organon Pharma B.V., Cyprus branch 
-Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ : +357 22866dpoc.cyprus@organon.com </p>
 <p>Sverige 
 Organon Sweden AB 
 Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
 <p>Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
-pārstāvniecība 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
 Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
 Organon Pharma (UK) Limited 

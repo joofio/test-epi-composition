@@ -4,7 +4,7 @@ Instance: composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for moventig Package Leaflet"
 Description:  "Composition for moventig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ constipation. </p>
 * stomach pain<br />
 * rectal straining (having to push very hard to move the stool out of the rectum, which can also 
 cause pain in the anus during pushing) 
-* hard stools (stools which are hard “like a rock”) 
+* hard stools (stools which are hard  like a rock ) 
 * incomplete emptying of the rectum (after having a bowel movement, the feeling as if a stool is 
 still in the rectum which needs to come out) </p>
 <p>In patients taking opioids with constipation, who have tried at least one laxative and had incomplete 
@@ -95,9 +95,9 @@ movements and improve symptoms of constipation caused by opioids. </p>         <
 medicine (listed in section 6). 
 * if your bowels are, or may be, blocked (obstructed) or you have been warned that your bowels 
 are at risk of becoming blocked. 
-* if you have cancer in your gut or ‘peritoneum’ (the lining of your stomach area), advanced or 
-recurrent ovarian cancer or if you are taking medicines used to treat cancer such as “VEGF 
-inhibitors” (e.g. bevacizumab). </p>
+* if you have cancer in your gut or  peritoneum  (the lining of your stomach area), advanced or 
+recurrent ovarian cancer or if you are taking medicines used to treat cancer such as  VEGF 
+inhibitors  (e.g. bevacizumab). </p>
 <ul>
 <li>if you are taking certain other medicines such as ketoconazole or itraconazole (to treat fungal 
 infections), clarithromycin or telithromycin (antibiotics) or ritonavir, indinavir or saquinavir (to 
@@ -107,20 +107,20 @@ treat HIV).  </li>
 pharmacist or nurse before taking Moventig. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking Moventig: 
-* if you have stomach ulcers, Crohn’s Disease (an illness where your gut is inflamed), 
-diverticulitis (another illness where your gut is inflamed), cancer in your gut or ‘peritoneum’ 
+* if you have stomach ulcers, Crohn s Disease (an illness where your gut is inflamed), 
+diverticulitis (another illness where your gut is inflamed), cancer in your gut or  peritoneum<br />
 (the lining of your stomach area), or any conditon that might damage the wall of your bowel<br />
 <em> if you currently have unusually severe, persistent or worsening stomach pain<br />
 </em> if the natural protective barrier between the blood vessels in the head and in the brain is 
 damaged, for example if you have cancer in the brain or the central nervous system, or if you 
-have a disease of the central nervous system like multiple sclerosis or Alzheimer’s disease – 
+have a disease of the central nervous system like multiple sclerosis or Alzheimer s disease <br />
 contact your doctor immediately if you experience lack of pain relief from your opioid medicine 
 or symptoms of opioid withdrawal syndrome (see section 4).<br />
-<em> if you are taking methadone (see section below “Other medicines and Moventig”) 
+<em> if you are taking methadone (see section below  Other medicines and Moventig ) 
 * if you have had a heart attack within the last 6 months, have heart failure with daily shortness of 
 breath or other severe problems with your heart which cause daily symptoms 
-* if you have kidney problems – your doctor may tell you to take a different dose (see section 
-below “How to take Moventig”)<br />
+* if you have kidney problems   your doctor may tell you to take a different dose (see section 
+below  How to take Moventig )<br />
 </em> if you have severe liver illness  </p>
 <p>If any of the above apply to you, or you are not sure, talk to your doctor, pharmacist or nurse before 
 taking Moventig. </p>
@@ -137,11 +137,11 @@ not been studied in these age-groups.  </p>
 <p>Other medicines and Moventig 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Tell your doctor what opioid pain medicines you are taking and the dose of them.   </p>
-<p>Do not take Moventig if you are taking any of the following medicines (see section “Do not take 
-Moventig”): 
+<p>Do not take Moventig if you are taking any of the following medicines (see section  Do not take 
+Moventig ): 
 * ketoconazole or itraconazole - to treat fungal infections 
 * clarithromycin or telithromycin - antibiotics 
-* ritonavir, indinavir or saquinavir – to treat HIV  </p>
+* ritonavir, indinavir or saquinavir   to treat HIV  </p>
 <p>Do not take Moventig if any of the above apply to you.  </p>
 <p>Tell your doctor, pharmacist or nurse if you are taking any of the following medicines: 
 * other medicines for constipation (any laxatives) 
@@ -149,9 +149,9 @@ Moventig”):
 <ul>
 <li>diltiazem or verapamil (for high blood pressure or angina). You may need to take a lower dose 
 of Moventig </li>
-<li>rifampin (an antibiotic), carbmazepine (for epilepsy) or the herbal medicine St. John’s wort (for 
+<li>rifampin (an antibiotic), carbmazepine (for epilepsy) or the herbal medicine St. John s wort (for 
 depression). You may need to stop taking Moventig </li>
-<li>medicines called ‘opioid antagonists’ (such as naltrexone and naloxone) which are used to 
+<li>medicines called  opioid antagonists  (such as naltrexone and naloxone) which are used to 
 counteract the effects of opioids  </li>
 </ul>
 <p>If any of the above apply to you, or you are not sure, talk to your doctor, pharmacist or nurse before 
@@ -169,7 +169,7 @@ breast-feeding. </p>
 Moventig is not expected to affect you being able to drive a car or use any tools or machines.  </p>
 <p>Moventig contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 12.5 mg / 25 mg tablet, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take moventig"
@@ -245,7 +245,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store moventig"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after “EXP”. The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -257,26 +257,22 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Moventig contains<br />
-* The active substance is naloxegol. 
-− 
-Each Moventig 12.5 mg film-coated tablet (tablet) contains 12.5 mg naloxegol as 
-naloxegol oxalate. 
-− 
-Each Moventig 25 mg film-coated tablet (tablet) contains 25 mg naloxegol as naloxegol 
+* The active substance is naloxegol. </p>
+<p>Each Moventig 12.5 mg film-coated tablet (tablet) contains 12.5 mg naloxegol as 
+naloxegol oxalate. </p>
+<p>Each Moventig 25 mg film-coated tablet (tablet) contains 25 mg naloxegol as naloxegol 
 oxalate. 
-* The other ingredients are: 
-− 
-tablet core: mannitol (E421), cellulose microcrystalline (E460), croscarmellose sodium 
-(E468) – see section 2 under ‘Moventig contains sodium’, magnesium stearate (E470b), 
-propyl gallate (E310) 
-− 
-film-coating: hypromellose (E464), titanium dioxide (E171), macrogol (E1521), iron 
+* The other ingredients are: </p>
+<p>tablet core: mannitol (E421), cellulose microcrystalline (E460), croscarmellose sodium 
+(E468)   see section 2 under  Moventig contains sodium , magnesium stearate (E470b), 
+propyl gallate (E310) </p>
+<p>film-coating: hypromellose (E464), titanium dioxide (E171), macrogol (E1521), iron 
 oxide red (E172) and iron oxide black (E172). </p>
 <p>What Moventig looks like and contents of the pack 
 Moventig 12.5 mg: a mauve coloured, oval, dimensions 10.5 x 5.5 mm film-coated tablet, marked 
-“nGL” on one side and “12.5” on the other side. </p>
-<p>Moventig 25 mg: a mauve coloured, oval, dimensions 13 x 7 mm, film-coated tablet, marked “nGL” 
-on one side and “25” on the other side. </p>
+ nGL  on one side and  12.5  on the other side. </p>
+<p>Moventig 25 mg: a mauve coloured, oval, dimensions 13 x 7 mm, film-coated tablet, marked  nGL<br />
+on one side and  25  on the other side. </p>
 <p>Moventig 12.5 mg tablets are available in aluminium blisters in pack sizes of 30 or 90 film-coated 
 tablets in non-perforated blisters and 30x 1 or 90x1 film-coated tablets in perforated unit dose blisters. </p>
 <p>Moventig 25 mg tablets are available in aluminium blisters in pack sizes of 10, 30 or 90 film--coated 

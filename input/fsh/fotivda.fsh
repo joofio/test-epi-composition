@@ -4,7 +4,7 @@ Instance: composition-en-fba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: CompositionUvEpi
 Title: "Composition for fotivda Package Leaflet"
 Description:  "Composition for fotivda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,7 +86,7 @@ interferon-alpha or interleukin-2 have either not yet been used or have not help
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Fotivda:<br />
 <em> If you are allergic to tivozanib or any of the other ingredients of this medicine (listed in 
 section 6);<br />
-</em> If you are taking St. John’s Wort (also known as Hypericum perforatum, a herbal remedy used 
+</em> If you are taking St. John s Wort (also known as Hypericum perforatum, a herbal remedy used 
 for treatment of depression and anxiety). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor, pharmacist or nurse before taking Fotivda:<br />
@@ -106,45 +106,29 @@ tear in a blood vessel wall. </p>
 <p>if you have had problems with blood clots<br />
 Treatment with Fotivda may raise the risk of developing a blood clot (thrombus) in your blood 
 vessels that could break loose and be carried by the blood stream to block another blood vessel.<br />
-Tell your doctor if you have ever had one of the following:<br />
-o 
+Tell your doctor if you have ever had one of the following:  * 
 a blood clot in your lungs (with cough, chest pain, sudden shortness of breath or coughing 
-up blood) 
-o 
+up blood) * 
 blood clot in your legs or arms, eye, or brain (with pain or swelling in your hands or feet, 
-reduced vision, or changes in your mental state) 
-o 
-a stroke, or signs and symptoms of a ‘mini-stroke’ (transient ischaemic attack) 
-o 
-a heart attack 
-o 
-high blood pressure 
-o 
-diabetes 
-o 
-major surgery 
-o 
-multiple injuries such as broken bones and damage to internal organs 
-o 
-inability to move for a long period 
-o 
-heart failure which can cause shortness of breath or ankle swelling 
-o 
+reduced vision, or changes in your mental state) * 
+a stroke, or signs and symptoms of a  mini-stroke  (transient ischaemic attack) * 
+a heart attack * 
+high blood pressure * 
+diabetes * 
+major surgery * 
+multiple injuries such as broken bones and damage to internal organs * 
+inability to move for a long period * 
+heart failure which can cause shortness of breath or ankle swelling * 
 inability to breathe, bluish colour on your skin, fingertips or lips, restlessness, anxiety, 
 confusion, altered consciousness or sense of awareness, rapid, shallow breathing, a racing 
 heart or excessive sweating.  </p>
 </li>
 <li>
-<p>if you suffer or have suffered from any of these symptoms or are treated for heart failure: 
-o 
-Shortness of breath (dyspnoea) when you exert yourself or when you lie down 
-o 
-Feeling weak and tired 
-o 
-Swelling (oedema) in your legs, ankles and feet 
-o 
-Reduced ability to exercise 
-o 
+<p>if you suffer or have suffered from any of these symptoms or are treated for heart failure: * 
+Shortness of breath (dyspnoea) when you exert yourself or when you lie down * 
+Feeling weak and tired * 
+Swelling (oedema) in your legs, ankles and feet * 
+Reduced ability to exercise * 
 Persistent cough or wheezing with white or pink blood-tinged phlegm 
 Signs and symptoms of heart failure will be monitored whilst you are taking your medicine. If 
 necessary, your doctor may reduce your dose of Fotivda, or interrupt or stop this treatment. </p>
@@ -227,7 +211,7 @@ system);
 * rosuvastatin (a medicine used to help lower cholesterol levels in your blood); 
 * phenobarbital, phenytoin, carbamazepine (used to treat epilepsy); 
 * nafcillin, rifampicin, rifabutin, rifapentin (antibiotics); 
-* St. John’s Wort (also known as Hypericum perforatum, a herbal remedy used for treatment of 
+* St. John s Wort (also known as Hypericum perforatum, a herbal remedy used for treatment of 
 depression and anxiety) as this herbal remedy should not be used at the same time as Fotivda. </p>
 <p>Pregnancy, breast-feeding and fertility 
 * Do not take Fotivda if you are pregnant. Tell your doctor who will discuss with you the risks 
@@ -250,7 +234,7 @@ women. </p>
 </ul>
 <p>Driving and using machines 
 Fotivda can have side effects that may affect your ability to drive or use machines. Avoid driving or 
-using machines if you feel weak, tired, or dizzy. See also Section 4 “Possible side effects”. </p>
+using machines if you feel weak, tired, or dizzy. See also Section 4  Possible side effects . </p>
 <p>Fotivda contains tartrazine (E102) 
 The printing ink used on the Fotivda 890 microgram capsule contains tartrazine (E102), which may 
 cause allergic reactions.  </p>         </div>"""   
@@ -310,7 +294,7 @@ condition may get worse. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>High blood pressure is the most serious and a very common side effect (see also in section 2 
-“Warnings and Precautions”). 
+ Warnings and Precautions ). 
 Tell your doctor immediately if you think you have high blood pressure. Symptoms include severe 
 headaches, blurred vision, shortness of breath, changes in your mental state, such as feeling anxious, 
 confused or disorientated </p>
@@ -414,27 +398,31 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>Fotivda 890 microgram hard capsules<br />
 The active substance is tivozanib. Each capsule contains tivozanib hydrochloride monohydrate 
 equivalent to 890 microgram of tivozanib. 
-The other ingredients are: 
-- Capsule content: mannitol, magnesium stearate.<br />
-- Capsule shell: gelatin, titanium dioxide (E171), indigo carmine (E132), yellow iron oxide 
-(E172). 
-- Printing ink, yellow: shellac, propylene glycol, strong ammonia solution, titanium dioxide 
-(E171), tartrazine aluminium lake (E102) (See Section 2 “Fotivda contains tartrazine (E102)”) 
-- Printing ink, blue: shellac, propylene glycol, strong ammonia solution, indigo carmine 
-aluminium lake (E132). </p>
+The other ingredients are:</p>
+<ul>
+<li>Capsule content: mannitol, magnesium stearate.  </li>
+<li>Capsule shell: gelatin, titanium dioxide (E171), indigo carmine (E132), yellow iron oxide 
+(E172). </li>
+<li>Printing ink, yellow: shellac, propylene glycol, strong ammonia solution, titanium dioxide 
+(E171), tartrazine aluminium lake (E102) (See Section 2  Fotivda contains tartrazine (E102) ) </li>
+<li>Printing ink, blue: shellac, propylene glycol, strong ammonia solution, indigo carmine 
+aluminium lake (E132). </li>
+</ul>
 <p>Fotivda 1340 microgram hard capsules<br />
 The active substance is tivozanib. Each capsule contains tivozanib hydrochloride monohydrate 
 equivalent to 1340 microgram of tivozanib. 
-The other ingredients are:<br />
-- Capsule content: mannitol, magnesium stearate. 
-- Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172). 
-- Printing ink, blue: shellac, propylene glycol, strong ammonia solution, indigo carmine 
-aluminium lake (E132). </p>
+The other ingredients are:</p>
+<ul>
+<li>Capsule content: mannitol, magnesium stearate. </li>
+<li>Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172). </li>
+<li>Printing ink, blue: shellac, propylene glycol, strong ammonia solution, indigo carmine 
+aluminium lake (E132). </li>
+</ul>
 <p>What Fotivda looks like and contents of the pack 
 Fotivda 890 microgram hard capsules have a dark blue opaque cap and bright yellow opaque body,<br />
-with “TIVZ” printed with yellow ink on the cap and “LD” on the body with dark blue ink. </p>
+with  TIVZ  printed with yellow ink on the cap and  LD  on the body with dark blue ink. </p>
 <p>Fotivda 1340 microgram hard capsules have a bright yellow opaque cap and bright yellow opaque<br />
-body, with “TIVZ” printed with dark blue ink on the cap and “SD” on the body with dark blue ink. </p>
+body, with  TIVZ  printed with dark blue ink on the cap and  SD  on the body with dark blue ink. </p>
 <p>Fotivda 890 microgram and Fotivda 1340 microgram are available as packs of 21 capsules in 
 HDPE-bottles with child-resistant closure. </p>
 <p>Marketing Authorisation Holder 

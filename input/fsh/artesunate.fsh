@@ -4,7 +4,7 @@ Instance: composition-en-e3808b9785653fa349cd23efa0847a72
 InstanceOf: CompositionUvEpi
 Title: "Composition for artesunate Package Leaflet"
 Description:  "Composition for artesunate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -166,10 +166,12 @@ required dose at the earliest opportunity and continue to give future doses 12 o
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>If you experience any of the following side effects seek medical help immediately: 
-- difficulty breathing or swallowing, swelling of your face, mouth or throat. These are signs you 
+<p>If you experience any of the following side effects seek medical help immediately:</p>
+<ul>
+<li>difficulty breathing or swallowing, swelling of your face, mouth or throat. These are signs you 
 may be having a severe allergic reaction. The frequency of very severe allergic reactions leading 
-to loss of consciousness is unknown. </p>
+to loss of consciousness is unknown. </li>
+</ul>
 <p>Very common side effects (may affect more than 1 in 10 people) 
 a lack of healthy red blood cells, which can make you feel tired and weak (anaemia); this can develop 
 at least 7 days or sometimes several weeks after treatment has finished.   </p>
@@ -237,8 +239,8 @@ medicine. </p>         </div>"""
 - Each vial of powder contains 110 mg of artesunate. 
 - Each vial of solvent for reconstitution contains 12 mL of 0.3 M sodium phosphate buffer. 
 - The other ingredients in the 0.3 M sodium phosphate buffer solvent are monosodium phosphate 
-monohydrate, disodium phosphate dihydrate (see section 2 “Artesunate Amivas contains 
-sodium”) and phosphoric acid, concentrated (for pH adjustment), sodium hydroxide (for pH 
+monohydrate, disodium phosphate dihydrate (see section 2  Artesunate Amivas contains 
+sodium ) and phosphoric acid, concentrated (for pH adjustment), sodium hydroxide (for pH 
 adjustment) and water for injections.  </p>
 <p>After reconstitution with 11 mL of the solvent provided, the solution for injection contains 10 mg of 
 artesunate per mL. </p>

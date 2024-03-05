@@ -4,7 +4,7 @@ Instance: composition-en-41399424be0ac355c8e0aa81bb4121d6
 InstanceOf: CompositionUvEpi
 Title: "Composition for veraseal Package Leaflet"
 Description:  "Composition for veraseal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -163,7 +163,7 @@ disseminated intravascular coagulation (DIC) (when blood clots form throughout t
 the body). There is also a risk of a severe allergic reaction. </p>
 <p>Side effects which were reported during clinical trials with VeraSeal included:  </p>
 <p>Most serious side effects </p>
-<p>Uncommon (may affect up to 1 in 100 people): </p>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
 <ul>
 <li>Abdominal (belly) abscess (swollen area in abdomen caused by infection) </li>
 <li>Abdominal (belly) wound dehiscence (wound breakdown due to incomplete healing) </li>
@@ -178,13 +178,13 @@ the body). There is also a risk of a severe allergic reaction. </p>
 <li>Wound infection </li>
 </ul>
 <p>Other side effects  </p>
-<p>Common (may affect up to 1 in 10 people):  </p>
+<p>Common (may affect up to 1 in 10 people):</p>
 <ul>
 <li>Nausea  </li>
 <li>Pain caused by the surgery </li>
 <li>Pruritus (itching) </li>
 </ul>
-<p>Uncommon (may affect up to 1 in 100 people):  </p>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
 <ul>
 <li>Anaemia (insufficiency of red blood cells) </li>
 <li>Anxiety </li>
@@ -257,10 +257,10 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VeraSeal must be kept out of the sight and reach of children. </p>
 <p>This medicine must not be used after the expiry date which is stated on the label and carton after EXP.  </p>
-<p>It must be stored and transported frozen at -18 ºC or colder. The cold storage chain must not be 
+<p>It must be stored and transported frozen at -18  C or colder. The cold storage chain must not be 
 interrupted until use. Keep the sterilized blister in the outer carton in order to protect from light. Thaw 
 completely before use. Do not refreeze once thawed. After thawing, it can be maintained not more 
-than 7 days at 2 ºC - 8 ºC or 24 hours not above 25 ºC before use. </p>
+than 7 days at 2  C - 8  C or 24 hours not above 25  C before use. </p>
 <p>Once the blister is opened, VeraSeal should be used immediately. </p>
 <p>It must not be used if the solutions are cloudy or have deposits. </p>
 <p>Discard if the package is damaged. </p>         </div>"""      
@@ -272,28 +272,34 @@ than 7 days at 2 ºC - 8 ºC or 24 hours not above 25 ºC before use. </p>
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What VeraSeal contains  </p>
-<p>The active substances are: 
-- Component 1: Human fibrinogen 
-- Component 2: Human thrombin </p>
-<p>The other ingredients are: 
-- Component 1: Sodium citrate dihydrated, sodium chloride, arginine, isoleucine, glutamic acid 
-monosodium, water for injections. 
-- Component 2: Calcium chloride, human albumin, sodium chloride, glycine, water for injections. </p>
+<p>The active substances are:</p>
+<ul>
+<li>Component 1: Human fibrinogen </li>
+<li>Component 2: Human thrombin </li>
+</ul>
+<p>The other ingredients are:</p>
+<ul>
+<li>Component 1: Sodium citrate dihydrated, sodium chloride, arginine, isoleucine, glutamic acid 
+monosodium, water for injections. </li>
+<li>Component 2: Calcium chloride, human albumin, sodium chloride, glycine, water for injections. </li>
+</ul>
 <p>What VeraSeal looks like and contents of the pack </p>
 <p>VeraSeal is presented as solutions for sealant. It is supplied as a single-use kit containing two 
 pre-filled syringes assembled in a syringe holder. Frozen solutions. After thawing the solutions are 
 clear or slightly opalescent and colourless or pale yellow. </p>
 <p>One Dual Applicator with two additional Airless Spray Tips is supplied with the product, for 
 application by spraying or dripping. The Airless Spray Tips are radiopaque. See scheme below. </p>
-<p>VeraSeal is available in the following pack sizes:<br />
-- VeraSeal 2 ml (containing 1 ml of human fibrinogen and 1 ml of human thrombin)<br />
-- VeraSeal 4 ml (containing 2 ml of human fibrinogen and 2 ml of human thrombin) 
-- VeraSeal 6 ml (containing 3 ml of human fibrinogen and 3 ml of human thrombin) 
-- VeraSeal 10 ml (containing 5 ml of human fibrinogen and 5 ml of human thrombin) </p>
+<p>VeraSeal is available in the following pack sizes:</p>
+<ul>
+<li>VeraSeal 2 ml (containing 1 ml of human fibrinogen and 1 ml of human thrombin)  </li>
+<li>VeraSeal 4 ml (containing 2 ml of human fibrinogen and 2 ml of human thrombin) </li>
+<li>VeraSeal 6 ml (containing 3 ml of human fibrinogen and 3 ml of human thrombin) </li>
+<li>VeraSeal 10 ml (containing 5 ml of human fibrinogen and 5 ml of human thrombin) </li>
+</ul>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Instituto Grifols, S.A. 
-Can Guasc, 2 - Parets del Vallès 
+Can Guasc, 2 - Parets del Vall s 
 E-08150 Barcelona - Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
@@ -313,7 +319,7 @@ Tel: +46 8 441 89 ES
 Johnson &amp; Johnson, S.A. 
 Tel: +34 91 722 80 FR 
 Johnson &amp; Johnson Medical S.A.S. 
-Tél: +33 (0)1 55 00 22<br />
+T l: +33 (0)1 55 00 22<br />
 IT 
 Grifols Italia S.p.A. 
 Tel: +39 050 8755 PL 

@@ -4,7 +4,7 @@ Instance: composition-en-4dc5c04be0c555d6e01b7c14e83eaf76
 InstanceOf: CompositionUvEpi
 Title: "Composition for apidra Package Leaflet"
 Description:  "Composition for apidra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -112,10 +112,12 @@ Before travelling consult your doctor. You may need to talk about
 - possible new health risks in the countries to be visited, 
 - what you should do in emergency situations when you feel unwell or become ill. </p>
 <p>Illnesses and injuries 
-In the following situations, the management of your diabetes may require extra care: 
-- If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). 
-- If you are not eating enough your blood sugar level may become too low (hypoglycaemia). 
-In most cases you will need a doctor. Make sure that you contact a doctor early. </p>
+In the following situations, the management of your diabetes may require extra care:</p>
+<ul>
+<li>If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). </li>
+<li>If you are not eating enough your blood sugar level may become too low (hypoglycaemia). 
+In most cases you will need a doctor. Make sure that you contact a doctor early. </li>
+</ul>
 <p>If you have type 1 diabetes (insulin dependent diabetes mellitus), do not stop your insulin and continue 
 to get enough carbohydrates. Always tell people who are caring for you or treating you that you 
 require insulin. </p>
@@ -130,35 +132,41 @@ are either too low or too high. Be careful when you start or stop taking another
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Before taking a medicine ask your doctor if it can affect your blood sugar level and what 
 action, if any, you need to take. </p>
-<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include: 
-- all other medicines to treat diabetes, 
-- angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
-blood pressure), 
-- disopyramide (used to treat certain heart conditions), 
-- fluoxetine (used to treat depression), 
-- fibrates (used to lower high levels of blood lipids), 
-- monoamine oxidase (MAO) inhibitors (used to treat depression), 
-- pentoxifylline, propoxyphene, salicylates (such as aspirin, used to relieve pain and lower fever), 
-- sulphonamide antibiotics. </p>
-<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include: 
-- corticosteroids (such as "cortisone" used to treat inflammation), 
-- danazol (medicine acting on ovulation), 
-- diazoxide (used to treat high blood pressure), 
-- diuretics (used to treat high blood pressure or excessive fluid retention), 
-- glucagon (pancreas hormone used to treat severe hypoglycaemia),<br />
-- isoniazid (used to treat tuberculosis), 
-- oestrogens and progestogens (such as in the contraceptive pill used for birth control), 
-- phenothiazine derivatives (used to treat psychiatric disorders), 
-- somatropin (growth hormone), 
-- sympathomimetic medicines (such as epinephrine [adrenaline], salbutamol, terbutaline used to 
-treat asthma), 
-- thyroid hormones (used to treat thyroid gland disorders), 
-- protease inhibitors (used to treat HIV), 
-- atypical antipsychotic medicines (such as olanzapine and clozapine). </p>
-<p>Your blood sugar level may either rise or fall if you take: 
-- beta-blockers (used to treat high blood pressure), 
-- clonidine (used to treat high blood pressure), 
-- lithium salts (used to treat psychiatric disorders). </p>
+<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include:</p>
+<ul>
+<li>all other medicines to treat diabetes, </li>
+<li>angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
+blood pressure), </li>
+<li>disopyramide (used to treat certain heart conditions), </li>
+<li>fluoxetine (used to treat depression), </li>
+<li>fibrates (used to lower high levels of blood lipids), </li>
+<li>monoamine oxidase (MAO) inhibitors (used to treat depression), </li>
+<li>pentoxifylline, propoxyphene, salicylates (such as aspirin, used to relieve pain and lower fever), </li>
+<li>sulphonamide antibiotics. </li>
+</ul>
+<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:</p>
+<ul>
+<li>corticosteroids (such as "cortisone" used to treat inflammation), </li>
+<li>danazol (medicine acting on ovulation), </li>
+<li>diazoxide (used to treat high blood pressure), </li>
+<li>diuretics (used to treat high blood pressure or excessive fluid retention), </li>
+<li>glucagon (pancreas hormone used to treat severe hypoglycaemia),  </li>
+<li>isoniazid (used to treat tuberculosis), </li>
+<li>oestrogens and progestogens (such as in the contraceptive pill used for birth control), </li>
+<li>phenothiazine derivatives (used to treat psychiatric disorders), </li>
+<li>somatropin (growth hormone), </li>
+<li>sympathomimetic medicines (such as epinephrine [adrenaline], salbutamol, terbutaline used to 
+treat asthma), </li>
+<li>thyroid hormones (used to treat thyroid gland disorders), </li>
+<li>protease inhibitors (used to treat HIV), </li>
+<li>atypical antipsychotic medicines (such as olanzapine and clozapine). </li>
+</ul>
+<p>Your blood sugar level may either rise or fall if you take:</p>
+<ul>
+<li>beta-blockers (used to treat high blood pressure), </li>
+<li>clonidine (used to treat high blood pressure), </li>
+<li>lithium salts (used to treat psychiatric disorders). </li>
+</ul>
 <p>Pentamidine (used to treat some infections caused by parasites) may cause hypoglycaemia which may 
 sometimes be followed by hyperglycaemia. </p>
 <p>Beta-blockers like other sympatholytic medicines (such as clonidine, guanethidine and reserpine) may 
@@ -176,16 +184,20 @@ diabetes, and prevention of hypoglycaemia, is important for the health of your b
 <p>If you are breast-feeding consult your doctor as you may require adjustments in your insulin doses and 
 your diet. </p>
 <p>Driving and using machines </p>
-<p>Your ability to concentrate or react may be reduced if: 
-- you have hypoglycaemia (low blood sugar levels), 
-- you have hyperglycaemia (high blood sugar levels). </p>
+<p>Your ability to concentrate or react may be reduced if:</p>
+<ul>
+<li>you have hypoglycaemia (low blood sugar levels), </li>
+<li>you have hyperglycaemia (high blood sugar levels). </li>
+</ul>
 <p>Keep this possible problem in mind in all situations where you might put yourself and others at risk 
 (such as driving a car or using machines).<br />
-You should contact your doctor for advice on driving if: 
-- you have frequent episodes of hypoglycaemia, 
-- the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </p>
+You should contact your doctor for advice on driving if:</p>
+<ul>
+<li>you have frequent episodes of hypoglycaemia, </li>
+<li>the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </li>
+</ul>
 <p>Important information about some of the ingredients of Apidra </p>
-<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, i.e. it is essentially ‘sodium-free’. </p>
+<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, i.e. it is essentially  sodium-free . </p>
 <p>Apidra contains metacresol </p>
 <p>Apidra contains metacresol, which may cause allergic reactions. </p>         </div>"""   
                     
@@ -235,7 +247,7 @@ should be given immediately after mixing. </p>
 use the pump system. In addition, you should have been provided with information about what to do if 
 you become ill or if your blood sugar levels get too high or too low, or if the pump system fails.<br />
 Use the pump system recommended by your doctor. Read and follow the instructions that come with 
-your insulin infusion pump. Follow your doctor’s instructions about the basal infusion rate and the 
+your insulin infusion pump. Follow your doctor s instructions about the basal infusion rate and the 
 mealtime insulin boluses to be taken. Measure your blood sugar level regularly to make sure you get 
 the benefit of the insulin infusion and to make sure that the pump is working properly. </p>
 <p>Change the infusion set and reservoir at least every 48 hours using aseptic technique. These 
@@ -307,12 +319,12 @@ pump system is used incorrectly.
 This means you may not always get enough insulin to treat your diabetes. 
 If this happens you must seek urgent medical help. 
 Always have available an alternative insulin delivery system for injection under the skin (see 
-section 3 under “How to handle an infusion pump system” and “What to do if the pump system fails or 
-when the pump is used incorrectly”). 
+section 3 under  How to handle an infusion pump system  and  What to do if the pump system fails or 
+when the pump is used incorrectly ). 
 For more information on signs and symptoms of hyperglycaemia refer to the box at the end of this 
 leaflet. </p>
 <p>Other side effects 
-• Skin changes at the injection site:<br />
+  Skin changes at the injection site:<br />
 If you inject insulin too often at the same place, the fatty tissue may either shrink (lipoatrophy) or 
 thicken (lipohypertrophy) (may affect up to 1 in 1,000 people). Lumps under the skin may also be 
 caused by build-up of a protein called amyloid (cutaneous amyloidosis; how often this occurs is not 
@@ -341,14 +353,14 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the carton and on the label of the vial 
-after “EXP”. The expiry date refers to the last day of that month. </p>
+after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Unopened vials 
-Store in a refrigerator (2°C – -8°C). 
+Store in a refrigerator (2 C   -8 C). 
 Do not freeze. 
 Do not put Apidra next to the freezer compartment or a freezer pack. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Opened vials 
-Once in use, the vial may be stored for a maximum of 4 weeks in the outer carton below 25°C away 
+Once in use, the vial may be stored for a maximum of 4 weeks in the outer carton below 25 C away 
 from direct heat or direct light. Do not use the vial after this time period. 
 It is recommended that the date of the first use be noted on the label. </p>
 <p>Do not use this medicine if it does not appear clear and colourless. </p>
@@ -366,9 +378,9 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>The active substance is insulin glulisine. Each ml of the solution contains 100 Units of insulin 
 glulisine (equivalent to 3.49 mg). Each vial contains 10 ml of solution for injection, equivalent 
 to 1000 Units. </li>
-<li>The other ingredients are: metacresol (see section 2 under “Apidra contains metacresol”), 
-sodium chloride (see section 2 under “Important information about some of the ingredients of 
-Apidra”), trometamol, polysorbate 20, concentrated hydrochloric acid, sodium hydroxide, water 
+<li>The other ingredients are: metacresol (see section 2 under  Apidra contains metacresol ), 
+sodium chloride (see section 2 under  Important information about some of the ingredients of 
+Apidra ), trometamol, polysorbate 20, concentrated hydrochloric acid, sodium hydroxide, water 
 for injections. </li>
 </ul>
 <p>What Apidra looks like and contents of the pack </p>
@@ -383,26 +395,25 @@ D-65926 Frankfurt am Main
 Germany </p>
 <p>Manufacturer: 
 Sanofi-Aventis Deutschland GmbH 
-Industriepark Höchst, D-65926 Frankfurt 
+Industriepark H chst, D-65926 Frankfurt 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
  Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -418,18 +429,17 @@ Nederland
 Sanofi B.V. 
 Tel: +31 20 245 4 </p>
 <p>Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -437,14 +447,14 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -453,10 +463,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
  Swixx Biopharma d.o.o 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -466,9 +476,8 @@ Tel: 800 13 12 12 (domande di tipo tecnico)<br />
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: +358 (0) 201 200  </p>
-<p>Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 </p>
 <p>Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

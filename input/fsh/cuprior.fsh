@@ -4,7 +4,7 @@ Instance: composition-en-7257da0dd1f9dbf780b362b25cce238a
 InstanceOf: CompositionUvEpi
 Title: "Composition for cuprior Package Leaflet"
 Description:  "Composition for cuprior Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,8 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What cuprior is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cuprior is a medicine used to treat Wilson’s disease that contains the active substance trientine.  </p>
-<p>Wilson’s disease is an inherited condition in which the body cannot transport copper around the body 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cuprior is a medicine used to treat Wilson s disease that contains the active substance trientine.  </p>
+<p>Wilson s disease is an inherited condition in which the body cannot transport copper around the body 
 in the normal way or remove copper in the normal way as a secretion from the liver into the gut. This 
 means that the small amounts of copper from food and drink build up to excessive levels and can lead 
 to liver damage and problems in the nervous system. This medicine mainly works by attaching to 
@@ -100,7 +100,7 @@ Cuprior to properly control your symptoms and copper levels.  </p>
 <p>You should tell your doctor if you get any side effects as this may indicate that your dose of Cuprior 
 needs to be adjusted up or down.  </p>
 <p>This medicine may also reduce the level of iron in your blood and your doctor may prescribe iron 
-supplements (see section “Other medicines and Cuprior” below). </p>
+supplements (see section  Other medicines and Cuprior  below). </p>
 <p>If you have kidney problems, your doctor will regularly check that the treatment dose is appropriate 
 and does not affect the functioning of your kidney. </p>
 <p>The association of trientine with another medicine that contains zinc is not recommended.  </p>
@@ -127,7 +127,7 @@ should fully discuss the potential benefits of treatment whilst considering any 
 may be. Your doctor will advise you which treatment and which dose is best in your situation. </p>
 <p>If you are pregnant and taking Cuprior, you will be monitored throughout your pregnancy for any 
 effects on the baby or changes in your copper levels. When your baby is born, the copper level in the 
-baby’s blood will also be monitored.  </p>
+baby s blood will also be monitored.  </p>
 <p>It is not known if Cuprior can pass into breast milk. It is important to tell your doctor if you are 
 breast-feeding or plan to do so. Your doctor will then help you decide whether to stop breast-feeding 
 or to stop taking Cuprior, considering the benefit of breast-feeding to the baby and the benefit of 
@@ -136,8 +136,8 @@ situation. </p>
 <p>Driving and using machines 
 Cuprior is not expected to affect your ability to drive a car or use any tools or machines. </p>
 <p>Cuprior contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free.’ </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free.  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cuprior"
@@ -172,7 +172,7 @@ dose at its usual scheduled time. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>
 <p>If you stop taking Cuprior 
 This medicine is for long-term use. Do not stop your treatment without the advice of your doctor even 
-if you feel better because Wilson’s disease is a life-long condition. </p>
+if you feel better because Wilson s disease is a life-long condition. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -226,8 +226,8 @@ equivalent to 150 mg trientine.<br />
 - The other ingredients are: 
 Tablet core: mannitol, colloidal anhydrous silica and glycerol dibehenate. 
 Tablet film-coating: polyvinyl alcohol, talc, titanium dioxide (E 171), glycerol monocaprylocaprate 
-(Type I), iron oxide yellow (E 172) and sodium laurilsulfate (see section 2 “Cuprior contains 
-sodium”). </p>
+(Type I), iron oxide yellow (E 172) and sodium laurilsulfate (see section 2  Cuprior contains 
+sodium ). </p>
 <p>What Cuprior looks like and contents of the pack 
 Cupior are yellow, 16 mm x 8 mm oblong film-coated tablets with a score line on each side.<br />
 Cuprior is available in blisters containing 72 or 96 film-coated tablets. 

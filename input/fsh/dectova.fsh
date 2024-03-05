@@ -4,7 +4,7 @@ Instance: composition-en-42901eb273bd1fa1c559a078fd30641d
 InstanceOf: CompositionUvEpi
 Title: "Composition for dectova Package Leaflet"
 Description:  "Composition for dectova Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -85,7 +85,7 @@ Adults and children aged 6 months or more can be treated with Dectova. </p>     
 <p>Warnings and precautions </p>
 <p>Serious skin or allergic reactions </p>
 <p>Serious skin or allergic reactions may occur after Dectova is given. Symptoms may include skin or throat 
-swelling, difficulty breathing, blistering rash or peeling skin (see also ‘Serious skin or allergic reactions’ in 
+swelling, difficulty breathing, blistering rash or peeling skin (see also  Serious skin or allergic reactions  in 
 section 4). </p>
 <p>Sudden changes in behaviour, hallucinations and fits </p>
 <p>During treatment with Dectova, changes in behaviour such as confusion and unresponsiveness may occur. 
@@ -96,7 +96,7 @@ not being given Dectova. So it is not known if Dectova played a part in causing 
 <p>Your doctor may monitor you more closely if your immune system is not working properly to ensure the 
 treatment is working. Your doctor may switch you to an alternative treatment where appropriate. </p>
 <p>If you notice any of the above symptoms: 
- Tell a doctor or nurse immediately. </p>
+  Tell a doctor or nurse immediately. </p>
 <p>Other medicines and Dectova<br />
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
 <p>Pregnancy and breast-feeding<br />
@@ -138,35 +138,32 @@ your doctor or nurse immediately.  </p>         </div>"""
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Dectova can cause side effects, although not everybody gets them. </p>
-<p>Serious skin and allergic reactions may occur with Dectova, but there isn’t enough information to 
+<p>Serious skin and allergic reactions may occur with Dectova, but there isn t enough information to 
 estimate how likely they are. Contact your doctor or nurse straight away if you notice any of the following 
 serious side effects: 
-* very severe skin reactions such as: 
-o a skin rash, which may blister, and looks like small targets (erythema multiforme) 
-o a widespread rash with blisters and peeling skin, particularly occurring around the mouth, 
-nose, eyes and genitals (Stevens-Johnson syndrome) 
-o extensive peeling of the skin on much of the body surface (toxic epidermal necrolysis). 
+* very severe skin reactions such as: * a skin rash, which may blister, and looks like small targets (erythema multiforme) * a widespread rash with blisters and peeling skin, particularly occurring around the mouth, 
+nose, eyes and genitals (Stevens-Johnson syndrome) * extensive peeling of the skin on much of the body surface (toxic epidermal necrolysis). 
 * severe allergic reactions, including features such as itchy rash, swelling of the face, throat or tongue, 
 breathing difficulty, light headedness and vomiting. </p>
 <p>Common side effects 
 These may affect up to 1 in 10 people 
-• diarrhoea 
-• liver damage (hepatocellular injury) 
-• rash. </p>
+  diarrhoea 
+  liver damage (hepatocellular injury) 
+  rash. </p>
 <p>Common side effects that may show up in your blood tests: 
-• increase in the level of liver enzymes (raised aminotransferases). </p>
+  increase in the level of liver enzymes (raised aminotransferases). </p>
 <p>Uncommon side effects 
 These may affect up to 1 in 100 people 
-• itchy, bumpy rash (hives). </p>
+  itchy, bumpy rash (hives). </p>
 <p>Uncommon side effects that may show up in your blood tests: 
-• increase in the level of liver or bone enzymes (raised alkaline phosphatase). </p>
+  increase in the level of liver or bone enzymes (raised alkaline phosphatase). </p>
 <p>Side effects where it is not known how likely they are to happen 
-There isn’t enough information to estimate how likely these side effects are: 
-• acting strangely 
-• seeing, hearing or feeling things which are not there 
-• confused thinking 
-• fits (seizures) 
-• being less alert or not responding to loud sounds or being shaken </p>
+There isn t enough information to estimate how likely these side effects are: 
+  acting strangely 
+  seeing, hearing or feeling things which are not there 
+  confused thinking 
+  fits (seizures) 
+  being less alert or not responding to loud sounds or being shaken </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
@@ -208,22 +205,22 @@ Parma
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52<br />
+T l/Tel: + 32 (0) 10 85 52<br />
 Lietuva<br />
 GlaxoSmithKline Trading Services Limited<br />
-Tel: +370 80000България<br />
+Tel: +370 80000 <br />
 GlaxoSmithKline Trading Services Limited<br />
-Teл.: +359 80018 
+Te .: +359 80018 
 Luxembourg/Luxemburg<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika<br />
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika<br />
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
-Magyarország<br />
+Magyarorsz g<br />
 GlaxoSmithKline Trading Services Limited<br />
 Tel.: +36 80088 
 Danmark<br />
@@ -243,28 +240,27 @@ Tel: +372 8002
 Norge<br />
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20  </p>
-<p>Ελλάδα<br />
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich<br />
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich<br />
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España<br />
+<p>Espa a<br />
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska<br />
 GSK Services Sp. z o.o. 
 Tel.: + 48 (0)22 576 9France<br />
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+T l: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal<br />
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline   Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com 
 Hrvatska 
 GlaxoSmithKline Trading Services Limited<br />
 Tel: +385 800787 
-România<br />
+Rom nia<br />
 GlaxoSmithKline Trading Services Limited<br />
 Tel: +40 800672Ireland<br />
 GlaxoSmithKline (Ireland) Limited 
@@ -272,20 +268,19 @@ Tel: + 353 (0)1 4955
 Slovenija<br />
 GlaxoSmithKline Trading Services Limited 
 Tel: +386 80688 
-Ísland<br />
+ sland<br />
 Vistor hf. 
-Sími:  +354 535 7 
-Slovenská republika<br />
+S mi:  +354 535 7 
+Slovensk  republika<br />
 GlaxoSmithKline Trading Services Limited 
 Tel: +421 800500 
 Italia<br />
 GlaxoSmithKline S.p.A. 
 Tel: + 39 (0)45 7741 Suomi/Finland<br />
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-GlaxoSmithKline Trading Services Limited<br />
-Τηλ: +357 80070 </p>
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline Trading Services Limited<br />
+ : +357 80070 </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
@@ -296,7 +291,7 @@ United Kingdom (Northern Ireland)
 GlaxoSmithKline Trading Services Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. 
+<p>This medicine has been authorised under  exceptional circumstances . 
 This means that for scientific reasons it has not been possible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and this 
 leaflet will be updated as necessary. </p>

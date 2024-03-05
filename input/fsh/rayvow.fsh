@@ -4,7 +4,7 @@ Instance: composition-en-8bb757daadba0c9862c13659a934b71b
 InstanceOf: CompositionUvEpi
 Title: "Composition for rayvow Package Leaflet"
 Description:  "Composition for rayvow Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,15 +88,17 @@ Do not take part in activities requiring your full attention, such as driving or
 within 8 hours of taking each dose of RAYVOW, even if you feel well enough to do so, because it can 
 affect your ability to drive or operate machinery safely. If you cannot do this, you should not take 
 RAYVOW. </p>
-<p>Talk to your doctor or pharmacist before taking RAYVOW if you:<br />
-- are taking medicines that increase the level of serotonin (see ‘Other medicines and RAYVOW’). 
+<p>Talk to your doctor or pharmacist before taking RAYVOW if you:</p>
+<ul>
+<li>are taking medicines that increase the level of serotonin (see  Other medicines and RAYVOW ). 
 These medicines increase the risk of side effects such as serotonin syndrome (a rare reaction 
 which may cause mental changes, such as seeing things that are not there (hallucinations), 
 agitation, or coma; fast heartbeat; changes in blood pressure; high body temperature; tight 
-muscles; trouble walking; nausea, vomiting, or diarrhoea).<br />
-- are taking other medicines or substances that cause sleepiness such as sleeping pills, medicines 
-for psychiatric conditions, or alcohol 
-- have ever been addicted to prescription medicines, alcohol, or other drugs.  </p>
+muscles; trouble walking; nausea, vomiting, or diarrhoea).  </li>
+<li>are taking other medicines or substances that cause sleepiness such as sleeping pills, medicines 
+for psychiatric conditions, or alcohol </li>
+<li>have ever been addicted to prescription medicines, alcohol, or other drugs.  </li>
+</ul>
 <p>If you repeatedly use any medicines for the treatment of migraine over several days or weeks, this can 
 cause long-term daily headaches. Tell your doctor if you experience this as you might need to stop 
 treatment for a while. </p>
@@ -106,11 +108,13 @@ information about how it works in this age group. </p>
 <p>Other medicines and RAYVOW 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  </p>
-<p>In particular, tell your doctor or pharmacist before taking RAYVOW if you are taking:<br />
-- medicines that lower heart rate, such as propranolol 
-- medicines that increase the level of serotonin (including SSRIs, SNRIs, tricyclic 
-antidepressants, monoamine oxidase inhibitors [MAOIs], or triptans) 
-- digoxin (used to treat heart disorders) </p>
+<p>In particular, tell your doctor or pharmacist before taking RAYVOW if you are taking:</p>
+<ul>
+<li>medicines that lower heart rate, such as propranolol </li>
+<li>medicines that increase the level of serotonin (including SSRIs, SNRIs, tricyclic 
+antidepressants, monoamine oxidase inhibitors [MAOIs], or triptans) </li>
+<li>digoxin (used to treat heart disorders) </li>
+</ul>
 <p>RAYVOW with alcohol 
 Care should be taken if you drink alcohol while taking RAYVOW. </p>
 <p>Pregnancy, breast-feeding and fertility 
@@ -128,7 +132,7 @@ lasmiditan, even if you feel well enough to do so. If you cannot do this, you sh
 RAYVOW.  </p>
 <p>RAYVOW contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say it is essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rayvow"
@@ -157,11 +161,7 @@ RAYVOW is for oral use. You should swallow your tablet with a drink of water dur
 phase of your migraine attack. You can take the tablet either with or without food. </p>
 <p>If you take more RAYVOW than you should 
 If you take more RAYVOW than you should, immediately contact your doctor. You may get some of 
-the side effects described in section 4.<br />
-If you forget to take RAYVOW 
-RAYVOW is indicated for the acute treatment of migraine headaches and should only be taken when 
-necessary.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+the side effects described in section </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -169,49 +169,67 @@ necessary.  </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take RAYVOW 
+RAYVOW is indicated for the acute treatment of migraine headaches and should only be taken when 
+necessary.  </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rayvow"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rayvow"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Tell your doctor immediately if you experience any of the following serious side effects after taking 
-this medicine: 
-- allergic reactions including rashes and swelling of eyelids, face, or lips (frequency uncommon) 
-- signs and symptoms of serotonin syndrome, a rare reaction which may cause mental changes, 
+this medicine:</p>
+<ul>
+<li>allergic reactions including rashes and swelling of eyelids, face, or lips (frequency uncommon) </li>
+<li>signs and symptoms of serotonin syndrome, a rare reaction which may cause mental changes, 
 such as seeing things that are not there (hallucinations), agitation, or coma; fast heartbeat; 
 changes in blood pressure; high body temperature; tight muscles; trouble walking; 
-gastrointestinal signs such as nausea, vomiting, or diarrhoea.  </p>
+gastrointestinal signs such as nausea, vomiting, or diarrhoea.  </li>
+</ul>
 <p>Other side effects may include: </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- Dizziness </p>
-<p>Common (may affect up to 1 in 10 people): 
-- Feeling sleepy 
-- Feeling tired 
-- Prickling or tingling of the skin<br />
-- Feeling sick 
-- Numbness 
-- Feeling of general discomfort 
-- Feeling of spinning and loss of balance 
-- Muscle weakness 
-- Difficulty controlling movement e.g. lack of coordination 
-- Feeling abnormal 
-- Vomiting 
-- Poor quality sleep<br />
-- Feeling the heart pumping in the chest, e.g. palpitations<br />
-- Vision problems, e.g. blurred vision </p>
-<p>Uncommon (may affect up to 1 in 100 people):<br />
-- Sensation of restlessness or an inability to sit or stand still 
-- Shaking or tremor 
-- Feeling anxious 
-- Feeling hot or cold 
-- Muscle cramp 
-- Feeling sluggish 
-- Arm or leg discomfort 
-- Difficulty in concentrating 
-- Thinking changes such as memory loss or foggy thinking<br />
-- Feeling of mind not working properly 
-- Speech problems, e.g. slurred speech 
-- Feeling confused<br />
-- Chest discomfort 
-- Extremely happy or excited mood 
-- Seeing or hearing things that are not there<br />
-- Shortness of breath or difficulty breathing </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Dizziness </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Feeling sleepy </li>
+<li>Feeling tired </li>
+<li>Prickling or tingling of the skin  </li>
+<li>Feeling sick </li>
+<li>Numbness </li>
+<li>Feeling of general discomfort </li>
+<li>Feeling of spinning and loss of balance </li>
+<li>Muscle weakness </li>
+<li>Difficulty controlling movement e.g. lack of coordination </li>
+<li>Feeling abnormal </li>
+<li>Vomiting </li>
+<li>Poor quality sleep  </li>
+<li>Feeling the heart pumping in the chest, e.g. palpitations  </li>
+<li>Vision problems, e.g. blurred vision </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Sensation of restlessness or an inability to sit or stand still </li>
+<li>Shaking or tremor </li>
+<li>Feeling anxious </li>
+<li>Feeling hot or cold </li>
+<li>Muscle cramp </li>
+<li>Feeling sluggish </li>
+<li>Arm or leg discomfort </li>
+<li>Difficulty in concentrating </li>
+<li>Thinking changes such as memory loss or foggy thinking  </li>
+<li>Feeling of mind not working properly </li>
+<li>Speech problems, e.g. slurred speech </li>
+<li>Feeling confused  </li>
+<li>Chest discomfort </li>
+<li>Extremely happy or excited mood </li>
+<li>Seeing or hearing things that are not there  </li>
+<li>Shortness of breath or difficulty breathing </li>
+</ul>
 <p>Lasmiditan has been associated with a lowering of heart rate (on average about 5 to 10 beats per 
 minute), and a small increase in blood pressure, in the hours after dosing. </p>
 <p>Reporting of side effects 
@@ -220,132 +238,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store rayvow"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rayvow"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and carton after ‘EXP’. 
-The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What RAYVOW contains 
-- The active substance is lasmiditan. <br />
-o 
-RAYVOW 50 mg film coated tablets 
-Each film coated tablet contains 50 mg lasmiditan (as succinate). </p>
-<p>o 
-RAYVOW 100 mg film coated tablets 
-Each film coated tablet contains 100 mg lasmiditan (as succinate). </p>
-<p>o 
-RAYVOW 200 mg film coated tablets 
-Each film coated tablet contains 200 mg lasmiditan (as succinate). </p>
-<ul>
-<li>The other ingredients are: croscarmellose sodium, magnesium stearate, microcrystalline 
-cellulose, sodium laurilsulfate, pregelatinized starch 
-o 
-For 50 mg and 200 mg colour mixture grey: polyvinyl alcohol, titanium dioxide (E171), 
-macrogol 3350, talc, iron oxide black (E172)<br />
-o 
-For 100 mg colour mixture purple: polyvinyl alcohol, titanium dioxide (E171), 
-macrogol 3350, talc, iron oxide black (E172), iron oxide red (E172) </li>
-</ul>
-<p>What RAYVOW looks like and contents of the pack 
-RAYVOW is available in 3 strengths: 50 mg, 100 mg and 200 mg 
-- The 50 mg film-coated tablets are light grey, oval tablet with “4312” on one side and “L-50” on 
-the other. 
-- The 100 mg film-coated tablets are light purple, oval tablet with “4491” on one side and 
-“L-100” on the other.<br />
-- The 200 mg film-coated tablets are grey, oval tablet with “4736” on one side and “L-200” on 
-the other. </p>
-<p>RAYVOW is available in polychlorotrifluoroethylene/polyvinyl chloride (PCTFE/PVC) and polyvinyl 
-chloride (PVC) perforated unit dose blisters sealed with an aluminium foil lid in packs of 2 x 1, 4 x 1, 
-6 x 1, 12 x 1 and 16 x 1 film-coated tablets. Not all the pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Eli Lilly Nederland B.V.,<br />
-Papendorpseweg 83,<br />
-3528 BJ Utrecht,<br />
-The Netherlands </p>
-<p>Manufacturer 
-Lilly S.A.,<br />
-Avda. de la Industria, 30,<br />
-28108 Alcobendas,<br />
-Madrid,<br />
-Spain </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Lietuva 
-Eli Lilly Lietuva 
-Tel. +370 (5) 2649България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41 Luxembourg/Luxemburg 
-Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
-Tel: + 420 234 664 Magyarország 
-Lilly Hungária Kft. 
-Tel: + 36 1 328 5Danmark 
-Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 60 Malta 
-Charles de Giorgio Ltd. 
-Tel: + 356 25600 Deutschland 
-Lilly Deutschland GmbH<br />
-Tel. + 49-(0) 6172 273 2Nederland 
-Eli Lilly Nederland B.V.<br />
-Tel: + 31-(0) 30 60 25 Eesti 
-Eli Lilly Nederland B.V. 
-Tel: +372 6 817 Norge 
-Eli Lilly Norge A.S. 
-Tlf: + 47 22 88 18  </p>
-<p>Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4Österreich 
-Eli Lilly Ges.m.b.H. 
-Tel: + 43-(0) 1 711 España 
-Lilly S.A.<br />
-Tel: + 34-91 663 50 Polska<br />
-Eli Lilly Polska Sp. z o.o. 
-Tel: +48 22 440 33 France 
-Lilly France 
-Tél: +33-(0) 1 55 49 34 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
-Tel: + 351-21-4126Hrvatska 
-Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350 România 
-Eli Lilly România S.R.L. 
-Tel: + 40 21 4023Ireland 
-Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
-Icepharma hf. 
-Sími: + 354 540 8Slovenská republika 
-Eli Lilly Slovakia s.r.o. 
-Tel: + 421 220 663 Italia 
-Eli Lilly Italia S.p.A. 
-Tel: + 39- 055 42Suomi/Finland 
-Oy Eli Lilly Finland Ab 
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
-Phadisco Ltd<br />
-Τηλ: +357 22 715Sverige 
-Eli Lilly Sweden AB 
-Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
-Tel: +371 67364United Kingdom (Northern Ireland) 
-Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
+you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

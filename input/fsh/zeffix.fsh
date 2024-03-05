@@ -4,7 +4,7 @@ Instance: composition-en-30a17ceddf8c54eac9abf3a410be28f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zeffix Package Leaflet"
 Description:  "Composition for zeffix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Zeffix 
 4. Possible side effects 
 5. How to store Zeffix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -89,17 +88,17 @@ with regular blood tests. </p>         </div>"""
   * code.text = "2. What you need to know before you take zeffix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Zeffix 
-* if you’re allergic to lamivudine or to any of the other ingredients of this medicine (listed in 
+* if you re allergic to lamivudine or to any of the other ingredients of this medicine (listed in 
 Section 6). 
- Check with your doctor if you think this applies to you. </p>
+  Check with your doctor if you think this applies to you. </p>
 <p>Warnings and precautions </p>
 <p>Some people taking Zeffix or other similar medicines are more at risk of serious side effects. You need 
 to be aware of the extra risks: 
 * if you have ever had other types of liver disease, such as hepatitis C 
-* if you’re seriously overweight (especially if you’re a woman). 
- Talk to your doctor if any of these apply to you. You may need extra check-ups, including blood 
-tests, while you’re taking your medication. See Section 4 for more information about the risks.  </p>
-<p>Don’t stop taking Zeffix without your doctor’s advice, as there is a risk of your hepatitis getting 
+* if you re seriously overweight (especially if you re a woman). 
+  Talk to your doctor if any of these apply to you. You may need extra check-ups, including blood 
+tests, while you re taking your medication. See Section 4 for more information about the risks.  </p>
+<p>Don t stop taking Zeffix without your doctor s advice, as there is a risk of your hepatitis getting 
 worse. When you stop taking Zeffix your doctor will monitor you for at least four months to check for 
 any problems. This will mean taking blood samples to check for any raised liver enzyme levels, which 
 may indicate liver damage. See section 3 for more information about how to take Zeffix. </p>
@@ -107,36 +106,34 @@ may indicate liver damage. See section 3 for more information about how to take 
 Hepatitis B infection is spread by sexual contact with someone who has the infection, or by transfer of 
 infected blood (for example, by sharing injection needles). Zeffix will not stop you passing hepatitis B 
 infection on to other people. To protect other people from becoming infected with hepatitis B: 
- Use a condom when you have oral or penetrative sex. 
- Don’t risk blood transfer — for example, don’t share needles. </p>
+  Use a condom when you have oral or penetrative sex. 
+  Don t risk blood transfer   for example, don t share needles. </p>
 <p>Other medicines and Zeffix 
-Tell your doctor or pharmacist if you’re taking, have recently taken or might take any other medicines, 
+Tell your doctor or pharmacist if you re taking, have recently taken or might take any other medicines, 
 including herbal medicines or other medicines you bought without a prescription.  </p>
-<p>Remember to tell your doctor or pharmacist if you begin taking a new medicine while you’re taking 
+<p>Remember to tell your doctor or pharmacist if you begin taking a new medicine while you re taking 
 Zeffix. </p>
 <p>These medicines should not be used with Zeffix: 
-• medicines (usually liquids) containing sorbitol and other sugar alcohols (such as xylitol, 
+  medicines (usually liquids) containing sorbitol and other sugar alcohols (such as xylitol, 
 mannitol, lactitol or maltitol), if taken regularly 
-• other medicines containing lamivudine, used to treat HIV infection (sometimes called the AIDS 
+  other medicines containing lamivudine, used to treat HIV infection (sometimes called the AIDS 
 virus) 
-• emtricitabine used to treat HIV or hepatitis B infection 
-• cladribine, used to treat hairy cell leukaemia 
- 
-Tell your doctor if you’re being treated with any of these.  </p>
+  emtricitabine used to treat HIV or hepatitis B infection 
+  cladribine, used to treat hairy cell leukaemia </p>
+<p>Tell your doctor if you re being treated with any of these.  </p>
 <p>Pregnancy 
-If you are pregnant, think you may be pregnant or are planning to have a baby: 
- 
-Talk to your doctor about the risks and benefits of taking Zeffix during your pregnancy. 
-Do not stop treatment with Zeffix without your doctor’s advice. </p>
+If you are pregnant, think you may be pregnant or are planning to have a baby: </p>
+<p>Talk to your doctor about the risks and benefits of taking Zeffix during your pregnancy. 
+Do not stop treatment with Zeffix without your doctor s advice. </p>
 <p>Breast-feeding<br />
 Zeffix can pass into breast-milk. If you are breast-feeding, or thinking about breast-feeding: 
- Talk to your doctor before you take Zeffix. </p>
+  Talk to your doctor before you take Zeffix. </p>
 <p>Driving and using machines 
 Zeffix may make you feel tired, which could affect your ability to drive or use machines.<br />
- Don’t drive or use machines unless you are sure you’re not affected. </p>
+  Don t drive or use machines unless you are sure you re not affected. </p>
 <p>Zeffix contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zeffix"
@@ -144,17 +141,16 @@ free’. </p>         </div>"""
   * code.text = "3. How to take zeffix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you to. Check with your doctor or 
-pharmacist if you’re not sure. </p>
+pharmacist if you re not sure. </p>
 <p>Stay in regular contact with your doctor<br />
 Zeffix helps to control your hepatitis B infection. You need to keep taking it every day to control your 
 infection and stop your illness getting worse. 
- Keep in touch with your doctor, and don’t stop taking Zeffix without your doctor’s advice. </p>
+  Keep in touch with your doctor, and don t stop taking Zeffix without your doctor s advice. </p>
 <p>How much to take<br />
 The usual dose of Zeffix is one tablet (100 mg lamivudine) once a day.  </p>
 <p>Your doctor may prescribe a lower dose if you have problems with your kidneys. An oral solution of 
-Zeffix is available for people who need a lower than usual dose, or who can’t take tablets. </p>
-<p> 
-Talk to your doctor if this applies to you.  </p>
+Zeffix is available for people who need a lower than usual dose, or who can t take tablets. </p>
+<p>Talk to your doctor if this applies to you.  </p>
 <p>If you are already taking another medicine that contains lamivudine for HIV infection, your doctor 
 will continue to treat you with the higher dose, (usually 150 mg twice a day), because the dose of 
 lamivudine in Zeffix (100 mg) is not enough to treat HIV infection. If you are planning to change your 
@@ -165,8 +161,8 @@ If you accidentally take too much Zeffix, tell your doctor or your pharmacist, o
 hospital emergency department for further advice. If possible, show them the Zeffix pack. </p>
 <p>If you forget to take Zeffix 
 If you forget to take a dose, take it as soon as you remember. Then continue your treatment as before. 
-Don’t take a double dose to make up for a missed dose.  </p>
-<p>Don’t stop taking Zeffix 
+Don t take a double dose to make up for a missed dose.  </p>
+<p>Don t stop taking Zeffix 
 You must not stop taking Zeffix without consulting your doctor. There is a risk of your hepatitis 
 getting worse (see section 2). When you stop taking Zeffix your doctor will monitor you for at least 
 four months to check for any problems. This will mean taking blood samples to check for any raised 
@@ -184,18 +180,17 @@ infections, throat discomfort, headache, stomach discomfort and pain, nausea, vo
 increases in liver enzymes and enzymes produced in the muscles (see below).  </p>
 <p>Allergic reaction<br />
 These are rare (may affect up to 1 in 1,000 people). Signs include: 
-• swelling of eyelids, face or lips 
-• difficulty swallowing or breathing 
- 
-Contact a doctor immediately if you get these symptoms. Stop taking Zeffix. </p>
+  swelling of eyelids, face or lips 
+  difficulty swallowing or breathing </p>
+<p>Contact a doctor immediately if you get these symptoms. Stop taking Zeffix. </p>
 <p>Side effects thought to be caused by Zeffix  </p>
 <p>A very common side effect (these may affect more than 1 in 10 people) which may show up in 
 blood tests is: 
 * an increase in the level of some liver enzymes (transaminases), which may be a sign of 
 inflammation or damage in the liver. </p>
 <p>A common side effect (these may affect up to 1 in 10 people) is: 
-• cramps and muscle pains<br />
-• skin rash or ‘hives’ anywhere on the body </p>
+  cramps and muscle pains<br />
+  skin rash or  hives  anywhere on the body </p>
 <p>A common side effect which may show up in blood tests is: </p>
 <ul>
 <li>an increase in the level of an enzyme produced in the muscles (creatine phosphokinase) which 
@@ -211,9 +206,8 @@ unknown
 becomes resistant to Zeffix. This can be fatal in some people. </p>
 <p>A side effect which may show up in blood tests is: 
 * a decrease in the number of cells involved in blood clotting (thrombocytopenia).  </p>
-<p>If you get any side effects<br />
- 
-Talk to your doctor or pharmacist. This includes any possible side effects not listed in this 
+<p>If you get any side effects  </p>
+<p>Talk to your doctor or pharmacist. This includes any possible side effects not listed in this 
 leaflet.  </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -227,8 +221,8 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store zeffix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Don’t take this medicine after the expiry date shown on the carton and blister. </p>
-<p>Don’t store above 30 °C. </p>
+<p>Don t take this medicine after the expiry date shown on the carton and blister. </p>
+<p>Don t store above 30  C. </p>
 <p>Do not throw away any medicines in your wastewater or household rubbish. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -244,11 +238,11 @@ to throw away medicines you no longer use. These measures will help to protect t
 hypromellose, titanium dioxide, macrogol 400, polysorbate 80, synthetic yellow and red iron oxide. </p>
 <p>What Zeffix looks like and contents of the pack </p>
 <p>Zeffix film-coated tablets are supplied in tamper evident foil blisters containing 28 or 84 tablets. 
-The tablets are butterscotch coloured, capsule shaped, biconvex and engraved “GX CG5” on one side. </p>
+The tablets are butterscotch coloured, capsule shaped, biconvex and engraved  GX CG5  on one side. </p>
 <p>Not all pack-sizes may be available in your country. </p>
 <p>Manufacturer </p>
 <p>Marketing Authorisation Holder 
-Delpharm Poznań Spółka Akcyjna 
+Delpharm Pozna  Sp ka Akcyjna 
 ul. Grunwaldzka 60-322 Poznan 
 Poland </p>
 <p>GlaxoSmithKline (Ireland) Limited<br />
@@ -257,22 +251,21 @@ Citywest Business Campus
 Dublin Ireland </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0)10 85 52 Lietuva 
+T l/Tel: + 32 (0)10 85 52 Lietuva 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 370 80000 
-България 
-GlaxoSmithKline (Ireland) Limited 
-Teл.: + 359 80018 
+Tel: + 370 80000 </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+Te .: + 359 80018 
 Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0)10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0)10 85 52<br />
+ esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 GlaxoSmithKline (Ireland) Limited 
 Tel.: + 36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
@@ -290,47 +283,45 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 372 8002 
 Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82 Österreich 
+Tlf: + 47 22 70 20  </p>
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
 Tel.: + 48 (0)22 576 9France 
 Laboratoire GlaxoSmithKline 
-Tél.: + 33 (0)1 39 17 84 diam@gsk.com </p>
+T l.: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-Glaxo Wellcome Farmacêutica, Lda.<br />
+Glaxo Wellcome Farmac utica, Lda.<br />
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 385 800787 
-România 
+Rom nia 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 353 (0)1 4955Slovenija 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: + 354 535 7Slovenská republika 
+S mi: + 354 535 7Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 421 800500 
 Italia 
 GlaxoSmithKline S.p.A. 
 Tel: + 39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-GlaxoSmithKline (Ireland) Limited 
-Τηλ: + 357 80070 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+ : + 357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

@@ -4,7 +4,7 @@ Instance: composition-en-c73c6f869bb1947667a63b227920af77
 InstanceOf: CompositionUvEpi
 Title: "Composition for dupixent Package Leaflet"
 Description:  "Composition for dupixent Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -116,15 +116,15 @@ before using Dupixent. </p>
 Talk to your doctor, pharmacist or nurse before using Dupixent: </p>
 <p>Dupixent is not a rescue medicine and should not be used to treat a sudden asthma attack. </p>
 <p>Every time you get a new pack of Dupixent, it is important that you note down the date and the batch 
-number (which is on the packaging after “Lot”) and keep this information in a safe place. </p>
+number (which is on the packaging after  Lot ) and keep this information in a safe place. </p>
 <p>Allergic reactions 
 * Rarely, Dupixent can cause serious side effects, including allergic (hypersensitivity) reactions and 
 anaphylactic reaction and angioedema. These reactions can occur from minutes until seven days 
 after Dupixent administration. You must look out for signs of these conditions (i.e. breathing 
 problems, swelling of the face, lips, mouth, throat or tongue, fainting, dizziness, feeling 
 lightheaded (low blood pressure), fever, general ill feeling, swollen lymph nodes, hives, itching, 
-joint pain, skin rash) while you are taking Dupixent. Such signs are listed under “Serious side 
-effects” in section 4. * Stop using Dupixent and tell your doctor or get medical help immediately if you notice any signs 
+joint pain, skin rash) while you are taking Dupixent. Such signs are listed under  Serious side 
+effects  in section 4. * Stop using Dupixent and tell your doctor or get medical help immediately if you notice any signs 
 of an allergic reaction. </p>
 <p>Eosinophilic conditions 
 * Rarely patients taking an asthma medicine may develop inflammation of blood vessels or lungs 
@@ -178,7 +178,7 @@ not do both. </p>
 Dupixent is unlikely to influence your ability to drive and use machines. </p>
 <p>Dupixent contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 300 mg dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dupixent"
@@ -222,7 +222,7 @@ starting 4 weeks after Day 15 dose
 60 kg or more 
 600 mg (two 300 mg injections) 
 300 mg every other week 
-* The dose may be increased to 200 mg every other week based on the doctor’s opinion. </p>
+* The dose may be increased to 200 mg every other week based on the doctor s opinion. </p>
 <p>Recommended dose in children 6 months to 5 years of age with atopic dermatitis 
 The recommended dose of Dupixent for children 6 months to 5 years of age with atopic dermatitis is 
 based on body weight: </p>
@@ -276,7 +276,7 @@ should decide if you should inject Dupixent yourself. </p>
 <p>Before injecting Dupixent yourself you must have been properly trained by your doctor or nurse. Your 
 Dupixent injection may also be given by a caregiver after proper training by a doctor or nurse. </p>
 <p>Each pre-filled syringe contains one dose of Dupixent (300 mg). Do not shake the pre-filled syringe. </p>
-<p>Read carefully the “Instructions for Use” included at the end of the package leaflet before using 
+<p>Read carefully the  Instructions for Use  included at the end of the package leaflet before using 
 Dupixent. </p>
 <p>If you use more Dupixent than you should<br />
 If you use more Dupixent than you should or the dose has been given too early, talk to your doctor, 
@@ -353,8 +353,8 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). Do not freeze. Store in the original carton to protect from light. If 
-necessary, the pre-filled syringe can be removed from the refrigerator and kept in the pack for up to days at room temperature up to 25°C, while protected from light. The date of removal from the 
+<p>Store in a refrigerator (2 C to 8 C). Do not freeze. Store in the original carton to protect from light. If 
+necessary, the pre-filled syringe can be removed from the refrigerator and kept in the pack for up to days at room temperature up to 25 C, while protected from light. The date of removal from the 
 refrigerator shall be recorded in the space provided on the outer carton. The pack must be discarded if 
 left out of the refrigerator for more than 14 days or if the expiry date has passed.  </p>
 <p>Do not use this medicine if you notice that the medicine is cloudy, discoloured, or has particles in it. 
@@ -391,7 +391,7 @@ SANOFI WINTHROP INDUSTRIE
 76580 LE TRAIT, 
 FRANCE </p>
 <p>Sanofi-Aventis Deutschland GmbH 
-Brüningstrasse Industriepark Hoechst 
+Br ningstrasse Industriepark Hoechst 
 65926 FRANKFURT AM MAIN 
 GERMANY </p>
 <p>Genzyme Ireland Limited 
@@ -401,22 +401,21 @@ Waterford
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -432,32 +431,31 @@ Nederland
  Sanofi B.V. 
 Tel: + 31 20 245 4 
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94<br />
 Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
 France 
-Sanofi Winthrop IndustrieTél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Sanofi Winthrop IndustrieT l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
+Sanofi - Produtos Farmac uticos, Lda 
 Tel: +351 21 35 89<br />
 Hrvatska<br />
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31  </p>
 <p>Ireland 
@@ -466,10 +464,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -477,10 +475,9 @@ Sanofi S.r.l.
 Tel: 800 536 
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

@@ -4,7 +4,7 @@ Instance: composition-en-fca2b0949c2af4853c1cd5b425813585
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontozry Package Leaflet"
 Description:  "Composition for ontozry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,8 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What ontozry is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontozry contains the active substance cenobamate. It belongs to a group of medicines called ‘anti-
-epileptics’. These medicines are used to treat epilepsy, a condition where someone has seizures or fits 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontozry contains the active substance cenobamate. It belongs to a group of medicines called  anti-
+epileptics . These medicines are used to treat epilepsy, a condition where someone has seizures or fits 
 because of abnormal activity in the brain.  </p>
 <p>Ontozry is used in combination with other antiepileptic medicines in adult patients with epilepsy who 
 have not been adequately controlled despite a history of treatment with at least 2 anti-epileptic 
@@ -94,15 +94,17 @@ section 6).  </li>
 a rare condition called familial short-QT syndrome. </li>
 </ul>
 <p>Warnings and precautions  </p>
-<p>Talk to your doctor or pharmacist before taking Ontozry or during treatment if:<br />
-- you have thoughts of harming or killing yourself. A few people being treated with anti-epileptic 
+<p>Talk to your doctor or pharmacist before taking Ontozry or during treatment if:</p>
+<ul>
+<li>you have thoughts of harming or killing yourself. A few people being treated with anti-epileptic 
 medicines such as Ontozry have had thoughts of harming or killing themselves. If you have any 
-of these thoughts at any time, contact your doctor immediately. 
-- you have a serious skin reaction which may include high temperature and other flu-like 
+of these thoughts at any time, contact your doctor immediately. </li>
+<li>you have a serious skin reaction which may include high temperature and other flu-like 
 symptoms, rash on the face, rash spreading to other parts of the body, swollen glands (enlarged 
 lymph nodes); and blood tests showing increased levels of liver enzymes and of a type of white 
-blood cell (eosinophilia). 
--  </p>
+blood cell (eosinophilia). </li>
+<li></li>
+</ul>
 <p>Children and adolescents </p>
 <p>Ontozry is not recommended in children and adolescents under 18 years, as it was not investigated in 
 this group. </p>
@@ -112,20 +114,22 @@ medicines.
 Taking Ontozry with certain other medicines may affect how the other medicines work or how 
 Ontozry works. Do not start or stop other medicines without talking to your doctor or pharmacist. </p>
 <p>Tell your doctor if you are taking any of the following medicines, as your dose may need to be 
-adjusted: 
-- medicines used to help you fall asleep such as barbiturates and benzodiazepines. 
-- other medicines to treat epilepsy, such as clobazam, phenytoin and phenobarbital, lamotrigine. 
-- birth control medicines (oral contraceptives) as these may be less effective when combined with 
+adjusted:</p>
+<ul>
+<li>medicines used to help you fall asleep such as barbiturates and benzodiazepines. </li>
+<li>other medicines to treat epilepsy, such as clobazam, phenytoin and phenobarbital, lamotrigine. </li>
+<li>birth control medicines (oral contraceptives) as these may be less effective when combined with 
 Ontozry. Your doctor may prescribe alternative methods for preventing pregnancy while you 
-take this medicine and up to 4 weeks after you stop taking this medicine. 
-- medicines, which are known to be transformed in the body by specific groups of enzymes such 
+take this medicine and up to 4 weeks after you stop taking this medicine. </li>
+<li>medicines, which are known to be transformed in the body by specific groups of enzymes such 
 as midazolam (a medicine used to stop prolonged, acute (sudden) convulsive seizures, for 
 sedation and sleep problem), bupropion (a medicine used to help stop smoking),   omeprazole (a 
 medicine used to treat heartburn or stomach ulcer),  baricitinib (a medicine used to treat painful 
 inflammation of the joints or skin eczema), cefaclor (an antibiotic), empagliflozin (a medicine 
 used to treat high blood glucose in diabetes), penicillin G (an antibiotic), ritobegron (a medicine 
 used to treat overactive bladder), sitagliptin (a medicine used to control high blood glucose in 
-diabetes). </p>
+diabetes). </li>
+</ul>
 <p>Ontozry with alcohol  </p>
 <p>Do not take this medicine with alcohol.  Ontozry can increase the effects of alcohol such as feeling 
 tired or sleepy and you should not drink alcohol with this medicine.  </p>
@@ -185,33 +189,41 @@ explain how to stop taking Ontozry by reducing the dose gradually.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately if you have any of the following serious side effects:<br />
-Rare side effects (may affect up to 1 in 1,000 people): 
-- a serious skin reaction which may include fever and other flu-like symptoms, a rash on the face, 
+Rare side effects (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>a serious skin reaction which may include fever and other flu-like symptoms, a rash on the face, 
 rash spreading to other areas of the body, and swollen glands (enlarged lymph nodes). Blood 
 tests may show increased levels of liver enzymes and of a type of white blood cell 
-(eosinophilia). </p>
+(eosinophilia). </li>
+</ul>
 <p>You may get the following other side effects with this medicine. Tell the doctor if you have any of the 
 following: 
-Very common side effects (may affect more than 1 in 10 people):<br />
-- feeling sleepy (somnolence), sedated or very tired (fatigue) 
-- feeling dizzy 
-- spinning sensation (vertigo) 
-- having problems with coordination of movements, having problems walking or keeping your 
-balance (ataxia, gait disturbance, abnormal coordination) 
-- headache </p>
-<p>Common side effects (may affect up to 1 in 10 people):<br />
-- reduced memory, confusion 
-- excitability 
-- having difficulty in saying words or difficulty speaking 
-- rapid and uncontrollable movements of the eyes (nystagmus), blurred vision, double vision 
-- nausea (feeling sick), vomiting, constipation or diarrhoea 
-- dry mouth 
-- rash, itching 
-- swollen eyelids, swollen limbs<br />
-- blood tests showing increases in levels of certain liver enzymes </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- allergic reactions<br />
-- thoughts of harming or killing yourself. </p>
+Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>feeling sleepy (somnolence), sedated or very tired (fatigue) </li>
+<li>feeling dizzy </li>
+<li>spinning sensation (vertigo) </li>
+<li>having problems with coordination of movements, having problems walking or keeping your 
+balance (ataxia, gait disturbance, abnormal coordination) </li>
+<li>headache </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>reduced memory, confusion </li>
+<li>excitability </li>
+<li>having difficulty in saying words or difficulty speaking </li>
+<li>rapid and uncontrollable movements of the eyes (nystagmus), blurred vision, double vision </li>
+<li>nausea (feeling sick), vomiting, constipation or diarrhoea </li>
+<li>dry mouth </li>
+<li>rash, itching </li>
+<li>swollen eyelids, swollen limbs  </li>
+<li>blood tests showing increases in levels of certain liver enzymes </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>allergic reactions  </li>
+<li>thoughts of harming or killing yourself. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -257,48 +269,15 @@ alcohol) (E1203), talc, titanium dioxide (171) </p>
 macrogol, partially hydrolysed poly(vinyl alcohol) (E1203), talc (E553b), titanium dioxide 
 (E171) </p>
 <p>What Ontozry looks like and contents of the pack </p>
-<p>Ontozry 12.5 mg are uncoated round white to off-white tablets with AV on one side and ‘12’ on the 
+<p>Ontozry 12.5 mg are uncoated round white to off-white tablets with AV on one side and  12  on the 
 other side.<br />
-Ontozry 25 mg are round brown film-coated tablets with AV on one side and ‘25’ on the other side. 
-Ontozry 50 mg are round yellow film-coated tablets with AV on one side and ‘50’ on the other side. 
-Ontozry 100 mg are round brown film-coated tablets with AV on one side and ‘100’ on the other side. 
-Ontozry 150 mg are round light orange film-coated tablets with AV on one side and ‘150’ on the other 
+Ontozry 25 mg are round brown film-coated tablets with AV on one side and  25  on the other side. 
+Ontozry 50 mg are round yellow film-coated tablets with AV on one side and  50  on the other side. 
+Ontozry 100 mg are round brown film-coated tablets with AV on one side and  100  on the other side. 
+Ontozry 150 mg are round light orange film-coated tablets with AV on one side and  150  on the other 
 side.<br />
-Ontozry 200 mg are oval light orange film-coated tablets with AV on one side and ‘200’ on the other 
+Ontozry 200 mg are oval light orange film-coated tablets with AV on one side and  200  on the other 
 side.  </p>
 <p>Ontozry Treatment Initiation pack contains 14 tablets of 12.5 mg and 14 film-coated tablets of 25 mg.  </p>
-<p>Ontozry 50 mg, 100 mg, 150 mg and 200 mg film-coated tablets are available in packs of 14, 28 or 84.  </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Angelini Pharma S.p.A 
-Viale Amelia 70, 00Rome – Italy </p>
-<p>Manufacturer </p>
-<p>Swiss Caps GmbH 
-Grassingerstrasse 9 
-83043 Bad Aibling 
-Germany </p>
-<p>Aziende Chimiche Riunite Angelini Francesco ACRAF SPA 
-Via Vecchia del Pinocchio, 22 60Ancona (AN), Italy </p>
-<p>This leaflet was last revised in. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.  </p>
-<p>Annex IV 
-Scientific conclusions and grounds for the variation to the terms of the marketing 
-authorisation(s) </p>
-<p>Scientific conclusions 
-Taking into account the PRAC Assessment Report on the PSUR(s) for cenobamate, the scientific 
-conclusions of PRAC are as follows:<br />
-In view of available data from clinical trials and spontaneous reports, including 11 Individual Case 
-Safety Reports with a close temporal relationship and a positive de-challenge, the PRAC considers a 
-causal relationship between cenobamate and “suicidal ideation” is at least a reasonable possibility. 
-The PRAC concluded that the product information of products containing cenobamate should be 
-amended accordingly. 
-Having reviewed the PRAC recommendation, the CHMP agrees with the PRAC overall 
-conclusions and grounds for recommendation. 
-Grounds for the variation to the terms of the marketing authorisation(s) 
-On the basis of the scientific conclusions for cenobamate the CHMP is of the opinion that the 
-benefit-risk balance of the medicinal product(s) containing cenobamate is unchanged subject to the 
-proposed changes to the product information 
-The CHMP recommends that the terms of the marketing authorisation(s) should be varied. </p>         </div>"""      
+<p>Ontozry 50 mg, 100 mg, 150 mg and 200 mg film-coated tablets are available in packs of 14, 28 or 8</p>         </div>"""      
 

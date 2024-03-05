@@ -4,7 +4,7 @@ Instance: composition-en-02998b2db7fd4b184d980a78d8dee404
 InstanceOf: CompositionUvEpi
 Title: "Composition for adynovi Package Leaflet"
 Description:  "Composition for adynovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,7 +109,7 @@ clotting (coagulation) complications. </p>
 The formation of inhibitors (antibodies) is a known complication that can occur during treatment with 
 all Factor VIII medicines. These inhibitors, especially at high levels, stop the treatment working 
 properly and you or your child will be monitored carefully for the development of these inhibitors. If 
-you or your child´s bleeding is not being controlled with ADYNOVI, tell your doctor immediately. </p>
+you or your child s bleeding is not being controlled with ADYNOVI, tell your doctor immediately. </p>
 <p>Catheter-related complications<br />
 If you require a central venous access device (CVAD), risk of CVAD-related complications including 
 local infections, presence of bacteria in the blood and catheter site thrombosis should be considered. </p>
@@ -178,7 +178,7 @@ scheduled and continue as advised by your doctor. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If severe, sudden allergic reactions (anaphylactic) occur, the injection must be stopped 
 immediately. You must contact your doctor immediately if you have any of the following early 
-symptoms of allergic reactions: </p>
+symptoms of allergic reactions:</p>
 <ul>
 <li>rash, hives, wheals, generalised itching, </li>
 <li>swelling of lips and tongue, </li>
@@ -225,10 +225,10 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). 
+<p>Store in a refrigerator (2  C   8  C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
-<p>During the shelf life the powder vial may be kept at room temperature (up to 30 °C) for a single period 
+<p>During the shelf life the powder vial may be kept at room temperature (up to 30  C) for a single period 
 not exceeding 3 months. In this case, this medicine expires at the end of this 3-month period or the 
 expiry date printed on the product vial, whichever is earlier. Please record the end of the 3-month 
 storage at room temperature on the outer carton. The product may not be returned to refrigerated 
@@ -252,7 +252,7 @@ nominally 250, 500, 1 000, 2 000 or 3 000 IU rurioctocog alfa pegol. </li>
 <li>The solvent vial contains 5 ml of water for injections. </li>
 <li>The other ingredients are mannitol, trehalose dihydrate, histidine, glutathione, sodium chloride, 
 calcium chloride dihydrate, tris(hydroxymethyl)aminomethane and polysorbate 80. See 
-section 2 “ADYNOVI contains sodium”. </li>
+section 2  ADYNOVI contains sodium . </li>
 </ul>
 <p>What ADYNOVI looks like and contents of the pack </p>
 <p>ADYNOVI is provided as a powder and solvent for solution for injection (powder for solution for 
@@ -265,34 +265,32 @@ solution. After reconstitution, the solution is clear, colourless and free from 
 Industriestrasse A-1221 Vienna </p>
 <p>Manufacturer </p>
 <p>Baxalta Belgium Manufacturing SA 
-Boulevard René Branquart B-7860 Lessines 
+Boulevard Ren  Branquart B-7860 Lessines 
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 11<br />
+T l/Tel: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
 Takeda Pharma A/S 
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
-Τakeda HELLAS S.A. 
+ akeda HELLAS S.A. 
 Tel: +30 210 6387800<br />
 medinfoEMEA@takeda.com </p>
 <p>Deutschland 
@@ -307,41 +305,40 @@ Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Τakeda ΕΛΛΑΣ Α.Ε. 
-Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Österreich 
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
 Tel: +43 (0) 800-20 80 50<br />
 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España S.A. 
+<p>Espa a 
+Takeda Farmac utica Espa a S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
 <p>Polska 
 Takeda Pharma Sp. z o.o. 
 Tel.: +48223062medinfoEMEA@takeda.com </p>
 <p>France 
 Takeda France SAS 
-Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
+Takeda Farmac uticos Portugal, Lda. 
 Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
+<p>Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
@@ -350,9 +347,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-Proton Medical (Cyprus) Ltd 
-Τηλ: +357 22866admin@protoncy.com </p>
+<p>Proton Medical (Cyprus) Ltd 
+ : +357 22866admin@protoncy.com </p>
 <p>Sverige 
 Takeda Pharma AB 
 Tel: 020 795 medinfoEMEA@takeda.com </p>

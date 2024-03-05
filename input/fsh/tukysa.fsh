@@ -4,7 +4,7 @@ Instance: composition-en-31b0725ade6496816df8ac216511de2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for tukysa Package Leaflet"
 Description:  "Composition for tukysa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,12 +73,14 @@ TUKYSA is a medicine for breast cancer. It contains the active substance tucatin
 group of medicines called protein kinase inhibitors which prevent the growth of some types of cancer 
 cells in the body. </p>
 <p>What TUKYSA is used for 
-TUKYSA is used for adults who have breast cancer which: 
-- has a receptor (target) on the cancer cells called human epidermal growth factor receptor 2 
-(HER2-positive breast cancer) 
-- has spread beyond the original tumour or to other organs such as the brain or cannot be 
-removed by surgery<br />
-- has previously been treated with certain other breast cancer treatments  </p>
+TUKYSA is used for adults who have breast cancer which:</p>
+<ul>
+<li>has a receptor (target) on the cancer cells called human epidermal growth factor receptor 2 
+(HER2-positive breast cancer) </li>
+<li>has spread beyond the original tumour or to other organs such as the brain or cannot be 
+removed by surgery  </li>
+<li>has previously been treated with certain other breast cancer treatments  </li>
+</ul>
 <p>TUKYSA is taken with two other cancer medicines, trastuzumab and capecitabine. Separate patient 
 information leaflets are available for these medicines. Ask your doctor to tell you about them. </p>
 <p>How TUKYSA works 
@@ -106,7 +108,7 @@ diarrhoea (loose stool) and if your diarrhoea persists with nausea and/or vomiti
 <li>
 <p>TUKYSA may cause harm to an unborn baby when taken by a pregnant woman. Talk to your 
 doctor before you take TUKYSA if you think you may be pregnant or are planning to have a 
-baby. See section on “Pregnancy and breast-feeding” below. </p>
+baby. See section on  Pregnancy and breast-feeding  below. </p>
 </li>
 </ul>
 <p>Children and adolescents 
@@ -118,25 +120,25 @@ medicines. </p>
 <p>Some medicines may affect the way TUKYSA works or TUKYSA may affect the way they work. 
 These medicines include some medicines in the following groups: </p>
 <ul>
-<li>St John’s wort – a herbal product used to treat depression </li>
-<li>itraconazole, ketoconazole, voriconazole, posaconazole – used to treat fungal infections </li>
-<li>rifampicin – used to treat bacterial infections  </li>
-<li>darunavir, saquinavir, tipranavir – used to treat HIV </li>
-<li>phenytoin, carbamazepine – used to treat epilepsy or a painful condition of the face called 
+<li>St John s wort   a herbal product used to treat depression </li>
+<li>itraconazole, ketoconazole, voriconazole, posaconazole   used to treat fungal infections </li>
+<li>rifampicin   used to treat bacterial infections  </li>
+<li>darunavir, saquinavir, tipranavir   used to treat HIV </li>
+<li>phenytoin, carbamazepine   used to treat epilepsy or a painful condition of the face called 
 trigeminal neuralgia or to control serious mood disorder when other medicines do not work </li>
-<li>buspirone– used to treat certain mental health problems </li>
-<li>sirolimus, tacrolimus – used to control your body’s immune response after a transplant </li>
-<li>digoxin – used to treat heart problems </li>
-<li>lomitapide, lovastatin – used to treat abnormal cholesterol levels </li>
-<li>alfentanil – used for pain relief </li>
-<li>avanafil, vardenafil – used to treat erectile dysfunction  </li>
-<li>darifenacin – used to treat urinary incontinence </li>
-<li>midazolam, triazolam –used to treat seizures, anxiety disorders, panic, agitation, and insomnia </li>
-<li>repaglinide – used to treat type 2 diabetes </li>
-<li>ebastine – an antihistamine used to treat seasonal and perennial allergic rhinitis and 
+<li>buspirone  used to treat certain mental health problems </li>
+<li>sirolimus, tacrolimus   used to control your body s immune response after a transplant </li>
+<li>digoxin   used to treat heart problems </li>
+<li>lomitapide, lovastatin   used to treat abnormal cholesterol levels </li>
+<li>alfentanil   used for pain relief </li>
+<li>avanafil, vardenafil   used to treat erectile dysfunction  </li>
+<li>darifenacin   used to treat urinary incontinence </li>
+<li>midazolam, triazolam  used to treat seizures, anxiety disorders, panic, agitation, and insomnia </li>
+<li>repaglinide   used to treat type 2 diabetes </li>
+<li>ebastine   an antihistamine used to treat seasonal and perennial allergic rhinitis and 
 rhino-conjunctivitis. </li>
-<li>everolimus, ibrutinib – used to treat certain cancers </li>
-<li>naloxegol – used to treat to treat constipation </li>
+<li>everolimus, ibrutinib   used to treat certain cancers </li>
+<li>naloxegol   used to treat to treat constipation </li>
 </ul>
 <p>Pregnancy and breast-feeding 
 TUKYSA may cause harmful effects to an unborn baby when taken by a pregnant woman. Your doctor 
@@ -247,13 +249,13 @@ tucatinib.
 The other ingredients are:<br />
 * Tablet core - copovidone, crospovidone, sodium chloride, potassium chloride, sodium hydrogen 
 carbonate, silica, colloidal anhydrous, magnesium stearate, microcrystalline cellulose (see 
-section 2 “TUKYSA contains sodium and potassium”). 
-* Film-coating – poly (vinyl alcohol), titanium dioxide, macrogol, talc, yellow iron oxide. </p>
+section 2  TUKYSA contains sodium and potassium ). 
+* Film-coating   poly (vinyl alcohol), titanium dioxide, macrogol, talc, yellow iron oxide. </p>
 <p>What TUKYSA looks like and contents of the pack<br />
-TUKYSA 50 mg film-coated tablets (tablets) are round, yellow and debossed with “TUC” on one side 
-and “50” on the reverse side.<br />
-TUKYSA 150 mg film-coated tablets (tablets) are oval shaped, yellow, and debossed with “TUC” on 
-one side and “150” on the reverse side.  </p>
+TUKYSA 50 mg film-coated tablets (tablets) are round, yellow and debossed with  TUC  on one side 
+and  50  on the reverse side.<br />
+TUKYSA 150 mg film-coated tablets (tablets) are oval shaped, yellow, and debossed with  TUC  on 
+one side and  150  on the reverse side.  </p>
 <p>TUKYSA is supplied in aluminium foil blisters. Each pack contains:<br />
 TUKYSA 50 mg film-coated tablets<br />
 <em> 88 tablets (11 blisters of 8 tablets each).<br />
@@ -266,63 +268,62 @@ Evert van de Beekstraat 1-1118CL Schiphol<br />
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Seagen B.V. (Nederland/Pays-Bas/Niederlande) 
-Tél/Tel: +32 7848 27 Lietuva 
+T l/Tel: +32 7848 27 Lietuva 
 Swixx Biopharma UAB<br />
-Tel: +370 5 236 9България 
+Tel: +370 5 236 9<br />
 Swixx Biopharma EOOD <br />
-Teл.: +359 2 4942 Luxembourg/Luxemburg 
+Te .: +359 2 4942 Luxembourg/Luxemburg 
 Seagen B.V. (Pays-Bas/Niederlande) 
-Tél/Tel: +352 27 867 Česká republika 
+T l/Tel: +352 27 867  esk  republika 
 Swixx Biopharma s.r.o.<br />
-Tel: +420 242 434 Magyarország 
+Tel: +420 242 434 Magyarorsz g 
 Swixx Biopharma Kft. 
 Tel.: +36 1 9206 Danmark 
 Seagen Denmark ApS 
 Tlf: +45 89 88 83 Malta 
-Genesis Pharma (Cyprus) Ltd (Ċipru/Cyprus) 
+Genesis Pharma (Cyprus) Ltd ( ipru/Cyprus) 
 Tel: +357 22 765Deutschland 
 Seagen Germany GmbH 
 Tel: +49 893 803 6Nederland 
 Seagen B.V. 
 Tel: +31 202 419Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 1Norge 
 Seagen B.V. (Nederland) 
-Tlf: +45 89 88 83 Ελλάδα 
-ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε<br />
-Τηλ: +30 210 87 71 Österreich 
+Tlf: +45 89 88 83 <br />
+     . <br />
+ : +30 210 87 71  sterreich 
 Seagen B.V. (Niederlande) 
-Tel: (+43) 720 778España 
+Tel: (+43) 720 778Espa a 
 Seagen Spain S.L.U. 
 Tel: (+34) 919 011 Polska 
 Swixx Biopharma Sp.z o.o. 
 Tel.: +48 22 460 07 France 
 Seagen France SAS 
-Tél: +33 184 88 80 Portugal 
-Seagen B.V. (Países Baixos) 
+T l: +33 184 88 80 Portugal 
+Seagen B.V. (Pa ses Baixos) 
 Tel: (+351) 211 451 Hrvatska 
 Swixx Biopharma d.o.o.<br />
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Swixx Biopharma S.R.L. 
 Tel: +40 371 530 Ireland 
 Seagen B.V. (Netherlands) 
 Tel: +353 1903 9Slovenija 
 Swixx Biopharma d.o.o.<br />
-Tel: +386 1 2355 Ísland 
+Tel: +386 1 2355  sland 
 Seagen B.V. (Holland) 
-Sími: +354 539 0Slovenská republika 
+S mi: +354 539 0Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 20833 Italia 
 Seagen Italy S.r.l. 
 Tel: (+39) 02 82952Suomi/Finland 
-Seagen B.V. (Alankomaat/Nederländerna) 
-Puh/Tel: +358 753 252<br />
-Κύπρος 
-Genesis Pharma (Cyprus) Ltd<br />
-Τηλ: +357 22 765Sverige 
-Seagen B.V. (Nederländerna) 
+Seagen B.V. (Alankomaat/Nederl nderna) 
+Puh/Tel: +358 753 252  </p>
+<p>Genesis Pharma (Cyprus) Ltd<br />
+ : +357 22 765Sverige 
+Seagen B.V. (Nederl nderna) 
 Tel: (+46) 108 885 Latvija 
 Swixx Biopharma SIA<br />
 Tel: +371 6 6164 United Kingdom (Northern Ireland) 

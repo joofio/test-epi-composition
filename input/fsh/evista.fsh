@@ -4,7 +4,7 @@ Instance: composition-en-e3c8c4151821eafa3b8558a4b1967125
 InstanceOf: CompositionUvEpi
 Title: "Composition for evista Package Leaflet"
 Description:  "Composition for evista Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -227,78 +227,5 @@ hydrochloride, which is equivalent to 56 mg raloxifene. </p>
 </ul>
 <p>Tablet Core: Povidone, polysorbate 80, anhydrous lactose, lactose monohydrate, crospovidone, 
 magnesium stearate.<br />
-Tablet coating: Titanium dioxide (E 171), polysorbate 80, hypromellose, macrogol 400.<br />
-What Evista looks like and contents of the pack 
-Evista are white, oval, film coated tablets. They are packed in blisters or in plastic bottles. The blister 
-boxes contain 14, 28 or 84 tablets. The bottles contain 100 tablets. Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-SUBSTIPHARM, 24 rue Erlanger, 75016 Paris, France. </p>
-<p>Manufacturer 
-- INPHARMASCI, ZI N°2 de Prouvy-Rouvignies, 1 rue de Nungesser, 59121 Prouvy, France. </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/ Belgien 
-SUBSTIPHARM 
-Tél/Tel: 080077Lietuva 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 България 
-SUBSTIPHARM 
-Тел.: +33 1 43 18 13 Luxembourg/Luxemburg 
-SUBSTIPHARM 
-Tél/Tel: 80024Česká republika 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Magyarország 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Danmark 
-SUBSTIPHARM 
-Tlf: +33 1 43 18 13 Malta 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Deutschland 
-SUBSTIPHARM 
-Tel: 08001801Nederland 
-SUBSTIPHARM 
-Tel: 08000228Eesti 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Norge 
-SUBSTIPHARM 
-Tlf: +33 1 43 18 13 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ ΕΛΛΑΣ 
-Τηλ: +30 210 620 8Österreich 
-SUBSTIPHARM 
-Tel: 0800298España 
-SUBSTIPHARM 
-Tel: 900993Polska 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 France 
-SUBSTIPHARM 
-Tél: +33 1 43 18 13 Portugal 
-SUBSTIPHARM 
-Tel: 800833Hrvatska 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 România 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Ireland 
-SUBSTIPHARM 
-Tel: 1800300Slovenija 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Ísland 
-SUBSTIPHARM 
-Simi: +33 1 43 18 13 Slovenská republika 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Italia 
-SUBSTIPHARM 
-Tel: 800780Suomi/Finland 
-SUBSTIPHARM 
-Puh./Tel: +33 1 43 18 13 Κύπρος 
-SUBSTIPHARM 
-Τηλ: +33 1 43 18 13 Sverige 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13 Latvija 
-SUBSTIPHARM 
-Tel.: +33 1 43 18 13 United Kingdom (Northern Ireland) 
-SUBSTIPHARM 
-Tel: +33 1 43 18 13<br />
-This leaflet was last revised in month YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency (EMA) web 
-site: http://www.ema.europa.eu </p>         </div>"""      
+Tablet coating: Titanium dioxide (E 171), polysorbate 80, hypromellose, macrogol 40</p>         </div>"""      
 

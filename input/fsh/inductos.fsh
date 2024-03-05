@@ -4,7 +4,7 @@ Instance: composition-en-68588d80929659cac3a8c39a378eb3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for inductos Package Leaflet"
 Description:  "Composition for inductos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,12 +56,11 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
  
 1. What InductOs is and what it is used for 
-2. What you need to know before you receive InductOs 
+2. What you need to know before you receive  InductOs 
 3. How InductOs is given 
 4. Possible side effects 
 5. How to store InductOs 
-6. Contents of the pack and other information  
-         </div>"""   
+6. Contents of the pack and other information           </div>"""   
           
 
 * section[=].section[+]
@@ -98,11 +97,11 @@ medicine (listed in section 6).
 * if you are still growing (skeletally immature). 
 * if you have an active infection at the surgery site. 
 * if the doctor treating you decides that you have inadequate blood supply at the fracture site. 
-* for treating a fracture that is disease-related (e.g., fractures due to Paget’s disease or cancer). 
+* for treating a fracture that is disease-related (e.g., fractures due to Paget s disease or cancer). 
 * if you have been diagnosed with or are being treated for cancer. </p>
 <p>Warnings and precautions to be discussed with your doctor 
 * You should inform your doctor if you have an autoimmune disease, such as rheumatoid 
-arthritis, systemic lupus erythematosus, scleroderma, Sjögren's syndrome or 
+arthritis, systemic lupus erythematosus, scleroderma, Sj gren's syndrome or 
 dermatomyositis/polymyositis.<br />
 <em> You should inform your doctor if you have any bone disease. 
 * You should inform your doctor of any history of cancer. 
@@ -137,7 +136,7 @@ with side effects, such as allergies, nor was it shown to decrease the effective
 think you have an allergic reaction to collagen, contact your doctor. </p>
 <p>InductOs contains sodium 
 This medicine contains less than 1 mmol (23 mg) sodium per maximum dose (two 12 mg packs), i.e. it 
-is essentially ‘sodium-free’. </p>         </div>"""   
+is essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inductos"

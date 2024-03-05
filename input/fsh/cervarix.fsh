@@ -4,7 +4,7 @@ Instance: composition-en-115d908e795ff40926f89a9e90717eae
 InstanceOf: CompositionUvEpi
 Title: "Composition for cervarix Package Leaflet"
 Description:  "Composition for cervarix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,12 +55,11 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
 1. What Cervarix is and what it is used for 
-2. What you need to know before you receive Cervarix 
+2. What you need to know before you receive  Cervarix 
 3. How Cervarix is given 
 4. Possible side effects 
 5. How to store Cervarix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -70,19 +69,18 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cervarix is a vaccine intended to protect from the age of 9 years against the diseases caused by 
 infection with Human Papillomaviruses (HPV). </p>
-<p>These diseases include: 
-- cervical cancer (cancer of the cervix i.e. lower part of the uterus or womb) and anal cancer,<br />
-- precancerous cervical, vulvar, vaginal and anal lesions (changes in genital or anal cells that have a 
-risk of turning into cancer). </p>
+<p>These diseases include:</p>
+<ul>
+<li>cervical cancer (cancer of the cervix i.e. lower part of the uterus or womb) and anal cancer,  </li>
+<li>precancerous cervical, vulvar, vaginal and anal lesions (changes in genital or anal cells that have a 
+risk of turning into cancer). </li>
+</ul>
 <p>The Human Papillomavirus (HPV) types contained in the vaccine (HPV types 16 and 18) are 
 responsible for approximately 70% of cervical cancers, 90% of anal cancers, 70% of HPV-related pre-
 cancerous lesions of the vulva and vagina and 78% of HPV-related pre-cancerous lesions of the anus. 
 Other HPV types can also cause ano-genital cancers. Cervarix does not protect against all HPV types. </p>
-<p>When a female or a male individual is vaccinated with Cervarix, the immune system (the body’s 
-natural defence system) will make antibodies against HPV types 16 and 18.<br />
-Cervarix is not infectious and so, it cannot cause HPV related diseases. </p>
-<p>Cervarix is not used to treat HPV related diseases already present at the time of vaccination. </p>
-<p>Cervarix should be used in accordance with official guidelines. </p>         </div>"""   
+<p>When a female or a male individual is vaccinated with Cervarix, the immune system (the body s 
+natural defence system) will make antibodies against HPV types 16 and 1</p>         </div>"""   
           
 
              
@@ -90,6 +88,15 @@ Cervarix is not infectious and so, it cannot cause HPV related diseases. </p>
   * title = "2. What you need to know before you take cervarix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take cervarix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cervarix is not infectious and so, it cannot cause HPV related diseases. </p>
+<p>Cervarix is not used to treat HPV related diseases already present at the time of vaccination. </p>
+<p>Cervarix should be used in accordance with official guidelines. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cervarix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cervarix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cervarix should not be given:  </p>
 <ul>
@@ -110,7 +117,7 @@ tell the doctor or nurse if you or your child fainted with a previous injection.
 <p>Cervarix does not protect people from diseases caused by infection with HPV types 16 or 18 if they 
 are already infected with Human Papillomavirus type 16 or 18 at the time of vaccination. </p>
 <p>Although vaccination may protect you against cervical cancer, it is not a substitute for regular cervical 
-screening. You should continue to follow your doctor’s advice on cervical smear/Pap test (test to 
+screening. You should continue to follow your doctor s advice on cervical smear/Pap test (test to 
 screen for changes in cells of the cervix caused by an HPV infection) and preventative and protective 
 measures. </p>
 <p>As Cervarix will not protect against all types of Human Papillomavirus, appropriate precautions 
@@ -136,13 +143,14 @@ ask your doctor for advice before you are given this vaccine. </p>
 Cervarix is not likely to affect your ability to drive or use machines. However, do not drive or use any 
 machines if you are feeling unwell. </p>
 <p>Cervarix contains sodium chloride. </p>
-<p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium-
-free”. </p>         </div>"""   
-                    
+<p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take cervarix"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cervarix"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How the vaccine is given 
 The doctor or nurse will give Cervarix as an injection into the muscle of the upper arm.  </p>
@@ -168,64 +176,46 @@ against HPV) be given for the complete vaccination course. </p>
 It is important that you follow the instructions of your doctor or nurse regarding return visits. If you 
 forget to go back to your doctor at the scheduled time, ask your doctor for advice. </p>
 <p>If you do not finish the complete vaccination course (two or three injections depending on your age at 
-vaccination), you may not get the best response and protection from the vaccination. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. </p>
-<p>Side effects that occurred during clinical trials with Cervarix were as follows: </p>
-<p>♦ 
-Very common (side effects which may occur in more than 1 per 10 doses of vaccine): 
-* pain or discomfort at the injection site 
-* redness or swelling at the injection site 
-* headache 
-* aching muscles, muscle tenderness or weakness (not caused by exercise) 
-* tiredness </p>
-<p>♦ 
-Common (side effects which may occur in less than 1 per 10 but more than 1 per 100 doses of 
-vaccine):<br />
-* gastrointestinal symptoms including nausea, vomiting, diarrhoea and abdominal pain 
-* itching, red skin rash, hives (urticaria) 
-* joint pain 
-* fever (≥38°C) </p>
-<p>♦ 
-Uncommon (side effects which may occur in less than 1 per 100 but more than 1 per 1,doses of vaccine): 
-* upper respiratory tract infection (infection of the nose, throat or trachea) 
-* dizziness 
-* other injection site reactions such as hard lump, tingling or numbness. </p>
-<p>Side effects that have been reported during marketed use of Cervarix include: </p>
-<p>• allergic reactions. These can be recognised by: 
-itchy rash of the hands and feet, 
-swelling of the eyes and face, 
-difficulty in breathing or swallowing, 
-sudden drop in blood pressure and loss of consciousness. 
-These reactions will usually occur before leaving the doctor’s surgery.  However, if your child gets 
-any of these symptoms you should contact a doctor urgently. 
-• swollen glands in the neck, armpit or groin 
-• fainting sometimes accompanied by shaking or stiffness. </p>
-<p>Reporting of side effects 
-If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+vaccination), you may not get the best response and protection from the vaccination. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cervarix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store cervarix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
-<p>Do not use this vaccine after the expiry date which is stated on the carton. The expiry date refers to the 
-last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
-Do not freeze.<br />
-Store in the original package in order to protect from light. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. </p>
+<p>Side effects that occurred during clinical trials with Cervarix were as follows: </p>
+<p>Very common (side effects which may occur in more than 1 per 10 doses of vaccine): 
+* pain or discomfort at the injection site 
+* redness or swelling at the injection site 
+* headache 
+* aching muscles, muscle tenderness or weakness (not caused by exercise) 
+* tiredness </p>
+<p>Common (side effects which may occur in less than 1 per 10 but more than 1 per 100 doses of 
+vaccine):<br />
+* gastrointestinal symptoms including nausea, vomiting, diarrhoea and abdominal pain 
+* itching, red skin rash, hives (urticaria) 
+* joint pain 
+* fever ( 38 C) </p>
+<p>Uncommon (side effects which may occur in less than 1 per 100 but more than 1 per 1,doses of vaccine): 
+* upper respiratory tract infection (infection of the nose, throat or trachea) 
+* dizziness 
+* other injection site reactions such as hard lump, tingling or numbness. </p>
+<p>Side effects that have been reported during marketed use of Cervarix include: </p>
+<p>allergic reactions. These can be recognised by: 
+itchy rash of the hands and feet, 
+swelling of the eyes and face, 
+difficulty in breathing or swallowing, 
+sudden drop in blood pressure and loss of consciousness. 
+These reactions will usually occur before leaving the doctor s surgery.  However, if your child gets 
+any of these symptoms you should contact a doctor urgently. 
+  swollen glands in the neck, armpit or groin 
+  fainting sometimes accompanied by shaking or stiffness. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -233,17 +223,12 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cervarix contains </p>
-<ul>
-<li>The active substances are: </li>
-</ul>
-<p>Human Papillomavirus1 type 16 L1 protein2,3,4 
-20 micrograms 
-Human Papillomavirus1 type 18 L1 protein2,3,4 
-20 micrograms </p>
-<p>1Human Papillomavirus = HPV </p>
-<p>2adjuvanted by AS04 containing: 
-3-O-desacyl-4’- monophosphoryl lipid A (MPL)3 
-50 micrograms </p>
-<p>3adsorbed on aluminium hydroxide, hydrated (Al(OH)3)  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
+<p>Do not use this vaccine after the expiry date which is stated on the carton. The expiry date refers to the 
+last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). 
+Do not freeze.<br />
+Store in the original package in order to protect from light. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
 

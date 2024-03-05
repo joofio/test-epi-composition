@@ -4,7 +4,7 @@ Instance: composition-en-656032a84c2935003bb3f7376e124521
 InstanceOf: CompositionUvEpi
 Title: "Composition for apixaban Package Leaflet"
 Description:  "Composition for apixaban Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,14 +72,16 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apixaban Accordcontains the active substance apixaban and belongs to a group of medicines called 
 anticoagulants. This medicine helps to prevent blood clots from forming by blocking Factor Xa, which 
 is an important component of blood clotting. </p>
-<p>Apixaban Accord is used in adults: 
-- to prevent blood clots (deep vein thrombosis [DVT]) from forming after hip or knee replacement 
+<p>Apixaban Accord is used in adults:</p>
+<ul>
+<li>
+<p>to prevent blood clots (deep vein thrombosis [DVT]) from forming after hip or knee replacement 
 operations. After an operation to the hip or knee you may be at a higher risk of developing blood 
 clots in your leg veins. This can cause the legs to swell, with or without pain. If a blood clot travels 
 from your leg to your lungs, it can block blood flow causing breathlessness, with or without chest 
 pain. This condition (pulmonary embolism) can be life-threatening and requires immediate medical 
 attention. </p>
-<ul>
+</li>
 <li>
 <p>to prevent a blood clot from forming in the heart in patients with an irregular heart beat (atrial 
 fibrillation) and at least one additional risk factor. Blood clots may break off and travel to the brain 
@@ -101,28 +103,28 @@ your legs and/or lungs. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take apixaban"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Apixaban Accordif: 
-- you are allergic to apixaban or any of the other ingredients of this medicine (listed in section 6) 
-- you are bleeding excessively 
-- you have a disease in an organ of the body that increases the risk of serious bleeding (such as an 
-active or a recent ulcer of your stomach or bowel, recent bleeding in your brain) 
-- you have a liver disease which leads to increased risk of bleeding (hepatic coagulopathy) 
-- you are taking medicines to prevent blood clotting (e.g., warfarin, rivaroxaban, dabigatran or 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Apixaban Accordif:</p>
+<ul>
+<li>you are allergic to apixaban or any of the other ingredients of this medicine (listed in section 6) </li>
+<li>you are bleeding excessively </li>
+<li>you have a disease in an organ of the body that increases the risk of serious bleeding (such as an 
+active or a recent ulcer of your stomach or bowel, recent bleeding in your brain) </li>
+<li>you have a liver disease which leads to increased risk of bleeding (hepatic coagulopathy) </li>
+<li>you are taking medicines to prevent blood clotting (e.g., warfarin, rivaroxaban, dabigatran or 
 heparin), except when changing anticoagulant treatment, while having a venous or arterial line and 
 you get heparin through this line to keep it open, or if a tube is inserted into your blood vessel 
-(catheter ablation) to treat an irregular heartbeat (arrhythmia). </p>
+(catheter ablation) to treat an irregular heartbeat (arrhythmia). </li>
+</ul>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor, pharmacist or nurse before you take this medicine if you have any of the 
-following: 
-- an increased risk of bleeding, such as: 
- 
-bleeding disorders, including conditions resulting in reduced platelet activity 
- 
-very high blood pressure, not controlled by medical treatment 
- 
-you are older than 75 years 
- 
-you weigh 60 kg or less </p>
+following:</p>
+<ul>
+<li>an increased risk of bleeding, such as: </li>
+</ul>
+<p>bleeding disorders, including conditions resulting in reduced platelet activity </p>
+<p>very high blood pressure, not controlled by medical treatment </p>
+<p>you are older than 75 years </p>
+<p>you weigh 60 kg or less </p>
 <ul>
 <li>a severe kidney disease or if you are on dialysis </li>
 <li>a liver problem or a history of liver problems<br />
@@ -151,21 +153,25 @@ medicines. </p>
 Your doctor will decide, if you should be treated with Apixaban Accord when taking these medicines 
 and how closely you should be monitored. </p>
 <p>The following medicines may increase the effects of Apixaban Accordand increase the chance for 
-unwanted bleeding: 
-- some medicines for fungal infections (e.g., ketoconazole,.) 
-- some antiviral medicines for HIV / AIDS (e.g., ritonavir) 
-- other medicines that are used to reduce blood clotting (e.g., enoxaparin,) 
-- anti-inflammatory or pain medicines (e.g., acetylsalicylic acid or naproxen). Especially, if you 
+unwanted bleeding:</p>
+<ul>
+<li>some medicines for fungal infections (e.g., ketoconazole,.) </li>
+<li>some antiviral medicines for HIV / AIDS (e.g., ritonavir) </li>
+<li>other medicines that are used to reduce blood clotting (e.g., enoxaparin,) </li>
+<li>anti-inflammatory or pain medicines (e.g., acetylsalicylic acid or naproxen). Especially, if you 
 are older than 75 years and are taking acetylsalicylic acid, you may have an increased chance of 
-bleeding. 
-- medicines for high blood pressure or heart problems (e.g., diltiazem) 
-- antidepressant medicines called selective serotonin re-uptake inhibitors or serotonin 
-norepinephrine re-uptake inhibitors </p>
+bleeding. </li>
+<li>medicines for high blood pressure or heart problems (e.g., diltiazem) </li>
+<li>antidepressant medicines called selective serotonin re-uptake inhibitors or serotonin 
+norepinephrine re-uptake inhibitors </li>
+</ul>
 <p>The following medicines may reduce the ability of Apixaban Accord  to help prevent blood clots from 
-forming: 
-- medicines to prevent epilepsy or seizures (e.g., phenytoin,) 
-- St John’s Wort (a herbal supplement used for depression) 
-- medicines to treat tuberculosis or other infections (e.g., rifampicin) </p>
+forming:</p>
+<ul>
+<li>medicines to prevent epilepsy or seizures (e.g., phenytoin,) </li>
+<li>St John s Wort (a herbal supplement used for depression) </li>
+<li>medicines to treat tuberculosis or other infections (e.g., rifampicin) </li>
+</ul>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor, pharmacist or nurse for advice before taking this medicine. </p>
@@ -216,18 +222,16 @@ If you have had a major knee operation you will usually take the tablets for 10 
 <p>To prevent a blood clot from forming in the heart in patients with an irregular heart beat and at least 
 one additional risk factor. </p>
 <p>The recommended dose is one tablet of Apixaban Accord 5 mg twice a day. </p>
-<p>The recommended dose is one tablet of Apixaban Accord2.5 mg twice a day if: 
--  you have severely reduced kidney function 
-- two or more of the following apply to you: 
-- your blood test results suggest poor kidney function (value of serum creatinine is </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<p>The recommended dose is one tablet of Apixaban Accord2.5 mg twice a day if:</p>
+<ul>
+<li>you have severely reduced kidney function </li>
+<li>
+<p>two or more of the following apply to you:</p>
+</li>
+<li>
+<p>your blood test results suggest poor kidney function (value of serum creatinine is 
+1.5 mg/dL (133 micromole/L) or greater) </p>
+</li>
 <li>you are 80 years old or older </li>
 <li>your weight is 60 kg or lower. </li>
 </ul>
@@ -242,7 +246,7 @@ one in the morning and one in the evening.  </p>
 <p>The recommended dose is one tablet of Apixaban Accord 2.5 mg twice a day for example, one in the 
 morning and one in the evening.<br />
 Your doctor will decide how long you must continue treatment for. </p>
-<p>Your doctor might change your anticoagulant treatment as follows: </p>
+<p>Your doctor might change your anticoagulant treatment as follows:</p>
 <ul>
 <li>
 <p>Changing from Apixaban Accord to anticoagulant medicines 
@@ -280,8 +284,12 @@ bleeding occurs, surgery,  blood transfusions or other treatments that may rever
 activity may be required. </p>
 <p>If you forget to take Apixaban Accord </p>
 <ul>
-<li>Take the dose as soon as you remember and: </li>
-<li>take the next dose of Apixaban Accordat the usual time </li>
+<li>
+<p>Take the dose as soon as you remember and:</p>
+</li>
+<li>
+<p>take the next dose of Apixaban Accordat the usual time </p>
+</li>
 <li>then continue as normal. </li>
 </ul>
 <p>If you are not sure what to do or have missed more than one dose, ask your doctor, pharmacist or 
@@ -289,12 +297,13 @@ nurse. </p>
 <p>If you stop taking Apixaban Accord </p>
 <p>Do not stop taking this medicine without talking to your doctor first, because the risk of developing a 
 blood clot could be higher if you stop treatment too early. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store apixaban"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store apixaban"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Apixaban 
 Accord can be given for three different medical conditions. The known side effects and how 
@@ -306,23 +315,35 @@ forming after hip or knee replacement operations. </p>
 <p>Common side effects (may affect up to 1 in 10 people) </p>
 <ul>
 <li>Anaemia which may cause tiredness or paleness </li>
-<li>Bleeding including: </li>
-<li>bruising and swelling </li>
+<li>
+<p>Bleeding including:</p>
+</li>
+<li>
+<p>bruising and swelling </p>
+</li>
 <li>Nausea (feeling sick) </li>
 </ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people) </p>
 <ul>
 <li>Reduced number of platelets in your blood (which can affect clotting) </li>
-<li>Bleeding: </li>
-<li>occurring after your operation including bruising and swelling, blood or liquid leaking from 
-the surgical wound/incision (wound secretion) or injection site </li>
+<li>
+<p>Bleeding:</p>
+</li>
+<li>
+<p>occurring after your operation including bruising and swelling, blood or liquid leaking from 
+the surgical wound/incision (wound secretion) or injection site </p>
+</li>
 <li>in your stomach, bowel or bright/red blood in the stools </li>
 <li>blood in the urine </li>
 <li>from your nose </li>
 <li>from the vagina </li>
 <li>Low blood pressure which may make you feel faint or have a quickened heartbeat </li>
-<li>Blood tests may show: </li>
-<li>abnormal liver function </li>
+<li>
+<p>Blood tests may show:</p>
+</li>
+<li>
+<p>abnormal liver function </p>
+</li>
 <li>an increase in some liver enzymes </li>
 <li>an increase in bilirubin, a breakdown product of red blood cells, which can cause yellowing 
 of the skin and eyes. </li>
@@ -333,8 +354,12 @@ of the skin and eyes. </li>
 <li>Allergic reactions (hypersensitivity) which may cause: swelling of the face, lips, mouth, tongue 
 and/or throat and difficulty breathing. Contact your doctor immediately if you experience any of 
 these symptoms. </li>
-<li>Bleeding: </li>
-<li>into a muscle </li>
+<li>
+<p>Bleeding:</p>
+</li>
+<li>
+<p>into a muscle </p>
+</li>
 <li>in your eyes </li>
 <li>from your gums and blood in your spit when coughing </li>
 <li>from your rectum </li>
@@ -342,8 +367,12 @@ these symptoms. </li>
 </ul>
 <p>Not known (frequency cannot be estimated from the available data) </p>
 <ul>
-<li>Bleeding: </li>
-<li>in your brain or in your spinal column,  </li>
+<li>
+<p>Bleeding:</p>
+</li>
+<li>
+<p>in your brain or in your spinal column,  </p>
+</li>
 <li>in your lungs or your throat </li>
 <li>in your mouth </li>
 <li>into your abdomen or space behind your abdominal cavity </li>
@@ -358,8 +387,12 @@ spots under the skin's surface or bruising </li>
 forming in the heart in patients with an irregular heart beat and at least one additional risk factor. </p>
 <p>Common side effects (may affect up to 1 in 10 people) </p>
 <ul>
-<li>Bleeding including: </li>
-<li>in your eyes </li>
+<li>
+<p>Bleeding including:</p>
+</li>
+<li>
+<p>in your eyes </p>
+</li>
 <li>in your stomach or bowel </li>
 <li>from your rectum </li>
 <li>blood in the urine </li>
@@ -369,13 +402,21 @@ forming in the heart in patients with an irregular heart beat and at least one a
 <li>Anaemia which may cause tiredness or paleness </li>
 <li>Low blood pressure which may make you feel faint or have a quickened heartbeat </li>
 <li>Nausea (feeling sick) </li>
-<li>Blood tests may show: </li>
-<li>an increase in gamma-glutamyltransferase (GGT) </li>
+<li>
+<p>Blood tests may show:</p>
+</li>
+<li>
+<p>an increase in gamma-glutamyltransferase (GGT) </p>
+</li>
 </ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people) </p>
 <ul>
-<li>Bleeding: </li>
-<li>in your brain or in your spinal column </li>
+<li>
+<p>Bleeding:</p>
+</li>
+<li>
+<p>in your brain or in your spinal column </p>
+</li>
 <li>in your mouth or blood in your spit when coughing </li>
 <li>into your abdomen, or from the vagina </li>
 <li>bright/red blood in the stools </li>
@@ -384,8 +425,12 @@ leaking from the surgical wound/incision (wound secretion) or injection site </l
 <li>from a haemorrhoid </li>
 <li>tests showing blood in the stools or in the urine </li>
 <li>Reduced number of platelets in your blood (which can affect clotting) </li>
-<li>Blood tests may show: </li>
-<li>abnormal liver function </li>
+<li>
+<p>Blood tests may show:</p>
+</li>
+<li>
+<p>abnormal liver function </p>
+</li>
 <li>an increase in some liver enzymes </li>
 <li>an increase in bilirubin, a breakdown product of red blood cells, which can cause yellowing 
 of the skin and eyes </li>
@@ -398,8 +443,12 @@ these symptoms. </li>
 </ul>
 <p>Rare side effects (may affect up to 1 in 1,000 people) </p>
 <ul>
-<li>Bleeding: </li>
-<li>in your lungs or your throat </li>
+<li>
+<p>Bleeding:</p>
+</li>
+<li>
+<p>in your lungs or your throat </p>
+</li>
 <li>into the space behind your abdominal cavity </li>
 <li>into a muscle </li>
 </ul>
@@ -413,8 +462,12 @@ spots under the skin's surface or bruising. </p>
 blood clots in the veins of your legs and blood clots in the blood vessels of your lungs. </p>
 <p>Common side effects (may affect up to 1 in 10 people) </p>
 <ul>
-<li>Bleeding including: </li>
-<li>from your nose </li>
+<li>
+<p>Bleeding including:</p>
+</li>
+<li>
+<p>from your nose </p>
+</li>
 <li>from your gums </li>
 <li>blood in the urine  </li>
 <li>bruising and swelling </li>
@@ -425,14 +478,22 @@ blood clots in the veins of your legs and blood clots in the blood vessels of yo
 <li>Reduced number of platelets in your blood (which can affect clotting) </li>
 <li>Nausea (feeling sick) </li>
 <li>Skin rash </li>
-<li>Blood tests may show: </li>
-<li>an increase in gamma-glutamyltransferase (GGT) or alanine aminotransferase (ALT) </li>
+<li>
+<p>Blood tests may show:</p>
+</li>
+<li>
+<p>an increase in gamma-glutamyltransferase (GGT) or alanine aminotransferase (ALT) </p>
+</li>
 </ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people) </p>
 <ul>
 <li>Low blood pressure which may make you feel faint or have a quickened heartbeat </li>
-<li>Bleeding: </li>
-<li>in your eyes </li>
+<li>
+<p>Bleeding:</p>
+</li>
+<li>
+<p>in your eyes </p>
+</li>
 <li>in your mouth or blood in your spit when coughing </li>
 <li>bright/red blood in the stools </li>
 <li>tests showing blood in the stools or in the urine </li>
@@ -445,34 +506,41 @@ leaking from the surgical wound/incision (wound secretion) or injection site </l
 <li>Allergic reactions (hypersensitivity) which may cause: swelling of the face, lips, mouth, tongue 
 and/or throat and difficulty breathing. Contact your doctor immediately if you experience any of 
 these symptoms. </li>
-<li>Blood tests may show: </li>
-<li>abnormal liver function </li>
+<li>
+<p>Blood tests may show:</p>
+</li>
+<li>
+<p>abnormal liver function </p>
+</li>
 <li>an increase in some liver enzymes </li>
 <li>an increase in bilirubin, a breakdown product of red blood cells, which can cause yellowing 
 of the skin and eyes. </li>
 </ul>
 <p>Rare side effects (may affect up to 1 in 1,000 people) </p>
-<p>Bleeding: 
-- in your brain or in your spinal column 
-- in your lungs </p>
+<p>Bleeding:</p>
+<ul>
+<li>in your brain or in your spinal column </li>
+<li>in your lungs </li>
+</ul>
 <p>Not known (frequency cannot be estimated from the available data) </p>
-<p>Bleeding: 
-- into your abdomen or the space behind your abdominal cavity 
-- Skin rash which may form blisters and looks like small targets (central dark spots surrounded by a 
-paler area, with a dark ring around the edge) (erythema multiforme). 
-- Blood vessel inflammation (vasculitis) which may result in skin rash or pointed, flat, red, round spots 
-under the skin's surface or bruising. </p>
+<p>Bleeding:</p>
+<ul>
+<li>into your abdomen or the space behind your abdominal cavity </li>
+<li>Skin rash which may form blisters and looks like small targets (central dark spots surrounded by a 
+paler area, with a dark ring around the edge) (erythema multiforme). </li>
+<li>Blood vessel inflammation (vasculitis) which may result in skin rash or pointed, flat, red, round spots 
+under the skin's surface or bruising. </li>
+</ul>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store apixaban"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store apixaban"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on blister after EXP. 
@@ -480,4 +548,100 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Apixaban Accord contains </p>
+<ul>
+<li>The active substance is apixaban. Each tablet contains 2.5 mg of apixaban. </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>Tablet core: Lactose (see section 2), cellulose microcrystalline, croscarmellose sodium, 
+sodium laurilsulfate, magnesium stearate  </p>
+</li>
+<li>Film coat: Lactose monohydrate (see section 2), hypromellose, titanium dioxide 
+(E171), triacetin, iron oxide yellow (E172) </li>
+</ul>
+<p>What Apixaban Accord looks like and contents of the pack </p>
+<p>The film-coated tablets are yellow, round shaped, biconvex, film coated tablet debossed with  IU1  on 
+one side and plain on the other side. </p>
+<p>PVC/PVdC-Aluminium blisters are available in 10, 14, 20, 28, 56, 60, 100, 112, 168, and 
+200 film-coated tablets. </p>
+<p>PVC/PVdC-Aluminium blisters are available in perforated unit dose blisters of 10 x 1, 20 x 1, 28 x 1, 
+56 x 1, 60 x 1, 100 x 1 and 168 x 1 film-coated tablet. </p>
+<p>HDPE bottle with polypropylene child resistant/continues threaded closure containing 60, 100, 168, 180, 
+200 and 1,000 film-coated tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Patient Alert Card: handling information </p>
+<p>Inside the Apixaban Accordpack together with the package leaflet you will find a Patient Alert Card or 
+your doctor might give you a similar card. </p>
+<p>This Patient Alert Card includes information that will be helpful to you and alert other doctors that you 
+are taking Apixaban Accord. You should keep this card with you at all times. </p>
+<ol>
+<li>Take the card </li>
+<li>Separate your language as needed (this is facilitated by the perforated edges) </li>
+<li>
+<p>Complete the following sections or ask your doctor to do it:</p>
+</li>
+<li>
+<p>Name:</p>
+</li>
+<li>
+<p>Birth Date:</p>
+</li>
+<li>
+<p>Indication:</p>
+</li>
+<li>
+<p>Dose :  ........mg twice daily </p>
+</li>
+<li>
+<p>Doctor's Name:</p>
+</li>
+<li>
+<p>Doctor's telephone: </p>
+</li>
+<li>
+<p>Fold the card and keep it with you at all times 
+Marketing Authorisation Holder and Manufacturer </p>
+</li>
+</ol>
+<p>Marketing Authorisation Holder </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n, 
+Edifici Est, 6a Planta, 
+08039 Barcelona, 
+Spain </p>
+<p>Manufacturer 
+LABORATORI FUNDACI  DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca, Barcelona, 
+08040 Barcelona, Spain </p>
+<p>Accord Healthcare Polska Sp. z.o.o. 
+ul.Lutomierska 50, 
+95-200, Pabianice, 
+Poland </p>
+<p>Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Park, 
+Paola PLA 3000, Malta </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>
+<p>Package leaflet: Information for the user </p>
+<p>Apixaban Accord  5 mg film-coated tablets 
+apixaban </p>
+<p>Read all of this leaflet carefully before you start taking this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again. 
+- If you have any further questions, ask your doctor, pharmacist or nurse. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+- If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet. See section </p>         </div>"""      
 

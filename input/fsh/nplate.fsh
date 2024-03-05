@@ -4,7 +4,7 @@ Instance: composition-en-234b7cd047275c814324a4fe38812d55
 InstanceOf: CompositionUvEpi
 Title: "Composition for nplate Package Leaflet"
 Description:  "Composition for nplate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,15 +69,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What nplate is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nplate’s active ingredient is romiplostim, which is a protein used to treat low platelet counts in 
-patients with immune primary thrombocytopenia (called ITP). ITP is a disease in which your body’s 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nplate s active ingredient is romiplostim, which is a protein used to treat low platelet counts in 
+patients with immune primary thrombocytopenia (called ITP). ITP is a disease in which your body s 
 immune system destroys its own platelets. Platelets are the cells in your blood that help seal cuts and 
 form blood clots. Very low platelet counts can cause bruising and serious bleeding. </p>
 <p>Nplate is used to treat adult patients with ITP who may or may not have had their spleen removed and 
 who have been previously treated with corticosteroids or immunoglobulins, where these treatments 
-don’t work. Nplate is also used to treat children aged 1 year and over with chronic ITP who may or 
+don t work. Nplate is also used to treat children aged 1 year and over with chronic ITP who may or 
 may not have had their spleen removed and who have been previously treated with corticosteroids or 
-immunoglobulins, where these treatments don’t work. </p>
+immunoglobulins, where these treatments don t work. </p>
 <p>Nplate works by stimulating the bone marrow (part of the bone which makes blood cells) to produce 
 more platelets. This should help to prevent bruising and bleeding associated with ITP. </p>         </div>"""   
           
@@ -104,10 +104,12 @@ discuss appropriate precautions with you. </p>
 </li>
 <li>
 <p>If you are at risk of blood clots or if blood clots are common in your family. The risk of blood 
-clotting may also be increased if you: </p>
+clotting may also be increased if you:</p>
 </li>
-<li>have liver problems; </li>
-<li>are elderly (≥ 65 years); </li>
+<li>
+<p>have liver problems; </p>
+</li>
+<li>are elderly (  65 years); </li>
 <li>are bedridden; </li>
 <li>have cancer; </li>
 <li>are taking the contraceptive pill or hormone replacement therapy; </li>
@@ -121,8 +123,8 @@ will adjust your dose of Nplate to ensure that your platelet count does not beco
 <p>Bone marrow changes (increased reticulin and possible bone marrow fibrosis) </p>
 <p>Long-term use of Nplate may cause changes in your bone marrow. These changes may lead to 
 abnormal blood cells or your body making less blood cells. The mild form of these bone marrow 
-changes is called “increased reticulin” and has been observed in Nplate clinical trials. It is not known 
-if this may progress to a more severe form called “fibrosis.” Signs of bone marrow changes may show 
+changes is called  increased reticulin  and has been observed in Nplate clinical trials. It is not known 
+if this may progress to a more severe form called  fibrosis.  Signs of bone marrow changes may show 
 up as abnormalities in your blood tests. Your doctor will decide if abnormal blood tests mean that you 
 should have bone marrow tests or if you should stop taking Nplate. </p>
 <p>Worsening of blood cancers </p>
@@ -133,7 +135,7 @@ worsen to become an acute myeloid leukaemia, which is a type of cancer of the bl
 <p>Loss of response to romiplostim </p>
 <p>If you experience a loss of response or failure to maintain a platelet response with romiplostim 
 treatment, your doctor will investigate the reasons why including whether you are experiencing 
-increased bone marrow fibres (reticulin) or have developed antibodies which neutralise romiplostim’s 
+increased bone marrow fibres (reticulin) or have developed antibodies which neutralise romiplostim s 
 activity. </p>
 <p>Children and adolescents </p>
 <p>Nplate is not recommended for use in children aged under 1 year. </p>
@@ -342,11 +344,11 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
+<p>Store in a refrigerator (2 C   8 C). 
 Do not freeze. 
 Store in the original carton in order to protect from light. </p>
 <p>This medicine may be removed from the refrigerator for a period of 30 days at room temperature (up 
-to 25°C) when stored in the original carton. </p>
+to 25 C) when stored in the original carton. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -362,5 +364,18 @@ throw away medicines you no longer use. These measures will help protect the env
 </ul>
 <p>Each vial of Nplate 125 micrograms powder for solution for injection contains a total of 
 230 micrograms of romiplostim. An additional overfill is included in each vial to ensure that 
-125 micrograms of romiplostim can be delivered. After dissolving, a deliverable amount of </p>         </div>"""      
+125 micrograms of romiplostim can be delivered. After dissolving, a deliverable amount of 
+0.25 mL solution contains 125 micrograms of romiplostim (500 micrograms/mL). </p>
+<p>Each vial of Nplate 250 micrograms powder for solution for injection contains a total of 
+375 micrograms of romiplostim. An additional overfill is included in each vial to ensure that 
+250 micrograms of romiplostim can be delivered. After dissolving, a deliverable amount of 
+0.5 mL solution contains 250 micrograms of romiplostim (500 micrograms/mL). </p>
+<p>Each vial of Nplate 500 micrograms powder for solution for injection contains a total of 
+625 micrograms of romiplostim. An additional overfill is included in each vial to ensure that 
+500 micrograms of romiplostim can be delivered. After dissolving, a deliverable amount of 
+1 mL solution contains 500 micrograms of romiplostim (500 micrograms/mL). </p>
+<ul>
+<li>The other ingredients are mannitol (E421), sucrose, L-histidine, hydrochloric acid (for pH 
+adjustment) and polysorbate 2</li>
+</ul>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-c5a54b11d8107e662bc760b43da975c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for benepali Package Leaflet"
 Description:  "Composition for benepali Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,9 +95,9 @@ Benepali can slow down the structural damage to those joints caused by the disea
 <li>For the following types of juvenile idiopathic arthritis when treatment with methotrexate has not 
 worked well enough or is not suitable for them: </li>
 </ul>
-<p> Polyarthritis (rheumatoid factor positive or negative) and extended oligoarthritis in patients 
+<p>Polyarthritis (rheumatoid factor positive or negative) and extended oligoarthritis in patients 
 from the age of 2 years and weighing 62.5 kg or more. </p>
-<p> Psoriatic arthritis in patients from the age of 12 years and weighing 62.5 kg or more. </p>
+<p>Psoriatic arthritis in patients from the age of 12 years and weighing 62.5 kg or more. </p>
 <ul>
 <li>
 <p>For enthesitis-related arthritis in patients from the age of 12 years and weighing 62.5 kg or more 
@@ -179,8 +179,8 @@ appearance of the skin or growths on the skin. </li>
 Benepali. Your doctor will determine if preventive treatment for chickenpox is appropriate. </li>
 <li>Alcohol abuse: Benepali should not be used for the treatment of hepatitis related to alcohol 
 abuse. Please tell your doctor if you or the child in your care have a history of alcohol abuse.  </li>
-<li>Wegener’s granulomatosis: Benepali is not recommended for the treatment of Wegener’s 
-granulomatosis, a rare inflammatory disease. If you or the child in your care have Wegener’s 
+<li>Wegener s granulomatosis: Benepali is not recommended for the treatment of Wegener s 
+granulomatosis, a rare inflammatory disease. If you or the child in your care have Wegener s 
 granulomatosis, talk to your doctor. </li>
 <li>Anti-diabetic medicines: Tell your doctor if you or the child have diabetes or are taking 
 medicines to treat diabetes. Your doctor may decide if you or the child need less anti-diabetic 
@@ -217,13 +217,13 @@ antagonists), but there was no particular kind of birth defect reported. Another
 increased risk of birth defects when the mother had received etanercept in pregnancy. Your doctor will 
 help you to decide whether the benefits of treatment outweigh the potential risk to your baby. Talk to 
 your doctor if you want to breastfeed while on Benepali treatment. It is important that you tell your 
-baby’s doctors and other healthcare professionals about the use of Benepali during pregnancy and 
+baby s doctors and other healthcare professionals about the use of Benepali during pregnancy and 
 breastfeeding before your baby receives any vaccine. </p>
 <p>Driving and using machines 
 No information is available if the use of Benepali effects the ability to drive or use machines. </p>
 <p>Benepali contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per 25 mg, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take benepali"
@@ -255,12 +255,12 @@ once a week using a fixed-dose pre-filled syringe or pre-filled pen. </p>
 more, or enthesitis-related arthritis or psoriatic arthritis in patients from the age of 12 years and 
 weighing 62.5 kg or more, the usual dose is 25 mg given twice a week or 50 mg given once a week. </p>
 <p>For psoriasis in patients from the age of 6 years and weighing 62.5 kg or more, the usual dose is 50 mg 
-and should be given once weekly. If Benepali has no effect on the child’s condition after 12 weeks, 
+and should be given once weekly. If Benepali has no effect on the child s condition after 12 weeks, 
 your doctor may tell you to stop using this medicine. </p>
 <p>The doctor will provide you with detailed directions for preparing and measuring the appropriate dose. </p>
 <p>Method and route of administration 
 Benepali is administered by an injection under the skin (subcutaneous use). </p>
-<p>Detailed instructions on how to inject Benepali are provided in section 7 “Instructions for use”. 
+<p>Detailed instructions on how to inject Benepali are provided in section 7  Instructions for use . 
 Do not mix the Benepali solution with any other medicine. </p>
 <p>To help you remember, it may be helpful to write in a diary which day(s) of the week Benepali should 
 be used. </p>
@@ -370,7 +370,7 @@ reactions (itchy reddish-purple skin rash and/or threadlike white-grey lines on 
 membranes), opportunistic infections (which include tuberculosis and other infections that occur 
 when resistance to disease is lowered), erythema multiforme (inflammatory skin rash), 
 cutaneous vasculitis (inflammation of blood vessels in the skin); damage to nerves, including 
-Guillain-Barré syndrome (a serious condition which can affect breathing and damage body 
+Guillain-Barr  syndrome (a serious condition which can affect breathing and damage body 
 organs). </p>
 <ul>
 <li>
@@ -380,8 +380,8 @@ threatening skin condition).  </p>
 </li>
 <li>
 <p>Not known (frequency cannot be estimated from available data) 
-Merkel cell carcinoma (a type of skin cancer); Kaposi’s sarcoma (a rare cancer related to 
-infection with human herpes virus 8. Kaposi’s sarcoma most commonly appears as purple 
+Merkel cell carcinoma (a type of skin cancer); Kaposi s sarcoma (a rare cancer related to 
+infection with human herpes virus 8. Kaposi s sarcoma most commonly appears as purple 
 lesions on the skin); excessive activation of white blood cells associated with inflammation 
 (macrophage activation syndrome); recurrence of hepatitis B (a liver infection); worsening of a 
 condition called dermatomyositis (muscle inflammation and weakness with an accompanying 
@@ -406,12 +406,12 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the label of the pre-
 filled syringe after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. </p>
 <p>Keep the pre-filled syringes in the outer carton in order to protect from light. </p>
 <p>After taking a syringe from the refrigerator, wait approximately 30 minutes to allow the Benepali 
 solution in the syringe to reach room temperature. Do not warm in any other way. Immediate use 
 is then recommended. </p>
-<p>Benepali may be stored outside of the refrigerator at temperatures up to a maximum of 30°C for a 
+<p>Benepali may be stored outside of the refrigerator at temperatures up to a maximum of 30 C for a 
 single period of up to 31 days; after which, it should not be refrigerated again. Benepali should be 
 discarded if not used within 31 days after removal from the refrigerator. It is recommended that you 
 record the date that Benepali is removed from the refrigerator and the date after which Benepali should </p>
@@ -433,8 +433,8 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Benepali contains<br />
 - The active substance is etanercept. Each pre-filled syringe contains 25 mg of etanercept. 
 - The other ingredients are sucrose, sodium chloride, sodium dihydrogen phosphate monohydrate, 
-disodium hydrogen phosphate heptahydrate, and water for injections (see section 2 “Benepali 
-contains sodium”). </p>
+disodium hydrogen phosphate heptahydrate, and water for injections (see section 2  Benepali 
+contains sodium ). </p>
 <p>What Benepali looks like and contents of the pack 
 Benepali is supplied as a pre-filled syringe containing a clear to slightly opalescent, colourless or pale 
 yellow solution for injection (injection).  </p>
@@ -454,21 +454,20 @@ Olof Palmestraat 2616 LR Delft
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Biogen Belgium NV/S.A<br />
-Tél/Tel: + 32 (0)2 808 5Lietuva 
+T l/Tel: + 32 (0)2 808 5Lietuva 
 Biogen Lithuania UAB 
-Tel: +370 52 07 91<br />
-България<br />
-Ewopharma AG Representative Office 
-Teл.: + 359 249 176<br />
+Tel: +370 52 07 91  </p>
+<p>Ewopharma AG Representative Office 
+Te .: + 359 249 176<br />
 Luxembourg/Luxemburg<br />
 Biogen Belgium NV/SA<br />
-Tél/Tel: +35 227 772  </p>
-<p>Česká republika<br />
+T l/Tel: +35 227 772  </p>
+<p>esk  republika<br />
 Biogen (Czech Republic) s.r.o.<br />
 Tel: + 420 228 884<br />
-Magyarország<br />
+Magyarorsz g<br />
 Biogen Hungary Kft.<br />
 Tel.: + 36 1 848 04<br />
 Danmark<br />
@@ -483,17 +482,16 @@ Tel: + 49 (0)89 996 177 Nederland<br />
 Biogen Netherlands B.V.<br />
 Tel: + 31 (0)20 808 02<br />
 Eesti<br />
-Biogen Estonia OÜ 
+Biogen Estonia O<br />
 Tel: + 372 6 68 30<br />
 Norge<br />
 Biogen Norway AS<br />
-Tlf: + 47 21 93 95<br />
-Ελλάδα<br />
-Genesis Pharma S.A. 
-Τηλ: + 30 211 176 8Österreich<br />
+Tlf: + 47 21 93 95  </p>
+<p>Genesis Pharma S.A. 
+ : + 30 211 176 8 sterreich<br />
 Biogen Austria GmbH<br />
 Tel: + 43 (0)1 267 51<br />
-España<br />
+Espa a<br />
 Biogen Spain, S.L.<br />
 Tel: + 34 931 790<br />
 Polska<br />
@@ -501,15 +499,15 @@ Biogen Poland Sp. z o.o.<br />
 Tel.: + 48 22 116 86<br />
 France<br />
 Biogen France SAS<br />
-Tél: + 33 (0)1 776 968<br />
+T l: + 33 (0)1 776 968<br />
 Portugal<br />
-Biogen Portugal Sociedade Farmacêutica,<br />
+Biogen Portugal Sociedade Farmac utica,<br />
 Unipessoal, Lda<br />
 Tel: + 351 308 800<br />
 Hrvatska<br />
 Ewopharma d.o.o<br />
 Tel: + 385 (0)1 777 64<br />
-România<br />
+Rom nia<br />
 Ewopharma AG Representative Office<br />
 Tel: + 40 377 881<br />
 Ireland<br />
@@ -518,10 +516,10 @@ Tel: +353 (0)1 513 33<br />
 Slovenija<br />
 Biogen Pharma d.o.o.<br />
 Tel: + 386 (0)1 888 81<br />
-Ísland<br />
+ sland<br />
 Icepharma hf. 
-Sími: + 354 800 9 
-Slovenská republika<br />
+S mi: + 354 800 9 
+Slovensk  republika<br />
 Biogen Slovakia s.r.o.<br />
 Tel: + 421 (0)2 333 257<br />
 Italia<br />
@@ -529,10 +527,9 @@ Biogen Italia s.r.l.<br />
 Tel: + 39 (0)6 899 701<br />
 Suomi/Finland<br />
 Biogen Finland Oy<br />
-Puh/Tel: + 358 (0)9 427 041<br />
-Κύπρος<br />
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: + 357 22 00 04<br />
+Puh/Tel: + 358 (0)9 427 041  </p>
+<p>Genesis Pharma (Cyprus) Ltd 
+ : + 357 22 00 04<br />
 Sverige<br />
 Biogen Sweden AB<br />
 Tel: +46 (0)8 525 038 Latvija 

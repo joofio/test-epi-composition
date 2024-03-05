@@ -4,7 +4,7 @@ Instance: composition-en-3aa969282c152694c6f4b966217ad337
 InstanceOf: CompositionUvEpi
 Title: "Composition for eladynos Package Leaflet"
 Description:  "Composition for eladynos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -125,7 +125,7 @@ Some patients may feel dizzy after injecting this medicine. If you feel dizzy do
 until you feel better. </p>
 <p>Eladynos contains sodium 
 This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eladynos"
@@ -135,13 +135,13 @@ This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
 you are not sure. </p>
 <p>The recommended dose is one injection (80 micrograms) once daily under the skin in the lower abdomen 
-(belly). See grey shaded area of the first figure in Step 5 in the “Instructions for use” at the end of the 
+(belly). See grey shaded area of the first figure in Step 5 in the  Instructions for use  at the end of the 
 package leaflet. </p>
 <p>Preferably, inject Elyadynos at the same time each day to help you remember to use your medicine. </p>
 <p>Do not inject Eladynos in the same place on your belly on consecutive days. Change where you inject this 
 medicine each day to reduce the risk of injection site reactions. Only inject into clear skin. Do not inject 
 into areas where the skin is tender, bruised, red, scaly or hard. Avoid areas with scars or stretch marks. </p>
-<p>Please carefully follow the “Instructions for use” at the end of the package leaflet. </p>
+<p>Please carefully follow the  Instructions for use  at the end of the package leaflet. </p>
 <p>Your doctor may advise you to take supplementary calcium and vitamin D. Your doctor will tell you how 
 much you should take each day. </p>
 <p>Duration of use 
@@ -178,7 +178,7 @@ may be serious and potentially life-threatening. </p>
 <p>Other side effects can occur with the following frequencies: 
 Very common (may affect more than 1 in 10 people) 
 * increase in calcium level seen in urine tests 
-* dizziness – see section 2 “Warnings and Precautions” </p>
+* dizziness   see section 2  Warnings and Precautions  </p>
 <p>Common (may affect up to 1 in 10 people) 
 * increase in calcium level seen in blood tests 
 * increase in uric acid level seen in blood tests 
@@ -214,10 +214,10 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and pen after EXP. The expiry 
 date refers to the last day of that month. </p>
-<p>Before first use, store in a refrigerator (2 °C–8 °C). Do not freeze. Avoid placing the pens close to the ice 
+<p>Before first use, store in a refrigerator (2  C 8  C). Do not freeze. Avoid placing the pens close to the ice 
 compartment of the refrigerator to prevent freezing. Do not use Eladynos if it is, or has been, frozen. </p>
-<p>After first use, store below 25 °C and discard after 30 days. </p>
-<p>Eladynos may only be stored at room temperature (below 25 °C) for 30 days. </p>
+<p>After first use, store below 25  C and discard after 30 days. </p>
+<p>Eladynos may only be stored at room temperature (below 25  C) for 30 days. </p>
 <p>Note the date of Day 1 in the space provided on the carton. Day 1 is the date of first use or the date the 
 pen was removed from the refrigerator. This is to ensure you do not use the pen for more than 
 30 consecutive days or store the pen for longer than 30 days. After 30 days, throw away your pen in 
@@ -241,11 +241,13 @@ how to throw away medicines you no longer use. These measures will help protect 
 Each dose of 40 microliters contains 80 micrograms of abaloparatide. 
 Each pre-filled pen contains 3 mg of abaloparatide in 1.5 mL of solution (corresponding to 
 2 milligrams per mL). 
-* The other ingredients are: 
-- phenol 
-- water for injections 
-- sodium acetate trihydrate (See section 2 “Eladynos contains Sodium”) and acetic acid (both 
-for pH adjustment) </p>
+* The other ingredients are:</p>
+<ul>
+<li>phenol </li>
+<li>water for injections </li>
+<li>sodium acetate trihydrate (See section 2  Eladynos contains Sodium ) and acetic acid (both 
+for pH adjustment) </li>
+</ul>
 <p>What Eladynos looks like and contents of the pack 
 Eladynos is a colourless and clear solution for injection (injection). It is supplied in a carton containing 
 one or three pre-filled multi-dose pens each with 30 doses. 

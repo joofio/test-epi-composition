@@ -4,7 +4,7 @@ Instance: composition-en-065940950f1dbb7c281e0e49d5dfc752
 InstanceOf: CompositionUvEpi
 Title: "Composition for plegridy Package Leaflet"
 Description:  "Composition for plegridy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -79,17 +79,19 @@ from infections and diseases.  </p>
 This medicine is used to treat relapsing-remitting multiple sclerosis (MS) in adults aged 18 or 
 over.<br />
 MS is a long term illness that affects the central nervous system (CNS), including the brain and spinal 
-cord, in which the body’s immune system (its natural defences) damages the protective layer (myelin) 
+cord, in which the body s immune system (its natural defences) damages the protective layer (myelin) 
 that surrounds the nerves in the brain and spinal cord. This disrupts the messages between the brain 
 and other parts of the body, causing the symptoms of MS. Patients with relapsing-remitting MS have 
 periods when the disease is not active (remission) in between flare-ups of symptoms (relapses). </p>
-<p>Everyone has their own set of MS symptoms. These can include: 
-- Feeling off-balance or light headed, walking problems, stiffness and muscle spasms, tiredness, 
-numbness in the face, arms or legs 
-- Acute or chronic pain, bladder and bowel problems, sexual problems and problems with vision 
-- Difficulty thinking and concentrating, depression. </p>
+<p>Everyone has their own set of MS symptoms. These can include:</p>
+<ul>
+<li>Feeling off-balance or light headed, walking problems, stiffness and muscle spasms, tiredness, 
+numbness in the face, arms or legs </li>
+<li>Acute or chronic pain, bladder and bowel problems, sexual problems and problems with vision </li>
+<li>Difficulty thinking and concentrating, depression. </li>
+</ul>
 <p>How Plegridy works 
-Plegridy seems to work by stopping the body’s immune system from damaging your brain and 
+Plegridy seems to work by stopping the body s immune system from damaging your brain and 
 spinal cord. This can help to reduce the number of relapses that you have and slow down the disabling 
 effects of MS. Treatment with Plegridy can help to prevent you from getting worse, although it will 
 not cure MS. </p>         </div>"""   
@@ -106,25 +108,29 @@ not cure MS. </p>         </div>"""
 medicine (listed in section 6). See section 4 for the symptoms of an allergic reaction. 
 - If you have severe depression or think about committing suicide. </p>
 <p>Warnings and precautions<br />
-Talk to your doctor if you have ever had: 
-- Depression or problems affecting your mood 
-- Thoughts about committing suicide 
-- Your doctor may still prescribe Plegridy for you, but it’s important to let your doctor know 
-if you have had depression or any similar problems affecting your mood in the past. </p>
+Talk to your doctor if you have ever had:</p>
+<ul>
+<li>Depression or problems affecting your mood </li>
+<li>Thoughts about committing suicide </li>
+<li>Your doctor may still prescribe Plegridy for you, but it s important to let your doctor know 
+if you have had depression or any similar problems affecting your mood in the past. </li>
+</ul>
 <p>Talk to your doctor, pharmacist or nurse before injecting Plegridy if you have any of the 
-conditions listed below. They may get worse while using Plegridy:<br />
-- Serious liver or kidney problems 
-- Irritation at an injection site, which can lead to skin and tissue damage (injection site 
+conditions listed below. They may get worse while using Plegridy:</p>
+<ul>
+<li>Serious liver or kidney problems </li>
+<li>Irritation at an injection site, which can lead to skin and tissue damage (injection site 
 necrosis). When you are ready to inject, carefully follow the instructions in section 7 
-“Instructions for injecting Plegridy pre-filled syringe”, at the end of this leaflet. This is to reduce 
-the risk of injection site reactions. 
-- Epilepsy or other seizure disorders, not controlled by medicine 
-- Heart problems, which can cause symptoms such as chest pain (angina), particularly after any 
+ Instructions for injecting Plegridy pre-filled syringe , at the end of this leaflet. This is to reduce 
+the risk of injection site reactions. </li>
+<li>Epilepsy or other seizure disorders, not controlled by medicine </li>
+<li>Heart problems, which can cause symptoms such as chest pain (angina), particularly after any 
 activity; swollen ankles, shortness of breath (congestive heart failure); or an irregular heartbeat 
-(arrhythmia). 
-- Thyroid problems 
-- A low number of white blood cells or platelets, which can cause an increased risk of infection, 
-or bleeding </p>
+(arrhythmia). </li>
+<li>Thyroid problems </li>
+<li>A low number of white blood cells or platelets, which can cause an increased risk of infection, 
+or bleeding </li>
+</ul>
 <p>Other things to consider when using Plegridy 
 - You will need blood tests to determine your numbers of blood cells, blood chemistry and your 
 levels of liver enzymes. These will be performed before you start using Plegridy, regularly after 
@@ -145,7 +151,7 @@ Plegridy is not to be used in children and adolescents below 18 years old. The s
 of Plegridy in this age group are not known. </p>
 <p>Other medicines and Plegridy 
 Plegridy should be used carefully with medicines that are broken down in the body by a group of 
-proteins called “cytochrome P450” (e.g. some medicines used for epilepsy or depression). </p>
+proteins called  cytochrome P450  (e.g. some medicines used for epilepsy or depression). </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, especially those used to treat epilepsy or depression. This includes any medicines obtained 
 without a prescription. </p>
@@ -160,7 +166,7 @@ feeding. </p>
 <p>Driving and using machines<br />
 Plegridy has no or negligible influence on the ability to drive and use machines. </p>
 <p>Plegridy contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg), that is to say it is essentially “sodium-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg), that is to say it is essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plegridy"
@@ -179,7 +185,7 @@ Pack containing your first 2 injections: one orange syringe with Plegridy 63 mic
 and one blue syringe with Plegridy 94 micrograms (for day 14). </p>
 <p>After that you will be provided with a maintenance pack containing grey syringes with Plegridy 
 125 micrograms (for day 28 and then every two weeks). </p>
-<p>Read the instructions in section 7 “Instructions for injecting Plegridy pre-filled syringe” at the end of 
+<p>Read the instructions in section 7  Instructions for injecting Plegridy pre-filled syringe  at the end of 
 this leaflet before you start using Plegridy. 
 Use the record table printed on the inside of the lid of the Initiation Pack to keep a track of your 
 injection dates. </p>
@@ -188,8 +194,8 @@ Plegridy is to be injected under the skin (subcutaneous injection). Alternate th
 injections. Do not use the same injection site for consecutive injections. </p>
 <p>You can inject Plegridy yourself without the help of your doctor, if you have been trained how to do 
 this.<br />
-- Read and follow the advice given in the instructions in section 7 “Instructions for injecting 
-Plegridy pre-filled syringe” before you start.<br />
+- Read and follow the advice given in the instructions in section 7  Instructions for injecting 
+Plegridy pre-filled syringe  before you start.<br />
 - If you have trouble handling the syringe, ask your doctor or nurse who may be able to help. </p>
 <p>How long to use Plegridy 
 Your doctor will tell you how long you need to keep using Plegridy. It is important to continue using 
@@ -215,17 +221,23 @@ more than once in a 7-day period. Do not use two injections to make up for a mis
 <p>Serious side effects 
 - Liver problems 
 (common - may affect up to 1 in 10 people) 
-If you get any of these symptoms:<br />
-- Yellowing of your skin or the whites of your eyes 
-- Itching all over 
-- Feeling sick, being sick (nausea and vomiting) 
-- Easy bruising of the skin 
-- Contact a doctor immediately. They may be signs of a possible liver problem. </p>
+If you get any of these symptoms:</p>
 <ul>
-<li>Depression 
+<li>Yellowing of your skin or the whites of your eyes </li>
+<li>Itching all over </li>
+<li>Feeling sick, being sick (nausea and vomiting) </li>
+<li>Easy bruising of the skin </li>
+<li>
+<p>Contact a doctor immediately. They may be signs of a possible liver problem. </p>
+</li>
+<li>
+<p>Depression 
 (common - may affect up to 1 in 10 people) 
-If you: </li>
-<li>Feel unusually sad, anxious or worthless or </li>
+If you:</p>
+</li>
+<li>
+<p>Feel unusually sad, anxious or worthless or </p>
+</li>
 <li>Have thoughts about suicide </li>
 <li>
 <p>Contact a doctor immediately. </p>
@@ -233,9 +245,11 @@ If you: </li>
 <li>
 <p>Serious allergic reaction 
 (uncommon - may affect up to 1 in 100 people) 
-If you get any of these: </p>
+If you get any of these:</p>
 </li>
-<li>Difficulty breathing </li>
+<li>
+<p>Difficulty breathing </p>
+</li>
 <li>Swelling around the face (lips, tongue or throat) </li>
 <li>Skin rashes or redness </li>
 <li>
@@ -252,19 +266,23 @@ If you have a seizure or a fit  </p>
 <li>
 <p>Injection site damage 
 (rare - may affect up to 1 in 1,000 people) 
-If you get any of these symptoms:  </p>
+If you get any of these symptoms:</p>
 </li>
-<li>Any break in the skin together with swelling, inflammation or fluid leaking around the injection 
-site </li>
+<li>
+<p>Any break in the skin together with swelling, inflammation or fluid leaking around the injection 
+site </p>
+</li>
 <li>
 <p>Contact a doctor for advice. </p>
 </li>
 <li>
 <p>Kidney problems including scarring that may reduce your kidney function<br />
 (rare - may affect up to 1 in 1,000 people) 
-If you get some or all of these symptoms: </p>
+If you get some or all of these symptoms:</p>
 </li>
-<li>Foamy urine </li>
+<li>
+<p>Foamy urine </p>
+</li>
 <li>Fatigue </li>
 <li>Swelling, particularly in the ankles and eyelids, and weight gain. </li>
 <li>
@@ -279,15 +297,17 @@ increased bruising, bleeding, fever, extreme weakness, headache, dizziness or li
 doctor may find changes in your blood and the function of your kidneys. </p>
 </li>
 </ul>
-<p>If you get some or all of these symptoms: 
-- Increased bruising or bleeding 
-- Extreme weakness 
-- Headache, dizziness or light-headedness 
-- Contact a doctor immediately. </p>
+<p>If you get some or all of these symptoms:</p>
+<ul>
+<li>Increased bruising or bleeding </li>
+<li>Extreme weakness </li>
+<li>Headache, dizziness or light-headedness </li>
+<li>Contact a doctor immediately. </li>
+</ul>
 <p>Other side effects 
 Very common side effects<br />
 (may affect more than 1 in 10 people) 
-- Flu-like symptoms.  These symptoms are not really flu, see below. You can’t pass it on to 
+- Flu-like symptoms.  These symptoms are not really flu, see below. You can t pass it on to 
 anyone else. 
 - Headache<br />
 - Muscle pain (myalgia) 
@@ -301,15 +321,90 @@ anyone else.
 Flu-like symptoms are more common when you first start using Plegridy. They gradually get less as 
 you keep using your injections. See below for simple ways to manage these flu-like symptoms if you 
 get them. </p>
-<p>Three simple ways to help reduce the impact of flu-like symptoms: </p>         </div>"""      
+<p>Three simple ways to help reduce the impact of flu-like symptoms: 
+1. Consider the timing of your Plegridy injection. The start and end of flu-like symptoms are 
+different for every patient. On average, flu-like symptoms begin approximately 10 hours after 
+injection and last between 12 and 24 hours. 
+2. Take paracetamol or ibuprofen half an hour before your Plegridy injection and continue to take 
+paracetamol or ibuprofen for the duration of your flu-like symptoms. Speak to your doctor or 
+pharmacist about how much to take and how long to take it. 
+3. If you have a fever, drink plenty of water to keep you hydrated. </p>
+<p>Common side effects 
+(may affect up to 1 in 10 people) 
+- Feeling or being sick (nausea or vomiting) 
+- Hair loss (alopecia) 
+- Itchy skin (pruritus)<br />
+- Increase in body temperature 
+- Changes around the place you have injected such as swelling, inflammation, bruising, warmth, 
+rash or colour change 
+- Changes in your blood which might cause tiredness or reduced ability to fight infection 
+- Increases in liver enzymes in the blood (will show up in blood tests) 
+- If any of these effects trouble you, contact a doctor. </p>
+<p>Uncommon side effects 
+(may affect up to 1 in 100 people) 
+- Hives<br />
+- Changes in your blood which might cause unexplained bruising or bleeding. 
+- If any of these effects trouble you, contact a doctor. </p>
+<p>Frequency not known<br />
+(frequency cannot be estimated from the available data) 
+- Pulmonary arterial hypertension: A disease of severe narrowing of the blood vessels in the lungs 
+resulting in high blood pressure in the blood vessels that carry blood from the heart to the lungs. 
+Pulmonary arterial hypertension has been seen at various time points during treatment, including 
+several years after starting treatment with interferon beta-products. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>
+<p>In order to improve the traceability of this medicine, your doctor or pharmacist should record the name 
+and the lot number of the product you have been given in your patient file. You may also wish to make 
+a note of these details in case you are asked for this information in the future. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plegridy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store plegridy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>different for every patient. On average, flu-like symptoms begin approximately 10 hours after 
-injection and last between 12 and 24 hours. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the label after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<ul>
+<li>
+<p>Store in the original package in order to protect from light. Only open the pack when you need a 
+new syringe.  </p>
+</li>
+<li>
+<p>Store in a refrigerator (fridge) 2  -8  C.  </p>
+</li>
+<li>
+<p>Do not freeze. Throw away any Plegridy that is accidentally frozen.  </p>
+</li>
+<li>
+<p>Plegridy can be kept outside a fridge at room temperature (up to 25  C) for up to 30  days but it 
+must be kept away from light.  </p>
+</li>
+<li>Packs can be taken out of the fridge and then put back in a fridge more than once if you 
+need to. </li>
+<li>Make sure the time the syringes spend out of a fridge is no more than 30 days in total.   </li>
+<li>Throw away any syringe that is kept out of the fridge for more than 30 days.   </li>
+<li>
+<p>If you are unsure of the number of days you have kept a syringe out of the fridge, throw 
+the syringe away.   </p>
+</li>
+<li>
+<p>Do not use this medicine if you notice any of the following:</p>
+</li>
+<li>
+<p>If the syringe is broken. </p>
+</li>
+<li>
+<p>If the solution is coloured, cloudy or you can see particles floating in it. </p>
+</li>
+<li>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
+to throw away medicines you no longer use. These measures will help protect the environment. </p>
+</li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -317,6 +412,120 @@ injection and last between 12 and 24 hours. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>paracetamol or ibuprofen for the duration of your flu-like symptoms. Speak to your doctor or 
-pharmacist about how much to take and how long to take it. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Plegridy contains<br />
+The active ingredient is peginterferon beta-1a. </p>
+<p>Each 63 microgram pre-filled syringe contains 63 micrograms of peginterferon beta-1a in 0.5 mL 
+solution for injection. 
+Each 94 microgram pre-filled syringe contains 94 micrograms of peginterferon beta-1a in 0.5 mL 
+solution for injection. 
+Each 125 microgram pre-filled syringe contains 125 micrograms of peginterferon beta-1a in 0.5 mL 
+solution for injection. </p>
+<p>The other ingredients are: Sodium acetate trihydrate, acetic acid glacial, arginine hydrochloride, 
+polysorbate 20 and water for injections (see Section 2  Plegridy contains sodium ). </p>
+<p>What Plegridy looks like and contents of the pack 
+Plegridy is a clear and colourless solution for injection in a glass pre-filled syringe with an attached 
+needle. </p>
+<p>Pack sizes:</p>
+<ul>
+<li>The Plegridy Initiation Pack contains one orange pre-filled syringe of 63 micrograms and one blue 
+pre-filled syringe of 94 micrograms.  </li>
+<li>The 125 micrograms grey syringes are provided in a pack containing either two or six pre-filled 
+syringes. </li>
+</ul>
+<p>Not all pack sizes may be marketed.  </p>
+<p>Marketing Authorisation Holder 
+Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+The Netherlands </p>
+<p>Manufacturer 
+FUJIFILM Diosynth Biotechnologies Denmark ApS 
+Biotek All  1 
+DK-3400 Hiller d 
+Denmark  </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Biogen Belgium NV/SA 
+  +32 2 2191 
+Lietuva 
+Biogen Lithuania UAB 
+  +370 5 259 6 </p>
+<p>+359 2 962 12<br />
+Luxembourg/Luxemburg 
+Biogen Belgium NV/SA 
+  +32 2 2191 
+ esk  republika 
+Biogen (Czech Republic) s.r.o. 
+  +420 255 706 Magyarorsz g 
+Biogen Hungary Kft. 
+  +36 1 899 9Danmark 
+Biogen Denmark A/S 
+  +45 77 41 57<br />
+Malta 
+Pharma. MT Ltd.. 
+  +356 21337Deutschland 
+Biogen GmbH 
+  +49 (0) 89 99 6 
+Nederland 
+Biogen Netherlands B.V. 
+  +31 20 542 2 
+Eesti 
+Biogen Estonia O<br />
+  +372 618 9 
+Norge 
+Biogen Norway AS 
+  +47 23 40 01 <br />
+Genesis Pharma SA 
+  +30 210 8771 
+ sterreich 
+Biogen Austria GmbH 
+  +43 1 484 46 Espa a 
+Biogen Spain S.L. 
+  +34 91 310 7 
+Polska 
+Biogen Poland Sp. z o.o. 
+  +48 22 351 51<br />
+France 
+Biogen France SAS 
+  +33 (0)1 41 37 9 
+Portugal 
+Biogen Portugal<br />
+Sociedade Farmac utica, Unipessoal Lda. 
+  +351 21 318 8 
+Hrvatska 
+Biogen Pharma d.o.o. 
+  +385 1 775 73<br />
+Rom nia 
+Johnson &amp; Johnson Romania S.R.L.<br />
+  +40 21 207 18 Ireland 
+Biogen Idec (Ireland) Ltd. 
+  +353 (0)1 463 7 
+Slovenija 
+Biogen Pharma d.o.o. 
+  +386 1 511 02  sland 
+Icepharma hf 
+  +354 540 8Slovensk  republika 
+Biogen Slovakia s.r.o. 
+  +421 2 323 34 
+Italia 
+Biogen Italia s.r.l. 
+  +39 02 584 9Suomi/Finland 
+Biogen Finland Oy 
+  +358 207 401  </p>
+<p>Genesis Pharma Cyprus Ltd 
+  +357 22 76 57  </p>
+<p>Sverige 
+Biogen Sweden AB 
+  +46 8 594 113 Latvija 
+Biogen Latvia SIA 
+  +371 68 688<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Limited 
+  +44 (0) 1628 50 1 </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt; &lt;{month YYYY}</em>. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

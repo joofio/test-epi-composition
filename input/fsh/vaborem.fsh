@@ -4,7 +4,7 @@ Instance: composition-en-1a4d7d0936b560f6ab01480d49118287
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaborem Package Leaflet"
 Description:  "Composition for vaborem Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,9 +71,9 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vaborem is 
 Vaborem is an antibiotic medicine that contains two active substances: meropenem and vaborbactam. 
-* Meropenem belongs to group of antibiotics called “carbapenems”. It can kill many types of bacteria 
+* Meropenem belongs to group of antibiotics called  carbapenems . It can kill many types of bacteria 
 by preventing them from building the protective walls that surround their cells. 
-* Vaborbactam is a “beta lactamase inhibitor”. It blocks the action of an enzyme that allows some 
+* Vaborbactam is a  beta lactamase inhibitor . It blocks the action of an enzyme that allows some 
 bacteria to resist the action of meropenem. This helps meropenem kill some bacteria that it cannot 
 kill on its own.   </p>
 <p>What Vaborem is used for 
@@ -116,7 +116,7 @@ caused by another organism during or after your treatment. Your doctor will moni
 new infections and give you another treatment if necessary. </p>
 <p>Blood tests 
 Tell your doctor that you are taking Vaborem if you are going to have any blood tests. This is because you 
-may get an abnormal result with something called a “Coombs test”. This test looks for the presence of 
+may get an abnormal result with something called a  Coombs test . This test looks for the presence of 
 antibodies that can destroy red blood cells or may be affected by the response of your immune system to 
 Vaborem. </p>
 <p>Children or adolescents 
@@ -147,7 +147,7 @@ receiving Vaborem. Small amounts of this medicine may pass into the breast milk 
 baby. Therefore, you must discontinue breastfeeding before you are given Vaborem. </p>
 <p>Driving and using machines 
 Vaborem may make you feel dizzy, sleepy and sluggish, give you a headache or tingling sensation (like 
-“pins and needles”) or, in rare cases, cause a fit or seizure. This may affect your ability to drive, use tools 
+ pins and needles ) or, in rare cases, cause a fit or seizure. This may affect your ability to drive, use tools 
 or machines.  </p>
 <p>Vaborem contains sodium 
 This medicine contains 250 mg of sodium (main component of cooking salt) in each vial. This is 
@@ -179,18 +179,18 @@ If you think you have missed a dose, tell your doctor or nurse straight away. </
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
-Tell your doctor straight away if you notice any of the following serious side effects – you may need 
+Tell your doctor straight away if you notice any of the following serious side effects   you may need 
 urgent medical treatment: 
 * Severe allergic reactions that could include sudden swelling of your lips, face, throat or tongue, 
 difficulty swallowing or breathing or a severe rash or other severe skin reactions, or a decrease in 
 blood pressure (which could make you feel faint or dizzy). Such reactions may be life-threatening. 
-* Diarrhoea that keeps getting worse or does not go away, or stools that contains blood or mucus – 
+* Diarrhoea that keeps getting worse or does not go away, or stools that contains blood or mucus <br />
 this may happen during or after treatment with Vaborem is stopped. It may be due to bacteria called 
 Clostridium difficile. If this happens, do not take medicines that stop or slow bowel movement. </p>
 <p>Other side effects 
 Tell your doctor or nurse if you notice any of the following side effects:  </p>
 <p>Common: (may affect up to 1 in 10 people) 
-* Increase in the number of platelets (a type of blood cell) – shown in blood tests 
+* Increase in the number of platelets (a type of blood cell)   shown in blood tests 
 * Decrease in the amount of potassium or sugar- seen in blood tests 
 * Headache 
 * Low blood pressure 
@@ -199,25 +199,25 @@ Tell your doctor or nurse if you notice any of the following side effects:  </p>
 * Swelling, redness and/or pain around the needle where the medicine is given into a vein 
 * Fever 
 * Increase in the amount of enzymes produced by your liver called alanine aminotransferase or 
-aspartate aminotransferase – shown in blood tests 
+aspartate aminotransferase   shown in blood tests 
 * Increase in the level of an enzyme called alkaline phosphatase that may be a sign of your liver, 
-gallbladder or bones working less well – shown in blood tests 
+gallbladder or bones working less well   shown in blood tests 
 * Increase in the level of an enzyme called lactate dehydrogenase that may be a sign of damage to 
-some of your body organs – shown in blood tests </p>
+some of your body organs   shown in blood tests </p>
 <p>Uncommon: (may affect up to 1 in 100 people) 
-* Swelling and irritation in the large intestine or colon – this can cause diarrhoea, fever and stomach 
+* Swelling and irritation in the large intestine or colon   this can cause diarrhoea, fever and stomach 
 cramps and is due to another colon infection 
 * Fungal infections, including those of the vagina or mouth<br />
 <em> Decrease in the number of white blood cells or some types of white blood cells called neutrophils 
-and a decrease of platelets – shown in blood tests 
-* Increase in a type of white blood cell called eosinophils – shown in blood tests 
+and a decrease of platelets   shown in blood tests 
+* Increase in a type of white blood cell called eosinophils   shown in blood tests 
 * Sudden and serious allergic reaction that needs urgent medical treatment and may include itching, 
 skin color change, abdominal cramps, swelling, difficulty breathing, fainting and drop in blood 
 pressure 
 * Less severe allergic reaction that may include redness, red bumps, flaking of the skin, itching, 
 generally feeling unwell 
 * A feeling of being less hungry<br />
-</em> Increase in the amount of potassium or sugar – shown in blood tests 
+</em> Increase in the amount of potassium or sugar   shown in blood tests 
 * Inability to sleep 
 * Seeing, hearing or sensing things that are not there 
 * Feeling dizzy 
@@ -231,7 +231,7 @@ generally feeling unwell
 * Stomach pain 
 * Itchy skin 
 * Rash 
-* Raised itchy skin rash (“hives”) 
+* Raised itchy skin rash ( hives ) 
 * Difficulty to control the bladder 
 * Reduction in the way your kidneys work 
 * Abnormal feeling in the chest<br />
@@ -240,18 +240,18 @@ vein: reddened skin (erythema); hot, tender and swollen vein around the needle (
 clot in the vein where the needle was put through your skin (infusion site thrombosis) 
 * Pain 
 * Increase in the level of a substance in the blood called creatine phosphokinase that is a sign of 
-possible damage to certain tissues such as your muscles and/or other organs – shown in blood tests 
+possible damage to certain tissues such as your muscles and/or other organs   shown in blood tests 
 * Increase in the level of a substance in the blood called bilirubin that is a sign of possible damage to 
-your red blood cells or that your liver is working less well – shown in blood tests 
+your red blood cells or that your liver is working less well   shown in blood tests 
 * Increase in the level of some types of substances in the blood called urea and creatinine that are 
-signs that your kidneys are working less well – shown in blood tests 
+signs that your kidneys are working less well   shown in blood tests 
 * Reaction that occurs during or shortly after Vaborem is given that presents as a malaise (generally 
 feeling unwell) possibly with any of the following: reduced blood pressure, nausea, vomiting, 
 abdominal cramps, fever, flushing, rapid heart beats or difficulty to breathe, headache </p>
 <p>Rare (may affect up to 1 in 1000 people) 
 * Seizures (fits) </p>
 <p>Unknown: (frequency cannot be estimated from the available data) 
-* A severe and very low white blood cell count – shown in blood tests 
+* A severe and very low white blood cell count   shown in blood tests 
 * Haemolytic anaemia (a condition where red blood cells are damaged and reduced in number), 
 which may make you feel tired and turn your skin and eyes yellow 
 * Swelling of the tongue, face, lips or throat 
@@ -260,7 +260,7 @@ high fever, joint pain, abnormal function of your liver, kidney or lung (these m
 serious medical conditions called toxic epidermal necrolysis, Stevens-Johnson syndrome, erythema 
 multiforme, acute generalised exanthematous pustulosis, or a condition known as drug reaction 
 with eosinophilia and systemic symptoms (DRESS)) 
-* A positive result from a test called“Coombs”used to identify haemolytic anemia (see above) or 
+* A positive result from a test called Coombs used to identify haemolytic anemia (see above) or 
 reaction of your immune system to Vaborem 
 * Acute disorientation and confusion (delirium) </p>
 <p>Reporting of side effects 
@@ -276,7 +276,7 @@ V. By reporting side effects you can help provide more information on the safety
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the container. The expiry date refers to 
 the last day of that month. </p>
-<p>Do not store above 25 °C. </p>         </div>"""      
+<p>Do not store above 25  C. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -299,27 +299,27 @@ Luxembourg </p>
 <p>Manufacturer 
 ACS Dobfar, S.p.A.<br />
 Nucleo Industriale S. Atto<br />
-(loc. S. Nicolo’ a Tordino)<br />
+(loc. S. Nicolo  a Tordino)<br />
 64100 Teramo (TE) 
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4 
+T l/Tel: + 32 (0)2 721 4 
 Lietuva 
-UAB “BERLIN CHEMIE MENARINI 
-BALTIC” 
-Tel: +370 52 691<br />
-България 
-Берлин-Хеми/А. Менарини България EООД 
-тел.: +359 24540Luxembourg/Luxemburg 
+UAB  BERLIN CHEMIE MENARINI 
+BALTIC<br />
+Tel: +370 52 691  </p>
+<ul>
+<li>/ .     E<br />
+ .: +359 24540Luxembourg/Luxemburg 
 Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4 
-Česká republika 
+T l/Tel: + 32 (0)2 721 4 
+ esk  republika 
 Berlin-Chemie/A.Menarini Ceska republika s.r.o. 
 Tel: +420 267 199<br />
-Magyarország 
+Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 1799 7Danmark 
 Menarini International Operations Luxembourg 
@@ -332,32 +332,32 @@ Deutschland
 Berlin-Chemie AG 
 Tel: +49 (0) 30 67Nederland 
 Menarini Benelux NV/SA 
-Tel: +32 (0)2 721 4 </p>
+Tel: +32 (0)2 721 4 </li>
+</ul>
 <p>Eesti 
-OÜ Berlin-Chemie Menarini Eesti 
+O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5Norge 
 Menarini International Operations Luxembourg 
 S.A. 
-Tlf: +352 264 
-Ελλάδα 
-MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Österreich 
+Tlf: +352 264 </p>
+<p>MENARINI HELLAS AE 
+ : +30 210 8316111- sterreich 
 A. Menarini Pharma GmbH 
 Tel: +43 1 879 95 85-0 </p>
-<p>España 
+<p>Espa a 
 Laboratorios Menarini S.A. 
 Polska 
 Berlin-Chemie/Menarini Polska Sp. z o.o. 
 Tel: +34-93 462 88 Tel.: +48 22 566 21<br />
 France 
 MENARINI France 
-Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
+T l: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal   Farmac utica, S.A. 
 Tel: +351 210 935<br />
 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
 Tel: + 385 1 4821<br />
-România 
+Rom nia 
 Berlin-Chemie A.Menarini S.R.L. 
 Tel: +40 21 232 34<br />
 Ireland 
@@ -366,11 +366,11 @@ Tel: +353 1 284 6Slovenija
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
 Tel: +386 01 300 2 
-Ísland 
+ sland 
 Menarini International Operations Luxembourg 
 S.A. 
-Sími: +352 264976  </p>
-<p>Slovenská republika 
+S mi: +352 264976  </p>
+<p>Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o<br />
 Tel: +421 2 544 30 Italia 
@@ -379,10 +379,9 @@ s.r.l.
 Tel: +39-055 56 
 Suomi/Finland 
 Berlin-Chemie/A.Menarini Suomi OY 
-Puh/Tel: +358 403 000<br />
-Κύπρος 
-MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Sverige 
+Puh/Tel: +358 403 000  </p>
+<p>MENARINI HELLAS AE 
+ : +30 210 8316111-Sverige 
 Pharmaprim AB 
 Tel: +46 8355 
 Latvija 
@@ -404,8 +403,31 @@ Standard aseptic techniques must be used for solution preparation and administra
 a 250 ml infusion bag of sodium chloride 9 mg/ml (0.9%) solution for injection for each vial and 
 reconstituted with the appropriate number of vials of meropenem/vaborbactam for the corresponding 
 Vaborem dosage:  </p>
-<p>• Reconstitute 2 vials for the Vaborem 2 g/2 g dose 
-• Reconstitute 1 vial for the Vaborem 1 g/1 g and Vaborem 0.5 g/0.5 g doses </p>
+<p>Reconstitute 2 vials for the Vaborem 2 g/2 g dose 
+  Reconstitute 1 vial for the Vaborem 1 g/1 g and Vaborem 0.5 g/0.5 g doses </p>
 <p>After mixing gently to dissolve, the reconstituted meropenem/vaborbactam solution will have an 
-approximate meropenem concentration of 0.05 g/ml and an approximate vaborbactam concentration of </p>         </div>"""      
+approximate meropenem concentration of 0.05 g/ml and an approximate vaborbactam concentration of 
+0.05 g/ml. The final volume is approximately 21.3 ml. The reconstituted solution is not for direct 
+injection. The reconstituted solution must be diluted before intravenous infusion. </p>
+<p>Dilution:<br />
+To prepare the Vaborem 2 g/2 g for intravenous infusion: Immediately after reconstitution of two vials, 
+the entire reconstituted vial contents should be withdrawn from each of the two vials and added back into 
+the 250 ml infusion bag of sodium chloride 9 mg/ml (0.9%) solution for injection (normal saline). The 
+final infusion concentration of meropenem and vaborbactam will be about 8 mg/ml each. </p>
+<p>To prepare the Vaborem 1 g/1 g for intravenous infusion: Immediately after reconstitution of one vial, the 
+entire reconstituted vial contents should be withdrawn from the vial and added back into the 250 ml 
+infusion bag of sodium chloride 9 mg/ml (0.9%) solution for injection (normal saline). The final infusion 
+concentration of meropenem and vaborbactam will be about 4 mg/ml each. </p>
+<p>To prepare the Vaborem 0.5 g/0.5 g for intravenous infusion: Immediately after reconstitution of one vial, 
+10.5 ml of the reconstituted vial contents should be withdrawn from the vial and added back into the 
+250 ml infusion bag of sodium chloride 9 mg/ml (0.9%) solution for injection (normal saline). The final 
+infusion concentration of meropenem and vaborbactam will be 2 mg/ml each. </p>
+<p>The diluted solution should be inspected visually for particulate matter. The colour of the diluted solution 
+is clear to light yellow.  </p>
+<p>Following dilution, the infusion should be completed within 4 hours when stored at 25  C, or within 
+22 hours when refrigerated at 2   8  C. </p>
+<p>From a microbiological point of view, the medicinal product should be used immediately upon 
+reconstitution and dilution. </p>
+<p>Vaborem is not chemically compatible with glucose-containing solutions. This medicinal product must not 
+be mixed with other medicinal products except those mentioned in section 6.6 of the SmPC. </p>         </div>"""      
 

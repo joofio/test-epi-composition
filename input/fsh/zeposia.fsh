@@ -4,7 +4,7 @@ Instance: composition-en-3f6a519af0b1268014d8e20e6028f9d5
 InstanceOf: CompositionUvEpi
 Title: "Composition for zeposia Package Leaflet"
 Description:  "Composition for zeposia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,13 +71,15 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zeposia contains the active substance ozanimod that belongs to a group of medicines which can 
 reduce the number of white blood cells (lymphocytes) circulating freely round the body. </p>
-<p>Zeposia is indicated for the following diseases: 
-- Multiple sclerosis 
-- Ulcerative colitis </p>
+<p>Zeposia is indicated for the following diseases:</p>
+<ul>
+<li>Multiple sclerosis </li>
+<li>Ulcerative colitis </li>
+</ul>
 <p>Multiple sclerosis 
 Zeposia is indicated for the treatment of adult patients with relapsing remitting multiple sclerosis 
 (RRMS) with active disease. 
-* Multiple sclerosis (MS) is a disease in which the immune system (the body’s defenses, 
+* Multiple sclerosis (MS) is a disease in which the immune system (the body s defenses, 
 including white blood cells) wrongly attack the protective coat around the nerves in the brain 
 and spinal cord. This stops the nerves from working properly and may result in symptoms such 
 as: numbness, difficulty in walking, and problems with vision and balance. 
@@ -108,7 +110,7 @@ section 6)
 * if your healthcare professional has told you that you have a severely weakened immune system 
 * if you have had a heart attack, angina, stroke or mini-stroke (Transient Ischemic Attack - TIA), 
 or certain types of severe heart failure in the last 6 months 
-* if you have certain types of irregular or abnormal heartbeats (arrhythmia) – your doctor will 
+* if you have certain types of irregular or abnormal heartbeats (arrhythmia)   your doctor will 
 check your heart before starting treatment 
 * if you have severe infection such as hepatitis or tuberculosis 
 * if you have cancer<br />
@@ -156,11 +158,11 @@ Zeposia, your doctor will explain the risk to you and ask you to do a pregnancy 
 that you are not pregnant. Your doctor will give you a card which explains why you should not 
 become pregnant while taking Zeposia. It also explains what you should do to avoid becoming 
 pregnant while you are taking Zeposia. You must use effective contraception during treatment and for 
-3 months after stopping treatment (see section “Pregnancy and breast-feeding”). </p>
+3 months after stopping treatment (see section  Pregnancy and breast-feeding ). </p>
 <p>If any of these apply to you, tell your doctor or pharmacist before taking Zeposia. </p>
 <p>Worsening of MS after stopping Zeposia treatment 
 Tell your doctor straight away if you think your MS worsens after you have stopped treatment with 
-Zeposia (see “If you stop taking Zeposia” in section 3). </p>
+Zeposia (see  If you stop taking Zeposia  in section 3). </p>
 <p>Children and adolescents 
 Do not give this medicine to children and adolescents aged under 18 years. This is because Zeposia 
 has not been studied in children and adolescents. </p>
@@ -179,7 +181,7 @@ glatiramer acetate, mitoxantrone, natalizumab or teriflunomide </li>
 <li>clopidogrel, medicine used to prevent blood clots </li>
 <li>rifampicin, an antibiotic for treating tuberculosis and other serious infections </li>
 <li>medicines called monoamine oxidase inhibitors for treating depression (e.g. phenelzine) or 
-Parkinson’s disease (e.g. selegiline)  </li>
+Parkinson s disease (e.g. selegiline)  </li>
 <li>
 <p>medicines that slow your heart rate (such as beta-blockers or calcium channel blockers) </p>
 </li>
@@ -202,7 +204,7 @@ about reliable methods of contraception.<br />
 Your doctor will give you a card which explains why you should not become pregnant while taking 
 Zeposia. </p>
 <p>If you do become pregnant while taking Zeposia, tell your doctor straight away. Your doctor will 
-decide to stop treatment (see “If you stop taking Zeposia” in section 3). Specialised pre-natal 
+decide to stop treatment (see  If you stop taking Zeposia  in section 3). Specialised pre-natal 
 monitoring will be performed. </p>
 <p>Breast-feeding 
 You should not breast-feed while you are taking Zeposia. Zeposia can pass into breast milk and there 
@@ -211,7 +213,7 @@ is a risk of serious side effects for the baby. </p>
 Zeposia has no or negligible influence on your ability to drive and use machines. </p>
 <p>Zeposia contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zeposia"
@@ -223,17 +225,15 @@ if you are not sure. </p>
 <p>How much to take 
 When you first start taking Zeposia, you need to take at a low dose and gradually build up, to reduce 
 any effect in slowing your heart rate. 
-* You will be given a ‘treatment initiation pack’ to help you start treatment in this way. It 
-contains: 
-o 
+* You will be given a  treatment initiation pack  to help you start treatment in this way. It 
+contains: * 
 4 light-grey capsules, containing 0.23 mg ozanimod. You take one of these on days 1 to 4 
-of treatment. 
-o 
+of treatment. * 
 3 light-grey and orange capsules, containing 0.46 mg ozanimod. You take one of these 
-on days 5, 6 and 7. * On day 8 and thereafter, once you have completed the ‘initiation pack’, you will move on to a 
-‘maintenance pack’ with orange capsules each containing the recommended dose of 0.92 mg 
+on days 5, 6 and 7. * On day 8 and thereafter, once you have completed the  initiation pack , you will move on to a 
+ maintenance pack  with orange capsules each containing the recommended dose of 0.92 mg 
 ozanimod. You will continue regular treatment with one 0.92 mg capsule daily. If you have 
-mild or moderate chronic liver problems, your doctor may need to reduce your ‘maintenance’ 
+mild or moderate chronic liver problems, your doctor may need to reduce your  maintenance<br />
 dose to one 0.92 mg capsule every other day. </p>
 <p>How to take Zeposia 
 * Zeposia is for oral use. 
@@ -250,14 +250,16 @@ dose for the whole day skip the missed dose and take the next dose at your usual
 about how to re-start your treatment. </p>
 <p>If you stop taking Zeposia 
 * Do not stop taking Zeposia without talking to your doctor first. 
-* Talk to your doctor about how to re-start your treatment if you have stopped taking Zeposia: 
-- for 1 day or more during the first 14 days of treatment 
-- for more than 7 consecutive days between day 15 and day 28 of treatment 
-- for more than 14 consecutive days after day 28 of treatment. 
-You will need to start the ‘treatment initiation pack’ again. </p>
+* Talk to your doctor about how to re-start your treatment if you have stopped taking Zeposia:</p>
+<ul>
+<li>for 1 day or more during the first 14 days of treatment </li>
+<li>for more than 7 consecutive days between day 15 and day 28 of treatment </li>
+<li>for more than 14 consecutive days after day 28 of treatment. 
+You will need to start the  treatment initiation pack  again. </li>
+</ul>
 <p>Zeposia will stay in your body for up to 3 months after you stop taking it. Your white blood cell count 
 (lymphocyte count) may also remain low during this time and the side effects described in this leaflet 
-may still occur (see “Possible side effects” in section 4). </p>
+may still occur (see  Possible side effects  in section 4). </p>
 <p>Tell your doctor straight away if you think your MS worsens after you have stopped treatment with 
 Zeposia.  </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
@@ -277,7 +279,7 @@ Tell your doctor or pharmacist immediately if you notice any of the serious side
 <li>urinary tract infection  </li>
 <li>increase in blood pressure </li>
 <li>Uncommon: may affect up to 1 in 100 people </li>
-<li>allergic reaction – the signs may include a rash. </li>
+<li>allergic reaction   the signs may include a rash. </li>
 <li>Rare: may affect up to 1 in 1,000 people  </li>
 <li>brain infection called progressive multifocal leukoencephalopathy (PML) (see 
 section 2)  </li>
@@ -288,7 +290,7 @@ Tell your doctor or pharmacist if you notice any of the following side effects: 
 <li>Very common: may affect more than 1 in 10 people </li>
 <li>infections of the nose or nostrils, nasal cavity, mouth, throat (pharynx), or voice box 
 (larynx) caused by viruses </li>
-<li>low level of a type of white blood cell – called lymphocytes </li>
+<li>low level of a type of white blood cell   called lymphocytes </li>
 <li>Common: may affect up to 1 in 10 people </li>
 <li>inflammation of the throat (pharyngitis) </li>
 <li>respiratory infection (sign of lungs infection) </li>
@@ -314,14 +316,16 @@ of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store zeposia"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the blister and carton after 
-EXP. The expiry date refers to the last day of that month. 
-* Do not store above 25°C. 
-* Do not use this medicine if you notice any damage or signs of tampering with the pack.<br />
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the blister and carton after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Do not store above 25 C. </li>
+<li>Do not use this medicine if you notice any damage or signs of tampering with the pack.  </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment.  </p>         </div>"""      
+environment.  </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -354,11 +358,11 @@ concentrated ammonia solution (E527), potassium hydroxide (E525) </li>
 </ul>
 <p>What Zeposia looks like and contents of the pack 
 * The Zeposia 0.23 mg, 14.3 mm hard capsule has light grey opaque cap and body imprinted in 
-black ink with “OZA” on the cap and “0.23 mg” on the body. 
+black ink with  OZA  on the cap and  0.23 mg  on the body. 
 * The Zeposia 0.46 mg, 14.3 mm hard capsule has orange opaque cap and light grey opaque body 
-imprinted in black ink with “OZA” on the cap and “0.46 mg” on the body. 
+imprinted in black ink with  OZA  on the cap and  0.46 mg  on the body. 
 * The Zeposia 0.92 mg, 14.3 mm hard capsule has orange opaque cap and body imprinted in 
-black ink with “OZA” on the cap and “0.92 mg” on the body. </p>
+black ink with  OZA  on the cap and  0.92 mg  on the body. </p>
 <p>Pack sizes 
 * Treatment initiation pack is a wallet pack containing 7 hard capsules: 4 x 0.23 mg hard capsules 
 and 3 x 0.46 mg hard capsules. 

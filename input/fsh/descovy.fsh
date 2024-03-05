@@ -4,7 +4,7 @@ Instance: composition-en-478b4098ffabcca87dff08bbf871c322
 InstanceOf: CompositionUvEpi
 Title: "Composition for descovy Package Leaflet"
 Description:  "Composition for descovy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -123,7 +123,7 @@ treatment with Descovy. </p>
 <li>Signs of inflammation or infection </li>
 <li>Joint pain, stiffness or bone problems </li>
 </ul>
-<p>→ If you notice any of these symptoms, tell your doctor immediately.  For more information see 
+<p>If you notice any of these symptoms, tell your doctor immediately.  For more information see 
 section 4, Possible side effects. </p>
 <p>There is a possibility that you may experience kidney problems when taking Descovy over a long 
 period of time (see Warnings and precautions). </p>
@@ -142,18 +142,32 @@ You should not take Descovy with medicines containing:
 * tenofovir disoproxil 
 * lamivudine 
 * adefovir dipivoxil </p>
-<p>→ Tell your doctor if you are taking any of these medicines. </p>
+<p>Tell your doctor if you are taking any of these medicines. </p>
 <p>Other types of medicine: 
 Talk to your doctor if you are taking: 
-* antibiotics, used to treat bacterial infections including tuberculosis, containing: 
-- rifabutin, rifampicin, and rifapentine 
-* antiviral medicines used to treat HIV: 
-- emtricitabine and tipranavir 
-* anticonvulsants, used to treat epilepsy, such as: 
-- carbamazepine, oxcarbazepine, phenobarbital and phenytoin 
-* herbal remedies used to treat depression and anxiety containing: 
-- St. John’s wort (Hypericum perforatum) </p>
-<p>→ Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
+* antibiotics, used to treat bacterial infections including tuberculosis, containing:</p>
+<ul>
+<li>rifabutin, rifampicin, and rifapentine </li>
+<li>
+<p>antiviral medicines used to treat HIV:</p>
+</li>
+<li>
+<p>emtricitabine and tipranavir </p>
+</li>
+<li>
+<p>anticonvulsants, used to treat epilepsy, such as:</p>
+</li>
+<li>
+<p>carbamazepine, oxcarbazepine, phenobarbital and phenytoin </p>
+</li>
+<li>
+<p>herbal remedies used to treat depression and anxiety containing:</p>
+</li>
+<li>
+<p>St. John s wort (Hypericum perforatum) </p>
+</li>
+</ul>
+<p>Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
 without contacting your doctor. </p>
 <p>Pregnancy and breast-feeding </p>
 <ul>
@@ -177,7 +191,7 @@ Descovy can cause dizziness.  If you feel dizzy when taking Descovy, do not driv
 tools or machines. </p>
 <p>Descovy contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take descovy"
@@ -221,7 +235,7 @@ few days.  The disease may then become harder to treat. </p>
 without talking to your doctor first.  You may require blood tests for several months after stopping 
 treatment.  In some patients with advanced liver disease or cirrhosis, stopping treatment may lead to 
 worsening of hepatitis, which may be life-threatening. </p>
-<p>→ Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -238,15 +252,19 @@ particularly symptoms you associate with hepatitis B infection. </p>
 (AIDS) and who have had opportunistic infections in the past (infections that occur in people 
 with a weak immune system), signs and symptoms of inflammation from previous infections 
 may occur soon after antiretroviral treatment is started.  It is thought that these symptoms are 
-due to an improvement in the body’s immune response, enabling the body to fight infections 
+due to an improvement in the body s immune response, enabling the body to fight infections 
 that may have been present with no obvious symptoms. </li>
-<li>Autoimmune disorders (the immune system attacks healthy body tissue), may also occur after 
+<li>
+<p>Autoimmune disorders (the immune system attacks healthy body tissue), may also occur after 
 you start taking medicines for HIV infection.  Autoimmune disorders may occur many months 
-after the start of treatment.  Look out for any symptoms of infection or other symptoms such as: </li>
-<li>muscle weakness </li>
+after the start of treatment.  Look out for any symptoms of infection or other symptoms such as:</p>
+</li>
+<li>
+<p>muscle weakness </p>
+</li>
 <li>weakness beginning in the hands and feet and moving up towards the trunk of the body </li>
 <li>palpitations, tremor or hyperactivity 
-→ If you notice the side effects described above, tell your doctor immediately. </li>
+  If you notice the side effects described above, tell your doctor immediately. </li>
 </ul>
 <p>Very common side effects 
 (may affect more than 1 in 10 people) 
@@ -270,23 +288,27 @@ after the start of treatment.  Look out for any symptoms of infection or other s
 * itching (pruritus) 
 * hives (urticaria) 
 * joint pain (arthralgia) </p>
-<p>→ If any of the side effects get serious tell your doctor. </p>
+<p>If any of the side effects get serious tell your doctor. </p>
 <p>Other effects that may be seen during HIV treatment </p>
 <p>The frequency of the following side effects is not known (frequency cannot be estimated from the 
 available data). </p>
 <ul>
-<li>Bone problems.  Some patients taking combination antiretroviral medicines such as Descovy 
+<li>
+<p>Bone problems.  Some patients taking combination antiretroviral medicines such as Descovy 
 may develop a bone disease called osteonecrosis (death of bone tissue caused by loss of blood 
 supply to the bone).  Taking this type of medicine for a long time, taking corticosteroids, 
 drinking alcohol, having a very weak immune system, and being overweight, may be some of 
-the many risk factors for developing this disease.  Signs of osteonecrosis are: </li>
-<li>joint stiffness </li>
+the many risk factors for developing this disease.  Signs of osteonecrosis are:</p>
+</li>
+<li>
+<p>joint stiffness </p>
+</li>
 <li>
 <p>joint aches and pains (especially of the hip, knee and shoulder) </p>
 </li>
 <li>
 <p>difficulty with movement 
-→ If you notice any of these symptoms tell your doctor. </p>
+  If you notice any of these symptoms tell your doctor. </p>
 </li>
 </ul>
 <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose.  This 
@@ -304,7 +326,7 @@ listed in Appendix V. </p>
   * code.text = "5. How to store descovy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and bottle after “EXP”.<br />
+<p>Do not use this medicine after the expiry date which is stated on the carton and bottle after  EXP .<br />
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture.  Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
@@ -326,8 +348,8 @@ Microcrystalline cellulose, croscarmellose sodium, magnesium stearate. </p>
 <p>Film-coating: 
 Polyvinyl alcohol, titanium dioxide, macrogol 3350, talc, iron oxide black (E172). </p>
 <p>What Descovy looks like and contents of the pack </p>
-<p>Descovy film-coated tablets are grey, rectangular-shaped tablets, debossed on one side with “GSI” and 
-the number “210” on the other side of the tablet. </p>
+<p>Descovy film-coated tablets are grey, rectangular-shaped tablets, debossed on one side with  GSI  and 
+the number  210  on the other side of the tablet. </p>
 <p>Descovy comes in bottles of 30 tablets (with a silica gel desiccant that must be kept in the bottle to 
 help protect your tablets).  The silica gel desiccant is contained in a separate sachet or canister and 
 should not be swallowed. </p>
@@ -346,22 +368,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
 Danmark 
@@ -380,14 +401,13 @@ Eesti
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -395,14 +415,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: +48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18  </p>
 <p>Ireland 
@@ -411,10 +431,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -422,10 +442,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

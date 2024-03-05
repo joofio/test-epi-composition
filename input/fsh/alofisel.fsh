@@ -4,7 +4,7 @@ Instance: composition-en-f00c2d057b37e01d3588f608535352b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for alofisel Package Leaflet"
 Description:  "Composition for alofisel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ the fat tissue of a healthy adult donor (so-called allogenic stem cells) and the
 Adult stem cells are a special type of cells found in many adult tissues, whose primary role is the 
 repair of the tissue in which they are found.  </p>
 <p>Alofisel is a medicine used for the treatment of complex perianal fistulas in adult patients with 
-Crohn´s disease (a disease causing inflammation of the gut) when the other symptoms of the disease 
+Crohn s disease (a disease causing inflammation of the gut) when the other symptoms of the disease 
 are controlled or have a mild intensity. Perianal fistulas are abnormal channels that connect parts of 
 the lower bowel (rectum and anus) and the skin near the anus, so that one or more openings appear 
 near the anus. Perianal fistulas are described as complex if they have multiple channels and openings, 
@@ -93,8 +93,7 @@ the fistulas healing. </p>         </div>"""
   * code.text = "2. What you need to know before you take alofisel"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Alofisel </p>
-<p>− 
-if you are allergic to darvadstrocel, bovine serum or to any of the ingredients of this medicine 
+<p>if you are allergic to darvadstrocel, bovine serum or to any of the ingredients of this medicine 
 (listed in section 6). </p>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor or surgeon before you are given Alofisel. </p>
@@ -134,7 +133,7 @@ considering the benefit of breast-feeding to the baby and the benefit of Alofise
 <p>You may have had an initial consultation with the Surgeon 2 to 3 weeks prior to Alofisel 
 administration. The following information is related to the day when Alofisel is administered. </p>
 <p>Alofisel is injected by a surgeon in the fistula tract tissue.  </p>
-<p>The recommended dose is 4 vials of 6 mL (120 × 106 cells). </p>
+<p>The recommended dose is 4 vials of 6 mL (120   106 cells). </p>
 <p>Before treatment with Alofisel, you will be given an anaesthetic.  </p>
 <p>Once you have been anaesthetised (general or regional anaesthesia), your surgeon will: 
 * prepare the fistulas with sodium chloride 9 mg/mL (0.9%) solution and remove any scar tissue. 
@@ -173,7 +172,7 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton. </p>
-<p>Store between 15 °C and 25 °C.  </p>
+<p>Store between 15  C and 25  C.  </p>
 <p>Do not refrigerate or freeze. </p>
 <p>Keep the medicine inside the cardboard box to protect from light and moisture, and within the 
 shipping container at all times until its administration, to maintain the required temperature. </p>
@@ -186,14 +185,12 @@ shipping container at all times until its administration, to maintain the requir
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Alofisel contains </p>
-<p>− 
-The active ingredient is darvadstrocel which consists of human stem cells obtained from the fat 
+<p>The active ingredient is darvadstrocel which consists of human stem cells obtained from the fat 
 tissue of a healthy adult donor that are subsequently grown (expanded) in the laboratory and 
-provided at a concentration of 5 × 106 cells per millilitre in vials which each contain 
-6 millilitres, i.e. 30 × 106 cells per vial. 
-− 
-There are two excipients used for storage of the cells: one is a liquid called Dulbecco’s 
-Modified Eagle´s Medium containing nutrients for the cells (amino acids, vitamins, salts and 
+provided at a concentration of 5   106 cells per millilitre in vials which each contain 
+6 millilitres, i.e. 30   106 cells per vial. </p>
+<p>There are two excipients used for storage of the cells: one is a liquid called Dulbecco s 
+Modified Eagle s Medium containing nutrients for the cells (amino acids, vitamins, salts and 
 carbohydrates), and the other is human albumin, which is a natural protein found in the human 
 body. </p>
 <p>What Alofisel looks like and contents of the pack </p>
@@ -209,7 +206,7 @@ Denmark </p>
 <p>Manufacturer </p>
 <p>TiGenix S.A.U. 
 C/Marconi 1 
-Parque Tecnológico de Madrid 
+Parque Tecnol gico de Madrid 
 28760 Tres Cantos, Madrid 
 Spain </p>
 <p>Takeda Ireland Ltd.<br />

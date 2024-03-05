@@ -4,7 +4,7 @@ Instance: composition-en-eea75696c0638bfef12b52e191d0d8ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for amifampridine Package Leaflet"
 Description:  "Composition for amifampridine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -124,7 +124,7 @@ Tell your doctor if you are taking, have recently taken or might take any other 
 medicines must not be combined with Amifampridine SERB:<br />
 Medicines that may change the electrical activity of your heart (QT-interval prolongation - detectable 
 in the electrocardiogram) e.g., sultopride, disopyramide, cisapride, domperidone, rifampicin, and 
-ketoconazole (see “Do not take Amifampridine SERB”) </p>
+ketoconazole (see  Do not take Amifampridine SERB ) </p>
 <p>It is especially important to talk to your doctor if you are taking one of the following medicines or plan 
 to start taking the following medicines: 
 Medicines for malaria (e.g. halofantrine and mefloquine) 
@@ -263,16 +263,16 @@ Avenue Louise 480 <br />
 Belgium </p>
 <p>Manufacturers 
 EXCELLA GmbH &amp; Co KG 
-Nürnberger Strasse 90537 Feucht<br />
+N rnberger Strasse 90537 Feucht<br />
 Germany </p>
 <p>SERB S.A.<br />
 Avenue Louise 480 <br />
 1050 Bruxelles 
 Belgium  </p>
 <p>This leaflet was last revised in  </p>
-<p>Amifampridine SERB contains the same active substance and works in the same way as a ‘reference 
-medicine’ already authorised in the EU. The reference medicine for Amifampridine SERB has been 
-authorised under ‘exceptional circumstances’. This means that because of the rarity of this disease it 
+<p>Amifampridine SERB contains the same active substance and works in the same way as a  reference 
+medicine  already authorised in the EU. The reference medicine for Amifampridine SERB has been 
+authorised under  exceptional circumstances . This means that because of the rarity of this disease it 
 has been impossible to get complete information on the reference medicine. The European Medicines 
 Agency will review any new information on the reference medicine every year and any updates for the 
 reference medicine will also be included as appropriate in the information for Amifampridine SERB, 

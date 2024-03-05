@@ -4,7 +4,7 @@ Instance: composition-en-8774c315768c11f1f8299f9a299778e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for abasaglar Package Leaflet"
 Description:  "Composition for abasaglar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,29 +98,24 @@ you are currently injecting into a lumpy area before you start injecting into a 
 doctor may tell you to check your blood sugar more closely, and to adjust your insulin or your other 
 antidiabetic medications dose. </p>
 <p>Travel 
-Before travelling consult your doctor. You may need to talk about: 
--<br />
-the availability of your insulin in the country you are visiting, 
--<br />
-supplies of insulin etc. 
--<br />
-correct storage of your insulin while travelling, 
--<br />
-timing of meals and insulin administration while travelling, 
--<br />
-the possible effects of changing to different time zones, 
--<br />
-possible new health risks in the countries to be visited, 
--<br />
-what you should do in emergency situations when you feel unwell or become ill. </p>
+Before travelling consult your doctor. You may need to talk about:</p>
+<ul>
+<li>the availability of your insulin in the country you are visiting, </li>
+<li>supplies of insulin etc. </li>
+<li>correct storage of your insulin while travelling, </li>
+<li>timing of meals and insulin administration while travelling, </li>
+<li>the possible effects of changing to different time zones, </li>
+<li>possible new health risks in the countries to be visited, </li>
+<li>what you should do in emergency situations when you feel unwell or become ill. </li>
+</ul>
 <p>Illnesses and injuries 
 In the following situations, the management of your diabetes may require a lot of care (for example, 
-adjustment to insulin dose, blood and urine tests): 
--<br />
-If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). 
--<br />
-If you are not eating enough your blood sugar level may become too low (hypoglycaemia). 
-In most cases you will need a doctor. Make sure that you contact a doctor early. </p>
+adjustment to insulin dose, blood and urine tests):</p>
+<ul>
+<li>If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). </li>
+<li>If you are not eating enough your blood sugar level may become too low (hypoglycaemia). 
+In most cases you will need a doctor. Make sure that you contact a doctor early. </li>
+</ul>
 <p>If you have type 1 diabetes (insulin dependent diabetes mellitus), do not stop your insulin and continue 
 to get enough carbohydrates. Always tell people who are caring for you or treating you that you 
 require insulin. </p>
@@ -142,7 +137,7 @@ are either too low or too high. Be careful when you start or stop taking another
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Before taking a medicine ask your doctor if it can affect your blood sugar level and what 
 action, if any, you need to take. </p>
-<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include: </p>
+<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include:</p>
 <ul>
 <li>all other medicines to treat diabetes, </li>
 <li>angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
@@ -156,7 +151,7 @@ blood pressure), </li>
 make too much growth hormone), </li>
 <li>sulphonamide antibiotics. </li>
 </ul>
-<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include: </p>
+<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:</p>
 <ul>
 <li>corticosteroids (such as "cortisone" used to treat inflammation), </li>
 <li>danazol (medicine acting on ovulation), </li>
@@ -173,7 +168,7 @@ treat asthma), </li>
 <li>atypical antipsychotic medicines (such as clozapine, olanzapine), </li>
 <li>protease inhibitors (used to treat HIV). </li>
 </ul>
-<p>Your blood sugar level may either rise or fall if you take: </p>
+<p>Your blood sugar level may either rise or fall if you take:</p>
 <ul>
 <li>beta-blockers (used to treat high blood pressure), </li>
 <li>clonidine (used to treat high blood pressure), </li>
@@ -194,22 +189,23 @@ control of your diabetes, and prevention of hypoglycaemia, is important for the 
 If you are breast-feeding consult your doctor as you may require adjustments in your insulin doses and 
 your diet. </p>
 <p>Driving and using machines 
-Your ability to concentrate or react may be reduced if: 
--<br />
-you have hypoglycaemia (low blood sugar levels), 
--<br />
-you have hyperglycaemia (high blood sugar levels), 
--<br />
-you have problems with your sight. 
+Your ability to concentrate or react may be reduced if:</p>
+<ul>
+<li>you have hypoglycaemia (low blood sugar levels), </li>
+<li>you have hyperglycaemia (high blood sugar levels), </li>
+<li>
+<p>you have problems with your sight. 
 Keep this possible problem in mind in all situations where you might put yourself and others at risk 
-(such as driving a car or using machines). You should contact your doctor for advice on driving if: 
--<br />
-you have frequent episodes of hypoglycaemia, 
--<br />
-the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </p>
+(such as driving a car or using machines). You should contact your doctor for advice on driving if:</p>
+</li>
+<li>
+<p>you have frequent episodes of hypoglycaemia, </p>
+</li>
+<li>the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </li>
+</ul>
 <p>ABASAGLAR contains sodium 
 This medicine contains less than 1 mmol (23 mg) sodium per dose, which means it is essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abasaglar"
@@ -224,7 +220,7 @@ another requires medical prescription, medical supervision and blood glucose mon
 consult your doctor for further information. </p>
 <p>Dose 
 Based on your life-style and the results of your blood sugar (glucose) tests and your previous insulin 
-usage, your doctor will: </p>
+usage, your doctor will:</p>
 <ul>
 <li>determine how much ABASAGLAR per day you will need and at what time, </li>
 <li>tell you when to check your blood sugar level, and whether you need to carry out urine tests, </li>
@@ -301,7 +297,7 @@ very common with insulin treatment (may affect more than 1 in 10 people). Low bl
 that there is not enough sugar in your blood. If your blood sugar level falls too low, you may pass out 
 (become unconscious). Serious hypoglycaemia may cause brain damage and may be life-threatening. 
 For more information, see the box at the end of this leaflet. </p>
-<p>Severe allergic reactions (rare, may affect up to 1 in 1,000 people) – the signs may include large-scale 
+<p>Severe allergic reactions (rare, may affect up to 1 in 1,000 people)   the signs may include large-scale 
 skin reactions (rash and itching all over the body), severe swelling of skin or mucous membranes 
 (angiooedema), shortness of breath, a fall in blood pressure with rapid heartbeat and sweating. Severe 
 allergic reactions to insulins may become life-threatening. Tell a doctor straight away if you notice 
@@ -352,14 +348,14 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the 
-cartridge after “EXP”. The expiry date refers to the last day of that month. </p>
+cartridge after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Unopened cartridges 
-Store in a refrigerator (2°C - 8°C). Do not freeze.<br />
+Store in a refrigerator (2 C - 8 C). Do not freeze.<br />
 Do not put ABASAGLAR next to the freezer compartment or a freezer pack.<br />
 Keep the cartridge in the outer carton in order to protect from light. </p>
 <p>In-use cartridges 
 Cartridges in use (in the insulin pen) or carried as a spare may be stored for a maximum of 28 days up 
-to 30°C and away from direct heat or direct light. The cartridge in use must not be stored in a 
+to 30 C and away from direct heat or direct light. The cartridge in use must not be stored in a 
 refrigerator. Do not use it after this time period. </p>
 <p>Do not use ABASAGLAR if you notice particles in it. Only use ABASAGLAR if the solution is clear, 
 colourless and water like. </p>
@@ -372,13 +368,12 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ABASAGLAR contains 
--<br />
-The active substance is insulin glargine. Each millilitre of the solution contains 100 units of the 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What ABASAGLAR contains</h2>
+<p>The active substance is insulin glargine. Each millilitre of the solution contains 100 units of the 
 active substance insulin glargine (equivalent to 3.64 mg). 
 -<br />
 The other ingredients are: zinc oxide, metacresol, glycerol, sodium hydroxide (see section 2 
-“ABASAGLAR contains sodium”), hydrochloric acid and water for injections. </p>
+ ABASAGLAR contains sodium ), hydrochloric acid and water for injections. </p>
 <p>What ABASAGLAR looks like and contents of the pack 
 ABASAGLAR 100 units/mL solution for injection in a cartridge is a clear and colourless solution. </p>
 <p>ABASAGLAR comes in a special cartridge to be used only in a Lilly insulin pen. Each cartridge 
@@ -392,23 +387,22 @@ Lilly France S.A.S., rue du Colonel Lilly, F-67640 Fegersheim, France.
 Eli Lilly Italia S.p.A., Via Gramsci 731-733, 50019 Sesto Fiorentino, (FI) Italy. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. +359 2 491 41<br />
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . - <br />
+ . +359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
-Česká republika 
-ELI LILLY ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84<br />
+ esk  republika 
+ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5 
 Danmark 
 Eli Lilly Danmark A/S<br />
@@ -427,14 +421,14 @@ Eli Lilly Nederland B.V.
 Tel: +372 6 817<br />
 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18<br />
-Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: + 47 22 88 18  </p>
+<ul>
+<li>. . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
 Tel: + 43-(0) 1 711<br />
-España 
+Espa a 
 Lilly S.A. 
 Tel: + 34-91 663 50<br />
 Polska 
@@ -442,26 +436,26 @@ Eli Lilly Polska Sp. z o.o.
 Tel: +48 22 440 33<br />
 France 
 Lilly France<br />
-Tél: +33-(0) 1 55 49 34<br />
+T l: +33-(0) 1 55 49 34<br />
 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126 
 Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023 
 Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
 Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
+Eli Lilly farmacevtska dru ba, d.o.o. 
 Tel: +386 (0)1 580 00<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663<br />
 Italia 
@@ -469,15 +463,15 @@ Eli Lilly Italia S.p.A.
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45<br />
-Κύπρος 
-Phadisco Ltd<br />
-Τηλ: +357 22 715 </p>
+Puh/Tel: + 358-(0) 9 85 45  </li>
+</ul>
+<p>Phadisco Ltd<br />
+ : +357 22 715 </p>
 <p>Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378 
 Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā Tel: 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij  Tel: 
 +371 67364 
 United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

@@ -4,7 +4,7 @@ Instance: composition-en-bd22c6cb08ec26dbc8a674d031b87df0
 InstanceOf: CompositionUvEpi
 Title: "Composition for exjade Package Leaflet"
 Description:  "Composition for exjade Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -108,28 +108,30 @@ may be allergic, ask your doctor for advice.
 - if you are at an advanced stage of myelodysplastic syndrome (MDS; decreased production of 
 blood cells by the bone marrow) or have advanced cancer. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking EXJADE: 
-- if you have a kidney or liver problem. 
-- if you have a cardiac problem due to iron overload. 
-- if you notice a marked decrease in your urine output (sign of kidney problem). 
-- if you develop a severe rash, or difficulty breathing and dizziness or swelling mainly of the face 
-and throat (signs of severe allergic reaction, see also section 4 “Possible side effects”). 
-- if you experience a combination of any of the following symptoms: rash, red skin, blistering of 
+Talk to your doctor or pharmacist before taking EXJADE:</p>
+<ul>
+<li>if you have a kidney or liver problem. </li>
+<li>if you have a cardiac problem due to iron overload. </li>
+<li>if you notice a marked decrease in your urine output (sign of kidney problem). </li>
+<li>if you develop a severe rash, or difficulty breathing and dizziness or swelling mainly of the face 
+and throat (signs of severe allergic reaction, see also section 4  Possible side effects ). </li>
+<li>if you experience a combination of any of the following symptoms: rash, red skin, blistering of 
 the lips, eyes or mouth, skin peeling, high fever, flu-like symptoms, enlarged lymph nodes 
-(signs of severe skin reaction, see also section 4 “Possible side effects”). 
-- if you experience a combination of drowsiness, upper right abdominal pain, yellowing or 
-increased yellowing of your skin or eyes and dark urine (signs of liver problems). 
-- if you experience difficulty thinking, remembering information, or solving problems, being less 
+(signs of severe skin reaction, see also section 4  Possible side effects ). </li>
+<li>if you experience a combination of drowsiness, upper right abdominal pain, yellowing or 
+increased yellowing of your skin or eyes and dark urine (signs of liver problems). </li>
+<li>if you experience difficulty thinking, remembering information, or solving problems, being less 
 alert or aware or feeling very sleepy with low energy (signs of a high level of ammonia in your 
-blood, which may be associated with liver or renal problems, see also section 4 “Possible side 
-effects”). 
-- if you vomit blood and/or have black stools. 
-- if you experience frequent abdominal pain, particularly after eating or taking EXJADE. 
-- if you experience frequent heartburn. 
-- if you have a low level of platelets or white blood cells in your blood test. 
-- if you have blurred vision 
-- if you have diarrhoea or vomiting. 
-If any of these apply to you, tell your doctor straight away. </p>
+blood, which may be associated with liver or renal problems, see also section 4  Possible side 
+effects ). </li>
+<li>if you vomit blood and/or have black stools. </li>
+<li>if you experience frequent abdominal pain, particularly after eating or taking EXJADE. </li>
+<li>if you experience frequent heartburn. </li>
+<li>if you have a low level of platelets or white blood cells in your blood test. </li>
+<li>if you have blurred vision </li>
+<li>if you have diarrhoea or vomiting. 
+If any of these apply to you, tell your doctor straight away. </li>
+</ul>
 <p>Monitoring your EXJADE treatment 
 You will have regular blood and urine tests during treatment. These will monitor the amount of iron in 
 your body (blood level of ferritin) to see how well EXJADE is working. The tests will also monitor 
@@ -142,30 +144,32 @@ you should stop taking EXJADE. </p>
 <p>Your eyesight and hearing will be tested each year during treatment as a precautionary measure. </p>
 <p>Other medicines and EXJADE 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. This includes in particular: 
-- other iron chelators, which must not be taken with EXJADE, 
-- antacids (medicines used to treat heartburn) containing aluminium, which should not be taken at 
-the same time of day as EXJADE, 
-- ciclosporin (used to prevent the body rejecting a transplanted organ or for other conditions, such 
-as rheumatoid arthritis or atopic dermatitis), 
-- simvastatin (used to lower cholesterol), 
-- certain painkillers or anti-inflammatory medicines (e.g. aspirin, ibuprofen, corticosteroids), 
-- oral bisphosphonates (used to treat osteoporosis), 
-- anticoagulant medicines (used to prevent or treat blood clotting), 
-- hormonal contraceptive agents (birth control medicines), 
-- bepridil, ergotamine (used for heart problems and migraines), 
-- repaglinide (used to treat diabetes), 
-- rifampicin (used to treat tuberculosis), 
-- phenytoin, phenobarbital, carbamazepine (used to treat epilepsy), 
-- ritonavir (used in the treatment of HIV infection), 
-- paclitaxel (used in cancer treatment), 
-- theophylline (used to treat respiratory diseases such as asthma), 
-- clozapine (used to treat psychiatric disorders such as schizophrenia), 
-- tizanidine (used as a muscle relaxant), 
-- cholestyramine (used to lower cholesterol levels in the blood), 
-- busulfan (used as a treatment prior to transplantation in order to destroy the original bone 
-marrow before the transplant), 
-- midazolam (used to relieve anxiety and/or trouble sleeping). </p>
+medicines. This includes in particular:</p>
+<ul>
+<li>other iron chelators, which must not be taken with EXJADE, </li>
+<li>antacids (medicines used to treat heartburn) containing aluminium, which should not be taken at 
+the same time of day as EXJADE, </li>
+<li>ciclosporin (used to prevent the body rejecting a transplanted organ or for other conditions, such 
+as rheumatoid arthritis or atopic dermatitis), </li>
+<li>simvastatin (used to lower cholesterol), </li>
+<li>certain painkillers or anti-inflammatory medicines (e.g. aspirin, ibuprofen, corticosteroids), </li>
+<li>oral bisphosphonates (used to treat osteoporosis), </li>
+<li>anticoagulant medicines (used to prevent or treat blood clotting), </li>
+<li>hormonal contraceptive agents (birth control medicines), </li>
+<li>bepridil, ergotamine (used for heart problems and migraines), </li>
+<li>repaglinide (used to treat diabetes), </li>
+<li>rifampicin (used to treat tuberculosis), </li>
+<li>phenytoin, phenobarbital, carbamazepine (used to treat epilepsy), </li>
+<li>ritonavir (used in the treatment of HIV infection), </li>
+<li>paclitaxel (used in cancer treatment), </li>
+<li>theophylline (used to treat respiratory diseases such as asthma), </li>
+<li>clozapine (used to treat psychiatric disorders such as schizophrenia), </li>
+<li>tizanidine (used as a muscle relaxant), </li>
+<li>cholestyramine (used to lower cholesterol levels in the blood), </li>
+<li>busulfan (used as a treatment prior to transplantation in order to destroy the original bone 
+marrow before the transplant), </li>
+<li>midazolam (used to relieve anxiety and/or trouble sleeping). </li>
+</ul>
 <p>Additional tests may be required to monitor the blood levels of some of these medicines. </p>
 <p>Older people (age 65 years and over) 
 EXJADE can be used by people aged 65 years and over at the same dose as for other adults. Elderly 
@@ -189,7 +193,7 @@ If you feel dizzy after taking EXJADE, do not drive or operate any tools or mach
 feeling normal again. </p>
 <p>EXJADE contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially ‘sodium free’. </p>         </div>"""   
+essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exjade"
@@ -230,8 +234,8 @@ food should be immediately and completely consumed. Do not store it for future u
 <p>How long to take EXJADE 
 Continue taking EXJADE every day for as long as your doctor tells you. This is a long-term 
 treatment, possibly lasting for months or years. Your doctor will regularly monitor your condition to 
-check that the treatment is having the desired effect (see also section 2: “Monitoring your EXJADE 
-treatment”). </p>
+check that the treatment is having the desired effect (see also section 2:  Monitoring your EXJADE 
+treatment ). </p>
 <p>If you have questions about how long to take EXJADE, talk to your doctor. </p>
 <p>If you take more EXJADE than you should 
 If you have taken too much EXJADE, or if someone else accidentally takes your tablets, contact your 
@@ -243,7 +247,7 @@ If you miss a dose, take it as soon as you remember on that day. Take your next 
 not take a double dose on the next day to make up for the forgotten tablet(s). </p>
 <p>If you stop taking EXJADE 
 Do not stop taking EXJADE unless your doctor tells you to. If you stop taking it, the excess iron will 
-no longer be removed from your body (see also above section “How long to take EXJADE”). </p>         </div>"""         
+no longer be removed from your body (see also above section  How long to take EXJADE ). </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -323,13 +327,15 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store exjade"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the blister and the carton after 
-EXP. The expiry date refers to the last day of that month. 
-* Do not use any pack that is damaged or shows signs of tampering. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the blister and the carton after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Do not use any pack that is damaged or shows signs of tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -347,11 +353,11 @@ colloidal anhydrous silica and poloxamer. The tablet coating material contains: 
 dioxide (E171); macrogol (4000); talc; indigo carmine aluminium lake (E132). </p>
 <p>What EXJADE looks like and contents of the pack 
 EXJADE is supplied as film-coated tablets. The film-coated tablets are ovaloid and biconvex. 
-* EXJADE 90 mg film-coated tablets are light blue and stamped “90” on one side and “NVR” on 
+* EXJADE 90 mg film-coated tablets are light blue and stamped  90  on one side and  NVR  on 
 the other. 
-* EXJADE 180 mg film-coated tablets are medium blue and stamped “180” on one side and 
-“NVR” on the other. 
-* EXJADE 360 mg film-coated tablets are dark blue and stamped “360” on one side and “NVR” 
+* EXJADE 180 mg film-coated tablets are medium blue and stamped  180  on one side and 
+ NVR  on the other. 
+* EXJADE 360 mg film-coated tablets are dark blue and stamped  360  on one side and  NVR<br />
 on the other. </p>
 <p>Each blister pack contains 30 or 90 film-coated tablets. The multipacks contain 300 (10 packs of 30) 
 film-coated tablets. </p>
@@ -364,10 +370,10 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer 
 Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
-<p>Novartis Farmacéutica SA 
-Ronda de Santa Maria 08210 Barberà del Vallès, Barcelona 
+<p>Novartis Farmac utica SA 
+Ronda de Santa Maria 08210 Barber  del Vall s, Barcelona 
 Spain </p>
 <p>Sandoz S.R.L. 
 Str. Livezeni nr. 7A 
@@ -375,23 +381,22 @@ Str. Livezeni nr. 7A
 Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -407,35 +412,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -443,10 +448,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />
@@ -475,5 +479,5 @@ important information for you.
 - This medicine has been prescribed only for you or your child. Do not pass it on to others. It may 
 harm them, even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+effects not listed in this leaflet. See section </p>         </div>"""      
 

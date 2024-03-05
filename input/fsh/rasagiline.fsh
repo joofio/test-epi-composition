@@ -4,7 +4,7 @@ Instance: composition-en-b0e9ca3c0296dbd9d61e291d9ccda718
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasagiline Package Leaflet"
 Description:  "Composition for rasagiline Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,9 +70,9 @@ Usage: #example
   * code.text =  "1. What rasagiline is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rasagiline Mylan contains the active substance rasagiline and it is used for the treatment of 
-Parkinson’s disease in adults. It can be used together with or without levodopa (another medicine that 
-is used to treat Parkinson’s disease). </p>
-<p>With Parkinson’s disease, there is a loss of cells that produce dopamine in the brain. Dopamine is a 
+Parkinson s disease in adults. It can be used together with or without levodopa (another medicine that 
+is used to treat Parkinson s disease). </p>
+<p>With Parkinson s disease, there is a loss of cells that produce dopamine in the brain. Dopamine is a 
 chemical in the brain involved in movement control. Rasagiline Mylan helps to increase and sustain 
 levels of dopamine in the brain. </p>         </div>"""   
           
@@ -83,17 +83,21 @@ levels of dopamine in the brain. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take rasagiline"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rasagiline Mylan: 
-- if you are allergic to rasagiline or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you have severe liver problems. </p>
-<p>Do not take the following medicines while taking Rasagiline Mylan:<br />
-- monoamine oxidase (MAO) inhibitors (e.g. for treatment of depression or Parkinson’s disease, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rasagiline Mylan:</p>
+<ul>
+<li>if you are allergic to rasagiline or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if you have severe liver problems. </li>
+</ul>
+<p>Do not take the following medicines while taking Rasagiline Mylan:</p>
+<ul>
+<li>monoamine oxidase (MAO) inhibitors (e.g. for treatment of depression or Parkinson s disease, 
 or used for any other indication), including medicinal and natural products without prescription 
-e.g. St. John's Wort. 
-- pethidine (a strong pain killer). 
+e.g. St. John's Wort. </li>
+<li>pethidine (a strong pain killer). 
 You must wait at least 14 days after stopping Rasagiline Mylan treatment and starting treatment with 
-MAO inhibitors or pethidine. </p>
+MAO inhibitors or pethidine. </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor before taking Rasagiline Mylan. 
 - if you have  any liver problems 
@@ -102,28 +106,36 @@ increase the risk of skin cancer. </p>
 <p>Tell your doctor if you or your family/carer notices that you are developing unusual 
 behaviours where you cannot resist the impulse, urges or cravings to carry out certain harmful or 
 detrimental activities to yourself or others. These are called impulse control disorders. In patients 
-taking Rasagiline Mylan and/or other medicines used to treat Parkinson’s disease, behaviours such as 
+taking Rasagiline Mylan and/or other medicines used to treat Parkinson s disease, behaviours such as 
 compulsions, obsessive thoughts, addictive gambling, excessive spending, impulsive behaviour and an 
 abnormally high sex drive or an increase in sexual thoughts or feelings have been observed. Your 
 doctor may need to adjust or stop your dose (see section 4). </p>
 <p>Rasagiline Mylan may cause drowsiness and may cause you to suddenly fall asleep during day 
 time activities, especially if you are taking other dopaminergic medicinal products (used for the 
-treatment of Parkinson’s disease). For further information please refer to section driving and using 
+treatment of Parkinson s disease). For further information please refer to section driving and using 
 machines. </p>
 <p>Children and adolescents 
 There is no relevant use of Rasagiline Mylan in children and adolescents. Therefore, Rasagiline Mylan 
-is not recommended for use under the age of 18.<br />
-Other medicines and Rasagiline Mylan 
+is not recommended for use under the age of 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rasagiline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rasagiline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Rasagiline Mylan 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Ask your doctor for advice before taking any of the following medicines together with Rasagiline 
-Mylan: 
-- Certain antidepressants (selective serotonin reuptake inhibitors, selective serotonin-
-norepinephrine reuptake inhibitors, tricyclic or tetracyclic antidepressants) 
-- the antibiotic ciprofloxacin used against infections 
-- the cough suppressant dextromethorphan 
-- sympathomimetics such as those present in eye drops, nasal and oral decongestants and cold 
-medicine containing ephedrine or pseudoephedrine. </p>
+Mylan:</p>
+<ul>
+<li>Certain antidepressants (selective serotonin reuptake inhibitors, selective serotonin-
+norepinephrine reuptake inhibitors, tricyclic or tetracyclic antidepressants) </li>
+<li>the antibiotic ciprofloxacin used against infections </li>
+<li>the cough suppressant dextromethorphan </li>
+<li>sympathomimetics such as those present in eye drops, nasal and oral decongestants and cold 
+medicine containing ephedrine or pseudoephedrine. </li>
+</ul>
 <p>The use of Rasagiline Mylan together with the antidepressants containing fluoxetine or fluvoxamine 
 should be avoided. </p>
 <p>If you are starting treatment with Rasagiline Mylan, you should wait at least 5 weeks after stopping 
@@ -138,18 +150,19 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <p>You should avoid taking Rasagiline Mylan if you are pregnant, as the effects of Rasagiline Mylan on 
 pregnancy and the unborn child are not known. </p>
 <p>Driving and using machines 
-Ask your doctor for advice before you drive and operate machines, since Parkinson’s disease itself as 
+Ask your doctor for advice before you drive and operate machines, since Parkinson s disease itself as 
 well as the treatment with Rasagiline Mylan may influence your ability to do so. Rasagiline Mylan can 
 make you feel dizzy or drowsy; it can also cause episodes of sudden sleep onset. 
-This might be enhanced if you take other medicines to treat the symptoms of your Parkinson’s disease, 
+This might be enhanced if you take other medicines to treat the symptoms of your Parkinson s disease, 
 or if you take medicines which can make you feel drowsy, or if you drink alcohol while taking 
 Rasagiline Mylan. If you have experienced somnolence and/or episodes of sudden sleep onset before, 
-or while taking Rasagiline Mylan do not drive or operate machinery (see section 2). </p>         </div>"""   
-                    
+or while taking Rasagiline Mylan do not drive or operate machinery (see section 2). </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take rasagiline"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take rasagiline"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -166,23 +179,24 @@ Do not take a double dose to make up for a forgotten dose. Take the next dose no
 time to take it. </p>
 <p>If you stop taking Rasagiline Mylan 
 Do not stop taking Rasagiline Mylan without first talking to your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store rasagiline"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store rasagiline"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Contact you doctor right away if you notice any of the following symptoms. You may need urgent 
-medical advice or treatment: 
-- If you develop unusual behaviours such as compulsions, obsessive thoughts, addictive gambling, 
+medical advice or treatment:</p>
+<ul>
+<li>If you develop unusual behaviours such as compulsions, obsessive thoughts, addictive gambling, 
 excessive shopping or spending, impulsive behaviour and an abnormally high sex drive or an 
-increase in sexual thoughts (impulse control disorders) (see section 2). 
-- If you see or hear things which are not there (hallucinations). 
-- Any combination of hallucinations, fever, restlessness, tremor and sweating (serotonin 
-syndrome) </p>
+increase in sexual thoughts (impulse control disorders) (see section 2). </li>
+<li>If you see or hear things which are not there (hallucinations). </li>
+<li>Any combination of hallucinations, fever, restlessness, tremor and sweating (serotonin 
+syndrome) </li>
+</ul>
 <p>Contact your doctor if you notice any suspicious skin changes because there may be an increased risk 
 of skin cancer (melanoma) with the use of this medicine (see section 2). </p>
 <p>Other side effects </p>
@@ -235,138 +249,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store rasagiline"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rasagiline"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or blister after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rasagiline Mylan contains<br />
-- The active substance is rasagiline. Each tablet contains rasagiline tartrate corresponding to 1 mg 
-rasagiline.<br />
-- The other ingredients are microcrystalline cellulose, tartric acid, maize starch, pregelatinized 
-maize starch, talc, stearic acid. </p>
-<p>What Rasagiline Mylan looks like and contents of the pack 
-Rasagiline tablets are presented as white to off-white, oblong (approximately 11.5 mm x 6 mm) 
-biconvex tablets, debossed with ‘R9SE’ on one side and ‘1’ on the other side.  </p>
-<p>The tablets are available in blister packs of 7, 10, 28, 30, 100 and 112 tablets and in perforated blister 
-packs containing 7 x 1, 10 x 1, 28 x 1, 30 x 1, 100 x 1 and 112 x 1 tablets.  </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Mylan Pharmaceuticals Limited 
-Damastown Industrial Park,<br />
-Mulhuddart, Dublin 15,<br />
-DUBLIN 
-Ireland </p>
-<p>Manufacturer 
-Synthon Hispania S.L.,<br />
-C/ Castelló no1, Pol. Las Salinas,<br />
-08830, Sant Boi de Llobregat, Barcelona,<br />
-Spain </p>
-<p>Mylan Hungary Kft,<br />
-Mylan utca 1<br />
-H-2900 Komárom 
-Hungary. </p>
-<p>Synthon s.r.o,<br />
-Brněnská 32/čp. 678 01 Blansko 
-Czech Republic </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
-Mylan bvba/sprl<br />
-Tél/Tel: + 32 (0)2 658 61 00  </p>
-<p>Lietuva 
-Mylan Healthcare UAB<br />
-Tel: +370 5 205 1България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
-Luxembourg/Luxemburg 
-Mylan bvba/sprl 
-Tél/Tel: +32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
-Viatris CZ s.r.o. 
-Tel: +420 222 004 Magyarország 
-Mylan EPD Kft. 
-Tel.: +36 1 465 2 
-Danmark 
-Viatris ApS<br />
-Tlf: +45 28 11 69 32  </p>
-<p>Malta 
-V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
-Viatris Healthcare GmbH<br />
-Tel: +49 800 0700<br />
-Nederland 
-Mylan BV 
-Tel: +31 (0)20 426 3Eesti 
-BGP Products Switzerland GmbH Eesti 
-filiaal<br />
-Tel: + 372 6363<br />
-Norge 
-Viatris AS 
-Tlf: + 47 66 75 33 Ελλάδα<br />
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ: +30 210 993 6410  </p>
-<p>Österreich 
-Arcana Arzneimittel GmbH 
-Tel: +43 1 416 2 
-España 
-Viatris Pharmaceuticals, S.L.U. 
-Tel: + 34 900 102<br />
-Polska 
-Mylan Healthcare Sp. z o.o. 
-Tel.: + 48 22 546 64<br />
-France* 
-Viatris Santé 
-Tél: +33 4 37 25 75  
-Portugal 
-Mylan, Lda. 
-Tel: + 351 21-4_12-7_2<br />
-Hrvatska 
-Mylan Hrvatska d.o.o. <br />
-Tel: +385 1 23 50 România 
-BGP Products SRL 
-Tel: +40 372 579<br />
-Ireland 
-Mylan Ireland Limited 
-Tel:  +353 1 8711  </p>
-<p>Slovenija 
-Viatris d.o.o. 
-Tel: + 386 1 23 63 Ísland 
-Icepharma hf 
-Símíi: +354 540 8000  </p>
-<p>Slovenská republika 
-Viatris Slovakia s.r.o.<br />
-Tel: +421 2 32 199 Italia 
-Mylan Italia S.r.l. 
-Tel: + 39 02 612 46 
-Suomi/Finland 
-Viatris Oy<br />
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd <br />
-Τηλ: +357 2220 7 
-Sverige 
-Viatris AB<br />
-Tel: + 46 (0) 8 630 19<br />
-Latvija 
-Mylan Healthcare SIA<br />
-Tel: +371 676 055<br />
-United Kingdom (Northern Ireland) 
-Mylan IRE Healthcare Limited 
-Tel:  +353 18711 
-This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton or blister after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

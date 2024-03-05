@@ -4,7 +4,7 @@ Instance: composition-en-fab45178c60aa670cc4368c283b21dec
 InstanceOf: CompositionUvEpi
 Title: "Composition for quviviq Package Leaflet"
 Description:  "Composition for quviviq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What quviviq is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>QUVIVIQ contains the active substance daridorexant, which belongs to the class of medicines called 
-“orexin receptor antagonists”.  </p>
+ orexin receptor antagonists .  </p>
 <p>QUVIVIQ is to treat insomnia in adults. </p>
 <p>How QUVIVIQ works 
 Orexin is a substance produced by the brain that helps keep you awake. By blocking the action of 
@@ -89,19 +89,23 @@ function normally during the day. </p>         </div>"""
 section 6). 
 - if you have narcolepsy, a condition that causes you to suddenly and unexpectedly fall asleep at 
 any time. 
-- if you are taking medicines which may increase the level of QUVIVIQ in your blood such as: 
-- oral medicines to treat fungal infections such as ketoconazole, posaconazole, 
-voriconazole, itraconazole. 
-- certain medicines to treat bacterial infections such as the antibiotics clarithromycin, 
-josamycin, telithromycin, troleandomycin. 
-- certain medicines to treat HIV infection such as ritonavir, elvitegravir, indinavir, 
-saquinavir, telaprevir, danoprevir, lopinavir, nelfinavir, boceprevir.  </p>
+- if you are taking medicines which may increase the level of QUVIVIQ in your blood such as:</p>
 <ul>
-<li>certain medicines to treat cancer such as ceritinib, idelalisib, ribociclib, tucatinib. 
-Ask your doctor if the medicine you are taking prevents you from taking QUVIVIQ. </li>
+<li>oral medicines to treat fungal infections such as ketoconazole, posaconazole, 
+voriconazole, itraconazole. </li>
+<li>certain medicines to treat bacterial infections such as the antibiotics clarithromycin, 
+josamycin, telithromycin, troleandomycin. </li>
+<li>
+<p>certain medicines to treat HIV infection such as ritonavir, elvitegravir, indinavir, 
+saquinavir, telaprevir, danoprevir, lopinavir, nelfinavir, boceprevir.  </p>
+</li>
+<li>
+<p>certain medicines to treat cancer such as ceritinib, idelalisib, ribociclib, tucatinib. 
+Ask your doctor if the medicine you are taking prevents you from taking QUVIVIQ. </p>
+</li>
 </ul>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking QUVIVIQ if you: </p>
+Talk to your doctor or pharmacist before taking QUVIVIQ if you:</p>
 <ul>
 <li>have depression or have or ever had suicidal thoughts </li>
 <li>have a psychiatric disorder </li>
@@ -116,7 +120,7 @@ obstructive pulmonary disease) </li>
 in patients &gt; 65). 
 Your doctor may want to monitor how the medicine affects you. </li>
 </ul>
-<p>Tell your doctor if you get any of the following side effects while taking QUVIVIQ: </p>
+<p>Tell your doctor if you get any of the following side effects while taking QUVIVIQ:</p>
 <ul>
 <li>sleep paralysis: a temporary inability to move or talk for up to several minutes upon awakening 
 or falling asleep </li>
@@ -130,13 +134,13 @@ This medicine is not for children and adolescents under 18 years of age because 
 been tested in this age group. </p>
 <p>Other medicines and QUVIVIQ 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines 
-because:  </p>
+because:</p>
 <ul>
 <li>certain antibiotics (erythromycin, ciprofloxacin, clarithromycin, rifampicin), immuno-
 suppressants (cyclosporine), antifungal agents (itraconazole), cancer treatments (ceritinib), or 
 HIV treatments (ritonavir, efavirenz) can increase or decrease the level of QUVIVIQ in the 
-blood. Some of these medicines may be contra-indicated with QUVIVIQ (see section “Do not 
-take QUVIVIQ”). Your doctor will advise you on this. </li>
+blood. Some of these medicines may be contra-indicated with QUVIVIQ (see section  Do not 
+take QUVIVIQ ). Your doctor will advise you on this. </li>
 <li>certain medicines that work in your brain (e.g., diazepam, alprazolam) could interact with 
 QUVIVIQ. Your doctor will advise you on this. </li>
 <li>certain medicines to treat blood coagulation disorder such as dabigatran could interact with 
@@ -161,8 +165,8 @@ machines. Be cautious about driving or using machines in the morning after takin
 engage in potentially hazardous activities if you are not sure you are fully alert, especially in the first 
 few days of treatment.  </p>
 <p>QUVIVIQ contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take quviviq"
@@ -202,16 +206,20 @@ harmful effects.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects may happen with this medicine: </p>
-<p>Common (may affect up to 1 in 10 people): 
-- headache 
-- excessive sleepiness 
-- dizziness 
-- tiredness 
-- feeling sick (nausea) </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- temporary inability to move or talk (sleep paralysis) for up to several minutes while you are 
-going to sleep or waking up (see section 2).<br />
-- seeing or hearing vivid or disturbing things that are not real (hallucinations; see section 2) </p>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>headache </li>
+<li>excessive sleepiness </li>
+<li>dizziness </li>
+<li>tiredness </li>
+<li>feeling sick (nausea) </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>temporary inability to move or talk (sleep paralysis) for up to several minutes while you are 
+going to sleep or waking up (see section 2).  </li>
+<li>seeing or hearing vivid or disturbing things that are not real (hallucinations; see section 2) </li>
+</ul>
 <p>Please talk to your doctor if either of these happen to you. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -245,31 +253,31 @@ Each tablet contains daridorexant hydrochloride, equivalent to 25 mg of daridore
 Each tablet contains daridorexant hydrochloride, equivalent to 50 mg of daridorexant.  </p>
 <p>The other ingredients are:<br />
 Tablet cores: Mannitol (E421), microcrystalline cellulose (E460), povidone, croscarmellose sodium 
-(see section 2 “QUVIVIQ contains sodium”), silicon dioxide, magnesium stearate.  </p>
+(see section 2  QUVIVIQ contains sodium ), silicon dioxide, magnesium stearate.  </p>
 <p>Film coating: Hypromellose (E464), microcrystalline cellulose (E460), glycerol, talc (E553), titanium 
 dioxide (E171), iron oxide red (E172), iron oxide black (E172), iron oxide yellow (E172; 50 mg 
 tablets only).  </p>
 <p>What QUVIVIQ looks like and contents of the pack 
 Film-coated tablet (tablet) </p>
 <p>QUVIVIQ 25 mg film-coated tablets<br />
-Light purple, triangular tablet with 25 on one side, and ‘i’ (Idorsia logo) on the other side. </p>
+Light purple, triangular tablet with 25 on one side, and  i  (Idorsia logo) on the other side. </p>
 <p>QUVIVIQ 50 mg film-coated tablets<br />
-Light orange, triangular tablet with 50 on one side, and ‘i’ (Idorsia logo) on the other side. </p>
+Light orange, triangular tablet with 50 on one side, and  i  (Idorsia logo) on the other side. </p>
 <p>QUVIVIQ is available in blister packs of 10, 20 or 30 film-coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Idorsia Pharmaceuticals Deutschland GmbH 
 Marie-Curie-Strasse 8 
-79539 Lörrach 
+79539 L rrach 
 Germany </p>
 <p>Manufacturer 
 Idorsia Pharmaceuticals Deutschland GmbH 
 Marie-Curie-Strasse 8 
-79539 Lörrach 
+79539 L rrach 
 Germany </p>
 <p>PharmaKorell GmbH 
 Georges-Koehler-Str. 2 
-79539 Lörrach 
+79539 L rrach 
 Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

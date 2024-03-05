@@ -4,7 +4,7 @@ Instance: composition-en-a28a8b9246548829f22c8b8c14ca6138
 InstanceOf: CompositionUvEpi
 Title: "Composition for ketoconazole Package Leaflet"
 Description:  "Composition for ketoconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,12 +70,12 @@ Usage: #example
   * code.text =  "1. What ketoconazole is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ketoconazole HRA is a medicine that contains the active substance ketoconazole with an anticorticosteroid 
-activity. It is used to treat endogenous Cushing’s syndrome (when the body produces an excess of cortisol) in 
+activity. It is used to treat endogenous Cushing s syndrome (when the body produces an excess of cortisol) in 
 adults and adolescents above the age of 12 years. </p>
-<p>Cushing’s syndrome is caused by overproduction of a hormone called cortisol which is produced by the adrenal 
+<p>Cushing s syndrome is caused by overproduction of a hormone called cortisol which is produced by the adrenal 
 glands. Ketoconazole HRA is able to block the activity of the enzymes responsible for the synthesis of cortisol 
 and consequently is able to decrease the over-production of cortisol by your body and to improve the symptoms 
-of Cushing’s syndrome. </p>         </div>"""   
+of Cushing s syndrome. </p>         </div>"""   
           
 
              
@@ -92,36 +92,37 @@ ingredients of this medicine (listed in section 6) </li>
 <li>if you are pregnant  </li>
 <li>if you are breastfeeding </li>
 <li>if you have a history of an irregular heart beat </li>
-<li>if you are taking any of the following medicines: </li>
-<li>certain medicines for lowering blood cholesterol: simvastatin, atorvastatin, lovastatin  </li>
+<li>
+<p>if you are taking any of the following medicines:</p>
+</li>
+<li>
+<p>certain medicines for lowering blood cholesterol: simvastatin, atorvastatin, lovastatin  </p>
+</li>
 <li>certain heart medicines: epleronone, dronedarone, disopyramide, felodipine, nisoldipine, 
 ranolazine  </li>
 <li>certain medicines used for the treatment of the paludism: quinidine, halofantrine </li>
 <li>certain medicines  used for severe mental health disorders and severe depression: pimozide, 
 sertindole, lurasidone, quetiapine </li>
 <li>certain medicines used for the allergies: mizolastine  </li>
-<li>dabigatran – medicine used to prevent the formation of blood clots  </li>
+<li>dabigatran   medicine used to prevent the formation of blood clots  </li>
 <li>certain medicines to help to sleep and for anxiety: triazolam, alprazolam, midazolam (taken by 
 mouth) </li>
 <li>certain medicines used for migraine attacks: dihydroergotamine, ergometrine (ergonovine) 
 ergotamine and methylergometrine (methylergonovine)  </li>
 <li>certain medicines used in cancers: irinotecan, everolimus  </li>
 <li>sirolimus: used to prevent your body from rejecting a kidney transplant </li>
-<li>tolvaptan used for a specific disease called “syndrome of inappropriate antidiuretic hormone 
-secretion” </li>
-<li>vardenafil in men older than 75 years – medicine to treat erectile dysfunction in adults men </li>
+<li>tolvaptan used for a specific disease called  syndrome of inappropriate antidiuretic hormone 
+secretion  </li>
+<li>vardenafil in men older than 75 years   medicine to treat erectile dysfunction in adults men </li>
 <li>certain medicines for HIV: saquinavir/ritonavir, saquinavir </li>
 <li>certain medicines to treat long-term (chronic) hepatitis C (an infectious disease that affects the 
 liver, caused by the hepatitis C virus): Paritaprevir/Ombitasvir (ritonavir) </li>
 <li>methadone: medicine to treat dependence to drugs </li>
-<li>In patients with renal disorders: 
-▪ 
-colchicine: medicine to treat gout 
-▪ 
-fesoterodine and solifenacin: medicines to treat the symptoms of an overactive bladder 
-▪ 
-telithromycin and clarithromycin: medicine used to treat infections </li>
+<li>In patients with renal disorders: </li>
 </ul>
+<p>colchicine: medicine to treat gout </p>
+<p>fesoterodine and solifenacin: medicines to treat the symptoms of an overactive bladder </p>
+<p>telithromycin and clarithromycin: medicine used to treat infections </p>
 <p>Do not take Ketoconazole HRA if any of the above applies to you. If you are not sure, talk to your doctor or 
 pharmacist before taking Ketoconazole HRA. </p>
 <p>Warnings and precautions  </p>
@@ -140,11 +141,11 @@ or have surgery or an infection. In addition, you should receive an emergency ca
 with an emergency glucocorticoid set. </p>
 <p>Adrenal function 
 Your adrenal function will be monitored at regular intervals as this is the standard care in the follow-up of 
-Cushing’s syndrome therapy and since adrenal insuficiency can occur during the treatment. You should contact 
+Cushing s syndrome therapy and since adrenal insuficiency can occur during the treatment. You should contact 
 your doctor immediately if you have symptoms such as weakness, fatigue, lack of appetite, nausea, vomiting 
 or low blood pressure.  </p>
 <p>Heart disease 
-Ketoconazole HRA can change how your heart beats – this can be serious. Contact your doctor immediately, 
+Ketoconazole HRA can change how your heart beats   this can be serious. Contact your doctor immediately, 
 if you get palpitations or an irregular heartbeat during treatment.  </p>
 <p>Coexisting inflammatory/autoimmune disorders 
 Tell your doctor if you suffer from an autoimmune disorder, you will be closely supervised. </p>
@@ -154,29 +155,31 @@ This medicine is not recommended for children under 12 years due to the lack of 
 Tell your doctor or phamacist if you are taking, have recently taken or might take any other medicines. There 
 are some medicines that must not be taken with Ketoconazole HRA (see section 2). Ask your doctor or 
 pharmacist for more information if you are taking Ketoconazole HRA with other medicines. </p>
-<p>Medicines that can interact with Ketoconazole HRA include: 
-- pasireotide, another drug used to treat a subset of the Cushing’s syndrome because it can lead to severe 
-side effects in patients suffering from cardiac disorders 
--  medicines taken by mouth that prevent blood clots from forming: rivaroxaban, apixaban, edoxaban, 
-cilostazol, warfarin and others coumarin like 
-- HIV medicines such as maraviroc, indinavir, nevirapine, ritonavir 
-- certain medicines used for cancer such as vinca alkaloids, busulfan, docetaxel, erlotinib, imatinib, dasatinib, 
+<p>Medicines that can interact with Ketoconazole HRA include:</p>
+<ul>
+<li>pasireotide, another drug used to treat a subset of the Cushing s syndrome because it can lead to severe 
+side effects in patients suffering from cardiac disorders </li>
+<li>medicines taken by mouth that prevent blood clots from forming: rivaroxaban, apixaban, edoxaban, 
+cilostazol, warfarin and others coumarin like </li>
+<li>HIV medicines such as maraviroc, indinavir, nevirapine, ritonavir </li>
+<li>certain medicines used for cancer such as vinca alkaloids, busulfan, docetaxel, erlotinib, imatinib, dasatinib, 
 sunitinib, lapatinib, nilotinib, bortezomib, paclitaxel, vincristine, vinblastine, cabozantinib, dabrafenib, 
-cabazitaxel, crizotinib, ibrutinib 
-- certain medicines used to treat infections: rifabutin, telithromycin, rifampicin, isoniazide, clarithromycin, 
-isavuconazole 
-- certain antidiabetics: repaglinide, saxagliptin, tolbutamide 
-- certain medicines used for mental disorders: buspirone, aripipazole, haloperidol, reboxetine, risperidone 
-- certain heart medicines – verapamil, digoxin, nadolol, aliskiren 
-- certain anticonvulsivants: carbamazepine, phenitoin<br />
-- certain glucocorticoids – such as budesonide, fluticasone, dexamethasone, methylprednisolone, ciclesonide 
-- certain stong painkillers (narcotics) – such as alfentanyl, fentanyl, buprenorphine (injection and sublingual), 
-oxycodone 
-- certain medicines used for nausea and vomiting: domperidone, aprepitant 
-- naloxegol (medicine for treatment of constipation specifically caused by strong pain medicines) 
-- solifenacin, fesoterodine in patients with renal impairment 
-- others: sildenafil, , tolterodine, mitotane, praziquantel, eletriptan, , salmeterol, bosentan, midazolam (by 
-injection), tadalafil, vardenafil, temsirolimus, cinalcacet, tacrolimus, ebastine, ciclosporine, colchicine </p>
+cabazitaxel, crizotinib, ibrutinib </li>
+<li>certain medicines used to treat infections: rifabutin, telithromycin, rifampicin, isoniazide, clarithromycin, 
+isavuconazole </li>
+<li>certain antidiabetics: repaglinide, saxagliptin, tolbutamide </li>
+<li>certain medicines used for mental disorders: buspirone, aripipazole, haloperidol, reboxetine, risperidone </li>
+<li>certain heart medicines   verapamil, digoxin, nadolol, aliskiren </li>
+<li>certain anticonvulsivants: carbamazepine, phenitoin  </li>
+<li>certain glucocorticoids   such as budesonide, fluticasone, dexamethasone, methylprednisolone, ciclesonide </li>
+<li>certain stong painkillers (narcotics)   such as alfentanyl, fentanyl, buprenorphine (injection and sublingual), 
+oxycodone </li>
+<li>certain medicines used for nausea and vomiting: domperidone, aprepitant </li>
+<li>naloxegol (medicine for treatment of constipation specifically caused by strong pain medicines) </li>
+<li>solifenacin, fesoterodine in patients with renal impairment </li>
+<li>others: sildenafil, , tolterodine, mitotane, praziquantel, eletriptan, , salmeterol, bosentan, midazolam (by 
+injection), tadalafil, vardenafil, temsirolimus, cinalcacet, tacrolimus, ebastine, ciclosporine, colchicine </li>
+</ul>
 <p>You should not take antacids (eg aluminium hydroxide) or other medicines for acid indigestion for at least 2 
 hours after the intake of Ketoconazole HRA (see section Warning and Precautions). </p>
 <p>Ketoconazole HRA with alcohol 
@@ -226,16 +229,18 @@ symptoms may come back. Therefore, do not stop taking Ketoconazole HRA unless yo
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects may be serious. Liver problems can rarely happen (may affect up to 1 in 1,000 people).<br />
-Stop taking Ketoconazole HRA and tell your doctor straight away if you experience any of the following: 
-- long-lasting severe headache or blurred vision<br />
-- severe lack of appetite (anorexia) 
-- weight loss 
-- nausea or vomiting 
-- unusual tiredness or fever 
-- stomach pain 
-- muscle weakness 
-- yellowing of the skin or whites of the eyes 
-- unusually dark urine or pale stools  </p>
+Stop taking Ketoconazole HRA and tell your doctor straight away if you experience any of the following:</p>
+<ul>
+<li>long-lasting severe headache or blurred vision  </li>
+<li>severe lack of appetite (anorexia) </li>
+<li>weight loss </li>
+<li>nausea or vomiting </li>
+<li>unusual tiredness or fever </li>
+<li>stomach pain </li>
+<li>muscle weakness </li>
+<li>yellowing of the skin or whites of the eyes </li>
+<li>unusually dark urine or pale stools  </li>
+</ul>
 <p>Adrenal insufficiency is common and can be a serious side effect. Ketoconazole HRA may temporarily lower 
 the amount of hormones produced by your adrenal gland (cortisol) to below the normal range, but your doctor 
 will correct this using appropriate hormone medicines or by adjusting the dose of Ketoconazole HRA. You 
@@ -312,12 +317,14 @@ side effects you can help provide more information on the safety of this medicin
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store ketoconazole"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and on the blister after EXP. 
-The expiry date refers to the last day of that month. 
-- This medicine does not require any special storage conditions<br />
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and on the blister after EXP. 
+The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special storage conditions  </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -339,12 +346,12 @@ HRA Pharma Rare Diseases<br />
 France 
 Tel : + 33 1 40 33 93<br />
 Manufacturer 
-Centre Spécialités Pharmaceutiques 
+Centre Sp cialit s Pharmaceutiques 
 76-78 avenue du Midi 
-63800 Courron d‘Auvergne 
+63800 Courron d Auvergne 
 France </p>
 <p>Polfarmex S.A. 
-ul. Józefów 9, 
+ul. J zef w 9, 
 99-300 Kutno 
 Poland </p>
 <p>This leaflet was last revised in. </p>

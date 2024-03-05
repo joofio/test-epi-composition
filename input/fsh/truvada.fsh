@@ -4,7 +4,7 @@ Instance: composition-en-6471e64aafea74720593633f2a0cd695
 InstanceOf: CompositionUvEpi
 Title: "Composition for truvada Package Leaflet"
 Description:  "Composition for truvada Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -79,10 +79,8 @@ working of an enzyme (reverse transcriptase) that is essential for the virus to 
 35 kg, and who have already been treated with other HIV medicines that are no longer effective 
 or have caused side effects. </li>
 </ul>
-<p>− 
-Truvada should always be used combined with other medicines to treat HIV infection. 
-− 
-Truvada can be administered in place of emtricitabine and tenofovir disoproxil used 
+<p>Truvada should always be used combined with other medicines to treat HIV infection. </p>
+<p>Truvada can be administered in place of emtricitabine and tenofovir disoproxil used 
 separately at the same doses. </p>
 <p>This medicine is not a cure for HIV infection.  While taking Truvada you may still develop 
 infections or other illnesses associated with HIV infection. </p>
@@ -103,7 +101,7 @@ See section 2 for a list of precautions to take against HIV infection. </li>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Truvada to treat HIV or to reduce the risk of getting HIV if you are allergic to 
 emtricitabine, tenofovir, tenofovir disoproxil, or any of the other ingredients of this medicine (listed in 
 section 6). </p>
-<p> If this applies to you, tell your doctor immediately. </p>
+<p>If this applies to you, tell your doctor immediately. </p>
 <p>Before taking Truvada to reduce the risk of getting HIV: </p>
 <p>Truvada can only help reduce your risk of getting HIV before you are infected. </p>
 <ul>
@@ -125,11 +123,10 @@ These may be signs of HIV infection: </p>
 <li>vomiting or diarrhoea </li>
 <li>rash </li>
 <li>night sweats </li>
-<li>enlarged lymph nodes in the neck or groin 
- 
-Tell your doctor about any flu-like illness – either in the month before starting 
-Truvada, or at any time while taking Truvada. </li>
+<li>enlarged lymph nodes in the neck or groin </li>
 </ul>
+<p>Tell your doctor about any flu-like illness   either in the month before starting 
+Truvada, or at any time while taking Truvada. </p>
 <p>Warnings and precautions </p>
 <p>While taking Truvada to reduce the risk of getting HIV: </p>
 <ul>
@@ -146,16 +143,12 @@ increase your risk of getting HIV infection. </p>
 more tests to make sure you are still HIV negative. </p>
 </li>
 <li>
-<p>Just taking Truvada may not stop you getting HIV. 
-o 
+<p>Just taking Truvada may not stop you getting HIV. * 
 Always practice safer sex.  Use condoms to reduce contact with semen, vaginal fluids, 
-or blood. 
-o 
+or blood. * 
 Do not share personal items that can have blood or body fluids on them, such as 
-toothbrushes and razor blades. 
-o 
-Do not share or re-use needles or other injection or drug equipment.<br />
-o 
+toothbrushes and razor blades. * 
+Do not share or re-use needles or other injection or drug equipment.  * 
 Get tested for other sexually transmitted infections such as syphilis and gonorrhoea.<br />
 These infections make it easier for HIV to infect you. </p>
 </li>
@@ -235,8 +228,7 @@ didanosine in your blood and may reduce CD4 cell counts.  Rarely, inflammation o
 lactic acidosis (excess lactic acid in the blood), which sometimes causes death, have been reported 
 when medicines containing tenofovir disoproxil and didanosine were taken together.  Your doctor will 
 carefully consider whether to treat you with combinations of tenofovir and didanosine. </p>
-<p> 
-Tell your doctor if you are taking any of these medicines.  Tell your doctor or pharmacist if 
+<p>Tell your doctor if you are taking any of these medicines.  Tell your doctor or pharmacist if 
 you are taking, have recently taken or might take any other medicines.  </p>
 <p>Truvada with food and drink </p>
 <ul>
@@ -270,16 +262,18 @@ tools or machines. </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>Truvada contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take truvada"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take truvada"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Always take this medicine exactly as your doctor has told you.  Check with your doctor or 
-pharmacist if you are not sure. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Always take this medicine exactly as your doctor has told you.  Check with your doctor or 
+pharmacist if you are not sure. </li>
+</ul>
 <p>The recommended dose of Truvada to treat HIV is: </p>
 <ul>
 <li>Adults: one tablet each day, where possible, with food. </li>
@@ -339,16 +333,14 @@ miss any doses. Stopping use of Truvada, or missing doses, may increase your ris
 HIV infection. </p>
 </li>
 </ul>
-<p> 
-Do not stop taking Truvada without contacting your doctor.  </p>
+<p>Do not stop taking Truvada without contacting your doctor.  </p>
 <ul>
 <li>If you have hepatitis B, it is especially important not to stop your Truvada treatment without 
 talking to your doctor first.  You may require blood tests for several months after stopping 
 treatment.  In some patients with advanced liver disease or cirrhosis, stopping treatment is not 
 recommended as this may lead to worsening of your hepatitis, which may be life-threatening. </li>
 </ul>
-<p> 
-Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -369,15 +361,14 @@ people with liver disease.  The following may be signs of lactic acidosis: </li>
 <li>feeling sick (nausea), being sick (vomiting)  </li>
 <li>stomach pain </li>
 </ul>
-<p> 
-If you think you may have lactic acidosis, get medical help immediately. </p>
+<p>If you think you may have lactic acidosis, get medical help immediately. </p>
 <ul>
 <li>
 <p>Any signs of inflammation or infection.  In some patients with advanced HIV infection 
 (AIDS) and a history of opportunistic infections (infections that occur in people with a weak 
 immune system), signs and symptoms of inflammation from previous infections may occur soon 
 after anti-HIV treatment is started.  It is thought that these symptoms are due to an improvement 
-in the body’s immune response, enabling the body to fight infections that may have been 
+in the body s immune response, enabling the body to fight infections that may have been 
 present with no obvious symptoms.  </p>
 </li>
 <li>
@@ -390,8 +381,7 @@ such as: </p>
 <li>weakness beginning in the hands and feet and moving up towards the trunk of the body </li>
 <li>palpitations, tremor or hyperactivity </li>
 </ul>
-<p> 
-If you notice these or any symptoms of inflammation or infection, get medical help 
+<p>If you notice these or any symptoms of inflammation or infection, get medical help 
 immediately. </p>
 <p>Possible side effects: </p>
 <p>Very common side effects<br />
@@ -442,8 +432,7 @@ kidney tubule cells
 <p>Damage to kidney tubule cells may be associated with breakdown of muscle, softening of the bones 
 (with bone pain and sometimes resulting in fractures), muscle pain, muscle weakness and decreases in 
 potassium or phosphate in the blood. </p>
-<p> 
-If you notice any of the side effects listed above or if any of the side effects get serious, talk 
+<p>If you notice any of the side effects listed above or if any of the side effects get serious, talk 
 to your doctor or pharmacist. </p>
 <p>The frequency of the following side effects is not known.<br />
 * Bone problems.  Some patients taking combination antiretroviral medicines such as Truvada 
@@ -453,9 +442,8 @@ drinking alcohol, having a very weak immune system, and being overweight, may be
 the many risk factors for developing this disease.  Signs of osteonecrosis are: 
 * joint stiffness 
 * joint aches and pains (especially of the hip, knee and shoulder) 
-* difficulty with movement 
- 
-If you notice any of these symptoms tell your doctor. </p>
+* difficulty with movement </p>
+<p>If you notice any of these symptoms tell your doctor. </p>
 <p>During treatment for HIV there may be an increase in weight and in levels of blood lipids and glucose.<br />
 This is partly linked to restored health and life style, and in the case of blood lipids sometimes to the 
 HIV medicines themselves.  Your doctor will test for these changes. </p>
@@ -464,9 +452,8 @@ HIV medicines themselves.  Your doctor will test for these changes. </p>
 including<br />
 </em> darkening of the skin in patches 
 * Children commonly experienced low red blood cell count (anaemia). 
-* this may cause the child to be tired or breathless<br />
-<br />
-If you notice any of these symptoms tell your doctor. </p>
+* this may cause the child to be tired or breathless  </p>
+<p>If you notice any of these symptoms tell your doctor. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
@@ -507,7 +494,7 @@ titanium dioxide (E171). </p>
 </ul>
 <p>What Truvada looks like and contents of the pack </p>
 <p>Truvada film-coated tablets are blue, capsule-shaped tablets, engraved on one side with the word 
-“GILEAD” and on the other side with the number “701”.  Truvada comes in bottles of 30 tablets.<br />
+ GILEAD  and on the other side with the number  701 .  Truvada comes in bottles of 30 tablets.<br />
 Each bottle contains a silica gel desiccant that must be kept in the bottle to help protect your tablets.<br />
 The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed. </p>
 <p>The following pack sizes are available: outer cartons containing 1 bottle of 30 film-coated tablets and 
@@ -524,22 +511,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -559,14 +545,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -574,14 +559,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -590,10 +575,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -601,10 +586,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

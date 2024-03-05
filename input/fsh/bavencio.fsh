@@ -4,7 +4,7 @@ Instance: composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for bavencio Package Leaflet"
 Description:  "Composition for bavencio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,9 +70,17 @@ Usage: #example
   * code.text =  "1. What bavencio is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bavencio contains the active substance avelumab, a monoclonal antibody (a type of protein) that 
-attaches to a specific target in the body called PD-L1.<br />
-PD-L1 is found on the surface of certain tumour cells, and helps protect them from the immune system 
-(the body’s natural defences). Bavencio binds to PD-L1, and blocks this protective effect, allowing the 
+attaches to a specific target in the body called PD-L</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PD-L1 is found on the surface of certain tumour cells, and helps protect them from the immune system 
+(the body s natural defences). Bavencio binds to PD-L1, and blocks this protective effect, allowing the 
 immune system to attack the tumour cells. </p>
 <p>Bavencio is used in adults to treat: 
 * Merkel cell carcinoma (MCC), a rare type of skin cancer, when it is metastatic (has spread to 
@@ -86,13 +94,11 @@ the kidney or to other parts of the body). </p>
 <p>For renal cell cancer, Bavencio is to be used in combination with axitinib. </p>
 <p>It is important that you also read the package leaflet for the medicine containing axitinib. If you have 
 any questions about axitinib, ask your doctor. </p>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take bavencio"
+  * title =  "3. How to take bavencio"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take bavencio"
+  * code.text = "3. How to take bavencio"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Bavencio 
 if you are allergic to avelumab or any of the other ingredients of this medicine (listed in section 6). </p>
@@ -157,12 +163,13 @@ Tiredness is a very common side effect of Bavencio and can affect your ability t
 machines. </p>
 <p>Bavencio has a low sodium content 
 Bavencio contains less than 1 mmol sodium (23 mg) in each dose and therefore is essentially 
-sodium-free. </p>         </div>"""   
-                    
+sodium-free. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take bavencio"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take bavencio"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will receive Bavencio in a hospital or clinic, under the supervision of an experienced doctor. </p>
 <p>How much Bavencio you will receive 
@@ -182,13 +189,12 @@ appointment, ask your doctor when to schedule your next dose. </p>
 <p>If you stop receiving Bavencio 
 Do not stop treatment with Bavencio unless you have discussed this with your doctor. Stopping your 
 treatment may stop the effect of the medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store bavencio"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store bavencio"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Some side 
 effects may happen weeks or months after your last dose. </p>
@@ -330,46 +336,18 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store bavencio"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bavencio"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
-The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). </p>
-<p>Do not freeze. </p>
-<p>Store in the original package in order to protect from light. </p>
-<p>Do not store any unused portion of the concentrate or of the diluted infusion solution for reuse. </p>
-<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Bavencio contains </p>
-<p>The active substance is avelumab. </p>
-<p>One vial of 10 mL contains 200 mg of avelumab. Each mL of concentrate contains 20 mg of 
-avelumab. </p>
-<p>The other ingredients are mannitol, glacial acetic acid, polysorbate 20, sodium hydroxide, water for 
-injections (see section 2 “Bavencio has a low sodium content”). </p>
-<p>What Bavencio looks like and contents of the pack 
-Bavencio is a clear, colourless to slightly yellow concentrate for solution for infusion (sterile 
-concentrate). </p>
-<p>The pack size is 1 glass vial per carton. </p>
-<p>Marketing Authorisation Holder 
-Merck Europe B.V. 
-Gustav Mahlerplein 1082 MA Amsterdam 
-The Netherlands </p>
-<p>Manufacturer 
-Merck Serono S.p.A. 
-Via Delle Magnolie 15 (loc. frazione Zona Industriale) 
-70026 - Modugno (BA) 
-Italy </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C to 8 C). </p>
+<p>Do not freeze. </p>
+<p>Store in the original package in order to protect from light. </p>
+<p>Do not store any unused portion of the concentrate or of the diluted infusion solution for reuse. </p>
+<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
 

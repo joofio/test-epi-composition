@@ -4,7 +4,7 @@ Instance: composition-en-626b5ebcb82fc86d7ecd89669e8b58e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for vemlidy Package Leaflet"
 Description:  "Composition for vemlidy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -45,7 +45,7 @@ Usage: #example
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Vemlidy has been prescribed for your child, please note that all the information in this leaflet 
-is addressed to your child (in this case please read “your child” instead of “you”). </p>         </div>"""   
+is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
 
 
 
@@ -89,7 +89,7 @@ from multiplying. </p>         </div>"""
 <li>if you are allergic to tenofovir alafenamide or any of the other ingredients of this medicine 
 (listed in section 6). </li>
 </ul>
-<p> If this applies to you, do not take Vemlidy and tell your doctor immediately. </p>
+<p>If this applies to you, do not take Vemlidy and tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <ul>
 <li>
@@ -119,7 +119,7 @@ patients who have hepatitis C or D as well as hepatitis B. </p>
 doctor should offer you HIV testing before you start taking this medicine for hepatitis B. </p>
 </li>
 </ul>
-<p> If any of these apply to you, talk to your doctor before taking Vemlidy. </p>
+<p>If any of these apply to you, talk to your doctor before taking Vemlidy. </p>
 <p>There is a possibility that you may experience kidney problems when taking Vemlidy over a long 
 period of time (see Warnings and precautions). </p>
 <p>Children and adolescents </p>
@@ -140,17 +140,35 @@ You should not take this medicine with other medicines containing:
 * adefovir dipivoxil </p>
 <p>Other types of medicines 
 Talk to your doctor if you are taking: 
-* antibiotics used to treat bacterial infections including tuberculosis, containing: 
-- rifabutin, rifampicin or rifapentine 
-* antiviral medicines used to treat HIV, such as: 
-- ritonavir or cobicistat boosted darunavir, lopinavir or atazanavir 
-* anticonvulsants used to treat epilepsy, such as: 
-- carbamazepine, oxcarbazepine, phenobarbital or phenytoin 
-* herbal remedies used to treat depression and anxiety, containing: 
-- St. John’s wort (Hypericum perforatum) 
-* antifungal medicines used to treat fungal infections, containing: 
-- ketoconazole or itraconazole </p>
-<p> Tell your doctor if you are taking these or any other medicines. </p>
+* antibiotics used to treat bacterial infections including tuberculosis, containing:</p>
+<ul>
+<li>rifabutin, rifampicin or rifapentine </li>
+<li>
+<p>antiviral medicines used to treat HIV, such as:</p>
+</li>
+<li>
+<p>ritonavir or cobicistat boosted darunavir, lopinavir or atazanavir </p>
+</li>
+<li>
+<p>anticonvulsants used to treat epilepsy, such as:</p>
+</li>
+<li>
+<p>carbamazepine, oxcarbazepine, phenobarbital or phenytoin </p>
+</li>
+<li>
+<p>herbal remedies used to treat depression and anxiety, containing:</p>
+</li>
+<li>
+<p>St. John s wort (Hypericum perforatum) </p>
+</li>
+<li>
+<p>antifungal medicines used to treat fungal infections, containing:</p>
+</li>
+<li>
+<p>ketoconazole or itraconazole </p>
+</li>
+</ul>
+<p>Tell your doctor if you are taking these or any other medicines. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
@@ -171,7 +189,7 @@ tools or machines. </p>
 before taking this medicine. </p>
 <p>Vemlidy contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vemlidy"
@@ -205,7 +223,7 @@ forgotten tablet. </p>
 <p>If you are sick (vomit) less than 1 hour after taking Vemlidy, take another tablet. You do not need 
 to take another tablet if you are sick (vomit) more than 1 hour after taking Vemlidy. </p>
 <p>If you stop taking Vemlidy </p>
-<p>Do not stop taking Vemlidy without your doctor’s advice. Stopping treatment with Vemlidy may 
+<p>Do not stop taking Vemlidy without your doctor s advice. Stopping treatment with Vemlidy may 
 cause your hepatitis B to get worse. In some patients with advanced liver disease or cirrhosis, this 
 could be life-threatening. If you stop taking this medicine, you will need regular health checks and 
 blood tests for several months to check your hepatitis B infection. </p>
@@ -253,7 +271,7 @@ particularly symptoms you associate with hepatitis B infection. </p>
 * Hives (urticaria) </p>
 <p>Tests may also show: 
 * Increased level of a liver enzyme (ALT) in the blood </p>
-<p> If any of these side effects get serious tell your doctor. </p>
+<p>If any of these side effects get serious tell your doctor. </p>
 <p>During HBV therapy there may be an increase in weight, fasting levels of blood lipids and/or glucose. 
 Your doctor will test for these changes. </p>
 <p>Reporting of side effects </p>
@@ -291,8 +309,8 @@ magnesium stearate (E470b). </p>
 Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol (E1521), talc (E553b), iron 
 oxide yellow (E172). </p>
 <p>What Vemlidy looks like and contents of the pack </p>
-<p>Vemlidy film-coated tablets are yellow, round, printed (or marked) with “GSI” on one side of the 
-tablet and “25” on the other side of the tablet. It comes in bottles of 30 tablets (with a silica gel 
+<p>Vemlidy film-coated tablets are yellow, round, printed (or marked) with  GSI  on one side of the 
+tablet and  25  on the other side of the tablet. It comes in bottles of 30 tablets (with a silica gel 
 desiccant that must be kept in the bottle to help protect your tablets). The silica gel desiccant is 
 contained in a separate sachet or canister and should not be swallowed. </p>
 <p>The following pack sizes are available: outer cartons containing 1 bottle of 30 film-coated tablets and 
@@ -309,22 +327,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
 Danmark 
@@ -343,14 +360,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -358,14 +374,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 (0) 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -374,10 +390,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -385,10 +401,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

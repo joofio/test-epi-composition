@@ -4,7 +4,7 @@ Instance: composition-en-03f98a1996ed57d7e15b1f1c7ae087d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoely Package Leaflet"
 Description:  "Composition for zoely Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,7 +75,7 @@ Usage: #example
 female hormones. These are nomegestrol acetate (a progestogen) and estradiol (an oestrogen). </li>
 <li>The 4 yellow film-coated tablets are inactive tablets that do not contain hormones and are called 
 placebo tablets. </li>
-<li>Contraceptive pills that contain two different hormones, like Zoely, are called ‘combined pills’. </li>
+<li>Contraceptive pills that contain two different hormones, like Zoely, are called  combined pills . </li>
 <li></li>
 <li>Nomegestrol acetate (the progestogen in Zoely) and estradiol (the oestrogen in Zoely) work 
 together to prevent ovulation (release of an egg from the ovary) and to reduce the chance of any 
@@ -90,7 +90,7 @@ released egg being fertilised and making you pregnant. </li>
   * code.text = "2. What you need to know before you take zoely"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>General notes </p>
-<p>Before you start using Zoely you should read the information on blood clots (thrombosis) in section 2. It is particularly important to read the symptoms of a blood clot – see section 2 “Blood clots”. </p>
+<p>Before you start using Zoely you should read the information on blood clots (thrombosis) in section 2. It is particularly important to read the symptoms of a blood clot   see section 2  Blood clots . </p>
 <p>Before you can begin taking Zoely, your doctor will ask you about your personal health history and 
 that of your close relatives in order to give you an individual advice on the treatment. The doctor will 
 also measure your blood pressure and, depending upon your personal situation, may also carry out 
@@ -111,35 +111,31 @@ of birth control would be more appropriate. </p>
 <li>if you have (or have ever had) a blood clot in a blood vessel of your legs (deep vein thrombosis, 
 DVT), your lungs (pulmonary embolism, PE) or other organs; </li>
 <li>if you have a disorder affecting your blood clotting - for instance, protein C deficiency, protein 
-S deficiency, antithrombin – III deficiency, Factor V Leiden or antiphospholipid antibodies; </li>
-<li>if you need an operation or if you are off your feet for a long time (see section ‘Blood clots); </li>
+S deficiency, antithrombin   III deficiency, Factor V Leiden or antiphospholipid antibodies; </li>
+<li>if you need an operation or if you are off your feet for a long time (see section  Blood clots); </li>
 <li>if you have ever had a heart attack or a stroke; </li>
 <li>if you have ever had angina pectoris (a condition that causes severe chest pain and may be a first 
 sign of blocked blood vessels around your heart, known as heart attack) or transient ischaemic 
 attack (TIA, temporary stroke symptoms); </li>
-<li>if you have any of the following diseases that may increase your risk of a clot in the arteries: 
-– 
-severe diabetes with blood vessel damage; 
-– 
-very high blood pressure; 
-– 
-a very high level of certain fat in the blood (cholesterol or triglycerides); 
-– 
-a condition known as hyperhomocysteinaemia; </li>
-<li>if you have ever had a type of migraine called ‘migraine with aura’; </li>
-<li>if you have ever had inflammation of the pancreas (pancreatitis) associated with high levels of 
-fat in your blood; </li>
-<li>if you have ever had a severe liver disease and your liver function is not yet working normally; </li>
-<li>if you have ever had a benign or malignant tumour in the liver; </li>
-<li>if you have ever had, or if you may have, cancer of the breast or the genital organs; </li>
-<li>if you have meningioma or have ever been diagnosed with a meningioma (a generally benign 
-tumour of the tissue layer between the brain and the skull).  </li>
-<li>if you have any unexplained bleeding from the vagina; </li>
-<li>if you are allergic to estradiol or nomegestrol acetate, or any of the other ingredients of this 
-medicine (listed in section 6). </li>
+<li>if you have any of the following diseases that may increase your risk of a clot in the arteries: </li>
 </ul>
+<p>severe diabetes with blood vessel damage; </p>
+<p>very high blood pressure; </p>
+<p>a very high level of certain fat in the blood (cholesterol or triglycerides); </p>
+<p>a condition known as hyperhomocysteinaemia; 
+* if you have ever had a type of migraine called  migraine with aura ; 
+* if you have ever had inflammation of the pancreas (pancreatitis) associated with high levels of 
+fat in your blood; 
+* if you have ever had a severe liver disease and your liver function is not yet working normally; 
+* if you have ever had a benign or malignant tumour in the liver; 
+* if you have ever had, or if you may have, cancer of the breast or the genital organs; 
+* if you have meningioma or have ever been diagnosed with a meningioma (a generally benign 
+tumour of the tissue layer between the brain and the skull).<br />
+* if you have any unexplained bleeding from the vagina; 
+* if you are allergic to estradiol or nomegestrol acetate, or any of the other ingredients of this 
+medicine (listed in section 6). </p>
 <p>If any of these conditions appear for the first time while using Zoely, stop taking it at once and tell 
-your doctor. In the meantime, use a non-hormonal contraceptive. See also ‘General Notes’ in section 2 
+your doctor. In the meantime, use a non-hormonal contraceptive. See also  General Notes  in section 2 
 above. </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before using Zoely. </p>
@@ -148,23 +144,23 @@ Talk to your doctor or pharmacist before using Zoely. </p>
 <ul>
 <li>notice possible signs of a blood clot that may mean you are suffering from a blood clot in the 
 leg (i.e., deep vein thrombosis), a blood clot in the lung (i.e., pulmonary embolism), a heart 
-attack or a stroke (see “Blood clots” section below). 
-For a description of the symptoms of these serious side effects please go to “How to recognise a blood 
-clot”. </li>
+attack or a stroke (see  Blood clots  section below). 
+For a description of the symptoms of these serious side effects please go to  How to recognise a blood 
+clot . </li>
 <li>notice any changes in your own health, especially involving any of the items mentioned in this 
-leaflet (see also in section 2 ‘Do not use Zoely’; do not forget about the changes in the health of 
+leaflet (see also in section 2  Do not use Zoely ; do not forget about the changes in the health of 
 your immediate family); </li>
 <li>feel a lump in your breast; </li>
 <li>experience symptoms of angioedema such as swollen face, tongue and/or throat and/or 
 difficulty swallowing or hives together with difficulty breathing; </li>
-<li>are going to use other medicines (see also in section 2 ‘Other medicines and Zoely’); </li>
+<li>are going to use other medicines (see also in section 2  Other medicines and Zoely ); </li>
 <li>are to be immobilised or are to have surgery (tell your doctor at least four weeks in advance); </li>
 <li>have unusual, heavy vaginal bleeding; </li>
 <li>forgot one or more tablets in the first week of the blister pack and had unprotected sex in the 
-seven days before (see also in section 3 ‘If you forget to take Zoely’); </li>
+seven days before (see also in section 3  If you forget to take Zoely ); </li>
 <li>have severe diarrhoea or experience severe vomiting; </li>
 <li>miss periods and suspect you may be pregnant (do not start the next blister pack until your 
-doctor tells you, see also in section 3 ‘If you have missed one or more periods’). </li>
+doctor tells you, see also in section 3  If you have missed one or more periods ). </li>
 </ul>
 <p>Tell your doctor if any of the following conditions apply to you. 
 If the condition develops, or gets worse while you are using Zoely, you should also tell your doctor if 
@@ -173,11 +169,11 @@ you have:
 symptoms of angioedema such as swollen face, tongue and/or throat and/or difficulty 
 swallowing or hives, together with difficulty breathing. Medicines containing oestrogens may 
 induce or worsen symptoms of angioedema; 
-* epilepsy (see in section 2 ‘Other medicines and Zoely’); 
+* epilepsy (see in section 2  Other medicines and Zoely ); 
 * liver disease (for instance jaundice) or gallbladder disease (for instance gallstones); 
 * diabetes; 
 * depression; 
-* Crohn’s disease or ulcerative colitis (chronic inflammatory bowel disease); 
+* Crohn s disease or ulcerative colitis (chronic inflammatory bowel disease); 
 * systemic lupus erythematosus (SLE, a disease affecting your natural defence system); 
 * haemolytic uraemic syndrome (HUS, a disorder of blood clotting causing failure of the 
 kidneys); 
@@ -189,13 +185,13 @@ pancreatitis (inflammation of the pancreas);
 * varicose veins. 
 * a condition that occurred for the first time or worsened during pregnancy or previous use of 
 female hormones (e.g. hearing loss, porphyria [a disease of the blood], herpes gestationis [skin 
-rash with vesicles during pregnancy], Sydenham’s chorea [a disease of the nerves in which 
+rash with vesicles during pregnancy], Sydenham s chorea [a disease of the nerves in which 
 sudden movements of the body occur]); 
-* or have ever had chloasma (a skin yellowish-brown pigment patches, so called ‘pregnancy 
-patches’, particularly on the face). If so, avoid too much exposure to the sun or ultraviolet light; </p>
+* or have ever had chloasma (a skin yellowish-brown pigment patches, so called  pregnancy 
+patches , particularly on the face). If so, avoid too much exposure to the sun or ultraviolet light; </p>
 <p>Also tell your doctor if: 
 * a close relative has or has ever had breast cancer; 
-* you need an operation or if you are off your feet for a long time (see in section 2 ‘Blood clots); 
+* you need an operation or if you are off your feet for a long time (see in section 2  Blood clots); 
 * you have just given birth you are at an increased risk of blood clots. You should ask your doctor 
 how soon after delivery you can start taking Zoely. </p>
 <p>BLOOD CLOTS </p>
@@ -203,8 +199,8 @@ how soon after delivery you can start taking Zoely. </p>
 clot compared with not using one. In rare cases a blood clot can block blood vessels and cause serious 
 problems. </p>
 <p>Blood clots can develop 
-* in veins (referred to as ‘venous thrombosis’, ‘venous thromboembolism’ or VTE) 
-* in the arteries (referred to as an ‘arterial thrombosis’, ‘arterial thromboembolism’ or ATE). 
+* in veins (referred to as  venous thrombosis ,  venous thromboembolism  or VTE) 
+* in the arteries (referred to as an  arterial thrombosis ,  arterial thromboembolism  or ATE). 
 Recovery from blood clots is not always complete. Rarely, there may be serious lasting effects or, very 
 rarely, they may be fatal. </p>
 <p>It is important to remember that the overall risk of a harmful blood clot due to Zoely is small. </p>
@@ -231,7 +227,7 @@ or blue </li>
 * severe pain in your stomach; </p>
 <p>If you are unsure, talk to a doctor as some of these symptoms such as 
 coughing or being short of breath may be mistaken for a milder condition 
-such as a respiratory tract infection (e.g., a ‘common cold’). </p>
+such as a respiratory tract infection (e.g., a  common cold ). </p>
 <p>Pulmonary embolism 
 Symptoms most commonly occur in one eye: 
 * immediate loss of vision or 
@@ -289,7 +285,7 @@ levonorgestrel, norethisterone, or norgestimate, about 5-7 will develop a blood 
 * The risk of a blood clot with Zoely compares to the risk with a combined hormonal 
 contraceptive that contains levonorgestrel. 
 * The risk of having a blood clot will vary according to your personal medical history (see 
-“Factors that increase your risk of a blood clot” below). </p>
+ Factors that increase your risk of a blood clot  below). </p>
 <p>Risk of developing a blood 
 clot in a year 
 Women who are not using a combined hormonal pill and are not 
@@ -359,7 +355,7 @@ in women on combined pills because they have breast examination by their doctor 
 stopping the combined pill, the increased risk gradually reduces. 
 It is important to check your breasts regularly and you should contact your doctor if you feel any 
 lump. You should also tell your doctor if a close relative has, or ever had breast cancer (see section 2 
-“Warnings and precautions”). </p>
+ Warnings and precautions ). </p>
 <p>In rare cases, benign (noncancerous) liver tumours, and in even rarer cases malignant (cancerous) liver 
 tumours have occurred in pill users. Contact your doctor if you have unusual severe abdominal pain. </p>
 <p>Cervical cancer is caused by an infection with the human papilloma virus (HPV). It has been reported 
@@ -369,7 +365,7 @@ use of hormonal contraceptives or to other factors, such as difference in sexual
 Use of nomegestrol acetate has been linked to the development of a generally benign tumours of the 
 tissue layer between the brain and the skull (meningioma). The risk increases especially when you use 
 it at high doses for longer duration (several years). If you are diagnosed with meningioma, your doctor 
-will stop your treatment with Zoely (see section ‘Do not use Zoely’). If you notice any symptoms such 
+will stop your treatment with Zoely (see section  Do not use Zoely ). If you notice any symptoms such 
 as changes in vision (e.g. seeing double or blurriness), hearing loss or ringing in the ears, loss of smell, 
 headaches that worsen with time, memory loss, seizures, weakness in your arms or legs, you must tell 
 your doctor straightaway. </p>
@@ -389,23 +385,17 @@ medicines.
 Also tell any other healthcare professional who prescribes or dispenses another medicine that you use 
 Zoely. 
 * There are medicines that can make Zoely less effective in preventing pregnancy, or can cause 
-unexpected bleeding. These include medicines used to treat: 
-– 
-epilepsy (e.g. primidone, phenytoin, phenobarbital, carbamazepine, oxcarbazepine, 
-topiramate, felbamate); 
-– 
-tuberculosis (e.g. rifampicin); 
-– 
-HIV infection (e.g. rifabutin, ritonavir, efavirenz); 
-– 
-Hepatitis C virus (HCV) infection (e.g. protease inhibitors); 
-– 
-other infectious diseases (e.g. griseofulvin); 
-– 
-high blood pressure in the blood vessels in the lungs, known as pulmonary arterial 
+unexpected bleeding. These include medicines used to treat: </p>
+<p>epilepsy (e.g. primidone, phenytoin, phenobarbital, carbamazepine, oxcarbazepine, 
+topiramate, felbamate); </p>
+<p>tuberculosis (e.g. rifampicin); </p>
+<p>HIV infection (e.g. rifabutin, ritonavir, efavirenz); </p>
+<p>Hepatitis C virus (HCV) infection (e.g. protease inhibitors); </p>
+<p>other infectious diseases (e.g. griseofulvin); </p>
+<p>high blood pressure in the blood vessels in the lungs, known as pulmonary arterial 
 hypertension (bosentan). 
-* The herbal product St. John’s wort (Hypericum perforatum) may also stop Zoely from working 
-properly. If you want to use herbal products containing St. John’s wort while you are already 
+* The herbal product St. John s wort (Hypericum perforatum) may also stop Zoely from working 
+properly. If you want to use herbal products containing St. John s wort while you are already 
 using Zoely you should check with your doctor first. 
 * If you are taking medicines or herbal products that might make Zoely less effective, a barrier 
 contraceptive method should also be used. Since the effect of another medicine on Zoely may 
@@ -425,7 +415,7 @@ combination regimen. Your doctor will advise you. </p>
 <p>Pregnancy and breast-feeding 
 Zoely must not be used by women who are pregnant, or who think they may be pregnant. If you get 
 pregnant while using Zoely you should stop using Zoely immediately and contact your doctor. 
-If you want to stop Zoely because you want to get pregnant, see in section 3 ‘If you stop taking Zoely’. </p>
+If you want to stop Zoely because you want to get pregnant, see in section 3  If you stop taking Zoely . </p>
 <p>Zoely is not usually recommended for use during breast-feeding. If you wish to use the pill while 
 breast-feeding, you should check with your doctor. </p>
 <p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
@@ -446,10 +436,10 @@ or pharmacist if you are not sure. </p>
 The Zoely blister contains 28 film-coated tablets: 24 white tablets with the active substances 
 (number 1-24) and 4 yellow tablets without active substances (number 25-28). </p>
 <p>Each time you start a new blister of Zoely, take the number 1 white active tablet in the left-hand top 
-corner (see ‘Start’). Choose from the 7 stickers with day indicators the one in the grey column that 
+corner (see  Start ). Choose from the 7 stickers with day indicators the one in the grey column that 
 begins with your starting day. For example, if you start on a Wednesday, use the day label sticker that 
-starts with ‘WED’. Place it on the blister, just above the row of white active tablets where it reads 
-‘Place day label here’. This allows you to check whether you took your daily tablet. 
+starts with  WED . Place it on the blister, just above the row of white active tablets where it reads 
+ Place day label here . This allows you to check whether you took your daily tablet. 
 Take one tablet each day at about the same time, with some water if necessary. 
 Follow the direction of the arrows on the blister, so use the white active tablets first and then the 
 yellow placebo tablets. 
@@ -457,11 +447,11 @@ Your period will start during the 4 days that you use the yellow placebo tablets
 bleeding). Usually it will start 2-3 days after you use the last white active tablet and may not have 
 finished before you start the next blister. 
 Start taking the next blister immediately after you use the last yellow placebo tablet, even if your 
-period hasn’t finished. This means that you will always start a new blister on the same day of the 
+period hasn t finished. This means that you will always start a new blister on the same day of the 
 week, and also that you have your period on roughly the same days each month. 
 Some women may not have their period every month when they are using the yellow placebo tablets. 
 If you have taken Zoely every day according to these directions, it is unlikely that you are pregnant 
-(see also section 3 ‘If you have missed one or more periods’). </p>
+(see also section 3  If you have missed one or more periods ). </p>
 <p>Starting your first pack of Zoely </p>
 <p>If you have not used a contraceptive with hormones in the previous month 
 Begin with Zoely on the first day of the cycle (that is the first day of your period). If you start Zoely 
@@ -493,8 +483,8 @@ You can start Zoely between 21 and 28 days after having a baby. If you start lat
 must use a barrier method of contraception (for example, a condom) during the first 7 days that you 
 are taking Zoely. If, after having a baby, you have had sex before starting Zoely, you must first be sure 
 that you are not pregnant or you must wait until your next period.<br />
-If you are breast-feeding and want to start Zoely after having a baby, see section 2 ‘Pregnancy and 
-Breast-feeding’. 
+If you are breast-feeding and want to start Zoely after having a baby, see section 2  Pregnancy and 
+Breast-feeding . 
 Ask your doctor or pharmacist what to do if you are not sure when to start. </p>
 <p>After a miscarriage or an abortion 
 Follow the advice of your doctor. </p>
@@ -573,8 +563,8 @@ Finish this second blister by taking the 4 yellow placebo tablets, and then star
 blister. If you are not sure what to do, ask your doctor or pharmacist for advice. </p>
 <p>If you want to change the starting day of your period 
 If you take the tablets according to the instructions, then your period will begin during the placebo 
-days. If you have to change this day, reduce the number of placebo days – when you take the yellow 
-placebo tablets – but never increase them (4 is the maximum). For example, if you start taking the 
+days. If you have to change this day, reduce the number of placebo days   when you take the yellow 
+placebo tablets   but never increase them (4 is the maximum). For example, if you start taking the 
 yellow placebo tablets on Friday, and you want to change this to a Tuesday (3 days earlier) you must 
 start a new blister 3 days earlier than usual. You may not have any bleeding during the shortened 
 period of yellow placebo tablet intake. While using the next blister you may have light or 
@@ -590,8 +580,8 @@ again, contact your doctor. </p>
 Clinical trials with Zoely have shown that you may occasionally miss your regular monthly period 
 after Day 24. * If you have taken all the tablets correctly, and you have not vomited or had severe diarrhoea, or 
 used other medicines, then it is very unlikely that you are pregnant. Keep taking Zoely as usual. 
-See also in section 3 ‘If you vomit or have severe diarrhoea’ or in section 2 ‘Other medicines 
-and Zoely’. 
+See also in section 3  If you vomit or have severe diarrhoea  or in section 2  Other medicines 
+and Zoely . 
 * If you have not taken all the tablets correctly, or if your expected period does not happen twice 
 in a row, you may be pregnant. Contact your doctor immediately. Do not start the next blister of 
 Zoely until your doctor has checked that you are not pregnant. </p>
@@ -615,7 +605,7 @@ you think may be due to Zoely, please talk to your doctor. </p>
 <p>An increased risk of blood clots in your veins (venous thromboembolism (VTE)) or blood clots in 
 your arteries (arterial thromboembolism (ATE)) is present for all women taking combined hormonal 
 contraceptives. For more detailed information on the different risks from taking combined hormonal 
-contraceptives, please see section 2, “What you need to know before you use Zoely”. </p>
+contraceptives, please see section 2,  What you need to know before you use Zoely . </p>
 <p>The following side effects have been linked with the use of Zoely: </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * acne 
@@ -637,19 +627,13 @@ premenstrual syndrome, pain during sex, dryness in the vagina or vulva, spasm of
 * irritability 
 * increased liver enzymes </p>
 <p>Rare (may affect up to 1 in 1,000 people): 
-* harmful blood clots in a vein or artery, for example: 
-o 
-in a leg or foot (i.e., DVT) 
-o 
-in a lung (i.e., PE) 
-o 
-heart attack 
-o 
-stroke 
-o 
+* harmful blood clots in a vein or artery, for example: * 
+in a leg or foot (i.e., DVT) * 
+in a lung (i.e., PE) * 
+heart attack * 
+stroke * 
 mini-stroke or temporary stroke-like symptoms known as a transient ischaemic attack 
-(TIA) 
-o 
+(TIA) * 
 blood clots in the liver, stomach/intestine, kidneys or eye. 
 The chance of having a blood clot may be higher if you have any other conditions that increase this 
 risk. (See section 2 for more information on the conditions that increase risk for blood clots and the 
@@ -666,8 +650,8 @@ symptoms of a blood clot.)
 <p>Allergic (hypersensitive) reactions have been reported in users of Zoely, but the frequency cannot be 
 estimated from the available data. </p>
 <p>Further information on the possible side effect changes to menstrual periods (e.g. absence or irregular) 
-during the use of Zoely is described in section 3 ‘When and how to take the tablets’, ‘If you have 
-unexpected bleeding’ and ‘If you have missed one or more periods’). </p>
+during the use of Zoely is described in section 3  When and how to take the tablets ,  If you have 
+unexpected bleeding  and  If you have missed one or more periods ). </p>
 <p>Reporting of side effects 
 If you get any side effects talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -701,7 +685,7 @@ estradiol (as hemihydrate).
 Yellow placebo film-coated tablets: The tablet does not contain active substances. 
 - The other ingredients are: 
 Tablet core (white active and yellow placebo film-coated tablets): 
-Lactose monohydrate (see section 2 ‘Zoely contains lactose’), microcrystalline cellulose (E460), 
+Lactose monohydrate (see section 2  Zoely contains lactose ), microcrystalline cellulose (E460), 
 crospovidone (E1201), talc (E553b), magnesium stearate (E572) and colloidal anhydrous silica<br />
 Tablet coat (white active film-coated tablets): 
 Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 3350 and talc (E553b) 
@@ -709,8 +693,8 @@ Tablet coat (yellow placebo film-coated tablets):
 Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 3350, talc (E553b), yellow iron 
 oxide(E172) and black iron oxide(E172) </p>
 <p>What Zoely looks like and contents of the pack 
-The active film-coated tablets (tablets) are white and round. They are coded ‘ne’ on both sides. 
-The placebo film-coated tablets are yellow and round. They are coded ‘p’ on both sides. 
+The active film-coated tablets (tablets) are white and round. They are coded  ne  on both sides. 
+The placebo film-coated tablets are yellow and round. They are coded  p  on both sides. 
 Zoely comes in blisters of 28 film-coated tablets (24 white active film-coated tablets and 4 yellow 
 placebo film-coated tablets) packed in a ply carton. Pack sizes: 28, 84, 168 and 364 film-coated 
 tablets. </p>
@@ -723,7 +707,7 @@ Dublin 1
 D01 YEIreland </p>
 <p>Manufacturer 
 Delpharm Lille S.A.S. 
-Parc d’Activités Roubaix-Est 
+Parc d Activit s Roubaix-Est 
 22 Rue de Toufflers 
 CS 5059452 LYS-LEZ-LANNOY 
 France </p>

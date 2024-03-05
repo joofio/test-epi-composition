@@ -4,7 +4,7 @@ Instance: composition-en-30e51ed12b82204a5177c9b68b9c4f09
 InstanceOf: CompositionUvEpi
 Title: "Composition for somac Package Leaflet"
 Description:  "Composition for somac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,11 +69,11 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What somac is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SOMAC Control contains the active substance pantoprazole, which blocks the ‘pump’ that produces 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SOMAC Control contains the active substance pantoprazole, which blocks the  pump  that produces 
 stomach acid. Hence it reduces the amount of acid in your stomach.  </p>
 <p>SOMAC Control is used for the short-term treatment of reflux symptoms (for example heartburn, acid 
 regurgitation) in adults. </p>
-<p>Reflux is the backflow of acid from the stomach into the gullet (“foodpipe”), which may become 
+<p>Reflux is the backflow of acid from the stomach into the gullet ( foodpipe ), which may become 
 inflamed and painful. This may cause you symptoms such as a painful burning sensation in the chest 
 rising up to the throat (heartburn) and a sour taste in the mouth (acid regurgitation). </p>
 <p>You may experience relief from your acid reflux and heartburn symptoms after just one day of 
@@ -93,7 +93,7 @@ necessary to take the tablets for 2-3 consecutive days to relieve the symptoms. 
 <li>if you are allergic to pantoprazole or to any of the other ingredients of this medicine (listed in 
 section 6) </li>
 <li>if you are taking HIV protease inhibitors such as atazanavir, nelfinavir (for the treatment of 
-HIV-infection). See ‘Other medicines and SOMAC Control’. </li>
+HIV-infection). See  Other medicines and SOMAC Control . </li>
 </ul>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor or pharmacist before taking SOMAC Control 
@@ -112,45 +112,59 @@ HIV-infection) at the same time as pantoprazole, ask your doctor for specific ad
 <p>Do not take this product for longer than 4 weeks without consulting your doctor. If your reflux 
 symptoms (heartburn or acid regurgitation) persist for longer than 2 weeks, consult your doctor who 
 will decide about the need for long-term intake of this medicine. </p>
-<p>If you take SOMAC Control for longer periods, this may cause additional risks, such as: 
-- reduced absorption of Vitamin B12, and Vitamin B12 deficiency if you already have low body 
+<p>If you take SOMAC Control for longer periods, this may cause additional risks, such as:</p>
+<ul>
+<li>
+<p>reduced absorption of Vitamin B12, and Vitamin B12 deficiency if you already have low body 
 stores of Vitamin B12. Please contact your doctor if you notice any of the following symptoms, 
-which could indicate low levels of Vitamin B12: 
-- Extreme tiredness or lack of energy<br />
-- Pins and needles<br />
-- Sore or red tongue, mouth ulcers<br />
-- Muscle weakness 
-- Disturbed vision<br />
-- Problems with memory, confusion, depression 
-- fracture of your hip, wrist or spine, especially if you already have osteoporosis (reduced bone 
+which could indicate low levels of Vitamin B12:</p>
+</li>
+<li>
+<p>Extreme tiredness or lack of energy  </p>
+</li>
+<li>Pins and needles  </li>
+<li>Sore or red tongue, mouth ulcers  </li>
+<li>Muscle weakness </li>
+<li>Disturbed vision  </li>
+<li>Problems with memory, confusion, depression </li>
+<li>fracture of your hip, wrist or spine, especially if you already have osteoporosis (reduced bone 
 density) or if your doctor has told you that you are at risk of getting osteoporosis (for example, 
-if you are taking steroids). 
-- falling magnesium levels in your blood (potential symptoms: fatigue, involuntary muscle 
+if you are taking steroids). </li>
+<li>falling magnesium levels in your blood (potential symptoms: fatigue, involuntary muscle 
 contractions, disorientation, convulsions, dizziness, increased heart rate). Low levels of 
 magnesium can also lead to a reduction in potassium or calcium levels in the blood. You should 
 talk to your doctor if you have been using this product for more than 4 weeks. Your doctor may 
-decide to perform regular blood tests to monitor your levels of magnesium. </p>
+decide to perform regular blood tests to monitor your levels of magnesium. </li>
+</ul>
 <p>Tell your doctor immediately, before or after taking this medicine, if you notice any of the following 
-symptoms, which could be a sign of another, more serious, disease: 
-- an unintentional loss of weight (not related to a diet or an exercise programme) 
-- vomiting, particularly if repeated 
-- vomiting blood; this may appear as dark coffee grounds in your vomit 
-- you notice blood in your stools; which may be black or tarry in appearance 
-- difficulty in swallowing or pain when swallowing 
-- you look pale and feel weak (anaemia) 
-- chest pain 
-- stomach pain 
-- severe and/or persistent diarrhoea, because this medicine has been associated with a small 
-increase in infectious diarrhoea. 
-- if you get a rash on your skin, especially in areas exposed to the sun tell your doctor as soon as 
+symptoms, which could be a sign of another, more serious, disease:</p>
+<ul>
+<li>an unintentional loss of weight (not related to a diet or an exercise programme) </li>
+<li>vomiting, particularly if repeated </li>
+<li>vomiting blood; this may appear as dark coffee grounds in your vomit </li>
+<li>you notice blood in your stools; which may be black or tarry in appearance </li>
+<li>difficulty in swallowing or pain when swallowing </li>
+<li>you look pale and feel weak (anaemia) </li>
+<li>chest pain </li>
+<li>stomach pain </li>
+<li>severe and/or persistent diarrhoea, because this medicine has been associated with a small 
+increase in infectious diarrhoea. </li>
+<li>if you get a rash on your skin, especially in areas exposed to the sun tell your doctor as soon as 
 you can, as you may need to stop your treatment with SOMAC Control. Remember to also 
-mention any other ill-effects like pain in your joints. 
-- Serious skin reactions including Stevens-Johnson syndrome, toxic epidermal necrolysis, drug 
+mention any other ill-effects like pain in your joints. </li>
+<li>Serious skin reactions including Stevens-Johnson syndrome, toxic epidermal necrolysis, drug 
 reaction with eosinophilia and systemic symptoms (DRESS) and erythema multiforme,  have 
 been reported in association with pantoprazole treatment. Stop using pantoprazole and seek 
 medical attention immediately if you notice any of the symptoms related to these serious skin 
-reactions described in section 4.<br />
-Your doctor may decide that you need some tests.  </p>
+reactions described in section </li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take somac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take somac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor may decide that you need some tests.  </p>
 <p>If you are due to have a blood test, tell your doctor that you are taking this medicine. </p>
 <p>You may experience relief from your acid reflux and heartburn symptoms after just one day of 
 treatment with SOMAC Control, but this medicine is not meant to bring immediate relief. 
@@ -163,16 +177,18 @@ safety information in this younger age group. </p>
 <p>Other medicines and SOMAC Control </p>
 <p>Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines.  </p>
 <p>SOMAC Control may stop certain other medicines from working properly. Especially medicines 
-containing one of the following active substances:<br />
-- HIV protease inhibitors such as atazanavir, nelfinavir (for the treatment of HIV-infection). You 
-must not use SOMAC Control if you are taking HIV protease inhibitors. See ‘Do not take 
-SOMAC Control’. 
-- ketoconazole (used for fungal infections). 
-- warfarin and phenprocoumon (used to thin blood and prevent clots). You may need further 
-blood tests. 
-- methotrexate (used to treat rheumatoid arthritis, psoriasis, and cancer) – if you are taking 
+containing one of the following active substances:</p>
+<ul>
+<li>HIV protease inhibitors such as atazanavir, nelfinavir (for the treatment of HIV-infection). You 
+must not use SOMAC Control if you are taking HIV protease inhibitors. See  Do not take 
+SOMAC Control . </li>
+<li>ketoconazole (used for fungal infections). </li>
+<li>warfarin and phenprocoumon (used to thin blood and prevent clots). You may need further 
+blood tests. </li>
+<li>methotrexate (used to treat rheumatoid arthritis, psoriasis, and cancer)   if you are taking 
 methotrexate your doctor may temporarily stop your SOMAC Control treatment because 
-pantoprazole can increase levels of methotrexate in the blood. </p>
+pantoprazole can increase levels of methotrexate in the blood. </li>
+</ul>
 <p>Do not take SOMAC Control with other medicines which limit the amount of acid produced in your 
 stomach, such as another proton pump inhibitor (omeprazole, lansoprazole or rabeprazole) or an 
 H2 antagonist (e.g. ranitidine, famotidine). 
@@ -188,12 +204,13 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <p>If you experience side effects like dizziness or disturbed vision, you should not drive or use machines. </p>
 <p>SOMAC Control contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take somac"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take somac"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as described in this leaflet or as your doctor or pharmacist have told 
 you. Check with your doctor or pharmacist if you are not sure.  </p>
@@ -214,13 +231,12 @@ your medicine and this leaflet with you. </p>
 <p>If you forget to take SOMAC Control  </p>
 <p>Do not take a double dose to make up for the forgotten dose. Take your next, normal dose, the next 
 day, at your usual time. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store somac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store somac"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately or contact the casualty department at your nearest hospital, if you get 
@@ -261,10 +277,12 @@ hypersensitivity syndrome). </p>
 <p>yellowing of the skin and eyes (due to severe liver damage), or fever, rash, and enlarged kidneys 
 sometimes with painful urination, and lower back pain (serious inflammation of the kidneys), 
 possibly leading to kidney failure. </p>
-<p>Other side effects include: 
-- Common side effects: (may affect up to 1 in 10 people) 
-benign polyps in the stomach </p>
+<p>Other side effects include:</p>
 <ul>
+<li>
+<p>Common side effects: (may affect up to 1 in 10 people) 
+benign polyps in the stomach </p>
+</li>
 <li>
 <p>Uncommon side effects (may affect up to 1 in 100 people) 
 headache; dizziness; diarrhoea; feeling sick, vomiting; bloating and flatulence (wind); 
@@ -301,145 +319,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store somac"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store somac"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date, which is stated on the carton and the blister after ‘EXP’. 
-The expiry date refers to the last day of that month. </p>
-<p>Store in the original package in order to protect from moisture. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What SOMAC Control contains </p>
-<ul>
-<li>The active substance is pantoprazole. Each tablet contains 20 mg pantoprazole (as sodium 
-sesquihydrate). </li>
-<li>The other ingredients are:  </li>
-</ul>
-<p>Core: sodium carbonate (anhydrous), mannitol(E421), crospovidone, povidone K90, calcium 
-stearate. </p>
-<p>Coating: hypromellose, povidone, titanium dioxide (E171), yellow iron oxide (E172), propylene 
-glycol (E1520), methacrylic acid-ethyl acrylate copolymer, sodium laurilsulfate, polysorbate 80, 
-triethyl citrate. </p>
-<p>Printing ink: shellac, red, black and yellow iron oxide (E172) and ammonia solution, 
-concentrated.  </p>
-<p>What SOMAC Control looks like and contents of the pack </p>
-<p>The gastro-resistant tablets are yellow, oval, biconvex film-coated tablets imprinted with “P20” on one 
-side. </p>
-<p>SOMAC Control is available in Alu/Alu blisters with or without cardboard reinforcement. 
-Packs containing 7 or 14 gastro-resistant tablets. Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Takeda GmbH 
-Byk-Gulden-Straße 2, 78467 Konstanz<br />
-Germany </p>
-<p>Manufacturer </p>
-<p>Takeda GmbH 
-Production site Oranienburg 
-Lehnitzstraße 70-98, 16515 Oranienburg 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Takeda Belgium NV 
-Tél/Tel: + 32 2 464 06 medinfoEMEA@takeda.com </p>
-<p>Lietuva 
-Takeda, UAB 
-Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Teл.: +359 2 958 27 medinfoEMEA@takeda.com </p>
-<p>Luxembourg/Luxemburg 
-Takeda Belgium NV 
-Tél/Tel: + 32 2 464 06 medinfoEMEA@takeda.com </p>
-<p>Česká republika<br />
-Takeda Pharmaceuticals Czech Republic s.r.o. 
-Tel: +420 234 722 722<br />
-medinfoEMEA@takeda.com </p>
-<p>Magyarország 
-Takeda Pharma Kft. 
-Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
-<p>Danmark 
-Takeda Pharma A/S 
-Tlf: +45 46 77 10 10<br />
-medinfoEMEA@takeda.com </p>
-<p>Malta 
-Takeda HELLAS S.A. 
-Tel: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Deutschland 
-Takeda GmbH 
-Tel: +49 (0) 800 825 3medinfoEMEA@takeda.com </p>
-<p>Nederland 
-Takeda Nederland B.V. 
-Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
-<p>Eesti 
-Takeda Pharma AS 
-Tel: +372 6177 medinfoEMEA@takeda.com </p>
-<p>Norge 
-Takeda AS 
-Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα<br />
-Takeda ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Österreich 
-Takeda Pharma Ges.m.b.H. 
-Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España, S.A. 
-Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
-<p>Polska 
-Takeda Pharma Sp. z o.o. 
-Tel.: +48223062medinfoEMEA@takeda.com </p>
-<p>France 
-Takeda France SAS 
-Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
-<p>Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
-Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
-<p>Hrvatska 
-Takeda Pharmaceuticals Croatia d.o.o. 
-Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
-Takeda Pharmaceuticals SRL 
-Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
-<p>Ireland 
-Takeda Products Ireland Ltd 
-Tel: 1800 937 medinfoEMEA@takeda.com </p>
-<p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
-Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
-Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
-Takeda Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
-<p>Italia 
-Takeda Italia S.p.A. 
-Tel: +39 06 502medinfoEMEA@takeda.com </p>
-<p>Suomi/Finland 
-Takeda Oy 
-Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος<br />
-Takeda ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Sverige 
-Takeda Pharma AB 
-Tel: 020 795 medinfoEMEA@takeda.com </p>
-<p>Latvija 
-Takeda Latvia SIA 
-Tel: +371 67840medinfoEMEA@takeda.com </p>
-<p>United Kingdom (Northern Ireland) 
-Takeda UK Ltd 
-Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date, which is stated on the carton and the blister after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Store in the original package in order to protect from moisture. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

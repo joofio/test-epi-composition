@@ -4,7 +4,7 @@ Instance: composition-en-2d5ce8dc4824b4100ae659aba75ae904
 InstanceOf: CompositionUvEpi
 Title: "Composition for cablivi Package Leaflet"
 Description:  "Composition for cablivi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -116,8 +116,8 @@ Cablivi to you. </p>
 <p>Driving and using machines 
 Cablivi is not expected to influence the ability to drive or use machines. </p>
 <p>Cablivi contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cablivi"
@@ -158,7 +158,7 @@ injection. </p>
 </em> Do not use the kit if the packaging or the items in it are damaged in any way. 
 * Place all components of the kit on the clean flat surface.<br />
 * If the kit was not stored at room temperature, allow the vial and the syringe to reach room 
-temperature (15°C – 25°C) by letting them stand at room temperature for a few minutes. Do not 
+temperature (15 C   25 C) by letting them stand at room temperature for a few minutes. Do not 
 warm them up in any other way. </p>
 <p>Step 3 - Disinfect the rubber stopper<br />
 * Remove the plastic flip-off cap from the vial. Do not use the vial if the green plastic cap is 
@@ -193,7 +193,7 @@ connector part of the vial adapter.  </li>
 </ul>
 <p>Step 7 - Prepare the solution<br />
 * Keep the vial standing vertically on the surface with the syringe pointing downwards. 
-* Slowly push the syringe’s plunger down until the syringe is empty. Do not remove the syringe 
+* Slowly push the syringe s plunger down until the syringe is empty. Do not remove the syringe 
 from the vial. 
 * With the syringe still connected to the vial adapter, gently swirl the vial with connected syringe 
 until the powder is dissolved. Avoid foaming. Do not shake the vial. </p>
@@ -205,7 +205,7 @@ normal.  </li>
 </ul>
 <p>Step 8 - Draw up solution<br />
 <em> Check the solution for particles. All powder must be dissolved and the solution must be clear. 
-* Slowly press the syringe’s plunger fully down.<br />
+* Slowly press the syringe s plunger fully down.<br />
 </em> Turn the whole - vial, adapter and syringe - upside down. 
 * While keeping it vertical, slowly pull the plunger to transfer all the solution into the syringe. Do 
 not shake it. </p>
@@ -232,7 +232,7 @@ or anything else that looks abnormal. Contact your doctor or nurse if this happe
 </ul>
 <p>Step 11 - Prepare injection site for injection under the skin  </p>
 <ul>
-<li>Select a suitable place (‘injection site’) on your belly for injection under your skin. Avoid the 
+<li>Select a suitable place ( injection site ) on your belly for injection under your skin. Avoid the 
 area around the belly button. Select a different injection site from the one you used on the 
 previous day to help the skin to recover after the injection.' </li>
 <li>Use the second alcohol pad to clean the injection site you have chosen. </li>
@@ -324,11 +324,11 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C - 8 °C). Do not freeze. 
+<p>Store in a refrigerator (2  C - 8  C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
-<p>Cablivi may be stored at a temperature not above 25 °C for a single period of up to 2 months, but not 
+<p>Cablivi may be stored at a temperature not above 25  C for a single period of up to 2 months, but not 
 beyond the expiry date. Do not return Cablivi to refrigerated storage after storage at room temperature. 
-Never expose to temperatures above 30 °C. </p>
+Never expose to temperatures above 30  C. </p>
 <p>Do not use Cablivi if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -345,7 +345,7 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>The active substance is caplacizumab. 
 Each vial contains 10 mg caplacizumab. </li>
 <li>The other ingredients are sucrose, citric acid anhydrous, trisodium citrate dihydrate (see 
-section 2 “Cablivi contains sodium”) and polysorbate 80. * pre-filled syringe 
+section 2  Cablivi contains sodium ) and polysorbate 80. * pre-filled syringe 
 The pre-filled syringe contains 1 mL water for injections. </li>
 </ul>
 <p>What Cablivi looks like and contents of the pack </p>
@@ -367,21 +367,20 @@ Technologiepark 21<br />
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54 Lietuva 
+T l/Tel: +32 (0)2 710 54 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0Danmark 
 Sanofi A/S 
@@ -394,49 +393,48 @@ Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
 Nederland 
 Genzyme Europe B.V. 
 Tel: +31 20 245 4Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71 Ελλάδα 
-sanofi-aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16 Österreich 
+Tlf: +47 67 10 71 <br />
+sanofi-aventis   AEBE 
+ : +30 210 900 16  sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00 France 
 sanofi-aventis France 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 Ireland 
 sanofi-aventis Ireland Ltd.  T/A SANOFI 
 Tel: +353 (0) 1 403 56 Slovenija 
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
 Sanofi S.r.l. 
 Tel: 800 536Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

@@ -4,7 +4,7 @@ Instance: composition-en-3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibandronic Package Leaflet"
 Description:  "Composition for ibandronic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ibandronic Acid Teva contains the active substance ibandronic acid. This belongs to a group of 
 medicines called bisphosphonates. </p>
 <p>Ibandronic Acid Teva is used in adults and prescribed to you if you have breast cancer that has spread 
-to your bones (called bone “metastases”). </p>
+to your bones (called bone  metastases ). </p>
 <ul>
 <li>It helps to prevent your bones from breaking (fractures). </li>
 <li>It also helps to prevent other bone problems that may need surgery or radiotherapy. </li>
@@ -103,15 +103,17 @@ conditions. ONJ can also occur after stopping treatment. </p>
 <p>It is important to try and prevent ONJ developing as it is a painful condition that can be difficult to 
 treat. In order to reduce the risk of developing osteonecrosis of the jaw, there are some precautions 
 you should take. </p>
-<p>Before receiving treatment, tell your doctor/nurse (health care professional) if:<br />
-- you have any problems with your mouth or teeth such as poor dental health, gum disease or a 
-planned tooth extraction. 
-- you do not receive routine dental care or have not had a dental check up for a long time. 
-- you are a smoker (as this may increase the risk of dental problems). 
-- you have previously been treated with a bisphosphonate (used to treat or prevent bone 
-disorders). 
-- you are taking medicines called corticosteroids (such as prednisolone or dexamethasone). 
-- you have cancer. </p>
+<p>Before receiving treatment, tell your doctor/nurse (health care professional) if:</p>
+<ul>
+<li>you have any problems with your mouth or teeth such as poor dental health, gum disease or a 
+planned tooth extraction. </li>
+<li>you do not receive routine dental care or have not had a dental check up for a long time. </li>
+<li>you are a smoker (as this may increase the risk of dental problems). </li>
+<li>you have previously been treated with a bisphosphonate (used to treat or prevent bone 
+disorders). </li>
+<li>you are taking medicines called corticosteroids (such as prednisolone or dexamethasone). </li>
+<li>you have cancer. </li>
+</ul>
 <p>Your doctor may ask you to undergo a dental examination before starting treatment with Ibandronic 
 Acid Teva. </p>
 <p>While being treated, you should maintain good oral hygiene (including regular teeth brushing) and 
@@ -137,13 +139,15 @@ Ibandronic Acid Teva should not be used in children and adolescents below the ag
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This is because Ibandronic Acid Teva can affect the way some other medicines work. Also 
 some other medicines can affect the way Ibandronic Acid Teva works. </p>
-<p>In particular, tell your doctor or pharmacist if you are taking any of the following medicines: 
-- supplements containing calcium, magnesium, iron or aluminium 
-- acetylsalicylic acid and non-steroidal anti-inflammatory medicines called “NSAIDs”, such as 
+<p>In particular, tell your doctor or pharmacist if you are taking any of the following medicines:</p>
+<ul>
+<li>supplements containing calcium, magnesium, iron or aluminium </li>
+<li>acetylsalicylic acid and non-steroidal anti-inflammatory medicines called  NSAIDs , such as 
 ibuprofen or naproxen. This is because NSAIDs and Ibandronic Acid Teva can both irritate your 
-stomach and gut 
-- a type of antibiotic injection called “aminoglycoside” such as gentamicin. This is because 
-aminoglycosides and Ibandronic Acid Teva can both lower the amount of calcium in your blood. </p>
+stomach and gut </li>
+<li>a type of antibiotic injection called  aminoglycoside  such as gentamicin. This is because 
+aminoglycosides and Ibandronic Acid Teva can both lower the amount of calcium in your blood. </li>
+</ul>
 <p>Taking medicines that reduce stomach acid such as cimetidine and ranitidine, may slightly increase the 
 effects of Ibandronic Acid Teva. </p>
 <p>Ibandronic Acid Teva with food and drink 
@@ -157,12 +161,12 @@ food and drink, and take any medicines or supplements (see section 3). </p>
 Do not take Ibandronic Acid Teva if you are pregnant, planning to get pregnant or if you are 
 breast-feeding. Ask your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines 
-You can drive and use machines as it’s expected that Ibandronic Acid Teva has no or negligible effect 
+You can drive and use machines as it s expected that Ibandronic Acid Teva has no or negligible effect 
 on your ability to drive and use machines. Talk to your doctor first if you want to drive, use machine 
 or tools. </p>
 <p>Ibandronic Acid Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ibandronic"
@@ -289,130 +293,5 @@ throw away medicines you no longer use. These measures will help protect the env
 The other ingredients are: 
 * tablet core: cellulose microcrystalline, povidone K-30, crospovidone (type A), silica colloidal 
 anhydrous, stearic acid; 
-* tablet coating: titanium dioxide (E 171), hypromellose, macrogol 400, polysorbate 80.<br />
-What Ibandronic Acid Teva looks like and contents of the pack 
-The Ibandronic Acid Teva film-coated tablets are white, biconvex, capsule-shaped, engraved “50” on 
-one side and plain on the other. </p>
-<p>Ibandronic Acid Teva comes in blisters (PVC/Aclar/PVC – Aluminium) in cartons of 28 or 84 tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>Marketing Authorisation Holder: 
-Teva B.V. 
-Swensweg 5 
-2031 GA Haarlem 
-The Netherlands  </p>
-<p>Manufacturer: 
-Teva Pharmaceutical Works Private Limited Company 
-Pallagi út 13, 
-4042 Debrecen 
-Hungary </p>
-<p>Pharmachemie B.V. 
-Swensweg 5, 
-2031 GA Haarlem 
-The Netherlands </p>
-<p>Teva Czech Industries s.r.o 
-Ostravska 29/305, 
-747 70 Opava-Komarov 
-Czech Republic </p>
-<p>Teva Operations Poland Sp.z.o.o 
-ul. Mogilska 31-546 Krakow 
-Poland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
-Lietuva 
-UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
-Luxembourg/Luxemburg 
-Teva Pharma Belgium N.V./S.A./AG 
-Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
-Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
-Tel: +36 12886 
-Danmark 
-Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
-Teva Pharmaceuticals Ireland 
-L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
-TEVA GmbH 
-Tel: +49 73140 
-Nederland 
-Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
-UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
-Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
-ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-España 
-Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
-Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
-Teva Santé 
-Tél: +33 155917 
-Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
-Tel: +351 214767 
-Hrvatska 
-Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-România 
-Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
-Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
-Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
-Ísland 
-Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
-TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
-Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
-Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
-Sverige 
-Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
-UAB Teva Baltics filiāle Latvijā 
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
-Teva Pharmaceuticals Ireland 
-Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+* tablet coating: titanium dioxide (E 171), hypromellose, macrogol 400, polysorbate 8</p>         </div>"""      
 

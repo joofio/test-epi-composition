@@ -4,7 +4,7 @@ Instance: composition-en-802da6d86549eecc6e51c1bae9cf0471
 InstanceOf: CompositionUvEpi
 Title: "Composition for yellox Package Leaflet"
 Description:  "Composition for yellox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use Yellox  
 4. Possible side effects 
 5. How to store Yellox  
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -114,24 +113,18 @@ Yellox may be prescribed to breast-feeding woman and have no important influence
 Your vision may be blurred for a short time after using this eye drops. If you experience blurred vision 
 upon instillation, do not drive or use machines until your vision is clear. </p>
 <p>Yellox contains benzalkonium chloride 
-This medicine contains 0.00185 mg benzalkonium chloride in each drop which is equivalent to </p>         </div>"""   
+This medicine contains 0.00185 mg benzalkonium chloride in each drop which is equivalent to 
+0.05 mg/ml.<br />
+Benzalkonium chloride may be absorbed by soft contact lenses and may change the colour of the 
+contact lenses. You should remove contact lenses before using this medicine and put them back minutes afterwards.<br />
+Benzalkonium chloride may also cause eye irritation, especially if you have dry eyes or disorders of 
+the cornea (the clear layer at the front of the eye). If you feel abnormal eye sensation, stinging or pain 
+in the eye after using this medicine, talk to your doctor. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yellox"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take yellox"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Benzalkonium chloride may be absorbed by soft contact lenses and may change the colour of the 
-contact lenses. You should remove contact lenses before using this medicine and put them back minutes afterwards.<br />
-Benzalkonium chloride may also cause eye irritation, especially if you have dry eyes or disorders of 
-the cornea (the clear layer at the front of the eye). If you feel abnormal eye sensation, stinging or pain 
-in the eye after using this medicine, talk to your doctor. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
 you are not sure.  </p>
@@ -170,12 +163,13 @@ forgotten dose.  </p>
 Do not stop using Yellox without speaking to your doctor. </p>
 <p>In rare cases upon withdrawal of Yellox, a flare-up of the inflammatory response, e.g. in the form of 
 retina swelling, due to the cataract operation has been observed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store yellox"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store yellox"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.<br />
 If you experience decreased or blurred vision the week after the end of treatment, contact your doctor 
@@ -195,18 +189,48 @@ If you get any side effects, talk to your  doctor  or pharmacist. </p>
 via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store yellox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store yellox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the bottle and outer carton after 
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. </p>
+<p>Discard the bottle 4 weeks after first opening to prevent infection even if there is solution remaining. 
+Write the date of opening on the carton label in the space provided. </p>
+<p>Do  not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away of medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and outer carton after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. </p>
-<p>Discard the bottle 4 weeks after first opening to prevent infection even if there is solution remaining. 
-Write the date of opening on the carton label in the space provided. </p>
-<p>Do  not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away of medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Yellox contains </p>
+<ul>
+<li>The active substance is bromfenac. One ml of solution contains 0.9 mg bromfenac (as sodium 
+sesquihydrate). One drop contains approximately 33 micrograms bromfenac.  </li>
+<li>The other ingredients are: boric acid, borax, sodium sulphite anhydrous (E221), benzalkonium 
+chloride (see section 2), tyloxapol, povidone (K30), disodium edetate, water for injection, 
+sodium hydroxide (to keep acidity levels normal). </li>
+</ul>
+<p>What Yellox looks like and contents of the pack 
+Yellox is a clear yellow liquid (solution) supplied in a pack containing one 5 ml plastic bottle with a 
+screw cap.  </p>
+<p>Marketing Authorisation Holder<br />
+BAUSCH + LOMB IRELAND LIMITED 
+3013 Lake Drive 
+Citywest Business Campus 
+Dublin 24, D24PPT3 
+Ireland </p>
+<p>Manufacturer 
+Dr. Gerhard Mann 
+Chem.-pharm. Fabrik GmbH 
+Brunsb tteler Damm 165/13581 Berlin 
+Germany </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

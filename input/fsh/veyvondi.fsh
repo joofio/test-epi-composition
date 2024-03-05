@@ -4,7 +4,7 @@ Instance: composition-en-a911acdcc16d3ea6bdce7272ad3df51a
 InstanceOf: CompositionUvEpi
 Title: "Composition for veyvondi Package Leaflet"
 Description:  "Composition for veyvondi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -149,14 +149,16 @@ assuming 70 kg body weight and 80 IU/kg body weight. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your treatment with VEYVONDI will be supervised by a doctor who is experienced in the care of 
 patients with von Willebrand disease.  </p>
 <p>Your doctor will calculate your dose of VEYVONDI (in international units or IU). The dose depends 
-on: 
-- body weight,<br />
-- the site of the bleeding 
-- intensity of the bleeding,<br />
-- your clinical condition,<br />
-- the required surgery<br />
-- the VWF activity levels in your blood after surgery<br />
-- the severity of your disease </p>
+on:</p>
+<ul>
+<li>body weight,  </li>
+<li>the site of the bleeding </li>
+<li>intensity of the bleeding,  </li>
+<li>your clinical condition,  </li>
+<li>the required surgery  </li>
+<li>the VWF activity levels in your blood after surgery  </li>
+<li>the severity of your disease </li>
+</ul>
 <p>Your doctor may test your blood to make sure that you have adequate levels of von Willebrand factor. 
 This is particularly important if you are having major surgery. </p>
 <p>Treatment of bleeding episodes </p>
@@ -209,11 +211,13 @@ If you have any further questions on the use of this medicine, ask your doctor o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine may cause side effects, although not everybody gets them. </p>
 <p>You can have a serious allergic reaction to VEYVONDI. </p>
 <p>You must stop the infusion and contact your doctor immediately if you have any of the following 
-early symptoms of severe allergic reactions: 
-- rash or hives, itching all over the body, 
-- tightness of the throat, chest pain or chest tightness, 
-- difficulty breathing, light headedness, fast heartbeat, 
-- dizziness, nausea or fainting. </p>
+early symptoms of severe allergic reactions:</p>
+<ul>
+<li>rash or hives, itching all over the body, </li>
+<li>tightness of the throat, chest pain or chest tightness, </li>
+<li>difficulty breathing, light headedness, fast heartbeat, </li>
+<li>dizziness, nausea or fainting. </li>
+</ul>
 <p>The following side effects have been reported with VEYVONDI: </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - headache  </p>
@@ -242,19 +246,21 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store veyvondi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and the vial label 
-after EXP. The expiry date refers to the last day of that month. 
-- Store below 30 °C. 
-- Do not freeze. 
-- Store in the original package in order to protect from light.<br />
-- Do not refrigerate the solution after preparation. 
-- Use the reconstituted product within 3 hours to avoid the risk of microbial contamination, 
-because the product does not contain preservatives.<br />
-- This medicine is for single use only. Discard any unused solution appropriately. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the vial label 
+after EXP. The expiry date refers to the last day of that month. </li>
+<li>Store below 30  C. </li>
+<li>Do not freeze. </li>
+<li>Store in the original package in order to protect from light.  </li>
+<li>Do not refrigerate the solution after preparation. </li>
+<li>Use the reconstituted product within 3 hours to avoid the risk of microbial contamination, 
+because the product does not contain preservatives.  </li>
+<li>This medicine is for single use only. Discard any unused solution appropriately. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -272,20 +278,26 @@ vonicog alfa. </p>
 <p>Each vial of powder contains nominally 1300 International Units (IU) vonicog alfa. 
 After reconstitution with the 10 mL solvent provided, VEYVONDI contains approximately 130 IU/mL 
 vonicog alfa. </p>
-<p>The other ingredients are: 
-- Sodium citrate, glycine, trehalose dihydrate, mannitol, polysorbate 80 and water for injections. 
-- See section 2 “VEYVONDI contains sodium”. </p>
+<p>The other ingredients are:</p>
+<ul>
+<li>Sodium citrate, glycine, trehalose dihydrate, mannitol, polysorbate 80 and water for injections. </li>
+<li>See section 2  VEYVONDI contains sodium . </li>
+</ul>
 <p>What VEYVONDI looks like and contents of the pack 
 VEYVONDI is a white to off-white powder. After reconstitution, when drawn into the syringe, the 
 solution is clear, colourless in appearance and free from flakes or other foreign particles. </p>
-<p>Each pack of VEYVONDI 650 IU contains: 
-- powder in a glass vial with a rubber stopper 
-- 5 mL of solvent in a glass vial with a rubber stopper 
-- one reconstitution device (Mix2Vial) </p>
-<p>Each pack of VEYVONDI 1300 IU contains: 
-- powder in a glass vial with a rubber stopper 
-- 10 mL of solvent in a glass vial with a rubber stopper 
-- one reconstitution device (Mix2Vial) </p>
+<p>Each pack of VEYVONDI 650 IU contains:</p>
+<ul>
+<li>powder in a glass vial with a rubber stopper </li>
+<li>5 mL of solvent in a glass vial with a rubber stopper </li>
+<li>one reconstitution device (Mix2Vial) </li>
+</ul>
+<p>Each pack of VEYVONDI 1300 IU contains:</p>
+<ul>
+<li>powder in a glass vial with a rubber stopper </li>
+<li>10 mL of solvent in a glass vial with a rubber stopper </li>
+<li>one reconstitution device (Mix2Vial) </li>
+</ul>
 <p>Marketing Authorisation Holder<br />
 Baxalta Innovations GmbH 
 Industriestrasse 1221 Vienna 
@@ -296,30 +308,28 @@ Industriestrasse 1221 Vienna
 Austria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 11<br />
+T l/Tel: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
 Takeda Pharma A/S 
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
-Τakeda HELLAS S.A. 
+ akeda HELLAS S.A. 
 Tel: +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Deutschland 
 Takeda GmbH 
@@ -333,15 +343,14 @@ Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Τakeda ΕΛΛΑΣ Α.Ε. 
-Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Österreich 
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
 Tel: +43 (0) 800-20 80 50<br />
 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España, S.A. 
+<p>Espa a 
+Takeda Farmac utica Espa a, S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
 <p>Polska 
 Takeda Pharma Sp. z o.o. 
@@ -349,25 +358,25 @@ Tel.: +48223062medinfoEMEA@takeda.com </p>
 <p>France 
 Takeda France SAS 
 Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
-Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+Takeda Farmac uticos Portugal, Lda. 
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
+<p>Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
@@ -376,9 +385,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-Τakeda ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>akeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Sverige 
 Takeda Pharma AB 
 Tel: 020 795 medinfoEMEA@takeda.com </p>

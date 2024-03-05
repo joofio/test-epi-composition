@@ -4,7 +4,7 @@ Instance: composition-en-e03871853d4da5dc011fec7c683b275d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziagen Package Leaflet"
 Description:  "Composition for ziagen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -85,11 +85,17 @@ effectiveness of your treatment. </p>         </div>"""
   * code.text = "2. What you need to know before you take ziagen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ziagen:<br />
-if you are allergic (hypersensitive) to abacavir (or any other medicine containing abacavir –such 
+if you are allergic (hypersensitive) to abacavir (or any other medicine containing abacavir  such 
 as Trizivir, Triumeq or Kivexa) or any of the other ingredients of this medicine (listed in Section 
 6) 
-Carefully read all the information about hypersensitivity reactions in Section 4.<br />
-Check with your doctor if you think   this applies to you.  </p>
+Carefully read all the information about hypersensitivity reactions in Section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Check with your doctor if you think   this applies to you.  </p>
 <p>Take special care with Ziagen<br />
 Some people taking Ziagen for HIV are more at risk of serious side effects. You need to be aware of 
 the extra risks: 
@@ -100,7 +106,7 @@ the extra risks:
 Talk to your doctor if any of these apply to you. You may need extra check-ups, including 
 blood tests, while you are taking your medicine. See Section 4 for more information.  </p>
 <p>Abacavir hypersensitivity reactions<br />
-Even patients who don’t have the HLA-B*5701 gene may still develop a hypersensitivity reaction (a 
+Even patients who don t have the HLA-B*5701 gene may still develop a hypersensitivity reaction (a 
 serious allergic reaction). </p>
 <p>Carefully read all the information about hypersensitivity reactions in Section 4 of this 
 leaflet. </p>
@@ -112,7 +118,7 @@ stop taking Ziagen unless your doctor advises you to do so. </p>
 <p>Look out for important symptoms<br />
 Some people taking medicines for HIV infection develop other conditions, which can be serious. You 
 need to know about important signs and symptoms to look out for while you are taking Ziagen. 
-Read the information ‘Other possible side effects of combination therapy for HIV’ in 
+Read the information  Other possible side effects of combination therapy for HIV  in 
 Section 4 of this leaflet. </p>
 <p>Other medicines and Ziagen<br />
 Tell your doctor or pharmacist if you are taking any other medicines, or if you have taken any 
@@ -154,12 +160,13 @@ soon as possible.  </p>
 Do not drive or operate machines unless you are feeling well.  </p>
 <p>Important information about some of the other ingredients of Ziagen tablets. 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take ziagen"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ziagen"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. 
@@ -169,7 +176,7 @@ drink, and take all the dose immediately.<br />
 Stay in regular contact with your doctor<br />
 Ziagen helps to control your condition. You need to keep taking it every day to stop your illness 
 getting worse. You may still develop other infections and illnesses linked to HIV infection. 
-Keep in touch with your doctor, and do not stop taking Ziagen without your doctor’s advice.  </p>
+Keep in touch with your doctor, and do not stop taking Ziagen without your doctor s advice.  </p>
 <p>How much to take<br />
 Adults, adolescents and children weighing at least 25 kg<br />
 The usual dose of Ziagen is 600 mg a day.  This can be taken either as one 300 mg tablet twice a day 
@@ -203,13 +210,12 @@ symptoms were related to a hypersensitivity reaction. If the doctor thinks they 
 related, you will be told never again to take Ziagen, or any other medicine containing abacavir 
 (e.g. Triumeq,Trizivir or Kivexa). It is important that you follow this advice. </p>
 <p>If your doctor advises that you can start taking Ziagen again, you may be asked to take your first doses 
-in a place where you will have ready access to medical care if you need it. </p>         </div>"""         
-
+in a place where you will have ready access to medical care if you need it. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store ziagen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store ziagen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose. This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -218,15 +224,15 @@ medicines themselves. Your doctor will test for these changes.  </p>
 <p>When you are being treated for HIV, it can be hard to tell whether a symptom is a side effect of Ziagen 
 or other medicines you are taking, or an effect of the HIV disease itself. So it is very important to 
 talk to your doctor about any changes in your health. 
-Even patients who don’t have the HLA-B*5701 gene may still develop a hypersensitivity 
-reaction (a serious allergic reaction), described in this leaflet in the panel headed ‘Hypersensitivity 
-reactions’.  </p>
+Even patients who don t have the HLA-B*5701 gene may still develop a hypersensitivity 
+reaction (a serious allergic reaction), described in this leaflet in the panel headed  Hypersensitivity 
+reactions .  </p>
 <p>It is very important that you read and understand the information about this serious 
 reaction. </p>
 <p>As well as the side effects listed below for Ziagen, other conditions can develop during combination 
 therapy for HIV.<br />
-It is important to read the information later in this section under ‘Other possible side effects of 
-combination therapy for HIV’. 
+It is important to read the information later in this section under  Other possible side effects of 
+combination therapy for HIV . 
 Hypersensitivity reactions<br />
 Ziagen contains abacavir (which is also an active substance in Trizivir , Triumeq and Kivexa). 
 Abacavir can cause a serious allergic reaction known as a hypersensitivity reaction. 
@@ -259,7 +265,7 @@ described below it is essential that you follow the instructions given. </p>
 1 
 if you get a skin rash, OR 
 2 
-if you get symptoms from at least 2 of the following groups: </p>
+if you get symptoms from at least 2 of the following groups:</p>
 <ul>
 <li>
 <p>fever  </p>
@@ -315,7 +321,7 @@ These may affect up to 1 in 10,000 people:<br />
 * skin rash, which may form blisters and  looks like small targets (central dark spots surrounded by 
 a paler area, with a dark ring around the edge) (erythema multiforme) 
 * a widespread rash with blisters and peeling skin, particularly around the mouth, nose, eyes and 
-genitals (Stevens–Johnson syndrome), and a more severe form causing skin peeling in more than 
+genitals (Stevens Johnson syndrome), and a more severe form causing skin peeling in more than 
 30% of the body surface (toxic epidermal necrolysis) 
 * lactic acidosis (excess lactic acid in the blood) </p>
 <p>If you notice any of these symptoms contact a doctor urgently.<br />
@@ -329,19 +335,19 @@ Old infections may flare up<br />
 People with advanced HIV infection (AIDS) have weak immune systems, and are more likely to 
 develop serious infections (opportunistic infections). When these people start treatment, they may find 
 that old, hidden infections flare up, causing signs and symptoms of inflammation. These symptoms are 
-probably caused by the body’s immune system becoming stronger, so that the body starts to fight these 
+probably caused by the body s immune system becoming stronger, so that the body starts to fight these 
 infections.  Symptoms usually include fever, plus some of the following: 
-• headache 
-• stomach ache 
-• difficulty breathing </p>
+  headache 
+  stomach ache 
+  difficulty breathing </p>
 <p>In rare cases, as the immune system becomes stronger, it can also attack healthy body tissue 
 (autoimmune disorders).  The symptoms of autoimmune disorders may develop many months after 
 you start taking medicine to treat your HIV infection. Symptoms may include: 
-• palpitations (rapid or irregular heartbeat) or tremor 
-• hyperactivity (excessive restlessness and movement)<br />
-• weakness beginning in the hands and feet and moving up towards the trunk of the body </p>
+  palpitations (rapid or irregular heartbeat) or tremor 
+  hyperactivity (excessive restlessness and movement)<br />
+  weakness beginning in the hands and feet and moving up towards the trunk of the body </p>
 <p>If you get any symptoms of infection while you are taking Ziagen: 
-Tell your doctor immediately. Do not take other medicines for the infection without your doctor’s 
+Tell your doctor immediately. Do not take other medicines for the infection without your doctor s 
 advice. </p>
 <p>You may have problems with your bones<br />
 Some people taking combination therapy for HIV develop a condition called osteonecrosis. With this 
@@ -364,123 +370,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store ziagen"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ziagen"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
-<p>Do not take this medicine after the expiry date which is stated on the carton. The expiry date refers to 
-the last day of that month. </p>
-<p>Do not store above 30°C.  </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures help protect the environment.  </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ziagen contains<br />
-The active substance in each Ziagen film-coated, scored tablet is 300 mg of abacavir (as sulfate).  </p>
-<p>The other ingredients are microcrystalline cellulose, sodium starch glycollate, magnesium stearate and 
-colloidal anhydrous silica in the core of the tablet. The tablet coating contains triacetin, 
-methylhydroxypropylcellulose, titanium dioxide, polysorbate 80 and iron oxide yellow. </p>
-<p>What Ziagen looks like and contents of the pack<br />
-Ziagen film-coated tablets are engraved with ‘GX 623’ on both sides. The scored tablets are yellow 
-and capsule-shaped and are provided in blister packs containing 60 tablets.  </p>
-<p>Marketing Authorisation Holder:<br />
-ViiV Healthcare BV, Van Asch van Wijckstraat 55H, 3811 LP Amersfoort, Netherlands </p>
-<p>Manufacturer:<br />
-Delpharm Poznań Spółka Akcyjna, ul., Grunwaldzka 189, 60-322 Poznan, Poland.  </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-ViiV Healthcare srl/bv 
-Tél/Tel: + 32 (0) 10 85 65<br />
-Lietuva 
-ViiV Healthcare BV 
-Tel: + 370 80000България 
-ViiV Healthcare BV 
-Teл.: + 359 80018 
-Luxembourg/Luxemburg 
-ViiV Healthcare srl/bv 
-Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 65 00  </p>
-<p>Česká republika 
-GlaxoSmithKline s.r.o. 
-Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
-ViiV Healthcare BV 
-Tel.: + 36 80088Danmark 
-GlaxoSmithKline Pharma A/S 
-Tlf: + 45 36 35 91 dk-info@gsk.com </p>
-<p>Malta 
-ViiV Healthcare BV 
-Tel: + 356 80065Deutschland 
-ViiV Healthcare GmbH<br />
-Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
-<p>Nederland 
-ViiV Healthcare BV<br />
-Tel: + 31 (0) 33 2081 
-Eesti 
-ViiV Healthcare BV 
-Tel: + 372 8002 </p>
-<p>Norge 
-GlaxoSmithKline AS 
-Tlf: + 47 22 70 20 firmapost@gsk.no 
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
-GlaxoSmithKline Pharma GmbH 
-Tel: + 43 (0)1 97075 0 
-at.info@gsk.com </p>
-<p>España 
-Laboratorios ViiV Healthcare, S.L. 
-Tel: +34 900 923 es-ci@viivhealthcare.com </p>
-<p>Polska 
-GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9France 
-ViiV Healthcare SAS<br />
-Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
-<p>Hrvatska 
-ViiV Healthcare BV 
-Tel: + 385 800787 
-Portugal 
-VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
-Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
-<p>România 
-ViiV Healthcare BV 
-Tel: + 40 800672Ireland 
-GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955Slovenija 
-ViiV Healthcare BV 
-Tel: + 386 80688869  </p>
-<p>Ísland 
-Vistor hf.<br />
-Sími: +354 535 7 
-Slovenská republika 
-ViiV Healthcare BV 
-Tel: + 421 800500 
-Italia 
-ViiV Healthcare S.r.l<br />
-Tel: + 39 (0)45 7741Suomi/Finland 
-GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-ViiV Healthcare BV 
-Τηλ: + 357 80070 
-Sverige 
-GlaxoSmithKline AB 
-Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
-<p>Latvija 
-ViiV Healthcare BV 
-Tel: + 371 80205 
-United Kingdom (Northern Ireland) 
-ViiV Healthcare BV<br />
-Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
-<p>This leaflet was last revised in {MM/YYYY}  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
+<p>Do not take this medicine after the expiry date which is stated on the carton. The expiry date refers to 
+the last day of that month. </p>
+<p>Do not store above 30 C.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures help protect the environment.  </p>         </div>"""      
 

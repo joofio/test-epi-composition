@@ -4,7 +4,7 @@ Instance: composition-en-426fcc87e6dced0e7ea770b4b6114e7d
 InstanceOf: CompositionUvEpi
 Title: "Composition for tenkasi Package Leaflet"
 Description:  "Composition for tenkasi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -220,11 +220,11 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. 
-Do not store above 25 °C.  </p>
+Do not store above 25  C.  </p>
 <p>The diluted solution should be used immediately.  </p>
 <p>From a microbiological point of view, the product should be used immediately. If not used 
 immediately storage times and conditions prior to use are the responsibility of the user and would 
-normally not be longer than 12 hours at 25 °C and 24 hours at 2 °C -8 °C for Tenkasi diluted in 
+normally not be longer than 12 hours at 25  C and 24 hours at 2  C -8  C for Tenkasi diluted in 
 glucose 5% intravenous infusion bag.  </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -255,22 +255,22 @@ Via Filippo Serpero 2
 Italy  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4 
+T l/Tel: + 32 (0)2 721 4 
 Lietuva 
-UAB “BERLIN CHEMIE MENARINI 
-BALTIC” 
-Tel: +370 52 691<br />
-България 
-Берлин-Хеми/А. Менарини България EООД 
-тел.: +359 24540Luxembourg/Luxemburg 
+UAB  BERLIN CHEMIE MENARINI 
+BALTIC<br />
+Tel: +370 52 691  </p>
+<ul>
+<li>/ .     E<br />
+ .: +359 24540Luxembourg/Luxemburg 
 Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4 
-Česká republika 
+T l/Tel: + 32 (0)2 721 4 
+ esk  republika 
 Berlin-Chemie/A.Menarini Ceska republika s.r.o. 
 Tel: +420 267 199<br />
-Magyarország 
+Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 1799 7Danmark 
 Menarini International Operations Luxembourg 
@@ -285,30 +285,30 @@ Tel: +49 (0) 30 67Nederland
 Menarini Benelux NV/SA 
 Tel: +32 (0)2 721 4 
 Eesti 
-OÜ Berlin-Chemie Menarini Eesti 
+O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5Norge 
 Menarini International Operations Luxembourg 
 S.A. 
-Tlf: +352 264 
-Ελλάδα 
-MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Österreich 
+Tlf: +352 264 </li>
+</ul>
+<p>MENARINI HELLAS AE 
+ : +30 210 8316111- sterreich 
 A. Menarini Pharma GmbH 
 Tel: +43 1 879 95 85-0 </p>
-<p>España 
+<p>Espa a 
 Laboratorios Menarini S.A. 
 Tel: +34-93 462 88 Polska 
 Berlin-Chemie/Menarini Polska Sp. z o.o. 
 Tel.: +48 22 566 21<br />
 France 
 MENARINI France 
-Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
+T l: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal   Farmac utica, S.A. 
 Tel: +351 210 935<br />
 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
 Tel: + 385 1 4821<br />
-România 
+Rom nia 
 Berlin-Chemie A.Menarini S.R.L. 
 Tel: +40 21 232 34<br />
 Ireland 
@@ -317,11 +317,11 @@ Tel: +353 1 284 6Slovenija
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
 Tel: +386 01 300 2 </p>
-<p>Ísland 
+<p>sland 
 Menarini International Operations Luxembourg 
 S.A. 
-Sími: +352 264976  </p>
-<p>Slovenská republika 
+S mi: +352 264976  </p>
+<p>Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o<br />
 Tel: +421 2 544 30 Italia 
@@ -329,10 +329,9 @@ A. Menarini - Industrie Farmaceutiche Riunite - s.r.l.
 Tel: +39-055 56 
 Suomi/Finland 
 Berlin-Chemie/A.Menarini Suomi OY 
-Puh/Tel: +358 403 000<br />
-Κύπρος 
-MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Sverige 
+Puh/Tel: +358 403 000  </p>
+<p>MENARINI HELLAS AE 
+ : +30 210 8316111-Sverige 
 Menarini International Operations Luxembourg 
 S.A. 
 Tel: +352 264 

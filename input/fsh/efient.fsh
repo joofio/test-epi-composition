@@ -4,7 +4,7 @@ Instance: composition-en-2776bfb7e1f074708f890100ca32d64b
 InstanceOf: CompositionUvEpi
 Title: "Composition for efient Package Leaflet"
 Description:  "Composition for efient Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -105,30 +105,34 @@ stomach or intestines.
 </ul>
 <p>Talk to your doctor before taking Efient. </p>
 <p>You should tell your doctor before taking Efient if any of the situations mentioned below apply to you: 
-* If you have an increased risk of bleeding such as: 
--  age of 75 years or older. Your doctor should prescribe a daily dose of 5 mg as there is a 
-greater risk of bleeding in patients older than 75 years 
--  a recent serious injury 
--  recent surgery (including some dental procedures) 
--  recent or recurrent bleeding from the stomach or intestines (e.g. a stomach ulcer or colon 
-polyps) 
--  body weight of less than 60 kg. Your doctor should prescribe a daily dose of 5 mg of Efient 
-if you weigh less than 60 kg 
-- renal (kidney) disease or moderate liver problems 
-- taking certain types of medicines (see ‘Other medicines and Efient’ below) 
-- planned surgery (including some dental procedures) in the next seven days. Your doctor 
-may wish you to stop taking Efient temporarily due to the increased risk of bleeding 
-* If you have had allergic reactions (hypersensitivity) to clopidogrel or any other anti-platelet 
+* If you have an increased risk of bleeding such as:</p>
+<ul>
+<li>age of 75 years or older. Your doctor should prescribe a daily dose of 5 mg as there is a 
+greater risk of bleeding in patients older than 75 years </li>
+<li>a recent serious injury </li>
+<li>recent surgery (including some dental procedures) </li>
+<li>recent or recurrent bleeding from the stomach or intestines (e.g. a stomach ulcer or colon 
+polyps) </li>
+<li>body weight of less than 60 kg. Your doctor should prescribe a daily dose of 5 mg of Efient 
+if you weigh less than 60 kg </li>
+<li>renal (kidney) disease or moderate liver problems </li>
+<li>taking certain types of medicines (see  Other medicines and Efient  below) </li>
+<li>planned surgery (including some dental procedures) in the next seven days. Your doctor 
+may wish you to stop taking Efient temporarily due to the increased risk of bleeding </li>
+<li>
+<p>If you have had allergic reactions (hypersensitivity) to clopidogrel or any other anti-platelet 
 agent please tell your doctor before starting treatment with Efient. If you then take Efient and 
 experience allergic reactions that may be recognised as a rash, itching, a swollen face, swollen 
 lips or shortness of breath you need to tell your doctor immediately. </p>
-<ul>
-<li>While you are taking Efient: </li>
+</li>
+<li>
+<p>While you are taking Efient: </p>
+</li>
 </ul>
 <p>You should tell your doctor immediately if you develop a medical condition called Thrombotic 
 Thrombocytopaenic Purpura (or TTP) that includes fever and bruising under the skin that may appear 
 as red pinpoint dots, with or without unexplained extreme tiredness, confusion, yellowing of the skin 
-or eyes (jaundice) (see section 4 ‘Possible side effects’). </p>
+or eyes (jaundice) (see section 4  Possible side effects ). </p>
 <p>Children and adolescents 
 Efient should not be used in children and adolescents below 18 years of age. </p>
 <p>Other medicines and Efient 
@@ -137,7 +141,7 @@ medicines obtained without a prescription, dietary supplements and herbal remedi
 <p>It is particularly important to tell your doctor if you are being treated with: 
 * clopidogrel (an anti-platelet agent), 
 * warfarin (an anti-coagulant), 
-* “non steroidal anti inflammatory drugs” for pain and fever (such as ibuprofen, naproxen, 
+*  non steroidal anti inflammatory drugs  for pain and fever (such as ibuprofen, naproxen, 
 etoricoxib). 
 If given together with Efient these medicines may increase the risk of bleeding. </p>
 <p>Tell your doctor if you are taking morphine or other opioids (used to treat severe pain). </p>
@@ -153,8 +157,8 @@ Efient is unlikely to affect your ability to drive or use machines. </p>
 <p>Efient contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efient"
@@ -201,10 +205,10 @@ have never had a stroke or transient ischaemic attack (TIA). </p>
 <p>Also contact your doctor immediately if you notice any of the following: 
 * Fever and bruising under the skin that may appear as red pinpoint dots, with or without 
 unexplained extreme tiredness, confusion, yellowing of the skin or eyes (jaundice) 
-(see section 2 ‘What you need to know before you take Efient’). 
+(see section 2  What you need to know before you take Efient ). 
 * A rash, itching, or a swollen face, swollen lips/tongue, or shortness of breath. These may be 
-signs of a severe allergic reaction (see section 2 ‘What you need to know before you take 
-Efient’). </p>
+signs of a severe allergic reaction (see section 2  What you need to know before you take 
+Efient ). </p>
 <p>Tell your doctor promptly if you notice any of the following: </p>
 <ul>
 <li>Blood in your urine. </li>
@@ -268,10 +272,10 @@ throw away medicines you no longer use. These measures will help protect the env
 magnesium stearate, lactose monohydrate, titanium dioxide (E171), triacetin (E1518), iron 
 oxide red (10 mg tablets only) (E172), iron oxide yellow (E172) and talc. </p>
 <p>What Efient looks like and contents of the pack 
-Efient 10 mg: The tablets are beige and double-arrow-shaped, with “10 MG” debossed on one side and 
-“4759” on the other. </p>
-<p>Efient 5 mg: The tablets are yellow and double-arrow-shaped, with “5 MG” debossed on one side and 
-“4760” on the other. </p>
+Efient 10 mg: The tablets are beige and double-arrow-shaped, with  10 MG  debossed on one side and 
+ 4759  on the other. </p>
+<p>Efient 5 mg: The tablets are yellow and double-arrow-shaped, with  5 MG  debossed on one side and 
+ 4760  on the other. </p>
 <p>Efient is available in packs of 14, 28, 30, 30 (x1), 56, 84, 90 (x1) and 98 tablets. 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -286,17 +290,17 @@ Luitpoldstrasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/ Belgien 
+<p>Belgi /Belgique/ Belgien 
 SUBSTIPHARM 
-Tél/Tel: 080077Lietuva 
+T l/Tel: 080077Lietuva 
 SUBSTIPHARM 
-Tel: +33 1 43 18 13 България 
+Tel: +33 1 43 18 13 <br />
 Zentiva, k.s 
-Тел.: +359 24417Luxembourg/Luxemburg 
+ .: +359 24417Luxembourg/Luxemburg 
 SUBSTIPHARM 
-Tél/Tel: 80024Česká republika 
+T l/Tel: 80024 esk  republika 
 Zentiva, k.s. 
-Tel: +420 267 241 Magyarország 
+Tel: +420 267 241 Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel: +36 1 299 1Danmark 
 Kurantis ApS 
@@ -310,37 +314,36 @@ Tel: 08000228Eesti
 SUBSTIPHARM 
 Tel: +33 1 43 18 13 Norge 
 Kurantis ApS 
-Tlf: +45 33 60 89 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ ΕΛΛΑΣ 
-Τηλ: +30 210 620 8Österreich 
+Tlf: +45 33 60 89   </p>
+<p>: +30 210 620 8 sterreich 
 SUBSTIPHARM 
-Tel: 0800298España 
+Tel: 0800298Espa a 
 SUBSTIPHARM 
 Tel: 900993Polska 
 Berlin-Chemie/Menarini Polska Sp. z o.o. 
 Tel: +48 22 566 21 France 
 SUBSTIPHARM 
-Tél: +33 1 43 18 13 Portugal 
+T l: +33 1 43 18 13 Portugal 
 SUBSTIPHARM 
 Tel: 800833Hrvatska 
 SUBSTIPHARM 
-Tel: +33 1 43 18 13 România 
+Tel: +33 1 43 18 13 Rom nia 
 SUBSTIPHARM 
 Tel: +33 1 43 18 13 Ireland 
 SUBSTIPHARM 
 Tel: 1800300Slovenija 
 Zentiva, k.s. 
-Tel: +386 360 00 Ísland 
+Tel: +386 360 00  sland 
 Kurantis ApS 
-Simi: +45 33 60 89 Slovenská republika 
+Simi: +45 33 60 89 Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3Italia 
 SUBSTIPHARM 
 Tel: 800780Suomi/Finland 
 Kurantis ApS 
-Puh./Tel: +45 33 60 89 Κύπρος 
+Puh./Tel: +45 33 60 89 <br />
 SUBSTIPHARM 
-Τηλ: +33 1 43 18 13 Sverige 
+ : +33 1 43 18 13 Sverige 
 Kurantis ApS 
 Tel: +45 33 60 89 Latvija 
 SUBSTIPHARM 

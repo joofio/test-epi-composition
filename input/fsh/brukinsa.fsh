@@ -4,7 +4,7 @@ Instance: composition-en-c2d0e28fbe1723337dab22fe407d0234
 InstanceOf: CompositionUvEpi
 Title: "Composition for brukinsa Package Leaflet"
 Description:  "Composition for brukinsa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,13 +73,13 @@ Usage: #example
 class of medicines called protein kinase inhibitors. This medicine works by blocking Bruton's tyrosine 
 kinase, a protein in the body that helps cancer cells grow and survive. By blocking this protein, 
 BRUKINSA reduces the number of cancer cells and slows down the worsening of the cancer. </p>
-<p>BRUKINSA is used to treat Waldenström’s macroglobulinaemia (also known as lymphoplasmacytic 
+<p>BRUKINSA is used to treat Waldenstr m s macroglobulinaemia (also known as lymphoplasmacytic 
 lymphoma), a cancer affecting a type of white blood cells called B lymphocytes or B cells that make 
 too much of a protein called IgM. This medicine is used when the disease has come back, or treatment 
 has not worked or in patients who cannot have chemotherapy together with an antibody. </p>
 <p>BRUKINSA is also used to treat marginal zone lymphoma. This is a type of cancer that also affects B 
 lymphocytes or B cells. In marginal zone lymphoma, the abnormal B cells multiply too quickly and 
-live for too long. This may cause enlargement of organs that are part of body’s natural defences such 
+live for too long. This may cause enlargement of organs that are part of body s natural defences such 
 as lymph node and spleen. The abnormal B cells may also affect various organs, such as stomach, 
 salivary gland, thyroid, eyes, lungs, bone marrow and blood. Patients may have fever, weight loss, 
 tiredness and night sweats, but also symptoms that depend on where the lymphoma develop. This 
@@ -91,7 +91,7 @@ treatment.
 BRUKINSA is also used to treat follicular lymphoma (FL). FL is a slow growing cancer that affects 
 the B lymphocytes. When you have FL, you have too many of these B lymphocytes in your lymph 
 nodes, spleen, and bone marrow. BRUKINSA is taken together with another medicine called 
-‘obinutuzumab’ when the disease has come back or when previously used medicines have not been 
+ obinutuzumab  when the disease has come back or when previously used medicines have not been 
 effective. </p>         </div>"""   
           
 
@@ -109,7 +109,7 @@ section 6). </li>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor, pharmacist or nurse before taking BRUKINSA: 
 * if you have ever had unusual bruising or bleeding or are on any medicines or supplements that 
-increase your risk of bleeding (see section “Other medicines and BRUKINSA”). If you have 
+increase your risk of bleeding (see section  Other medicines and BRUKINSA ). If you have 
 had recent surgery or plan to have surgery, your doctor may ask you to stop taking 
 BRUKINSA for a short time (3 to 7 days) before and after your surgery or dental procedure 
 * if you have an irregular heartbeat or have a history of irregular heartbeat or severe heart 
@@ -157,26 +157,26 @@ clots,
 * supplements that may increase your risk of bleeding such as fish oil, vitamin E or flaxseed. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse before 
 taking BRUKINSA. </p>
-<p>Also tell your doctor if you take any of the following medicines – The effects of BRUKINSA 
+<p>Also tell your doctor if you take any of the following medicines   The effects of BRUKINSA 
 or other medicines may be influenced if you take BRUKINSA together with any of the following 
 medicines: 
-* antibiotics to treat bacterial infections – ciprofloxacin, clarithromycin, 
+* antibiotics to treat bacterial infections   ciprofloxacin, clarithromycin, 
 erythromycin, nafcillin or rifampicin 
-* medicines for fungal infections – fluconazole, itraconazole, ketoconazole, 
+* medicines for fungal infections   fluconazole, itraconazole, ketoconazole, 
 posaconazole, voriconazole 
-* medicines for HIV infection – efavirenz, etravirine, indinavir, lopinavir, ritonavir, telaprevir 
+* medicines for HIV infection   efavirenz, etravirine, indinavir, lopinavir, ritonavir, telaprevir 
 * medicine to prevent nausea and vomiting associated with chemotherapy - aprepitant 
-* medicines for depression – fluvoxamine, St. John’s wort 
-* medicine called kinase inhibitors for treatment of other cancers – imatinib 
-* medicines for high blood pressure or chest pain – bosentan, diltiazem, verapamil<br />
-<em> heart medicines/anti-arrhythmics – digoxin, dronedarone, quinidine<br />
+* medicines for depression   fluvoxamine, St. John s wort 
+* medicine called kinase inhibitors for treatment of other cancers   imatinib 
+* medicines for high blood pressure or chest pain   bosentan, diltiazem, verapamil<br />
+<em> heart medicines/anti-arrhythmics   digoxin, dronedarone, quinidine<br />
 </em> medicines to prevent seizures, to treat epilepsy, or to treat a painful condition of the face 
-called trigeminal neuralgia – carbamazepine, mephenytoin, phenytoin<br />
+called trigeminal neuralgia   carbamazepine, mephenytoin, phenytoin<br />
 * medicines for migraines and cluster headaches - dihydroergotamine, ergotamine 
 * medicine for extreme sleepiness and other sleep problems - modafinil 
 * medicine for psychosis and Tourette disorder - pimozide 
-* medicines for anaesthesia – alfentanil, fentanyl 
-* medicines called immunosuppressive agents – ciclosporin, sirolimus, tacrolimus </p>
+* medicines for anaesthesia   alfentanil, fentanyl 
+* medicines called immunosuppressive agents   ciclosporin, sirolimus, tacrolimus </p>
 <p>BRUKINSA with food </p>
 <p>Grapefruit or Seville oranges (bitter oranges) should be consumed with caution around the time 
 you take BRUKINSA. This is because they can increase the amount of BRUKINSA in your 
@@ -195,8 +195,8 @@ condoms) must be used with hormonal contraceptives such as birth control pills o
 <p>You may feel tired or dizzy after taking BRUKINSA, which may affect your ability to drive or use 
 machines. </p>
 <p>BRUKINSA contains sodium  </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’.  </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brukinsa"
@@ -234,12 +234,12 @@ If you have any further questions on the use of this medicine, ask your doctor, 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop taking BRUKINSA and tell a doctor straight away if you notice any of the following 
 side effects:<br />
-* itchy bumpy rash, difficulty breathing, swelling of your face, lips, tongue or throat – you may 
+* itchy bumpy rash, difficulty breathing, swelling of your face, lips, tongue or throat   you may 
 be having an allergic reaction to the medicine. </p>
 <p>Tell a doctor straight away if you notice any of the following side effects:  </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * fever, chills, body aches, feeling tired, cold or flu symptoms, being short of breath, frequent 
-and painful urination – these could be signs of an infection (viral, bacterial or fungal). These 
+and painful urination   these could be signs of an infection (viral, bacterial or fungal). These 
 could include infections of the nose, sinus or throat (upper respiratory tract infection), 
 pneumonia, or urinary tract. 
 * bruising or increased tendency of bruising; contusions 
@@ -302,15 +302,19 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What BRUKINSA contains  </p>
 <ul>
 <li>The active substance is zanubrutinib. Each hard capsule contains 80 mg of zanubrutinib.  </li>
-<li>The other ingredients are: </li>
-<li>capsule content: microcrystalline cellulose, croscarmellose sodium, sodium lauryl sulfate 
-(E487), silica colloidal anhydrous and magnesium stearate. See section 2 “BRUKINSA 
-contains sodium”. </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>capsule content: microcrystalline cellulose, croscarmellose sodium, sodium lauryl sulfate 
+(E487), silica colloidal anhydrous and magnesium stearate. See section 2  BRUKINSA 
+contains sodium . </p>
+</li>
 <li>capsule shell: gelatin and titanium dioxide (E171) </li>
 <li>printing ink: shellac glaze (E904), iron oxide black (E172) and propylene glycol (E1520). </li>
 </ul>
 <p>What BRUKINSA looks like and contents of the pack </p>
-<p>BRUKINSA is a white to off-white hard capsule of 22 mm in length, marked with “ZANU 80” in 
+<p>BRUKINSA is a white to off-white hard capsule of 22 mm in length, marked with  ZANU 80  in 
 black ink on one side.<br />
 The capsules are provided in a plastic bottle with a child resistant closure. Each bottle contains 
 120 hard capsules. </p>
@@ -322,34 +326,33 @@ D02 TIreland
 Tel. 
 +353 1 566 7E-mail  bg.ireland@beigene.com  </p>
 <p>Manufacturer </p>
-<p>BeiGene Switzerland GmbH – Dutch Branch 
+<p>BeiGene Switzerland GmbH   Dutch Branch 
 Evert van de Beekstraat 1, 1118 CL Schiphol 
 The Netherlands </p>
 <p>BeiGene Germany GmbH 
-Georges-Köhler-Str. 2 
-79539 Lörrach, 
+Georges-K hler-Str. 2 
+79539 L rrach, 
 Germany </p>
 <p>BeiGene Netherlands B.V. 
 Evert van de Beekstraat 1, 1118 CL Schiphol 
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 BeiGene Belgium SRL 
-Tél/Tel: 0800 774<br />
+T l/Tel: 0800 774<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD<br />
-Teл.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD<br />
+Te .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 BeiGene France sarl 
-Tél/Tel: 0800 85 
-Česká republika 
+T l/Tel: 0800 85 
+ esk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +420 242 434<br />
-Magyarország 
+Magyarorsz g 
 Swixx Biopharma Kft. 
 Tel.: +36 1 9206<br />
 Danmark 
@@ -365,17 +368,16 @@ Nederland
 BeiGene Netherlands B.V. 
 Tel: 08000 233<br />
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 1 
 Norge 
 BeiGene Sweden AB 
-Tlf: 800 31<br />
-Ελλάδα 
-Swixx Biopharma Μ.Α.Ε 
+Tlf: 800 31  </p>
+<p>Swixx Biopharma  . .<br />
 Tel: +30 214 444 9 
-Österreich 
+ sterreich 
 BeiGene Austria GmbH 
-Tel: 0800 909 España 
+Tel: 0800 909 Espa a 
 BeiGene Spain, SLU 
 Tel: 9000 31<br />
 Polska 
@@ -383,7 +385,7 @@ BeiGene Poland sp. z o. o.
 Tel.: 8000 80<br />
 France 
 BeiGene France sarl 
-Tél: 080 554 3 
+T l: 080 554 3 
 Portugal 
 BeiGene Portugal, Unipessoal Lda 
 Tel: 800 210<br />
@@ -393,16 +395,16 @@ Tel: +385 1 2078<br />
 Ireland 
 BeiGene UK Ltd 
 Tel: 1800 812<br />
-România 
+Rom nia 
 Swixx Biopharma S.R.L 
 Tel: +40 37 1530<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 2355<br />
-Ísland 
+ sland 
 BeiGene Sweden AB 
-Sími: 800 4 
-Slovenská republika 
+S mi: 800 4 
+Slovensk  republika 
 Swixx Biopharma s.r.o.<br />
 Tel: +421 2 20833<br />
 Italia 
@@ -410,9 +412,8 @@ BeiGene Italy Srl
 Tel: 800 588<br />
 Suomi/Finland 
 BeiGene Sweden AB 
-Puh/Tel: 0800 774<br />
-Κύπρος 
-Swixx Biopharma Μ.Α.Ε 
+Puh/Tel: 0800 774  </p>
+<p>Swixx Biopharma  . .<br />
 Tel: +30 214 444 9 
 Sverige 
 BeiGene Sweden AB 

@@ -4,7 +4,7 @@ Instance: composition-en-3527ac50ad46eb1b8a7bfbd957d1971a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutetium Package Leaflet"
 Description:  "Composition for lutetium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ combined with other medicines (so called carrier medicines) that have been speci
 use with lutetium (177Lu) chloride. This process is called radiolabelling. </p>
 <p>These carrier medicines may be substances that have been designed to recognise a particular type of 
 cell in the body. The carrier medicine is given to the patient according to the instructions in that 
-medicine’s product information. It then carries the radiation to where it is needed in the body, to treat 
+medicine s product information. It then carries the radiation to where it is needed in the body, to treat 
 disease or to obtain images on a screen that are used to diagnose illness. </p>
 <p>The use of a medicine radiolabelled with Lutetium (177Lu) chloride Billev does involve exposure to 
 radioactivity. Your doctor and the nuclear medicine doctor have considered that the clinical benefit of 
@@ -99,14 +99,17 @@ Lutetium (177Lu) chloride Billev. </p>         </div>"""
 Lutetium (177Lu) chloride Billev. </p>
 <p>Warnings and precautions<br />
 Lutetium (177Lu) chloride Billev is not to be administered directly to patients. </p>
-<p>Take special care with the medicine that is radiolabelled with Lutetium (177Lu) chloride Billev: 
-- if you have renal impairment or bone marrow disease. </p>
-<p>Treatment with lutetium (177Lu) may lead to the following side effects: 
-- a reduced number of red blood cells (anaemia); 
-- a reduced number of blood platelets (thrombocytopenia), which are important to stop bleeding; 
--<br />
-a reduced number of white blood cells (leukopenia, lymphopenia or neutropenia) which are 
-important for protecting the body against infection. </p>
+<p>Take special care with the medicine that is radiolabelled with Lutetium (177Lu) chloride Billev:</p>
+<ul>
+<li>if you have renal impairment or bone marrow disease. </li>
+</ul>
+<p>Treatment with lutetium (177Lu) may lead to the following side effects:</p>
+<ul>
+<li>a reduced number of red blood cells (anaemia); </li>
+<li>a reduced number of blood platelets (thrombocytopenia), which are important to stop bleeding; </li>
+<li>a reduced number of white blood cells (leukopenia, lymphopenia or neutropenia) which are 
+important for protecting the body against infection. </li>
+</ul>
 <p>Most of these events are mild and temporary. A reduced number of all 3 types of blood cells (red 
 blood cells, platelets, and white blood cells - pancytopenia) has been described in some patients. 
 Treatment has to be stopped in patients with pancytopenia. </p>
@@ -203,23 +206,33 @@ Lutetium (177Lu) chloride Billev, ask your nuclear medicine doctor who supervise
 effects, although not everybody gets them. </p>
 <p>Dry mouth has been reported among patients with prostate cancer receiving treatment with lutetium 
 (177Lu) and has been temporary. </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- Reduction in blood cell counts (platelets, red or white blood cells) 
-- Nausea 
-- Vomiting </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Reduction in blood cell counts (platelets, red or white blood cells) </li>
+<li>Nausea </li>
+<li>Vomiting </li>
+</ul>
 <p>Side effects reported among patients treated for neuroendocrine tumours: </p>
-<h2>Very common (may affect more than 1 in 10 people):</h2>
-<p>Mild temporary hair loss </p>
-<h2>Common (may affect up to 1 in 10 people):</h2>
-<h2>Bone marrow cancer (myelodysplastic syndrome)</h2>
-<p>A reduced number of white blood cells (neutropenia) </p>
-<h2>Uncommon (may affect up to 1 in 100 people):</h2>
-<p>Bone marrow cancer (acute myeloid leukaemia) </p>
-<h2>Not known (frequency cannot be estimated from the available data):</h2>
-<h2>Carcinoid crisis (release of hormones from the tumour cells)</h2>
-<h2>Tumour lysis syndrome (rapid breakdown of tumour cells)</h2>
-<h2>A reduced number of red blood cells, platelets, and white blood cells (pancytopenia)</h2>
-<p>Dry mouth </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Mild temporary hair loss </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Bone marrow cancer (myelodysplastic syndrome) </li>
+<li>A reduced number of white blood cells (neutropenia) </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Bone marrow cancer (acute myeloid leukaemia) </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Carcinoid crisis (release of hormones from the tumour cells) </li>
+<li>Tumour lysis syndrome (rapid breakdown of tumour cells) </li>
+<li>A reduced number of red blood cells, platelets, and white blood cells (pancytopenia) </li>
+<li>Dry mouth </li>
+</ul>
 <p>Bone marrow cancer (myelodysplastic syndrome and acute myeloid leukaemia) has been reported in 
 patients several years after treatment with carrier medicines radiolabelled with lutetium (177Lu) for 
 neuroendocrine tumours. </p>
@@ -277,7 +290,7 @@ reference time). The volume depends on the quantity of medicine combined with
 Lutetium (177Lu) chloride Billev required for administration by the nuclear medicine doctor. </p>
 <p>Marketing Authorisation Holder 
 Billev Pharma ApS 
-Slotsmarken 2970 Hørsholm 
+Slotsmarken 2970 H rsholm 
 Denmark </p>
 <p>Manufacturer 
 Cilatus Manufacturing Services Limited 

@@ -4,7 +4,7 @@ Instance: composition-en-4a35c8257aae40d46915f31518c0ea2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for lamivudine Package Leaflet"
 Description:  "Composition for lamivudine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,7 +96,7 @@ Talk to your doctor or pharmacist before taking Lamivudine Teva Pharma B.V.. </p
 <p>Some people taking Lamivudine Teva Pharma B.V. or other combination treatments for HIV are more 
 at risk of serious side effects. You need to be aware of the extra risks: 
 * if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B infection, 
-do not stop Lamivudine Teva Pharma B.V. without your doctor’s advice, as your hepatitis may 
+do not stop Lamivudine Teva Pharma B.V. without your doctor s advice, as your hepatitis may 
 come back) 
 * if you are seriously overweight (especially if you are a woman) 
 * if you or your child has a kidney problem, your dose may be altered. 
@@ -106,7 +106,7 @@ tests, while you are taking your medicine. See section 4 for more information. <
 Some people taking medicines for HIV infection develop other conditions, which can be serious. You 
 need to know about important signs and symptoms to look out for while you are taking Lamivudine 
 Teva Pharma B.V.. </p>
-<p>Read the information ‘Other possible side effects of combination therapy for HIV’ in section 4 of 
+<p>Read the information  Other possible side effects of combination therapy for HIV  in section 4 of 
 this leaflet. </p>
 <p>Other medicines and Lamivudine Teva Pharma B.V. 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
@@ -139,7 +139,7 @@ soon as possible. </p>
 Lamivudine Teva Pharma B.V. is unlikely to affect your ability to drive or use machines. </p>
 <p>Lamivudine Teva Pharma B.V. contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially “sodium-free”. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lamivudine"
@@ -157,7 +157,7 @@ Lamivudine Teva Pharma B.V. helps to control your condition. You need to keep ta
 to stop your illness getting worse. You may still develop other infections and illnesses linked to HIV 
 infection. </p>
 <p>Keep in touch with your doctor, and do not stop taking Lamivudine Teva Pharma B.V. without 
-your doctor’s advice. </p>
+your doctor s advice. </p>
 <p>The recommended dose is </p>
 <p>Adults, adolescents and children who weigh at least 25 kg 
 The usual dose of Lamivudine Teva Pharma B.V. is 300 mg a day. This can be taken as either one 
@@ -198,8 +198,8 @@ Lamivudine Teva Pharma B.V. or other medicines you are taking, or an effect of t
 itself. So it is very important to talk to your doctor about any changes in your health. </p>
 <p>As well as the side effects listed below for Lamivudine Teva Pharma B.V., other conditions can 
 develop during combination therapy for HIV. 
-It is important to read the information later in this section under ‘Other possible side effects of 
-combination therapy for HIV’. </p>
+It is important to read the information later in this section under  Other possible side effects of 
+combination therapy for HIV . </p>
 <p>Common side effects 
 These may affect up to 1 in 10 people: 
 * headache 
@@ -248,7 +248,7 @@ during HIV treatment. </p>
 People with advanced HIV infection (AIDS) have weak immune systems and are more likely to 
 develop serious infections (opportunistic infections). When these people start treatment, they may find 
 that old, hidden infections flare up, causing signs and symptoms of inflammation. These symptoms are 
-probably caused by the body’s immune system becoming stronger, so that the body starts to fight these 
+probably caused by the body s immune system becoming stronger, so that the body starts to fight these 
 infections. </p>
 <p>In addition to the opportunistic infections, autoimmune disorders (a condition that occurs when the 
 immune system attacks healthy body tissue) may also occur after you start taking medicines for the 
@@ -257,7 +257,7 @@ treatment. If you notice any symptoms of infection or other symptoms such as mus
 weakness beginning in the hands and feet and moving up towards the trunk of the body, palpitations, 
 tremor or hyperactivity, please inform your doctor immediately to seek necessary treatment. </p>
 <p>If you get any symptoms of infection while you are taking Lamivudine Teva Pharma B.V.: 
-Tell your doctor immediately. Do not take other medicines for the infection without your doctor’s 
+Tell your doctor immediately. Do not take other medicines for the infection without your doctor s 
 advice. </p>
 <p>You may have problems with your bones 
 Some people taking combination therapy for HIV develop a condition called osteonecrosis. With this 
@@ -306,7 +306,7 @@ film coat: Hypromellose, titanium dioxide (E171), macrogol, polysorbate 80, iron
 (E172), iron oxide black (E172) </li>
 </ul>
 <p>What Lamivudine Teva Pharma B.V. looks like and contents of the pack </p>
-<p>Light grey, diamond shaped, biconvex film-coated tablet - engraved with “L 150” and breakline on 
+<p>Light grey, diamond shaped, biconvex film-coated tablet - engraved with  L 150  and breakline on 
 one side and breakline on the other. </p>
 <p>Lamivudine Teva Pharma B.V. is available in aluminium blisters containing 20, 30, 60, 80, 90, and 500 tablets or HDPE containers containing 60 tablets. </p>
 <p>Not all pack sizes may be marketed </p>
@@ -317,31 +317,29 @@ Swensweg 5
 Netherlands </p>
 <p>Manufacturer </p>
 <p>Teva Pharmaceutical Works Private Limited Company 
-Pallagi út Debrecen H-4Hungary </p>
+Pallagi  t Debrecen H-4Hungary </p>
 <p>Pharmachemie B.V. 
 Swensweg 5 
 2031 GA Haarlem 
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 ratiopharm GmbH 
 Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
+T l/Tel: +49 73140 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007<br />
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -361,30 +359,29 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, 
+Teva Pharma - Produtos Farmac uticos, 
 Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -393,10 +390,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -404,16 +401,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

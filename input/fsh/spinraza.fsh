@@ -4,7 +4,7 @@ Instance: composition-en-7480c406c1476ad2011cc90003d94188
 InstanceOf: CompositionUvEpi
 Title: "Composition for spinraza Package Leaflet"
 Description:  "Composition for spinraza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -97,17 +97,17 @@ giving a medicine by this method in very young patients and those with scoliosis
 spine). </p>
 <p>Other products that are in the same group of medicines as Spinraza have been shown to affect the cells 
 in the blood which help clotting. Before you or your child are given Spinraza your doctor may decide 
-to do a blood test to check that your or your child’s blood can clot properly. This may not be required 
+to do a blood test to check that your or your child s blood can clot properly. This may not be required 
 every time you or your child are given Spinraza. </p>
 <p>Other products that are in the same group of medicines as Spinraza have been shown to affect the 
 kidneys. Before you or your child are given Spinraza your doctor may decide to do a urine test to 
-check that your or your child’s kidneys are working normally. This may not be required every time 
+check that your or your child s kidneys are working normally. This may not be required every time 
 you or your child are given Spinraza. </p>
 <p>There have been a small number of reports of patients developing hydrocephalus (a build-up of too 
 much fluid around the brain) after Spinraza is given. Some of these patients had needed to have a 
 device called a ventriculo-peritoneal shunt implanted to treat the hydrocephalus. If you notice any 
 symptoms of increase in head size, decreased consciousness, persistent nausea, vomiting or headache; 
-or other symptoms that cause you concern, please inform your or your child’s doctor to seek necessary 
+or other symptoms that cause you concern, please inform your or your child s doctor to seek necessary 
 treatment. The benefits and risks of continuing Spinraza whilst having a "ventriculo-peritoneal shunt" 
 in place are not known at present. </p>
 <p>Talk to your doctor before you or your child are given Spinraza. </p>
@@ -122,10 +122,10 @@ during pregnancy and breast-feeding. </p>
 Spinraza has no or negligible influence on the ability to drive and use machines. </p>
 <p>Spinraza contains a small amount of sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 5 ml vial, that is to say essentially 
-‘sodium-free’ and can be used by people on a sodium-restricted diet. </p>
+ sodium-free  and can be used by people on a sodium-restricted diet. </p>
 <p>Spinraza contains a small amount of potassium 
-This medicine contains potassium, less than 1 mmol (39 mg) per 5 ml vial, i.e. essentially ‘potassium-
-free’. </p>         </div>"""   
+This medicine contains potassium, less than 1 mmol (39 mg) per 5 ml vial, i.e. essentially  potassium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spinraza"
@@ -141,7 +141,7 @@ inserting a needle into the space around the spinal cord. This will be done by a
 doing lumbar punctures. You or your child may also be given a medicine to make you relax or sleep 
 during the procedure. </p>
 <p>How long to use Spinraza 
-Your doctor will tell you how long you or your child need to receive Spinraza. Don’t stop treatment 
+Your doctor will tell you how long you or your child need to receive Spinraza. Don t stop treatment 
 with Spinraza unless your doctor tells you to. </p>
 <p>If you or your child misses an injection 
 If you or your child miss a dose of Spinraza, speak with your doctor so that Spinraza can be given as 
@@ -191,15 +191,15 @@ Apple App Store </p>
   * code.text = "5. How to store spinraza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the vial and carton after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the vial and carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). Do not freeze. 
+<p>Store in a refrigerator (2 C to 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. 
 If no refrigeration is available, Spinraza may be stored in its original carton, protected from light at or 
-below 30°C for up to 14 days. </p>
+below 30 C for up to 14 days. </p>
 <p>Unopened vials of Spinraza can be removed from and returned to the refrigerator if necessary. If 
 removed from the original carton, the total time out of refrigeration should not exceed 30 hours, at a 
-temperature that does not exceed 25°C. </p>         </div>"""      
+temperature that does not exceed 25 C. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -212,8 +212,8 @@ temperature that does not exceed 25°C. </p>         </div>"""
 - Each 5 ml vial contains nusinersen sodium equivalent to 12 mg nusinersen. 
 - Each ml contains 2.4 mg of nusinersen. 
 - The other ingredients are sodium dihydrogen phosphate dihydrate, disodium phosphate, sodium 
-chloride (see section 2 “Spinraza contains a small amount of sodium”), potassium chloride (see 
-section 2 “Spinraza contains a small amount of potassium”), calcium chloride dihydrate, 
+chloride (see section 2  Spinraza contains a small amount of sodium ), potassium chloride (see 
+section 2  Spinraza contains a small amount of potassium ), calcium chloride dihydrate, 
 magnesium chloride hexahydrate, sodium hydroxide, hydrochloric acid, water for injections. </p>
 <p>What Spinraza looks like and contents of the pack 
 Spinraza is a clear colourless solution for injection. 
@@ -225,29 +225,28 @@ Prins Mauritslaan 1171 LP Badhoevedorp
 The Netherlands </p>
 <p>Manufacturer 
 FUJIFILM Diosynth Biotechnologies Denmark ApS 
-Biotek Allé 1 
-DK-3400 Hillerød 
+Biotek All  1 
+DK-3400 Hiller d 
 Denmark  </p>
 <p>Biogen Netherlands B.V. 
 Prins Mauritslaan 1171 LP Badhoevedorp 
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biogen Belgium N.V./S.A. 
-Tél/Tel: +32 2 219 12<br />
+T l/Tel: +32 2 219 12<br />
 Lietuva 
 Biogen Lithuania UAB 
-Tel: +370 5 259 6България 
-ТП ЕВОФАРМА 
-Teл.: +359 2 962 12<br />
+Tel: +370 5 259 6  </p>
+<p>Te .: +359 2 962 12<br />
 Luxembourg/Luxemburg 
 Biogen Belgium N.V./S.A. 
-Tél/Tel: +32 2 219 12<br />
-Česká republika 
+T l/Tel: +32 2 219 12<br />
+ esk  republika 
 Biogen (Czech Republic) s.r.o. 
 Tel: +420 255 706<br />
-Magyarország 
+Magyarorsz g 
 Biogen Hungary Kft. 
 Tel.: +36 (1) 899 9Danmark 
 Biogen (Denmark) A/S 
@@ -261,17 +260,17 @@ Tel: +49 (0) 89 99 6
 Nederland 
 Biogen Netherlands B.V. 
 Tel: +31 20 542 2Eesti 
-Biogen Estonia OÜ 
+Biogen Estonia O<br />
 Tel: + 372 618 9 
 Norge 
 Biogen Norway AS 
-Tlf: +47 23 40 01 Ελλάδα 
+Tlf: +47 23 40 01 <br />
 Genesis Pharma SA 
-Τηλ: +30 210 8771 
-Österreich 
+ : +30 210 8771 
+ sterreich 
 Biogen Austria GmbH 
 Tel: +43 1 484 46<br />
-España 
+Espa a 
 Biogen Spain SL 
 Tel: +34 91 310 7 
 Polska 
@@ -279,13 +278,13 @@ Biogen Poland Sp. z o.o.
 Tel.: +48 22 351 51<br />
 France 
 Biogen France SAS 
-Tél: +33 (0)1 41 37 95 Portugal 
+T l: +33 (0)1 41 37 95 Portugal 
 Biogen Portugal 
 Tel.: +351 21 318 8 
 Hrvatska 
 Biogen Pharma d.o.o. 
 Tel: +385 (0) 1 775 73<br />
-România 
+Rom nia 
 Ewopharma AG Representative Office 
 Tel: + 40 377 881 Ireland 
 Biogen Idec (Ireland) Ltd. 
@@ -293,20 +292,19 @@ Tel: +353 (0)1 463 7
 Slovenija 
 Biogen Pharma d.o.o. 
 Tel.: +386 1 511 02<br />
-Ísland 
+ sland 
 Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Biogen Slovakia s.r.o. 
 Tel.: +421 2 323 340 Italia 
 Biogen Italia s.r.l. 
 Tel: +39 02 584 9 
 Suomi/Finland 
 Biogen Finland Oy 
-Puh/Tel: +358 207 401<br />
-Κύπρος 
-Genesis Pharma Cyprus Ltd 
-Τηλ: +357 22765 
+Puh/Tel: +358 207 401  </p>
+<p>Genesis Pharma Cyprus Ltd 
+ : +357 22765 
 Sverige 
 Biogen Sweden AB 
 Tel: +46 8 594 113<br />

@@ -4,7 +4,7 @@ Instance: composition-en-5b2806d6987bdec4479a8e779b3ce797
 InstanceOf: CompositionUvEpi
 Title: "Composition for vimizim Package Leaflet"
 Description:  "Composition for vimizim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -148,11 +148,11 @@ started at as young as an age possible and is intended for long term use. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Side effects were mainly seen while patients were being given the medicine or shortly after (“infusion 
-reactions”). The most serious side effects were severe allergic reactions (seen uncommonly – may 
-affect up to 1 in 100 people) and mild to moderate vomiting (seen very commonly – may affect more 
+<p>Side effects were mainly seen while patients were being given the medicine or shortly after ( infusion 
+reactions ). The most serious side effects were severe allergic reactions (seen uncommonly   may 
+affect up to 1 in 100 people) and mild to moderate vomiting (seen very commonly   may affect more 
 than 1 in 10 people).  Symptoms of allergic reaction include rash, itching or hives on the skin (seen 
-commonly – may affect up to 1 in 10 people).  If you experience any difficulty swallowing, talking, 
+commonly   may affect up to 1 in 10 people).  If you experience any difficulty swallowing, talking, 
 severe shortness of breath or wheezing, swelling of the face or lips, dizziness or weak pulse; these 
 may represent symptoms of a severe allergic reaction and you should tell your doctor 
 immediately. Based on the severity of the side effect, your doctor may slow or temporarily interrupt 
@@ -177,14 +177,14 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>Unopened vials:<br />
-Store in a refrigerator (2C – 8C).<br />
+Store in a refrigerator (2 C   8 C).<br />
 Do not freeze. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not use Vimizim if the solution is discoloured or it contains visible particles.  </p>
 <p>After dilution: 
 Once the product has been diluted it should be used immediately.  If not used immediately, in-use 
 storage times and conditions are the responsibility of the user and should normally not be longer than 
-24 hours at 2oC – 8oC followed by up to 24 hours at 23oC – 27oC during administration. </p>
+24 hours at 2oC   8oC followed by up to 24 hours at 23oC   27oC during administration. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -200,7 +200,7 @@ Each vial of 5 ml contains 5 mg elosulfase alfa.  </p>
 <ul>
 <li>The other ingredients are: sodium acetate trihydrate, sodium dihydrogen phosphate 
 monohydrate, arginine hydrochloride, sorbitol, polysorbate 20, and water for injections (see 
-section 2 under ‘Vimizim contains sodium and sorbitol (E420)’). </li>
+section 2 under  Vimizim contains sodium and sorbitol (E420) ). </li>
 </ul>
 <p>What Vimizim looks like and contents of the pack<br />
 Vimizim is supplied as a concentrate for solution for infusion (sterile concentrate). The clear to 

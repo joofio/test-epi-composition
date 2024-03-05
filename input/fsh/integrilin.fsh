@@ -4,7 +4,7 @@ Instance: composition-en-444c9ba43fa8be9df56ba30d3dc13ea7
 InstanceOf: CompositionUvEpi
 Title: "Composition for integrilin Package Leaflet"
 Description:  "Composition for integrilin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Integrilin 
 4. Possible side effects 
 5. How to store Integrilin 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -81,60 +80,44 @@ and unfractionated heparin. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take integrilin"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Integrilin: 
-− 
-if you are allergic to eptifibatide or any of the other ingredients of this medicine (listed in section 
-6). 
-− 
-if you have recently had bleeding from your stomach, intestines, bladder or other organs, for 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Integrilin: </p>
+<p>if you are allergic to eptifibatide or any of the other ingredients of this medicine (listed in section 
+6). </p>
+<p>if you have recently had bleeding from your stomach, intestines, bladder or other organs, for 
 example if you have seen abnormal blood in your stool or urine (except from menstrual bleeding) 
-in the past 30 days. 
-− 
-if you have had a stroke within the past 30 days or any haemorrhagic stroke (also, be sure your 
-doctor knows if you ever had a stroke). 
-− 
-if you have had a brain tumour or a condition that affects the blood vessels around the brain. 
-− 
-if you had a major operation or severe injury during the past 6 weeks. 
-− 
-if you have or have had bleeding problems. 
-− 
-if you have or have had difficulty with your blood clotting or a low blood platelet count. 
-− 
-if you have or have had severe hypertension (high blood pressure). 
-− 
-if you have or have had severe kidney or liver problems. 
-− 
-if you have been treated with another medicineof the same type as Integrilin. </p>
+in the past 30 days. </p>
+<p>if you have had a stroke within the past 30 days or any haemorrhagic stroke (also, be sure your 
+doctor knows if you ever had a stroke). </p>
+<p>if you have had a brain tumour or a condition that affects the blood vessels around the brain. </p>
+<p>if you had a major operation or severe injury during the past 6 weeks. </p>
+<p>if you have or have had bleeding problems. </p>
+<p>if you have or have had difficulty with your blood clotting or a low blood platelet count. </p>
+<p>if you have or have had severe hypertension (high blood pressure). </p>
+<p>if you have or have had severe kidney or liver problems. </p>
+<p>if you have been treated with another medicineof the same type as Integrilin. </p>
 <p>Please tell your doctor if you have had any of these conditions. If you have any questions, ask your 
 doctor or hospital pharmacist or nurse. </p>
-<p>Take special care with Integrilin: 
-− 
-Integrilin is recommended for use only in adult, hospitalised patients in coronary care units. 
-− 
-Integrilin is not intended for use in children or adolescents less than 18 years of age. </p>
-<p>− 
-Before and during your treatment with Integrilin, samples of your blood will be tested as a safety 
+<p>Take special care with Integrilin: </p>
+<p>Integrilin is recommended for use only in adult, hospitalised patients in coronary care units. </p>
+<p>Integrilin is not intended for use in children or adolescents less than 18 years of age. </p>
+<p>Before and during your treatment with Integrilin, samples of your blood will be tested as a safety 
 measure to limit the possibility of unexpected bleeding. 
 During use of Integrilin, you will be checked carefully for any signs of unusual or unexpected 
 bleeding. </p>
 <p>Other medicines and Integrilin 
 To avoid the possibility of interactions with other medicines please tell your doctor or hospital 
 pharmacist or nurse if you are taking or have recently taken or might take any other medicines, 
-including medicines obtained without a prescription. Particularly: 
-− 
-blood thinners (oral anticoagulants) or 
-− 
-medicines that prevent blood clots, including warfarin, dipyridamole, ticlopidine, aspirin (except 
+including medicines obtained without a prescription. Particularly: </p>
+<p>blood thinners (oral anticoagulants) or </p>
+<p>medicines that prevent blood clots, including warfarin, dipyridamole, ticlopidine, aspirin (except 
 those that you may be given as part of Integrilin treatment).  </p>
 <p>Pregnancy and breast-feeding 
 Integrilin is not usually recommended for use during pregnancy. Tell your doctor if you are pregnant, 
 think you might be pregnant or are planning to have a baby. Your doctor will weigh up the benefit to 
 you against the risk to your baby of using Integrilin while you are pregnant. </p>
 <p>If you are breast-feeding a baby, breast-feeding should be interrupted during the treatment period. </p>
-<p>Integrilin contains sodium 
-− 
-This medicine contains 161 mg sodium (main component of cooking/table salt) in each 100 ml 
+<p>Integrilin contains sodium </p>
+<p>This medicine contains 161 mg sodium (main component of cooking/table salt) in each 100 ml 
 vial. This is equivalent to 8.1% of the recommended maximum daily dietary intake of sodium 
 for an adult. </p>         </div>"""   
                     
@@ -159,38 +142,27 @@ nurse. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Very common side effects 
-These may affect more than 1 in 10 people 
-− 
-minor or major bleeding, (for example, blood in urine, blood in stool, vomiting blood, or bleeding 
-with surgical procedures). 
-− 
-anaemia (decreased number of red blood cells).  </p>
+These may affect more than 1 in 10 people </p>
+<p>minor or major bleeding, (for example, blood in urine, blood in stool, vomiting blood, or bleeding 
+with surgical procedures). </p>
+<p>anaemia (decreased number of red blood cells).  </p>
 <p>Common side effects 
-These may affect up to 1 in 10 people 
-− 
-inflammation of a vein. </p>
+These may affect up to 1 in 10 people </p>
+<p>inflammation of a vein. </p>
 <p>Uncommon side effects 
 These may affect up to 1 in 100 people </p>
-<p>− 
-reduction in the number of platelets (blood cells necessary for blood clotting). 
-− 
-reduced blood flow to the brain. </p>
+<p>reduction in the number of platelets (blood cells necessary for blood clotting). </p>
+<p>reduced blood flow to the brain. </p>
 <p>Very rare side effects 
-These may affect up to 1 in 10,000 people 
-− 
-serious bleeding (for example, bleeding inside the abdomen, inside the brain, and into the 
-lungs). 
-− 
-fatal bleeding. 
-− 
-severe reduction in the number of platelets (blood cells necessary for blood clotting). 
-− 
-skin rash (such as hives). 
-− 
-sudden, severe allergic reaction. </p>
+These may affect up to 1 in 10,000 people </p>
+<p>serious bleeding (for example, bleeding inside the abdomen, inside the brain, and into the 
+lungs). </p>
+<p>fatal bleeding. </p>
+<p>severe reduction in the number of platelets (blood cells necessary for blood clotting). </p>
+<p>skin rash (such as hives). </p>
+<p>sudden, severe allergic reaction. </p>
 <p>If you notice any signs of bleeding, notify your doctor or hospital pharmacist or nurse immediately. Very 
 rarely, bleeding has become severe and even fatal. Safety measures to prevent this from happening 
 include blood tests and careful checking by the healthcare professionals taking care of you.  </p>
@@ -213,7 +185,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children  </p>
 <p>Do not use this medicine after the expiry date (EXP) stated on the package and the vial. The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). </p>
+<p>Store in a refrigerator (2 C   8 C). </p>
 <p>Keep the vial in the outer package in order to protect from light. However, protection of Integrilin solution 
 from light is not necessary during administration. </p>
 <p>Before using, the vial contents should be inspected. 
@@ -228,12 +200,10 @@ to throw away medicines you no longer use. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Integrilin contains 
-− 
-The active substance is eptifibatide. Each ml of solution for infusion contains 0.75 mg of 
-eptifibatide. One vial of 100 ml of solution for infusion contains 75 mg of eptifibatide.<br />
-− 
-The other ingredients are citric acid monohydrate, sodium hydroxide and water for injections. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Integrilin contains </p>
+<p>The active substance is eptifibatide. Each ml of solution for infusion contains 0.75 mg of 
+eptifibatide. One vial of 100 ml of solution for infusion contains 75 mg of eptifibatide.  </p>
+<p>The other ingredients are citric acid monohydrate, sodium hydroxide and water for injections. </p>
 <p>What Integrilin looks like and contents of the pack 
 Integrilin solution for infusion: 100 ml vial, pack of one vial.  </p>
 <p>The clear, colourless solution is contained in a 100 ml glass vial, which is closed with a butyl rubber 
@@ -246,23 +216,22 @@ stopper and sealed with a crimped aluminium seal. </p>
 43056, Parma, Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52<br />
+T l/Tel: + 32 (0) 10 85 52<br />
 Lietuva 
 GlaxoSmithKline (Ireland) Limited<br />
-Tel: +370 80000 
-България 
-GlaxoSmithKline (Ireland) Limited 
-Тел. +359 80018 
+Tel: +370 80000 </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+ . +359 80018 
 Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 GlaxoSmithKline (Ireland) Limited 
 Tel.: +36 80088 
 Danmark 
@@ -282,15 +251,14 @@ GlaxoSmithKline (Ireland) Limited
 Tel: +372 8002 
 Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+Tlf: + 47 22 70 20  </p>
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
@@ -298,14 +266,14 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 
 France 
 Laboratoire GlaxoSmithKline 
-Tél.: + 33 (0)1 39 17 84 diam@gsk.com </p>
+T l.: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda 
+GlaxoSmithKline   Produtos Farmac uticos, Lda 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
 Tel: +385 800787 
-România 
+Rom nia 
 GlaxoSmithKline (Ireland) Limited 
 Tel: +40 800672 
 Ireland 
@@ -314,10 +282,10 @@ Tel: + 353 (0)1 4955
 Slovenija 
 GlaxoSmithKline (Ireland) Limited 
 Tel: +386 80688 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited 
 Tel: +421 800500 
 Italia 
@@ -326,9 +294,8 @@ Tel: + 39 (0)45 7741<br />
 Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 (0)10 30 30  </p>
-<p>Κύπρος 
-GlaxoSmithKline (Ireland) Limited 
-Τηλ: +357 80070 
+<p>GlaxoSmithKline (Ireland) Limited 
+ : +357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

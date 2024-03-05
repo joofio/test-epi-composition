@@ -4,7 +4,7 @@ Instance: composition-en-a1ae178fa1feba2157e2ad80fb8616d6
 InstanceOf: CompositionUvEpi
 Title: "Composition for melatonin Package Leaflet"
 Description:  "Composition for melatonin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Melatonin Neurim 
 4. Possible side effects 
 5. How to store Melatonin Neurim 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -72,7 +71,7 @@ Usage: #example
 produced by the body. </p>
 <p>Melatonin Neurim is used on its own for the short-term treatment of primary insomnia (persistent 
 difficulty in getting to sleep or staying asleep, or poor quality of sleep) in patients aged 55 years and 
-older. ‘Primary’ means that the insomnia does not have any identified cause, including any medical, 
+older.  Primary  means that the insomnia does not have any identified cause, including any medical, 
 mental or environmental cause. </p>         </div>"""   
           
 
@@ -92,7 +91,7 @@ Talk to your doctor or pharmacist before taking Melatonin Neurim. </p>
 people with liver or kidney diseases have been performed, you should speak to your doctor 
 before taking Melatonin Neurim as its use is not recommended. </li>
 <li>If you have been told by your doctor that you have an intolerance to some sugars. </li>
-<li>If you have been told you suffer from an autoimmune disease (where the body is ‘attacked’ by 
+<li>If you have been told you suffer from an autoimmune disease (where the body is  attacked  by 
 its own immune system). No studies on the use of Melatonin Neurim in people with auto-
 immune diseases have been performed; therefore, you should speak to your doctor before taking 
 Melatonin Neurim as its use is not recommended. </li>
@@ -109,23 +108,19 @@ advice. </p>
 <p>Other medicines and Melatonin Neurim 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  These medicines include: </p>
-<p>− 
-Fluvoxamine (used for the treatment of depression and obsessive compulsive disorder), 
+<p>Fluvoxamine (used for the treatment of depression and obsessive compulsive disorder), 
 psoralens (used in the treatment of skin disorders e.g. psoriasis), cimetidine (used in the 
 treatment of stomach problems such as ulcers), quinolones and rifampicin (used in the treatment 
 of bacterial infections), oestrogens (used in contraceptives or hormone replacement therapy) and 
-carbamazepine (used in the treatment of epilepsy). 
-− 
-Adrenergic agonists/antagonists (such as certain types of medicines used to control blood 
+carbamazepine (used in the treatment of epilepsy). </p>
+<p>Adrenergic agonists/antagonists (such as certain types of medicines used to control blood 
 pressure by constricting blood vessels, nasal decongestants, blood pressure lowering medicines), 
 opiate agonists/antagonists (such as medicinal products used in the treatment of drug addiction), 
 prostaglandin inhibitors (such as nonsteroidal anti-inflammatory medicines), antidepressant 
-medication, tryptophan and alcohol. 
-− 
-Benzodiazepines and non-benzodiazepine hypnotics (medicines used to induce sleep such as 
-zaleplon, zolpidem and zopiclone) 
-− 
-Thioridazine (for the treatment of schizophrenia) and imipramine (for the treatment of 
+medication, tryptophan and alcohol. </p>
+<p>Benzodiazepines and non-benzodiazepine hypnotics (medicines used to induce sleep such as 
+zaleplon, zolpidem and zopiclone) </p>
+<p>Thioridazine (for the treatment of schizophrenia) and imipramine (for the treatment of 
 depression). </p>
 <p>Melatonin Neurim with food, drink and alcohol 
 Take Melatonin Neurim after you have eaten.  Do not drink alcohol before, during or after taking 
@@ -182,7 +177,7 @@ Uncommon: (may affect up to 1 in 100 people)
 * Visual impairment 
 * Blurred vision 
 * Disorientation 
-* Vertigo (a feeling of dizziness or “spinning”) 
+* Vertigo (a feeling of dizziness or  spinning ) 
 * Presence of red blood cells in the urine 
 * Reduced number of white blood cells in the blood 
 * Reduced blood platelets, which increases risk of bleeding or bruising 
@@ -201,7 +196,7 @@ abnormal liver function and weight increase. </p>
 <p>Shingles, high level of fatty molecules in the blood, low serum calcium levels in the blood, low 
 sodium levels in the blood, altered mood, aggression, agitation, crying, stress symptoms, early 
 morning awakening, increased sex drive, depressed mood,  memory impairment, disturbance in 
-attention, dreamy state, restless legs syndrome, poor quality sleep, ‘pins and needles’ feeling, watery 
+attention, dreamy state, restless legs syndrome, poor quality sleep,  pins and needles  feeling, watery 
 eyes, dizziness when standing or sitting, hot flushes, acid reflux, stomach disorder, blistering in the 
 mouth, tongue ulceration, stomach upset, vomiting, abnormal bowel sounds, wind, excess saliva 
 production, bad breath, abdominal discomfort, gastric disorder, inflammation of the stomach lining, 
@@ -226,7 +221,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton (EXP).  The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 25°C.  Store in the original package in order to protect from light. </p>
+<p>Do not store above 25 C.  Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
 throw away medicines you no longer use.  These measures will help to protect the environment. </p>         </div>"""      
         
@@ -255,12 +250,12 @@ France
 e-mail: regulatory@neurim.com </p>
 <p>Manufacturer: </p>
 <p>Sites responsible for Batch Release in the EEA:-<br />
-Iberfar Indústria Farmacêutica S.A. 
+Iberfar Ind stria Farmac utica S.A. 
 Estrada Consiglieri Pedroso Queluz De Baixo 
 Barcarena 
 2734-Portugal </p>
 <p>Rovi Pharma Industrial Services, S.A. 
-Vía Complutense, Alcalá de Henares 
+V a Complutense, Alcal  de Henares 
 Madrid, 28Spain </p>
 <p>This leaflet was last revised in {month/YYYY}. </p>
 <p>Other sources of information </p>

@@ -4,7 +4,7 @@ Instance: composition-en-18d76b54ce97b530a72d79629f6d8b0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ucedane Package Leaflet"
 Description:  "Composition for ucedane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -116,7 +116,7 @@ for their fed pups, you should not breast-feed your baby if you are taking Uceda
 Effects on the ability to drive and use machines are not known. </p>
 <p>Ucedane contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per maximum daily dose that is to 
-say essentially ‘sodium-free’. </p>         </div>"""   
+say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ucedane"
@@ -191,11 +191,11 @@ to throw away medicines you no longer use. These measures will help protect the 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ucedane contains 
 - The active substance is carglumic acid. Each tablet contains 200 mg of carglumic acid. 
 - The other ingredients are microcrystalline cellulose, colloidal anhydrous silica, 
-sodium stearyl fumarate (see section 2 “Ucedane contains sodium”), mannitol, 
+sodium stearyl fumarate (see section 2  Ucedane contains sodium ), mannitol, 
 copovidone K28, crospovidone type B. </p>
 <p>What Ucedane looks like and contents of the pack 
 Ucedane dispersible tablets are rod-shaped, white, and biconvex with three score lines on both sides 
-and engraving “L/L/L/L” on one side. 
+and engraving  L/L/L/L  on one side. 
 Approximate tablet dimensions are 17 mm in length and 6 mm in width. 
 The tablet can be divided into four equal doses. </p>
 <p>The tablets are presented in aluminium/aluminium blister packed in a carton. 
@@ -213,22 +213,21 @@ Trapgans 5
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Lucane Pharma 
-Tél/Tel: + 33 153 868 info@lucanepharma.com </p>
+T l/Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Lietuva<br />
 FrostPharma AB 
 Tel: +46 775 86 80 info@frostpharma.com </p>
-<p>България 
-Lucane Pharma 
-Teл.: + 33 153 868 info@lucanepharma.com </p>
+<p>Lucane Pharma 
+Te .: + 33 153 868 info@lucanepharma.com </p>
 <p>Luxembourg/Luxemburg 
 Lucane Pharma 
-Tél/Tel: + 33 153 868 info@lucanepharma.com 
-Česká republika 
+T l/Tel: + 33 153 868 info@lucanepharma.com 
+ esk  republika 
 Lucane Pharma 
-Tél/Tel: + 33 153 868 info@lucanepharma.com </p>
-<p>Magyarország 
+T l/Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Magyarorsz g 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
 Danmark 
@@ -248,15 +247,14 @@ FrostPharma AB
 Tel: +46 775 86 80 info@frostpharma.com </p>
 <p>Norge 
 FrostPharma AB 
-Tlf: +47 815 03 info@frostpharma.com 
-Ελλάδα 
-Lucane Pharma 
-Τηλ: + 33 153 868 Österreich 
+Tlf: +47 815 03 info@frostpharma.com </p>
+<p>Lucane Pharma 
+ : + 33 153 868  sterreich 
 Lucane Pharma 
 Tel: + 33 153 868<br />
 info@lucanepharma.com </p>
 <p>info@lucanepharma.com 
-España 
+Espa a 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Polska 
@@ -264,14 +262,14 @@ Lucane Pharma
 Tel: + 33 153 868 info@lucanepharma.com 
 France 
 Lucane Pharma 
-Tél: + 33 153 868 info@lucanepharma.com </p>
+T l: + 33 153 868 info@lucanepharma.com </p>
 <p>Portugal 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
 Hrvatska 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com </p>
-<p>România 
+<p>Rom nia 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Ireland 
@@ -280,10 +278,10 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Slovenija 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
-Ísland 
+ sland 
 FrostPharma AB 
-Sími: +46 775 86 80 info@frostpharma.com </p>
-<p>Slovenská republika 
+S mi: +46 775 86 80 info@frostpharma.com </p>
+<p>Slovensk  republika 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
 Italia 
@@ -292,9 +290,8 @@ Tel: + 33 153 868 info@lucanepharma.com
 Suomi/Finland 
 FrostPharma AB 
 Puh/Tel: +35 875 32 51 info@frostpharma.com </p>
-<p>Κύπρος 
-Lucane Pharma 
-Τηλ: + 33 153 868 info@lucanepharma.com </p>
+<p>Lucane Pharma 
+ : + 33 153 868 info@lucanepharma.com </p>
 <p>Sverige 
 FrostPharma AB<br />
 Tel: +46 775 86 80 info@frostpharma.com </p>

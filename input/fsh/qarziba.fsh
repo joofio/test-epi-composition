@@ -4,7 +4,7 @@ Instance: composition-en-e8b67f07b418969c3e83d3aef06331ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for qarziba Package Leaflet"
 Description:  "Composition for qarziba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,10 +69,10 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What qarziba is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qarziba contains dinutuximab beta, which belongs to a group of medicines called ‘monoclonal 
-antibodies’. These are proteins, which specifically recognise and bind to other unique proteins in the 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qarziba contains dinutuximab beta, which belongs to a group of medicines called  monoclonal 
+antibodies . These are proteins, which specifically recognise and bind to other unique proteins in the 
 body. Dinutuximab beta binds to the molecule known as disialoganglioside 2 (GD2), which is present 
-on cancer cells, and this activates the body’s immune system, causing it to attack the cancer cells. </p>
+on cancer cells, and this activates the body s immune system, causing it to attack the cancer cells. </p>
 <p>Qarziba is used to treat neuroblastoma that has a high risk of coming back after a series of 
 treatments, which include a stem cell transplantation for rebuilding the immune system. It is also used 
 to treat neuroblastoma that has come back (relapsed) or could not be completely treated with previous 
@@ -108,28 +108,30 @@ Pain is one of the most common side effects of Qarziba. It usually occurs at the
 infusion. Therefore, your doctor will give you an appropriate pain treatment starting 3 days 
 before and continuing during use of Qarziba. 
 * allergic reactions or other infusion-related reactions 
-Tell your doctor or nurse if you have any kind of reaction during or after the infusion, such as: 
-- fever, shivering and/or low blood pressure 
-- difficulties in breathing 
-- skin rash, hives 
+Tell your doctor or nurse if you have any kind of reaction during or after the infusion, such as:</p>
+<ul>
+<li>fever, shivering and/or low blood pressure </li>
+<li>difficulties in breathing </li>
+<li>skin rash, hives 
 You will receive appropriate treatment to prevent these reactions and be closely monitored for 
-these symptoms during infusion of Qarziba. 
-* leakage from small blood vessels (capillary leak syndrome) 
+these symptoms during infusion of Qarziba. </li>
+<li>leakage from small blood vessels (capillary leak syndrome) 
 Leakage of blood components from small blood vessels may cause rapid swelling in arms, legs 
 and other parts of the body. Rapid drop in blood pressure, light-headedness and breathing 
-difficulties are further signs. 
-* eye problems 
-You may notice changes to your vision. 
-* problems with your nerves 
+difficulties are further signs. </li>
+<li>eye problems 
+You may notice changes to your vision. </li>
+<li>problems with your nerves 
 You may notice numbness, tingling or burning in your hands, feet, legs or arms, reduced 
-sensation or weakness with movement. 
-*     spinal cord and brain problems (central nervous system, CNS) 
+sensation or weakness with movement. </li>
+<li>spinal cord and brain problems (central nervous system, CNS) 
 Tell your doctor or nurse if you have any kind of CNS symptoms, such as: substantial 
 prolonged neurological deficit without apparent reason such as muscle weakness or loss of 
 muscle strength in the legs (or arms), or mobility problems or unusual sensations and numbness. 
 Persistent or sudden onset of a headache, or progressive loss of memory and cognitive ability, 
 subtle personality changes, inability to concentrate, lethargy, and progressive loss of 
-consciousness. </p>
+consciousness. </li>
+</ul>
 <p>Tell your doctor immediately if you notice any of these problems. </p>
 <p>Your doctor may decide to stop your treatment if you have any of the problems mentioned here.  In 
 some cases your treatment may be able to start again after a break or at a slower rate, but sometimes it 
@@ -242,7 +244,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Keep the vial in the outer carton in order to protect from light. </p>
+<p>Store in a refrigerator (2  C   8  C). Keep the vial in the outer carton in order to protect from light. </p>
 <p>Once opened, Qarziba is intended for immediate use. </p>         </div>"""      
         
         
@@ -276,12 +278,12 @@ Netherlands </p>
 Millmount Healthcare Ltd 
 Block 7, City North Business Campus 
 Stamullen, Co. Meath 
-K32 YDΙreland </p>
+K32 YD reland </p>
 </li>
 </ul>
 <p>Patheon Italia S.P.A. 
 Via Morolense, 
-5 – 03013 Ferentino 
+5   03013 Ferentino 
 Italy </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
@@ -304,8 +306,8 @@ dose of 10 mg/m2
 <p>If IL-2 is combined with dinutuximab beta, it should be given as subcutaneous injections for 
 5 consecutive days twice during each course. First 5-day treatment should start 7 days prior to first 
 dinutuximab beta infusion. Second 5-day treatment with IL-2 should start concurrently with 
-dinutuximab beta infusion (days 1 to 5 of each course). IL-2 is administered as 6×106 IU/m2/day, 
-resulting in an overall dose of 60×106 IU/m2/course. </p>
+dinutuximab beta infusion (days 1 to 5 of each course). IL-2 is administered as 6 106 IU/m2/day, 
+resulting in an overall dose of 60 106 IU/m2/course. </p>
 <p>Preparation of the infusion 
 The solution for infusion must be prepared under aseptic conditions. The solution must not be exposed 
 to direct sunlight or heat. </p>
@@ -330,5 +332,20 @@ diluted in 100 mL sodium chloride 9 mg/mL (0.9%) containing 1% human albumin. </
 <p>Administration of the infusion 
 The solution for infusion should be administered via a peripheral or central intravenous line. Other 
 intravenously co-administered agents should be delivered via a separate infusion line. The container 
-should be inspected visually for particulates prior to administration. It is recommended that a </p>         </div>"""      
+should be inspected visually for particulates prior to administration. It is recommended that a 
+0.22 micrometre in-line filter is used during infusion. </p>
+<p>For continuous infusions, any medical device suitable for infusion at a rate of 2 mL per hour can be 
+applied, e.g. syringe infusion pumps/infusors, electronic ambulatory infusion pumps. Note that 
+elastomeric pumps are not considered suitable in combination with in-line filters. </p>
+<p>Storage of the diluted solution 
+Chemical and physical in-use stability has been demonstrated for up to 48 hours at 25  C (50 mL 
+syringe) and for up to 7 days at 37  C (250 mL infusion bag), after cumulative storage in a refrigerator 
+(2  C   8  C) for 72 hours. </p>
+<p>From a microbiological point of view, the product should be used immediately. If not used 
+immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
+would not normally be longer than 24 hours at 2 to 8  C, unless dilution has taken place in controlled 
+and validated aseptic conditions. </p>
+<p>Disposal 
+Any unused medicinal product or waste material should be disposed of in accordance with local 
+requirements. </p>         </div>"""      
 

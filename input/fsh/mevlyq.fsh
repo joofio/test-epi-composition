@@ -4,7 +4,7 @@ Instance: composition-en-72698f459e623b86f3f80561e5b525b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for mevlyq Package Leaflet"
 Description:  "Composition for mevlyq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,12 +88,14 @@ tissue) when previous therapy has been tried but has lost its effect. </p>      
 6).<br />
 - if you are breast-feeding </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or nurse before using Mevlyq: 
-- if you have liver problems 
-- if you have a fever or an infection 
-- if you experience numbness, tingling, prickling sensations, sensitivity to touch or muscle 
-weakness 
-- if you have heart problems </p>
+Talk to your doctor or nurse before using Mevlyq:</p>
+<ul>
+<li>if you have liver problems </li>
+<li>if you have a fever or an infection </li>
+<li>if you experience numbness, tingling, prickling sensations, sensitivity to touch or muscle 
+weakness </li>
+<li>if you have heart problems </li>
+</ul>
 <p>If any of these affects you, tell your doctor who may wish to stop treatment or reduce the dose. </p>
 <p>Children and adolescents </p>
 <p>Mevlyq is not recommended for children and adolescents aged under 18 years with paediatric 
@@ -115,7 +117,7 @@ This medicine contains 80 mg of alcohol (ethanol) in each 2 mL vial. The amount 
 this medicinal product is equivalent to less than 5 mL beer or 2 mL wine. 
 The small amount of alcohol in this medicine will not have any noticeable effects. 
 This medicine contains less than 1 mmol sodium (23 mg) in each 2 mL vial, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mevlyq"
@@ -124,7 +126,16 @@ This medicine contains less than 1 mmol sodium (23 mg) in each 2 mL vial, that i
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mevlyq will be given to you by a qualified healthcare professional as an injection into a vein, over a 
 period of 2 to 5 minutes. The dose you will receive is based on your body surface area (expressed in 
-squared metres, or m2) which is calculated from your weight and height. The usual dose of Mevlyq is </p>         </div>"""         
+squared metres, or m2) which is calculated from your weight and height. The usual dose of Mevlyq is 
+1.23 mg/m2, but this may be adjusted by your doctor based on your blood test results or other factors. 
+To ensure that the whole dose of Mevlyq is given it is recommended that a saline solution is flushed 
+into the vein after Mevlyq is given. </p>
+<p>How often will you be given Mevlyq? 
+Mevlyq is usually given on Days 1 and 8 of every 21-day cycle. Your doctor will determine how many 
+cycles of treatment you should receive. Depending on the results of your blood tests, the doctor may 
+need to delay administration of the medicine until the blood tests return to normal. The doctor may 
+also then decide to reduce the dose you are given. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -132,26 +143,12 @@ squared metres, or m2) which is calculated from your weight and height. The usua
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>To ensure that the whole dose of Mevlyq is given it is recommended that a saline solution is flushed 
-into the vein after Mevlyq is given. </p>
-<p>How often will you be given Mevlyq? 
-Mevlyq is usually given on Days 1 and 8 of every 21-day cycle. Your doctor will determine how many 
-cycles of treatment you should receive. Depending on the results of your blood tests, the doctor may 
-need to delay administration of the medicine until the blood tests return to normal. The doctor may 
-also then decide to reduce the dose you are given. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store mevlyq"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mevlyq"
-  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you experience any of the following serious symptoms, you should stop taking Mevlyq and seek 
-medical attention straightaway: </p>
+medical attention straightaway:</p>
 <ul>
 <li>Fever, with a racing heart beat, rapid shallow breathing, cold, pale, clammy or mottled skin 
-and/or confusion. These may be signs of a condition called sepsis – a severe and serious reaction 
+and/or confusion. These may be signs of a condition called sepsis   a severe and serious reaction 
 to an infection. Sepsis is uncommon (may affect up to 1 in 100 people) and can be life-
 threatening and may result in death. </li>
 <li>Any difficulty breathing, or swelling of your face, mouth, tongue or throat. These could be signs 
@@ -227,23 +224,52 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the vial after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>This medicinal product does not require any special storage conditions. </p>
+<p>If Mevlyq is diluted for infusion, it should be stored at 2  C - 8  C for no longer than 72 hours. </p>
+<p>If Mevlyq as an undiluted solution has been transferred into a syringe, it should be stored at 25  C for 
+no longer than 4 hours, or at 2  C - 8  C for no longer than 24 hours. </p>
+<p>From a microbiological point of view, the product should be used immediately. If not used 
+immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
+would normally not be longer than 24 hours at 2  C - 8  , unless dilution has taken place in controlled 
+and validated aseptic conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the vial after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>This medicinal product does not require any special storage conditions. </p>
-<p>If Mevlyq is diluted for infusion, it should be stored at 2 °C - 8 °C for no longer than 72 hours. </p>
-<p>If Mevlyq as an undiluted solution has been transferred into a syringe, it should be stored at 25 °C for 
-no longer than 4 hours, or at 2 °C - 8 °C for no longer than 24 hours. </p>
-<p>From a microbiological point of view, the product should be used immediately. If not used 
-immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-would normally not be longer than 24 hours at 2 °C - 8 °, unless dilution has taken place in controlled 
-and validated aseptic conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Mevlyq contains  </p>
+<ul>
+<li>The active substance is eribulin. Each vial contains eribulin mesilate equivalent to 0.88 mg 
+eribulin in 2 mL solution. </li>
+<li>The other ingredients are ethanol anhydrous, water for injections, hydrochloric acid (for pH-
+adjustment) and sodium hydroxide (for pH-adjustment). See section 2  Mevlyq contains alcohol 
+(ethanol) and sodium . </li>
+</ul>
+<p>What Mevlyq looks like and contents of the pack </p>
+<p>Mevlyq is a clear, colourless aqueous solution provided in glass vials containing 2 mL solution for 
+injection. Each carton contains 1 vial. </p>
+<p>Marketing Authorisation Holder<br />
+YES Pharmaceutical Development Services GmbH 
+Basler Strasse 7 
+61352 Bad Homburg 
+Germany </p>
+<p>Manufacturer 
+A &amp; O Pharma GmbH 
+Am Sattel 79588 Efringen-Kirchen 
+Germany </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

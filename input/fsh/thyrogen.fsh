@@ -4,7 +4,7 @@ Instance: composition-en-bbb526e801230c1471e1f7a100d25aa3
 InstanceOf: CompositionUvEpi
 Title: "Composition for thyrogen Package Leaflet"
 Description:  "Composition for thyrogen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -130,7 +130,7 @@ advice from your doctor. </p>
 Some patients may feel dizzy or have headaches after administration of Thyrogen which may affect the ability 
 to drive and use machines. </p>
 <p>Thyrogen contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thyrogen"
@@ -142,15 +142,9 @@ This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say 
 dissolved in water for injection. Only one vial of Thyrogen is required per injection. Thyrogen should only be 
 administered into the buttock muscle. This solution should never be injected into a vein. Thyrogen must not be 
 mixed with other medicines in the same injection.  </p>
-<p>The recommended dose of Thyrogen is two doses administered 24 hours apart. Your doctor or nurse will inject </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>When you undergo radioiodine imaging or elimination (ablation), your doctor will give you radioiodine 
+<p>The recommended dose of Thyrogen is two doses administered 24 hours apart. Your doctor or nurse will inject 
+1.0 ml of the Thyrogen solution. </p>
+<p>When you undergo radioiodine imaging or elimination (ablation), your doctor will give you radioiodine 
 24 hours after your final Thyrogen injection.<br />
 Diagnostic scanning should be performed 48 to 72 hours after the radioiodine administration (72 to 96 hours 
 after the final injection of Thyrogen). 
@@ -158,18 +152,19 @@ Post-treatment scanning may be delayed a few days to allow background radioactiv
 <p>For thyroglobulin (Tg) testing, your doctor or nurse will take a serum sample 72 hours after the last injection of 
 Thyrogen. </p>
 <p>Use in children 
-Your child’s doctor will help you decide if Thyrogen should be given to your child. </p>
+Your child s doctor will help you decide if Thyrogen should be given to your child. </p>
 <p>If you are given more Thyrogen than you should receive 
 Patients who accidentally received too much Thyrogen have reported nausea, weakness, dizziness, headache, 
 vomiting and hot flashes.  </p>
 <p>A suggested treatment in case of overdose would be the reestablishment of fluid balance and administration of 
 an antiemetic may also be considered. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store thyrogen"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store thyrogen"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>The following effects have been reported with Thyrogen:  </p>
@@ -218,21 +213,43 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By 
 reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store thyrogen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store thyrogen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label after  EXP . The expiry date refers to 
+the last day of that month. </p>
+<p>Store in a refrigerator (2 C - 8 C). </p>
+<p>Keep the vial in the outer carton in order to protect from light. </p>
+<p>It is recommended that the Thyrogen solution be injected within three hours after reconstitution. 
+The reconstituted solution can be stored for up to 24 hours in a refrigerator (2 C - 8 C) under protection from 
+light, while avoiding microbial contamination. </p>
+<p>Do not use this medicine if you notice foreign particles, cloudiness or discoloration. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away 
+medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label after “EXP”. The expiry date refers to 
-the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). </p>
-<p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>It is recommended that the Thyrogen solution be injected within three hours after reconstitution. 
-The reconstituted solution can be stored for up to 24 hours in a refrigerator (2°C - 8°C) under protection from 
-light, while avoiding microbial contamination. </p>
-<p>Do not use this medicine if you notice foreign particles, cloudiness or discoloration. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Thyrogen contains </p>
+<ul>
+<li>
+<p>The active substance is thyrotropin alfa.<br />
+Each vial contains 0.9 mg/ml of thyrotropin alfa when reconstituted with 1.2 ml water for injection. Only 1 ml 
+should be withdrawn equal to 0.9 mg of thyrotropin alfa. </p>
+</li>
+<li>
+<p>The other ingredients are:<br />
+Mannitol 
+Sodium phosphate monobasic, monohydrate 
+Sodium phosphate dibasic, heptahydrate 
+Sodium chloride. </p>
+</li>
+</ul>
+<p>Thyrogen contains sodium, see section </p>         </div>"""      
 

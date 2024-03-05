@@ -4,7 +4,7 @@ Instance: composition-en-8d701e4538054dcfc1e7cc34c7f1602b
 InstanceOf: CompositionUvEpi
 Title: "Composition for telmisartan Package Leaflet"
 Description:  "Composition for telmisartan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
 Angiotensin II is a substance occurring in the body, which causes your blood vessels to narrow, thus 
 increasing your blood pressure. Telmisartan Teva Pharma blocks this effect of angiotensin II so that the 
 blood vessels relax, and your blood pressure is lowered. </p>
-<p>Telmisartan Teva Pharma is used to treat essential hypertension (high blood pressure) in adults. ‘Essential’ 
+<p>Telmisartan Teva Pharma is used to treat essential hypertension (high blood pressure) in adults.  Essential<br />
 means that the high blood pressure is not caused by any other condition. </p>
 <p>High blood pressure, if not treated, can damage blood vessels in several organs,  which could lead sometimes 
 to heart attacks, heart or kidney failure, strokes or blindness. There are usually no symptoms of high blood 
@@ -92,7 +92,7 @@ or have high risk diabetes. Your doctor can tell you if you are at high risk for
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Telmisartan Teva Pharma 
 - if you are allergic to telmisartan or any other ingredients of this medicine (listed in section 6).<br />
 - if you are more than 3 months pregnant (It is also better to avoid Telmisartan Teva Pharma in early 
-pregnancy – see pregnancy section). 
+pregnancy   see pregnancy section). 
 - if you have severe liver problems such as cholestasis or biliary obstruction (problems with the 
 drainage of the bile from the liver and gall bladder) or any other severe liver disease. <br />
 - if you have diabetes or impaired kidney function and you are treated with a blood pressure lowering 
@@ -101,28 +101,30 @@ medicine containing aliskiren. </p>
 Pharma. </p>
 <p>Warnings and precautions 
 Talk to your doctor if you are suffering or have ever suffered from any of the following conditions or 
-illnesses: 
--<br />
-Kidney disease or kidney transplant 
-- Renal artery stenosis (narrowing of the blood vessels to one or both kidneys) 
-- Liver disease 
-- Heart trouble 
-- Raised aldosterone levels (water and salt retention in the body along with imbalance of various blood 
-minerals) 
-- Low blood pressure (hypotension), likely to occur if you are dehydrated (excessive loss of body water) 
-or have salt deficiency due to diuretic therapy (‘water tablets’), low-salt diet, diarrhoea, or vomiting. 
-- Elevated potassium levels in your blood 
-- Diabetes </p>
-<p>Talk to your doctor before taking Telmisartan Teva Pharma: 
-- if you are taking digoxin. 
--<br />
-if you are taking any of the following medicines used to treat high blood pressure: 
-- an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have diabetes-
-related kidney problems. 
-- aliskiren. </p>
+illnesses:</p>
+<ul>
+<li>Kidney disease or kidney transplant </li>
+<li>Renal artery stenosis (narrowing of the blood vessels to one or both kidneys) </li>
+<li>Liver disease </li>
+<li>Heart trouble </li>
+<li>Raised aldosterone levels (water and salt retention in the body along with imbalance of various blood 
+minerals) </li>
+<li>Low blood pressure (hypotension), likely to occur if you are dehydrated (excessive loss of body water) 
+or have salt deficiency due to diuretic therapy ( water tablets ), low-salt diet, diarrhoea, or vomiting. </li>
+<li>Elevated potassium levels in your blood </li>
+<li>Diabetes </li>
+</ul>
+<p>Talk to your doctor before taking Telmisartan Teva Pharma:</p>
+<h2>- if you are taking digoxin.</h2>
+<p>if you are taking any of the following medicines used to treat high blood pressure:</p>
+<ul>
+<li>an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have diabetes-
+related kidney problems. </li>
+<li>aliskiren. </li>
+</ul>
 <p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. potassium) 
 in your blood at regular intervals. </p>
-<p>See also information under the heading “Do not take Telmisartan Teva Pharma”. </p>
+<p>See also information under the heading  Do not take Telmisartan Teva Pharma . </p>
 <p>You must tell your doctor if you think that you are (or might become) pregnant. Telmisartan Teva Pharma is 
 not recommended in early pregnancy and must not be taken if you are more than 3 months pregnant, as it 
 may cause serious harm to your baby if used at that stage (see pregnancy section). </p>
@@ -136,30 +138,30 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 <p>Your doctor may need to change the dose of these other medicines or take other precautions. In some cases 
 you may have to stop taking one of the medicines. This applies especially to the medicines listed below taken 
 at the same time with Telmisartan Teva Pharma. </p>
-<p>• Lithium containing medicines to treat some types of depression. 
-• Medicines that may increase blood potassium levels such as salt substitutes containing potassium, 
-potassium-sparing diuretics (certain ‘water tablets’), ACE inhibitors, angiotensin II receptor 
+<p>Lithium containing medicines to treat some types of depression. 
+  Medicines that may increase blood potassium levels such as salt substitutes containing potassium, 
+potassium-sparing diuretics (certain  water tablets ), ACE inhibitors, angiotensin II receptor 
 antagonists, NSAIDs (non steroidal anti-inflammatory medicines, e.g. aspirin or ibuprofen), heparin, 
 immunosuppressives (e.g. cyclosporin or tacrolimus), and the antibiotic trimethoprim. 
-• Diuretics (‘water tablets’), especially if taken in high doses together with Telmisartan Teva Pharma, 
+  Diuretics ( water tablets ), especially if taken in high doses together with Telmisartan Teva Pharma, 
 may lead to excessive loss of body water and low blood pressure (hypotension). 
-* If you are taking an ACE-inhibitor or aliskiren (see also information under the headings “Do not take 
-Telmisartan Teva Pharma” and “Warnings and precautions”). 
+* If you are taking an ACE-inhibitor or aliskiren (see also information under the headings  Do not take 
+Telmisartan Teva Pharma  and  Warnings and precautions ). 
 * Digoxin. </p>
 <p>The effect of Telmisartan Teva Pharma may be reduced when you take NSAIDs (non steroidal anti-
 inflammatory medicines, e.g. aspirin or ibuprofen) or corticosteroids. </p>
 <p>Telmisartan Teva Pharma may increase the blood pressure lowering effect of other medicines used to treat 
 high blood pressure. </p>
-<p>If you suffer from a condition called “orthostatic hypotension” (a drop in blood pressure on standing up from 
+<p>If you suffer from a condition called  orthostatic hypotension  (a drop in blood pressure on standing up from 
 a sitting or lying position resulting in dizziness or faintness) your condition may worsen if you take 
 Telmisartan Teva Pharma in combination with: 
-• Other medicines used to treat high blood pressure 
-• Baclofen (a muscle relaxant) 
-• Amifostine (a protective medicine during radiotherapy for cancer treatment) 
-• Alcohol 
-• Barbiturates (strong sleeping tablets) 
-• Narcotics (strong pain killers) 
-• Antidepressants </p>
+  Other medicines used to treat high blood pressure 
+  Baclofen (a muscle relaxant) 
+  Amifostine (a protective medicine during radiotherapy for cancer treatment) 
+  Alcohol 
+  Barbiturates (strong sleeping tablets) 
+  Narcotics (strong pain killers) 
+  Antidepressants </p>
 <p>Pregnancy and breast-feeding </p>
 <p>Pregnancy 
 You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise 
@@ -177,7 +179,7 @@ or operate machinery. </p>
 <p>Telmisartan Teva Pharma contains sorbitol.<br />
 This medicine contains 21.4 mg sorbitol in each tablet. </p>
 <p>Telmisartan Teva Pharma contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take telmisartan"
@@ -194,7 +196,7 @@ Telmisartan Teva Pharma is too strong or too weak, talk to your doctor or pharma
 <p>For treatment of high blood pressure the usual dose of Telmisartan Teva Pharma for most patients is 40 mg 
 once a day to control your blood pressure over the 24-hour period. Your doctor has recommended a lower 
 dose of one 20 mg tablet daily.  Alternatively, Telmisartan Teva Pharma may be used in combination with 
-diuretics (“water” tablets) such as hydrochlorothiazide which have been shown to have an additive blood 
+diuretics ( water  tablets) such as hydrochlorothiazide which have been shown to have an additive blood 
 pressure lowering effect with Telmisartan Teva Pharma. </p>
 <p>For reduction of cardiovascular events, the usual dose of Telmisartan Teva Pharma is one 80 mg tablet once 
 a day. At the beginning of the preventive therapy with Telmisartan Teva Pharma 80 mg, blood pressure 
@@ -263,7 +265,7 @@ V. By reporting side effects you can help provide more information on the safety
   * code.text = "5. How to store telmisartan"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
@@ -299,7 +301,7 @@ The Netherlands </p>
 <p>The manufacturer is: </p>
 <p>TEVA Pharmaceutical Works Private Limited Company<br />
 H-4042 Debrecen, 
-Pallagi út 13,<br />
+Pallagi  t 13,<br />
 Hungary </p>
 <p>Or: </p>
 <p>Pharmachemie B.V.<br />
@@ -308,24 +310,22 @@ Swensweg 5,<br />
 The Netherlands </p>
 <p>For any information about this medicinal product, please contact the local representative of the Marketing 
 Authorisation Holder </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Teva Pharma Belgium N.V./S.A./AG<br />
-Tél/Tel: +32 38207373<br />
+T l/Tel: +32 38207373<br />
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България<br />
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg<br />
 Teva Pharma Belgium N.V./S.A./AG<br />
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika<br />
+T l/Tel: +32 38207 
+ esk  republika<br />
 Teva Pharmaceuticals CR, s.r.o.<br />
 Tel: +420 251007 
-Magyarország<br />
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g<br />
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886400  </p>
 <p>Danmark<br />
 Teva Denmark A/S<br />
@@ -345,30 +345,29 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873280   </p>
 <p>Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, 
+Teva Pharma - Produtos Farmac uticos, 
 Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -377,10 +376,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -388,16 +387,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā<br />
+UAB Teva Baltics fili le Latvij <br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

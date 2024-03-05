@@ -4,7 +4,7 @@ Instance: composition-en-16b17145743fb4005511a462dcbf7da1
 InstanceOf: CompositionUvEpi
 Title: "Composition for apealea Package Leaflet"
 Description:  "Composition for apealea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,8 +74,8 @@ medicines called taxanes. Paclitaxel affects or stops growth of rapidly dividing
 cells. </p>
 <p>Apealea is used to treat the following cancers in adults, in combination with another medicine called 
 carboplatin: 
-* epithelial ovarian cancer – a cancer of the ovary, the organ that produces a woman’s egg cells<br />
-* primary peritoneal cancer – a cancer of the cells lining the space between the wall of the belly 
+* epithelial ovarian cancer   a cancer of the ovary, the organ that produces a woman s egg cells<br />
+* primary peritoneal cancer   a cancer of the cells lining the space between the wall of the belly 
 and the internal organs 
 * cancer of the fallopian tubes (the connection between the ovaries and the womb) 
 It is used when other therapies have not worked. </p>         </div>"""   
@@ -91,7 +91,7 @@ It is used when other therapies have not worked. </p>         </div>"""
 <ul>
 <li>are allergic to paclitaxel or any of the other ingredients of this medicine (listed in section 6) </li>
 <li>are breast-feeding </li>
-<li>have a count of white blood cells called neutrophils below 1.5 × 109/L before start of the therapy </li>
+<li>have a count of white blood cells called neutrophils below 1.5   109/L before start of the therapy </li>
 </ul>
 <p>Talk to your doctor or nurse, if you are not sure if any of the above applies to you. </p>
 <p>Warnings and precautions </p>
@@ -111,10 +111,10 @@ delay further treatment with Apealea or reduce the dose. </p>
 <p>You will be observed closely during treatment: 
 * regular blood tests to ensure it is safe for you to continue treatment 
 * symptoms of allergic reaction during the infusion, such as: 
-− reddening and swelling at the site of infusion 
-− low blood pressure 
-− breathing difficulties 
-− puffing of the face </p>
+  reddening and swelling at the site of infusion 
+  low blood pressure 
+  breathing difficulties 
+  puffing of the face </p>
 <p>Children and adolescents </p>
 <p>Apealea is not recommended for children and adolescents under 18 years, because it has not been 
 studied in this age group. </p>
@@ -164,13 +164,12 @@ treatments. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or nurse immediately if you have any of the following: 
 * Very common (may affect more than 1 in 10 people): 
-− nerve disorder in arms and legs which causes tingling, numbness or burning pain, which 
+  nerve disorder in arms and legs which causes tingling, numbness or burning pain, which 
 can persist beyond 6 months of paclitaxel discontinuation. 
-* Common (may affect up to 1 in 10 people): 
-− 
-fever 
-− muscle weakness, cramps or spasms 
-− allergic reactions, such as breathing difficulties, fainting, swelling of the face, itching, 
+* Common (may affect up to 1 in 10 people): </p>
+<p>fever 
+  muscle weakness, cramps or spasms 
+  allergic reactions, such as breathing difficulties, fainting, swelling of the face, itching, 
 feeling hot, chills, particularly during your infusion. Uncommonly these can lead to severe 
 allergic shock. </p>
 <p>Other side effects and their frequencies include: 
@@ -224,17 +223,12 @@ of the body
 * stroke 
 * blurred vision, eye discomfort or irritation, watery eyes 
 * deafness, inner ear disorder, ringing in the ears 
-* blood vessel disorders, such as: 
-− 
-formation of blood clots 
-− 
-blood vessel inflammation 
-− 
-build-up of water in tissue because of blocked lymph vessel 
-− 
-hot flushes 
-− 
-bleeding 
+* blood vessel disorders, such as: </p>
+<p>formation of blood clots </p>
+<p>blood vessel inflammation </p>
+<p>build-up of water in tissue because of blocked lymph vessel </p>
+<p>hot flushes </p>
+<p>bleeding 
 * cardiac arrest, heart failure 
 * blue tinged lips or skin 
 * a heart rhythm disorder causing irregular rapid activity in the upper heart chambers 
@@ -281,7 +275,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Unopened vial: Store in a refrigerator (2 °C – 8 °C). Keep the vial in the outer carton in order to 
+<p>Unopened vial: Store in a refrigerator (2  C   8  C). Keep the vial in the outer carton in order to 
 protect from light. </p>
 <p>Once opened, Apealea is recommended to be used immediately. </p>
 <p>Any unused medicine or waste material should be disposed of in accordance with local requirements. 
@@ -298,15 +292,12 @@ protect the environment. </p>         </div>"""
 <ul>
 <li>The active substance is paclitaxel. One vial contains 60 mg of paclitaxel. After preparation, each 
 millilitre of solution contains 1 mg of paclitaxel (micellar). </li>
-<li>The other ingredients are: 
-− 
-N-(all-trans-retinoyl)-L-cysteic acid methyl ester sodium salt 
-− 
-N-(13-cis-retinoyl)-L-cysteic acid methyl ester sodium salt 
-− 
-sodium hydroxide (for pH adjustment) </li>
+<li>The other ingredients are: </li>
 </ul>
-<p>See section 2 “Apealea contains sodium”. </p>
+<p>N-(all-trans-retinoyl)-L-cysteic acid methyl ester sodium salt </p>
+<p>N-(13-cis-retinoyl)-L-cysteic acid methyl ester sodium salt </p>
+<p>sodium hydroxide (for pH adjustment) </p>
+<p>See section 2  Apealea contains sodium . </p>
 <p>What Apealea looks like and contents of the pack </p>
 <p>Apealea is supplied as a greenish-yellow to yellow powder in a glass vial with a rubber stopper and 
 aluminium seal. </p>
@@ -336,15 +327,65 @@ infusion is a clear, greenish-yellow solution. </p>
 <p>Protect from direct and/or bright light throughout the preparation process. The (reconstituted) product 
 can only withstand short-term handling in absence of light protection. </p>
 <p>Only reconstitute Apealea using one of the following commercially available solutions for 
-reconstitution: 
-- sodium chloride 9 mg/mL (0.9%) solution suitable for infusion; 
-- lactated Ringer’s solution suitable for infusion; 
-- acetated Ringer’s solution suitable for infusion. </p>
-<p>The pH of lactated or acetated Ringer’s solution must be in the range of 5.0 to 7.5 and acceptable ion 
+reconstitution:</p>
+<ul>
+<li>sodium chloride 9 mg/mL (0.9%) solution suitable for infusion; </li>
+<li>lactated Ringer s solution suitable for infusion; </li>
+<li>acetated Ringer s solution suitable for infusion. </li>
+</ul>
+<p>The pH of lactated or acetated Ringer s solution must be in the range of 5.0 to 7.5 and acceptable ion 
 concentrations of calcium and magnesium are listed below (Table 1). </p>
 <p>Table 1. Acceptable ion concentrations for calcium and magnesium in lactated and acetated 
-Ringer’s solutions suitable for reconstitution 
+Ringer s solutions suitable for reconstitution 
 Ion 
 Range (mmol/L) 
-Ca2+ </p>         </div>"""      
+Ca2+ 
+1.0 3.5<em> 
+Mg2+ 
+0.0 2.5</em> 
+* Solutions containing both Ca2+ and Mg2+ should have a total (combined) concentration of Ca2+ and 
+Mg2+ within the range of 1.0 to 3.5 mmol/L. </p>
+<p>Apealea should be reconstituted using either one of the three suitable solutions for reconstitution and 
+according to the following steps: </p>
+<ol>
+<li>Take the desired number of vials from the refrigerator. The powder should be greenish-yellow 
+to yellow. In case of discolouration (orange), discard the vial. To reach room temperature, let 
+the vials stand protected from light for approximately 15 to 20 minutes not above 25  C. </li>
+<li>Due to negative pressure in the vial, pressure must be equilibrated by a needle before and during 
+injection of the solution for reconstitution. Using a sterile syringe, inject 60 mL of solution for 
+reconstitution per vial. The solution should be injected during approximately one minute 
+towards the inner wall of the vial and not directly onto the powder as this will result in foaming. </li>
+<li>Swirl the vial in an upright position for approximately for 20 seconds. To keep the generation of 
+foam to a minimum, do not shake the vial. </li>
+<li>Protect from light and allow the vial to stand for three to five minutes. </li>
+<li>Swirl the vial again in upright position for approximately 20 seconds, then gently invert it five 
+times. Do not shake. </li>
+<li>Continue to swirl the vial until the powder is completely dissolved. Alternatively, the vial may 
+be placed on a shaker and rotated for up to 20 minutes, while being protected from light (orbital 
+shake pattern; 200 250 rpm). Steps 3 to 6 should not be more than 30 minutes. </li>
+<li>The solution should be clear and greenish-yellow without visible particles or precipitates. If 
+particles, precipitates, discolouration (orange) or opalescence are observed, the solution should 
+be discarded. </li>
+<li>Inject the required amount of reconstituted Apealea into an empty, sterile ethylene-vinyl acetate 
+(EVA) bag. Ensure that the solution is clear and place a light protective-bag over the EVA 
+infusion bag. </li>
+</ol>
+<p>Shelf life after reconstitution 
+Chemical and physical in-use stability has been demonstrated for 24 hours at 2  C to 8  C in lactated 
+and acetated Ringer s solution and for 4 hours at 2  C to 8  C in sodium chloride 9 mg/mL (0.9%) 
+solution when protected from light. From a microbiological point of view, unless the method of 
+opening and reconstituting precludes the risks of microbial contamination, the product should be used 
+immediately. If not used immediately, in-use storage times and conditions are the responsibility of the 
+user. </p>
+<p>Intravenous administration<br />
+Compatibility with administration sets made of DEHP-free PVC (i.e. polyvinyl chloride without the 
+plasticizer di-(2-ethylhexyl) phthalate) has been demonstrated. However, compatibility with 
+DEHP-containing administration sets has not been demonstrated. Administration sets containing a 
+15  m polyamide fluid filter should be used. It is important to flush the infusion set and 
+catheter/cannula before and after the administration using the solution for reconstitution in order to 
+avoid accidental administration into the surrounding tissue and to ensure administration of the 
+complete dose. </p>
+<p>Disposal<br />
+Any unused medicinal product or waste material should be disposed of in accordance with local 
+requirements. </p>         </div>"""      
 

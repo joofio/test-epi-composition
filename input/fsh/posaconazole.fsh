@@ -4,7 +4,7 @@ Instance: composition-en-2e5fc8a9ad9427a49a8dfdfc9d19d676
 InstanceOf: CompositionUvEpi
 Title: "Composition for posaconazole Package Leaflet"
 Description:  "Composition for posaconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,30 +69,34 @@ Usage: #example
   * code.text =  "1. What posaconazole is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Posaconazole AHCL contains a medicine called posaconazole. This belongs to a group of medicines 
-called “antifungals”. It is used to prevent and treat many different fungal infections. </p>
+called  antifungals . It is used to prevent and treat many different fungal infections. </p>
 <p>This medicine works by killing or stopping the growth of some types of fungi that can cause 
 infections. </p>
 <p>Posaconazole AHCL can be used in adults to treat the following types of fungal infections when other 
-antifungal medicines have not worked or you have had to stop taking them: 
-- infections caused by fungi of the Aspergillus family that have not improved during treatment 
+antifungal medicines have not worked or you have had to stop taking them:</p>
+<ul>
+<li>infections caused by fungi of the Aspergillus family that have not improved during treatment 
 with the anti-fungal medicines amphotericin B or itraconazole or when these medicines have 
-had to be stopped; 
-- infections caused by fungi of the Fusarium family that have not improved during treatment with 
-amphotericin B or when amphotericin B has had to be stopped; 
-- infections caused by fungi that cause the conditions known as “chromoblastomycosis” and 
-“mycetoma” that have not improved during treatment with itraconazole or when itraconazole 
-has had to be stopped; 
-- infections caused by a fungus called Coccidioides that have not improved during treatment with 
+had to be stopped; </li>
+<li>infections caused by fungi of the Fusarium family that have not improved during treatment with 
+amphotericin B or when amphotericin B has had to be stopped; </li>
+<li>infections caused by fungi that cause the conditions known as  chromoblastomycosis  and 
+ mycetoma  that have not improved during treatment with itraconazole or when itraconazole 
+has had to be stopped; </li>
+<li>infections caused by a fungus called Coccidioides that have not improved during treatment with 
 one or more of amphotericin B, itraconazole or fluconazole or when these medicines have had 
-to be stopped. 
-- infections in the mouth or throat area (known as “thrush”) caused by fungi called Candida, 
-which were not previously treated. </p>
+to be stopped. </li>
+<li>infections in the mouth or throat area (known as  thrush ) caused by fungi called Candida, 
+which were not previously treated. </li>
+</ul>
 <p>This medicine can also be used to prevent fungal infections in adults who are at high risk of getting a 
-fungal infection, such as: 
-- patients who have a weak immune system due to having chemotherapy for “acute myelogenous 
-leukaemia” (AML) or “myelodysplastic syndromes” (MDS) 
-- patients having “high- dose immunosuppressive therapy” after “hematopoietic stem cell 
-transplant” (HSCT). </p>         </div>"""   
+fungal infection, such as:</p>
+<ul>
+<li>patients who have a weak immune system due to having chemotherapy for  acute myelogenous 
+leukaemia  (AML) or  myelodysplastic syndromes  (MDS) </li>
+<li>patients having  high- dose immunosuppressive therapy  after  hematopoietic stem cell 
+transplant  (HSCT). </li>
+</ul>         </div>"""   
           
 
              
@@ -105,13 +109,13 @@ transplant” (HSCT). </p>         </div>"""
 - if you are allergic to posaconazole or any of the other ingredients of this medicine (listed in 
 section 6). 
 - if you are taking: terfenadine, astemizole, cisapride, pimozide, halofantrine, quinidine, any 
-medicines that contain “ergot alkaloids” such as ergotamine or dihydroergotamine, or a “statin” 
+medicines that contain  ergot alkaloids  such as ergotamine or dihydroergotamine, or a  statin<br />
 such as simvastatin, atorvastatin or lovastatin. 
 - if you have just started taking venetoclax or your venetoclax dose is being slowly increased for 
 treatment of chronic lymphocytic leukaemia (CLL). </p>
 <p>Do not take Posaconazole AHCL if any of the above apply to you. If you are not sure, talk to your 
 doctor or pharmacist before taking Posaconazole AHCL. </p>
-<p>See “Other medicines and Posaconazole AHCL” below for more information including information on 
+<p>See  Other medicines and Posaconazole AHCL  below for more information including information on 
 other medicines which may interact with Posaconazole AHCL. </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Posaconazole AHCL 
@@ -127,7 +131,7 @@ interval
 - if you have a very slow heartbeat 
 - if you have heart rhythm disturbance 
 - if you have any problem with potassium, magnesium or calcium levels in your blood 
-- if you are taking vincristine, vinblastine and other “vinca alkaloids” (medicines used to treat 
+- if you are taking vincristine, vinblastine and other  vinca alkaloids  (medicines used to treat 
 cancer). 
 - if you are taking venetoclax (a medicine used to treat cancer). </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse before 
@@ -140,22 +144,26 @@ Posaconazole AHCL should not be used in children and adolescents (17 years of ag
 <p>Other medicines and Posaconazole AHCL 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>Do not take Posaconazole AHCL if you are taking any of the following: 
-- terfenadine (used to treat allergies) 
-- astemizole (used to treat allergies) 
-- cisapride (used to treat stomach problems) 
-- pimozide (used to treat symptoms of Tourette's and mental illness) 
-- halofantrine (used to treat malaria) 
-- quinidine (used to treat abnormal heart rhythms). </p>
+<p>Do not take Posaconazole AHCL if you are taking any of the following:</p>
+<ul>
+<li>terfenadine (used to treat allergies) </li>
+<li>astemizole (used to treat allergies) </li>
+<li>cisapride (used to treat stomach problems) </li>
+<li>pimozide (used to treat symptoms of Tourette's and mental illness) </li>
+<li>halofantrine (used to treat malaria) </li>
+<li>quinidine (used to treat abnormal heart rhythms). </li>
+</ul>
 <p>Posaconazole AHCL can increase the amount of these medicines in the blood which may lead to very 
-serious changes to your heart rhythm: 
-- any medicines that contain “ergot alkaloids” such as ergotamine or dihydroergotamine used to 
+serious changes to your heart rhythm:</p>
+<ul>
+<li>any medicines that contain  ergot alkaloids  such as ergotamine or dihydroergotamine used to 
 treat migraines. Posaconazole AHCL can increase the amount of these medicines in the blood 
 which may lead to a severe decrease in blood flow to your fingers or toes and could cause 
-damage to them. 
-- a “statin” such as simvastatin, atorvastatin or lovastatin used to treat high cholesterol. 
-- venetoclax when used at the start of the treatment of a type of cancer, chronic lymphocytic 
-leukaemia (CLL). </p>
+damage to them. </li>
+<li>a  statin  such as simvastatin, atorvastatin or lovastatin used to treat high cholesterol. </li>
+<li>venetoclax when used at the start of the treatment of a type of cancer, chronic lymphocytic 
+leukaemia (CLL). </li>
+</ul>
 <p>Do not take Posaconazole AHCL if any of the above apply to you. If you are not sure, talk to your 
 doctor or pharmacist before taking this medicine. </p>
 <p>Other medicines 
@@ -166,35 +174,39 @@ tell your doctor about all the medicines you are taking (prescribed or non-presc
 <p>Certain medicines may increase the risk of side effects of Posaconazole AHCL by increasing the 
 amount of Posaconazole AHCL in the blood. </p>
 <p>The following medicines may decrease the effectiveness of Posaconazole AHCL by decreasing the 
-amount of Posaconazole AHCL in the blood: 
-- rifabutin and rifampicin (used to treat certain infections). If you are already taking rifabutin, you 
-will need a blood test and you will need to look out for some possible side effects of rifabutin. 
-- some medicines used to treat or prevent fits including; phenytoin, carbamazepine, phenobarbital 
-or primidone). 
-- efavirenz and fosamprenavir used to treat HIV infection. 
-- medicines used to decrease stomach acid such as cimetidine and ranitidine or omeprazole and 
-similar medicines that are called proton pump inhibitors. </p>
+amount of Posaconazole AHCL in the blood:</p>
+<ul>
+<li>rifabutin and rifampicin (used to treat certain infections). If you are already taking rifabutin, you 
+will need a blood test and you will need to look out for some possible side effects of rifabutin. </li>
+<li>some medicines used to treat or prevent fits including; phenytoin, carbamazepine, phenobarbital 
+or primidone). </li>
+<li>efavirenz and fosamprenavir used to treat HIV infection. </li>
+<li>medicines used to decrease stomach acid such as cimetidine and ranitidine or omeprazole and 
+similar medicines that are called proton pump inhibitors. </li>
+</ul>
 <p>Posaconazole AHCL may possibly increase the risk of side effects of some other medicines by 
-increasing the amount of these medicines in the blood. These medicines include: 
-- vincristine, vinblastine and other “vinca alkaloids” (used to treat cancer) 
-- venetoclax (used to treat cancer) 
-- ciclosporin (used during or after transplant surgery) 
-- tacrolimus and sirolimus (used during or after transplant surgery) 
-- rifabutin (used to treat certain infections) 
-- medicines used to treat HIV called protease inhibitors (including lopinavir and atazanavir, 
-which are given with ritonavir) 
-- midazolam, triazolam, alprazolam or other “benzodiazepines” (used as sedatives or muscle 
-relaxants) 
-- diltiazem, verapamil, nifedipine, nisoldipine or other “calcium channel blockers” (used to treat 
-high blood pressure) 
-- digoxin (used to treat heart failure) 
-- Glipizide or other “sulfonylureas” (used to treat high blood sugar) 
-- All-trans retinoic acid (ATRA), also called tretinoin (used to treat certain blood cancers). </p>
+increasing the amount of these medicines in the blood. These medicines include:</p>
+<ul>
+<li>vincristine, vinblastine and other  vinca alkaloids  (used to treat cancer) </li>
+<li>venetoclax (used to treat cancer) </li>
+<li>ciclosporin (used during or after transplant surgery) </li>
+<li>tacrolimus and sirolimus (used during or after transplant surgery) </li>
+<li>rifabutin (used to treat certain infections) </li>
+<li>medicines used to treat HIV called protease inhibitors (including lopinavir and atazanavir, 
+which are given with ritonavir) </li>
+<li>midazolam, triazolam, alprazolam or other  benzodiazepines  (used as sedatives or muscle 
+relaxants) </li>
+<li>diltiazem, verapamil, nifedipine, nisoldipine or other  calcium channel blockers  (used to treat 
+high blood pressure) </li>
+<li>digoxin (used to treat heart failure) </li>
+<li>Glipizide or other  sulfonylureas  (used to treat high blood sugar) </li>
+<li>All-trans retinoic acid (ATRA), also called tretinoin (used to treat certain blood cancers). </li>
+</ul>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor or pharmacist before taking 
 Posaconazole AHCL. </p>
 <p>Posaconazole AHCL with food and drink 
 To improve absorption of posaconazole, whenever possible it should be taken during or immediately 
-after food or a nutritional drink (see section 3 “How to take Posaconazole AHCL”). There is no 
+after food or a nutritional drink (see section 3  How to take Posaconazole AHCL ). There is no 
 information on the effect of alcohol on posaconazole." </p>
 <p>Pregnancy and breast-feeding 
 Tell your doctor if you are or think you are pregnant before you start to take Posaconazole AHCL. 
@@ -213,7 +225,7 @@ Posaconazole AHCL contains approximately 1.75 g of glucose per 5 mL of suspensio
 been told by your doctor that you have an intolerance to some sugars, contact your doctor before 
 taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 5 mL of suspension, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take posaconazole"
@@ -270,12 +282,14 @@ for a forgotten dose. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Serious side effects 
 Tell your doctor, pharmacist or nurse straight away if you notice any of the following serious 
-side effects – you may need urgent medical treatment: 
-- nausea or vomit (feeling or being sick), diarrhoea 
-- signs of liver problems - these include yellowing of your skin or whites of the eyes, unusually 
+side effects   you may need urgent medical treatment:</p>
+<ul>
+<li>nausea or vomit (feeling or being sick), diarrhoea </li>
+<li>signs of liver problems - these include yellowing of your skin or whites of the eyes, unusually 
 dark urine or pale faeces, feeling sick for no reason, stomach problems, loss of appetite or 
-unusual tiredness or weakness, an increase in liver enzymes shown up in blood tests 
-- allergic reaction. </p>
+unusual tiredness or weakness, an increase in liver enzymes shown up in blood tests </li>
+<li>allergic reaction. </li>
+</ul>
 <p>Other side effects 
 Tell your doctor, pharmacist or nurse if you notice any of the following side effects: </p>
 <p>Common: the following may affect up to 1 in 10 people 
@@ -283,12 +297,12 @@ Tell your doctor, pharmacist or nurse if you notice any of the following side ef
 weak 
 - abnormal skin sensations, such as numbness, tingling, itching, creeping, pricking or burning 
 - headache 
-- low potassium levels – shown up in blood tests 
-- low magnesium levels – shown up in blood tests 
+- low potassium levels   shown up in blood tests 
+- low magnesium levels   shown up in blood tests 
 - high blood pressure 
 - loss of appetite, stomach pain or upset stomach, passing wind, dry mouth, changes in your taste 
 - heartburn (a burning sensation in the chest rising up to the throat) 
-- low levels of “neutrophils” a type of white blood cell (neutropenia) –this can make you more 
+- low levels of  neutrophils  a type of white blood cell (neutropenia)  this can make you more 
 likely to get infections and be shown up in blood tests 
 - fever 
 - feeling weak, dizzy, tired or sleepy 
@@ -299,24 +313,24 @@ likely to get infections and be shown up in blood tests
 <p>Uncommon: the following may affect up to 1 in 100 people 
 - anaemia - signs include headaches, feeling tired or dizzy, being short of breath or looking pale 
 and a low level of haemoglobin shown up in blood tests 
-- low level of platelets (thrombocytopenia) shown in blood tests – this may lead to bleeding 
-- low level of “leukocytes” a type of white blood cell (leukopenia) shown in blood tests – this can 
+- low level of platelets (thrombocytopenia) shown in blood tests   this may lead to bleeding 
+- low level of  leukocytes  a type of white blood cell (leukopenia) shown in blood tests   this can 
 make you more likely to get infections 
-- high level of “eosinophils” a type of white blood cell (eosinophilia) – this can happen if you 
+- high level of  eosinophils  a type of white blood cell (eosinophilia)   this can happen if you 
 have inflammation 
 - inflammation of the blood vessels 
 - heart rhythm problems 
 - fits (convulsions) 
 - nerve damage (neuropathy) 
-- abnormal heart rhythm – shown up on a heart trace (ECG), palpitations, slow or fast heartbeat, 
+- abnormal heart rhythm   shown up on a heart trace (ECG), palpitations, slow or fast heartbeat, 
 high or low blood pressure 
 - low blood pressure 
-- inflammation of the pancreas (pancreatitis) – this may cause severe stomach pain 
+- inflammation of the pancreas (pancreatitis)   this may cause severe stomach pain 
 - oxygen supply to the spleen is interrupted (splenic infarction) - this may cause severe stomach 
 pain 
-- severe kidney problems – signs include passing more or less urine, that is a different colour than 
+- severe kidney problems   signs include passing more or less urine, that is a different colour than 
 usual 
-- high blood levels of creatinine – shown in blood tests 
+- high blood levels of creatinine   shown in blood tests 
 - cough, hiccups 
 - nose bleeds 
 - severe sharp chest pain when breathing in (pleuritic pain) 
@@ -345,7 +359,7 @@ usual
 - belching 
 - feeling jittery </p>
 <p>Rare: the following may affect up to 1 in 1,000 people 
-- pneumonia – signs include feeling short of breath and producing discoloured phlegm 
+- pneumonia   signs include feeling short of breath and producing discoloured phlegm 
 - high blood pressure in the blood vessels in the lungs (pulmonary hypertension) this can cause 
 serious damage to your lungs and heart 
 - blood problems such as unusual blood clotting or prolonged bleeding 
@@ -354,30 +368,30 @@ serious damage to your lungs and heart
 - fainting 
 - having problems thinking or talking, having jerking movements, especially in your hands that 
 you cannot control 
-- stroke – signs include pain, weakness, numbness, or tingling in the limbs 
+- stroke   signs include pain, weakness, numbness, or tingling in the limbs 
 - having a blind or dark spot in your field of vision 
 - heart failure or heart attack which could lead to the heart stopping beating and death, heart 
 rhythm problems, with sudden death 
-- blood clots in your legs (deep vein thrombosis) – signs include intense pain or swelling of the 
+- blood clots in your legs (deep vein thrombosis)   signs include intense pain or swelling of the 
 legs 
-- blood clots in your lungs (pulmonary embolism) – signs include feeling short of breath or pain 
+- blood clots in your lungs (pulmonary embolism)   signs include feeling short of breath or pain 
 while breathing 
-- bleeding into your stomach or gut – signs include vomiting blood or passing blood in your stool 
-- a blockage in your gut (intestinal obstruction) especially in the “ileum”. The blockage will 
+- bleeding into your stomach or gut   signs include vomiting blood or passing blood in your stool 
+- a blockage in your gut (intestinal obstruction) especially in the  ileum . The blockage will 
 prevent the contents of your intestine from passing through to the lower bowel signs include 
 feeling bloated, vomiting, severe constipation, loss of appetite, and cramps 
-- “haemolytic uraemic syndrome” when red blood cells breakup (hemolysis) which may happen 
+-  haemolytic uraemic syndrome  when red blood cells breakup (hemolysis) which may happen 
 with or without kidney failure 
-- “pancytopenia” low level of all blood cells (red and white blood cells and platelets) shown in 
+-  pancytopenia  low level of all blood cells (red and white blood cells and platelets) shown in 
 blood tests 
 - large purple discolourations on the skin (thrombotic thrombocytopenic purpura) 
 - swelling of the face or tongue 
 - depression 
 - double vision 
 - breast pain 
-- adrenal glands not working properly – this may cause weakness, tiredness, loss of appetite, skin 
+- adrenal glands not working properly   this may cause weakness, tiredness, loss of appetite, skin 
 discolouration 
-- pituitary gland not working properly – this may cause low blood levels of some hormones that 
+- pituitary gland not working properly   this may cause low blood levels of some hormones that 
 affect the function of the male or female sex organs 
 - hearing problems 
 - pseudoaldosteronism, which results in high blood pressure with a low potassium level (shown in 
@@ -396,16 +410,18 @@ safety of this medicine.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store posaconazole"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the label. The expiry date refers 
-to the last day of that month. 
-- This medicinal product does not require any special storage conditions. 
-- If you have any suspension left in a bottle more than 30 days after it was first opened, you 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the label. The expiry date refers 
+to the last day of that month. </li>
+<li>This medicinal product does not require any special storage conditions. </li>
+<li>If you have any suspension left in a bottle more than 30 days after it was first opened, you 
 should not use this medicine. Please return the bottle containing any leftover suspension to your 
-pharmacist. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+pharmacist. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]

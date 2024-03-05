@@ -4,7 +4,7 @@ Instance: composition-en-c01e0605e2e3c43213448cfeba0686aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for paxlovid Package Leaflet"
 Description:  "Composition for paxlovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,55 +88,59 @@ and may prevent you from developing severe illness. </p>
 - if you are allergic to nirmatrelvir, ritonavir or any of the other ingredients of Paxlovid (listed in 
 section 6).<br />
 - if you are taking any of the following medicines. Taking Paxlovid with these medicines may 
-cause serious or life-threatening side effects or affect how Paxlovid works: 
-- Alfuzosin (used to treat symptoms of an enlarged prostate)<br />
-- Ranolazine (used to treat chronic chest pain [angina]) 
-- Dronedarone, propafenone, quinidine (used to treat heart conditions and correct irregular 
-heartbeats) 
-- Rifampicin, rifapentine (used to treat bacterial infections) 
-- Apalutamide, neratinib, venetoclax (used to treat cancer) 
-- Carbamazepine, phenobarbital, phenytoin, primidone (used to prevent and control 
-seizures) 
-- Colchicine (used to treat gout) 
-- Terfenadine (used to treat allergies) 
-- Lurasidone (used to treat schizophrenia)<br />
-- Pimozide, quetiapine (used to treat schizophrenia, bipolar disorder, severe depression and 
-abnormal thoughts or feelings) 
-- Silodosin (used to treat enlarged prostate gland) 
-- Eplerenone and ivabradine (used to treat heart and/or blood vessel problems) 
-- Dihydroergotamine and ergotamine (used to treat migraine headaches)<br />
-- Ergonovine and methylergonovine (used to stop excessive bleeding that may occur 
-following childbirth or an abortion) 
-- Cisapride (used to relieve certain stomach problems) 
-- St. John’s wort (Hypericum perforatum) (a herbal remedy used for depression and 
-anxiety) 
-- Voclosporin (used to treat immune disorders) 
-- Lovastatin, simvastatin, lomitapide (used to lower blood cholesterol) 
-- Eletriptan (used to treat migraine headaches) 
-- Lumacaftor/ivacaftor (used for cystic fibrosis) 
-- Finerenone (used to treat chronic kidney disease associated with Type 2 diabetes) 
-- Naloxegol (used to treat opioid-induced constipation) 
-- Avanafil, vardenafil (used to treat erectile dysfunction [also known as impotence]) 
-- Sildenafil, tadalafil (used to treat erectile dysfunction [also known as impotence] or 
-pulmonary arterial hypertension [high blood pressure in the pulmonary artery]) 
-- Clorazepate, diazepam, estazolam, flurazepam, triazolam, midazolam taken orally (used to 
-relieve anxiety and/or trouble sleeping) 
-- Tolvaptan used to treat hyponatremia (low sodium levels in the blood) </p>
+cause serious or life-threatening side effects or affect how Paxlovid works:</p>
+<ul>
+<li>Alfuzosin (used to treat symptoms of an enlarged prostate)  </li>
+<li>Ranolazine (used to treat chronic chest pain [angina]) </li>
+<li>Dronedarone, propafenone, quinidine (used to treat heart conditions and correct irregular 
+heartbeats) </li>
+<li>Rifampicin, rifapentine (used to treat bacterial infections) </li>
+<li>Apalutamide, neratinib, venetoclax (used to treat cancer) </li>
+<li>Carbamazepine, phenobarbital, phenytoin, primidone (used to prevent and control 
+seizures) </li>
+<li>Colchicine (used to treat gout) </li>
+<li>Terfenadine (used to treat allergies) </li>
+<li>Lurasidone (used to treat schizophrenia)  </li>
+<li>Pimozide, quetiapine (used to treat schizophrenia, bipolar disorder, severe depression and 
+abnormal thoughts or feelings) </li>
+<li>Silodosin (used to treat enlarged prostate gland) </li>
+<li>Eplerenone and ivabradine (used to treat heart and/or blood vessel problems) </li>
+<li>Dihydroergotamine and ergotamine (used to treat migraine headaches)  </li>
+<li>Ergonovine and methylergonovine (used to stop excessive bleeding that may occur 
+following childbirth or an abortion) </li>
+<li>Cisapride (used to relieve certain stomach problems) </li>
+<li>St. John s wort (Hypericum perforatum) (a herbal remedy used for depression and 
+anxiety) </li>
+<li>Voclosporin (used to treat immune disorders) </li>
+<li>Lovastatin, simvastatin, lomitapide (used to lower blood cholesterol) </li>
+<li>Eletriptan (used to treat migraine headaches) </li>
+<li>Lumacaftor/ivacaftor (used for cystic fibrosis) </li>
+<li>Finerenone (used to treat chronic kidney disease associated with Type 2 diabetes) </li>
+<li>Naloxegol (used to treat opioid-induced constipation) </li>
+<li>Avanafil, vardenafil (used to treat erectile dysfunction [also known as impotence]) </li>
+<li>Sildenafil, tadalafil (used to treat erectile dysfunction [also known as impotence] or 
+pulmonary arterial hypertension [high blood pressure in the pulmonary artery]) </li>
+<li>Clorazepate, diazepam, estazolam, flurazepam, triazolam, midazolam taken orally (used to 
+relieve anxiety and/or trouble sleeping) </li>
+<li>Tolvaptan used to treat hyponatremia (low sodium levels in the blood) </li>
+</ul>
 <p>Warnings and precautions  </p>
 <p>Allergic reactions 
-Allergic reactions, including severe allergic reactions (known as ‘anaphylaxis’) and serious skin 
-reactions (known as ‘toxic epidermal necrolysis’ and ‘Stevens-Johnson syndrome’), can happen in 
+Allergic reactions, including severe allergic reactions (known as  anaphylaxis ) and serious skin 
+reactions (known as  toxic epidermal necrolysis  and  Stevens-Johnson syndrome ), can happen in 
 people taking Paxlovid, even after only 1 dose. Stop taking Paxlovid and call your doctor right away if 
-you get any of the following symptoms of an allergic reaction:<br />
-- trouble swallowing or breathing<br />
-- swelling of the tongue, mouth, and face<br />
-- throat tightness<br />
-- hoarseness<br />
-- itching 
-- skin rash 
-- red and painful skin 
-- blisters and peeling skin 
-- blisters or sores in your mouth or lips </p>
+you get any of the following symptoms of an allergic reaction:</p>
+<ul>
+<li>trouble swallowing or breathing  </li>
+<li>swelling of the tongue, mouth, and face  </li>
+<li>throat tightness  </li>
+<li>hoarseness  </li>
+<li>itching </li>
+<li>skin rash </li>
+<li>red and painful skin </li>
+<li>blisters and peeling skin </li>
+<li>blisters or sores in your mouth or lips </li>
+</ul>
 <p>Liver disease 
 Tell your doctor if you have or have had a liver disease. Liver enzyme abnormalities, hepatitis and 
 jaundice have occurred in patients receiving ritonavir. </p>
@@ -154,7 +158,7 @@ Do not give Paxlovid to children and adolescents under 18 years because Paxlovid
 studied in children and adolescents. </p>
 <p>Other medicines and Paxlovid 
 There are other medicines that may not be taken together with Paxlovid. Tell your doctor(s) or 
-pharmacist if you are taking, have recently taken or might take any other medicines:  </p>
+pharmacist if you are taking, have recently taken or might take any other medicines:</p>
 <ul>
 <li>medicines used to treat cancer, such as afatinib, abemaciclib, ceritinib, dasatinib, encorafenib, 
 fostamatinib, ibrutinib, ivosidenib, nilotinib, vinblastine and vincristine </li>
@@ -164,7 +168,7 @@ apixaban </li>
 <li>medicines used for smoking cessation, such as bupropion  </li>
 <li>medicines used to treat allergies, such as fexofenadine and loratadine </li>
 <li>medicines used to treat fungal infections (antifungals), such as itraconazole and voriconazole  </li>
-<li>medicines used to treat Cushing’s syndrome—when the body produces an excess of cortisol—
+<li>medicines used to treat Cushing s syndrome when the body produces an excess of cortisol 
 such as ketoconazole tablets </li>
 <li>medicines used to treat HIV infection, such as efavirenz, maraviroc, raltegravir, zidovudine and 
 bictegravir/emtricitabine/tenofovir </li>
@@ -211,8 +215,12 @@ pulmonary disease [COPD], such as salmeterol and theophylline </li>
 paroxetine and sertraline </li>
 <li>medicines used as thyroid replacement therapy, such as levothyroxine </li>
 <li>medicine used to treat enlarged prostate, such as tamsulosin </li>
-<li>any of the following other specific medicines: </li>
-<li>oral or patch contraceptive containing ethinyl estradiol used to prevent pregnancy </li>
+<li>
+<p>any of the following other specific medicines:</p>
+</li>
+<li>
+<p>oral or patch contraceptive containing ethinyl estradiol used to prevent pregnancy </p>
+</li>
 <li>midazolam administered by injection (used for sedation [an awake but very relaxed state of 
 calm or drowsiness during a medical test or procedure] or anaesthesia) </li>
 </ul>
@@ -286,9 +294,9 @@ Even if you feel better, do not stop taking Paxlovid without talking to your doc
 - Muscle pain 
 - Skin rash (also reported as part of allergic reaction) </p>
 <p>Rare: may affect up to 1 in 1000 people 
-- Severe allergic reaction known as ‘anaphylaxis’ (such as swelling of tongue, mouth and face, 
+- Severe allergic reaction known as  anaphylaxis  (such as swelling of tongue, mouth and face, 
 trouble swallowing or breathing, throat tightness, or hoarseness) 
-- Serious skin reactions known as ‘toxic epidermal necrolysis’ and ‘Stevens-Johnson syndrome’ 
+- Serious skin reactions known as  toxic epidermal necrolysis  and  Stevens-Johnson syndrome<br />
 (such as red and painful skin, blisters and peeling skin, blisters or sores in your mouth or lips) 
 - Malaise 
 - Itching (also reported as part of allergic reaction) </p>
@@ -304,7 +312,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store paxlovid"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or the blister after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the carton or the blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -321,137 +329,12 @@ throw away medicines you no longer use. These measures will help protect the env
 - Each pink film-coated nirmatrelvir tablet contains 150 mg of nirmatrelvir.<br />
 - Each white film-coated ritonavir tablet contains 100 mg of ritonavir. 
 - The other ingredients in the nirmatrelvir tablet are microcrystalline cellulose, lactose 
-monohydrate (see section 2, ‘Paxlovid contains lactose’), croscarmellose sodium, colloidal 
-silicon dioxide and sodium stearyl fumarate (see section 2, ‘Paxlovid contains sodium’). The 
+monohydrate (see section 2,  Paxlovid contains lactose ), croscarmellose sodium, colloidal 
+silicon dioxide and sodium stearyl fumarate (see section 2,  Paxlovid contains sodium ). The 
 film-coating contains hydroxypropyl methylcellulose, titanium dioxide, polyethylene glycol and 
 iron oxide red. 
 - The other ingredients in the ritonavir tablet are copovidone, sorbitan laurate, colloidal 
 anhydrous silica, anhydrous calcium hydrogen phosphate, sodium stearyl fumarate. The 
 film-coating contains hypromellose, titanium dioxide, macrogol, hydroxypropyl cellulose, talc, 
-colloidal anhydrous silica and polysorbate 80.<br />
-What Paxlovid looks like and contents of the pack 
-Paxlovid film-coated tablets are available in 5 daily-dose blister cards with a total of 30 tablets 
-packaged in a carton.  </p>
-<p>Each daily blister card contains 4 nirmatrelvir tablets (150 mg each) and 2 ritonavir tablets (100 mg 
-each) and indicates which tablets need to be taken in the morning and evening (sun and moon 
-symbols). </p>
-<p>Nirmatrelvir 150 mg film-coated tablets are pink, oval-shaped and debossed with ‘PFE’ on one side 
-and ‘3CL’ on the other side. </p>
-<p>Ritonavir 100 mg film-coated tablets are white to off white, capsule shaped, and debossed with ‘H’ on 
-one side and ‘R9’ on the other side. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Pfizer Europe MA EEIG 
-Boulevard de la Plaine 1050 Brussels 
-Belgium </p>
-<p>Manufacturer </p>
-<p>Pfizer Manufacturing Deutschland GmbH<br />
-Betriebsstätte Freiburg 
-Mooswaldallee 1 
-79090 Freiburg 
-Germany </p>
-<p>Pfizer Italia S.r.L. 
-Localita Marino del Tronto 
-63100 Ascoli, Piceno<br />
-Italy </p>
-<p>Pfizer Ireland Pharmaceuticals<br />
-Little Connell<br />
-Newbridge 
-Ireland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
-Luxembourg/Luxemburg<br />
-Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
-Lietuva 
-Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 5 251 4 
-България 
-Пфайзер Люксембург САРЛ, Клон 
-България 
-Teл.: +359 2 970 4 
-Magyarország 
-Pfizer Kft. 
-Tel.: + 36 1 488 37 Česká republika 
-Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Malta 
-Vivian Corporation Ltd. 
-Tel: +356 21344 
-Danmark 
-Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Nederland 
-Pfizer bv 
-Tel: +31 (0)800 63 34 Deutschland 
-PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Norge 
-Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
-Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
-Österreich 
-Pfizer Corporation Austria Ges.m.b.H 
-Tel: +43 (0)1 521 15-0  </p>
-<p>Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ: +30 210 6785 
-Polska 
-Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61 00  </p>
-<p>España 
-Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal 
-Laboratórios Pfizer, Lda. 
-Tel: +351 21 423 5500  </p>
-<p>France 
-Pfizer 
-Tél: +33 (0)1 58 07 34<br />
-România 
-Pfizer Romania S.R.L 
-Tel: +40 (0) 21 207 28 00  </p>
-<p>Hrvatska 
-Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
-Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
-farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11 400  </p>
-<p>Ireland 
-Pfizer Healthcare Ireland 
-Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, 
-organizačná zložka 
-Tel: + 421 2 3355 5500  </p>
-<p>Ísland 
-Icepharma hf. 
-Sími: +354 540 8 
-Suomi/Finland 
-Pfizer Oy 
-Puh/Tel: +358 (0)9 430 040  </p>
-<p>Italia 
-Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Sverige 
-Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Κύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
-Tηλ: +357 22817United Kingdom (Northern Ireland) 
-Pfizer Limited 
-Tel: +44 (0) 1304 616 
-Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
-Tel: + 371 670 35  </p>
-<p>This leaflet was last revised in  </p>
-<p>Scan the code with a mobile device to get the package leaflet in different languages.  </p>
-<p>URL: https://pfi.sr/c19oralrx </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+colloidal anhydrous silica and polysorbate 8</p>         </div>"""      
 

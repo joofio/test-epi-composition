@@ -4,7 +4,7 @@ Instance: composition-en-20187f2efcc8af1ff62d82a63aba8a40
 InstanceOf: CompositionUvEpi
 Title: "Composition for samsca Package Leaflet"
 Description:  "Composition for samsca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,8 +75,8 @@ by reducing urine output. Antagonist means that it prevents vasopressin having i
 retention. This leads to a reduction in the amount of water in the body by increasing urine production 
 and as a result it increases the level or concentration of sodium in your blood. </p>
 <p>Samsca is used to treat low serum sodium levels in adults. You have been prescribed this medicine 
-because you have a lowered sodium level in your blood as a result of a disease called “syndrome of 
-inappropriate antidiuretic hormone secretion” (SIADH) where the kidneys retain too much water. This 
+because you have a lowered sodium level in your blood as a result of a disease called  syndrome of 
+inappropriate antidiuretic hormone secretion  (SIADH) where the kidneys retain too much water. This 
 disease causes an inappropriate production of the hormone vasopressin which has caused the sodium 
 levels in your blood to get too low (hyponatremia). That can lead to difficulties in concentration and 
 memory, or in keeping your balance. </p>         </div>"""   
@@ -93,7 +93,7 @@ memory, or in keeping your balance. </p>         </div>"""
 section 6) or if you are allergic to benzazepine or benzazepine derivatives (e.g., benazepril, 
 conivaptan, fenoldopam mesylate or mirtazapine) 
 * if your kidneys do not work (no urine production) 
-* if you have a condition which increases the salt in your blood (“hypernatremia”) 
+* if you have a condition which increases the salt in your blood ( hypernatremia ) 
 * if you have a condition which is associated with a very low blood volume 
 * if you do not realise when you are thirsty 
 * if you are pregnant 
@@ -265,20 +265,20 @@ Each Samsca 30 mg tablet contains 30 mg tolvaptan. </p>
 hydroxypropylcellulose, magnesium stearate, indigo carmine aluminium lake (E 132). </li>
 </ul>
 <p>What Samsca looks like and contents of the pack 
-Samsca 7.5 mg: Blue, rectangular, shallow-convex tablets with dimensions of 7.7 × 4.35 × 2.5 mm, 
-debossed with “OTSUKA” and “7.5” on one side. 
-Samsca 15 mg: Blue, triangular, shallow-convex tablets with dimensions of 6.58 × 6.2 × 2.7 mm, 
-debossed with “OTSUKA” and “15” on one side. 
-Samsca 30 mg: Blue, round, shallow-convex tablets with dimensions of Ø8 × 3.0 mm, debossed with 
-“OTSUKA” and “30” on one side. </p>
+Samsca 7.5 mg: Blue, rectangular, shallow-convex tablets with dimensions of 7.7   4.35   2.5 mm, 
+debossed with  OTSUKA  and  7.5  on one side. 
+Samsca 15 mg: Blue, triangular, shallow-convex tablets with dimensions of 6.58   6.2   2.7 mm, 
+debossed with  OTSUKA  and  15  on one side. 
+Samsca 30 mg: Blue, round, shallow-convex tablets with dimensions of  8   3.0 mm, debossed with 
+ OTSUKA  and  30  on one side. </p>
 <p>Samsca 7.5 mg tablets are available as 
 10 tablets in PP/Alu blisters 
 30 tablets in PP/Alu blisters 
-10 × 1 tablet in PVC/Alu perforated unit dose blisters 
-30 × 1 tablet in PVC/Alu perforated unit dose blisters </p>
+10   1 tablet in PVC/Alu perforated unit dose blisters 
+30   1 tablet in PVC/Alu perforated unit dose blisters </p>
 <p>Samsca 15 mg and Samsca 30 mg tablets are available as 
-10 × 1 tablet in PVC/Alu perforated unit dose blisters 
-30 × 1 tablet in PVC/Alu perforated unit dose blisters </p>
+10   1 tablet in PVC/Alu perforated unit dose blisters 
+30   1 tablet in PVC/Alu perforated unit dose blisters </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Otsuka Pharmaceutical Netherlands B.V. 
@@ -289,20 +289,20 @@ Millmount Healthcare Limited
 Block-7, City North Business Campus, Stamullen, Co. Meath, K32 YDIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tél/Tel: +31 (0) 20 85 46<br />
+T l/Tel: +31 (0) 20 85 46<br />
 Lietuva 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 България 
+Tel: +31 (0) 20 85 46 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-Teл: +31 (0) 20 85 46<br />
+Te : +31 (0) 20 85 46<br />
 Luxembourg/Luxemburg 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel/ Tél: +31 (0) 20 85 46 Česká republika 
+Tel/ T l: +31 (0) 20 85 46  esk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
-Magyarország 
+Magyarorsz g 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Danmark 
 Otsuka Pharma Scandinavia AB 
@@ -319,26 +319,25 @@ Tel: +31 (0) 20 85 46 Eesti
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Norge 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46854 528<br />
-Ελλάδα 
-Otsuka Pharmaceutical Netherlands B.V. 
-Thλ: +31 (0) 20 85 46<br />
-Österreich 
+Tlf: +46854 528  </p>
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Th : +31 (0) 20 85 46<br />
+ sterreich 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
-España 
+Espa a 
 Otsuka Pharmaceutical S.A 
 Tel: +3493 2081<br />
 Polska 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 France 
 Otsuka Pharmaceutical France SAS 
-Tél: +33147 080<br />
+T l: +33147 080<br />
 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 România 
+Tel: +31 (0) 20 85 46 Rom nia 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
 Ireland 
@@ -346,20 +345,19 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46<br />
 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 Ísland 
+Tel: +31 (0) 20 85 46  sland 
 Otsuka Pharma Scandinavia AB 
-Sími: +46854 528<br />
-Slovenská republika 
+S mi: +46854 528<br />
+Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Italia 
 Otsuka Pharmaceutical Italy S.r.l. 
 Tel: +39 02 00 63 27<br />
 Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
-Tel/ Puh: +46854 528<br />
-Κύπρος 
-Otsuka Pharmaceutical Netherlands B.V. 
-Thλ: +31 (0) 20 85 46<br />
+Tel/ Puh: +46854 528  </p>
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Th : +31 (0) 20 85 46<br />
 Sverige 
 Otsuka Pharma Scandinavia AB 
 Tel: +46854 528<br />

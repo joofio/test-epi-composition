@@ -4,7 +4,7 @@ Instance: composition-en-81e7ff6268dfde3de233f5f0af119c35
 InstanceOf: CompositionUvEpi
 Title: "Composition for foclivia Package Leaflet"
 Description:  "Composition for foclivia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,12 +56,11 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
  
 1. What Foclivia is and what it is used for 
-2. What you need to know before you receive Foclivia 
+2. What you need to know before you receive  Foclivia 
 3. How Foclivia is given 
 4. Possible side effects 
 5. How to store Foclivia 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +73,7 @@ Usage: #example
 decades. It spreads rapidly around the world. The signs of pandemic flu are similar to those of 
 ordinary flu but may be more serious. </p>
 <p>It is for use in  to prevent flu caused by the H5N1 type of the virus. </p>
-<p>When a person is given the vaccine, the body’s natural defence system (immune system) produces its 
+<p>When a person is given the vaccine, the body s natural defence system (immune system) produces its 
 own protection (antibodies) against the disease. None of the ingredients in the vaccine can cause flu. </p>
 <p>As with all vaccines, Foclivia may not fully protect all persons who are vaccinated. </p>         </div>"""   
           
@@ -85,18 +84,20 @@ own protection (antibodies) against the disease. None of the ingredients in the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take foclivia"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Foclivia should not be given if you: 
-- have experienced serious allergic reaction (i.e. life-threatening) to any of the constituents of Foclivia, 
-- are allergic (hypersensitive) to influenza vaccines or any of the ingredients of Foclivia, 
-- are allergic to eggs, chicken protein, ovalbumin, 
-- are allergic to kanamycin sulphate and neomycin sulphate (antibiotics), formaldehyde, 
-hydrocortisone, cetyltrimethylammonium bromide (CTAB). 
-- Signs of an allergic reaction may include itchy skin rash, shortness of breath and swelling 
-of the face or tongue. 
-- However, in a pandemic situation, you may still be given the vaccine. This is as long as 
-medical treatment is available straight away, in case you have an allergic reaction. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Foclivia should not be given if you:</p>
+<ul>
+<li>have experienced serious allergic reaction (i.e. life-threatening) to any of the constituents of Foclivia, </li>
+<li>are allergic (hypersensitive) to influenza vaccines or any of the ingredients of Foclivia, </li>
+<li>are allergic to eggs, chicken protein, ovalbumin, </li>
+<li>are allergic to kanamycin sulphate and neomycin sulphate (antibiotics), formaldehyde, 
+hydrocortisone, cetyltrimethylammonium bromide (CTAB). </li>
+<li>Signs of an allergic reaction may include itchy skin rash, shortness of breath and swelling 
+of the face or tongue. </li>
+<li>However, in a pandemic situation, you may still be given the vaccine. This is as long as 
+medical treatment is available straight away, in case you have an allergic reaction. </li>
+</ul>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor or nurse before having this vaccine: </p>
+<p>Talk to your doctor or nurse before having this vaccine:</p>
 <ul>
 <li>if you feel feverish, </li>
 <li>if you have any illness or infection, </li>
@@ -127,7 +128,7 @@ If you are pregnant or breast-feeding, think you may be pregnant or are planning
 your doctor or nurse for advice before taking this vaccine. Your doctor needs to assess the benefits and 
 potential risks of giving you the vaccine.  </p>
 <p>Driving and using machines 
-Some side effects listed in Section 4. “Possible side effects” may affect your ability to drive or use 
+Some side effects listed in Section 4.  Possible side effects  may affect your ability to drive or use 
 tools or machines.  </p>
 <p>Foclivia contains sodium and potassium 
 Foclivia contains less than 1 mmol sodium (23 mg) and less than 1 mmol of potassium (39 mg) per 
@@ -151,41 +152,41 @@ depending on the muscle mass. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Foclivia can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately or go to the casualty department at your nearest hospital if you 
-experience the following side effect – you may need urgent medical attention or hospitalisation: </p>
-<p>• difficulty in breathing, dizziness, a weak and rapid pulse and skin rash which are symptoms of an 
+experience the following side effect   you may need urgent medical attention or hospitalisation: </p>
+<p>difficulty in breathing, dizziness, a weak and rapid pulse and skin rash which are symptoms of an 
 anaphylactic reaction (a very severe allergic reaction) </p>
 <p>The side effects listed below have occurred with Foclivia in clinical studies: </p>
 <p>Very common (affects more than 1 user in 10): 
-• Pain/tenderness at the site of injection 
-• Hardening of the skin at the injection site 
-• Injection site redness<br />
-• Injection site swelling 
-• Bruising of the skin at the injection site<em> 
-• Aching muscles 
-• Headache 
-• Fatigue 
-• Generally feeling unwell 
-• Shivering 
-• Sweating</em> 
-• Nausea<em> 
-• Change in eating habits</em><em> 
-• Diarrhoea 
-• Vomiting 
-• Sweating and unusual sweating</em><em> 
-• Sleepiness</em><em> 
-• Iritability</em><em> 
-• Unusual crying</em><em> 
-• Fever</em><strong> 
+  Pain/tenderness at the site of injection 
+  Hardening of the skin at the injection site 
+  Injection site redness<br />
+  Injection site swelling 
+  Bruising of the skin at the injection site<em> 
+  Aching muscles 
+  Headache 
+  Fatigue 
+  Generally feeling unwell 
+  Shivering 
+  Sweating</em> 
+  Nausea<em> 
+  Change in eating habits</em><em> 
+  Diarrhoea 
+  Vomiting 
+  Sweating and unusual sweating</em><em> 
+  Sleepiness</em><em> 
+  Iritability</em><em> 
+  Unusual crying</em><em> 
+  Fever</em><strong> 
 <em>Reported as, Common, in adults and elderly 
 ** Reported only in infants and young children 6-35 months of age 
 </em></strong>Reported as Very common only in children 6 months-8 years. Reported as Common in adolescents and adults 
 9-60 years of age and Uncommon in eldery (over 61 years) </p>
 <p>Common (affects 1 to 10 users in 100): 
-• Aching joints<br />
-• Injection site bleeding 
-• Loss of appetite </p>
+  Aching joints<br />
+  Injection site bleeding 
+  Loss of appetite </p>
 <p>Uncommon (affects 1 to 10 users in 1000) 
-• Hives (Urticaria) </p>
+  Hives (Urticaria) </p>
 <p>These side effects are usually mild and disappear within 3 days without treatment. If they persist, 
 CONSULT YOUR DOCTOR. </p>
 <p>Undesirable effects in patients with underlying long term medical problems such as diabetes, lung 
@@ -244,7 +245,7 @@ problems). </li>
 <li>Erythema multiforme (type of allergic skin reaction that occurs in response to medications, 
 infections, or illness). </li>
 <li>Neurological disorders such as encephalomyelitis (inflammation of the central nervous system), 
-and a type of paralysis known as Guillain-Barré Syndrome. </li>
+and a type of paralysis known as Guillain-Barr  Syndrome. </li>
 <li>Swelling, pain and redness at the injection site extending to more than 10 cm and lasting more 
 than one week (Injection site cellulitis-like reaction). </li>
 <li>Extensive swelling of injected limb lasting more than one week. </li>
@@ -263,7 +264,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use Foclivia after the expiry date which is stated on the carton and the label after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. Discard if the vaccine has been frozen. Store in the 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. Discard if the vaccine has been frozen. Store in the 
 original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -279,7 +280,7 @@ throw away medicines you no longer use. These measures will help to protect the 
 <li>Active substance: 
 The active ingredients of the vaccine are purified viral proteins (called haemagglutinin and 
 neuraminidase). They are isolated from the surface of influenza virus particles, which are grown in 
-fertilised hen’s eggs from healthy chicken flocks and inactivated with formaldehyde. These viral 
+fertilised hen s eggs from healthy chicken flocks and inactivated with formaldehyde. These viral 
 proteins are prepared from the strain of influenza virus that complies with the World Health 
 Organisation recommendations and EU decision in an officially declared Pandemic situation. </li>
 </ul>
@@ -289,7 +290,7 @@ following recommended influenza virus strain: </p>
 <ul>
 <li>
 <p>Adjuvant: 
-The vaccine contains an ‘adjuvant’ (a compound containing squalene) to stimulate a better response. 
+The vaccine contains an  adjuvant  (a compound containing squalene) to stimulate a better response. 
 The adjuvant includes also polysorbate 80 and sorbitan trioleate in a citrate buffer (sodium citrate, 
 citric acid). </p>
 </li>
@@ -315,7 +316,7 @@ Seqirus Netherlands B.V.
 Paasheuvelweg 1105BJ Amsterdam 
 Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Foclivia has been authorised under “Exceptional Circumstances”. 
+<p>Foclivia has been authorised under  Exceptional Circumstances . 
 This means that for scientific reasons, it has not been possible to obtain complete information on this 
 medicinal product. The European Medicines Agency (EMA) will review any new information on the 
 medicine every year and this leaflet will be updated as necessary. </p>

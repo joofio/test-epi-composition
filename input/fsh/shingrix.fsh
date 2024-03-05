@@ -4,7 +4,7 @@ Instance: composition-en-85904308e7b268e4375d9d3d2cf40f57
 InstanceOf: CompositionUvEpi
 Title: "Composition for shingrix Package Leaflet"
 Description:  "Composition for shingrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,7 +55,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
 1. What Shingrix is and what it is used for  
-2. What you need to know before you receive Shingrix  
+2. What you need to know before you receive  Shingrix  
 3. How Shingrix is given 
 4. Possible side effects  
 5. How to store Shingrix  
@@ -72,28 +72,28 @@ Usage: #example
 Shingrix is a vaccine that helps to protect adults against shingles (herpes zoster) and post-herpetic 
 neuralgia (PHN), the long-lasting nerve pain that follows shingles. </p>
 <p>Shingrix is given to:<br />
-• adults 50 years and above; 
-• adults 18 years and above who are at increased risk of shingles. </p>
+  adults 50 years and above; 
+  adults 18 years and above who are at increased risk of shingles. </p>
 <p>Shingrix cannot be used to prevent chickenpox (varicella). </p>
 <p>What shingles is 
 * Shingles is a rash with blisters that is often painful. It usually occurs in one part of the body and 
 can last for several weeks. 
 * Shingles is caused by the same virus that causes chickenpox.<br />
 * After you have had chickenpox, the virus that caused it stays in your body in nerve cells. 
-* Sometimes, after many years, if your immune system (the body’s natural defences) becomes 
+* Sometimes, after many years, if your immune system (the body s natural defences) becomes 
 weaker (due to age, an illness or a medicine you are taking), the virus can cause shingles. </p>
 <p>Complications related to shingles 
 Shingles may lead to complications.<br />
 The most common complication of shingles is: 
-* long-lasting nerve pain – called post-herpetic neuralgia or PHN. After the shingles blisters heal, 
+* long-lasting nerve pain   called post-herpetic neuralgia or PHN. After the shingles blisters heal, 
 you may get pain which can last for months or years and may be severe. 
 Other complications of shingles are: 
 * scars where the blisters have been. 
-* skin infections, weakness, muscle paralysis and loss of hearing or vision – these are less 
+* skin infections, weakness, muscle paralysis and loss of hearing or vision   these are less 
 common. </p>
 <p>How Shingrix works 
 Shingrix reminds your body about the virus that causes shingles. This helps your immune system (the 
-body’s natural defences) stay prepared to fight the virus and protect you against shingles and its 
+body s natural defences) stay prepared to fight the virus and protect you against shingles and its 
 complications. </p>         </div>"""   
           
 
@@ -122,8 +122,8 @@ with a previous injection. </p>
 <p>Shingrix cannot be used as a treatment if you already have shingles or shingles-related complications. </p>
 <p>As with all vaccines, Shingrix may not fully protect all people who are vaccinated. </p>
 <p>Talk to your doctor if you experience temporary inflammation of the nerves, causing pain, weakness, 
-and paralysis (called Guillain-Barré syndrome) after receiving Shingrix. A slightly increased risk of 
-Guillain-Barré syndrome (estimated 3 additional cases per million doses administered) has been 
+and paralysis (called Guillain-Barr  syndrome) after receiving Shingrix. A slightly increased risk of 
+Guillain-Barr  syndrome (estimated 3 additional cases per million doses administered) has been 
 reported in people aged 65 years and above after receiving Shingrix. </p>
 <p>Other medicines and Shingrix 
 Tell your doctor or pharmacist if you are taking or have recently taken or might take any other 
@@ -141,25 +141,27 @@ when a COVID-19 mRNA vaccine is given at the same time as Shingrix.  </p>
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before you are given this vaccine. </p>
 <p>Driving and using machines 
-Some of the effects mentioned below in section 4 “Possible side effects” may temporarily affect the 
+Some of the effects mentioned below in section 4  Possible side effects  may temporarily affect the 
 ability to drive or use machines. Do not drive or use machines if you are feeling unwell. </p>
 <p>Shingrix contains sodium and potassium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’.<br />
+ sodium-free .<br />
 This medicine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially 
-‘potassium-free’. </p>         </div>"""   
+ potassium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take shingrix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take shingrix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Shingrix is given as an injection into a muscle (usually in the upper arm). 
-* You will receive 2 injections 2 months apart. If flexibility in the vaccination schedule is 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Shingrix is given as an injection into a muscle (usually in the upper arm). </li>
+<li>You will receive 2 injections 2 months apart. If flexibility in the vaccination schedule is 
 necessary, the second dose can be administered between 2 and 6 months after the first dose.<br />
 Based on your medical condition, your doctor may also recommend that you receive the second 
-injection 1 month after the first injection.<br />
-* You will be informed when you should come back for the second dose of Shingrix. </p>
+injection 1 month after the first injection.  </li>
+<li>You will be informed when you should come back for the second dose of Shingrix. </li>
+</ul>
 <p>Make sure you finish the complete vaccination course. This will maximise the protection offered by 
 Shingrix. </p>
 <p>Shingrix can be given if you have already been vaccinated with a live attenuated herpes zoster 
@@ -192,8 +194,8 @@ vaccine. Speak to your doctor for more information. </p>         </div>"""
 may cause difficulty in swallowing or breathing (angioedema) </p>
 <p>Most of these side effects are mild to moderate in intensity and are not long-lasting. </p>
 <p>Immunocompromised adults aged 18-49 years may experience more side effects compared to 
-immunocompromised adults aged ≥ 50 years. </p>
-<p>Adults aged 50-69 years may experience more side effects compared to adults aged ≥ 70 years. </p>
+immunocompromised adults aged   50 years. </p>
+<p>Adults aged 50-69 years may experience more side effects compared to adults aged   70 years. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -208,7 +210,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the label and carton. The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -230,22 +232,20 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>2 adjuvanted with AS01B containing: </p>
 <p>plant extract Quillaja saponaria Molina, fraction 21 (QS-21) 
 50 micrograms </p>
-<p>3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella minnesota </p>
+<p>3-O-desacyl-4 -monophosphoryl lipid A (MPL) from Salmonella minnesota </p>
 <p>50 micrograms </p>
 <p>The glycoprotein E is a protein present in the Varicella Zoster Virus. This protein is not 
 infectious. </p>
-<p>The adjuvant (AS01B) is used to improve the body’s response to the vaccine. </p>
+<p>The adjuvant (AS01B) is used to improve the body s response to the vaccine. </p>
 <ul>
 <li>The other ingredients are: </li>
-</ul>
-<p>o 
-Powder: Sucrose, polysorbate 80 (E 433), sodium dihydrogen phosphate dihydrate (E 339), 
-dipotassium phosphate (E 340). 
-o 
+<li>Powder: Sucrose, polysorbate 80 (E 433), sodium dihydrogen phosphate dihydrate (E 339), 
+dipotassium phosphate (E 340). * 
 Suspension: Dioleoyl phosphatidylcholine (E 322), cholesterol, sodium chloride, disodium 
 phosphate anhydrous (E 339), potassium dihydrogen phosphate (E 340) and water for 
 injections. 
-See Section 2 “Shingrix contains sodium and potassium”. </p>
+See Section 2  Shingrix contains sodium and potassium . </li>
+</ul>
 <p>What Shingrix looks like and contents of the pack </p>
 <p>Powder and suspension for suspension for injection. The powder is white. 
 The suspension is an opalescent, colourless to pale brownish liquid. </p>
@@ -256,25 +256,24 @@ The suspension is an opalescent, colourless to pale brownish liquid. </p>
 <p>Not all pack sizes may be marketed </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>GlaxoSmithKline Biologicals s.a. 
-Rue de l’Institut B-1330 Rixensart 
+Rue de l Institut B-1330 Rixensart 
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 10 85 52<br />
+T l/Tel: + 32 10 85 52<br />
 Lietuva 
 GlaxoSmithKline Biologicals SA 
 Tel: +370 80000 </p>
-<p>България 
-GlaxoSmithKline Biologicals SA<br />
-Тел. +359 80018 </p>
+<p>GlaxoSmithKline Biologicals SA<br />
+ . +359 80018 </p>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 10 85 52 Česká republika 
+T l/Tel: + 32 10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 GlaxoSmithKline Biologicals SA 
 Tel.: +36 80088 
 Danmark 
@@ -294,13 +293,13 @@ GlaxoSmithKline Biologicals SA
 Tel: +372 8002 </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20 Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E 
-Tηλ: + 30 210 68 82 Österreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E 
+T : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 </p>
 <p>at.info@gsk.com  </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com  </p>
 <p>Polska 
@@ -308,14 +307,14 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (22) 576 9 
 France 
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0) 1 39 17 84 diam@gsk.com </p>
+T l: + 33 (0) 1 39 17 84 diam@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline Biologicals SA 
 Tel.: +385 800787 
 Portugal 
-GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
-<p>România 
+<p>Rom nia 
 GlaxoSmithKline Biologicals SA 
 Tel: +40 800672 
 Ireland 
@@ -324,10 +323,10 @@ Tel: + 353 (0)1 495 5
 Slovenija 
 GlaxoSmithKline Biologicals SA 
 Tel: +386 80688 </p>
-<p>Ísland 
+<p>sland 
 Vistor hf.<br />
-Sími: +354 535 7000  </p>
-<p>Slovenská republika 
+S mi: +354 535 7000  </p>
+<p>Slovensk  republika 
 GlaxoSmithKline Biologicals SA 
 Tel.: +421 800500 </p>
 <p>Italia 
@@ -336,9 +335,8 @@ Tel: + 39 (0)45 7741  </p>
 <p>Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 10 30 30  </p>
-<p>Κύπρος 
-GlaxoSmithKline Biologicals SA 
-Τηλ: +357 80070 </p>
+<p>GlaxoSmithKline Biologicals SA 
+ : +357 80070 </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

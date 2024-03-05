@@ -4,7 +4,7 @@ Instance: composition-en-b118a8011d0099eb4bb6c4b864ba44c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tevimbra Package Leaflet"
 Description:  "Composition for tevimbra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tevimbra is a cancer medicine that contains the active substance tislelizumab. It is a monoclonal 
 antibody, a type of protein that is designed to recognise and attach to a specific target in the body 
 called programmed death-1 receptor (PD-1) which is found on the surface of T and B cells (types of 
-white blood cells that form part of the immune system, the body’s natural defences). When PD-1 is 
+white blood cells that form part of the immune system, the body s natural defences). When PD-1 is 
 activated by cancer cells it can switch off the activity of T cells. By blocking PD-1, Tevimbra prevents 
 it from switching off your T cells which helps your immune system fight the cancer. </p>
 <p>Tevimbra is used in adults to treat: 
@@ -93,53 +93,56 @@ you, ask your doctor. </p>         </div>"""
 - if you are allergic to tislelizumab or any of the other ingredients of this medicine (listed in 
 section 6). Talk to your doctor if you are not sure. </p>
 <p>Warnings and precautions 
-Talk to your doctor before you are given Tevimbra if you have or have had: 
-- autoimmune disease (a condition where the body’s own defence system attacks normal cells) 
-- inflammation of the liver (hepatitis) or other liver problems 
-- inflammation of the kidney (nephritis) 
-- pneumonia or inflammation of the lungs (pneumonitis) 
-- inflammation of the large bowel (colitis) 
-- serious rash 
-- problems with hormone-producing glands (including the adrenal, pituitary and thyroid glands) 
-- type 1 diabetes mellitus 
-- a solid organ transplant 
-- infusion-related reaction 
+Talk to your doctor before you are given Tevimbra if you have or have had:</p>
+<ul>
+<li>autoimmune disease (a condition where the body s own defence system attacks normal cells) </li>
+<li>inflammation of the liver (hepatitis) or other liver problems </li>
+<li>inflammation of the kidney (nephritis) </li>
+<li>pneumonia or inflammation of the lungs (pneumonitis) </li>
+<li>inflammation of the large bowel (colitis) </li>
+<li>serious rash </li>
+<li>problems with hormone-producing glands (including the adrenal, pituitary and thyroid glands) </li>
+<li>type 1 diabetes mellitus </li>
+<li>a solid organ transplant </li>
+<li>infusion-related reaction 
 If any of the above apply to you, or you are not sure, talk to your doctor before you are given 
-Tevimbra. </p>
+Tevimbra. </li>
+</ul>
 <p>Look out for serious side effects 
 Tevimbra can have serious side effects, which can sometimes become life-threatening and can lead to 
 death. Tell your doctor immediately if you get any of these serious side effects during treatment with 
-Tevimbra: 
-- inflammation of the liver (hepatitis) or other liver problems 
-- inflammation of the kidney (nephritis) 
-- inflammation of the lungs (pneumonitis) 
-- inflammation of the large bowel (colitis) 
-- severe skin reactions: symptoms may include fever, flu-like symptoms, rash, itching, skin 
-blistering or ulcers in the mouth or on other moist surfaces 
-- problems with hormone-producing glands (especially the adrenal, pituitary or thyroid glands): 
+Tevimbra:</p>
+<ul>
+<li>inflammation of the liver (hepatitis) or other liver problems </li>
+<li>inflammation of the kidney (nephritis) </li>
+<li>inflammation of the lungs (pneumonitis) </li>
+<li>inflammation of the large bowel (colitis) </li>
+<li>severe skin reactions: symptoms may include fever, flu-like symptoms, rash, itching, skin 
+blistering or ulcers in the mouth or on other moist surfaces </li>
+<li>problems with hormone-producing glands (especially the adrenal, pituitary or thyroid glands): 
 symptoms may include fast heart rate, extreme tiredness, weight gain or weight loss, dizziness 
 or fainting, hair loss, feeling cold, constipation, headaches that will not go away or unusual 
-headaches 
-- type 1 diabetes mellitus 
-- infusion-related reaction 
-- inflammation of the muscles (myositis) 
-- inflammation of the heart muscle (myocarditis) 
-- inflammation of the joints (arthritis) 
-- inflammatory disorder that causes muscle pain and stiffness, especially in the shoulders and hips 
+headaches </li>
+<li>type 1 diabetes mellitus </li>
+<li>infusion-related reaction </li>
+<li>inflammation of the muscles (myositis) </li>
+<li>inflammation of the heart muscle (myocarditis) </li>
+<li>inflammation of the joints (arthritis) </li>
+<li>inflammatory disorder that causes muscle pain and stiffness, especially in the shoulders and hips 
 (polymyalgia rheumatica): symptoms may include pain in the shoulders, neck, upper arms, 
 buttocks, hips or thighs, stiffness in affected areas, pain or stiffness in the wrists, elbows or 
-knees 
-- inflammation of the membrane around the heart (pericarditis) 
-- inflammation of the nerves: symptoms may include pain, weakness and paralysis in the 
-extremities (Guillain-Barré syndrome) </p>
-<p>➢ 
-For more information on the symptoms of any of the above, read section 4 (“Possible side 
-effects”). Talk to your doctor if you have any questions or concerns. </p>
+knees </li>
+<li>inflammation of the membrane around the heart (pericarditis) </li>
+<li>inflammation of the nerves: symptoms may include pain, weakness and paralysis in the 
+extremities (Guillain-Barr  syndrome) </li>
+</ul>
+<p>For more information on the symptoms of any of the above, read section 4 ( Possible side 
+effects ). Talk to your doctor if you have any questions or concerns. </p>
 <p>Patient Card 
 You will also find key information from this package leaflet in the Patient Card that you have been 
 given by your doctor. It is important that you carry the Patient Card with you at all times and show it 
 to a healthcare professional in case of signs and symptoms that may indicate immune-related adverse 
-reactions (listed above under “Look out for serious side effects”), for a prompt diagnosis and adequate 
+reactions (listed above under  Look out for serious side effects ), for a prompt diagnosis and adequate 
 treatment. </p>
 <p>Monitoring during your treatment with Tevimbra 
 Your doctor will carry out regular tests (liver function tests, kidney function tests, radiographic 
@@ -205,8 +208,8 @@ unless you have discussed this with your doctor. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Some of the side effects of Tevimbra may be serious (see the list under “Look out for serious side 
-effects” in section 2 of this leaflet). If you experience any of these serious side effects, tell your 
+<p>Some of the side effects of Tevimbra may be serious (see the list under  Look out for serious side 
+effects  in section 2 of this leaflet). If you experience any of these serious side effects, tell your 
 doctor immediately. </p>
 <p>The following side effects have been reported with Tevimbra alone: </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -232,15 +235,15 @@ yellowing of the skin and eyes, indicating liver problems
 lymphopenia) 
 - Feeling sick (nausea), vomiting, loss of appetite, pain on the right side of the stomach, 
 yellowing of the skin or the whites of the eyes, drowsiness, dark-coloured urine, bleeding or 
-bruising more easily than normal – possible symptoms of liver problems (hepatitis) 
+bruising more easily than normal   possible symptoms of liver problems (hepatitis) 
 - Joint pain (arthralgia) 
 - Muscle pain (myalgia) 
 - Shortness of breath, cough or chest pain - possible symptoms of lung problems (pneumonitis) 
-- Fatigue, swelling at the base of the neck, pain in front of the throat – possible symptoms of 
+- Fatigue, swelling at the base of the neck, pain in front of the throat   possible symptoms of 
 thyroid gland problems (thyroiditis) 
 - Increased blood sugar level, thirst, dry mouth, need to pass urine more frequently, tiredness, 
 increased appetite with weight loss, confusion, nausea, vomiting, fruity smelling breath, 
-difficulty breathing and dry or flushed skin – possible symptoms of hyperglycaemia 
+difficulty breathing and dry or flushed skin   possible symptoms of hyperglycaemia 
 - Tiredness, confusion, muscle twitching, convulsions (hyponatraemia) 
 - Muscle weakness, muscle spasms, abnormal heart rhythm (hypokalaemia) 
 - Overactive thyroid gland, which can cause hyperactivity, sweating, weight loss and thirst 
@@ -252,30 +255,30 @@ difficulty breathing and dry or flushed skin – possible symptoms of hyperglyca
 - High blood level of the enzyme creatine kinase 
 - High blood level of creatinine </p>
 <p>Uncommon (may affect up to 1 in every 100 people) 
-- Changes in the amount or colour of the urine, pain while urinating, pain in kidney area – 
+- Changes in the amount or colour of the urine, pain while urinating, pain in kidney area <br />
 possible symptoms of kidney problems (nephritis) 
 - Diarrhoea or more bowel movements than normal, black tarry, sticky stools, blood or mucus in 
-stools, severe pain or tenderness in the stomach – possible symptoms of intestine problems 
+stools, severe pain or tenderness in the stomach   possible symptoms of intestine problems 
 (colitis) 
-- Severe upper stomach pain, nausea, vomiting, fever, tender abdomen – possible symptoms of 
+- Severe upper stomach pain, nausea, vomiting, fever, tender abdomen   possible symptoms of 
 pancreas problems (pancreatitis) 
 - High blood sugar, feeling more hungry or thirsty than normal, passing urine more often than 
 normal - possible symptoms of diabetes mellitus 
-- Muscle pain, stiffness, weakness, chest pain or severe tiredness – possible symptoms of muscle 
+- Muscle pain, stiffness, weakness, chest pain or severe tiredness   possible symptoms of muscle 
 problems (myositis) 
 - Chest pain, rapid or abnormal heartbeat, shortness of breath at rest or during activity, fluid 
 build-up with swelling of the legs, ankles and feet, tiredness - possible symptoms of heart 
 muscle problems (myocarditis) 
-- Joint pain, stiffness, swelling or redness, decreased range of motion in the joints – possible 
+- Joint pain, stiffness, swelling or redness, decreased range of motion in the joints   possible 
 symptoms of joint problems (arthritis) 
 - Eye redness, eye pain and swelling - possible symptoms of problems affecting the uvea, the 
 layer beneath the white of the eyeball (uveitis) 
 - Adrenal insufficiency (disorder in which the adrenal glands do not make enough of certain 
 hormones) 
 - Inflammation of the nerves: symptoms may include pain, weakness and paralysis in the 
-extremities (Guillain-Barré syndrome) 
+extremities (Guillain-Barr  syndrome) 
 - Chills or shaking, itching or rash, flushing, shortness of breath or wheezing, dizziness or fever 
-which may occur during infusion or up to 24 hours after infusion – possible symptoms of 
+which may occur during infusion or up to 24 hours after infusion   possible symptoms of 
 infusion-related reaction 
 - Low blood level of leukocytes 
 - High blood levels of haemoglobin, potassium and sodium 
@@ -302,13 +305,13 @@ product correctly. The following information is intended for healthcare professi
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). </p>
+<p>Store in a refrigerator (2 C to 8 C). </p>
 <p>Do not freeze. </p>
 <p>Store in the original carton in order to protect from light. </p>
 <p>Tevimbra does not contain a preservative. Chemical and physical in-use stability has been 
-demonstrated for 24 hours at 2°C to 8°C. The 24 hours include storage of the diluted solution under 
-refrigeration (2°C to 8°C) for no more than 20 hours, time required for returning to room temperature 
-(25°C or below) and time to complete the infusion within 4 hours. </p>
+demonstrated for 24 hours at 2 C to 8 C. The 24 hours include storage of the diluted solution under 
+refrigeration (2 C to 8 C) for no more than 20 hours, time required for returning to room temperature 
+(25 C or below) and time to complete the infusion within 4 hours. </p>
 <p>From a microbiological point of view, unless the method of dilution precludes the risk of microbial 
 contamination, the product should be used immediately. </p>
 <p>If not used immediately, in-use storage times and conditions are the responsibility of the user. The 
@@ -326,7 +329,7 @@ material should be disposed of in accordance with local requirements. </p>      
 - The active substance is tislelizumab. Each ml of concentrate for solution for infusion contains 
 10 mg of tislelizumab. 
 - Each vial contains 100 mg of tislelizumab in 10 ml of concentrate. </p>
-<p>The other ingredients are sodium citrate dihydrate (see section 2, “Tevimbra contains sodium”), citric 
+<p>The other ingredients are sodium citrate dihydrate (see section 2,  Tevimbra contains sodium ), citric 
 acid monohydrate, L-histidine hydrochloride monohydrate, L-histidine, trehalose dihydrate, 
 polysorbate 20 and water for injections. </p>
 <p>What Tevimbra looks like and contents of the pack 
@@ -340,7 +343,7 @@ Dublin 2
 D02 TIreland 
 Tel. +353 1 566 7E-mail:  bg.ireland@beigene.com  </p>
 <p>Manufacturer 
-Novartis Farmacéutica, S.A. 
+Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 

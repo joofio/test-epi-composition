@@ -4,7 +4,7 @@ Instance: composition-en-082e15b5bc22cfe8d68c67168679c322
 InstanceOf: CompositionUvEpi
 Title: "Composition for duavive Package Leaflet"
 Description:  "Composition for duavive Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ called selective oestrogen receptor modulators (SERMs).  </p>
 natural period in the last 12 months. </p>
 <p>DUAVIVE is used for: </p>
 <p>Relief of symptoms occurring after menopause </p>
-<p>During the menopause, the amount of the oestrogen produced by a woman’s body drops. This can 
+<p>During the menopause, the amount of the oestrogen produced by a woman s body drops. This can 
 cause symptoms such as hot face, neck and chest ("hot flushes"). DUAVIVE alleviates these 
 symptoms after menopause. You will only be prescribed this medicine if your symptoms seriously 
 hinder your daily life and your doctor determines that other types of HRT are not appropriate for you. </p>         </div>"""   
@@ -94,17 +94,15 @@ hinder your daily life and your doctor determines that other types of HRT are no
 taking it, or whether to carry on taking it.  </p>
 <p>There is no experience in treating women with a premature menopause (due to ovarian failure or 
 surgery) with DUAVIVE. </p>
-<p>Before you start taking this medicine, your doctor will ask you about your own and your family’s 
+<p>Before you start taking this medicine, your doctor will ask you about your own and your family s 
 medical history. Your doctor may decide to perform a physical examination. This may include an 
 examination of your breasts and/or an internal examination, if necessary, or if you have any special 
 concerns. Tell your doctor if you have any medical problems or illnesses. </p>
 <p>Once you have started this medicine you should see your doctor for regular check-ups (at least once a 
 year). During these check-ups, discuss with your doctor the benefits and risks of continuing with 
-DUAVIVE. You are advised to: 
- 
-go for regular breast screening and cervical smear tests, as recommended by your doctor. 
- 
-regularly check your breasts for any changes such as dimpling of the skin, changes in the 
+DUAVIVE. You are advised to: </p>
+<p>go for regular breast screening and cervical smear tests, as recommended by your doctor. </p>
+<p>regularly check your breasts for any changes such as dimpling of the skin, changes in the 
 nipple, or any lumps you can see or feel. </p>
 <p>Do not take DUAVIVE<br />
 - If you are allergic to conjugated oestrogens, bazedoxifene or any of the other ingredients 
@@ -133,57 +131,36 @@ once and consult your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor before taking this medicine if you have ever had any of the following problems, as 
 these may return or become worse during treatment with DUAVIVE. If so, you should see your doctor 
-more often for check-ups: 
- 
-fibroids inside your womb 
- 
-growth of womb lining outside your womb (endometriosis) or a history of excessive growth 
-of the womb lining (endometrial hyperplasia) 
- 
-increased risk of developing blood clots [see “Blood clots in a vein (thrombosis)”] 
- 
-increased risk of getting a oestrogen-sensitive cancer (such as having a mother, sister or 
-grandmother who has had breast cancer)<br />
- 
-high blood pressure 
- 
-a liver disorder, such as a benign liver tumour 
- 
-diabetes<br />
- 
-gallstones<br />
- 
-migraine or severe headaches 
- 
-a rare disease of the immune system that affects many organs of the body (systemic lupus 
-erythematosus, SLE) 
- 
-seizures (epilepsy) 
- 
-asthma 
- 
-a disease affecting the eardrum and hearing (otosclerosis) 
- 
-a high level of fat in your blood (triglycerides) 
- 
-fluid retention due to cardiac or kidney problems </p>
+more often for check-ups: </p>
+<p>fibroids inside your womb </p>
+<p>growth of womb lining outside your womb (endometriosis) or a history of excessive growth 
+of the womb lining (endometrial hyperplasia) </p>
+<p>increased risk of developing blood clots [see  Blood clots in a vein (thrombosis) ] </p>
+<p>increased risk of getting a oestrogen-sensitive cancer (such as having a mother, sister or 
+grandmother who has had breast cancer)  </p>
+<p>high blood pressure </p>
+<p>a liver disorder, such as a benign liver tumour </p>
+<p>diabetes  </p>
+<p>gallstones  </p>
+<p>migraine or severe headaches </p>
+<p>a rare disease of the immune system that affects many organs of the body (systemic lupus 
+erythematosus, SLE) </p>
+<p>seizures (epilepsy) </p>
+<p>asthma </p>
+<p>a disease affecting the eardrum and hearing (otosclerosis) </p>
+<p>a high level of fat in your blood (triglycerides) </p>
+<p>fluid retention due to cardiac or kidney problems </p>
 <p>Stop taking DUAVIVE and see a doctor immediately </p>
-<p>If you notice any of the following: 
- 
-any of the conditions mentioned under ‘Do not take DUAVIVE’ 
- 
-yellowing of your skin or the whites of your eyes (jaundice). These may be signs of a 
-liver disease 
- 
-a large increase in your blood pressure (symptoms may be headache, tiredness, dizziness) 
- 
-migraine-like headaches which happen for the first time 
- 
-if you become pregnant 
- 
-you notice signs of a blood clot, such as painful swelling and redness of the legs, sudden 
-chest pain, or difficulty in breathing. For more information, see ‘Blood clots in a vein 
-(thrombosis)’ </p>
+<p>If you notice any of the following: </p>
+<p>any of the conditions mentioned under  Do not take DUAVIVE  </p>
+<p>yellowing of your skin or the whites of your eyes (jaundice). These may be signs of a 
+liver disease </p>
+<p>a large increase in your blood pressure (symptoms may be headache, tiredness, dizziness) </p>
+<p>migraine-like headaches which happen for the first time </p>
+<p>if you become pregnant </p>
+<p>you notice signs of a blood clot, such as painful swelling and redness of the legs, sudden 
+chest pain, or difficulty in breathing. For more information, see  Blood clots in a vein 
+(thrombosis)  </p>
 <p>DUAVIVE and cancer  </p>
 <p>Excessive thickening of the lining of the womb (endometrial hyperplasia) and cancer of the lining 
 of the womb (endometrial cancer) 
@@ -200,13 +177,10 @@ persist for 10 years or more if you have used HRT for more than 5 years. </p>
 <p>The effect of DUAVIVE on the risk of breast cancer might be in the same range as with 
 oestrogen-progestin combination HRT. </p>
 <p>Regularly check your breasts. See your doctor as soon as possible if you notice any changes, such 
-as: 
- 
-dimpling of the skin 
- 
-changes in the nipple 
- 
-any lumps you can see or feel </p>
+as: </p>
+<p>dimpling of the skin </p>
+<p>changes in the nipple </p>
+<p>any lumps you can see or feel </p>
 <p>Ovarian cancer 
 Ovarian cancer is rare-much rarer than breast cancer. The use of oestrogen-only HRT has been 
 associated with a slightly increased risk of ovarian cancer. </p>
@@ -223,21 +197,15 @@ deep vein thrombosis, or DVT), especially during the first year of taking these 
 <p>Blood clots can be serious, and if one travels to the lungs, it can cause chest pain, breathlessness, 
 collapse or even death. </p>
 <p>Since you are more likely to get a blood clot in your veins as you get older and if any of the following 
-applies to you, inform your doctor promptly: 
- 
-if you are unable to walk for a long time because of major surgery, injury or illness (see 
-also section 3, if you need to have surgery) 
- 
-if you are seriously overweight (BMI &gt;30 kg/m2) 
- 
-if you have any blood clotting problem that needs long-term treatment with a medicine 
-used to prevent blood clots 
- 
-if any of your close relatives has ever had a blood clot in the leg, lung or another organ 
- 
-if you have systemic lupus erythematosus (SLE). 
- 
-if you have cancer. </p>
+applies to you, inform your doctor promptly: </p>
+<p>if you are unable to walk for a long time because of major surgery, injury or illness (see 
+also section 3, if you need to have surgery) </p>
+<p>if you are seriously overweight (BMI &gt;30 kg/m2) </p>
+<p>if you have any blood clotting problem that needs long-term treatment with a medicine 
+used to prevent blood clots </p>
+<p>if any of your close relatives has ever had a blood clot in the leg, lung or another organ </p>
+<p>if you have systemic lupus erythematosus (SLE). </p>
+<p>if you have cancer. </p>
 <p>If any of these conditions apply to you, talk to your doctor before you take this medicine. </p>
 <p>Heart disease (heart attack) 
 There is no evidence that HRT will prevent a heart attack. Randomised controlled data found no 
@@ -250,33 +218,30 @@ stroke over a 5-year period. For women in their 50s who are taking HRT, there wi
 1,000 users, over 5 years (i.e., 3 extra cases). </p>
 <p>The effect of DUAVIVE on the risk of stroke might be in the same range as with oestrogen-progestin 
 combination HRT. </p>
-<p>Other things that can increase the risk of stroke include: 
- 
-getting older 
- 
-high blood pressure 
- 
-smoking 
- 
-drinking too much alcohol 
- 
-an irregular heartbeat </p>
+<p>Other things that can increase the risk of stroke include: </p>
+<p>getting older </p>
+<p>high blood pressure </p>
+<p>smoking </p>
+<p>drinking too much alcohol </p>
+<p>an irregular heartbeat </p>
 <p>If you are having an operation  </p>
 <p>If you are going to have surgery, tell the surgeon you are taking DUAVIVE. You may need to stop 
 taking DUAVIVE about 4 to 6 weeks before the operation, to reduce the risk of a blood clot (see 
 Blood clots in a vein). Ask your doctor when you can start taking this medicine again. </p>
 <p>In case of doubt, talk to your doctor before you take this medicine. </p>
 <p>Other conditions </p>
-<p>If you have any of the following your doctor should monitor you: 
-- kidney problems 
-- pre-existing high level of fat in your blood (triglycerides) 
-- liver problems 
-- asthma 
-- seizures (epilepsy) 
-- migraine<br />
-- systemic lupus erythematosus (SLE – a rare disease of the immune system that affects 
-many organs of the body) 
-- fluid retention </p>
+<p>If you have any of the following your doctor should monitor you:</p>
+<ul>
+<li>kidney problems </li>
+<li>pre-existing high level of fat in your blood (triglycerides) </li>
+<li>liver problems </li>
+<li>asthma </li>
+<li>seizures (epilepsy) </li>
+<li>migraine  </li>
+<li>systemic lupus erythematosus (SLE   a rare disease of the immune system that affects 
+many organs of the body) </li>
+<li>fluid retention </li>
+</ul>
 <p>Oestrogen therapy will not prevent memory loss. There is some evidence of a higher risk of memory 
 loss in women who start using oestrogen therapy after the age of 65. Speak to your doctor for advice. </p>
 <p>Children and adolescents </p>
@@ -285,14 +250,11 @@ loss in women who start using oestrogen therapy after the age of 65. Speak to yo
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Some medicines may interfere with the effect of DUAVIVE. This might lead to irregular bleeding. 
-This applies to the following medicines: 
- 
-Medicines for epilepsy (such as phenobarbital, phenytoin and carbamazepine); 
- 
-Medicines for tuberculosis (such as rifampicin, rifabutin); 
- 
-Medicines for HIV infection (such as nevirapine, efavirenz, ritonavir and nelfinavir); 
- Herbal remedies containing St John’s Wort (Hypericum perforatum) </p>
+This applies to the following medicines: </p>
+<p>Medicines for epilepsy (such as phenobarbital, phenytoin and carbamazepine); </p>
+<p>Medicines for tuberculosis (such as rifampicin, rifabutin); </p>
+<p>Medicines for HIV infection (such as nevirapine, efavirenz, ritonavir and nelfinavir); 
+  Herbal remedies containing St John s Wort (Hypericum perforatum) </p>
 <p>Pregnancy and breast-feeding </p>
 <p>This medicine is for use only by postmenopausal women. Do not take this medicine if you are 
 pregnant, or if you think you might be pregnant. Do not take this medicine if you are breast-feeding. </p>
@@ -345,174 +307,108 @@ should talk to your doctor first. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop taking DUAVIVE and see a doctor immediately if you get any of the following serious side 
 effects: </p>
-<p>Uncommon: may affect 1 in 100 people 
- 
-If you begin to get migraine-like headaches, or severe headaches </p>
-<p>Rare: may affect up to 1 in 1,000 people 
- 
-Signs of a blood clot, such as painful swelling and redness of the legs, sudden chest pain 
-or difficulty in breathing.<br />
- 
-Signs of a blood clot in the eye (retinal vein), such as one sided visual disturbance 
-including loss of vision, pain and swelling of the eye especially if sudden. 
- 
-A severe allergic reaction - symptoms may include sudden wheezing and chest pain or 
+<p>Uncommon: may affect 1 in 100 people </p>
+<p>If you begin to get migraine-like headaches, or severe headaches </p>
+<p>Rare: may affect up to 1 in 1,000 people </p>
+<p>Signs of a blood clot, such as painful swelling and redness of the legs, sudden chest pain 
+or difficulty in breathing.  </p>
+<p>Signs of a blood clot in the eye (retinal vein), such as one sided visual disturbance 
+including loss of vision, pain and swelling of the eye especially if sudden. </p>
+<p>A severe allergic reaction - symptoms may include sudden wheezing and chest pain or 
 tightness, swelling of the eyelids, face, lips, mouth, tongue or throat, difficulty breathing, 
-collapse 
- 
-Swelling of the eyes, nose, lips, mouth, tongue or throat, difficulty in breathing, severe 
-dizziness or fainting, skin rash (symptoms of angioedema) 
- 
-Symptoms of pancreatitis which may include severe upper abdominal pain which may 
-spread to your back, accompanied by abdominal swelling, fever, nausea and vomiting<br />
- 
-Abrupt onset of abdominal pain and passage of bright red blood in the stool, with or without 
-diarrhoea due to sudden blockage of an artery supplying the intestines (ischaemic colitis)<br />
- 
-A heart attack - symptoms will usually include pain, including chest pain spreading to the 
+collapse </p>
+<p>Swelling of the eyes, nose, lips, mouth, tongue or throat, difficulty in breathing, severe 
+dizziness or fainting, skin rash (symptoms of angioedema) </p>
+<p>Symptoms of pancreatitis which may include severe upper abdominal pain which may 
+spread to your back, accompanied by abdominal swelling, fever, nausea and vomiting  </p>
+<p>Abrupt onset of abdominal pain and passage of bright red blood in the stool, with or without 
+diarrhoea due to sudden blockage of an artery supplying the intestines (ischaemic colitis)  </p>
+<p>A heart attack - symptoms will usually include pain, including chest pain spreading to the 
 jaw, neck and upper arm. You may feel sweaty, breathless, fatigued, nauseous and faint in 
 addition to the pain </p>
-<p>Very rare: may affect up to 1 in 10,000 people 
- 
-A large rise in your blood pressure (symptoms may be headache, tiredness, dizziness)<br />
- 
-Erythema multiforme: symptoms may include skin rash with pink-red blotches especially 
+<p>Very rare: may affect up to 1 in 10,000 people </p>
+<p>A large rise in your blood pressure (symptoms may be headache, tiredness, dizziness)  </p>
+<p>Erythema multiforme: symptoms may include skin rash with pink-red blotches especially 
 on palms of hands or soles of feet which may blister. You may also have ulcers in the 
 mouth, eyes or genitals and have a fever  </p>
-<p>Not known: frequency cannot be estimated from the available data 
- 
-Other ocular reactions (seeing sparks or flashes of light, narrowing of visual field, and 
+<p>Not known: frequency cannot be estimated from the available data </p>
+<p>Other ocular reactions (seeing sparks or flashes of light, narrowing of visual field, and 
 swelling of eye or eye lid)  </p>
 <p>Other side effects </p>
-<p>Very common: may affect more than 1 in 10 people 
- 
-Abdominal pain (stomach ache) </p>
-<p>Common: may affect 1 in 10 people 
- 
-Muscle spasms (including leg cramps) 
- 
-Constipation 
- 
-Diarrhoea 
- 
-Nausea 
- 
-Thrush (vaginal yeast infection) 
- 
-Increases in your triglyceride levels (fatty substances in the blood) </p>
-<p>Uncommon: may affect 1 in 100 people 
- 
-Gall bladder disease (e.g. gallstones, inflammation of the gall bladder (cholecystitis))  </p>
+<p>Very common: may affect more than 1 in 10 people </p>
+<p>Abdominal pain (stomach ache) </p>
+<p>Common: may affect 1 in 10 people </p>
+<p>Muscle spasms (including leg cramps) </p>
+<p>Constipation </p>
+<p>Diarrhoea </p>
+<p>Nausea </p>
+<p>Thrush (vaginal yeast infection) </p>
+<p>Increases in your triglyceride levels (fatty substances in the blood) </p>
+<p>Uncommon: may affect 1 in 100 people </p>
+<p>Gall bladder disease (e.g. gallstones, inflammation of the gall bladder (cholecystitis))  </p>
 <p>The following side effects have been observed when either conjugated oestrogens and/or bazedoxifene 
 (the active ingredients in this medicine) has been used alone and may occur also with this medicine: </p>
-<p>Very common: may affect more than 1 in 10 people 
- 
-Hot flushes 
- 
-Muscle cramps 
- 
-Visible swelling of the face, hands, legs, feet or ankles (peripheral oedema) </p>
-<p>Common: may affect 1 in 10 people 
- 
-Breast pain, breast tenderness, swollen breasts 
- 
-Discharge from the nipples 
- 
-Joint pain 
- 
-Alopecia (hair loss) 
- 
-Changes in weight (increase or decrease) 
- 
-Increases in liver enzymes (identified in routine liver function testing) 
- 
-Dry mouth 
- 
-Drowsiness 
- 
-Hives (urticaria) 
- 
-Rash 
- 
-Itching </p>
-<p>Uncommon: may affect up to 1 in 100 people 
- 
-Vaginal inflammation 
- 
-Vaginal discharge<br />
- 
-Cervical erosion found on medical examination<br />
- 
-Blood clot in the leg veins 
- 
-Blood clot in the lungs 
- 
-Blood clot in a vein at the back of the eye (retinal vein) which may lead to loss of vision 
- 
-Nausea (feeling sick) 
- 
-Headache 
- 
-Migraine 
- 
-Dizziness 
- 
-Changes in mood<br />
- 
-Feeling nervous 
- 
-Depression<br />
- 
-Memory loss (dementia) 
- 
-Changes in your interest in sex (increased or decreased libido) 
- 
-Discolouration of the skin on the face or other parts of the body 
- 
-Increase in hair growth 
- 
-Difficulty wearing contact lenses  </p>
-<p>Rare: may affect up to 1 in 1,000 people 
- 
-Pelvic pain 
- 
-Changes in breast tissue 
- 
-Vomiting 
- 
-Feeling irritable<br />
- 
-An effect on the way in which your blood sugar (glucose) levels are controlled including 
-increased glucose levels in the blood 
- 
-A worsening of asthma 
- 
-A worsening of epilepsy (seizures) 
- 
-Growth of benign meningioma, a non-cancerous tumour of the membranes around the 
+<p>Very common: may affect more than 1 in 10 people </p>
+<p>Hot flushes </p>
+<p>Muscle cramps </p>
+<p>Visible swelling of the face, hands, legs, feet or ankles (peripheral oedema) </p>
+<p>Common: may affect 1 in 10 people </p>
+<p>Breast pain, breast tenderness, swollen breasts </p>
+<p>Discharge from the nipples </p>
+<p>Joint pain </p>
+<p>Alopecia (hair loss) </p>
+<p>Changes in weight (increase or decrease) </p>
+<p>Increases in liver enzymes (identified in routine liver function testing) </p>
+<p>Dry mouth </p>
+<p>Drowsiness </p>
+<p>Hives (urticaria) </p>
+<p>Rash </p>
+<p>Itching </p>
+<p>Uncommon: may affect up to 1 in 100 people </p>
+<p>Vaginal inflammation </p>
+<p>Vaginal discharge  </p>
+<p>Cervical erosion found on medical examination  </p>
+<p>Blood clot in the leg veins </p>
+<p>Blood clot in the lungs </p>
+<p>Blood clot in a vein at the back of the eye (retinal vein) which may lead to loss of vision </p>
+<p>Nausea (feeling sick) </p>
+<p>Headache </p>
+<p>Migraine </p>
+<p>Dizziness </p>
+<p>Changes in mood  </p>
+<p>Feeling nervous </p>
+<p>Depression  </p>
+<p>Memory loss (dementia) </p>
+<p>Changes in your interest in sex (increased or decreased libido) </p>
+<p>Discolouration of the skin on the face or other parts of the body </p>
+<p>Increase in hair growth </p>
+<p>Difficulty wearing contact lenses  </p>
+<p>Rare: may affect up to 1 in 1,000 people </p>
+<p>Pelvic pain </p>
+<p>Changes in breast tissue </p>
+<p>Vomiting </p>
+<p>Feeling irritable  </p>
+<p>An effect on the way in which your blood sugar (glucose) levels are controlled including 
+increased glucose levels in the blood </p>
+<p>A worsening of asthma </p>
+<p>A worsening of epilepsy (seizures) </p>
+<p>Growth of benign meningioma, a non-cancerous tumour of the membranes around the 
 brain or spinal cord </p>
-<p>Very rare: may affect up to 1 in 10,000 people 
- 
-Painful red bumps on the skin 
- 
-A worsening of chorea (an existing neurological disorder characterised by involuntary 
-spasmodic movements of the body) 
- 
-Enlargement of hepatic haemangiomas, a benign (non-cancerous) tumour of the liver 
- 
-Low levels of blood calcium (hypocalcaemia); frequently there will be no symptoms to 
+<p>Very rare: may affect up to 1 in 10,000 people </p>
+<p>Painful red bumps on the skin </p>
+<p>A worsening of chorea (an existing neurological disorder characterised by involuntary 
+spasmodic movements of the body) </p>
+<p>Enlargement of hepatic haemangiomas, a benign (non-cancerous) tumour of the liver </p>
+<p>Low levels of blood calcium (hypocalcaemia); frequently there will be no symptoms to 
 suggest that your blood calcium is low, but when hypocalcaemia is severe you may feel 
 tired, generally unwell, depressed and become dehydrated. This may be accompanied by 
 bone pain and abdominal pain. Kidney stones may develop and cause severe pain in the 
-mid-back region (renal colic).<br />
- 
-Worsening of porphyria, a rare blood disorder which is passed down in families 
+mid-back region (renal colic).  </p>
+<p>Worsening of porphyria, a rare blood disorder which is passed down in families 
 (inherited). </p>
-<p>Not known: frequency cannot be estimated from the available data 
- 
-Palpitations (awareness of your heart beat) 
- 
-Dry eye, eye pain, visual acuity reduced, visual impairment, blepharospasm (abnormal, 
+<p>Not known: frequency cannot be estimated from the available data </p>
+<p>Palpitations (awareness of your heart beat) </p>
+<p>Dry eye, eye pain, visual acuity reduced, visual impairment, blepharospasm (abnormal, 
 involuntary blinking or spasm of the eyelids)  </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -528,7 +424,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last date of that month. </p>
-<p>Do not store above 25C. </p>
+<p>Do not store above 25 C. </p>
 <p>Store in the original package in order to protect from moisture.  </p>
 <p>After opening the blister pouch, use within 60 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -550,7 +446,7 @@ acid, hypromellose (E464), povidone (E1201), poloxamer 188, calcium phosphate, t
 (E171), macrogol (400), red iron oxide (E172), black iron oxide (E172) and propylene glycol (E1520).  </p>
 <p>What DUAVIVE looks like and contents of the pack </p>
 <p>The DUAVIVE 0.45 mg/20 mg modified-release tablet is a pink, oval-shaped, tablet marked on one 
-side with “0.45/20”. </p>
+side with  0.45/20 . </p>
 <p>The modified-release tablets are provided in PVC/Aclar/PVC blister packs containing 28 tablets. Each 
 blister pack is sealed in an aluminium foil blister pouch with an oxygen absorber. </p>
 <p>Marketing Authorisation Holder </p>
@@ -559,20 +455,19 @@ blister pack is sealed in an aluminium foil blister pouch with an oxygen absorbe
 <p>Pfizer Ireland Pharmaceuticals, Little Connell, Newbridge, County Kildare, Ireland. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België / Belgique / Belgien 
+<p>Belgi  / Belgique / Belgien 
 Luxembourg / Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62 11  </p>
+T l/Tel: +32 (0)2 554 62 11  </p>
 <p>Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 
-България 
-Пфайзер Люксембург САРЛ,<br />
-Клон България 
-Ten: +359 2 970 4 
-Magyarország 
+Tel. + 370 52 51 4 </p>
+<pre><code> ,
+</code></pre>
+<p>Ten: +359 2 970 4 
+Magyarorsz g 
 Pfizer Kft 
-Tel: +36 1 488 3Česká Republika 
+Tel: +36 1 488 3 esk  Republika 
 Pfizer, spol. s r.o.<br />
 Tel: +420-283-004- Malta 
 Vivian Corporation Ltd. 
@@ -592,43 +487,42 @@ Tlf: +47 67 526 100  </p>
 <p>Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel.: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Hellas A.E. 
-Τηλ.: +30 210 6785<br />
+<p>Pfizer Hellas A.E. 
+ .: +30 210 6785<br />
 Polska 
 Pfizer Polska Sp. z o.o.<br />
 Tel: +48 22 335 61 00  </p>
-<p>España 
+<p>Espa a 
 Organon Salud, S.L. 
 Tel.: +34 91 591 12<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: + 351 21 423 5 </p>
 <p>France 
 Pfizer<br />
 Tel +33 (0)1 58 07 34<br />
-România 
+Rom nia 
 Pfizer Romania S.R.L 
 Tel: +40 (0) 21 207 28<br />
 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: + 385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel.: + 386 (0) 1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616 </p>
-<p>Slovenská Republika 
+<p>Slovensk  Republika 
 Pfizer Luxembourg SARL,<br />
-organizačná zložka<br />
+organiza n  zlo ka<br />
 Tel: + 421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf 
 Simi: +354 540 8 
 Suomi/Finland 
@@ -640,14 +534,14 @@ Tel: +39 06 3336
 Sverige<br />
 Pfizer AB<br />
 Tel: +46 (0)8 550 520 00<br />
-Kύπρος 
+K<br />
 Pfizer Hellas (Cyprus Branch) A.E.<br />
-Τηλ: +357 22 817 
+ : +357 22 817 
 United Kingdom (Northern Ireland) 
 Pfizer Limited<br />
 Tel: +44 (0) 1304 616 
-Latvijā 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Latvij<br />
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>

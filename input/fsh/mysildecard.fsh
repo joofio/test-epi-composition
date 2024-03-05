@@ -4,7 +4,7 @@ Instance: composition-en-9585e706c3b3ccee22d99123d376fe07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysildecard Package Leaflet"
 Description:  "Composition for mysildecard Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -82,56 +82,40 @@ pressure in the blood vessels in the lungs (pulmonary arterial hypertension). </
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take mysildecard"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Mysildecard: 
- 
-if you are allergic to sildenafil or any of the other ingredients of this medicine (listed in 
-section 6). 
- 
-if you are taking medicines containing nitrates, or nitric oxide donors such as amyl nitrate 
-(“poppers”). These medicines are often given for relief of chest pain (or “angina pectoris”). 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Mysildecard: </p>
+<p>if you are allergic to sildenafil or any of the other ingredients of this medicine (listed in 
+section 6). </p>
+<p>if you are taking medicines containing nitrates, or nitric oxide donors such as amyl nitrate 
+( poppers ). These medicines are often given for relief of chest pain (or  angina pectoris ). 
 Mysildecard can cause a serious increase in the effects of these medicines. Tell your doctor if 
-you are taking any of these medicines. If you are not certain, ask your doctor or pharmacist. 
- 
-if you are taking riociguat. This drug is used to treat pulmonary arterial hypertension (i.e. high 
+you are taking any of these medicines. If you are not certain, ask your doctor or pharmacist. </p>
+<p>if you are taking riociguat. This drug is used to treat pulmonary arterial hypertension (i.e. high 
 blood pressure in the lungs) and chronic thromboembolic pulmonary hypertension (i.e. high 
 blood pressure in the lungs secondary to blood clots).PDE5 inhibitors, such as sildenafil have 
 been shown to increase the hypotensive effects of this medicine. If you are taking riociguat or 
-are unsure tell your doctor. 
- 
-if you have recently had a stroke, a heart attack or if you have severe liver disease or very low 
-blood pressure (&lt;90/50 mmHg). 
- 
-if you are taking a medicine to treat fungal infections such as ketoconazole or itraconazole or 
-medicines containing ritonavir (for HIV). 
- 
-if you have ever had loss of vision because of a problem with blood flow to the nerve in the eye 
+are unsure tell your doctor. </p>
+<p>if you have recently had a stroke, a heart attack or if you have severe liver disease or very low 
+blood pressure (&lt;90/50 mmHg). </p>
+<p>if you are taking a medicine to treat fungal infections such as ketoconazole or itraconazole or 
+medicines containing ritonavir (for HIV). </p>
+<p>if you have ever had loss of vision because of a problem with blood flow to the nerve in the eye 
 called non-arteritic anterior ischaemic optic neuropathy (NAION). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor before taking Mysildecard if you: </p>
-<p> 
-have a disease due to a blocked or narrow vein in the lungs rather than a blocked or narrow 
-artery.<br />
- 
-have a severe heart problem.<br />
- 
-have a problem with the pumping chambers of your heart.<br />
- 
-have high blood pressure in the blood vessels in the lungs.<br />
- 
-have low blood pressure at rest.<br />
- 
-lose a large amount of body fluids (dehydration) which can occur when you sweat a lot or do 
-not drink enough liquids. This can happen if you are sick with a fever, vomiting, or diarrhoea.<br />
- 
-have a rare inherited eye disease (retinitis pigmentosa).<br />
- 
-have an abnormality of red blood cells (sickle cell anaemia), cancer of blood cells (leukaemia), 
-cancer of bone marrow (multiple myeloma), or any disease or deformity of the penis.<br />
- 
-currently have a stomach ulcer, a bleeding disorder (such as haemophilia) or problems with nose 
-bleeds.<br />
- 
-take medicines for erectile dysfunction.  </p>
+<p>have a disease due to a blocked or narrow vein in the lungs rather than a blocked or narrow 
+artery.  </p>
+<p>have a severe heart problem.  </p>
+<p>have a problem with the pumping chambers of your heart.  </p>
+<p>have high blood pressure in the blood vessels in the lungs.  </p>
+<p>have low blood pressure at rest.  </p>
+<p>lose a large amount of body fluids (dehydration) which can occur when you sweat a lot or do 
+not drink enough liquids. This can happen if you are sick with a fever, vomiting, or diarrhoea.  </p>
+<p>have a rare inherited eye disease (retinitis pigmentosa).  </p>
+<p>have an abnormality of red blood cells (sickle cell anaemia), cancer of blood cells (leukaemia), 
+cancer of bone marrow (multiple myeloma), or any disease or deformity of the penis.  </p>
+<p>currently have a stomach ulcer, a bleeding disorder (such as haemophilia) or problems with nose 
+bleeds.  </p>
+<p>take medicines for erectile dysfunction.  </p>
 <p>When used to treat male erectile dysfunction (ED), the following visual side effects have been 
 reported with PDE5 inhibitors, including sildenafil at an unknown frequency; partial, sudden, 
 temporary, or permanent decrease or loss of vision in one or both eyes.  </p>
@@ -148,30 +132,22 @@ Mysildecard should not be given to children below 1 year of age. </p>
 <p>Other medicines and Mysildecard 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  </p>
-<p> 
-Medicines containing nitrates, or nitric oxide donors such as amyl nitrate (“poppers”). These 
-medicines are often given for relief of angina pectoris or “chest pain” (see section 2. Before you 
-take Mysildecard) 
- 
-Tell your doctor or pharmacist if you are already taking riociguat (see section 2). 
- 
-Therapies for pulmonary hypertension (e.g. bosentan, iloprost) 
- 
-Medicines containing St. John’s Wort (herbal medicinal product), rifampicin (used to treat 
+<p>Medicines containing nitrates, or nitric oxide donors such as amyl nitrate ( poppers ). These 
+medicines are often given for relief of angina pectoris or  chest pain  (see section 2. Before you 
+take Mysildecard) </p>
+<p>Tell your doctor or pharmacist if you are already taking riociguat (see section 2). </p>
+<p>Therapies for pulmonary hypertension (e.g. bosentan, iloprost) </p>
+<p>Medicines containing St. John s Wort (herbal medicinal product), rifampicin (used to treat 
 bacterial infections), carbamazepine, phenytoin and phenobarbital (used, among others, to treat 
-epilepsy) 
- 
-Blood thinning medicines (for example warfarin) although these did not result in any side effect. 
- 
-Medicines containing erythromycin, clarithromycin, telithromycin (these are antibiotics used to 
+epilepsy) </p>
+<p>Blood thinning medicines (for example warfarin) although these did not result in any side effect. </p>
+<p>Medicines containing erythromycin, clarithromycin, telithromycin (these are antibiotics used to 
 treat certain bacterial infections), saquinavir (for HIV) or nefazodone (for mental depression), as 
-your dose may need to be adjusted. 
- 
-Alpha-blocker therapy (e.g. doxazosin) for the treatment of high blood pressure or prostate 
+your dose may need to be adjusted. </p>
+<p>Alpha-blocker therapy (e.g. doxazosin) for the treatment of high blood pressure or prostate 
 problems, as the combination of the two medicines may cause symptoms resulting in the 
 lowering of your blood pressure (e.g. dizziness, light headedness). </p>
-<p> 
-Medicines containing sacubitril/valsartan, used to treat heart failure. </p>
+<p>Medicines containing sacubitril/valsartan, used to treat heart failure. </p>
 <p>Mysildecard with food and drink 
 You should not drink grapefruit juice while you are being treated with Mysildecard. </p>
 <p>Pregnancy and breast-feeding 
@@ -186,8 +162,8 @@ baby.   </p>
 Mysildecard can cause dizziness and can affect vision. You should be aware of how you react to the 
 medicine before you drive or use machines. </p>
 <p>Mysildecard contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mysildecard"
@@ -200,10 +176,10 @@ if you are not sure.  </p>
 without food. </p>
 <p>Use in children and adolescents 
 For children and adolescents aged 1 year to 17 years old, the recommended dose is either 10 mg three 
-times a day for children and adolescents ≤ 20 kg or 20 mg three times a day for children and 
+times a day for children and adolescents   20 kg or 20 mg three times a day for children and 
 adolescents &gt; 20 kg, taken with or without food. Higher doses should not be used in children. This 
 medicine should be used only in case of administration of 20 mg three times a day. Other 
-pharmaceutical forms may be more appropriate for administration to patients ≤ 20 kg and other 
+pharmaceutical forms may be more appropriate for administration to patients   20 kg and other 
 younger patients who are not able to swallow tablets. </p>
 <p>If you take more Mysildecard than you should 
 You should not take more medicine than your doctor tells you to.<br />
@@ -235,7 +211,7 @@ Side effects reported very commonly (may affect more than 1 in 10 people) were h
 flushing, indigestion, diarrhoea and pain in the arms or legs.  </p>
 <p>Side effects reported commonly (may affect up to 1 in 10 people) included: infection under the skin, 
 flu-like symptoms, inflammation of the sinuses, reduced number of red blood cells (anaemia), fluid 
-retention, difficulty sleeping, anxiety, migraine, shaking, “pins and needles”-like sensation, burning 
+retention, difficulty sleeping, anxiety, migraine, shaking,  pins and needles -like sensation, burning 
 sensation, reduced sense of touch, bleeding at the back of the eye, effects on vision, blurred vision and 
 light sensitivity, effects on colour vision, eye irritation, bloodshot eyes /red eyes, vertigo, bronchitis, 
 nosebleed, runny nose, cough, stuffy nose, stomach inflammation, gastroenteritis, heartburn, piles, 
@@ -288,7 +264,7 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is sildenafil. Each tablet contains 20 mg of sildenafil (as the citrate).<br />
 - The other ingredients are: 
 Tablet core: microcrystalline cellulose (PH 102), calcium hydrogen phosphate, croscarmellose 
-sodium (see section 2 ‘Mysildecard contains sodium’) 
+sodium (see section 2  Mysildecard contains sodium ) 
 and magnesium stearate. 
 Film coat: hypromellose (6mPas), titanium dioxide (E171) and triacetin. </p>
 <p>What Mysildecard looks like and contents of the pack </p>
@@ -305,7 +281,7 @@ Ireland </p>
 <p>Manufacturer: 
 Mylan Hungary Kft. 
 Mylan utca 1,<br />
-Komárom,<br />
+Kom rom,<br />
 2900,<br />
 Hungary </p>
 <p>Mylan Germany GmbH 
@@ -315,19 +291,18 @@ Hessen, 61352,<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 02 658 61<br />
+T l/Tel: + 32 02 658 61<br />
 Lietuva 
 UAB GL Pharma Vilnius 
-Tel.: +370 5 261 0България 
-Майлан ЕООД 
-Тел: +359 2 44 55 Luxembourg/Luxemburg 
+Tel.: +370 5 261 0  </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
 Tel: + 32 02 658 61 (Belgique/Belgien) 
-Česká republika 
+ esk  republika 
 Viatris CZ s.r.o 
-Tel: + 420 222 004 Magyarország 
+Tel: + 420 222 004 Magyarorsz g 
 Mylan EPD Kft 
 Tel: + 36 1 465 2Danmark 
 Viatris ApS 
@@ -341,21 +316,21 @@ Nederland
 Mylan BV 
 Tel: +31 (0)20 426 3 
 Eesti 
-G.L. Pharma Eesti OÜ 
+G.L. Pharma Eesti O<br />
 Tel.: +372 50 87 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33 Ελλάδα 
-Generics Pharma Hellas ΕΠΕ 
-Τηλ: +30 210 993 6 
-Österreich 
+Tlf: + 47 66 75 33 <br />
+Generics Pharma Hellas <br />
+ : +30 210 993 6 
+ sterreich 
 Arcana Arzneimittel GmbH 
-Tel: +43 1 416 2España 
+Tel: +43 1 416 2Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z.o.o. 
 Tel: + 48 22 546 64 France 
 Substipharm 
-Tél : +33 1 43181 
+T l : +33 1 43181 
 Portugal 
 Mylan, Lda. 
 Tel: + 351 21 412 72 Hrvatska 
@@ -364,24 +339,24 @@ Tel: +385 1 23 50<br />
 Ireland 
 Mylan Ireland Limited 
 Tel:  +353 1 8711 
-România 
+Rom nia 
 Aurobindo Pharma Romania SRL 
 Tel: 004021 361 1 
 Slovenija 
 Mylan Healthcare d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf<br />
-Sími: +354 540 8000  </p>
-<p>Slovenská republika 
+S mi: +354 540 8000  </p>
+<p>Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
 Suomi/Finland 
 Viatris Oy</p>
-<p>Tel: + 39 02 612 46Puh/Tel: +358 20 720 9Κύπρος 
+<p>Tel: + 39 02 612 46Puh/Tel: +358 20 720 9<br />
 Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7 
+ : +357 2220 7 
 Sverige 
 Viatris AB 
 Tel: + 46 (0)8 630 19 Latvija 

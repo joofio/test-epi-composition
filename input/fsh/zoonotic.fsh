@@ -4,7 +4,7 @@ Instance: composition-en-6443c4e4c2fc1ce422169262b614f1af
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoonotic Package Leaflet"
 Description:  "Composition for zoonotic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Zoonotic Influenza Vaccine Seqirus is and what it is used for 
-2. What you need to know before you receive Zoonotic Influenza Vaccine Seqirus 
+2. What you need to know before you receive  Zoonotic Influenza Vaccine Seqirus 
 3. How Zoonotic Influenza Vaccine Seqirus is given 
 4. Possible side effects 
 5. How to store Zoonotic Influenza Vaccine Seqirus 
@@ -71,18 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zoonotic Influenza Vaccine Seqirus is a vaccine for use in adults from 18 onwards, intended to be 
 given in the context of outbreaks of zoonotic influenza viruses (coming from birds) with pandemic 
-potential to prevent flu caused by viruses similar to the vaccine strain reported in section 6.  </p>
-<p>Zoonotic influenza viruses occasionally infect humans, and can cause disease ranging from mild upper 
-respiratory infection (fever and cough) to rapid progression to severe pneumonia, acute respiratory 
-distress syndrome, shock and even death. Human infections are primarily caused by contact with 
-infected animals, but do not spread easily between people. </p>
-<p>Zoonotic Influenza Vaccine Seqirus is intended also to be given when there is anticipation of a 
-possible pandemic due to the same or a similar strain. </p>
-<p>When a person is given the vaccine, the immune system (the body’s natural defence system) will 
-produce its own protection (antibodies) against the disease. None of the ingredients in the vaccine 
-can cause flu. </p>
-<p>As with all vaccines, Zoonotic Influenza Vaccine Seqirus may not fully protect all persons who are 
-vaccinated. </p>         </div>"""   
+potential to prevent flu caused by viruses similar to the vaccine strain reported in section </p>         </div>"""   
           
 
              
@@ -90,6 +79,23 @@ vaccinated. </p>         </div>"""
   * title = "2. What you need to know before you take zoonotic"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take zoonotic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zoonotic influenza viruses occasionally infect humans, and can cause disease ranging from mild upper 
+respiratory infection (fever and cough) to rapid progression to severe pneumonia, acute respiratory 
+distress syndrome, shock and even death. Human infections are primarily caused by contact with 
+infected animals, but do not spread easily between people. </p>
+<p>Zoonotic Influenza Vaccine Seqirus is intended also to be given when there is anticipation of a 
+possible pandemic due to the same or a similar strain. </p>
+<p>When a person is given the vaccine, the immune system (the body s natural defence system) will 
+produce its own protection (antibodies) against the disease. None of the ingredients in the vaccine 
+can cause flu. </p>
+<p>As with all vaccines, Zoonotic Influenza Vaccine Seqirus may not fully protect all persons who are 
+vaccinated. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zoonotic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zoonotic"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not receive Zoonotic Influenza Vaccine Seqirus: 
 * if you have previously had a sudden life-threatening allergic reaction to any ingredient of 
@@ -110,7 +116,7 @@ hydrocortisone or cetyltrimethylammonium bromide (CTAB) (see section 6. Further
 information). </p>
 </li>
 <li>
-<p>if you have a severe infection with fever (over 38°C). If this applies to you then your 
+<p>if you have a severe infection with fever (over 38 C). If this applies to you then your 
 vaccination will usually be postponed until you are feeling better. A minor infection such as a 
 cold should not be a problem, but your doctor or nurse should advise whether you could still be 
 vaccinated with Zoonotic Influenza Vaccine Seqirus. </p>
@@ -148,18 +154,15 @@ If you are pregnant or breast-feeding, think you may be pregnant or are planning
 your doctor or nurse for advice before receiving this vaccine. Your doctor needs to assess the benefits 
 and potential risks of giving you the vaccine.   </p>
 <p>Driving and using machines 
-Some effects mentioned under section 4. “Possible side effects” may affect the ability to drive or use 
+Some effects mentioned under section 4.  Possible side effects  may affect the ability to drive or use 
 machines. </p>
 <p>Zoonotic Influenza Vaccine Seqirus contains sodium and potassium. </p>
-<p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium free’. 
-This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially ‘potassium free’. </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take zoonotic"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zoonotic"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor or nurse will administer the vaccine in accordance with official recommendations. 
+<p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium free . 
+This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium free . </p>
+<ol>
+<li>How Zoonotic Influenza Vaccine Seqirusis given </li>
+</ol>
+<p>Your doctor or nurse will administer the vaccine in accordance with official recommendations. 
 The vaccine will be injected into the muscles of the upper arm (deltoid muscle). The vaccine should 
 never be given into a vein. </p>
 <p>Adults from 18 onwards: </p>
@@ -270,7 +273,7 @@ problems) </li>
 <li>Erythema multiforme (type of allergic skin reaction that occurs in response to medications, 
 infections, or illness) </li>
 <li>Neurological disorders such as encephalomyelitis (inflammation of the central nervous system), 
-and a type of paralysis known as Guillain-Barré Syndrome </li>
+and a type of paralysis known as Guillain-Barr  Syndrome </li>
 <li>Swelling, pain and redness at the injection site extending to more than 10 cm and lasting more 
 than one week (Injection site cellulitis-like reaction) </li>
 <li>Extensive swelling of injected limb lasting more than one week </li>
@@ -289,7 +292,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use Zoonotic Influenza Vaccine Seqirusafter the expiry date which is stated on the carton and 
 the label. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C).<br />
+<p>Store in a refrigerator (2 C - 8 C).<br />
 Do not freeze.<br />
 Store in the original package in order to protect from light. </p>
 <p>Do not throw any medicines via wastewater or household waste. Ask your pharmacist how to throw 
@@ -310,7 +313,7 @@ Influenza virus surface antigens (haemagglutinin and neuraminidase)* of strain: 
 per 0.5 ml dose </p>
 <ul>
 <li>
-<p>propagated in fertilised hens’ eggs from healthy chicken flocks 
+<p>propagated in fertilised hens  eggs from healthy chicken flocks 
 ** 
 expressed in microgram haemagglutinin. </p>
 </li>

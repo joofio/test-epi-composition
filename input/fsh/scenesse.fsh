@@ -4,7 +4,7 @@ Instance: composition-en-365176ec901be3a749e148c628fa3afe
 InstanceOf: CompositionUvEpi
 Title: "Composition for scenesse Package Leaflet"
 Description:  "Composition for scenesse Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What SCENESSE is and what it is used for 
-2. What you need to know before you receive SCENESSE 
+2. What you need to know before you receive  SCENESSE 
 3. How SCENESSE is given 
 4. Possible side effects 
 5. How SCENESSE is stored 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What scenesse is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SCENESSE contains the active substance afamelanotide (as acetate). Afamelanotide is a synthetic 
-form of a body hormone called alpha-melanocyte stimulating hormone (α-MSH). Afamelanotide 
+form of a body hormone called alpha-melanocyte stimulating hormone ( -MSH). Afamelanotide 
 works in a way similar to the natural hormone, by making skin cells produce eumelanin which is a 
 brown-black type of melanin pigment in the body. </p>
 <p>Afamelanotide is used to increase the tolerance to sunlight in adults with a confirmed diagnosis of 
@@ -95,22 +95,24 @@ section 6). </li>
 <li>if you have kidney problems. </li>
 </ul>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before receiving SCENESSE if you have or have ever had: 
-- heart problems or severe breathing problems; 
-- gastrointestinal problems; 
-- diabetes; 
-- Cushing’s disease (a hormone disorder where the body produces too much of the hormone 
-cortisol); 
-- Addison’s disease (a disorder of the adrenal glands causing a lack of some hormones); 
-- Peutz-Jeghers syndrome (a disorder that causes blockage of the bowel and where your hands, 
-soles of your feet and surface of your lips may have brown freckles); 
-- epilepsy (or have been told that you are at risk of having fits); 
-- anaemia (low counts of red blood cells in your blood); 
-- melanoma (an aggressive type of skin cancer), including in-situ melanoma, e.g. lentigo maligna; 
-or if you have certain inherited conditions that increase the risk of developing a melanoma; 
-- skin cancer of the types, basal cell carcinoma or squamous cell carcinoma (inclusive of 
-carcinoma in situ, e.g. Bowen’s disease), Merkel cell carcinoma or other malignant or 
-premalignant skin problems. </p>
+<p>Talk to your doctor before receiving SCENESSE if you have or have ever had:</p>
+<ul>
+<li>heart problems or severe breathing problems; </li>
+<li>gastrointestinal problems; </li>
+<li>diabetes; </li>
+<li>Cushing s disease (a hormone disorder where the body produces too much of the hormone 
+cortisol); </li>
+<li>Addison s disease (a disorder of the adrenal glands causing a lack of some hormones); </li>
+<li>Peutz-Jeghers syndrome (a disorder that causes blockage of the bowel and where your hands, 
+soles of your feet and surface of your lips may have brown freckles); </li>
+<li>epilepsy (or have been told that you are at risk of having fits); </li>
+<li>anaemia (low counts of red blood cells in your blood); </li>
+<li>melanoma (an aggressive type of skin cancer), including in-situ melanoma, e.g. lentigo maligna; 
+or if you have certain inherited conditions that increase the risk of developing a melanoma; </li>
+<li>skin cancer of the types, basal cell carcinoma or squamous cell carcinoma (inclusive of 
+carcinoma in situ, e.g. Bowen s disease), Merkel cell carcinoma or other malignant or 
+premalignant skin problems. </li>
+</ul>
 <p>Talk to your doctor before receiving SCENESSE if you are over 70 years of age. </p>
 <p>If you have ever had any of these conditions your doctor may have to monitor you more closely during 
 your treatment. </p>
@@ -178,53 +180,61 @@ by a simple surgical procedure if needed. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The following side effects are considered to be: </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- nausea (feeling sick), 
-- headache. </p>
-<p>Common (may affect up to 1 in 10 people): 
-- flu, upper respiratory tract infection (colds), 
-- general changes to the skin including darkening of freckles and moles, 
-- rash with small blisters, itch, rash, red rash, itchy rash, 
-- dizziness, drowsiness and migraine (severe headache), 
-- hot flushes, flushing, feeling hot and redness of the skin, 
-- abdominal (tummy) pain, toothache, diarrhoea and vomiting, 
-- pain in arms and legs, pain or weakness in muscles and bones, back pain, 
-- fatigue, pain, fever, reactions at the implant site including pain, bruising, swelling, bleeding, itching 
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>nausea (feeling sick), </li>
+<li>headache. </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>flu, upper respiratory tract infection (colds), </li>
+<li>general changes to the skin including darkening of freckles and moles, </li>
+<li>rash with small blisters, itch, rash, red rash, itchy rash, </li>
+<li>dizziness, drowsiness and migraine (severe headache), </li>
+<li>hot flushes, flushing, feeling hot and redness of the skin, </li>
+<li>abdominal (tummy) pain, toothache, diarrhoea and vomiting, </li>
+<li>pain in arms and legs, pain or weakness in muscles and bones, back pain, </li>
+<li>fatigue, pain, fever, reactions at the implant site including pain, bruising, swelling, bleeding, itching 
 and changes to the colour of overlying skin, flu-like illness, cough, blocked nose, inflamed nose and 
-throat. </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- urinary tract infection, infected hair follicle, infection in stomach and intestines, 
-- hypersensitivity, 
-- decreased or increased appetite, 
-- depressed mood including depression, inability to sleep, poor quality sleep, 
-- fainting, fainting sensation, weakness, inability to get legs comfortable, disturbance of balance, 
-- dry eye, eye pain, red eyes, difficulty focusing on objects, sensitivity in eyes to light, ringing in ears, 
-- palpitations, bruising, bleeding, hight blood pressure, 
-- blocked sinuses, 
-- inflamed stomach and intestines, heartburn, irritable bowel syndrome, wind, lip swelling, reduce 
-sense of touch in the mouth, gum pain, 
-- acne, eczema, red swelling on skin, dry skin, hair colour changes, excessive sweating, pigmentation 
+throat. </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>urinary tract infection, infected hair follicle, infection in stomach and intestines, </li>
+<li>hypersensitivity, </li>
+<li>decreased or increased appetite, </li>
+<li>depressed mood including depression, inability to sleep, poor quality sleep, </li>
+<li>fainting, fainting sensation, weakness, inability to get legs comfortable, disturbance of balance, </li>
+<li>dry eye, eye pain, red eyes, difficulty focusing on objects, sensitivity in eyes to light, ringing in ears, </li>
+<li>palpitations, bruising, bleeding, hight blood pressure, </li>
+<li>blocked sinuses, </li>
+<li>inflamed stomach and intestines, heartburn, irritable bowel syndrome, wind, lip swelling, reduce 
+sense of touch in the mouth, gum pain, </li>
+<li>acne, eczema, red swelling on skin, dry skin, hair colour changes, excessive sweating, pigmentation 
 in nails, colouration on lip, skin peeling, skin burning sensation, changes to the colour of the skin 
-including loss of colour, oily skin, hives, <br />
-- joint stiffness, stiffness of muscle and bones, sudden muscle contraction, sore muscle, 
-- breast tenderness, irregular period, painful period, 
-- chills, feeling hot, hangover, malaise, swelling in legs or hands, 
-- abnormal liver function tests, decreased iron binding, increased sugar level, decreased blood iron 
-level, blood in urine, 
-- fall and wound, 
-- device expulsion. </p>
-<p>Rare (may affect up to 1 in 1000 people): 
-- fungal infection, 
-- decrease white blood cells, 
-- increased cholesterol, 
-- confusion, headache following injury, abnormal taste sensation, 
-- swollen eye lids, 
-- fast hart rate,<br />
-- irregular bowel movements, inflamed lips, discoloured gums, lips and tongue, 
-- red or brownish nodules on the skin (called “Lichen planus”), vitiligo, 
-- heavy prolonged period, discharge from vagina, decreased sex drive, 
-- increase in body weight, 
-- wound complication, nausea following implant insertion. </p>
+including loss of colour, oily skin, hives,   </li>
+<li>joint stiffness, stiffness of muscle and bones, sudden muscle contraction, sore muscle, </li>
+<li>breast tenderness, irregular period, painful period, </li>
+<li>chills, feeling hot, hangover, malaise, swelling in legs or hands, </li>
+<li>abnormal liver function tests, decreased iron binding, increased sugar level, decreased blood iron 
+level, blood in urine, </li>
+<li>fall and wound, </li>
+<li>device expulsion. </li>
+</ul>
+<p>Rare (may affect up to 1 in 1000 people):</p>
+<ul>
+<li>fungal infection, </li>
+<li>decrease white blood cells, </li>
+<li>increased cholesterol, </li>
+<li>confusion, headache following injury, abnormal taste sensation, </li>
+<li>swollen eye lids, </li>
+<li>fast hart rate,  </li>
+<li>irregular bowel movements, inflamed lips, discoloured gums, lips and tongue, </li>
+<li>red or brownish nodules on the skin (called  Lichen planus ), vitiligo, </li>
+<li>heavy prolonged period, discharge from vagina, decreased sex drive, </li>
+<li>increase in body weight, </li>
+<li>wound complication, nausea following implant insertion. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
@@ -273,7 +283,7 @@ Dublin 4
 D04 C7H2 
 Ireland </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease, for scientific reasons, and for ethical reasons it has been impossible to get 
 complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 

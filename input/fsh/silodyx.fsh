@@ -4,7 +4,7 @@ Instance: composition-en-9f200c2b1188de65461c6911d6f9550c
 InstanceOf: CompositionUvEpi
 Title: "Composition for silodyx Package Leaflet"
 Description:  "Composition for silodyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -108,8 +108,8 @@ before taking Silodyx.<br />
 Dizziness when standing up and occasionally fainting may occur when taking Silodyx, 
 particularly when starting treatment or if you are taking other medicines that lower blood 
 pressure. If this occurs, make sure you sit or lie down straight away until the symptoms have 
-disappeared and inform your doctor as soon as possible (see also section “Driving and using 
-machines”).  </p>
+disappeared and inform your doctor as soon as possible (see also section  Driving and using 
+machines ).  </p>
 </li>
 <li>
 <p>If you have severe liver problems, you should not take Silodyx, as it was not tested in this 
@@ -118,7 +118,7 @@ condition. </p>
 <li>
 <p>If you have problems with your kidneys, please ask your doctor for advice.<br />
 If you have moderate kidney problems, your doctor will start Silodyx with caution and possibly 
-with a lower dose (see section 3 “Dose”).<br />
+with a lower dose (see section 3  Dose ).<br />
 If you have severe kidney problems, you should not take Silodyx. </p>
 </li>
 <li>
@@ -132,7 +132,7 @@ released during sex) that may temporarily affect male fertility. This effect dis
 discontinuation of Silodyx. Please inform your doctor if you are planning to have children.  </p>
 <p>Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>Children and adolescents </p>
 <ul>
 <li>Do not give this medicine to children and adolescents below 18 years since there is no relevant 
@@ -204,13 +204,13 @@ If you do feel weak or dizzy, make sure you sit or lie down straight away until 
 disappeared. If dizziness when standing up or fainting occurs, please inform your doctor as soon as 
 possible. </p>
 <p>Silodyx may cause complications during a cataract surgery (eye surgery because of cloudiness of the 
-lens, see section “Warnings and precautions”).<br />
+lens, see section  Warnings and precautions ).<br />
 It is important that you immediately inform your eye specialist if you are using or have previously 
 used Silodyx. </p>
 <p>The possible side effects are listed below:  </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
-* Abnormal ejaculation (less or no noticeable semen is released during sex, see section “Warnings 
-and precautions”) </p>
+* Abnormal ejaculation (less or no noticeable semen is released during sex, see section  Warnings 
+and precautions ) </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
 * Dizziness, including dizziness when standing up (see also above, in this section) 
 * Runny or blocked nose 
@@ -247,7 +247,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 °C.<br />
+<p>Do not store above 30  C.<br />
 Store in the original package in order to protect from light and moisture. </p>
 <p>Do not use this medicine if you notice that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -284,25 +284,24 @@ Via Matteo Civitali 1
 20148 Milan 
 Italy </p>
 <p>Laboratoires Bouchara-Recordati 
-Parc Mécatronic 
+Parc M catronic 
 03410 Saint Victor 
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Recordati bv 
-Tél/Tel: +32 2 461 01 Lietuva 
+T l/Tel: +32 2 461 01 Lietuva 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-България 
-Recordati Ireland Ltd. 
-Teл.: + 353 21 4379 
+Tel: + 353 21 4379 </p>
+<p>Recordati Ireland Ltd. 
+Te .: + 353 21 4379 
 Luxembourg/Luxemburg 
 Recordati bv 
-Tél/Tel: +32 2 461 01 Česká republika 
+T l/Tel: +32 2 461 01  esk  republika 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
-Magyarország 
+Magyarorsz g 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
 Danmark 
@@ -322,14 +321,13 @@ Recordati Ireland Ltd.
 Tel: + 353 21 4379 
 Norge 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: + 30 210 8009 
-Österreich 
+Tlf: + 353 21 4379 </p>
+<p>. . 
+ : + 30 210 8009 
+ sterreich 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
-España 
+Espa a 
 Almirall, S.A. 
 Tel: +34 93 291 30<br />
 Polska 
@@ -337,14 +335,14 @@ Recordati Ireland Ltd.
 Tel: + 353 21 4379 
 France 
 ZAMBON France 
-Tél: + 33 (0)1 58 04 41<br />
+T l: + 33 (0)1 58 04 41<br />
 Portugal 
 Tecnimede Sociedade 
-Técnico-Medicinal, S.A 
+T cnico-Medicinal, S.A 
 Tel: +351 21 041 41<br />
 Hrvatska 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379România 
+Tel: + 353 21 4379Rom nia 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
 Ireland 
@@ -353,10 +351,10 @@ Tel: + 353 21 4379
 Slovenija 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
-Ísland 
+ sland 
 Recordati Ireland Ltd. 
-Sími: + 353 21 4379 
-Slovenská republika 
+S mi: + 353 21 4379 
+Slovensk  republika 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
 Italia 
@@ -364,10 +362,9 @@ Takeda Italia S.p.A.
 Tel: +39 06 502 
 Suomi/Finland 
 Recordati Ireland Ltd. 
-Puh/Tel: + 353 21 4379 
-Κύπρος 
-Recordati Ireland Ltd. 
-Τηλ: + 353 21 4379 
+Puh/Tel: + 353 21 4379 </p>
+<p>Recordati Ireland Ltd. 
+ : + 353 21 4379 
 Sverige 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 

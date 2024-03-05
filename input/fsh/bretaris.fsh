@@ -4,7 +4,7 @@ Instance: composition-en-54a021f4e4e92ada183e2df4eec44f64
 InstanceOf: CompositionUvEpi
 Title: "Composition for bretaris Package Leaflet"
 Description:  "Composition for bretaris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Bretaris Genuair 
 4. Possible side effects 
 5. How to store Bretaris Genuair 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -91,19 +90,23 @@ symptoms for several days). </p>         </div>"""
 - if you are allergic to aclidinium bromide or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before using Bretaris Genuair: 
-- if you have had heart problems recently. 
-- if you see halos around lights or coloured images (glaucoma). 
-- if you have an enlarged prostate, problems passing urine, or a blockage in your bladder. </p>
+Talk to your doctor, pharmacist or nurse before using Bretaris Genuair:</p>
+<ul>
+<li>if you have had heart problems recently. </li>
+<li>if you see halos around lights or coloured images (glaucoma). </li>
+<li>if you have an enlarged prostate, problems passing urine, or a blockage in your bladder. </li>
+</ul>
 <p>Bretaris Genuair is indicated for maintenance treatment and should not be used to treat a sudden attack 
 of breathlessness or wheezing. If your COPD symptoms (breathlessness, wheezing, cough) do not 
 improve or get worse you should contact your doctor for advice as soon as possible. </p>
 <p>Dry mouth, which has been observed with medicines like Bretaris Genuair, may after using your 
 medicine for a long time, be associated with tooth decay. Therefore, please remember to pay attention 
 to oral hygiene. </p>
-<p>Stop taking Bretaris Genuair and seek medical help immediately: 
-- if you get tightness of the chest, coughing, wheezing or breathlessness immediately after using 
-the medicine. These may be signs of a condition called bronchospasm. </p>
+<p>Stop taking Bretaris Genuair and seek medical help immediately:</p>
+<ul>
+<li>if you get tightness of the chest, coughing, wheezing or breathlessness immediately after using 
+the medicine. These may be signs of a condition called bronchospasm. </li>
+</ul>
 <p>Children and adolescents 
 Bretaris Genuair is not for use in children or adolescents below 18 years of age. </p>
 <p>Other medicines and Bretaris Genuair 
@@ -201,7 +204,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the inhaler label and carton after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Keep the inhaler inside the pouch until the administration period starts. </p>
 <p>To be used within 90 days of opening the pouch. </p>
 <p>Do not use the Bretaris Genuair if you notice that the pack is damaged or shows signs of tampering. </p>
@@ -218,8 +221,8 @@ use. These measures will help protect the environment. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Bretaris Genuair contains 
 - The active substance is aclidinium bromide. Each delivered dose contains 375 micrograms 
 aclidinium bromide equivalent to 322 micrograms of aclidinium. 
-- The other ingredient is lactose monohydrate (refer to Section 2 “Bretaris Genuair contains 
-lactose”). </p>
+- The other ingredient is lactose monohydrate (refer to Section 2  Bretaris Genuair contains 
+lactose ). </p>
 <p>What Bretaris Genuair looks like and contents of the pack 
 Bretaris Genuair is a white or almost white powder. 
 The Genuair inhaler device is white coloured with an integral dose indicator and a green dosage 
@@ -236,27 +239,28 @@ Gustav Mahlerplein 2
 1082MA Amsterdam 
 The Netherlands </p>
 <p>Manufacturer 
-Industrias Farmacéuticas Almirall, S.A. 
+Industrias Farmac uticas Almirall, S.A. 
 Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Covis Pharma Europe B.V. 
-Tél/Tel:  80013 
+T l/Tel:  80013 
 Lietuva<br />
-UAB “BERLIN CHEMIE MENARINI BALTIC”<br />
-Tel: +370 52 691<br />
-България<br />
-“Берлин-Хеми/А. Менарини България” EООД 
-тел.: +359 2 454 09 50  </p>
+UAB  BERLIN CHEMIE MENARINI BALTIC <br />
+Tel: +370 52 691  </p>
+<ul>
+<li>/ .     E<br />
+ .: +359 2 454 09 50  </li>
+</ul>
 <p>Luxembourg/Luxemburg<br />
 Covis Pharma Europe B.V. 
-Tél/Tel: 80024119   </p>
-<p>Česká republika<br />
+T l/Tel: 80024119   </p>
+<p>esk  republika<br />
 Berlin-Chemie/A.Menarini Ceska republika s.r.o.<br />
 Tel: +420 267 199 333<br />
-Magyarország<br />
+Magyarorsz g<br />
 Berlin-Chemie/A. Menarini Kft.<br />
 Tel.: +36 1799 7320<br />
 Danmark<br />
@@ -274,31 +278,31 @@ Nederland<br />
 Covis Pharma Europe B.V.<br />
 Tel: 08000270 
 Eesti<br />
-OÜ Berlin-Chemie Menarini Eesti<br />
+O  Berlin-Chemie Menarini Eesti<br />
 Tel: +372 667 5001  </p>
 <p>Norge<br />
 Covis Pharma Europe B.V.<br />
-Tlf: 80031Ελλάδα<br />
+Tlf: 80031 <br />
 MENARINI HELLAS AE<br />
-Τηλ: +30 210 8316111-13  </p>
-<p>Österreich<br />
+ : +30 210 8316111-13  </p>
+<p>sterreich<br />
 A. Menarini Pharma GmbH 
 Tel: +43 1 879 95 85-0  </p>
-<p>España<br />
+<p>Espa a<br />
 Laboratorios Menarini S.A.<br />
 Tel: +34-93 462 88 00  </p>
 <p>Polska<br />
 Covis Pharma Europe B.V.<br />
 Tel.: 0800919France<br />
 MENARINI France<br />
-Tél: +33 (0)1 45 60 77 20  </p>
+T l: +33 (0)1 45 60 77 20  </p>
 <p>Portugal<br />
-A. Menarini Portugal – Farmacêutica, S.A.<br />
+A. Menarini Portugal   Farmac utica, S.A.<br />
 Tel: +351 210 935 500  </p>
 <p>Hrvatska<br />
 Berlin-Chemie Menarini Hrvatska d.o.o.<br />
 Tel: + 385 1 4821 361  </p>
-<p>România<br />
+<p>Rom nia<br />
 Berlin-Chemie A.Menarini S.R.L.<br />
 Tel: +40 21 232 34 32  </p>
 <p>Ireland<br />
@@ -307,9 +311,9 @@ Tel: 1800937Slovenija<br />
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: +386 01 300 2160  </p>
-<p>Ísland<br />
+<p>sland<br />
 Covis Pharma Europe B.V.<br />
-Sími: 8007Slovenská republika<br />
+S mi: 8007Slovensk  republika<br />
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: +421 2 544 30 730  </p>
@@ -318,10 +322,9 @@ Laboratori Guidotti S.p.A.<br />
 Tel: +39- 050 971011  </p>
 <p>Suomi/Finland<br />
 Covis Pharma Europe B.V. 
-Puh/Tel: 0800413 
-Κύπρος 
-Covis Pharma Europe B.V. 
-Τηλ:  80091 
+Puh/Tel: 0800413 </p>
+<p>Covis Pharma Europe B.V. 
+ :  80091 
 Sverige<br />
 Covis Pharma Europe B.V. 
 Tel: 0200898Latvija<br />
@@ -330,6 +333,6 @@ Tel: +371 67103210  </p>
 <p>United Kingdom (Northern Ireland) 
 Covis Pharma Europe B.V. 
 Tel: 08004334 
-This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
+This leaflet was last revised in <em>{month YYYY}</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

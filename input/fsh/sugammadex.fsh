@@ -4,7 +4,7 @@ Instance: composition-en-16018c8f310d03d6a566ded2f2a2880a
 InstanceOf: CompositionUvEpi
 Title: "Composition for sugammadex Package Leaflet"
 Description:  "Composition for sugammadex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,7 +96,7 @@ bromide is used for a moderate level of relaxation. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not be given Sugammadex Amomed 
 * if you are allergic to sugammadex or any of the other ingredients of this medicine (listed in 
 section 6). 
-→Tell your anaesthetist if this applies to you. </p>
+ Tell your anaesthetist if this applies to you. </p>
 <p>Warnings and precautions 
 Talk to your anaesthetist before Sugammadex Amomed is given 
 * if you have kidney disease or had in the past. This is important as Sugammadex Amomed is 
@@ -110,20 +110,20 @@ clotting) or anticoagulation medicine. </li>
 <p>Children and adolescents 
 This medicine is not recommended for infants less than 2 years of age. </p>
 <p>Other medicines and Sugammadex Amomed 
-→ Tell your anaesthetist if you are taking, have recently taken or might take any other medicines. 
+  Tell your anaesthetist if you are taking, have recently taken or might take any other medicines. 
 Sugammadex Amomed may affect other medicines or be affected by them. </p>
 <p>Some medicines reduce the effect of Sugammadex Amomed 
-→ It is especially important that you tell your anaesthetist if you have recently taken: 
+  It is especially important that you tell your anaesthetist if you have recently taken: 
 * toremifene (used to treat breast cancer). 
 * fusidic acid (an antibiotic). </p>
 <p>Sugammadex Amomed can affect hormonal contraceptives 
-* Sugammadex Amomed can make hormonal contraceptives - including the ‘Pill’, vaginal ring, 
+* Sugammadex Amomed can make hormonal contraceptives - including the  Pill , vaginal ring, 
 implants or a hormonal IntraUterine System (IUS) - less effective because it reduces how much you 
 get of the progestogen hormone. The amount of progestogen lost by using Sugammadex Amomed is 
 about the same as missing one oral contraceptive Pill. 
-→ If you are taking the Pill on the same day as Sugammadex Amomed is given to you, follow the 
-instructions for a missed dose in the Pill’s package leaflet. 
-→ If you are using other hormonal contraceptives (for example a vaginal ring, implant or IUS) 
+  If you are taking the Pill on the same day as Sugammadex Amomed is given to you, follow the 
+instructions for a missed dose in the Pill s package leaflet. 
+  If you are using other hormonal contraceptives (for example a vaginal ring, implant or IUS) 
 you should use an additional non-hormonal contraceptive method (such as a condom) for the next 
 7 days and follow the advice in the package leaflet. </p>
 <p>Effects on blood tests 
@@ -131,7 +131,7 @@ In general, Sugammadex Amomed does not have an effect on laboratory tests. Howev
 the results of a blood test for a hormone called progesterone. Talk to your doctor if your progesterone 
 levels need to be tested on the same day you receive Sugammadex Amomed. </p>
 <p>Pregnancy and breast-feeding 
-→ Tell your anaesthetist if you are pregnant or might be pregnant or if you are breast-feeding. You may 
+  Tell your anaesthetist if you are pregnant or might be pregnant or if you are breast-feeding. You may 
 still be given Sugammadex Amomed, but you need to discuss it first. 
 It is not known whether sugammadex can pass into breast milk. Your anaesthetist will help you decide 
 whether to stop breast-feeding, or whether to abstain from sugammadex therapy, considering the benefit 
@@ -201,10 +201,10 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Storage will be handled by healthcare professionals. </p>
 <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the carton and on the label after ‘EXP’. 
+Do not use this medicine after the expiry date which is stated on the carton and on the label after  EXP . 
 The expiry date refers to the last day of that month.  </p>
-<p>Store below 30 °C. Do not freeze. Keep the vial in the outer carton in order to protect from light.  </p>
-<p>After first opening and dilution, store at 2 to 8 °C and use within 24 hours. </p>         </div>"""      
+<p>Store below 30  C. Do not freeze. Keep the vial in the outer carton in order to protect from light.  </p>
+<p>After first opening and dilution, store at 2 to 8  C and use within 24 hours. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -229,28 +229,27 @@ Leopold-Ungar-Platz 2
 Austria </p>
 <p>Manufacturer </p>
 <p>Biofactor GmbH 
-Rudolf-Huch Straße 38667 Bad Harzburg 
+Rudolf-Huch Stra e 38667 Bad Harzburg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tél/Tel: +43 1 5037Lietuva<br />
+T l/Tel: +43 1 5037Lietuva<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
-Tel: + 43 1 5037 
-България<br />
-AOP Orphan Pharmaceuticals GmbH (Австрия) 
-Teл.: + 43 1 5037 </p>
+Tel: + 43 1 5037 </p>
+<p>AOP Orphan Pharmaceuticals GmbH ( ) 
+Te .: + 43 1 5037 </p>
 <p>Luxembourg/Luxemburg<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) <br />
-Tél/Tel: + 43 1 5037Česká republika<br />
+T l/Tel: + 43 1 5037 esk  republika<br />
 AOP Orphan Pharmaceuticals GmbH (Rakousko) 
 Tel: + 43 1 5037 
-Magyarország<br />
+Magyarorsz g<br />
 AOP Orphan Pharmaceuticals GmbH (Ausztria) 
 Tel.: + 43 1 5037 
 Danmark<br />
-AOP Orphan Pharmaceuticals GmbH (Østrig) 
+AOP Orphan Pharmaceuticals GmbH ( strig) 
 Tlf: + 43 1 5037 
 Malta<br />
 AOP Orphan Pharmaceuticals GmbH (L-Awstrija) 
@@ -264,16 +263,15 @@ Tel: + 43 1 5037
 Eesti<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037Norge<br />
-AOP Orphan Pharmaceuticals GmbH (Østerrike) 
+AOP Orphan Pharmaceuticals GmbH ( sterrike) 
 Tlf: + 43 1 5037 </p>
-<p>Ελλάδα<br />
-AOP Orphan Φαρμακευτική Ελλάδας ΜΕΠΕ 
-(Ελλάδα) 
-Τηλ: + 2107781 
-Österreich<br />
+<p>AOP Orphan     <br />
+( ) 
+ : + 2107781 
+ sterreich<br />
 AOP Orphan Pharmaceuticals GmbH 
 Tel: + 43 1 5037 
-España<br />
+Espa a<br />
 AOP Orphan Pharmaceuticals Iberia S.L.U. <br />
 Tel: +34 91 395 40<br />
 Polska<br />
@@ -281,13 +279,13 @@ AOP Orphan Pharmaceuticals GmbH (Austria)
 Tel.: + 43 1 5037 
 France<br />
 AOP Orphan Pharmaceuticals France 
-Tél: + 33 1 85 74 69<br />
+T l: + 33 1 85 74 69<br />
 Portugal<br />
 AOP Orphan Pharmaceuticals Iberia S.L.U. <br />
 Tel: +34 91 395 40  </p>
 <p>Hrvatska<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
-Tel: + 43 1 5037România<br />
+Tel: + 43 1 5037Rom nia<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037 
 Ireland<br />
@@ -295,22 +293,21 @@ AOP Orphan Pharmaceuticals GmbH (Austria)
 Tel: + 43 1 5037Slovenija<br />
 AOP Orphan Pharmaceuticals GmbH<br />
 Tel: + 386 64209 
-Ísland<br />
-AOP Orphan Pharmaceuticals GmbH (Austurríki) 
-Sími: + 43 1 5037Slovenská republika<br />
-AOP Orphan Pharmaceuticals GmbH - organizačná zložka 
+ sland<br />
+AOP Orphan Pharmaceuticals GmbH (Austurr ki) 
+S mi: + 43 1 5037Slovensk  republika<br />
+AOP Orphan Pharmaceuticals GmbH - organiza n  zlo ka 
 Tel: +421 2 45523 
 Italia<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037 
 Suomi/Finland<br />
-AOP Orphan Pharmaceuticals GmbH (Itävalta) 
-Puh/Tel: + 43 1 5037 
-Κύπρος<br />
-AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
-Τηλ: + 43 1 5037244  </p>
+AOP Orphan Pharmaceuticals GmbH (It valta) 
+Puh/Tel: + 43 1 5037 </p>
+<p>AOP Orphan Pharmaceuticals GmbH ( ) 
+ : + 43 1 5037244  </p>
 <p>Sverige<br />
-AOP Orphan Pharmaceuticals GmbH (Österrike) 
+AOP Orphan Pharmaceuticals GmbH ( sterrike) 
 Tel: + 43 1 5037 
 Latvija<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 

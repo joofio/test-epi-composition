@@ -4,7 +4,7 @@ Instance: composition-en-68233cef8a2150549da332e078e2cbf5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunitinib Package Leaflet"
 Description:  "Composition for sunitinib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sunitinib Accord  contains the active substance sunitinib, which is a protein kinase inhibitor. It is used 
 to treat cancer by preventing the activity of a special group of proteins which are known to be involved 
 in the growth and spread of cancer cells. </p>
-<p>Sunitinib Accord is used to treat adults with the following types of cancer:  </p>
+<p>Sunitinib Accord is used to treat adults with the following types of cancer:</p>
 <ul>
 <li>Gastrointestinal stromal tumour (GIST), a type of cancer of the stomach and bowel, where 
 imatinib (another anticancer medicine) no longer works or you cannot take imatinib. </li>
@@ -97,7 +97,7 @@ prescribed for you, ask your doctor. </p>         </div>"""
 6). </li>
 </ul>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor, pharmacist  before taking Sunitinib Accord: </p>
+<p>Talk to your doctor, pharmacist  before taking Sunitinib Accord:</p>
 <ul>
 <li>
 <p>If you have high blood pressure. Sunitinib Accord can raise blood pressure. Your doctor may 
@@ -181,7 +181,7 @@ prevent bone complications that may have been given for another medical conditio
 </li>
 <li>
 <p>If you have or have had skin and subcutaneous tissue disorders. While you are on this 
-medicine "pyoderma gangrenosum" (painful skin ulceration) or “necrotising fasciitis” (rapidly 
+medicine "pyoderma gangrenosum" (painful skin ulceration) or  necrotising fasciitis  (rapidly 
 spreading infection of the skin/soft tissue that may be life-threatening) may occur. Contact your 
 doctor immediately if symptoms of infection occur around a skin injury, including fever, pain, 
 redness, swelling, or drainage of pus or blood. This event is generally reversible after sunitinib 
@@ -197,26 +197,32 @@ blood pressure, headache, or loss of sight.  </p>
 </li>
 <li>
 <p>If you have diabetes. Blood sugar levels in diabetic patients should be checked regularly in 
-order to assess if antidiabetic medicine’s doses needs to be adjusted to minimise the risk of low 
+order to assess if antidiabetic medicine s doses needs to be adjusted to minimise the risk of low 
 blood sugar. Notify your doctor as soon as possible if you experience any signs and symptoms 
 of low blood sugar (fatigue, palpitations, sweating, hunger and loss of consciousness). </p>
 </li>
 </ul>
 <p>Children and adolescents </p>
-<p>Sunitinib Accord  is not recommended for people aged under 18.  </p>
-<p>Other medicines and  Sunitinib Accord  </p>
+<p>Sunitinib Accord  is not recommended for people aged under 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sunitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sunitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and  Sunitinib Accord  </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken, or might take any other 
 medicines, including medicines obtained without a prescription.  </p>
 <p>Some medicines can affect the levels of Sunitinib Accord in your body. You should inform your 
 doctor if you are taking medicines containing the following active substances: <br />
-<em> ketoconazole, itraconazole – used to treat fungal infections<br />
-</em> erythromycin, clarithromycin, rifampicin –used to treat infections 
-* ritonavir –used to treat HIV 
-* dexamethasone – a corticosteroid used for various conditions (such as allergic/breathing 
+<em> ketoconazole, itraconazole   used to treat fungal infections<br />
+</em> erythromycin, clarithromycin, rifampicin  used to treat infections 
+* ritonavir  used to treat HIV 
+* dexamethasone   a corticosteroid used for various conditions (such as allergic/breathing 
 disorders or skin diseases)<br />
-<em> phenytoin, carbamazepine, phenobarbital – used to treat epilepsy and other neurological 
+<em> phenytoin, carbamazepine, phenobarbital   used to treat epilepsy and other neurological 
 conditions<br />
-</em> herbal preparations containing St. John’s Wort (Hypericum perforatum) – used to treat 
+</em> herbal preparations containing St. John s Wort (Hypericum perforatum)   used to treat 
 depression and anxiety </p>
 <p>Sunitinib Accord with food and drink </p>
 <p>You should avoid drinking grapefruit juice while on treatment with Sunitinib Accord. </p>
@@ -232,20 +238,21 @@ Accord.   </p>
 machines. </p>
 <p>Sunitinib Accord  contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium (croscarmellose sodium) per capsule, that is 
-to say essentially “sodium-free”. </p>         </div>"""   
-                    
+to say essentially  sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take sunitinib"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sunitinib"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
 <p>Your doctor will prescribe a dose that is right for you, depending on the type of cancer to be treated. If 
 you are being treated for: 
-− GIST or MRCC: the usual dose is 50 mg once daily taken for 28 days (4 weeks), followed by 
+  GIST or MRCC: the usual dose is 50 mg once daily taken for 28 days (4 weeks), followed by 
 14 days (2 weeks) of rest (no medicine), in 6-week cycles.<br />
-− pNET: the usual dose is 37.5 mg once daily without a rest period. </p>
+  pNET: the usual dose is 37.5 mg once daily without a rest period. </p>
 <p>Your doctor will determine the appropriate dose you need to take, as well as if and when you need to 
 stop treatment with Sunitinib Accord. </p>
 <p>Sunitinib Accord can be taken with or without food.  </p>
@@ -253,13 +260,12 @@ stop treatment with Sunitinib Accord. </p>
 <p>If you have accidentally taken too many capsules, talk to your doctor straight away. You may require 
 medical attention. </p>
 <p>If you forget to take  Sunitinib Accord </p>
-<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
-
+<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store sunitinib"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store sunitinib"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You must immediately contact your doctor if you experience any of those serious side effects (see also 
@@ -354,7 +360,7 @@ body parts, and trouble breathing.<br />
 <p>Rare: may affect up to 1 in 1,000 people 
 * Severe reaction of the skin and/or mucous membranes (Stevens-Johnson syndrome, toxic 
 epidermal necrolysis, erythema multiforme).<br />
-<em> Tumour lysis syndrome (TLS) – TLS consists of a group of metabolic complications that can 
+<em> Tumour lysis syndrome (TLS)   TLS consists of a group of metabolic complications that can 
 occur during treatment of cancer. These complications are caused by the break-down products of 
 dying cancer cells and may include the following: nausea, shortness of breath, irregular 
 heartbeat, muscular cramps, seizure, clouding of urine and tiredness associated with abnormal 
@@ -376,68 +382,19 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store sunitinib"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sunitinib"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on carton, bottle and blister foil 
-after “EXP”. The expiry date refers to the last day of that month. 
-- This medicine does not require any special storage conditions. 
-- Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sunitinib Accord contains  </p>
-<p>The active substance is sunitinib. Each hard capsule contains 12.5mg, 25mg, 37.5mg, or 50mg of 
-sunitinib. The other ingredients are: </p>
-<ul>
-<li>Capsule content: cellulose, microcrystalline, mannitol (E421), croscarmellose sodium, povidone 
-(E1201), magnesium stearate. </li>
-<li>Capsule shell: gelatin, titanium dioxide (E171), black iron oxide (E172) (For 25 mg and 50 mg), 
-red iron oxide (E172) (For 12.5 mg, 25 mg, 50 mg), yellow iron oxide (E172) (For 25 mg, 37.5 
-mg, 50 mg)  </li>
-<li>Printing ink: shellac, titanium dioxide (E171), black iron oxide (E172), propylene glycol, 
-ammonium hydroxide. </li>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on carton, bottle and blister foil 
+after  EXP . The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special storage conditions. </li>
+<li>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </li>
 </ul>
-<p>What Sunitinib Accord looks like and contents of the pack </p>
-<p>Sunitinib Accord 12.5 mg hard c apsules 
-Gelatin capsules (approximate length 14.3 mm) with orange cap and orange body, printed with white 
-ink “12.5 mg” on the body, containing yellow to orange granules. </p>
-<p>Sunitinib Accord 25 mg hard c apsules 
-Gelatin capsules (approximate length 15.9 mm) with caramel cap and orange body, printed with 
-white ink “25 mg” on the body, containing yellow to orange granules. </p>
-<p>Sunitinib Accord 37.5 mg hard c apsules 
-Gelatin capsules (approximate length 18.0 mm) with yellow cap and yellow body, printed with black 
-ink “37.5 mg” on the body, containing yellow to orange granules. </p>
-<p>Sunitinib Accord 50 mg hard c apsules 
-Gelatin capsules (approximate length 19.4 mm) with caramel cap and caramel body, printed with white 
-ink “50 mg” on the body, containing yellow to orange granules. </p>
-<p>Sunitinib Accord is available in bottles of 30 capsules and blister packs containing 28 capsules and 
-perforated unit dose blister packs containing 28 x 1 capsules. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Accord Healthcare S.L.U. 
-World Trade Center, Moll De Barcelona s/n, 
-Edifici Est, 6a Planta, 
-Barcelona, 08039, 
-Spain </p>
-<p>Manufacturer </p>
-<p>Remedica Ltd. 
-Aharnon Street, Limassol Industrial Estate, 
-Building 10, 3056 Limassol, 
-Cyprus </p>
-<p>Pharmacare Premium Ltd. 
-HHF003 Hal Far Industrial Estate, 
-Birzebbugia, BBG3Malta </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-0e387e560fa6e1178c04c02876196a66
 InstanceOf: CompositionUvEpi
 Title: "Composition for trepulmix Package Leaflet"
 Description:  "Composition for trepulmix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,51 +96,59 @@ activity. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take trepulmix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Trepulmix: 
-- if you are allergic to treprostinil or any of the other ingredients of this medicine (listed in section 
-6). 
-- if you have been diagnosed with a disease called “pulmonary veno-occlusive disease”. This is a 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Trepulmix:</p>
+<ul>
+<li>if you are allergic to treprostinil or any of the other ingredients of this medicine (listed in section 
+6). </li>
+<li>if you have been diagnosed with a disease called  pulmonary veno-occlusive disease . This is a 
 disease in which the blood vessels that carry blood through your lungs become swollen and 
-clogged resulting in a higher pressure in the blood vessels between the heart and the lungs. 
-- if you have severe liver disease 
-- if you have a heart problem, for example: 
-• a heart attack (myocardial infarction) within the last six months 
-• severe changes in heart rate 
-• severe coronary heart disease or unstable angina 
-• a heart defect has been diagnosed, such as a faulty heart valve that causes the heart to 
+clogged resulting in a higher pressure in the blood vessels between the heart and the lungs. </li>
+<li>if you have severe liver disease </li>
+<li>if you have a heart problem, for example: 
+  a heart attack (myocardial infarction) within the last six months 
+  severe changes in heart rate 
+  severe coronary heart disease or unstable angina 
+  a heart defect has been diagnosed, such as a faulty heart valve that causes the heart to 
 work poorly 
-• any disease of the heart which is not being treated or not under close medical 
-observation 
-- if you are at a specific high risk of bleeding – for example active stomach ulcers, injuries or 
-other bleeding conditions 
-- if you have had a stroke within the last 3 months, or any other interruption of blood supply to 
-the brain </p>
+  any disease of the heart which is not being treated or not under close medical 
+observation </li>
+<li>if you are at a specific high risk of bleeding   for example active stomach ulcers, injuries or 
+other bleeding conditions </li>
+<li>if you have had a stroke within the last 3 months, or any other interruption of blood supply to 
+the brain </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor before using Trepulmix if you: 
-- suffer from any liver disease 
-- suffer from kidney disease<br />
-- have been advised that you are medically obese (BMI greater than 30 kg/m2) 
-- are on a low sodium diet </p>
-<p>During your treatment with Trepulmix, tell your doctor: 
-- if your blood pressure decreases (hypotension) 
-- if you experience a rapid increase in breathing difficulties or persistent cough (this can be 
+Talk to your doctor before using Trepulmix if you:</p>
+<ul>
+<li>suffer from any liver disease </li>
+<li>suffer from kidney disease  </li>
+<li>have been advised that you are medically obese (BMI greater than 30 kg/m2) </li>
+<li>are on a low sodium diet </li>
+</ul>
+<p>During your treatment with Trepulmix, tell your doctor:</p>
+<ul>
+<li>if your blood pressure decreases (hypotension) </li>
+<li>if you experience a rapid increase in breathing difficulties or persistent cough (this can be 
 related to congestion in the lungs or asthma or other condition), consult your doctor 
-immediately. 
-- if you have excessive bleeding as treprostinil may increase the risk, by preventing your blood 
-from clotting </p>
+immediately. </li>
+<li>if you have excessive bleeding as treprostinil may increase the risk, by preventing your blood 
+from clotting </li>
+</ul>
 <p>Children and adolescents 
 Trepulmix must not be used in children and adolescents. </p>
 <p>Other medicines and Trepulmix 
 Tell your doctor if you are taking/using, have recently taken/used or might take/use any other 
-medicines. Please tell your doctor if you are taking: 
-- medicines used to treat high blood pressure (antihypertensive medicines or other vasodilators) 
-- medicines used to increase the rate of urination (diuretics) including furosemide 
-- medicines that stop blood clotting (anticoagulants) such as warfarin, heparin or nitric oxide 
-based products 
-- any non-steroidal anti-inflammatory (NSAID) medicines (e.g. acetylsalicylic acid, ibuprofen) 
-- medicines which may enhance or weaken the effects of Trepulmix (e.g. gemfibrozil, rifampicin, 
+medicines. Please tell your doctor if you are taking:</p>
+<ul>
+<li>medicines used to treat high blood pressure (antihypertensive medicines or other vasodilators) </li>
+<li>medicines used to increase the rate of urination (diuretics) including furosemide </li>
+<li>medicines that stop blood clotting (anticoagulants) such as warfarin, heparin or nitric oxide 
+based products </li>
+<li>any non-steroidal anti-inflammatory (NSAID) medicines (e.g. acetylsalicylic acid, ibuprofen) </li>
+<li>medicines which may enhance or weaken the effects of Trepulmix (e.g. gemfibrozil, rifampicin, 
 trimethoprim, deferasirox, phenytoin, carbamazepine, phenobarbital, St. John's wort.), as your 
-doctor may need to adjust the dosage of Trepulmix. </p>
+doctor may need to adjust the dosage of Trepulmix. </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 Trepulmix is not recommended if you are pregnant, planning to become pregnant, or think that you 
 might be pregnant, unless considered essential by your doctor. The safety of this medicine for use 
@@ -271,7 +279,7 @@ V.* By reporting side effects you can help provide more information on the safet
   * code.text = "5. How to store trepulmix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date that is stated on the carton and vial after “EXP”. The 
+<p>Do not use this medicine after the expiry date that is stated on the carton and vial after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>A Trepulmix vial must be used or discarded within 30 days after first opening. </p>
@@ -304,7 +312,7 @@ Each ml of solution contains 10 mg treprostinil (as sodium salt).
 Each 10 ml vial of solution contains 100 mg treprostinil (as sodium salt). </p>
 <p>The other ingredients are: 
 Sodium citrate, sodium chloride, sodium hydroxide, hydrochloric acid, metacresol and water for 
-injections. See section 2, “Trepulmix contains sodium”. </p>
+injections. See section 2,  Trepulmix contains sodium . </p>
 <p>What Trepulmix looks like and the contents of the pack 
 Trepulmix is a clear colourless to slightly yellow solution, available in a 10 ml clear glass vial sealed 
 with a rubber stopper and a colour coded cap: </p>
@@ -319,7 +327,7 @@ Trepulmix 10 mg/ml solution for infusion has a red rubber cap. </p>
 <p>Each carton contains one vial. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation holder 
-SciPharm Sàrl 
+SciPharm S rl 
 7, Fausermillen 
 L-6689 Mertert 
 Luxembourg </p>
@@ -330,24 +338,23 @@ Leopold-Ungar-Platz 2
 Austria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tél/Tel: +43 1 5037Lietuva<br />
+T l/Tel: +43 1 5037Lietuva<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
-Tel: + 43 1 5037 
-България<br />
-AOP Orphan Pharmaceuticals GmbH (Австрия) 
-Teл.: + 43 1 5037 </p>
+Tel: + 43 1 5037 </p>
+<p>AOP Orphan Pharmaceuticals GmbH ( ) 
+Te .: + 43 1 5037 </p>
 <p>Luxembourg/Luxemburg<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) <br />
-Tél/Tel: + 43 1 5037Česká republika<br />
+T l/Tel: + 43 1 5037 esk  republika<br />
 AOP Orphan Pharmaceuticals GmbH (Rakousko) 
 Tel: + 43 1 5037 
-Magyarország<br />
+Magyarorsz g<br />
 AOP Orphan Pharmaceuticals GmbH (Ausztria) 
 Tel.: + 43 1 5037 
 Danmark<br />
-AOP Orphan Pharmaceuticals GmbH (Østrig) 
+AOP Orphan Pharmaceuticals GmbH ( strig) 
 Tlf: + 43 1 5037 
 Malta<br />
 AOP Orphan Pharmaceuticals GmbH (L-Awstrija) 
@@ -362,15 +369,14 @@ Eesti<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037 
 Norge<br />
-AOP Orphan Pharmaceuticals GmbH (Østerrike) 
-Tlf: + 43 1 5037 
-Ελλάδα<br />
-AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
-Τηλ: + 43 1 5037 
-Österreich<br />
+AOP Orphan Pharmaceuticals GmbH ( sterrike) 
+Tlf: + 43 1 5037 </p>
+<p>AOP Orphan Pharmaceuticals GmbH ( ) 
+ : + 43 1 5037 
+ sterreich<br />
 AOP Orphan Pharmaceuticals GmbH 
 Tel: + 43 1 5037 
-España<br />
+Espa a<br />
 AOP Orphan Pharmaceuticals Iberia S.L. <br />
 Tel: +34 91 395 40<br />
 Polska<br />
@@ -378,13 +384,13 @@ AOP Orphan Pharmaceuticals GmbH (Austria)
 Tel.: + 43 1 5037 
 France<br />
 AOP Orphan Pharmaceuticals GmbH (Autriche) 
-Tél: + 43 1 5037 
+T l: + 43 1 5037 
 Portugal<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037244  </p>
 <p>Hrvatska<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
-Tel: + 43 1 5037România<br />
+Tel: + 43 1 5037Rom nia<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037 
 Ireland<br />
@@ -392,22 +398,21 @@ AOP Orphan Pharmaceuticals GmbH (Austria)
 Tel: + 43 1 5037Slovenija<br />
 AOP Orphan Pharmaceuticals GmbH (Avstrija) 
 Tel: + 43 1 5037 
-Ísland<br />
-AOP Orphan Pharmaceuticals GmbH (Austurríki) 
-Sími: + 43 1 5037Slovenská republika<br />
-AOP Orphan Pharmaceuticals GmbH (Rakúsko) 
+ sland<br />
+AOP Orphan Pharmaceuticals GmbH (Austurr ki) 
+S mi: + 43 1 5037Slovensk  republika<br />
+AOP Orphan Pharmaceuticals GmbH (Rak sko) 
 Tel: + 43 1 5037 
 Italia<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037 
 Suomi/Finland<br />
-AOP Orphan Pharmaceuticals GmbH (Itävalta) 
-Puh/Tel: + 43 1 5037 
-Κύπρος<br />
-AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
-Τηλ: + 43 1 5037244  </p>
+AOP Orphan Pharmaceuticals GmbH (It valta) 
+Puh/Tel: + 43 1 5037 </p>
+<p>AOP Orphan Pharmaceuticals GmbH ( ) 
+ : + 43 1 5037244  </p>
 <p>Sverige<br />
-AOP Orphan Pharmaceuticals GmbH (Österrike) 
+AOP Orphan Pharmaceuticals GmbH ( sterrike) 
 Tel: + 43 1 5037 
 Latvija<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 

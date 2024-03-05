@@ -4,7 +4,7 @@ Instance: composition-en-a88819de549a51e3dd5eb81cc2cbcd10
 InstanceOf: CompositionUvEpi
 Title: "Composition for cystadrops Package Leaflet"
 Description:  "Composition for cystadrops Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -126,7 +126,7 @@ eye drops at 8.00 am, 12.00 am, 4.00 pm and 8.00 pm).<br />
 your doctor based on eye examinations. </p>
 <p>Only use the drops in your eyes (ocular use). </p>
 <p>To use the eye drops, please follow the instructions below carefully. Those instructions are also 
-available as an animated movie on www.cystadrops.net ‘QR code to be included’ </p>
+available as an animated movie on www.cystadrops.net  QR code to be included  </p>
 <p>Step 1: Before using a vial for the first time 
 * Cystadrops must be brought back at room temperature before the first administration. It will 
 facilitate the use of the drops. 
@@ -157,9 +157,8 @@ to 7 days from the time of opening.<br />
 * Hold the dropper bottle, pointing down, between your thumb and fingers. Move firmly the 
 dropper bottle up and down to facilitate the filing of the dropper. 
 * Unscrew the small white cap from the dropper. 
-* Tilt your head back. Pull down your eyelid with a clean finger, until there is a “pocket” 
+* Tilt your head back. Pull down your eyelid with a clean finger, until there is a  pocket<br />
 between the eyelid and your eye. The drop will go in here (picture 6). </p>
-<p></p>
 <ul>
 <li>Bring the dropper bottle tip close to the eye. Use the mirror if it helps. 
 remove 
@@ -185,17 +184,13 @@ to touch the tip of the dropper with your fingers. </li>
 <li>
 <p>After using Cystadrops, press a finger into the corner of your eye by the nose (picture 7), then 
 gently massage your upper eyelid to spread the eye drops over the eye. </p>
-<pre><code>                                                         
-</code></pre>
 </li>
 <li>
 <p>To avoid potential irritation, remove excess medicine around the eye with a moist tissue 
 (picture 8). </p>
 </li>
 <li>Repeat the step 3 for the other eye. </li>
-<li>Replace the small white cap on the dropper immediately after use. <pre><code>                                                     
-</code></pre>
-</li>
+<li>Replace the small white cap on the dropper immediately after use. </li>
 </ul>
 <p>Step 4: Storing the eye drops after use 
 * Place the dropper bottle into the carton box. 
@@ -262,13 +257,13 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the vial label and the carton after 
 EXP.The expiry date refers to the last day of that month. </p>
 <p>Before opening:<br />
-* Store in a refrigerator (2°C - 8°C). 
+* Store in a refrigerator (2 C - 8 C). 
 * Keep the vial in the outer carton in order to protect from light. </p>
 <p>After first opening: 
 * Write down the date you opened the vial in the space on the carton. 
 * Cystadrops can be used for up to 7 days from the time of opening. 
 * Keep the dropper bottle tightly closed in the outer carton in order to protect from light. 
-* Store below 25°C. 
+* Store below 25 C. 
 * Do not refrigerate. 
 * You must throw away the dropper bottle 7 days after you first opened it even if it is not 
 empty. Use a new vial.  </p>
@@ -284,8 +279,8 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cystadrops contains<br />
 - The active substance is cysteamine (mercaptamine), as hydrochloride. One mL of eye drops 
 solution contains 3.8 mg of cysteamine. 
-- The other ingredients are benzalkonium chloride (see section 2 under ‘Cystadrops contains 
-benzalkonium chloride’), disodium edetate, carmellose sodium, citric acid monohydrate, sodium 
+- The other ingredients are benzalkonium chloride (see section 2 under  Cystadrops contains 
+benzalkonium chloride ), disodium edetate, carmellose sodium, citric acid monohydrate, sodium 
 hydroxide, hydrochloric acid and water for injections. </p>
 <p>What Cystadrops looks like and contents of the pack 
 Cystadrops is a clear and viscous eye drops solution.  </p>
@@ -296,14 +291,14 @@ Cystadrops is a clear and viscous eye drops solution.  </p>
 <p>Not all pack sizes may be marketed in your country </p>
 <p>Marketing Authorisation Holder 
 Recordati Rare Diseases 
-Immeuble “Le Wilson”<br />
-70 Avenue du Général de Gaulle 
+Immeuble  Le Wilson <br />
+70 Avenue du G n ral de Gaulle 
 92800 Puteaux<br />
 France </p>
 <p>Manufacturer 
 Recordati Rare Diseases 
-Immeuble “Le Wilson”<br />
-70 Avenue du Général de Gaulle 
+Immeuble  Le Wilson <br />
+70 Avenue du G n ral de Gaulle 
 92800 Puteaux<br />
 France </p>
 <p>or </p>
@@ -314,23 +309,22 @@ F-92000 Nanterre
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Recordati 
-Tél/Tel: +32 2 46101 Lietuva 
+T l/Tel: +32 2 46101 Lietuva 
 Recordati AB. 
-Tel: + 46 8 545 80 Švedija </p>
-<p>България 
-Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Франция 
+Tel: + 46 8 545 80  vedija </p>
+<p>Recordati Rare Diseases 
+T l: +33 (0)1 47 73 64 <br />
 Luxembourg/Luxemburg 
 Recordati 
-Tél/Tel: +32 2 46101 Belgique/Belgien </p>
-<p>Česká republika 
+T l/Tel: +32 2 46101 Belgique/Belgien </p>
+<p>esk  republika 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Francie </p>
-<p>Magyarország 
+T l: +33 (0)1 47 73 64 Francie </p>
+<p>Magyarorsz g 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Franciaország  </p>
+T l: +33 (0)1 47 73 64 Franciaorsz g  </p>
 <p>Danmark 
 Recordati AB. 
 Tlf : +46 8 545 80 230<br />
@@ -343,7 +337,7 @@ Recordati Rare Diseases Germany GmbH
 Tel: +49 731 140 554 0 
 Nederland 
 Recordati 
-Tel: +32 2 46101 België </p>
+Tel: +32 2 46101 Belgi  </p>
 <p>Eesti 
 Recordati AB. 
 Tel: + 46 8 545 80 230<br />
@@ -351,51 +345,49 @@ Rootsi </p>
 <p>Norge 
 Recordati AB. 
 Tlf : +46 8 545 80 Sverige  </p>
-<p>Ελλάδα 
-Recordati Rare Diseases 
-Τηλ: +33 1 47 73 64 Γαλλία </p>
-<p>Österreich 
+<p>Recordati Rare Diseases 
+ : +33 1 47 73 64   </p>
+<p>sterreich 
 Recordati Rare Diseases Germany GmbH 
 Tel: +49 731 140 554 0 
 Deutschland </p>
-<p>España 
+<p>Espa a 
 Recordati Rare Diseases Spain S.L.U. 
 Tel: + 34 91 659 28 Polska 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Francja  </p>
+T l: +33 (0)1 47 73 64 Francja  </p>
 <p>France 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64<br />
+T l: +33 (0)1 47 73 64<br />
 Portugal 
 Jaba Recordati S.A. 
 Tel: +351 21 432 95<br />
 Hrvatska 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Francuska </p>
-<p>România 
+T l: +33 (0)1 47 73 64 Francuska </p>
+<p>Rom nia 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Franţa  </p>
+T l: +33 (0)1 47 73 64 Fran a  </p>
 <p>Ireland 
 Recordati Rare Diseases 
 Tel: +33 (0)1 47 73 64 France 
 Slovenija 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Francija  </p>
-<p>Ísland 
+T l: +33 (0)1 47 73 64 Francija  </p>
+<p>sland 
 Recordati AB. 
-Simi:+46 8 545 80 Svíþjóð 
-Slovenská republika 
+Simi:+46 8 545 80 Sv j<br />
+Slovensk  republika 
 Recordati Rare Diseases 
-Tél: +33 (0)1 47 73 64 Francúzsko  </p>
+T l: +33 (0)1 47 73 64 Franc zsko  </p>
 <p>Italia 
 Recordati Rare Diseases Italy Srl 
 Tel: +39 02 487 87<br />
 Suomi/Finland 
 Recordati AB. 
 Puh/Tel : +46 8 545 80 Sverige </p>
-<p>Κύπρος 
-Recordati Rare Diseases 
-Τηλ : +33 1 47 73 64 Γαλλία 
+<p>Recordati Rare Diseases 
+  : +33 1 47 73 64 <br />
 Sverige 
 Recordati AB. 
 Tel : +46 8 545 80  </p>

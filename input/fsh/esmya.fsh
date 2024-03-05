@@ -4,7 +4,7 @@ Instance: composition-en-a5f47c93f2a2eb5b88e9129e2aa9f3b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for esmya Package Leaflet"
 Description:  "Composition for esmya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
 of uterine fibroids (commonly known as myomas), which are non-cancerous tumours of the uterus 
 (womb).<br />
 Esmya is used in adult women (over 18 years of age) before they reach the menopause. </p>
-<p>In some women, uterine fibroids may cause heavy menstrual bleeding (your ‘period’), pelvic pain 
+<p>In some women, uterine fibroids may cause heavy menstrual bleeding (your  period ), pelvic pain 
 (discomfort in the belly) and create pressure on other organs. </p>
 <p>This medicine acts by modifying the activity of progesterone, a naturally occuring hormone in the 
 body. It is used for long term treatment of your fibroids to reduce their size, to stop or reduce bleeding 
@@ -106,14 +106,14 @@ If during the treatment you experience any liver related signs such as feeling o
 urine, itching or upper stomach ache, you should stop treatment and immediately contact a 
 doctor, who will check the functioning of your liver and decide if you can continue the 
 treatment. 
-- If you are currently taking hormonal contraception (for example birth control pills) (see “Other 
-medicines and Esmya”) you should use an alternative reliable barrier contraceptive method 
+- If you are currently taking hormonal contraception (for example birth control pills) (see  Other 
+medicines and Esmya ) you should use an alternative reliable barrier contraceptive method 
 (such as a condom) while taking Esmya. 
 - If you have liver or kidney disease tell your doctor or pharmacist before taking Esmya. 
 - If you suffer from severe asthma, treatment with Esmya may not be suitable for you. You 
 should discuss this with your doctor. </p>
 <p>Treatment with Esmya usually leads to a significant reduction or may even stop your menstrual 
-bleeding (your ‘period’) within the first 10 days of treatment. However, if you continue to experience 
+bleeding (your  period ) within the first 10 days of treatment. However, if you continue to experience 
 excessive bleeding tell your doctor. </p>
 <p>Your period should generally return within 4 weeks after treatment with Esmya is stopped. The lining 
 of the uterus may thicken or change as a result of taking Esmya. These changes return to normal after 
@@ -125,19 +125,21 @@ acetate has not been established in this age group. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Tell your doctor or pharmacist if you are taking any of the medicines listed below, as these medicines 
-can affect Esmya or be affected by Esmya: 
-- Certain medicines which are used to treat the heart (e.g. digoxin). 
-- Certain medicines used to prevent strokes and blood clots (e.g. dabigatran etexilate). 
-- Certain medicines used to treat epilepsy (e.g. phenytoin, fosphenytoin, phenobarbital, 
-carbamazepine, oxcarbazepine, primidone). 
-- Certain medicines used to treat HIV infection (e.g. ritonavir, efavirenz, nevirapine). 
-- Medicines used to treat certain bacterial infections (e.g. rifampicin, telithromycin, 
-clarithromycin, erythromycin, rifabutin). 
-- Certain medicines to treat fungal infections (e.g. ketoconazole (except shampoo), itraconazole). 
-- Herbal remedies containing St John’s wort (Hypericum perforatum) used for depression or 
-anxiety. 
-- Certain medicines used to treat depression (e.g. nefazodone). 
-- Certain medicines used to treat hypertension (e.g. verapamil). </p>
+can affect Esmya or be affected by Esmya:</p>
+<ul>
+<li>Certain medicines which are used to treat the heart (e.g. digoxin). </li>
+<li>Certain medicines used to prevent strokes and blood clots (e.g. dabigatran etexilate). </li>
+<li>Certain medicines used to treat epilepsy (e.g. phenytoin, fosphenytoin, phenobarbital, 
+carbamazepine, oxcarbazepine, primidone). </li>
+<li>Certain medicines used to treat HIV infection (e.g. ritonavir, efavirenz, nevirapine). </li>
+<li>Medicines used to treat certain bacterial infections (e.g. rifampicin, telithromycin, 
+clarithromycin, erythromycin, rifabutin). </li>
+<li>Certain medicines to treat fungal infections (e.g. ketoconazole (except shampoo), itraconazole). </li>
+<li>Herbal remedies containing St John s wort (Hypericum perforatum) used for depression or 
+anxiety. </li>
+<li>Certain medicines used to treat depression (e.g. nefazodone). </li>
+<li>Certain medicines used to treat hypertension (e.g. verapamil). </li>
+</ul>
 <p>Esmya is likely to make some hormonal contraceptives less effective. In addition, hormonal 
 contraceptives and progestagens (e.g. norethindrone or levonorgestrel) are also likely to make Esmya 
 less effective. Therefore, hormonal contraceptives are not recommended and you should use an 
@@ -151,11 +153,11 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 not known if Esmya might harm your baby or whether can cause miscarriage). If you do become 
 pregnant during Esmya treatment, you should stop taking Esmya immediately and contact your doctor 
 or pharmacist. </p>
-<p>Esmya is likely to make some hormonal contraceptives less effective (see “Other medicines and 
-Esmya”). 
+<p>Esmya is likely to make some hormonal contraceptives less effective (see  Other medicines and 
+Esmya ). 
 Esmya passes into the breast milk. Therefore, do not breast-feed your baby while taking Esmya. </p>
 <p>Driving and using machines 
-Esmya may cause mild dizziness (see section 4 “Possible side effects”). Do not drive or use machines 
+Esmya may cause mild dizziness (see section 4  Possible side effects ). Do not drive or use machines 
 if you experience these symptoms. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -191,46 +193,56 @@ better, as symptoms may re-occur later. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Stop using Esmya and immediately contact a doctor if you experience any of the following symptoms:<br />
-- swelling of face, tongue or throat; difficulty swallowing; hives and breathing difficulties. These 
-are possible symptoms of angioedema (frequency not known). 
-- nausea or vomiting, severe tiredness, jaundice (yellowing of the eyes or skin), dark urine, itching 
+<p>Stop using Esmya and immediately contact a doctor if you experience any of the following symptoms:</p>
+<ul>
+<li>swelling of face, tongue or throat; difficulty swallowing; hives and breathing difficulties. These 
+are possible symptoms of angioedema (frequency not known). </li>
+<li>nausea or vomiting, severe tiredness, jaundice (yellowing of the eyes or skin), dark urine, itching 
 or upper stomach ache. These symptoms may be signs of liver injury (frequency not known), 
 which in a small number of cases led to liver transplantation. See also section 2 Warnings and 
-precautions.  </p>
-<p>Very common (may affect more than 1 in 10 people) side effects: 
-- reduction or absence of menstrual bleeding (amenorrhea) 
-- thickening of the lining of the womb (endometrial thickening). </p>
-<p>Common (may affect up to 1 in 10 people) side effects: 
-- headache 
-- spinning sensation (vertigo) 
-- stomach ache, feeling sick (nausea) 
-- acne 
-- muscle and bone (musculoskeletal) pain 
-- sac of fluid within the ovaries (ovarian cyst), breast tenderness/pain, lower abdominal (pelvic) 
-pain, hot flushes 
-- tiredness (fatigue) 
-- weight increase. </p>
-<p>Uncommon (may affect up to 1 in 100 people) side effects: 
-- drug allergy 
-- anxiety 
-- mood swings 
-- dizziness 
-- dry mouth, constipation 
-- hair loss, dry skin, increased sweating 
-- back pain 
-- leakage of urine 
-- bleeding from the womb (uterine bleeding), vaginal discharge, abnormal vaginal bleeding, 
-breast discomfort 
-- swelling due to fluid retention (oedema) 
-- extreme tiredness (asthenia) 
-- increase in blood cholesterol seen in blood tests, increase in blood fats (triglycerides) seen in 
-blood tests. </p>
-<p>Rare (may affect up to 1 in 1,000 people) side effects: 
-- nosebleed 
-- indigestion, bloating 
-- break of sac of fluid within the ovaries (ovarian cyst ruptured) 
-- breast swelling. </p>
+precautions.  </li>
+</ul>
+<p>Very common (may affect more than 1 in 10 people) side effects:</p>
+<ul>
+<li>reduction or absence of menstrual bleeding (amenorrhea) </li>
+<li>thickening of the lining of the womb (endometrial thickening). </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people) side effects:</p>
+<ul>
+<li>headache </li>
+<li>spinning sensation (vertigo) </li>
+<li>stomach ache, feeling sick (nausea) </li>
+<li>acne </li>
+<li>muscle and bone (musculoskeletal) pain </li>
+<li>sac of fluid within the ovaries (ovarian cyst), breast tenderness/pain, lower abdominal (pelvic) 
+pain, hot flushes </li>
+<li>tiredness (fatigue) </li>
+<li>weight increase. </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people) side effects:</p>
+<ul>
+<li>drug allergy </li>
+<li>anxiety </li>
+<li>mood swings </li>
+<li>dizziness </li>
+<li>dry mouth, constipation </li>
+<li>hair loss, dry skin, increased sweating </li>
+<li>back pain </li>
+<li>leakage of urine </li>
+<li>bleeding from the womb (uterine bleeding), vaginal discharge, abnormal vaginal bleeding, 
+breast discomfort </li>
+<li>swelling due to fluid retention (oedema) </li>
+<li>extreme tiredness (asthenia) </li>
+<li>increase in blood cholesterol seen in blood tests, increase in blood fats (triglycerides) seen in 
+blood tests. </li>
+</ul>
+<p>Rare (may affect up to 1 in 1,000 people) side effects:</p>
+<ul>
+<li>nosebleed </li>
+<li>indigestion, bloating </li>
+<li>break of sac of fluid within the ovaries (ovarian cyst ruptured) </li>
+<li>breast swelling. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -260,13 +272,13 @@ medicines you no longer use. These measures will help protect the environment. <
 - The other ingredients are microcrystalline cellulose, mannitol, croscarmellose sodium, talc and 
 magnesium stearate. </p>
 <p>What Esmya looks like and contents of the pack 
-Esmya is white to off-white, round curved tablet of 7 mm engraved with code “ES5” on one face. 
+Esmya is white to off-white, round curved tablet of 7 mm engraved with code  ES5  on one face. 
 It is available in Alu/PVC/PE/PVDC blisters in cartons containing 28, 30 and 84 tablets or 
 Alu/PVC/PVDC blisters in cartons containing 28 and 84 tablets. 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Gedeon Richter Plc. 
-Gyömrői út 19-21. 1103 Budapest 
+Gy mr i  t 19-21. 1103 Budapest 
 Hungary </p>
 <p>Manufacturer 
 Cenexi 
@@ -274,7 +286,7 @@ Cenexi
 F-95520 Osny 
 France </p>
 <p>Gedeon Richter Plc. 
-Gyömrői út 19-21. 1103 Budapest 
+Gy mr i  t 19-21. 1103 Budapest 
 Hungary </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information<br />

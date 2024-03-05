@@ -4,7 +4,7 @@ Instance: composition-en-99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizimpro Package Leaflet"
 Description:  "Composition for vizimpro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,8 +71,8 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vizimpro contains the active substance dacomitinib, which belongs to a group of medicines called 
 protein tyrosine kinase inhibitors which are used to treat cancer. </p>
-<p>Vizimpro is used to treat adults with a type of lung cancer called ‘non-small cell lung cancer’. If a test 
-has shown that your cancer has certain changes (mutations) in a gene called ‘EGFR’ (epidermal 
+<p>Vizimpro is used to treat adults with a type of lung cancer called  non-small cell lung cancer . If a test 
+has shown that your cancer has certain changes (mutations) in a gene called  EGFR  (epidermal 
 growth factor receptor) and has spread to your other lung or other organs, your cancer is likely to 
 respond to treatment with Vizimpro. </p>
 <p>Vizimpro can be used as your first treatment once your lung cancer has spread to your other lung or 
@@ -138,7 +138,7 @@ irritated, you should use caution when driving or using machines. </p>
 This medicine contains lactose (found in milk or dairy products). If you have been told by your doctor 
 that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vizimpro"
@@ -170,18 +170,18 @@ use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact your doctor immediately if you notice any of the following side effects – you may need urgent 
+<p>Contact your doctor immediately if you notice any of the following side effects   you may need urgent 
 medical treatment: 
-• Inflammation of the lungs (common, may affect up to 1 in 10 people) 
+  Inflammation of the lungs (common, may affect up to 1 in 10 people) 
 Difficulty in breathing, shortness of breath, possibly with a cough or fever. This may mean 
 that you have an inflammation of the lungs called interstitial lung disease and can be fatal.<br />
-• Diarrhoea (very common, may affect more than 1 in 10 people)<br />
+  Diarrhoea (very common, may affect more than 1 in 10 people)<br />
 Diarrhoea may lead to fluid loss (common), low blood potassium (very common), and 
 worsening kidney function and can be fatal. At first signs of increased frequency of bowel 
 movements, contact your doctor immediately, drink plenty of fluids, and start antidiarrhoea 
 treatment as soon as possible. You should have an anti-diarrhoeal medicine available before 
 you start taking Vizimpro. 
-• Skin rash (very common) 
+  Skin rash (very common) 
 It is important to treat the rash early. Tell your doctor if a rash starts. If treatment for rash is 
 not working or the rash is getting worse (for example, you have peeling or cracking of the 
 skin) you should tell your doctor immediately, since your doctor may decide to stop your 
@@ -189,25 +189,25 @@ treatment with Vizimpro. Rash may occur or worsen in areas exposed to sun. Sun p
 with protective clothing and sunscreen is recommended. </p>
 <p>Tell your doctor as soon as possible if you notice any of the other following side effects: </p>
 <p>Very common (may affect more than 1 in 10 people): 
-• Inflammation of the mouth and lips 
-• Nail problems 
-• Dry skin 
-• Loss of appetite 
-• Dry, red, or itchy eyes 
-• Weight loss 
-• Hair loss 
-• Itching 
-• Abnormal liver enzyme blood tests 
-• Nausea or vomiting 
-• Flushed or painful palms or soles 
-• Tiredness 
-• Weakness 
-• Cracks in the skin </p>
+  Inflammation of the mouth and lips 
+  Nail problems 
+  Dry skin 
+  Loss of appetite 
+  Dry, red, or itchy eyes 
+  Weight loss 
+  Hair loss 
+  Itching 
+  Abnormal liver enzyme blood tests 
+  Nausea or vomiting 
+  Flushed or painful palms or soles 
+  Tiredness 
+  Weakness 
+  Cracks in the skin </p>
 <p>Common (may affect up to 1 in 10 people): 
-• Alteration in taste 
-• Peeling skin 
-• Eyes inflammation 
-• Abnormal amount of body hair growth </p>
+  Alteration in taste 
+  Peeling skin 
+  Eyes inflammation 
+  Abnormal amount of body hair growth </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -242,20 +242,20 @@ Vizimpro 45 mg tablet: each film-coated tablet contains 45 mg dacomitinib
 - The other ingredients are:<br />
 Tablet core: lactose monohydrate, microcrystalline cellulose, sodium starch glycolate, 
 magnesium stearate (see section 2 Vizimpro contains lactose and sodium). 
-Film coating: Opadry II Blue 85F30716 containing polyvinyl alcohol – partially hydrolysed 
+Film coating: Opadry II Blue 85F30716 containing polyvinyl alcohol   partially hydrolysed 
 (E1203), talc (E553b), titanium dioxide (E171), macrogol (E1521), Indigo carmine aluminium 
 lake (E132). </p>
 <p>What Vizimpro looks like and contents of the pack 
 - Vizimpro 15 mg film-coated tablets are supplied as blue film-coated, round biconvex tablets, 
-debossed with “Pfizer” on one side and “DCB15” on the other. </p>
+debossed with  Pfizer  on one side and  DCB15  on the other. </p>
 <ul>
 <li>
 <p>Vizimpro 30 mg film-coated tablets are supplied as blue film-coated, round biconvex tablet, 
-debossed with “Pfizer” on one side and “DCB30” on the other. </p>
+debossed with  Pfizer  on one side and  DCB30  on the other. </p>
 </li>
 <li>
 <p>Vizimpro 45 mg film-coated tablets are supplied as blue film-coated, round biconvex tablet, 
-debossed with “Pfizer” on one side and “DCB45” on the other. </p>
+debossed with  Pfizer  on one side and  DCB45  on the other. </p>
 </li>
 </ul>
 <p>It is available in blister packs of 30 film-coated tablets (tablets). </p>
@@ -265,23 +265,23 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer 
 Pfizer Manufacturing Deutschland GmbH 
-Betriebsstätte Freiburg 
+Betriebsst tte Freiburg 
 Mooswaldallee 1 
 79090 Freiburg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62 Lietuva 
+T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 
-България 
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: +359 2 970 4Magyarország 
+Tel. + 370 52 51 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4Magyarorsz g 
 Pfizer Kft. 
-Tel.: +36-1-488-37-Česká republika 
+Tel.: +36-1-488-37- esk  republika 
 Pfizer, spol. s r.o. 
 Tel.: +420 283 004 Malta 
 Vivian Corporation Ltd. 
@@ -298,48 +298,47 @@ Pfizer AS
 Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal<br />
-Tel.: +372 666 7Österreich 
+Tel.: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
-Tel: +43 (0)1 521 15-0 
-Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ.: +30 210 6785 Polska 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ .: +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.:+48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer<br />
-Tél: +33 (0)1 58 07 34 România 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel.: + 386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka<br />
-Tel.: + 421 2 3355 5Ísland 
++44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
+Tel.: + 421 2 3355 5 sland 
 Icepharma hf. 
-Sími: +354 540 8Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
 Puh./Tel: +358 (0)9 43 00 Italia 
 Pfizer S.r.l. 
 Tel: +39 06 33 18 Sverige<br />
 Pfizer AB 
-Tel: +46 (0)8 550 520 Kύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch)<br />
-Τηλ: +357 22 817United Kingdom (Northern Ireland) 
+Tel: +46 (0)8 550 520 K<br />
+Pfizer    . . (Cyprus Branch)<br />
+ : +357 22 817United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0) 1304 616Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35  </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

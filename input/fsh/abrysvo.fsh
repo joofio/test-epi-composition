@@ -4,7 +4,7 @@ Instance: composition-en-0e4b0f32f27cd3409c6b65f9b73ff49f
 InstanceOf: CompositionUvEpi
 Title: "Composition for abrysvo Package Leaflet"
 Description:  "Composition for abrysvo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Abrysvo is and what it is used for 
-2. What you need to know before you receive Abrysvo 
+2. What you need to know before you receive  Abrysvo 
 3. How Abrysvo is given 
 4. Possible side effects 
 5. How to store Abrysvo 
@@ -82,7 +82,7 @@ adults and people with chronic medical conditions, RSV can worsen illnesses such
 obstructive pulmonary disease (COPD) and congestive heart failure (CHF). RSV can lead to 
 hospitalisation in severe cases and in some cases it can be fatal. </p>
 <p>How Abrysvo works 
-This vaccine helps the immune system (the body’s natural defences) to make antibodies (substances in 
+This vaccine helps the immune system (the body s natural defences) to make antibodies (substances in 
 the blood that help the body fight infections) which protect against lung disease caused by RSV. In 
 pregnant individuals who are vaccinated between weeks 24 and 36 of pregnancy, these antibodies are 
 passed to the infant through the placenta before birth which protects infants when they are at most risk 
@@ -116,7 +116,7 @@ you are given Abrysvo. </p>
 <p>As with any vaccine, Abrysvo may not fully protect all those who receive it. </p>
 <p>Children and adolescents 
 Abrysvo is not recommended in children and young people below 18 years of age except during 
-pregnancy (see ‘Pregnancy’ section below). </p>
+pregnancy (see  Pregnancy  section below). </p>
 <p>Other medicines and Abrysvo 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines 
 or have recently received any other vaccine.  </p>
@@ -130,7 +130,7 @@ Talk to your doctor or nurse for advice before getting this vaccine if you are b
 Abrysvo is unlikely to affect your ability to drive or use machines. </p>
 <p>Abrysvo contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abrysvo"
@@ -149,12 +149,18 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all vaccines, this vaccine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>Rare (may affect up to 1 in 1 000 people) 
-* Guillain-Barré syndrome (a neurological disorder that usually starts with pins and needles and 
+* Guillain-Barr  syndrome (a neurological disorder that usually starts with pins and needles and 
 weakness of the limbs and may progress up to paralysis of part or all of the body). </p>
 <p>Very rare (may affect up to 1 in 10 000 people) 
 * allergic reactions - signs of an allergic reaction include swelling of the face, lips, tongue or 
-throat, hives, difficulty breathing or swallowing and dizziness. See also section 2.<br />
-Tell your doctor immediately if you notice signs of these serious side effects. </p>
+throat, hives, difficulty breathing or swallowing and dizziness. See also section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store abrysvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store abrysvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor immediately if you notice signs of these serious side effects. </p>
 <p>The following side effects were reported in pregnant individuals </p>
 <p>Very common (may affect more than 1 in 10 people) 
 * pain where the injection is given 
@@ -171,7 +177,7 @@ Tell your doctor immediately if you notice signs of these serious side effects. 
 * redness where the injection is given 
 * swelling where the injection is given. </p>
 <p>Rare (may affect up to 1 in 1 000 people) 
-* Guillain-Barré syndrome (see Serious side effects, above). </p>
+* Guillain-Barr  syndrome (see Serious side effects, above). </p>
 <p>Very rare (may affect up to 1 in 10 000 people) 
 * allergic reactions (see Serious side effects, above). </p>
 <p>Reporting of side effects 
@@ -180,153 +186,17 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store abrysvo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store abrysvo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2ºC - 8ºC). </p>
-<p>Do not freeze. Discard if the carton has been frozen. </p>
-<p>After reconstitution Abrysvo should be administered immediately or within 4 hours if stored between 
-15°C and 30°C. Do not freeze. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Abrysvo contains </p>
-<p>The active substances are: 
-RSV subgroup A stabilised prefusion F antigen1,2 
-60 micrograms 
-RSV subgroup B stabilised prefusion F antigen1,2 
-60 micrograms 
-(RSV antigens) 
-1glycoprotein F stabilised in the prefusion conformation 
-2produced in Chinese Hamster Ovary cells by recombinant DNA technology. </p>
-<p>The other ingredients are: 
-Powder 
-* trometamol 
-* trometamol hydrochloride 
-* sucrose 
-* mannitol 
-* polysorbate * sodium chloride 
-* hydrochloric acid 
-Solvent 
-* water for injections </p>
-<p>What Abrysvo looks like and contents of the pack </p>
-<p>Abrysvo is provided as 
-* a white powder in a glass vial 
-* a solvent in a pre-filled syringe to dissolve the powder 
-After dissolving the powder in the solvent, the solution is clear and colourless. 
-Abrysvo is available in 
-* a carton containing 1 vial of powder, 1 pre-filled syringe of solvent, 1 vial adaptor, with 1 
-needle or without needles. 
-* a carton containing 5 vials of powder, 5 pre-filled syringes of solvent, 5 vial adaptors, with 5 
-needles or without needles. 
-* a carton containing 10 vials of powder, 10 pre-filled syringes of solvent, 10 vial adaptors, with 
-10 needles or without needles. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Pfizer Europe MA EEIG 
-Boulevard de la Plaine 17<br />
-1050 Bruxelles<br />
-Belgium </p>
-<p>Manufacturer 
-Pfizer Manufacturing Belgium NV 
-Rijksweg 2870 Puurs-Sint-Amands 
-Belgium </p>
-<p>Pfizer Ireland Pharmaceuticals 
-Grange Castle Business Park 
-Clondalkin, Dublin Ireland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Luxembourg/Luxemburg 
-Pfizer NV/SA 
-Tél/Tel: + 32 (0)2 554 62<br />
-Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
-Tel.: + 371 670 35  </p>
-<p>България 
-Пфайзер Люксембург САРЛ, Клон България 
-Teл: +359 2 970 4 
-Magyarország 
-Pfizer Kft 
-Tel: + 36 1 488 37 Česká republika 
-Pfizer, spol. s r.o.<br />
-Tel: +420 283 004<br />
-Malta 
-Vivian Corporation Ltd. 
-Tel: + 356 21344 
-Danmark 
-Pfizer ApS 
-Tlf: + 45 44 20 11<br />
-Nederland 
-Pfizer bv 
-Tel: +31 (0)800 63 34 636  </p>
-<p>Deutschland 
-PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Norge 
-Pfizer AS 
-Tlf: +47 67 52 61 Eesti 
-Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
-Österreich 
-Pfizer Corporation Austria Ges.m.b.H 
-Tel: +43 (0)1 521 15-0 
-Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ.: +30 210 6785 
-Polska 
-Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61 España 
-Pfizer, S.L. 
-Télf: +34 91 490 99<br />
-Portugal 
-Laboratórios Pfizer, Lda. 
-Tel: +351 21 423 5France 
-Pfizer 
-Tél +33 (0)1 58 07 34<br />
-România 
-Pfizer Romania S.R.L 
-Tel: +40 (0) 21 207 28 Hrvatska 
-Pfizer Croatia d.o.o. 
-Tel: + 385 1 3908<br />
-Slovenija 
-Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
-farmacevtske dejavnosti, Ljubljana 
-Tel.: +386 (0)1 52 11<br />
-Ireland 
-Pfizer Healthcare Ireland 
-Tel: +1800 633 363 (toll free) 
-Tel: +44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
-Tel: + 421 2 3355 5 
-Ísland 
-Icepharma hf. 
-Simi: + 354 540 8 
-Suomi/Finland 
-Pfizer Oy 
-Puh/Tel: +358 (0)9 430  </p>
-<p>Italia 
-Pfizer S.r.l.<br />
-Tel: +39 06 33 18<br />
-Sverige 
-Pfizer AB 
-Tel: +46 (0)8 550 520 Kύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
-Tηλ: +357 22817United Kingdom (Northern Ireland) 
-Pfizer Limited 
-Tel: + 44 (0) 1304 616 </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C - 8 C). </p>
+<p>Do not freeze. Discard if the carton has been frozen. </p>
+<p>After reconstitution Abrysvo should be administered immediately or within 4 hours if stored between 
+15 C and 30 C. Do not freeze. </p>         </div>"""      
 

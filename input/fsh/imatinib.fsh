@@ -4,7 +4,7 @@ Instance: composition-en-47a63fc97978537204b7a7371de13662
 InstanceOf: CompositionUvEpi
 Title: "Composition for imatinib Package Leaflet"
 Description:  "Composition for imatinib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,30 +73,24 @@ Usage: #example
 inhibiting the growth of abnormal cells in the diseases listed below. These include some types of 
 cancer. </p>
 <p>Imatinib Accord is a treatment for adults and children and adolescents for: </p>
-<p>− 
-Chronic myeloid leukaemia (CML). Leukaemia is a cancer of white blood cells. These white 
+<p>Chronic myeloid leukaemia (CML). Leukaemia is a cancer of white blood cells. These white 
 cells usually help the body to fight infection. Chronic myeloid leukaemia is a form of leukaemia 
 in which certain abnormal white cells (named myeloid cells) start growing out of control. </p>
-<p>− 
-Philadelphia chromosome positive acute lymphoblastic leukaemia (Ph-positive ALL). 
+<p>Philadelphia chromosome positive acute lymphoblastic leukaemia (Ph-positive ALL). 
 Leukaemia is a cancer of white blood cells. These white cells usually help the body to fight 
 infection. Acute lymphoblastic leukaemia is a form of leukaemia in which certain abnormal 
 white cells (named lymphoblasts) start growing out of control. Imatinib Accord inhibits the 
 growth of these cells.  </p>
 <p>Imatinib Accord is a treatment for adults for: </p>
-<p>− 
-Myelodysplastic/myeloproliferative diseases (MDS/MPD). These are a group of blood 
+<p>Myelodysplastic/myeloproliferative diseases (MDS/MPD). These are a group of blood 
 diseases in which some blood cells start growing out of control. Imatinib Accord inhibits the 
-growth of these cells in a certain subtype of these diseases. 
-− 
-Hypereosinophilic syndrome (HES) and/or chronic eosinophilic leukaemia (CEL). These 
+growth of these cells in a certain subtype of these diseases. </p>
+<p>Hypereosinophilic syndrome (HES) and/or chronic eosinophilic leukaemia (CEL). These 
 are blood diseases in which some blood cells (named eosinophils) start growing out of control. 
-Imatinib Accord inhibits the growth of these cells in a certain subtype of these diseases. 
-− 
-Gastrointestinal stromal tumours (GIST). GIST is a cancer of the stomach and bowels. It 
+Imatinib Accord inhibits the growth of these cells in a certain subtype of these diseases. </p>
+<p>Gastrointestinal stromal tumours (GIST). GIST is a cancer of the stomach and bowels. It 
 arises from uncontrolled cell growth of the supporting tissues of these organs. </p>
-<p>− 
-Dermatofibrosarcoma protuberans (DFSP). DFSP is a cancer of the tissue beneath the skin in 
+<p>Dermatofibrosarcoma protuberans (DFSP). DFSP is a cancer of the tissue beneath the skin in 
 which some cells start growing out of control. Imatinib Accord inhibits the growth of these cells. </p>
 <p>In the rest of this leaflet, we will use the abbreviations when talking about these diseases. </p>
 <p>If you have any questions about how Imatinib Accord works or why this medicine has been prescribed 
@@ -111,7 +105,7 @@ for you, ask your doctor. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imatinib Accord will only be prescribed to you by a doctor with experience in medicines to treat blood 
 cancers or solid tumours. </p>
-<p>Follow all your doctor’s instructions carefully, even if they differ from the general information 
+<p>Follow all your doctor s instructions carefully, even if they differ from the general information 
 contained in this leaflet. </p>
 <p>Do not take Imatinib Accord </p>
 <ul>
@@ -121,15 +115,17 @@ section 6). </li>
 <p>If this applies to you, tell your doctor without taking Imatinib Accord. </p>
 <p>If you think you may be allergic but are not sure, ask your doctor for advice. </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before taking Imatinib Accord: 
-- if you have or have ever had a liver, kidney or heart problem. 
-- if you are taking the medicine levothyroxine because your thyroid has been removed. 
-- if you have ever had or might now have a hepatitis B infection. This is because Imatinib Accord 
+<p>Talk to your doctor before taking Imatinib Accord:</p>
+<ul>
+<li>if you have or have ever had a liver, kidney or heart problem. </li>
+<li>if you are taking the medicine levothyroxine because your thyroid has been removed. </li>
+<li>if you have ever had or might now have a hepatitis B infection. This is because Imatinib Accord 
 could cause hepatitis B to become active again, which can be fatal in some cases. Patients will 
-be carefully checked by their doctor for signs of this infection before treatment is started. 
-- if you experience bruising, bleeding, fever, fatigue and confusion when taking Imatinib Accord, 
+be carefully checked by their doctor for signs of this infection before treatment is started. </li>
+<li>if you experience bruising, bleeding, fever, fatigue and confusion when taking Imatinib Accord, 
 contact your doctor. This may be a sign of damage to blood vessels known as thrombotic 
-microangiopathy (TMA). </p>
+microangiopathy (TMA). </li>
+</ul>
 <p>If any of these apply to you, tell your doctor before taking Imatinib Accord. </p>
 <p>You may become more sensitive to the sun while taking Imatinib Accord. It is important to cover sun-
 exposed areas of skin and use sunscreen with high sun protection factor (SPF). These precautions are 
@@ -148,7 +144,7 @@ doctor will monitor the growth at regular visits. </p>
 <p>Other medicines and Imatinib Accord </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription (such as paracetamol) and including 
-herbal medicines (such as St. John’s Wort). Some medicines can interfere with the effect of Imatinib 
+herbal medicines (such as St. John s Wort). Some medicines can interfere with the effect of Imatinib 
 Accord when taken together. They may increase or decrease the effect of Imatinib Accord, either 
 leading to increased side effects or making Imatinib Accord less effective. Imatinib Accord may do the 
 same to some other medicines. </p>
@@ -187,39 +183,35 @@ straight away. </p>
 <p>How much Imatinib Accord to take </p>
 <p>Use in adults </p>
 <p>Your doctor will tell you exactly how many tablets of Imatinib Accord to take. </p>
-<p>− 
-If you are being treated for CML 
-Depending on your condition the usual starting dose is either 400 mg or 600 mg: 
-- 400 mg to be taken as 4 tablets of 100 mg or 1 tablet of 400 mg once a day 
-- 600 mg to be taken as 6 tablets of 100 mg or 1 tablet of 400 mg plus 2 tablets of 100 mg 
-once a day. </p>
-<p>− 
-If you are being treated for GIST 
+<p>If you are being treated for CML 
+Depending on your condition the usual starting dose is either 400 mg or 600 mg:</p>
+<ul>
+<li>400 mg to be taken as 4 tablets of 100 mg or 1 tablet of 400 mg once a day </li>
+<li>600 mg to be taken as 6 tablets of 100 mg or 1 tablet of 400 mg plus 2 tablets of 100 mg 
+once a day. </li>
+</ul>
+<p>If you are being treated for GIST 
 The starting dose is 400 mg, to be taken once a day. </p>
 <p>For CML and GIST, your doctor may prescribe a higher or lower dose depending on how you respond 
 to the treatment. If your daily dose is 800 mg (8 tablets of 100 mg or 2 tablets of 400 mg). You should 
 take 4 tablets of 100 mg or 1 tablet of 400 mg in the morning and 4 tablets of 100 mg or 1 tablet of 
 400 mg in the evening.  </p>
-<p>− 
-If you are being treated for Ph-positive ALL 
+<p>If you are being treated for Ph-positive ALL 
 The starting dose is 600 mg to be taken as 6 tablets of 100 mg or one tablet of 400 mg plus 
 2 tablets of 100 mg once a day. </p>
-<p>− 
-If you are being treated for MDS/MPD 
+<p>If you are being treated for MDS/MPD 
 The starting dose is 400 mg to be taken as 4 tablets of 100 mg or one tablet of 400 mg once a 
 day. </p>
-<p>− 
-If you are being treated for HES/CEL 
+<p>If you are being treated for HES/CEL 
 The starting dose is 100 mg, to be taken as one tablet of 100 mg once a day. Your doctor may 
 decide to increase the dose to 400 mg, to be taken as 4 tablets of 100 mg or one tablet of 400 mg 
 once a day, depending on how you respond to treatment. </p>
-<p>− 
-If you are being treated for DFSP 
+<p>If you are being treated for DFSP 
 The dose is 800 mg per day (to be taken as 4 tablets of 100 mg or 1 tablet of 400 mg in the 
 morning and 4 tablets of 100 mg or 1 tablet of 400 mg in the evening. </p>
 <p>Use in children and adolescents </p>
 <p>The doctor will tell you how many tablets of Imatinib Accord to give to your child. The amount of 
-Imatinib Accord given will depend on your child’s condition, body weight and height. The total daily 
+Imatinib Accord given will depend on your child s condition, body weight and height. The total daily 
 dose in children and adolescents must not exceed 800 mg with CML and 600 mg with Ph+ALL. The 
 treatment can either be given to your child as a once-daily dose or alternatively the daily dose can be 
 split into two administrations (half in the morning and half in the evening). </p>
@@ -286,7 +278,7 @@ blood cells). </li>
 <li>Eye pain or deterioration in vision, bleeding in the eyes. </li>
 <li>Pain in bones or joints (signs of osteonecrosis).  </li>
 <li>Blisters on skin or mucous membranes (signs of pemphigus). </li>
-<li>Numb or cold toes and fingers (signs of Raynaud’s syndrome). </li>
+<li>Numb or cold toes and fingers (signs of Raynaud s syndrome). </li>
 <li>Sudden swelling and redness of the skin (signs of a skin infection called cellulitis). </li>
 <li>Difficulty hearing. </li>
 <li>Muscle weakness and spasms with an abnormal heart rhythm (signs of changes in the amount of 
@@ -415,13 +407,15 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store imatinib"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and blister after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<ul>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after 
+ EXP . The expiry date refers to the last day of that month. </p>
+</li>
 <li>
 <p>For PVC/PVdC/Alu blisters 
-Do not store above 30°C. </p>
+Do not store above 30 C. </p>
 </li>
 <li>
 <p>For Alu/Alu blisters 
@@ -452,9 +446,9 @@ magnesium stearate and anhydrous colloidal silica.The tablet coating is made of 
 </ul>
 <p>What Imatinib Accord looks like and contents of the pack </p>
 <p>Imatinib Accord 100 mg film-coated tablets are brownish orange, round biconvex, film-coated tablets, 
-debossed on one side with ‘IM’ and ‘T1’ on either side of breakline and plain on the other side. </p>
+debossed on one side with  IM  and  T1  on either side of breakline and plain on the other side. </p>
 <p>Imatinib Accord 400 mg film-coated tablets are brownish orange, oval shaped, biconvex, film-coated 
-tablets, debossed on one side with ‘IM’ and ‘T2’ on either side of breakline and plain on the other side. </p>
+tablets, debossed on one side with  IM  and  T2  on either side of breakline and plain on the other side. </p>
 <p>Imatinib Accord 100 mg film-coated tablets are supplied in packs containing 20, 60, 120 or 
 180 tablets, but these may not all be available in your country. </p>
 <p>Additionally Imatinib Accord 100 mg tablets are also available in perforated unit dose blister packs 
@@ -466,7 +460,7 @@ these may not all be available in your country. </p>
 <p>Marketing Authorisation Holder </p>
 <p>Accord Healthcare S.L.U.<br />
 World Trade Center, Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
+Edifici Est 6  planta,<br />
 08039 Barcelona,<br />
 Spain  </p>
 <p>Manufacturer </p>

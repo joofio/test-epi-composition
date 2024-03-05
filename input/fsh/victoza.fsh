@@ -4,7 +4,7 @@ Instance: composition-en-141d929731a8da3daac9f9a16668bc62
 InstanceOf: CompositionUvEpi
 Title: "Composition for victoza Package Leaflet"
 Description:  "Composition for victoza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,9 +86,8 @@ sugar levels. These may include:
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take victoza"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Victoza 
-– 
-if you are allergic to liraglutide or any of the other ingredients of this medicine (listed in section 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Victoza </p>
+<p>if you are allergic to liraglutide or any of the other ingredients of this medicine (listed in section 
 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse: 
@@ -142,7 +141,7 @@ machines if you experience signs of hypoglycaemia. Please see section 4 for the 
 blood sugar. Please consult your doctor for further information on this topic. </p>
 <p>Important information about some of the ingredients of Victoza 
 This medicine contains less than 1 mmol sodium (23 mg) per dose. This means that it is essentially 
-‘sodium free’. </p>         </div>"""   
+ sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take victoza"
@@ -257,13 +256,13 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store victoza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the pen label and carton after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the pen label and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Before opening: 
-Store in a refrigerator (2˚C–8˚C). Do not freeze. Keep away from the freezer compartment. </p>
+Store in a refrigerator (2 C 8 C). Do not freeze. Keep away from the freezer compartment. </p>
 <p>During use: 
-You can keep the pen for 1 month when stored at a temperature below 30˚C or in a refrigerator (2˚C–
-8˚C), away from the freezer compartment. Do not freeze. 
+You can keep the pen for 1 month when stored at a temperature below 30 C or in a refrigerator (2 C 
+8 C), away from the freezer compartment. Do not freeze. 
 When you are not using the pen, keep the pen cap on in order to protect from light. </p>
 <p>Do not use this medicine if the solution is not clear and colourless or almost colourless. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -275,12 +274,10 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Victoza contains 
-– 
-The active substance is liraglutide. 1 ml solution for injection contains 6 mg liraglutide. One 
-pre-filled pen contains 18 mg liraglutide. 
-– 
-The other ingredients are disodium phosphate dihydrate, propylene glycol, phenol and water for 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Victoza contains </p>
+<p>The active substance is liraglutide. 1 ml solution for injection contains 6 mg liraglutide. One 
+pre-filled pen contains 18 mg liraglutide. </p>
+<p>The other ingredients are disodium phosphate dihydrate, propylene glycol, phenol and water for 
 injections. </p>
 <p>What Victoza looks like and contents of the pack 
 Victoza is supplied as a clear, and colourless or almost colourless, solution for injection in a pre-filled 
@@ -290,8 +287,8 @@ Victoza is available in packs containing 1, 2, 3, 5 or 10 pens. Not all pack siz
 Needles are not included. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Novo Nordisk A/S 
-Novo Allé 
-DK-2880 Bagsværd 
+Novo All<br />
+DK-2880 Bagsv rd 
 Denmark </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
@@ -323,14 +320,14 @@ needle. </p>
 * Do not try to repair your pen or pull it apart. 
 * Keep your pen away from dust, dirt and all kinds of liquids. 
 * Clean the pen with a cloth moistened with a mild detergent. 
-* Do not try to wash, soak or lubricate it – this can harm the pen. </p>
+* Do not try to wash, soak or lubricate it   this can harm the pen. </p>
 <p>Important information 
 * Do not share your pen or needles with anyone else. 
 * Keep your pen out of the reach of others, especially children. 
 With each new pen, check the flow </p>
 <p>Check the flow before your first injection with each 
-new pen. If your pen is already in use, go to ‘Select 
-your dose’, step H. </p>
+new pen. If your pen is already in use, go to  Select 
+your dose , step H. </p>
 <p>Turn the dose selector until the flow check symbol lines 
 up with the pointer. </p>
 <p>Hold the pen with the needle pointing up. Tap the 
@@ -360,5 +357,50 @@ dose selector backwards, as liraglutide may come out. </p>
 with the pointer, there is not enough liraglutide left for a 
 full dose. Then you can either: </p>
 <p>Split your dose into two injections: 
-Turn the dose selector in either direction until 0.6 mg or </p>         </div>"""      
+Turn the dose selector in either direction until 0.6 mg or 
+1.2 mg lines up with the pointer. Inject the dose. Then 
+prepare a new pen for injection and inject the remaining 
+number of mg to complete your dose. </p>
+<p>You may only split your dose between your current pen 
+and a new pen if trained or advised by your healthcare 
+professional. Use a calculator to plan the doses. If you 
+split the dose wrong, you may inject too much or too little 
+liraglutide. </p>
+<p>Inject the full dose with a new pen: 
+If the dose selector stops before 0.6 mg lines up with the 
+pointer, prepare a new pen and inject the full dose with 
+the new pen. </p>
+<p>Do not try to select other doses than 0.6 mg, 1.2 mg or 1.8 mg. The numbers in the display 
+must line up precisely with the pointer to ensure that you get the correct dose. 
+The dose selector clicks when you turn it. Do not use these clicks to select your dose. 
+Do not use the cartridge scale to measure how much liraglutide to inject   it is not accurate 
+enough. 
+Inject your dose </p>
+<p>Insert the needle into your skin using the injection 
+technique shown by your doctor or nurse. Then follow 
+the instructions below: </p>
+<p>Press the dose button to inject until 0 mg lines up with the 
+pointer. Be careful not to touch the display with your 
+other fingers or press the dose selector sideways when 
+you inject. This is because it may block the injection. 
+Keep the dose button pressed down and leave the needle 
+under the skin for at least 6 seconds. This is to make sure 
+that you get your full dose.  </p>
+<p>Pull out the needle. 
+After that, you may see a drop liraglutide at the needle 
+tip. 
+This is normal and does not affect your dose. </p>
+<p>Guide the needle tip into the outer needle cap without 
+touching the needle or the outer needle cap. </p>
+<p>When the needle is covered, carefully push the outer 
+needle cap completely on. Then unscrew the needle. 
+Dispose of it carefully and put the pen cap back on. </p>
+<p>When the pen is empty, carefully dispose of it without a 
+needle attached. Please dispose of the pen and needle in 
+accordance with local requirements. </p>
+<p>Always remove the needle after each injection, and store your pen without a needle attached. </p>
+<p>This reduces the risk of contamination, infection, leakage of liraglutide, blocked needles and 
+inaccurate dosing. </p>
+<p>Caregivers must be very careful when handling used needles   to prevent needle injury and 
+cross-infection. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-b811ffa8d83d17ddd48f696870f998c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kauliv Package Leaflet"
 Description:  "Composition for kauliv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -82,42 +82,32 @@ also occur in men. Osteoporosis is also common in patients receiving medicines c
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take kauliv"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Kauliv 
-•<br />
-if you are allergic to teriparatide or any of the other ingredients of this medicine (listed in    <br />
-section  6). 
-•<br />
-if you have high levels of calcium in your blood (pre-existing hypercalcaemia).<br />
-*  if you suffer from serious kidney problems.<br />
-•<br />
-if you have ever had bone cancer or if other cancers have spread (metastasised) to your bones.<br />
-•<br />
-if you have certain bone diseases. If you have a bone disease, tell your doctor.<br />
-•<br />
-if you have unexplained high levels of alkaline phosphatase in your blood, which means you 
-might have Paget’s disease of bone (disease with abnormal bone changes). If you are not sure, 
-ask your doctor. 
-•<br />
-if you have had radiation therapy involving your bones.<br />
-•<br />
-if you are pregnant or breast-feeding.  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Kauliv </p>
+<p>if you are allergic to teriparatide or any of the other ingredients of this medicine (listed in    <br />
+section  6). </p>
+<p>if you have high levels of calcium in your blood (pre-existing hypercalcaemia).<br />
+*  if you suffer from serious kidney problems.  </p>
+<p>if you have ever had bone cancer or if other cancers have spread (metastasised) to your bones.  </p>
+<p>if you have certain bone diseases. If you have a bone disease, tell your doctor.  </p>
+<p>if you have unexplained high levels of alkaline phosphatase in your blood, which means you 
+might have Paget s disease of bone (disease with abnormal bone changes). If you are not sure, 
+ask your doctor. </p>
+<p>if you have had radiation therapy involving your bones.  </p>
+<p>if you are pregnant or breast-feeding.  </p>
 <p>Warnings and precautions 
 Kauliv may cause an increase in the amount of calcium in your blood or urine.  </p>
-<p>Talk to your doctor before or while using Kauliv:<br />
-•<br />
-if you have continuing nausea, vomiting, constipation, low energy, or muscle weakness. These 
-may be signs there is too much calcium in your blood.<br />
-•<br />
-if you suffer from kidney stones or have had kidney stones.<br />
-•<br />
-if you suffer from kidney problems (moderate renal impairment).  </p>
+<p>Talk to your doctor before or while using Kauliv:  </p>
+<p>if you have continuing nausea, vomiting, constipation, low energy, or muscle weakness. These 
+may be signs there is too much calcium in your blood.  </p>
+<p>if you suffer from kidney stones or have had kidney stones.  </p>
+<p>if you suffer from kidney problems (moderate renal impairment).  </p>
 <p>Some patients get dizzy or get a fast heartbeat after the first few doses of Kauliv. For the first doses, 
 inject Kauliv in a place where you can sit or lie down right away if you get dizzy.  </p>
 <p>The recommended treatment time of 24 months should not be exceeded.  </p>
 <p>Before inserting a cartridge in Kauliv pen write down the batch (Lot) number of the cartridge and its 
 first injection date on a calendar and provide this information when reporting any side effects. The 
 date of first injection should also be recorded on the outer carton of Kauliv cartridge (see the provided 
-space on the box: “First use”) (see section 3.).  </p>
+space on the box:  First use ) (see section 3.).  </p>
 <p>Kauliv should not be used in growing adults.  </p>
 <p>Children and adolescents<br />
 Kauliv should not be used in children and adolescents (aged less than 18 years).  </p>
@@ -135,7 +125,7 @@ Some patients may feel dizzy after injecting Kauliv. If you feel dizzy you shoul
 machines until you feel better.  </p>
 <p>Kauliv contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-“sodium-free”.  </p>         </div>"""   
+ sodium-free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kauliv"
@@ -182,7 +172,7 @@ Check the expiry date on the cartridge label before inserting the cartridge into
 sure that there are at least 28 days remaining before its expiry date. Insert the cartridge into the
 pen before the first use as detailed in the pen instructions. Write down the batch (Lot) number of
 each cartridge and its first injection date on a calendar. The date of first injection should also be
-recorded on the outer carton of Kauliv cartridge (see the provided space on the box: “First use“).
+recorded on the outer carton of Kauliv cartridge (see the provided space on the box:  First use ).
 -
 After inserting a new cartridge and before the first injection from this cartridge, prime the pen
 according to the instructions which are provided with the pen IFU. Please ensure to prime
@@ -236,73 +226,43 @@ breathlessness, swelling of the face, rash and chest pain. These reactions usual
 injection. In rare cases, serious and potentially life-threatening allergic reactions including anaphylaxis 
 can occur.  </p>
 <p>Other side effects include:<br />
-Common (may affect up to 1 in 10 people)<br />
-•<br />
-increase in blood cholesterol levels<br />
-•<br />
-depression<br />
-•<br />
-nerve pain in the leg<br />
-•<br />
-feeling faint<br />
-•<br />
-spinning sensation<br />
-•<br />
-irregular heartbeats<br />
-•<br />
-breathlessness<br />
-•<br />
-increased sweating<br />
-•<br />
-muscle cramps<br />
-•<br />
-loss of energy<br />
-•<br />
-tiredness<br />
-•<br />
-chest pain<br />
-•<br />
-low blood pressure<br />
-•<br />
-heartburn (painful or burning sensation just below the breast bone)<br />
-•<br />
-being sick (vomiting)<br />
-•<br />
-a hernia of the tube that carries food to your stomach (hiatus hernia)<br />
-•<br />
-low haemoglobin or red blood cell count (anaemia).  </p>
-<p>Uncommon (may affect up to 1 in 100 people) 
-•<br />
-increased heart rate<br />
-•<br />
-abnormal heart sound<br />
-•<br />
-shortness of breath<br />
-•<br />
-piles (haemorrhoids)<br />
-•<br />
-leakage of urine<br />
-•<br />
-increased need to pass water  </p>
+Common (may affect up to 1 in 10 people)  </p>
+<p>increase in blood cholesterol levels  </p>
+<p>depression  </p>
+<p>nerve pain in the leg  </p>
+<p>feeling faint  </p>
+<p>spinning sensation  </p>
+<p>irregular heartbeats  </p>
+<p>breathlessness  </p>
+<p>increased sweating  </p>
+<p>muscle cramps  </p>
+<p>loss of energy  </p>
+<p>tiredness  </p>
+<p>chest pain  </p>
+<p>low blood pressure  </p>
+<p>heartburn (painful or burning sensation just below the breast bone)  </p>
+<p>being sick (vomiting)  </p>
+<p>a hernia of the tube that carries food to your stomach (hiatus hernia)  </p>
+<p>low haemoglobin or red blood cell count (anaemia).  </p>
+<p>Uncommon (may affect up to 1 in 100 people) </p>
+<p>increased heart rate  </p>
+<p>abnormal heart sound  </p>
+<p>shortness of breath  </p>
+<p>piles (haemorrhoids)  </p>
+<p>leakage of urine  </p>
+<p>increased need to pass water  </p>
 <ul>
-<li>weight increase<br />
-•<br />
-kidney stones<br />
-•<br />
-pain in the muscles and pain in the joints. Some patients have had severe back cramps or pain 
-which led to admission into hospital.<br />
-•<br />
-increase in blood calcium level<br />
-•<br />
-increase in blood uric acid level<br />
-•<br />
-increase in an enzyme called alkaline phosphatase.  </li>
+<li>weight increase  </li>
 </ul>
-<p>Rare (may affect up to 1 in 1 000 people) 
-•<br />
-reduced kidney function, including renal failure<br />
-•<br />
-swelling, mainly in the hands, feet and legs.  </p>
+<p>kidney stones  </p>
+<p>pain in the muscles and pain in the joints. Some patients have had severe back cramps or pain 
+which led to admission into hospital.  </p>
+<p>increase in blood calcium level  </p>
+<p>increase in blood uric acid level  </p>
+<p>increase in an enzyme called alkaline phosphatase.  </p>
+<p>Rare (may affect up to 1 in 1 000 people) </p>
+<p>reduced kidney function, including renal failure  </p>
+<p>swelling, mainly in the hands, feet and legs.  </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -317,10 +277,10 @@ of this medicine.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the cartridge after 
 EXP. The expiry date refers to the last day of that month.  </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze.<br />
+<p>Store in a refrigerator (2  C   8  C). Do not freeze.<br />
 Keep the cartridge in the outer carton in order to protect from light.  </p>
 <p>You can use Kauliv for up to 28 days after the first injection, as long as the cartridge/pen with the 
-cartridge inserted is stored in a refrigerator (2 °C to 8 °C). The cartridge/pen can additionally be placed 
+cartridge inserted is stored in a refrigerator (2  C to 8  C). The cartridge/pen can additionally be placed 
 in the pouch supplied with the pen in order to protect from light. </p>
 <p>Avoid placing the cartridge close to the ice compartment of the refrigerator to prevent freezing. Do not 
 use Kauliv if it is, or has been, frozen.  </p>
@@ -337,15 +297,14 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kauliv contains<br />
--<br />
-The active substance is teriparatide. Each dose of 80 microliters contains 20 micrograms of 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Kauliv contains</h2>
+<p>The active substance is teriparatide. Each dose of 80 microliters contains 20 micrograms of 
 teriparatide. Each cartridge of 3 mL contains 750 micrograms of teriparatide (corresponding to 
 250 micrograms per mL).<br />
 -<br />
 The other ingredients are: anhydrous sodium acetate, glacial acetic acid, mannitol, metacresol, 
 diluted hydrochloric acid (for pH adjustment), sodium hydroxide (for pH adjustment), water for 
-injections. See section 2. “Kauliv contains sodium”. </p>
+injections. See section 2.  Kauliv contains sodium . </p>
 <p>What Kauliv looks like and contents of the pack<br />
 Kauliv is a colourless and clear solution for injection. It is supplied in a cartridge. Each cartridge 
 contains 3 mL of solution, adequate for 28 doses.<br />

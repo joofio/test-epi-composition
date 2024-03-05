@@ -4,7 +4,7 @@ Instance: composition-en-9291fddf7fee8d0f0e396206f1f18b06
 InstanceOf: CompositionUvEpi
 Title: "Composition for ninlaro Package Leaflet"
 Description:  "Composition for ninlaro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code.text =  "1. What ninlaro is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NINLARO is 
-NINLARO is a cancer medicine that contains ixazomib, a ‘proteasome inhibitor’. </p>
+NINLARO is a cancer medicine that contains ixazomib, a  proteasome inhibitor . </p>
 <p>NINLARO is used to treat a cancer of the bone marrow called multiple myeloma. Its active substance 
 ixazomib works by blocking the action of proteasomes. These are structures inside the cell that digest 
 proteins and are important for cell survival. Because myeloma cells produce a lot of proteins, blocking 
@@ -118,7 +118,7 @@ Tell your doctor, pharmacist or nurse if you are taking, have recently taken or 
 medicines. This includes any medicines obtained without a prescription, such as vitamins or herbal 
 remedies. This is because other medicines can affect the way NINLARO works. In particular, tell your 
 doctor, pharmacist or nurse if you are taking any of the following medicines: carbamazepine, 
-phenytoin, rifampicin and St. John’s wort (Hypericum perforatum). These medicines should be 
+phenytoin, rifampicin and St. John s wort (Hypericum perforatum). These medicines should be 
 avoided as they may reduce the effectiveness of NINLARO. </p>
 <p>Pregnancy and breast-feeding 
 NINLARO is not recommended during pregnancy as it may harm your unborn baby. Breast-feeding 
@@ -185,7 +185,7 @@ due.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Dosing schedule: NINLARO taken with lenalidomide and dexamethasone 
-Take medicine 
+ Take medicine 
 28-day cycle (a 4-week cycle) </p>
 <p>Week 1 
 Week 2 
@@ -199,22 +199,12 @@ Days<br />
 9 to Day 
 Days<br />
 16 to Day 
-Days to NINLARO 
- </p>
-<p> </p>
-<p> </p>
-<p>Lenalidomide 
- 
-Daily 
- 
-Daily 
- 
-Daily </p>
-<p>Dexamethasone 
- </p>
-<p> </p>
-<p> </p>
-<p> </p>
+Days to NINLARO </p>
+<p>Lenalidomide </p>
+<p>Daily </p>
+<p>Daily </p>
+<p>Daily </p>
+<p>Dexamethasone </p>
 <p>Tell your doctor or pharmacist straight away if you notice any of these following very common 
 serious side effects which may affect more than 1 in 10 people: 
 * low platelet counts (thrombocytopenia) which may increase the risk of nose bleeds and you may 
@@ -226,7 +216,7 @@ easily bruise<br />
 </em> cough, chest soreness or pain, or nasal congestion (bronchitis) </p>
 <p>Additionally, tell a doctor immediately if you notice any of these following rare side effects which 
 may affect up to 1 in 1 000 people:<br />
-* severe skin rashes such as red to purple bumps (Sweet’s syndrome) or rash with skin peeling 
+* severe skin rashes such as red to purple bumps (Sweet s syndrome) or rash with skin peeling 
 and mouth sores (Stevens-Johnson syndrome) 
 * muscle weakness, loss of feelings of the toes and feet or loss of leg movement (transverse 
 myelitis) 
@@ -270,7 +260,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister, wallet and carton after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 °C. Do not freeze.  </p>
+<p>Do not store above 30  C. Do not freeze.  </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not remove the capsule until you need to take a dose. </p>
 <p>Do not use this medicine if you notice any damage or signs of tampering to medicine packaging. </p>
@@ -284,37 +274,43 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NINLARO contains<br />
-NINLARO 2.3 mg hard capsule:<br />
-- The active substance is ixazomib. Each capsule contains 2.3 mg of ixazomib (as 3.3 mg of 
-ixazomib citrate). 
-- The other ingredients are: 
-* In the capsule: microcrystalline cellulose, magnesium stearate and talc. 
-* The capsule shell contains: gelatin, titanium dioxide (E171) and red iron oxide (E172)<br />
-* The printing ink contains: shellac, propylene glycol, potassium hydroxide, and black iron </p>
+NINLARO 2.3 mg hard capsule:</p>
+<ul>
+<li>The active substance is ixazomib. Each capsule contains 2.3 mg of ixazomib (as 3.3 mg of 
+ixazomib citrate). </li>
+<li>The other ingredients are: </li>
+<li>In the capsule: microcrystalline cellulose, magnesium stearate and talc. </li>
+<li>The capsule shell contains: gelatin, titanium dioxide (E171) and red iron oxide (E172)  </li>
+<li>The printing ink contains: shellac, propylene glycol, potassium hydroxide, and black iron </li>
+</ul>
 <p>oxide (E172). </p>
-<p>NINLARO 3 mg hard capsule:<br />
-- The active substance is ixazomib. Each capsule contains 3 mg of ixazomib (as 4.3 mg of 
-ixazomib citrate).<br />
-- The other ingredients are: 
-* In the capsule: microcrystalline cellulose, magnesium stearate and talc. 
-* The capsule shell contains: gelatin, titanium dioxide (E171) and black iron oxide (E172)<br />
-* The printing ink contains: shellac, propylene glycol, potassium hydroxide, and black iron 
-oxide (E172). </p>
-<p>NINLARO 4 mg hard capsule:<br />
-- The active substance is ixazomib. Each capsule contains 4 mg of ixazomib (as 5.7 mg of 
-ixazomib citrate).<br />
-- The other ingredients are 
-* In the capsule: microcrystalline cellulose, magnesium stearate and talc. 
-* The capsule shell contains: gelatin, titanium dioxide (E171), yellow iron oxide (E172) 
-and red iron oxide (E172)<br />
-* The printing ink contains: shellac, propylene glycol, potassium hydroxide, and black iron 
-oxide (E172). </p>
+<p>NINLARO 3 mg hard capsule:</p>
+<ul>
+<li>The active substance is ixazomib. Each capsule contains 3 mg of ixazomib (as 4.3 mg of 
+ixazomib citrate).  </li>
+<li>The other ingredients are: </li>
+<li>In the capsule: microcrystalline cellulose, magnesium stearate and talc. </li>
+<li>The capsule shell contains: gelatin, titanium dioxide (E171) and black iron oxide (E172)  </li>
+<li>The printing ink contains: shellac, propylene glycol, potassium hydroxide, and black iron 
+oxide (E172). </li>
+</ul>
+<p>NINLARO 4 mg hard capsule:</p>
+<ul>
+<li>The active substance is ixazomib. Each capsule contains 4 mg of ixazomib (as 5.7 mg of 
+ixazomib citrate).  </li>
+<li>The other ingredients are </li>
+<li>In the capsule: microcrystalline cellulose, magnesium stearate and talc. </li>
+<li>The capsule shell contains: gelatin, titanium dioxide (E171), yellow iron oxide (E172) 
+and red iron oxide (E172)  </li>
+<li>The printing ink contains: shellac, propylene glycol, potassium hydroxide, and black iron 
+oxide (E172). </li>
+</ul>
 <p>What NINLARO looks like and contents of the pack 
-NINLARO 2.3 mg hard capsule: Light pink, size 4, marked “Takeda” on the cap and “2.3 mg” on the 
+NINLARO 2.3 mg hard capsule: Light pink, size 4, marked  Takeda  on the cap and  2.3 mg  on the 
 body with black ink. </p>
-<p>NINLARO 3 mg hard capsule: Light grey, size 4, marked “Takeda” on the cap and “3 mg” on the 
+<p>NINLARO 3 mg hard capsule: Light grey, size 4, marked  Takeda  on the cap and  3 mg  on the 
 body with black ink. </p>
-<p>NINLARO 4 mg hard capsule: Light orange, size 3, marked “Takeda” on the cap and “4 mg” on the 
+<p>NINLARO 4 mg hard capsule: Light orange, size 3, marked  Takeda  on the cap and  4 mg  on the 
 body with black ink. </p>
 <p>Each pack contains 3 hard capsules (three single cartons, each containing a blister sealed inside a 
 wallet. Each blister contains one capsule). </p>
@@ -329,30 +325,28 @@ Nangor Road
 Dublin D22 XRIreland </p>
 <p>Takeda GmbH 
 Takeda (Werk Singen) 
-Robert Bosch Straße 8 
+Robert Bosch Stra e 8 
 78224 Singen 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 11<br />
+T l/Tel: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB<br />
 Tel: +370 521 09 070<br />
 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: + 359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>.: + 359 2 958 27 medinfoEMEA@takeda.com  </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 11<br />
+T l/Tel: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o.<br />
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft.<br />
 Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
@@ -375,30 +369,29 @@ medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS<br />
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Takeda ΕΛΛΑΣ Α.Ε.<br />
-Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Österreich 
+<p>Takeda    . .<br />
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
 Tel: +43 (0) 800-20 80 50<br />
 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España, S.A.<br />
+<p>Espa a 
+Takeda Farmac utica Espa a, S.A.<br />
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
 <p>Polska 
 Takeda Pharma Sp. z o.o. 
 Tel.: +48223062medinfoEMEA@takeda.com </p>
 <p>France 
 Takeda France SAS 
-Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
+Takeda Farmac uticos Portugal, Lda. 
 Tel: + 351 21 120 1457<br />
 medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o.<br />
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
+<p>Rom nia 
 Takeda Pharmaceuticals SRL<br />
 Tel: +40 21 335 03 91<br />
 medinfoEMEA@takeda.com </p>
@@ -406,13 +399,13 @@ medinfoEMEA@takeda.com </p>
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf.<br />
-Sími: +354 535 7000<br />
+S mi: +354 535 7000<br />
 medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o.<br />
 Tel: +421 (2) 20 602 600<br />
 medinfoEMEA@takeda.com </p>
@@ -422,9 +415,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-A.POTAMITIS MEDICARE LTD 
-Tηλ: +357 22583a.potamitismedicare@cytanet.com.cy </p>
+<p>A.POTAMITIS MEDICARE LTD 
+T : +357 22583a.potamitismedicare@cytanet.com.cy </p>
 <p>Sverige 
 Takeda Pharma AB<br />
 Tel: 020 795 079<br />

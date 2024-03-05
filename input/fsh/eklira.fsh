@@ -4,7 +4,7 @@ Instance: composition-en-8a4d23dcb809afdd72ca3100738e1a7e
 InstanceOf: CompositionUvEpi
 Title: "Composition for eklira Package Leaflet"
 Description:  "Composition for eklira Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Eklira Genuair 
 4. Possible side effects 
 5. How to store Eklira Genuair 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -91,19 +90,23 @@ symptoms for several days). </p>         </div>"""
 - if you are allergic to aclidinium bromide or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before using Eklira Genuair: 
-- if you have had heart problems recently. 
-- if you see halos around lights or coloured images (glaucoma). 
-- if you have an enlarged prostate, problems passing urine, or a blockage in your bladder. </p>
+Talk to your doctor, pharmacist or nurse before using Eklira Genuair:</p>
+<ul>
+<li>if you have had heart problems recently. </li>
+<li>if you see halos around lights or coloured images (glaucoma). </li>
+<li>if you have an enlarged prostate, problems passing urine, or a blockage in your bladder. </li>
+</ul>
 <p>Eklira Genuair is indicated for maintenance treatment and should not be used to treat a sudden attack 
 of breathlessness or wheezing. If your COPD symptoms (breathlessness, wheezing, cough) do not 
 improve or get worse you should contact your doctor for advice as soon as possible. </p>
 <p>Dry mouth, which has been observed with medicines like Eklira Genuair, may after using your 
 medicine for a long time, be associated with tooth decay. Therefore, please remember to pay attention 
 to oral hygiene. </p>
-<p>Stop taking Eklira Genuair and seek medical help immediately: 
-- if you get tightness of the chest, coughing, wheezing or breathlessness immediately after using 
-the medicine. These may be signs of a condition called bronchospasm. </p>
+<p>Stop taking Eklira Genuair and seek medical help immediately:</p>
+<ul>
+<li>if you get tightness of the chest, coughing, wheezing or breathlessness immediately after using 
+the medicine. These may be signs of a condition called bronchospasm. </li>
+</ul>
 <p>Children and adolescents 
 Eklira Genuair is not for use in children or adolescents below 18 years of age. </p>
 <p>Other medicines and Eklira Genuair 
@@ -201,7 +204,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the inhaler label and carton after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Keep the inhaler inside the pouch until the administration period starts. </p>
 <p>To be used within 90 days of opening the pouch. </p>
 <p>Do not use the Eklira Genuair if you notice that the pack is damaged or shows signs of tampering. </p>
@@ -218,8 +221,8 @@ use. These measures will help protect the environment. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eklira Genuair contains 
 - The active substance is aclidinium bromide. Each delivered dose contains 375 micrograms 
 aclidinium bromide equivalent to 322 micrograms of aclidinium. 
-- The other ingredient is lactose monohydrate (refer to Section 2 “Eklira Genuair contains 
-lactose”). </p>
+- The other ingredient is lactose monohydrate (refer to Section 2  Eklira Genuair contains 
+lactose ). </p>
 <p>What Eklira Genuair looks like and contents of the pack 
 Eklira Genuair is a white or almost white powder. 
 The Genuair inhaler device is white coloured with an integral dose indicator and a green dosage 
@@ -236,25 +239,24 @@ Gustav Mahlerplein 2
 1082MA Amsterdam 
 The Netherlands </p>
 <p>Manufacturer 
-Industrias Farmacéuticas Almirall, S.A. 
+Industrias Farmac uticas Almirall, S.A. 
 Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:<br />
-België/Belgique/Belgien 
+Belgi /Belgique/Belgien 
 Covis Pharma Europe B.V. 
 Tel: 80013Lietuva 
 Covis Pharma Europe B.V. 
-Tel: 880000 
-България 
-Covis Pharma Europe B.V. 
+Tel: 880000 </p>
+<p>Covis Pharma Europe B.V. 
 Tel: 008002100 
 Luxembourg/Luxemburg 
 Covis Pharma Europe B.V. 
-Tel: 80024Česká republika 
+Tel: 80024 esk  republika 
 Covis Pharma Europe B.V. 
 Tel: 800144 
-Magyarország 
+Magyarorsz g 
 Covis Pharma Europe B.V. 
 Tel.: 0680021Danmark 
 Zentiva Denmark ApS 
@@ -271,14 +273,13 @@ Tel: 08000270008  </p>
 Covis Pharma Europe B.V<br />
 Tel: 8000100Norge 
 Zentiva Denmark ApS 
-Tlf: +47 219 66<br />
-Ελλάδα 
-Specialty Therapeutics IKE 
-Τηλ: +30 213 02 33<br />
-Österreich 
+Tlf: +47 219 66  </p>
+<p>Specialty Therapeutics IKE 
+ : +30 213 02 33<br />
+ sterreich 
 Covis Pharma Europe B.V. 
 Tel: 0800006 
-España 
+Espa a 
 Zentiva Spain S.L.U. 
 Tel: +34 931 815 250<br />
 Polska 
@@ -286,14 +287,14 @@ Covis Pharma Europe B.V.
 Tel.: 0800919 
 France 
 Zentiva France 
-Tél: +33 (0) 800 089 219<br />
+T l: +33 (0) 800 089 219<br />
 Portugal 
 Zentiva Portugal, Lda 
 Tel: +351210601 
 Hrvatska 
 Covis Pharma Europe B.V. 
 Tel: 08004 
-România 
+Rom nia 
 Covis Pharma Europe B.V. 
 Tel: 0800410Ireland 
 A. Menarini Pharmaceuticals Ireland Ltd<br />
@@ -301,9 +302,9 @@ Tel: +353 1 284 6
 Slovenija 
 Covis Pharma Europe B.V. 
 Tel: 080083 
-Ísland 
+ sland 
 Zentiva Denmark ApS 
-Sími: +354 539 0Slovenská republika 
+S mi: +354 539 0Slovensk  republika 
 Covis Pharma Europe B.V. 
 Tel: 0800008 
 Italia 
@@ -311,10 +312,9 @@ Covis Pharma Europe B.V.
 Tel: 800168 
 Suomi/Finland 
 Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 648<br />
-Κύπρος 
-Specialty Therapeutics IKE 
-Τηλ: +30 213 02 33<br />
+Puh/Tel: +358 942 598 648  </p>
+<p>Specialty Therapeutics IKE 
+ : +30 213 02 33<br />
 Sverige 
 Zentiva Denmark ApS 
 Tel: +46 840 838 822<br />
@@ -324,6 +324,6 @@ Tel: 80005
 United Kingdom (Northern Ireland) 
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2 
-This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
+This leaflet was last revised in <em>{month YYYY}</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

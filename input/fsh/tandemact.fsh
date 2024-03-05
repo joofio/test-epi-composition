@@ -4,7 +4,7 @@ Instance: composition-en-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for tandemact Package Leaflet"
 Description:  "Composition for tandemact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -143,45 +143,53 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. This is because some medicines can weaken or strengthen the effect of Tandemact on the 
 level of sugar in your blood. </p>
 <p>The following medicines can increase the blood sugar lowering effect of Tandemact. This can lead to 
-a risk of hypoglycaemia (low blood sugar):<br />
-- gemfibrozil and fibrates (to lower high cholesterol level) 
-- insulin, metformin or other medicines to treat diabetes mellitus<br />
-- phenylbutazone, azapropazone, oxyphenbutazone, aspirin-like medicines (to treat pain and 
-inflammation) 
-- long acting sulphonamides, tetracyclines, chloramphenicol, fluconazole, miconazole, 
-quinolones, clarithromycin (to treat bacterial or fungal infections) 
-- anabolic steroids (supporting muscle build up) or male sex hormone replacement therapy<br />
-- fluoxetine, MAO-inhibitors (to treat depression) 
-- angiotensin-converting enzyme (ACE) inhibitors, sympatholytics, disopyramide, pentoxifylline, 
-coumarin derivatives such as warfarin (to treat heart or blood problems) 
-- allopurinol, probenecid, sulfinpyrazone (to treat gout) 
-- cyclophosphamide, ifosfamide, trofosfamide (to treat cancer) 
-- fenfluramine (to reduce weight) 
-- tritoqualine (to treat allergies) </p>
+a risk of hypoglycaemia (low blood sugar):</p>
+<ul>
+<li>gemfibrozil and fibrates (to lower high cholesterol level) </li>
+<li>insulin, metformin or other medicines to treat diabetes mellitus  </li>
+<li>phenylbutazone, azapropazone, oxyphenbutazone, aspirin-like medicines (to treat pain and 
+inflammation) </li>
+<li>long acting sulphonamides, tetracyclines, chloramphenicol, fluconazole, miconazole, 
+quinolones, clarithromycin (to treat bacterial or fungal infections) </li>
+<li>anabolic steroids (supporting muscle build up) or male sex hormone replacement therapy  </li>
+<li>fluoxetine, MAO-inhibitors (to treat depression) </li>
+<li>angiotensin-converting enzyme (ACE) inhibitors, sympatholytics, disopyramide, pentoxifylline, 
+coumarin derivatives such as warfarin (to treat heart or blood problems) </li>
+<li>allopurinol, probenecid, sulfinpyrazone (to treat gout) </li>
+<li>cyclophosphamide, ifosfamide, trofosfamide (to treat cancer) </li>
+<li>fenfluramine (to reduce weight) </li>
+<li>tritoqualine (to treat allergies) </li>
+</ul>
 <p>The following medicines may decrease the blood sugar lowering effect of Tandemact. This can lead to 
-a risk of hyperglycaemia (high blood sugar level): 
-- oestrogens, progestogens (female sex hormones) 
-- thiazide diuretics and saluretics also called water tablets (to treat high blood pressure) 
-- levothyroxine (to stimulate the thyroid gland) 
-- glucocorticoids (to treat allergies and inflammation)<br />
-- chlorpromazine and other phenothiazine derivatives (to treat severe mental disorders) 
-- adrenaline and sympathicomimetics (to increase heart beat, to treat asthma or nasal congestion, 
-coughs and colds or used in life-threatening emergencies)<br />
-- nicotinic acid (to treat high cholesterol level)<br />
-- long-term use of laxatives (to treat constipation) 
-- phenytoin (to treat fits) 
-- barbiturates (to treat nervousness and sleep problems) 
-- azetazolamide (to treat increased pressure in the eye also called glaucoma) 
-- diazoxide (to treat high blood pressure or low blood sugar) 
-- rifampicin (to treat infections, tuberculosis) 
-- glucagon (to treat severe low blood sugar levels) </p>
-<p>The following medicines can increase or decrease the blood sugar lowering effect of Tandemact: 
-- H2 antagonists (to treat stomach ulcers) 
-- beta-blockers, clonidine, guanethidine and reserpine (to treat high blood pressure or heart 
+a risk of hyperglycaemia (high blood sugar level):</p>
+<ul>
+<li>oestrogens, progestogens (female sex hormones) </li>
+<li>thiazide diuretics and saluretics also called water tablets (to treat high blood pressure) </li>
+<li>levothyroxine (to stimulate the thyroid gland) </li>
+<li>glucocorticoids (to treat allergies and inflammation)  </li>
+<li>chlorpromazine and other phenothiazine derivatives (to treat severe mental disorders) </li>
+<li>adrenaline and sympathicomimetics (to increase heart beat, to treat asthma or nasal congestion, 
+coughs and colds or used in life-threatening emergencies)  </li>
+<li>nicotinic acid (to treat high cholesterol level)  </li>
+<li>long-term use of laxatives (to treat constipation) </li>
+<li>phenytoin (to treat fits) </li>
+<li>barbiturates (to treat nervousness and sleep problems) </li>
+<li>azetazolamide (to treat increased pressure in the eye also called glaucoma) </li>
+<li>diazoxide (to treat high blood pressure or low blood sugar) </li>
+<li>rifampicin (to treat infections, tuberculosis) </li>
+<li>glucagon (to treat severe low blood sugar levels) </li>
+</ul>
+<p>The following medicines can increase or decrease the blood sugar lowering effect of Tandemact:</p>
+<ul>
+<li>H2 antagonists (to treat stomach ulcers) </li>
+<li>beta-blockers, clonidine, guanethidine and reserpine (to treat high blood pressure or heart 
 failure). These can also hide the signs of hypoglycaemia, so special care is needed when taking 
-these medicines  </p>
-<p>Tandemact may either increase or weaken the effects of the following medicines:<br />
-- coumarin derivatives such as warfarin (to slow down or stop blood clotting)  </p>
+these medicines  </li>
+</ul>
+<p>Tandemact may either increase or weaken the effects of the following medicines:</p>
+<ul>
+<li>coumarin derivatives such as warfarin (to slow down or stop blood clotting)  </li>
+</ul>
 <p>Tell your doctor or pharmacist if you are taking any of these. Your blood sugar will be checked, and 
 your dose of Tandemact may need to be changed. </p>
 <p>Tandemact with alcohol 
@@ -190,8 +198,8 @@ lowering action of Tandemact in an unpredictable way. </p>
 <p>Pregnancy and breast-feeding 
 Do not use Tandemact if you are pregnant. You must tell your doctor if you are, you think you may be 
 pregnant or are planning to have a baby. Your doctor will advise you to discontinue this medicine. 
-Do not use Tandemact if you are breastfeeding or are planning to breast-feed (see section “Do not take 
-Tandemact”). </p>
+Do not use Tandemact if you are breastfeeding or are planning to breast-feed (see section  Do not take 
+Tandemact ). </p>
 <p>Driving and using machines 
 Alertness and reaction time may be impaired due to low or high blood sugar due to glimepiride, 
 especially when beginning or after altering treatment, or when Tandemact is not taken regularly. This 
@@ -201,8 +209,8 @@ Take care if you experience abnormal vision. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking Tandemact.  </p>
 <p>Tandemact contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tandemact"
@@ -322,7 +330,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store tandemact"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the blister after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and the blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask you pharmacist how to 
@@ -341,24 +349,6 @@ glimepiride.
 Each Tandemact 30 mg/4 mg tablet contains 30 mg pioglitazone (as hydrochloride) and 4 mg 
 glimepiride. 
 - The other ingredients are cellulose microcrystalline, croscarmellose sodium, 
-hydroxypropylcellulose, lactose monohydrate (see section 2 ‘Tandemact contains lactose 
-monohydrate’), magnesium stearate and polysorbate 80.<br />
-What Tandemact looks like and contents of the pack 
-- Tandemact 30 mg/2 mg tablets are white to off-white, round, convex and debossed ‘4833 G’ on 
-one face and ‘30/2’ on the other.<br />
-- Tandemact 30 mg/4 mg tablets are white to off-white, round, convex and debossed ‘4833 G’ on 
-one face and ‘30/4’ on the other. 
-The tablets are supplied in aluminium/aluminium blister packs containing 28 tablets. </p>
-<p>Marketing authorisation holder 
-CHEPLAPHARM Arzneimittel GmbH 
-Ziegelhof 17489 Greifswald 
-Germany  </p>
-<p>Manufacturer 
-Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Ireland 
-Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Italy 
-Takeda GmbH, Production Site Oranienburg, Lehnitzstrasse 70 – 98, 16515 Oranienburg, Germany </p>
-<p>This leaflet was last revised in 08/2023.  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu </p>         </div>"""      
+hydroxypropylcellulose, lactose monohydrate (see section 2  Tandemact contains lactose 
+monohydrate ), magnesium stearate and polysorbate 8</p>         </div>"""      
 

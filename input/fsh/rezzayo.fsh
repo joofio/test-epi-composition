@@ -4,7 +4,7 @@ Instance: composition-en-92e6fb3296c549e1fee744233084617c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rezzayo Package Leaflet"
 Description:  "Composition for rezzayo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -78,7 +78,7 @@ or organs that is caused by a type of yeast called Candida. </p>
 <p>How REZZAYO works 
 This medicine blocks the action of an enzyme (a type of protein) that is needed by fungal cells to make 
 a molecule that strengthens their cell walls. This makes the fungal cells fragile and stops the fungus 
-from growing. This stops the infection from spreading and gives the body’s natural defences a chance 
+from growing. This stops the infection from spreading and gives the body s natural defences a chance 
 to remove the infection. </p>         </div>"""   
           
 
@@ -119,7 +119,7 @@ The effect of REZZAYO in pregnant or breast-feeding women is not known. </p>
 This medicine is unlikely to have an effect on driving or using machines. </p>
 <p>REZZAYO contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rezzayo"
@@ -128,7 +128,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine will be prepared and given to you by a doctor or a healthcare professional. </p>
 <p>Recommended dose 
-Your treatment will start with a ‘loading dose' (an initial dose of a medicine which is higher than the 
+Your treatment will start with a  loading dose' (an initial dose of a medicine which is higher than the 
 maintenance dose) of 400 mg on the first day. This will be followed by a maintenance dose of 200 mg 
 on day 8 of your treatment and once weekly thereafter. </p>
 <p>REZZAYO should be given to you once a week, by infusion (a drip) into your vein. This will take at 
@@ -160,9 +160,11 @@ this medicine. You should not experience any side effects after this. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects - tell your doctor or another healthcare professional immediately should you 
-experience any of the following side effects: 
-- reddening of the skin, sensation of warmth, nausea (feeling sick), chest tightness – these may be 
-signs you are having an infusion-related reaction (common – may affect up to 1 in 10 people). </p>
+experience any of the following side effects:</p>
+<ul>
+<li>reddening of the skin, sensation of warmth, nausea (feeling sick), chest tightness   these may be 
+signs you are having an infusion-related reaction (common   may affect up to 1 in 10 people). </li>
+</ul>
 <p>Other side effects </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - low blood potassium level (hypokalaemia) 
@@ -207,7 +209,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25 °C. </p>
+<p>Do not store above 25  C. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
 <p>Only a trained healthcare professional who has read the complete directions can prepare this medicine 
 for use. Once REZZAYO has been prepared, it should normally be used immediately. However, the 
@@ -224,7 +226,7 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What REZZAYO contains<br />
 - The active substance is rezafungin. Each vial contains 200 mg rezafungin (as acetate). 
 - The other ingredients are mannitol, histidine, polysorbate 80, hydrochloric acid, sodium 
-hydroxide (see section 2 “REZZAYO contains sodium”). </p>
+hydroxide (see section 2  REZZAYO contains sodium ). </p>
 <p>What REZZAYO looks like and contents of the pack </p>
 <p>REZZAYO is a powder for concentrate for solution for infusion in a glass vial with a rubber stopper 
 and an aluminium seal with plastic flip-off cap. It is a white to pale yellow cake or powder. 

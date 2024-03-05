@@ -4,7 +4,7 @@ Instance: composition-en-9889706f10caf682c405b7ee9acf1a34
 InstanceOf: CompositionUvEpi
 Title: "Composition for seffalair Package Leaflet"
 Description:  "Composition for seffalair Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -148,7 +148,7 @@ sure.
 medicine if you need a different dose to control your asthma properly. However, do not change the number 
 of inhalations your doctor or nurse has prescribed without talking to your doctor or nurse first. </p>
 <p>If your asthma or breathing gets worse tell your doctor straight away. If you feel more wheezy, your 
-chest feels tight more often, or you need to use more of your fast-acting ‘reliever’ medicine, your asthma 
+chest feels tight more often, or you need to use more of your fast-acting  reliever  medicine, your asthma 
 may be getting worse and you could become seriously ill. Continue to use Seffalair Spiromax but do not 
 increase the number of inhalations you take. See your doctor at once as you may need additional treatment. </p>
 <p>Instructions for use </p>
@@ -163,10 +163,100 @@ it in forcefully enough, you may not be getting enough medicine into your lungs.
 medicine will not help your asthma as well as it should. </p>
 <p>Preparing your Seffalair Spiromax  </p>
 <p>Before using your Seffalair Spiromax for the first time, you need to prepare it for use as follows: 
-• Check the dose indicator to see that there are 60 inhalations in the inhaler. 
-• Write the date you opened the foil pouch on the label on the inhaler. 
-• You do not need to shake your inhaler before you use it. </p>
-<p>How to take an inhalation </p>         </div>"""         
+  Check the dose indicator to see that there are 60 inhalations in the inhaler. 
+  Write the date you opened the foil pouch on the label on the inhaler. 
+  You do not need to shake your inhaler before you use it. </p>
+<p>How to take an inhalation </p>
+<ol>
+<li>
+<p>Hold your inhaler with the semi-transparent yellow mouthpiece cover at the bottom.  </p>
+</li>
+<li>
+<p>Open the mouthpiece cover by folding it down until you hear a loud click. This will measure out one 
+dose of your medicine. Your inhaler is now ready for use. </p>
+</li>
+<li>
+<p>Breathe out gently (as far as is comfortable). Do not breathe out through your inhaler. </p>
+</li>
+<li>
+<p>Put the mouthpiece in your mouth and close your lips tightly around it. Take care not to block the air 
+vents. </p>
+</li>
+</ol>
+<p>Breathe in through your mouth as deeply and as hard as you can.  </p>
+<p>Note that it is important that you breathe in forcefully. </p>
+<ol>
+<li>
+<p>Remove your inhaler from your mouth. You may notice a taste when you take your inhalation. </p>
+</li>
+<li>
+<p>Hold your breath for 10 seconds or as long as you comfortably can.  </p>
+</li>
+<li>
+<p>Then breathe out gently (do not breathe out through the inhaler).  </p>
+</li>
+<li>
+<p>Close the mouthpiece cover.  </p>
+</li>
+<li>
+<p>After each dose, rinse your mouth with water, and spit it out or brush your teeth before rinsing.  </p>
+</li>
+<li>Do not try to take your inhaler apart, remove or twist the mouthpiece cover.  </li>
+<li>The cover is fixed to your inhaler and must not be taken off.  </li>
+<li>Do not use your Spiromax if it has been damaged or if the mouthpiece has come apart from your 
+Spiromax. </li>
+<li>Do not open and close the mouthpiece cover unless you are about to use your inhaler. </li>
+</ol>
+<p>Cleaning your Spiromax 
+Keep your inhaler dry and clean. 
+If necessary you may wipe the mouthpiece of your inhaler after use with a dry cloth or tissue. </p>
+<p>When to start using a new Seffalair Spiromax 
+* The dose indicator on the rear of the device tells you how many doses (inhalations) are left in your 
+inhaler, starting at 60 when it is full and ending with 0 (zero) when it is empty.  </p>
+<ul>
+<li>The dose indicator shows the number of inhalations remaining as even numbers. The spaces between the 
+even numbers represent the odd number of remaining inhalations. </li>
+<li>When 20 or fewer are left, the numbers are shown in red on a white background. When the red numbers 
+appear in the window, you should see your doctor or nurse to get a new inhaler. </li>
+</ul>
+<p>Note:<br />
+<em> The mouthpiece clicks even when your inhaler is empty.<br />
+</em> If you open and close the mouthpiece without taking an inhalation the dose indicator will still register it 
+as a count. This dose will be securely held inside the inhaler for when the next inhalation is due. It is 
+impossible to accidentally take extra medicine or a double dose in 1 inhalation.  </p>
+<p>If you use more Seffalair Spiromax than you should 
+It is important that you take the dose that your doctor or nurse has prescribed. You should not exceed the 
+prescribed dose without medical advice. If you accidentally take more doses than recommended, talk to your 
+nurse, doctor or pharmacist. You may notice your heart beating faster than usual and that you feel shaky. 
+You may also have dizziness, a headache, muscle weakness and aching joints. </p>
+<p>If you have repeatedly used too many doses of Seffalair Spiromax for a long time, you should talk to your 
+doctor or pharmacist for advice. This is because using too much Seffalair Spiromax can reduce the amount of 
+steroid hormones produced by your adrenal glands.  </p>
+<p>If you forget to use Seffalair Spiromax 
+If you forget to take a dose, take it as soon as you remember. However do not take a double dose to make up 
+for a forgotten dose. If it is nearly time for your next dose just take your next dose at the usual time. </p>
+<p>If you stop using Seffalair Spiromax 
+It is very important that you take your Seffalair Spiromax every day as advised. Keep taking it until your 
+doctor tells you to stop. Do not stop or suddenly reduce your dose of Seffalair Spiromax. This could 
+make your breathing worse. </p>
+<p>In addition, if you suddenly stop taking Seffalair Spiromax or reduce your dose of Seffalair Spiromax this 
+may (very rarely) cause problems due to your adrenal glands producing reduced amounts of steroid hormone 
+(adrenal insufficiency) which sometimes causes side effects. </p>
+<p>These side effects may include any of the following: </p>
+<ul>
+<li>Stomach pain </li>
+<li>Tiredness and loss of appetite, feeling sick </li>
+<li>Sickness and diarrhoea </li>
+<li>Weight loss </li>
+<li>Headache or drowsiness </li>
+<li>Low levels of sugar in your blood </li>
+<li>Low blood pressure and seizures (fits) </li>
+</ul>
+<p>When your body is under stress such as from fever, accident or injury, infection, or surgery, adrenal 
+insufficiency can get worse and you may also have the side effects listed above. </p>
+<p>If you get any side effects, talk to your doctor or pharmacist. To prevent these symptoms, your doctor may 
+prescribe extra corticosteroids in tablet form (such as prednisolone). </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -174,14 +264,92 @@ medicine will not help your asthma as well as it should. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. To reduce the 
+chance of side effects your doctor will prescribe the lowest dose of this combination of drugs to control your 
+asthma. </p>
+<p>Allergic reactions: you may notice your breathing suddenly gets worse immediately after using 
+Seffalair Spiromax. You may be very wheezy and cough or be short of breath. You may also notice itching, 
+a rash (hives) and swelling (usually of the face, lips, tongue or throat), or you may suddenly feel that your 
+heart is beating very fast or you feel faint and light headed (which may lead to collapse or loss of 
+consciousness). If you get any of these effects or if they happen suddenly after using Seffalair 
+Spiromax, stop using Seffalair Spiromax and tell your doctor straight away. Allergic reactions to 
+Seffalair Spiromax are uncommon (they may affect up to 1 in 100 people).<br />
+Other side effects are listed below: </p>
+<p>Common (may affect up to 1 in 10 people) 
+* A fungal infection (thrush) causing sore, creamy-yellow, raised patches in the mouth and throat, as well 
+as a sore tongue, hoarse voice and throat irritation. Rinsing your mouth with water and spitting it out 
+immediately or brushing your teeth after each inhalation may help. Your doctor may prescribe an anti-
+fungal medicine to treat the thrush. 
+* Muscle pain. 
+* Back pain. 
+* Flu (influenza). 
+* Low levels of potassium in your blood (hypokalaemia). 
+* Inflammation of the nose (rhinitis). 
+* Inflammation of the sinuses (sinusitis).<br />
+* Inflammation of the nose and throat (nasopharyngitis). 
+* Headache. 
+* Cough. 
+* Irritation of the throat. 
+* Soreness or inflammation of the back of the throat. 
+* Hoarseness or loss of voice. 
+* Dizziness. </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* Increased sugar (glucose) in your blood (hyperglycaemia). If you have diabetes, more frequent blood 
+sugar monitoring and possibly adjustment of your usual diabetic treatment may be required. 
+* Cataract (cloudy lens in the eye). 
+* Very fast heart beat (tachycardia). 
+* Feeling shaky (tremor) and feeling that your heart is beating fast (palpitations) - these are usually 
+harmless and get less as treatment continues. 
+* Feeling worried or anxious. 
+* Behavioural changes, such as being unusually active and irritable (although these effects occur mainly in 
+children). 
+* Disturbed sleep. 
+* Hay fever. 
+* Nasal congestion (blocked nose). 
+* Irregular heartbeat (atrial fibrillations). 
+* Chest infection. 
+* Pain in your extremities (arms or legs). 
+* Stomach pain. 
+* Indigestion. 
+* Skin damage and tearing. 
+* Skin inflammation. 
+* Inflammation of the throat usually characterised by a sore throat (pharyngitis). </p>
+<p>Rare (may affect up to 1 in 1,000 people) 
+* Breathing difficulties or wheezing that gets worse straight after taking Seffalair Spiromax. If this 
+happens stop using Seffalair Spiromax inhaler. Use your fast acting  reliever  ( rescue ) inhaler to help 
+your breathing and tell your doctor straight away. 
+* Seffalair Spiromax may affect the normal production of steroid hormones in the body, particularly if you 
+have taken high doses for long periods of time. The effects include: </p>
+<p>Slowing of growth in children and adolescents </p>
+<p>Glaucoma (damage to the nerve in the eye) </p>
+<p>Rounded (moon shaped) face (Cushing s syndrome). </p>
+<p>Your doctor will check you regularly for any of these side effects and make sure you are taking the 
+lowest dose of this combination of drugs to control your asthma. </p>
+<ul>
+<li>Uneven or irregular heart beat or an extra heart beat (arrhythmias). Tell your doctor, but do not stop 
+taking Seffalair Spiromax unless the doctor tells you to stop. </li>
+<li>A fungal infection in the oesophagus (food canal), which might cause difficulties in swallowing. </li>
+</ul>
+<p>Frequency not known, but may also occur: 
+* Blurred vision. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store seffalair"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store seffalair"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>dose of your medicine. Your inhaler is now ready for use. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the label of your inhaler after 
+EXP. The expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 oC. Keep the mouthpiece cover closed after removing the foil wrapping. 
+Use within 2 months of removing from the foil wrapping. Use the label on the inhaler to write down the 
+date you open the foil pouch.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
+away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -189,5 +357,113 @@ medicine will not help your asthma as well as it should. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Seffalair Spiromax contains<br />
+- The active substances are salmeterol and fluticasone propionate. Each metered dose contains 
+14 micrograms of salmeterol (as salmeterol xinafoate) and 113 micrograms of fluticasone propionate. 
+Each delivered dose (the dose that leaves the mouthpiece) contains 12.75 micrograms of salmeterol (as 
+salmeterol xinafoate) and 100 micrograms of fluticasone propionate.<br />
+- The other ingredient is lactose monohydrate (see section 2 under  Seffalair Spiromax contains 
+lactose ).  </p>
+<p>What Seffalair Spiromax looks like and contents of the pack 
+Each Seffalair Spiromax inhaler contains inhalation powder for 60 inhalations and has a white body with a 
+semi-transparent yellow mouthpiece cover. </p>
+<p>Seffalair Spiromax is available in packs containing 1 inhaler and in multipacks containing 3 cartons, each 
+containing 1 inhaler. Not all pack sizes may be marketed in your country. </p>
+<p>Marketing Authorisation Holder<br />
+Teva B.V. 
+Swensweg 5,<br />
+2031 GA Haarlem,<br />
+The Netherlands </p>
+<p>Manufacturer 
+Norton (Waterford) Limited T/A Teva Pharmaceuticals Ireland 
+Unit 14/15, 27/35 &amp; 301, IDA Industrial Park, Cork Road, Waterford, Ireland </p>
+<p>Teva Operations Poland Sp. z o.o.<br />
+Mogilska 80 Str. 31-546 Krak w, Poland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tel/T l: +32 3 820 73<br />
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 5 266 02  </p>
+<p>Te : +359 2 489 95<br />
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tel/T l: +32 3 820 73<br />
+ esk  republika 
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251 007<br />
+Magyarorsz g 
+Teva Gy gyszergy r Zrt<br />
+Tel.: +36 1 288 64<br />
+Danmark 
+Teva Denmark A/S<br />
+Tlf: +45 44 98 55<br />
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 207 540 7 
+Deutschland 
+Teva GmbH 
+Tel: +49 731 402<br />
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 800 0228<br />
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 661 0Norge 
+Teva Norway AS<br />
+Tlf: +47 6677 55  </p>
+<p>Specifar A.B.E.E. 
+ : +30 211 880 5 
+ sterreich 
+ratiopharm Arzneimittel Vertriebs GmbH 
+Tel: +43 1 97007 0 </p>
+<p>Espa a 
+Teva Pharma S.L.U.<br />
+T l: +34 91 387 32<br />
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel.: +48 22 345 93 France 
+Teva Sant<br />
+T l: +33 1 55 91 7Portugal<br />
+Teva Pharma - Produtos Farmac uticos Lda 
+Tel: +351 21 476 75<br />
+Hrvatska 
+Pliva Hrvatska d.o.o 
+Tel: + 385 1 37 20<br />
+Rom nia 
+Teva Pharmaceuticals S.R.L 
+Tel: +4021 230 6Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 207 540 7Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 1 58 90  </p>
+<p>sland 
+Teva Pharma Iceland ehf 
+Simi: +354 550 3 
+Slovensk  republika 
+Teva Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 2 5726 7 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028 917 Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 20 180 5 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 211 880 5 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42 12 11<br />
+Latvija 
+Teva Baltics fili le Latvij <br />
+Tel: +371 673 23<br />
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: + 44 207 540 7 </p>
+<p>This leaflet was last revised in. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

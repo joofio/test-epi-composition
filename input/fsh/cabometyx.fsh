@@ -4,7 +4,7 @@ Instance: composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: CompositionUvEpi
 Title: "Composition for cabometyx Package Leaflet"
 Description:  "Composition for cabometyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,10 +71,12 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CABOMETYX is </p>
 <p>CABOMETYX is a cancer medicine that contains the active substance cabozantinib.<br />
-It is used in adults to treat: 
-- advanced kidney cancer called advanced renal cell carcinoma<br />
-- liver cancer when a specific anticancer medicine (sorafenib) is no longer stopping the disease 
-from progressing.  </p>
+It is used in adults to treat:</p>
+<ul>
+<li>advanced kidney cancer called advanced renal cell carcinoma  </li>
+<li>liver cancer when a specific anticancer medicine (sorafenib) is no longer stopping the disease 
+from progressing.  </li>
+</ul>
 <p>CABOMETYX is also used to treat locally advanced or metastatic differentiated thyroid cancer, a 
 type of cancer in the thyroid gland, in adults when radioactive iodine and anticancer medicine 
 treatments are no longer stopping the disease from progressing. </p>
@@ -99,23 +101,25 @@ needs.  </p>         </div>"""
 - if you are allergic to cabozantinib or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions  </p>
-<p>Talk to your doctor or pharmacist before taking CABOMETYX if you: 
-- have high blood pressure 
-- have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a tear 
-in a blood vessel wall 
-- have diarrhoea 
-- have a recent history of significant bleeding 
-- have had surgery within the last month (or if surgical procedures are planned), including 
-dental surgery 
-- have inflammatory bowel disease (for example, Crohn’s disease or ulcerative colitis, 
-diverticulitis, or appendicitis) 
-- have a recent history of blood clot in the leg, stroke, or heart attack 
-- have thyroid problems. Tell your doctor if you get tired more easily, generally feel colder than 
-other people, or your voice deepens whilst taking this medicine.<br />
-- have liver or kidney disease.  </p>
+<p>Talk to your doctor or pharmacist before taking CABOMETYX if you:</p>
+<ul>
+<li>have high blood pressure </li>
+<li>have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a tear 
+in a blood vessel wall </li>
+<li>have diarrhoea </li>
+<li>have a recent history of significant bleeding </li>
+<li>have had surgery within the last month (or if surgical procedures are planned), including 
+dental surgery </li>
+<li>have inflammatory bowel disease (for example, Crohn s disease or ulcerative colitis, 
+diverticulitis, or appendicitis) </li>
+<li>have a recent history of blood clot in the leg, stroke, or heart attack </li>
+<li>have thyroid problems. Tell your doctor if you get tired more easily, generally feel colder than 
+other people, or your voice deepens whilst taking this medicine.  </li>
+<li>have liver or kidney disease.  </li>
+</ul>
 <p>Tell your doctor if any of these affect you.  </p>
 <p>You may need treatment for them, or your doctor may decide to change your dose of CABOMETYX 
-or stop treatment altogether. See also section 4 “Possible side effects”. 
+or stop treatment altogether. See also section 4  Possible side effects . 
 You should also tell your dentist that you are taking this medicine. It is important for you to practice 
 good mouth care during treatment. </p>
 <p>Children and adolescents </p>
@@ -126,7 +130,7 @@ people younger than 18 years old are not known.  </p>
 medicines obtained without a prescription. This is because CABOMETYX can affect the way some 
 other medicines work. Also, some medicines can affect the way CABOMETYX works. This could 
 mean that your doctor needs to change the dose(s) that you take. You should tell your doctor about 
-every medicine, but in particular if taking: </p>
+every medicine, but in particular if taking:</p>
 <ul>
 <li>Medicines that treat fungal infections, such as itraconazole, ketoconazole and posaconazole </li>
 <li>Medicines used to treat bacterial infections (antibiotics) such as erythromycin, clarithromycin, 
@@ -135,7 +139,7 @@ and rifampicin </li>
 <li>Medicines to treat angina pectoris (chest pain owing to inadequate supply to the heart) such as 
 ranolazine </li>
 <li>Medicines used to treat epilepsy or fits such as phenytoin, carbamazepine, and phenobarbital  </li>
-<li>Herbal preparations containing St. John’s Wort (Hypericum perforatum), sometimes used for 
+<li>Herbal preparations containing St. John s Wort (Hypericum perforatum), sometimes used for 
 treating depression or depression-related conditions such as anxiety </li>
 <li>Medicines used to thin the blood, such as warfarin and dabigatran etexilate </li>
 <li>Medicines to treat high blood pressure or other heart conditions, such as aliskiren, 
@@ -173,8 +177,8 @@ make you feel tired or weak and can affect your ability to drive or use machines
 This medicine contains lactose (a type of sugar). If you have been told by your doctor that you have 
 an intolerance to some sugars, talk to your doctor before taking this medicine. </p>
 <p>CABOMETYX contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially “sodium-
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cabometyx"
@@ -220,7 +224,7 @@ have any further questions on the use of this medicine, ask your doctor. </p>   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. If you get 
 side effects, your doctor may tell you to take CABOMETYX at a lower dose. Your doctor may also 
 prescribe other medicines to help control your side effects. </p>
-<p>Tell your doctor straight away if you notice any of the following side effects – you may need 
+<p>Tell your doctor straight away if you notice any of the following side effects   you may need 
 urgent medical treatment: </p>
 <ul>
 <li>Symptoms including pain in the abdomen, nausea (feeling sick), vomiting, constipation, or 
@@ -383,7 +387,7 @@ stomach (gastritis) and haemorrhoids (piles) </li>
 <li>Inflammation of the pituitary gland situated at the base of the brain (hypophysitis), swelling 
 of the thyroid gland (thyroiditis) </li>
 <li>A temporary inflammation of the nerves that causes pain, weakness and paralysis in the 
-extremities (Guillain Barré syndrome); muscle weakness and tiredness without atrophy 
+extremities (Guillain Barr  syndrome); muscle weakness and tiredness without atrophy 
 (myasthenic syndrome) </li>
 <li>Inflammation of the brain  </li>
 <li>Inflammation of the eye (which causes pain and redness)  </li>
@@ -436,18 +440,20 @@ CABOMETYX 40 mg film-coated tablets: Each tablet contains cabozantinib (S)-malat
 40 mg of cabozantinib. 
 CABOMETYX 60 mg film-coated tablets: Each tablet contains cabozantinib (S)-malate equivalent to 
 60 mg of cabozantinib. </p>
-<p>The other ingredients are: 
-- Tablet contents: microcrystalline cellulose, lactose anhydrous, hydroxypropyl cellulose, 
+<p>The other ingredients are:</p>
+<ul>
+<li>Tablet contents: microcrystalline cellulose, lactose anhydrous, hydroxypropyl cellulose, 
 croscarmellose sodium, colloidal silicon dioxide anhydrous, magnesium stearate. (see section 
-2 for lactose content) 
-- Film coating: hypromellose, titanium dioxide (E171), triacetin, iron oxide yellow (E172) </p>
+2 for lactose content) </li>
+<li>Film coating: hypromellose, titanium dioxide (E171), triacetin, iron oxide yellow (E172) </li>
+</ul>
 <p>What CABOMETYX looks like and contents of the pack </p>
-<p>CABOMETYX 20 mg film-coated tablets are yellow, round with no score, and identified with “XL” 
-on one side and “20” on the other side. 
+<p>CABOMETYX 20 mg film-coated tablets are yellow, round with no score, and identified with  XL<br />
+on one side and  20  on the other side. 
 CABOMETYX 40 mg film-coated tablets are yellow, triangle shaped with no score, and identified 
-with “XL” on one side and “40” on the other side. 
+with  XL  on one side and  40  on the other side. 
 CABOMETYX 60 mg film-coated tablets are yellow, oval shaped with no score, and identified with 
-“XL” on one side and “60” on the other side. </p>
+ XL  on one side and  60  on the other side. </p>
 <p>CABOMETYX is available in packs containing one plastic bottle with 30 film-coated tablets. The 
 bottle contains three silica gel desiccant canisters  and a polyester coil to prevent damage to the film-
 coated tablets. Keep the canisters and the polyester coil in the bottle and do not swallow the desiccant 
@@ -465,32 +471,31 @@ France </p>
 Nieuwe Donk 9 
 4879 AC Etten-Leur, The Netherlands </p>
 <p>Rottendorf Pharma GmbH 
-Ostenfelderstrasse 51 – D-59320 Ennigerloh, Germany </p>
+Ostenfelderstrasse 51   D-59320 Ennigerloh, Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien, Luxembourg/Luxemburg 
+<p>Belgi /Belgique/Belgien, Luxembourg/Luxemburg 
 Italia 
 Ipsen NV 
-België /Belgique/Belgien 
-Tél/Tel: + 32 9 243 96 Ipsen SpA 
+Belgi  /Belgique/Belgien 
+T l/Tel: + 32 9 243 96 Ipsen SpA 
 Tel: + 39 02 39 22  </p>
-<p>България 
-Latvija<br />
+<p>Latvija<br />
 PharmaSwiss EOOD 
-Тел.: +359 2 8952 Ipsen Pharma representative office 
+ .: +359 2 8952 Ipsen Pharma representative office 
 Tel: +371 67622 </p>
-<p>Česká republika 
+<p>esk  republika 
 Lietuva 
 Ipsen Pharma, s.r.o.<br />
 Tel: + 420 242 481 Ipsen Pharma SAS Lietuvos filialas<br />
 Tel. +370 700 33 </p>
-<p>Danmark, Norge, Suomi/Finland, Sverige, Ísland 
-Magyarország 
-Institut Produits Synthèse (IPSEN) AB 
-Sverige/Ruotsi/Svíþjóð<br />
-Tlf/Puh/Tel/Sími: +46 8 451 60 IPSEN Pharma Hungary Kft. 
+<p>Danmark, Norge, Suomi/Finland, Sverige,  sland 
+Magyarorsz g 
+Institut Produits Synth se (IPSEN) AB 
+Sverige/Ruotsi/Sv j <br />
+Tlf/Puh/Tel/S mi: +46 8 451 60 IPSEN Pharma Hungary Kft. 
 Tel.: +36 1 555 5 </p>
-<p>Deutschland, Österreich 
+<p>Deutschland,  sterreich 
 Nederland 
 Ipsen Pharma GmbH<br />
 Deutschland 
@@ -498,29 +503,28 @@ Tel.: +49 89 2620 432 Ipsen Farmaceutica B.V.<br />
 Tel: + 31 (0) 23 554 1 </p>
 <p>Eesti 
 Polska 
-Centralpharma Communications OÜ 
+Centralpharma Communications O<br />
 Tel: +372 60 15 Ipsen Poland Sp. z o.o.<br />
 Tel.: + 48 22 653 68  </p>
-<p>Ελλάδα, Κύπρος, Malta 
+<p>,  , Malta 
 Portugal 
-Ipsen Μονοπρόσωπη EΠΕ 
-Ελλάδα 
-Τηλ: + 30 210 984 3Ipsen Portugal - Produtos Farmacêuticos S.A.<br />
+Ipsen   E  </p>
+<p>: + 30 210 984 3Ipsen Portugal - Produtos Farmac uticos S.A.<br />
 Tel: + 351 21 412 3 </p>
-<p>España 
-România 
+<p>Espa a 
+Rom nia 
 Ipsen Pharma, S.A.U. 
-Tel: + 34 936 858 Ipsen Pharma România SRL 
+Tel: + 34 936 858 Ipsen Pharma Rom nia SRL 
 Tel: + 40 21 231 27  </p>
 <p>France 
 Slovenija 
 Ipsen Pharma 
-Tél: + 33 1 58 33 50 PharmaSwiss d.o.o.<br />
+T l: + 33 1 58 33 50 PharmaSwiss d.o.o.<br />
 Tel: + 386 1 236 47 00  </p>
 <p>Hrvatska 
-Slovenská republika 
-Bausch Health Poland sp. z.o.o. podružnica Zagreb 
-Tel: +385 1 6700 Ipsen Pharma, organizačná zložka 
+Slovensk  republika 
+Bausch Health Poland sp. z.o.o. podru nica Zagreb 
+Tel: +385 1 6700 Ipsen Pharma, organiza n  zlo ka 
 Tel: + 420 242 481  </p>
 <p>Ireland, United Kingdom (Northern Ireland) </p>
 <p>Ipsen Pharmaceuticals Limited<br />

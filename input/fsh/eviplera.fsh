@@ -4,7 +4,7 @@ Instance: composition-en-88027b29b9aee30b33b41e1a72006b30
 InstanceOf: CompositionUvEpi
 Title: "Composition for eviplera Package Leaflet"
 Description:  "Composition for eviplera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Eviplera 
 4. Possible side effects 
 5. How to store Eviplera 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +76,7 @@ Usage: #example
 <li>Tenofovir disoproxil, a nucleotide reverse transcriptase inhibitor (NtRTI). </li>
 </ul>
 <p>Each of these active substances, also known as antiretroviral medicines, works by interfering with an 
-enzyme (a protein called ‘reverse transcriptase’) that is essential for the virus to multiply. </p>
+enzyme (a protein called  reverse transcriptase ) that is essential for the virus to multiply. </p>
 <p>Eviplera reduces the amount of HIV in your body.  This, will improve your immune system and 
 reduces the risk of developing illnesses linked to HIV infection. </p>
 <p>Eviplera is a treatment for Human Immunodeficiency Virus (HIV) infection in adults aged 
@@ -95,7 +94,7 @@ reduces the risk of developing illnesses linked to HIV infection. </p>
 <li>If you are allergic to emtricitabine, rilpivirine, tenofovir disoproxil, or any of the other 
 ingredients of this medicine (listed in section 6 of this leaflet). </li>
 </ul>
-<p> If this applies to you, tell your doctor immediately. </p>
+<p>If this applies to you, tell your doctor immediately. </p>
 <ul>
 <li>If you are currently taking any of the following medicines </li>
 <li>carbamazepine, oxcarbazepine, phenobarbital and phenytoin (medicines to treat 
@@ -106,7 +105,7 @@ pump inhibitors that are medicines used to prevent and treat stomach ulcers, hea
 acid reflux disease) </li>
 <li>dexamethasone (a corticosteroid used to treat inflammation and suppress the immune 
 system) when taken by mouth or injected (except as a single dose treatment) </li>
-<li>products that contain St. John’s wort (Hypericum perforatum) (a herbal remedy used 
+<li>products that contain St. John s wort (Hypericum perforatum) (a herbal remedy used 
 for depression and anxiety) </li>
 </ul>
 <p>Warnings and precautions </p>
@@ -161,7 +160,7 @@ effects).  Tell your doctor if you have bone pain or fractures. </li>
 effects of tenofovir disoproxil on long-term bone health and future fracture risk in adult patients 
 are uncertain.  Tell your doctor if you know you suffer from osteoporosis.  Patients with 
 osteoporosis are at a higher risk for fractures. </p>
-<p> If you notice any of these symptoms, tell your doctor immediately. </p>
+<p>If you notice any of these symptoms, tell your doctor immediately. </p>
 <p>Children and adolescents </p>
 <p>Do not give this medicine to children and adolescents under 18 years of age. </p>
 <p>Other medicines and Eviplera </p>
@@ -250,10 +249,10 @@ methadone dose. </p>
 monitor the levels of this medicine in your blood. </p>
 </li>
 </ul>
-<p> Tell your doctor if you are taking any of these medicines.  Do not stop your treatment without 
+<p>Tell your doctor if you are taking any of these medicines.  Do not stop your treatment without 
 contacting your doctor. </p>
 <p>Pregnancy and breast-feeding </p>
-<p>If you are pregnant or breast‑feeding, think you may be pregnant or are planning to have a baby, ask 
+<p>If you are pregnant or breast feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <ul>
 <li>Use effective contraception while taking Eviplera. </li>
@@ -278,9 +277,9 @@ soon as possible. </p>
 <li>If you have been told by your doctor that you have an intolerance to some sugars, contact your 
 doctor before taking this medicine. </li>
 <li>Tell your doctor if you have an allergy to sunset yellow aluminium lake (E110).  Eviplera 
-contains sunset yellow aluminium lake also called “E110” which may cause allergic reactions. </li>
+contains sunset yellow aluminium lake also called  E110  which may cause allergic reactions. </li>
 <li>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </li>
+ sodium-free . </li>
 </ul>         </div>"""   
                     
 * section[=].section[+]
@@ -294,7 +293,7 @@ if you are not sure. </p>
 is important to get the right levels of active substance in your body.  A nutritional drink alone does not 
 replace food. </p>
 <p>Swallow the tablet whole with water. </p>
-<p>Do not chew, crush or split the tablet – if you do it may affect the way the medicine is released into 
+<p>Do not chew, crush or split the tablet   if you do it may affect the way the medicine is released into 
 your body. </p>
 <p>If your doctor decides to stop one of the components of Eviplera or change the dose of Eviplera, you 
 may be given emtricitabine, rilpivirine and/or tenofovir disoproxil separately or with other medicines 
@@ -339,7 +338,7 @@ resume hepatitis B treatment.  You may need blood tests to check how your liver 
 4 months after stopping treatment.  In some patients with advanced liver disease or cirrhosis, stopping 
 treatment is not recommended as this may lead to worsening of your hepatitis, which may be life-
 threatening. </p>
-<p> Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -352,18 +351,18 @@ particularly symptoms you associate with hepatitis B infection. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Possible side effects: tell a doctor immediately 
 * Lactic acidosis (excess lactic acid in the blood) is a rare but potentially life-threatening side 
-effect of some HIV medicines.  Lactic acidosis occurs more often in women – particularly if 
+effect of some HIV medicines.  Lactic acidosis occurs more often in women   particularly if 
 they are overweight, and in people with liver disease.  The following may be signs of lactic 
 acidosis: 
 * Deep, rapid breathing 
 * Tiredness or drowsiness 
 * Feeling sick (nausea), being sick (vomiting) 
 * Stomach pain 
- If you think you may have lactic acidosis, tell your doctor immediately. </p>
+  If you think you may have lactic acidosis, tell your doctor immediately. </p>
 <p>Any signs of inflammation or infection.  In some patients with advanced HIV infection (AIDS) and 
 a history of opportunistic infections (infections that occur in people with a weak immune system), 
 signs and symptoms of inflammation from previous infections may occur soon after anti-HIV 
-treatment is started.  It is thought that these symptoms are due to an improvement in the body’s 
+treatment is started.  It is thought that these symptoms are due to an improvement in the body s 
 immune response, enabling the body to fight infections that may have been present with no obvious 
 symptoms. </p>
 <p>In addition to the opportunistic infections, autoimmune disorders (a condition that occurs when the 
@@ -372,7 +371,7 @@ treatment of your HIV infection.  Autoimmune disorders may occur many months aft
 treatment.  If you notice any symptoms of infection or other symptoms such as muscle weakness, 
 weakness beginning in the hands and feet and moving up towards the trunk of the body, palpitations, 
 tremor or hyperactivity, please inform your doctor immediately to seek necessary treatment. 
- If you notice any symptoms of inflammation or infection, tell your doctor immediately. </p>
+  If you notice any symptoms of inflammation or infection, tell your doctor immediately. </p>
 <p>Very common side effects 
 (may affect more than 1 in 10 people) 
 * Diarrhoea, being sick (vomiting), feeling sick (nausea) 
@@ -385,7 +384,7 @@ tremor or hyperactivity, please inform your doctor immediately to seek necessary
 * Increased levels of creatine kinase in the blood that may result in muscle pain and weakness 
 * Increased levels of cholesterol and/or pancreatic amylase in the blood 
 * Increased levels of liver enzymes in the blood 
- If any of the side effects get serious tell your doctor. </p>
+  If any of the side effects get serious tell your doctor. </p>
 <p>Common side effects 
 (may affect up to 1 in 10 people) 
 * Decreased appetite 
@@ -406,7 +405,7 @@ infection)
 * Decrease in haemoglobin in your blood (low red blood cell count) 
 * Increased fatty acids (triglycerides), bilirubin or sugar in the blood 
 * Pancreas problems 
- If any of the side effects get serious tell your doctor. </p>
+  If any of the side effects get serious tell your doctor. </p>
 <p>Uncommon side effects 
 (may affect up to 1 in 100 people) 
 * Anaemia (low red blood cell count) 
@@ -420,7 +419,7 @@ infection)
 * Decreases in potassium in the blood 
 * Increases in creatinine in your blood 
 * Changes to your urine 
- If any of the side effects get serious tell your doctor. </p>
+  If any of the side effects get serious tell your doctor. </p>
 <p>Rare side effects 
 (may affect up to 1 in 1,000 people) 
 * Lactic acidosis (see Possible side effects: tell a doctor immediately) 
@@ -434,7 +433,7 @@ liver
 <p>The breakdown of muscle, softening of the bones (with bone pain and sometimes resulting in 
 fractures), muscle pain, muscle weakness and decreases in potassium or phosphate in the blood may 
 occur due to damage to kidney tubule cells. </p>
-<p> If any of the side effects get serious tell your doctor. </p>
+<p>If any of the side effects get serious tell your doctor. </p>
 <p>Other effects that may be seen during HIV treatment </p>
 <p>The frequency of the following side effects is not known (frequency cannot be estimated from the 
 available data). </p>
@@ -447,7 +446,7 @@ the many risk factors for developing this disease.  Signs of osteonecrosis are: 
 <li>Joint stiffness </li>
 <li>Joint aches and pains (especially of the hip, knee and shoulder) </li>
 <li>Difficulty with movement 
- If you notice any of these symptoms tell your doctor. </li>
+  If you notice any of these symptoms tell your doctor. </li>
 </ul>
 <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose.  This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -494,7 +493,7 @@ polysorbate 20, croscarmellose sodium, and magnesium stearate. </p>
 <p>Hypromellose, indigo carmine aluminium lake, lactose monohydrate, polyethylene glycol, red 
 iron oxide, sunset yellow aluminium lake (E110), titanium dioxide, and triacetin. </p>
 <p>What Eviplera looks like and contents of the pack </p>
-<p>Eviplera is a purplish-pink, capsule-shaped, film-coated tablet debossed on one side with “GSI” and 
+<p>Eviplera is a purplish-pink, capsule-shaped, film-coated tablet debossed on one side with  GSI  and 
 plain on the other side.  Eviplera comes in bottles of 30 tablets and in packs made up of 3 bottles, each 
 containing 30 tablets.  Each bottle contains a silica gel desiccant that must be kept in the bottle to help 
 protect your tablets.  The silica gel desiccant is contained in a separate sachet or canister and should 
@@ -512,22 +511,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -547,14 +545,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -562,14 +559,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -578,10 +575,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -589,10 +586,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

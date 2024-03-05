@@ -4,7 +4,7 @@ Instance: composition-en-092a7f5395bb9583ad450174eeb4a512
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyramza Package Leaflet"
 Description:  "Composition for cyramza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,8 +71,8 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cyramza is a cancer medicine that contains the active substance ramucirumab, which is a monoclonal 
 antibody. This is a specialised protein that can recognise and attach to another protein found on blood 
-vessels called ‘VEGF receptor 2’. This receptor is needed in the development of new blood vessels. To 
-grow, cancer needs new blood vessels to develop. By attaching to ‘VEGF receptor 2’ and blocking it 
+vessels called  VEGF receptor 2 . This receptor is needed in the development of new blood vessels. To 
+grow, cancer needs new blood vessels to develop. By attaching to  VEGF receptor 2  and blocking it 
 the medicine cuts off the blood supply to the cancer cells. </p>
 <p>Cyramza is given in combination with paclitaxel, another anti-cancer medicine, for the treatment of 
 advanced stomach cancer (or cancer of the junction between the oesophagus and the stomach) in 
@@ -81,8 +81,8 @@ adults whose disease has worsened after treatment with medicines to treat cancer
 oesophagus and the stomach) in adults whose disease has worsened after treatment with medicines to 
 treat cancer and for whom treatment of Cyramza in combination with paclitaxel is not suitable. </p>
 <p>Cyramza is used to treat advanced cancers of the colon or rectum (parts of the large intestine) in 
-adults. It is given with other medicines called ‘FOLFIRI chemotherapy’, including ‘5-fluorouracil’, 
-‘folinic acid’, and ‘irinotecan’. </p>
+adults. It is given with other medicines called  FOLFIRI chemotherapy , including  5-fluorouracil , 
+ folinic acid , and  irinotecan . </p>
 <p>Cyramza is given in combination with erlotinib, another anti-cancer medicine, as the first therapy for 
 the treatment of adult patients with advanced non-small cell lung cancer when the cancer cells have 
 specific changes (mutations) in the epidermal growth factor receptor gene. </p>
@@ -106,7 +106,7 @@ section 6).<br />
 - if there is X-ray evidence that the lung cancer has a cavity or hole in it or if the lung cancer is 
 close to major blood vessels. </p>
 <p>Warnings and precautions 
-Talk to your doctor or nurse before you are given Cyramza if you: </p>
+Talk to your doctor or nurse before you are given Cyramza if you:</p>
 <ul>
 <li>
 <p>have any condition which increases the risk of bleeding. Also tell your doctor if you are taking 
@@ -143,8 +143,8 @@ decide when to re-start treatment. If you have a wound that heals poorly during 
 dosing of Cyramza will be stopped until the wound is fully healed.  </p>
 </li>
 <li>
-<p>have severe liver disease (‘cirrhosis’) and associated conditions, such as excessive accumulation 
-of fluid in your abdomen (‘ascites’). Your doctor will discuss with you if the potential benefits 
+<p>have severe liver disease ( cirrhosis ) and associated conditions, such as excessive accumulation 
+of fluid in your abdomen ( ascites ). Your doctor will discuss with you if the potential benefits 
 of treatment are judged to outweigh the potential risks for you. If you have liver cancer your 
 doctor will monitor you for signs and symptoms of confusion and/or disorientation associated 
 with chronic liver problems and will stop treatment with Cyramza if you develop these signs 
@@ -156,9 +156,9 @@ patients with severely impaired kidney function. </p>
 </li>
 </ul>
 <p>Talk to your doctor or nurse immediately if any of the following applies to you (or you are not sure) 
-during treatment with Cyramza or anytime thereafter: </p>
+during treatment with Cyramza or anytime thereafter:</p>
 <ul>
-<li>Blocking of the arteries by a blood clot (‘arterial thromboembolic events’): </li>
+<li>Blocking of the arteries by a blood clot ( arterial thromboembolic events ): </li>
 </ul>
 <p>Cyramza can cause blood clots in your arteries. Arterial blood clots can lead to serious 
 conditions, including heart attack or stroke. Symptoms of a heart attack may include chest pain 
@@ -168,7 +168,7 @@ difficulty in walking or loss of balance or coordination or sudden dizziness. Cy
 permanently stopped if you develop a blood clot in your arteries. </p>
 <ul>
 <li>
-<p>A hole in the wall of your gut (‘gastrointestinal perforation’): Cyramza may increase the risk 
+<p>A hole in the wall of your gut ( gastrointestinal perforation ): Cyramza may increase the risk 
 of developing a hole in the wall of your gut. Symptoms include severe abdominal pain, being 
 sick (vomiting), fever or chills. Cyramza will be permanently stopped if you develop a hole in 
 the wall of your gut. </p>
@@ -188,8 +188,8 @@ breathing distress caused by narrowing of the airways, faster heartbeat, and fee
 Cyramza will be permanently stopped if you experience a severe infusion-related reaction. </p>
 </li>
 <li>
-<p>A rare but serious brain condition called ‘posterior reversible encephalopathy syndrome’ or 
-‘PRES’: Cyramza may increase the risk of developing this brain condition. Symptoms may 
+<p>A rare but serious brain condition called  posterior reversible encephalopathy syndrome  or 
+ PRES : Cyramza may increase the risk of developing this brain condition. Symptoms may 
 include fits (seizures), headache, feeling sick (nausea), being sick (vomiting), blindness or 
 reduced level of consciousness, with or without high blood pressure. Cyramza will be stopped if 
 you experience this brain condition. </p>
@@ -201,25 +201,25 @@ and fluid build-up in the lungs, which can cause shortness of breath. Your sympt
 evaluated and suspension of your treatment with Cyramza may be considered. </p>
 </li>
 <li>
-<p>Abnormal tube-like connections or passageways inside the body (‘fistula’): Cyramza may 
+<p>Abnormal tube-like connections or passageways inside the body ( fistula ): Cyramza may 
 increase the risk of abnormal tube-like connections or passageways inside the body between 
 internal organs and skin or other tissues. Cyramza will be permanently stopped if you develop a 
 fistula. </p>
 </li>
 <li>
-<p>Abnormal urine test (‘proteinuria’): Cyramza may increase the risk of developing or 
+<p>Abnormal urine test ( proteinuria ): Cyramza may increase the risk of developing or 
 worsening of abnormal levels of protein in the urine. Treatment with Cyramza may need to be 
 stopped temporarily until the levels of protein in the urine decrease and then treatment resumed 
 at a lower dose, or stopped permanently if the urine protein level does not reduce sufficiently. </p>
 </li>
 <li>
-<p>Inflammation of the mouth (‘stomatitis’): Cyramza, when given in combination with 
+<p>Inflammation of the mouth ( stomatitis ): Cyramza, when given in combination with 
 chemotherapy may increase the risk of developing inflammation of the mouth. Symptoms may 
 include a burning sensation in the mouth, ulceration, blisters or swelling. Your doctor may 
 prescribe treatment to help with the symptoms. </p>
 </li>
 <li>
-<p>Fever or infection: You may develop a temperature of 38 ºC or greater during treatment (since 
+<p>Fever or infection: You may develop a temperature of 38  C or greater during treatment (since 
 you might have fewer white blood cells than normal which is very common). Symptoms may 
 include sweating or other signs of infection, such as headache, pain in the limbs or decreased 
 appetite. Infection (sepsis) may be severe and could lead to death. </p>
@@ -253,7 +253,7 @@ Cyramza has no or negligible influence on your ability to drive and use machines
 any symptoms affecting your ability to concentrate and react, do not drive or use machines until the 
 effect goes away. </p>
 <p>Cyramza contains sodium 
-Each 10 ml vial contains less than 1 mmol sodium (23 mg), that is to say essentially ‘sodium free’.<br />
+Each 10 ml vial contains less than 1 mmol sodium (23 mg), that is to say essentially  sodium free .<br />
 Each 50 ml vial contains approximately 85 mg sodium (main component of cooking/table salt). This is 
 equivalent to approximately 4% of the recommended maximum daily dietary intake of sodium for an 
 adult.  </p>         </div>"""   
@@ -287,26 +287,30 @@ will be increased for the rest of that infusion and for all future infusions.  <
 protein level measured, Cyramza may be temporarily discontinued. Once the urine protein level has 
 decreased to a certain level, treatment may be restarted with a lower dose. </p>
 <p>Route and method of administration 
-Cyramza is a concentrate for solution for infusion (also called “sterile concentrate”). A hospital 
+Cyramza is a concentrate for solution for infusion (also called  sterile concentrate ). A hospital 
 pharmacist, nurse or doctor will have diluted the contents of the vial with sodium chloride 9 mg/ml 
 (0.9%) solution before use. This medicine is given by infusion via a drip over a period of 
 approximately 60 minutes.  </p>
-<p>Cyramza treatment will be temporarily stopped if you: 
-- develop high blood pressure, until it is controlled with anti-hypertensive medicine 
-- develop wound healing problems, until the wound is healed 
-- will undergo planned surgery, four weeks prior to surgery </p>
-<p>Cyramza treatment will be permanently stopped if you: 
-- develop a blood clot in your arteries 
-- develop a hole in the wall of your gut 
-- experience severe bleeding 
-- experience a severe infusion-related reaction 
-- develop high blood pressure that cannot be controlled with medicine 
-- are passing more than a certain amount of protein with your urine or if you develop a severe 
-kidney disease (nephrotic syndrome) 
-- develop abnormal tube-like connections or passageways inside the body between internal 
-organs and skin or other tissues (fistula) 
-- develop confusion and/or disorientation associated with chronic liver problems 
-- decline in kidney function (in the setting of liver failure) </p>
+<p>Cyramza treatment will be temporarily stopped if you:</p>
+<ul>
+<li>develop high blood pressure, until it is controlled with anti-hypertensive medicine </li>
+<li>develop wound healing problems, until the wound is healed </li>
+<li>will undergo planned surgery, four weeks prior to surgery </li>
+</ul>
+<p>Cyramza treatment will be permanently stopped if you:</p>
+<ul>
+<li>develop a blood clot in your arteries </li>
+<li>develop a hole in the wall of your gut </li>
+<li>experience severe bleeding </li>
+<li>experience a severe infusion-related reaction </li>
+<li>develop high blood pressure that cannot be controlled with medicine </li>
+<li>are passing more than a certain amount of protein with your urine or if you develop a severe 
+kidney disease (nephrotic syndrome) </li>
+<li>develop abnormal tube-like connections or passageways inside the body between internal 
+organs and skin or other tissues (fistula) </li>
+<li>develop confusion and/or disorientation associated with chronic liver problems </li>
+<li>decline in kidney function (in the setting of liver failure) </li>
+</ul>
 <p>When receiving Cyramza in combination with paclitaxel or docetaxel 
 Paclitaxel and docetaxel are also given by a drip into a vein (intravenous infusion) over a period of 
 approximately 60 minutes. If you are receiving Cyramza in combination with either paclitaxel or 
@@ -314,11 +318,11 @@ docetaxel on the same day, Cyramza will be given first. </p>
 <p>The amount of paclitaxel or docetaxel needed depends on the surface area of your body. Your doctor 
 or hospital pharmacist will calculate your body surface area by measuring your height and weight and 
 will work out the right dose for you.  </p>
-<p>The recommended dose of paclitaxel is 80 mg for every square metre (m²) of your body’s surface area 
+<p>The recommended dose of paclitaxel is 80 mg for every square metre (m ) of your body s surface area 
 once every week for 3 weeks followed by 1 week without treatment.  </p>
-<p>The recommended dose of docetaxel is 75 mg for every square metre (m²) of your body’s surface area 
+<p>The recommended dose of docetaxel is 75 mg for every square metre (m ) of your body s surface area 
 once every 3 weeks. If you are of East Asian origin, you may receive a reduced docetaxel starting dose 
-of 60 mg per every m2 of your body’s surface area once every 3 weeks. </p>
+of 60 mg per every m2 of your body s surface area once every 3 weeks. </p>
 <p>Prior to being given any paclitaxel infusion, you will have blood tests to check that your blood counts 
 are high enough and that your liver is functioning well. </p>
 <p>Read the paclitaxel or docetaxel package leaflet for further information. </p>
@@ -342,64 +346,78 @@ erlotinib. </p>         </div>"""
 <p>Tell your doctor immediately if you experience any of the following serious side effects that have 
 been observed during Cyramza treatment (see also What you need to know before you are given 
 Cyramza): </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- hole in the wall of your gut: this is a hole that develops in the stomach, gut or bowel. 
-Symptoms include severe abdominal pain, being sick (vomiting), fever or chills. 
-- severe bleeding in your gut: symptoms may include extreme tiredness, weakness, dizziness or 
-changes in the colour of your stools. 
-- blood clots in the arteries: arterial blood clots can lead to a heart attack or stroke. Symptoms 
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>hole in the wall of your gut: this is a hole that develops in the stomach, gut or bowel. 
+Symptoms include severe abdominal pain, being sick (vomiting), fever or chills. </li>
+<li>severe bleeding in your gut: symptoms may include extreme tiredness, weakness, dizziness or 
+changes in the colour of your stools. </li>
+<li>blood clots in the arteries: arterial blood clots can lead to a heart attack or stroke. Symptoms 
 of a heart attack may include chest pain or heaviness in the chest. Symptoms of a stroke may 
 include sudden numbness or weakness of the arm, leg and face, feeling confused, difficulty 
 speaking or understanding others, sudden difficulty in walking or loss of balance or 
-coordination or sudden dizziness.  </p>
-<p>Rare side effects (may affect up to 1 in 1000 people): 
-- a brain condition called posterior reversible encephalopathy syndrome: symptoms may include 
+coordination or sudden dizziness.  </li>
+</ul>
+<p>Rare side effects (may affect up to 1 in 1000 people):</p>
+<ul>
+<li>a brain condition called posterior reversible encephalopathy syndrome: symptoms may include 
 fits (seizures), headache, feeling sick (nausea), being sick (vomiting), blindness or reduced level 
-of consciousness, with or without high blood pressure. </p>
+of consciousness, with or without high blood pressure. </li>
+</ul>
 <p>Tell your doctor if you experience any of the following other side effects: </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- feeling tired or weak 
-- low white blood cell counts (may increase the risk of infection) 
-- infections 
-- diarrhoea 
-- hair loss 
-- nose bleed 
-- inflammation of the lining of the mouth 
-- high blood pressure 
-- reduction in red blood cells which can make the skin pale 
-- swelling of hands, feet and legs due to fluid retention 
-- low platelet count (blood cells that help the blood to clot) 
-- abdominal pain 
-- protein in the urine (abnormal urine test) 
-- headache 
-- inflammation of mucous membranes, such as digestive and respiratory tracts </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- fever accompanied by low white blood cell counts 
-- low blood levels of a protein called albumin 
-- infusion-related reactions 
-- rash 
-- redness, swelling, numbness/tingling, or pain and/or skin peeling in hands and/or feet (called 
-hand-foot syndrome) 
-- hoarseness 
-- bleeding in your lungs 
-- low blood levels of sodium (hyponatraemia) which can cause tiredness and confusion or muscle 
-twitching 
-- bleeding gums 
-- confusion and/or disorientation in patients with chronic liver problems 
-- intestinal blockage; symptoms may include constipation and abdominal pain 
-- underactive thyroid gland which can cause tiredness or weight gain (hypothyroidism) 
-- abnormal growth of blood vessels 
-- serious infection (sepsis) 
-- low blood levels of potassium (hypokalaemia) which can cause muscle weakness, twitching or 
-abnormal heart rhythm  </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- a heart condition when the heart muscle does not pump blood as well as it should, causing 
-shortness of breath and swelling of legs and feet </p>
-<p>Rare side effects (may affect up to 1 in 1000 people): 
-- abnormal blood clotting in small blood vessels </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall 
-(aneurysms and artery dissections). </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>feeling tired or weak </li>
+<li>low white blood cell counts (may increase the risk of infection) </li>
+<li>infections </li>
+<li>diarrhoea </li>
+<li>hair loss </li>
+<li>nose bleed </li>
+<li>inflammation of the lining of the mouth </li>
+<li>high blood pressure </li>
+<li>reduction in red blood cells which can make the skin pale </li>
+<li>swelling of hands, feet and legs due to fluid retention </li>
+<li>low platelet count (blood cells that help the blood to clot) </li>
+<li>abdominal pain </li>
+<li>protein in the urine (abnormal urine test) </li>
+<li>headache </li>
+<li>inflammation of mucous membranes, such as digestive and respiratory tracts </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>fever accompanied by low white blood cell counts </li>
+<li>low blood levels of a protein called albumin </li>
+<li>infusion-related reactions </li>
+<li>rash </li>
+<li>redness, swelling, numbness/tingling, or pain and/or skin peeling in hands and/or feet (called 
+hand-foot syndrome) </li>
+<li>hoarseness </li>
+<li>bleeding in your lungs </li>
+<li>low blood levels of sodium (hyponatraemia) which can cause tiredness and confusion or muscle 
+twitching </li>
+<li>bleeding gums </li>
+<li>confusion and/or disorientation in patients with chronic liver problems </li>
+<li>intestinal blockage; symptoms may include constipation and abdominal pain </li>
+<li>underactive thyroid gland which can cause tiredness or weight gain (hypothyroidism) </li>
+<li>abnormal growth of blood vessels </li>
+<li>serious infection (sepsis) </li>
+<li>low blood levels of potassium (hypokalaemia) which can cause muscle weakness, twitching or 
+abnormal heart rhythm  </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>a heart condition when the heart muscle does not pump blood as well as it should, causing 
+shortness of breath and swelling of legs and feet </li>
+</ul>
+<p>Rare side effects (may affect up to 1 in 1000 people):</p>
+<ul>
+<li>abnormal blood clotting in small blood vessels </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall 
+(aneurysms and artery dissections). </li>
+</ul>
 <p>Cyramza may cause changes in laboratory tests. From the side effects listed above, these are: low 
 white blood cell counts; low platelet count in the blood; low blood levels of albumin, potassium or 
 sodium; presence of protein in the urine. </p>
@@ -416,7 +434,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and vial label after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). 
+<p>Store in a refrigerator (2  C   8  C). 
 Do not freeze.<br />
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not freeze or shake the infusion solution. Do not administer the solution if you notice any 
@@ -436,15 +454,17 @@ throw away medicines you no longer use. These measures will help protect the env
 - Each 10 ml vial contains 100 mg of ramucirumab.<br />
 - Each 50 ml vial contains 500 mg of ramucirumab.<br />
 - The other ingredients are histidine, histidine monohydrochloride, sodium chloride, glycine 
-(E640), polysorbate 80 (E433) and water for injections (see section 2 “Cyramza contains 
-sodium”). </p>
+(E640), polysorbate 80 (E433) and water for injections (see section 2  Cyramza contains 
+sodium ). </p>
 <p>What Cyramza looks like and contents of the pack 
 The concentrate for solution for infusion (or sterile concentrate) is a clear to slightly opalescent and 
 colourless to slightly yellow solution in a glass vial with a rubber stopper. </p>
-<p>Cyramza is available in packs of:<br />
-- 1 vial of 10 ml 
-- 2 vials of 10 ml 
-- 1 vial of 50 ml </p>
+<p>Cyramza is available in packs of:</p>
+<ul>
+<li>1 vial of 10 ml </li>
+<li>2 vials of 10 ml </li>
+<li>1 vial of 50 ml </li>
+</ul>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Eli Lilly Nederland B.V. 
@@ -462,22 +482,21 @@ Spain </p>
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . - <br />
+ . + 359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
 Tlf: +45 45 26 60<br />
@@ -493,48 +512,48 @@ Eli Lilly Nederland B.V.<br />
 Tel: +372 6 817<br />
 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
 Tel: + 34-91 663 50<br />
 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
 Lilly France 
-Tél: +33-(0) 1 55 49 34<br />
+T l: +33-(0) 1 55 49 34<br />
 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
 Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Τηλ: +357 22 715 
+ : +357 22 715 
 Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
 Tel: +371 67364 </p>
 <p>United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

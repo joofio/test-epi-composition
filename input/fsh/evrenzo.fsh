@@ -4,7 +4,7 @@ Instance: composition-en-83e919009d254ffa32b4c1748bcfba15
 InstanceOf: CompositionUvEpi
 Title: "Composition for evrenzo Package Leaflet"
 Description:  "Composition for evrenzo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -112,31 +112,15 @@ Managing your anaemia is important. Your doctor will monitor your haemoglobin an
 your treatment regimen as anaemia treatment and switching between anaemia treatments may also 
 have a negative impact on your cardiovascular health. </p>
 <p>Talk to your doctor, or pharmacist straight away: 
-* if you get blood clots: </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take evrenzo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take evrenzo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>and/or swelling in the legs, cramping or a feeling of warmth in the affected leg; </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>breath, chest pain (usually worse with breathing), feeling of anxiety, dizziness, light-
-headedness, or fainting; heart racing, coughing (sometimes with blood); </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store evrenzo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store evrenzo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>access from working; signs of this can include swelling, redness, hardening or thickening 
-of the skin around your access, oozing at the access site, not feeling a vibration (“thrill”) 
+* if you get blood clots: 
+1. in the veins of your legs (deep vein thrombosis or DVT), signs of which can include pain 
+and/or swelling in the legs, cramping or a feeling of warmth in the affected leg; 
+2. in the lungs (pulmonary embolism or PE), signs of which can include sudden shortness of 
+breath, chest pain (usually worse with breathing), feeling of anxiety, dizziness, light-
+headedness, or fainting; heart racing, coughing (sometimes with blood); 
+3. in your haemodialysis access (vascular access thrombosis or VAT) that stop the vascular 
+access from working; signs of this can include swelling, redness, hardening or thickening 
+of the skin around your access, oozing at the access site, not feeling a vibration ( thrill ) 
 over the access area; 
 * if you have a seizure (convulsion or fit) or possible warning signs that a seizure may occur, such 
 as headache, irritability, fear, confusion or unusual feelings; 
@@ -161,7 +145,7 @@ least 1 hour after these medicines or supplements. Otherwise roxadustat will not
 absorbed by your body. 
 * a medicine to treat gout called probenecid. 
 * medicines used to lower cholesterol, such as simvastatin, atorvastatin, or rosuvastatin (also 
-called “statins”), or gemfibrozil. 
+called  statins ), or gemfibrozil. 
 * other medicines used to treat anaemia such as erythropoiesis-stimulating agents (ESAs). </p>
 <p>If you normally take any of these medicines, your doctor might change it and prescribe a different 
 medicine for you during your treatment with Evrenzo. </p>
@@ -181,13 +165,12 @@ section 4).   </p>
 Evrenzo contains sugar (lactose), traces of peanut and soya (soya lecithin), and an azo colouring agent 
 (Allura Red AC aluminium lake). If you have been told by your doctor that you have an intolerance to 
 some sugars or are allergic to peanut, soya or azo colouring agents, contact your doctor before taking 
-this medicine.  </p>         </div>"""      
-        
-        
+this medicine.  </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title =  "3. How to take evrenzo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "3. How to take evrenzo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -232,5 +215,184 @@ soon as possible and take the next dose on the next scheduled day.<br />
 take the next dose on the next scheduled day.  </p>
 <p>If you stop taking Evrenzo 
 Do not stop taking this medicine unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
+Some possible side effects may be serious. Contact your doctor straight away if you get any of 
+the following: 
+* blood clot in the veins of your legs (deep vein thrombosis or DVT) (may affect up to 1 in people). 
+* blood clot in the lungs (pulmonary embolism) (may affect up to 1 in 100 people).<br />
+<em> blood clot in your haemodialysis access (vascular access thrombosis or VAT) that causes the 
+vascular access to close up or stop working if you are using a fistula or graft for dialysis access 
+(may affect more than 1 in 10 people).<br />
+</em> seizures and warning signs of seizures (convulsions or fits) (may affect up to 1 in 10 people). 
+* sepsis, a serious or in rare cases, life-threatening infection (may affect up to 1 in 10 people). 
+* redness and shedding of skin over a larger area of the body, which may be itchy or painful 
+(exfoliative dermatitis) (frequency cannot be estimated from the available data). </p>
+<p>Other possible side effects </p>
+<p>Very common (may affect more than 1 in 10 people) 
+* increased amount of potassium 
+* high blood pressure (hypertension)<br />
+* feeling sick (nausea) 
+* diarrhoea 
+* swelling due to fluid retention in the extremities (peripheral oedema) </p>
+<p>Common (may affect up to 1 in 10 people): 
+* difficulty in sleeping (insomnia) 
+* headache 
+* vomiting 
+* constipation </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* increased amount of bilirubin in your blood </p>
+<p>Not known (frequency cannot be estimated from the available data) 
+* thyroid function decreased </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
+of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evrenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evrenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater, or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Evrenzo contains 
+Evrenzo 20 mg: 
+* The active substance is roxadustat. Each tablet contains 20 mg roxadustat. </p>
+<p>Evrenzo 50 mg: 
+* The active substance is roxadustat. Each tablet contains 50 mg roxadustat. </p>
+<p>Evrenzo 70 mg: 
+* The active substance is roxadustat. Each tablet contains 70 mg roxadustat. </p>
+<p>Evrenzo 100 mg: 
+* The active substance is roxadustat. Each tablet contains 100 mg roxadustat. </p>
+<p>Evrenzo 150 mg: 
+* The active substance is roxadustat. Each tablet contains 150 mg roxadustat. </p>
+<p>The other ingredients are: 
+* tablet core: lactose monohydrate, microcrystalline cellulose (E460), croscarmellose sodium 
+(E468), povidone (E1201), magnesium stearate (E470b). </p>
+<ul>
+<li>film-coating: polyvinyl alcohol (E1203), talc (E553b), macrogol (E1521), Allura Red 
+Aluminium Lake AC (E129), titanium dioxide (E171), lecithin (soya) (E322). </li>
+</ul>
+<p>What Evrenzo looks like and contents of the pack 
+Evrenzo 20 mg are red, oval, film-coated tablets, debossed with  20  on one side. 
+Evrenzo 50 mg are red, oval, film-coated tablets, debossed with  50  on one side. 
+Evrenzo 70 mg are red, round, film-coated tablets, debossed with  70  on one side. 
+Evrenzo 100 mg are red, oval, film-coated tablets, debossed with  100  on one side. 
+Evrenzo 150 mg are red, almond-shaped, film-coated tablets, debossed with  150  on one side. </p>
+<p>Evrenzo is available in PVC/aluminium perforated unit dose blisters in packs containing 12 x 1 
+film-coated tablets and 36 x 1 film-coated tablets.  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Astellas Pharma Europe B.V. 
+Sylviusweg 2333 BE Leiden 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+T l/Tel: +32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel.: +370 37 408  </p>
+<p>Te .: +359 2 862 53<br />
+Luxembourg/Luxemburg 
+Astellas Pharma B.V. Branch 
+Belgique/Belgien 
+T l/Tel: +32 (0)2 5580 
+ esk  republika 
+Astellas Pharma s.r.o. 
+Tel: +420 221 401<br />
+Magyarorsz g 
+Astellas Pharma Kft. 
+Tel.: +36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf: +45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: +30 210 8189900<br />
+Deutschland 
+Astellas Pharma GmbH 
+Tel.: +49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: +31 (0)71 5455 
+Eesti 
+Astellas Pharma d.o.o. 
+Tel: +372 6 056<br />
+Norge 
+Astellas Pharma 
+Tlf: +47 66 76 46  </p>
+<p>Astellas Pharmaceuticals AEBE 
+ : +30 210 8189 
+ sterreich 
+Astellas Pharma Ges.m.b.H. 
+Tel.: +43 (0)1 8772 
+Espa a 
+Astellas Pharma S.A. 
+Tel: +34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: +48 225451 France 
+Astellas Pharma S.A.S. 
+T l: +33 (0)1 55917 
+Portugal 
+Astellas Farma, Lda. 
+Tel: +351 21 4401Hrvatska 
+Astellas d.o.o 
+Tel: +385 1670 0 
+Rom nia 
+S.C.Astellas Pharma SRL 
+Tel: +40 (0)21 361 04 95/96/ 
+Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: +353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o 
+Tel: +386 14011 
+ sland 
+Vistor hf 
+S mi: +354 535 7 
+Slovensk  republika 
+Astellas Pharma s.r.o. 
+Tel: +421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: +39 (0)2 921 
+Suomi/Finland 
+Astellas Pharma 
+Puh/Tel: +358 (0)9 85606  </p>
+<p>Astellas Pharmaceuticals AEBE 
+ : +30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: +46 (0)40-650 15<br />
+Latvija 
+Astellas Pharma d.o.o. 
+Tel: +371 67 619United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited 
+Tel: +353 (0)1 4671Free call from Northern Ireland: 0800783 5 </p>
+<p>This leaflet was last revised in MM/YYYY  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2f63d459fa1a5400e15352b2552fb0ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonsurf Package Leaflet"
 Description:  "Composition for lonsurf Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,13 +71,13 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lonsurf is a type of cancer chemotherapy which belongs to the group of medicines called "cytostatic 
 antimetabolite medicines". </p>
 <p>Lonsurf contains two different active substances: trifluridine and tipiracil. 
-• Trifluridine stops the growth of cancer cells. 
-• Tipiracil stops the trifluridine from being broken down by the body, helping trifluridine to work 
+  Trifluridine stops the growth of cancer cells. 
+  Tipiracil stops the trifluridine from being broken down by the body, helping trifluridine to work 
 longer. </p>
-<p>Lonsurf is used to treat adults with colon or rectal cancer - sometimes called ‘colorectal’ cancer and 
+<p>Lonsurf is used to treat adults with colon or rectal cancer - sometimes called  colorectal  cancer and 
 stomach cancer (including cancer of the junction between the oesophagus and the stomach).<br />
-• It is used when the cancer has spread to other parts of the body (metastases).<br />
-• It is used when other treatments have not worked - or when other treatments are not suitable for 
+  It is used when the cancer has spread to other parts of the body (metastases).<br />
+  It is used when other treatments have not worked - or when other treatments are not suitable for 
 you. 
 Lonsurf may be given in combination with bevacizumab. It is important that you also read the package 
 leaflet of bevacizumab. If you have any questions about this medicine, ask your doctor. </p>         </div>"""   
@@ -90,14 +90,14 @@ leaflet of bevacizumab. If you have any questions about this medicine, ask your 
   * code.text = "2. What you need to know before you take lonsurf"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Lonsurf<br />
-• if you are allergic to trifluridine or tipiracil or any of the other ingredients of this medicine (listed in 
+  if you are allergic to trifluridine or tipiracil or any of the other ingredients of this medicine (listed in 
 section 6). 
 Do not take Lonsurf if the above applies to you. If you are not sure, talk to your doctor before taking 
 Lonsurf. </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Lonsurf if: 
-• you have kidney problems 
-• you have liver problems 
+  you have kidney problems 
+  you have liver problems 
 If you are not sure, talk to your doctor or pharmacist before taking Lonsurf.<br />
 Treatment may lead to the following side effects (see section 4): 
 *  a reduced number of certain types of white blood cells (neutropenia) which are important for 
@@ -130,7 +130,7 @@ unborn baby.<br />
 If you become pregnant, you and your doctor will have to decide if the benefits of Lonsurf are greater 
 than the risk of harm to the baby.<br />
 Do not breast-feed if you are taking Lonsurf as it is not known whether Lonsurf passes into the 
-mother’s milk. </p>
+mother s milk. </p>
 <p>Contraception 
 You must not become pregnant while taking this medicine. This is because it may harm your unborn 
 baby.<br />
@@ -162,7 +162,7 @@ dose.
 * You will take a dose 2 times a day.  </p>
 <p>When to take Lonsurf 
 You will take Lonsurf for 10 days during the first 2 weeks, and then have 2 weeks off. This 4-week 
-period is called a ‘cycle.’ The specific dosing schedule is as follows: 
+period is called a  cycle.  The specific dosing schedule is as follows: 
 * Week 1<br />
 - take the dose 2 times a day for 5 days<br />
 - then have 2 days off - no medicine 
@@ -183,8 +183,8 @@ You will then start again with another cycle of 4 weeks following the above patt
 If you take more Lonsurf than you should, talk to a doctor or go to a hospital straight away. Take your 
 pack(s) of medicine with you.  </p>
 <p>If you forget to take Lonsurf 
-• If you forget a dose, talk to your doctor or pharmacist. 
-• Do not take a double dose to make up for a forgotten dose. </p>
+  If you forget a dose, talk to your doctor or pharmacist. 
+  Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -295,7 +295,7 @@ herpes zoster virus)
 * redness, swelling, pain on the palms of your hands and soles of your feet (hand-foot syndrome) </p>
 <p>Rare: may affect up to 1 in 1 000 people 
 * inflammation and infection in your gut 
-* athlete’s foot - fungal infection of feet, yeast infections 
+* athlete s foot - fungal infection of feet, yeast infections 
 * reduced white blood cells called granulocytes - can increase your risk for infection 
 * swelling or pain in your big toes 
 * swelling in your joints 
@@ -332,7 +332,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton or blister after 
-“EXP.” The expiry date refers to the last day of that month.  </p>
+ EXP.  The expiry date refers to the last day of that month.  </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -347,28 +347,32 @@ throw away medicines you no longer use. These measures will help to protect the 
 Lonsurf 15 mg/6.14 mg film-coated tablet 
 * The active substances are trifluridine and tipiracil. Each film-coated tablet contains 15 mg 
 trifluridine and 6.14 mg tipiracil 
-* The other ingredients are:<br />
-- Tablet core: lactose monohydrate, starch pregelatinised (maize) and stearic acid (see section 2 
-“Lonsurf contains lactose”). 
-- Film coat: hypromellose, macrogol (8000), titanium dioxide (E171), and magnesium stearate. 
-- Printing ink: shellac, iron oxide red (E172), iron oxide yellow (E172), titanium dioxide 
-(E171), indigo carmine aluminium lake (E132), carnauba wax and talc. </p>
+* The other ingredients are:</p>
+<ul>
+<li>Tablet core: lactose monohydrate, starch pregelatinised (maize) and stearic acid (see section 2 
+ Lonsurf contains lactose ). </li>
+<li>Film coat: hypromellose, macrogol (8000), titanium dioxide (E171), and magnesium stearate. </li>
+<li>Printing ink: shellac, iron oxide red (E172), iron oxide yellow (E172), titanium dioxide 
+(E171), indigo carmine aluminium lake (E132), carnauba wax and talc. </li>
+</ul>
 <p>Lonsurf 20 mg/8.19 mg film-coated tablet 
 * The active substances are trifluridine and tipiracil. Each film-coated tablet contains 20 mg 
 trifluridine and 8.19 mg tipiracil. 
-* The other ingredients are:<br />
-- Tablet core: lactose monohydrate, starch pregelatinised (maize) and stearic acid (see section 2 
-“Lonsurf contains lactose”). 
-- Film coating: hypromellose, macrogol (8000), titanium dioxide (E171), iron oxide red (E172), 
-and magnesium stearate. 
-- Printing ink: shellac, iron oxide red (E172), iron oxide yellow (E172), titanium dioxide 
-(E171), indigo carmine aluminium lake (E132), carnauba wax and talc. </p>
-<p>What Lonsurf looks like and contents of the pack 
-* Lonsurf 15 mg/6.14 mg is a white, biconvex, round, film-coated tablet, printed with “15” on one 
-side and “102” and “15 mg” on the other side in grey ink. </p>
+* The other ingredients are:</p>
 <ul>
-<li>Lonsurf 20 mg/8.19 mg is a pale red, biconvex, round, film-coated tablet, printed with “20” on one 
-side and “102” and “20 mg” on the other side in grey ink. </li>
+<li>Tablet core: lactose monohydrate, starch pregelatinised (maize) and stearic acid (see section 2 
+ Lonsurf contains lactose ). </li>
+<li>Film coating: hypromellose, macrogol (8000), titanium dioxide (E171), iron oxide red (E172), 
+and magnesium stearate. </li>
+<li>Printing ink: shellac, iron oxide red (E172), iron oxide yellow (E172), titanium dioxide 
+(E171), indigo carmine aluminium lake (E132), carnauba wax and talc. </li>
+</ul>
+<p>What Lonsurf looks like and contents of the pack 
+* Lonsurf 15 mg/6.14 mg is a white, biconvex, round, film-coated tablet, printed with  15  on one 
+side and  102  and  15 mg  on the other side in grey ink. </p>
+<ul>
+<li>Lonsurf 20 mg/8.19 mg is a pale red, biconvex, round, film-coated tablet, printed with  20  on one 
+side and  102  and  20 mg  on the other side in grey ink. </li>
 </ul>
 <p>Each pack contains 20 film-coated tablets (2 blisters of 10 tablets each) or 40 film-coated tablets (4 
 blisters of 10 tablets each), or 60 film-coated tablets (6 blisters of 10 tablets each). A desiccant is 
@@ -392,20 +396,19 @@ Y14 E284,
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 S.A. Servier Benelux N.V. 
 Tel: +32 (0)2 529 43<br />
 Lietuva 
-UAB “SERVIER PHARMA” 
-Tel: +370 (5) 2 63 86 България 
-Сервие Медикал ЕООД 
-Тел.: +359 2 921 57<br />
+UAB  SERVIER PHARMA<br />
+Tel: +370 (5) 2 63 86   </p>
+<p>.: +359 2 921 57<br />
 Luxembourg/Luxemburg 
 S.A. Servier Benelux N.V. 
 Tel: +32 (0)2 529 43<br />
-Česká republika 
+ esk  republika 
 Servier s.r.o. 
-Tel: +420 222 118 Magyarország 
+Tel: +420 222 118 Magyarorsz g 
 Servier Hungaria Kft. 
 Tel: +36 1 238 7 
 Danmark 
@@ -420,18 +423,17 @@ Nederland
 Servier Nederland Farma B.V. 
 Tel: +31 (0)71 5246 
 Eesti 
-Servier Laboratories OÜ<br />
+Servier Laboratories O <br />
 Tel:+ 372 664 5 
 Norge 
 Servier Danmark A/S 
 Tlf: +45 36 44 22<br />
-Eλλάδα 
-ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
-Τηλ: +30 210 939 1 
-Österreich 
+E  </p>
+<p>: +30 210 939 1 
+ sterreich 
 Servier Austria GmbH 
 Tel: +43 (1) 524 39<br />
-España 
+Espa a 
 Laboratorios Servier S.L. 
 Tel: +34 91 748 96<br />
 Polska 
@@ -444,7 +446,7 @@ Servier Portugal, Lda
 Tel.: +351 21 312 20 Hrvatska 
 Servier Pharma, d. o. o. 
 Tel.: +385 (0)1 3016<br />
-România 
+Rom nia 
 Servier Pharma SRL 
 Tel: +4 021 528 52<br />
 Ireland 
@@ -452,20 +454,19 @@ Slovenija
 Servier Laboratories (Ireland) Ltd. 
 Tel: +353 (0)1 663 8 
 Servier Pharma d. o. o.<br />
-Tel.: +386 (0)1 563 48 Ísland 
+Tel.: +386 (0)1 563 48  sland 
 Servier Laboratories 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Servier Slovensko spol. s r.o. 
 Tel.:+421 (0) 2 5920 41 Italia 
 Servier Italia S.p.A. 
 Tel: +39 06 669Suomi/Finland 
 Servier Finland Oy 
-P. /Tel: +358 (0)9 279 80<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22741 
+P. /Tel: +358 (0)9 279 80  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22741 
 Sverige 
 Servier Sverige AB 
 Tel : +46 (0)8 522 508<br />

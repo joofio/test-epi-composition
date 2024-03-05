@@ -4,7 +4,7 @@ Instance: composition-en-684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ajovy Package Leaflet"
 Description:  "Composition for ajovy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -114,7 +114,7 @@ this medicine. You and your doctor should decide if you will use AJOVY while bre
 <p>Driving and using machines 
 This medicine is not expected to have any effect on your ability to drive or use machines. </p>
 <p>AJOVY contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. is essentially “sodium-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. is essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ajovy"
@@ -123,12 +123,14 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. is essenti
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
-<p>Read the “Instructions for Use” for the pre-filled syringe carefully before using AJOVY. </p>
+<p>Read the  Instructions for Use  for the pre-filled syringe carefully before using AJOVY. </p>
 <p>How much and when to inject 
 Your doctor will discuss and decide with you the most appropriate dosing schedule. There are two 
-alternative recommended dosing options: 
-- one injection (225 mg) once a month (monthly dosing) or 
-- three injections (675 mg) every 3 months (quarterly dosing) </p>
+alternative recommended dosing options:</p>
+<ul>
+<li>one injection (225 mg) once a month (monthly dosing) or </li>
+<li>three injections (675 mg) every 3 months (quarterly dosing) </li>
+</ul>
 <p>If your dose is 675 mg, inject the three injections one after another, each in a different place. </p>
 <p>AJOVY is given by injection under your skin (subcutaneous injection). Your doctor or nurse will 
 explain to you or your caregiver how to give the injection. Do not inject AJOVY until you or your 
@@ -160,7 +162,7 @@ Rash at the injection site
 Allergic reactions such as rash, swelling or hives </p>
 <p>Rare (may affect up to 1 in 1,000 people) 
 Serious allergic reactions (signs may include trouble breathing, swelling of the lips, tongue or severe 
-rash) (see section 2. “Warnings and precautions”). </p>
+rash) (see section 2.  Warnings and precautions ). </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -175,9 +177,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the syringe label and on the outer 
 carton after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. 
 Keep the pre-filled syringe in the outer carton to protect the medicine from light. </p>
-<p>This medicine may be removed from the refrigerator and stored at a temperature up to 30 °C for a 
+<p>This medicine may be removed from the refrigerator and stored at a temperature up to 30  C for a 
 maximum period of up to 7 days. The medicine must be discarded if it has been out of the refrigerator 
 for longer than 7 days. Once stored at room temperature, do not place back in the refrigerator. </p>
 <p>Do not use this medicine if you notice that the outer carton has been tampered with, the syringe is 
@@ -200,5 +202,112 @@ sucrose, disodium ethylenediaminetetraacetic acid (EDTA) dihydrate, polysorbate 
 for injections. </p>
 <p>What AJOVY looks like and contents of the pack 
 AJOVY is a solution for injection (injection) in a pre-filled syringe with a fixed injection needle in a 
-blister. AJOVY is a clear, colourless to slightly yellow solution. Each pre-filled syringe contains </p>         </div>"""      
+blister. AJOVY is a clear, colourless to slightly yellow solution. Each pre-filled syringe contains 
+1.5 mL solution. </p>
+<p>AJOVY is available in packs containing 1 or 3 pre-filled syringes. Not all pack sizes may be available 
+in your country. </p>
+<p>Marketing Authorisation Holder<br />
+TEVA GmbH 
+Graf-Arco-Str. 3 
+89079 Ulm 
+Germany </p>
+<p>Manufacturer 
+Merckle GmbH 
+Graf-Arco-Str. 3 
+89079 Ulm 
+Germany </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207373  </p>
+<p>Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 
+ esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt.<br />
+Tel: +36 12886400<br />
+Danmark 
+Teva Denmark A/S<br />
+Tlf: +45 44985511  </p>
+<p>Malta 
+Teva Pharmaceuticals Ireland<br />
+L-Irlanda<br />
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140208  </p>
+<p>Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228400  </p>
+<p>Eesti 
+UAB Teva Baltics Eesti filiaal<br />
+Tel: +372 6610Norge 
+Teva Norway AS<br />
+Tlf: +47 66775590  </p>
+<p>TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH<br />
+Tel: +43 1970 
+Espa a 
+Teva Pharma, S.L.U.<br />
+Tel: +34 913873280<br />
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o.<br />
+Tel: +48 223459300  </p>
+<p>France 
+Teva Sant <br />
+T l: +33 155917800  </p>
+<p>Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda.<br />
+Tel: +351 214767550<br />
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720000  </p>
+<p>Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306524  </p>
+<p>Ireland 
+Teva Pharmaceuticals Ireland<br />
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o.<br />
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503 
+Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o.<br />
+Tel: +421 257267911<br />
+Italia 
+Teva Italia S.r.l.<br />
+Tel: +39 028917981<br />
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805900  </p>
+<p>TEVA HELLAS  . . </p>
+<p>: +30 2118805 
+Sverige 
+Teva Sweden AB<br />
+Tel: +46 42121100  </p>
+<p>Latvija 
+UAB Teva Baltics fili le Latvij <br />
+Tel: +371 67323666  </p>
+<p>United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>This leaflet was last revised in {month YYYY}. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

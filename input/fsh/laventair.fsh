@@ -4,7 +4,7 @@ Instance: composition-en-7d204d7b4b6b9533290dd865f462d707
 InstanceOf: CompositionUvEpi
 Title: "Composition for laventair Package Leaflet"
 Description:  "Composition for laventair Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,21 +90,25 @@ do not have a quick-acting inhaler contact your doctor. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take laventair"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use LAVENTAIR ELLIPTA:<br />
-- if you are allergic to umeclidinium, vilanterol or any of the other ingredients of this medicine (listed in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use LAVENTAIR ELLIPTA:</p>
+<ul>
+<li>if you are allergic to umeclidinium, vilanterol or any of the other ingredients of this medicine (listed in 
 section 6). 
-If you think this applies to you, do not use this medicine until you have checked with your doctor.  </p>
+If you think this applies to you, do not use this medicine until you have checked with your doctor.  </li>
+</ul>
 <p>Warnings and precautions <br />
-Talk to your doctor before using this medicine: 
-- if you have asthma (Do not use LAVENTAIR ELLIPTA to treat asthma) 
-- if you have heart problems or high blood pressure 
-- if you have an eye problem called narrow-angle glaucoma 
-- if you have an enlarged prostate, difficulty passing urine or a blockage in your bladder 
-- if you suffer from epilepsy 
-- if you have thyroid gland problems 
-- if you have low potassium in your blood 
-- if you have diabetes 
-- if you have severe liver problems </p>
+Talk to your doctor before using this medicine:</p>
+<ul>
+<li>if you have asthma (Do not use LAVENTAIR ELLIPTA to treat asthma) </li>
+<li>if you have heart problems or high blood pressure </li>
+<li>if you have an eye problem called narrow-angle glaucoma </li>
+<li>if you have an enlarged prostate, difficulty passing urine or a blockage in your bladder </li>
+<li>if you suffer from epilepsy </li>
+<li>if you have thyroid gland problems </li>
+<li>if you have low potassium in your blood </li>
+<li>if you have diabetes </li>
+<li>if you have severe liver problems </li>
+</ul>
 <p>Check with your doctor if you think any of these may apply to you. </p>
 <p>Immediate breathing difficulties 
 If you get tightness of the chest, coughing, wheezing or breathlessness immediately after using your 
@@ -121,8 +125,8 @@ Do not give this medicine to children or adolescents below the age of 18 years. 
 <p>Other medicines and LAVENTAIR ELLIPTA 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. If 
 you are not sure what your medicine contains talk to your doctor or pharmacist. </p>
-<p>Some medicines may affect how this medicine works, or make it more likely that you’ll have side effects. 
-These include: </p>
+<p>Some medicines may affect how this medicine works, or make it more likely that you ll have side effects. 
+These include:</p>
 <ul>
 <li>medicines called beta blockers (such as propranolol), to treat high blood pressure or other heart 
 problems </li>
@@ -170,7 +174,7 @@ help to keep you free of symptoms throughout the day and night. </p>
 <p>LAVENTAIR ELLIPTA should not be used to relieve a sudden attack of breathlessness or wheezing. If 
 you get this sort of attack you must use a quick-acting reliever inhaler (such as salbutamol). </p>
 <p>How to use the inhaler 
-See ‘Step-by-step instructions’ at the end of this leaflet for full information. </p>
+See  Step-by-step instructions  at the end of this leaflet for full information. </p>
 <p>LAVENTAIR ELLIPTA is for inhalation use. To use LAVENTAIR ELLIPTA, you breathe it into your 
 lungs through your mouth using the ELLIPTA inhaler. </p>
 <p>If your symptoms do not improve<br />
@@ -237,7 +241,7 @@ called sinusitis)
 * blurred vision 
 * increase of the measured eye pressure 
 * decrease in vision or pain in your eyes (possible signs of glaucoma) 
-* difficulty and pain when passing urine – these may be signs of a bladder obstruction or urinary 
+* difficulty and pain when passing urine   these may be signs of a bladder obstruction or urinary 
 retention. </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 * dizziness. </p>
@@ -252,13 +256,13 @@ Appendix V. By reporting side effects you can help provide more information on t
   * code.text = "5. How to store laventair"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton, tray and inhaler after ‘EXP’. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton, tray and inhaler after  EXP . The 
 expiry date refers to the last day of that month.  </p>
 <p>Keep the inhaler inside the sealed tray in order to protect from moisture and only remove immediately before 
 first use. Once the tray is opened, the inhaler can be used for up to 6 weeks, starting from the date of opening 
 the tray. Write the date the inhaler should be thrown away on the label in the space provided. The date should 
 be added as soon as the inhaler has been removed from the tray. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>If stored in a refrigerator, allow the inhaler to return to room temperature for at least an hour before use. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
 away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -274,8 +278,8 @@ The active substances are umeclidinium bromide and vilanterol. </p>
 <p>Each single inhalation provides a delivered dose (the dose leaving the mouthpiece) of 55 micrograms 
 umeclidinium (equivalent to 65 micrograms of umeclidinium bromide) and 22 micrograms of vilanterol (as 
 trifenatate). </p>
-<p>The other ingredients are lactose monohydrate (see section 2 under ‘LAVENTAIR ELLIPTA contains 
-lactose’) and magnesium stearate. </p>
+<p>The other ingredients are lactose monohydrate (see section 2 under  LAVENTAIR ELLIPTA contains 
+lactose ) and magnesium stearate. </p>
 <p>What LAVENTAIR ELLIPTA looks like and contents of the pack 
 LAVENTAIR ELLIPTA is an inhalation powder, pre-dispensed. 
 The Ellipta inhaler consists of a light grey plastic body, a red mouthpiece cover and a dose counter. It is 
@@ -297,24 +301,25 @@ Zone Industrielle No.2
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52  </p>
+T l/Tel: + 32 (0) 10 85 52  </p>
 <p>Lietuva<br />
-UAB “BERLIN-CHEMIE MENARINI BALTIC” 
+UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: +370 52 691 lt@berlin-chemie.com </p>
-<p>България<br />
-“Берлин-Хеми/А. Менарини 
-България” EООД<br />
-Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
+<ul>
+<li>/ . <br />
+  E <br />
+Te .: +359 2 454 0bcsofia@berlin-chemie.com </li>
+</ul>
 <p>Luxembourg/Luxemburg<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika<br />
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika<br />
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
-Magyarország<br />
+Magyarorsz g<br />
 Berlin-Chemie/A. Menarini Kft.<br />
 Tel.: +36 23501bc-hu@berlin-chemie.com </p>
 <p>Danmark<br />
@@ -330,18 +335,17 @@ Nederland<br />
 GlaxoSmithKline BV 
 Tel: + 31 (0)33 2081 
 Eesti<br />
-OÜ Berlin-Chemie Menarini Eesti<br />
+O  Berlin-Chemie Menarini Eesti<br />
 Tel: +372 667 5ee@berlin-chemie.com 
 Norge<br />
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20  </p>
-<p>Ελλάδα<br />
-Guidotti Hellas A.E. 
-Τηλ: + 30 210 8316111- Österreich<br />
+<p>Guidotti Hellas A.E. 
+ : + 30 210 8316111-  sterreich<br />
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España<br />
+<p>Espa a<br />
 FAES FARMA, S.A. 
 Tel: + 34 900 460 aweber@faes.es 
 Polska<br />
@@ -349,14 +353,14 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 </p>
 <p>France<br />
 MENARINI France 
-Tél: + 33 (0)1 45 60 77<br />
+T l: + 33 (0)1 45 60 77<br />
 Portugal<br />
 BIAL, Portela &amp; Ca. SA. 
 Tel: + 351 22 986 61 info@bial.com </p>
 <p>Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o.<br />
 Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
-<p>România<br />
+<p>Rom nia<br />
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +40 800672Ireland<br />
 GlaxoSmithKline (Ireland) Limited 
@@ -365,10 +369,10 @@ Tel: + 353 (0)1 4955 </p>
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o.<br />
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
-<p>Ísland<br />
+<p>sland<br />
 Vistor hf. 
-Sími: + 354 535 7 </p>
-<p>Slovenská republika<br />
+S mi: + 354 535 7 </p>
+<p>Slovensk  republika<br />
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o.<br />
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
@@ -377,10 +381,9 @@ A. Menarini Industrie Farmaceutiche Riunite s.r.l.
 Tel: +39 (0)55 56 
 Suomi/Finland<br />
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος<br />
-GlaxoSmithKline (Ireland) Limited<br />
-Τηλ: +357 80070 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline (Ireland) Limited<br />
+ : +357 80070 
 Sverige<br />
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

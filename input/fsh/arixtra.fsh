@@ -4,7 +4,7 @@ Instance: composition-en-3762e897869ef821659a1e76148e806a
 InstanceOf: CompositionUvEpi
 Title: "Composition for arixtra Package Leaflet"
 Description:  "Composition for arixtra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Arixtra 
 4. Possible side effects  
 5. How to store Arixtra 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -71,7 +70,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Arixtra is a medicine that helps prevent blood clots from forming in the blood vessels (an 
 antithrombotic agent).  </p>
 <p>Arixtra contains a synthetic substance called fondaparinux sodium.  This stops a clotting factor Xa 
-(“ten-A”) from working in the blood, and so prevents unwanted blood clots (thromboses) from 
+( ten-A ) from working in the blood, and so prevents unwanted blood clots (thromboses) from 
 forming in the blood vessels.  </p>
 <p>Arixtra is used to:<br />
 * prevent the formation of blood clots in the blood vessels of the legs or lungs after orthopaedic 
@@ -94,26 +93,22 @@ vein thrombosis).   </p>         </div>"""
 * if you are bleeding excessively<br />
 </em> if you have a bacterial heart infection 
 * if you have very severe kidney disease. 
-→  Tell your doctor if you think any of these applies to you.  If they do, you must not use Arixtra. </p>
+   Tell your doctor if you think any of these applies to you.  If they do, you must not use Arixtra. </p>
 <p>Take special care with Arixtra: 
 Talk to your doctor or pharmacist before taking Arixtra: 
 * if you have previously had complications during treatment with heparin or heparin-like 
 medicines causing a fall in the number of blood platelets (heparin-induced 
 thrombocytopenia) 
-* if you have a risk of uncontrolled bleeding (haemorrhage) including: 
-· 
-stomach ulcer 
-· 
-bleeding disorders 
-· 
-recent bleeding into the brain (intracranial bleeding) 
-· 
-recent surgery on the brain, spine or eye<br />
+* if you have a risk of uncontrolled bleeding (haemorrhage) including: </p>
+<p>stomach ulcer </p>
+<p>bleeding disorders </p>
+<p>recent bleeding into the brain (intracranial bleeding) </p>
+<p>recent surgery on the brain, spine or eye<br />
 <em> if you have severe liver disease<br />
 </em> if you have kidney disease<br />
 <em> if you are 75 years old or older<br />
 </em> if you weigh less than 50 kg. 
-→  Tell your doctor if any of these applies to you. </p>
+   Tell your doctor if any of these applies to you. </p>
 <p>Children and adolescents 
 Arixtra has not been tested in children and adolescents under the age of 17 years. </p>
 <p>Other medicines and Arixtra 
@@ -131,7 +126,7 @@ sodium-free. </p>
 <p>Arixtra syringe contains latex 
 The syringe needle shield contains latex that has the potential to cause allergic reactions in latex 
 sensitive individuals.<br />
- Tell your doctor if you are allergic to latex before being treated with Arixtra. </p>         </div>"""   
+  Tell your doctor if you are allergic to latex before being treated with Arixtra. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arixtra"
@@ -158,7 +153,7 @@ bleeding.  </p>
 * Take the dose as soon as you remember.  Do not inject a double dose to make up for a 
 forgotten dose.<br />
 * If you are not sure what to do, ask your doctor or pharmacist. </p>
-<p>Don’t stop using Arixtra without advice<br />
+<p>Don t stop using Arixtra without advice<br />
 If you stop the treatment before your doctor told you to, you are at risk of developing a blood clot in a 
 vein of your leg or lung. Contact your doctor or pharmacist before stopping. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
@@ -175,9 +170,8 @@ Severe allergic reactions (anaphylaxis): These are very rare in people (up to 1 
 Arixtra. Signs include: 
 * swelling, sometimes of the face or mouth (angioedema), causing difficulty in 
 swallowing or breathing 
-* collapse. 
- 
-Contact a doctor immediately if you get these symptoms. Stop taking Arixtra. </p>
+* collapse. </p>
+<p>Contact a doctor immediately if you get these symptoms. Stop taking Arixtra. </p>
 <p>Common side effects 
 These may affect more than 1 in 100 people treated with Arixtra. 
 * bleeding (for example from an operation site, an existing stomach ulcer, nosebleed, gums) 
@@ -220,9 +214,11 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store arixtra"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children 
-* Store below 25°C.  Do not freeze 
-* Arixtra does not need to be kept in the fridge.  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children </li>
+<li>Store below 25 C.  Do not freeze </li>
+<li>Arixtra does not need to be kept in the fridge.  </li>
+</ul>
 <p>Do not use this medicine: 
 * after the expiry date shown on the label and carton 
 * if you notice any particles in the solution, or if the solution is discoloured<br />
@@ -255,17 +251,15 @@ Mylan IRE Healthcare Limited, Unit 35/36 Grange Parade, Baldoyle Industrial Esta
 Ireland  </p>
 <p>Manufacturer: 
 Aspen Notre Dame de Bondeville, 1 rue de l'Abbaye, F-76960 Notre Dame de Bondeville, France. </p>
-<p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d. Höhe, Benzstrasse 1, 
-61352 Bad Homburg v. d. Höhe, Germany </p>
+<p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d. H he, Benzstrasse 1, 
+61352 Bad Homburg v. d. H he, Germany </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan EPD bvba/sprl<br />
 Tel: + 32 (0)2 658 61 00       </p>
-<p>България 
-Майлан ЕООД 
-Тел: +359 2 44 55       </p>
-<p>Česká republika 
+<p>: +359 2 44 55       </p>
+<p>esk  republika 
 Viatris CZ s.r.o. 
 Tel: + 420 222 004      <br />
 Lietuva 
@@ -275,7 +269,7 @@ Luxembourg/Luxemburg
 Mylan EPD bvba/sprl<br />
 Tel: + 32 (0)2 658 61 00<br />
 (Belgique/Belgien) </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Mylan EPD Kft 
 Tel: + 36 1 465 2    <br />
 Danmark 
@@ -294,28 +288,27 @@ BGP Products Switzerland GmbH Eesti filiaal<br />
 Tel: + 372 6363 052       </p>
 <p>Norge 
 Viatris AS 
-Tel: + 47 66 75 33      <br />
-Ελλάδα 
-BGP ΠΡΟΪΟΝΤΑ Μ.Ε.Π.Ε. 
-Τηλ: +30 210 9891     <br />
-Österreich 
-Mylan Österreich GmbH 
+Tel: + 47 66 75 33        </p>
+<p>BGP    . . . . 
+ : +30 210 9891     <br />
+ sterreich 
+Mylan  sterreich GmbH 
 Tel: +43 1 86 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: +34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel: + 48 22 546 64 00       </p>
 <p>France 
-Viatris Santé 
-Tél.: + 33 (0)4 37 25 75 Portugal<br />
+Viatris Sant<br />
+T l.: + 33 (0)4 37 25 75 Portugal<br />
 BGP Products, Unipessoal, Lda. 
 Tel: + 351 21 412 72<br />
 Hrvatska 
 Mylan Hrvatska d.o.o. 
 Tel: +385 1 23 50     <br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: +40 372 579 000     <br />
 Ireland 
@@ -324,9 +317,9 @@ Tel: +353 1 8711
 Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63 180       </p>
-<p>Ísland 
+<p>sland 
 Icepharma hf. 
-Slovenská republika 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Simi: +354 540 8 
 Tel: +421 2 32 199      <br />
@@ -335,10 +328,9 @@ Mylan Italia S.r.l.
 Tel: + 39 02 612 46921    <br />
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7     <br />
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7     <br />
 Sverige 
 Viatris AB<br />
 Tel: + 46 855 522<br />

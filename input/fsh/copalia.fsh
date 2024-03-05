@@ -4,7 +4,7 @@ Instance: composition-en-4cfe8c40a5179c3c87314b55050e4442
 InstanceOf: CompositionUvEpi
 Title: "Composition for copalia Package Leaflet"
 Description:  "Composition for copalia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,13 +70,11 @@ Usage: #example
   * code.text =  "1. What copalia is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Copalia tablets contain two substances called amlodipine and valsartan. Both of these substances help 
-to control high blood pressure. 
-− 
-Amlodipine belongs to a group of substances called “calcium channel blockers”. Amlodipine 
+to control high blood pressure. </p>
+<p>Amlodipine belongs to a group of substances called  calcium channel blockers . Amlodipine 
 stops calcium from moving into the blood vessel wall which stops the blood vessels from 
-tightening. 
-− 
-Valsartan belongs to a group of substances called “angiotensin-II receptor antagonists”. 
+tightening. </p>
+<p>Valsartan belongs to a group of substances called  angiotensin-II receptor antagonists . 
 Angiotensin II is produced by the body and makes the blood vessels tighten, thus increasing the 
 blood pressure. Valsartan works by blocking the effect of angiotensin II. 
 This means that both of these substances help to stop the blood vessels tightening. As a result, the 
@@ -91,62 +89,44 @@ with either amlodipine or valsartan on its own. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take copalia"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Copalia 
-− 
-if you are allergic to amlodipine or to any other calcium channel blockers. This may involve 
-itching, reddening of the skin or difficulty in breathing. 
-− 
-if you are allergic to valsartan or any of the other ingredients of this medicine (listed in 
-section 6). If you think you may be allergic, talk to your doctor before taking Copalia. 
-− 
-if you have severe liver problems or bile problems such as biliary cirrhosis or cholestasis. 
-− 
-if you are more than 3 months pregnant. (It is also better to avoid Copalia in early pregnancy, 
-see Pregnancy section). 
-− 
-if you have severe low blood pressure (hypotension). 
-− 
-if you have narrowing of the aortic valve (aortic stenosis) or cardiogenic shock (a condition 
-where your heart is unable to supply enough blood to the body). 
-− 
-if you suffer from heart failure after a heart attack. 
-− 
-if you have diabetes or impaired kidney function and you are treated with a blood pressure 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Copalia </p>
+<p>if you are allergic to amlodipine or to any other calcium channel blockers. This may involve 
+itching, reddening of the skin or difficulty in breathing. </p>
+<p>if you are allergic to valsartan or any of the other ingredients of this medicine (listed in 
+section 6). If you think you may be allergic, talk to your doctor before taking Copalia. </p>
+<p>if you have severe liver problems or bile problems such as biliary cirrhosis or cholestasis. </p>
+<p>if you are more than 3 months pregnant. (It is also better to avoid Copalia in early pregnancy, 
+see Pregnancy section). </p>
+<p>if you have severe low blood pressure (hypotension). </p>
+<p>if you have narrowing of the aortic valve (aortic stenosis) or cardiogenic shock (a condition 
+where your heart is unable to supply enough blood to the body). </p>
+<p>if you suffer from heart failure after a heart attack. </p>
+<p>if you have diabetes or impaired kidney function and you are treated with a blood pressure 
 lowering medicine containing aliskiren. 
 If any of the above applies to you, do not take Copalia and talk to your doctor. </p>
 <p>Warnings and precautions 
-Talk to your doctor before taking Copalia: 
-− 
-if you have been sick (vomiting or diarrhoea). 
-− 
-if you have liver or kidney problems. 
-− 
-if you have had a kidney transplant or if you had been told that you have a narrowing of your 
-kidney arteries. 
-− 
-if you have a condition affecting the renal glands called “primary hyperaldosteronism”. 
-− 
-if you have had heart failure or have experienced a heart attack. Follow your doctor’s 
-instructions for the starting dose carefully. Your doctor may also check your kidney function. 
-− 
-if your doctor has told you that you have a narrowing of the valves in your heart (called “aortic 
-or mitral stenosis”) or that the thickness of your heart muscle is abnormally increased (called 
-“obstructive hypertrophic cardiomyopathy”). 
-− 
-if you have experienced swelling, particularly of the face and throat, while taking other 
+Talk to your doctor before taking Copalia: </p>
+<p>if you have been sick (vomiting or diarrhoea). </p>
+<p>if you have liver or kidney problems. </p>
+<p>if you have had a kidney transplant or if you had been told that you have a narrowing of your 
+kidney arteries. </p>
+<p>if you have a condition affecting the renal glands called  primary hyperaldosteronism . </p>
+<p>if you have had heart failure or have experienced a heart attack. Follow your doctor s 
+instructions for the starting dose carefully. Your doctor may also check your kidney function. </p>
+<p>if your doctor has told you that you have a narrowing of the valves in your heart (called  aortic 
+or mitral stenosis ) or that the thickness of your heart muscle is abnormally increased (called 
+ obstructive hypertrophic cardiomyopathy ). </p>
+<p>if you have experienced swelling, particularly of the face and throat, while taking other 
 medicines (including angiotensin converting enzyme inhibitors). If you get these symptoms, 
 stop taking Copalia and contact your doctor straight away. You should never take Copalia 
-again. 
-− 
-if you are taking any of the following medicines used to treat high blood pressure: 
-− 
-an ACE inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
-diabetes-related kidney problems. 
-− 
-aliskiren. </p>
+again. </p>
+<p>if you are taking any of the following medicines used to treat high blood pressure: </p>
+<p>an ACE inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
+diabetes-related kidney problems. </p>
+<p>aliskiren. </p>
 <p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. 
 potassium) in your blood at regular intervals. </p>
-<p>See also information under the heading “Do not take Copalia”. </p>
+<p>See also information under the heading  Do not take Copalia . </p>
 <p>If any of these apply to you, tell your doctor before taking Copalia. </p>
 <p>Children and adolescents 
 The use of Copalia in children and adolescents is not recommended (aged below 18 years old). </p>
@@ -154,43 +134,28 @@ The use of Copalia in children and adolescents is not recommended (aged below 18
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Your doctor may need to change your dose and/or to take other precautions. In some cases 
 you may have to stop taking one of the medicines. This applies especially to the medicines listed 
-below: 
-− 
-ACE inhibitors or aliskiren (see also information under the headings “Do not take Copalia” and 
-“Warnings and precautions”); 
-− 
-diuretics (a type of medicine also called “water tablets” which increases the amount of urine you 
-produce); 
-− 
-lithium (a medicine used to treat some types of depression); 
-− 
-potassium-sparing diuretics, potassium supplements, salt substitutes containing potassium and 
-other substances that may increase potassium levels; 
-− 
-certain types of painkillers called non-steroidal anti-inflammatory medicines (NSAIDs) or 
+below: </p>
+<p>ACE inhibitors or aliskiren (see also information under the headings  Do not take Copalia  and 
+ Warnings and precautions ); </p>
+<p>diuretics (a type of medicine also called  water tablets  which increases the amount of urine you 
+produce); </p>
+<p>lithium (a medicine used to treat some types of depression); </p>
+<p>potassium-sparing diuretics, potassium supplements, salt substitutes containing potassium and 
+other substances that may increase potassium levels; </p>
+<p>certain types of painkillers called non-steroidal anti-inflammatory medicines (NSAIDs) or 
 selective cyclooxygenase-2 inhibitors (COX-2 inhibitors). Your doctor may also check your 
-kidney function; 
-− 
-anticonvulsant agents (e.g. carbamazepine, phenobarbital, phenytoin, fosphenytoin, primidone); 
-− 
-St. John’s wort; 
-− 
-nitroglycerin and other nitrates, or other substances called “vasodilators”; 
-− 
-medicines used for HIV/AIDS (e.g. ritonavir, indinavir, nelfinavir); 
-− 
-medicines used to treat fungal infections (e.g. ketoconazole, itraconazole); 
-− 
-medicines used to treat bacterial infections (such as rifampicin, erythromycin, clarithromycin, 
-telithromycin); 
-− 
-verapamil, diltiazem (heart medicines); 
-− 
-simvastatin (a medicine used to control high cholesterol levels); 
-− 
-dantrolene (infusion for severe body temperature abnormalities); 
-− 
-medicines used to protect against transplant rejection (ciclosporin). </p>
+kidney function; </p>
+<p>anticonvulsant agents (e.g. carbamazepine, phenobarbital, phenytoin, fosphenytoin, primidone); </p>
+<p>St. John s wort; </p>
+<p>nitroglycerin and other nitrates, or other substances called  vasodilators ; </p>
+<p>medicines used for HIV/AIDS (e.g. ritonavir, indinavir, nelfinavir); </p>
+<p>medicines used to treat fungal infections (e.g. ketoconazole, itraconazole); </p>
+<p>medicines used to treat bacterial infections (such as rifampicin, erythromycin, clarithromycin, 
+telithromycin); </p>
+<p>verapamil, diltiazem (heart medicines); </p>
+<p>simvastatin (a medicine used to control high cholesterol levels); </p>
+<p>dantrolene (infusion for severe body temperature abnormalities); </p>
+<p>medicines used to protect against transplant rejection (ciclosporin). </p>
 <p>Copalia with food and drink 
 Grapefruit and grapefruit juice should not be consumed by people who are taking Copalia. This is 
 because grapefruit and grapefruit juice can lead to an increase in the blood levels of the active 
@@ -221,13 +186,10 @@ need to concentrate on. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. This will help you get the best results and lower the risk of side effects. </p>
-<p>The usual dose of Copalia is one tablet per day. 
-− 
-It is preferable to take your medicine at the same time each day. 
-− 
-Swallow the tablets with a glass of water. 
-− 
-You can take Copalia with or without food. Do not take Copalia with grapefruit or grapefruit 
+<p>The usual dose of Copalia is one tablet per day. </p>
+<p>It is preferable to take your medicine at the same time each day. </p>
+<p>Swallow the tablets with a glass of water. </p>
+<p>You can take Copalia with or without food. Do not take Copalia with grapefruit or grapefruit 
 juice. </p>
 <p>Depending on how you respond to the treatment, your doctor may suggest a higher or lower dose. </p>
 <p>Do not exceed the prescribed dose. </p>
@@ -275,16 +237,18 @@ If any of these affect you severely, tell your doctor. </p>
 observed with a higher frequency than with Copalia: </p>
 <p>Amlodipine 
 Consult a doctor immediately if you experience any of the following very rare, severe side effects 
-after taking this medicine: 
-- Sudden wheeziness, chest pain, shortness of breath or difficulty in breathing. 
-- Swelling of eyelids, face or lips. 
-- Swelling of the tongue and throat which causes great difficulty breathing. 
-- Severe skin reactions including intense skin rash, hives, reddening of the skin over your whole 
+after taking this medicine:</p>
+<ul>
+<li>Sudden wheeziness, chest pain, shortness of breath or difficulty in breathing. </li>
+<li>Swelling of eyelids, face or lips. </li>
+<li>Swelling of the tongue and throat which causes great difficulty breathing. </li>
+<li>Severe skin reactions including intense skin rash, hives, reddening of the skin over your whole 
 body, severe itching, blistering, peeling and swelling of the skin, inflammation of the mucous 
-membranes (Stevens-Johnson Syndrome, toxic epidermal necrolysis) or other allergic reactions. 
-- Heart attack, abnormal heart beat. 
-- Inflamed pancreas, which may cause severe abdominal and back pain accompanied with feeling 
-of being very unwell. </p>
+membranes (Stevens-Johnson Syndrome, toxic epidermal necrolysis) or other allergic reactions. </li>
+<li>Heart attack, abnormal heart beat. </li>
+<li>Inflamed pancreas, which may cause severe abdominal and back pain accompanied with feeling 
+of being very unwell. </li>
+</ul>
 <p>The following side effects have been reported. If any of these cause you problems or if they last for 
 more than one week, you should contact your doctor. 
 Common (may affect up to 1 in 10 people): Dizziness, sleepiness; palpitations (awareness of your heart 
@@ -324,7 +288,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not use any Copalia pack that is damaged or shows signs of tampering. </p>         </div>"""      
         
@@ -354,11 +318,11 @@ contains 10 mg amlodipine and 160 mg valsartan. </p>
 anhydrous; magnesium stearate; hypromellose (substitution type 2910 (3 mPa.s)); macrogol 4000; 
 talc, titanium dioxide (E171); iron oxide, yellow (E172), iron oxide, red (E172). </p>
 <p>What Copalia looks like and contents of the pack 
-Copalia 5 mg/80 mg tablets are round and dark yellow with “NVR” on one side and “NV” on the other 
+Copalia 5 mg/80 mg tablets are round and dark yellow with  NVR  on one side and  NV  on the other 
 side. Approximate size: diameter 8.20 mm. </p>
-<p>Copalia 5 mg/160 mg tablets are oval and dark yellow “NVR” on one side and “ECE” on the other 
+<p>Copalia 5 mg/160 mg tablets are oval and dark yellow  NVR  on one side and  ECE  on the other 
 side. Approximate size: 14.2 mm (length) x 5.7 mm (width). </p>
-<p>Copalia 10 mg/160 mg tablets are oval and light yellow with “NVR” on one side and “UIC” on the 
+<p>Copalia 10 mg/160 mg tablets are oval and light yellow with  NVR  on one side and  UIC  on the 
 other side. Approximate size: 14.2 mm (length) x 5.7 mm (width). </p>
 <p>Copalia is available in packs containing 7, 14, 28, 30, 56, 90, 98 or 280 tablets and in multipacks 
 comprising 4 cartons, each containing 70 tablets, or 20 cartons, each containing 14 tablets. All packs 
@@ -375,31 +339,30 @@ Ireland </p>
 Novartis Farma S.p.A. 
 Via Provinciale Schito 80058 Torre Annunziata (NA) 
 Italy </p>
-<p>Novartis Farmacéutica S.A. 
+<p>Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 976 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 976 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -415,35 +378,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Vifor Pharma España, S.L. 
+Tel: +43 1 86 6Espa a 
+Vifor Pharma Espa a, S.L. 
 Tel: +34 902 12 11<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Bialport-Produtos Farmacêuticos, S.A. 
+Bialport-Produtos Farmac uticos, S.A. 
 Tel: +351 22 986 61 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -451,10 +414,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

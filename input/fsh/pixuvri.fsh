@@ -4,7 +4,7 @@ Instance: composition-en-0fd623913db0595ec5994fb9494fc8e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for pixuvri Package Leaflet"
 Description:  "Composition for pixuvri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What pixuvri is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pixuvri belongs to a pharmacotherapeutic group of medicines known as ‘antineoplastic agents’. These 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pixuvri belongs to a pharmacotherapeutic group of medicines known as  antineoplastic agents . These 
 are used to treat cancer.  </p>
 <p>Pixuvri is used for the treatment of adult patients with multiply relapsed or refractory aggressive 
 Non-Hodgkin Lymphomas. Pixuvri kills cancer cells by binding to DNA, resulting in cell death. It is 
@@ -91,7 +91,7 @@ chemotherapy treatments. </p>         </div>"""
 blood cells, and platelets. 
 - if you have very severe liver problems. </p>
 <p>Warnings and precautions 
-Talk to your doctor before using Pixuvri: </p>
+Talk to your doctor before using Pixuvri:</p>
 <ul>
 <li>if you have been told that your white blood cell count is very low. </li>
 <li>if you have heart disease or uncontrolled high blood pressure, especially if you have ever been 
@@ -99,8 +99,8 @@ told you had heart failure or if you have had a heart attack within the last six
 <li>if you have an infection. </li>
 <li>if you have ever been treated for cancer.  </li>
 <li>if you follow a specific sodium restricted diet. </li>
-<li>if you are taking other medicines which could interact with Pixuvri (see ‘Taking other 
-medicines’ below). </li>
+<li>if you are taking other medicines which could interact with Pixuvri (see  Taking other 
+medicines  below). </li>
 </ul>
 <p>Skin sensitivity to sunlight 
 During treatment with pixantrone, you should minimize or avoid exposure to natural or artificial 
@@ -115,7 +115,7 @@ effect. Pixuvri must not be used with other medicines unless your doctor has tol
 so. 
 In particular, make sure to tell your doctor if you are currently using, or have recently used, any of the 
 following medicines: </p>
-<p>Tell your doctor if you take medicines such as:  </p>
+<p>Tell your doctor if you take medicines such as:</p>
 <ul>
 <li>Warfarin to prevent blood clot formation </li>
 <li>Theophylline to treat lung conditions like emphysema or asthma </li>
@@ -211,7 +211,7 @@ platelets in the blood (may require transfusion). </p>
 - inflammation and/or ulceration of the throat and the mouth 
 - dry mouth, constipation, indigestion, loss of appetite 
 - skin changes such as redness and itching of the skin, nail changes<br />
-- damage to the heart, decrease in heart’s ability to pump blood, blockage of electrical signals in 
+- damage to the heart, decrease in heart s ability to pump blood, blockage of electrical signals in 
 your heart, uneven or fast heartbeat.<br />
 - low blood pressure 
 - vein discolouration, pale skin 
@@ -268,15 +268,15 @@ medicine. </p>         </div>"""
   * code.text = "5. How to store pixuvri"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C). 
+<p>Store in a refrigerator (2 C to 8 C). 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Pixuvri does not contain anything to prevent the growth of bacteria and it is, therefore, recommended 
 that it be used immediately after reconstitution. If not used immediately, in-use storage times and 
 conditions prior to use are the responsibility of the user and should not be longer than 24 hours at 
-2°C to 8°C. </p>
-<p>Reconstituted pixantrone solution is stable for up to 24 hours at room temperature (15°C to 25°C) in 
+2 C to 8 C. </p>
+<p>Reconstituted pixantrone solution is stable for up to 24 hours at room temperature (15 C to 25 C) in 
 standard infusion bags.  </p>
 <p>Pixuvri is for single use only. Any unused medicinal product or waste material, including materials 
 used for reconstitution, dilution, and administration should be disposed of in accordance with local 
@@ -307,22 +307,20 @@ France  </p>
 <p>France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 S.A. Servier Benelux N.V. 
-Tél/Tel: +32 (0)2 529 43<br />
+T l/Tel: +32 (0)2 529 43<br />
 Lietuva 
-UAB “SERVIER PHARMA” 
-Tel: +370 (5) 2 63 86<br />
-България 
-Сервие Медикал ЕООД 
-Тел.: +359 2 921 57<br />
+UAB  SERVIER PHARMA<br />
+Tel: +370 (5) 2 63 86  </p>
+<p>.: +359 2 921 57<br />
 Luxembourg/Luxemburg 
 S.A. Servier Benelux N.V. 
 Tel: +32 (0)2 529 43<br />
-Česká republika 
+ esk  republika 
 Servier s.r.o. 
 Tel: +420 222 118<br />
-Magyarország 
+Magyarorsz g 
 Servier Hungaria Kft. 
 Tel: +36 1 238 7 
 Danmark 
@@ -338,18 +336,17 @@ Nederland
 Servier Nederland Farma B.V. 
 Tel: + 31 (0)71 5246 
 Eesti 
-Servier Laboratories OÜ<br />
+Servier Laboratories O <br />
 Tel:+ 372 664 5 
 Norge 
 Servier Danmark A/S 
 Tlf: +45 36 44 22<br />
-Eλλάδα 
-ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
-Τηλ: + 30 210 939 1 
-Österreich 
+E  </p>
+<p>: + 30 210 939 1 
+ sterreich 
 Servier Austria GmbH 
 Tel: +43 (1) 524 39<br />
-España 
+Espa a 
 Laboratorios Servier S.L. 
 Tel: + 34 91 748 96<br />
 Polska 
@@ -357,14 +354,14 @@ Servier Polska Sp. z o.o.
 Tel: + 48 (0) 22 594 90<br />
 France 
 Les Laboratoires Servier 
-Tél: + 33 (0)1 55 72 60<br />
+T l: + 33 (0)1 55 72 60<br />
 Portugal 
 Servier Portugal, Lda 
 Tel: + 351 21 312 20<br />
 Hrvatska 
 Servier Pharma, d. o. o. 
 Tel: + 385 (0)1 3016<br />
-România 
+Rom nia 
 Servier Pharma SRL 
 Tel: + 4 021 528 52<br />
 Ireland 
@@ -373,11 +370,11 @@ Tel: + 353 (0)1 663 8
 Slovenija 
 Servier Pharma d. o. o.<br />
 Tel: + 386 (0)1 563 48<br />
-Ísland 
+ sland 
 Servier Laboratories 
 c/o Icepharma hf 
-Sími: + 354 540 8 
-Slovenská republika 
+S mi: + 354 540 8 
+Slovensk  republika 
 Servier Slovensko spol. s r.o. 
 Tel: + 421 2 5920 41<br />
 Italia 
@@ -385,10 +382,9 @@ Servier Italia S.p.A.
 Tel: + 39 (06) 669 
 Suomi/Finland 
 Servier Finland Oy 
-P. /Tel: +358 (0)9 279 80<br />
-Κύπρος 
-CA Papaellinas Ltd. 
-Τηλ: + 357 22 741 Sverige 
+P. /Tel: +358 (0)9 279 80  </p>
+<p>CA Papaellinas Ltd. 
+ : + 357 22 741 Sverige 
 Servier Sverige AB 
 Tel : +46 (0)8 522 508  </p>
 <p>Latvija 

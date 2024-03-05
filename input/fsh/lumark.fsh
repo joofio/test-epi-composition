@@ -4,7 +4,7 @@ Instance: composition-en-66d5e6df1989e0692bced127abe8781a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumark Package Leaflet"
 Description:  "Composition for lumark Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,9 +89,11 @@ procedure with the radiopharmaceutical outweighs the risk due to radiation.  </p
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take lumark"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The medicine radiolabelled with Lumark must not be used: 
-- if you are allergic to lutetium or any of the other ingredients of this medicine (listed in section 6). 
-- if you are pregnant or believe you may be pregnant </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The medicine radiolabelled with Lumark must not be used:</p>
+<ul>
+<li>if you are allergic to lutetium or any of the other ingredients of this medicine (listed in section 6). </li>
+<li>if you are pregnant or believe you may be pregnant </li>
+</ul>
 <p>Warnings and precautions<br />
 Treatment with medicine radiolabelled with lutetium (177Lu) may lead to the following side effects 
 * a reduced number of red blood cells (anaemia) 
@@ -184,20 +186,20 @@ gets them.  </p>
 <p>Dry mouth has been reported among patients with prostate cancer receiving treatment with Lutetium (177Lu) 
 and has been temporary. </p>
 <p>Very common (may affect more than 1 in 10 people) </p>
-<p>• Reduction in blood cell counts (platelets, red or white blood cells) 
-• Nausea 
-• Vomiting 
-• Mild temporary hair loss </p>
+<p>Reduction in blood cell counts (platelets, red or white blood cells) 
+  Nausea 
+  Vomiting 
+  Mild temporary hair loss </p>
 <p>Common (may affect up to 1 in 10 people) </p>
-<p>• Bone marrow cancer (myelodysplastic syndrome) 
-• A reduced number of white blood cells (neutropenia) </p>
+<p>Bone marrow cancer (myelodysplastic syndrome) 
+  A reduced number of white blood cells (neutropenia) </p>
 <p>Uncommon (may affect up to 1 in 100 people) </p>
-<p>• Bone marrow cancer (acute myeloid leukaemia) </p>
+<p>Bone marrow cancer (acute myeloid leukaemia) </p>
 <p>Not known (frequency cannot be estimated from the available data) </p>
-<p>• Carcinoid crisis 
-• Tumour lysis syndrome (rapid breakdown of tumour cells) 
-• A reduced number of red blood cells, platelets, and white blood cells (pancytopenia) 
-• Dry mouth </p>
+<p>Carcinoid crisis 
+  Tumour lysis syndrome (rapid breakdown of tumour cells) 
+  A reduced number of red blood cells, platelets, and white blood cells (pancytopenia) 
+  Dry mouth </p>
 <p>Bone marrow cancer (myelodysplastic syndrome and acute myeloid leukaemia) has been reported in patients 
 several years after treatment with lutetium (177Lu) peptide receptor radionuclide therapy for neuroendocrine 
 tumours.<br />

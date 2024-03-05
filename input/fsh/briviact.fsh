@@ -4,7 +4,7 @@ Instance: composition-en-67d662579a878d3df2de1273192e0a02
 InstanceOf: CompositionUvEpi
 Title: "Composition for briviact Package Leaflet"
 Description:  "Composition for briviact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,14 +70,14 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Briviact is 
 Briviact contains the active substance brivaracetam. It belongs to a group of medicines called 
-‘anti-epileptics’. These medicines are used to treat epilepsy. </p>
+ anti-epileptics . These medicines are used to treat epilepsy. </p>
 <p>What Briviact is used for 
 * Briviact is used in adults, adolescents and children from 2 years of age. 
 * It is used to treat a type of epilepsy that has partial seizures with or without a secondary 
 generalisation.<br />
 <em> Partial seizures are fits that start by only affecting one side of the brain. These partial seizures 
-can spread and extend to larger areas on both sides of the brain – this is called a ‘secondary 
-generalisation’.<br />
+can spread and extend to larger areas on both sides of the brain   this is called a  secondary 
+generalisation .<br />
 </em> You have been given this medicine to lower the number of fits (seizures) you have.<br />
 * Briviact is used together with other medicines for epilepsy. </p>         </div>"""   
           
@@ -88,26 +88,32 @@ generalisation’.<br />
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take briviact"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Briviact if: 
-- you are allergic to brivaracetam, other similar chemical compounds as levetiracetam or 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Briviact if:</p>
+<ul>
+<li>you are allergic to brivaracetam, other similar chemical compounds as levetiracetam or 
 piracetam or any of the other ingredients of this medicine (listed in section 6). If you are not 
-sure, talk to your doctor or pharmacist before taking Briviact.  </p>
+sure, talk to your doctor or pharmacist before taking Briviact.  </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking Briviact if: 
-- You have thoughts of harming or killing yourself. A small number of people being treated with 
+Talk to your doctor or pharmacist before taking Briviact if:</p>
+<ul>
+<li>You have thoughts of harming or killing yourself. A small number of people being treated with 
 anti-epileptic medicines such as Briviact have had thoughts of harming or killing themselves. If 
-you have any of these thoughts at any time, contact your doctor immediately. 
-- You have liver problems - your doctor may need to adjust your dose. </p>
+you have any of these thoughts at any time, contact your doctor immediately. </li>
+<li>You have liver problems - your doctor may need to adjust your dose. </li>
+</ul>
 <p>Children<br />
 Briviact is not recommended for use in children under 2 years of age. </p>
 <p>Other medicines and Briviact 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>In particular, tell your doctor if you are taking any of the following medicines – this is because your 
-doctor may need to adjust your Briviact dose: 
-- Rifampicin - a medicine used to treat bacterial infections. 
-- St John’s wort (also known as Hypericum perforatum) - a herbal medicine used to treat 
-depression and anxiety as well as other conditions. </p>
+<p>In particular, tell your doctor if you are taking any of the following medicines   this is because your 
+doctor may need to adjust your Briviact dose:</p>
+<ul>
+<li>Rifampicin - a medicine used to treat bacterial infections. </li>
+<li>St John s wort (also known as Hypericum perforatum) - a herbal medicine used to treat 
+depression and anxiety as well as other conditions. </li>
+</ul>
 <p>Briviact with alcohol 
 - Combining this medicine with alcohol is not recommended.<br />
 - If you drink alcohol while taking Briviact the negative effects of alcohol may be increased.  </p>
@@ -126,11 +132,13 @@ seizures and harm your baby. </p>
 - These effects are more likely at the start of the treatment or after a dose increase. 
 - Do not drive, cycle or use any tools or machines until you know how the medicine affects you. </p>
 <p>Briviact contains lactose and sodium 
-Briviact film-coated tablets contain: 
--  lactose (a type of sugar) - If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. 
-- sodium – This medecine contains less than 1 mmol sodium (23mg) per tablet, that is to say 
-essentially ‘sodium free’. </p>         </div>"""   
+Briviact film-coated tablets contain:</p>
+<ul>
+<li>lactose (a type of sugar) - If you have been told by your doctor that you have an intolerance to 
+some sugars, contact your doctor before taking this medicine. </li>
+<li>sodium   This medecine contains less than 1 mmol sodium (23mg) per tablet, that is to say 
+essentially  sodium free . </li>
+</ul>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take briviact"
@@ -152,24 +160,26 @@ decide to adjust your dose to find the best dose for you.   </p>
 Your doctor may then decide to adjust your dose to find the best dose for you. </p>
 <p>Children weighing from 10 kg to less than 20 kg<br />
 - The recommended dose is from 0.5 mg to 2.5 mg for each kg of bodyweight, taken twice a day. 
-Your child’s doctor may then decide to adjust your child’s dose to find the best dose for your 
+Your child s doctor may then decide to adjust your child s dose to find the best dose for your 
 child. </p>
 <p>People with liver problems 
-If you have problems with your liver:<br />
-- As an adolescent or child weighing 50 kg or more, or as an adult, the maximum dose you will 
-take is 75 mg twice a day.<br />
-- As an adolescent or child weighing from 20 kg to less than 50 kg, the maximum dose you will 
-take is 1.5 mg for each kg of bodyweight twice a day. 
-- As a child weighing from 10 kg to less than 20 kg, the maximum dose your child will take is 
-2 mg for each kg of bodyweight twice a day. </p>
+If you have problems with your liver:</p>
+<ul>
+<li>As an adolescent or child weighing 50 kg or more, or as an adult, the maximum dose you will 
+take is 75 mg twice a day.  </li>
+<li>As an adolescent or child weighing from 20 kg to less than 50 kg, the maximum dose you will 
+take is 1.5 mg for each kg of bodyweight twice a day. </li>
+<li>As a child weighing from 10 kg to less than 20 kg, the maximum dose your child will take is 
+2 mg for each kg of bodyweight twice a day. </li>
+</ul>
 <p>How to take Briviact tablets 
 - Swallow the tablets whole with a glass of liquid.<br />
 - The medicine may be taken with or without food. </p>
 <p>How long to take Briviact for 
-Briviact is a long term treatment – keep taking Briviact until your doctor tells you to stop.  </p>
+Briviact is a long term treatment   keep taking Briviact until your doctor tells you to stop.  </p>
 <p>If you take more Briviact than you should 
 If you have taken more Briviact than you should, talk to your doctor. You may feel dizzy and sleepy. 
-You may also have any of the following symptoms: feeling sick, a feeling of ‘spinning’, problems of 
+You may also have any of the following symptoms: feeling sick, a feeling of  spinning , problems of 
 keeping your balance, anxiety, feeling very tired, irritability, being aggressive, not being able to sleep, 
 depression, thoughts or attempts of harming or killing yourself. </p>
 <p>If you forget to take Briviact 
@@ -196,17 +206,17 @@ helps to stop your fits coming back or getting worse  </p>
 <p>Common: may affect up to 1 in 10 people 
 - flu 
 - feeling very tired (fatigue) 
-- convulsion, a feeling of ‘spinning’ (vertigo) 
+- convulsion, a feeling of  spinning  (vertigo) 
 - feeling and being sick, constipation 
 - depression, anxiety, not being able to sleep (insomnia), irritability 
-- infections of the nose and throat (such as the ‘common cold’), cough 
+- infections of the nose and throat (such as the  common cold ), cough 
 - decreased appetite  </p>
 <p>Uncommon: may affect up to 1 in 100 people 
 - allergic reactions 
 - abnormal thinking and/or loss of touch with reality (psychotic disorder), being aggressive, 
 nervous excitement (agitation)<br />
 - thoughts or attempts of harming or killing yourself: tell your doctor straight away 
-- a decrease in white blood cells (called ‘neutropenia’) - shown in blood tests  </p>
+- a decrease in white blood cells (called  neutropenia ) - shown in blood tests  </p>
 <p>Additional side effects in children  </p>
 <p>Common: may affect up to 1 in 10 people 
 - restlessness and hyperactivity (psychomotor hyperactivity)  </p>
@@ -221,12 +231,14 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store briviact"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and blister after 
-EXP. The expiry date refers to the last day of that month. 
-- This medicinal product does not require any special storage conditions. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and blister after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>This medicinal product does not require any special storage conditions. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
+to throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -254,42 +266,40 @@ oxide yellow (E172), iron oxide black (E172). </li>
 </ul>
 <p>What Briviact looks like and contents of the pack 
 Briviact 10 mg are white to off-white, round, film-coated tablets of 6.5 mm in diameter and debossed 
-with ‘u10’ on one side. 
-Briviact 25 mg are grey, oval, film-coated tablets of 8.9 mm x 5.0 mm and debossed with ‘u25’ on one 
+with  u10  on one side. 
+Briviact 25 mg are grey, oval, film-coated tablets of 8.9 mm x 5.0 mm and debossed with  u25  on one 
 side. 
-Briviact 50 mg are yellow, oval, film-coated tablets of 11.7 mm x 6.6 mm and debossed with ‘u50’ on 
+Briviact 50 mg are yellow, oval, film-coated tablets of 11.7 mm x 6.6 mm and debossed with  u50  on 
 one side. 
-Briviact 75 mg are purple, oval, film-coated tablets of 13.0 mm x 7.3 mm and debossed with ‘u75’ on 
+Briviact 75 mg are purple, oval, film-coated tablets of 13.0 mm x 7.3 mm and debossed with  u75  on 
 one side.<br />
 Briviact 100 mg are green-grey, oval, film-coated tablets of 14.5 mm x 8.1 mm and debossed with 
-‘u100’ on one side. </p>
+ u100  on one side. </p>
 <p>Briviact tablets are packaged in blister packs supplied in cardboard boxes containing either 14, 56, 
 14 x 1 or 100 x 1 film-coated tablets or in multipacks containing 168 (3 packs of 56) film-coated 
 tablets. 
 All packs are available in PVC/PCTFE - Aluminium blisters. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
-UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgium.  </p>
+UCB Pharma S.A., All e de la Recherche 60, B-1070 Bruxelles, Belgium.  </p>
 <p>Manufacturer 
-UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l’Alleud, Belgium. 
+UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l Alleud, Belgium. 
 For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 UCB Pharma SA/NV 
-Tél/Tel: + 32 / (0)2 559 92<br />
+T l/Tel: + 32 / (0)2 559 92<br />
 Lietuva 
 UCB Pharma Oy Finland 
 Tel: + 358 9 2514 4221 (Suomija) </p>
-<p>България 
-Ю СИ БИ България ЕООД 
-Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+<p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
 UCB Pharma SA/NV 
-Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 UCB s.r.o. 
 Tel: + 420 221 773<br />
-Magyarország 
-UCB Magyarország Kft. 
+Magyarorsz g 
+UCB Magyarorsz g Kft. 
 Tel.: + 36-(1) 391 0 
 Danmark 
 UCB Nordic A/S 
@@ -308,13 +318,12 @@ UCB Pharma Oy Finland<br />
 Tel: + 358 9 2514 4221 (Soome) </p>
 <p>Norge 
 UCB Nordic A/S 
-Tlf: + 47 / 67 16 5 
-Ελλάδα 
-UCB Α.Ε.<br />
-Τηλ: + 30 / 2109974Österreich 
+Tlf: + 47 / 67 16 5 </p>
+<p>UCB  . .<br />
+ : + 30 / 2109974 sterreich 
 UCB Pharma GmbH 
 Tel: + 43-(0)1 291 80  </p>
-<p>España 
+<p>Espa a 
 UCB Pharma, S.A. 
 Tel: + 34 / 91 570 34<br />
 Polska 
@@ -322,13 +331,13 @@ UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o.
 Tel: + 48 22 696 99<br />
 France 
 UCB Pharma S.A. 
-Tél: + 33 / (0)1 47 29 44 Portugal 
-UCB Pharma (Produtos Farmacêuticos), Lda 
+T l: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmac uticos), Lda 
 Tel: + 351 / 21 302 5 
 Hrvatska 
 Medis Adria d.o.o. 
 Tel: +385 (0) 1 230 34<br />
-România 
+Rom nia 
 UCB Pharma Romania S.R.L. 
 Tel: + 40 21 300 29<br />
 Ireland 
@@ -337,20 +346,19 @@ Tel: + 353 / (0)1-46 37 395  </p>
 <p>Slovenija 
 Medis, d.o.o. 
 Tel: + 386 1 589 69<br />
-Ísland 
+ sland 
 Vistor hf. 
 Simi: + 354 535 7 
-Slovenská republika 
-UCB s.r.o., organizačná zložka 
+Slovensk  republika 
+UCB s.r.o., organiza n  zlo ka 
 Tel: + 421 (0) 2 5920 2 
 Italia 
 UCB Pharma S.p.A. 
 Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland 
-Puh/Tel: + 358 9 2514 4 
-Κύπρος 
-Lifepharma (Z.A.M.) Ltd 
-Τηλ: + 357 22 05 63<br />
+Puh/Tel: + 358 9 2514 4 </p>
+<p>Lifepharma (Z.A.M.) Ltd 
+ : + 357 22 05 63<br />
 Sverige 
 UCB Nordic A/S 
 Tel: + 46 / (0) 40 29 49 Latvija 

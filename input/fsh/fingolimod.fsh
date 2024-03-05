@@ -4,7 +4,7 @@ Instance: composition-en-20340baf00f2c4ec417bbf6c08de7c1d
 InstanceOf: CompositionUvEpi
 Title: "Composition for fingolimod Package Leaflet"
 Description:  "Composition for fingolimod Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Fingolimod Mylan 
 4. Possible side effects 
 5. How to store Fingolimod Mylan 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -133,7 +132,7 @@ inflammation or infection of the eye (uveitis), or if you have diabetes (which c
 problems). 
 * if you have liver problems. 
 * if you have high blood pressure that cannot be controlled by medicines. 
-* if you have severe lung problems or smoker’s cough. 
+* if you have severe lung problems or smoker s cough. 
 If any of these applies to you or you are unsure, talk to your doctor before taking Fingolimod 
 Mylan. </p>
 <p>Slow heart rate (bradycardia) and irregular heartbeat 
@@ -223,7 +222,7 @@ As Fingolimod Mylan causes a slight elevation of blood pressure, your doctor may
 blood pressure regularly. </p>
 <p>Lung problems 
 Fingolimod Mylan has a slight effect on the lung function. Patients with severe lung problems or with 
-smoker’s cough may have a higher chance of developing side effects. </p>
+smoker s cough may have a higher chance of developing side effects. </p>
 <p>Blood count 
 The desired effect of Fingolimod Mylan treatment is to reduce the amount of white blood cells in your 
 blood. This will usually go back to normal within 2 months of stopping treatment. If you need to have 
@@ -272,12 +271,12 @@ your doctor will explain the risk to you and ask you to do a pregnancy test in o
 are not pregnant. Your doctor will give you a card which explains why you should not become 
 pregnant while taking Fingolimod Mylan. It also explains what you should do to avoid becoming 
 pregnant while you are taking this medicine. You must use effective contraception during treatment 
-and for 2 months after stopping treatment (see section “Pregnancy and breastfeeding”). </p>
+and for 2 months after stopping treatment (see section  Pregnancy and breastfeeding ). </p>
 <p>Worsening of MS after stopping Fingolimod Mylan treatment<br />
 Do not stop taking this medicine or change your dose without talking to your doctor first.  </p>
 <p>Tell your doctor straight away if you think your MS is getting worse after you have stopped treatment 
-with Fingolimod Mylan. This could be serious (see “If you stop taking Fingolimod Mylan” in section 
-3, and also section 4, “Possible side effects”). </p>
+with Fingolimod Mylan. This could be serious (see  If you stop taking Fingolimod Mylan  in section 
+3, and also section 4,  Possible side effects ). </p>
 <p>Elderly 
 Experience with fingolimod in elderly patients (over 65 years) is limited. Talk to your doctor if you 
 have any concerns. </p>
@@ -289,14 +288,9 @@ information is particularly important for children and adolescents and their car
 * Before you start Fingolimod Mylan, your doctor will check your vaccination status. If you have 
 not had certain vaccinations, it may be necessary for you to be given them before this medicine 
 can be started. 
-* The first time you take Fingolimod Mylan, or when you switch from a 0.25 mg daily dose to a </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take fingolimod"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take fingolimod"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>(bradycardia) and irregular heartbeat’ above). 
+* The first time you take Fingolimod Mylan, or when you switch from a 0.25 mg daily dose to a </p>
+<p>0.5 mg daily dose, your doctor will monitor your heart rate and heartbeat (see  Slow heart rate 
+(bradycardia) and irregular heartbeat  above). 
 * If you experience convulsions or fits before or whilst taking Fingolimod Mylan, let your doctor 
 know. 
 * If you suffer from depression or anxiety or if you become depressed or anxious while you are 
@@ -308,9 +302,9 @@ medicines. Tell your doctor if you are taking any of the following medicines:
 to treat MS, such as beta interferon, glatiramer acetate, natalizumab, mitoxantrone, 
 teriflunomide, dimethyl fumarate or alemtuzumab. You must not use Fingolimod Mylan 
 together with such medicines as this could intensify the effect on the immune system (see also 
-‘Do not take Fingolimod Mylan’). 
+ Do not take Fingolimod Mylan ). 
 * Corticosteroids, due to a possible added effect on the immune system. 
-* Vaccines. If you need to receive a vaccine, seek your doctor’s advice first. During and for up to 
+* Vaccines. If you need to receive a vaccine, seek your doctor s advice first. During and for up to 
 2 months after treatment with Fingolimod Mylan, you should not receive certain types of 
 vaccine (live attenuated vaccines) as they could trigger the infection that they were supposed to 
 prevent. Other vaccines may not work as well as usual if given during this period. 
@@ -319,13 +313,11 @@ Fingolimod Mylan together with such medicines could intensify the effect on hear
 first days after starting treatment. 
 * Medicines for irregular heartbeat, such as quinidine, disopyramide, amiodarone or sotalol. 
 You must not use Fingolimod Mylan if you are taking such a medicine because it could 
-intensify the effect on irregular heartbeat (see also ‘Do not take Fingolimod Mylan’). 
-* Other medicines: 
-o 
+intensify the effect on irregular heartbeat (see also  Do not take Fingolimod Mylan ). 
+* Other medicines: * 
 protease inhibitors, anti-infectives such as ketoconazole, azole antifungals, 
-clarithromycin or telithromycin. 
-o 
-carbamazepine, rifampicin, phenobarbital, phenytoin, efavirenz or St. John’s Wort 
+clarithromycin or telithromycin. * 
+carbamazepine, rifampicin, phenobarbital, phenytoin, efavirenz or St. John s Wort 
 (Hypericum perforatum) (potential risk of reduced efficacy of Fingolimod Mylan). </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -347,8 +339,8 @@ contraception. </p>
 <p>Your doctor will give you a card which explains why you should not become pregnant while taking 
 Fingolimod Mylan. </p>
 <p>If you do become pregnant while taking Fingolimod Mylan, tell your doctor straight away. Your </p>
-<p>doctor will decide to stop treatment (see “If you stop taking Fingolimod Mylan” in section 3, and also 
-section 4, “Possible side effects”). Specialised pre-natal monitoring will be performed. </p>
+<p>doctor will decide to stop treatment (see  If you stop taking Fingolimod Mylan  in section 3, and also 
+section 4,  Possible side effects ). Specialised pre-natal monitoring will be performed. </p>
 <p>Breast-feeding 
 You should not breast-feed while you are taking Fingolimod Mylan. It can pass into breast milk 
 and there is a risk of serious side effects for the baby. </p>
@@ -356,15 +348,14 @@ and there is a risk of serious side effects for the baby. </p>
 Your doctor will tell you whether your illness allows you to drive vehicles, including a bicycle and 
 use machines safely. Fingolimod Mylan is not expected to have an influence on your ability to drive 
 and use machines. </p>
-<p>However, at initiation of treatment you will have to stay at the doctor’s surgery or clinic for 6 hours 
+<p>However, at initiation of treatment you will have to stay at the doctor s surgery or clinic for 6 hours 
 after taking the first dose of this medicine. Your ability to drive and use machines may be impaired 
-during and potentially after this time period. </p>         </div>"""         
-
-        
+during and potentially after this time period. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take fingolimod"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take fingolimod"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Treatment with Fingolimod Mylan will be overseen by a doctor who is experienced in the treatment of 
 multiple sclerosis. </p>
@@ -411,17 +402,18 @@ this leaflet may still occur. After stopping this medicine you may have to wait 
 starting a new MS treatment. </p>
 <p>If you have to restart Fingolimod Mylan more than 2 weeks after you stop taking it, the effect on heart 
 rate normally seen when treatment is first started may re-occur and you will need to be monitored at 
-the doctor’s surgery or clinic for re-initiation of treatment. Do not restart this medicine after stopping 
+the doctor s surgery or clinic for re-initiation of treatment. Do not restart this medicine after stopping 
 it for more than two weeks without seeking advice from your doctor. </p>
 <p>Your doctor will decide whether and how you need to be monitored after stopping Fingolimod Mylan. 
 Tell your doctor straight away if you think your MS is getting worse after you have stopped treatment. 
 This could be serious. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store fingolimod"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store fingolimod"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be or could become serious: </p>
@@ -455,7 +447,7 @@ include sudden onset of severe headache, confusion, seizures and/or vision distu
 with crust, or a new sore on an existing scar </p>
 <p>Very rare (may affect up to 1 in 10,000 people) 
 * Electrocardiogram anomaly (T-wave inversion) 
-* Tumour related to infection with human herpes virus 8 (Kaposi’s sarcoma) </p>
+* Tumour related to infection with human herpes virus 8 (Kaposi s sarcoma) </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 * Allergic reactions, including symptoms of rash or itchy hives, swelling of lips, tongue or face, 
 which are more likely to occur on the day you start Fingolimod Mylan treatment 
@@ -507,8 +499,8 @@ or muscles, fever
 * Hair loss 
 * Breathlessness 
 * Depression 
-* Blurred vision (see also the section on macular oedema under ‘Some side effects could be or 
-could become serious’) 
+* Blurred vision (see also the section on macular oedema under  Some side effects could be or 
+could become serious ) 
 * Hypertension (Fingolimod Mylan may cause a mild increase in blood pressure) 
 * Muscle pain 
 * Joint pain </p>
@@ -527,21 +519,140 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store fingolimod"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store fingolimod"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <ul>
 <li>Do not use this medicine after the expiry date which is stated on the carton and blister foil/bottle 
-after ‘EXP’. The expiry date refers to the last day of that month. </li>
-<li>Do not store above 25ºC. </li>
+after  EXP . The expiry date refers to the last day of that month. </li>
+<li>Do not store above 25 C. </li>
 <li>Store in the original package in order to protect from moisture. </li>
 <li>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
 environment. </li>
 </ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fingolimod Mylan contains 
+-  The active substance is fingolimod. Each capsule contains 0.5 mg fingolimod (as hydrochloride). 
+-  The other ingredients are: 
+  Capsule content: calcium hydrogen phosphate dihydrate, glycine, colloidal anhydrous silica and 
+magnesium stearate. 
+  Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172) and red iron oxide 
+(E172). 
+  Printing ink: shellac (E904), propylene glycol (E1520), black iron oxide (E172) and potassium 
+hydroxide. </p>
+<p>What Fingolimod Mylan looks like and contents of the pack 
+A hard capsule with brown-orange opaque cap and white opaque body, printed with  MYLAN  over 
+ FD 0.5  in black ink on both the cap and body. </p>
+<p>Fingolimod Mylan 0.5 mg capsules are available in: 
+Blister packs containing 28, 30, 84 or 98 hard capsules 
+Multipacks comprising 3 cartons, each containing 28 hard capsules 
+Calendar packs containing 28 or 84 hard capsules 
+Unit dose blister packs containing 7 x 1, 28 x 1, 90 x 1 or 98 x 1 hard capsules 
+Bottle packs containing 90 or 100 hard capsules  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Mylan Ireland Limited, Unit 35/36 Grange Parade, Baldoyle Industrial Estate, Dublin 13, Ireland. </p>
+<p>Manufacturer(s) 
+Mylan Hungary Kft, Mylan utca 1, Komarom, H-2900, Hungary </p>
+<p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1, Bad Homburg 
+v. d. Hoehe, Hessen, 61352, Germany.  </p>
+<p>For any other information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Viatris 
+T l/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Viatris UAB<br />
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
+Viatris CZ s.r.o.<br />
+Tel: + 420 222 004 Magyarorsz g 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2 </p>
+<p>Danmark 
+Viatris ApS<br />
+Tlf: +45 28 11 69 32  </p>
+<p>Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01  </p>
+<p>Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: +49 800 0700 800  </p>
+<p>Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+Viatris O <br />
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  <br />
+Viatris Hellas Ltd<br />
+ : +30 2100 100 002  </p>
+<p>sterreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 
+Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel: + 48 22 546 64<br />
+France 
+Viatris Sant<br />
+T l: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o.<br />
+Tel: +385 1 23 50 <br />
+Rom nia 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+ sland 
+Icepharma hf.<br />
+S mi: +354 540 8000  </p>
+<p>Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Viatris Italia S.r.l.<br />
+Tel: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris OY 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd 
+ : +357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8630 19<br />
+Latvija 
+Viatris SIA<br />
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
++353 18711600  </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-87506c1381317dc02b9296eca56d0b9b
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecartus Package Leaflet"
 Description:  "Composition for tecartus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ lymphoblastic leukaemia in adults. It is used when other medicines have stopped 
 (relapsed or refractory disease). The medicine is made specially for you from your own white blood 
 cells that have been modified and is known as brexucabtagene autoleucel. </p>
 <p>Mantle cell lymphoma and B-cell acute lymphoblastic leukaemia are cancers of a part of the immune 
-system (the body’s defences). They affect a type of white blood cell called B-lymphocytes. In both 
+system (the body s defences). They affect a type of white blood cell called B-lymphocytes. In both 
 mantle cell lymphoma and B-cell acute lymphoblastic leukaemia, B-lymphocytes grow in an 
 uncontrolled way and build up in the lymph tissue, bone marrow or blood. </p>
 <p>How Tecartus works </p>
@@ -89,12 +89,10 @@ cells will kill the cancer cells. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take tecartus"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You are not to be given Tecartus 
-– 
-if you are allergic to any of the ingredients of this medicine (listed in section 6). If you think you 
-may be allergic, ask your doctor for advice. 
-– 
-if you can’t receive the medicine to reduce the number of white blood cells in your blood 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You are not to be given Tecartus </p>
+<p>if you are allergic to any of the ingredients of this medicine (listed in section 6). If you think you 
+may be allergic, ask your doctor for advice. </p>
+<p>if you can t receive the medicine to reduce the number of white blood cells in your blood 
 (lymphodepleting chemotherapy) (see also section 3, How Tecartus is given). </p>
 <p>Warnings and precautions </p>
 <p>Tecartus is made from your own white blood cells and must only be given to you (autologous use).  </p>
@@ -113,8 +111,14 @@ medicines to help prevent the condition.
 * Check for hepatitis B, hepatitis C or HIV infection. 
 * Check if you had a vaccination in the previous 6 weeks or are planning to have one in the next 
 few months. 
-* Check if you have previously received a treatment that attaches to the protein called CD19.<br />
-In some cases, it might not be possible to go ahead with the planned treatment with Tecartus. If 
+* Check if you have previously received a treatment that attaches to the protein called CD1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tecartus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tecartus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In some cases, it might not be possible to go ahead with the planned treatment with Tecartus. If 
 Tecartus infusion is delayed for more than 2 weeks after you have received lymphodepleting 
 chemotherapy you may have to receive more chemotherapy (see also section 3, How Tecartus is 
 given). </p>
@@ -127,7 +131,7 @@ condition known as cytokine release syndrome. Take your temperature twice a day 
 4 weeks after treatment with Tecartus. If your temperature is high, see your doctor immediately. 
 * Fits, shaking, or difficulty speaking or slurred speech, loss of consciousness or decreased level 
 of consciousness, confusion and disorientation, loss of balance or coordination. 
-* Fever (e.g. temperature above 38°C), which may be a symptom of an infection. 
+* Fever (e.g. temperature above 38 C), which may be a symptom of an infection. 
 * Extreme tiredness, weakness and shortness of breath, which may be symptoms of a lack of red 
 blood cells. 
 * Bleeding or bruising more easily, which may be symptoms of low levels of cells in the blood 
@@ -170,12 +174,13 @@ your Tecartus treatment or until your doctor tells you that you have completely 
 <p>Tecartus contains sodium, dimethylsulfoxide (DMSO) and gentamicin </p>
 <p>This medicine contains 300 mg sodium (main component of cooking/table salt) in each infusion bag. 
 This is equivalent to 15% of the recommended maximum daily dietary intake of sodium for an adult. It 
-also contains DMSO and gentamicin which may cause severe hypersensitivity reactions. </p>         </div>"""   
-                    
+also contains DMSO and gentamicin which may cause severe hypersensitivity reactions. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take tecartus"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tecartus"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tecartus will always be given to you by a healthcare professional. </p>
 <ul>
@@ -216,131 +221,80 @@ is so your doctor can check if your treatment is working and help you if you hav
 effects. </li>
 </ul>
 <p>If you miss any appointments, call your doctor or your treatment centre as soon as possible to 
-reschedule your appointment. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Do not try 
-to treat your side effects on your own. </p>
-<p>Tecartus can cause side effects that may be serious or life-threatening. Get urgent medical attention 
-if you get any of the following side effects after the Tecartus infusion. </p>
-<p>Very common: may affect more than 1 in 10 people </p>
-<p>– 
-Fever, chills, reduced blood pressure which may cause symptoms such as dizziness, 
-lightheadedness, fluid in the lungs, which may be severe and can be fatal (all symptoms of a 
-condition called cytokine release syndrome). 
-– 
-Loss of consciousness or decreased level of consciousness, confusion or memory loss due to 
-disturbances of brain function, difficulty speaking or slurred speech, involuntary shaking 
-(tremor), fits (seizures), sudden confusion with agitation, disorientation, hallucination or 
-irritability (delirium). 
-– 
-Fever, chills, which may be signs of an infection. </p>
-<p>Other possible side effects </p>
-<p>Other side effects are listed below. If these side effects become severe or serious, tell your doctor 
-immediately. </p>
-<p>Very common: may affect more than 1 in 10 people </p>
-<p>– 
-Abnormally low number of white blood cells, which may increase your risk of infection.<br />
-– 
-Low number of cells that help clot the blood (thrombocytopenia),: symptoms can include 
-excessive or prolonged bleeding or bruising. 
-– 
-High blood pressure. 
-– 
-Decrease in the number of red blood cells (cells that carry oxygen): symptoms can include 
-extreme tiredness with a loss of energy. 
-– 
-Extreme tiredness. 
-– 
-Fast or slow heartbeat. 
-– 
-Decrease of oxygen reaching body tissues: symptoms can include changes to the colour of your 
-skin, confusion, rapid breathing. 
-– 
-Shortness of breath, cough. 
-– 
-Excessive bleeding. 
-– 
-Nausea, constipation, diarrhoea, abdominal pain, vomiting. 
-– 
-Muscle pain, joint pain, bone pain, pain in the extremities of the body. 
-– 
-Lack of energy or strength, muscular weakness, difficulty moving, muscle spasm. 
-– 
-Headache. 
-– 
-Kidney problems causing your body to hold onto fluid, build-up of fluids in tissue (oedema) 
-which can lead to weight gain and difficulty in breathing. 
-– 
-High levels of uric acid and sugar (glucose)seen in blood tests. 
-– 
-Low levels of sodium, magnesium, phosphate, potassium or calcium seen in blood tests. 
-– 
-Decreased appetite, sore mouth. 
-– 
-Difficulty sleeping, anxiety. 
-– 
-Swelling in the limbs, fluid around the lungs (pleural effusion). 
-– 
-Skin rash or skin problems. 
-– 
-Low levels of immunoglobulins seen in blood test, which may lead to infections. 
-– 
-Increase in liver enzymes seen in blood tests. 
-– 
-Nerve pain. </p>
-<p>Common: may affect up to 1 in 10 people </p>
-<p>– 
-Low levels of albumin seen in blood tests. 
-– 
-High levels of bilirubin seen in blood tests. 
-– 
-Irregular heartbeat (arrhythmia). 
-– 
-Loss of control of body movements. 
-– 
-Dry mouth, dehydration, difficulty swallowing.<br />
-– 
-Decreased output of urine (due to kidney problems described above). 
-– 
-Breathlessness (respiratory failure). 
-– 
-Difficulty breathing which makes you unable to speak in full sentence, cough due to fluid in the 
-lungs. 
-– 
-Increase of the pressure inside your skull. 
-– 
-Blood clots: symptoms can include pain in the chest or upper back, difficulty breathing, 
-coughing up blood or cramping pain, swelling in a single leg, warm and darkened skin around 
-the painful area. 
-– 
-Alteration of the blood ability to form clots (coagulopathy): symptoms can include excessive or 
-prolonged bleeding or bruising. 
-– 
-Changes in vision which makes it difficult to see things (visual impairment). 
-– 
-Hypersensitivity: symptoms such as rash, hives, itching, swelling and anaphylaxis. </p>
-<p>Reporting of side effects </p>
-<p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
-listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+reschedule your appointment. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tecartus"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store tecartus"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only. </p>
-<p>Do not use this medicine after the expiry date which is stated on the container label and infusion bag 
-after EXP. </p>
-<p>Store frozen in vapour phase of liquid nitrogen ≤ − 150 °C until thawed for use. 
-Do not refreeze. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Do not try 
+to treat your side effects on your own. </p>
+<p>Tecartus can cause side effects that may be serious or life-threatening. Get urgent medical attention 
+if you get any of the following side effects after the Tecartus infusion. </p>
+<p>Very common: may affect more than 1 in 10 people </p>
+<p>Fever, chills, reduced blood pressure which may cause symptoms such as dizziness, 
+lightheadedness, fluid in the lungs, which may be severe and can be fatal (all symptoms of a 
+condition called cytokine release syndrome). </p>
+<p>Loss of consciousness or decreased level of consciousness, confusion or memory loss due to 
+disturbances of brain function, difficulty speaking or slurred speech, involuntary shaking 
+(tremor), fits (seizures), sudden confusion with agitation, disorientation, hallucination or 
+irritability (delirium). </p>
+<p>Fever, chills, which may be signs of an infection. </p>
+<p>Other possible side effects </p>
+<p>Other side effects are listed below. If these side effects become severe or serious, tell your doctor 
+immediately. </p>
+<p>Very common: may affect more than 1 in 10 people </p>
+<p>Abnormally low number of white blood cells, which may increase your risk of infection.  </p>
+<p>Low number of cells that help clot the blood (thrombocytopenia),: symptoms can include 
+excessive or prolonged bleeding or bruising. </p>
+<p>High blood pressure. </p>
+<p>Decrease in the number of red blood cells (cells that carry oxygen): symptoms can include 
+extreme tiredness with a loss of energy. </p>
+<p>Extreme tiredness. </p>
+<p>Fast or slow heartbeat. </p>
+<p>Decrease of oxygen reaching body tissues: symptoms can include changes to the colour of your 
+skin, confusion, rapid breathing. </p>
+<p>Shortness of breath, cough. </p>
+<p>Excessive bleeding. </p>
+<p>Nausea, constipation, diarrhoea, abdominal pain, vomiting. </p>
+<p>Muscle pain, joint pain, bone pain, pain in the extremities of the body. </p>
+<p>Lack of energy or strength, muscular weakness, difficulty moving, muscle spasm. </p>
+<p>Headache. </p>
+<p>Kidney problems causing your body to hold onto fluid, build-up of fluids in tissue (oedema) 
+which can lead to weight gain and difficulty in breathing. </p>
+<p>High levels of uric acid and sugar (glucose)seen in blood tests. </p>
+<p>Low levels of sodium, magnesium, phosphate, potassium or calcium seen in blood tests. </p>
+<p>Decreased appetite, sore mouth. </p>
+<p>Difficulty sleeping, anxiety. </p>
+<p>Swelling in the limbs, fluid around the lungs (pleural effusion). </p>
+<p>Skin rash or skin problems. </p>
+<p>Low levels of immunoglobulins seen in blood test, which may lead to infections. </p>
+<p>Increase in liver enzymes seen in blood tests. </p>
+<p>Nerve pain. </p>
+<p>Common: may affect up to 1 in 10 people </p>
+<p>Low levels of albumin seen in blood tests. </p>
+<p>High levels of bilirubin seen in blood tests. </p>
+<p>Irregular heartbeat (arrhythmia). </p>
+<p>Loss of control of body movements. </p>
+<p>Dry mouth, dehydration, difficulty swallowing.  </p>
+<p>Decreased output of urine (due to kidney problems described above). </p>
+<p>Breathlessness (respiratory failure). </p>
+<p>Difficulty breathing which makes you unable to speak in full sentence, cough due to fluid in the 
+lungs. </p>
+<p>Increase of the pressure inside your skull. </p>
+<p>Blood clots: symptoms can include pain in the chest or upper back, difficulty breathing, 
+coughing up blood or cramping pain, swelling in a single leg, warm and darkened skin around 
+the painful area. </p>
+<p>Alteration of the blood ability to form clots (coagulopathy): symptoms can include excessive or 
+prolonged bleeding or bruising. </p>
+<p>Changes in vision which makes it difficult to see things (visual impairment). </p>
+<p>Hypersensitivity: symptoms such as rash, hives, itching, swelling and anaphylaxis. </p>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
+listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects, you can help provide more information on the safety of this 
+medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -348,124 +302,9 @@ Do not refreeze. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tecartus contains </p>
-<p>The active substance is brexucabtagene autoleucel (0.4 – 2 × 108 cells dispersion for infusion). Each 
-patient-specific single infusion bag contains a dispersion of anti-CD19 CAR-positive viable T cells in 
-approximately 68 mL for a target dose of 2 × 106 anti-CD19 CAR-positive viable T cells/kg for mantle 
-cell lymphoma patients and a target dose of 1 × 106 anti-CD19 CAR-positive viable T cells/kg for B-
-cell acute lymphoblastic leukaemia patients. 
-The other ingredients (excipients) are: Cryostor CS10 (contains DMSO), sodium chloride, human 
-albumin. See section 2 “Tecartus contains sodium, dimethyl sulphoxide (DMSO), and residual 
-gentamicin”. </p>
-<p>This medicine contains genetically modified human blood cells. </p>
-<p>What Tecartus looks like and contents of the pack </p>
-<p>Tecartus is a clear to opaque, white to red dispersion for infusion, supplied in an infusion bag 
-individually packed in a metal cassette. A single infusion bag contains approximately 68 mL of cell 
-dispersion. </p>
-<p>Marketing Authorisation Holder 
-Kite Pharma EU B.V. 
-Tufsteen 1 
-2132 NT Hoofddorp 
-The Netherlands </p>
-<p>Manufacturer 
-Kite Pharma EU B.V. 
-Tufsteen 1 
-2132 NT Hoofddorp 
-The Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Lietuva 
-Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
-Luxembourg/Luxemburg 
-Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
-Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarország 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Danmark 
-Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Deutschland 
-Gilead Sciences GmbH 
-Tel: + 49 (0) 89 899890-0 </p>
-<p>Nederland 
-Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36<br />
-Eesti 
-Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 
-Norge 
-Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
-Gilead Sciences GesmbH 
-Tel: + 43 1 260<br />
-España 
-Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
-Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 
-France 
-Gilead Sciences 
-Tél : + 33 (0) 1 46 09 41<br />
-Portugal 
-Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-România 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Ireland 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825<br />
-Slovenija 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Ísland 
-Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
-Gilead Sciences Slovakia s.r.o. 
-Tel: + 421 232 121<br />
-Italia 
-Gilead Sciences S.r.l. 
-Tel: + 39 02 439 
-Suomi/Finland 
-Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Sverige 
-Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
-Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 </p>
-<p>This leaflet was last revised in </p>
-<p>This medicine has been given ‘conditional approval’.<br />
-This means that there is more evidence to come about this medicine. 
-The European Medicines Agency will review new information on this medicine at least every year and 
-this leaflet will be updated as necessary. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only. </p>
+<p>Do not use this medicine after the expiry date which is stated on the container label and infusion bag 
+after EXP. </p>
+<p>Store frozen in vapour phase of liquid nitrogen     150  C until thawed for use. 
+Do not refreeze. </p>         </div>"""      
 

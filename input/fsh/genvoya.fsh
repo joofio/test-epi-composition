@@ -4,7 +4,7 @@ Instance: composition-en-9e5179bf4e803289b510a39f498792d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for genvoya Package Leaflet"
 Description:  "Composition for genvoya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -45,7 +45,7 @@ Usage: #example
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Genvoya has been prescribed for your child, please note that all the information in this leaflet 
-is addressed to your child (in this case please read “your child” instead of “you”). </p>         </div>"""   
+is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
 
 
 
@@ -95,24 +95,28 @@ reduce the risk of developing illnesses linked to HIV infection. </p>         </
 * If you are allergic to elvitegravir, cobicistat, emtricitabine, tenofovir alafenamide or any of 
 the other ingredients of this medicine (listed in section 6 of this leaflet). </p>
 <ul>
-<li>If you are taking one of these medicines: </li>
-<li>alfuzosin (used to treat an enlarged prostate gland) </li>
+<li>
+<p>If you are taking one of these medicines:</p>
+</li>
+<li>
+<p>alfuzosin (used to treat an enlarged prostate gland) </p>
+</li>
 <li>dabigatran (used to prevent and treat blood clots) </li>
 <li>amiodarone, quinidine (used to correct irregular heartbeats) </li>
 <li>carbamazepine, phenobarbital, phenytoin (used to prevent seizures) </li>
 <li>rifampicin (used to prevent and treat tuberculosis and other infections) </li>
 <li>dihydroergotamine, ergometrine, ergotamine (used to treat migraine headache) </li>
 <li>cisapride (used to relieve certain stomach problems) </li>
-<li>St. John’s wort (Hypericum perforatum, a herbal remedy used for depression and 
+<li>St. John s wort (Hypericum perforatum, a herbal remedy used for depression and 
 anxiety) or products that contain it </li>
 <li>lomitapide, lovastatin, simvastatin (used to lower blood cholesterol) </li>
 <li>lurasidone, pimozide (used to treat abnormal thoughts or feelings) </li>
-<li>sildenafil (when used to treat pulmonary arterial hypertension – a lung disease that makes 
+<li>sildenafil (when used to treat pulmonary arterial hypertension   a lung disease that makes 
 breathing difficult) </li>
 <li>orally administered midazolam, triazolam (used to help you sleep and/or relieve 
 anxiety) </li>
 </ul>
-<p> If any of these applies to you, do not take Genvoya and tell your doctor immediately. </p>
+<p>If any of these applies to you, do not take Genvoya and tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <p>You must remain under the care of your doctor while taking Genvoya. </p>
 <p>This medicine is not a cure for HIV infection.  While taking Genvoya you may still develop infections 
@@ -138,7 +142,7 @@ treatment with Genvoya. </li>
 <li>Signs of inflammation or infection </li>
 <li>Joint pain, stiffness or bone problems </li>
 </ul>
-<p> If you notice any of these symptoms, tell your doctor immediately.  For more information see 
+<p>If you notice any of these symptoms, tell your doctor immediately.  For more information see 
 section 4, Possible side effects. </p>
 <p>There is a possibility that you may experience kidney problems when taking Genvoya over a long 
 period of time (see Warnings and precautions). </p>
@@ -152,77 +156,141 @@ medicines.  Genvoya may interact with other medicines.  As a result, the amounts
 medicines in your blood may be affected.  This may stop your medicines from working properly, or 
 may make any side effects worse.  In some cases, your doctor may need to adjust your dose or check 
 your blood levels. </p>
-<p>Medicines that must never be taken with Genvoya: 
-- alfuzosin (used to treat an enlarged prostate gland) 
-- amiodarone, quinidine (used to correct irregular heartbeats) 
-- carbamazepine, phenobarbital, phenytoin (used to prevent seizures) 
-- dabigatran (used to prevent and treat blood clots) 
-- rifampicin (used to prevent and treat tuberculosis and other infections) 
-- dihydroergotamine, ergometrine, ergotamine (used to treat migraine headache) 
-- cisapride (used to relieve certain stomach problems) 
-- St. John’s wort (Hypericum perforatum, a herbal remedy used for depression and 
-anxiety) or products that contain it 
-- lomitapide, lovastatin, simvastatin (used to lower blood cholesterol) 
-- lurasidone, pimozide (used to treat abnormal thoughts or feelings) 
-- sildenafil (when used to treat pulmonary arterial hypertension – a lung disease that makes 
-breathing difficult) 
-- orally administered midazolam, triazolam (used to help you sleep and/or relieve 
+<p>Medicines that must never be taken with Genvoya:</p>
+<ul>
+<li>alfuzosin (used to treat an enlarged prostate gland) </li>
+<li>amiodarone, quinidine (used to correct irregular heartbeats) </li>
+<li>carbamazepine, phenobarbital, phenytoin (used to prevent seizures) </li>
+<li>dabigatran (used to prevent and treat blood clots) </li>
+<li>rifampicin (used to prevent and treat tuberculosis and other infections) </li>
+<li>dihydroergotamine, ergometrine, ergotamine (used to treat migraine headache) </li>
+<li>cisapride (used to relieve certain stomach problems) </li>
+<li>St. John s wort (Hypericum perforatum, a herbal remedy used for depression and 
+anxiety) or products that contain it </li>
+<li>lomitapide, lovastatin, simvastatin (used to lower blood cholesterol) </li>
+<li>lurasidone, pimozide (used to treat abnormal thoughts or feelings) </li>
+<li>sildenafil (when used to treat pulmonary arterial hypertension   a lung disease that makes 
+breathing difficult) </li>
+<li>orally administered midazolam, triazolam (used to help you sleep and/or relieve 
 anxiety) 
- If you are taking any of these medicines, do not take Genvoya and tell your doctor immediately. </p>
+  If you are taking any of these medicines, do not take Genvoya and tell your doctor immediately. </li>
+</ul>
 <p>Medicines used in treating hepatitis B infection: </p>
 <p>You should not take Genvoya with medicines containing: 
 * tenofovir alafenamide 
 * tenofovir disoproxil 
 * lamivudine 
 * adefovir dipivoxil </p>
-<p> Tell your doctor if you are taking any of these medicines. </p>
+<p>Tell your doctor if you are taking any of these medicines. </p>
 <p>Other types of medicine: 
 Talk to your doctor if you are taking: 
-* antifungals, used to treat fungal infections, such as: 
-- ketoconazole, itraconazole, voriconazole, posaconazole and fluconazole 
-* antibiotics, used to treat bacterial infections including tuberculosis, containing: 
-- rifabutin, clarithromycin and telithromycin 
-* antidepressants, used to treat depression: 
-- medicines containing trazodone or escitalopram 
-* sedatives and hypnotics, used to treat anxiety: 
-- buspirone, clorazepate, diazepam, estazolam, flurazepam, zolpidem and lorazepam 
-* immunosuppressants, used to control your body’s immune response after a transplant, such as: 
-- ciclosporin, sirolimus and tacrolimus 
-* corticosteroids including: 
-- betamethasone, budesonide, fluticasone, mometasone, prednisone, triamcinolone. 
+* antifungals, used to treat fungal infections, such as:</p>
+<ul>
+<li>ketoconazole, itraconazole, voriconazole, posaconazole and fluconazole </li>
+<li>
+<p>antibiotics, used to treat bacterial infections including tuberculosis, containing:</p>
+</li>
+<li>
+<p>rifabutin, clarithromycin and telithromycin </p>
+</li>
+<li>
+<p>antidepressants, used to treat depression:</p>
+</li>
+<li>
+<p>medicines containing trazodone or escitalopram </p>
+</li>
+<li>
+<p>sedatives and hypnotics, used to treat anxiety:</p>
+</li>
+<li>
+<p>buspirone, clorazepate, diazepam, estazolam, flurazepam, zolpidem and lorazepam </p>
+</li>
+<li>
+<p>immunosuppressants, used to control your body s immune response after a transplant, such as:</p>
+</li>
+<li>
+<p>ciclosporin, sirolimus and tacrolimus </p>
+</li>
+<li>
+<p>corticosteroids including:</p>
+</li>
+<li>
+<p>betamethasone, budesonide, fluticasone, mometasone, prednisone, triamcinolone. 
 These medicines are used to treat allergies, asthma, inflammatory bowel diseases, inflammatory 
 conditions of the skin, eyes, joints and muscles and other inflammatory conditions.  These 
 medicines are generally taken orally, inhaled, injected or applied to the skin or eye.  If 
 alternatives cannot be used, its use should only take place after medical evaluation and under 
-close monitoring by your doctor for corticosteroid side effects. 
-* medicines used to treat diabetes: 
-- metformin 
-* contraceptive pill, used to prevent pregnancy 
-* erectile dysfunction medicines, used to treat impotence, such as: 
-- sildenafil, tadalafil and vardenafil 
-* heart medicines, such as: 
-- digoxin, disopyramide, flecainide, lidocaine (injectable), mexiletine, propafenone, 
+close monitoring by your doctor for corticosteroid side effects. </p>
+</li>
+<li>
+<p>medicines used to treat diabetes:</p>
+</li>
+<li>
+<p>metformin </p>
+</li>
+<li>contraceptive pill, used to prevent pregnancy </li>
+<li>
+<p>erectile dysfunction medicines, used to treat impotence, such as:</p>
+</li>
+<li>
+<p>sildenafil, tadalafil and vardenafil </p>
+</li>
+<li>
+<p>heart medicines, such as:</p>
+</li>
+<li>
+<p>digoxin, disopyramide, flecainide, lidocaine (injectable), mexiletine, propafenone, 
 metoprolol, timolol, amlodipine, diltiazem, felodipine, nicardipine, nifedipine and 
-verapamil 
-* medicines used to treat pulmonary arterial hypertension: 
-- bosentan and tadalafil 
-* anticoagulants, used to prevent and treat blood clots, such as: 
-- apixaban, edoxaban, rivaroxaban and warfarin 
-* bronchodilators, used to treat asthma and other lung-related problems: 
-- salmeterol 
-* cholesterol lowering medicines, such as: 
-- atorvastatin and pitavastatin 
-* medicines used to treat gout: 
-- colchicine 
-* antiplatelets, used to reduce the risk of blood clots such as: 
-- clopidogrel<br />
-* medicines or oral supplements containing minerals (such as magnesium, aluminium, 
-calcium, iron, zinc), such as: 
-- mineral supplements, vitamins (including multivitamins), antacids and laxatives 
- If you are taking medicines, oral supplements, antacids or laxatives containing minerals (such 
+verapamil </p>
+</li>
+<li>
+<p>medicines used to treat pulmonary arterial hypertension:</p>
+</li>
+<li>
+<p>bosentan and tadalafil </p>
+</li>
+<li>
+<p>anticoagulants, used to prevent and treat blood clots, such as:</p>
+</li>
+<li>
+<p>apixaban, edoxaban, rivaroxaban and warfarin </p>
+</li>
+<li>
+<p>bronchodilators, used to treat asthma and other lung-related problems:</p>
+</li>
+<li>
+<p>salmeterol </p>
+</li>
+<li>
+<p>cholesterol lowering medicines, such as:</p>
+</li>
+<li>
+<p>atorvastatin and pitavastatin </p>
+</li>
+<li>
+<p>medicines used to treat gout:</p>
+</li>
+<li>
+<p>colchicine </p>
+</li>
+<li>
+<p>antiplatelets, used to reduce the risk of blood clots such as:</p>
+</li>
+<li>
+<p>clopidogrel  </p>
+</li>
+<li>
+<p>medicines or oral supplements containing minerals (such as magnesium, aluminium, 
+calcium, iron, zinc), such as:</p>
+</li>
+<li>
+<p>mineral supplements, vitamins (including multivitamins), antacids and laxatives 
+  If you are taking medicines, oral supplements, antacids or laxatives containing minerals (such 
 as magnesium, aluminium, calcium, iron, zinc), take them at least 4 hours before or at least 
 4 hours after Genvoya. </p>
-<p> Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
+</li>
+</ul>
+<p>Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
 without contacting your doctor. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -243,12 +311,12 @@ doctor as soon as possible.  </li>
 <p>Genvoya can cause dizziness.  If you feel dizzy when taking Genvoya, do not drive or ride a bicycle 
 and do not use any tools or machines. </p>
 <p>Genvoya contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>
 <p>Genvoya contains lactose </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p> If any of these applies to you, talk to your doctor before taking Genvoya. </p>         </div>"""   
+<p>If any of these applies to you, talk to your doctor before taking Genvoya. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take genvoya"
@@ -300,7 +368,7 @@ short time.  The disease may then become harder to treat. </p>
 treatment without talking to your doctor first.  You may require blood tests for several months after 
 stopping treatment.  In some patients with advanced liver disease or cirrhosis, stopping treatment is not 
 recommended as this may lead to worsening of your hepatitis, which may be life-threatening. </p>
-<p> Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -318,20 +386,22 @@ particularly symptoms you associate with hepatitis B infection. </p>
 (AIDS) and a history of opportunistic infections (infections that occur in people with a weak 
 immune system), signs and symptoms of inflammation from previous infections may occur soon 
 after anti-HIV treatment is started.  It is thought that these symptoms are due to an improvement 
-in the body’s immune response, enabling the body to fight infections that may have been 
+in the body s immune response, enabling the body to fight infections that may have been 
 present with no obvious symptoms. </p>
 </li>
 <li>
 <p>Autoimmune disorders, when the immune system attacks healthy body tissue, may also occur 
 after you start taking medicines for HIV infection.  Autoimmune disorders may occur many 
 months after the start of treatment.  Look out for any symptoms of infection or other symptoms 
-such as: </p>
+such as:</p>
 </li>
-<li>muscle weakness </li>
+<li>
+<p>muscle weakness </p>
+</li>
 <li>weakness beginning in the hands and feet and moving up towards the trunk of the body </li>
 <li>palpitations, tremor or hyperactivity. </li>
 </ul>
-<p> If you notice the side effects described above, tell your doctor immediately. </p>
+<p>If you notice the side effects described above, tell your doctor immediately. </p>
 <p>Very common side effects 
 (may affect more than 1 in 10 people) 
 * feeling sick (nausea) </p>
@@ -355,20 +425,24 @@ problems before), depression
 * swelling of the face, lips, tongue or throat (angioedema) 
 * itching (pruritus) 
 * hives (urticaria) </p>
-<p> If any of the side effects get serious tell your doctor. </p>
+<p>If any of the side effects get serious tell your doctor. </p>
 <p>Other effects that may be seen during HIV treatment </p>
 <p>The frequency of the following side effects is not known (frequency cannot be estimated from the 
 available data). </p>
 <ul>
-<li>Bone problems.  Some patients taking combination antiretroviral medicines such as Genvoya 
+<li>
+<p>Bone problems.  Some patients taking combination antiretroviral medicines such as Genvoya 
 may develop a bone disease called osteonecrosis (death of bone tissue caused by loss of blood 
 supply to the bone).  Taking this type of medicine for a long time, taking corticosteroids, 
 drinking alcohol, having a very weak immune system, and being overweight, may be some of 
-the many risk factors for developing this disease.  Signs of osteonecrosis are: </li>
-<li>joint stiffness </li>
+the many risk factors for developing this disease.  Signs of osteonecrosis are:</p>
+</li>
+<li>
+<p>joint stiffness </p>
+</li>
 <li>joint aches and pains (especially of the hip, knee and shoulder) </li>
 <li>difficulty with movement 
- If you notice any of these symptoms tell your doctor. </li>
+  If you notice any of these symptoms tell your doctor. </li>
 </ul>
 <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose.  This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -415,9 +489,9 @@ oxide yellow (E172), indigo carmine aluminium lake (E132 - 150 mg/150 mg/200 mg/
 only), iron oxide black (E172 - 90 mg/90 mg/120 mg/6 mg tablet only). </p>
 <p>What Genvoya looks like and contents of the pack </p>
 <p>Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets are green, capsule-shaped tablets, 
-debossed on one side with “GSI” and the number “510” on the other side of the tablet. </p>
+debossed on one side with  GSI  and the number  510  on the other side of the tablet. </p>
 <p>Genvoya 90 mg/90 mg/120 mg/6 mg film-coated tablets are green, capsule-shaped tablets, debossed 
-on one side with “GSI” and scored on the other side of the tablet. </p>
+on one side with  GSI  and scored on the other side of the tablet. </p>
 <p>Genvoya comes in bottles of 30 tablets (with a silica gel desiccant that must be kept in the bottle to 
 help protect your tablets).  The silica gel desiccant is contained in a separate sachet or canister and 
 should not be swallowed. </p>
@@ -435,22 +509,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 48 22 262 8 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -470,14 +543,13 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 22 262 8 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -485,14 +557,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -500,10 +572,10 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1Ísland 
+Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -511,10 +583,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

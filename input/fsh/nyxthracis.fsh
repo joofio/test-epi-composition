@@ -4,7 +4,7 @@ Instance: composition-en-b0ea9d19e76604da264b592167b5c70a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyxthracis Package Leaflet"
 Description:  "Composition for nyxthracis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What NYXTHRACIS is and what it is used for  
-2. What you need to know before you receive NYXTHRACIS 
+2. What you need to know before you receive  NYXTHRACIS 
 3. How NYXTHRACIS will be given 
 4. Possible side effects  
 5. How to store NYXTHRACIS 
@@ -89,7 +89,7 @@ appropriate. </p>         </div>"""
 - if you are allergic to obiltoxaximab or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist or nurse before you are given NYXTHRACIS: </p>
+Talk to your doctor, pharmacist or nurse before you are given NYXTHRACIS:</p>
 <ul>
 <li>if you (or your child) have hereditary fructose intolerance (HFI), a rare genetic disorder, or if 
 your child can no longer take sweet foods or drinks because it feels sick, vomits or gets 
@@ -120,7 +120,7 @@ child can no longer take sweet foods or drinks because they feel sick, vomit or 
 such as bloating, stomach cramps or diarrhoea. </p>
 <p>NYXTHRACIS contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per each 6 mL vial of NYXTHRACIS, that 
-is to say essentially ‘sodium-free’. </p>         </div>"""   
+is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nyxthracis"
@@ -128,7 +128,7 @@ is to say essentially ‘sodium-free’. </p>         </div>"""
   * code.text = "3. How to take nyxthracis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NYXTHRACIS will be given to you by a doctor or a nurse. Your doctor or nurse will calculate the 
-dose based on your (or your child’s) weight.  </p>
+dose based on your (or your child s) weight.  </p>
 <p>Your doctor, nurse or pharmacist will prepare the medicine for infusion.<br />
 The NYXTHRACIS solution will be given as an infusion (drip) over 90 minutes into a vein, usually in 
 your arm. You will be monitored while you are given NYXTHRACIS and also for at least one hour 
@@ -146,7 +146,7 @@ allergic reactions.  </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or the person giving you the infusion straight away if you notice any of the 
 following side effects:  </p>
-<p>Itching, rash, shortness of breath or wheezing – these may be signs of an allergic reaction 
+<p>Itching, rash, shortness of breath or wheezing   these may be signs of an allergic reaction 
 (hypersensitivity). </p>
 <p>Other side effects of NYXTHRACIS include: </p>
 <p>Common (may affect up to 1 in 10 people) 
@@ -186,11 +186,11 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C).<br />
+<p>Store in a refrigerator (2 C   8 C).<br />
 Do not freeze.<br />
 Store in the original packaging in order to protect from light. </p>
 <p>After dilution in infusion bag, chemical, physical and microbial in-use stability has been demonstrated 
-for 8 hours at room temperature (20°C – 25°C) or in the refrigerator (2°C – 8°C). </p>
+for 8 hours at room temperature (20 C   25 C) or in the refrigerator (2 C   8 C). </p>
 <p>After dilution of NYXTHRACIS in a syringe for infusion, it should be administered immediately and 
 not stored. Any unused product should be discarded. </p>         </div>"""      
         
@@ -204,7 +204,7 @@ not stored. Any unused product should be discarded. </p>         </div>"""
 - The active substance is obiltoxaximab. Each mL of concentrate contains 100 mg of 
 obiltoxaximab. One vial of 6 mL contains 600 mg of obiltoxaximab. 
 - The other ingredients are histidine, sorbitol (E420), polysorbate 80 (E433), hydrochloric acid 
-(E507) and sodium hydroxide (E524). See also section 2 “NYXTHRACIS contains sorbitol”. </p>
+(E507) and sodium hydroxide (E524). See also section 2  NYXTHRACIS contains sorbitol . </p>
 <p>What NYXTHRACIS looks like and contents of the pack 
 NYXTHRACIS is a clear to opalescent, colourless to pale yellow to pale brownish-yellow concentrate 
 for solution. 
@@ -212,14 +212,14 @@ NYXTHRACIS is available in packs containing 1 vial. </p>
 <p>Marketing Authorisation Holder 
 SFL Pharmaceuticals Deutschland GmbH 
 Marie-Curie-Strasse 8 
-79539 Lörrach 
+79539 L rrach 
 Germany </p>
 <p>Manufacturer<br />
 AcertiPharma B.V. 
 Boschstraat 4811 GC, Breda 
 The Netherlands </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease and for ethical reasons it has been impossible to get complete information on this 
 medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 

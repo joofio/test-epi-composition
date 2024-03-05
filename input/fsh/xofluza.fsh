@@ -4,7 +4,7 @@ Instance: composition-en-49f2652f369e152b2094223d335e67b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofluza Package Leaflet"
 Description:  "Composition for xofluza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,8 +70,8 @@ Usage: #example
   * code.text =  "1. What xofluza is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Xofluza is </p>
-<p>Xofluza contains baloxavir marboxil. This is a type of antiviral medicine called a ‘cap-dependent 
-endonuclease inhibitor’.  </p>
+<p>Xofluza contains baloxavir marboxil. This is a type of antiviral medicine called a  cap-dependent 
+endonuclease inhibitor .  </p>
 <p>Xofluza is used for treating and preventing influenza. This medicine stops the influenza virus from 
 spreading in the body and helps shorten the time to recovery from symptoms.  </p>
 <p>What Xofluza is used for </p>
@@ -115,7 +115,7 @@ advice before taking this medicine. </p>
 <p>Xofluza contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, talk to your doctor before taking this medicine. </p>
 <p>Xofluza contains sodium </p>
-<p>This medicine contains less than 23 mg of sodium per tablet, that is to say essentially ꞌsodium-free’. </p>         </div>"""   
+<p>This medicine contains less than 23 mg of sodium per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xofluza"
@@ -138,7 +138,7 @@ much to take. </p>
 Refer to the Xofluza granules for oral suspension package 
 leaflet 
 . 
-≥ 20 kg - &lt; 80 kg 
+  20 kg - &lt; 80 kg 
 Single dose of 40 mg taken as 
 - 2 x 20 mg tablets </p>
 <p>80 kg or more </p>
@@ -184,7 +184,7 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "5. How to store xofluza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and carton after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not need any special temperature storage conditions. </p>
 <p>Store in the original package in order to protect from moisture. 
@@ -202,117 +202,14 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>The active substance is baloxavir marboxil.  </li>
 <li>Each 20 mg film-coated tablet contains 20 mg baloxavir marboxil. Each 40 mg film-coated 
 tablet contains 40 mg baloxavir marboxil. </li>
-<li>The other ingredients are lactose monohydrate (see Section 2 ‘Xofluza contains lactose’), 
-croscarmellose sodium ((E468) (see Section 2 ‘Xofluza contains sodium’)), povidone (K25) 
+<li>The other ingredients are lactose monohydrate (see Section 2  Xofluza contains lactose ), 
+croscarmellose sodium ((E468) (see Section 2  Xofluza contains sodium )), povidone (K25) 
 (E1201), microcrystalline cellulose (E460), sodium stearyl fumarate in the tablet core, and 
 hypromellose (E464), talc (E553b) and titanium dioxide (E171) in the film-coating. </li>
 </ul>
 <p>What Xofluza looks like and contents of the pack </p>
-<p>Xofluza 20 mg tablets are white to light yellow, oblong shaped film-coated tablets with “
- 772” 
-marked on one side and “20” on the other side. </p>
-<p>Xofluza 20 mg film-coated tablets are available in blister packs of 2.  </p>
-<p>Xofluza 40 mg tablets are white to light yellow, oblong shaped film-coated tablets with “BXM40” 
-marked on one side.  </p>
-<p>Xofluza 40 mg film-coated tablets are available in blister packs of 2.<br />
-Marketing Authorisation Holder </p>
-<p>Roche Registration GmbH 
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>Manufacturer </p>
-<p>Roche Pharma AG 
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 </p>
-<p>България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
-Luxembourg/Luxemburg 
-(Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
-Roche s. r. o. 
-Tel: +420 - 2 20382Magyarország 
-Roche (Magyarország) Kft. 
-Tel: +36 – 1 279 4Danmark 
-Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99<br />
-Malta 
-(See Ireland) </p>
-<p>Deutschland 
-Roche Pharma AG 
-Tel: +49 (0) 7624<br />
-Nederland 
-Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
-Roche Eesti OÜ 
-Tel: + 372 - 6 177<br />
-Norge 
-Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
-Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-España 
-Roche Farma S.A. 
-Tel: +34 - 91 324 81 00  </p>
-<p>Polska 
-Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-France 
-Roche 
-Tél: +33  (0)1 47 61 40<br />
-Portugal 
-Roche Farmacêutica Química, Lda 
-Tel: +351 - 21 425 70<br />
-Hrvatska 
-Roche d.o.o. 
-Tel: + 385 1 47 22<br />
-România 
-Roche România S.R.L. 
-Tel: +40 21 206 47<br />
-Ireland 
-Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Slovenija 
-Roche farmacevtska družba d.o.o. 
-Tel: +386 - 1 360 26<br />
-Ísland<br />
-Roche Pharmaceuticals A/S 
-c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
-Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
-Roche S.p.A. 
-Tel: +39 - 039 2 
-Suomi/Finland 
-Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
-Sverige 
-Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
-Roche Latvija SIA 
-Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
-Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Xofluza 20 mg tablets are white to light yellow, oblong shaped film-coated tablets with<br />
+ 772<br />
+marked on one side and  20  on the other side. </p>
+<p>Xofluza 20 mg film-coated tablets are available in blister packs of </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-f7bd65adcf41880a5b8668a52603da99
 InstanceOf: CompositionUvEpi
 Title: "Composition for methylthioninium Package Leaflet"
 Description:  "Composition for methylthioninium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -121,9 +121,11 @@ Protective measures against exposure to light should be taken. </p>
 You will undergo monitoring tests during and after treatment with Methylthioninium chloride 
 Proveblue. </p>
 <p>Children 
-Special care must be taken with Methylthioninium chloride Proveblue: <br />
-- in newborns and infants 3 months old or younger, lower doses are recommended (see section 3 
-of this package leaflet). </p>
+Special care must be taken with Methylthioninium chloride Proveblue:</p>
+<ul>
+<li>in newborns and infants 3 months old or younger, lower doses are recommended (see section 3 
+of this package leaflet). </li>
+</ul>
 <p>Other medicines and Methylthioninium chloride Proveblue 
 Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
 medicines.<br />
@@ -192,13 +194,17 @@ This medicine may be diluted in 50 ml glucose 50 mg/ml (5%) solution for injecti
 pain, in particular in children. </p>
 <p>If you are given more Methylthioninium chloride Proveblue than you should<br />
 As this medicine will be given to you whilst you are in hospital, it is unlikely that you will be given 
-too much or too little, however, tell your doctor if you notice one of the following adverse reactions:<br />
-- feeling sick, 
-- stomach pain,<br />
-- chest pain, 
-- dizziness, </p>
+too much or too little, however, tell your doctor if you notice one of the following adverse reactions:</p>
 <ul>
-<li>headache, </li>
+<li>feeling sick, </li>
+<li>stomach pain,  </li>
+<li>chest pain, </li>
+<li>
+<p>dizziness, </p>
+</li>
+<li>
+<p>headache, </p>
+</li>
 <li>sweating, </li>
 <li>confusion, </li>
 <li>an increase in methaemoglobin (an abnormal form of haemoglobin in the blood), </li>
@@ -232,23 +238,32 @@ infants. </p>
 <h2>abnormal taste in mouth</h2>
 <p>nausea </p>
 <ul>
-<li>Common side effects (may affect up to 1 in 10 people): </li>
-<li>stomach pain </li>
+<li>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+</li>
+<li>
+<p>stomach pain </p>
+</li>
 <li>chest pain </li>
 <li>headache </li>
 <li>anxiety </li>
 <li>injection site pain </li>
-<li>vomiting </li>
-</ul>
-<h2>* Not known (frequency cannot be estimated from the available data):</h2>
+<li>
+<p>vomiting </p>
+</li>
+<li>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+</li>
+<li>
 <p>serotonin syndrome when Methylthioninium chloride Proveblue has been taken with certain 
-medicines to treat depression or anxiety, see section 2 
--<br />
-decreased haemoglobin (protein in red blood cells that carry oxygen in the blood) levels may be </p>
+medicines to treat depression or anxiety, see section 2 </p>
+</li>
+<li>decreased haemoglobin (protein in red blood cells that carry oxygen in the blood) levels may be </li>
+</ul>
 <h2>reported during blood tests</h2>
 <h2>reduction in red blood cells which may turn your skin pale and make you breathless and weak</h2>
 <h2>local tissue damage at the injection site</h2>
-<h2>jaundice (yellowing of the skin and eyes) – this has only been reported in infants</h2>
+<h2>jaundice (yellowing of the skin and eyes)   this has only been reported in infants</h2>
 <h2>problems with speech</h2>
 <h2>high or low blood pressure</h2>
 <h2>agitation</h2>
@@ -323,20 +338,19 @@ Cenexi
 52, Rue Marcel et Jacques Gaucher, 94120 Fontenay-sous-Bois, France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Pharmanovia Benelux B.V. 
-Tél/Tel: + 31 (0) 76-5600Lietuva 
+T l/Tel: + 31 (0) 76-5600Lietuva 
 Provepharm SAS 
-Tel: +33 (0)4 91 08 69<br />
-България 
-Provepharm SAS 
-Teл.: + 33 (0)4 91 08 69<br />
+Tel: +33 (0)4 91 08 69  </p>
+<p>Provepharm SAS 
+Te .: + 33 (0)4 91 08 69<br />
 Luxembourg/Luxemburg 
 Pharmanovia Benelux B.V. 
-Tél/Tel: + 31 (0) 76-5600Česká republika 
+T l/Tel: + 31 (0) 76-5600 esk  republika 
 LERAM pharmaceuticals s.r.o 
 Tel: +420 737 657 454<br />
-Magyarország 
+Magyarorsz g 
 Mediwings Pharma Kft. 
 Tel.: + 36 28 410<br />
 Danmark 
@@ -346,7 +360,7 @@ Malta
 Provepharm SAS 
 Tel: + 33 (0)4 91 08 69<br />
 Deutschland 
-Dr. Franz Köhler Chemie GmbH 
+Dr. Franz K hler Chemie GmbH 
 Tel: + 49 (0) 6251-1083-0 </p>
 <p>Nederland 
 Pharmanovia Benelux B.V. 
@@ -356,29 +370,28 @@ Provepharm SAS
 Tel: + 33 (0)4 91 08 69<br />
 Norge 
 Pharmanovia A/S 
-Tlf: + 45 33 33 76<br />
-Ελλάδα 
-a VIPharma International AE 
-Τηλ: + 30-210-6194 
-Österreich 
-Dr. Franz Köhler Chemie GmbH 
+Tlf: + 45 33 33 76  </p>
+<p>a VIPharma International AE 
+ : + 30-210-6194 
+ sterreich 
+Dr. Franz K hler Chemie GmbH 
 Tel: + 49 (0) 6251-1083-0 </p>
-<p>España 
-Fresenius Kabi España, S.A.U.   <br />
+<p>Espa a 
+Fresenius Kabi Espa a, S.A.U.   <br />
 Tel: + 34 93 225 65<br />
 Polska 
 Apfel Pharm Sp. z o.o. 
 Tel: + 48 694 775 205  </p>
 <p>France 
 Provepharm SAS 
-Tél: + 33 (0)4 91 08 69<br />
+T l: + 33 (0)4 91 08 69<br />
 Portugal 
-Labesfal - Laboratórios Almiro 
+Labesfal - Laborat rios Almiro 
 Tel: + 351 232 831 
 Hrvatska 
 Provepharm SAS 
 Tel: + 33 (0)4 91 08 69<br />
-România 
+Rom nia 
 Dynamic Medical Solutions 
 Tel: + 40 (0)725596 </p>
 <p>Ireland 
@@ -387,10 +400,10 @@ Tel: + 33 1 41 12 65<br />
 Slovenija 
 Provepharm SAS 
 Tel: + 33 (0)4 91 08 69<br />
-Ísland 
+ sland 
 Pharmanovia A/S 
-Sími: + 45 33 33 76<br />
-Slovenská republika 
+S mi: + 45 33 33 76<br />
+Slovensk  republika 
 LERAM pharmaceuticals s.r.o 
 Tel: +420 737 657 454<br />
 Italia 
@@ -398,10 +411,9 @@ Altais Pharma S.r.l
 Tel: +39 06 97 79 70<br />
 Suomi/Finland 
 Pharmanovia A/S 
-Puh/Tel: + 45 33 33 76<br />
-Κύπρος 
-Isangen Pharma Cyprus Ltd 
-Τηλ: + 357-24-638Sverige 
+Puh/Tel: + 45 33 33 76  </p>
+<p>Isangen Pharma Cyprus Ltd 
+ : + 357-24-638Sverige 
 Pharmanovia A/S 
 Tel: + 45 33 33 76<br />
 Latvija 

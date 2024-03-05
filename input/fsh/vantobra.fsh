@@ -4,7 +4,7 @@ Instance: composition-en-a2aa072350b7f0283a86de62e6b164d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantobra Package Leaflet"
 Description:  "Composition for vantobra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -102,7 +102,7 @@ Talk to your doctor if you have ever had any of the following conditions: </p>
 <li>chest tightness; </li>
 <li>blood in your sputum (the substance you cough up); </li>
 <li>muscle weakness that lasts or becomes worse over time, a symptom mostly related to conditions such as 
-myasthenia (muscle weakness) or Parkinson’s disease. 
+myasthenia (muscle weakness) or Parkinson s disease. 
 If any of these apply to you, tell your doctor before using Vantobra. </li>
 </ul>
 <p>If you have problems with your hearing or kidney function, your doctor may take blood samples to monitor 
@@ -124,12 +124,10 @@ The medicine is not intended for use in children under 6 years of age. </p>
 Tell your doctor or a pharmacist if you are taking or have recently taken any other medicines, including 
 medicines obtained without a prescription. </p>
 <p>You should not take the following medicines while you are using Vantobra: 
-* furosemide, a diuretic (“water tablet”); 
+* furosemide, a diuretic ( water tablet ); 
 * other medicines with diuretic potential such as urea or mannitol; 
-* other medicines which may harm your kidneys or hearing:<br />
-o amphotericin B, cefalotin, polymyxins (used to treat microbial infections), ciclosporin, tacrolimus 
-(used to reduce the activity of immune system). These medicines may harm the kidneys;<br />
-o platinum compounds such as carboplatin and cisplatin (used to treat some forms of cancer). These 
+* other medicines which may harm your kidneys or hearing:  * amphotericin B, cefalotin, polymyxins (used to treat microbial infections), ciclosporin, tacrolimus 
+(used to reduce the activity of immune system). These medicines may harm the kidneys;  * platinum compounds such as carboplatin and cisplatin (used to treat some forms of cancer). These 
 medicines may harm the kidneys or hearing. </p>
 <p>The following medicines can increase the risks of harmful effects occurring if they are given to you while you 
 also take tobramycin or another aminoglycoside antibiotic given by injection: 
@@ -138,31 +136,18 @@ toxin. These medicines may cause muscle weakness to appear or become worse. </p>
 <p>If you are taking one or more of the above medicines, talk to your doctor before you use Vantobra. </p>
 <p>You should not mix or dilute Vantobra with any other medicine in your Tolero nebuliser handset which is 
 provided together with Vantobra. 
-If you are taking several different treatments for cystic fibrosis, you should take them in the following order: </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take vantobra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take vantobra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+If you are taking several different treatments for cystic fibrosis, you should take them in the following order: </p>
+<ol>
+<li>
+<p>Bronchodilator therapy, such as salbutamol </p>
+</li>
+<li>
+<p>Chest physiotherapy </p>
+</li>
 <li>Other inhaled medicines </li>
-</ol>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store vantobra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store vantobra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Please check this order with your doctor as well. </p>
+<li>Vantobra 
+Please check this order with your doctor as well. </li>
+</ol>
 <p>Pregnancy and breast-feeding<br />
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
 doctor for advice before using this medicine. </p>
@@ -171,13 +156,12 @@ by injection, tobramycin and other aminoglycoside antibiotics can cause harm to 
 deafness and kidney problems. </p>
 <p>If you are breast feeding, you should talk to your doctor before using this medicine. </p>
 <p>Driving and using machines 
-Vantobra is not expected to affect your ability to drive or use machines. </p>         </div>"""      
-        
-        
+Vantobra is not expected to affect your ability to drive or use machines. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title =  "3. How to take vantobra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "3. How to take vantobra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are not sure.  </p>
 <p>The recommended dose is two ampoules each day (one in the morning and one in the evening) for 28 days.  </p>
@@ -200,9 +184,10 @@ Use Vantobra twice a day for 28 days Do not use any Vantobra for the next 28 day
 <p>Continue using Vantobra on this cyclical basis for as long as your doctor tells you.<br />
 If you have questions about how long to use Vantobra, talk to your doctor or pharmacist. </p>
 <p>Preparing Vantobra for inhalation </p>
-<p>•   Use Vantobra only with the Tolero nebuliser handset shown in the picture below to make sure you 
-inhale the correct dose. Do not use the Tolero nebuliser handset for any other medicine.<br />
-•   Read the Instructions for Use provided with the handset device before use.  </p>
+<pre><code>Use Vantobra only with the Tolero nebuliser handset shown in the picture below to make sure you
+</code></pre>
+<p>inhale the correct dose. Do not use the Tolero nebuliser handset for any other medicine.<br />
+    Read the Instructions for Use provided with the handset device before use.  </p>
 <ul>
 <li>Make sure you have an eTrack or eBase controller to connect the Tolero nebuliser handset. The 
 respective controller can be prescribed by your physician or purchased separately. </li>
@@ -217,7 +202,7 @@ contents of one ampoule into the medication reservoir of the nebuliser handset. 
 <li>Begin your treatment sitting in an upright position, in a well ventilated room. Hold the nebuliser 
 handset horizontally and breath normally through your mouth. Avoid breathing through your nose. 
 Continue to inhale and exhale comfortably until the treatment is finished. When all of the medicine 
-has been delivered, you will hear the “treatment complete” tone. </li>
+has been delivered, you will hear the  treatment complete  tone. </li>
 <li>If you need to interrupt your treatment for any reason, press and hold the On/Off button for one full 
 second. To re-start the treatment, press and hold the On/Off button again for one full second to resume 
 treatment. </li>
@@ -238,5 +223,102 @@ can. Otherwise, wait for your next dose. Do not use a double dose to make up for
 <p>If you stop using Vantobra 
 Do not stop using Vantobra unless your doctor tells you to do so, as your lung infection may not be 
 controlled sufficiently and may become worse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Some side effects can be serious 
+* chest tightness with difficulty in breathing (rare, affecting up to 1 in 1,000 people) 
+* allergic reactions including hives and itching (very rare, affecting up to 1 in 10,000 people). 
+If you experience any of these, stop using Vantobra and tell your doctor straight away. </p>
+<p>People with cystic fibrosis have many symptoms of the disease. These may still occur while using Vantobra, 
+but should not be as frequent or worse than before. </p>
+<p>If your underlying lung disease seems to become worse while you are using Vantobra, tell your doctor 
+straight away. </p>
+<p>Other side effects may include: 
+Uncommon (may affect up to 1 in 100 people) 
+* shortness of breath 
+* voice alteration (hoarseness) 
+* increased cough 
+* sore throat </p>
+<p>Rare (may affect up to 1 in 1,000 people) 
+* laryngitis (inflammation of the voice box that can cause voice alteration, sore throat and difficulty 
+swallowing) 
+* Loss of voice 
+* headache, weakness 
+* nosebleed, runny nose 
+* ringing in the ears (normally transient), hearing loss, dizziness 
+* coughing up blood, producing more sputum than normally, chest discomfort, asthma, fever 
+* taste disturbances, feeling sick (nausea), mouth ulcers, being sick (vomiting), loss of appetite<br />
+* rash 
+* chest pain or general pain 
+* worsening of lung function test results </p>
+<p>Very rare (may affect up to 1 in 10,000 people) 
+* fungal infections of the mouth or throat, such as thrush 
+* swelling of lymph glands 
+* sleepiness 
+* ear pain, ear problems<br />
+* hyperventilating, low oxygen levels in your blood, sinusitis 
+* diarrhoea, pain in and around the stomach 
+* red pustules, papules on the skin 
+* nettle rush, itching 
+* back pain 
+* generally feeling unwell </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
+in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vantobra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vantobra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the ampoule or the sachet or box after 
+EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C - 8 C). If you don t have a refrigerator available (such as when you are 
+transporting your medicine) you can store the box with the medicine (even if sachets are opened) below 
+25 C for up to 4 weeks. If the product has been stored at room temperature for longer than 4 weeks, it has 
+to be disposed according to local requirements. </p>
+<p>Do not use this medicine if you notice that it has become cloudy, or if there are particles in the solution. </p>
+<p>Never store an opened ampoule. Once opened an ampoule should be used immediately, and any 
+remaining product should be discarded. </p>
+<p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
+medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vantobra contains 
+* The active substance is tobramycin. One ampoule contains 170 mg of tobramycin as a single dose. 
+* The other ingredient(s) (excipient(s)) are: sodium chloride, calcium chloride, magnesium sulphate, water 
+for injections, sulphuric acid and sodium hydroxide for pH adjustment. </p>
+<p>What Vantobra looks like and contents of the pack 
+Vantobra nebuliser solution is provided in a ready-to-use ampoule. </p>
+<p>Vantobra is a clear to slightly yellow coloured solution which can vary to a darker yellow. This does not change 
+how Vantobra works provided that the storage instructions have been followed. </p>
+<p>Ampoules are packed in sachets, one sachet contains 8 ampoules which correspond with 4 days of treatment. </p>
+<p>Vantobra is available together with a Tolero nebuliser handset. It is supplied in a box that contains two inner 
+boxes, one with the medicine (56 ampoules with nebuliser solution in 7 sachets), and one with the nebuliser 
+handset. A package is sufficient for one treatment cycle of 28 days. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>PARI Pharma GmbH 
+Moosstrasse 3 
+82319 Starnberg 
+Germany </p>
+<p>Tel.:<br />
+ +49 (0) 89   74 28 46 - Fax:<br />
+ +49 (0) 89   74 28 46 E-Mail:  info@paripharma.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-0d94803bc9c6a74df09f017a447745b8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fintepla Package Leaflet"
 Description:  "Composition for fintepla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,8 +86,8 @@ reduce seizures. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Fintepla if:<br />
 <em> you or your child are allergic to fenfluramine or any of the other ingredients of this medicine 
 (listed in section 6) 
-* you or your child have a heart problem such as ‘valve disease’ or ‘pulmonary arterial 
-hypertension’ (high pressure in the arteries of the lungs)<br />
+* you or your child have a heart problem such as  valve disease  or  pulmonary arterial 
+hypertension  (high pressure in the arteries of the lungs)<br />
 </em> you or your child have taken medicines called monoamine oxidase inhibitors in the last 
 2 weeks. </p>
 <p>Do not take Fintepla if any of the above apply to you. If you are not sure, talk to your doctor, 
@@ -111,14 +111,14 @@ once a year. If Fintepla treatment is stopped, you or your child will need to ha
 6 months after the last dose. </p>
 <p>Your doctor should also check your weight before and during your treatment as Fintepla can cause you 
 to lose weight. </p>
-<p>‘Serotonin syndrome’ 
+<p>Serotonin syndrome<br />
 Tell your doctor or pharmacist before taking Fintepla if you or your child are taking medicines which 
 can increase the levels of serotonin in your brain. This is because taking these medicines and Fintepla 
 can cause serotonin syndrome, which is a life-threatening condition. Medicines that can increase 
 serotonin levels include: 
-* ‘triptans’ (such as sumatriptan) – used for migraine 
-* MAOI medicines – used for depression 
-* SSRI or SNRI medicines – used for depression and anxiety. </p>
+*  triptans  (such as sumatriptan)   used for migraine 
+* MAOI medicines   used for depression 
+* SSRI or SNRI medicines   used for depression and anxiety. </p>
 <p>Look out for the signs of serotonin syndrome which include: 
 * being agitated, seeing things which are not there (hallucinations) or passing out 
 * heart and circulation problems such as fast heartbeat, blood pressure going up and down, high 
@@ -135,7 +135,7 @@ take other medicines such as anti-depressants or alcohol at the same time as Fin
 <p>In particular, tell your doctor or pharmacist if you or your child are taking, have recently taken, or 
 might take: 
 * stiripentol, a medicine for epilepsy, as your dose of Fintepla may need to be reduced 
-* ‘triptans’, MAOI, SNRI or SSRI medicines – see above under ‘Serotonin syndrome’ 
+*  triptans , MAOI, SNRI or SSRI medicines   see above under  Serotonin syndrome<br />
 * carbamazepine, primidone, rifampicin, phenobarbital and other barbiturates, phenytoin, and 
 efavirenz, as your dose of Fintepla may need to be increased. </p>
 <p>Also speak with your doctor or pharmacist if you or your child smoke as the dose of Fintepla may 
@@ -156,8 +156,8 @@ This may be harmful to the teeth.
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>Fintepla contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per 12 ml, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per 12 ml, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fintepla"
@@ -227,7 +227,7 @@ then turn over.
 Holding the bottle firmly, gently pull the oral 
 syringe out of the bottle adaptor. </p>
 <p>Place the tip of the oral syringe against the 
-inside of the patient’s cheek. 
+inside of the patient s cheek. 
 Gently push the plunger until it is fully 
 pressed. There will be a small volume left in 
 the tip of the syringe. This is normal. 
@@ -334,16 +334,18 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store fintepla"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and bottle label after 
-EXP. The expiry date refers to the last day of that month. 
-* Do not refrigerate or freeze. 
-* Use within 3 months of first opening the bottle. 
-* Wash the syringe after each use. 
-* If you lose or damage a syringe, or cannot read the dose markings on a syringe, use another oral 
-syringe provided in your pack, or speak to your pharmacist. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and bottle label after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Do not refrigerate or freeze. </li>
+<li>Use within 3 months of first opening the bottle. </li>
+<li>Wash the syringe after each use. </li>
+<li>If you lose or damage a syringe, or cannot read the dose markings on a syringe, use another oral 
+syringe provided in your pack, or speak to your pharmacist. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
+to throw away medicines you no longer use. These measures will help to protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -361,35 +363,24 @@ The other ingredients are:
 * Hydroxyethylcellulose (E 1525) 
 * Monosodium phosphate (E 339) 
 * Disodium phosphate (E 339) 
-* Cherry flavouring powder: 
-o Acacia (E 414) 
-o Glucose (maize) 
-o Ethyl benzoate 
-o Natural flavouring preparations 
-o Natural flavouring substances 
-o Flavouring substances 
-o Maltodextrin (maize) 
-o Sulphur dioxide (E 220) 
+* Cherry flavouring powder: * Acacia (E 414) * Glucose (maize) * Ethyl benzoate * Natural flavouring preparations * Natural flavouring substances * Flavouring substances * Maltodextrin (maize) * Sulphur dioxide (E 220) 
 * Potassium citrate (E 332) 
 * Citric acid monohydrate (E 330) 
 * Water for injections </p>
 <p>What Fintepla looks like and contents of the pack 
 * Fintepla oral solution is supplied as a clear, colourless, cherry-flavoured slightly viscous liquid. 
 * The solution is available in a white bottle with a childresistant, tamperevident cap. 
-* Each carton contains either: </p>
-<p>o Bottle containing 60 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
-graduations, and two 6 ml syringes with 0.2 ml graduations. 
-o Bottle containing 120 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
-graduations, and two 6 ml syringes with 0.2 ml graduations. 
-o Bottle containing 250 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
-graduations, and two 6 ml syringes with 0.2 ml graduations. 
-o Bottle containing 360 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
+* Each carton contains either: 
+ * Bottle containing 60 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
+graduations, and two 6 ml syringes with 0.2 ml graduations. * Bottle containing 120 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
+graduations, and two 6 ml syringes with 0.2 ml graduations. * Bottle containing 250 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
+graduations, and two 6 ml syringes with 0.2 ml graduations. * Bottle containing 360 ml oral solution, a bottle adaptor, two 3 ml oral syringes with 0.1 ml 
 graduations, and two 6 ml syringes with 0.2 ml graduations. 
 * Not all pack sizes may be marketed in your country. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Marketing Authorisation Holder:<br />
 UCB Pharma S.A., 
-Allée de la Recherche 60, 
+All e de la Recherche 60, 
 B-1070 Bruxelles, 
 Belgium </p>
 <p>Manufacturer: 
@@ -401,21 +392,19 @@ Co. Meath,<br />
 K32 YDIreland  </p>
 <p>For any information about this medicine, please contact the local representative of Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 UCB Pharma S.A./NV<br />
-Tél/Tel: + 32 / (0)2 559 92 Lietuva 
+T l/Tel: + 32 / (0)2 559 92 Lietuva 
 UAB Medfiles 
-Tel: +370 5 246 16<br />
-България 
-Ю СИ БИ България ЕООД<br />
-Teл.: + 359 (0) 2 962 30<br />
+Tel: +370 5 246 16  </p>
+<p>Te .: + 359 (0) 2 962 30<br />
 Luxembourg/Luxemburg 
 UCB Pharma SA/NV<br />
-Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 UCB s.r.o.<br />
-Tel: + 420 221 773 Magyarország 
-UCB Magyarország Kft.<br />
+Tel: + 420 221 773 Magyarorsz g 
+UCB Magyarorsz g Kft.<br />
 Tel.: + 36-(1) 391 0Danmark 
 UCB Nordic A/S<br />
 Tlf: + 45 / 32 46 24<br />
@@ -429,17 +418,16 @@ Nederland
 UCB Pharma B.V.<br />
 Tel.: + 31 / (0)76-573 11<br />
 Eesti 
-OÜ Medfiles 
+O  Medfiles 
 Tel: +372 730 5Norge 
 UCB Nordic A/S<br />
-Tlf: + 47 / 67 16 5 
-Ελλάδα 
-UCB Α.Ε.<br />
-Österreich 
+Tlf: + 47 / 67 16 5 </p>
+<p>UCB  . .<br />
+ sterreich 
 UCB Pharma GmbH  </p>
-<p>Τηλ: + 30 / 2109974 
+<p>: + 30 / 2109974 
 Tel: + 43-(0)1 291 80<br />
-España 
+Espa a 
 UCB Pharma, S.A.<br />
 Tel: + 34 / 91 570 34<br />
 Polska 
@@ -447,9 +435,9 @@ UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o.
 Tel: + 48 22 696 99<br />
 France 
 UCB Pharma S.A.<br />
-Tél: + 33 / (0)1 47 29 44<br />
+T l: + 33 / (0)1 47 29 44<br />
 Portugal<br />
-UCB Pharma (Produtos Farmacêuticos), Lda<br />
+UCB Pharma (Produtos Farmac uticos), Lda<br />
 Tel: + 351 21 302 5 
 Hrvatska 
 Medis Adria d.o.o.<br />
@@ -457,27 +445,26 @@ Tel: +385 (0) 1 230 34<br />
 Ireland 
 UCB (Pharma) Ireland Ltd.<br />
 Tel: + 353 / (0)1-46 37<br />
-România 
+Rom nia 
 UCB Pharma Romania S.R.L.<br />
 Tel: + 40 21 300 29<br />
 Slovenija 
 Medis, d.o.o.<br />
 Tel: + 386 1 589 69<br />
-Ísland 
+ sland 
 Vistor hf.<br />
 Simi: + 354 535 7 
-Slovenská republika 
-UCB s.r.o., organizačná zložka<br />
+Slovensk  republika 
+UCB s.r.o., organiza n  zlo ka<br />
 Tel: + 421 (0) 2 5920 2 
 Italia 
 UCB Pharma S.p.A.<br />
 Tel: + 39 / 02 300<br />
 Suomi/Finland 
 UCB Pharma Oy Finland<br />
-Puh/Tel: + 358 9 2514 4 
-Κύπρος 
-Lifepharma (Z.A.M.) Ltd<br />
-Τηλ: + 357 22 056 
+Puh/Tel: + 358 9 2514 4 </p>
+<p>Lifepharma (Z.A.M.) Ltd<br />
+ : + 357 22 056 
 Sverige 
 UCB Nordic A/S Tel: + 46 / (0) 40 294<br />
 Latvija 

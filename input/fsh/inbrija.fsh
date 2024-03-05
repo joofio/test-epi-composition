@@ -4,7 +4,7 @@ Instance: composition-en-09457b67378eccc379f945623f721bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for inbrija Package Leaflet"
 Description:  "Composition for inbrija Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,11 +70,11 @@ Usage: #example
   * code.text =  "1. What inbrija is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance in Inbrija is levodopa. Inbrija is a medicine used by inhalation for treating the 
-worsening of your symptoms during the “off periods” of Parkinson’s disease.  </p>
-<p>Parkinson’s disease affects your movement and it is treated with a medicine that you take regularly. 
+worsening of your symptoms during the  off periods  of Parkinson s disease.  </p>
+<p>Parkinson s disease affects your movement and it is treated with a medicine that you take regularly. 
 During off periods your usual medicine does not control the condition well enough and movement is 
 likely to be more difficult. </p>
-<p>You should continue taking your main medicine for Parkinson’s disease and use Inbrija to control 
+<p>You should continue taking your main medicine for Parkinson s disease and use Inbrija to control 
 worsening of symptoms (such as inability to move) during off periods. </p>         </div>"""   
           
 
@@ -84,54 +84,66 @@ worsening of symptoms (such as inability to move) during off periods. </p>      
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take inbrija"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Inbrija: 
-- if you are allergic to levodopa or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you get blurred vision, red eyes, severe eye and head pain, halos around lights, pupils of your 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Inbrija:</p>
+<ul>
+<li>if you are allergic to levodopa or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if you get blurred vision, red eyes, severe eye and head pain, halos around lights, pupils of your 
 eyes that are larger than normal size and feel sick. If you have any of these symptoms, you may 
 have a eye condition called narrow angle glaucoma, which occurs suddenly: do not take 
-Inbrija and get urgent medical attention. 
-- if you have a rare tumour of the adrenal gland called phaeochromocytoma. 
-- if you are taking certain antidepressant medicines called non-selective MAO inhibitors (e.g. 
+Inbrija and get urgent medical attention. </li>
+<li>if you have a rare tumour of the adrenal gland called phaeochromocytoma. </li>
+<li>if you are taking certain antidepressant medicines called non-selective MAO inhibitors (e.g. 
 isocarboxazid and phenelzine). You must stop taking these medicines at least 14 days before 
-starting treatment with Inbrija. See also under “Other medicines and Inbrija”. 
-- if you have previously suffered from neuroleptic malignant syndrome, a life-threatening 
+starting treatment with Inbrija. See also under  Other medicines and Inbrija . </li>
+<li>if you have previously suffered from neuroleptic malignant syndrome, a life-threatening 
 reaction to certain medicines used to treat severe mental disorders or if you have suffered from 
 non-traumatic rhabdomyolysis, a rare muscle disorder in which damaged muscle breaks down 
-rapidly. </p>
+rapidly. </li>
+</ul>
 <p>Warnings and precautions 
 Get urgent medical help if you have tremors, agitation, confusion, fever, rapid pulse, or dizziness 
 and fainting upon standing up, or you notice that your muscles get very rigid or jerk violently. These 
-may be symptoms of “withdrawal-emergent hyperpyrexia”. For more information see section 4.<br />
-Talk to your doctor or pharmacist before using Inbrija if you have, or have ever had, or you 
-develop: 
-- asthma, breathing difficulties like chronic obstructive pulmonary disease (COPD) or other long-
-term lung diseases or breathing problems; 
-- any form of severe mental disorder like psychosis; 
-- a heart attack, or heart beat problems. Your doctor will monitor you closely during start of 
-treatment; 
-- an ulcer in your stomach or intestines; 
-- an eye condition called glaucoma, because the pressure in your eyes may need to be monitored; 
-- severe problems with your kidneys; 
-- severe problems with your liver. </p>
+may be symptoms of  withdrawal-emergent hyperpyrexia . For more information see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take inbrija"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take inbrija"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talk to your doctor or pharmacist before using Inbrija if you have, or have ever had, or you 
+develop:</p>
+<ul>
+<li>asthma, breathing difficulties like chronic obstructive pulmonary disease (COPD) or other long-
+term lung diseases or breathing problems; </li>
+<li>any form of severe mental disorder like psychosis; </li>
+<li>a heart attack, or heart beat problems. Your doctor will monitor you closely during start of 
+treatment; </li>
+<li>an ulcer in your stomach or intestines; </li>
+<li>an eye condition called glaucoma, because the pressure in your eyes may need to be monitored; </li>
+<li>severe problems with your kidneys; </li>
+<li>severe problems with your liver. </li>
+</ul>
 <p>If you are not sure if any of the above applies to you, talk to your doctor or pharmacist before using 
 Inbrija. </p>
-<p>Talk to your doctor or pharmacist if you develop any of the symptoms below whilst using Inbrija: 
-- sudden sleep attacks or sometimes feeling very sleepy; 
-- changes in or worsening of your mental state, which may be severe such as psychotic and 
-suicidal behaviour; 
-- hallucinations, along with being confused, unable to sleep and excessive dreaming. Abnormal 
+<p>Talk to your doctor or pharmacist if you develop any of the symptoms below whilst using Inbrija:</p>
+<ul>
+<li>sudden sleep attacks or sometimes feeling very sleepy; </li>
+<li>changes in or worsening of your mental state, which may be severe such as psychotic and 
+suicidal behaviour; </li>
+<li>hallucinations, along with being confused, unable to sleep and excessive dreaming. Abnormal 
 thinking including anxiety, depression, being agitated, being paranoid, delusional, or 
-disorientated, aggressive behaviour and delirious; 
-- worsening of any breathing symptoms or having a respiratory infection; 
-- urges or cravings to behave in ways that are unusual for you or you cannot resist the impulse, 
+disorientated, aggressive behaviour and delirious; </li>
+<li>worsening of any breathing symptoms or having a respiratory infection; </li>
+<li>urges or cravings to behave in ways that are unusual for you or you cannot resist the impulse, 
 drive or temptation to carry out certain activities that could harm yourself or others. These 
 behaviours are called impulse control disorders and can include addictive gambling, excessive 
 eating or spending, an abnormally high sex drive or an increase in sexual thoughts or feelings. 
-Your doctor may need to review your treatments. 
-- new or increased abnormal body movements (dyskinesia); 
-- feeling dizzy when getting up (low blood pressure); 
-- melanoma (a type of skin cancer) or suspicious skin growths or marks. </p>
+Your doctor may need to review your treatments. </li>
+<li>new or increased abnormal body movements (dyskinesia); </li>
+<li>feeling dizzy when getting up (low blood pressure); </li>
+<li>melanoma (a type of skin cancer) or suspicious skin growths or marks. </li>
+</ul>
 <p>If you need to have surgery, tell your doctor that you are using Inbrija. </p>
 <p>Tests 
 You may need to have tests on your heart, liver, kidney, and blood cell tests during long-term 
@@ -145,19 +157,21 @@ medicines. This is because other medicines can affect the way Inbrija works. </p
 <p>Do not use Inbrija if you have taken medicines called non-selective MAO inhibitors for treating 
 depression in the last 14 days. These medicines include isocarboxazid and phenelzine. If this applies to 
 you, do not take Inbrija and ask your doctor or pharmacist for advice. </p>
-<p>Tell your doctor or pharmacist if you are taking: 
-- medicines for your Parkinson’s disease called selective MAO inhibitors such as rasagiline, 
+<p>Tell your doctor or pharmacist if you are taking:</p>
+<ul>
+<li>medicines for your Parkinson s disease called selective MAO inhibitors such as rasagiline, 
 selegiline and safinamide, COMT inhibitors such as entacapone, tolcapone and opicapone, or 
-anticholinergics such as orphenadrine and trihexyphenidyl; 
-- medicines for mental conditions including schizophrenia, such as benperidol, haloperidol, 
+anticholinergics such as orphenadrine and trihexyphenidyl; </li>
+<li>medicines for mental conditions including schizophrenia, such as benperidol, haloperidol, 
 risperidone, chlorpromazine, fluphenazine decanoate, phenotiazine, butyrophenone, or 
-trifluoperazine; 
-- metoclopramide to treat nausea; 
-- isoniazid, an antibiotic to treat tuberculosis; 
-- medicines for high blood pressure, as the dose may need to be adjusted; 
-- medicines for depression called tricyclic antidepressants such as clomipramin, desipramin, or 
-doxepin; 
-- amantadine to treat flu or your Parkinson’s disease. </p>
+trifluoperazine; </li>
+<li>metoclopramide to treat nausea; </li>
+<li>isoniazid, an antibiotic to treat tuberculosis; </li>
+<li>medicines for high blood pressure, as the dose may need to be adjusted; </li>
+<li>medicines for depression called tricyclic antidepressants such as clomipramin, desipramin, or 
+doxepin; </li>
+<li>amantadine to treat flu or your Parkinson s disease. </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
@@ -168,29 +182,32 @@ do not use contraception. </p>
 Inbrija can cause excessive drowsiness, dizziness and sudden sleep attacks. If this happens to you, 
 do not drive or use tools or machines. You must be sure that you do not get sudden sleep attacks, 
 dizziness and drowsiness before you drive again or use machines. You could put yourself or others at 
-risk of serious injury or death. </p>         </div>"""   
-                    
+risk of serious injury or death. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take inbrija"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take inbrija"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>Before starting Inbrija, you must be taking regular treatment for Parkinson’s disease combining a so-
+<p>Before starting Inbrija, you must be taking regular treatment for Parkinson s disease combining a so-
 called dopa-decarboxylase inhibitor with levodopa. </p>
 <p>The recommended dose of Inbrija is 2 capsules to treat each off period. Do not use more than 
 2 capsules for each off period. You can use 2 capsules up to five times a day. </p>
 <p>The maximum dose of Inbrija is 10 capsules per day. </p>
-<p>Important information before you use Inbrija: 
-- Inbrija capsules must not be swallowed. 
-- This medicine is for use by inhalation only. 
-- The capsules must only be removed from the blister pack immediately before use. 
-- Two capsules of medicine should be inhaled to get the full dose. 
-- The medicine must be used only with the Inbrija inhaler device. 
-- When you open a new carton, always use the new inhaler supplied. 
-- Your doctor or pharmacist will show you how to use your medicine correctly. </p>
-<p>Please see the “Instructions for use” at the end of this leaflet on how to use your medicine with the 
+<p>Important information before you use Inbrija:</p>
+<ul>
+<li>Inbrija capsules must not be swallowed. </li>
+<li>This medicine is for use by inhalation only. </li>
+<li>The capsules must only be removed from the blister pack immediately before use. </li>
+<li>Two capsules of medicine should be inhaled to get the full dose. </li>
+<li>The medicine must be used only with the Inbrija inhaler device. </li>
+<li>When you open a new carton, always use the new inhaler supplied. </li>
+<li>Your doctor or pharmacist will show you how to use your medicine correctly. </li>
+</ul>
+<p>Please see the  Instructions for use  at the end of this leaflet on how to use your medicine with the 
 provided inhaler. </p>
 <p>If you use more Inbrija than you should 
 If you use more Inbrija than you should (or someone accidentally swallows Inbrija) get medical help 
@@ -201,13 +218,12 @@ Use Inbrija only during an off period. If the off period has passed, do not use 
 period. </p>
 <p>If you stop using Inbrija 
 Do not stop using Inbrija without checking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store inbrija"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store inbrija"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Get urgent medical help if you have an allergic oedema with symptoms including hives (nettle rash), 
@@ -220,17 +236,21 @@ the central nervous system) or rhabdomyolisis (a rare severe muscle disorder). <
 <p>Get urgent medical help if you have bleeding in your stomach or intestines which may be seen as 
 blood in your faeces or darkened faeces. </p>
 <p>The following side effects may happen with this medicine: 
-Very common (may affect more than 1 in 10 people): 
-- cough </p>
-<p>Common (may affect up to 1 in 10 people): 
-- new or increased abnormal body movements (dyskinesia); 
-- infections of nose, sinuses, throat or lungs; 
-- change in colour of your mucus; 
-- discoloured (i.e. not clear) nasal mucus; 
-- irritation in throat or itchy throat; 
-- feeling sick (nausea); vomiting; 
-- being prone to falls. </p>
-<p>Other side effects you may experience of which the frequency is not known include: </p>
+Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>cough </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>new or increased abnormal body movements (dyskinesia); </li>
+<li>infections of nose, sinuses, throat or lungs; </li>
+<li>change in colour of your mucus; </li>
+<li>discoloured (i.e. not clear) nasal mucus; </li>
+<li>irritation in throat or itchy throat; </li>
+<li>feeling sick (nausea); vomiting; </li>
+<li>being prone to falls. </li>
+</ul>
+<p>Other side effects you may experience of which the frequency is not known include:</p>
 <ul>
 <li>sensation of choking associated with the drug powder impacting the back of the throat, 
 immediately after use </li>
@@ -244,11 +264,11 @@ and perceptions, losing touch with reality; feeling agitated; suicidal; being di
 exaggerated feeling of happiness; increased sex drive; grinding of teeth; feeling paranoid and 
 delusional; </li>
 <li>movement disorder in which a person's muscles contract uncontrollably; sudden, sometimes 
-unpredictable changes in symptoms, due to the return of Parkinson’s disease symptoms; 
-sleepiness; dizziness; worsening of Parkinson’s disease; pins and needles; headache; tremors; 
+unpredictable changes in symptoms, due to the return of Parkinson s disease symptoms; 
+sleepiness; dizziness; worsening of Parkinson s disease; pins and needles; headache; tremors; 
 seizure; sudden onset of sleep; restless legs syndrome; ataxia (disorder affecting co-ordination, 
 balance and speech); distorted sense of taste; mental health disorders that affecting learning, 
-memory, perception, and problem solving; Horner’s syndrome (an eye disorder); dementia; </li>
+memory, perception, and problem solving; Horner s syndrome (an eye disorder); dementia; </li>
 <li>blurred vision; double vision; widening pupil; prolonged rolling eyes upwards; involuntary tight 
 closure of the eyelids; </li>
 <li>heart problems, a noticeably rapid, strong, or irregular heartbeat; </li>
@@ -269,10 +289,14 @@ intensely; hair loss; discoloured sweat; </li>
 energy; difficulty in walking; chest pain; </li>
 <li>abnormal blood investigation results; weight loss; weight gain. </li>
 </ul>
-<p>You may experience the following side effects: </p>
+<p>You may experience the following side effects:</p>
 <ul>
-<li>inability to resist the impulse to perform an action that could be harmful, which may include: </li>
-<li>strong impulse to gamble excessively despite serious personal or family consequences; </li>
+<li>
+<p>inability to resist the impulse to perform an action that could be harmful, which may include:</p>
+</li>
+<li>
+<p>strong impulse to gamble excessively despite serious personal or family consequences; </p>
+</li>
 <li>altersed or increased sexual interest and behaviour of significant concern to you or to others, 
 for example, an increased sexual drive; </li>
 <li>uncontrollable excessive shopping or spending; </li>
@@ -287,67 +311,18 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store inbrija"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store inbrija"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blisters and carton after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Store below 25°C. Store in the original package in order to protect from light and moisture and only 
-remove immediately before use. </p>
-<p>Do not use any capsule that looks crushed, damaged or wet. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Inbrija contains<br />
-- The active substance is levodopa. Each hard capsule contains 42 mg levodopa. The dose that 
-leaves the mouthpiece of the inhaler (delivered dose) is 33 mg of levodopa. 
-- The other ingredients comprising the powder and capsule are colfosceril palmitate (DPPC), 
-sodium chloride, hypromellose, titanium dioxide (E 171), carrageenan, potassium chloride, 
-carnauba wax, maize starch, shellac, black iron oxide (E 172), propylene glycol and potassium 
-hydroxide. </p>
-<p>What Inbrija looks like and contents of the pack 
-Inbrija inhalation powder, hard capsules consist of a white powder for inhalation filled into white 
-opaque hard capsules with “A42” printed in black on the cap of the caspule and two black bands 
-printed on the body of the capsule. </p>
-<p>In this pack, you will find an inhaler together with peel-off blisters containing 4 hard capsules each. </p>
-<p>The pack sizes are 
-- a carton containing 16 hard capsules (4 blister strips) and one inhaler 
-- a carton containing 32 hard capsules (8 blister strips) and one inhaler 
-- a carton containing 60 hard capsules (15 blister strips) and one inhaler 
-- a carton containing 92 hard capsules (23 blister strips) and one inhaler </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Acorda Therapeutics Ireland Limited 
-10 Earlsfort Terrace 
-Dublin 2, D02 TIreland 
-Tel: +353 (0)1 231 4 
-Manufacturer 
-ADOH B.V. 
-Godfried Bomansstraat 6543 JA Nijmegen 
-Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: 
-BE, BG, CZ, DK, EE, IE, EL, FR, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI, 
-SK, FI, SE, UK-NI: 
-Acorda Therapeutics Ireland Limited 
-Ирландия/Irsko/Irland/Ιρλανδία/Iirimaa/Irlanti/Irlande/Irska/Írország/Írland/Irlanda/Airija/Īrija/L-
-Irlanda/Ierland/Irlandia/Írsko/Irska 
-Tél/Tel/Tel./Teл./Tlf/Τηλ/Sími/Puh: +353 (0)1 231 4 
-DE: 
-Esteve Pharmaceuticals GmbH 
-Tel.: +49 30 338427-0 </p>
-<p>ES: 
-ESTEVE PHARMACEUTICALS, S.A. 
-Tel: +34 93 446 60<br />
-This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blisters and carton after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Store below 25 C. Store in the original package in order to protect from light and moisture and only 
+remove immediately before use. </p>
+<p>Do not use any capsule that looks crushed, damaged or wet. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

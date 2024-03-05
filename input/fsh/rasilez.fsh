@@ -4,7 +4,7 @@ Instance: composition-en-5723af3498c13864107ed05f36f04f5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasilez Package Leaflet"
 Description:  "Composition for rasilez Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,41 +88,53 @@ blood pressure to a normal level reduces the risk of developing these disorders.
 - if you are allergic to aliskiren or any of the other ingredients of this medicine (listed in 
 section 6). If you think you may be allergic, ask your doctor for advice. 
 - if you have experienced the following forms of angioedema (difficulties in breathing or 
-swallowing, or swelling of the face, hands and feet, eyes, lips and/or tongue): 
-- angioedema when taking aliskiren. 
-- hereditary angioedema. 
-- angioedema without any known cause. 
-- during the last 6 months of pregnancy or if you are breast-feeding, see section “Pregnancy and 
-breastfeeding”. 
-- if you are taking ciclosporin (a medicine used in transplantation to prevent organ rejection or for 
+swallowing, or swelling of the face, hands and feet, eyes, lips and/or tongue):</p>
+<ul>
+<li>angioedema when taking aliskiren. </li>
+<li>hereditary angioedema. </li>
+<li>angioedema without any known cause. </li>
+<li>during the last 6 months of pregnancy or if you are breast-feeding, see section  Pregnancy and 
+breastfeeding . </li>
+<li>if you are taking ciclosporin (a medicine used in transplantation to prevent organ rejection or for 
 other conditions, e.g. rheumatoid arthritis or atopic dermatitis), itraconazole (a medicine used to 
-treat fungal infections) or quinidine (a medicine used to correct heart rhythm). 
-- if you have diabetes or impaired kidney function and you are treated with either of the following 
-classes of medicines used to treat high blood pressure: 
-- an angiotensin converting enzyme inhibitor such as enalapril, lisinopril, ramipril 
-or 
-- an angiotensin II receptor blocker such as valsartan, telmisartan, irbesartan. 
-- if the patient is less than 2 years of age. </p>
+treat fungal infections) or quinidine (a medicine used to correct heart rhythm). </li>
+<li>
+<p>if you have diabetes or impaired kidney function and you are treated with either of the following 
+classes of medicines used to treat high blood pressure:</p>
+</li>
+<li>
+<p>an angiotensin converting enzyme inhibitor such as enalapril, lisinopril, ramipril 
+or </p>
+</li>
+<li>an angiotensin II receptor blocker such as valsartan, telmisartan, irbesartan. </li>
+<li>if the patient is less than 2 years of age. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor before taking Rasilez: 
-- if you are taking a diuretic (a type of medicine also known as “water” tablets which increases 
-the amount of urine you produce). 
-- if you are taking either of the following classes of medicines used to treat high blood pressure: 
-- an angiotensin converting enzyme inhibitor such as enalapril, lisinopril, ramipril 
-or 
-- an angiotensin II receptor blocker such as valsartan, telmisartan, irbesartan. 
-- if you have impaired kidney function, your doctor will carefully consider whether this medicine 
-is suitable for you and may wish to monitor you carefully. 
-- if you have already experienced angioedema (difficulties in breathing or swallowing, or 
+Talk to your doctor before taking Rasilez:</p>
+<ul>
+<li>if you are taking a diuretic (a type of medicine also known as  water  tablets which increases 
+the amount of urine you produce). </li>
+<li>
+<p>if you are taking either of the following classes of medicines used to treat high blood pressure:</p>
+</li>
+<li>
+<p>an angiotensin converting enzyme inhibitor such as enalapril, lisinopril, ramipril 
+or </p>
+</li>
+<li>an angiotensin II receptor blocker such as valsartan, telmisartan, irbesartan. </li>
+<li>if you have impaired kidney function, your doctor will carefully consider whether this medicine 
+is suitable for you and may wish to monitor you carefully. </li>
+<li>if you have already experienced angioedema (difficulties in breathing or swallowing, or 
 swelling of the face, hands and feet, eyes, lips and/or tongue). If this happens, stop taking this 
-medicine and contact your doctor. 
-- if you have renal artery stenosis (narrowing of the blood vessels to one or both kidneys). 
-- if you have serious congestive heart failure (a type of heart disease where the heart cannot pump 
-enough blood around the body). </p>
+medicine and contact your doctor. </li>
+<li>if you have renal artery stenosis (narrowing of the blood vessels to one or both kidneys). </li>
+<li>if you have serious congestive heart failure (a type of heart disease where the heart cannot pump 
+enough blood around the body). </li>
+</ul>
 <p>If you have severe and persistent diarrhoea you should stop taking Rasilez. </p>
 <p>Your doctor may check your kidney function, blood pressure and the amount of electrolytes (e.g. 
 potassium) in your blood at regular intervals. </p>
-<p>See also section “Do not take Rasilez”. </p>
+<p>See also section  Do not take Rasilez . </p>
 <p>Children and adolescents 
 This medicine must not be used in babies from birth to less than 2 years of age. It should not be used 
 in children from 2 to less than 6 years of age, and is not recommended for use in children and 
@@ -136,17 +148,19 @@ benefit in reducing blood pressure compared to the 150 mg dose. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Your doctor may need to change your dose and/or to take other precautions if you are taking one of 
-the following medicines: 
-- medicines that increase the amount of potassium in your blood. These include 
-potassium-sparing diuretics, potassium supplements. 
-- furosemide or torasemide, medicines belonging to the type known as diuretics, or “water” 
-tablets, which are used to increase the amount of urine you produce. 
-- an angiotensin II receptor blocker or an angiotensin converting enzyme inhibitor (see sections 
-“Do not take Rasilez” and “Warnings and precautions”). 
-- ketoconazole, a medicine used to treat fungal infections. 
-- verapamil, a medicine used to lower high blood pressure, to correct heart rhythm or to treat 
-angina pectoris. 
-- certain types of pain killers called non-steroidal anti-inflammatory medicines (NSAIDs). </p>
+the following medicines:</p>
+<ul>
+<li>medicines that increase the amount of potassium in your blood. These include 
+potassium-sparing diuretics, potassium supplements. </li>
+<li>furosemide or torasemide, medicines belonging to the type known as diuretics, or  water<br />
+tablets, which are used to increase the amount of urine you produce. </li>
+<li>an angiotensin II receptor blocker or an angiotensin converting enzyme inhibitor (see sections 
+ Do not take Rasilez  and  Warnings and precautions ). </li>
+<li>ketoconazole, a medicine used to treat fungal infections. </li>
+<li>verapamil, a medicine used to lower high blood pressure, to correct heart rhythm or to treat 
+angina pectoris. </li>
+<li>certain types of pain killers called non-steroidal anti-inflammatory medicines (NSAIDs). </li>
+</ul>
 <p>Rasilez with food and drink 
 You should take this medicine either with a light meal or without a meal once a day, preferably at the 
 same time each day. You should avoid taking this medicine together with fruit juice and/or drinks 
@@ -154,7 +168,7 @@ containing plant extracts (including herbal teas), as it could cause a decrease 
 this medicine. </p>
 <p>Pregnancy and breast-feeding 
 Pregnancy 
-Do not take this medicine if you are pregnant (see section “Do not take Rasilez”). If you become 
+Do not take this medicine if you are pregnant (see section  Do not take Rasilez ). If you become 
 pregnant while taking this medicine, stop taking it immediately and talk to your doctor. If you think 
 you may be pregnant or are planning to have a baby, ask your doctor or pharmacist for advice before 
 taking this medicine. Your doctor will normally advise you to stop taking this medicine before you 
@@ -221,7 +235,7 @@ difficulty breathing, dizziness. </p>
 Common (may affect up to 1 in 10 people): Diarrhoea, joint pain (arthralgia), high level of potassium 
 in the blood, dizziness. 
 Uncommon (may affect up to 1 in 100 people): Skin rash (this may also be a sign of allergic reactions 
-or angioedema – see “Rare” side effects below), kidney problems including acute renal failure 
+or angioedema   see  Rare  side effects below), kidney problems including acute renal failure 
 (severely decreased urine output), swelling of hands, ankles or feet (peripheral oedema), severe skin 
 reactions (toxic epidermal necrolysis and/or oral mucosal reactions - red skin, blistering of the lips, 
 eyes or mouth, skin peeling, fever), low blood pressure, palpitations, cough, itching, itchy rash 
@@ -246,7 +260,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the carton and blister. The expiry date 
 refers to the last day of that month. 
-Do not store above 25°C. 
+Do not store above 25 C. 
 Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -270,20 +284,24 @@ crospovidone type A, hypromellose substitution type 2910 (3 mPa s), magnesium st
 macrogol 4000, microcrystalline cellulose, povidone K-30, colloidal anhydrous silica, talc, 
 titanium dioxide (E 171), black iron oxide (E 172), red iron oxide (E 172). </p>
 <p>What Rasilez looks like and contents of the pack 
-Rasilez 150 mg film-coated tablets are light-pink, biconvex round tablets, imprinted “IL” on one side 
-and “NVR” on the other side. </p>
-<p>Rasilez 300 mg film-coated tablets are light-red, biconvex, ovaloid tablets, imprinted “IU” on one side 
-and “NVR” on the other side. </p>
-<p>Rasilez 150 mg film-coated tablets are available in the following packs: 
-- Unit packs containing 14, 28, 30, 50, 56, 90 or 98 tablets 
-- Unit packs containing 56x1 tablets in perforated unit-dose blisters 
-- Multipacks containing 280 (20x14) tablets 
-- Multipacks containing 98 (2x49x1) tablets in perforated unit-dose blisters </p>
-<p>Rasilez 300 mg film-coated tablets are available in the following packs: 
-- Unit packs containing 14, 28, 30, 50, 56, 90 or 98 tablets 
-- Unit packs containing 56x1 tablets in perforated unit-dose blisters 
-- Multipacks containing 280 (20x14) tablets 
-- Multipacks containing 98 (2x49x1) tablets in perforated unit-dose blisters </p>
+Rasilez 150 mg film-coated tablets are light-pink, biconvex round tablets, imprinted  IL  on one side 
+and  NVR  on the other side. </p>
+<p>Rasilez 300 mg film-coated tablets are light-red, biconvex, ovaloid tablets, imprinted  IU  on one side 
+and  NVR  on the other side. </p>
+<p>Rasilez 150 mg film-coated tablets are available in the following packs:</p>
+<ul>
+<li>Unit packs containing 14, 28, 30, 50, 56, 90 or 98 tablets </li>
+<li>Unit packs containing 56x1 tablets in perforated unit-dose blisters </li>
+<li>Multipacks containing 280 (20x14) tablets </li>
+<li>Multipacks containing 98 (2x49x1) tablets in perforated unit-dose blisters </li>
+</ul>
+<p>Rasilez 300 mg film-coated tablets are available in the following packs:</p>
+<ul>
+<li>Unit packs containing 14, 28, 30, 50, 56, 90 or 98 tablets </li>
+<li>Unit packs containing 56x1 tablets in perforated unit-dose blisters </li>
+<li>Multipacks containing 280 (20x14) tablets </li>
+<li>Multipacks containing 98 (2x49x1) tablets in perforated unit-dose blisters </li>
+</ul>
 <p>Not all pack sizes may be available in your country. </p>
 <p>Marketing Authorisation Holder 
 Noden Pharma DAC 

@@ -4,7 +4,7 @@ Instance: composition-en-f437466fa8717fd769398e5c38fe4716
 InstanceOf: CompositionUvEpi
 Title: "Composition for ambrisentan Package Leaflet"
 Description:  "Composition for ambrisentan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,60 +87,41 @@ This lowers the blood pressure and relieves the symptoms. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ambrisentan"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ambrisentan Mylan: 
-– 
-if you are allergic to ambrisentan or any of the other ingredients of this medicine (listed in 
-section 6). 
-– 
-if you are pregnant, if you are planning to become pregnant, or if you could become 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ambrisentan Mylan: </p>
+<p>if you are allergic to ambrisentan or any of the other ingredients of this medicine (listed in 
+section 6). </p>
+<p>if you are pregnant, if you are planning to become pregnant, or if you could become 
 pregnant because you are not using reliable birth control (contraception). Please read the 
-information under ‘Pregnancy’ 
-– 
-if you are breast feeding. Read the information under ‘Breast-feeding’ 
-– 
-if you have liver disease. Talk to your doctor, who will decide whether this medicine is suitable 
-for you 
-– 
-if you have scarring of the lungs, of unknown cause (idiopathic pulmonary fibrosis). </p>
+information under  Pregnancy  </p>
+<p>if you are breast feeding. Read the information under  Breast-feeding  </p>
+<p>if you have liver disease. Talk to your doctor, who will decide whether this medicine is suitable 
+for you </p>
+<p>if you have scarring of the lungs, of unknown cause (idiopathic pulmonary fibrosis). </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor, pharmacist or nurse before taking this medicine if you have: 
- 
-liver problems 
- 
-anaemia (a reduced number of red blood cells) 
- 
-swelling in the hands, ankles or feet caused by fluid (peripheral oedema) 
- 
-lung disease where the veins in the lungs are blocked (pulmonary veno-occlusive disease). </p>
+<p>Talk to your doctor, pharmacist or nurse before taking this medicine if you have: </p>
+<p>liver problems </p>
+<p>anaemia (a reduced number of red blood cells) </p>
+<p>swelling in the hands, ankles or feet caused by fluid (peripheral oedema) </p>
+<p>lung disease where the veins in the lungs are blocked (pulmonary veno-occlusive disease). </p>
 <p>Your doctor will decide whether Ambrisentan Mylan is suitable for you. </p>
 <p>You will need regular blood tests 
-Before you start taking Ambrisentan Mylan, and at regular intervals while you’re taking it, your doctor 
+Before you start taking Ambrisentan Mylan, and at regular intervals while you re taking it, your doctor 
 will take blood tests to check: </p>
-<p> 
-whether you have anaemia 
- 
-whether your liver is working properly. </p>
-<p>→ It is important that you have these regular blood tests for as long as you are taking Ambrisentan 
+<p>whether you have anaemia </p>
+<p>whether your liver is working properly. </p>
+<p>It is important that you have these regular blood tests for as long as you are taking Ambrisentan 
 Mylan. </p>
 <p>Signs that your liver may not be working properly include: </p>
-<p> 
-loss of appetite 
- 
-feeling sick (nausea) 
- 
-being sick (vomiting) 
- 
-high temperature (fever) 
- 
-pain in your stomach (abdomen) 
- 
-yellowing of your skin or the whites of your eyes (jaundice) 
- 
-dark-coloured urine 
- 
-itching of your skin. </p>
+<p>loss of appetite </p>
+<p>feeling sick (nausea) </p>
+<p>being sick (vomiting) </p>
+<p>high temperature (fever) </p>
+<p>pain in your stomach (abdomen) </p>
+<p>yellowing of your skin or the whites of your eyes (jaundice) </p>
+<p>dark-coloured urine </p>
+<p>itching of your skin. </p>
 <p>If you notice any of these signs: </p>
-<p>→ Tell your doctor immediately. </p>
+<p>Tell your doctor immediately. </p>
 <p>Children and adolescents </p>
 <p>Ambrisentan Mylan is not recommended for children and adolescents aged under 18 years as the 
 safety and effectiveness is not known in this age group. </p>
@@ -148,23 +129,23 @@ safety and effectiveness is not known in this age group. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. </p>
 <p>Your doctor may need to adjust your dose of Ambrisentan Mylan if you start taking cyclosporine A (a 
 medicine used after transplant or to treat psoriasis). </p>
-<p>If you’re taking rifampicin (an antibiotic used to treat serious infections) your doctor will monitor you 
+<p>If you re taking rifampicin (an antibiotic used to treat serious infections) your doctor will monitor you 
 when you first start taking Ambrisentan Mylan. </p>
-<p>If you’re taking other medicines used to treat PAH (e.g. iloprost, epoprostenol, sildenafil) your doctor 
+<p>If you re taking other medicines used to treat PAH (e.g. iloprost, epoprostenol, sildenafil) your doctor 
 may need to monitor you. </p>
-<p>→ Tell your doctor or pharmacist if you are taking any of these medicines. </p>
+<p>Tell your doctor or pharmacist if you are taking any of these medicines. </p>
 <p>Pregnancy </p>
 <p>Ambrisentan Mylan may harm unborn babies conceived before, during or soon after treatment. </p>
-<p>→ If it is possible you could become pregnant, use a reliable form of birth control (contraception) 
-while you’re taking Ambrisentan Mylan. Talk to your doctor about this. </p>
-<p>→ Don’t take Ambrisentan Mylan if you are pregnant or planning to become pregnant. </p>
-<p>→ If you become pregnant or think that you may be pregnant while you’re taking Ambrisentan 
+<p>If it is possible you could become pregnant, use a reliable form of birth control (contraception) 
+while you re taking Ambrisentan Mylan. Talk to your doctor about this. </p>
+<p>Don t take Ambrisentan Mylan if you are pregnant or planning to become pregnant. </p>
+<p>If you become pregnant or think that you may be pregnant while you re taking Ambrisentan 
 Mylan, see your doctor immediately. </p>
 <p>If you are a woman who could become pregnant, your doctor will ask you to take a pregnancy 
 test before you start taking Ambrisentan Mylan and regularly while you are taking this medicine. </p>
 <p>Breast-feeding </p>
 <p>It is not known if Ambrisentan Mylan is transferred to breast milk. </p>
-<p>→ Don’t breast-feed while you’re taking Ambrisentan Mylan. Talk to your doctor about this. </p>
+<p>Don t breast-feed while you re taking Ambrisentan Mylan. Talk to your doctor about this. </p>
 <p>Fertility </p>
 <p>If you are a man taking Ambrisentan Mylan, it is possible that this medicine may lower your sperm 
 count. Talk to your doctor if you have any questions or concerns about this. </p>
@@ -172,15 +153,15 @@ count. Talk to your doctor if you have any questions or concerns about this. </p
 <p>Ambrisentan Mylan may cause side effects, such as low blood pressure, dizziness, tiredness (see 
 section 4), that may affect your ability to drive or use machines. The symptoms of your condition can 
 also make you less fit to drive or use machines. </p>
-<p>→ Don’t drive or use machines if you’re feeling unwell. </p>
+<p>Don t drive or use machines if you re feeling unwell. </p>
 <p>Ambrisentan Mylan tablets contains lactose and Allura red (E129) </p>
 <p>Ambrisentan Mylan tablets contain small amounts of a sugar called lactose. If you have been told by 
 your doctor that you have an intolerance to some sugars: </p>
-<p>→ Contact your doctor before taking this medicinal product. </p>
+<p>Contact your doctor before taking this medicinal product. </p>
 <p>Ambrisentan Mylan tablets contain a colouring agent called Allura red AC Aluminium Lake (E129) 
 which may cause allergic reactions. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ambrisentan"
@@ -199,14 +180,14 @@ do not split, crush or chew the tablet. You can take Ambrisentan Mylan with or w
 <p>If you take more Ambrisentan Mylan than you should 
 If you take too many tablets you may be more likely to have side effects, such as headache, flushing, 
 dizziness, nausea (feeling sick), or low blood pressure that could cause light-headedness: </p>
-<p>→ Ask your doctor or pharmacist for advice if you take more tablets than prescribed. </p>
+<p>Ask your doctor or pharmacist for advice if you take more tablets than prescribed. </p>
 <p>If you forget to take Ambrisentan Mylan 
 If you forget a dose of Ambrisentan Mylan, just take the tablet as soon as you remember, then carry on 
 as before. </p>
-<p>→ Don’t take two doses at the same time to make up for a forgotten dose </p>
-<p>Don’t stop taking Ambrisentan Mylan without your doctor’s advice 
+<p>Don t take two doses at the same time to make up for a forgotten dose </p>
+<p>Don t stop taking Ambrisentan Mylan without your doctor s advice 
 Ambrisentan Mylan is a treatment that you will need to keep on taking to control your PAH. </p>
-<p>→Don’t stop taking Ambrisentan Mylan unless you have agreed this with your doctor. </p>
+<p>Don t stop taking Ambrisentan Mylan unless you have agreed this with your doctor. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -232,73 +213,46 @@ feeling unwell. Sometimes this requires a blood transfusion. This is a very comm
 may affect more than one in 10 people </p>
 <p>Hypotension (low blood pressure) </p>
 <p>This can cause light-headedness. This is a common side effect that may affect up to one in 10 people. </p>
-<p>→ Tell your doctor straight away if you get these effects or if they happen suddenly after taking 
+<p>Tell your doctor straight away if you get these effects or if they happen suddenly after taking 
 Ambrisentan Mylan. </p>
 <p>It is important to have regular blood tests, to check for anaemia and that your liver is working 
-properly. Make sure that you have also read the information in section 2 under ‘You will need 
-regular blood tests’ and ‘Signs that your liver may not be working properly’. </p>
+properly. Make sure that you have also read the information in section 2 under  You will need 
+regular blood tests  and  Signs that your liver may not be working properly . </p>
 <p>Other side effects include </p>
 <p>Very common side effects: </p>
-<p> 
-headache 
- 
-dizziness 
- 
-palpitations (fast or irregular heart-beats) 
- 
-worsening shortness of breath shortly after starting Ambrisentan Mylan 
- 
-a runny or blocked nose, congestion or pain in the sinuses 
- 
-feeling sick (nausea) 
- 
-diarrhoea 
- 
-feeling tired </p>
+<p>headache </p>
+<p>dizziness </p>
+<p>palpitations (fast or irregular heart-beats) </p>
+<p>worsening shortness of breath shortly after starting Ambrisentan Mylan </p>
+<p>a runny or blocked nose, congestion or pain in the sinuses </p>
+<p>feeling sick (nausea) </p>
+<p>diarrhoea </p>
+<p>feeling tired </p>
 <p>In combination with tadalafil (another PAH medicine) in addition to the above: </p>
-<p> 
-flushing (redness of the skin) 
- 
-being sick (vomiting) 
- 
-chest pain/discomfort. </p>
+<p>flushing (redness of the skin) </p>
+<p>being sick (vomiting) </p>
+<p>chest pain/discomfort. </p>
 <p>Common side effects: </p>
-<p> 
-blurry or other changes to vision 
- 
-fainting 
- 
-abnormal blood test results for liver function 
- 
-a runny nose 
- 
-constipation 
- 
-pain in your stomach (abdomen) 
- 
-chest pain or discomfort 
- 
-flushing (redness of the skin) 
- 
-being sick (vomiting) 
- 
-feeling weak 
- 
-nose bleed 
- 
-rash </p>
+<p>blurry or other changes to vision </p>
+<p>fainting </p>
+<p>abnormal blood test results for liver function </p>
+<p>a runny nose </p>
+<p>constipation </p>
+<p>pain in your stomach (abdomen) </p>
+<p>chest pain or discomfort </p>
+<p>flushing (redness of the skin) </p>
+<p>being sick (vomiting) </p>
+<p>feeling weak </p>
+<p>nose bleed </p>
+<p>rash </p>
 <p>In combination with tadalafil </p>
-<p>In addition to the above, except abnormal blood test results for liver function: 
- 
-ringing in the ears (tinnitus) only when taking the combination treatment. </p>
+<p>In addition to the above, except abnormal blood test results for liver function: </p>
+<p>ringing in the ears (tinnitus) only when taking the combination treatment. </p>
 <p>Uncommon side effects: </p>
-<p> 
-liver injury 
- 
-inflammation of the liver caused by the body’s own defences (autoimmune hepatitis) </p>
+<p>liver injury </p>
+<p>inflammation of the liver caused by the body s own defences (autoimmune hepatitis) </p>
 <p>In combination with tadalafil </p>
-<p> 
-sudden hearing loss. </p>
+<p>sudden hearing loss. </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -325,15 +279,15 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ambrisentan Mylan contains </p>
 <p>The active substance is ambrisentan. 
 Each film-coated tablet contains 5 mg or 10 mg. </p>
-<p>The other ingredients are lactose, see section 2, ‘Ambrisentan Mylan contains lactose’, 
+<p>The other ingredients are lactose, see section 2,  Ambrisentan Mylan contains lactose , 
 microcrystalline cellulose (E460i), sodium croscarmellose, magnesium stearate (E570), polyvinyl 
 alcohol part hydrolysed, titanium dioxide (E171), macrogol/PEG, talc (E553b), Allura red (E129), see 
-section 2 ‘Ambrisentan Mylan contains Allura red (E129)’, Indigo carmine (E132) </p>
+section 2  Ambrisentan Mylan contains Allura red (E129) , Indigo carmine (E132) </p>
 <p>What Ambrisentan Mylan looks like and contents of the pack </p>
-<p>Ambrisentan Mylan 5 mg film-coated tablet (tablet) is a pink round biconvex tablet engraved with ‘M’ 
-on one side and ‘AN’ on the other side. </p>
+<p>Ambrisentan Mylan 5 mg film-coated tablet (tablet) is a pink round biconvex tablet engraved with  M<br />
+on one side and  AN  on the other side. </p>
 <p>Ambrisentan Mylan 10 mg film-coated tablet (tablet) is a pink, capsule shaped tablet engraved with 
-‘M’ on one side of the tablet and ‘AN1’ on the other side. </p>
+ M  on one side of the tablet and  AN1  on the other side. </p>
 <p>Ambrisentan Mylan is supplied as 5 mg and 10 mg film-coated tablets in packs of 30 tablets and unit 
 dose blister packs of 30x1 tablets or 60 x1 tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -348,24 +302,23 @@ Ireland </p>
 Dublin 13, Ireland </p>
 <p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d., Hoeh, Benzstrasse 1, 61352 Bad 
 Homburg v. d. Hoehe, Germany </p>
-<p>Mylan Hungary Kft, Mylan utca 1, 2900 Komárom, Hungary </p>
+<p>Mylan Hungary Kft, Mylan utca 1, 2900 Kom rom, Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB<br />
-Tel: +370 5 205 1България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
+Tel: +370 5 205 1  </p>
+<p>: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
 Viatris CZ s.r.o. 
 Tel: + 420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft. 
 Tel.: + 36 1 465 2Danmark 
 Viatris ApS 
@@ -382,22 +335,21 @@ BGP Products Switzerland GmbH Eesti filiaal
 Tel: + 372 6363<br />
 Norge 
 Viatris AS<br />
-Tlf: + 47 66 75 33 00<br />
-Ελλάδα 
-Generics Pharma Hellas ΕΠΕ 
-Τηλ: +30 210 993 6 
-Österreich 
+Tlf: + 47 66 75 33 00  </p>
+<p>Generics Pharma Hellas <br />
+ : +30 210 993 6 
+ sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U.<br />
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z.o.o. 
 Tel.: + 48 22 546 64<br />
 France 
-Viatris Santé 
-Tél : +33 4 37 25 75<br />
+Viatris Sant<br />
+T l : +33 4 37 25 75<br />
 Portugal 
 Mylan, Lda. 
 Tel: + 351 214 127  </p>
@@ -406,16 +358,16 @@ Viatris Hrvatska d.o.o.
 Tel: +385 1 23 50<br />
 Ireland 
 Mylan Ireland Limited 
-Tel:  +353 1 8711România 
+Tel:  +353 1 8711Rom nia 
 BGP Products SRL 
 Tel: +40 372 579 000  </p>
 <p>Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 </p>
-<p>Slovenská republika 
+S mi: +354 540 8 </p>
+<p>Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199<br />
 Italia 
@@ -423,9 +375,9 @@ Mylan Italia S.r.l.
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9Κύπρος 
+Puh/Tel: +358 20 720 9<br />
 Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7 
+ : +357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: +46 (0)8 630 19 00<br />

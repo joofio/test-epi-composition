@@ -4,7 +4,7 @@ Instance: composition-en-a2f0520006a5864136cdf3a6777cfd07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mekinist Package Leaflet"
 Description:  "Composition for mekinist Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -128,11 +128,11 @@ can lead to death. Symptoms may include:
 Taking Mekinist or the combination of Mekinist and dabrafenib may cause fever, although it is more 
 likely if you are taking the combination treatment (see also section 4). In some cases, people with 
 fever may develop low blood pressure, dizziness or other symptoms. 
-Tell your doctor immediately if you get a temperature above 38ºC or if you feel a fever coming on 
+Tell your doctor immediately if you get a temperature above 38 C or if you feel a fever coming on 
 while you are taking this medicine. </p>
 <p>Heart disorder 
-Mekinist can cause heart problems, or make existing heart problems worse (see also “Heart 
-conditions” in section 4) in people taking Mekinist in combination with dabrafenib. 
+Mekinist can cause heart problems, or make existing heart problems worse (see also  Heart 
+conditions  in section 4) in people taking Mekinist in combination with dabrafenib. 
 Tell your doctor if you have a heart disorder. Your doctor will run tests to check that your heart is 
 working properly before and during your treatment with this medicine. Tell your doctor immediately if 
 it feels like your heart is pounding, racing, or beating irregularly, or if you experience dizziness, 
@@ -173,8 +173,7 @@ possible if you get any of these symptoms:
 * muscle pain 
 * dark urine due to kidney damage </p>
 <p>If necessary, your doctor may decide to interrupt your treatment or to stop it altogether. </p>
-<p>→ 
-Read the information “Possible serious side effects” in section 4 of this leaflet. </p>
+<p>Read the information  Possible serious side effects  in section 4 of this leaflet. </p>
 <p>Hole in the stomach or intestine (perforation) 
 Taking Mekinist or the combination of Mekinist and dabrafenib may increase the risk of developing 
 holes in the gut wall. Tell your doctor as soon as possible if you have severe abdominal pain. </p>
@@ -221,7 +220,7 @@ It is not known whether the ingredients of Mekinist can pass into breast milk.
 If you are breast-feeding, or planning to breast-feed, you must tell your doctor. It is recommended that 
 you do not breast-feed while you are taking Mekinist. You and your doctor will decide whether you 
 will take Mekinist or breast-feed. </p>
-<p>Fertility – both men and women 
+<p>Fertility   both men and women 
 Mekinist may impair fertility in both men and women. </p>
 <p>Taking Mekinist with dabrafenib: Dabrafenib may permanently reduce male fertility. In addition, men 
 who are taking dabrafenib may have a reduced sperm count, and their sperm count may not return to 
@@ -239,8 +238,8 @@ information in this leaflet for guidance.
 Discuss with your doctor, nurse or pharmacist if you are unsure about anything. Your disease<br />
 symptoms and treatment situation may also affect your ability to drive or use machines. </p>
 <p>Mekinist contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mekinist"
@@ -254,7 +253,7 @@ The usual dose of Mekinist either used alone or in combination with dabrafenib i
 once a day. The recommended dose of dabrafenib, when used in combination with Mekinist, is 150 mg 
 twice daily. </p>
 <p>Your doctor may decide to lower the dose if you get side effects. </p>
-<p>Don’t take more Mekinist than your doctor has recommended, since this may increase the risk of 
+<p>Don t take more Mekinist than your doctor has recommended, since this may increase the risk of 
 side effects. </p>
 <p>How to take it 
 Swallow the tablet whole, with a full glass of water. 
@@ -285,11 +284,9 @@ should be about 12 hours apart.
 * Take Mekinist and dabrafenib on an empty stomach, at least one hour before or two hours after 
 a meal. Take whole with a full glass of water. 
 * If you miss a dose of Mekinist or dabrafenib, take it as soon as you remember: Do not make up 
-for missed doses and just take your next dose at your regular time: 
-o 
+for missed doses and just take your next dose at your regular time: * 
 If it is less than 12 hours to your next scheduled dose of Mekinist, which is taken once 
-daily. 
-o 
+daily. * 
 If it is less than 6 hours to your next scheduled dose of dabrafenib, which is taken twice 
 daily. 
 * If you take too much Mekinist or dabrafenib, immediately contact your doctor, nurse or 
@@ -329,7 +326,7 @@ Mekinist can cause serious bleeding problems, especially in your brain or stomac
 nurse and get medical help right away if you have any unusual signs of bleeding, including: 
 * headaches, dizziness, or weakness 
 * coughing up of blood or blood clots 
-* vomit containing blood or that looks like “coffee grounds” 
+* vomit containing blood or that looks like  coffee grounds<br />
 * red or black stools that look like tar </p>
 <p>Eye (vision) problems 
 Mekinist can cause eye problems. Mekinist is not recommended if you have ever had a blockage of the 
@@ -348,9 +345,8 @@ Serious skin reactions have been reported in people taking Mekinist in combinati
 peeling. Ulcers of mouth, throat, nose, genitals and eyes. These serious skin rashes can be 
 preceded by fever and flu-like symptoms (Stevens-Johnson syndrome). 
 * widespread rash, fever, and enlarged lymph nodes (DRESS-syndrome or drug hypersensitivity 
-syndrome). 
-➔ 
-stop using the medicine and seek medical attention immediately </p>
+syndrome). </p>
+<p>stop using the medicine and seek medical attention immediately </p>
 <p>Up to 3 in 100 people taking Mekinist in combination with dabrafenib may develop a different type of 
 skin cancer called cutaneous squamous cell carcinoma (cuSCC). Others may develop a type of skin 
 cancer called basal cell carcinoma (BCC). Usually, these skin changes remain local and can be 
@@ -368,7 +364,7 @@ to detect if any other cancer, including squamous cell carcinoma, develops insid
 examinations (for women) and anal examinations are also recommended before and at the end of your 
 treatment. </p>
 <p>Mekinist as monotherapy or in combination with dabrafenib can cause rash or acne-like rash. Follow 
-your doctor’s instructions for what to do to help prevent rash. Tell your doctor or nurse as soon as 
+your doctor s instructions for what to do to help prevent rash. Tell your doctor or nurse as soon as 
 possible if you get any of these symptoms for the first time or if they get worse. 
 Contact your doctor immediately if you get a severe skin rash with any of the following symptoms: 
 blisters on your skin, blisters or sores in your mouth, peeling of your skin, fever, redness or swelling of 
@@ -403,8 +399,8 @@ symptoms (called haemophagocytic lymphohistiocytosis), see section 2 (frequency 
 * Constipation 
 * Stomach ache 
 * Dry mouth 
-* Skin rash, acne-like rash, redness of the face, dry or itching skin (see also “Changes in your 
-skin” earlier in section 4) 
+* Skin rash, acne-like rash, redness of the face, dry or itching skin (see also  Changes in your 
+skin  earlier in section 4) 
 * Unusual hair loss or thinning 
 * Lack of energy or feeling weak or tired 
 * Swelling of the hands or feet (oedema peripheral) 
@@ -415,14 +411,14 @@ skin” earlier in section 4)
 * Inflammation of hair follicles in the skin 
 * Nail disorders such as nail bed changes, nail pain, infection and swelling of the cuticles 
 * Infection of the skin (cellulitis) 
-* Skin rash with pus-filled blisters (see also “Changes in your skin” earlier in section 4) 
+* Skin rash with pus-filled blisters (see also  Changes in your skin  earlier in section 4) 
 * Allergic reaction (hypersensitivity) 
 * Dehydration (low levels of water or fluid) 
 * Blurred vision 
 * Swelling around the eyes 
-* Eyesight problems (see also “Eye (vision) problems” earlier in section 4) 
-* Changes in how the heart pumps blood (left ventricular dysfunction) (see also “Heart 
-conditions” earlier in section 4) 
+* Eyesight problems (see also  Eye (vision) problems  earlier in section 4) 
+* Changes in how the heart pumps blood (left ventricular dysfunction) (see also  Heart 
+conditions  earlier in section 4) 
 * Heart rate that is lower than the normal range and/or a decrease in heart rate 
 * Localised tissue swelling 
 * Inflammation of the lung (pneumonitis or interstitial lung disease) 
@@ -436,13 +432,13 @@ conditions” earlier in section 4)
 * Decreased red blood cells (anaemia), abnormal test related to creatine phosphokinase, an 
 enzyme found mainly in heart, brain, and skeletal muscle </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people): 
-* Swelling in the eye caused by fluid leakage (chorioretinopathy) (see also “Eye (vision) 
-problems” earlier in section 4) 
-* Swelling of nerves at the back of the eye (papilloedema) (see also “Eye (vision) problems” 
+* Swelling in the eye caused by fluid leakage (chorioretinopathy) (see also  Eye (vision) 
+problems  earlier in section 4) 
+* Swelling of nerves at the back of the eye (papilloedema) (see also  Eye (vision) problems<br />
 earlier in section 4) 
 * Separation of the light-sensitive membrane in the back of the eye (the retina) from its supporting 
-layers (retinal detachment) (see also “Eye (vision) problems” earlier in section 4). 
-* Blockage of the vein draining the eye (retinal vein occlusion) (see also “Eye (vision) problems” 
+layers (retinal detachment) (see also  Eye (vision) problems  earlier in section 4). 
+* Blockage of the vein draining the eye (retinal vein occlusion) (see also  Eye (vision) problems<br />
 earlier in section 4) 
 * Heart pumping less efficiently, causing shortness of breath, extreme tiredness and swelling in 
 ankles and legs (heart failure) 
@@ -490,7 +486,7 @@ follows: </p>
 nail disorders such as nail bed changes, nail pain, infection and swelling of the cuticles, skin 
 rash with pus-filled blisters, cutaneous squamous cell carcinoma (a type of skin cancer), 
 papilloma (a type of skin tumour which is usually not harmful), wart-like growths, increased 
-sensitivity of the skin to sun (see also “Changes in your skin” earlier in section 4) 
+sensitivity of the skin to sun (see also  Changes in your skin  earlier in section 4) 
 * Dehydration (low levels of water or fluid) 
 * Blurred vision, eyesight problems, inflammation of the eye (uveitis) 
 * Heart pumping less efficiently 
@@ -553,7 +549,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special temperature storage conditions. 
 Store in the original package in order to protect from light and moisture. 
 Keep the bottle tightly closed with the dessicant inside (small cylinder shaped container). 
-Once opened, the bottle may be stored for 30 days at not more than 30°C. 
+Once opened, the bottle may be stored for 30 days at not more than 30 C. 
 Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw 
 away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -575,9 +571,9 @@ oxide yellow (E172) (for 0.5 mg tablets), polysorbate 80 (E433) and iron oxide r
 (E172) (for 2 mg tablets). </p>
 <p>What Mekinist looks like and contents of the pack 
 The Mekinist 0.5 mg film-coated tablets are yellow, modified oval, biconvex, with the company logo 
-debossed on one face and “TT” on the opposing face. </p>
+debossed on one face and  TT  on the opposing face. </p>
 <p>The Mekinist 2 mg film-coated tablets are pink, round, biconvex, with the company logo debossed on 
-one face and “LL” on the opposing face. </p>
+one face and  LL  on the opposing face. </p>
 <p>The film-coated tablets are supplied in opaque white plastic bottles with threaded plastic closures. One 
 bottle contains either 7 or 30 tablets. </p>
 <p>The bottles also include a silica gel desiccant in a small cylinder shaped container. The desiccant must 
@@ -593,7 +589,7 @@ Lek Pharmaceuticals d.d.
 Verovskova ulica 1526, Ljubljana 
 Slovenia </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>Glaxo Wellcome, S.A. 
 Avda. Extremadura, 3 
@@ -602,23 +598,22 @@ Burgos
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -634,35 +629,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -670,10 +665,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

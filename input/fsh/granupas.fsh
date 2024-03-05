@@ -4,7 +4,7 @@ Instance: composition-en-eb144117bf1832a81a0b81022c43f19d
 InstanceOf: CompositionUvEpi
 Title: "Composition for granupas Package Leaflet"
 Description:  "Composition for granupas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,7 +109,7 @@ your doctor or pharmacist for advice before taking this medicine.
 GRANUPAS is not recommended during pregnancy and should only be used if advised by your 
 physician. 
 Do not breastfeed whilst taking GRANUPAS. This is because small amounts of the medicine can 
-pass into mother’s milk. </p>
+pass into mother s milk. </p>
 <p>Driving and using machines 
 GRANUPAS is unlikely to affect your ability to drive any vehicle and use machines. 
 In case it does, please report it to your doctor or pharmacist. </p>         </div>"""   
@@ -131,16 +131,13 @@ Do not take more than 3 sachets per day. Treatment is usually given for two year
 <li>If some granules are left in the glass, add some more juice and drink straight away. </li>
 </ul>
 <p>Use in infants, children and adolescents 
-The dose in infants, children and adolescents will be calculated by your doctor based on the patient’s 
+The dose in infants, children and adolescents will be calculated by your doctor based on the patient s 
 body weight. The recommended total dose per day is 150 mg for each kg of body weight. This daily 
 amount is divided into two doses spread out through the day. </p>
 <ul>
 <li>Use the spoon that comes with the medicine to measure the dose. </li>
-<li>To measure the dose: 
-o Lines on the spoon indicate the amount (in milligrams of para-aminosalicylic acid). 
-Take the correct amount as prescribed by your doctor. 
-o Put granules directly into the spoon. 
-o Tap the spoon once on a table to give a horizontal level of granules and 
+<li>To measure the dose: * Lines on the spoon indicate the amount (in milligrams of para-aminosalicylic acid). 
+Take the correct amount as prescribed by your doctor. * Put granules directly into the spoon. * Tap the spoon once on a table to give a horizontal level of granules and 
 continue filling if necessary. </li>
 <li>Sprinkle the granules onto apple sauce or yogurt. </li>
 <li>Make your child eat it straight away. </li>
@@ -226,7 +223,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and sachet after EXP. The 
 expiry date refers to the last day of the month. </p>
-<p>Do not store above 25°C. The sachets can be stored below 25°C up to 24 hours after opening. </p>
+<p>Do not store above 25 C. The sachets can be stored below 25 C up to 24 hours after opening. </p>
 <p>Do not use this medicine if you notice the sachets are swollen or if the granules are dark brown or 
 purple. </p>
 <p>Do not throw away any medicines via wastewater or household waste.<br />
@@ -242,7 +239,7 @@ protect the environment. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What GRANUPAS contains<br />
 The active substance is para-aminosalicylic acid. 
 Each sachet of gastro-resistant granules contains 4 g of para-aminosalicylic acid. 
-The other ingredients are silica, colloidal hydrated, dibutyl sebacate, methacrylic acid – ethyl acrylate 
+The other ingredients are silica, colloidal hydrated, dibutyl sebacate, methacrylic acid   ethyl acrylate 
 copolymer (1:1) dispersion 30 per cent, hypromellose, cellulose, microcrystalline, talc. </p>
 <p>What GRANUPAS looks like and contents of the pack 
 This medicine is presented as light brown gastro-resistant granules in sachets.<br />
@@ -259,22 +256,21 @@ Trapgans 5 </p>
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Lucane Pharma 
-Tél/Tel: + 33 153 868 info@lucanepharma.com 
+T l/Tel: + 33 153 868 info@lucanepharma.com 
 Lietuva<br />
 Lucane Pharma 
-Tel: + 33 153 868 info@lucanepharma.com 
-България 
-Lucane Pharma 
-Teл.: + 33 153 868 info@lucanepharma.com 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Lucane Pharma 
+Te .: + 33 153 868 info@lucanepharma.com 
 Luxembourg/Luxemburg 
 Lucane Pharma 
-Tél/Tel: + 33 153 868 info@lucanepharma.com 
-Česká republika 
+T l/Tel: + 33 153 868 info@lucanepharma.com 
+ esk  republika 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
-Magyarország 
+Magyarorsz g 
 Lucane Pharma 
                  Tel.: + 33 153 868 info@lucanepharma.com 
 Danmark 
@@ -295,13 +291,12 @@ Tel: + 33 153 868 info@lucanepharma.com
 Norge 
 Lucane Pharma 
 Tlf: + 33 153 868 info@lucanepharma.com </p>
-<p>Ελλάδα 
-Lucane Pharma 
-Τηλ: + 33 153 868 info@lucanepharma.com 
-Österreich 
+<p>Lucane Pharma 
+ : + 33 153 868 info@lucanepharma.com 
+ sterreich 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
-España 
+Espa a 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Polska 
@@ -309,14 +304,14 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 Tel.: + 33 153 868 info@lucanepharma.com 
 France 
 Lucane Pharma 
-Tél: + 33 153 868 info@lucanepharma.com 
+T l: + 33 153 868 info@lucanepharma.com 
 Portugal 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
 Hrvatska 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
-România 
+Rom nia 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Ireland 
@@ -325,10 +320,10 @@ Tel: + 33 153 868 info@lucanepharma.com
 Slovenija 
                   Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 
-Ísland 
+ sland 
 Lucane Pharma 
-Sími: + 33 153 868 info@lucanepharma.com 
-Slovenská republika<br />
+S mi: + 33 153 868 info@lucanepharma.com 
+Slovensk  republika<br />
                       Lucane Pharma 
     Tel: + 33 153 868 info@lucanepharma.com 
 Italia 
@@ -337,9 +332,8 @@ Tel: + 33 153 868 info@lucanepharma.com
 Suomi/Finland 
 Lucane Pharma 
 Puh/Tel: + 33 153 868 info@lucanepharma.com </p>
-<p>Κύπρος 
-Lucane Pharma 
-Τηλ: + 33 153 868 info@lucanepharma.com 
+<p>Lucane Pharma 
+ : + 33 153 868 info@lucanepharma.com 
 Sverige 
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com 

@@ -4,7 +4,7 @@ Instance: composition-en-fa9d30a0cae60aa39e101b95ccee3379
 InstanceOf: CompositionUvEpi
 Title: "Composition for dovprela Package Leaflet"
 Description:  "Composition for dovprela Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,8 +89,8 @@ It is used in adults 18 years and over. </p>         </div>"""
 <li>if you are allergic to pretomanid, antibiotics of the group called nitroimidazoles, or any of the 
 other ingredients of this medicine (listed in section 6) </li>
 </ul>
-<p>Since pretomanid must be used in combination with other medicines against tuberculosis – linezolid 
-and bedaquiline – please make sure that you read the “Do not take” section of the package leaflets for 
+<p>Since pretomanid must be used in combination with other medicines against tuberculosis   linezolid 
+and bedaquiline   please make sure that you read the  Do not take  section of the package leaflets for 
 these medicines as well. If you are unsure of any information in the package leaflets, please contact 
 your doctor or pharmacist. </p>
 <p>Warnings and precautions  </p>
@@ -153,7 +153,7 @@ immediately about these:
 other infections 
 * efavirenz, etravirine: medicines to treat HIV infection 
 * carbamazepine, phenytoin: medicines to treat epilepsy and certain pain conditions 
-* St John’s wort: a herbal medicine to treat depression and anxiety </p>
+* St John s wort: a herbal medicine to treat depression and anxiety </p>
 <p>You should also avoid the use of medicines that may have a damaging effect on your liver (other than 
 bedaquiline and linezolid). Talk to you doctor who will be able to tell you which medicines this 
 applies to. </p>
@@ -184,8 +184,8 @@ drive or operate machinery if this happens. </p>
 <p>Dovprela contains lactose and sodium </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dovprela"
@@ -220,7 +220,7 @@ treatment. Doses of linezolid missed due to linezolid adverse reactions are not 
 made up. Talk to your doctor or pharmacist if you have missed a dose and you are not sure what to do. </p>
 <p>If you stop taking Dovprela </p>
 <p>Do not stop taking Dovprela or its combination medicines linezolid or bedaquiline without your 
-doctor’s permission. Skipping doses or not completing the full course of therapy may make treatment 
+doctor s permission. Skipping doses or not completing the full course of therapy may make treatment 
 ineffective and your tuberculosis could get worse. In addition, this would increase the chance that 
 bacteria become resistant to these medicines. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
@@ -272,10 +272,9 @@ patches
 * irritation or pain of the eye, dry eye, vision problems 
 * optic nerve damage and/or inflammation with swellings and visual disturbances 
 * abnormal electrical activity of the heart (prolonged electrocardiogram QT interval) 
-* increased blood levels: 
-- amylase 
--<br />
-bilirubin, which is the yellow breakdown substance of the blood pigment 
+* increased blood levels:</p>
+<h2>- amylase</h2>
+<p>bilirubin, which is the yellow breakdown substance of the blood pigment 
 - lipase 
 - alkaline phosphatase 
 -<br />
@@ -315,9 +314,11 @@ tongue </li>
 <p>decreased calcium blood level </p>
 </li>
 <li>
-<p>increased blood levels: </p>
+<p>increased blood levels:</p>
 </li>
-<li>creatine phosphokinase isoenzyme (MB) </li>
+<li>
+<p>creatine phosphokinase isoenzyme (MB) </p>
+</li>
 <li>uric acid </li>
 </ul>
 <p>Reporting of side effects </p>
@@ -333,7 +334,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, bottle or blister after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. </p>
 <p>Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements. </p>         </div>"""      
@@ -351,10 +352,10 @@ requirements. </p>         </div>"""
 glycolate, magnesium stearate, silica colloidal, sodium lauryl sulphate, povidone. </li>
 </ul>
 <p>What Dovprela looks like and contents of the pack </p>
-<p>Dovprela is a white to off-white oval tablet with “M” debossed on one side and “P200” on the other 
-side. Tablet dimensions: 18 × 9 mm. </p>
+<p>Dovprela is a white to off-white oval tablet with  M  debossed on one side and  P200  on the other 
+side. Tablet dimensions: 18   9 mm. </p>
 <p>The tablets are provided in: 
-Blister packs containing 14, 14 × 1, 182 or 182 × 1 tablets 
+Blister packs containing 14, 14   1, 182 or 182   1 tablets 
 Plastic bottles containing 26 tablets </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder  </p>
@@ -364,7 +365,7 @@ Baldoyle Industrial Estate
 Dublin Ireland  </p>
 <p>Manufacturer </p>
 <p>Mylan Hungary Kft.<br />
-H-2900, Komárom 
+H-2900, Kom rom 
 Mylan utca 1 
 Hungary </p>
 <p>Rottapharm Limited, 
@@ -374,22 +375,20 @@ Dublin 15,<br />
 D15 XDIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
 Viatris CZ  s.r.o. 
 Tel: + 420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft 
 Tel: + 36 1 465 2Danmark 
 Viatris ApS 
@@ -408,29 +407,28 @@ filiaal<br />
 Tel: + 372 6363<br />
 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33<br />
-Ελλάδα<br />
-Viatris  Hellas Ltd<br />
-Τηλ:  +30 2100 100 002  </p>
-<p>Österreich 
+Tlf: + 47 66 75 33  </p>
+<p>Viatris  Hellas Ltd<br />
+ :  +30 2100 100 002  </p>
+<p>sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel: + 48 22 546 64<br />
 France 
-Viatris Santé </p>
-<p>Tél : +33 1 40 80 15<br />
+Viatris Sant  </p>
+<p>T l : +33 1 40 80 15<br />
 Portugal 
 Viatris Healthcare, Lda<br />
 Tel: + 351 21 412 72<br />
 Hrvatska 
 Viatris Hrvatska d.o.o. 
 Tel: +385 1 23 50 <br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: +40 372 579<br />
 Ireland 
@@ -438,20 +436,19 @@ Mylan Ireland Limited
 Tel:  +353 1 8711Slovenija 
 Viatris d.o.o.. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Viatris Italia S.r.l. 
 Tel: + 39 (0)2 612 46 
 Suomi/Finland 
 Viatris OY 
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: + 46 (0) 8 630 19<br />

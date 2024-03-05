@@ -4,7 +4,7 @@ Instance: composition-en-3b3e934500294234d1df16dd589129e1
 InstanceOf: CompositionUvEpi
 Title: "Composition for dafiro Package Leaflet"
 Description:  "Composition for dafiro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,17 +70,14 @@ Usage: #example
   * code.text =  "1. What dafiro is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dafiro HCT tablets contain three substances called amlodipine, valsartan and hydrochlorothiazide. All 
-of these substances help to control high blood pressure. 
-− 
-Amlodipine belongs to a group of substances called “calcium channel blockers”. Amlodipine 
+of these substances help to control high blood pressure. </p>
+<p>Amlodipine belongs to a group of substances called  calcium channel blockers . Amlodipine 
 stops calcium from moving into the blood vessel wall, which stops the blood vessels from 
-tightening. 
-− 
-Valsartan belongs to a group of substances called “angiotensin-II receptor antagonists”. 
+tightening. </p>
+<p>Valsartan belongs to a group of substances called  angiotensin-II receptor antagonists . 
 Angiotensin II is produced by the body and makes the blood vessels tighten, thus increasing the 
-blood pressure. Valsartan works by blocking the effect of angiotensin II. 
-− 
-Hydrochlorothiazide belongs to a group of substances called “thiazide diuretics”. 
+blood pressure. Valsartan works by blocking the effect of angiotensin II. </p>
+<p>Hydrochlorothiazide belongs to a group of substances called  thiazide diuretics . 
 Hydrochlorothiazide increases urine output, which also lowers blood pressure. 
 As a result of all three mechanisms, the blood vessels relax and blood pressure is lowered. </p>
 <p>Dafiro HCT is used to treat high blood pressure in adult patients whose blood pressure is already 
@@ -94,117 +91,82 @@ taking one tablet containing all three substances. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take dafiro"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Dafiro HCT 
-− 
-if you are more than 3 months pregnant. (It is also recommended to avoid Dafiro HCT in early 
-pregnancy – see Pregnancy section.) 
-− 
-if you are allergic to amlodipine or to any other calcium channel blockers, valsartan, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Dafiro HCT </p>
+<p>if you are more than 3 months pregnant. (It is also recommended to avoid Dafiro HCT in early 
+pregnancy   see Pregnancy section.) </p>
+<p>if you are allergic to amlodipine or to any other calcium channel blockers, valsartan, 
 hydrochlorothiazide, sulphonamide-derived medicines (medicines used to treat chest or urinary 
 infections), or any of the other ingredients of this medicine (listed in section 6). 
-If you think you may be allergic, do not take Dafiro HCT and talk to your doctor. 
-− 
-if you have liver disease, destruction of the small bile ducts within the liver (biliary cirrhosis) 
-leading to the build up of bile in the liver (cholestasis). 
-− 
-if you have severe kidney problems or if you are having dialysis. 
-− 
-if you are unable to produce urine (anuria). 
-− 
-if the level of potassium or sodium in your blood is too low despite treatment to increase the 
-potassium or sodium levels in your blood. 
-− 
-if the level of calcium in your blood is too high despite treatment to reduce the calcium levels in 
-your blood. 
-− 
-if you have gout (uric acid crystals in the joints). 
-− 
-if you have severe low blood pressure (hypotension). 
-− 
-if you have narrowing of the aortic valve (aortic stenosis) or cardiogenic shock (a condition 
-where your heart is unable to supply enough blood to the body). 
-− 
-if you suffer from heart failure after a heart attack. 
-− 
-if you have diabetes or impaired kidney function and you are treated with a blood pressure 
+If you think you may be allergic, do not take Dafiro HCT and talk to your doctor. </p>
+<p>if you have liver disease, destruction of the small bile ducts within the liver (biliary cirrhosis) 
+leading to the build up of bile in the liver (cholestasis). </p>
+<p>if you have severe kidney problems or if you are having dialysis. </p>
+<p>if you are unable to produce urine (anuria). </p>
+<p>if the level of potassium or sodium in your blood is too low despite treatment to increase the 
+potassium or sodium levels in your blood. </p>
+<p>if the level of calcium in your blood is too high despite treatment to reduce the calcium levels in 
+your blood. </p>
+<p>if you have gout (uric acid crystals in the joints). </p>
+<p>if you have severe low blood pressure (hypotension). </p>
+<p>if you have narrowing of the aortic valve (aortic stenosis) or cardiogenic shock (a condition 
+where your heart is unable to supply enough blood to the body). </p>
+<p>if you suffer from heart failure after a heart attack. </p>
+<p>if you have diabetes or impaired kidney function and you are treated with a blood pressure 
 lowering medicine containing aliskiren. 
 If any of the above applies to you, do not take Dafiro HCT and talk to your doctor. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Dafiro HCT 
-− 
-if you have a low level of potassium or magnesium in your blood (with or without symptoms 
-such as muscle weakness, muscle spasms, abnormal heart rhythm). 
-− 
-if you have a low level of sodium in your blood (with or without symptoms such as tiredness, 
-confusion, muscle twitching, convulsions). 
-− 
-if you have a high level of calcium in your blood (with or without symptoms such as nausea, 
+Talk to your doctor or pharmacist before taking Dafiro HCT </p>
+<p>if you have a low level of potassium or magnesium in your blood (with or without symptoms 
+such as muscle weakness, muscle spasms, abnormal heart rhythm). </p>
+<p>if you have a low level of sodium in your blood (with or without symptoms such as tiredness, 
+confusion, muscle twitching, convulsions). </p>
+<p>if you have a high level of calcium in your blood (with or without symptoms such as nausea, 
 vomiting, constipation, stomach pain, frequent urination, thirst, muscle weakness and 
-twitching). 
-− 
-if you have kidney problems, have had a kidney transplant or if you had been told that you have 
-a narrowing of your kidney arteries. 
-− 
-if you have liver problems. 
-− 
-if you have or have had heart failure or coronary artery disease, particularly if you are 
-prescribed the maximum dose of Dafiro HCT (10 mg/320 mg/25 mg). 
-− 
-if you have experienced a heart attack. Follow your doctor’s instructions for the starting dose 
-carefully. Your doctor may also check your kidney function. 
-− 
-if your doctor has told you that you have a narrowing of the valves in your heart (called “aortic 
-or mitral stenosis”) or that the thickness of your heart muscle is abnormally increased (called 
-“obstructive hypertrophic cardiomyopathy”). 
-− 
-if you suffer from aldosteronism. This is a disease in which the adrenal glands make too much 
-of the hormone aldosterone If this applies to you, the use of Dafiro HCT is not recommended. 
-− 
-if you suffer from a disease called systemic lupus erythematosus (also called “lupus” or 
-“SLE”). 
-− 
-if you have diabetes (high level of sugar in your blood). 
-− 
-if you have high levels of cholesterol or triglycerides in your blood. 
-− 
-if you experience skin reactions such as rash after sun exposure. 
-− 
-if you had an allergic reaction to other high blood pressure medicines or diuretics (a type of 
-medicine also known as “water tablets”), especially if you suffer from asthma and allergies 
-− 
-if you have been sick (vomiting or diarrhoea). 
-− 
-if you have experienced swelling, particularly of the face and throat, while taking other 
+twitching). </p>
+<p>if you have kidney problems, have had a kidney transplant or if you had been told that you have 
+a narrowing of your kidney arteries. </p>
+<p>if you have liver problems. </p>
+<p>if you have or have had heart failure or coronary artery disease, particularly if you are 
+prescribed the maximum dose of Dafiro HCT (10 mg/320 mg/25 mg). </p>
+<p>if you have experienced a heart attack. Follow your doctor s instructions for the starting dose 
+carefully. Your doctor may also check your kidney function. </p>
+<p>if your doctor has told you that you have a narrowing of the valves in your heart (called  aortic 
+or mitral stenosis ) or that the thickness of your heart muscle is abnormally increased (called 
+ obstructive hypertrophic cardiomyopathy ). </p>
+<p>if you suffer from aldosteronism. This is a disease in which the adrenal glands make too much 
+of the hormone aldosterone If this applies to you, the use of Dafiro HCT is not recommended. </p>
+<p>if you suffer from a disease called systemic lupus erythematosus (also called  lupus  or 
+ SLE ). </p>
+<p>if you have diabetes (high level of sugar in your blood). </p>
+<p>if you have high levels of cholesterol or triglycerides in your blood. </p>
+<p>if you experience skin reactions such as rash after sun exposure. </p>
+<p>if you had an allergic reaction to other high blood pressure medicines or diuretics (a type of 
+medicine also known as  water tablets ), especially if you suffer from asthma and allergies </p>
+<p>if you have been sick (vomiting or diarrhoea). </p>
+<p>if you have experienced swelling, particularly of the face and throat, while taking other 
 medicines (including angiotensin converting enzyme inhibitors). If you get these symptoms, 
 stop taking Dafiro HCT and contact your doctor straight away. You should never take Dafiro 
-HCT again. 
-− 
-if you experience dizziness and/or fainting during treatment with Dafiro HCT, tell your doctor 
-as soon as possible. 
-− 
-if you experience a decrease in vision or eye pain. These could be symptoms of fluid 
+HCT again. </p>
+<p>if you experience dizziness and/or fainting during treatment with Dafiro HCT, tell your doctor 
+as soon as possible. </p>
+<p>if you experience a decrease in vision or eye pain. These could be symptoms of fluid 
 accumulation in the vascular layer of the eye (choroidal effusion) or an increase of pressure in 
 your eye and can happen within hours to a week of taking Dafiro HCT. This can lead to 
-permanent vision impairment, if not treated. 
-− 
-if you are taking any of the following medicines used to treat high blood pressure: 
-− 
-an ACE inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
-diabetes-related kidney problems. 
-− 
-aliskiren. 
-− 
-if you have had skin cancer or if you develop an unexpected skin lesion during the treatment. 
+permanent vision impairment, if not treated. </p>
+<p>if you are taking any of the following medicines used to treat high blood pressure: </p>
+<p>an ACE inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
+diabetes-related kidney problems. </p>
+<p>aliskiren. </p>
+<p>if you have had skin cancer or if you develop an unexpected skin lesion during the treatment. 
 Treatment with hydrochlorothiazide, particularly long term use with high doses, may increase 
 the risk of some types of skin and lip cancer (non-melanoma skin cancer). Protect your skin 
-from sun exposure and UV rays while taking Dafiro HCT. 
-− 
-if you experienced breathing or lung problems (including inflammation or fluid in the lungs) 
+from sun exposure and UV rays while taking Dafiro HCT. </p>
+<p>if you experienced breathing or lung problems (including inflammation or fluid in the lungs) 
 following hydrochlorothiazide intake in the past. If you develop any severe shortness of breath 
 or difficulty breathing after taking Dafiro HCT, seek medical attention immediately. </p>
 <p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. 
 potassium) in your blood at regular intervals. </p>
-<p>See also information under the heading “Do not take Dafiro HCT”. </p>
+<p>See also information under the heading  Do not take Dafiro HCT . </p>
 <p>If any of these apply to you, talk to your doctor. </p>
 <p>Children and adolescents 
 The use of Dafiro HCT in children and adolescents under 18 years of age is not recommended. </p>
@@ -223,8 +185,8 @@ the medicines listed below: </p>
 * medicines or substances that increase the amount of potassium in your blood. These include 
 potassium supplements or salt substitutes containing potassium, potassium-sparing medicines 
 and heparin; 
-* ACE inhibitors or aliskiren –(see also information under the headings “Do not take Dafiro 
-HCT” and “Warnings and precautions”) . </p>
+* ACE inhibitors or aliskiren  (see also information under the headings  Do not take Dafiro 
+HCT  and  Warnings and precautions ) . </p>
 <p>Caution should be used with: 
 * alcohol, sleeping pills and anaesthetics (medicines allowing patients to undergo surgery and 
 other procedures); 
@@ -247,7 +209,7 @@ conditions, e.g: rheumatoid arthritis or atopic dermatitis);
 * medicines for the treatment of diabetes (oral agents such as metformin or insulins); 
 * medicines for the treatment of gout, such as allopurinol; 
 * medicines that may increase blood sugar levels (beta blockers, diazoxide); 
-* medicines that may induce “torsades de pointes” (irregular heart beat), such as antiarrhythmics 
+* medicines that may induce  torsades de pointes  (irregular heart beat), such as antiarrhythmics 
 (medicines used to treat heart problems) and some antipsychotics; 
 * medicines that may reduce the amount of sodium in your blood, such as antidepressants, 
 antipsychotics, antiepileptics; 
@@ -260,10 +222,10 @@ tablets), corticosteroids, laxatives, amphotericin or penicillin G;
 * medicines used to relieve pain or inflammation, especially non-steroidal anti-inflammatory 
 agents (NSAIDs), including selective cyclooxygenase-2 inhibitors (Cox-2 inhibitors); 
 * muscle relaxants (medicines to relax the muscles which are used during operations); 
-* nitroglycerin and other nitrates, or other substances called “vasodilators”; 
+* nitroglycerin and other nitrates, or other substances called  vasodilators ; 
 * other medicines to treat high blood pressure, including methyldopa; 
 * rifampicin (used, for example, to treat tuberculosis), erythromycin, clarithromycin (antibiotics); 
-* St. John’s wort; 
+* St. John s wort; 
 * dantrolene (infusion for severe body temperature abnormalities); 
 * vitamin D and calcium salts. </p>
 <p>Dafiro HCT with food, drink and alcohol 
@@ -296,13 +258,10 @@ these symptoms, do not drive or use tools or machines. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. This will help you get the best results and lower the risk of side effects. </p>
-<p>The usual dose of Dafiro HCT is one tablet per day. 
-− 
-It is best to take the tablet at the same time each day. Morning is the best time. 
-− 
-Swallow the tablet whole with a glass of water. 
-− 
-You can take Dafiro HCT with or without food. Do not take Dafiro HCT with grapefruit or 
+<p>The usual dose of Dafiro HCT is one tablet per day. </p>
+<p>It is best to take the tablet at the same time each day. Morning is the best time. </p>
+<p>Swallow the tablet whole with a glass of water. </p>
+<p>You can take Dafiro HCT with or without food. Do not take Dafiro HCT with grapefruit or 
 grapefruit juice. </p>
 <p>Depending on how you respond to the treatment, your doctor may suggest a higher or lower dose. </p>
 <p>Do not exceed the prescribed dose. </p>
@@ -516,7 +475,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not use any Dafiro HCT pack that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -565,16 +524,16 @@ hydrochlorothiazide. Each film-coated tablet contains 10 mg amlodipine (as amlod
 anhydrous, magnesium stearate, hypromellose (substitution type 2910 (3 mPa.s)), macrogol 4000, talc, 
 yellow iron oxide (E172). </p>
 <p>What Dafiro HCT looks like and contents of the pack 
-Dafiro HCT 5 mg/160 mg/12.5 mg film-coated tablets are white, oval tablets with “NVR” on one side 
-and “VCL” on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
-<p>Dafiro HCT 10 mg/160 mg/12.5 mg film-coated tablets are pale yellow, oval tablets with “NVR” on 
-one side and “VDL” on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
-<p>Dafiro HCT 5 mg/160 mg/25 mg film-coated tablets are yellow, oval tablets with “NVR” on one side 
-and “VEL” on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
-<p>Dafiro HCT 10 mg/160 mg/25 mg film-coated tablets are brown-yellow, oval tablets with “NVR” on 
-one side and “VHL” on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
-<p>Dafiro HCT 10 mg/320 mg/25 mg film-coated tablets are brown-yellow, oval tablets with “NVR” on 
-one side and “VFL” on the other side. Approximate size: 19 mm (length) x 7.5 mm (width). </p>
+Dafiro HCT 5 mg/160 mg/12.5 mg film-coated tablets are white, oval tablets with  NVR  on one side 
+and  VCL  on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
+<p>Dafiro HCT 10 mg/160 mg/12.5 mg film-coated tablets are pale yellow, oval tablets with  NVR  on 
+one side and  VDL  on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
+<p>Dafiro HCT 5 mg/160 mg/25 mg film-coated tablets are yellow, oval tablets with  NVR  on one side 
+and  VEL  on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
+<p>Dafiro HCT 10 mg/160 mg/25 mg film-coated tablets are brown-yellow, oval tablets with  NVR  on 
+one side and  VHL  on the other side. Approximate size: 15 mm (length) x 5.9 mm (width). </p>
+<p>Dafiro HCT 10 mg/320 mg/25 mg film-coated tablets are brown-yellow, oval tablets with  NVR  on 
+one side and  VFL  on the other side. Approximate size: 19 mm (length) x 7.5 mm (width). </p>
 <p>Dafiro HCT is available in packs containing 14, 28, 30, 56, 90, 98 or 280 film-coated tablets, in 
 multipacks of 280 tablets (comprising 4 cartons, each containing 70 tablets, or 20 cartons, each 
 containing 14 tablets), and in hospital packs containing 56, 98 or 280 tablets in single perforated dose 
@@ -589,31 +548,30 @@ Ireland </p>
 Novartis Farma S.p.A. 
 Via Provinciale Schito 80058 Torre Annunziata (NA) 
 Italy </p>
-<p>Novartis Farmacéutica S.A. 
+<p>Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -629,35 +587,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
+Tel: +43 1 86 6Espa a 
 Esteve Pharmaceuticals, S.A. 
 Tel: +34 93 446 60<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -665,10 +623,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

@@ -4,7 +4,7 @@ Instance: composition-en-d51291e7d675a24203f1a2e152221f98
 InstanceOf: CompositionUvEpi
 Title: "Composition for desloratadine Package Leaflet"
 Description:  "Composition for desloratadine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Desloratadine Teva 
 4. Possible side effects 
 5. How to store Desloratadine Teva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -164,49 +163,49 @@ mouth and headache were reported more often than with a dummy tablet. In adolesc
 most commonly reported side effect. </p>
 <p>In clinical studies with desloratadine, the following side effects were reported as: </p>
 <p>Common: the following may affect up to 1 in 10 people 
-● fatigue 
-● dry mouth 
-● headache </p>
+  fatigue 
+  dry mouth 
+  headache </p>
 <p>Adults 
 During the marketing of Desloratadine Teva, the following side effects were reported as:  </p>
 <p>Very rare: the following may affect up to 1 in 10,000 people 
-● severe allergic reactions<br />
-● rash  </p>
-<p>● pounding or irregular heartbeat 
-● fast heartbeat </p>
-<p>● stomach ache </p>
-<p>● feeling sick (nausea) 
-● vomiting  </p>
-<p>● upset stomach </p>
-<p>● diarrhoea 
-● dizziness  </p>
-<p>● drowsiness<br />
-● inability to sleep 
-● muscle pain </p>
-<p>● hallucinations </p>
-<p>● seizures 
-● restlessness with increased  </p>
-<p>● liver inflammation 
-● abnormal liver function tests 
+  severe allergic reactions<br />
+  rash  </p>
+<p>pounding or irregular heartbeat 
+  fast heartbeat </p>
+<p>stomach ache </p>
+<p>feeling sick (nausea) 
+  vomiting  </p>
+<p>upset stomach </p>
+<p>diarrhoea 
+  dizziness  </p>
+<p>drowsiness<br />
+  inability to sleep 
+  muscle pain </p>
+<p>hallucinations </p>
+<p>seizures 
+  restlessness with increased  </p>
+<p>liver inflammation 
+  abnormal liver function tests 
    body movement </p>
 <p>Not known: frequency cannot be estimated from the available data 
-● unusual weakness </p>
-<p>● yellowing of the skin and/or eyes 
-● increased sensitivity of the skin to the sun, even in case of hazy sun, and to UV light, for instance to UV 
+  unusual weakness </p>
+<p>yellowing of the skin and/or eyes 
+  increased sensitivity of the skin to the sun, even in case of hazy sun, and to UV light, for instance to UV 
 lights of a solarium 
-● changes in the way the heart beats 
-● abnormal behaviour 
-● aggression 
-● weight increased 
-● increased appetite 
-• depressed mood 
-• dry eyes </p>
+  changes in the way the heart beats 
+  abnormal behaviour 
+  aggression 
+  weight increased 
+  increased appetite 
+  depressed mood 
+  dry eyes </p>
 <p>Children 
 Not known: frequency cannot be estimated from the available data 
-● slow heartbeat </p>
-<p>● change in the way the heart beats 
-● abnormal behaviour </p>
-<p>● aggression </p>
+  slow heartbeat </p>
+<p>change in the way the heart beats 
+  abnormal behaviour </p>
+<p>aggression </p>
 <p>Reporting of side effects  </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet.<br />
@@ -219,7 +218,7 @@ reporting side effects you can help provide more information on the safety of th
   * code.text = "5. How to store desloratadine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice any change in the appearance of the tablets. </p>
@@ -249,7 +248,7 @@ Swensweg 5
 The Netherlands </p>
 <p>Manufacturer 
 TEVA Pharmaceutical Works Private Limited Company 
-Pallagi út 13, 
+Pallagi  t 13, 
 4042 Debrecen, 
 Hungary </p>
 <p>or </p>
@@ -264,24 +263,22 @@ D-89143 Blaubeuren
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -301,29 +298,28 @@ Eesti </p>
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: + 385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -332,10 +328,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Alvogen ehf. 
-Sími: +354 5222 
-Slovenská republika 
+S mi: +354 5222 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -343,16 +339,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 SanoSwiss UAB 
-Puh/Tel: +370 70001 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +370 70001 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā<br />
+UAB Teva Baltics fili le Latvij <br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

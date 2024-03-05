@@ -4,7 +4,7 @@ Instance: composition-en-257716587c0bc57c8b7f0da168f8cf11
 InstanceOf: CompositionUvEpi
 Title: "Composition for sixmo Package Leaflet"
 Description:  "Composition for sixmo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -107,47 +107,53 @@ allowed to receive Sixmo. </p>
 * a history of recurrent methicillin-resistant Staphylococcus aureus infections (MRSA) 
 * depression or other conditions that are treated with antidepressants.<br />
 The use of these medicines together with Sixmo can lead to serotonin syndrome, a potentially 
-life-threatening condition (see “Other medicines and Sixmo”). </p>
+life-threatening condition (see  Other medicines and Sixmo ). </p>
 <p>Important aspects to consider during treatment: 
-* Drowsiness may occur especially in the first week after insertion. See “Driving and using 
-machines”. 
-* Your doctor should examine the insertion site for infections and wound problems: 
-- one week after implant insertion and 
-- at least once a month thereafter 
-* Infection may occur at the site of the insertion or removal of the implant. Excessive touching 
+* Drowsiness may occur especially in the first week after insertion. See  Driving and using 
+machines . 
+* Your doctor should examine the insertion site for infections and wound problems:</p>
+<ul>
+<li>one week after implant insertion and </li>
+<li>at least once a month thereafter </li>
+<li>Infection may occur at the site of the insertion or removal of the implant. Excessive touching 
 of the implants or insertion site shortly after insertion may increase the chance of infection. Tell 
 your doctor immediately if you have any signs of infection (such as redness or inflammation) at 
-the site of insertion or removal. 
-* If an implant comes out after insertion, take the following steps: 
-- Schedule an appointment with the inserting doctor as soon as possible. 
-- Place the implant in a glass jar with a lid. Store it safely away from others, especially 
+the site of insertion or removal. </li>
+<li>
+<p>If an implant comes out after insertion, take the following steps:</p>
+</li>
+<li>
+<p>Schedule an appointment with the inserting doctor as soon as possible. </p>
+</li>
+<li>Place the implant in a glass jar with a lid. Store it safely away from others, especially 
 children. Bring it to the inserting doctor to determine whether the full implant has been 
 expelled. 
 Please note: Buprenorphine can cause severe, possibly fatal, breathing depression 
-(shortness of breath or stops breathing) in children who are accidentally exposed to it. 
-- The doctor will monitor you until the implant is replaced to evaluate for withdrawal 
-symptoms. 
-* Avoid moving implants around under the skin or gain a lot of weight after insertion of Sixmo as 
-this may make it difficult to locate implants. 
-* Misuse and abuse: If buprenorphine is abused it can lead to overdose and death. This risk 
-increases when additionally using alcohol or other substances. 
-* This medicine can cause dependence, but at a lower level than other substances such as 
+(shortness of breath or stops breathing) in children who are accidentally exposed to it. </li>
+<li>The doctor will monitor you until the implant is replaced to evaluate for withdrawal 
+symptoms. </li>
+<li>Avoid moving implants around under the skin or gain a lot of weight after insertion of Sixmo as 
+this may make it difficult to locate implants. </li>
+<li>Misuse and abuse: If buprenorphine is abused it can lead to overdose and death. This risk 
+increases when additionally using alcohol or other substances. </li>
+<li>This medicine can cause dependence, but at a lower level than other substances such as 
 morphine. If you stop Sixmo treatment your doctor will monitor you for withdrawal 
-symptoms. 
-* A number of cases of death due to breathing depression have been reported while on 
+symptoms. </li>
+<li>A number of cases of death due to breathing depression have been reported while on 
 buprenorphine. Particularly, this occurs when additionally using alcohol, other opioids or certain 
 medicines which calm, induce sleep or relax muscles. Buprenorphine can cause fatal breathing 
 problems in non-dependent people or children. 
-Sixmo should be used with caution in patients with asthma or other breathing problems. 
-* Liver damage, including liver failure, has been reported when using buprenorphine. This may 
+Sixmo should be used with caution in patients with asthma or other breathing problems. </li>
+<li>Liver damage, including liver failure, has been reported when using buprenorphine. This may 
 be related to existing reduced liver function and ongoing injecting drug use. If liver problems 
-are suspected your doctor will carry out tests to decide if treatment should be stopped.<br />
-* While using Sixmo, situations may arise where you need acute pain treatment or anaesthesia. 
-Ask your doctor or pharmacist for advice in these cases. 
-* Substances like buprenorphine may cause pinpoint pupils, change consciousness or the way 
-you feel pain. 
-* Substances like buprenorphine may cause a sudden drop in blood pressure, causing dizziness 
-when getting up quickly. </p>
+are suspected your doctor will carry out tests to decide if treatment should be stopped.  </li>
+<li>While using Sixmo, situations may arise where you need acute pain treatment or anaesthesia. 
+Ask your doctor or pharmacist for advice in these cases. </li>
+<li>Substances like buprenorphine may cause pinpoint pupils, change consciousness or the way 
+you feel pain. </li>
+<li>Substances like buprenorphine may cause a sudden drop in blood pressure, causing dizziness 
+when getting up quickly. </li>
+</ul>
 <p>Children and adolescents </p>
 <p>Sixmo is not recommended for children under 18 years.  </p>
 <p>Patients over 65 years </p>
@@ -156,9 +162,9 @@ when getting up quickly. </p>
 <p>Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. </p>
 <p>Especially, inform your doctor during Sixmo treatment before using:<br />
 <em> medicines which calm, induce sleep or relax muscles, with active substance names ending with 
-“azepam” 
+ azepam<br />
 This combination may result in death due to breathing depression. Therefore, use these 
-medicines during Sixmo treatment only on doctor’s advice and at the prescribed dosage.<br />
+medicines during Sixmo treatment only on doctor s advice and at the prescribed dosage.<br />
 </em> other medicines that depress the brain or spinal cord, as these reduce alertness, making driving 
 and using machines hazardous 
 - other opioid derivatives such as methadone, strong painkillers and cough suppressants 
@@ -166,16 +172,16 @@ and using machines hazardous
 - medicines called antihistamines used to treat allergic reactions, sleep disturbances, cold; 
 or prevent and treat nausea and vomiting 
 - medicines to treat epilepsy or to sedate, with active substance names mostly ending with 
-“tal” 
+ tal<br />
 - medicines to treat anxiety, other than those described in the first bullet point 
 - medicines to treat mental or anxiety disorders, with sedative effects, called neuroleptics 
 - clonidine: a medicine to treat high blood pressure and high eye pressure 
 * naltrexone, nalmefene, used to treat addiction 
 They can block the effects of buprenorphine. Do not use these medicines during Sixmo 
 treatment as they can cause a sudden onset of prolonged, intense withdrawal symptoms.<br />
-* medicines to treat HIV infections with active substance names ending in “navir”, such as 
+* medicines to treat HIV infections with active substance names ending in  navir , such as 
 ritonavir, nelfinavir, amprenavir, fosamprenavir 
-* medicines to treat fungal infections, like thrush, with active substance names ending in “azole”, 
+* medicines to treat fungal infections, like thrush, with active substance names ending in  azole , 
 such as ketoconazole, itraconazole, fluconazole 
 * clarithromycin, erythromycin, troleandomycin: medicines to treat bacterial infections 
 * nefazodone: a medicine to treat depression 
@@ -183,14 +189,14 @@ such as ketoconazole, itraconazole, fluconazole
 * aprepitant: a medicine to prevent nausea and vomiting 
 * phenobarbital, carbamazepine, phenytoin: medicines to treat epilepsy and other illnesses 
 * rifampicin: a medicine to treat tuberculosis or certain other infections 
-* certain medicines to treat depression or Parkinson’s disease, called monoamine oxidase 
+* certain medicines to treat depression or Parkinson s disease, called monoamine oxidase 
 inhibitors, such as phenelzine, isocarboxazid, iproniazid and tranylcypromine 
 * anti-depressants such as moclobemide, tranylcypromine, citalopram, escitalopram, fluoxetine, 
 fluvoxamine, paroxetine, sertraline, duloxetine, venlafaxine, amitriptyline, doxepine, or 
 trimipramine. These medicines may interact with Sixmo and you may experience symptoms 
 such as involuntary, rhythmic contractions of muscles, including the muscles that control 
 movement of the eye, agitation, hallucinations, coma, excessive sweating, tremor, exaggeration 
-of reflexes, increased muscle tension, body temperature above 38°C. Contact your doctor when 
+of reflexes, increased muscle tension, body temperature above 38 C. Contact your doctor when 
 experiencing such symptoms. </p>
 <p>Sixmo with food, drink and alcohol </p>
 <p>Do not drink alcohol during Sixmo treatment, as it increases the sedative effect. 
@@ -313,7 +319,7 @@ Common, may affect up to 1 in 10 people
 * dry mouth, wind, indigestion, bloody stool 
 * migraine, tremor 
 * excessive sleepiness 
-* abnormal sensation such as prickling, “pins and needles”, tingling and itchiness 
+* abnormal sensation such as prickling,  pins and needles , tingling and itchiness 
 * reduced consciousness 
 * sleep disorder, disinterest 
 * depression, euphoria 
@@ -402,21 +408,20 @@ Strada Statale 67,
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Accord Healthcare bv 
-Tél/Tel: +32 51 79 40 Lietuva 
+T l/Tel: +32 51 79 40 Lietuva 
 Accord Healthcare AB 
-Tel: +46 8 624 00<br />
-България 
-Accord Healthcare Polska Sp. z o.o. 
-Teл.: +48 22 577 28<br />
+Tel: +46 8 624 00  </p>
+<p>Accord Healthcare Polska Sp. z o.o. 
+Te .: +48 22 577 28<br />
 Luxembourg/Luxemburg 
 Accord Healthcare bv 
-Tèl/Tel: +32 51 79 40<br />
-Česká republika 
+T l/Tel: +32 51 79 40<br />
+ esk  republika 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28<br />
-Magyarország 
+Magyarorsz g 
 Accord Healthcare Polska Sp. z o.o. 
 Tel.: +48 22 577 28 Danmark 
 Accord Healthcare AB 
@@ -435,14 +440,13 @@ Accord Healthcare AB
 Tel: +46 8 624 00<br />
 Norge 
 Accord Healthcare AB 
-Tlf: + 46 8 624 00<br />
-Ελλάδα 
-Accord Healthcare Italia Srl 
-Τηλ: +39 02 943 23 700 <br />
-Österreich 
+Tlf: + 46 8 624 00  </p>
+<p>Accord Healthcare Italia Srl 
+ : +39 02 943 23 700 <br />
+ sterreich 
 Accord Healthcare GmbH 
 Tel: +43 (0)662 424899-0 </p>
-<p>España 
+<p>Espa a 
 Accord Healthcare S.L.U. 
 Tel: +34 93 301 00<br />
 Polska 
@@ -450,13 +454,13 @@ Molteni Farmaceutici Polska Sp. z o.o.
 Tel.: +48 (12) 653 15<br />
 France 
 Accord Healthcare France SAS 
-Tél: +33 (0)320 401<br />
+T l: +33 (0)320 401<br />
 Portugal 
 Accord Healthcare, Unipessoal Lda 
 Tel: +351 214 697<br />
 Hrvatska<br />
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28 România 
+Tel: +48 22 577 28 Rom nia 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28<br />
 Ireland 
@@ -464,19 +468,18 @@ Accord Healthcare Ireland Ltd
 Tel: +353 (0) 21 461 9 
 Slovenija 
 Accord Healthcare Polska Sp. z o.o. 
-Tel: +48 22 577 28 Ísland 
+Tel: +48 22 577 28  sland 
 Accord Healthcare AB 
-Sími: + 46 8 624 00<br />
-Slovenská republika 
+S mi: + 46 8 624 00<br />
+Slovensk  republika 
 Accord Healthcare Polska Sp. z o.o. 
 Tel: +48 22 577 28 Italia 
 L.Molteni &amp; C. dei F.lli Alitti Soc.Es.S.p.A 
 Tel: +39 055 73 
 Suomi/Finland 
 Accord Healthcare Oy 
-Puh/Tel. +358 10 231 4 
-Κύπρος 
-Accord Healthcare S.L.U. 
+Puh/Tel. +358 10 231 4 </p>
+<p>Accord Healthcare S.L.U. 
 Tel: +34 93 301 00 Sverige 
 Accord Healthcare AB 
 Tel: + 46 (0)8 624 00<br />

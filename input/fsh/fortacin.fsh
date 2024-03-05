@@ -4,7 +4,7 @@ Instance: composition-en-7595bd80b37f1612e8b528f48e44afff
 InstanceOf: CompositionUvEpi
 Title: "Composition for fortacin Package Leaflet"
 Description:  "Composition for fortacin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -102,14 +102,14 @@ directed does not provide relief, consult a doctor. </p>
 these condoms may deteriorate when used together with Fortacin and therefore may fail to 
 protect from sexually transmitted disease or pregnancy. Fortacin can be used with contraceptive 
 devices made of latex rubber, polyisoprene, nitrile and silicone as no deterioration has been 
-shown. Carefully check the material that your contraceptive or your partner’s contraceptive is 
+shown. Carefully check the material that your contraceptive or your partner s contraceptive is 
 made of before using this product. Ask your pharmacist if you are unsure. 
 * If you use Fortacin with condoms, you may be more likely to be unable to develop or maintain 
 an erection. You may also be more likely to have reduced feeling in and around the penis. </p>
 <p>Avoid accidental contact 
 * When you use this medicine, particularly during priming of the container, aim the container 
 away from the face to avoid accidental contact with ears, eyes, nose and mouth. 
-* If some medicine accidentally gets into your eyes or your partner’s eyes, rinse them 
+* If some medicine accidentally gets into your eyes or your partner s eyes, rinse them 
 immediately with cold water or sodium chloride solution and keep them closed as much as 
 possible until any effects, such as numbness, wear off. Be aware that normal protective 
 mechanisms, such as blinking, or sensation of a foreign body in the eye, may not occur until the 
@@ -117,15 +117,21 @@ numbness has worn off.
 * Fortacin should not come into contact with a damaged ear drum. </p>
 <p>Contact with other mucous membranes 
 * Fortacin may also come into contact with other mucous membranes such as your, or your 
-partner’s, mouth, nose and throat, causing them to feel slightly numb for a short while. As this 
+partner s, mouth, nose and throat, causing them to feel slightly numb for a short while. As this 
 will reduce the ability to feel pain in these areas, extra care should be taken not to injure them 
 until the numbness has worn off. </p>
 <p>Possible transfer to partner, e.g. to vagina or the anus 
 * During sexual intercourse, a small amount of this medicine may be transferred, e.g. to the 
 vagina or the anus. Therefore, both you and your partner may feel slight numbness for a short 
 while and should take care not to injure yourselves, particularly during sexual activity. For more 
-information regarding possible side effects in sexual partners, see section 4.<br />
-If you or your partner develop a rash or irritation, discontinue use of Fortacin. If symptoms persist, 
+information regarding possible side effects in sexual partners, see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fortacin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fortacin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you or your partner develop a rash or irritation, discontinue use of Fortacin. If symptoms persist, 
 consult a doctor. </p>
 <p>Children and adolescents 
 This medicine should not be used in children or adolescents under 18 years of age. </p>
@@ -139,23 +145,23 @@ any of the following medicines which may interact with Fortacin:
 lidocaine. 
 * medicines known to increase the risk of a disorder reducing the amount of oxygen in the blood 
 (methaemoglobinaemia), such as those listed below: 
-* Benzocaine – a local anaesthetic used to treat pain and itching 
+* Benzocaine   a local anaesthetic used to treat pain and itching 
 * Chloroquine, pamaquine, primaquine, quinine - used to treat malaria<br />
-</em> Metoclopramide – used to treat feelings of sickness (nausea) and vomiting, including in 
+</em> Metoclopramide   used to treat feelings of sickness (nausea) and vomiting, including in 
 patients with migraine 
 * Glyceryl trinitrate (GTN, nitroglycerin), isosorbide mononitrate, erythrityl tetranitrate, 
 pentaerythritol tetranitrate and other nitrate and nitrite medicines - used to treat angina 
 (chest pain caused by the heart) 
-* Sodium nitroprusside, isosorbide dinitrate – used to treat high blood pressure and heart 
+* Sodium nitroprusside, isosorbide dinitrate   used to treat high blood pressure and heart 
 failure 
-* Nitrofurantoin – an antibiotic used to treat urinary and kidney infections 
-* Sulphonamides (also called sulpha medicines), e.g. sulfamethoxazole – an antibiotic used 
-to treat urinary infections, and sulfasalazine – used to treat Crohn’s disease, ulcerative 
+* Nitrofurantoin   an antibiotic used to treat urinary and kidney infections 
+* Sulphonamides (also called sulpha medicines), e.g. sulfamethoxazole   an antibiotic used 
+to treat urinary infections, and sulfasalazine   used to treat Crohn s disease, ulcerative 
 colitis and rheumatoid arthritis 
-* Dapsone – used to treat skin conditions such as leprosy and dermatitis and also to prevent 
+* Dapsone   used to treat skin conditions such as leprosy and dermatitis and also to prevent 
 malaria and pneumonia in high-risk patients 
-* Phenobarbital, phenytoin – used to treat epilepsy 
-* Para-aminosalicylic acid (PAS) – used to treat tuberculosis </p>
+* Phenobarbital, phenytoin   used to treat epilepsy 
+* Para-aminosalicylic acid (PAS)   used to treat tuberculosis </p>
 <p>The risk of methaemoglobinaemia can also be increased by the use of certain dyes (aniline dyes), or 
 the pesticide naphthalene, so let your doctor know if you work with any dyes or chemical pesticides. </p>
 <p>Pregnancy, breast-feeding and fertility 
@@ -163,7 +169,7 @@ Fortacin is not approved for use by women.<br />
 Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Pregnancy 
 Fortacin should not be used whilst your partner is pregnant unless you use an effective male condom, 
-as listed above in section 2 “Use with condoms”, to prevent exposure of the unborn child. </p>
+as listed above in section 2  Use with condoms , to prevent exposure of the unborn child. </p>
 <p>Breast-feeding 
 This medicine may be used while your partner is breast-feeding. </p>
 <p>Fertility 
@@ -173,12 +179,13 @@ the penis as thoroughly as possible five minutes after Fortacin has been applied
 intercourse. </p>
 <p>Driving and using machines 
 Fortacin has no or negligible influence on the ability to drive and use machines when used at the 
-recommended doses. </p>         </div>"""   
-                    
+recommended doses. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take fortacin"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take fortacin"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as described in this leaflet. Check with your doctor or pharmacist if 
 you are not sure.  </p>
@@ -212,13 +219,12 @@ experience any of these. They are very unlikely to happen if it is used as instr
 same time. If this happens, the skin becomes bluish-grey due to a lack of oxygen. </p>
 <p>In serious cases of overdose, symptoms may include fits, low blood pressure, slowed breathing, 
 stopped breathing and altered heart beat. These effects may be life-threatening. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store fortacin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store fortacin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The following side effects have been reported with Fortacin in male patients: </p>
@@ -256,149 +262,19 @@ possible side effects not listed in this leaflet. You can also report side effec
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
 information on the safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store fortacin"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store fortacin"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the spray container label and the 
-carton after “EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store below 25 °C. Do not freeze. You must throw away the container 12 weeks after you first use it. 
-The metal container is pressurised. Do not puncture, break or burn it even when apparently empty. A 
-residual volume of fluid that is not usable will remain in the container after all doses have been 
-administered. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fortacin contains<br />
-* The active substances are lidocaine and prilocaine. 
-* Each ml of solution contains 150 mg lidocaine and 50 mg prilocaine. 
-* Each spray delivers 50 microlitres which contains 7.5 mg lidocaine and 2.5 mg prilocaine. 
-* 1 dose is equal to 3 actuations. 
-* The other ingredient is norflurane. </p>
-<p>What Fortacin looks like and contents of the pack 
-Fortacin is a colourless to light yellow cutaneous spray, solution in an aluminium spray container with 
-metering valve. 
-The metering valve’s components are the stainless steel, POM, TPE, polypropylene, chlorobutyl 
-rubber and HDPE. </p>
-<p>Each pack contains 1 spray container with 6.5 ml or 5 ml of solution. 
-* Each spray container of 6.5 ml delivers a minimum of 20 doses. 
-* Each spray container of 5 ml delivers a minimum of 12 doses. </p>
-<p>Marketing Authorisation Holder<br />
-Recordati Ireland Limited 
-Raheens East 
-Ringaskiddy Co. Cork P43 KDIreland </p>
-<p>Manufacturer 
-Genetic S.p.A. 
-Via Canfora, 84084 Fisciano (SA) 
-Italy </p>
-<p>Recordati Industria Chimica e Farmaceutica S.p.A. 
-Via Matteo Civitali 1 
-20148 Milano 
-Italy  </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Recordati Ireland Ltd. 
-Tél/Tel: + 353 21 4379 
-Lietuva 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-България 
-Recordati Ireland Ltd. 
-Teл.: + 353 21 4379 
-Luxembourg/Luxemburg 
-Recordati Ireland Ltd. 
-Tél/Tel: + 353 21 4379 
-Česká republika 
-Herbacos Recordati s.r.o. 
-Tel: + 420 466 741<br />
-Magyarország 
-Recordati Ireland Ltd. 
-Tel.: + 353 21 4379 
-Danmark 
-Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Malta 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Deutschland 
-Recordati Pharma GmbH 
-Tel: + 49 (0) 731 7047 0 </p>
-<p>Nederland 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Eesti 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Norge 
-Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Ελλάδα 
-Recordati Hellas Pharmaceuticals A.E. 
-Τηλ: + 30 210-6773 
-Österreich 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-España 
-Casen Recordati, S.L. 
-Tel: + 34 91 659 15<br />
-Polska 
-RECORDATI POLSKA sp. z o.o. 
-Tel.: + 48 22 206 84<br />
-France 
-Laboratoires BOUCHARA-RECORDATI 
-Tél: + 33 1 45 19 10<br />
-Portugal 
-Jaba Recordati, S.A. 
-Tel: + 351 21 432 95<br />
-Hrvatska 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-România 
-Recordati România S.R.L. 
-Tel: + 40 21 667 17<br />
-Ireland 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379Slovenija 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379Ísland 
-Recordati Ireland Ltd. 
-Sími: + 353 21 4379 
-Slovenská republika 
-Herbacos Recordati s.r.o. 
-Tel: + 420 466 741<br />
-Italia 
-Recordati Industria Chimica e Farmaceutica 
-S.p.A. 
-Tel: + 39 02 487 
-Suomi/Finland 
-Recordati Ireland Ltd. 
-Puh/Tel: + 353 21 4379 
-Κύπρος 
-Recordati Ireland Ltd. 
-Τηλ: + 353 21 4379 
-Sverige 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Latvija 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-United Kingdom (Northern Ireland) 
-Recordati Ireland Ltd. 
-Tel: + 353 21 4379 </p>
-<p>This leaflet was last revised in {MM/YYYY}  </p>
-<p>Other sources of information 
-Detailed and updated information on this medicine is available by scanning the QR code below and 
-the outer carton with a smartphone. 
-The same information is also available on the following URL: www.fortacin.eu 
-QR code www.fortacin.eu </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the spray container label and the 
+carton after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Store below 25  C. Do not freeze. You must throw away the container 12 weeks after you first use it. 
+The metal container is pressurised. Do not puncture, break or burn it even when apparently empty. A 
+residual volume of fluid that is not usable will remain in the container after all doses have been 
+administered. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
 

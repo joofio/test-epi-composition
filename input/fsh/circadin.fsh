@@ -4,7 +4,7 @@ Instance: composition-en-9b714872ced428c978b15edf78a3a6b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for circadin Package Leaflet"
 Description:  "Composition for circadin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Circadin 
 4. Possible side effects 
 5. How to store Circadin 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -72,7 +71,7 @@ Usage: #example
 body. </p>
 <p>Circadin is used on its own for the short-term treatment of primary insomnia (persistent difficulty in 
 getting to sleep or staying asleep, or poor quality of sleep) in patients aged 55 years and older. 
-‘Primary’ means that the insomnia does not have any identified cause, including any medical, mental 
+ Primary  means that the insomnia does not have any identified cause, including any medical, mental 
 or environmental cause. </p>         </div>"""   
           
 
@@ -92,7 +91,7 @@ Talk to your doctor or pharmacist before taking Circadin. </p>
 liver or kidney diseases have been performed, you should speak to your doctor before taking 
 Circadin as its use is not recommended. </li>
 <li>If you have been told by your doctor that you have an intolerance to some sugars. </li>
-<li>If you have been told you suffer from an autoimmune disease (where the body is ‘attacked’ by 
+<li>If you have been told you suffer from an autoimmune disease (where the body is  attacked  by 
 its own immune system). No studies on the use of Circadin in people with auto-immune 
 diseases have been performed; therefore, you should speak to your doctor before taking 
 Circadin as its use is not recommended. </li>
@@ -109,23 +108,19 @@ advice. </p>
 <p>Other medicines and Circadin 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  These medicines include: </p>
-<p> 
-Fluvoxamine (used for the treatment of depression and obsessive compulsive disorder), 
+<p>Fluvoxamine (used for the treatment of depression and obsessive compulsive disorder), 
 psoralens (used in the treatment of skin disorders e.g. psoriasis), cimetidine (used in the 
 treatment of stomach problems such as ulcers), quinolones and rifampicin (used in the treatment 
 of bacterial infections), oestrogens (used in contraceptives or hormone replacement therapy) and 
-carbamazepine (used in the treatment of epilepsy). 
- 
-Adrenergic agonists/antagonists (such as certain types of medicines used to control blood 
+carbamazepine (used in the treatment of epilepsy). </p>
+<p>Adrenergic agonists/antagonists (such as certain types of medicines used to control blood 
 pressure by constricting blood vessels, nasal decongestants, blood pressure lowering medicines), 
 opiate agonists/antagonists (such as medicinal products used in the treatment of drug addiction), 
 prostaglandin inhibitors (such as nonsteroidal anti-inflammatory medicines), antidepressant 
-medication, tryptophan and alcohol. 
- 
-Benzodiazepines and non-benzodiazepine hypnotics (medicines used to induce sleep such as 
-zaleplon, zolpidem and zopiclone) 
- 
-Thioridazine (for the treatment of schizophrenia) and imipramine (for the treatment of 
+medication, tryptophan and alcohol. </p>
+<p>Benzodiazepines and non-benzodiazepine hypnotics (medicines used to induce sleep such as 
+zaleplon, zolpidem and zopiclone) </p>
+<p>Thioridazine (for the treatment of schizophrenia) and imipramine (for the treatment of 
 depression). </p>
 <p>Circadin with food, drink and alcohol 
 Take Circadin after you have eaten.  Do not drink alcohol before, during or after taking Circadin, 
@@ -172,34 +167,21 @@ not known to cause any withdrawal effects after treatment completion. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you experience any of the following serious side effects, stop taking the medicine and contact your 
 doctor immediately:-<br />
-Uncommon: (may affect up to 1 in 100 people) 
- 
-Chest pain </p>
-<p>Rare: (may affect up to 1 in 1000 people) 
- 
-Loss of consciousness or fainting 
- 
-Severe chest pain due to angina 
- 
-Feeling your heartbeat 
- 
-Depression 
- 
-Visual impairment 
- 
-Blurred vision 
- 
-Disorientation 
- 
-Vertigo (a feeling of dizziness or “spinning”) 
- 
-Presence of red blood cells in the urine 
- 
-Reduced number of white blood cells in the blood 
- 
-Reduced blood platelets, which increases risk of bleeding or bruising 
- 
-psoriasis </p>
+Uncommon: (may affect up to 1 in 100 people) </p>
+<p>Chest pain </p>
+<p>Rare: (may affect up to 1 in 1000 people) </p>
+<p>Loss of consciousness or fainting </p>
+<p>Severe chest pain due to angina </p>
+<p>Feeling your heartbeat </p>
+<p>Depression </p>
+<p>Visual impairment </p>
+<p>Blurred vision </p>
+<p>Disorientation </p>
+<p>Vertigo (a feeling of dizziness or  spinning ) </p>
+<p>Presence of red blood cells in the urine </p>
+<p>Reduced number of white blood cells in the blood </p>
+<p>Reduced blood platelets, which increases risk of bleeding or bruising </p>
+<p>psoriasis </p>
 <p>If you experience any of the following non-serious side effects contact your doctor and/or seek 
 medical advice:-<br />
 Uncommon: (may affect up to 1 in 100 people) </p>
@@ -214,7 +196,7 @@ abnormal liver function and weight increase. </p>
 <p>Shingles, high level of fatty molecules in the blood, low serum calcium levels in the blood, low 
 sodium levels in the blood, altered mood, aggression, agitation, crying, stress symptoms, early 
 morning awakening, increased sex drive, depressed mood,  memory impairment, disturbance in 
-attention, dreamy state, restless legs syndrome, poor quality sleep, ‘pins and needles’ feeling, watery 
+attention, dreamy state, restless legs syndrome, poor quality sleep,  pins and needles  feeling, watery 
 eyes, dizziness when standing or sitting, hot flushes, acid reflux, stomach disorder, blistering in the 
 mouth, tongue ulceration, stomach upset, vomiting, abnormal bowel sounds, wind, excess saliva 
 production, bad breath, abdominal discomfort, gastric disorder, inflammation of the stomach lining, 
@@ -239,7 +221,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton (EXP).  The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 25°C.  Store in the original package in order to protect from light. </p>
+<p>Do not store above 25 C.  Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
 throw away medicines you no longer use.  These measures will help to protect the environment. </p>         </div>"""      
         
@@ -272,35 +254,34 @@ Temmler Pharma GmbH &amp; Co. KG
 Temmlerstrasse 2 
 35039 Marburg 
 Germany </p>
-<p>Iberfar Indústria Farmacêutica S.A. 
+<p>Iberfar Ind stria Farmac utica S.A. 
 Estrada Consiglieri Pedroso Queluz De Baixo 
 Barcarena 
 2734-Portugal </p>
 <p>Rovi Pharma Industrial Services, S.A. 
-Vía Complutense, Alcalá de Henares 
+V a Complutense, Alcal  de Henares 
 Madrid, 28Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium 
-Tél/Tel: +32 2 464 06 e-mail: medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 e-mail: medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>България 
-RAD Neurim Pharmaceuticals EEC SARL 
-Teл: +33 185149776 (FR) 
+<p>RAD Neurim Pharmaceuticals EEC SARL 
+Te : +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium 
-Tél/Tel: +32 2 464 06 11 (BE) 
+T l/Tel: +32 2 464 06 11 (BE) 
 e-mail: medinfoEMEA@takeda.com </p>
-<p>Česká republika 
+<p>esk  republika 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com 
-Magyarország 
+Magyarorsz g 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -325,30 +306,29 @@ e-mail: neurim@neurim.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 e-mail: medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-TAKEDA ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387e-mail: medinfoEMEA@takeda.com </p>
-<p>Österreich 
+<p>TAKEDA    . . 
+ : +30 210 6387e-mail: medinfoEMEA@takeda.com </p>
+<p>sterreich 
 SANOVA PHARMA GesmbH 
 Tel.: +43 (01) 80104-0 
 e-mail: sanova.pharma@sanova.at </p>
-<p>España 
+<p>Espa a 
 EXELTIS HEALTHCARE, S.L. 
 Tfno: +34 91 7711 
 Polska 
-MEDICE Arzneimittel Pütter GmbH &amp; Co. KG<br />
+MEDICE Arzneimittel P tter GmbH &amp; Co. KG<br />
 Tel.: + 48-(0)22 642 2e-mail: office@medice.pl </p>
 <p>France 
 BIOCODEX 
-Tél: +33 (0)1 41 24 30 e-mail: medinfo@biocodex.com </p>
+T l: +33 (0)1 41 24 30 e-mail: medinfo@biocodex.com </p>
 <p>Portugal 
-Italfarmaco, Produtos Farmacêuticos, Lda. 
+Italfarmaco, Produtos Farmac uticos, Lda. 
 Tel. +351 214 342 e-mail: geral@itf-farma.pt </p>
 <p>Hrvatska 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>România 
+<p>Rom nia 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -360,9 +340,9 @@ e-mail: neurim@neurim.com </p>
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7Slovenská republika 
+S mi: +354 535 7Slovensk  republika 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -372,9 +352,8 @@ Tel: +39 049 8232e-mail: info@fidiapharma.it </p>
 <p>Suomi/Finland 
 Takeda Oy<br />
 Puh/Tel: +358 20 746 5000  </p>
-<p>Κύπρος 
-RAD Neurim Pharmaceuticals EEC SARL 
-Τηλ : +33 185149776 (FR) 
+<p>RAD Neurim Pharmaceuticals EEC SARL 
+  : +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
 <p>Sverige 
 Takeda Pharma AB 

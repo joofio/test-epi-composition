@@ -4,7 +4,7 @@ Instance: composition-en-1fbb86a1ee3583c2169c9930c1d58b96
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuceiva Package Leaflet"
 Description:  "Composition for nuceiva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,12 +83,14 @@ psychological impact. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take nuceiva"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NUCEIVA must not be used: 
-- if you are allergic to botulinum toxin type A or any of the other ingredients of this medicine 
-(listed in section 6); 
-- if you have myasthenia gravis or Eaton Lambert syndrome (chronic diseases affecting the 
-muscles); 
-- if you have an infection or inflammation at the proposed injection sites. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NUCEIVA must not be used:</p>
+<ul>
+<li>if you are allergic to botulinum toxin type A or any of the other ingredients of this medicine 
+(listed in section 6); </li>
+<li>if you have myasthenia gravis or Eaton Lambert syndrome (chronic diseases affecting the 
+muscles); </li>
+<li>if you have an infection or inflammation at the proposed injection sites. </li>
+</ul>
 <p>Warnings and precautions<br />
 Side effects possibly related to the spread of botulinum toxin from the site of injection can occur very 
 rarely (e.g. muscle weakness, difficulty in swallowing or food or liquid entering the airways). Patients 
@@ -103,14 +105,16 @@ of at least three months between doses. </li>
 <li>Very rarely, an allergic reaction can occur after the injection of botulinum toxin. </li>
 <li>Drooping of the eyelid may occur after treatment. </li>
 </ul>
-<p>Please tell your doctor if: 
-- you had problems with previous botulinum toxin injections; 
-- you see no significant improvement of your lines one month after your first course of treatment; 
-- you suffer from certain diseases affecting your nervous system (such as amyotrophic lateral 
-sclerosis or motor neuropathy); 
-- you have inflammation at the proposed injection site(s); 
-- the muscles to be injected are weak or wasted; 
-- you have a bleeding disorder as injection may lead to bruising. </p>
+<p>Please tell your doctor if:</p>
+<ul>
+<li>you had problems with previous botulinum toxin injections; </li>
+<li>you see no significant improvement of your lines one month after your first course of treatment; </li>
+<li>you suffer from certain diseases affecting your nervous system (such as amyotrophic lateral 
+sclerosis or motor neuropathy); </li>
+<li>you have inflammation at the proposed injection site(s); </li>
+<li>the muscles to be injected are weak or wasted; </li>
+<li>you have a bleeding disorder as injection may lead to bruising. </li>
+</ul>
 <p>Children and adolescents 
 The use of NUCEIVA is not recommended in individuals under 18 years. </p>
 <p>Other medicines and NUCEIVA 
@@ -131,7 +135,7 @@ are not using contraception.  </p>
 of machines dangerous. Do not drive or use machinery until such effects have cleared. </p>
 <p>NUCEIVA contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose; this means it is essentially 
-‘sodium- free’. </p>         </div>"""   
+ sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nuceiva"
@@ -142,26 +146,21 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose; this means it i
 toxin. </p>
 <p>NUCEIVA should only be injected by physicians with appropriate qualifications and expertise in the 
 treatment of glabellar lines at maximum frown. </p>
-<p>The usual dose of NUCEIVA is 20 Units. You will be injected with the recommended volume of </p>         </div>"""         
+<p>The usual dose of NUCEIVA is 20 Units. You will be injected with the recommended volume of 
+0.1 millilitre (ml) (4 Units) of NUCEIVA into each of 5 injection sites. </p>
+<p>Improvement of severity of the lines between the eyebrows generally occurs within a few days of 
+treatment. </p>
+<p>The interval between treatments will be decided by your doctor. </p>
+<p>How NUCEIVA is injected  </p>
+<p>NUCEIVA is injected into your muscles (intramuscularly), directly into the affected area above and 
+between the eyebrows. </p>
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Improvement of severity of the lines between the eyebrows generally occurs within a few days of 
-treatment. </p>
-<p>The interval between treatments will be decided by your doctor. </p>
-<p>How NUCEIVA is injected  </p>
-<p>NUCEIVA is injected into your muscles (intramuscularly), directly into the affected area above and 
-between the eyebrows. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store nuceiva"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store nuceiva"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 In general, side effects occur within the first few days after injection and are temporary. Most side 
@@ -187,13 +186,113 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V.  By reporting side effects, you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store nuceiva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nuceiva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
+<p>Unopened vial </p>
+<p>Do not use NUCEIVA after the expiry date which is stated on the vial and the carton after EXP. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
-<p>Unopened vial </p>
-<p>Do not use NUCEIVA after the expiry date which is stated on the vial and the carton after EXP. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NUCEIVA contains<br />
+- The active substance is: 50 Units botulinum toxin type A. 
+- The other ingredients are human albumin and sodium chloride.  </p>
+<p>What NUCEIVA looks like and contents of the pack 
+NUCEIVA is presented as a white powder for solution for injection in a transparent glass vial.<br />
+Each pack contains 1 vial, or 4 (4 x 1) vials, or 10 (10 x 1) vials. 
+Not all pack sizes may be marketed.  </p>
+<p>Marketing Authorisation Holder and Manufacturer<br />
+Evolus Pharma B.V. 
+Apollolaan 1077 AR Amsterdam<br />
+The Netherlands </p>
+<p>For any information about this medicine, please contact the Marketing Authorisation Holder </p>
+<p>This leaflet was last revised in{month YYYY}. </p>
+<hr />
+<p>THE FOLLOWING INFORMATION IS INTENDED FOR MEDICAL OR HEALTHCARE 
+PROFESSIONALS ONLY: </p>
+<p>Botulinum toxin units are not interchangeable from one product to another. Doses recommended in 
+units are different from other botulinum toxin preparations. </p>
+<p>Reconstitution should be performed in accordance with good clinical practice, particularly with respect 
+to aseptic technique. NUCEIVA is reconstituted with sodium chloride 9 mg/ml (0.9%) solution for 
+injection. 1.25 mL of sodium chloride 9 mg/ml (0.9%) solution for injection is drawn up into a syringe 
+in order to obtain a reconstituted solution for injection at a concentration of 4 Units/0.1 mL. </p>
+<p>Amount of solvent added to 50 Unit vial<br />
+(sodium chloride 9 mg/ml (0.9%) solution for injection) 
+Resulting dose<br />
+(Units per 0.1 mL) 
+1.25 mL<br />
+4.0 U </p>
+<p>The central part of the rubber cap should be cleaned with alcohol. Inject the diluent slowly into the vial 
+with a needle through the rubber stopper and gently rotate the vial avoiding bubble formation. The vial 
+has to be discarded if the vacuum does not pull the diluent into the vial. Once reconstituted, the 
+solution for injection should be visually inspected prior to use to verify it is a clear, colourless solution 
+free of particulate matter. </p>
+<p>Reconstituted NUCEIVA (50 Units/1.25 mL) is injected using a sterile 30 gauge needle. Four Units 
+(4 U/ 0.1 mL) are administered in each of the 5 injection sites (see Figure 1): 2 injections in each 
+corrugator muscle (inferior medial and superior medial aspect) and 1 injection in the procerus muscle 
+for a total dose of 20 Units. </p>
+<p>In order to reduce the complication of eyelid ptosis the following steps should be taken:</p>
+<ul>
+<li>Avoid injection near the levator palpebrae superioris, particularly in patients with larger brow 
+depressor complexes. </li>
+<li>Lateral corrugator injections should be placed at least 1 cm above the bony supraorbital ridge. </li>
+<li>Ensure the injected volume/dose is accurate and where feasible kept to a minimum. </li>
+</ul>
+<p>Procedure to follow for safe disposal of vials, syringes and materials used: </p>
+<p>Immediately after use, unused reconstituted NUCEIVA solution for injection in the vial and/or the 
+syringe must be inactivated, prior to disposal, with 2 mL of dilute sodium hypochlorite solution at 0.5% 
+or 1% available chlorine.  Following inactivation, dispose of in accordance with local requirements. 
+Used vials, syringes and materials should not be emptied and must be discarded into appropriate 
+containers and disposed of according to local regulations. </p>
+<p>Recommendations in the event of an accident when handling botulinum toxin: </p>
+<p>In the event of an accident when handling the product, whether in the vacuum-dried state or 
+reconstituted, the appropriate measures described below must be initiated immediately. </p>
+<ul>
+<li>
+<p>The toxin is very sensitive to heat and certain chemical agents. </p>
+</li>
+<li>
+<p>Any spillage must be wiped up: either with an absorbent material soaked in a solution of sodium 
+hypochlorite (Javel solution) in the case of the vacuum-dried product, or with a dry absorbent 
+material in the case of the reconstituted product. </p>
+</li>
+<li>
+<p>Contaminated surfaces must be cleaned with an absorbent material soaked in a solution of 
+sodium hypochlorite (Javel solution) and then dried. </p>
+</li>
+<li>
+<p>If a vial is broken, carefully collect the pieces of glass and wipe up the product as stated above, 
+avoiding cuts to the skin. </p>
+</li>
+<li>
+<p>If splashed, wash with a solution of sodium hypochlorite and then rinse thoroughly with plenty of 
+water. </p>
+</li>
+<li>
+<p>If splashed into the eyes, rinse eyes thoroughly with plenty of water or with an eye wash solution. </p>
+</li>
+<li>
+<p>If the operator injures himself (cuts, pricks himself), proceed as above and take the appropriate 
+medical steps according to the dose injected. </p>
+</li>
+</ul>
+<p>These instructions for use, handling and disposal should be strictly followed. </p>
+<p>Package leaflet: Information for the user </p>
+<p>NUCEIVA 100 Units powder for solution for injection<br />
+botulinum toxin type A </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again.<br />
+- If you have any further questions, ask your doctor or pharmacist. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours.<br />
+- If you have any side effects, talk to your doctor or pharmacist. This includes any possible side 
+effects not listed in this leaflet. See section </p>         </div>"""      
 

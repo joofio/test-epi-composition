@@ -4,7 +4,7 @@ Instance: composition-en-8fdef97116c9e46e3458e3dc3216f0d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for orserdu Package Leaflet"
 Description:  "Composition for orserdu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -80,8 +80,16 @@ for the hormone oestrogen on their surface, and that is human epidermal growth f
 (HER2)-negative, meaning that cancer cells have no or only a small amount of this receptor on their 
 surface. ORSERDU is used as monotherapy (used on its own) in patients whose cancer has not 
 responded to or progressed further following at least one line of hormonal treatment including a 
-CDK 4/6 inhibitor and who have certain changes (mutations) in a gene called ESR1.<br />
-Your doctor will take a sample of your blood, which will be tested for these ESR1 mutations. A 
+CDK 4/6 inhibitor and who have certain changes (mutations) in a gene called ESR</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor will take a sample of your blood, which will be tested for these ESR1 mutations. A 
 positive result is required for initiation of treatment with ORSERDU. </p>
 <p>How ORSERDU works </p>
 <p>Oestrogen receptors are a group of proteins found inside the cells. They are activated when the 
@@ -92,17 +100,17 @@ destroying oestrogen receptors, ORSERDU can reduce the growth and spread of brea
 help to kill cancer cells. </p>
 <p>If you have any questions about how ORSERDU works or why this medicine has been prescribed for 
 you, ask your doctor, pharmacist, or nurse. </p>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take orserdu"
+  * title =  "3. How to take orserdu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take orserdu"
+  * code.text = "3. How to take orserdu"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use ORSERDU if: 
-- you are allergic to elacestrant or any of the other ingredients of this medicine (listed in 
-section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use ORSERDU if:</p>
+<ul>
+<li>you are allergic to elacestrant or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking ORSERDU </p>
 <ul>
@@ -119,31 +127,33 @@ ORSERDU should not be given to children and adolescents under 18 years of age. <
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This is because ORSERDU can affect the way some other medicines work. Also, some 
 other medicines can affect the way ORSERDU works. </p>
-<p>Tell your doctor if you take any of the following medicines: 
-- antibiotics to treat bacterial infections (such as ciprofloxacin, clarithromycin, erythromycin, 
-rifampicin, telithromycin) 
-- medicine for low blood sodium (such as conivaptan) 
-- medicines to treat depression (such as nefazodone or fluvoxamine) 
-- medicine to treat anxiety and alcohol withdrawal (such as tofisopam). 
-- medicines for the treatment of other cancers (such as crizotinib, dabrafenib, imatinib, lorlatinib, 
-or sotorasib) 
-- medicines for high blood pressure or chest pain (such as bosentan, diltiazem or verapamil) 
-- medicines for fungal infections (such as fluconazole, isavuconazole, itraconazole, ketoconazole, 
-posaconazole, or voriconazole) 
-- medicines for HIV infection (such as efavirenz, etravirine, indinavir, lopinavir, ritonavir, 
-nelfinavir, saquinavir, or telaprevir) 
-- medicines to treat irregular heartbeats (such as digoxin, dronedarone, or quinidine) 
-- medicines used in organ transplantation to prevent rejection (such as cyclosporine) 
-- medicines to prevent cardiovascular events and to treat high levels of cholesterol (such as 
-rosuvastatin) 
-- medicines used to prevent seizures (such as carbamazepine, cenobamate, phenobarbital, 
-phenytoin, or primidone) 
-- medicines to treat vomiting (such as aprepitant) 
-- herbal medicines used to treat depression containing St. John’s wort </p>
+<p>Tell your doctor if you take any of the following medicines:</p>
+<ul>
+<li>antibiotics to treat bacterial infections (such as ciprofloxacin, clarithromycin, erythromycin, 
+rifampicin, telithromycin) </li>
+<li>medicine for low blood sodium (such as conivaptan) </li>
+<li>medicines to treat depression (such as nefazodone or fluvoxamine) </li>
+<li>medicine to treat anxiety and alcohol withdrawal (such as tofisopam). </li>
+<li>medicines for the treatment of other cancers (such as crizotinib, dabrafenib, imatinib, lorlatinib, 
+or sotorasib) </li>
+<li>medicines for high blood pressure or chest pain (such as bosentan, diltiazem or verapamil) </li>
+<li>medicines for fungal infections (such as fluconazole, isavuconazole, itraconazole, ketoconazole, 
+posaconazole, or voriconazole) </li>
+<li>medicines for HIV infection (such as efavirenz, etravirine, indinavir, lopinavir, ritonavir, 
+nelfinavir, saquinavir, or telaprevir) </li>
+<li>medicines to treat irregular heartbeats (such as digoxin, dronedarone, or quinidine) </li>
+<li>medicines used in organ transplantation to prevent rejection (such as cyclosporine) </li>
+<li>medicines to prevent cardiovascular events and to treat high levels of cholesterol (such as 
+rosuvastatin) </li>
+<li>medicines used to prevent seizures (such as carbamazepine, cenobamate, phenobarbital, 
+phenytoin, or primidone) </li>
+<li>medicines to treat vomiting (such as aprepitant) </li>
+<li>herbal medicines used to treat depression containing St. John s wort </li>
+</ul>
 <p>ORSERDU with food and drink 
 Do not drink grapefruit juice or eat grapefruit while on treatment with ORSERDU as it may change 
 the amount of ORSERDU in your body and increase the side effects of ORSERDU (see Section 3 
-“How to take ORSERDU”. </p>
+ How to take ORSERDU . </p>
 <p>Pregnancy, breast-feeding and fertility 
 This medicine should only be used in postmenopausal women and in men. </p>
 <p>Pregnancy 
@@ -165,17 +175,18 @@ ORSERDU may impair fertility in women and men. </p>
 ORSERDU has no or negligible influence on the ability to drive and use machines. However, since 
 fatigue, weakness, and difficulty sleeping have been reported in some patients taking elacestrant, 
 caution should be observed by patients who experience those adverse reactions when driving or 
-operating machinery. </p>         </div>"""   
-                    
+operating machinery. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take orserdu"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take orserdu"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
 <p>ORSERDU should be taken with food, just avoid grapefruit and grapefruit juice during treatment with 
-ORSERDU (see section 2 “ORSERDU with food and drink”). Taking ORSERDU with food may 
+ORSERDU (see section 2  ORSERDU with food and drink ). Taking ORSERDU with food may 
 reduce nausea and vomiting. </p>
 <p>Take your dose of this medicine at approximately the same time each day. This will help you to 
 remember to take your medicine. </p>
@@ -197,13 +208,12 @@ time the next day. Do not take a double dose to make up for the one that you mis
 <p>If you stop taking ORSERDU 
 Do not stop using this medicine without talking to your doctor or pharmacist. If treatment with 
 ORSERDU is stopped, your condition may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store orserdu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store orserdu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Tell your doctor or nurse if you notice any of the following side effects: </p>
@@ -253,10 +263,11 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store orserdu"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store orserdu"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister pack after EXP. 
@@ -266,85 +277,4 @@ The expiry date refers to the last day of that month. </p>
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ORSERDU contains 
-- The active substance is elacestrant. 
-* 
-Each 86 mg ORSERDU film-coated tablet contains 86.3 mg of elacestrant. 
-* 
-Each 345 mg ORSERDU film-coated tablet contains 345 mg of elacestrant </p>
-<ul>
-<li>The other ingredients are: </li>
-</ul>
-<p>Tablet core 
-Microcrystalline cellulose [E460] 
-Silicified microcrystalline cellulose 
-Crospovidone [E1202] 
-Magnesium stearate [E470b] 
-Colloidal silicon dioxide [E551] </p>
-<p>Film-coating 
-Opadry II 85F105080 Blue containing polyvinyl alcohol [E1203], titanium dioxide [E171], 
-macrogol [E1521], talc [E553b] and brilliant blue FCF aluminium lake [E133] </p>
-<p>What ORSERDU looks like and contents of the pack </p>
-<p>ORSERDU is supplied as film-coated tablets in aluminium blisters. </p>
-<p>ORSERDU 86 mg film-coated tablets 
-Blue to light blue, biconvex round shaped film-coated tablet with “ME” debossed on one side and 
-plain face on the opposite side. Approximate diameter: 8.8 mm. </p>
-<p>ORSERDU 345 mg film-coated tablets 
-Blue to light blue, biconvex, oval shaped film-coated tablet with “MH” debossed on one side and plain 
-face on the opposite side. Approximate size: 19.2 mm (length), 10.8 mm (width). </p>
-<p>Each pack contains 28 film-coated tablets (4 blisters with 7 tablets each). </p>
-<p>Marketing Authorisation Holder 
-Stemline Therapeutics B.V.<br />
-Basisweg 10<br />
-1043 AP Amsterdam<br />
-The Netherlands </p>
-<p>Manufacturer 
-Stemline Therapeutics B.V. 
-Basisweg 10<br />
-1043 AP Amsterdam<br />
-The Netherlands </p>
-<p>or </p>
-<p>Berlin Chemie AG 
-Glienicker Weg 12489 Berlin 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien; България; 
-Česká republika; Danmark; Eesti; 
-Ελλάδα; Hrvatska; Ireland; Ísland; 
-Κύπρος; Latvija; Lietuva; 
-Luxembourg/Luxemburg; 
-Magyarország; Malta; Nederland; 
-Norge; Polska; Portugal; România; 
-Slovenija; Slovenská republika; 
-Suomi/Finland; Sverige 
-Stemline Therapeutics B.V. 
-Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
-<p>Italia 
-Menarini Stemline Italia S.r.l. 
-Tel: +39 800776EUmedinfo@menarinistemline.com </p>
-<p>Deutschland 
-Menarini Stemline Deutschland GmbH 
-Tel: +49 (0)800 0008EUmedinfo@menarinistemline.com </p>
-<p>Österreich 
-Stemline Therapeutics B.V. 
-Tel: +43 (0)800 297 EUmedinfo@menarinistemline.com 
-España 
-Menarini Stemline España, S.L.U. 
-Tel: +34919490EUmedinfo@menarinistemline.com </p>
-<p>United Kingdom (Northern Ireland) 
-Stemline Therapeutics B.V. 
-Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
-<p>France 
-Stemline Therapeutics B.V. 
-Tél: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

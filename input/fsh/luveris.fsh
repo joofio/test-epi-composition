@@ -4,7 +4,7 @@ Instance: composition-en-6624bca7fe55692be3ff2a3b6c3a161a
 InstanceOf: CompositionUvEpi
 Title: "Composition for luveris Package Leaflet"
 Description:  "Composition for luveris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -114,18 +114,18 @@ This medicine stimulates your ovaries. This increases your risk of developing ov
 hyperstimulation syndrome or OHSS. This is when your follicles develop too much and become large 
 cysts. If you get lower abdominal pain, gain any weight rapidly, feel sick or are vomiting or if you 
 have difficulty in breathing, talk to your doctor straight away who might ask you to stop using this 
-medicine (see section 4 under “Serious side effects”). </p>
+medicine (see section 4 under  Serious side effects ). </p>
 <p>In case you are not ovulating, and if the recommended dose and schedule of administration are 
 adhered to, the occurrence of OHSS is less likely. Luveris treatment seldom causes severe OHSS. This 
 becomes more likely if the medicine that is used for final follicular maturation (containing human 
-Chorionic Gonadotropin, hCG) is administered (see section 3 under “How much to use” for details). If 
+Chorionic Gonadotropin, hCG) is administered (see section 3 under  How much to use  for details). If 
 you are developing OHSS your doctor may not give you any hCG in this treatment cycle and you may 
 be told not to have sex or to use a barrier contraceptive method for at least four days. </p>
 <p>Your doctor will ensure careful monitoring of ovarian response, based on ultrasound and blood 
 sampling before and during the course of treatment. </p>
 <p>Multiple pregnancy 
 When using Luveris, you have a higher risk of being pregnant with more than one child at the same 
-time (“multiple pregnancy”, mostly twins), than if you conceived naturally. Multiple pregnancy may 
+time ( multiple pregnancy , mostly twins), than if you conceived naturally. Multiple pregnancy may 
 lead to medical complications for you and your babies. You can reduce the risk of multiple pregnancy 
 by using the right dose of Luveris at the right times. When undergoing assisted reproductive 
 technologies, the risk of having a multiple pregnancy is related to your age, the quality and the number 
@@ -161,7 +161,7 @@ Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Driving and using machines 
 Luveris has no or negligible influence on the ability to drive and use machines. </p>
 <p>Luveris contains sodium 
-Luveris contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium free”. </p>         </div>"""   
+Luveris contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take luveris"
@@ -184,9 +184,9 @@ Luveris is usually used every day for up to three weeks simultaneously with inje
 <p>When the desired response has been obtained, a single injection of hCG is given 24 to 48 hours after 
 the last injections of Luveris and FSH. You are recommended to have sexual intercourse on the day of, 
 and the day following, administration of the hCG. Alternatively, intrauterine insemination or another 
-medically assisted reproduction procedure may be performed based on your doctor’s judgment. </p>
+medically assisted reproduction procedure may be performed based on your doctor s judgment. </p>
 <p>If an excessive response is obtained, treatment should be stopped and hCG withheld (see section 4 
-under “Ovarian hyperstimulation syndrome (OHSS)”). For the following cycle, your doctor will 
+under  Ovarian hyperstimulation syndrome (OHSS) ). For the following cycle, your doctor will 
 prescribe FSH at a lower dose than that of the previous cycle. </p>
 <p>Method of administration 
 Luveris is intended for subcutaneous use which means it is given by injection under the skin. Each vial 
@@ -194,8 +194,12 @@ is for single use only. </p>
 <p>If you administer Luveris to yourself, please carefully read the following instructions: 
 * Wash your hands. It is important that your hands and the items you use be as clean as possible. </p>
 <ul>
-<li>Assemble everything you need. Find a clean area and lay out everything: </li>
-<li>one vial of Luveris, </li>
+<li>
+<p>Assemble everything you need. Find a clean area and lay out everything:</p>
+</li>
+<li>
+<p>one vial of Luveris, </p>
+</li>
 <li>one ampoule of solvent, </li>
 <li>two alcohol swabs, </li>
 <li>one syringe, </li>
@@ -246,8 +250,8 @@ bubbles are gone. </p>
 <li>Immediately inject the solution: Your doctor or nurse will have already advised you where to 
 inject (e.g. tummy, front of thigh). Wipe the chosen area with an alcohol swab. Firmly pinch the </li>
 </ul>
-<p>skin together and insert the needle at a 45° to 
-90° angle using a dart-like motion. Inject under the 
+<p>skin together and insert the needle at a 45  to 
+90  angle using a dart-like motion. Inject under the 
 skin, as you were taught. Do not inject directly into 
 a vein. Inject the solution by pushing gently on the 
 plunger. Take as much time as you need to inject 
@@ -259,7 +263,7 @@ empty glass containers in the sharps container provided. Any unused solution mus
 <p>If you use more Luveris than you should 
 The effects of an overdose of Luveris are unknown, nevertheless there is a possibility that ovarian 
 hyperstimulation syndrome may occur (see section 4). However, this will only occur if hCG is 
-administered (see section 2 under “Warnings and precautions”). </p>
+administered (see section 2 under  Warnings and precautions ). </p>
 <p>If you forget to use Luveris 
 Do not use a double dose to make up for a forgotten dose. Please contact your doctor. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
@@ -280,12 +284,12 @@ sometimes be serious. This side effect is very rare (may affect up to 1 in 10 00
 <p>Ovarian hyperstimulation syndrome (OHSS) 
 * Lower abdominal pain together with nausea or vomiting may be the symptoms of ovarian 
 hyperstimulation syndrome (OHSS). Your ovaries may have over-reacted to the treatment and 
-formed large sacs of fluid or cysts (see section 2 under “Ovarian hyperstimulation syndrome 
-(OHSS)”). This side effect is common (may affect up to 1 in 10 people). If this happens, your 
+formed large sacs of fluid or cysts (see section 2 under  Ovarian hyperstimulation syndrome 
+(OHSS) ). This side effect is common (may affect up to 1 in 10 people). If this happens, your 
 doctor will need to examine you as soon as possible. 
 * Serious blood clotting complications (thromboembolic events) usually with severe OHSS are 
 found very rarely. This could cause chest pain, breathlessness, stroke or heart attack (see 
-section 2 under “Blood clotting problems”). </p>
+section 2 under  Blood clotting problems ). </p>
 <p>Other common side effects 
 * Headache 
 * Feeling sick, vomiting, diarrhoea, abdominal discomfort or abdominal pain 
@@ -310,7 +314,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the carton and the vials after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. Store in the original package in order to protect from light. </p>
+<p>Do not store above 25 C. Store in the original package in order to protect from light. </p>
 <p>Do not use this medicine if you notice any visible signs of deterioration, such as discolouration of the 
 powder or damage to the container. </p>
 <p>The medicine should be administered immediately after dissolving the powder. </p>

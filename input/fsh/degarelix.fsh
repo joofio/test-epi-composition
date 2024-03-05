@@ -4,7 +4,7 @@ Instance: composition-en-f812f9eb1d2ca77fff87e615574ce4dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for degarelix Package Leaflet"
 Description:  "Composition for degarelix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3.  How to use Degarelix Accord 
 4.  Possible side effects 
 5.  How to store Degarelix Accord 
-6.  Contents of the pack and other information 
-         </div>"""   
+6.  Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -83,25 +82,25 @@ testosterone that stimulates the prostate cancer. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take degarelix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before you use Degarelix Accord </p>
-<p>Do not use Degarelix Accord 
- 
-if you are allergic to degarelix or any of the other ingredients of this medicine (listed in section 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Degarelix Accord </p>
+<p>if you are allergic to degarelix or any of the other ingredients of this medicine (listed in section 
 6). </p>
 <p>Warnings and precautions 
-Please tell your doctor if you have any of the following: 
-- Any cardiovascular conditions or heart rhythm problems (arrythmia), or are being treated with 
+Please tell your doctor if you have any of the following:</p>
+<ul>
+<li>Any cardiovascular conditions or heart rhythm problems (arrythmia), or are being treated with 
 medicines for this condition. The risk of heart rhythm problems may be increased when using 
-Degarelix Accord. 
-- Diabetes mellitus. Worsening or onset of diabetes may occur. If you have diabetes, you may 
-have to measure blood glucose more frequently. 
-- Liver disease. Liver function may need to be monitored. 
-- Kidney disease. Use of Degarelix Accord has not been investigated in patients with severe 
-kidney disease. 
-- Osteoporosis or any condition that affects the strength of your bones. Reduced level of 
-testosterone may cause a reduction in bone calcium (thinning of bones). 
-- Severe hypersensitivity. Use of Degarelix Accord has not been investigated in patients with 
-severe hypersensitivity reactions. </p>
+Degarelix Accord. </li>
+<li>Diabetes mellitus. Worsening or onset of diabetes may occur. If you have diabetes, you may 
+have to measure blood glucose more frequently. </li>
+<li>Liver disease. Liver function may need to be monitored. </li>
+<li>Kidney disease. Use of Degarelix Accord has not been investigated in patients with severe 
+kidney disease. </li>
+<li>Osteoporosis or any condition that affects the strength of your bones. Reduced level of 
+testosterone may cause a reduction in bone calcium (thinning of bones). </li>
+<li>Severe hypersensitivity. Use of Degarelix Accord has not been investigated in patients with 
+severe hypersensitivity reactions. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents. </p>
 <p>Other medicines and Degarelix Accord 
@@ -121,8 +120,7 @@ disease. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take degarelix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to use Degarelix Accord </p>
-<p>This medicine is usually injected by a nurse or a doctor. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine is usually injected by a nurse or a doctor. </p>
 <p>The recommended starting dose is two consecutive injections of 120 mg. After that, you will receive a 
 monthly 80 mg injection. The injected liquid forms a gel from which degarelix is released over a 
 period of one month. </p>
@@ -194,9 +192,9 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vials, syringes and outer 
 packaging. The expiry date refers to the last day of that month. </p>
-<p>Store below 25°C.  </p>
+<p>Store below 25 C.  </p>
 <p>After reconstitution: 
-This medicine is stable for 4 hours at 25°C. 
+This medicine is stable for 4 hours at 25 C. 
 Due to the risk of microbial contamination, this medicine should be used immediately. If not used 
 immediately, the use of this medicine are the responsibility of the user. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -227,7 +225,7 @@ The solvent is a colourless, clear solution. </p>
 <p>Marketing Authorisation Holder<br />
 Accord Healthcare S.L.U.<br />
 World Trade Center, Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
+Edifici Est 6  planta,<br />
 08039 Barcelona,<br />
 Spain </p>
 <p>Manufacturer<br />
@@ -235,7 +233,7 @@ Accord Healthcare Polska Sp.z o.o.
 ul. Lutomierska 50, 
 95-200 Pabianice, Poland </p>
 <p>Or 
-Laboratori Fundació Dau 
+Laboratori Fundaci  Dau 
 C/ C, 12-14 Pol. Ind. 
 Zona Franca, Barcelona, 08040, 
 Spain </p>

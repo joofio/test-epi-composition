@@ -4,7 +4,7 @@ Instance: composition-en-26b20b6a67265be2cf1102bb12c87943
 InstanceOf: CompositionUvEpi
 Title: "Composition for matever Package Leaflet"
 Description:  "Composition for matever Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,11 +77,11 @@ side of the brain, but could thereafter extend to larger areas on both sides of 
 onset seizure with or without secondary generalisation). Levetiracetam has been given to you by 
 your doctor to reduce the number of fits. 
 * as an add-on to other antiepileptic medicines to treat: 
-▪ partial onset seizures with or without generalisation in adults, adolescents, children and infants 
+  partial onset seizures with or without generalisation in adults, adolescents, children and infants 
 from one month of age 
-▪ myoclonic seizures (short, shock-like jerks of a muscle or group of muscles)  in adults and 
+  myoclonic seizures (short, shock-like jerks of a muscle or group of muscles)  in adults and 
 adolescents from 12 years of age with juvenile myoclonic epilepsy 
-▪ primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in adults 
+  primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in adults 
 and adolescents from 12 years of age with idiopathic generalised epilepsy (the type of epilepsy 
 that is thought to have a genetic cause). </p>         </div>"""   
           
@@ -98,7 +98,7 @@ this medicine (listed in section 6). </p>
 <p>Warnings and precautions <br />
 Talk to your doctor before taking Matever </p>
 <ul>
-<li>If you suffer from kidney problems, follow your doctor’s instructions. He/she may decide if 
+<li>If you suffer from kidney problems, follow your doctor s instructions. He/she may decide if 
 your dose should be adjusted. </li>
 <li>If you notice any slowdown in the growth or unexpected puberty development of your child, 
 please contact your doctor. </li>
@@ -154,13 +154,13 @@ The other strengths of Matever tablets do not contain this ingredient. </p>     
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>Take the number of tablets following your doctor’s instructions. 
+<p>Take the number of tablets following your doctor s instructions. 
 Matever must be taken twice a day, once in the morning and once in the evening, at about the same 
 time each day. </p>
 <p>Adjunctive Therapy and monotherapy (from 16 years of age) </p>
 <ul>
 <li>
-<p>Adults (≥18 years) and adolescents (12 to 17 years) weighing 50 kg or more: 
+<p>Adults ( 18 years) and adolescents (12 to 17 years) weighing 50 kg or more: 
 Recommended dose: between 1 000 mg and 3 000 mg each day. 
 When you will first start taking Matever, your doctor will prescribe you a lower dose during 2 
 weeks before giving you the lowest daily dose. 
@@ -181,7 +181,7 @@ the age, weight and dose. </p>
 </ul>
 <p>Levetiracetam 100 mg/ml oral solution is a formulation more appropriate to infants and children 
 under the age of 6 years and to children and adolescents (from 6 to 17 years) weighing less than 
-50 kg and when tablets don’t allow accurate dose. </p>
+50 kg and when tablets don t allow accurate dose. </p>
 <p>Method of administration 
 Swallow Matever tablets with a sufficient quantity of liquid (e.g. a glass of water). You may take 
 Matever with or without food. After oral administration the bitter taste of levetiracetam may be 
@@ -189,7 +189,7 @@ experienced. </p>
 <p>Duration of treatment 
 * Matever is used as a chronic treatment. You should continue Matever treatment for as long as 
 your doctor has told you. 
-* Do not stop your treatment without your doctor’s advice as this could increase your seizures.  </p>
+* Do not stop your treatment without your doctor s advice as this could increase your seizures.  </p>
 <p>If you take more Matever than you should 
 The possible side effects of an overdose of Matever are sleepiness, agitation, aggression, decrease of 
 alertness, inhibition of breathing and coma. 
@@ -215,7 +215,7 @@ withdrawal of Matever. </p>
 <ul>
 <li>weakness, feel light-headed or dizzy or have difficulty breathing, as these may be signs of a 
 serious allergic (anaphylactic) reaction </li>
-<li>swelling of the face, lips, tongue and throat (Quincke’s oedema) </li>
+<li>swelling of the face, lips, tongue and throat (Quincke s oedema) </li>
 <li>flu-like symptoms and a rash on the face followed by an extended rash with a high temperature, 
 increased levels of liver enzymes seen in blood tests and an increase in a type of white blood 
 cell (eosinophilia) and enlarged lymph nodes (Drug Reaction with Eosinophilia and Systemic 
@@ -268,12 +268,12 @@ concentration); </li>
 * infection; 
 * decreased number of all blood cell types;<br />
 <em> severe allergic reactions (DRESS, anaphylactic reaction [severe and important allergic reaction], 
-Quincke’s oedema [swelling of the face, lips, tongue and throat]);<br />
+Quincke s oedema [swelling of the face, lips, tongue and throat]);<br />
 </em> decreased blood sodium concentration; 
 * suicide, personality disorders (behavioural problems), thinking abnormal (slow thinking, unable 
 to concentrate); 
 * delirium; 
-* encephalopathy (see sub-section “Tell your doctor immediately” for a detailed description of 
+* encephalopathy (see sub-section  Tell your doctor immediately  for a detailed description of 
 symptoms; 
 * seizures may become worse or happen more often; 
 * uncontrollable muscle spasms affecting the head, torso and limbs, difficulty in controlling 
@@ -284,7 +284,7 @@ movements, hyperkinesia (hyperactivity);
 * sudden decrease in kidney function; 
 * skin rash, which may form blisters and looks like small targets (central dark spots surrounded 
 by a paler area, with a dark ring around the edge) (erythema multiforme), a widespread rash with 
-blisters and peeling skin, particularly around the mouth, nose, eyes and genitals (Stevens–
+blisters and peeling skin, particularly around the mouth, nose, eyes and genitals (Stevens 
 Johnson syndrome), and a more severe form causing skin peeling in more than 30% of the body 
 surface (toxic epidermal necrolysis); 
 * rhabdomyolysis (breakdown of muscle tissue) and associated blood creatine phosphokinase 
@@ -310,7 +310,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton box and blister after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -382,21 +382,20 @@ Rodopi 69300,<br />
 Greece </p>
 <p>For any information about this medicine, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Pharmathen S.A. 
-Tél/Tel: +30 210 66 04 Lietuva 
+T l/Tel: +30 210 66 04 Lietuva 
 SIA ELVIM 
-Tel: +371 67808 
-България 
-Pharmathen S.A. 
-Teл.: +30 210 66 04<br />
+Tel: +371 67808 </p>
+<p>Pharmathen S.A. 
+Te .: +30 210 66 04<br />
 Luxembourg/Luxemburg 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
-Česká republika 
+ esk  republika 
 ARDEZ Pharma, spol. s r.o. 
 Tel.: +420 220 400<br />
-Magyarország<br />
+Magyarorsz g<br />
 Pharmathen S.A. 
 Tel.: +30 210 66 04<br />
 Danmark 
@@ -415,13 +414,12 @@ SIA ELVIM
 Tel: +371 67808 
 Norge 
 Pharmathen S.A. 
-Tlf: +30 210 66 04<br />
-Ελλάδα 
-INNOVIS PHARMA ΑΕΒΕ 
-Τηλ: +30 210 66 64 805-Österreich<br />
+Tlf: +30 210 66 04  </p>
+<p>INNOVIS PHARMA <br />
+ : +30 210 66 64 805- sterreich<br />
 Pharmathen S.A. 
 Tel: +30 210 66 04  </p>
-<p>España 
+<p>Espa a 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
 Polska 
@@ -429,33 +427,33 @@ Pharmathen S.A.
 Tel.: +30 210 66 04<br />
 France 
 Pharmathen S.A. 
-Tél: +30 210 66 04<br />
+T l: +30 210 66 04<br />
 Hrvatska 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
 Portugal 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
-România 
+Rom nia 
 Pharmathen S.A. 
 Tel: +30 210 66 04 Ireland 
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
 Slovenija 
 Pharmathen S.A. 
-Tel: +30 210 66 04 Ísland 
+Tel: +30 210 66 04  sland 
 Alvogen ehf. 
 Tel: +354 522 2 
-Slovenská republika<br />
+Slovensk  republika<br />
 ARDEZ Pharma, spol. s r.o. 
 Tel: +420 220 400 Italia 
 Ecupharma S.r.l 
 Tel : +39-02-38238 
 Suomi/Finland 
 Ailon Pharma Oy 
-Puh/Tel: +358 407024Κύπρος 
+Puh/Tel: +358 407024<br />
 The Star Medicines Importers Co. Ltd 
-Τηλ: +357 25371Sverige<br />
+ : +357 25371Sverige<br />
 Pharmathen S.A. 
 Tel: +30 210 66 04<br />
 Latvija<br />

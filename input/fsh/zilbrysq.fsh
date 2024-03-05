@@ -4,7 +4,7 @@ Instance: composition-en-46af9fe042942e0b323406b7f9580690
 InstanceOf: CompositionUvEpi
 Title: "Composition for zilbrysq Package Leaflet"
 Description:  "Composition for zilbrysq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,8 +70,8 @@ Usage: #example
   * code.text =  "1. What zilbrysq is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zilbrysq contains the active substance zilucoplan. Zilucoplan attaches to and blocks a protein in the 
-body known as the C5 complement protein, which is a part of the immune system (the body’s natural 
-defences). By blocking this protein, zilucoplan prevents the body’s immune system from attacking and 
+body known as the C5 complement protein, which is a part of the immune system (the body s natural 
+defences). By blocking this protein, zilucoplan prevents the body s immune system from attacking and 
 destroying connections between nerves and muscles, thereby improving symptoms of the disease. </p>
 <p>Zilbrysq is used together with standard therapy to treat adult patients with generalised myasthenia 
 gravis (gMG), an autoimmune disease that causes muscle weakness. It is used in adults whose immune 
@@ -96,7 +96,7 @@ section.<br />
 - if you have a meningococcal infection. </p>
 <p>Warnings and precautions  </p>
 <p>Meningococcal and other Neisseria infections alert 
-As Zilbrysq inhibits the body’s natural defences against infection, its use may increase your risk of 
+As Zilbrysq inhibits the body s natural defences against infection, its use may increase your risk of 
 infections caused by Neisseria meningitidis, such as meningococcal infection (severe infection of the 
 linings of the brain and spinal cord and/or an infection of the blood) and also of other infections 
 caused by Neisseria bacteria, such as gonorrhea. </p>
@@ -112,15 +112,17 @@ before using this medicine. </p>
 Because of the importance of rapidly identifying and treating meningococcal infections in patients 
 who receive Zilbrysq, you will be provided a card to carry with you at all times, listing specific signs 
 and symptoms of possible meningococcal infection. It also contains information for healthcare 
-professionals that may not be familiar with Zilbrysq. This card is named “patient alert card”. You will 
+professionals that may not be familiar with Zilbrysq. This card is named  patient alert card . You will 
 also be provided a patient/carer guide which contains further information on Zilbrysq. </p>
-<p>If you experience any of the following symptoms, you should immediately inform your doctor: 
-- Headache with additional symptoms such as nausea (feeling sick), vomiting, fever and stiff neck 
-or back 
-- Fever with or without a rash 
-- Eyes sensitive to light 
-- Confusion / drowsiness 
-- Muscle pain with flu-like symptoms </p>
+<p>If you experience any of the following symptoms, you should immediately inform your doctor:</p>
+<ul>
+<li>Headache with additional symptoms such as nausea (feeling sick), vomiting, fever and stiff neck 
+or back </li>
+<li>Fever with or without a rash </li>
+<li>Eyes sensitive to light </li>
+<li>Confusion / drowsiness </li>
+<li>Muscle pain with flu-like symptoms </li>
+</ul>
 <p>Treatment for meningococcal infection while travelling 
 If you are travelling in a region where you are unable to contact your doctor or will temporarily be 
 unable to receive medical treatment, your doctor may prescribe an antibiotic against Neisseria 
@@ -145,7 +147,7 @@ taking into account the benefit of breastfeeding for the child and the benefit o
 Zilbrysq is not likely to affect your ability to drive or use machines. </p>
 <p>Zilbrysq contains sodium 
 This medicine contains less than 23 mg of sodium per pre-filled syringe, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zilbrysq"
@@ -170,10 +172,10 @@ by colour
 &lt; 56 kg 
 16.6 mg 
 1 (Rubine red)<br />
-≥ 56 to &lt; 77 kg 
+  56 to &lt; 77 kg 
 23 mg 
 1 (Orange)<br />
-≥ 77 kg 
+  77 kg 
 32.4 mg 
 1 (Dark blue)  </p>
 <p>How Zilbrysq is given 
@@ -231,10 +233,10 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the syringe label and outer carton 
 after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C-8 °C). 
+<p>Store in a refrigerator (2  C-8  C). 
 Do not freeze. 
 Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
-<p>You may store the Zilbrysq pre-filled syringe at room temperature in the original carton up to 30 °C 
+<p>You may store the Zilbrysq pre-filled syringe at room temperature in the original carton up to 30  C 
 for only one single period of up to 3 months. Once Zilbrysq has been removed from the refrigerator, it 
 should not be placed back into the refrigerator. The product must be discarded if not used within 
 3 months or when the expiry date is reached, whichever occurs first. </p>
@@ -267,26 +269,24 @@ zilucoplan in 0.810 mL. </p>
 Multipack containing 28 (4 packs of 7) pre-filled syringes. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
-UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgium </p>
+UCB Pharma S.A., All e de la Recherche 60, B-1070 Bruxelles, Belgium </p>
 <p>Manufacturer 
-UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l’Alleud, Belgium. </p>
+UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l Alleud, Belgium. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 UCB Pharma S.A./NV<br />
-Tél/Tel: + 32 / (0)2 559 92 Lietuva 
+T l/Tel: + 32 / (0)2 559 92 Lietuva 
 UAB Medfiles 
-Tel: + 370 5 246 16<br />
-България 
-Ю СИ БИ България ЕООД<br />
-Teл.: + 359 (0) 2 962 30<br />
+Tel: + 370 5 246 16  </p>
+<p>Te .: + 359 (0) 2 962 30<br />
 Luxembourg/Luxemburg 
 UCB Pharma SA/NV<br />
-Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 UCB s.r.o.<br />
-Tel: + 420 221 773 Magyarország 
-UCB Magyarország Kft.<br />
+Tel: + 420 221 773 Magyarorsz g 
+UCB Magyarorsz g Kft.<br />
 Tel.: + 36-(1) 391 0Danmark 
 UCB Nordic A/S<br />
 Tlf: + 45 / 32 46 24<br />
@@ -299,18 +299,17 @@ Tel: + 49 /(0) 2173 48 4Nederland
 UCB Pharma B.V.<br />
 Tel: + 31 / (0)76-573 11  </p>
 <p>Eesti 
-OÜ Medfiles 
+O  Medfiles 
 Tel: + 372 730 5 
 Norge 
 UCB Nordic A/S<br />
-Tlf: + 47 / 67 16 5 
-Ελλάδα 
-UCB Α.Ε.<br />
-Τηλ: + 30 / 2109974 
-Österreich 
+Tlf: + 47 / 67 16 5 </p>
+<p>UCB  . .<br />
+ : + 30 / 2109974 
+ sterreich 
 UCB Pharma GmbH<br />
 Tel: + 43-(0)1 291 80<br />
-España 
+Espa a 
 UCB Pharma, S.A.<br />
 Tel: + 34 / 91 570 34<br />
 Polska 
@@ -318,9 +317,9 @@ UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o.
 Tel: + 48 22 696 99<br />
 France 
 UCB Pharma S.A.<br />
-Tél: + 33 / (0)1 47 29 44<br />
+T l: + 33 / (0)1 47 29 44<br />
 Portugal 
-UCB Pharma (Produtos Farmacêuticos), Lda<br />
+UCB Pharma (Produtos Farmac uticos), Lda<br />
 Tel: + 351 21 302 5 
 Hrvatska 
 Medis Adria d.o.o.<br />
@@ -328,27 +327,26 @@ Tel: +385 (0) 1 230 34<br />
 Ireland 
 UCB (Pharma) Ireland Ltd.<br />
 Tel: + 353 / (0)1-46 37<br />
-România 
+Rom nia 
 UCB Pharma Romania S.R.L.<br />
 Tel: + 40 21 300 29<br />
 Slovenija 
 Medis, d.o.o.<br />
 Tel: + 386 1 589 69<br />
-Ísland 
+ sland 
 Vistor hf.<br />
 Simi: + 354 535 7 
-Slovenská republika 
-UCB s.r.o., organizačná zložka<br />
+Slovensk  republika 
+UCB s.r.o., organiza n  zlo ka<br />
 Tel: + 421 (0) 2 5920 2 
 Italia 
 UCB Pharma S.p.A.<br />
 Tel: + 39 / 02 300<br />
 Suomi/Finland 
 UCB Pharma Oy Finland<br />
-Puh/Tel: + 358 9 2514 4 
-Κύπρος 
-Lifepharma (Z.A.M.) Ltd<br />
-Τηλ: + 357 22 056 
+Puh/Tel: + 358 9 2514 4 </p>
+<p>Lifepharma (Z.A.M.) Ltd<br />
+ : + 357 22 056 
 Sverige 
 UCB Nordic A/S<br />
 Tel: + 46 / (0) 40 294<br />

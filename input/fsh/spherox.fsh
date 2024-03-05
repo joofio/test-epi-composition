@@ -4,7 +4,7 @@ Instance: composition-en-c8b09940edf0aa917a934cf86ca85bbd
 InstanceOf: CompositionUvEpi
 Title: "Composition for spherox Package Leaflet"
 Description:  "Composition for spherox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ adolescents whose bones in the joint have finished growing. Cartilage is a hard 
 your joints, on the ends of the bones. It protects the bones and allows joints to work smoothly. 
 Spherox is used in adults, or adolescents whose bones have finished growing, when the cartilage in the 
 knee joint is damaged, for example by acute injury, such as a fall or long-term wear due to incorrect 
-weight bearing on the joint. Spherox is used to treat defects up to 10 cm² in size. </p>
+weight bearing on the joint. Spherox is used to treat defects up to 10 cm  in size. </p>
 <p>Spherox consists of so-called spheroids. A spheroid looks like a tiny pearl made of cartilage cells and 
 cartilage material derived from your own body. To make the spheroids, a small cartilage sample is 
 taken from one of your joints during a minor operation, and then grown in the laboratory to make the 
@@ -236,7 +236,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This product will be carefully stored by medical staff in the hospital where the medicine will be given 
 to you, and the storage instruction for them are as follow: </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP. 
-Store and transport refrigerated (1 °C to 10 °C). 
+Store and transport refrigerated (1  C to 10  C). 
 Do not freeze. Do not irradiate. 
 Do not open the outer packaging before use to prevent microbial contamination. </p>         </div>"""      
         
@@ -250,7 +250,7 @@ Do not open the outer packaging before use to prevent microbial contamination. <
 <ul>
 <li>The active substance of Spherox are spheroids that consist of cartilage cells and cartilage 
 material derived from your own body. 
-Spherox contains 10-70 spheroids per cm² of the cartilage defect. </li>
+Spherox contains 10-70 spheroids per cm  of the cartilage defect. </li>
 <li>The other ingredient is sodium chloride used as transport solution. </li>
 </ul>
 <p>What Spherox looks like and contents of the pack </p>
@@ -269,7 +269,7 @@ Deutscher Platz 5d
 Tel.: +49 341 99190 Fax: +49 341 99190 E-mail: info@codon.de </p>
 <p>Manufacturer </p>
 <p>CO.DON GmbH 
-Warthestraße 14513 Teltow, Germany </p>
+Warthestra e 14513 Teltow, Germany </p>
 <p>CO.DON GmbH 
 Deutscher Platz 5d 
 04103 Leipzig, Germany </p>

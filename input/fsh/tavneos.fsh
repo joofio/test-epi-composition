@@ -4,7 +4,7 @@ Instance: composition-en-74cee07ffddb72142d80fc4c20efe6f2
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavneos Package Leaflet"
 Description:  "Composition for tavneos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -133,7 +133,7 @@ medicines. </p>
 * carbamazepine, phenobarbital, phenytoin: medicines to treat epilepsy and other illnesses 
 * enzalutamide, mitotane: medicines to treat cancer 
 * rifampicin, a medicine to treat tuberculosis or certain other infections 
-* St. John’s wort, an herbal medicine used for mild depression. 
+* St. John s wort, an herbal medicine used for mild depression. 
 If short-term use of one of these medicines cannot be avoided during treatment with Tavneos, your 
 doctor may regularly check your condition to see how well Tavneos is working. </p>
 <p>Tavneos can affect or be affected by the following medicines.<br />
@@ -151,8 +151,8 @@ severe skin diseases and severe eye or joint inflammation
 * indinavir, efavirenz, etravirine, lopinavir/ritonavir, nelfinavir, ritonavir, saquinavir: medicines to 
 treat HIV infections 
 * itraconazole, posaconazole, voriconazole: medicines to treat fungal infections 
-* ketoconazole: a medicine to treat symptoms caused by the body’s excessive production of 
-cortisol called Cushing’s syndrome 
+* ketoconazole: a medicine to treat symptoms caused by the body s excessive production of 
+cortisol called Cushing s syndrome 
 * mibefradil: a medicine to treat irregular heart rhythm and high blood pressure 
 * modafinil: a medicine to treat an extreme tendency to fall asleep 
 * nefazodone: medicines to treat depression<br />
@@ -211,11 +211,9 @@ your doctor. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Contact your doctor immediately if the following serious side effects occur:<br />
 Very common (may affect more than 1 in 10 people) 
-* blood test showing increased levels of 
-– 
-liver enzymes (a sign of liver problems) 
-– 
-bilirubin: a yellow breakdown substance of the blood pigment. </p>
+* blood test showing increased levels of </p>
+<p>liver enzymes (a sign of liver problems) </p>
+<p>bilirubin: a yellow breakdown substance of the blood pigment. </p>
 <p>Common (may affect up to 1 in 10 people)<br />
 * lung inflammation (symptoms can be wheezing, difficulty breathing, or chest pain). </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
@@ -259,7 +257,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store tavneos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and bottle after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and bottle after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original bottle 
 in order to protect from light. </p>
@@ -276,25 +274,18 @@ throw away medicines you no longer use. These measures will help protect the env
 <ul>
 <li>The active substance is avacopan. 
 Each hard capsule contains 10 mg of avacopan. </li>
-<li>The other ingredients are: 
-– 
-macrogolglycerol hydroxystearate 
-– 
-macrogol (4000) 
-– 
-gelatin 
-– 
-polysorbate – 
-red iron oxide (E172), yellow iron oxide (E172), black iron oxide (E172) 
-– 
-titanium dioxide (E171) 
-– 
-shellac 
-– 
-potassium hydroxide. </li>
+<li>The other ingredients are: </li>
 </ul>
+<p>macrogolglycerol hydroxystearate </p>
+<p>macrogol (4000) </p>
+<p>gelatin </p>
+<p>polysorbate <br />
+red iron oxide (E172), yellow iron oxide (E172), black iron oxide (E172) </p>
+<p>titanium dioxide (E171) </p>
+<p>shellac </p>
+<p>potassium hydroxide. </p>
 <p>What Tavneos looks like and contents of the pack </p>
-<p>Tavneos hard capsules are made of a yellow body and light orange cap with “CCX168” in black ink. 
+<p>Tavneos hard capsules are made of a yellow body and light orange cap with  CCX168  in black ink. 
 Capsules are 22 mm long, with a diameter of 8 mm. 
 The capsules are packed in plastic bottles with a child-resistant closure. </p>
 <p>Tavneos is available in 
@@ -304,15 +295,15 @@ The capsules are packed in plastic bottles with a child-resistant closure. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder </p>
 <p>Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris la Défense Cedex 
+100 101 Terrasse Boieldieu 
+Tour Franklin La D fense 8 
+92042 Paris la D fense Cedex 
 France </p>
 <p>Manufacturer </p>
 <p>Vifor France<br />
-100–101 Terrasse Boieldieu<br />
-Tour Franklin La Défense 8<br />
-92042 Paris La Défense Cedex<br />
+100 101 Terrasse Boieldieu<br />
+Tour Franklin La D fense 8<br />
+92042 Paris La D fense Cedex<br />
 France </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in </p>

@@ -4,7 +4,7 @@ Instance: composition-en-4e8e0c5f72dbc27f3ff2eb4a522fe300
 InstanceOf: CompositionUvEpi
 Title: "Composition for torisel Package Leaflet"
 Description:  "Composition for torisel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Torisel is and what it is used for 
-2. What you need to know before you receive Torisel 
+2. What you need to know before you receive  Torisel 
 3. How Torisel is given 
 4. Possible side effects 
 5. How to store Torisel 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Torisel contains the active substance temsirolimus. </p>
 <p>Temsirolimus is a selective inhibitor of the enzyme mTOR (mammalian target of rapamycin) that 
 blocks tumour cell growth and division. </p>
-<p>Torisel is used to treat the following types of cancer in adults: </p>
+<p>Torisel is used to treat the following types of cancer in adults:</p>
 <ul>
 <li>Advanced cancer of the kidney (renal cancer). </li>
 <li>Previously treated mantle cell lymphoma, a type of cancer affecting the lymph nodes. </li>
@@ -102,8 +102,7 @@ life-threatening and rare fatal allergic reactions. Discuss alternatives with yo
 bruising, or if you are taking medicines which prevent your blood from clotting (such as 
 warfarin and acenocoumarole). Torisel may lead to a higher risk of bleeding into your brain. </li>
 </ul>
-<p>39
-Tell your doctor if you are taking blood thinning medicines or have any bleeding or bruising 
+<p>Tell your doctor if you are taking blood thinning medicines or have any bleeding or bruising 
 while you are on Torisel. 
 - if you have shortness of breath, cough, and/or fever. Torisel may weaken your immune 
 system. You may be at risk of getting an infection of the blood, skin, upper respiratory tract 
@@ -117,7 +116,7 @@ chest x-ray before and during your Torisel treatment. Promptly tell your doctor 
 worsening respiratory symptoms such as shortness of breath or difficulty breathing. 
 - if you drink alcohol or are an alcoholic. Torisel contains alcohol and can be harmful to those 
 who drink alcohol or to those suffering from alcoholism. Tell your doctor if you have a 
-drinking problem or consume alcohol (see section “Torisel contains ethanol [alcohol]”). 
+drinking problem or consume alcohol (see section  Torisel contains ethanol [alcohol] ). 
 - if you have or have had kidney problems. Your doctor will monitor your kidney function. 
 - if you have or have had liver problems. Tell your doctor if you develop any of the following 
 signs and symptoms of liver problems during Torisel treatment: itching, yellow eyes or skin, 
@@ -141,7 +140,7 @@ tract, runny nose, dizziness and infections.
 the need for insulin and/or oral antidiabetic agent therapy. Tell your doctor if you experience 
 any excessive thirst or increased frequency and quantity of urination. 
 - Torisel can decrease the number of blood cells that help in clotting and resisting infection. 
-This may increase the risk of bleeding/bruising and infection (see section “Possible side 
+This may increase the risk of bleeding/bruising and infection (see section  Possible side 
 effects"). 
 - if you have or have had eye problems like cataracts. Your doctor may prescribe a visual 
 examination before or during Torisel treatment. 
@@ -155,12 +154,11 @@ shortness of breath, feeling sick (nausea), anxiety, sweating or dizziness. </p>
 <p>This medicine is not for children and adolescents below 18 years of age because advanced cancer of 
 the kidney and mantle cell lymphoma are not relevant for these patients, and it did not work in other 
 cancers. </p>
-<p>40
-Other medicines and Torisel </p>
+<p>Other medicines and Torisel </p>
 <p>Tell your doctor or pharmacist if you are taking or have recently taken any other medicines.<br />
 Some medicines can interfere with the breakdown or metabolism of Torisel and therefore dose 
 adjustment of Torisel may be required. In particular, you should inform your doctor or pharmacist if 
-you are taking any of the following: </p>
+you are taking any of the following:</p>
 <ul>
 <li>protease inhibitors used in the treatment of Human Immunodeficiency Virus (HIV) </li>
 <li>antibiotics (including rifampicin) or antifungal medicines (including itraconazole, ketoconazole 
@@ -168,7 +166,7 @@ and voriconazole) used to treat infections </li>
 <li>nefazodone or selective serotonin re-uptake inhibitors used to treat depression </li>
 <li>anti-epileptic medicines, including carbamazepine, phenytoin and phenobarbital </li>
 <li>rifabutin used to treat infection in people with HIV and other diseases </li>
-<li>herbal medicines or natural remedies containing St. John’s wort (Hypericum perforatum) used 
+<li>herbal medicines or natural remedies containing St. John s wort (Hypericum perforatum) used 
 to treat mild depression </li>
 <li>angiotensin converting enzyme (ACE) inhibitors (such as enalapril, ramipril, lisinopril) or a 
 calcium channel blocker (such as amlodipine) used to treat high blood pressure or other 
@@ -195,18 +193,17 @@ growth and development of the baby. </p>
 <p>Torisel contains alcohol (ethanol). If you are pregnant or breast-feeding your baby, you should talk to 
 your doctor or pharmacist before taking this medicine. </p>
 <p>Torisel contains propylene glycol. If you are pregnant, do not take this medicine unless recommended 
-by your doctor (see section “Torisel contains propylene glycol"). Propylene glycol may pass into 
+by your doctor (see section  Torisel contains propylene glycol"). Propylene glycol may pass into 
 breast milk, if you are breast-feeding, do not take this medicine unless recommended by your doctor 
-(see section “Torisel contains propylene glycol"). </p>
+(see section  Torisel contains propylene glycol"). </p>
 <p>Driving and using machines </p>
 <p>Torisel is unlikely to influence the ability to drive and use machines. However, feeling or being sick 
 (nausea and vomiting) and difficulty in falling or staying asleep are very common side effects. If you </p>
-<p>41
-feel sick (nausea and vomiting) or you have difficulty in falling or staying asleep, take special care 
+<p>feel sick (nausea and vomiting) or you have difficulty in falling or staying asleep, take special care 
 when driving or using machines. </p>
 <p>For patients receiving the higher dose of Torisel for the treatment of mantle cell lymphoma, the 
 amount of alcohol in this medicine may impair your ability to drive or use machines (see section below 
-“Torisel contains ethanol [alcohol]”). </p>
+ Torisel contains ethanol [alcohol] ). </p>
 <p>Torisel contains ethanol (alcohol) </p>
 <p>This medicine contains ethanol (alcohol), equivalent to 18 ml beer or 7 ml wine per 25 mg dose. 
 Patients receiving the higher dose of 175 mg of Torisel for the initial treatment of mantle cell 
@@ -220,12 +217,12 @@ before taking this medicine.  </p>
 <p>The amount of alcohol in this medicine may alter the effects of other medicines. Talk to your doctor or 
 pharmacist if you are taking other medicines. </p>
 <p>The amount of alcohol in this medicine may impair your ability to drive or alter the effects of other 
-medicines (see sections “Warning and precautions” and “Driving and using machines”).  </p>
+medicines (see sections  Warning and precautions  and  Driving and using machines ).  </p>
 <p>Torisel contains propylene glycol </p>
 <p>Torisel contains 503.3 mg propylene glycol in each 25 mg dose which is equivalent to 201.33 mg/ml 
 diluted product. If your child is less than 5 years old, talk to your doctor or pharmacist before giving 
 them this medicine, in particular if they are being given other medicines that contain propylene glycol 
-or alcohol. If you are pregnant or breast‑feeding, or if you suffer from liver or kidney disease, do not 
+or alcohol. If you are pregnant or breast feeding, or if you suffer from liver or kidney disease, do not 
 take this medicine unless recommended by your doctor. Your doctor may carry out extra checks while 
 you are taking this medicine. </p>         </div>"""   
                     
@@ -248,7 +245,6 @@ period once weekly for 3 weeks followed by single weekly doses of 75 mg infused 
 30 to 60 minute period. </p>
 <p>Treatment with Torisel should continue until you are no longer benefiting from therapy or until 
 unacceptable side effects occur. </p>
-<p>42</p>
 <p>As this medicine is prepared and given by a healthcare professional, it is unlikely you will be given too 
 much or that you will miss a dose. </p>
 <p>If you are concerned about this, tell your doctor immediately. </p>
@@ -290,16 +286,19 @@ These symptoms might be caused by a blood clot in your lung. </p>
 examination of your chest. </li>
 <li>if the number of white cells in your blood has decreased. This may increase the risk of getting 
 fever and infections. </li>
-<li>if the number of platelet (a type of blood cell that helps to clot blood) has decreased. This may 
-increase the risk of bleeding in your body. </li>
-</ul>
-<p>43
-- if your blood levels of cholesterol and triglycerides have increased. 
-- if you experience any excessive thirst or increased frequency and quantity of urination. Your 
-doctor may prescribe you insulin and/or oral antidiabetic agent therapy. 
-- if you have recently undertaken a surgery. Your doctor may delay the administration of Torisel 
+<li>
+<p>if the number of platelet (a type of blood cell that helps to clot blood) has decreased. This may 
+increase the risk of bleeding in your body. </p>
+</li>
+<li>
+<p>if your blood levels of cholesterol and triglycerides have increased. </p>
+</li>
+<li>if you experience any excessive thirst or increased frequency and quantity of urination. Your 
+doctor may prescribe you insulin and/or oral antidiabetic agent therapy. </li>
+<li>if you have recently undertaken a surgery. Your doctor may delay the administration of Torisel 
 until the wound is fully recovered as this medicine could interfere with the healing processes of 
-pre-existing wounds. </p>
+pre-existing wounds. </li>
+</ul>
 <p>Other side effects with Torisel may include </p>
 <p>Very common side effects (may affect more than 1 in 10 people) </p>
 <p>General feeling of weakness, chills, swelling due to fluid retention, pain (including abdominal, back, 
@@ -335,8 +334,7 @@ inflammation and swelling of the voice box. </p>
 <p>Swelling of the face, lips, tongue, and throat, possibly causing difficulty breathing. </p>
 <p>Serious reactions of the skin and/or mucous membranes which may include painful blisters and fever 
 (Stevens-Johnson syndrome). </p>
-<p>44
-Unexplained muscle pain, tenderness or weakness which could indicate muscle damage 
+<p>Unexplained muscle pain, tenderness or weakness which could indicate muscle damage 
 (rhabdomyolysis) </p>
 <p>Reporting of side effects 
 If you get any side effect, talk to your doctor, pharmacist or nurse. This includes any possible side 
@@ -352,13 +350,13 @@ safety of this medicine </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the vial label and carton. The expiry 
 date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C)<br />
+<p>Store in a refrigerator (2 C - 8 C)<br />
 Do not freeze. </p>
 <p>Keep the vials in the outer carton in order to protect from light. </p>
 <p>After first dilution of the concentrate with 1.8 ml of the supplied solvent, the mixture may be stored for 
-up to 24 hours below 25°C and protected from light prior to further dilution. </p>
+up to 24 hours below 25 C and protected from light prior to further dilution. </p>
 <p>After further dilution of the concentrate-solvent mixture with sodium chloride 9 mg/ml (0.9%) solution 
-for injection, the solution may be stored for up to 6 hours below 25°C and protected from light. </p>
+for injection, the solution may be stored for up to 6 hours below 25 C and protected from light. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -376,10 +374,10 @@ you no longer use. These measures will help protect the environment. </p>       
 <p>After first dilution of the concentrate with 1.8 ml of the supplied solvent, the concentration of 
 temsirolimus is 10 mg/ml. </p>
 <ul>
-<li>The other ingredients in the concentrate are anhydrous ethanol, all-rac-α-tocopherol (E 307), 
+<li>The other ingredients in the concentrate are anhydrous ethanol, all-rac- -tocopherol (E 307), 
 propylene glycol (E 1520) and citric acid (E 330). The solvent contains polysorbate 80 (E 433), 
-macrogol 400 and anhydrous ethanol (see section 2 “Torisel contains ethanol [alcohol]” and 
-“Torisel contains propylene glycol). </li>
+macrogol 400 and anhydrous ethanol (see section 2  Torisel contains ethanol [alcohol]  and 
+ Torisel contains propylene glycol). </li>
 </ul>
 <p>What Torisel looks like and contents of the pack </p>
 <p>Torisel is a concentrate and solvent for solution for infusion. 
@@ -387,8 +385,7 @@ The concentrate is a clear, colourless to light-yellow solution. The solvent is 
 light-yellow to yellow solution. The solutions are essentially free from visible particulates. </p>
 <p>Each pack of Torisel contains one glass vial of 1.2 ml of concentrate and one glass vial of 2.2 ml of 
 solvent. </p>
-<p>45
-Marketing Authorisation Holder 
+<p>Marketing Authorisation Holder 
 Pfizer Europe MA EEIG 
 Boulevard de la Plaine 1050 Bruxelles 
 Belgium </p>
@@ -400,22 +397,22 @@ Zona Industriale
 Italy  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Pfizer S.A./ N.V.<br />
-Tél/Tel: +32 (0)2 554 62 11  </p>
+T l/Tel: +32 (0)2 554 62 11  </p>
 <p>Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel. +3705 2514000  </p>
-<p>България<br />
-Пфайзер Люксембург САРЛ, Клон България<br />
-Тел.: +359 2 970 4 
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4 
 Luxembourg/Luxemburg<br />
 Pfizer S.A./ N.V.<br />
-Tél/Tel: +32 (0)2 554 62 11  </p>
-<p>Česká republika<br />
+T l/Tel: +32 (0)2 554 62 11  </p>
+<p>esk  republika<br />
 Pfizer, spol. s r.o. 
 Tel: +420 283 004 111  </p>
-<p>Magyarország<br />
+<p>Magyarorsz g<br />
 Pfizer Kft.<br />
 Tel.: +36 1 488 3700  </p>
 <p>Danmark<br />
@@ -434,14 +431,13 @@ Pfizer Luxembourg SARL Eesti filiaal
 Tel: +372 666 7 
 Norge<br />
 Pfizer AS<br />
-Tlf: +47 67 52 61<br />
-Ελλάδα<br />
-PFIZER ΕΛΛΑΣ A.E. 
-Tηλ: +30 210 67 85 800  </p>
-<p>Österreich 
+Tlf: +47 67 52 61  </p>
+<p>PFIZER   A.E. 
+T : +30 210 67 85 800  </p>
+<p>sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 
-España<br />
+Espa a<br />
 Pfizer, S.L.<br />
 Tel: +34 91 490 99 00  </p>
 <p>Polska<br />
@@ -449,52 +445,50 @@ Pfizer Polska Sp. z o.o.,<br />
 Tel: +48 22 335 61 00  </p>
 <p>France<br />
 Pfizer 
-Tél: +33 (0)1 58 07 34<br />
+T l: +33 (0)1 58 07 34<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5 
 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: + 385 1 3908<br />
-România 
+Rom nia 
 Pfizer Romania S.R.L<br />
 Tel: +40 (0) 21 207 28  </p>
-<p>46
-Ireland<br />
+<p>Ireland<br />
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
 Tel: +44 (0)1304 616 
 Slovenija 
-Pfizer Luxembourg SARL, Pfizer, podružnica za 
-svetovanje s področja farmacevtske dejavnosti, 
+Pfizer Luxembourg SARL, Pfizer, podru nica za 
+svetovanje s podro ja farmacevtske dejavnosti, 
 Ljubljana<br />
 Tel: +386 (0)1 52 11<br />
-Ísland<br />
+ sland<br />
 Icepharma hf. 
-Sími: +354 540 8000<br />
-Slovenská republika 
+S mi: +354 540 8000<br />
+Slovensk  republika 
 Pfizer Luxembourg SARL, 
-organizačná zložka 
+organiza n  zlo ka 
 Tel: +421 2 3355 5 
 Italia<br />
 Pfizer S.r.l 
 Tel: +39 06 33 18<br />
 Suomi/Finland<br />
 Pfizer Oy<br />
-Puh/Tel: +358 (0)9 430<br />
-Κύπρος<br />
-PFIZER ΕΛΛΑΣ Α.Ε. (CYPRUS BRANCH) 
-Tηλ: +357 22 817690  </p>
+Puh/Tel: +358 (0)9 430  </p>
+<p>PFIZER    . . (CYPRUS BRANCH) 
+T : +357 22 817690  </p>
 <p>Sverige<br />
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel. +371 67035 
 United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0)1304 616 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}</em> </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

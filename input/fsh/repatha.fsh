@@ -4,7 +4,7 @@ Instance: composition-en-d26b9a973cbe92133eca8ac4cab69c79
 InstanceOf: CompositionUvEpi
 Title: "Composition for repatha Package Leaflet"
 Description:  "Composition for repatha Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,32 +70,38 @@ Usage: #example
   * code.text =  "1. What repatha is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Repatha is and how it works </p>
-<p>Repatha is a medicine that lowers levels of ‘bad’ cholesterol, a type of fat, in the blood. </p>
+<p>Repatha is a medicine that lowers levels of  bad  cholesterol, a type of fat, in the blood. </p>
 <p>Repatha contains the active substance evolocumab, a monoclonal antibody (a type of specialised 
 protein designed to attach to a target substance in the body). Evolocumab is designed to attach to a 
-substance called PCSK9 that affects the liver’s ability to take in cholesterol. By attaching to, and 
+substance called PCSK9 that affects the liver s ability to take in cholesterol. By attaching to, and 
 mopping up PCSK9, the medicine increases the amount of cholesterol entering the liver and so lowers 
 the level of cholesterol in the blood. </p>
 <p>What Repatha is used for </p>
 <p>Repatha is used in addition to your cholesterol lowering diet if you are: 
 * an adult with a high cholesterol level in your blood (primary hypercholesterolaemia 
-[heterozygous familial and non-familial] or mixed dyslipidaemia). It is given: 
-- together with a statin or other cholesterol lowering medication, if the maximum dose of a 
-statin does not lower levels of cholesterol sufficiently. 
-- alone or together with other cholesterol lowering medications when statins do not work 
-well or cannot be used. 
-* a child aged 10 years and older with a high cholesterol level in your blood because of a 
+[heterozygous familial and non-familial] or mixed dyslipidaemia). It is given:</p>
+<ul>
+<li>together with a statin or other cholesterol lowering medication, if the maximum dose of a 
+statin does not lower levels of cholesterol sufficiently. </li>
+<li>alone or together with other cholesterol lowering medications when statins do not work 
+well or cannot be used. </li>
+<li>a child aged 10 years and older with a high cholesterol level in your blood because of a 
 condition that runs in your family (heterozygous familial hypercholesterolaemia or HeFH). It is 
-given alone or together with other cholesterol lowering treatments 
-* an adult or a child aged 10 years and older with a high cholesterol level in your blood because 
+given alone or together with other cholesterol lowering treatments </li>
+<li>an adult or a child aged 10 years and older with a high cholesterol level in your blood because 
 of a condition that runs in your family (homozygous familial hypercholesterolaemia or HoFH). 
-It is given together with other cholesterol lowering treatments 
-* an adult with a high cholesterol level in your blood and established atherosclerotic 
-cardiovascular disease (a history of heart attack, stroke or blood vessel problems). It is given: 
-- together with a statin or other cholesterol lowering medication, if the maximum dose of a 
-statin does not lower levels of cholesterol sufficiently. 
-- alone or together with other cholesterol lowering medications when statins do not work 
-well or cannot be used. </p>
+It is given together with other cholesterol lowering treatments </li>
+<li>
+<p>an adult with a high cholesterol level in your blood and established atherosclerotic 
+cardiovascular disease (a history of heart attack, stroke or blood vessel problems). It is given:</p>
+</li>
+<li>
+<p>together with a statin or other cholesterol lowering medication, if the maximum dose of a 
+statin does not lower levels of cholesterol sufficiently. </p>
+</li>
+<li>alone or together with other cholesterol lowering medications when statins do not work 
+well or cannot be used. </li>
+</ul>
 <p>Repatha is used in patients who cannot control their cholesterol levels with a cholesterol lowering diet 
 alone. You should stay on your cholesterol lowering diet while taking this medicine. Repatha can help 
 prevent heart attack, stroke, and certain heart procedures to restore blood flow to the heart due to a 
@@ -136,8 +142,8 @@ of breast-feeding to the baby and the benefit of Repatha to the mother. </p>
 <p>Driving and using machines </p>
 <p>Repatha has no or negligible influence on the ability to drive and use machines. </p>
 <p>Repatha contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take repatha"
@@ -167,12 +173,12 @@ should be given within a 30 minute period. </p>
 <p>If your doctor decides that you or a caregiver can give the injections of Repatha, you or your caregiver 
 should receive training on how to prepare and inject Repatha correctly. Do not try to inject Repatha 
 until you have been shown how to do it by your doctor or nurse. </p>
-<p>See the detailed “Instructions for Use” at the end of this leaflet for instructions about how to store, 
+<p>See the detailed  Instructions for Use  at the end of this leaflet for instructions about how to store, 
 prepare, and give your Repatha injections at home. </p>
 <p>Before starting Repatha, you should be on a diet to lower your cholesterol. You should keep on this 
 cholesterol lowering diet while taking Repatha. </p>
 <p>If your doctor has prescribed Repatha along with another cholesterol lowering medicine, follow your 
-doctor’s instructions on how to take these medicines together. In this case, please read the dosage 
+doctor s instructions on how to take these medicines together. In this case, please read the dosage 
 instructions in the package leaflet of that particular medicine as well. </p>
 <p>If you use more Repatha than you should </p>
 <p>Contact your doctor or pharmacist immediately. </p>
@@ -218,11 +224,11 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). Do not freeze. 
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. 
 Store in the original carton in order to protect from light. </p>
-<p>Your pre-filled syringe may be left outside the refrigerator to reach room temperature (up to 25°C) 
+<p>Your pre-filled syringe may be left outside the refrigerator to reach room temperature (up to 25 C) 
 before injection. This will make the injection more comfortable. After removal from the refrigerator, 
-Repatha may be stored at room temperature (up to 25°C) in the original carton and must be used 
+Repatha may be stored at room temperature (up to 25 C) in the original carton and must be used 
 within 1 month. </p>
 <p>Do not use this medicine if you notice it is discoloured or contains large lumps, flakes or coloured 
 particles. </p>
@@ -266,23 +272,21 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
+Tel/T l: +32 (0)2 7752 
 Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7 
+Tel: +370 5 219 7 </p>
+<p>.: +359 (0)2 424 7 
 Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
+Tel/T l: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
 Tel: +420 221 773<br />
-Magyarország 
+Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44<br />
 Danmark 
@@ -303,14 +307,13 @@ Amgen Switzerland AG Vilniaus filialas
 Tel: +372 586 09 
 Norge 
 Amgen AB 
-Tel: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ.: +30 210 3447 
-Österreich 
+Tel: +47 23308 </p>
+<p>Amgen      . . . 
+ .: +30 210 3447 
+ sterreich 
 Amgen GmbH 
 Tel: +43 (0)1 50<br />
-España 
+Espa a 
 Amgen S.A. 
 Tel: +34 93 600 18<br />
 Polska 
@@ -318,15 +321,15 @@ Amgen Biotechnologia Sp. z o.o.
 Tel.: +48 22 581 3 
 France 
 Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
+T l: +33 (0)9 69 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 422 06<br />
 Hrvatska 
 Amgen d.o.o. 
 Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
+Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
@@ -334,10 +337,10 @@ Tel: +353 1 8527
 Slovenija 
 AMGEN zdravila d.o.o. 
 Tel: +386 (0)1 585 1 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114<br />
 Italia 
@@ -347,14 +350,14 @@ Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ.: +357 22741<br />
+ .: +357 22741<br />
 Sverige 
 Amgen AB 
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 

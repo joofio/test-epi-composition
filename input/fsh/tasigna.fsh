@@ -4,7 +4,7 @@ Instance: composition-en-7f2ab73e6ec5569c0d6e8f4a6e01c023
 InstanceOf: CompositionUvEpi
 Title: "Composition for tasigna Package Leaflet"
 Description:  "Composition for tasigna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,15 +84,17 @@ In patients with CML, a change in DNA (genetic material) triggers a signal that 
 produce abnormal white blood cells. Tasigna blocks this signal, and thus stops the production of these 
 cells. </p>
 <p>Monitoring during Tasigna treatment 
-Regular tests, including blood tests, will be performed during treatment. These tests will monitor: 
-- the amount of blood cells (white blood cells, red blood cells and platelets) in the body to see 
-how Tasigna is tolerated. 
-- pancreas and liver function in the body to see how Tasigna is tolerated. 
-- the electrolytes in the body (potassium, magnesium). These are important in the functioning of 
-the heart. 
-- the level of sugar and fats in the blood. 
+Regular tests, including blood tests, will be performed during treatment. These tests will monitor:</p>
+<ul>
+<li>the amount of blood cells (white blood cells, red blood cells and platelets) in the body to see 
+how Tasigna is tolerated. </li>
+<li>pancreas and liver function in the body to see how Tasigna is tolerated. </li>
+<li>the electrolytes in the body (potassium, magnesium). These are important in the functioning of 
+the heart. </li>
+<li>the level of sugar and fats in the blood. 
 The heart rate will also be checked using a machine that measures electrical activity of the heart (a test 
-called an “ECG”). </p>
+called an  ECG ). </li>
+</ul>
 <p>Your doctor will regularly evaluate your treatment and decide whether you should continue to take 
 Tasigna. If you are told to discontinue this medicine, your doctor will continue to monitor your CML 
 and may tell you to re-start Tasigna if your condition indicates that this is necessary. </p>
@@ -106,33 +108,35 @@ child, ask your doctor. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take tasigna"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all the doctor’s instructions carefully. They may differ from the general information contained 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all the doctor s instructions carefully. They may differ from the general information contained 
 in this leaflet. </p>
 <p>Do not take Tasigna 
 - if you are allergic to nilotinib or any of the other ingredients of this medicine (listed in 
 section 6). 
 If you think you may be allergic, tell your doctor before taking Tasigna. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Tasigna: 
-- if you have suffered prior cardiovascular events such as a heart attack, chest pain (angina), 
+Talk to your doctor or pharmacist before taking Tasigna:</p>
+<ul>
+<li>if you have suffered prior cardiovascular events such as a heart attack, chest pain (angina), 
 problems with the blood supply to your brain (stroke) or problems with the blood flow to your 
 leg (claudication) or if you have risk factors for cardiovascular disease such as high blood 
 pressure (hypertension), diabetes or problems with the level of fats in your blood (lipid 
-disorders). 
-- if you have a heart disorder, such as an abnormal electrical signal called “prolongation of the 
-QT interval”. 
-- if you are being treated with medicines that lower your blood cholesterol (statins), or affect the 
-heartbeat (anti-arrhythmics) or the liver (see Other medicines and Tasigna). 
-- if you suffer from lack of potassium or magnesium. 
-- if you have a liver or pancreas disorder. 
-- if you have symptoms such as easy bruising, feeling tired or short of breath or have experienced 
-repeated infections. 
-- if you have had a surgical procedure involving the removal of the entire stomach (total 
-gastrectomy). 
-- if you have ever had or might now have a hepatitis B infection. This is because Tasigna could 
+disorders). </li>
+<li>if you have a heart disorder, such as an abnormal electrical signal called  prolongation of the 
+QT interval . </li>
+<li>if you are being treated with medicines that lower your blood cholesterol (statins), or affect the 
+heartbeat (anti-arrhythmics) or the liver (see Other medicines and Tasigna). </li>
+<li>if you suffer from lack of potassium or magnesium. </li>
+<li>if you have a liver or pancreas disorder. </li>
+<li>if you have symptoms such as easy bruising, feeling tired or short of breath or have experienced 
+repeated infections. </li>
+<li>if you have had a surgical procedure involving the removal of the entire stomach (total 
+gastrectomy). </li>
+<li>if you have ever had or might now have a hepatitis B infection. This is because Tasigna could 
 cause hepatitis B to become active again, which can be fatal in some cases. Patients will be 
 carefully checked by their doctor for signs of this infection before treatment is started. 
-If any of these apply to you or your child, tell your doctor. </p>
+If any of these apply to you or your child, tell your doctor. </li>
+</ul>
 <p>During treatment with Tasigna 
 - if you faint (loss of consciousness) or have an irregular heart beat while taking this medicine, 
 tell your doctor immediately as this may be a sign of a serious heart condition. Prolongation of 
@@ -164,28 +168,30 @@ monitor growth at regular visits. </p>
 <p>Other medicines and Tasigna 
 Tasigna may interfere with some other medicines. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. This includes in particular: 
-- anti-arrhythmics – used to treat irregular heart beat; 
-- chloroquine, halofantrine, clarithromycin, haloperidol, methadone, moxifloxacin - medicines 
-that may have an unwanted effect on the electrical activity of the heart; 
-- ketoconazole, itraconazole, voriconazole, clarithromycin, telithromycin – used to treat 
-infections; 
-- ritonavir – a medicine from the class “ antiproteases” used to treat HIV; 
-- carbamazepine, phenobarbital, phenytoin – used to treat epilepsy; 
-- rifampicin – used to treat tuberculosis; 
-- St. John’s Wort – a herbal product used to treat depression and other conditions (also known as 
-Hypericum perforatum); 
-- midazolam – used to relieve anxiety before surgery; 
-- alfentanil and fentanyl – used to treat pain and as a sedative before or during surgery or medical 
-procedures; 
-- cyclosporine, sirolimus and tacrolimus – medicines that suppress the “self-defence” ability of 
+medicines. This includes in particular:</p>
+<ul>
+<li>anti-arrhythmics   used to treat irregular heart beat; </li>
+<li>chloroquine, halofantrine, clarithromycin, haloperidol, methadone, moxifloxacin - medicines 
+that may have an unwanted effect on the electrical activity of the heart; </li>
+<li>ketoconazole, itraconazole, voriconazole, clarithromycin, telithromycin   used to treat 
+infections; </li>
+<li>ritonavir   a medicine from the class   antiproteases  used to treat HIV; </li>
+<li>carbamazepine, phenobarbital, phenytoin   used to treat epilepsy; </li>
+<li>rifampicin   used to treat tuberculosis; </li>
+<li>St. John s Wort   a herbal product used to treat depression and other conditions (also known as 
+Hypericum perforatum); </li>
+<li>midazolam   used to relieve anxiety before surgery; </li>
+<li>alfentanil and fentanyl   used to treat pain and as a sedative before or during surgery or medical 
+procedures; </li>
+<li>cyclosporine, sirolimus and tacrolimus   medicines that suppress the  self-defence  ability of 
 the body and fight infections and are commonly used to prevent the rejection of transplanted 
-organs such as the liver, heart and kidney; 
-- dihydroergotamine and ergotamine – used to treat dementia; 
-- lovastatin, simvastatin – used to treat high level of fats in blood; 
-- warfarin – used to treat blood coagulation disorders (such as blood clots or thromboses); 
-- astemizole, terfenadine, cisapride, pimozide, quinidine, bepridil or ergot alkaloids (ergotamine, 
-dihydroergotamine). </p>
+organs such as the liver, heart and kidney; </li>
+<li>dihydroergotamine and ergotamine   used to treat dementia; </li>
+<li>lovastatin, simvastatin   used to treat high level of fats in blood; </li>
+<li>warfarin   used to treat blood coagulation disorders (such as blood clots or thromboses); </li>
+<li>astemizole, terfenadine, cisapride, pimozide, quinidine, bepridil or ergot alkaloids (ergotamine, 
+dihydroergotamine). </li>
+</ul>
 <p>These medicines should be avoided during your treatment with Tasigna. If you are taking any of these, 
 your doctor might prescribe other alternative medicines. </p>
 <p>If you are taking a statin (a type of medicine to lower your blood cholesterol), talk to your doctor or 
@@ -193,12 +199,14 @@ pharmacist. If used with certain statins, Tasigna may increase the risk of stati
 problems, which on rare occasions can lead to serious muscle breakdown (rhabdomyolysis) resulting 
 in kidney damage. </p>
 <p>In addition, tell your doctor or pharmacist before taking Tasigna if you are taking any antacids, which 
-are medicines against heartburn. These medicines need to be taken separately from Tasigna: 
-- H2 blockers, which decrease the production of acid in the stomach. H2 blockers should be taken 
-approximately 10 hours before and approximately 2 hours after you take Tasigna; 
-- antacids such as those containing aluminium hydroxide, magnesium hydroxide and simethicone, 
+are medicines against heartburn. These medicines need to be taken separately from Tasigna:</p>
+<ul>
+<li>H2 blockers, which decrease the production of acid in the stomach. H2 blockers should be taken 
+approximately 10 hours before and approximately 2 hours after you take Tasigna; </li>
+<li>antacids such as those containing aluminium hydroxide, magnesium hydroxide and simethicone, 
 which neutralise high acidity in the stomach. These antacids should be taken approximately 
-2 hours before or approximately 2 hours after you take Tasigna. </p>
+2 hours before or approximately 2 hours after you take Tasigna. </li>
+</ul>
 <p>You should also tell your doctor if you are already taking Tasigna and you are prescribed a new 
 medicine that you have not taken previously during Tasigna treatment. </p>
 <p>Tasigna with food and drink 
@@ -238,19 +246,21 @@ achieved by taking two hard capsules of 150 mg twice a day.
 recommended dose is 800 mg per day. This dose is achieved by taking two hard capsules of 
 200 mg twice a day. </p>
 <p>Use in children and adolescents 
-- The dose given to your child will depend on your child’s body weight and height. The doctor 
+- The dose given to your child will depend on your child s body weight and height. The doctor 
 will calculate the correct dose to use and tell you which and how many capsules of Tasigna to 
 give to your child. The total daily dose you give to your child must not exceed 800 mg. </p>
 <p>Your doctor may prescribe a lower dose depending on how you respond to treatment. </p>
 <p>Older people (age 65 years and over) 
 Tasigna can be used by people aged 65 years and over at the same dose as for other adults. </p>
 <p>When to take Tasigna 
-Take the hard capsules: 
-- twice a day (approximately every 12 hours); 
-- at least 2 hours after any food; 
-- then wait 1 hour before eating again. 
+Take the hard capsules:</p>
+<ul>
+<li>twice a day (approximately every 12 hours); </li>
+<li>at least 2 hours after any food; </li>
+<li>then wait 1 hour before eating again. 
 If you have questions about when to take this medicine, talk to your doctor or pharmacist. Taking 
-Tasigna at the same time each day will help you remember when to take your hard capsules. </p>
+Tasigna at the same time each day will help you remember when to take your hard capsules. </li>
+</ul>
 <p>How to take Tasigna 
 - Swallow the hard capsules whole with water. 
 - Do not take any food together with the hard capsules. 
@@ -273,7 +283,7 @@ If you miss a dose, take your next dose as scheduled. Do not take a double dose 
 forgotten hard capsule. </p>
 <p>If you stop taking Tasigna 
 Do not stop taking this medicine unless your doctor tells you to do so. Stopping Tasigna without your 
-doctor’s recommendation places you at risk for worsening of your disease which could have 
+doctor s recommendation places you at risk for worsening of your disease which could have 
 life-threatening consequences. Be sure to discuss with your doctor, nurse, and/or pharmacist if you are 
 considering stopping Tasigna. </p>
 <p>If your doctor recommends that you discontinue treatment with Tasigna 
@@ -462,7 +472,7 @@ stairs, leg numbness or weakness
 - signs of low blood pressure (also called hypotension): light-headedness, dizziness or fainting 
 - signs of pulmonary oedema: breathlessness 
 - signs of pleural effusion: fluid collection between the layers of tissue that line the lungs and 
-chest cavity (which, if severe, can decrease the heart’s ability to pump blood), chest pain, cough, 
+chest cavity (which, if severe, can decrease the heart s ability to pump blood), chest pain, cough, 
 hiccups, rapid breathing 
 - signs of interstitial lung disease: cough, difficulty breathing, painful breathing 
 - signs of pleuritic pain: chest pain 
@@ -496,10 +506,12 @@ headedness, pain, palpitations
 - low blood level of insulin C peptide (pancreas function) 
 - sudden death </p>
 <p>The following other side effects have been reported with frequency not known (cannot be 
-estimated from the available data): 
-- signs of heart dysfunction (ventricular dysfunction): shortness of breath, exertion at rest, 
+estimated from the available data):</p>
+<ul>
+<li>signs of heart dysfunction (ventricular dysfunction): shortness of breath, exertion at rest, 
 irregular heartbeat, chest discomfort, light-headedness, pain, palpitations, excessive urination, 
-swelling in the feet, ankles and abdomen. </p>
+swelling in the feet, ankles and abdomen. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -511,15 +523,17 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store tasigna"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and blister after 
-EXP. The expiry date refers to the last day of that month. 
-- Do not store above 30°C. 
-- Store in the original package in order to protect from moisture. 
-- Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and blister after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Do not store above 30 C. </li>
+<li>Store in the original package in order to protect from moisture. </li>
+<li>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -561,11 +575,11 @@ glycol, strong ammonia solution, potassium hydroxide, red iron oxide (E172) </p>
 </ul>
 <p>What Tasigna looks like and contents of the pack 
 Tasigna 50 mg is supplied as hard capsules. The hard capsules are red/light yellow. A black imprint is 
-stamped on each hard capsule (“NVR/ABL”). 
+stamped on each hard capsule ( NVR/ABL ). 
 Tasigna 150 mg is supplied as hard capsules. The hard capsules are red. A black imprint is stamped on 
-each hard capsule (“NVR/BCR”). 
+each hard capsule ( NVR/BCR ). 
 Tasigna 200 mg is supplied as hard capsules. The hard capsules are light yellow. A red imprint is 
-stamped on each hard capsule (“NVR/TKI”). </p>
+stamped on each hard capsule ( NVR/TKI ). </p>
 <p>Tasigna 50 mg hard capsules are available in a pack containing 120 hard capsules (3 packs of 40 hard 
 capsules). 
 Tasigna 150 mg hard capsules are available in packs containing 28 or 40 hard capsules and in 
@@ -586,36 +600,35 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer 
 Novartis Pharmaceutical Manufacturing LLC 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
-<p>Novartis Farmacéutica SA 
+<p>Novartis Farmac utica SA 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>Lek d.d., PE PROIZVODNJA LENDAVA 
 Trimlini 2D 
 Lendava, 9Slovenia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -631,35 +644,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -667,10 +680,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

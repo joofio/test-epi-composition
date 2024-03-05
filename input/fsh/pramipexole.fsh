@@ -4,7 +4,7 @@ Instance: composition-en-261a55b4cd341177b15693bfb98631a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pramipexole Package Leaflet"
 Description:  "Composition for pramipexole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Pramipexole Accord  
 4. Possible side effects 
 5. How to store Pramipexole Accord  
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -72,8 +71,8 @@ Usage: #example
 known as dopamine agonists, which stimulate dopamine receptors in the brain. Stimulation of the 
 dopamine receptors triggers nerve impulses in the brain that help to control body movements. </p>
 <p>Pramipexole Accord is used to: 
-* treat the symptoms of primary Parkinson’s disease in adults. It can be used alone or in 
-combination with levodopa (another medicine for Parkinson’s disease). </p>         </div>"""   
+* treat the symptoms of primary Parkinson s disease in adults. It can be used alone or in 
+combination with levodopa (another medicine for Parkinson s disease). </p>         </div>"""   
           
 
              
@@ -82,8 +81,7 @@ combination with levodopa (another medicine for Parkinson’s disease). </p>    
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take pramipexole"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before you take Pramipexole Accord  </p>
-<p>Do not take Pramipexole Accord: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Pramipexole Accord: 
 * if you are allergic to pramipexole or to any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions: 
@@ -93,7 +91,7 @@ any medical conditions or symptoms, especially any of the following:
 * Hallucinations (seeing, hearing or feeling things that are not there). Most hallucinations are 
 visual. 
 * Dyskinesia (e.g. abnormal, uncontrolled movements of the limbs). If you have advanced 
-Parkinson’s disease and are also taking levodopa, you might develop dyskinesia during the up-
+Parkinson s disease and are also taking levodopa, you might develop dyskinesia during the up-
 titration of Pramipexole Accord. 
 * Dystonia 
 * Inability of keeping your body and neck straight and upright (axial dystonia). In particular, you 
@@ -131,7 +129,7 @@ obtained without a prescription. </p>
 <p>You should avoid taking Pramipexole Accord together with antipsychotic medicines. </p>
 <p>Take care if you are taking the following medicines: 
 * cimetidine (to treat excess stomach acid and stomach ulcers) 
-* amantadine (which can be used to treat Parkinson’s disease) 
+* amantadine (which can be used to treat Parkinson s disease) 
 * mexiletine (to treat irregular heartbeats, a condition known as ventricular arrhythmia) 
 * zidovudine (which can be used to treat the acquired immune deficiency syndrome (AIDS), a 
 disease of the human immune system) 
@@ -161,7 +159,7 @@ Pramipexole Accord is unavoidable, breast-feeding should be stopped. </p>
 Pramipexole Accord can cause hallucinations (seeing, hearing or feeling things that are not there). If 
 affected, do not drive or use machines. </p>
 <p>Pramipexole Accord has been associated with sleepiness and episodes of suddenly falling asleep, 
-particularly in patients with Parkinson’s disease. If you experience these side effects, you must not 
+particularly in patients with Parkinson s disease. If you experience these side effects, you must not 
 drive or operate machinery. You should tell your doctor if this occurs. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -169,18 +167,73 @@ drive or operate machinery. You should tell your doctor if this occurs. </p>    
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take pramipexole"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to take Pramipexole Accord  </p>
-<p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. The doctor will advise you on the right dosing. </p>
 <p>You can take Pramipexole Accord with or without food. Swallow the tablets with water. </p>
-<p>Parkinson’s disease 
+<p>Parkinson s disease 
 The daily dose is to be taken divided into 3 equal doses. </p>
 <p>During the first week, the usual dose is 1 tablet Pramipexole Accord 0.088 mg three times a day 
 (equivalent to 0.264 mg daily): </p>
 <p>1st week 
 Number of tablets 
 1 Pramipexole Accord tablet 0.088 mg three times a day 
-Total daily dose (mg) </p>         </div>"""         
+Total daily dose (mg) 
+0. This will be increased every 5-7 days as directed by your doctor until your symptoms are controlled 
+(maintenance dose). </p>
+<p>2nd week 
+3rd week 
+Number of tablets 
+1 Pramipexole Accord tablet 0.mg three times a day 
+OR 
+2 Pramipexole Accord tablets 
+0.088 mg three times a day 
+1 Pramipexole Accord tablet 0.mg three times a day 
+OR 
+2 Pramipexole Accord tablets 
+0.18 mg three times a day 
+Total daily dose (mg) 
+0.1.1 </p>
+<p>The usual maintenance dose is 1.1 mg per day. However, your dose may have to be increased even 
+further. If necessary, your doctor may increase your tablet dose up to a maximum of 3.3 mg of 
+pramipexole a day. A lower maintenance dose of three Pramipexole Accord 0.088 mg tablets a day is 
+also possible. </p>
+<p>Lowest maintenance dose 
+Highest maintenance dose 
+Number of tablets 
+1 Pramipexole Accord tablet 
+0.088 mg three times a day 
+1 Pramipexole Accord tablet 1.1 
+mg three times a day 
+Total daily dose (mg) 
+0.3.3 </p>
+<p>Patients with kidney disease 
+If you have moderate or severe kidney disease, your doctor will prescribe a lower dose. In this case, 
+you will have to take the tablets only once or twice a day. If you have moderate kidney disease, the 
+usual starting dose is 1 Pramipexole Accord tablet 0.088 mg twice a day. In severe kidney disease, the 
+usual starting dose is just 1 Pramipexole Accord tablet 0.088 mg a day. </p>
+<p>If you take more Pramipexole Accord than you should 
+If you accidentally take too many tablets, 
+* Contact your doctor or nearest hospital casualty department immediately for advice. 
+* You may experience vomiting, restlessness, or any of the side effects as described in chapter 4 
+ Possible side effects . </p>
+<p>If you forget to take Pramipexole Accord 
+Do not worry. Simply leave out that dose completely and then take your next dose at the right time. 
+Do not try to make up for the missed dose. </p>
+<p>If you stop taking Pramipexole Accord 
+Do not stop taking Pramipexole Accord without first talking to your doctor. If you have to stop taking 
+this medicine, your doctor will reduce the dose gradually. This reduces the risk of worsening 
+symptoms. </p>
+<p>If you suffer from Parkinson s disease you should not stop treatment with Pramipexole Accord 
+abruptly. A sudden stop could cause you to develop a medical condition called neuroleptic malignant 
+syndrome which may represent a major health risk. The symptoms include: 
+* akinesia (loss of muscle movement) 
+* rigid muscles 
+* fever 
+* unstable blood pressure 
+* tachycardia (increased heart rate) 
+* confusion 
+* depressed level of consciousness (e.g. coma) </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -188,22 +241,154 @@ Total daily dose (mg) </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>(maintenance dose). </p>
-<p>2nd week 
-3rd week 
-Number of tablets 
-1 Pramipexole Accord tablet 0.mg three times a day 
-OR 
-2 Pramipexole Accord tablets </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
+Evaluation of these side effects is based on the following frequencies: </p>
+<p>Very common 
+may affect more than 1 in 10 people 
+Common 
+may affect up to 1 in 10 people 
+Uncommon 
+may affect up to 1 in 100 people 
+Rare 
+may affect up to 1 in 1,000 people 
+Very rare 
+may affect up to 1 in 10,000 people 
+Not known 
+Frequency cannot be estimated from the available data </p>
+<p>If you suffer from Parkinson s disease, you may experience the following side effects: </p>
+<p>Very common: 
+* Dyskinesia (e.g. abnormal, uncontrolled movements of the limbs) 
+* Sleepiness 
+* Dizziness 
+* Nausea (sickness) </p>
+<p>Common: 
+* Urge to behave in an unusual way 
+* Hallucinations (seeing, hearing or feeling things that are not there) 
+* Confusion 
+* Tiredness (fatigue) 
+* Sleeplessness (insomnia) 
+* Excess of fluid, usually in the legs (peripheral oedema) 
+* Headache 
+* Hypotension (low blood pressure) 
+* Abnormal dreams 
+* Constipation 
+* Visual impairment 
+* Vomiting (being sick) 
+* Weight loss including decreased appetite </p>
+<p>Uncommon: 
+  Paranoia (e.g. excessive fear for one s own well-being) 
+  Delusion 
+  Excessive daytime sleepiness and suddenly falling asleep 
+  Amnesia (memory disturbance) 
+  Hyperkinesia (increased movements and inability to keep still) 
+  Weight increase 
+  Allergic reactions (e.g. rash, itching, hypersensitivity) 
+  Fainting 
+  Cardiac failure (heart problems which can cause shortness of breath or ankle swelling)<em> 
+  Inappropriate antidiuretic hormone secretion</em> 
+  Restlessness 
+  Dyspnoea (difficulties to breathe) 
+  Hiccups 
+  Pneumonia (infection of the lungs) 
+* Inability to resist the impulse, drive or temptation to perform an action that could be harmful to 
+you or others, which may include:</p>
+<ul>
+<li>Strong impulse to gamble excessively despite serious personal or family consequences. </li>
+<li>Altered or increased sexual interest and behaviour of significant concern to you or to 
+others, for example, an increased sexual drive. </li>
+<li>Uncontrollable excessive shopping or spending </li>
+<li>Binge eating (eating large amounts of food in a short time period) or compulsive eating 
+(eating more food than normal and more than is needed to satisfy your hunger)* 
+  Delirium (decreased awareness, confusion, loss of reality) </li>
+</ul>
+<p>Rare: 
+  Mania (agitation, feeling elated or over excited) </p>
+<p>Not known:</p>
+<ul>
+<li>After stopping or reducing your Pramipexole Accord treatment: Depression, apathy, anxiety, 
+fatigue, sweating or pain may occur (called dopamine agonist withdrawal syndrome or DAWS).  </li>
+</ul>
+<p>Tell your doctor if you experience any of these behaviours; he will discuss ways of managing or 
+reducing the symptoms. 
+For the side effects marked with * a precise frequency estimation is not possible, since these side 
+effects were not observed in clinical studies among 2,762 patients treated with pramipexole. The 
+frequency category is probably not greater than  uncommon . </p>
+<p>If you suffer from other indication, you may experience the following side effects: </p>
+<p>Very common: 
+  Nausea (sickness) </p>
+<p>Common: 
+  Changes in sleep pattern, such as sleeplessness (insomnia) and sleepiness 
+  Tiredness (fatigue) 
+  Headache 
+  Abnormal dreams 
+  Constipation 
+  Dizziness 
+  Vomiting (being sick) </p>
+<p>Uncommon: 
+  Urge to behave in an unusual way<em> 
+  Cardiac failure (heart problems which can cause shortness of breath or ankle swelling)</em> 
+  Inappropriate antidiuretic hormone secretion<em> 
+  Dyskinesia (e.g. abnormal, uncontrolled movements of the limbs) 
+  Hyperkinesia (increased movements and inability to keep still)</em> 
+  Paranoia (e.g. excessive fear for one s own well-being)<em> 
+  Delusion</em> 
+  Amnesia (memory disturbance)<em> 
+  Hallucinations (seeing, hearing or feeling things that are not there) 
+  Confusion 
+  Excessive daytime sleepiness and suddenly falling asleep 
+  Weight increase 
+  Hypotension (low blood pressure) 
+  Excess of fluid, usually in the legs (peripheral oedema) 
+  Allergic reactions (e.g. rash, itching, hypersensitivity) 
+  Fainting 
+  Restlessness 
+  Visual impairment 
+  Weight loss including decreased appetite 
+  Dyspnoea (difficulties to breathe) 
+  Hiccups 
+  Pneumonia (infection of the lungs)</em> 
+* Inability to resist the impulse, drive or temptation to perform an action that could be harmful to 
+you or others, which may include:</p>
+<ul>
+<li>Strong impulse to gamble excessively despite serious personal or family consequences. </li>
+<li>Altered or increased sexual interest and behaviour of significant concern to you or to 
+others, for example, an increased sexual drive. </li>
+<li>Uncontrollable excessive shopping or spending </li>
+<li>Binge eating (eating large amounts of food in a short time period) or compulsive eating 
+(eating more food than normal and more than is needed to satisfy your hunger)<em> 
+  Mania (agitation, feeling elated or over excited)</em> 
+  Delirium (decreased awareness, confusion, loss of reality)* </li>
+</ul>
+<p>Not known:</p>
+<ul>
+<li>After stopping or reducing your Pramipexole Accord treatment: Depression, apathy, anxiety, 
+fatigue, sweating or pain may occur (called dopamine agonist withdrawal syndrome or DAWS).  </li>
+</ul>
+<p>Tell your doctor if you experience any of these behaviors; he will discuss ways of managing or 
+reducing the symptoms. 
+For the side effects marked with * a precise frequency estimation is not possible, since these side 
+effects were not observed in clinical studies among 1,395 patients treated with pramipexole. The 
+frequency category is probably not greater than  uncommon . </p>
+<p>Reporting of side effects<br />
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pramipexole"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store pramipexole"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1 Pramipexole Accord tablet 0.mg three times a day 
-OR 
-2 Pramipexole Accord tablets </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton after EXP. The 
+expiry date refers to the last day of that month. </li>
+<li>Store below 30 C. Store in the original package in order to protect from light. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+how to throw away medicines you no longer use. These measures will help to protect the 
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -211,5 +396,53 @@ OR
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Total daily dose (mg) </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pramipexole Accord tablet contains: </p>
+<p>The active ingredient is pramipexole. </p>
+<p>Each tablet contains 0.125 mg pramipexole dihydrochloride monohydrate equivalent to 0.088 mg 
+pramipexole. 
+Each tablet contains 0.25 mg pramipexole dihydrochloride monohydrate equivalent to 0.18 mg 
+pramipexole. 
+Each tablet contains 0.5 mg pramipexole dihydrochloride monohydrate equivalent to 0.35 mg 
+pramipexole. 
+Each tablet contains 1.0 mg pramipexole dihydrochloride monohydrate equivalent to 0.7 mg 
+pramipexole. 
+Each tablet contains 1.5 mg pramipexole dihydrochloride monohydrate equivalent to 1.1 mg 
+pramipexole. </p>
+<p>The other ingredients are mannitol, cellulose microcrystalline, maize starch, silica colloidal 
+anhydrous, povidone K 30 and magnesium stearate. </p>
+<p>What Pramipexole Accord tablet looks like and contents of the pack </p>
+<p>Pramipexole Accord 0.088 mg tablets are white to off-white, round, flat faced, bevel edged, with 
+inscription  I1  on one side and plain on the other side. </p>
+<p>Pramipexole Accord 0.18 mg tablets are white to off-white, round, flat faced, bevel edged, with 
+inscription  I  and  2  on either side of the breakline on one side and breakline on the other side. </p>
+<p>Pramipexole Accord 0.35 mg tablets are white to off-white, round, flat faced, bevel edged, with 
+inscription  I  and  3  on either side of the breakline on one side and breakline  on the other side. </p>
+<p>Pramipexole Accord 0.7 mg tablets are white to off-white, round, flat faced, bevel edged, with 
+inscription  I  and  4  on either side of the breakline on one side and breakline  on the other side.. </p>
+<p>Pramipexole Accord 1.1 mg tablets are white to off-white, round, flat faced, bevel edged, with 
+inscription  I  and  5  on either side of the breakline on one side and breakline on other side. </p>
+<p>All the strengths of Pramipexole Accord tablets are available in alu-alu blisters of 10 tablets per strip, 
+in cartons containing 3 or 10 blister strips (30 or 100 tablets).<br />
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder 
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n,<br />
+Edifici Est 6  planta,<br />
+08039 Barcelona,<br />
+Spain </p>
+<p>Manufacturer 
+Accord Healthcare Limited,<br />
+Sage house, 319 Pinner road,<br />
+North Harrow<br />
+HA1 4HF, Middlesex,<br />
+United Kingdom </p>
+<p>Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Poland </p>
+<p>Accord Healthcare B.V.,<br />
+Winthontlaan 200,<br />
+3526 KV Utrecht,<br />
+The Netherlands </p>
+<p>The leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

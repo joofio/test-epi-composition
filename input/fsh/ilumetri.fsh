@@ -4,7 +4,7 @@ Instance: composition-en-4ef629a7127d0f0a54242fe28701c54c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ilumetri Package Leaflet"
 Description:  "Composition for ilumetri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,17 +84,21 @@ Using Ilumetri will benefit you by improvements of skin clearance and reducing y
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ilumetri"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Ilumetri: 
-- If you are allergic to tildrakizumab or any of the other ingredients of this medicine (listed in 
-section 6). 
-- If you have an infection which your doctor thinks is important, for example, active tuberculosis 
-which is an infectious disease affecting mainly the lungs. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Ilumetri:</p>
+<ul>
+<li>If you are allergic to tildrakizumab or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>If you have an infection which your doctor thinks is important, for example, active tuberculosis 
+which is an infectious disease affecting mainly the lungs. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before using Ilumetri: 
-- If you experience allergic reactions with symptoms such as chest tightness, wheezing, swelling of 
-the face, lips or throat do not inject more Ilumetri and contact your doctor immediately. 
-- If you currently have an infection or if you have long-term or repeated infections. 
-- If you have recently had or plan to have a vaccination.  </p>
+Talk to your doctor, pharmacist or nurse before using Ilumetri:</p>
+<ul>
+<li>If you experience allergic reactions with symptoms such as chest tightness, wheezing, swelling of 
+the face, lips or throat do not inject more Ilumetri and contact your doctor immediately. </li>
+<li>If you currently have an infection or if you have long-term or repeated infections. </li>
+<li>If you have recently had or plan to have a vaccination.  </li>
+</ul>
 <p>If you are not sure if any of the above applies to you, talk to your doctor, pharmacist or nurse before using 
 Ilumetri. </p>
 <p>Look out for infections and allergic reactions 
@@ -137,14 +141,14 @@ that a dose of 200 mg is recommended for you.  </p>
 <p>Your doctor will decide for how long you need to take Ilumetri. </p>
 <p>After proper training in subcutaneous injection technique, you may inject Ilumetri yourself if your doctor 
 determines that it is appropriate. </p>
-<p>For instructions on how to inject Ilumetri yourself, see ‘Instructions for use’ at the end of this leaflet. </p>
+<p>For instructions on how to inject Ilumetri yourself, see  Instructions for use  at the end of this leaflet. </p>
 <p>Talk to your doctor about when you will have your injections and follow-up appointments. </p>
 <p>Use in children and adolescents 
 The safety and efficacy of Ilumetri in children and adolescents under 18 years of age has not yet been 
 established and therefore Ilumetri is not recommended for use in children or adolescents. </p>
 <p>If you use more Ilumetri than you should 
 If you have administered more Ilumetri than you should or the dose has been administered sooner than 
-according to your doctor’s prescription, tell your doctor. </p>
+according to your doctor s prescription, tell your doctor. </p>
 <p>If you forget to use Ilumetri 
 If you have forgotten or missed an Ilumetri injection, administer the dose as soon as possible. Thereafter, 
 resume dosing at the regularly scheduled interval. </p>
@@ -161,10 +165,12 @@ upon discontinuation.  </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
-If you notice any of the following, contact your doctor immediately: 
-- Swelling of the face, lips or throat 
-- Breathing difficulties 
-As these may be signs of an allergic reaction. </p>
+If you notice any of the following, contact your doctor immediately:</p>
+<ul>
+<li>Swelling of the face, lips or throat </li>
+<li>Breathing difficulties 
+As these may be signs of an allergic reaction. </li>
+</ul>
 <p>Other side effects 
 Most of the following side effects are mild. If any of these side effects becomes severe, tell your doctor or 
 pharmacist. </p>
@@ -192,11 +198,11 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and the label of the pre-filled 
 syringe after EXP. The expiry date refers to the last day of that month. </p>
 <p>Keep the product in the original carton in order to protect from light. Do not shake. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. </p>
 <p>After taking a pre-filled syringe from the refrigerator, wait approximately 30 minutes to allow the Ilumetri 
-solution in the syringe to reach room temperature (up to 25ºC). Do not warm in any other way.  </p>
+solution in the syringe to reach room temperature (up to 25 C). Do not warm in any other way.  </p>
 <p>Do not use if the liquid contains visible particles, is cloudy or is distinctly brown.  </p>
-<p>Once taken out of the refrigerator, do not store tildrakizumab above 25ºC or refrigerate it again. 
+<p>Once taken out of the refrigerator, do not store tildrakizumab above 25 C or refrigerate it again. 
 Write down the date of removal from the refrigerator in the space provided on the outer carton and 
 appropriate discard date. Use the syringe within 30 days after taking it out of the refrigerator or by the 
 expiry date whichever occurs first. </p>
@@ -226,23 +232,23 @@ Ronda General Mitre, 151<br />
 <p>Manufacturer 
 SUN Pharmaceuticals Industries (Europe) B.V. 
 Polarisavenue 2132JH Hoofddorp, Netherlands </p>
-<p>Industrias Farmacéuticas Almirall, S.A. 
+<p>Industrias Farmac uticas Almirall, S.A. 
 Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona, Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg<br />
 Almirall N.V. 
-Tél/Tel: +32 (0)2 771 86 37  </p>
+T l/Tel: +32 (0)2 771 86 37  </p>
 <p>Italia<br />
 Almirall SpA 
 Tel: +39 02 346181  </p>
-<p>България/ Eesti/ Ελλάδα/ España/ Hrvatska/ 
-Κύπρος/ Latvija/ Lietuva/ Magyarország/ 
-Malta/ România/ Slovenija<br />
+<p>/ Eesti/  / Espa a/ Hrvatska/ 
+ / Latvija/ Lietuva/ Magyarorsz g/ 
+Malta/ Rom nia/ Slovenija<br />
 Almirall, S.A. 
-Teл./Tel/Τηλ: +34 93 291 30 00  </p>
-<p>Česká republika / Slovenská republika: 
+Te ./Tel/ : +34 93 291 30 00  </p>
+<p>esk  republika / Slovensk  republika: 
 Almirall s.r.o 
 Tel: +420 739 686<br />
 Nederland<br />
@@ -251,7 +257,7 @@ Tel: +31 (0)307991155  </p>
 <p>Danmark/ Norge/ Sverige<br />
 Almirall ApS 
 Tlf/Tel: +45 70 25 75 75  </p>
-<p>Österreich<br />
+<p>sterreich<br />
 Almirall GmbH 
 Tel: +43 (0)1/595 39 60  </p>
 <p>Deutschland<br />
@@ -262,17 +268,17 @@ Almirall Sp.z o. o.
 Tel.: +48 22 330 02 57  </p>
 <p>France<br />
 Almirall SAS, 1 
-Tél: +33(0)1 46 46 19 20  </p>
+T l: +33(0)1 46 46 19 20  </p>
 <p>Portugal<br />
-Almirall - Produtos Farmacêuticos, Lda.<br />
+Almirall - Produtos Farmac uticos, Lda.<br />
 Tel: +351 21 415 57 Ireland/United Kingdom (Northern Ireland) 
 Almirall, S.A. 
 Tel: +353 (0) 1431 9 
 Suomi/Finland 
 Orion Pharma 
-Puh/Tel: +358 10 4Ísland<br />
+Puh/Tel: +358 10 4 sland<br />
 Vistor hf. 
-Sími: +354 535 70 00  </p>
+S mi: +354 535 70 00  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

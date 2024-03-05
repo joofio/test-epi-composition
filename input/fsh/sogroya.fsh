@@ -4,7 +4,7 @@ Instance: composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48
 InstanceOf: CompositionUvEpi
 Title: "Composition for sogroya Package Leaflet"
 Description:  "Composition for sogroya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -147,8 +147,8 @@ This is because your doctor may have to adjust the doses of your medicines:
 stimulating hormone) which stimulate the production of sex hormones 
 * Insulin or other diabetes medicines 
 * Thyroid hormone medicines such as levothyroxine 
-* Medicines to treat epilepsy or fits (seizures) – such as carbamazepine<br />
-* Cyclosporine (immunosuppressive drug) – a medicine to suppress your immune system.  </p>
+* Medicines to treat epilepsy or fits (seizures)   such as carbamazepine<br />
+* Cyclosporine (immunosuppressive drug)   a medicine to suppress your immune system.  </p>
 <p>Pregnancy<br />
 * If you are able to get pregnant, you should not use Sogroya unless you are also using reliable 
 contraception. This is because it is not known if it could harm your unborn child. If you become 
@@ -163,7 +163,7 @@ benefit of Sogroya to the mother. </p>
 Sogroya does not affect your ability to drive and use machines. </p>
 <p>Sodium content 
 This medicine contains less than 1 mmol sodium (23 mg) per dose that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sogroya"
@@ -218,34 +218,23 @@ Adult growth hormone deficiency
 Recommended starting dose 
 You have not received daily growth hormone 
 medicine before 
-You are ≥18 to &lt;60 years 
+You are  18 to &lt;60 years 
 You are woman on oral oestrogen therapy 
 regardless of age 
-You are 60 years or above  </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>2 mg/week </p>
+You are 60 years or above  </p>
+<p>1.5 mg/week 
+2 mg/week </p>
 <p>1 mg/week<br />
 You have previously received daily growth 
 hormone medicine 
-You are ≥18 to &lt;60 years 
+You are  18 to &lt;60 years 
 You are woman on oral oestrogen therapy 
 regardless of age 
 You are 60 years or above  </p>
 <p>2 mg/week 
-4 mg/week </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store sogroya"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sogroya"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>After you have reached your right dose, your doctor will evaluate your treatment every 6 to 12 months. 
+4 mg/week </p>
+<p>1.5 mg/week  </p>
+<p>After you have reached your right dose, your doctor will evaluate your treatment every 6 to 12 months. 
 You may need to have your body mass index checked and blood samples taken.  </p>
 <p>How Sogroya is used 
 Your doctor or nurse will show you how to inject Sogroya under your skin.<br />
@@ -269,13 +258,13 @@ inject your next dose as usual on your next scheduled day. </p>
 <p>Do not inject an extra dose or increase the dose to make up for a missed dose. </p>
 <p>If you stop using Sogroya<br />
 Do not stop using Sogroya without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Side effects seen in children and adolescents 
@@ -297,7 +286,7 @@ Very common (may affect more than 1 in 10 people)<br />
 <em> The adrenal glands do not make enough steroid hormones (adrenocortical insufficiency) 
 * Decreased thyroid hormone (hypothyroidism) 
 * High blood sugar (hyperglycaemia) 
-* Feeling of ‘pins and needles’ mainly in fingers (paraesthesia) 
+* Feeling of  pins and needles  mainly in fingers (paraesthesia) 
 * Rash 
 * Hives (urticaria)<br />
 </em> Joint pain (arthralgia), muscle pain (myalgia), muscle stiffness 
@@ -314,4 +303,57 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sogroya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sogroya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the pen label and carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. Keep away from the freezing element. </p>
+<p>After first opening 
+Use within 6 weeks after first use. Store in a refrigerator (2 C - 8 C). </p>
+<p>Before and after first opening 
+If you cannot refrigerate (for example during travelling), Sogroya may be kept temporarily at 
+temperatures up to 30 C for up to a total of 72 hours (3 days). Return Sogroya to the refrigerator again 
+after storage at this temperature. If you store out of the refrigerator and then return to the refrigerator, 
+the total combined time out of the refrigerator is 3 days, monitor this carefully. Discard the Sogroya 
+pen, if you have kept it at 30 C for more than 72 hours, or for any period of time above 30 C. 
+Record the time outside the refrigerator:<strong><em>_</em></strong><strong><em>_</em></strong>__ </p>
+<p>Keep Sogroya in the outer carton with the pen cap on to protect from light.<br />
+Always remove the injection needle after each injection and store the pen without a needle attached. </p>
+<p>Do not use this medicine if the solution does not appear clear to slightly opalescent,  colourless to 
+slightly yellow and free from visible particles.<br />
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sogroya contains<br />
+<em> The active substance is somapacitan. One mL of solution contains 3.3 mg of somapacitan. Each 
+pre-filled pen contains 5 mg of somapacitan in 1.5 mL solution.<br />
+</em> The other ingredients are: histidine, mannitol, poloxamer 188, phenol, water for injections, 
+hydrochloric acid (for pH adjustment), sodium hydroxide (for pH adjustment). See also 
+section 2  What you need to know before you use Sogroya  for information on sodium. </p>
+<p>What Sogroya looks like and contents of the pack 
+Sogroya is a clear to slightly opalescent, colourless to slightly yellow liquid and free from visible 
+particles for injection in a pre-filled pen. </p>
+<p>Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen with a teal dose button is available in the 
+following pack sizes: a pack containing 1 pre-filled pen or a multipack containing 5 packs, each 
+containing 1 pre-filled pen.<br />
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Novo Nordisk A/S 
+Novo All<br />
+DK-2880 Bagsv rd 
+Denmark </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2dc44ebb45d2b0f7332cf61717b9e639
 InstanceOf: CompositionUvEpi
 Title: "Composition for ceprotin Package Leaflet"
 Description:  "Composition for ceprotin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use CEPROTIN 
 4. Possible side effects 
 5. How to store CEPROTIN 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -174,8 +173,8 @@ levels in patients with no intravenous access. </p>
 treatment accordingly. </p>
 <p>Combination treatment<br />
 If you are switched to permanent prophylaxis with oral anticoagulants, protein C replacement is to be 
-discontinued only when stable anticoagulation is obtained (see “Important information about some of 
-the ingredients of CEPROTIN”). </p>
+discontinued only when stable anticoagulation is obtained (see  Important information about some of 
+the ingredients of CEPROTIN ). </p>
 <p>At start of a combination treatment of anticoagulants (especially Vitamin K antagonists) with Protein 
 C, stable activity levels of Protein C above 0.25 IU/ml should be maintained before starting the 
 anticoagulation. Careful monitoring of the international normalized ratio (INR) is recommended. In 
@@ -221,17 +220,14 @@ If you have any further questions on the use of this medicine, ask your doctor o
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You may notice any of the following side effects after administration of CEPROTIN: </p>
-<p> 
-As with any product administered by infusion into a vein allergic reactions including severe and 
+<p>As with any product administered by infusion into a vein allergic reactions including severe and 
 potentially life-threatening reactions (anaphylaxis) are possible. 
 You should be aware of the early signs of allergic reactions such as burning and stinging at the 
 injection site, chills, flushing, rash, hives, breathing difficulty, nausea, headache, lethargy, low 
-blood pressure, and tightness of the chest. 
- 
-The following side effects were rarely observed during clinical studies (less than 1 case 
-in 1,000 administrations given to patients): itching (pruritus), rash and dizziness. 
- 
-In the postmarketing experience there have been reports of restlessness, excessive sweating, and 
+blood pressure, and tightness of the chest. </p>
+<p>The following side effects were rarely observed during clinical studies (less than 1 case 
+in 1,000 administrations given to patients): itching (pruritus), rash and dizziness. </p>
+<p>In the postmarketing experience there have been reports of restlessness, excessive sweating, and 
 pain and redness at the injection site. </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -247,7 +243,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the label after EXP. The expiry date 
 refers to the last day of that month. 
-Store in a refrigerator (2C – 8C). Do not freeze. 
+Store in a refrigerator (2 C   8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>The reconstituted solution should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -260,10 +256,12 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CEPROTIN contains </p>
-<p>Powder: 
-- The active substance is human protein C 
-- The other ingredients are human albumin, trisodium citrate dihydrate and sodium chloride. As 
-solvent Sterilised Water for Injections is used. </p>
+<p>Powder:</p>
+<ul>
+<li>The active substance is human protein C </li>
+<li>The other ingredients are human albumin, trisodium citrate dihydrate and sodium chloride. As 
+solvent Sterilised Water for Injections is used. </li>
+</ul>
 <p>What CEPROTIN looks like and contents of the pack </p>
 <p>CEPROTIN is presented as powder and solvent for solution for injection and is a white or cream 
 coloured powder or friable solid. After reconstitution the solution is colourless to slightly yellowish 
@@ -275,30 +273,28 @@ Industriestrasse 1221 Vienna
 Austria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tel/Tél: +32 2 464 06 11<br />
+Tel/T l: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
 Takeda Pharma A/S 
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
-Τakeda HELLAS SA 
+ akeda HELLAS SA 
 Tel: +30 2106387medinfoEMEA@takeda.com </p>
 <p>Deutschland 
 Takeda GmbH 
@@ -312,15 +308,14 @@ Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Τakeda ΕΛΛΑΣ ΑΕ 
-Tηλ: +30 210 6387medinfoEMEA@takeda.com 
-Österreich 
+<p>akeda   <br />
+T : +30 210 6387medinfoEMEA@takeda.com 
+ sterreich 
 Takeda Pharma Ges.m.b.H.<br />
 Tel: +43 (0) 800-20 80 50<br />
 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España S.A 
+<p>Espa a 
+Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
 <p>Polska 
 Takeda Pharma Sp. z o.o. 
@@ -329,24 +324,24 @@ Tel: +48223062medinfoEMEA@takeda.com </p>
 Takeda France SAS 
 Tel. + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
+Takeda Farmac uticos Portugal, Lda. 
 Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
+<p>Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com 
 Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
@@ -355,9 +350,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-Τakeda ΕΛΛΑΣ ΑΕ 
-Τηλ.: +30 2106387medinfoEMEA@takeda.com 
+<p>akeda   <br />
+ .: +30 2106387medinfoEMEA@takeda.com 
 Sverige 
 Takeda Pharma AB 
 Tel: 020 795 medinfoEMEA@takeda.com </p>

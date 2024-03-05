@@ -4,7 +4,7 @@ Instance: composition-en-dc7d7a695883d4001becc8f978871435
 InstanceOf: CompositionUvEpi
 Title: "Composition for spexotras Package Leaflet"
 Description:  "Composition for spexotras Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,9 +109,9 @@ to avoid complications. </p>
 <p>Skin examination 
 The treatment may cause skin cancer. Usually, these skin changes remain local and can be removed 
 with surgery and the treatment can be continued without interruption The doctor may check your 
-child’s skin before and regularly during treatment. </p>
-<p>Check your child’s skin monthly during the treatment and for 6 months after they stop taking this 
-medicine. Tell the doctor as soon as possible if you notice any changes to your child’s skin such as a 
+child s skin before and regularly during treatment. </p>
+<p>Check your child s skin monthly during the treatment and for 6 months after they stop taking this 
+medicine. Tell the doctor as soon as possible if you notice any changes to your child s skin such as a 
 new wart, skin sore or reddish bump that bleeds or does not heal, or a change in the size or colour of a 
 mole. </p>
 <p>Children younger than 1 year old 
@@ -138,7 +138,7 @@ Spexotras may impair fertility in both males and females. </p>
 <p>Taking Spexotras with dabrafenib dispersible tablets: Dabrafenib may reduce sperm count and this 
 may not return to normal levels after stopping treatment with dabrafenib. </p>
 <p>Prior to starting treatment with dabrafenib dispersible tablets, talk to the doctor about options to 
-improve your child’s chances to have children in the future. </p>
+improve your child s chances to have children in the future. </p>
 <p>Contraception 
 * If your child could become pregnant, they must use a reliable method of birth control 
 (contraception) while they are taking Spexotras and for at least 16 weeks after they stop taking 
@@ -148,12 +148,12 @@ while taking Spexotras in combination with dabrafenib dispersible tablets. An al
 effective method of birth control should be used to avoid the risk of pregnancy while taking this 
 combination of medicines. Ask the doctor or nurse for advice. </p>
 <p>Driving and using machines 
-Spexotras can have side effects that may affect your child’s ability to drive, ride a bike/scooter, use 
+Spexotras can have side effects that may affect your child s ability to drive, ride a bike/scooter, use 
 machines, or take part in other activities that need alertness. If your child has problems with vision or 
 feels tired or weak, or their energy levels are low, they should avoid such activities. </p>
 <p>Descriptions of these effects can be found in section 4. Read all the information in this leaflet for 
 guidance. </p>
-<p>Discuss with the doctor, pharmacist or nurse if you are unsure about anything. Your child’s disease, 
+<p>Discuss with the doctor, pharmacist or nurse if you are unsure about anything. Your child s disease, 
 symptoms and treatment situation may also affect their ability to take part in such activities. </p>
 <p>Spexotras contains a cyclodextrin 
 This medicine contains 100 mg of a cyclodextrin in each ml of oral solution. </p>
@@ -165,17 +165,14 @@ Spexotras oral solution. This is equivalent to 4% of the recommended maximum dai
 of sodium for an adult at the highest recommended trametinib dose. </p>
 <p>Spexotras contains potassium 
 This medicine contains potassium, less than 1 mmol (39 mg) per maximum daily dose, i.e. essentially 
-‘potassium-free’. </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take spexotras"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take spexotras"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always give this medicine to your child exactly as the doctor, pharmacist or nurse has told you. Check 
+ potassium-free . </p>
+<ol>
+<li>How to give Spexotras </li>
+</ol>
+<p>Always give this medicine to your child exactly as the doctor, pharmacist or nurse has told you. Check 
 with the doctor, pharmacist or nurse if you are not sure. </p>
 <p>How much to give 
-The doctor will decide on the correct dose of Spexotras based on your child’s body weight. </p>
+The doctor will decide on the correct dose of Spexotras based on your child s body weight. </p>
 <p>The doctor may decide that your child should be given a lower dose if they get side effects. </p>
 <p>How to give it 
 Please read the Instructions for Use at the end of this leaflet for details on how to give the oral 
@@ -186,12 +183,9 @@ remember when to give the medicine. Give Spexotras with either the morning dose 
 evening dose of dabrafenib dispersible tablets. The dabrafenib doses should be given about 
 12 hours apart. </li>
 <li>Give Spexotras on an empty stomach, at least one hour before or two hours after a meal, this 
-means that: 
-o 
-after taking Spexotras, your child must wait at least 1 hour before eating. 
-o 
-after eating, your child must wait at least 2 hours before taking Spexotras. 
-o 
+means that: * 
+after taking Spexotras, your child must wait at least 1 hour before eating. * 
+after eating, your child must wait at least 2 hours before taking Spexotras. * 
 if necessary, breast-feeding and/or baby formula may be given on demand. </li>
 </ul>
 <p>If you give more Spexotras than you should 
@@ -206,20 +200,19 @@ Do not give a double dose to make up for a forgotten dose. </p>
 If your child vomits after taking Spexotras, do not give another dose until the next scheduled dose. </p>
 <p>If you stop giving Spexotras 
 Give Spexotras for as long as the doctor recommends. Do not stop unless the doctor advises you to. </p>
-<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p>         </div>"""         
-
-        
+<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take spexotras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take spexotras"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop giving this medicine and seek urgent medical attention if your child has any of the following 
 symptoms: 
-* coughing up of blood, passing blood in urine, vomit containing blood or that looks like “coffee 
-grounds”, red or black stools that look like tar. These may be signs of bleeding. 
-* fever (temperature 38°C or above). 
+* coughing up of blood, passing blood in urine, vomit containing blood or that looks like  coffee 
+grounds , red or black stools that look like tar. These may be signs of bleeding. 
+* fever (temperature 38 C or above). 
 * chest pain or shortness of breath, sometimes with fever or cough. These may be signs of 
 pneumonitis or inflamed lungs (interstitial lung disease). 
 * blurred vision, loss of vision or other vision changes. These may be signs of retinal detachment. 
@@ -298,28 +291,28 @@ chest pain </p>
 If your child gets any side effects, talk to the doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store spexotras"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store spexotras"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label and the carton after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light and moisture. </p>
-<p>Before reconstitution: Store in a refrigerator (2C – 8C). </p>
-<p>After reconstitution: Store below 25ºC. Do not freeze. Discard any unused solution 35 days after 
+<p>Before reconstitution: Store in a refrigerator (2 C   8 C). </p>
+<p>After reconstitution: Store below 25 C. Do not freeze. Discard any unused solution 35 days after 
 reconstitution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask the pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store spexotras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store spexotras"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Spexotras contains 
 - The active substance is trametinib. One bottle contains trametinib dimethyl sulfoxide equivalent 
@@ -347,28 +340,27 @@ Romania </p>
 <p>Novartis Pharma GmbH 
 Roonstrasse 90429 Nuremberg 
 Germany </p>
-<p>Novartis Farmacéutica S.A. 
+<p>Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes 08013 Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -384,35 +376,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -420,10 +412,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />
@@ -438,5 +429,100 @@ Tel: +44 1276 698 </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
 <p>The following information is intended for pharmacists only: </p>
-<p>Reconstitution instructions (for the pharmacist only): </p>         </div>"""      
+<p>Reconstitution instructions (for the pharmacist only): 
+1. Wash and dry your hands. 
+2. Check the powder expiry date on the bottle. 
+3. Tap the bottle to loosen the powder. 
+4. Remove the cap and add 90 ml distilled or purified water to the powder in the bottle. 
+5. Attach the cap and invert the bottle repeatedly for up to 5 minutes, until fully dissolved. You 
+may also gently shake. 
+6. Separate the bottle adapter from the oral syringe. Remove the bottle cap and insert the bottle 
+adapter into the bottle neck. Push hard until the bottle adapter is fully inserted. The bottle 
+adapter should be fully flush with the bottle neck. 
+7. Write the date of preparation on the carton. The solution expires 35 days after preparation. 
+8. Inform the recipient of the dose and the date the solution was prepared on. </p>
+<p>INSTRUCTIONS FOR USE </p>
+<p>Ask your healthcare professional or pharmacist to show you how to use Spexotras correctly. 
+Always use Spexotras exactly as your healthcare professional or pharmacist tells you to. </p>
+<p>If you have any questions about how to use Spexotras, contact your healthcare professional or 
+pharmacist. </p>
+<p>SECTION A 
+ADMINISTRATION VIA ORAL SYRINGE </p>
+<p>To administer Spexotras, you will need: 
+Bottle adapter (already inserted into the bottle neck) 
+Solution in bottle 
+Oral syringe </p>
+<p>In case of spillage or contact of the Spexotras solution with 
+the skin or eyes, follow the information in the  SPILLAGE 
+CLEANING  section. </p>
+<p>Wash and dry your hands before administering Spexotras. </p>
+<p>1 </p>
+<p>Check the solution preparation date on the 
+carton. </p>
+<p>Do not administer Spexotras if more than 
+35 days have passed after solution preparation. </p>
+<p>Note: The printed expiry date on the right side 
+of the bottle label does NOT apply to the 
+solution. This printed expiry date applies only to 
+the powder before it is reconstituted into a 
+solution by your pharmacist. </p>
+<p>Plunger 
+Dose markings 
+Tip 
+Black stopper 
+Barrel 
+Resuable oral syringe parts: 
+2 </p>
+<p>Gently swirl the bottle for 30 seconds to mix the 
+solution. </p>
+<p>If foam appears, allow the bottle to stand until 
+the foam disappears. </p>
+<p>3 </p>
+<p>Remove the child-resistant cap by pushing 
+down on the cap and turning it anti-clockwise. </p>
+<p>4 </p>
+<p>Check if there is a bottle adapter already 
+inserted in the bottle neck. </p>
+<p>If not inserted, contact your pharmacist. </p>
+<p>5 </p>
+<p>Push the plunger down into the oral syringe as 
+far as it will go to remove all the air inside. </p>
+<p>6 </p>
+<p>Place the bottle on a flat surface and hold it 
+upright. </p>
+<p>Insert the tip of the oral syringe into the opening 
+of the bottle adapter.  </p>
+<p>Make sure the oral syringe is securely attached. </p>
+<p>IMPORTANT: Due to air pressure, the plunger 
+may move by itself when you measure your 
+dose during Step 7. Hold the plunger to prevent 
+it moving. </p>
+<p>7 </p>
+<p>Carefully turn the bottle upside down and pull 
+the plunger to measure out your dose. With the 
+tip facing up, the top of the black stopper must 
+line up with your prescribed dose. </p>
+<p>If large air bubbles appear in the syringe, as 
+shown in the pictures, push the medicine back 
+into the bottle and withdraw your dose again. 
+Keep doing this until there are no large air 
+bubbles present. Small air bubbles are 
+acceptable. </p>
+<p>8 </p>
+<p>Continue to hold the plunger in place, turn the 
+bottle back around and place it onto a flat 
+surface. Remove the oral syringe from the bottle 
+by gently pulling straight up. </p>
+<p>9 </p>
+<p>Double check the top of the black stopper is at 
+your prescribed dose. If not, repeat Steps 6 to </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you are administering via oral syringe, 
+continue to Step 1</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-dff98a1057e854dd22ade83cc61ef07f
 InstanceOf: CompositionUvEpi
 Title: "Composition for tacforius Package Leaflet"
 Description:  "Composition for tacforius Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,8 +70,8 @@ Usage: #example
   * code.text =  "1. What tacforius is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tacforius contains the active substance tacrolimus. It is an immunosuppressant. Following your organ 
-transplant (liver, kidney), your body’s immune system will try to reject the new organ. Tacforius is 
-used to control your body’s immune response, enabling your body to accept the transplanted organ. </p>
+transplant (liver, kidney), your body s immune system will try to reject the new organ. Tacforius is 
+used to control your body s immune response, enabling your body to accept the transplanted organ. </p>
 <p>You may also be given Tacforius for an ongoing rejection of your transplanted liver, kidney, heart or 
 other organ when any previous treatment you were taking was unable to control this immune response 
 after your transplantation. </p>
@@ -96,20 +96,22 @@ once daily, whereas the immediate release capsules are taken twice daily. This i
 capsules allow for a prolonged-release (more slow release over a longer period) of tacrolimus. 
 Tacforius prolonged-release capsules and tacrolimus immediate release capsules are not 
 interchangeable. </p>
-<p>Talk to your doctor or pharmacist before taking Tacforius: 
-- if you are taking any medicines mentioned below under “Other medicines and Tacforius”. 
-- if you have or have had liver problems. 
-- if you have diarrhoea for more than one day. 
-- if you feel strong abdominal pain accompanied or not with other symptoms, such as chills, 
-fever, nausea or vomiting. 
-- if you have an alteration of the electrical activity of your heart called “QT prolongation”. 
-- if you have or have had damage to the smallest blood vessels, known as thrombotic 
+<p>Talk to your doctor or pharmacist before taking Tacforius:</p>
+<ul>
+<li>if you are taking any medicines mentioned below under  Other medicines and Tacforius . </li>
+<li>if you have or have had liver problems. </li>
+<li>if you have diarrhoea for more than one day. </li>
+<li>if you feel strong abdominal pain accompanied or not with other symptoms, such as chills, 
+fever, nausea or vomiting. </li>
+<li>if you have an alteration of the electrical activity of your heart called  QT prolongation . </li>
+<li>if you have or have had damage to the smallest blood vessels, known as thrombotic 
 microangiopathy/thrombotic thrombocytopenic purpura/haemolytic uraemic syndrome. Tell 
 your doctor if you develop fever, bruising under the skin (which may appear as red dots), 
 unexplained tiredness, confusion, yellowing of the skin or eyes, reduced urine output, vision 
 loss and seizures (see section 4). When tacrolimus is taken together with sirolimus or 
-everolimus, the risk of developing these symptoms may increase. </p>
-<p>Please avoid taking any herbal remedies, e.g., St. John’s wort (Hypericum perforatum) or any other 
+everolimus, the risk of developing these symptoms may increase. </li>
+</ul>
+<p>Please avoid taking any herbal remedies, e.g., St. John s wort (Hypericum perforatum) or any other 
 herbal products as this may affect the effectiveness and the dose of Tacforius that you need to receive. 
 If in doubt please consult your doctor prior to taking any herbal products or remedies. </p>
 <p>Your doctor may need to adjust your dose of Tacforius. </p>
@@ -142,40 +144,42 @@ therefore frequent continued monitoring of your Tacforius blood level may be nee
 few days of starting another medicine and frequently while treatment with the other medicine 
 continues. Some other medicines may cause tacrolimus blood levels to decrease, which could increase 
 the risk of rejecting the transplanted organ. In particular, you should tell your doctor if you are taking 
-or have recently taken medicines like: 
-- antifungal medicines and antibiotics, particularly so-called macrolide antibiotics, used to treat 
+or have recently taken medicines like:</p>
+<ul>
+<li>antifungal medicines and antibiotics, particularly so-called macrolide antibiotics, used to treat 
 infections e.g., ketoconazole, fluconazole, itraconazole, posaconazole, voriconazole, 
 clotrimazole, isavuconazole, miconazole, caspofungin, telithromycin, erythromycin, 
-clarithromycin, josamycin, azithromycin, rifampicin, rifabutin, isoniazid and flucloxacillin 
-- letermovir, used to prevent illness caused by CMV (human cytomegalovirus) 
-- HIV protease inhibitors (e.g., ritonavir, nelfinavir, saquinavir), the booster medicine cobicistat, 
-and combination tablets, or HIV non‐nucleoside reverse transcriptase inhibitors (efavirenz, 
-etravirine, nevirapine) used to treat HIV infection 
-- HCV protease inhibitors (e.g., telaprevir, boceprevir, the combination 
+clarithromycin, josamycin, azithromycin, rifampicin, rifabutin, isoniazid and flucloxacillin </li>
+<li>letermovir, used to prevent illness caused by CMV (human cytomegalovirus) </li>
+<li>HIV protease inhibitors (e.g., ritonavir, nelfinavir, saquinavir), the booster medicine cobicistat, 
+and combination tablets, or HIV non nucleoside reverse transcriptase inhibitors (efavirenz, 
+etravirine, nevirapine) used to treat HIV infection </li>
+<li>HCV protease inhibitors (e.g., telaprevir, boceprevir, the combination 
 ombitasvir/paritaprevir/ritonavir with or without dasabuvir, elbasvir/grazoprevir, and 
-glecaprevir/pibrentasvir), used to treat hepatitis C infection 
-- nilotinib and imatinib, idelalisib, ceritinib, crizotinib, apalutamide, enzalutamide, or mitotane 
-(used to treat certain cancers) 
-- mycophenolic acid, used to suppress the immune system to prevent transplant rejection 
-- medicines for stomach ulcer and acid reflux (e.g., omeprazole, lansoprazole or cimetidine) 
-- antiemetics, used to treat nausea and vomiting (e.g., metoclopramide) 
-- cisapride or the antacid magnesium-aluminium-hydroxide, used to treat heartburn 
-- the contraceptive pill or other hormone treatments with ethinylestradiol, hormone treatments 
-with danazol 
-- medicines used to treat high blood pressure or heart problems (e.g., nifedipine, nicardipine, 
-diltiazem and verapamil) 
-- anti-arrhythmic medicines (amiodarone) used to control arrhythmia (uneven beating of the 
-heart) 
-- medicines known as “statins” used to treat elevated cholesterol and triglycerides 
-- carbamazepine, phenytoin or phenobarbital, used to treat epilepsy 
-- cannabidiol (uses amongst others include treatment of seizures) 
-- metamizole, used to treat pain and fever 
-- the corticosteroids prednisolone and methylprednisolone, belonging to the class of 
+glecaprevir/pibrentasvir), used to treat hepatitis C infection </li>
+<li>nilotinib and imatinib, idelalisib, ceritinib, crizotinib, apalutamide, enzalutamide, or mitotane 
+(used to treat certain cancers) </li>
+<li>mycophenolic acid, used to suppress the immune system to prevent transplant rejection </li>
+<li>medicines for stomach ulcer and acid reflux (e.g., omeprazole, lansoprazole or cimetidine) </li>
+<li>antiemetics, used to treat nausea and vomiting (e.g., metoclopramide) </li>
+<li>cisapride or the antacid magnesium-aluminium-hydroxide, used to treat heartburn </li>
+<li>the contraceptive pill or other hormone treatments with ethinylestradiol, hormone treatments 
+with danazol </li>
+<li>medicines used to treat high blood pressure or heart problems (e.g., nifedipine, nicardipine, 
+diltiazem and verapamil) </li>
+<li>anti-arrhythmic medicines (amiodarone) used to control arrhythmia (uneven beating of the 
+heart) </li>
+<li>medicines known as  statins  used to treat elevated cholesterol and triglycerides </li>
+<li>carbamazepine, phenytoin or phenobarbital, used to treat epilepsy </li>
+<li>cannabidiol (uses amongst others include treatment of seizures) </li>
+<li>metamizole, used to treat pain and fever </li>
+<li>the corticosteroids prednisolone and methylprednisolone, belonging to the class of 
 corticosteroids used to treat inflammations or suppress the immune system (e.g., in transplant 
-rejection) 
-- nefazodone, used to treat depression 
-- herbal preparations containing St. John’s wort (Hypericum perforatum) or extracts of 
-Schisandra sphenanthera. </p>
+rejection) </li>
+<li>nefazodone, used to treat depression </li>
+<li>herbal preparations containing St. John s wort (Hypericum perforatum) or extracts of 
+Schisandra sphenanthera. </li>
+</ul>
 <p>Tell your doctor if you are receiving treatment for hepatitis C. The drug treatment for hepatitis C may 
 change your liver function and may affect blood levels of tacrolimus. Tacrolimus blood levels may fall 
 or may increase depending on the medicines prescribed for hepatitis C. Your doctor may need to 
@@ -227,15 +231,9 @@ dosage instructions have changed, speak to your doctor or pharmacist as soon as 
 that you have the right medicine. </p>
 <p>The starting dose to prevent the rejection of your transplanted organ will be determined by your doctor 
 calculated according to your body weight. Initial daily doses just after transplantation will generally be 
-in the range of </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>depending on the transplanted organ. When treating rejection, these same doses may be used. </p>
+in the range of </p>
+<p>0.10 - 0.30 mg per kg body weight per day </p>
+<p>depending on the transplanted organ. When treating rejection, these same doses may be used. </p>
 <p>Your dose depends on your general condition and on which other immunosuppressive medication you 
 are taking. </p>
 <p>Following the initiation of your treatment with Tacforius, frequent blood tests will be taken by your 
@@ -258,23 +256,26 @@ day. Do not take a double dose the next morning. </p>
 <p>If you stop taking Tacforius 
 Stopping your treatment with Tacforius may increase the risk of rejection of your transplanted organ. 
 Do not stop your treatment unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store tacforius"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tacforius"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tacforius reduces your body’s defence mechanism (immune system), which will not be as good at 
+<p>Tacforius reduces your body s defence mechanism (immune system), which will not be as good at 
 fighting infections. Therefore, you may be more prone to infections while you are taking Tacforius. 
 Some infections could be serious or fatal and may include infections caused by bacteria, viruses, fungi, 
 parasites, or other infections. 
-Tell your doctor immediately if you get signs of an infection including: 
-- Fever, cough, sore throat, feeling weak or generally unwell 
-- Memory loss, trouble thinking, difficulty walking or loss of vision - these may be due to a very 
+Tell your doctor immediately if you get signs of an infection including:</p>
+<ul>
+<li>Fever, cough, sore throat, feeling weak or generally unwell </li>
+<li>Memory loss, trouble thinking, difficulty walking or loss of vision - these may be due to a very 
 rare, serious brain infection, which can be fatal (Progressive Multifocal Leukoencephalopathy or 
-PML) </p>
+PML) </li>
+</ul>
 <p>Severe effects may occur, including allergic and anaphylactic reactions. Benign and malignant 
 tumours have been reported following Tacforius treatment. 
 Tell your doctor immediately if you have or suspect you may have any of the following serious 
@@ -405,18 +406,188 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store tacforius"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store tacforius"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light and moisture. 
 This medicinal product does not require any special temperature storage conditions. </p>
 <p>Use all the prolonged-release hard capsules within 1 year of opening the aluminium wrapping. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tacforius contains </p>
+<ul>
+<li>
+<p>The active substance is tacrolimus. 
+Each capsule of Tacforius 0.5 mg contains 0.5 mg of tacrolimus (as monohydrate). 
+Each capsule of Tacforius 1 mg contains 1 mg of tacrolimus (as monohydrate). 
+Each capsule of Tacforius 3 mg contains 3 mg of tacrolimus (as monohydrate). 
+Each capsule of Tacforius 5 mg contains 5 mg of tacrolimus (as monohydrate). </p>
+</li>
+<li>
+<p>The other ingredients are: 
+Capsule content 
+Hypromellose 2910, ethylcellulose, lactose, magnesium stearate. 
+Capsule shell 
+Tacforius 0.5 mg / 1 mg / 3 mg prolonged-release hard capsules: red iron oxide (E172), yellow 
+iron oxide (E172), titanium dioxide (E171), gelatin. 
+Tacforius 5 mg prolonged-release hard capsules: red iron oxide (E172), yellow iron oxide 
+(E172), titanium dioxide (E171), black iron oxide (E172), ponceau 4R (E124), gelatin. 
+Printing Ink 
+Shellac, propylene glycol, black iron oxide (E172), potassium hydroxide. </p>
+</li>
+</ul>
+<p>What Tacforius looks like and contents of the pack </p>
+<p>Tacforius 0.5 mg prolonged-release hard capsules 
+Hard gelatin capsules imprinted with  TR  on the light yellow capsule cap and  0.5 mg  on the light 
+orange capsule body. 
+Tacforius 1 mg prolonged-release hard capsules 
+Hard gelatin capsules imprinted with  TR  on the white capsule cap and  1 mg  on the light orange 
+capsule body. 
+Tacforius 3 mg prolonged-release hard capsules 
+Hard gelatin capsules imprinted with  TR  on the light orange capsule cap and  3 mg  on the light 
+orange capsule body. 
+Tacforius 5 mg prolonged-release hard capsules 
+Hard gelatin capsules imprinted with  TR  on the greyish red capsule cap and  5 mg  on the light 
+orange capsule body. </p>
+<p>Tacforius 0.5 mg / 3 mg / 5 mg prolonged-release hard capsules 
+Supplied in blisters or perforated unit-dose blisters containing 10 capsules within a protective foil 
+pouch, including a desiccant. Packs of 30, 50 and 100 prolonged-release hard capsules are available in 
+blisters and packs of 30x1, 50x1 and 100x1 prolonged-release capsules are available in perforated 
+unit-dose blisters. </p>
+<p>Tacforius 1 mg prolonged-release hard capsules 
+Supplied in blisters or perforated unit-dose blisters containing 10 capsules within a protective foil 
+pouch, including a desiccant. Packs of 30, 50, 60 and 100 prolonged-release capsules are available in 
+blisters and packs of 30x1, 50x1, 60x1 and 100x1 prolonged-release capsules are available in 
+perforated unit-dose blisters. </p>
+<p>Marketing Authorisation Holder 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Netherlands </p>
+<p>Manufacturer </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Strasse 3 
+89143 Blaubeuren 
+Germany </p>
+<p>PLIVA Hrvatska d.o.o. 
+Prilaz baruna Filipovica 10 000 Zagreb 
+Croatia </p>
+<p>TEVA Czech Industries s.r.o. 
+Ostravsk  29,  .p. Opava - Kom rov 
+747 Czech Republic </p>
+<p>Teva Operations Poland Sp. z o.o. 
+ul. Mogilska 31-546 Krakow 
+Poland </p>
+<p>Teva Pharma S.L.U. 
+C/C, n. 4, Poligono Industrial Malpica 
+ES-50016 Zaragoza 
+Spain </p>
+<p>Teva Pharmaceutical Works Private Limited Company 
+Pallagi Ut 4042 Debrecen 
+Hungary </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 </p>
+<p>: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+T l/Tel: +49 73140 
+ esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+Espa a 
+Nordic Pharma, S.A.U. 
+Tel.: +34 916404 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Sant<br />
+T l: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: + 385 13720 
+Rom nia 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+ sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503 
+Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. 
+Sverige 
+Teva Sweden AB </p>
+<p>: +30 2118805 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

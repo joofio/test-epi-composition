@@ -4,7 +4,7 @@ Instance: composition-en-0349e0c03941d2ede34c30a30310b99b
 InstanceOf: CompositionUvEpi
 Title: "Composition for odomzo Package Leaflet"
 Description:  "Composition for odomzo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ Usage: #example
 cancer has spread locally and cannot be treated with surgery or radiation. </p>
 <p>How Odomzo works </p>
 <p>The normal growth of cells is controlled by various chemical signals. In patients with basal cell carcinoma, 
-changes occur to genes controlling a part of this process known as the “hedgehog pathway”. This switches on 
+changes occur to genes controlling a part of this process known as the  hedgehog pathway . This switches on 
 signals that make the cancer cells grow out of control. Odomzo works by blocking this process, stopping 
 cancer cells from growing and making new cells. </p>         </div>"""   
           
@@ -94,15 +94,15 @@ doctor. </p>
 <p>Do not take Odomzo 
 * if you are allergic to sonidegib or any of the other ingredients of this medicine (listed in section 6). 
 * if you are pregnant or think you may be pregnant. This is because Odomzo may cause harm or death to 
-your unborn baby (see section “Pregnancy”). 
+your unborn baby (see section  Pregnancy ). 
 * if you are breast-feeding. This is because it is not known whether Odomzo can pass into your breast 
-milk and cause harm to your baby (see section “Breast-feeding”). 
+milk and cause harm to your baby (see section  Breast-feeding ). 
 * if you are able to become pregnant but are unable or unwilling to follow the necessary pregnancy 
 prevention measures that are listed in the Odomzo Pregnancy Prevention Programme. 
 Do not take Odomzo if any of the above apply to you. If you are not sure, talk to your doctor or pharmacist 
 before taking Odomzo. </p>
-<p>Additional information on the above points can be found in the sections “Pregnancy”, “Breast-feeding”, 
-“Fertility” and “Contraception for women and men”. </p>
+<p>Additional information on the above points can be found in the sections  Pregnancy ,  Breast-feeding , 
+ Fertility  and  Contraception for women and men . </p>
 <p>Warnings and precautions 
 - Odomzo may cause muscle problems. Tell your doctor before taking Odomzo if you have a history of 
 muscle cramps or weakness or if you are taking other medicines. Some medicines (e.g. medicines used 
@@ -147,7 +147,7 @@ other diseases such as rheumatoid arthritis or lupus erythematosus
 * medicines such as carbamazepine, phenytoin or phenobarbital used to treat acute seizures 
 * a medicine called nefazodone used to treat depression 
 * a medicine called penicillamine used to treat rheumatoid arthritis 
-* a herbal medicine called St. John’s wort (also known as Hypericum perforatum) used to treat 
+* a herbal medicine called St. John s wort (also known as Hypericum perforatum) used to treat 
 depression. 
 If any of the above apply to you or you are not sure, talk to your doctor or pharmacist before taking Odomzo. </p>
 <p>These medicines should be used with caution or may need to be avoided during your treatment with 
@@ -180,13 +180,13 @@ examples below) while you are taking Odomzo,
 traces of the medicine remain in the body for a long time. 
 Your doctor will discuss with you the best method of contraception for you. </p>
 <p>You must use one highly effective method, such as: 
-* an intra-uterine device (“the coil” or IUD) 
+* an intra-uterine device ( the coil  or IUD) 
 * surgical sterilisation. </p>
 <p>You must also use one barrier method, such as: 
 * a condom (with spermicide, if available) 
 * a diaphragm (with spermicide, if available). </p>
 <p>Your doctor will test you for pregnancy: 
-* at least 7 days before starting treatment – to make sure that you are not already pregnant 
+* at least 7 days before starting treatment   to make sure that you are not already pregnant 
 * every month during treatment. </p>
 <p>During treatment and during the 20 months after your treatment has finished, tell your doctor straight away 
 if: 
@@ -247,7 +247,7 @@ Do not stop taking Odomzo without talking to your doctor first. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Odomzo may cause severe birth defects, You must not become pregnant while taking this medicine (see 
-“Pregnancy”, “Breast-feeding”, “Fertility” and “Contraception for women and men” in section 2 for more 
+ Pregnancy ,  Breast-feeding ,  Fertility  and  Contraception for women and men  in section 2 for more 
 information). </p>
 <p>Stop taking Odomzo and tell your doctor straight away if you notice any of the following as these could be 
 signs of an allergic reaction: 
@@ -303,13 +303,15 @@ Appendix V. By reporting side effects you can help provide more information on t
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store odomzo"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the pack and the blister after EXP. 
-The expiry date refers to the last day of that month. 
-* Do not store above 30°C. 
-* Store in the original package in order to protect from moisture. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the pack and the blister after EXP. 
+The expiry date refers to the last day of that month. </li>
+<li>Do not store above 30 C. </li>
+<li>Store in the original package in order to protect from moisture. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -320,13 +322,13 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Odomzo contains 
 * The active substance is sonidegib (as phosphate). Each capsule contains 200 mg sonidegib. 
 * The other ingredients are: 
-* Capsule contents: crospovidone type A, lactose monohydrate (see section 2, ‘Odomzo contains 
-lactose’), magnesium stearate, poloxamer 188, silica, colloidal anhydrous, sodium laurilsulfate. 
+* Capsule contents: crospovidone type A, lactose monohydrate (see section 2,  Odomzo contains 
+lactose ), magnesium stearate, poloxamer 188, silica, colloidal anhydrous, sodium laurilsulfate. 
 * Capsule shell: gelatin, iron oxide red (E172), titanium dioxide (E171). 
 * Printing ink: iron oxide black (E172), propylene glycol (E1520), shellac. </p>
 <p>What Odomzo looks like and contents of the pack </p>
-<p>Odomzo 200 mg capsules are pink and opaque. They are imprinted with “SONIDEGIB 200MG” and 
-“NVR”. </p>
+<p>Odomzo 200 mg capsules are pink and opaque. They are imprinted with  SONIDEGIB 200MG  and 
+ NVR . </p>
 <p>Odomzo is provided in perforated unit-dose blisters containing 10 x 1 capsule. It is available in pack sizes of 
 10 and 30 capsules. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -336,19 +338,18 @@ Polarisavenue 2132JH Hoofddorp
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sun Pharmaceutical Industries Europe B.V. 
-Tél/Tel: +31 23 568 55 Lietuva 
+T l/Tel: +31 23 568 55 Lietuva 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55<br />
-България 
+Tel: +31 23 568 55  </p>
+<p>Sun Pharmaceutical Industries Europe B.V. 
+ : +31 23 568 55 Luxembourg/Luxemburg 
 Sun Pharmaceutical Industries Europe B.V. 
-Тел: +31 23 568 55 Luxembourg/Luxemburg 
+T l/Tel: +31 23 568 55<br />
+ esk  republika 
 Sun Pharmaceutical Industries Europe B.V. 
-Tél/Tel: +31 23 568 55<br />
-Česká republika 
-Sun Pharmaceutical Industries Europe B.V. 
-Tel: +31 23 568 55 Magyarország 
+Tel: +31 23 568 55 Magyarorsz g 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel.: +31 23 568 55<br />
 Danmark 
@@ -365,25 +366,24 @@ Tel: +31 23 568 55 Eesti
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55 Norge 
 Sun Pharmaceutical Industries Europe B.V. 
-Tlf: +31 23 568 55<br />
-Ελλάδα 
-Sun Pharmaceutical Industries Europe B.V. 
-Τηλ: +31 23 568 55 Österreich 
+Tlf: +31 23 568 55  </p>
+<p>Sun Pharmaceutical Industries Europe B.V. 
+ : +31 23 568 55  sterreich 
 Astro-Pharma GmbH 
 Tel:  +43 (1) 97 99<br />
-España 
+Espa a 
 Sun Pharma Laboratorios S.L. 
 Tel: +34 93 342 78 Polska 
 Ranbaxy (Poland) 
 Tel.: +48 22 642 07<br />
 France 
 Sun Pharma France 
-Tél:+33 1 41 44 44 Portugal 
+T l:+33 1 41 44 44 Portugal 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55<br />
 Hrvatska 
 Sun Pharmaceutical Industries Europe B.V. 
-Tel.: +31 23 568 55 România 
+Tel.: +31 23 568 55 Rom nia 
 Terapia S.A. 
 Tel:+40 264 50 15<br />
 Ireland 
@@ -391,19 +391,18 @@ Sun Pharmaceutical Industries Europe B.V.
 Tel: +31 23 568 55 Slovenija 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55<br />
-Ísland 
+ sland 
 Sun Pharmaceutical Industries Europe B.V. 
-Sími: +31 23 568 55 Slovenská republika 
+S mi: +31 23 568 55 Slovensk  republika 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55<br />
 Italia 
 Sun Pharma Italia S.r.l. 
 Tel: +39 02 33 49 07 Suomi/Finland 
 Sun Pharmaceutical Industries Europe B.V. 
-Puh/Tel: +31 23 568 55<br />
-Κύπρος 
-Sun Pharmaceutical Industries Europe B.V. 
-Τηλ: +31 23 568 55 Sverige 
+Puh/Tel: +31 23 568 55  </p>
+<p>Sun Pharmaceutical Industries Europe B.V. 
+ : +31 23 568 55 Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
 Tel: +31 23 568 55<br />
 Latvija 

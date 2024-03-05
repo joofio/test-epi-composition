@@ -4,7 +4,7 @@ Instance: composition-en-d318ddad4078d9629a42fcddbae8f64a
 InstanceOf: CompositionUvEpi
 Title: "Composition for polivy Package Leaflet"
 Description:  "Composition for polivy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,27 +70,27 @@ Usage: #example
   * code.text =  "1. What polivy is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Polivy is </p>
-<p>Polivy is a cancer medicine that contains the active substance “polatuzumab vedotin”. </p>
-<p>It is always used together with other cancer medicines – see below “What other medicines is Polivy 
-given with”. </p>
+<p>Polivy is a cancer medicine that contains the active substance  polatuzumab vedotin . </p>
+<p>It is always used together with other cancer medicines   see below  What other medicines is Polivy 
+given with . </p>
 <p>What Polivy is used for </p>
-<p>Polivy is given to treat “diffuse large B-cell lymphoma” that has never been treated before. </p>
-<p>Polivy is also given to treat “diffuse large B-cell lymphoma” that has come back or has not got better: 
+<p>Polivy is given to treat  diffuse large B-cell lymphoma  that has never been treated before. </p>
+<p>Polivy is also given to treat  diffuse large B-cell lymphoma  that has come back or has not got better: 
 * after at least one previous therapy, and 
 * when you cannot receive a stem cell transplant.  </p>
-<p>“Diffuse large B-cell lymphoma” is a cancer that comes from “B lymphocytes” also called B-cells. 
+<p>Diffuse large B-cell lymphoma  is a cancer that comes from  B lymphocytes  also called B-cells. 
 These are a type of blood cells.  </p>
 <p>How Polivy works </p>
-<p>Polivy contains something called a ‘monoclonal antibody’and a substance that can kill cancer called 
-‘MMAE’.<br />
-<em> The “monoclonal antibody” part of the medicine attaches to a target on B cells.<br />
-</em> Once attached to B cells, the medicine releases “MMAE” into the B cells and kills them. </p>
+<p>Polivy contains something called a  monoclonal antibody and a substance that can kill cancer called 
+ MMAE .<br />
+<em> The  monoclonal antibody  part of the medicine attaches to a target on B cells.<br />
+</em> Once attached to B cells, the medicine releases  MMAE  into the B cells and kills them. </p>
 <p>What other medicines Polivy is given with </p>
 <p>Polivy is given in combination with other cancer medicines:<br />
-* rituximab, cyclophosphamide, doxorubicin and prednisone for “diffuse large B-cell lymphoma” 
+* rituximab, cyclophosphamide, doxorubicin and prednisone for  diffuse large B-cell lymphoma<br />
 that has never been treated before. 
-* rituximab and bendamustine for “diffuse large B-cell lymphoma” that has come back or has not 
-got better, after at least one previous therapy – and when you cannot receive a stem cell 
+* rituximab and bendamustine for  diffuse large B-cell lymphoma  that has come back or has not 
+got better, after at least one previous therapy   and when you cannot receive a stem cell 
 transplant. </p>         </div>"""   
           
 
@@ -112,14 +112,18 @@ nurse before you are given Polivy. </li>
 <p>Talk to your doctor or nurse before you are given Polivy if any of the following apply to you (or you 
 are not sure):  </p>
 <ul>
-<li>you have ever had brain or nerve problems such as:  </li>
-<li>memory problems </li>
+<li>
+<p>you have ever had brain or nerve problems such as:</p>
+</li>
+<li>
+<p>memory problems </p>
+</li>
 <li>difficulty moving or sensations in your body such as feeling pins and needles, burning, 
 pain and discomfort even from slight touch </li>
 <li>eyesight problems </li>
 <li>you have ever had liver problems </li>
 <li>you think you have an infection or have had long-lasting or repeated infections such as herpes 
-(see “Infections” in section 4) </li>
+(see  Infections  in section 4) </li>
 <li>you are due to have a vaccine or you know you may need to have one in the near future </li>
 </ul>
 <p>If any of the above apply to you (or you are not sure) talk to your doctor or nurse before you are given 
@@ -175,8 +179,8 @@ with Polivy together with bendamustine and another medicine called obinutuzumab.
 notice any changes in them. You may need medical treatment. </p>
 <p>Tumour lysis syndrome  </p>
 <p>Some people may develop unusual levels of some substances (such as potassium and uric acid) in the 
-blood caused by the fast breakdown of cancer cells during treatment. This is called “tumour lysis 
-syndrome”. Your doctor, pharmacist or nurse will do blood tests to check for the condition. </p>
+blood caused by the fast breakdown of cancer cells during treatment. This is called  tumour lysis 
+syndrome . Your doctor, pharmacist or nurse will do blood tests to check for the condition. </p>
 <p>Infusion-related reactions </p>
 <p>Infusion-related reactions, allergic or anaphylactic (more severe allergic) reactions can happen. Your 
 doctor or nurse will check for side effects during your infusion and for 30 to 90 minutes afterwards. If 
@@ -198,16 +202,16 @@ medicines. This includes medicines obtained without a prescription and herbal me
 <p>Also tell your doctor or nurse if you are due to have a vaccine or you know you may need to have one 
 in the near future. </p>
 <p>Contraception (women and men)  </p>
-<p>If you are a woman of childbearing age, you must use effective contraception during treatment – and 
+<p>If you are a woman of childbearing age, you must use effective contraception during treatment   and 
 for 9 months after the last dose of Polivy. </p>
-<p>Men must use contraception during treatment – and for 6 months after the last dose of Polivy. </p>
+<p>Men must use contraception during treatment   and for 6 months after the last dose of Polivy. </p>
 <p>Pregnancy  </p>
 <p>It is important to tell your doctor before and during treatment if you are pregnant, think you may be 
-pregnant, or are planning to get pregnant. This is because Polivy can affect your baby’s health.  </p>
+pregnant, or are planning to get pregnant. This is because Polivy can affect your baby s health.  </p>
 <p>Do not use this medicine if you are pregnant unless you and your doctor decide that the benefit to you 
 outweighs possible risk to the unborn baby.  </p>
 <p>Breast-feeding  </p>
-<p>Do not breast-feed while receiving Polivy – and for at least 3 months after the last dose, because small 
+<p>Do not breast-feed while receiving Polivy   and for at least 3 months after the last dose, because small 
 amount of Polivy may pass into your breast milk.  </p>
 <p>Fertility  </p>
 <p>Men are advised to have sperm samples preserved and stored before treatment with this medicine.  </p>
@@ -218,7 +222,7 @@ amount of Polivy may pass into your breast milk.  </p>
 <p>See section 4 for more information about side effects. </p>
 <p>Polivy contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take polivy"
@@ -238,10 +242,10 @@ amount of Polivy may pass into your breast milk.  </p>
 </ul>
 <p>What other medicines is Polivy given with? </p>
 <ul>
-<li>rituximab, cyclophosphamide, doxorubicin and prednisone for “diffuse large B-cell lymphoma” 
+<li>rituximab, cyclophosphamide, doxorubicin and prednisone for  diffuse large B-cell lymphoma<br />
 that has never been treated before or, </li>
-<li>rituximab and bendamustine for “diffuse large B-cell lymphoma” that has come back or has not 
-got better, after at least one previous therapy – and when you cannot receive a stem cell transplant.  </li>
+<li>rituximab and bendamustine for  diffuse large B-cell lymphoma  that has come back or has not 
+got better, after at least one previous therapy   and when you cannot receive a stem cell transplant.  </li>
 </ul>
 <p>If you miss a dose of Polivy </p>
 <ul>
@@ -262,11 +266,11 @@ stopping treatment may make your condition worse.  </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects have been reported with this medicine: </p>
 <p>Serious side effects </p>
-<p>Tell your doctor or nurse straight away if you notice any of the following serious side effects – you 
+<p>Tell your doctor or nurse straight away if you notice any of the following serious side effects   you 
 may need urgent medical treatment. These may be new symptoms or a change in your current 
 symptoms. </p>
 <ul>
-<li>infusion-related reactions – your doctor will check for these for 30-90 minutes afterwards </li>
+<li>infusion-related reactions   your doctor will check for these for 30-90 minutes afterwards </li>
 <li>fevers and chills </li>
 <li>rash/hives </li>
 <li>severe infections </li>
@@ -301,12 +305,14 @@ symptoms. </p>
 * infusion-related reactions 
 * common cold 
 * hair loss 
-* changes in blood tests: 
-- low levels of all types of white blood cell (combined) 
-- low levels of neutrophils (a type of white blood cell) with or without fever 
-- low level of platelets (a type of blood cell that helps your blood to clot) 
-- low levels of red blood cells (anaemia) 
-- low level of potassium in the blood (hypokalaemia) </p>
+* changes in blood tests:</p>
+<ul>
+<li>low levels of all types of white blood cell (combined) </li>
+<li>low levels of neutrophils (a type of white blood cell) with or without fever </li>
+<li>low level of platelets (a type of blood cell that helps your blood to clot) </li>
+<li>low levels of red blood cells (anaemia) </li>
+<li>low level of potassium in the blood (hypokalaemia) </li>
+</ul>
 <p>Common: may affect up to 1 in 10 people 
 * severe infection (sepsis) 
 * urinary tract infection 
@@ -324,13 +330,15 @@ symptoms. </p>
 * rash 
 * dry skin 
 * muscle pain 
-* changes shown in blood tests: 
-- decreased number of all blood cells (pancytopenia) 
-- low levels of lymphocytes (a type of white blood cells) 
-- low level of phosphate in the blood (hypophosphataemia) 
-- low level of calcium in the blood (hypocalcaemia) 
-- low level of albumin in the blood (hypoalbuminemia) 
-- high level of lipase enzyme in the blood </p>
+* changes shown in blood tests:</p>
+<ul>
+<li>decreased number of all blood cells (pancytopenia) </li>
+<li>low levels of lymphocytes (a type of white blood cells) </li>
+<li>low level of phosphate in the blood (hypophosphataemia) </li>
+<li>low level of calcium in the blood (hypocalcaemia) </li>
+<li>low level of albumin in the blood (hypoalbuminemia) </li>
+<li>high level of lipase enzyme in the blood </li>
+</ul>
 <p>Uncommon: may affect up to 1 in 100 people </p>
 <ul>
 <li>blurred vision </li>
@@ -352,7 +360,7 @@ follows:
 * Keep this medicine out of the sight and reach of children. 
 * Do not use this medicine after the expiry date which is stated on the carton and the vial after 
 EXP. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2 ℃–8 ℃). 
+* Store in a refrigerator (2  8  ). 
 * Do not freeze. 
 * Keep the container in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -371,7 +379,7 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>Polivy 140 mg: Each vial contains 140 milligrams (mg) polatuzumab vedotin.  </li>
 <li>After reconstitution each millilitre (mL) contains 20 mg polatuzumab vedotin. </li>
 <li>The other ingredients are: succinic acid, sodium hydroxide, sucrose, polysorbate 20. See section 
-“Polivy contains sodium”. </li>
+ Polivy contains sodium . </li>
 </ul>
 <p>What Polivy looks like and contents of the pack </p>
 <p>Polivy powder for concentrate for solution for infusion is a white to slightly greyish-white cake 
@@ -389,27 +397,25 @@ Emil-Barell-Strasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
-Tel: +420 - 2 20382Magyarország 
-Roche (Magyarország) Kft. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 
 Danmark 
 Roche Pharmaceuticals A/S </p>
 <p>Tlf: +45 - 36 39 99 <br />
 Malta 
-Irreferi għall-Irlanda<br />
+Irreferi g all-Irlanda<br />
 Deutschland 
 Roche Pharma AG 
 Tel: +49 (0) 7624 140<br />
@@ -417,18 +423,17 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177 380  </p>
 <p>Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E. 
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E. 
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
 Tel: +43 (0) 1 27 
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Polska 
@@ -436,27 +441,27 @@ Roche Polska Sp.z o.o.
 Tel: +48 - 22 345 18<br />
 France 
 Roche 
-Tél: +33 (0) 1 47 61 40<br />
+T l: +33 (0) 1 47 61 40<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o. 
 Tel: +385 1 4722<br />
-România 
-Roche România S.R.L. 
+Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47<br />
 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 
 Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland 
+ sland 
 Roche Pharmaceuticals A/S </p>
 <p>c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -464,10 +469,9 @@ Roche S.p.A.
 Tel: +39 - 039 2 
 Suomi/Finland 
 Roche Oy 
-Puh/Tel: +358 (0) 10 554<br />
-Κύπρος 
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+Puh/Tel: +358 (0) 10 554  </p>
+<p>. .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 

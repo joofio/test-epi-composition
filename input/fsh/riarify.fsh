@@ -4,7 +4,7 @@ Instance: composition-en-0ab8cf0cd2257bee1916fb1bd19c98b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for riarify Package Leaflet"
 Description:  "Composition for riarify Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,13 +98,13 @@ glycopyrronium or any of the other ingredients of this medicine (listed in secti
 to treat a sudden attack of breathlessness or wheezing. </p>
 <p>If your breathing gets worse </p>
 <p>If you develop worsening shortness of breath or wheezing (breathing with a whistling sound), straight 
-after inhaling your medicine, stop using Riarify inhaler and use your quick-acting “reliever” inhaler 
+after inhaling your medicine, stop using Riarify inhaler and use your quick-acting  reliever  inhaler 
 straightaway. You should contact your doctor straightaway. Your doctor will assess your symptoms 
 and if necessary may start you on a different treatment.<br />
-See also section 4, “Possible side effects”. </p>
+See also section 4,  Possible side effects . </p>
 <p>If your lung disease gets worse </p>
-<p>If your symptoms get worse or are difficult to control (e.g. if you are using a separate “reliever” 
-inhaler more frequently) or if your “reliever” inhaler does not improve your symptoms, see your 
+<p>If your symptoms get worse or are difficult to control (e.g. if you are using a separate  reliever<br />
+inhaler more frequently) or if your  reliever  inhaler does not improve your symptoms, see your 
 doctor immediately. Your lung disease may be getting worse and your doctor may need to prescribe 
 different treatment. </p>
 <p>Talk to your doctor or pharmacist before using Riarify: </p>
@@ -198,7 +198,7 @@ can cause some changes in the electrocardiogram (ECG, heart trace). They may als
 the risk of disturbances of heart rhythm (ventricular arrhythmias). </p>
 </li>
 <li>
-<p>medicines for treating Parkinson’s disease (levodopa), to treat an underactive thyroid gland 
+<p>medicines for treating Parkinson s disease (levodopa), to treat an underactive thyroid gland 
 (levothyroxine), medicines containing oxytocin (which causes uterine contraction) and alcohol 
 can increase the chances of formoterol side effects on the heart. </p>
 </li>
@@ -271,32 +271,13 @@ small amount. The number of puffs remaining is displayed in intervals of 20. Tak
 inhaler as this may cause the dose indicator to count down. </p>
 <p>Testing your inhaler 
 Before using the inhaler for the first time, you should test your inhaler to make sure that it is working 
-properly, as follows.  </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Hold your inhaler upright with the mouthpiece at the bottom  </li>
-</ol>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store riarify"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store riarify"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>one puff </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>counter should read:  </p>
+properly, as follows.<br />
+1. Depending on the container size prescribed to you, check that the dose counter reads 61 or and that the dose indicator reads 2. Remove the protective cap from the mouthpiece 
+3. Hold your inhaler upright with the mouthpiece at the bottom<br />
+4. Direct the mouthpiece away from yourself and firmly press the pressurised container to release 
+one puff 
+5. Check the dose counter or dose indicator. If you are testing your inhaler for the first time, the 
+counter should read:</p>
 <ul>
 <li>when using the container 
 providing 60 puffs </li>
@@ -307,5 +288,201 @@ providing 180 puffs </li>
 </ul>
 <p>How to use your inhaler 
 Stand or sit up when inhaling.<br />
-IMPORTANT: Do not perform steps 2 to 5 too quickly.  </p>         </div>"""      
+IMPORTANT: Do not perform steps 2 to 5 too quickly.  </p>
+<ol>
+<li>Remove the protective cap from the mouthpiece and check that the mouthpiece is clean and free 
+from dust and dirt. </li>
+<li>Breathe out as slowly and deeply as possible, in order to empty your lungs. </li>
+<li>Hold the inhaler upright with the mouthpiece at the bottom and place the mouthpiece between 
+your teeth without biting it. Then place your lips around the mouthpiece, with the tongue flat 
+under it. </li>
+<li>Breathe in slowly and deeply through your mouth to fill your lungs with air (this should take 
+about 4 5 seconds). Just after starting to breathe in, press down firmly on the top of the 
+pressurised container to release one puff.  </li>
+<li>Hold your breath for as long as possible and, finally, remove the inhaler from your mouth and 
+breathe out slowly. Do not breathe out into the inhaler. </li>
+<li>Check that the dose counter (60/120 puffs) has moved down by one or that the dose indicator 
+(180 puffs) has rotated by a small amount. </li>
+</ol>
+<p>For the second puff, keep the inhaler in the upright position for about half a minute, then repeat steps 2 
+to </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you see 'mist' coming from the top of the inhaler or the sides of your mouth, this means that Riarify 
+will not be getting into your lungs as it should. Take another puff, following the instructions starting 
+again from step </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store riarify"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store riarify"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>After use, replace the protective cap. </p>
+<p>To prevent a fungal infection in the mouth and throat, rinse your mouth or gargle with water without 
+swallowing it or brush your teeth after each use of your inhaler. </p>
+<p>When to get a new inhaler 
+You should get a replacement when the counter or indicator shows the number 20. Stop using the 
+inhaler when the counter or indicator shows 0, as any medicine left in the inhaler may not be enough 
+to give you a full puff. </p>
+<p>If you have a weak grip, it may be easier to hold the inhaler with both hands: hold the upper part of the 
+inhaler with both index fingers and its lower part with both thumbs. </p>
+<p>If you find it difficult to use the inhaler while starting to breathe in, you may use the AeroChamber 
+Plus spacer device. Ask your doctor or pharmacist about this device. 
+It is important that you read the package leaflet which is supplied with your AeroChamber Plus spacer 
+device and that you carefully follow the instructions on how to use the AeroChamber Plus spacer 
+device and how to clean it. </p>
+<p>Cleaning of the Riarify inhaler 
+You should clean your inhaler once a week.<br />
+1. Do not remove the pressurised container from the inhaler and do not use water or other liquids to 
+clean your inhaler. 
+2. Remove the protective cap from the mouthpiece by pulling it away from your inhaler. 
+3. Wipe inside and outside of the mouthpiece and the inhaler with a clean, dry cloth or tissue. 
+4. Replace the mouthpiece cap. </p>
+<p>If you use more Riarify than you should 
+It is important that you take your dose as advised by your doctor. Do not exceed your prescribed dose 
+without talking to your doctor. 
+If you use more Riarify than you should, side effects, as described in section 4, may occur.<br />
+Tell your doctor if you have used more Riarify than you should and if you experience any of these 
+symptoms. Your doctor may wish to carry out some blood tests. </p>
+<p>Tell your doctor if you have any of these symptoms.  </p>
+<p>If you forget to use Riarify 
+Use it as soon as you remember. If it is almost time for your next dose, do not take the dose you have 
+missed, but just take the next dose at the correct time. Do not double the dose. </p>
+<p>If you stop using Riarify 
+It is important to use Riarify every day. Do not stop using Riarify or lower the dose, even if you are 
+feeling better or you have no symptoms. If you want to do this, talk to your doctor. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
+<p>There is a risk of worsening shortness of breath and wheezing immediately after using Riarify and this 
+is known as paradoxical bronchospasm (may affect up to 1 in 1,000 people). If this occurs you should 
+stop using Riarify and use your quick-acting  reliever  inhaler straightaway to treat the shortness of 
+breath and wheezing. You should contact your doctor straightaway. </p>
+<p>Tell your doctor immediately 
+* if you experience any allergic reactions like skin allergies, hives, skin itching, skin rash (may 
+affect up to 1 in 100 people), reddening of the skin, swelling of the skin or mucous membranes 
+especially of the eyes, face, lips and throat (may affect up to 1 in 1,000 people). 
+* if you experience eye pain or discomfort, temporary blurring of vision, visual halos or coloured 
+images in association with red eyes. These may be signs of an acute attack of narrow-angle 
+glaucoma (may affect up to 1 in 10,000 people). </p>
+<p>Tell your doctor if you have any of the following while using Riarify as they could be symptoms of a 
+lung infection (may affect up to 1 in 10 people): 
+* fever or chills 
+* increased mucus production, change in mucus colour 
+* increased cough or increased breathing difficulties. </p>
+<p>Possible side effects are listed below according to their frequency.  </p>
+<p>Common (may affect up to 1 in 10 people) 
+* sore throat 
+* runny or stuffy nose and sneezing 
+* fungal infections of the mouth. Rinsing your mouth or gargling with water and brushing your 
+teeth immediately after inhalation may help to prevent these side effects 
+* hoarseness 
+* headache 
+* urinary tract infection. </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* flu 
+* inflammation of the sinuses 
+* itchy, runny or blocked nose 
+* fungal infections of the throat or of the 
+food pipe (oesophagus)<br />
+* fungal infections of the vagina 
+* restlessness 
+* trembling 
+* dizziness 
+* abnormal or reduced sense of taste 
+* numbness 
+* inflammation of the ear 
+* irregular heart beat 
+* changes in the electrocardiogram (heart 
+trace) 
+* unusually fast heart beat and disorders of 
+the heart rhythm 
+* palpitations (feeling of abnormal beating of 
+the heart) 
+* reddening of the face 
+* increased blood flow to some tissues in the 
+body 
+* asthma attack 
+* cough and productive cough 
+* irritation of the throat 
+* nose bleeds 
+* redness of the pharynx 
+* dry mouth 
+* diarrhoea 
+* swallowing difficulties 
+* feeling sick 
+* upset stomach 
+* stomach discomfort after meals 
+* burning sensation of the lips 
+* tooth decay 
+* skin rash, hives, skin itching 
+* inflammation of the mucous membrane of 
+the mouth with or without ulcers 
+* increased sweating 
+* muscle cramps and pain in muscles 
+* pain in arms or legs 
+* pain in muscles, bones or joints of the chest 
+* tiredness 
+* increase of blood pressure 
+* fall in the level of some constituents of your 
+blood: of certain white blood cells called 
+granulocytes, of potassium or of cortisol 
+* increase in the level of some constituents of 
+your blood: glucose, C-reactive protein, 
+number of platelets, insulin, free fatty acid 
+or ketones. </p>
+<p>Rare (may affect up to 1 in 1,000 people) 
+* fungal infections of the chest 
+* decreased appetite 
+* sleep disorders (sleeping too little or too 
+long) 
+* crushing chest pain 
+* sensation of a missed heart beat or of extra 
+heart beats, unusually slow heart beat 
+* worsening of asthma 
+* leakage of blood from a vessel into the 
+tissues surrounding it 
+* decrease of blood pressure 
+* weakness 
+* pain in the back of the mouth and throat 
+* inflammation of the pharynx 
+* dry throat 
+* painful and frequent urination 
+* difficulty and pain when passing urine 
+* inflammation of the kidneys. </p>
+<p>Very rare (may affect up to 1 in 10,000 people) 
+* low level in the number of certain blood cells called platelets 
+* feeling breathless or short of breath 
+* swelling of the hands and feet 
+* growth retardation in children and adolescents. </p>
+<p>Not known (frequency cannot be estimated from the available data) 
+* blurred vision. </p>
+<p>Using high-dose inhaled corticosteroids over a long time can cause in very rare cases effects on 
+the body: 
+* problems with how your adrenal glands work (adrenal suppression) 
+* decrease in bone mineral density (thinning of the bones) 
+* clouding of the lens of your eyes (cataract). </p>
+<p>Riarify does not contain a high-dose inhaled corticosteroid, but your doctor may wish to measure the 
+cortisol levels in your blood from time to time. </p>
+<p>The following side effects can also occur with high-dose inhaled corticosteroids used over a long time, 
+but the frequency is not known (frequency cannot be estimated from the available data) at present: 
+* depression 
+* feeling worried, nervous, over-excited or irritable. 
+These events are more likely to occur in children. </p>
+<p>Reporting of side effects 
+If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not 
+listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects you can help provide more information on the safety of this 
+medicine. </p>         </div>"""      
 

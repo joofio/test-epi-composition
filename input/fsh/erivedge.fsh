@@ -4,7 +4,7 @@ Instance: composition-en-488e3aaf4c4053ed6d0b296da5f0f508
 InstanceOf: CompositionUvEpi
 Title: "Composition for erivedge Package Leaflet"
 Description:  "Composition for erivedge Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,8 +74,8 @@ Erivedge is an anti-cancer medicine that contains the active substance vismodegi
 <p>What Erivedge is used for 
 Erivedge is used to treat adults with a type of skin cancer called advanced basal cell carcinoma. It is 
 used when the cancer: 
-* has spread to other parts of the body (called “metastatic” basal cell carcinoma)<br />
-* has spread to areas nearby (called “locally advanced” basal cell carcinoma) and your doctor 
+* has spread to other parts of the body (called  metastatic  basal cell carcinoma)<br />
+* has spread to areas nearby (called  locally advanced  basal cell carcinoma) and your doctor 
 decides that treatment with surgery or radiation is inappropriate </p>
 <p>How Erivedge works 
 Basal cell carcinoma develops when DNA in normal skin cells becomes damaged and the body cannot 
@@ -106,10 +106,10 @@ Erivedge can pass into your milk and cause harm to your baby.
 * if you are able to become pregnant but are unable or unwilling to follow the necessary 
 pregnancy prevention measures that are listed in the Erivedge Pregnancy Prevention 
 Programme.<br />
-* if you are also taking St John’s wort (Hypericum perforatum) – a herbal medicine used for 
-depression (see “Other medicines and Erivedge”). </p>
-<p>More information on the issues above is found in the sections “Pregnancy”, “Breast-feeding” and 
-“Fertility” and “Contraception – for men and women”. </p>
+* if you are also taking St John s wort (Hypericum perforatum)   a herbal medicine used for 
+depression (see  Other medicines and Erivedge ). </p>
+<p>More information on the issues above is found in the sections  Pregnancy ,  Breast-feeding  and 
+ Fertility  and  Contraception   for men and women . </p>
 <p>Do not take this medicine if any of the above apply to you. If you are not sure, talk to your doctor or 
 pharmacist before taking Erivedge. </p>
 <p>Warnings and precautions 
@@ -137,14 +137,14 @@ medicines. This also includes non-prescription medicines, vitamins and herbal me
 <p>Some medicines may affect how Erivedge works, or make it more likely that you will have side 
 effects. Erivedge can also affect how some other medicines work.<br />
 In particular, tell your doctor if you take any of the following medicines: 
-* rifampicin – used for bacterial infections 
-* carbamazepine, phenytoin – used for epilepsy 
-* ezetimibe and statins , such as atorvastatin, fluvastatin, pravastatin, rosuvastatin, simvastatin – 
+* rifampicin   used for bacterial infections 
+* carbamazepine, phenytoin   used for epilepsy 
+* ezetimibe and statins , such as atorvastatin, fluvastatin, pravastatin, rosuvastatin, simvastatin <br />
 used for high cholesterol 
 * bosentan, glibenclamide, repaglinide, valsartan <br />
-* topotecan – used for certain types of cancer 
-* sulfasalazine – used for certain inflammatory disorders, and especially 
-* St. John’s wort (Hypericum perforatum) – a herbal medicine used for depression, since you 
+* topotecan   used for certain types of cancer 
+* sulfasalazine   used for certain inflammatory disorders, and especially 
+* St. John s wort (Hypericum perforatum)   a herbal medicine used for depression, since you 
 must not use it at the same time as Erivedge </p>
 <p>Pregnancy 
 Do not take Erivedge if you are pregnant, think you may be pregnant, or are planning to become 
@@ -160,10 +160,10 @@ information particularly on the effects of Erivedge on unborn babies. </p>
 Do not breast-feed during your treatment and for 24 months after your final dose of this medicine. It is 
 not known if Erivedge can pass into your breast milk and harm your baby. </p>
 <p>Fertility 
-Erivedge may affect a woman’s ability to have children. Some women taking Erivedge have stopped 
+Erivedge may affect a woman s ability to have children. Some women taking Erivedge have stopped 
 having periods. If this happens to you, it is not known if your periods will come back. Talk to your 
 doctor if you wish to have children in the future.  </p>
-<p>Contraception – for men and women<br />
+<p>Contraception   for men and women<br />
 For women taking Erivedge 
 Before starting the treatment, ask your doctor if you are able to become pregnant. Even if your periods 
 have stopped, it is essential to ask your doctor if there is any risk that you could become pregnant. 
@@ -171,19 +171,19 @@ If you are able to become pregnant:
 * you must take precautions so that you do not become pregnant while taking Erivedge 
 * use 2 methods of contraception, one highly effective method and one barrier method (please see 
 the examples below) 
-* you need to continue contraception for 24 months after your final dose of this medicine – 
+* you need to continue contraception for 24 months after your final dose of this medicine <br />
 because Erivedge may remain in your body for up to 24 months after your final dose </p>
 <p>Method of recommended contraception: Talk to your doctor about the best two contraception methods 
 for you.   </p>
 <p>Use one highly effective method, such as: 
 * a contraceptive depot injection<br />
-* an intra-uterine device (“the coil” or IUD) 
+* an intra-uterine device ( the coil  or IUD) 
 * surgical sterilisation </p>
 <p>You must also use one barrier method, such as: 
 * a condom (with spermicide, if available) 
 * a diaphragm (with spermicide, if available) </p>
 <p>Your doctor will make sure to test you for pregnancy: 
-* within a maximum of 7 days before starting treatment – to make sure that you are not already 
+* within a maximum of 7 days before starting treatment   to make sure that you are not already 
 pregnant 
 * every month during treatment  </p>
 <p>You must tell your doctor immediately during the course of treatment or during the 24 months after 
@@ -205,7 +205,7 @@ you are not sure. </p>
 Erivedge contains a type of sugar called lactose. If you have been told by your doctor that you have an 
 intolerance to some sugars contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say  essentially 
-‘sodium free’.  </p>         </div>"""   
+ sodium free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take erivedge"
@@ -236,8 +236,8 @@ less effective. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Erivedge can cause side effects, although not everybody gets them. </p>
 <p>Erivedge may cause severe birth defects. It may also lead to the death of a baby before it is born or 
-shortly after being born. You must not become pregnant while taking this medicine (see section 2, “Do 
-not take Erivedge” and “Pregnancy”, “Breast-feeding” and “Fertility”). </p>
+shortly after being born. You must not become pregnant while taking this medicine (see section 2,  Do 
+not take Erivedge  and  Pregnancy ,  Breast-feeding  and  Fertility ). </p>
 <p>Other side effects are presented in order of severity and frequency 
 If any of these side effects become severe, tell your doctor or pharmacist. </p>
 <p>Very common (may affect more than 1 in 10 people): 
@@ -290,15 +290,17 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store erivedge"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date, which is stated on the bottle and carton after 
-EXP. The expiry date refers to the last day of that month. 
-* Do not store above 30 °C. 
-* Keep the bottle tightly closed in order to protect from moisture. 
-* Do not throw away any medicines via wastewater or household waste. 
-* At the end of your treatment you should return all unused capsules. This will prevent misuse 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date, which is stated on the bottle and carton after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Do not store above 30  C. </li>
+<li>Keep the bottle tightly closed in order to protect from moisture. </li>
+<li>Do not throw away any medicines via wastewater or household waste. </li>
+<li>At the end of your treatment you should return all unused capsules. This will prevent misuse 
 and help to protect the environment. Talk to your pharmacist or doctor regarding where to 
-return the medicine. </p>         </div>"""      
+return the medicine. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -308,15 +310,17 @@ return the medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Erivedge contains 
 - The active substance is vismodegib. Each hard capsule contains 150 mg of vismodegib. 
-- The other ingredients are: 
-- Capsule contents: microcrystalline cellulose, lactose monohydrate, sodium lauril sulfate, 
+- The other ingredients are:</p>
+<ul>
+<li>Capsule contents: microcrystalline cellulose, lactose monohydrate, sodium lauril sulfate, 
 povidone (K29/32), sodium starch glycolate (Type A), talc and magnesium stearate (see 
-section 2 “Erivedge contains lactose and sodium”) 
-- Capsule shell: iron oxide red (E172), iron oxide black (E172), titanium dioxide and gelatine 
-- Printing ink: shellac glaze and iron oxide black (E172) </p>
+section 2  Erivedge contains lactose and sodium ) </li>
+<li>Capsule shell: iron oxide red (E172), iron oxide black (E172), titanium dioxide and gelatine </li>
+<li>Printing ink: shellac glaze and iron oxide black (E172) </li>
+</ul>
 <p>What Erivedge looks like and contents of the pack 
-The capsules have a pink opaque coloured body marked “150 mg” and a grey cap 
-marked "VISMO” in black edible ink. They are available in bottles with a child-resistant closure 
+The capsules have a pink opaque coloured body marked  150 mg  and a grey cap 
+marked "VISMO  in black edible ink. They are available in bottles with a child-resistant closure 
 containing 28 capsules. Each pack contains one bottle. </p>
 <p>Marketing Authorisation Holder 
 Roche Registration GmbH 
@@ -330,22 +334,20 @@ D-79639 Grenzach-Wyhlen
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 
 Danmark 
 Roche Pharmaceuticals A/S 
@@ -359,18 +361,17 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
 Tel: +43 (0) 1 27 
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Polska 
@@ -378,26 +379,26 @@ Roche Polska Sp.z o.o.
 Tel: +48 - 22 345 18<br />
 France 
 Roche 
-Tél: +33 (0) 1 47 61 40<br />
+T l: +33 (0) 1 47 61 40<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o 
-Tel: +385 1 4722 România 
-Roche România S.R.L. 
+Tel: +385 1 4722 Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47<br />
 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 
 Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
+S mi: +354 540 8 
+Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -406,9 +407,9 @@ Tel: +39 - 039 2
 Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 

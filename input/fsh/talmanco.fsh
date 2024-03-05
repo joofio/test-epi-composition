@@ -4,7 +4,7 @@ Instance: composition-en-7d70fe375a5923a60727e1f723f93cda
 InstanceOf: CompositionUvEpi
 Title: "Composition for talmanco Package Leaflet"
 Description:  "Composition for talmanco Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,28 +81,34 @@ result of this is an improved ability to do physical activity. </p>         </di
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take talmanco"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Talmanco: 
-- if you are allergic to tadalafil or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you are taking any form of nitrates such as amyl nitrite, used in the treatment of chest pain. 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Talmanco:</p>
+<ul>
+<li>if you are allergic to tadalafil or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if you are taking any form of nitrates such as amyl nitrite, used in the treatment of chest pain. 
 Tadalafil has been shown to increase the effects of these medicines. If you are taking any form 
-of nitrate or are unsure tell your doctor. 
-- if you have ever had loss of vision – a condition described as “stroke of the eye” (non-arteritic 
-anterior ischemic optic neuropathy - NAION) 
-- if you have had a heart attack in the last 3 months 
-- if you have low blood pressure 
-- if you are taking riociguat. This medicine is used to treat pulmonary arterial hypertension (i.e., 
+of nitrate or are unsure tell your doctor. </li>
+<li>if you have ever had loss of vision   a condition described as  stroke of the eye  (non-arteritic 
+anterior ischemic optic neuropathy - NAION) </li>
+<li>if you have had a heart attack in the last 3 months </li>
+<li>if you have low blood pressure </li>
+<li>if you are taking riociguat. This medicine is used to treat pulmonary arterial hypertension (i.e., 
 high blood pressure in the lungs) and chronic thromboembolic pulmonary hypertension (i.e., 
 high blood pressure in the lungs secondary to blood clots). PDE5 inhibitors, such as Talmanco, 
 have been shown to increase the hypotensive effects of this medicine. If you are taking riociguat 
-or are unsure tell your doctor. </p>
+or are unsure tell your doctor. </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking this medicine if you have: 
-- any heart problems other than your pulmonary hypertension<br />
-- problems with your blood pressure<br />
-- any hereditary eye disease  </p>
+Talk to your doctor or pharmacist before taking this medicine if you have:</p>
 <ul>
-<li>an abnormality of red blood cells (sickle cell anaemia)  </li>
+<li>any heart problems other than your pulmonary hypertension  </li>
+<li>problems with your blood pressure  </li>
+<li>
+<p>any hereditary eye disease  </p>
+</li>
+<li>
+<p>an abnormality of red blood cells (sickle cell anaemia)  </p>
+</li>
 <li>cancer of the bone marrow (multiple myeloma)  </li>
 <li>cancer of the blood cells (leukaemia)  </li>
 <li>any deformation of your penis, or unwanted or persistent erections lasting more than 4 hours  </li>
@@ -115,21 +121,29 @@ taking Talmanco, stop taking Talmanco and contact your doctor immediately. </p>
 known if the event is directly related to tadalafil, if you experience decreased or sudden hearing loss, 
 contact your doctor immediately. </p>
 <p>Children and adolescents 
-This medicine is not indicated for use by children and adolescents under the age of 18.<br />
-Other medicines and Talmanco 
+This medicine is not indicated for use by children and adolescents under the age of 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take talmanco"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take talmanco"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Talmanco 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Do NOT take these tablets if you are already taking nitrates. </p>
 <p>Some medicines may be affected by Talmanco or they may affect how well Talmanco will work. Tell 
-your doctor or pharmacist if you are already taking: 
-- bosentan (another treatment for pulmonary arterial hypertension) 
-- nitrates (for chest pain) 
-- alpha blockers used to treat high blood pressure or prostate problems 
-- riociguat 
-- rifampicin (to treat bacterial infections) 
-- ketoconazole tablets (to treat fungal infections) 
-- ritonavir (for HIV treatment) 
-- tablets for erectile dysfunction (PDE5 inhibitors) </p>
+your doctor or pharmacist if you are already taking:</p>
+<ul>
+<li>bosentan (another treatment for pulmonary arterial hypertension) </li>
+<li>nitrates (for chest pain) </li>
+<li>alpha blockers used to treat high blood pressure or prostate problems </li>
+<li>riociguat </li>
+<li>rifampicin (to treat bacterial infections) </li>
+<li>ketoconazole tablets (to treat fungal infections) </li>
+<li>ritonavir (for HIV treatment) </li>
+<li>tablets for erectile dysfunction (PDE5 inhibitors) </li>
+</ul>
 <p>Talmanco with alcohol 
 Drinking alcohol may temporarily lower your blood pressure. If you have taken or are planning to take 
 Talmanco, avoid excessive drinking (over 5 units of alcohol), since this may increase the risk of 
@@ -149,13 +163,14 @@ any machinery. </p>
 <p>Talmanco contains lactose and sodium </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
-                    
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take talmanco"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take talmanco"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. </p>
@@ -166,19 +181,25 @@ kidney problem, your doctor may advise you to take only one 20 mg tablet per day
 <p>If you take more Talmanco than you should 
 If you or anyone else takes more tablets than they should, tell your doctor or go to a hospital 
 immediately, taking the medicine or pack with you. You may experience any of the side effects 
-described in section 4.<br />
-If you forget to take Talmanco 
+described in section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store talmanco"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store talmanco"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Talmanco 
 Take your dose as soon as you remember if it is within 8 hours of when you should have taken your 
 dose. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Talmanco 
 Do not stop taking your tablets, unless advised otherwise by your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. These 
 effects are normally mild to moderate in nature. </p>
@@ -224,17 +245,23 @@ immediately. </p>
 - sudden cardiac death. 
 - ringing in the ears. </p>
 <p>PDE5 inhibitors are also used for the treatment of erectile dysfunction in men. Some side effects have 
-been rarely (may affect up to 1 in 1,000 people) reported: 
-- Partial, temporary or permanent decrease or loss of vision in one or both eyes and serious 
+been rarely (may affect up to 1 in 1,000 people) reported:</p>
+<ul>
+<li>Partial, temporary or permanent decrease or loss of vision in one or both eyes and serious 
 allergic reaction which causes swelling of the face or throat. Sudden decrease or loss of hearing 
-has also been reported. </p>
+has also been reported. </li>
+</ul>
 <p>Some side effects have been reported in men taking tadalafil for the treatment of erectile dysfunction. 
 These events were not seen in clinical studies for pulmonary arterial hypertension and therefore 
-frequency is not known (frequency cannot be estimated from the available data): 
-- swelling of the eyelids, eye pain, red eyes, heart attack and stroke. </p>
+frequency is not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>swelling of the eyelids, eye pain, red eyes, heart attack and stroke. </li>
+</ul>
 <p>Some additional rare side effects have been reported in men taking tadalafil that were not seen in 
-clinical trials. These include: 
-- distorted, dimmed, blurred central vision or sudden decrease of vision (frequency not known). </p>
+clinical trials. These include:</p>
+<ul>
+<li>distorted, dimmed, blurred central vision or sudden decrease of vision (frequency not known). </li>
+</ul>
 <p>Most but not all of those men reporting fast heart rate, irregular heartbeat, heart attack, stroke and 
 sudden cardiac death had known heart problems before taking tadalafil. It is not possible to determine 
 whether these events were related directly to tadalafil. </p>
@@ -243,146 +270,4 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store talmanco"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store talmanco"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. 
-The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Talmanco contains<br />
-- The active substance is tadalafil. Each tablet contains 20 mg of tadalafil. 
-- The other ingredients in the tablet core are povidone, sodium laurilsulfate, poloxamer 188, 
-anhydrous lactose (see section 2 ‘Talmanco contains lactose and sodium’), microcrystalline 
-cellulose (PH 101), croscarmellose sodium, colloidal anhydrous silica and magnesium stearate. 
-The film-coating contains lactose monohydrate (see section 2 ‘Talmanco contains lactose and 
-sodium’), hypromellose (E464), titanium dioxide (E171) and triacetin. </p>
-<p>What Talmanco looks like and contents of the pack 
-This medicine is a white, film-coated, round, biconvex, bevelled edge tablet marked with ‘M’ on one 
-side of the tablet and ‘TA20’ on the other side. </p>
-<p>This medicine is available in blister packs containing 28 or 56 tablets and in perforated unit dose 
-blister packs containing 28 x 1 or 56 x 1 tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Viatris Limited 
-Damastown Industrial Park,<br />
-Mulhuddart, Dublin 15,<br />
-DUBLIN 
-Ireland </p>
-<p>Manufacturers 
-McDermott Laboratories Limited t/a Gerard Laboratories t/a Mylan Dublin 
-35/36 Baldoyle Industrial Estate 
-Grange Road, Dublin Ireland </p>
-<p>Mylan Hungary Kft 
-Mylan utca 1 
-Komárom, 2Hungary </p>
-<p>Mylan Germany GmbH 
-Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1 
-Bad Homburg v. d. Hoehe 
-Hessen, 61352,<br />
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Viatris 
-Tél/Tel: +32(0)2 658 61<br />
-Lietuva 
-Mylan Healthcare UAB 
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Teл.: +359 2 44 55 
-Luxembourg/Luxemburg 
-Viatris 
-Tél/Tel: +32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
-Viatris CZ s.r.o. 
-Tel: +420 222 004<br />
-Magyarország 
-Viatris Healthcare Kft. 
-Tel.: +36 1 465 2 
-Danmark 
-Viatris ApS 
-Tlf: +45 28 11 69 32  </p>
-<p>Malta 
-V.J. Salomone Pharma Ltd 
-Tel: +356 21 22 01<br />
-Deutschland 
-Viatris Healthcare GmbH 
-Tel: +49 800 0700<br />
-Nederland 
-Mylan BV 
-Tel: +31 (0)20 426 3Eesti 
-BGP Products Switzerland GmbH Eesti 
-filiaal 
-Tel: +372 6363<br />
-Norge 
-Viatris AS 
-Tlf: +47 66 75 33<br />
-Ελλάδα 
-Viatris Hellas Ltd 
-Τηλ: +30 2100 100<br />
-Österreich 
-Arcana Arzneimittel GmbH 
-Tel: +43 1 416 2 
-España 
-Viatris Pharmaceuticals, S.L.U. 
-Tel: +34 900 102<br />
-Polska 
-Mylan Healthcare Sp. z.o.o. 
-Tel.: +48 22 546 64<br />
-France 
-Substipharm 
-Tél: +33 1 43181 
-Portugal 
-Mylan, Lda. 
-Tel: +351 21 412 72<br />
-Hrvatska 
-Viatris Hrvatska d.o.o. 
-Tel: +385 1 23 50<br />
-România 
-BGP Products SRL 
-Tel: +40 372 579<br />
-Ireland 
-Mylan Ireland Limited 
-Tel: +353 1 8711Slovenija 
-Viatris d.o.o. 
-Tel: +386 1 236 31<br />
-Ísland 
-Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
-Viatris Slovakia s.r.o. 
-Tel: +421 2 32 199 Italia 
-Viatris Italia S.r.l. 
-Tel: +39 (0) 2 612 46 
-Suomi/Finland 
-Viatris Oy 
-Puh/Tel: +358 20 720 9 </p>
-<p>Κύπρος 
-Varnavas Hadjipanayis Ltd 
-Τηλ: +357 222 077<br />
-Sverige 
-Viatris AB 
-Tel: +46 (0) 8 630 19<br />
-Latvija 
-Mylan Healthcare SIA 
-Tel: +371 676 055<br />
-United Kingdom (Northern Ireland) 
-Mylan IRE Healthcare Limited 
-Tel: +353 18711 
-This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

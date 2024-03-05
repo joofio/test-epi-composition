@@ -4,7 +4,7 @@ Instance: composition-en-430493049f22429aa3d2e8bb859f1d18
 InstanceOf: CompositionUvEpi
 Title: "Composition for reblozyl Package Leaflet"
 Description:  "Composition for reblozyl Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -79,21 +79,21 @@ disorders.<br />
 <p>Reblozyl is used in adults with anaemia caused by MDS, who need red blood cell transfusions. 
 It is used in adults who have already had or are not able to have erythropoietin therapies. </p>
 <p>Beta-thalassaemia 
-β-thalassaemia is a blood problem that is passed down through genes.<br />
+ -thalassaemia is a blood problem that is passed down through genes.<br />
 <em> It affects the production of haemoglobin.<br />
 </em> Patients can get a number of signs and symptoms including a low red blood cell count 
 (anaemia) and may need red blood cell transfusions. </p>
-<p>Reblozyl is used to treat anaemia in adults with β-thalassaemia who may or may not need 
+<p>Reblozyl is used to treat anaemia in adults with  -thalassaemia who may or may not need 
 regular red blood cell transfusions. </p>
 <p>How Reblozyl works 
-Reblozyl improves your body’s ability to make red blood cells. Red blood cells contain 
+Reblozyl improves your body s ability to make red blood cells. Red blood cells contain 
 haemoglobin, which is a protein that carries oxygen throughout your body. As your body makes 
 more red blood cells, your haemoglobin level increases. </p>
-<p>For MDS and β-thalassaemia patients in need of regular blood transfusions<br />
+<p>For MDS and  -thalassaemia patients in need of regular blood transfusions<br />
 Having Reblozyl can avoid or reduce the need for red blood cell transfusions. 
 * Red blood cell transfusions can cause abnormally high levels of iron in the blood and in 
 different organs of the body. This can be harmful over time. </p>
-<p>For β-thalassaemia patients not in need of regular blood transfusions<br />
+<p>For  -thalassaemia patients not in need of regular blood transfusions<br />
 Having Reblozyl can improve your aneamia by increasing your haemoglobin level.  </p>         </div>"""   
           
 
@@ -111,19 +111,17 @@ section 6)
 marrow (extramedullary haemopoiesis masses, EMH masses) </p>
 <p>Warnings and precautions 
 Talk to your doctor before being given this medicine if: 
-* you are a β-thalassaemia patient and you have had your spleen removed. You may have a 
+* you are a  -thalassaemia patient and you have had your spleen removed. You may have a 
 higher risk of getting a blood clot. Your doctor will talk to you about other possible risk 
-factors that may increase your risk – these include: 
-o 
-hormone replacement therapy or<br />
-o 
+factors that may increase your risk   these include: * 
+hormone replacement therapy or  * 
 a previous blood clot<br />
 Your doctor may use preventive measures or medicines to reduce the chances of you 
 getting a blood clot. 
 * you have severe back pain that does not go away, numbness or weakness or loss of 
 voluntary movement in legs, hands or arms, loss of bowel and bladder control 
 (incontinence). They may be symptoms of EMH masses and compression of spinal cord.<br />
-* you have ever had high blood pressure – this is because Reblozyl may increase it. Your 
+* you have ever had high blood pressure   this is because Reblozyl may increase it. Your 
 blood pressure will be checked before you are given Reblozyl and throughout treatment. 
 You will be given Reblozyl only if your blood pressure is under control. 
 * you have a condition that affects the strength and health of your bones (osteopenia and 
@@ -145,7 +143,7 @@ patient card.
 advice before using this medicine. </p>
 <p>Breast-feeding 
 * Do not breast-feed when using this medicine and for 3 months after your last dose. It is 
-not known if it passes into the mother’s milk. </p>
+not known if it passes into the mother s milk. </p>
 <p>Contraception 
 * You should use an effective method of contraception during treatment with Reblozyl and 
 for at least 3 months after your last dose. </p>
@@ -159,7 +157,7 @@ You may feel tired, dizzy, or faint, while using Reblozyl. If this happens do no
 tools or machines and contact your doctor straight away. </p>
 <p>Reblozyl contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take reblozyl"
@@ -170,7 +168,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
 you need Reblozyl. </p>
 <p>Reblozyl will be given by an injection under your skin (subcutaneously).  </p>
 <p>How much will you be given 
-The dose is based on how much you weigh – in kilograms. The injections will be given by a 
+The dose is based on how much you weigh   in kilograms. The injections will be given by a 
 doctor, nurse or other healthcare professional. </p>
 <ul>
 <li>The recommended starting dose is 1.0 mg for each kilogram of body weight. </li>
@@ -184,7 +182,7 @@ The maximum single dose is 1.75 mg for each kilogram of body weight. </p>
 The maximum single dose is 1.25 mg for each kilogram of body weight. </p>
 <p>If you miss a dose 
 If you miss an injection of Reblozyl, or an appointment is delayed, you will receive a Reblozyl 
-injection as soon as possible. Then, your dose will continue as prescribed – with at least 3 weeks 
+injection as soon as possible. Then, your dose will continue as prescribed   with at least 3 weeks 
 between doses. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
 
@@ -249,11 +247,11 @@ on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Unopened vials: Store in a refrigerator (2°C – 8°C). Do not freeze. Store in the original carton in 
+<p>Unopened vials: Store in a refrigerator (2 C   8 C). Do not freeze. Store in the original carton in 
 order to protect from light. </p>
 <p>After first opening and reconstitution, Reblozyl should be used immediately. If not used 
 immediately, when held in the original carton the reconstituted medicinal product may be stored 
-for up to 8 hours at room temperature (≤ 25°C) or for up to 24 hours at 2°C – 8°C. </p>
+for up to 8 hours at room temperature (  25 C) or for up to 24 hours at 2 C   8 C. </p>
 <p>Do not freeze the reconstituted solution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 

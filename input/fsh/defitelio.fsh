@@ -4,7 +4,7 @@ Instance: composition-en-2ca0df99b82dc3da3ea077d36f8da2cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for defitelio Package Leaflet"
 Description:  "Composition for defitelio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -118,8 +118,8 @@ equivalent to 1.02% of the recommended maximum daily dietary intake of sodium fo
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The treatment with Defitelio can be initiated and continuously supervised only by an experienced 
 doctor in a hospital or in a specialised centre for stem cells transplantation. </p>
-<p>It will be slowly injected (over a 2-hour period) into one of your veins. This is called an ‘intravenous 
-infusion’ or drip. </p>
+<p>It will be slowly injected (over a 2-hour period) into one of your veins. This is called an  intravenous 
+infusion  or drip. </p>
 <p>You will receive this treatment four times a day for at least 21 days or until your symptoms resolve. 
 The recommended dose in children from one month to 18 years of age is the same as in adults. </p>
 <p>If a dose of Defitelio has been forgotten 
@@ -185,8 +185,8 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use Defitelio after the expiry date which is stated on the carton and vial label after EXP. The 
 expiry date refers to the last day of that month.  </p>
-<p>Store below 25 °C. Do not freeze. </p>
-<p>Once diluted for use the infusion storage should not exceed 24 hours at 2 °C - 8 °C unless dilution has 
+<p>Store below 25  C. Do not freeze. </p>
+<p>Once diluted for use the infusion storage should not exceed 24 hours at 2  C - 8  C unless dilution has 
 taken place in controlled and validated aseptic conditions. </p>
 <p>Defitelio should not be used if the solution is cloudy or contains particles. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
@@ -202,7 +202,7 @@ you no longer use. These measures will help protect the environment.  </p>      
 * The active substance is defibrotide. Each 2.5 mL vial contains 200 mg defibrotide and each mL 
 solution contains 80 mg defibrotide. 
 * The other ingredients are sodium citrate dihydrate, hydrochloric acid and sodium hydroxide 
-(both for pH-adjustment) and water for injections (see section 2 ‘Defitelio contains sodium’).  </p>
+(both for pH-adjustment) and water for injections (see section 2  Defitelio contains sodium ).  </p>
 <p>What Defitelio looks like and contents of the pack 
 Defitelio is a clear light yellow to brown concentrate for solution for infusion (sterile concentrate), 
 free from particulate matter or turbidity. </p>
@@ -214,14 +214,14 @@ Piazza XX Settembre, 2
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>AT – BE – BG – CY – CZ – DE – DK – EE – EL – ES – FI – FR – HR – HU – IE – IS – IT – LT 
-– LU – LV – MT – NL – NO – PL – PT – RO – SE – SK – SL – UK(NI) </p>
+<p>AT   BE   BG   CY   CZ   DE   DK   EE   EL   ES   FI   FR   HR   HU   IE   IS   IT   LT 
+  LU   LV   MT   NL   NO   PL   PT   RO   SE   SK   SL   UK(NI) </p>
 <p>Jazz Pharmaceuticals Ireland Limited<br />
 Tel: +353 1 968 1(local phone number within Republic of Ireland) 
 (outside Republic of Ireland may include an international phone call charge) 
 Email: medinfo-int@jazzpharma.com </p>
 <p>This leaflet was last revised in:. </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease and for ethical reasons it has been impossible to perform placebo-controlled 
 clinical studies and to get complete information on this medicine. </p>
 <p>The European Medicines Agency will review any new information on this medicine every year and 

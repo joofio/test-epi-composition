@@ -4,7 +4,7 @@ Instance: composition-en-2d6385eb002eb6ef5792777c42c3b40e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sovaldi Package Leaflet"
 Description:  "Composition for sovaldi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -45,7 +45,7 @@ Usage: #example
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Sovaldi has been prescribed for your child, please note that all the information in this leaflet is 
-applicable to your child (in this case please read “your child” instead of “you”). </p>         </div>"""   
+applicable to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
 
 
 
@@ -95,11 +95,11 @@ section 6 of this leaflet). </p>
 <ul>
 <li>If you are currently taking any of the following medicines: </li>
 <li>Rifampicin (antibiotic used to treat infections, including tuberculosis); </li>
-<li>St. John’s wort (herbal medicine used to treat depression); </li>
+<li>St. John s wort (herbal medicine used to treat depression); </li>
 <li>Carbamazepine, phenobarbital and phenytoin (medicines used to treat epilepsy and 
 prevent seizures). </li>
 </ul>
-<p> If any of these conditions apply to you, tell your doctor immediately. </p>
+<p>If any of these conditions apply to you, tell your doctor immediately. </p>
 <p>Warnings and precautions 
 Sovaldi is always taken with other medicines to treat hepatitis C (see section 1 above). Talk to your 
 doctor or pharmacist before taking this medicine if you: </p>
@@ -157,7 +157,7 @@ any chance for pregnancy to occur. </p>
 therefore very important that you (or your partner) do not become pregnant during this 
 therapy. </li>
 <li>You or your partner must use an effective birth control method during treatment and 
-afterwards. It is very important that you read the “Pregnancy” section in the ribavirin package 
+afterwards. It is very important that you read the  Pregnancy  section in the ribavirin package 
 leaflet very carefully. Ask your doctor for an effective contraceptive method suitable for you. </li>
 <li>If you or your partner become pregnant during Sovaldi treatment or in the months that follow, 
 you must contact your doctor immediately. </li>
@@ -172,7 +172,7 @@ blurred vision or reduced attention after taking Sovaldi you should not take par
 driving, riding a bike or operating machines. </p>
 <p>Sovaldi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sovaldi"
@@ -265,7 +265,7 @@ The frequency of the following side effects is not known (frequency cannot be es
 available data). 
 * a wide-spread severe rash with peeling skin which may be accompanied by fever, flu-like 
 symptoms, blisters in the mouth, eyes, and/or genitals (Stevens-Johnson syndrome).  </p>
-<p> If any of the side effects get serious tell your doctor. </p>
+<p>If any of the side effects get serious tell your doctor. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report any side effects directly to the national reporting system 
@@ -307,9 +307,9 @@ magnesium stearate. </p>
 Polyvinyl alcohol, titanium dioxide, macrogol 3350, talc, iron oxide yellow. </p>
 <p>What Sovaldi looks like and contents of the pack 
 Sovaldi 400 mg film-coated tablets are yellow, capsule-shaped tablets, debossed on one side with 
-“GSI” and “7977” on the other side. The tablet is approximately 20 mm long and 9 mm wide. </p>
-<p>Sovaldi 200 mg film-coated tablets are yellow, oval-shaped, film-coated tablets, debossed with “GSI” 
-on one side and “200” on the other side. The tablet is approximately 15 mm long and 8 mm wide. </p>
+ GSI  and  7977  on the other side. The tablet is approximately 20 mm long and 9 mm wide. </p>
+<p>Sovaldi 200 mg film-coated tablets are yellow, oval-shaped, film-coated tablets, debossed with  GSI<br />
+on one side and  200  on the other side. The tablet is approximately 15 mm long and 8 mm wide. </p>
 <p>Each bottle of Sovaldi 400 mg film-coated tablets contains a silica gel desiccant (drying agent) that 
 must be kept in the bottle to help protect your tablets. The silica gel desiccant is contained in a 
 separate sachet or canister and should not be swallowed. </p>
@@ -330,21 +330,20 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35 Česká republika 
+T l/Tel: + 32 (0) 24 01 35  esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
 Danmark 
@@ -364,14 +363,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -379,14 +377,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -395,10 +393,10 @@ Tel: + 353 (0) 214 825
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o 
 Tel: + 421 232 121<br />
 Italia 
@@ -406,10 +404,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

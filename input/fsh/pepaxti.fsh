@@ -4,7 +4,7 @@ Instance: composition-en-4b3bf4fa95ca1e8fab427d9644d69f2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for pepaxti Package Leaflet"
 Description:  "Composition for pepaxti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -179,7 +179,7 @@ appointment, contact your doctor or hospital as soon as possible. </p>         <
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact a doctor straight away if you notice any of the following serious side effects – you may 
+<p>Contact a doctor straight away if you notice any of the following serious side effects   you may 
 need urgent medical treatment: 
 * Fever, chills, sore throat, cough, or any other signs of infection (due to lack of white blood cells 
 called neutrophils, which fight infections). 
@@ -243,9 +243,9 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pepaxti will be stored at the hospital or clinic so these instructions are for the healthcare professionals. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the vial label and carton after  EXP . 
 The expiry date refers to the last day of that month. 
-Store in a refrigerator (2ºC–8ºC). Do not freeze. 
+Store in a refrigerator (2 C 8 C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. These measures will help 
 protect the environment. </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-cb456248863851baf93dc89f0a0fc5bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for amsparity Package Leaflet"
 Description:  "Composition for amsparity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,19 +68,19 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What amsparity is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Amsparity contains the active substance adalimumab, a medicine that acts on your child’s body’s 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Amsparity contains the active substance adalimumab, a medicine that acts on your child s body s 
 immune (defence) system. </p>
 <p>Amsparity is intended for the treatment of the following inflammatory diseases: 
 * polyarticular juvenile idiopathic arthritis 
 * paediatric enthesitis-related arthritis 
 * paediatric plaque psoriasis 
-* paediatric Crohn’s disease 
+* paediatric Crohn s disease 
 * paediatric uveitis </p>
 <p>The active ingredient in Amsparity, adalimumab, is a monoclonal antibody. Monoclonal antibodies are 
 proteins that attach to a specific target in the body. </p>
-<p>The target of adalimumab is another protein called tumour necrosis factor (TNFα), which is involved 
+<p>The target of adalimumab is another protein called tumour necrosis factor (TNF ), which is involved 
 in the immune (defence) system and is present at increased levels in the inflammatory diseases listed 
-above. By attaching to TNFα, Amsparity blocks its action and reduces the inflammation in these 
+above. By attaching to TNF , Amsparity blocks its action and reduces the inflammation in these 
 diseases. </p>
 <p>Polyarticular juvenile idiopathic arthritis </p>
 <p>Polyarticular juvenile idiopathic arthritis is an inflammatory disease of the joints that usually first 
@@ -100,17 +100,17 @@ enthesitis-related arthritis. </p>
 <p>Plaque psoriasis is an inflammatory skin condition that causes red, flaky, crusty patches of skin 
 covered with silvery scales. Plaque psoriasis can also affect the nails, causing them to crumble, 
 become thickened and lift away from the nail bed which can be painful. Psoriasis is believed to be 
-caused by a problem with the body’s immune system that leads to an increased production of skin 
+caused by a problem with the body s immune system that leads to an increased production of skin 
 cells. </p>
 <p>Amsparity is used to treat severe chronic plaque psoriasis in children and adolescents aged 4 to 
 17 years for whom medicines applied to the skin and treatment with UV light have either not worked 
 very well or are not suitable. </p>
-<p>Paediatric Crohn’s disease </p>
-<p>Crohn’s disease is an inflammatory disease of the gut. </p>
-<p>Amsparity is used to treat Crohn’s disease in children and adolescents aged 6 to 17 years. </p>
-<p>If your child has Crohn’s disease, your child will first be given other medicines. If your child does not 
+<p>Paediatric Crohn s disease </p>
+<p>Crohn s disease is an inflammatory disease of the gut. </p>
+<p>Amsparity is used to treat Crohn s disease in children and adolescents aged 6 to 17 years. </p>
+<p>If your child has Crohn s disease, your child will first be given other medicines. If your child does not 
 respond well enough to these medicines, your child will be given Amsparity to reduce the signs and 
-symptoms of his/her Crohn’s disease. </p>
+symptoms of his/her Crohn s disease. </p>
 <p>Paediatric uveitis </p>
 <p>Non-infectious uveitis is an inflammatory disease affecting certain parts of the eye. This inflammation 
 may lead to a decrease of vision and/or the presence of floaters in the eye (black dots or wispy lines 
@@ -136,52 +136,52 @@ section 6). </p>
 <li>
 <p>if your child has a severe infection, including active tuberculosis, sepsis (blood poisoning) or 
 opportunistic infections (unusual infections associated with a weakened immune system). It is 
-important that you tell your child’s doctor if your child has symptoms of infections, for example, 
-fever, wounds, feeling tired, dental problems (see “Warnings and precautions”). </p>
+important that you tell your child s doctor if your child has symptoms of infections, for example, 
+fever, wounds, feeling tired, dental problems (see  Warnings and precautions ). </p>
 </li>
 <li>
-<p>if your child has moderate or severe heart failure. It is important to tell your child’s doctor if 
-your child has had or has a serious heart condition (see “Warnings and precautions”). </p>
+<p>if your child has moderate or severe heart failure. It is important to tell your child s doctor if 
+your child has had or has a serious heart condition (see  Warnings and precautions ). </p>
 </li>
 </ul>
 <p>Warnings and precautions </p>
-<p>Talk to your child’s doctor or pharmacist before using Amsparity.  </p>
-<p>It is important that you and your child’s doctor record the brand name and batch number of your 
-child’s medication. </p>
+<p>Talk to your child s doctor or pharmacist before using Amsparity.  </p>
+<p>It is important that you and your child s doctor record the brand name and batch number of your 
+child s medication. </p>
 <p>Allergic reactions </p>
 <ul>
 <li>If your child has allergic reactions with symptoms such as chest tightness, wheezing, dizziness, 
-swelling or rash, do not inject more Amsparity and contact your child’s doctor immediately, 
+swelling or rash, do not inject more Amsparity and contact your child s doctor immediately, 
 since in rare cases, these reactions can be life threatening. </li>
 </ul>
 <p>Infections </p>
 <ul>
 <li>
 <p>If your child has an infection, including long-term infection or an infection in one part of the 
-body (for example, leg ulcer), consult your child’s doctor before starting Amsparity. If you are 
-unsure, contact your child’s doctor. </p>
+body (for example, leg ulcer), consult your child s doctor before starting Amsparity. If you are 
+unsure, contact your child s doctor. </p>
 </li>
 <li>
 <p>Your child might get infections more easily while he/she is receiving Amsparity treatment. This 
 risk may increase if your child has problems with his/her lungs. These infections may be serious 
 and include tuberculosis, infections caused by viruses, fungi, parasites or bacteria, or other 
 opportunistic infections (unusual infectious organisms), and sepsis (blood poisoning). In rare 
-cases, these infections may be life-threatening. It is important to tell your child’s doctor if your 
-child gets symptoms such as fever, wounds, feeling tired or dental problems. Your child’s doctor 
+cases, these infections may be life-threatening. It is important to tell your child s doctor if your 
+child gets symptoms such as fever, wounds, feeling tired or dental problems. Your child s doctor 
 may recommend temporarily stopping Amsparity. </p>
 </li>
 </ul>
 <p>Tuberculosis (TB) </p>
 <ul>
 <li>
-<p>As cases of tuberculosis have been reported in patients treated with adalimumab, your child’s 
+<p>As cases of tuberculosis have been reported in patients treated with adalimumab, your child s 
 doctor will check your child for signs and symptoms of tuberculosis before starting Amsparity. 
-This will include a thorough medical evaluation including your child’s medical history and 
+This will include a thorough medical evaluation including your child s medical history and 
 screening tests (for example, chest X-ray and a tuberculin test). The conduct and results of these 
-tests should be recorded on your child’s patient reminder card. </p>
+tests should be recorded on your child s patient reminder card. </p>
 </li>
 <li>
-<p>It is very important that you tell your child’s doctor if your child has ever had tuberculosis, or if 
+<p>It is very important that you tell your child s doctor if your child has ever had tuberculosis, or if 
 he/she has been in close contact with someone who has had tuberculosis. If your child has active 
 tuberculosis, do not use Amsparity. </p>
 </li>
@@ -191,44 +191,44 @@ tuberculosis. </p>
 </li>
 <li>
 <p>If symptoms of tuberculosis (for example, cough that does not go away, weight loss, lack of 
-energy, mild fever), or any other infection appear during or after therapy tell your child’s doctor 
+energy, mild fever), or any other infection appear during or after therapy tell your child s doctor 
 immediately. </p>
 </li>
 </ul>
 <p>Travel / recurrent infection </p>
 <ul>
 <li>
-<p>Tell your child’s doctor if your child has lived or travelled in regions where fungal infections 
+<p>Tell your child s doctor if your child has lived or travelled in regions where fungal infections 
 such as histoplasmosis, coccidioidomycosis or blastomycosis are endemic (found). </p>
 </li>
 <li>
-<p>Tell your child’s doctor if your child has had infections which keep coming back or other 
+<p>Tell your child s doctor if your child has had infections which keep coming back or other 
 conditions that increase the risk of infections. </p>
 </li>
 <li>
-<p>You and your child’s doctor should pay special attention to signs of infection while your child is 
-being treated with Amsparity. It is important to tell your child’s doctor if your child gets 
+<p>You and your child s doctor should pay special attention to signs of infection while your child is 
+being treated with Amsparity. It is important to tell your child s doctor if your child gets 
 symptoms of infections, such as fever, wounds, feeling tired or dental problems. </p>
 </li>
 </ul>
 <p>Hepatitis B </p>
 <ul>
-<li>Tell your child’s doctor if your child is a carrier of the hepatitis B virus (HBV), if he/she has 
-active HBV infection or if you think he/she might be at risk of getting HBV. Your child’s doctor 
+<li>Tell your child s doctor if your child is a carrier of the hepatitis B virus (HBV), if he/she has 
+active HBV infection or if you think he/she might be at risk of getting HBV. Your child s doctor 
 should test your child for HBV. Adalimumab can reactivate HBV infection in people who carry 
 the virus. In some rare cases, especially if your child is taking other medicines that suppress the 
 immune system, reactivation of HBV infection can be life-threatening.  </li>
 </ul>
 <p>Surgery or dental procedure </p>
 <ul>
-<li>If your child is about to have surgery or dental procedures, tell your child’s doctor that he/she is 
-taking Amsparity. Your child’s doctor may recommend temporarily stopping Amsparity. </li>
+<li>If your child is about to have surgery or dental procedures, tell your child s doctor that he/she is 
+taking Amsparity. Your child s doctor may recommend temporarily stopping Amsparity. </li>
 </ul>
 <p>Demyelinating disease </p>
 <ul>
 <li>If your child has or develops a demyelinating disease (a disease that affects the insulating layer 
-around the nerves, such as multiple sclerosis), your child’s doctor will decide if he/she should 
-receive or continue to receive Amsparity. Tell your child’s doctor immediately if your child gets 
+around the nerves, such as multiple sclerosis), your child s doctor will decide if he/she should 
+receive or continue to receive Amsparity. Tell your child s doctor immediately if your child gets 
 symptoms like changes in vision, weakness in arms or legs or numbness or tingling in any part 
 of the body. </li>
 </ul>
@@ -236,61 +236,61 @@ of the body. </li>
 <ul>
 <li>Certain vaccines contain living but weakened forms of disease-causing bacteria or viruses that 
 may cause infections and should not be given during treatment with Amsparity. Check with your 
-child’s doctor before your child receives any vaccines. It is recommended that, if possible, 
+child s doctor before your child receives any vaccines. It is recommended that, if possible, 
 children be given all the scheduled vaccinations for their age before they start treatment with 
 Amsparity. If your child received Amsparity while she was pregnant, her baby may be at higher 
 risk for getting an infection for up to about five months after the last Amsparity dose she 
 received during pregnancy. It is important that you tell her baby's doctors and other health care 
-professionals about your child’s Amsparity use during her pregnancy so they can decide when 
+professionals about your child s Amsparity use during her pregnancy so they can decide when 
 her baby should receive any vaccine. </li>
 </ul>
 <p>Heart failure </p>
 <ul>
-<li>It is important to tell your child’s doctor if your child has had or has a serious heart condition. If 
+<li>It is important to tell your child s doctor if your child has had or has a serious heart condition. If 
 your child has mild heart failure and is being treated with Amsparity, his/her heart failure status 
-must be closely monitored by your child’s doctor. If he/she develops new or worsening 
+must be closely monitored by your child s doctor. If he/she develops new or worsening 
 symptoms of heart failure (e.g. shortness of breath, or swelling of his/her feet), you must contact 
-your child’s doctor immediately.  </li>
+your child s doctor immediately.  </li>
 </ul>
 <p>Fever, bruising, bleeding or looking pale </p>
 <ul>
 <li>In some patients the body may fail to produce enough of the blood cells that fight off infections 
 or help your child to stop bleeding. If your child develops a fever that does not go away, bruises 
-or bleeds very easily or looks very pale, call your child’s doctor right away. Your child’s doctor 
+or bleeds very easily or looks very pale, call your child s doctor right away. Your child s doctor 
 may decide to stop treatment. </li>
 </ul>
 <p>Cancer </p>
 <ul>
 <li>
 <p>There have been very rare cases of certain kinds of cancer in children and adults taking 
-adalimumab or other TNFα blockers. People with more serious rheumatoid arthritis who have 
+adalimumab or other TNF  blockers. People with more serious rheumatoid arthritis who have 
 had the disease for a long time may have a higher than average risk of getting lymphoma and 
 leukaemia (cancers that affects blood cells and bone marrow). If your child takes Amsparity the 
 risk of getting lymphoma, leukaemia, or other cancers may increase. On rare occasions, an 
 uncommon and severe type of lymphoma has been seen in patients taking adalimumab. Some of 
 those patients were also treated with the medicines azathioprine or mercaptopurine. Tell your 
-child’s doctor if your child is taking azathioprine or mercaptopurine with Amsparity. </p>
+child s doctor if your child is taking azathioprine or mercaptopurine with Amsparity. </p>
 </li>
 <li>
 <p>In addition, cases of non-melanoma skin cancer have been observed in patients taking 
 adalimumab. If new areas of damaged skin appear during or after treatment or if existing marks 
-or areas of damage change appearance, tell your child’s doctor. </p>
+or areas of damage change appearance, tell your child s doctor. </p>
 </li>
 <li>
 <p>There have been cases of cancers, other than lymphoma in patients with a specific type of lung 
-disease called chronic obstructive pulmonary disease (COPD) treated with another TNFα 
-blocker. If your child has COPD, or is a heavy smoker, you should discuss with your child’s 
-doctor whether treatment with a TNFα blocker is appropriate for your child. </p>
+disease called chronic obstructive pulmonary disease (COPD) treated with another TNF<br />
+blocker. If your child has COPD, or is a heavy smoker, you should discuss with your child s 
+doctor whether treatment with a TNF  blocker is appropriate for your child. </p>
 </li>
 </ul>
 <p>Autoimmune disease </p>
 <ul>
 <li>On rare occasions, treatment with Amsparity could result in lupus-like syndrome. Contact your 
-child’s doctor if symptoms such as persistent unexplained rash, fever, joint pain or tiredness 
+child s doctor if symptoms such as persistent unexplained rash, fever, joint pain or tiredness 
 occur. </li>
 </ul>
 <p>Other medicines and Amsparity </p>
-<p>Tell your child’s doctor or pharmacist if your child is taking, has recently taken or might take any 
+<p>Tell your child s doctor or pharmacist if your child is taking, has recently taken or might take any 
 other medicines. </p>
 <p>Amsparity can be taken together with methotrexate or certain disease-modifying anti-rheumatic agents 
 (for example, sulfasalazine, hydroxychloroquine, leflunomide and injectable gold preparations), 
@@ -299,7 +299,7 @@ corticosteroids or pain medications including non-steroidal anti-inflammatory dr
 abatacept due to increased risk of serious infection. The combination of adalimumab as well as other 
 TNF-antagonists and anakinra or abatacept is not recommended based upon the possible increased risk 
 for infections, including serious infections and other potential pharmacological interactions. If you 
-have questions, please ask your child’s doctor. </p>
+have questions, please ask your child s doctor. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>Your child should consider the use of adequate contraception to prevent pregnancy and continue its 
 use for at least 5 months after the last Amsparity treatment. </p>
@@ -311,25 +311,25 @@ received adalimumab during pregnancy compared with mothers with the same disease
 receive adalimumab. </p>
 <p>Amsparity can be used during breast-feeding. </p>
 <p>If your child receives Amsparity during her pregnancy, her baby may have a higher risk for getting an 
-infection. It is important that you tell her baby’s doctor and other health care professionals about her 
+infection. It is important that you tell her baby s doctor and other health care professionals about her 
 Amsparity use during her pregnancy before the baby receives any vaccine. For more information on 
-vaccines see the “Warnings and precautions” section. </p>
+vaccines see the  Warnings and precautions  section. </p>
 <p>Driving and using machines </p>
-<p>Amsparity may have a small effect on your child’s ability to drive, cycle or use machines. Room 
+<p>Amsparity may have a small effect on your child s ability to drive, cycle or use machines. Room 
 spinning sensation (vertigo) and vision disturbances may occur after taking Amsparity. </p>
 <p>Amsparity contains sodium </p>
 <p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.8 ml dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amsparity"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take amsparity"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your child’s doctor, nurse or pharmacist has told you. Check with 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your child s doctor, nurse or pharmacist has told you. Check with 
 your doctor, nurse or pharmacist if you are not sure. </p>
 <p>The recommended doses for Amsparity in each of the approved uses are shown in the following table. 
-Your child’s doctor may prescribe another strength of Amsparity if your child needs a different dose. </p>
+Your child s doctor may prescribe another strength of Amsparity if your child needs a different dose. </p>
 <p>Amsparity is injected under the skin (subcutaneous use). </p>
 <p>Polyarticular juvenile idiopathic arthritis 
 Age or body weight 
@@ -387,7 +387,7 @@ by 20 mg one week later. </p>
 <p>Thereafter, the usual dose is 
 20 mg every other week. 
 Not applicable </p>
-<p>Paediatric Crohn’s disease 
+<p>Paediatric Crohn s disease 
 Age or body weight 
 How much and how often to 
 take? 
@@ -398,13 +398,13 @@ Children and adolescents from
 First dose of 80 mg, followed 
 by 40 mg two weeks later. </p>
 <p>If a faster response is required, 
-your child’s doctor may 
+your child s doctor may 
 prescribe a first dose of 
 160 mg, followed by 80 mg 
 two weeks later. </p>
 <p>Thereafter, the usual dose is 
 40 mg every other week. 
-Your child’s doctor may 
+Your child s doctor may 
 increase the dosage to 40 mg 
 every week or 80 mg every 
 other week. 
@@ -419,7 +419,7 @@ dose of 80 mg, followed by
 40 mg two weeks later. </p>
 <p>Thereafter, the usual dose is 
 20 mg every other week. 
-Your child’s doctor may 
+Your child s doctor may 
 increase the dose frequency to 
 20 mg every week. </p>
 <p>Paediatric uveitis 
@@ -431,7 +431,7 @@ Children and adolescents from
 2 years of age weighing less 
 than 30 kg 
 20 mg every other week 
-Your child’s doctor may 
+Your child s doctor may 
 prescribe an initial dose of 
 40 mg to be administered one 
 week prior to the start of the 
@@ -444,7 +444,7 @@ Children and adolescents from
 2 years of age weighing 30 kg 
 or more 
 40 mg every other week 
-Your child’s doctor may 
+Your child s doctor may 
 prescribe an initial dose of 
 80 mg to be administered one 
 week prior to the start of the 
@@ -458,17 +458,17 @@ methotrexate. </p>
 <p>Detailed instructions on how to inject Amsparity, the Instructions for Use, are provided at the 
 end of this leaflet. </p>
 <p>If you use more Amsparity than you should </p>
-<p>If you accidentally inject your child with Amsparity more frequently than you should, call your child’s 
+<p>If you accidentally inject your child with Amsparity more frequently than you should, call your child s 
 doctor or pharmacist and explain that your child has taken more than required. Always take the outer 
 carton of the medicine with you, even if it is empty. </p>
 <p>If you forget to use Amsparity </p>
 <p>If you forget to give your child an Amsparity injection, you should inject the next dose of Amsparity 
-as soon as you remember. Then give your child’s next dose as you would have on the originally 
+as soon as you remember. Then give your child s next dose as you would have on the originally 
 scheduled day, had you not forgotten a dose. </p>
 <p>If your child stops using Amsparity </p>
-<p>The decision to stop using Amsparity should be discussed with your child’s doctor. Your child’s 
+<p>The decision to stop using Amsparity should be discussed with your child s doctor. Your child s 
 symptoms may return upon stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your child’s doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -486,7 +486,7 @@ occur at least up to 4 months after the last Amsparity injection. </p>
 <li>trouble breathing, swallowing; </li>
 <li>shortness of breath with physical activity or upon lying down or swelling of the feet. </li>
 </ul>
-<p>Tell your child’s doctor as soon as possible, if you notice any of the following: </p>
+<p>Tell your child s doctor as soon as possible, if you notice any of the following: </p>
 <ul>
 <li>signs and symptoms of infection such as fever, feeling sick, wounds, dental problems, burning 
 on urination, feeling weak or tired or coughing; </li>
@@ -604,7 +604,7 @@ joints and other organ systems); </li>
 <li>leukaemia (cancer affecting the blood and bone marrow); </li>
 <li>severe allergic reaction with shock; </li>
 <li>multiple sclerosis; </li>
-<li>nerve disorders (such as inflammation of the optic nerve to the eye, and Guillain-Barré 
+<li>nerve disorders (such as inflammation of the optic nerve to the eye, and Guillain-Barr<br />
 syndrome, a condition that may cause muscle weakness, abnormal sensations, tingling in the 
 arms and upper body); </li>
 <li>heart stops pumping; </li>
@@ -612,7 +612,7 @@ arms and upper body); </li>
 <li>intestinal perforation (hole in the wall of the gut); </li>
 <li>hepatitis (liver inflammation); </li>
 <li>reactivation of hepatitis B infection; </li>
-<li>autoimmune hepatitis (inflammation of the liver caused by the body’s own immune system); </li>
+<li>autoimmune hepatitis (inflammation of the liver caused by the body s own immune system); </li>
 <li>cutaneous vasculitis (inflammation of blood vessels in the skin); </li>
 <li>Stevens-Johnson syndrome (life-threatening reaction with flu-like symptoms and blistering 
 rash); </li>
@@ -626,7 +626,7 @@ rash); </li>
 <ul>
 <li>hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal); </li>
 <li>Merkel cell carcinoma (a type of skin cancer); </li>
-<li>Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s 
+<li>Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin. </li>
 <li>liver failure; </li>
 <li>worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
@@ -676,15 +676,15 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label / blister / carton after EXP.  </p>
-<p>Store in a refrigerator (2°C –8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C  8 C). Do not freeze. </p>
 <p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>Alternative Storage: </p>
 <p>When needed (for example, when travelling), a single Amsparity pre-filled syringe may be stored at 
-room temperature (up to 30°C) for a maximum period of 30 days – be sure to protect it from light. 
+room temperature (up to 30 C) for a maximum period of 30 days   be sure to protect it from light. 
 Once removed from the refrigerator for room temperature storage, the syringe must be used within days or discarded, even if it is returned to the refrigerator. </p>
 <p>You should record the date when the syringe is first removed from refrigerator and the date after which 
 it should be discarded. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your child’s doctor or 
+<p>Do not throw away any medicines via wastewater or household waste. Ask your child s doctor or 
 pharmacist how to throw away medicines you no longer use. These measures will help protect the 
 environment. </p>         </div>"""      
         
@@ -715,16 +715,16 @@ Belgium </p>
 Hoge Wei Zaventem 1Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
-Kύπρος 
-PFIZER EΛΛAΣ A.E. (CYPRUS BRANCH) 
-Τηλ: +357 22 817 
-Česká Republika 
+T l/Tel: +32 (0)2 554 62<br />
+K<br />
+PFIZER E A  A.E. (CYPRUS BRANCH) 
+ : +357 22 817 
+ esk  Republika 
 Pfizer, spol.  s r.o. 
-Tel: +420-283-004- Magyarország 
+Tel: +420-283-004- Magyarorsz g 
 Pfizer Kft. 
 Tel: +36 1 488 3 
 Danmark 
@@ -738,53 +738,51 @@ PFIZER PHARMA GmbH
 Tel: +49 (0)30 550055-51 
 Nederland 
 Pfizer bv 
-Tel: +31 (0)10 406 43<br />
-България 
-Пфайзер Люксембург САРЛ, 
-Клон България 
-Teл: +359 2 970 4 
+Tel: +31 (0)10 406 43  </p>
+<pre><code> ,
+</code></pre>
+<p>Te : +359 2 970 4 
 Norge 
 Pfizer AS 
 Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-PFIZER EΛΛAΣ A.E. 
-Τηλ.: +30 210 67 85<br />
+<p>PFIZER E A  A.E. 
+ .: +30 210 67 85<br />
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer S.L. 
 Tel: +34 91 490 99  </p>
 <p>Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer<br />
-Tél: +33 (0)1 58 07 34<br />
-România 
-Pfizer România S.R.L 
+T l: +33 (0)1 58 07 34<br />
+Rom nia 
+Pfizer Rom nia S.R.L 
 Tel: +40 (0) 21 207 28<br />
 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908<br />
 Slovenija 
-Pfizer Luxembourg SARL, Pfizer, podružnica 
-za svetovanje s področja farmacevtske 
+Pfizer Luxembourg SARL, Pfizer, podru nica 
+za svetovanje s podro ja farmacevtske 
 dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
 Tel: +44 (0)1304 616 
-Slovenská Republika 
-Pfizer Luxembourg SARL, organizačná zložka 
+Slovensk  Republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: +421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf. 
 Tel: +354 540 8 
 Suomi/Finland 
@@ -797,7 +795,7 @@ Sverige
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel. +371 67035 
 United Kingdom (Northern Ireland) 
 Pfizer Limited 

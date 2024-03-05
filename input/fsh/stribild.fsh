@@ -4,7 +4,7 @@ Instance: composition-en-4c7f4cd465ecc4c332f786a217090e6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for stribild Package Leaflet"
 Description:  "Composition for stribild Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,8 +98,12 @@ reduce the risk of developing illnesses linked to HIV infection. </p>         </
 or any of the other ingredients of this medicine (listed in section 6 of this leaflet). </li>
 <li>If you stopped treatment with any medicine containing tenofovir disoproxil on the advice of 
 your doctor following problems with your kidney function. </li>
-<li>If you are taking one of these medicines: </li>
-<li>alfuzosin (used to treat an enlarged prostate gland) </li>
+<li>
+<p>If you are taking one of these medicines:</p>
+</li>
+<li>
+<p>alfuzosin (used to treat an enlarged prostate gland) </p>
+</li>
 <li>amiodarone, quinidine (used to correct irregular heartbeats) </li>
 <li>
 <p>dabigatran (used to prevent and treat blood clots) </p>
@@ -110,16 +114,16 @@ your doctor following problems with your kidney function. </li>
 <li>rifampicin (used to prevent and treat tuberculosis and other infections) </li>
 <li>dihydroergotamine, ergotamine, ergometrine (used to treat migraine headache) </li>
 <li>cisapride (used to relieve certain stomach problems) </li>
-<li>St. John’s wort (Hypericum perforatum, a herbal remedy used for depression and 
+<li>St. John s wort (Hypericum perforatum, a herbal remedy used for depression and 
 anxiety) or products that contain it </li>
 <li>lovastatin, simvastatin (used to lower blood cholesterol) </li>
 <li>pimozide, lurasidone (used to treat abnormal thoughts or feelings) </li>
-<li>sildenafil (used to treat pulmonary arterial hypertension – a lung disease that makes 
+<li>sildenafil (used to treat pulmonary arterial hypertension   a lung disease that makes 
 breathing difficult) </li>
 <li>orally administered midazolam, triazolam (used to help you sleep and/or relieve 
 anxiety) </li>
 </ul>
-<p> If any of these applies to you, you should not take Stribild and you should tell your doctor 
+<p>If any of these applies to you, you should not take Stribild and you should tell your doctor 
 immediately. </p>
 <p>Warnings and precautions </p>
 <p>You must remain under the care of your doctor while taking Stribild. </p>
@@ -151,27 +155,27 @@ higher risk of severe and potentially fatal liver complications.  If you have he
 your doctor will carefully consider the best treatment regimen for you. </li>
 </ul>
 <p>If you have hepatitis B infection liver problems may become worse after you stop taking 
-Stribild.  It’s important not to stop taking Stribild without talking to your doctor: see section 3, 
+Stribild.  It s important not to stop taking Stribild without talking to your doctor: see section 3, 
 Do not stop taking Stribild. </p>
 <ul>
 <li>If you are over 65.  Stribild has not been studied in patients over 65 years of age.  If you are 
 older than this and are prescribed Stribild, your doctor will monitor you carefully. </li>
 </ul>
-<p> If any of these applies to you, talk to your doctor before taking Stribild. </p>
+<p>If any of these applies to you, talk to your doctor before taking Stribild. </p>
 <p>While you are taking Stribild </p>
 <p>Once you start taking Stribild, look out for: </p>
 <ul>
 <li>any signs of inflammation or infection </li>
 <li>bone problems </li>
 </ul>
-<p> If you notice any of these symptoms, tell your doctor immediately. </p>
+<p>If you notice any of these symptoms, tell your doctor immediately. </p>
 <p>Children and adolescents </p>
 <p>Do not give this medicine to children under 12 years of age.  The use of Stribild in children below 
 12 years of age and who weigh less than 35kg has not been studied. </p>
 <p>Other medicines and Stribild </p>
 <p>There are some medicines that should never be taken with Stribild. 
-These are mentioned above under the heading “Do not take Stribild - If you are taking one of these 
-medicines”. </p>
+These are mentioned above under the heading  Do not take Stribild - If you are taking one of these 
+medicines . </p>
 <p>Tell your doctor or pharmacist if you are taking any other medicines or have recently taken any.<br />
 Stribild may interact with other medicines.  As a result, the amounts of Stribild or other medicines in 
 your blood may be affected.  This may stop your medicines from working properly, or may make any 
@@ -179,18 +183,24 @@ side effects worse.  In some cases, your doctor may need to adjust your dose or 
 levels. </p>
 <p>It is especially important to talk to your doctor if you are taking any of the following: </p>
 <ul>
-<li>any other medicines containing: </li>
-<li>tenofovir disoproxil  </li>
+<li>
+<p>any other medicines containing:</p>
+</li>
+<li>
+<p>tenofovir disoproxil  </p>
+</li>
 <li>tenofovir alafenamide </li>
 <li>lamivudine </li>
 <li>
 <p>adefovir dipivoxil </p>
 </li>
 <li>
-<p>medicines that may damage your kidneys, examples include: </p>
+<p>medicines that may damage your kidneys, examples include:</p>
 </li>
-<li>aminoglycosides (such as streptomycin, neomycin and gentamicin), vancomycin (for 
-bacterial infections) </li>
+<li>
+<p>aminoglycosides (such as streptomycin, neomycin and gentamicin), vancomycin (for 
+bacterial infections) </p>
+</li>
 <li>foscarnet, ganciclovir, cidofovir (for viral infections) </li>
 <li>amphotericin B, pentamidine (for fungal infections) </li>
 <li>interleukin-2, also called aldesleukin (to treat cancer) </li>
@@ -198,57 +208,121 @@ bacterial infections) </li>
 </ul>
 <p>It is also important to tell your doctor if you are taking any of the following types of medicines: </p>
 <ul>
-<li>antifungals, used to treat fungal infections, such as: </li>
-<li>ketoconazole, itraconazole, voriconazole, fluconazole and posaconazole </li>
-<li>antivirals, used to treat hepatitis C infection: </li>
-<li>ledipasvir/sofosbuvir, sofosbuvir/velpatasvir and sofosbuvir/velpatasvir/voxilaprevir </li>
-<li>antibiotics, used to treat bacterial infections including tuberculosis, containing: </li>
-<li>rifabutin, clarithromycin or telithromycin </li>
-<li>antidepressants, used to treat depression: </li>
+<li>
+<p>antifungals, used to treat fungal infections, such as:</p>
+</li>
+<li>
+<p>ketoconazole, itraconazole, voriconazole, fluconazole and posaconazole </p>
+</li>
+<li>
+<p>antivirals, used to treat hepatitis C infection:</p>
+</li>
+<li>
+<p>ledipasvir/sofosbuvir, sofosbuvir/velpatasvir and sofosbuvir/velpatasvir/voxilaprevir </p>
+</li>
+<li>
+<p>antibiotics, used to treat bacterial infections including tuberculosis, containing:</p>
+</li>
+<li>
+<p>rifabutin, clarithromycin or telithromycin </p>
+</li>
+<li>
+<p>antidepressants, used to treat depression:</p>
+</li>
 <li>
 <p>medicines containing trazodone or escitalopram </p>
 </li>
 <li>
-<p>sedatives and hypnotics, used to treat anxiety: </p>
+<p>sedatives and hypnotics, used to treat anxiety:</p>
 </li>
-<li>buspirone, clorazepate, diazepam, estazolam, flurazepam and zolpidem </li>
-<li>immunosuppressants, used to control your body’s immune response after a transplant, such as: </li>
-<li>ciclosporin, sirolimus and tacrolimus </li>
-<li>corticosteroids including: </li>
-<li>betamethasone, budesonide, fluticasone, mometasone, prednisone, triamcinolone. 
+<li>
+<p>buspirone, clorazepate, diazepam, estazolam, flurazepam and zolpidem </p>
+</li>
+<li>
+<p>immunosuppressants, used to control your body s immune response after a transplant, such as:</p>
+</li>
+<li>
+<p>ciclosporin, sirolimus and tacrolimus </p>
+</li>
+<li>
+<p>corticosteroids including:</p>
+</li>
+<li>
+<p>betamethasone, budesonide, fluticasone, mometasone, prednisone, triamcinolone. 
 These medicines are used to treat allergies, asthma, inflammatory bowel diseases, inflammatory 
 conditions of the skin, eyes, joints and muscles and other inflammatory conditions.  These 
 medicines are generally taken orally, inhaled, injected or applied to the skin or eye.  If 
 alternatives cannot be used, its use should only take place after medical evaluation and under 
-close monitoring by your doctor for corticosteroid side effects. </li>
-<li>medicines used to treat diabetes: </li>
-<li>metformin </li>
+close monitoring by your doctor for corticosteroid side effects. </p>
+</li>
+<li>
+<p>medicines used to treat diabetes:</p>
+</li>
+<li>
+<p>metformin </p>
+</li>
 <li>contraceptive pill, used to prevent pregnancy </li>
-<li>erectile dysfunction medicines, used to treat impotence, such as: </li>
-<li>sildenafil, tadalafil and vardenafil </li>
-<li>heart medicines, such as: </li>
-<li>digoxin, disopyramide, flecainide, lidocaine, mexiletine, propafenone, metoprolol, 
-timolol, amlodipine, diltiazem, felodipine, nicardipine, nifedipine and verapamil </li>
-<li>medicines used to treat pulmonary arterial hypertension: </li>
-<li>bosentan </li>
-<li>anticoagulants, used to prevent and treat blood clots, such as: </li>
-<li>warfarin, edoxaban, apixaban and rivaroxaban </li>
-<li>bronchodilators, used to treat asthma and other lung-related problems: </li>
-<li>salmeterol </li>
-<li>cholesterol lowering medicines, such as: </li>
-<li>rosuvastatin, atorvastatin, pravastatin, fluvastatin and pitavastatin </li>
-<li>medicines used to treat gout: </li>
-<li>colchicine </li>
-<li>antiplatelets, used to reduce the risk of blood clots such as: </li>
-<li>clopidogrel  </li>
-<li>medicines or oral supplements containing minerals (such as magnesium, aluminium, 
-calcium, iron, zinc), such as: </li>
-<li>mineral supplements, vitamins (including multivitamins), antacids and laxatives<br />
- If you are taking medicines, oral supplements, antacids or laxatives containing minerals 
+<li>
+<p>erectile dysfunction medicines, used to treat impotence, such as:</p>
+</li>
+<li>
+<p>sildenafil, tadalafil and vardenafil </p>
+</li>
+<li>
+<p>heart medicines, such as:</p>
+</li>
+<li>
+<p>digoxin, disopyramide, flecainide, lidocaine, mexiletine, propafenone, metoprolol, 
+timolol, amlodipine, diltiazem, felodipine, nicardipine, nifedipine and verapamil </p>
+</li>
+<li>
+<p>medicines used to treat pulmonary arterial hypertension:</p>
+</li>
+<li>
+<p>bosentan </p>
+</li>
+<li>
+<p>anticoagulants, used to prevent and treat blood clots, such as:</p>
+</li>
+<li>
+<p>warfarin, edoxaban, apixaban and rivaroxaban </p>
+</li>
+<li>
+<p>bronchodilators, used to treat asthma and other lung-related problems:</p>
+</li>
+<li>
+<p>salmeterol </p>
+</li>
+<li>
+<p>cholesterol lowering medicines, such as:</p>
+</li>
+<li>
+<p>rosuvastatin, atorvastatin, pravastatin, fluvastatin and pitavastatin </p>
+</li>
+<li>
+<p>medicines used to treat gout:</p>
+</li>
+<li>
+<p>colchicine </p>
+</li>
+<li>
+<p>antiplatelets, used to reduce the risk of blood clots such as:</p>
+</li>
+<li>
+<p>clopidogrel  </p>
+</li>
+<li>
+<p>medicines or oral supplements containing minerals (such as magnesium, aluminium, 
+calcium, iron, zinc), such as:</p>
+</li>
+<li>
+<p>mineral supplements, vitamins (including multivitamins), antacids and laxatives<br />
+  If you are taking medicines, oral supplements, antacids or laxatives containing minerals 
 (such as magnesium, aluminium, calcium, iron, zinc), take them at least 4 hours before or 
-at least 4 hours after Stribild. </li>
+at least 4 hours after Stribild. </p>
+</li>
 </ul>
-<p> Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
+<p>Tell your doctor if you are taking these or any other medicines.  Do not stop your treatment 
 without contacting your doctor. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -278,7 +352,7 @@ drive and do not use any tools or machines. </p>
 before taking this medicine. </p>
 <p>Stribild contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stribild"
@@ -322,9 +396,9 @@ short time.  The disease may then become harder to treat. </p>
 treatment without talking to your doctor first.  You may require blood tests for several months after 
 stopping treatment.  In some patients with advanced liver disease or cirrhosis, stopping treatment is not 
 recommended as this may lead to worsening of your hepatitis, which may be life-threatening. </p>
-<p> Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection (such as yellowing of your skin or 
-the white part of your eyes, dark “tea-coloured” urine, light-coloured stools, loss of appetite for 
+the white part of your eyes, dark  tea-coloured  urine, light-coloured stools, loss of appetite for 
 several days or longer, feeling or being sick, or stomach-area pain). </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -343,23 +417,27 @@ caused by Stribild or by other medicines that you are taking at the same time, o
 itself. </p>
 <p>Possible serious side effects: tell a doctor immediately </p>
 <ul>
-<li>Lactic acidosis (excess lactic acid in the blood) is a rare but potentially life-threatening side 
-effect of some HIV medicines.  Lactic acidosis occurs more often in women – particularly if 
+<li>
+<p>Lactic acidosis (excess lactic acid in the blood) is a rare but potentially life-threatening side 
+effect of some HIV medicines.  Lactic acidosis occurs more often in women   particularly if 
 they are overweight and in people with liver disease.  The following may be signs of lactic 
-acidosis: </li>
-<li>deep, rapid breathing </li>
+acidosis:</p>
+</li>
+<li>
+<p>deep, rapid breathing </p>
+</li>
 <li>tiredness or drowsiness </li>
 <li>feeling sick (nausea), being sick (vomiting) </li>
 <li>
 <p>stomach pain 
- If you think you may have lactic acidosis, tell your doctor immediately. </p>
+  If you think you may have lactic acidosis, tell your doctor immediately. </p>
 </li>
 <li>
 <p>Any signs of inflammation or infection.  In some patients with advanced HIV infection 
 (AIDS) and a history of opportunistic infections (infections that occur in people with a weak 
 immune system), signs and symptoms of inflammation from previous infections may occur soon 
 after anti-HIV treatment is started.  It is thought that these symptoms are due to an improvement 
-in the body’s immune response, enabling the body to fight infections that may have been 
+in the body s immune response, enabling the body to fight infections that may have been 
 present with no obvious symptoms.  In addition to the opportunistic infections, autoimmune 
 disorders (a condition that occurs when the immune system attacks healthy body tissue) may 
 also occur after you start taking medicines for the treatment of your HIV infection.<br />
@@ -367,7 +445,7 @@ Autoimmune disorders may occur many months after the start of treatment.  If you
 symptoms of infection or other symptoms such as muscle weakness, weakness beginning in the 
 hands and feet and moving up towards the trunk of the body, palpitations, tremor or 
 hyperactivity, please inform your doctor immediately to seek necessary treatment. 
- If you notice any symptoms of inflammation or infection, tell your doctor immediately. </p>
+  If you notice any symptoms of inflammation or infection, tell your doctor immediately. </p>
 </li>
 </ul>
 <p>Very common side effects 
@@ -427,17 +505,21 @@ liver (hepatitis)
 <p>The breakdown of muscle, softening of the bones (with bone pain and sometimes resulting in 
 fractures), muscle pain, muscle weakness and decreases in potassium or phosphate in the blood may 
 occur due to damage to kidney tubule cells. </p>
-<p> If any of the side effects get serious tell your doctor. </p>
+<p>If any of the side effects get serious tell your doctor. </p>
 <p>Other effects that may be seen during HIV treatment </p>
 <p>The frequency of the following side effects is not known (frequency cannot be estimated from the 
 available data). </p>
 <ul>
-<li>Bone problems.  Some patients taking combination antiretroviral medicines such as Stribild 
+<li>
+<p>Bone problems.  Some patients taking combination antiretroviral medicines such as Stribild 
 may develop a bone disease called osteonecrosis (death of bone tissue caused by loss of blood 
 supply to the bone).  Taking this type of medicine for a long time, taking corticosteroids, 
 drinking alcohol, having a very weak immune system, and being overweight, may be some of 
-the many risk factors for developing this disease.  Signs of osteonecrosis are: </li>
-<li>joint stiffness </li>
+the many risk factors for developing this disease.  Signs of osteonecrosis are:</p>
+</li>
+<li>
+<p>joint stiffness </p>
+</li>
 <li>joint aches and pains (especially of the hip, knee and shoulder) </li>
 <li>difficulty with movement </li>
 </ul>
@@ -446,8 +528,8 @@ the many risk factors for developing this disease.  Signs of osteonecrosis are: 
 - darkening of the skin in patches<br />
 </em> Children commonly experienced low red blood cell count (anaemia).<br />
 - this may cause the child to be tired or breathless  </p>
-<p> If you notice any of these symptoms tell your doctor. </p>
-<p> If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side 
+<p>If you notice any of these symptoms tell your doctor. </p>
+<p>If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side 
 effects not listed in this leaflet. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
@@ -486,8 +568,8 @@ stearate (E572), microcrystalline cellulose (E460), silicon dioxide (E551), sodi
 Indigo carmine aluminium lake (E132), macrogol  3350 (E1521), polyvinyl alcohol (partially 
 hydrolysed) (E1203), talc (E553b), titanium dioxide (E171), yellow iron oxide (E172). </p>
 <p>What Stribild looks like and contents of the pack </p>
-<p>Stribild film-coated tablets are green, capsule-shaped tablets, debossed on one side with “GSI” and the 
-number “1” surrounded by a square box on the other side of the tablet.  Stribild comes in bottles of 
+<p>Stribild film-coated tablets are green, capsule-shaped tablets, debossed on one side with  GSI  and the 
+number  1  surrounded by a square box on the other side of the tablet.  Stribild comes in bottles of 
 30 tablets (with a silica gel desiccant that must be kept in the bottle to help protect your tablets).  The 
 silica gel desiccant is contained in a separate sachet or canister and should not be swallowed. </p>
 <p>The following pack sizes are available: outer cartons containing 1 bottle of 30 film-coated tablets and 
@@ -504,22 +586,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -539,14 +620,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -554,14 +634,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -570,10 +650,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -582,9 +662,8 @@ Tel: + 39 02 439
 Suomi/Finland 
 Gilead Sciences Sweden AB 
 Puh/Tel: + 46 (0) 8 5057 1 </p>
-<p>Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 
@@ -594,6 +673,6 @@ Tel: + 353 (0) 1 686 1
 United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
-<p>This leaflet was last revised in  &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt; </p>
+<p>This leaflet was last revised in  <em>{MM/YYYY}&gt; &lt;{month YYYY}</em> </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

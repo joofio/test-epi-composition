@@ -4,7 +4,7 @@ Instance: composition-en-b33771d603196a4c6882e9a09cc14a10
 InstanceOf: CompositionUvEpi
 Title: "Composition for tamiflu Package Leaflet"
 Description:  "Composition for tamiflu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,21 +69,23 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What tamiflu is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Tamiflu is used for adults, adolescents, children and infants (including full-term newborn 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Tamiflu is used for adults, adolescents, children and infants (including full-term newborn 
 babies) for treating flu (influenza). It can be used when you have flu symptoms, and the flu 
-virus is known to be going round in your community. 
-* Tamiflu can also be prescribed for adults, adolescents, children and infants above 1 year of age 
-for preventing flu, on a case-by-case basis – for instance, if you have been in contact with 
-someone who has flu.<br />
-* Tamiflu may be prescribed for adults, adolescents, children and  infant (including full-term<br />
-newborn babies) as preventive treatment in exceptional circumstances – for example, if there 
+virus is known to be going round in your community. </li>
+<li>Tamiflu can also be prescribed for adults, adolescents, children and infants above 1 year of age 
+for preventing flu, on a case-by-case basis   for instance, if you have been in contact with 
+someone who has flu.  </li>
+<li>Tamiflu may be prescribed for adults, adolescents, children and  infant (including full-term<br />
+newborn babies) as preventive treatment in exceptional circumstances   for example, if there 
 is a global epidemic of flu (a flu pandemic) and the seasonal flu vaccine may not provide 
-sufficient protection.  </p>
+sufficient protection.  </li>
+</ul>
 <p>Tamiflu contains oseltamivir, which belongs to a group of medicines named neuraminidase inhibitors. 
 These medicines prevent the flu virus from spreading inside the body. They help to ease or prevent the 
 symptoms of the flu virus infection. </p>
 <p>Influenza, usually called flu, is an infection caused by a virus. The signs of flu often include a sudden 
-fever (more than 37.8 °C), cough, runny or stuffy nose, headaches, muscle aches and extreme 
+fever (more than 37.8  C), cough, runny or stuffy nose, headaches, muscle aches and extreme 
 tiredness. These symptoms can also be caused by other infections. True influenza infection only 
 occurs during annual outbreaks (epidemics) when flu viruses are spreading in the local community. 
 Outside epidemic periods, flu-like symptoms are usually caused by a different type of illness.  </p>         </div>"""   
@@ -97,8 +99,14 @@ Outside epidemic periods, flu-like symptoms are usually caused by a different ty
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tamiflu: 
 * if you are allergic (hypersensitive) to oseltamivir or any of the other ingredients of Tamiflu 
-listed in section 6.<br />
-Talk to your doctor if this applies to you. Do not take Tamiflu. </p>
+listed in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tamiflu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tamiflu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talk to your doctor if this applies to you. Do not take Tamiflu. </p>
 <p>Warnings and precautions: 
 Before you take Tamiflu, make sure the prescribing doctor knows 
 * if you are allergic to other medicines 
@@ -131,12 +139,13 @@ that your doctor can decide if Tamiflu is right for you. </p>
 Tamiflu has no effect on your ability to drive or use machines. </p>
 <p>Information about some of the ingredients of Tamiflu 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take tamiflu"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tamiflu"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you 
 are not sure. </p>
@@ -150,7 +159,7 @@ better quickly. </p>
 is best to take this in the mornings with breakfast. </p>
 <p>In special situations, such as widespread flu or for patients with a weak immune system, treatment will 
 continue for up to 6 or 12 weeks. </p>
-<p>The recommended dose is based on the patient’s body weight.You must use the amount of oral 
+<p>The recommended dose is based on the patient s body weight.You must use the amount of oral 
 capsules or suspension prescribed by the doctor.  </p>
 <p>Adults, and adolescents 13 years and over  </p>
 <p>Body weight 
@@ -228,7 +237,7 @@ weight</strong>, twice daily
 3 mg per kg**, once 
 daily 
 * For infants with a weak immune system, treatment is for 10 days. 
-** mg per kg = mg for each kilogram of the infant’s body weight. For example: 
+** mg per kg = mg for each kilogram of the infant s body weight. For example: 
 If a 6-month-old weighs 8 kg, the dose is 
 8 kg x 3mg per kg = 24 mg </p>
 <p>Method of administration 
@@ -236,7 +245,7 @@ Swallow the capsules whole with water. Do not break or chew the capsules. </p>
 <p>Tamiflu can be taken with or without food, although taking it with food can reduce the chance of 
 feeling or being sick (nausea or vomiting). </p>
 <p>People who find it hard to take capsules can use a liquid medicine, Tamiflu oral suspension. If you 
-need Tamiflu oral suspension, but it’s not available from your pharmacy, you can make a liquid form 
+need Tamiflu oral suspension, but it s not available from your pharmacy, you can make a liquid form 
 of Tamiflu from these capsules. See Making liquid Tamiflu at home, over the page. </p>
 <p>If you take more Tamiflu than you should<br />
 Stop taking Tamiflu and contact a doctor or pharmacist immediately. 
@@ -250,13 +259,12 @@ Do not take a double dose to make up for a forgotten capsule. </p>
 There are no side effects when you stop Tamiflu. But if Tamiflu is stopped earlier than your doctor 
 told you, the symptoms of flu may come back. Always complete the course that your doctor 
 prescribed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store tamiflu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store tamiflu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Many of 
 the side effects listed below may also be caused by influenza. </p>
@@ -358,135 +366,16 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store tamiflu"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tamiflu"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Do not store above 25 °C. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tamiflu contains 
-* Each hard capsule contains oseltamivir equivalent to 30 mg of oseltamivir<br />
-* The other ingredients are: 
-capsule contents: pregelatinised starch, talc, povidone, croscarmellose sodium and sodium 
-stearyl fumarate 
-capsule shell: gelatin, yellow iron oxide (E172), red iron oxide (E172) and titanium dioxide 
-(E171)<br />
-printing ink: shellac (E904), titanium dioxide (E171) and FD and C Blue 2 (indigo carmine 
-E132). </p>
-<p>What Tamiflu looks like and contents of the pack 
-The 30 mg hard capsule consists of a light yellow opaque body bearing the imprint “ROCHE” and a 
-light yellow opaque cap bearing the imprint “30 mg”. Imprints are blue. </p>
-<p>Tamiflu 30 mg hard capsules are available in blister packs of 10.<br />
-Marketing Authorisation Holder and Manufacturer 
-Roche Registration GmbH<br />
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>Roche Pharma AG 
-Emil-Barell-Str. 1,<br />
-D-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
-Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
-Luxembourg/Luxemburg 
-(Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
-Roche s. r. o. 
-Tel: +420 - 2 20382Magyarország 
-Roche (Magyarország) Kft. 
-Tel: +36 - 1 279 4 
-Danmark 
-Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99<br />
-Malta 
-(See Ireland) </p>
-<p>Deutschland 
-Roche Pharma AG 
-Tel: +49 (0) 7624<br />
-Nederland 
-Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
-Roche Eesti OÜ 
-Tel: + 372 - 6 177<br />
-Norge 
-Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
-Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-España 
-Roche Farma S.A. 
-Tel: +34 - 91 324 81<br />
-Polska 
-Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-France 
-Roche 
-Tél: +33 (0) 1 47 61 40<br />
-Portugal 
-Roche Farmacêutica Química, Lda 
-Tel: +351 - 21 425 70<br />
-Hrvatska 
-Roche d.o.o 
-Tel:  +385 1 4722<br />
-România 
-Roche România S.R.L. 
-Tel: +40 21 206 47<br />
-Ireland 
-Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Slovenija 
-Roche farmacevtska družba d.o.o. 
-Tel: +386 - 1 360 26<br />
-Ísland<br />
-Roche Pharmaceuticals A/S 
-c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
-Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
-Roche S.p.A. 
-Tel: +39 - 039 2Suomi/Finland 
-Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
-Sverige 
-Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
-Roche Latvija SIA 
-Tel: +371 - 6 7039 
-United Kingdom (Northern Ireland) 
-Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Do not store above 25  C. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
 

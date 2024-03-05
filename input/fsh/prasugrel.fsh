@@ -4,7 +4,7 @@ Instance: composition-en-0b50019879610f5c496f0994be72cd16
 InstanceOf: CompositionUvEpi
 Title: "Composition for prasugrel Package Leaflet"
 Description:  "Composition for prasugrel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,18 +90,14 @@ aspirin), another antiplatelet agent. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take prasugrel"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Prasugrel Viatris if you 
-– 
-are allergic to prasugrel or any of the other ingredients of this medicine (listed in section 6). An 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Prasugrel Viatris if you </p>
+<p>are allergic to prasugrel or any of the other ingredients of this medicine (listed in section 6). An 
 allergic reaction may be recognised as a rash, itching, a swollen face, swollen lips or shortness 
-of breath. If this has happened to you, tell your doctor immediately. 
-– 
-have a medical condition that is currently causing bleeding, such as bleeding from your stomach 
-or intestines. 
-– 
-have ever had a stroke or a transient ischaemic attack (TIA). 
-– 
-have severe liver disease. </p>
+of breath. If this has happened to you, tell your doctor immediately. </p>
+<p>have a medical condition that is currently causing bleeding, such as bleeding from your stomach 
+or intestines. </p>
+<p>have ever had a stroke or a transient ischaemic attack (TIA). </p>
+<p>have severe liver disease. </p>
 <p>39/Warnings and precautions </p>
 <ul>
 <li>Before you take Prasugrel Viatris: </li>
@@ -110,51 +106,41 @@ have severe liver disease. </p>
 <p>You should tell your doctor before taking Prasugrel Viatris if any of the situations mentioned below 
 apply to you: </p>
 <ul>
-<li>If you have an increased risk of bleeding such as: 
-– 
-age of 75 years or older. Your doctor should prescribe a daily dose of 5 mg as there is a 
-greater risk of bleeding in patients older than 75 years 
-– 
-a recent serious injury 
-– 
-recent surgery (including some dental procedures) 
-– 
-recent or recurrent bleeding from the stomach or intestines (e.g. a stomach ulcer or colon 
-polyps)<br />
-– 
-body weight of less than 60 kg. Your doctor should prescribe a daily dose of 5 mg of 
-Prasugrel Viatris if you weigh less than 60 kg 
-– 
-renal (kidney) disease or moderate liver problems 
-– 
-taking certain types of medicines (see ‘Other medicines and Prasugrel Viatris’ below) 
-– 
-planned surgery (including some dental procedures) in the next seven days. Your doctor 
+<li>If you have an increased risk of bleeding such as: </li>
+</ul>
+<p>age of 75 years or older. Your doctor should prescribe a daily dose of 5 mg as there is a 
+greater risk of bleeding in patients older than 75 years </p>
+<p>a recent serious injury </p>
+<p>recent surgery (including some dental procedures) </p>
+<p>recent or recurrent bleeding from the stomach or intestines (e.g. a stomach ulcer or colon 
+polyps)  </p>
+<p>body weight of less than 60 kg. Your doctor should prescribe a daily dose of 5 mg of 
+Prasugrel Viatris if you weigh less than 60 kg </p>
+<p>renal (kidney) disease or moderate liver problems </p>
+<p>taking certain types of medicines (see  Other medicines and Prasugrel Viatris  below) </p>
+<p>planned surgery (including some dental procedures) in the next seven days. Your doctor 
 may wish you to stop taking Prasugrel Viatris temporarily due to the increased risk of 
-bleeding </li>
-<li>
-<p>If you have had allergic reactions (hypersensitivity) to clopidogrel or any other anti-platelet 
+bleeding 
+* If you have had allergic reactions (hypersensitivity) to clopidogrel or any other anti-platelet 
 agent please tell your doctor before starting treatment with Prasugrel Viatris. If you then take 
 Prasugrel Viatris and experience allergic reactions that may be recognised as a rash, itching, a 
 swollen face, swollen lips or shortness of breath you need to tell your doctor immediately. </p>
-</li>
-<li>
-<p>While you are taking Prasugrel Viatris: </p>
-</li>
+<ul>
+<li>While you are taking Prasugrel Viatris: </li>
 </ul>
 <p>You should tell your doctor immediately if you develop a medical condition called Thrombotic 
 Thrombocytopaenic Purpura (or TTP) that includes fever and bruising under the skin that may appear 
 as red pinpoint dots, with or without unexplained extreme tiredness, confusion, yellowing of the skin 
-or eyes (jaundice) (see section 4 ‘Possible side effects’). </p>
+or eyes (jaundice) (see section 4  Possible side effects ). </p>
 <p>Children and adolescents 
 Prasugrel Viatris should not be used in children and adolescents below 18 years of age. </p>
 <p>Other medicines and Prasugrel Viatris 
 Tell your doctor if you are taking, have recently taken or might take any other medicines, including 
 medicines obtained without a prescription, dietary supplements and herbal remedies. </p>
 <p>It is particularly important to tell your doctor if you are being treated with: 
-• clopidogrel (an anti-platelet agent), 
-• warfarin (an anti-coagulant), 
-• ‘non-steroidal anti-inflammatory drugs’ for pain and fever (such as ibuprofen, naproxen, 
+  clopidogrel (an anti-platelet agent), 
+  warfarin (an anti-coagulant), 
+   non-steroidal anti-inflammatory drugs  for pain and fever (such as ibuprofen, naproxen, 
 etoricoxib).<br />
 If given together with Prasugrel Viatris these medicines may increase the risk of bleeding. </p>
 <p>Tell your doctor if you are taking morphine or other opioids (used to treat severe pain). </p>
@@ -169,12 +155,12 @@ benefits and any potential risks to your unborn child. </p>
 <p>Driving and using machines 
 Prasugrel Viatris is unlikely to affect your ability to drive or use machines. </p>
 <p>Prasugrel Viatris 5 mg contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’.  </p>
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free .  </p>
 <p>Prasugrel Viatris 10 mg contains sunset yellow FCF aluminium lake (E110) and sodium 
 Sunset yellow FCF aluminium lake is a colouring agent, which may cause allergic reactions. 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’.  </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prasugrel"
@@ -222,10 +208,10 @@ patients who have never had a stroke or transient ischaemic attack (TIA). </p>
 <ul>
 <li>Fever and bruising under the skin that may appear as red pinpoint dots, with or without 
 unexplained extreme tiredness, confusion, yellowing of the skin or eyes (jaundice). (see 
-section 2 ‘What you need to know before you take Prasugrel Viatris’) </li>
+section 2  What you need to know before you take Prasugrel Viatris ) </li>
 <li>A rash, itching, or a swollen face, swollen lips/tongue, or shortness of breath. These may be 
-signs of a severe allergic reaction (see section 2 ‘What you need to know before you take 
-Prasugrel Viatris’) </li>
+signs of a severe allergic reaction (see section 2  What you need to know before you take 
+Prasugrel Viatris ) </li>
 </ul>
 <p>Tell your doctor promptly if you notice any of the following: </p>
 <ul>
@@ -270,11 +256,11 @@ this medicine. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Prasugrel Viatris 5 mg: Do not store above 30°C. Store in the original package in order to protect from 
+<p>Prasugrel Viatris 5 mg: Do not store above 30 C. Store in the original package in order to protect from 
 moisture. </p>
-<p>Prasugrel Viatris 10 mg: Do not store above 25°C. Store in the original package in order to protect 
+<p>Prasugrel Viatris 10 mg: Do not store above 25 C. Store in the original package in order to protect 
 from moisture. 
-Blister packs only: Do not store above 30°C. Store in the original package in order to protect from 
+Blister packs only: Do not store above 30 C. Store in the original package in order to protect from 
 moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -285,33 +271,31 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Prasugrel Viatris contains 
-– 
-The active substance is prasugrel. 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Prasugrel Viatris contains </p>
+<p>The active substance is prasugrel. 
 Prasugrel Viatris 5 mg: Each film-coated tablet contains prasugrel besilate equivalent to 5 mg 
 prasugrel. 
 Prasugrel Viatris 10 mg: Each film-coated tablet contains prasugrel besilate equivalent to 10 mg 
 prasugrel. </p>
-<p>– 
-The other ingredients are: 
+<p>The other ingredients are: 
 Prasugrel Viatris 5 mg: microcrystalline cellulose, mannitol, crospovidone, silica colloidal anhydrous, 
 magnesium stearate, polyvinyl alcohol, talc, titanium dioxide (E171), glyceryl monocaprylocaprate, 
-sodium lauryl sulfate, iron oxide yellow (E172). See section 2 ‘Prasugrel Viatris 5 mg contains 
-sodium’.  </p>
+sodium lauryl sulfate, iron oxide yellow (E172). See section 2  Prasugrel Viatris 5 mg contains 
+sodium .  </p>
 <p>Prasugrel Viatris 10 mg: microcrystalline cellulose, mannitol, crospovidone, silica colloidal 
 anhydrous, magnesium stearate, polyvinyl alcohol, talc, titanium dioxide (E171), glyceryl 
 monocaprylocaprate, sodium lauryl sulfate, iron oxide yellow (E172), sunset yellow FCF aluminium 
-lake (E110), iron oxide red (E172). See section 2 ‘Prasugrel Viatris 10 mg contains sunset yellow FCF 
-aluminium lake and sodium’. </p>
+lake (E110), iron oxide red (E172). See section 2  Prasugrel Viatris 10 mg contains sunset yellow FCF 
+aluminium lake and sodium . </p>
 <p>What Prasugrel Viatris looks like and contents of the pack </p>
 <p>Prasugrel Viatris 10 mg film-coated tablets are beige film-coated, capsule shaped, biconvex tablets, of 
-dimensions 11.15 mm × 5.15 mm, debossed with ‘PH4’ on one side of the tablet and ‘M’ on the other 
+dimensions 11.15 mm   5.15 mm, debossed with  PH4  on one side of the tablet and  M  on the other 
 side. 
 This medicine is available in plastic bottles containing a desiccant and 28 or 30 film-coated tablets and 
 in blister packs containing 28, 30, 84, 90, 98 and in perforated blister packs containing 30 x 1 and 90 x 
 1 film-coated tablets. </p>
 <p>Prasugrel Viatris 5 mg film-coated tablets are yellow film-coated, capsule shaped, biconvex tablets, of 
-dimensions 8.15 mm × 4.15 mm, debossed with ‘PH3’ on one side of the tablet and ‘M’ on the other 
+dimensions 8.15 mm   4.15 mm, debossed with  PH3  on one side of the tablet and  M  on the other 
 side. 
 This medicine is available in plastic bottles containing a desiccant and 28 or 30 film-coated tablets and<br />
 in blister packs containing 28, 30, 84 or 98 film-coated tablets. </p>
@@ -322,27 +306,25 @@ Mylan Pharmaceuticals Limited, Damastown Industrial Park, Mulhuddart, Dublin 15,
 Ireland </p>
 <p>Manufacturer 
 Mylan Hungary Kft 
-Mylan utca 1, Komárom, 2900, Hungary </p>
+Mylan utca 1, Kom rom, 2900, Hungary </p>
 <p>McDermott Laboratories Limited t/a Gerard Laboratories 
 35/36 Baldoyle Industrial Estate, Grange State, Dublin 13, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Viatris 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB<br />
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Viatris 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
 Viatris CZ s.r.o. 
 Tel: + 420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Viatris Healthcare Kft. 
 Tel.: + 36 1 465 2 
 Danmark 
@@ -362,29 +344,28 @@ Eesti filiaal
 Tel: + 372 6363<br />
 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33<br />
-Ελλάδα 
-Viatris Hellas Ltd 
-Τηλ: +30 2100 100<br />
-Österreich 
+Tlf: + 47 66 75 33  </p>
+<p>Viatris Hellas Ltd 
+ : +30 2100 100<br />
+ sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. Z.o.o. 
 Tel.: + 48 22 546 64<br />
 France 
-Viatris Santé 
-Tél : +33 4 37 25 75<br />
+Viatris Sant<br />
+T l : +33 4 37 25 75<br />
 Portugal 
 Mylan, Lda. 
 Tel: + 351 21 412 72  </p>
 <p>44/Hrvatska 
 Viatris Hrvatska d.o.o. 
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: + 40 372 579<br />
 Ireland 
@@ -393,10 +374,10 @@ Tel: +353 1 8711
 Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199<br />
 Italia 
@@ -404,10 +385,9 @@ Viatris Italia S.r.l.
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: + 358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd <br />
-Τηλ: +357 2220 7Sverige 
+Puh/Tel: + 358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd <br />
+ : +357 2220 7Sverige 
 Viatris AB 
 Tel: + 46 (0)8 630 19<br />
 Latvija 

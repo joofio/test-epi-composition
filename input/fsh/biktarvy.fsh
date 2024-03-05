@@ -4,7 +4,7 @@ Instance: composition-en-63b15a3bb9d18a00ecd0962bc011c765
 InstanceOf: CompositionUvEpi
 Title: "Composition for biktarvy Package Leaflet"
 Description:  "Composition for biktarvy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -94,13 +94,15 @@ the risk of developing illnesses linked to HIV infection. </p>         </div>"""
 ingredients of this medicine (listed in section 6). </p>
 </li>
 <li>
-<p>If you are currently taking any of the following medicines: </p>
+<p>If you are currently taking any of the following medicines:</p>
 </li>
-<li>rifampicin used to treat some bacterial infections such as tuberculosis </li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and 
+<li>
+<p>rifampicin used to treat some bacterial infections such as tuberculosis </p>
+</li>
+<li>St. John s wort (Hypericum perforatum), a herbal remedy used for depression and 
 anxiety, or products that contain it. </li>
 </ul>
-<p>→ If any of these apply to you, do not take Biktarvy and tell your doctor immediately. </p>
+<p>If any of these apply to you, do not take Biktarvy and tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor before taking Biktarvy: </p>
 <ul>
@@ -113,7 +115,7 @@ your doctor will carefully consider the best treatment regimen for you. </p>
 <li>
 <p>If you have hepatitis B infection.  Liver problems may become worse after you stop taking 
 Biktarvy.<br />
-→ Do not stop taking Biktarvy if you have hepatitis B.  Talk to your doctor first.  For more details, see 
+  Do not stop taking Biktarvy if you have hepatitis B.  Talk to your doctor first.  For more details, see 
 section 3, Do not stop taking Biktarvy. </p>
 </li>
 <li>
@@ -128,7 +130,7 @@ treatment with Biktarvy. </p>
 <li>Signs of inflammation or infection </li>
 <li>Joint pain, stiffness or bone problems </li>
 </ul>
-<p>→ If you notice any of these symptoms, tell your doctor immediately.  For more information see 
+<p>If you notice any of these symptoms, tell your doctor immediately.  For more information see 
 section 4, Possible side effects. </p>
 <p>There is a possibility that you may experience kidney problems when taking Biktarvy over a long 
 period of time (see Warnings and precautions). </p>
@@ -142,7 +144,7 @@ film-coated tablets are available.   </p>
 <p>Loss of bone mass has been reported in some children from 3 to less than 12 years of age who 
 received one of the medicinal products (tenofovir alafenamide) contained in Biktarvy.  The effects on 
 long term bone health and future fracture risk in children is uncertain.  Your doctor will monitor your 
-child’s bone health as needed. </p>
+child s bone health as needed. </p>
 <p>Other medicines and Biktarvy </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  Biktarvy may interact with other medicines.  As a result, the amounts of Biktarvy or other 
@@ -151,29 +153,41 @@ make any side effects worse.  In some cases, your doctor may need to adjust your
 blood levels. </p>
 <p>Medicines that must never be taken with Biktarvy: 
 * rifampicin used to treat some bacterial infections such as tuberculosis 
-* St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety, or 
+* St. John s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety, or 
 products that contain it. </p>
-<p>→ If you are taking any of these medicines, do not take Biktarvy and tell your doctor immediately. </p>
+<p>If you are taking any of these medicines, do not take Biktarvy and tell your doctor immediately. </p>
 <p>Talk to your doctor if you are taking: </p>
 <ul>
-<li>medicines used for treating HIV and/or hepatitis B, containing: </li>
-<li>adefovir dipivoxil, atazanavir, bictegravir, emtricitabine, lamivudine, tenofovir 
-alafenamide, or tenofovir disoproxil </li>
-<li>antibiotics used to treat bacterial infections, containing: </li>
-<li>azithromycin, clarithromycin, rifabutin or rifapentine </li>
-<li>anticonvulsants used to treat epilepsy, containing: </li>
-<li>carbamazepine, oxcarbazepine, phenobarbital or phenytoin </li>
-<li>immunosuppressants used to control your body’s immune response after a transplant, 
+<li>
+<p>medicines used for treating HIV and/or hepatitis B, containing:</p>
+</li>
+<li>
+<p>adefovir dipivoxil, atazanavir, bictegravir, emtricitabine, lamivudine, tenofovir 
+alafenamide, or tenofovir disoproxil </p>
+</li>
+<li>
+<p>antibiotics used to treat bacterial infections, containing:</p>
+</li>
+<li>
+<p>azithromycin, clarithromycin, rifabutin or rifapentine </p>
+</li>
+<li>
+<p>anticonvulsants used to treat epilepsy, containing:</p>
+</li>
+<li>
+<p>carbamazepine, oxcarbazepine, phenobarbital or phenytoin </p>
+</li>
+<li>immunosuppressants used to control your body s immune response after a transplant, 
 containing ciclosporin </li>
 <li>ulcer-healing medicines containing sucralfate </li>
 </ul>
-<p>→ Tell your doctor if you are taking any of these medicines.  Do not stop your treatment without 
+<p>Tell your doctor if you are taking any of these medicines.  Do not stop your treatment without 
 contacting your doctor. </p>
 <p>Get advice from a doctor or pharmacist if you are taking: 
 * antacids to treat stomach ulcers, heartburn, or acid reflux, containing aluminium and/or 
 magnesium hydroxide<br />
 * mineral supplements or vitamins containing magnesium or iron </p>
-<p>→ Get advice from your doctor or pharmacist before taking Biktarvy if you are taking any of 
+<p>Get advice from your doctor or pharmacist before taking Biktarvy if you are taking any of 
 these medicines. 
 Antacids and magnesium supplements: you will need to take Biktarvy at least 2 hours before 
 antacids or supplements containing aluminium and/or magnesium.  Or you can take Biktarvy with 
@@ -201,7 +215,7 @@ possible. </p>
 and do not use any tools or machines. </p>
 <p>Biktarvy contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take biktarvy"
@@ -221,11 +235,11 @@ tablet one after the other to get the full dose. Do not store the split tablet. 
 <p>The score line on the tablet is only there to help you break the tablet if your child has difficulty 
 swallowing it whole. </p>
 <p>The 90-day multipack contains three 30-day packs together. 
-→ Get advice from a doctor or pharmacist if you are taking: 
+  Get advice from a doctor or pharmacist if you are taking: 
 * antacids to treat stomach ulcers, heartburn, or acid reflux, containing aluminium and/or 
 magnesium hydroxide 
 * mineral supplements or vitamins containing magnesium or iron 
-→ See section 2 for more information on taking these medicines with Biktarvy. </p>
+  See section 2 for more information on taking these medicines with Biktarvy. </p>
 <p>If you are on dialysis, take your daily dose of Biktarvy following completion of dialysis. </p>
 <p>If you take more Biktarvy than you should </p>
 <p>If you take more than the recommended dose of Biktarvy you may be at higher risk of side effects of 
@@ -252,7 +266,7 @@ short time.  The disease may then become harder to treat. </p>
 treatment without talking to your doctor first.  You may require blood tests for several months after 
 stopping treatment.  In some patients with advanced liver disease or cirrhosis, stopping treatment is 
 not recommended as this may lead to worsening of your hepatitis, which may be life-threatening. </p>
-<p>→ Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -270,20 +284,22 @@ particularly symptoms you associate with hepatitis B infection. </p>
 (AIDS) and a history of opportunistic infections (infections that occur in people with a weak 
 immune system), signs and symptoms of inflammation from previous infections may occur soon 
 after HIV treatment is started.  It is thought that these symptoms are due to an improvement in 
-the body’s immune response, enabling the body to fight infections that may have been present 
+the body s immune response, enabling the body to fight infections that may have been present 
 with no obvious symptoms. </p>
 </li>
 <li>
 <p>Autoimmune disorders, when the immune system attacks healthy body tissue, may also occur 
 after you start taking medicines for HIV infection.  Autoimmune disorders may occur many 
 months after the start of treatment.  Look out for any symptoms of infection or other symptoms 
-such as: </p>
+such as:</p>
 </li>
-<li>muscle weakness </li>
+<li>
+<p>muscle weakness </p>
+</li>
 <li>weakness beginning in the hands and feet and moving up towards the trunk of the body </li>
 <li>palpitations, tremor or hyperactivity </li>
 </ul>
-<p>→ If you notice these or any symptoms of inflammation or infection, tell your doctor 
+<p>If you notice these or any symptoms of inflammation or infection, tell your doctor 
 immediately. </p>
 <p>Common side effects 
 (may affect up to 1 in 10 people) 
@@ -317,26 +333,32 @@ mental health problems before)
 <p>Rare side effects<br />
 (may affect up to 1 in 1000 people) 
 * Stevens-Johnson syndrome (SJS) is a serious life-threatening condition which usually starts 
-with flu- like symptoms. A few days later other symptoms appear including: 
-- Painful red or purple skin that looks burned and peels off 
-- Blisters on your skin, mouth, nose, and genitals 
-- Red, painful, watery eyes </p>
-<p>→ If you have any of these symptoms, stop your medicine immediately and tell your doctor 
+with flu- like symptoms. A few days later other symptoms appear including:</p>
+<ul>
+<li>Painful red or purple skin that looks burned and peels off </li>
+<li>Blisters on your skin, mouth, nose, and genitals </li>
+<li>Red, painful, watery eyes </li>
+</ul>
+<p>If you have any of these symptoms, stop your medicine immediately and tell your doctor 
 straight away. 
-→ If any of the side effects get serious, tell your doctor. </p>
+  If any of the side effects get serious, tell your doctor. </p>
 <p>Other effects that may be seen during HIV treatment </p>
 <p>The frequency of the following side effects is not known (frequency cannot be estimated from the 
 available data). </p>
 <ul>
-<li>Bone problems.  Some patients taking combination antiretroviral medicines such as Biktarvy 
+<li>
+<p>Bone problems.  Some patients taking combination antiretroviral medicines such as Biktarvy 
 may develop a bone disease called osteonecrosis (death of bone tissue caused by loss of blood 
 supply to the bone).  Taking this type of medicine for a long time, taking corticosteroids, 
 drinking alcohol, having a very weak immune system, and being overweight, may be some of 
-the many risk factors for developing this disease.  Signs of osteonecrosis are: </li>
-<li>joint stiffness </li>
+the many risk factors for developing this disease.  Signs of osteonecrosis are:</p>
+</li>
+<li>
+<p>joint stiffness </p>
+</li>
 <li>joint aches and pains (especially of the hip, knee and shoulder) </li>
 <li>difficulty with movement 
-→ If you notice any of these symptoms tell your doctor. </li>
+  If you notice any of these symptoms tell your doctor. </li>
 </ul>
 <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose.  This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -378,7 +400,7 @@ Polyvinyl alcohol (E203), titanium dioxide (E171), macrogol (E1521), talc (E553b
 (E172), iron oxide black (E172). </p>
 <p>What Biktarvy looks like and contents of the pack </p>
 <p>Biktarvy 30 mg/120 mg/15 mg film-coated tablets are pink, capsule-shaped, film-coated tablets, 
-debossed with “BVY” on one side and a score line on the other side of the tablet. </p>
+debossed with  BVY  on one side and a score line on the other side of the tablet. </p>
 <p>The tablets are supplied in a bottle. Not all pack sizes may be marketed. </p>
 <p>Biktarvy comes in bottles of 30 tablets and in packs made up of 3 bottles, each containing 30 tablets.<br />
 Each bottle contains a silica gel desiccant that must be kept in the bottle to help protect your tablets.<br />
@@ -395,22 +417,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel.: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel.: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 (0) 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -429,14 +450,13 @@ Eesti
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 (0) 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 (0) 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 (0) 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 (0) 91 378 98<br />
 Polska 
@@ -444,14 +464,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 (0) 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 (0) 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L<br />
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -460,10 +480,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 </p>
-<p>Ísland 
+<p>sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 (0) 232 121<br />
 Italia 
@@ -471,10 +491,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 (0) 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 (0) 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

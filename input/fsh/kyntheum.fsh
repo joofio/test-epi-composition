@@ -4,7 +4,7 @@ Instance: composition-en-32bfd365b84c64d962132c327f20aa6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kyntheum Package Leaflet"
 Description:  "Composition for kyntheum Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ specialised type of protein that recognises and attaches to certain proteins in 
 <p>Brodalumab belongs to a group of medicines called interleukin (IL) inhibitors. This medicine works 
 by blocking the activity of IL-17 proteins, which are present at increased levels in diseases such as 
 psoriasis. </p>
-<p>Kyntheum is used to treat a skin condition called “plaque psoriasis”, which causes inflammation and 
+<p>Kyntheum is used to treat a skin condition called  plaque psoriasis , which causes inflammation and 
 scaly plaque formation on the skin. Kyntheum is used in adults with moderate to severe plaque 
 psoriasis affecting large areas of the body. </p>
 <p>Using Kyntheum will benefit you by leading to improvements of skin clearance and reducing psoriasis 
@@ -89,12 +89,12 @@ signs and symptoms, such as itch, redness, scaling, burning, stinging, cracking,
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Kyntheum 
 * if you are allergic to brodalumab or any of the other ingredients of this medicine (listed in 
 section 6). If you think you may be allergic, ask your doctor for advice before using Kyntheum 
-* if you have active Crohn’s disease 
+* if you have active Crohn s disease 
 * if you have an infection which your doctor thinks is important (for example, active 
 tuberculosis). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor, pharmacist, or nurse before using Kyntheum: 
-* if you have an inflammatory disease affecting the gut named Crohn’s disease 
+* if you have an inflammatory disease affecting the gut named Crohn s disease 
 * if you have an inflammation of the large intestine named ulcerative colitis 
 * if you have ever had or are having suicidal thoughts or actions, depression, anxiety, or mood 
 problems 
@@ -106,26 +106,32 @@ eDoc-000624731 - Version 28. 0</p>
 someone with TB. You may be treated with another medicine for TB before you begin treatment 
 with Kyntheum </li>
 <li>if you have recently received or are scheduled to receive a vaccination. You should not be given 
-certain types of vaccines (called ‘live vaccines’) while being treated with Kyntheum </li>
+certain types of vaccines (called  live vaccines ) while being treated with Kyntheum </li>
 <li>if you have used Kyntheum during the last three months of your pregnancy, you should talk to 
 your doctor before vaccinating your baby </li>
 <li>if you are receiving any other treatment for psoriasis, such as another immunosuppressant or 
 phototherapy with ultraviolet (UV) light. </li>
 </ul>
 <p>After starting Kyntheum, tell your doctor, pharmacist or nurse immediately: 
-* if you have been told by your doctor that you have developed Crohn’s disease 
+* if you have been told by your doctor that you have developed Crohn s disease 
 * if you feel depressed, anxious, or have thoughts of suicide, or have unusual mood changes 
-* if you have an infection or have any signs of infection listed in Section 4 “Possible side effects” 
+* if you have an infection or have any signs of infection listed in Section 4  Possible side effects<br />
 * if you have been told you have tuberculosis. </p>
-<p>Inflammatory bowel disease (Crohn’s disease or ulcerative colitis) 
+<p>Inflammatory bowel disease (Crohn s disease or ulcerative colitis) 
 Stop using Kyntheum and tell your doctor or seek medical help immediately if you notice abdominal 
 cramps and pain, diarrhoea, weight loss or blood in the stool (any signs of bowel problems). </p>
 <p>Look out for allergic reactions 
 Kyntheum can potentially cause serious side effects, including allergic reactions. You must look out 
 for signs of these conditions while you are taking Kyntheum. </p>
 <p>Stop using Kyntheum and tell your doctor or seek medical help immediately if you notice any signs 
-indicating an allergic reaction. Such signs are listed under “Serious side effects” in section 4.<br />
-Children and adolescents 
+indicating an allergic reaction. Such signs are listed under  Serious side effects  in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kyntheum"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kyntheum"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
 Kyntheum is not recommended for children and adolescents (below 18 years of age) because it has not 
 been studied in this age group. </p>
 <p>Other medicines and Kyntheum 
@@ -146,12 +152,13 @@ using Kyntheum. Together you will consider the benefit of breast-feeding to the 
 of Kyntheum to you. </p>
 <p>Driving and using machines 
 Kyntheum is unlikely to affect your ability to drive and use machines. </p>
-<p>eDoc-000624731 - Version 28. 0</p>         </div>"""   
-                    
+<p>eDoc-000624731 - Version 28. 0</p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take kyntheum"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take kyntheum"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyntheum should be prescribed to you by a doctor with experience in diagnosing and treating 
 psoriasis.  </p>
@@ -169,7 +176,7 @@ symptoms of psoriasis are not improving after using Kyntheum. </p>
 <p>How is Kyntheum given 
 Kyntheum is given as an injection under the skin (known as a subcutaneous injection). </p>
 <p>Self-administration instructions 
-See the detailed “Instructions for Use” that comes with this medicine for information on the right 
+See the detailed  Instructions for Use  that comes with this medicine for information on the right 
 way to store, prepare, and give your injections at home. 
 * If your doctor decides that you or a caregiver can give the injections at home, you or your 
 caregiver should receive training on the right way to prepare and inject Kyntheum. Do not try to 
@@ -190,13 +197,12 @@ double dose to make up for a forgotten dose. </p>
 <p>If you stop using Kyntheum 
 You should not stop using Kyntheum without speaking to your doctor first. If you stop treatment, 
 symptoms of psoriasis may come back.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store kyntheum"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store kyntheum"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>eDoc-000624731 - Version 28. 0</p>
@@ -238,30 +244,22 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store kyntheum"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kyntheum"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and label of the pre-
-filled syringe after EXP. The expiry date refers to the last day of that month. </p>
-<p>Keep the pre-filled syringe in the outer carton in order to protect from light.<br />
-eDoc-000624731 - Version 28. 0</p>
-<p>Store in a refrigerator (2°C to 8°C). Do not freeze.  </p>
-<p>Kyntheum can be kept at room temperature up to 25°C in the outer carton for 14 days. Throw away 
-Kyntheum if it is not used within 14 days of storage at room temperature. </p>
-<p>Do not use this medicine if you notice the solution is cloudy or discoloured or contains lumps, flakes 
-or particles. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kyntheum contains<br />
-- The active substance is brodalumab. Each pre-filled syringe contains 210 mg brodalumab in </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and label of the pre-
+filled syringe after EXP. The expiry date refers to the last day of that month. </p>
+<p>Keep the pre-filled syringe in the outer carton in order to protect from light.<br />
+eDoc-000624731 - Version 28. 0</p>
+<p>Store in a refrigerator (2 C to 8 C). Do not freeze.  </p>
+<p>Kyntheum can be kept at room temperature up to 25 C in the outer carton for 14 days. Throw away 
+Kyntheum if it is not used within 14 days of storage at room temperature. </p>
+<p>Do not use this medicine if you notice the solution is cloudy or discoloured or contains lumps, flakes 
+or particles. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

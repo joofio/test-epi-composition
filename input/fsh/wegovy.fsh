@@ -4,7 +4,7 @@ Instance: composition-en-0234c86891baf768298474181745e97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for wegovy Package Leaflet"
 Description:  "Composition for wegovy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,10 +77,10 @@ you eat less food and reduce your body weight. </p>
 <p>What Wegovy is used for 
 Wegovy is used together with diet and physical activity for weight loss and to help keep the weight 
 under control. It is used in adults, who have 
-* a BMI of 30 kg/m² or greater (obesity) or 
-* a BMI of at least 27 kg/m² but less than 30 kg/m² (overweight) who have weight-related health 
+* a BMI of 30 kg/m  or greater (obesity) or 
+* a BMI of at least 27 kg/m  but less than 30 kg/m  (overweight) who have weight-related health 
 problems (such as diabetes, high blood pressure, abnormal levels of fats in the blood, breathing 
-problems during sleep called ‘obstructive sleep apnoea’ or a history of heart attack, stroke or 
+problems during sleep called  obstructive sleep apnoea  or a history of heart attack, stroke or 
 blood vessel problems). </p>
 <p>BMI (Body Mass Index) is a measure of your weight in relation to your height. </p>
 <p>Wegovy is used together with diet and physical activity for weight management in adolescents ages 
@@ -126,7 +126,7 @@ problems. Talk to your doctor if you have any questions or concerns. </p>
 </li>
 <li>
 <p>Inflammation of the pancreas 
-If you have severe and on-going pain in the stomach area (see section 4) – see a doctor straight 
+If you have severe and on-going pain in the stomach area (see section 4)   see a doctor straight 
 away as this could be a sign of inflamed pancreas (acute pancreatitis). </p>
 </li>
 <li>
@@ -176,12 +176,12 @@ pharmacist or nurse. </p>
 <p>People with type 2 diabetes 
 If you use this medicine in combination with a sulfonylurea or insulin, low blood sugar 
 (hypoglycaemia) may occur which may reduce your ability to concentrate. Avoid driving or using 
-machines if you get any signs of low blood sugar. See section 2, ‘Warnings and precautions’ for 
+machines if you get any signs of low blood sugar. See section 2,  Warnings and precautions  for 
 information on increased risk of low blood sugar and section 4 for the warning signs of low blood 
 sugar. Talk to your doctor for further information.  </p>
 <p>Wegovy contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take wegovy"
@@ -204,32 +204,15 @@ have improved. </p>
 <p>Usually, you will be told to follow the table below. </p>
 <p>Dose escalation 
 Weekly dose 
-Week 1–4 </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Week 5–8 </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store wegovy"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store wegovy"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Week 9–1 mg 
-Week 13–1.7 mg 
-From week 17  </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor will assess your treatment on a regular basis. </p>
+Week 1 4 
+0.25 mg 
+Week 5 8 
+0.5 mg 
+Week 9 1 mg 
+Week 13 1.7 mg 
+From week 17<br />
+2.4 mg </p>
+<p>Your doctor will assess your treatment on a regular basis. </p>
 <p>Adolescents (above 12 years of age) 
 For adolescents, the same dose escalation schedule as for adults should be applied (see above). The 
 dose should be increased until 2.4 mg (maintenance dose) or maximum tolerated dose has been 
@@ -246,7 +229,7 @@ Tell your doctor if you have type 2 diabetes. Your doctor may adjust the dose of
 medicines to prevent you from getting low blood sugar. </p>
 <p>When to use Wegovy 
 * You should use this medicine once a week and if possible, on the same day each week.<br />
-* You can give yourself the injection at any time of the day – regardless of meals.  </p>
+* You can give yourself the injection at any time of the day   regardless of meals.  </p>
 <p>If necessary, you can change the day of your weekly injection of this medicine as long as it has been at 
 least 3 days since your last injection. After selecting a new dosing day, continue with once a week 
 dosing. </p>
@@ -262,5 +245,121 @@ your next dose as usual on your next scheduled day.
 Do not use a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Wegovy 
 Do not stop using this medicine without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Serious side effects </p>
+<p>Common (may affect up to 1 in 10 people) 
+* Complications of diabetic eye disease (diabetic retinopathy). If you have diabetes you should 
+inform your doctor if you experience eye problems, such as changes in vision, during treatment 
+with this medicine. </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* Inflamed pancreas (acute pancreatitis). Signs of inflamed pancreas may include severe and long-
+lasting pain in your stomach, the pain may move to your back. You should see your doctor 
+immediately if you experience such symptoms.   </p>
+<p>Rare (may affect up to 1 in 1,000 people) 
+* Severe allergic reactions (anaphylactic reactions, angioedema). You should seek immediate 
+medical help and inform your doctor straight away if you get symptoms such as breathing 
+difficulty, swelling, light-headedness, fast heartbeat, sweating and loss of consciousness or rapid 
+swelling under the skin in areas such as the face, throat, arms and legs, which can be life 
+threatening if throat swelling blocks the airway. </p>
+<p>Other side effects </p>
+<p>Very common (may affect more than 1 in 10 people) 
+* headache<br />
+<em> feeling sick (nausea)<br />
+</em> being sick (vomiting)<br />
+<em> diarrhoea<br />
+</em> constipation<br />
+<em> stomach pain<br />
+</em> feeling weak or tired<br />
+  these are mainly seen during dose escalation and usually go away over time. </p>
+<p>Common (may affect up to 1 in 10 people) 
+* feeling dizzy 
+* upset stomach or indigestion<br />
+<em> burping<br />
+</em> gas (flatulence)<br />
+<em> bloating of the stomach 
+* inflamed stomach ( gastritis )   the signs include stomach-ache, feeling sick (nausea) or being 
+sick (vomiting)<br />
+</em> reflux or heartburn   also called  gastro-oesophageal reflux disease<br />
+<em> gallstones<br />
+</em> hair loss 
+* injection site reactions 
+* low blood sugar (hypoglycaemia) in patients with type 2 diabetes.  </p>
+<p>The warning signs of low blood sugar may come on suddenly. They can include: cold sweat, cool pale 
+skin, headache, fast heartbeat, feeling sick (nausea) or very hungry, changes in vision, feeling sleepy or 
+weak, feeling nervous, anxious or confused, difficulty concentrating or shaking.<br />
+Your doctor will tell you how to treat low blood sugar and what to do if you notice these warning 
+signs. 
+Low blood sugar is more likely to happen if you also take a sulfonylurea or insulin. Your doctor may 
+reduce your dose of these medicines before you start using this medicine. </p>
+<p>Uncommon (may affect up to 1 in 100 people) 
+* low blood pressure 
+* feeling dizzy or lightheaded on standing or sitting up because of a drop in blood pressure 
+* fast heartbeat 
+* increase of pancreatic enzymes (such as lipase and amylase) shown in blood tests 
+* a delay in the emptying of the stomach. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store wegovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store wegovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the pen label and carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. Keep away from the cooling element. Always store 
+the pen in the original carton in order to protect from light. 
+Wegovy may be stored unrefrigerated for up to 28 days at a temperature not above 30 C.<br />
+Discard the pen if it has been exposed to light or temperatures above 30 C, has been out of the 
+refrigerator for more than 28 days, or has been frozen. </p>
+<p>Do not use this medicine if you notice that the solution is not clear and colourless.  </p>
+<p>After use: The pen is for single use and contains one dose only. Discard pen after use.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Wegovy contains </p>
+<p>The active substance is semaglutide. 
+Wegovy 0.25 mg solution for injection 
+Each pre-filled pen contains 0.25 mg semaglutide in 0.5 mL (0.5 mg/mL). </p>
+<p>Wegovy 0.5 mg solution for injection 
+Each pre-filled pen contains 0.5 mg semaglutide in 0.5 mL (1 mg/mL). </p>
+<p>Wegovy 1 mg solution for injection 
+Each pre-filled pen contains 1 mg semaglutide in 0.5 mL (2 mg/mL). </p>
+<p>Wegovy 1.7 mg solution for injection 
+Each pre-filled pen contains 1.7 mg semaglutide in 0.75 mL (2.27 mg/mL). </p>
+<p>Wegovy 2.4 mg solution for injection 
+Each pre-filled pen contains 2.4 mg of semaglutide in 0.75 mL (3.2 mg/mL). </p>
+<p>The other ingredients are disodium phosphate dihydrate, sodium chloride, hydrochloric 
+acid/sodium hydroxide (for pH adjustment), water for injections. See also section 2  Wegovy 
+contains sodium  for information on sodium. </p>
+<p>What Wegovy looks like and contents of the pack 
+Wegovy is a clear and colourless solution for injection in a pre-filled disposable pen.  </p>
+<p>Each pen contains one dose only. </p>
+<p>Pack size of 4 pre-filled pens. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Novo Nordisk A/S 
+Novo All<br />
+DK-2880 Bagsv rd 
+Denmark </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

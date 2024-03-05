@@ -4,7 +4,7 @@ Instance: composition-en-af957cdad64de8277859b4d268fc6099
 InstanceOf: CompositionUvEpi
 Title: "Composition for extavia Package Leaflet"
 Description:  "Composition for extavia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Annex – self-injection procedure </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Annex   self-injection procedure </p>         </div>"""   
 
 
 
@@ -78,7 +78,7 @@ Multiple sclerosis (MS) is a long-term condition that affects the central nervou
 particularly the functioning of the brain and spinal cord. In MS, inflammation destroys the protective 
 sheath (called myelin) around the nerves of the CNS and stops the nerves from working properly. This 
 is called demyelination. </p>
-<p>The exact cause of MS is unknown. An abnormal response by the body’s immune system is thought to 
+<p>The exact cause of MS is unknown. An abnormal response by the body s immune system is thought to 
 play an important part in the process which damages the CNS. </p>
 <p>The damage to the CNS can occur within an MS attack (relapse). It can cause temporary disability, 
 such as difficulty walking. Symptoms may disappear completely or partly. </p>
@@ -97,16 +97,13 @@ MS. With this, people find themselves becoming increasingly impaired, whether or
 relapses. Extavia can reduce the number and severity of the attacks, and slow the progression of 
 disability. </p>
 <p>What Extavia is used for 
-Extavia is for use in patients<br />
-► 
-who have experienced for the first time symptoms which indicate a high risk of developing 
+Extavia is for use in patients  </p>
+<p>who have experienced for the first time symptoms which indicate a high risk of developing 
 multiple sclerosis. Your doctor will rule out any other reasons which could explain these 
-symptoms before you are treated. 
-► 
-who suffer from relapsing-remitting multiple sclerosis, with at least two relapses within 
-the last two years. 
-► 
-who suffer from secondary progressive multiple sclerosis with active disease shown by 
+symptoms before you are treated. </p>
+<p>who suffer from relapsing-remitting multiple sclerosis, with at least two relapses within 
+the last two years. </p>
+<p>who suffer from secondary progressive multiple sclerosis with active disease shown by 
 relapses. </p>         </div>"""   
           
 
@@ -119,14 +116,13 @@ relapses. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Extavia 
 - if you are allergic to natural or recombinant interferon beta, human albumin or any of the other 
 ingredients of this medicine (listed in section 6). 
-- if you currently suffer from severe depression and/or suicidal thoughts (see “Warnings and 
-precautions” and section 4, “Possible side effects”). 
-- if you have a severe liver disease (see “Warnings and precautions”, “Other medicines and 
-Extavia” and section 4, “Possible side effects”). </p>
-<p>► 
-Tell your doctor, if any of the above applies to you. </p>
+- if you currently suffer from severe depression and/or suicidal thoughts (see  Warnings and 
+precautions  and section 4,  Possible side effects ). 
+- if you have a severe liver disease (see  Warnings and precautions ,  Other medicines and 
+Extavia  and section 4,  Possible side effects ). </p>
+<p>Tell your doctor, if any of the above applies to you. </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before using Extavia: </p>
+<p>Talk to your doctor before using Extavia:</p>
 <ul>
 <li>
 <p>If you have monoclonal gammopathy. This is a disorder of the immune system where an 
@@ -137,12 +133,12 @@ lead to shock (collapse) and even be fatal. </p>
 <li>
 <p>If you have had depression or are depressed or previously had thoughts of suicide. Your 
 doctor will closely monitor you during treatment. If your depression and/or suicidal thoughts are 
-severe, you will not be prescribed Extavia (see also “Do not use Extavia”). </p>
+severe, you will not be prescribed Extavia (see also  Do not use Extavia ). </p>
 </li>
 <li>
 <p>If you have ever had seizures or if you are taking medicines to treat epilepsy (anti-
-epileptics), you doctor will monitor your treatment carefully (see also “Other medicines and 
-Extavia” and section 4, “Possible side effects”). </p>
+epileptics), you doctor will monitor your treatment carefully (see also  Other medicines and 
+Extavia  and section 4,  Possible side effects ). </p>
 </li>
 <li>
 <p>If you have severe kidney problems, your doctor may monitor your kidney function during 
@@ -154,7 +150,7 @@ contains a derivative of natural rubber latex. Therefore, the tip cap may contai
 latex. </p>
 </li>
 </ul>
-<p>Your doctor also needs to know the following whilst you are using Extavia: </p>
+<p>Your doctor also needs to know the following whilst you are using Extavia:</p>
 <ul>
 <li>
 <p>If you experience symptoms such as itching all over your body, swelling of your face 
@@ -166,7 +162,7 @@ allergic reaction, which may become life threatening. </p>
 you develop thoughts of suicide. If you become depressed while you are on Extavia, you may 
 need special treatment and your doctor will closely monitor you and may also consider stopping 
 your treatment. If you suffer from severe depression and/or suicidal thoughts, you will not be 
-treated with Extavia (see also “Do not use Extavia”). </p>
+treated with Extavia (see also  Do not use Extavia ). </p>
 </li>
 <li>
 <p>If you notice any unusual bruising, excessive bleeding after injury or if you seem to be 
@@ -196,9 +192,8 @@ reported with Extavia use. This is often associated with an increase in certain 
 (triglycerides). </p>
 </li>
 </ul>
-<p>► 
-Stop using Extavia and tell your doctor immediately if any of these happens to you. </p>
-<p>Other things to consider when using Extavia: </p>
+<p>Stop using Extavia and tell your doctor immediately if any of these happens to you. </p>
+<p>Other things to consider when using Extavia:</p>
 <ul>
 <li>
 <p>You will need blood tests to determine your blood cell count, blood chemistry and your liver 
@@ -254,22 +249,17 @@ Injection site reactions usually become less frequent over time. </p>
 <p>Injection site skin and tissue breakdown can result in scars forming. If this is severe a doctor may have 
 to remove foreign matter and dead tissue (debridement) and, less often, skin grafting is required and 
 healing may take up to 6 months. </p>
-<p>To reduce the risk of getting injection site reactions, such as an infection or necrosis, you must: 
-− 
-use a sterile (aseptic) injection technique, 
-− 
-rotate the injection sites with each injection (see Annex Self-Injection procedure). </p>
+<p>To reduce the risk of getting injection site reactions, such as an infection or necrosis, you must: </p>
+<p>use a sterile (aseptic) injection technique, </p>
+<p>rotate the injection sites with each injection (see Annex Self-Injection procedure). </p>
 <p>Injection site reactions may occur less frequently if you use an auto-injector device and by rotating 
 injection sites. Your doctor or nurse can tell you more about this. </p>
 <p>If you experience any break in the skin, associated with swelling or fluid leaking out from the 
 injection site: </p>
-<p>► 
-Stop injecting Extavia and talk to your doctor. </p>
-<p>► 
-If you have only one sore injection site (lesion) and the tissue damage (necrosis) is not too 
+<p>Stop injecting Extavia and talk to your doctor. </p>
+<p>If you have only one sore injection site (lesion) and the tissue damage (necrosis) is not too 
 extensive you may continue using Extavia. </p>
-<p>► 
-If you have more than one sore injection sites (multiple lesions) you must stop using Extavia 
+<p>If you have more than one sore injection sites (multiple lesions) you must stop using Extavia 
 until your skin has healed. </p>
 <p>Your doctor will regularly check the way you inject yourself, particularly if you have experienced 
 injection site reactions. </p>
@@ -285,10 +275,12 @@ medicines or is affected by them. </p>
 <p>Using Extavia with other medicines that modify the immune system response is not recommended, 
 except anti-inflammatory medicines called corticosteroids or the adrenocorticotropic hormone 
 (ACTH). </p>
-<p>Extavia should be used with caution with: 
-- medicines which need a certain liver enzyme system (known as cytochrome P450 system) for 
-their removal from the body, for example medicines used to treat epilepsy (such as phenytoin). 
-- medicines which affect the production of blood cells. </p>
+<p>Extavia should be used with caution with:</p>
+<ul>
+<li>medicines which need a certain liver enzyme system (known as cytochrome P450 system) for 
+their removal from the body, for example medicines used to treat epilepsy (such as phenytoin). </li>
+<li>medicines which affect the production of blood cells. </li>
+</ul>
 <p>Extavia with food and drink 
 Extavia is injected under the skin so any food or drink you consume is not thought to have any effect 
 on Extavia. </p>
@@ -298,7 +290,7 @@ doctor or pharmacist for advice before taking this medicine. </p>
 <p>No harmful effects on the breastfed newborn/infant are anticipated. Extavia can be used during 
 breast-feeding. </p>
 <p>Driving and using machines 
-Extavia may cause side effects in the central nervous system (see section 4 “Possible side effects”). If 
+Extavia may cause side effects in the central nervous system (see section 4  Possible side effects ). If 
 you are especially sensitive, this might influence your ability to drive or use machines. </p>
 <p>Extavia contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per ml, i.e. essentially 'sodium-
@@ -314,7 +306,7 @@ treatment of multiple sclerosis. </p>
 <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
 you are not sure. </p>
 <p>The recommended dose is every other day (once every two days), 1.0 ml of the prepared Extavia 
-solution (see Annex “Self-injection procedure” in the second part of this leaflet) injected under the 
+solution (see Annex  Self-injection procedure  in the second part of this leaflet) injected under the 
 skin (subcutaneously). This equals 250 microgram (8.0 million IU) interferon beta-1b. </p>
 <p>In general, treatment should be started at a low dose of 0.25 ml (62.5 microgram). Your doses will 
 then be increased gradually to the full dose of 1.0 ml (250 microgram). 
@@ -327,16 +319,15 @@ of liquid from the pre-filled solvent syringe. This will either be done by your 
 yourself after you have been carefully trained. </p>
 <p>Detailed instructions for self-injection of Extavia under the skin are provided in the Annex at the 
 back of this leaflet. These instructions also tell you how to prepare the Extavia solution for injection. </p>
-<p>The injection site must be changed regularly. See section 2 “Warnings and precautions” and follow 
-the instructions under “Rotating injection sites” in the Annex at the back of this leaflet. </p>
+<p>The injection site must be changed regularly. See section 2  Warnings and precautions  and follow 
+the instructions under  Rotating injection sites  in the Annex at the back of this leaflet. </p>
 <p>Duration of treatment 
 At present it is not known how long treatment with Extavia should last. The length of treatment will 
 be decided by your doctor together with you. </p>
 <p>If you use more Extavia than you should 
 Giving many times the dose of Extavia recommended for the treatment of multiple sclerosis has not 
 led to life-threatening situations. </p>
-<p>► 
-Talk to your doctor if you inject too much Extavia or injected too often. </p>
+<p>Talk to your doctor if you inject too much Extavia or injected too often. </p>
 <p>If you forget to use Extavia 
 If you have forgotten to give yourself an injection at the right time do it as soon as you remember and 
 then follow on with the next one 48 hours later. </p>
@@ -344,8 +335,7 @@ then follow on with the next one 48 hours later. </p>
 <p>If you stop using Extavia 
 Talk to your doctor if you stop or wish to stop treatment. Stopping Extavia is not known to cause acute 
 withdrawal symptoms. </p>
-<p>► 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or 
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or 
 nurse. </p>         </div>"""         
 
         
@@ -357,8 +347,7 @@ nurse. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Extavia may cause serious side effects. If any of the side effects get serious, or if you notice any side 
 effects not listed in this leaflet, please tell your doctor, pharmacist or nurse. </p>
-<p>► 
-Tell your doctor immediately and stop using Extavia: </p>
+<p>Tell your doctor immediately and stop using Extavia:</p>
 <ul>
 <li>
 <p>if you experience symptoms such as itching all over your body, swelling of your face and/or 
@@ -386,8 +375,7 @@ shortness of breath. </p>
 fever. </p>
 </li>
 </ul>
-<p>► 
-Tell your doctor immediately: </p>
+<p>Tell your doctor immediately:</p>
 <ul>
 <li>if you get some or all of these symptoms: foamy urine, fatigue, swelling, particularly and the 
 ankles and eyelids, and weight gain, as they may be signs of a possible kidney problem. </li>
@@ -395,22 +383,19 @@ ankles and eyelids, and weight gain, as they may be signs of a possible kidney p
 <p>At the beginning of treatment side effects are common but in general they decrease with further 
 treatment. </p>
 <p>The most common side effects are: </p>
-<p>► 
-Flu-like symptoms such as fever, chills, painful joints, malaise, sweating, headache, or 
+<p>Flu-like symptoms such as fever, chills, painful joints, malaise, sweating, headache, or 
 muscular pain. These symptoms may be reduced by taking paracetamol or non-steroidal anti-
 inflammatory medicines such as ibuprofen. </p>
-<p>► 
-Injection site reactions. Symptoms can be redness, swelling, discolouration, inflammation, 
-infection, pain, hypersensitivity, tissue damage (necrosis). See “Warnings and precautions” in 
+<p>Injection site reactions. Symptoms can be redness, swelling, discolouration, inflammation, 
+infection, pain, hypersensitivity, tissue damage (necrosis). See  Warnings and precautions  in 
 section 2 for more information and what to do if you experience an injection site reaction. These 
 may be reduced by the use of an auto-injector device and by rotating injection sites. Talk to 
 your doctor, pharmacist or nurse for further information. </p>
 <p>To reduce the risk of side effects at the start of treatment, your doctor should start you on a low dose 
-of Extavia and increase it gradually (see section 3, “How to use Extavia”). </p>
+of Extavia and increase it gradually (see section 3,  How to use Extavia ). </p>
 <p>The following side effects listing is based on reports from clinical trials with Extavia and from 
 side effects reported on the marketed product. </p>
-<p>► 
-Very common (may affect more than 1 in 10 people): </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
 <ul>
 <li>reduced number of white blood cells, </li>
 <li>headache, </li>
@@ -429,8 +414,7 @@ infection, allergic reactions (hypersensitivity)), </li>
 <li>flu-like symptoms, pain, fever, chills, accumulation of fluid in arm or leg (peripheral oedema), 
 lack/loss of strength (asthenia). </li>
 </ul>
-<p>► 
-Common (may affect up to 1 in 10 people): </p>
+<p>Common (may affect up to 1 in 10 people):</p>
 <ul>
 <li>swollen lymph glands (lymphadenopathy), </li>
 <li>the number of red cells in the blood may fall (anaemia), </li>
@@ -450,17 +434,16 @@ up in blood tests), </li>
 <li>menstrual disorders (menorrhagia), </li>
 <li>heavy uterine bleeding (metrorrhagia) especially between menstrual periods, </li>
 <li>impotence, </li>
-<li>skin breakdown and tissue damage (necrosis) at the injection site (see section 2 “Warnings and 
-precautions”), </li>
+<li>skin breakdown and tissue damage (necrosis) at the injection site (see section 2  Warnings and 
+precautions ), </li>
 <li>chest pain, </li>
 <li>malaise. </li>
 </ul>
-<p>► 
-Uncommon (may affect up to 1 in 100 people): </p>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
 <ul>
 <li>the number of platelets (which help the blood to clot) may fall (thrombocytopenia), </li>
 <li>a certain type of blood fats (triglycerides) may increase (will show up in blood tests), see 
-section 2 “Warnings and precautions”, </li>
+section 2  Warnings and precautions , </li>
 <li>suicide attempt, </li>
 <li>mood swings, </li>
 <li>convulsion, </li>
@@ -470,8 +453,7 @@ up in blood tests), </li>
 <li>skin discolouration, </li>
 <li>kidney problems, including scarring (glomerulosclerosis) that may reduce your kidney function. </li>
 </ul>
-<p>► 
-Rare (may affect up to 1 in 1,000 people): </p>
+<p>Rare (may affect up to 1 in 1,000 people):</p>
 <ul>
 <li>blood clots in the small blood vessels that can affect your kidneys (thrombotic 
 thrombocytopenic purpura or haemolytic uraemic syndrome). Symptoms may include increased 
@@ -483,11 +465,10 @@ find changes in your blood and the function of your kidneys, </li>
 <li>severe loss of appetite leading to weight loss (anorexia), </li>
 <li>disease of the heart muscle (cardiomyopathy), </li>
 <li>sudden shortness of breath (bronchospasm), </li>
-<li>inflammation of the pancreas (pancreatitis), see section 2 “Warnings and precautions”, </li>
+<li>inflammation of the pancreas (pancreatitis), see section 2  Warnings and precautions , </li>
 <li>the liver does not work properly (hepatic injury including hepatitis, hepatic failure). </li>
 </ul>
-<p>► 
-Not known (frequency cannot be estimated from the available data) </p>
+<p>Not known (frequency cannot be estimated from the available data) </p>
 <ul>
 <li>breakdown of red blood cells (haemolytic anaemia), </li>
 <li>problems with your small blood vessels may develop when using medicines like Extavia 
@@ -522,9 +503,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the pack. The expiry date refers to the 
 last day of that month. </p>
-<p>Do not store above 25°C. Do not freeze. </p>
+<p>Do not store above 25 C. Do not freeze. </p>
 <p>After preparing the solution you should use it immediately. However, if you are not able to do so, it 
-will remain usable for a period of 3 hours, if kept in a refrigerator (2°C - 8°C). </p>
+will remain usable for a period of 3 hours, if kept in a refrigerator (2 C - 8 C). </p>
 <p>Do not use this medicine if you notice it contains particles or is discoloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -535,17 +516,13 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Extavia contains 
-− 
-The active substance is interferon beta-1b. Each vial contains 300 microgram (9.6 million IU) 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Extavia contains </p>
+<p>The active substance is interferon beta-1b. Each vial contains 300 microgram (9.6 million IU) 
 interferon beta-1b per vial. After reconstitution, each millilitre contains 250 microgram 
-(8.0 million IU) interferon beta-1b. 
-− 
-The other ingredients are 
-− 
-in the powder: mannitol and human albumin. 
-− 
-in the solvent: sodium chloride, water for injection. </p>
+(8.0 million IU) interferon beta-1b. </p>
+<p>The other ingredients are </p>
+<p>in the powder: mannitol and human albumin. </p>
+<p>in the solvent: sodium chloride, water for injection. </p>
 <p>The tip cap of the pre-filled syringe contains a derivative of natural rubber latex. Therefore, the tip cap 
 may contain natural rubber latex. </p>
 <p>What Extavia looks like and contents of the pack 
@@ -553,5 +530,112 @@ Extavia is a powder and solvent for solution for injection. </p>
 <p>The powder is white to off-white in colour. 
 The Extavia powder is provided in a 3-millilitre vial. 
 The solvent is a clear/colourless solution. 
-The solvent for Extavia is provided in a 2.25 ml pre-filled syringe and contains 1.2 ml sodium chloride </p>         </div>"""      
+The solvent for Extavia is provided in a 2.25 ml pre-filled syringe and contains 1.2 ml sodium chloride 
+5.4 mg/ml (0.54% w/v) solution for injection. </p>
+<p>Extavia is available in pack sizes of: </p>
+<p>5 vials of interferon beta-1b and 5 pre-filled syringes containing solvent. </p>
+<p>14 vials of interferon beta-1b and 14 pre-filled syringes containing solvent. </p>
+<p>15 vials of interferon beta-1b and 15 pre-filled syringes containing solvent. </p>
+<p>14 vials of interferon beta-1b and 15 pre-filled syringes containing solvent. </p>
+<p>3-month multipack containing 42 (3x14) vials of interferon beta-1b and 42 (3x14) pre-filled 
+syringes containing solvent. </p>
+<p>3-month multipack containing 45 (3x15) vials of interferon beta-1b and 45 (3x15) pre-filled 
+syringes containing solvent. </p>
+<p>3-month multipack containing 42 (3x14) vials of interferon beta-1b and 45 (3x15) pre-filled 
+syringes containing solvent. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17<br />
+ sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7 
+Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-7829b4b361ffed64965739b1e7cc1436
 InstanceOf: CompositionUvEpi
 Title: "Composition for pioglitazone Package Leaflet"
 Description:  "Composition for pioglitazone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Pioglitazone Actavis 
 4. Possible side effects 
 5. How to store Pioglitazone Actavis 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -96,22 +95,24 @@ nausea or vomiting).
 - if you have or have ever had bladder cancer. 
 - if you have blood in your urine that your doctor has not checked. </p>
 <p>Warnings and precautions 
-Talk to your doctor before you start to take this medicine: 
-- if you retain water (fluid retention) or have heart failure problems and in particular if you are 
+Talk to your doctor before you start to take this medicine:</p>
+<ul>
+<li>if you retain water (fluid retention) or have heart failure problems and in particular if you are 
 over 75 years old. If you take anti-inflammatory medicines which can also cause fluid retention 
-and swelling, you must also tell your doctor. 
-- if you have a special type of diabetic eye disease called macular oedema (swelling of the back 
-of the eye). 
-- if you have cysts on your ovaries (polycystic ovary syndrome). There may be an increased 
+and swelling, you must also tell your doctor. </li>
+<li>if you have a special type of diabetic eye disease called macular oedema (swelling of the back 
+of the eye). </li>
+<li>if you have cysts on your ovaries (polycystic ovary syndrome). There may be an increased 
 possibility of becoming pregnant because you may ovulate again when you take Pioglitazone 
 Actavis. If this applies to you, use appropriate contraception to avoid the possibility of an 
-unplanned pregnancy. 
-- if you have a problem with your liver or heart. Before you start taking Pioglitazone Actavis you 
+unplanned pregnancy. </li>
+<li>if you have a problem with your liver or heart. Before you start taking Pioglitazone Actavis you 
 will have a blood sample taken to check your liver function. This check may be repeated at 
 intervals. Some patients with long-standing type 2 diabetes mellitus and heart disease or 
 previous stroke who were treated with pioglitazone and insulin experienced the development of 
 heart failure. Inform your doctor as soon as possible if you experience signs of heart failure such 
-as unusual shortness of breath or rapid increase in weight or localised swelling (oedema). </p>
+as unusual shortness of breath or rapid increase in weight or localised swelling (oedema). </li>
+</ul>
 <p>If you take Pioglitazone Actavis with other medicines for diabetes, it is more likely that your blood 
 sugar could fall below the normal level (hypoglycaemia). </p>
 <p>You may also experience a reduction in blood count (anaemia). </p>
@@ -124,11 +125,13 @@ Use in children under 18 years is not recommended. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>You can usually continue to take other medicines whilst you are being treated with Pioglitazone 
-Actavis. However, certain medicines are especially likely to affect the amount of sugar in your blood: 
-- gemfibrozil (used to lower cholesterol) 
-- rifampicin (used to treat tuberculosis and other infections) 
+Actavis. However, certain medicines are especially likely to affect the amount of sugar in your blood:</p>
+<ul>
+<li>gemfibrozil (used to lower cholesterol) </li>
+<li>rifampicin (used to treat tuberculosis and other infections) 
 Tell your doctor or pharmacist if you are taking any of these. Your blood sugar will be checked, and 
-your dose of Pioglitazone Actavis may need to be changed. </p>
+your dose of Pioglitazone Actavis may need to be changed. </li>
+</ul>
 <p>Pioglitazone Actavis with food and drink 
 You may take your tablets with or without food. You should swallow the tablets with a glass of water. </p>
 <p>Pregnancy and breastfeeding 
@@ -252,7 +255,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
 <p>Do not use Pioglitazone Actavis after the expiry date which is stated on the carton and the blister pack 
-after the word “EXP”. The expiry date refers to the last day of that month. </p>
+after the word  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage precautions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -273,11 +276,11 @@ throw away medicines you no longer use. These measures will help to protect the 
 magnesium stearate. </p>
 <p>What Pioglitazone Actavis looks like and contents of the pack 
 Pioglitazone Actavis 15 mg tablets are white, round, flat, bevelled, 5.5 mm in diameter and engraved 
-with ‘TZ15’ on one side. 
+with  TZ15  on one side. 
 Pioglitazone Actavis 30 mg tablets are white, round, flat, bevelled, 7 mm in diameter and engraved 
-with ‘TZ30’ on one side. 
+with  TZ30  on one side. 
 Pioglitazone Actavis 45 mg tablets are white, round, flat, bevelled, 8 mm in diameter and engraved 
-with ‘TZ45’ on one side. </p>
+with  TZ45  on one side. </p>
 <p>The tablets are supplied in aluminium blister packs of 14, 28, 30, 50, 56, 84, 90, 98 and 100 tablets.<br />
 The packs with 14, 28, 56, 84 and 98 tablets contain blisters with abbreviations for days of the week 
 printed on the blister (Mon, Tue, Wed, Thu, Fri, Sat, Sun). </p>
@@ -286,7 +289,7 @@ printed on the blister (Mon, Tue, Wed, Thu, Fri, Sat, Sun). </p>
 <p>Marketing Authorisation Holder 
 Actavis Group PTC ehf.<br />
 Dalshraun 1 
-220 Hafnarfjörður 
+220 Hafnarfj r ur 
 Iceland </p>
 <p>Manufacturer 
 Actavis Ltd. 
@@ -294,25 +297,23 @@ BLB 015-016 Bulebel Industrial Estate
 Zejtun ZTN 3Malta </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Actavis Group PTC ehf. 
 IJsland/Islande/Island 
-Tél/Tel: +354 5503 
+T l/Tel: +354 5503 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 Actavis Group PTC ehf. 
 Islande/Island 
-Tél/Tel: +354 5503 
-Česká republika 
+T l/Tel: +354 5503 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -334,14 +335,13 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Actavis Group PTC ehf. 
 Islandia 
 Tel: +354 5503 
@@ -351,15 +351,15 @@ Tel: +48 223459
 France 
 Actavis Group PTC ehf. 
 Islande 
-Tél: +354 5503 
+T l: +354 5503 
 Portugal 
 Actavis Group PTC ehf. 
-Islândia 
+Isl ndia 
 Tel: +354 5503 
 Hrvatska 
 Pliva Hrvatska d.o.o.<br />
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -368,10 +368,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Actavis Group PTC ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -380,16 +380,14 @@ Islanda
 Tel: +354 5503 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

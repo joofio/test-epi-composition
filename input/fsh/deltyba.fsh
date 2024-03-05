@@ -4,7 +4,7 @@ Instance: composition-en-247338c6ac4af4d25ce31dba51e05ac4
 InstanceOf: CompositionUvEpi
 Title: "Composition for deltyba Package Leaflet"
 Description:  "Composition for deltyba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,15 +81,17 @@ Deltyba is used in adults, adolescents, children and infants who are weighing at
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take deltyba"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Deltyba: 
-- if you are allergic to delamanid or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you have very low levels of albumin, in the blood. 
-- if you are taking medicines that strongly increase the activity of a certain liver enzyme called 
-‘CYP450 3A4’ (e.g. carbamazepine [a medicine used to treat epilepsy and prevent seizures]). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Deltyba:</p>
+<ul>
+<li>if you are allergic to delamanid or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if you have very low levels of albumin, in the blood. </li>
+<li>if you are taking medicines that strongly increase the activity of a certain liver enzyme called 
+ CYP450 3A4  (e.g. carbamazepine [a medicine used to treat epilepsy and prevent seizures]). </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking Deltyba. 
-Before you start taking Deltyba, and during the treatment, your doctor may check your heart’s 
+Before you start taking Deltyba, and during the treatment, your doctor may check your heart s 
 electrical activity using an ECG (electrocardiogram) machine (electrical recording of the heart). Your 
 doctor may also perform a blood test to check the concentration of some minerals and proteins which 
 are important for the function of your heart. </p>
@@ -107,27 +109,29 @@ effects). </p>
 Deltyba is not suitable for children with a body weight of less than 10 kg because there are not enough 
 data available in those patients to determinate the correct doses. </p>
 <p>Other medicines and Deltyba 
-Tell your doctor: 
-- if you are taking, have recently taken or might take any other medicines. 
-- if you are taking medicines to treat an abnormal heart rhythm (e.g. amiodarone, disopyramide, 
-dofetilide, ibutilide, procainamide, quinidine, hydroquinidine, sotalol). 
-- if you are taking medicines to treat psychoses (e.g. phenothiazines, sertindole, sultopride, 
-chlorpromazine, haloperidol, mesoridazine, pimozide, or thioridazine) or depression. 
-- if you are taking certain antimicrobial medicines (e.g. erythromycin, clarithromycin, 
-moxifloxacin, sparfloxacin, bedaquiline, or pentamidine). 
-- if you are taking triazole antifungal medicines (e.g. fluconazole, itraconazole, voriconazole). 
-- if you are taking certain medicines to treat allergic reactions (e.g. terfenadine, astemizole, 
-mizolastine). 
-- if you are taking certain medicines to treat malaria (e.g. halofantrine, quinine, chloroquine, 
-artesunate/amodiaquine, dihydroartemisinin/piperaquine). 
-- if you are taking any of the following: cisapride (used to treat stomach disorders), droperidol 
+Tell your doctor:</p>
+<ul>
+<li>if you are taking, have recently taken or might take any other medicines. </li>
+<li>if you are taking medicines to treat an abnormal heart rhythm (e.g. amiodarone, disopyramide, 
+dofetilide, ibutilide, procainamide, quinidine, hydroquinidine, sotalol). </li>
+<li>if you are taking medicines to treat psychoses (e.g. phenothiazines, sertindole, sultopride, 
+chlorpromazine, haloperidol, mesoridazine, pimozide, or thioridazine) or depression. </li>
+<li>if you are taking certain antimicrobial medicines (e.g. erythromycin, clarithromycin, 
+moxifloxacin, sparfloxacin, bedaquiline, or pentamidine). </li>
+<li>if you are taking triazole antifungal medicines (e.g. fluconazole, itraconazole, voriconazole). </li>
+<li>if you are taking certain medicines to treat allergic reactions (e.g. terfenadine, astemizole, 
+mizolastine). </li>
+<li>if you are taking certain medicines to treat malaria (e.g. halofantrine, quinine, chloroquine, 
+artesunate/amodiaquine, dihydroartemisinin/piperaquine). </li>
+<li>if you are taking any of the following: cisapride (used to treat stomach disorders), droperidol 
 (used against vomiting and migraine), domperidone (used against nausea and vomiting), 
 diphemanil (used to treat stomach disorders or excessive sweating), probucol (lowers the level 
 of cholesterol in the bloodstream), levomethadyl or methadone (used for the treatment of opiate 
 addiction), vinca alkaloids (anti-cancer medicines), or arsenic trioxide (used to treat certain 
-types of leukaemia). 
-- if you are taking HIV-medicines containing lopinavir/ritonavir, or saquinavir. 
-You may be more at risk for dangerous changes of the heart rhythm. </p>
+types of leukaemia). </li>
+<li>if you are taking HIV-medicines containing lopinavir/ritonavir, or saquinavir. 
+You may be more at risk for dangerous changes of the heart rhythm. </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 Deltyba may cause harm to an unborn baby. It is not usually recommended for use during pregnancy. 
 It is important to tell your doctor if you are pregnant, think you may be pregnant, or are planning to get 
@@ -229,7 +233,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store deltyba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or blister after ‘EXP:’. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton or blister after  EXP: . The 
 expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -243,7 +247,7 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Deltyba 50 mg film-coated tablets contain 
 - One film-coated tablet contains 50 mg of the active substance delamanid. 
-- The other ingredients are hypromellose phthalate, povidone, all-rac-α-tocopherol, 
+- The other ingredients are hypromellose phthalate, povidone, all-rac- -tocopherol, 
 microcrystalline cellulose, sodium starch glycolate, carmellose calcium, colloidal hydrated 
 silica, magnesium stearate, lactose monohydrate, hypromellose, macrogol 8000, titanium 
 dioxide, talc, iron oxide (E172). </p>
@@ -253,24 +257,24 @@ Deltyba 50 mg film-coated tablets are round, and yellow. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Marketing Authorisation Holder: 
 Otsuka Novel Products GmbH<br />
-Erika-Mann-Straße 80636 München 
+Erika-Mann-Stra e 80636 M nchen 
 Germany 
 Tel: +49 (0)89 206020<br />
 Manufacturer: 
 R-Pharm Germany GmbH 
-Heinrich-Mack-Straße 89257 Illertissen 
+Heinrich-Mack-Stra e 89257 Illertissen 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>BE 
 Otsuka Novel Products GmbH 
-Tél/Tel: +49 (0)89 206020 LT 
+T l/Tel: +49 (0)89 206020 LT 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 BG 
 Otsuka Novel Products GmbH 
-Teл.: +49 (0)89 206020 LU 
+Te .: +49 (0)89 206020 LU 
 Otsuka Novel Products GmbH 
-Tél/Tel: +49 (0)89 206020 CZ 
+T l/Tel: +49 (0)89 206020 CZ 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 HU 
 Otsuka Novel Products GmbH 
@@ -288,7 +292,7 @@ Tel: +49 (0)89 206020 NO
 Otsuka Novel Products GmbH 
 Tlf: +49 (0)89 206020 EL 
 Otsuka Novel Products GmbH 
-Τηλ: +49 (0)89 206020 AT 
+ : +49 (0)89 206020 AT 
 Otsuka Novel Products GmbH<br />
 Tel: +49 (0)89 206020 ES 
 Otsuka Pharmaceutical S.A. 
@@ -296,20 +300,20 @@ Tel: +34 93 208 10 PL
 Otsuka Novel Products GmbH 
 Tel.: +49 (0)89 206020 FR 
 Otsuka Pharmaceutical France SAS 
-Tél. : +33 (0)1 47 08 00 00<br />
+T l. : +33 (0)1 47 08 00 00<br />
 PT 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 HR 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 RO 
-Ewopharma România SRL 
+Ewopharma Rom nia SRL 
 Tel.: +40 (0)21 260 13 44; +40 (0)21 260 14 IE 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 SI 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 IS 
 Otsuka Novel Products GmbH 
-Sími: +49 (0)89 206020 SK 
+S mi: +49 (0)89 206020 SK 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 IT 
 Otsuka Pharmaceutical Italy S.r.l. 
@@ -317,15 +321,15 @@ Tel: +39 (0)2 00632FI
 Otsuka Novel Products GmbH 
 Puh/Tel: +49 (0)89 206020 CY 
 Otsuka Novel Products GmbH 
-Τηλ: +49 (0)89 206020 SE 
+ : +49 (0)89 206020 SE 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 LV 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 UK (XI) 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020  </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

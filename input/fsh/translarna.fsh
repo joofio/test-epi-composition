@@ -4,7 +4,7 @@ Instance: composition-en-9c1ad55578ad6de333b716cfcc4a7d73
 InstanceOf: CompositionUvEpi
 Title: "Composition for translarna Package Leaflet"
 Description:  "Composition for translarna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -411,30 +411,36 @@ Do not stop taking Translarna without talking to your doctor. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. You may 
 have one or more of the following side effects after taking Translarna: </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- Vomiting </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- Decreased appetite 
-- High blood triglyceride levels 
-- Headache 
-- Feeling sick 
-- Weight loss 
-- High blood pressure 
-- Cough 
-- Nosebleed 
-- Constipation 
-- Wind 
-- Stomach discomfort 
-- Stomach pain 
-- Rash 
-- Arm or leg pain 
-- Chest pain 
-- Involuntary urination 
-- Blood in urine<br />
-- Fever </p>
-<p>Frequency not known (frequency cannot be estimated from the available data): 
-- Increases in blood lipids 
-- Increases in test for kidney function </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Vomiting </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Decreased appetite </li>
+<li>High blood triglyceride levels </li>
+<li>Headache </li>
+<li>Feeling sick </li>
+<li>Weight loss </li>
+<li>High blood pressure </li>
+<li>Cough </li>
+<li>Nosebleed </li>
+<li>Constipation </li>
+<li>Wind </li>
+<li>Stomach discomfort </li>
+<li>Stomach pain </li>
+<li>Rash </li>
+<li>Arm or leg pain </li>
+<li>Chest pain </li>
+<li>Involuntary urination </li>
+<li>Blood in urine  </li>
+<li>Fever </li>
+</ul>
+<p>Frequency not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Increases in blood lipids </li>
+<li>Increases in test for kidney function </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -447,12 +453,12 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store translarna"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date, which is stated on the carton and sachet after ‘EXP’. 
+<p>Do not use this medicine after the expiry date, which is stated on the carton and sachet after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Take each prepared dose immediately after preparation. Discard the prepared dose if not taken within 
-24 hours of preparation if kept refrigerated (2 – 8 °C), or within 3 hours at room temperature 
-(15 - 30 °C). </p>
+24 hours of preparation if kept refrigerated (2   8  C), or within 3 hours at room temperature 
+(15 - 30  C). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -503,7 +509,7 @@ FR
 PTC Therapeutics France 
 Tel: +33(0)1 76 70 10 medinfo@ptcbio.com </p>
 <p>This leaflet was last revised in </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

@@ -4,7 +4,7 @@ Instance: composition-en-73960cef65d43cea9c4f68f4818ce9c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zutectra Package Leaflet"
 Description:  "Composition for zutectra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -62,8 +62,7 @@ Usage: #example
 3. How to use Zutectra 
 4. Possible side effects 
 5. How to store Zutectra 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -168,9 +167,9 @@ up to 1,500 IU) weekly or fortnightly. The dose will depend on your condition. Y
 regularly check your condition and tell you how much and how often you need to use Zutectra. </p>
 <p>Injecting by yourself or by caregiver 
 You can inject Zutectra yourself without the help of your doctor, if they have trained you to do this. If 
-you are administering Zutectra yourself, please read instructions in the section “How to inject 
-Zutectra by yourself or by caregiver” carefully. </p>
-<p>Zutectra must be brought to room temperature (approx. 23 °C-27 °C) before use. </p>
+you are administering Zutectra yourself, please read instructions in the section  How to inject 
+Zutectra by yourself or by caregiver  carefully. </p>
+<p>Zutectra must be brought to room temperature (approx. 23  C-27  C) before use. </p>
 <p>If you use more Zutectra than you should 
 Consequences of an overdose are not known. However, if you have used more than the prescribed 
 dose of Zutectra, contact your doctor, healthcare professional or pharmacist straight away for advice.  </p>
@@ -189,45 +188,55 @@ hepatitis B re-infection. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Most side effects observed with Zutectra were mild to moderate in nature. In very rare cases human 
 normal immunoglobulins may cause a serious allergic reaction. </p>
-<p>If you notice any of the following effects stop the injection and tell your doctor immediately: 
-- rash, 
-- itching, 
-- wheezing,<br />
-- difficulty in breathing, 
-- swelling of the eyelids, face, lips, throat or tongue, 
-- low blood pressure, fast pulse </p>
+<p>If you notice any of the following effects stop the injection and tell your doctor immediately:</p>
+<ul>
+<li>rash, </li>
+<li>itching, </li>
+<li>wheezing,  </li>
+<li>difficulty in breathing, </li>
+<li>swelling of the eyelids, face, lips, throat or tongue, </li>
+<li>low blood pressure, fast pulse </li>
+</ul>
 <p>This can be an allergic reaction or a serious allergic reaction (anaphylactic shock). </p>
 <p>In case of any adverse event after the injection speak to your doctor immediately. </p>
 <p>The following side effects have been reported with Zutectra: </p>
-<p>Common (may affect up to 1 in 10 people): 
-- injection site reactions: pain, hives (urticaria) at injection site, haematoma (a collection of 
-blood in tissue under the skin), reddening of the skin (erythema). </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- headache<br />
-- upper abdominal pain (from your chest to the belly button) </p>
-<p>Furthermore, the following reactions have been reported once only: 
-- tiredness (fatigue) 
-- high blood pressure (hypertension) 
-- inflammation of the nose and throat (nasopharyngitis) 
-- muscle spasm 
-- allergic reactions (hypersensitivity) 
-- abnormal heartbeat (palpitations), cardiac discomfort 
-- itching (pruritus), rash 
-- pain in the mouth and throat </p>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>injection site reactions: pain, hives (urticaria) at injection site, haematoma (a collection of 
+blood in tissue under the skin), reddening of the skin (erythema). </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>headache  </li>
+<li>upper abdominal pain (from your chest to the belly button) </li>
+</ul>
+<p>Furthermore, the following reactions have been reported once only:</p>
+<ul>
+<li>tiredness (fatigue) </li>
+<li>high blood pressure (hypertension) </li>
+<li>inflammation of the nose and throat (nasopharyngitis) </li>
+<li>muscle spasm </li>
+<li>allergic reactions (hypersensitivity) </li>
+<li>abnormal heartbeat (palpitations), cardiac discomfort </li>
+<li>itching (pruritus), rash </li>
+<li>pain in the mouth and throat </li>
+</ul>
 <p>With other human immunoglobulin preparations, the following additional symptoms have been 
-reported:<br />
-- chills 
-- headache 
-- dizziness 
-- fever 
-- vomiting 
-- mild allergic reactions 
-- nausea (urge to vomit) 
-- joint pain 
-- low blood pressure 
-- moderate low back pain 
-- injection site reactions: swelling, soreness, redness, hardening of the skin, local heat, itching, 
-bruising and rash. </p>
+reported:</p>
+<ul>
+<li>chills </li>
+<li>headache </li>
+<li>dizziness </li>
+<li>fever </li>
+<li>vomiting </li>
+<li>mild allergic reactions </li>
+<li>nausea (urge to vomit) </li>
+<li>joint pain </li>
+<li>low blood pressure </li>
+<li>moderate low back pain </li>
+<li>injection site reactions: swelling, soreness, redness, hardening of the skin, local heat, itching, 
+bruising and rash. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, healthcare professional or pharmacist. This includes 
 any possible side effects not listed in this leaflet. You can also report side effects directly via the 
@@ -242,7 +251,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton, the blister and the 
 pre-filled syringe label after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2 °C-8 °C). Do not freeze. Keep the pre-filled syringe in the outer 
+<p>Store and transport refrigerated (2  C-8  C). Do not freeze. Keep the pre-filled syringe in the outer 
 carton in order to protect from light. </p>
 <p>Once the protective cap has been removed from the pre-filled syringe, the solution should be 
 administered immediately. </p>
@@ -281,46 +290,43 @@ Tel.: + 49 6103 801-0
 Fax: + 49 6103 801-Email: mail@biotest.com </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien, Nederland 
+<p>Belgi /Belgique/Belgien, Nederland 
 Ireland 
 Twinpharma BV 
 Trasmolenlaan 5 
 NL-3447 GZ Woerden 
-Tél/Tel +31 348 71 24<br />
+T l/Tel +31 348 71 24<br />
 Aquilant Pharmaceuticals 
 21 Fonthill Business Park 
 Fonthill Road 
 Clondalkin 
-IRL-Dublin Tel: + 353 1 404 8 
-България 
-МЕДИС ФАРМА БЪЛГАРИЯ ЕООД 
-1700 София 
-Ул. Проф. Атанас Иширков 31, офис 6 
+IRL-Dublin Tel: + 353 1 404 8 </p>
+<p>1700 <br />
+ .  .     31,   6 
 T: +359 2 427 49<br />
 Italia 
 Grifols Italia S.p.A. 
 Via Torino, I-56010 Vicopisano - Pisa 
 Tel: +39 050 8755 
-Česká republika, Slovenská republika 
+ esk  republika, Slovensk  republika 
 Reg-Pharm spol.s.r.o. 
-Fialková CZ-10600 Praha Tel: + 420 2 7265 4 
-Κύπρος 
-ΑΚΗΣ ΠΑΝΑΓΙΩΤΟΥ &amp; ΥΙΟΣ ΛΤΔ 
-Γ. ΚΡΑΝΙΔΙΩΤΗ 
-Τ. Θ. 22578 1522 ΛΕΥΚΩΣΙΑ 
-Κ Υ Π Ρ Ο Σ 
-Τηλ: + 357 22 611<br />
-Danmark, Ísland, Norge, Suomi/Finland, 
+Fialkov  CZ-10600 Praha Tel: + 420 2 7265 4 </p>
+<pre><code>&amp;
+</code></pre>
+<p>. <br />
+ .  . 22578 1522   </p>
+<p>: + 357 22 611<br />
+Danmark,  sland, Norge, Suomi/Finland, 
 Sverige<br />
 Grifols Nordic AB 
 Tel: + 46 8 441 89 Email: infonordic@grifols.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Biotest Hungaria Kft. 
-Torbágy u. 15/A 
-H-2045 Törökbálint 
+Torb gy u. 15/A 
+H-2045 T r kb lint 
 Tel.: + 36 23 511<br />
-Deutschland, Eesti, Ελλάδα, Latvija, Lietuva, 
-Luxembourg/Luxemburg, Polska, România, 
+Deutschland, Eesti,  , Latvija, Lietuva, 
+Luxembourg/Luxemburg, Polska, Rom nia, 
 United Kingdom (Northern Ireland)<br />
 Biotest AG 
 Landsteinerstrasse 5 
@@ -331,10 +337,10 @@ Rodel Ltd
 55, Ravina 
 Triq ir-Russett 
 MT-Kappara SGN 4Tel: + 356 27 386 
-España 
+Espa a 
 Grifols Movaco, S.A. 
 Tel.: +34 93 571 02<br />
-Österreich 
+ sterreich 
 Biotest Austria GmbH 
 Einsiedlergasse A-1050 Wien 
 Tel: + 43 1 545 15 61-0 </p>
@@ -342,7 +348,7 @@ Tel: + 43 1 545 15 61-0 </p>
 Grifols France 
 24 Rue de Prony 
 F-75017 Paris<br />
-Tél: +33 (0) 1 53530870   </p>
+T l: +33 (0) 1 53530870   </p>
 <p>Portugal 
 Grifols Portugal, Lda. 
 Tel: +351 219 255<br />
@@ -352,8 +358,8 @@ Buzinska cesta 10010 Zagreb - Buzin
 T: +385 1 2303<br />
 Slovenija 
 MEDIS, d.o.o.<br />
-Brnčičeva 1,<br />
-SI-1231 Ljubljana-Črnuče,<br />
+Brn i eva 1,<br />
+SI-1231 Ljubljana- rnu e,<br />
 Tel: +386 1 589 69  </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

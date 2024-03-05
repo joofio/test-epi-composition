@@ -4,7 +4,7 @@ Instance: composition-en-2889785717c749fb4c4dfcfcfd9ca297
 InstanceOf: CompositionUvEpi
 Title: "Composition for advagraf Package Leaflet"
 Description:  "Composition for advagraf Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,16 +44,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>What Advagraf is and what it is used for 
-Advagraf contains the active substance tacrolimus. It is an immunosuppressant. Following your organ 
-transplant (liver, kidney), your body’s immune system will try to reject the new organ. Advagraf is 
-used to control your body’s immune response, enabling your body to accept the transplanted organ.  </li>
-</ol>
-<p>You may also be given Advagraf for an ongoing rejection of your transplanted liver, kidney, heart or 
-other organ when any previous treatment you were taking was unable to control this immune response 
-after your transplantation. </p>
-<p>Advagraf is used in adults. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
 
 
 
@@ -77,6 +68,21 @@ after your transplantation. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What advagraf is and what it is used for"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Advagraf contains the active substance tacrolimus. It is an immunosuppressant. Following your organ 
+transplant (liver, kidney), your body s immune system will try to reject the new organ. Advagraf is 
+used to control your body s immune response, enabling your body to accept the transplanted organ.  </p>
+<p>You may also be given Advagraf for an ongoing rejection of your transplanted liver, kidney, heart or 
+other organ when any previous treatment you were taking was unable to control this immune response 
+after your transplantation. </p>
+<p>Advagraf is used in adults. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take advagraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take advagraf"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Advagraf 
 - if you are allergic (hypersensitive) to tacrolimus or any of the other ingredients of Advagraf (see 
 section 6). 
@@ -87,14 +93,18 @@ Prograf and Advagraf both contain the active substance, tacrolimus. However, Adv
 daily, whereas Prograf is taken twice daily. This is because Advagraf capsules allow for a prolonged 
 release (more slow release over a longer period) of tacrolimus. Advagraf and Prograf are not 
 interchangeable. </p>
-<p>Talk to your doctor or pharmacist before taking Advagraf: 
-- if you are taking any medicines mentioned below under ‘Other medicines and Advagraf’.<br />
-- if you have or have had liver problems. 
-- if you have diarrhoea for more than one day. </p>
+<p>Talk to your doctor or pharmacist before taking Advagraf:</p>
 <ul>
-<li>if you feel strong abdominal pain accompanied or not with other symptoms, such as chills, 
-fever, nausea or vomiting. </li>
-<li>if you have an alteration of the electrical activity of your heart called “QT prolongation”.  </li>
+<li>if you are taking any medicines mentioned below under  Other medicines and Advagraf .  </li>
+<li>if you have or have had liver problems. </li>
+<li>
+<p>if you have diarrhoea for more than one day. </p>
+</li>
+<li>
+<p>if you feel strong abdominal pain accompanied or not with other symptoms, such as chills, 
+fever, nausea or vomiting. </p>
+</li>
+<li>if you have an alteration of the electrical activity of your heart called  QT prolongation .  </li>
 <li>if you have or have had damage to the smallest blood vessels, known as thrombotic 
 microangiopathy/thrombotic thrombocytopenic purpura/haemolytic uraemic syndrome. Tell 
 your doctor if you develop fever, bruising under the skin (which may appear as red dots), 
@@ -102,7 +112,7 @@ unexplained tiredness, confusion, yellowing of the skin or eyes, reduced urine o
 loss and seizures (see section 4). When tacrolimus is taken together with sirolimus or 
 everolimus, the risk of developing these symptoms may increase. </li>
 </ul>
-<p>Please avoid taking any herbal remedies, e.g., St. John’s wort (Hypericum perforatum) or any other 
+<p>Please avoid taking any herbal remedies, e.g., St. John s wort (Hypericum perforatum) or any other 
 herbal products as this may affect the effectiveness and the dose of Advagraf that you need to receive. 
 If in doubt please consult your doctor prior to taking any herbal products or remedies. </p>
 <p>Your doctor may need to adjust your dose of Advagraf. </p>
@@ -136,9 +146,11 @@ therefore frequent continued monitoring of your Advagraf blood level may be need
 few days of starting another medicine and frequently while treatment with the other medicine 
 continues. Some other medicines may cause tacrolimus blood levels to decrease, which could increase 
 the risk of rejecting the transplanted organ. In particular, you should tell your doctor if you are taking 
-or have recently taken medicines like: 
-- antifungal medicines and antibiotics, particularly so-called macrolide antibiotics, used to treat 
-infections e.g., ketoconazole, fluconazole, itraconazole, posaconazole, voriconazole, </p>
+or have recently taken medicines like:</p>
+<ul>
+<li>antifungal medicines and antibiotics, particularly so-called macrolide antibiotics, used to treat 
+infections e.g., ketoconazole, fluconazole, itraconazole, posaconazole, voriconazole, </li>
+</ul>
 <p>clotrimazole, isavuconazole, miconazole, caspofungin, telithromycin, erythromycin, 
 clarithromycin, josamycin, azithromycin, rifampicin, rifabutin, isoniazid and flucloxacillin 
 - letermovir, used to prevent illness caused by CMV (human cytomegalovirus) 
@@ -159,13 +171,13 @@ danazol
 - medicines used to treat high blood pressure or heart problems (e.g., nifedipine, nicardipine, 
 diltiazem and verapamil) 
 - anti-arrhythmic drugs (amiodarone) used to control arrhythmia (uneven beating of the heart) 
-- medicines known as “statins” used to treat elevated cholesterol and triglycerides 
+- medicines known as  statins  used to treat elevated cholesterol and triglycerides 
 - carbamazepine, phenytoin or phenobarbital, used to treat epilepsy 
 - metamizole, used to treat pain and fever 
 - the corticosteroids prednisolone and methylprednisolone, belonging to the class of corticosteroids 
 used to treat inflammations or suppress the immune system (e.g., in transplant rejection) 
 - nefazodone, used to treat depression 
-- herbal preparations containing St. John’s wort (Hypericum perforatum) or extracts of Schisandra 
+- herbal preparations containing St. John s wort (Hypericum perforatum) or extracts of Schisandra 
 sphenanthera 
 - cannabidiol (uses amongst others include treatment of seizures). </p>
 <p>Tell your doctor if you are receiving treatment for hepatitis C. The drug treatment for hepatitis C may 
@@ -201,16 +213,14 @@ Advagraf contains lactose, sodium and lecithin (soya)
 Advagraf contains lactose (milk sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. 
+ sodium-free . 
 The printing ink used on Advagraf capsules contains soya lecithin. If you are allergic to peanut or 
 soya, talk to your doctor to determine whether you should use this medicine. </p>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take advagraf"
+  * title =  "3. How to take advagraf"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take advagraf"
+  * code.text = "3. How to take advagraf"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take Advagraf exactly as your doctor has told you. You should check with your doctor or 
 pharmacist if you are not sure. This medicine should only be prescribed to you by a doctor with 
@@ -222,14 +232,9 @@ dosage instructions have changed, speak to your doctor or pharmacist as soon as 
 that you have the right medicine. </p>
 <p>The starting dose to prevent the rejection of your transplanted organ will be determined by your doctor 
 calculated according to your body weight. Initial daily doses just after transplantation will generally be 
-in the range of  </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take advagraf"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take advagraf"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>depending on the transplanted organ. When treating rejection, these same doses may be used. </p>
+in the range of  </p>
+<p>0.10   0.30 mg per kg body weight per day </p>
+<p>depending on the transplanted organ. When treating rejection, these same doses may be used. </p>
 <p>Your dose depends on your general condition and on which other immunosuppressive medication you 
 are taking.  </p>
 <p>Following the initiation of your treatment with Advagraf, frequent blood tests will be taken by your 
@@ -261,100 +266,120 @@ Do not stop your treatment unless your doctor tells you to do so. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Advagraf can cause side effects, although not everybody gets them. </p>
-<p>Advagraf reduces your body’s defense mechanism (immune system), which will not be as good at 
+<p>Advagraf reduces your body s defense mechanism (immune system), which will not be as good at 
 fighting infections. Therefore, you may be more prone to infections while you are taking Advagraf. 
 Some infections could be serious or fatal and may include infections caused by bacteria, viruses, fungi, 
 parasites, or other infections.<br />
-Tell your doctor immediately if you get signs of an infection including: 
-- Fever, cough, sore throat, feeling weak or generally unwell 
-- Memory loss, trouble thinking, difficulty walking or loss of vision - these may be due to a very 
+Tell your doctor immediately if you get signs of an infection including:</p>
+<ul>
+<li>Fever, cough, sore throat, feeling weak or generally unwell </li>
+<li>Memory loss, trouble thinking, difficulty walking or loss of vision - these may be due to a very 
 rare, serious brain infection, which can be fatal (Progressive Multifocal Leukoencephalopathy 
-or PML) </p>
+or PML) </li>
+</ul>
 <p>Severe effects may occur, including allergic and anaphylactic reactions. Benign and malignant tumours 
 have been reported following Advagraf treatment. 
 Tell your doctor immediately if you have or suspect you may have any of the following serious 
 side effects: </p>
-<p>Serious common side effects (may affect up to 1 in 10 people): 
-- Gastrointestinal perforation: strong abdominal pain accompanied or not with other symptoms, 
-such as chills, fever, nausea or vomiting. 
-- Insufficient function of your transplanted organ. 
-- Blurred vision. </p>
-<p>Serious uncommon side effects (may affect up to 1 in 100 people): 
-- Thrombotic microangiopathy (damage to the smallest blood vessels) including haemolytic 
+<p>Serious common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Gastrointestinal perforation: strong abdominal pain accompanied or not with other symptoms, 
+such as chills, fever, nausea or vomiting. </li>
+<li>Insufficient function of your transplanted organ. </li>
+<li>Blurred vision. </li>
+</ul>
+<p>Serious uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Thrombotic microangiopathy (damage to the smallest blood vessels) including haemolytic 
 uraemic syndrome, a condition with the following symptoms: low or no urine output (acute 
 renal failure), extreme tiredness, yellowing of the skin or eyes (jaundice) and abnormal 
-bruising or bleeding and signs of infection.  </p>
-<p>Serious rare side effects (may affect up to 1 in 1,000 people): 
-- Thrombotic Thrombocytopenic Purpura: a condition involving damage to the smallest blood 
+bruising or bleeding and signs of infection.  </li>
+</ul>
+<p>Serious rare side effects (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Thrombotic Thrombocytopenic Purpura: a condition involving damage to the smallest blood 
 vessels and characterised by fever and bruising under the skin that may appear as red pinpoint 
 dots, with or without unexplained extreme tiredness, confusion, yellowing of the skin or eyes 
 (jaundice), with symptoms of acute renal failure (low or no urine output), vision loss and 
-seizures.<br />
-- Toxic epidermal necrolysis: erosion and blistering of skin or mucous membranes, red swollen 
-skin that can detach in large parts of the body.<br />
-- Blindness.  </p>
-<p>Serious very rare side effects (may affect up to 1 in 10,000 people): 
-- Stevens-Johnson syndrome: unexplained widespread skin pain, facial swelling, serious illness 
+seizures.  </li>
+<li>Toxic epidermal necrolysis: erosion and blistering of skin or mucous membranes, red swollen 
+skin that can detach in large parts of the body.  </li>
+<li>Blindness.  </li>
+</ul>
+<p>Serious very rare side effects (may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>
+<p>Stevens-Johnson syndrome: unexplained widespread skin pain, facial swelling, serious illness 
 with blistering of skin, mouth, eyes and genitals, hives, tongue swelling, red or purple skin 
 rash that spreads, skin shedding.   </p>
-<ul>
-<li>Torsades de pointes: change in the heart frequency that can be accompanied or not of 
+</li>
+<li>
+<p>Torsades de pointes: change in the heart frequency that can be accompanied or not of 
 symptoms, such as chest pain (angina), faint, vertigo or nausea, palpitations (feeling the 
-heartbeat) and difficulty breathing. </li>
+heartbeat) and difficulty breathing. </p>
+</li>
 </ul>
-<p>Serious side effects – frequency not known (frequency cannot be estimated from the available data): 
-- Opportunistic infections (bacterial, fungal, viral and protozoal): prolonged diarrhea, fever and 
-sore throat.<br />
-- Benign and malignant tumours have been reported following treatment as a result of 
-immunosuppression.<br />
-- Cases of pure red cell aplasia (a very severe reduction in red blood cell counts), haemolytic 
+<p>Serious side effects   frequency not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Opportunistic infections (bacterial, fungal, viral and protozoal): prolonged diarrhea, fever and 
+sore throat.  </li>
+<li>Benign and malignant tumours have been reported following treatment as a result of 
+immunosuppression.  </li>
+<li>Cases of pure red cell aplasia (a very severe reduction in red blood cell counts), haemolytic 
 anaemia (decreased number of red blood cells due to abnormal breakdown accompanied with 
 tiredness) and febrile neutropenia (a decrease in the type of white blood cells which fight 
 infection, accompanied by fever) have been reported. It is not known exactly how often these 
 side effects occur. You may have no symptoms or depending on the severity of the condition, 
 you may feel: fatigue, apathy, abnormal paleness of the skin (pallor), shortness of breath, 
-dizziness, headache, chest pain and coldness in hands and feet. 
-- Cases of agranulocytosis (a severely lowered number of white blood cells accompanied with 
+dizziness, headache, chest pain and coldness in hands and feet. </li>
+<li>Cases of agranulocytosis (a severely lowered number of white blood cells accompanied with 
 ulcers in the mouth, fever and infection(s)). You may have no symptoms or you may feel 
-sudden fever, rigors and sore throat. 
-- Allergic and anaphylactic reactions with the following symptoms: a sudden itchy rash (hives), 
+sudden fever, rigors and sore throat. </li>
+<li>Allergic and anaphylactic reactions with the following symptoms: a sudden itchy rash (hives), 
 swelling of hands, feet, ankle, face, lips, mouth or throat (which may cause difficulty in 
-swallowing or breathing) and you may feel you are going to faint.<br />
-- Posterior Reversible Encephalopathy Syndrome (PRES): headache, confusion, mood changes, 
+swallowing or breathing) and you may feel you are going to faint.  </li>
+<li>Posterior Reversible Encephalopathy Syndrome (PRES): headache, confusion, mood changes, 
 fits, and disturbances of your vision. These could be signs of a disorder known as posterior 
 reversible encephalopathy syndrome, which has been reported in some patients treated with 
-tacrolimus. 
-- Optic neuropathy (abnormality of the optic nerve): problems with your vision such as blurred 
-vision, changes in colour vision, difficulty in seeing detail or restriction of your field of vision.  </p>
+tacrolimus. </li>
+<li>Optic neuropathy (abnormality of the optic nerve): problems with your vision such as blurred 
+vision, changes in colour vision, difficulty in seeing detail or restriction of your field of vision.  </li>
+</ul>
 <p>The side effects listed below may also occur after receiving Advagraf and could be serious: </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- Increased blood sugar, diabetes mellitus, increased potassium in the blood 
-- Difficulty in sleeping 
-- Trembling, headache 
-- Increased blood pressure 
-- Liver function tests abnormal 
-- Diarrhoea, nausea 
-- Kidney problems </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- Reduction in blood cell counts (platelets, red or white blood cells), increase in white blood cell 
-counts, changes in red blood cell counts (seen in blood tests)<br />
-- Reduced magnesium, phosphate, potassium, calcium or sodium in the blood, fluid overload, 
-increased uric acid or lipids in the blood, decreased appetite, increased acidity of the blood, 
-other changes in the blood salts (seen in blood tests) 
-- Anxiety symptoms, confusion and disorientation, depression, mood changes, nightmare, 
-hallucination, mental disorders 
-- Fits, disturbances in consciousness, tingling and numbness (sometimes painful) in the hands and 
-feet, dizziness, impaired writing ability, nervous system disorders 
-- Increased sensitivity to light, eye disorders 
-- Ringing sound in your ears 
-- Reduced blood flow in the heart vessels, faster heartbeat 
-- Bleeding, partial or complete blocking of blood vessels, reduced blood pressure 
-- Shortness in breath, changes in the lung tissue, collection of liquid around the lung, 
-inflammation of the pharynx, cough, flu-like symptoms </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
 <ul>
-<li>Inflammations or ulcers causing abdominal pain or diarrhoea, bleeding in the stomach, 
+<li>Increased blood sugar, diabetes mellitus, increased potassium in the blood </li>
+<li>Difficulty in sleeping </li>
+<li>Trembling, headache </li>
+<li>Increased blood pressure </li>
+<li>Liver function tests abnormal </li>
+<li>Diarrhoea, nausea </li>
+<li>Kidney problems </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Reduction in blood cell counts (platelets, red or white blood cells), increase in white blood cell 
+counts, changes in red blood cell counts (seen in blood tests)  </li>
+<li>Reduced magnesium, phosphate, potassium, calcium or sodium in the blood, fluid overload, 
+increased uric acid or lipids in the blood, decreased appetite, increased acidity of the blood, 
+other changes in the blood salts (seen in blood tests) </li>
+<li>Anxiety symptoms, confusion and disorientation, depression, mood changes, nightmare, 
+hallucination, mental disorders </li>
+<li>Fits, disturbances in consciousness, tingling and numbness (sometimes painful) in the hands and 
+feet, dizziness, impaired writing ability, nervous system disorders </li>
+<li>Increased sensitivity to light, eye disorders </li>
+<li>Ringing sound in your ears </li>
+<li>Reduced blood flow in the heart vessels, faster heartbeat </li>
+<li>Bleeding, partial or complete blocking of blood vessels, reduced blood pressure </li>
+<li>
+<p>Shortness in breath, changes in the lung tissue, collection of liquid around the lung, 
+inflammation of the pharynx, cough, flu-like symptoms </p>
+</li>
+<li>
+<p>Inflammations or ulcers causing abdominal pain or diarrhoea, bleeding in the stomach, 
 inflammations or ulcers in the mouth, collection of fluid in the belly, vomiting, abdominal 
-pains, indigestion, constipation, flatulence, bloating, loose stools, stomach problems </li>
+pains, indigestion, constipation, flatulence, bloating, loose stools, stomach problems </p>
+</li>
 <li>Bile duct disorders, yellowing of the skin due to liver problems, liver tissue damage and 
 inflammation of the liver </li>
 <li>Itching, rash, hair loss, acne, increased sweating </li>
@@ -363,44 +388,50 @@ inflammation of the liver </li>
 <li>General weakness, fever, collection of fluid in your body, pain and discomfort, increase of the 
 enzyme alkaline phosphatase in your blood, weight gain, feeling of temperature disturbed </li>
 </ul>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- Changes in blood clotting, reduction in the number of all types of blood cells (seen in blood 
-tests) 
-- Dehydration 
-- Reduced protein or sugar in the blood, increased phosphate in the blood 
-- Coma, bleeding in the brain, stroke, paralysis, brain disorder, speech and language 
-abnormalities, memory problems 
-- Opacity of the eye lens<br />
-- Impaired hearing 
-- Irregular heartbeat, stop of heartbeat, reduced performance of your heart, disorder of the heart 
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Changes in blood clotting, reduction in the number of all types of blood cells (seen in blood 
+tests) </li>
+<li>Dehydration </li>
+<li>Reduced protein or sugar in the blood, increased phosphate in the blood </li>
+<li>Coma, bleeding in the brain, stroke, paralysis, brain disorder, speech and language 
+abnormalities, memory problems </li>
+<li>Opacity of the eye lens  </li>
+<li>Impaired hearing </li>
+<li>Irregular heartbeat, stop of heartbeat, reduced performance of your heart, disorder of the heart 
 muscle, enlargement of the heart muscle, stronger heartbeat, abnormal ECG, heart rate and 
-pulse abnormal 
-- Blood clot in a vein of a limb, shock 
-- Difficulties in breathing, respiratory tract disorders, asthma 
-- Obstruction of the gut, increased blood level of the enzyme amylase, reflux of stomach content 
-in your throat, delayed emptying of the stomach 
-- Inflammation of the skin, burning sensation in the sunlight 
-- Joint disorders 
-- Inability to urinate, painful menstruation and abnormal menstrual bleeding 
-- Multiple organ failure, flu-like illness, increased sensitivity to heat and cold, feeling of pressure 
+pulse abnormal </li>
+<li>Blood clot in a vein of a limb, shock </li>
+<li>Difficulties in breathing, respiratory tract disorders, asthma </li>
+<li>Obstruction of the gut, increased blood level of the enzyme amylase, reflux of stomach content 
+in your throat, delayed emptying of the stomach </li>
+<li>Inflammation of the skin, burning sensation in the sunlight </li>
+<li>Joint disorders </li>
+<li>Inability to urinate, painful menstruation and abnormal menstrual bleeding </li>
+<li>Multiple organ failure, flu-like illness, increased sensitivity to heat and cold, feeling of pressure 
 on your chest, jittery or abnormal feeling, increase of the enzyme lactate dehydrogenase in your 
-blood, weight loss </p>
-<p>Rare side effects (may affect up to 1 in 1,000 people): 
-- Small bleedings in your skin due to blood clots 
-- Increased muscle stiffness 
-- Deafness 
-- Collection of fluid around the heart 
-- Acute breathlessness 
-- Cyst formation in your pancreas 
-- Problems with blood flow in the liver 
-- Increased hairiness 
-- Thirst, fall, feeling of tightness in your chest, decreased mobility, ulcer </p>
-<p>Very rare side effects (may affect up to 1 in 10,000 people): 
-- Muscular weakness 
-- Abnormal heart scan 
-- Liver failure 
-- Painful urination with blood in the urine 
-- Increase of fat tissue </p>
+blood, weight loss </li>
+</ul>
+<p>Rare side effects (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Small bleedings in your skin due to blood clots </li>
+<li>Increased muscle stiffness </li>
+<li>Deafness </li>
+<li>Collection of fluid around the heart </li>
+<li>Acute breathlessness </li>
+<li>Cyst formation in your pancreas </li>
+<li>Problems with blood flow in the liver </li>
+<li>Increased hairiness </li>
+<li>Thirst, fall, feeling of tightness in your chest, decreased mobility, ulcer </li>
+</ul>
+<p>Very rare side effects (may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>Muscular weakness </li>
+<li>Abnormal heart scan </li>
+<li>Liver failure </li>
+<li>Painful urination with blood in the urine </li>
+<li>Increase of fat tissue </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system </p>
@@ -413,7 +444,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store advagraf"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. 
-Do not use Advagraf after the expiry date which is stated on the carton after “Exp”. The expiry date 
+Do not use Advagraf after the expiry date which is stated on the carton after  Exp . The expiry date 
 refers to the last day of that month. 
 Use all the prolonged-release hard capsules within 1 year of opening the aluminium wrapping. </p>
 <p>Store in the original package in order to protect from moisture. </p>
@@ -441,30 +472,30 @@ Printing ink: Shellac, lecithin (soya), simeticone, red iron oxide (E 172),
 hydroxypropylcellulose. 
 What Advagraf looks like and contents of the pack 
 Advagraf 0.5 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with 
-“0.5 mg” on the light yellow capsule cap and “ 647” on the orange capsule body, containing white 
+ 0.5 mg  on the light yellow capsule cap and   647  on the orange capsule body, containing white 
 powder. 
 Advagraf 0.5 mg is supplied in blisters or perforated unit-dose blisters containing 10 capsules within a 
 protective foil wrapper, including a desiccant. Packs of 30, 50 and 100 prolonged-release capsules are 
-available in blisters and packs of 30×1, 50×1 and 100×1 prolonged-release capsules are available in 
+available in blisters and packs of 30 1, 50 1 and 100 1 prolonged-release capsules are available in 
 perforated unit-dose blisters. </li>
 </ul>
-<p>Advagraf 1 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with “1 mg” 
-on the white capsule cap and “ 677” on the orange capsule body, containing white powder. 
+<p>Advagraf 1 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with  1 mg<br />
+on the white capsule cap and   677  on the orange capsule body, containing white powder. 
 Advagraf 1 mg is supplied in blisters or perforated unit-dose blisters containing 10 capsules within a 
 protective foil wrapper, including a desiccant. Packs of 30, 50, 60 and 100 prolonged-release capsules 
-are available in blisters and packs of 30×1, 50×1, 60×1 and 100×1 prolonged-release capsules are 
+are available in blisters and packs of 30 1, 50 1, 60 1 and 100 1 prolonged-release capsules are 
 available in perforated unit-dose blisters. </p>
-<p>Advagraf 3 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with “3 mg” 
-on the orange capsule cap and “ 637” on the orange capsule body, containing white powder. 
+<p>Advagraf 3 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with  3 mg<br />
+on the orange capsule cap and   637  on the orange capsule body, containing white powder. 
 Advagraf 3 mg is supplied in blisters or perforated unit-dose blisters containing 10 capsules within a 
 protective foil wrapper, including a desiccant. Packs of 30, 50 and 100 prolonged-release capsules are 
-available in blisters and packs of 30×1, 50×1 and 100×1 prolonged-release capsules are available in 
+available in blisters and packs of 30 1, 50 1 and 100 1 prolonged-release capsules are available in 
 perforated unit-dose blisters. </p>
-<p>Advagraf 5 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with “5 mg” 
-on the greyish red capsule cap and “ 687” on the orange capsule body, containing white powder. 
+<p>Advagraf 5 mg prolonged-release hard capsules are hard gelatin capsules imprinted in red with  5 mg<br />
+on the greyish red capsule cap and   687  on the orange capsule body, containing white powder. 
 Advagraf 5 mg is supplied in blisters or perforated unit-dose blisters containing 10 capsules within a 
 protective foil wrapper, including a desiccant. Packs of 30, 50 and 100 prolonged-release hard capsules 
-are available in blisters and packs of 30×1, 50×1 and 100×1 prolonged-release capsules are available 
+are available in blisters and packs of 30 1, 50 1 and 100 1 prolonged-release capsules are available 
 in perforated unit-dose blisters.  </p>
 <p>Not all pack sizes may be marketed. 
 Marketing Authorisation Holder and Manufacturer 
@@ -477,22 +508,20 @@ Astellas Ireland Co., Ltd.
 Killorglin, County Kerry, V93FCIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Astellas Pharma B.V. Branch 
-Tél/Tel: + 32 (0)2 5580 
+T l/Tel: + 32 (0)2 5580 
 Lietuva 
 Astellas Pharma d.o.o. 
-Tel.: +370 37 408<br />
-България 
-Астелас Фарма ЕООД<br />
-Teл.: + 359 2 862 53<br />
+Tel.: +370 37 408  </p>
+<p>Te .: + 359 2 862 53<br />
 Luxembourg/Luxemburg 
 Astellas Pharma B.V. Branch 
 Belgique/Belgien 
-Tél/Tel: + 32 (0)2 5580 
-Česká republika 
+T l/Tel: + 32 (0)2 5580 
+ esk  republika 
 Astellas Pharma s.r.o. 
-Tel: +420 221 401 Magyarország 
+Tel: +420 221 401 Magyarorsz g 
 Astellas Pharma Kft. 
 Tel.: +36 1 577 8 
 Danmark 
@@ -512,14 +541,13 @@ Astellas Pharma d.o.o.
 Tel.: +372 6 056<br />
 Norge 
 Astellas Pharma<br />
-Tlf: + 47 66 76 46<br />
-Ελλάδα 
-Astellas Pharmaceuticals AEBE 
-Τηλ: +30 210 8189 
-Österreich 
+Tlf: + 47 66 76 46  </p>
+<p>Astellas Pharmaceuticals AEBE 
+ : +30 210 8189 
+ sterreich 
 Astellas Pharma Ges.m.b.H. 
 Tel: + 43 (0)1 8772 
-España 
+Espa a 
 Astellas Pharma S.A. 
 Tel: + 34 91 4952 
 Polska 
@@ -527,14 +555,14 @@ Astellas Pharma Sp.z.o.o.
 Tel.: + 48 225451  </p>
 <p>France 
 Astellas Pharma S.A.S. 
-Tél: + 33 (0)1 55917 
+T l: + 33 (0)1 55917 
 Portugal 
 Astellas Farma, Lda. 
 Tel: + 351 21 4401 
 Hrvatska 
 Astellas d.o.o. 
 Tel: + 385 1 670 01<br />
-România 
+Rom nia 
 S.C. Astellas Pharma SRL<br />
 Tel: +40 (0)21 361 04<br />
 Ireland 
@@ -543,19 +571,17 @@ Tel: + 353 (0)1 4671
 Slovenija 
 Astellas Pharma d.o.o. 
 Tel: +386 (0) 14011<br />
-Ísland 
+ sland 
 Vistor hf 
-Sími: + 354 535 7000  </p>
-<p>Slovenská republika 
+S mi: + 354 535 7000  </p>
+<p>Slovensk  republika 
 Astellas Pharma s.r.o.<br />
 Tel: +421 2 4444 2 
 Italia 
 Astellas Pharma S.p.A. 
-Tel: + 39 (0)2 921 
-Κύπρος 
-Astellas Pharmaceuticals AEBE 
-Ελλάδα 
-Τηλ: +30 210 8189Suomi/Finland 
+Tel: + 39 (0)2 921 </p>
+<p>Astellas Pharmaceuticals AEBE </p>
+<p>: +30 210 8189Suomi/Finland 
 Astellas Pharma<br />
 Puh/Tel: + 358 9 85606 
 Sverige 

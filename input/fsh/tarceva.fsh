@@ -4,7 +4,7 @@ Instance: composition-en-749702afc7782cf3e72848a0a0ebc924
 InstanceOf: CompositionUvEpi
 Title: "Composition for tarceva Package Leaflet"
 Description:  "Composition for tarceva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -92,7 +92,7 @@ if you have cancer of the pancreas at a metastatic stage. </p>         </div>"""
 * if you are taking other medicines that may increase or decrease the amount of erlotinib in your 
 blood or influence its effect (for example antifungals like ketoconazole, protease inhibitors, 
 erythromycin, clarithromycin, phenytoin, carbamazepine, barbiturates, rifampicin, 
-ciprofloxacin, omeprazole, ranitidine, St. John’s Wort or proteasome inhibitors), talk to your 
+ciprofloxacin, omeprazole, ranitidine, St. John s Wort or proteasome inhibitors), talk to your 
 doctor. In some cases these medicines may reduce the efficacy or increase the side effects of 
 Tarceva and your doctor may need to adjust your treatment. Your doctor might avoid treating 
 you with these medicines while you are receiving Tarceva. 
@@ -107,7 +107,7 @@ breakdown (rhabdomyolysis) resulting in kidney damage, talk to your doctor. </li
 inflammation of the front part of the eye (cornea) or ulcers involving the front part of the eye, 
 tell your doctor. </li>
 </ul>
-<p>See also below “Other medicines and Tarceva” </p>
+<p>See also below  Other medicines and Tarceva  </p>
 <p>You should tell your doctor: 
 * if you have sudden difficulty in breathing associated with cough or fever because your doctor 
 may need to treat you with other medicines and interrupt your Tarceva treatment; 
@@ -126,13 +126,13 @@ vision and/or sensitivity to light, please tell your doctor or nurse immediately
 urgent treatment (see Possible Side Effects below). 
 * if you are also taking a statin and experience unexplained muscle pain, tenderness, weakness or 
 cramps. Your doctor may need to interrupt or stop your treatment. </p>
-<p>See also section 4 “Possible side effects”. </p>
+<p>See also section 4  Possible side effects . </p>
 <p>Liver or kidney disease 
 It is not known whether Tarceva has a different effect if your liver or kidneys are not functioning 
 normally. The treatment with this medicine is not recommended if you have a severe liver disease or 
 severe kidney disease. </p>
-<p>Glucuronidation disorder like Gilbert’s syndrome 
-Your doctor must treat you with caution if you have a glucuronidation disorder like Gilbert’s 
+<p>Glucuronidation disorder like Gilbert s syndrome 
+Your doctor must treat you with caution if you have a glucuronidation disorder like Gilbert s 
 syndrome. </p>
 <p>Smoking 
 You are advised to stop smoking if you are treated with Tarceva as smoking could decrease the 
@@ -144,7 +144,7 @@ not recommended for children and adolescents. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken any other medicines or might take 
 any other medicines. </p>
 <p>Tarceva with food and drink 
-Do not take Tarceva with food. See also section 3 ‘How to take Tarceva’ </p>
+Do not take Tarceva with food. See also section 3  How to take Tarceva  </p>
 <p>Pregnancy and breast-feeding 
 Avoid pregnancy while being treated with Tarceva. If you could become pregnant, use adequate 
 contraception during treatment, and for at least 2 weeks after taking the last tablet.  </p>
@@ -159,7 +159,7 @@ Tarceva has not been studied for its possible effects on the ability to drive an
 very unlikely that your treatment will affect this ability. </p>
 <p>Tarceva contains sodium 
 This medicine contains less than 1 mmol sodium (less than 23 mg) per tablet, that is to say Tarceva is 
-essentially ‘sodium -free’. </p>
+essentially  sodium -free . </p>
 <p>Tarceva contains a sugar called lactose monohydrate. 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking Tarceva. </p>         </div>"""   
@@ -321,11 +321,11 @@ sodium laurilsulfate, magnesium stearate (see also section 2 for lactose monohyd
 sodium). 
 Tablet coat: hypromellose, hydroxypropyl cellulose, titanium dioxide, macrogol. </p>
 <p>What Tarceva looks like and contents of the pack: 
-Tarceva 25 mg is supplied as a white to yellowish, round, film-coated tablet with ‘T 25’ engraved on 
+Tarceva 25 mg is supplied as a white to yellowish, round, film-coated tablet with  T 25  engraved on 
 one side and is available in pack sizes of 30 tablets. 
-Tarceva 100 mg is supplied as a white to yellowish, round, film-coated tablet with ‘T 100’ engraved 
+Tarceva 100 mg is supplied as a white to yellowish, round, film-coated tablet with  T 100  engraved 
 on one side and is available in pack sizes of 30 tablets. 
-Tarceva 150 mg is supplied as a white to yellowish, round, film-coated tablet with ‘T 150’ engraved 
+Tarceva 150 mg is supplied as a white to yellowish, round, film-coated tablet with  T 150  engraved 
 on one side and is available in pack sizes of 30 tablets. </p>
 <p>Marketing Authorisation Holder 
 Roche Registration GmbH 
@@ -339,22 +339,20 @@ D-79639 Grenzach-Wyhlen
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 
 Danmark 
 Roche Pharmaceuticals A/S 
@@ -368,18 +366,17 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
 Tel: +43 (0) 1 27 
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Polska 
@@ -387,27 +384,27 @@ Roche Polska Sp.z o.o.
 Tel: +48 - 22 345 18  </p>
 <p>France 
 Roche 
-Tél: +33 (0) 1 47 61 40<br />
+T l: +33 (0) 1 47 61 40<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o. 
 Tel: +385 1 4722<br />
-România 
-Roche România S.R.L. 
+Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47<br />
 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 
 Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
+S mi: +354 540 8 
+Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -416,9 +413,9 @@ Tel: +39 - 039 2
 Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 

@@ -4,7 +4,7 @@ Instance: composition-en-c8101444f2f0d633367049eeed05567a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vpriv Package Leaflet"
 Description:  "Composition for vpriv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -173,17 +173,21 @@ are called infusion related reactions. Other infusion related reactions that occ
 back pain, joint pain and tiredness, as well as high blood pressure (commonly reported), blurry vision, 
 and vomiting (uncommonly reported). If any of these happen tell your doctor immediately. </p>
 <p>Other side effects include: </p>
-<p>Very common side effects (may affect more than 1 in 10 people) are: 
-- bone pain 
-- weakness/loss of strength 
-- stomach ache </p>
-<p>Common side effects (may affect up to 1 in 10 people) are: 
-- lengthening of the time it takes for a cut to stop bleeding may lead to easy/spontaneous 
-bleeding/easy bruising 
-- skin flushing 
-- rapid heart beat 
-- developing antibodies to VPRIV (see section 2) 
-- decreased blood pressure  </p>
+<p>Very common side effects (may affect more than 1 in 10 people) are:</p>
+<ul>
+<li>bone pain </li>
+<li>weakness/loss of strength </li>
+<li>stomach ache </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people) are:</p>
+<ul>
+<li>lengthening of the time it takes for a cut to stop bleeding may lead to easy/spontaneous 
+bleeding/easy bruising </li>
+<li>skin flushing </li>
+<li>rapid heart beat </li>
+<li>developing antibodies to VPRIV (see section 2) </li>
+<li>decreased blood pressure  </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -196,13 +200,13 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store vpriv"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and label after ‘EXP’. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and label after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store in the refrigerator (2 ºC – 8 ºC). 
+<p>Store in the refrigerator (2  C   8  C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light.  </p>
 <p>Reconstituted and diluted solution for infusion: 
-Use immediately. Do not exceed 24 hours at 2 C to 8 C. </p>
+Use immediately. Do not exceed 24 hours at 2  C to 8  C. </p>
 <p>Do not use if the solution is discoloured or if foreign particles are present.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throwaway medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -219,7 +223,7 @@ throwaway medicines you no longer use. These measures will help to protect the e
 <p>After reconstitution, one ml of solution contains 100 Units of velaglucerase alfa </p>
 <ul>
 <li>The other ingredients are sucrose, sodium citrate dihydrate, citric acid monohydrate and 
-polysorbate 20 (see section 2 “VPRIV contains sodium”). </li>
+polysorbate 20 (see section 2  VPRIV contains sodium ). </li>
 </ul>
 <p>What VPRIV looks like and contents of the pack 
 20 ml glass vial containing a white to off-white powder for solution for infusion.  </p>
@@ -240,35 +244,33 @@ Dublin 2
 D02 HWIreland </p>
 <p>Shire Pharmaceuticals Ireland Limited 
 Block 2 &amp; 3 Miesian Plaza 
-50 – 58 Baggot Street Lower 
+50   58 Baggot Street Lower 
 Dublin 2 
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 11<br />
+T l/Tel: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
 Takeda Pharma A/S 
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
-Τakeda HELLAS S.A. 
+ akeda HELLAS S.A. 
 Tel: +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Deutschland 
 Takeda GmbH 
@@ -282,41 +284,40 @@ Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Τakeda ΕΛΛΑΣ Α.Ε. 
-Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Österreich 
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
 Tel: +43 (0) 800-20 80 50<br />
 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España S.A 
+<p>Espa a 
+Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
 <p>Polska 
 Takeda Pharma Sp. z o.o. 
 Tel.: +48223062medinfoEMEA@takeda.com </p>
 <p>France 
 Takeda France SAS 
-Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
+Takeda Farmac uticos Portugal, Lda. 
 Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
+<p>Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com 
 Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
@@ -325,9 +326,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-A.POTAMITIS MEDICARE LTD 
-Τηλ: +357 22583a.potamitismedicare@cytanet.com.cy </p>
+<p>A.POTAMITIS MEDICARE LTD 
+ : +357 22583a.potamitismedicare@cytanet.com.cy </p>
 <p>Sverige 
 Takeda Pharma AB 
 Tel: 020 795 medinfoEMEA@takeda.com </p>

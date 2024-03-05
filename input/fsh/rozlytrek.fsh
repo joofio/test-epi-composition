@@ -4,7 +4,7 @@ Instance: composition-en-f09921a712319be762e8c3e2baca4fd9
 InstanceOf: CompositionUvEpi
 Title: "Composition for rozlytrek Package Leaflet"
 Description:  "Composition for rozlytrek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,20 +75,20 @@ Usage: #example
 <p>Rozlytrek is used to treat either: 
 * adults and children 12 years of age and older with solid tumour (cancer) in various parts of the 
 body that is caused by a change in the neurotrophic tyrosine receptor kinase (NTRK) gene, or 
-* adults with a type of lung cancer called ‘non-small cell lung cancer’ (NSCLC) that is caused by 
+* adults with a type of lung cancer called  non-small cell lung cancer  (NSCLC) that is caused by 
 a change in the ROS1 gene. </p>
 <p>NTRK gene fusion-positive solid tumour cancer </p>
 <p>It is used when: 
-* a test has shown that your cancer cells have a change in genes called ‘NTRK’ and has spread 
+* a test has shown that your cancer cells have a change in genes called  NTRK  and has spread 
 within the affected organ or to other organs in your body or if surgery to remove the cancer is 
-likely to result in severe complications (see ‘How Rozlytrek works’ below), and 
+likely to result in severe complications (see  How Rozlytrek works  below), and 
 * you have not received treatment with medicines called NTRK inhibitors 
 * other treatments have not worked or are not suitable for you. </p>
 <p>ROS1-positive non -small cell lung cancer (NSCLC) </p>
 <p>It is used if your lung cancer: 
-* is ‘ROS1-positive’ – this means that your cancer cells have a change in a gene called ‘ROS1’ 
-(see ‘How Rozlytrek works’ below), 
-* is advanced – for example, has spread to other parts of your body (metastatic), and 
+* is  ROS1-positive    this means that your cancer cells have a change in a gene called  ROS1<br />
+(see  How Rozlytrek works  below), 
+* is advanced   for example, has spread to other parts of your body (metastatic), and 
 * you have not received treatment with medicines called ROS1 inhibitors. </p>
 <p>How Rozlytrek works </p>
 <p>Rozlytrek works by blocking the action of abnormal enzymes caused by a change in the NTRK or 
@@ -112,45 +112,45 @@ If you are not sure, talk to your doctor, pharmacist or nurse before taking Rozl
 <p>Talk to your doctor, pharmacist or nurse before taking Rozlytrek if: 
 * you have recently experienced memory loss, confusion, hallucinations, or mental status changes 
 * you have a history of fractured bones, or conditions which may increase your risk of breaking 
-bones, called ‘osteoporosis’ or ‘osteopaenia’ 
+bones, called  osteoporosis  or  osteopaenia<br />
 * you take medication to lower the levels of uric acid in your blood 
 * you have heart failure (an inability for your heart to adequately pump blood to supply oxygen to 
-the body) – signs can include cough, shortness of breath, and swelling in your legs or arms 
-* you have or had heart disorders or a heart conduction problem called ‘prolonged QTc interval’ – 
-this is shown on an ‘electro-cardiogram’ (ECG), or low levels of electrolytes (potassium, 
+the body)   signs can include cough, shortness of breath, and swelling in your legs or arms 
+* you have or had heart disorders or a heart conduction problem called  prolonged QTc interval  <br />
+this is shown on an  electro-cardiogram  (ECG), or low levels of electrolytes (potassium, 
 magnesium, calcium or phosphorus) in your blood 
-* you have an inherited problem called ‘galactose intolerance’, ‘congenital lactase deficiency’ or 
-‘glucose-galactose malabsorption’. </p>
+* you have an inherited problem called  galactose intolerance ,  congenital lactase deficiency  or 
+ glucose-galactose malabsorption . </p>
 <p>Other medicines and Rozlytrek </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This is because Rozlytrek can affect the way some other medicines work. Also, some other 
 medicines can affect the way Rozlytrek works. </p>
 <p>In particular, tell your doctor or pharmacist if you are taking any of the following medicines: 
-* medicines for fungal infections (anti-fungals) – such as ketoconazole, itraconazole, 
+* medicines for fungal infections (anti-fungals)   such as ketoconazole, itraconazole, 
 voriconazole, posaconazole 
 * medicines to treat Acquired Immune Deficiency Syndrome (AIDS)/Human immunodeficiency 
-virus (HIV) infection – such as ritonavir or saquinavir 
-* a herbal medicine for depression – St. John’s Wort 
-* medicines to stop seizures or fits (anti-epileptics) – such as phenytoin, carbamazepine, or 
+virus (HIV) infection   such as ritonavir or saquinavir 
+* a herbal medicine for depression   St. John s Wort 
+* medicines to stop seizures or fits (anti-epileptics)   such as phenytoin, carbamazepine, or 
 phenobarbital 
-* medicines for tuberculosis – such as rifampicin, rifabutin 
-* medicines to treat solid cancers and blood cancer – topotecan, lapatinib, mitoxantrone, 
+* medicines for tuberculosis   such as rifampicin, rifabutin 
+* medicines to treat solid cancers and blood cancer   topotecan, lapatinib, mitoxantrone, 
 apalutamide, methotrexate 
-* a medicine for inflammation of joints or joint autoimmune disease (rheumatoid arthritis) – 
+* a medicine for inflammation of joints or joint autoimmune disease (rheumatoid arthritis) <br />
 methotrexate 
-* a medicine for migraine-type headaches – ergotamine 
-* a medicine for relief of severe pain – fentanyl 
+* a medicine for migraine-type headaches   ergotamine 
+* a medicine for relief of severe pain   fentanyl 
 * a medicine for mental illness (psychoses) or involuntary movements and sounds, also called 
-Tourette Syndrome – pimozide 
-* a medicine for irregular heart rate –quinidine 
-* medicines to prevent formation of blood clots – warfarin, dabigatran etexilate 
-* medicines for gastric reflux (heartburn) – cisapride, omeprazole 
-* medicines to reduce blood cholesterol – atorvastatin, pravastatin, rosuvastatin 
-* medicines to suppress your body’s immune system, or prevent the body from rejecting an organ 
-transplant – sirolimus, tacrolimus, cyclosporin, 
-* medicines for depression – paroxetine, fluvoxamine 
-* medicines to reduce blood sugar levels – repaglinide, tolbutamide 
-* medicines for high blood pressure – bosentan, felodipine, nifedipine, verapamil. </p>
+Tourette Syndrome   pimozide 
+* a medicine for irregular heart rate  quinidine 
+* medicines to prevent formation of blood clots   warfarin, dabigatran etexilate 
+* medicines for gastric reflux (heartburn)   cisapride, omeprazole 
+* medicines to reduce blood cholesterol   atorvastatin, pravastatin, rosuvastatin 
+* medicines to suppress your body s immune system, or prevent the body from rejecting an organ 
+transplant   sirolimus, tacrolimus, cyclosporin, 
+* medicines for depression   paroxetine, fluvoxamine 
+* medicines to reduce blood sugar levels   repaglinide, tolbutamide 
+* medicines for high blood pressure   bosentan, felodipine, nifedipine, verapamil. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor or pharmacist before taking 
 Rozlytrek. </p>
 <p>Rozlytrek with food and drink </p>
@@ -215,11 +215,11 @@ or stop treatment completely. </li>
 <p>Children  </p>
 <ul>
 <li>Rozlytrek can be used in children 12 years of age and older. </li>
-<li>Your doctor will work out the correct dose to use – this will depend on the height and weight of 
+<li>Your doctor will work out the correct dose to use   this will depend on the height and weight of 
 the child. </li>
 </ul>
 <p>How to take </p>
-<p>Take Rozlytrek by mouth – with or without food. Swallow each capsule whole. Do not open or 
+<p>Take Rozlytrek by mouth   with or without food. Swallow each capsule whole. Do not open or 
 dissolve the capsules since the contents of the capsule are very bitter. </p>
 <p>If you vomit after taking Rozlytrek </p>
 <p>If you vomit immediately after taking a dose of Rozlytrek, take another dose. </p>
@@ -318,13 +318,15 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store rozlytrek"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and the bottle after 
-EXP. The expiry date refers to the last day of that month. 
-* Store in the original package and keep the bottle tightly closed in order to protect from moisture. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the bottle after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Store in the original package and keep the bottle tightly closed in order to protect from moisture. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -337,12 +339,12 @@ environment. </p>         </div>"""
 Rozlytrek 100 mg: each capsule contains 100 mg entrectinib 
 Rozlytrek 200 mg: each capsule contains 200 mg entrectinib </p>
 <p>The other ingredients are: 
-* Capsule content: tartaric acid, lactose (see section 2 ‘Rozlytrek contains lactose’), 
+* Capsule content: tartaric acid, lactose (see section 2  Rozlytrek contains lactose ), 
 hypromellose, crospovidone, microcrystalline cellulose, colloidal anhydrous silica, magnesium 
 stearate.<br />
 * Capsule shell: hypromellose, titanium dioxide (E171), yellow iron oxide (E172; for Rozlytrek 
 100 mg capsule), sunset yellow FCF (E110; for Rozlytrek 200 mg capsule). See section 2 
-‘Rozlytrek contains sunset yellow FCF (E110)’. 
+ Rozlytrek contains sunset yellow FCF (E110) . 
 * Printing ink: shellac, propylene glycol, indigo carmine aluminium lake (E132). </p>
 <p>What Rozlytrek looks like and contents of the pack </p>
 <p>Rozlytrek 100 mg hard capsules are opaque yellow with ENT 100 imprinted in blue on the body. </p>
@@ -362,20 +364,18 @@ Emil-Barell-Strasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A.<br />
-Tél/Tel: +32 (0) 2 525 82 Lietuva 
-UAB “Roche Lietuva”<br />
-Tel: +370 5 2546 
-България 
-Рош България ЕООД<br />
-Тел: +359 2 818 44<br />
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva <br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) 
-Česká republika 
+ esk  republika 
 Roche s. r. O.<br />
-Tel: +420 - 2 20382Magyarország 
-Roche (Magyarország) Kft.<br />
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft.<br />
 Tel: +36 - 1 279 4Danmark 
 Roche Pharmaceuticals A/S<br />
 Tlf: +45 - 36 39 99<br />
@@ -388,26 +388,25 @@ Nederland
 Roche Nederland B.V.<br />
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ<br />
+Roche Eesti O <br />
 Tel: + 372 - 6 177 380<br />
 Norge 
 Roche Norge AS<br />
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH<br />
-Tel: +43 (0) 1 27España 
+Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A.<br />
 Tel: +34 - 91 324 81 Polska 
 Roche Polska Sp.z o.o.<br />
 Tel: +48 - 22 345 18<br />
 France 
 Roche<br />
-Tél: +33 (0) 1 47 61 40 00<br />
+T l: +33 (0) 1 47 61 40 00<br />
 Portugal 
-Roche Farmacêutica Química, Lda<br />
+Roche Farmac utica Qu mica, Lda<br />
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o.<br />
@@ -415,15 +414,15 @@ Tel: +385 1 4722 333  </p>
 <p>Ireland 
 Roche Products (Ireland) Ltd.<br />
 Tel: +353 (0) 1 469 0 
-România 
-Roche România S.R.L.<br />
+Rom nia 
+Roche Rom nia S.R.L.<br />
 Tel: +40 21 206 47 01  </p>
 <p>Slovenija 
-Roche farmacevtska družba d.o.o.<br />
-Tel: +386 - 1 360 26 Ísland 
+Roche farmacevtska dru ba d.o.o.<br />
+Tel: +386 - 1 360 26  sland 
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Roche Slovensko, s.r.o.<br />
 Tel: +421 - 2 52638201  </p>
 <p>Italia 
@@ -432,9 +431,8 @@ Tel: +39 - 039 2
 Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554 500  </p>
-<p>Κύπρος 
-Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
-Τηλ: +357 - 22 76 62 76<br />
+<p>. .  &amp;    .<br />
+ : +357 - 22 76 62 76<br />
 Sverige 
 Roche AB<br />
 Tel: +46 (0) 8 726 1 
@@ -445,7 +443,7 @@ United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366 </p>
 <p>This leaflet was last revised in </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

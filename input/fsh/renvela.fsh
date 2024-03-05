@@ -4,7 +4,7 @@ Instance: composition-en-5d41e6d3881ce675625375af18a0589a
 InstanceOf: CompositionUvEpi
 Title: "Composition for renvela Package Leaflet"
 Description:  "Composition for renvela Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,11 +96,11 @@ section 6).
 * you have bowel obstruction  </p>
 <p>Warnings and precautions<br />
 Talk to your doctor before taking Renvela if any of the following applies to you: 
-• swallowing problems. Your doctor can rather prescribe Renvela powder for oral suspension 
-• problems with motility (movement) in your stomach and bowel 
-• being sick frequently 
-• active inflammation of the bowel 
-• have undergone major surgery on your stomach or bowel </p>
+  swallowing problems. Your doctor can rather prescribe Renvela powder for oral suspension 
+  problems with motility (movement) in your stomach and bowel 
+  being sick frequently 
+  active inflammation of the bowel 
+  have undergone major surgery on your stomach or bowel </p>
 <p>Talk to your doctor while taking Renvela: 
 * if you experience severe abdominal pain, stomach or intestine disorders, or blood in the stool 
 (gastrointestinal bleeding). These symptoms can be due to serious inflammatory bowel disease 
@@ -108,14 +108,14 @@ caused by sevelamer crystals deposit in your bowel. Contact your doctor who will
 continuing the treatment or not. </p>
 <p>Additional treatments 
 Due to either your kidney condition or your dialysis treatment you may: 
-• develop low or high levels of calcium in your blood. Since this medicine does not contain calcium 
+  develop low or high levels of calcium in your blood. Since this medicine does not contain calcium 
 your doctor might prescribe additional calcium tablets. 
-• have a low amount of vitamin D in your blood. Therefore, your doctor may monitor the levels of 
+  have a low amount of vitamin D in your blood. Therefore, your doctor may monitor the levels of 
 vitamin D in your blood and prescribe additional vitamin D as necessary. If you do not take 
 multivitamin supplements you may also develop low levels of vitamins A, E, K and folic acid in your 
 blood and therefore your doctor may monitor these levels and prescribe supplemental vitamins as 
 necessary. 
-• have disturbed level of bicarbonate in your blood and increased acidity in the blood and other body 
+  have disturbed level of bicarbonate in your blood and increased acidity in the blood and other body 
 tissue. Your doctor should monitor the level of bicarbonate in your blood. </p>
 <p>Special note for patients on peritoneal dialysis 
 You may develop peritonitis (infection of your abdominal fluid) associated with your peritoneal dialysis. 
@@ -127,17 +127,17 @@ The safety and efficacy in children (below the age of 6 years) have not been stu
 is not recommended for use in children below the age of 6 years. </p>
 <p>Other medicines and Renvela 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
-<p>• Renvela should not be taken at the same time as ciprofloxacin (an antibiotic). </p>
-<p>• If you are taking medicines for heart rhythm problems or for epilepsy, you should consult your doctor 
+<p>Renvela should not be taken at the same time as ciprofloxacin (an antibiotic). </p>
+<p>If you are taking medicines for heart rhythm problems or for epilepsy, you should consult your doctor 
 when taking Renvela. </p>
-<p>• The effects of medicines such as ciclosporin, mycophenolate mofetil and tacrolimus (medicines used 
+<p>The effects of medicines such as ciclosporin, mycophenolate mofetil and tacrolimus (medicines used 
 to suppress the immune system) may be reduced by Renvela. Your doctor will advise you if you are 
 taking these medicines. </p>
-<p>• Thyroid hormone deficiency may uncommonly be observed in certain people taking levothyroxine 
+<p>Thyroid hormone deficiency may uncommonly be observed in certain people taking levothyroxine 
 (used to treat low thyroid hormone levels) and Renvela. Therefore your doctor may monitor the levels 
 of thyroid stimulating hormone in your blood more closely. </p>
-<p>• Medicines treating heartburn and reflux from your stomach or oesophagus, such as omeprazole, 
-pantoprazole, or lansoprazole, known as “proton pump inhibitors”, may reduce the efficacy of 
+<p>Medicines treating heartburn and reflux from your stomach or oesophagus, such as omeprazole, 
+pantoprazole, or lansoprazole, known as  proton pump inhibitors , may reduce the efficacy of 
 Renvela.  Your doctor may monitor the phosphate level in your blood. </p>
 <p>Your doctor will check for interactions between Renvela and other medicines on a regular basis. </p>
 <p>In some cases where Renvela should be taken at the same time as another medicine. Your doctor may advise 
@@ -153,7 +153,7 @@ will decide if you can breastfeed your baby or not, and if it is necessary to st
 <p>Driving and using machines 
 Renvela is unlikely to affect your ability to drive or to use machines. </p>
 <p>Excipients 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take renvela"
@@ -190,17 +190,19 @@ If you have any further questions on the use of this medicine, ask your doctor o
 <p>Constipation is a very common side effect (may affect more than 1 in 10 people). It can be an early symptom 
 of a blockage in your intestine. In case of constipation, please inform your doctor or pharmacist. </p>
 <p>Some side effects could be serious. If you get any of the following side effects, seek immediate medical 
-attention: 
-- Allergic reaction (signs including rash, hives, swelling, trouble breathing). This is a very rare side effect 
-(may affect up to 1 in 10,000 people). 
-- Blockage in the intestine (signs include: severe bloating; abdominal pain, swelling or cramps; severe 
+attention:</p>
+<ul>
+<li>Allergic reaction (signs including rash, hives, swelling, trouble breathing). This is a very rare side effect 
+(may affect up to 1 in 10,000 people). </li>
+<li>Blockage in the intestine (signs include: severe bloating; abdominal pain, swelling or cramps; severe 
 constipation) has been reported. Frequency is not known (frequency cannot be estimated from the available 
-data). 
-- Rupture in the intestinal wall (signs include: severe stomach pain, chills, fever, nausea, vomiting, or a 
-tender abdomen) has been reported. Frequency is not known. 
-- Serious inflammation of the large bowel (symptoms include: severe abdominal pain, stomach or intestine 
+data). </li>
+<li>Rupture in the intestinal wall (signs include: severe stomach pain, chills, fever, nausea, vomiting, or a 
+tender abdomen) has been reported. Frequency is not known. </li>
+<li>Serious inflammation of the large bowel (symptoms include: severe abdominal pain, stomach or intestine 
 disorders, or blood in the stool [gastrointestinal bleeding]) and crystal deposit in the intestine have been 
-reported. Frequency is not known. </p>
+reported. Frequency is not known. </li>
+</ul>
 <p>Other side effects have been reported in patients taking Renvela: </p>
 <p>Very common: 
 vomiting, upper abdominal pain, nausea </p>
@@ -219,7 +221,7 @@ reporting side effects, you can help provide more information on the safety of t
   * code.text = "5. How to store renvela"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date stated on the bottle and carton after the letters “EXP”. The 
+<p>Do not use this medicine after the expiry date stated on the bottle and carton after the letters  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>Keep the bottle container tightly closed in order to protect from moisture.<br />
 This medicine does not require any special storage conditions.  </p>
@@ -264,19 +266,18 @@ Ambares et Lagrave
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation holder. </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
+T l/Tel: + 32 2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Magyarorsz g 
 SANOFI-AVENTIS Zrt 
-Tel: +36 1 505 0Česká republika 
+Tel: +36 1 505 0 esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
 Malta 
@@ -294,27 +295,26 @@ Norge
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71<br />
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 1 
 Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00<br />
-España 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda.. 
+Sanofi   Produtos Farmac uticos, Lda.. 
 Tel: +351 21 35 89<br />
 France 
 Sanofi Winthrop Industrie 
-Tél : 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
-România 
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 36<br />
 Hrvatska 
@@ -326,12 +326,12 @@ Tel: +386 1 235 51<br />
 Ireland 
 sanofi-aventis Ireland Ltd T/A SANOFI 
 Tel:  +353 (0) 1 4035 600  </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
@@ -340,9 +340,8 @@ Sanofi S.r.l.
 Tel: 800 536 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50  </p>
-<p>Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Latvija 
 Swixx Biopharma SIA<br />
 Tel: +371 6 616 47<br />

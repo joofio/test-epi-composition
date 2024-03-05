@@ -4,7 +4,7 @@ Instance: composition-en-e591146dd189692c568ef28e3005a424
 InstanceOf: CompositionUvEpi
 Title: "Composition for jakavi Package Leaflet"
 Description:  "Composition for jakavi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,7 +93,7 @@ the symptoms, reduce spleen size and the volume of red blood cells produced in p
 polycythaemia vera by selectively blocking enzymes called Janus Associated Kinases (JAK1 and 
 JAK2), thus potentially reducing the risk of serious blood or vascular complications. </p>
 <p>Graft-versus-host disease is a complication which occurs after transplantation when specific cells (T 
-cells) in the donor’s graft (e.g. bone marrow) do not recognise the host cells/organs and attack them. 
+cells) in the donor s graft (e.g. bone marrow) do not recognise the host cells/organs and attack them. 
 By selectively blocking enzymes called Janus Associated Kinases (JAK1 and JAK2), Jakavi reduces 
 signs and symptoms of the acute and the chronic forms of graft-versus-host disease leading to disease 
 improvement and survival of the transplanted cells. </p>
@@ -107,7 +107,7 @@ ask your doctor. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take jakavi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all your doctor’s instructions carefully. They may differ from the general information 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all your doctor s instructions carefully. They may differ from the general information 
 contained in this leaflet. </p>
 <p>Do not take Jakavi 
 - if you are allergic to ruxolitinib or any of the other ingredients of this medicine (listed in 
@@ -125,7 +125,7 @@ have ever had hepatitis B.
 - if you have any kidney problems. Your doctor may need to prescribe a different dose of Jakavi. 
 - if you have or have ever had any liver problems. Your doctor may need to prescribe a different 
 dose of Jakavi. 
-- if you are taking other medicines (see section “Other medicines and Jakavi”). 
+- if you are taking other medicines (see section  Other medicines and Jakavi ). 
 - if you have ever had tuberculosis. 
 - if you have ever had skin cancer. </p>
 <p>Talk to your doctor or pharmacist during your treatment with Jakavi 
@@ -160,22 +160,26 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. </p>
 <p>It is particularly important that you mention any of the following medicines containing any of the 
 following active substances, as your doctor may need to adjust the Jakavi dose for you. </p>
-<p>The following may increase the risk of side effects with Jakavi: 
-- Some medicines used to treat infections. These include medicines used to treat fungal diseases 
+<p>The following may increase the risk of side effects with Jakavi:</p>
+<ul>
+<li>Some medicines used to treat infections. These include medicines used to treat fungal diseases 
 (such as ketoconazole, itraconazole, posaconazole, fluconazole and voriconazole), medicines 
 used to treat certain types of bacterial infections (antibiotics such as clarithromycin, 
 telithromycin, ciprofloxacin, or erythromycin), medicines to treat viral infections, including 
 HIV infection/AIDS (such as amprenavir, atazanavir, indinavir, lopinavir/ritonavir, nelfinavir, 
-ritonavir, saquinavir), medicines to treat hepatitis C (boceprevir, telaprevir). 
-- Nefazodone, a medicine to treat depression. 
-- Mibefradil or diltiazem, medicines to treat hypertension and chronic angina pectoris. 
-- Cimetidine, a medicine to treat heartburn. </p>
-<p>The following may reduce the effectiveness of Jakavi: 
-- Avasimibe, a medicine to treat heart disease. 
-- Phenytoin, carbamazepine or phenobarbital and other anti-epileptics used to stop seizures or 
-fits. 
-- Rifabutin or rifampicin, medicines used to treat tuberculosis (TB). 
-- St. John’s wort (Hypericum perforatum), a herbal product used to treat depression. </p>
+ritonavir, saquinavir), medicines to treat hepatitis C (boceprevir, telaprevir). </li>
+<li>Nefazodone, a medicine to treat depression. </li>
+<li>Mibefradil or diltiazem, medicines to treat hypertension and chronic angina pectoris. </li>
+<li>Cimetidine, a medicine to treat heartburn. </li>
+</ul>
+<p>The following may reduce the effectiveness of Jakavi:</p>
+<ul>
+<li>Avasimibe, a medicine to treat heart disease. </li>
+<li>Phenytoin, carbamazepine or phenobarbital and other anti-epileptics used to stop seizures or 
+fits. </li>
+<li>Rifabutin or rifampicin, medicines used to treat tuberculosis (TB). </li>
+<li>St. John s wort (Hypericum perforatum), a herbal product used to treat depression. </li>
+</ul>
 <p>While you are taking Jakavi you should never start a new medicine without checking first with the 
 doctor who prescribed Jakavi. This includes prescription medicines, non-prescription medicines and 
 herbal or alternative medicines. </p>
@@ -190,8 +194,8 @@ If you experience dizziness after taking Jakavi, do not drive or use machines. <
 <p>Jakavi contains lactose and sodium 
 Jakavi contains lactose (milk sugar). If you have been told by your doctor that you have an intolerance 
 to some sugars, contact your doctor before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jakavi"
@@ -200,7 +204,7 @@ free’. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>The dose of Jakavi depends on the patient’s blood cell count. Your doctor will measure the amount of 
+<p>The dose of Jakavi depends on the patient s blood cell count. Your doctor will measure the amount of 
 blood cells in your body and find the best dose for you, particularly if you have liver or kidney 
 problems. 
 - The recommended starting dose in myelofibrosis is 5 mg twice daily, 10 mg twice daily, 15 mg 
@@ -249,78 +253,94 @@ a few weeks of treatment. </p>
 <p>Some side effects could be serious 
 Seek medical help immediately prior to taking the next scheduled dose if you experience the 
 following serious side effects: 
-Very common (may affect more than 1 in 10 people): 
-- any sign of bleeding in the stomach or intestine, such as passing black or bloodstained stools, or 
-vomiting blood 
-- unexpected bruising and/or bleeding, unusual tiredness, shortness of breath during exercise or at 
-rest, unusually pale skin, or frequent infections (possible symptoms of blood disorders) 
-- painful skin rash with blisters (possible symptoms of shingles (herpes zoster)) 
-- fever, chills or other symptoms of infections 
-- low level of red blood cells (anaemia), low level of white blood cells (neutropenia) or low level 
-of platelets (thrombocytopenia) </p>
-<p>Common (may affect up to 1 in 10 people): 
-- any sign of bleeding in the brain, such as sudden altered level of consciousness, persistent 
-headache, numbness, tingling, weakness or paralysis </p>
+Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>any sign of bleeding in the stomach or intestine, such as passing black or bloodstained stools, or 
+vomiting blood </li>
+<li>unexpected bruising and/or bleeding, unusual tiredness, shortness of breath during exercise or at 
+rest, unusually pale skin, or frequent infections (possible symptoms of blood disorders) </li>
+<li>painful skin rash with blisters (possible symptoms of shingles (herpes zoster)) </li>
+<li>fever, chills or other symptoms of infections </li>
+<li>low level of red blood cells (anaemia), low level of white blood cells (neutropenia) or low level 
+of platelets (thrombocytopenia) </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>any sign of bleeding in the brain, such as sudden altered level of consciousness, persistent 
+headache, numbness, tingling, weakness or paralysis </li>
+</ul>
 <p>Other side effects 
 Other possible side effects include the following listed below. If you experience these side effects, talk 
 to your doctor or pharmacist. </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- high level of cholesterol or fat in the blood (hypertriglyceridaemia) 
-- abnormal liver function test results 
-- dizziness 
-- headache 
-- urinary tract infections 
-- weight gain 
-- fever, cough, difficult or painful breathing, wheezing, pain in chest when breathing (possible 
-symptoms of pneumonia) 
-- high blood pressure (hypertension), which may also be the cause of dizziness and headaches 
-- constipation 
-- high level of lipase in the blood </p>
-<p>Common (may affect up to 1 in 10 people): 
-- reduced number of all three types of blood cells - red blood cells, white blood cells, and 
-platelets (pancytopenia) 
-- frequently passing wind (flatulence) </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- tuberculosis 
-- recurrence of hepatitis B infection (which can cause yellowing of the skin and eyes, dark 
-brown-colored urine, right-sided stomach pain, fever and feeling nauseous or being sick). </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>high level of cholesterol or fat in the blood (hypertriglyceridaemia) </li>
+<li>abnormal liver function test results </li>
+<li>dizziness </li>
+<li>headache </li>
+<li>urinary tract infections </li>
+<li>weight gain </li>
+<li>fever, cough, difficult or painful breathing, wheezing, pain in chest when breathing (possible 
+symptoms of pneumonia) </li>
+<li>high blood pressure (hypertension), which may also be the cause of dizziness and headaches </li>
+<li>constipation </li>
+<li>high level of lipase in the blood </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>reduced number of all three types of blood cells - red blood cells, white blood cells, and 
+platelets (pancytopenia) </li>
+<li>frequently passing wind (flatulence) </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>tuberculosis </li>
+<li>recurrence of hepatitis B infection (which can cause yellowing of the skin and eyes, dark 
+brown-colored urine, right-sided stomach pain, fever and feeling nauseous or being sick). </li>
+</ul>
 <p>Graft-versus-host disease (GvHD) </p>
 <p>Some side effects could be serious 
 Seek medical help immediately prior to taking the next scheduled dose if you experience the 
 following serious side effects: 
-Very common (may affect more than 1 in 10 people): 
-- fever, pain, redness, and/or difficulty breathing (possible symptoms of an infection with the 
-cytomegalovirus (cytomegalovirus infection)) 
-- fever, pain when urinating (possible symptoms of a urinary tract infection) 
-- fast heart rate, fever, confusion and rapid breathing (possible symptoms of sepsis, which is a 
-serious condition that occurs in response to an infection that causes widespread inflammation) 
-- tiredness, fatigue, pale skin (possible symptoms of anaemia which is caused by low level of red 
+Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>fever, pain, redness, and/or difficulty breathing (possible symptoms of an infection with the 
+cytomegalovirus (cytomegalovirus infection)) </li>
+<li>fever, pain when urinating (possible symptoms of a urinary tract infection) </li>
+<li>fast heart rate, fever, confusion and rapid breathing (possible symptoms of sepsis, which is a 
+serious condition that occurs in response to an infection that causes widespread inflammation) </li>
+<li>tiredness, fatigue, pale skin (possible symptoms of anaemia which is caused by low level of red 
 blood cells), frequent infections, fever, chills, sore throat or mouth ulcers due to infections 
 (possible symptoms of neutropenia which is caused by low level of white blood cells), 
 spontaneous bleeding or bruising (possible symptoms of thrombocytopenia which is caused by 
-low levels of platelets) 
-- low counts of all three types of blood cells - red blood cells, white blood cells, and platelets 
-(pancytopenia) </p>
+low levels of platelets) </li>
+<li>low counts of all three types of blood cells - red blood cells, white blood cells, and platelets 
+(pancytopenia) </li>
+</ul>
 <p>Other side effects 
 Other possible side effects include the following listed below. If you experience these side effects, talk 
 to your doctor or pharmacist. </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- high level of cholesterol (hypercholesterolaemia) 
-- headache 
-- high blood pressure (hypertension) 
-- high level of lipase in the blood 
-- abnormal blood test, which could indicate possible damage to the pancreas (elevated amylase) 
-- feeling sick (nausea) 
-- abnormal liver function test results 
-- increased blood level of enzyme from muscle potentially indicating muscle damage and/or 
-muscle breakdown (increased blood creatine phosphokinase) 
-- increased blood level of creatinine, a substance normally eliminated by the kidneys into the 
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>high level of cholesterol (hypercholesterolaemia) </li>
+<li>headache </li>
+<li>high blood pressure (hypertension) </li>
+<li>high level of lipase in the blood </li>
+<li>abnormal blood test, which could indicate possible damage to the pancreas (elevated amylase) </li>
+<li>feeling sick (nausea) </li>
+<li>abnormal liver function test results </li>
+<li>increased blood level of enzyme from muscle potentially indicating muscle damage and/or 
+muscle breakdown (increased blood creatine phosphokinase) </li>
+<li>increased blood level of creatinine, a substance normally eliminated by the kidneys into the 
 urine, which may mean that your kidneys are not functioning properly (increased blood 
-creatinine) </p>
-<p>Common (may affect up to 1 in 10 people): 
-- fever, pain, redness, and/or difficulty breathing (possible symptoms of infection with BK virus) 
-- weight gain 
-- constipation </p>
+creatinine) </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>fever, pain, redness, and/or difficulty breathing (possible symptoms of infection with BK virus) </li>
+<li>weight gain </li>
+<li>constipation </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -333,8 +353,8 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store jakavi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or blister after “EXP”. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton or blister after  EXP . </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -353,14 +373,14 @@ throw away medicines you no longer use. These measures will help protect the env
 - The other ingredients are: microcrystalline cellulose, magnesium stearate, colloidal anhydrous 
 silica, sodium starch glycolate, povidone, hydroxypropylcellulose, lactose monohydrate. </p>
 <p>What Jakavi looks like and contents of the pack 
-Jakavi 5 mg tablets are white to almost white round tablets with “NVR” debossed on one side and 
-“L5” debossed on the other side. 
-Jakavi 10 mg tablets are white to almost white round tablets with “NVR” debossed on one side and 
-“L10” debossed on the other side. 
-Jakavi 15 mg tablets are white to almost white oval tablets with “NVR” debossed on one side and 
-“L15” debossed on the other side. 
-Jakavi 20 mg tablets are white to almost white elongated tablets with “NVR” debossed on one side 
-and “L20” debossed on the other side. </p>
+Jakavi 5 mg tablets are white to almost white round tablets with  NVR  debossed on one side and 
+ L5  debossed on the other side. 
+Jakavi 10 mg tablets are white to almost white round tablets with  NVR  debossed on one side and 
+ L10  debossed on the other side. 
+Jakavi 15 mg tablets are white to almost white oval tablets with  NVR  debossed on one side and 
+ L15  debossed on the other side. 
+Jakavi 20 mg tablets are white to almost white elongated tablets with  NVR  debossed on one side 
+and  L20  debossed on the other side. </p>
 <p>Jakavi tablets are supplied in blister packs containing 14 or 56 tablets or multipacks containing (3 packs of 56) tablets </p>
 <p>Not all packs may be marketed in your country. </p>
 <p>Marketing Authorisation Holder 
@@ -370,7 +390,7 @@ Elm Park, Merrion Road
 Dublin 4 
 Ireland </p>
 <p>Manufacturer 
-Novartis Farmacéutica S.A. 
+Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
@@ -378,23 +398,22 @@ Roonstrasse 90429 Nuremberg
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -410,35 +429,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 </p>
 <p>Italia 
@@ -446,10 +465,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

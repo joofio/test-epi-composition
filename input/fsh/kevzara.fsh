@@ -4,7 +4,7 @@ Instance: composition-en-9731e4b0c59c667008c1be9f642fafee
 InstanceOf: CompositionUvEpi
 Title: "Composition for kevzara Package Leaflet"
 Description:  "Composition for kevzara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -122,7 +122,7 @@ Tell your doctor or pharmacist if you are using, have recently used, or might us
 This is because Kevzara can affect the way some other medicines work. Also some other medicines 
 can affect the way Kevzara works. </p>
 <p>In particular, do not use Kevzara and tell your doctor or pharmacist if you are using: 
-* a group of medicines called “Janus kinase (JAK) inhibitors” (used for diseases like rheumatoid 
+* a group of medicines called  Janus kinase (JAK) inhibitors  (used for diseases like rheumatoid 
  arthritis and cancer) 
 * other biological medicines used in the treatment of rheumatoid arthritis<br />
 If any of the above apply to you (or you are not sure), talk to your doctor or pharmacist. </p>
@@ -154,12 +154,12 @@ arthritis. Always use this medicine exactly as your doctor or pharmacist has tol
 doctor or pharmacist if you are not sure.  </p>
 <p>The recommended dose is one 200 mg injection every two weeks.<br />
 * Your doctor may adjust the dose of your medicine based on results of blood tests.  </p>
-<p>Kevzara is given as an injection under the skin (called “subcutaneous” injection). </p>
+<p>Kevzara is given as an injection under the skin (called  subcutaneous  injection). </p>
 <p>Learning how to use the pre-filled syringe<br />
 <em> Your doctor, pharmacist, or nurse will show you how to inject Kevzara. Following these 
 instructions, Kevzara can be self-injected or administered by a care-giver.<br />
-</em> Carefully follow the “Instructions for Use” provided in the carton.<br />
-* Use the pre-filled syringe exactly as described in the “Instructions for Use”. </p>
+</em> Carefully follow the  Instructions for Use  provided in the carton.<br />
+* Use the pre-filled syringe exactly as described in the  Instructions for Use . </p>
 <p>If you use more Kevzara than you should 
 If you have used more Kevzara than you should, talk to your doctor, pharmacist or nurse.  </p>
 <p>If you miss a dose of Kevzara 
@@ -219,9 +219,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C).<br />
+<p>Store in a refrigerator (2 C to 8 C).<br />
 <em> Do not freeze.<br />
-</em> Once taken out of the refrigerator, do not store Kevzara above 25 ºC.<br />
+</em> Once taken out of the refrigerator, do not store Kevzara above 25  C.<br />
 <em> Write down the date of removal from the refrigerator in the space provided on the outer carton. 
 * Use the syringe within 14 days after taking it out of the refrigerator or the insulated bag.<br />
 </em> Keep the syringe in the original carton in order to protect from light. </p>
@@ -260,22 +260,21 @@ Sanofi Winthrop Industrie
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -290,18 +289,17 @@ Telefon: 0800 04 36 Telefon aus dem Ausland: +49 69 305 70<br />
 Nederland 
 Sanofi B.V. 
 Tel: +31 20 245 4Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94<br />
 Polska 
@@ -309,14 +307,14 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00  </p>
 <p>France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
+T l: 0 800 222 Portugal 
+Sanofi - Produtos Farmac uticos, Lda 
 Tel: +351 21 35 89  </p>
-<p>Appel depuis l’étranger : +33 1 57 63 23  </p>
+<p>Appel depuis l tranger : +33 1 57 63 23  </p>
 <p>Hrvatska<br />
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -325,10 +323,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -337,10 +335,9 @@ Tel: 800 13 12 12 (domande di tipo tecnico)<br />
 800 536389 (altre domande) </p>
 <p>Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

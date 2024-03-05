@@ -4,7 +4,7 @@ Instance: composition-en-d84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for erbitux Package Leaflet"
 Description:  "Composition for erbitux Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
 <p>Erbitux contains cetuximab, a monoclonal antibody. Monoclonal antibodies are proteins that 
 specifically recognise and bind to other unique proteins called antigens. Cetuximab binds to the 
 epidermal growth factor receptor (EGFR), an antigen on the surface of certain cancer cells. EGFR 
-activates proteins called RAS. RAS proteins play an important role in the EGFR pathway – a complex 
+activates proteins called RAS. RAS proteins play an important role in the EGFR pathway   a complex 
 signalling cascade which is involved in the development and progression of cancer. As a result of this 
 binding, the cancer cell can no longer receive the messages it needs for growth, progression and 
 metastasis. </p>
@@ -161,8 +161,8 @@ reaction. Your doctor will decide whether such pre-treatment is necessary for su
 <p>Dosage and administration </p>
 <p>Erbitux is usually infused into a vein (given as a drip) once a week. Your doctor will calculate the 
 correct dose of Erbitux for you because it depends on your body surface area. The first dose 
-(400 mg/m² body surface area) is infused over a period of approximately 2 hours with an infusion rate 
-not faster than 5 mg/min. Each subsequent dose (250 mg/m² body surface area) is infused in 
+(400 mg/m  body surface area) is infused over a period of approximately 2 hours with an infusion rate 
+not faster than 5 mg/min. Each subsequent dose (250 mg/m  body surface area) is infused in 
 approximately 1 hour with an infusion rate not faster than 10 mg/min. </p>
 <p>Detailed instructions for your doctor or your nurse on how to prepare the Erbitux infusion are included 
 at the end of this package leaflet (see 'Handling instructions'). </p>
@@ -216,7 +216,7 @@ therapy. </p>
 * excessive growth of hair 
 * nail disorders, for example inflammation of the nail bed  </p>
 <p>In very rare cases (may affect up to 1 in 10,000 people) patients may experience blistering or peeling 
-of the skin, which may indicate a severe skin reaction called “Stevens-Johnson syndrome”. If you 
+of the skin, which may indicate a severe skin reaction called  Stevens-Johnson syndrome . If you 
 experience these symptoms, please speak to a doctor immediately, because these signs may have 
 serious consequences including life-threatening conditions. </p>
 <p>If you notice other extensive skin alterations, please inform your doctor as soon as possible 
@@ -290,7 +290,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2C – 8C). Once opened, Erbitux is intended for immediate use. </p>         </div>"""      
+<p>Store in a refrigerator (2 C   8 C). Once opened, Erbitux is intended for immediate use. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -317,7 +317,7 @@ Gustav Mahlerplein 1082 MA Amsterdam
 The Netherlands </p>
 <p>Manufacturer </p>
 <p>Merck Healthcare KGaA 
-Frankfurter Straße 64293 Darmstadt 
+Frankfurter Stra e 64293 Darmstadt 
 Germany </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>

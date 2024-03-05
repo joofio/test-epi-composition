@@ -4,7 +4,7 @@ Instance: composition-en-5be5abfec999fc8a1ea184754c57f783
 InstanceOf: CompositionUvEpi
 Title: "Composition for vafseo Package Leaflet"
 Description:  "Composition for vafseo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -78,7 +78,7 @@ When the amount of haemoglobin or the number of red blood cells is low, the cell
 not receive enough oxygen. Anaemia can cause symptoms such as tiredness, weakness, or shortness of 
 breath. </p>
 <p>How Vafseo works 
-Vafseo increases the level of a substance called “Hypoxia-Inducible Factor” (HIF), which increases 
+Vafseo increases the level of a substance called  Hypoxia-Inducible Factor  (HIF), which increases 
 the production of red blood cells when oxygen levels are low. By raising HIF levels, Vafseo increases 
 the production of red blood cells and raises the levels of haemoglobin. This improves the oxygen 
 supply to your body and may reduce your anaemia symptoms. </p>         </div>"""   
@@ -97,26 +97,28 @@ section 6). </p>
 Talk to your doctor or pharmacist before taking Vafseo if you: 
 * had blood clots in the past and/or have risk factors for blood clots. This medicine increases the 
 production of red blood cells and this may increase the risk of developing blood clots. 
-Examples of risk factors are: 
-- being overweight 
-- diabetes 
-- heart diseases 
-- being off your feet for a long time because of surgery or illness 
-- taking oral contraceptives 
+Examples of risk factors are:</p>
+<ul>
+<li>being overweight </li>
+<li>diabetes </li>
+<li>heart diseases </li>
+<li>being off your feet for a long time because of surgery or illness </li>
+<li>taking oral contraceptives 
 It is important that you tell your doctor about previous heart attack, stroke, blood clots or risk 
 factors so your doctor can decide if this medicine is a suitable treatment for your anaemia.<br />
 Talk to your doctor immediately if you think you have developed a blood clot. You can find a 
 description of possible blood clot symptoms below in section 4. * have high blood pressure (hypertension). Vafseo may worsen your high blood pressure. 
 Therefore, it is very important that you take your high blood pressure medicines regularly and 
-that you frequently check your blood pressure. 
-* have severe liver disease. 
-* have a convulsion or fit or possible warning signs that a convulsion may occur, such as 
-headache, irritability, fear, confusion or unusual feelings 
-* are converting from high doses of erythropoiesis-stimulating agent (ESA) because you might 
+that you frequently check your blood pressure. </li>
+<li>have severe liver disease. </li>
+<li>have a convulsion or fit or possible warning signs that a convulsion may occur, such as 
+headache, irritability, fear, confusion or unusual feelings </li>
+<li>are converting from high doses of erythropoiesis-stimulating agent (ESA) because you might 
 require red blood cell transfusion or supplemental ESA while the doctor is adjusting your 
 Vafseo dose. 
 Talk to your doctor or pharmacist before taking Vafseo if you have any of the conditions mentioned 
-above. </p>
+above. </li>
+</ul>
 <p>Misuse can lead to an increase in red blood cells and consequently thicken the blood. This can cause 
 life-threatening problems with the heart or blood vessels. </p>
 <p>Blood tests 
@@ -166,7 +168,7 @@ It is not known if Vafseo has an effect on your fertility. </p>
 Vafseo is unlikely to affect your ability to drive and use machines. </p>
 <p>Vafseo contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vafseo"
@@ -224,20 +226,22 @@ doctor tells you to do so. </p>
 Contact your doctor straight away if you get any of the following: </p>
 <p>Very common (may affect more than 1 in 10 people) 
 * high blood pressure (hypertension) 
-* blood clots (thromboembolic events) which may lead to: 
-- heart attack (myocardial infarction), with symptoms such as pain in chest and/or other 
+* blood clots (thromboembolic events) which may lead to:</p>
+<ul>
+<li>heart attack (myocardial infarction), with symptoms such as pain in chest and/or other 
 parts of the body, feeling dizzy, shortness of breath, feeling or being sick, sense of 
-anxiety<br />
-- stroke (cerebrovascular accident), with symptoms such as sudden severe headache, 
-seizures (fits), loss of coordination, loss of balance 
-- blood clot in a blood vessel in the lungs (pulmonary embolism), with symptoms such as 
-pain in your chest or upper back, difficulty breathing, coughing up blood 
-- blood clot in a vein, such as in the leg (known as deep vein thrombosis), with symptoms 
-such as painful swelling and redness 
-- “mini stroke” (TIA), with symptoms such as speech and visual disturbance, and 
-numbness or weakness in the face, arms and legs 
-- stenosis (arteriovenous fistula thrombosis and arteriovenous graft thrombosis), with 
-symptoms such as purplish, bulging veins seen through the skin, similar to varicose veins. </p>
+anxiety  </li>
+<li>stroke (cerebrovascular accident), with symptoms such as sudden severe headache, 
+seizures (fits), loss of coordination, loss of balance </li>
+<li>blood clot in a blood vessel in the lungs (pulmonary embolism), with symptoms such as 
+pain in your chest or upper back, difficulty breathing, coughing up blood </li>
+<li>blood clot in a vein, such as in the leg (known as deep vein thrombosis), with symptoms 
+such as painful swelling and redness </li>
+<li>mini stroke  (TIA), with symptoms such as speech and visual disturbance, and 
+numbness or weakness in the face, arms and legs </li>
+<li>stenosis (arteriovenous fistula thrombosis and arteriovenous graft thrombosis), with 
+symptoms such as purplish, bulging veins seen through the skin, similar to varicose veins. </li>
+</ul>
 <p>Other possible side effects 
 Talk to your doctor if you get any of the following side effects: </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -289,24 +293,24 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>The other ingredients are: </p>
 <p>Tablet core </p>
 <p>Microcrystalline cellulose (E 460), sodium starch glycolate, hypromellose (E 464), silica, colloidal 
-anhydrous (E 551), magnesium stearate. See section 2 “Vafseo contains sodium”. </p>
+anhydrous (E 551), magnesium stearate. See section 2  Vafseo contains sodium . </p>
 <p>Tablet coating </p>
 <p>Polyvinyl alcohol (E 1203), macrogol (E 1521), talc (E 553b), titanium dioxide (E 171), yellow iron 
 oxide (E 172) (only for 300 mg), iron oxide red (E 172) and ferrosoferric oxide (E 172) (both only for 
 450 mg). </p>
 <p>What Vafseo looks like and contents of the pack 
-Vafseo 150 mg film-coated tablets are round and white, debossed with “VDT” on one side and “150” 
+Vafseo 150 mg film-coated tablets are round and white, debossed with  VDT  on one side and  150<br />
 on the other side.<br />
-Vafseo 300 mg film-coated tablets are oval and yellow, debossed with “VDT” on one side and “300” 
+Vafseo 300 mg film-coated tablets are oval and yellow, debossed with  VDT  on one side and  300<br />
 on the other side.<br />
-Vafseo 450 mg film-coated tablets are oval and pink, debossed with “VDT” on one side and “450” on 
+Vafseo 450 mg film-coated tablets are oval and pink, debossed with  VDT  on one side and  450  on 
 the other side.  </p>
 <p>Vafseo film-coated tablets are supplied in cartons containing 28 or 98 film-coated tablets in 
 PVC/aluminium foil blisters. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 AKEBIA EUROPE Limited 
-70 Sir John Rogerson’s Quay 
+70 Sir John Rogerson s Quay 
 Dublin 2 
 Co. Dublin 
 D02 R296 <br />

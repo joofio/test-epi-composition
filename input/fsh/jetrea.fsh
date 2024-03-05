@@ -4,7 +4,7 @@ Instance: composition-en-c655ba158247aca6fe88c56a30a2ce75
 InstanceOf: CompositionUvEpi
 Title: "Composition for jetrea Package Leaflet"
 Description:  "Composition for jetrea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -156,41 +156,47 @@ vomiting have been reported in up to 1 in 100 patients and may be the signs of a
 wobbling of the lens in the eye from its normal position.  </li>
 </ul>
 <p>Talk to your doctor/ophthalmologist if you develop any of the additional side effects listed below: </p>
-<p>Very common side effects (may affect more than 1 in 10 patients): 
-- dark floating spots in the field of vision (floaters) 
-- eye pain 
-- bleeding on the surface of the eye<br />
-- colour vision changes </p>
-<p>Common side effects (may affect up to 1 in 10 patients): 
-- decreased vision which may be severe 
-- visual disturbances<br />
-- decreased vision or blind spots in parts of the field of view<br />
-- blurred vision<br />
-- bleeding inside the eye 
-- blind spot or blind area in the centre of the vision 
-- distorted vision<br />
-- swelling of the surface of the eye 
-- swelling of the eyelid 
-- inflammation of the eye<br />
-- flashes of light in the eye<br />
-- eye redness<br />
-- irritation on the surface of the eye <br />
-- dry eye<br />
-- a feeling of having something in the eye<br />
-- itching of the eye <br />
-- eye discomfort<br />
-- sensitivity to light<br />
-- increased tear production  </p>
-<p>Uncommon side effects (may affect up to 1 in 100 patients): 
-- transient severe decreased vision<br />
-- difficulty in seeing well at night or in dim light 
-- disturbance in your eye’s reaction to the light that may increase your sensitivity to light (pupillary 
-reflex impaired) 
-- double vision<br />
-- accumulation of blood in the front part of the eye 
-- abnormal constriction of the pupil (black part in the centre of the eye)<br />
-- different sized pupils<br />
-- a scratch or scrape of the cornea (transparent layer that covers the front of the eye)  </p>
+<p>Very common side effects (may affect more than 1 in 10 patients):</p>
+<ul>
+<li>dark floating spots in the field of vision (floaters) </li>
+<li>eye pain </li>
+<li>bleeding on the surface of the eye  </li>
+<li>colour vision changes </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 patients):</p>
+<ul>
+<li>decreased vision which may be severe </li>
+<li>visual disturbances  </li>
+<li>decreased vision or blind spots in parts of the field of view  </li>
+<li>blurred vision  </li>
+<li>bleeding inside the eye </li>
+<li>blind spot or blind area in the centre of the vision </li>
+<li>distorted vision  </li>
+<li>swelling of the surface of the eye </li>
+<li>swelling of the eyelid </li>
+<li>inflammation of the eye  </li>
+<li>flashes of light in the eye  </li>
+<li>eye redness  </li>
+<li>irritation on the surface of the eye   </li>
+<li>dry eye  </li>
+<li>a feeling of having something in the eye  </li>
+<li>itching of the eye   </li>
+<li>eye discomfort  </li>
+<li>sensitivity to light  </li>
+<li>increased tear production  </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 patients):</p>
+<ul>
+<li>transient severe decreased vision  </li>
+<li>difficulty in seeing well at night or in dim light </li>
+<li>disturbance in your eye s reaction to the light that may increase your sensitivity to light (pupillary 
+reflex impaired) </li>
+<li>double vision  </li>
+<li>accumulation of blood in the front part of the eye </li>
+<li>abnormal constriction of the pupil (black part in the centre of the eye)  </li>
+<li>different sized pupils  </li>
+<li>a scratch or scrape of the cornea (transparent layer that covers the front of the eye)  </li>
+</ul>
 <p>Some tests and imaging of the back of the eye (retina) have been found to be abnormal after Jetrea 
 administration. Your doctor will be aware of this and will take it into account when monitoring your 
 eye. </p>
@@ -219,5 +225,24 @@ any unused solution correctly. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Jetrea contains<br />
-- The active substance is ocriplasmin. One vial of Jetrea contains 0.375 mg of ocriplasmin in </p>         </div>"""      
+- The active substance is ocriplasmin. One vial of Jetrea contains 0.375 mg of ocriplasmin in 
+0.3 mL solution.<br />
+- The other ingredients are sodium chloride (NaCl), mannitol, citric acid, sodium hydroxide 
+(NaOH) (for pH adjustment), hydrochloric acid (HCl) (for pH adjustment) and water for 
+injections. </p>
+<p>What Jetrea looks like and contents of the pack 
+Jetrea is a solution for injection in a vial. The solution is clear and colourless.<br />
+Each pack contains one vial. </p>
+<p>Marketing Authorisation Holder 
+Inceptua AB 
+Gustavslundsv. 16751 Bromma 
+Sweden </p>
+<p>Manufacturer 
+Oxurion NV 
+Gaston Geenslaan 1 
+B-3001 Leuven 
+Belgium </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

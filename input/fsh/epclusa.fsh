@@ -4,7 +4,7 @@ Instance: composition-en-e9ae841f23c2665e4711986b64a357a9
 InstanceOf: CompositionUvEpi
 Title: "Composition for epclusa Package Leaflet"
 Description:  "Composition for epclusa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -45,7 +45,7 @@ Usage: #example
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Epclusa has been prescribed for your child, please note that all the information in this leaflet 
-is addressed to your child (in this case please read “your child” instead of “you”). </p>         </div>"""   
+is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
 
 
 
@@ -86,11 +86,11 @@ Epclusa. If you have any questions about your medicines, please ask your doctor 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Epclusa 
 * If you are allergic to sofosbuvir, velpatasvir or any of the other ingredients of this medicine 
 (listed in section 6 of this leaflet). </p>
-<p> If this applies to you, do not take Epclusa and tell your doctor immediately. </p>
+<p>If this applies to you, do not take Epclusa and tell your doctor immediately. </p>
 <ul>
 <li>If you are currently taking any of the following medicines: </li>
 <li>rifampicin and rifabutin (antibiotics used to treat infections, including tuberculosis); </li>
-<li>St. John’s wort (herbal medicine used to treat depression); </li>
+<li>St. John s wort (herbal medicine used to treat depression); </li>
 <li>carbamazepine, phenobarbital and phenytoin (medicines used to treat epilepsy and 
 prevent seizures). </li>
 </ul>
@@ -180,7 +180,7 @@ The effects of Epclusa during pregnancy are not known. If you are pregnant, thin
 pregnant or are planning to have a baby, ask your doctor for advice before taking this medicine. </p>
 <p>Epclusa is sometimes used together with ribavirin. Ribavirin can harm your unborn baby. It is 
 therefore very important that you (or your partner) do not become pregnant during this treatment or for 
-a period of time after completing treatment. You must read the “Pregnancy” section in the ribavirin 
+a period of time after completing treatment. You must read the  Pregnancy  section in the ribavirin 
 package leaflet very carefully. Ask your doctor for effective contraception method suitable for you and 
 your partner. </p>
 <p>Breast-feeding 
@@ -190,7 +190,7 @@ velpatasvir, the two active substances of Epclusa, pass into human breast milk. 
 Epclusa should not affect your ability to drive or use any tools or machinery. </p>
 <p>Epclusa contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take epclusa"
@@ -223,7 +223,7 @@ It is important not to miss a dose of this medicine. </p>
 <p>If you do miss a dose, work out how long it is since you last took your Epclusa: 
 * If you notice within 18 hours of the time you usually take Epclusa, you must take the dose as 
 soon as possible. Then take the next dose at your usual time. 
-* If it’s 18 hours or more after the time you usually take Epclusa, wait and take the next dose at 
+* If it s 18 hours or more after the time you usually take Epclusa, wait and take the next dose at 
 your usual time. Do not take a double dose (two doses close together). </p>
 <p>Do not stop taking Epclusa 
 Do not stop taking this medicine unless your doctor tells you to. It is very important that you complete 
@@ -252,7 +252,7 @@ The frequency of the following side effects is not known (frequency cannot be es
 available data). 
 * a wide spread severe rash with peeling skin which may be accompanied by fever, flu like 
 symptoms, blisters in the mouth, eyes, and/or genitals (Stevens Johnson syndrome). </p>
-<p> If you get any side effects tell your doctor. </p>
+<p>If you get any side effects tell your doctor. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -265,7 +265,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store epclusa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -294,10 +294,10 @@ section 2 of this leaflet), magnesium stearate (E470b) </p>
 Poly(vinyl alcohol) (E1203), titanium dioxide (E171), macrogol (E1521), talc (E553b), iron 
 oxide red (E172) </p>
 <p>What Epclusa looks like and contents of the pack 
-Epclusa 400 mg/100 mg film-coated tablets are pink, diamond-shaped tablets debossed with “GSI” on 
-one side and “7916” on the other side. The tablet is 20 mm long and 10 mm wide. </p>
-<p>Epclusa 200 mg/50 mg film-coated tablets are pink, oval-shaped tablets debossed with “GSI” on one 
-side and “S/V” on the other side. The tablet is 14 mm long and 7 mm wide. </p>
+Epclusa 400 mg/100 mg film-coated tablets are pink, diamond-shaped tablets debossed with  GSI  on 
+one side and  7916  on the other side. The tablet is 20 mm long and 10 mm wide. </p>
+<p>Epclusa 200 mg/50 mg film-coated tablets are pink, oval-shaped tablets debossed with  GSI  on one 
+side and  S/V  on the other side. The tablet is 14 mm long and 7 mm wide. </p>
 <p>The following pack sizes are available for both the 400 mg/100 mg and 200 mg/50 mg film-coated 
 tablets: 
 * outer cartons containing 1 bottle of 28 film-coated tablets </p>
@@ -313,22 +313,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
 Danmark 
@@ -348,14 +347,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -363,14 +361,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L.<br />
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -379,10 +377,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -390,10 +388,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

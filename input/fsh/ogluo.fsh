@@ -4,7 +4,7 @@ Instance: composition-en-9f9daf83bf13eb0a61dfb2c983d49142
 InstanceOf: CompositionUvEpi
 Title: "Composition for ogluo Package Leaflet"
 Description:  "Composition for ogluo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ adults, adolescents, and children aged 2 years or older. </p>
 <p>Ogluo is a ready-to-use, pre-filled pen that contains a single dose of the active substance, glucagon. It 
 is a subcutaneous injection, meaning that the medicine is administered under the skin using a needle. </p>
 <p>Glucagon is a natural hormone produced by the pancreas, which has the opposite effect of insulin in 
-the human body. It helps the liver to convert stored sugar in the liver called ‘glycogen’ into glucose 
+the human body. It helps the liver to convert stored sugar in the liver called  glycogen  into glucose 
 (sugar). Glucose is then released into the blood stream, which makes the blood sugar level rise, 
 reducing the effects of hypoglycaemia. </p>
 <p>Information on hypoglycaemia 
@@ -133,7 +133,7 @@ carry Ogluo with you. </p>
 your family members and others where you keep Ogluo and how to use it. They must act 
 quickly if you become unconscious because if this happens for a period of time, it may be 
 harmful. You, or the person administering Ogluo to you, should follow the instructions in 
-Section 3 of this leaflet: ‘How to use Ogluo’. </p>
+Section 3 of this leaflet:  How to use Ogluo . </p>
 </li>
 <li>
 <p>It is important that you store Ogluo correctly to make sure that it can be used straight away if 
@@ -161,14 +161,14 @@ group. </p>
 <p>Other medicines and Ogluo 
 Tell your doctor if you are taking, have recently taken, or might take any other medicines. </p>
 <p>The following medicines can affect the way that Ogluo works: 
-* Insulin – used to treat diabetes. Insulin has the opposite effect of glucagon on blood 
+* Insulin   used to treat diabetes. Insulin has the opposite effect of glucagon on blood 
 sugar. 
-* Indomethacin – used to treat joint pain and stiffness. Indomethacin reduces the effect of 
+* Indomethacin   used to treat joint pain and stiffness. Indomethacin reduces the effect of 
 glucagon. </p>
 <p>Ogluo can affect the way that the following medicines work: 
-* Warfarin – used to prevent blood clots. Ogluo may increase the blood-thinning effect of 
+* Warfarin   used to prevent blood clots. Ogluo may increase the blood-thinning effect of 
 warfarin. 
-* Beta-blockers – used to treat high blood pressure and irregular heart beat. Ogluo may 
+* Beta-blockers   used to treat high blood pressure and irregular heart beat. Ogluo may 
 increase your blood pressure and pulse but this will only last a short time. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor or pharmacist before taking 
 Ogluo. </p>
@@ -238,7 +238,7 @@ Do not inject through clothing.  </p>
 Back view 
 Expose skin of injection site </p>
 <p>Push and hold this medicine straight down 
-against the injection site. Listen for a “click”.  </p>
+against the injection site. Listen for a  click .  </p>
 <p>Continue to hold the device down and count 
 slowly to 5 (see Figure 6). </p>
 <p>When the injection is complete, the viewing 
@@ -278,7 +278,7 @@ under 6 years, the recommended dose will depend on how much they weigh.   </p>
 hold 
 Hold down 
 for 5 seconds 
-“Click” </p>
+ Click  </p>
 <p>Lift away 
 from skin 
 Yellow needle guard 
@@ -290,15 +290,9 @@ Recommended dose of
 Ogluo<br />
 Children, ages 2 years to 
 under 6 years 
-Less than 25 kg </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children, ages 2 years to 
+Less than 25 kg </p>
+<p>0.5 mg 
+Children, ages 2 years to 
 under 6 years 
 More than or equal to 25 kg  </p>
 <p>1 mg 
@@ -310,18 +304,19 @@ Not Applicable
 fast-acting source of sugar, such as fruit juice or a sugar-containing carbonated drink. </p>
 <p>If you use more Ogluo than you should 
 Too much medicine may make you feel sick (nausea) or cause you to be sick (vomit). Specific 
-treatment is not usually necessary. </p>         </div>"""      
+treatment is not usually necessary. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ogluo"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ogluo"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Contact your doctor or a healthcare professional immediately if you notice any of the following serious 
 side effects: </p>
 <p>Very rare (may affect up to 1 in 10,000 people) 
-* allergic reaction – signs may include wheezing, sweating, rapid heartbeat, rash, swollen 
+* allergic reaction   signs may include wheezing, sweating, rapid heartbeat, rash, swollen 
 face (i.e, swelling of the face, lips, tongue, and throat which may cause difficulty in 
 swallowing or breathing), or collapse. Allergic reaction has not been reported with Ogluo, 
 but has been seen in other injectable glucagon medicines. You should seek help urgently 
@@ -354,19 +349,66 @@ leaflet. You can also report side effects directly via the national reporting sy
 By reporting side effects, you can help provide more information on the safety of this medicine. </li>
 </ul>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use this medicine after the expiry date which is stated on the pen, pouch, and carton. The 
+expiry date refers to the last day of that month. </p>
+<p>Keep this medicine out of the sight and reach of children. </p>
+<p>This medicine should not be stored above 25 C.  </p>
+<p>Do not refrigerate or freeze. Do not store below 15 C. </p>
+<p>Store in the foil pouch before use to protect from light and moisture.   </p>
+<p>Do not use this medicine if you notice the solution is discoloured or contains particulate matter. </p>
+<p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
+medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use this medicine after the expiry date which is stated on the pen, pouch, and carton. The 
-expiry date refers to the last day of that month. </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
-<p>This medicine should not be stored above 25°C.  </p>
-<p>Do not refrigerate or freeze. Do not store below 15°C. </p>
-<p>Store in the foil pouch before use to protect from light and moisture.   </p>
-<p>Do not use this medicine if you notice the solution is discoloured or contains particulate matter. </p>
-<p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ogluo contains<br />
+- The active substance in Ogluo is glucagon.<br />
+- Ogluo 0.5 mg solution for injection in pre-filled pen<br />
+Each pre-filled pen contains 0.5 mg glucagon in 0.1 mL. </p>
+<ul>
+<li>
+<p>Ogluo 1 mg solution for injection in pre-filled pen<br />
+Each pre-filled pen contains 1 mg glucagon in 0.2 mL. </p>
+</li>
+<li>
+<p>The other ingredients are trehalose dihydrate, dimethyl sulfoxide (DMSO), sulfuric acid, and 
+water for injections. </p>
+</li>
+</ul>
+<p>What Ogluo looks like and the contents of the pack 
+Ogluo is a clear, colourless to pale yellow solution. It is produced in a ready-to-use, pre-filled, single-
+dose pen, containing either 0.5 mg or 1 mg of glucagon. Each medicine is indivudally packaged in a 
+foil pouch. A full list of the available Ogluo medicines is provided below.  </p>
+<ul>
+<li>
+<p>Ogluo 0.5 mg solution for injection in pre-filled pen, pack of 1 or 2 single-dose pre-filled 
+pens. </p>
+</li>
+<li>
+<p>Ogluo 1 mg solution for injection in pre-filled pen, pack of 1 or 2 single-dose pre-filled 
+pens. </p>
+</li>
+</ul>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder: 
+Tetris Pharma B.V 
+Bargelaan Element Offices 
+2333 CW Leiden 
+Netherlands </p>
+<p>Manufacturer:<br />
+Manufacturing Packaging Farmaca (MPF) B.V. 
+Neptunus Heerenveen, 8448CN 
+Netherlands </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

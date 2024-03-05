@@ -4,7 +4,7 @@ Instance: composition-en-fcac0917e849c1f92a8946a3de74e720
 InstanceOf: CompositionUvEpi
 Title: "Composition for talzenna Package Leaflet"
 Description:  "Composition for talzenna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Talzenna is and how it works 
 Talzenna contains the active substance talazoparib. It is a type of anticancer medicine known as a 
-‘PARP (poly-ADP ribose polymerase) inhibitor’.  </p>
+ PARP (poly-ADP ribose polymerase) inhibitor .  </p>
 <p>Talzenna works by blocking PARP, which is an enzyme that repairs damaged DNA in certain cancer 
 cells. As a result, the cancer cells can no longer repair themselves and they die. </p>
 <p>What Talzenna is used for 
@@ -102,13 +102,15 @@ experience signs or symptoms described in this section. </p>
 <p>Low blood cell counts 
 Talzenna lowers your blood cell counts, such as your red blood cell count (anaemia), white blood cell 
 count (neutropenia), or blood platelet count (thrombocytopenia). Signs and symptoms you need to 
-look out for include: 
-- Anaemia: Being short of breath, feeling very tired, pale skin, or fast heartbeat – these may be 
-signs of a low red blood cell count. 
-- Neutropenia: Infection, developing chills or shivering, or fever – these may be signs of a low 
-white blood cell count. 
-- Thrombocytopenia: Bruising or bleeding for longer than usual if you hurt yourself – these may 
-be signs of a low blood platelet count. </p>
+look out for include:</p>
+<ul>
+<li>Anaemia: Being short of breath, feeling very tired, pale skin, or fast heartbeat   these may be 
+signs of a low red blood cell count. </li>
+<li>Neutropenia: Infection, developing chills or shivering, or fever   these may be signs of a low 
+white blood cell count. </li>
+<li>Thrombocytopenia: Bruising or bleeding for longer than usual if you hurt yourself   these may 
+be signs of a low blood platelet count. </li>
+</ul>
 <p>You will have regular blood tests during treatment with Talzenna to check your blood cells (white 
 blood cells, red blood cells, and platelets). </p>
 <p>Serious problems with the bone marrow<br />
@@ -122,7 +124,7 @@ affected leg (or arm), chest pain, shortness of breath or lightheadedness. </p>
 <p>Male and female contraception 
 Women who can become pregnant and men with partners who are or can become pregnant should use 
 effective contraception.<br />
-Please see section “Male and female contraception” below. </p>
+Please see section  Male and female contraception  below. </p>
 <p>Children and adolescents 
 Talzenna is not to be used in children or adolescents (under 18 years of age). </p>
 <p>Other medicines and Talzenna 
@@ -130,23 +132,27 @@ Tell your doctor, pharmacist or nurse if you are taking, have recently taken or 
 medicines. This includes medicines obtained without a prescription and herbal medicines. This is 
 because Talzenna can affect the way some other medicines work. Also some medicines can affect the 
 way Talzenna works. </p>
-<p>In particular, the following may increase the risk of side effects with Talzenna: 
-- Amiodarone, carvedilol, dronedarone, propafenone, quinidine, ranolazine and verapamil – 
-generally used to treat heart problems. 
-- Clarithromycin and erythromycin antibiotics – used to treat bacterial infections. 
-- Itraconazole and ketoconazole – used to treat fungal infections. 
-- Cobicistat, darunavir, indinavir, lopinavir, ritonavir, saquinavir, telaprevir and tipranavir used to 
-treat HIV infections/AIDS. 
-- Ciclosporin – used in organ transplantation to prevent rejection. 
-- Lapatinib – used to treat patients with certain types of breast cancer. 
-- Curcumin (e.g. found in turmeric root) in some medicines (see also section Talzenna with food 
-and drink below). </p>
-<p>The following medicines may reduce the effect of Talzenna: 
-- Carbamazepine and phenytoin – anti-epileptics used to treat seizures or fits. 
-- St. John’s wort (Hypericum perforatum) – a herbal remedy used to treat mild depression and 
-anxiety. </p>
+<p>In particular, the following may increase the risk of side effects with Talzenna:</p>
+<ul>
+<li>Amiodarone, carvedilol, dronedarone, propafenone, quinidine, ranolazine and verapamil <br />
+generally used to treat heart problems. </li>
+<li>Clarithromycin and erythromycin antibiotics   used to treat bacterial infections. </li>
+<li>Itraconazole and ketoconazole   used to treat fungal infections. </li>
+<li>Cobicistat, darunavir, indinavir, lopinavir, ritonavir, saquinavir, telaprevir and tipranavir used to 
+treat HIV infections/AIDS. </li>
+<li>Ciclosporin   used in organ transplantation to prevent rejection. </li>
+<li>Lapatinib   used to treat patients with certain types of breast cancer. </li>
+<li>Curcumin (e.g. found in turmeric root) in some medicines (see also section Talzenna with food 
+and drink below). </li>
+</ul>
+<p>The following medicines may reduce the effect of Talzenna:</p>
+<ul>
+<li>Carbamazepine and phenytoin   anti-epileptics used to treat seizures or fits. </li>
+<li>St. John s wort (Hypericum perforatum)   a herbal remedy used to treat mild depression and 
+anxiety. </li>
+</ul>
 <p>Talzenna with food and drink 
-Do not use curcumin in food supplements while you are taking Talzenna as it may increase Talzenna’s 
+Do not use curcumin in food supplements while you are taking Talzenna as it may increase Talzenna s 
 side effects. Curcumin is found in turmeric root and you should not use large amounts of turmeric 
 root, but using spices in food is not likely to cause a problem. </p>
 <p>Pregnancy 
@@ -185,10 +191,12 @@ or tired (these are very common side effects of Talzenna), you should not drive 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
 <p>How much to take 
-Talzenna is taken by mouth once daily. The recommended dose is: 
-- for breast cancer: one 1 mg capsule of Talzenna. 
-- for prostate cancer: Talzenna is taken with a medicine called enzalutamide. The usual dose of 
-Talzenna is 0.5 mg (two 0.25 mg capsules). </p>
+Talzenna is taken by mouth once daily. The recommended dose is:</p>
+<ul>
+<li>for breast cancer: one 1 mg capsule of Talzenna. </li>
+<li>for prostate cancer: Talzenna is taken with a medicine called enzalutamide. The usual dose of 
+Talzenna is 0.5 mg (two 0.25 mg capsules). </li>
+</ul>
 <p>If you get certain side effects while you are taking Talzenna alone or in combination with 
 enzalutamide (see section 4), your doctor may lower your dose or stop treatment, either temporarily or 
 permanently. Take Talzenna and enzalutamide exactly as your doctor has told you.  </p>
@@ -216,11 +224,11 @@ Do not stop taking Talzenna unless your doctor tells you to. </p>
 <p>Tell your doctor straight away if you notice any of the following symptoms which could be a sign 
 of serious blood disorder:  </p>
 <p>Very common (may affect more than 1 in 10 people) 
-- Being short of breath, feeling very tired, having pale skin, or fast heartbeat – these may be signs 
+- Being short of breath, feeling very tired, having pale skin, or fast heartbeat   these may be signs 
 of a low red blood cell count (anaemia). 
-- Infection, developing chills or shivering, or fever or feeling hot – these may be signs of a low 
+- Infection, developing chills or shivering, or fever or feeling hot   these may be signs of a low 
 white blood cell count (neutropenia). 
-- Bruising or bleeding for longer than usual if you hurt yourself – these may be signs of a low 
+- Bruising or bleeding for longer than usual if you hurt yourself   these may be signs of a low 
 blood platelet count (thrombocytopenia). </p>
 <p>Talk to your doctor if you get any other side effects. These can include: </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -271,5 +279,114 @@ throw away medicines you no longer use. These measures will help protect the env
 The active substance is talazoparib. Talzenna hard capsules come in different strengths. 
 - Talzenna 0.1 mg hard capsules: each capsule contains talazoparib tosylate equivalent to 0.1 mg 
 talazoparib. 
-- Talzenna 0.25 mg hard capsules: each capsule contains talazoparib tosylate equivalent to </p>         </div>"""      
+- Talzenna 0.25 mg hard capsules: each capsule contains talazoparib tosylate equivalent to 
+0.25 mg talazoparib. 
+- Talzenna 1 mg hard capsules: each capsule contains talazoparib tosylate equivalent to 1 mg 
+talazoparib. 
+The other ingredients are:</p>
+<ul>
+<li>Capsule content: silicified microcrystalline cellulose (microcrystalline cellulose and silicone 
+dioxide).  </li>
+<li>0.1 mg capsule shell: hypromellose and titanium dioxide (E171). </li>
+<li>0.25 mg capsule shell: hypromellose, yellow iron oxide (E172) and titanium dioxide (E171). </li>
+<li>1 mg capsule shell: hypromellose, yellow iron oxide (E172), titanium dioxide (E171) and red 
+iron oxide (E172). </li>
+</ul>
+<p>Printing ink: shellac (E904), propylene glycol (E1520), ammonium hydroxide (E527), black iron 
+oxide (E172) and potassium hydroxide (E525). </p>
+<p>What Talzenna looks like and contents of the pack 
+Talzenna 0.1 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with a white cap 
+(printed with  Pfizer  in black) and a white body (printed with  TLZ 0.1  in black). </p>
+<p>Talzenna 0.25 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with an ivory cap 
+(printed with  Pfizer  in black) and a white body (printed with  TLZ 0.25  in black). </p>
+<p>Talzenna 1 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with a light red cap 
+(printed with  Pfizer  in black) and a white body (printed with  TLZ 1  in black). </p>
+<p>Talzenna 0.1 mg is available in plastic bottles of 30 hard capsules. </p>
+<p>Talzenna 0.25 mg is available in perforated unit dose blister packs of 30, or 60, or 90 hard capsules 
+and in plastic bottles of 30 hard capsules. </p>
+<p>Talzenna 1 mg is available in perforated unit dose blister packs of 30 hard capsules and in plastic 
+bottles of 30 hard capsules. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles 
+Belgium </p>
+<p>Manufacturer 
+Excella GmbH &amp; Co. KG<br />
+N rnberger Strasse 12<br />
+90537 Feucht<br />
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg 
+Pfizer NV/SA 
+T l/Tel: +32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel: + 370 52 51 4<br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
+Pfizer Kft. 
+Tel.: +36-1-488-37- esk  republika 
+Pfizer, spol. s r.o. 
+Tel: +420 283 004 Malta 
+Vivian Corporation Ltd 
+Tel: +356 21344Danmark 
+Pfizer ApS 
+Tlf: +45 44 20 11<br />
+Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51<br />
+Norge 
+Pfizer AS 
+Tlf: +47 67 52 61<br />
+Eesti 
+Pfizer Luxembourg SARL Eesti filiaal<br />
+Tel: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H. 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ : +30 210 6785 Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.: +48 22 335 61<br />
+Espa a 
+Pfizer, S.L. 
+Tel: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda.<br />
+Tel: +351 21 423 5France 
+Pfizer<br />
+T l: +33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L. 
+Tel: +40 (0) 21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: +385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: + 386 (0)1 52 11<br />
+Ireland 
+Pfizer Healthcare Ireland 
+Tel: 1800 633 363 (toll free) 
++44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
+Tel: + 421 2 3355 5 sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: +358 (0)9 430 Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige<br />
+Pfizer AB 
+Tel: +46 (0)8 550 520 K<br />
+Pfizer    . . (Cyprus Branch)<br />
+ : +357 22 817United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: +44 (0) 1304 616Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel: + 371 670 35  </p>
+<p>This leaflet was last revised in MM/YYYY. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

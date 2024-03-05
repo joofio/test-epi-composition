@@ -4,7 +4,7 @@ Instance: composition-en-28d78e4ecee5ce96f67160a74729d480
 InstanceOf: CompositionUvEpi
 Title: "Composition for bimzelx Package Leaflet"
 Description:  "Composition for bimzelx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,9 +93,9 @@ the disease, ease your normal daily activities, reduce tiredness, and improve yo
 (radiographic axial spondyloarthritis) 
 Bimzelx is used to treat adults with an inflammatory disease primarily affecting the spine which 
 causes inflammation of the spinal joints, called axial spondyloarthritis. If the condition is not visible 
-using X-rays, it is referred to as “non-radiographic axial spondyloarthritis”; if it occurs in patients with 
-visible signs on X-rays, it is referred to as “ankylosing spondylitis” or “radiographic axial 
-spondyloarthritis”.  </p>
+using X-rays, it is referred to as  non-radiographic axial spondyloarthritis ; if it occurs in patients with 
+visible signs on X-rays, it is referred to as  ankylosing spondylitis  or  radiographic axial 
+spondyloarthritis .  </p>
 <p>If you have axial spondyloarthritis you will first be given other medicines. If you do not respond well 
 enough to these medicines, you will be given Bimzelx to reduce the signs and symptoms of the 
 disease, reduce inflammation and improve your physical function. Bimzelx can help to reduce back 
@@ -124,14 +124,14 @@ Talk to your doctor, pharmacist or nurse before using Bimzelx if:
 * you recently had or plan to have a vaccination. You should not be given certain types of 
 vaccines (live vaccines) while using Bimzelx. 
 * you have ever had tuberculosis (TB). 
-* you have ever had inflammatory bowel disease (Crohn’s disease or ulcerative colitis). </p>
-<p>Inflammatory bowel disease (Crohn’s disease or ulcerative colitis) 
+* you have ever had inflammatory bowel disease (Crohn s disease or ulcerative colitis). </p>
+<p>Inflammatory bowel disease (Crohn s disease or ulcerative colitis) 
 Stop using Bimzelx and tell your doctor or get medical help immediately if you notice blood in the 
 stool, abdominal cramps, pain, diarrhoea or weight loss. These may be signs of new or worsening 
-inflammatory bowel disease (Crohn’s disease or ulcerative colitis). </p>
+inflammatory bowel disease (Crohn s disease or ulcerative colitis). </p>
 <p>Look out for infections and allergic reactions 
 Bimzelx can rarely cause serious infections. Talk to your doctor or get medical help immediately if 
-you notice any signs of a serious infection. Such signs are listed under “Serious side effects” in section </p>         </div>"""   
+you notice any signs of a serious infection. Such signs are listed under  Serious side effects  in section </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bimzelx"
@@ -160,8 +160,8 @@ You and your doctor should decide if you can breast-feed or use Bimzelx. </p>
 <p>Driving and using machines 
 Bimzelx is unlikely to affect your ability to drive and use machines. </p>
 <p>Bimzelx contains sodium 
-This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially “sodium 
-free”. </p>         </div>"""         
+This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially  sodium 
+free . </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -173,12 +173,18 @@ free”. </p>         </div>"""
 or pharmacist if you are not sure. </p>
 <p>How much Bimzelx is given and for how long </p>
 <p>Plaque psoriasis 
-The recommended dose, given as injections under your skin (‘subcutaneous injections’) is as follows: 
+The recommended dose, given as injections under your skin ( subcutaneous injections ) is as follows: 
 * 320 mg (given as two pre-filled syringes, containing 160 mg each) at weeks 0, 4, 8, 12, 16. * From week 16, you will use 320 mg (two pre-filled syringes, containing 160 mg each) every 8 
 weeks. If you weigh more than 120 kg, your doctor may decide to continue your injections 
-every 4 weeks from week 16.<br />
-Psoriatic arthritis 
-The recommended dose, given as an injection under your skin (‘subcutaneous injections’) is as 
+every 4 weeks from week 1</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bimzelx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bimzelx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Psoriatic arthritis 
+The recommended dose, given as an injection under your skin ( subcutaneous injections ) is as 
 follows: 
 * 160 mg (given as one pre-filled syringe) every 4 weeks.<br />
 * If you have psoriatic arthritis with coexistent moderate to severe plaque psoriasis, the 
@@ -186,12 +192,12 @@ recommended dose regimen is the same as for plaque psoriasis. After Week 16, you
 may adapt your injections to 160 mg every 4 weeks, depending on your joint symptoms. </p>
 <p>Axial spondyloarthritis, including non-radiographic axial spondyloarthritis and ankylosing spondylitis 
 (radiographic axial spondyloarthritis) 
-The recommended dose, given as an injection under your skin (‘subcutaneous injections’) is 160 mg 
+The recommended dose, given as an injection under your skin ( subcutaneous injections ) is 160 mg 
 (given as one pre-filled syringe) every 4 weeks. </p>
 <p>You and your doctor or nurse will decide if you should inject this medicine yourself. Do not inject this 
 medicine unless you have been trained by a healthcare professional. A caregiver may also give your 
 injections after they have been trained. </p>
-<p>Read the ‘Instructions for use’ at the end of this leaflet before injecting Bimzelx pre-filled syringe 
+<p>Read the  Instructions for use  at the end of this leaflet before injecting Bimzelx pre-filled syringe 
 yourself. </p>
 <p>If you use more Bimzelx than you should 
 Tell your doctor if you have used more Bimzelx than you should or if you have injected your dose 
@@ -203,10 +209,11 @@ Talk to your doctor before you stop using Bimzelx. If you stop treatment, your s
 back. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store bimzelx"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bimzelx"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
@@ -223,7 +230,7 @@ Tell your doctor, pharmacist or nurse if you get any of the following side effec
 <p>Common (may affect up to 1 in 10 people) 
 * thrush in the mouth or throat with symptoms such as white or yellow patches; red or sore mouth 
 and pain with swallowing 
-* fungal infection of the skin, such as athlete’s foot between the toes 
+* fungal infection of the skin, such as athlete s foot between the toes 
 * ear infections 
 * cold sores (herpes simplex infections) 
 * stomach flu (gastroenteritis) 
@@ -244,21 +251,4 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator between 2°C and 8°C. Do not freeze. </p>
-<p>Keep the pre-filled syringes in the original carton in order to protect from light. </p>
-<p>Bimzelx can be kept out of the refrigerator for up to 25 days. This must be in the outer carton, not 
-above 25°C and away from direct light. Do not use the pre-filled syringes after this time period. There 
-is a space on the box so you can write the date it was taken out of the refrigerator. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

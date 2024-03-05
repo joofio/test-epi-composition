@@ -4,7 +4,7 @@ Instance: composition-en-c0c73074469385390d12a06f439c2f95
 InstanceOf: CompositionUvEpi
 Title: "Composition for palynziq Package Leaflet"
 Description:  "Composition for palynziq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -169,7 +169,7 @@ difficulty becoming pregnant if their phenylalanine levels are abnormally low. <
 Palynziq can affect your ability to drive and use machines if you have a severe allergic reaction. </p>
 <p>Palynziq contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take palynziq"
@@ -192,22 +192,11 @@ a daily dose of 20 mg, 40 mg, or 60 mg to reach their target blood phenylalanine
 </ul>
 <p>Example of steps to reach your blood phenylalanine goal </p>
 <p>Palynziq dose and how often to take it 
-Syringe colour </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>White plunger </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store palynziq"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store palynziq"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>10 mg once a week 
+Syringe colour </p>
+<p>2.5 mg once a week 
+White plunger 
+2.5 mg two times a week 
+10 mg once a week 
 Green plunger </p>
 <p>10 mg twice a week 
 10 mg four times a week 
@@ -249,10 +238,8 @@ you at all times.  </li>
 10 mg-green plunger, or 20 mg-blue plunger). You may need more than one pre-filled syringe 
 for your prescribed dose. Your healthcare provider will tell you which syringe, or a combination 
 of syringes, to use and will show you (or a caregiver) how to inject Palynziq.  </li>
-<li>The “Instructions for Use” (section 7 of this leaflet) shows you: 
-o 
-how to prepare and inject Palynziq and 
-o 
+<li>The  Instructions for Use  (section 7 of this leaflet) shows you: * 
+how to prepare and inject Palynziq and * 
 how to throw away Palynziq syringes properly after you use them </li>
 <li>Your doctor will tell you how long to continue taking medicines such as paracetamol, 
 fexofenadine, and/or ranitidine before you take Palynziq. </li>
@@ -260,13 +247,11 @@ fexofenadine, and/or ranitidine before you take Palynziq. </li>
 you self-inject Palynziq, and for at least 1 hour after your injection to watch for signs and 
 symptoms of a severe allergic reaction and, if needed, give you an injection of adrenaline and 
 call for emergency medical help.  </li>
+<li>Your doctor will train them on the signs and symptoms of a severe allergic reaction and 
+how to give an injection of adrenaline. * 
+Your doctor will tell you if you need an observer for longer than 6 months.  </li>
+<li>Do not change your protein intake unless your doctor tells you to. </li>
 </ul>
-<p>o 
-Your doctor will train them on the signs and symptoms of a severe allergic reaction and 
-how to give an injection of adrenaline. 
-o 
-Your doctor will tell you if you need an observer for longer than 6 months.<br />
-* Do not change your protein intake unless your doctor tells you to. </p>
 <p>If you use more Palynziq than you should 
 If you use more Palynziq than you should, tell your doctor. See section 4 for details on what to do 
 based on your symptoms.  </p>
@@ -276,13 +261,13 @@ up for a missed dose. </p>
 <p>If you stop taking Palynziq 
 If you stop taking Palynziq treatment, your blood phenylalanine levels are likely to increase. Talk to 
 your doctor before stopping Palynziq treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Allergic reactions occur very commonly (may affect more than 1 in 10 people) and range in severity. 
@@ -291,38 +276,30 @@ eyes, cough, trouble breathing, wheezing, and feeling dizzy. Your doctor will te
 any allergic reactions based on their severity, and will prescribe you additional medicines to manage 
 the reaction. Some of these allergic reactions can be more serious, as described below, and will require 
 immediate attention.  </p>
-<p>Serious side effects include: </p>
+<p>Serious side effects include:</p>
 <ul>
-<li>Sudden severe allergic reactions: (Common – may affect up to 1 in 10 people). Stop injecting 
-Palynziq if you notice any serious sudden signs of allergy or combination of signs listed below. 
-o 
-Swelling of the face, eyes, lips, mouth, throat, tongue, hands and/or feet 
-o 
-Trouble breathing or wheezing 
-o 
-Throat tightness or a choking feeling 
-o 
-Trouble swallowing or speaking 
-o 
-Feeling dizzy or fainting 
-o 
-Losing control of urine or stools 
-o 
-Rapid heartbeat 
-o 
-Hives (like an itchy, bumpy skin rash) that spreads quickly<br />
-o 
-Flushing 
-o 
+<li>Sudden severe allergic reactions: (Common   may affect up to 1 in 10 people). Stop injecting 
+Palynziq if you notice any serious sudden signs of allergy or combination of signs listed below. * 
+Swelling of the face, eyes, lips, mouth, throat, tongue, hands and/or feet * 
+Trouble breathing or wheezing * 
+Throat tightness or a choking feeling * 
+Trouble swallowing or speaking * 
+Feeling dizzy or fainting * 
+Losing control of urine or stools * 
+Rapid heartbeat * 
+Hives (like an itchy, bumpy skin rash) that spreads quickly  * 
+Flushing * 
 Severe stomach cramps or pain, vomiting, or diarrhoea </li>
 </ul>
 <p>Use adrenaline injection device as instructed by your doctor and seek urgent medical 
 assistance. Your doctor will prescribe an adrenaline injection device to use for a severe allergic 
 reaction. Your doctor will train and instruct you and someone helping you on when and how to 
 use adrenaline. Keep the adrenaline injection device with you at all times. </p>
-<p>Contact your doctor immediately if you have the following: 
-- A type of allergic reaction called serum sickness which includes a combination of fever (high 
-temperature), rash, muscle and joint aches (Common – may affect up to 1 in 10 people) </p>
+<p>Contact your doctor immediately if you have the following:</p>
+<ul>
+<li>A type of allergic reaction called serum sickness which includes a combination of fever (high 
+temperature), rash, muscle and joint aches (Common   may affect up to 1 in 10 people) </li>
+</ul>
 <p>Other side effects </p>
 <p>Very common: may affect more than 1 in 10 people 
 - skin redness, swelling, bruising, tenderness, or pain where you injected Palynziq 
@@ -359,4 +336,56 @@ If you get any side effects, talk to your doctor, pharmacist, or nurse. This inc
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store palynziq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store palynziq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the syringe label, tray cover, and 
+carton after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
+<p>If needed, you may store Palynziq in its sealed tray outside the refrigerator (below 25 C) for up to a 
+single period of 30 days away from sources of heat. Record the date removed from refrigeration on the 
+unopened product tray. Once stored outside of refrigeration, the product must not be returned to the 
+refrigerator. </p>
+<p>Do not use this medicine if the pre-filled syringe is damaged or you notice the solution is discoloured, 
+cloudy, or if you can see particles. </p>
+<p>Use safe disposal procedures for syringes. Do not throw away any medicines via wastewater or 
+household waste. Ask your pharmacist how to throw away medicines you no longer use. These 
+measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Palynziq contains<br />
+- The active substance is pegvaliase. 
+Each 2.5 mg pre-filled syringe contains 2.5 mg pegvaliase in 0.5 ml solution. 
+Each 10 mg pre-filled syringe contains 10 mg pegvaliase in 0.5 ml solution. 
+Each 20 mg pre-filled syringe contains 20 mg pegvaliase in 1 ml solution. 
+- The other ingredients are trometamol, trometamol hydrochloride, sodium chloride (see section 2 
+for further information), trans-cinnamic acid, water for injections. </p>
+<p>What Palynziq looks like and contents of the pack 
+Palynziq solution for injection (injection) is a clear to slightly opalescent, colourless to pale yellow 
+solution. The pre-filled syringe includes an automatic needle guard. </p>
+<p>Pre-filled syringe 2.5 mg (white plunger): 
+Each 2.5 mg carton contains 1 pre-filled syringe. </p>
+<p>Pre-filled syringe 10 mg (green plunger): 
+Each 10 mg carton contains 1 pre-filled syringe. </p>
+<p>Pre-filled syringe 20 mg (blue plunger): 
+Each 20 mg carton contains 1 or 10 pre-filled syringes.  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+BioMarin International Limited 
+Shanbally, Ringaskiddy<br />
+County Cork<br />
+Ireland 
+P43 R 
+This leaflet was last revised in MM/YYYY. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

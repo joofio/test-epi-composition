@@ -4,7 +4,7 @@ Instance: composition-en-91e2d101c3ad773f6da87d4465331140
 InstanceOf: CompositionUvEpi
 Title: "Composition for enurev Package Leaflet"
 Description:  "Composition for enurev Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,19 +90,23 @@ the tightening of these muscles in the lungs, making it easier for air to get in
 - if you are allergic to glycopyrronium bromide or any of the other ingredients of this medicine 
 (listed in section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor before using Enurev Breezhaler, if any of the following applies to you: 
-- you have kidney problems. 
-- you have an eye problem called narrow-angle glaucoma. 
-- you have difficulty passing urine. </p>
+Talk to your doctor before using Enurev Breezhaler, if any of the following applies to you:</p>
+<ul>
+<li>you have kidney problems. </li>
+<li>you have an eye problem called narrow-angle glaucoma. </li>
+<li>you have difficulty passing urine. </li>
+</ul>
 <p>During treatment with Enurev Breezhaler, stop taking this medicine and tell your doctor 
-immediately: 
-- if you experience tightness of the chest, coughing, wheezing or breathlessness immediately after 
-using Enurev Breezhaler (signs of bronchospasm). 
-- if you experience difficulties in breathing or swallowing, swelling of the tongue, lips or face, 
-skin rash, itching and hives (signs of allergic reaction). 
-- if you experience eye pain or discomfort, temporary blurring of vision, visual halos or coloured 
+immediately:</p>
+<ul>
+<li>if you experience tightness of the chest, coughing, wheezing or breathlessness immediately after 
+using Enurev Breezhaler (signs of bronchospasm). </li>
+<li>if you experience difficulties in breathing or swallowing, swelling of the tongue, lips or face, 
+skin rash, itching and hives (signs of allergic reaction). </li>
+<li>if you experience eye pain or discomfort, temporary blurring of vision, visual halos or coloured 
 images in association with red eyes. These may be signs of an acute attack of narrow-angle 
-glaucoma. </p>
+glaucoma. </li>
+</ul>
 <p>Enurev Breezhaler is used as a maintenance treatment for your COPD. Do not use this medicine to 
 treat a sudden attack of breathlessness or wheezing. </p>
 <p>Children and adolescents 
@@ -227,9 +231,9 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store enurev"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. </p>
+<p>Do not store above 25 C. </p>
 <p>Store the capsules in the original blister in order to protect from moisture. Do not remove from the 
 blister until immediately before use. </p>
 <p>The inhaler in each pack should be disposed of after all capsules in that pack have been used. </p>
@@ -252,7 +256,7 @@ glycopyrronium.
 stearate. </p>
 <p>What Enurev Breezhaler looks like and contents of the pack 
 Enurev Breeyhaler 44 micrograms inhalation powder, hard capsules are transparent and orange and 
-contain a white powder. They have the product code “GPL50” printed in black above and a company 
+contain a white powder. They have the product code  GPL50  printed in black above and a company 
 logo (
 ) printed in black below a black bar. </p>
 <p>Each pack contains a device called an inhaler, together with capsules in blisters. Each blister strip 
@@ -271,31 +275,30 @@ Elm Park, Merrion Road
 Dublin 4 
 Ireland </p>
 <p>Manufacturer 
-Novartis Farmacéutica SA 
+Novartis Farmac utica SA 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -311,35 +314,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
+Tel: +43 1 86 6Espa a 
 Ferrer Internacional, S.A. 
 Tel: +34 93 600 37<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -347,10 +350,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />
@@ -448,49 +450,49 @@ Never place a capsule
 directly into the 
 mouthpiece. </p>
 <p>Important Information 
-• Enurev Breezhaler 
+  Enurev Breezhaler 
 capsules must always be 
 stored in the blister card 
 and only removed 
 immediately before use. 
-• Do not push the capsule 
+  Do not push the capsule 
 through the foil to 
 remove it from the 
 blister. 
-• Do not swallow the 
+  Do not swallow the 
 capsule. 
-• Do not use the Enurev 
+  Do not use the Enurev 
 Breezhaler capsules with 
 any other inhaler. 
-• Do not use the Enurev 
+  Do not use the Enurev 
 Breezhaler inhaler to 
 take any other capsule 
 medicine. 
-• Never place the capsule 
+  Never place the capsule 
 into your mouth or the 
 mouthpiece of the 
 inhaler. 
-• Do not press the side 
+  Do not press the side 
 buttons more than once. 
-• Do not blow into the 
+  Do not blow into the 
 mouthpiece. 
-• Do not press the side 
+  Do not press the side 
 buttons while inhaling 
 through the mouthpiece. 
-• Do not handle capsules 
+  Do not handle capsules 
 with wet hands. 
-• Never wash your inhaler 
+  Never wash your inhaler 
 with water. </p>
 <p>Step 1e: 
 Close inhaler </p>
 <p>Your Seebri Breezhaler Inhaler pack contains: 
-• One Seebri Breezhaler inhaler 
-• One or more blister cards, each containing either 
+  One Seebri Breezhaler inhaler 
+  One or more blister cards, each containing either 
 6 or 10 Seebri Breezhaler capsules to be used in 
 the inhaler </p>
 <p>Frequently Asked 
 Questions </p>
-<p>Why didn’t the inhaler 
+<p>Why didn t the inhaler 
 make a noise when I 
 inhaled? 
 The capsule may be stuck 
@@ -509,13 +511,13 @@ enough of your medicine.
 Close the inhaler and 
 repeat steps 3a to 3c. </p>
 <p>I coughed after inhaling 
-– does this matter? 
+  does this matter? 
 This may happen. As long 
 as the capsule is empty 
 you have received enough 
 of your medicine. </p>
 <p>I felt small pieces of the 
-capsule on my tongue – 
+capsule on my tongue <br />
 does this matter? 
 This can happen. It is not 
 harmful. The chances of 

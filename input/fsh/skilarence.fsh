@@ -4,7 +4,7 @@ Instance: composition-en-040bd687344f34655b854f4b67248074
 InstanceOf: CompositionUvEpi
 Title: "Composition for skilarence Package Leaflet"
 Description:  "Composition for skilarence Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -116,7 +116,7 @@ been studied in this age group. </p>
 <p>Other medicines and Skilarence 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>In particular, tell your doctor if you are taking the following: </p>
+<p>In particular, tell your doctor if you are taking the following:</p>
 <ul>
 <li>Dimethyl fumarate or other fumarates. The active substance in Skilarence, dimethyl 
 fumarate, is also used in other medicines such as tablets, ointments and baths. You must avoid 
@@ -145,7 +145,7 @@ stomach and intestinal problems. </p>
 <p>Pregnancy and breast-feeding 
 Do not take Skilarence if you are pregnant or trying to become pregnant, as Skilarence may harm your 
 baby. Use effective methods of contraception to avoid becoming pregnant during treatment with 
-Skilarence (see also “Other medicines and Skilarence” above). In case of stomach and intestinal 
+Skilarence (see also  Other medicines and Skilarence  above). In case of stomach and intestinal 
 problems that could reduce the effectiveness of oral contraceptives, you should consult your doctor 
 who will advise you on additional contraceptive methods. 
 Do not breast-feed during treatment with Skilarence. </p>
@@ -156,8 +156,8 @@ tired after taking Skilarence. If you are affected, be careful when driving or u
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>Skilarence contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skilarence"
@@ -186,17 +186,14 @@ Breakfast
 Lunch 
 Evening meal 
 1 
-30 mg 
-‒ 
-‒ 
-1 
+30 mg </p>
+<p>1 
 1 
 30 mg 
 2 
 30 mg 
-1 
-‒ 
-1 
+1 </p>
+<p>1 
 2 
 60 mg 
 3 
@@ -207,17 +204,14 @@ Evening meal
 3 
 90 mg 
 4 
-120 mg 
-‒ 
-‒ 
-1 
+120 mg </p>
+<p>1 
 1 
 120 mg 
 5 
 120 mg 
-1 
-‒ 
-1 
+1 </p>
+<p>1 
 2 
 240 mg 
 6 
@@ -283,10 +277,12 @@ symptoms see below. </p>
 <p>Allergic or hypersensitivity reactions 
 Allergic or hypersensitivity reactions are rare but may be very serious. Reddening of the face or body 
 (flushing) is a very common side effect which may affect more than 1 in 10 people. However, if you 
-become flushed and get any of the following signs:<br />
-- wheezing, difficulty breathing or shortness of breath, 
-- swelling of the face, lips, mouth or tongue<br />
-stop taking Skilarence and call a doctor straight away. </p>
+become flushed and get any of the following signs:</p>
+<ul>
+<li>wheezing, difficulty breathing or shortness of breath, </li>
+<li>swelling of the face, lips, mouth or tongue<br />
+stop taking Skilarence and call a doctor straight away. </li>
+</ul>
 <p>Brain infection called PML 
 Progressive multifocal leukoencephalopathy (PML) is a rare but serious brain infection that can lead to 
 severe disability or death. If you notice new or worsening weakness on one side of the body; 
@@ -343,7 +339,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store skilarence"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the blister after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and the blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -370,46 +366,44 @@ Ronda General Mitre, E-08022 Barcelona
 Spain 
 Tel. +34 93 291 30<br />
 Manufacturer 
-Industrias Farmacéuticas Almirall, S.A. 
+Industrias Farmac uticas Almirall, S.A. 
 Ctra. de Martorell 41-E-08740 Sant Andreu de la Barca, Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ Luxembourg/Luxemburg 
-Almirall N.V., Tél/Tel: +32 (0)2 771 86<br />
-България 
-EGIS Pharmaceuticals PLC, Teл.: +359 2 987 60<br />
-Česká republika 
+<p>Belgi /Belgique/Belgien/ Luxembourg/Luxemburg 
+Almirall N.V., T l/Tel: +32 (0)2 771 86  </p>
+<p>EGIS Pharmaceuticals PLC, Te .: +359 2 987 60<br />
+ esk  republika 
 EGIS Praha, spol. s r. o., Tel: +420 227 129<br />
 Danmark/ Norge/ Sverige 
 Almirall ApS, Tlf/Tel: +45 70 25 75<br />
 Deutschland 
 Almirall Hermal GmbH, Tel: +49 (0)40 72704-0 </p>
-<p>Eesti/ España/ Hrvatska/ Κύπρος/ Latvija/ Lietuva/ Malta/ Slovenija 
-Almirall, S.A., Tel/Τηλ: +34 93 291 30<br />
-Ελλάδα 
-Galenica A.E., Tηλ: +30 210 52 81<br />
+<p>Eesti/ Espa a/ Hrvatska/  / Latvija/ Lietuva/ Malta/ Slovenija 
+Almirall, S.A., Tel/ : +34 93 291 30  </p>
+<p>Galenica A.E., T : +30 210 52 81<br />
 France 
-Almirall SAS, Tél: +33(0)1 46 46 19<br />
+Almirall SAS, T l: +33(0)1 46 46 19<br />
 Ireland/ United Kingdom (Northern Ireland) 
 Almirall, S.A., Tel: +353 (0) 1431 9 
-Ísland 
-Vistor hf., Sími: +354 535 70<br />
+ sland 
+Vistor hf., S mi: +354 535 70<br />
 Italia 
 Almirall SpA, Tel: +39 02 346 
-Magyarország 
-Egis Gyógyszergyár Zrt., Tel.: +36 1 803 5555  </p>
+Magyarorsz g 
+Egis Gy gyszergy r Zrt., Tel.: +36 1 803 5555  </p>
 <p>Nederland 
 Almirall B.V., Tel: +31 (0)30 799 1 
-Österreich 
+ sterreich 
 Almirall GmbH, Tel: +43 (0)1/595 39<br />
 Polska 
 EGIS Polska Sp. z o.o., Tel.: +48 22 417 92<br />
 Portugal 
-Almirall - Produtos Farmacêuticos, Lda., Tel: +351 21 415 57<br />
-România 
+Almirall - Produtos Farmac uticos, Lda., Tel: +351 21 415 57<br />
+Rom nia 
 Egis Pharmaceuticals PLC, Tel: +40 21 412 0 
-Slovenská republika 
+Slovensk  republika 
 EGIS SLOVAKIA spol. s r.o., Tel: +421 2 32409 
 Suomi/Finland 
 Orion Pharma, Puh/Tel: +358 10 4 

@@ -4,7 +4,7 @@ Instance: composition-en-40c8dbb155810b203735f0693961138c
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampyra Package Leaflet"
 Description:  "Composition for fampyra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -85,31 +85,21 @@ around the nerves leading to muscle weakness, muscle stiffness and difficulty wa
   * code.text = "2. What you need to know before you take fampyra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Fampyra </p>
-<p>− 
-if you are allergic to fampridine or any of the other ingredients of this medicine (listed in 
-section 6) 
-− 
-if you have a seizure or have ever had a seizure (also referred to as a fit or convulsion) 
-− 
-if your doctor or nurse has told you that you have moderate or severe kidney problems 
-− 
-if you are taking a medicine called cimetidine 
-− 
-if you are taking any other medicine containing fampridine. This may increase your risk of 
+<p>if you are allergic to fampridine or any of the other ingredients of this medicine (listed in 
+section 6) </p>
+<p>if you have a seizure or have ever had a seizure (also referred to as a fit or convulsion) </p>
+<p>if your doctor or nurse has told you that you have moderate or severe kidney problems </p>
+<p>if you are taking a medicine called cimetidine </p>
+<p>if you are taking any other medicine containing fampridine. This may increase your risk of 
 serious side effects </p>
 <p>Tell your doctor and do not take Fampyra if any of these apply to you. </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor or pharmacist before taking Fampyra: 
-− 
-if you feel aware of your heartbeat (palpitations) 
-− 
-if you are prone to infections 
-− 
-if you have any factors or are taking any medicine which affects your risk of fits (seizure). 
-− 
-if you have been told by a doctor that you have mild problems with your kidneys 
-− 
-if you have history of allergic reactions </p>
+<p>Talk to your doctor or pharmacist before taking Fampyra: </p>
+<p>if you feel aware of your heartbeat (palpitations) </p>
+<p>if you are prone to infections </p>
+<p>if you have any factors or are taking any medicine which affects your risk of fits (seizure). </p>
+<p>if you have been told by a doctor that you have mild problems with your kidneys </p>
+<p>if you have history of allergic reactions </p>
 <p>You should use a walking aid, such as a cane, as needed because this medicine may make you feel 
 dizzy or unsteady this may result in an increased risk of falls. </p>
 <p>Tell your doctor before you take Fampyra if any of these apply to you. </p>
@@ -132,7 +122,7 @@ your doctor or pharmacist before for advice before taking this medicine. </p>
 <p>Your doctor will consider the benefit of you being treated with Fampyra against the risk to your baby. </p>
 <p>You should not breast-feed whilst taking this medicine. </p>
 <p>Driving and using machines </p>
-<p>Fampyra may have an effect on people’s ability to drive or use machines, it can cause dizziness. Make 
+<p>Fampyra may have an effect on people s ability to drive or use machines, it can cause dizziness. Make 
 sure you are not affected before you start driving or use machinery. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -227,7 +217,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the package after EXP. The expiry 
 date refers to the last day of that month. </p>
-<p>Store below 25 °C. Store the tablets in the original package in order to protect from light and moisture. </p>
+<p>Store below 25  C. Store the tablets in the original package in order to protect from light and moisture. </p>
 <p>If your Fampyra is supplied in bottles, only one bottle should be opened at a time. After first opening 
 use within 7 days. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
@@ -240,11 +230,9 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fampyra contains </p>
-<p>− 
-The active substance is fampridine. 
-Each prolonged-release tablet contains 10 mg of fampridine 
-− 
-The other ingredients are: 
+<p>The active substance is fampridine. 
+Each prolonged-release tablet contains 10 mg of fampridine </p>
+<p>The other ingredients are: 
 Tablet core: hypromellose, microcrystalline cellulose, silica colloidal anhydrous, magnesium 
 stearate; film coat: hypromellose, titanium dioxide (E-171), polyethylene glycol<br />
 What Fampyra looks like and contents of the pack </p>
@@ -267,22 +255,20 @@ The Netherlands </p>
 <p>Alkermes Pharma Ireland Ltd, Monksland, Athlone, Co. Westmeath, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biogen Belgium N.V./S.A. 
-Tél/Tel: +32 2 219 12<br />
+T l/Tel: +32 2 219 12<br />
 Lietuva 
 Biogen Lithuania UAB 
-Tel: +37 0 5 259 6 
-България 
-ТП ЕВОФАРМА 
-Teл.: +359 2 962 12<br />
+Tel: +37 0 5 259 6 </p>
+<p>Te .: +359 2 962 12<br />
 Luxembourg/Luxemburg 
 Biogen Belgium N.V./S.A. 
-Tél/Tel: +32 2 219 12<br />
-Česká republika 
+T l/Tel: +32 2 219 12<br />
+ esk  republika 
 Biogen (Czech Republic) s.r.o. 
 Tel: +420 255 706<br />
-Magyarország 
+Magyarorsz g 
 Biogen Hungary Kft. 
 Tel.: +36 (1) 899 9Danmark 
 Biogen (Denmark) A/S 
@@ -296,17 +282,16 @@ Tel: +49 (0) 89 99 6
 Nederland 
 Biogen Netherlands B.V. 
 Tel: +31 20 542 2Eesti 
-Biogen Estonia OÜ 
+Biogen Estonia O<br />
 Tel: +372 618 9 
 Norge 
 Biogen Norway AS 
-Tlf: +47 23 40 01 00<br />
-Ελλάδα 
-Genesis Pharma SA 
-Τηλ: +30 210 8771 
-Österreich 
+Tlf: +47 23 40 01 00  </p>
+<p>Genesis Pharma SA 
+ : +30 210 8771 
+ sterreich 
 Biogen Austria GmbH 
-Tel: +43 1 484 46 España 
+Tel: +43 1 484 46 Espa a 
 Biogen Spain SL 
 Tel: +34 91 310 7 
 Polska 
@@ -314,15 +299,15 @@ Biogen Poland Sp. z o.o.
 Tel.: +48 22 351 51<br />
 France 
 Biogen France SAS 
-Tél: +33 (0)1 41 37 95<br />
+T l: +33 (0)1 41 37 95<br />
 Portugal 
-Biogen Portugal Sociedade Farmacêutica 
+Biogen Portugal Sociedade Farmac utica 
 Unipessoal, Lda 
 Tel: +351 21 318 8 
 Hrvatska 
 Biogen Pharma d.o.o. 
 Tel: +385 (0) 1 775 73<br />
-România 
+Rom nia 
 Johnson &amp; Johnson Romania S.R.L. 
 Tel: +40 21 207 18<br />
 Ireland 
@@ -331,20 +316,19 @@ Tel: +353 (0)1 463 7
 Slovenija 
 Biogen Pharma d.o.o. 
 Tel: +386 1 511 02<br />
-Ísland 
+ sland 
 Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Biogen Slovakia s.r.o. 
 Tel: +421 2 323 340 Italia 
 Biogen Italia s.r.l. 
 Tel: +39 02 584 9 
 Suomi/Finland 
 Biogen Finland Oy 
-Puh/Tel: +358 207 401<br />
-Κύπρος 
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: +357 22765 
+Puh/Tel: +358 207 401  </p>
+<p>Genesis Pharma (Cyprus) Ltd 
+ : +357 22765 
 Sverige 
 Biogen Sweden AB 
 Tel: +46 8 594 113<br />

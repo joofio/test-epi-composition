@@ -4,7 +4,7 @@ Instance: composition-en-91532a0bac4066c0d200269dda7e0b3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vipdomet Package Leaflet"
 Description:  "Composition for vipdomet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What vipdomet is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vipdomet is 
-Vipdomet contains two different medicines called alogliptin and metformin in one tablet: </p>
+Vipdomet contains two different medicines called alogliptin and metformin in one tablet:</p>
 <ul>
 <li>alogliptin belongs to a group of medicines called DPP-4 inhibitors (dipeptidyl peptidase-4 
 inhibitors). Alogliptin works to increase the levels of insulin in the body after a meal and 
@@ -79,7 +79,7 @@ decrease the amount of sugar in the body.  </li>
 sugar by lowering the amount of sugar made in the liver and helping insulin to work more 
 effectively. </li>
 </ul>
-<p>Both of these groups of medicines are “oral anti-diabetics”. </p>
+<p>Both of these groups of medicines are  oral anti-diabetics . </p>
 <p>What Vipdomet is used for 
 Vipdomet is used to lower blood sugar levels in adults with type 2 diabetes. Type 2 diabetes is also 
 called non-insulin-dependent diabetes mellitus or NIDDM. </p>
@@ -109,8 +109,8 @@ especially affecting the scalp, mouth, throat, palms of hands and soles of feet 
 syndrome). 
 - if you have severely reduced kidney function 
 - if you have uncontrolled diabetes, with, for example, severe hyperglycaemia (high blood 
-glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactate acidosis (see “Risk of lactic 
-acidosis” below) or ketoacidosis. Ketoacidosis is a condition in which substances called 'ketone 
+glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactate acidosis (see  Risk of lactic 
+acidosis  below) or ketoacidosis. Ketoacidosis is a condition in which substances called 'ketone 
 bodies' accumulate in the blood and which can lead to diabetic pre-coma. Symptoms include 
 stomach pain, fast and deep breathing, sleepiness or your breath developing an unusual fruity 
 smell.<br />
@@ -121,15 +121,17 @@ body)
 - if you have liver disease 
 - if you drink alcohol excessively (either every day or in large quantities only from time to time) </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking Vipdomet : 
-- if you have type 1 diabetes (your body does not produce insulin). 
-- if you are taking Vipdomet with insulin or a thiazolidinedione. Your doctor may want to reduce 
+Talk to your doctor or pharmacist before taking Vipdomet :</p>
+<ul>
+<li>if you have type 1 diabetes (your body does not produce insulin). </li>
+<li>if you are taking Vipdomet with insulin or a thiazolidinedione. Your doctor may want to reduce 
 your dose of insulin or a thiazolidinedione when you take it together with Vipdomet in order to 
-avoid too low blood sugar (hypoglycaemia). 
-- if you are taking another medicine for diabetes that contains a “sulphonylurea”, you should not 
-start taking Vipdomet. 
-- if you have or have had a disease of the pancreas. 
-- in case of symptoms suggestive of liver injury during Vipdomet therapy. </p>
+avoid too low blood sugar (hypoglycaemia). </li>
+<li>if you are taking another medicine for diabetes that contains a  sulphonylurea , you should not 
+start taking Vipdomet. </li>
+<li>if you have or have had a disease of the pancreas. </li>
+<li>in case of symptoms suggestive of liver injury during Vipdomet therapy. </li>
+</ul>
 <p>Contact your doctor if you encounter blistering of the skin, as it may be a sign for a condition called 
 bullous pemphigoid. Your doctor may ask you to stop alogliptin. </p>
 <p>Risk of lactic acidosis 
@@ -146,13 +148,15 @@ heat or if you drink less fluid than normal. Talk to your doctor for further ins
 some of the symptoms of lactic acidosis, as this condition may lead to coma. 
 Lactic acidosis is a medical emergency and must be treated in a hospital. If lactic acidosis is suspected, 
 seek medical attention from a doctor or a hospital. 
-Symptoms of lactic acidosis include: 
-- vomiting 
-- stomach ache (abdominal pain) 
-- muscle cramps 
-- a general feeling of not being well with severe tiredness 
-- difficulty in breathing 
-- reduced body temperature and heartbeat. </p>
+Symptoms of lactic acidosis include:</p>
+<ul>
+<li>vomiting </li>
+<li>stomach ache (abdominal pain) </li>
+<li>muscle cramps </li>
+<li>a general feeling of not being well with severe tiredness </li>
+<li>difficulty in breathing </li>
+<li>reduced body temperature and heartbeat. </li>
+</ul>
 <p>If you need to have major surgery you must stop taking Vipdomet during and for some time before 
 and after the procedure. Your doctor will decide when you must stop and when to restart your 
 treatment with Vipdomet. </p>
@@ -168,20 +172,22 @@ injection. Your doctor will decide when you must stop and when to restart your t
 Vipdomet. 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. You may need more frequent blood glucose and kidney function tests, or your doctor may 
-need to adjust the dose of Vipdomet. It is especially important to mention the following: 
-- hydrocortisone and prednisolone (corticosteroids), used to treat diseases that involve 
-inflammation like asthma and arthritis<br />
-- cimetidine, used to treat stomach problems 
-- bronchodilators (beta-2 agonists), used to treat asthma 
-- medicines which increase urine production (diuretics)<br />
-- medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as 
-ibuprofen and celecoxib),<br />
-- certain medicines used for the treatment of high blood pressure (ACE inhibitors  and 
-angiotensin II receptor antagonists)<br />
-- medicines containing alcohol. </p>
+need to adjust the dose of Vipdomet. It is especially important to mention the following:</p>
+<ul>
+<li>hydrocortisone and prednisolone (corticosteroids), used to treat diseases that involve 
+inflammation like asthma and arthritis  </li>
+<li>cimetidine, used to treat stomach problems </li>
+<li>bronchodilators (beta-2 agonists), used to treat asthma </li>
+<li>medicines which increase urine production (diuretics)  </li>
+<li>medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as 
+ibuprofen and celecoxib),  </li>
+<li>certain medicines used for the treatment of high blood pressure (ACE inhibitors  and 
+angiotensin II receptor antagonists)  </li>
+<li>medicines containing alcohol. </li>
+</ul>
 <p>Vipdomet with alcohol 
 Avoid excessive alcohol intake while taking Vipdomet since this may increase the risk of lactic 
-acidosis - see section “Warnings and precautions”. </p>
+acidosis - see section  Warnings and precautions . </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. You should not use Vipdomet if you 
@@ -228,51 +234,63 @@ increase when you stop taking Vipdomet. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>STOP taking Vipdomet and contact a doctor or the nearest hospital immediately if you notice 
 any of the symptoms of the following serious side effects: </p>
-<p>Very rare (may affect up to 1 in 10,000 people): 
-- Lactic acidosis (a build-up of lactic acid in the blood) is a very serious side effect that may lead 
-to coma. For symptoms see section “Warnings and precautions”.  </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- An allergic reaction. The symptoms may include: a rash, hives, swallowing or breathing 
-problems, swelling of your lips, face, throat or tongue and feeling faint. 
-- A severe allergic reaction: skin lesions or spots on your skin that can progress to a sore 
+<p>Very rare (may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>Lactic acidosis (a build-up of lactic acid in the blood) is a very serious side effect that may lead 
+to coma. For symptoms see section  Warnings and precautions .  </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>An allergic reaction. The symptoms may include: a rash, hives, swallowing or breathing 
+problems, swelling of your lips, face, throat or tongue and feeling faint. </li>
+<li>A severe allergic reaction: skin lesions or spots on your skin that can progress to a sore 
 surrounded by pale or red rings, blistering and/or peeling of the skin possibly with symptoms 
 such as itching, fever, overall ill feeling, achy joints, vision problems, burning, painful or itchy 
-eyes and mouth sores (Stevens-Johnson syndrome and Erythema multiforme). 
-- Severe and persistent pain in the abdomen (stomach area) which might reach through to your 
-back as well as nausea and vomiting, as it could be a sign of an inflamed pancreas (pancreatitis).  </p>
+eyes and mouth sores (Stevens-Johnson syndrome and Erythema multiforme). </li>
+<li>Severe and persistent pain in the abdomen (stomach area) which might reach through to your 
+back as well as nausea and vomiting, as it could be a sign of an inflamed pancreas (pancreatitis).  </li>
+</ul>
 <p>You should also discuss with your doctor if you experience the following side effects:  </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- Stomach ache 
-- Diarrhoea<br />
-- Loss of appetite 
-- Feeling sick<br />
-- Being sick. </p>
-<p>Common (may affect up to 1 in 10 people): 
-- Symptoms of low blood sugar (hypoglycaemia) may occur when Vipdomet is taken in 
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Stomach ache </li>
+<li>Diarrhoea  </li>
+<li>Loss of appetite </li>
+<li>Feeling sick  </li>
+<li>Being sick. </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Symptoms of low blood sugar (hypoglycaemia) may occur when Vipdomet is taken in 
 combination with insulin or sulphonylureas (e.g. glipizide, tolbutamide, glibenclamide). 
 Symptoms may include: trembling, sweating, anxiety, blurred vision, tingling lips, paleness, 
 mood change or feeling confused. Your blood sugar could fall below the normal level, but can 
 be increased again by taking sugar. It is recommended that you carry some sugar lumps, sweets, 
-biscuits or sugary fruit juice. 
-- Cold symptoms such as sore throat, stuffy or blocked nose, feeling tired, fever, chills, dry cough 
-- Rash<br />
-- Itchy skin with or without hives 
-- Headache 
-- Indigestion, heartburn 
-- Vomiting and/or diarrhoea 
-- Metallic taste 
-- Decreased or low vitamin B12 levels in the blood (symptoms may include extreme tiredness 
+biscuits or sugary fruit juice. </li>
+<li>Cold symptoms such as sore throat, stuffy or blocked nose, feeling tired, fever, chills, dry cough </li>
+<li>Rash  </li>
+<li>Itchy skin with or without hives </li>
+<li>Headache </li>
+<li>Indigestion, heartburn </li>
+<li>Vomiting and/or diarrhoea </li>
+<li>Metallic taste </li>
+<li>Decreased or low vitamin B12 levels in the blood (symptoms may include extreme tiredness 
 (fatigue), a sore and red tongue (glossitis), pins and needles (paraesthesia) or pale or yellow 
 skin).  Your doctor may arrange some tests to find out the cause of your symptoms because 
-some of these may also be caused by diabetes or due to other unrelated health problems </p>
-<p>Very rare: 
-- Liver problems (hepatitis or liver function test abnormalities) 
-- Erythema (redness of skin). </p>
-<p>Not known: 
-- Liver problems such as nausea or vomiting, stomach pain, unusual or unexplained tiredness, 
-loss of appetite, dark urine or yellowing of your skin or the whites of your eyes. 
-- Inflammation of the connective tissue within the kidneys (interstitial nephritis) 
-- Blistering of the skin (bullous pemphigoid). </p>
+some of these may also be caused by diabetes or due to other unrelated health problems </li>
+</ul>
+<p>Very rare:</p>
+<ul>
+<li>Liver problems (hepatitis or liver function test abnormalities) </li>
+<li>Erythema (redness of skin). </li>
+</ul>
+<p>Not known:</p>
+<ul>
+<li>Liver problems such as nausea or vomiting, stomach pain, unusual or unexplained tiredness, 
+loss of appetite, dark urine or yellowing of your skin or the whites of your eyes. </li>
+<li>Inflammation of the connective tissue within the kidneys (interstitial nephritis) </li>
+<li>Blistering of the skin (bullous pemphigoid). </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -308,11 +326,11 @@ crospovidone Type A, magnesium stearate, hypromellose, talc, titanium dioxide (E
 yellow iron oxide (E172). </p>
 <p>What Vipdomet looks like and contents of the pack 
 - Vipdomet 12.5 mg/850 mg film-coated tablets (tablets) are light yellow, oblong (approximately 
-21.0 mm long by 10.1 mm wide), biconvex, film-coated tablets with “12.5/850” debossed on 
-one side and “322M” debossed on the other side. 
+21.0 mm long by 10.1 mm wide), biconvex, film-coated tablets with  12.5/850  debossed on 
+one side and  322M  debossed on the other side. 
 - Vipdomet 12.5 mg/1,000 mg film-coated tablets (tablets) are pale yellow, oblong 
 (approximately 22.3 mm long by 10.7 mm wide), biconvex, film-coated tablets with 
-“12.5/1000” debossed on one side and “322M” debossed on the other side.  </p>
+ 12.5/1000  debossed on one side and  322M  debossed on the other side.  </p>
 <p>Vipdomet is available in blister packs containing 10, 14, 20, 28, 56, 60, 98, 112, 120, 180, 196, 
 200 tablets and in multipacks comprising 2 packs each containing 98 film-coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -328,22 +346,20 @@ Co. Wicklow
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com </p>
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel: +36 1 270 7medinfoEMEA@takeda.com 
 Danmark 
@@ -364,13 +380,12 @@ Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Takeda ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387medinfoEMEA@takeda.com  </p>
-<p>Österreich 
+<p>Takeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com  </p>
+<p>sterreich 
 Takeda Pharma Ges. m.b.H. 
 Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com  </p>
-<p>España 
+<p>Espa a 
 Laboratorios Menarini, S.A 
 Tel: +34 934 628 info@menarini.es </p>
 <p>Polska 
@@ -380,25 +395,25 @@ tel: +48223062medinfoEMEA@takeda.com  </p>
 Takeda France SAS 
 Tel: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Tecnimede - Sociedade Técnico-Medicinal, S.A 
+Tecnimede - Sociedade T cnico-Medicinal, S.A 
 Tel: +351 21 041 41 00<br />
 dmed.fv@tecnimede.pt  </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com 
-România 
+Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o.<br />
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o.<br />
 Tel: +386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
@@ -407,9 +422,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-Takeda ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Takeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Sverige 
 Takeda Pharma AB 
 Tel: 020 795 medinfoEMEA@takeda.com </p>

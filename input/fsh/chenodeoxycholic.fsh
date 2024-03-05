@@ -4,7 +4,7 @@ Instance: composition-en-9a0b3c0fd7de6773b4bcb12cc91e76d7
 InstanceOf: CompositionUvEpi
 Title: "Composition for chenodeoxycholic Package Leaflet"
 Description:  "Composition for chenodeoxycholic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -111,8 +111,8 @@ Leadiant if necessary. </p>
 less effective. It is not recommended to take oral contraceptives whilst taking Chenodeoxycholic acid 
 Leadiant. Please discuss suitable contraceptive methods with your doctor. </p>
 <p>The following medicines may reduce the effect of Chenodeoxycholic acid Leadiant: 
-• colestyramine, colestipol (so called bile acid sequestrants) 
-• medicines to treat heartburn (antacids) containing aluminium hydroxide and/or smectite 
+  colestyramine, colestipol (so called bile acid sequestrants) 
+  medicines to treat heartburn (antacids) containing aluminium hydroxide and/or smectite 
 (aluminium oxide)<br />
 If you have to take colestyramine then take Chenodeoxycholic acid Leadiant either one hour before 
 colestyramine or 4-6 hours after. 
@@ -148,7 +148,7 @@ approximately the same time each day. The capsules can be taken with or without 
 may decide to increase your dose depending on how your body responds to treatment. Your doctor 
 will tell you how many capsules you need to take, and when you should take the capsules. </p>
 <p>Use in children and adolescents (aged one month to 18 years) 
-In babies, children and adolescents the dose will be calculated based on the child’s weight. The 
+In babies, children and adolescents the dose will be calculated based on the child s weight. The 
 starting dose will be calculated at 5 mg per kg per day. The maximum dose for children is 15 mg per 
 kg per day. The doctor will decide how many times and when your child should receive the dose(s) to 
 make up the total dose for the day. Your doctor may change the dose depending on how your child 
@@ -195,7 +195,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister pack after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -222,8 +222,8 @@ Germany
 e-mail:  info@leadiantbiosciences.com </p>
 <p>Manufacturer 
 Pharmaloop S.L. 
-C/Bolivia, no 15 Polígono Industrial Azque 
-Alcalá de Henares 
+C/Bolivia, no 15 Pol gono Industrial Azque 
+Alcal  de Henares 
 Madrid 28Spain </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>

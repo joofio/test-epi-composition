@@ -4,7 +4,7 @@ Instance: composition-en-1dcc174da076b834cc635ff47b615cf2
 InstanceOf: CompositionUvEpi
 Title: "Composition for palonosetron Package Leaflet"
 Description:  "Composition for palonosetron Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,8 +81,10 @@ in adults, adolescents and children over one month of age. </p>         </div>""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take palonosetron"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Palonosetron Accord: 
-- if you are allergic to palonosetron or any of the other ingredients of this medicine (listed in section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Palonosetron Accord:</p>
+<ul>
+<li>if you are allergic to palonosetron or any of the other ingredients of this medicine (listed in section 6). </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor, pharmacist or nurse before using Palonosetron Accord. 
 -<br />
@@ -92,11 +94,12 @@ if you are using palonosetron accord in addition to other medicines that may ind
 rhythm such as amiodarone, nicardipine, quinidine, moxifloxacin, erythromycin, haloperidol, 
 chlorpromazine, quetiapine, thioridazine, domperidone. 
 -<br />
-if you have a personal or family history of alterations in heart rhythm (QT prolongation): 
--<br />
-if you have other heart problems. 
--     if you have an imbalance of certain minerals in your blood such as potassium and magnesium which has 
-not been treated. </p>
+if you have a personal or family history of alterations in heart rhythm (QT prolongation):</p>
+<ul>
+<li>if you have other heart problems. </li>
+<li>if you have an imbalance of certain minerals in your blood such as potassium and magnesium which has 
+not been treated. </li>
+</ul>
 <p>It is not recommended to take palonosetron accord in the days following chemotherapy unless you are receiving 
 another chemotherapy cycle. </p>
 <p>Other medicines and Palonosetron Accord 
@@ -119,7 +122,7 @@ Ask your doctor or pharmacist for advice before using palonosetron accord if you
 <p>Driving and using machines<br />
 Palonosetron accord may cause dizziness or tiredness. If affected, do not drive or use any tools or machines.  </p>
 <p>Palonosetron Accord contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial that is to say essentially ‘sodium- free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take palonosetron"
@@ -213,9 +216,8 @@ Single use only, dispose of any unused solution. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Palonosetron Accord contains<br />
--<br />
-The active substance is palonosetron (as hydrochloride).  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Palonosetron Accord contains</h2>
+<p>The active substance is palonosetron (as hydrochloride).  </p>
 <p>Each ml of solution contains 50 micrograms of palonosetron. Each vial of 5ml of solution contains 
 250 micrograms of palonosetron. 
 -<br />
@@ -229,7 +231,7 @@ with chlorobutyl rubber stopper and sealed with a flip-off aluminium seal. Each 
 <p>Marketing Authorisation Holder 
 Accord Healthcare S.L.U.<br />
 World Trade Center, Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
+Edifici Est 6  planta,<br />
 08039 Barcelona,<br />
 Spain </p>
 <p>Manufacturers </p>

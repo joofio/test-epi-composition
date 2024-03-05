@@ -4,7 +4,7 @@ Instance: composition-en-88465ebc29d8e476ad0a83f9574d1c59
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyxumia Package Leaflet"
 Description:  "Composition for lyxumia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,7 +88,7 @@ sugar levels. These may include:
 - if you are allergic to lixisenatide or any of the other ingredients of this medicine (listed in 
 section 6).  </p>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist or nurse before using Lyxumia if:  </p>
+Talk to your doctor, pharmacist or nurse before using Lyxumia if:</p>
 <ul>
 <li>
 <p>you have type 1 diabetes or diabetic ketoacidosis (a complication of diabetes that occurs when 
@@ -100,7 +100,7 @@ medicine will not be right for you </p>
 </li>
 <li>
 <p>you have a severe stomach or gut problem such as a disease of the muscles of the stomach 
-called “gastroparesis” which results in delayed stomach emptying </p>
+called  gastroparesis  which results in delayed stomach emptying </p>
 </li>
 <li>
 <p>you have severe kidney disease, or you are on dialysis as the use of this medicine will not be 
@@ -147,7 +147,7 @@ If you use Lyxumia with a sulphonylurea or a basal insulin, you may get low bloo
 (hypoglycaemia). This may make it difficult to concentrate and you may feel dizzy or sleepy. If this 
 happens do not drive or use any tools or machines. </p>
 <p>Important information about some of the ingredients of Lyxumia 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e., essentially “sodium-free”. 
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e., essentially  sodium-free . 
 This medicine contains metacresol which may cause allergic reactions. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -158,7 +158,7 @@ This medicine contains metacresol which may cause allergic reactions. </p>      
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor, pharmacist or nurse has told you. Check with your 
 doctor, pharmacist or nurse if you are not sure.  </p>
 <p>How much to inject 
-* The starting dose is 10 micrograms once a day for the first 14 days – injected using the green 
+* The starting dose is 10 micrograms once a day for the first 14 days   injected using the green 
 pen.<br />
 * The dose from then onwards will be 20 micrograms once a day -using the purple pen. </p>
 <p>When to inject 
@@ -169,15 +169,15 @@ Inject Lyxumia into the skin (subcutaneously) of your stomach area (abdomen), up
 upper arm. </p>
 <p>Learning how to use the pre-filled pens 
 Before you use the pen for the first time, your doctor or nurse will show how to inject Lyxumia. </p>
-<p>• Always read the "Instructions for Use" provided in the box. 
-• Always use the pen as described in the “Instructions for Use”.  </p>
+<p>Always read the "Instructions for Use" provided in the box. 
+  Always use the pen as described in the  Instructions for Use .  </p>
 <p>Other important information about using the pre-filled pens 
-There is more information on how to use the pens in the “Instructions for Use”. The most important 
+There is more information on how to use the pens in the  Instructions for Use . The most important 
 points are: 
 * Always use a new needle for each injection. You must dispose of the needle after each use, in an 
-appropriate sharp’s container, following local recommendations. Speak to your doctor, nurse or 
+appropriate sharp s container, following local recommendations. Speak to your doctor, nurse or 
 pharmacist about how to dispose of sharps. 
-* Only use needles that are compatible for use with Lyxumia pen (see “Instructions for Use”). 
+* Only use needles that are compatible for use with Lyxumia pen (see  Instructions for Use ). 
 * You must activate your Lyxumia pen before you use it for the first time. This is to make 
 sure that it is working correctly and that the dose for your first injection is correct.<br />
 * If you think your Lyxumia pen may be damaged, do not use it. Get a new one. Do not try to 
@@ -215,7 +215,7 @@ mild and usually go away over time. </p>
 Very common side effects: may affect more than 1 in 10 people 
 * Diarrhoea 
 * Headache 
-* Low blood sugar (hypoglycaemia (“hypo”) especially when Lyxumia is used with insulin or a 
+* Low blood sugar (hypoglycaemia ( hypo ) especially when Lyxumia is used with insulin or a 
 sulphonylurea<br />
 The warning signs of low blood sugar may include cold sweat, cool pale skin, headache, feeling 
 drowsy, weak, dizzy, confused or irritable, feeling hungry, fast heartbeat and feeling jittery. Your 
@@ -254,9 +254,9 @@ safety of this medicine. </p>         </div>"""
 Do not use this medicine after the expiry date which is stated on the pen label and on the carton after 
 EXP. The expiry date refers to the last day of the month. </p>
 <p>Before first use<br />
-Store in a refrigerator (2°C-8°C). Do not freeze. Keep away from the freezer compartment. </p>
+Store in a refrigerator (2 C-8 C). Do not freeze. Keep away from the freezer compartment. </p>
 <p>During use of the pen 
-The pen can be used for 14 days when stored at a temperature below 30°C. Do not freeze. Do not store 
+The pen can be used for 14 days when stored at a temperature below 30 C. Do not freeze. Do not store 
 with a needle attached. When you are not using the pen, keep the cap on the pen in order to protect 
 from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -295,26 +295,25 @@ Sanofi Winthrop Industrie
 France </p>
 <p>Manufacturer 
 Sanofi-Aventis Deutschland GmbH 
-Industriepark Höchst - 65926 Frankfurt am Main 
+Industriepark H chst - 65926 Frankfurt am Main 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/ Belgien 
+<p>Belgi /Belgique/ Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB<br />
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -329,18 +328,17 @@ Nederland
 Sanofi B.V.<br />
 Tel: +31 20 245 4 
 Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ           <br />
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis               <br />
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -348,13 +346,13 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél : 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+T l : 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -363,10 +361,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -374,10 +372,9 @@ Sanofi S.r.l.<br />
 Tel:  800 536 
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741741  </p>
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741741  </p>
 <p>Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

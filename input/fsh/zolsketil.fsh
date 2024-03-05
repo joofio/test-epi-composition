@@ -4,7 +4,7 @@ Instance: composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for zolsketil Package Leaflet"
 Description:  "Composition for zolsketil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,8 +75,8 @@ problems. ZOLSKETIL pegylated liposomal is also used to treat cancer of the ovar
 cancer cells, shrink the size of the tumour, delay the growth of the tumour, and extend your survival. </p>
 <p>ZOLSKETIL pegylated liposomal is also used in combination with another medicine, bortezomib, to 
 treat multiple myeloma (a cancer of the blood) in patients who have received at least 1 prior therapy. </p>
-<p>ZOLSKETIL pegylated liposomal is also used to produce an improvement in your Kaposi’s sarcoma 
-including flattening, lightening and even shrinkage of the cancer. Other symptoms of Kaposi’s 
+<p>ZOLSKETIL pegylated liposomal is also used to produce an improvement in your Kaposi s sarcoma 
+including flattening, lightening and even shrinkage of the cancer. Other symptoms of Kaposi s 
 sarcoma, such as swelling around the tumour, may also improve or disappear. </p>
 <p>ZOLSKETIL pegylated liposomal contains a medicine which is able to interact with cells in such a 
 way as to selectively kill cancer cells. The doxorubicin hydrochloride in ZOLSKETIL pegylated 
@@ -94,39 +94,38 @@ product from the blood stream to the cancerous tissue rather than healthy normal
 - if you are allergic to doxorubicin hydrochloride, peanut or soya, or any of the other ingredients 
 of this medicine (listed in section 6). </p>
 <p>Warnings and precautions 
-You should tell your doctor about any of the following: 
-- if you are receiving any treatment for heart disease or liver disease; 
-- if you are diabetic, because ZOLSKETIL pegylated liposomal contains sugar which may require 
-an adjustment to the treatment of your diabetes; 
-- if you have Kaposi’s sarcoma and have had your spleen removed; </p>
+You should tell your doctor about any of the following:</p>
 <ul>
-<li>if you notice sores, discolouration or any discomfort in your mouth. </li>
+<li>if you are receiving any treatment for heart disease or liver disease; </li>
+<li>if you are diabetic, because ZOLSKETIL pegylated liposomal contains sugar which may require 
+an adjustment to the treatment of your diabetes; </li>
+<li>
+<p>if you have Kaposi s sarcoma and have had your spleen removed; </p>
+</li>
+<li>
+<p>if you notice sores, discolouration or any discomfort in your mouth. </p>
+</li>
 <li>if you have bone marrow bone marrow is not making enough blood cells </li>
 <li>if you have cancer where bone marrow makes abnormal blood cells  </li>
 <li>if you have painful, macular reddening skin rash </li>
 <li>if you have leakage of vesicant fluids or medicines from the vein into the surrounding tissue </li>
-<li>if you have hand–foot syndrome (redness, swelling and blistering (a pocket of fluid between the 
+<li>if you have hand foot syndrome (redness, swelling and blistering (a pocket of fluid between the 
 upper layers of skin) on the palms of the hands and soles of the feet) </li>
 </ul>
-<h2>Strategies to prevent and treat hand-foot syndrome include:</h2>
-<p>soaking hands and/or feet in basins of cold water when possible (e.g., while watching television, 
-reading, or listening to the radio); 
--<br />
-keeping hands and feet uncovered (no gloves, socks, etc.); 
--<br />
-staying in cool places; 
--<br />
-taking cool baths during hot weather; 
--<br />
-avoiding vigorous exercise that might cause trauma to the feet (e.g., jogging); 
--<br />
-avoiding exposure of skin to very hot water (e.g., jacuzzis, saunas); 
--<br />
-avoiding tight fitting footwear or high-heeled shoes. </p>
-<p>Pyridoxine (Vitamin B6): 
-- vitamin B6 is available without prescription; 
--<br />
-take 50-150 mg daily beginning at the first signs of redness or tingling. </p>
+<p>Strategies to prevent and treat hand-foot syndrome include:</p>
+<ul>
+<li>soaking hands and/or feet in basins of cold water when possible (e.g., while watching television, 
+reading, or listening to the radio); </li>
+<li>keeping hands and feet uncovered (no gloves, socks, etc.); </li>
+<li>staying in cool places; </li>
+<li>taking cool baths during hot weather; </li>
+<li>avoiding vigorous exercise that might cause trauma to the feet (e.g., jogging); </li>
+<li>avoiding exposure of skin to very hot water (e.g., jacuzzis, saunas); </li>
+<li>avoiding tight fitting footwear or high-heeled shoes. </li>
+</ul>
+<p>Pyridoxine (Vitamin B6):</p>
+<h2>- vitamin B6 is available without prescription;</h2>
+<p>take 50-150 mg daily beginning at the first signs of redness or tingling. </p>
 <p>The cases of Interstitial lung diseases have been observed in patients receiving pegylated liposomal 
 doxorubicin including fatal cases. The symptoms of Interstitial lung disease are cough and shortness of 
 breath sometimes with fever which are not caused by physical activity. Seek immediate medical 
@@ -162,7 +161,7 @@ pegylated liposomal. </p>
 ZOLSKETIL pegylated liposomal contains soya oil. If you are allergic to peanut or soya, do not use 
 this medicine. 
 ZOLSKETIL pegylated liposomal contains less than 1 mmol sodium (23 mg) per dose, that is to say 
-‘essentially sodium-free’. </p>         </div>"""   
+ essentially sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zolsketil"
@@ -181,7 +180,7 @@ ZOLSKETIL pegylated liposomal will be administered at a dose of 30 mg per square
 body surface area (based on your height and weight) as a 1 hour intravenous infusion on day 4 of the 
 bortezomib 3 week regimen immediately after the bortezomib infusion. The dose is repeated as long as 
 you respond satisfactorily and tolerate treatment. </p>
-<p>If you are being treated for Kaposi’sarcoma, ZOLSKETIL pegylated liposomal will be administered at 
+<p>If you are being treated for Kaposi sarcoma, ZOLSKETIL pegylated liposomal will be administered at 
 a dose of 20 mg per square metre of your body surface area (based on your height and weight). The 
 dose is repeated every 2 to 3 weeks for 2-3 months, then as often as necessary to maintain an 
 improvement in your condition. </p>
@@ -202,14 +201,18 @@ of mouth sores. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>During the infusion of ZOLSKETIL pegylated liposomal, the following reactions may occur: 
-- severe allergic reaction that may include a swollen face, lips, mouth, tongue or throat; difficulty 
-swallowing or breathing; itchy rash (hives) 
-- inflamed and narrowed airways in the lungs, causing coughing, wheezing and shortness of 
-breath (asthma) 
-- flushing, sweating, chills or a fever </p>
+<p>During the infusion of ZOLSKETIL pegylated liposomal, the following reactions may occur:</p>
 <ul>
-<li>chest pain or discomfort </li>
+<li>severe allergic reaction that may include a swollen face, lips, mouth, tongue or throat; difficulty 
+swallowing or breathing; itchy rash (hives) </li>
+<li>inflamed and narrowed airways in the lungs, causing coughing, wheezing and shortness of 
+breath (asthma) </li>
+<li>
+<p>flushing, sweating, chills or a fever </p>
+</li>
+<li>
+<p>chest pain or discomfort </p>
+</li>
 <li>back pain </li>
 <li>high or low blood pressure </li>
 <li>fast heart beat </li>
@@ -220,7 +223,7 @@ stings or hurts while you are receiving a dose of ZOLSKETIL pegylated liposomal,
 immediately </p>
 <p>Your doctor should be contacted immediately if any of the following serious side effects are noticed 
 - you develop fever, feel tired, or if you have signs of bruising or bleeding (very common) 
-- redness, swelling, peeling or tenderness, mainly on the hands or feet (‘hand-foot’ syndrome). 
+- redness, swelling, peeling or tenderness, mainly on the hands or feet ( hand-foot  syndrome). 
 These effects have been seen very commonly and are sometimes severe. In severe cases, these 
 effects may interfere with certain daily activities, and may last for 4 weeks or longer before 
 resolving completely. The doctor may wish to delay the start and/or reduce the dose of the next 
@@ -291,7 +294,7 @@ feeling unwell, swelling caused by fluid build up in the body, swollen hands, an
 and some have not occurred at all. </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people) 
 - herpes simplex virus infections (cold sores or genital herpes), fungal infection 
-- low number of all types of blood cells, increased number of ‘platelets’ (cells that help blood to 
+- low number of all types of blood cells, increased number of  platelets  (cells that help blood to 
 clot) 
 - allergic reaction 
 - high level of potassium in the blood, low level of magnesium in the blood 
@@ -329,7 +332,7 @@ the skin and mucosa caused by low oxygen in the blood </li>
 <li>vaginal infection, redness of the scrotum </li>
 <li>problems with the lining of the cavities and passages in the body, such as the nose, mouth or 
 windpipe </li>
-<li>abnormal liver blood test results, increased level of ‘creatinine’ in the blood </li>
+<li>abnormal liver blood test results, increased level of  creatinine  in the blood </li>
 </ul>
 <p>Not known (frequency cannot be estimated from the available data) 
 - cancer of the blood that develops quickly and affects the blood cells (acute myeloid leukaemia), 
@@ -350,12 +353,12 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton. </p>
-<p>Store in a refrigerator (2ºC – 8ºC). Do not freeze. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
 <p>After dilution: 
-Chemical and physical in-use stability has been demonstrated for 24 hours at 2°C to 8°C. From a 
+Chemical and physical in-use stability has been demonstrated for 24 hours at 2 C to 8 C. From a 
 microbiological point of view, the product should be used immediately. If not used immediately, in-
 use storage times and conditions prior to use are the responsibility of the user and should not be longer 
-than 24 hours at 2°C to 8°C. Partially used vials must be discarded. </p>
+than 24 hours at 2 C to 8 C. Partially used vials must be discarded. </p>
 <p>Do not use this medicine if you notice that it shows evidence of precipitation or any other particulate 
 matter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -373,25 +376,6 @@ throw away medicines you no longer use. These measures will help protect the env
 liposomal contains 2 mg of doxorubicin hydrochloride in a pegylated liposomal formulation. </li>
 <li>The other ingredient(s) are hydrogenated soy phosphatidylcholine, N- carbonylmethoxypolyethylene glycol-2000)-1,2- distearoyl- sn-glycero-3- phosphoethanolamine, sodium salt (MPEG 2000-DSPE), cholesterol, ammonium sulphate, 
 histidine, sucrose, water for injections, hydrochloric acid, concentrated (for pH-adjustment), 
-sodium hydroxide (for pH-adjustment). See section 2.<br />
-ZOLSKETIL pegylated liposomal: vials which provide 10 mL (20 mg) or 25 mL (50 mg). </li>
-</ul>
-<p>What ZOLSKETIL pegylated liposomal looks like and contents of the pack 
-This medicine is a translucent red coloured dispersion filled in a clear glass vial. ZOLSKETIL 
-pegylated liposomal is available in glass vials as a single pack or packs of ten vials. 
-Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder<br />
-Accord Healthcare S.L.U.<br />
-World Trade Center, Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
-08039,Barcelona,<br />
-Spain </p>
-<p>Manufacturer 
-Accord Healthcare Polska Sp. z o.o. 
-ul. Lutomierska 50, Pabianice, 95-Poland </p>
-<p>Accord Healthcare B.V. 
-Winthontlaan 200, Utrecht, 3526KV ,<br />
-Netherlands </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+sodium hydroxide (for pH-adjustment). See section </li>
+</ul>         </div>"""      
 

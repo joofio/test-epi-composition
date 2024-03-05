@@ -4,7 +4,7 @@ Instance: composition-en-c419fe066011304c4fef1d514818ee22
 InstanceOf: CompositionUvEpi
 Title: "Composition for enjaymo Package Leaflet"
 Description:  "Composition for enjaymo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,14 +98,14 @@ hepatitis, B or hepatitis C or if you have a decreased ability to fight infectio
 meningococcal and streptococcal vaccines.  </p>
 <p>It is recommended that you are vaccinated at least 2 weeks before beginning Enjaymo. You need to 
 be aware that vaccination may not always prevent these types of infection. Immediately contact your 
-doctor if any signs of infection appear, see section 4 “Possible side effects”.  </p>
+doctor if any signs of infection appear, see section 4  Possible side effects .  </p>
 <p>Allergic reactions </p>
 <p>Seek medical help immediately if you notice any signs of an allergic reaction while or after you are 
-given this medicine. For symptoms, see section 4 “Possible side effects”.  </p>
+given this medicine. For symptoms, see section 4  Possible side effects .  </p>
 <p>Infusion-related reactions </p>
 <p>You may experience infusion-related reactions during the infusion or immediately after the infusion. 
 Inform your healthcare professional immediately if you experience symptoms associated with 
-Enjaymo infusion. For symptoms, see section 4 “Possible side effects”.  </p>
+Enjaymo infusion. For symptoms, see section 4  Possible side effects .  </p>
 <p>Systemic lupus erythematosus (SLE) </p>
 <p>Inform your doctor if you have an autoimmune disease such as systemic lupus erythematosus (SLE), 
 also known as lupus. Seek medical attention if you develop any symptoms of SLE such as joint pain 
@@ -115,7 +115,7 @@ or swelling, rash on the cheeks and nose or unexplained fever.  </p>
 does not occur in this age group. </p>
 <p>Other medicines and Enjaymo </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
-<p>Pregnancy and breast­feeding  </p>
+<p>Pregnancy and breast feeding  </p>
 <p>Pregnancy  </p>
 <p>If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor for 
 advice before being given this medicine. It is not known if Enjaymo will affect your unborn baby.<br />
@@ -181,11 +181,11 @@ If any of these symptoms occur during infusion, the infusion should be stopped i
 <p>Immediately tell your health care professional giving you Enjaymo if you notice any signs of a 
 reaction related to the infusion while you are given this medicine. Common (may affect up to 1 in 
 10 people). The signs may include: <br />
-• nausea 
-• feeling flushed 
-• headache </p>
-<p>• shortness of breath<br />
-• rapid heart rate. </p>
+  nausea 
+  feeling flushed 
+  headache </p>
+<p>shortness of breath<br />
+  rapid heart rate. </p>
 <p>Tell your doctor as soon as possible if you experience symptoms or signs of an infection such as:<br />
 <em> fever with or without rash, chills, flu-like symptoms, cough/difficulty breathing, headache with 
 nausea, vomiting, stiff neck, stiff back, confusion, eye sensitivity to light, pain during urination 
@@ -196,12 +196,12 @@ nose are very common (may affect more than 1 in 10 people).<br />
 1 in 10 people). 
 Tell your doctor or nurse if you get any of the following other side effects:  </p>
 <p>Very common (may affect more than 1 in 10 people) 
-• headache 
-• high blood pressure 
-• poor circulation with skin discoloration in hands and feet in response to cold and stress 
-(Raynaud’s phenomenon, acrocyanosis) 
-• belly pain 
-• nausea </p>
+  headache 
+  high blood pressure 
+  poor circulation with skin discoloration in hands and feet in response to cold and stress 
+(Raynaud s phenomenon, acrocyanosis) 
+  belly pain 
+  nausea </p>
 <p>Common (may affect up to 1 in 10 people): 
 * Infusion related reactions 
 * Fever 
@@ -228,7 +228,7 @@ medicine.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C-8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C-8 C). Do not freeze. </p>
 <p>Store in the original carton in order to protect from light. </p>
 <p>Enjaymo should not be thrown away via wastewater or household waste. Your healthcare 
 professional is responsible for disposing of any unused product correctly. This measure will help 
@@ -244,7 +244,7 @@ protect the environment.  </p>         </div>"""
 - The active substance is sutimlimab. Each vial of 22 mL solution contains 1100 mg of sutimlimab 
 - The other ingredients are polysorbate 80 (E 433), sodium chloride, sodium phosphate dibasic (E 
 339), sodium phosphate monobasic (E 339), and water for injections.  </p>
-<p>This medicine contains sodium (see section 2 “Enjaymo contains sodium”). </p>
+<p>This medicine contains sodium (see section 2  Enjaymo contains sodium ). </p>
 <p>What Enjaymo looks like and contents of the pack </p>
 <p>Enjaymo is an opalescent, colourless to slightly yellow solution for infusion, essentially free from 
 particles.  </p>
@@ -256,27 +256,26 @@ Paasheuvelweg 1105 BP Amsterdam
 The Netherlands </p>
 <p>Manufacturer 
 Sanofi-Aventis Deutschland GmbH<br />
-Brüningstr. 50<br />
+Br ningstr. 50<br />
 Frankfurt am Main, 65926<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel: +36 1 505 0 
 Danmark 
@@ -292,18 +291,17 @@ Nederland
 Sanofi B.V. 
 Tel: +31 20 245 4 
 Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94<br />
 Polska 
@@ -311,13 +309,13 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
+Sanofi - Produtos Farmac uticos, Lda 
 Tel: +351 21 35 89<br />
 Hrvatska<br />
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31  </p>
 <p>Ireland 
@@ -326,10 +324,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7000  </p>
-<p>Slovenská republika 
+S mi: +354 535 7000  </p>
+<p>Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -337,10 +335,9 @@ Sanofi S.r.l.
 Tel: 800 536<br />
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

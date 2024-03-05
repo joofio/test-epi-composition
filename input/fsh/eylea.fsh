@@ -4,7 +4,7 @@ Instance: composition-en-448b528bf3d067b64074ee9859a8f881
 InstanceOf: CompositionUvEpi
 Title: "Composition for eylea Package Leaflet"
 Description:  "Composition for eylea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -54,10 +54,11 @@ Usage: #example
   * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Eylea is and what it is used for 
-2. What you need to know before you are given Eylea  
-3. How you will be given Eylea  
-4. Possible side effects 
+ 
+1. What Eylea is and what it is used for  
+2. What you need to know before you receive  Eylea  
+3. How Eylea will be given  
+4. Possible side effects  
 5. How to store Eylea  
 6. Contents of the pack and other information 
          </div>"""   
@@ -68,30 +69,22 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What eylea is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Eylea is a solution which is injected into the eye to treat eye conditions in adults called<br />
-- neovascular (wet) age-related macular degeneration (wet AMD),<br />
-- impaired vision due to macular oedema secondary to retinal vein occlusion (branch RVO 
-(BRVO) or central RVO (CRVO)), 
-- impaired vision due to diabetic macular oedema (DME), 
-- impaired vision due to myopic choroidal neovascularisation (myopic CNV). </p>
-<p>Aflibercept, the active substance in Eylea, blocks the activity of a group of factors, known as Vascular 
-Endothelial Growth Factor A (VEGF-A) and Placental Growth Factor (PlGF). </p>
-<p>In patients with wet AMD and myopic CNV, these factors, in excess are involved in the abnormal 
-formation of new blood vessels in the eye. These new blood vessels can cause the leak of blood 
-components into the eye and eventual damage to tissues in the eye responsible for vision.  </p>
-<p>In patients with CRVO, a blockage occurs in the main blood vessel that transports blood away from 
-the retina. VEGF levels are elevated in response causing the leakage of fluid into the retina and 
-thereby causing a swelling of the macula, (the portion of the retina responsible for fine vision), which 
-is called macular oedema. When the macula swells with fluid, central vision becomes blurry. </p>
-<p>In patients with BRVO, one or more branches of the main blood vessel that transports blood away 
-from the retina is blocked. VEGF levels are elevated in response causing the leakage of fluid into the 
-retina and thereby causing macular oedema. </p>
-<p>Diabetic macular oedema is a swelling of the retina occurring in patients with diabetes due to leaking 
-of fluid from blood vessels within the macula. The macula is the portion of retina responsible for fine 
-vision. When the macula swells with fluid, central vision becomes blurry. </p>
-<p>Eylea has been shown to stop the growth of new abnormal blood vessels in the eye which often leak 
-fluid or bleed. Eylea can help to stabilise, and in many cases, improve the vision loss related to wet 
-AMD, CRVO, BRVO, DME and myopic CNV. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eylea is 
+Eylea contains the active substance aflibercept. It belongs to a group of medicines called 
+antineovascularistion agents.  </p>
+<p>Your doctor will inject Eylea into your eye to treat eye disorders in adults called:</p>
+<ul>
+<li>wet age-related macular degeneration (wet AMD) </li>
+<li>visual impairment due to diabetic macular oedema (DME). </li>
+</ul>
+<p>These disorders affect the macula. The macula is the central part of the light sensitive membrane at the 
+back of the eye. It is responsible for clear vision. 
+Wet AMD is caused when abnormal blood vessels form and grow below the macula. The abnormal 
+blood vessels may leak fluid or blood into the eye. Leaky blood vessels that cause swelling of the 
+macula cause DME. Both disorders may impact your vision. </p>
+<p>How Eylea works 
+Eylea stops growth of new abnormal blood vessels in the eye. Eylea can help to stabilise and often 
+improve vision. </p>         </div>"""   
           
 
              
@@ -100,130 +93,83 @@ AMD, CRVO, BRVO, DME and myopic CNV. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take eylea"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not be given Eylea 
-- if you are allergic to aflibercept or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you have an active or suspected infection in or around the eye (ocular or periocular infection). 
-- if you have severe inflammation of the eye (indicated by pain or redness).  </p>
-<p>Warnings and precautions 
-Talk to your doctor before you are given Eylea 
-- if you have glaucoma. 
-- if you have a history of seeing flashes of light or floaters and if you have a sudden increase of 
-size and number of floaters. 
-- if surgery was performed or is planned on your eye within the previous or next four weeks. 
-- if you have a severe form of CRVO or BRVO (ischaemic CRVO or BRVO), treatment with 
-Eylea is not recommended. </p>
-<p>Furthermore, it is important for you to know that 
-- the safety and efficacy of Eylea when administered to both eyes at the same time has not been 
-studied and if used in this way may lead to an increased risk of experiencing side effects. 
-- injections with Eylea may cause an increase in eye pressure (intraocular pressure) in some 
-patients within 60 minutes of the injection. Your doctor will monitor this after each injection. 
-- if you develop an infection or inflammation inside the eye (endophthalmitis) or other 
-complications, you may have eye pain or increased discomfort, worsening eye redness, blurred 
-or decreased vision, and increased sensitivity to light. It is important to have any symptoms 
-diagnosed and treated as soon as possible.<br />
-- your doctor will check whether you have other risk factors that may increase the chance of a 
-tear or detachment of one of the layers at the back of the eye (retinal detachment or tear, and 
-retinal pigment epithelial detachment or tear), in which case Eylea must be given with caution. 
-- Eylea should not be used in pregnancy unless the potential benefit outweighs the potential risk 
-to the unborn child.<br />
-- women of childbearing potential have to use effective contraception during treatment and for at 
-least three further months after the last injection of Eylea. </p>
-<p>The systemic use of VEGF inhibitors, substances similar to those contained in Eylea, is potentially 
-related to the risk of blood clots blocking blood vessels (arterial thromboembolic events) which may 
-lead to heart attack or stroke. There is a theoretical risk of such events following injection of Eylea 
-into the eye. There are limited data on safety in treating patients with CRVO, BRVO, DME and 
-myopic CNV who have had a stroke or a mini-stroke (transient ischaemic attack) or a heart attack 
-within the last 6 months. If any of these apply to you, Eylea will be given with caution.  </p>
-<p>There is only limited experience in the treatment of<br />
-- patients with DME due to type I diabetes. 
-- diabetics with very high average blood sugar values (HbA1c over 12%). 
-- diabetics with an eye disease caused by diabetes called proliferative diabetic retinopathy. </p>
-<p>There is no experience in the treatment of<br />
-- patients with acute infections. 
-- patients with other eye conditions such as a detachment of the retina or a hole in the macula. 
-- diabetics with uncontrolled high blood pressure.<br />
-- non-Asian patients with myopic CNV. 
-- patients previously treated for myopic CNV. 
-- patients with damage outside the central part of the macula (extrafoveal lesions) for myopic 
-CNV. </p>
-<p>If any of the above applies to you, your doctor will consider this lack of information when treating you 
-with Eylea. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not receive Eylea if you 
+- are allergic to aflibercept or any of the other ingredients of this medicine (listed in section 6) 
+- have an infection in or around the eye 
+- have pain or redness in your eye (severe eye inflammation). </p>
+<p>Warnings and precautions<br />
+Talk to your doctor before receiving Eylea if you:</p>
+<ul>
+<li>have glaucoma   an eye condition caused by high pressure in the eye </li>
+<li>have a history of seeing flashes of light or dark floating spots and if their size or number 
+suddenly increases </li>
+<li>had eye surgery in the last 4 weeks or eye surgery is planned in the next 4 weeks. </li>
+</ul>
+<p>Tell your doctor immediately if you develop:</p>
+<ul>
+<li>redness of the eye  </li>
+<li>eye pain </li>
+<li>increased discomfort </li>
+<li>blurred or decreased vision </li>
+<li>increased sensitivity to light 
+These may be symptoms of an inflammation or infection and your doctor may stop giving you Eylea. </li>
+</ul>
+<p>Furthermore, it is important for you to know that:</p>
+<ul>
+<li>the safety and efficacy of Eylea when administered to both eyes at the same time have not been 
+studied and such use may increase risk of experiencing side effects. </li>
+<li>injections with Eylea may cause an increase in eye pressure in some patients within 60 minutes 
+of the injection. Your doctor will monitor this after each injection. </li>
+<li>your doctor will check for other risk factors that may increase the chance of a tear or 
+detachment of one of the layers at the back of the eye. In such cases your doctor will give you 
+Eylea with caution. </li>
+<li>women who could become pregnant must use effective birth control during treatment and for at 
+least 4 months after the last injection of Eylea. </li>
+</ul>
+<p>The use of substances similar to those contained in Eylea is potentially related to the risk of blood 
+clots blocking blood vessels, which may lead to heart attack or stroke. Theoretically, this could also 
+happen after an injection of Eylea into the eye. If you had a stroke, a mini-stroke or a heart attack 
+within the last 6 months, your doctor will give you Eylea with caution.  </p>
 <p>Children and adolescents 
-The use of Eylea in children and adolescents under 18 years of age for indications other than 
-retinopathy of prematurity (ROP) has not been studied.<br />
-. 
-Other medicines and Eylea 
+The use of Eylea in children or adolescents under 18 has not been studied because the diseases 
+indicated occur mainly in adults. Therefore, its use in this age group is not relevant. </p>
+<p>Other medicines and Eylea 
 Tell your doctor if you are using, have recently used or might use any other medicines. </p>
-<p>Pregnancy and breast-feeding 
-- Women of childbearing potential have to use effective contraception during treatment and for at 
-least three further months after the last injection of Eylea. 
-- There is no experience of using Eylea in pregnant women. Eylea should not be used during 
-pregnancy unless the potential benefit outweighs the potential risk to the unborn child. If you 
-are pregnant or planning to become pregnant, discuss this with your doctor before treatment 
-with Eylea. 
-- Small amounts of Eylea may pass into human milk. The effects on breast-fed newborns/infants 
-are unknown. Eylea is not recommended during breast-feeding. If you are a breastfeeding 
-woman, discuss this with your doctor before treatment with Eylea.  </p>
+<p>Pregnancy and breast-feeding<br />
+- Women who could become pregnant must use effective birth control during treatment and for at 
+least 4 months after the last injection of Eylea. 
+- There is no experience on the use of Eylea in pregnant women. Women should not receive 
+Eylea during pregnancy unless the potential benefit to the woman outweighs the potential risk to 
+the unborn child. 
+- Small amounts of Eylea may pass into human milk. The effect on breast-fed newborns/infants 
+are unknown. Eylea is not recommended during breast-feeding. 
+Therefore, if you are pregnant or breast-feeding, think you may be pregnant or are planning to have a 
+baby, ask your doctor for advice before you receive this medicine. </p>
 <p>Driving and using machines 
-After your injection with Eylea, you may experience some temporary visual disturbances. Do not drive 
-or use machines as long as these last. </p>
-<p>Important information about some of the ingredients of Eylea 
-This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
-'sodium-free’. </p>         </div>"""   
+After receiving Eylea, you may experience some temporary vision problems. Do not drive or use 
+machines as long as these last. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eylea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take eylea"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A doctor experienced in giving eye injections will inject Eylea into your eye under aseptic (clean and 
-sterile) conditions.  </p>
-<p>The recommended dose is 2 mg aflibercept (0.05 mL). 
-Eylea is given as an injection into your eye (intravitreal injection). </p>
-<p>Before the injection your doctor will use a disinfectant eyewash to clean your eye carefully to prevent 
-infection. Your doctor will also give you a local anaesthetic to reduce or prevent any pain you might 
-have with the injection.  </p>
-<p>wet AMD 
-Patients with wet AMD will be treated with one injection per month for three consecutive doses, 
-followed by another injection after a further two months. </p>
-<p>Your doctor will then decide whether the treatment interval between injections may be kept at every 
-two months or be gradually extended in 2- or 4-weekly intervals if your condition has been stable. </p>
-<p>If your condition worsens, the interval between injections can be shortened. </p>
-<p>Unless you experience any problems or are advised differently by your doctor, there is no need for you 
-to see your doctor between the injections. </p>
-<p>Macular oedema secondary to RVO (branch RVO or central RVO) 
-Your doctor will determine the most appropriate treatment schedule for you. You will start your 
-treatment with a series of monthly Eylea injections. </p>
-<p>The interval between two injections should not be shorter than one month. </p>
-<p>Your doctor may decide to stop treatment with Eylea, if you are not benefiting from continued 
-treatment. </p>
-<p>Your treatment will continue with monthly injections until your condition is stable. Three or more 
-monthly injections may be needed. </p>
-<p>Your doctor will monitor your response to treatment and may continue your treatment by gradually 
-increasing the interval between your injections to maintain a stable condition. If your condition starts 
-to worsen with a longer treatment interval, your doctor will shorten the interval accordingly. </p>
-<p>Based on your response to treatment your doctor will decide on the schedule for follow up 
-examinations and treatments. </p>
-<p>Diabetic macular oedema (DME) 
-Patients with DME will be treated with one injection per month for the first five consecutive doses 
-followed by one injection every two months thereafter. </p>
-<p>Treatment interval may be kept at every two months or adjusted to your condition, based on your 
-doctor’s examination. Your doctor will decide on the schedule for follow up examinations. </p>
-<p>Your doctor may decide to stop treatment with Eylea if it is determined that you are not benefiting 
-from continued treatment. </p>
-<p>Myopic CNV 
-Patients with myopic CNV will be treated with one single injection. You will receive further injections 
-only if your doctor’s examinations reveal that your condition has not improved. </p>
-<p>The interval between two injections should not be shorter than one month. </p>
-<p>If your condition goes away and then comes back, your doctor may re-start the treatment. </p>
-<p>Your doctor will decide on the schedule for follow up examinations. </p>
-<p>Detailed instructions for use are given at the end of the leaflet under “How to prepare and administer 
-Eylea to adults”. </p>
-<p>If a dose of Eylea is missed 
-Make a new appointment for an examination and injection. </p>
-<p>Stopping treatment with Eylea 
-Consult your doctor before stopping the treatment. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The recommended dose is 8 mg aflibercept per injection. </p>
+<ul>
+<li>You will receive 1 injection every month for the first 3 months. </li>
+<li>After that, you may receive injections up to every 5 months. Your doctor will decide on the 
+frequency based on the condition of your eye. </li>
+</ul>
+<p>Method of administration 
+Your doctor will inject Eylea into your eye (intravitreal injection). </p>
+<p>Before the injection, your doctor will use a disinfectant eyewash to clean your eye carefully to prevent 
+infection. Your doctor will give you an eye drop (local anaesthetic) to numb the eye to reduce or 
+prevent pain from the injection. </p>
+<p>If you missed a dose of Eylea 
+Make a new appointment with your doctor as soon as possible. </p>
+<p>Before stopping Eylea treatment 
+Speak with your doctor before stopping treatment. Stopping treatment may increase your risk of vision 
+loss and your vision may worsen. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
 
         
@@ -232,88 +178,88 @@ Consult your doctor before stopping the treatment. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Allergic reactions (hypersensitivity) could potentially occur. These may be serious and require that 
-you contact your doctor immediately. </p>
-<p>With administration of Eylea, there may be some side effects affecting the eyes which are due to the 
-injection procedure. Some of these may be serious and include blindness, a serious infection or 
-inflammation inside the eye (endophthalmitis), detachment, tear or bleeding of the light-sensitive 
-layer at the back of the eye (retinal detachment or tear), clouding of the lens (cataract), bleeding in 
-the eye (vitreous haemorrhage), detachment of the gel-like substance inside the eye from the retina 
-(vitreous detachment) and increase of pressure inside the eye, see section 2. These serious side 
-effects affecting the eyes occurred in less than 1 in 1,900 injections in clinical studies. </p>
-<p>If you experience a sudden decrease in vision, or an increase in pain and redness in your eye after your 
-injection, contact your doctor immediately.  </p>
-<p>List of side effects reported 
-The following is a list of the side effects reported to be possibly related to the injection procedure or to 
-the medicine. Please do not get alarmed, you might not experience any of these. Always discuss any 
-suspected side effects with your doctor. </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- deterioration of eyesight<br />
-- bleeding in the back of the eye (retinal haemorrhage) 
-- bloodshot eye caused by bleeding from small blood vessels in the outer layers of the eye<br />
-- eye pain </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- detachment or tear of one of the layers in the back of the eye, resulting in flashes of light with 
-floaters sometimes progressing to a loss of vision (retinal pigment epithelial tear<em>/detachment, 
-retinal detachment/tear) 
-o </em>Conditions known to be associated with wet AMD; observed in wet AMD patients only. 
-- degeneration of the retina causing disturbed vision 
-- bleeding in the eye (vitreous haemorrhage) 
-- certain forms of clouding of the lens (cataract) 
-- damage to the front layer of the eyeball (the cornea)<br />
-- increase in eye pressure<br />
-- moving spots in vision (floaters) 
-- detachment of the gel-like substance inside the eye from the retina (vitreous detachment, 
-resulting in flashes of light with floaters) 
-- a feeling of having something in the eye 
-- increased tear production 
-- swelling of the eyelid<br />
-- bleeding at the injection site 
-- redness of the eye  </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- allergic reactions (hypersensitivity)** 
-o ** Allergic reactions like rash, itching (pruritus), hives (urticaria), and a few cases of severe 
-allergy (anaphylactic/anaphylactoid) reactions were reported. 
-- serious inflammation or infection inside the eye (endophthalmitis) 
-- inflammation in the iris or other parts of the eye (iritis, uveitis, iridocyclitis, anterior chamber 
-flare) 
-- abnormal sensation in the eye 
-- eyelid irritation 
-- swelling of the front layer of the eyeball (cornea) </p>
-<p>Rare side effects (may affect up to 1 in 1,000 people): 
-- blindness 
-- clouding of the lens due to injury (traumatic cataract) 
-- inflammation of the gel-like substance inside the eye 
-- pus in the eye  </p>
-<p>In the clinical trials, there was an increased incidence of bleeding from small blood vessels in the outer 
-layers of the eye (conjunctival haemorrhage) in patients with wet AMD receiving blood thinners. This 
-increased incidence was comparable between patients treated with ranibizumab and Eylea. </p>
-<p>The systemic use of VEGF inhibitors, substances similar to those contained in Eylea, is potentially 
-related to the risk of blood clots blocking blood vessels (arterial thromboembolic events) which may 
-lead to heart attack or stroke. There is a theoretical risk of such events following injection of Eylea 
-into the eye.  </p>
-<p>As with all therapeutic proteins, there is a possibility for an immune reaction (formation of antibodies) 
-with Eylea.  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
+The side effects of Eylea injection are either from the medicine itself or from the injection procedure 
+and mostly affect the eye. </p>
+<p>Some side effects could be serious 
+Contact your doctor immediately if you have any of the following:</p>
+<ul>
+<li>common side effect, which may affect up to 1 in 10 people </li>
+<li>clouding of the lens (cataract) </li>
+<li>bleeding in the back of the eye (retinal haemorrhage) </li>
+<li>increase of pressure inside the eye  </li>
+<li>bleeding inside the eye (vitreous haemorrhage) </li>
+<li>uncommon side effect, which may affect up to 1 in 100 people </li>
+<li>certain forms of clouding of the lens (cataract subcapsular) </li>
+<li>detachment, tear or bleeding of the light-sensitive layer at the back of the eye, resulting in 
+flashes of light with floaters, sometimes progressing to a loss of vision (retinal 
+detachment or tear) </li>
+</ul>
+<p>Other possible side effects 
+Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>moving spot in your vision (vitreous floaters) </li>
+<li>detachment of the gel-like substance inside the eye (vitreous detachment) </li>
+<li>reduced sharpness of vision </li>
+<li>eye pain </li>
+<li>bleeding inside the eye (conjunctival haemorrhage) </li>
+<li>damage to the clear layer of the eyeball in front of the iris (punctate keratitis) </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>allergic reactions </li>
+<li>detachment or tear of one of the layers in the back of the eye, resulting in flashes of light with 
+floaters, sometimes progressing to a loss of vision (retinal pigment epithelial tear/detachment;) </li>
+<li>inflammation in the iris, of other parts of the eye, or the gel-like substance inside the eye (iritis, 
+iridocyclitis, vitritis) </li>
+<li>certain forms of clouding of the lens (cataract cortical/nuclear) </li>
+<li>damage to the front layer of the eyeball (corneal abrasion/erosion) </li>
+<li>blurred vision </li>
+<li>eye pain at injection site </li>
+<li>a feeling of having something in the eye </li>
+<li>increased tear production  </li>
+<li>bleeding at the injection site  </li>
+<li>redness of the eye </li>
+</ul>
+<p>Rare (may affect up to 1 in 1 000 people):</p>
+<ul>
+<li>blindness </li>
+<li>inflammation of other parts of the eye (uveitis) </li>
+<li>swelling of the eyelid </li>
+<li>irritation at injection site </li>
+<li>swelling of the front layer of the eyeball (corneal oedema) </li>
+</ul>
+<p>Besides the above the following side effects may occur although they have not been reported in 
+clinical studies:</p>
+<ul>
+<li>redness of the eye (ocular hyperaemia) </li>
+<li>degeneration of the light sensitive membrane at the back of the eye (retinal degeneration) </li>
+<li>abnormal sensation in eye </li>
+<li>clouding of the lens (lenticular opacities), clouding of the lens due to injury (traumatic cataract) </li>
+<li>damage to the surface of the clear front layer of the eye (corneal epithelium defect) </li>
+<li>inflammation of other parts of the eye (anterior chamber flare) </li>
+<li>eyelid irritation </li>
+<li>serious inflammation or infection inside the eye (endophthalmitis) </li>
+<li>pus in the eye (hypopyon) </li>
+<li>severe allergic reactions </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eylea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store eylea"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and label after EXP. 
-The expiry date refers to the last day of that month. 
-- Store in a refrigerator (2 °C to 8 °C). Do not freeze. 
-- The unopened blister may be stored outside the refrigerator below 25 °C for up to 24 hours. 
-- Store in the original package in order to protect from light. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
-how to throw away any medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. 
+The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2  C   8  C). Do not freeze. </li>
+<li>Keep the vial in the outer carton in order to protect from light. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -322,98 +268,87 @@ environment. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eylea contains<br />
-- The active substance is: aflibercept. One pre-filled syringe contains an extractable volume of at 
-least 0.09 mL, equivalent to at least 3.6 mg aflibercept. One pre-filled syringe delivers a dose of 
-2 mg aflibercept in 0.05 mL.<br />
-- The other ingredients are: polysorbate 20 (E 432), sodium dihydrogen phosphate monohydrate 
-(for pH adjustment), disodium hydrogen phosphate heptahydrate (for pH adjustment), sodium 
-chloride, sucrose, water for injections. </p>
+- The active substance is aflibercept. 1 ml solution contains 114.3 mg aflibercept. Each vial 
+contains 0.263 ml. This provides a usable amount to deliver a single dose of 0.07 ml containing 
+8 mg aflibercept. 
+- The other ingredients are: sucrose, arginine hydrochloride, histidine hydrochloride 
+monohydrate, histidine, polysorbate 20, water for injections. </p>
 <p>What Eylea looks like and contents of the pack 
-Eylea is a solution for injection (injection) in a pre-filled syringe. The solution is colourless to pale 
-yellow. 
-Pack size of 1 pre-filled syringe. </p>
+Eylea is a solution for injection (injection). The solution is colourless to pale yellow. 
+Pack size: 1 vial + 1 filter needle. </p>
 <p>Marketing Authorisation Holder 
 Bayer AG 
 51368 Leverkusen 
 Germany </p>
 <p>Manufacturer 
 Bayer AG 
-Müllerstraße 13353 Berlin 
-Germany  </p>
+M llerstra e 13353 Berlin 
+Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België / Belgique / Belgien 
+Authorisation Holder: 
+Belgi /Belgique/Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel: +370-5-233 68 България 
-Байер България ЕООД 
-Тел: +359-(0)2-424 72 Luxembourg / Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>T .: +359 (0)2 4247Luxembourg/Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420-266 101 Magyarország 
-Bayer Hungária KFT 
-Tel: +36-1-487 4Danmark 
+Tel: +420 266 101 Magyarorsz g 
+Bayer Hung ria KFT 
+Tel:+36 14 87-41 Danmark 
 Bayer A/S 
-Tlf: +45-45 235 Malta 
+Tlf: +45 45 23 50 Malta 
 Alfred Gera and Sons Ltd. 
-Tel: +356-21 44 62 Deutschland 
+Tel: +35 621 44 62 Deutschland 
 Bayer Vital GmbH 
-Tel: +49-(0)214-30 513 Nederland 
+Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
-Tel: +31-23-799 1Eesti 
-Bayer OÜ 
-Tel: +372-655 85 Norge 
+Tel: +31-23   799 1000<br />
+Eesti 
+Bayer O<br />
+Tel: +372 655 8Norge 
 Bayer AS 
-Tlf: +47-23 13 05 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30-210-618 75 Österreich 
-Bayer Austria Ges. m. b. H. 
-Tel: +43-(0)1-711 España 
+Tlf: +47 23 13 05 <br />
+Bayer   <br />
+ : +30-210-61 87  sterreich 
+Bayer Austria Ges.m.b.H. 
+Tel: +43-(0)1-711 46-0 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
-Tel: +48-22-572 35<br />
-France 
+Tel: +48 22 572 35 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54 Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
-Tel: +351-21-416 42 Hrvatska 
+Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: + 385-(0)1-6599 România 
-SC Bayer SRL<br />
-Tel: +40-(0)21-529 59 Ireland 
+Tel: +385-(0)1-6599 Rom nia 
+SC Bayer SRL 
+Tel: +40 21 529 59 Ireland 
 Bayer Limited 
-Tel: +353-(0)1-216 3Slovenija 
+Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386-(0)1-58 14 Ísland 
+Tel: +386 (0)1 58 14  sland 
 Icepharma hf. 
-Sími: +354-540 80 Slovenská republika 
-Bayer, spol. s r.o. 
-Tel: +421-(0)2-59 21 31 Italia 
+S mi: +354 540 8Slovensk  republika 
+Bayer spol. s r.o. 
+Tel. +421 2 59 21 31 Italia 
 Bayer S.p.A. 
-Tel: +39-02-3978 1 
+Tel: +39 02 397 8 1 
 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358-(0)20-78521<br />
-Κύπρος 
+Puh/Tel: +358- 20 785 <br />
 NOVAGEM Limited 
-Τηλ: +357-22-48 38 Sverige 
+T : +357 22 48 38 Sverige 
 Bayer AB 
-Tel: +46-(0)8-580 223 00<br />
-Latvija 
+Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 
-Tel: +371-67 84 55 United Kingdom (Northern Ireland) 
+Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.  </p>
-<hr />
-<p>The following information is intended for healthcare professionals only: </p>
-<p>How to prepare and administer Eylea to adults  </p>
-<p>The pre-filled syringe should only be used for the treatment of a single eye. 
-Do not open the sterile pre-filled syringe blister outside the clean administration room. </p>
-<p>The pre-filled syringe contains more than the recommended dose of 2 mg aflibercept (equivalent to </p>         </div>"""      
+Tel: +44-(0)118 206 3 
+This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

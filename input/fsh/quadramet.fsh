@@ -4,7 +4,7 @@ Instance: composition-en-08cf6fb4c3e579390e3141196404b03b
 InstanceOf: CompositionUvEpi
 Title: "Composition for quadramet Package Leaflet"
 Description:  "Composition for quadramet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Quadramet 
 4. Possible side effects 
 5. How to store Quadramet 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -170,7 +169,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use Quadramet after the expiry date which is stated on the label. 
 Quadramet expires 1 day from the activity reference time stated on the label. </p>
-<p>Store at –10°C to –20°C in a freezer in its original packaging. </p>
+<p>Store at  10 C to  20 C in a freezer in its original packaging. </p>
 <p>Quadramet should be used within 6 hours of thawing. After thawing, do not freeze again. </p>
 <p>The product label includes the appropriate storage conditions and the expiry date for the batch of 
 product. Hospital personnel will ensure that the product is stored correctly and not administered to you 
@@ -186,7 +185,7 @@ after the stated expiry date. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Quadramet contains 
 The active substance is samarium (153Sm) lexidronam pentasodium. 
 Each ml of solution contains 1.3 GBq Samarium (153Sm) lexidronam pentasodium at the reference date 
-(corresponding to 20-80 µg/ml of samarium per vial). </p>
+(corresponding to 20-80  g/ml of samarium per vial). </p>
 <p>The other ingredients are total EDTMP (as EDTMP.H2O), calcium-EDTMP sodium salt (as Ca), total 
 sodium (as Na), water for injections. </p>
 <p>What Quadramet looks like and contents of the pack 
@@ -197,7 +196,7 @@ chlorobutyl/natural rubber stopper and aluminium flip-off overseal. </p>
 <p>Each vial contains 1.5 ml (2 GBq at reference) to 3.1 ml (4 GBq at reference) of solution for injection. </p>
 <p>Marketing authorisation holder and manufacturer </p>
 <p>CIS bio international 
-Boîte Postale F-91192 Gif-sur-Yvette cedex 
+Bo te Postale F-91192 Gif-sur-Yvette cedex 
 France </p>
 <p>The leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-e32583165e64f7b46ac4a8e9d8029de8
 InstanceOf: CompositionUvEpi
 Title: "Composition for aloxi Package Leaflet"
 Description:  "Composition for aloxi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code.text =  "1. What aloxi is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aloxi contains the active substance palonosetron. This belongs to a group of medicines called 
-‘serotonin (5HT3) antagonists’.  </p>
+ serotonin (5HT3) antagonists .  </p>
 <p>Aloxi is used in adults, adolescents and children over one month of age to help stop you feeling or 
 being sick (nausea and vomiting) when having cancer treatments called chemotherapy. </p>
 <p>It works by blocking the action of a chemical called serotonin, which can cause you to feel sick or to 
@@ -91,7 +91,7 @@ or nurse before you are given this medicine.  </p>
 Talk to your doctor or nurse before you are given Aloxi if: 
 * you have a blocked bowel or have had repeated constipation in the past<br />
 * you have had heart problems or heart problems run in your family, such as changes in your heart 
-beat (‘QT prolongation’) 
+beat ( QT prolongation ) 
 * you have an imbalance of certain minerals in your blood which has not been treated - such as 
 potassium and magnesium. </p>
 <p>If any of the above applies to you (or you are not sure), talk to your doctor or nurse before you are 
@@ -101,20 +101,20 @@ Tell your doctor or nurse if you are taking, have recently taken or might take a
 particular, tell them if you are taking the following medicines: </p>
 <p>Medicines for depression or anxiety 
 Tell your doctor or nurse if you are taking any medicines for depression or anxiety, including: 
-• medicines called SSRIs (‘selective serotonin reuptake inhibitors’) – such as fluoxetine, 
+  medicines called SSRIs ( selective serotonin reuptake inhibitors )   such as fluoxetine, 
 paroxetine, sertraline, fluvoxamine, citalopram, escitalopram<br />
-* medicines called SNRIs (‘serotonin noradrenaline reuptake inhibitors’) – such as venlafaxine, 
+* medicines called SNRIs ( serotonin noradrenaline reuptake inhibitors )   such as venlafaxine, 
 duloxetine (can lead to the development of serotonin syndrome and should be used with caution). </p>
 <p>Medicines that can affect your heart beat 
-Tell your doctor or nurse if you are taking any medicines that affect your heart beat – this is because 
+Tell your doctor or nurse if you are taking any medicines that affect your heart beat   this is because 
 they could cause a heart beat problem when taken with Aloxi. This includes: 
-• medicines for heart problems such as amiodarone, nicardipine, quinidine 
-• medicines for infections such as moxifloxacin, erythromycin 
-• medicines for serious mental health problems such as haloperidol, chlorpromazine, quetiapine, 
+  medicines for heart problems such as amiodarone, nicardipine, quinidine 
+  medicines for infections such as moxifloxacin, erythromycin 
+  medicines for serious mental health problems such as haloperidol, chlorpromazine, quetiapine, 
 thioridazine<br />
-• a medicine for feeling or being sick (nausea and vomiting) called domperidone. 
+  a medicine for feeling or being sick (nausea and vomiting) called domperidone. 
 If any of the above applies to you (or you are not sure), talk to your doctor or nurse before taking 
-Aloxi – this is because these medicines could cause a heart beat problem when taken with Aloxi. </p>
+Aloxi   this is because these medicines could cause a heart beat problem when taken with Aloxi. </p>
 <p>Pregnancy 
 If you are pregnant or think you might be pregnant, your doctor will not give you Aloxi unless it is 
 clearly necessary. This is because we do not know if Aloxi may harm the baby. </p>
@@ -127,7 +127,7 @@ It is not known if Aloxi is found in breast milk. </p>
 You may feel dizzy or tired after being given this medicine. If this happens, do not drive or use any 
 tools or machines. </p>
 <p>Aloxi contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium- free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aloxi"
@@ -194,7 +194,7 @@ Common: may affect up to 1 in 10 people
 <ul>
 <li>high levels of the pigment bilirubin in the blood </li>
 <li>high levels of certain liver enzymes  </li>
-<li>ECG (electrocardiogram) abnormalities (‘QT prolongation’). </li>
+<li>ECG (electrocardiogram) abnormalities ( QT prolongation ). </li>
 </ul>
 <p>Very rare:  may affect up to 1 in 10,000 people 
 * Burning, pain or redness at the injection site 
@@ -222,11 +222,13 @@ V. By reporting side effects you can help provide more information on the safety
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store aloxi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the vial and carton after ‘EXP’. 
-The expiry date refers to the last day of that month. 
-* This medicine does not require any special storage conditions. 
-* Single use only, any unused solution should be disposed of. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the vial and carton after  EXP . 
+The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special storage conditions. </li>
+<li>Single use only, any unused solution should be disposed of. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]

@@ -4,7 +4,7 @@ Instance: composition-en-52f798a2a01bd37d07b0ffeba290b5e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for harvoni Package Leaflet"
 Description:  "Composition for harvoni Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -45,7 +45,7 @@ Usage: #example
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Harvoni has been prescribed for your child, please note that all the information in this leaflet 
-is applicable to your child (in this case please read “your child” instead of “you”). </p>         </div>"""   
+is applicable to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
 
 
 
@@ -96,12 +96,12 @@ Harvoni. If you have any questions about your medicines, please ask your doctor 
 <p>If you are currently taking any of the following medicines: </p>
 </li>
 <li>rifampicin and rifabutin (antibiotics used to treat infections, including tuberculosis); </li>
-<li>St. John’s wort (herbal medicine used to treat depression); </li>
+<li>St. John s wort (herbal medicine used to treat depression); </li>
 <li>carbamazepine, phenobarbital and phenytoin (medicines used to treat epilepsy and 
 prevent seizures); </li>
 <li>rosuvastatin (a medicine used to treat high cholesterol). </li>
 </ul>
-<p> If any of these conditions apply to you, do not take Harvoni and tell your doctor immediately. </p>
+<p>If any of these conditions apply to you, do not take Harvoni and tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <p>Your doctor will know if any of the following conditions apply to you. These will be considered 
 before treatment with Harvoni is started. 
@@ -195,7 +195,7 @@ any chance for pregnancy to occur. </p>
 <ul>
 <li>You or your partner must use an effective birth control method during treatment with Harvoni 
 together with ribavirin and for some time afterwards. It is very important that you read the 
-“Pregnancy” section in the ribavirin package leaflet very carefully. Ask your doctor for an 
+ Pregnancy  section in the ribavirin package leaflet very carefully. Ask your doctor for an 
 effective contraceptive method suitable for you. </li>
 <li>If you or your partner become pregnant during Harvoni and ribavirin treatment or in the months 
 that follow, you must contact your doctor immediately. </li>
@@ -211,11 +211,11 @@ for example, do not drive, ride a bike or operate machines. </p>
 your doctor before taking this medicinal product. </p>
 <p>Harvoni 90 mg/400 mg film-coated tablets contains sunset yellow FCF (E110) which can cause 
 allergic reactions<br />
-* Tell your doctor if you are allergic to sunset yellow FCF, also called “E110” before taking 
+* Tell your doctor if you are allergic to sunset yellow FCF, also called  E110  before taking 
 this medicine. </p>
 <p>Harvoni contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take harvoni"
@@ -249,7 +249,7 @@ describe what you have taken. </p>
 <p>If you do miss a dose, work out how long it is since you last took your Harvoni: 
 * If you notice within 18 hours of the time you usually take Harvoni, you must take the dose as 
 soon as possible. Then take the next dose at your usual time. 
-* If it’s 18 hours or more after the time you usually take Harvoni, wait and take the next dose at 
+* If it s 18 hours or more after the time you usually take Harvoni, wait and take the next dose at 
 your usual time. Do not take a double dose (two doses close together). </p>
 <p>Do not stop taking Harvoni </p>
 <p>Do not stop taking this medicine unless your doctor tells you to. It is very important that you complete 
@@ -293,7 +293,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store harvoni"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -322,10 +322,10 @@ anhydrous silica, magnesium stearate </p>
 Polyvinyl alcohol, titanium dioxide, macrogol, talc, and for the 90 mg/400 mg tablet only; 
 sunset yellow FCF (E110) </p>
 <p>What Harvoni looks like and contents of the pack </p>
-<p>Harvoni 90 mg/400 mg film-coated tablets are orange, diamond-shaped tablets debossed with “GSI” 
-on one side and “7985” on the other side. The tablet is approximately 19 mm long and 10 mm wide. </p>
-<p>Harvoni 45 mg/200 mg film-coated tablets are white, capsule-shaped, debossed with “GSI” on one 
-side and “HRV” on the other side. The tablet is approximately 14 mm long and 7 mm wide. </p>
+<p>Harvoni 90 mg/400 mg film-coated tablets are orange, diamond-shaped tablets debossed with  GSI<br />
+on one side and  7985  on the other side. The tablet is approximately 19 mm long and 10 mm wide. </p>
+<p>Harvoni 45 mg/200 mg film-coated tablets are white, capsule-shaped, debossed with  GSI  on one 
+side and  HRV  on the other side. The tablet is approximately 14 mm long and 7 mm wide. </p>
 <p>Each bottle contains a silica gel desiccant (drying agent) that must be kept in the bottle to help protect 
 your tablets. The silica gel desiccant is contained in a separate sachet or canister and should not be 
 swallowed. 
@@ -346,22 +346,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
 Danmark 
@@ -381,14 +380,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -396,14 +394,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -412,10 +410,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -423,10 +421,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

@@ -4,7 +4,7 @@ Instance: composition-en-0a545e5c9515b05d7e6ea3998a427c70
 InstanceOf: CompositionUvEpi
 Title: "Composition for livmarli Package Leaflet"
 Description:  "Composition for livmarli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -115,23 +115,25 @@ whether it is safe and effective in this age group. </p>
 <p>Other medicines and Livmarli 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This includes medicines obtained without a prescription and herbal medicines. 
-Tell your doctor if you are taking any of the following medicines: 
-- Fluvastatin, rosuvastatin or simvastatin (medicines used to treat high levels of cholesterol in the 
-blood) 
-- Midazolam (a medicine used for sedation or to induce sleep) 
-- Ursodeoxycholic acid (a medicine used to treat liver disease) </p>
+Tell your doctor if you are taking any of the following medicines:</p>
+<ul>
+<li>Fluvastatin, rosuvastatin or simvastatin (medicines used to treat high levels of cholesterol in the 
+blood) </li>
+<li>Midazolam (a medicine used for sedation or to induce sleep) </li>
+<li>Ursodeoxycholic acid (a medicine used to treat liver disease) </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant, or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. If you are pregnant, it is better not to 
 take Livmarli.  </p>
 <p>Livmarli can be used if you are breast-feeding. It does not get into your bloodstream and therefore is 
-not expected to get into your breast milk. However, always follow your doctor’s advice. </p>
+not expected to get into your breast milk. However, always follow your doctor s advice. </p>
 <p>Driving and using machines 
 Livmarli has no or very minor influence on the ability to drive or use machines. </p>
 <p>Livmarli contains propylene glycol and sodium 
 This medicine contains 364.5 mg propylene glycol in each mL. This is equal to about 10 mcg/kg. 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take livmarli"
@@ -159,7 +161,63 @@ Do not mix the oral solution with food or drinks. </p>
 <p>Prescribed dose volume 
 (mL) 
 Oral syringe size 
-(mL) </p>         </div>"""         
+(mL) 
+0.1 to 0.5 
+0.5 
+0.6 to 1 
+1 
+1.25 to 3 
+3 </p>
+<p>How to take a dose of this medicine </p>
+<p>Step 1: Draw dose </p>
+<p>1.1<br />
+To open the bottle, remove the child-resistant closure by pushing down firmly while turning left 
+(anti-clockwise) (see Figure A). Do not throw away the child-resistant closure as you will need 
+to put it back when you have taken out the dose you need. </p>
+<p>Figure A </p>
+<p>1.2<br />
+Make sure you use the correct oral syringe size for your prescribed dose (see table above). Your 
+doctor will tell you which syringe size you should use. 
+* If using a new oral syringe, remove it from the wrapper (see Figure B). Throw away the 
+wrapper in the household waste. 
+* If using a previously used oral syringe, make sure it has been cleaned and is dry (see 2.4 
+for instructions for cleaning). </p>
+<p>Figure B </p>
+<ul>
+<li>If there is a cap on the oral syringe, remove it and throw it away in the household waste 
+(see Figure C). </li>
+</ul>
+<p>Figure C </p>
+<p>The syringe has dose markings on the barrel. One end of the syringe has a tip that is used to 
+insert into the medicine bottle. The other end of the syringe has a flange and a plunger, used to 
+push the medicine out of the syringe to give the medicine (see Figure D).  </p>
+<p>Figure D </p>
+<p>1.3<br />
+Push the plunger down fully to remove air from the syringe (see Figure E). </p>
+<p>Figure E </p>
+<p>1.4<br />
+Make sure that the closure is removed from the bottle and insert the tip of the syringe into the 
+upright bottle. The tip of the syringe should fit snugly into the hole of the bottle (see Figure F). </p>
+<p>Figure F </p>
+<p>1.5<br />
+With the syringe in place, turn the bottle upside down (see Figure G).  </p>
+<p>Figure G </p>
+<p>1.6<br />
+To withdraw a dose from the bottle, slowly pull back on the plunger until the plunger 
+lines up with the marking on the barrel of the syringe that matches the prescribed dose </p>
+<p>(see Figure H). There are two kinds of plungers that you might receive with the syringe: a flat 
+tip plunger or a pointy tip plunger (see Figure I under 1.6). See Figure I on how to align the 
+plunger with your prescribed dose. For a flat tip plunger, the flat end of the plunger should be 
+aligned with the marking on the barrel that matches the prescribed dose (Figure I.a.). For a clear 
+pointy tip plunger, make sure that the flat, wide part below the tip is lined up with the correct 
+marking (Figure I.b.).  </p>
+<p>Figure H<br />
+Figure I.a. 
+Figure I.b. </p>
+<p>1.7<br />
+Check the syringe for air bubbles. If you see any air bubbles: 
+* Push the air bubbles back into the bottle by pushing the plunger (see Figure J)<br />
+* then re-draw the prescribed dose following the instructions in Step 1.</p>         </div>"""         
 
         
 * section[=].section[+]
@@ -167,14 +225,68 @@ Oral syringe size
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>0.5 </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Figure J.a. 
+Figure J.b. 
+Check for air bubbles 
+Push plunger into syringe to remove air bubbles </p>
+<p>1.8<br />
+When you have taken up the correct dose with no air bubbles, leave the syringe in the bottle and 
+turn the bottle right side up (see Figure K). </p>
+<p>Figure K </p>
+<p>1.9<br />
+Carefully remove the syringe from the bottle (see Figure L), holding the bottle firmly in one 
+hand and holding the syringe by the barrel in the other hand.<br />
+* Do not push the syringe plunger during this step. </p>
+<p>Figure L </p>
+<p>Step 2: Give the dose </p>
+<p>Note: You or your child should stay upright while taking the dose and for a few minutes after. </p>
+<p>2.1<br />
+Insert the tip of the oral syringe against the inside of the cheek (see Figure M). 
+Slowly press the plunger all the way down to fully and gently squirt the oral solution into the 
+mouth (see Figure N). </p>
+<p>Figure M<br />
+Figure N </p>
+<p>2.2<br />
+Make sure you/the child swallow(s) the dose. If you are not sure the entire dose was swallowed, 
+do not administer another dose. Wait until it is time for the next dose. </p>
+<p>2.3<br />
+To close the bottle, screw the child-resistant closure back on the bottle by turning to the right 
+(clockwise) (see Figure O). </p>
+<p>Figure O </p>
+<p>2.4<br />
+Remove the plunger from the barrel of the syringe (see Figure P) and wash it with water after 
+each use. Allow the plunger to air dry before using again. </p>
+<p>Figure P </p>
+<ul>
+<li>The oral syringes may be rinsed with water, air dried and reused for 130 days.  </li>
+</ul>
+<p>If you take more Livmarli than you should 
+If you take more Livmarli than you should, tell your doctor. </p>
+<p>If you forget to take Livmarli 
+* If a dose is missed within 12 hours of the time you or your child usually take(s) Livmarli, take it 
+as soon as possible. Then continue taking as usual.<br />
+* If a dose is missed by more than 12 hours, do not take the missed dose. Take the next dose at the 
+usual time. </p>
+<p>If you stop taking Livmarli 
+Do not stop taking Livmarli without first talking with your doctor. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store livmarli"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store livmarli"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1 </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
+following side effects may happen with this medicine. </p>
+<p>Very common (may affect more than 1 in 10 people) 
+* diarrhoea 
+* stomach (abdominal) pain </p>
+<p>These side effects are usually mild to moderate and can get better during continued treatment with 
+Livmarli. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -182,7 +294,14 @@ Oral syringe size
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>3 </p>
-<p>How to take a dose of this medicine </p>
-<p>Step 1: Draw dose </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>This medicine does not require any special temperature storage conditions. Store in the original 
+package in order to protect from light. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the bottle after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Once the bottle is open, you should store it below 30 C and use the medicine within 130 days of 
+opening. After 130 days, the bottle should be discarded even when it is not empty. Write the opening 
+date on the Livmarli bottle. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

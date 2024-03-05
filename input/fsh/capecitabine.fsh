@@ -4,7 +4,7 @@ Instance: composition-en-98dff93ef4eecdfe1514d96f0f89664a
 InstanceOf: CompositionUvEpi
 Title: "Composition for capecitabine Package Leaflet"
 Description:  "Composition for capecitabine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -138,15 +138,17 @@ time can strengthen or weaken the effect of the medicines. </p>
 the same time as capecitabine treatment (including during any rest periods when you are not 
 taking any capecitabine tablets). </p>
 <p>If you have taken brivudine you must wait for at least 4 weeks after stoping brivudine before 
-starting to take capecitabine. See also section “Do not take Capecitabine Teva”. </p>
-<p>Also, you need to be particularly careful if you are taking any of the following: 
-- gout medicines (allopurinol), 
-- blood-thinning medicines (coumarin, warfarin), 
-- medicines for seizures or tremors (phenytoin), 
-- certain medicines used to treat various cancers or virus infection (interferon alpha),<br />
-- radiotherapy and certain medicines used to treat cancer (folinic acid, oxaliplatin, bevacizumab, 
-cisplatin, irinotecan), 
-- medicines used to treat folic acid deficiency. </p>
+starting to take capecitabine. See also section  Do not take Capecitabine Teva . </p>
+<p>Also, you need to be particularly careful if you are taking any of the following:</p>
+<ul>
+<li>gout medicines (allopurinol), </li>
+<li>blood-thinning medicines (coumarin, warfarin), </li>
+<li>medicines for seizures or tremors (phenytoin), </li>
+<li>certain medicines used to treat various cancers or virus infection (interferon alpha),  </li>
+<li>radiotherapy and certain medicines used to treat cancer (folinic acid, oxaliplatin, bevacizumab, 
+cisplatin, irinotecan), </li>
+<li>medicines used to treat folic acid deficiency. </li>
+</ul>
 <p>Capecitabine Teva with food and drink 
 You should take Capecitabine Teva no later than 30 minutes after meals. </p>
 <p>Pregnancy and breast-feeding<br />
@@ -166,7 +168,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product. </p>
 <p>Capecitabine Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially “sodium-free”. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take capecitabine"
@@ -228,7 +230,7 @@ usual.
 * Stomatitis: if you have pain, redness, swelling or sores in your mouth and/or throat. 
 * Hand-and-foot skin-reaction: if you have pain, swelling, redness or tingling of hands and/or 
 feet 
-* Fever: if you have a temperature of 38°C or greater. 
+* Fever: if you have a temperature of 38 C or greater. 
 * Infection: if you experience signs of infection caused by bacteria or virus, or other organisms. 
 * Chest pain: if you experience pain localised to the centre of the chest, especially if it occurs 
 during exercise. 
@@ -249,15 +251,17 @@ these side effects continue, however, contact your doctor immediately. Your doct
 to restart treatment at a lower dose. </p>
 <p>If severe stomatitis (sores in your mouth and/or throat), mucosal inflammation, diarrhoea, neutropenia 
 (increased risk for infections), or neurotoxicity occurs during the first cycle of treatment a DPD 
-deficiency may be involved (please see section 2: “Warnings and precautions)”. </p>
+deficiency may be involved (please see section 2:  Warnings and precautions) . </p>
 <p>Hand and foot skin-reaction can lead to loss of fingerprint, which could impact your identification by 
 fingerprint scan. </p>
 <p>In addition to the above, when capecitabine is used alone, very common side effects which may affect 
-more than 1 in 10 people are: 
-- abdominal pain 
-- rash, dry or itchy skin 
-- tiredness 
-- loss of appetite (anorexia) </p>
+more than 1 in 10 people are:</p>
+<ul>
+<li>abdominal pain </li>
+<li>rash, dry or itchy skin </li>
+<li>tiredness </li>
+<li>loss of appetite (anorexia) </li>
+</ul>
 <p>These side effects can become severe; therefore, it is important that you always contact your doctor 
 immediately when you start to experience a side effect. Your doctor may instruct you to decrease the 
 dose and/or temporarily discontinue treatment with Capecitabine Teva. This will help reduce the 
@@ -351,7 +355,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store below 30 °C. 
+<p>Store below 30  C. 
 Store in the original package to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -377,11 +381,11 @@ red iron oxide (E172). </li>
 </ul>
 <p>What Capecitabine Teva looks like and contents of the pack </p>
 <p>Capecitabine Teva 150 mg film-coated tablets 
-Oval biconvex light peach film-coated tablets with inscription “C” on one side and “150” on the other 
+Oval biconvex light peach film-coated tablets with inscription  C  on one side and  150  on the other 
 side. </p>
 <p>The tablets are available in blisters containing 10 film-coated tablets. Each pack contains 60 tablets. </p>
 <p>Capecitabine Teva 500 mg film-coated tablets 
-Oval biconvex light peach film-coated tablets with inscription “C” on one side and “500” on the other 
+Oval biconvex light peach film-coated tablets with inscription  C  on one side and  500  on the other 
 side. </p>
 <p>The tablets are available in blisters containing 10 film-coated tablets. Each pack contains 120 tablets. </p>
 <p>Marketing Authorisation Holder </p>
@@ -395,24 +399,22 @@ Ostravska 29, c.p. 305, 74Opava-Komarov
 Czech Republic </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -420,7 +422,7 @@ Tlf: +45 44985
 Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Τel: +44 2075407 
+ el: +44 2075407 
 Deutschland 
 TEVA GmbH 
 Tel: +49 73140 
@@ -432,29 +434,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS A.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS A.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -463,10 +464,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -474,15 +475,13 @@ Teva Italia S.r.l.
 Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
 Puh/Tel: +358 201805 </p>
-<p>Κύπρος 
-TEVA HELLAS A.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+<p>TEVA HELLAS A.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 

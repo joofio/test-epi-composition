@@ -4,7 +4,7 @@ Instance: composition-en-4a43236fb582d17d10a1516a86f60348
 InstanceOf: CompositionUvEpi
 Title: "Composition for apretude Package Leaflet"
 Description:  "Composition for apretude Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,18 +83,18 @@ It should be used in combination with safer sex practices, such as use of condom
   * code.text = "2. What you need to know before you take apretude"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Apretude:<br />
- if you are allergic (hypersensitive) to cabotegravir or any of the other ingredients of this medicine 
+  if you are allergic (hypersensitive) to cabotegravir or any of the other ingredients of this medicine 
 (listed in section 6). 
- If you are HIV positive or you do not know if you are HIV positive. Apretude can only help reduce 
+  If you are HIV positive or you do not know if you are HIV positive. Apretude can only help reduce 
 your risk of getting HIV before you are infected. You must get tested to make sure you are HIV 
 negative before taking Apretude. 
- if you are taking any of the following medicines: 
+  if you are taking any of the following medicines: 
 <em>carbamazepine, oxcarbazepine, phenytoin, phenobarbital (medicines to treat epilepsy and 
 prevent fits). 
 </em>rifampicin or rifapentine (medicines to treat some bacterial infections such as tuberculosis). </p>
 <p>These medicines reduce the effectiveness of Apretude by decreasing the amount of Apretude in the 
 blood. 
-  If you think these apply to you, or if you are not sure, tell your doctor. </p>
+   If you think these apply to you, or if you are not sure, tell your doctor. </p>
 <p>Warnings and precautions  </p>
 <p>Just taking Apretude may not prevent HIV infection.  </p>
 <p>HIV infection is spread by sexual contact with someone who is HIV positive or by transfer of infected 
@@ -112,13 +112,13 @@ Discuss with your doctor the additional precautions needed to further decrease t
 There is a risk of resistance to this medicine if you get infected with HIV. This means that the 
 medicine will not prevent HIV infection. To minimise this risk and to prevent infection with HIV, it is 
 important that you:<br />
-• attend your planned appointments to receive your Apretude injection. Talk to your doctor if you 
+  attend your planned appointments to receive your Apretude injection. Talk to your doctor if you 
 are thinking about stopping injections, as this may increase your risk of getting a HIV infection. If 
 you do stop, or are late receiving your Apretude injection, you will need to take other medicines or 
 precautions to reduce your risk of getting HIV and possibly developing viral resistance. <br />
-•    get tested for HIV when your doctor tells you.  You must be regularly tested to make sure that you 
+     get tested for HIV when your doctor tells you.  You must be regularly tested to make sure that you 
 remain HIV-1 negative while taking Apretude. 
-•    tell your doctor straight away if you think you have been infected with HIV (you may get a flu-
+     tell your doctor straight away if you think you have been infected with HIV (you may get a flu-
 like illness). They may want to do more tests to make sure you are still HIV negative. 
 Apretude injection is a long-acting medicine 
 If you stop Apretude injections, cabotegravir will remain in your system for up to a year or more after 
@@ -129,7 +129,7 @@ Once you stop Apretude injections you may need to take other medicines to reduce
 HIV infection or use other safe sex precautions.<br />
 Liver problems 
 Let your doctor know if you have liver problems. You may need to be more closely monitored. (See 
-also ‘Uncommon side effects’ in section 4). 
+also  Uncommon side effects  in section 4). 
 Adolescents<br />
 Your doctor will discuss your mental health with you before and while receiving Apretude. Let your 
 doctor know if you have mental health problems. You may need to be more closely monitored (See 
@@ -137,8 +137,8 @@ also section 4). </p>
 <p>Allergic reaction<br />
 Apretude contains cabotegravir, which is an integrase inhibitor. Integrase inhibitors, including 
 cabotegravir, can cause a serious allergic reaction known as a hypersensitivity reaction. You need to 
-know about important signs and symptoms to look out for while you’re receiving Apretude.  </p>
-<p> Read the information in ‘Possible side effects’ in section 4 of this leaflet. </p>
+know about important signs and symptoms to look out for while you re receiving Apretude.  </p>
+<p>Read the information in  Possible side effects  in section 4 of this leaflet. </p>
 <p>Children and adolescents 
 This medicine should not be used in children or adolescents weighing less than 35 kg, because it has 
 not been studied in these individuals. </p>
@@ -148,14 +148,14 @@ other medicines bought without a prescription. </p>
 <p>Some medicines can affect how Apretude works or make it more likely that you will have side effects. 
 Apretude can also affect how some other medicines work. </p>
 <p>Apretude must not be given with some other medicines that may affect how well the medicine works<br />
-. (see ‘Do not use Apretude’ in section 2). These include: 
+. (see  Do not use Apretude  in section 2). These include: 
 <em>carbamazepine, oxcarbazepine, phenytoin, phenobarbital (medicines to treat epilepsy and 
 prevent fits). 
 </em>rifampicin or rifapentine (medicines to treat some bacterial infections such as tuberculosis). </p>
 <p>Tell your doctor if you are taking: 
- rifabutin (to treat some bacterial infections such as tuberculosis). You may need to receive 
+  rifabutin (to treat some bacterial infections such as tuberculosis). You may need to receive 
 Apretude injections more often. </p>
-<p> Tell your doctor or pharmacist if you are taking this medicine. Your doctor may decide that you 
+<p>Tell your doctor or pharmacist if you are taking this medicine. Your doctor may decide that you 
 need extra check-ups. </p>
 <p>Pregnancy and breast-feeding  </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant, or are planning to have a baby, ask 
@@ -173,7 +173,7 @@ feeding, or thinking about breast-feeding, check with your doctor. Your doctor w
 benefit and risks of breast-feeding for you and your baby. </p>
 <p>Driving and using machines  </p>
 <p>Apretude can make you dizzy and have other side effects that make you less alert.<br />
- Don’t drive or use machines unless you are sure you’re not affected. </p>         </div>"""   
+  Don t drive or use machines unless you are sure you re not affected. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take apretude"
@@ -187,7 +187,7 @@ of your buttock. </p>
 will be given Apretude as a single injection once every 2 months.  </p>
 <p>Before starting treatment with Apretude injections, you and your doctor may decide first take 
 cabotegravir tablets (called oral lead-in period). The lead-in period allows you and your doctor to 
-assess whether it’s appropriate to proceed with injections. 
+assess whether it s appropriate to proceed with injections. 
 If you decide to start treatment with tablets: 
 <em>You should take one 30 mg Apretude tablet once a day, for approximately one month. 
 </em>You should have your first injection on the same day as your last tablet or no later than 3 days 
@@ -215,8 +215,8 @@ Apretude.  </p>
 <p>Talk to your doctor if you think you will not be able to receive your Apretude injection at the usual 
 time. Your doctor may recommend you take cabotegravir tablets instead, until you are able to receive 
 an Apretude injection again. </p>
-<p>Don’t stop receiving Apretude injections without advice from your doctor. 
-Keep receiving Apretude injections for as long as your doctor recommends. Don’t stop unless your 
+<p>Don t stop receiving Apretude injections without advice from your doctor. 
+Keep receiving Apretude injections for as long as your doctor recommends. Don t stop unless your 
 doctor advises you to. If you stop and you are still at risk of getting HIV your doctor must start you on 
 another PrEP medicine within 2 months of your last Apretude injection. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
@@ -232,22 +232,19 @@ another PrEP medicine within 2 months of your last Apretude injection. </p>
 <p>Apretude contains cabotegravir, which is an integrase inhibitor. Integrase inhibitors including 
 cabotegravir can cause a serious allergic reaction known as a hypersensitivity reaction. </p>
 <p>If you get any of the following symptoms: 
-• skin rash 
-• a high temperature (fever) 
-• lack of energy (fatigue) 
-• swelling, sometimes of the face or mouth (angioedema), causing difficulty in breathing 
-• muscle or joint aches. </p>
-<p> See a doctor straight away. Your doctor may decide to carry out tests to check your liver, kidneys 
+  skin rash 
+  a high temperature (fever) 
+  lack of energy (fatigue) 
+  swelling, sometimes of the face or mouth (angioedema), causing difficulty in breathing 
+  muscle or joint aches. </p>
+<p>See a doctor straight away. Your doctor may decide to carry out tests to check your liver, kidneys 
 or blood, and may tell you to stop taking Apretude. </p>
 <p>Very common side effects (may affect more than 1 in 10 people)<br />
-• headache 
-• diarrhoea 
-• injection site reactions:<br />
-o very common: pain and discomfort, a hardened mass (induration), or lump (nodule) 
-o common: redness (erythema), itching (pruritus), swelling, warmth, numbness 
+  headache 
+  diarrhoea 
+  injection site reactions:  * very common: pain and discomfort, a hardened mass (induration), or lump (nodule) * common: redness (erythema), itching (pruritus), swelling, warmth, numbness 
 (aneasthesia) or bruising, (which may include discolouration or a collection of blood 
-under the skin) 
-o uncommon: collection of pus (abscess) 
+under the skin) * uncommon: collection of pus (abscess) 
 * feeling hot (pyrexia) 
 * changes in liver function (transaminase increased), as measured in blood tests </p>
 <p>Common side effects (may affect up to 1 in 10 people)<br />
@@ -327,22 +324,21 @@ PR
 43Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 ViiV Healthcare srl/bv<br />
-Tél/Tel: + 32 (0) 10 85 65 Lietuva 
+T l/Tel: + 32 (0) 10 85 65 Lietuva 
 ViiV Healthcare BV<br />
-Tel: + 370 80000 
-България 
-ViiV Healthcare BV<br />
-Teл.: + 359 80018 
+Tel: + 370 80000 </p>
+<p>ViiV Healthcare BV<br />
+Te .: + 359 80018 
 Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv<br />
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 65<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 65<br />
+ esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 ViiV Healthcare BV<br />
 Tel.: + 36 80088 
 Danmark 
@@ -362,15 +358,14 @@ ViiV Healthcare BV<br />
 Tel: + 372 8002 
 Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+Tlf: + 47 22 70 20  </p>
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 Laboratorios ViiV Healthcare, S.L. 
 Tel: + 34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
@@ -378,14 +373,14 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 
 France 
 ViiV Healthcare SAS 
-Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
+T l.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
 <p>Portugal 
 VIIVHIV HEALTHCARE, UNIPESSOAL, LDA 
 Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV<br />
 Tel: + 385 800787 
-România 
+Rom nia 
 ViiV Healthcare BV<br />
 Tel: + 40 800672524  </p>
 <p>Ireland 
@@ -394,19 +389,18 @@ Tel: + 353 (0)1 4955
 Slovenija 
 ViiV Healthcare BV<br />
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf. </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 ViiV Healthcare BV<br />
-Sími: +354 535 7Tel: + 421 800500 
+S mi: +354 535 7Tel: + 421 800500 
 Italia 
 ViiV Healthcare S.r.l 
 Tel: + 39 (0)45 7741 
 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-ViiV Healthcare BV Τηλ: + 357 80070017  </p>
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>ViiV Healthcare BV  : + 357 80070017  </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

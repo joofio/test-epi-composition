@@ -4,7 +4,7 @@ Instance: composition-en-b87e63b723344c11032a4961d71446b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zebinix Package Leaflet"
 Description:  "Composition for zebinix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,29 +89,29 @@ brain (secondary generalisation) </li>
   * code.text = "2. What you need to know before you take zebinix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Zebinix: 
-• if you are allergic to eslicarbazepine acetate, to other carboxamide derivatives (e.g. 
+  if you are allergic to eslicarbazepine acetate, to other carboxamide derivatives (e.g. 
 carbamazepine or oxcarbazepine, medicines used to treat epilepsy) or to any of the other 
 ingredients of this medicine (listed in section 6); 
-• if you suffer from a certain type of heart rhythm disorder (second or third degree 
+  if you suffer from a certain type of heart rhythm disorder (second or third degree 
 atrioventricular (AV) block). </p>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor or pharmacist before taking Zebinix. </p>
 <p>Contact your doctor immediately: 
-• if you have blistering or peeling of the skin and/or mucous membranes, rash, swallowing or 
+  if you have blistering or peeling of the skin and/or mucous membranes, rash, swallowing or 
 breathing problems, swelling of your lips, face, eyelids, throat or tongue. These could be signs 
 of an allergic reaction.<br />
-• if you suffer from confusion, worsening of seizures or decreased consciousness which can be 
+  if you suffer from confusion, worsening of seizures or decreased consciousness which can be 
 signs of low blood salt levels. </p>
 <p>Please tell your doctor:<br />
-• if you have kidney problems. Your doctor may need to adjust the dose. Zebinix is not 
+  if you have kidney problems. Your doctor may need to adjust the dose. Zebinix is not 
 recommended in patients with severe renal disease. 
-• if you have liver problems. Zebinix is not recommended in patients with severe liver problems. 
-• if you are taking any medicine which can cause an abnormality on the ECG (electrocardiogram) 
+  if you have liver problems. Zebinix is not recommended in patients with severe liver problems. 
+  if you are taking any medicine which can cause an abnormality on the ECG (electrocardiogram) 
 called increased PR interval. If you are not sure if the medicines you are taking could have this 
 effect, discuss with your doctor. 
-• if you suffer from a heart disease such as heart failure or heart attack, or have any heart rhytm 
+  if you suffer from a heart disease such as heart failure or heart attack, or have any heart rhytm 
 disorder. 
-• if you suffer from seizures that begin with a widespread electric discharge that involves both 
+  if you suffer from seizures that begin with a widespread electric discharge that involves both 
 sides of the brain.  </p>
 <p>A small number of people being treated with antiepileptics have had thoughts of harming or killing 
 themselves. If at any time you have these thoughts, when taking Zebinix, contact your doctor 
@@ -146,7 +146,7 @@ effective;
 * monoamino oxidase inhibitors (MAOIs) antidepressants; 
 * do not take oxcarbazepine (a medicine used to treat epilepsy) with Zebinix, as it is not known 
 whether it is safe to take these medicines together. </p>
-<p>See ‘Pregnancy and breast-feeding’ section for advice about contraception. </p>
+<p>See  Pregnancy and breast-feeding  section for advice about contraception. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>It is not recommended to take Zebinix if you are pregnant, as the effects of Zebinix on pregnancy and 
 the unborn baby are not known. </p>
@@ -203,7 +203,7 @@ increasing to the maintenance dose.  </p>
 Depending on the response to Zebinix, the dose may be increased by 10 mg per kg body weight, at 
 intervals of one or two weeks, up to 30 mg per kg body weight. The maximum dose is 1,200 mg once 
 daily. </p>
-<p>Children with ≥60 kg 
+<p>Children with  60 kg 
 Children with 60 kg or more body weight should take the same dose as adults. </p>
 <p>Other form of this medicine, like oral suspension, maybe more suitable for children. Ask your doctor 
 or pharmacist. </p>
@@ -365,14 +365,14 @@ throw away medicines you no longer use. These measures will help protect the env
 acetate. 
 * The other ingredients are povidone K29/32, croscarmellose sodium and magnesium stearate. </p>
 <p>What Zebinix looks like and contents of the pack 
-Zebinix 200 mg tablets are white and oblong. The tablets have ‘ESL 200’engraved on one side and are 
+Zebinix 200 mg tablets are white and oblong. The tablets have  ESL 200 engraved on one side and are 
 scored on the other side, with a length of 11 mm. The tablet can be divided into equal doses.  </p>
 <p>The tablets are packaged in blisters in cardboard boxes containing 20 or 60 tablets, and in HDPE 
 bottles with child resistant closure in cardboard boxes containing 60 tablets. 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer<br />
-BIAL - Portela &amp; Cª , S.A.,<br />
-À Av. da Siderurgia Nacional 
+BIAL - Portela &amp; C  , S.A.,<br />
+  Av. da Siderurgia Nacional 
 4745-457 S. Mamede do Coronado 
 Portugal<br />
 tel: +351 22 986 61 00<br />
@@ -380,95 +380,94 @@ fax: +351 22 986 61 99<br />
 e-mail: info@bial.com  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-BIAL-Portela &amp; Cª., S.A. 
-Tél/Tel: + 351 22 986 61 (Portugal) </p>
+<p>Belgi /Belgique/Belgien 
+BIAL-Portela &amp; C ., S.A. 
+T l/Tel: + 351 22 986 61 (Portugal) </p>
 <p>Luxembourg/Luxemburg 
-BIAL-Portela &amp; Cª., S.A. 
-Tél/Tel: + 351 22 986 61 (Portugal) 
-България 
-BIAL-Portela &amp; Cª., S.A. 
-Teл.: + 351 22 986 61 (Португалия) </p>
-<p>Magyarország 
-BIAL-Portela &amp; Cª., S.A. 
-Tel.: + 351 22 986 61 (Portugália) </p>
-<p>Česká republika 
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
+T l/Tel: + 351 22 986 61 (Portugal) </p>
+<p>BIAL-Portela &amp; C ., S.A. 
+Te .: + 351 22 986 61 ( ) </p>
+<p>Magyarorsz g 
+BIAL-Portela &amp; C ., S.A. 
+Tel.: + 351 22 986 61 (Portug lia) </p>
+<p>esk  republika 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portogallo) 
 Malta 
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Il-Portugall) </p>
 <p>Danmark 
 Nordicinfu Care AB 
 Tlf: +45 (0) 70 28 10<br />
 Nederland 
-BIAL-Portela &amp; Cª., S.A. 
-Tél/Tel: + 351 22 986 61 (Portugal) </p>
+BIAL-Portela &amp; C ., S.A. 
+T l/Tel: + 351 22 986 61 (Portugal) </p>
 <p>Deutschland 
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portugal) </p>
 <p>Norge 
 Nordicinfu Care AB 
 Tlf: +47 (0) 22 20 60<br />
 Eesti 
-BIAL-Portela &amp; Cª, S.A. 
+BIAL-Portela &amp; C , S.A. 
 Tel: +351 22 986 61 (Portugal) </p>
-<p>Österreich 
-BIAL-Portela &amp; Cª., S.A. 
+<p>sterreich 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portugal) </p>
-<p>Ελλάδα 
-ΑΡΡΙΑΝΙ ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε. 
-Τηλ: + 30 210 668 3 
+<pre><code> . .
+</code></pre>
+<p>: + 30 210 668 3 
 Polska 
-BIAL-Portela &amp; Cª, S.A. 
-Tel.: + 351 22 986 61 (Portugália) </p>
-<p>España 
+BIAL-Portela &amp; C , S.A. 
+Tel.: + 351 22 986 61 (Portug lia) </p>
+<p>Espa a 
 Laboratorios BIAL, S.A. 
 Tel: + 34 91 562 41 96<br />
 Portugal 
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
 Tel.: + 351 22 986 61<br />
 France 
-BIAL-Portela &amp; Cª., S.A. 
-Tél: + 351 22 986 61 (Portugal) </p>
-<p>România 
-BIAL-Portela &amp; Cª, S.A. 
+BIAL-Portela &amp; C ., S.A. 
+T l: + 351 22 986 61 (Portugal) </p>
+<p>Rom nia 
+BIAL-Portela &amp; C , S.A. 
 Tel: + 351 22 986 61 (Portugalia) </p>
 <p>Hrvatska<br />
-BIAL-Portela &amp; Cª, S.A. 
+BIAL-Portela &amp; C , S.A. 
 Tel: + 351 22 986 61 (Portugal) </p>
 <p>Slovenija 
-BIAL-Portela &amp; Cª, S.A. 
+BIAL-Portela &amp; C , S.A. 
 Tel: + 351 22 986 61 (Portugalska) </p>
 <p>Ireland 
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portugal) </p>
-<p>Slovenská republika 
-BIAL-Portela &amp; Cª., S.A. 
+<p>Slovensk  republika 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 00<br />
 (Portugalsko) </p>
-<p>Ísland 
+<p>sland 
 Nordicinfu Care AB 
-Sími: +46 (0) 8 601 24<br />
+S mi: +46 (0) 8 601 24<br />
 Suomi/Finland 
 Nordicinfu Care AB 
 Puh/Tel: +358 (0) 207 348<br />
 Italia 
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portogallo) </p>
 <p>Sverige 
 Nordicinfu Care AB 
-Tel: +46 (0) 8 601 24 Κύπρος 
-BIAL-Portela &amp; Cª, S.A. 
-Τηλ: + 351 22 986 61 (Πορτογαλία) </p>
+Tel: +46 (0) 8 601 24 <br />
+BIAL-Portela &amp; C , S.A. 
+ : + 351 22 986 61 ( ) </p>
 <p>United Kingdom<br />
-BIAL-Portela &amp; Cª., S.A. 
+BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portugal) </p>
 <p>Latvija 
-BIAL-Portela &amp; Cª, S.A. 
-Tel: + 351 22 986 61 (Portugāle) </p>
+BIAL-Portela &amp; C , S.A. 
+Tel: + 351 22 986 61 (Portug le) </p>
 <p>Lietuva 
-BIAL-Portela &amp; Cª, S.A. 
+BIAL-Portela &amp; C , S.A. 
 Tel: + 351 22 986 61 (Portugalija) </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

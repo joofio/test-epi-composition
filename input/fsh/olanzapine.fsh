@@ -4,7 +4,7 @@ Instance: composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
 InstanceOf: CompositionUvEpi
 Title: "Composition for olanzapine Package Leaflet"
 Description:  "Composition for olanzapine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,11 +70,13 @@ Usage: #example
   * code.text =  "1. What olanzapine is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olanzapine Teva contains the active substance olanzapine. Olanzapine Teva belongs to a group of 
-medicines called antipsychotics and is used to treat the following conditions: 
-- Schizophrenia, a disease with symptoms such as hearing, seeing or sensing things which are not 
+medicines called antipsychotics and is used to treat the following conditions:</p>
+<ul>
+<li>Schizophrenia, a disease with symptoms such as hearing, seeing or sensing things which are not 
 there, mistaken beliefs, unusual suspiciousness, and becoming withdrawn. People with this 
-disease may also feel depressed, anxious or tense. 
-- Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </p>
+disease may also feel depressed, anxious or tense. </li>
+<li>Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </li>
+</ul>
 <p>Olanzapine Teva has been shown to prevent recurrence of these symptoms in patients with bipolar 
 disorder whose manic episode has responded to olanzapine treatment. </p>         </div>"""   
           
@@ -107,20 +109,22 @@ taking Olanzapine Teva. Your doctor should do blood tests to check blood sugar a
 levels before you start taking Olanzapine Teva and regularly during treatment. 
 - Tell the doctor if you or someone else in your family has a history of blood clots, as medicines 
 like these have been associated with the formation of blood clots. </p>
-<p>If you suffer from any of the following illnesses tell your doctor as soon as possible: 
-- Stroke or “mini” stroke (temporary symptoms of stroke) 
-- Parkinson’s disease 
-- Prostate problems 
-- A blocked intestine (Paralytic ileus) 
-- Liver or kidney disease 
-- Blood disorders 
-- Heart disease 
-- Diabetes 
-- Seizures 
-- If you know that you may have salt depletion as a result of prolonged severe diarrhoea and 
-vomiting (being sick) or usage of diuretics (water tablets) </p>
+<p>If you suffer from any of the following illnesses tell your doctor as soon as possible:</p>
+<ul>
+<li>Stroke or  mini  stroke (temporary symptoms of stroke) </li>
+<li>Parkinson s disease </li>
+<li>Prostate problems </li>
+<li>A blocked intestine (Paralytic ileus) </li>
+<li>Liver or kidney disease </li>
+<li>Blood disorders </li>
+<li>Heart disease </li>
+<li>Diabetes </li>
+<li>Seizures </li>
+<li>If you know that you may have salt depletion as a result of prolonged severe diarrhoea and 
+vomiting (being sick) or usage of diuretics (water tablets) </li>
+</ul>
 <p>If you suffer from dementia, you or your carer/relative should tell your doctor if you have ever had a 
-stroke or “mini” stroke. </p>
+stroke or  mini  stroke. </p>
 <p>As a routine precaution, if you are over 65 years your blood pressure may be monitored by your 
 doctor. </p>
 <p>Children and adolescents 
@@ -131,10 +135,12 @@ medicines. </p>
 <p>Only take other medicines while you are on Olanzapine Teva if your doctor tells you that you can. 
 You might feel drowsy if Olanzapine Teva is taken in combination with antidepressants or medicines 
 taken for anxiety or to help you sleep (tranquillisers). </p>
-<p>In particular, tell your doctor if you are taking: 
-- medicines for Parkinson’s disease. 
-- carbamazepine (an anti-epileptic and mood stabiliser), fluvoxamine (an antidepressant) or 
-ciprofloxacin (an antibiotic) - it may be necessary to change your Olanzapine Teva dose. </p>
+<p>In particular, tell your doctor if you are taking:</p>
+<ul>
+<li>medicines for Parkinson s disease. </li>
+<li>carbamazepine (an anti-epileptic and mood stabiliser), fluvoxamine (an antidepressant) or 
+ciprofloxacin (an antibiotic) - it may be necessary to change your Olanzapine Teva dose. </li>
+</ul>
 <p>Olanzapine Teva with alcohol 
 Do not drink any alcohol if you have been given Olanzapine Teva as together with alcohol it may 
 make you feel drowsy. </p>
@@ -193,15 +199,17 @@ gradually before stopping treatment. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately if you have: 
-- unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the 
-face or tongue; 
-- blood clots in the veins (an uncommon side effect that may affect up to 1 in 100 people) 
+<p>Tell your doctor immediately if you have:</p>
+<ul>
+<li>unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the 
+face or tongue; </li>
+<li>blood clots in the veins (an uncommon side effect that may affect up to 1 in 100 people) 
 especially in the legs (symptoms include swelling, pain, and redness in the leg), which may 
 travel through blood vessels to the lungs causing chest pain and difficulty in breathing. If you 
-notice any of these symptoms seek medical advice immediately; 
-- a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
-(the frequency of this side effect cannot be estimated from the available data). </p>
+notice any of these symptoms seek medical advice immediately; </li>
+<li>a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
+(the frequency of this side effect cannot be estimated from the available data). </li>
+</ul>
 <p>Very common side effects (may affect more than 1 in 10 people) include weight gain; sleepiness; and 
 increases in levels of prolactin in the blood. In the early stages of treatment, some people may feel 
 dizzy or faint (with a slow heart rate), especially when getting up from a lying or sitting position. This 
@@ -248,7 +256,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 25°C. Store in the original package in order to protect from light. </p>
+<p>Do not store above 25 C. Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -276,17 +284,17 @@ strength contains iron oxide red (E172). </li>
 </ul>
 <p>What Olanzapine Teva looks like and contents of the pack </p>
 <p>Olanzapine Teva 2.5 mg film-coated tablet is a white, biconvex, round film-coated tablet, debossed 
-”OL 2.5” on one side and plain on the other. 
+ OL 2.5  on one side and plain on the other. 
 Olanzapine Teva 5 mg film-coated tablet is a white, biconvex, round film-coated tablet, debossed 
-”OL 5” on one side and plain on the other. 
+ OL 5  on one side and plain on the other. 
 Olanzapine Teva 7.5 mg film-coated tablet is a white, biconvex, round film-coated tablet, debossed 
-”OL 7.5” on one side and plain on the other. 
+ OL 7.5  on one side and plain on the other. 
 Olanzapine Teva 10 mg film-coated tablet is a white, biconvex, round film-coated tablet, debossed 
-”OL 10” on one side and plain on the other. 
+ OL 10  on one side and plain on the other. 
 Olanzapine Teva 15 mg film-coated tablet is a light blue, biconvex, oval film-coated tablet, debossed 
-”OL 15” on one side and plain on the other. 
+ OL 15  on one side and plain on the other. 
 Olanzapine Teva 20 mg film-coated tablet is a pink, biconvex, oval film-coated tablet, debossed 
-”OL 20” on one side and plain on the other. </p>
+ OL 20  on one side and plain on the other. </p>
 <p>Olanzapine Teva 2.5 mg film-coated tablets are available in cartons of 28, 30, 35, 56, 70 or 98 film-
 coated tablets. 
 Olanzapine Teva 5 mg film-coated tablets are available in cartons of 28, 28 x 1, 30, 30 x 1, 35, 35 x 1, 
@@ -307,28 +315,26 @@ Swensweg 5
 The Netherlands </p>
 <p>Manufacturer </p>
 <p>Teva Pharmaceutical Works Co. Ltd 
-Pallagi út 4042 Debrecen 
+Pallagi  t 4042 Debrecen 
 Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 SanoSwiss UAB 
@@ -349,29 +355,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS A.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS A.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -380,10 +385,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -391,21 +396,19 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS A.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>TEVA HELLAS A.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

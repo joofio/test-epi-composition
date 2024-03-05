@@ -4,7 +4,7 @@ Instance: composition-en-90e75941fbec0604a5aef8f6392abdfd
 InstanceOf: CompositionUvEpi
 Title: "Composition for duaklir Package Leaflet"
 Description:  "Composition for duaklir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,28 +86,38 @@ of breath. Taking Duaklir Genuair regularly will reduce the effects of COPD on y
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take duaklir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Duaklir Genuair: 
-- if you are allergic to aclidinium, formoterol fumarate dihydrate or to the other ingredient of this 
-medicine (listed in section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Duaklir Genuair:</p>
+<ul>
+<li>if you are allergic to aclidinium, formoterol fumarate dihydrate or to the other ingredient of this 
+medicine (listed in section 6). </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using Duaklir Genuair, if you have any of the 
-following conditions/symptoms: 
-- If you have asthma. This medicine should not be used for the treatment of asthma. 
-- If you have heart problems. 
-- If you have epilepsy. 
-- If you have thyroid gland problems (thyrotoxicosis). 
-- If you have a tumour in one of your adrenal glands (phaeochromocytoma). 
-- If you have difficulty passing urine or problems due to an enlarged prostate. 
-- If you have an eye condition called narrow angle glaucoma, which results in high pressure in the 
-eye. </p>
+following conditions/symptoms:</p>
+<ul>
+<li>If you have asthma. This medicine should not be used for the treatment of asthma. </li>
+<li>If you have heart problems. </li>
+<li>If you have epilepsy. </li>
+<li>If you have thyroid gland problems (thyrotoxicosis). </li>
+<li>If you have a tumour in one of your adrenal glands (phaeochromocytoma). </li>
+<li>If you have difficulty passing urine or problems due to an enlarged prostate. </li>
+<li>If you have an eye condition called narrow angle glaucoma, which results in high pressure in the 
+eye. </li>
+</ul>
 <p>Stop taking Duaklir Genuair and seek medical help immediately if you experience any of the 
-following: </p>
+following:</p>
 <ul>
 <li>If you get sudden tightness of the chest, coughing, wheezing or breathlessness immediately after 
-using the medicine. See section 4.<br />
-Duaklir Genuair is used as a maintenance (long-term) treatment for COPD. You should not use this 
-medicine to treat a sudden attack of breathlessness or wheezing. </li>
-</ul>
+using the medicine. See section </li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take duaklir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take duaklir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Duaklir Genuair is used as a maintenance (long-term) treatment for COPD. You should not use this 
+medicine to treat a sudden attack of breathlessness or wheezing. </p>
 <p>If your usual COPD symptoms (breathlessness, wheezing, cough) do not improve or get worse while 
 you are using Duaklir Genuair you should continue to use it, but go to see your doctor as soon as 
 possible because you may need another medicine. </p>
@@ -123,18 +133,12 @@ medicines. If you use Duaklir Genuair with some other medicines, the effect of D
 other medicines may be altered. </p>
 <p>Tell your doctor or pharmacist if you are taking: 
 * Any medicines that may be similar to Duaklir Genuair to treat breathing difficulties. 
-* Medicines that lower the amount of potassium in your blood. These include: 
-o corticosteroids that you take by mouth (such as prednisolone), 
-o diuretics (such as furosemide or hydrochlorothiazide), 
-o certain medicines used to treat breathing conditions (such as theophylline). 
+* Medicines that lower the amount of potassium in your blood. These include: * corticosteroids that you take by mouth (such as prednisolone), * diuretics (such as furosemide or hydrochlorothiazide), * certain medicines used to treat breathing conditions (such as theophylline). 
 * Medicines called beta blockers that may be used to treat high blood pressure or other heart 
 problems (such as atenolol or propranolol) or to treat glaucoma (such as timolol). 
 * Medicines which can cause a type of change in the electrical activity of the heart known as QT 
 interval prolongation (observed in an electrocardiogram). These include medicines for the 
-treatment of: 
-o depression (such as monoamine oxidase inhibitors or tricyclic antidepressants), 
-o bacterial infections (such as erythromycin, clarithromycin, telithromycin), 
-o allergic reactions (anti-histamines). </p>
+treatment of: * depression (such as monoamine oxidase inhibitors or tricyclic antidepressants), * bacterial infections (such as erythromycin, clarithromycin, telithromycin), * allergic reactions (anti-histamines). </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor, nurse or pharmacist for advice before using this medicine. You should not use Duaklir 
@@ -145,12 +149,13 @@ medicine may cause blurred vision or dizziness. If you are affected by either of
 not drive or use machines until the dizziness has cleared or your vision has returned to normal. </p>
 <p>Duaklir Genuair contains lactose 
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
-                    
+some sugars, contact your doctor before taking this medicine. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take duaklir"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take duaklir"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -183,16 +188,15 @@ usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Duaklir Genuair 
 This medicine is for long-term use. If you want to stop treatment, first talk to your doctor, as your 
 symptoms may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store duaklir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store duaklir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Stop using the medicine and contact your doctor immediately if you: </p>
+<p>Stop using the medicine and contact your doctor immediately if you:</p>
 <ul>
 <li>
 <p>develop swelling of the face, throat, lips or tongue (with or without difficulty breathing or 
@@ -201,7 +205,7 @@ reaction. Frequency of this reaction cannot be estimated from the available data
 </li>
 <li>
 <p>develop tightness of the chest, coughing, wheezing or breathlessness immediately after using the 
-medicine. These may be signs of a condition called “paradoxical bronchospasm”, which is an 
+medicine. These may be signs of a condition called  paradoxical bronchospasm , which is an 
 excessive and prolonged contraction of the airway muscles immediately following treatment with 
 a bronchodilator. This reaction may rarely occur (may affect up to 1 in 1,000 people). </p>
 </li>
@@ -218,12 +222,12 @@ signs of an increase in the amount of sugar in your blood
 and/or itching - these may be signs of an allergic reaction </p>
 <p>Other side effects which may occur while using Duaklir Genuair: </p>
 <p>Common (may affect up to 1 in 10 people) 
-- Combination of sore throat and runny nose – these may be signs of nasopharyngitis 
+- Combination of sore throat and runny nose   these may be signs of nasopharyngitis 
 - Headache 
-- Painful and/or frequent urination – these may be signs of a urinary tract infection 
+- Painful and/or frequent urination   these may be signs of a urinary tract infection 
 - Cough 
 - Diarrhoea 
-- A blocked, runny or stuffy nose and/or pain or a feeling of pressure in the cheeks or forehead – 
+- A blocked, runny or stuffy nose and/or pain or a feeling of pressure in the cheeks or forehead <br />
 these may be symptoms of sinusitis 
 - Dizziness 
 - Muscle cramps 
@@ -257,14 +261,15 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store duaklir"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store duaklir"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the inhaler label, carton and inhaler 
-bag after “EXP”. The expiry date refers to the last day of that month. </p>
+bag after  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. </p>
 <p>Keep the Genuair inhaler protected inside the sealed bag until the administration period starts. </p>
 <p>To be used within 60 days of opening the bag. </p>
@@ -272,124 +277,4 @@ bag after “EXP”. The expiry date refers to the last day of that month. </p>
 <p>After you have taken the last dose, the inhaler has to be disposed of.  Do not throw away any 
 medicines via household waste. Ask your pharmacist how to throw away medicines you no longer use. 
 These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Duaklir Genuair contains 
-- The active substances are aclidinium and formoterol fumarate dihydrate. Each delivered dose 
-(the dose leaving the mouthpiece) contains 396 micrograms aclidinium bromide equivalent to 
-340 micrograms of aclidinium and 11.8 micrograms of formoterol fumarate dihydrate. 
-- The other ingredient is lactose monohydrate (see end of section 2 under ‘Duaklir Genuair 
-contains lactose’ for more information). </p>
-<p>What Duaklir Genuair looks like and contents of the pack 
-Duaklir Genuair is a white or almost white inhalation powder. 
-The Genuair inhaler is a white device fitted with an integral dose indicator and an orange dosage 
-button. The mouthpiece is covered with a removable orange protective cap. It is supplied in a sealed 
-protective aluminium bag containing a desiccant sachet. After removing the inhaler from the bag, the 
-bag and desiccant sachet should be thrown away. </p>
-<p>Pack sizes supplied: </p>
-<p>Carton containing 1 inhaler with 30 doses. 
-Carton containing 1 inhaler with 60 doses. 
-Carton containing 3 inhalers each with 60 doses. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Covis Pharma Europe B.V.<br />
-Gustav Mahlerplein 2 
-1082MA Amsterdam 
-The Netherlands </p>
-<p>Manufacturer: 
-Industrias Farmacéuticas Almirall, S.A. 
-Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona 
-Spain </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Covis Pharma Europe B.V. 
-Tel: 80013Lietuva 
-Covis Pharma Europe B.V. 
-Tel: 880000 
-България 
-Covis Pharma Europe B.V. 
-Tel: 008002100 
-Luxembourg/Luxemburg 
-Covis Pharma Europe B.V. 
-Tel: 80024Česká republika 
-Covis Pharma Europe B.V. 
-Tel: 800144 
-Magyarország 
-Covis Pharma Europe B.V. 
-Tel.: 0680021Danmark 
-Zentiva Denmark ApS 
-Tlf: +45 787 68 Malta 
-Covis Pharma Europe B.V. 
-Tel: 80065 
-Deutschland 
-Zentiva Pharma GmbH<br />
-Tel: +49 (0) 800 53 53 010  </p>
-<p>Nederland 
-Covis Pharma Europe B.V. 
-Tel: 08000270008  </p>
-<p>Eesti 
-Covis Pharma Europe B.V<br />
-Tel: 8000100Norge 
-Zentiva Denmark ApS 
-Tlf: +47 219 66<br />
-Ελλάδα 
-Specialty Therapeutics IKE 
-Τηλ: +30 213 02 33<br />
-Österreich 
-Covis Pharma Europe B.V. 
-Tel: 0800006 
-España 
-Zentiva Spain S.L.U. 
-Tel: +34 931 815 250<br />
-Polska 
-Covis Pharma Europe B.V. 
-Tel.: 0800919 
-France 
-Zentiva France 
-Tél: +33 (0) 800 089 219<br />
-Portugal 
-Zentiva Portugal, Lda 
-Tel: +351210601 
-Hrvatska 
-Covis Pharma Europe B.V. 
-Tel: 08004 
-România 
-Covis Pharma Europe B.V. 
-Tel: 0800410 
-Ireland 
-Covis Pharma Europe B.V.<br />
-Tel: 1800937Slovenija 
-Covis Pharma Europe B.V. 
-Tel: 080083 
-Ísland 
-Zentiva Denmark ApS 
-Sími: +354 539 0Slovenská republika 
-Covis Pharma Europe B.V. 
-Tel: 0800008 
-Italia 
-Covis Pharma Europe B.V. 
-Tel: 800168 
-Suomi/Finland 
-Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 648<br />
-Κύπρος 
-Specialty Therapeutics IKE 
-Τηλ: +30 213 02 33<br />
-Sverige 
-Zentiva Denmark ApS 
-Tel: +46 840 838 822<br />
-Latvija 
-Covis Pharma Europe B.V. 
-Tel: 80005 
-United Kingdom (Northern Ireland) 
-Zentiva, k.s. 
-Tel: +44 (0) 800 090 2 
-This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

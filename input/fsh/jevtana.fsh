@@ -4,7 +4,7 @@ Instance: composition-en-9ca1435358d854c23437bf6b3ecabe6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for jevtana Package Leaflet"
 Description:  "Composition for jevtana Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What jevtana is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The name of your medicine is JEVTANA. Its common name is cabazitaxel. It belongs to a group of 
-medicines called “taxanes” used to treat cancers.  </p>
+medicines called  taxanes  used to treat cancers.  </p>
 <p>JEVTANA is used to treat prostate cancer that has progressed after having had other chemotherapy. It 
 works by stopping cells from growing and multiplying. </p>
 <p>As part of your treatment, you will also take a corticosteroid medicine (prednisone or prednisolone) by 
@@ -142,14 +142,16 @@ JEVTANA or stop the treatment. </p>
 <p>Please tell your doctor, pharmacist or nurse if you are taking or have recently taken any other 
 medicines. This includes medicines obtained without a prescription. This is because some medicines 
 can affect the way JEVTANA works or JEVTANA can affect how other medicines work. These 
-medicines include the following: 
-- ketoconazole, rifampicin (for infections); 
-- carbamazepine, phenobarbital or phenytoin (for seizures); 
-- St John’s Wort (Hypericum perforatum) (herbal remedy for depression and other conditions); 
--  statins (such  as simvastatin, lovastatin, atorvastatin, rosuvastatin, or pravastatin) (for reducing the 
-cholesterol in your blood); 
--  valsartan (for hypertension); 
--  repaglinide (for diabetes). </p>
+medicines include the following:</p>
+<ul>
+<li>ketoconazole, rifampicin (for infections); </li>
+<li>carbamazepine, phenobarbital or phenytoin (for seizures); </li>
+<li>St John s Wort (Hypericum perforatum) (herbal remedy for depression and other conditions); </li>
+<li>statins (such  as simvastatin, lovastatin, atorvastatin, rosuvastatin, or pravastatin) (for reducing the 
+cholesterol in your blood); </li>
+<li>valsartan (for hypertension); </li>
+<li>repaglinide (for diabetes). </li>
+</ul>
 <p>Talk to your doctor before getting vaccinations while you are receiving JEVTANA.  </p>
 <p>Pregnancy, breast-feeding and fertility </p>
 <p>JEVTANA is not indicated for use in women.  </p>
@@ -195,7 +197,7 @@ prednisolone) by mouth every day. </p>
 <ul>
 <li>
 <p>The usual dose depends on your body surface area. Your doctor will calculate your body surface 
-area in square meters (m²) and will decide the dose you should have. </p>
+area in square meters (m ) and will decide the dose you should have. </p>
 </li>
 <li>
 <p>You will usually have an infusion once every 3 weeks. </p>
@@ -297,10 +299,10 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the label of 
 the vials after EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. Do not refrigerate. </p>
+<p>Do not store above 30 C. Do not refrigerate. </p>
 <p>Information about storage and the time to use JEVTANA, once it has been diluted and is ready to use, 
-is described in the section “Practical information for medical or healthcare professionals on 
-preparation, administration and handling of Jevtana“. </p>
+is described in the section  Practical information for medical or healthcare professionals on 
+preparation, administration and handling of Jevtana . </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements. 
 These measures will help to protect the environment. </p>         </div>"""      
         
@@ -314,7 +316,7 @@ These measures will help to protect the environment. </p>         </div>"""
 The active substance is cabazitaxel. One ml of concentrate contains 40 mg cabazitaxel. One vial of 
 concentrate contains 60 mg cabazitaxel.  </p>
 <p>The other ingredients are polysorbate 80 and citric acid in the concentrate, and ethanol 96% and water 
-for injections in the solvent (see section 2 “JEVTANA contains alcohol”). 
+for injections in the solvent (see section 2  JEVTANA contains alcohol ). 
 Note: Both the JEVTANA 60 mg/1.5 ml concentrate vial (fill volume: 73.2 mg of cabazitaxel/1.83 ml) 
 and the solvent vial (fill volume: 5.67 ml) contain an overfill to compensate for liquid loss during 
 preparation. This overfill ensures that after dilution with the ENTIRE contents of the accompanying 
@@ -323,12 +325,10 @@ solvent, there is solution containing 10 mg/ml cabazitaxel. </p>
 JEVTANA is a concentrate and solvent for solution for infusion (sterile concentrate). 
 The concentrate is a clear yellow to brownish-yellow oily solution. 
 The solvent is a clear and colourless solution. </p>
-<p>One pack of JEVTANA contains: 
-− 
-One  single useclear glass vial, closed with a grey rubber stopper sealed by an aluminium cap 
-with a light green plastic flip-off cover, containing 1.5 ml (nominal volume) concentrate.<br />
-− 
-One single use clear glass vial, closed with a grey rubber stopper sealed by a gold colour 
+<p>One pack of JEVTANA contains: </p>
+<p>One  single useclear glass vial, closed with a grey rubber stopper sealed by an aluminium cap 
+with a light green plastic flip-off cover, containing 1.5 ml (nominal volume) concentrate.  </p>
+<p>One single use clear glass vial, closed with a grey rubber stopper sealed by a gold colour 
 aluminium cap with a colourless plastic flip-off cover, containing  4.5 ml (nominal volume) 
 solvent. </p>
 <p>Marketing Authorisation Holder </p>
@@ -338,27 +338,26 @@ solvent. </p>
 France </p>
 <p>Manufacturer </p>
 <p>Sanofi-Aventis Deutschland GmbH 
-Industriepark Höchst 
+Industriepark H chst 
 65926 Frankfurt am Main <br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
  SANOFI-AVENTIS Zrt.,<br />
 Tel.: +36 1 505 0 
 Danmark 
@@ -373,18 +372,17 @@ Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70 Nederland
 Sanofi B.V. 
 Tel: +31 20 245 4 </p>
 <p>Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10  </p>
 <p>Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -392,14 +390,14 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
+Sanofi - Produtos Farmac uticos, Lda 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -408,10 +406,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -419,10 +417,9 @@ Sanofi S.r.l.
 Tel: +39.800.536389  </p>
 <p>Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

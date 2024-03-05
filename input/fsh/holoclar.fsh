@@ -4,7 +4,7 @@ Instance: composition-en-9435ec03e40e267b4ae7d35097656572
 InstanceOf: CompositionUvEpi
 Title: "Composition for holoclar Package Leaflet"
 Description:  "Composition for holoclar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -99,9 +99,11 @@ damaged cornea helping your eye to heal normally. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take holoclar"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Holoclar: 
-- if you are allergic to any of the ingredients of this medicine (listed in section 6) or to bovine 
-serum and mouse cells </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Holoclar:</p>
+<ul>
+<li>if you are allergic to any of the ingredients of this medicine (listed in section 6) or to bovine 
+serum and mouse cells </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your surgeon before you are given Holoclar. </p>
 <p>Holoclar is prepared individually from your own cells to match you, and must not be used for anyone other 
@@ -111,15 +113,15 @@ until you have recovered. </p>
 <p>When Holoclar is made, two ingredients from animals are used. One is foetal bovine serum which is 
 from cows and is used to help grow your cells. The other ingredient is a special kind of inactivated 
 mouse cell which is used to grow your limbal cells. If you are allergic to either of these ingredients, 
-you will not be able to be given this medicine (see above under ‘You must not be given Holoclar’).  </p>
+you will not be able to be given this medicine (see above under  You must not be given Holoclar ).  </p>
 <p>If you have any of the following problems with your eyes, they should be treated before this medicine 
 is used: 
-• Uneven eyelids 
-• Scarring of the conjunctiva (the protective layer over the white of your eye) with damage 
+  Uneven eyelids 
+  Scarring of the conjunctiva (the protective layer over the white of your eye) with damage 
 where it joins to the inside of the eyelids (fornix shortening) 
-• Inability for your eye to sense pain (anaesthesia of the cornea or conjunctiva or hypoaesthia) 
-• Growth of the conjunctiva over the cornea (pterygium) 
-• Severe dry eye. </p>
+  Inability for your eye to sense pain (anaesthesia of the cornea or conjunctiva or hypoaesthia) 
+  Growth of the conjunctiva over the cornea (pterygium) 
+  Severe dry eye. </p>
 <p>Other cases in which Holoclar cannot be used 
 Even if the surgeon has already taken a small sample of limbal cells (a biopsy) needed to produce the 
 medicine, it is possible that you will not be able to have treatment with Holoclar. This is the case if the 
@@ -131,7 +133,7 @@ medicine is safe for use in children or how effective it may be. </p>
 <p>Kidney and liver problems 
 Please talk with your surgeon before the start of treatment if you have liver or kidney disease. </p>
 <p>Other medicines and Holoclar </p>
-<p>Some eye-drops contain a preservative called ‘benzalkonium chloride’. This ingredient can damage 
+<p>Some eye-drops contain a preservative called  benzalkonium chloride . This ingredient can damage 
 the cells of which Holoclar is made. Do not use eye-drops containing benzalkonium chloride and/or 
 other preservatives. Ask your doctor or pharmacist for advice. </p>
 <p>Pregnancy and breast-feeding 
@@ -213,7 +215,7 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the label. </p>
-<p>Do not store above 25° C or below 15° C. 
+<p>Do not store above 25  C or below 15  C. 
 Do not refrigerate or freeze. 
 Keep Holoclar within the steel container in the plastic bag until surgery. This is to protect it from 
 contamination by bacteria. 
@@ -228,5 +230,26 @@ storage of the medicine before and during its use, as well as for the correct di
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Holoclar contains 
-- The active substance consists of 300,000 - 1,200,000 of your living eye cells, on average </p>         </div>"""      
+- The active substance consists of 300,000 - 1,200,000 of your living eye cells, on average 
+3.5 % of which are stem cells. Each square centimetre of Holoclar contains 79,000 - 316,cells. 
+- There are two excipients: one is fibrin - a clear supportive layer used to keep Holoclar intact, the 
+other one is a liquid containing amino acids, vitamins, salts and carbohydrates to store the cells in 
+the vial called Dulbecco s Modified Eagles Medium supplemented with L-glutamine. </p>
+<p>What Holoclar looks like and contents of the pack 
+Holoclar is a layer of cells for implantation into your eye. The cells are kept alive in a small 
+sterile container. The medicine is put in several layers of packaging which protect the medicine </p>
+<p>from bacteria and ensures that Holoclar is kept at a stable temperature for 36 hours, if stored at 
+room temperature. </p>
+<p>Each package contains an individual treatment dose which is large enough to cover your cornea. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Holostem s.r.l. 
+Via Glauco Gottardi 100, Modena, 41125, Italy 
+Phone: +39 059 2058Fax: +39 059 2058 </p>
+<p>This leaflet was last revised in  </p>
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine. 
+The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

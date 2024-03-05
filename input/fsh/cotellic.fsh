@@ -4,7 +4,7 @@ Instance: composition-en-3a2e83e300727740331b28eb7f2593e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for cotellic Package Leaflet"
 Description:  "Composition for cotellic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Cotellic 
 4. Possible side effects 
 5. How to store Cotellic 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -75,11 +74,11 @@ Cotellic is used to treat adult patients with a type of skin cancer called melan
 other parts of the body or cannot be removed by surgery. 
 * It is used in combination with another anti-cancer medicine called vemurafenib.<br />
 * It can only be used in patients whose cancer has a change (mutation) in a protein called 
-“BRAF”. Before starting treatment, your doctor will test for this mutation. This change may 
+ BRAF . Before starting treatment, your doctor will test for this mutation. This change may 
 have led to the development of melanoma.  </p>
 <p>How Cotellic works 
-Cotellic targets a protein called “MEK” that is important in controlling cancer cell growth. When 
-Cotellic is used in combination with vemurafenib (which targets the changed “BRAF” protein), it 
+Cotellic targets a protein called  MEK  that is important in controlling cancer cell growth. When 
+Cotellic is used in combination with vemurafenib (which targets the changed  BRAF  protein), it 
 further slows down or stops the growth of your cancer. </p>         </div>"""   
           
 
@@ -98,20 +97,20 @@ Talk to your doctor, pharmacist or nurse before taking Cotellic if you have: </p
 <ul>
 <li>
 <p>Bleeding 
-Cotellic can cause severe bleeding, especially in your brain or stomach (see also “Severe bleeding” in 
+Cotellic can cause severe bleeding, especially in your brain or stomach (see also  Severe bleeding  in 
 Section 4). Tell your doctor straight away if you have any unusual bleeding or any of these symptoms: 
 headaches, dizziness, feeling weak, blood in the stools or black stools and vomiting blood.   </p>
 </li>
 <li>
 <p>Eye problems 
-Cotellic can cause eye problems (see also “Eye (vision) problems” in Section 4). Tell your doctor 
+Cotellic can cause eye problems (see also  Eye (vision) problems  in Section 4). Tell your doctor 
 straight away if you get the following symptoms: blurred vision, distorted vision, partly missing 
 vision, or any other changes to your sight during treatment. Your doctor should examine your eyes if 
 you have any new or worsening problems with your sight while you are taking Cotellic. </p>
 </li>
 <li>
 <p>Heart problems 
-Cotellic can lower the amount of blood pumped by your heart (see also “Heart problems” in 
+Cotellic can lower the amount of blood pumped by your heart (see also  Heart problems  in 
 Section 4). Your doctor should do tests before and during your treatment with Cotellic to check how 
 well your heart can pump blood. Tell your doctor straight away if it feels like your heart is pounding, 
 racing or beating unevenly, or if you experience dizziness, lightheadedness, shortness of breath, 
@@ -125,15 +124,15 @@ will do blood tests to check these amounts and monitor how well your liver is wo
 <li>
 <p>Muscle problems 
 Cotellic can cause increased levels of creatine phosphokinase, an enzyme that is found mainly in the 
-muscle, heart, and brain. This can be a sign of muscle damage (rhabdomyolysis) (see also “Muscle 
-problems” in Section 4). Your doctor will do blood tests to monitor for this. Tell your doctor straight 
+muscle, heart, and brain. This can be a sign of muscle damage (rhabdomyolysis) (see also  Muscle 
+problems  in Section 4). Your doctor will do blood tests to monitor for this. Tell your doctor straight 
 away if you get any of these symptoms: muscle aches, muscle spasms, weakness, or dark- or red-
 coloured urine.  </p>
 </li>
 <li>
 <p>Diarrhoea 
 Tell your doctor straight away if you get diarrhoea. Severe diarrhoea can cause loss of body fluid 
-(dehydration). Follow your doctor’s instructions for what to do to help prevent or treat diarrhoea. </p>
+(dehydration). Follow your doctor s instructions for what to do to help prevent or treat diarrhoea. </p>
 </li>
 </ul>
 <p>Children and adolescents 
@@ -165,7 +164,7 @@ imatinib
 for cancer 
 carbamazepine, phenytoin 
 for fits (seizures) 
-St John’s Wort 
+St John s Wort 
 a herbal medicine, used to treat depression. 
 This is available without prescription. </p>
 <p>Cotellic with food and drink 
@@ -191,8 +190,8 @@ tired. Talk to your doctor if you are not sure.  </p>
 <p>Cotellic contains lactose and sodium 
 The tablets contain lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, talk to your doctor before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’.   </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free .   </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cotellic"
@@ -203,7 +202,7 @@ free’.   </p>         </div>"""
 or pharmacist if you are not sure.  </p>
 <p>How much to take 
 The recommended dose is 3 tablets (a total of 60 mg) once a day.<br />
-<em> Take the tablets every day for 21 days (called a “treatment period”).<br />
+<em> Take the tablets every day for 21 days (called a  treatment period ).<br />
 </em> After the 21 days, do not take any Cotellic tablets for 7 days. During this 7 day break in Cotellic 
 treatment, you should keep taking vemurafenib as told by your doctor. 
 * Start your next Cotellic 21 day treatment period after the 7 day break. 
@@ -248,7 +247,7 @@ bleeding, symptoms may include:
 * abdominal pain 
 * red or black coloured stools. </p>
 <p>Eye (vision) problems (very common: may affect more than 1 in 10 people) 
-Cotellic can cause eye problems. Some of these eye problems may be a result of “serous retinopathy” 
+Cotellic can cause eye problems. Some of these eye problems may be a result of  serous retinopathy<br />
 (a build-up of fluid under the retina in the eye). Symptoms of serous retinopathy include:<br />
 * blurred vision 
 * distorted vision 
@@ -268,7 +267,7 @@ Cotellic can result in the breakdown of muscle (rhabdomyolysis), symptoms may in
 * muscle spasms and weakness 
 * dark- or red-coloured urine. </p>
 <p>Diarrhoea (very common: may affect more than 1 in 10 people) 
-Tell your doctor straight away if you get diarrhoea and follow your doctor’s instructions for what to do 
+Tell your doctor straight away if you get diarrhoea and follow your doctor s instructions for what to do 
 to help prevent or treat diarrhoea. </p>
 <p>Other side effects 
 Tell your doctor, pharmacist or nurse if you notice any of the following side effects: </p>
@@ -295,10 +294,10 @@ keratoacanthoma
 * dehydration, when your body does not have enough fluid 
 * decreased levels of phosphate or sodium (shown in blood tests) 
 * increased sugar level (shown in blood tests) 
-* increased liver pigment (called “bilirubin”) in the blood. Signs include yellowing of the skin or 
+* increased liver pigment (called  bilirubin ) in the blood. Signs include yellowing of the skin or 
 eyes 
 * inflammation of the lungs that may cause difficulty breathing, and can be life-threatening 
-(called “pneumonitis”). </p>
+(called  pneumonitis ). </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -310,13 +309,15 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store cotellic"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not take this medicine after the expiry date which is stated on the blister and the carton after 
-EXP. The expiry date refers to the last day of that month. 
-* This medicine does not require any special storage conditions. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not take this medicine after the expiry date which is stated on the blister and the carton after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special storage conditions. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -327,12 +328,12 @@ environment. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cotellic contains 
 * The active substance is cobimetinib. Each film-coated tablet contains cobimetinib hemifumarate 
 equivalent to 20 mg cobimetinib. 
-* The other ingredients are (see Section 2 “Cotellic contains lactose and sodium”):<br />
-• lactose monohydrate, microcrystalline cellulose, croscarmellose sodium, and magnesium 
+* The other ingredients are (see Section 2  Cotellic contains lactose and sodium ):<br />
+  lactose monohydrate, microcrystalline cellulose, croscarmellose sodium, and magnesium 
 stearate in the tablet core; and 
-• polyvinyl alcohol, titanium dioxide, macrogol and talc in the film-coating.  </p>
+  polyvinyl alcohol, titanium dioxide, macrogol and talc in the film-coating.  </p>
 <p>What Cotellic looks like and contents of the pack 
-Cotellic film-coated tablets are white, round with “COB” debossed on one side. One pack size is 
+Cotellic film-coated tablets are white, round with  COB  debossed on one side. One pack size is 
 available: 63 tablets (3 blisters of 21 tablets). </p>
 <p>Marketing Authorisation Holder 
 Roche Registration GmbH<br />
@@ -346,22 +347,20 @@ Emil-Barell-Strasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 N.V. Roche S.A.<br />
-Tél/Tel: +32 (0) 2 525 82 11<br />
+T l/Tel: +32 (0) 2 525 82 11<br />
 Lietuva<br />
-UAB “Roche Lietuva”<br />
-Tel: +370 5 2546799<br />
-България<br />
-Рош България ЕООД<br />
-Тел: +359 2 818 44 44<br />
+UAB  Roche Lietuva <br />
+Tel: +370 5 2546799  </p>
+<p>: +359 2 818 44 44<br />
 Luxembourg/Luxemburg<br />
 (Voir/siehe Belgique/Belgien)<br />
-Česká republika<br />
+ esk  republika<br />
 Roche s. r. o.<br />
 Tel: +420 - 2 20382111<br />
-Magyarország<br />
-Roche (Magyarország) Kft.<br />
+Magyarorsz g<br />
+Roche (Magyarorsz g) Kft.<br />
 Tel: +36 - 1 279 4Danmark<br />
 Roche Pharmaceutical A/S<br />
 Tlf: +45 - 36 39 99 99<br />
@@ -374,18 +373,17 @@ Nederland<br />
 Roche Nederland B.V.<br />
 Tel: +31 (0) 348 438050<br />
 Eesti<br />
-Roche Eesti OÜ<br />
+Roche Eesti O <br />
 Tel: + 372 - 6 177 380<br />
 Norge<br />
 Roche Norge AS<br />
-Tlf: +47 - 22 78 90 00<br />
-Ελλάδα<br />
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66 100<br />
-Österreich<br />
+Tlf: +47 - 22 78 90 00  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66 100<br />
+ sterreich<br />
 Roche Austria GmbH<br />
 Tel: +43 (0) 1 27739<br />
-España<br />
+Espa a<br />
 Roche Farma S.A.<br />
 Tel: +34 - 91 324 81 00<br />
 Polska<br />
@@ -393,27 +391,27 @@ Roche Polska Sp.z o.o.<br />
 Tel: +48 - 22 345 18 88<br />
 France<br />
 Roche<br />
-Tél: +33 (0) 1 47 61 40 00<br />
+T l: +33 (0) 1 47 61 40 00<br />
 Portugal<br />
-Roche Farmacêutica Química, Lda<br />
+Roche Farmac utica Qu mica, Lda<br />
 Tel: +351 - 21 425 70 00<br />
 Hrvatska<br />
 Roche d.o.o.<br />
 Tel: +385 1 4722 333<br />
-România<br />
-Roche România S.R.L.<br />
+Rom nia<br />
+Roche Rom nia S.R.L.<br />
 Tel: +40 21 206 47 01<br />
 Ireland<br />
 Roche Products (Ireland) Ltd.<br />
 Tel: +353 (0) 1 469 0700<br />
 Slovenija<br />
-Roche farmacevtska družba d.o.o.<br />
+Roche farmacevtska dru ba d.o.o.<br />
 Tel: +386 - 1 360 26 00<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
-Sími: +354 540 8000<br />
-Slovenská republika<br />
+S mi: +354 540 8000<br />
+Slovensk  republika<br />
 Roche Slovensko, s.r.o.<br />
 Tel: +421 - 2 52638201<br />
 Italia<br />
@@ -422,9 +420,9 @@ Tel: +39 - 039 2471<br />
 Suomi/Finland<br />
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554 500<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
-Τηλ: +357 - 22 76 62 76<br />
+K <br />
+ . .  &amp;    .<br />
+ : +357 - 22 76 62 76<br />
 Sverige<br />
 Roche AB<br />
 Tel: +46 (0) 8 726 1200<br />

@@ -4,7 +4,7 @@ Instance: composition-en-d21a665ebc1011132a02f9a335304090
 InstanceOf: CompositionUvEpi
 Title: "Composition for keppra Package Leaflet"
 Description:  "Composition for keppra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,15 +76,12 @@ treat a certain form of epilepsy. Epilepsy is a condition where the patients hav
 one side of the brain but could thereafter extend to larger areas on both sides of the brain 
 (partial onset seizure with or without secondary generalisation). Levetiracetam has been given 
 to you by your doctor to reduce the number of fits. 
-* as an add-on to other antiepileptic medicines to treat: 
-▪ 
-partial onset seizures with or without generalisation in adults, adolescents, children and 
-infants from one month of age; 
-▪ 
-myoclonic seizures (short, shock-like jerks of a muscle or group of muscles) in adults and 
-adolescents from 12 years of age with juvenile myoclonic epilepsy; 
-▪ 
-primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in 
+* as an add-on to other antiepileptic medicines to treat: </p>
+<p>partial onset seizures with or without generalisation in adults, adolescents, children and 
+infants from one month of age; </p>
+<p>myoclonic seizures (short, shock-like jerks of a muscle or group of muscles) in adults and 
+adolescents from 12 years of age with juvenile myoclonic epilepsy; </p>
+<p>primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in 
 adults and adolescents from 12 years of age with idiopathic generalised epilepsy (the type of 
 epilepsy that is thought to have a genetic cause). </p>         </div>"""   
           
@@ -100,7 +97,7 @@ epilepsy that is thought to have a genetic cause). </p>         </div>"""
 this medicine (listed in Section 6).  </p>
 <p>Warnings and precautions 
 Talk to your doctor before taking Keppra 
-* If you suffer from kidney problems, follow your doctor’s instructions. He/she may decide if 
+* If you suffer from kidney problems, follow your doctor s instructions. He/she may decide if 
 your dose should be adjusted. 
 * If you notice any slowdown in the growth or unexpected puberty development of your child, 
 please contact your doctor. 
@@ -152,13 +149,13 @@ Sunset Yellow FCF (E110) colouring agent may cause allergic reactions. </p>     
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p>Take the number of tablets following your doctor’s instructions. 
+<p>Take the number of tablets following your doctor s instructions. 
 Keppra must be taken twice a day, once in the morning and once in the evening, at about the same 
 time each day. </p>
 <p>Adjunctive Therapy and monotherapy (from 16 years of age) </p>
 <ul>
 <li>
-<p>Adults (≥18 years) and adolescents (12 to 17 years) weighing 50 kg or more: 
+<p>Adults ( 18 years) and adolescents (12 to 17 years) weighing 50 kg or more: 
 Recommended dose: between 1000 mg and 3000 mg each day. 
 When you will first start taking Keppra, your doctor will prescribe you a lower dose during 2 
 weeks before giving you the lowest daily dose. 
@@ -179,7 +176,7 @@ the age, weight and dose. </p>
 </ul>
 <p>Keppra 100 mg/ml oral solution is a formulation more appropriate to infants and children under 
 the age of 6 years and to children and adolescent (from 6 to 17 years) weighing less than 50kg 
-and when tablets don’t allow accurate dosage. </p>
+and when tablets don t allow accurate dosage. </p>
 <p>Method of administration 
 Swallow Keppra tablets with a sufficient quantity of liquid (e.g. a glass of water). You may take 
 Keppra with or without food. After oral administration the bitter taste of levetiracetam may be 
@@ -187,7 +184,7 @@ experienced. </p>
 <p>Duration of treatment 
 * Keppra is used as a chronic treatment. You should continue Keppra treatment for as long as 
 your doctor has told you. 
-* Do not stop your treatment without your doctor’s advice as this could increase your seizures.  </p>
+* Do not stop your treatment without your doctor s advice as this could increase your seizures.  </p>
 <p>If you take more Keppra than you should 
 The possible side effects of an overdose of Keppra are sleepiness, agitation, aggression, decrease of 
 alertness, inhibition of breathing and coma. 
@@ -213,7 +210,7 @@ withdrawal of Keppra. </p>
 <ul>
 <li>weakness, feel light-headed or dizzy or have difficulty breathing, as these may be signs of a 
 serious allergic (anaphylactic) reaction </li>
-<li>swelling of the face, lips, tongue and throat (Quincke’s oedema) </li>
+<li>swelling of the face, lips, tongue and throat (Quincke s oedema) </li>
 <li>flu-like symptoms and a rash on the face followed by an extended rash with a high temperature, 
 increased levels of liver enzymes seen in blood tests and an increase in a type of white blood cell 
 (eosinophilia) and enlarged lymph nodes (Drug Reaction with Eosinophilia and Systemic 
@@ -264,12 +261,12 @@ concentration);
 * infection; 
 * decreased number of all blood cell types;<br />
 * severe allergic reactions (DRESS, anaphylactic reaction [severe and important allergic reaction], 
-Quincke’s oedema [swelling of the face, lips, tongue and throat]); 
+Quincke s oedema [swelling of the face, lips, tongue and throat]); 
 * decreased blood sodium concentration; 
 * suicide, personality disorders (behavioural problems), thinking abnormal (slow thinking, unable 
 to concentrate); 
 * delirium; 
-* encephalopathy (see sub-section “Tell your doctor immediately” for a detailed description of 
+* encephalopathy (see sub-section  Tell your doctor immediately  for a detailed description of 
 symptoms); 
 * seizures may become worse or happen more often; 
 * uncontrollable muscle spasms affecting the head, torso and limbs, difficulty in controlling 
@@ -281,7 +278,7 @@ movements, hyperkinesia (hyperactivity);
 * skin rash, which may form blisters and looks like small targets (central dark spots surrounded 
 by a paler area, with a dark ring around the edge) (erythema multiforme), a widespread rash with 
 blisters and peeling skin, particularly around the mouth, nose, eyes and<br />
-genitals (Stevens–
+genitals (Stevens 
 Johnson syndrome), and a more severe form causing skin peeling in more than 30% of the body 
 surface (toxic epidermal necrolysis); 
 * rhabdomyolysis (breakdown of muscle tissue) and associated blood creatine phosphokinase 
@@ -335,17 +332,17 @@ colourants*. </p>
 750 mg tablet: sunset yellow FCF aluminium lake (E110), iron oxide red (E172) </li>
 </ul>
 <p>What Keppra looks like and contents of the pack 
-Keppra 250 mg film-coated tablets are blue, 13 mm oblong, scored and debossed with the code “ucb” 
-and “250” on one side. 
+Keppra 250 mg film-coated tablets are blue, 13 mm oblong, scored and debossed with the code  ucb<br />
+and  250  on one side. 
 The score line is only to facilitate breaking for ease of swallowing and not to divide into equal doses.  </p>
 <p>Keppra 500 mg film-coated tablets are yellow, 16 mm oblong, scored and debossed with the code 
-“ucb” and “500” on one side. 
+ ucb  and  500  on one side. 
 The score line is only to facilitate breaking for ease of swallowing and not to divide into equal doses.  </p>
 <p>Keppra 750 mg film-coated tablets are orange, 18 mm oblong, scored and debossed with the code 
-“ucb” and “750” on one side. 
+ ucb  and  750  on one side. 
 The score line is only to facilitate breaking for ease of swallowing and not to divide into equal doses.  </p>
 <p>Keppra 1000 mg film-coated tablets are white, 19 mm oblong, scored and debossed with the code 
-“ucb” and “1000” on one side.<br />
+ ucb  and  1000  on one side.<br />
 The score line is only to facilitate breaking for ease of swallowing and not to divide into equal doses.  </p>
 <p>Keppra tablets are packaged in blister packs supplied in cardboard boxes containing: 
 * 250 mg: 20, 30, 50, 60, 100 x 1, 100 film-coated tablets and multipacks containing 200 (2 packs 
@@ -367,29 +364,27 @@ packs of 100) film-coated tablets </p>
 are available in standard aluminium/PVC blisters.  </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
-UCB Pharma SA, Allée de la Recherche 60, B-1070 Brussels, Belgium. 
+UCB Pharma SA, All e de la Recherche 60, B-1070 Brussels, Belgium. 
 Manufacturer </p>
-<p>UCB Pharma SA, Chemin du Foriest, B-1420 Braine-l’Alleud, Belgium. 
+<p>UCB Pharma SA, Chemin du Foriest, B-1420 Braine-l Alleud, Belgium. 
 or </p>
 <p>Aesica Pharmaceuticals S.r.l., Via Praglia 15, I-10044 Pianezza, Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 UCB Pharma SA/NV 
-Tel/Tél: + 32 / (0)2 559 92<br />
+Tel/T l: + 32 / (0)2 559 92<br />
 Lietuva 
 UCB Pharma Oy Finland 
 Tel: +358 9 2514 4231 (Suomija) </p>
-<p>България 
-Ю СИ БИ България ЕООД 
-Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+<p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
 UCB Pharma SA/NV 
-Tél/Tel: + 32 / (0)2 559 92<br />
-Česká republika 
+T l/Tel: + 32 / (0)2 559 92<br />
+ esk  republika 
 UCB s.r.o. 
 Tel: + 420 221 773<br />
-Magyarország 
-UCB Magyarország Kft. 
+Magyarorsz g 
+UCB Magyarorsz g Kft. 
 Tel.: + 36-(1) 391 0 
 Danmark 
 UCB Nordic A/S 
@@ -408,14 +403,13 @@ UCB Pharma Oy Finland<br />
 Tel: +358 9 2514 4231 (Soome) </p>
 <p>Norge 
 UCB Nordic A/S 
-Tlf: + 45 / 32 46 24<br />
-Ελλάδα 
-UCB Α.Ε.<br />
-Τηλ: + 30 / 2109974 
-Österreich 
+Tlf: + 45 / 32 46 24  </p>
+<p>UCB  . .<br />
+ : + 30 / 2109974 
+ sterreich 
 UCB Pharma GmbH 
 Tel: + 43 (0)1 291 80 00  </p>
-<p>España 
+<p>Espa a 
 UCB Pharma, S.A. 
 Tel: + 34 / 91 570 34<br />
 Polska 
@@ -423,13 +417,13 @@ UCB Pharma Sp. z o.o.
 Tel: + 48 22 696 99<br />
 France 
 UCB Pharma S.A. 
-Tél: + 33 / (0)1 47 29 44 Portugal 
-UCB Pharma (Produtos Farmacêuticos), Lda 
+T l: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmac uticos), Lda 
 Tel: + 351 / 21 302 5 
 Hrvatska 
 Medis Adria d.o.o. 
 Tel: +385 (0) 1 230 34<br />
-România 
+Rom nia 
 UCB Pharma Romania S.R.L. 
 Tel: + 40 21 300 29<br />
 Ireland 
@@ -438,20 +432,19 @@ Tel: + 353 / (0)1-46 37 395  </p>
 <p>Slovenija 
 Medis, d.o.o. 
 Tel: + 386 1 589 69<br />
-Ísland 
+ sland 
 Vistor hf. 
 Tel: + 354 535 7 
-Slovenská republika 
-UCB s.r.o., organizačná zložka 
+Slovensk  republika 
+UCB s.r.o., organiza n  zlo ka 
 Tel: + 421 (0) 2 5920 2 
 Italia 
 UCB Pharma S.p.A. 
 Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland 
-Puh/Tel: +358 9 2514 4 
-Κύπρος 
-Lifepharma (Z.A.M.) Ltd 
-Τηλ: + 357 22 34 74 40  </p>
+Puh/Tel: +358 9 2514 4 </p>
+<p>Lifepharma (Z.A.M.) Ltd 
+ : + 357 22 34 74 40  </p>
 <p>Sverige 
 UCB Nordic A/S 
 Tel: + 46 / (0) 40 29 49 Latvija 
@@ -468,15 +461,11 @@ http://www.ema.europa.eu </p>
 <p>Keppra 100 mg/ml oral solution 
 Levetiracetam </p>
 <p>Read all of this leaflet carefully before you or your child start taking this medicine because it 
-contains important information for you. 
-− 
-Keep this leaflet.  You may need to read it again. 
-− 
-If you have any further questions, ask your doctor or pharmacist. 
-− 
-This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
-even if their signs of illness are the same as yours. 
-− 
-If you get any side effects talk to your doctor or pharmacist.  This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+contains important information for you. </p>
+<p>Keep this leaflet.  You may need to read it again. </p>
+<p>If you have any further questions, ask your doctor or pharmacist. </p>
+<p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. </p>
+<p>If you get any side effects talk to your doctor or pharmacist.  This includes any possible side 
+effects not listed in this leaflet. See section </p>         </div>"""      
 

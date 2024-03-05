@@ -4,7 +4,7 @@ Instance: composition-en-27988b0cf49e927966de441ec0585e46
 InstanceOf: CompositionUvEpi
 Title: "Composition for herzuma Package Leaflet"
 Description:  "Composition for herzuma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,18 +75,7 @@ antigen called human epidermal growth factor receptor 2 (HER2). HER2 is found in
 the surface of some cancer cells where it stimulates their growth. When Herzuma binds to HER2 it 
 stops the growth of such cells and causes them to die. </p>
 <p>Your doctor may prescribe Herzuma for the treatment of breast and gastric cancer when: </p>
-<p> 
-you have early breast cancer, with high levels of a protein called HER2.  
-you have metastatic breast cancer (breast cancer that has spread beyond the original tumour) 
-with high levels of HER2. Herzuma may be prescribed in combination with the chemotherapy 
-medicine paclitaxel or docetaxel as first treatment for metastatic breast cancer or it may be 
-prescribed alone if other treatments have proved unsuccessful. It is also used in combination 
-with medicines called aromatase inhibitors with patients with high levels of HER2 and hormone 
-receptor-positive metastatic breast cancer (cancer that is sensitive to the presence of female sex 
-hormones). 
- 
-you have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
-other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p>         </div>"""   
+<p>you have early breast cancer, with high levels of a protein called HER</p>         </div>"""   
           
 
              
@@ -95,12 +84,25 @@ other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p>       
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take herzuma"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Herzuma if: 
- 
-you are allergic to trastuzumab, to murine (mouse) proteins or any of the other ingredients of 
-this medicine (listed in section 6). 
- 
-you have severe breathing problems at rest due to your cancer or if you need oxygen treatment. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>you have metastatic breast cancer (breast cancer that has spread beyond the original tumour) 
+with high levels of HER2. Herzuma may be prescribed in combination with the chemotherapy 
+medicine paclitaxel or docetaxel as first treatment for metastatic breast cancer or it may be 
+prescribed alone if other treatments have proved unsuccessful. It is also used in combination 
+with medicines called aromatase inhibitors with patients with high levels of HER2 and hormone 
+receptor-positive metastatic breast cancer (cancer that is sensitive to the presence of female sex 
+hormones). </p>
+<p>you have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
+other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take herzuma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take herzuma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Herzuma if: </p>
+<p>you are allergic to trastuzumab, to murine (mouse) proteins or any of the other ingredients of 
+this medicine (listed in section 6). </p>
+<p>you have severe breathing problems at rest due to your cancer or if you need oxygen treatment. </p>
 <p>Warnings and precautions  </p>
 <p>Your doctor will closely supervise your therapy.  </p>
 <p>Heart checks </p>
@@ -112,21 +114,17 @@ Herzuma. If you develop any signs of heart failure (inadequate pumping of blood 
 heart function may be checked more frequently (every six to eight weeks), you may receive treatment 
 for heart failure or you may have to stop Herzuma treatment. </p>
 <p>Talk to your doctor, pharmacist or nurse before you are given Herzuma if: </p>
-<p> 
-you have had heart failure, coronary artery disease, heart valve disease (heart murmurs), high 
+<p>you have had heart failure, coronary artery disease, heart valve disease (heart murmurs), high 
 blood pressure, taken any high blood pressure medicine or are currently taking any high blood 
 pressure medicine. </p>
-<p> 
-you have ever had or are currently using a medicine called doxorubicin or epirubicin (medicines 
+<p>you have ever had or are currently using a medicine called doxorubicin or epirubicin (medicines 
 used to treat cancer). These medicines (or any other anthracyclines) can damage heart muscle 
 and increase the risk of heart problems with trastuzumab. </p>
-<p> 
-you suffer from breathlessness, especially if you are currently using a taxane. Trastuzumab can 
+<p>you suffer from breathlessness, especially if you are currently using a taxane. Trastuzumab can 
 cause breathing difficulties, especially when it is first given. This could be more serious if you 
 are already breathless. Very rarely, patients with severe breathing difficulties before treatment 
 have died when they were given trastuzumab. </p>
-<p> 
-you have ever had any other treatment for cancer. </p>
+<p>you have ever had any other treatment for cancer. </p>
 <p>If you receive Herzuma with any other medicine to treat cancer, such as paclitaxel, docetaxel, an 
 aromatase inhibitor, capecitabine, 5-fluorouracil, or cisplatin you should also read the patient 
 information leaflets for these products. </p>
@@ -159,21 +157,22 @@ as Herzuma may pass to your baby through your breast milk. </p>
 experience symptoms, such as dizziness, sleepiness, chills or fever, you should not drive or use 
 machines until these symptoms disappear.  </p>
 <p>Sodium </p>
-<p>Herzuma contains less than 1 mmol of sodium (23 mg) per dose, that is to say essentially sodium-free. </p>         </div>"""   
-                    
+<p>Herzuma contains less than 1 mmol of sodium (23 mg) per dose, that is to say essentially sodium-free. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take herzuma"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take herzuma"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before starting the treatment your doctor will determine the amount of HER2 in your tumour. Only 
 patients with a large amount of HER2 will be treated with Herzuma. Herzuma should only be given by 
 a doctor or nurse. Your doctor will prescribe a dose and treatment regimen that is right for you. The 
 dose of Herzuma depends on your body weight. </p>
-<p>Herzuma is given as an intravenous infusion (“drip”) directly into your veins. The first dose of your 
+<p>Herzuma is given as an intravenous infusion ( drip ) directly into your veins. The first dose of your 
 treatment is given over 90 minutes and you will be observed by a health professional while it is being 
 given in case you have any side effects. If the first dose is well tolerated the next doses may be given 
-over 30 minutes (see section 2 under “Warnings and precautions”). The number of infusions you 
+over 30 minutes (see section 2 under  Warnings and precautions ). The number of infusions you 
 receive will depend on how you respond to the treatment. Your doctor will discuss this with you. </p>
 <p>In order to prevent medication errors it is important to check the vial labels to ensure that the medicine 
 being prepared and given is Herzuma (trastuzumab) and not another trastuzumab-containing product 
@@ -186,13 +185,12 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can.  </p>
 <p>It may take up to 7 months for Herzuma to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store herzuma"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store herzuma"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Some of 
 these side effects may be serious and may lead to hospitalisation.  </p>
@@ -201,8 +199,8 @@ common (may affect more than 1 in 10 people). Other infusion-related symptoms ar
 (nausea), vomiting, pain, increased muscle tension and shaking, headache, dizziness, breathing 
 difficulties, high or low blood pressure, heart rhythm disturbances (palpitations, heart fluttering or 
 irregular heart beat), swelling of the face and lips, rash and feeling tired. Some of these symptoms can 
-be serious and some patients have died (see section 2 under “Warnings and precautions”). </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+be serious and some patients have died (see section 2 under  Warnings and precautions ). </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 health care professional during the infusion and for at least six hours after the start of the first infusion 
 and for two hours after the start of other infusions. If you develop a reaction, they will slow down or 
@@ -346,161 +344,18 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store herzuma"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store herzuma"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
-after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2ºC - 8ºC). </p>
-<p>Infusion solutions should be used immediately after dilution. Do not use Herzuma if you notice any 
-particulate matter or discoloration prior to administration. </p>
-<p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Herzuma contains  </p>
-<ul>
-<li>
-<p>The active substance is trastuzumab. Each vial contains 150 mg trastuzumab that has to be 
-dissolved in 7.2 mL of water for injection. The resulting solution contains approximately 
-21 mg/mL trastuzumab. </p>
-</li>
-<li>
-<p>The other ingredients are L-histidine hydrochloride, L-histidine, α,α-trehalose dihydrate, 
-polysorbate 20.<br />
-What Herzuma looks like and contents of the pack </p>
-</li>
-</ul>
-<p>Herzuma is a powder for concentrate for solution . It is supplied in a glass vial with a rubber stopper 
-containing 150 mg of trastuzumab. The powder is a white to pale yellow pellet. Each carton contains 1 
-vial of powder. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Celltrion Healthcare Hungary Kft.<br />
-Váci út 1-3. WestEnd Office Building B torony 
-1062 Budapest 
-Hungary </p>
-<p>Manufacturer </p>
-<p>Millmount Healthcare Ltd. 
-Block 7 
-City North Business Campus<br />
-Stamullen, Co. Meath K32 YDIreland </p>
-<p>Nuvisan GmbH 
-Wegenerstraße 13, 
-89231 Neu Ulm, 
-Germany </p>
-<p>Nuvisan France SARL 
-2400, Route des Colles, 
-06410, Biot, 
-France </p>
-<p>Kymos S.L. 
-Ronda Can Fatjó 7B 
-(Parque Tecnológico del Vallès) 
-Cerdanyola del Vallès,<br />
-08290 Barcelona,<br />
-Spain </p>
-<p>Midas Pharma GmbH 
-Rheinstr. 49, 
-55218 Ingelheim,<br />
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7BEinfo@celltrionhc.com </p>
-<p>Lietuva 
-Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-България 
-Celltrion Healthcare Hungary Kft. 
-Teл.: +36 1 231 0 
-Luxembourg/Luxemburg 
-Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7BEinfo@celltrionhc.com 
-Česká republika 
-Celltrion Healthcare Hungary Kft. 
-Magyarország 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0<br />
-Tel.: +36 1 231 0Danmark 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0contact_fi@celltrionhc.com </p>
-<p>Malta 
-Mint Health Ltd. 
-Tel: +356 2093 9 
-Deutschland 
-Celltrion Healthcare Deutschland GmbH 
-Tel: +49 (0)30 346494infoDE@celltrionhc.com<br />
-Nederland 
-Celltrion Healthcare Netherlands B.V. 
-Tel: + 31 20 888 7NLinfo@celltrionhc.com </p>
-<p>Eesti 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0contact_fi@celltrionhc.com </p>
-<p>Norge 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0contact_fi@celltrionhc.com </p>
-<p>España 
-Kern Pharma, S.L. 
-Tel: +34 93 700 2Österreich 
-Astro-Pharma GmbH 
-Tel: +43 1 97 99<br />
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 8009111 -<br />
-Polska 
-Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-France 
-Celltrion Healthcare France SAS 
-Tél.: +33 (0)1 71 25 27<br />
-Portugal 
-PharmaKERN Portugal - Produtos 
-Farmacêuticos, Sociedade Unipessoal, Lda. 
-Tel: +351 214 200<br />
-Hrvatska 
-Oktal Pharma d.o.o. 
-Tel: +385 1 6595<br />
-România 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Ireland 
-Celltrion Healthcare Ireland Limited 
-Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
-<p>Slovenija 
-OPH Oktal Pharma d.o.o. 
-Tel.: +386 1 519 29<br />
-Ísland 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0contact_fi@celltrionhc.com </p>
-<p>Slovenská republika 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Italia 
-Celltrion Healthcare Italy S.R.L. 
-Tel: +39 0247 927celltrionhealthcare_italy@legalmail.it </p>
-<p>Suomi/Finland 
-Celltrion Healthcare Finland Oy. 
-Puh/Tel: +358 29 170 7contact_fi@celltrionhc.com<br />
-Κύπρος 
-C.A. Papaellinas Ltd 
-Τηλ: +357 22741 
-Sverige 
-Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0contact_fi@celltrionhc.com  </p>
-<p>Latvija 
-Celltrion Healthcare Hungary Kft. 
-United Kingdom(Northern Ireland) 
-Celltrion Healthcare Ireland Limited 
-Tālr.: +36 1 231 0Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C - 8 C). </p>
+<p>Infusion solutions should be used immediately after dilution. Do not use Herzuma if you notice any 
+particulate matter or discoloration prior to administration. </p>
+<p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

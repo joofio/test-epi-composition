@@ -4,7 +4,7 @@ Instance: composition-en-83d27b2c0c103aeb8cf9aa2b77c5f35f
 InstanceOf: CompositionUvEpi
 Title: "Composition for halaven Package Leaflet"
 Description:  "Composition for halaven Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,17 +83,21 @@ tissue) when previous therapy has been tried but has lost its effect. </p>      
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take halaven"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use HALAVEN:<br />
-- if you are allergic to eribulin mesilate or any of the other ingredients of this medicine (listed in 
-section 6).<br />
-- if you are breast-feeding </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use HALAVEN:</p>
+<ul>
+<li>if you are allergic to eribulin mesilate or any of the other ingredients of this medicine (listed in 
+section 6).  </li>
+<li>if you are breast-feeding </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor or nurse before using HALAVEN: 
-- if you have liver problems 
-- if you have a fever or an infection 
-- if you experience numbness, tingling, prickling sensations, sensitivity to touch or muscle 
-weakness 
-- if you have heart problems </p>
+Talk to your doctor or nurse before using HALAVEN:</p>
+<ul>
+<li>if you have liver problems </li>
+<li>if you have a fever or an infection </li>
+<li>if you experience numbness, tingling, prickling sensations, sensitivity to touch or muscle 
+weakness </li>
+<li>if you have heart problems </li>
+</ul>
 <p>If any of these affects you, tell your doctor who may wish to stop treatment or reduce the dose. </p>
 <p>Children and adolescents </p>
 <p>Do not give this medicine to children between the ages of 0 to 18 years because it does not work. </p>
@@ -138,10 +142,10 @@ may also then decide to reduce the dose you are given. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>If you experience any of the following serious symptoms, stop taking HALAVEN and seek medical 
-attention straightaway: </p>
+attention straightaway:</p>
 <ul>
 <li>Fever, with a racing heart beat, rapid shallow breathing, cold, pale, clammy or mottled skin 
-and/or confusion. These may be signs of a condition called sepsis – a severe and serious 
+and/or confusion. These may be signs of a condition called sepsis   a severe and serious 
 reaction to an infection. Sepsis is uncommon (may affect up to 1 in 100 people) and can be life-
 threatening and may result in death. </li>
 <li>Any difficulty breathing, or swelling of your face, mouth, tongue or throat. These could be signs 
@@ -151,7 +155,7 @@ a condition called Stevens-Johnson syndrome/toxic epidermal necrolysis. The freq
 condition is not known but it can be life-threatening. </li>
 </ul>
 <p>Other side effects: </p>
-<p>Very common side effects (may affect more than 1 in 10 people) are: </p>
+<p>Very common side effects (may affect more than 1 in 10 people) are:</p>
 <ul>
 <li>Decrease in the number of white blood cells or red blood cells </li>
 <li>Tiredness or weakness </li>
@@ -164,7 +168,7 @@ condition is not known but it can be life-threatening. </li>
 <li>Headache </li>
 <li>Hair loss </li>
 </ul>
-<p>Common side effects (may affect up to 1 in 10 people) are: </p>
+<p>Common side effects (may affect up to 1 in 10 people) are:</p>
 <ul>
 <li>Decrease in the number of platelets (which may result in bruising or taking longer to stop 
 bleeding) </li>
@@ -189,7 +193,7 @@ magnesium or calcium in the blood  </li>
 <li>Shingles </li>
 <li>Swelling of the skin and numbness of the hands and feet </li>
 </ul>
-<p>Uncommon side effects (may affect up to 1 in 100 people) are: </p>
+<p>Uncommon side effects (may affect up to 1 in 100 people) are:</p>
 <ul>
 <li>Blood clots </li>
 <li>Abnormal liver function tests (hepatoxicity) </li>
@@ -198,7 +202,7 @@ magnesium or calcium in the blood  </li>
 <li>Inflammation of the pancreas </li>
 <li>Mouth ulcers </li>
 </ul>
-<p>Rare side effects (may affect up to 1 in 1000 people) are: </p>
+<p>Rare side effects (may affect up to 1 in 1000 people) are:</p>
 <ul>
 <li>A serious disorder of blood clotting resulting in the widespread formation of blood clots and 
 internal bleeding. </li>
@@ -219,9 +223,9 @@ medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>If HALAVEN is diluted for infusion, the diluted solution should be used immediately. If not used 
-immediately the diluted solution should be stored at 2- 8°C for no longer than 72 hours. </p>
+immediately the diluted solution should be stored at 2- 8 C for no longer than 72 hours. </p>
 <p>If HALAVEN as an undiluted solution has been transferred into a syringe, it should be stored at 15-
-25°C and ambient lighting for no longer than 4 hours, or at 2- 8°C for no longer than 24 hours. </p>
+25 C and ambient lighting for no longer than 4 hours, or at 2- 8 C for no longer than 24 hours. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -243,30 +247,30 @@ hydroxide possibly present in very small amounts. </li>
 of solution. Each carton contains either 1 or 6 vials. </p>
 <p>Marketing Authorisation Holder 
 Eisai GmbH 
-Edmund-Rumpler-Straße 3<br />
+Edmund-Rumpler-Stra e 3<br />
 60549 Frankfurt am Main 
 Germany 
 e-mail: medinfo_de@eisai.net </p>
 <p>Manufacturer 
 Eisai GmbH 
-Edmund-Rumpler-Straße 3<br />
+Edmund-Rumpler-Stra e 3<br />
 60549 Frankfurt am Main 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eisai SA/NV 
-Tél/Tel: +32 (0)800 158 Lietuva 
+T l/Tel: +32 (0)800 158 Lietuva 
 Ewopharma AG 
-Tel: +370 5 248 73 България 
+Tel: +370 5 248 73 <br />
 Ewopharma AG 
-Teл: +359 2 962 12 Luxembourg/Luxemburg 
+Te : +359 2 962 12 Luxembourg/Luxemburg 
 Eisai SA/NV 
-Tél/Tel: + 32 (0)800 158 58<br />
+T l/Tel: + 32 (0)800 158 58<br />
 (Belgique/Belgien) 
-Česká republika 
-Eisai GesmbH organizační složka 
-Tel.: + 420 242 485 Magyarország 
+ esk  republika 
+Eisai GesmbH organiza n  slo ka 
+Tel.: + 420 242 485 Magyarorsz g 
 Ewopharma Hungary Ltd. 
 Tel: +36 1 200 46 Danmark 
 Eisai AB 
@@ -278,50 +282,48 @@ Tel: +356 21343Deutschland
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 Nederland 
 Eisai B.V. 
-Tél/Tel: + 31 (0) 900 575 3340<br />
+T l/Tel: + 31 (0) 900 575 3340<br />
 Eesti 
 Ewopharma AG 
 Tel. +370 5 248 73 Norge 
 Eisai AB 
-Tlf: + 46 (0) 8 501 01 (Sverige) 
-Ελλάδα 
-Eisai Ltd. 
-Τηλ: + 44 (0)208 600 1(Ηνωµένο Βασίλειο) 
-Österreich 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Eisai Ltd. 
+ : + 44 (0)208 600 1(   ) 
+ sterreich 
 Eisai GesmbH 
 Tel: + 43 (0) 1 535 1980-0 
-España 
-Eisai Farmacéutica, S.A. 
+Espa a 
+Eisai Farmac utica, S.A. 
 Tel: + (34) 91 455 94 Polska 
 Ewopharma AG Sp. z o.o. 
 Tel.: +48 (22) 620 11 France 
 Eisai SAS 
-Tél: + (33) 1 47 67 00 Portugal 
-Eisai Farmacêutica, Unipessoal Lda 
+T l: + (33) 1 47 67 00 Portugal 
+Eisai Farmac utica, Unipessoal Lda 
 Tel: + 351 214 875 Hrvatska 
 Ewopharma d.o.o. 
-Tel: +385 (0) 1 6646 România<br />
+Tel: +385 (0) 1 6646 Rom nia<br />
 Ewopharma AG<br />
 Tel: +40 21 260 13 Ireland 
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 (Germany) 
 Slovenija 
 Ewopharma d.o.o. 
-Tel: +386 590 848 Ísland 
+Tel: +386 590 848  sland 
 Eisai AB 
-Sími: + 46 (0)8 501 01 600<br />
-(Svíþjóð) 
-Slovenská republika 
-Eisai GesmbH organizační složka 
-Tel.: + 420 242 485 (Česká republika) 
+S mi: + 46 (0)8 501 01 600<br />
+(Sv j ) 
+Slovensk  republika 
+Eisai GesmbH organiza n  slo ka 
+Tel.: + 420 242 485 ( esk  republika) 
 Italia 
 Eisai S.r.l. 
 Tel: + 39 02 5181Suomi/Finland 
 Eisai AB 
-Puh/Tel: + 46 (0) 8 501 01 (Ruotsi) 
-Κύπρος 
-Eisai Ltd. 
-Τηλ: +44 (0)208 600 1(Ηνωµένο Βασίλειο) 
+Puh/Tel: + 46 (0) 8 501 01 (Ruotsi) </p>
+<p>Eisai Ltd. 
+ : +44 (0)208 600 1(   ) 
 Sverige 
 Eisai AB 
 Tel: + 46 (0) 8 501 01 Latvija 

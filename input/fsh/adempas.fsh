@@ -4,7 +4,7 @@ Instance: composition-en-a0ac9d79e71815d66e8cc1b00ebabcb0
 InstanceOf: CompositionUvEpi
 Title: "Composition for adempas Package Leaflet"
 Description:  "Composition for adempas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ through them and leading to high blood pressure in the vessels. Because the hear
 than normal, people with pulmonary hypertension feel tired, dizzy and short of breath.  </p>
 <p>By widening the narrowed arteries, Adempas improves the ability to carry out physical activity, i.e. to 
 walk further. </p>
-<p>Adempas is used in either of two types of pulmonary hypertension: </p>
+<p>Adempas is used in either of two types of pulmonary hypertension:</p>
 <ul>
 <li>Chronic thromboembolic pulmonary hypertension (CTEPH). 
 Adempas tablets are used to treat CTEPH in adult patients. In CTEPH, the blood vessels of the 
@@ -100,23 +100,25 @@ medicines used to treat PAH. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take adempas"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Adempas if you: 
--  take PDE5 inhibitors (e.g. sildenafil, tadalafil, vardenafil). These are medicines to treat high 
-blood pressure in the arteries of the lungs (PAH) or erectile dysfunction. 
-- have severe liver problems (severe hepatic impairment). 
-- are allergic to riociguat or any of the other ingredients of this medicine (listed in section 6). 
-- are pregnant. 
-- take nitrates or nitric oxide donors (such as amyl nitrite) in any form, medicines often used to 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Adempas if you:</p>
+<ul>
+<li>take PDE5 inhibitors (e.g. sildenafil, tadalafil, vardenafil). These are medicines to treat high 
+blood pressure in the arteries of the lungs (PAH) or erectile dysfunction. </li>
+<li>have severe liver problems (severe hepatic impairment). </li>
+<li>are allergic to riociguat or any of the other ingredients of this medicine (listed in section 6). </li>
+<li>are pregnant. </li>
+<li>take nitrates or nitric oxide donors (such as amyl nitrite) in any form, medicines often used to 
 treat high blood pressure, chest pain or heart disease. This also includes recreational drugs 
-called poppers. 
-- take other medicines, similar to Adempas (soluble guanylate cyclase stimulator, such as 
-vericiguat). Ask your doctor if you are not sure. 
-- have low blood pressure (systolic blood pressure: in children aged 6 to &lt; 12 years below 
-90 mmHg, in patients ≥ 12 years below 95 mmHg) before starting first treatment with this 
-medicine. 
-- have increased blood pressure in your lungs associated with scarring of the lungs, of unknown 
+called poppers. </li>
+<li>take other medicines, similar to Adempas (soluble guanylate cyclase stimulator, such as 
+vericiguat). Ask your doctor if you are not sure. </li>
+<li>have low blood pressure (systolic blood pressure: in children aged 6 to &lt; 12 years below 
+90 mmHg, in patients   12 years below 95 mmHg) before starting first treatment with this 
+medicine. </li>
+<li>have increased blood pressure in your lungs associated with scarring of the lungs, of unknown 
 cause (idiopathic pulmonary pneumonia). 
-If any of these apply to you, talk to your doctor first and do not take Adempas. </p>
+If any of these apply to you, talk to your doctor first and do not take Adempas. </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Adempas if you 
 - have recently had serious bleeding from the lung. 
@@ -142,40 +144,42 @@ the use of this medicine is not recommended.
 of riociguat in your blood. </p>
 <p>Children and adolescents 
 The use of Adempas tablets in children under 6 years and adolescents below 50 kg of weight should be 
-avoided. Efficacy and safety have not been established in the following pediatric populations: 
-- Children aged &lt; 6 years because of safety concerns. 
-- Children with PAH with too low blood pressure: 
-o 
-aged 6 to &lt; 12 years &lt; 90 mmHg at treatment initiation. 
-o 
-aged 12 to &lt; 18 years &lt;95 mmHg at treatment initiation. 
-- Children and adolescents with other forms of this disease, i.e. CTEPH, if aged &lt; 18 years old. </p>
+avoided. Efficacy and safety have not been established in the following pediatric populations:</p>
+<ul>
+<li>Children aged &lt; 6 years because of safety concerns. </li>
+<li>Children with PAH with too low blood pressure: * 
+aged 6 to &lt; 12 years &lt; 90 mmHg at treatment initiation. * 
+aged 12 to &lt; 18 years &lt;95 mmHg at treatment initiation. </li>
+<li>Children and adolescents with other forms of this disease, i.e. CTEPH, if aged &lt; 18 years old. </li>
+</ul>
 <p>Other medicines and Adempas 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines, in particular, medicines used for: 
-- high blood pressure or heart disease (such as nitrates and amyl nitrite in any form or other 
+medicines, in particular, medicines used for:</p>
+<ul>
+<li>high blood pressure or heart disease (such as nitrates and amyl nitrite in any form or other 
 soluble guanylate cyclase stimulator (such as vericiguat)). You must not take those medicines 
-together with Adempas.) 
-- high blood pressure in the lung vessels (the pulmonary arteries), as you must not take certain 
+together with Adempas.) </li>
+<li>high blood pressure in the lung vessels (the pulmonary arteries), as you must not take certain 
 medicines (sildenafil and tadalafil) together with Adempas. Other medicines for high blood 
 pressure in the lung vessels, such as bosentan and iloprost, can be used with Adempas, but you 
-should still tell your doctor. 
-- erectile dysfunction (such as sildenafil, tadalafil, vardenafil), as you must not take those 
-medicines together with Adempas. 
-- fungal infections (such as ketoconazole, posaconazole, itraconazole) or HIV infection (such as 
+should still tell your doctor. </li>
+<li>erectile dysfunction (such as sildenafil, tadalafil, vardenafil), as you must not take those 
+medicines together with Adempas. </li>
+<li>fungal infections (such as ketoconazole, posaconazole, itraconazole) or HIV infection (such as 
 abacavir, atazanavir, cobicistat, darunavir, dolutegravir, efavirenz, elvitegravir, 
 emtricitabine, rilpivirine or ritonavir). Alternative treatment options may be considered. If 
 you already take one of these medicines and start treatment with Adempas, your doctor will 
-monitor your health status and should consider a lower starting dose for Adempas. 
-- epilepsy (e.g. phenytoin, carbamazepine, phenobarbitone). 
-- depression (St. John’s Wort). 
-- preventing rejection of transplanted organs (ciclosporin). 
-- joint and muscular pain (niflumic acid). 
-- cancer (such as erlotinib, gefitinib). 
-- stomach disease or heartburn (antacids such as aluminium hydroxide/magnesium 
+monitor your health status and should consider a lower starting dose for Adempas. </li>
+<li>epilepsy (e.g. phenytoin, carbamazepine, phenobarbitone). </li>
+<li>depression (St. John s Wort). </li>
+<li>preventing rejection of transplanted organs (ciclosporin). </li>
+<li>joint and muscular pain (niflumic acid). </li>
+<li>cancer (such as erlotinib, gefitinib). </li>
+<li>stomach disease or heartburn (antacids such as aluminium hydroxide/magnesium 
 hydroxide). These medicines should be taken at least 2 hours before or 1 hour after taking 
-Adempas. 
-- nausea, vomiting (feeling or being sick) (such as granisetron). </p>
+Adempas. </li>
+<li>nausea, vomiting (feeling or being sick) (such as granisetron). </li>
+</ul>
 <p>Smoking 
 If you smoke, it is recommended that you stop, as smoking may reduce the effectiveness of these 
 tablets. Please tell your doctor if you smoke or stop smoke during treatment. A dose adjustment might 
@@ -200,8 +204,8 @@ using machines (see section 4). </p>
 If you have been told by a doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>Adempas contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium 
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adempas"
@@ -254,15 +258,12 @@ the progression of the disease. If you stop to take this medicine for 3 days or 
 doctor before restarting taking this medicine. </p>
 <p>If you are transitioning between sildenafil or tadalafil and Adempas 
 You must have a pause between the intake of the previous and the new medicines to avoid interaction: 
-Switching to Adempas 
-− 
-Take or give Adempas not earlier than 24 hours after you stop sildenafil. 
-− 
-Take or give Adempas not earlier than 48 hours after you stop tadalafil for adults and after 
+Switching to Adempas </p>
+<p>Take or give Adempas not earlier than 24 hours after you stop sildenafil. </p>
+<p>Take or give Adempas not earlier than 48 hours after you stop tadalafil for adults and after 
 72 hours for children. 
-Switching from Adempas 
-− 
-Stop taking or giving Adempas a minimum of 24 hours before you start using a PDE5 inhibitor 
+Switching from Adempas </p>
+<p>Stop taking or giving Adempas a minimum of 24 hours before you start using a PDE5 inhibitor 
 (e.g. sildenafil or tadalafil). </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -273,12 +274,14 @@ Stop taking or giving Adempas a minimum of 24 hours before you start using a PDE
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects although not everybody gets them. </p>
-<p>The most serious side effects in adults are: 
-- coughing up blood (haemoptysis) (common side effect, may affect up to 1 in 10 people), 
-- acute bleeding from the lungs (pulmonary haemorrhage) may result in coughing up blood, 
+<p>The most serious side effects in adults are:</p>
+<ul>
+<li>coughing up blood (haemoptysis) (common side effect, may affect up to 1 in 10 people), </li>
+<li>acute bleeding from the lungs (pulmonary haemorrhage) may result in coughing up blood, 
 cases with fatal outcomes were observed (uncommon side effect, may affect up to 
 1 in 100 people). 
-If this happens, contact your doctor immediately as you may need urgent medical treatment. </p>
+If this happens, contact your doctor immediately as you may need urgent medical treatment. </li>
+</ul>
 <p>Overall list of possible side effects: </p>
 <p>Very common: may affect more than 1 in 10 people 
 - headache 
@@ -302,9 +305,11 @@ If this happens, contact your doctor immediately as you may need urgent medical 
 - bloating (abdominal distension) </p>
 <p>Side effects in children 
 In general, the side effects observed in children aged 6 to 17 years treated with Adempas were 
-similar to those observed in adults. The most frequent side effects in children were: 
-- low blood pressure (hypotension)  (may affect more than 1 in 10 people), 
-- headache (may affect up to 1 in 10 people) </p>
+similar to those observed in adults. The most frequent side effects in children were:</p>
+<ul>
+<li>low blood pressure (hypotension)  (may affect more than 1 in 10 people), </li>
+<li>headache (may affect up to 1 in 10 people) </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -318,7 +323,7 @@ of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>This medicine does not require any special storage conditions. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -360,25 +365,27 @@ Adempas 2 mg and 2.5 mg tablets also contains iron oxide yellow (E172) and iron 
 <p>Adempas is a film-coated tablet: 
 Adempas 0.5 mg film-coated tablets 
 - 0.5 mg tablet: white, round, biconvex tablets of 6 mm, marked with the Bayer cross on one side 
-and 0.5 and an “R” on the other side. 
+and 0.5 and an  R  on the other side. 
 Adempas 1 mg film-coated tablets 
 - 1 mg tablet: pale yellow, round, biconvex tablets of 6 mm, marked with the Bayer cross on one 
-side and 1 and an “R” on the other side. 
+side and 1 and an  R  on the other side. 
 Adempas 1.5 mg film-coated tablets 
 - 1.5 mg tablet: yellow-orange, round, biconvex tablets of 6 mm, marked with the Bayer cross on 
-one side and 1.5 and an “R” on the other side. 
+one side and 1.5 and an  R  on the other side. 
 Adempas 2 mg film-coated tablets 
 - 2 mg tablet: pale orange, round, biconvex tablets of 6 mm, marked with the Bayer cross on one 
-side and 2 and an “R” on the other side. 
+side and 2 and an  R  on the other side. 
 Adempas 2.5 mg film-coated tablets 
 - 2.5 mg tablet: red-orange, round, biconvex tablets of 6 mm, marked with the Bayer cross on one 
-side and 2.5 and an “R” on the other side. </p>
-<p>They are available in packs of: 
-- 42 tablets: two transparent calendar blisters of 21 tablets each. 
-- 84 tablets: four transparent calendar blisters of 21 tablets each. 
-- 90 tablets: five transparent blisters of 18 tablets each. 
-- 294 tablets: fourteen transparent calendar blisters of 21 tablets each. 
-Not all pack sizes may be marketed. </p>
+side and 2.5 and an  R  on the other side. </p>
+<p>They are available in packs of:</p>
+<ul>
+<li>42 tablets: two transparent calendar blisters of 21 tablets each. </li>
+<li>84 tablets: four transparent calendar blisters of 21 tablets each. </li>
+<li>90 tablets: five transparent blisters of 18 tablets each. </li>
+<li>294 tablets: fourteen transparent calendar blisters of 21 tablets each. 
+Not all pack sizes may be marketed. </li>
+</ul>
 <p>Marketing Authorisation Holder 
 Bayer AG 
 51368 Leverkusen 
@@ -390,22 +397,20 @@ Kaiser-Wilhelm-Allee
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België / Belgique / Belgien 
+<p>Belgi  / Belgique / Belgien 
 MSD Belgium 
-Tél/Tel: +32(0)27766dpoc_belux@merck.com 
+T l/Tel: +32(0)27766dpoc_belux@merck.com 
 Lietuva 
 UAB Merck Sharp &amp; Dohme 
 Tel: + 370 5 2780msd_lietuva@merck.com </p>
-<p>България 
-Мерк Шарп и Доум България ЕООД 
-Teл.: + 359 2 819 37 info-msdbg@merck.com </p>
+<p>Te .: + 359 2 819 37 info-msdbg@merck.com </p>
 <p>Luxembourg / Luxemburg 
 MSD Belgium 
-Tél/Tel: +32(0)27766dpoc_belux@merck.com </p>
-<p>Česká republika 
+T l/Tel: +32(0)27766dpoc_belux@merck.com </p>
+<p>esk  republika 
 Merck Sharp &amp; Dohme s.r.o. 
 Tel.: +420 233 010 dpoc_czechslovak@merck.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 MSD Pharma Hungary Kft. 
 Tel.: + 36 1 888 5hungary_msd@merck.com </p>
 <p>Danmark 
@@ -424,33 +429,32 @@ Merck Sharp &amp; Dohme B.V.
 Tel: 0800 9999 000 (+ 31 23 5153153) 
 medicalinfo.nl@merck.com </p>
 <p>Eesti 
-Merck Sharp &amp; Dohme OÜ 
+Merck Sharp &amp; Dohme O<br />
 Tel: + 372 6144 msdeesti@merck.com </p>
 <p>Norge 
 MSD (Norge) AS 
 Tlf: + 47 32 20 73 msdnorge@msd.no </p>
-<p>Ελλάδα 
-MSD Α.Φ.Β.Ε.Ε 
-Τηλ: + 30 210 98 97 dpoc_greece@merck.com </p>
-<p>Österreich 
+<p>MSD  . . . .<br />
+ : + 30 210 98 97 dpoc_greece@merck.com </p>
+<p>sterreich 
 Merck Sharp &amp; Dohme Ges.m.b.H. 
 Tel: +43 (0) 1 26 dpoc_austria@merck.com </p>
-<p>España 
-Merck Sharp &amp; Dohme de España, S.A. 
+<p>Espa a 
+Merck Sharp &amp; Dohme de Espa a, S.A. 
 Tel: +34 91 321 06 msd_info@merck.com </p>
 <p>Polska 
 MSD Polska Sp.z o.o. 
 Tel.: +48 22 549 51 msdpolska@merck.com </p>
 <p>France 
 MSD France 
-Tél : + 33 (0) 1 80 46 40<br />
+T l : + 33 (0) 1 80 46 40<br />
 Portugal 
 Merck Sharp &amp; Dohme, Lda 
 Tel: + 351 214465inform_pt@merck.com </p>
 <p>Hrvatska 
 Merck Sharp &amp; Dohme d.o.o. 
 Tel: + 385 1 6611 croatia_info@merck.com </p>
-<p>România 
+<p>Rom nia 
 Merck Sharp &amp; Dohme Romania S.R.L. 
 Tel: + 40 21 529 29 msdromania@merck.com </p>
 <p>Ireland 
@@ -460,10 +464,10 @@ Tel: +353 (0)1 2998medinfo_ireland@merck.com </p>
 <p>Slovenija 
 Merck Sharp &amp; Dohme, inovativna zdravila d.o.o. 
 Tel: + 386 1 5204msd_slovenia@merck.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 Merck Sharp &amp; Dohme, s. r. o. 
 Tel: + 421 2 58282dpoc_czechslovak@merck.com </p>
 <p>Italia 
@@ -473,9 +477,8 @@ medicalinformation.it@msd.com </p>
 <p>Suomi/Finland 
 MSD Finland Oy 
 Puh/Tel: + 358 (0)9 804info@msd.fi </p>
-<p>Κύπρος 
-Merck Sharp &amp; Dohme Cyprus Limited 
-Τηλ: 800 00 673 (+357 22866700) 
+<p>Merck Sharp &amp; Dohme Cyprus Limited 
+ : 800 00 673 (+357 22866700) 
 cyprus_info@merck.com </p>
 <p>Sverige 
 Merck Sharp &amp; Dohme (Sweden) AB 

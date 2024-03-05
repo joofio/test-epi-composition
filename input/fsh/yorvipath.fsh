@@ -4,7 +4,7 @@ Instance: composition-en-734207024d8a0ccf4fa37b0614084df6
 InstanceOf: CompositionUvEpi
 Title: "Composition for yorvipath Package Leaflet"
 Description:  "Composition for yorvipath Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -94,22 +94,22 @@ respond to the parathyroid hormone produced by the body </p>
 Talk to your doctor, pharmacist or nurse before using Yorvipath.  </p>
 <p>If you are treated with Yorvipath, you may have side effects related to low or high levels of calcium in 
 your blood (see section 4 for more information). These effects are more likely to occur when starting 
-treatment or when changing the dose. Your doctor will check your calcium levels (see ‘Tests and 
-checks’ in section 3). You may be given medicines to treat or help prevent these side effects, or your 
+treatment or when changing the dose. Your doctor will check your calcium levels (see  Tests and 
+checks  in section 3). You may be given medicines to treat or help prevent these side effects, or your 
 doctor may change your dose. </p>
 <p>High levels of calcium in your blood can cause problems if you take medicines that contain cardiac 
-glycosides (such as digoxin or digitoxin) (see ‘Other medicines and Yorvipath'). Your doctor will 
-check your calcium (see ‘Tests and checks’ in section 3) and glycoside levels and monitor you for 
+glycosides (such as digoxin or digitoxin) (see  Other medicines and Yorvipath'). Your doctor will 
+check your calcium (see  Tests and checks  in section 3) and glycoside levels and monitor you for 
 signs and symptoms. </p>
 <p>If you take Yorvipath and have severe kidney or liver impairment, your doctor will check your 
-calcium more often (see ‘Tests and checks’ in section 3). </p>
+calcium more often (see  Tests and checks  in section 3). </p>
 <p>Tell your doctor if you are at higher risk of a type of bone cancer called osteosarcoma. This is 
 especially important: </p>
 <ul>
 <li>if you are having or have had radiation therapy to the skeleton </li>
 <li>if you have cancer of the bones or other cancer that has spread to your bones </li>
 <li>if you have a bone disease that increases your risk of developing osteosarcoma (for instance, if 
-you have Paget’s disease) </li>
+you have Paget s disease) </li>
 <li>if a blood test shows that you have unexplained increases in bone alkaline phosphatase </li>
 </ul>
 <p>If you are at risk for bone fractures, your doctor will check you for osteoporosis. </p>
@@ -121,7 +121,7 @@ Tell your doctor, pharmacist or nurse if you are using, have recently used, or m
 medicines. In particular, tell your doctor if you are using or have recently used any of the following: 
 * Heart medicines that contain cardiac glycosides (such as digoxin or digitoxin) 
 * Medicines used to treat osteoporosis, such as bisphosphonates, denosumab, or romosozumab 
-* Medicines that can affect calcium levels in your blood, such as diuretics (‘water tablets’, such as 
+* Medicines that can affect calcium levels in your blood, such as diuretics ( water tablets , such as 
 hydrochloride thiazide or furosemide), systemic corticosteroids (medicines used to treat 
 inflammation), and lithium (medicine used to treat mood disorders) </p>
 <p>Your doctor may need to adjust the dose of these medicines or the dose of Yorvipath. </p>
@@ -146,7 +146,7 @@ experience dizziness, fainting or light-headedness when standing up, do not driv
 until you feel better.  </p>
 <p>Yorvipath contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yorvipath"
@@ -256,12 +256,12 @@ limited to being sick (vomiting), dizziness, feeling thirsty, confusion, muscle 
 heartbeat. See section 4 for more information. </p>
 <p>If you forget to use Yorvipath 
 If you forget to inject a dose of Yorvipath, you can use the medicine as soon as you remember if less 
-than 12 hours have passed. For example, if you normally inject the medicine at 8 o’clock in the 
-morning, you can inject the missed dose before 8 o’clock in the evening. </p>
+than 12 hours have passed. For example, if you normally inject the medicine at 8 o clock in the 
+morning, you can inject the missed dose before 8 o clock in the evening. </p>
 <p>If you only remember to use your dose within 12 hours of your next planned dose, skip the missed 
 dose and continue injecting your next dose as you normally would. For example, if you remember at 
-10 o’clock in the evening that you forgot to inject Yorvipath, and your next dose is planned at 
-8 o’clock in the morning, you should not inject the missed dose. </p>
+10 o clock in the evening that you forgot to inject Yorvipath, and your next dose is planned at 
+8 o clock in the morning, you should not inject the missed dose. </p>
 <p>Never take a second dose to make up for a missed dose. </p>
 <p>If you stop using Yorvipath 
 Do not stop using Yorvipath without talking to your doctor. If you stop using Yorvipath the levels of 
@@ -279,25 +279,19 @@ section 4).  </p>
 <p>Some side effects could be considered serious 
 Common serious side effects (may affect up to 1 in 10 people): </p>
 <ul>
-<li>
-<p>High levels of calcium in the blood (hypercalcaemia) 
-­ 
-Symptoms may include, but are not limited to, being sick (vomiting), dizziness, feeling 
-thirsty, confusion, muscle weakness, and irregular heartbeat. 
-­ 
-Hypercalcaemia is more likely to occur within the first 3 months of starting treatment or 
-if you change your Yorvipath dose. </p>
-</li>
-<li>
-<p>Low levels of calcium in the blood (hypocalcaemia) 
-­ 
-Symptoms may include, but are not limited to, tingling in your fingertips, toes and lips 
-(paraesthesia), muscle spasms and cramps, oral numbness, and seizures. 
-­ 
-Hypocalcaemia is more likely to occur if you stop taking Yorvipath for a short time or 
-altogether, or if you change your Yorvipath dose. </p>
-</li>
+<li>High levels of calcium in the blood (hypercalcaemia) </li>
 </ul>
+<p>Symptoms may include, but are not limited to, being sick (vomiting), dizziness, feeling 
+thirsty, confusion, muscle weakness, and irregular heartbeat. </p>
+<p>Hypercalcaemia is more likely to occur within the first 3 months of starting treatment or 
+if you change your Yorvipath dose. </p>
+<ul>
+<li>Low levels of calcium in the blood (hypocalcaemia) </li>
+</ul>
+<p>Symptoms may include, but are not limited to, tingling in your fingertips, toes and lips 
+(paraesthesia), muscle spasms and cramps, oral numbness, and seizures. </p>
+<p>Hypocalcaemia is more likely to occur if you stop taking Yorvipath for a short time or 
+altogether, or if you change your Yorvipath dose. </p>
 <p>Tell your doctor immediately if you experience any of the above-mentioned symptoms that may be a 
 sign of these side effects. Your doctor will check your calcium levels. You may need to change your 
 Yorvipath dose or stop the injections for a short time. You may be given medicines to treat or help 
@@ -357,10 +351,10 @@ safety of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
 refers to the last day of that month. </p>
 <p>Before first use: 
-Store in a refrigerator (2 °C – 8 °C). Do not freeze.<br />
+Store in a refrigerator (2  C   8  C). Do not freeze.<br />
 Store in the original package with the pen cap on in order to protect from light.  </p>
 <p>After first use: 
-Store below 30 °C. 
+Store below 30  C. 
 Keep the pen cap on the pre-filled pen in order to protect from light. 
 Discard each pen 14 days after first use. </p>
 <p>Do not use this medicine if you notice that the solution is cloudy, coloured, or has visible particles in 
@@ -377,8 +371,41 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Yorvipath contains<br />
 * The active substance is palopegteriparatide. 
 * The excipients are succinic acid, mannitol, metacresol, sodium hydroxide (see section 2, 
-“Yorvipath contains sodium”), hydrochloric acid (for pH adjustment), and water for injections.  </p>
+ Yorvipath contains sodium ), hydrochloric acid (for pH adjustment), and water for injections.  </p>
 <p>Yorvipath is a solution for subcutaneous injections in a pre-filled pen available in three presentations: </p>
 <p>Yorvipath 168 micrograms/0.56 mL </p>
-<p>Each pre-filled pen contains palopegteriparatide equivalent to 168 micrograms of PTH(1-34) in </p>         </div>"""      
+<p>Each pre-filled pen contains palopegteriparatide equivalent to 168 micrograms of PTH(1-34) in 
+0.56 mL of solvent. The concentration based on PTH(1-34) is 0.3 mg/mL. </p>
+<p>Yorvipath 294 micrograms/0.98 mL </p>
+<p>Each pre-filled pen contains palopegteriparatide equivalent to 294 micrograms of PTH(1-34) in 
+0.98 mL of solvent. The concentration based on PTH(1-34) is 0.3 mg/mL. </p>
+<p>Yorvipath 420 micrograms/1.4 mL </p>
+<p>Each pre-filled pen contains palopegteriparatide equivalent to 420 micrograms of PTH(1-34) in 
+1.4 mL of solvent. The concentration based on PTH(1-34) is 0.3 mg/mL. </p>
+<p>What Yorvipath looks like and contents of the pack </p>
+<p>Yorvipath is a clear and colourless solution free of particles for injection in a pre-filled pen. The outer 
+carton contains two pre-filled pens and 30 disposable needles for 28 days of treatment (co-packaged in 
+two inner cartons). Each inner carton contains one pre-filled pen and 15 needles for 14 days of 
+treatment (14 needles for each day of treatment and 1 spare needle). </p>
+<p>Strength colours are indicated on the outer and inner cartons, on the label and push button of the 
+pre-filled pen, as follows: </p>
+<p>Colour 
+Presentation 
+Blue 
+Yorvipath 168 micrograms/0.56 mL 
+Orange 
+Yorvipath 294 micrograms/0.98 mL 
+Burgundy 
+Yorvipath 420 micrograms/1.4 mL </p>
+<p>Marketing Authorisation Holder 
+Ascendis Pharma Bone Diseases A/S 
+Tuborg Boulevard DK-2900 Hellerup 
+Denmark </p>
+<p>Manufacturer 
+Ascendis Pharma A/S 
+Tuborg Boulevard DK-2900 Hellerup 
+Denmark </p>
+<p>This leaflet was last revised in .  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

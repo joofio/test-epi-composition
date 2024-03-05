@@ -4,7 +4,7 @@ Instance: composition-en-07dfba600182595cfe2f36d89c5d2642
 InstanceOf: CompositionUvEpi
 Title: "Composition for elebrato Package Leaflet"
 Description:  "Composition for elebrato Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -92,9 +92,11 @@ you do not have a quick-acting inhaler contact your doctor. </p>         </div>"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take elebrato"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Elebrato Ellipta:<br />
-- if you are allergic to fluticasone furoate, umeclidinium, vilanterol or any of the other ingredients of 
-this medicine (listed in section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Elebrato Ellipta:</p>
+<ul>
+<li>if you are allergic to fluticasone furoate, umeclidinium, vilanterol or any of the other ingredients of 
+this medicine (listed in section 6). </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor before using Elebrato Ellipta 
 - if you have asthma (Do not use Elebrato Ellipta to treat asthma) 
@@ -121,7 +123,7 @@ red eyes during treatment with Elebrato Ellipta: </p>
 of narrow-angle glaucoma. </p>
 <p>Infection of the lung 
 Because you are using this medicine for COPD you may be at an increased risk of developing an infection of 
-the lungs known as pneumonia. See section 4 ‘Possible side effects’ for information on symptoms to look out 
+the lungs known as pneumonia. See section 4  Possible side effects  for information on symptoms to look out 
 for while you are using this medicine.  </p>
 <p>Tell your doctor as soon as possible if you develop any of these symptoms. </p>
 <p>Children and adolescents 
@@ -130,7 +132,7 @@ Do not give this medicine to children or adolescents below the age of 18 years. 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. If 
 you are not sure what your medicine contains talk to your doctor or pharmacist. </p>
 <p>Some medicines may affect how this medicine works, or make it more likely to have side effects. These 
-include: </p>
+include:</p>
 <ul>
 <li>medicines called beta blockers (such as propranolol), to treat high blood pressure or other heart 
 problems </li>
@@ -177,7 +179,7 @@ keep you free of symptoms throughout the day and night.  </p>
 <p>Elebrato Ellipta should not be used to relieve a sudden attack of breathlessness or wheezing. If you get 
 this sort of attack you must use a quick-acting reliever inhaler (such as salbutamol). </p>
 <p>How to use the inhaler 
-See ‘Step-by-step instructions’ at the end of this leaflet for full information.  </p>
+See  Step-by-step instructions  at the end of this leaflet for full information.  </p>
 <p>Elebrato Ellipta is for inhalation use. </p>
 <p>Once the tray is opened Elebrato Ellipta is ready to use.  </p>
 <p>If your symptoms do not improve<br />
@@ -217,7 +219,7 @@ immediately:
 If your breathing or wheezing gets worse straight after using this medicine, stop using it and get medical 
 help immediately. </p>
 <p>Pneumonia (infection of the lung) in COPD patients (common side effect) 
-Tell your doctor if you have any of the following while using Elebrato Ellipta – these could be symptoms of 
+Tell your doctor if you have any of the following while using Elebrato Ellipta   these could be symptoms of 
 a lung infection:<br />
 * fever or chills 
 * increased mucus production, change in mucus colour 
@@ -270,9 +272,9 @@ Appendix V.  By reporting side effects you can help provide more information on 
   * code.text = "5. How to store elebrato"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton, tray and inhaler after ‘EXP’. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton, tray and inhaler after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Keep the inhaler inside the sealed tray in order to protect from moisture and only remove immediately before 
 first use. Once the tray is opened, the inhaler can be used for up to 6 weeks, starting from the date of opening 
 the tray. Write the date the inhaler should be thrown away on the label in the space provided. The date should 
@@ -292,7 +294,7 @@ The active substances are fluticasone furoate, umeclidinium bromide and vilanter
 <p>Each single inhalation provides a delivered dose (the dose leaving the mouthpiece) of 92 micrograms of 
 fluticasone furoate, 65 micrograms umeclidinium bromide equivalent to 55 micrograms umeclidinium and 
 22 micrograms of vilanterol (as trifenatate). </p>
-<p>The other ingredients are lactose monohydrate (see section 2 under ‘Elebrato Ellipta contains lactose’) and 
+<p>The other ingredients are lactose monohydrate (see section 2 under  Elebrato Ellipta contains lactose ) and 
 magnesium stearate. </p>
 <p>What Elebrato Ellipta looks like and contents of the pack 
 Elebrato Ellipta is an inhalation powder, pre-dispensed. 
@@ -315,24 +317,25 @@ Zone Industrielle No.2
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52<br />
+T l/Tel: + 32 (0) 10 85 52<br />
 Lietuva 
-UAB “BERLIN-CHEMIE MENARINI BALTIC” 
+UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: + 370 52 691 lt@berlin-chemie.com </p>
-<p>България 
-“Берлин-Хеми/А. Менарини 
-България” EООД<br />
-Teл.: + 359 2 454 0bcsofia@berlin-chemie.com </p>
+<ul>
+<li>/ . <br />
+  E <br />
+Te .: + 359 2 454 0bcsofia@berlin-chemie.com </li>
+</ul>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: + 36 23501bc-hu@berlin-chemie.com </p>
 <p>Danmark 
@@ -347,18 +350,17 @@ Tel: +49 (0) 30 67Nederland
 GlaxoSmithKline BV 
 Tel: + 31 (0)33 2081 </p>
 <p>Eesti 
-OÜ Berlin-Chemie Menarini Eesti<br />
+O  Berlin-Chemie Menarini Eesti<br />
 Tel: + 372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-Guidotti Hellas A.E. 
-Τηλ: + 30 210 8316111- Österreich 
+Tlf: + 47 22 70 20  </p>
+<p>Guidotti Hellas A.E. 
+ : + 30 210 8316111-  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 FAES FARMA, S.A. 
 Tel: + 34 900 460 aweber@faes.es 
 Polska 
@@ -366,14 +368,14 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 </p>
 <p>France 
 Menarini France 
-Tél: + 33 (0)1 45 60 77  </p>
+T l: + 33 (0)1 45 60 77  </p>
 <p>Portugal 
 BIAL, Portela &amp; Ca. SA. 
 Tel: + 351 22 986 61 info@bial.com </p>
 <p>Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
 Tel: + 385 1 4821 office-croatia@berlin-chemie.com </p>
-<p>România 
+<p>Rom nia 
 GlaxoSmithKline Trading Services Limited<br />
 Tel: + 40 800672 
 Ireland 
@@ -383,10 +385,10 @@ Slovenija
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: + 386 (0)1 300 2slovenia@berlin-chemie.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími:  +354 535 7 
-Slovenská republika 
+S mi:  +354 535 7 
+Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
@@ -394,10 +396,9 @@ Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
 A. Menarini Industrie Farmaceutiche Riunite s.r.l. 
 Tel: +39 (0)55 56Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-GlaxoSmithKline Trading Services Limited 
-Τηλ: + 357 80070 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline Trading Services Limited 
+ : + 357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

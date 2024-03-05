@@ -4,7 +4,7 @@ Instance: composition-en-28443e1a5133f6583423ca208758fe45
 InstanceOf: CompositionUvEpi
 Title: "Composition for gliolan Package Leaflet"
 Description:  "Composition for gliolan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -106,7 +106,7 @@ recommended in this age group. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, particularly medicines that may cause skin problems when the skin comes under strong 
 light (for example some types of medicines called antibiotics), but also medicines obtained without 
-prescription (for example hypericin or Saint John’s wort extracts). </p>
+prescription (for example hypericin or Saint John s wort extracts). </p>
 <p>One case of severe sunburn lasting for 5 days has been reported in a patient after having taken this 
 medicine and a hypericin extract. You should not take any such products up to 2 weeks after you have 
 taken Gliolan. </p>
@@ -135,12 +135,12 @@ kilogram body weight. The pharmacist or nurse will calculate the exact dose you 
 of the solution (in ml) you have to drink. You have to drink the prepared solution 2-4 hours before 
 anaesthesia. </p>
 <p>If the surgery is postponed by more than 12 hours, surgery should be re-scheduled for the next day or 
-later. Another dose of this medicine can be taken 2 – 4 hours before anaesthesia. </p>
+later. Another dose of this medicine can be taken 2   4 hours before anaesthesia. </p>
 <p>If you take more Gliolan than you should 
 If you have taken more Gliolan than you should, your doctor will decide on any necessary measures to 
 avoid any problems, including sufficient protection from strong light (for example direct sunlight). </p>
 <p>If you forget to take Gliolan 
-This medicine is given once only at the day of surgery, 2 – 4 hours before start of anaesthesia. If you 
+This medicine is given once only at the day of surgery, 2   4 hours before start of anaesthesia. If you 
 have forgotten to take this medicine during this time period, it is not advisable to take it just before 
 start of anaesthesia. In this case, anaesthesia and surgery must be postponed for at least 2 hours, if 
 possible. </p>
@@ -157,7 +157,7 @@ possible. </p>
 disorders that affect the nervous system (neurological disorders) like partial paralysis of one side of 
 the body (hemiparesis) and blood clots that may obstruct blood vessels (thromboembolism). Further 
 frequently observed side effects are being sick (vomiting), feeling sick (nausea) and slight increase of 
-some enzymes (transaminases, γ-GT, amylase) or bilirubin (a bile pigment produced in the liver by 
+some enzymes (transaminases,  -GT, amylase) or bilirubin (a bile pigment produced in the liver by 
 breakdown of red blood pigment) in the blood.  </p>
 <p>Tell your doctor immediately if you experience any complaints. </p>
 <p>Side effects are divided into the following two categories: 
@@ -170,7 +170,7 @@ looking like sunburn). </p>
 <p>In combination with anaesthesia and tumour resection further side effects may occur:<br />
 Very common side effects (may affect more than 1 in 10 people): 
 Mild alterations of blood cell counts (red and white cells, platelets), and slight increase of some 
-enzymes (transaminases, γ-GT, amylase) or bilirubin (a bile pigment produced in the liver by 
+enzymes (transaminases,  -GT, amylase) or bilirubin (a bile pigment produced in the liver by 
 breakdown of red blood pigment) in the blood. These changes peak between 7 and 14 days after 
 surgery. The changes will completely resolve within a few weeks. Usually you will not 
 experience any symptoms when these changes occur. </p>
@@ -200,7 +200,7 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
 refers to the last day of that month. </p>
 <p>Keep the bottle in the outer carton in order to protect from light. </p>
-<p>The reconstituted solution is physically-chemically stable for 24 hours at 25 °C. </p>
+<p>The reconstituted solution is physically-chemically stable for 24 hours at 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -230,81 +230,81 @@ Pulverwiese 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien, Nederland 
+<p>Belgi /Belgique/Belgien, Nederland 
 Pharmanovia Benelux B.V. 
-Burgemeester Guljélaan 2<br />
+Burgemeester Gulj laan 2<br />
 NL-4837 CZ Breda 
 Nederland/Pays-Bas/Niederlande 
-Tel/Tél: + 31 (0)76 5600info.benelux@pharmanovia.com </p>
+Tel/T l: + 31 (0)76 5600info.benelux@pharmanovia.com </p>
 <p>Italia 
 medac pharma s.r.l. a socio unico 
 Via Viggiano I-00178 Roma 
 Tel: + 39 06 51 59 info@medacpharma.it </p>
-<p>България, Deutschland, Eesti, Ελλάδα, 
-Hrvatska, Ísland, Κύπρος, Latvija, Lietuva, 
-Luxembourg/Luxemburg, Magyarország, 
-Malta, Österreich, România, Slovenija/ 
+<p>, Deutschland, Eesti,  , 
+Hrvatska,  sland,  , Latvija, Lietuva, 
+Luxembourg/Luxemburg, Magyarorsz g, 
+Malta,  sterreich, Rom nia, Slovenija/ 
 United Kingdom (Northern Ireland) 
 medac GmbH 
-Theaterstraße 6<br />
+Theaterstra e 6<br />
 D-22880 Wedel 
-Германия/Deutschland/Saksamaa/Γερμανία/ 
-Njemačka/Þýskaland/Vācija/Vokietija/ 
-Allemagne/Németország/Il-Ġermanja/Germania/ 
-Nemčija/Germany 
-Teл./Tel/Sími/Τηλ/Tél: + 49 (0)4103 8006-0 
+ /Deutschland/Saksamaa/ / 
+Njema ka/ skaland/V cija/Vokietija/ 
+Allemagne/N metorsz g/Il- ermanja/Germania/ 
+Nem ija/Germany 
+Te ./Tel/S mi/ /T l: + 49 (0)4103 8006-0 
 gliolan@medac.de </p>
 <p>Norge 
-medac Gesellschaft für klinische 
-Spezialpräparate G.m.b.H, Tyskland, filial 
+medac Gesellschaft f r klinische 
+Spezialpr parate G.m.b.H, Tyskland, filial 
 Postboks N-1312 Slependen 
 Tlf: +47 90 63 81<br />
 Polska 
 medac GmbH Sp. z o.o. 
-Oddział w Polsce 
-ul Postępu 21 B 
+Oddzia  w Polsce 
+ul Post pu 21 B 
 PL-02-676 Warszawa 
 Tel.: + 48 22 430 00 kontakt@medac.pl </p>
-<p>Česká republika 
-medac GmbH organizační složka 
-Horní CZ 639 00 Brno 
+<p>esk  republika 
+medac GmbH organiza n  slo ka 
+Horn  CZ 639 00 Brno 
 Tel: + 420 543 233 info@medac.eu </p>
 <p>Portugal 
 medac GmbH 
 sucursal em Portugal 
-Alameda António Sérgio nº22 6ºC 
-P-1495-132 Algés 
+Alameda Ant nio S rgio n 22 6 C 
+P-1495-132 Alg s 
 Tel: + 351 21 410 75 83/4 
 geral@medac.de </p>
 <p>Danmark 
-medac Gesellschaft für klinische 
-Spezialpräparate G.m.b.H, Tyskland, filial 
-Bagerstræde 28, 1. DK-4640 Faxe 
+medac Gesellschaft f r klinische 
+Spezialpr parate G.m.b.H, Tyskland, filial 
+Bagerstr de 28, 1. DK-4640 Faxe 
 Tlf: +46 (0)44 7850<br />
-Slovenská republika 
+Slovensk  republika 
 medac GmbH 
-organizačná zložka Slovensko 
-Staromestská 3 
+organiza n  zlo ka Slovensko 
+Staromestsk  3 
 SK-811 03 Bratislava 
 Tel: + 420 543 233 info@medac.eu </p>
-<p>España 
+<p>Espa a 
 Laboratorios Gebro Pharma, S.A. 
 Tel: + 34 93 205 86 Suomi/Finland 
-medac Gesellschaft für klinische 
-Spezialpräparate G.m.b.H, Tyskland, filial 
+medac Gesellschaft f r klinische 
+Spezialpr parate G.m.b.H, Tyskland, filial 
 Spektri Business Park 
-Metsänneidonkuja 4 
+Mets nneidonkuja 4 
 FIN-02130 Espoo 
 Puh/Tel: + 358 (0)10 420 4 
 France 
 medac SAS 
 1 rue Croix Barret 
 F-69007 Lyon 
-Tél: + 33 (0)4 37 66 14 infomed@medac.fr </p>
+T l: + 33 (0)4 37 66 14 infomed@medac.fr </p>
 <p>Sverige 
-medac Gesellschaft für klinische 
-Spezialpräparate G.m.b.H, Tyskland, filial 
-Hyllie Boulevard S-215 32 Malmö 
+medac Gesellschaft f r klinische 
+Spezialpr parate G.m.b.H, Tyskland, filial 
+Hyllie Boulevard S-215 32 Malm<br />
 Tel: +46 (0)44 7850<br />
 Ireland 
 Fannin Ltd 

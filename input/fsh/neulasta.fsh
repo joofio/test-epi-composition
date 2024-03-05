@@ -4,7 +4,7 @@ Instance: composition-en-a292590defa3c39010b96fff24e30c08
 InstanceOf: CompositionUvEpi
 Title: "Composition for neulasta Package Leaflet"
 Description:  "Composition for neulasta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -107,13 +107,17 @@ latex and may cause severe allergic reactions. </p>
 <p>if you experience a cough, fever and difficulty breathing. This can be a sign of Acute 
 Respiratory Distress Syndrome (ARDS). </p>
 </li>
-<li>if you have any of the following or combination of the following side effects: </li>
-<li>swelling or puffiness, which may be associated with passing water less frequently, 
+<li>
+<p>if you have any of the following or combination of the following side effects:</p>
+</li>
+<li>
+<p>swelling or puffiness, which may be associated with passing water less frequently, 
 difficulty breathing, abdominal swelling and feeling of fullness, and a general feeling of 
 tiredness. 
-These could be symptoms of a condition called “Capillary Leak Syndrome” which causes blood 
+These could be symptoms of a condition called  Capillary Leak Syndrome  which causes blood 
 to leak from the small blood vessels into your body. See section 4. * if you get left upper abdominal pain or pain at the tip of your shoulder. This may be a sign of a 
-problem with your spleen (splenomegaly). </li>
+problem with your spleen (splenomegaly). </p>
+</li>
 <li>if you have recently had a serious lung infection (pneumonia), fluid in the lungs (pulmonary 
 oedema), inflammation of the lungs (interstitial lung disease) or an abnormal chest x-ray (lung 
 infiltration). </li>
@@ -137,14 +141,20 @@ inflammatory markers. Tell your doctor if you experience those symptoms. </li>
 kidneys (glomerulonephritis). </p>
 <p>Severe skin reactions (Stevens-Johnson syndrome) have been reported with the use of Neulasta. Stop 
 using Neulasta and seek medical attention immediately if you notice any of the symptoms described in 
-section 4.<br />
-You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take neulasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take neulasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
 are likely to develop cancers of the blood, you should not use Neulasta, unless instructed by your 
 doctor. </p>
 <p>Loss of response to pegfilgrastim </p>
 <p>If you experience a loss of response or failure to maintain a response with pegfilgrastim treatment, 
 your doctor will investigate the reasons why including whether you have developed antibodies which 
-neutralise pegfilgrastim’s activity. </p>
+neutralise pegfilgrastim s activity. </p>
 <p>Other medicines and Neulasta </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
@@ -160,12 +170,13 @@ pregnant women. It is important to tell your doctor if you:
 <p>Neulasta contains sorbitol (E420) and sodium </p>
 <p>This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL. 
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take neulasta"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take neulasta"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neulasta is for use in adults aged 18 and over. </p>
 <p>Always take Neulasta exactly as your doctor has told you. You should check with your doctor or 
@@ -184,13 +195,12 @@ this leaflet. </p>
 <p>If you forget to inject Neulasta </p>
 <p>If you are injecting yourself and have forgotten your dose of Neulasta, you should contact your doctor 
 to discuss when you should inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store neulasta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store neulasta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Please tell your doctor immediately if you have any of the following or combination of the following 
@@ -199,7 +209,7 @@ side effects:
 breathing, abdominal swelling and feeling of fullness, and a general feeling of tiredness. These 
 symptoms generally develop in a rapid fashion. </p>
 <p>These could be symptoms of an uncommon (may affect up to 1 in 100 people) condition called 
-“Capillary Leak Syndrome” which causes blood to leak from the small blood vessels into your body 
+ Capillary Leak Syndrome  which causes blood to leak from the small blood vessels into your body 
 and needs urgent medical attention. </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
 * bone pain. Your doctor will tell you what you can take to ease the bone pain. 
@@ -220,7 +230,7 @@ breathing, swelling of the face).
 doctor immediately if you experience pain in the upper left side of the abdomen or left shoulder 
 pain since this may relate to a problem with your spleen. 
 * breathing problems. If you have a cough, fever and difficulty breathing please tell your doctor. 
-* Sweet’s syndrome (plum-coloured, raised, painful lesions on the limbs and sometimes the face 
+* Sweet s syndrome (plum-coloured, raised, painful lesions on the limbs and sometimes the face 
 and neck with fever) has occurred but other factors may play a role. 
 * cutaneous vasculitis (inflammation of the blood vessels in the skin). 
 * damage to the tiny filters inside your kidneys (glomerulonephritis). 
@@ -233,31 +243,7 @@ see section 2. * bleeding from the lung (pulmonary haemorrhage).
 * Stevens-Johnson syndrome, which can appear as reddish target-like or circular patches often 
 with central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes 
 and can be preceded by fever and flu-like symptoms. Stop using Neulasta if you develop these 
-symptoms and contact your doctor or seek medical attention immediately. See also section 2.<br />
-Reporting of side effects </p>
-<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. You can also report side effects directly via the national reporting 
-system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store neulasta"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store neulasta"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and on the syringe label 
-after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). </p>
-<p>You may take Neulasta out of the refrigerator and keep it at room temperature (not above 30°C) for no 
-longer than 3 days. Once a syringe has been removed from the refrigerator and has reached room 
-temperature (not above 30°C) it must either be used within 3 days or disposed of. </p>
-<p>Do not freeze. Neulasta may be used if it is accidentally frozen for a single period of less than 
-24 hours. </p>
-<p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
-<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+symptoms and contact your doctor or seek medical attention immediately. See also section </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -265,8 +251,9 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Neulasta contains </p>
-<ul>
-<li>The active substance is pegfilgrastim. Each pre-filled syringe contains 6 mg of pegfilgrastim in </li>
-</ul>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
 

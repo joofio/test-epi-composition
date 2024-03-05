@@ -4,7 +4,7 @@ Instance: composition-en-a3592e2026cf41a77adf37691a552586
 InstanceOf: CompositionUvEpi
 Title: "Composition for xgeva Package Leaflet"
 Description:  "Composition for xgeva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -170,7 +170,7 @@ and the benefit of XGEVA to the mother. </p>
 <p>This medicine contains 78 mg sorbitol in each vial. </p>
 <p>XGEVA contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 120 mg dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xgeva"
@@ -241,12 +241,12 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
+<p>Store in a refrigerator (2 C   8 C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
-<p>The vial may be left outside the refrigerator to reach room temperature (up to 25°C) before injection. 
+<p>The vial may be left outside the refrigerator to reach room temperature (up to 25 C) before injection. 
 This will make the injection more comfortable. Once your vial has been left to reach room temperature 
-(up to 25°C), it must be used within 30 days. </p>
+(up to 25 C), it must be used within 30 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -291,20 +291,18 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752Lietuva 
+Tel/T l: +32 (0)2 7752Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+Tel: +370 5 219 7 </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
+Tel/T l: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
-Tel: +420 221 773 Magyarország 
+Tel: +420 221 773 Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44<br />
 Danmark 
@@ -324,38 +322,37 @@ Eesti
 Amgen Switzerland AG Vilniaus filialas 
 Tel: +372 586 09Norge 
 Amgen AB 
-Tlf: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ.: +30 210 3447 
-Österreich 
+Tlf: +47 23308 </p>
+<p>Amgen      . . . 
+ .: +30 210 3447 
+ sterreich 
 Amgen GmbH 
 Tel: +43 (0)1 50<br />
-España 
+Espa a 
 Amgen S.A. 
 Tel: +34 93 600 18<br />
 Polska 
 Amgen Biotechnologia Sp. z o.o. 
 Tel.: +48 22 581 3France 
 Amgen S.A.S. 
-Tél: +33 (0)9 69 363 363<br />
+T l: +33 (0)9 69 363 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 4220 
 Hrvatska 
 Amgen d.o.o. 
-Tel: +385 (0)1 562 57 România 
-Amgen România SRL 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
 Tel: +353 1 8527 
 Slovenija 
 AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1Ísland 
+Tel: +386 (0)1 585 1 sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114<br />
 Italia 
@@ -364,13 +361,13 @@ Tel: +39 02 6241Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ.: +357 22741 Sverige 
+ .: +357 22741 Sverige 
 Amgen AB 
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 

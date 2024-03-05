@@ -4,7 +4,7 @@ Instance: composition-en-eab8b33e25257b37415a6df6ca70ca04
 InstanceOf: CompositionUvEpi
 Title: "Composition for kisqali Package Leaflet"
 Description:  "Composition for kisqali Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,7 +93,7 @@ ask your doctor, pharmacist or nurse. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take kisqali"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all of your doctor’s instructions carefully. They may differ from the general information in this 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all of your doctor s instructions carefully. They may differ from the general information in this 
 leaflet. </p>
 <p>Do not take Kisqali 
 - if you are allergic to ribociclib, peanut, soya or any of the other ingredients of this medicine 
@@ -140,7 +140,7 @@ voriconazole or posaconazole.
 nelfinavir, telaprevir and efavirenz. 
 * Some medicines used to treat seizures or fits (anti-epileptics) such as carbamazepine and 
 phenytoin. 
-* St. John’s Wort (also known as Hypericum perforatum) - a herbal product used to treat 
+* St. John s Wort (also known as Hypericum perforatum) - a herbal product used to treat 
 depression and other conditions. 
 * Some medicines used to treat heart rhythm problems or high blood pressure such as 
 amiodarone, disopyramide, procainamide, quinidine, sotalol and verapamil. 
@@ -219,10 +219,10 @@ doctor will tell you exactly how many tablets of Kisqali to take; in certain sit
 of liver or kidney problems) your doctor may instruct you to take a lower dose of Kisqali, e.g. 
 400 mg (2 tablets of 200 mg) once daily or 200 mg (1 tablet of 200 mg) once daily. 
 * A treatment cycle lasts 28 days. Take Kisqali once a day only on days 1 to 21 of a 28-day cycle. 
-The outer carton of the Kisqali pack includes a “calendar tool” which allows you to track your 
+The outer carton of the Kisqali pack includes a  calendar tool  which allows you to track your 
 daily Kisqali dose by marking off a circle for every tablet you take over the 28-day cycle. 
 You should not take Kisqali on days 22 to 28 of the cycle. </p>
-<p>It is very important to follow your doctor’s instructions. If you get certain side effects your doctor may 
+<p>It is very important to follow your doctor s instructions. If you get certain side effects your doctor may 
 ask you to take a lower dose, interrupt your treatment with Kisqali, or stop it permanently. </p>
 <p>When to take Kisqali 
 Take Kisqali once daily at the same time each day, preferably in the morning. This will help you to 
@@ -272,8 +272,8 @@ Very common (may affect more than 1 in 10 people).
 liver function tests). Very common (may affect more than 1 in 10 people). 
 * Spontaneous bleeding or bruising (signs of a low level of blood platelets). Common (may affect 
 up to 1 in 10 people). 
-* Sore throat or mouth ulcers with a single episode of fever of at least 38.3°C or fever above 
-38°C for more than one hour and/or with infection (febrile neutropenia). Common (may affect 
+* Sore throat or mouth ulcers with a single episode of fever of at least 38.3 C or fever above 
+38 C for more than one hour and/or with infection (febrile neutropenia). Common (may affect 
 up to 1 in 10 people). 
 * Tiredness, itchy yellow skin or yellowing of the whites of your eyes, nausea or vomiting, loss of 
 appetite, pain in the upper right side of the belly (abdomen), dark or brown urine, bleeding or 
@@ -373,12 +373,12 @@ equivalent to 200 mg ribociclib.
 Tablet core: microcrystalline cellulose; crospovidone type A; low-substituted 
 hydroxypropylcellulose; magnesium stearate; colloidal anhydrous silica. 
 Coating material: iron oxide black (E172); iron oxide red (E172); soya lecithin (E322) (see 
-“Kisqali contains soya lecithin” in section 2); polyvinyl alcohol (partially hydrolysed); talc; 
+ Kisqali contains soya lecithin  in section 2); polyvinyl alcohol (partially hydrolysed); talc; 
 titanium dioxide (E171); xanthan gum. </p>
 <p>What Kisqali looks like and contents of the pack 
 Kisqali is supplied as film-coated tablets in aluminum blisters. </p>
-<p>The film-coated tablets are light greyish violet in colour, unscored, round, debossed with “RIC” on 
-one side and “NVR” on the other side. </p>
+<p>The film-coated tablets are light greyish violet in colour, unscored, round, debossed with  RIC  on 
+one side and  NVR  on the other side. </p>
 <p>The following pack sizes are available: Packs containing 21, 42 or 63 film-coated tablets and 
 multipacks containing 63 (3 packs of 21), 126 (3 packs of 42) or 189 (3 packs of 63) film-coated 
 tablets. 
@@ -400,30 +400,29 @@ Novartis Pharma GmbH
 Roonstrasse 90429 Nuremberg 
 Germany </p>
 <p>Lek Pharmaceuticals d.d. 
-Verovškova Ulica 1526 Ljubljana 
+Verov kova Ulica 1526 Ljubljana 
 Slovenia </p>
 <p>Novartis Pharmaceutical Manufacturing LLC 
-Verovškova Ulica 1000 Ljubljana 
+Verov kova Ulica 1000 Ljubljana 
 Slovenia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -439,35 +438,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -475,10 +474,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

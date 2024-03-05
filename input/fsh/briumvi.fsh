@@ -4,7 +4,7 @@ Instance: composition-en-33fea74e578b9f917fc6255f1897937f
 InstanceOf: CompositionUvEpi
 Title: "Composition for briumvi Package Leaflet"
 Description:  "Composition for briumvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ antibody. Antibodies work by attaching to specific targets in your body. </p>
 flare-ups (relapses) followed by periods with milder or no symptoms. </p>
 <p>What is Multiple Sclerosis </p>
 <p>Multiple Sclerosis (MS) affects the central nervous system, especially the nerves in the brain and 
-spinal cord. In MS, white blood cells called B cells that are part of the immune system (the body’s 
+spinal cord. In MS, white blood cells called B cells that are part of the immune system (the body s 
 defence system) work incorrectly and attack a protective layer (called myelin sheath) around nerve 
 cells, causing inflammation and damage. Breakdown of the myelin sheath stops the nerves from 
 working properly and causes symptoms of MS. Symptoms of MS depend on which part of the central 
@@ -128,44 +128,27 @@ treatment. </li>
 <ul>
 <li>The most common side effect of Briumvi treatment are infusion-related reactions, types of 
 allergic reactions that develop during or shortly after a medicine is given. These can be serious.  </li>
-<li>
-<p>Symptoms of an infusion-related reaction may include: 
-− 
-itchy skin 
-− 
-hives 
-− 
-redness of the face or skin 
-− 
-throat irritation 
-− 
-trouble breathing 
-− 
-swelling of tongue or throat 
-− 
-wheezing 
-− 
-chills 
-− 
-fever 
-− 
-headache 
-− 
-dizziness 
-− 
-feeling faint 
-− 
-nausea 
-− 
-abdominal (belly) pain 
-− 
-rapid heartbeat. </p>
-</li>
-<li>
-<p>Tell your doctor or nurse straight away if you have or think you may have any 
+<li>Symptoms of an infusion-related reaction may include: </li>
+</ul>
+<p>itchy skin </p>
+<p>hives </p>
+<p>redness of the face or skin </p>
+<p>throat irritation </p>
+<p>trouble breathing </p>
+<p>swelling of tongue or throat </p>
+<p>wheezing </p>
+<p>chills </p>
+<p>fever </p>
+<p>headache </p>
+<p>dizziness </p>
+<p>feeling faint </p>
+<p>nausea </p>
+<p>abdominal (belly) pain </p>
+<p>rapid heartbeat. </p>
+<ul>
+<li>Tell your doctor or nurse straight away if you have or think you may have any 
 infusion-related reaction. Infusion-related reactions can happen during the infusion or up to 
-24 hours after the infusion. </p>
-</li>
+24 hours after the infusion. </li>
 <li>To reduce the risk of infusion-related reaction, your doctor will give you other medicines before 
 each infusion of Briumvi (see section 3) and you will be closely monitored during the infusion. </li>
 <li>If you get an infusion reaction, your doctor may need to stop or slow down the rate of infusion. </li>
@@ -177,22 +160,19 @@ Your doctor will wait until the infection is resolved before giving you Briumvi.
 <li>You might get infections more easily with Briumvi. This is because the immune cells that 
 Briumvi targets also help to fight infection.  </li>
 <li>Tell your doctor or nurse straight away if you have an infection or any of the following 
-signs of infection during or after Briumvi treatment: 
-− 
-fever or chills 
-− 
-cough that does not go away 
-− 
-herpes (such as cold sore, shingles or genital sores) </li>
-<li>Tell your doctor or nurse straight away if you think your MS is getting worse or if you 
-notice any new symptoms. This is because of a very rare and life-threatening brain infection, 
-called ‘progressive multifocal leukoencephalopathy’ (PML), which can cause symptoms similar 
-to those of MS. PML can occur in patients taking medicines like Briumvi, and other medicines 
-used for treating MS. </li>
-<li>Tell your partner or carer about your Briumvi treatment. They might notice symptoms of 
-PML that you do not, such as memory lapses, trouble thinking, difficulty walking, sight loss, 
-changes in the way you talk, which your doctor may need to investigate. </li>
+signs of infection during or after Briumvi treatment: </li>
 </ul>
+<p>fever or chills </p>
+<p>cough that does not go away </p>
+<p>herpes (such as cold sore, shingles or genital sores) 
+* Tell your doctor or nurse straight away if you think your MS is getting worse or if you 
+notice any new symptoms. This is because of a very rare and life-threatening brain infection, 
+called  progressive multifocal leukoencephalopathy  (PML), which can cause symptoms similar 
+to those of MS. PML can occur in patients taking medicines like Briumvi, and other medicines 
+used for treating MS. 
+* Tell your partner or carer about your Briumvi treatment. They might notice symptoms of 
+PML that you do not, such as memory lapses, trouble thinking, difficulty walking, sight loss, 
+changes in the way you talk, which your doctor may need to investigate. </p>
 <p>Vaccinations </p>
 <ul>
 <li>Tell your doctor if you have recently been given any vaccine or might be given a vaccine in the 
@@ -215,7 +195,7 @@ medicines. In particular tell your doctor:<br />
 <em> if you are taking, have recently taken or might take medicines that affect your immune system, 
 such as chemotherapy, immunosuppressants (except corticosteroids) or other medicines used to 
 treat MS. This is because these may have an added effect on the immune system.<br />
-</em> if you plan to have any vaccinations (see “Warnings and Precautions” above). </p>
+</em> if you plan to have any vaccinations (see  Warnings and Precautions  above). </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor before you are given 
 Briumvi. </p>
 <p>Pregnancy and breast-feeding </p>
@@ -226,7 +206,7 @@ affect your baby. </li>
 <li>Do not use Briumvi if you are pregnant unless you have discussed this with your doctor. Your 
 doctor will consider the benefit of you taking Briumvi against the risk to your baby. </li>
 <li>If you have a baby and you received Briumvi during your pregnancy, it is important to tell your 
-baby’s doctor about receiving Briumvi so they can recommend when your baby should get 
+baby s doctor about receiving Briumvi so they can recommend when your baby should get 
 vaccinated. </li>
 <li>It is not known whether Briumvi passes into your breast milk. Talk to your doctor about the best 
 way to feed your baby if you take Briumvi.  </li>
@@ -239,7 +219,7 @@ way to feed your baby if you take Briumvi.  </li>
 <p>Briumvi is unlikely to affect your ability to drive and use machines. </p>
 <p>Briumvi contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free.’ </p>         </div>"""   
+ sodium-free.  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take briumvi"
@@ -306,71 +286,45 @@ may affect more than 1 in 10 people). In most cases these are mild reactions, bu
 reactions can happen. </li>
 <li>Tell your doctor or nurse straight away if you experience any signs or symptoms of an 
 infusion-related reaction during the infusion or up to 24 hours after the infusion. 
-Symptoms can include, but are not limited to:<br />
-− 
-itchy skin 
-− 
-hives 
-− 
-redness of the face or skin 
-− 
-throat irritation 
-− 
-trouble breathing 
-− 
-swelling of tongue or throat 
-− 
-wheezing 
-− 
-chills 
-− 
-fever 
-− 
-headache 
-− 
-dizziness 
-− 
-feeling faint 
-− 
-nausea 
-− 
-abdominal (belly) pain </li>
+Symptoms can include, but are not limited to:  </li>
 </ul>
-<p>− 
-rapid heartbeat. 
+<p>itchy skin </p>
+<p>hives </p>
+<p>redness of the face or skin </p>
+<p>throat irritation </p>
+<p>trouble breathing </p>
+<p>swelling of tongue or throat </p>
+<p>wheezing </p>
+<p>chills </p>
+<p>fever </p>
+<p>headache </p>
+<p>dizziness </p>
+<p>feeling faint </p>
+<p>nausea </p>
+<p>abdominal (belly) pain </p>
+<p>rapid heartbeat. 
 * If you have an infusion-related reaction, you will be given medicines to treat it and the infusion 
 may need to be slowed down or stopped. When the reaction has stopped, the infusion may be 
 continued. If the infusion-related reaction is life-threatening, your doctor will permanently stop 
 your treatment with Briumvi. </p>
 <p>Infections </p>
 <ul>
-<li>
-<p>You might get infections more easily with Briumvi. Some of them might be serious. The 
-following infections have been seen in patients treated with Briumvi in MS:<br />
-− 
-Very common (may affect more than 1 in 10 people)<br />
-− 
-upper respiratory tract infections (nose and throat infections) 
-− 
-respiratory tract infections (infection of the airways) 
-− 
-Common (may affect up to 1 in 10 people)<br />
-− 
-lower respiratory tract infections (infection of the lungs such as bronchitis or 
-pneumonia) 
-− 
-herpes infections (cold sore or shingles)  </p>
-</li>
-<li>
-<p>Tell your doctor or nurse straight away if you notice any of these signs of infection: 
-− 
-fever or chills 
-− 
-cough which does not go away 
-− 
-herpes (such as cold sore, shingles or genital sores) </p>
-</li>
+<li>You might get infections more easily with Briumvi. Some of them might be serious. The 
+following infections have been seen in patients treated with Briumvi in MS:  </li>
 </ul>
+<p>Very common (may affect more than 1 in 10 people)  </p>
+<p>upper respiratory tract infections (nose and throat infections) </p>
+<p>respiratory tract infections (infection of the airways) </p>
+<p>Common (may affect up to 1 in 10 people)  </p>
+<p>lower respiratory tract infections (infection of the lungs such as bronchitis or 
+pneumonia) </p>
+<p>herpes infections (cold sore or shingles)  </p>
+<ul>
+<li>Tell your doctor or nurse straight away if you notice any of these signs of infection: </li>
+</ul>
+<p>fever or chills </p>
+<p>cough which does not go away </p>
+<p>herpes (such as cold sore, shingles or genital sores) </p>
 <p>Your doctor will wait until the infection is resolved before giving you Briumvi. </p>
 <p>Other side effects </p>
 <p>Common (may affect up to 1 in 10 people)<br />
@@ -387,16 +341,16 @@ medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store briumvi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Store in a refrigerator (2°C – 8°C). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Store in a refrigerator (2 C   8 C). </p>
 <p>Briumvi will be stored by the healthcare professionals at the hospital or clinic under the following 
 conditions: 
 * This medicine is not to be used after the expiry date which is stated on the outer carton and the 
-vial label after ‘EXP’. The expiry date refers to the last day of that month.<br />
-* This medicine is to be stored in a refrigerator (2°C  - 8°C). It is not to be frozen. The vial is to be 
+vial label after  EXP . The expiry date refers to the last day of that month.<br />
+* This medicine is to be stored in a refrigerator (2 C  - 8 C). It is not to be frozen. The vial is to be 
 kept in the outer carton in order to protect from light.  </p>
 <p>It is recommended that the product is used immediately after dilution. If not used immediately, in-use 
 storage times and conditions prior to use are the responsibility of the healthcare professional and 
-would normally not be longer than 24 hours at 2°C - 8°C and subsequently 8 hours at room 
+would normally not be longer than 24 hours at 2 C - 8 C and subsequently 8 hours at room 
 temperature.  </p>
 <p>Do not throw away any medicines via wastewater. These measures will help to protect the 
 environment.  </p>         </div>"""      
@@ -423,7 +377,7 @@ all pack sizes may be marketed </li>
 </ul>
 <p>Marketing Authorisation Holder </p>
 <p>Neuraxpharm Pharmaceuticals, S.L. 
-Avda. Barcelona 08970 Sant Joan Despí – Barcelona 
+Avda. Barcelona 08970 Sant Joan Desp    Barcelona 
 Spain </p>
 <p>Manufacturer </p>
 <p>Millmount Healthcare 
@@ -433,25 +387,24 @@ Co. Meath<br />
 Ireland 
 K32 YD 
 Neuraxpharm Pharmaceuticals, S.L. 
-Avda. Barcelona 08970 Sant Joan Despí<br />
+Avda. Barcelona 08970 Sant Joan Desp <br />
 Barcelona - Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Neuraxpharm Belgium 
-Tél/Tel: +32 (0)2 732 56<br />
+T l/Tel: +32 (0)2 732 56<br />
 Lietuva 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel:+34 93 475 96<br />
-България 
-Neuraxpharm Pharmaceuticals, S.L. 
-Teл.: +34 93 475 96<br />
+Tel:+34 93 475 96  </p>
+<p>Neuraxpharm Pharmaceuticals, S.L. 
+Te .: +34 93 475 96<br />
 Luxembourg/Luxemburg 
 Neuraxpharm France 
-Tél/Tel: +32 474 62 24<br />
-Česká republika 
+T l/Tel: +32 474 62 24<br />
+ esk  republika 
 Neuraxpharm Bohemia s.r.o. 
-Tel: +420 739 232 Magyarország 
+Tel: +420 739 232 Magyarorsz g 
 Neuraxpharm Hungary Kft. 
 Tel.: +3630 464 6 </p>
 <p>Danmark 
@@ -472,13 +425,12 @@ Tel: +34 93 475 96<br />
 Norge 
 Neuraxpharm Sweden AB 
 Tlf:+46 (0)8 30 91 (Sverige) </p>
-<p>Ελλάδα 
-Brain Therapeutics PC 
-Τηλ: +302109931 
-Österreich 
+<p>Brain Therapeutics PC 
+ : +302109931 
+ sterreich 
 Neuraxpharm Austria GmbH 
 Tel.:+ 43 (0) 2236 320 
-España 
+Espa a 
 Neuraxpharm Spain, S.L.U. 
 Tel: +34 93 475 96<br />
 Polska 
@@ -486,7 +438,7 @@ Neuraxpharm Polska Sp. z.o.o.
 Tel.: +48 783 423<br />
 France 
 Neuraxpharm France 
-Tél: +33 1.53.62.42. Portugal 
+T l: +33 1.53.62.42. Portugal 
 Neuraxpharm Portugal, Unipessoal Lda 
 Tel: +351 910 259<br />
 Hrvatska 
@@ -495,16 +447,16 @@ Tel: +34 93 475 96  </p>
 <p>Ireland 
 Neuraxpharm Ireland Ltd 
 Tel: +353 (0)1 428 7777 <br />
-România 
+Rom nia 
 Neuraxpharm Pharmaceuticals, S.L. 
 Tel: +34 93 475 96  </p>
 <p>Slovenija 
 Neuraxpharm Pharmaceuticals, S.L. 
 Tel: +34 93 475 96  </p>
-<p>Ísland 
+<p>sland 
 Neuraxpharm Sweden AB 
-Sími: +46 (0)8 30 91 (Svíþjóð) </p>
-<p>Slovenská republika 
+S mi: +46 (0)8 30 91 (Sv j ) </p>
+<p>Slovensk  republika 
 Neuraxpharm Slovakia a.s. 
 Tel: +421 255 425 Italia 
 Neuraxpharm Italy S.p.A. 
@@ -512,9 +464,8 @@ Tel: +39 0736 980
 Suomi/Finland 
 Neuraxpharm Sweden AB 
 Puh/Tel: +46 (0)8 30 91 (Ruotsi/Sverige) </p>
-<p>Κύπρος 
-Brain Therapeutics PC 
-Τηλ: +302109931 
+<p>Brain Therapeutics PC 
+ : +302109931 
 Sverige 
 Neuraxpharm Sweden AB 
 Tel: +46 (0)8 30 91<br />

@@ -4,7 +4,7 @@ Instance: composition-en-273260896d94ba94b3498c0943f7a317
 InstanceOf: CompositionUvEpi
 Title: "Composition for amversio Package Leaflet"
 Description:  "Composition for amversio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,7 +96,7 @@ your doctor immediately, they could be signs of a swelling in the brain (cerebra
 that case your doctor will monitor your methionine level in your body and may review your 
 diet. Your treatment with Amversio may need to be interrupted.<br />
 - If you are treated with Amversio and with an amino-acid mixture and if you need to take other 
-medicines at the same time, leave 30 minutes between the intake (see “section “Other medicines 
+medicines at the same time, leave 30 minutes between the intake (see  section  Other medicines 
 and Amversio). </p>
 <p>Other medicines and Amversio 
 Tell your doctor if you are taking, have recently taken or might take any other medicines.<br />
@@ -128,9 +128,9 @@ You should take Amversio orally (by mouth).<br />
 To measure the dose: 
 * shake the bottle lightly before opening<br />
 <em> take the correct measuring spoon:<br />
-• the green measuring spoon dispenses 100 mg;<br />
-• the blue measuring spoon dispenses 150 mg;<br />
-• the purple measuring spoon dispenses 1 g.<br />
+  the green measuring spoon dispenses 100 mg;<br />
+  the blue measuring spoon dispenses 150 mg;<br />
+  the purple measuring spoon dispenses 1 g.<br />
 </em> take a heaped spoonful of powder out of the bottle<br />
 <em> pass the flat back of a knife over the top of the spoon<br />
 </em> the powder left in the spoon is one spoonful<br />
@@ -213,7 +213,7 @@ Avenue Louise 1050 Brussels
 Belgium </p>
 <p>Manufacturer 
 MoNo Chem-Pharm Produkte GmbH,<br />
-Leystraße 129,<br />
+Leystra e 129,<br />
 1200 Wien, 
 Austria </p>
 <p>This leaflet was last revised in  </p>

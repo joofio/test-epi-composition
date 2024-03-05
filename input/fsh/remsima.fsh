@@ -4,7 +4,7 @@ Instance: composition-en-c29ba23bb04c16ab758f150fe41d6513
 InstanceOf: CompositionUvEpi
 Title: "Composition for remsima Package Leaflet"
 Description:  "Composition for remsima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,14 +71,14 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remsima contains the active substance infliximab. Infliximab is a monoclonal antibody - a type of 
 protein that attaches to a specific target in the body called TNF (tumour necrosis factor) alpha. </p>
-<p>Remsima belongs to a group of medicines called ‘TNF blockers’. It is used in adults for the following 
+<p>Remsima belongs to a group of medicines called  TNF blockers . It is used in adults for the following 
 inflammatory diseases: 
 * Rheumatoid arthritis 
 * Psoriatic arthritis 
-* Ankylosing spondylitis (Bechterew’s disease) 
+* Ankylosing spondylitis (Bechterew s disease) 
 * Psoriasis. </p>
 <p>Remsima is also used in adults and children 6 years of age or older for: 
-* Crohn’s disease 
+* Crohn s disease 
 * Ulcerative colitis. </p>
 <p>Remsima works by selectively attaching to TNF alpha and blocking its action. TNF alpha is involved 
 in inflammatory processes of the body so blocking it can reduce the inflammation in your body. </p>
@@ -96,7 +96,7 @@ well enough, you will be given Remsima to:
 * reduce the signs and symptoms of your disease, 
 * slow down the damage in your joints, 
 * improve your physical function. </p>
-<p>Ankylosing spondylitis (Bechterew’s disease) 
+<p>Ankylosing spondylitis (Bechterew s disease) 
 Ankylosing spondylitis is an inflammatory disease of the spine. If you have ankylosing spondylitis 
 you will first be given other medicines. If these medicines do not work well enough, you will be given 
 Remsima to: 
@@ -111,10 +111,10 @@ your disease. </p>
 Ulcerative colitis is an inflammatory disease of the bowel. If you have ulcerative colitis you will first 
 be given other medicines. If these medicines do not work well enough, you will be given Remsima to 
 treat your disease. </p>
-<p>Crohn’s disease 
-Crohn’s disease is an inflammatory disease of the bowel. If you have Crohn’s disease you will first be 
+<p>Crohn s disease 
+Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s disease you will first be 
 given other medicines. If these medicines do not work well enough, you will be given Remsima to: 
-* treat active Crohn’s disease, 
+* treat active Crohn s disease, 
 * reduce the number of abnormal openings (fistulae) between your bowel and your skin that have 
 not been controlled by other medicines or surgery. </p>         </div>"""   
           
@@ -199,7 +199,7 @@ higher risk of developing lymphoma. </li>
 another cancer. </li>
 <li>Some patients who have received TNF-blockers, including infliximab have developed a rare 
 type of cancer called hepatosplenic T-cell lymphoma. Of these patients, most were teenage boys 
-or young men and most had either Crohn’s disease or ulcerative colitis. This type of cancer has 
+or young men and most had either Crohn s disease or ulcerative colitis. This type of cancer has 
 usually resulted in death. Almost all patients had also received medicines containing 
 azathioprine or mercaptopurine in addition to TNF-blockers. </li>
 <li>Some patients treated with infliximab have developed certain kinds of skin cancer. If there are 
@@ -218,8 +218,8 @@ cancer with Remsima treatment. </li>
 <p>Nervous system disease </p>
 <ul>
 <li>Tell your doctor before you are given Remsima if you have or have ever had a problem that 
-affects your nervous system. This includes multiple sclerosis, Guillain-Barré syndrome, if you 
-have fits or have been diagnosed with ‘optic neuritis’. 
+affects your nervous system. This includes multiple sclerosis, Guillain-Barr  syndrome, if you 
+have fits or have been diagnosed with  optic neuritis . 
 Tell your doctor straight away if you get symptoms of a nerve disease during treatment with Remsima. 
 Signs include changes in your vision, weakness in your arms or legs, numbness or tingling in any part 
 of your body. </li>
@@ -241,7 +241,7 @@ getting an infection as a result of receiving a live vaccine during the first ye
 important that you tell your baby's doctors and other health care professionals about your 
 Remsima use so they can decide when your baby should receive any vaccine, including live 
 vaccines such as the BCG vaccine (used to prevent tuberculosis).  </li>
-<li>If you are breast-feeding, it is important that you tell your baby’s doctors and other healthcare 
+<li>If you are breast-feeding, it is important that you tell your baby s doctors and other healthcare 
 professionals about your Remsima use before your baby is given any vaccine. For more 
 information see section on Pregnancy and breast-feeding. </li>
 </ul>
@@ -288,7 +288,7 @@ developed cancers, including unusual types, which sometimes resulted in death. <
 Children may receive some vaccines during treatment with Remsima but should not receive live 
 vaccines while using Remsima. </li>
 </ul>
-<p>Remsima should only be used in children if they are being treated for Crohn’s disease or ulcerative 
+<p>Remsima should only be used in children if they are being treated for Crohn s disease or ulcerative 
 colitis. These children must be 6 years of age or older. </p>
 <p>If you are not sure if any of the above applies to you, talk to your doctor before you are given 
 Remsima. </p>
@@ -297,7 +297,7 @@ Patients who have inflammatory diseases already take medicines to treat their pr
 medicines may cause side effects. Your doctor will advise you what other medicines you must keep 
 using while you are having Remsima. </p>
 <p>Tell your doctor if you are using, have recently used or might use any other medicines, including any 
-other medicines to treat Crohn’s disease, ulcerative colitis, rheumatoid arthritis, ankylosing 
+other medicines to treat Crohn s disease, ulcerative colitis, rheumatoid arthritis, ankylosing 
 spondylitis, psoriatic arthritis or psoriasis or medicines obtained without a prescription, such as 
 vitamins and herbal medicines. </p>
 <p>In particular, tell your doctor if you are using any of the following medicines: 
@@ -305,7 +305,7 @@ vitamins and herbal medicines. </p>
 * Kineret (which contains anakinra). Remsima and Kineret should not be used together. 
 * Orencia (which contains abatacept). Remsima and Orencia should not be used together. </p>
 <p>While using Remsima you should not receive live vaccines. If you were using Remsima during 
-pregnancy or if you are receiving Remsima while breast-feeding, tell your baby’s doctor and other 
+pregnancy or if you are receiving Remsima while breast-feeding, tell your baby s doctor and other 
 health care professionals caring for your baby about your Remsima use before the baby receives any 
 vaccines. </p>
 <p>If you are not sure if any of the above applies to you, talk to your doctor or pharmacist before using 
@@ -319,24 +319,24 @@ after you stop being treated with it. Discuss the use of contraception during th
 doctor. 
 * If you received Remsima during your pregnancy, your baby may have a higher risk for getting 
 an infection. 
-* It is important that you tell your baby’s doctors and other healthcare professionals about your 
+* It is important that you tell your baby s doctors and other healthcare professionals about your 
 Remsima use before your baby is given any vaccine. If you received Remsima while pregnant, 
 giving BCG vaccine (used to prevent tuberculosis) to your baby within 12 months after birth 
 may result in infection with serious complications, including death. Live vaccines such as the 
 the BCG vaccine should not be given to your baby within 12 months after birth, unless your 
-baby’s doctor recommends otherwise. For more information see section on vaccination. 
-* If you are breast-feeding, it is important that you tell your baby’s doctors and other healthcare 
+baby s doctor recommends otherwise. For more information see section on vaccination. 
+* If you are breast-feeding, it is important that you tell your baby s doctors and other healthcare 
 professionals about your Remsima use before your baby is given any vaccine. Live vaccines 
-should not be given to your baby while you are breast-feeding unless your baby’s doctor 
+should not be given to your baby while you are breast-feeding unless your baby s doctor 
 recommends otherwise. 
 * Severely decreased numbers of white blood cells have been reported in infants born to women 
 treated with infliximab during pregnancy. If your baby has continual fevers or infections, 
-contact your baby’s doctor immediately. </p>
+contact your baby s doctor immediately. </p>
 <p>Driving and using machines 
 Remsima is not likely to affect your ability to drive or use tools or machines. If you feel tired, dizzy, 
 or unwell after having Remsima, do not drive or use any tools or machines. </p>
 <p>Remsima contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-free’. 
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . 
 However, before Remsima is given to you, it is mixed with a solution that contains sodium. Talk to 
 your doctor if you are on a low salt diet. </p>         </div>"""   
                     
@@ -347,7 +347,7 @@ your doctor if you are on a low salt diet. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rheumatoid arthritis 
 The usual dose is 3 mg for every kg of body weight. </p>
-<p>Psoriatic arthritis, ankylosing spondylitis (Bechterew’s disease), psoriasis, ulcerative colitis and 
+<p>Psoriatic arthritis, ankylosing spondylitis (Bechterew s disease), psoriasis, ulcerative colitis and 
 Crohn's disease 
 The usual dose is 5 mg for every kg of body weight. </p>
 <p>How Remsima is given 
@@ -368,7 +368,7 @@ on your disease, weight and how well you respond to Remsima.
 Further doses 
 Every 6 to 8 weeks depending on your disease  </p>
 <p>Use in children and adolescents 
-In children (6 years of age or older) treated for Crohn’s disease or ulcerative colitis, the recommended 
+In children (6 years of age or older) treated for Crohn s disease or ulcerative colitis, the recommended 
 dose is the same as for adults. </p>
 <p>If you are given too much Remsima 
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too much. 
@@ -481,7 +481,7 @@ reactions to foreign proteins
 * Kidney infections 
 * Low platelet count, too many white blood cells 
 * Infections of the vagina 
-* Blood test result showing ‘antibodies’ against your own body. 
+* Blood test result showing  antibodies  against your own body. 
 * Changes in cholesterol and fat levels in the blood. </p>
 <p>Rare: may affect up to 1 in 1,000 people 
 * A type of blood cancer (lymphoma) 
@@ -504,7 +504,7 @@ generalised exanthematous pustulosis
 * Other skin problems such as erythema multiforme, blisters and peeling skin, or boils 
 (furunculosis) 
 * Serious nervous system disorders such as transverse myelitis, multiple sclerosis-like disease, 
-optic neuritis and Guillain-Barré syndrome 
+optic neuritis and Guillain-Barr  syndrome 
 * Inflammation in the eye that may cause changes in the vision, including blindness 
 * Fluid in the lining of the heart (pericardial effusion) 
 * Serious lung problems (such as interstitial lung disease) 
@@ -512,7 +512,7 @@ optic neuritis and Guillain-Barré syndrome
 * Cervical cancer 
 * Low blood counts, including a severely decreased number of white blood cells 
 * Small red or purple spots caused by bleeding under the skin 
-* Abnormal values of a blood protein called ‘complement factor’ which is part of the immune 
+* Abnormal values of a blood protein called  complement factor  which is part of the immune 
 system 
 * Lichenoid reactions (itchy reddish-purple skin rash and/or threadlike white-grey lines on 
 mucous membranes).  </p>
@@ -522,7 +522,7 @@ mucous membranes).  </p>
 lymphoma) 
 * Liver failure 
 * Merkel cell carcinoma (a type of skin cancer) 
-* Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s 
+* Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin. 
 * Worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
 weakness) 
@@ -531,7 +531,7 @@ weakness)
 * Temporary loss of sight during or within 2 hours of infusion 
 * Infection due to a live vaccine because of a weakened immune system.  </p>
 <p>Additional side effects in children and adolescents 
-Children who took infliximab for Crohn’s disease showed some differences in side effects compared 
+Children who took infliximab for Crohn s disease showed some differences in side effects compared 
 with adults who took infliximab for Crohn's disease. The side effects that happened more in children 
 were: low red blood cells (anaemia), blood in stool, low overall levels of white blood cells 
 (leukopenia), redness or blushing (flushing), viral infections, low levels of white blood cells that fight 
@@ -551,16 +551,16 @@ safety of this medicine. </p>         </div>"""
 them are as follows: 
 * Keep this medicine out of the sight and reach of children. 
 * Do not use this medicine after the expiry date which is stated on the label and the carton after 
-“EXP”. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2°C – 8°C). 
+ EXP . The expiry date refers to the last day of that month. 
+* Store in a refrigerator (2 C   8 C). 
 * This medicine can also be stored in the original carton outside of refrigerated storage up to a 
-maximum of 25°C for a single period of up to six months, but not beyond the original expiry 
+maximum of 25 C for a single period of up to six months, but not beyond the original expiry 
 date. In this situation, do not return to refrigerated storage again. Write the new expiry date on 
 the carton including day/month/year. Discard this medicine if not used by the new expiry date 
 or the expiry date printed on the carton, whichever is earlier. 
 * It is recommended that when Remsima is prepared for infusion, it is used as soon as possible 
 (within 3 hours). However, if the solution is prepared in germ-free conditions, it can be stored in 
-a refrigerator at 2°C – 8°C up to 60 days and for an additional 24 hours at 25 °C after removal 
+a refrigerator at 2 C   8 C up to 60 days and for an additional 24 hours at 25  C after removal 
 from the refrigerator. 
 * Do not use this medicine if it is discoloured or if there are particles present. </p>         </div>"""      
         
@@ -582,7 +582,7 @@ powder is white. </p>
 <p>Marketing Authorisation Holder 
 Celltrion Healthcare Hungary Kft.<br />
 1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
+V ci  t 1-3. WestEnd Office Building B torony 
 Hungary </p>
 <p>Manufacturer 
 Millmount Healthcare Ltd. 
@@ -590,7 +590,7 @@ Block 7
 City North Business Campus<br />
 Stamullen, Co. Meath K32 YDIreland </p>
 <p>Nuvisan GmbH 
-Wegenerstraße 13,<br />
+Wegenerstra e 13,<br />
 89231 Neu Ulm,<br />
 Germany </p>
 <p>Nuvisan France SARL 
@@ -598,31 +598,30 @@ Germany </p>
 06410, Biot,<br />
 France </p>
 <p>Kymos, SL 
-Ronda De Can Fatjó 7B, Parc Tecnològic del Vallès, 
-Cerdanyola del Vallès,<br />
+Ronda De Can Fatj  7B, Parc Tecnol gic del Vall s, 
+Cerdanyola del Vall s,<br />
 Barcelona, 08290, 
 Spain </p>
 <p>Midas Pharma GmbH 
-Rheinstraße 55218 Ingelheim am Rhein 
+Rheinstra e 55218 Ingelheim am Rhein 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7 
+T l/Tel: + 32 1528 7 
 Lietuva 
 Celltrion Healthcare Hungary Kft. 
 Tel: + 36 1 231 0 </p>
-<p>България 
-Celltrion Healthcare Hungary Kft. 
-Teл.: + 36 1 231 0 
+<p>Celltrion Healthcare Hungary Kft. 
+Te .: + 36 1 231 0 
 Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7 
-Česká republika 
+T l/Tel: + 32 1528 7 
+ esk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: + 36 1 231 0 
-Magyarország 
+Magyarorsz g 
 Celltrion Healthcare Hungary Kft.<br />
 Tel: +36 1 231 0Danmark 
 Orion Pharma A/S 
@@ -636,17 +635,16 @@ Tel: + 49 (0)30 346494infoDE@celltrionhc.com </p>
 Celltrion Healthcare Netherlands B.V. 
 Tel: +31 20 888 7 
 Eesti 
-Orion Pharma Eesti OÜ 
+Orion Pharma Eesti O<br />
 Tel: + 372 6 644 550<br />
 Norge 
 Orion Pharma AS 
-Tlf: + 47 40 00 42<br />
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε.<br />
-Τηλ: +30 210 8009111 – Österreich 
+Tlf: + 47 40 00 42  </p>
+<p>. .<br />
+ : +30 210 8009111    sterreich 
 Astro-Pharma GmbH 
 Tel.: +43 1 97 99 office@astropharma.at </p>
-<p>España 
+<p>Espa a 
 Kern Pharma, S.L. 
 Tel: + 34 93 700 25<br />
 Polska 
@@ -655,7 +653,7 @@ Tel.: + 36 1 231 0 </p>
 <p>France 
 Celltrion Healthcare France SAS 
 Tel: +33 (0)1 71 25 27 Portugal 
-PharmaKERN Portugal – Produtos Farmacêuticos, 
+PharmaKERN Portugal   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda.<br />
 Tel: + 351 214 200 290  </p>
 <p>Hrvatska 
@@ -663,15 +661,15 @@ OKTAL PHARMA d.o.o.<br />
 Tel: + 385 1 6595 oktal-pharma@oktal-pharma.hr </p>
 <p>Ireland 
 Celltrion Healthcare Ireland Limited 
-Tel: +353 1 223 4România 
+Tel: +353 1 223 4Rom nia 
 Celltrion Healthcare Hungary Kft. 
 Tel: + 36 1 231 0  </p>
 <p>Slovenija 
 OPH Oktal Pharma d.o.o. 
 Tel: + 386 1 519 29 info@oktal-pharma.si </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7Slovenská republika 
+S mi: +354 535 7Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: + 36 1 231 0 </p>
 <p>Italia 
@@ -681,9 +679,8 @@ Tel: +39 0247 927
 Suomi/Finland 
 Orion Pharma 
 Puh/Tel: + 358 10 4261  </p>
-<p>Κύπρος 
-C.A. Papaellinas Ltd 
-Τηλ: + 357 22741 
+<p>C.A. Papaellinas Ltd 
+ : + 357 22741 
 Sverige 
 Orion Pharma AB 
 Tel: + 46 8 623 64 Latvija 

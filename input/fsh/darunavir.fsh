@@ -4,7 +4,7 @@ Instance: composition-en-ca782dfd4f770a8ed2648776cb943032
 InstanceOf: CompositionUvEpi
 Title: "Composition for darunavir Package Leaflet"
 Description:  "Composition for darunavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -143,7 +143,7 @@ Dapoxetine
 to treat premature ejaculation 
 Domperidone 
 to treat nausea and vomiting </p>
-<p>Do not combine darunavir with products that contain St John’s wort (Hypericum perforatum). </p>
+<p>Do not combine darunavir with products that contain St John s wort (Hypericum perforatum). </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking Darunavir Mylan. </p>
 <p>Darunavir is not a cure for HIV infection.  </p>
@@ -163,7 +163,7 @@ take darunavir.
 lymph nodes and fever). In some patients with advanced HIV infection and a history of 
 opportunistic infection, signs and symptoms of inflammation from previous infections may 
 occur soon after anti-HIV treatment is started. It is believed that these symptoms are due to an 
-improvement in the body’s immune response, enabling the body to fight infections that may 
+improvement in the body s immune response, enabling the body to fight infections that may 
 have been present with no obvious symptoms. 
 - In addition to the opportunistic infections, autoimmune disorders (a condition that occurs when 
 the immune system attacks healthy body tissue) may also occur after you start taking medicines 
@@ -189,81 +189,89 @@ Darunavir is not for use in children younger than 3 years of age or weighing les
 <p>Other medicines and Darunavir Mylan 
 Tell your doctor or pharmacist if you are taking or have recently taken any other medicines. </p>
 <p>There are some medicines that you must not combine with darunavir. These are mentioned above 
-under the heading ‘Do not combine Darunavir Mylan with any of the following medicines:’ </p>
+under the heading  Do not combine Darunavir Mylan with any of the following medicines:  </p>
 <p>In most cases, darunavir can be combined with anti-HIV medicines belonging to another class [e.g. 
 NRTIs (nucleoside reverse transcriptase inhibitors), NNRTIs (non-nucleoside reverse transcriptase 
 inhibitors), CCR5 antagonists and FIs (fusion inhibitors)]. Darunavir with ritonavir has not been tested 
 with all PIs (protease inhibitors) and must not be used with other HIV PIs. In some cases dosage of 
-other medicines might need to be changed. Therefore always tell your doctor if you take other anti- HIV medicines and follow your doctor’s instruction carefully on which medicines can be combined. </p>
+other medicines might need to be changed. Therefore always tell your doctor if you take other anti- HIV medicines and follow your doctor s instruction carefully on which medicines can be combined. </p>
 <p>The effects of darunavir might be reduced if you take any of the following products. Tell your doctor 
-if you take: 
-- Phenobarbital, phenytoin (to prevent seizures) 
-- Dexamethasone (corticosteroid) 
-- Efavirenz (HIV infection) 
-- Rifapentine, rifabutin (medicines to treat some infections such as tuberculosis) 
-- Saquinavir (HIV infection). </p>
+if you take:</p>
+<ul>
+<li>Phenobarbital, phenytoin (to prevent seizures) </li>
+<li>Dexamethasone (corticosteroid) </li>
+<li>Efavirenz (HIV infection) </li>
+<li>Rifapentine, rifabutin (medicines to treat some infections such as tuberculosis) </li>
+<li>Saquinavir (HIV infection). </li>
+</ul>
 <p>The effects of other medicines might be influenced if you take darunavir and your doctor might want 
-to do some additional blood tests. Tell your doctor if you take: 
-- Amlodipine, diltiazem, disopyramide, carvedilol, felodipine, flecainide, lidocaine, metoprolol, 
+to do some additional blood tests. Tell your doctor if you take:</p>
+<ul>
+<li>Amlodipine, diltiazem, disopyramide, carvedilol, felodipine, flecainide, lidocaine, metoprolol, 
 mexiletine, nifedipine, nicardipine, propafenone, timolol, verapamil (for heart disease) as the 
-therapeutic effect or side effects of these medicines may be increased. 
-- Apixaban, dabigatran etexilate, edoxaban, rivaroxaban, warfarin, clopidogrel (to reduce 
-clotting of the blood) as their therapeutic effect or side effects may be altered. 
-- Oestrogen-based hormonal contraceptives and hormonal replacement therapy. Darunavir might 
+therapeutic effect or side effects of these medicines may be increased. </li>
+<li>Apixaban, dabigatran etexilate, edoxaban, rivaroxaban, warfarin, clopidogrel (to reduce 
+clotting of the blood) as their therapeutic effect or side effects may be altered. </li>
+<li>Oestrogen-based hormonal contraceptives and hormonal replacement therapy. Darunavir might 
 reduce its effectiveness. When used for birth control, alternative methods of non-hormonal 
-contraception are recommended. 
-- Ethinylestradiol/drospirenone. Darunavir might increase the risk for elevated potassium levels 
-by drospirenone. 
-- Atorvastatin, pravastatin, rosuvastatin (to lower cholesterol levels). The risk of muscle damage 
+contraception are recommended. </li>
+<li>Ethinylestradiol/drospirenone. Darunavir might increase the risk for elevated potassium levels 
+by drospirenone. </li>
+<li>Atorvastatin, pravastatin, rosuvastatin (to lower cholesterol levels). The risk of muscle damage 
 might be increased. Your doctor will evaluate which cholesterol lowering regimen is best for 
-your specific situation. 
-- Clarithromycin (antibiotic) 
-- Ciclosporin, everolimus, tacrolimus, sirolimus (for dampening down your immune system) as the 
-therapeutic effect or side effects of these medicines might be increased.<br />
-- Corticosteroids including betamethasone, budesonide, fluticasone, mometasone, prednisone, 
+your specific situation. </li>
+<li>Clarithromycin (antibiotic) </li>
+<li>Ciclosporin, everolimus, tacrolimus, sirolimus (for dampening down your immune system) as the 
+therapeutic effect or side effects of these medicines might be increased.  </li>
+<li>Corticosteroids including betamethasone, budesonide, fluticasone, mometasone, prednisone, 
 triamcinolone. These medicines are used to treat allergies, asthma, inflammatory bowel 
 diseases, inflammatory conditions of the skin, eyes, joints and muscles and other inflammatory 
 conditions. These medicines are generally taken orally, inhaled, injected or applied to the skin. 
 If alternatives cannot be used, its use should only take place after medical evaluation and under 
-close monitoring by your doctor for corticosteroid side effects. 
-- Buprenorphine/naloxone (medicines to treat opioid dependence) 
-- Salmeterol (medicine to treat asthma) 
-- Artemether/lumefantrine (a combination medicine to treat malaria) 
-- Dasatinib, everolimus, irinotecan, nilotinib, vinblastine, vincristine (to treat cancer) 
-- Sildenafil, tadalafil, vardenafil (for erectile dysfunction or to treat a heart and lung disorder 
-called pulmonary arterial hypertension) 
-- Glecaprevir/pibrentasvir (to treat hepatitis C infection) 
-- Fentanyl, oxycodone, tramadol (to treat pain) 
-- Fesoterodine, solifenacin (to treat urologic disorders). </p>
-<ul>
-<li>Your doctor might want to do some additional blood tests and the dosage of other medicines 
-might need to be changed since either their own or darunavir’s therapeutic effect or side effects 
-may be influenced when combined. </li>
+close monitoring by your doctor for corticosteroid side effects. </li>
+<li>Buprenorphine/naloxone (medicines to treat opioid dependence) </li>
+<li>Salmeterol (medicine to treat asthma) </li>
+<li>Artemether/lumefantrine (a combination medicine to treat malaria) </li>
+<li>Dasatinib, everolimus, irinotecan, nilotinib, vinblastine, vincristine (to treat cancer) </li>
+<li>Sildenafil, tadalafil, vardenafil (for erectile dysfunction or to treat a heart and lung disorder 
+called pulmonary arterial hypertension) </li>
+<li>Glecaprevir/pibrentasvir (to treat hepatitis C infection) </li>
+<li>Fentanyl, oxycodone, tramadol (to treat pain) </li>
+<li>
+<p>Fesoterodine, solifenacin (to treat urologic disorders). </p>
+</li>
+<li>
+<p>Your doctor might want to do some additional blood tests and the dosage of other medicines 
+might need to be changed since either their own or darunavir s therapeutic effect or side effects 
+may be influenced when combined. </p>
+</li>
 </ul>
-<p>Tell your doctor if you take: 
-- Dabigatran etexilate, edoxaban, warfarin (to reduce clotting of the blood) 
-- Alfentanil (injectable strong and short-acting painkiller that is used for surgical procedures) 
-- Digoxin (to treat certain heart disorders) 
-- Clarithromycin (antibiotic) 
-- Itraconazole, isavuconazole, fluconazole, posaconazole, clotrimazole (to treat fungal 
-infections). Voriconazole should only be taken after medical evaluation. 
-- Rifabutin (against bacterial infections) 
-- Sildenafil, vardenafil, tadalafil (for erectile dysfunction or high blood pressure in the pulmonary 
-circulation) 
-- Amitriptyline, desipramine, imipramine, nortriptyline, paroxetine, sertraline, trazodone (to treat 
-depression and anxiety) 
-- Maraviroc (to treat HIV infection) 
-- Methadone (to treat opiate dependence) 
-- Carbamazepine, clonazepam (to prevent seizures or to treat certain types of nerve pain) 
-- Colchicine (to treat gout or familial Mediterranean fever) 
-- Bosentan (to treat high blood pressure in the pulmonary circulation) 
-- Buspirone, clorazepate, diazepam, estazolam, flurazepam, midazolam when used as injection, 
-zolpidem (sedative agents) 
-- Perphenazine, risperidone, thioridazine (to treat psychiatric conditions). </p>
+<p>Tell your doctor if you take:</p>
+<ul>
+<li>Dabigatran etexilate, edoxaban, warfarin (to reduce clotting of the blood) </li>
+<li>Alfentanil (injectable strong and short-acting painkiller that is used for surgical procedures) </li>
+<li>Digoxin (to treat certain heart disorders) </li>
+<li>Clarithromycin (antibiotic) </li>
+<li>Itraconazole, isavuconazole, fluconazole, posaconazole, clotrimazole (to treat fungal 
+infections). Voriconazole should only be taken after medical evaluation. </li>
+<li>Rifabutin (against bacterial infections) </li>
+<li>Sildenafil, vardenafil, tadalafil (for erectile dysfunction or high blood pressure in the pulmonary 
+circulation) </li>
+<li>Amitriptyline, desipramine, imipramine, nortriptyline, paroxetine, sertraline, trazodone (to treat 
+depression and anxiety) </li>
+<li>Maraviroc (to treat HIV infection) </li>
+<li>Methadone (to treat opiate dependence) </li>
+<li>Carbamazepine, clonazepam (to prevent seizures or to treat certain types of nerve pain) </li>
+<li>Colchicine (to treat gout or familial Mediterranean fever) </li>
+<li>Bosentan (to treat high blood pressure in the pulmonary circulation) </li>
+<li>Buspirone, clorazepate, diazepam, estazolam, flurazepam, midazolam when used as injection, 
+zolpidem (sedative agents) </li>
+<li>Perphenazine, risperidone, thioridazine (to treat psychiatric conditions). </li>
+</ul>
 <p>This is not a complete list of medicines. Tell your healthcare provider about all medicines that you are 
 taking. </p>
 <p>Darunavir Mylan with food and drink 
-See section 3 ‘How to take Darunavir Mylan’. </p>
+See section 3  How to take Darunavir Mylan . </p>
 <p>Pregnancy and breast-feeding 
 Tell your doctor immediately if you are pregnant or planning to become pregnant. Pregnant women 
 must not take darunavir with ritonavir unless specifically directed by the doctor. Pregnant women 
@@ -276,7 +284,7 @@ it with your doctor as soon as possible. </p>
 <p>Driving and using machines 
 Do not operate machines or drive if you feel dizzy after taking darunavir. </p>
 <p>Darunavir Mylan contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium- free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take darunavir"
@@ -290,7 +298,7 @@ doctor. </p>
 <p>After therapy has been initiated, the dose or dosage form must not be changed or therapy must not be 
 stopped without instruction of the doctor. </p>
 <p>Dose for children of 3 years of age and above, weighing at least 15 kilograms who have not taken 
-antiretroviral medicines before (your child’s doctor will determine this) 
+antiretroviral medicines before (your child s doctor will determine this) 
 The doctor will work out the right once daily dose based on the weight of the child (see table below). 
 This dose must not exceed the recommended adult dose, which is 800 milligram darunavir together 
 with 100 milligram ritonavir once a day. 
@@ -310,7 +318,7 @@ more than 40 kilograms
 100 milligram 
 a ritonavir oral solution: 80 milligram per milliliter </p>
 <p>Dose for children of 3 years of age and above, weighing at least 15 kilograms who have taken 
-antiretroviral medicines before (your child’s doctor will determine this) 
+antiretroviral medicines before (your child s doctor will determine this) 
 The doctor will work out the right dose based on the weight of the child (see table below). The doctor 
 will determine if once daily dosing or twice daily dosing is appropriate for the child. This dose must 
 not exceed the recommended adult dose, which is 600 milligram darunavir together with 
@@ -335,7 +343,7 @@ more than 40 kilograms*
 600 milligram darunavir + 100 milligram 
 ritonavir twice a day 
 * 
-For children aged 12 or more and weighing at least 40 kilograms, your child’s doctor will determine if Darunavir Mylan 
+For children aged 12 or more and weighing at least 40 kilograms, your child s doctor will determine if Darunavir Mylan 
 800 milligram once daily dosing may be used. This cannot be administered with these 75 milligram tablets. Other 
 strengths of Darunavir Mylan are available. </p>
 <p>Once daily dosing 
@@ -356,7 +364,7 @@ more than 40 kilograms
 without ritonavir. 
 - The child must take the appropriate doses of darunavir and ritonavir two times per day or once a 
 day. If prescribed darunavir twice daily the child must take one dose in the morning, and one 
-dose in the evening. Your child’s doctor will determine the appropriate dosing regimen for your 
+dose in the evening. Your child s doctor will determine the appropriate dosing regimen for your 
 child. 
 - The child must take darunavir with food. Darunavir cannot work properly without food. The 
 type of food is not important. 
@@ -366,14 +374,16 @@ this)
 You will require a different dose of darunavir which cannot be administered with these 75 milligram 
 tablets. Other strengths of Darunavir Mylan are available. </p>
 <p>Dose for adults who have taken antiretroviral medicines before (your doctor will determine this) 
-The dose is either: 
-- 600 milligram darunavir (2 tablets containing 300 milligram of darunavir or 1 tablet containing 
+The dose is either:</p>
+<ul>
+<li>600 milligram darunavir (2 tablets containing 300 milligram of darunavir or 1 tablet containing 
 600 milligram of darunavir) together with 100 milligram ritonavir twice daily. 
-OR 
-- 800 milligram darunavir (2 tablets containing 400 milligram of darunavir or 1 tablet containing 
+OR </li>
+<li>800 milligram darunavir (2 tablets containing 400 milligram of darunavir or 1 tablet containing 
 800 milligram of darunavir) together with 100 milligram ritonavir once daily. Darunavir Mylan 
 400 milligram and 800 milligram tablets are only to be used to construct the once daily 
-800 milligram regimen. </p>
+800 milligram regimen. </li>
+</ul>
 <p>Please discuss with your doctor which dose is right for you. </p>
 <p>Instructions for adults 
 - Take darunavir always together with ritonavir. Darunavir cannot work properly without 
@@ -467,9 +477,11 @@ kidney or lung]
 blood and/or urine tests. Your doctor will explain these to you. Examples are: increase in some 
 white blood cells 
 - darunavir crystals in the kidney causing kidney disease. </p>
-<p>Some side effects are typical for anti-HIV medicines in the same family as darunavir. These are: 
-- muscle pain, tenderness or weakness. On rare occasions, these muscle disorders have been 
-serious. </p>
+<p>Some side effects are typical for anti-HIV medicines in the same family as darunavir. These are:</p>
+<ul>
+<li>muscle pain, tenderness or weakness. On rare occasions, these muscle disorders have been 
+serious. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -514,7 +526,7 @@ DUBLIN
 Ireland </p>
 <p>Manufacturer 
 Mylan Hungary Kft 
-H-2900 Komárom, Mylan utca 1<br />
+H-2900 Kom rom, Mylan utca 1<br />
 Hungary </p>
 <p>McDermott Laboratories Limited trading as Gerard Laboratories<br />
 35/36 Baldoyle Industrial Estate, Grange Road, Dublin 13<br />
@@ -526,20 +538,19 @@ Hessen, 61352<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1България 
-Майлан ЕООД 
-Тел: +359 2 44 55 Luxembourg/Luxemburg 
+Tel: +370 5 205 1  </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
 Viatris CZ s.r.o.<br />
 Tel: + 420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft. 
 Tel.: + 36 1 465 2Danmark 
 Viatris ApS 
@@ -557,44 +568,44 @@ filiaal
 Tel: + 372 6363<br />
 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33 Ελλάδα 
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ: +30 210 993 6 
-Österreich 
+Tlf: + 47 66 75 33 <br />
+Generics Pharma Hellas  <br />
+ : +30 210 993 6 
+ sterreich 
 Arcana Arzneimittel GmbH<br />
-Tel: +43 1 416 2España 
+Tel: +43 1 416 2Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z o.o.<br />
 Tel.: + 48 22 546 64 France 
-Viatris Santé<br />
-Tél: +33 4 37 25 75<br />
+Viatris Sant <br />
+T l: +33 4 37 25 75<br />
 Portugal 
 Mylan, Lda. 
 Tel: + 351 214 127 Hrvatska 
 Viatris Hrvatska d.o.o.<br />
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP Products SRL<br />
 Tel: +40 372 579 Ireland 
 Mylan Ireland Limited<br />
 Tel: +353 1 8711 
 Slovenija 
 Viatris d.o.o.<br />
-Tel: + 386 1 23 63 Ísland 
+Tel: + 386 1 23 63  sland 
 Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9Κύπρος 
+Puh/Tel: +358 20 720 9<br />
 Varnavas Hadjipanayis Ltd 
-Τηλ: + 357 2220 7 
+ : + 357 2220 7 
 Sverige 
 Viatris AB 
 Tel: +46 (0)8 630 19 Latvija 

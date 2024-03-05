@@ -4,7 +4,7 @@ Instance: composition-en-e904990c0daca9f90faf79e88bc809b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for orladeyo Package Leaflet"
 Description:  "Composition for orladeyo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -121,7 +121,7 @@ medicines. </p>
 eye or joint inflammation 
 * dabigatran, a medicine to prevent blood clotting 
 * rifampicin: a medicine to treat tuberculosis or certain other infections 
-* desipramine, St. John’s wort and other medicines to treat depression called tricyclic 
+* desipramine, St. John s wort and other medicines to treat depression called tricyclic 
 antidepressants 
 * dextromethorphan, a cough-relieving medicine<br />
 </em> digoxin, a medicine to treat heart problems and irregular heartbeat 
@@ -149,7 +149,7 @@ using contraception. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
 <p>The recommended dose is 
-The recommended dose for adults and adolescents from 12 years weighing ≥ 40 kg is one capsule once 
+The recommended dose for adults and adolescents from 12 years weighing   40 kg is one capsule once 
 daily. </p>
 <p>Orladeyo is not recommended in patients with moderate or severely reduced liver function. As a 
 precautionary measure, this also applies to patients on dialysis. </p>
@@ -212,16 +212,20 @@ throw away medicines you no longer use. These measures will help protect the env
 <ul>
 <li>The active substance is berotralstat. Each capsule contains 150 mg berotralstat (as 
 dihydrochloride). </li>
-<li>The other ingredients are: </li>
-<li>starch, pregelatinised, crospovidone (type A), silica, colloidal anhydrous, magnesium 
-stearate, gelatin, titanium dioxide (E 171) </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>starch, pregelatinised, crospovidone (type A), silica, colloidal anhydrous, magnesium 
+stearate, gelatin, titanium dioxide (E 171) </p>
+</li>
 <li>colourants: indigo carmine (E 132), black iron oxide (E 172), red iron oxide (E 172) </li>
 <li>edible printing ink: black iron oxide (E 172), potassium hydroxide, shellac, propylene 
 glycol (E 1520) </li>
 </ul>
 <p>What Orladeyo looks like and contents of the pack </p>
-<p>Orladeyo capsules have a white opaque body imprinted with “150” and light blue opaque cap 
-imprinted with “BCX” (19.4 mm × 6.9 mm). They are packed in plastic/aluminium blisters in a carton 
+<p>Orladeyo capsules have a white opaque body imprinted with  150  and light blue opaque cap 
+imprinted with  BCX  (19.4 mm   6.9 mm). They are packed in plastic/aluminium blisters in a carton 
 with 7 capsules per blister. </p>
 <p>Pack size: 28 or 98 hard capsules </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>

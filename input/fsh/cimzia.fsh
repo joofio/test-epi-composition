@@ -4,7 +4,7 @@ Instance: composition-en-057978e6508bd77bd6c65ec1f7b062f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cimzia Package Leaflet"
 Description:  "Composition for cimzia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,9 +72,9 @@ this Patient Reminder Card with you. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cimzia contains the active substance certolizumab pegol, a human antibody fragment. Antibodies are 
 proteins that specifically recognise and bind to other proteins. Cimzia binds to a specific protein called 
-tumour necrosis factor α (TNFα). Thereby this TNFα is blocked by Cimzia and this decreases 
+tumour necrosis factor   (TNF ). Thereby this TNF  is blocked by Cimzia and this decreases 
 inflammation diseases such as in rheumatoid arthritis, axial spondyloarthritis, psoriatic arthritis and 
-psoriasis. Medicines that bind to TNFα are also called TNF blockers. </p>
+psoriasis. Medicines that bind to TNF  are also called TNF blockers. </p>
 <p>Cimzia is used in adults for the following inflammatory diseases:<br />
 * rheumatoid arthritis, 
 * axial spondyloarthritis (including ankylosing spondylitis and axial spondyloarthritis without 
@@ -171,8 +171,8 @@ or other cancers may increase. In addition, uncommon cases of non-melanoma skin 
 been observed in patients taking Cimzia. If new skin lesions appear during or after therapy with 
 Cimzia or existing skin lesions change appearance, tell your doctor.<br />
 - There have been cases of cancers, including unusual types, in children and teenage patients 
-taking TNF-blocking agents, which sometimes resulted in death (see further down “Children 
-and adolescents”). </p>
+taking TNF-blocking agents, which sometimes resulted in death (see further down  Children 
+and adolescents ). </p>
 <p>Other disorders 
 - Patients with chronic obstructive pulmonary disease (COPD), or who are heavy smokers, may 
 be at increased risk for cancer with Cimzia treatment. If you have COPD or are a heavy smoker, 
@@ -203,14 +203,18 @@ showing them your Patient Reminder Card. </p>
 Cimzia is not recommended for use in children and adolescents under the age of 18 years. </p>
 <p>Other medicines and Cimzia 
 You should NOT take Cimzia if you are using the following medicines used to treat rheumatoid 
-arthritis: 
-- anakinra<br />
-- abatacept 
-If you have questions, please ask your doctor. </p>
-<p>Cimzia can be taken together with: 
-- methotrexate,<br />
-- corticosteroids, or<br />
-- pain medicines including nonsteroidal anti-inflammatory medicines (also called NSAIDs). </p>
+arthritis:</p>
+<ul>
+<li>anakinra  </li>
+<li>abatacept 
+If you have questions, please ask your doctor. </li>
+</ul>
+<p>Cimzia can be taken together with:</p>
+<ul>
+<li>methotrexate,  </li>
+<li>corticosteroids, or  </li>
+<li>pain medicines including nonsteroidal anti-inflammatory medicines (also called NSAIDs). </li>
+</ul>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Pregnancy and breast-feeding 
@@ -221,7 +225,7 @@ Cimzia should only be used during pregnancy if clearly needed. If you are a woma
 potential, discuss with your doctor regarding use of adequate contraception while using Cimzia. For 
 women planning pregnancy, contraception may be considered for 5 months after the last Cimzia dose. </p>
 <p>If you received Cimzia during your pregnancy, your baby may have a higher risk for getting an 
-infection. It is important that you tell your baby’s doctors and other health care professionals about 
+infection. It is important that you tell your baby s doctors and other health care professionals about 
 your Cimzia use before the baby receives any vaccine (for more information see section on 
 vaccinations). </p>
 <p>Cimzia can be used during breastfeeding. </p>
@@ -230,7 +234,7 @@ Cimzia may have a minor influence on your ability to drive and use machines. Diz
 room spinning sensation, blurred vision and tiredness) may occur after you take Cimzia. </p>
 <p>Cimzia contains sodium acetate and sodium chloride 
 This medicinal product contains less than 1 mmol sodium (23 mg) per 400 mg, i.e. essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cimzia"
@@ -240,55 +244,7 @@ This medicinal product contains less than 1 mmol sodium (23 mg) per 400 mg, i.e.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
 <p>Rheumatoid arthritis 
-* The starting dose for adults with rheumatoid arthritis is 400 mg given at weeks 0, 2 and 4.<br />
-<em> This is followed by a maintenance dose of 200 mg every 2 weeks. If you respond to the 
-medicine, your doctor may prescribe an alternative maintenance dosing of 400 mg 
-every 4 weeks.<br />
-</em> Methotrexate is continued while using Cimzia. If your doctor determines that methotrexate is 
-inappropriate, Cimzia can be given alone. </p>
-<p>Axial spondyloarthritis 
-* The starting dose for adults with axial spondyloarthritis is 400 mg given at weeks 0, 2 and 4.<br />
-* This is followed by a maintenance dose of 200 mg every 2 weeks (from week 6) or 400 mg 
-every 4 weeks (from week 8) as instructed by your physician. If you have received Cimzia for at 
-least 1 year and respond to the medicine, your physician may prescribe a reduced maintenance 
-dose of 200 mg every 4 weeks. </p>
-<p>Psoriatic arthritis 
-* The starting dose for adults with psoriatic arthritis is 400 mg given at weeks 0, 2 and 4.<br />
-<em> This is followed by a maintenance dose of 200 mg every 2 weeks. If you respond to the 
-medicine, your doctor may prescribe an alternative maintenance dosing of 400 mg 
-every 4 weeks.<br />
-</em> Methotrexate is continued while using Cimzia. If your doctor determines that methotrexate is 
-inappropriate, Cimzia can be given alone. </p>
-<p>Plaque psoriasis 
-* The starting dose for adults with plaque psoriasis is 400 mg every 2 weeks given at 
-weeks 0, 2 and 4.<br />
-* This is followed by a maintenance dose of 200 mg every 2 weeks, or 400 mg every 2 weeks as 
-instructed by your physician.  </p>
-<p>How Cimzia is given 
-Cimzia will usually be given to you by a specialist doctor or healthcare professional. You will be 
-given Cimzia as either one (200 mg dose) or two injections (400 mg dose) under the skin 
-(subcutaneous use, abbreviation: SC). It is usually injected into the thigh or tummy. However, do not 
-inject in an area where the skin is reddened, bruised, or hard. </p>
-<p>Instructions for self-injecting Cimzia 
-After suitable training, your doctor may also allow you to inject Cimzia yourself. Please read the 
-instructions at the end of this leaflet on how to inject Cimzia. </p>
-<p>If your doctor has allowed you to self-inject, you should follow up with your doctor before you 
-continue to self-inject: 
-* after 12 weeks if you have rheumatoid arthritis, axial spondyloarthritis or psoriatic arthritis, or<br />
-* after 16 weeks if you have plaque psoriasis. 
-This is so that the doctor can determine if Cimzia is working for you or if another treatment needs to 
-be considered. </p>
-<p>If you use more Cimzia than you should 
-If your doctor has allowed you to self-inject and you accidentally inject Cimzia more frequently than 
-prescribed, you should tell your doctor. Always take the Patient Reminder Card and the outer carton 
-from the Cimzia package with you, even if it is empty. </p>
-<p>If you forget to use Cimzia 
-If your doctor has allowed you to self-inject and you forget to give yourself an injection, you should 
-inject the next dose of Cimzia as soon as you remember. Then, talk to your doctor and inject the 
-following doses as instructed. </p>
-<p>If you stop using Cimzia 
-Do not stop using Cimzia without talking to your doctor first. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+* The starting dose for adults with rheumatoid arthritis is 400 mg given at weeks 0, 2 and </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -296,162 +252,29 @@ If you have any further questions on the use of this medicine, ask your doctor, 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor IMMEDIATELY if you notice any of the following side effects: 
-* severe rash, hives or other signs of allergic reaction (urticaria) 
-* swollen face, hands, feet (angioedema) 
-* trouble breathing, swallowing (multiple causes for these symptoms) 
-* shortness of breath with exertion or upon lying down or swelling of the feet (heart failure) 
-* symptoms of blood disorders such as persistent fever, bruising, bleeding, paleness 
-(pancytopaenia, anaemia, low platelet count, low white blood cell count) 
-* serious skin rashes. These can appear as reddish target-like macules or circular patches often 
-with central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes 
-and can be preceded by fever and flu-like symptoms. (Stevens-Johnson syndrome) </p>
-<p>Tell your doctor AS SOON AS POSSIBLE if you notice any of the following side effects: 
-* signs of infection such as fever, malaise, wounds, dental problems, burning on urination<br />
-* feeling weak or tired 
-* coughing 
-* tingling 
-* numbness 
-* double vision 
-* arm or leg weakness 
-* bump or open sore that doesn't heal </p>
-<p>The symptoms described above can be due to some of the side effects listed below, which have been 
-observed with Cimzia: </p>
-<p>Common (may affect up to 1 in 10 people): 
-* bacterial infections in any site (a collection of pus) 
-* viral infections (including cold sores, shingles, and influenza) 
-* fever 
-* high blood pressure 
-* rash or itching<br />
-<em> headaches (including migraines) 
-* sensory abnormalities such as numbness, tingling, burning sensation 
-* feeling weak and generally unwell<br />
-</em> pain 
-* blood disorders 
-* liver problems 
-* injection site reactions 
-* nausea </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-* allergic conditions including allergic rhinitis and allergic reactions to the medicine (including 
-anaphylactic shock) 
-* antibody directed against normal tissue 
-* blood and lymphatic system cancers like lymphoma and leukaemia 
-* solid organ cancers 
-* skin cancers, pre-cancerous skin lesions 
-* benign (non-cancerous) tumours and cysts (including those of the skin) 
-* heart problems including weakened heart muscle, heart failure, heart attack, chest discomfort or 
-chest pressure, abnormal heart rhythm including irregular heart beats 
-* oedema (swelling in the face or legs) 
-* lupus (immune/connective tissue disease) symptoms (joint pain, skin rashes, photosensitivity 
-and fever)<br />
-<em> inflammation of the blood vessels 
-* sepsis (serious infection which can result in organ failure, shock or death) 
-* tuberculosis infection 
-* fungal infections (occur when the ability to fight off infection is lessened) 
-* respiratory disorders and inflammation (including asthma, shortness of breath, cough, blocked 
-sinuses, pleurisy, or difficulty breathing) 
-* stomach problems including abdominal fluid collection, ulcers (including oral ulcers), 
-perforation, distension, inflammation heartburn, upset, dry mouth 
-* bile problems 
-* muscle problems including increased muscle enzymes 
-* changes in blood levels of different salts 
-* changes in cholesterol and fat levels in the blood 
-* blood clots in the veins or lungs 
-* bleeding or bruising 
-* changed numbers of blood cells, including low red cell count (anaemia), low platelet counts, 
-increased platelet counts 
-* swollen lymph nodes 
-* flu-like symptoms, chills, altered temperature perception, night sweats, flushing 
-* anxiety and mood disorders such as depression, appetite disorders, weight change 
-* ringing in the ears<br />
-</em> vertigo (dizziness) 
-* feeling faint, including loss of consciousness 
-* nerve disorders in the extremities including symptoms of numbness, tingling, burning sensation, 
-dizziness, tremor 
-* skin disorders such as new onset or worsening of psoriasis, inflammation of the skin (such as 
-eczema), sweat gland disorders, ulcers, photosensitivity, acne, hair loss, discoloration, nail 
-separation, dry skin and injuries 
-* impaired healing 
-* kidney and urinary problems including impairment of kidney function, blood in the urine and 
-urinary disturbances<br />
-<em> menstrual cycle (monthly period) disorders including lack of bleeding, or heavy or irregular 
-bleeding 
-* breast disorders<br />
-</em> eye and eyelid inflammation, vision disturbances, problems with tears<br />
-* some blood parameters increased (blood alkaline phosphatase increased) 
-* prolonged coagulation (clotting) test times </p>
-<p>Rare (may affect up to 1 in 1,000 people): 
-* gastrointestinal cancer, melanoma 
-* lung inflammation (interstitial lung disease, pneumonitis) 
-* stroke, blockage in blood vessels (arteriosclerosis), poor blood circulation which makes the toes 
-and fingers numb and pale (Raynaud’s phenomenon), mottled purplish skin discoloration, small 
-veins near the surface of the skin may become visible 
-* pericardial inflammation 
-* cardiac arrhythmia 
-* enlarged spleen 
-* increase of red cell mass 
-* white blood cell morphology abnormal 
-* formation of stones in the gall bladder 
-* kidney problems (including nephritis) 
-* immune disorders such as sarcoidosis (rash, joint pain, fever), serum sickness, inflammation of 
-the fat tissue, angioneurotic oedema (swelling of the lips, face, throat) 
-* thyroid disorders (goitre, tiredness, weight loss) 
-* increased iron levels in the body 
-* increased blood levels of uric acid<br />
-* suicide attempt, mental impairment, delirium 
-* inflammation of the nerves for hearing, seeing, or of the face, impaired coordination or balance 
-* increased gastrointestinal motility 
-* fistula (tract from one organ to another) (any site) 
-* oral disorders including pain on swallowing 
-* skin sloughing, blistering, hair texture disorder 
-* sexual dysfunction 
-* seizure 
-* worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
-weakness) 
-* Stevens-Johnson syndrome (a serious skin condition which early symptoms include malaise, 
-fever, headache and rash) 
-* inflammatory skin rash (erythema multiforme) 
-* lichenoid reactions (itchy reddish-purple skin rash and/or threadlike white-grey lines on mucous 
-membranes) </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-* multiple sclerosis<em> 
-* Guillain-Barré syndrome</em> 
-* Merkel cell carcinoma (a type of skin cancer)* 
-* Kaposi’s sarcoma (a rare cancer related to infection with human herpes virus 8. Kaposi’s 
-sarcoma most commonly appears as purple lesions on the skin) </p>
-<p>*These events have been related to this class of medicines but the incidence with Cimzia is not known. </p>
-<p>Other side effects 
-When Cimzia has been used to treat other diseases the following uncommon side effects have 
-occurred: 
-* gastrointestinal stenosis (narrowing of part of the digestive system). 
-* gastrointestinal obstructions (blockages of the digestive system). 
-* general physical health deterioration. 
-* spontaneous abortion. 
-* azoospermia (lack of sperm production). </p>
-<p>Reporting of side effects 
-If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. You can also report side effects directly via the national reporting 
-system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>This is followed by a maintenance dose of 200 mg every 2 weeks. If you respond to the 
+medicine, your doctor may prescribe an alternative maintenance dosing of 400 mg 
+every 4 weeks.  </li>
+<li>Methotrexate is continued while using Cimzia. If your doctor determines that methotrexate is 
+inappropriate, Cimzia can be given alone. </li>
+</ul>
+<p>Axial spondyloarthritis 
+* The starting dose for adults with axial spondyloarthritis is 400 mg given at weeks 0, 2 and </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cimzia"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store cimzia"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the pack and syringe after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). 
-Do not freeze. 
-Keep the pre-filled syringe in the outer carton in order to protect from light. 
-The pre-filled syringes may be stored at room temperature (up to 25°C) for a single period of 
-maximum 10 days with protection from light. At the end of this period the pre-filled syringes must be 
-used or discarded. </p>
-<p>Do not use this medicine if the solution is discoloured, cloudy or if you can see particles in it.  </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>This is followed by a maintenance dose of 200 mg every 2 weeks (from week 6) or 400 mg 
+every 4 weeks (from week 8) as instructed by your physician. If you have received Cimzia for at 
+least 1 year and respond to the medicine, your physician may prescribe a reduced maintenance 
+dose of 200 mg every 4 weeks. </li>
+</ul>
+<p>Psoriatic arthritis 
+* The starting dose for adults with psoriatic arthritis is 400 mg given at weeks 0, 2 and </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -459,116 +282,14 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cimzia contains<br />
-− 
-The active substance is certolizumab pegol. Each pre-filled syringe contains 200 mg of 
-certolizumab pegol in one ml. 
-− 
-The other ingredients are: sodium acetate, sodium chloride and water for injection (see “Cimzia 
-contains sodium acetate and sodium chloride” in section 2). </p>
-<p>What Cimzia looks like and contents of the pack 
-Cimzia is provided as a solution for injection in a ready to use pre-filled syringe. The solution is clear 
-to opalescent, colourless to yellow. </p>
-<p>One Cimzia pack contains: 
-* two pre-filled syringes of solution, and 
-* two alcohol wipes (for cleansing the areas chosen for injection). </p>
-<p>Packs of 2 pre-filled syringes and 2 alcohol wipes, a multipack containing 6 (3 packs of 2) pre-filled 
-syringes and 6 (3 packs of 2) alcohol wipes, and a multipack containing 10 (5 packs of 2) pre-filled 
-syringes and 10 (5 packs of 2) alcohol wipes are available. 
-Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder<br />
-UCB Pharma S.A.  </p>
-<p>Allée de la Recherche 60  </p>
-<p>B-1070 Bruxelles  </p>
-<p>Belgium </p>
-<p>Manufacturer 
-UCB Pharma S.A. 
-Chemin du Foriest 
-B-1420 Braine l'Alleud 
-Belgium </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-UCB Pharma S.A./NV 
-Tel/Tél: + 32 / (0)2 559 92<br />
-Lietuva 
-UCB Pharma Oy Finland 
-Tel: + 358 9 25144221  (Suomija) 
-България 
-Ю СИ БИ България ЕООД 
-Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
-UCB Pharma S.A./NV 
-Tél/Tel: + 32 / (0)2 559 92 (Belgique/Belgien) </p>
-<p>Česká republika 
-UCB s.r.o. 
-Tel: + 420 221 773 Magyarország 
-UCB Magyarország Kft. 
-Tel.: + 36-(1) 391 0 
-Danmark 
-UCB Nordic A/S 
-Tlf: + 45 / 32 46 24 Malta 
-Pharmasud Ltd. 
-Tel: + 356 / 21 37 64<br />
-Deutschland 
-UCB Pharma GmbH 
-Tel: + 49 /(0) 2173 48 4Nederland 
-UCB Pharma B.V. 
-Tel.: + 31 / (0)76-573 11<br />
-Eesti 
-UCB Pharma Oy Finland 
-Tel: + 358 9 25144221 (Soome) 
-Norge 
-UCB Nordic A/S 
-Tlf: + 47 / 67 16 5 
-Ελλάδα 
-UCB Α.Ε.<br />
-Τηλ: + 30 / 2109974Österreich 
-UCB Pharma GmbH 
-Tel: + 43 (0) 1 291 80<br />
-España 
-UCB Pharma S.A. 
-Tel: + 34 / 91 570 34 Polska 
-UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o.Tel.: 
-+ 48 22 696 99<br />
-France 
-UCB Pharma S.A. 
-Tél: + 33 / (0)1 47 29 44 Portugal 
-UCB Pharma (Produtos Farmacêuticos), Lda 
-Tel: + 351 / 21 302 5 
-Hrvatska 
-Medis Adria d.o.o. 
-Tel: +385 (0) 1 230 34<br />
-România 
-UCB Pharma Romania S.R.L. 
-Tel: + 40 21 300 29<br />
-Ireland 
-UCB (Pharma) Ireland Ltd. 
-Tel: + 353 / (0)1-46 37 Slovenija 
-Medis, d.o.o. 
-Tel: + 386 1 589 69<br />
-Ísland 
-Vistor hf. 
-Tel: + 354 535 7Slovenská republika 
-UCB s.r.o., organizačná zložka 
-Tel: + 421 (0) 2 5920 2 
-Italia 
-UCB Pharma S.p.A. 
-Tel: + 39 / 02 300 Suomi/Finland 
-UCB Pharma Oy Finland 
-Puh/Tel: + 358 9 25144 
-Κύπρος 
-Lifepharma (Z.A.M.) Ltd 
-Τηλ: + 357 22 056 
-Sverige 
-UCB Nordic A/S 
-Tel: + 46 / (0) 40 29 49<br />
-Latvija 
-UCB Pharma Oy Finland 
-Tel: + 358 9 25144 
-United Kingdom (Northern Ireland) 
-UCB (Pharma) Ireland Ltd. 
-Tel: + 353 / (0)1-46 37<br />
-This leaflet was last revised in {MM/YYYY}  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>This is followed by a maintenance dose of 200 mg every 2 weeks. If you respond to the 
+medicine, your doctor may prescribe an alternative maintenance dosing of 400 mg 
+every 4 weeks.  </li>
+<li>Methotrexate is continued while using Cimzia. If your doctor determines that methotrexate is 
+inappropriate, Cimzia can be given alone. </li>
+</ul>
+<p>Plaque psoriasis 
+* The starting dose for adults with plaque psoriasis is 400 mg every 2 weeks given at 
+weeks 0, 2 and </p>         </div>"""      
 

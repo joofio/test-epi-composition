@@ -4,7 +4,7 @@ Instance: composition-en-68bcf84e560e25281fc234537e658487
 InstanceOf: CompositionUvEpi
 Title: "Composition for rilutek Package Leaflet"
 Description:  "Composition for rilutek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -94,14 +94,16 @@ prescribed for you. </p>         </div>"""
 (transaminases), 
 - if you are pregnant or breast-feeding. </p>
 <p>Warnings and precautions 
-Talk to your doctor before taking RILUTEK: 
-- if you have any liver problems: yellowing of your skin or the white of your eyes (jaundice), 
-itching all over, feeling sick, being sick 
-- if your kidneys are not working very well 
-- if you have any fever: it may be due to a low number of white blood cells which can cause an 
+Talk to your doctor before taking RILUTEK:</p>
+<ul>
+<li>if you have any liver problems: yellowing of your skin or the white of your eyes (jaundice), 
+itching all over, feeling sick, being sick </li>
+<li>if your kidneys are not working very well </li>
+<li>if you have any fever: it may be due to a low number of white blood cells which can cause an 
 increased risk of infection 
 If any of the above applies to you, or if you are not sure, tell your doctor who will decide what to 
-do. </p>
+do. </li>
+</ul>
 <p>Children and adolescents 
 If you are less than 18 years of age, the use of RILUTEK is not recommended because there is no 
 information available in this population. </p>
@@ -116,8 +118,8 @@ taking RILUTEK. </p>
 You can drive or use any tools or machines, unless you feel dizzy or lightheaded after taking this 
 medicine. </p>
 <p>RILUTEK contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially “sodium 
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rilutek"
@@ -163,24 +165,30 @@ interstitial lung disease).  </p>
 </li>
 </ul>
 <p>Other side effects 
-Very common side effects (may affect more than 1 in 10 people) of RILUTEK are:<br />
-- tiredness<br />
-- feeling sick<br />
-- increased blood levels of some enzymes of the liver (transaminases).  </p>
-<p>Common side effects (may affect up to 1 in 10 people) of RILUTEK are:<br />
-- dizziness 
-- numbness or tingling of the mouth 
-- vomiting 
-- sleepiness 
-- increase in heartbeat 
-- diarrhoea 
-- headache 
-- abdominal pain 
-- pain </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people) of RILUTEK are: 
-- anaemia<br />
-- allergic reactions<br />
-- inflammation of the pancreas (pancreatitis).  </p>
+Very common side effects (may affect more than 1 in 10 people) of RILUTEK are:</p>
+<ul>
+<li>tiredness  </li>
+<li>feeling sick  </li>
+<li>increased blood levels of some enzymes of the liver (transaminases).  </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people) of RILUTEK are:</p>
+<ul>
+<li>dizziness </li>
+<li>numbness or tingling of the mouth </li>
+<li>vomiting </li>
+<li>sleepiness </li>
+<li>increase in heartbeat </li>
+<li>diarrhoea </li>
+<li>headache </li>
+<li>abdominal pain </li>
+<li>pain </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people) of RILUTEK are:</p>
+<ul>
+<li>anaemia  </li>
+<li>allergic reactions  </li>
+<li>inflammation of the pancreas (pancreatitis).  </li>
+</ul>
 <p>Not known: frequency cannot be estimated from the available data 
 - rash </p>
 <p>Reporting of side effects 
@@ -215,7 +223,7 @@ Coating: hypromellose, macrogol 6000, titanium dioxide (E171). </li>
 </ul>
 <p>What RILUTEK looks like and content of the pack </p>
 <p>The tablets are film-coated, capsule-shaped and white. Each tablet contains 50 mg of riluzole and is 
-engraved with “RPR 202” on one side. 
+engraved with  RPR 202  on one side. 
 RILUTEK is available in a pack of 56 tablets to be taken orally. </p>
 <p>Marketing Authorisation Holder 
 Sanofi Winthrop Industrie 
@@ -225,26 +233,25 @@ France </p>
 <p>Manufacturer 
 Opella Healthcare International SAS 
 56, Route de Choisy 
-60200 Compiègne 
+60200 Compi gne 
 France </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/ Belgien 
+<p>Belgi /Belgique/ Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 Sanofi s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -259,18 +266,17 @@ Nederland
 Sanofi B.V. 
 Tel: +31 20 245 4 
 Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -278,13 +284,13 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél : 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -293,10 +299,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -304,10 +310,9 @@ Sanofi S.r.l.<br />
 Tel:  800 536 
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741741  </p>
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741741  </p>
 <p>Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

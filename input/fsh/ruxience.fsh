@@ -4,7 +4,7 @@ Instance: composition-en-ce47e28e6dc466e32ff754112a937d33
 InstanceOf: CompositionUvEpi
 Title: "Composition for ruxience Package Leaflet"
 Description:  "Composition for ruxience Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,20 +69,20 @@ Usage: #example
   * code.text =  "1. What ruxience is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ruxience is 
-Ruxience contains the active substance “rituximab”. This is a type of protein called a “monoclonal 
-antibody”. It sticks to the surface of a type of white blood cell called “B-Lymphocyte”. When 
+Ruxience contains the active substance  rituximab . This is a type of protein called a  monoclonal 
+antibody . It sticks to the surface of a type of white blood cell called  B-Lymphocyte . When 
 rituximab sticks to the surface of this cell, the cell dies. </p>
 <p>What Ruxience is used for 
 Ruxience may be used for the treatment of several different conditions in adults and children. Your 
 doctor may prescribe Ruxience for the treatment of: </p>
 <p>a) 
-Non-Hodgkin’s Lymphoma 
+Non-Hodgkin s Lymphoma 
 This is a disease of the lymph tissue (part of the immune system) that affects a type of white blood cell 
 called B-Lymphocytes. 
-In adults Ruxience can be given alone or with other medicines called “chemotherapy”. 
+In adults Ruxience can be given alone or with other medicines called  chemotherapy . 
 In adult patients where the treatment is working, Ruxience may be used as a maintenance treatment for 
 2 years after completing the initial treatment. 
-In children and adolescents, Ruxience is given in combination with “chemotherapy”. </p>
+In children and adolescents, Ruxience is given in combination with  chemotherapy . </p>
 <p>b) 
 Chronic lymphocytic leukaemia 
 Chronic lymphocytic leukaemia (CLL) is the most common form of adult leukaemia. CLL affects a 
@@ -106,7 +106,7 @@ rheumatoid arthritis and aid in confirming the diagnosis. </p>
 <p>d) 
 Granulomatosis with polyangiitis or microscopic polyangiitis 
 Ruxience is used for the treatment of adults and children 2 years of age and older with granulomatosis 
-with polyangiitis (formerly called Wegener’s granulomatosis) or microscopic polyangiitis, taken in 
+with polyangiitis (formerly called Wegener s granulomatosis) or microscopic polyangiitis, taken in 
 combination with corticosteroids. </p>
 <p>Granulomatosis with polyangiitis and microscopic polyangiitis are two forms of inflammation of the 
 blood vessels which mainly affects the lungs and kidneys, but may affect other organs as well. B 
@@ -158,16 +158,16 @@ by Ruxience help to fight infection and you should wait until the infection has 
 are given Ruxience. Also please tell your doctor if you had a lot of infections in the past or 
 suffer from severe infections. </p>
 <p>Children and adolescents 
-Non-Hodgkin’s lymphoma 
+Non-Hodgkin s lymphoma 
 Ruxience can be used for the treatment of children and adolescents, 6 months of age and older, with 
-non-Hodgkin’s lymphoma, specifically CD20 positive diffuse large B-cell lymphoma (DLBCL), 
+non-Hodgkin s lymphoma, specifically CD20 positive diffuse large B-cell lymphoma (DLBCL), 
 Burkitt lymphoma (BL)/Burkitt leukaemia (mature B-cell acute leukaemia) (BAL) or Burkitt-like 
 lymphoma (BLL). </p>
 <p>Talk to your doctor, pharmacist or nurse before you are given this medicine if you, or your child, are 
 under 18 years of age.  </p>
 <p>Granulomatosis with polyangiitis or microscopic polyangiitis 
 Ruxience can be used for treatment of children and adolescents, 2 years of age and older, with 
-granulomatosis with polyangiitis (formerly called Wegener’s granulomatosis) or microscopic 
+granulomatosis with polyangiitis (formerly called Wegener s granulomatosis) or microscopic 
 polyangiitis. There is not much information about the use of rituximab in children and adolescents 
 with other diseases. </p>
 <p>Talk to your doctor, pharmacist or nurse before you are given this medicine if you, or your child, are 
@@ -181,7 +181,7 @@ affect the way Ruxience works. </p>
 * if you are taking medicines for high blood pressure. You may be asked not to take these other 
 medicines 12 hours before you are given Ruxience. This is because some people have a fall in 
 their blood pressure while they are being given Ruxience. 
-* if you have ever taken medicines which affect your immune system – such as chemotherapy or 
+* if you have ever taken medicines which affect your immune system   such as chemotherapy or 
 immune-suppressive medicines. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse before 
 you are given Ruxience. </p>
@@ -199,7 +199,7 @@ It is not known whether rituximab has an effect on you being able to drive or us
 machines. </p>
 <p>Ruxience sodium content 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ruxience"
@@ -216,7 +216,7 @@ Before you are given Ruxience, you will be given other medicines (pre-medication
 reduce possible side effects. </p>
 <p>How much and how often you will receive your treatment </p>
 <p>a) 
-If you are being treated for non-Hodgkin’s lymphoma 
+If you are being treated for non-Hodgkin s lymphoma 
 * If you are having Ruxience alone 
 Ruxience will be given to you once a week for 4 weeks. Repeated treatment courses with 
 Ruxience are possible. 
@@ -227,7 +227,7 @@ every 3 weeks up to 8 times.
 every 2 or 3 months for two years. Your doctor may change this, depending on how you 
 respond to the medicine. 
 * If you are less than 18 years of age, you will be given Ruxience with chemotherapy. You 
-will receive Ruxience up to 6 times over a 3.5 – 5.5 month period. </p>
+will receive Ruxience up to 6 times over a 3.5   5.5 month period. </p>
 <p>b) 
 If you are being treated for chronic lymphocytic leukaemia 
 When you are treated with Ruxience in combination with chemotherapy, you will receive Ruxience 
@@ -280,15 +280,15 @@ to stop your Ruxience treatment if these reactions are serious. </p>
 <p>Infections 
 Tell your doctor immediately if you or your child gets signs of an infection including: 
 * fever, cough, sore throat, burning pain when passing urine or feeling weak or generally unwell 
-* memory loss, trouble thinking, difficulty walking or sight loss – these may be due to a very rare, 
+* memory loss, trouble thinking, difficulty walking or sight loss   these may be due to a very rare, 
 serious brain infection, which has been fatal (Progressive Multifocal Leukoencephalopathy or 
 PML). 
 * fever, headache and stiff neck, incoordination (ataxia), personality change, hallucinations, 
-altered consciousness, seizures or coma – these may be due to a serious brain infection 
+altered consciousness, seizures or coma   these may be due to a serious brain infection 
 (enteroviral meningoencephalitis), which can be fatal. </p>
 <p>You might get infections more easily during your treatment with Ruxience. 
 These are often colds, but there have been cases of pneumonia, or urinary infections and serious viral 
-infections. These are listed below under “Other side effects”. </p>
+infections. These are listed below under  Other side effects . </p>
 <p>If you are being treated for rheumatoid arthritis, granulomatosis with polyangiitis, microscopic 
 polyangiitis or pemphigus vulgaris, you will also find this information in the Patient Alert Card you 
 have been given by your doctor. It is important that you keep this Alert Card and show it to your 
@@ -300,14 +300,14 @@ the genital areas or the eyelids, and fever may be present. Tell your doctor imm
 experience any of these symptoms. </p>
 <p>Other side effects include: 
 a) 
-If you or your child are being treated for non-Hodgkin’s lymphoma or chronic 
+If you or your child are being treated for non-Hodgkin s lymphoma or chronic 
 lymphocytic leukaemia </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
 * bacterial or viral infections, bronchitis 
-* low number of white blood cells, with or without fever or blood cells called “platelets” 
+* low number of white blood cells, with or without fever or blood cells called  platelets<br />
 * feeling sick (nausea) 
 * bald spots on the scalp, chills, headache 
-* lower immunity – because of lower levels of anti-bodies called “immunoglobulins” (IgG) in the 
+* lower immunity   because of lower levels of anti-bodies called  immunoglobulins  (IgG) in the 
 blood which help protect against infection </p>
 <p>Common side effects (may affect up to 1 in 10 people): 
 * infections of the blood (sepsis), pneumonia, shingles, cold, bronchial tube infections, fungal 
@@ -315,8 +315,8 @@ infections, infections of unknown origin, sinus inflammation, hepatitis B
 * low number of red blood cells (anaemia), low number of all blood cells 
 * allergic reactions (hypersensitivity) 
 * high blood sugar level, weight loss, swelling in the face and body, high levels of the enzyme 
-“LDH” in the blood, low calcium levels in the blood 
-* unusual feelings of the skin – such as numbness, tingling, pricking, burning, a creeping skin 
+ LDH  in the blood, low calcium levels in the blood 
+* unusual feelings of the skin   such as numbness, tingling, pricking, burning, a creeping skin 
 feeling, reduced sense of touch 
 * feeling restless, problems falling asleep 
 * becoming very red in the face and other areas of the skin as a consequence of dilation of the 
@@ -324,7 +324,7 @@ blood vessels
 * feeling dizzy or anxious 
 * producing more tears, tear duct problems, inflamed eye (conjunctivitis) 
 * ringing sound in the ears, ear pain 
-* heart problems – such as heart attack, uneven or fast heart rate 
+* heart problems   such as heart attack, uneven or fast heart rate 
 * high or low blood pressure (low blood pressure especially when standing upright) 
 * tightening of the muscles in the airways which causes wheezing (bronchospasm), inflammation, 
 irritation in the lungs, throat or sinuses, being short of breath, runny nose 
@@ -332,7 +332,7 @@ irritation in the lungs, throat or sinuses, being short of breath, runny nose
 problems swallowing, constipation, indigestion 
 * eating disorders, not eating enough, leading to weight loss 
 * hives, increased sweating, night sweats 
-* muscle problems – such as tight muscles, joint or muscle pain, back and neck pain 
+* muscle problems   such as tight muscles, joint or muscle pain, back and neck pain 
 * tumour pain 
 * general discomfort or feeling uneasy or tired, shaking, signs of flu 
 * multiple-organ failure. </p>
@@ -340,13 +340,13 @@ problems swallowing, constipation, indigestion
 * blood clotting problems, decrease of red blood cell production and increase of red blood cell 
 destruction (aplastic haemolytic anaemia), swollen or enlarged lymph nodes 
 * low mood and loss of interest or enjoyment in doing things, feeling nervous 
-* taste problems – such as changes in the way things taste 
-* heart problems – such as reduced heart rate or chest pain (angina) 
+* taste problems   such as changes in the way things taste 
+* heart problems   such as reduced heart rate or chest pain (angina) 
 * asthma, too little oxygen reaching the body organs 
 * swelling of the stomach. </p>
 <p>Very rare side effects (may affect up to 1 in 10, 000 people): 
 * short term increase in the amount of some types of anti-bodies in the blood (called 
-immunoglobulins – IgM), chemical disturbances in the blood caused by break-down of dying 
+immunoglobulins   IgM), chemical disturbances in the blood caused by break-down of dying 
 cancer cells 
 * nerve damage in arms and legs, paralysed face 
 * heart failure 
@@ -360,12 +360,12 @@ areas or the eyelids, and fever may be present.
 * severe vision loss </p>
 <p>Not known (frequency cannot be estimated from the available data): 
 * a reduction in white blood cells which does not happen straight away 
-* reduced platelets number just after the infusion – this can be reversed, but can be fatal in rare 
+* reduced platelets number just after the infusion   this can be reversed, but can be fatal in rare 
 cases 
 * hearing loss, loss of other senses 
 * brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </p>
-<p>Children and adolescents with non-Hodgkin’s lymphoma: In general, side effects in children and 
-adolescents with non-Hodgkin’s lymphoma were similar to those in adults with non-Hodgkin’s 
+<p>Children and adolescents with non-Hodgkin s lymphoma: In general, side effects in children and 
+adolescents with non-Hodgkin s lymphoma were similar to those in adults with non-Hodgkin s 
 lymphoma or chronic lymphocytic leukaemia. The most common side effects seen were fever 
 associated with low levels of a type of white blood cell (neutrophil), inflammation or sores in the 
 lining of the mouth, and allergic reactions (hypersensitivity). </p>
@@ -385,7 +385,7 @@ some specific proteins in the blood (immunoglobulins) which help protect against
 * infections such as bronchial tube inflammation (bronchitis) 
 * a feeling of fullness or a throbbing pain behind the nose, cheeks and eyes (sinusitis), pain in the 
 abdomen, vomiting and diarrhoea, breathing problems 
-* fungal foot infection (athlete’s foot) 
+* fungal foot infection (athlete s foot) 
 * high cholesterol levels in the blood 
 * abnormal sensations of the skin, such as numbness, tingling, pricking or burning, sciatica, 
 migraine, dizziness 
@@ -492,9 +492,9 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store ruxience"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after “EXP”. The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Keep the container in the outer carton in order to protect from 
+<p>Store in a refrigerator (2  C   8  C). Keep the container in the outer carton in order to protect from 
 light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines that you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -516,8 +516,8 @@ edetate, polysorbate 80, sucrose, water for injection. </li>
 <p>What Ruxience looks like and contents of the pack </p>
 <p>Ruxience is a clear to slightly opalescent, colourless to pale brownish-yellow solution, supplied as a 
 concentrate for solution for infusion [sterile concentrate].<br />
-10 mL vial – Pack of 1 vial 
-50 mL vial – Pack of 1 vial  </p>
+10 mL vial   Pack of 1 vial 
+50 mL vial   Pack of 1 vial  </p>
 <p>Marketing Authorisation Holder </p>
 <p>Pfizer Europe MA EEIG<br />
 Boulevard de la Plaine 17<br />
@@ -529,17 +529,17 @@ Rijksweg 2870 Puurs-Sint-Amands
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
-Kύπρος 
-Pfizer Eλλάς A.E. (Cyprus Branch) 
-Tηλ: +357 22817 
-Česká republika 
+T l/Tel: +32 (0)2 554 62<br />
+K<br />
+Pfizer E  A.E. (Cyprus Branch) 
+T : +357 22817 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
-Magyarország 
+Magyarorsz g 
 Pfizer Kft. 
 Tel.: + 36 1 488 37<br />
 Danmark 
@@ -553,35 +553,33 @@ PFIZER PHARMA GmbH
 Tel: +49 (0)30 550055-51 
 Nederland 
 Pfizer bv 
-Tel: +31 (0)800 63 34<br />
-България 
-Пфайзер Люксембург САРЛ, 
-Клон България 
-Teл.: +359 2 970 4 
+Tel: +31 (0)800 63 34  </p>
+<pre><code> ,
+</code></pre>
+<p>Te .: +359 2 970 4 
 Norge 
 Pfizer AS 
 Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Eλλάς A.E. 
-Τηλ: +30 210 6785 
+<p>Pfizer E  A.E. 
+ : +30 210 6785 
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer<br />
-Tél: +33 (0)1 58 07 34<br />
-România 
+T l: +33 (0)1 58 07 34<br />
+Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28<br />
 Hrvatska 
@@ -589,19 +587,19 @@ Pfizer Croatia d.o.o.
 Tel: +385 1 3908<br />
 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
 Tel: +44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: + 421 2 3355 5 
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
+S mi: +354 540 8 
 Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430<br />
@@ -612,7 +610,7 @@ Sverige
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35<br />
 United Kingdom (Northern Ireland) 
 Pfizer Limited 
@@ -620,7 +618,7 @@ Tel: +44 (0)1304 616
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel: +370 5 251 4 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

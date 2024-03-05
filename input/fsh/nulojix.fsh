@@ -4,7 +4,7 @@ Instance: composition-en-b4bc6381ffe8a433a405b4f88b0c023b
 InstanceOf: CompositionUvEpi
 Title: "Composition for nulojix Package Leaflet"
 Description:  "Composition for nulojix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use NULOJIX 
 4. Possible side effects 
 5. How to store NULOJIX 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -103,7 +102,7 @@ resist disease and infections. They may cause rejection of your transplanted kid
 * If you are not sure about any of these conditions, ask you doctor. </p>
 <p>Serious infections </p>
 <p>Serious infections can happen with NULOJIX treatment and can lead to death. </p>
-<p>NULOJIX weakens the body’s ability to fight infections. Serious infections can include 
+<p>NULOJIX weakens the body s ability to fight infections. Serious infections can include 
 * Tuberculosis 
 * Cytomegalovirus (CMV), a virus that can cause serious tissue and blood infections 
 * Shingles 
@@ -113,7 +112,7 @@ leukoencephalopathy (PML) that have occurred in patients who have been given NUL
 often leads to severe disability or death. </p>
 <p>Tell your family or caregiver about your treatment. You might get symptoms that you might not be 
 aware of yourself. Your doctor may need to investigate your symptoms to rule out PML, PTLD or 
-other infections. For a list of symptoms please see section 4, “Possible side effects”. </p>
+other infections. For a list of symptoms please see section 4,  Possible side effects . </p>
 <p>Skin cancer </p>
 <p>Limit your exposure to sunlight and ultraviolet (UV) light whilst using NULOJIX. Wear protective 
 clothing and use a sunscreen with a high protection factor. People who use NULOJIX have a higher 
@@ -177,7 +176,7 @@ Day of transplantation, prior to implantation (Day 1)
 Day 5, Day 14 and Day End of Week 8 and Week 12 after transplantation 
 Maintenance Phase 
 Dose 
-Every 4 weeks (± 3 days) starting at end of week 16 after transplantation 
+Every 4 weeks (  3 days) starting at end of week 16 after transplantation 
 6 mg/kg </p>
 <p>At the time of your kidney transplant you may be given NULOJIX in combination with other types of 
 immunosuppressant medication to help prevent your body from rejecting your transplanted kidney. </p>
@@ -316,7 +315,7 @@ frequent lung infections
 of the kidneys, scarring of the kidneys, shrinkage of the small tubes in the kidney, inflammation 
 of the bladder with bleeding 
 * Blood clotting in kidney artery 
-* Guillian-Barré syndrome (a condition that causes muscle weakness or paralysis) 
+* Guillian-Barr  syndrome (a condition that causes muscle weakness or paralysis) 
 * EBV (Epstein-Barr virus) lymphoproliferative disease 
 * Blood clotting in veins, inflamed veins, periodic leg cramps 
 * Abnormal arteries, scarring of the arteries, clotting in the arteries, narrowing of the arteries, 
@@ -371,14 +370,14 @@ safety of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine will be stored in the healthcare facility where it is administered. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). </p>
+<p>Store in a refrigerator (2  C   8  C). </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>After reconstitution, the reconstituted solution should be transferred from the vial to the infusion bag 
 or bottle immediately. </p>
 <p>After dilution, and from a microbiological point of view, the product should be used immediately. If 
-not used immediately, the solution for infusion may be stored in a refrigerator (2 °C – 8 °C) for up to 
+not used immediately, the solution for infusion may be stored in a refrigerator (2  C   8  C) for up to 
 24 hours. The solution for infusion may be stored for a maximum of 4 hours of the total 24 hours 
-below 25 °C. Do not freeze. 
+below 25  C. Do not freeze. 
 The NULOJIX infusion must be completed within 24 hours of reconstitution of the powder. </p>
 <p>Do not use NULOJIX if you notice any particles or discolouration in the reconstituted or diluted 
 solution. </p>

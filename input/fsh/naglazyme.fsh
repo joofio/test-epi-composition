@@ -4,7 +4,7 @@ Instance: composition-en-bcfd259a4c339f09aa5b9e39f7a72d51
 InstanceOf: CompositionUvEpi
 Title: "Composition for naglazyme Package Leaflet"
 Description:  "Composition for naglazyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How this medicine is given 
 4. Possible side effects 
 5. How to store this medicine 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +92,7 @@ was not successful.  </p>
 <p>Warnings and precautions<br />
 - If you are treated with Naglazyme, you may develop infusion-associated reactions. An infusion 
 associated reaction is any side effect occurring during the infusion or until the end of the 
-infusion day (see section 4 “Possible Side Effects”). When you experience such a reaction, you 
+infusion day (see section 4  Possible Side Effects ). When you experience such a reaction, you 
 should immediately contact your doctor.<br />
 -<br />
 If you have an allergic reaction your doctor may slow down, or stop, your infusion.  Your doctor 
@@ -146,8 +145,8 @@ questions on the use of this medicine, ask your doctor. </p>         </div>"""
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Side effects were mainly seen while patients were being given the medicine or shortly after (“infusion 
-associated reactions”). The most serious side effects were swollen face and fever (very common); 
+<p>Side effects were mainly seen while patients were being given the medicine or shortly after ( infusion 
+associated reactions ). The most serious side effects were swollen face and fever (very common); 
 longer than normal gaps between breaths, difficulty breathing, asthma and hives (common); and 
 swelling of the tongue and throat, and serious allergic reaction to this medicine (unknown frequency). 
 If you experience any reaction like this, please tell your doctor immediately. You may need to be 
@@ -156,64 +155,37 @@ or to reduce fever (antipyretics).
 The most common symptoms of infusion associated reactions include fever, chills, rash, hives and 
 shortness of breath. </p>
 <p>Very common side effects (these may affect more than 1 in 10 people):  </p>
-<p> 
-Sore throat 
- 
-Gastroenteritis 
- 
-Poor reflexes 
- 
-Headache 
- 
-Inflammation of the eye 
- 
-Cloudy eyes 
- 
-Poor hearing 
- 
-High blood pressure </p>
-<p> 
-Nasal congestion 
- 
-Bulging belly button 
- 
-Vomiting 
- 
-Nausea 
- 
-Itching 
- 
-Pain (including ear, abdominal, joint, 
-chest pain) 
- 
-Malaise  </p>
+<p>Sore throat </p>
+<p>Gastroenteritis </p>
+<p>Poor reflexes </p>
+<p>Headache </p>
+<p>Inflammation of the eye </p>
+<p>Cloudy eyes </p>
+<p>Poor hearing </p>
+<p>High blood pressure </p>
+<p>Nasal congestion </p>
+<p>Bulging belly button </p>
+<p>Vomiting </p>
+<p>Nausea </p>
+<p>Itching </p>
+<p>Pain (including ear, abdominal, joint, 
+chest pain) </p>
+<p>Malaise  </p>
 <p>Common side effects (these may affect up to 1 in 10 people):  </p>
-<p> 
-Tremor 
- 
-Low blood pressure 
- 
-Cough 
- 
-Wheezing 
- 
-Skin redness </p>
+<p>Tremor </p>
+<p>Low blood pressure </p>
+<p>Cough </p>
+<p>Wheezing </p>
+<p>Skin redness </p>
 <p>Other side effects with an unknown frequency:  </p>
-<p> 
-Shock 
- 
-Tingling 
- 
-Decreased heart rate 
- Increased heart rate 
- 
-Bluish skin<br />
- 
-Skin paleness 
- 
-Low blood-oxygen 
- 
-Rapid breathing </p>
+<p>Shock </p>
+<p>Tingling </p>
+<p>Decreased heart rate 
+  Increased heart rate </p>
+<p>Bluish skin  </p>
+<p>Skin paleness </p>
+<p>Low blood-oxygen </p>
+<p>Rapid breathing </p>
 <p>If you get any of these symptoms, or other symptoms not listed in this leaflet, tell your doctor 
 immediately. This includes any possible side effects not listed in this leaflet. You can also report side 
 effects directly via the national reporting system listed in Appendix V. By reporting side effects you 
@@ -228,15 +200,15 @@ can help provide more information on the safety of this medicine. </p>         <
 <p>Do not take use this medicine after the expiry date which is stated on the vial after EXP. The expiry 
 date refers to the last day of that month. </p>
 <p>Unopened vials:<br />
-Store in a refrigerator (2C - 8C).  </p>
+Store in a refrigerator (2 C - 8 C).  </p>
 <p>Do not freeze. </p>
 <p>Diluted solutions:<br />
 Chemical and physical in-use stability has been demonstrated for up to 4 days at room temperature 
-(23C - 27C). </p>
+(23 C - 27 C). </p>
 <p>From a microbiological safety point of view, the product is to be used immediately. If not used 
 immediately, in-use storage times and conditions are the responsibility of the user and must normally 
-not be longer than 24 hours at 2C - 8C followed by up to 24 hours at room temperature 
-(23C - 27C) during administration. </p>
+not be longer than 24 hours at 2 C - 8 C followed by up to 24 hours at room temperature 
+(23 C - 27 C) during administration. </p>
 <p>Do not take Naglazyme if it contains visible particles.  </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      

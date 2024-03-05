@@ -4,7 +4,7 @@ Instance: composition-en-06f9b891f2158becb7dcf14e44abf883
 InstanceOf: CompositionUvEpi
 Title: "Composition for roactemra Package Leaflet"
 Description:  "Composition for roactemra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How RoActemra is given 
 4. Possible side effects 
 5. How to store RoActemra 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -131,7 +130,7 @@ doctor immediately. </p>
 </li>
 <li>
 <p>If you have any kind of infection, short- or long-term, or if you often get infections. Tell your 
-doctor immediately if you feel unwell. RoActemra can reduce your body’s ability to respond 
+doctor immediately if you feel unwell. RoActemra can reduce your body s ability to respond 
 to infections and may make an existing infection worse or increase the chance of getting a new 
 infection. </p>
 </li>
@@ -338,7 +337,7 @@ white blood cell counts.  </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep RoActemra out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton.  </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze.  </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze.  </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>         </div>"""      
         
         
@@ -373,18 +372,16 @@ D-79639 Grenzach-Wyhlen
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
-Magyarország 
-Roche (Magyarország) Kft. 
+<p>: +359 2 818 44<br />
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 
-Česká republika 
+ esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382Malta<br />
 (See Ireland)  </p>
@@ -405,44 +402,43 @@ Tel: +49 (0) 69 663000 0 </p>
 Roche Norge AS 
 Tlf: +47 - 22 78 90<br />
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177<br />
-Österreich 
+ sterreich 
 Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
+Tel: +43 (0) 1 27 </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
 Polska 
 Roche Polska Sp.z o.o. 
 Tel: +48 - 22 345 18<br />
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 France 
 Roche 
-Tél: +33 (0) 1 47 61 40 ou 
+T l: +33 (0) 1 47 61 40 ou 
 Chugai Pharma France 
-Tél: +33 (0) 1 56 37 05<br />
+T l: +33 (0) 1 56 37 05<br />
 Hrvatska 
 Roche d.o.o 
-Tel: +385 1 47 22 România 
-Roche România S.R.L. 
+Tel: +385 1 47 22 Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47  </p>
 <p>Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 </p>
 <p>Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
+S mi: +354 540 8 
+Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -450,9 +446,9 @@ Roche S.p.A.
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 
@@ -465,7 +461,7 @@ Tel: +44 (0) 1707 366000<br />
 or 
 Chugai Pharma UK Ltd. 
 Tel: +44 (0) 208 987 5Lietuva 
-UAB “Roche Lietuva” 
+UAB  Roche Lietuva<br />
 Tel: +370 5 2546 </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
@@ -476,14 +472,14 @@ http://www.ema.europa.eu/.  </p>
 Parenteral medicinal products should be inspected visually for particulate matter or discolouration 
 prior to administration. Only solutions which are clear to opalescent, colourless to pale yellow and free 
 of visible particles should be diluted. Use a sterile needle and syringe to prepare RoActemra. </p>
-<p>RA, COVID-19 and CRS adult patients (≥ 30 kg) 
+<p>RA, COVID-19 and CRS adult patients (  30 kg) 
 Withdraw a volume of sterile, non-pyrogenic sodium chloride 9 mg/mL (0.9%) solution for injection 
 from a 100 mL infusion bag, equal to the volume of RoActemra concentrate required for the patients 
 dose, under aseptic conditions. The required amount of RoActemra concentrate (0.4 mL/kg) should be 
 withdrawn from the vial and placed in the 100 mL infusion bag. This should be a final volume of 
 100 mL. To mix the solution, gently invert the infusion bag to avoid foaming. </p>
 <p>Use in the paediatric population </p>
-<p>sJIA, pJIA and CRS patients ≥ 30 kg 
+<p>sJIA, pJIA and CRS patients   30 kg 
 Withdraw a volume of sterile, non-pyrogenic sodium chloride 9 mg/mL (0.9%) solution for injection 
 from a 100 mL infusion bag, equal to the volume of RoActemra concentrate required for the patients 
 dose, under aseptic conditions. The required amount of RoActemra concentrate (0.4 mL/kg) should be 
@@ -514,8 +510,6 @@ important information for you. </p>
 <li>This medicine has been prescribed for you only. Do not pass it onto others. It may harm them 
 even if their signs of illness are the same as yours. </li>
 <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.<br />
-In addition to this leaflet, you will be given a Patient Alert Card, which contains important safety 
-information that you need to be aware of before and during treatment with RoActemra. </li>
+side effects not listed in this leaflet. See section </li>
 </ul>         </div>"""      
 

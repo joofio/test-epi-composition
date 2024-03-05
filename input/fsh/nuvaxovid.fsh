@@ -4,7 +4,7 @@ Instance: composition-en-0b2c64f281f8a04082b537d7d8030a6f
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuvaxovid Package Leaflet"
 Description:  "Composition for nuvaxovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Nuvaxovid is and what it is used for 
-2. What you need to know before you receive Nuvaxovid 
+2. What you need to know before you receive  Nuvaxovid 
 3. How Nuvaxovid is given 
 4. Possible side effects 
 5. How to store Nuvaxovid 
@@ -71,9 +71,9 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nuvaxovid is a vaccine used to prevent COVID-19 caused by the SARS-CoV-2 virus.  </p>
 <p>Nuvaxovid is given to individuals 12 years of age and older. </p>
-<p>The vaccine causes the immune system (the body’s natural defences) to produce antibodies and 
+<p>The vaccine causes the immune system (the body s natural defences) to produce antibodies and 
 specialised white blood cells that work against the virus, to give protection against COVID-19. None 
-of the ingredients in this vaccine can cause COVID-19.  </p>         </div>"""   
+of the ingredients in this vaccine can cause COVID-1</p>         </div>"""   
           
 
              
@@ -82,18 +82,25 @@ of the ingredients in this vaccine can cause COVID-19.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take nuvaxovid"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nuvaxovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nuvaxovid"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nuvaxovid should not be given<br />
-• if you are allergic to the active substance or any of the other ingredients of this medicine (listed in 
+  if you are allergic to the active substance or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist, or nurse before you are given Nuvaxovid if: 
-• you have ever had a severe or life-threatening allergic reaction after receiving any other vaccine 
+  you have ever had a severe or life-threatening allergic reaction after receiving any other vaccine 
 injection or after you were given Nuvaxovid in the past, 
-• you have ever fainted following any needle injection, 
-• you have a high fever (over 38°C) or severe infection. However, you can have your vaccination if 
+  you have ever fainted following any needle injection, 
+  you have a high fever (over 38 C) or severe infection. However, you can have your vaccination if 
 you have a mild fever or upper airway infection like a cold, 
-• you have bleeding problems, you bruise easily or you use a medicine to prevent blood clots, 
-• your immune system does not work properly (immunodeficiency) or you are taking medicines 
+  you have bleeding problems, you bruise easily or you use a medicine to prevent blood clots, 
+  your immune system does not work properly (immunodeficiency) or you are taking medicines 
 that weaken the immune system (such as high-dose corticosteroids, immunosuppressants, or 
 cancer medicines). </p>
 <p>There is an increased risk of myocarditis (inflammation of the heart muscle) and pericarditis 
@@ -122,15 +129,16 @@ tired).  </p>
 <p>Do not drive or use machines if you are feeling unwell after vaccination. Wait until any effects of the 
 vaccine have worn off before you drive or use machines.  </p>
 <p>Nuvaxovid contains sodium and potassium  </p>
-<p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>
+<p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>
 <p>This vaccine contains less than 1 mmol potassium (39 milligrams) per dose, that is to say, essentially 
-‘potassium-free’. </p>         </div>"""   
-                    
+ potassium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take nuvaxovid"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take nuvaxovid"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Individuals 12 years of age and older<br />
 Nuvaxovid will be given to you as two separate 0.5 mL injections. </p>
@@ -142,13 +150,20 @@ individuals 12 years of age and older. </p>
 <p>During and after each injection of the vaccine, your doctor, pharmacist, or nurse will watch over you 
 for around 15 minutes to monitor for signs of an allergic reaction. </p>
 <p>If you miss an appointment for your second injection of Nuvaxovid ask your doctor or nurse for 
-advice. If you miss a scheduled injection, you may not be fully protected against COVID-19.  </p>         </div>"""         
-
+advice. If you miss a scheduled injection, you may not be fully protected against COVID-1</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store nuvaxovid"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store nuvaxovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. Most side 
 effects go away within a few days of appearing. If symptoms persist, contact your doctor, pharmacist 
@@ -177,7 +192,7 @@ reaction:
 <p>Common (may affect up to 1 in 10 people): 
 * redness where the injection is given 
 * swelling where the injection is given 
-* fever (&gt;38°C) 
+* fever (&gt;38 C) 
 * pain or discomfort in the arm, hand, leg and/or foot (pain in the extremity) </p>
 <p>Uncommon (may affect up to 1 in 100 people): 
 * enlarged lymph nodes 
@@ -201,64 +216,4 @@ If you get any side effects, talk to your doctor, pharmacist, or nurse. This inc
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V and include batch/Lot number if available. By reporting side effects, you 
 can help provide more information on the safety of this vaccine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store nuvaxovid"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store nuvaxovid"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Your doctor, pharmacist, or nurse is responsible for storing this vaccine and disposing of any unused 
-product correctly. </p>
-<p>Information about storage, expiry, use and handling are described in the section intended for 
-healthcare professionals at the end of the package leaflet. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Nuvaxovid contains  </p>
-<p>• One dose (0.5 mL) Nuvaxovid contains 5 micrograms of SARS-CoV-2 spike protein* and is 
-adjuvanted with Matrix-M. </p>
-<p>*produced by recombinant DNA technology using a baculovirus expression system in an insect 
-cell line that is derived from Sf9 cells of the Spodoptera frugiperda species. </p>
-<p>• Matrix-M is included in this vaccine as an adjuvant. Adjuvants are substances included in certain 
-vaccines to accelerate, improve, and/or prolong the protective effects of the vaccine. Matrix-M 
-adjuvant contains Fraction-A (42.5 micrograms) and Fraction-C (7.5 micrograms) of Quillaja 
-saponaria Molina extract per 0.5 mL dose. </p>
-<p>• The other ingredients (excipients) included in Nuvaxovid are:<br />
-• Disodium hydrogen phosphate heptahydrate<br />
-• Sodium dihydrogen phosphate monohydrate<br />
-• Disodium hydrogen phosphate dihydrate 
-• Sodium chloride<br />
-• Polysorbate 80<br />
-• Cholesterol 
-• Phosphatidylcholine (including all-rac-α-Tocopherol) 
-• Potassium dihydrogen phosphate 
-• Potassium chloride 
-• Sodium hydroxide (for the adjustment of pH)<br />
-• Hydrochloric acid (for the adjustment of pH)<br />
-• Water for Injections </p>
-<p>What Nuvaxovid looks like and contents of the pack </p>
-<p>• The dispersion is colourless to slightly yellow, clear to mildly opalescent (pH 7.2). </p>
-<p>5-dose vial 
-- 2.5 mL of dispersion for injection in a vial with a rubber stopper and a blue flip-off top. 
-- Pack size: 2 multidose vials or 10 multidose vials. Each vial contains 5 doses of 0.5 mL. </p>
-<p>10-dose vial 
-- 5 mL of dispersion for injection in a vial with a rubber stopper and a blue flip-off top. 
--         Pack size: 2 multidose vials or 10 multidose vials. Each vial contains 10 doses of 0.5 mL. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Novavax CZ a.s. 
-Bohumil Jevany, 28Czechia </p>
-<p>Manufacturer 
-Novavax CZ a.s. 
-Bohumil Jevany, 28Czechia </p>
-<p>This leaflet was last revised in. </p>
-<p>Scan the code with a mobile device to get the package leaflet in different languages. </p>
-<p>Or visit the URL: https://www.NovavaxCovidVaccine.com  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

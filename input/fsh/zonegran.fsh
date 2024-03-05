@@ -4,7 +4,7 @@ Instance: composition-en-5d598acaa06e1793f466dd362946add4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zonegran Package Leaflet"
 Description:  "Composition for zonegran Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Zonegran 
 4. Possible side effects 
 5. How to store Zonegran 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -117,7 +116,7 @@ perspire less, which can cause your body temperature to increase. Reduce the ris
 by drinking sufficient water and keeping cool. 
 * are underweight, or have lost a lot of weight as Zonegran can cause you to lose more weight. Tell 
 your doctor as this may need to be monitored. 
-* are pregnant or could become pregnant (see section ‘pregnancy, breast-feeding and fertility’ for 
+* are pregnant or could become pregnant (see section  pregnancy, breast-feeding and fertility  for 
 further information). </p>
 <p>If any of these applies to you, tell your doctor before you take Zonegran. </p>
 <p>Children and adolescents 
@@ -126,26 +125,26 @@ Talk to your doctor about the following risks: </p>
 <p>Zonegran can cause your child to sweat less and overheat and if your child is not treated this can lead 
 to brain damage and death. Children are most at risk especially in hot weather.  </p>
 <p>When your child is taking Zonegran: 
-• Keep your child cool especially in hot weather<br />
-• Your child must avoid heavy exercise especially when the weather is hot<br />
-• Give your child plenty of cold water to drink<br />
-• Your child must not take these medicines: 
+  Keep your child cool especially in hot weather<br />
+  Your child must avoid heavy exercise especially when the weather is hot<br />
+  Give your child plenty of cold water to drink<br />
+  Your child must not take these medicines: 
 carbonic anhydrase inhibitors (like topiramate and acetazolamide), and anticholinergic agents (like 
 clomipramine, hydroxyzine, diphenhydramine, haloperidol, imipramine and oxybutynin).   </p>
-<p>If your child’s skin feels very hot with little or no sweating, becomes confused, has muscle cramps, or 
-your child’s heartbeat or breathing becomes rapid:<br />
+<p>If your child s skin feels very hot with little or no sweating, becomes confused, has muscle cramps, or 
+your child s heartbeat or breathing becomes rapid:<br />
 <em> Take your child to a cool, shaded place<br />
-</em> Sponge your child’s skin with cool (not cold) water 
+</em> Sponge your child s skin with cool (not cold) water 
 * Give your child cold water to drink 
 * Seek urgent medical assistance. </p>
 <ul>
-<li>Body weight: You should monitor your child’s weight every month and see your doctor as soon as 
+<li>Body weight: You should monitor your child s weight every month and see your doctor as soon as 
 possible if your child is not gaining enough weight. Zonegran is not recommended for children 
 who are underweight or have a small appetite, and should be used with caution in those below kg. </li>
 <li>Increased acid level in the blood and kidney stones: Reduce these risks by ensuring that your child 
 drinks enough water and is not taking any other medicine which could cause kidney stones (see </li>
 </ul>
-<p>Other medicines). Your doctor will monitor your child’s blood bicarbonate levels and kidneys (see 
+<p>Other medicines). Your doctor will monitor your child s blood bicarbonate levels and kidneys (see 
 also section 4).  </p>
 <p>Do not give this medicine to children below the age of 6 years because it is not known for this age 
 group whether the potential benefits are greater than the risks. </p>
@@ -227,7 +226,7 @@ with you. You may become sleepy and could lose consciousness. You might also fee
 stomach, muscle twitches, eye movement, feel faint, have a slowed heart beat, and reduced breathing 
 and kidney function. Do not try to drive. </p>
 <p>If you forget to take Zonegran 
-* If you forget to take a dose, don’t worry: take the next dose when it is due. 
+* If you forget to take a dose, don t worry: take the next dose when it is due. 
 * Do not take double the dose to make up for the forgotten dose. </p>
 <p>If you stop taking Zonegran 
 * Zonegran is meant to be taken as a long-term medicine. Do not reduce your dose or stop your 
@@ -265,7 +264,7 @@ easily, as this may mean you have a blood disorder.<br />
 loss of appetite. Your doctor may need to monitor or treat this. </p>
 <p>Your doctor may decide that you should stop using Zonegran. </p>
 <p>The most common side effects of Zonegran are mild. They occur during the first month of treatment 
-and usually decrease with continued treatment. In children ages 6 – 17 years old, side effects were 
+and usually decrease with continued treatment. In children ages 6   17 years old, side effects were 
 consistent with those described below with the following exceptions: pneumonia, dehydration, 
 sweating decreased (common) and abnormal liver enzymes (uncommon).   </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
@@ -320,7 +319,7 @@ this medicine.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not use this medicine if you notice any damage to the capsules, blister or carton or any visible 
 signs of deterioration in the medicine. Return the pack to your pharmacist. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -351,12 +350,12 @@ FCF (E110) and allura red (E129). </p>
 allura red AC (E129) and hydrogenated vegetable oil (from soyabean). </p>
 <p>What Zonegran looks like and contents of the pack 
 - Zonegran 25 mg hard capsules have a white opaque body and a white opaque cap and are 
-printed with “ZONEGRAN 25” in black. <br />
+printed with  ZONEGRAN 25  in black. <br />
 - Zonegran 50 mg hard capsules have a white opaque body and a grey opaque cap and are printed 
-with “ZONEGRAN 50” in black.<br />
+with  ZONEGRAN 50  in black.<br />
 - Zonegran 100 mg hard capsules have a white opaque body and a red opaque cap and are printed 
-with “ZONEGRAN 100” in black.   </p>
-<p>Zonegran capsules are packaged in blister packs supplied in boxes containing: </p>
+with  ZONEGRAN 100  in black.   </p>
+<p>Zonegran capsules are packaged in blister packs supplied in boxes containing:</p>
 <ul>
 <li>25 mg: 14, 28, 56 and 84 capsules </li>
 <li>50 mg: 14, 28, 56 and 84 capsules </li>
@@ -372,7 +371,7 @@ Ireland
 e-mail: medicalinformation@advanzpharma.com </p>
 <p>Manufacturer 
 Eisai GmbH 
-Edmund-Rumpler-Straße 3   <br />
+Edmund-Rumpler-Stra e 3   <br />
 60549 Frankfurt am Main 
 Germany  </p>
 <p>SKYEPHARMA PRODUCTION S.A.S. 
@@ -382,17 +381,17 @@ SAINT QUENTIN FALLAVIER,
 38070, France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Amdipharm Limited 
-Tél/Tel: +32 (0)28 088 Lietuva 
+T l/Tel: +32 (0)28 088 Lietuva 
 Amdipharm Limited 
-Tel: +44 (0) 208 588 9България 
+Tel: +44 (0) 208 588 9<br />
 Amdipharm Limited 
-Teл.: +44 (0) 208 588 9Luxembourg/Luxemburg 
+Te .: +44 (0) 208 588 9Luxembourg/Luxemburg 
 Amdipharm Limited 
-Tél/Tel: +44 (0) 208 588 9Česká republika 
+T l/Tel: +44 (0) 208 588 9 esk  republika 
 Amdipharm Limited 
-Tel: +44 (0) 208 588 9Magyarország 
+Tel: +44 (0) 208 588 9Magyarorsz g 
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9Danmark 
 Amdipharm Limited 
@@ -407,11 +406,11 @@ Tel: +31 (0) 208 08 3 </p>
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9Norge 
 Amdipharm Limited 
-Tlf: +44 (0) 208 588 9Ελλάδα 
+Tlf: +44 (0) 208 588 9<br />
 Amdipharm Limited 
-Τηλ: +44 (0) 208 588 9Österreich 
+ : +44 (0) 208 588 9 sterreich 
 Amdipharm Limited 
-Tel: +43 (0) 800 298 España 
+Tel: +43 (0) 800 298 Espa a 
  Ferrer Internacional, S.A. 
 Tel: +34 93 600 37 00<br />
 Polska 
@@ -419,28 +418,28 @@ Amdipharm Limited
 Tel: +44 (0) 208 588 9France 
 CENTRE SPECIALITES 
 PHARMACEUTIQUES 
-Tél: 01.47.04.80.Portugal 
+T l: 01.47.04.80.Portugal 
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9 
 Hrvatska 
  Amdipharm Limited 
-Tel: +44 (0) 208 588 9România 
+Tel: +44 (0) 208 588 9Rom nia 
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9Ireland 
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9Slovenija 
 Amdipharm Limited 
-Tel: +44 (0) 208 588 9Ísland 
+Tel: +44 (0) 208 588 9 sland 
 Amdipharm Limited 
-Sími: +44 (0) 208 588 9Slovenská republika 
+S mi: +44 (0) 208 588 9Slovensk  republika 
 Amdipharm Limited 
 Tel.: +44 (0) 208 588 9Italia 
 Amdipharm Limited 
 Tel: +39 02 600 630 Suomi/Finland 
 Amdipharm Limited 
-Puh/Tel: +44 (0) 208 588 9Κύπρος 
+Puh/Tel: +44 (0) 208 588 9<br />
 Amdipharm Limited 
-Τηλ: +44 (0) 208 588 9Sverige 
+ : +44 (0) 208 588 9Sverige 
 Amdipharm Limited 
 Tel: +46 (0)8 408 38 Latvija 
 Amdipharm Limited 
@@ -456,7 +455,7 @@ authorisation(s) </p>
 <p>Scientific conclusions 
 Taking into account the PRAC Assessment Report on the PSUR(s) for zonisamide, the scientific 
 conclusions of CHMP are as follows:<br />
-‘Use in pregnancy’ is an important potential risk for zonisamide. Zonisamide must not be used 
+ Use in pregnancy  is an important potential risk for zonisamide. Zonisamide must not be used 
 during pregnancy or in women of childbearing potential not using effective contraception unless 
 clearly necessary and only if the potential benefit is considered to justify the risk to the foetus. 
 Clinical data on the potential risks of congenital malformation and neurodevelopmental disorders 
@@ -474,7 +473,7 @@ use during pregnancy, pregnancy testing should be considered prior to initiation
 exclude pregnancy, as is recommended for other antiepileptic drugs. Moreover, the product 
 information should clearly reflect that re-evaluation of antiepileptic therapy should take place prior to 
 conception and before contraception is discontinued, whilst the need for urgent review by the 
-patient’s treating doctor in the event of suspected or confirmed pregnancy should be reflected clearly 
+patient s treating doctor in the event of suspected or confirmed pregnancy should be reflected clearly 
 in the product information.  The PRAC concluded that the product information of products 
 containing zonisamide should be amended accordingly. 
 The CHMP agrees with the scientific conclusions made by the PRAC. 

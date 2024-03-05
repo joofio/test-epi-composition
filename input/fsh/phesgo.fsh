@@ -4,7 +4,7 @@ Instance: composition-en-f191079d24f65ed4b318bd51e41feaaf
 InstanceOf: CompositionUvEpi
 Title: "Composition for phesgo Package Leaflet"
 Description:  "Composition for phesgo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,13 +70,13 @@ Usage: #example
   * code.text =  "1. What phesgo is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Phesgo is a cancer medicine that contains two active substances: pertuzumab and trastuzumab. 
-* Pertuzumab and trastuzumab are ‘monoclonal antibodies’. They are designed to attach to a 
-specific target on cells called “human epidermal growth factor receptor 2” (HER2). 
+* Pertuzumab and trastuzumab are  monoclonal antibodies . They are designed to attach to a 
+specific target on cells called  human epidermal growth factor receptor 2  (HER2). 
 * HER2 is found in large amounts on the surface of some cancer cells and stimulates their growth. <br />
 * By attaching to HER2 on cancer cells, pertuzumab and trastuzumab slow down their growth, or 
 kill them. </p>
 <p>Phesgo is available in two different strengths. See section 6 for more information. </p>
-<p>Phesgo is used to treat adult patients with breast cancer that is of the “HER2-positive” type – your 
+<p>Phesgo is used to treat adult patients with breast cancer that is of the  HER2-positive  type   your 
 doctor will test you for this. It can be used when: 
 * the cancer has spread to other parts of the body such as the lungs or liver (metastasised), or the 
 cancer has come back in the breast and the area around breast, but cannot be operated, and no 
@@ -111,16 +111,16 @@ if your heart is working properly before and during treatment with Phesgo.
 * you have ever had heart problems during previous treatment with a medicine containing 
 trastuzumab. 
 * you have ever had a chemotherapy medicine from the class of cancer medicines called 
-anthracyclines, e.g. doxorubicin or epirubicin – these medicines can damage heart muscle and 
+anthracyclines, e.g. doxorubicin or epirubicin   these medicines can damage heart muscle and 
 increase the risk of heart problems with Phesgo. 
 * you have ever had a radiotherapy to the chest area, as it can increase the risk of heart problems.<br />
 If any of the above applies to you (or you are not sure), talk to your doctor or nurse before you are 
-given Phesgo. See section 4 “Serious side effects” for more details about signs of heart problems to 
+given Phesgo. See section 4  Serious side effects  for more details about signs of heart problems to 
 look out for. </p>
 <p>Injection reactions </p>
 <p>A reaction to the injection can happen. These are allergic reactions and can be severe. </p>
-<p>If you get any serious reaction, your doctor may stop treatment with Phesgo. See section 4 ‘‘Serious 
-side effects’’ for more details about injection related reactions to look out for during the injection and 
+<p>If you get any serious reaction, your doctor may stop treatment with Phesgo. See section 4  Serious 
+side effects  for more details about injection related reactions to look out for during the injection and 
 thereafter. </p>
 <p>Your doctor or nurse will check for side effects during your injection and for: 
 * 30 minutes after the first injection of Phesgo.<br />
@@ -188,12 +188,10 @@ will check for side effects during your injection and for 30 minutes afterwards.
 severe side effects:<br />
 * Phesgo 600 mg/600 mg will be given under your skin over 5 minutes. Your doctor or nurse will 
 check for side effects during your injection and for 15 minutes afterwards. 
-* You will also be given chemotherapy, depending on the doctor’s prescription. 
-* The number of injections you will be given depends on: 
-− 
- how you respond to treatment 
-− 
- whether you are having treatment before surgery or after surgery or for disease which has 
+* You will also be given chemotherapy, depending on the doctor s prescription. 
+* The number of injections you will be given depends on: </p>
+<p>how you respond to treatment </p>
+<p>whether you are having treatment before surgery or after surgery or for disease which has 
 spread. </p>
 <p>For further information on loading and maintenance dose see section 6. For further information on dosing of chemotherapy (which can cause side effects as well), please read 
 the package leaflet for these medicines. If you have questions about them, please ask your doctor, 
@@ -217,22 +215,19 @@ medicine work as well as it can. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>Tell a doctor or nurse straight away, if you notice any of the following side effects: 
-• Heart problems: a slower or faster heart beat than usual or fluttering of the heart and symptoms that 
+  Heart problems: a slower or faster heart beat than usual or fluttering of the heart and symptoms that 
 can include cough, shortness of breath, and swelling (fluid retention) in your legs or arms. 
-• Injection related reactions: these may be mild or more severe and may include feeling sick, fever, 
+  Injection related reactions: these may be mild or more severe and may include feeling sick, fever, 
 chills, feeling tired, headache, loss of appetite, joint and muscle pains, and hot flushes. 
-• Diarrhoea: these may be mild or moderate but can be very severe or long-lasting diarrhoea, passing 
+  Diarrhoea: these may be mild or moderate but can be very severe or long-lasting diarrhoea, passing 
 7 or more watery stools in a day. 
-• Low number of white blood cells as shown in a blood test. This may or may not be with a fever. 
-• Allergic reactions: swelling of your face and throat, with difficulty in breathing, this may be a sign 
+  Low number of white blood cells as shown in a blood test. This may or may not be with a fever. 
+  Allergic reactions: swelling of your face and throat, with difficulty in breathing, this may be a sign 
 of a serious allergic reaction. 
-• Tumour lysis syndrome (where cancer cells die quickly). Symptoms may include: 
-− 
-kidney problems - signs include weakness, shortness of breath, fatigue and confusion, 
-− 
-heart problems - signs include fluttering of the heart or a faster or slower heart beat,<br />
-− 
-seizures (fits), vomiting or diarrhoea and tingling in the mouth, hands or feet. 
+  Tumour lysis syndrome (where cancer cells die quickly). Symptoms may include: </p>
+<p>kidney problems - signs include weakness, shortness of breath, fatigue and confusion, </p>
+<p>heart problems - signs include fluttering of the heart or a faster or slower heart beat,  </p>
+<p>seizures (fits), vomiting or diarrhoea and tingling in the mouth, hands or feet. 
 Tell a doctor or nurse straight away, if you notice any of the side effects above. </p>
 <p>Other side effects </p>
 <p>Very common (may affect more than 1 in 10 people): 
@@ -263,8 +258,8 @@ the ear, nose or throat
 * Inflammation of the nail bed where the nail and skin meet 
 * Condition in which the left part of the heart is not working properly with or without symptoms </p>
 <p>Uncommon (may affect up to 1 in 100 people): 
-* Chest symptoms such as a dry cough or breathlessness (possible signs of ‘interstitial lung 
-disease’, a condition of damage to the tissues around the air sacs in the lungs) 
+* Chest symptoms such as a dry cough or breathlessness (possible signs of  interstitial lung 
+disease , a condition of damage to the tissues around the air sacs in the lungs) 
 * Fluid around the lungs causing difficulty in breathing </p>
 <p>If you get any of the side effects above, talk to your doctor, nurse or pharmacist. </p>
 <p>If you get any of the above after treatment with Phesgo has been stopped, you should get in touch with 
@@ -286,8 +281,8 @@ safety of this medicine. </p>         </div>"""
 follows:<br />
 * Keep this medicine out of the sight and reach of children. 
 * Do not use this medicine after the expiry date which is stated on the outer carton and the vial 
-after ‘EXP’. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2 °C-8 °C). 
+after  EXP . The expiry date refers to the last day of that month. 
+* Store in a refrigerator (2  C-8  C). 
 * Do not freeze. 
 * Keep the vial in the outer carton in order to protect from light. 
 * Once the vial is open, use the solution immediately. Do not use this medicine if you notice any 
@@ -309,8 +304,8 @@ trastuzumab. Each mL contains 60 mg of pertuzumab and 60 mg of trastuzumab.
 * Loading dose: One vial of 15 mL solution contains 1200 mg of pertuzumab and 600 mg of 
 trastuzumab. Each mL contains 80 mg of pertuzumab and 40 mg of trastuzumab. </p>
 <p>The other ingredients are vorhyaluronidase alfa, L-histidine, L-histidine hydrochloride monohydrate, 
-α,α-trehalose dihydrate, sucrose, L-methionine, polysorbate 20 and water for injections (see section 2 
-“Phesgo contains sodium”). </p>
+ , -trehalose dihydrate, sucrose, L-methionine, polysorbate 20 and water for injections (see section 2 
+ Phesgo contains sodium ). </p>
 <p>What Phesgo looks like and contents of the pack </p>
 <p>Phesgo is a solution for injection. It is a clear to opalescent solution, colourless to slightly brown 
 supplied in a glass vial. Each pack contains one vial with either 10 mL or 15 mL solution. </p>
@@ -326,19 +321,17 @@ Emil-Barell-Strasse 1<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44 Luxembourg/Luxemburg 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) 
-Česká republika 
+ esk  republika 
 Roche s. r. o. 
-Tel: +420 − 2 20382Magyarország 
-Roche (Magyarország) Kft. 
+Tel: +420   2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4Danmark 
 Roche a/s 
 Tlf: +45 - 36 39 99<br />
@@ -350,46 +343,45 @@ Tel: +49 (0) 7624 140<br />
 Nederland 
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177 380<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E. 
-Τηλ: +30 210 61 66 Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E. 
+ : +30 210 61 66  sterreich 
  Roche Austria GmbH 
-Tel: +43 (0) 1 27España 
+Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81 Polska 
 Roche Polska Sp.z o.o. 
 Tel: +48 - 22 345 18 France 
 Roche 
-Tél: +33 (0) 1 47 61 40 Portugal 
-Roche Farmacêutica Química, Lda 
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70 Hrvatska 
 Roche d.o.o. 
 Tel: +385 1 4722<br />
 Ireland 
 Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0România 
-Roche România S.R.L. 
+Tel: +353 (0) 1 469 0Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47<br />
 Slovenija 
-Roche farmacevtska družba d.o.o. 
-Tel: +386 - 1 360 26 Ísland 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland 
 Roche a/s 
 c/o Icepharma hf 
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
 Roche S.p.A. 
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy 
-Puh/Tel: +358 (0) 10 554 Κύπρος 
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+Puh/Tel: +358 (0) 10 554 <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1Latvija 
@@ -397,7 +389,7 @@ Roche Latvija SIA
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{month YYYY}</em>. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

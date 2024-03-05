@@ -4,7 +4,7 @@ Instance: composition-en-ba2de541591622fcd614de6be8043458
 InstanceOf: CompositionUvEpi
 Title: "Composition for taxotere Package Leaflet"
 Description:  "Composition for taxotere Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use TAXOTERE 
 4. Possible side effects 
 5. How to store TAXOTERE 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -72,19 +71,21 @@ Usage: #example
 derived from the needles of yew trees. 
 Docetaxel belongs to the group of anti-cancer medicines called taxoids. </p>
 <p>TAXOTERE has been prescribed by your doctor for the treatment of breast cancer, special forms of 
-lung cancer (non-small cell lung cancer), prostate cancer, gastric cancer or head and neck cancer:<br />
-- For the treatment of advanced breast cancer, TAXOTERE could be administered either alone or in 
-combination with doxorubicin, or trastuzumab, or capecitabine. 
-- For the treatment of early breast cancer with or without lymph node involvement, TAXOTERE 
-could be administered in combination with doxorubicin and cyclophosphamide. 
-- For the treatment of lung cancer, TAXOTERE could be administered either alone or in combination 
-with cisplatin. 
-- For the treatment of prostate cancer, TAXOTERE is administered in combination with prednisone or 
-prednisolone. 
-- For the treatment of metastatic gastric cancer, TAXOTERE is administered in combination with 
-cisplatin and 5-fluorouracil. 
-- For the treatment of head and neck cancer, TAXOTERE is administered in combination with 
-cisplatin and 5-fluorouracil. </p>         </div>"""   
+lung cancer (non-small cell lung cancer), prostate cancer, gastric cancer or head and neck cancer:</p>
+<ul>
+<li>For the treatment of advanced breast cancer, TAXOTERE could be administered either alone or in 
+combination with doxorubicin, or trastuzumab, or capecitabine. </li>
+<li>For the treatment of early breast cancer with or without lymph node involvement, TAXOTERE 
+could be administered in combination with doxorubicin and cyclophosphamide. </li>
+<li>For the treatment of lung cancer, TAXOTERE could be administered either alone or in combination 
+with cisplatin. </li>
+<li>For the treatment of prostate cancer, TAXOTERE is administered in combination with prednisone or 
+prednisolone. </li>
+<li>For the treatment of metastatic gastric cancer, TAXOTERE is administered in combination with 
+cisplatin and 5-fluorouracil. </li>
+<li>For the treatment of head and neck cancer, TAXOTERE is administered in combination with 
+cisplatin and 5-fluorouracil. </li>
+</ul>         </div>"""   
           
 
              
@@ -94,13 +95,10 @@ cisplatin and 5-fluorouracil. </p>         </div>"""
   * code.text = "2. What you need to know before you take taxotere"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given TAXOTERE: </p>
-<p> 
-if you are allergic (hypersensitive) to docetaxel or any of the other ingredients of TAXOTERE 
-(listed in section 6). 
- 
-if the number of white blood cells is too low. 
- 
-if you have a severe liver disease. </p>
+<p>if you are allergic (hypersensitive) to docetaxel or any of the other ingredients of TAXOTERE 
+(listed in section 6). </p>
+<p>if the number of white blood cells is too low. </p>
+<p>if you have a severe liver disease. </p>
 <p>Warnings and precautions 
 Before each treatment with TAXOTERE, you will have blood tests to check that you have enough 
 blood cells and sufficient liver function to receive TAXOTERE. In case of white blood cells 
@@ -122,18 +120,20 @@ minimise certain undesirable effects which may occur after the infusion of TAXOT
 allergic reactions and fluid retention (swelling of the hands, feet, legs or weight gain). </p>
 <p>During treatment, you may be given other medicines to maintain the number of your blood cells. </p>
 <p>Severe skin problems such as Stevens-Johnson Syndrome (SJS), Toxic Epidermal Necrolysis (TEN), 
-Acute Generalized Exanthematous Pustulosis (AGEP) have been reported with TAXOTERE:<br />
-- SJS/TEN symptoms may include blistering, peeling or bleeding on any part of your skin 
+Acute Generalized Exanthematous Pustulosis (AGEP) have been reported with TAXOTERE:</p>
+<ul>
+<li>SJS/TEN symptoms may include blistering, peeling or bleeding on any part of your skin 
 (including your lips, eyes, mouth, nose, genitals, hands or feet) with or without a rash. You 
-may also have flu-like symptoms at the same time, such as fever, chills or aching muscles. 
-- AGEP symptoms may include a red, scaly widespread rash with bumps under the swollen skin 
+may also have flu-like symptoms at the same time, such as fever, chills or aching muscles. </li>
+<li>AGEP symptoms may include a red, scaly widespread rash with bumps under the swollen skin 
 (including your skin folds, trunk, and upper extremities) and blisters accompanied by fever.<br />
 If you develop severe skin reactions or any of the reactions listed above, immediately contact your 
-doctor or healthcare professional. </p>
+doctor or healthcare professional. </li>
+</ul>
 <p>Tell your doctor, hospital pharmacist or nurse if you have kidney problems or high levels of uric acid 
 in your blood before intiating TAXOTERE. </p>
 <p>TAXOTERE contains alcohol. Discuss with your doctor if you suffer from alcohol dependency, 
-epilepsy or liver impairment. See also section “ TAXOTERE contains ethanol (alcohol)” below. </p>
+epilepsy or liver impairment. See also section   TAXOTERE contains ethanol (alcohol)  below. </p>
 <p>Other medicines and TAXOTERE </p>
 <p>Please tell your doctor or hospital pharmacist if you are taking or have recently taken any other 
 medicine, including medicines obtained without a prescription. This is because TAXOTERE or the 
@@ -173,7 +173,7 @@ part of the nervous system that includes the brain and spinal cord). </p>       
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAXOTERE will be administered to you by a healthcare professional. </p>
 <p>Usual dose </p>
 <p>The dose will depend on your weight and your general condition. Your doctor will calculate your 
-body surface area in square meters (m²) and will determine the dose you should receive.  </p>
+body surface area in square meters (m ) and will determine the dose you should receive.  </p>
 <p>Method and route of administration </p>
 <p>TAXOTERE will be given by infusion into one of your veins (intravenous use). The infusion will last 
 approximately one hour during which you will be in the hospital. </p>
@@ -201,17 +201,12 @@ tiredness. </p>
 <p>The severity of adverse events of TAXOTERE may be increased when TAXOTERE is given in 
 combination with other chemotherapeutic agents. </p>
 <p>During the infusion at the hospital the following allergic reactions may occur (may affect more than 
-1 in 10 people):<br />
- 
-flushing, skin reactions, itching 
- 
-chest tightness; difficulty in breathing<br />
- 
-fever or chills 
- 
-back pain<br />
- 
-low blood pressure. 
+1 in 10 people):  </p>
+<p>flushing, skin reactions, itching </p>
+<p>chest tightness; difficulty in breathing  </p>
+<p>fever or chills </p>
+<p>back pain  </p>
+<p>low blood pressure. 
 More severe reactions may occur. 
 If you had an allergic reaction to paclitaxel, you may also experience an allergic reaction to docetaxel, 
 which may be more severe. </p>
@@ -219,128 +214,84 @@ which may be more severe. </p>
 notice any of these effects. </p>
 <p>Between infusions of TAXOTERE the following may occur, and the frequency may vary with the 
 combinations of medicines that are received: </p>
-<p>Very common (may affect more than 1 in 10 people): 
- 
-infections, decrease in the number of red (anaemia), or white blood cells (which are important in 
-fighting infection) and platelets 
- 
-fever: if this happens you must tell your doctor immediately 
- 
-allergic reactions as described above 
- 
-loss of appetite (anorexia)<br />
- 
-insomnia 
- 
-feeling of numbness or pins and needles or pain in the joints or muscles 
- 
-headache<br />
- 
-alteration in sense of taste<br />
- 
-inflammation of the eye or increased tearing of the eyes<br />
- 
-swelling caused by faulty lymphatic drainage 
- 
-shortness of breath<br />
- 
-nasal drainage; inflammation of the throat and nose; cough 
- 
-bleeding from the nose<br />
- 
-sores in the mouth<br />
- 
-stomach upsets including nausea, vomiting and diarrhoea, constipation 
- 
-abdominal pain 
- 
-indigestion 
- 
-hair loss: in most cases normal hair growth should return. In some cases (frequency not known) 
-permanent hair loss has been observed 
- 
-redness and swelling of the palms of your hands or soles of your feet which may cause your skin 
-to peel (this may also occur on the arms, face, or body) 
- 
-change in the colour of your nails, which may detach<br />
- 
-muscle aches and pains; back pain or bone pain 
- 
-change or absence of menstrual period 
- 
-swelling of the hands, feet, legs  </p>
-<p> 
-tiredness; or flu-like symptoms 
- 
-weight gain or loss 
- 
-infection of the upper respiratory tract. </p>
-<p>Common (may affect up to 1 in 10 people): 
- 
-oral candidiasis 
- 
-dehydration 
- 
-dizziness 
- 
-hearing impaired 
- 
-decrease in blood pressure; irregular or rapid heart beat 
- 
-heart failure 
- 
-oesophagitis<br />
- 
-dry mouth 
- 
-difficulty or painful swallowing 
- 
-haemorrhage 
- 
-raised liver enzymes (hence the need for regular blood tests) 
- 
-rises in blood sugar levels (diabetes) 
- 
-decrease of the potassium, calcium and/or phosphate in your blood.  </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
- 
-fainting 
- 
-at the injection site, skin reactions, phlebitis (inflammation of the vein) or swelling<br />
- 
-blood clots. 
- 
-acute myeloid leukaemia and myelodysplastic syndrome (types of blood cancer) may occur in 
+<p>Very common (may affect more than 1 in 10 people): </p>
+<p>infections, decrease in the number of red (anaemia), or white blood cells (which are important in 
+fighting infection) and platelets </p>
+<p>fever: if this happens you must tell your doctor immediately </p>
+<p>allergic reactions as described above </p>
+<p>loss of appetite (anorexia)  </p>
+<p>insomnia </p>
+<p>feeling of numbness or pins and needles or pain in the joints or muscles </p>
+<p>headache  </p>
+<p>alteration in sense of taste  </p>
+<p>inflammation of the eye or increased tearing of the eyes  </p>
+<p>swelling caused by faulty lymphatic drainage </p>
+<p>shortness of breath  </p>
+<p>nasal drainage; inflammation of the throat and nose; cough </p>
+<p>bleeding from the nose  </p>
+<p>sores in the mouth  </p>
+<p>stomach upsets including nausea, vomiting and diarrhoea, constipation </p>
+<p>abdominal pain </p>
+<p>indigestion </p>
+<p>hair loss: in most cases normal hair growth should return. In some cases (frequency not known) 
+permanent hair loss has been observed </p>
+<p>redness and swelling of the palms of your hands or soles of your feet which may cause your skin 
+to peel (this may also occur on the arms, face, or body) </p>
+<p>change in the colour of your nails, which may detach  </p>
+<p>muscle aches and pains; back pain or bone pain </p>
+<p>change or absence of menstrual period </p>
+<p>swelling of the hands, feet, legs  </p>
+<p>tiredness; or flu-like symptoms </p>
+<p>weight gain or loss </p>
+<p>infection of the upper respiratory tract. </p>
+<p>Common (may affect up to 1 in 10 people): </p>
+<p>oral candidiasis </p>
+<p>dehydration </p>
+<p>dizziness </p>
+<p>hearing impaired </p>
+<p>decrease in blood pressure; irregular or rapid heart beat </p>
+<p>heart failure </p>
+<p>oesophagitis  </p>
+<p>dry mouth </p>
+<p>difficulty or painful swallowing </p>
+<p>haemorrhage </p>
+<p>raised liver enzymes (hence the need for regular blood tests) </p>
+<p>rises in blood sugar levels (diabetes) </p>
+<p>decrease of the potassium, calcium and/or phosphate in your blood.  </p>
+<p>Uncommon (may affect up to 1 in 100 people): </p>
+<p>fainting </p>
+<p>at the injection site, skin reactions, phlebitis (inflammation of the vein) or swelling  </p>
+<p>blood clots. </p>
+<p>acute myeloid leukaemia and myelodysplastic syndrome (types of blood cancer) may occur in 
 patients who are treated with docetaxel together with certain other anticancer treatments. </p>
-<p>Rare (may affect up to 1 in 1,000 people): 
- 
-inflammation of the colon, small intestine, which could be fatal (frequency not known); intestinal 
+<p>Rare (may affect up to 1 in 1,000 people): </p>
+<p>inflammation of the colon, small intestine, which could be fatal (frequency not known); intestinal 
 perforation. </p>
 <p>Frequency not known (cannot be estimated from the available data): 
- interstitial lung disease (inflammation of the lungs causing coughing and difficulty breathing. 
+  interstitial lung disease (inflammation of the lungs causing coughing and difficulty breathing. 
 Inflammation of the lungs can also develop when docetaxel therapy is used with radiotherapy) 
- pneumonia (infection of the lungs) 
- pulmonary fibrosis (scarring and thickening in the lungs with shortness of breath) 
- blurred vision due to swelling of the retina within the eye (cystoid macular oedema) 
- decrease of the sodium and/or magnesium in your blood (electrolyte balance disorders) 
- ventricular arrhythmia or ventricular tachycardia (manifested as irregular and/or rapid heartbeat, 
+  pneumonia (infection of the lungs) 
+  pulmonary fibrosis (scarring and thickening in the lungs with shortness of breath) 
+  blurred vision due to swelling of the retina within the eye (cystoid macular oedema) 
+  decrease of the sodium and/or magnesium in your blood (electrolyte balance disorders) 
+  ventricular arrhythmia or ventricular tachycardia (manifested as irregular and/or rapid heartbeat, 
 severe shortness of breath, dizziness, and/or fainting). Some of these symptoms can be serious. If 
 this happens, you must tell your doctor immediately 
- injection site reactions at the site of a previous reaction. 
- non-Hodgkin lymphoma (a cancer affecting the immune system) and other cancers may occur in 
+  injection site reactions at the site of a previous reaction. 
+  non-Hodgkin lymphoma (a cancer affecting the immune system) and other cancers may occur in 
 patients who are treated with docetaxel together with certain other anticancer treatments. 
- Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) (blistering, peeling or 
+  Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) (blistering, peeling or 
 bleeding on any part of your skin (including your lips, eyes, mouth, nose, genitals, hands or feet) 
 with or without a rash. You may also have flu-like symptoms at the same time, such as fever, chills 
 or aching muscles.) 
- acute Generalized Exanthematous Pustulosis (AGEP) (red, scaly widespread rash with bumps 
+  acute Generalized Exanthematous Pustulosis (AGEP) (red, scaly widespread rash with bumps 
 under the swollen skin (including your skin folds, trunk, and upper extremities) and blisters 
 accompanied by fever.) 
- tumour lysis syndrome is a serious condition revealed by changes in blood test such as increased 
+  tumour lysis syndrome is a serious condition revealed by changes in blood test such as increased 
 level of uric acid, potassium, phosphorus and decreased level of calcium; and results in symptoms 
 such as seizures, kidney failure (reduced amount or darkening of urine) and heart rhythm 
 disturbance.  If this happens, you must tell your doctor immediately. </p>
-<p> myositis (inflammation of the muscles -hot, red and swollen- which produces muscle pain and 
+<p>myositis (inflammation of the muscles -hot, red and swollen- which produces muscle pain and 
 weakness)  </p>
 <p>Reporting of side effects 
 If you get any side effects talk to your doctor, hospital pharmacist or nurse. This includes any possible 
@@ -355,12 +306,12 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>This medicine should not be used after the expiry date shown on the carton, blister pack and vials. </p>
-<p>Do not store above 25°C or below 2°C. 
+<p>Do not store above 25 C or below 2 C. 
 Store in the original package in order to protect from light. </p>
 <p>The premix solution should be used immediately after preparation. However the chemical and physical 
-stability of the premix solution has been demonstrated for 8 hours when stored either between 2°C and 
-8°C or at room temperature (below 25°C). </p>
-<p>The infusion solution should be used within 4 hours at room temperature (below 25°C). </p>         </div>"""      
+stability of the premix solution has been demonstrated for 8 hours when stored either between 2 C and 
+8 C or at room temperature (below 25 C). </p>
+<p>The infusion solution should be used within 4 hours at room temperature (below 25 C). </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -377,11 +328,9 @@ docetaxel (anhydrous). One vial contains 20 mg/0.5 ml docetaxel.<br />
 <p>What TAXOTERE looks like and contents of the pack 
 TAXOTERE 20 mg/0.5 ml concentrate for solution for infusion is a clear viscous, yellow to brown-
 yellow solution. </p>
-<p>Each blister pack contains: 
- 
-one single-dose vial of concentrate and, 
- 
-one single-dose vial of solvent. </p>
+<p>Each blister pack contains: </p>
+<p>one single-dose vial of concentrate and, </p>
+<p>one single-dose vial of solvent. </p>
 <p>Marketing Authorisation Holder 
 Sanofi Winthrop Industrie 
 82 Avenue Raspail 
@@ -389,28 +338,27 @@ Sanofi Winthrop Industrie
 France </p>
 <p>Manufacturers 
 Sanofi-Aventis Deutschland GmbH 
-Industriepark Höchst 
+Industriepark H chst 
 65926 Frankfurt am Main 
 Germany </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder.  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB<br />
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 Sanofi s.r.o.<br />
 Tel: +420 233 086<br />
-Magyarország 
-sanofi-aventis zrt., Magyarország 
+Magyarorsz g 
+sanofi-aventis zrt., Magyarorsz g 
 Tel.: +36 1 505 0 
 Danmark 
 Sanofi A/S 
@@ -425,18 +373,17 @@ Nederland
 Sanofi B.V. 
 Tel: +31 20 245 4 
 Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -444,14 +391,14 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie<br />
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -460,10 +407,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33 <br />
 Italia 
@@ -471,9 +418,8 @@ sanofi S.r.l.
 Tel: 800536Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: +358 (0) 201 200  </p>
-<p>Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

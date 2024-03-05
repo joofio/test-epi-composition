@@ -4,7 +4,7 @@ Instance: composition-en-f7d3ef50226760b75f06fdcf55be16ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for vitrakvi Package Leaflet"
 Description:  "Composition for vitrakvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take VITRAKVI 
 4. Possible side effects 
 5. How to store VITRAKVI 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -105,32 +104,34 @@ bilirubin and check how well your liver is working. </p>
 Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
 medicines. This is because some medicines may affect the way VITRAKVI works or VITRAKVI may 
 affect how other medicines work.<br />
-In particular, tell your doctor, pharmacist or nurse if you are taking any of the following medicines: 
-- medicines used to treat fungal or bacterial infections called itraconazole, voriconazole, 
-clarithromycin, telithromycin, troleandomycin 
-- a medicine used to treat Cushing’s syndrome called ketoconazole 
-- medicines used to treat HIV infection called atazanavir, indinavir, nelfinavir, ritonavir, 
-saquinavir, rifabutin, efavirenz 
-- a medicine used to treat depression called nefazodone 
-- medicines used to treat epilepsy called phenytoin, carbamazepine, phenobarbital 
-- a herbal medicine used to treat depression called St. John’s wort 
-- a medicine used to treat tuberculosis called rifampicin 
-- a medicine used for strong pain relief called alfentanil 
-- medicines used to prevent organ rejection after an organ transplant called ciclosporin, sirolimus, 
-tacrolimus 
-- a medicine used to treat an abnormal heart rhythm called quinidine 
-- medicines used to treat migraines called dihydroergotamine, ergotamine 
-- a medicine used to treat long-term pain called fentanyl 
-- a medicine used to control involuntary movements or sounds called pimozide 
-- a medicine to help you stop smoking called bupropion 
-- medicines to reduce blood sugar levels called repaglinide, tolbutamide 
-- a medicine that prevents blood clots called warfarin 
-- a medicine used to reduce the amount of acid produced in the stomach called omeprazole 
-- a medicine used to help control high blood pressure called valsartan 
-- a group of medicines used to help lower cholesterol called statins 
-- hormonal medicines used for contraception, see section “contraception – for men and women” 
+In particular, tell your doctor, pharmacist or nurse if you are taking any of the following medicines:</p>
+<ul>
+<li>medicines used to treat fungal or bacterial infections called itraconazole, voriconazole, 
+clarithromycin, telithromycin, troleandomycin </li>
+<li>a medicine used to treat Cushing s syndrome called ketoconazole </li>
+<li>medicines used to treat HIV infection called atazanavir, indinavir, nelfinavir, ritonavir, 
+saquinavir, rifabutin, efavirenz </li>
+<li>a medicine used to treat depression called nefazodone </li>
+<li>medicines used to treat epilepsy called phenytoin, carbamazepine, phenobarbital </li>
+<li>a herbal medicine used to treat depression called St. John s wort </li>
+<li>a medicine used to treat tuberculosis called rifampicin </li>
+<li>a medicine used for strong pain relief called alfentanil </li>
+<li>medicines used to prevent organ rejection after an organ transplant called ciclosporin, sirolimus, 
+tacrolimus </li>
+<li>a medicine used to treat an abnormal heart rhythm called quinidine </li>
+<li>medicines used to treat migraines called dihydroergotamine, ergotamine </li>
+<li>a medicine used to treat long-term pain called fentanyl </li>
+<li>a medicine used to control involuntary movements or sounds called pimozide </li>
+<li>a medicine to help you stop smoking called bupropion </li>
+<li>medicines to reduce blood sugar levels called repaglinide, tolbutamide </li>
+<li>a medicine that prevents blood clots called warfarin </li>
+<li>a medicine used to reduce the amount of acid produced in the stomach called omeprazole </li>
+<li>a medicine used to help control high blood pressure called valsartan </li>
+<li>a group of medicines used to help lower cholesterol called statins </li>
+<li>hormonal medicines used for contraception, see section  contraception   for men and women<br />
 below. 
-If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse. </p>
+If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse. </li>
+</ul>
 <p>Taking VITRAKVI with food and drink 
 Do not eat grapefruit or drink grapefruit juice while taking VITRAKVI. This is because it may 
 increase the amount of VITRAKVI in your body. </p>
@@ -143,7 +144,7 @@ known. </p>
 <p>Breast-feeding 
 Do not breast-feed while taking this medicine and for 3 days after the last dose. This is because it is 
 not known if VITRAKVI passes into breast milk. </p>
-<p>Contraception – for men and women 
+<p>Contraception   for men and women 
 You should avoid getting pregnant while taking this medicine. 
 If you are able to become pregnant, your doctor should do a pregnancy test before you start treatment. 
 You must use effective methods of contraception while taking VITRAKVI and for at least 1 month 
@@ -169,10 +170,10 @@ Adults (from 18 years)
 two times a day. 
 - Your doctor will review your dose and change it as needed.  </p>
 <p>Children and adolescents 
-- Your child’s doctor will work out the right dose for your child based on their height and weight.<br />
+- Your child s doctor will work out the right dose for your child based on their height and weight.<br />
 - The maximum recommended dose is 100 mg (1 capsule of 100 mg or 4 capsules of 25 mg), two 
 times a day. 
-- Your child’s doctor will review the dose and change it as needed.  </p>
+- Your child s doctor will review the dose and change it as needed.  </p>
 <p>An oral solution of VITRAKVI is available for patients who cannot swallow the capsules. </p>
 <p>How to take this medicine 
 - VITRAKVI can be taken with or without food.<br />
@@ -199,30 +200,36 @@ If you have further questions on the use of this medicine, ask your doctor, phar
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>You should immediately contact your doctor if you experience any of the following serious side 
-effects: 
-- feeling dizzy (very common side effect, may affect more than 1 in 10 people), tingling, feeling 
+effects:</p>
+<ul>
+<li>feeling dizzy (very common side effect, may affect more than 1 in 10 people), tingling, feeling 
 numb, or a burning feeling in your hands and feet, difficulty walking normally (common side 
 effect, may affect up to 1 in 10 people). This could be symptoms of nervous system problems. 
-Your doctor may decide to lower the dose, or pause or stop the treatment. </p>
+Your doctor may decide to lower the dose, or pause or stop the treatment. </li>
+</ul>
 <p>Tell your doctor, pharmacist or nurse if you notice any of the following side effects: 
-Very common (may affect more than 1 in 10 people): 
-- you may look pale and feel your heart pumping, which could be symptoms of low red blood 
-cells (anaemia) 
-- flu like symptoms including fever, which could be symptoms of low white blood cells 
-(neutropenia, leukopenia) 
-- feeling or being sick (nausea or vomiting) 
-- diarrhoea 
-- constipation 
-- muscle pain (myalgia) 
-- feeling tired (fatigue) 
-- increased amount of liver enzymes in blood tests 
-- weight increase. </p>
-<p>Common (may affect up to 1 in 10 people): 
-- you may bruise or bleed more easily, which could be symptoms of reduced number of platelets 
-(thrombocytopenia) 
-- change in how things taste (dysgeusia) 
-- muscle weakness 
-- increased amount of “alkaline phosphatase” in blood tests (very common in children). </p>
+Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>you may look pale and feel your heart pumping, which could be symptoms of low red blood 
+cells (anaemia) </li>
+<li>flu like symptoms including fever, which could be symptoms of low white blood cells 
+(neutropenia, leukopenia) </li>
+<li>feeling or being sick (nausea or vomiting) </li>
+<li>diarrhoea </li>
+<li>constipation </li>
+<li>muscle pain (myalgia) </li>
+<li>feeling tired (fatigue) </li>
+<li>increased amount of liver enzymes in blood tests </li>
+<li>weight increase. </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>you may bruise or bleed more easily, which could be symptoms of reduced number of platelets 
+(thrombocytopenia) </li>
+<li>change in how things taste (dysgeusia) </li>
+<li>muscle weakness </li>
+<li>increased amount of  alkaline phosphatase  in blood tests (very common in children). </li>
+</ul>
 <p>Not known (not known how often they occur) 
 - you may experience a combination of tiredness, upper right stomach pain, loss of appetite, 
 nausea or vomiting, yellowing of your skin or eyes, bruising or bleeding more easily, and dark 
@@ -238,14 +245,16 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store vitrakvi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and the bottle label 
-after EXP. The expiry date refers to the last day of that month. 
-- This medicine does not require any special storage conditions. 
-- Do not use this medicine if you notice that capsules look damaged. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the bottle label 
+after EXP. The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special storage conditions. </li>
+<li>Do not use this medicine if you notice that capsules look damaged. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -258,20 +267,26 @@ The active substance is larotrectinib.<br />
 Each VITRAKVI 25 mg capsule contains 25 mg of larotrectinib (as sulfate). 
 Each VITRAKVI 100 mg capsule contains 100 mg of larotrectinib (as sulfate). </p>
 <p>The other ingredients are: 
-Capsule shell: 
-- Gelatin 
-- Titanium dioxide (E 171) 
-Printing ink: 
-- Shellac, bleached dewaxed 
-- Indigo carmine aluminium lake (E 132) 
-- Titanium dioxide (E 171) 
-- Propylene glycol (E 1520) 
-- Dimeticone 1 
-What VITRAKVI looks like and the contents of the bottle 
-- VITRAKVI 25 mg is supplied as white opaque hard gelatine capsule, (18 mm long x 6 mm 
-wide), with blue printing of BAYER-cross and “25 mg” on the body of the capsule<br />
-- VITRAKVI 100 mg is supplied as white opaque hard gelatine capsule, (22 mm long x 7 mm 
-wide), with blue printing of BAYER-cross and “100 mg” on the body of the capsule  </p>
+Capsule shell:</p>
+<ul>
+<li>Gelatin </li>
+<li>
+<p>Titanium dioxide (E 171) 
+Printing ink:</p>
+</li>
+<li>
+<p>Shellac, bleached dewaxed </p>
+</li>
+<li>Indigo carmine aluminium lake (E 132) </li>
+<li>Titanium dioxide (E 171) </li>
+<li>Propylene glycol (E 1520) </li>
+<li>Dimeticone 1 
+What VITRAKVI looks like and the contents of the bottle </li>
+<li>VITRAKVI 25 mg is supplied as white opaque hard gelatine capsule, (18 mm long x 6 mm 
+wide), with blue printing of BAYER-cross and  25 mg  on the body of the capsule  </li>
+<li>VITRAKVI 100 mg is supplied as white opaque hard gelatine capsule, (22 mm long x 7 mm 
+wide), with blue printing of BAYER-cross and  100 mg  on the body of the capsule  </li>
+</ul>
 <p>Each carton contains 1 child-resistant plastic bottle containing 56 hard gelatine capsules. </p>
 <p>Marketing Authorisation Holder<br />
 Bayer AG 
@@ -284,18 +299,17 @@ Kaiser-Wilhelm-Allee
 Germany  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36 България 
-Байер България ЕООД 
-Tел.: +359 (0)2 4247Luxembourg/Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>T .: +359 (0)2 4247Luxembourg/Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420 266 101 Magyarország 
-Bayer Hungária KFT 
+Tel: +420 266 101 Magyarorsz g 
+Bayer Hung ria KFT 
 Tel:+36 14 87-41 Danmark 
 Bayer A/S 
 Tlf: +45 45 23 50 Malta 
@@ -305,42 +319,42 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
 Tel: +31-23-799 1Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8Norge 
 Bayer AS 
-Tlf: +47 23 13 05 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30-210-61 87 Österreich 
+Tlf: +47 23 13 05 <br />
+Bayer   <br />
+ : +30-210-61 87  sterreich 
 Bayer Austria Ges.m.b.H. 
 Tel: +43-(0)1-711 46-0 
-España 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
 Tel: +48 22 572 35 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54 Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: +385-(0)1-6599 România 
+Tel: +385-(0)1-6599 Rom nia 
 SC Bayer SRL 
 Tel: +40 21 529 59 Ireland 
 Bayer Limited 
 Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386 (0)1 58 14 Ísland 
+Tel: +386 (0)1 58 14  sland 
 Icepharma hf. 
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Bayer spol. s r.o. 
 Tel. +421 2 59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39 02 397 8 1 
 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358- 20 785 Κύπρος 
+Puh/Tel: +358- 20 785 <br />
 NOVAGEM Limited 
-Tηλ: +357 22 48 38 Sverige 
+T : +357 22 48 38 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 
@@ -348,7 +362,7 @@ Tel: +371 67 84 55 United Kingdom (Northern Ireland)
 Bayer AG 
 Tel: +44-(0)118 206 3 
 This leaflet was last revised in </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

@@ -4,7 +4,7 @@ Instance: composition-en-802d03413c083ad0931330a56355a879
 InstanceOf: CompositionUvEpi
 Title: "Composition for ocrevus Package Leaflet"
 Description:  "Composition for ocrevus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,15 +70,15 @@ Usage: #example
   * code.text =  "1. What ocrevus is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ocrevus is </p>
-<p>Ocrevus contains the active substance ‘ocrelizumab’. It is a type of protein called a ‘monoclonal 
-antibody’. Antibodies work by attaching to specific targets in your body. </p>
+<p>Ocrevus contains the active substance  ocrelizumab . It is a type of protein called a  monoclonal 
+antibody . Antibodies work by attaching to specific targets in your body. </p>
 <p>What Ocrevus is used for </p>
 <p>Ocrevus is used to treat adults with: 
 * Relapsing forms of multiple sclerosis (RMS)<br />
 * Early primary progressive multiple sclerosis (PPMS) </p>
 <p>What is Multiple Sclerosis </p>
 <p>Multiple Sclerosis (MS) affects the central nervous system, especially the nerves in the brain and 
-spinal cord. In MS, the immune system (the body’s defence system) works incorrectly and attacks a 
+spinal cord. In MS, the immune system (the body s defence system) works incorrectly and attacks a 
 protective layer (called myelin sheath) around nerve cells and causes inflammation. Breakdown of the 
 myelin sheath stops the nerves working properly. </p>
 <p>Symptoms of MS depend on which part of the central nervous system is affected and can include<br />
@@ -147,10 +147,10 @@ treatment with Ocrevus. </p>
 <li>Diseases that affect your immune system: if you have another disease which affects the 
 immune system. You may not be able to receive Ocrevus. </li>
 <li>Medicines that affect your immune system: if you have ever taken, are taking or are planning 
-to take medicines that affect the immune system – such as chemotherapy, immunosuppressants 
+to take medicines that affect the immune system   such as chemotherapy, immunosuppressants 
 or other medicines used to treat MS. Your doctor may decide to delay your treatment with 
 Ocrevus or may ask you to stop such medicines before starting treatment with Ocrevus. See 
-under ‘Other medicines and Ocrevus’, below for more information. </li>
+under  Other medicines and Ocrevus , below for more information. </li>
 </ul>
 <p>Infusion-related reactions   </p>
 <ul>
@@ -173,14 +173,18 @@ you to have a blood test to verify your immune system because infections may occ
 frequently in case of severe problems with your immune system. </li>
 <li>If you are treated with Ocrevus for primary progressive multiple sclerosis, and you have 
 swallowing difficulties, Ocrevus may increase the risk of severe pneumonia. </li>
-<li>Tell your doctor or nurse straight away if you have any of these signs of infection during 
-or after Ocrevus treatment:  </li>
-<li>fever or chills </li>
+<li>
+<p>Tell your doctor or nurse straight away if you have any of these signs of infection during 
+or after Ocrevus treatment:</p>
+</li>
+<li>
+<p>fever or chills </p>
+</li>
 <li>cough that does not go away </li>
 <li>herpes (such as cold sore, shingles or genital sores).  </li>
 <li>Tell your doctor or nurse straight away if you think your MS is getting worse or if you 
 notice any new symptoms. This is because of a very rare and life-threatening brain infection, 
-called ‘progressive multifocal leukoencephalopathy’ (PML), which can cause symptoms similar 
+called  progressive multifocal leukoencephalopathy  (PML), which can cause symptoms similar 
 to those of MS. PML can occur in patients taking Ocrevus. </li>
 <li>Tell your partner or carer about your Ocrevus treatment. They might notice symptoms of 
 PML that you do not, such as memory lapses, trouble thinking, difficulty walking, sight loss, 
@@ -203,7 +207,7 @@ has not yet been studied in this age group. </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines.<br />
 In particular tell your doctor if: 
 * you have ever taken, are taking or are planning to take medicines that affect the immune 
-system – such as chemotherapy, immunosuppressants or other medicines used to treat MS. The 
+system   such as chemotherapy, immunosuppressants or other medicines used to treat MS. The 
 effect on the immune system of these medicines with Ocrevus could be too strong. Your doctor 
 may decide to delay your treatment with Ocrevus or may ask you to stop such medicines before 
 starting treatment with Ocrevus. 
@@ -233,8 +237,8 @@ breast milk. </p>
 Your doctor will tell you whether your MS may affect your ability to drive or use tools and machines 
 safely.  </p>
 <p>Ocrevus contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ocrevus"
@@ -298,10 +302,14 @@ to several years in rare cases.  </li>
 <li>Infusion-related reactions are the most common side effect of Ocrevus treatment (very common: 
 may affect more than 1 in 10 people). In most cases these are mild reactions but some serious 
 reactions can happen. </li>
-<li>Tell your doctor or nurse straight away if you experience any signs or symptoms of an 
+<li>
+<p>Tell your doctor or nurse straight away if you experience any signs or symptoms of an 
 infusion-related reaction during the infusion or up to 24 hours after the infusion. 
-Symptoms can include, but are not limited to: </li>
-<li>itchy skin </li>
+Symptoms can include, but are not limited to:</p>
+</li>
+<li>
+<p>itchy skin </p>
+</li>
 <li>rash </li>
 <li>hives </li>
 <li>redness of the skin </li>
@@ -323,9 +331,13 @@ your treatment with Ocrevus.  </li>
 </ul>
 <p>Infections </p>
 <ul>
-<li>You might get infections more easily with Ocrevus. The following infections have been seen in 
-patients treated with Ocrevus in MS:  </li>
-<li>Very common (may affect more than 1 in 10 people) </li>
+<li>
+<p>You might get infections more easily with Ocrevus. The following infections have been seen in 
+patients treated with Ocrevus in MS:</p>
+</li>
+<li>
+<p>Very common (may affect more than 1 in 10 people) </p>
+</li>
 <li>sore throat and runny nose (upper respiratory tract infection) </li>
 <li>flu </li>
 <li>Common (may affect up to 1 in 10 people) </li>
@@ -344,7 +356,7 @@ patients treated with Ocrevus in MS:  </li>
 <p>Some of them might be serious. </p>
 <ul>
 <li>
-<p>Tell your doctor or nurse straight away if you notice any of these signs of infection: </p>
+<p>Tell your doctor or nurse straight away if you notice any of these signs of infection:</p>
 </li>
 <li>
 <p>fever or chills </p>
@@ -378,13 +390,13 @@ medicine. </p>         </div>"""
 conditions: 
 * This medicine is to be kept out of the sight and reach of children. 
 * This medicine is not to be used after the expiry date which is stated on the outer carton and the 
-vial label after ‘EXP’. The expiry date refers to the last day of that month. 
+vial label after  EXP . The expiry date refers to the last day of that month. 
 * This medicine is to be stored in a refrigerator (2oC - 8oC). It is not to be frozen. The vials are to 
 be kept in the outer carton to protect them from light.   </p>
 <p>Ocrevus must be diluted before it is given to you. Dilution will be done by a healthcare professional. It 
 is recommended that the product is used immediately after dilution. If not used immediately, in-use 
 storage times and conditions prior to use are the responsibility of the healthcare professional and 
-would normally not be longer than 24 hours at 2°C - 8°C and subsequently 8 hours at room 
+would normally not be longer than 24 hours at 2 C - 8 C and subsequently 8 hours at room 
 temperature.  </p>
 <p>Do not throw away any medicines via wastewater. These measures will help to protect the 
 environment. </p>         </div>"""      
@@ -399,7 +411,7 @@ environment. </p>         </div>"""
 <ul>
 <li>The active substance is ocrelizumab. Each vial contains 300 mg of ocrelizumab in 10 mL at a 
 concentration of 30mg/mL. </li>
-<li>The other ingredients are sodium acetate trihydrate (see Section 2 ‘Ocrevus contains sodium’), 
+<li>The other ingredients are sodium acetate trihydrate (see Section 2  Ocrevus contains sodium ), 
 glacial acetic acid, trehalose dihydrate, polysorbate 20 and water for injections. </li>
 </ul>
 <p>What Ocrevus looks like and contents of the pack </p>
@@ -421,22 +433,20 @@ D-79639 Grenzach-Wyhlen
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 N.V. Roche S.A.<br />
-Tél/Tel: +32 (0) 2 525 82 11<br />
+T l/Tel: +32 (0) 2 525 82 11<br />
 Lietuva<br />
-UAB “Roche Lietuva”<br />
+UAB  Roche Lietuva <br />
 Tel: +370 5 2546799  </p>
-<p>България<br />
-Рош България ЕООД<br />
-Тел: +359 2 818 44 44  </p>
+<p>: +359 2 818 44 44  </p>
 <p>Luxembourg/Luxemburg<br />
 (Voir/siehe Belgique/Belgien)  </p>
-<p>Česká republika<br />
+<p>esk  republika<br />
 Roche s. r. o.<br />
 Tel: +420 - 2 20382111  </p>
-<p>Magyarország<br />
-Roche (Magyarország) Kft.<br />
+<p>Magyarorsz g<br />
+Roche (Magyarorsz g) Kft.<br />
 Tel: +36 - 1 279 4 
 Danmark<br />
 Roche Pharmaceuticals A/S<br />
@@ -450,18 +460,17 @@ Tel: +49 (0) 7624 140  </p>
 Roche Nederland B.V.<br />
 Tel: +31 (0) 348 438050  </p>
 <p>Eesti<br />
-Roche Eesti OÜ<br />
+Roche Eesti O <br />
 Tel: + 372 - 6 177 380  </p>
 <p>Norge<br />
 Roche Norge AS<br />
 Tlf: +47 - 22 78 90 00  </p>
-<p>Ελλάδα<br />
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66 100  </p>
-<p>Österreich<br />
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66 100  </p>
+<p>sterreich<br />
 Roche Austria GmbH<br />
 Tel: +43 (0) 1 27739  </p>
-<p>España<br />
+<p>Espa a<br />
 Roche Farma S.A.<br />
 Tel: +34 - 91 324 81 00  </p>
 <p>Polska<br />
@@ -469,27 +478,27 @@ Roche Polska Sp.z o.o.<br />
 Tel: +48 - 22 345 18 88  </p>
 <p>France<br />
 Roche<br />
-Tél: +33 (0) 1 47 61 40 00  </p>
+T l: +33 (0) 1 47 61 40 00  </p>
 <p>Portugal<br />
-Roche Farmacêutica Química, Lda<br />
+Roche Farmac utica Qu mica, Lda<br />
 Tel: +351 - 21 425 70 00  </p>
 <p>Hrvatska<br />
 Roche d.o.o.<br />
 Tel: +385 1 4722 333  </p>
-<p>România<br />
-Roche România S.R.L.<br />
+<p>Rom nia<br />
+Roche Rom nia S.R.L.<br />
 Tel: +40 21 206 47 01  </p>
 <p>Ireland<br />
 Roche Products (Ireland) Ltd.<br />
 Tel: +353 (0) 1 469 0700  </p>
 <p>Slovenija<br />
-Roche farmacevtska družba d.o.o.<br />
+Roche farmacevtska dru ba d.o.o.<br />
 Tel: +386 - 1 360 26 00  </p>
-<p>Ísland<br />
+<p>sland<br />
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
-Sími: +354 540 8000  </p>
-<p>Slovenská republika<br />
+S mi: +354 540 8000  </p>
+<p>Slovensk  republika<br />
 Roche Slovensko, s.r.o.<br />
 Tel: +421 - 2 52638201<br />
 Italia<br />
@@ -498,9 +507,9 @@ Tel: +39 - 039 2471<br />
 Suomi/Finland<br />
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554 500  </p>
-<p>Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
-Τηλ: +357 - 22 76 62 76  </p>
+<p>K <br />
+ . .  &amp;    .<br />
+ : +357 - 22 76 62 76  </p>
 <p>Sverige<br />
 Roche AB<br />
 Tel: +46 (0) 8 726 1200  </p>

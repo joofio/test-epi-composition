@@ -4,7 +4,7 @@ Instance: composition-en-4c58d0c1d9c4a5073dfc9d3ac749320b
 InstanceOf: CompositionUvEpi
 Title: "Composition for kesimpta Package Leaflet"
 Description:  "Composition for kesimpta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ called monoclonal antibodies. </p>
 Kesimpta is used to treat adults with relapsing forms of multiple sclerosis (RMS). </p>
 <p>How Kesimpta works 
 Kesimpta works by attaching to a target called CD20 on the surface of B cells. B cells are a type of 
-white blood cell which are part of the immune system (the body’s defences). In multiple sclerosis, the 
+white blood cell which are part of the immune system (the body s defences). In multiple sclerosis, the 
 immune system attacks the protective layer around nerve cells. B cells are involved in this process. 
 Kesimpta targets and removes the B cells and thereby reduces the chance of a relapse, relieves 
 symptoms and slows down the progression of the disease. </p>         </div>"""   
@@ -107,35 +107,41 @@ Kesimpta. If you need a type of vaccine called a live or live-attenuated vaccine
 given at least 4 weeks before you start Kesimpta treatment. Other types of vaccines should be 
 given at least 2 weeks before you start Kesimpta treatment. </p>
 <p>While using Kesimpta 
-Tell your doctor: 
-- if you have a general injection-related reaction or a local injection-site reaction. These are the 
+Tell your doctor:</p>
+<ul>
+<li>if you have a general injection-related reaction or a local injection-site reaction. These are the 
 most common side effects of Kesimpta treatment and are described in section 4. They usually 
 occur in the 24 hours after Kesimpta is injected, in particular after the first injection. The first 
-injection should take place under the guidance of a healthcare professional. 
-- if you have an infection. You may get infections more easily or an infection you already have 
+injection should take place under the guidance of a healthcare professional. </li>
+<li>if you have an infection. You may get infections more easily or an infection you already have 
 may get worse. This is because the immune cells that Kesimpta targets also help to fight 
-infection. Infections could be serious and sometimes even life-threatening. 
-- if you plan to have any vaccinations. Your doctor will tell you whether the vaccination you need 
+infection. Infections could be serious and sometimes even life-threatening. </li>
+<li>if you plan to have any vaccinations. Your doctor will tell you whether the vaccination you need 
 is a live vaccine, a live-attenuated vaccine, or another type of vaccine. You should not be given 
 live or live-attenuated vaccines during treatment with Kesimpta as this may result in infection. 
-Other types of vaccines may work less well if they are given during treatment with Kesimpta. </p>
+Other types of vaccines may work less well if they are given during treatment with Kesimpta. </li>
+</ul>
 <p>Tell your doctor straight away if you get any of the following during your treatment with Kesimpta, 
-because they could be signs of a serious condition: 
-- if you have rash, hives, trouble breathing, swelling of the face, eyelids, lips, mouth, tongue or 
-throat, chest tightness, or feel faint. These could be signs or symptoms of an allergic reaction. 
-- if you think your multiple sclerosis is getting worse (e.g. weakness or visual changes) or if you 
+because they could be signs of a serious condition:</p>
+<ul>
+<li>if you have rash, hives, trouble breathing, swelling of the face, eyelids, lips, mouth, tongue or 
+throat, chest tightness, or feel faint. These could be signs or symptoms of an allergic reaction. </li>
+<li>if you think your multiple sclerosis is getting worse (e.g. weakness or visual changes) or if you 
 notice any new or unusual symptoms. These effects may indicate a rare brain disorder called 
-progressive multifocal leukoencephalopathy (PML), which is caused by a virus infection. </p>
+progressive multifocal leukoencephalopathy (PML), which is caused by a virus infection. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children and adolescents below 18 years of age because Kesimpta has not 
 yet been studied in this age group. </p>
 <p>Other medicines and Kesimpta 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>In particular, tell your doctor or pharmacist: 
-- if you are taking, have recently taken or might take medicines that affect the immune system. 
-This is because these may have an added effect on the immune system. 
-- if you plan to have any vaccinations (see “Warnings and Precautions” above). </p>
+<p>In particular, tell your doctor or pharmacist:</p>
+<ul>
+<li>if you are taking, have recently taken or might take medicines that affect the immune system. 
+This is because these may have an added effect on the immune system. </li>
+<li>if you plan to have any vaccinations (see  Warnings and Precautions  above). </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before using this medicine. </p>
@@ -155,12 +161,12 @@ Kesimpta can pass into breast milk. Talk to your doctor about the benefits and r
 feeding your baby while using Kesimpta. </p>
 <p>Vaccination of newborn babies 
 Ask your doctor or pharmacist for advice before vaccinating your newborn baby if you have used 
-Kesimpta during your pregnancy (see “Warnings and precautions” above). </p>
+Kesimpta during your pregnancy (see  Warnings and precautions  above). </p>
 <p>Driving and using machines 
 Kesimpta is unlikely to affect your ability to drive and use machines. </p>
 <p>Kesimpta contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kesimpta"
@@ -172,9 +178,9 @@ you are not sure. </p>
 <p>Kesimpta is given by subcutaneous injection (injection under your skin). </p>
 <p>The first injection should take place under the guidance of a healthcare professional. </p>
 <p>Kesimpta pre-filled syringes are for single use only. </p>
-<p>For detailed instructions on how to inject Kesimpta, see “Instructions for use of Kesimpta pre-filled 
-syringe” at the end of this leaflet. </p>
-<p>‘QR code to be included’ + www.kesimpta.eu </p>
+<p>For detailed instructions on how to inject Kesimpta, see  Instructions for use of Kesimpta pre-filled 
+syringe  at the end of this leaflet. </p>
+<p>QR code to be included  + www.kesimpta.eu </p>
 <p>You can use Kesimpta at any time of day (morning, afternoon or evening). </p>
 <p>How much Kesimpta to use and how often to use it </p>
 <p>Do not exceed the dose prescribed by your doctor. </p>
@@ -209,8 +215,8 @@ If you have injected too much Kesimpta, contact your doctor right away. </p>
 To get the full benefit of Kesimpta, it is important that you have every injection on time. </p>
 <p>If you have forgotten an injection of Kesimpta, inject yourself as soon as possible. Do not wait until 
 the next scheduled dose. The timing of future injections should then be calculated from the day you 
-injected this dose and not based on the original schedule (see also “How much Kesimpta to use and 
-how often to use it” above). </p>
+injected this dose and not based on the original schedule (see also  How much Kesimpta to use and 
+how often to use it  above). </p>
 <p>If you stop using Kesimpta 
 Do not stop using Kesimpta or change your dose without talking with your doctor. </p>
 <p>Some side effects can be related to a low level of B cells in your blood. After you stop treatment with 
@@ -255,9 +261,9 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>Keep the pre-filled syringe(s) in the outer carton in order to protect from light. Store in a refrigerator 
-(2°C – 8°C). Do not freeze. 
+(2 C   8 C). Do not freeze. 
 If necessary, Kesimpta can be left out of the refrigerator for a single period of up to 7 days at room 
-temperature (not above 30°C). If not used during this period, Kesimpta can then be returned to the 
+temperature (not above 30 C). If not used during this period, Kesimpta can then be returned to the 
 refrigerator for a maximum of 7 days. </p>
 <p>Do not use this medicine if you notice that the solution contains visible particules or is cloudy. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -290,28 +296,27 @@ Ireland </p>
 Novartis Pharma GmbH 
 Roonstrasse 90429 Nuremberg 
 Germany </p>
-<p>Novartis Farmacéutica, S.A. 
+<p>Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -327,35 +332,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -363,10 +368,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

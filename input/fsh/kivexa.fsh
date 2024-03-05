@@ -4,7 +4,7 @@ Instance: composition-en-929afcdc432ad136a892cea5e12c839f
 InstanceOf: CompositionUvEpi
 Title: "Composition for kivexa Package Leaflet"
 Description:  "Composition for kivexa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,7 +87,7 @@ effectiveness of your treatment. </p>         </div>"""
   * code.text = "2. What you need to know before you take kivexa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Kivexa: 
-* if you are allergic (hypersensitive) to abacavir (or any other medicine containing abacavir — 
+* if you are allergic (hypersensitive) to abacavir (or any other medicine containing abacavir <br />
 (e.g. Trizivir, Triumeq or Ziagen), lamivudine or any of the other ingredients of this 
 medicine (listed in Section 6) 
 Carefully read all the information about hypersensitivity reactions in Section 4. Check with your doctor if you think this applies to you. Do not take Kivexa 
@@ -96,14 +96,14 @@ Some people taking Kivexa or other combination treatments for HIV are more at ri
 effects. You need to be aware of the extra risks: 
 * if you have moderate or severe liver disease 
 * if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B 
-infection, do not stop Kivexa without your doctor’s advice, as your hepatitis may come back) 
+infection, do not stop Kivexa without your doctor s advice, as your hepatitis may come back) 
 * if you are seriously overweight (especially if you are a woman) 
 * if you have a kidney problem  </p>
 <p>Talk to your doctor if any of these apply to you before using Kivexa. You may need extra 
 check-ups, including blood tests, while you are taking your medicine. See Section 4 for more 
 information.  </p>
 <p>Abacavir hypersensitivity reactions 
-Even patients who don’t have the HLA-B*5701 gene may still develop a hypersensitivity 
+Even patients who don t have the HLA-B*5701 gene may still develop a hypersensitivity 
 reaction (a serious allergic reaction) </p>
 <p>Carefully read all the information about hypersensitivity reactions in Section 4 of this 
 leaflet. </p>
@@ -115,7 +115,7 @@ not stop taking Kivexa unless your doctor advises you to do so. </p>
 <p>Look out for important symptoms 
 Some people taking medicines for HIV infection develop other conditions, which can be serious. You 
 need to know about important signs and symptoms to look out for while you are taking Kivexa. </p>
-<p>Read the information ‘Other possible side effects of combination therapy for HIV’ in 
+<p>Read the information  Other possible side effects of combination therapy for HIV  in 
 Section 4 of this leaflet. </p>
 <p>Other medicines and Kivexa 
 Tell your doctor or pharmacist if you are taking any other medicines, or if you have taken any 
@@ -173,7 +173,7 @@ Talk to your doctor about your ability to drive or operate machines while taking
 Kivexa contains a colouring called sunset yellow (E110), this may cause allergic reactions in some 
 people. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kivexa"
@@ -188,7 +188,7 @@ Swallow the tablets whole, with some water. Kivexa can be taken with or without 
 Stay in regular contact with your doctor 
 Kivexa helps to control your condition. You need to keep taking it every day to stop your illness 
 getting worse. You may still develop other infections and illnesses linked to HIV infection. 
-Keep in touch with your doctor, and do not stop taking Kivexa without your doctor’s advice. </p>
+Keep in touch with your doctor, and do not stop taking Kivexa without your doctor s advice. </p>
 <p>If you take more Kivexa than you should 
 If you accidentally take too much Kivexa, tell your doctor or your pharmacist, or contact your nearest 
 hospital emergency department for further advice. </p>
@@ -198,7 +198,7 @@ Do not take a double dose to make up for a forgotten dose.  </p>
 <p>It is important to take Kivexa regularly, because if you take it at irregular intervals, you may be more 
 likely to have a hypersensitivity reaction. </p>
 <p>If you have stopped taking Kivexa 
-If you have stopped taking Kivexa for any reason — especially because you think you are having side 
+If you have stopped taking Kivexa for any reason   especially because you think you are having side 
 effects, or because you have other illness: 
 Talk to your doctor before you start taking it again. Your doctor will check whether your 
 symptoms were related to a hypersensitivity reaction. If the doctor thinks they may have been 
@@ -220,15 +220,15 @@ medicines themselves. Your doctor will test for these changes.  </p>
 <p>When you are being treated for HIV, it can be hard to tell whether a symptom is a side effect of Kivexa 
 or other medicines you are taking, or an effect of the HIV disease itself. So it is very important to talk 
 to your doctor about any changes in your health. </p>
-<p>Even patients who don’t have the HLA-B*5701 gene may still develop a hypersensitivity 
+<p>Even patients who don t have the HLA-B*5701 gene may still develop a hypersensitivity 
 reaction (a serious allergic reaction), described in this leaflet in the panel headed 
-‘Hypersensitivity reactions’.  </p>
+ Hypersensitivity reactions .  </p>
 <p>It is very important that you read and understand the information about this serious 
 reaction. </p>
 <p>As well as the side effects listed below for Kivexa, other conditions can develop during combination 
 therapy for HIV.<br />
-It is important to read the information later in this section under ‘Other possible side effects of 
-combination therapy for HIV’. </p>
+It is important to read the information later in this section under  Other possible side effects of 
+combination therapy for HIV . </p>
 <p>Hypersensitivity reactions 
 Kivexa contains abacavir (which is also an active substance in medicines such as Trizivir, Triumeq 
 and Ziagen). Abacavir can cause a serious allergic reaction known as a hypersensitivity reaction. These 
@@ -259,7 +259,7 @@ during the first 6 weeks of treatment. </p>
 1 
 if you get a skin rash, OR 
 2 
-if you get symptoms from at least 2 of the following groups: </p>
+if you get symptoms from at least 2 of the following groups:</p>
 <ul>
 <li>
 <p>fever  </p>
@@ -279,7 +279,7 @@ if you get symptoms from at least 2 of the following groups: </p>
 If you have stopped taking Kivexa because of a hypersensitivity reaction, you must NEVER AGAIN 
 take Kivexa, or any other medicine containing abacavir (e.g. Trizivir, Triumeq or Ziagen). If you 
 do, within hours, your blood pressure could fall dangerously low, which could result in death. 
-If you have stopped taking Kivexa for any reason — especially because you think you are having side 
+If you have stopped taking Kivexa for any reason   especially because you think you are having side 
 effects, or because you have other illness: 
 Talk to your doctor before you start again. Your doctor will check whether your symptoms were 
 related to a hypersensitivity reaction. If the doctor thinks they may have been, you will then be told 
@@ -334,7 +334,7 @@ These may affect up to 1 in 10,000 people:
 * skin rash, which may form blisters and  looks like small targets (central dark spots 
 surrounded by a paler area, with a dark ring around the edge) (erythema multiforme) 
 * a widespread rash with blisters and peeling skin, particularly around the mouth, nose, eyes 
-and genitals (Stevens–Johnson syndrome), and a more severe form causing skin peeling in 
+and genitals (Stevens Johnson syndrome), and a more severe form causing skin peeling in 
 more than 30% of the body surface (toxic epidermal necrolysis). 
 * lactic acidosis (excess lactic acid in the blood) </p>
 <p>If you notice any of these symptoms contact a doctor urgently. 
@@ -348,7 +348,7 @@ Combination therapy such as Kivexa may cause other conditions to develop during 
 <p>Symptoms of infection and inflammation 
 Old infections may flare up 
 People with advanced HIV infection (AIDS) have weak immune systems, and are more likely to 
-develop serious infections (opportunistic infections). Such infections may have been “silent” and not 
+develop serious infections (opportunistic infections). Such infections may have been  silent  and not 
 detected by the weak immune system before treatment was started. After starting treatment, the 
 immune system becomes stronger, and may attack the infections, which can cause symptoms of 
 infection or inflammation. Symptoms usually include fever, plus some of the following: 
@@ -363,7 +363,7 @@ start taking medicine to treat your HIV infection. Symptoms may include:
 * weakness beginning in the hands and feet and moving up towards the trunk of the body </p>
 <p>If you get any symptoms of infection and inflammation or if you notice any of the symptoms above: </p>
 <p>Tell your doctor immediately. Do not take other medicines for the infection without your 
-doctor’s advice. </p>
+doctor s advice. </p>
 <p>You may have problems with your bones </p>
 <p>Some people taking combination therapy for HIV develop a condition called osteonecrosis. With this 
 condition, parts of the bone tissue die because of reduced blood supply to the bone. People may be 
@@ -393,7 +393,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not take this medicine after the expiry date shown on the carton. The expiry date refers to the last 
 day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -410,7 +410,7 @@ of lamivudine. </p>
 in the core of the tablet. The tablet coating contains Opadry Orange YS-1-13065-A containing 
 hypromellose, titanium dioxide, macrogol 400, polysorbate 80 and sunset yellow FCF (E110). </p>
 <p>What Kivexa looks like and contents of the pack 
-Kivexa film-coated tablets are engraved with ‘GS FC2’ on one side. They are orange and capsule-
+Kivexa film-coated tablets are engraved with  GS FC2  on one side. They are orange and capsule-
 shaped and are provided in blister packs containing 30 tablets and multipack blister packs containing 
 90(3 x 30) tablets. </p>
 <p>Marketing Authorisation Holder<br />
@@ -419,23 +419,22 @@ ViiV Healthcare BV, Van Asch van Wijckstraat 55H, 3811 LP Amersfoort, Netherland
 <p>Glaxo Wellcome S.A., Avenida de Extremadura 3, 09400 Aranda de Duero Burgos, Spain. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 ViiV Healthcare srl/bv 
-Tél/Tel: + 32 (0) 10 85 65<br />
+T l/Tel: + 32 (0) 10 85 65<br />
 Lietuva 
 ViiV Healthcare BV<br />
-Tel: + 370 80000 
-България 
-ViiV Healthcare BV 
-Teл.: + 359 80018 
+Tel: + 370 80000 </p>
+<p>ViiV Healthcare BV 
+Te .: + 359 80018 
 Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 65<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 65<br />
+ esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 ViiV Healthcare BV 
 Tel.: + 36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
@@ -454,13 +453,12 @@ Tel: + 372 8002
 Norge 
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20  </p>
-<p>Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82 Österreich 
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com  </p>
-<p>España 
+<p>Espa a 
 Laboratorios ViiV Healthcare, S.L.<br />
 Tel: +34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
@@ -468,7 +466,7 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 
 France 
 ViiV Healthcare SAS<br />
-Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+T l.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV<br />
 Tel: + 385 800787 
@@ -476,7 +474,7 @@ Portugal
 VIIVHIV HEALTHCARE, 
 UNIPESSOAL, LDA<br />
 Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
-<p>România 
+<p>Rom nia 
 ViiV Healthcare BV 
 Tel: + 40800672 
 Ireland 
@@ -484,20 +482,19 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 353 (0)1 4955Slovenija 
 ViiV Healthcare BV<br />
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf.<br />
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 ViiV Healthcare BV<br />
 Tel: + 421 800500 
 Italia 
 ViiV Healthcare S.r.l<br />
 Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-ViiV Healthcare BV<br />
-Τηλ: + 357 80070 </p>
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>ViiV Healthcare BV<br />
+ : + 357 80070 </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com  </p>

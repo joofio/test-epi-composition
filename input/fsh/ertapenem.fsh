@@ -4,7 +4,7 @@ Instance: composition-en-34b5097700b5b214baa08b9eb1554dbe
 InstanceOf: CompositionUvEpi
 Title: "Composition for ertapenem Package Leaflet"
 Description:  "Composition for ertapenem Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -107,11 +107,13 @@ with Ertapenem SUN. This is because you may have a condition known as colitis (a
 the bowel). Do not take any medicine to treat diarrhoea without first checking with your doctor. </p>
 <p>Tell your doctor if you are taking medicines called valproic acid or sodium valproate (see Other 
 medicines and Ertapenem SUN below). </p>
-<p>Tell your doctor about any medical condition you have or have had including: 
-- Kidney disease. It is particularly important that your doctor knows if you have kidney disease 
-and whether you undergo dialysis treatment. 
-- Allergies to any medicines, including antibiotics. 
-- Central nervous system disorders, such as localised tremors, or seizures. </p>
+<p>Tell your doctor about any medical condition you have or have had including:</p>
+<ul>
+<li>Kidney disease. It is particularly important that your doctor knows if you have kidney disease 
+and whether you undergo dialysis treatment. </li>
+<li>Allergies to any medicines, including antibiotics. </li>
+<li>Central nervous system disorders, such as localised tremors, or seizures. </li>
+</ul>
 <p>Children and adolescents (3 months to 17 years of age) 
 Experience with Ertapenem SUN is limited in children less than two years of age. In this age group 
 your doctor will decide on the potential benefit of its use. There is no experience in children under 
@@ -132,7 +134,7 @@ human milk and the breast-fed baby may therefore be affected. </p>
 <p>Driving and using machines 
 Do not drive or use any tools or machines until you know how you react to the medicine. 
 Certain side effects, such as dizziness and sleepiness, have been reported with Ertapenem SUN, which 
-may affect some patients’ ability to drive or operate machinery. </p>
+may affect some patients  ability to drive or operate machinery. </p>
 <p>Ertapenem SUN contains sodium 
 This medicine contains approximately 158 mg sodium (main component of cooking / table salt) in 
 each 1 g dose. This is equivalent to 7.9 % of the recommended maximum daily dietary intake of 
@@ -148,7 +150,7 @@ another healthcare professional. </p>
 <p>The recommended dose of Ertapenem SUN for adults and adolescents 13 years of age and older is 
 1 gram (g) given once a day. The recommended dose for children 3 months to 12 years of age is 
 15 mg/kg given twice daily (not to exceed 1 g/day). Your doctor will decide how many 
-days’ treatment you need. </p>
+days  treatment you need. </p>
 <p>For prevention of surgical site infections following surgery of the colon or rectum, the recommended 
 dose of Ertapenem SUN is 1 g administered as a single intravenous dose 1 hour before surgery. </p>
 <p>It is very important that you continue to receive Ertapenem SUN for as long as your doctor prescribes 
@@ -253,7 +255,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month.  </p>
-<p>Do not store above 25°C. </p>         </div>"""      
+<p>Do not store above 25 C. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -264,7 +266,7 @@ The expiry date refers to the last day of that month.  </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ertapenem SUN contains 
 The active substance of Ertapenem SUN is ertapenem 1 g. 
 The other ingredients are sodium hydrogen carbonate (E500) and sodium hydroxide (E524). See 
-section 2 “Ertapenem SUN contains sodium”. </p>
+section 2  Ertapenem SUN contains sodium . </p>
 <p>What Ertapenem SUN looks like and contents of the pack 
 Ertapenem SUN is a off-white to pale yellow powder for concentrate for solution for infusion. 
 Solutions of Ertapenem SUN range from colourless to yellow coloured solutions. Variations of colour 
@@ -284,29 +286,29 @@ Str. Fabricii nr. 124, Cluj-Napoca, 400632,<br />
 Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/България/Česká republika/ 
-Danmark/Eesti/Ελλάδα/Hrvatska/Ireland/Ísland/ 
-Κύπρος/Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
-Malta/Nederland/Norge/Österreich/Portugal/ 
-Slovenija/Slovenská republika/Suomi/Finland/Sverige 
+<p>Belgi /Belgique/Belgien/ / esk  republika/ 
+Danmark/Eesti/ /Hrvatska/Ireland/ sland/ 
+ /Latvija/Lietuva/Luxembourg/Luxemburg/Magyarorsz g/ 
+Malta/Nederland/Norge/ sterreich/Portugal/ 
+Slovenija/Slovensk  republika/Suomi/Finland/Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
 Polarisavenue 2132 JH Hoofddorp 
-Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
-Nederlandene/Holland/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
-Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
-L-Olanda/Nederland/Nederland/Niederlande/Países Baixos/ 
-Nizozemska/Holandsko/Alankomaat/Nederländerna/Nederländerna 
-Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
+Nederland/Pays-Bas/Niederlande/ /Nizozemsko/ 
+Nederlandene/Holland/ /Nizozemska/The Netherlands/Holland/ 
+ /N derlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
+L-Olanda/Nederland/Nederland/Niederlande/Pa ses Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederl nderna/Nederl nderna 
+Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
  +31 (0)23 568 5 
 Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland 
 Tel. +49 (0) 214 40399 0 </p>
-<p>España 
+<p>Espa a 
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
-España 
+Espa a 
 tel. +34 93 342 78<br />
 France 
 Sun Pharma France 
@@ -326,10 +328,10 @@ ul. Kubickiego 11<br />
 02-954 Warszawa<br />
 Polska 
 Tel. +48 22 642 07<br />
-România 
+Rom nia 
 Terapia S.A. 
-Str. Fabricii nr Cluj-Napoca, Judeţul Cluj 
-România 
+Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
+Rom nia 
 Tel. +40 (264) 501  </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

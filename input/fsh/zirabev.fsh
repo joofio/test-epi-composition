@@ -4,7 +4,7 @@ Instance: composition-en-8ceafeb1fcccbf6af415d119af979934
 InstanceOf: CompositionUvEpi
 Title: "Composition for zirabev Package Leaflet"
 Description:  "Composition for zirabev Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use Zirabev 
 4. Possible side effects 
 5. How to store Zirabev 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -111,88 +110,66 @@ paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>  
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take zirabev"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Zirabev 
-● 
-if you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
-medicine (listed in section 6). 
-● 
-if you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
-recombinant human or humanised antibodies. 
-● 
-if you are pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Zirabev </p>
+<p>if you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
+medicine (listed in section 6). </p>
+<p>if you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
+recombinant human or humanised antibodies. </p>
+<p>if you are pregnant. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using Zirabev </p>
-<p>● 
-Your doctor should record the brand name and batch number of your medication. </p>
-<p>● 
-It is possible that Zirabev may increase the risk of developing holes in the gut wall. If you 
+<p>Your doctor should record the brand name and batch number of your medication. </p>
+<p>It is possible that Zirabev may increase the risk of developing holes in the gut wall. If you 
 have conditions causing inflammation inside the abdomen (e.g. diverticulitis, stomach ulcers, 
 colitis associated with chemotherapy), please discuss this with your doctor. </p>
-<p>● 
-Zirabev may increase the risk of developing an abnormal connection or passageway between 
+<p>Zirabev may increase the risk of developing an abnormal connection or passageway between 
 two organs or vessels. The risk of developing connections between the vagina and any parts of 
 the gut can increase if you have persistent, recurrent or metastatic cervical cancer. </p>
-<p>● 
-This medicine can increase the risk of bleeding or increase the risk of problems with wound 
+<p>This medicine can increase the risk of bleeding or increase the risk of problems with wound 
 healing after surgery. If you are going to have an operation, if you have had major surgery 
 within the last 28 days or if you still have an unhealed wound following surgery, you should 
 not receive this medicine. </p>
-<p>● 
-Zirabev may increase the risk of developing serious infections of the skin or deeper layers 
+<p>Zirabev may increase the risk of developing serious infections of the skin or deeper layers 
 under the skin, especially if you had holes in the gut wall or problems with wound healing. </p>
-<p>● 
-Zirabev can increase the incidence of high blood pressure. If you have high blood pressure 
+<p>Zirabev can increase the incidence of high blood pressure. If you have high blood pressure 
 which is not well controlled with blood pressure medicines, please consult your doctor as it is 
 important to make sure that your blood pressure is under control before starting Zirabev 
 treatment. </p>
-<p>● 
-If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
+<p>If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
 tear in a blood vessel wall. </p>
-<p>● 
-This medicine increases the risk of having protein in your urine especially if you already have 
+<p>This medicine increases the risk of having protein in your urine especially if you already have 
 high blood pressure. </p>
-<p>● 
-The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
+<p>The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
 are over 65 years old, if you have diabetes, or if you have had previous blood clots in your 
 arteries. Please talk to your doctor since blood clots can lead to heart attack and stroke. </p>
-<p>● 
-Zirabev can also increase the risk of developing blood clots in your veins (a type of blood 
+<p>Zirabev can also increase the risk of developing blood clots in your veins (a type of blood 
 vessel). </p>
-<p>● 
-This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
+<p>This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
 doctor if you or your family tend to suffer from bleeding problems or you are taking medicines 
 to thin the blood for any reason. </p>
-<p>● 
-It is possible that Zirabev may cause bleeding in and around your brain. Please discuss this 
+<p>It is possible that Zirabev may cause bleeding in and around your brain. Please discuss this 
 with your doctor if you have metastatic cancer affecting your brain. </p>
-<p>● 
-It is possible that Zirabev can increase the risk of bleeding in your lungs, including coughing or 
+<p>It is possible that Zirabev can increase the risk of bleeding in your lungs, including coughing or 
 spitting blood. Please discuss with your doctor if you noticed this previously. </p>
-<p>● 
-Zirabev can increase the risk of developing a weak heart. It is important that your doctor 
+<p>Zirabev can increase the risk of developing a weak heart. It is important that your doctor 
 knows if you have ever received anthracyclines (for example doxorubicin, a specific type of 
 chemotherapy used to treat some cancers) or had radiotherapy to your chest, or if you have 
 heart disease. </p>
-<p>● 
-This medicine may cause infections and a decreased number of your neutrophils (a type of 
+<p>This medicine may cause infections and a decreased number of your neutrophils (a type of 
 blood cell important for your protection against bacteria). </p>
-<p>● 
-It is possible that Zirabev can cause hypersensitivity (including anaphylactic shock) and/or 
+<p>It is possible that Zirabev can cause hypersensitivity (including anaphylactic shock) and/or 
 infusion reactions (reactions related to your injection of the medicine). Please let your doctor, 
 pharmacist or nurse know if you have previously experienced problems after injections, such 
 as dizziness/feeling of fainting, breathlessness, swelling or skin rash. </p>
-<p>● 
-A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
+<p>A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
 has been associated with bevacizumab treatment. If you have headache, vision changes, 
 confusion or seizure with or without high blood pressure, please contact your doctor. </p>
 <p>Please consult your doctor, even if these above statements were only applicable to you in the past. </p>
-<p>Before you are given Zirabev or while you are being treated with Zirabev: 
-● 
-if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the 
+<p>Before you are given Zirabev or while you are being treated with Zirabev: </p>
+<p>if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the 
 mouth, numbness or a feeling of heaviness in the jaw, or loosening of a tooth tell your doctor 
-and dentist immediately. 
-● 
-if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
+and dentist immediately. </p>
+<p>if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
 are being treated with Zirabev, in particular when you are also receiving or have received an 
 injection of bisphosphonate into your blood. </p>
 <p>You may be advised to have a dental check-up before you start treatment with Zirabev. </p>
@@ -251,40 +228,27 @@ all of the contents of the Zirabev vial will be diluted with sodium chloride sol
 doctor or nurse will give you this diluted Zirabev solution by intravenous infusion (a drip into your 
 vein). The first infusion will be given to you over 90 minutes. If this is well-tolerated the second 
 infusion may be given over 60 minutes. Later infusions may be given to you over 30 minutes. </p>
-<p>The administration of Zirabev should be temporarily discontinued 
-● 
-if you develop severe high blood pressure requiring treatment with blood pressure medicines, </p>
-<p>● 
-if you have problems with wound healing following surgery, 
-● 
-if you undergo surgery. </p>
-<p>The administration of Zirabev should be permanently discontinued if you develop 
-● 
-severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
-severe rise in blood pressure, 
-● 
-presence of protein in your urine accompanied by swelling of your body, 
-● 
-a hole in your gut wall, 
-● 
-an abnormal tube-like connection or passage between the windpipe and the gullet, between 
+<p>The administration of Zirabev should be temporarily discontinued </p>
+<p>if you develop severe high blood pressure requiring treatment with blood pressure medicines, </p>
+<p>if you have problems with wound healing following surgery, </p>
+<p>if you undergo surgery. </p>
+<p>The administration of Zirabev should be permanently discontinued if you develop </p>
+<p>severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
+severe rise in blood pressure, </p>
+<p>presence of protein in your urine accompanied by swelling of your body, </p>
+<p>a hole in your gut wall, </p>
+<p>an abnormal tube-like connection or passage between the windpipe and the gullet, between 
 internal organs and skin, between the vagina and any parts of the gut or between other tissues 
-that are not normally connected (fistula), and are judged by your doctor to be severe, 
-● 
-serious infections of the skin or deeper layers under the skin, 
-● 
-a blood clot in your arteries, 
-● 
-a blood clot in the blood vessels of your lungs, 
-● 
-any severe bleeding. </p>
-<p>If too much Zirabev is given 
-● 
-you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
+that are not normally connected (fistula), and are judged by your doctor to be severe, </p>
+<p>serious infections of the skin or deeper layers under the skin, </p>
+<p>a blood clot in your arteries, </p>
+<p>a blood clot in the blood vessels of your lungs, </p>
+<p>any severe bleeding. </p>
+<p>If too much Zirabev is given </p>
+<p>you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
 or nurse immediately. </p>
-<p>If a dose of Zirabev is missed 
-● 
-your doctor will decide when you should be given your next dose of Zirabev. You should 
+<p>If a dose of Zirabev is missed </p>
+<p>your doctor will decide when you should be given your next dose of Zirabev. You should 
 discuss this with your doctor. </p>
 <p>If you stop treatment with Zirabev 
 Stopping your treatment with Zirabev may stop the effect on tumour growth. Do not stop treatment 
@@ -308,168 +272,101 @@ signs may include: difficulty in breathing or chest pain. You could also experie
 of the skin or a rash, chills and shivering, feeling sick (nausea) or being sick (vomiting), swelling, 
 lightheadedness, fast heartbeat and loss of consciousness. </p>
 <p>You should seek help immediately if you suffer from any of the below mentioned side effects. </p>
-<p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include: 
-● 
-high blood pressure, 
-● 
-feeling of numbness or tingling in hands or feet, 
-● 
-decreased number of cells in the blood, including white cells that help to fight against infections 
-(this may be accompanied by fever), and cells that help the blood to clot, 
-● 
-feeling weak and having no energy, 
-● 
-tiredness, 
-● 
-diarrhoea, nausea, vomiting and abdominal pain. </p>
-<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include: 
-● 
-perforation of the gut, 
-● 
-bleeding, including bleeding in the lungs in patients with non-small cell lung cancer, 
-● 
-blocking of the arteries by a blood clot, 
-● 
-blocking of the veins by a blood clot, 
-● 
-blocking of the blood vessels of the lungs by a blood clot, 
-● 
-blocking of the veins of the legs by a blood clot, 
-● 
-heart failure, 
-● 
-problems with wound healing after surgery, 
-● 
-redness, peeling, tenderness, pain, or blistering on the fingers or feet, 
-● 
-decreased number of red cells in the blood, 
-● 
-lack of energy, 
-● 
-stomach and intestinal disorder,<br />
-● 
-muscle and joint pain, muscular weakness, 
-● 
-dry mouth in combination with thirst and/or reduced or darkened urine, 
-● 
-inflammation of the moist lining of mouth and gut, lungs and air passages, reproductive, and 
-urinary tracts, 
-● 
-sores in the mouth and the tube from the mouth to the stomach, which may be painful and cause 
-difficulty swallowing, 
-● 
-pain, including headache, back pain and pain in the pelvis and anal regions, 
-● 
-localised pus collection, 
-● 
-infection, and in particular infection in the blood or bladder, 
-● 
-reduced blood supply to the brain or stroke, 
-● 
-sleepiness, 
-● 
-nose bleed, 
-● 
-increase in heart rate (pulse), 
-● 
-blockage in the gut or bowel, 
-● 
-abnormal urine test (protein in the urine), 
-● 
-shortness of breath or low levels of oxygen in the blood, 
-● 
-infections of the skin or deeper layers under the skin, 
-● 
-fistula: abnormal tube-like connection between internal organs and skin or other tissues that are 
+<p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include: </p>
+<p>high blood pressure, </p>
+<p>feeling of numbness or tingling in hands or feet, </p>
+<p>decreased number of cells in the blood, including white cells that help to fight against infections 
+(this may be accompanied by fever), and cells that help the blood to clot, </p>
+<p>feeling weak and having no energy, </p>
+<p>tiredness, </p>
+<p>diarrhoea, nausea, vomiting and abdominal pain. </p>
+<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include: </p>
+<p>perforation of the gut, </p>
+<p>bleeding, including bleeding in the lungs in patients with non-small cell lung cancer, </p>
+<p>blocking of the arteries by a blood clot, </p>
+<p>blocking of the veins by a blood clot, </p>
+<p>blocking of the blood vessels of the lungs by a blood clot, </p>
+<p>blocking of the veins of the legs by a blood clot, </p>
+<p>heart failure, </p>
+<p>problems with wound healing after surgery, </p>
+<p>redness, peeling, tenderness, pain, or blistering on the fingers or feet, </p>
+<p>decreased number of red cells in the blood, </p>
+<p>lack of energy, </p>
+<p>stomach and intestinal disorder,  </p>
+<p>muscle and joint pain, muscular weakness, </p>
+<p>dry mouth in combination with thirst and/or reduced or darkened urine, </p>
+<p>inflammation of the moist lining of mouth and gut, lungs and air passages, reproductive, and 
+urinary tracts, </p>
+<p>sores in the mouth and the tube from the mouth to the stomach, which may be painful and cause 
+difficulty swallowing, </p>
+<p>pain, including headache, back pain and pain in the pelvis and anal regions, </p>
+<p>localised pus collection, </p>
+<p>infection, and in particular infection in the blood or bladder, </p>
+<p>reduced blood supply to the brain or stroke, </p>
+<p>sleepiness, </p>
+<p>nose bleed, </p>
+<p>increase in heart rate (pulse), </p>
+<p>blockage in the gut or bowel, </p>
+<p>abnormal urine test (protein in the urine), </p>
+<p>shortness of breath or low levels of oxygen in the blood, </p>
+<p>infections of the skin or deeper layers under the skin, </p>
+<p>fistula: abnormal tube-like connection between internal organs and skin or other tissues that are 
 not normally connected, including connections between vagina and the gut in patients with 
-cervical cancer. 
-● 
-allergic reactions (the signs may include breathing difficulty, facial redness, rash, low blood 
+cervical cancer. </p>
+<p>allergic reactions (the signs may include breathing difficulty, facial redness, rash, low blood 
 pressure or high blood pressure, low oxygen in your blood, chest pain, or nausea/vomiting). </p>
-<p>Severe side effects, which may be rare (may affect up to 1 in 1,000 people), include: 
-● 
-sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, fast 
+<p>Severe side effects, which may be rare (may affect up to 1 in 1,000 people), include: </p>
+<p>sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, fast 
 heartbeat, sweating and loss of consciousness (anaphylactic shock). </p>
 <p>Severe side effects of unknown frequency (frequency cannot be estimated from the available data), 
-include: 
-● 
-serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
-gut wall or problems with wound healing, 
-● 
-a negative effect on a woman’s ability to have children (see the paragraphs below the list of side 
-effects for further recommendations), 
-● 
-a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
-vision (Posterior Reversible Encephalopathy Syndrome or PRES), 
-● 
-symptoms that suggest changes in normal brain function (headaches, vision changes, confusion, 
-or seizures), and high blood pressure, 
-● 
-an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall (aneurysms 
-and artery dissections), 
-● 
-clogging of a very small blood vessel(s) in the kidney, 
-● 
-abnormally high blood pressure in the blood vessels of the lungs which makes the right side of 
-the heart work harder than normal, 
-● 
-a hole in the cartilage wall separating the nostrils of the nose, </p>
-<p>● 
-a hole in the stomach or intestines, 
-● 
-an open sore or hole in the lining of the stomach or small intestine (the signs may include 
+include: </p>
+<p>serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
+gut wall or problems with wound healing, </p>
+<p>a negative effect on a woman s ability to have children (see the paragraphs below the list of side 
+effects for further recommendations), </p>
+<p>a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
+vision (Posterior Reversible Encephalopathy Syndrome or PRES), </p>
+<p>symptoms that suggest changes in normal brain function (headaches, vision changes, confusion, 
+or seizures), and high blood pressure, </p>
+<p>an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall (aneurysms 
+and artery dissections), </p>
+<p>clogging of a very small blood vessel(s) in the kidney, </p>
+<p>abnormally high blood pressure in the blood vessels of the lungs which makes the right side of 
+the heart work harder than normal, </p>
+<p>a hole in the cartilage wall separating the nostrils of the nose, </p>
+<p>a hole in the stomach or intestines, </p>
+<p>an open sore or hole in the lining of the stomach or small intestine (the signs may include 
 abdominal pain, feeling bloated, black tarry stools or blood in your stools (faeces) or blood in 
-your vomit), 
-● 
-bleeding from the lower part of the large bowel, 
-● 
-lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
+your vomit), </p>
+<p>bleeding from the lower part of the large bowel, </p>
+<p>lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
 pain and inflammation of the surrounding tissue (see the paragraphs below the list of side effects 
-for further recommendations), 
-● 
-hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
+for further recommendations), </p>
+<p>hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
 nausea/vomiting). </p>
 <p>You should seek help as soon as possible if you suffer from any of the below mentioned side 
 effects. </p>
-<p>Very common (may affect more than 1 in 10 people) side effects, which were not severe, include: 
-● 
-constipation, 
-● 
-loss of appetite, 
-● 
-fever, 
-● 
-problems with the eyes (including increased production of tears), 
-● 
-changes in speech, 
-● 
-change in the sense of taste, 
-● 
-runny nose, 
-● 
-dry skin, flaking and inflammation of the skin, change in skin colour, 
-● 
-loss of body weight, 
-● 
-nose bleeds. </p>
-<p>Common (may affect up to 1 in 10 people) side effects, which were not severe, include: 
-● 
-voice changes and hoarseness. </p>
-<p>Patients older than 65 years have an increased risk of experiencing the following side effects: 
-● 
-blood clot in the arteries which can lead to a stroke or a heart attack, 
-● 
-reduction in the number of white cells in the blood, and cells that help the blood clot, 
-● 
-diarrhoea, 
-● 
-sickness, 
-● 
-headache, 
-● 
-fatigue, 
-● 
-high blood pressure. </p>
+<p>Very common (may affect more than 1 in 10 people) side effects, which were not severe, include: </p>
+<p>constipation, </p>
+<p>loss of appetite, </p>
+<p>fever, </p>
+<p>problems with the eyes (including increased production of tears), </p>
+<p>changes in speech, </p>
+<p>change in the sense of taste, </p>
+<p>runny nose, </p>
+<p>dry skin, flaking and inflammation of the skin, change in skin colour, </p>
+<p>loss of body weight, </p>
+<p>nose bleeds. </p>
+<p>Common (may affect up to 1 in 10 people) side effects, which were not severe, include: </p>
+<p>voice changes and hoarseness. </p>
+<p>Patients older than 65 years have an increased risk of experiencing the following side effects: </p>
+<p>blood clot in the arteries which can lead to a stroke or a heart attack, </p>
+<p>reduction in the number of white cells in the blood, and cells that help the blood clot, </p>
+<p>diarrhoea, </p>
+<p>sickness, </p>
+<p>headache, </p>
+<p>fatigue, </p>
+<p>high blood pressure. </p>
 <p>Zirabev may also cause changes in laboratory tests carried out by your doctor. These include a 
 decreased number of white cells in the blood, in particular neutrophils (one type of white blood cell 
 which helps protect against infections) in the blood; presence of protein in the urine; decreased blood 
@@ -486,16 +383,11 @@ should discuss this with your doctor before your treatment starts. </p>
 <p>Zirabev has been developed and made to treat cancer by injecting it into the bloodstream. It has not 
 been developed or made for injection into the eye. It is therefore not authorised to be used in this way. 
 When Zirabev is injected directly into the eye (unapproved use), the following side effects may occur: </p>
-<p>● 
-Infection or inflammation of the eye globe, 
-● 
-Redness of the eye, small particles or spots in your vision (floaters), eye pain, 
-● 
-Seeing flashes of light with floaters, progressing to a loss of some of your vision, 
-● 
-Increased eye pressure, 
-● 
-Bleeding in the eye. </p>
+<p>Infection or inflammation of the eye globe, </p>
+<p>Redness of the eye, small particles or spots in your vision (floaters), eye pain, </p>
+<p>Seeing flashes of light with floaters, progressing to a loss of some of your vision, </p>
+<p>Increased eye pressure, </p>
+<p>Bleeding in the eye. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -510,14 +402,14 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C–8°C). Do not freeze. 
+<p>Store in a refrigerator (2 C 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use 
 storage times and conditions are the responsibility of the user and would normally not be longer 
-than 24 hours at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile 
+than 24 hours at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile 
 environment. When dilution has taken place in a sterile environment, Zirabev is stable for a period 
-of up to 35 days at 2°C to 8°C after dilution and a period of up to 48 hours at temperatures not 
-exceeding 30°C. </p>
+of up to 35 days at 2 C to 8 C after dilution and a period of up to 48 hours at temperatures not 
+exceeding 30 C. </p>
 <p>Do not use Zirabev if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -534,8 +426,8 @@ throw away medicines you no longer use. These measures will help to protect the 
 Each 4 ml vial contains 100 mg of bevacizumab. 
 Each 16 ml vial contains 400 mg of bevacizumab. </li>
 <li>The other ingredients are sucrose, succinic acid, disodium edetate, polysorbate 80, sodium 
-hydroxide (for pH adjustment), and water for injections (see section 2 “Zirabev contains 
-sodium”). </li>
+hydroxide (for pH adjustment), and water for injections (see section 2  Zirabev contains 
+sodium ). </li>
 </ul>
 <p>What Zirabev looks like and contents of the pack 
 Zirabev is a concentrate for solution for infusion. The concentrate is a clear to slightly opalescent, 
@@ -548,17 +440,17 @@ Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Belgium </p>
 Pfizer Service Company BV, Hoge Wei 10, Zaventem, 1930, Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
-Kύπρος 
-Pfizer Eλλάς A.E. (Cyprus Branch) 
-T: +357 22817 
-Česká republika 
+T l/Tel: +32 (0)2 554 62<br />
+K<br />
+Pfizer E  A.E. (Cyprus Branch) 
+T : +357 22817 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
-Magyarország 
+Magyarorsz g 
 Pfizer Kft. 
 Tel.: + 36 1 488 37<br />
 Danmark 
@@ -572,36 +464,34 @@ PFIZER PHARMA GmbH
 Tel: +49 (0)30 550055-51 
 Nederland 
 Pfizer bv 
-Tel: +31 (0)800 63 34<br />
-България 
-Пфайзер Люксембург САРЛ, 
-Клон България 
-Teл.: +359 2 970 4 
+Tel: +31 (0)800 63 34  </p>
+<pre><code> ,
+</code></pre>
+<p>Te .: +359 2 970 4 
 Norge 
 Pfizer AS 
 Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Eλλάς A.E. 
-Τηλ: +30 210 6785 
+<p>Pfizer E  A.E. 
+ : +30 210 6785 
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5 
 France 
 Pfizer 
-Tél: +33 (0)1 58 07 34<br />
-România 
+T l: +33 (0)1 58 07 34<br />
+Rom nia 
 Pfizer Romania S.R.L 
 Tel: +40 (0) 21 207 28<br />
 Hrvatska 
@@ -609,19 +499,19 @@ Pfizer Croatia d.o.o.
 Tel: +385 1 3908<br />
 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 Tel: +44 (0)1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: + 421 2 3355 5 </p>
-<p>Ísland 
+<p>sland 
 Icepharma hf. 
-Sími: +354 540 8 
+S mi: +354 540 8 
 Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430<br />
@@ -632,7 +522,7 @@ Sverige
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
 Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35<br />
 United Kingdom (Northern Ireland) 
 Pfizer Limited 

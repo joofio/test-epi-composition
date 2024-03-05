@@ -4,7 +4,7 @@ Instance: composition-en-9cfa53e5a31a6544aeb83b303f96813f
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyprexa Package Leaflet"
 Description:  "Composition for zyprexa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,10 +71,10 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZYPREXA contains the active substance olanzapine. ZYPREXA belongs to a group of medicines 
 called antipsychotics and is used to treat the following conditions: 
-• Schizophrenia, a disease with symptoms such as hearing, seeing or sensing things which are not 
+  Schizophrenia, a disease with symptoms such as hearing, seeing or sensing things which are not 
 there, mistaken beliefs, unusual suspiciousness, and becoming withdrawn. People with this 
 disease may also feel depressed, anxious or tense. 
-• Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </p>
+  Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </p>
 <p>ZYPREXA has been shown to prevent recurrence of these symptoms in patients with bipolar disorder 
 whose manic episode has responded to olanzapine treatment. </p>         </div>"""   
           
@@ -110,8 +110,8 @@ like these have been associated with the formation of blood clots.  </li>
 </ul>
 <p>If you suffer from any of the following illnesses tell your doctor as soon as possible: </p>
 <ul>
-<li>Stroke or “mini” stroke (temporary symptoms of stroke) </li>
-<li>Parkinson’s disease </li>
+<li>Stroke or  mini  stroke (temporary symptoms of stroke) </li>
+<li>Parkinson s disease </li>
 <li>Prostate problems </li>
 <li>A blocked intestine (Paralytic ileus) </li>
 <li>Liver or kidney disease </li>
@@ -123,7 +123,7 @@ like these have been associated with the formation of blood clots.  </li>
 (being sick) or usage of diuretics (water tablets) </li>
 </ul>
 <p>If you suffer from dementia, you or your carer/relative should tell your doctor if you have ever had a 
-stroke or “mini” stroke. </p>
+stroke or  mini  stroke. </p>
 <p>As a routine precaution, if you are over 65 years your blood pressure may be monitored by your 
 doctor. </p>
 <p>Children and adolescents 
@@ -134,7 +134,7 @@ might feel drowsy if ZYPREXA is taken in combination with antidepressants or med
 anxiety or to help you sleep (tranquillisers).  </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines.  </p>
 <p>In particular, tell your doctor if you are taking: 
-* medicines for Parkinson’s disease. 
+* medicines for Parkinson s disease. 
 * carbamazepine (an anti-epileptic and mood stabiliser), fluvoxamine (an antidepressant) or 
 ciprofloxacin (an antibiotic) - it may be necessary to change your ZYPREXA dose. </p>
 <p>ZYPREXA with alcohol 
@@ -195,13 +195,13 @@ stopping treatment. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately if you have:<br />
-• unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the 
+  unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the 
 face or tongue; 
-• blood clots in the veins (an uncommon side effect that may affect up to 1 in 100 people) 
+  blood clots in the veins (an uncommon side effect that may affect up to 1 in 100 people) 
 especially in the legs (symptoms include swelling, pain, and redness in the leg), which may travel 
 through blood vessels to the lungs causing chest pain and difficulty in breathing. If you notice any 
 of these symptoms seek medical advice immediately; 
-• a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
+  a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
 (the frequency of this side effect cannot be estimated from the available data). </p>
 <p>Very common side effects (may affect more than 1 in 10 people) include weight gain; sleepiness; and 
 increases in levels of prolactin in the blood. In the early stages of treatment, some people may feel 
@@ -281,16 +281,16 @@ colour (E132) </p>
 (tablet coating) macrogol and synthetic red iron 
 oxide (E172) </p>
 <p>What ZYPREXA looks like and contents of the pack 
-ZYPREXA 2.5 mg coated tablets are white imprinted with “LILLY” and a numeric identicode “4112”.<br />
-ZYPREXA 5 mg coated tablets are white imprinted with “LILLY” and a numeric identicode “4115”.<br />
-ZYPREXA 7.5 mg coated tablets are white imprinted with “LILLY” and a numeric identicode “4116”.<br />
-ZYPREXA 10 mg coated tablets are white imprinted with “LILLY” and a numeric identicode “4117”. 
+ZYPREXA 2.5 mg coated tablets are white imprinted with  LILLY  and a numeric identicode  4112 .<br />
+ZYPREXA 5 mg coated tablets are white imprinted with  LILLY  and a numeric identicode  4115 .<br />
+ZYPREXA 7.5 mg coated tablets are white imprinted with  LILLY  and a numeric identicode  4116 .<br />
+ZYPREXA 10 mg coated tablets are white imprinted with  LILLY  and a numeric identicode  4117 . 
 ZYPREXA 15 mg coated tablets are blue.<br />
 ZYPREXA 20 mg coated tablets are pink.  </p>
 <p>ZYPREXA is available in packs containing 28, 35, 56, 70 or 98 tablets. Not all pack sizes may be 
 marketed. </p>
 <p>Marketing Authorisation Holder<br />
-CHEPLAPHARM Registration GmbH, Weiler Straße 5e, 79540 Lörrach, Germany. </p>
+CHEPLAPHARM Registration GmbH, Weiler Stra e 5e, 79540 L rrach, Germany. </p>
 <p>Manufacturer 
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>This leaflet was last revised in {month XXXX} </p>

@@ -4,7 +4,7 @@ Instance: composition-en-ed180dab6ee7a8f7affa18a1651de7e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for inaqovi Package Leaflet"
 Description:  "Composition for inaqovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -94,14 +94,16 @@ and so helps to increase the effects of decitabine.  </p>         </div>"""
 (listed in section 6). 
 - If you are breast-feeding (see section 2, Breast-feeding).  </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before taking Inaqovi if you: 
-- have lung problems<br />
-- have liver problems<br />
-- have kidney problems<br />
-- have heart problems </p>
-<p>Myelosuppression and ‘differentiation syndrome’ 
+Talk to your doctor, pharmacist or nurse before taking Inaqovi if you:</p>
+<ul>
+<li>have lung problems  </li>
+<li>have liver problems  </li>
+<li>have kidney problems  </li>
+<li>have heart problems </li>
+</ul>
+<p>Myelosuppression and  differentiation syndrome<br />
 Inaqovi can cause serious myelosuppression (a condition in which the bone marrow cannot make enough 
-blood cells), or a serious immune reaction called ‘differentiation syndrome’. Both may be fatal.<br />
+blood cells), or a serious immune reaction called  differentiation syndrome . Both may be fatal.<br />
 Seek urgent medical attention if you notice any signs and symptoms (for symptoms see section 4) </p>
 <p>Cardiovascular disease 
 Talk to your doctor if you have a history of heart problems so that you can be monitored for signs and 
@@ -109,9 +111,11 @@ symptoms of heart failure. </p>
 <p>Blood tests 
 You will have blood tests while on treatment. These will occur before you start treatment with Inaqovi, at 
 the start of each treatment cycle or if you notice any signs and symptoms of myelosuppression. These tests 
-are to check that: 
-- you have enough blood cells, and 
-- your liver and kidneys are working properly </p>
+are to check that:</p>
+<ul>
+<li>you have enough blood cells, and </li>
+<li>your liver and kidneys are working properly </li>
+</ul>
 <p>Your doctor may change or delay your dose of Inaqovi. Your doctor may also give you medicines to help 
 prevent infections. </p>
 <p>Children and adolescents 
@@ -120,8 +124,10 @@ studied in this age group. </p>
 <p>Other medicines and Inaqovi 
 Tell your doctor, pharmacist or nurse if you are taking, have recently taken, or might take any other 
 medicines before you begin treatment with Inaqovi. Inaqovi may affect the way some medicines work, 
-especially if you are also taking the following medicines to treat:<br />
-- cancer, such as cytarabine, gemcitabine or azacitidine </p>
+especially if you are also taking the following medicines to treat:</p>
+<ul>
+<li>cancer, such as cytarabine, gemcitabine or azacitidine </li>
+</ul>
 <p>Pregnancy, contraception, breast-feeding and fertility </p>
 <p>Pregnancy 
 If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor for advice 
@@ -148,7 +154,7 @@ Inaqovi, do not drive or use tools or machinery until you feel better. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inaqovi"
@@ -195,22 +201,24 @@ If you have any further questions on how to take this medicine, ask your doctor,
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Tell your doctor, pharmacist, or nurse immediately if you notice any of the following serious side 
-effects: 
-- fever: this may be a sign of an infection caused by low levels of white blood cells (very common - may affect more than 1 in 10 people).<br />
-- chest pain or shortness of breath (with or without fever or cough): these may be signs of 
+effects:</p>
+<ul>
+<li>fever: this may be a sign of an infection caused by low levels of white blood cells (very common - may affect more than 1 in 10 people).  </li>
+<li>chest pain or shortness of breath (with or without fever or cough): these may be signs of 
 pneumonia (very common- may affect more than 1 in 10 people) or inflamed lungs (interstitial lung 
-disease (frequency not known). 
-- bleeding, including blood in the stools or nose bleed or bruising more easily: this may be a sign of 
-low blood cells (platelets and red blood cells) (common - may affect up to 1 in 10 people).<br />
-- difficulty moving, speaking, understanding or seeing; sudden severe headache, seizure, 
+disease (frequency not known). </li>
+<li>bleeding, including blood in the stools or nose bleed or bruising more easily: this may be a sign of 
+low blood cells (platelets and red blood cells) (common - may affect up to 1 in 10 people).  </li>
+<li>difficulty moving, speaking, understanding or seeing; sudden severe headache, seizure, 
 numbness or weakness in any part of the body: these may be signs of bleeding inside your head 
-(common - may affect up to 1 in 10 people).<br />
-- feeling dizzy or faint, confusion or disorientation, weakness, breathlessness, decreased urination, 
+(common - may affect up to 1 in 10 people).  </li>
+<li>feeling dizzy or faint, confusion or disorientation, weakness, breathlessness, decreased urination, 
 diarrhoea, feeling sick/vomiting, fever, shivering or feeling very cold, clammy skin or sweating, 
-or cough: these may be signs and symptoms of an infection of the blood (sepsis) (very common - may affect more than 1 in 10 people). 
-- fever, cough, difficulty breathing, rash, decreased urine, hypotension (low blood pressure), 
+or cough: these may be signs and symptoms of an infection of the blood (sepsis) (very common - may affect more than 1 in 10 people). </li>
+<li>fever, cough, difficulty breathing, rash, decreased urine, hypotension (low blood pressure), 
 swelling of the arms or legs and rapid weight gain:  these may be signs of a serious immune 
-reaction (differentiation syndrome) (frequency not known). </p>
+reaction (differentiation syndrome) (frequency not known). </li>
+</ul>
 <p>Other side effects: </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - urinary tract infection 
@@ -227,7 +235,7 @@ reaction (differentiation syndrome) (frequency not known). </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 - a drop in the number of red blood cells, white blood cells and platelets 
 - sudden fever with, multiple red or bluish-red raised painful patches on the skin, usually on the arms, 
-legs, trunk, face or neck. (‘Acute Febrile Neutrophilic Dermatosis’ or ‘Sweet’s Syndrome’) 
+legs, trunk, face or neck. ( Acute Febrile Neutrophilic Dermatosis  or  Sweet s Syndrome ) 
 - heart muscle disease </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
@@ -266,7 +274,7 @@ polyvinyl alcohol (E1203), titanium dioxide (E171), polyethylene glycol (E1521),
 iron oxide red (E172). </p>
 <p>What Inaqovi looks like and contents of the pack 
 Inaqovi are red, oval biconvex shaped film-coated tablets, 14 mm diameter, plain on one side and 
-debossed with ‘H35’ on the other side.  </p>
+debossed with  H35  on the other side.  </p>
 <p>They are supplied in foil blister packs containing 5 tablets.  </p>
 <p>Marketing Authorisation Holder<br />
 Otsuka Pharmaceutical Netherlands B.V. 
@@ -278,22 +286,21 @@ Via Appia Km. 65,561<br />
 04013 Latina Scalo (LT) 
 Italy </p>
 <p>R-PHARM Germany GmbH 
-Heinrich-Mack-Straße 89257 lllertissen 
+Heinrich-Mack-Stra e 89257 lllertissen 
 Germany </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Lietuva 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
-<p>България 
-Otsuka Pharmaceutical Netherlands B.V. 
+<p>Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Luxembourg/Luxemburg 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
-<p>Česká republika 
+<p>esk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 Magyarország 
+Tel: +31 (0) 20 85 46 Magyarorsz g 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
 <p>Danmark 
@@ -311,24 +318,23 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46 Norge 
 Otsuka Pharma Scandinavia AB 
 Tlf: +46 (0) 8 545 286  </p>
-<p>Ελλάδα 
-Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 Österreich 
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46  sterreich 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
-<p>España 
+<p>Espa a 
 Otsuka Pharmaceutical, S.A. 
 Tel: +34 93 550 01 Polska 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
 <p>France 
 Otsuka Pharmaceutical France SAS 
-Tél: +33 (0)1 47 08 00 Portugal 
+T l: +33 (0)1 47 08 00 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
 <p>Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 România 
+Tel: +31 (0) 20 85 46 Rom nia 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
 <p>Ireland 
@@ -336,9 +342,9 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 (0) 535 7Slovenská republika 
+S mi: +354 (0) 535 7Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  </p>
 <p>Italia 
@@ -346,8 +352,7 @@ Otsuka Pharmaceutical Italy S.r.l.
 Tel: +39 (0) 2 0063 2Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
 Tlf: +46 (0) 8 545 286  </p>
-<p>Κύπρος 
-Otsuka Pharmaceutical Netherlands B.V. 
+<p>Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Sverige 
 Otsuka Pharma Scandinavia AB 
 Tlf: +46 (0) 8 545 286  </p>

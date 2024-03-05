@@ -4,7 +4,7 @@ Instance: composition-en-16019d0f068b393be3091cc008ef79bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for tafinlar Package Leaflet"
 Description:  "Composition for tafinlar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -115,9 +115,9 @@ colon) or metastases to the gastrointestinal tract. </p>
 <p>Check with your doctor if you think any of these may apply to you. </p>
 <p>Conditions you may need to look out for 
 Some people taking Tafinlar develop other conditions, which can be serious. You need to know about 
-important signs and symptoms to look out for while you’re taking this medicine. Some of these 
+important signs and symptoms to look out for while you re taking this medicine. Some of these 
 symptoms (bleeding, fever, changes to your skin and eye problems) are briefly mentioned in this 
-section, but more detailed information is found in section 4, “Possible side effects”. </p>
+section, but more detailed information is found in section 4,  Possible side effects . </p>
 <p>Bleeding 
 Taking Tafinlar in combination with trametinib can cause serious bleeding including in your brain, the 
 digestive system (such as stomach, rectum or intestine), lungs, and other organs, and can lead to death. 
@@ -132,10 +132,10 @@ Symptoms may include:
 Taking Tafinlar or the combination of Tafinlar and trametinib may cause fever, although it is more 
 likely if you are taking the combination treatment (see also section 4). In some cases, people with 
 fever may develop low blood pressure, dizziness or other symptoms. </p>
-<p>Tell your doctor immediately if you get a temperature above 38ºC or if you feel a fever coming on 
+<p>Tell your doctor immediately if you get a temperature above 38 C or if you feel a fever coming on 
 while you are taking this medicine. </p>
 <p>Heart disorder 
-Tafinlar can cause heart problems, or make existing heart problems worse (see also “Heart conditions” 
+Tafinlar can cause heart problems, or make existing heart problems worse (see also  Heart conditions<br />
 in section 4), in people taking Tafinlar in combination with trametinib. </p>
 <p>Tell your doctor if you have a heart disorder. Your doctor will run tests to check that your heart is 
 working properly before and during your treatment with Tafinlar in combination with trametinib. Tell 
@@ -156,21 +156,22 @@ vein occlusion). Tell your doctor immediately if you get the following symptoms 
 blurred vision, loss of vision or other vision changes, coloured dots in your vision or halos (seeing 
 blurred outline around objects) during your treatment. If necessary, your doctor may decide to 
 interrupt your treatment or to stop it altogether. </p>
-<p>➔ 
-Read the information about fever, changes in your skin and eye problems in section 4 of 
+<p>Read the information about fever, changes in your skin and eye problems in section 4 of 
 this leaflet. Tell your doctor, pharmacist or nurse if you get any of the signs and symptoms 
 listed. </p>
 <p>Liver problems 
 Tafinlar in combination with trametinib can cause problems with your liver which may develop into 
 serious conditions such as hepatitis and liver failure, which may be fatal. Your doctor will monitor you 
-periodically. Signs that your liver may not be working properly may include: 
-- loss of appetite 
-- feeling sick (nausea) 
-- being sick (vomiting) 
-- pain in your stomach (abdomen) 
-- yellowing of your skin or the whites of your eyes (jaundice) 
-- dark-coloured urine 
-- itching of your skin </p>
+periodically. Signs that your liver may not be working properly may include:</p>
+<ul>
+<li>loss of appetite </li>
+<li>feeling sick (nausea) </li>
+<li>being sick (vomiting) </li>
+<li>pain in your stomach (abdomen) </li>
+<li>yellowing of your skin or the whites of your eyes (jaundice) </li>
+<li>dark-coloured urine </li>
+<li>itching of your skin </li>
+</ul>
 <p>Tell your doctor as soon as possible if you get any of these symptoms </p>
 <p>Muscle pain 
 Tafinlar in combination with trametinib can result in the breakdown of muscle (rhabdomyolysis). Tell 
@@ -226,10 +227,9 @@ efavirenz, fosamprenavir, lopinavir, nelfinavir, tipranavir, saquinavir and ataz
 * some medicines used for pain relief, such as fentanyl and methadone 
 * medicines to treat seizures (epilepsy), such as phenytoin, phenobarbital, primidone, valproic 
 acid or carbamazepine 
-* antidepressant medicines such as nefazodone and the herbal medicine St John’s wort 
+* antidepressant medicines such as nefazodone and the herbal medicine St John s wort 
 (Hypericum perforatum) </p>
-<p>➔ 
-Tell your doctor, pharmacist or nurse if you are taking any of these (or if you are not sure). 
+<p>Tell your doctor, pharmacist or nurse if you are taking any of these (or if you are not sure). 
 Your doctor may decide to adjust your dose. </p>
 <p>Keep a list of the medicines you take, so you can show it to your doctor, pharmacist or nurse. </p>
 <p>Pregnancy, breast-feeding and fertility 
@@ -249,7 +249,7 @@ you are taking this medicine. Ask your doctor, pharmacist or nurse for advice.
 It is not known whether the ingredients of this medicine can pass into breast milk. 
 If you are breast-feeding, or planning to breast-feed, you must tell your doctor. You and your doctor 
 will decide if you will take this medicine or breast-feed. </p>
-<p>Fertility – both men and women 
+<p>Fertility   both men and women 
 Animal studies have shown that the active substance dabrafenib may permanently reduce male 
 fertility. In addition, men who are taking Tafinlar may have a reduced sperm count and their sperm 
 count may not return to normal levels after they stop taking this medicine. </p>
@@ -278,18 +278,18 @@ twice a day (corresponding to a daily dose of 300 mg). The recommended dose of t
 used in combination with Tafinlar, is 2 mg once a day. </p>
 <p>Your doctor may decide that you should take a lower dose if you get side effects. </p>
 <p>Tafinlar are also available as 50 mg capsules if a dose reduction is recommended. </p>
-<p>Don’t take more Tafinlar than your doctor has recommended, since this may increase the risk of 
+<p>Don t take more Tafinlar than your doctor has recommended, since this may increase the risk of 
 side effects. </p>
 <p>How to take it 
 Swallow the capsules whole with water, one after the other. </p>
-<p>Don’t chew or crush the capsules, since they will otherwise lose their effect. </p>
+<p>Don t chew or crush the capsules, since they will otherwise lose their effect. </p>
 <p>Take Tafinlar twice a day, on an empty stomach. This means that 
 * after taking Tafinlar, you must wait at least 1 hour before eating, or 
 * after eating, you must wait at least 2 hours before taking Tafinlar. </p>
 <p>Take Tafinlar in the morning and evening, about 12 hours apart. Take your morning and evening doses 
 of Tafinlar at the same times every day. This will increase the chance of remembering to take the 
 capsules. </p>
-<p>Don’t take the morning and evening doses of Tafinlar at the same time. </p>
+<p>Don t take the morning and evening doses of Tafinlar at the same time. </p>
 <p>If you take more Tafinlar than you should 
 If you take too many capsules of Tafinlar, contact your doctor, pharmacist or nurse for advice. If 
 possible, show them the Tafinlar pack with this leaflet. </p>
@@ -313,11 +313,9 @@ either the morning dose of Tafinlar or the evening dose of Tafinlar.
 * Take Tafinlar and trametinib on an empty stomach, at least one hour before or two hours after a 
 meal. Take whole with a full glass of water. 
 * If you miss a dose of Tafinlar or trametinib, take it as soon as you remember. Do not make up 
-for missed doses and just take your next dose at your regular time: 
-o 
+for missed doses and just take your next dose at your regular time: * 
 If it is less than 6 hours to your next scheduled dose of Tafinlar, which is taken twice 
-daily. 
-o 
+daily. * 
 If it is less than 12 hours to your next scheduled dose of trametinib, which is taken once 
 daily. 
 * If you take too much Tafinlar or trametinib, immediately contact your doctor, nurse or 
@@ -341,11 +339,11 @@ trametinib. Call your doctor or nurse and get medical help right away if you hav
 bleeding, including: 
 * headaches, dizziness, or weakness 
 * coughing up of blood or blood clots 
-* vomit containing blood or that looks like “coffee grounds” 
+* vomit containing blood or that looks like  coffee grounds<br />
 * red or black stools that look like tar </p>
 <p>Fever 
 Taking Tafinlar may cause fever in more than 1 in 10 people. Tell your doctor, pharmacist or nurse 
-immediately if you get a fever (temperature 38ºC or above) or if you feel a fever coming on while 
+immediately if you get a fever (temperature 38 C or above) or if you feel a fever coming on while 
 you are taking this medicine. They will carry out tests to find out if there are other causes for the 
 fever and treat the problem. </p>
 <p>In some cases, people with fever may develop low blood pressure and dizziness. If the fever is severe, 
@@ -372,9 +370,8 @@ Serious skin reactions have been reported in people taking Tafinlar in combinati
 peeling. Ulcers of mouth, throat, nose, genitals and eyes. These serious skin rashes can be 
 preceded by fever and flu-like symptoms (Stevens-Johnson syndrome). 
 * widespread rash, fever, and enlarged lymph nodes (DRESS-syndrome or drug hypersensitivity 
-syndrome). 
-➔ 
-stop using the medicine and seek medical attention immediately. </p>
+syndrome). </p>
+<p>stop using the medicine and seek medical attention immediately. </p>
 <p>Patients taking Tafinlar may commonly (may affect up to 1 in 10 people) develop a different type of 
 skin cancer called cutaneous squamous cell carcinoma (cuSCC). Others may develop a type of skin 
 cancer called basal cell carcinoma (BCC). Usually, these skin changes remain local and can be 
@@ -393,9 +390,8 @@ at the end of your treatment. </p>
 If you notice any of the following: 
 * new wart 
 * skin sore or reddish bump that bleeds or does not heal 
-* change of a mole in size or colour 
-➔ 
-Tell your doctor, pharmacist or nurse as soon as possible if you get any of these 
+* change of a mole in size or colour </p>
+<p>Tell your doctor, pharmacist or nurse as soon as possible if you get any of these 
 symptoms - either for the first time or if they get worse. </p>
 <p>Skin reactions (rash) can happen while taking Tafinlar in combination with trametinib. Talk to your 
 doctor if you get a skin rash while taking Tafinlar in combination with trametinib. </p>
@@ -408,9 +404,8 @@ problem called uveitis, which could damage your vision if it is not treated. Thi
 * blurred vision 
 * eye pain 
 * increased sensitivity to light 
-* floating spots before the eyes 
-➔ 
-Contact your doctor, pharmacist or nurse immediately if you get these symptoms. </p>
+* floating spots before the eyes </p>
+<p>Contact your doctor, pharmacist or nurse immediately if you get these symptoms. </p>
 <p>Tafinlar can cause eye problems when taken in combination with trametinib. Trametinib is not 
 recommended if you have ever had a blockage of the vein draining the eye (retinal vein occlusion). 
 Your doctor may advise an eye examination before you take Tafinlar in combination with trametinib 
@@ -420,9 +415,8 @@ specialist, if you develop signs and symptoms in your vision that include:
 * eye redness and irritation 
 * coloured dots in your vision 
 * halo (seeing a blurred outline around objects) 
-* blurred vision 
-➔ 
-Contact your doctor, pharmacist or nurse immediately if you get these symptoms. </p>
+* blurred vision </p>
+<p>Contact your doctor, pharmacist or nurse immediately if you get these symptoms. </p>
 <p>It is very important to tell your doctor, pharmacist or nurse immediately if you develop these 
 symptoms, especially if you have a painful, red eye that does not clear up quickly. They may arrange 
 for you to see a specialist eye doctor for a complete eye examination. </p>
@@ -443,10 +437,10 @@ symptoms (called haemophagocytic lymphohistiocytosis), see section 2 (frequency 
 * Thickening of the outer layers of the skin 
 * Unusual hair loss or thinning 
 * Rash 
-* Reddening and swelling of the palms, fingers and soles of the feet (see “Changes in your skin” 
+* Reddening and swelling of the palms, fingers and soles of the feet (see  Changes in your skin<br />
 earlier in section 4) 
 * Joint pain, muscle pain, or pain in the hands or feet 
-* Fever (see “Fever” earlier in section 4) 
+* Fever (see  Fever  earlier in section 4) 
 * Lack of energy 
 * Chills 
 * Feeling weak </p>
@@ -463,7 +457,7 @@ reddening, increased sensitivity of the skin to sun
 <p>Uncommon side effects (may affect up to 1 in 100 people) 
 * New melanoma 
 * Allergic reaction (hypersensitivity) 
-* Inflammation of the eye (uveitis, see “Eye problems” earlier in section 4)) 
+* Inflammation of the eye (uveitis, see  Eye problems  earlier in section 4)) 
 * Inflammation of the pancreas (causing strong abdominal pain) 
 * Inflammation of the fatty layer under the skin (panniculitis) 
 * Kidney problems, kidney failure 
@@ -506,7 +500,7 @@ follows: </p>
 nail disorders such as nail bed changes, nail pain, infection and swelling of the cuticles, skin 
 rash with pus-filled blisters, cutaneous squamous cell carcinoma (a type of skin cancer), 
 papilloma (a type of skin tumour which is usually not harmful), wart-like growths, increased 
-sensitivity of the skin to sun (see also “Changes in your skin” earlier in section 4) 
+sensitivity of the skin to sun (see also  Changes in your skin  earlier in section 4) 
 * Dehydration (low levels of water or fluid) 
 * Blurred vision, eyesight problems, inflammation of the eye (uveitis) 
 * Heart pumping less efficiently 
@@ -584,8 +578,8 @@ dioxide, red iron oxide (E172), titanium dioxide (E171), and hypromellose (E464)
 capsules are printed with black ink that contains black iron oxide (E172) shellac and propylene 
 glycol. </p>
 <p>What Tafinlar looks like and contents of the pack 
-Tafinlar 50 mg hard capsules are opaque dark red and imprinted with “GS TEW” and “50 mg”. 
-Tafinlar 75 mg hard capsules are opaque dark pink and imprinted with “GS LHF” and “75 mg”. </p>
+Tafinlar 50 mg hard capsules are opaque dark red and imprinted with  GS TEW  and  50 mg . 
+Tafinlar 75 mg hard capsules are opaque dark pink and imprinted with  GS LHF  and  75 mg . </p>
 <p>The bottles are opaque white plastic with threaded plastic closures. </p>
 <p>The bottles also include a silica gel desiccant in a small cylinder shaped container. The desiccant must 
 be kept inside the bottle and must not be eaten. </p>
@@ -599,13 +593,13 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer 
 Lek Pharmaceuticals d.d. 
-Verovškova ulica 1526, Ljubljana 
+Verov kova ulica 1526, Ljubljana 
 Slovenia </p>
 <p>Novartis Pharmaceutical Manufacturing LLC 
-Verovškova ulica 1000, Ljubljana 
+Verov kova ulica 1000, Ljubljana 
 Slovenia </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>Glaxo Wellcome, S.A. 
 Avda. Extremadura, 3 
@@ -614,23 +608,22 @@ Burgos
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -646,35 +639,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -682,10 +675,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

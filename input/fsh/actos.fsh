@@ -4,7 +4,7 @@ Instance: composition-en-5137745e381296dea05060d82180475d
 InstanceOf: CompositionUvEpi
 Title: "Composition for actos Package Leaflet"
 Description:  "Composition for actos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -124,11 +124,13 @@ Use in children and adolescents under 18 years is not recommended. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription. </p>
 <p>You can usually continue to take other medicines whilst you are being treated with Actos. However, 
-certain medicines are especially likely to affect the amount of sugar in your blood: 
-- gemfibrozil (used to lower cholesterol) 
-- rifampicin (used to treat tuberculosis and other infections) 
+certain medicines are especially likely to affect the amount of sugar in your blood:</p>
+<ul>
+<li>gemfibrozil (used to lower cholesterol) </li>
+<li>rifampicin (used to treat tuberculosis and other infections) 
 Tell your doctor or pharmacist if you are taking any of these. Your blood sugar will be checked, and 
-your dose of Actos may need to be changed. </p>
+your dose of Actos may need to be changed. </li>
+</ul>
 <p>Actos with food and drink 
 You may take your tablets with or without food. You should swallow the tablets with a glass of water.  </p>
 <p>Pregnancy and breast-feeding 
@@ -249,7 +251,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister pack after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage precautions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -260,25 +262,20 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Actos contains 
-− 
-The active substance in Actos is pioglitazone.<br />
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Actos contains </p>
+<p>The active substance in Actos is pioglitazone.<br />
 Each Actos 15 mg tablet contains 15 mg of pioglitazone (as hydrochloride). 
 Each Actos 30 mg tablet contains 30 mg of pioglitazone (as hydrochloride). 
-Each Actos 45 mg tablet contains 45 mg of pioglitazone (as hydrochloride). 
-− 
-The other ingredients are lactose monohydrate, hyprolose, carmellose calcium and magnesium 
-stearate. See section 2 “Actos contains lactose monohydrate”. </p>
-<p>What Actos looks like and contents of the pack 
-− 
-Actos 15 mg tablets are white to off-white, round, convex tablets marked ‘15’ on one face and 
-‘ACTOS’ on the other face. 
-− 
-Actos 30 mg tablets are white to off-white, round, flat tablets marked ‘30’ on one face and 
-‘ACTOS’ on the other face. 
-− 
-Actos 45 mg tablets are white to off-white, round, flat tablets marked ‘45’ on one face and 
-‘ACTOS’ on the other face. 
+Each Actos 45 mg tablet contains 45 mg of pioglitazone (as hydrochloride). </p>
+<p>The other ingredients are lactose monohydrate, hyprolose, carmellose calcium and magnesium 
+stearate. See section 2  Actos contains lactose monohydrate . </p>
+<p>What Actos looks like and contents of the pack </p>
+<p>Actos 15 mg tablets are white to off-white, round, convex tablets marked  15  on one face and 
+ ACTOS  on the other face. </p>
+<p>Actos 30 mg tablets are white to off-white, round, flat tablets marked  30  on one face and 
+ ACTOS  on the other face. </p>
+<p>Actos 45 mg tablets are white to off-white, round, flat tablets marked  45  on one face and 
+ ACTOS  on the other face. 
 The tablets are supplied in blister packs of 28, 56, 98, or 112 tablets. Not all the pack sizes may be 
 marketed. </p>
 <p>Marketing authorisation holder 
@@ -289,7 +286,5 @@ Manufacturer
 Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Ireland. 
 Lilly S.A, Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spain 
 CHEPLAPHARM Arzneimittel GmbH, Ziegelhof 23-24, 17489 Greifswald, Germany.  </p>
-<p>This leaflet was last approved in August 2023.<br />
-Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>This leaflet was last approved in August 202</p>         </div>"""      
 

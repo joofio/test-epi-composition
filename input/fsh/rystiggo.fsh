@@ -4,7 +4,7 @@ Instance: composition-en-b4a7586c3f2386c190c1701cbb794f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rystiggo Package Leaflet"
 Description:  "Composition for rystiggo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -79,7 +79,7 @@ throughout the body. The condition can also lead to shortness of breath, extreme
 difficulties swallowing. Rystiggo is used in adults with gMG that produces IgG autoantibodies against 
 acetylcholine receptors or muscle-specific kinase. </p>
 <p>In generalised myasthenia gravis (gMG), these IgG autoantibodies (proteins of the immune system 
-that attack parts of a person’s own body) attack and damage proteins that are involved in 
+that attack parts of a person s own body) attack and damage proteins that are involved in 
 communication between nerves and muscle, called acetylcholine receptors or muscle-specific kinase. 
 By attaching to FcRn, Rystiggo reduces the level of IgG antibodies, including IgG autoantibodies, 
 thereby helping to improve symptom of the disease. </p>         </div>"""   
@@ -156,15 +156,17 @@ recommended it.  </p>         </div>"""
 management of neuromuscular or neuro-inflammatory disorders.  </p>
 <p>How much Rystiggo is given and for how long </p>
 <p>You will be given Rystiggo in cycles of 1 infusion per week for 6 weeks.<br />
-Your doctor will calculate the correct dose for you based on your weight:<br />
-- if you weigh at least 100 kg, the recommended dose is 840 mg per infusion (requiring 6 ml per 
-administration) 
-- if you weigh from 70 kg to less than 100 kg, the recommended dose is 560 mg per infusion 
-(requiring 4 ml per administration)<br />
-- if you weigh from 50 kg to less than 70 kg, the recommended dose is 420 mg per infusion 
-(requiring 3 ml per administration)<br />
-- if you weigh from 35 kg to less than 50 kg, the recommended dose is 280 mg per infusion 
-(requiring 2 ml per administration)  </p>
+Your doctor will calculate the correct dose for you based on your weight:</p>
+<ul>
+<li>if you weigh at least 100 kg, the recommended dose is 840 mg per infusion (requiring 6 ml per 
+administration) </li>
+<li>if you weigh from 70 kg to less than 100 kg, the recommended dose is 560 mg per infusion 
+(requiring 4 ml per administration)  </li>
+<li>if you weigh from 50 kg to less than 70 kg, the recommended dose is 420 mg per infusion 
+(requiring 3 ml per administration)  </li>
+<li>if you weigh from 35 kg to less than 50 kg, the recommended dose is 280 mg per infusion 
+(requiring 2 ml per administration)  </li>
+</ul>
 <p>The frequency of treatment cycles varies for each patient and your doctor will consider if and when a 
 new treatment cycle is appropriate for you.  </p>
 <p>Your doctor will advise you on how long you should be treated with this medicine. </p>
@@ -218,7 +220,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and outer carton after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). 
+<p>Store in a refrigerator (2  C   8  C). 
 Do not freeze. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
 <p>Each vial of solution for injection must be used only once (single use). Any unused product or waste 
@@ -246,25 +248,24 @@ polysorbate 80, and water for injections. See section 2 Rystiggo contains prolin
 solution is colourless to pale brownish-yellow, clear to slightly opalescent.<br />
 The devices used for administration should be procured separately. </p>
 <p>Marketing Authorisation Holder  </p>
-<p>UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgium </p>
+<p>UCB Pharma S.A., All e de la Recherche 60, B-1070 Bruxelles, Belgium </p>
 <p>Manufacturer </p>
-<p>UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l’Alleud, Belgium. </p>
+<p>UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l Alleud, Belgium. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 UCB Pharma S.A./NV 
-Tél/Tel: + 32 / (0)2 559 92<br />
+T l/Tel: + 32 / (0)2 559 92<br />
 Lietuva 
 UAB Medfiles 
-Tel: + 370 5 246 16 България 
-Ю СИ БИ България ЕООД 
-Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+Tel: + 370 5 246 16   </p>
+<p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
 UCB Pharma S.A./NV 
-Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 UCB s.r.o. 
-Tel: + 420 221 773 Magyarország 
-UCB Magyarország Kft. 
+Tel: + 420 221 773 Magyarorsz g 
+UCB Magyarorsz g Kft. 
 Tel.: + 36-(1) 391 0 
 Danmark 
 UCB Nordic A/S 
@@ -277,29 +278,28 @@ Tel: + 49 /(0) 2173 48 4Nederland
 UCB Pharma B.V. 
 Tel: + 31 / (0)76-573 11<br />
 Eesti 
-OÜ Medfiles 
+O  Medfiles 
 Tel: + 372 730 5Norge 
 UCB Nordic A/S 
-Tlf: + 47 / 67 16 5 
-Ελλάδα 
-UCB Α.Ε.<br />
-Τηλ: + 30 / 2109974Österreich 
+Tlf: + 47 / 67 16 5 </p>
+<p>UCB  . .<br />
+ : + 30 / 2109974 sterreich 
 UCB Pharma GmbH 
 Tel: + 43-(0)1 291 80<br />
-España 
+Espa a 
 UCB Pharma, S.A. 
 Tel: + 34 / 91 570 34 Polska 
 UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
 Tel.: + 48 22 696 99<br />
 France 
 UCB Pharma S.A. 
-Tél: + 33 / (0)1 47 29 44 Portugal 
-UCB Pharma (Produtos Farmacêuticos), Lda 
+T l: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmac uticos), Lda 
 Tel: + 351 21 302 5 
 Hrvatska 
 Medis Adria d.o.o. 
 Tel: +385 (0) 1 230 34<br />
-România 
+Rom nia 
 UCB Pharma Romania S.R.L. 
 Tel: + 40 21 300 29<br />
 Ireland 
@@ -307,19 +307,18 @@ UCB (Pharma) Ireland Ltd.
 Tel: + 353 / (0)1-46 37 Slovenija 
 Medis, d.o.o. 
 Tel: + 386 1 589 69<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: + 354 535 7Slovenská republika 
-UCB s.r.o., organizačná zložka 
+S mi: + 354 535 7Slovensk  republika 
+UCB s.r.o., organiza n  zlo ka 
 Tel: + 421 (0) 2 5920 2 
 Italia 
 UCB Pharma S.p.A. 
 Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland 
-Puh/Tel: + 358 9 2514 4 
-Κύπρος 
-Lifepharma (Z.A.M.) Ltd 
-Τηλ: + 357 22 056 
+Puh/Tel: + 358 9 2514 4 </p>
+<p>Lifepharma (Z.A.M.) Ltd 
+ : + 357 22 056 
 Sverige 
 UCB Nordic A/S 
 Tel: + 46 / (0) 40 294 Latvija 

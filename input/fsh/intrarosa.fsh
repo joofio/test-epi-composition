@@ -4,7 +4,7 @@ Instance: composition-en-d6b5caeb3aecc6a916b0a10e40227ee2
 InstanceOf: CompositionUvEpi
 Title: "Composition for intrarosa Package Leaflet"
 Description:  "Composition for intrarosa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -92,7 +92,7 @@ deciding whether to start taking it, or whether to carry on taking it.  </p>
 <p>The experience in treating women with a premature menopause (due to ovarian failure or surgery) is 
 limited. If you have a premature menopause the risks of using HRT may be different. Please talk to 
 your doctor.  </p>
-<p>Before you start (or restart) HRT, your doctor will ask about your own and your family’s medical 
+<p>Before you start (or restart) HRT, your doctor will ask about your own and your family s medical 
 history. Your doctor may decide to perform a physical examination. This may include an examination 
 of your breasts and/or an internal examination, if necessary.  </p>
 <p>Once you have started using Intrarosa you should see your doctor for regular check-ups (at least every 
@@ -115,10 +115,10 @@ venous thrombosis) or the lungs (pulmonary embolism);
 attack, stroke or angina; 
 * If you have or have ever had a liver disease and your liver function tests have not returned to 
 normal; 
-* If you have a rare blood problem called “porphyria” which is passed down in families 
+* If you have a rare blood problem called  porphyria  which is passed down in families 
 (inherited); 
 * If you are allergic to prasterone or any of the other ingredients of this medicine (listed in 
-section 6 ‘Contents of the pack and other information’). </p>
+section 6  Contents of the pack and other information ). </p>
 <p>If any of the above conditions appears for the first time while taking Intrarosa, stop taking it at once 
 and consult your doctor immediately. </p>
 <p>Warnings and precautions </p>
@@ -130,7 +130,7 @@ more often for check-ups: </p>
 <li>fibroids inside your womb;  </li>
 <li>growth of womb lining outside your womb (endometriosis) or a history of excessive growth of 
 the womb lining (endometrial hyperplasia); </li>
-<li>increased risk of developing blood clots (see “Blood clots in a vein (thrombosis)”);  </li>
+<li>increased risk of developing blood clots (see  Blood clots in a vein (thrombosis) );  </li>
 <li>increased risk of getting a oestrogen-sensitive cancer (such as having a mother, sister or 
 grandmother who has had breast cancer); </li>
 <li>high blood pressure; </li>
@@ -148,17 +148,19 @@ erythematosus, SLE); </li>
 </ul>
 <p>Stop using Intrarosa and see a doctor immediately<br />
 If you notice any of the following conditions when taking HRT: 
-* any of the conditions mentioned in the ‘Do not use Intrarosa’ section; 
+* any of the conditions mentioned in the  Do not use Intrarosa  section; 
 * yellowing of your skin or the whites of your eyes (jaundice). These may be signs of a liver 
 disease; 
 * if you become pregnant; 
 * a large rise in your blood pressure (symptoms may be headache, tiredness, dizziness); 
 * migraine-like headaches which happen for the first time; 
-* if you notice signs of a blood clot, such as: 
-- painful swelling and redness of the legs; 
-- sudden chest pain; 
-- difficulty in breathing. 
-For more information, see ‘Blood clots in a vein (thrombosis)’ </p>
+* if you notice signs of a blood clot, such as:</p>
+<ul>
+<li>painful swelling and redness of the legs; </li>
+<li>sudden chest pain; </li>
+<li>difficulty in breathing. 
+For more information, see  Blood clots in a vein (thrombosis)  </li>
+</ul>
 <p>Note: Intrarosa is not a contraceptive. If it is less than 12 months since your last menstrual period or 
 you are under 50 years old, you may still need to use additional contraception to prevent pregnancy. 
 Speak to your doctor for advice. </p>
@@ -172,7 +174,7 @@ the lining of the womb in all women treated with Intrarosa for one year during t
 <p>It is uncertain whether a risk exists with Intrarosa used for long term (more than one year) treatments. 
 However, Intrarosa has been shown to have very low absorption into the blood, therefore the addition 
 of a progestagen is not necessary. </p>
-<p>If you get bleeding or spotting, it’s usually nothing to worry about, but you should make an 
+<p>If you get bleeding or spotting, it s usually nothing to worry about, but you should make an 
 appointment to see your doctor. It could be a sign that your endometrium has become thicker. </p>
 <p>The following risks apply to HRT medicines which circulate in the blood. However Intrarosa is for 
 local treatment in the vagina and the absorption into the blood is very low. It is less likely that the 
@@ -218,7 +220,7 @@ prevent blood clots;
 * if any of your close relatives has ever had a blood clot in the leg, lung or another organ; 
 * you have systemic lupus erythematosus (SLE); 
 * you have cancer. </p>
-<p>For signs of a blood clot, see “Stop using Intrarosa and see a doctor immediately”. 
+<p>For signs of a blood clot, see  Stop using Intrarosa and see a doctor immediately . 
 In clinical studies, no deep vein thrombosis has been observed with intravaginal prasterone while one 
 case of pulmonary embolism which corresponds to an incidence lower with Intrarosa than in the 
 placebo group. </p>
@@ -237,7 +239,7 @@ in 1000 users, over 5 years (i.e. an extra 3 cases). </p>
 <p>Other conditions 
 * HRT will not prevent memory loss. There is some evidence of a higher risk of memory loss in 
 women who start using HRT after the age of 65. Speak to your doctor for advice; 
-* You may have vaginal discharge due to melting of the ‘hard fat base’ which adds to increased 
+* You may have vaginal discharge due to melting of the  hard fat base  which adds to increased 
 vaginal secretions due to treatment. If vaginal discharge occurs, it is not required to stop 
 Intrarosa.<br />
 * Intrarosa may weaken condoms, diaphragms and cervical caps made of latex. 
@@ -287,7 +289,7 @@ less than 8 hours, skip the missed pessary. </p>
 <p>If you need to have surgery<br />
 If you are going to have surgery, tell the surgeon that you are using Intrarosa. You may need to stop 
 using Intrarosa about 4 to 6 weeks before the operation to reduce the risk of a blood clot (see section 2, 
-‘Blood clots in a vein (thrombosis)’). Ask your doctor when you can start using Intrarosa again. </p>         </div>"""         
+ Blood clots in a vein (thrombosis) ). Ask your doctor when you can start using Intrarosa again. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -303,43 +305,36 @@ treatments:
 * ovarian cancer; 
 * blood clots in the veins of the legs or lungs (venous thromboembolism);<br />
 * stroke; 
-* probable memory loss if HRT is started over the age of 65. For more information about these side effects, see section 2.<br />
-The side effect the most frequently reported in the clinical studies was vaginal discharge. This is likely 
-due to melting of the hard fat added to an expected increase in vaginal secretions due to treatment. 
-Vaginal discharge does not require to stop Intrarosa. </p>
-<p>The following side effects were also reported: 
-− 
-with a common frequency (may affect up to 1 in 10 people): abnormal Pap smear (mostly 
-ASCUS or LGSIL), weight fluctuations (either increase or decrease); 
-− 
-with an uncommon frequency (may affect up to 1 in 100 people): benign cervical or uterine 
-polyps, benign breast mass.  </p>
-<p>The following side effects have been reported with HRT containing estrogens but not with Intrarosa 
-during clinical studies: 
-* gall bladder disease 
-* various skin disorders: 
-- discoloration of the skin especially of the face or neck known as “pregnancy patches” 
-(chloasma); 
-- painful reddish skin nodules (erythema nodosum); 
-- rash with target-shaped reddening or sores (erythema multiforme). </p>
-<p>Reporting of side effects </p>
-<p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+* probable memory loss if HRT is started over the age of 65. For more information about these side effects, see section </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store intrarosa"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store intrarosa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blisters after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Store below 30 °C. </p>
-<p>Do not freeze. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The side effect the most frequently reported in the clinical studies was vaginal discharge. This is likely 
+due to melting of the hard fat added to an expected increase in vaginal secretions due to treatment. 
+Vaginal discharge does not require to stop Intrarosa. </p>
+<p>The following side effects were also reported: </p>
+<p>with a common frequency (may affect up to 1 in 10 people): abnormal Pap smear (mostly 
+ASCUS or LGSIL), weight fluctuations (either increase or decrease); </p>
+<p>with an uncommon frequency (may affect up to 1 in 100 people): benign cervical or uterine 
+polyps, benign breast mass.  </p>
+<p>The following side effects have been reported with HRT containing estrogens but not with Intrarosa 
+during clinical studies: 
+* gall bladder disease 
+* various skin disorders:</p>
+<ul>
+<li>discoloration of the skin especially of the face or neck known as  pregnancy patches<br />
+(chloasma); </li>
+<li>painful reddish skin nodules (erythema nodosum); </li>
+<li>rash with target-shaped reddening or sores (erythema multiforme). </li>
+</ul>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -347,158 +342,11 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Intrarosa contains  </p>
-<ul>
-<li>The active substance is prasterone. Each pessary contains 6.5 mg of prasterone. </li>
-<li>The only other ingredient is the hard fat (adeps solidus).  </li>
-</ul>
-<p>What Intrarosa looks like and contents of the pack </p>
-<p>Intrarosa is a white to off-white, bullet-shaped pessary approximately 28 mm long and 9 mm in 
-diameter at its widest end. </p>
-<p>The applicator is made of LDPE and 1% colorant (titanium dioxide). </p>
-<p>It is available in blister packs of 28 pessaries with 6 applicators. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Endoceutics S.A. 
-Rue Belliard 1040 Brussels 
-Belgium </p>
-<p>Manufacturer </p>
-<p>Basic Pharma Manufacturing B.V. 
-Burgemeester Lemmensstraat 6163 JT Geleen 
-The Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien, Luxembourg/Luxemburg, Nederland 
-Theramex Belgium BVBA 
-Tél/Tel: + 32 (0) 28088INTRAROSA.Enquiries@theramex.com </p>
-<p>Deutschland, Österreich 
-Theramex Germany GmbH 
-Tel: + 49 (0) 32 2122 490 INTRAROSA.Enquiries@theramex.com </p>
-<p>España 
-Theramex Ireland Limited 
-Tel: + 34 911 143  </p>
-<p>France 
-Theramex France S.A.S. 
-Tél: + 33 (0) 800 100 INTRAROSA.Enquiries@theramex.com </p>
-<p>Italia 
-Theramex Italy S.r.l. 
-Tel: + 39 02 81480INTRAROSA.Enquiries@theramex.com </p>
-<p>Polska 
-Theramex Poland sp. z o.o. 
-Tel.: + 48 (0) 22 30 77 INTRAROSA.Enquiries@theramex.com </p>
-<p>Portugal 
-Tecnimede - Sociedade Técnico-Medicinal, S.A. 
-Tel: + 351 210 414 dmed.fv@tecnimede.pt  </p>
-<p>United Kingdom (Northern Ireland), Ireland, Malta 
-Theramex UK Limited 
-Tel: + 44 (0) 3330096INTRAROSA.Enquiries@theramex.com </p>
-<p>Danmark, Ísland, Norge, Suomi/Finland, Sverige<br />
-Avia Pharma AB 
-Sverige/Svíþjóð/Ruosti 
-Tlf/Sími/Tlf/Puh/Tel: + 46 (0) 8 544 900  </p>
-<p>България, Česká republika, Eesti, Ελλάδα, Hrvatska, Κύπρο, Latvija, Lietuva, 
-Magyarország, România, Slovenija, Slovenská republika 
-Theramex Ireland Limited 
-Tel/Teл./Τηλ: + 353 (0) 15138INTRAROSA.Enquiries@theramex.com </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>
-<p>Instructions on how to use Intrarosa 
-How should I use Intrarosa 
-* Insert one prasterone pessary in your vagina once a day at bedtime with an applicator or your finger. 
-Before you start<br />
-<em> Empty your bladder and wash your hands before handling the pessary and applicator.<br />
-</em> Tear off one wrapped pessary from the 7-pessary strip. 
-A. Using the applicator </p>
-<p>STEP 1 
-• 1A. Remove 1 applicator 
-from the package. 
-• 1B. Pull back on the plunger 
-until it stops to activate the 
-applicator. The applicator 
-must be activated before 
-use. Place the applicator on 
-a clean surface. </p>
-<p>STEP 5 
-• Select the position for 
-insertion of the pessary that is 
-most comfortable for you. 
-5a. Lying position </p>
-<p>STEP 2 
-• Slowly pull the plastic tabs 
-on the pessary away from 
-each other while keeping the 
-pessary still between your 
-fingers. 
-• Carefully remove the 
-pessary from the plastic 
-wrap.<br />
-• If a pessary falls on an 
-unsanitary surface, replace it 
-with a new one. </p>
-<p>5b. Standing position </p>
-<p>STEP 3 
-• Place the flat end of the 
-pessary into the open end 
-of the activated applicator 
-as shown. You are now 
-ready to insert the pessary 
-into your vagina. </p>
-<p>STEP 6 
-• Gently slide the pessary end 
-of the applicator into your 
-vagina as far as it will 
-comfortably go. </p>
-<p>Do not use force. </p>
-<p>STEP 4 
-• Hold the applicator 
-between your thumb and 
-middle finger.<br />
-• Leave your index (pointer) 
-finger free to press the 
-applicator plunger after the 
-applicator is inserted into 
-your vagina. </p>
-<p>STEP 7 
-• Press the applicator plunger 
-with your index (pointer) 
-finger to release the pessary. 
-• Remove the applicator. Wash 
-it or throw it away after using 
-for one week (two extra 
-applicators are provided). 
-• To wash the applicator: 
-− Take it to pieces; 
-− Rinse the 2 pieces for 
-30 seconds under running 
-water; 
-− Wipe with a paper towel 
-and reassemble. 
-Keep it in a clean place. </p>
-<p>B. Using the finger 
-Follow the above instructions of Step 2, and then insert the pessary into the vagina with your finger as far as it can 
-comfortably go. Do not use force. </p>
-<p>ANNEX IV 
-SCIENTIFIC CONCLUSIONS AND GROUNDS FOR THE VARIATION TO THE TERMS 
-OF THE MARKETING AUTHORISATION(S) 
-Scientific conclusions 
-Taking into account the PRAC Assessment Report for the non-interventional imposed PASS final study 
-report for the medicinal product(s) mentioned above, the scientific conclusions of the CHMP are as 
-follows: 
-Intrarosa (prasterone) is removed from the additional monitoring list as the condition to the marketing 
-authorisation has been fulfilled. This relates to the non-interventional PASS - Drug Utilisation Study 
-(DUS) to describe the baseline characteristics, utilisation patterns of EU postmenopausal women 
-initiating treatment with Intrarosa and to assess whether EU prescribers abide by the contraindications 
-stated in the EU SmPC. 
-Therefore, the statement that this medicinal product is subject to additional monitoring and that this will 
-allow quick identification of new safety information, preceded by an inverted equilateral black triangle, 
-is removed from the summary of product characteristics and the package leaflet. 
-In addition, the MAH took the opportunity to introduce a change to the list of local representatives. 
-The CHMP agrees with the scientific conclusions made by the PRAC. 
-Grounds for the variation to the terms of the marketing authorisation(s) 
-On the basis of the scientific conclusions for the results of the study for the medicinal product(s) 
-mentioned above, the CHMP is of the opinion that the benefit-risk balance of these medicinal product(s) is 
-unchanged, subject to the proposed changes to the product information. 
-The CHMP is of the opinion that the terms of the marketing authorisation of the medicinal product 
-mentioned above should be varied. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blisters after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Store below 30  C. </p>
+<p>Do not freeze. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-b4d9b93668736e17b1df580d2cd21bf6
 InstanceOf: CompositionUvEpi
 Title: "Composition for byooviz Package Leaflet"
 Description:  "Composition for byooviz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,14 +73,16 @@ Byooviz is a solution which is injected into the eye. Byooviz belongs to a group
 antineovascularisation agents. It contains the active substance called ranibizumab. </p>
 <p>What Byooviz is used for 
 Byooviz is used in adults to treat several eye diseases causing vision impairment. </p>
-<p>These diseases result from damage to the retina (light-sensitive layer at the back of the eye) caused by: 
-- Growth of leaky, abnormal blood vessels. This is observed in diseases such as age-related 
+<p>These diseases result from damage to the retina (light-sensitive layer at the back of the eye) caused by:</p>
+<ul>
+<li>Growth of leaky, abnormal blood vessels. This is observed in diseases such as age-related 
 macular degeneration (AMD) and proliferative diabetic retinopathy (PDR, a disease caused by 
 diabetes). It may also be associated with choroidal neovascularisation (CNV) due to pathologic 
-myopia (PM), angioid streaks, central serous chorioretinopathy or inflammatory CNV. 
-- Macular oedema (swelling of the centre of the retina). This swelling can be caused by diabetes 
+myopia (PM), angioid streaks, central serous chorioretinopathy or inflammatory CNV. </li>
+<li>Macular oedema (swelling of the centre of the retina). This swelling can be caused by diabetes 
 (a disease called diabetic macular oedema (DME)) or by the blockage of retinal veins of the 
-retina (a disease called retinal vein occlusion (RVO)). </p>
+retina (a disease called retinal vein occlusion (RVO)). </li>
+</ul>
 <p>How Byooviz works 
 Byooviz specifically recognises and binds to a protein called human vascular endothelial growth factor 
 A (VEGF-A) present in the eye. In excess, VEGF-A causes abnormal blood vessel growth and swelling 
@@ -118,7 +120,7 @@ injection.
 have had a stroke or experienced transient signs of stroke (weakness or paralysis of limbs or 
 face, difficulty speaking or understanding). This information will be taken into account to 
 evaluate if Byooviz is the appropriate treatment for you. </p>
-<p>Please see section 4 (“Possible side effects”) for more detailed information on side effects that could 
+<p>Please see section 4 ( Possible side effects ) for more detailed information on side effects that could 
 occur during Byooviz therapy. </p>
 <p>Children and adolescents (below 18 years of age) 
 The use of Byooviz in children and adolescents has not been established and is therefore not 
@@ -153,8 +155,8 @@ also give you a local anaesthetic to reduce or prevent any pain you might have w
 <p>The treatment is started with one injection of Byooviz per month. Your doctor will monitor the 
 condition of your eye and, depending on how you respond to the treatment, will decide if and when 
 you need to receive further treatment. </p>
-<p>Detailed instructions for use are given at the end of the leaflet under “How to prepare and administer 
-Byooviz”. </p>
+<p>Detailed instructions for use are given at the end of the leaflet under  How to prepare and administer 
+Byooviz . </p>
 <p>Elderly (age 65 years and over) 
 Byooviz can be used for people of 65 years of age and over without dose adjustment. </p>
 <p>Before stopping Byooviz treatment 
@@ -210,14 +212,16 @@ reporting side effects you can help provide more information on the safety of th
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store byooviz"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and vial label after 
-EXP. The expiry date refers to the last day of that month. 
-- Store in a refrigerator (2°C – 8°C). Do not freeze. 
-- Prior to use, the unopened vial may be stored at temperatures not exceeding 30°C for up to 
-2 months. 
-- Keep the vial in the outer carton in order to protect from light. 
-- Do not use any pack that is damaged. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and vial label after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2 C   8 C). Do not freeze. </li>
+<li>Prior to use, the unopened vial may be stored at temperatures not exceeding 30 C for up to 
+2 months. </li>
+<li>Keep the vial in the outer carton in order to protect from light. </li>
+<li>Do not use any pack that is damaged. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -226,5 +230,112 @@ EXP. The expiry date refers to the last day of that month.
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Byooviz contains 
-- The active substance is ranibizumab. Each ml contains 10 mg ranibizumab. Each vial contains </p>         </div>"""      
+- The active substance is ranibizumab. Each ml contains 10 mg ranibizumab. Each vial contains 
+2.3 mg ranibizumab in 0.23 ml solution. This provides a suitable amount to deliver a single dose of 
+0.05 ml containing 0.5 mg ranibizumab. 
+- The other ingredients are  , -trehalose dihydrate; histidine hydrochloride, monohydrate; histidine; 
+polysorbate 20; water for injections. </p>
+<p>What Byooviz looks like and contents of the pack 
+Byooviz is a solution for injection in a vial (0.23 ml). The solution is clear, colourless to pale yellow and 
+aqueous. </p>
+<p>Two different pack types are available: </p>
+<p>Vial-only pack<br />
+Pack containing one glass vial of ranibizumab with chlorobutyl rubber stopper. The vial is for single use 
+only. </p>
+<p>Vial + filter needle + injection needle pack 
+Pack containing one glass vial of ranibizumab with chlorobutyl rubber stopper, one blunt filter needle 
+(18G x 1 , 1.2 mm x 40 mm, 5 micrometres) for withdrawal of the vial contents, and one injection needle 
+(30G x  , 0.3 mm x 13 mm). All components are for single use only. </p>
+<p>Not all pack types may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing </p>
+<p>Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Biogen Belgium NV/S.A 
+T l/Tel: + 32 (0)2 808 5Lietuva 
+Biogen Lithuania UAB 
+Tel: +370 52 07 91  </p>
+<p>Ewopharma AG Representative Office 
+Te .: + 359 249 176<br />
+Luxembourg/Luxemburg 
+Biogen Belgium NV/SA 
+T l/Tel: +35 227 772<br />
+ esk  republika 
+Biogen (Czech Republic) s.r.o. 
+Tel: + 420 228 884<br />
+Magyarorsz g 
+Biogen Hungary Kft. 
+Tel.: + 36 1 848 04<br />
+Danmark 
+Biogen (Denmark) A/S 
+Tlf: + 45 78 79 37<br />
+Malta 
+Pharma.MT Ltd 
+Tel: + 356 27 78 15<br />
+Deutschland 
+Biogen GmbH<br />
+Tel: + 49 (0)89 996 177 Nederland 
+Biogen Netherlands B.V. 
+Tel: + 31 (0)20 808 02<br />
+Eesti 
+Biogen Estonia O<br />
+Tel: + 372 6 68 30<br />
+Norge 
+Biogen Norway AS 
+Tlf: + 47 21 93 95  </p>
+<p>Genesis Pharma S.A. 
+ : + 30 211 176 8 sterreich 
+Biogen Austria GmbH 
+Tel: + 43 (0)1 267 51<br />
+Espa a 
+Biogen Spain, S.L. 
+Tel: + 34 931 790<br />
+Polska 
+Biogen Poland Sp. z o.o. 
+Tel.: + 48 22 116 86<br />
+France 
+Biogen France SAS 
+T l: + 33 (0)1 776 968  </p>
+<p>Portugal 
+Biogen Portugal Sociedade Farmac utica, 
+Unipessoal, Lda 
+Tel: + 351 308 800<br />
+Hrvatska 
+Ewopharma d.o.o 
+Tel: + 385 (0)1 777 64 Rom nia 
+Ewopharma AG Representative Office 
+Tel: + 40 377 881 Ireland 
+Biogen Idec (Ireland) Ltd. 
+Tel: +353 (0)1 513 33<br />
+Slovenija 
+Biogen Pharma d.o.o. 
+Tel: + 386 (0)1 888 81<br />
+ sland 
+Icepharma hf. 
+S mi: + 354 800 9 
+Slovensk  republika 
+Biogen Slovakia s.r.o.<br />
+Tel: + 421 (0)2 333 257<br />
+Italia 
+Biogen Italia s.r.l. 
+Tel: + 39 (0)6 899 701<br />
+Suomi/Finland 
+Biogen Finland Oy 
+Puh/Tel: + 358 (0)9 427 041  </p>
+<p>Genesis Pharma (Cyprus) Ltd 
+ : + 357 22 00 04 Sverige 
+Biogen Sweden AB 
+Tel: +46 (0)8 525 038  </p>
+<p>Latvija 
+Biogen Latvia SIA 
+Tel: + 371 66 16 40<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Ltd. 
+Tel: +44 (0)20 360 886  </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

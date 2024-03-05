@@ -4,7 +4,7 @@ Instance: composition-en-c94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ghryvelin Package Leaflet"
 Description:  "Composition for ghryvelin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The medicine contains an active substance called macimorelin. Macimorelin acts like a natural hormone and causes the pituitary gland to release growth 
 hormone into the blood stream. </p>
-<p>GHRYVELIN is used in adults to test the body´s ability to produce growth hormone. It is used when your doctor thinks that you may not have enough growth 
+<p>GHRYVELIN is used in adults to test the body s ability to produce growth hormone. It is used when your doctor thinks that you may not have enough growth 
 hormone (adult growth hormone deficiency). This is not a treatment for patients who do not have enough growth hormone. It is a test that helps your doctor to 
 diagnose this condition. </p>         </div>"""   
           
@@ -93,7 +93,7 @@ To ensure that the test results are reliable, you need to follow the rules below
 <p>Talk to your doctor or nurse if: 
 * you have recently been treated with growth hormone (somatotropin) or with medicines that affect the secretion of growth hormone by the pituitary gland. 
 You need to stop such treatment at least 1 month before the test. 
-* you have recently been treated for Cushing’s disease (disorder which results in high levels of the hormone cortisol) or if you are receiving a high dose of 
+* you have recently been treated for Cushing s disease (disorder which results in high levels of the hormone cortisol) or if you are receiving a high dose of 
 hydrocortisone medicine, the test may lead to false positive test results. 
 * your body is lacking any other hormone e.g. cortisol, thyroid or sex hormones, vasopressin (in diabetes insipidus), this should be adequately replaced 
 before testing for growth hormone deficiency. Other hormone deficiencies if untreated could lead to inaccurate results in the growth hormone stimulation 
@@ -120,7 +120,7 @@ Tell your doctor if you are taking, have recently taken or might take any other 
 * seizures/epilepsy (carbamazepine, esclicarbazepine, fosphenytoin, oxcarbazepine, phenobarbital, phenytoin, primidone) </p>
 <ul>
 <li>sleep disorder (modafinil, pitolisant) </li>
-<li>mild to moderate depressive episodes (St. John´s wort (Hypericum perforatum)) </li>
+<li>mild to moderate depressive episodes (St. John s wort (Hypericum perforatum)) </li>
 <li>cystic fibrosis (lumacaftor) </li>
 <li>infections (antibiotics such as rifabutin, rifampicin) </li>
 <li>HIV (efavirenz, nevirapine) </li>
@@ -142,7 +142,7 @@ Dizziness can occur with GHRYVELIN. If this happens, do not drive or use machine
 <p>GHRYVELIN contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>GHRYVELIN contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per sachet, that is to say it is essentially “sodium-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per sachet, that is to say it is essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ghryvelin"
@@ -203,7 +203,7 @@ via the national reporting system listed in Appendix V. By reporting side effect
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the outer carton and the sachet after EXP. The expiry date refers to the last day of that month. 
 Store in the original package, in order to protect from light and moisture. 
-Store in a refrigerator (2°C – 8°C). 
+Store in a refrigerator (2 C   8 C). 
 Unopened sachet 
 The shelf life of a sachet is 5 years. 
 Reconstituted suspension 
@@ -220,19 +220,19 @@ Any remaining suspension must be discarded by your doctor or nurse according to 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What GHRYVELIN contains 
 * The active substance is macimorelin. Each sachet contains 60 mg macimorelin (as acetate). 1 mL of the reconstituted suspension contains 500 micrograms 
 macimorelin. 
-* The other ingredients are: lactose monohydrate (see section 2 under ‘GHRYVELIN contains lactose’), colloidal anhydrous silica, crospovidone type A, 
-saccharin sodium dihydrate and sodium stearyl fumarate (see section 2 under ‘GHRYVELIN contains sodium’). </p>
+* The other ingredients are: lactose monohydrate (see section 2 under  GHRYVELIN contains lactose ), colloidal anhydrous silica, crospovidone type A, 
+saccharin sodium dihydrate and sodium stearyl fumarate (see section 2 under  GHRYVELIN contains sodium ). </p>
 <p>What GHRYVELIN looks like and contents of the pack 
 GHRYVELIN is presented as white to off-white granules for oral suspension. Each sachet contains 1,817 mg granules. Each cardboard box contains 1 sachet. </p>
 <p>Marketing Authorisation Holder 
 Atnahs Pharma Netherlands B. V. 
 Copenhagen Towers 
-Ørestads Boulevard 108, 5.tv 
-DK-2300 København S 
+ restads Boulevard 108, 5.tv 
+DK-2300 K benhavn S 
 Denmark </p>
 <p>Manufacturer 
 Aeterna Zentaris GmbH 
-Weismüllerstrasse D-60314 Frankfurt am Main 
+Weism llerstrasse D-60314 Frankfurt am Main 
 Germany </p>
 <p>This leaflet was last revised in 
 Other sources of information 

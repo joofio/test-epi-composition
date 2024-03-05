@@ -4,7 +4,7 @@ Instance: composition-en-9a812fa3e42e6b177fc77f392e7869b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for sylvant Package Leaflet"
 Description:  "Composition for sylvant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,9 +73,9 @@ SYLVANT is a medicine that contains the active substance siltuximab.
 Siltuximab is a monoclonal antibody (a specialised type of protein) that binds selectively to an antigen 
 (a target protein) in the body called interleukin-6 (IL-6). </p>
 <p>What SYLVANT is used for 
-SYLVANT is used to treat multicentric Castleman’s disease (MCD) in adult patients who do not have 
+SYLVANT is used to treat multicentric Castleman s disease (MCD) in adult patients who do not have 
 human immunodeficiency virus (HIV) or human herpesvirus-8 (HHV-8) infection. 
-Multicentric Castleman’s disease causes benign tumours (non-cancerous growths) to develop in the 
+Multicentric Castleman s disease causes benign tumours (non-cancerous growths) to develop in the 
 lymph nodes in the body. Symptoms of this disease may include feeling tired, sweating at night, 
 having a tingling feeling, and loss of appetite. </p>
 <p>How SYLVANT works 
@@ -96,15 +96,15 @@ You are severely allergic to siltuximab or any of the other ingredients of this 
 section 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist, or nurse before you are given SYLVANT if: 
-* you have an infection at the moment – this is because SYLVANT may lower your ability to feel 
+* you have an infection at the moment   this is because SYLVANT may lower your ability to feel 
 or fight infections, and infections may get worse. 
-* you are due to have a vaccination or may need to have one in the near future – this is because 
+* you are due to have a vaccination or may need to have one in the near future   this is because 
 some vaccines should not be given with SYLVANT. 
-* you have high level of fats in your blood (hypertriglyceridaemia) – this is because SYLVANT 
+* you have high level of fats in your blood (hypertriglyceridaemia)   this is because SYLVANT 
 may increase these levels. Your doctor may prescribe medicines to correct this. 
 * you have a condition such as stomach ulcer or diverticulitis that may increase the risk of getting 
 a tear in the stomach or gut (gastrointestinal perforation). Signs of such a tear developing 
-include stomach pain getting worse, feeling sick (nausea), change in bowel habits and fever – if 
+include stomach pain getting worse, feeling sick (nausea), change in bowel habits and fever   if 
 you get any of these, contact your doctor right away. 
 * you have liver disease or changes that show up in blood tests of the liver. Your doctor will 
 monitor you and your liver function. </p>
@@ -116,7 +116,7 @@ include: difficulty breathing, chest tightness, wheezing, severe dizziness or li
 of the lips or skin rash. </p>
 <p>Infections 
 You may be more likely to get infections while you are being treated with SYLVANT. 
-These infections may be serious, such as pneumonia or blood poisoning (also called “sepsis”). </p>
+These infections may be serious, such as pneumonia or blood poisoning (also called  sepsis ). </p>
 <p>Tell your doctor straight away if you get any signs of infection during treatment with SYLVANT. 
 Signs include: cough, flu-like symptoms, feeling unwell, red or hot skin, fever. Your doctor may stop 
 your treatment with SYLVANT straight away. </p>
@@ -158,7 +158,7 @@ SYLVANT is not likely to affect your ability to drive, cycle, or use any tools o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SYLVANT will be given to you by your doctor or nurse, in a hospital or clinic only. 
 * The recommended dose is 11 milligrams per kilogram of body weight, given once every 
 3 weeks. 
-* SYLVANT will be given as an “intravenous infusion” (a drip into a vein, usually in your arm). 
+* SYLVANT will be given as an  intravenous infusion  (a drip into a vein, usually in your arm). 
 * It will be given slowly over a period of 1 hour. 
 * During the infusion with SYLVANT, you will be monitored for side effects. 
 * You will receive treatment until you and your doctor agree that you will no longer benefit from 
@@ -182,7 +182,7 @@ following side effects may happen with this medicine. </p>
 <p>Tell your doctor straight away if you notice the following side effects, as he or she may need to 
 stop your treatment: 
 Common (may affect up to 1 in 10 people): 
-* severe allergic reaction – the signs may include: difficulty breathing, chest tightness, wheezing, 
+* severe allergic reaction   the signs may include: difficulty breathing, chest tightness, wheezing, 
 severe dizziness or light-headedness, swelling of the lips or skin rash. </p>
 <p>Other side effects include: 
 Talk to your doctor, pharmacist or nurse if you notice any of the following side effects: </p>
@@ -196,7 +196,7 @@ Talk to your doctor, pharmacist or nurse if you notice any of the following side
 * abnormal kidney function test 
 * swelling in the arms, legs, neck or face 
 * high blood pressure 
-* respiratory infections – such as of the nose, sinuses or throat 
+* respiratory infections   such as of the nose, sinuses or throat 
 * urinary tract infection 
 * common cold 
 * sore throat 
@@ -222,7 +222,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP. The expiry date 
 refers to the last day of that month.  </p>
-<p>Store in a refrigerator (2°C – 8°C). Do not freeze. Store in the original package in order to protect 
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. Store in the original package in order to protect 
 from light. </p>
 <p>Do not use if you see opaque or foreign particles and/or if the solution appears discoloured after 
 reconstitution. </p>         </div>"""      

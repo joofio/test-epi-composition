@@ -4,7 +4,7 @@ Instance: composition-en-81e391948edc377dc6e96a332e758543
 InstanceOf: CompositionUvEpi
 Title: "Composition for toujeo Package Leaflet"
 Description:  "Composition for toujeo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,7 +68,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What toujeo is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Toujeo contains insulin called “insulin glargine”. This is a modified insulin, very similar to human 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Toujeo contains insulin called  insulin glargine . This is a modified insulin, very similar to human 
 insulin. </p>
 <p>Toujeo contains 3 times more insulin in 1 ml than standard insulin, which contains 100 unit/ml. </p>
 <p>It is used to treat diabetes mellitus in adults, adolescents and children from the age of 6 years. Diabetes 
@@ -96,7 +96,7 @@ Talk to your doctor, pharmacist or nurse before using Toujeo. </p>
 hypoglycaemia (see information in the box at the end of this leaflet). 
 * If you switch from another type, brand or manufacturer of insulin your insulin dose may need to 
 be changed.<br />
-* Pioglitazone. See “Pioglitazone used together with insulin”. 
+* Pioglitazone. See  Pioglitazone used together with insulin . 
 * Ensure to use the right insulin. Medication errors due to mix-up between insulins, particularly 
 between long-acting insulins and rapid-acting insulins have been reported. You must always 
 check the insulin label before each injection to avoid mix-ups between Toujeo and other 
@@ -104,8 +104,14 @@ insulins.
 * Never use a syringe to remove Toujeo from your SoloStar pre-filled pen. This is to avoid dosing 
 errors and potential overdose which may lead to low blood sugar. Please, see also section 3. * If you are blind or have poor eyesight, do not use the pre-filled pen without help. This is 
 because you will not be able to read the dose window on the pen. Get help from a person with 
-good eyesight who is trained in using the pen. If you have poor eyesight, please see section 3.<br />
-Skin changes at the injection site 
+good eyesight who is trained in using the pen. If you have poor eyesight, please see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take toujeo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take toujeo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skin changes at the injection site 
 The injection site should be rotated to prevent skin changes such as lumps under the skin. The insulin 
 may not work very well if you inject into a lumpy area (see How to use Toujeo). Contact your doctor 
 if you are currently injecting into a lumpy area before you start injecting in a different area. Your 
@@ -117,7 +123,7 @@ blood and urine tests):
 * If you are ill or have a major injury. Your blood sugar level may increase (hyperglycaemia). 
 * If you are not eating enough. Your blood sugar level may become too low (hypoglycaemia). 
 In most cases you will talk to a doctor. Contact a doctor as soon as you feel ill or get an injury. </p>
-<p>If you have “Type 1” diabetes and you have an illness or injury: 
+<p>If you have  Type 1  diabetes and you have an illness or injury: 
 * Do not stop your insulin 
 * Keep eating enough carbohydrates. 
 Always tell people who are caring or treating you, that you have diabetes. </p>
@@ -143,35 +149,35 @@ So, before taking a medicine ask your doctor if it will affect your blood sugar 
 you need to take. You also need to be careful when you stop taking a medicine. </p>
 <p>Your blood sugar level may fall (hypoglycaemia) if you take: 
 * Any other medicine to treat diabetes. 
-* Disopyramide – for some heart problems. 
-* Fluoxetine – for depression. 
+* Disopyramide   for some heart problems. 
+* Fluoxetine   for depression. 
 * Sulfonamide antibiotics. 
-* Fibrates – for lowering high levels of blood fats. 
-* Monoamine oxidase inhibitors (MAOIs) – for depression. 
-* Angiotensin converting enzyme (ACE) inhibitors – for heart problems or high blood pressure. 
+* Fibrates   for lowering high levels of blood fats. 
+* Monoamine oxidase inhibitors (MAOIs)   for depression. 
+* Angiotensin converting enzyme (ACE) inhibitors   for heart problems or high blood pressure. 
 * Medicines to relieve pain and lower fever, such as pentoxifylline, propoxyphene and salicylates 
 (such as acetylsalicylic acid). 
-* Pentamidine – for some infections caused by parasites. This may cause too low blood sugar 
+* Pentamidine   for some infections caused by parasites. This may cause too low blood sugar 
 which is sometimes followed by too high blood sugar. </p>
 <p>Your blood sugar level may rise (hyperglycaemia) if you take: 
-* Corticosteroids such as cortisone – for inflammation. 
-* Danazol – for endometriosis. 
-* Diazoxide – for high blood pressure. 
+* Corticosteroids such as cortisone   for inflammation. 
+* Danazol   for endometriosis. 
+* Diazoxide   for high blood pressure. 
 * Protease inhibitors- for HIV. 
-* Diuretics – for high blood pressure or fluid retention. 
-* Glucagon – for very low blood sugar. 
-* Isoniazid – for tuberculosis. 
-* Somatropin – a growth hormone. 
-* Thyroid hormones – for thyroid gland problems. 
-* Oestrogens and progestogens – such as in the contraceptive pill for birth control. 
-* Clozapine, olanzapine and phenothiazine derivatives – for mental health problems. 
-* Sympathomimetic medicines such as epinephrine (adrenaline), salbutamol and terbutaline – for 
+* Diuretics   for high blood pressure or fluid retention. 
+* Glucagon   for very low blood sugar. 
+* Isoniazid   for tuberculosis. 
+* Somatropin   a growth hormone. 
+* Thyroid hormones   for thyroid gland problems. 
+* Oestrogens and progestogens   such as in the contraceptive pill for birth control. 
+* Clozapine, olanzapine and phenothiazine derivatives   for mental health problems. 
+* Sympathomimetic medicines such as epinephrine (adrenaline), salbutamol and terbutaline   for 
 asthma. </p>
 <p>Your blood sugar level may either rise or fall if you take: 
-* Beta-blockers or clonidine – for high blood pressure. 
-* Lithium salts – for mental health problems. </p>
+* Beta-blockers or clonidine   for high blood pressure. 
+* Lithium salts   for mental health problems. </p>
 <p>Beta-blockers 
-Beta-blockers like other “Sympatholytic medicines” (such as clonidine, guanethidine, reserpine – for 
+Beta-blockers like other  Sympatholytic medicines  (such as clonidine, guanethidine, reserpine   for 
 high blood pressure) may make it harder to recognise warning signs of your blood sugar being too low 
 (hypoglycaemia). It can even hide or stop the first signs that your blood sugar is too low. </p>
 <p>Pioglitazone used together with insulin 
@@ -199,12 +205,13 @@ or machines. Your concentration may be affected. This could be dangerous to your
 * You find it hard to recognise when your blood sugar is too low. </p>
 <p>Important information about some of the ingredients of Toujeo 
 This medicine contains less than 1 mmol (23 mg) sodium per dose. This means it is essentially 
-‘sodium-free’. </p>         </div>"""   
-                    
+ sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take toujeo"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take toujeo"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor, pharmacist or 
 nurse if you are not sure. </p>
@@ -224,7 +231,7 @@ make any dose re-calculation. </p>
 other medicines for high blood sugar. </p>
 <p>If you use more than one insulin always ensure you use the right insulin by checking the insulin label 
 before each injection. Medication errors due to mix-up between insulins, particularly between long-
-acting insulins and rapid-acting insulins have been reported. The strength “300” is highlighted in 
+acting insulins and rapid-acting insulins have been reported. The strength  300  is highlighted in 
 honey gold on the label of your Toujeo SoloStar pre-filled pen. Ask your doctor or pharmacist if you 
 are not sure. </p>
 <p>Many factors may affect your blood sugar level. You should know these factors so that you can take 
@@ -241,10 +248,10 @@ If you have kidney or liver problems, talk to your doctor as you may need a lowe
 * Read the instructions for use that come with this package leaflet. 
 * If you do not follow all of these instructions, you may get too much or too little insulin. </p>
 <p>How to inject 
-* Toujeo is injected under the skin (subcutaneous use or “SC”). 
+* Toujeo is injected under the skin (subcutaneous use or  SC ). 
 * Inject it into the front of your thighs, upper arms or the front of your waist (abdomen). 
 * Change the place within the area you inject each day. This will reduce the risk of skin shrinking 
-or thickening (for more information, see “Other side effects” in section 4). </p>
+or thickening (for more information, see  Other side effects  in section 4). </p>
 <p>To prevent the possible transmission of disease, insulin pens should never be used for more than one 
 person, even when the needle is changed. </p>
 <p>Always attach a new sterile needle before each injection. Never re-use needles. If you re-use a needle 
@@ -256,8 +263,14 @@ authority. </p>
 * In an insulin infusion pump. 
 * If there are particles in the insulin. The solution should be clear, colourless and water-like. </p>
 <p>Never use a syringe to remove Toujeo from your SoloStar pen or severe overdose can result. Please, 
-see also section 2.<br />
-If the SoloStar pen is damaged, has not been stored correctly, if you are not sure that it is working 
+see also section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store toujeo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store toujeo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If the SoloStar pen is damaged, has not been stored correctly, if you are not sure that it is working 
 properly or you notice that your blood sugar control is unexpectedly getting worse: 
 * Throw the pen away and use a new one. 
 * Talk to your doctor, pharmacist or nurse if you think you have problem with your pen. </p>
@@ -275,13 +288,13 @@ may become too high (hyperglycaemia):
 <p>If you stop using Toujeo<br />
 Do not stop using this medicine without talking to your doctor. If you do, it could lead to very high 
 blood sugar and a build-up of acid in the blood (ketoacidosis). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you notice signs of your blood sugar being too low (hypoglycaemia), take action to increase your 
@@ -298,7 +311,7 @@ pressure) with fast heartbeat and sweating. Severe allergic reactions may become
 a doctor straight away if you notice signs of a severe allergic reaction. </p>
 <p>Other side effects 
 Tell your doctor, pharmacist or nurse if you notice any of the following side effects: 
-• Skin changes at the injection site:<br />
+  Skin changes at the injection site:<br />
 If you inject insulin too often at the same place, the skin may either shrink (lipoatrophy) (may 
 affect up to 1 in 100 people) or thicken (lipohypertrophy) (may affect up to 1 in 10 people). Lumps 
 under the skin may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis; 
@@ -311,8 +324,8 @@ spread around the injection site. Most minor reactions to insulins usually disap
 few days to a few weeks. </p>
 <p>Rare: may affect up to 1 in 1,000 people 
 * Eye reactions: A big change in your blood sugar control (getting better or worse) can 
-disturb your vision. If you have an eye disorder related to diabetes called “proliferative 
-retinopathy”, very low blood sugar attack may cause temporary loss of vision. 
+disturb your vision. If you have an eye disorder related to diabetes called  proliferative 
+retinopathy , very low blood sugar attack may cause temporary loss of vision. 
 * Swelling in the calves and ankles, caused by temporary build-up of water in the body. </p>
 <p>Very rare: may affect up to 1 in 10,000 people 
 * Changes in taste (dysgeusia). 
@@ -323,140 +336,4 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store toujeo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store toujeo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen 
-after “EXP”. The expiry date refers to the last day of that month. </p>
-<p>Before first use 
-Store in a refrigerator (2°C-8°C).<br />
-Do not freeze or place next to the freezer compartment or a freezer pack. 
-Keep the pen in the outer carton in order to protect from light. </p>
-<p>After first use or if carried as a spare 
-Do not store the pen in a refrigerator. The pen may be stored for a maximum of 6 weeks below 30°C 
-and away from direct heat or direct light. Discard the pen after this time period. Do not leave your 
-insulin in a car on an exceptionally warm or cold day. Always keep the cap on the pen when you are 
-not using it in order to protect from light. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer used. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Toujeo contains<br />
-* The active substance is insulin glargine. Each ml of the solution contains 300 units of insulin 
-glargine (equivalent to 10.91 mg). Each pen contains 1.5 ml of solution for injection, equivalent 
-to 450 units. 
-* The other ingredients are: zinc chloride, metacresol, glycerol, water for injections, and sodium 
-hydroxide (see section 2 “Important information about some of the ingredients of Toujeo”) and 
-hydrochloric acid (for pH adjustment). </p>
-<p>What Toujeo looks like and contents of the pack<br />
-Toujeo is a clear and colourless solution. 
-Each pen contains 1.5 ml of solution for injection (equivalent to 450 units). 
-Packs of 1, 3, 5 and 10 pre-filled pens. 
-Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer<br />
-Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Germany. </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
-Lietuva 
-Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Luxembourg/Luxemburg 
-Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
-Sanofi s.r.o. 
-Tel: +420 233 086<br />
-Magyarország 
-sanofi-aventis zrt., Magyarország 
-Tel.: +36 1 505 0 
-Danmark 
-Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Malta 
-Sanofi S.r.l. 
-Tel: +39 02 39394Deutschland 
-Sanofi-Aventis Deutschland GmbH 
-Tel: 0800 52 52Tel : aus dem Ausland +49 69 305 21<br />
-Nederland 
-Sanofi B.V. 
-Tel: +31 20 245 4 
-Eesti 
-Swixx Biopharma OÜ 
-Tel: +372 640 10<br />
-Norge 
-sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
-sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
-sanofi-aventis, S.A. 
-Tel: +34 93 485 94<br />
-Polska 
-sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-France 
-Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
-Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
-Tel: +351 21 35 89<br />
-Hrvatska 
-Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
-Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Ireland 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenija 
-Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51<br />
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
-Sanofi S.r.l. 
-Tel: 800 13 12 12 (domande di tipo tecnico)<br />
-+39 800 536389 (altre domande e chiamate 
-dall'estero) </p>
-<p>Suomi/Finland 
-Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
-Sverige 
-Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
-Swixx Biopharma SIA 
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
-Sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other source of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

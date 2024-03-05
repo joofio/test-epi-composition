@@ -4,7 +4,7 @@ Instance: composition-en-96958c1c1275e460bebf23cdf143ad79
 InstanceOf: CompositionUvEpi
 Title: "Composition for lysodren Package Leaflet"
 Description:  "Composition for lysodren Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Lysodren 
 4. Possible side effects 
 5. How to store Lysodren 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -87,18 +86,22 @@ section 6).
 Lysodren"). </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Lysodren. 
-You should tell your doctor if any of the following applies to you: 
-- if you have an injury (shock, severe trauma), an infection or if you have any illness while you 
+You should tell your doctor if any of the following applies to you:</p>
+<ul>
+<li>if you have an injury (shock, severe trauma), an infection or if you have any illness while you 
 are taking Lysodren. Tell your doctor immediately, who may decide to temporarily stop 
-treatment. 
-- if you have liver problems: Tell your doctor if you develop any of the following signs and 
+treatment. </li>
+<li>if you have liver problems: Tell your doctor if you develop any of the following signs and 
 symptoms of liver problems during Lysodren treatment: itching, yellow eyes or skin, dark urine, 
 and pain or discomfort in the right upper stomach area. Your doctor should do blood tests to 
 check your liver function before and during treatment with Lysodren, and as clinically 
-indicated. 
-- if you have severe kidney problems. </p>
-<ul>
-<li>if you are using any medicines mentioned below (see "Other medicines and Lysodren"). </li>
+indicated. </li>
+<li>
+<p>if you have severe kidney problems. </p>
+</li>
+<li>
+<p>if you are using any medicines mentioned below (see "Other medicines and Lysodren"). </p>
+</li>
 <li>if you have gynaecological problems such as bleeding and/ or pelvic pain. </li>
 </ul>
 <p>This medicine should not be handled by persons other than the patient and his/her caregivers, and 
@@ -112,14 +115,16 @@ including medicines obtained without a prescription. </p>
 <p>You must not use Lysodren with medicines containing spironolactone, often used as a diuretic for 
 heart, liver or kidney diseases. </p>
 <p>Lysodren may interfere with several medicines. Therefore, you should tell your doctor if you are using 
-medicines containing any of the following active substances: 
-- warfarin or other anticoagulants (blood thinners), used to prevent blood clots. The dose of your 
-anticoagulant may need adjustment. 
-- antiepileptics 
-- rifabutin or rifampicin, used to treat tuberculosis 
-- griseofulvin, used in the treatment of fungal infections 
-- herbal preparations containing St. John’s wort (Hypericum perforatum) 
-- Sunitinib, etoposide: to treat cancer </p>
+medicines containing any of the following active substances:</p>
+<ul>
+<li>warfarin or other anticoagulants (blood thinners), used to prevent blood clots. The dose of your 
+anticoagulant may need adjustment. </li>
+<li>antiepileptics </li>
+<li>rifabutin or rifampicin, used to treat tuberculosis </li>
+<li>griseofulvin, used in the treatment of fungal infections </li>
+<li>herbal preparations containing St. John s wort (Hypericum perforatum) </li>
+<li>Sunitinib, etoposide: to treat cancer </li>
+</ul>
 <p>Lysodren with food and drink 
 Lysodren should preferably be taken during meals containing fat-rich food such as milk, chocolate, 
 oil. </p>
@@ -167,19 +172,23 @@ make up for the forgotten one. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Lysodren can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately if you experience any of the following side effects: 
-- Adrenal insufficiency: fatigue, abdominal pain, nausea, vomiting, diarrhoea, confusion 
-- Anaemia: cutaneous pallor, muscular fatigability, feeling breathless, vertigo especially when 
-standing up 
-- Liver damage: yellowing of the skin and eyes, itching, nausea, diarrhoea, fatigue, dark coloured 
-urine 
-- Neurological disorders: movement and coordination disorders, abnormal sensations like pins 
-and needles, memory loss, concentration difficulty, difficulty to talk, vertigo </p>
+<p>Tell your doctor immediately if you experience any of the following side effects:</p>
+<ul>
+<li>Adrenal insufficiency: fatigue, abdominal pain, nausea, vomiting, diarrhoea, confusion </li>
+<li>Anaemia: cutaneous pallor, muscular fatigability, feeling breathless, vertigo especially when 
+standing up </li>
+<li>Liver damage: yellowing of the skin and eyes, itching, nausea, diarrhoea, fatigue, dark coloured 
+urine </li>
+<li>Neurological disorders: movement and coordination disorders, abnormal sensations like pins 
+and needles, memory loss, concentration difficulty, difficulty to talk, vertigo </li>
+</ul>
 <p>These symptoms may reveal complications for which specific medication could be appropriate. </p>
-<p>Side effects may occur with certain frequencies, which are defined as follows: 
-- very common: may affect more than 1 in 10 people 
-- common: may affect up to 1 in 10 people<br />
-- not known: frequency cannot be estimated from the available data </p>
+<p>Side effects may occur with certain frequencies, which are defined as follows:</p>
+<ul>
+<li>very common: may affect more than 1 in 10 people </li>
+<li>common: may affect up to 1 in 10 people  </li>
+<li>not known: frequency cannot be estimated from the available data </li>
+</ul>
 <p>Very common side effects 
 - vomiting, nausea (feeling sick), diarrhoea, belly pain 
 - lack of appetite 
@@ -277,7 +286,7 @@ Italy </p>
 <p>or  </p>
 <p>CENTRE SPECIALITES PHARMACEUTIQUES 
 76-78, avenue du Midi 
-63800 COURNON D’AUVERGNE 
+63800 COURNON D AUVERGNE 
 FRANCE  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
@@ -287,7 +296,6 @@ Authorisation Holder: </p>
 site: http://www.emea.europa.eu/. There are also links to other websites about rare diseases and 
 treatments. </p>
 <p>This leaflet is available in all European languages on the EMA website. </p>
-<p>─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  </p>
 <p>LYSODREN   PATIENT   CARD </p>
 <p>I am on Lysodren (mitotane) treatment </p>
 <p>I am prone to acute adrenal insufficiency </p>
@@ -295,8 +303,8 @@ treatments. </p>
 adequate precautionary measures 
 should be taken </p>
 <p>The name of my Doctor is: </p>
-<p>……………………………………….. 
-Phone: ………………………………. </p>
+<p>.. 
+Phone:  . </p>
 <p>For information on the product, 
  please contact: 
  HRA Pharma Rare Diseases 

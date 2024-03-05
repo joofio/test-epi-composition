@@ -4,7 +4,7 @@ Instance: composition-en-9d6bde1dfdbe6ae73a503b7573b2e412
 InstanceOf: CompositionUvEpi
 Title: "Composition for entacapone Package Leaflet"
 Description:  "Composition for entacapone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,9 +68,9 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What entacapone is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Teva tablets contain entacapone and are used together with levodopa to treat Parkinson’s 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Teva tablets contain entacapone and are used together with levodopa to treat Parkinson s 
 disease. Entacapone Teva aids levodopa in relieving the symptoms of Parkinson's disease. Entacapone 
-Teva has no effect on relieving the symptoms of Parkinson´s disease unless taken with levodopa. </p>         </div>"""   
+Teva has no effect on relieving the symptoms of Parkinson s disease unless taken with levodopa. </p>         </div>"""   
           
 
              
@@ -113,13 +113,13 @@ preoccupation with an increase in sexual thoughts or feelings. Your doctor may n
 treatments. </p>
 <p>As Entacapone Teva tablets will be taken together with other levodopa medicines, please also read the 
 package leaflets of these medicines carefully. </p>
-<p>The dose of other medicines to treat Parkinson’s disease may need to be adjusted when you start 
+<p>The dose of other medicines to treat Parkinson s disease may need to be adjusted when you start 
 taking Entacapone Teva. Follow the instructions that your doctor has given you. </p>
 <p>Neuroleptic Malignant Syndrome (NMS) is a serious but rare reaction to certain medicines, and may 
-occur especially when Entacapone Teva and other medicines to treat Parkinson’s disease are suddenly 
+occur especially when Entacapone Teva and other medicines to treat Parkinson s disease are suddenly 
 stopped or the dose is suddenly reduced. For the characteristics of NMS see Section 4 Possible side 
 effects. Your doctor may advise you to slowly discontinue the treatment with Entacapone Teva and 
-other medicines to treat Parkinson’s disease. </p>
+other medicines to treat Parkinson s disease. </p>
 <p>Entacapone Teva taken with levodopa may cause drowsiness and may cause you to sometimes 
 suddenly fall asleep. If this happens, you should not drive or use any tools or machines (see Driving 
 and using machines).  </p>
@@ -153,7 +153,7 @@ Do not drive or operate machinery if you experience these side effects. </p>    
 or pharmacist if you are not sure.  </p>
 <p>Entacapone Teva is taken together with medicines containing levodopa (either levodopa/carbidopa 
 preparations or levodopa/benserazide preparations). You may also use other medicines to treat 
-Parkinson’s disease at the same time.  </p>
+Parkinson s disease at the same time.  </p>
 <p>The recommended dose of Entacapone Teva is one 200 mg tablet with each levodopa dose. The 
 maximum recommended dose is 10 tablets per day, i.e. 2,000 mg of Entacapone Teva. </p>
 <p>If you are receiving dialysis for renal insufficiency, your doctor may tell you to increase the time 
@@ -170,7 +170,7 @@ treatment by taking the next Entacapone Teva tablet with your next levodopa dose
 <p>If you stop taking Entacapone Teva 
 Do not stop taking Entacapone Teva unless your doctor tells you to.  </p>
 <p>When stopping your doctor may need to re-adjust the dosage of your other medicines to treat 
-Parkinson´s disease. Suddenly stopping Entacapone Teva and other medicines to treat Parkinson´s 
+Parkinson s disease. Suddenly stopping Entacapone Teva and other medicines to treat Parkinson s 
 disease may result in unwanted side effects. See Section 2 Warnings and precautions. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -185,55 +185,75 @@ side effects caused by Entacapone Teva are mild to moderate.  </p>
 <p>Some of the side effects are often caused by the increased effects of levodopa therapy and are most 
 common at the start of treatment. If you experience such effects at the start of treatment with 
 Entacapone Teva you should contact your doctor who may decide to adjust your dosage of levodopa. </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- Uncontrollable movements with difficulty in performing voluntary movements (dyskinesias); 
-- feeling sick (nausea); 
-- harmless reddish-brown discoloration of urine. </p>
-<p>Common (may affect up to 1 in 10 people): 
-- Excessive movements (hyperkinesias), worsening of symptoms of Parkinson´s disease, prolonged 
-muscle cramps (dystonia); 
-- being sick (vomiting), diarrhoea, abdominal pain, constipation, dry mouth; 
-- dizziness, tiredness, increased sweating, fall; 
-- hallucinations (seeing/hearing/feeling/smelling things that are not really there), sleeplessness, 
-vivid dreams, and confusion; 
-- heart or artery disease events (e.g. chest pain). </p>
-<p>Uncommon (may affect up to 1 in 100 people): </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Uncontrollable movements with difficulty in performing voluntary movements (dyskinesias); </li>
+<li>feeling sick (nausea); </li>
+<li>harmless reddish-brown discoloration of urine. </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Excessive movements (hyperkinesias), worsening of symptoms of Parkinson s disease, prolonged 
+muscle cramps (dystonia); </li>
+<li>being sick (vomiting), diarrhoea, abdominal pain, constipation, dry mouth; </li>
+<li>dizziness, tiredness, increased sweating, fall; </li>
+<li>hallucinations (seeing/hearing/feeling/smelling things that are not really there), sleeplessness, 
+vivid dreams, and confusion; </li>
+<li>heart or artery disease events (e.g. chest pain). </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
 <ul>
 <li>Heart attack. </li>
 </ul>
-<p>Rare (may affect up to 1 in 1,000 people): 
-- Rashes; 
-- abnormal results in liver function test.  </p>
-<p>Very rare (may affect up to 1 in 10,000 people): 
-- Agitation; 
-- decreased appetite, weight loss; 
-- hives.  </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- Inflammation of the colon (colitis), inflammation of the liver (hepatitis) with yellowing of the 
-skin and whites of the eyes; 
-- discolouration of skin, hair, beard and nails.  </p>
+<p>Rare (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Rashes; </li>
+<li>abnormal results in liver function test.  </li>
+</ul>
+<p>Very rare (may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>Agitation; </li>
+<li>decreased appetite, weight loss; </li>
+<li>hives.  </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Inflammation of the colon (colitis), inflammation of the liver (hepatitis) with yellowing of the 
+skin and whites of the eyes; </li>
+<li>discolouration of skin, hair, beard and nails.  </li>
+</ul>
 <p>When Entacapone Teva is given at higher doses: 
-In doses of 1,400 to 2,000 mg per day, the following side effects are more common: 
-- Uncontrollable movements; 
-- nausea; 
-- abdominal pain. </p>
-<p>Other important side effects which may occur: 
-- Entacapone Teva taken with levodopa may rarely make you feel very drowsy during the 
-day, and cause you to suddenly fall asleep; 
-- Neuroleptic Malignant Syndrome (NMS) is a rare severe reaction to medicines used to treat 
+In doses of 1,400 to 2,000 mg per day, the following side effects are more common:</p>
+<ul>
+<li>Uncontrollable movements; </li>
+<li>nausea; </li>
+<li>abdominal pain. </li>
+</ul>
+<p>Other important side effects which may occur:</p>
+<ul>
+<li>Entacapone Teva taken with levodopa may rarely make you feel very drowsy during the 
+day, and cause you to suddenly fall asleep; </li>
+<li>Neuroleptic Malignant Syndrome (NMS) is a rare severe reaction to medicines used to treat 
 disorders of the nervous system. It is characterised by stiffness, muscle twitching, shaking, 
 agitation and confusion, coma, high body temperature, increased heart rate and unstable blood 
-pressure; 
-- a rare severe muscle disorder (rhabdomyolysis) which causes pain, tenderness and weakness of 
+pressure; </li>
+<li>
+<p>a rare severe muscle disorder (rhabdomyolysis) which causes pain, tenderness and weakness of 
 the muscles and may lead to kidney problems.<br />
-You may experience the following side effects: 
-- Inability to resist the impulse to perform an action that could be harmful, which may include: 
-- strong impulse to gamble excessively despite serious personal or family consequences; 
-- altered or increased sexual interest and behaviour of significant concern to you or to others, 
-for example, an increased sexual drive; 
-- uncontrollable excessive shopping or spending; 
-- binge eating (eating large amounts of food in a short time period) or compulsive eating 
-(eating more food than normal and more than is needed to satisfy your hunger). </p>
+You may experience the following side effects:</p>
+</li>
+<li>
+<p>Inability to resist the impulse to perform an action that could be harmful, which may include:</p>
+</li>
+<li>
+<p>strong impulse to gamble excessively despite serious personal or family consequences; </p>
+</li>
+<li>altered or increased sexual interest and behaviour of significant concern to you or to others, 
+for example, an increased sexual drive; </li>
+<li>uncontrollable excessive shopping or spending; </li>
+<li>binge eating (eating large amounts of food in a short time period) or compulsive eating 
+(eating more food than normal and more than is needed to satisfy your hunger). </li>
+</ul>
 <p>Tell your doctor if you experience any of these behaviours; they will discuss ways of managing or 
 reducing the symptoms. </p>
 <p>Reporting of side effects 
@@ -267,7 +287,7 @@ pregelatinised, magnesium stearate and in the film-coating are poly(vinyl alcoho
 dioxide (E171), macrogol, iron oxide yellow (E172), lecithin (soya), iron oxide red (E172). </p>
 <p>What Entacapone Teva looks like and contents of the pack<br />
 Entacapone Teva film-coated tablets are light brown, biconvex ellipse-shaped with approximately 
-18 mm length and 10 mm width, embossed with “E200” on one side and plain on the other side.  </p>
+18 mm length and 10 mm width, embossed with  E200  on one side and plain on the other side.  </p>
 <p>Entacapone Teva is available in HDPE tablet containers with polypropylene screw caps with desiccant 
 insert containing 30, 60, 100 or 175 film-coated tablets. Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -277,7 +297,7 @@ Swensweg 5
 The Netherlands </p>
 <p>Manufacturer 
 TEVA Pharmaceutical Works Private Limited Company 
-Pallagi út 13, 
+Pallagi  t 13, 
 4042 Debrecen, 
 Hungary </p>
 <p>Pharmachemie B.V.<br />
@@ -294,24 +314,22 @@ ul. Mogilska 80,
 Poland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207373<br />
+T l/Tel: +32 38207373<br />
 Lietuva 
 UAB Teva Baltics 
 Tel: +370 52660 </p>
-<p>България<br />
-Тева Фарма ЕАД 
-Teл: +359 24899585<br />
+<p>Te : +359 24899585<br />
 Luxembourg/Luxemburg<br />
 ratiopharm GmbH<br />
 Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika<br />
+T l/Tel: +49 73140 
+ esk  republika<br />
 Teva Pharmaceuticals CR, s.r.o.<br />
 Tel: +420 251007111<br />
-Magyarország<br />
-Teva Gyógyszergyár Zrt.<br />
+Magyarorsz g<br />
+Teva Gy gyszergy r Zrt.<br />
 Tel: +36 12886 
 Danmark<br />
 Teva Denmark A/S<br />
@@ -330,25 +348,24 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610Norge 
 Teva Norway AS 
 Tlf: +47 66775 </p>
-<p>Ελλάδα 
-Specifar Α.Β.Ε.Ε. 
-Τηλ: +30 2118805Österreich 
+<p>Specifar  . . . . 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -356,9 +373,9 @@ Teva Pharmaceuticals Ireland
 Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503Slovenská republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 </p>
 <p>Italia 
@@ -366,15 +383,13 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar Α.Β.Ε.Ε. 
-Ελλάδα 
-Τηλ: +30 2118805Sverige 
+Puh/Tel: +358 201805 </p>
+<p>Specifar  . . . . </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
 Tel: +46 42121 </p>
 <p>Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

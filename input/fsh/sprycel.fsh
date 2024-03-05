@@ -4,7 +4,7 @@ Instance: composition-en-9ef90a3b084c8b791046c3e0616188b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sprycel Package Leaflet"
 Description:  "Composition for sprycel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,17 +96,18 @@ If you could be allergic, ask your doctor for advice. </p>
 Talk to your doctor or pharmacist before using SPRYCEL<br />
 * if you are taking medicines to thin the blood or prevent clots (see "Other medicines and 
 SPRYCEL") </p>
-<p>108
-* if you have a liver or heart problem, or used to have one 
-* if you start having difficulty breathing, chest pain, or a cough when taking SPRYCEL: this 
+<ul>
+<li>if you have a liver or heart problem, or used to have one </li>
+<li>if you start having difficulty breathing, chest pain, or a cough when taking SPRYCEL: this 
 may be a sign of fluid retention in the lungs or chest (which can be more common in patients 
-aged 65 years and older), or due to changes in the blood vessels supplying the lungs 
-* if you have ever had or might now have a hepatitis B infection. This is because SPRYCEL 
+aged 65 years and older), or due to changes in the blood vessels supplying the lungs </li>
+<li>if you have ever had or might now have a hepatitis B infection. This is because SPRYCEL 
 could cause hepatitis B to become active again, which can be fatal in some cases. Patients will 
-be carefully checked by their doctor for signs of this infection before treatment is started. 
-* if you experience bruising, bleeding, fever, fatigue and confusion when taking SPRYCEL, 
+be carefully checked by their doctor for signs of this infection before treatment is started. </li>
+<li>if you experience bruising, bleeding, fever, fatigue and confusion when taking SPRYCEL, 
 contact your doctor. This may be a sign of damage to blood vessels known as thrombotic 
-microangiopathy (TMA). </p>
+microangiopathy (TMA). </li>
+</ul>
 <p>Your doctor will regularly monitor your condition to check whether SPRYCEL is having the desired 
 effect. You will also have blood tests regularly while you are taking SPRYCEL. </p>
 <p>Children and adolescents 
@@ -124,7 +125,7 @@ SPRYCEL when taken together. </p>
 * phenytoin, carbamazepine, phenobarbital - these are treaments for epilepsy 
 * rifampicin - this is a treatment for tuberculosis 
 * famotidine, omeprazole - these are medicines that block stomach acids 
-* St. John’s wort - a herbal preparation obtained without a prescription, used to treat depression 
+* St. John s wort - a herbal preparation obtained without a prescription, used to treat depression 
 and other conditions (also known as Hypericum perforatum) </p>
 <p>Do not take medicines that neutralise stomach acids (antacids such as aluminium hydroxide or 
 magnesium hydroxide) in the 2 hours before or 2 hours after taking SPRYCEL. </p>
@@ -142,8 +143,7 @@ SPRYCEL. </p>
 <p>Driving and using machines 
 Take special care when driving or using machines in case you experience side effects such as dizziness 
 and blurred vision. </p>
-<p>109
-SPRYCEL contains lactose 
+<p>SPRYCEL contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, talk to your doctor 
 before taking this medicine. </p>         </div>"""   
                     
@@ -197,7 +197,6 @@ should use gloves when handling SPRYCEL. </p>
 <p>How long to take SPRYCEL 
 Take SPRYCEL daily until your doctor tells you to stop. Make sure you take SPRYCEL for as long as 
 it is prescribed. </p>
-<p>110</p>
 <p>If you take more SPRYCEL than you should 
 If you have accidentally taken too many tablets, talk to your doctor immediately. You may require 
 medical attention. </p>
@@ -250,8 +249,7 @@ gastrointestinal bleeding, high uric acid levels in the blood </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people) 
 * Heart and lungs: heart attack (including fatal outcome), inflammation of the lining (fibrous 
 sack) surrounding the heart, irregular heartbeat, chest pain due to lack of blood supply to the </p>
-<p>111
-heart (angina), low blood pressure, narrowing of airway that may cause breathing difficulties, 
+<p>heart (angina), low blood pressure, narrowing of airway that may cause breathing difficulties, 
 asthma, increased blood pressure in the arteries (blood vessels) of the lungs 
 * Digestive problems: inflammation of the pancreas, peptic ulcer, inflammation of the food pipe, 
 swollen tummy (abdomen), tear in the skin of the anal canal, difficulty in swallowing, 
@@ -306,11 +304,12 @@ the available data)
 * Recurrence (reactivation) of hepatitis B infection when you have had hepatitis B in the past (a 
 liver infection) 
 * A reaction with fever, blisters on the skin, and ulceration of the mucous membranes </p>
-<p>112
-* Disease of the kidneys with symptoms including oedema and abnormal laboratory test results 
-such as protein in the urine and low protein level in the blood 
-* Damage to blood vessels known as thrombotic microangiopathy (TMA), including decreased 
-red blood cell count, decreased platelets, and formation of blood clots </p>
+<ul>
+<li>Disease of the kidneys with symptoms including oedema and abnormal laboratory test results 
+such as protein in the urine and low protein level in the blood </li>
+<li>Damage to blood vessels known as thrombotic microangiopathy (TMA), including decreased 
+red blood cell count, decreased platelets, and formation of blood clots </li>
+</ul>
 <p>Your doctor will check for some of these effects during your treatment. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -345,20 +344,19 @@ microcrystalline cellulose; croscarmellose sodium; hydroxypropylcellulose; magne
 stearate 
 * Film-coating: hypromellose; titanium dioxide (E171); macrogol<br />
 What SPRYCEL looks like and contents of the pack 
-SPRYCEL 20 mg: the film-coated tablet is white to off-white, biconvex, round with “BMS” debossed 
-on one side and “527” on the other side. </p>
-<p>SPRYCEL 50 mg: the film-coated tablet is white to off-white, biconvex, oval with “BMS” debossed 
-on one side and “528” on the other side. </p>
-<p>SPRYCEL 70 mg: the film-coated tablet is white to off-white, biconvex, round with “BMS” debossed 
-on one side and “524” on the other side. </p>
-<p>SPRYCEL 80 mg: the film-coated tablet is white to off-white, biconvex, triangular with “BMS 80” 
-debossed on one side and “855” on the other side. </p>
-<p>SPRYCEL 100 mg: the film-coated tablet is white to off-white, biconvex, oval with “BMS 100” 
-debossed on one side and “852” on the other side. </p>
-<p>SPRYCEL 140 mg: the film-coated tablet is white to off-white, biconvex, round with “BMS 140” 
-debossed on one side and “857” on the other side. </p>
-<p>113
-SPRYCEL 20 mg, 50 mg or 70 mg film-coated tablets are available in cartons containing 
+SPRYCEL 20 mg: the film-coated tablet is white to off-white, biconvex, round with  BMS  debossed 
+on one side and  527  on the other side. </p>
+<p>SPRYCEL 50 mg: the film-coated tablet is white to off-white, biconvex, oval with  BMS  debossed 
+on one side and  528  on the other side. </p>
+<p>SPRYCEL 70 mg: the film-coated tablet is white to off-white, biconvex, round with  BMS  debossed 
+on one side and  524  on the other side. </p>
+<p>SPRYCEL 80 mg: the film-coated tablet is white to off-white, biconvex, triangular with  BMS 80<br />
+debossed on one side and  855  on the other side. </p>
+<p>SPRYCEL 100 mg: the film-coated tablet is white to off-white, biconvex, oval with  BMS 100<br />
+debossed on one side and  852  on the other side. </p>
+<p>SPRYCEL 140 mg: the film-coated tablet is white to off-white, biconvex, round with  BMS 140<br />
+debossed on one side and  857  on the other side. </p>
+<p>SPRYCEL 20 mg, 50 mg or 70 mg film-coated tablets are available in cartons containing 
 56 film-coated tablets in 4 calendar blisters of 14 film-coated tablets each, and in cartons containing 
 60 x 1 film-coated tablets in perforated unit dose blisters. They are also available in bottles with 
 child-resistant closure containing 60 film-coated tablets. Each carton contains one bottle. </p>

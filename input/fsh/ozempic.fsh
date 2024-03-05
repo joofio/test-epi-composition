@@ -4,7 +4,7 @@ Instance: composition-en-d321e28009e316a0922b3b06c7400fef
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozempic Package Leaflet"
 Description:  "Composition for ozempic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,8 +73,8 @@ Usage: #example
 only when blood sugar is too high and can help prevent heart disease. </p>
 <p>Ozempic is used to treat adults (aged 18 years and older) with type 2 diabetes when diet and exercise 
 is not enough: 
-* on its own – when you cannot use metformin (another diabetes medicine) or 
-* with other medicines for diabetes – when they are not enough to control your blood sugar levels. 
+* on its own   when you cannot use metformin (another diabetes medicine) or 
+* with other medicines for diabetes   when they are not enough to control your blood sugar levels. 
 These may be medicines you take by mouth or inject such as insulin.  </p>
 <p>It is important that you continue with your diet and exercise plan as told by your doctor, pharmacist or 
 nurse. </p>         </div>"""   
@@ -92,8 +92,8 @@ section 6). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor, pharmacist or nurse before using this medicine. </p>
 <p>This medicine is not the same as insulin and you should not use it if: 
-* you have type 1 diabetes – a condition where your body does not produce any insulin 
-* you develop diabetic ketoacidosis – a complication of diabetes with high blood sugar, breathing 
+* you have type 1 diabetes   a condition where your body does not produce any insulin 
+* you develop diabetic ketoacidosis   a complication of diabetes with high blood sugar, breathing 
 difficulty, confusion, excessive thirst, a sweet smell to the breath or a sweet or metallic taste in 
 the mouth.  </p>
 <p>Ozempic is not an insulin and should therefore not be used as a substitute for insulin.  </p>
@@ -103,7 +103,7 @@ diarrhoea. These side effects can cause dehydration (loss of fluids). It is impo
 plenty of fluids to prevent dehydration. This is especially important if you have kidney problems. Talk 
 to your doctor if you have any questions or concerns. </p>
 <p>Severe and on-going stomach pain which could be due to acute pancreatitis </p>
-<p>If you have severe and on-going pain in the stomach area – see a doctor straight away as this could be 
+<p>If you have severe and on-going pain in the stomach area   see a doctor straight away as this could be 
 a sign of acute pancreatitis (inflamed pancreas). Please see section 4 for the warning signs of inflamed 
 pancreas. </p>
 <p>Low blood sugar (hypoglycaemia) </p>
@@ -143,11 +143,11 @@ doctor right away, as your treatment will need to be changed. </p>
 Ozempic is unlikely to affect your ability to drive and use machines. If you use this medicine in 
 combination with a sulphonylurea or insulin, low blood sugar (hypoglycaemia) may occur which may 
 reduce your ability to concentrate. Do not drive or use machines if you get any signs of low blood 
-sugar. See section 2, ‘Warnings and precautions’ for information on increased risk of low blood sugar 
+sugar. See section 2,  Warnings and precautions  for information on increased risk of low blood sugar 
 and section 4 for the warning signs of low blood sugar. Talk to your doctor for further information.  </p>
 <p>Sodium content 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’.  </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ozempic"
@@ -173,7 +173,7 @@ muscle.
 Detailed instructions for use are on the other side of this package leaflet. </p>
 <p>When to use Ozempic 
 * You should use this medicine once a week on the same day each week if possible. 
-* You can give yourself the injection at any time of the day – regardless of meals.  </p>
+* You can give yourself the injection at any time of the day   regardless of meals.  </p>
 <p>To help you remember to inject this medicine once a week only, it is recommended to note the chosen 
 weekday (e.g. Wednesday) on the carton and to write the date on the carton every time you have 
 injected it. </p>
@@ -204,7 +204,7 @@ levels may increase. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Serious side effects </p>
 <p>Common (may affect up to 1 in 10 people) 
-* complications of diabetic eye disease (retinopathy) – you should tell your doctor if you get eye 
+* complications of diabetic eye disease (retinopathy)   you should tell your doctor if you get eye 
 problems, such as changes in vision, during treatment with this medicine. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * Inflamed pancreas (acute pancreatitis) which could cause severe pain in the stomach and back 
@@ -216,8 +216,8 @@ help and inform your doctor straight away if you get symptoms such as breathing 
 swelling of face, lips, tongue and/or throat with difficulty swallowing and a fast heartbeat. </p>
 <p>Other side effects  </p>
 <p>Very common (may affect more than 1 in 10 people)<br />
-* feeling sick (nausea) – this usually goes away over time 
-* diarrhoea – this usually goes away over time 
+* feeling sick (nausea)   this usually goes away over time 
+* diarrhoea   this usually goes away over time 
 * low blood sugar (hypoglycaemia) when this medicine is used with medicines that contain a<br />
 sulfonylurea or insulin </p>
 <p>Common (may affect up to 1 in 10 people)<br />
@@ -233,9 +233,9 @@ Low blood sugar is more likely to happen if you also take a sulfonylurea or insu
 reduce your dose of these medicines before you start using this medicine. </p>
 <ul>
 <li>indigestion </li>
-<li>inflamed stomach (‘gastritis’) – the signs include stomach ache, feeling sick (nausea) or being 
+<li>inflamed stomach ( gastritis )   the signs include stomach ache, feeling sick (nausea) or being 
 sick (vomiting) </li>
-<li>reflux or heartburn – also called ‘gastro-esophageal reflux disease’ (GERD) </li>
+<li>reflux or heartburn   also called  gastro-esophageal reflux disease  (GERD) </li>
 <li>stomach pain </li>
 <li>bloating of the stomach </li>
 <li>constipation </li>
@@ -251,7 +251,7 @@ sick (vomiting) </li>
 <p>Uncommon (may affect up to 1 in 100 people)<br />
 * change in the way food or drink tastes 
 * fast pulse 
-* injection site reactions – such as bruising, pain, irritation, itching and rash 
+* injection site reactions   such as bruising, pain, irritation, itching and rash 
 * allergic reactions like rash, itching or hives. 
 * a delay in the emptying of the stomach. </p>
 <p>Reporting of side effects<br />
@@ -266,15 +266,15 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store ozempic"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the pen label and carton after ’EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the pen label and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Before opening: </p>
-<p>Store in a refrigerator (2 °C–8 °C). Do not freeze. Keep away from the cooling element. Keep the pen 
+<p>Store in a refrigerator (2  C 8  C). Do not freeze. Keep away from the cooling element. Keep the pen 
 cap on in order to protect from light. </p>
 <p>During use: </p>
 <ul>
-<li>You can keep the pen for 6 weeks when stored at a temperature below 30 °C or in a refrigerator 
-(2 °C–8 °C) away from the cooling element. Do not freeze Ozempic and do not use it if it has 
+<li>You can keep the pen for 6 weeks when stored at a temperature below 30  C or in a refrigerator 
+(2  C 8  C) away from the cooling element. Do not freeze Ozempic and do not use it if it has 
 been frozen. </li>
 <li>When you are not using the pen, keep the pen cap on in order to protect from light. </li>
 </ul>
@@ -294,7 +294,7 @@ semaglutide. One pre-filled pen contains 2 mg semaglutide in 1.5 ml solution. Ea
 contains 0.25 mg of semaglutide in 0.19 ml. 
 * The other ingredients are: disodium phosphate dihydrate, propylene glycol, phenol, water for 
 injections, sodium hydroxide/hydrochloric acid (for pH adjustment). See also section 2, 
-‘Sodium content’. </p>
+ Sodium content . </p>
 <p>What Ozempic looks like and contents of the pack 
 Ozempic is a clear and colourless or almost colourless solution for injection in a pre-filled pen.<br />
 Each pre-filled pen contains 1.5 ml of solution, delivering 4 doses of 0.25 mg.  </p>
@@ -302,8 +302,8 @@ Each pre-filled pen contains 1.5 ml of solution, delivering 4 doses of 0.25 mg. 
 1 pen and 4 disposable NovoFine Plus needles. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Novo Nordisk A/S 
-Novo Allé 
-DK-2880 Bagsværd 
+Novo All<br />
+DK-2880 Bagsv rd 
 Denmark </p>
 <p>This leaflet was last revised in   </p>
 <p>Other sources of information </p>

@@ -4,7 +4,7 @@ Instance: composition-en-6326621176bd18eaa128ab504c98c814
 InstanceOf: CompositionUvEpi
 Title: "Composition for myclausen Package Leaflet"
 Description:  "Composition for myclausen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What myclausen is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Myclausen contains mycophenolate mofetil. 
-* This belongs to a group of medicines called “immunosuppressants”. 
+* This belongs to a group of medicines called  immunosuppressants . 
 Myclausen is used to prevent your body rejecting a transplanted organ. 
 * A kidney, heart or liver. 
 Myclausen should be used together with other medicines: 
@@ -90,8 +90,8 @@ contraception advice given to you by your doctor. </p>
 <p>Your doctor will speak to you and give you written information, particularly on the effects of 
 mycophenolate on unborn babies. Read the information carefully and follow the instructions. 
 If you do not fully understand these instructions, please ask your doctor to explain them again before 
-you take mycophenolate. See also further information in this section under “Warnings and 
-precautions” and “Pregnancy and breast-feeding”. </p>
+you take mycophenolate. See also further information in this section under  Warnings and 
+precautions  and  Pregnancy and breast-feeding . </p>
 <p>Do not take Myclausen 
 * If you are allergic to mycophenolate mofetil, mycophenolic acid or any of the other ingredients 
 of this medicine (listed in section 6). 
@@ -117,7 +117,7 @@ taking Myclausen.
 <p>If any of the above apply to you (or you are not sure), talk to your doctor straight away before starting 
 treatment with Myclausen. </p>
 <p>The effect of sunlight 
-Myclausen reduces your body’s defences. As a result, there is an increased risk of skin cancer. Limit 
+Myclausen reduces your body s defences. As a result, there is an increased risk of skin cancer. Limit 
 the amount of sunlight and UV light you get. Do this by: 
 * wearing protective clothing that also covers your head, neck, arms and legs 
 * using a sunscreen with a high protection factor. </p>
@@ -169,7 +169,7 @@ oophorectomy)
 * Your ovaries no longer work (premature ovarian failure, which has been confirmed by a 
 specialist gynaecologist) 
 * You were born with one of the following rare conditions that make pregnancy impossible: the 
-XY genotype, Turner’s syndrome or uterine agenesis 
+XY genotype, Turner s syndrome or uterine agenesis 
 * You are a child or teenager who has not started having periods. </p>
 <p>Contraception in men taking Myclausen 
 The available evidence does not indicate an increased risk of malformations or miscarriage if the 
@@ -199,14 +199,14 @@ starting treatment and must follow the contraception advice given to you by your
 may request more than one test to ensure you are not pregnant before starting treatment. </p>
 <p>Breast-feeding 
 Do not take Myclausen if you are breast-feeding. This is because small amounts of the medicine can 
-pass into the mother’s milk. </p>
+pass into the mother s milk. </p>
 <p>Driving and using machines 
 Myclausen has a moderate influence on your ability to drive or use any tools or machines. If you feel 
 drowsy, numb or confused, talk to your doctor or nurse and do not drive or use any tools or machines 
 until you feel better. </p>
 <p>Myclausen contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’ </p>         </div>"""   
+ sodium-free  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myclausen"
@@ -225,8 +225,8 @@ Adults
 * Take 2 tablets in the morning and then 2 tablets in the evening. </p>
 <p>Children aged 2 to 18 years 
 * The dose given will vary depending on the size of the child. 
-* Your doctor will decide the most appropriate dose based on your child’s height and weight 
-(body surface area – measured as square metres or ‘m2’). The recommended dose is 600 mg per 
+* Your doctor will decide the most appropriate dose based on your child s height and weight 
+(body surface area   measured as square metres or  m2 ). The recommended dose is 600 mg per 
 m2 taken twice a day. </p>
 <p>Heart transplant 
 Adults 
@@ -264,7 +264,7 @@ increase the chance of rejection of your transplanted organ. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Talk to a doctor straight away if you notice any of the following serious side effects – you 
+<p>Talk to a doctor straight away if you notice any of the following serious side effects   you 
 may need urgent medical treatment: 
 * you have a sign of infection such as a fever or sore throat 
 * you have any unexpected bruising or bleeding 
@@ -277,7 +277,7 @@ and vomiting. Your doctor will do regular blood tests to check for any changes i
 <p>Children may be more likely than adults to have some side effects. These include diarrhoea, infections, 
 fewer white cells and fewer red cells in the blood. </p>
 <p>Fighting infections 
-Myclausen reduces your body’s defences. This is to stop you rejecting your transplant. As a result, 
+Myclausen reduces your body s defences. This is to stop you rejecting your transplant. As a result, 
 your body will not be as good as normal at fighting infections. This means you may catch more 
 infections than usual. This includes infections of the brain, skin, mouth, stomach and gut, lungs and 
 urinary system. </p>
@@ -363,30 +363,29 @@ Eiderstedter Weg 3
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Passauer Pharma GmbH, 
 Duitsland/Allemagne/Deutschland 
-Tél/Tel: +49(0)3074460-Lietuva 
+T l/Tel: +49(0)3074460-Lietuva 
 Passauer Pharma GmbH, 
 Vokietija 
-Tel: +49(0)3074460-България 
-Passauer Pharma GmbH, 
-Германия 
-Тел: +49(0)3074460-Luxembourg/Luxemburg 
+Tel: +49(0)3074460-<br />
+Passauer Pharma GmbH, </p>
+<p>: +49(0)3074460-Luxembourg/Luxemburg 
 Passauer Pharma GmbH, 
 Allemagne/Deutschland 
-Tél/Tel: +49(0)3074460-Česká republika 
+T l/Tel: +49(0)3074460- esk  republika 
 Pharmagen CZ, s.r.o. 
-Česká republika 
-Tel: +420 721 137 Magyarország 
+ esk  republika 
+Tel: +420 721 137 Magyarorsz g 
 Passauer Pharma GmbH, 
-Németország 
+N metorsz g 
 Tel: +49(0)3074460-Danmark 
 Passauer Pharma GmbH, 
 Tyskland 
 Tlf: +49(0)3074460-Malta 
 Passauer Pharma GmbH, 
-Il-Ġermanja 
+Il- ermanja 
 Tel: +49(0)3074460-Deutschland 
 Aristo Pharma GmbH, 
 Deutschland 
@@ -399,14 +398,14 @@ Saksamaa
 Tel: +49(0)3074460-Norge 
 Passauer Pharma GmbH, 
 Tyskland 
-Tlf: +49(0)3074460-Ελλάδα 
+Tlf: +49(0)3074460-<br />
 YAS Pharma L.P.<br />
-Λεωφ. Κηφισίας 120 &amp; Φλοίας 151 25 Μαρούσι,<br />
-Αθήνα - Ελλάδα<br />
-Τηλ: + 30 210-6194Österreich 
+ .   120 &amp;   151 25  ,<br />
+  -  <br />
+ : + 30 210-6194 sterreich 
 Passauer Pharma GmbH, 
 Deutschland 
-Tel: +49(0)3074460-España 
+Tel: +49(0)3074460-Espa a 
 Passauer Pharma GmbH, 
 Alemania 
 Tel: +49(0)3074460-1Polska 
@@ -415,13 +414,13 @@ Niemcy
 Tel: +49(0)3074460-France 
 Passauer Pharma GmbH, 
 Allemagne 
-Tél: +49(0)3074460-Portugal 
+T l: +49(0)3074460-Portugal 
 Passauer Pharma GmbH, 
 Alemanha 
 Tel: +49(0)3074460-Hrvatska 
 Passauer Pharma GmbH, 
-Njemačka 
-Tel: +49(0)3074460-România 
+Njema ka 
+Tel: +49(0)3074460-Rom nia 
 Passauer Pharma GmbH, 
 Germania 
 Tel: +49(0)3074460-Ireland 
@@ -429,11 +428,11 @@ Passauer Pharma GmbH,
 Germany 
 Tel: +49(0)3074460-Slovenija 
 Passauer Pharma GmbH, 
-Nemčija 
-Tel: +49(0)3074460-Ísland 
+Nem ija 
+Tel: +49(0)3074460- sland 
 Passauer Pharma GmbH, 
-Þýskaland 
-Sími: +49(0)3074460-Slovenská republika 
+ skaland 
+S mi: +49(0)3074460-Slovensk  republika 
 Passauer Pharma GmbH, 
 Nemecko 
 Tel: +49(0)3074460-Italia 
@@ -442,18 +441,18 @@ Germania
 Tel: +49(0)3074460-Suomi/Finland 
 Passauer Pharma GmbH, 
 Saksa 
-Puh/Tel: +49(0)3074460-Κύπρος 
+Puh/Tel: +49(0)3074460-<br />
 ISANGEN PHARMA CYPRUS LTD 
-Guricon House, Ηνωμένων Εθνών 48, 2ος &amp; 
-3ος όροφος 
-6042, Λάρνακα, Κύπρος 
-Τηλ.: +357-24-638 
+Guricon House,     48, 2  &amp; 
+3  <br />
+6042,  , <br />
+ .: +357-24-638 
 Sverige 
 Passauer Pharma GmbH, 
 Tyskland 
 Tel: +49(0)3074460-Latvija 
 Passauer Pharma GmbH, 
-Vācija 
+V cija 
 Tel: +49(0)3074460-United Kingdom (Northern Ireland) 
 Passauer Pharma GmbH, 
 Germany 

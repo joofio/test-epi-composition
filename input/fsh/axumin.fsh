@@ -4,7 +4,7 @@ Instance: composition-en-e7c357e85455d1fe389fd3b297f16867
 InstanceOf: CompositionUvEpi
 Title: "Composition for axumin Package Leaflet"
 Description:  "Composition for axumin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,15 +91,19 @@ radiopharmaceutical outweighs the risk of being exposed to radiation.  </p>     
 - if you are allergic to fluciclovine (18F) or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions<br />
-Talk to your nuclear medicine doctor before you are given Axumin if you: 
-- have kidney problems 
-- are on a low sodium diet (see section "Axumin contains sodium"). </p>
-<p>Before administration of Axumin you: 
-- should avoid exercise for at least a day before the Axumin scan. 
-- should not eat or drink for at least 4 hours before the scan (you can take your usual medicines 
-with small amounts of water). <br />
-- may urinate at the latest 60 minutes before the Axumin injection and you should avoid urination 
-until after the scan has been completed. </p>
+Talk to your nuclear medicine doctor before you are given Axumin if you:</p>
+<ul>
+<li>have kidney problems </li>
+<li>are on a low sodium diet (see section "Axumin contains sodium"). </li>
+</ul>
+<p>Before administration of Axumin you:</p>
+<ul>
+<li>should avoid exercise for at least a day before the Axumin scan. </li>
+<li>should not eat or drink for at least 4 hours before the scan (you can take your usual medicines 
+with small amounts of water).   </li>
+<li>may urinate at the latest 60 minutes before the Axumin injection and you should avoid urination 
+until after the scan has been completed. </li>
+</ul>
 <p>Children and adolescents 
 Talk to your nuclear medicine doctor if you are under 18 years old. Axumin is not intended for use in 
 children and adolescents aged under 18 years. </p>
@@ -134,10 +138,12 @@ chloride solution to ensure that you receive the full dose.  </p>
 <p>Duration of the procedure<br />
 Your nuclear medicine doctor will inform you about the usual duration of the procedure. The scan will 
 usually start approximately 5 minutes after the Axumin injection is given. </p>
-<p>After administration of Axumin you should:<br />
-- avoid any close contact with young children and pregnant women for the 12 hours following 
-the injection 
-- urinate frequently in order to eliminate the product from your body. </p>
+<p>After administration of Axumin you should:</p>
+<ul>
+<li>avoid any close contact with young children and pregnant women for the 12 hours following 
+the injection </li>
+<li>urinate frequently in order to eliminate the product from your body. </li>
+</ul>
 <p>The nuclear medicine doctor will inform you if you need to take any other special precautions after 
 receiving this medicine. Contact your nuclear medicine doctor if you have any questions.  </p>
 <p>If you have been given more Axumin than you should 
@@ -205,16 +211,16 @@ Each multidose vial contains 1 to 10 mL of solution, corresponding to 3,200 to 3
 and ToC.  </p>
 <p>Pack size: 1 vial. </p>
 <p>Marketing Authorisation Holder<br />
-Blue Earth Diagnostics Ireland Ltd, 6th Floor, 2 Grand Canal Square, Dublin 2, Ιreland </p>
+Blue Earth Diagnostics Ireland Ltd, 6th Floor, 2 Grand Canal Square, Dublin 2,  reland </p>
 <p>Manufacturer 
 Seibersdorf Labor GmbH, 2444 Seibersdorf, Austria. </p>
 <p>Norsk medisinsk syklotronsenter AS, 0372 Oslo, Norway. </p>
 <p>Advanced Accelerator Applications Molecular Imaging France S.A.S., 13005 Marseille, France </p>
-<p>Nucleis SA, 4000 Liège, Belgium </p>
+<p>Nucleis SA, 4000 Li ge, Belgium </p>
 <p>Advanced Accelerator Applications Molecular Imaging Italy S.r.l., 47014, Meldola (FC), Italy </p>
 <p>Advanced Accelerator Applications Molecular Imaging France S.A.S., 92210 Saint-Cloud, France </p>
-<p>Synektik Pharma Sp. z o.o., 96-320 Mszczonów, Poland </p>
-<p>Advanced Accelerator Applications Molecular Imaging Ibérica, S.L.U. 08950, Esplugues de 
+<p>Synektik Pharma Sp. z o.o., 96-320 Mszczon w, Poland </p>
+<p>Advanced Accelerator Applications Molecular Imaging Ib rica, S.L.U. 08950, Esplugues de 
 Llobregat, Spain </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>

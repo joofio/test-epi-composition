@@ -4,7 +4,7 @@ Instance: composition-en-13b9c5485a5dae25afc0e0c660688026
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecovirimat Package Leaflet"
 Description:  "Composition for tecovirimat Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -276,7 +276,7 @@ any possible side effects not listed in this leaflet. </p>
 * Generally feeling unwell (malaise)<br />
 <em> Pain 
 * Feeling thirsty 
-* If you have a scan of your brain’s electrical activity called an electrocephalogram, it may show 
+* If you have a scan of your brain s electrical activity called an electrocephalogram, it may show 
 abnormal readings of electrical activity of the brain. <br />
 </em> If you have a blood test, it may show that you have lower numbers of red blood cells or white 
 blood cells or platelets than usual. 
@@ -296,7 +296,7 @@ of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the bottle after EXP.  The expiry date 
 refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light. </p>
-<p>Store below 25°C. </p>
+<p>Store below 25 C. </p>
 <p>Do not use this medicine if you notice that the capsule is broken or damaged in any way. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
 throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
@@ -321,7 +321,7 @@ Printing ink:  shellac (E904), titanium dioxide (E171), isopropyl alcohol, ammon
 </ul>
 <p>What Tecovirimat SIGA looks like and contents of the pack </p>
 <ul>
-<li>Tecovirimat SIGA are orange and black capsules, each printed with ‘SIGA®’ and ‘ST-246’ in 
+<li>Tecovirimat SIGA are orange and black capsules, each printed with  SIGA  and  ST-246  in 
 white ink. The capsules are 21.7 millimeters long and 7.64 millimeters in diameter. </li>
 <li>Tecovirimat SIGA is available in a pack containing 84 (2 bottles of 42) capsules. </li>
 </ul>
@@ -337,7 +337,7 @@ Stamullen
 Co. Meath 
 K32 YDIreland </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’.  This means that for ethical 
+<p>This medicine has been authorised under  exceptional circumstances .  This means that for ethical 
 reasons it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

@@ -4,7 +4,7 @@ Instance: composition-en-7a35b3e3ae23ba7c3c63288dcbee5ac6
 InstanceOf: CompositionUvEpi
 Title: "Composition for leqvio Package Leaflet"
 Description:  "Composition for leqvio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What leqvio is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Leqvio is and how it works 
-Leqvio contains the active substance inclisiran. Inclisiran lowers levels of LDL-cholesterol (“bad” 
+Leqvio contains the active substance inclisiran. Inclisiran lowers levels of LDL-cholesterol ( bad<br />
 cholesterol), which can cause heart and blood circulation problems when levels are raised. </p>
 <p>Inclisiran works by interfering with RNA (genetic material in body cells) to limit the production of a 
 protein called PCSK9. This protein can increase LDL-cholesterol levels and preventing its production 
@@ -79,12 +79,14 @@ helps to lower your LDL-cholesterol levels. </p>
 Leqvio is used in addition to your cholesterol-lowering diet if you are an adult with a high cholesterol 
 level in your blood (primary hypercholesterolaemia, including heterozygous familial and non-familial, 
 or mixed dyslipidaemia). </p>
-<p>Leqvio is given: 
-- together with a statin (a type of medicine that treats high cholesterol), sometimes combined with 
+<p>Leqvio is given:</p>
+<ul>
+<li>together with a statin (a type of medicine that treats high cholesterol), sometimes combined with 
 another cholesterol-lowering treatment if the maximum dose of the statin does not work well 
-enough, or 
-- alone or together with other cholesterol-lowering medicines when statins do not work well or 
-cannot be used. </p>         </div>"""   
+enough, or </li>
+<li>alone or together with other cholesterol-lowering medicines when statins do not work well or 
+cannot be used. </li>
+</ul>         </div>"""   
           
 
              
@@ -97,10 +99,12 @@ cannot be used. </p>         </div>"""
 - if you are allergic to inclisiran or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before you are given Leqvio: 
-- if you are receiving dialysis 
-- if you have severe liver disease 
-- if you have severe kidney disease </p>
+Talk to your doctor, pharmacist or nurse before you are given Leqvio:</p>
+<ul>
+<li>if you are receiving dialysis </li>
+<li>if you have severe liver disease </li>
+<li>if you have severe kidney disease </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children and adolescents under 18 years of age, because there is no 
 experience of using the medicine in this age group. </p>
@@ -119,7 +123,7 @@ for your baby. </p>
 Leqvio is not expected to affect your ability to drive or use machines. </p>
 <p>Leqvio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take leqvio"
@@ -181,8 +185,8 @@ environment. </p>         </div>"""
 * The active substance is inclisiran. Each pre-filled syringe contains inclisiran sodium equivalent 
 to 284 mg inclisiran in 1.5 ml solution. Each ml contains inclisiran sodium equivalent to 189 mg 
 inclisiran. 
-* The other ingredients are water for injections, sodium hydroxide (see section 2 “Leqvio contains 
-sodium”) and concentrated phosphoric acid. </p>
+* The other ingredients are water for injections, sodium hydroxide (see section 2  Leqvio contains 
+sodium ) and concentrated phosphoric acid. </p>
 <p>What Leqvio looks like and contents of the pack 
 Leqvio is a clear, colourless to pale yellow solution, essentially free of particulates. </p>
 <p>Each pack contains one single-use pre-filled syringe. </p>
@@ -204,23 +208,22 @@ Roonstrasse 90429 Nuremberg
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -236,35 +239,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -272,10 +275,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

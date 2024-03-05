@@ -4,7 +4,7 @@ Instance: composition-en-80012b09e7b7a78ced217a2ccd81660e
 InstanceOf: CompositionUvEpi
 Title: "Composition for elrexfio Package Leaflet"
 Description:  "Composition for elrexfio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -97,12 +97,12 @@ Tell your doctor or nurse about all of your medical conditions before you are gi
 including if you have had any recent infections. </p>
 <p>Look out for serious side effects. 
 Tell your doctor or nurse right away if you experience any of the following: 
-* Signs of a condition known as ‘cytokine release syndrome’ (CRS). CRS is a serious immune 
+* Signs of a condition known as  cytokine release syndrome  (CRS). CRS is a serious immune 
 reaction with symptoms such as fever, difficulty breathing, chills, headache, low blood 
 pressure, fast heartbeat, feeling dizzy, and increased levels of liver enzymes in the blood. 
 * Effects on your nervous system. Symptoms include feeling confused, feeling less alert, or 
 having difficulty speaking or writing. Some of these may be signs of a serious immune 
-reaction called ‘immune effector cell-associated neurotoxicity syndrome’ (ICANS). 
+reaction called  immune effector cell-associated neurotoxicity syndrome  (ICANS). 
 * Signs and symptoms of an infection such as fever, chills, fatigue, or difficulty breathing. </p>
 <p>Tell your doctor or nurse if you notice any signs of the above. </p>
 <p>ELREXFIO and vaccines 
@@ -146,7 +146,7 @@ or operate machines until at least 48 hours after each of your 2 step-up doses, 
 improve, or as instructed by your healthcare professional. </p>
 <p>ELREXFIO contains sodium 
 ELREXFIO contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free.’ </p>         </div>"""   
+ sodium-free.  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elrexfio"
@@ -204,15 +204,12 @@ severe and can be fatal. </p>
 breathing, chills, dizziness or light-headedness, fast heartbeat, increased liver enzymes in your 
 blood; 
 * Low levels of neutrophils (a type of white blood cell that fights infection; neutropenia); 
-* Low levels of antibodies called ‘immunoglobulins’ in the blood (hypogammaglobulinaemia), 
+* Low levels of antibodies called  immunoglobulins  in the blood (hypogammaglobulinaemia), 
 which may make infections more likely; 
 * Infection, which may include fever, chills, fatigue, or shortness of breath. </p>
 <p>Common (may affect up to 1 in 10 people): 
 * Immune effector cell-associated neurotoxicity syndrome (ICANS), a serious immune reaction 
-that may cause effects on your nervous system. Some of the symptoms are: 
-o Feeling confused 
-o Feeling less alert 
-o Having difficulty speaking or writing </p>
+that may cause effects on your nervous system. Some of the symptoms are: * Feeling confused * Feeling less alert * Having difficulty speaking or writing </p>
 <p>Tell your doctor right away if you notice any of the above-listed serious side effects. </p>
 <p>Other side effects 
 Other side effects are listed below. Tell your doctor or nurse if you get any of these side effects. </p>
@@ -258,10 +255,10 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ELREXFIO will be stored at the hospital or clinic by your doctor. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C to 8 °C). Do not freeze. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C to 8  C). Do not freeze. </p>
 <p>Store in the original carton in order to protect from light. </p>
-<p>The prepared syringe may be stored for 24 hours at up to 30 °C. </p>
+<p>The prepared syringe may be stored for 24 hours at up to 30  C. </p>
 <p>Do not use this medicine if you notice discolouration or other visible signs of deterioration. </p>         </div>"""      
         
         
@@ -271,11 +268,9 @@ medicine. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ELREXFIO contains<br />
-* The active substance is elranatamab. ELREXFIO comes in two different package sizes: 
-o One 1.1 mL vial contains 44 mg of elranatamab (40 mg/mL). 
-o One 1.9 mL vial contains 76 mg of elranatamab (40 mg/mL). 
+* The active substance is elranatamab. ELREXFIO comes in two different package sizes: * One 1.1 mL vial contains 44 mg of elranatamab (40 mg/mL). * One 1.9 mL vial contains 76 mg of elranatamab (40 mg/mL). 
 The other ingredients are edetate disodium, L-histidine, L-histidine hydrochloride monohydrate, 
-polysorbate 80, sucrose, water for injections (see “ELREXFIO contains sodium” in section 2). </p>
+polysorbate 80, sucrose, water for injections (see  ELREXFIO contains sodium  in section 2). </p>
 <p>What ELREXFIO looks like and contents of the pack 
 ELREXFIO 40 mg/mL solution for injection (injection) is a colourless to pale brown liquid. 
 ELREXFIO is supplied in two strengths. Each carton pack contains 1 glass vial. </p>
@@ -289,18 +284,18 @@ Hoge Wei B-1930, Zaventem
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
+T l/Tel: +32 (0)2 554 62<br />
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 52 51 4България 
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: +359 2 970 4 
-Magyarország 
+Tel: +370 52 51 4<br />
+     ,   <br />
+ .: +359 2 970 4 
+Magyarorsz g 
 Pfizer Kft. 
-Tel: +36-1-488-37-Česká republika 
+Tel: +36-1-488-37- esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004<br />
 Malta 
@@ -318,41 +313,40 @@ Pfizer AS
 Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer Ελλάς A.E. 
-Τηλ: +30 210 6785<br />
+<p>Pfizer   A.E. 
+ : +30 210 6785<br />
 Polska 
 Pfizer Polska Sp. z o.o. 
-Tel: +48 22 335 61 España 
+Tel: +48 22 335 61 Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer 
-Tél: +33 (0)1 58 07 34<br />
-România 
+T l: +33 (0)1 58 07 34<br />
+Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908<br />
 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616 
-Tel: +421 2 3355 5Ísland 
+Tel: +421 2 3355 5 sland 
 Icepharma hf. 
-Sími: +354 540 8 
+S mi: +354 540 8 
 Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430 Italia 
@@ -360,16 +354,16 @@ Pfizer S.r.l.
 Tel: +39 06 33 18<br />
 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550-520 Κύπρος 
-Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
-Τηλ: +357 22 817 
+Tel: +46 (0)8 550-520 <br />
+Pfizer    . . (Cyprus Branch) 
+ : +357 22 817 
 United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0) 1304 616Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35  </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

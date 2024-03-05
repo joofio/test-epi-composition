@@ -4,7 +4,7 @@ Instance: composition-en-667ae27b448d5f86024bc171810fbd9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for optison Package Leaflet"
 Description:  "Composition for optison Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -122,7 +122,7 @@ highly unlikely that it will have any harmful effects in pregnancy.  </p>
 OPTISON is administered to nursing women.  </p>
 <p>Driving and using machines 
 No effects are known. </p>
-<p>OPTISON contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially “sodium-free”. </p>         </div>"""   
+<p>OPTISON contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take optison"
@@ -155,24 +155,24 @@ has been associated with transient (non lasting) altered taste, nausea, flushing
 chills and fever. Rare severe allergic reactions (anaphylaxis) have been associated with the administration 
 of human albumin products. Reported side effects following the use of OPTISON:  </p>
 <p>Common side effects (affects 1 to 10 users in 100): 
-• Dysgeusia (altered taste) 
-• Headache 
-• Flushing (redness) 
-• Warm sensation 
-• Feeling sick (nausea) </p>
+  Dysgeusia (altered taste) 
+  Headache 
+  Flushing (redness) 
+  Warm sensation 
+  Feeling sick (nausea) </p>
 <p>Uncommon side effects (affects 1 to 10 users in 1,000): 
-• Eosinophilia (increased number of a type of white blood cells in the blood) 
-• Dyspnoea (difficulty in breathing) 
-• Chest pain </p>
+  Eosinophilia (increased number of a type of white blood cells in the blood) 
+  Dyspnoea (difficulty in breathing) 
+  Chest pain </p>
 <p>Rare side effects (affects 1 to 10 users in 10,000): 
-• Tinnitus (noises in the ear) 
-• Dizziness 
-• Paraesthesia (tingling sensations) 
-• Ventricular tachycardia (a series of rapid heartbeats) </p>
+  Tinnitus (noises in the ear) 
+  Dizziness 
+  Paraesthesia (tingling sensations) 
+  Ventricular tachycardia (a series of rapid heartbeats) </p>
 <p>Unknown frequency (side effects where frequency cannot be estimated from the available data): 
-• Allergic type symptoms, for example, a severe allergic reaction or – shock (anaphylaxis), 
+  Allergic type symptoms, for example, a severe allergic reaction or   shock (anaphylaxis), 
 swelling of the face (face oedema), an itchy skin eruption (urticaria). 
-• Visual disturbances </p>
+  Visual disturbances </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system. By reporting side 
@@ -186,8 +186,8 @@ effects, you can help provide more information on the safety of this medicine. <
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use OPTISON after the expiry date which is stated on the label, after EXP.<br />
 The expiry date refers to the last day of that month. </p>
-<p>Store upright in a refrigerator (2°C - 8°C). 
-Storage at room temperature (up to 25°C) for 1 day is acceptable. 
+<p>Store upright in a refrigerator (2 C - 8 C). 
+Storage at room temperature (up to 25 C) for 1 day is acceptable. 
 Do not freeze. </p>
 <p>The contents of the OPTISON vial should be used within 30 minutes after the rubber stopper has been 
 penetrated.  </p>

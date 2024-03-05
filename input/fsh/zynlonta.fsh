@@ -4,7 +4,7 @@ Instance: composition-en-4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zynlonta Package Leaflet"
 Description:  "Composition for zynlonta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,33 +95,35 @@ and kills them. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Zynlonta if you are allergic to loncastuximab tesirine or any of the other 
 ingredients of this medicine (listed in section 6). </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor or nurse before you are given Zynlonta if you: 
-- have an active infection or have had one recently 
-- have liver problems; symptoms may include skin and eyes appearing yellowish (jaundice). 
-Your doctor will monitor you for side effects during treatment. 
-- are pregnant or plan to become pregnant. Zynlonta can harm your unborn baby 
-(see section “Pregnancy and breast-feeding and fertility” for further information). </p>
+<p>Talk to your doctor or nurse before you are given Zynlonta if you:</p>
+<ul>
+<li>have an active infection or have had one recently </li>
+<li>have liver problems; symptoms may include skin and eyes appearing yellowish (jaundice). 
+Your doctor will monitor you for side effects during treatment. </li>
+<li>are pregnant or plan to become pregnant. Zynlonta can harm your unborn baby 
+(see section  Pregnancy and breast-feeding and fertility  for further information). </li>
+</ul>
 <p>Tell your doctor or nurse straight away if you have any of the following serious side effects. </p>
 <p>Infections 
 Serious infections, including infections that can cause death, have occurred in people treated with 
 Zynlonta. Tell your doctor or nurse straight away if you have new or worsening signs or symptoms 
-of infection, which are listed in section 4, under ‘Serious side effects’. </p>
+of infection, which are listed in section 4, under  Serious side effects . </p>
 <p>Fluid retention 
 Your body may hold too much fluid during treatment with Zynlonta. This can be serious. Tell your 
 doctor or nurse straight away if you have any signs or symptoms of fluid retention, which are listed 
-in section 4, under ‘Serious side effects’. Your doctor will give appropriate treatment for the fluid 
+in section 4, under  Serious side effects . Your doctor will give appropriate treatment for the fluid 
 retention. If you have serious swelling your doctor may stop treatment until the swelling goes down. </p>
 <p>Low blood cell counts (platelets, red blood cells, and white blood cells) 
 Low levels of certain blood cells (low blood cell counts) can be serious or severe. Your doctor or 
 nurse will monitor your blood cell counts during treatment with Zynlonta. Tell your doctor or nurse 
 straight away if you have any signs and symptoms of infection, which are listed in section 4, under 
-‘Serious side effects’. Low blood cell counts could be responsible for your infection. </p>
+ Serious side effects . Low blood cell counts could be responsible for your infection. </p>
 <p>Skin reactions 
 Serious skin reactions have occurred in people treated with Zynlonta. Exposure to sunlight (including 
 through glass or car windows) may cause severe sunburn. It is important to wear sunscreen and 
 appropriate clothing to ensure you do not burn. Tell your doctor or nurse straight away if you get 
-new or worsening severe skin reactions. Signs and symptoms are listed in section 4, under ‘Possible 
-side effects’. </p>
+new or worsening severe skin reactions. Signs and symptoms are listed in section 4, under  Possible 
+side effects . </p>
 <p>Children and adolescents 
 This medicine should not be given to children or young people under the age of 18. This is because 
 there is no information about its use in this age group. </p>
@@ -161,30 +163,13 @@ a vein as a drip (infusion) over a period of 30 minutes. </p>
 kg of body weight. </p>
 <p>The table below shows the recommended dose in each treatment cycle. </p>
 <p>Recommended dose 
-Cycle </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1st cycle </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store zynlonta"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zynlonta"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>2nd cycle </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>3rd cycle onwards </p>
+Cycle 
+0.15 mg per kg every 21 days 
+1st cycle 
+0.15 mg per kg every 21 days<br />
+2nd cycle 
+0.075 mg per kg every 21 days 
+3rd cycle onwards </p>
 <p>Your doctor may lower your dose if you experience any serious side effects. </p>
 <p>Taking dexamethasone with Zynlonta 
 During your treatment with Zynlonta you will also be given another medicine called dexamethasone to 
@@ -214,5 +199,140 @@ You should not stop the therapy early without talking with your doctor first. </
 infusions that you receive will depend on how you are responding to treatment. Therefore, even if you 
 see your symptoms improve, you should continue to take Zynlonta until your doctor decides that your 
 medicine should be stopped. If the treatment is stopped too early, your symptoms may return. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
+following side effects have been reported with this medicine: </p>
+<p>Serious side effects </p>
+<p>Infections 
+Serious infections, including infections that can cause death, have occurred in people treated with 
+Zynlonta. Tell your doctor or nurse straight away if you notice any of the following signs and 
+symptoms: 
+* fever 
+* chills 
+* flu-like symptoms (cough, tiredness or weakness, and body aches) 
+* severe headache 
+* cuts or scrapes that are red, warm, swollen, or painful </p>
+<p>Fluid retention 
+Your body may hold too much fluid during treatment with Zynlonta. This can be serious. You can get 
+swelling in various parts of your body including your hands, feet (very common) and abdomen 
+(common), or around internal organs such as your heart (common) and lungs (very common). 
+Tell your doctor or nurse straight away if you notice any of the following signs and symptoms: 
+* have chest pain (common) 
+* difficulty breathing (very common) 
+* swelling in any part of your body (very common) </p>
+<p>Low blood cell counts<br />
+Low blood cell counts (very common) can be serious or severe. Your doctor or nurse will monitor 
+your blood counts during treatment with Zynlonta. Tell your doctor or nurse straight away if you 
+notice any bruising or bleeding, or any of the signs and symptoms of infections above. </p>
+<p>Skin reactions 
+Skin reactions (common) have occurred in people treated with Zynlonta. Some of these can be serious. 
+Tell your doctor or nurse straight away if you get new or worsening severe skin reactions, 
+including:</p>
+<ul>
+<li>sensitivity to sunlight including sunburn-like reactions such as skin peeling and irritation 
+following exposure to light </li>
+<li>itchy rash </li>
+<li>blistering of skin </li>
+<li>darker skin patches </li>
+<li>irritation, swelling, pain, and/or skin damage at the injection site. </li>
+</ul>
+<p>Other side effects 
+Tell your doctor or nurse if you notice any of the following side effects: </p>
+<p>Very common: may affect more than 1 in 10 people 
+- tiredness and pale skin 
+- abnormal blood tests showing: * 
+low levels of neutrophils, a type of white blood cell that fight infection, sometimes with 
+fever * 
+low blood platelet count which can lead to bleeding and bruising * 
+liver problems 
+- loss of appetite 
+- feeling sick or vomiting 
+- diarrhoea 
+- stomach pain 
+- constipation 
+- reddening of the skin 
+- rash 
+- itching. </p>
+<p>Common: may affect up to 1 in 10 people 
+- infection of the lungs including bronchitis or pneumonia 
+- nose and throat infection 
+- rash characterised by a flat, red area on the skin that is covered with small, raised bumps 
+- muscle pain 
+- joint pain 
+- back and neck pain 
+- pain in the arms and legs 
+- lack of energy. </p>
+<p>Uncommon: may affect less than 1 in 10 people 
+- pus filled raised bumps on the skin 
+- limb discomfort 
+- muscle and bone discomfort 
+- inflammation of the membrane around the heart. </p>
+<p>Not known: frequency cannot be estimated from the available data 
+- spider veins (broken blood vessels located near surface of skin) 
+- blisters<br />
+- rash consisting of tiny-to-small fluid-filled blisters </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta will be stored by the doctor and pharmacist at the hospital or clinic where you are treated. 
+Your doctor, pharmacist or nurse is responsible for storing this medicine and disposing of any unused 
+product correctly. The following information is intended for healthcare professionals. </p>
+<p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the vial after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
+<p>Keep the vial in the outer carton in order to protect from light. 
+Both the reconstituted solution and the diluted solution for infusion should not be frozen or exposed to 
+direct sunlight. </p>
+<p>Zynlonta is a cytotoxic medicine. Applicable special handling and disposal procedures must be 
+followed.  </p>
+<p>Your doctor or pharmacist is responsible for disposing of any unused Zynlonta correctly. These 
+measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zynlonta contains 
+* The active substance is loncastuximab tesirine. Each vial contains 10 mg of loncastuximab 
+tesirine. After reconstitution, each mL contains 5 mg of loncastuximab tesirine. 
+* The other ingredients are: L-histidine, L-histidine monohydrochloride, polysorbate 20, 
+sucrose. </p>
+<p>What Zynlonta looks like and contents of the pack 
+This medicine is a white to off-white powder, which has a cake-like appearance. It comes in a glass 
+vial and is for single use only. The powder needs to be reconstituted and diluted before infusion. </p>
+<p>Each pack contains 1 vial. </p>
+<p>Marketing Authorisation Holder 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Sweden </p>
+<p>Manufacturer 
+Swedish Orphan Biovitrum AB (publ)<br />
+Strandbergsgatan 49<br />
+SE-112 51 Stockholm<br />
+Sweden  </p>
+<p>This leaflet was last revised in </p>
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine. 
+The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

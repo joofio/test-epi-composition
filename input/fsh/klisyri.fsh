@@ -4,7 +4,7 @@ Instance: composition-en-9a837e87c0c475b218e0535edae8bbad
 InstanceOf: CompositionUvEpi
 Title: "Composition for klisyri Package Leaflet"
 Description:  "Composition for klisyri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -138,7 +138,25 @@ and other treatment options should be considered. </p>
 <p>Apply a thin layer of Klisyri to the affected area on the face or scalp once daily for 5 days in a row. 
 One sachet contains enough ointment to cover the treatment area. Do not save the opened sachet for 
 use on another day, even if there is still ointment left. </p>
-<p>Application instructions: </p>         </div>"""         
+<p>Application instructions: 
+1. Wash your hands with soap and water before applying the ointment. 
+2. Wash the affected area with mild soap and water and dry it gently.<br />
+3. Open a new sachet each time you apply this medicine.<br />
+4. Open the sachet along the perforations (Figure 1). 
+5. Squeeze some ointment onto your fingertip (Figure 2).<br />
+6. Apply a thin layer of ointment evenly over the entire affected area (Figure 3).<br />
+7. Wash your hands with soap and water immediately after applying the ointment (Figure 4). 
+8. Do not wash or touch the treated area for about 8 hours. After this time, you may wash the 
+treated area with mild soap and water. 
+9. Do not cover the treated area with bandages after you have applied Klisyri. 
+10. Repeat the above steps for each day of treatment at around the same time of the day. </p>
+<p>If you use more Klisyri than you should 
+Wash the treated area with mild soap and water. Please contact your doctor or pharmacist if you get 
+severe skin reactions. </p>
+<p>If you forget to use Klisyri<br />
+If you miss a dose, apply the ointment as soon as you remember and then continue with your regular 
+schedule. Do not apply the ointment more than once a day.  </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -146,18 +164,40 @@ use on another day, even if there is still ointment left. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Wash the affected area with mild soap and water and dry it gently.  </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>After using this medicine, you may get side effects on the skin where you apply the ointment. These 
+side effects may get worse for up to 8 days after you start the treatment, and they typically go away 
+within 2 to 3 weeks after completing the treatment. Contact your doctor if these side effects get severe. </p>
+<p>The most frequently occurring side effects in the treated area: </p>
+<p>Very common (may affect more than 1 in 10 people) 
+* redness (erythema)<br />
+* skin scaling (flaking) 
+* scabs (crusting) 
+* swelling 
+* loss of the top layer of skin (erosion, ulcer) </p>
+<p>Other possible side effects in the treated area: </p>
+<p>Common (may affect up to 1 in 10 people) 
+* pain (tender, stinging, or burning feeling)<br />
+* itching (pruritus) 
+* blisters (vesicles, pustules)  </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
+of this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store klisyri"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store klisyri"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Open the sachet along the perforations (Figure 1). </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not refrigerate or freeze. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and the label after 
+EXP. The expiry date refers to the last day of that month. </p>
+<p>For single use only. Do not re-use the sachets once opened.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -165,7 +205,8 @@ use on another day, even if there is still ointment left. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Apply a thin layer of ointment evenly over the entire affected area (Figure 3).  </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Klisyri contains<br />
+- The active substance is tirbanibulin. Each sachet contains 2.5 mg of tirbanibulin in 250 mg 
+ointment. Each gram of ointment contains 10 mg of tirbanibulin. 
+- The other ingredients are propylene glycol and glycerol monostearate 40-5</p>         </div>"""      
 

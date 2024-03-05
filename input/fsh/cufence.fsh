@@ -4,7 +4,7 @@ Instance: composition-en-a8827a69a4f2a8d5bccee719c4738936
 InstanceOf: CompositionUvEpi
 Title: "Composition for cufence Package Leaflet"
 Description:  "Composition for cufence Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What cufence is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cufence is a medicine used for the treatment of Wilson’s disease in adults, adolescents and children 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cufence is a medicine used for the treatment of Wilson s disease in adults, adolescents and children 
 aged 5 years or older. It is for use by patients who cannot take another medicine, D-Penicillamine, 
 because of side effects. </p>
 <p>Cufence contains the active substance trientine, a copper-chelating agent that is used to remove excess 
@@ -102,11 +102,11 @@ treatment. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>If you are taking iron tablets or medicines that neutralise the acid in your stomach, leave at least 
-2 hours before or after you have taken Cufence because they may reduce Cufence’s effect. 
+2 hours before or after you have taken Cufence because they may reduce Cufence s effect. 
 It is recommended that trientine is taken at least one hour apart from any other medicinal product. </p>
 <p>Cufence with food and drink </p>
 <p>Take this medicine with water only. Do not take it with other drinks, milk or food because they may 
-reduce the medicine’s effect. Avoid eating or drinking (except water) for 2 hours before and 1 hour 
+reduce the medicine s effect. Avoid eating or drinking (except water) for 2 hours before and 1 hour 
 after taking Cufence. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -149,7 +149,7 @@ contact your doctor or another health care provider immediately. </p>
 <p>If you forget to take a dose take your next dose at its usual scheduled time. 
 Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Cufence </p>
-<p>This medicine is for long-term use because Wilson’s disease is a life-long condition. Do not stop or 
+<p>This medicine is for long-term use because Wilson s disease is a life-long condition. Do not stop or 
 change your treatment without speaking with your doctor even if you feel better. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist </p>         </div>"""         
 
@@ -162,11 +162,13 @@ change your treatment without speaking with your doctor even if you feel better.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Occasionally (frequency unknown; cannot be estimated from available data), treatment with this 
 medicine can cause inflammation of the small intestine or colon.  If you have any of the following side 
-effects contact your doctor immediately: 
-- Severe stomach pains 
-- Persistent diarrhoea 
-- Nervous system problems (for example shaking, lack of coordination, slurred speech, muscle 
-stiffness, worsening of muscle spasms).  </p>
+effects contact your doctor immediately:</p>
+<ul>
+<li>Severe stomach pains </li>
+<li>Persistent diarrhoea </li>
+<li>Nervous system problems (for example shaking, lack of coordination, slurred speech, muscle 
+stiffness, worsening of muscle spasms).  </li>
+</ul>
 <p>Other side effects may include: 
 Common (may affect up to 1 in 10 people) 
 - Nausea (especially when starting treatment) </p>
@@ -212,5 +214,24 @@ oxide yellow (E172) </p>
 <p>What Cufence looks like and contents of the pack  </p>
 <p>Cufence 100 mg hard capsules 
 White opaque HDPE bottle with an HDPE child-resistant screw cap and induction heat seal liner with 
-a sachet of dried silica gel as desiccant. Each hard capsule is white oval-shaped size 3 (15.8 mm x </p>         </div>"""      
+a sachet of dried silica gel as desiccant. Each hard capsule is white oval-shaped size 3 (15.8 mm x 
+5.85 mm) with  Cufence 100  printed in grey ink. </p>
+<p>Pack size: one bottle of 200 hard capsules. </p>
+<p>Cufence 200 mg hard capsules 
+Amber glass bottle with a polypropylene cap and induction heat seal liner with a sachet of dried silica 
+gel as desiccant. Each hard capsule is white oval-shaped size 0 (21.8 mm x 7.66 mm) with  Cufence<br />
+printed in grey ink. </p>
+<p>Pack size: one bottle of 100 hard capsules.  </p>
+<p>Not all pack-sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Univar Solutions BV 
+Schouwburgplein 3012 CL Rotterdam 
+The Netherlands </p>
+<p>Manufacturer 
+Aesica Pharmaceuticals GmbH 
+Alfred-Nobel Strasse 40789 Monheim 
+Germany  </p>
+<p>This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

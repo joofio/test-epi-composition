@@ -4,7 +4,7 @@ Instance: composition-en-bc6bd17eea2126db1c55fc41b685a9e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for sonovue Package Leaflet"
 Description:  "Composition for sonovue Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,7 +83,7 @@ vessels and/or tissues of the liver and breast.   </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take sonovue"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use SonoVue: </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use SonoVue:</p>
 <ul>
 <li>If you are allergic to sulphur hexafluoride or any of the other ingredients of this medicine (listed 
 in section 6). </li>
@@ -96,20 +96,24 @@ widespread inflammation in the lungs). </li>
 severe heart disease. </li>
 </ul>
 <p>Warnings and precautions </p>
-<p>Please tell your doctor if in the past 2 days you have: 
-- had frequent and/or repeated angina or chest pain, especially if you have history of heart 
-disease,<br />
-- had recent electrocardiography changes. </p>
-<p>Talk to your doctor before you are given SonoVue if: 
-- you had a recent myocardial infarction or a recent surgery on your coronary arteries, 
-- you suffer from angina or chest pain or severe cardiac disease, 
-- you suffer from severe heart rhythm disorders, 
-- your cardiac disease has worsened recently, 
-- you have an acute inflammation of the cardiac envelope (endocarditis), 
-- you have artificial heart valves, 
-- you have an acute general inflammation or infection, 
-- you have known blood clotting problem,<br />
-- you have severe kidney or liver diseases, </p>
+<p>Please tell your doctor if in the past 2 days you have:</p>
+<ul>
+<li>had frequent and/or repeated angina or chest pain, especially if you have history of heart 
+disease,  </li>
+<li>had recent electrocardiography changes. </li>
+</ul>
+<p>Talk to your doctor before you are given SonoVue if:</p>
+<ul>
+<li>you had a recent myocardial infarction or a recent surgery on your coronary arteries, </li>
+<li>you suffer from angina or chest pain or severe cardiac disease, </li>
+<li>you suffer from severe heart rhythm disorders, </li>
+<li>your cardiac disease has worsened recently, </li>
+<li>you have an acute inflammation of the cardiac envelope (endocarditis), </li>
+<li>you have artificial heart valves, </li>
+<li>you have an acute general inflammation or infection, </li>
+<li>you have known blood clotting problem,  </li>
+<li>you have severe kidney or liver diseases, </li>
+</ul>
 <p>If you are given SonoVue together with a medicine, exercise or a device that stimulates the heart in 
 order to visualise your heart under stress work, your heart activity, your blood pressure and rhythm 
 will be monitored. 
@@ -133,8 +137,8 @@ three hours after your ultrasound examination. </p>
 <p>Driving and using machines </p>
 <p>SonoVue does not affect the ability to drive and use machines.  </p>
 <p>SonoVue contains sodium </p>
-<p>This medicinal product contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicinal product contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sonovue"
@@ -172,37 +176,43 @@ experience serious side effects and may require treatment. </p>
 treatment: swelling of the face, lips, mouth or throat which may make it difficult to swallow or 
 breathe; skin rash; hives; swelling of the hands, feet or ankles. </p>
 <p>The following side effects have been reported with SonoVue: </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people):<br />
-- Headache 
-- Numbness 
-- Dizziness 
-- Strange taste in the mouth<br />
-- Redness 
-- Chest discomfort 
-- Feeling sick (nausea) 
-- Abdominal pain 
-- skin rash 
-- Feeling hot 
-- Local reactions where the injection was given such as: pain or an unusual sensation at the 
-injection site </p>
-<p>Rare (may affect up 1 in 1,000 people): 
-- Blurred vision 
-- Decrease in blood pressure 
-- Itching 
-- Back pain 
-- Pain in general<br />
-- Chest pain<br />
-- Fatigue 
-- Severe and less severe allergic reaction (including redness of the skin, decrease in heart rate, 
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Headache </li>
+<li>Numbness </li>
+<li>Dizziness </li>
+<li>Strange taste in the mouth  </li>
+<li>Redness </li>
+<li>Chest discomfort </li>
+<li>Feeling sick (nausea) </li>
+<li>Abdominal pain </li>
+<li>skin rash </li>
+<li>Feeling hot </li>
+<li>Local reactions where the injection was given such as: pain or an unusual sensation at the 
+injection site </li>
+</ul>
+<p>Rare (may affect up 1 in 1,000 people):</p>
+<ul>
+<li>Blurred vision </li>
+<li>Decrease in blood pressure </li>
+<li>Itching </li>
+<li>Back pain </li>
+<li>Pain in general  </li>
+<li>Chest pain  </li>
+<li>Fatigue </li>
+<li>Severe and less severe allergic reaction (including redness of the skin, decrease in heart rate, 
 decrease in blood pressure, breathlessness, loss of consciousness, cardiac/cardio-respiratory 
-arrest or more severe reaction with difficulties in breathing and dizziness) </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- Chest pain, radiating to the neck or the left arm, which can be a sign of a potentially serious 
-allergic reaction called Kounis syndrome 
-- Faintness 
-- In some of the cases of allergic reactions, in patients with cardiac blood vessel disease, lack of 
-oxygen supply of the heart or cardiac arrest were reported<br />
-- Vomiting </p>
+arrest or more severe reaction with difficulties in breathing and dizziness) </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Chest pain, radiating to the neck or the left arm, which can be a sign of a potentially serious 
+allergic reaction called Kounis syndrome </li>
+<li>Faintness </li>
+<li>In some of the cases of allergic reactions, in patients with cardiac blood vessel disease, lack of 
+oxygen supply of the heart or cardiac arrest were reported  </li>
+<li>Vomiting </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 

@@ -4,7 +4,7 @@ Instance: composition-en-662d78825e427448ea8547cad3dd9ef3
 InstanceOf: CompositionUvEpi
 Title: "Composition for aripiprazole Package Leaflet"
 Description:  "Composition for aripiprazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ characterised by symptoms such as hearing, seeing or sensing things which are no
 suspiciousness, mistaken beliefs, incoherent speech and behaviour and emotional flatness. People with 
 this condition may also feel depressed, guilty, anxious or tense. </p>
 <p>Aripiprazole Zentiva is used to treat adults and adolescents aged 13 years and older who suffer from 
-a condition with symptoms such as feeling “high”, having excessive amounts of energy, needing much 
+a condition with symptoms such as feeling  high , having excessive amounts of energy, needing much 
 less sleep than usual, talking very quickly with racing ideas and sometimes severe irritability. In adults 
 it also prevents this condition from returning in patients who have responded to the treatment with 
 Aripiprazole Zentiva. </p>         </div>"""   
@@ -101,7 +101,7 @@ of urine, increase in appetite and feeling weak) or family history of diabetes
 * fits (seizures) since your doctor may want to monitor you more closely 
 * involuntary, irregular muscle movements, especially in the face 
 * cardiovascular diseases (diseases of the heart and circulation), family history of cardiovascular 
-disease, stroke or “mini” stroke, abnormal blood pressure 
+disease, stroke or  mini  stroke, abnormal blood pressure 
 * blood clots, or family history of blood clots, as antipsychotics have been associated with 
 formation of blood clots 
 * past experience with excessive gambling. </p>
@@ -109,7 +109,7 @@ formation of blood clots
 interferes with normal daily activities, any difficulty in swallowing or allergic symptoms, please tell 
 your doctor. </p>
 <p>If you are an elderly patient suffering from dementia (loss of memory and other mental abilities), 
-you or your carer/relative should tell your doctor if you have ever had a stroke or “mini” stroke. </p>
+you or your carer/relative should tell your doctor if you have ever had a stroke or  mini  stroke. </p>
 <p>Tell your doctor immediately if you are having any thoughts or feelings about hurting yourself. 
 Suicidal thoughts and behaviours have been reported during aripiprazole treatment. </p>
 <p>Tell your doctor immediately if you suffer from muscle stiffness or inflexibility with high fever, 
@@ -137,7 +137,7 @@ of Aripiprazole Zentiva or the other medicines. It is especially important to me
 to your doctor: 
 * medicines to correct heart rhythm (such as quinidine, amiodarone, flecainide) 
 * antidepressants or herbal remedy used to treat depression and anxiety (such as fluoxetine, 
-paroxetine, venlafaxine, St. Johnʼs Wort) 
+paroxetine, venlafaxine, St. John s Wort) 
 * antifungal medicines (such as ketoconazole, itraconazole) 
 * certain medicines to treat HIV infection (such as efavirenz, nevirapine, an protease inhibitors 
 e.g. indinavir, ritonavir) 
@@ -154,8 +154,8 @@ disorder, obsessive compulsive disorder (OCD) and social phobia as well as migra
 * selective-serotonin-reuptake-inhibitors (SSRIs) (such as paroxetine and fluoxetine) used for 
 depression, OCD, panic and anxiety 
 * other anti-depressants (such as venlafaxine and tryptophan) used in major depression 
-* tricyclic’s (such as clomipramine and amitriptyline) used for depressive illness 
-* St John’s Wort (Hypericum perforatum) used as a herbal remedy for mild depression 
+* tricyclic s (such as clomipramine and amitriptyline) used for depressive illness 
+* St John s Wort (Hypericum perforatum) used as a herbal remedy for mild depression 
 * pain killers (such as tramadol and pethidine) used for pain relief 
 * triptans (such as sumatriptan and zolmitripitan) used for treating migraine </p>
 <p>These medicines may increase the risk of side effects; if you get any unusual symptom taking any 
@@ -182,8 +182,8 @@ machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars contact your doctor 
 before taking this medicine. </p>
 <p>Aripiprazole Zentiva contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aripiprazole"
@@ -328,18 +328,20 @@ seen in blood tests and an increase in a type of white blood cell (eosinophilia)
 * swelling of hands, ankles or feet, 
 * in blood tests: increased or fluctuating blood sugar, increased glycosylated haemoglobin, 
 * inability to resist the impulse, drive or temptation to perform an action that could be harmful 
-to you or others, which may include: 
-- strong impulse to gamble excessively despite serious personal or family consequences 
-- altered or increased sexual interest and behaviour of significant concern to you or to 
-others, for example, an increased sexual drive 
-- uncontrollable excessive shopping 
-- binge eating (eating large amounts of food in a short time period) or compulsive eating 
-(eating more food than normal and more than is needed to satisfy your hunger) 
-- a tendency to wander away. 
+to you or others, which may include:</p>
+<ul>
+<li>strong impulse to gamble excessively despite serious personal or family consequences </li>
+<li>altered or increased sexual interest and behaviour of significant concern to you or to 
+others, for example, an increased sexual drive </li>
+<li>uncontrollable excessive shopping </li>
+<li>binge eating (eating large amounts of food in a short time period) or compulsive eating 
+(eating more food than normal and more than is needed to satisfy your hunger) </li>
+<li>a tendency to wander away. 
 Tell your doctor if you experience any of these behaviours; he/she will discuss ways 
-of managing or reducing the symptoms. </p>
+of managing or reducing the symptoms. </li>
+</ul>
 <p>In elderly patients with dementia, more fatal cases have been reported while taking aripiprazole. 
-In addition, cases of stroke or “mini” stroke have been reported. </p>
+In addition, cases of stroke or  mini  stroke have been reported. </p>
 <p>Additional side effects in children and adolescents 
 Adolescents aged 13 years and older experienced side effects that were similar in frequency and type 
 to those in adults except that sleepiness, uncontrollable twitching or jerking movements, restlessness, 
@@ -377,13 +379,13 @@ aripiprazole.
 - The other ingredients are lactose monohydrate, microcrystalline cellulose, crospovidone, 
 hydroxypropyl cellulose, silica colloidal anhydrous, croscarmellose sodium, magnesium stearate. </p>
 <p>What Aripiprazole Zentiva looks like and contents of the pack 
-Aripiprazole Zentiva 5 mg are white to off-white round flat bevel edged uncoated tablets with ‘5’ 
+Aripiprazole Zentiva 5 mg are white to off-white round flat bevel edged uncoated tablets with  5<br />
 debossed on one side and plain on the other side with diameter approx. 6 mm. </p>
-<p>Aripiprazole Zentiva 10 mg tablets are white to off-white round uncoated tablets with ‘10’ debossed 
+<p>Aripiprazole Zentiva 10 mg tablets are white to off-white round uncoated tablets with  10  debossed 
 on one side and snap tab breakline on the other side with diameter approx. 8 mm. </p>
 <p>Aripiprazole Zentiva 15 mg tablets are white to off-white round flat bevel edged uncoated tablets with 
-‘15’ debossed on one side and plain on the other side with diameter approx. 8.8 mm. </p>
-<p>Aripiprazole Zentiva 30 mg tablets are white to off-white capsule shaped uncoated tablets with ‘30’ 
+ 15  debossed on one side and plain on the other side with diameter approx. 8.8 mm. </p>
+<p>Aripiprazole Zentiva 30 mg tablets are white to off-white capsule shaped uncoated tablets with  30<br />
 debossed on one side and snap tab breakline on the other side with dimensions approx. 15.5 x 8 mm. </p>
 <p>Pack size: 14, 28, 49, 56, or 98 tablets 
 Not all pack sizes may be marketed. </p>
@@ -393,7 +395,7 @@ U Kabelovny 102 37 Prague Czech Republic </p>
 <p>Manufacturer 
 S.C. Zentiva S.A. 
 B-dul Theodor Pallady nr.50, sector 3 
-Bucureşti, cod 032Romania </p>
+Bucure ti, cod 032Romania </p>
 <p>LAMP SAN PROSPERO SPA 
 VIA DELLA PACE 25/A 
 SAN PROSPERO (MO) 
@@ -401,22 +403,21 @@ SAN PROSPERO (MO)
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Zentiva, k.s. 
-Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+T l/Tel: +32 280 86 PV-Belgium@zentiva.com 
 Lietuva 
 Zentiva, k.s. 
-Tel: +370 52152PV-Lithuania@zentiva.com 
-България 
-Zentiva, k.s. 
-Тел: +35924417PV-Bulgaria@zentiva.com 
+Tel: +370 52152PV-Lithuania@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +35924417PV-Bulgaria@zentiva.com 
 Luxembourg/Luxemburg 
 Zentiva, k.s. 
-Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
-Česká republika 
+T l/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+ esk  republika 
 Zentiva, k.s. 
 Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
-Magyarország 
+Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel.: +36 1 299 1PV-Hungary@zentiva.com 
 Danmark 
@@ -436,14 +437,13 @@ Zentiva, k.s.
 Tel: +372 52 70PV-Estonia@zentiva.com 
 Norge 
 Zentiva Denmark ApS 
-Tlf: +47 219 66 PV-Norway@zentiva.com 
-Ελλάδα 
-Zentiva, k.s. 
-Τηλ: +30 211 198 7PV-Greece@zentiva.com 
-Österreich 
+Tlf: +47 219 66 PV-Norway@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +30 211 198 7PV-Greece@zentiva.com 
+ sterreich 
 Zentiva, k.s. 
 Tel: +43 720 778 PV-Austria@zentiva.com 
-España 
+Espa a 
 Zentiva, k.s. 
 Tel: +34 931 815 PV-Spain@zentiva.com 
 Polska 
@@ -451,7 +451,7 @@ Zentiva Polska Sp. z o.o.
 Tel: + 48 22 375 92 PV-Poland@zentiva.com 
 France 
 Zentiva France 
-Tél: +33 (0) 800 089 219<br />
+T l: +33 (0) 800 089 219<br />
 PV-France@zentiva.com 
 Portugal 
 Zentiva Portugal, Lda 
@@ -459,7 +459,7 @@ Tel: +351210601PV-Portugal@zentiva.com
 Hrvatska 
 Zentiva d.o.o. 
 Tel: +385 1 6641 PV-Croatia@zentiva.com 
-România 
+Rom nia 
 ZENTIVA S.A. 
 Tel: +4 021.304.7PV-Romania@zentiva.com 
 Ireland 
@@ -468,10 +468,10 @@ Tel: +353 818 882 PV-Ireland@zentiva.com
 Slovenija 
 Zentiva, k.s. 
 Tel: +386 360 00 PV-Slovenia@zentiva.com 
-Ísland 
+ sland 
 Zentiva Denmark ApS 
-Sími: +354 539 0PV-Iceland@zentiva.com 
-Slovenská republika 
+S mi: +354 539 0PV-Iceland@zentiva.com 
+Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
 Italia 
@@ -479,10 +479,9 @@ Zentiva Italia S.r.l.
 Tel: +39-02-38598PV-Italy@zentiva.com 
 Suomi/Finland 
 Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
-Κύπρος 
-Zentiva, k.s. 
-Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +357 240 30 PV-Cyprus@zentiva.com 
 Sverige 
 Zentiva Denmark ApS 
 Tel: +46 840 838 PV-Sweden@zentiva.com 
@@ -508,5 +507,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+effects not listed in this leaflet. See section </p>         </div>"""      
 

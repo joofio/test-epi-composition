@@ -4,7 +4,7 @@ Instance: composition-en-94c552a1c89feea3465242a8fa5ba0ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for neoclarityn Package Leaflet"
 Description:  "Composition for neoclarityn Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,9 +95,11 @@ sleep. </p>         </div>"""
 - if you are allergic to desloratadine, or any of the other ingredients of this medicine (listed in 
 section 6) or to loratadine. </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before taking Neoclarityn: 
-- if you have poor kidney function. 
-- if you have medical or familial history of seizures. </p>
+Talk to your doctor, pharmacist or nurse before taking Neoclarityn:</p>
+<ul>
+<li>if you have poor kidney function. </li>
+<li>if you have medical or familial history of seizures. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children less than 12 years of age. </p>
 <p>Other medicines and Neoclarityn 
@@ -222,7 +224,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month.  </p>
-<p>Do not store above 30°C. Store in the original package.  </p>
+<p>Do not store above 30 C. Store in the original package.  </p>
 <p>Do not use this medicine if you notice any change in the appearance of the tablets. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
@@ -237,12 +239,12 @@ throw away medicines you no longer use. These measures will help protect the env
 * The active substance is desloratadine 5 mg 
 * The other ingredients of the tablet are calcium hydrogen phosphate dihydrate, microcrystalline 
 cellulose, maize starch, talc. Tablet coating contains film coat (containing lactose monohydrate 
-(see section 2 “Neoclarityn tablet contains lactose”), hypromellose, titanium dioxide, 
+(see section 2  Neoclarityn tablet contains lactose ), hypromellose, titanium dioxide, 
 macrogol 400, indigotin (E132)), clear coat (containing hypromellose, macrogol 400), carnauba 
 wax, white wax. </p>
 <p>What Neoclarityn looks like and contents of the pack 
-Neoclarityn 5 mg film-coated tablet is light blue, round and embossed with elongated letters “S” and 
-“P” on one side and plain on the other. 
+Neoclarityn 5 mg film-coated tablet is light blue, round and embossed with elongated letters  S  and 
+ P  on one side and plain on the other. 
 Neoclarityn 5 mg film-coated tablets are packed in blisters in packs of 1, 2, 3, 5, 7, 10, 14, 15, 20, 21, 
 30, 50 or 100 tablets. 
 Not all pack sizes may be marketed. </p>
@@ -255,24 +257,23 @@ The Netherlands </p>
 <p>Manufacturer: Organon Heist bv, Industriepark 30, 2220 Heist-op-den-Berg, Belgium. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
 <p>Lietuva 
-Organon Pharma B.V. Lithuania atstovybė 
+Organon Pharma B.V. Lithuania atstovyb<br />
 Tel.: +370 52041dpoc.lithuania@organon.com </p>
-<p>България 
-Органон (И.А.) Б.В. - клон България 
-Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com </p>
 <p>Luxembourg/Luxemburg 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Organon Czech Republic s.r.o. 
 Tel.: +420 233 010 dpoc.czech@organon.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Organon Hungary Kft. 
 Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
 <p>Danmark 
@@ -295,13 +296,12 @@ Tel: +372 66 61 dpoc.estonia@organon.com </p>
 <p>Norge 
 Organon Norway AS 
 Tlf: +47 24 14 56 info.norway@organon.com </p>
-<p>Ελλάδα 
-N.V. Organon 
-Τηλ: +30-216 6008 
-Österreich 
+<p>N.V. Organon 
+ : +30-216 6008 
+ sterreich 
 Organon Austria GmbH 
 Tel: +43 (0) 1 263 28 dpoc.austria@organon.com </p>
-<p>España 
+<p>Espa a 
 Organon Salud, S.L. 
 Tel: +34 91 591 12 organon_info@organon.com 
 Polska 
@@ -309,27 +309,27 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-Tél: +33 (0) 1 57 77 32<br />
+T l: +33 (0) 1 57 77 32<br />
 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
 Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
 Organon Pharma d.o.o. 
 Tel: +385 1 638 4dpoc.croatia@organon.com </p>
-<p>România 
+<p>Rom nia 
 Organon Biosciences S.R.L. 
 Tel: +40 21 527 29 dpoc.romania@organon.com </p>
 <p>Ireland 
 Organon Pharma (Ireland) Limited 
 Tel: +353 15828medinfo.ROI@organon.com </p>
 <p>Slovenija 
-Organon Pharma B.V., Oss, podružnica 
+Organon Pharma B.V., Oss, podru nica 
 Ljubljana 
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
 <p>Italia 
@@ -338,20 +338,19 @@ Tel: +39 06 90259dpoc.italy@organon.com </p>
 <p>Suomi/Finland 
 Organon Finland Oy 
 Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
-<p>Κύπρος 
-Organon Pharma B.V., Cyprus branch 
-Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ : +357 22866dpoc.cyprus@organon.com </p>
 <p>Sverige 
 Organon Sweden AB 
 Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
 <p>Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
-pārstāvniecība 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
 Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
 Organon Pharma (UK) Limited 
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt; </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em> </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. </p>
 <p>Package leaflet: Information for the patient  </p>
@@ -364,5 +363,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+side effects not listed in this leaflet. See section </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-152ace144461681a6f02306435b8f1dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for urorec Package Leaflet"
 Description:  "Composition for urorec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -108,8 +108,8 @@ before taking Urorec.<br />
 Dizziness when standing up and occasionally fainting may occur when taking Urorec, 
 particularly when starting treatment or if you are taking other medicines that lower blood 
 pressure. If this occurs, make sure you sit or lie down straight away until the symptoms have 
-disappeared and inform your doctor as soon as possible (see also section “Driving and using 
-machines”).  </p>
+disappeared and inform your doctor as soon as possible (see also section  Driving and using 
+machines ).  </p>
 </li>
 <li>
 <p>If you have severe liver problems, you should not take Urorec, as it was not tested in this 
@@ -118,7 +118,7 @@ condition. </p>
 <li>
 <p>If you have problems with your kidneys, please ask your doctor for advice.<br />
 If you have moderate kidney problems, your doctor will start Urorec with caution and possibly 
-with a lower dose (see section 3 “Dose”).<br />
+with a lower dose (see section 3  Dose ).<br />
 If you have severe kidney problems, you should not take Urorec. </p>
 </li>
 <li>
@@ -134,7 +134,7 @@ after discontinuation of Urorec. Please inform your doctor if you are planning t
 </ul>
 <p>Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>Children and adolescents </p>
 <p>Do not give this medicine to children and adolescents below 18 years since there is no relevant 
 indication for this age group. </p>
@@ -204,13 +204,13 @@ If you do feel weak or dizzy, make sure you sit or lie down straight away until 
 disappeared. If dizziness when standing up or fainting occurs, please inform your doctor as soon as 
 possible. </p>
 <p>Urorec may cause complications during a cataract surgery (eye surgery because of cloudiness of the 
-lens, see section “Warnings and precautions”).<br />
+lens, see section  Warnings and precautions ).<br />
 It is important that you immediately inform your eye specialist if you are using or have previously 
 used Urorec. </p>
 <p>The possible side effects are listed below:  </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
-* Abnormal ejaculation (less or no noticeable semen is released during sex, see section “Warnings 
-and precautions”) </p>
+* Abnormal ejaculation (less or no noticeable semen is released during sex, see section  Warnings 
+and precautions ) </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
 * Dizziness, including dizziness when standing up (see also above, in this section) 
 * Runny or blocked nose 
@@ -247,7 +247,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 °C.<br />
+<p>Do not store above 30  C.<br />
 Store in the original package in order to protect from light and moisture. </p>
 <p>Do not use this medicine if you notice that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -284,27 +284,26 @@ Via Matteo Civitali 1
 20148 Milan 
 Italy </p>
 <p>Laboratoires Bouchara-Recordati 
-Parc Mécatronic 
+Parc M catronic 
 03410 Saint Victor 
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Recordati Ireland Ltd. 
-Tél/Tel: + 353 21 4379 
+T l/Tel: + 353 21 4379 
 Lietuva 
 Recordati Polska sp. z o.o.<br />
-Tel: +48 22 206 84<br />
-България 
-Recordati Bulgaria Ltd. 
-Тел.: + 359 2 829 39<br />
+Tel: +48 22 206 84  </p>
+<p>Recordati Bulgaria Ltd. 
+ .: + 359 2 829 39<br />
 Luxembourg/Luxemburg 
 Recordati Ireland Ltd. 
-Tél/Tel: + 353 21 4379 
-Česká republika 
+T l/Tel: + 353 21 4379 
+ esk  republika 
 Herbacos Recordati s.r.o. 
 Tel: + 420 466 741<br />
-Magyarország 
+Magyarorsz g 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
 Danmark 
@@ -324,14 +323,13 @@ Recordati Polska sp. z o.o.<br />
 Tel: +48 22 206 84<br />
 Norge 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Ελλάδα 
-Recordati Hellas Pharmaceuticals A.E. 
-Τηλ: + 30 210-6773 
-Österreich 
+Tlf: + 353 21 4379 </p>
+<p>Recordati Hellas Pharmaceuticals A.E. 
+ : + 30 210-6773 
+ sterreich 
 Recordati Austria GmbH 
 Tel: + 43 676 353 0<br />
-España 
+Espa a 
 Casen Recordati, S.L. 
 Tel: + 34 91 659 15<br />
 Polska 
@@ -339,15 +337,15 @@ Recordati Polska sp. z o.o.
 Tel: + 48 22 206 84<br />
 France 
 Laboratoires Bouchara-Recordati 
-Tél: + 33 1 45 19 10<br />
+T l: + 33 1 45 19 10<br />
 Portugal 
 Jaba Recordati, S.A. 
 Tel: + 351 21 432 95<br />
 Hrvatska 
 PharmaSwiss d.o.o. 
 Tel: +385 1 63 11<br />
-România 
-Recordati România S.R.L. 
+Rom nia 
+Recordati Rom nia S.R.L. 
 Tel: + 40 21 667 17<br />
 Ireland 
 Recordati Ireland Ltd. 
@@ -355,10 +353,10 @@ Tel: + 353 21 4379
 Slovenija 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 
-Ísland 
+ sland 
 Recordati Ireland Ltd. 
-Sími: + 353 21 4379 
-Slovenská republika 
+S mi: + 353 21 4379 
+Slovensk  republika 
 Herbacos Recordati s.r.o. 
 Tel: + 420 466 741<br />
 Italia 
@@ -366,9 +364,9 @@ Recordati Industria Chimica e Farmaceutica S.p.A.
 Tel: + 39 02 487 
 Suomi/Finland 
 SwanMedica Oy<br />
-Puh/Tel: +358 17 3690Κύπρος 
+Puh/Tel: +358 17 3690<br />
 G.C. Papaloisou Ltd. 
-Τηλ: + 357 22 49 03<br />
+ : + 357 22 49 03<br />
 Sverige 
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379 

@@ -4,7 +4,7 @@ Instance: composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234
 InstanceOf: CompositionUvEpi
 Title: "Composition for litak Package Leaflet"
 Description:  "Composition for litak Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,13 +95,15 @@ of sensation, memory loss or confusion. These may all be symptoms of a serious a
 fatal brain condition known as progressive multifocal leukoencephalopathy (PML). </p>
 <p>If you had these symptoms prior to treatment with cladribine, tell your doctor about any change in 
 these symptoms. </p>
-<p>Tell your doctor if you have or have had: 
-- liver or kidney problems 
-- infections<br />
-<em> if you suffer from an infection, this will be treated before you start using LITAK.<br />
-</em> if you notice any signs of infections (such as flu-like symptoms or fever) during or after 
-treatment with LITAK, inform your doctor immediately.<br />
-- fever </p>
+<p>Tell your doctor if you have or have had:</p>
+<ul>
+<li>liver or kidney problems </li>
+<li>infections  </li>
+<li>if you suffer from an infection, this will be treated before you start using LITAK.  </li>
+<li>if you notice any signs of infections (such as flu-like symptoms or fever) during or after 
+treatment with LITAK, inform your doctor immediately.  </li>
+<li>fever </li>
+</ul>
 <p>Before and during treatment with LITAK, you will have regular blood tests to check whether it is safe 
 for you to continue with your treatment. Your doctor may decide that you should receive blood 
 transfusions to improve your level of blood cells. In addition, the proper function of your liver and 
@@ -112,9 +114,11 @@ doctor may advise you about the possibility to store deep-frozen sperm (cryocons
 <p>Other medicines and LITAK 
 Please tell your doctor if you are taking or have recently taken any other medicines, including 
 medicines obtained without a prescription. In particular, tell your doctor if you are using any 
-medicines containing:<br />
-- corticosteroids, commonly used to treat inflammation 
-- antiviral agents, used to treat viral infections </p>
+medicines containing:</p>
+<ul>
+<li>corticosteroids, commonly used to treat inflammation </li>
+<li>antiviral agents, used to treat viral infections </li>
+</ul>
 <p>You must not use LITAK with other medicines that affect the production of blood cells in the bone 
 marrow (myelosuppression). </p>
 <p>Pregnancy and breast-feeding 
@@ -157,9 +161,11 @@ tell your doctor immediately. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, LITAK can cause side effects, although not everybody gets them.  </p>
-<p>Tell your doctor immediately if you have any of the following during or after treatment with LITAK: 
-- any signs of infections (such as flu-like symptoms)<br />
-- fever </p>
+<p>Tell your doctor immediately if you have any of the following during or after treatment with LITAK:</p>
+<ul>
+<li>any signs of infections (such as flu-like symptoms)  </li>
+<li>fever </li>
+</ul>
 <p>Repeated occurrence of malignant (cancerous) disease cannot be excluded. This means that the risk 
 that you develop a malignant disease in the future is slightly higher than for healthy people. This 
 slightly increased risk can be due to hairy cell leukaemia or to therapies used to treat the disease 
@@ -172,7 +178,7 @@ including LITAK. </p>
 tests. 
 * Low number of red blood cells, which may result in anaemia, with symptoms such as tiredness 
 and drowsiness. 
-* Reduced function of your body’s immune system. 
+* Reduced function of your body s immune system. 
 * Headache, dizziness. 
 * Abnormal breath sounds, abnormal chest sounds, cough. 
 * Feeling sick, vomiting, constipation and diarrhoea. 
@@ -232,7 +238,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store litak"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
-<p>Store in a refrigerator (2C-8C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C-8 C). Do not freeze. </p>
 <p>Do not use LITAK after the expiry date which is stated on the vial label and the outer carton after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>From a microbiological point of view, unless the opening precludes the risk of microbiological 
@@ -277,7 +283,7 @@ when handling and administering LITAK. If LITAK contacts the skin or eyes, rinse
 surface immediately with copious amounts of water. Pregnant women must avoid contact with 
 LITAK. </p>
 <p>What do I need for the injection? </p>
-<p>To give yourself a subcutaneous injection, you will need: </p>
+<p>To give yourself a subcutaneous injection, you will need:</p>
 <ul>
 <li>
 <p>one vial of LITAK (or two vials if you need to inject more than 5 ml). 
@@ -287,7 +293,7 @@ Do not use vials which are damaged, or if the solution is not clear or if it con
 <p>one sterile syringe (e.g. 10 ml LUER syringe), </p>
 </li>
 <li>
-<p>one sterile injection needle (e.g. 0.5 x 19 mm, 25 G x ¾’’), </p>
+<p>one sterile injection needle (e.g. 0.5 x 19 mm, 25 G x  ), </p>
 </li>
 <li>
 <p>alcohol wipes, </p>
@@ -296,5 +302,89 @@ Do not use vials which are damaged, or if the solution is not clear or if it con
 <p>a puncture-proof container for safe disposal of the used syringe. </p>
 </li>
 </ul>
-<p>What should I do before I give myself a subcutaneous injection of LITAK? </p>         </div>"""      
+<p>What should I do before I give myself a subcutaneous injection of LITAK? </p>
+<ol>
+<li>
+<p>Before injection, allow LITAK to warm up to room temperature. </p>
+</li>
+<li>
+<p>Wash your hands thoroughly. </p>
+</li>
+<li>
+<p>Find a comfortable, well-lit place and put everything you need where you can reach it. </p>
+</li>
+</ol>
+<p>How do I prepare the injection? </p>
+<p>Before you inject LITAK, you must do the following: </p>
+<ol>
+<li>
+<p>Remove the red protective cap from the LITAK vial. Do not remove the rubber stopper of the 
+vial. Clean the rubber top of the vial with an alcohol wipe. Remove the syringe from the 
+wrapping without touching the tip of the syringe. Remove the injection needle from the 
+wrapping and place it firmly on the tip of the syringe. Remove the needle guard without 
+touching the needle. </p>
+</li>
+<li>
+<p>Push the needle through the rubber stopper of the vial and turn the vial and the syringe upside 
+down. Be sure that the tip of the needle is in the solution. </p>
+</li>
+<li>
+<p>Draw the correct volume of LITAK into the syringe by pulling back the plunger (your doctor 
+will inform you how many ml of LITAK you need to inject). </p>
+</li>
+<li>
+<p>Pull the needle out of the vial. </p>
+</li>
+<li>
+<p>Make sure there is no air left in the syringe: point the needle upwards and push the air out. </p>
+</li>
+<li>
+<p>Check you have the right volume. </p>
+</li>
+<li>
+<p>Inject straight away. </p>
+</li>
+</ol>
+<p>Where should I give my injection? </p>
+<p>The most suitable places to inject yourself are 
+shown here: the top of your thighs and the 
+abdomen, except for the area around the navel. 
+If someone else is injecting you, they can also 
+use the outer surface of the upper arms or the 
+buttocks. </p>
+<p>How do I give my injection? </p>
+<ol>
+<li>
+<p>Pull slightly on the plunger to check that no blood vessel has been punctured. If you see blood 
+in the syringe, remove the needle and re-insert it in another place. </p>
+</li>
+<li>
+<p>Inject the liquid slowly and evenly for approximately one minute, always keeping the skin 
+pinched. </p>
+</li>
+<li>
+<p>After injecting the liquid, remove the needle. </p>
+</li>
+<li>
+<p>Put the used syringe in the puncture-proof container. Use a new syringe and injection needle for 
+each injection. The vials are for single use only. Return any portion of the contents remaining 
+after use to your doctor or pharmacist for proper disposal. </p>
+</li>
+</ol>
+<p>Disposing of used syringes </p>
+<p>Put used syringes into a puncture-proof container and keep it out of the reach and sight of children. </p>
+<p>Dispose the puncture-proof container as instructed by your doctor, nurse or pharmacist. </p>
+<p>Do not put used syringes into the normal household garbage bin. </p>
+<ol>
+<li>
+<p>Disinfect your skin by using an alcohol wipe, 
+wait for the area to dry and pinch the skin 
+between your thumb and forefinger, without 
+squeezing it. </p>
+</li>
+<li>
+<p>Put the needle fully into the skin at an angle 
+of about 45 , as shown in the picture. </p>
+</li>
+</ol>         </div>"""      
 

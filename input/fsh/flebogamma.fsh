@@ -4,7 +4,7 @@ Instance: composition-en-d4555e443163704d4c697ea40b21716a
 InstanceOf: CompositionUvEpi
 Title: "Composition for flebogamma Package Leaflet"
 Description:  "Composition for flebogamma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Flebogamma DIF 
 4. Possible side effects 
 5. How to store Flebogamma DIF 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -71,7 +70,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Flebogamma DIF is </p>
 <p>Flebogamma DIF contains human normal immunoglobulin, highly purified protein extracted from 
 human plasma (part of the blood of donors). This medicine belongs to the group of medicines called 
-intravenous immunoglobulins. These are used to treat conditions where the body’s defence system 
+intravenous immunoglobulins. These are used to treat conditions where the body s defence system 
 against disease is not working properly. </p>
 <p>What Flebogamma DIF is used for </p>
 <p>Treatment of adults, children and adolescents (2 - 18 years) who do not have sufficient antibodies 
@@ -104,7 +103,7 @@ in patients at high risk of bleeding or prior to surgery to correct the platelet
 <p>51 -  </p>
 </li>
 <li>
-<p>Guillain Barré syndrome, where the immune system damages the nerves and hinders them from 
+<p>Guillain Barr  syndrome, where the immune system damages the nerves and hinders them from 
 working properly. </p>
 </li>
 <li>
@@ -208,8 +207,7 @@ maintain a record of the batches used. </p>
 <p>Vital signs (body temperature, blood pressure, heart rate and respiratory rate) should be observed 
 during the infusion of Flebogamma DIF. </p>
 <p>Other medicines and Flebogamma DIF </p>
-<p> 
-Tell your doctor or pharmacist if you are taking or have recently taken any other medicines.  </p>
+<p>Tell your doctor or pharmacist if you are taking or have recently taken any other medicines.  </p>
 <ul>
 <li>
 <p>Effects on vaccines: Flebogamma DIF may reduce the effectiveness of certain types of vaccines 
@@ -218,7 +216,7 @@ Tell your doctor or pharmacist if you are taking or have recently taken any othe
 case of measles, the period is up to 1 year. </p>
 </li>
 <li>
-<p>53 -  
+<p>53 - <br />
 You should avoid the concomitant use of medicines that increase the excretion of water from 
 your body (loop diuretics) during treatment with Flebogamma DIF. </p>
 </li>
@@ -251,7 +249,7 @@ must make up the infusion in exactly the way you have been shown in order to sto
 You must never self-administer it alone; a healthcare professional who is experienced in medicine 
 preparation, cannulation, administration and monitoring of adverse reactions must be always present. </p>
 <p>The dose that you will be given will depend on your illness and body weight and will be worked out 
-by your doctor (please see section “Instructions for healthcare professionals” given at the end of this 
+by your doctor (please see section  Instructions for healthcare professionals  given at the end of this 
 leaflet). </p>
 <p>At the beginning of your infusion you will receive Flebogamma DIF at a slow rate 
 (0.01 - 0.02 ml/kg/min). Depending on how comfortable you feel, your doctor may then gradually 
@@ -298,54 +296,37 @@ breath, chest pain and fatigue), deep vein thromboses (pain and swelling in an e
 dyspnoea (difficulty in breathing), tachypnoea (rapid breathing), cyanosis (lack of oxygen in the 
 blood), fever and hypotension. </p>
 <p>Other side effects  </p>
-<p>Common (may affect up to 1 in 10 infusions): 
-● 
-headache 
-● 
-fever (body temperature increased) 
-● 
-tachycardia (acceleration of the heart activity) 
-● 
-hypotension </p>
-<p>Uncommon (may affect up to 1 in 100 infusions): 
-● 
-bronchitis 
+<p>Common (may affect up to 1 in 10 infusions): </p>
+<p>headache </p>
+<p>fever (body temperature increased) </p>
+<p>tachycardia (acceleration of the heart activity) </p>
+<p>hypotension </p>
+<p>Uncommon (may affect up to 1 in 100 infusions): </p>
+<p>bronchitis 
 * nasopharyngitis 
 * dizziness (motion sickness) 
 * hypertension 
-* blood pressure increased 
-● 
-wheezing 
-* productive cough 
-● 
-abdominal pain (including abdominal pain upper)<br />
-● 
-diarrhoea 
-● 
-vomiting 
-● 
-nausea 
-● 
-urticaria 
+* blood pressure increased </p>
+<p>wheezing 
+* productive cough </p>
+<p>abdominal pain (including abdominal pain upper)  </p>
+<p>diarrhoea </p>
+<p>vomiting </p>
+<p>nausea </p>
+<p>urticaria 
 * pruritus (itching) 
 * rash (eruption of the skin) </p>
 <ul>
-<li>55 - ● 
-back pain 
-● 
-myalgia (muscle pain) 
-● 
-arthralgia (joint pain)<br />
-● 
-rigors (cold shivering sensation) or chills 
-● 
-pain 
-● 
-injection site reaction 
-● 
-Coombs test positive </li>
-<li>blood pressure decreased </li>
+<li>55 - <br />
+back pain </li>
 </ul>
+<p>myalgia (muscle pain) </p>
+<p>arthralgia (joint pain)  </p>
+<p>rigors (cold shivering sensation) or chills </p>
+<p>pain </p>
+<p>injection site reaction </p>
+<p>Coombs test positive 
+* blood pressure decreased </p>
 <p>Rare (may affect up to 1 in 1000 infusions): 
 * hypersensitivity 
 * abnormal behaviour 
@@ -387,7 +368,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. </p>
-<p>Do not store above 30 ºC. Do not freeze. </p>
+<p>Do not store above 30  C. Do not freeze. </p>
 <ul>
 <li>56 - The solution should be clear or slightly opalescent. Do not use this medicine if you notice that the 
 solution is cloudy or has deposits. </li>
@@ -411,5 +392,182 @@ Each vial of 50 ml contains: 2.5 g of human normal immunoglobulin
 Each vial of 100 ml contains: 5 g of human normal immunoglobulin 
 Each vial of 200 ml contains: 10 g of human normal immunoglobulin 
 Each vial of 400 ml contains: 20 g of human normal immunoglobulin </p>
-<p>The percentage of IgG subclasses is approximately 66.6% IgG1, 28.5% IgG2, 2.7% IgG3 and </p>         </div>"""      
+<p>The percentage of IgG subclasses is approximately 66.6% IgG1, 28.5% IgG2, 2.7% IgG3 and 
+2.2% IgG4. It contains trace amounts of IgA (lower than 50 micrograms/ml). </p>
+<ul>
+<li>The other ingredients are sorbitol and water for injections (see section 2 for further information 
+about ingredients). </li>
+</ul>
+<p>What Flebogamma DIF looks like and contents of the pack </p>
+<p>Flebogamma DIF is a solution for infusion. The solution is clear or slightly opalescent and colourless 
+or pale yellow. </p>
+<p>Flebogamma DIF is supplied as 0.5 g/10 ml, 2.5 g/50 ml, 5 g/100 ml, 10 g/200 ml and 20 g/400 ml 
+vials. 
+Pack size of 1 vial. 
+Not all sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Instituto Grifols, S.A. 
+Can Guasc, 2 - Parets del Vall s 
+08150 Barcelona - Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>AT/BE/BG/EE/ES/HR/HU/IE/LV/ 
+LT/LU/MT/NL/RO/SI/SK/UK(NI) 
+Instituto Grifols, S.A. 
+Tel: +34 93 571 01<br />
+CY/EL 
+Instituto Grifols, S.A. 
+ : +34 93 571 01 CZ 
+Grifols S.R.O. 
+Tel: +4202 2223 1 
+DE 
+Grifols Deutschland GmbH 
+Tel: +49 69 660 593  </p>
+<ul>
+<li>57 - DK/FI/IS/NO/SE 
+Grifols Nordic AB 
+Tel: +46 8 441 89<br />
+FR 
+Grifols France 
+T l: +33 (0)1 53 53 08<br />
+IT 
+Grifols Italia S.p.A. 
+Tel: +39 050 8755<br />
+PL 
+Grifols Polska Sp. z o. o. 
+Tel: +48 22 378 85<br />
+PT 
+Grifols Portugal, Lda. 
+Tel: +351 219 255  </li>
+</ul>
+<p>This leaflet was last revised in MM/YYYY </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>
+<p>The following information is intended for healthcare professionals only (see section 3 for further 
+information): </p>
+<p>Posology and method of administration </p>
+<p>The dose and dose regimen are dependent on the indication. </p>
+<p>The dose may need to be individualised for each patient dependent on the clinical response. Dose 
+based on body weight may require adjustment in underweight or overweight patients. The following 
+dosage regimens are given as a guideline. </p>
+<p>The dose recommendations are summarised in the following table: </p>
+<p>Indication 
+Dose 
+Frequency of infusions 
+Replacement therapy: 
+Primary immunodeficiency syndromes </p>
+<p>Starting dose: 
+0.4 - 0.8 g/kg </p>
+<p>Maintenance dose: 
+0.2 - 0.8 g/kg </p>
+<p>every 3 - 4 weeks<br />
+Secondary immunodeficiencies 
+0.2 - 0.4 g/kg 
+every 3 - 4 weeks 
+Measles pre/post exposure prophylaxis:<br />
+Post-exposure prophylaxis in susceptible 
+patients 
+0.4 g/kg 
+As soon as possible and within 
+6 days, possibly to be repeated once 
+after 2 weeks to maintain the 
+measles antibody serum level </p>
+<blockquote>
+<p>240 mIU/ml 
+Post-exposure prophylaxis in PID/SID 
+patients 
+0.4 g/kg 
+In addition to maintenance therapy, 
+given as an extra dose within 6 days 
+of exposure 
+Pre-exposure prophylaxis in PID/SID 
+patients 
+0.53 g/kg 
+If a patient receives a maintenance 
+dose of less than 0.53 g/kg every 
+3 - 4 weeks, this dose should be 
+increased once to at least 0.53 g/kg </p>
+</blockquote>
+<ul>
+<li>58 - Immunomodulation: 
+Primary immune thrombocytopenia 
+0.8 - 1 g/kg </li>
+</ul>
+<p>or </p>
+<p>0.4 g/kg/d 
+on day 1, possibly repeated once 
+within 3 days </p>
+<p>for 2 - 5 days 
+Guillain Barr  syndrome 
+0.4 g/kg/d 
+for 5 days 
+Kawasaki disease 
+2 g/kg 
+in one dose in association with 
+acetylsalicylic acid 
+Chronic inflammatory demyelinating 
+polyradiculoneuropathy (CIDP) 
+Starting dose: 
+2 g/kg </p>
+<p>Maintenance dose: 
+1 g/kg </p>
+<p>in divided doses over 2 - 5 days </p>
+<p>every 3 weeks in divided doses over 
+1 - 2 days 
+Multifocal motor neuropathy (MMN) 
+Starting dose: 
+2 g/kg </p>
+<p>Maintenance dose: 
+1 g/kg </p>
+<p>or </p>
+<p>2 g/kg </p>
+<p>in divided doses over 
+2 - 5 consecutive days </p>
+<p>every 2 - 4 weeks </p>
+<p>every 4 - 8 weeks in divided doses 
+over 2 - 5 days </p>
+<p>Flebogamma DIF should be infused intravenously at an initial rate of 0.01 - 0.02 ml/kg/min for the 
+first thirty minutes. If well tolerated, the rate of administration may gradually be increased to a 
+maximum of 0.1 ml/kg/min. </p>
+<p>A significant increase in median platelet levels was achieved in a clinical trial in chronic ITP patients 
+(64,000/ l) although it did not reach normal levels. </p>
+<p>Paediatric population </p>
+<p>As the dosage for each indication is given by body weight and adjusted to the clinical outcome of the 
+above-mentioned conditions, the dosage in children is not considered to be different to that of adults. </p>
+<p>Incompatibilities </p>
+<p>Flebogamma DIF should not be mixed with other medicines or intravenous solutions and it should be 
+administered by a separate intravenous line. </p>
+<p>Special precautions </p>
+<p>Sorbitol </p>
+<p>Patients with rare hereditary fructose intolerance (HFI) must not be given this medicine unless 
+strictly necessary.  </p>
+<p>Babies and young children (below 2 years of age) may not yet be diagnosed with hereditary 
+fructose intolerance (HFI). Medicines (containing sorbitol/fructose) given intravenously may be 
+life-threatening and should be contraindicated in this population unless there is an 
+overwhelming clinical need and no alternatives are available. </p>
+<ul>
+<li>59 - A detailed history with regard to HFI symptoms has to be taken of each patient prior to being 
+given this medicinal product.  </li>
+</ul>
+<p>It is strongly recommended that every time that Flebogamma DIF is administered to a patient, the 
+name and batch number of the product are recorded in order to maintain a link between the patient and 
+the batch of the product. </p>
+<p>Instructions for handling and disposal </p>
+<p>The product should be brought at room temperature (no more than 30  C) before use. </p>
+<p>The solution should be clear or slightly opalescent. Do not use Flebogamma DIF if you notice that the 
+solution is cloudy or has deposits. </p>
+<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>
+<ul>
+<li>60 - Package leaflet: Information for the user </li>
+</ul>
+<p>Flebogamma DIF 100 mg/ml solution for infusion 
+Human normal immunoglobulin (IVIg) </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again. 
+- If you have any further questions, ask your doctor, pharmacist or nurse. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+- If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet. See section </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-5070cf955a155484c6e1db8e94877cf4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoledronic Package Leaflet"
 Description:  "Composition for zoledronic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,13 +70,15 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance in Zoledronic acid medac is zoledronic acid, which belongs to a group of 
 substances called bisphosphonates. Zoledronic acid works by attaching itself to the bone and slowing 
-down the rate of bone change. It is used: 
-- to prevent bone complications, e.g. fractures, in adult patients with bone metastases (spread of 
-cancer from primary site to the bone). 
-- to reduce the amount of calcium in the blood in adult patients where it is too high due to the 
+down the rate of bone change. It is used:</p>
+<ul>
+<li>to prevent bone complications, e.g. fractures, in adult patients with bone metastases (spread of 
+cancer from primary site to the bone). </li>
+<li>to reduce the amount of calcium in the blood in adult patients where it is too high due to the 
 presence of a tumour. Tumours can accelerate normal bone change in such a way that the 
 release of calcium from bone is increased. This condition is known as tumour-induced 
-hypercalcaemia (TIH). </p>         </div>"""   
+hypercalcaemia (TIH). </li>
+</ul>         </div>"""   
           
 
              
@@ -127,19 +129,21 @@ Zoledronic acid medac is not recommended for use in adolescents and children bel
 18 years. </p>
 <p>Other medicines and Zoledronic acid medac 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. It is 
-especially important that you tell your doctor if you are also taking: 
-- Aminoglycosides (medicines used to treat severe infections), calcitonin (a type of medicine used 
+especially important that you tell your doctor if you are also taking:</p>
+<ul>
+<li>Aminoglycosides (medicines used to treat severe infections), calcitonin (a type of medicine used 
 to treat post-menopausal osteoporosis and hypercalcaemia), loop diuretics (a type of medicine to 
 treat high blood pressure or oedema) or other calcium-lowering medicines, since the 
 combination of these with bisphosphonates may cause the calcium level in the blood to become 
-too low. 
-- Thalidomide (a medicine used to treat a certain type of blood cancer involving the bone) or any 
-other medicines which may harm your kidneys. 
-- Other medicines that also contain zoledronic acid and are used to treat osteoporosis and other 
+too low. </li>
+<li>Thalidomide (a medicine used to treat a certain type of blood cancer involving the bone) or any 
+other medicines which may harm your kidneys. </li>
+<li>Other medicines that also contain zoledronic acid and are used to treat osteoporosis and other 
 non-cancer diseases of the bone, or any other bisphosphonate, since the combined effects of 
-these medicines taken together with Zoledronic acid medac are unknown. 
-- Anti-angiogenic medicines (used to treat cancer), since the combination of these with zoledronic 
-acid has been associated with an increased risk of osteonecrosis of the jaw (ONJ). </p>
+these medicines taken together with Zoledronic acid medac are unknown. </li>
+<li>Anti-angiogenic medicines (used to treat cancer), since the combination of these with zoledronic 
+acid has been associated with an increased risk of osteonecrosis of the jaw (ONJ). </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 You should not be given Zoledronic acid medac if you are pregnant. Tell your doctor if you are or 
 think that you may be pregnant.  </p>
@@ -151,19 +155,21 @@ There have been very rare cases of drowsiness and sleepiness with the use of zol
 should therefore be careful when driving, using machinery or performing other tasks that need full 
 attention. </p>
 <p>Zoledronic acid medac contains sodium 
-This medicinal product contains less than 1 mmol (23 mg) sodium per dose, i.e. essentially ‘sodium-
-free’.  </p>         </div>"""   
+This medicinal product contains less than 1 mmol (23 mg) sodium per dose, i.e. essentially  sodium-
+free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zoledronic"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take zoledronic"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Zoledronic acid medac must only be given by healthcare professionals trained in administering 
-bisphosphonates intravenously, i.e. through a vein. 
-- Your doctor will recommend that you drink enough water before each treatment to help prevent 
-dehydration. 
-- Carefully follow all the other instructions given to you by your doctor, pharmacist or nurse. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Zoledronic acid medac must only be given by healthcare professionals trained in administering 
+bisphosphonates intravenously, i.e. through a vein. </li>
+<li>Your doctor will recommend that you drink enough water before each treatment to help prevent 
+dehydration. </li>
+<li>Carefully follow all the other instructions given to you by your doctor, pharmacist or nurse. </li>
+</ul>
 <p>How much Zoledronic acid medac is given 
 - The usual single dose given is 4 mg. 
 - If you have a kidney problem, your doctor will give you a lower dose depending on the severity 
@@ -279,7 +285,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor, pharmacist or nurse knows how to store Zoledronic acid medac properly (see section 6). </p>
 <p>After first opening, Zoledronic acid medac solution for infusion should preferably be used 
-immediately. If the solution is not used immediately, it should be stored in a refrigerator at 2°C – 8°C. </p>         </div>"""      
+immediately. If the solution is not used immediately, it should be stored in a refrigerator at 2 C   8 C. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -299,8 +305,8 @@ containing 1 bottle.
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 medac 
-Gesellschaft für klinische 
-Spezialpräparate mbH 
+Gesellschaft f r klinische 
+Spezialpr parate mbH 
 Theaterstr. 6 
 22880 Wedel 
 Germany </p>

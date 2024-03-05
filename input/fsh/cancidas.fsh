@@ -4,7 +4,7 @@ Instance: composition-en-ad129f06143be4f32271a42d5b4c5f85
 InstanceOf: CompositionUvEpi
 Title: "Composition for cancidas Package Leaflet"
 Description:  "Composition for cancidas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,31 +44,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>What Cancidas is and what it is used for
-What Cancidas is
-Cancidas contains a medicine called caspofungin. This belongs to a group of medicines called
-anti-fungals. 
-What Cancidas is used for
-Cancidas is used to treat the following infections in children, adolescents and adults:</li>
-<li>serious fungal infections in your tissues or organs (called ‘invasive candidiasis’). This infection
-is caused by fungal (yeast) cells called Candida. 
-People who might get this type of infection include those who have just had an operation or
-those whose immune systems are weak. Fever and chills that do not respond to an antibiotic are
-the most common signs of this type of infection.</li>
-<li>fungal infections in your nose, nasal sinuses or lungs (called ‘invasive aspergillosis’) if other
-anti-fungal treatments have not worked or have caused side effects. This infection is caused by a
-mould called Aspergillus. 
-People who might get this type of infection include those having chemotherapy, those who have
-had a transplant and those whose immune systems are weak.</li>
-<li>suspected fungal infections if you have a fever and a low white cell count that have not
-improved on treatment with an antibiotic. People who are at risk of getting a fungal infection
-include those who have just had an operation or those whose immune systems are weak. 
-How Cancidas works
-Cancidas makes fungal cells fragile and stops the fungus from growing properly. This stops the
-infection from spreading and gives the body’s natural defences a chance to completely get rid of the
-infection. </li>
-</ol>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
 
 
 
@@ -92,10 +68,39 @@ infection. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What cancidas is and what it is used for"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cancidas is
+Cancidas contains a medicine called caspofungin. This belongs to a group of medicines called
+anti-fungals. 
+What Cancidas is used for
+Cancidas is used to treat the following infections in children, adolescents and adults:
+* serious fungal infections in your tissues or organs (called  invasive candidiasis ). This infection
+is caused by fungal (yeast) cells called Candida. 
+People who might get this type of infection include those who have just had an operation or
+those whose immune systems are weak. Fever and chills that do not respond to an antibiotic are
+the most common signs of this type of infection.
+* fungal infections in your nose, nasal sinuses or lungs (called  invasive aspergillosis ) if other
+anti-fungal treatments have not worked or have caused side effects. This infection is caused by a
+mould called Aspergillus. 
+People who might get this type of infection include those having chemotherapy, those who have
+had a transplant and those whose immune systems are weak.
+* suspected fungal infections if you have a fever and a low white cell count that have not
+improved on treatment with an antibiotic. People who are at risk of getting a fungal infection
+include those who have just had an operation or those whose immune systems are weak. 
+How Cancidas works
+Cancidas makes fungal cells fragile and stops the fungus from growing properly. This stops the
+infection from spreading and gives the body s natural defences a chance to completely get rid of the
+infection. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cancidas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cancidas"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Cancidas
 * if you are allergic to caspofungin or any of the other ingredients of this medicine (listed in
 section 6).
-32
 If you are not sure, talk to your doctor, nurse or pharmacist before you are given your medicine.
 Warnings and precautions
 Talk to your doctor, nurse or pharmacist before you are given Cancidas if:
@@ -133,21 +138,18 @@ Driving and using machines
 There is no information to suggest that Cancidas affects your ability to drive or operate machinery.
 Cancidas contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially
-‘sodium-free’.</p>         </div>"""   
-          
-
-             
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take cancidas"
+  * title =  "3. How to take cancidas"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take cancidas"
+  * code.text = "3. How to take cancidas"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cancidas will always be prepared and given to you by a healthcare professional.
 You will be given Cancidas:
 * once each day
 * by slow injection into a vein (intravenous infusion) 
 * over about 1 hour. 
-33
 Your doctor will determine the duration of your treatment and how much Cancidas you will be given
 each day. Your doctor will monitor how well the medicine works for you. If you weigh more than
 80 kg, you may need a different dose.
@@ -156,15 +158,16 @@ The dose for children and adolescents may differ from the adult dose.
 If you have been given more Cancidas than you should
 Your doctor will decide how much Cancidas you need and for how long each day. If you are worried
 that you may have been given too much Cancidas, tell your doctor or nurse straight away.
-If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist.</p>         </div>"""   
-                    
+If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take cancidas"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cancidas"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
-Tell your doctor or nurse straight away if you notice any of the following side effects – you may
+Tell your doctor or nurse straight away if you notice any of the following side effects   you may
 need urgent medical treatment:
 * rash, itching, feeling warm, swelling of your face, lips or throat or difficulty breathing - you
 may be having a histamine reaction to the medicine.
@@ -197,7 +200,6 @@ cells and white blood cells)
 level in the blood, low calcium level in the blood, increase calcium level in the blood, low
 magnesium level in the blood, increase in acid level in the blood
 * Disorientation, feeling nervous, being unable to sleep 
-34
 * Feeling dizzy, decreased feeling or sensitivity (especially in the skin), shaking, feeling sleepy,
 change in the way things taste, tingling or numbness
 * Blurred vision, increase in tears, swollen eyelid, yellowing of the whites of the eyes
@@ -240,31 +242,30 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
-Do not use this medicine after the expiry date which is stated on the carton and the vial (the first two
-numbers are the month; the next four numbers are the year). The expiry date refers to the last day of
-that month.
-35
-Store in a refrigerator (2C to 8C).
-Once Cancidas has been prepared, it should be used straight away. This is because it does not contain
-any ingredients to stop the growth of bacteria. Only a trained healthcare professional who has read the
-complete directions should prepare the medicine (please see below “Instructions of how to reconstitute
-and dilute Cancidas”).
-Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+safety of this medicine.</p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cancidas"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store cancidas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
+Do not use this medicine after the expiry date which is stated on the carton and the vial (the first two
+numbers are the month; the next four numbers are the year). The expiry date refers to the last day of
+that month.
+Store in a refrigerator (2 C to 8 C).
+Once Cancidas has been prepared, it should be used straight away. This is because it does not contain
+any ingredients to stop the growth of bacteria. Only a trained healthcare professional who has read the
+complete directions should prepare the medicine (please see below  Instructions of how to reconstitute
+and dilute Cancidas ).
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
+throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cancidas contains
 * The active substance is caspofungin. 
@@ -282,9 +283,7 @@ Marketing Authorisation Holder
 Manufacturer
 Merck Sharp &amp; Dohme B.V.
 Merck Sharp &amp; Dohme B. V.
-Waarderweg 39
-Waarderweg 39
-2031 BN Haarlem 
+Waarderweg Waarderweg 2031 BN Haarlem 
 2031 BN Haarlem
 The Netherlands
 The Netherlands
@@ -295,35 +294,25 @@ Route de Marsat-Riom
 France
 For any information about this medicinal product, please contact the local representative of the
 Marketing Authorisation Holder:
-Belgique/België/Belgien
+Belgique/Belgi /Belgien
 MSD Belgium 
-Tél/Tel: +32(0)27766211
-dpoc_belux@merck.com
+T l/Tel: +32(0)27766dpoc_belux@merck.com
 Lietuva
 UAB Merck Sharp &amp; Dohme
-Tel.: +370 5 278 02 47
-msd_lietuva@merck.com
-36
-България
-Мерк Шарп и Доум България ЕООД
-Тел.: +359 2 819 3737
-info-msdbg@merck.com
+Tel.: +370 5 278 02 msd_lietuva@merck.com</p>
+<p>.: +359 2 819 3info-msdbg@merck.com
 Luxembourg/Luxemburg
 MSD Belgium 
-Tél/Tel: +32(0)27766211
-dpoc_belux@merck.com
-Česká republika
+T l/Tel: +32(0)27766dpoc_belux@merck.com
+ esk  republika
 Merck Sharp &amp; Dohme s.r.o.
-Tel.: +420 233 010 111
-dpoc_czechslovak@merck.com
-Magyarország
+Tel.: +420 233 010 dpoc_czechslovak@merck.com
+Magyarorsz g
 MSD Pharma Hungary Kft.
-Tel.: +36 1 888 5300
-hungary_msd@merck.com
+Tel.: +36 1 888 5hungary_msd@merck.com
 Danmark
 MSD Danmark ApS
-Tlf: +45 44 82 40 00
-dkmail@merck.com
+Tlf: +45 44 82 40 dkmail@merck.com
 Malta
 Merck Sharp &amp; Dohme Cyprus Limited
 Tel.: 8007 4433 (+ 356 99917558)
@@ -337,87 +326,67 @@ Merck Sharp &amp; Dohme B.V.
 Tel: 0800 9999000 (+31 23 5153153)
 medicalinfo.nl@merck.com
 Eesti
-Merck Sharp &amp; Dohme OÜ
-Tel.: +372 6144 200
-msdeesti@merck.com
+Merck Sharp &amp; Dohme O 
+Tel.: +372 6144 msdeesti@merck.com
 Norge
 MSD (Norge) AS
-Tlf: +47 32 20 73 00
-msdnorge@msd.no
-Eλλάδα
-MSD Α.Φ.Β.Ε.Ε
-Τηλ: + 30 210 98 97 300
-dpoc_greece@merck.com
-Österreich
+Tlf: +47 32 20 73 msdnorge@msd.no
+E 
+MSD  . . . . 
+ : + 30 210 98 97 dpoc_greece@merck.com
+ sterreich
 Merck Sharp &amp; Dohme Ges.m.b.H.
-Tel: +43 (0) 1 26 044
-dpoc_austria@merck.com
-España
-Merck Sharp &amp; Dohme de España, S.A.
-Tel: +34 91 321 06 00
-msd_info@merck.com
+Tel: +43 (0) 1 26 dpoc_austria@merck.com
+Espa a
+Merck Sharp &amp; Dohme de Espa a, S.A.
+Tel: +34 91 321 06 msd_info@merck.com
 Polska
 MSD Polska Sp. z o.o.
-Tel.: +48 22 549 51 00
-msdpolska@merck.com
+Tel.: +48 22 549 51 msdpolska@merck.com
 France
 MSD France
-Tél: + 33 (0) 1 80 46 40 40
-Portugal
+T l: + 33 (0) 1 80 46 40 Portugal
 Merck Sharp &amp; Dohme, Lda
-Tel: +351 21 4465700
-inform_pt@merck.com
+Tel: +351 21 4465inform_pt@merck.com
 Hrvatska
 Merck Sharp &amp; Dohme d.o.o. 
-Tel: + 385 1 6611 333
-croatia_info@merck.com
-România
+Tel: + 385 1 6611 croatia_info@merck.com
+Rom nia
 Merck Sharp &amp; Dohme Romania S.R.L.
-Tel: + 4021 529 29 00
-msdromania@merck.com
+Tel: + 4021 529 29 msdromania@merck.com
 Ireland
 Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
-Tel: +353 (0)1 2998700
-medinfo_ireland@merck.com
+Tel: +353 (0)1 2998medinfo_ireland@merck.com
 Slovenija
 Merck Sharp &amp; Dohme, inovativna zdravila
 d.o.o.
-Tel: + 386 1 5204201
-msd_slovenia@merck.com
-Ísland
+Tel: + 386 1 5204msd_slovenia@merck.com
+ sland
 Vistor hf.
-Sími: +354 535 7000
-Slovenská republika
+S mi: +354 535 7Slovensk  republika
 Merck Sharp &amp; Dohme, s. r. o.
-Tel.: +421 2 58282010
-dpoc_czechslovak@merck.com
-37
-Ιtalia
+Tel.: +421 2 58282dpoc_czechslovak@merck.com
+ talia
 MSD Italia S.r.l.
 Tel: 800 23 99 89 (+39 06 361911)
 medicalinformation.it@msd.com
 Suomi/Finland
 MSD Finland Oy
-Puh/Tel: +358 (0) 9 804 650
-info@msd.fi
-Κύπρος
-Merck Sharp &amp; Dohme Cyprus Limited
-Τηλ.: 800 00 673 (+357 22866700)
+Puh/Tel: +358 (0) 9 804 info@msd.fi</p>
+<p>Merck Sharp &amp; Dohme Cyprus Limited
+ .: 800 00 673 (+357 22866700)
 cyprus_info@merck.com
 Sverige
 Merck Sharp &amp; Dohme (Sweden) AB
-Tel: +46 (0)77 5700488
-medicinskinfo@merck.com
+Tel: +46 (0)77 5700medicinskinfo@merck.com
 Latvija
 SIA Merck Sharp &amp; Dohme Latvija
-Tel: +371 67364 224
-msd_lv@merck.com
+Tel: +371 67364 msd_lv@merck.com
 United Kingdom (Northern Ireland)
 Merck Sharp &amp; Dohme Ireland (Human
 Health) Limited
-Tel: +353 (0)1 2998700
-medinfoNI@msd.com
+Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu.
@@ -436,16 +405,15 @@ To reconstitute the powder bring the vial to room temperature and aseptically ad
 injection. The concentrations of the reconstituted vials will be 5.2 mg/ml.
 The white to off-white compact lyophilised powder will dissolve completely. Mix gently until a clear
 solution is obtained. Reconstituted solutions should be visually inspected for particulate matter or
-discolouration. This reconstituted solution may be stored for up to 24 hours at or below 25°C.
+discolouration. This reconstituted solution may be stored for up to 24 hours at or below 25 C.
 Step 2 Addition of reconstituted CANCIDAS to patient infusion solution 
 Diluents for the final solution for infusion are: sodium chloride solution for injection, or lactated
-Ringer’s solution. The solution for infusion is prepared by aseptically adding the appropriate amount
+Ringer s solution. The solution for infusion is prepared by aseptically adding the appropriate amount
 of reconstituted concentrate (as shown in the table below) to a 250 ml infusion bag or bottle. Reduced
 volume infusions in 100 ml may be used, when medically necessary, for 50 mg or 35 mg daily doses.
 Do not use if the solution is cloudy or has precipitated. 
-38
 50 mg VIAL: PREPARATION OF THE SOLUTION FOR INFUSION IN ADULTS
-DOSE* 
+DOSE<em> 
 Volume of 
 reconstituted 
 CANCIDAS for 
@@ -464,17 +432,186 @@ CANCIDAS added to
 100 ml) final
 concentration
 50 mg 
-10 ml </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+10 ml 
+0.20 mg/ml
+-
 50 mg at reduced
 volume
 10 ml 
--</p>         </div>"""      
+-
+0.47 mg/ml
+35 mg for moderate
+hepatic impairment<br />
+(from one 50 mg vial)
+7 ml 
+0.14 mg/ml
+-
+35 mg for moderate
+hepatic impairment 
+(from one 50 mg vial) at
+reduced volume
+7 ml 
+-
+0.34 mg/ml
+* 10.5 ml should be used for reconstitution of all vials.
+INSTRUCTIONS FOR USE IN PAEDIATRIC PATIENTS (50 mg vial)
+Calculation of Body Surface Area (BSA) for paediatric dosing
+Before preparation of infusion, calculate the body surface area (BSA) of the patient using the
+following formula: (Mosteller2 Formula)
+Preparation of the 70 mg/m
+2 infusion for paediatric patients &gt;3 months of age (using a 50-mg vial)
+1. Determine the actual loading dose to be used in the paediatric patient by using the patient's BSA
+(as calculated above) and the following equation:
+BSA (m2) X 70 mg/m2 = Loading Dose
+The maximum loading dose on Day 1 should not exceed 70 mg regardless of the patient's
+calculated dose.
+2. Equilibrate the refrigerated vial of CANCIDAS to room temperature.
+3. Aseptically add 10.5 ml of water for injection.a This reconstituted solution may be stored for up
+to 24 hours at or below 25 C.b This will give a final caspofungin concentration in the vial of
+5.2 mg/ml.
+4. Remove the volume of medicine equal to the calculated loading dose (Step 1) from the vial.
+Aseptically transfer this volume (ml)c of reconstituted CANCIDAS to an IV bag (or bottle)
+containing 250 ml of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection, or Lactated Ringers
+Injection. Alternatively, the volume (ml)c of reconstituted CANCIDAS can be added to a
+reduced volume of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection or Lactated Ringers
+Injection, not to exceed a final concentration of 0.5 mg/ml. This infusion solution must be used
+within 24 hours if stored at or below 25 C or within 48 hours if stored refrigerated at 2 to 8 C. 
+Preparation of the 50 mg/m
+2 infusion for paediatric patients &gt;3 months of age (using a 50-mg vial)
+1. Determine the actual daily maintenance dose to be used in the paediatric patient by using the
+patient's BSA (as calculated above) and the following equation:
+BSA (m2) X 50 mg/m2 = Daily Maintenance Dose
+The daily maintenance dose should not exceed 70 mg regardless of the patient's calculated dose.
+2. Equilibrate the refrigerated vial of CANCIDAS to room temperature.
+2  Mosteller RD: Simplified Calculation of Body Surface Area. N Engl J Med 1987 Oct 22;317(17): 1098 (letter)
+3. Aseptically add 10.5 ml of water for injection.a This reconstituted solution may be stored for up
+to 24 hours at or below 25 C.b This will give a final caspofungin concentration in the vial of
+5.2 mg/ml.
+4. Remove the volume of medicine equal to the calculated daily maintenance dose (Step 1) from
+the vial. Aseptically transfer this volume (ml)c of reconstituted CANCIDAS to an IV bag (or
+bottle) containing 250 ml of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection, or Lactated
+Ringers Injection. Alternatively, the volume (ml)c of reconstituted CANCIDAS can be added to
+a reduced volume of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection or Lactated Ringers
+Injection, not to exceed a final concentration of 0.5 mg/ml. This infusion solution must be used
+within 24 hours if stored at or below 25 C or within 48 hours if stored refrigerated at 2 to 8 C. 
+Preparation notes: 
+a The white to off-white cake will dissolve completely. Mix gently until a clear solution is obtained.
+b Visually inspect the reconstituted solution for particulate matter or discoloration during
+reconstitution and prior to infusion. Do not use if the solution is cloudy or has precipitated.
+c CANCIDAS is formulated to provide the full labelled vial dose (50 mg) when 10 ml is withdrawn
+from the vial.
+CANCIDAS 70 mg powder for concentrate for solution for infusion
+INSTRUCTIONS FOR USE IN ADULT PATIENTS (70 mg vial)
+Step 1 Reconstitution of conventional vials 
+To reconstitute the powder bring the vial to room temperature and aseptically add 10.5 ml of water for
+injection. The concentrations of the reconstituted vials will be: 7.2 mg/ml.
+The white to off-white compact lyophilised powder will dissolve completely. Mix gently until a clear
+solution is obtained. Reconstituted solutions should be visually inspected for particulate matter or
+discolouration. This reconstituted solution may be stored for up to 24 hours at or below 25 C.
+Step 2 Addition of reconstituted CANCIDAS to patient infusion solution 
+Diluents for the final solution for infusion are: sodium chloride solution for injection, or lactated
+Ringer s solution. The solution for infusion is prepared by aseptically adding the appropriate amount
+of reconstituted concentrate (as shown in the table below) to a 250 ml infusion bag or bottle. Reduced
+volume infusions in 100 ml may be used, when medically necessary, for 50 mg or 35 mg daily doses.
+Do not use if the solution is cloudy or has precipitated. 
+70 mg VIAL: PREPARATION OF THE SOLUTION FOR INFUSION IN ADULTS
+DOSE</em> 
+Volume of
+reconstituted
+CANCIDAS for
+transfer to
+intravenous bag or
+bottle
+Standard preparation
+(reconstituted
+CANCIDAS added to
+250 ml) final
+concentration
+Reduced volume
+infusion 
+(reconstituted
+CANCIDAS added to
+100 ml) final
+concentration
+70 mg
+10 ml
+0.28 mg/ml
+Not Recommended
+70 mg 
+(from two 50 mg
+vials)<strong> 14 ml
+0.28 mg/ml
+Not Recommended
+DOSE* 
+Volume of
+reconstituted
+CANCIDAS for
+transfer to
+intravenous bag or
+bottle
+Standard preparation
+(reconstituted
+CANCIDAS added to
+250 ml) final
+concentration
+Reduced volume
+infusion 
+(reconstituted
+CANCIDAS added to
+100 ml) final
+concentration
+35 mg for moderate
+hepatic impairment<br />
+(from one 70 mg vial)
+5 ml 
+0.14 mg/ml 
+0.34 mg/ml
+* 10.5 ml should be used for reconstitution of all vials.
+</strong>If 70 mg vial is not available, the 70 mg dose can be prepared from two 50 mg vials.
+INSTRUCTIONS FOR USE IN PAEDIATRIC PATIENTS (70 mg vial)
+Calculation of Body Surface Area (BSA) for paediatric dosing
+Before preparation of infusion, calculate the body surface area (BSA) of the patient using the
+following formula: (Mosteller3 Formula)
+Preparation of the 70 mg/m
+2 infusion for paediatric patients &gt;3 months of age (using a 70-mg vial)
+1. Determine the actual loading dose to be used in the paediatric patient by using the patient's BSA
+(as calculated above) and the following equation:
+BSA (m2) X 70 mg/m2 = Loading Dose
+The maximum loading dose on Day 1 should not exceed 70 mg regardless of the patient's
+calculated dose.
+2. Equilibrate the refrigerated vial of CANCIDAS to room temperature.
+3. Aseptically add 10.5 ml of water for injection.a This reconstituted solution may be stored for up
+to 24 hours at or below 25 C.b This will give a final caspofungin concentration in the vial of
+7.2 mg/ml.
+4. Remove the volume of medicine equal to the calculated loading dose (Step 1) from the vial.
+Aseptically transfer this volume (ml)c of reconstituted CANCIDAS to an IV bag (or bottle)
+containing 250 ml of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection, or Lactated Ringers
+Injection. Alternatively, the volume (ml)c of reconstituted CANCIDAS can be added to a
+reduced volume of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection or Lactated Ringers
+Injection, not to exceed a final concentration of 0.5 mg/ml. This infusion solution must be used
+within 24 hours if stored at or below 25 C or within 48 hours if stored refrigerated at 2 to 8 C. 
+Preparation of the 50 mg/m
+2 infusion for paediatric patients &gt;3 months of age (using a 70-mg vial)
+1. Determine the actual daily maintenance dose to be used in the paediatric patient by using the
+patient's BSA (as calculated above) and the following equation:
+BSA (m2) X 50 mg/m2 = Daily Maintenance Dose
+The daily maintenance dose should not exceed 70 mg regardless of the patient's calculated dose.
+2. Equilibrate the refrigerated vial of CANCIDAS to room temperature.
+3. Aseptically add 10.5 ml of water for injection.a This reconstituted solution may be stored for up
+to 24 hours at or below 25 C.b This will give a final caspofungin concentration in the vial of
+7.2 mg/ml.
+4. Remove the volume of medicine equal to the calculated daily maintenance dose (Step 1) from
+the vial. Aseptically transfer this volume (ml)c of reconstituted CANCIDAS to an IV bag (or
+bottle) containing 250 ml of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection, or Lactated
+Ringers Injection. Alternatively, the volume (ml)c of reconstituted CANCIDAS can be added to
+a reduced volume of 0.9 %, 0.45 %, or 0.225 % Sodium Chloride Injection or Lactated Ringers
+3 Mosteller RD: Simplified Calculation of Body Surface Area. N Engl J Med 1987 Oct 22;317(17): 1098 (letter)
+Injection, not to exceed a final concentration of 0.5 mg/ml. This infusion solution must be used
+within 24 hours if stored at or below 25 C or within 48 hours if stored refrigerated at 2 to 8 C.
+Preparation notes: 
+a. The white to off-white cake will dissolve completely. Mix gently until a clear solution is obtained.
+b. Visually inspect the reconstituted solution for particulate matter or discolouration during
+reconstitution and prior to infusion. Do not use if the solution is cloudy or has precipitated.
+c. CANCIDAS is formulated to provide the full labelled vial dose (70 mg) when 10 ml is withdrawn
+from the vial.</p>         </div>"""      
 

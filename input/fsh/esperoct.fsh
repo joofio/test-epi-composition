@@ -4,7 +4,7 @@ Instance: composition-en-4235a6fbbdf6cea7a0c9802b3f2102e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for esperoct Package Leaflet"
 Description:  "Composition for esperoct Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -103,7 +103,7 @@ reaction) to Esperoct. </p>
 allergic reactions. These early signs may include rash, hives, weals, itching on large areas of skin, 
 redness and/or swelling of lips, tongue, face or hands, difficulty in swallowing or breathing, wheezing, 
 tightness of the chest, pale and cold skin, fast heartbeat, or dizziness, headache, nausea and vomiting. </p>
-<p>Development of ‘factor VIII inhibitors’ (antibodies) 
+<p>Development of  factor VIII inhibitors  (antibodies) 
 Inhibitors (antibodies) can develop during the treatment with all factor VIII medicines 
 * These inhibitors, especially at high levels, stop the treatment working properly 
 * You will be monitored carefully for development of these inhibitors 
@@ -140,7 +140,7 @@ haemophilia A.
 Always use this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure about how to use Esperoct. </p>
 <p>How Esperoct is given 
-Esperoct is given as an injection into a vein (intravenously), see “Instructions on how to use Esperoct” 
+Esperoct is given as an injection into a vein (intravenously), see  Instructions on how to use Esperoct<br />
 for more information. </p>
 <p>How much to use 
 Your doctor will calculate your dose for you. This will depend on your body weight and whether it is 
@@ -158,22 +158,28 @@ Adolescents (12 years of age and above) can use the same dose as adults. </p>
 <p>If you use more Esperoct than you should 
 If you use more Esperoct than you should, contact your doctor straight away. </p>
 <p>If you have to significantly increase your usage of Esperoct to stop a bleed, talk to your doctor 
-immediately. For further information, see “Development of ‘factor VIII inhibitors’ (antibodies)” in 
-section 2.<br />
-If you forget to use Esperoct 
-If you forget a dose, inject the missed dose as soon as you remember. Do not inject a double dose to 
-make up for a forgotten dose. Proceed with the next injection as scheduled and continue as advised by 
-your doctor. If you are in doubt, contact your doctor. </p>
-<p>If you stop using Esperoct 
-Do not stop using Esperoct without talking to your doctor. 
-If you stop using Esperoct, you may no longer be protected against bleeding or a current bleed may not 
-stop. If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+immediately. For further information, see  Development of  factor VIII inhibitors  (antibodies)  in 
+section </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to use Esperoct 
+If you forget a dose, inject the missed dose as soon as you remember. Do not inject a double dose to 
+make up for a forgotten dose. Proceed with the next injection as scheduled and continue as advised by 
+your doctor. If you are in doubt, contact your doctor. </p>
+<p>If you stop using Esperoct 
+Do not stop using Esperoct without talking to your doctor. 
+If you stop using Esperoct, you may no longer be protected against bleeding or a current bleed may not 
+stop. If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store esperoct"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store esperoct"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Allergic reactions (hypersensitivity) 
@@ -187,12 +193,19 @@ allergic reaction such as:
 * rash, hives, weals or itching 
 * pale and cold skin, fast heartbeat, or dizziness (low blood pressure) 
 * headache, nausea or vomiting. </p>
-<p>Development of ‘factor VIII inhibitors’ (antibodies) 
+<p>Development of  factor VIII inhibitors  (antibodies) 
 If you have previously received more than 150 days of treatment with factor VIII, inhibitors 
 (antibodies) may develop (may affect up to 1 in 100 people). If this happens, your medicine may stop 
 working properly and you may experience persistent bleeding. If this happens, you should contact 
-your doctor immediately. See “Development of ‘factor VIII inhibitors’ (antibodies)” in section 2.<br />
-The following side effects have been observed with Esperoct </p>
+your doctor immediately. See  Development of  factor VIII inhibitors  (antibodies)  in section </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following side effects have been observed with Esperoct </p>
 <p>Very common side effects (may affect more than up to 1 in 10 people) 
 * factor VIII inhibitors (antibodies) in patients not previously treated with factor VIII. </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
@@ -202,7 +215,7 @@ The following side effects have been observed with Esperoct </p>
 * rash. </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people) 
 * allergic reactions (hypersensitivity). These may become severe and could be life-threatening, see 
-“Allergic reactions (hypersensitivity)” above for more information 
+ Allergic reactions (hypersensitivity)  above for more information 
 * factor VIII inhibitors (antibodies) in patients previously treated with factor VIII. </p>
 <p>Other possible side effects (unknown frequency) 
 Decreased factor VIII activity in the absence of factor VIII inhibitors. </p>
@@ -211,71 +224,4 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store esperoct"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store esperoct"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated after ‘EXP’ on the carton, on the vial, 
-and on the pre-filled syringe labels. The expiry date refers to the last day of that month. </p>
-<p>Before reconstitution (before the powder is mixed with the solvent): 
-Store in a refrigerator (2 °C - 8 °C). Esperoct can be kept<br />
-* at room temperature (≤ 30 °C) for a single period for up to 12 months within the shelf life of the 
-product or 
-* above room temperature (&gt; 30 °C up to 40 °C) for a single period for up to 3 months within the 
-shelf life of the product. </p>
-<p>When you start to store Esperoct outside the refrigerator, record the date and the storage temperature 
-in the space provided on the carton.<br />
-Once you have taken the product out of the refrigerator for storage you must not store it again in the 
-refrigerator.Do not freeze. Store in the original package in order to protect from light. </p>
-<p>After reconstitution (after the powder has been mixed with the solvent – 500 IU, 1 000 IU, 1 500 IU, 
-2 000 IU, 3 000 IU): 
-Once you have reconstituted Esperoct, it should be used immediately. If you cannot use the 
-reconstituted solution immediately, it should be used within<br />
-<em> 24 hours when stored in a refrigerator (2 °C - 8 °C) or<br />
-</em> 4 hours at ≤ 30 °C or 
-* 1 hour between &gt; 30 °C and 40 °C, only if the product was stored above room temperature 
-(&gt; 30 °C up to 40 °C) before reconstitution for no longer than 3 months. </p>
-<p>After reconstitution (after the powder has been mixed with the solvent - 4 000 IU, 5 000 IU): 
-Chemical and physical inuse stability have been demonstrated for: 
-* 24 hours when stored in a refrigerator (2 °C - 8 °C) or 
-* 4 hours at ≤ 30 °C.  </p>
-<p>The powder in the vial appears as a white to off-white powder. Do not use the powder if the colour has 
-changed. </p>
-<p>The reconstituted solution must be clear and colourless. Do not use the reconstituted solution if you 
-notice any particles or discolouration. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Esperoct contains 
-* The active substance is turoctocog alfa pegol (pegylated human coagulation factor VIII 
-(rDNA)). Each vial of Esperoct contains nominally 500, 1 000, 1 500, 2 000, 3 000, 4 000 or 
-5 000 IU turoctocog alfa pegol. 
-* The other ingredients are L-histidine, sucrose, polysorbate 80, sodium chloride, L-methionine, 
-calcium chloride dihydrate, sodium hydroxide and hydrochloric acid. 
-* The ingredients in the solvent are sodium chloride 9 mg/mL (0.9%) solution for injection and 
-water for injections. </p>
-<p>After reconstitution with the supplied solvent (sodium chloride 9 mg/mL (0.9%) solution for 
-injection), the prepared solution for injection contains 125, 250, 375, 500, 750, 1 000 or 1 250 IU 
-turoctocog alfa pegol per mL, respectively (based on the strength of turoctocog alfa pegol, i.e. 500, 
-1 000, 1 500, 2 000, 3 000, 4 000 or 5 000 IU). </p>
-<p>What Esperoct looks like and contents of the pack 
-Esperoct is available in packs containing 500 IU, 1 000 IU, 1 500 IU, 2 000 IU, 3 000 IU, 4 000 IU or 
-5 000 IU. Each pack of Esperoct contains a vial with white to off-white powder, a 4 mL pre-filled 
-syringe with a clear colourless solvent, a plunger rod and a vial adapter. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Novo Nordisk A/S 
-Novo Allé 
-DK-2880 Bagsværd, Denmark </p>
-<p>This leaflet was last revised in<br />
-Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

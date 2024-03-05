@@ -4,7 +4,7 @@ Instance: composition-en-b61e3b7d3b2a48a0ce57af4f9ff7b307
 InstanceOf: CompositionUvEpi
 Title: "Composition for pedmarqsi Package Leaflet"
 Description:  "Composition for pedmarqsi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -82,19 +82,22 @@ tumours that have not spread to other areas of the body.  </p>         </div>"""
   * code.text = "2. What you need to know before you take pedmarqsi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not give Pedmarqsi 
-if the child is: 
-- allergic to sodium thiosulfate or any of the other ingredients of this medicine (listed in 
-section 6) 
--<br />
-a baby under the age of 1 month </p>
+if the child is:</p>
+<ul>
+<li>allergic to sodium thiosulfate or any of the other ingredients of this medicine (listed in 
+section 6) </li>
+<li>a baby under the age of 1 month </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to a doctor or nurse before you or your child receives Pedmarqsi if the child: 
-- has had an allergic reaction like a rash, hives or difficulty breathing after a previous dose of 
-sodium thiosulfate 
-- has a known allergy to chemicals called sulfites – this may mean you or the child is more likely 
-to have an allergic reaction to this medicine 
-- has poor kidney function or serious kidney disease 
-- needs a low salt diet because of another medical condition </p>
+Talk to a doctor or nurse before you or your child receives Pedmarqsi if the child:</p>
+<ul>
+<li>has had an allergic reaction like a rash, hives or difficulty breathing after a previous dose of 
+sodium thiosulfate </li>
+<li>has a known allergy to chemicals called sulfites   this may mean you or the child is more likely 
+to have an allergic reaction to this medicine </li>
+<li>has poor kidney function or serious kidney disease </li>
+<li>needs a low salt diet because of another medical condition </li>
+</ul>
 <p>Other medicines and Pedmarqsi 
 Tell the doctor or nurse if you or your child is taking, has recently taken or might take any other 
 medicines. </p>
@@ -182,11 +185,13 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pedmarqsi contains<br />
 - The active substance is sodium thiosulfate, in anhydrous form. 
-- The other ingredients are: 
-- boric acid (0.25 mg/mL) 
-- water for injections 
-- hydrochloric acid and sodium hydroxide for pH adjustment (see section 2; Pedmarqsi 
-contains sodium). </p>
+- The other ingredients are:</p>
+<ul>
+<li>boric acid (0.25 mg/mL) </li>
+<li>water for injections </li>
+<li>hydrochloric acid and sodium hydroxide for pH adjustment (see section 2; Pedmarqsi 
+contains sodium). </li>
+</ul>
 <p>What Pedmarqsi looks like and contents of the pack 
 This medicine is a solution for infusion. 
 This medicine is a clear and colourless sterile solution supplied in clear glass vials sealed with a 

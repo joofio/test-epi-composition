@@ -4,7 +4,7 @@ Instance: composition-en-8efc3218e58b030bcc0685f059870454
 InstanceOf: CompositionUvEpi
 Title: "Composition for blitzima Package Leaflet"
 Description:  "Composition for blitzima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,20 +69,20 @@ Usage: #example
   * code.text =  "1. What blitzima is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Blitzima is 
-Blitzima contains the active substance “rituximab”. This is a type of protein called a “monoclonal 
-antibody”. It sticks to the surface of a type of white blood cell called “B-Lymphocyte”. When 
+Blitzima contains the active substance  rituximab . This is a type of protein called a  monoclonal 
+antibody . It sticks to the surface of a type of white blood cell called  B-Lymphocyte . When 
 rituximab sticks to the surface of this cell, the cell dies. </p>
 <p>What Blitzima is used for 
 Blitzima may be used for the treatment of several different conditions in adults and children. Your 
 doctor may prescribe Blitzima for the treatment of: </p>
 <p>a) 
-Non-Hodgkin’s Lymphoma 
+Non-Hodgkin s Lymphoma 
 This is a disease of the lymph tissue (part of the immune system) that affects a type of white blood cell 
 called B-Lymphocytes. 
-In adults, Blitzima can be given alone or with other medicines called “chemotherapy”. 
+In adults, Blitzima can be given alone or with other medicines called  chemotherapy . 
 In adult patients where the treatment is working, Blitzima may be continued for 2 years after 
 completing the initial treatment. 
-In children and adolescents, Blitzima is given in combination with “chemotherapy”. </p>
+In children and adolescents, Blitzima is given in combination with  chemotherapy . </p>
 <p>b) 
 Chronic lymphocytic leukaemia 
 Chronic lymphocytic leukaemia (CLL) is the most common form of adult leukaemia. CLL affects a 
@@ -94,7 +94,7 @@ removed from the body by biological processes. </p>
 <p>c) 
 Granulomatosis with polyangiitis or microscopic polyangiitis 
 Blitzima is used for the treatment of adults and children 2 years of age and older with granulomatosis 
-with polyangiitis (formerly called Wegener’s granulomatosis) or microscopic polyangiitis, taken in 
+with polyangiitis (formerly called Wegener s granulomatosis) or microscopic polyangiitis, taken in 
 combination with corticosteroids. Granulomatosis with polyangiitis and microscopic polyangiitis are 
 two forms of inflammation of the blood vessels which mainly affects the lungs and kidneys, but may 
 affect other organs as well. B-lymphocytes are involved in the cause of these conditions. </p>
@@ -144,16 +144,16 @@ travel to other countries. Some vaccines should not be given at the same time as
 the months after you receive Blitzima. Your doctor will check if you should have any vaccines 
 before you receive Blitzima. </p>
 <p>Children and adolescents 
-Non-Hodgkin’s lymphoma 
+Non-Hodgkin s lymphoma 
 Blitzima can be used for the treatment of children and adolescents, 6 months of age and older, with 
-non-Hodgkin’s lymphoma, specifically CD20 positive diffuse large B-cell lymphoma (DLBCL), 
+non-Hodgkin s lymphoma, specifically CD20 positive diffuse large B-cell lymphoma (DLBCL), 
 Burkitt lymphoma (BL)/Burkitt leukaemia (mature B-cell acute leukaemia) (BAL) or Burkitt-like 
 lymphoma (BLL). 
 Talk to your doctor, pharmacist or nurse before you are given this medicine if you, or your child, are 
 under 18 years of age. </p>
 <p>Granulomatosis with polyangiitis or microscopic polyangiitis 
 Blitzima can be used for treatment of children and adolescents, 2 years of age and older, with 
-granulomatosis with polyangiitis (formerly called Wegener’s granulomatosis) or microscopic </p>
+granulomatosis with polyangiitis (formerly called Wegener s granulomatosis) or microscopic </p>
 <p>polyangiitis. There is not much information about the use of Blitzima in children and adolescents with 
 other diseases. 
 Talk to your doctor, pharmacist or nurse before you are given this medicine if you, or your child, are 
@@ -167,7 +167,7 @@ the way Blitzima works. </p>
 * if you are taking medicines for high blood pressure. You may be asked not to take these other 
 medicines 12 hours before you are given Blitzima. This is because some people have a fall in 
 their blood pressure while they are being given Blitzima. 
-* if you have ever taken medicines which affect your immune system – such as chemotherapy or 
+* if you have ever taken medicines which affect your immune system   such as chemotherapy or 
 immune-suppressive medicines. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor, pharmacist or nurse before 
 you are given Blitzima. </p>
@@ -204,7 +204,7 @@ Before you are given Blitzima, you will be given other medicines (pre-medication
 reduce possible side effects. </p>
 <p>How much and how often you will receive your treatment </p>
 <p>a) 
-If you are being treated for non-Hodgkin’s Lymphoma 
+If you are being treated for non-Hodgkin s Lymphoma 
 * If you are having Blitzima alone 
 Blitzima will be given to you once a week for 4 weeks. Repeated treatment courses with 
 Blitzima are possible. 
@@ -214,7 +214,7 @@ every 3 weeks up to 8 times.
 * If you respond well to treatment, you may be given Blitzima every 2 or 3 months for two 
 years. Your doctor may change this, depending on how you respond to the medicine. 
 * If you are less than 18 years of age, you will be given Blitzima with chemotherapy. You will 
-receive Blitzima up to 6 times over a 3.5 – 5.5 month period. </p>
+receive Blitzima up to 6 times over a 3.5   5.5 month period. </p>
 <p>b) 
 If you are being treated for chronic lymphocytic leukaemia 
 When you are treated with Blitzima in combination with chemotherapy, you will receive Blitzima 
@@ -262,16 +262,16 @@ infusion. Your doctor may decide to stop your Blitzima treatment if these reacti
 <p>Tell your doctor immediately if you or your child gets signs of an infection including: </p>
 <ul>
 <li>fever, cough, sore throat, burning pain when passing urine or feeling weak or generally unwell </li>
-<li>memory loss, trouble thinking, difficulty walking or sight loss – these may be due to a very rare, 
+<li>memory loss, trouble thinking, difficulty walking or sight loss   these may be due to a very rare, 
 serious brain infection, which has been fatal (progressive multifocal leukoencephalopathy or 
 PML). </li>
 <li>fever, headache and stiff neck, incoordination (ataxia), personality change, hallucinations, 
-altered consciousness, seizures or coma – these may be due to a serious brain infection 
+altered consciousness, seizures or coma   these may be due to a serious brain infection 
 (enteroviral meningoencephalitis), which can be fatal. </li>
 </ul>
 <p>You might get infections more easily during your treatment with Blitzima. 
 These are often colds, but there have been cases of pneumonia,  urinary infections and serious viral 
-infections. These are listed below under “Other side effects”. </p>
+infections. These are listed below under  Other side effects . </p>
 <p>If you are being treated for granulomatosis with polyangiitis, microscopic polyangiitis or pemphigus 
 vulgaris, you will also find this information in the Patient Alert Card you have been given by your 
 doctor. It is important that you keep this Alert Card and show it to your partner or caregiver. </p>
@@ -282,14 +282,14 @@ the genital areas or the eyelids, and fever may be present. Tell your doctor imm
 any of these symptoms. </p>
 <p>Other side effects include: </p>
 <p>a) 
-If you or your child are being treated for non-Hodgkin’s Lymphoma or chronic 
+If you or your child are being treated for non-Hodgkin s Lymphoma or chronic 
 lymphocytic leukaemia </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
 * bacterial or viral infections, bronchitis 
-* low number of white blood cells, with or without fever or blood cells called “platelets” 
+* low number of white blood cells, with or without fever or blood cells called  platelets<br />
 * feeling sick (nausea) 
 * bald spots on the scalp, chills, headache 
-* lower immunity – because of lower levels of anti-bodies called “immunoglobulins” (IgG) 
+* lower immunity   because of lower levels of anti-bodies called  immunoglobulins  (IgG) 
 in the blood which help protect against infection </p>
 <p>Common side effects (may affect up to 1 in 10 people): 
 * infections of the blood (sepsis), pneumonia, shingles, cold, bronchial tube infections, 
@@ -297,8 +297,8 @@ fungal infections, infections of unknown origin, sinus inflammation, hepatitis B
 * low number of red blood cells (anaemia), low number of all blood cells 
 * allergic reactions (hypersensitivity) 
 * high blood sugar level, weight loss, swelling in the face and body, high levels of the 
-enzyme “lactate dehydrogenase (LDH)” in the blood, low calcium levels in the blood 
-* unusual feelings of the skin – such as numbness, tingling, pricking, burning, a creeping 
+enzyme  lactate dehydrogenase (LDH)  in the blood, low calcium levels in the blood 
+* unusual feelings of the skin   such as numbness, tingling, pricking, burning, a creeping 
 skin feeling, reduced sense of touch 
 * feeling restless, problems falling asleep, 
 * becoming very red in the face and other areas of the skin as a consequence of dilation of 
@@ -306,7 +306,7 @@ the blood vessels
 * feeling dizzy or anxious 
 * producing more tears, tear duct problems, inflamed eye (conjunctivitis) 
 * ringing sound in the ears, ear pain 
-* heart problems – such as heart attack, uneven or fast heart rate 
+* heart problems   such as heart attack, uneven or fast heart rate 
 * high or low blood pressure (low blood pressure especially when standing upright) 
 * tightening of the muscles in the airways which causes wheezing (bronchospasm), 
 inflammation, irritation in the lungs, throat or sinuses, being short of breath, runny 
@@ -316,7 +316,7 @@ nose </p>
 and mouth, problems swallowing, constipation, indigestion </li>
 <li>eating disorders, not eating enough, leading to weight loss </li>
 <li>hives, increased sweating, night sweats </li>
-<li>muscle problems – such as tight muscles, joint or muscle pain, back and neck pain </li>
+<li>muscle problems   such as tight muscles, joint or muscle pain, back and neck pain </li>
 <li>general discomfort or feeling uneasy or tired, shaking, signs of flu </li>
 <li>multiple-organ failure. </li>
 </ul>
@@ -324,13 +324,13 @@ and mouth, problems swallowing, constipation, indigestion </li>
 * blood clotting problems, decrease of red blood cell production and increase of red blood 
 cell destruction (aplastic haemolytic anaemia), swollen or enlarged lymph nodes 
 * low mood and loss of interest or enjoyment in doing things, feeling nervous 
-* taste problems – such as changes in the way things taste 
-* heart problems – such as reduced heart rate or chest pain (angina) 
+* taste problems   such as changes in the way things taste 
+* heart problems   such as reduced heart rate or chest pain (angina) 
 * asthma, too little oxygen reaching the body organs 
 * swelling of the stomach. </p>
 <p>Very rare side effects (may affect up to 1 in 10,000 people): 
 * short term increase in the amount of some types of anti-bodies in the blood (called 
-immunoglobulins – IgM), chemical disturbances in the blood caused by break-down of 
+immunoglobulins   IgM), chemical disturbances in the blood caused by break-down of 
 dying cancer cells 
 * nerve damage in arms and legs, paralysed face 
 * heart failure 
@@ -344,13 +344,13 @@ the mouth, the genital areas or the eyelids, and fever may be present.
 * severe vision loss </p>
 <p>Not known (it is not known how often these side effects happen): 
 * a reduction in white blood cells which does not happen straight away 
-* reduced platelets number just after the infusion – this can be reversed, but can be fatal in 
+* reduced platelets number just after the infusion   this can be reversed, but can be fatal in 
 rare cases 
 * hearing loss, loss of other senses 
 *  brain and meningeal infection/inflammation (enteroviral meningoencephalitis) </p>
-<p>Children and adolescents with non-Hodgkin’s lymphoma 
-In general, side effects in children and adolescents with non-Hodgkin’s lymphoma were similar to 
-those in adults with non-Hodgkin’s lymphoma or chronic lymphocytic leukaemia. The most common 
+<p>Children and adolescents with non-Hodgkin s lymphoma 
+In general, side effects in children and adolescents with non-Hodgkin s lymphoma were similar to 
+those in adults with non-Hodgkin s lymphoma or chronic lymphocytic leukaemia. The most common 
 side effects seen were fever associated with low levels of a type of white blood cell (neutrophil), 
 inflammation or sores in the lining of the mouth, and allergic reactions (hypersensitivity). </p>
 <p>b) 
@@ -441,7 +441,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Keep the vial in the outer carton in order to protect from light. </p>
+<p>Store in a refrigerator (2  C   8  C). Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines that you no longer use. These measures will help protect the 
 environment. </p>         </div>"""      
@@ -458,16 +458,16 @@ The 10 mL vial contains 100 mg of rituximab (10 mg/mL).<br />
 The 50 mL vial contains 500 mg of rituximab (10 mg/mL). </p>
 <ul>
 <li>The other ingredients are sodium chloride, tri-sodium citrate dihydrate, polysorbate 80 and 
-water for injections (see section 2 “Blitzima contains sodium”). </li>
+water for injections (see section 2  Blitzima contains sodium ). </li>
 </ul>
 <p>What Blitzima looks like and contents of the pack </p>
 <p>Blitzima is a clear, colourless solution, supplied as a concentrate for solution for infusion.<br />
-10 mL vial – Pack of 2 vials 
-50 mL vial – Pack of 1 vial </p>
+10 mL vial   Pack of 2 vials 
+50 mL vial   Pack of 1 vial </p>
 <p>Marketing Authorisation Holder </p>
 <p>Celltrion Healthcare Hungary Kft.  </p>
 <p>1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
+V ci  t 1-3. WestEnd Office Building B torony 
 Hungary </p>
 <p>Manufacturer </p>
 <p>Millmount Healthcare Ltd. 
@@ -482,8 +482,8 @@ Germany </p>
 2400, Route des Colles, 06410, Biot,<br />
 France </p>
 <p>KYMOS S.L. 
-Ronda de Can Fatjó, 7B Parc Tecnològic del Vallès 
-08290 – Cerdanyola del Vallès, Barcelona,<br />
+Ronda de Can Fatj , 7B Parc Tecnol gic del Vall s 
+08290   Cerdanyola del Vall s, Barcelona,<br />
 Spain </p>
 <p>Midas Pharma GmbH<br />
 Rheinstrasse 49, West Ingelheim Am Rhein,<br />
@@ -491,21 +491,20 @@ Rhineland-Palatinate 55218 Ingelheim,<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Celltrion Healthcare Belgium BVBA 
 BEinfo@celltrionhc.com 
 Lietuva 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-България 
-Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0 </p>
+<p>Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 </p>
 <p>Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
 BEinfo@celltrionhc.com 
-Česká republika 
+ esk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0Magyarország 
+Tel: +36 1 231 0Magyarorsz g 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 </p>
 <p>Danmark 
@@ -521,16 +520,15 @@ Nederland
 Celltrion Healthcare Netherlands B.V. 
 NLinfo@celltrionhc.com </p>
 <p>Eesti 
-Orion Pharma Eesti OÜ </p>
+Orion Pharma Eesti O  </p>
 <p>Norge 
 Orion Pharma AS </p>
 <p>Tel: + 372 6 644 Tlf: + 47 40 00 42  </p>
-<p>Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 8009111 –<br />
-España 
+<p>. . 
+ : +30 210 8009111  <br />
+Espa a 
 Kern Pharma, S.L. 
-Tel: +34 93 700 2Österreich 
+Tel: +34 93 700 2 sterreich 
 Astro-Pharma GmbH 
 Tel: +43 1 97 99<br />
 Polska 
@@ -538,14 +536,14 @@ EGIS Polska Sp. z o.o.
 Tel.: + 48 22 417 9 </p>
 <p>France 
 CELLTRION HEALTHCARE FRANCE SAS 
-Tél: +33 (0)1 71 25 27 Portugal 
-PharmaKERN Portugal – Produtos Farmacêuticos, 
+T l: +33 (0)1 71 25 27 Portugal 
+PharmaKERN Portugal   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
 Tel: +351 214 200<br />
 Hrvatska 
 Oktal Pharma d.o.o. 
 Tel: +385 1 6595<br />
-România 
+Rom nia 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 
 Ireland 
@@ -554,20 +552,19 @@ enquiry_ie@celltrionhc.com </p>
 <p>Slovenija 
 OPH Oktal Pharma d.o.o.<br />
 Tel: +386 1 519 29  </p>
-<p>Ísland 
+<p>sland 
 Vistor hf.<br />
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0Italia 
 Celltrion Healthcare Italy S.R.L 
 Tel: +39 0427 927Celltrionhealthcare_italy@legalmail.it 
 Suomi/Finland 
 Orion Pharma 
-Puh/Tel: + 358 10 4 
-Κύπρος 
-C.A. Papaellinas Ltd 
-Τηλ: +357 22741 
+Puh/Tel: + 358 10 4 </p>
+<p>C.A. Papaellinas Ltd 
+ : +357 22741 
 Sverige 
 Orion Pharma AB 
 Tel: + 46 8 623 64<br />

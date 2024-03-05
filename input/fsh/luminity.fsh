@@ -4,7 +4,7 @@ Instance: composition-en-8a94445977c6995eab70c753c18b38b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for luminity Package Leaflet"
 Description:  "Composition for luminity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -114,7 +114,7 @@ before you are given Luminity.  </p>
 <p>Driving and using machines 
 Luminity has no effect on the ability to drive and use machines. </p>
 <p>Luminity contains sodium. 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-free’. </p>
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . </p>
 <p>Luminity contains propylene glycol. 
 This medicine contains 103.5 mg/ml propylene glycol, which is equivalent to 182.2mg in each vial. </p>         </div>"""   
                     
@@ -129,9 +129,9 @@ you. </p>
 <p>Luminity is for intravenous use (direct injection into the vein). Before use, this medicine must be 
 activated by shaking it using a mechanical device called Vialmix, which is supplied to doctors who 
 need to prepare the medicine. This ensures that the medicine is shaken in the correct way and for long 
-enough to make up a ‘dispersion’ of microspheres of perflutren gas of the right size to get a good 
+enough to make up a  dispersion  of microspheres of perflutren gas of the right size to get a good 
 quality image.  </p>
-<p>Luminity is then given into a vein either as a ‘bolus’ injection (given all at once) or as an infusion 
+<p>Luminity is then given into a vein either as a  bolus  injection (given all at once) or as an infusion 
 (drip solution) after being diluted with sodium chloride 9 mg/ml (0.9%) or glucose 50 mg/ml (5%) 
 solution for injection. In some cases, your doctor may choose to use two injections to complete the 
 ultrasound examination.  The way Luminity is given and the dose depend on the technique used for the 
@@ -200,8 +200,8 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
 <p>Do not use Luminity after the expiry date which is stated on the carton and label after EXP. </p>
-<p>Before activation (shaking), store in a refrigerator (2°C - 8°C). 
-After activation (shaking), do not store above 30°C. </p>
+<p>Before activation (shaking), store in a refrigerator (2 C - 8 C). 
+After activation (shaking), do not store above 30 C. </p>
 <p>The dispersion should be given to you within 12 hours of activation (shaking). </p>
 <p>The product can be re-activated up to 48 hours after initial activation and used up to 12 hours after the 
 second activation. </p>         </div>"""      

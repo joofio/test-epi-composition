@@ -4,7 +4,7 @@ Instance: composition-en-8072777f1d7e921aa6202af1f1964c39
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinqaero Package Leaflet"
 Description:  "Composition for cinqaero Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,27 +93,35 @@ decreases your asthma symptoms. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take cinqaero"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not receive CINQAERO: 
-- if you are allergic to reslizumab or any of the other ingredients of this medicine (listed in 
-section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not receive CINQAERO:</p>
+<ul>
+<li>if you are allergic to reslizumab or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor or nurse before you are given CINQAERO: 
-- if you have a parasitic infection or if you live in an area where parasitic infections are common 
-or if you are travelling to such a region, as this medicine may weaken your body’s ability to 
-fight certain types of parasitic infections. </p>
-<p>Also, talk to your doctor or nurse when you are given CINQAERO: 
-- if your asthma remains uncontrolled or worsens during treatment with this medicine; 
-- if you have any of the symptoms of an allergic reaction (e.g. itching, trouble breathing, 
+Talk to your doctor or nurse before you are given CINQAERO:</p>
+<ul>
+<li>if you have a parasitic infection or if you live in an area where parasitic infections are common 
+or if you are travelling to such a region, as this medicine may weaken your body s ability to 
+fight certain types of parasitic infections. </li>
+</ul>
+<p>Also, talk to your doctor or nurse when you are given CINQAERO:</p>
+<ul>
+<li>if your asthma remains uncontrolled or worsens during treatment with this medicine; </li>
+<li>if you have any of the symptoms of an allergic reaction (e.g. itching, trouble breathing, 
 wheezing, fever, shivering, dizziness, headache, nausea, vomiting, abdominal discomfort, skin 
 rash, redness or swelling). Serious allergic reactions have occurred in patients receiving this 
-medicine (see section “4. Possible side effects”). </p>
+medicine (see section  4. Possible side effects ). </li>
+</ul>
 <p>Children and adolescents 
 This medicine is NOT intended for use in children and adolescents below the age of 18 years. </p>
 <p>Other medicines and CINQAERO 
 Tell your doctor if you are using, have recently used or might use any other medicines. </p>
-<p>This is particularly important: 
-- if you are receiving other medicines which affect your immune system; 
-- if you have recently received a vaccination or if you are likely to need a vaccination. </p>
+<p>This is particularly important:</p>
+<ul>
+<li>if you are receiving other medicines which affect your immune system; </li>
+<li>if you have recently received a vaccination or if you are likely to need a vaccination. </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before you are given this medicine. </p>
@@ -181,7 +189,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and vial label after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8ºC). Do not freeze. 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -212,7 +220,7 @@ Swensweg 5
 The Netherlands </p>
 <p>Manufacturer 
 UAB Teva Baltics 
-Molėtų pl. 5 
+Mol t  pl. 5 
 LT-08409 Vilnius 
 Lithuania </p>
 <p>Merckle GmbH 
@@ -221,24 +229,22 @@ Graf-Arco-Str. 3
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -258,28 +264,27 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -288,10 +293,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -299,16 +304,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

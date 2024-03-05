@@ -4,7 +4,7 @@ Instance: composition-en-8d5b3af2f06c1106a48ff1e829dc96e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for empliciti Package Leaflet"
 Description:  "Composition for empliciti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -91,7 +91,7 @@ kidneys. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not be given Empliciti 
 * if you are allergic to elotuzumab or any of the other ingredients of this medicine (listed in 
-section 6 “Contents of the pack and other information”). Talk to your doctor if you are not sure. </p>
+section 6  Contents of the pack and other information ). Talk to your doctor if you are not sure. </p>
 <p>Warnings and precautions 
 Infusion related reaction 
 Tell your doctor or nurse straight away if you get any of the infusion related reactions listed at the top 
@@ -103,11 +103,11 @@ When the symptoms go away or improve, the infusion can be continued more slowly 
 <p>gradually if the symptoms do not recur. Your doctor may decide not to continue Empliciti treatment if 
 you have a strong infusion related reaction. </p>
 <p>Before each infusion of Empliciti, you will be given medicines to reduce infusion related reaction (see 
-section 3 “How to use Empliciti, Medicines given before each infusion”). </p>
+section 3  How to use Empliciti, Medicines given before each infusion ). </p>
 <p>Before starting treatment with Empliciti, you must also read the package leaflet warnings and 
 precautions of all medicines to be taken in combination with Empliciti for information related to these 
 medicines. When lenalidomide is used, particular attention to pregnancy testing and prevention 
-requirements is needed (see “Pregnancy and breast-feeding” in this section). </p>
+requirements is needed (see  Pregnancy and breast-feeding  in this section). </p>
 <p>Children and adolescents 
 Empliciti is not recommended for use in children and adolescents aged under 18 years. </p>
 <p>Other medicines and Empliciti 
@@ -133,7 +133,7 @@ You should use a condom while taking Empliciti and for 180 days after stopping t
 your partner does not become pregnant. </p>
 <p>Driving and using machines 
 Empliciti is unlikely to affect your ability to drive or use machines. However, if you get an 
-infusion related reaction (fever, chills, high blood pressure see section 4 “Possible side effects”), do 
+infusion related reaction (fever, chills, high blood pressure see section 4  Possible side effects ), do 
 not drive, cycle or use machines until the reaction stops. </p>
 <p>Empliciti contains sodium 
 Tell your doctor if you are on a low-sodium (low-salt) diet before you are given Empliciti. This 
@@ -185,8 +185,8 @@ unless you have discussed this with your doctor. </p>
 doctor will discuss these with you and will explain the risks and benefits of your treatment. </p>
 <p>The following side effects have been reported in clinical trials with elotuzumab: </p>
 <p>Infusion related reactions 
-Empliciti has been associated with infusion related reactions (see section 2 “Warnings and 
-precautions”). Tell your doctor or nurse straight away if you feel unwell during infusion. Below is 
+Empliciti has been associated with infusion related reactions (see section 2  Warnings and 
+precautions ). Tell your doctor or nurse straight away if you feel unwell during infusion. Below is 
 a list of typical symptoms associated with infusion related reactions: 
 * Fever 
 * Chills 
@@ -231,14 +231,14 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). 
+<p>Store in a refrigerator (2 C - 8 C). 
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>After reconstitution, the reconstituted solution should be transferred from the vial to the infusion bag 
 immediately. </p>
 <p>After dilution, the infusion must be completed within 24 hours of preparation. The product should be 
 used immediately. If not used immediately, the solution for infusion may be stored in the refrigerator 
-(2 °C - 8 °C) for up to 24 hours. </p>
+(2  C - 8  C) for up to 24 hours. </p>
 <p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
         
         
@@ -255,8 +255,8 @@ Each vial of powder contains either 300 mg or 400 mg of elotuzumab.
 After reconstitution, each mL of concentrate contains 25 mg of elotuzumab. </p>
 </li>
 <li>
-<p>The other ingredients (excipients) are sucrose, sodium citrate (see section 2 “Empliciti contains 
-sodium”), citric acid monohydrate, and polysorbate 80 (E433). </p>
+<p>The other ingredients (excipients) are sucrose, sodium citrate (see section 2  Empliciti contains 
+sodium ), citric acid monohydrate, and polysorbate 80 (E433). </p>
 </li>
 </ul>
 <p>What Empliciti looks like and contents of the pack </p>

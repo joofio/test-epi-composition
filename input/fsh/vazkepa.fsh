@@ -4,7 +4,7 @@ Instance: composition-en-96431077feaab94e628cf99788cf8afd
 InstanceOf: CompositionUvEpi
 Title: "Composition for vazkepa Package Leaflet"
 Description:  "Composition for vazkepa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,10 +72,12 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vazkepa contains the active substance icosapent ethyl, a highly purified omega-3 fatty acid from fish 
 oil.  </p>
 <p>Vazkepa lowers levels of triglycerides (types of fat) in the blood and it is used with a statin medicine 
-(that lowers blood cholesterol) to prevent cardiovascular events, such as: 
-- heart attack 
-- stroke 
-- death from heart or vascular disease </p>
+(that lowers blood cholesterol) to prevent cardiovascular events, such as:</p>
+<ul>
+<li>heart attack </li>
+<li>stroke </li>
+<li>death from heart or vascular disease </li>
+</ul>
 <p>Vazkepa is used in adults with high blood triglycerides who already have heart disease or have 
 diabetes and other conditions that put them at a higher risk of cardiovascular events. </p>         </div>"""   
           
@@ -90,12 +92,14 @@ diabetes and other conditions that put them at a higher risk of cardiovascular e
 - If you are allergic to icosapent ethyl, soya or any of the other ingredients of this medicine 
 (listed in section 6). </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking Vazkepa: 
-- If you are allergic to fish or to shellfish. 
-- If you have problems with your liver. 
-- If you have problems with irregular heartbeat (atrial fibrillation or flutter). 
-- If you take an anticoagulant medicine (which prevents blood from clotting), medicines that 
-inhibit platelets in the blood or are at risk of bleeding. </p>
+Talk to your doctor or pharmacist before taking Vazkepa:</p>
+<ul>
+<li>If you are allergic to fish or to shellfish. </li>
+<li>If you have problems with your liver. </li>
+<li>If you have problems with irregular heartbeat (atrial fibrillation or flutter). </li>
+<li>If you take an anticoagulant medicine (which prevents blood from clotting), medicines that 
+inhibit platelets in the blood or are at risk of bleeding. </li>
+</ul>
 <p>If any of the above applies to you, talk to your doctor. </p>
 <p>Blood tests 
 During your treatment your doctor may carry out blood tests to check for any problems with your liver 
@@ -207,7 +211,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label or blister carton after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store below 30 °C. </p>
+<p>Store below 30  C. </p>
 <p>Bottle: keep the bottle tightly closed in order to protect from moisture. 
 Blister pack: store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -222,13 +226,11 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vazkepa contains 
 * The active substance is icosapent ethyl. Each Vazkepa capsule contains 998 mg of icosapent 
 ethyl. 
-* The other ingredients are<br />
-o all-rac-alpha-tocopherol, gelatin, glycerol, liquid maltitol (E965 ii), liquid sorbitol (non-
-crystallising) (E420 ii), purified water and soya lecithin (see section 2 “Vazkepa contains 
-maltitol, sorbitol and soya lecithin”). 
-o printing ink: titanium dioxide, propylene glycol, hypromellose. </p>
+* The other ingredients are  * all-rac-alpha-tocopherol, gelatin, glycerol, liquid maltitol (E965 ii), liquid sorbitol (non-
+crystallising) (E420 ii), purified water and soya lecithin (see section 2  Vazkepa contains 
+maltitol, sorbitol and soya lecithin ). * printing ink: titanium dioxide, propylene glycol, hypromellose. </p>
 <p>What Vazkepa looks like and contents of the pack </p>
-<p>In this pack you will find oblong soft capsules, 25 x 10 mm, printed with “IPE” in white ink, with a 
+<p>In this pack you will find oblong soft capsules, 25 x 10 mm, printed with  IPE  in white ink, with a 
 light yellow to amber shell containing a colourless to pale yellow liquid. </p>
 <p>The bottles containing 120 capsules are white 300-cc, high density polyethylene (HDPE) with a child-
 resistant polypropylene heat induction sealed closure. 
@@ -245,22 +247,21 @@ Portmarnock,<br />
 D13 WCIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Amarin Pharmaceuticals Ireland Limited 
-Tél/Tel: 0800-75AmarinConnect@amarincorp.eu </p>
+T l/Tel: 0800-75AmarinConnect@amarincorp.eu </p>
 <p>Lietuva 
 Amarin Pharmaceuticals Ireland Limited 
 Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
-<p>България 
-Amarin Pharmaceuticals Ireland Limited 
-Teл.: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Amarin Pharmaceuticals Ireland Limited 
+Te .: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Luxembourg/Luxemburg 
 Amarin Pharmaceuticals Ireland Limited 
-Tél/Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
-<p>Česká republika 
+T l/Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>esk  republika 
 Amarin Pharmaceuticals Ireland Limited 
 Tlf: +353(0)16915AmarinConnect@amarincorp.eu </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Amarin Pharmaceuticals Ireland Limited 
 Tel.: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Danmark 
@@ -281,13 +282,12 @@ Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Norge 
 Amarin Pharmaceuticals Ireland Limited 
 Tlf: +46 84 468 5AmarinConnect@amarincorp.eu </p>
-<p>Ελλάδα 
-Amarin Pharmaceuticals Ireland Limited<br />
-Τηλ: +353(0)16915AmarinConnect@amarincorp.eu </p>
-<p>Österreich 
+<p>Amarin Pharmaceuticals Ireland Limited<br />
+ : +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>sterreich 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: 0800-281AmarinConnect@amarincorp.eu </p>
-<p>España 
+<p>Espa a 
 Amarin Pharmaceuticals Ireland Limited<br />
 Polska 
 Amarin Pharmaceuticals Ireland Limited<br />
@@ -295,14 +295,14 @@ Tel: 900806AmarinConnect@amarincorp.eu </p>
 <p>Tel.: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>France 
 Amarin Pharmaceuticals Ireland Limited<br />
-Tél: 0800-991AmarinConnect@amarincorp.eu </p>
+T l: 0800-991AmarinConnect@amarincorp.eu </p>
 <p>Portugal 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Hrvatska 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
-<p>România 
+<p>Rom nia 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Ireland 
@@ -311,10 +311,10 @@ Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Slovenija 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
-<p>Ísland 
+<p>sland 
 Amarin Pharmaceuticals Ireland Limited<br />
-Sími: +46-84-4685AmarinConnect@amarincorp.eu </p>
-<p>Slovenská republika 
+S mi: +46-84-4685AmarinConnect@amarincorp.eu </p>
+<p>Slovensk  republika 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Italia 
@@ -323,9 +323,8 @@ Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Suomi/Finland 
 Amarin Pharmaceuticals Ireland Limited<br />
 Puh/Tel: +46-84-4685AmarinConnect@amarincorp.eu </p>
-<p>Κύπρος 
-Amarin Pharmaceuticals Ireland Limited<br />
-Τηλ: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Amarin Pharmaceuticals Ireland Limited<br />
+ : +353(0)16915AmarinConnect@amarincorp.eu </p>
 <p>Sverige 
 Amarin Pharmaceuticals Ireland Limited<br />
 Tel: +46-84-4685AmarinConnect@amarincorp.eu </p>

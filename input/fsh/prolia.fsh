@@ -4,7 +4,7 @@ Instance: composition-en-35323b42feff1c3fa548fa35e97558e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for prolia Package Leaflet"
 Description:  "Composition for prolia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -127,7 +127,7 @@ the following precautions: </p>
 <ul>
 <li>have any problems with your mouth or teeth such as poor dental health, gum disease, or a 
 planned tooth extraction. </li>
-<li>don’t receive routine dental care or have not had a dental check-up for a long time. </li>
+<li>don t receive routine dental care or have not had a dental check-up for a long time. </li>
 <li>are a smoker (as this may increase the risk of dental problems). </li>
 <li>have previously been treated with a bisphosphonate (used to treat or prevent bone disorders). </li>
 <li>are taking medicines called corticosteroids (such as prednisolone or dexamethasone). </li>
@@ -169,8 +169,8 @@ of Prolia to the mother. </p>
 <p>Prolia contains sorbitol </p>
 <p>This medicine contains 47 mg sorbitol in each mL of solution. </p>
 <p>Prolia contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per 60 mg, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per 60 mg, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prolia"
@@ -270,12 +270,12 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
+<p>Store in a refrigerator (2 C   8 C). 
 Do not freeze. 
 Keep the container in the outer carton in order to protect from light. </p>
-<p>Your pre-filled syringe may be left outside the refrigerator to reach room temperature (up to 25°C) 
+<p>Your pre-filled syringe may be left outside the refrigerator to reach room temperature (up to 25 C) 
 before injection. This will make the injection more comfortable. Once your syringe has been left to 
-reach room temperature (up to 25°C), it must be used within 30 days. </p>
+reach room temperature (up to 25 C), it must be used within 30 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -319,23 +319,21 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
+Tel/T l: +32 (0)2 7752 
 Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7 
+Tel: +370 5 219 7 </p>
+<p>.: +359 (0)2 424 7 
 Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
+Tel/T l: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
 Tel: +420 221 773<br />
-Magyarország 
+Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44<br />
 Danmark 
@@ -356,14 +354,13 @@ Amgen Switzerland AG Vilniaus filialas
 Tel: +372 586 09 
 Norge 
 Amgen AB 
-Tlf: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ.: +30 210 3447 
-Österreich 
+Tlf: +47 23308 </p>
+<p>Amgen      . . . 
+ .: +30 210 3447 
+ sterreich 
 Amgen GmbH 
 Tel: +43 (0)1 50<br />
-España 
+Espa a 
 Amgen S.A. 
 Tel: +34 93 600 18<br />
 Polska 
@@ -371,15 +368,15 @@ Amgen Biotechnologia Sp. z o.o.
 Tel.: +48 22 581 3 
 France 
 Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
+T l: +33 (0)9 69 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 4220 
 Hrvatska 
 Amgen d.o.o. 
 Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
+Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
@@ -387,10 +384,10 @@ Tel: +353 1 8527
 Slovenija 
 AMGEN zdravila d.o.o. 
 Tel: +386 (0)1 585 1 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114<br />
 Italia 
@@ -400,14 +397,14 @@ Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ: +357 22741<br />
+ : +357 22741<br />
 Sverige 
 Amgen AB 
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 

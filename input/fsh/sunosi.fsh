@@ -4,7 +4,7 @@ Instance: composition-en-4c464411361072df4cc109cbbcdd523e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunosi Package Leaflet"
 Description:  "Composition for sunosi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,8 +96,8 @@ therapy, such as continuous positive airway pressure (CPAP).  </li>
 * have serious heart problems, such as chest pain of recent onset, or chest pain that is lasting 
 longer or is more severe than usual, high blood pressure not properly controlled with 
 medicines, serious irregular heart beat or other serious heart problems 
-* are taking a type of medicine called a ‘monoamine oxidase inhibitor’ (MAOI) for 
-depression or Parkinson’s disease, or have taken an MAOI in the last 14 days. 
+* are taking a type of medicine called a  monoamine oxidase inhibitor  (MAOI) for 
+depression or Parkinson s disease, or have taken an MAOI in the last 14 days. 
 Warnings and precautions 
 Talk to your doctor or pharmacist before taking Sunosi if you have or have had: </p>
 <ul>
@@ -120,12 +120,12 @@ are not yet known in this age group. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Do not take Sunosi if: 
-* you are taking a medicine called a ‘monoamine oxidase inhibitor’ (MAOI) for depression or 
-Parkinson’s disease, or have taken an MAOI in the last 14 days because taking an MAOI with 
+* you are taking a medicine called a  monoamine oxidase inhibitor  (MAOI) for depression or 
+Parkinson s disease, or have taken an MAOI in the last 14 days because taking an MAOI with 
 Sunosi may increase your blood pressure. </p>
 <p>Check with your doctor or pharmacist if you are taking medicines that can increase your blood 
 pressure or heart rate, or if you are taking dopaminergic agents (e.g. pramipexole, levodopa, 
-methylphenidate) which are used to treat Parkinson’s disease, depression, restless leg syndrome and 
+methylphenidate) which are used to treat Parkinson s disease, depression, restless leg syndrome and 
 ADHD.  </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -163,14 +163,14 @@ when you wake up. You can get this dose by taking half of one 75 mg tablet. The 
 be broken using the score line. </p>
 </li>
 <li>
-<p>After at least 3 days’ treatment, your doctor may increase your daily dose to the most appropriate 
+<p>After at least 3 days  treatment, your doctor may increase your daily dose to the most appropriate 
 dose. </p>
 </li>
 </ul>
 <p>The recommended maximum dose of Sunosi is 150 mg daily. </p>
 <p>Elderly (aged more than 65 years) 
-Take the usual daily dose unless you have kidney problems (see below “Patients with kidney 
-problems”). </p>
+Take the usual daily dose unless you have kidney problems (see below  Patients with kidney 
+problems ). </p>
 <p>Patients with kidney problems 
 If you have kidney problems your doctor may need to adjust the dose. </p>
 <p>Taking Sunosi 
@@ -229,7 +229,7 @@ of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the bottle / blister after 
-“EXP”. The expiry date refers to the last day of that month.  </p>
+ EXP . The expiry date refers to the last day of that month.  </p>
 <p>Blisters: This medicine does not require any special storage conditions. </p>
 <p>Bottles: Once opened, use within 4 months. Keep the container tightly closed in order to protect from 
 moisture. </p>
@@ -254,10 +254,10 @@ Tablet cores: Hydroxypropyl cellulose, magnesium stearate </p>
 <p>What Sunosi looks like and contents of the pack 
 Film-coated tablet </p>
 <p>Sunosi 75 mg film-coated tablets 
-Yellow to dark yellow/orange oblong tablet with “75” debossed on one side and a score line on the 
+Yellow to dark yellow/orange oblong tablet with  75  debossed on one side and a score line on the 
 opposite side. The tablet can be divided into equal doses. </p>
 <p>Sunosi 150 mg film-coated tablets<br />
-Yellow oblong tablet with “150” debossed on one side. </p>
+Yellow oblong tablet with  150  debossed on one side. </p>
 <p>Sunosi is available in blister packs of 7 x 1 film-coated tablets in PVC/PCTFE/Aluminium perforated 
 unit dose blisters, 28 and 56 film-coated tablets and in bottles of 30 and 100 film-coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
@@ -265,8 +265,8 @@ unit dose blisters, 28 and 56 film-coated tablets and in bottles of 30 and 100 f
 <p>Marketing Authorisation Holder 
 Atnahs Pharma Netherlands B. V. 
 Copenhagen Towers 
-Ørestads Boulevard 108, 5.tv 
-DK-2300 København S 
+ restads Boulevard 108, 5.tv 
+DK-2300 K benhavn S 
 Denmark </p>
 <p>Manufacturer 
 Cilatus Manufacturing Services Limited<br />

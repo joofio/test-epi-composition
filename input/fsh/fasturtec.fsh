@@ -4,7 +4,7 @@ Instance: composition-en-111cffde6ab225ef6f9090cd3d257fe8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fasturtec Package Leaflet"
 Description:  "Composition for fasturtec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,11 +84,13 @@ Fasturtec works by allowing uric acid to more easily be removed from the body by
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take fasturtec"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Fasturtec if you: 
-- are allergic (hypersensitive) to rasburicase, other uricases or any of the other ingredients of this 
-medicine (listed in section 6). 
-- have a history of haemolytic anaemia (an illness caused by red blood cells being abnormally 
-broken down).  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Fasturtec if you:</p>
+<ul>
+<li>are allergic (hypersensitive) to rasburicase, other uricases or any of the other ingredients of this 
+medicine (listed in section 6). </li>
+<li>have a history of haemolytic anaemia (an illness caused by red blood cells being abnormally 
+broken down).  </li>
+</ul>
 <p>Warning and precautions 
 Talk to your doctor, nurse or hospital pharmacist if you have a history of any kind of allergy. 
 Tell your doctor if you have ever had any allergic type reactions due to other medicines; Fasturtec can 
@@ -144,32 +146,41 @@ pharmacist. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.<br />
 Fasturtec will be administered at the same time as other medicines that may also cause side effects.  </p>
-<p>If you suddenly notice: 
-- a swelling of the face, lips, tongue or other part of your body 
-- a shortness of breath, wheezing or breathing problems<br />
-- a rash, itching or hives<br />
+<p>If you suddenly notice:</p>
+<ul>
+<li>a swelling of the face, lips, tongue or other part of your body </li>
+<li>a shortness of breath, wheezing or breathing problems  </li>
+<li>a rash, itching or hives<br />
 Tell your doctor, nurse or hospital pharmacist immediately as these may be signs of a serious 
-allergic reaction (anaphylaxis). These are rare (may affect up to 1 in 1,000 people). </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- diarrhoea 
-- vomiting 
-- nausea 
-- headache 
-- fever </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- allergic reactions, mainly rashes and urticaria. </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- severe hypersensitivity reactions, such as anaphylaxis (rare) including anaphylactic shock 
-(frequency not known) which may be fatal 
-- low blood pressure (hypotension) 
-- wheezing or difficulty in breathing (bronchospasm) 
-- blood disorders such as a disorder of the blood in which red blood cells are abnormally broken 
+allergic reaction (anaphylaxis). These are rare (may affect up to 1 in 1,000 people). </li>
+</ul>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>diarrhoea </li>
+<li>vomiting </li>
+<li>nausea </li>
+<li>headache </li>
+<li>fever </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>allergic reactions, mainly rashes and urticaria. </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>severe hypersensitivity reactions, such as anaphylaxis (rare) including anaphylactic shock 
+(frequency not known) which may be fatal </li>
+<li>low blood pressure (hypotension) </li>
+<li>wheezing or difficulty in breathing (bronchospasm) </li>
+<li>blood disorders such as a disorder of the blood in which red blood cells are abnormally broken 
 down (haemolysis), destroyed (haemolytic anaemia), or abnormal blood pigment levels 
-(methaemoglobinaemia)<br />
--<br />
-fits (convulsion).  </p>
-<p>Rare (may affect up to 1 in 1,000 people): 
-- runny or blocked nose, sneezing, facial pressure or pain (rhinitis). </p>
+(methaemoglobinaemia)  </li>
+<li>fits (convulsion).  </li>
+</ul>
+<p>Rare (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>runny or blocked nose, sneezing, facial pressure or pain (rhinitis). </li>
+</ul>
 <p>Frequency not known (frequency cannot be estimated from the available data) 
 - involuntary muscle movements (muscle contraction involuntary). </p>
 <p>If you notice any of these, tell your doctor, nurse or hospital pharmacist. </p>
@@ -187,7 +198,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C).<br />
+<p>Store in a refrigerator (2 C   8 C).<br />
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not use this medicine if you notice that the solution is unclear and/or contains particles. </p>         </div>"""      
@@ -228,22 +239,21 @@ Via Valcanello, 4
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 sanofi-aventis zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -259,18 +269,17 @@ Nederland
 Sanofi B.V. 
 Tel: +31  (0)20 245 4 
 Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   <br />
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -278,14 +287,14 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -294,20 +303,19 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
 sanofi S.r.l. 
 Tel: 800536Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

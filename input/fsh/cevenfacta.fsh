@@ -4,7 +4,7 @@ Instance: composition-en-c4dcd27eb46fddef4eed0adfcbbf3b5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for cevenfacta Package Leaflet"
 Description:  "Composition for cevenfacta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,12 +74,11 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CEVENFACTA contains the active substance eptacog beta (activated), a recombinant human 
 coagulation Factor VIIa (rhFVIIa). </p>
 <p>CEVENFACTA is used in adults and adolescents (12 years of age or older) who were born with 
-haemophilia A or B and who have developed inhibitors (antibodies). It is used for:<br />
-- the treatment of bleeding episodes,<br />
--<br />
-the management of bleeding during surgery. </p>
+haemophilia A or B and who have developed inhibitors (antibodies). It is used for:</p>
+<h2>- the treatment of bleeding episodes,</h2>
+<p>the management of bleeding during surgery. </p>
 <p>How CEVENFACTA works 
-This medicine works by making the blood clot at the site of bleeding, when the body’s own clotting 
+This medicine works by making the blood clot at the site of bleeding, when the body s own clotting 
 factors are not working. </p>         </div>"""   
           
 
@@ -94,28 +93,32 @@ factors are not working. </p>         </div>"""
 (listed in section 6), 
 - if you are allergic to rabbits or rabbit proteins. </p>
 <p>Warnings and precautions<br />
-Before treatment with CEVENFACTA, tell your doctor: 
-- If you have a history of atherosclerosis (when your arteries are narrowed by disease), coronary 
+Before treatment with CEVENFACTA, tell your doctor:</p>
+<ul>
+<li>If you have a history of atherosclerosis (when your arteries are narrowed by disease), coronary 
 artery disease (heart disease due to narrowing of the blood vessels supplying the heart), 
 cerebrovascular disease (disease of the blood vessels supplying the brain), a crush injury, 
-septicaemia (serious blood infection) or blood clots; 
-- If you have heart disease, heart failure, abnormal heart rhythms;<br />
-- If you had prior pulmonary (lungs) clots or heart surgery; 
-- If you have or have had any other medical condition. </p>
+septicaemia (serious blood infection) or blood clots; </li>
+<li>If you have heart disease, heart failure, abnormal heart rhythms;  </li>
+<li>If you had prior pulmonary (lungs) clots or heart surgery; </li>
+<li>If you have or have had any other medical condition. </li>
+</ul>
 <p>Patients with known allergy to casein may be at a higher risk of hypersensitivity reactions. Should 
 signs or symptoms of hypersensitivity occur, treatment should be discontinued and you should seek 
 immediate medical attention. Symptoms may include hives (itchy swellings under the skin), itching, 
 rash, difficulty breathing, swelling around the mouth and throat, tightness of the chest, wheezing, 
 dizziness or fainting, and low blood pressure. </p>
-<p>Although the following conditions have not been observed, they may occur with CEVENFACTA: 
-- Blood clots in arteries in the heart (which could lead to a heart attack or angina), in the brain 
+<p>Although the following conditions have not been observed, they may occur with CEVENFACTA:</p>
+<ul>
+<li>Blood clots in arteries in the heart (which could lead to a heart attack or angina), in the brain 
 (which could lead to a stroke), or in the lungs or deep veins. Symptoms may include swelling and 
 pain in the arms, legs or abdomen, chest pain, shortness of breath, loss of feeling or movement, 
-and altered consciousness or speech. 
-- Hypersensitivity or anaphylactic reactions. Symptoms may include hives (itchy swellings under 
+and altered consciousness or speech. </li>
+<li>Hypersensitivity or anaphylactic reactions. Symptoms may include hives (itchy swellings under 
 the skin), itching, rash, difficulty breathing, swelling around the mouth and throat, tightness of the 
-chest, wheezing, dizziness or fainting, and low blood pressure. 
-- Inhibitors (antibodies) which may cause bleeding problems. </p>
+chest, wheezing, dizziness or fainting, and low blood pressure. </li>
+<li>Inhibitors (antibodies) which may cause bleeding problems. </li>
+</ul>
 <p>If any of these conditions apply to you, talk to your doctor before using CEVENFACTA. </p>
 <p>It is important to keep a record of the batch number of your CEVENFACTA. So, every time you get a 
 new package of CEVENFACTA, note down the date and the batch number (which is on the packaging 
@@ -139,7 +142,7 @@ Dizziness might occur following administration of CEVENFACTA. You must avoid dri
 machines while experiencing this symptom. </p>
 <p>CEVENFACTA contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
-‘sodium free’. </p>         </div>"""   
+ sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cevenfacta"
@@ -158,18 +161,18 @@ trained, you will need additional injection equipment along with your CEVENFACTA
 can successfully treat your bleeding episodes at home. Be sure to collect all necessary injection 
 equipment before preparing the medicine for injection. This additional injection equipment will be 
 provided by your healthcare professional (e.g., your pharmacist or haemophilia treatment centre). </p>
-<p>CEVENFACTA may be injected at a haemophilia treatment centre, at your healthcare provider’s 
+<p>CEVENFACTA may be injected at a haemophilia treatment centre, at your healthcare provider s 
 office, or at home. Treating at the first sign of a bleed is important for bleed management.  </p>
 <p>Start treatment of a bleed as early as possible, ideally within 2 hours.<br />
-• In cases of a mild or moderate bleed (e.g., joint, superficial muscle, soft tissue, and mucous 
+  In cases of a mild or moderate bleed (e.g., joint, superficial muscle, soft tissue, and mucous 
 membranes), you should treat yourself as early as possible, ideally at home.<br />
-• In case of a severe bleed (e.g., life or limb [arm or leg] threatening haemorrhage, intracranial [within 
+  In case of a severe bleed (e.g., life or limb [arm or leg] threatening haemorrhage, intracranial [within 
 the skull] or gastrointestinal [in the stomach or gut] haemorrhage) you should contact your doctor.  </p>
 <p>Usually, severe bleeds are treated at the hospital and a dose of CEVENFACTA can be given on the 
 way there.  </p>
 <p>Do not treat yourself for longer than 24 hours without consulting your doctor.<br />
-• Each time you use this medicine tell your healthcare provider as soon as possible.<br />
-• If bleeding is not controlled within 24 hours, contact your healthcare provider or emergency services 
+  Each time you use this medicine tell your healthcare provider as soon as possible.<br />
+  If bleeding is not controlled within 24 hours, contact your healthcare provider or emergency services 
 immediately. You will usually need hospital care. </p>
 <p>For instructions on reconstitution of the medicinal product before administration, follow the 
 Instructions For Use guide at the end of this leaflet (section 7). <br />
@@ -188,7 +191,7 @@ haemophilia treatment centre. </p>
 <p>Severe bleeding  </p>
 <p>You should seek immediate medical care if signs or symptoms of severe bleeding occur at home.<br />
 An initial dose can be administered on your way to the haemophilia treatment centre or your 
-healthcare provider’s office to avoid any treatment delay. </p>
+healthcare provider s office to avoid any treatment delay. </p>
 <p>Always use this medicine exactly as described in this leaflet or as your doctor has told you. Check 
 with your doctor if you are not sure.  </p>
 <p>Method of administration 
@@ -229,7 +232,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store below 30 °C. 
+<p>Store below 30  C. 
 Do not freeze. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
 <p>To reconstitute CEVENFACTA only use the material provided in the kit.  </p>
@@ -251,7 +254,7 @@ throw away medicines you no longer use. These measures will help protect the env
 Powder: arginine hydrochloride, isoleucine, trisodium citrate dihydrate, glycine, lysine 
 hydrochloride, polysorbate 80, hydrochloric acid (for pH adjustment). 
 Solvent: water for injections.<br />
-See section 2 “CEVENFACTA contains sodium”. </p>
+See section 2  CEVENFACTA contains sodium . </p>
 <p>The powder for solution for injection contains: 1 mg/vial (corresponding to 45 KIU/vial), 2 mg/vial 
 (corresponding to 90 KIU/vial), 5 mg/vial (corresponding to 225 KIU/vial). 
 After reconstitution the solution concentration is approximately 1 mg/ mL (45 KIU/ mL) eptacog beta 
@@ -259,21 +262,23 @@ After reconstitution the solution concentration is approximately 1 mg/ mL (45 KI
 <p>What CEVENFACTA looks like and contents of the pack 
 The powder vial contains a white to off-white lyophilised powder and the prefilled syringe of solvent 
 contains clear and colourless solution. The reconstituted solution should be clear to slightly opaque. </p>
-<p>Each CEVENFACTA pack contains: 
-- 1 glass vial with powder for solution for injection, 
-- 1 sterile vial adapter for reconstitution equipped with a 5 µm filter, 
-- 1 prefilled syringe of water for injections, 
-- 1 plunger rod and backstop. </p>
+<p>Each CEVENFACTA pack contains:</p>
+<ul>
+<li>1 glass vial with powder for solution for injection, </li>
+<li>1 sterile vial adapter for reconstitution equipped with a 5  m filter, </li>
+<li>1 prefilled syringe of water for injections, </li>
+<li>1 plunger rod and backstop. </li>
+</ul>
 <p>Pack sizes: 1 mg (45 KIU), 2 mg (90 KIU), and 5 mg (225 KIU). </p>
 <p>Marketing Authorisation Holder<br />
-Laboratoire français du Fractionnement et des Biotechnologies 
+Laboratoire fran ais du Fractionnement et des Biotechnologies 
 Tour W 
-102 Terrasse Boieldieu 19ème Étage 
+102 Terrasse Boieldieu 19 me  tage 
 92800 Puteaux<br />
 France </p>
 <p>Manufacturer 
 LFB Biotechnologies 
-Zone d’activité de Courtabɶuf 
+Zone d activit  de Courtab uf 
 3 Avenue des Tropiques 
 91940 Les Ulis 
 France 

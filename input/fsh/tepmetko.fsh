@@ -4,7 +4,7 @@ Instance: composition-en-baea5a2972e0f05fd505526d61aba839
 InstanceOf: CompositionUvEpi
 Title: "Composition for tepmetko Package Leaflet"
 Description:  "Composition for tepmetko Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,8 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What tepmetko is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TEPMETKO contains the active substance tepotinib. It belongs to a group of medicines called ‘protein 
-kinase inhibitors’ which are used to treat cancer. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TEPMETKO contains the active substance tepotinib. It belongs to a group of medicines called  protein 
+kinase inhibitors  which are used to treat cancer. </p>
 <p>TEPMETKO is used to treat adults with lung cancer that has spread to other parts of the body or 
 cannot be removed by surgery. The medicine is given, when the cancer cells have an alteration in the 
 MET (mesenchymal-epithelial transition factor) gene and previous treatment has not helped to stop 
@@ -106,7 +106,7 @@ affects your heart rhythm. </p>
 <p>Contraception 
 This medicine should not be used in pregnancy as it can harm the unborn baby. Men and women 
 should use effective contraception during TEPMETKO treatment and for at least 1 week after the last 
-dose. Your doctor will give you guidance on appropriate methods of contraception. See ‘Pregnancy’ 
+dose. Your doctor will give you guidance on appropriate methods of contraception. See  Pregnancy<br />
 below. </p>
 <p>Children and adolescents 
 This medicine has not been studied in patients below the age of 18 years. </p>
@@ -114,15 +114,15 @@ This medicine has not been studied in patients below the age of 18 years. </p>
 Tell your doctor if you are using, have recently used or might use any other medicines. </p>
 <p>TEPMETKO may affect how well the following medicines work and/or increase side effects of these 
 medicines: 
-* dabigatran – used to prevent stroke or venous thrombosis/pulmonary embolism 
-* digoxin – used to treat irregular heart beat or other heart problems 
-* aliskiren – used to treat high blood pressure 
-* everolimus – used to treat cancer 
-* sirolimus – used to prevent organ rejection in transplanted patients 
-* rosuvastatin – used to treat high blood fat levels 
-* methotrexate – used to treat inflammatory diseases or cancer 
-* topotecan – used to treat cancer 
-* metformin – used to treat diabetes </p>
+* dabigatran   used to prevent stroke or venous thrombosis/pulmonary embolism 
+* digoxin   used to treat irregular heart beat or other heart problems 
+* aliskiren   used to treat high blood pressure 
+* everolimus   used to treat cancer 
+* sirolimus   used to prevent organ rejection in transplanted patients 
+* rosuvastatin   used to treat high blood fat levels 
+* methotrexate   used to treat inflammatory diseases or cancer 
+* topotecan   used to treat cancer 
+* metformin   used to treat diabetes </p>
 <p>Pregnancy and breast-feeding 
 Pregnancy 
 Do not take TEPMETKO if you are pregnant or suspect you are pregnant, unless advised by your 
@@ -131,7 +131,7 @@ treatment with TEPMETKO. </p>
 <p>Contraception in males and females 
 If you are female and able to have children, you should use an effective method of contraception to 
 avoid becoming pregnant during TEPMETKO treatment and for at least 1 week after the last dose. 
-Talk to your doctor if you take hormonal contraceptives (e.g. ‘the pill’) as you will need a second 
+Talk to your doctor if you take hormonal contraceptives (e.g.  the pill ) as you will need a second 
 method of contraception during this time. </p>
 <p>If you are male, you should use a barrier method of contraception to prevent your partner from getting 
 pregnant, while you are treated with TEPMETKO and for at least 1 week after the last dose. </p>
@@ -223,11 +223,11 @@ throw away medicines you no longer use. These measures will help protect the env
 hydrochloride hydrate). 
 * The other ingredients are mannitol, colloidal anhydrous silica, crospovidone, magnesium 
 stearate and microcrystalline cellulose in the tablet core and hypromellose, lactose monohydrate 
-(see section 2, ‘TEPMETKO contains lactose’), macrogol, triacetin, red iron oxide (E172) and 
+(see section 2,  TEPMETKO contains lactose ), macrogol, triacetin, red iron oxide (E172) and 
 titanium dioxide (E171) in the film-coating. </p>
 <p>What TEPMETKO looks like and contents of the pack 
 TEPMETKO film-coated tablets are white-pink, oval, biconvex, approximately 18x9 mm in size and 
-embossed with ‘M’ on one side and plain on the other side. Each pack contains 60 tablets in a 
+embossed with  M  on one side and plain on the other side. Each pack contains 60 tablets in a 
 transparent blister, which consists of a multilayer composite form foil and an aluminium lidding. </p>
 <p>Marketing Authorisation Holder 
 Merck Europe B.V. 

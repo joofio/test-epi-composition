@@ -4,7 +4,7 @@ Instance: composition-en-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: CompositionUvEpi
 Title: "Composition for puregon Package Leaflet"
 Description:  "Composition for puregon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -123,7 +123,7 @@ in your stomach and chest areas and can cause blood clots to form. Call your doc
 notice severe abdominal swelling, pain in the stomach area (abdomen), feeling sick (nausea), 
 vomiting, sudden weight gain due to fluid build-up, diarrhoea, decreased urine output or trouble 
 breathing (see also section 4 on Possible side effects). 
-→ Regular monitoring of the response to FSH-treatment helps to prevent ovarian overstimulation. 
+  Regular monitoring of the response to FSH-treatment helps to prevent ovarian overstimulation. 
 Contact your doctor immediately if you are experiencing stomach pains, also if this occurs some days 
 after the last injection has been given. </p>
 <p>Multiple pregnancy or birth defects 
@@ -191,14 +191,14 @@ breast-feeding, tell your doctor before using Puregon.  </p>
 <p>This medicinal product contains 10 mg of benzyl alcohol per mL.<br />
 Benzyl alcohol may cause allergic reactions.<br />
 Ask your doctor or pharmacist for advice if you have a liver or kidney disease. This is because large 
-amounts of benzyl alcohol can build-up in your body and may cause side effects (called “metabolic 
-acidosis”). 
+amounts of benzyl alcohol can build-up in your body and may cause side effects (called  metabolic 
+acidosis ). 
 Ask your doctor or pharmacist for advice if you are pregnant or breast-feeding. This is because large 
-amounts of benzyl alcohol can build-up in your body and may cause side effects (called “metabolic 
-acidosis”). </p>
+amounts of benzyl alcohol can build-up in your body and may cause side effects (called  metabolic 
+acidosis ). </p>
 <p>Puregon contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take puregon"
@@ -251,7 +251,7 @@ as pain in the stomach. If you are troubled by stomach pains, tell your doctor i
 section 4 on possible side effects.  </p>
 <p>If you forget to use Puregon  </p>
 <p>If you forget a dose do not use a double dose to make up for a missed dose.<br />
-→ Contact your doctor. </p>
+  Contact your doctor. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
 
         
@@ -270,55 +270,58 @@ number of maturing follicles. Your doctor may also check blood hormone levels. P
 feeling sick or diarrhoea are the first symptoms. In more severe cases symptoms may include 
 enlargement of the ovaries, accumulation of fluid in the abdomen and/or chest (which may cause 
 sudden weight gain due to fluid buildup) and the occurrence of blood clots in the circulation. See 
-warnings and precautions in section 2.<br />
-→ Contact your doctor immediately if you are experiencing stomach pains, or any of the other 
-symptoms of ovarian hyperstimulation, also if this occurs some days after the last injection. </p>
-<p>If you are a woman:<br />
-Common side effects (may affect up to 1 in 10 people):<br />
-- Headache 
-- Injection site reactions (such as bruising, pain, redness, swelling and itching) 
-- Ovarian hyperstimulation syndrome (OHSS) 
-- Pelvic pain 
-- Stomach pain and/or bloating </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people):<br />
-- Breast complaints (including tenderness) 
-- Diarrhoea, constipation or stomach discomfort 
-- Enlargement of the uterus 
-- Feeling sick 
-- Hypersensitivity reactions (such as rash, redness, hives and itching) 
-- Ovarian cysts or enlargement of the ovaries 
-- Ovarian torsion (twisting of the ovaries) 
-- Vaginal bleeding </p>
-<p>Rare side effects (may affect up to 1 in 1,000 people):<br />
-- Blood clots (this may also occur in the absence of unwanted overstimulation of the ovaries, see 
-warnings and precautions in section 2) </p>
-<p>Pregnancy outside the uterus (an ectopic pregnancy), miscarriage and multiple pregnancies have also 
-been reported. These side effects are not considered to be related to the use of Puregon, but to Assisted 
-Reproductive Technology (ART) or subsequent pregnancy. </p>
-<p>If you are a man:<br />
-Common side effects (may affect up to 1 in 10 people): 
-- Acne 
-- Injection site reactions (such as hardening and pain) 
-- Headache 
-- Rash 
-- Some breast development 
-- Testicular cyst </p>
-<p>Reporting of side effects<br />
-If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine.  </p>         </div>"""      
+warnings and precautions in section </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store puregon"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store puregon"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Storage by the pharmacist 
-Store at 2°C – 8°C (in a refrigerator). Do not freeze. </p>
-<p>Storage by the patient 
-You have two options: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contact your doctor immediately if you are experiencing stomach pains, or any of the other 
+symptoms of ovarian hyperstimulation, also if this occurs some days after the last injection. </p>
+<p>If you are a woman:<br />
+Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Headache </li>
+<li>Injection site reactions (such as bruising, pain, redness, swelling and itching) </li>
+<li>Ovarian hyperstimulation syndrome (OHSS) </li>
+<li>Pelvic pain </li>
+<li>Stomach pain and/or bloating </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Breast complaints (including tenderness) </li>
+<li>Diarrhoea, constipation or stomach discomfort </li>
+<li>Enlargement of the uterus </li>
+<li>Feeling sick </li>
+<li>Hypersensitivity reactions (such as rash, redness, hives and itching) </li>
+<li>Ovarian cysts or enlargement of the ovaries </li>
+<li>Ovarian torsion (twisting of the ovaries) </li>
+<li>Vaginal bleeding </li>
+</ul>
+<p>Rare side effects (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Blood clots (this may also occur in the absence of unwanted overstimulation of the ovaries, see 
+warnings and precautions in section 2) </li>
+</ul>
+<p>Pregnancy outside the uterus (an ectopic pregnancy), miscarriage and multiple pregnancies have also 
+been reported. These side effects are not considered to be related to the use of Puregon, but to Assisted 
+Reproductive Technology (ART) or subsequent pregnancy. </p>
+<p>If you are a man:<br />
+Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Acne </li>
+<li>Injection site reactions (such as hardening and pain) </li>
+<li>Headache </li>
+<li>Rash </li>
+<li>Some breast development </li>
+<li>Testicular cyst </li>
+</ul>
+<p>Reporting of side effects<br />
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
+of this medicine.  </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -326,10 +329,14 @@ You have two options: </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Store at or below 25ºC (at room temperature) for a single period of not more than 3 months.<br />
-Make a note of when you start storing the product out of the refrigerator. </li>
-</ol>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Storage by the pharmacist 
+Store at 2 C   8 C (in a refrigerator). Do not freeze. </p>
+<p>Storage by the patient 
+You have two options: 
+1. Store at 2 C   8 C (in a refrigerator). Do not freeze. 
+2. Store at or below 25 C (at room temperature) for a single period of not more than 3 months.<br />
+Make a note of when you start storing the product out of the refrigerator. </p>
 <p>Keep the cartridge in the outer carton.  </p>
 <p>Once the rubber inlay of a cartridge is pierced by a needle, the product may be stored for a maximum 
 of 28 days.<br />

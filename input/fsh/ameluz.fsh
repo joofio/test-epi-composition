@@ -4,7 +4,7 @@ Instance: composition-en-27a52606a6d06c382d79e38520d58ce1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ameluz Package Leaflet"
 Description:  "Composition for ameluz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,8 +68,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What ameluz is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ameluz is and what it is used for </p>
-<p>Ameluz contains the active substance 5-aminolaevulinic acid. It is used to treat: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ameluz contains the active substance 5-aminolaevulinic acid. It is used to treat: 
 * slightly palpable to moderately thick actinic keratoses or entire fields affected by actinic 
 keratoses in adults. Actinic keratoses are certain changes in the outer layer of the skin that can 
 lead to skin cancer. 
@@ -88,15 +87,11 @@ which act against the target cells. This therapy is known as photodynamic therap
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ameluz"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before you use Ameluz </p>
-<p>Do not use Ameluz 
-* if you are allergic to 
-– 
-5-aminolaevulinic acid or any of the other ingredients of this medicine (listed in section 6) 
-– 
-photoactive substances known as porphyrins 
-– 
-soya or peanuts 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Ameluz 
+* if you are allergic to </p>
+<p>5-aminolaevulinic acid or any of the other ingredients of this medicine (listed in section 6) </p>
+<p>photoactive substances known as porphyrins </p>
+<p>soya or peanuts 
 * if you have impaired formation of red blood pigment called porphyria 
 * if you have other skin conditions caused by, or made worse by, exposure to light </p>
 <p>Warnings and precautions 
@@ -104,13 +99,10 @@ Talk to your doctor before using Ameluz.
 * In very rare cases photodynamic therapy may increase the risk of developing temporary 
 memory loss.<br />
 * The use of Ameluz is not recommended if you use immunosuppressants. 
-* Avoid applying Ameluz<br />
-– 
-to bleeding lesions 
-– 
-into eyes or to mucous membranes </p>
-<p>– 
-on skin areas affected by other diseases or tattoos, because this may hinder the success 
+* Avoid applying Ameluz  </p>
+<p>to bleeding lesions </p>
+<p>into eyes or to mucous membranes </p>
+<p>on skin areas affected by other diseases or tattoos, because this may hinder the success 
 and assessment of the treatment. 
 * Discontinue any UV-therapy before treatment. 
 * Avoid sun exposure on the treated lesion sites and surrounding skin for approximately 48 hours 
@@ -122,15 +114,15 @@ extremely rare cases. </p>
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines.  </p>
 <p>Inform your doctor if you use medicines that increase allergic or other harmful reactions after light 
 exposure, such as 
-* St. John’s wort or its preparations: medicines to treat depression<br />
+* St. John s wort or its preparations: medicines to treat depression<br />
 * griseofulvin: a medicine to treat fungal infections 
 * medicines to increase water output through your kidneys with active substance names mostly 
-ending in “thiazide” or “tizide”, such as hydrochlorothiazide 
+ending in  thiazide  or  tizide , such as hydrochlorothiazide 
 * certain medicines to treat diabetes, such as glibenclamide, glimepiride 
 * medicines to treat mental disorders, nausea or vomiting with active substance names mostly 
-ending in “azine”, such as phenothiazine 
-* medicines to treat bacterial infection with active substance names beginning with “sulfa” or 
-ending in “oxacin” or “cycline”, such as tetracycline </p>
+ending in  azine , such as phenothiazine 
+* medicines to treat bacterial infection with active substance names beginning with  sulfa  or 
+ending in  oxacin  or  cycline , such as tetracycline </p>
 <p>Pregnancy and breast-feeding 
 Ameluz is not recommended during pregnancy, due to insufficient knowledge. 
 Breast-feeding should be interrupted for 12 hours after application of Ameluz. </p>
@@ -147,8 +139,7 @@ irritation.
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take ameluz"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to use Ameluz </p>
-<p>Ameluz is only used on the skin. A therapy session can be administered for single or multiple lesions, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ameluz is only used on the skin. A therapy session can be administered for single or multiple lesions, 
 or entire treatment fields.  The illumination source for PDT treatment of actinic keratoses lesions or 
 fields can be daylight or a red-light lamp. Your doctor will decide which treatment option to use, 
 depending on your lesions.<br />
@@ -180,7 +171,7 @@ protect healthy untreated skin. </p>
 <p>Treatment of lesions and fields of actinic keratoses with daylight </p>
 <p>Considerations before treatment<br />
 Only use daylight treatment if the weather is suitable to stay comfortably outdoors for two hours (with 
-temperatures &gt; 10 °C). If the weather is rainy, or is likely to become so, you should not use daylight 
+temperatures &gt; 10  C). If the weather is rainy, or is likely to become so, you should not use daylight 
 treatment.  </p>
 <p>Preparation of the lesions <br />
 Apply sunscreen to sun exposed skin for sun protection 15 min before lesion treatment. Only use 
@@ -216,8 +207,7 @@ each skin lesion has responded, and treatment may have to be repeated at this ti
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Side 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Side 
 effects at the application site occur in about 9 out of 10 users and indicate that the affected cells are 
 responding to treatment. </p>
 <p>Generally, side effects are of mild or moderate intensity, typically occurring during illumination or 1 
@@ -228,60 +218,36 @@ treatment with Ameluz frequently results in continued improvement of skin qualit
 of Ameluz using daylight showed similar types of side effects; however, with lower intensity. Some 
 reactions at the application site have been observed before the use of light. </p>
 <p>Very common: may affect more than 1 in 10 people 
-* reactions at the application site 
-– 
-skin reddening<br />
-– 
-pain (incl. burning) 
-– 
-irritation 
-– 
-itching 
-– 
-tissue swelling caused by excess fluid<br />
-– 
-scab 
-– 
-scaling of the skin 
-– 
-hardening 
-– 
-abnormal sensation, such as pricking, tingling or numbness  </p>
+* reactions at the application site </p>
+<p>skin reddening  </p>
+<p>pain (incl. burning) </p>
+<p>irritation </p>
+<p>itching </p>
+<p>tissue swelling caused by excess fluid  </p>
+<p>scab </p>
+<p>scaling of the skin </p>
+<p>hardening </p>
+<p>abnormal sensation, such as pricking, tingling or numbness  </p>
 <p>Common: may affect up to 1 in 10 people 
-* reactions at the application site 
-– 
-vesicles 
-– 
-discharge 
-– 
-abrasion<br />
-– 
-other reaction 
-– 
-discomfort<br />
-– 
-increased sensitivity to pain<br />
-– 
-bleeding 
-– 
-warmth 
+* reactions at the application site </p>
+<p>vesicles </p>
+<p>discharge </p>
+<p>abrasion  </p>
+<p>other reaction </p>
+<p>discomfort  </p>
+<p>increased sensitivity to pain  </p>
+<p>bleeding </p>
+<p>warmth 
 * headache </p>
 <p>Uncommon: may affect up to 1 in 100 people 
-* reactions at the application site 
-– 
-change of colour 
-– 
-pustules 
-– 
-ulcer<br />
-– 
-swelling 
-– 
-inflammation 
-– 
-eczema with pustules<br />
-– 
-allergic reaction1 
+* reactions at the application site </p>
+<p>change of colour </p>
+<p>pustules </p>
+<p>ulcer  </p>
+<p>swelling </p>
+<p>inflammation </p>
+<p>eczema with pustules  </p>
+<p>allergic reaction1 
 * blister 
 * dry skin 
 * eyelid swelling caused by excess fluid, blurred vision or visual impairment </p>
@@ -310,11 +276,10 @@ By reporting side effects, you can help provide more information on the safety o
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store ameluz"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to store Ameluz </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the tube and carton after EXP. The 
 expiry date refers to the last day of that month.  </p>
-<p>Store in a refrigerator (2°C – 8°C). </p>
+<p>Store in a refrigerator (2 C   8 C). </p>
 <p>Keep the tube tightly closed after first opening. Discard open tubes 12 weeks after opening. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -325,164 +290,11 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What Ameluz contains 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ameluz contains 
 * The active substance is 5-aminolaevulinic acid. 
 1 g Ameluz contains 78 mg of 5-aminolaevulinic acid (as hydrochloride). 
 * The other ingredients are: 
 disodium phosphate dihydrate, isopropyl alcohol, polysorbate 80, propylene glycol, purified 
 water, sodium benzoate (E211), sodium dihydrogen phosphate dihydrate, soybean 
-phosphatidylcholine, triglycerides medium-chain, xanthan gum. See section 2.<br />
-What Ameluz looks like and contents of the pack 
-Ameluz is a white to yellowish gel. 
-Each carton contains one aluminium tube with 2 g gel closed with a polyethylene screw cap. </p>
-<p>Marketing Authorisation Holder<br />
-Biofrontera Bioscience GmbH<br />
-Hemmelrather Weg 51377 Leverkusen, Germany 
-Tel: +49 214 87632 66, Fax: +49 214 87632 Email: ameluz@biofrontera.com </p>
-<p>Manufacturer 
-Biofrontera Pharma GmbH 
-Hemmelrather Weg 51377 Leverkusen, Germany 
-Tel: +49 214 87632 66, Fax: +49 214 87632 Email: ameluz@biofrontera.com </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Biofrontera Pharma GmbH<br />
-Duitsland / Allemagne / Deutschland<br />
-Tél/Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>България 
-Biofrontera Pharma GmbH<br />
-Германия<br />
-Teл.: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Česká republika 
-Biofrontera Pharma GmbH<br />
-Německo<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Danmark 
-Galenica AB 
-Sverige 
-Tlf: +46 40 32 10 info@galenica.se </p>
-<p>Deutschland 
-Biofrontera Pharma GmbH<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Eesti 
-Biofrontera Pharma GmbH<br />
-Saksamaa<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Ελλάδα 
-Biofrontera Pharma GmbH<br />
-Γερμανία<br />
-Τηλ: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>España 
-Biofrontera Pharma GmbH sucursal en España 
-Tel: 900 974ameluz-es@biofrontera.com </p>
-<p>France 
-Biofrontera Pharma GmbH 
-Allemagne 
-Tél: 0800 904ameluz-fr@biofrontera.com </p>
-<p>Hrvatska 
-Biofrontera Pharma GmbH<br />
-Njemačka<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Ireland 
-Biofrontera Pharma GmbH<br />
-Germany<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Ísland 
-Galenica AB 
-Svíþjóð 
-Sími: +46 40 32 10 info@galenica.se </p>
-<p>Italia 
-Biofrontera Pharma GmbH<br />
-Germania 
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Κύπρος 
-Biofrontera Pharma GmbH<br />
-Γερμανία<br />
-Τηλ: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Latvija 
-Biofrontera Pharma GmbH<br />
-Vācija<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Lietuva 
-Biofrontera Pharma GmbH<br />
-Vokietija 
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Luxembourg/Luxemburg 
-Biofrontera Pharma GmbH<br />
-Allemagne / Deutschland<br />
-Tél/Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Magyarország 
-Biofrontera Pharma GmbH<br />
-Németország 
-Tel.: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Malta 
-Biofrontera Pharma GmbH<br />
-Il-Ġermanja<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Nederland 
-Biofrontera Pharma GmbH<br />
-Duitsland<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Norge 
-Galenica AB 
-Sverige 
-Tlf: +46 40 32 10 info@galenica.se </p>
-<p>Österreich 
-Pelpharma Handels GmbH 
-Tel: +43 2273 70 ameluz@pelpharma.at </p>
-<p>Polska 
-medac GmbH Sp. z o.o. 
-Oddział w Polsce 
-Tel.: +48 (0)22 430 00 kontakt@medac.pl </p>
-<p>Portugal 
-Biofrontera Pharma GmbH<br />
-Alemanha<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>România 
-Biofrontera Pharma GmbH<br />
-Germania 
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Slovenija 
-Biofrontera Pharma GmbH<br />
-Nemčija<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Slovenská republika 
-Biofrontera Pharma GmbH<br />
-Nemecko 
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>Suomi/Finland 
-Galenica AB 
-Ruotsi 
-Puh/Tel: +46 40 32 10 info@galenica.se </p>
-<p>Sverige 
-Galenica AB 
-Tfn: +46 40 32 10 info@galenica.se </p>
-<p>United Kingdom (Northern Ireland) 
-Biofrontera Pharma GmbH<br />
-Germany<br />
-Tel: +49 214 87632 66<br />
-ameluz@biofrontera.com </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+phosphatidylcholine, triglycerides medium-chain, xanthan gum. See section </p>         </div>"""      
 

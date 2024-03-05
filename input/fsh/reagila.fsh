@@ -4,7 +4,7 @@ Instance: composition-en-cbc8bd303ae5e6a2b05a1e976deb4928
 InstanceOf: CompositionUvEpi
 Title: "Composition for reagila Package Leaflet"
 Description:  "Composition for reagila Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,55 +86,63 @@ a situation that would normally stimulate feelings in others. </p>         </div
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Reagila 
 - if you are allergic to cariprazine or any of the other ingredients of this medicine (listed in 
 section 6). 
-- if you are taking medicines used to treat: 
-- hepatitis caused by the hepatitis C virus (medicines containing boceprevir and telaprevir) 
-- bacterial infections (medicines containing clarithromycin, telithromycin, erythromycin 
-and nafcillin) 
-- tuberculosis (medicines containing rifampicin) 
-- HIV infections (medicines containing cobicistat, indinavir, nelfinavir, ritonavir, 
-saquinavir, efavirenz and etravirine) 
-- fungal infections (medicines containing itraconazole, posaconazole, voriconazole and 
-fluconazole) 
-- Cushing’s syndrome - when the body produces an excess of cortisol (medicines 
-containing ketoconazole) 
-- depression (herbal therapy containing St. John's wort (Hypericum perforatum) and 
-medicines containing nefazodone) </p>
+- if you are taking medicines used to treat:</p>
 <ul>
-<li>epilepsy and seizures (medicines containing carbamazepine, phenobarbital and 
-phenytoin) </li>
+<li>hepatitis caused by the hepatitis C virus (medicines containing boceprevir and telaprevir) </li>
+<li>bacterial infections (medicines containing clarithromycin, telithromycin, erythromycin 
+and nafcillin) </li>
+<li>tuberculosis (medicines containing rifampicin) </li>
+<li>HIV infections (medicines containing cobicistat, indinavir, nelfinavir, ritonavir, 
+saquinavir, efavirenz and etravirine) </li>
+<li>fungal infections (medicines containing itraconazole, posaconazole, voriconazole and 
+fluconazole) </li>
+<li>Cushing s syndrome - when the body produces an excess of cortisol (medicines 
+containing ketoconazole) </li>
+<li>
+<p>depression (herbal therapy containing St. John's wort (Hypericum perforatum) and 
+medicines containing nefazodone) </p>
+</li>
+<li>
+<p>epilepsy and seizures (medicines containing carbamazepine, phenobarbital and 
+phenytoin) </p>
+</li>
 <li>heart disease (medicines containing diltiazem and verapamil) </li>
 <li>sleepiness (medicines containing modafinil) </li>
 <li>high blood pressure in the lungs (medicines containing bosentan). </li>
 </ul>
 <p>Warnings and precautions 
-Tell your doctor immediately: 
-- if you are having any thoughts or feelings about harming yourself or to commit suicide. Suicidal 
-thoughts and behaviours are more likely at the beginning of the treatment. 
-- if you experience a combination of fever, sweating, faster breathing, muscle stiffness and 
-drowsiness or sleepiness (may be signs of neuroleptic malignant syndrome). </p>
-<p>Talk to your doctor or pharmacist before taking Reagila, or during treatment if you have: 
-- ever experienced or start to experience restlessness and inability to sit still. These symptoms 
-may occur early during treatment with Reagila. Tell your doctor if this happens. 
-- ever experienced or start to experience abnormal, involuntary movements, most commonly of 
-the tongue or face. Tell your doctor if this happens. 
-- visual impairment. Your doctor will advise you to visit an ophthalmologist. 
-- irregular heartbeat or if someone else in your family has a history of irregular heartbeat 
+Tell your doctor immediately:</p>
+<ul>
+<li>if you are having any thoughts or feelings about harming yourself or to commit suicide. Suicidal 
+thoughts and behaviours are more likely at the beginning of the treatment. </li>
+<li>if you experience a combination of fever, sweating, faster breathing, muscle stiffness and 
+drowsiness or sleepiness (may be signs of neuroleptic malignant syndrome). </li>
+</ul>
+<p>Talk to your doctor or pharmacist before taking Reagila, or during treatment if you have:</p>
+<ul>
+<li>ever experienced or start to experience restlessness and inability to sit still. These symptoms 
+may occur early during treatment with Reagila. Tell your doctor if this happens. </li>
+<li>ever experienced or start to experience abnormal, involuntary movements, most commonly of 
+the tongue or face. Tell your doctor if this happens. </li>
+<li>visual impairment. Your doctor will advise you to visit an ophthalmologist. </li>
+<li>irregular heartbeat or if someone else in your family has a history of irregular heartbeat 
 (including so called QT prolongation seen with ECG monitoring), and tell your doctor if you are 
-taking other medicines, because they might cause or worsen this ECG change. 
-- high or low blood pressure, cardiovascular disease. Your doctor will need to check your blood 
-pressure regularly. 
-- dizziness on standing up due to a drop in your blood pressure, which may cause fainting 
-- a history of blood clots, or if someone else in your family has a history of blood clots, as 
-medicines for schizophrenia have been associated with formation of blood clots. 
-- a history of stroke, especially if you are elderly or know that you have other risk factors for 
-stroke. Tell your doctor immediately if you notice any signs of a stroke. 
-- dementia (loss of memory and other mental abilities) especially if you are elderly. 
-- Parkinson’s disease. 
-- if you have diabetes or risk factors for diabetes (e.g. obesity, or someone else in your family has 
+taking other medicines, because they might cause or worsen this ECG change. </li>
+<li>high or low blood pressure, cardiovascular disease. Your doctor will need to check your blood 
+pressure regularly. </li>
+<li>dizziness on standing up due to a drop in your blood pressure, which may cause fainting </li>
+<li>a history of blood clots, or if someone else in your family has a history of blood clots, as 
+medicines for schizophrenia have been associated with formation of blood clots. </li>
+<li>a history of stroke, especially if you are elderly or know that you have other risk factors for 
+stroke. Tell your doctor immediately if you notice any signs of a stroke. </li>
+<li>dementia (loss of memory and other mental abilities) especially if you are elderly. </li>
+<li>Parkinson s disease. </li>
+<li>if you have diabetes or risk factors for diabetes (e.g. obesity, or someone else in your family has 
 diabetes). Your doctor will need to check your blood sugar regularly since it may be increased 
 by Reagila. Signs of high blood sugar level are excessive thirst, passing of large amounts of 
-urine, increase in appetite and feeling weak. 
-- a history of seizures (fits) or epilepsy. </p>
+urine, increase in appetite and feeling weak. </li>
+<li>a history of seizures (fits) or epilepsy. </li>
+</ul>
 <p>Weight increase 
 Reagila may cause significant weight increase which may affect your health. Your doctor will 
 therefore check your weight regularly. </p>
@@ -143,8 +151,8 @@ This medicine is not recommended for children and adolescents under 18 years due
 in these patients. </p>
 <p>Other medicines and Reagila 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. You cannot take certain medicines together with Reagila (see section “Do not take 
-Reagila”). </p>
+medicines. You cannot take certain medicines together with Reagila (see section  Do not take 
+Reagila ). </p>
 <p>Taking Reagila together with some medicines may require a dose adjustment of Reagila or the other 
 medicine. These are medicines used to treat heart diseases containing digoxin, blood thinners 
 containing dabigatran, or medicines affecting your mental functions. </p>
@@ -161,10 +169,12 @@ taken. </p>
 Do not take this medicine during pregnancy unless your doctor has told you to do so. </p>
 <p>If your doctor decides that you should take this medicine during pregnancy, your doctor will monitor 
 your baby closely after birth. This is because the following symptoms may occur in newborn babies of 
-mothers who have used this medicine in the last trimester (last three months) of their pregnancy: 
-- shaking, muscle stiffness and/or weakness, sleepiness, agitation, breathing problems, and 
+mothers who have used this medicine in the last trimester (last three months) of their pregnancy:</p>
+<ul>
+<li>shaking, muscle stiffness and/or weakness, sleepiness, agitation, breathing problems, and 
 difficulty in feeding. 
-If your baby develops any of these symptoms you should contact your doctor. </p>
+If your baby develops any of these symptoms you should contact your doctor. </li>
+</ul>
 <p>Breast-feeding 
 Do not breast-feed if you are taking Reagila because a risk for the baby cannot be excluded. Contact 
 your doctor for advice.  </p>
@@ -220,18 +230,20 @@ return. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately if you have: 
-- a severe allergic reaction seen as fever, swollen mouth, face, lip or tongue, shortness of breath, 
-itching, skin rash and sometimes a drop in blood pressure. (Rare side effect) 
-- combination of fever, sweating, muscle stiffness, and drowsiness or sleepiness. These can be the 
-signs of the so-called neuroleptic malignant syndrome. (Side effect with frequency not known) 
-- inexplicable muscle pains, muscle cramps or muscle weakness. These may be signs of muscle 
-damage which can cause very serious kidney problems.  (Rare side effect) 
-- symptoms related to blood clots in the veins especially in the legs (symptoms include swelling, 
+<p>Tell your doctor immediately if you have:</p>
+<ul>
+<li>a severe allergic reaction seen as fever, swollen mouth, face, lip or tongue, shortness of breath, 
+itching, skin rash and sometimes a drop in blood pressure. (Rare side effect) </li>
+<li>combination of fever, sweating, muscle stiffness, and drowsiness or sleepiness. These can be the 
+signs of the so-called neuroleptic malignant syndrome. (Side effect with frequency not known) </li>
+<li>inexplicable muscle pains, muscle cramps or muscle weakness. These may be signs of muscle 
+damage which can cause very serious kidney problems.  (Rare side effect) </li>
+<li>symptoms related to blood clots in the veins especially in the legs (symptoms include swelling, 
 pain and redness in the leg), which may travel through blood vessels to the lungs causing chest 
-pain and difficulty in breathing. (Side effect with frequency not known) 
-- thoughts or feelings about harming yourself or to commit suicide, suicide attempt. (Uncommon 
-side effect) </p>
+pain and difficulty in breathing. (Side effect with frequency not known) </li>
+<li>thoughts or feelings about harming yourself or to commit suicide, suicide attempt. (Uncommon 
+side effect) </li>
+</ul>
 <p>Other side effects 
 Very common side effects (may affect more than 1 in 10 people) </p>
 <ul>
@@ -261,9 +273,9 @@ are called extrapyramidal symptoms) </li>
 <li>weight increased </li>
 <li>tiredness </li>
 <li>the following can be seen in laboratory tests: 
-° increases in liver enzymes 
-° increases in the level of creatine phosphokinase in the blood 
-° abnormal amount of lipids (e.g. cholesterol and/or fat) in the blood </li>
+  increases in liver enzymes 
+  increases in the level of creatine phosphokinase in the blood 
+  abnormal amount of lipids (e.g. cholesterol and/or fat) in the blood </li>
 </ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people) </p>
 <ul>
@@ -288,11 +300,11 @@ long-term use. </li>
 <li>itching, rash </li>
 <li>diabetes </li>
 <li>the following can be seen in laboratory tests: 
-° abnormal sodium level in the blood 
-° increased blood glucose (blood sugar), increased bile pigment (bilirubin) in the blood 
-° anaemia (reduced levels of red blood cells) 
-° increase in a type of white blood cells 
-° decreased level of thyroid stimulating hormone (TSH) in the blood </li>
+  abnormal sodium level in the blood 
+  increased blood glucose (blood sugar), increased bile pigment (bilirubin) in the blood 
+  anaemia (reduced levels of red blood cells) 
+  increase in a type of white blood cells 
+  decreased level of thyroid stimulating hormone (TSH) in the blood </li>
 </ul>
 <p>Rare side effects (may affect up to 1 in 1,000 people) </p>
 <ul>
@@ -364,25 +376,25 @@ iron oxide (E 172), propylene glycol, potassium hydroxide). </p>
 <p>What Reagila looks like and contents of the pack </p>
 <ul>
 <li>
-<p>Reagila 1.5 mg hard capsules: ‘Size 4’ (approximately 14.3 mm in length) hard gelatin capsule 
-with white opaque cap and white opaque body imprinted with “GR 1.5” on the capsule body 
+<p>Reagila 1.5 mg hard capsules:  Size 4  (approximately 14.3 mm in length) hard gelatin capsule 
+with white opaque cap and white opaque body imprinted with  GR 1.5  on the capsule body 
 with black ink. The capsules are filled with white to yellowish white powder. </p>
 </li>
 <li>
-<p>Reagila 3 mg hard capsules: ‘Size 4’ (approximately 14.3 mm in length) hard gelatin capsule 
-with green opaque cap and white opaque body imprinted with “GR 3” on the capsule body with </p>
+<p>Reagila 3 mg hard capsules:  Size 4  (approximately 14.3 mm in length) hard gelatin capsule 
+with green opaque cap and white opaque body imprinted with  GR 3  on the capsule body with </p>
 </li>
 </ul>
 <p>black ink. The capsules are filled with white to yellowish white powder. </p>
 <ul>
 <li>
-<p>Reagila 4.5 mg hard capsules: ‘Size 4’ (approximately 14.3 mm in length) hard gelatin capsule 
-with green opaque cap and green opaque body imprinted with “GR 4.5” on the capsule body 
+<p>Reagila 4.5 mg hard capsules:  Size 4  (approximately 14.3 mm in length) hard gelatin capsule 
+with green opaque cap and green opaque body imprinted with  GR 4.5  on the capsule body 
 with white ink. The capsules are filled with white to yellowish white powder. </p>
 </li>
 <li>
-<p>Reagila 6 mg hard capsules: ‘Size 3’ (approximately 15.9 mm in length) hard gelatin capsule 
-with purple opaque cap and white opaque body imprinted with “GR 6” on the capsule body with 
+<p>Reagila 6 mg hard capsules:  Size 3  (approximately 15.9 mm in length) hard gelatin capsule 
+with purple opaque cap and white opaque body imprinted with  GR 6  on the capsule body with 
 black ink. The capsules are filled with white to yellowish white powder. </p>
 </li>
 </ul>
@@ -395,26 +407,24 @@ foil backing. The blisters are packed in a folded carton box. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Gedeon Richter Plc. 
-Gyömrői út 19-1103 Budapest 
+Gy mr i  t 19-1103 Budapest 
 Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Recordati BV 
-Tél/Tel: +32 2 461 01<br />
+T l/Tel: +32 2 461 01<br />
 Lietuva 
-Gedeon Richter Plc. atstovybė Lietuvoje 
-Tel: +370 5 261 01<br />
-България 
-ТП „Гедеон Рихтер АД” 
-Teл.: + 359 2 8129 
+Gedeon Richter Plc. atstovyb  Lietuvoje 
+Tel: +370 5 261 01  </p>
+<p>Te .: + 359 2 8129 
 Luxembourg/Luxemburg 
 Recordati BV 
-Tél/Tel: + 32 2 461 01 36 (Belgique/Belgien) </p>
-<p>Česká republika 
-Gedeon Richter Marketing ČR, s.r.o. 
+T l/Tel: + 32 2 461 01 36 (Belgique/Belgien) </p>
+<p>esk  republika 
+Gedeon Richter Marketing  R, s.r.o. 
 Tel: +420 261 141<br />
-Magyarország 
+Magyarorsz g 
 Richter Gedeon Nyrt. 
 Tel.: +36 1 505 7 
 Danmark 
@@ -428,20 +438,19 @@ Recordati Pharma GMBH
 Tel: + 49 731 70 
 Nederland 
 Recordati BV 
-Tel: + 32 2 461 01 36 (België) </p>
+Tel: + 32 2 461 01 36 (Belgi ) </p>
 <p>Eesti 
 Richter Gedeon Eesti filiaal 
 Tel: +372 608 5 
 Norge 
 Recordati AB 
 Tlf: + 46 8 545 80 230 (Sverige) </p>
-<p>Ελλάδα 
-Recordati Hellas Pharmaceuticals S.A. 
-Österreich 
+<p>Recordati Hellas Pharmaceuticals S.A. 
+ sterreich 
 Recordati Austria GmbH </p>
-<p>Τηλ: + 30 210-6773 
+<p>: + 30 210-6773 
 Tel: + 43 676 353 0<br />
-España 
+Espa a 
 Casen Recordati S.L. 
 Tel: + 34 91 659 15<br />
 Polska 
@@ -449,7 +458,7 @@ GEDEON RICHTER POLSKA Sp. z o.o.
 Tel.: + 48 (22)755 96<br />
 France 
 Bouchara-Recordati S.A.S. 
-Tél: + 33 1 45 19 10<br />
+T l: + 33 1 45 19 10<br />
 Portugal 
 Jaba Recordati S.A. 
 Tel: + 351 21 432 95<br />
@@ -459,16 +468,16 @@ Tel: + 385 1 5625<br />
 Ireland 
 Recordati Ireland Limited 
 Tel: + 353 21 4379 
-România 
-Gedeon Richter România S.A. 
+Rom nia 
+Gedeon Richter Rom nia S.A. 
 Tel: +40-265-257<br />
 Slovenija 
 Gedeon Richter d.o.o. 
 Tel: + +386 8 205 68<br />
-Ísland 
+ sland 
 Recordati AB 
-Sími: +46 8 545 80 230 (Svíþjóð) </p>
-<p>Slovenská republika 
+S mi: +46 8 545 80 230 (Sv j ) </p>
+<p>Slovensk  republika 
 Gedeon Richter Slovakia, s.r.o. 
 Tel: +421 2 5020 5 
 Italia 
@@ -477,14 +486,13 @@ Tel: + 39 02 487
 Suomi/Finland 
 Recordati AB 
 Puh/Tel: +46 8 545 80 230 (Ruotsi/Sverige) </p>
-<p>Κύπρος 
-C.G. PAPALOISOU LTD. 
-Τηλ: + 357 22 490 
+<p>C.G. PAPALOISOU LTD. 
+ : + 357 22 490 
 Sverige 
 Recordati AB 
 Tel: +46 8 545 80<br />
 Latvija 
-Gedeon Richter Plc. pārstāvniecība Latvijā 
+Gedeon Richter Plc. p rst vniec ba Latvij<br />
 Tel: +371 67845 
 United Kingdom (Northern Ireland) 
 Recordati Pharmaceuticals Ltd. 
@@ -494,6 +502,6 @@ Tel: + 44 1491 576 </p>
 Detailed and updated information on this medicine is available by scanning the QR code below and 
 the outer carton with a smartphone. 
 The same information is also available on the following URL: www.reagila.com </p>
-<p>‘QR code to be included’ + www.reagila.com </p>
+<p>QR code to be included  + www.reagila.com </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

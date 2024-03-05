@@ -4,7 +4,7 @@ Instance: composition-en-4d2adb2d9d068c3e716247867c7eb868
 InstanceOf: CompositionUvEpi
 Title: "Composition for insuman Package Leaflet"
 Description:  "Composition for insuman Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -111,10 +111,12 @@ Before travelling, consult your doctor. You may need to talk about
 - possible new health risks in the countries to be visited, 
 - what you should do in emergency situations when you feel unwell or become ill. </p>
 <p>Illnesses and injuries 
-In the following situations, the management of your diabetes may require a lot of care: 
-- If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). 
-- If you are not eating enough, your blood sugar level may become too low (hypoglycaemia). 
-In most cases you will need a doctor. Make sure that you contact a doctor early. </p>
+In the following situations, the management of your diabetes may require a lot of care:</p>
+<ul>
+<li>If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). </li>
+<li>If you are not eating enough, your blood sugar level may become too low (hypoglycaemia). 
+In most cases you will need a doctor. Make sure that you contact a doctor early. </li>
+</ul>
 <p>If you have type 1 diabetes (insulin dependent diabetes mellitus), do not stop your insulin and continue 
 to get enough carbohydrates. Always tell people who are caring for you or treating you that you require 
 insulin. </p>
@@ -129,24 +131,30 @@ are either too low or too high. Be careful when you start or stop taking another
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Before taking a medicine ask your doctor if it can affect your blood sugar level, and what 
 action, if any, you need to take. </p>
-<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include:<br />
-- all other medicines to treat diabetes, 
-- angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
-blood pressure), 
-- disopyramide (used to treat certain heart conditions), 
-- fluoxetine (used to treat depression), 
-- fibrates (used to lower high levels of blood lipids), 
-- monoamine oxidase (MAO) inhibitors (used to treat depression), 
-- pentoxifylline, propoxyphene, salicylates (such as aspirin, used to relieve pain and lower fever), 
-- sulfonamide antibiotics. </p>
-<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:<br />
-- corticosteroids (such as "cortisone" used to treat inflammation), 
-- danazol (medicine acting on ovulation), 
-- diazoxide (used to treat high blood pressure), 
-- diuretics (used to treat high blood pressure or excessive fluid retention), </p>
+<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include:</p>
 <ul>
-<li>glucagon (pancreas hormone used to treat severe hypoglycaemia), 
-isoniazid (used to treat tuberculosis), </li>
+<li>all other medicines to treat diabetes, </li>
+<li>angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
+blood pressure), </li>
+<li>disopyramide (used to treat certain heart conditions), </li>
+<li>fluoxetine (used to treat depression), </li>
+<li>fibrates (used to lower high levels of blood lipids), </li>
+<li>monoamine oxidase (MAO) inhibitors (used to treat depression), </li>
+<li>pentoxifylline, propoxyphene, salicylates (such as aspirin, used to relieve pain and lower fever), </li>
+<li>sulfonamide antibiotics. </li>
+</ul>
+<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:</p>
+<ul>
+<li>corticosteroids (such as "cortisone" used to treat inflammation), </li>
+<li>danazol (medicine acting on ovulation), </li>
+<li>diazoxide (used to treat high blood pressure), </li>
+<li>
+<p>diuretics (used to treat high blood pressure or excessive fluid retention), </p>
+</li>
+<li>
+<p>glucagon (pancreas hormone used to treat severe hypoglycaemia), 
+isoniazid (used to treat tuberculosis), </p>
+</li>
 <li>oestrogens and progestogens (such as in the contraceptive pill used for birth control), </li>
 <li>phenothiazine derivatives (used to treat psychiatric disorders), </li>
 <li>somatropin (growth hormone), </li>
@@ -156,12 +164,14 @@ treat asthma), </li>
 <li>protease inhibitors (used to treat HIV), </li>
 <li>atypical antipsychotic medicines (such as olanzapine and clozapine). </li>
 </ul>
-<p>Your blood sugar level may either rise or fall if you take:<br />
-- beta-blockers (used to treat high blood pressure), 
-- clonidine (used to treat high blood pressure), 
-- lithium salts (used to treat psychiatric disorders). 
+<p>Your blood sugar level may either rise or fall if you take:</p>
+<ul>
+<li>beta-blockers (used to treat high blood pressure), </li>
+<li>clonidine (used to treat high blood pressure), </li>
+<li>lithium salts (used to treat psychiatric disorders). 
 Pentamidine (used to treat some infections caused by parasites) may cause hypoglycaemia which may 
-sometimes be followed by hyperglycaemia. </p>
+sometimes be followed by hyperglycaemia. </li>
+</ul>
 <p>Beta-blockers like other sympatholytic medicines (such as clonidine, guanethidine, and reserpine) may 
 weaken or suppress entirely the first warning symptoms which help you to recognise a hypoglycaemia. </p>
 <p>If you are not sure whether you are taking one of those medicines ask your doctor or pharmacist. </p>
@@ -177,16 +187,20 @@ However, there is no experience with the use of Insuman Rapid in pregnant women.
 <p>If you are breast-feeding consult your doctor as you may require adjustments in your insulin doses and 
 your diet. </p>
 <p>Driving and using machines  </p>
-<p>Your ability to concentrate or react may be reduced if: 
-- you have hypoglycaemia (low blood sugar levels), 
-- you have hyperglycaemia (high blood sugar levels), 
-- you have problems with your sight. </p>
+<p>Your ability to concentrate or react may be reduced if:</p>
+<ul>
+<li>you have hypoglycaemia (low blood sugar levels), </li>
+<li>you have hyperglycaemia (high blood sugar levels), </li>
+<li>you have problems with your sight. </li>
+</ul>
 <p>Keep this possible problem in mind in all situations where you might put yourself and others at risk 
-(such as driving a car or using machines). You should contact your doctor for advice on driving if: 
-- you have frequent episodes of hypoglycaemia, 
-- the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </p>
+(such as driving a car or using machines). You should contact your doctor for advice on driving if:</p>
+<ul>
+<li>you have frequent episodes of hypoglycaemia, </li>
+<li>the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </li>
+</ul>
 <p>Important information about some of the ingredients of Insuman Rapid  </p>
-<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take insuman"
@@ -213,7 +227,7 @@ injection, change the puncture site within the particular area of skin that you 
 <p>Insulin administration into a vein for example to treat severe hyperglycaemia and ketoacidosis, requires 
 experience and special safety precautions. For these reasons, it must be done in a clinic or a similar 
 setting. </p>
-<p>Do not use Insuman Rapid in insulin pumps – special insulin preparations are available for use in such 
+<p>Do not use Insuman Rapid in insulin pumps   special insulin preparations are available for use in such 
 devices. Also do not use it in peristaltic pumps with silicone tubing. </p>
 <p>How to handle the vials  </p>
 <p>Insuman Rapid contains 100 IU insulin per ml. Only injection syringes designed for this insulin 
@@ -312,12 +326,12 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the vial 
-after “EXP”. The expiry date refers to the last day of that month. </p>
+after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Unopened vials 
-Store in a refrigerator (2°C – 8°C). Do not freeze. Do not put Insuman Rapid next to the freezer 
+Store in a refrigerator (2 C   8 C). Do not freeze. Do not put Insuman Rapid next to the freezer 
 compartment or a freezer pack. Keep the vial in the outer carton in order to protect from light. </p>
 <p>Opened vials 
-Once in-use, the vial may be stored for a maximum of 4 weeks in the outer carton not above 25°C and 
+Once in-use, the vial may be stored for a maximum of 4 weeks in the outer carton not above 25 C and 
 away from direct heat (for example next to a heating unit) or direct light (direct sunlight or next to a 
 lamp). Do not use the vial after this time period. It is recommended that the date of the first use be 
 noted on the label. </p>
@@ -335,8 +349,8 @@ throw away medicines you no longer use. These measures will help protect the env
 Units) of the active substance insulin human. </p>
 <ul>
 <li>The other ingredients are: metacresol, sodium dihydrogen phosphate dihydrate, glycerol, sodium 
-hydroxide (see section 2 under “Important information about some of the ingredients of Insuman 
-Rapid”), hydrochloric acid (for pH adjustment) and water for injections. </li>
+hydroxide (see section 2 under  Important information about some of the ingredients of Insuman 
+Rapid ), hydrochloric acid (for pH adjustment) and water for injections. </li>
 </ul>
 <p>What Insuman Rapid looks like and contents of the pack<br />
 Insuman Rapid is a clear, colourless solution for injection, with no solid particles visible, and of a 
@@ -350,22 +364,21 @@ D-65926 Frankfurt am Main
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva<br />
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България<br />
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg<br />
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54 (Belgique/Belgien) </p>
-<p>Česká republika<br />
+T l/Tel: +32 (0)2 710 54 (Belgique/Belgien) </p>
+<p>esk  republika<br />
 sanofi-aventis, s.r.o.<br />
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark<br />
@@ -381,18 +394,17 @@ Nederland<br />
 Sanofi B.V.<br />
 Tel: +31 20 245 4 
 Eesti<br />
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
 Norge<br />
 sanofi-aventis Norge AS<br />
-Tlf: +47 67 10 71<br />
-Ελλάδα<br />
-Sanofi-Aventis Μονοπρόσωπη AEBE<br />
-Τηλ: +30 210 900 16<br />
-Österreich<br />
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE<br />
+ : +30 210 900 16<br />
+ sterreich<br />
 sanofi-aventis GmbH<br />
-Tel: +43 1 80 185 – 0 </p>
-<p>España<br />
+Tel: +43 1 80 185   0 </p>
+<p>Espa a<br />
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94<br />
 Polska<br />
@@ -400,14 +412,14 @@ sanofi-aventis Sp. z o.o.<br />
 Tel.: +48 22 280 00  </p>
 <p>France<br />
 Sanofi Winthrop Industrie<br />
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
 Portugal<br />
-Sanofi - Produtos Farmacêuticos, Lda.<br />
+Sanofi - Produtos Farmac uticos, Lda.<br />
 Tel: +351 21 35 89<br />
 Hrvatska<br />
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-România<br />
+Rom nia<br />
 Sanofi Romania SRL<br />
 Tel: +40 (0) 21 317 31<br />
 Ireland<br />
@@ -416,10 +428,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija<br />
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51<br />
-Ísland<br />
+ sland<br />
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika<br />
+S mi: +354 535 7 
+Slovensk  republika<br />
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia<br />
@@ -428,10 +440,9 @@ Tel: 800 13 12 12 (domande di tipo tecnico)
 800 536389 (altre domande) </p>
 <p>Suomi/Finland<br />
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος<br />
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige<br />
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

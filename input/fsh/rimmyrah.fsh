@@ -4,7 +4,7 @@ Instance: composition-en-1ab1f974f728f0d2d09ca9306f1ffe2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rimmyrah Package Leaflet"
 Description:  "Composition for rimmyrah Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,14 +74,16 @@ called antineovascularisation agents. It contains the active substance called ra
 <p>What Rimmyrah is used for 
 Rimmyrah is used in adults to treat several eye diseases causing vision impairment. </p>
 <p>These diseases result from damage to the retina (light-sensitive layer at the back of the eye) 
-caused by: 
-- Growth of leaky, abnormal blood vessels. This is observed in diseases such as age-related 
+caused by:</p>
+<ul>
+<li>Growth of leaky, abnormal blood vessels. This is observed in diseases such as age-related 
 macular degeneration (AMD) and proliferative diabetic retinopathy (PDR, a disease caused by 
 diabetes). It may also be associated with choroidal neovascularisation (CNV) due to pathologic 
-myopia (PM), angioid streaks, central serous chorioretinopathy or inflammatory CNV. 
-- Macular oedema (swelling of the centre of the retina). This swelling can be caused by diabetes 
+myopia (PM), angioid streaks, central serous chorioretinopathy or inflammatory CNV. </li>
+<li>Macular oedema (swelling of the centre of the retina). This swelling can be caused by diabetes 
 (a disease called diabetic macular oedema (DME)) or by the blockage of retinal veins of the 
-retina (a disease called retinal vein occlusion (RVO)). </p>
+retina (a disease called retinal vein occlusion (RVO)). </li>
+</ul>
 <p>How Rimmyrah works 
 Rimmyrah specifically recognises and binds to a protein called human vascular endothelial growth 
 factor A (VEGF-A) present in the eye. In excess, VEGF-A causes abnormal blood vessel growth and 
@@ -119,7 +121,7 @@ injection.
 have had a stroke or experienced transient signs of stroke (weakness or paralysis of limbs or 
 face, difficulty speaking or understanding). This information will be taken into account to 
 evaluate if Rimmyrah is the appropriate treatment for you. </p>
-<p>Please see section 4 (“Possible side effects”) for more detailed information on side effects that could 
+<p>Please see section 4 ( Possible side effects ) for more detailed information on side effects that could 
 occur during Rimmyrah therapy. </p>
 <p>Children and adolescents (below 18 years of age) 
 The use of Rimmyrah in children and adolescents has not been established and is therefore not 
@@ -173,71 +175,87 @@ Rimmyrah. </p>
 <p>The side effects associated with the administration of Rimmyrah are either due to the medicine itself 
 or the injection procedure and mostly affect the eye. </p>
 <p>The most serious side effects are described below: </p>
-<p>Common serious side effects (may affect up to 1 in 10 people):<br />
-- Detachment or tear of the layer in the back of the eye (retinal detachment or tear), resulting in 
+<p>Common serious side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Detachment or tear of the layer in the back of the eye (retinal detachment or tear), resulting in 
 flashes of light with floaters progressing to a temporary loss of sight, or a clouding of the lens 
-(cataract). </p>
-<p>Uncommon serious side effects (may affect up to 1 in 100 people):<br />
-- Blindness, infection of the eyeball (endophthalmitis) with inflammation of the inside of the eye. </p>
+(cataract). </li>
+</ul>
+<p>Uncommon serious side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Blindness, infection of the eyeball (endophthalmitis) with inflammation of the inside of the eye. </li>
+</ul>
 <p>The symptoms you might experience are pain or increased discomfort in your eye, worsening eye 
 redness, blurred or decreased vision, an increased number of small particles in your vision or increased<br />
 sensitivity to light. </p>
 <p>Please tell your doctor immediately if you develop any of these side effects. </p>
 <p>The most frequently reported side effects are described below: </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
-Visual side effects include: 
-- Inflammation of the eye,<br />
-- Bleeding in the back of the eye (retinal bleeding),<br />
-- Visual disturbances, 
-- Eye pain, 
-- Small particles or spots in your vision (floaters), 
-- Bloodshot eye, eye irritation, 
-- A feeling of having something in the eye, 
-- Increased tear production, </p>
+Visual side effects include:</p>
 <ul>
-<li>Inflammation or infection of the eyelid margins, </li>
+<li>Inflammation of the eye,  </li>
+<li>Bleeding in the back of the eye (retinal bleeding),  </li>
+<li>Visual disturbances, </li>
+<li>Eye pain, </li>
+<li>Small particles or spots in your vision (floaters), </li>
+<li>Bloodshot eye, eye irritation, </li>
+<li>A feeling of having something in the eye, </li>
+<li>
+<p>Increased tear production, </p>
+</li>
+<li>
+<p>Inflammation or infection of the eyelid margins, </p>
+</li>
 <li>Dry eye, </li>
 <li>Redness or itching of the eye, </li>
 <li>Increased eye pressure. </li>
 </ul>
-<p>Non-visual side effects include: 
-- Sore throat, 
-- Nasal congestion, 
-- Runny nose, 
-- Headache, 
-- Joint pain. </p>
+<p>Non-visual side effects include:</p>
+<ul>
+<li>Sore throat, </li>
+<li>Nasal congestion, </li>
+<li>Runny nose, </li>
+<li>Headache, </li>
+<li>Joint pain. </li>
+</ul>
 <p>Other side effects which may occur following Rimmyrah treatment are described below: </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
-Visual side effects include: 
-- Decreased sharpness of vision, 
-- Swelling of a section of the eye (uvea, cornea), 
-- Inflammation of the cornea (front part of eye), 
-- Small marks on the surface of the eye, 
-- Blurred vision, 
-- Bleeding at the site of injection, 
-- Bleeding in the eye, 
-- Discharge from the eye with itching, 
-- Redness and swelling (conjunctivitis), 
-- Light sensitivity, 
-- Eye discomfort, 
-- Swelling of the eyelid, 
-- Eyelid pain. </p>
-<p>Non-visual side effects include: 
-- Urinary tract infection, 
-- Low red blood cells count (with symptoms such as tiredness, breathlessness, dizziness, pale 
-skin),<br />
-- Anxiety, 
-- Cough, 
-- Nausea (feeling sick), 
-- Allergic reactions like rash, hives, itching and skin reddening. </p>
+Visual side effects include:</p>
+<ul>
+<li>Decreased sharpness of vision, </li>
+<li>Swelling of a section of the eye (uvea, cornea), </li>
+<li>Inflammation of the cornea (front part of eye), </li>
+<li>Small marks on the surface of the eye, </li>
+<li>Blurred vision, </li>
+<li>Bleeding at the site of injection, </li>
+<li>Bleeding in the eye, </li>
+<li>Discharge from the eye with itching, </li>
+<li>Redness and swelling (conjunctivitis), </li>
+<li>Light sensitivity, </li>
+<li>Eye discomfort, </li>
+<li>Swelling of the eyelid, </li>
+<li>Eyelid pain. </li>
+</ul>
+<p>Non-visual side effects include:</p>
+<ul>
+<li>Urinary tract infection, </li>
+<li>Low red blood cells count (with symptoms such as tiredness, breathlessness, dizziness, pale 
+skin),  </li>
+<li>Anxiety, </li>
+<li>Cough, </li>
+<li>Nausea (feeling sick), </li>
+<li>Allergic reactions like rash, hives, itching and skin reddening. </li>
+</ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people) 
-Visual side effects include: 
-- Inflammation and bleeding in the front part of the eye, 
-- Sac of pus on the eye, 
-- Changes of the central part of the eye surface, 
-- Pain or irritation at the site of injection, 
-- Abnormal sensation in the eye, 
-- Irritation of the eyelid. </p>
+Visual side effects include:</p>
+<ul>
+<li>Inflammation and bleeding in the front part of the eye, </li>
+<li>Sac of pus on the eye, </li>
+<li>Changes of the central part of the eye surface, </li>
+<li>Pain or irritation at the site of injection, </li>
+<li>Abnormal sensation in the eye, </li>
+<li>Irritation of the eyelid. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. <br />
@@ -248,13 +266,15 @@ By reporting side effects you can help provide more information on the safety of
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store rimmyrah"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and vial label after 
-EXP. The expiry date refers to the last day of that month. 
-- Store in a refrigerator (2°C - 8°C). Do not freeze. 
-- Prior to use, the unopened vial may be kept at room temperature (25°C) for up to 24 hours. 
-- Keep the vial in the outer carton in order to protect from light. 
-- Do not use any pack that is damaged. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and vial label after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2 C - 8 C). Do not freeze. </li>
+<li>Prior to use, the unopened vial may be kept at room temperature (25 C) for up to 24 hours. </li>
+<li>Keep the vial in the outer carton in order to protect from light. </li>
+<li>Do not use any pack that is damaged. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -277,7 +297,7 @@ Pack containing one glass vial of ranibizumab with chlorobutyl rubber stopper. T
 use only. </p>
 <p>Vial + filter needle pack 
 Pack containing one glass vial of ranibizumab with chlorobutyl rubber stopper and one blunt filter 
-needle (18G × 1½ nches, 1.2 mm × 40 mm, 5 micrometres) for withdrawal of the vial contents. All 
+needle (18G   1  nches, 1.2 mm   40 mm, 5 micrometres) for withdrawal of the vial contents. All 
 components are for single use only. </p>
 <p>Marketing Authorisation Holder 
 QILU PHARMA SPAIN S.L. 
@@ -293,20 +313,19 @@ Barcelona
 08Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Qilu Pharma Spain S.L. 
-Tél/Tel: + 34 911 841 Lietuva 
+T l/Tel: + 34 911 841 Lietuva 
 Qilu Pharma Spain S.L. 
 Tel: + 34 911 841  </p>
-<p>България 
-Qilu Pharma Spain S.L. 
-Teл.: + 34 911 841<br />
+<p>Qilu Pharma Spain S.L. 
+Te .: + 34 911 841<br />
 Luxembourg/Luxemburg 
 Qilu Pharma Spain S.L. 
-Tél/Tel: + 34 911 841<br />
-Česká republika 
+T l/Tel: + 34 911 841<br />
+ esk  republika 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841 Magyarország 
+Tel: +34 911 841 Magyarorsz g 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
 Danmark 
@@ -326,21 +345,20 @@ Qilu Pharma Spain S.L.
 Tel: +34 911 841<br />
 Norge 
 Qilu Pharma Spain S.L. 
-Tlf: + 34 911 841<br />
-Ελλάδα 
-Orion Pharma Hellas Μ.Ε.Π.Ε<br />
-Τηλ: + 30 210 980 3 
-Österreich 
+Tlf: + 34 911 841  </p>
+<p>Orion Pharma Hellas  . . . <br />
+ : + 30 210 980 3 
+ sterreich 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
-España 
+Espa a 
 Orion Pharma SL 
 Tel: +349 159 9 86 Polska 
 Orion Pharma Poland Sp. z o. o. 
 Tel.: + 48 22 833 31<br />
 France 
 Orion Pharma 
-Tél: +33 (0) 1 85 18 00 Portugal 
+T l: +33 (0) 1 85 18 00 Portugal 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
 Hrvatska 
@@ -349,26 +367,25 @@ Tel: +34 911 841<br />
 Ireland 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
-România 
+Rom nia 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
 Slovenija 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
-Ísland 
+ sland 
 Qilu Pharma Spain S.L. 
-Sími: + 34 911 841<br />
-Slovenská republika 
+S mi: + 34 911 841<br />
+Slovensk  republika 
 Qilu Pharma Spain S.L. 
 Tel: + 34 911 841<br />
 Italia 
 Orion Pharma S.r.l. 
 Tel: + 39 02 67876Suomi/Finland 
 Qilu Pharma Spain S.L. 
-Puh/Tel: + 34 911 841<br />
-Κύπρος 
-Qilu Pharma Spain S.L. 
-Τηλ: + 34 911 841<br />
+Puh/Tel: + 34 911 841  </p>
+<p>Qilu Pharma Spain S.L. 
+ : + 34 911 841<br />
 Sverige 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841<br />
@@ -383,7 +400,7 @@ Detailed information on this medicine is available on the European Medicines Age
 http://www.ema.europa.eu </p>
 <p>THE FOLLOWING INFORMATION IS INTENDED FOR HEALTHCARE       <br />
 PROFESSIONALS ONLY: </p>
-<p>Please also refer to section 3 “How Rimmyrah is given”. </p>
+<p>Please also refer to section 3  How Rimmyrah is given . </p>
 <p>Single-use vial for intravitreal use only </p>
 <p>Rimmyrah must be administered by a qualified ophthalmologist experienced in intravitreal injections. </p>
 <p>In wet AMD, in CNV, in PDR and in visual impairment due to DME or to macular oedema secondary 
@@ -396,7 +413,7 @@ of the disease under continued treatment. In patients with wet AMD, DME, PDR and
 three or more consecutive, monthly injections may be needed. </p>
 <p>Thereafter, monitoring and treatment intervals should be determined by the physician and should be 
 based on disease activity, as assessed by visual acuity and/or anatomical parameters. </p>
-<p>If, in the physician’s opinion, visual and anatomical parameters indicate that the patient is not 
+<p>If, in the physician s opinion, visual and anatomical parameters indicate that the patient is not 
 benefiting from continued treatment, Rimmyrah should be discontinued. </p>
 <p>Monitoring for disease activity may include clinical examination, functional testing or imaging 
 techniques (e.g. optical coherence tomography or fluorescein angiography). </p>
@@ -423,7 +440,7 @@ disturbance prior to the administration. If particulate matter, discolouration o
 the vial should be discarded per local disposal guidelines. 
 The injection procedure should be carried out under aseptic conditions, which includes the use of 
 surgical hand disinfection, sterile gloves, a sterile drape and a sterile eyelid speculum (or equivalent) 
-and the availability of sterile paracentesis (if required). The patient’s medical history for 
+and the availability of sterile paracentesis (if required). The patient s medical history for 
 hypersensitivity reactions should be carefully evaluated prior to performing the intravitreal procedure. 
 Adequate anaesthesia and a broad-spectrum topical microbicide to disinfect the periocular skin, eyelid 
 and ocular surface should be administered prior to the injection, in accordance with local practice. </p>
@@ -431,22 +448,87 @@ and ocular surface should be administered prior to the injection, in accordance 
 The vial is for single use only. After injection any unused product must be discarded. Any vial 
 showing signs of damage or tampering must not be used. The sterility cannot be guaranteed unless the 
 packaging seal remains intact. </p>
-<p>For preparation and intravitreal injection the following medical devices for single use are needed: 
-- a 5 µm filter needle (18G × 1½ inches, 1.2 mm × 40 mm) 
-- a 1 ml sterile syringe (including a 0.05 ml mark) 
-- an injection needle (30G × ½ inches). 
-These medical devices are not included within the Rimmyrah pack. </p>
+<p>For preparation and intravitreal injection the following medical devices for single use are needed:</p>
+<ul>
+<li>a 5  m filter needle (18G   1  inches, 1.2 mm   40 mm) </li>
+<li>a 1 ml sterile syringe (including a 0.05 ml mark) </li>
+<li>an injection needle (30G     inches). 
+These medical devices are not included within the Rimmyrah pack. </li>
+</ul>
 <p>Vial + filter needle pack 
 All components are sterile and for single use only. Any component with packaging showing 
 signs of damage or tampering must not be used. The sterility cannot be guaranteed unless the 
 component packaging seal remains intact. Re-use may lead to infection or other illness/injury. </p>
-<p>For preparation and intravitreal injection the following medical devices for single use are needed: 
-- a 5 µm filter needle (18G × 1½ inches, 1.2 mm × 40 mm, provided) 
-- a 1 ml sterile syringe (including a 0.05 ml mark, not included within the Rimmyrah pack) 
-- an injection needle (30G × ½ inches; not included within the Rimmyrah pack) </p>
+<p>For preparation and intravitreal injection the following medical devices for single use are needed:</p>
+<ul>
+<li>a 5  m filter needle (18G   1  inches, 1.2 mm   40 mm, provided) </li>
+<li>a 1 ml sterile syringe (including a 0.05 ml mark, not included within the Rimmyrah pack) </li>
+<li>an injection needle (30G     inches; not included within the Rimmyrah pack) </li>
+</ul>
 <p>To prepare Rimmyrah for intravitreal administration to adult patients, please adhere to the following<br />
 instructions: </p>
 <p>Traceability 
 In order to improve the traceability of biological medicinal products, the name and the batch number 
-of the administered product should be clearly recorded. </p>         </div>"""      
+of the administered product should be clearly recorded. </p>
+<ol>
+<li>
+<p>Rimmyrah should be inspected visually to ensure there is 
+no particulate matter, discolouration or disturbance prior 
+to the administration. If particulate matter, discolouration 
+or disturbance is observed, the vial should be discarded 
+per local disposal guidelines. </p>
+</li>
+<li>
+<p>Before withdrawal, the outer part of the rubber stopper of 
+the vial should be disinfected (e.g., with 75% alcohol 
+swab). </p>
+</li>
+<li>
+<p>Assemble a 5  m filter needle (18G   1  inches, 
+1.2 mm x 40 mm) onto a 1 ml syringe using aseptic 
+technique. Push the blunt filter needle into the centre of 
+the vial stopper until the needle touches the bottom edge 
+of the vial. </p>
+</li>
+<li>
+<p>Withdraw all the liquid from the vial, keeping the vial in 
+an upright position, slightly inclined to ease complete 
+withdrawal. </p>
+</li>
+<li>
+<p>Ensure that the plunger rod is drawn sufficiently back 
+when emptying the vial in order to completely empty the 
+filter needle. </p>
+</li>
+<li>
+<p>Leave the blunt filter needle in the vial and disconnect<br />
+the syringe from the blunt filter needle. The filter needle 
+should be discarded after withdrawal of the vial contents 
+and should not be used for the intravitreal injection. </p>
+</li>
+<li>
+<p>Aseptically and firmly assemble an injection needle <br />
+(30G     inches, 0.3 mm   13 mm) onto the syringe. </p>
+</li>
+<li>
+<p>Carefully remove the cap from the injection needle 
+without disconnecting the injection needle from the 
+syringe. </p>
+</li>
+</ol>
+<p>Note: Grip at the hub of the injection needle while 
+removing the cap. </p>
+<ol>
+<li>Carefully expel the air along with the excess solution 
+from the syringe and adjust the dose to the 0.05 ml mark 
+on  the syringe. The syringe is ready for injection. </li>
+</ol>
+<p>Note: Do not wipe the injection needle. Do not pull back 
+on the plunger. </p>
+<p>The injection needle should be inserted 3.5-4.0 mm posterior to the limbus into the vitreous cavity, 
+avoiding the horizontal meridian and aiming towards the centre of the globe. The injection volume 
+of 0.05 ml is then delivered; a different scleral site should be used for subsequent injections. </p>
+<p>After injection, do not recap the needle or detach it from the syringe. Dispose of the used syringe 
+together with the needle in a sharps disposal container or in accordance with local requirements. </p>
+<p>0.05 ml </p>         </div>"""      
 

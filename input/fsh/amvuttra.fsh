@@ -4,7 +4,7 @@ Instance: composition-en-390f2bf9e603dd85f443eae025f147b6
 InstanceOf: CompositionUvEpi
 Title: "Composition for amvuttra Package Leaflet"
 Description:  "Composition for amvuttra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,12 +71,12 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance in Amvuttra is vutrisiran. </p>
 <p>What Amvuttra is used for </p>
-<p>Amvuttra is used for the treatment of an illness called ‘hereditary ATTR’ or ‘hATTR amyloidosis’. 
+<p>Amvuttra is used for the treatment of an illness called  hereditary ATTR  or  hATTR amyloidosis . 
 This is an illness which runs in families. hATTR amyloidosis is caused by problems with a protein in 
-the body called ‘transthyretin’ (TTR). This protein is made mostly in the liver and carries vitamin A 
+the body called  transthyretin  (TTR). This protein is made mostly in the liver and carries vitamin A 
 and other substances around the body. </p>
 <p>In people with this illness, small fibres of TTR protein clump together to make deposits called 
-‘amyloid’. Amyloid can build up around or within the nerves, heart, and other places in the body, 
+ amyloid . Amyloid can build up around or within the nerves, heart, and other places in the body, 
 stopping them from working normally. This causes the symptoms of the illness. </p>
 <p>How Amvuttra works </p>
 <p>Amvuttra works by lowering the amount of TTR protein made by the liver which means there is less 
@@ -107,8 +107,8 @@ vision.
 your doctor. Your doctor may send you to an eye specialist for a check-up. </p>
 <p>Both too high and too low levels of vitamin A can harm the development of your unborn child. 
 Therefore, women of childbearing age should exclude any pregnancy before starting treatment with 
-Amvuttra and practise effective contraception (see section “Pregnancy, breast-feeding and 
-contraception” below). 
+Amvuttra and practise effective contraception (see section  Pregnancy, breast-feeding and 
+contraception  below). 
 * Vitamin A levels may remain low for more than 12 months after the last dose of Amvuttra. <br />
 * Tell your doctor if you are planning to become pregnant. Your doctor will tell you to stop taking 
 Amvuttra and vitamin A supplementation. Your doctor will also ensure that your vitamin A 
@@ -131,7 +131,7 @@ your doctor or pharmacist for advice before starting this medicine. </p>
 <p>You should not use Amvuttra if you are pregnant.  </p>
 <p>Women of childbearing age </p>
 <p>Amvuttra will reduce the level of vitamin A in your blood and vitamin A is important for normal 
-development of your unborn child (see “Warnings and precautions” above). 
+development of your unborn child (see  Warnings and precautions  above). 
 * You should use effective contraception during treatment with Amvuttra - if you are a woman 
 who is able to become pregnant. 
 * Talk to your doctor or nurse about suitable methods of contraception. 
@@ -145,8 +145,8 @@ treatment for you - compared with the risks of breast-feeding for your baby. </p
 <p>Amvuttra is unlikely to affect your ability to drive or use machines. Your doctor will tell you whether 
 your condition allows you to drive vehicles and use machines safely. </p>
 <p>Amvuttra contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amvuttra"
@@ -157,7 +157,7 @@ free’. </p>         </div>"""
 <p>How much Amvuttra you are given </p>
 <p>The recommended dose is 25 mg once every 3 months. </p>
 <p>Where the injection is given </p>
-<p>Amvuttra is given by injection under the skin (‘subcutaneous injection’) into your stomach area 
+<p>Amvuttra is given by injection under the skin ( subcutaneous injection ) into your stomach area 
 (abdomen), upper arm or thigh. </p>
 <p>How long to use Amvuttra </p>
 <p>Your doctor will tell you how long you need to receive Amvuttra. Do not stop treatment with 
@@ -198,8 +198,8 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label, tray lid and carton after 
-‘EXP’. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 °C. Do not freeze. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Do not store above 30  C. Do not freeze. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
 environment. </p>         </div>"""      
@@ -217,7 +217,7 @@ Each pre-filled syringe contains vutrisiran sodium equivalent to 25 mg vutrisira
 solution. </li>
 <li>The other ingredients are: sodium dihydrogen phosphate dihydrate, disodium phosphate 
 dihydrate, sodium chloride and water for injections. Sodium hydroxide and phosphoric acid 
-may be used to adjust the pH (see “Amvuttra contains sodium” in section 2). </li>
+may be used to adjust the pH (see  Amvuttra contains sodium  in section 2). </li>
 </ul>
 <p>What Amvuttra looks like and contents of the pack </p>
 <p>This medicine is a clear, colourless-to-yellow solution for injection (injection). Each pack contains one 
@@ -228,21 +228,20 @@ Antonio Vivaldistraat 1083 HP Amsterdam
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Alnylam Netherlands B.V. 
-Tél/Tel: 0800 81 443 (+32 234 208 71) 
+T l/Tel: 0800 81 443 (+32 234 208 71) 
 medinfo@alnylam.com </p>
 <p>Luxembourg/Luxemburg 
 Alnylam Netherlands B.V. 
-Tél/Tel: 80085235 (+352 203 014 48) 
+T l/Tel: 80085235 (+352 203 014 48) 
 medinfo@alnylam.com </p>
-<p>България 
-Genesis Pharma Bulgaria EOOD 
-Teл.: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Genesis Pharma Bulgaria EOOD 
+Te .: +359 2 969 3medinfo@genesispharmagroup.com </p>
 <p>Malta 
 Genesis Pharma (Cyprus) Ltd 
 Tel: +357 22765medinfo@genesispharmagroup.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Alnylam Czech s.r.o. 
 Tel: 800 050 450 (+420 234 092 195) 
 medinfo@alnylam.com </p>
@@ -262,27 +261,27 @@ medinfo@alnylam.com </p>
 Alnylam Germany GmbH 
 Tel: 08002569526 (+49 8920190112) 
 medinfo@alnylam.com </p>
-<p>Österreich 
+<p>sterreich 
 Alnylam Austria GmbH 
 Tel: 0800070339 (+43 720 778 072) 
 medinfo@alnylam.com </p>
-<p>Ελλάδα 
-ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε<br />
-Τηλ: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<pre><code> .
+</code></pre>
+<p>: +30 210 87 71 medinfo@genesispharmagroup.com </p>
 <p>Portugal 
 Alnylam Portugal 
 Tel: 707201512 (+351 707502642) 
 medinfo@alnylam.com </p>
-<p>España 
+<p>Espa a 
 Alnylam Pharmaceuticals Spain SL 
 Tel: 900810212 (+34 910603753) 
 medinfo@alnylam.com </p>
-<p>România 
+<p>Rom nia 
 Genesis Biopharma Romania SRL 
 Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
 <p>France 
 Alnylam France SAS 
-Tél: 0805542656 (+33 187650921) 
+T l: 0805542656 (+33 187650921) 
 medinfo@alnylam.com </p>
 <p>Slovenija 
 Genesis Pharma Adriatic d.o.o 
@@ -310,13 +309,12 @@ medinfo@alnylam.com </p>
 Alnylam UK Ltd. 
 Tel: 08001412569 (+44 1628 878592) 
 medinfo@alnylam.com </p>
-<p>Κύπρος 
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: +357 22765medinfo@genesispharmagroup.com </p>
-<p>Eesti, Ísland, Latvija, Lietuva, Magyarország, 
-Polska, Slovenská republika 
+<p>Genesis Pharma (Cyprus) Ltd 
+ : +357 22765medinfo@genesispharmagroup.com </p>
+<p>Eesti,  sland, Latvija, Lietuva, Magyarorsz g, 
+Polska, Slovensk  republika 
 Alnylam Netherlands B.V. 
-Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
+Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

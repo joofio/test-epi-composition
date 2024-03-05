@@ -4,7 +4,7 @@ Instance: composition-en-4143a283449d30b8e5a863d688670e88
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavlesse Package Leaflet"
 Description:  "Composition for tavlesse Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ reduce the risk of severe bleeding. </p>
 <p>What TAVLESSE is used for 
 TAVLESSE is used to treat adults with low platelet counts due to chronic immune thrombocytopenia 
 (ITP) when an earlier treatment for ITP has not worked well enough. ITP is an autoimmune disease, in 
-which the body’s own immune system attacks and destroys platelets in the blood. Platelets are needed 
+which the body s own immune system attacks and destroys platelets in the blood. Platelets are needed 
 to help create clots and stop bleeding. </p>         </div>"""   
           
 
@@ -86,45 +86,35 @@ to help create clots and stop bleeding. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take tavlesse"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take TAVLESSE 
- 
-if you are allergic to fostamatinib or any of the other ingredients in this medicine (listed in 
-section 6).<br />
- 
-if you are pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take TAVLESSE </p>
+<p>if you are allergic to fostamatinib or any of the other ingredients in this medicine (listed in 
+section 6).  </p>
+<p>if you are pregnant. </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking TAVLESSE, about all of your medical conditions, 
-particularly if you: 
- 
-have high blood pressure, 
- 
-have liver problems, 
- 
-are pregnant or plan to become pregnant,<br />
- 
-are breastfeeding or plan to breastfeed.  </p>
+particularly if you: </p>
+<p>have high blood pressure, </p>
+<p>have liver problems, </p>
+<p>are pregnant or plan to become pregnant,  </p>
+<p>are breastfeeding or plan to breastfeed.  </p>
 <p>Tell your doctor, pharmacist or nurse immediately if you get any of the following symptoms while you 
-are taking this medicine: 
- 
-if you have high blood pressure (hypertension). New or worsening high blood pressure is common 
+are taking this medicine: </p>
+<p>if you have high blood pressure (hypertension). New or worsening high blood pressure is common 
 in people treated with TAVLESSE and can be severe. Your doctor will check your blood pressure 
 regularly during treatment with this medicine. If needed, your doctor may start you on blood 
 pressure medicine or change your current medicine to treat your blood pressure. Tell your doctor 
-or pharmacist if you get headaches, confusion, dizziness, chest pain or shortness of breath.<br />
- 
-if your skin and eyes appear yellowish (jaundice) or if you get abdominal pain and swelling, 
+or pharmacist if you get headaches, confusion, dizziness, chest pain or shortness of breath.  </p>
+<p>if your skin and eyes appear yellowish (jaundice) or if you get abdominal pain and swelling, 
 swelling in your legs and ankles, itchy skin, abnormal dark urine, pale stool colour or bloody or 
 tar-coloured stool, chronic fatigue, feeling or being sick in the stomach, and loss of appetite. 
 Changes in liver function blood tests are common with this medicine. These may be symptoms of 
 liver problems. Liver problems may occur and can be severe. Your doctor will regularly carry out 
-blood tests to check how well your liver is working during treatment with this medicine. 
- 
-if you get diarrhoea. This is common in people treated with this medicine and can be severe. Tell 
+blood tests to check how well your liver is working during treatment with this medicine. </p>
+<p>if you get diarrhoea. This is common in people treated with this medicine and can be severe. Tell 
 your doctor or pharmacist if you get diarrhoea during treatment with this medicine. Your doctor 
 may recommend changes in your diet, drinking more water, or give an antidiarrhoeal medicine to 
-limit your symptoms. 
- 
-if you get a high fever (a sign of serious infection), chills, feel sick, or have a general feeling of 
+limit your symptoms. </p>
+<p>if you get a high fever (a sign of serious infection), chills, feel sick, or have a general feeling of 
 being unwell. Your doctor will regularly do blood tests to check your white blood cell counts, and 
 you may be told about a decrease in your white blood cell counts (neutropenia). Decreases in your 
 white blood cell count are common with this medicine and can be severe. This may increase your 
@@ -137,31 +127,20 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. </p>
 <p>Taking TAVLESSE with certain other medicines may affect how the other medicines work and other 
 medicines may affect how TAVLESSE works. 
-In particular, tell your doctor if you are taking anything in this list: 
- 
-Ketoconazole, this medicine is typically used to treat fungal infections. 
- 
-Rifampicin, this medicine is typically used to treated bacterial infections. 
- 
-Simvastatin and rosuvastatin, these medicines are typically used to treat high cholesterol. 
- 
-Digoxin, this medicine is typically used to treat various heart conditions such as atrial fibrillation, 
-atrial flutter and heart failure. 
- 
-Midazolam, this medicine is typically used for sedation or to treat anxiety. 
- 
-Anticoagulants, this medicine is typically used to prevent blood clotting.<br />
- 
-Nelfinavir, this medicine is typically used to treat HIV infection. 
- 
-Verapamil, this medicine it typically used to treat various heart conditions such as high blood 
-pressure. 
- 
-Ranitidine, this medicine is typically used to treat heart burn. 
- 
-Ethinylestradiol, this medicine is typically used for birth control. 
- 
-Pioglitazone, this medicine is typically used to treat type 2 diabetes.  </p>
+In particular, tell your doctor if you are taking anything in this list: </p>
+<p>Ketoconazole, this medicine is typically used to treat fungal infections. </p>
+<p>Rifampicin, this medicine is typically used to treated bacterial infections. </p>
+<p>Simvastatin and rosuvastatin, these medicines are typically used to treat high cholesterol. </p>
+<p>Digoxin, this medicine is typically used to treat various heart conditions such as atrial fibrillation, 
+atrial flutter and heart failure. </p>
+<p>Midazolam, this medicine is typically used for sedation or to treat anxiety. </p>
+<p>Anticoagulants, this medicine is typically used to prevent blood clotting.  </p>
+<p>Nelfinavir, this medicine is typically used to treat HIV infection. </p>
+<p>Verapamil, this medicine it typically used to treat various heart conditions such as high blood 
+pressure. </p>
+<p>Ranitidine, this medicine is typically used to treat heart burn. </p>
+<p>Ethinylestradiol, this medicine is typically used for birth control. </p>
+<p>Pioglitazone, this medicine is typically used to treat type 2 diabetes.  </p>
 <p>Pregnancy, breast-feeding and fertility </p>
 <p>Pregnancy 
 TAVLESSE should not be used during pregnancy. It can cause harm or birth defects to your unborn 
@@ -235,55 +214,36 @@ medicine unless your doctor tells you to. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
 TAVLESSE may cause serious side effects. Tell your doctor immediately if you have any of the 
-following serious side effects, either for the first time or if they get worse (see also section 2): 
- 
-high fever. Fever has been associated with low levels of white blood cells (febrile neutropenia) or 
-infection 
- 
-diarrhoea 
- 
-infection and inflammation of the lungs (pneumonia). Symptoms include feeling short of breath, 
-chest pain and producing discoloured mucus 
- 
-jaundice, abdominal pain and swelling, swelling in your legs and ankles, itchy skin, abnormal dark 
+following serious side effects, either for the first time or if they get worse (see also section 2): </p>
+<p>high fever. Fever has been associated with low levels of white blood cells (febrile neutropenia) or 
+infection </p>
+<p>diarrhoea </p>
+<p>infection and inflammation of the lungs (pneumonia). Symptoms include feeling short of breath, 
+chest pain and producing discoloured mucus </p>
+<p>jaundice, abdominal pain and swelling, swelling in your legs and ankles, itchy skin, abnormal dark 
 urine, pale stool colour or bloody or tar-coloured stool, chronic fatigue, feeling or being sick in the 
-stomach, loss of appetite. These may be symptoms of liver problems.<br />
- 
-severe increase of blood pressure that can lead to a stroke (hypertensive crisis). Symptoms are 
+stomach, loss of appetite. These may be symptoms of liver problems.  </p>
+<p>severe increase of blood pressure that can lead to a stroke (hypertensive crisis). Symptoms are 
 headache, confusion, dizziness. </p>
 <p>Other side effects 
 Besides the serious side effects mentioned above, you may also get other side effects. </p>
-<p>Very common (may affect more than 1 in 10 people): 
- 
-gastrointestinal disorders such as diarrhoea, feeling or being sick in the stomach, and frequent 
-bowel movement 
- 
-high blood pressure 
- 
-abnormal blood test results showing how your liver is working 
- 
-dizziness </p>
-<p>Common (may affect up to 1 in 10 people): 
- 
-low white blood cell count or neutropenia 
- 
-stomach pain 
- 
-chest pain 
- 
-tiredness (fatigue) 
- 
-flu-like symptoms<br />
- 
-infections of the nose and throat, such as sore throat and the common cold 
- 
-infection of the windpipe, such as bronchitis 
- 
-taste changes 
- 
-rash<br />
- 
-headache </p>
+<p>Very common (may affect more than 1 in 10 people): </p>
+<p>gastrointestinal disorders such as diarrhoea, feeling or being sick in the stomach, and frequent 
+bowel movement </p>
+<p>high blood pressure </p>
+<p>abnormal blood test results showing how your liver is working </p>
+<p>dizziness </p>
+<p>Common (may affect up to 1 in 10 people): </p>
+<p>low white blood cell count or neutropenia </p>
+<p>stomach pain </p>
+<p>chest pain </p>
+<p>tiredness (fatigue) </p>
+<p>flu-like symptoms  </p>
+<p>infections of the nose and throat, such as sore throat and the common cold </p>
+<p>infection of the windpipe, such as bronchitis </p>
+<p>taste changes </p>
+<p>rash  </p>
+<p>headache </p>
 <p>Reporting of side effects 
 If any of the side effects gets serious, or if you notice any side effects not listed in this leaflet, please 
 tell your doctor or your pharmacist. You can also report side effects directly via the national reporting 
@@ -313,27 +273,25 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is fostamatinib disodium hexahydrate. 
 TAVLESSE 100 mg film-coated tablets 
 TAVLESSE 150 mg film-coated tablets<br />
-- The other ingredients are: 
- 
-Mannitol, sodium hydrogen carbonate, sodium starch glycolate (type A), povidone (K30), 
-magnesium stearate<br />
- 
-Film-coating: poly(vinyl alcohol), titanium dioxide, macrogol (3350), talc, iron oxide 
+- The other ingredients are: </p>
+<p>Mannitol, sodium hydrogen carbonate, sodium starch glycolate (type A), povidone (K30), 
+magnesium stearate  </p>
+<p>Film-coating: poly(vinyl alcohol), titanium dioxide, macrogol (3350), talc, iron oxide 
 yellow, iron oxide red </p>
 <p>What TAVLESSE looks like and contents of the pack </p>
 <p>TAVLESSE 100 mg film-coated tablets 
 The tablet is round, curved on both sides with a dark orange film coat. The commercial tablets are 
-debossed with “R” on one side and “100” on the reverse side. 
+debossed with  R  on one side and  100  on the reverse side. 
 Available in bottle of 30 and 60 film-coated tablets. Each bottle has 2 desiccants. 
 Not all pack sizes may be marketed. </p>
 <p>TAVLESSE 150 mg film-coated tablets 
 The tablet is oval, curved on both sides, with a light orange film coat. The commercial tablets are 
-debossed with “R” on one side and “150” on the reverse side. 
+debossed with  R  on one side and  150  on the reverse side. 
 Available in bottle of 30 and 60 film-coated tablets. Each bottle has 2 desiccants. 
 Not all pack sizes may be marketed.  </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Instituto Grifols, S.A. 
-Can Guasc, 2 - Parets del Vallès 
+Can Guasc, 2 - Parets del Vall s 
 08150 Barcelona - Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
@@ -351,7 +309,7 @@ DK/FI/IS/NO/SE
 Grifols Nordic AB 
 Tel: +46 8 441 89 FR 
 Grifols France 
-Tél: +33 (0)1 53 53 08<br />
+T l: +33 (0)1 53 53 08<br />
 IT 
 Grifols Italia S.p.A. 
 Tel: +39 050 8755 PL 
@@ -359,6 +317,6 @@ Grifols Polska Sp. z o. o.
 Tel: +48 22 378 85<br />
 PT 
 Grifols Portugal, Lda. 
-Tel: +351 219 255 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
+Tel: +351 219 255 This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 

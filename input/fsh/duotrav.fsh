@@ -4,7 +4,7 @@ Instance: composition-en-a8470e7b18972c2dec141fc0fb92e8c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for duotrav Package Leaflet"
 Description:  "Composition for duotrav Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,42 +83,28 @@ pressure can lead to an illness called glaucoma. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take duotrav"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use DuoTrav 
- 
-if you are allergic to travoprost, prostaglandins, timolol, beta blockers or any of the other 
-ingredients of this medicine (listed in section 6). 
- 
-if you have now or have had in the past respiratory problems such as asthma, severe chronic 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use DuoTrav </p>
+<p>if you are allergic to travoprost, prostaglandins, timolol, beta blockers or any of the other 
+ingredients of this medicine (listed in section 6). </p>
+<p>if you have now or have had in the past respiratory problems such as asthma, severe chronic 
 obstructive bronchitis (severe lung disease which may cause wheeziness, difficulty in breathing 
-and/or long-standing cough), or other types of breathing problems. 
- 
-if you have severe hay fever. 
- 
-if you have a slow heartbeat, heart failure or a disorder of heart rhythm (irregular heartbeat). 
- 
-if the surface of your eye is cloudy. </p>
+and/or long-standing cough), or other types of breathing problems. </p>
+<p>if you have severe hay fever. </p>
+<p>if you have a slow heartbeat, heart failure or a disorder of heart rhythm (irregular heartbeat). </p>
+<p>if the surface of your eye is cloudy. </p>
 <p>Ask your doctor for advice if any of these applies to you. </p>
 <p>Warning and precautions 
-Talk to your doctor before using DuoTrav if you have now or have had in the past 
- 
-coronary heart disease (symptoms can include chest pain or tightness, breathlessness or 
-choking), heart failure, low blood pressure. 
- 
-disturbances of heart rate such as slow heartbeat. 
- 
-breathing problems, asthma or chronic obstructive pulmonary disease. 
- 
-poor blood circulation disease (such as Raynaud’s disease or Raynaud’s syndrome). 
- 
-diabetes (as timolol may mask signs and symptoms of low blood sugar). 
- 
-overactivity of the thyroid gland (as timolol may mask signs and symptoms of thyroid disease). 
- 
-myasthenia gravis (chronic neuromuscular weakness). 
- 
-cataract surgery. 
- 
-eye inflammation. </p>
+Talk to your doctor before using DuoTrav if you have now or have had in the past </p>
+<p>coronary heart disease (symptoms can include chest pain or tightness, breathlessness or 
+choking), heart failure, low blood pressure. </p>
+<p>disturbances of heart rate such as slow heartbeat. </p>
+<p>breathing problems, asthma or chronic obstructive pulmonary disease. </p>
+<p>poor blood circulation disease (such as Raynaud s disease or Raynaud s syndrome). </p>
+<p>diabetes (as timolol may mask signs and symptoms of low blood sugar). </p>
+<p>overactivity of the thyroid gland (as timolol may mask signs and symptoms of thyroid disease). </p>
+<p>myasthenia gravis (chronic neuromuscular weakness). </p>
+<p>cataract surgery. </p>
+<p>eye inflammation. </p>
 <p>If you need to have any type of surgery, tell your doctor that you are using DuoTrav as timolol may 
 change the effects of some medicines used during anaesthesia. </p>
 <p>If you get any severe allergic reaction (skin rash, redness and itching of the eye) while using DuoTrav, 
@@ -168,37 +154,24 @@ evening. Use at the same time each day. </p>
 2 
 3 
 4 </p>
-<p> 
-Immediately before using a bottle for the first time, tear open the overwrap (picture 1), remove 
-the bottle and write the date of opening on the label in the space provided. 
- 
-Make sure you have a mirror available. 
- 
-Wash your hands. 
- 
-Twist off the bottle cap. 
- 
-Hold the bottle, pointing down, between your thumb and fingers. 
- 
-Tilt your head back. Pull your lower eyelid down with a clean finger until there is a “pocket” 
-between the eyelid and your eye. The drop will go in here (picture 2). 
- 
-Bring the bottle dropper close to the eye. Use the mirror if it helps. 
- 
-Do not touch your eye or eyelid, the surrounding areas or other surfaces with the dropper. It 
-could infect the drops. 
- 
-Gently squeeze the bottle to release one drop of DuoTrav at a time (picture 3). If a drop misses 
-your eye, try again. 
- 
-After using DuoTrav, press your finger into the corner of your eye by your nose for 2 minutes 
-(picture 4). This helps to stop DuoTrav getting into the rest of the body. 
- 
-If you have to use DuoTrav in both eyes, repeat the above steps for your other eye. 
- 
-Close the bottle cap firmly immediately after use. 
- 
-Only use one bottle at a time. Do not open the overwrap until you need to use the bottle. </p>
+<p>Immediately before using a bottle for the first time, tear open the overwrap (picture 1), remove 
+the bottle and write the date of opening on the label in the space provided. </p>
+<p>Make sure you have a mirror available. </p>
+<p>Wash your hands. </p>
+<p>Twist off the bottle cap. </p>
+<p>Hold the bottle, pointing down, between your thumb and fingers. </p>
+<p>Tilt your head back. Pull your lower eyelid down with a clean finger until there is a  pocket<br />
+between the eyelid and your eye. The drop will go in here (picture 2). </p>
+<p>Bring the bottle dropper close to the eye. Use the mirror if it helps. </p>
+<p>Do not touch your eye or eyelid, the surrounding areas or other surfaces with the dropper. It 
+could infect the drops. </p>
+<p>Gently squeeze the bottle to release one drop of DuoTrav at a time (picture 3). If a drop misses 
+your eye, try again. </p>
+<p>After using DuoTrav, press your finger into the corner of your eye by your nose for 2 minutes 
+(picture 4). This helps to stop DuoTrav getting into the rest of the body. </p>
+<p>If you have to use DuoTrav in both eyes, repeat the above steps for your other eye. </p>
+<p>Close the bottle cap firmly immediately after use. </p>
+<p>Only use one bottle at a time. Do not open the overwrap until you need to use the bottle. </p>
 <p>Use DuoTrav for as long as your doctor has told you to. </p>
 <p>If you use more DuoTrav than you should 
 If you use more DuoTrav than you should, rinse it all out with warm water. Do not put in any more 
@@ -278,7 +251,7 @@ Ear and labyrinth disorders: dizziness with spinning sensation, ringing in the e
 <p>Heart and circulation: slow heart rate, palpitations, oedema (fluid build-up), changes in heartbeat 
 rhythm or speed, congestive heart failure (heart disease with shortness of breath and swelling of the 
 feet and legs due to fluid build-up), a type of heart rhythm disorder, heart attack, low blood pressure, 
-Raynaud’s phenomenon, cold hands and feet, reduced blood supply to the brain. </p>
+Raynaud s phenomenon, cold hands and feet, reduced blood supply to the brain. </p>
 <p>Respiratory: constriction of the airways in the lungs (predominantly in patients with pre-existing 
 disease), runny or stuffy nose, sneezing (due to allergy), difficulty breathing, nose bleed, nasal 
 dryness. </p>
@@ -313,7 +286,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>You must throw away the bottle 4 weeks after you first opened it to prevent the risk of infections. 
 Each time you start a new bottle write down the date you open it in the spaces on the bottle label and 
 carton. </p>
@@ -349,12 +322,12 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>S.A. Alcon-Couvreur N.V. 
 Rijksweg B-2870 Puurs 
 Belgium </p>
-<p>Novartis Farmacéutica, S.A. 
+<p>Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Siegfried El Masnou, S.A. 
@@ -363,21 +336,21 @@ Camil Fabra El Masnou
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16 България 
+Tel: +370 5 269 16 <br />
 Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
-Tel: +420 225 775 Magyarország 
-Novartis Hungária Kft. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -394,24 +367,24 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4 
 France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274 România 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299<br />
 Ireland 
@@ -419,9 +392,9 @@ Novartis Ireland Limited
 Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc.<br />
 Tel: +386 1 300 75<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7Slovenská republika 
+S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: + 421 2 5542 5 
 Italia 
@@ -429,9 +402,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 </p>
 <p>Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133 Κύπρος 
+Puh/Tel: +358 (0)10 6133 <br />
 Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32 Latvija 

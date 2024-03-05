@@ -4,7 +4,7 @@ Instance: composition-en-b685aeea2bdf7a0921a22706f03b5a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontruzant Package Leaflet"
 Description:  "Composition for ontruzant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -170,11 +170,11 @@ sodium-free. </p>         </div>"""
 patients with a large amount of HER2 will be treated with Ontruzant. Ontruzant should only be given 
 by a doctor or nurse. Your doctor will prescribe a dose and treatment regimen that is right for you. The 
 dose of Ontruzant depends on your body weight. </p>
-<p>Ontruzant is given as an infusion into a vein (intravenous infusion, “drip”). This intravenous 
+<p>Ontruzant is given as an infusion into a vein (intravenous infusion,  drip ). This intravenous 
 formulation is not for subcutaneous use and should be given as an intravenous infusion only. </p>
 <p>The first dose of your treatment is given over 90 minutes and you will be observed by a health 
-professional while it is being given in case you have any side effects (see section 2 under “Warnings 
-and precautions”). If the first dose is well tolerated the next doses may be given over 30 minutes. The 
+professional while it is being given in case you have any side effects (see section 2 under  Warnings 
+and precautions ). If the first dose is well tolerated the next doses may be given over 30 minutes. The 
 number of infusions you receive will depend on how you respond to the treatment. Your doctor will 
 discuss this with you. </p>
 <p>In order to prevent medication errors, it is important to check the vial labels to ensure that the medicine 
@@ -203,8 +203,8 @@ common (may affect more than 1 in 10 people). Other infusion-related symptoms ar
 (nausea), vomiting, pain, increased muscle tension and shaking, headache, dizziness, breathing 
 difficulties, high or low blood pressure, heart rhythm disturbances (palpitations, heart fluttering or 
 irregular heart beat), swelling of the face and lips, rash and feeling tired. Some of these symptoms can 
-be serious and some patients have died (see section 2 under “Warnings and precautions”). </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+be serious and some patients have died (see section 2 under  Warnings and precautions ). </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 health care professional during the infusion and for at least six hours after the start of the first infusion 
 and for two hours after the start of other infusions. If you develop a reaction, they will slow down or 
@@ -221,7 +221,7 @@ stopped and can be serious. They include weakening of the heart muscle possibly 
 failure, inflammation of the lining around the heart and heart rhythm disturbances. This can lead to 
 symptoms such as breathlessness (including breathlessness at night), cough, fluid retention 
 (swelling) in the legs or arms, palpitations (heart fluttering or irregular heart beat) (see section 2, 
-“Heart checks”). </li>
+ Heart checks ). </li>
 </ul>
 <p>Your doctor will monitor your heart regularly during and after treatment but you should tell your 
 doctor immediately if you notice any of the above symptoms. </p>
@@ -307,10 +307,9 @@ limb
 <ul>
 <li>deafness </li>
 <li>bumpy rash </li>
-<li>wheezing 
-•<br />
-inflammation or scarring of the lungs </li>
+<li>wheezing </li>
 </ul>
+<p>inflammation or scarring of the lungs </p>
 <p>Rare side effects of Ontruzant (may affect up to 1 in 1000 people): </p>
 <ul>
 <li>jaundice (yellowish discoloration of the skin or eyes) </li>
@@ -357,11 +356,11 @@ safety of this medicine. </p>         </div>"""
 <li>Keep this medicine out of the sight and reach of children. </li>
 <li>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial 
 label after EXP. The expiry date refers to the last day of that month. </li>
-<li>The unopened vial should be stored in a refrigerator (2°C - 8°C). </li>
+<li>The unopened vial should be stored in a refrigerator (2 C - 8 C). </li>
 <li>Do not freeze the reconstituted solution. </li>
 <li>Infusion solutions should be used immediately after dilution. If not used immediately, in-use 
 storage times and conditions prior to use are the responsibility of the user, and would not normally 
-be longer than 24 hours 2°C - 8°C. </li>
+be longer than 24 hours 2 C - 8 C. </li>
 <li>Do not use Ontruzant if you notice any particulate matter or discoloration prior to administration. </li>
 <li>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist 
 how to dispose of medicines no longer required. These measures will help to protect the 
@@ -376,123 +375,15 @@ environment. </li>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ontruzant contains  </p>
 <ul>
-<li>The active substance is trastuzumab. Each vial contains either: </li>
-<li>150 mg trastuzumab that has to be dissolved in 7.2 mL of water for injection, or </li>
+<li>
+<p>The active substance is trastuzumab. Each vial contains either:</p>
+</li>
+<li>
+<p>150 mg trastuzumab that has to be dissolved in 7.2 mL of water for injection, or </p>
+</li>
 <li>420 mg trastuzumab that has to be dissolved in 20 mL of water for injection. </li>
 <li>The resulting solution contains approximately 21 mg/mL trastuzumab. </li>
-<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine, α,α-trehalose 
-dihydrate, polysorbate 20.<br />
-What Ontruzant looks like and contents of the pack </li>
-</ul>
-<p>Ontruzant is a powder for concentrate for solution for intravenous infusion, which is supplied in a glass 
-vial with a rubber stopper containing either 150 mg or 420 mg of trastuzumab. The powder is a white 
-to pale yellow pellet. Each carton contains 1 vial of powder. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Samsung Bioepis NL B.V. 
-Olof Palmestraat 2616 LR Delft 
-The Netherlands </p>
-<p>Manufacturer </p>
-<p>Samsung Bioepis NL B.V. 
-Olof Palmestraat 10, 
-2616 LR Delft 
-The Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Organon Belgium<br />
-Tel/Tél:  0080066550123 (+32 2 2418100) 
-dpoc.benelux@organon.com 
-Lietuva 
-Organon Pharma B.V. Lithuania atstovybė 
-Tel.: + 370 52041dpoc.lithuania@organon.com  </p>
-<p>България 
-Органон (И.А.) Б.В. - клон България 
-Тел.: +359 2 806 3dpoc.bulgaria@organon.com 
-Luxembourg/Luxemburg 
-Organon Belgium<br />
-Tel/Tél:  0080066550123 (+32 2 2418100) 
-dpoc.benelux@organon.com </p>
-<p>Česká republika 
-Organon Czech Republic s.r.o. 
-Tel.: +420 233 010 dpoc.czech@organon.com </p>
-<p>Magyarország 
-Organon Hungary Kft. 
-Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
-<p>Danmark 
-Organon Denmark ApS<br />
-Tlf: + 45 44 84 68 info.denmark@organon.com 
-Malta 
-Organon Pharma B.V., Cyprus branch 
-Tel.: +356 22778dpoc.cyprus@organon.com </p>
-<p>Deutschland 
-Organon Healthcare GmbH 
-Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
-dpoc.germany@organon.com </p>
-<p>Nederland 
-N.V. Organon 
-Tel.: 00800 66550123 (+32 2 2418100) 
-dpoc.benelux@organon.com </p>
-<p>Eesti 
-Organon Pharma B.V. Estonian RO 
-Tel: +372 66 61 dpoc.estonia@organon.com </p>
-<p>Norge 
-Organon Norway AS 
-Tlf: +47 24 14 56 info.norway@organon.com 
-Ελλάδα 
-BIANEΞ Α.Ε 
-Τηλ: +30 210 80091 Mailbox@vianex.gr  </p>
-<p>Österreich 
-Organon Austria GmbH 
-Tel: +43 (0) 1  263 28 dpoc.austria@organon.com </p>
-<p>España 
-Organon Salud, S.L. 
-Tel: +34 91 591 12 Polska 
-Organon Polska Sp. z o.o.<br />
-Tel: +48 22 105 50 01<br />
-organonpolska@organon.com   </p>
-<p>France 
-Organon France<br />
-Tél: + 33 (0) 1 57 77 32 Portugal 
-Organon Portugal, Sociedade Unipessoal Lda. 
-Tel: +351 218705geral_pt@organon.com  </p>
-<p>Hrvatska 
-Organon Pharma d.o.o. 
-Tel: + 385 1 638 4dpoc.croatia@organon.com </p>
-<p>România 
-Organon Biosciences S.R.L. 
-Tel: + 40 21 527 29 90<br />
-dpoc.romania@organon.com<br />
-Ireland 
-Organon Pharma (Ireland) Limited 
-Tel: +353 15828medinfo.ROI@organon.com </p>
-<p>Slovenija 
-Organon Pharma B.V., Oss, podružnica Ljubljana 
-Tel: + 386 1 300 10 dpoc.slovenia@organon.com </p>
-<p>Ísland 
-Vistor hf. 
-Sími: + 354 535 7000<br />
-Slovenská republika 
-Organon Slovakia s. r. o. 
-Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
-<p>Italia 
-Organon Italia S.r.l. 
-Tel: +39 06 90259dpoc.italy@organon.com </p>
-<p>Suomi/Finland 
-Organon Finland Oy 
-Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
-<p>Κύπρος 
-Organon Pharma B.V., Cyprus branch 
-Τηλ.: +357 22866dpoc.cyprus@organon.com </p>
-<p>Sverige 
-Organon Sweden AB 
-Tel: +46 8 502 597 dpoc.sweden@organon.com<br />
-Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
-pārstāvniecība 
-Tel: + 371 66968dpoc.latvia@organon.com  </p>
-<p>United Kingdom (Northern Ireland) 
-Organon Pharma (UK) Limited 
-Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine,  , -trehalose 
+dihydrate, polysorbate 2</li>
+</ul>         </div>"""      
 

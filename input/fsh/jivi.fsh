@@ -4,7 +4,7 @@ Instance: composition-en-2a82ca3c186080c5b1ee752847b09ce0
 InstanceOf: CompositionUvEpi
 Title: "Composition for jivi Package Leaflet"
 Description:  "Composition for jivi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -103,9 +103,9 @@ your previous factor VIII treatment, if needed.
 * heart disease or you are at risk of heart disease.<br />
 * to use a central venous access device for this medicine. You may be at risk of device-related 
 complications where the catheter is inserted including: 
-• local infections<br />
-• bacteria in the blood 
-• a blood clot in the blood vessel </p>
+  local infections<br />
+  bacteria in the blood 
+  a blood clot in the blood vessel </p>
 <p>Children 
 Jivi is not for use in children younger than 12 years of age. </p>
 <p>Other medicines and Jivi 
@@ -117,8 +117,8 @@ your doctor for advice before using this medicine. </p>
 <p>Driving and using machines 
 Jivi has no influence on your ability to drive and use machines. </p>
 <p>Jivi contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jivi"
@@ -140,9 +140,9 @@ depending on factors such as:
 <p>Prevention of bleeding 
 To prevent bleeding your doctor will select an appropriate dose and frequency depending on your 
 need: 
-* 45–60 IU per kg body weight every 5 days or 
+* 45 60 IU per kg body weight every 5 days or 
 * 60 IU per kg body weight every 7 days or 
-* 30–40 IU per kg body weight two times per week. </p>
+* 30 40 IU per kg body weight two times per week. </p>
 <p>Laboratory tests 
 Laboratory tests at suitable intervals help to ensure you always have adequate factor VIII levels. For 
 major surgery in particular, your blood clotting must be closely monitored. </p>
@@ -181,7 +181,7 @@ immediately and speak to your doctor at once if such reactions occur. The follow
 could be an early warning of these reactions: 
 * chest tightness/general feeling of being unwell 
 * burning and stinging at the application site 
-* nettle–rash, flushing 
+* nettle rash, flushing 
 * a reduction in blood pressure, which may make you feel faint upon standing 
 * feeling sick (nausea) </p>
 <p>For patients who have received previous treatment with factor VIII (more than 150 days of treatment) 
@@ -221,9 +221,9 @@ By reporting side effects, you can help provide more information on the safety o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on labels and cartons. The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C - 8 °C). Do not freeze. 
+<p>Store in a refrigerator (2  C - 8  C). Do not freeze. 
 Keep the vial and the pre-filled syringe in the outer carton in order to protect from light. </p>
-<p>This medicine may be stored at room temperature (up to 25 °C) for up to 6 months when you keep it in 
+<p>This medicine may be stored at room temperature (up to 25  C) for up to 6 months when you keep it in 
 its outer carton. If you store it at room temperature it expires after 6 months, or the expiry date if this 
 is earlier. 
 The new expiry date must be noted on the outer carton when the medicine is removed from the 
@@ -263,8 +263,8 @@ Concentration after reconstitution approximately
 (1 200 IU / mL) </p>
 </li>
 <li>
-<p>The other ingredients are sucrose, histidine, glycine, sodium chloride (see section 2 “Jivi 
-contains sodium”), calcium chloride dihydrate, polysorbate 80, acetic acid glacial and water for 
+<p>The other ingredients are sucrose, histidine, glycine, sodium chloride (see section 2  Jivi 
+contains sodium ), calcium chloride dihydrate, polysorbate 80, acetic acid glacial and water for 
 injections. </p>
 </li>
 </ul>
@@ -277,11 +277,9 @@ slightly yellow. The solvent is a clear liquid. After reconstitution the solutio
 * a separate plunger rod 
 * a vial adapter 
 * a venipuncture set </p>
-<p>Jivi is available in pack sizes of: 
-− 
-1 single pack 
-− 
-1 multipack with 30 single packs 
+<p>Jivi is available in pack sizes of: </p>
+<p>1 single pack </p>
+<p>1 multipack with 30 single packs 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Bayer AG 
@@ -294,23 +292,21 @@ Kaiser-Wilhelm-Allee
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63<br />
+T l/Tel: +32-(0)2-535 63<br />
 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36<br />
-България 
-Байер България ЕООД 
-Tел.: +359-(0)2-424 72<br />
+Tel. +37 05 23 36  </p>
+<p>T .: +359-(0)2-424 72<br />
 Luxembourg/Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63<br />
-Česká republika 
+T l/Tel: +32-(0)2-535 63<br />
+ esk  republika 
 Bayer s.r.o. 
 Tel: +420 266 101<br />
-Magyarország 
-Bayer Hungária KFT 
+Magyarorsz g 
+Bayer Hung ria KFT 
 Tel:+36 14 87-41<br />
 Danmark 
 Bayer A/S 
@@ -323,20 +319,19 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513<br />
 Nederland 
 Bayer B.V. 
-Tel: +31-23–799 1 
+Tel: +31-23 799 1 
 Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8 
 Norge 
 Bayer AS 
-Tlf: +47 23 13 05<br />
-Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30-210-61 87<br />
-Österreich 
+Tlf: +47 23 13 05  </p>
+<p>Bayer   <br />
+ : +30-210-61 87<br />
+ sterreich 
 Bayer Austria Ges.m.b.H. 
 Tel: +43-(0)1-711 46-0 </p>
-<p>España 
+<p>Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65<br />
 Polska 
@@ -344,14 +339,14 @@ Bayer Sp. z o.o.
 Tel: +48 22 572 35<br />
 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54<br />
+T l (N  vert): +33-(0)800 87 54<br />
 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42<br />
 Hrvatska 
 Bayer d.o.o. 
 Tel: +385-(0)1-6599<br />
-România 
+Rom nia 
 SC Bayer SRL 
 Tel: +40 21 529 59<br />
 Ireland 
@@ -360,10 +355,10 @@ Tel: +353 1 216 3
 Slovenija 
 Bayer d. o. o. 
 Tel: +386 (0)1 58 14<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8<br />
-Slovenská republika 
+S mi: +354 540 8<br />
+Slovensk  republika 
 Bayer spol. s r.o. 
 Tel. +421 2 59 21 31<br />
 Italia 
@@ -371,10 +366,9 @@ Bayer S.p.A.
 Tel: +39 02 397 8 1 </p>
 <p>Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358- 20 785<br />
-Κύπρος 
-NOVAGEM Limited 
-Tηλ: +357 22 48 38<br />
+Puh/Tel: +358- 20 785  </p>
+<p>NOVAGEM Limited 
+T : +357 22 48 38<br />
 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223<br />
@@ -385,10 +379,5 @@ United Kingdom (Northern Ireland)
 Bayer AG 
 Tel: +44-(0)118 206 3  </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency 
-http://www.ema.europa.eu </p>
-<hr />
-<p>Detailed instructions for reconstitution and administration of Jivi 
-You will need alcohol swabs, gauze pads, plasters and tourniquet. These items are not included in the 
-Jivi package. </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

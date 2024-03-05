@@ -4,7 +4,7 @@ Instance: composition-en-62875f10b66b28e25e20627846370170
 InstanceOf: CompositionUvEpi
 Title: "Composition for avastin Package Leaflet"
 Description:  "Composition for avastin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use Avastin 
 4. Possible side effects 
 5. How to store Avastin 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -111,86 +110,65 @@ paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>  
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take avastin"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Avastin if 
-● 
-you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
-medicine (listed in section 6). 
-● 
-you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
-recombinant human or humanised antibodies. 
-● 
-you are pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Avastin if </p>
+<p>you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
+medicine (listed in section 6). </p>
+<p>you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
+recombinant human or humanised antibodies. </p>
+<p>you are pregnant. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using Avastin </p>
-<p>● 
-It is possible that Avastin may increase the risk of developing holes in the gut wall. If you have 
+<p>It is possible that Avastin may increase the risk of developing holes in the gut wall. If you have 
 conditions causing inflammation inside the abdomen (e.g. diverticulitis, stomach ulcers, colitis 
 associated with chemotherapy), please discuss this with your doctor. </p>
-<p>● 
-Avastin may increase the risk of developing an abnormal connection or passageway between 
+<p>Avastin may increase the risk of developing an abnormal connection or passageway between 
 two organs or vessels. The risk of developing connections between the vagina and any parts of 
 the gut can increase if you have persistent, recurrent or metastatic cervical cancer. </p>
-<p>● 
-This medicine can increase the risk of bleeding or increase the risk of problems with wound 
+<p>This medicine can increase the risk of bleeding or increase the risk of problems with wound 
 healing after surgery. If you are going to have an operation, if you have had major surgery 
 within the last 28 days or if you still have an unhealed wound following surgery, you should not 
 receive this medicine.  </p>
-<p>● 
-Avastin may increase the risk of developing serious infections of the skin or deeper layers under 
+<p>Avastin may increase the risk of developing serious infections of the skin or deeper layers under 
 the skin, especially if you had holes in the gut wall or problems with wound healing.  </p>
-<p>● 
-Avastin can increase the incidence of high blood pressure. If you have high blood pressure 
+<p>Avastin can increase the incidence of high blood pressure. If you have high blood pressure 
 which is not well controlled with blood pressure medicines, please consult your doctor as it is 
 important to make sure that your blood pressure is under control before starting Avastin 
 treatment. </p>
-<p>● 
-If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
+<p>If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
 tear in a blood vessel wall. </p>
-<p>● 
-This medicine increases the risk of having protein in your urine especially if you already have 
+<p>This medicine increases the risk of having protein in your urine especially if you already have 
 high blood pressure.  </p>
-<p>● 
-The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
+<p>The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
 are over 65 years old, if you have diabetes, or if you have had previous blood clots in your 
 arteries. Please talk to your doctor since blood clots can lead to heart attack and stroke. </p>
-<p>● 
-Avastin can also increase the risk of developing blood clots in your veins (a type of blood 
+<p>Avastin can also increase the risk of developing blood clots in your veins (a type of blood 
 vessel). </p>
-<p>● 
-This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
+<p>This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
 doctor if you or your family tend to suffer from bleeding problems or you are taking medicines 
 to thin the blood for any reason. </p>
-<p>● 
-It is possible that Avastin may cause bleeding in and around your brain. Please discuss this with 
+<p>It is possible that Avastin may cause bleeding in and around your brain. Please discuss this with 
 your doctor if you have metastatic cancer affecting your brain. </p>
-<p>● 
-It is possible that Avastin can increase the risk of bleeding in your lungs, including coughing or 
+<p>It is possible that Avastin can increase the risk of bleeding in your lungs, including coughing or 
 spitting blood. Please discuss with your doctor if you noticed this previously. </p>
-<p>● 
-Avastin can increase the risk of developing a weak heart. It is important that your doctor knows 
+<p>Avastin can increase the risk of developing a weak heart. It is important that your doctor knows 
 if you have ever received anthracyclines (for example doxorubicin, a specific type of 
 chemotherapy used to treat some cancers) or had radiotherapy to your chest, or if you have heart 
 disease. </p>
-<p>● 
-This medicine may cause infections and a decreased number of your neutrophils (a type of 
+<p>This medicine may cause infections and a decreased number of your neutrophils (a type of 
 blood cell important for your protection against bacteria). </p>
-<p>● 
-It is possible that Avastin can cause hypersensitivity (including anaphylactic shock) and/or 
+<p>It is possible that Avastin can cause hypersensitivity (including anaphylactic shock) and/or 
 infusion reactions (reactions related to your injection of the medicine). Please let your doctor, 
 pharmacist or nurse know if you have previously experienced problems after injections, such as 
 dizziness/feeling of fainting, breathlessness, swelling or skin rash. </p>
-<p>● 
-A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
+<p>A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
 has been associated with Avastin treatment. If you have headache, vision changes, confusion or 
 seizure with or without high blood pressure, please contact your doctor.  </p>
 <p>Please consult your doctor, even if these above statements were only applicable to you in the past. </p>
-<p>Before you are given Avastin or while you are being treated with Avastin: 
-● 
-if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, 
+<p>Before you are given Avastin or while you are being treated with Avastin: </p>
+<p>if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, 
 numbness or a feeling of heaviness in the jaw, or loosening of a tooth tell your doctor and 
-dentist immediately.<br />
-● 
-if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
+dentist immediately.  </p>
+<p>if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
 are being treated with Avastin, in particular when you are also receiving or have received an 
 injection of bisphosphonate into your blood. </p>
 <p>You may be advised to have a dental check-up before you start treatment with Avastin. </p>
@@ -224,8 +202,8 @@ sleepiness and fainting have been reported with Avastin use. If you experience s
 your vision or concentration, or your ability to react, do not drive and use machines until symptoms 
 disappear. </p>
 <p>Important information about some of the ingredients of Avastin 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take avastin"
@@ -246,40 +224,27 @@ solution before use. A doctor or nurse will give you this diluted Avastin soluti
 infusion (a drip into your vein). The first infusion will be given to you over 90 minutes. If this is well-
 tolerated the second infusion may be given over 60 minutes. Later infusions may be given to you over 
 30 minutes.  </p>
-<p>The administration of Avastin should be temporarily discontinued 
-● 
-if you develop severe high blood pressure requiring treatment with blood pressure medicines,<br />
-● 
-if you have problems with wound healing following surgery, 
-● 
-if you undergo surgery. </p>
-<p>The administration of Avastin should be permanently discontinued if you develop 
-● 
-severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
-severe rise in blood pressure,<br />
-● 
-presence of protein in your urine accompanied by swelling of your body, 
-● 
-a hole in your gut wall,<br />
-● 
-an abnormal tube-like connection or passage between the windpipe and the gullet, between 
+<p>The administration of Avastin should be temporarily discontinued </p>
+<p>if you develop severe high blood pressure requiring treatment with blood pressure medicines,  </p>
+<p>if you have problems with wound healing following surgery, </p>
+<p>if you undergo surgery. </p>
+<p>The administration of Avastin should be permanently discontinued if you develop </p>
+<p>severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
+severe rise in blood pressure,  </p>
+<p>presence of protein in your urine accompanied by swelling of your body, </p>
+<p>a hole in your gut wall,  </p>
+<p>an abnormal tube-like connection or passage between the windpipe and the gullet, between 
 internal organs and skin, between the vagina and any parts of the gut or between other tissues 
-that are not normally connected (fistula), and are judged by your doctor to be severe, 
-● 
-serious infections of the skin or deeper layers under the skin, 
-● 
-a blood clot in your arteries,<br />
-● 
-a blood clot in the blood vessels of your lungs, 
-● 
-any severe bleeding. </p>
-<p>If too much Avastin is given 
-● 
-you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
+that are not normally connected (fistula), and are judged by your doctor to be severe, </p>
+<p>serious infections of the skin or deeper layers under the skin, </p>
+<p>a blood clot in your arteries,  </p>
+<p>a blood clot in the blood vessels of your lungs, </p>
+<p>any severe bleeding. </p>
+<p>If too much Avastin is given </p>
+<p>you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
 or nurse immediately.  </p>
-<p>If a dose of Avastin is missed 
-● 
-your doctor will decide when you should be given your next dose of Avastin. You should 
+<p>If a dose of Avastin is missed </p>
+<p>your doctor will decide when you should be given your next dose of Avastin. You should 
 discuss this with your doctor.  </p>
 <p>If you stop treatment with Avastin 
 Stopping your treatment with Avastin may stop the effect on tumour growth. Do not stop treatment 
@@ -353,7 +318,7 @@ heartbeat, sweating and loss of consciousness (anaphylactic shock). </p>
 include: 
 * serious infections of the skin or deeper layers under the skin, especially if you had holes in the gut 
 wall or problems with wound healing, 
-* a negative effect on a woman’s ability to have children (see the paragraphs below the list of side 
+* a negative effect on a woman s ability to have children (see the paragraphs below the list of side 
 effects for further recommendations), 
 * a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
 vision (Posterior Reversible Encephalopathy Syndrome or PRES), 
@@ -435,14 +400,14 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C–8°C).<br />
+<p>Store in a refrigerator (2 C 8 C).<br />
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions are the responsibility of the user and would normally not be longer than 24 hours 
-at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile environment. When 
-dilution has taken place in a sterile environment, Avastin is stable for 30 days at 2°C to 8°C plus an 
-additional 48 hours at 2°C to 30°C. </p>
+at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile environment. When 
+dilution has taken place in a sterile environment, Avastin is stable for 30 days at 2 C to 8 C plus an 
+additional 48 hours at 2 C to 30 C. </p>
 <p>Do not use Avastin if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -462,8 +427,8 @@ corresponding to 1.4 to 16.5 mg/ml when diluted as recommended.  </li>
 recommended.  </p>
 <p>Each 16 ml vial contains 400 mg of bevacizumab, corresponding to 16.5 mg/ml when diluted as 
 recommended 
-* The other ingredients are trehalose dihydrate, sodium phosphate (see section 2 ‘Important 
-information about some of the ingredients of Avastin’), polysorbate 20 and water for injections. </p>
+* The other ingredients are trehalose dihydrate, sodium phosphate (see section 2  Important 
+information about some of the ingredients of Avastin ), polysorbate 20 and water for injections. </p>
 <p>What Avastin looks like and contents of the pack 
 Avastin is a concentrate for solution for infusion. The concentrate is a clear, colourless to pale brown 
 liquid in a glass vial with a rubber stopper. Each vial contains 100 mg bevacizumab in 4 ml of solution 
@@ -480,21 +445,20 @@ Emil-Barell-Str. 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 1 279 4 
 Danmark 
 Roche Pharmaceuticals A/S 
@@ -508,16 +472,16 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ<br />
+Roche Eesti O <br />
 Tel: + 372 - 6 177<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90 Ελλάδα 
+Tlf: +47 - 22 78 90 <br />
 Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
-Tel: +43 (0) 1 27España 
+Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Polska 
@@ -525,26 +489,26 @@ Roche Polska Sp.z o.o.
 Tel: +48 - 22 345 18<br />
 France 
 Roche 
-Tél: +33 (0) 1 47 61 40<br />
+T l: +33 (0) 1 47 61 40<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o. 
 Tel: + 385 1 47 22<br />
-România 
-Roche România S.R.L. 
+Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 
 Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland<br />
+ sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-Sími:+354 540 8 
-Slovenská republika<br />
+S mi:+354 540 8 
+Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -552,9 +516,9 @@ Roche S.p.A.
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 

@@ -4,7 +4,7 @@ Instance: composition-en-af5a6458bf787a6cbcce31dd9f99f24f
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexviadyme Package Leaflet"
 Description:  "Composition for nexviadyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code.text =  "1. What nexviadyme is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Nexviadyme is 
-Nexviadyme contains an enzyme called avalglucosidase alfa – it is a copy of the natural enzyme called 
+Nexviadyme contains an enzyme called avalglucosidase alfa   it is a copy of the natural enzyme called 
 acid alpha-glucosidase (GAA) that is lacking in people with Pompe disease. </p>
 <p>What Nexviadyme is used for 
 Nexviadyme is used to treat people of all ages who have Pompe disease.  </p>
@@ -93,10 +93,10 @@ and restarting the medicine.  </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist or nurse before using Nexviadyme </p>
 <p>Speak to your doctor immediately if treatment with Nexviadyme causes: 
-* allergic reactions, including anaphylaxis (a severe allergic reaction) – see under ‘Possible side 
-effects’, below for symptoms 
+* allergic reactions, including anaphylaxis (a severe allergic reaction)   see under  Possible side 
+effects , below for symptoms 
 * infusion-associated reaction while you are receiving the medicine or in the few hours afterwards 
-– see under ‘Possible side effects’, below for symptoms </p>
+  see under  Possible side effects , below for symptoms </p>
 <p>Also tell your doctor if you have swelling in your legs or widespread swelling of your body. Your 
 doctor will decide if your Nexviadyme infusion should stop and the doctor will give you appropriate 
 medical treatment. Your doctor will also decide if you can continue receiving avalglucosidase alfa. </p>
@@ -243,13 +243,13 @@ reporting side effects you can help provide more information on the safety of th
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP. The expiry date 
 refers to the last day of that month. </p>
 <p>Unopened vials:<br />
-Store in a refrigerator (2°C - 8°C).  </p>
+Store in a refrigerator (2 C - 8 C).  </p>
 <p>Reconstituted solution: 
 After reconstitution, immediate use for dilution is recommended. The reconstituted solution can be 
-stored up to 24 hours when refrigerated at 2°C to 8°C.  </p>
+stored up to 24 hours when refrigerated at 2 C to 8 C.  </p>
 <p>Diluted solution: 
-After dilution, immediate use is recommended. The diluted solution can be stored for 24 hours at 2°C 
-to 8°C followed by 9 hours at room temperature (up to 25°C).  </p>
+After dilution, immediate use is recommended. The diluted solution can be stored for 24 hours at 2 C 
+to 8 C followed by 9 hours at room temperature (up to 25 C).  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor, pharmacist, or 
 nurse how to throw away medicines you no longer use. These measures will help protect the 
 environment. </p>         </div>"""      
@@ -283,20 +283,19 @@ The Netherlands </p>
 Genzyme Ireland Limited, IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54 Lietuva 
+T l/Tel: + 32 2 710 54 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233086 Magyarország 
+Tel: +420 233086 Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel: +36 1 505 0Danmark 
 Sanofi A/S 
@@ -310,18 +309,17 @@ Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
 Nederland 
 Sanofi B.V. 
 Tel: +31 20 245 4Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE<br />
-Τηλ: +30 210 900 1 
-Österreich 
+Tlf: + 47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE<br />
+ : +30 210 900 1 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 – 0 
-España 
+Tel: + 43 1 80 185   0 
+Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -329,35 +327,34 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. Tel: +21 35 89<br />
+Sanofi   Produtos Farmac uticos, Lda. Tel: +21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
 Ireland 
 Sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +353 (0) 1 403 56<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Slovenija 
 Swixx Biopharma d.o.o.<br />
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
 Sanofi S.r.l. 
 Tel: 800536Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: + 358 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

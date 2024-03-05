@@ -4,7 +4,7 @@ Instance: composition-en-03f601e925d2ca197b11b72dd4a3dc32
 InstanceOf: CompositionUvEpi
 Title: "Composition for trulicity Package Leaflet"
 Description:  "Composition for trulicity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,12 +75,14 @@ disease. </p>
 <p>Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that<br />
 your body produces does not work as well as it should.  </p>
 <p>When this happens, sugar (glucose) builds up in the blood. </p>
-<p>Trulicity is used: 
-- on its own if your blood sugar is not properly controlled by diet and exercise alone, and you 
-can’t take metformin (another diabetes medicine). 
-- or with other medicines for diabetes when they are not enough to control your blood sugar 
+<p>Trulicity is used:</p>
+<ul>
+<li>on its own if your blood sugar is not properly controlled by diet and exercise alone, and you 
+can t take metformin (another diabetes medicine). </li>
+<li>or with other medicines for diabetes when they are not enough to control your blood sugar 
 levels. These other medicines may be medicines taken by mouth and/or insulin given by 
-injection. </p>
+injection. </li>
+</ul>
 <p>It is important to continue to follow the advice on diet and exercise given to you by your doctor, 
 pharmacist or nurse. </p>         </div>"""   
           
@@ -95,22 +97,24 @@ pharmacist or nurse. </p>         </div>"""
 - if you are allergic to dulaglutide or any of the other ingredients of this medicine (listed in 
 section 6).  </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before using Trulicity if: 
-- you are on dialysis as this medicine is not recommended. 
-- you have type 1 diabetes (the type when your body does not produce any insulin) as this 
-medicine may not be right for you. 
-- you have diabetic ketoacidosis (a complication of diabetes that occurs when the body is unable 
+Talk to your doctor, pharmacist or nurse before using Trulicity if:</p>
+<ul>
+<li>you are on dialysis as this medicine is not recommended. </li>
+<li>you have type 1 diabetes (the type when your body does not produce any insulin) as this 
+medicine may not be right for you. </li>
+<li>you have diabetic ketoacidosis (a complication of diabetes that occurs when the body is unable 
 to break down glucose because there is not enough insulin). The signs include rapid weight 
 loss, feeling sick or being sick, a sweet smell to your breath, a sweet or metallic taste in your 
-mouth, or a different odour to your urine or sweat. 
-- you have severe problems with food digestion or food remaining in your stomach for longer 
-than normal (including gastroparesis). 
-- you have ever had pancreatitis (inflammation of the pancreas) which causes severe pain in the 
-stomach and back which does not go away. 
-- you are taking a sulphonylurea or insulin for your diabetes, as low blood sugar 
+mouth, or a different odour to your urine or sweat. </li>
+<li>you have severe problems with food digestion or food remaining in your stomach for longer 
+than normal (including gastroparesis). </li>
+<li>you have ever had pancreatitis (inflammation of the pancreas) which causes severe pain in the 
+stomach and back which does not go away. </li>
+<li>you are taking a sulphonylurea or insulin for your diabetes, as low blood sugar 
 (hypoglycaemia) can occur. Your doctor may need to change your dose of these other 
 medicines to reduce this risk. 
-Trulicity is not an insulin and should therefore not be used as a substitute for insulin. </p>
+Trulicity is not an insulin and should therefore not be used as a substitute for insulin. </li>
+</ul>
 <p>When initiating treatment with Trulicity, you may in some cases experience loss of 
 fluids/dehydration, e.g. in case of vomiting, nausea and/or diarrhoea which may lead to a decrease in 
 kidney function. It is important to avoid dehydration by drinking plenty of fluids. Contact your doctor 
@@ -133,11 +137,11 @@ Trulicity if you are breast-feeding. It is not known if dulaglutide passes into 
 Trulicity has no to little effect on the ability to drive or use machines. However, if you use Trulicity in 
 combination with a sulphonylurea or insulin, low blood sugar (hypoglycaemia) may occur which may 
 reduce your ability to concentrate. Avoid driving or using machines if you get any signs of low blood 
-sugar. See section 2, ‘Warning and precautions’ for information on increased risk of low blood sugar 
+sugar. See section 2,  Warning and precautions  for information on increased risk of low blood sugar 
 and section 4 for the warning signs of low blood sugar. Talk to your doctor for further information. </p>
 <p>Trulicity contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trulicity"
@@ -169,7 +173,7 @@ leg (thigh). If the injection is given by someone else, they may inject in your 
 different injection site within that area. </p>
 <p>It is important that you test your blood glucose levels as instructed by your doctor, pharmacist or 
 nurse, if you are taking Trulicity with a sulphonylurea or insulin. </p>
-<p>Read the “Instructions for Use” for the pen carefully before using Trulicity. </p>
+<p>Read the  Instructions for Use  for the pen carefully before using Trulicity. </p>
 <p>If you use more Trulicity than you should<br />
 If you use more Trulicity than you should talk to your doctor immediately. Too much of this medicine 
 may make your blood sugar too low (hypoglycaemia) and can make you feel sick or be sick. </p>
@@ -209,9 +213,9 @@ ache, bloating or vomiting.  </p>
 <p>You should see a doctor immediately if you experience such symptoms.  </p>
 <p>Other side effects<br />
 Very common: may affect more than 1 in 10 people 
-- Feeling sick (nausea) – this usually goes away over time 
-- Being sick (vomiting) – this usually goes away over time 
-- Diarrhoea – this usually goes away over time 
+- Feeling sick (nausea)   this usually goes away over time 
+- Being sick (vomiting)   this usually goes away over time 
+- Diarrhoea   this usually goes away over time 
 - Stomach (abdominal) pain. 
 These side effects are usually not severe. They are most common when first starting dulaglutide but 
 decrease over time in most patients. </p>
@@ -233,7 +237,7 @@ common affects.
 - Constipation 
 - Gas (flatulence) 
 - Bloating of the stomach 
-- Reflux or heartburn (also called gastroesophageal reflux disease – GERD) - a disease caused by 
+- Reflux or heartburn (also called gastroesophageal reflux disease   GERD) - a disease caused by 
 stomach acid coming up into the tube from your stomach to your mouth 
 - Burping 
 - Feeling tired 
@@ -261,9 +265,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the pen label and on the carton after<br />
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. </p>
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. </p>
 <p>Store in the original packaging in order to protect from light. </p>
-<p>Trulicity can be taken out of the fridge for up to 14 days at a temperature not above 30 ºC. </p>
+<p>Trulicity can be taken out of the fridge for up to 14 days at a temperature not above 30  C. </p>
 <p>Do not use this medicine if you notice that the pen is damaged, or the medicine is cloudy, discoloured 
 or has particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -281,7 +285,7 @@ The active substance is dulaglutide.
 - Trulicity 1.5 mg: Each pre-filled pen contains 1.5 mg of dulaglutide in 0.5 ml solution. 
 - Trulicity 3 mg: Each pre-filled pen contains 3 mg of dulaglutide in 0.5 ml solution. 
 - Trulicity 4.5 mg: Each pre-filled pen contains 4.5 mg of dulaglutide in 0.5 ml solution. </p>
-<p>The other ingredients are sodium citrate (see section 2 under ‘Trulicity contains sodium’ for further 
+<p>The other ingredients are sodium citrate (see section 2 under  Trulicity contains sodium  for further 
 information); citric acid; mannitol; polysorbate 80 and water for injections. </p>
 <p>What Trulicity looks like and contents of the pack 
 Trulicity is a clear, colourless, solution for injection in a pre-filled pen. 
@@ -296,22 +300,21 @@ Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino, Firenze (F
 Lilly France, 2, rue du Colonel Lilly, 67640 Fegersheim, France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . - <br />
+ . + 359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
 Tlf: +45 45 26 60<br />
@@ -327,48 +330,48 @@ Eli Lilly Nederland B.V.
 Tel: +372 6 817<br />
 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
 Tel: + 34-91 663 50<br />
 Polska<br />
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
 Lilly France 
-Tél: +33-(0) 1 55 49 34<br />
+T l: +33-(0) 1 55 49 34<br />
 Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
 Slovenija<br />
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Τηλ: +357 22 715 
+ : +357 22 715 
 Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
 Tel: +371 67364 
 United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

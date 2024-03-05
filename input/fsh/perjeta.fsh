@@ -4,7 +4,7 @@ Instance: composition-en-382337184d233c68afe9daf86d4e13e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for perjeta Package Leaflet"
 Description:  "Composition for perjeta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How you are given Perjeta  
 4. Possible side effects 
 5. How to store Perjeta 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -71,7 +70,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Perjeta contains the active substance pertuzumab and is used to treat adult patients with breast cancer 
 when: 
-* The breast cancer has been identified to be of the “HER2-positive” form – your doctor will 
+* The breast cancer has been identified to be of the  HER2-positive  form   your doctor will 
 test you for this. 
 * The cancer has spread to other parts of the body such as the lungs or liver (metastasised) and 
 has not previously been treated with anticancer medicines (chemotherapy) or other medicines 
@@ -85,9 +84,9 @@ surgery (treatment after surgery is called adjuvant therapy) </p>
 about these medicines is described in separate package leaflets. Ask your doctor or nurse to give you 
 information about these other medicines. </p>
 <p>How Perjeta works </p>
-<p>Perjeta is a type of medicine called a “monoclonal antibody” which attaches itself to specific targets in 
+<p>Perjeta is a type of medicine called a  monoclonal antibody  which attaches itself to specific targets in 
 your body and on the cancer cells.  </p>
-<p>Perjeta recognises and attaches to a target called “human epidermal growth factor receptor 2” (HER2). 
+<p>Perjeta recognises and attaches to a target called  human epidermal growth factor receptor 2  (HER2). 
 HER2 is found in large amounts on the surface of some cancer cells where it stimulates their growth. 
 When Perjeta attaches to the HER2 cancer cells, it may slow or stop the cancer cells from growing, or 
 may kill them. </p>         </div>"""   
@@ -113,16 +112,16 @@ checked before and during treatment with Perjeta and your doctor will run tests 
 your heart is working properly.<br />
 * If you have ever had heart problems during previous treatment with trastuzumab. 
 * If you have ever had a chemotherapy medicine from the class called anthracyclines, e.g. 
-doxorubicin or epirubicin – these medicines can damage heart muscle and increase the risk of 
+doxorubicin or epirubicin   these medicines can damage heart muscle and increase the risk of 
 heart problems with Perjeta. </p>
 <p>If any of the above applies to you (or you are not sure), talk to your doctor or nurse before you are 
-given Perjeta. See section 4 “Serious side effects” for more details about signs of heart problems to 
+given Perjeta. See section 4  Serious side effects  for more details about signs of heart problems to 
 look out for. </p>
 <p>Infusion reactions 
 Infusion reactions, allergic or anaphylactic (more severe allergic) reactions can happen. Your doctor or 
 nurse will check for side effects during your infusion and for 30 to 60 minutes afterwards. If you get 
 any serious reaction, your doctor may stop treatment with Perjeta. Very rarely, patients have died due 
-to anaphylactic reactions during Perjeta infusion. See section 4 “Serious side effects” for more details 
+to anaphylactic reactions during Perjeta infusion. See section 4  Serious side effects  for more details 
 about infusion reactions to look out for during the infusion and thereafter.  </p>
 <p>Febrile neutropenia (Low white blood cells with fever) 
 When Perjeta is given with other cancer treatments (trastuzumab and chemotherapy), the number of 
@@ -230,7 +229,7 @@ diarrhoea and tingling in the mouth, hands or feet </p>
 * Feeling sick or being tired 
 * Rash 
 * Inflammation of your digestive tract (e.g. sore mouth) 
-* Decrease in the number of red blood cells – shown in a blood test 
+* Decrease in the number of red blood cells   shown in a blood test 
 * Joint or muscle pain, muscle weakness 
 * Constipation 
 * Reduced appetite 
@@ -285,7 +284,7 @@ are as follows:
 * Keep this medicine out of the sight and reach of children. 
 * Do not use this medicine after the expiry date which is stated on the outer carton after EXP. 
 The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2°C-8°C).<br />
+* Store in a refrigerator (2 C-8 C).<br />
 <em> Do not freeze. 
 * Keep the vial in the outer carton in order to protect from light. 
 * Do not use this medicine if you notice any particles in the liquid or it is the wrong colour 
@@ -321,22 +320,20 @@ D-79639 Grenzach-Wyhlen
 Germany  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
+T l/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 818 44<br />
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546 </p>
+<p>: +359 2 818 44<br />
 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
+Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4 </p>
 <p>Danmark 
 Roche a/s 
@@ -350,18 +347,17 @@ Nederland
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438 
 Eesti 
-Roche Eesti OÜ 
+Roche Eesti O<br />
 Tel: + 372 - 6 177<br />
 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
+Tlf: +47 - 22 78 90  </p>
+<p>Roche (Hellas) A.E.<br />
+ : +30 210 61 66<br />
+ sterreich 
 Roche Austria GmbH 
 Tel: +43 (0) 1 27 
-España 
+Espa a 
 Roche Farma S.A. 
 Tel: +34 - 91 324 81<br />
 Polska 
@@ -369,27 +365,27 @@ Roche Polska Sp.z o.o.
 Tel: +48 - 22 345 18<br />
 France 
 Roche 
-Tél: +33  (0)1 47 61 40<br />
+T l: +33  (0)1 47 61 40<br />
 Portugal 
-Roche Farmacêutica Química, Lda 
+Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70<br />
 Hrvatska 
 Roche d.o.o. 
 Tel: + 385 1 47 22<br />
-România 
-Roche România S.R.L. 
+Rom nia 
+Roche Rom nia S.R.L. 
 Tel: +40 21 206 47<br />
 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0 
 Slovenija 
-Roche farmacevtska družba d.o.o. 
+Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26<br />
-Ísland<br />
+ sland<br />
 Roche a/s 
 c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
+S mi: +354 540 8 
+Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
 Tel: +421 - 2 52638 
 Italia 
@@ -397,9 +393,9 @@ Roche S.p.A.
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
 Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
+K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62<br />
 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1 

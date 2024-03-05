@@ -4,7 +4,7 @@ Instance: composition-en-89670b1717cc4fba97455ede14b8028c
 InstanceOf: CompositionUvEpi
 Title: "Composition for mvasi Package Leaflet"
 Description:  "Composition for mvasi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -337,7 +337,7 @@ heartbeat, sweating and loss of consciousness (anaphylactic shock). </p>
 include: 
 * serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
 gut wall or problems with wound healing, 
-* a negative effect on a woman’s ability to have children (see the paragraphs below the list of side 
+* a negative effect on a woman s ability to have children (see the paragraphs below the list of side 
 effects for further recommendations), 
 * a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
 vision (posterior reversible encephalopathy syndrome or PRES), 
@@ -420,14 +420,14 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). 
+<p>Store in a refrigerator (2 C - 8 C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions are the responsibility of the user and would normally not be longer than 24 hours 
-at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile environment. When 
-dilution has taken place in a sterile environment, MVASI is stable for 35 days at 2°C to 8°C plus an 
-additional 48 hours at temperatures not exceeding 30°C. </p>
+at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile environment. When 
+dilution has taken place in a sterile environment, MVASI is stable for 35 days at 2 C to 8 C plus an 
+additional 48 hours at temperatures not exceeding 30 C. </p>
 <p>Do not use MVASI if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -445,7 +445,7 @@ when diluted as recommended.
 Each vial of 16 mL of concentrate contains 400 mg of bevacizumab, corresponding to 
 16.5 mg/mL when diluted as recommended. 
 * The other ingredients are trehalose dihydrate, sodium phosphate, polysorbate 20 and water for 
-injections (see section 2 – MVASI contains sodium). </p>
+injections (see section 2   MVASI contains sodium). </p>
 <p>What MVASI looks like and contents of the pack </p>
 <p>MVASI is a concentrate for solution for infusion. The concentrate is a clear to slightly opalescent, 
 colourless to slightly yellow liquid in a glass vial with a rubber stopper. Each vial contains 100 mg 
@@ -470,20 +470,19 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tél/Tel: +32 (0)2 7752 
+T l/Tel: +32 (0)2 7752 
 Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tél/Tel: +32 (0)2 7752 
-Česká republika 
+T l/Tel: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
-Tel: +420 221 773 Magyarország 
+Tel: +420 221 773 Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44 Danmark 
 Amgen, filial af Amgen AB, Sverige 
@@ -502,29 +501,28 @@ Eesti
 Amgen Switzerland AG Vilniaus filialas 
 Tel: +372 586 09Norge 
 Amgen AB 
-Tlf: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ: +30 210 3447 
-Österreich 
+Tlf: +47 23308 </p>
+<p>Amgen      . . . 
+ : +30 210 3447 
+ sterreich 
 Amgen GmbH 
 Tel: +43 (0)1 50<br />
-España 
+Espa a 
 Amgen S.A. </p>
 <p>Tel: +34 93 600 18<br />
 Polska 
 Amgen Biotechnologia Sp. z o.o. 
 Tel.: +48 22 581 3France 
 Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
+T l: +33 (0)9 69 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 4220 
 Hrvatska 
 Amgen d.o.o. 
 Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
+Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
@@ -532,10 +530,10 @@ Tel: +353 1 8527
 Slovenija 
 AMGEN zdravila d.o.o. 
 Tel: +386 (0)1 585 1 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114<br />
 Italia 
@@ -544,13 +542,13 @@ Tel: +39 02 6241Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ: +357 22741 Sverige 
+ : +357 22741 Sverige 
 Amgen AB 
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 

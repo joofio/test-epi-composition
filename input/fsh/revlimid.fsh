@@ -4,7 +4,7 @@ Instance: composition-en-029daacbd89e23b3c2659a90ebac249a
 InstanceOf: CompositionUvEpi
 Title: "Composition for revlimid Package Leaflet"
 Description:  "Composition for revlimid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code.text =  "1. What revlimid is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Revlimid is 
-Revlimid contains the active substance ‘lenalidomide’. This medicine belongs to a group of medicines which 
+Revlimid contains the active substance  lenalidomide . This medicine belongs to a group of medicines which 
 affect how your immune system works. </p>
 <p>What Revlimid is used for 
 Revlimid is used in adults for: 
@@ -82,21 +82,21 @@ Multiple myeloma is a type of cancer which affects a certain kind of white blood
 These cells collect in the bone marrow and divide, becoming out of control. This can damage the bones and 
 kidneys.  </p>
 <p>Multiple myeloma generally cannot be cured. However, the signs and symptoms can be greatly reduced or 
-disappear for a period of time. This is called a ‘response’. </p>
-<p>Newly diagnosed multiple myeloma – in patients who have had a bone marrow transplant 
+disappear for a period of time. This is called a  response . </p>
+<p>Newly diagnosed multiple myeloma   in patients who have had a bone marrow transplant 
 Revlimid is used on its own as a maintenance therapy after patients have recovered enough following a bone 
 marrow transplant. </p>
-<p>Newly diagnosed multiple myeloma – in patients who cannot have a bone marrow transplant 
+<p>Newly diagnosed multiple myeloma   in patients who cannot have a bone marrow transplant 
 Revlimid is taken with other medicines. These may include: 
-* a chemotherapy medicine called ‘bortezomib’ 
-* an anti-inflammatory medicine called ‘dexamethasone’ 
-* a chemotherapy medicine called ‘melphalan’ and 
-* an immunosuppressant medicine called ‘prednisone’.<br />
+* a chemotherapy medicine called  bortezomib<br />
+<em> an anti-inflammatory medicine called  dexamethasone<br />
+</em> a chemotherapy medicine called  melphalan  and 
+* an immunosuppressant medicine called  prednisone .<br />
 You will take these other medicines at the start of treatment and then continue to take Revlimid on its own. </p>
 <p>If you are aged 75 years or older or have moderate to severe kidney problems - your doctor will check you 
 carefully before starting treatment. </p>
-<p>Multiple myeloma – in patients who have had treatment before 
-Revlimid is taken together with an anti-inflammatory medicine called ‘dexamethasone’.  </p>
+<p>Multiple myeloma   in patients who have had treatment before 
+Revlimid is taken together with an anti-inflammatory medicine called  dexamethasone .  </p>
 <p>Revlimid can stop the signs and symptoms of multiple myeloma getting worse. It has also been shown to 
 delay multiple myeloma from coming back following treatment.  </p>
 <p>Myelodysplastic syndromes (MDS) 
@@ -105,10 +105,10 @@ and do not function properly. Patients can experience a variety of signs and sym
 blood cell count (anaemia), the need for a blood transfusion, and be at risk of infection. </p>
 <p>Revlimid is used alone to treat adult patients who have been diagnosed with MDS, when all of the following 
 apply: 
-* you need regular blood transfusions to treat low levels of red blood cells (‘transfusion-dependent 
-anaemia’) 
-* you have an abnormality of cells in the bone marrow called an ‘isolated deletion 5q cytogenetic 
-abnormality’. This means your body does not make enough healthy blood cells 
+* you need regular blood transfusions to treat low levels of red blood cells ( transfusion-dependent 
+anaemia ) 
+* you have an abnormality of cells in the bone marrow called an  isolated deletion 5q cytogenetic 
+abnormality . This means your body does not make enough healthy blood cells 
 * other treatments have been used before, are not suitable or do not work well enough. </p>
 <p>Revlimid can increase the number of healthy red blood cells that the body produces by reducing the number 
 of abnormal cells:<br />
@@ -116,17 +116,17 @@ of abnormal cells:<br />
 needed. </p>
 <p>Mantle cell lymphoma (MCL) 
 MCL is a cancer of part of the immune system (the lymph tissue). It affects a type of white blood cell called 
-‘B-lymphocytes’ or B-cells. MCL is a disease where B-cells grow in an uncontrolled way and build up in the 
+ B-lymphocytes  or B-cells. MCL is a disease where B-cells grow in an uncontrolled way and build up in the 
 lymph tissue, bone marrow or blood. </p>
 <p>Revlimid is used alone to treat adult patients who have previously been treated with other medicines. </p>
 <p>Follicular lymphoma (FL) 
 FL is a slow growing cancer that affects the B-lymphocytes. These are a type of white blood cells that help 
 your body fight infection. When you have FL, too many of these B-lymphocytes may collect in your blood, 
 bone marrow, lymph nodes and spleen. </p>
-<p>Revlimid is taken together with another medicine called ‘rituximab’ for the treatment of adult patients with 
+<p>Revlimid is taken together with another medicine called  rituximab  for the treatment of adult patients with 
 previously treated follicular lymphoma. </p>
 <p>How Revlimid works 
-Revlimid works by affecting the body’s immune system and directly attacking the cancer. It works in a 
+Revlimid works by affecting the body s immune system and directly attacking the cancer. It works in a 
 number of different ways: 
 * by stopping the cancer cells developing 
 * by stopping blood vessels growing in the cancer 
@@ -143,11 +143,11 @@ number of different ways:
 before starting treament with Revlimid. </p>
 <p>Do not take Revlimid: 
 * if you are pregnant, think you may be pregnant or are planning to become pregnant, as Revlimid is 
-expected to be harmful to an unborn child (see section 2, ‘Pregnancy, breast-feeding and 
-contraception – information for women and men’). 
+expected to be harmful to an unborn child (see section 2,  Pregnancy, breast-feeding and 
+contraception   information for women and men ). 
 * if you are able to become pregnant, unless you follow all the necessary measures to prevent you from 
-becoming pregnant (see section 2, ‘Pregnancy, breast-feeding and contraception – information for 
-women and men’). If you are able to become pregnant, your doctor will record with each prescription 
+becoming pregnant (see section 2,  Pregnancy, breast-feeding and contraception   information for 
+women and men ). If you are able to become pregnant, your doctor will record with each prescription 
 that the necessary measures have been taken and provide you with this confirmation. 
 * if you are allergic to lenalidomide or any of the other ingredients of this medicine listed in section 6. If 
 you think you may be allergic, ask your doctor for advice. </p>
@@ -168,9 +168,9 @@ high cholesterol levels
 myeloma) such as rash, itching, swelling, dizziness or trouble breathing 
 * you have experienced in the past a combination of any of the following symptoms: widespread rash, red 
 skin, high body temperature, flu-like symptoms, liver enzyme elevations, blood abnormalities 
-(eosinophilia), enlarged lymph nodes – these are signs of a severe skin reaction called Drug Reaction 
+(eosinophilia), enlarged lymph nodes   these are signs of a severe skin reaction called Drug Reaction 
 with Eosinophilia and Systemic Symptoms which is also known as DRESS or drug hypersensitivity 
-syndrome. (see also section 4 “Possible side effects”). </p>
+syndrome. (see also section 4  Possible side effects ). </p>
 <p>If any of the above apply to you, tell your doctor, pharmacist or nurse before starting treatment. </p>
 <p>At any time during or after your treatment, tell your doctor or nurse immediately if you:<br />
 * experience blurred, loss of or double vision, difficulty speaking, weakness in an arm or a leg, a change in 
@@ -202,19 +202,19 @@ treatment with Revlimid. </p>
 Your doctor will ask you to have a blood test: 
 * before treatment 
 * every week for the first 8 weeks (2 cycles) of treatment 
-* then every 2 weeks in cycles 3 and 4 (see section 3 ‘Treatment cycle’ for more information) 
+* then every 2 weeks in cycles 3 and 4 (see section 3  Treatment cycle  for more information) 
 * after this it will happen at the start of each cycle and 
 * at least every month. </p>
 <p>For patients with FL taking Revlimid 
 Your doctor will ask you to have a blood test: 
 * before treatment<br />
 * every week for the first 3 weeks (1 cycle) of treatment 
-* then every 2 weeks in cycles 2 to 4 (see Section 3 ‘Treatment cycle’ for more information) 
+* then every 2 weeks in cycles 2 to 4 (see Section 3  Treatment cycle  for more information) 
 * After this it will happen at the start of each cycle and 
 * at least every month. </p>
 <p>Your doctor may check if you have a high total amount of tumour throughout the body, including your bone 
 marrow. This could lead to a condition where the tumours break down and cause unusual levels of chemicals 
-in the blood which can lead to kidney failure (this condition is called ‘Tumour Lysis Syndrome’).  </p>
+in the blood which can lead to kidney failure (this condition is called  Tumour Lysis Syndrome ).  </p>
 <p>Your doctor may check you for changes to your skin such as red spots or rashes. </p>
 <p>Your doctor may adjust your dose of Revlimid or stop your treatment based on the results of your blood tests 
 and on your general condition. If you are newly diagnosed, your doctor may also assess your treatment based 
@@ -232,20 +232,20 @@ Revlimid can affect the way some other medicines work. Also, some other medicine
 Revlimid works. </p>
 <p>In particular, tell your doctor or nurse if you are taking any of the following medicines: 
 * some medicines used to prevent pregnancy such as oral contraceptives, as they may stop working 
-* some medicines used for heart problems – such as digoxin 
-* some medicines used to thin the blood – such as warfarin. </p>
+* some medicines used for heart problems   such as digoxin 
+* some medicines used to thin the blood   such as warfarin. </p>
 <p>Pregnancy, breast-feeding and contraception - information for women and men </p>
 <p>Pregnancy<br />
 For women taking Revlimid 
 * You must not take Revlimid if you are pregnant, as it is expected to be harmful to an unborn baby.<br />
 * You must not become pregnant while taking Revlimid. Therefore you must use effective methods of 
-contraception if you are a woman of childbearing potential (see ‘Contraception’). 
+contraception if you are a woman of childbearing potential (see  Contraception ). 
 * If you do become pregnant during your treatment with Revlimid, you must stop the treatment and inform 
 your doctor immediately. </p>
 <p>For men taking Revlimid 
 * If your partner becomes pregnant whilst you are taking Revlimid, you should inform your doctor 
 immediately. It is recommended that your partner seeks medical advice. 
-* You must also use effective methods of contraception (see ‘Contraception’). </p>
+* You must also use effective methods of contraception (see  Contraception ). </p>
 <p>Breast-feeding 
 You must not breast-feed when taking Revlimid, as it is not known if Revlimid passes into breast milk. </p>
 <p>Contraception 
@@ -281,27 +281,27 @@ contact your doctor before taking this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revlimid must be given to you by healthcare professionals with experience in treating multiple myeloma, 
 MDS, MCL or FL. 
 * When Revlimid is used to treat multiple myeloma in patients who cannot have a bone marrow transplant 
-or have had other treatments before, it is taken with other medicines (see section 1 ‘What Revlimid is 
-used for’).<br />
+or have had other treatments before, it is taken with other medicines (see section 1  What Revlimid is 
+used for ).<br />
 * When Revlimid is used to treat multiple myeloma in patients who have had a bone marrow transplant or 
 to treat patients with MDS or MCL, it is taken alone. 
-* When Revlimid is used to treat follicular lymphoma, it is taken with another medicine called ‘rituximab’.  </p>
+* When Revlimid is used to treat follicular lymphoma, it is taken with another medicine called  rituximab .  </p>
 <p>Always take Revlimid exactly as your doctor has told you. Check with your doctor or pharmacist if you are 
 not sure. </p>
 <p>If you are taking Revlimid in combination with other medicines, you should refer to the package leaflets for 
 these medicines for further information on their use and effects. </p>
 <p>Treatment cycle 
 Revlimid is taken on certain days over 3 weeks (21 days).<br />
-<em> Every 21 days is called a ‘treatment cycle’. 
+<em> Every 21 days is called a  treatment cycle . 
 * Depending on the day of the cycle, you will take one or more of the medicines. However, on some days 
 you do not take any of the medicines. 
-* After completing every 21-day cycle, you should start a new ‘cycle’ over the next 21 days.<br />
+* After completing every 21-day cycle, you should start a new  cycle  over the next 21 days.<br />
 OR 
 Revlimid is taken on certain days over 4 weeks (28 days).<br />
-</em> Every 28 days is called a ‘treatment cycle’. 
+</em> Every 28 days is called a  treatment cycle . 
 * Depending on the day of the cycle, you will take one or more of the medicines. However, on some days 
 you do not take any of the medicines. 
-* After completing every 28-day cycle, you should start a new ‘cycle’ over the next 28 days.  </p>
+* After completing every 28-day cycle, you should start a new  cycle  over the next 28 days.  </p>
 <p>How much Revlimid to take 
 Before you start treatment, your doctor will tell you: 
 * how much Revlimid you should take 
@@ -323,7 +323,7 @@ To remove the capsule from the blister:
 * press only one end of the capsule out to push it through the foil 
 * do not put pressure on the centre of the capsule, as this can cause it to break. </p>
 <p>Duration of the treatment with Revlimid 
-Revlimid is taken in treatment cycles, each cycle lasting 21 or 28 days (see above ‘Treatment cycle’). You 
+Revlimid is taken in treatment cycles, each cycle lasting 21 or 28 days (see above  Treatment cycle ). You 
 should continue the cycles of treatment until your doctor tells you to stop. </p>
 <p>If you take more Revlimid than you should 
 If you take more Revlimid than was prescribed, tell your doctor immediately. </p>
@@ -342,7 +342,7 @@ next day. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Revlimid can cause side effects, although not everybody gets them.  </p>
 <p>Stop taking Revlimid and see a doctor straight away if you notice any of the following serious side 
-effects – you may need urgent medical treatment: 
+effects   you may need urgent medical treatment: 
 * Hives, rashes, swelling of eyes, mouth or face, difficulty breathing, or itching, which may be symptoms 
 of serious types of allergic reactions called angioedema and anaphylactic reaction. 
 * A serious allergic reaction that may begin as a rash in one area but spread with extensive loss of skin 
@@ -350,8 +350,14 @@ over the whole body (Stevens-Johnson syndrome and/or toxic epidermal necrolysis)
 * Widespread rash, high body temperature, liver enzyme elevations, blood abnormalities (eosinophilia), 
 enlarged lymph nodes and other body organs involvement (Drug Reaction with Eosinophilia and 
 Systemic Symptoms which is also known as DRESS or drug hypersensitivity syndrome). See also 
-section 2.<br />
-Tell your doctor straight away if you notice any of the following serious side effects: 
+section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store revlimid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store revlimid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor straight away if you notice any of the following serious side effects: 
 * Fever, chills, sore throat, cough, mouth ulcers or any other symptoms of infection including within the 
 bloodstream (sepsis) 
 * Bleeding or bruising in the absence of injury 
@@ -453,7 +459,7 @@ sick or vomiting, which may be symptoms of a heart attack (myocardial infarction
 * Passing large amounts of urine with bone pain and weakness, which may be symptoms of a kidney 
 disorder (Fanconi syndrome) 
 * Yellow pigmentation to the skin, mucus membrane or eyes (jaundice), pale coloured stools, dark 
-coloured urine, skin itch, rash, pain or swelling of the stomach – these may be symptoms of injury to 
+coloured urine, skin itch, rash, pain or swelling of the stomach   these may be symptoms of injury to 
 the liver (hepatic failure) 
 * Stomach pain, bloating, or diarrhoea, which may be symptoms of inflammation in the large intestine 
 (called colitis or caecitis) 
@@ -467,7 +473,7 @@ seizures, and sometimes death.
 * Increase in blood pressure within blood vessels that supply the lungs (pulmonary hypertension). </p>
 <p>Not known side effects (frequency cannot be estimated from the available data): 
 * Sudden, or mild but worsening pain in the upper stomach and/or back, which remains for a few days, 
-possibly accompanied by nausea, vomiting, fever and a rapid pulse – these symptoms may be due to 
+possibly accompanied by nausea, vomiting, fever and a rapid pulse   these symptoms may be due to 
 inflammation of the pancreas. 
 * Wheezing, shortness of breath or a dry cough, which may be symptoms caused by inflammation of the 
 tissue in the lungs. 
@@ -479,7 +485,7 @@ joints and fever (leukocytoclastic vasculitis).
 * Breakdown of the wall of the stomach or gut. This may lead to very serious infection. Tell your doctor 
 if you have severe stomach pain, fever, nausea, vomiting, blood in your stool, or changes in bowel 
 habits. 
-* Viral infections, including herpes zoster (also known as ‘shingles’, a viral disease that causes a painful 
+* Viral infections, including herpes zoster (also known as  shingles , a viral disease that causes a painful 
 skin rash with blisters) and recurrence of hepatitis B infection (which can cause yellowing of the skin 
 and eyes, dark brown-colored urine, right-sided stomach pain, fever and feeling nauseous or being sick). 
 * Rejection of solid organ transplant (such as kidney, heart). </p>
@@ -489,121 +495,19 @@ not listed in this leaflet. You can also report side effects directly via the na
 30TAppendix V30T. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store revlimid"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store revlimid"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date, which is stated on the blister and on the carton after 
-‘EXP’. The expiry date refers to the last day of that month. 
-* This product does not require any special storage conditions. 
-* Do not use this medicine if you notice any damage or signs of tampering to the pack. 
-* Do not throw away any medicines via wastewater or household waste. Please return unused medicines 
-to your pharmacist. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Revlimid contains </p>
-<p>Revlimid 2.5 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 2.5 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine, titanium dioxide (E171), indigo carmine (E132) and yellow iron oxide 
-(E172) 
-- printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </p>
-<p>Revlimid 5 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 5 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine and titanium dioxide (E171) </p>
-<ul>
-<li>printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </li>
-</ul>
-<p>Revlimid 7.5 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 7.5 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine, titanium dioxide (E171) and yellow iron oxide (E172) 
-- printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </p>
-<p>Revlimid 10 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 10 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine, titanium dioxide (E171), indigo carmine (E132) and yellow iron oxide 
-(E172) 
-- printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </p>
-<p>Revlimid 15 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 15 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine, titanium dioxide (E171) and indigo carmine (E132) 
-- printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </p>
-<p>Revlimid 20 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 20 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine and titanium dioxide (E171), indigo carmine (E132) and yellow iron oxide 
-(E172) 
-- printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </p>
-<p>Revlimid 25 mg hard capsules: 
-* The active substance is lenalidomide. Each capsule contains 25 mg of lenalidomide. 
-* The other ingredients are: 
-- capsule contents: anhydrous lactose (see section 2), microcrystalline cellulose, croscarmellose 
-sodium and magnesium stearate 
-- capsule shell: gelatine and titanium dioxide (E171) 
-- printing ink: shellac, propylene glycol (E1520), potassium hydroxide and black iron oxide 
-(E172). </p>
-<p>What Revlimid looks like and contents of the pack </p>
-<p>Revlimid 2.5 mg hard capsules are blue-green/white, with ‘REV 2.5 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Revlimid 5 mg hard capsules are white, with ‘REV 5 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Revlimid 7.5 mg hard capsules are pale yellow/white, with ‘REV 7.5 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Revlimid 10 mg hard capsules are blue-green/pale yellow, with ‘REV 10 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Revlimid 15 mg hard capsules are pale blue/white, with ‘REV 15 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Revlimid 20 mg hard capsules are blue-green/pale blue, with ‘REV 20 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Revlimid 25 mg hard capsules are white, with ‘REV 25 mg’ written on them. 
-The capsules are provided in packs. Each pack contains one or three blisters, each blister with seven 
-capsules. This gives a total of 7 or 21 capsules per pack. </p>
-<p>Marketing Authorisation Holder 
-Bristol-Myers Squibb Pharma EEIG 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland  </p>
-<p>Manufacturer 
-Celgene Distribution B.V. 
-Orteliuslaan 1000<br />
-3528 BD Utrecht<br />
-Netherlands </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information: </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency: 
-30Thttp://www.ema.europa.eu/30T. </p>
-<p>There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date, which is stated on the blister and on the carton after 
+ EXP . The expiry date refers to the last day of that month. </li>
+<li>This product does not require any special storage conditions. </li>
+<li>Do not use this medicine if you notice any damage or signs of tampering to the pack. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Please return unused medicines 
+to your pharmacist. These measures will help protect the environment. </li>
+</ul>         </div>"""      
 

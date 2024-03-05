@@ -4,7 +4,7 @@ Instance: composition-en-167401fb8187f3756835cc75cca90e3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumykras Package Leaflet"
 Description:  "Composition for lumykras Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -116,15 +116,17 @@ This is because LUMYKRAS can affect the way some other medicines work, and some 
 medicines can affect the way LUMYKRAS works. </p>
 <p>The following medicines may reduce how well LUMYKRAS works: 
 * Medicines used to reduce stomach acid and to treat stomach ulcers, indigestion and heartburn 
-(see section 3) such as: 
--  dexlansoprazole, esomeprazole, lansoprazole, omeprazole, pantoprazole sodium, or 
-rabeprazole (medicines known as ‘proton pump inhibitors’) 
--  ranitidine, famotidine, cimetidine (medicines known as ‘H2 receptor antagonists’) 
-* Rifampicin (used to treat tuberculosis) 
-* Medicines used to treat epilepsy called phenytoin, phenobarbital or carbamazepine (also used to 
-treat nerve pain) 
-* St. John’s wort (herbal medicine used to treat depression) 
-* Enzalutamide (used to treat prostate cancer) </p>
+(see section 3) such as:</p>
+<ul>
+<li>dexlansoprazole, esomeprazole, lansoprazole, omeprazole, pantoprazole sodium, or 
+rabeprazole (medicines known as  proton pump inhibitors ) </li>
+<li>ranitidine, famotidine, cimetidine (medicines known as  H2 receptor antagonists ) </li>
+<li>Rifampicin (used to treat tuberculosis) </li>
+<li>Medicines used to treat epilepsy called phenytoin, phenobarbital or carbamazepine (also used to 
+treat nerve pain) </li>
+<li>St. John s wort (herbal medicine used to treat depression) </li>
+<li>Enzalutamide (used to treat prostate cancer) </li>
+</ul>
 <p>LUMYKRAS may reduce how well the following medicines work: 
 * Medicines used to treat severe pain, such as alfentanil or fentanyl 
 * Medicines used in organ transplantation to prevent organ rejection, such as cyclosporine, 
@@ -162,7 +164,7 @@ your baby. </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>LUMYKRAS contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium- free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumykras"
@@ -179,18 +181,20 @@ LUMYKRAS by mouth once a day, at the same time each day.
 * LUMYKRAS can be taken with or without food. 
 * Swallow the tablets whole. You can disperse the tablets in water but do not chew, crush, or split 
 the tablets. 
-* If you cannot swallow LUMYKRAS tablets whole: 
-- Place your daily dose of LUMYKRAS in half a glass (not less than 120 mL) of plain, 
+* If you cannot swallow LUMYKRAS tablets whole:</p>
+<ul>
+<li>Place your daily dose of LUMYKRAS in half a glass (not less than 120 mL) of plain, 
 room temperature drinking water, without crushing the tablets. Do not use any other 
-liquids, including acidic beverages (e.g. fruit juices). 
-- Swirl gently until the tablets are in small pieces (the tablets will not dissolve completely). 
-The appearance of the mixture may range from pale to bright yellow. 
--  Drink the mixture right away. 
-- Rinse the glass with an additional half a glass of water and drink right away to make sure 
-that you have taken the full dose of LUMYKRAS. 
--  If you do not drink all of the mixture immediately, stir the mixture again before you finish 
-drinking it. Drink all of the mixture within two hours of preparation. 
-* If necessary, your doctor may recommend you receive LUMYKRAS through a feeding tube. </p>
+liquids, including acidic beverages (e.g. fruit juices). </li>
+<li>Swirl gently until the tablets are in small pieces (the tablets will not dissolve completely). 
+The appearance of the mixture may range from pale to bright yellow. </li>
+<li>Drink the mixture right away. </li>
+<li>Rinse the glass with an additional half a glass of water and drink right away to make sure 
+that you have taken the full dose of LUMYKRAS. </li>
+<li>If you do not drink all of the mixture immediately, stir the mixture again before you finish 
+drinking it. Drink all of the mixture within two hours of preparation. </li>
+<li>If necessary, your doctor may recommend you receive LUMYKRAS through a feeding tube. </li>
+</ul>
 <p>If you need to take a medicine to reduce stomach acid such as a proton pump inhibitor or an H2 
 receptor antagonist, take LUMYKRAS with an acidic beverage (such as cola) . Alternatively, you may 
 use a local antacid (such as magnesium hydroxide or calcium carbonate) and, in that case, 
@@ -236,7 +240,7 @@ stop your treatment (see section 2). </p>
 phosphatase, bilirubin and gamma-glutamyltransferase) 
 * Liver injury  </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
-* Inflammation of the lungs called “interstitial lung disease” </p>
+* Inflammation of the lungs called  interstitial lung disease  </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -275,131 +279,5 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 4000 (E1521), talc 
 (E553b), and iron oxide yellow (E172) </li>
 </ul>
-<p>See LUMYKRAS contains lactose and LUMYKRAS contains sodium in section 2.<br />
-What LUMYKRAS looks like and contents of the pack </p>
-<p>LUMYKRAS is supplied as a yellow, oblong-shaped, film-coated tablet, with “AMG” on one side and 
-“120” on the other side. </p>
-<ul>
-<li>LUMYKRAS is provided in blisters containing 8 film-coated tablets in packs sizes of 240 film-
-coated tablets (1 carton with 30 blisters) and multipack with 720 (3 × 240) film-coated tablets. </li>
-<li>LUMYKRAS is provided in bottles containing 120 film-coated tablets in a pack size of 
-240 film-coated tablets (1 carton with 2 bottles). </li>
-</ul>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Amgen Europe B.V., 
-Minervum 7061, 
-4817 ZK Breda, 
-The Netherlands </p>
-<p>Marketing Authorisation Holder 
-Amgen Europe B.V., 
-Minervum 7061, 
-4817 ZK Breda, 
-The Netherlands </p>
-<p>Manufacturer 
-Amgen NV, 
-Telecomlaan 5-7, 
-1831 Diegem, 
-Belgium </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-s.a. Amgen n.v. 
-Tél/Tel: +32 (0)2 7752 
-Lietuva 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7 
-Luxembourg/Luxemburg 
-s.a. Amgen 
-Belgique/Belgien 
-Tél/Tel: +32 (0)2 7752 
-Česká republika 
-Amgen s.r.o. 
-Tel: +420 221 773<br />
-Magyarország 
-Amgen Kft. 
-Tel.: +36 1 35 44<br />
-Danmark 
-Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
-Amgen S.r.l. 
-Italy 
-Tel: +39 02 6241 
-Deutschland 
-Amgen GmbH 
-Tel: +49 89 1490 
-Nederland 
-Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +372 586 09 
-Norge 
-Amgen AB 
-Tlf: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ: +30 210 3447 
-Österreich 
-Amgen GmbH 
-Tel: +43 (0)1 50<br />
-España 
-Amgen S.A. 
-Tel: +34 93 600 18<br />
-Polska 
-Amgen Biotechnologia Sp. z o.o. 
-Tel.: +48 22 581 3 
-France 
-Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
-Portugal 
-Amgen Biofarmacêutica, Lda. 
-Tel: +351 21 4220Hrvatska 
-Amgen d.o.o. 
-Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
-Tel: +4021 527 3 
-Ireland 
-Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
-AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1 
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114<br />
-Italia 
-Amgen S.r.l. 
-Tel: +39 02 6241 
-Suomi/Finland 
-Amgen AB, sivuliike Suomessa/Amgen AB, filial 
-i Finland 
-Puh/Tel: +358 (0)9 54900 
-Kύπρος 
-C.A. Papaellinas Ltd 
-Τηλ: +357 22741<br />
-Sverige 
-Amgen AB 
-Tel: +46 (0)8 6951 
-Latvija 
-Amgen Switzerland AG Rīgas filiāle 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
-Amgen Limited 
-Tel: +44 (0)1223 420 </p>
-<p>This leaflet was last revised in {month YYYY}.  </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
-about this medicine. </p>
-<p>The European Medicines Agency will review new information on this medicine at least every year and 
-this leaflet will be updated as necessary. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>See LUMYKRAS contains lactose and LUMYKRAS contains sodium in section </p>         </div>"""      
 

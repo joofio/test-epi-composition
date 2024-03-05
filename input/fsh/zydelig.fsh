@@ -4,7 +4,7 @@ Instance: composition-en-702c9d84bc860bda988d99979df3de81
 InstanceOf: CompositionUvEpi
 Title: "Composition for zydelig Package Leaflet"
 Description:  "Composition for zydelig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,7 +98,7 @@ to treatment with two previous cancer treatments. </p>         </div>"""
 <ul>
 <li>if you are allergic to idelalisib or any of the other ingredients of this medicine (listed in 
 section 6). 
- Talk to your doctor if this applies to you. </li>
+  Talk to your doctor if this applies to you. </li>
 </ul>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor before taking Zydelig. Tell your doctor: 
@@ -109,7 +109,7 @@ medicine provided by your doctor while you are taking Zydelig to prevent one typ
 doctor will monitor you for evidence of infection. Tell your doctor right away if you become ill 
 (especially with a fever, cough or breathing difficulties) while you are taking Zydelig. </p>
 <p>Tell your doctor immediately if you notice or someone notices in you: memory loss, trouble thinking, 
-difficulty walking or sight loss – these may be due to a very rare but serious brain infection which can 
+difficulty walking or sight loss   these may be due to a very rare but serious brain infection which can 
 be fatal (progressive multifocal leukoencephalopathy or PML). </p>
 <p>You will need regular blood tests before and during treatment with Zydelig. This is to check that you 
 do not have an infection, that your liver is working properly, and that your blood counts are normal. If 
@@ -122,11 +122,17 @@ same or a lower dose. Your doctor may also decide to permanently stop treatment 
 <p>Severe skin blistering conditions including Stevens-Johnson syndrome and toxic epidermal necrolysis, 
 and drug reaction with eosinophilia and systemic symptoms (DRESS) have been reported in 
 association with idelalisib treatment. Stop using idelalisib and seek medical attention immediately if 
-you notice any of the symptoms described in section 4.  </p>
-<p>Tell your doctor right away: 
+you notice any of the symptoms described in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zydelig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zydelig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor right away: 
 * if you have redness and blistering of the skin 
 * if you have swelling and blistering of the lining of the mouth, throat, nose, genitals, and/or eyes </p>
-<p>Laboratory tests may show an increase in white blood cells (called “lymphocytes”) in your blood in 
+<p>Laboratory tests may show an increase in white blood cells (called  lymphocytes ) in your blood in 
 the first few weeks of treatment. This is expected and may last for a few months. This generally does 
 not mean that your blood cancer is getting worse. Your doctor will check your blood counts before or 
 during treatment with Zydelig and in rare cases they may need to give you another medicine. Talk to 
@@ -166,9 +172,9 @@ infections </li>
 <li>boceprevir, telaprevir, medicines used to treat hepatitis C </li>
 <li>carbamazepine, S-mephenytoin, phenytoin, medicines used to prevent seizures </li>
 <li>rifampicin, a medicine used to prevent and treat tuberculosis and other infections </li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety </li>
+<li>St. John s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety </li>
 <li>alfentanil, fentanyl, methadone, buprenorphine/naloxone, medicines used for pain relief </li>
-<li>ciclosporin, sirolimus, tacrolimus, medicines used to control your body’s immune response 
+<li>ciclosporin, sirolimus, tacrolimus, medicines used to control your body s immune response 
 after a transplant </li>
 <li>colchicine, a medicine used to treat gout </li>
 <li>trazodone, a medicine used to treat depression </li>
@@ -188,8 +194,8 @@ important that you read the package leaflets that are provided with these medici
 medicine in pregnant women. </li>
 <li>Use a reliable method of contraception to avoid becoming pregnant while you are being 
 treated with Zydelig, and for 1 month after your last treatment. </li>
-<li>Zydelig may make the contraceptive “pill” and implanted hormonal contraceptives work 
-less well. You must also use a barrier method of contraception such as condoms or the “coil” 
+<li>Zydelig may make the contraceptive  pill  and implanted hormonal contraceptives work 
+less well. You must also use a barrier method of contraception such as condoms or the  coil<br />
 while taking Zydelig and for 1 month after your last treatment. </li>
 <li>Tell your doctor immediately if you become pregnant. </li>
 </ul>
@@ -200,12 +206,13 @@ human milk. </p>
 <p>Zydelig is unlikely to affect your ability to drive or use machines. </p>
 <p>Zydelig contains sunset yellow FCF (E110) </p>
 <p>Tell your doctor if you have an allergy to sunset yellow FCF (E110). Zydelig contains sunset yellow 
-FCF which may cause allergic reactions. </p>         </div>"""   
-                    
+FCF which may cause allergic reactions. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take zydelig"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zydelig"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
@@ -225,13 +232,12 @@ right away. Then take your next dose as usual. If you miss a dose by more than 6
 the next dose at your usual time. </p>
 <p>Do not stop taking Zydelig </p>
 <p>Do not stop taking this medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store zydelig"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store zydelig"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be serious. </p>
@@ -262,10 +268,11 @@ epidermal necrolysis).<br />
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store zydelig"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zydelig"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle and carton after EXP. The 
@@ -273,121 +280,4 @@ expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zydelig contains </p>
-<ul>
-<li>
-<p>The active substance is idelalisib. Each film-coated tablet contains 100 mg of idelalisib. </p>
-</li>
-<li>
-<p>The other ingredients are: 
-Tablet core: 
-Microcrystalline cellulose, hydroxypropyl cellulose (E463), croscarmellose sodium, sodium 
-starch glycolate, magnesium stearate. </p>
-</li>
-</ul>
-<p>Film-coating: 
-Polyvinyl alcohol (E1203), macrogol 3350 (E1521), titanium dioxide (E171), talc (E553B), 
-sunset yellow FCF (E110) (see Section 2, What you need to know before you take Zydelig). </p>
-<p>What Zydelig looks like and contents of the pack </p>
-<p>The film-coated tablets are orange, oval-shaped tablets, debossed on one side with “GSI” and “100” on 
-the other side. </p>
-<p>The following pack size is available: outer carton containing 1 plastic bottle of 60 film-coated tablets. </p>
-<p>Marketing Authorisation Holder 
-Gilead Sciences Ireland UC 
-Carrigtohill 
-County Cork, T45 DPIreland </p>
-<p>Manufacturer 
-Gilead Sciences Ireland UC 
-IDA Business &amp; Technology Park 
-Carrigtohill 
-County Cork 
-Ireland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35 Lietuva 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1Luxembourg/Luxemburg 
-Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
-Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarország 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1Danmark 
-Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1Deutschland 
-Gilead Sciences GmbH 
-Tel: + 49 (0) 89 899890-0 </p>
-<p>Nederland 
-Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36 Eesti 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Norge 
-Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
-Gilead Sciences GesmbH 
-Tel: + 43 1 260 España 
-Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
-Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8France 
-Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41 Portugal 
-Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1România 
-Gilead Sciences (GSR) S.R.L. 
-Tel: + 40 31 631 18<br />
-Ireland 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825<br />
-Slovenija 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1Ísland 
-Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
-Gilead Sciences Slovakia s.r.o. 
-Tel: + 421 232 121<br />
-Italia 
-Gilead Sciences S.r.l. 
-Tel: + 39 02 439Suomi/Finland 
-Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930 Sverige 
-Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-United Kingdom (Northern Ireland) 
-Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113 </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

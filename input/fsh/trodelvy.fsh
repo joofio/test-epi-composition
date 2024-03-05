@@ -4,7 +4,7 @@ Instance: composition-en-27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: CompositionUvEpi
 Title: "Composition for trodelvy Package Leaflet"
 Description:  "Composition for trodelvy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -118,7 +118,7 @@ serious infusion-related reaction. </p>
 which increases the risk of infections. These infections can be severe, life-threatening and may lead to 
 death. Seek urgent medical attention if you have the following signs and symptoms of neutropenia 
 or infections:<br />
-<em> a fever (a temperature of 38.5°C or higher) 
+<em> a fever (a temperature of 38.5 C or higher) 
 * chills or sweating<br />
 </em> sore throat, sores in the mouth, or a toothache<br />
 <em> stomach pain<br />
@@ -154,9 +154,9 @@ followed-up by their doctor.  </p>
 <p>Talk to your doctor, or nurse before you are given Trodelvy if you: 
 * have liver problems 
 * have kidney problems 
-* are a female of child-bearing age (see ‘Pregnancy’, ‘Male and female Contraception’ and 
-‘Breast-feeding’) 
-* are taking medicines to treat other conditions (see ‘Other medicines and Trodelvy’) 
+* are a female of child-bearing age (see  Pregnancy ,  Male and female Contraception  and 
+ Breast-feeding ) 
+* are taking medicines to treat other conditions (see  Other medicines and Trodelvy ) 
 * have experienced any problems after receiving any infusions in the past. </p>
 <p>While you are being given Trodelvy, your doctor will monitor you closely for side effects. If you get 
 any serious side effects, your doctor may give you other medicines to treat these side effects, they may 
@@ -167,16 +167,20 @@ change how much Trodelvy you receive or may stop giving you Trodelvy altogether.
 information on how it works in this age group. </p>
 <p>Other medicines and Trodelvy </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines.<br />
-Some medicines may affect the way Trodelvy works and may raise the level of Trodelvy’s active 
-substance in your blood, increasing the risk of side effects. They are: 
-- propofol, given as an anesthetic in surgery. 
-- ketoconazole, used to treat fungal infections. 
-- tyrosine kinase inhibitors, used to treat cancer (medicines ending in -nib).  </p>
-<p>Some medicines may lower the level of Trodelvy’s active substance in your blood, decreasing its 
-effects: 
-- carbamazepine or phenytoin, used to treat epilepsy. 
-- rifampicin, used to treat tuberculosis. 
-- ritonavir or tipranavir, used to treat HIV. </p>
+Some medicines may affect the way Trodelvy works and may raise the level of Trodelvy s active 
+substance in your blood, increasing the risk of side effects. They are:</p>
+<ul>
+<li>propofol, given as an anesthetic in surgery. </li>
+<li>ketoconazole, used to treat fungal infections. </li>
+<li>tyrosine kinase inhibitors, used to treat cancer (medicines ending in -nib).  </li>
+</ul>
+<p>Some medicines may lower the level of Trodelvy s active substance in your blood, decreasing its 
+effects:</p>
+<ul>
+<li>carbamazepine or phenytoin, used to treat epilepsy. </li>
+<li>rifampicin, used to treat tuberculosis. </li>
+<li>ritonavir or tipranavir, used to treat HIV. </li>
+</ul>
 <p>Pregnancy </p>
 <p>Trodelvy should not be used during pregnancy because it may harm the baby. Tell your doctor 
 immediately if you are pregnant, think you may be pregnant, or are planning to have a baby.  </p>
@@ -219,10 +223,23 @@ symptoms of infusion-related reactions. </p>
 <p>Infusion-related reactions 
 Your doctor will slow down the infusion rate of your medicine if you develop an infusion-related 
 reaction. The medicine will be stopped if the infusion-related reaction is life-threatening. See 
-section 2.<br />
-Dose of medicine when experiencing some side-effects 
-Your doctor may change or stop your dose if you experience certain side effects. See section 4.<br />
-If you are given more Trodelvy than you should </p>
+section </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose of medicine when experiencing some side-effects 
+Your doctor may change or stop your dose if you experience certain side effects. See section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you are given more Trodelvy than you should </p>
 <p>Since the infusion is given to you by your doctor or other appropriately trained staff, an overdose is 
 unlikely. If you inadvertently receive too much medicine, your doctor will monitor you and give you 
 additional treatment as required. </p>
@@ -236,66 +253,50 @@ fully effective, it is very important not to miss a dose. </p>
 infusions that you receive will depend on how you are responding to treatment. Therefore, you should 
 continue receiving Trodelvy even if you see your symptoms improve and until your doctor decides 
 that Trodelvy should be stopped. If the treatment is stopped too early, your symptoms may return.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>Seek urgent medical attention if you get any of the following very common serious side effects 
 (may affect more than 1 in 10 people): </p>
 <ul>
-<li>
-<p>Low white blood cell count (neutropenia) which may cause the following signs and 
-symptoms: 
-– 
-a fever, which is a body temperature of 38.5°C or higher: this is called febrile neutropenia<br />
-– 
-chills or sweating 
-– 
-sore throat, sores in the mouth, or a toothache 
-– 
-stomach pain 
-– 
-pain near the anus or sores around the anus 
-– 
-pain or burning when urinating, or urinating often 
-– 
-diarrhoea<br />
-– 
-a cough or shortness of breath </p>
-</li>
+<li>Low white blood cell count (neutropenia) which may cause the following signs and 
+symptoms: </li>
+</ul>
+<p>a fever, which is a body temperature of 38.5 C or higher: this is called febrile neutropenia  </p>
+<p>chills or sweating </p>
+<p>sore throat, sores in the mouth, or a toothache </p>
+<p>stomach pain </p>
+<p>pain near the anus or sores around the anus </p>
+<p>pain or burning when urinating, or urinating often </p>
+<p>diarrhoea  </p>
+<p>a cough or shortness of breath </p>
+<ul>
 <li>
 <p>Diarrhoea (even without other signs) </p>
 </li>
 <li>
 <p>Hypersensitivity reactions (including infusion-related reactions) which may cause the 
-following signs and symptoms: 
-– 
-swollen lips, tongue, eyes, throat or face 
-– 
-swelling or a raised, itchy, red skin rash 
-– 
-outbreak of swollen, pale red bumps or plaques (wheals) on the skin that appear suddenly 
-– 
-fever 
-– 
-a sudden attack of severe shivering accompanied by a feeling of coldness 
-– 
-excessive sweating 
-– 
-wheezing, chest or throat tightness, shortness of breath, dizziness, feeling of fainting, 
-breathlessness 
-– 
-chest pain, heart palpitations </p>
+following signs and symptoms: </p>
 </li>
-<li>
-<p>Feeling sick (nausea), being sick (vomiting) </p>
-</li>
+</ul>
+<p>swollen lips, tongue, eyes, throat or face </p>
+<p>swelling or a raised, itchy, red skin rash </p>
+<p>outbreak of swollen, pale red bumps or plaques (wheals) on the skin that appear suddenly </p>
+<p>fever </p>
+<p>a sudden attack of severe shivering accompanied by a feeling of coldness </p>
+<p>excessive sweating </p>
+<p>wheezing, chest or throat tightness, shortness of breath, dizziness, feeling of fainting, 
+breathlessness </p>
+<p>chest pain, heart palpitations </p>
+<ul>
+<li>Feeling sick (nausea), being sick (vomiting) </li>
 </ul>
 <p>Other possible side effects </p>
 <p>Other side effects are listed below. If any of these become severe or serious, tell your doctor 
@@ -345,137 +346,4 @@ related to coagulation  </p>
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store trodelvy"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store trodelvy"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy will be stored by healthcare professionals at the hospital or clinic where you receive 
-treatment. The storage details are as follows: 
-* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the vial label and carton after 
-EXP. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2°C - 8°C). Do not freeze.<br />
-<em> Keep the vial in the outer carton in order to protect from light. 
-* After reconstitution and dilution, if not used immediately, the infusion bag containing diluted 
-solution can be stored in a refrigerator (2°C - 8°C) for up to 24 hours protected from light.<br />
-</em> Do not use this medicine if you notice the reconstituted solution is cloudy or discoloured. </p>
-<p>Trodelvy is a cytotoxic medicine. Applicable special handling and disposal procedures must be 
-followed. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Trodelvy contains: 
-- The active substance is sacituzumab govitecan. One vial of powder contains 200 mg 
-sacituzumab govitecan. After reconstitution, one mL of solution contains 10 mg of sacituzumab 
-govitecan 
-- The other ingredients are 2-(N-morpholino)ethane sulfonic acid (MES), polysorbate 80 and 
-trehalose dihydrate. </p>
-<p>What Trodelvy looks like and contents of the pack </p>
-<p>The medicine is an off-white to yellowish powder for concentrate for solution for infusion supplied in 
-a glass vial. Each pack contains 1 vial. </p>
-<p>Marketing Authorisation Holder<br />
-Gilead Sciences Ireland UC 
-Carrigtohill 
-County Cork, T45 DPIreland </p>
-<p>Manufacturer 
-Gilead Sciences Ireland UC 
-IDA Business and Technology Park 
-Carrigtohill 
-County Cork, T45 DPIreland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
-Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Lietuva 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
-Luxembourg/Luxemburg 
-Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
-Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarország 
-Gilead Sciences Ireland UC 
-Tel.: + 353 (0) 1 686 1 
-Danmark 
-Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Deutschland 
-Gilead Sciences GmbH 
-Tel: + 49 (0) 89 899890-0 </p>
-<p>Nederland 
-Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36<br />
-Eesti 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1Norge 
-Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
-Gilead Sciences GesmbH 
-Tel: + 43 1 260<br />
-España 
-Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
-Gilead Sciences Poland Sp. z o.o. 
-Tel.: + 48 22 262 8 
-France 
-Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
-Portugal 
-Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-România 
-Gilead Sciences (GSR) S.R.L. 
-Tel: + 40 31 631 18 Ireland 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825<br />
-Slovenija 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Ísland 
-Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
-Gilead Sciences Slovakia s.r.o. 
-Tel: + 421 232 121<br />
-Italia 
-Gilead Sciences S.r.l. 
-Tel: + 39 02 439 
-Suomi/Finland 
-Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Sverige 
-Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
-Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
-Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113  </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-9dc703bc672ed093a819de38cd335ddf
 InstanceOf: CompositionUvEpi
 Title: "Composition for aclasta Package Leaflet"
 Description:  "Composition for aclasta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,11 +71,11 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aclasta contains the active substance zoledronic acid. It belongs to a group of medicines called 
 bisphosphonates and is used to treat post-menopausal women and adult men with osteoporosis or 
-osteoporosis caused by treatment with corticosteroids used to treat inflammation, and Paget’s disease 
+osteoporosis caused by treatment with corticosteroids used to treat inflammation, and Paget s disease 
 of the bone in adults. </p>
 <p>Osteoporosis 
 Osteoporosis is a disease that involves the thinning and weakening of the bones and is common in 
-women after the menopause, but can also occur in men. At the menopause, a woman’s ovaries stop 
+women after the menopause, but can also occur in men. At the menopause, a woman s ovaries stop 
 producing the female hormone oestrogen, which helps keep bones healthy. Following the menopause 
 bone loss occurs, bones become weaker and break more easily. Osteoporosis could also occur in men 
 and women because of the long term use of steroids, which can affect the strength of bones. Many 
@@ -85,9 +85,9 @@ oestrogens converted from androgens, also play a role in the more gradual bone l
 In both women and men, Aclasta strengthens the bone and therefore makes it less likely to break. 
 Aclasta is also used in patients who have recently broken their hip in a minor trauma such as a fall and 
 therefore are at risk of subsequent bone breaks. </p>
-<p>Paget’s disease of the bone 
+<p>Paget s disease of the bone 
 It is normal that old bone is removed and is replaced with new bone material. This process is called 
-remodelling. In Paget’s disease, bone remodelling is too rapid and new bone is formed in a disordered 
+remodelling. In Paget s disease, bone remodelling is too rapid and new bone is formed in a disordered 
 fashion, which makes it weaker than normal. If the disease is not treated, bones may become deformed 
 and painful, and may break. Aclasta works by returning the bone remodelling process to normal, 
 securing formation of normal bone, thus restoring strength to the bone. </p>         </div>"""   
@@ -101,22 +101,26 @@ securing formation of normal bone, thus restoring strength to the bone. </p>    
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Follow all instructions given to you by your doctor, pharmacist or nurse carefully before you are given 
 Aclasta. </p>
-<p>You must not be given Aclasta: 
-- if you are allergic to zoledronic acid, other bisphosphonates or any of the other ingredients of 
-this medicine (listed in section 6). 
-- if you have hypocalcaemia (this means that the levels of calcium in your blood are too low). 
-- if you have severe kidney problems. 
-- if you are pregnant. 
-- if you are breast-feeding. </p>
+<p>You must not be given Aclasta:</p>
+<ul>
+<li>if you are allergic to zoledronic acid, other bisphosphonates or any of the other ingredients of 
+this medicine (listed in section 6). </li>
+<li>if you have hypocalcaemia (this means that the levels of calcium in your blood are too low). </li>
+<li>if you have severe kidney problems. </li>
+<li>if you are pregnant. </li>
+<li>if you are breast-feeding. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor before you are given Aclasta: 
-- if you are being treated with any medicine containing zoledronic acid, which is also the active 
+Talk to your doctor before you are given Aclasta:</p>
+<ul>
+<li>if you are being treated with any medicine containing zoledronic acid, which is also the active 
 substance of Aclasta (zoledronic acid is used in adult patients with certain types of cancer to 
-prevent bone complications or to reduce the amount of calcium). 
-- if you have a kidney problem, or used to have one. 
-- if you are unable to take daily calcium supplements. 
-- if you have had some or all of the parathyroid glands in your neck surgically removed. 
-- if you have had sections of your intestine removed. </p>
+prevent bone complications or to reduce the amount of calcium). </li>
+<li>if you have a kidney problem, or used to have one. </li>
+<li>if you are unable to take daily calcium supplements. </li>
+<li>if you have had some or all of the parathyroid glands in your neck surgically removed. </li>
+<li>if you have had sections of your intestine removed. </li>
+</ul>
 <p>A side effect called osteonecrosis of the jaw (ONJ) (bone damage in the jaw) has been reported in the 
 post-marketing setting in patients receiving Aclasta (zoledronic acid) for osteoporosis. ONJ can also 
 occur after stopping treatment. </p>
@@ -150,7 +154,7 @@ Aclasta is not recommended for anyone under 18 years of age. </p>
 Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>It is important for your doctor to know all the medicines you are taking, especially if you are taking 
-any medicines known to be harmful to your kidneys (e.g. aminoglycosides) or diuretics (“waterpills”) 
+any medicines known to be harmful to your kidneys (e.g. aminoglycosides) or diuretics ( waterpills ) 
 that may cause dehydration. </p>
 <p>Pregnancy and breast-feeding 
 You must not be given Aclasta if you are pregnant or breast-feeding, think you may be pregnant or are 
@@ -160,7 +164,7 @@ planning to have a baby. </p>
 If you feel dizzy while taking Aclasta, do not drive or use machines until you feel better. </p>
 <p>Aclasta contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per 100 ml vial of Aclasta, i.e., 
-essentially “sodium free”. </p>         </div>"""   
+essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aclasta"
@@ -178,9 +182,9 @@ weeks after your hip repair surgery. </p>
 doctor. </p>
 <p>For osteoporosis, Aclasta works for one year. Your doctor will let you know when to return for your 
 next dose. </p>
-<p>Paget’s disease 
-For the treatment of Paget’s disease, Aclasta should be prescribed only by physicians with experience 
-in the treatment of Paget’s disease of the bone. </p>
+<p>Paget s disease 
+For the treatment of Paget s disease, Aclasta should be prescribed only by physicians with experience 
+in the treatment of Paget s disease of the bone. </p>
 <p>The usual dose is 5 mg, given to you as one initial infusion into a vein by your doctor or nurse. The 
 infusion will take at least 15 minutes. Aclasta may work for longer than one year, and your doctor will 
 let you know if you need to be treated again. </p>
@@ -191,8 +195,8 @@ will inform you regarding the symptoms associated with hypocalcaemia. </p>
 <p>Aclasta with food and drink 
 Make sure you drink enough fluids (at least one or two glasses) before and after the treatment with 
 Aclasta, as directed by your doctor. This will help to prevent dehydration. You may eat normally on 
-the day you are treated with Aclasta. This is especially important in patients who take diuretics (“water 
-pills”) and in elderly patients (age 65 years or over). </p>
+the day you are treated with Aclasta. This is especially important in patients who take diuretics ( water 
+pills ) and in elderly patients (age 65 years or over). </p>
 <p>If you missed a dose of Aclasta 
 Contact your doctor or hospital as soon as possible to re-schedule your appointment. </p>
 <p>Before stopping Aclasta therapy 
@@ -243,7 +247,7 @@ Headache, dizziness, sickness, vomiting, diarrhoea, pain in the muscles, pain in
 joints, pain in the back, arms or legs, flu-like symptoms (e.g. tiredness, chills, joint and muscle pain), 
 chills, feeling of tiredness and lack of interest, weakness, pain, feeling unwell, swelling and/or pain at 
 the infusion site. </p>
-<p>In patients with Paget’s disease, symptoms due to low blood calcium, such as muscle spasms, or 
+<p>In patients with Paget s disease, symptoms due to low blood calcium, such as muscle spasms, or 
 numbness, or a tingling sensation especially in the area around the mouth have been reported. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 Flu, upper respiratory tract infections, decreased red cell count, loss of appetite, sleeplessness, 
@@ -282,7 +286,7 @@ safety of this medicine. </p>         </div>"""
 <li>The unopened bottle does not require any special storage conditions. </li>
 <li>After opening the bottle, the product should be used immediately in order to avoid microbial 
 contamination. If not used immediately, in-use storage times and conditions prior to use are the 
-responsibility of the user and would normally not be longer than 24 hours at 2°C – 8°C. Allow 
+responsibility of the user and would normally not be longer than 24 hours at 2 C   8 C. Allow 
 the refrigerated solution to reach room temperature before administration. </li>
 </ul>         </div>"""      
         
@@ -303,43 +307,41 @@ for infusion. It is supplied in packs containing one bottle as unit pack, or in 
 packs, each containing one bottle. Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Sandoz Pharmaceuticals d.d. 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
 <p>Manufacturer 
 Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-Tél/Tel: +32 (0)2 722 97<br />
+T l/Tel: +32 (0)2 722 97<br />
 Lietuva 
 Sandoz Pharmaceuticals d.d 
 Branch Office Lithuania 
 Seimyniskiu 3A 
-LT – 09312 Vilnius 
-Tel: +370 5 2636<br />
-България 
-КЧТ Сандоз България<br />
-Teл.: +359 2 970 47 Luxembourg/Luxemburg 
+LT   09312 Vilnius 
+Tel: +370 5 2636  </p>
+<p>Te .: +359 2 970 47 Luxembourg/Luxemburg 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-Tél/Tel: +32 (0)2 722 97<br />
-Česká republika 
+T l/Tel: +32 (0)2 722 97<br />
+ esk  republika 
 Sandoz s.r.o. 
-Na Pankráci 1724/CZ-140 00, Praha 4 
+Na Pankr ci 1724/CZ-140 00, Praha 4 
 Tel: +420 225 775 office.cz@ sandoz.com </p>
-<p>Magyarország 
-Sandoz Hungária Kft. 
-Bartók Béla út 43-H-1114 Budapest 
+<p>Magyarorsz g 
+Sandoz Hung ria Kft. 
+Bart k B la  t 43-H-1114 Budapest 
 Tel: +36 1 430 2Info.hungary@sandoz.com 
 Danmark 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 København S 
+Edvard Thomsens Vej DK-2300 K benhavn S 
 Tlf: +45 6395 1info.danmark@sandoz.com </p>
 <p>Malta 
 Sandoz Pharmaceuticals d.d. 
@@ -356,23 +358,22 @@ Veluwezoom NL-1327 AH Almere
 Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com 
 Eesti 
 Sandoz d.d. Eesti filiaal 
-Pärnu mnt EE – 11312 Tallinn 
+P rnu mnt EE   11312 Tallinn 
 Tel: +372 6652 
 Norge 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 København S 
+Edvard Thomsens Vej DK-2300 K benhavn S 
 Danmark 
 Tlf: +45 6395 1info.norge@sandoz.com </p>
-<p>Ελλάδα 
-SANDOZ HELLAS<br />
-ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.<br />
-Τηλ: +30 216 600 5 
-Österreich 
+<p>SANDOZ HELLAS<br />
+   . .<br />
+ : +30 216 600 5 
+ sterreich 
 Sandoz GmbH 
 Biochemiestr. A-6250 Kundl 
 Tel: +43(0)1 86659-0 </p>
-<p>España 
-Bexal Farmacéutica, S.A. 
+<p>Espa a 
+Bexal Farmac utica, S.A. 
 Centro Empresarial Parque Norte 
 Edificio Roble 
 C/ Serrano Galvache, 28033 Madrid 
@@ -386,38 +387,38 @@ France
 Sandoz SAS 
 49, avenue Georges Pompidou 
 F-92300 Levallois-Perret 
-Tél: +33 1 49 64 48  </p>
+T l: +33 1 49 64 48  </p>
 <p>Portugal 
-Sandoz Farmacêutica Lda. 
-Avenida Professor Doutor Cavaco Silva, n.º10E 
+Sandoz Farmac utica Lda. 
+Avenida Professor Doutor Cavaco Silva, n. 10E 
 Taguspark 
-P-2740−255 Porto Salvo 
+P-2740 255 Porto Salvo 
 Tel: +351 21 196 40 regaff.portugal@sandoz.com </p>
 <p>Hrvatska 
 Sandoz d.o.o. 
 Maksimirska 10 000 Zagreb 
 Tel : +385 1 235 3upit.croatia@sandoz.com </p>
-<p>România 
+<p>Rom nia 
 Sandoz S.R.L. 
 Strada Livezeni Nr. 7a 
-540472 Târgu Mureș 
+540472 T rgu Mure<br />
 Tel: +40 21 407 51<br />
 Ireland 
 Sandoz Pharmaceuticals d.d. 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
 <p>Slovenija 
-Lek farmacevtska družba d.d. 
-Verovškova SI-1526 Ljubljana 
+Lek farmacevtska dru ba d.d. 
+Verov kova SI-1526 Ljubljana 
 Tel: +386 1 580 21 Info.lek@sandoz.com 
-Ísland 
+ sland 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
-Danmörk 
+Edvard Thomsens Vej DK-2300 Kaupmaannah fn S 
+Danm rk 
 Tlf: +45 6395 1info.danmark@sandoz.com </p>
-<p>Slovenská republika 
-Sandoz d.d. - organizačná zložka 
-Žižkova 22B 
+<p>Slovensk  republika 
+Sandoz d.d. - organiza n  zlo ka 
+ i kova 22B 
 811 02 Bratislava 
 Tel: +421 2 48 200 sk.regulatory@sandoz.com </p>
 <p>Italia 
@@ -428,22 +429,20 @@ Tel: +39 02 96 54 1
 regaff.italy@sandoz.com 
 Suomi/Finland 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Kööpenhamina S 
+Edvard Thomsens Vej DK-2300 K penhamina S 
 Tanska 
 Puh: + 358 010 6133 info.suomi@sandoz.com </p>
-<p>Κύπρος 
-Sandoz Pharmaceuticals d.d. 
-Verovskova SI-1000 Ljubljana 
-Σλοβενία 
-Τηλ: +357 22 69 0 
+<p>Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana </p>
+<p>: +357 22 69 0 
 Sverige 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Edvard Thomsens Vej DK-2300 K penhamn S 
 Danmark 
 Tel: +45 6395 1info.sverige@sandoz.com </p>
 <p>Latvija 
-Sandoz d.d. Latvia filiāle 
-K.Valdemāra 33 – LV-1010 Rīga 
+Sandoz d.d. Latvia fili le 
+K.Valdem ra 33   LV-1010 R ga 
 Tel: +371 67892 
 United Kingdom (Northern Ireland) 
 Sandoz Pharmaceuticals d.d. 

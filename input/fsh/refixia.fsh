@@ -4,7 +4,7 @@ Instance: composition-en-5777eb2944401c2b658d055d99fe5e6c
 InstanceOf: CompositionUvEpi
 Title: "Composition for refixia Package Leaflet"
 Description:  "Composition for refixia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -121,7 +121,7 @@ treatment with Refixia:<br />
 * you suffer from other serious illness e.g. liver disease, heart disease, or cancer 
 * you have risk factors for heart disease e.g high blood pressure, obesity, or smoking. </p>
 <p>Kidney disorder (nephrotic syndrome)<br />
-There is a rare risk of developing a specific kidney disorder called “nephrotic syndrome” following 
+There is a rare risk of developing a specific kidney disorder called  nephrotic syndrome  following 
 high doses of factor IX in haemophilia B patients with factor IX inhibitors and a history of allergic 
 reactions.  </p>
 <p>Catheter-related problems<br />
@@ -135,8 +135,8 @@ your doctor for advice before using Refixia.  </p>
 <p>Driving and using machines<br />
 Refixia has no influence on the ability to drive and use machines.  </p>
 <p>Refixia contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially “sodium-
-free”. In case of treatment with multiple vials, the total sodium content should be taken into 
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free . In case of treatment with multiple vials, the total sodium content should be taken into 
 consideration.  </p>         </div>"""   
                     
 * section[=].section[+]
@@ -162,11 +162,11 @@ Refixia can be used  in children and adolescents of all ages. The dose in childr
 also calculated according to body weight and is the same dose as for adults.  </p>
 <p>How Refixia is given<br />
 Refixia is available as powder and solvent that is made up into a solution (reconstitution) and given as 
-an injection into a vein. See “Instructions on how to use Refixia” for more information.  </p>
+an injection into a vein. See  Instructions on how to use Refixia  for more information.  </p>
 <p>If you use more Refixia than you should<br />
 If you use more Refixia than you should, contact your doctor.  </p>
 <p>If you have to significantly increase the amount of Refixia you need to stop a bleed, talk to your doctor 
-immediately. For further information, see section 2 “Allergic reactions and development of inhibitors”.  </p>
+immediately. For further information, see section 2  Allergic reactions and development of inhibitors .  </p>
 <p>If you forget to use Refixia<br />
 If you forget a dose, inject the missed dose as soon as you remember. Do not inject a double dose to 
 make up for a forgotten dose. If you are in doubt contact your doctor.  </p>
@@ -221,19 +221,19 @@ safety of this medicine.  </p>         </div>"""
   * code.text = "5. How to store refixia"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
-<p>Do not use Refixia after the expiry date which is stated after “EXP” on the carton and on the vial and 
+<p>Do not use Refixia after the expiry date which is stated after  EXP  on the carton and on the vial and 
 the pre-filled syringe labels. The expiry date refers to the last day of that month.  </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. Keep the vial in the outer carton in order to protect 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. Keep the vial in the outer carton in order to protect 
 from light.  </p>
 <p>Refixia may be taken out of the refrigerator for a maximum period of 6 months and stored at room 
-temperature (up to 30 °C). Please record on the carton the date Refixia is removed from the 
+temperature (up to 30  C). Please record on the carton the date Refixia is removed from the 
 refrigerator and placed at room temperature. This new expiry date should never exceed the one 
 initially mentioned on the outer carton. If the medicine has not been used before the new expiry date, it 
 should be disposed of. After storage at room temperature the medicine must not be put back in the 
 refrigerator.  </p>
 <p>Use the injection immediately after  making up the solution (reconstitution). If it cannot be used 
-immediately, use within 24 hours if stored in a refrigerator at 2 °C – 8 °C or within 4 hours if stored 
-out of the refrigerator at a maximum temperature of 30 °C.  </p>
+immediately, use within 24 hours if stored in a refrigerator at 2  C   8  C or within 4 hours if stored 
+out of the refrigerator at a maximum temperature of 30  C.  </p>
 <p>The powder in the vial appears as a white to off-white powder. Do not use the powder if the colour has 
 changed.  </p>
 <p>The reconstituted solution will be clear and colourless to slightly yellow. Do not use the reconstituted 
@@ -253,18 +253,18 @@ Each vial of Refixia contains nominally 500 IU, 1 000 IU, 2 000 IU or 3 000 IU
 nonacog beta pegol corresponding to approximately 125 IU/ml, 250 IU/ml, 500 IU/ml or 
 750 IU/ml respectively after reconstitution with histidine solvent. 
 * The other ingredients in the powder are sodium chloride, histidine, sucrose, polysorbate 80, 
-mannitol, sodium hydroxide and hydrochloric acid. See section 2 “Refixia contains sodium”. 
+mannitol, sodium hydroxide and hydrochloric acid. See section 2  Refixia contains sodium . 
 * The ingredients in the sterilised solvent are histidine, water for injections, sodium hydroxide and 
 hydrochloric acid. </p>
 <p>What Refixia looks like and contents of the pack<br />
 * Refixia is provided as a powder and solvent for solution for injection (500 IU, 1 000 IU, 
 2 000 IU or 3 000 IU powder in a vial and 4 ml solvent in a pre-filled syringe, a plunger rod 
-with a vial adapter – pack size of 1). 
+with a vial adapter   pack size of 1). 
 * The powder is white to off-white and the solvent is clear and colourless. </p>
 <p>Marketing Authorisation Holder and Manufacturer<br />
 Novo Nordisk A/S<br />
-Novo Allé<br />
-DK-2880 Bagsværd, Denmark  </p>
+Novo All <br />
+DK-2880 Bagsv rd, Denmark  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

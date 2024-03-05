@@ -4,7 +4,7 @@ Instance: composition-en-06bb7b199fc5a315ff3aceb8ab9ff2c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for rolufta Package Leaflet"
 Description:  "Composition for rolufta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -92,18 +92,22 @@ do not have a quick-acting inhaler contact your doctor. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take rolufta"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Rolufta Ellipta:<br />
-- if you are allergic to umeclidinium or any of the other ingredients of this medicine (listed in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Rolufta Ellipta:</p>
+<ul>
+<li>if you are allergic to umeclidinium or any of the other ingredients of this medicine (listed in 
 section 6). 
 If you think the above applies to you, do not use this medicine until you have checked with your 
-doctor. </p>
+doctor. </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to your doctor before using Rolufta Ellipta: 
-- if you have asthma (Do not use Rolufta Ellipta to treat asthma) 
-- if you have heart problems 
-- if you have an eye problem called narrow-angle glaucoma 
-- if you have an enlarged prostate, difficulty passing urine or a blockage in your bladder 
-- if you have severe liver problems </p>
+Talk to your doctor before using Rolufta Ellipta:</p>
+<ul>
+<li>if you have asthma (Do not use Rolufta Ellipta to treat asthma) </li>
+<li>if you have heart problems </li>
+<li>if you have an eye problem called narrow-angle glaucoma </li>
+<li>if you have an enlarged prostate, difficulty passing urine or a blockage in your bladder </li>
+<li>if you have severe liver problems </li>
+</ul>
 <p>Check with your doctor if you think any of these may apply to you. </p>
 <p>Immediate breathing difficulties 
 If you get tightness of the chest, coughing, wheezing or breathlessness immediately after using your 
@@ -152,7 +156,7 @@ to keep you free of symptoms throughout the day and night. </p>
 <p>Do not use this medicine to relieve a sudden attack of breathlessness or wheezing. If you get this 
 sort of attack you must use a quick-acting reliever inhaler (such as salbutamol). </p>
 <p>How to use the inhaler 
-See ‘Step-by-step instructions for use’ at the end of this leaflet for full information. </p>
+See  Step-by-step instructions for use  at the end of this leaflet for full information. </p>
 <p>Rolufta Ellipta is for inhalation use. To use Rolufta Ellipta, you breathe it into your lungs through your 
 mouth using the Ellipta inhaler. </p>
 <p>If your symptoms do not improve 
@@ -189,8 +193,8 @@ tell your doctor immediately: </p>
 * itching 
 * skin rash (hives) or redness. </p>
 <p>Rare (may affect up to 1 in 1 000 people): 
-• wheezing, coughing or having difficulty in breathing 
-• suddenly feeling weak or light headed (which may lead to collapse or loss of consciousness). </p>
+  wheezing, coughing or having difficulty in breathing 
+  suddenly feeling weak or light headed (which may lead to collapse or loss of consciousness). </p>
 <p>Other side effects </p>
 <p>Common (may affect up to 1 in 10 people):<br />
 <em> faster heart beat 
@@ -215,7 +219,7 @@ sinuses called sinusitis)
 * decrease in vision or pain in your eyes due to high pressure (possible signs of glaucoma) 
 * blurred vision 
 * increase of the measured eye pressure 
-* difficulty and pain when passing urine – these may be signs of a bladder obstruction or urinary 
+* difficulty and pain when passing urine   these may be signs of a bladder obstruction or urinary 
 retention 
 * dizziness. </p>
 <p>Reporting of side effects<br />
@@ -231,12 +235,12 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, tray and inhaler after 
-‘EXP’. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Keep the inhaler inside the sealed tray in order to protect from moisture and only remove immediately 
 before first use. Once the tray is opened, the inhaler can be used for up to 6 weeks, starting from the 
 date of opening the tray. Write the date the inhaler should be thrown away on the label in the space 
 provided. The date should be added as soon as the inhaler has been removed from the tray. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>If stored in a refrigerator, allow the inhaler to return to room temperature for at least an hour before 
 use. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -252,7 +256,7 @@ throw away medicines you no longer use. These measures will help protect the env
 The active substance is umeclidinium (as bromide). </p>
 <p>Each single inhalation provides a delivered dose (the dose leaving the mouthpiece) of 55 micrograms 
 umeclidinium (equivalent to 65 micrograms of umeclidinium bromide).  </p>
-<p>The other ingredients are lactose monohydrate (see section 2 under ‘Rolufta Ellipta contains lactose’) 
+<p>The other ingredients are lactose monohydrate (see section 2 under  Rolufta Ellipta contains lactose ) 
 and magnesium stearate. </p>
 <p>What Rolufta Ellipta looks like and contents of the pack 
 Rolufta Ellipta is an inhalation powder, pre-dispensed. 
@@ -275,30 +279,31 @@ Zone Industrielle No.2
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals 
 s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52<br />
+T l/Tel: + 32 (0) 10 85 52<br />
 Lietuva 
-UAB “BERLIN-CHEMIE MENARINI BALTIC” 
+UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: +370 52 691 lt@berlin-chemie.com </p>
-<p>България 
-“Берлин-Хеми/А. Менарини 
-България” EООД 
-Teл.: +359 2 454 0bcsofia@berlin-chemie.com 
+<ul>
+<li>/ . <br />
+  E<br />
+Te .: +359 2 454 0bcsofia@berlin-chemie.com 
 Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
-Magyarország 
+Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.:+36 23501bc-hu@berlin-chemie.com 
 Danmark 
 GlaxoSmithKline Pharma A/S 
-Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+Tlf: + 45 36 35 91 dk-info@gsk.com </li>
+</ul>
 <p>Malta 
 GlaxoSmithKline Trading Services Limited 
 Tel: +356 80065Deutschland 
@@ -308,35 +313,34 @@ Nederland
 GlaxoSmithKline BV 
 Tel: + 31 (0)33 2081 
 Eesti 
-OÜ Berlin-Chemie Menarini Eesti 
+O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη 
+Tlf: + 47 22 70 20  </p>
+<p>GlaxoSmithKline <br />
 A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 FAES FARMA, S.A. 
 Tel: +34 900 460 aweber@faes.es </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
 Tel.: + 48 (0)22 576 9France 
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+T l: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline   Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com 
 Hrvatska 
 Berlin-Chemie Menarini Hrvatska 
 d.o.o. 
 Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
-<p>România 
+<p>Rom nia 
 GlaxoSmithKline Trading Services Limited 
 Tel: +40 800672Ireland 
 Slovenija </p>
@@ -345,10 +349,10 @@ Tel: + 353 (0)1 4955
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution Slovakia 
 s.r.o. 
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
@@ -359,10 +363,9 @@ Tel: +39-055 56
 Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 (0)10 30 30  </p>
-<p>Κύπρος 
-GlaxoSmithKline Trading 
+<p>GlaxoSmithKline Trading 
 ServicesLimited 
-Τηλ: +357 80070 
+ : +357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

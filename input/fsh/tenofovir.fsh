@@ -4,7 +4,7 @@ Instance: composition-en-ce72f1be560e316230a31ee766305b8e
 InstanceOf: CompositionUvEpi
 Title: "Composition for tenofovir Package Leaflet"
 Description:  "Composition for tenofovir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -45,7 +45,7 @@ Usage: #example
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If this medicine has been prescribed for your child, please note that all the information in this 
-leaflet is addressed to your child (in this case please read “your child” instead of “you”). </p>         </div>"""   
+leaflet is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
 
 
 
@@ -98,10 +98,18 @@ to others, so it is important to take precautions to avoid infecting other peopl
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take tenofovir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tenofovir disoproxil Mylan: 
-- If you are allergic to tenofovir, tenofovir disoproxil or any of the other ingredients of this 
-medicine listed in section 6.<br />
-If this applies to you, tell your doctor immediately and do not take Tenofovir disoproxil Mylan. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tenofovir disoproxil Mylan:</p>
+<ul>
+<li>If you are allergic to tenofovir, tenofovir disoproxil or any of the other ingredients of this 
+medicine listed in section </li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If this applies to you, tell your doctor immediately and do not take Tenofovir disoproxil Mylan. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Tenofovir disoproxil Mylan </p>
 <ul>
@@ -154,7 +162,7 @@ liver function. </p>
 <p>Look out for infections. If you have advanced HIV infection (AIDS) and have an infection, 
 you may develop symptoms of infection and inflammation or worsening of the symptoms of an 
 existing infection once treatment with Tenofovir disoproxil Mylan is started. These symptoms 
-may indicate that your body’s improved immune system is fighting infection. Look out for 
+may indicate that your body s improved immune system is fighting infection. Look out for 
 signs of inflammation or infection soon after you start taking Tenofovir disoproxil Mylan. If 
 you notice signs of inflammation or infection, tell your doctor at once. </p>
 </li>
@@ -183,7 +191,7 @@ to development of resistance, or have caused side effects
 For dosage see section 3, How to take Tenofovir disoproxil Mylan. 
 Other medicines and Tenofovir disoproxil Mylan 
 Tell your doctor or pharmacist if you are taking have recently taken or might take any other medicines. </p>
-<p>Don’t stop any anti-HIV medicines prescribed by your doctor when you start Tenofovir disoproxil 
+<p>Don t stop any anti-HIV medicines prescribed by your doctor when you start Tenofovir disoproxil 
 Mylan if you have both HBV and HIV. 
 * Do not take Tenofovir disoproxil Mylan if you are already taking other medicines 
 containing tenofovir disoproxil or tenofovir alafenamide. Do not take Tenofovir disoproxil 
@@ -252,12 +260,13 @@ you should discuss it with your doctor as soon as possible. </p>
 do not drive or ride a bicycle and do not use any tools or machines. </p>
 <p>Tenofovir disoproxil Mylan contains lactose 
 Tell your doctor before taking Tenofovir disoproxil Mylan. If you have been told by your doctor 
-that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
-                    
+that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take tenofovir"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tenofovir"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -307,7 +316,7 @@ tablet. </li>
 do not need to take another tablet if you were sick more than 1 hour after taking Tenofovir disoproxil 
 Mylan </p>
 <p>If you stop taking Tenofovir disoproxil Mylan 
-Don’t stop taking Tenofovir disoproxil Mylan without your doctor’s advice. Stopping treatment 
+Don t stop taking Tenofovir disoproxil Mylan without your doctor s advice. Stopping treatment 
 with Tenofovir disoproxil Mylan may reduce the effectiveness of the treatment recommended by 
 your doctor. </p>
 <p>If you have hepatitis B or HIV and hepatitis B together (co-infection), it is very important not to 
@@ -329,13 +338,12 @@ particularly symptoms you associate with hepatitis B infection. </p>
 <p>Contact your doctor before you restart taking Tenofovir disoproxil Mylan tablets. </p>
 </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store tenofovir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store tenofovir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose. This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -389,146 +397,17 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store tenofovir"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tenofovir"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and carton after {EXP}. 
-The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. Store in the original package in order to protect from light and moisture. 
-For bottles: after first opening the bottle use within 90 days. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tenofovir disoproxil Mylan contains<br />
-- The active substance is tenofovir disoproxil. Each Tenofovir disoproxil Mylan tablet contains 
-245 mg of tenofovir disoproxil (as maleate). 
-- The other ingredients are microcrystalline cellulose, lactose monohydrate (see section 2, 
-Tenofovir disoproxil Mylan contains lactose), hydroxypropylcellulose, colloidal anhydrous 
-silica, magnesium stearate, hypromellose, titanium dioxide (E171), triacetin, indigo carmine 
-aluminium lake (E132). </p>
-<p>What Tenofovir disoproxil Mylan looks like and contents of the pack </p>
-<p>Tenofovir disoproxil Mylan 245 mg film-coated tablets are light blue, round, biconvex, debossed 
-with ‘TN245’ on one side and ‘M’ on other side. 
-This medicine is available in plastic bottles with a child resistant cap and wad containing 30 film-
-coated tablets and in multipacks of 90 film-coated tablets comprising 3 bottles, each containing 
-30 film-coated tablets. The bottles also contain desiccant. Do not eat the desiccant. </p>
-<p>The tablets are also available in blister packs containing 10, 30 or 30 x 1 (unit dose) tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Mylan Pharmaceuticals Limited 
-Damastown Industrial Park,<br />
-Mulhuddart, Dublin 15,<br />
-DUBLIN 
-Ireland </p>
-<p>Manufacturer 
-McDermott Laboratories Limited T/A Gerard Laboratories T/A Mylan Dublin 
-Unit 35/36 Baldoyle Industrial Estate, 
-Grange Road, Dublin 13, 
-Ireland  </p>
-<p>Mylan Hungary Kft 
-Mylan utca 1, 
-Komarom, H-2900, 
-Hungary </p>
-<p>Mylan Germany GmbH 
-Zweigniederlassung Bad Homburg v. d. Hoehe,<br />
-Benzstrasse 1, Bad Homburg v. d. Hoehe 
-Hessen, 61Germany  </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
-Lietuva 
-Mylan Healthcare UAB<br />
-Tel: + 370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: + 359 2 44 55<br />
-Luxembourg/Luxemburg 
-Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
-Viatris CZ s.r.o. 
-Tel: + 420 222 004<br />
-Magyarország 
-Mylan EPD Kft 
-Tel: + 36 1 465 2Danmark 
-Viatris ApS 
-Tlf: + 45 28 11 69 Malta 
-V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
-Viatris Healthcare GmbH<br />
-Tel: + 49 800 0700<br />
-Nederland 
-Mylan BV 
-Tel: + 31 (0)20 426 3 
-Eesti 
-BGP Products Switzerland GmbH<br />
-Eesti filiaal<br />
-Tel: + 372 6363<br />
-Norge 
-Viatris AS 
-Tlf: + 47 66 75 33 Ελλάδα<br />
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ:  + 30 210 993 6410  </p>
-<p>Österreich 
-Arcana Arzneimittel GmbH 
-Tel: + 43 1 416 2 
-España 
-Viatris Pharmaceuticals, S.L.U. 
-Tel: + 34 900 102<br />
-Polska 
-Mylan Healthcare Sp. z o.o. 
-Tel: + 48 22 546 64<br />
-France 
-Viatris Santé 
-Tél: + 33 4 37 25 75<br />
-Portugal 
-Mylan, Lda. 
-Tel: + 351 214 127<br />
-Hrvatska 
-Viatris Hrvatska d.o.o<br />
-Tel: + 385 1 23 50<br />
-România 
-BGP Products  SRL 
-Tel: + 40 372 579<br />
-Ireland 
-Mylan Ireland Limited 
-Tel: + 353 1 8711Slovenija 
-Viatris d.o.o. 
-Tel: + 386 1 23 63<br />
-Ísland 
-Icepharma hf.<br />
-Sími: + 354 540 8 
-Slovenská republika 
-Viatris Slovakia s.r.o. 
-Tel: + 421 2 32 199 Italia 
-Mylan Italia S.r.l. 
-Tel: + 39 02 612 46 
-Suomi/Finland 
-Viatris Oy 
-Puh/Tel: + 358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd. 
-Τηλ: + 357 2220 7 
-Sverige 
-Viatris AB<br />
-Tel: + 46 (0)8 630 19<br />
-Latvija 
-Mylan Healthcare SIA<br />
-Tel: + 371 676 055 United Kingdom (Northern Ireland) 
-Mylan IRE Healthcare Limited 
-Tel: + 353 18711 
-This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the bottle and carton after {EXP}. 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. Store in the original package in order to protect from light and moisture. 
+For bottles: after first opening the bottle use within 90 days. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

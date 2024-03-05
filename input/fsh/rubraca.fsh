@@ -4,7 +4,7 @@ Instance: composition-en-9d9c8b92be64dfdc684568f33262fbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for rubraca Package Leaflet"
 Description:  "Composition for rubraca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rubraca is and how it works 
 Rubraca contains the active substance rucaparib. Rubraca is an anti-cancer medicine, also known as a 
-‘PARP (poly adenosine diphosphate-ribose polymerase) inhibitor’. </p>
+ PARP (poly adenosine diphosphate-ribose polymerase) inhibitor . </p>
 <p>Patients with changes (mutations) in genes called BRCA are at risk of developing a number of types of 
 cancer. Rubraca blocks an enzyme that repairs damaged DNA in the cancer cells, resulting in their 
 death. </p>
@@ -101,7 +101,7 @@ Your doctor or nurse will perform blood tests to check your blood cell-counts:
 * red blood-cells, white blood-cells, or platelets. See section 4 for more information. The signs 
 and symptoms of low blood cell counts include fever, infection, bruising or bleeding. 
 * a low blood-cell count may be a sign of a serious bone marrow problem - such as 
-‘myelodysplastic syndrome’ (MDS) or ‘acute myeloid leukaemia’ (AML). Your doctor may test 
+ myelodysplastic syndrome  (MDS) or  acute myeloid leukaemia  (AML). Your doctor may test 
 your bone marrow to check for any problems. </p>
 <p>Your doctor may also do weekly tests, if you have low blood cell counts for a long time. They may 
 stop treatment with Rubraca until your blood cell counts improve. </p>
@@ -146,17 +146,19 @@ treatment with Rubraca. </p>
 * Do not breast-feed during treatment with Rubraca, and for two weeks after taking the last dose. 
 This is because it is not known if rucaparib passes into breast milk. </p>
 <p>Contraception 
-* Women who are able to become pregnant must use effective birth control (contraception): 
-- during treatment with Rubraca and 
-- for 6 months after taking the last dose of Rubraca. 
-This is because rucaparib may affect the unborn baby. 
-* Talk to your doctor or pharmacist about the most effective methods of contraception. </p>
+* Women who are able to become pregnant must use effective birth control (contraception):</p>
+<ul>
+<li>during treatment with Rubraca and </li>
+<li>for 6 months after taking the last dose of Rubraca. 
+This is because rucaparib may affect the unborn baby. </li>
+<li>Talk to your doctor or pharmacist about the most effective methods of contraception. </li>
+</ul>
 <p>Driving and using machines 
 Rubraca may affect your ability to drive or use tools or machines. Take care if you feel tired or feel 
 sick (nauseous). </p>
 <p>Rubraca contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rubraca"
@@ -182,7 +184,7 @@ need medical help. </p>
 * If you forget to take a dose, skip the missed dose. Then take your next dose at the usual time. 
 * Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Rubraca 
-* It is important to keep taking Rubraca every day – as long as your doctor prescribes it for you. 
+* It is important to keep taking Rubraca every day   as long as your doctor prescribes it for you. 
 * Do not stop taking this medicine without talking to your doctor first. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
 
@@ -193,14 +195,14 @@ need medical help. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor straight away if you notice any of the following side effects – you may need 
+<p>Tell your doctor straight away if you notice any of the following side effects   you may need 
 urgent medical treatment: </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * being short of breath, feeling tired, having pale skin, or fast heart beat - these may be signs of a 
 low red blood cell count (anaemia) 
 * bleeding or bruising for longer than usual if you hurt yourself - these may be signs of a low 
 blood platelet count (thrombocytopenia) 
-* fever or infection – these may be signs of a low white blood cell count (neutropenia) </p>
+* fever or infection   these may be signs of a low white blood cell count (neutropenia) </p>
 <p>Other side effects include:  </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * feeling sick (nausea) 
@@ -226,8 +228,8 @@ blood platelet count (thrombocytopenia)
 * redness, swelling, and pain on the palms of the hands and, or the soles of the feet 
 * red patches on the skin 
 * blockage in the gut or bowel 
-* serious bone marrow problem, such as “myelodysplastic syndrome” (MDS) or “acute myeloid 
-leukaemia” (AML) (see section 2) </p>
+* serious bone marrow problem, such as  myelodysplastic syndrome  (MDS) or  acute myeloid 
+leukaemia  (AML) (see section 2) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -263,9 +265,13 @@ corresponding to 250 mg of rucaparib. </p>
 <p>Rubraca 300 mg film-coated tablets: Each film-coated tablet contains rucaparib camsylate 
 corresponding to 300 mg of rucaparib. </p>
 <ul>
-<li>The other ingredients are: </li>
-<li>Tablet content: Microcrystalline cellulose, sodium starch glycolate (Type A), colloidal 
-anhydrous silica and magnesium stearate. </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>Tablet content: Microcrystalline cellulose, sodium starch glycolate (Type A), colloidal 
+anhydrous silica and magnesium stearate. </p>
+</li>
 <li>Tablet coating: 
 Rubraca 200 mg film-coated tablets 
 Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 4000 (E1521), talc 
@@ -279,11 +285,11 @@ Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 4000 (E1521), and t
 Polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 4000 (E1521), talc 
 (E553b), and iron oxide yellow (E172). </p>
 <p>What Rubraca looks like and contents of the pack 
-* Rubraca 200 mg film-coated tablets are blue, round, film-coated tablets with “C2” marked on 
+* Rubraca 200 mg film-coated tablets are blue, round, film-coated tablets with  C2  marked on 
 one side. 
-* Rubraca 250 mg film-coated tablets are white, diamond-shaped, film-coated tablets with “C25” 
+* Rubraca 250 mg film-coated tablets are white, diamond-shaped, film-coated tablets with  C25<br />
 marked on one side. 
-* Rubraca 300 mg film-coated tablets are yellow, oval, film-coated tablets with “C3” marked on 
+* Rubraca 300 mg film-coated tablets are yellow, oval, film-coated tablets with  C3  marked on 
 one side. </p>
 <p>Rubraca is supplied in plastic bottles. Each bottle contains 60 film-coated tablets. </p>
 <p>Marketing Authorisation Holder 
@@ -307,27 +313,27 @@ A91 P9KD
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Tel: +32 (0)80070 
 Deutschland 
 Tel: +49 (0)8005892 
-España 
+Espa a 
 Tel: +34 913756 
 France 
-Tél: +33 (0)149116 
+T l: +33 (0)149116 
 Ireland 
 Tel: +353 1800800 
 Italia 
 Tel: +39 800194 
 Nederland<br />
 Tel: +31 (0)8000227 
-Österreich 
+ sterreich 
 Tel: +43 (0)800005924  </p>
 <p>United Kingdom (Northern Ireland) 
 Tel: +44 (0)800 0093 
-България, Česká republika, Danmark, Eesti, Ελλάδα, Hrvatska, Ísland, Κύπρος, Latvija, 
-Lietuva, Luxembourg/Luxemburg, Magyarország, Malta, Norge, Polska, Portugal, România, 
-Slovenija, Slovenská republika, Suomi/Finland, Sverige: 
+ ,  esk  republika, Danmark, Eesti,  , Hrvatska,  sland,  , Latvija, 
+Lietuva, Luxembourg/Luxemburg, Magyarorsz g, Malta, Norge, Polska, Portugal, Rom nia, 
+Slovenija, Slovensk  republika, Suomi/Finland, Sverige: 
 Tel: +353 16950 
 This leaflet was last revised in  </p>
 <p>Other sources of information 

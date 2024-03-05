@@ -4,7 +4,7 @@ Instance: composition-en-69d1d159ef4725f9647ff9342948ec87
 InstanceOf: CompositionUvEpi
 Title: "Composition for lymphoseek Package Leaflet"
 Description:  "Composition for lymphoseek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,8 +74,8 @@ oral cavity cancers to help find out about your illness. It is not a treatment f
 <p>Before it is used, the powder in the vial which contains tilmanocept is mixed with a radioactive medicine 
 called sodium pertechnetate (containing 99mTc) to make a substance called technetium (99mTc) tilmanocept. </p>
 <p>Since technetium (99mTc) tilmanocept contains a small amount of radioactivity it can make parts of the body 
-areas visible to doctors during tests to help them see if the cancer has spread to places called ‘lymph nodes’ 
-that are found near tumours. The lymph nodes nearest the tumour are called ‘sentinel’ lymph nodes. These 
+areas visible to doctors during tests to help them see if the cancer has spread to places called  lymph nodes<br />
+that are found near tumours. The lymph nodes nearest the tumour are called  sentinel  lymph nodes. These 
 lymph nodes are where cancer cells are most likely to have spread.  When Lymphoseek has found the 
 sentinel lymph nodes, they can be removed and checked to see if there are any cancer cells present.<br />
 Lymphoseek finds the lymph nodes and can be detected using a special camera or detector.  </p>
@@ -95,10 +95,9 @@ If you are allergic to tilmanocept or any of the other ingredients of this medic
 any of the ingredients of the radiolabelled pharmaceutical. </p>
 <p>Warnings and precautions 
 Talk to your nuclear medicine doctor before you are given Lymphoseek: </p>
-<p> 
-if you have experienced any signs of allergic reaction (listed in section 4) after previous admistration 
+<p>if you have experienced any signs of allergic reaction (listed in section 4) after previous admistration 
 of Lymphoseek 
- if you have kidney or liver problems (renal or heptatic disease) </p>
+  if you have kidney or liver problems (renal or heptatic disease) </p>
 <p>Children and adolescents<br />
 This medicine is not for use in children and adolescents under 18 years of age because it has not been studied 
 in this age group. </p>
@@ -120,7 +119,7 @@ It is considered unlikely that Lymphoseek will affect your ability to drive or t
 and nuclear medicine doctor will tell you when it is safe to drive after your surgery. </p>
 <p>Lymphoseek contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose. That means it is essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lymphoseek"
@@ -198,10 +197,10 @@ By reporting side effects you can help provide more information on the safety of
 appropriate premises. Storage of radiopharmaceuticals will be in accordance with national regulation on 
 radioactive materials.  </p>
 <p>The following information is intended for the specialist only.  </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and label after “Exp”.  The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton and label after  Exp .  The expiry 
 date refers to the last day of that month.  </p>
-<p>Do not store above 25°C.  Store the vial in the outer carton in order to protect from light. </p>
-<p>The radiolabelled solution is stable for 6 hours at a maximum of 25°C. </p>
+<p>Do not store above 25 C.  Store the vial in the outer carton in order to protect from light. </p>
+<p>The radiolabelled solution is stable for 6 hours at a maximum of 25 C. </p>
 <p>The radiolabelled product is a clear, colourless solution with no visible particles. Do not use if particulate 
 matter and/or discoloration are seen.  </p>
 <p>Disposal of radiopharmaceuticals should be done in accordance with national regulation on radioactive 
@@ -230,7 +229,7 @@ Dungarvan
 Co. Waterford, X35 WPIreland </p>
 <p>Manufacturer 
 GiPharma S.r.l. 
-Strada Crescentino snc – 13Saluggia (VC) 
+Strada Crescentino snc   13Saluggia (VC) 
 Italia </p>
 <p>Norgine B.V. 
 Antonio Vivaldistraat 1083 HP Amsterdam 

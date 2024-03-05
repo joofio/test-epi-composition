@@ -4,7 +4,7 @@ Instance: composition-en-f26848c5b2f5c977d1dab0f1db6d241e
 InstanceOf: CompositionUvEpi
 Title: "Composition for thiotepa Package Leaflet"
 Description:  "Composition for thiotepa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,10 +89,12 @@ Thiotepa Riemser can be used in adults and children and adolescents. </p>       
 - if you are breast-feeding, 
 - if you are receiving yellow fever vaccination, live virus and bacterial vaccines. </p>
 <p>Warning and precautions 
-You should tell your doctor if you have: 
-- liver or kidney problems, 
-- heart or lung problems, 
-- seizures/fits (epilepsy) or have had them in the past (if treated with phenytoin or fosphenytoin). </p>
+You should tell your doctor if you have:</p>
+<ul>
+<li>liver or kidney problems, </li>
+<li>heart or lung problems, </li>
+<li>seizures/fits (epilepsy) or have had them in the past (if treated with phenytoin or fosphenytoin). </li>
+</ul>
 <p>Because Thiotepa Riemser destroys bone marrow cells responsible for producing blood cells, regular 
 blood tests will be taken during treatment to check your blood cell counts. </p>
 <p>In order to prevent and manage infections, you will be given anti-infectives. </p>
@@ -252,11 +254,11 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label, after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2 °C – 8 °C). 
+<p>Store and transport refrigerated (2  C   8  C). 
 Do not freeze. </p>
-<p>After reconstitution the product is stable for 8 hours when stored at 2 °C – 8 °C. </p>
-<p>After dilution the product is stable for 24 hours when stored at 2 °C – 8 °C and for 4 hours when 
-stored at 25 °C. From a microbiological point of view, the product should be used immediately. </p>
+<p>After reconstitution the product is stable for 8 hours when stored at 2  C   8  C. </p>
+<p>After dilution the product is stable for 24 hours when stored at 2  C   8  C and for 4 hours when 
+stored at 25  C. From a microbiological point of view, the product should be used immediately. </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
         
         
@@ -288,33 +290,31 @@ Hohenzollerndamm 150-151<br />
 Germany </p>
 <p>Manufacturer 
 HWI pharma services GmbH 
-Straßburger Str. 77767 Appenweier 
+Stra burger Str. 77767 Appenweier 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eurocept Pharmaceuticals 
 Pays-Bas/Nederland/Niederlande 
-Tél/Tel: +31 35 528 8info@eurocept.nl </p>
+T l/Tel: +31 35 528 8info@eurocept.nl </p>
 <p>Lietuva 
 UAB ARMILA 
 Lietuva 
 Tel: +370 (0) 5 2777info@armila.com </p>
-<p>България 
-Thrive Pharma Ltd. 
-България 
-Teл.: +359 2 878 05 office@thrivepharmabg.com </p>
+<p>Thrive Pharma Ltd. </p>
+<p>Te .: +359 2 878 05 office@thrivepharmabg.com </p>
 <p>Luxembourg/Luxemburg 
 Eurocept Pharmaceuticals 
 Pays-Bas/Nederland/Niederlande 
-Tél/Tel: +31 35 528 8info@eurocept.nl </p>
-<p>Česká republika 
+T l/Tel: +31 35 528 8info@eurocept.nl </p>
+<p>esk  republika 
 LERAM pharmaceuticals s.r.o. 
-Česká republika 
+ esk  republika 
 Tel:  +420 513 035 info@leram-pharma.cz 
-Magyarország 
+Magyarorsz g 
 SANATIS Europe Kft. 
-Magyarország 
+Magyarorsz g 
 Tel.: +36 (0) 23 367 office@sanatis.hu 
 Danmark 
 Abacus Medicine A/S 
@@ -322,7 +322,7 @@ Danmark
 Tlf: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com<br />
 Malta 
 Esteve Pharmaceuticals GmbH<br />
-Il-Ġermanja 
+Il- ermanja 
 Tel: +49 (0) 30 338427-0 
  info.germany@esteve.com </p>
 <p>Deutschland 
@@ -335,25 +335,23 @@ Eurocept Pharmaceuticals
 Nederland 
 Tel: +31 35 528 8info@eurocept.nl </p>
 <p>Eesti 
-AUXILIA Pharma OÜ 
+AUXILIA Pharma O<br />
 Eesti 
 Tel: +372 605 00 info@auxiliapharma.eu </p>
 <p>Norge 
 Abacus Medicine A/S 
 Danmark 
-Tlf: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com<br />
-Ελλάδα 
-Esteve Pharmaceuticals GmbH 
-Γερμανία 
-Τηλ: +49 (0) 30 338427-0 
+Tlf: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com  </p>
+<p>Esteve Pharmaceuticals GmbH </p>
+<p>: +49 (0) 30 338427-0 
 info.germany@esteve.com </p>
-<p>Österreich 
+<p>sterreich 
 AGEA Pharma GmbH 
-Österreich 
+ sterreich 
 Tel: +43 (0) 1 336 01 office@ageapharma.com  </p>
-<p>España 
+<p>Espa a 
 Esteve Pharmaceuticals, S.A. 
-España 
+Espa a 
 Tel: +34 93 446 60<br />
 Polska 
 COPHARMA JOSEPH RAKOTO 
@@ -362,17 +360,17 @@ Tel.: +48 691 702 joseph.rakoto@copharma.pl </p>
 <p>France 
 Esteve Pharmaceuticals S.A.S 
 France 
-Tél: +33 1 42 31 07 contact-france@esteve.com </p>
+T l: +33 1 42 31 07 contact-france@esteve.com </p>
 <p>Portugal 
-Esteve Pharmaceuticals – Laboratório 
-Farmacêutico, Limitada<br />
+Esteve Pharmaceuticals   Laborat rio 
+Farmac utico, Limitada<br />
 Portugal 
 Tel: +34 93 446 60<br />
 Hrvatska 
 MEDIS Adria d.o.o. 
 Hrvatska 
 Tel: +385 1 2303 info@medisadria.hr 
-România 
+Rom nia 
 Esteve Pharmaceuticals GmbH 
 Germania 
 Tel: +49 (0) 30 338427-0 
@@ -386,13 +384,13 @@ Slovenija
 MEDIS d.o.o. 
 Slovenija 
 Tel: +386 (0) 1 589 69 info@medis.si </p>
-<p>Ísland 
+<p>sland 
 Abacus Medicine A/S 
-Danmörk 
-Sími: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com  </p>
-<p>Slovenská republika 
+Danm rk 
+S mi: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com  </p>
+<p>Slovensk  republika 
 LERAM pharmaceuticals s.r.o. 
-Česká republika 
+ esk  republika 
 Tel:  +420 513 035 info@leram-pharma.cz 
 Italia 
 Esteve Pharmaceuticals S.r.l.<br />
@@ -402,16 +400,14 @@ info.italy@esteve.com </p>
 Abacus Medicine A/S 
 Tanska 
 Puh/Tel: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com </p>
-<p>Κύπρος 
-MA Pharmaceuticals Trading Ltd.<br />
-Κύπρος 
-Τηλ: +357 25 587regulatory@mapharmagroup.com 
+<p>MA Pharmaceuticals Trading Ltd.  </p>
+<p>: +357 25 587regulatory@mapharmagroup.com 
 Sverige 
 Abacus Medicine A/S 
 Danmark 
 Tel: +44 (0) 203 630 1amps-medinfo@abacusmedicine.com  </p>
 <p>Latvija 
-Auxilia Pharma OÜ 
+Auxilia Pharma O<br />
 Estija 
 Tel: +372 605 00 info@auxiliapharma.eu 
 United Kingdom (Northern Ireland) 

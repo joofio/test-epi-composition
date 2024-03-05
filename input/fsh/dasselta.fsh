@@ -4,7 +4,7 @@ Instance: composition-en-b8e0f0c67dccb3d602a95a4f091082dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for dasselta Package Leaflet"
 Description:  "Composition for dasselta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,9 +93,11 @@ sleep. </p>         </div>"""
 - if you are allergic to desloratadine, to any of the other ingredients of this medicine (listed in 
 section 6) or to loratadine. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Dasselta: 
-- if you have poor kidney function. 
-- if you have medical or familial history of seizures. </p>
+Talk to your doctor or pharmacist before taking Dasselta:</p>
+<ul>
+<li>if you have poor kidney function. </li>
+<li>if you have medical or familial history of seizures. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children less than 12 years of age. </p>
 <p>Other medicines and Dasselta 
@@ -119,8 +121,8 @@ established your own response to the medicinal product. </p>
 <p>Dasselta contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dasselta"
@@ -165,32 +167,36 @@ serious side effects, stop taking the medicine and seek urgent medical advice st
 fatigue, dry mouth and headache were reported more often than with a dummy tablet. In adolescents, 
 headache was the most commonly reported side effect. </p>
 <p>In clinical studies with desloratadine, the following side effects were reported as: </p>
-<p>Common (the following may affect up to 1 in 10 people): 
-- fatigue, 
-- dry mouth, 
-- headache. </p>
+<p>Common (the following may affect up to 1 in 10 people):</p>
+<ul>
+<li>fatigue, </li>
+<li>dry mouth, </li>
+<li>headache. </li>
+</ul>
 <p>Adults 
 During the marketing of desloratadine-containing products, the following side effects were reported 
 as: </p>
-<p>Very rare (the following may affect up to 1 in 10,000 people): 
-- severe allergic reactions, 
-- rash, 
-- pounding or irregular heartbeat, 
-- fast heartbeat, 
-- stomach ache, 
-- feeling sick (nausea), 
-- vomiting, 
-- upset stomach, 
-- diarrhoea, 
-- dizziness, 
-- drowsiness, 
-- inability to sleep, 
-- muscle pain, 
-- hallucinations, 
-- seizures, 
-- restlessness with increased body movement, 
-- liver inflammation, 
-- abnormal liver function tests. </p>
+<p>Very rare (the following may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>severe allergic reactions, </li>
+<li>rash, </li>
+<li>pounding or irregular heartbeat, </li>
+<li>fast heartbeat, </li>
+<li>stomach ache, </li>
+<li>feeling sick (nausea), </li>
+<li>vomiting, </li>
+<li>upset stomach, </li>
+<li>diarrhoea, </li>
+<li>dizziness, </li>
+<li>drowsiness, </li>
+<li>inability to sleep, </li>
+<li>muscle pain, </li>
+<li>hallucinations, </li>
+<li>seizures, </li>
+<li>restlessness with increased body movement, </li>
+<li>liver inflammation, </li>
+<li>abnormal liver function tests. </li>
+</ul>
 <p>Not known: frequency cannot be estimated from the available data 
 - unusual weakness, 
 - yellowing of the skin and/or eyes, 
@@ -238,38 +244,37 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is desloratadine. Each film-coated tablet contains 5 mg desloratadine. 
 - The other ingredients in the tablet core are: microcrystalline cellulose (E460), hypromellose 
 (E464), hydrochloric acid (E507) (for pH adjustment), sodium hydroxide (E524) (for pH 
-adjustment), maize starch, lactose monohydrate (see section 2 under »Dasselta contains lactose 
-and sodium«.) and talc (E553b). 
+adjustment), maize starch, lactose monohydrate (see section 2 under  Dasselta contains lactose 
+and sodium .) and talc (E553b). 
 - The other ingredients in the film-coating are: hypromellose (E464), macrogol, lactose 
-monohydrate (see section 2 under »Dasselta contains lactose and sodium«.), titanium dioxide 
+monohydrate (see section 2 under  Dasselta contains lactose and sodium .), titanium dioxide 
 (E171) and indigo carmine (E132). </p>
 <p>What Dasselta looks like and contents of the pack 
-Light blue, round, film-coated tablets with beveled edges (diameter: 6.5 mm, thickness: 2.3–3.5 mm). </p>
+Light blue, round, film-coated tablets with beveled edges (diameter: 6.5 mm, thickness: 2.3 3.5 mm). </p>
 <p>Dasselta is available in carton boxes of 7, 10, 20, 30, 50, 90 and 100 film-coated tablets in blisters and 
 in tablet container of 250 film-coated tablets. 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
-KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenia </p>
+KRKA, d.d., Novo mesto,  marje ka cesta 6, 8501 Novo mesto, Slovenia </p>
 <p>Manufacturer 
-KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenia 
-TAD Pharma GmbH, Heinz-Lohmann-Straße 5, 27472 Cuxhaven, Germany </p>
+KRKA, d.d., Novo mesto,  marje ka cesta 6, 8501 Novo mesto, Slovenia 
+TAD Pharma GmbH, Heinz-Lohmann-Stra e 5, 27472 Cuxhaven, Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 KRKA Belgium, SA. 
-Tél/Tel: + 32 (0) 487 50 73<br />
+T l/Tel: + 32 (0) 487 50 73<br />
 Lietuva 
 UAB KRKA Lietuva 
-Tel: + 370 5 236 27 България 
-КРКА България ЕООД 
-Teл.: + 359 (02) 962 34 Luxembourg/Luxemburg 
+Tel: + 370 5 236 27   </p>
+<p>Te .: + 359 (02) 962 34 Luxembourg/Luxemburg 
 KRKA Belgium, SA. 
-Tél/Tel: + 32 (0) 487 50 73 62 (BE) </p>
-<p>Česká republika 
-KRKA ČR, s.r.o. 
+T l/Tel: + 32 (0) 487 50 73 62 (BE) </p>
+<p>esk  republika 
+KRKA  R, s.r.o. 
 Tel: + 420 (0) 221 115<br />
-Magyarország 
-KRKA Magyarország Kereskedelmi Kft. 
+Magyarorsz g 
+KRKA Magyarorsz g Kereskedelmi Kft. 
 Tel.: + 36 (1) 355 8Danmark 
 KRKA Sverige AB 
 Tlf: + 46 (0)8 643 67 66 (SE) </p>
@@ -286,27 +291,26 @@ KRKA, d.d., Novo mesto Eesti filiaal
 Tel: + 372 (0) 6 671<br />
 Norge 
 KRKA Sverige AB 
-Tlf: + 46 (0)8 643 67 66 (SE) 
-Ελλάδα 
-KRKA ΕΛΛΑΣ ΕΠΕ 
-Τηλ: + 30 2100101 
-Österreich 
+Tlf: + 46 (0)8 643 67 66 (SE) </p>
+<p>KRKA   <br />
+ : + 30 2100101 
+ sterreich 
 KRKA Pharma GmbH, Wien 
 Tel: + 43 (0)1 66 24 300<br />
-España 
-KRKA Farmacéutica, S.L. 
+Espa a 
+KRKA Farmac utica, S.L. 
 Tel: + 34 911 61 03<br />
 Polska 
 KRKA-POLSKA Sp. z o.o. 
 Tel.: + 48 (0)22 573 7France 
 KRKA France Eurl 
-Tél: + 33 (0)1 57 40 82<br />
+T l: + 33 (0)1 57 40 82<br />
 Portugal 
-KRKA Farmacêutica, Sociedade Unipessoal Lda. 
+KRKA Farmac utica, Sociedade Unipessoal Lda. 
 Tel: + 351 (0)21 46 43 Hrvatska 
 KRKA - FARMA d.o.o. 
 Tel: + 385 1 6312<br />
-România 
+Rom nia 
 KRKA Romania S.R.L., Bucharest 
 Tel: + 4 021 310 66<br />
 Ireland 
@@ -314,9 +318,9 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3 
 Slovenija 
 KRKA, d.d., Novo mesto 
-Tel: + 386 (0) 1 47 51 Ísland 
+Tel: + 386 (0) 1 47 51  sland 
 LYFIS ehf. 
-Sími: + 354 534 3Slovenská republika 
+S mi: + 354 534 3Slovensk  republika 
 KRKA Slovensko, s.r.o. 
 Tel: + 421 (0) 2 571 04<br />
 Italia 
@@ -324,10 +328,9 @@ KRKA Farmaceutici Milano S.r.l.
 Tel: + 39 02 3300 8 
 Suomi/Finland 
 KRKA Finland Oy 
-Puh/Tel: + 358 20 754 5 
-Κύπρος 
-KI.PA. (PHARMACAL) LIMITED 
-Τηλ: + 357 24 651<br />
+Puh/Tel: + 358 20 754 5 </p>
+<p>KI.PA. (PHARMACAL) LIMITED 
+ : + 357 24 651<br />
 Sverige 
 KRKA Sverige AB 
 Tel: + 46 (0)8 643 67 66 (SE) 

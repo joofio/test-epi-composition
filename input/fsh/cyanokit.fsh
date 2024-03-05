@@ -4,7 +4,7 @@ Instance: composition-en-58c65c2882289cd285f1ea0608d4e9f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyanokit Package Leaflet"
 Description:  "Composition for cyanokit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How Cyanokit is used 
 4. Possible side effects 
 5. How Cyanokit is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -82,18 +81,18 @@ from household and industrial fires, breathing or swallowing cyanide, or contact
   * code.text = "2. What you need to know before you take cyanokit"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Warnings and precautions </p>
-<p>Tell your doctor or other health care professional<br />
- 
-if you are allergic to hydroxocobalamin or vitamin B12. They will have to take it into account 
-before treating you with Cyanokit. 
- 
-that you have been treated with Cyanokit if you need to have the following: 
-- any blood or urine tests. Cyanokit may modify the results of these tests. 
-- burn assessement. Cyanokit may interfere with the assessment as it causes red coloration of 
-the skin. 
-- haemodialysis. Cyanokit may lead to shut down of haemodialysis machines until it is 
+<p>Tell your doctor or other health care professional  </p>
+<p>if you are allergic to hydroxocobalamin or vitamin B12. They will have to take it into account 
+before treating you with Cyanokit. </p>
+<p>that you have been treated with Cyanokit if you need to have the following:</p>
+<ul>
+<li>any blood or urine tests. Cyanokit may modify the results of these tests. </li>
+<li>burn assessement. Cyanokit may interfere with the assessment as it causes red coloration of 
+the skin. </li>
+<li>haemodialysis. Cyanokit may lead to shut down of haemodialysis machines until it is 
 eliminated from the blood (at least 5.5 to 6.5 days). 
-monitoring of renal function: Cyanokit may lead to kidney failure and urine crystals. </p>
+monitoring of renal function: Cyanokit may lead to kidney failure and urine crystals. </li>
+</ul>
 <p>Other medicines and Cyanokit </p>
 <p>Tell your doctor or other health care professional if you are taking, have recently taken or might take 
 any other medicines. </p>
@@ -131,84 +130,54 @@ instructions'). </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects may be expected (frequency cannot be estimated from the available data):  </p>
 <p>Allergy (hypersensitivity) </p>
-<p>Tell your doctor immediately if you have the following symptoms during or after this treatment: 
- 
-swelling around the eyes, lips, tongue, throat or hands 
- 
-breathing difficulties, hoarseness, difficulty in speaking 
- 
-skin redness, nettle rash (urticaria) or itching. 
+<p>Tell your doctor immediately if you have the following symptoms during or after this treatment: </p>
+<p>swelling around the eyes, lips, tongue, throat or hands </p>
+<p>breathing difficulties, hoarseness, difficulty in speaking </p>
+<p>skin redness, nettle rash (urticaria) or itching. 
 Such side effects may be serious and need immediate attention. </p>
 <p>Heart and blood pressure problems </p>
-<p> 
-symptoms such as headache or dizziness, as they may be due to a rise in blood pressure. This 
+<p>symptoms such as headache or dizziness, as they may be due to a rise in blood pressure. This 
 rise in blood pressure especially occurs at the end of having this treatment and usually settles 
-down within several hours 
- 
-irregular heart beat 
- 
-redness of the face (flush). 
+down within several hours </p>
+<p>irregular heart beat </p>
+<p>redness of the face (flush). 
 A decrease in blood pressure and a faster heart beat have also been observed in patients who have 
 cyanide poisoning. </p>
 <p>Breathing and chest problems </p>
-<p> 
-fluid in the chest (pleural effusion) 
- 
-breathing difficulties 
- 
-a feeling of tightness in the throat<br />
- 
-dry throat </p>
-<p> 
-chest pressure. </p>
+<p>fluid in the chest (pleural effusion) </p>
+<p>breathing difficulties </p>
+<p>a feeling of tightness in the throat  </p>
+<p>dry throat </p>
+<p>chest pressure. </p>
 <p>Renal and urinary problems </p>
-<p> 
-kidney injuries such as acute kidney impairment and urine crystals.<br />
- 
-red colouration of the urine. 
+<p>kidney injuries such as acute kidney impairment and urine crystals.  </p>
+<p>red colouration of the urine. 
 All patients will show a dark red colouration of the urine quite marked during the first three days<br />
 following administration. Urine colouration may last up to 35 days after administration 
 of Cyanokit. This red colouration has no other consequences on your body. </p>
 <p>Gastrointestinal (digestive) problems </p>
-<p> 
-discomfort in your stomach 
- 
-indigestion 
- 
-diarrhoea 
- 
-feeling sick (nausea) 
- 
-being sick (vomiting) 
- 
-difficulty in swallowing. </p>
+<p>discomfort in your stomach </p>
+<p>indigestion </p>
+<p>diarrhoea </p>
+<p>feeling sick (nausea) </p>
+<p>being sick (vomiting) </p>
+<p>difficulty in swallowing. </p>
 <p>Eye problems </p>
-<p> 
-swelling, irritation, redness. </p>
+<p>swelling, irritation, redness. </p>
 <p>Skin reactions </p>
-<p> 
-most patients will experience a reversible red colouration of the skin and membranes lining 
-body cavities (mucous membranes) that may last up to 15 days after administration of Cyanokit. 
- 
-blister-like lesions on the skin (pustular rashes). These may last for several weeks, and affect 
-mainly the face and the neck. 
- 
-inflammation in the part of the body where the medicine was infused. </p>
+<p>most patients will experience a reversible red colouration of the skin and membranes lining 
+body cavities (mucous membranes) that may last up to 15 days after administration of Cyanokit. </p>
+<p>blister-like lesions on the skin (pustular rashes). These may last for several weeks, and affect 
+mainly the face and the neck. </p>
+<p>inflammation in the part of the body where the medicine was infused. </p>
 <p>Other side effects </p>
-<p> 
-restlessness 
- 
-problems with memory 
- 
-dizziness 
- 
-headache 
- 
-swelling of ankles 
- 
-changes in the results of blood tests for certain white blood cells (lymphocytes) 
- 
-coloured plasma, which may cause artificial elevation or reduction in the levels of certain 
+<p>restlessness </p>
+<p>problems with memory </p>
+<p>dizziness </p>
+<p>headache </p>
+<p>swelling of ankles </p>
+<p>changes in the results of blood tests for certain white blood cells (lymphocytes) </p>
+<p>coloured plasma, which may cause artificial elevation or reduction in the levels of certain 
 laboratory parameters. </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -224,15 +193,12 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial, the cardboard box and the 
 carton after EXP. </p>
-<p>Do not store above 25°C. </p>
+<p>Do not store above 25 C. </p>
 <p>For the purpose of ambulatory use, Cyanokit may be exposed during short periods to the temperature 
-variations of 
- 
-usual transport (15 days submitted to temperatures ranging from 5 to 40°C) 
- 
-transport in the desert (4 days submitted to temperatures ranging from 5 to 60°C) and 
- 
-freezing/defrosting cycles (15 days submitted to temperatures ranging from -20 to 40°C). </p>
+variations of </p>
+<p>usual transport (15 days submitted to temperatures ranging from 5 to 40 C) </p>
+<p>transport in the desert (4 days submitted to temperatures ranging from 5 to 60 C) and </p>
+<p>freezing/defrosting cycles (15 days submitted to temperatures ranging from -20 to 40 C). </p>
 <p>For storage conditions of the reconstituted medicine, see 'Handling instructions' at the end of this 
 package leaflet. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -245,12 +211,10 @@ throw away medicines no longer used. These measures will help protect the enviro
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cyanokit contains </p>
-<p> 
-The active substance is hydroxocobalamin. Each vial contains 2.5 g of hydroxocobalamin. 
+<p>The active substance is hydroxocobalamin. Each vial contains 2.5 g of hydroxocobalamin. 
 After reconstitution with 100 mL of diluent, each mL of the reconstituted solution contains 
-25 mg of hydroxocobalamin. 
- 
-The other ingredient is hydrochloric acid (for pH adjustment). </p>
+25 mg of hydroxocobalamin. </p>
+<p>The other ingredient is hydrochloric acid (for pH adjustment). </p>
 <p>What Cyanokit looks like and contents of the pack </p>
 <p>Cyanokit powder for solution for infusion is a dark red crystalline powder supplied in a glass vial 
 closed with bromobutyl rubber stopper and an aluminium cap with a plastic lid. </p>
@@ -262,7 +226,7 @@ Avenue Louise 480<br />
 1050 Brussels 
 Belgium </p>
 <p>Manufacturer </p>
-<p>Merck Santé s.a.s. / SEMOY 
+<p>Merck Sant  s.a.s. / SEMOY 
 2, rue du Pressoir Vert 
 45400 Semoy 
 France </p>

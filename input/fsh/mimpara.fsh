@@ -4,7 +4,7 @@ Instance: composition-en-168192a0c6d5270d5bcdb3cfa6cdd926
 InstanceOf: CompositionUvEpi
 Title: "Composition for mimpara Package Leaflet"
 Description:  "Composition for mimpara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,7 +83,7 @@ hyperparathyroidism when removal of the gland is not possible. </p>
 dialysis to clear their blood of waste products, whose condition is not controlled with other 
 treatments. </p>
 <p>In primary and secondary hyperparathyroidism too much PTH is produced by the parathyroid glands. 
-“Primary” means that the hyperparathyroidism is not caused by any other condition and “secondary” 
+ Primary  means that the hyperparathyroidism is not caused by any other condition and  secondary<br />
 means that the hyperparathyroidism is caused by another condition, e.g. kidney disease. Both primary 
 and secondary hyperparathyroidism can cause the loss of calcium in the bones, which can lead to bone 
 pain and fractures, problems with blood and heart vessels, kidney stones, mental illness and coma. </p>         </div>"""   
@@ -113,8 +113,14 @@ around your mouth or seizures, confusion or loss of consciousness while being tr
 <p>Low calcium levels can have an effect on your heart rhythm. Tell your doctor if you experience an 
 unusually fast or pounding heartbeat, if you have heart rhythm problems, or if you take medicines 
 known to cause heart rhythm problems, while taking Mimpara.  </p>
-<p>For additional information see section 4.<br />
-During treatment with Mimpara, tell your doctor: 
+<p>For additional information see section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mimpara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mimpara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During treatment with Mimpara, tell your doctor: 
 * if you start or stop smoking, as this may affect the way Mimpara works. </p>
 <p>Children and adolescents 
 Children under the age of 18 with parathyroid cancer or primary hyperparathyroidism must not take 
@@ -156,12 +162,13 @@ Dizziness and seizures have been reported by patients taking Mimpara. If you exp
 effects, do not drive or operate machines. </p>
 <p>Mimpara contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""   
-                    
+before taking this medicinal product. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take mimpara"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take mimpara"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are unsure. Your doctor will tell you how much Mimpara you must take. </p>
@@ -183,13 +190,12 @@ of overdose include numbness or tingling around the mouth, muscle aches or cramp
 <p>If you forget to take Mimpara 
 Do not take a double dose to make up for a forgotten dose.  </p>
 <p>If you have forgotten a dose of Mimpara, you should take your next dose as normal. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store mimpara"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store mimpara"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Please tell your doctor immediately:   </p>
@@ -219,7 +225,7 @@ in swallowing or breathing (angioedema). </li>
 * cough 
 * indigestion (dyspepsia) 
 * diarrhoea 
-* abdominal pain, abdominal pain – upper 
+* abdominal pain, abdominal pain   upper 
 * constipation 
 * muscle spasms 
 * back pain 
@@ -238,10 +244,11 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store mimpara"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mimpara"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
@@ -251,143 +258,4 @@ refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Mimpara contains 
-- The active substance is cinacalcet. Each film-coated tablet contains 30 mg, 60 mg or 90 mg of 
-cinacalcet (as hydrochloride).<br />
-- The other ingredients are: 
-* Pre-gelatinised maize starch 
-* Microcrystalline cellulose 
-* Povidone 
-* Crospovidone 
-* Magnesium stearate 
-* Colloidal anhydrous silica  </p>
-<ul>
-<li>The tablets are coated with: </li>
-<li>Carnauba wax </li>
-<li>Opadry green (containing lactose monohydrate, hypromellose, titanium dioxide (E171), 
-glycerol triacetate, FD&amp;C Blue (E132), iron oxide yellow (E172)) </li>
-<li>Opadry clear (containing hypromellose, macrogol) </li>
-</ul>
-<p>What Mimpara looks like and contents of the pack 
-Mimpara is a light green film-coated tablet. They are oval-shaped and have “30”, “60” or “90” marked 
-on one side and “AMG” on the other side.  </p>
-<p>30 mg tablets are approximately 9.7 mm long and 6.0 mm wide. 
-60 mg tablets are approximately 12.2 mm long and 7.6 mm wide. 
-90 mg tablets are approximately 13.9 mm long and 8.7 mm wide. </p>
-<p>Mimpara is available in blisters of 30 mg, 60 mg or 90 mg film-coated tablets. Each blister pack 
-contains either 14, 28 or 84 tablets in a carton. 
-Mimpara is available in bottles of 30 mg, 60 mg or 90 mg film-coated tablets, inside a carton. Each 
-bottle holds 30 tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Amgen Europe B.V. 
-Minervum 7061<br />
-4817 ZK Breda 
-The Netherlands </p>
-<p>Marketing Authorisation Holder 
-Amgen Europe B.V. 
-Minervum 7061<br />
-4817 ZK Breda 
-The Netherlands </p>
-<p>Manufacturer 
-Amgen NV 
-Telecomlaan 5-7 
-1831 Diegem 
-Belgium  </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
-Lietuva 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
-s.a. Amgen<br />
-Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
-Amgen s.r.o. 
-Tel: +420 221 773 Magyarország 
-Amgen Kft. 
-Tel.: +36 1 35 44 Danmark 
-Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
-Amgen B.V. 
-The Netherlands 
-Tel: +31 (0)76 5732 
-Deutschland 
-AMGEN GmbH 
-Tel.: +49 89 1490 
-Nederland 
-Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +372 586 09Norge 
-Amgen AB 
-Tel: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
-Τηλ.: +30 210 3447 
-Österreich 
-Amgen GmbH<br />
-Tel: +43 (0)1 50<br />
-España 
-Amgen S.A. 
-Tel: +34 93 600 18 60  </p>
-<p>Polska 
-Amgen Biotechnologia Sp. z o.o. 
-Tel.: +48 22 581 3 
-France 
-Amgen S.A.S. 
-Tél: +33 (0)9 69 363 Portugal 
-Amgen Biofarmacêutica, Lda. 
-Tel: +351 21 4220 
-Hrvatska 
-Amgen d.o.o. 
-Tel: +385 (0)1 562 57 România 
-Amgen România SRL 
-Tel: +4021 527 3 
-Ireland 
-Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
-AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1 
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114<br />
-Italia 
-Amgen S.r.l. 
-Tel: +39 02 6241Suomi/Finland 
-Amgen AB, sivuliike Suomessa/Amgen AB, filial 
-i Finland 
-Puh/Tel: +358 (0)9 54900 
-Kύπρος 
-C.A. Papaellinas Ltd 
-Τηλ.: +357 22741 Sverige 
-Amgen AB<br />
-Tel: +46 (0)8 6951 
-Latvija 
-Amgen Switzerland AG Rīgas filiāle 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
-Amgen Limited 
-Tel: +44 (0)1223 420 
-This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

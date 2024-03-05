@@ -4,7 +4,7 @@ Instance: composition-en-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
 InstanceOf: CompositionUvEpi
 Title: "Composition for nilemdo Package Leaflet"
 Description:  "Composition for nilemdo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What nilemdo is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Nilemdo is and how it works </p>
-<p>Nilemdo is a medicine that lowers levels of ‘bad’ cholesterol (also called “LDL-cholesterol”), a type 
+<p>Nilemdo is a medicine that lowers levels of  bad  cholesterol (also called  LDL-cholesterol ), a type 
 of fat, in the blood. </p>
 <p>Nilemdo contains the active substance bempedoic acid, which is inactive until it enters the liver where 
 it is changed to its active form. Bempedoic acid decreases the production of cholesterol in the liver and 
@@ -145,8 +145,8 @@ milk. </li>
 <p>Nilemdo contains lactose and sodium </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nilemdo"
@@ -163,10 +163,10 @@ or pharmacist if you are not sure. </p>
 <p>If you notice that you forgot: 
 * a dose late in a day, take the missed dose and take the next dose at your regular time the next 
 day. 
-* the previous day’s dose, take your tablet at the regular time and do not make up for the forgotten 
+* the previous day s dose, take your tablet at the regular time and do not make up for the forgotten 
 dose. </p>
 <p>If you stop taking Nilemdo </p>
-<p>Do not stop taking Nilemdo without your doctor’s permission as your cholesterol may rise again. </p>
+<p>Do not stop taking Nilemdo without your doctor s permission as your cholesterol may rise again. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -214,11 +214,15 @@ throw away medicines you no longer use. These measures will help protect the env
 <ul>
 <li>The active substance is bempedoic acid. Each film-coated tablet contains 180 mg of bempedoic 
 acid. </li>
-<li>The other ingredients are: </li>
-<li>lactose monohydrate (see end of section 2 under ‘Nilemdo contains lactose and sodium’) </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>lactose monohydrate (see end of section 2 under  Nilemdo contains lactose and sodium ) </p>
+</li>
 <li>microcrystalline cellulose (E460) </li>
-<li>sodium starch glycolate (Type A grade) (see end of section 2 under ‘Nilemdo contains 
-lactose and sodium’) </li>
+<li>sodium starch glycolate (Type A grade) (see end of section 2 under  Nilemdo contains 
+lactose and sodium ) </li>
 <li>hydroxypropyl cellulose (E463) </li>
 <li>magnesium stearate (E470b) </li>
 <li>silica, colloidal anhydrous (E551) </li>
@@ -226,8 +230,8 @@ lactose and sodium’) </li>
 macrogol/PEG (E1521) </li>
 </ul>
 <p>What Nilemdo looks like and contents of the pack </p>
-<p>Film-coated tablets are white to off-white, oval, debossed with “180” on one side and “ESP” on the 
-other side. Tablet dimensions: 13.97 mm × 6.60 mm × 4.80 mm. </p>
+<p>Film-coated tablets are white to off-white, oval, debossed with  180  on one side and  ESP  on the 
+other side. Tablet dimensions: 13.97 mm   6.60 mm   4.80 mm. </p>
 <p>Nilemdo is supplied in plastic/aluminium blisters in cartons of 10, 14, 28, 30, 84, 90, 98 or 100 film-
 coated tablets or unit dose blisters in cartons of 10 x 1, 50 x 1 or 100 x 1 film-coated tablets. </p>
 <p>Not all pack sizes may be marketed in your country. </p>
@@ -242,19 +246,18 @@ Luitpoldstrasse 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Daiichi Sankyo Belgium N.V.-S.A 
-Tél/Tel: +32-(0) 2 227 18 Lietuva 
+T l/Tel: +32-(0) 2 227 18 Lietuva 
 Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 
-България 
-Daiichi Sankyo Europe GmbH 
-тел.: +49-(0) 89 7808 0 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Daiichi Sankyo Europe GmbH 
+ .: +49-(0) 89 7808 0 
 Luxembourg/Luxemburg 
 Daiichi Sankyo Belgium N.V.-S.A 
-Tél/Tel: +32-(0) 2 227 18 Česká republika 
+T l/Tel: +32-(0) 2 227 18  esk  republika 
 Zentiva, k.s. 
-Tel: +420 267 241 Magyarország 
+Tel: +420 267 241 Magyarorsz g 
 Daiichi Sankyo Europe GmbH 
 Tel.: +49-(0) 89 7808 0 
 Danmark 
@@ -273,26 +276,25 @@ Daiichi Sankyo Europe GmbH
 Tel: +49-(0) 89 7808 0 
 Norge 
 Daiichi Sankyo Europe GmbH 
-Tlf: +49-(0) 89 7808 0 
-Ελλάδα 
-Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 
-Österreich 
+Tlf: +49-(0) 89 7808 0 </p>
+<p>Daiichi Sankyo Europe GmbH 
+ : +49-(0) 89 7808 0 
+ sterreich 
 Daiichi Sankyo Austria GmbH 
 Tel: +43 (0) 1 485 86 42 0 
-España 
-Daiichi Sankyo España, S.A. 
+Espa a 
+Daiichi Sankyo Espa a, S.A. 
 Tel: +34 91 539 99 Polska 
 Daiichi Sankyo Europe GmbH 
 Tel.: +49-(0) 89 7808 0 
 France 
 Daiichi Sankyo France S.A.S. 
-Tél: +33 (0) 1 55 62 14 Portugal 
+T l: +33 (0) 1 55 62 14 Portugal 
 Daiichi Sankyo Portugal, Unip. LDA 
 Tel: +351 21 4232Hrvatska 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
-România 
+Rom nia 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
 Ireland 
@@ -300,19 +302,18 @@ Daiichi Sankyo Ireland Ltd
 Tel: +353-(0) 1 489 3Slovenija 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 
-Ísland 
+ sland 
 Daiichi Sankyo Europe GmbH 
-Sími: +49-(0) 89 7808 0 
-Slovenská republika 
+S mi: +49-(0) 89 7808 0 
+Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3Italia 
 Daiichi Sankyo Italia S.p.A. 
 Tel: +39-06 85 2Suomi/Finland 
 Daiichi Sankyo Europe GmbH 
-Puh/Tel: +49-(0) 89 7808 0 
-Κύπρος 
-Daiichi Sankyo Europe GmbH 
-Τηλ: +49-(0) 89 7808 0 
+Puh/Tel: +49-(0) 89 7808 0 </p>
+<p>Daiichi Sankyo Europe GmbH 
+ : +49-(0) 89 7808 0 
 Sverige 
 Daiichi Sankyo Europe GmbH 
 Tel: +49-(0) 89 7808 0 

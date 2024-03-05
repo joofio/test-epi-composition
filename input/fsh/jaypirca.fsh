@@ -4,7 +4,7 @@ Instance: composition-en-9a16b5df102d6654330372efbbb3de36
 InstanceOf: CompositionUvEpi
 Title: "Composition for jaypirca Package Leaflet"
 Description:  "Composition for jaypirca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,10 +69,10 @@ Usage: #example
   * code.text =  "1. What jaypirca is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jaypirca is a cancer medicine that contains the active substance pirtobrutinib. It belongs to a class of 
-medicines called Bruton’s tyrosine kinase (BTK) inhibitors.  </p>
+medicines called Bruton s tyrosine kinase (BTK) inhibitors.  </p>
 <p>It is used on its own (monotherapy) to treat mantle cell lymphoma (MCL) in adult patients who have 
 been previously treated with another BTK inhibitor. MCL is an aggressive (fast growing) cancer of a 
-type of white blood cell called B-cells. B-cells are part of the immune system (the body’s natural 
+type of white blood cell called B-cells. B-cells are part of the immune system (the body s natural 
 defences). This medicine is used when the cancer has come back (relapsed), or treatment has not 
 worked (refractory).  </p>
 <p>How Jaypirca works 
@@ -96,7 +96,7 @@ Talk to your doctor, pharmacist or nurse before taking Jaypirca:
 (infections seen in patients with a weakened immune system). Your doctor may give you 
 medicines to treat or prevent infections. 
 * If you have or ever had unusual bruising or bleeding or are on any medicines or supplements 
-that could increase your risk of bleeding. See section “Other medicines and Jaypirca” below. 
+that could increase your risk of bleeding. See section  Other medicines and Jaypirca  below. 
 * If you recently had low counts of red blood cells (anaemia), neutrophils (a type of white blood 
 cell that fights infections) or platelets (components that help the blood to clot) . 
 * If you have recently had any surgery or are planning to have surgery. Your doctor may ask you 
@@ -169,7 +169,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.  </p>
 <p>Jaypirca contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 200 mg daily dose, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jaypirca"
@@ -208,7 +208,7 @@ scheduled usual time. </p>
 <p>Stop taking Jaypirca and tell a doctor right away if you notice any of the following<br />
 side effects: </p>
 <ul>
-<li>itchy bumpy rash, difficulty breathing, swelling of your face, lips, tongue or throat – you may 
+<li>itchy bumpy rash, difficulty breathing, swelling of your face, lips, tongue or throat   you may 
 be having an allergic reaction to the medicine. </li>
 </ul>
 <p>Contact your doctor immediately if you experience any of the following side effects: 
@@ -266,16 +266,18 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Jaypirca contains<br />
 The active substance is pirtobrutinib. Each film-coated tablet contains 50 or 100 mg pirtobrutinib.<br />
-The other ingredients are: 
-- Tablet core: hypromellose acetate succinate; cellulose, microcrystalline; lactose monohydrate (see 
-section 2 “Jaypirca contains lactose”); croscarmellose sodium (see section 2 “Jaypirca contains 
-sodium”); magnesium stearate; silica, colloidal hydrated. 
-- Tablet film-coat: hypromellose; titanium dioxide; triacetin; indigo carmine (E132). </p>
+The other ingredients are:</p>
+<ul>
+<li>Tablet core: hypromellose acetate succinate; cellulose, microcrystalline; lactose monohydrate (see 
+section 2  Jaypirca contains lactose ); croscarmellose sodium (see section 2  Jaypirca contains 
+sodium ); magnesium stearate; silica, colloidal hydrated. </li>
+<li>Tablet film-coat: hypromellose; titanium dioxide; triacetin; indigo carmine (E132). </li>
+</ul>
 <p>What Jaypirca looks like and contents of the pack 
 Jaypirca 50 mg is supplied as a blue, arc-triangle shaped film-coated tablet (tablet) debossed with 
-“Lilly 50” on one side and “6902” on the other side. It is available in blister packs of 28, 30 or 
+ Lilly 50  on one side and  6902  on the other side. It is available in blister packs of 28, 30 or 
 84 film-coated tablets. </p>
-<p>Jaypirca 100 mg is supplied as a blue, round tablet debossed with “Lilly 100” on one side and “7026” 
+<p>Jaypirca 100 mg is supplied as a blue, round tablet debossed with  Lilly 100  on one side and  7026<br />
 on the other side. It is available in blister packs of 28, 30, 56, 60, 84 or 168 film-coated tablets. </p>
 <p>Not all the pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
@@ -290,23 +292,22 @@ Avda. de la Industria 30,<br />
 Madrid, Spain. </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V.<br />
-Tél/Tel: + 32-(0)2 548 84 84<br />
+T l/Tel: + 32-(0)2 548 84 84<br />
 Lietuva 
 Eli Lilly Lietuva<br />
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България<br />
-тел. + 359 2 491 41 40  </p>
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . -  <br />
+ . + 359 2 491 41 40  </p>
 <p>Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V.<br />
-Tél/Tel: + 32-(0)2 548 84 84<br />
-Česká republika 
-ELI LILLY ČR, s.r.o.<br />
+T l/Tel: + 32-(0)2 548 84 84<br />
+ esk  republika 
+ELI LILLY  R, s.r.o.<br />
 Tel: + 420 234 664 <br />
-Magyarország 
-Lilly Hungária Kft.<br />
+Magyarorsz g 
+Lilly Hung ria Kft.<br />
 Tel: + 36 1 328 5100<br />
 Danmark 
 Eli Lilly Danmark A/S<br />
@@ -325,24 +326,25 @@ Eli Lilly Nederland B.V.<br />
 Tel: +372 6 817 280  </p>
 <p>Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 00<br />
-Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4600<br />
-Österreich 
+Tlf: + 47 22 88 18 00  </p>
+<ul>
+<li>. . . .<br />
+ : +30 210 629 4600<br />
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
 Tel: + 43-(0) 1 711<br />
-España 
+Espa a 
 Lilly S.A.<br />
-Tel: + 34-91 663 50 00  </p>
+Tel: + 34-91 663 50 00  </li>
+</ul>
 <p>Polska 
 Eli Lilly Polska Sp. z o.o.<br />
 Tel: +48 22 440 33 00<br />
 France 
 Lilly France<br />
-Tél: +33-(0) 1 55 49 34 34  </p>
+T l: +33-(0) 1 55 49 34 34  </p>
 <p>Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda<br />
+Lilly Portugal Produtos Farmac uticos, Lda<br />
 Tel: + 351-21-4126600<br />
 Hrvatska 
 Eli Lilly Hrvatska d.o.o.<br />
@@ -350,16 +352,16 @@ Tel: +385 1 2350 999  </p>
 <p>Ireland 
 Eli Lilly and Company (Ireland) Limited<br />
 Tel: + 353-(0) 1 661 4377  </p>
-<p>România 
-Eli Lilly România S.R.L.<br />
+<p>Rom nia 
+Eli Lilly Rom nia S.R.L.<br />
 Tel: + 40 21 4023000  </p>
 <p>Slovenija 
-Eli Lilly farmacevtska družba, d.o.o.<br />
+Eli Lilly farmacevtska dru ba, d.o.o.<br />
 Tel: +386 (0)1 580 00 10<br />
-Ísland 
+ sland 
 Icepharma hf.<br />
-Sími + 354 540 8000<br />
-Slovenská republika 
+S mi + 354 540 8000<br />
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o.<br />
 Tel: + 421 220 663<br />
 Italia 
@@ -368,20 +370,19 @@ Tel: + 39- 055 42571<br />
 Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
 Puh/Tel: + 358-(0) 9 85 45 250  </p>
-<p>Κύπρος 
-Phadisco Ltd<br />
-Τηλ: +357 22 715000  </p>
+<p>Phadisco Ltd<br />
+ : +357 22 715000  </p>
 <p>Sverige 
 Eli Lilly Sweden AB<br />
 Tel: + 46-(0) 8 7378800<br />
 Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364000  </p>
 <p>United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited<br />
 Tel: + 353-(0) 1 661 4 </p>
 <p>This leaflet was last revised in.  </p>
-<p>This medicine has been given ‘conditional approval’. 
+<p>This medicine has been given  conditional approval . 
 This means that there is more evidence to come about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

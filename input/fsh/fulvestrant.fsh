@@ -4,7 +4,7 @@ Instance: composition-en-d843c48300874227785506f7092e03c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for fulvestrant Package Leaflet"
 Description:  "Composition for fulvestrant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,8 +68,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What fulvestrant is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fulvestrant Mylan is and what it is used for </p>
-<p>Fulvestrant Mylan contains the active substance fulvestrant, which belongs to the group of estrogen 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fulvestrant Mylan contains the active substance fulvestrant, which belongs to the group of estrogen 
 blockers. Estrogens, a type of female sex hormones, can in some cases be involved in the growth 
 of breast cancer.  </p>
 <p>Fulvestrant Mylan is used either:<br />
@@ -98,12 +97,14 @@ section 6)
 - if you have severe liver problems </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist or nurse before using Fulvestrant Mylan if any of these apply to 
-you: 
-- kidney or liver problems 
-- low numbers of platelets (which help blood clotting) or bleeding disorders<br />
-- previous problems with blood clots 
-- osteoporosis (loss of bone density) 
-- alcoholism </p>
+you:</p>
+<ul>
+<li>kidney or liver problems </li>
+<li>low numbers of platelets (which help blood clotting) or bleeding disorders  </li>
+<li>previous problems with blood clots </li>
+<li>osteoporosis (loss of bone density) </li>
+<li>alcoholism </li>
+</ul>
 <p>Children and adolescents 
 Fulvestrant Mylan is not indicated in children and adolescents under 18 years. </p>
 <p>Other medicines and Fulvestrant Mylan </p>
@@ -214,14 +215,14 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton or syringe labels after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2°C - 8°C).  </p>
-<p>Temperature excursions outside 2°C - 8°C should be limited and not exceeding a 28 day period 
-where the average storage temperature for the product is below 25°C (but above 2°C - 8°C). 
+<p>Store and transport refrigerated (2 C - 8 C).  </p>
+<p>Temperature excursions outside 2 C - 8 C should be limited and not exceeding a 28 day period 
+where the average storage temperature for the product is below 25 C (but above 2 C - 8 C). 
 After temperature excursions, the product should be returned immediately to the recommended 
-storage conditions (store and transport in a refrigerator 2°C - 8°C). Temperature excursions have 
+storage conditions (store and transport in a refrigerator 2 C - 8 C). Temperature excursions have 
 a cumulative effect on the product quality and the 28 day time period must not be exceeded over 
-the duration of the shelf life of Fulvestrant Mylan. Exposure to temperatures below 2°C will not 
-damage the product providing it is not stored below – 20°C.  </p>
+the duration of the shelf life of Fulvestrant Mylan. Exposure to temperatures below 2 C will not 
+damage the product providing it is not stored below   20 C.  </p>
 <p>Keep the pre-filled syringe in the original package in order to protect from light. </p>
 <p>Your healthcare professional will be responsible for the correct storage, use and disposal of 
 Fulvestrant Mylan. </p>
@@ -238,10 +239,10 @@ longer use.  These measures will help protect the environment. </p>         </di
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fulvestrant Mylan contains<br />
 - The active substance is fulvestrant. Each pre-filled syringe (5 ml) contains 250 mg 
 fulvestrant. 
-- The other ingredients (excipients) are benzyl benzoate (see section 2 ‘Fulvestrant Mylan 
-contains benzyl benzoate’), benzyl alcohol (see section 2 ‘Fulvestrant Mylan contains benzyl 
-alcohol’), ethanol anhydrous (see section 2 ‘Fulvestrant Mylan contains 10% w/v alcohol 
-(ethanol)’), castor oil, refined. </p>
+- The other ingredients (excipients) are benzyl benzoate (see section 2  Fulvestrant Mylan 
+contains benzyl benzoate ), benzyl alcohol (see section 2  Fulvestrant Mylan contains benzyl 
+alcohol ), ethanol anhydrous (see section 2  Fulvestrant Mylan contains 10% w/v alcohol 
+(ethanol) ), castor oil, refined. </p>
 <p>What Fulvestrant Mylan looks like and contents of the pack 
 Fulvestrant Mylan is a clear, colourless to yellow, viscous solution in a pre-filled syringe fitted with 
 a tamper-evident closure, containing 5 ml solution for injection.<br />
@@ -267,21 +268,20 @@ Bad Homburg v. d. Hoehe
 Hessen, 61GERMANY </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tel/Tél: + 32 (0)2 658 61<br />
+Tel/T l: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB<br />
-Tel: +370 5 205 1България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
+Tel: +370 5 205 1  </p>
+<p>: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
 Viatris CZ s.r.o. 
 Tel: +420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft. 
 Tel.: + 36 1 465 2 
 Danmark 
@@ -298,29 +298,28 @@ Tel: +31 (0)20 426 3Eesti
 BGP Products Switzerland GmbH Eesti filiaal<br />
 Tel: + 372 6363 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33<br />
-Ελλάδα<br />
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ:  +30 210 993 6410  </p>
-<p>Österreich 
+Tlf: + 47 66 75 33  </p>
+<p>Generics Pharma Hellas  <br />
+ :  +30 210 993 6410  </p>
+<p>sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z.o.o. 
 Tel.: + 48 22 546 64  </p>
 <p>France 
-Viatris Santé 
-Tél: +33 4 37 25 75<br />
+Viatris Sant<br />
+T l: +33 4 37 25 75<br />
 Portugal 
 Mylan, Lda. 
 Tel: + 351 21 412 72<br />
 Hrvatska 
 Mylan Hrvatska d.o.o. 
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: + 40 372 579<br />
 Ireland 
@@ -329,20 +328,19 @@ Tel: +353 1 8711
 Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: + 354 540 8 
-Slovenská republika 
+S mi: + 354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Viatris Oy 
-Puh/Tel: + 358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd 
-Τηλ: + 357 2220 7 
+Puh/Tel: + 358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd 
+ : + 357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: + 46 (0)8 630 19<br />

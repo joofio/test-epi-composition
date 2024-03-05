@@ -4,7 +4,7 @@ Instance: composition-en-37418440f4ca23d5d0b03ff171fcb145
 InstanceOf: CompositionUvEpi
 Title: "Composition for synflorix Package Leaflet"
 Description:  "Composition for synflorix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Synflorix is a pneumococcal conjugate vaccine. Your doctor or nurse will inject your child with this 
 vaccine. </p>
 <p>It is used to help protect your child from 6 weeks up to 5 years of age against: 
-a bacteria called ‘Streptococcus pneumoniae’. This bacteria can cause serious illnesses including 
+a bacteria called  Streptococcus pneumoniae . This bacteria can cause serious illnesses including 
 meningitis, sepsis and bacteraemia (bacteria in blood stream) as well as ear infection or pneumonia. </p>
 <p>How Synflorix works </p>
 <p>Synflorix helps your body to make its own antibodies. The antibodies form a part of the immune 
@@ -90,7 +90,7 @@ system that will protect your child against these diseases. </p>         </div>"
 (listed in section 6). 
 Signs of an allergic reaction may include itchy skin rash, being short of breath and swelling of 
 the face or tongue. </li>
-<li>your child has a severe infection with a high temperature (over 38 °C). If this applies to your 
+<li>your child has a severe infection with a high temperature (over 38  C). If this applies to your 
 child then the vaccination will be postponed until your child is feeling better. A minor infection 
 such as a cold should not be a problem. However, talk to your doctor first. </li>
 </ul>
@@ -128,8 +128,8 @@ However if your child has received paracetamol before or immediately after Synfl
 obtained levels of antibodies may be slightly reduced. It is not known whether the reduction in 
 antibody levels has an impact on the protection against pneumococcal disease. </p>
 <p>Synflorix contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take synflorix"
@@ -176,14 +176,16 @@ and your doctor can talk about what steps need to be taken to protect your child
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects may happen with this medicine: </p>
 <p>Severe allergic reactions may very rarely occur (with up to 1 in 10,000 doses of the vaccine). These 
-can be recognised by: 
-- raised and itchy rash (hives) 
-- swelling, sometimes of the face or mouth (angioedema), causing difficulty in breathing 
-- collapse 
-These reactions will usually occur before leaving the doctor’s surgery. However, if your child gets any 
-of these symptoms you should contact a doctor urgently. </p>
+can be recognised by:</p>
+<ul>
+<li>raised and itchy rash (hives) </li>
+<li>swelling, sometimes of the face or mouth (angioedema), causing difficulty in breathing </li>
+<li>collapse 
+These reactions will usually occur before leaving the doctor s surgery. However, if your child gets any 
+of these symptoms you should contact a doctor urgently. </li>
+</ul>
 <p>Very common (these may occur with more than 1 in 10 doses of the vaccine): pain, redness and 
-swelling where the injection is given, high temperature of 38 °C or higher (fever), feeling sleepy, 
+swelling where the injection is given, high temperature of 38  C or higher (fever), feeling sleepy, 
 feeling irritable, loss of appetite. </p>
 <p>Common (these may occur with up to 1 in 10 doses of the vaccine): hardness where the injection is 
 given. </p>
@@ -217,7 +219,7 @@ safety of this medicine. </p>         </div>"""
 <ul>
 <li>Do not use this medicine after the expiry date which is stated on the carton. The expiry date 
 refers to the last day of that month. </li>
-<li>Store in a refrigerator (2 °C – 8 °C).  </li>
+<li>Store in a refrigerator (2  C   8  C).  </li>
 <li>Store in the original package in order to protect from light. </li>
 <li>Do not freeze. </li>
 </ul>
@@ -255,5 +257,29 @@ Pneumococcal polysaccharide serotype 19F1,4
 3 micrograms 
 Pneumococcal polysaccharide serotype 23F1,2 
 1 microgram  </p>
-<p>1 adsorbed on aluminium phosphate  </p>         </div>"""      
+<p>1 adsorbed on aluminium phosphate<br />
+0.5 milligram Al3+ in total </p>
+<p>2 conjugated to protein D (derived from non-typeable Haemophilus influenzae) carrier protein  </p>
+<p>9 16 micrograms </p>
+<p>3 conjugated to tetanus toxoid carrier protein 
+5 10 micrograms </p>
+<p>4 conjugated to diphtheria toxoid carrier protein 
+3 6 micrograms </p>
+<ul>
+<li>The other ingredients are sodium chloride (see section 2 for further information) and water for 
+injections  </li>
+</ul>
+<p>What Synflorix looks like and contents of the pack </p>
+<ul>
+<li>
+<p>Suspension for injection in pre-filled syringe. </p>
+</li>
+<li>
+<p>Synflorix is a turbid white suspension. </p>
+</li>
+<li>
+<p>Synflorix is available in 1-dose pre-filled syringe, with or without separate needles, pack sizes 
+of 1, 10 and 5</p>
+</li>
+</ul>         </div>"""      
 

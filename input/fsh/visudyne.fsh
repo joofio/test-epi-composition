@@ -4,7 +4,7 @@ Instance: composition-en-8a06156d853d45b0ba99d89b9f448d89
 InstanceOf: CompositionUvEpi
 Title: "Composition for visudyne Package Leaflet"
 Description:  "Composition for visudyne Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -124,19 +124,21 @@ doctor. </p>
 Tell your doctor, nurse or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Tell your doctor or pharmacist if you are taking any of the following medicines, as they may increase 
-your sensitivity to light: 
-- tetracyclines or sulphonamides (used to treat bacterial infection), 
-- phenothiazines (used to treat psychiatric disorders, or nausea and vomiting), 
-- sulfonylurea (used to treat diabetes), 
-- medicines used to lower blood sugar, 
-- thiazide diuretics (used to reduce high blood pressure), 
-- griseofulvin (used to treat fungal infection), 
-- calcium channel blockers (used to treat high blood pressure, angina and abnormal heart 
-rhythms), 
-- antioxidants such as beta-carotene or medicines that can remove or inactivate free radicals (such 
-as dimethylsulfoxide (DMSO), formate, mannitol and alcohol), 
-- vasodilators (used to widen blood vessels resulting from smooth muscle relaxation), 
-- or, if you are undergoing radiation therapy, </p>
+your sensitivity to light:</p>
+<ul>
+<li>tetracyclines or sulphonamides (used to treat bacterial infection), </li>
+<li>phenothiazines (used to treat psychiatric disorders, or nausea and vomiting), </li>
+<li>sulfonylurea (used to treat diabetes), </li>
+<li>medicines used to lower blood sugar, </li>
+<li>thiazide diuretics (used to reduce high blood pressure), </li>
+<li>griseofulvin (used to treat fungal infection), </li>
+<li>calcium channel blockers (used to treat high blood pressure, angina and abnormal heart 
+rhythms), </li>
+<li>antioxidants such as beta-carotene or medicines that can remove or inactivate free radicals (such 
+as dimethylsulfoxide (DMSO), formate, mannitol and alcohol), </li>
+<li>vasodilators (used to widen blood vessels resulting from smooth muscle relaxation), </li>
+<li>or, if you are undergoing radiation therapy, </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 - There is very little experience of using Visudyne in pregnant women. It is important to tell your 
 doctor if you are pregnant, if you think you may be pregnant or if you plan to become pregnant. 
@@ -168,7 +170,7 @@ administered by your doctor or nurse into a vein using a drip (intravenous infus
 <p>The second step is the activation of Visudyne in the eye 15 minutes after the start of the 
 infusion. Your doctor will put a special contact lens onto your eye and treat your eye using a 
 special laser. It takes 83 seconds to deliver the laser dose required to activate Visudyne. During 
-this time, you will have to follow your doctor’s instructions and keep your eyes still. </p>
+this time, you will have to follow your doctor s instructions and keep your eyes still. </p>
 </li>
 </ul>
 <p>If necessary, Visudyne therapy can be repeated every 3 months, up to 4 times per year. </p>
@@ -242,13 +244,13 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store visudyne"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and vial after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and vial after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. Keep the vial in the outer carton in order to protect from light. </p>
-<p>Chemical and physical in-use stability has been demonstrated for 4 hours at 25°C. From a 
+<p>Do not store above 25 C. Keep the vial in the outer carton in order to protect from light. </p>
+<p>Chemical and physical in-use stability has been demonstrated for 4 hours at 25 C. From a 
 microbiological point of view, the medicine should be used immediately. If not used immediately, the 
 in-use storage time and conditions prior to use are the responsibility of the user and would normally 
-not last longer than 4 hours below 25°C protected from light. </p>         </div>"""      
+not last longer than 4 hours below 25 C protected from light. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +291,7 @@ Visudyne be inspected visually for particulate matter and discoloration prior to
 dose of 6 mg/m2 body surface (the dose recommended for the treatment) dilute the required amount of 
 Visudyne solution in dextrose 50 mg/ml (5 %) solution for infusion to a final volume of 30 ml. Do not 
 use sodium chloride solution. Use of a standard infusion line filter with hydrophilic membranes (such 
-as polyethersulfone) of a pore size of not less than 1.2 μm is recommended. </p>
+as polyethersulfone) of a pore size of not less than 1.2  m is recommended. </p>
 <p>For storage conditions, please see section 5 of this leaflet. </p>
 <p>The vial and any unused portion of reconstituted solution should be discarded after single use. </p>
 <p>If material is spilled, it should be contained and wiped up with a damp cloth. Eye and skin contact 

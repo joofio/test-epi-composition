@@ -4,7 +4,7 @@ Instance: composition-en-0229c66f6a287008163b8e1f43423a91
 InstanceOf: CompositionUvEpi
 Title: "Composition for ciambra Package Leaflet"
 Description:  "Composition for ciambra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -117,8 +117,8 @@ before giving you CIAMBRA. </p>
 groups. </p>
 <p>Other medicines and CIAMBRA </p>
 <p>Please tell your doctor if you are taking any medicine for pain or inflammation (swelling), such as 
-medicines called “nonsteroidal anti-inflammatory drugs” (NSAIDs), including medicines purchased 
-without a doctor’s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
+medicines called  nonsteroidal anti-inflammatory drugs  (NSAIDs), including medicines purchased 
+without a doctor s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
 durations of activity. Based on the planned date of your infusion of CIAMBRA and/or on the status of 
 your kidney function, your doctor needs to advise you on which medicines you can take and when you 
 can take them. If you are unsure, ask your doctor or pharmacist if any of your medicines are NSAIDs. </p>
@@ -143,7 +143,7 @@ your therapy.  </p>
 <p>CIAMBRA may make you feel tired. Be careful when driving a car or using machines. </p>
 <p>CIAMBRA contains sodium </p>
 <p>CIAMBRA 100 mg contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
-‘sodium-free’. 
+ sodium-free . 
 CIAMBRA 500 mg contains 54 mg sodium (main component of cooking salt) in each vial. This 
 is equivalent to 2.7% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
                     
@@ -152,7 +152,7 @@ is equivalent to 2.7% of the recommended maximum daily dietary intake of sodium 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take ciambra"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose of CIAMBRA is 500 mg for every square metre of your body’s surface area. Your height 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose of CIAMBRA is 500 mg for every square metre of your body s surface area. Your height 
 and weight are measured to work out the surface area of your body. Your doctor will use this body 
 surface area to work out the right dose for you. This dose may be adjusted, or treatment may be 
 delayed depending on your blood cell counts and on your general condition. A hospital pharmacist, 
@@ -188,7 +188,7 @@ anticancer treatment. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You must contact your doctor immediately if you notice any of the following: 
-* Fever or infection: if you have a temperature of 38ºC or greater, sweating or other 
+* Fever or infection: if you have a temperature of 38 C or greater, sweating or other 
 signs of infection (since you might have less white blood cells than normal). Infection (sepsis) 
 may be severe and could lead to death. 
 * If you start feeling chest pain or having a fast heart rate. 
@@ -317,10 +317,10 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
-<p>Chemical and physical in-use stability of the infusion solution of pemetrexed was demonstrated for hours at 2°C-8°C or 15-25°C. The reconstituted solution should be used immediately to prepare the 
+<p>Chemical and physical in-use stability of the infusion solution of pemetrexed was demonstrated for hours at 2 C-8 C or 15-25 C. The reconstituted solution should be used immediately to prepare the 
 infusion solution. From a microbiological point of view, the infusion solution should be used 
 immediately. If not used immediately, in-use storage times and conditions prior to use are the 
-responsibility of the user and should not be longer than 24 hours at 2°C to 8°C or 15°C to 25°C.  </p>
+responsibility of the user and should not be longer than 24 hours at 2 C to 8 C or 15 C to 25 C.  </p>
 <p>This medicine is for single use only; any unused solution must be disposed of in accordance with local 
 requirement. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -344,7 +344,7 @@ hemipentahydrate). </p>
 provider is required prior to administration. </p>
 <ul>
 <li>The other ingredients are mannitol (E 421), hydrochloric acid (for pH adjustment) and sodium 
-hydroxide (for pH adjustment) (see section 2, “Ciambra contains sodium”). </li>
+hydroxide (for pH adjustment) (see section 2,  Ciambra contains sodium ). </li>
 </ul>
 <p>What CIAMBRA looks like and contents of the pack </p>
 <p>CIAMBRA is a powder for concentrate for solution for infusion in a vial. It is a white to almost white 
@@ -361,12 +361,12 @@ Luxembourg </p>
 <p>Manufacturer: 
 Oncotec Pharma Produktion GmbH 
 Am Pharmapark 
-06861 Dessau-Roßlau 
+06861 Dessau-Ro lau 
  Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: 
 AT A. Menarini Pharma GmbH Tel: +43 1 879 95 85-0 
-BE Menarini Benelux NV/SA Tél/Tel: + 32 (0)2 721 4BG Берлин-Хеми/А. Менарини България ЕООД Тел.: +359 2 454 0CY MENARINI HELLAS AE Τηλ: +30 210 8316111-CZ Berlin-Chemie/A.Menarini Ceska republika s.r.o. Tel: +420 267 199 DE Berlin-Chemie AG Tel: +49 (0) 30 67DK Berlin-Chemie/A.Menarini Danmark ApS Tlf: +4548 217 EE OÜ Berlin-Chemie Menarini Eesti Tel: +372 667 5ES Laboratorios Menarini S.A. Tel: +34-93 462 88 FI Berlin-Chemie/A.Menarini Suomi OY Puh/Tel: +358 403 000 FR MENARINI France Tél: +33 (0)1 45 60 77 GR MENARINI HELLAS AE Τηλ: +30 210 8316111-HR Berlin-Chemie Menarini Hrvatska d.o.o. Tel: + 385 1 4821 HU Berlin-Chemie/A. Menarini Kft. Tel.: +36 1799 7IE A. Menarini Pharmaceuticals Ltd Tel: +353 1 284 6IS Menarini International Operations Luxembourg S.A. Sími: +352 264IT A. Menarini Industrie Farmaceutiche Riunite s.r.l. Tel: +39-055 56LT UAB “BERLIN-CHEMIE MENARINI BALTIC” Tel: +370 52 691 LU Menarini Benelux NV/SA Tél/Tel: + 32 (0)2 721 4LV SIA Berlin-Chemie/Menarini Baltic Tel: +371 67103MT Menarini International Operations Luxembourg S.A. Tel: +352 264NO Menarini International Operations Luxembourg S.A. Tlf: +352 264NL Menarini Benelux NV/SA Tel: +32 (0)2 721 4PL Berlin-Chemie/Menarini Polska Sp. z o.o. Tel.: +48 22 566 21 PT A. Menarini Portugal – Farmacêutica, S.A. Tel: +351 210 935 RO Berlin-Chemie A.Menarini S.R.L. Tel: +40 21 232 34 SE Menarini International Operations Luxembourg S.A. Tel: +352 264SK Berlin-Chemie / A. Menarini Distribution Slovakia s.r.o.  Tel: +421 2 544 30 SI Berlin-Chemie / A. Menarini Distribution Ljubljana d.o.o. Tel: +386 01 300 2UK A. Menarini Farmaceutica Internazionale S.R.L. Tel: +44 (0)1628 856 </p>
+BE Menarini Benelux NV/SA T l/Tel: + 32 (0)2 721 4BG  - / .        .: +359 2 454 0CY MENARINI HELLAS AE  : +30 210 8316111-CZ Berlin-Chemie/A.Menarini Ceska republika s.r.o. Tel: +420 267 199 DE Berlin-Chemie AG Tel: +49 (0) 30 67DK Berlin-Chemie/A.Menarini Danmark ApS Tlf: +4548 217 EE O  Berlin-Chemie Menarini Eesti Tel: +372 667 5ES Laboratorios Menarini S.A. Tel: +34-93 462 88 FI Berlin-Chemie/A.Menarini Suomi OY Puh/Tel: +358 403 000 FR MENARINI France T l: +33 (0)1 45 60 77 GR MENARINI HELLAS AE  : +30 210 8316111-HR Berlin-Chemie Menarini Hrvatska d.o.o. Tel: + 385 1 4821 HU Berlin-Chemie/A. Menarini Kft. Tel.: +36 1799 7IE A. Menarini Pharmaceuticals Ltd Tel: +353 1 284 6IS Menarini International Operations Luxembourg S.A. S mi: +352 264IT A. Menarini Industrie Farmaceutiche Riunite s.r.l. Tel: +39-055 56LT UAB  BERLIN-CHEMIE MENARINI BALTIC  Tel: +370 52 691 LU Menarini Benelux NV/SA T l/Tel: + 32 (0)2 721 4LV SIA Berlin-Chemie/Menarini Baltic Tel: +371 67103MT Menarini International Operations Luxembourg S.A. Tel: +352 264NO Menarini International Operations Luxembourg S.A. Tlf: +352 264NL Menarini Benelux NV/SA Tel: +32 (0)2 721 4PL Berlin-Chemie/Menarini Polska Sp. z o.o. Tel.: +48 22 566 21 PT A. Menarini Portugal   Farmac utica, S.A. Tel: +351 210 935 RO Berlin-Chemie A.Menarini S.R.L. Tel: +40 21 232 34 SE Menarini International Operations Luxembourg S.A. Tel: +352 264SK Berlin-Chemie / A. Menarini Distribution Slovakia s.r.o.  Tel: +421 2 544 30 SI Berlin-Chemie / A. Menarini Distribution Ljubljana d.o.o. Tel: +386 01 300 2UK A. Menarini Farmaceutica Internazionale S.R.L. Tel: +44 (0)1628 856 </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

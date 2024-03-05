@@ -4,7 +4,7 @@ Instance: composition-en-eaeff7283270f9b7e51abc26d498e673
 InstanceOf: CompositionUvEpi
 Title: "Composition for nulibry Package Leaflet"
 Description:  "Composition for nulibry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,7 +84,7 @@ essential substance called cyclic pyranopterin monophosphate. When this substanc
 compounds (sulphites) formed in the body cannot be broken down. These compounds are toxic to the 
 brain and can negatively affect or delay the development of a child. </p>
 <p>How NULIBRY works 
-NULIBRY provides the missing substance that you or your child’s body needs to break down the 
+NULIBRY provides the missing substance that you or your child s body needs to break down the 
 harmful sulphite compounds. </p>         </div>"""   
           
 
@@ -111,7 +111,7 @@ It is unlikely that NULIBRY has an influence on or is influenced by other medici
 your doctor if your child is taking, has recently taken, or might take any other medicines. </p>
 <p>NULIBRY contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nulibry"
@@ -127,7 +127,7 @@ you in how to prepare the medicine and give you or your child a dose of NULIBRY.
 <p>Always use this medicine exactly as your doctor or nurse has instructed. Check with your doctor if you 
 or your child are not sure about how to use NULIBRY.  </p>
 <p>How much to use 
-The dose depends on your child’s age and body weight. You will need to give the dose once each day. 
+The dose depends on your child s age and body weight. You will need to give the dose once each day. 
 Your doctor will work out the dose you need to give. </p>
 <p>If you use more NULIBRY than you should 
 If you think you or your child may have been given more NULIBRY than prescribed, tell your doctor 
@@ -150,7 +150,7 @@ to the medicine. These may affect more than 1 in 10 people:
 * Catheter-related problems, such as pain, discharge, redness, or inflammation </p>
 <p>Complications related to catheter 
 You or your child will have an injection device (catheter-type device). This is used to inject medicines 
-into you or your child’s blood. You or your child may develop complications related to the catheter. 
+into you or your child s blood. You or your child may develop complications related to the catheter. 
 Please follow the instructions from your doctor or nurse on how to care for this device before and after 
 giving a dose of NULIBRY. </p>
 <p>Reporting of side effects 
@@ -168,10 +168,10 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
 <p>Unopened vial 
-Store in a freezer at -25 °C to -10 °C.<br />
+Store in a freezer at -25  C to -10  C.<br />
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Storage of the reconstituted (mixed) NULIBRY 
-Reconstituted NULIBRY may be stored at room temperature (15 °C-25 °C) or refrigerated (2 °C-8 °C) 
+Reconstituted NULIBRY may be stored at room temperature (15  C-25  C) or refrigerated (2  C-8  C) 
 for up to 4 hours including the time needed to give NULIBRY.  </p>
 <p>If reconstituted NULIBRY is refrigerated, allow it to come to room temperature (by rolling each vial 
 gently between your hands for 3 to 5 minutes (do not shake) or by leaving it at room temperature for 
@@ -196,7 +196,7 @@ you no longer use. These measures will help protect the environment. </p>       
 <li>The active substance is fosdenopterin 9.5 mg. Each vial contains fosdenopterin hydrobromide 
 dihydrate equivalent to 9.5 mg fosdenopterin. </li>
 <li>The other ingredients are: ascorbic acid (E300), mannitol (E421), sucrose, hydrochloric acid 
-(E507), sodium hydroxide (E524) (see section 2 “Nulibry contains sodium”). </li>
+(E507), sodium hydroxide (E524) (see section 2  Nulibry contains sodium ). </li>
 </ul>
 <p>What NULIBRY looks like and contents of the pack 
 NULIBRY is a white to pale yellow powder for solution for injection (powder for injection).  </p>
@@ -211,7 +211,7 @@ Millmount Healthcare Limited
 Block 7, City North Business Campus 
 Stamullen, Co. Meath, K32 YDIreland  </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

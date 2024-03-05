@@ -4,7 +4,7 @@ Instance: composition-en-cfcde91a66ec9c44e54756602bc42482
 InstanceOf: CompositionUvEpi
 Title: "Composition for libtayo Package Leaflet"
 Description:  "Composition for libtayo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -131,10 +131,10 @@ diabetes)
 * Inflammation of the heart muscle (myocarditis) 
 * A disease where the immune system makes too many of otherwise normal infection-
 fighting cells called histiocytes and lymphocytes that may cause various symptoms 
-(haemophagocytic lymphohistiocytosis) (see ‘Possible side effects’ for the list of signs and 
+(haemophagocytic lymphohistiocytosis) (see  Possible side effects  for the list of signs and 
 symptoms) 
-* Problems in other parts of the body (see ‘Possible side effects’) </p>
-<p>Look out for these side effects while you are receiving LIBTAYO. See ‘Possible side effects’ section 
+* Problems in other parts of the body (see  Possible side effects ) </p>
+<p>Look out for these side effects while you are receiving LIBTAYO. See  Possible side effects  section 
 in section 4. If you have any of these effects, talk to your doctor immediately.<br />
 Your doctor may give you other medicines in order to stop more severe reactions and reduce your 
 symptoms. Your doctor also may delay your next dose of LIBTAYO or stop your treatment. </p>
@@ -155,11 +155,9 @@ advice before you are given this medicine.
 * Tell your doctor immediately if you become pregnant while you are being treated with 
 LIBTAYO. 
 * If you are able to become pregnant, you must use an effective method of contraception to 
-avoid becoming pregnant: 
-− 
-while you are being treated with LIBTAYO and 
-− 
-for at least 4 months after the last dose. 
+avoid becoming pregnant: </p>
+<p>while you are being treated with LIBTAYO and </p>
+<p>for at least 4 months after the last dose. 
 * Talk to your doctor about the contraception methods that you must use during this time. </p>
 <p>Breast-feeding 
 * If you are breast-feeding or plan to breast-feed, ask your doctor for advice before you are 
@@ -176,11 +174,13 @@ not drive or use machines until you feel better.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take libtayo"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* LIBTAYO will be given to you in a hospital or clinic - supervised by a doctor experienced 
-in cancer treatment. 
-* LIBTAYO is given as a drip into a vein (intravenous infusion).<br />
-* The infusion will last about 30 minutes. 
-* LIBTAYO is usually given every 3 weeks. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>LIBTAYO will be given to you in a hospital or clinic - supervised by a doctor experienced 
+in cancer treatment. </li>
+<li>LIBTAYO is given as a drip into a vein (intravenous infusion).  </li>
+<li>The infusion will last about 30 minutes. </li>
+<li>LIBTAYO is usually given every 3 weeks. </li>
+</ul>
 <p>How much you will receive </p>
 <p>The recommended dose of LIBTAYO is 350 mg. </p>
 <p>Your doctor will decide how much LIBTAYO you will receive and how many treatments you will 
@@ -207,7 +207,7 @@ caregivers. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Your 
 doctor will discuss these with you and will explain the risks and benefits of your treatment. </p>
 <p>LIBTAYO acts on your immune system and may cause inflammation in parts of your body (see the 
-conditions listed in ‘Look out for side effects’ in section 2). Inflammation may cause serious damage 
+conditions listed in  Look out for side effects  in section 2). Inflammation may cause serious damage 
 to your body and may need treatment or require you to stop treatment with LIBTAYO. Some 
 inflammatory conditions may also lead to death. </p>
 <p>Seek urgent medical attention if you have any of the following signs or symptoms, or if they get 
@@ -240,23 +240,18 @@ usual, passing blood, swollen ankles and feeling less hungry than normal.<br />
 shaking or fever, itching or rash, flushing or swollen face, being short of breath or 
 wheezing, feeling dizzy or feel like passing out and back or neck pain, nausea, vomiting or 
 abdominal pain. 
-* Problems in other parts of the body such as: 
-− 
-Nervous system problems such as headache or stiff neck, fever, feeling tired or 
+* Problems in other parts of the body such as: </p>
+<p>Nervous system problems such as headache or stiff neck, fever, feeling tired or 
 weak, chills, vomiting, confusion, memory problems or feeling sleepy, fits (seizures), 
 seeing or hearing things that are not really there (hallucinations), severe muscle </p>
 <p>weakness, tingling, numbness, weakness or burning pain in arms or legs, paralysis in 
-the extremities 
-− 
-Muscle and joint problems such as joint pain or swelling, muscle pain, weakness or 
-stiffness 
-− 
-Eye problems such as changes in eyesight, eye pain or redness, sensitivity to light<br />
-− 
-Heart and circulatory problems such as changes in heartbeat, heart beating fast, 
-seeming to skip a beat or pounding sensation, chest pain, shortness of breath<br />
-− 
-Other: dryness in many parts of the body from mouth to eyes, nose, throat and the top 
+the extremities </p>
+<p>Muscle and joint problems such as joint pain or swelling, muscle pain, weakness or 
+stiffness </p>
+<p>Eye problems such as changes in eyesight, eye pain or redness, sensitivity to light  </p>
+<p>Heart and circulatory problems such as changes in heartbeat, heart beating fast, 
+seeming to skip a beat or pounding sensation, chest pain, shortness of breath  </p>
+<p>Other: dryness in many parts of the body from mouth to eyes, nose, throat and the top 
 layers of skin, bruises on the skin or bleeding, enlarged liver and/or spleen, lymph 
 node enlargement  </p>
 <p>The following side effects have been reported in clinical trials of patients treated with 
@@ -352,7 +347,7 @@ arms or legs<br />
 <li>weight loss  </li>
 <li>trouble sleeping  </li>
 <li>diarrhoea (loose stools)  </li>
-<li>low levels in the blood of a protein called ‘albumin’.  </li>
+<li>low levels in the blood of a protein called  albumin .  </li>
 </ul>
 <p>Common (may affect up to 1 in 10 people): 
 * abnormal kidney function test<br />
@@ -381,17 +376,17 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C to 8°C).  </p>
+<p>Store in a refrigerator (2 C to 8 C).  </p>
 <p>Do not freeze. </p>
 <p>Store in the original container in order to protect from light. </p>
 <p>From a microbiological point of view the prepared solution for infusion should be used immediately. If 
 diluted solution is not administered immediately, in-use storage times and conditions prior to use are 
 the responsibility of the user. </p>
 <p>Chemical and physical in-use stability has been demonstrated as follows:<br />
-* at room temperature up to 25°C for no more than 8 hours from the time of infusion 
+* at room temperature up to 25 C for no more than 8 hours from the time of infusion 
 preparation to the end of infusion. 
 Or 
-* under refrigeration at 2°C to 8°C for no more than 10 days from the time of infusion 
+* under refrigeration at 2 C to 8 C for no more than 10 days from the time of infusion 
 preparation to the end of infusion. Allow the diluted solution to come to room temperature 
 prior to administration. </p>
 <p>Do not store any unused portion of the infusion solution for re-use. Any unused portion of the infusion 
@@ -425,21 +420,20 @@ Limerick
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Regeneron Ireland DAC 
-Tél/Tel: 0800 89 
+T l/Tel: 0800 89 
 Lietuva 
 Medison Pharma Lithuania UAB 
-Tel: 8 800 33 
-България 
-Medison Pharma Bulgaria Ltd. 
-Тел.: 8002100 
+Tel: 8 800 33 </p>
+<p>Medison Pharma Bulgaria Ltd. 
+ .: 8002100 
 Luxembourg/Luxemburg 
 Regeneron Ireland DAC 
-Tél/Tel: 8007-9 
-Česká republika 
+T l/Tel: 8007-9 
+ esk  republika 
 Medison Pharma s.r.o. 
-Magyarország 
+Magyarorsz g 
 Medison Pharma Hungary Kft </p>
 <p>Tel: 800 050<br />
 Tel.: 06-809-93029  </p>
@@ -456,18 +450,18 @@ Tel.: 0800 330 4267  </p>
 Regeneron Ireland DAC 
 Tel: 0800 020 0943<br />
 Eesti 
-Medison Pharma Estonia OÜ 
+Medison Pharma Estonia O<br />
 Tel: 800 004 4845  </p>
 <p>Norge 
 Regeneron Ireland DAC 
 Tlf: 8003 15 33  </p>
-<p>Ελλάδα 
-ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε. 
-Τηλ: 00800 44146336  </p>
-<p>Österreich 
+<pre><code> . .
+</code></pre>
+<p>: 00800 44146336  </p>
+<p>sterreich 
 Regeneron Ireland DAC 
 Tel: 01206094 
-España 
+Espa a 
 sanofi-aventis, S.A.<br />
 Tel: 0900031 
 Polska 
@@ -475,14 +469,14 @@ Medison Pharma Sp. z o.o.
 Tel.: 0800 080<br />
 France 
 Regeneron France SAS 
-Tél: 080 554 3 
+T l: 080 554 3 
 Portugal 
 Regeneron Ireland DAC 
 Tel: 800783 
 Hrvatska<br />
 Medison Pharma d.o.o. 
 Tel: 800 787 074  </p>
-<p>România 
+<p>Rom nia 
 Medison Pharma SRL 
 Tel: 0800 400Ireland 
 Regeneron Ireland DAC 
@@ -490,20 +484,19 @@ Tel: 01800800
 Slovenija 
 Medison Pharma d.o.o. 
 Tel: 386 800 83 
-Ísland 
+ sland 
 Regeneron Ireland DAC<br />
-Sími: 354 800 4 
-Slovenská republika 
+S mi: 354 800 4 
+Slovensk  republika 
 Medison Pharma s.r.o. 
 Tel: 0800 123 Italia 
 Regeneron Italy S.r.l. 
 Tel: 800180 
 Suomi/Finland 
 Regeneron Ireland DAC<br />
-Puh/Tel: 0800 772 
-Κύπρος 
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: 0800 925<br />
+Puh/Tel: 0800 772 </p>
+<p>Genesis Pharma (Cyprus) Ltd 
+ : 0800 925<br />
 Sverige 
 Regeneron Ireland DAC 
 Tel: 0201 604786  </p>

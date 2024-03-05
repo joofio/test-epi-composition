@@ -4,7 +4,7 @@ Instance: composition-en-65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
 Description:  "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -102,40 +102,26 @@ to a heart problem or was born with heart problems. </p>
 <ul>
 <li>if your doctor has told you that you have high or low levels of electrolytes such as potassium or 
 magnesium in your blood. </li>
-<li>if you are currently taking any of the following medicines (see also “Other Medicines and 
-Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva”): 
-− 
-astemizole or terfenadine (used to treat hay fever or other allergies) 
-− 
-bepridil (used to treat heart disease) 
-− 
-cisapride (used to treat heartburn) 
-− 
-elbasvir/grazoprevir (used to treat hepatitis C) 
-− 
-ergot alkaloids (for example, ergotamine, dihydroergotamine, ergonovine, and 
-methylergonovine) (used to treat migraines and cluster headaches) 
-− 
-midazolam or triazolam (used to help you sleep) 
-− 
-pimozide, imipramine, amitriptyline or clomipramine (used to treat certain mental 
-conditions) 
-− 
-St. John’s wort (Hypericum perforatum) (a herbal preparation used for depression and 
-anxiety) 
-− 
-voriconazole (used to treat fungal infections) 
-− 
-flecainide, metoprolol (used to treat irregular heart beat) 
-− 
-certain antibiotics (macrolides, fluoroquinolones, imidazole) 
-− 
-triazole antifungal agents 
-− 
-certain antimalarial agents 
-− 
-methadone (used to treat opiate addiction) </li>
+<li>if you are currently taking any of the following medicines (see also  Other Medicines and 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva ): </li>
 </ul>
+<p>astemizole or terfenadine (used to treat hay fever or other allergies) </p>
+<p>bepridil (used to treat heart disease) </p>
+<p>cisapride (used to treat heartburn) </p>
+<p>elbasvir/grazoprevir (used to treat hepatitis C) </p>
+<p>ergot alkaloids (for example, ergotamine, dihydroergotamine, ergonovine, and 
+methylergonovine) (used to treat migraines and cluster headaches) </p>
+<p>midazolam or triazolam (used to help you sleep) </p>
+<p>pimozide, imipramine, amitriptyline or clomipramine (used to treat certain mental 
+conditions) </p>
+<p>St. John s wort (Hypericum perforatum) (a herbal preparation used for depression and 
+anxiety) </p>
+<p>voriconazole (used to treat fungal infections) </p>
+<p>flecainide, metoprolol (used to treat irregular heart beat) </p>
+<p>certain antibiotics (macrolides, fluoroquinolones, imidazole) </p>
+<p>triazole antifungal agents </p>
+<p>certain antimalarial agents </p>
+<p>methadone (used to treat opiate addiction) </p>
 <p>If you are taking any of these medicines, tell your doctor immediately. Taking these medicines 
 with Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva could cause serious or life-threatening side 
 effects or stop these medicines from working properly. </p>
@@ -155,13 +141,11 @@ disoproxil Zentiva. </p>
 <p>Tell your doctor: </p>
 </li>
 </ul>
-<p>− 
-if you are taking other medicines that contain efavirenz, emtricitabine, tenofovir 
+<p>if you are taking other medicines that contain efavirenz, emtricitabine, tenofovir 
 disoproxil, tenofovir alafenamide or lamivudine or adefovir dipivoxil. 
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva should not be taken with any of 
 these medicines. </p>
-<p>− 
-if you have or have had kidney disease, or if tests have shown problems with your 
+<p>if you have or have had kidney disease, or if tests have shown problems with your 
 kidneys. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva is not recommended if you 
 have moderate to severe kidney disease. </p>
 <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva may affect your kidneys. Before 
@@ -171,22 +155,18 @@ doctor may also order blood tests during treatment to monitor your kidneys. </p>
 medicines that can damage your kidneys (see Other medicines and 
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva). If this is unavoidable, your doctor 
 will monitor your kidney function once a week. </p>
-<p>− 
-if you have a heart disorder, such as abnormal electrical signal called prolongation 
+<p>if you have a heart disorder, such as abnormal electrical signal called prolongation 
 of the QT interval. </p>
-<p>− 
-if you have a history of mental illness, including depression, or of substance or alcohol 
+<p>if you have a history of mental illness, including depression, or of substance or alcohol 
 abuse. Tell your doctor immediately if you feel depressed, have suicidal thoughts or have 
 strange thoughts (see section 4, Possible side effects). </p>
-<p>− 
-if you have a history of convulsions (fits or seizures) or if you are being treated with 
+<p>if you have a history of convulsions (fits or seizures) or if you are being treated with 
 anticonvulsant therapy such as carbamazepine, phenobarbital and phenytoin. If you are 
 taking any of these medicines, your doctor may need to check the level of anticonvulsant 
 medicine in your blood to ensure that it is not affected while taking 
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. Your doctor may give you a 
 different anticonvulsant. </p>
-<p>− 
-if you have a history of liver disease, including chronic active hepatitis. Patients with 
+<p>if you have a history of liver disease, including chronic active hepatitis. Patients with 
 liver disease including chronic hepatitis B or C, who are treated with combination 
 antiretrovirals, have a higher risk of severe and potentially life-threatening liver problems. 
 Your doctor may conduct blood tests in order to check how well your liver is working or 
@@ -201,32 +181,27 @@ Symptoms of your hepatitis may become worse after discontinuation of
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. Your doctor may then conduct 
 blood tests at regular intervals in order to check how well your liver is working (see 
 section 3, If you stop taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva). </p>
-<p>− 
-Independent of a history of liver disease, your doctor will consider regular blood tests to 
+<p>Independent of a history of liver disease, your doctor will consider regular blood tests to 
 check how your liver is working. </p>
-<p>− 
-if you are over 65. Insufficient numbers of patients over 65 years of age have been 
+<p>if you are over 65. Insufficient numbers of patients over 65 years of age have been 
 studied. If you are over 65 years of age and are prescribed 
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, your doctor will monitor you 
 carefully. </p>
 <ul>
 <li>Once you start taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, look out for: </li>
 </ul>
-<p>− 
-signs of dizziness, difficulty sleeping, drowsiness, difficulty concentrating or 
+<p>signs of dizziness, difficulty sleeping, drowsiness, difficulty concentrating or 
 abnormal dreaming. These side effects may start in the first 1 or 2 days of treatment and 
 usually go away after the first 2 to 4 weeks. </p>
-<p>− 
-any signs of skin rash. Rashes may be caused by Efavirenz/Emtricitabine/Tenofovir 
+<p>any signs of skin rash. Rashes may be caused by Efavirenz/Emtricitabine/Tenofovir 
 disoproxil Zentiva. If you see any signs of a severe rash with blistering or fever, stop 
 taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva and tell your doctor at once. 
 If you had a rash while taking another NNRTI, you may be at higher risk of getting a rash 
 with Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. </p>
-<p>− 
-any signs of inflammation or infection. In some patients with advanced HIV infection 
+<p>any signs of inflammation or infection. In some patients with advanced HIV infection 
 (AIDS) and a history of opportunistic infection, signs and symptoms of inflammation 
 from previous infections may occur soon after anti-HIV treatment is started. It is believed 
-that these symptoms are due to improvement in the body’s immune response, enabling the 
+that these symptoms are due to improvement in the body s immune response, enabling the 
 body to fight infections that may have been present with no obvious symptoms. If you 
 notice any symptoms of infection, please tell your doctor at once. </p>
 <p>In addition to the opportunistic infections, autoimmune disorders (a condition that occurs 
@@ -236,8 +211,7 @@ occur many months after the start of treatment. If you notice any symptoms of in
 other symptoms such as muscle weakness, weakness beginning in the hands and feet and 
 moving up towards the trunk of the body, palpitations, tremor or hyperactivity, please 
 inform your doctor immediately to seek necessary treatment. </p>
-<p>− 
-bone problems. Some patients taking combination antiretroviral therapy may develop a 
+<p>bone problems. Some patients taking combination antiretroviral therapy may develop a 
 bone disease called osteonecrosis (death of bone tissue caused by loss of blood supply to 
 the bone). The length of combination antiretroviral therapy, corticosteroid use, alcohol 
 consumption, severe immunosuppression, higher body mass index, among others, may be 
@@ -259,7 +233,7 @@ Zentiva in children and adolescents has not been studied. </p>
 <p>Other medicines and Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva </p>
 <p>You must not take Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva with certain medicines. 
 These are listed under Do not take Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, at the start of 
-section 2. They include some common medicines and some herbal preparations (including St. John’s 
+section 2. They include some common medicines and some herbal preparations (including St. John s 
 wort) which can cause serious interactions. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
@@ -376,8 +350,8 @@ soon as possible. </p>
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva may cause dizziness, impaired 
 concentration and drowsiness. If you are affected, do not drive and do not use any tools or machines. </p>
 <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free‘. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efavirenzemtricitabinetenofovir"
@@ -414,7 +388,7 @@ disoproxil Zentiva), you should take another tablet. Do not wait until your next
 not need to take another tablet if you were sick more than 1 hour after taking 
 Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. </p>
 <p>If you stop taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
-Don’t stop taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva without talking to your 
+Don t stop taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva without talking to your 
 doctor. Stopping Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva can seriously affect your 
 response to future treatment. If Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva is stopped, speak 
 to your doctor before you restart taking Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva tablets. 
@@ -450,14 +424,11 @@ medicines themselves. Your doctor will test for these changes. </p>
 <ul>
 <li>Lactic acidosis (excess lactic acid in the blood) is a rare (may affect up to 1 in 1,000 people) 
 but serious side effect that can be fatal. The following side effects may be signs of lactic 
-acidosis: 
-− 
-deep rapid breathing 
-− 
-drowsiness 
-− 
-feeling sick (nausea), being sick (vomiting) and stomach pain </li>
+acidosis: </li>
 </ul>
+<p>deep rapid breathing </p>
+<p>drowsiness </p>
+<p>feeling sick (nausea), being sick (vomiting) and stomach pain </p>
 <p>If you think you may have lactic acidosis, contact your doctor immediately. </p>
 <p>Other possible serious side effects </p>
 <p>The following side effects are uncommon (these may affect up to 1 in 100 people): 
@@ -591,22 +562,21 @@ S.C. Zentiva S.A.
 Bucharest 032Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Zentiva, k.s. 
-Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+T l/Tel: +32 280 86 PV-Belgium@zentiva.com 
 Lietuva 
 Zentiva, k.s. 
-Tel: +370 52152PV-Lithuania@zentiva.com 
-България 
-Zentiva, k.s. 
-Тел: +35924417PV-Bulgaria@zentiva.com 
+Tel: +370 52152PV-Lithuania@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +35924417PV-Bulgaria@zentiva.com 
 Luxembourg/Luxemburg 
 Zentiva, k.s. 
-Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
-Česká republika 
+T l/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+ esk  republika 
 Zentiva, k.s. 
 Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
-Magyarország 
+Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel.: +36 1 299 1PV-Hungary@zentiva.com 
 Danmark 
@@ -626,14 +596,13 @@ Zentiva, k.s.
 Tel: +372 52 70PV-Estonia@zentiva.com 
 Norge 
 Zentiva Denmark ApS 
-Tlf: +47 219 66 PV-Norway@zentiva.com 
-Ελλάδα 
-Zentiva, k.s. 
-Τηλ: +30 211 198 7PV-Greece@zentiva.com 
-Österreich 
+Tlf: +47 219 66 PV-Norway@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +30 211 198 7PV-Greece@zentiva.com 
+ sterreich 
 Zentiva, k.s. 
 Tel: +43 720 778 PV-Austria@zentiva.com 
-España 
+Espa a 
 Zentiva, k.s. 
 Tel: +34 931 815 PV-Spain@zentiva.com 
 Polska 
@@ -641,7 +610,7 @@ Zentiva Polska Sp. z o.o.
 Tel: + 48 22 375 92 PV-Poland@zentiva.com </p>
 <p>France 
 Zentiva France 
-Tél: +33 (0) 800 089 219<br />
+T l: +33 (0) 800 089 219<br />
 PV-France@zentiva.com 
 Portugal 
 Zentiva Portugal, Lda 
@@ -649,7 +618,7 @@ Tel: +351210601PV-Portugal@zentiva.com
 Hrvatska 
 Zentiva d.o.o. 
 Tel: +385 1 6641 PV-Croatia@zentiva.com 
-România 
+Rom nia 
 ZENTIVA S.A. 
 Tel: +4 021 .304 7PV-Romania@zentiva.com 
 Ireland 
@@ -658,10 +627,10 @@ Tel: +353 818 882 PV-Ireland@zentiva.com
 Slovenija 
 Zentiva, k.s. 
 Tel: +386 360 00 PV-Slovenia@zentiva.com 
-Ísland 
+ sland 
 Zentiva Denmark ApS 
-Sími: +354 539 0PV-Iceland@zentiva.com 
-Slovenská republika 
+S mi: +354 539 0PV-Iceland@zentiva.com 
+Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
 Italia 
@@ -669,10 +638,9 @@ Zentiva Italia S.r.l.
 Tel: +39-02-38598PV-Italy@zentiva.com 
 Suomi/Finland 
 Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
-Κύπρος 
-Zentiva, k.s. 
-Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +357 240 30 PV-Cyprus@zentiva.com 
 Sverige 
 Zentiva Denmark ApS 
 Tel: +46 840 838 PV-Sweden@zentiva.com 

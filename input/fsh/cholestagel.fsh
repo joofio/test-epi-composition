@@ -4,7 +4,7 @@ Instance: composition-en-774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cholestagel Package Leaflet"
 Description:  "Composition for cholestagel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Cholestagel 
 4. Possible side effects 
 5. How to store Cholestagel 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -93,10 +92,12 @@ by reducing cholesterol absorption from the gut), with or without a statin. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take cholestagel"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Cholestagel: 
-- if you are allergic to colesevelam or to any of the other ingredients of this medicine (listed in 
-section 6) 
-- if you have a blockage in your intestines or bile ducts (tubes that carry bile) </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Cholestagel:</p>
+<ul>
+<li>if you are allergic to colesevelam or to any of the other ingredients of this medicine (listed in 
+section 6) </li>
+<li>if you have a blockage in your intestines or bile ducts (tubes that carry bile) </li>
+</ul>
 <p>If you are prescribed Cholestagel and any other medicine together you must also read the patient 
 information leaflet that comes with that particular medicine before you start to take your medicine.  </p>
 <p>Warnings and precautions 
@@ -169,7 +170,7 @@ and you should continue this diet during treatment. </p>
 pharmacist if you are unsure. As described in Section 2, if you will be taking Cholestagel along with 
 another medicine it is possible that your doctor will advise you to take Cholestagel at least 4 hours 
 before or at least 4 hours after taking the other medicine. 
-If you take a medicine called either Neoral® or ciclosporin, please ensure to take it with Cholestagel in 
+If you take a medicine called either Neoral  or ciclosporin, please ensure to take it with Cholestagel in 
 a consistent pattern over the day; either always together or always separate for a set number of hours. </p>
 <p>You should take your Cholestagel tablets with food and liquid. The tablets should be swallowed 
 whole. Do not break, crush or chew the tablets. </p>
@@ -220,7 +221,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and bottle label after 
-“EXP’’ </p>
+ EXP  </p>
 <p>Keep the bottle tightly closed in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -254,7 +255,7 @@ Iron oxide black (E172)
 Hypromellose (E464) 
 Propylene glycol </p>
 <p>What Cholestagel looks like and contents of the pack </p>
-<p>Cholestagel tablets are off-white, capsule-shaped film-coated tablets and imprinted with ‘C625’ on 
+<p>Cholestagel tablets are off-white, capsule-shaped film-coated tablets and imprinted with  C625  on 
 one side. The tablets are packed in plastic bottles with child resistant closures. Pack sizes are 
 24 (1 x 24), 100 (2 x 50) and 180 (1 x 180) tablets. Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>

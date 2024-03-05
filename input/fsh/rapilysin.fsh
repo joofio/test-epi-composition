@@ -4,7 +4,7 @@ Instance: composition-en-4ddd1ab0c737d818a0282b987d49df2b
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapilysin Package Leaflet"
 Description:  "Composition for rapilysin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,16 +72,11 @@ Usage: #example
 thrombolytic medicine used to dissolve blood clots that have formed in certain blood vessels and to 
 restore the blood flow in these blocked vessels (=thrombolysis). </p>
 <p>Rapilysin is used after an acute myocardial infarction (heart attack) in order to dissolve the blood clot 
-causing the heart attack. It is given within 12 hours after the onset of symptoms. </p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take rapilysin"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take rapilysin"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor will ask you questions before giving you Rapilysin, to find out if you have an increased 
+causing the heart attack. It is given within 12 hours after the onset of symptoms. </p>
+<ol>
+<li>What you need to know before Rapilysin is given to you </li>
+</ol>
+<p>The doctor will ask you questions before giving you Rapilysin, to find out if you have an increased 
 risk of bleeding. </p>
 <p>Do not use Rapilysin 
 * if you are allergic to reteplase or any of the other ingredients of this medicine (listed in section 
@@ -140,8 +135,16 @@ medicines. </p>
 <p>Heparin and other medicines that thin the blood (anticoagulants) and acetylsalicylic acid (a substance 
 used in many medicines used to relieve pain and lower fever) may increase the risk of bleeding. </p>
 <p>For information on medicines that should not be physically mixed with Rapilysin solution for 
-injection, see section 3.<br />
-Pregnancy and breast-feeding 
+injection, see section </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rapilysin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rapilysin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine. </p>
 <p>Pregnancy 
@@ -150,7 +153,7 @@ life-threatening situations. You must tell your doctor if you are pregnant or th
 Your doctor can tell you the risks and benefits of using Rapilysin during pregnancy. </p>
 <p>Breast-feeding 
 You should not breast-feed your baby during treatment with Rapilysin as it is not known whether 
-Rapilysin is excreted into mother’s milk. Mother’s milk should be thrown away during the first hours after thrombolytic treatment. Discuss with your doctor when you can take up breast-feeding 
+Rapilysin is excreted into mother s milk. Mother s milk should be thrown away during the first hours after thrombolytic treatment. Discuss with your doctor when you can take up breast-feeding 
 again. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -240,9 +243,9 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the vial 
 after EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25 °C.  </p>
+<p>Do not store above 25  C.  </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>After reconstitution (“when dissolved”), the solution must be used immediately. </p>         </div>"""      
+<p>After reconstitution ( when dissolved ), the solution must be used immediately. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -268,7 +271,7 @@ solvent in a pre-filled syringe with a reconstitution spike and a needle-pack of
 <p>Marketing Authorisation Holder 
 Actavis Group PTC ehf. 
 Dalshraun 1 
-220 Hafnarfjörður 
+220 Hafnarfj r ur 
 Iceland </p>
 <p>Manufacturer 
 Actavis Italy S.p.A.<br />
@@ -281,24 +284,22 @@ Italy  </p>
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt 
 Tel: +36 12886Danmark 
 Teva Denmark A/S 
 Tlf: +45 44985 
@@ -317,29 +318,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 </p>
 <p>Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -348,10 +348,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -360,20 +360,19 @@ Tel: +39 028917
 Suomi/Finland 
 Teva Finland Oy 
 Puh/Tel: +358 201805 
-Kύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+K<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā<br />
+UAB Teva Baltics fili le Latvij <br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Accord Healthcare Ireland Ltd. 
 Ireland 
 Tel: +353 214619 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}</em> </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

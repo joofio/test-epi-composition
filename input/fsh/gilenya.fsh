@@ -4,7 +4,7 @@ Instance: composition-en-62a8f25678d9e8ed32026d400d8228e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for gilenya Package Leaflet"
 Description:  "Composition for gilenya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,10 +72,12 @@ Usage: #example
 Gilenya contains the active substance fingolimod. </p>
 <p>What Gilenya is used for 
 Gilenya is used in adults and in children and adolescents (10 years of age and above) to treat 
-relapsing-remitting multiple sclerosis (MS), more specifically in: 
-- Patients who have failed to respond despite treatment with an MS treatment. 
-or 
-- Patients who have rapidly evolving severe MS. </p>
+relapsing-remitting multiple sclerosis (MS), more specifically in:</p>
+<ul>
+<li>Patients who have failed to respond despite treatment with an MS treatment. 
+or </li>
+<li>Patients who have rapidly evolving severe MS. </li>
+</ul>
 <p>Gilenya does not cure MS, but it helps to reduce the number of relapses and to slow down the 
 progression of physical disabilities due to MS. </p>
 <p>What is multiple sclerosis 
@@ -117,23 +119,25 @@ disopyramide, amiodarone or sotalol.
 section 6). 
 If this applies to you or you are unsure, talk to your doctor before taking Gilenya. </p>
 <p>Warnings and precautions 
-Talk to your doctor before taking Gilenya: 
-- if you have severe breathing problems during sleep (severe sleep apnoea). 
-- if you have been told you have an abnormal electrocardiogram. 
-- if you suffer from symptoms of slow heart rate (e.g. dizziness, nausea, or palpitations). 
-- if you are taking or have recently taken medicines that slow your heart rate (such as beta 
-blockers, verapamil, diltiazem or ivabradine, digoxin, anticholinesteratic agents or pilocarpine). 
-- if you have a history of sudden loss of consciousness or fainting (syncope). 
-- if you plan to get vaccinated. 
-- if you have never had chickenpox. 
-- if you have or have had visual disturbances or other signs of swelling in the central vision 
+Talk to your doctor before taking Gilenya:</p>
+<ul>
+<li>if you have severe breathing problems during sleep (severe sleep apnoea). </li>
+<li>if you have been told you have an abnormal electrocardiogram. </li>
+<li>if you suffer from symptoms of slow heart rate (e.g. dizziness, nausea, or palpitations). </li>
+<li>if you are taking or have recently taken medicines that slow your heart rate (such as beta 
+blockers, verapamil, diltiazem or ivabradine, digoxin, anticholinesteratic agents or pilocarpine). </li>
+<li>if you have a history of sudden loss of consciousness or fainting (syncope). </li>
+<li>if you plan to get vaccinated. </li>
+<li>if you have never had chickenpox. </li>
+<li>if you have or have had visual disturbances or other signs of swelling in the central vision 
 area (macula) at the back of the eye (a condition known as macular oedema, see below), 
 inflammation or infection of the eye (uveitis), or if you have diabetes (which can cause eye 
-problems). 
-- if you have liver problems. 
-- if you have high blood pressure that cannot be controlled by medicines. 
-- if you have severe lung problems or smoker’s cough. 
-If any of these applies to you or you are unsure, talk to your doctor before taking Gilenya. </p>
+problems). </li>
+<li>if you have liver problems. </li>
+<li>if you have high blood pressure that cannot be controlled by medicines. </li>
+<li>if you have severe lung problems or smoker s cough. 
+If any of these applies to you or you are unsure, talk to your doctor before taking Gilenya. </li>
+</ul>
 <p>Slow heart rate (bradycardia) and irregular heartbeat 
 At the beginning of treatment or after taking the first dose of 0.5 mg when you switch from a 0.25 mg 
 daily dose, Gilenya causes the heart rate to slow down. As a result, you may feel dizzy or tired, or be 
@@ -143,14 +147,9 @@ heartbeat, especially after the first dose. Irregular heartbeat usually returns 
 day. Slow heart rate usually returns to normal within one month. During this period, no clinically 
 significant heart rate effects are usually expected. </p>
 <p>Your doctor will ask you to stay at the surgery or clinic for at least 6 hours, with hourly pulse and 
-blood pressure measurements, after taking the first dose of Gilenya or after taking the first dose of </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take gilenya"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take gilenya"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>event of side effects that occur at the start of treatment. You should have an electrocardiogram 
+blood pressure measurements, after taking the first dose of Gilenya or after taking the first dose of 
+0.5 mg when you switch from a 0.25 mg daily dose, so that appropriate measures can be taken in the 
+event of side effects that occur at the start of treatment. You should have an electrocardiogram 
 performed prior to the first dose of Gilenya and after the 6-hour monitoring period. Your doctor may 
 monitor your electrocardiogram continuously during that time. If after the 6-hour period you have a 
 very slow or decreasing heart rate, or if your electrocardiogram shows abnormalities, you may need to 
@@ -205,10 +204,12 @@ examinations in order to detect macular oedema. </p>
 <p>If you have had macular oedema, talk to your doctor before you resume treatment with Gilenya. </p>
 <p>Macular oedema can cause some of the same vision symptoms as an MS attack (optic neuritis). Early 
 on, there may not be any symptoms. Be sure to tell your doctor about any changes in your vision. Your 
-doctor may want you to undergo an eye examination, especially if: 
-- the centre of your vision gets blurry or has shadows; 
-- you develop a blind spot in the centre of your vision; 
-- you have problems seeing colours or fine detail. </p>
+doctor may want you to undergo an eye examination, especially if:</p>
+<ul>
+<li>the centre of your vision gets blurry or has shadows; </li>
+<li>you develop a blind spot in the centre of your vision; </li>
+<li>you have problems seeing colours or fine detail. </li>
+</ul>
 <p>Liver function tests 
 If you have severe liver problems, you should not take Gilenya. Gilenya may affect your liver 
 function. You will probably not notice any symptoms but if you notice yellowing of your skin or the 
@@ -223,7 +224,7 @@ with Gilenya. </p>
 As Gilenya causes a slight elevation of blood pressure, your doctor may want to check your blood 
 pressure regularly. </p>
 <p>Lung problems 
-Gilenya has a slight effect on the lung function. Patients with severe lung problems or with smoker’s 
+Gilenya has a slight effect on the lung function. Patients with severe lung problems or with smoker s 
 cough may have a higher chance of developing side effects. </p>
 <p>Blood count 
 The desired effect of Gilenya treatment is to reduce the amount of white blood cells in your blood. 
@@ -273,12 +274,12 @@ your doctor will explain the risk to you and ask you to do a pregnancy test in o
 are not pregnant. Your doctor will give you a card which explains why you should not become 
 pregnant while taking Gilenya. It also explains what you should do to avoid becoming pregnant while 
 you are taking Gilenya. You must use effective contraception during treatment and for 2 months after 
-stopping treatment (see section “Pregnancy and breastfeeding”). </p>
+stopping treatment (see section  Pregnancy and breastfeeding ). </p>
 <p>Worsening of MS after stopping Gilenya treatment 
 Do not stop taking Gilenya or change your dose without talking to your doctor first. </p>
 <p>Tell your doctor straight away if you think your MS is getting worse after you have stopped treatment 
-with Gilenya. This could be serious (see “If you stop taking Gilenya” in section 3, and also section 4, 
-“Possible side effects”). </p>
+with Gilenya. This could be serious (see  If you stop taking Gilenya  in section 3, and also section 4, 
+ Possible side effects ). </p>
 <p>Elderly 
 Experience with Gilenya in elderly patients (over 65 years) is limited. Talk to your doctor if you have 
 any concerns. </p>
@@ -286,25 +287,27 @@ any concerns. </p>
 Gilenya is not intended for use in children below 10 years old as it has not been studied in MS patients 
 in this age group. </p>
 <p>The warnings and precautions listed above also apply to children and adolescents. The following 
-information is particularly important for children and adolescents and their caregivers: 
-- Before you start Gilenya, your doctor will check your vaccination status. If you have not had 
-certain vaccinations, it may be necessary for you to be given them before Gilenya can be started. 
-- The first time you take Gilenya, or when you switch from a 0.25 mg daily dose to a 0.5 mg daily 
-dose, your doctor will monitor your heart rate and heartbeat (see “Slow heart rate (bradycardia) 
-and irregular heartbeat” above). 
-- If you experience convulsions or fits before or whilst taking Gilenya, let your doctor know. 
-- If you suffer from depression or anxiety or if you become depressed or anxious while you are 
-taking Gilenya, let your doctor know. You may need to be monitored more closely. </p>
+information is particularly important for children and adolescents and their caregivers:</p>
+<ul>
+<li>Before you start Gilenya, your doctor will check your vaccination status. If you have not had 
+certain vaccinations, it may be necessary for you to be given them before Gilenya can be started. </li>
+<li>The first time you take Gilenya, or when you switch from a 0.25 mg daily dose to a 0.5 mg daily 
+dose, your doctor will monitor your heart rate and heartbeat (see  Slow heart rate (bradycardia) 
+and irregular heartbeat  above). </li>
+<li>If you experience convulsions or fits before or whilst taking Gilenya, let your doctor know. </li>
+<li>If you suffer from depression or anxiety or if you become depressed or anxious while you are 
+taking Gilenya, let your doctor know. You may need to be monitored more closely. </li>
+</ul>
 <p>Other medicines and Gilenya 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Tell your doctor if you are taking any of the following medicines: 
 * Medicines that suppress or modulate the immune system, including other medicines used 
 to treat MS, such as beta interferon, glatiramer acetate, natalizumab, mitoxantrone, 
 teriflunomide, dimethyl fumarate or alemtuzumab. You must not use Gilenya together with such 
-medicines as this could intensify the effect on the immune system (see also “Do not take 
-Gilenya”). 
+medicines as this could intensify the effect on the immune system (see also  Do not take 
+Gilenya ). 
 * Corticosteroids, due to a possible added effect on the immune system. 
-* Vaccines. If you need to receive a vaccine, seek your doctor’s advice first. During and for up to 
+* Vaccines. If you need to receive a vaccine, seek your doctor s advice first. During and for up to 
 2 months after treatment with Gilenya, you should not receive certain types of vaccine (live 
 attenuated vaccines) as they could trigger the infection that they were supposed to prevent. 
 Other vaccines may not work as well as usual if given during this period. 
@@ -313,13 +316,11 @@ Gilenya together with such medicines could intensify the effect on heartbeat in 
 after starting Gilenya. 
 * Medicines for irregular heartbeat, such as quinidine, disopyramide, amiodarone or sotalol. 
 You must not use Gilenya if you are taking such a medicine because it could intensify the effect 
-on irregular heartbeat (see also “Do not take Gilenya”). 
-* Other medicines: 
-o 
+on irregular heartbeat (see also  Do not take Gilenya ). 
+* Other medicines: * 
 protease inhibitors, anti-infectives such as ketoconazole, azole antifungals, clarithromycin 
-or telithromycin. 
-o 
-carbamazepine, rifampicine, phenobarbital, phenytoin, efavirenz or St. John’s Wort 
+or telithromycin. * 
+carbamazepine, rifampicine, phenobarbital, phenytoin, efavirenz or St. John s Wort 
 (potential risk of reduced efficacy of Gilenya). </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -331,18 +332,20 @@ pregnancy, there is a risk of harm to the unborn baby. The rate of congenital ma
 in babies exposed to Gilenya during pregnancy is about 2 times the rate observed in the general 
 population (in whom the rate of congenital malformations is about 2-3%). The most frequently 
 reported malformations included cardiac, renal and musculoskeletal malformations. </p>
-<p>Therefore, if you are a woman of childbearing potential: 
-- before you start treatment with Gilenya your doctor will inform you about the risk to an unborn 
+<p>Therefore, if you are a woman of childbearing potential:</p>
+<ul>
+<li>before you start treatment with Gilenya your doctor will inform you about the risk to an unborn 
 baby and ask you to do a pregnancy test in order to ensure that you are not pregnant, 
-and, 
-- you must use effective contraception while taking Gilenya and for two months after you stop 
+and, </li>
+<li>you must use effective contraception while taking Gilenya and for two months after you stop 
 taking it to avoid becoming pregnant. Talk to your doctor about reliable methods of 
-contraception. </p>
+contraception. </li>
+</ul>
 <p>Your doctor will give you a card which explains why you should not become pregnant while taking 
 Gilenya. </p>
 <p>If you do become pregnant while taking Gilenya, tell your doctor straight away. Your doctor will 
-decide to stop treatment (see “If you stop taking Gilenya” in section 3, and also section 4, “Possible 
-side effects”). Specialised pre-natal monitoring will be performed. </p>
+decide to stop treatment (see  If you stop taking Gilenya  in section 3, and also section 4,  Possible 
+side effects ). Specialised pre-natal monitoring will be performed. </p>
 <p>Breast-feeding </p>
 <p>You should not breast-feed while you are taking Gilenya. Gilenya can pass into breast milk and 
 there is a risk of serious side effects for the baby. </p>
@@ -350,15 +353,14 @@ there is a risk of serious side effects for the baby. </p>
 Your doctor will tell you whether your illness allows you to drive vehicles, including a bicycle, and 
 use machines safely. Gilenya is not expected to have an influence on your ability to drive and use 
 machines. </p>
-<p>However, at initiation of treatment you will have to stay at the doctor’s surgery or clinic for 6 hours 
+<p>However, at initiation of treatment you will have to stay at the doctor s surgery or clinic for 6 hours 
 after taking the first dose of Gilenya. Your ability to drive and use machines may be impaired during 
-and potentially after this time period. </p>         </div>"""         
-
-        
+and potentially after this time period. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take gilenya"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take gilenya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Treatment with Gilenya will be overseen by a doctor who is experienced in the treatment of multiple 
 sclerosis. </p>
@@ -400,17 +402,18 @@ may still occur. After stopping Gilenya you may have to wait for 6-8 weeks befor
 treatment. </p>
 <p>If you have to restart Gilenya more than 2 weeks after you stop taking it, the effect on heart rate 
 normally seen when treatment is first started may re-occur and you will need to be monitored at the 
-doctor’s surgery or clinic for re-initiation of treatment. Do not restart Gilenya after stopping it for 
+doctor s surgery or clinic for re-initiation of treatment. Do not restart Gilenya after stopping it for 
 more than two weeks without seeking advice from your doctor. </p>
 <p>Your doctor will decide whether and how you need to be monitored after stopping Gilenya. Tell your 
 doctor straight away if you think your MS is getting worse after you have stopped treatment with 
 Gilenya. This could be serious. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store gilenya"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store gilenya"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be or could become serious 
@@ -444,7 +447,7 @@ include sudden onset of severe headache, confusion, seizures and/or vision distu
 with crust, or a new sore on an existing scar </p>
 <p>Very rare (may affect up to 1 in 10,000 people) 
 - Electrocardiogram anomaly (T-wave inversion) 
-- Tumour related to infection with human herpes virus 8 (Kaposi’s sarcoma) </p>
+- Tumour related to infection with human herpes virus 8 (Kaposi s sarcoma) </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 - Allergic reactions, including symptoms of rash or itchy hives, swelling of lips, tongue or face, 
 which are more likely to occur on the day you start Gilenya treatment 
@@ -493,8 +496,8 @@ or muscles, fever
 - Hair loss 
 - Breathlessness 
 - Depression 
-- Blurred vision (see also the section on macular oedema under “Some side effects could be or 
-could become serious”) 
+- Blurred vision (see also the section on macular oedema under  Some side effects could be or 
+could become serious ) 
 - Hypertension (Gilenya may cause a mild increase in blood pressure) 
 - Muscle pain 
 - Joint pain </p>
@@ -513,18 +516,149 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store gilenya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store gilenya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the carton and blister foil after 
+ EXP . The expiry date refers to the last day of that month. 
+Do not store above 25 C. 
+Store in the original package in order to protect from moisture. 
+Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the carton and blister foil after 
-“EXP”. The expiry date refers to the last day of that month. 
-Do not store above 25ºC. 
-Store in the original package in order to protect from moisture. 
-Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Gilenya contains 
+- The active substance is fingolimod. </p>
+<p>Gilenya 0.25 mg hard capsules 
+- Each capsule contains 0.25 mg fingolimod (as hydrochloride). 
+- The other ingredients are: 
+Capsule fill: mannitol, hydroxypropylcellulose, hydroxypropylbetadex, magnesium stearate. 
+Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172). 
+Printing ink: shellac (E904), black iron oxide (E172), propylene glycol (E1520), ammonia 
+solution, concentrated (E527). </p>
+<p>Gilenya 0.5 mg hard capsules 
+- Each capsule contains 0.5 mg fingolimod (as hydrochloride). 
+- The other ingredients are: 
+Capsule fill: mannitol, magnesium stearate. 
+Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172). 
+Printing ink: shellac (E904), ethanol anhydrous, isopropyl alcohol, butyl alcohol, propylene 
+glycol (E1520), purified water, ammonia solution, concentrated (E527), potassium hydroxide, 
+black iron oxide (E172), yellow iron oxide (E172), titanium dioxide (E171), dimethicone. </p>
+<p>What Gilenya looks like and contents of the pack 
+Gilenya 0.25 mg hard capsules have an ivory opaque body and cap.  FTY 0.25mg  is imprinted on the 
+cap with black ink and a black radial band on the body. </p>
+<p>Gilenya 0.5 mg hard capsules have a white opaque body and bright yellow opaque cap.  FTY0.5mg<br />
+is imprinted on the cap with black ink and two bands are imprinted on the body with yellow ink. </p>
+<p>Gilenya 0.25 mg capsules are available in packs containing 7 or 28 capsules. Not all pack sizes may be 
+marketed in your country. </p>
+<p>Gilenya 0.5 mg capsules are available in packs containing 7, 28 or 98 capsules or in multipacks 
+containing 84 capsules (3 packs of 28 capsules). Not all pack sizes may be marketed in your country. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Germany </p>
+<p>Lek Pharmaceuticals d.d. 
+Verovskova Ulica Ljubljana, 1Slovenia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica Ljubljana, 1Slovenia </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17<br />
+ sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7 
+Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>         </div>"""      
 

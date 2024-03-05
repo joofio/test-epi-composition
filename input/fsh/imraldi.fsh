@@ -4,7 +4,7 @@ Instance: composition-en-ef587583f9868c465778255848bcb8dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for imraldi Package Leaflet"
 Description:  "Composition for imraldi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,35 +71,24 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What imraldi is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imraldi contains the active substance adalimumab, a medicine that acts on your body’s immune 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imraldi contains the active substance adalimumab, a medicine that acts on your body s immune 
 (defence) system. </p>
-<p>Imraldi is intended for treatment of: 
- 
-rheumatoid arthritis,<br />
- 
-polyarticular juvenile idiopathic arthritis, 
- 
-enthesitis-related arthritis,<br />
- 
-ankylosing spondylitis,<br />
- 
-axial spondyloarthritis without radiographic evidence of ankylosing spondylitis,<br />
- 
-psoriatic arthritis,<br />
- 
-psoriasis,<br />
- 
-hidradenitis suppurativa,<br />
- 
-Crohn’s disease,<br />
- 
-ulcerative colitis and<br />
- 
-non-infectious uveitis.  </p>
+<p>Imraldi is intended for treatment of: </p>
+<p>rheumatoid arthritis,  </p>
+<p>polyarticular juvenile idiopathic arthritis, </p>
+<p>enthesitis-related arthritis,  </p>
+<p>ankylosing spondylitis,  </p>
+<p>axial spondyloarthritis without radiographic evidence of ankylosing spondylitis,  </p>
+<p>psoriatic arthritis,  </p>
+<p>psoriasis,  </p>
+<p>hidradenitis suppurativa,  </p>
+<p>Crohn s disease,  </p>
+<p>ulcerative colitis and  </p>
+<p>non-infectious uveitis.  </p>
 <p>The active ingredient in Imraldi, adalimumab, is a monoclonal antibody. Monoclonal antibodies are 
 proteins that attach to a specific target. </p>
-<p>The target of adalimumab is a protein called tumour necrosis factor (TNFα), which is present at 
-increased levels in the inflammatory diseases listed above. By attaching to TNFα, Imraldi decreases 
+<p>The target of adalimumab is a protein called tumour necrosis factor (TNF ), which is present at 
+increased levels in the inflammatory diseases listed above. By attaching to TNF , Imraldi decreases 
 the process of inflammation in these diseases. </p>
 <p>Rheumatoid arthritis </p>
 <p>Rheumatoid arthritis is an inflammatory disease of the joints. </p>
@@ -137,7 +126,7 @@ and bone of the joints caused by the disease and to improve physical function. <
 <p>Plaque psoriasis is an inflammatory skin condition that causes red, flaky, crusty patches of skin 
 covered with silvery scales. Plaque psoriasis can also affect the nails, causing them to crumble, 
 become thickened and lift away from the nail bed which can be painful. Psoriasis is believed to be 
-caused by a problem with the body’s immune system that leads to an increased production of skin 
+caused by a problem with the body s immune system that leads to an increased production of skin 
 cells. </p>
 <p>Imraldi is used to treat moderate to severe plaque psoriasis in adults. Imraldi is also used to treat 
 severe plaque psoriasis in children and adolescents weighing 30 kg or greater for whom topical 
@@ -151,11 +140,11 @@ armpits, inner thighs, groin and buttocks. Scarring may also occur in affected a
 can reduce the number of nodules and abscesses you have, and the pain that is often associated with 
 the disease. You may first be given other medicines. If these medicines do not work well enough, you 
 will be given Imraldi. </p>
-<p>Crohn’s disease in adults and children </p>
-<p>Crohn’s disease is an inflammatory disease of the gut. </p>
-<p>Imraldi is used to treat Crohn’s disease in adults and children aged 6 to 17 years. If you have Crohn’s 
+<p>Crohn s disease in adults and children </p>
+<p>Crohn s disease is an inflammatory disease of the gut. </p>
+<p>Imraldi is used to treat Crohn s disease in adults and children aged 6 to 17 years. If you have Crohn s 
 disease you will first be given other medicines. If these medicines do not work well enough, you will 
-be given Imraldi to reduce the signs and symptoms of your Crohn’s disease. </p>
+be given Imraldi to reduce the signs and symptoms of your Crohn s disease. </p>
 <p>Ulcerative colitis in adults and children </p>
 <p>Ulcerative colitis is an inflammatory disease of the large intestine. </p>
 <p>Imraldi is used to treat moderate to severe ulcerative colitis in adults and children aged 6 to 17 years. 
@@ -163,11 +152,9 @@ If you have ulcerative colitis you may first be given other medicines. If these 
 well enough, you will be given Imraldi to reduce the signs and symptoms of your disease. </p>
 <p>Non-infectious uveitis in adults and children </p>
 <p>Non-infectious uveitis is an inflammatory disease affecting certain parts of the eye.  </p>
-<p>Imraldi is used to treat<br />
- 
-Adults with non-infectious uveitis with inflammation affecting the back of the eye 
- 
-Children from 2 years of age with chronic non-infectious uveitis with inflammation affecting 
+<p>Imraldi is used to treat  </p>
+<p>Adults with non-infectious uveitis with inflammation affecting the back of the eye </p>
+<p>Children from 2 years of age with chronic non-infectious uveitis with inflammation affecting 
 the front of the eye </p>
 <p>This inflammation may lead to a decrease of vision and/or the presence of floaters in the eye (black 
 dots or wispy lines that move across the field of vision). Imraldi works by reducing this inflammation. </p>         </div>"""   
@@ -182,11 +169,11 @@ dots or wispy lines that move across the field of vision). Imraldi works by redu
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Imraldi 
 - If you are allergic to adalimumab or any of the other ingredients of this medicine (listed in 
 section 6). 
-- If you have a severe infection, including tuberculosis (see “Warnings and precautions”). It is 
+- If you have a severe infection, including tuberculosis (see  Warnings and precautions ). It is 
 important that you tell your doctor if you have symptoms of infections, e.g. fever, wounds, 
 feeling tired, dental problems.<br />
 - If you have moderate or severe heart failure. It is important to tell your doctor if you have had or 
-have a serious heart condition (see “Warnings and precautions”). </p>
+have a serious heart condition (see  Warnings and precautions ). </p>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor or pharmacist before using Imraldi. </p>
 <p>Allergic reaction </p>
@@ -282,7 +269,7 @@ treatment. </li>
 <p>Cancer </p>
 <ul>
 <li>There have been very rare cases of certain kinds of cancer in children and adults taking Imraldi 
-or other TNFα blockers. People with more serious rheumatoid arthritis who have had the disease 
+or other TNF  blockers. People with more serious rheumatoid arthritis who have had the disease 
 for a long time may have a higher than average risk of getting lymphoma (a cancer that affects 
 the lymph system), and leukaemia (a cancer that affects the blood and bone marrow). If you take 
 Imraldi the risk of getting lymphoma, leukaemia, or other cancers may increase. On rare 
@@ -293,9 +280,9 @@ Tell your doctor if you are taking azathioprine or mercaptopurine with Imraldi. 
 If new areas of damaged skin appear during or after therapy or if existing marks or areas of 
 damage change appearance, tell your doctor. </li>
 <li>There have been cases of cancers, other than lymphoma in patients with a specific type of 
-lung disease called chronic obstructive pulmonary disease (COPD) treated with another TNFα 
+lung disease called chronic obstructive pulmonary disease (COPD) treated with another TNF<br />
 blocker. If you have COPD, or you are a heavy smoker, you should discuss with your doctor 
-whether treatment with a TNFα blocker is appropriate for you. </li>
+whether treatment with a TNF  blocker is appropriate for you. </li>
 </ul>
 <p>Lupus-like syndrome </p>
 <ul>
@@ -329,9 +316,9 @@ not receive adalimumab. </li>
 <li>Imraldi can be used during breast-feeding. </li>
 <li>If you received Imraldi during your pregnancy, your baby may have a higher risk for getting an 
 infection.  </li>
-<li>It is important that you tell your baby’s doctors and other health care professionals about your 
+<li>It is important that you tell your baby s doctors and other health care professionals about your 
 Imraldi use during your pregnancy before the baby receives any vaccine (for more information 
-on vaccines see the “Warnings and precautions” section). </li>
+on vaccines see the  Warnings and precautions  section). </li>
 </ul>
 <p>Driving and using machines </p>
 <p>Imraldi may have a minor influence on your ability to drive, cycle or use machines. Room spinning 
@@ -343,7 +330,7 @@ your doctor that you have an intolerance to some sugars, contact your doctor bef
 medicinal product. </p>
 <p>Sodium 
 This medicinal product contains less than 1 mmol of sodium (23 mg) per 0.8 ml dose, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imraldi"
@@ -400,8 +387,8 @@ followed by 40 mg every other week starting one week later. If this dose does no
 Imraldi 40 mg every other week, your doctor may increase the dose to 40 mg every week or 80 mg 
 every other week. </p>
 <p>It is recommended that you use an antiseptic wash daily on the affected areas. </p>
-<p>Adults with Crohn’s disease </p>
-<p>The usual dose regimen for Crohn’s disease is 80 mg (as two 40 mg injections in one day) initially 
+<p>Adults with Crohn s disease </p>
+<p>The usual dose regimen for Crohn s disease is 80 mg (as two 40 mg injections in one day) initially 
 followed by 40 mg every other week starting two weeks later. If a faster effect is required your doctor 
 may prescribe an initial dose of 160 mg (as four 40 mg injections in one day or two 40 mg injections 
 per day for two consecutive days), followed by 80 mg (as two 40 mg injections in one day) two weeks 
@@ -448,7 +435,7 @@ continued while using Imraldi. Imraldi can also be given alone. </p>
 <p>Children and adolescents with chronic non-infectious uveitis from 2 years of age </p>
 <p>Children and adolescents from 2 years of age weighing less than 30 kg </p>
 <p>The usual dose of Imraldi is 20 mg every other week with methotrexate. </p>
-<p>Your child’s doctor may also prescribe an initial dose of 40 mg which may be administered one week 
+<p>Your child s doctor may also prescribe an initial dose of 40 mg which may be administered one week 
 prior to the start of the usual dose. </p>
 <p>Children and adolescents from 2 years of age weighing 30 kg or more </p>
 <p>The usual dose of Imraldi is 40 mg every other week with methotrexate. </p>
@@ -456,8 +443,15 @@ prior to the start of the usual dose. </p>
 the start of the usual dose. </p>
 <p>Method and route of administration </p>
 <p>Imraldi is given by injection under the skin (by subcutaneous injection). For instructions for use, refer 
-to section 7.<br />
-If you use more Imraldi than you should </p>
+to section </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you use more Imraldi than you should </p>
 <p>If you accidentally inject Imraldi more frequently than you should, call your doctor or pharmacist and 
 explain that you have taken more than required. Always take the outer carton of the medicine with 
 you, even if it is empty. </p>
@@ -468,13 +462,12 @@ forgotten a dose. </p>
 <p>If you stop using Imraldi </p>
 <p>The decision to stop using Imraldi should be discussed with your doctor. Your symptoms may return 
 upon stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store imraldi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store imraldi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
 effects are mild to moderate. However, some may be serious and require treatment. Side effects may 
@@ -603,7 +596,7 @@ organ systems); </li>
 <li>leukaemia (cancer affecting the blood and bone marrow); </li>
 <li>severe allergic reaction with shock; </li>
 <li>multiple sclerosis; </li>
-<li>nerve disorders (such as inflammation of the optic nerve to the eye, and Guillain-Barré 
+<li>nerve disorders (such as inflammation of the optic nerve to the eye, and Guillain-Barr<br />
 syndrome, a condition that may cause muscle weakness, abnormal sensations, tingling in the 
 arms and upper body); </li>
 <li>heart stops pumping; </li>
@@ -624,7 +617,7 @@ arms and upper body); </li>
 <ul>
 <li>hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal); </li>
 <li>Merkel cell carcinoma (a type of skin cancer); </li>
-<li>Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s 
+<li>Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin. </li>
 <li>liver failure; </li>
 <li>worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
@@ -667,145 +660,24 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store imraldi"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store imraldi"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label of the carton after EXP. The 
-expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). Do not freeze. </p>
-<p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
-<p>Alternative Storage: </p>
-<p>When needed (for example when you are travelling), a single Imraldi pre-filled syringe may be stored 
-at room temperature (up to 25°C) for a maximum period of 28 days – be sure to protect it from light. 
-Once removed from the refrigerator for room temperature storage, the syringe must be used within 
-28 days or discarded, even if it is returned to the refrigerator. 
-You should record the date when the syringe is first removed from refrigerator, and the date after 
-which it should be discarded. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Imraldi contains  </p>
-<ul>
-<li>The active substance is adalimumab. </li>
-<li>The other ingredients are sodium citrate, citric acid monohydrate, histidine, histidine 
-hydrochloride monohydrate, sorbitol, polysorbate 20 and water for injections. </li>
-</ul>
-<p>What Imraldi looks like and contents of the pack </p>
-<p>Imraldi 40 mg solution for injection in pre-filled syringe is supplied as a 0.8 ml clear to opalescent and 
-colourless to pale brown solution. </p>
-<p>Imraldi is available in packs containing 1, 2, 4 or 6 pre-filled syringe(s) (type I glass) with a stainless 
-steel needle, a rigid needle shield, a rubber plunger, a plunger rod, a safe-shield body, a finger flange 
-for patient use and 2, 2, 4 or 6 alcohol pads enclosed in packs respectively. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Samsung Bioepis NL B.V. 
-Olof Palmestraat 2616 LR Delft 
-The Netherlands </p>
-<p>Manufacturer 
-Biogen Netherlands B.V. 
-Prins Mauritslaan 1171 LP Badhoevedorp 
-The Netherlands </p>
-<p>Samsung Bioepis NL B.V. 
-Olof Palmestraat 2616 LR Delft 
-The Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien<br />
-Biogen Belgium NV/S.A<br />
-Tél/Tel: + 32 (0)2 808 5Lietuva<br />
-Biogen Lithuania UAB 
-Tel: +370 52 07 91<br />
-България<br />
-Ewopharma AG Representative Office 
-Teл.: + 359 249 176<br />
-Luxembourg/Luxemburg<br />
-Biogen Belgium NV/SA<br />
-Tél/Tel: +35 227 772<br />
-Česká republika<br />
-Biogen (Czech Republic) s.r.o.<br />
-Tel: + 420 228 884<br />
-Magyarország<br />
-Biogen Hungary Kft.<br />
-Tel.: + 36 1 848 04<br />
-Danmark<br />
-Biogen (Denmark) A/S<br />
-Tlf: + 45 78 79 37<br />
-Malta<br />
-Pharma.MT Ltd 
-Tel: + 356 27 78 15<br />
-Deutschland<br />
-Biogen GmbH<br />
-Tel: + 49 (0)89 996 177 Nederland<br />
-Biogen Netherlands B.V.<br />
-Tel: + 31 (0)20 808 02<br />
-Eesti<br />
-Biogen Estonia OÜ 
-Tel: + 372 6 68 30<br />
-Norge<br />
-Biogen Norway AS<br />
-Tlf: + 47 21 93 95<br />
-Ελλάδα<br />
-Genesis Pharma S.A. 
-Τηλ: + 30 211 176 8Österreich<br />
-Biogen Austria GmbH<br />
-Tel: + 43 (0)1 267 51<br />
-España<br />
-Biogen Spain, S.L.<br />
-Tel: + 34 931 790<br />
-Polska<br />
-Biogen Poland Sp. z o.o.<br />
-Tel.: + 48 22 116 86<br />
-France<br />
-Biogen France SAS<br />
-Tél: + 33 (0)1 776 968<br />
-Portugal<br />
-Biogen Portugal Sociedade Farmacêutica,<br />
-Unipessoal, Lda<br />
-Tel: + 351 308 800<br />
-Hrvatska<br />
-Ewopharma d.o.o 
-Tel: + 385 (0)1 777 64<br />
-România<br />
-Ewopharma AG Representative Office 
-Tel: + 40 377 881<br />
-Ireland<br />
-Biogen Idec (Ireland) Ltd.<br />
-Tel: +353 (0)1 513 33<br />
-Slovenija<br />
-Biogen Pharma d.o.o.<br />
-Tel: + 386 (0)1 888 81<br />
-Ísland<br />
-Icepharma hf. 
-Sími: + 354 800 9 
-Slovenská republika<br />
-Biogen Slovakia s.r.o.<br />
-Tel: + 421 (0)2 333 257<br />
-Italia<br />
-Biogen Italia s.r.l.<br />
-Tel: + 39 (0)6 899 701<br />
-Suomi/Finland<br />
-Biogen Finland Oy<br />
-Puh/Tel: + 358 (0)9 427 041<br />
-Κύπρος<br />
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: + 357 22 00 04<br />
-Sverige<br />
-Biogen Sweden AB<br />
-Tel: +46 (0)8 525 038 Latvija 
-Biogen Latvia SIA 
-Tel: + 371 66 16 40<br />
-United Kingdom (Northern Ireland) 
-Biogen Idec (Ireland) Ltd. 
-Tel: +44 (0)20 360 886<br />
-This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label of the carton after EXP. The 
+expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
+<p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
+<p>Alternative Storage: </p>
+<p>When needed (for example when you are travelling), a single Imraldi pre-filled syringe may be stored 
+at room temperature (up to 25 C) for a maximum period of 28 days   be sure to protect it from light. 
+Once removed from the refrigerator for room temperature storage, the syringe must be used within 
+28 days or discarded, even if it is returned to the refrigerator. 
+You should record the date when the syringe is first removed from refrigerator, and the date after 
+which it should be discarded. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

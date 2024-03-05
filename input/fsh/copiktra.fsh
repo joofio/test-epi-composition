@@ -4,7 +4,7 @@ Instance: composition-en-74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for copiktra Package Leaflet"
 Description:  "Composition for copiktra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,8 +74,8 @@ effects of enzymes needed for the growth and survival of B-lymphocytes (a type o
 These enzymes are overactive in certain cancerous white blood cells and by blocking them Copiktra 
 can kill and reduce the number of cancerous B-lymphocytes. </p>
 <p>Copiktra is used for the treatment of cancers of B-lymphocytes called<br />
-• chronic lymphocytic leukaemia (or small lymphocytic lymphoma) 
-• follicular leukaemia.  </p>
+  chronic lymphocytic leukaemia (or small lymphocytic lymphoma) 
+  follicular leukaemia.  </p>
 <p>In these diseases the B-lymphocytes multiply too quickly and live too long, so there are too many of 
 them in the blood or lymph nodes.  Copiktra is used when patients have previously been given at least 
 2 other therapies that did not work or are no longer working. </p>         </div>"""   
@@ -110,13 +110,15 @@ work, you may need treatment with a steroid medicine. </p>
 <p>Skin reactions<br />
 Copiktra can cause rashes and other skin reactions that can be serious and can lead to death. Tell your 
 doctor or pharmacist right away if you get new or worsening skin rash, or other skin reactions during 
-treatment with Copiktra, including: 
-- painful sores or ulcers on your skin, lips, or in your mouth 
-- severe rash with blisters or peeling skin 
-- rash with itching 
-- rash with fever 
+treatment with Copiktra, including:</p>
+<ul>
+<li>painful sores or ulcers on your skin, lips, or in your mouth </li>
+<li>severe rash with blisters or peeling skin </li>
+<li>rash with itching </li>
+<li>rash with fever 
 Your doctor may need to prescribe medicines, including a steroid medicine, to treat your skin rash or 
-other skin reactions. </p>
+other skin reactions. </li>
+</ul>
 <p>Inflammation of the lungs<br />
 Copiktra can cause inflammation of your lungs which can be serious and can lead to death. Tell your 
 doctor or pharmacist right away if you get new or worsening cough or difficulty breathing. Your 
@@ -160,7 +162,7 @@ salmeterol, used to treat asthma </li>
 <li>buspirone, clorazepate, diazepam, estazolam, flurazepam, zolpidem, medicines used to 
 treat nervous system disorders </li>
 <li>carbamazepine, mephenytoin, phenytoin, medicines used to prevent seizures </li>
-<li>ciclosporin, sirolimus, tacrolimus, medicines used to prevent organ rejection’ after a 
+<li>ciclosporin, sirolimus, tacrolimus, medicines used to prevent organ rejection  after a 
 transplant </li>
 <li>ciprofloxacin, clarithromycin, erythromycin, nafcillin, telithromycin, medicines used to 
 treat bacterial infections </li>
@@ -182,8 +184,8 @@ disorder </li>
 <li>rifabutin, rifampicin medicines used to treat bacterial infections including tuberculosis </li>
 <li>sildenafil, tadalafil, medicines used to treat impotence and pulmonary hypertension, a lung 
 disease that makes breathing difficult </li>
-<li>‘statin’ medicines such as atorvastatin, lovastatin, simvastatin, used to lower cholesterol </li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety </li>
+<li>statin  medicines such as atorvastatin, lovastatin, simvastatin, used to lower cholesterol </li>
+<li>St. John s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety </li>
 <li>trazodone, a medicine used to treat depression </li>
 </ul>
 <p>Copiktra with food and drink 
@@ -244,10 +246,8 @@ Do not stop taking this medicine unless your doctor tells you to.  </p>
 * Fever, chills, or other signs of an infection 
 * New or worsening diarrhoea, stool with mucus or blood, or severe abdominal (stomach area) 
 pain 
-* New or worsening skin rash, or other skin reactions including </p>
-<p>o painful sores or ulcers on your skin, lips, or in your mouth 
-o severe rash with blisters or peeling skin 
-o rash with itching and/or fever 
+* New or worsening skin rash, or other skin reactions including 
+ * painful sores or ulcers on your skin, lips, or in your mouth * severe rash with blisters or peeling skin * rash with itching and/or fever 
 * New or worsening cough or difficulty breathing </p>
 <p>Other side effects </p>
 <p>Very common: may affect more than 1 in 10 people 
@@ -288,7 +288,7 @@ By reporting side effects, you can help provide more information on the safety o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store below 30°C. </p>
+<p>Store below 30 C. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -310,10 +310,10 @@ Printing black ink: shellac glaze, iron oxide black (E 172), propylene glycol,  
 hydroxide. </p>
 <p>What Copiktra looks like and contents of the pack </p>
 <p>Copiktra 15 mg hard capsules 
-* Opaque pink capsule with “duv 15 mg” printed on the body in black ink. 
+* Opaque pink capsule with  duv 15 mg  printed on the body in black ink. 
 * Pack size: 28 days carton containing 56 capsules (2 blisters with 28 capsules each). </p>
 <p>Copiktra 25 mg hard capsules 
-* Opaque capsule with a white to off-white body and Orange cap with “duv 25 mg” printed on the 
+* Opaque capsule with a white to off-white body and Orange cap with  duv 25 mg  printed on the 
 body in black ink. 
 * Pack size: 28 days carton containing 56 capsules (2 blisters with 28 capsules each). </p>
 <p>Marketing Authorisation Holder 

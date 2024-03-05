@@ -4,7 +4,7 @@ Instance: composition-en-6569b151297f81a41ed28c44518ea9a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for zaltrap Package Leaflet"
 Description:  "Composition for zaltrap Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,8 +76,8 @@ grow. By blocking the growth of blood vessels, ZALTRAP helps to stop or slow dow
 the tumour. </p>
 <p>What ZALTRAP is used for 
 ZALTRAP is a medicine used to treat advanced cancers of the colon or rectum (parts of the large 
-intestine) in adults. It will be given with other medicines called ‘chemotherapy’, including 
-‘5-fluorouracil’, ‘folinic acid’, and ‘irinotecan’.  </p>         </div>"""   
+intestine) in adults. It will be given with other medicines called  chemotherapy , including 
+ 5-fluorouracil ,  folinic acid , and  irinotecan .  </p>         </div>"""   
           
 
              
@@ -90,7 +90,7 @@ intestine) in adults. It will be given with other medicines called ‘chemothera
 <em> if you are allergic to aflibercept or any of the other ingredients of this medicine (listed in 
 section  6).<br />
 </em> in your eye, since it may severely damage it. </p>
-<p>Please also read the package leaflets for the other medicines (‘chemotherapy’) that are part of your 
+<p>Please also read the package leaflets for the other medicines ( chemotherapy ) that are part of your 
 treatment, to see if they are suitable for you. If you are unsure, ask your doctor, pharmacist or nurse if 
 there are any reasons why you cannot use these medicines. </p>
 <p>Warnings and precautions<br />
@@ -117,13 +117,13 @@ discharge, as these could be signs of osteonecrosis of the jaw. </p>
 </li>
 <li>
 <p>you have illnesses where your gut is inflamed, such as an infected section of the bowel wall (also 
-called ‘diverticulitis’), stomach ulcers or colitis. This is because ZALTRAP may increase the risk 
+called  diverticulitis ), stomach ulcers or colitis. This is because ZALTRAP may increase the risk 
 of developing holes in the gut wall. If this should happen to you, your doctor will stop your 
 treatment with ZALTRAP. </p>
 </li>
 <li>
 <p>you have had any abnormal tube-like connections or passageways inside the body between 
-internal organs and skin or other tissues (also called ‘fistula’). If you develop such a connection or 
+internal organs and skin or other tissues (also called  fistula ). If you develop such a connection or 
 passageway during treatment, your doctor will stop your treatment with ZALTRAP. </p>
 </li>
 <li>
@@ -163,7 +163,7 @@ treatment. </p>
 </li>
 <li>
 <p>you have severe or long-lasting diarrhoea, feel sick (nausea) or are being sick (vomiting) - these 
-could cause severe loss of body fluids (called ‘dehydration’). Your doctor may need to treat you 
+could cause severe loss of body fluids (called  dehydration ). Your doctor may need to treat you 
 with other medicines and/or fluids given intravenously. </p>
 </li>
 <li>
@@ -182,7 +182,7 @@ may stop your treatment with ZALTRAP. </p>
 </li>
 <li>
 <p>you are 65 years of age or older and experience diarrhoea, dizziness, weakness, weight loss, or 
-severe loss of body fluids (called ‘dehydration’). Your doctor should monitor you carefully. </p>
+severe loss of body fluids (called  dehydration ). Your doctor should monitor you carefully. </p>
 </li>
 <li>
 <p>your level of everyday activities is limited or worsens on treatment. Your doctor should monitor 
@@ -194,7 +194,7 @@ you are given ZALTRAP and during your treatment.  </p>
 <p>During treatment, your doctor will perform a number of tests to monitor the function of your body and 
 how the medicine is working. Tests may include blood and urine tests, x-ray or other scanning 
 techniques and/or other tests. </p>
-<p>ZALTRAP is given by a drip (infusion) into one of your veins (‘intra-venous’) to treat advanced 
+<p>ZALTRAP is given by a drip (infusion) into one of your veins ( intra-venous ) to treat advanced 
 cancers of the colon or rectum. ZALTRAP must not be injected into the eye, since it may severely 
 damage it. </p>
 <p>Children and adolescents<br />
@@ -207,7 +207,7 @@ medicines. This may include medicines obtained without a prescription or herbal 
 You should not use ZALTRAP during pregnancy unless you and your doctor decide that the benefit 
 for you is greater than any possible risk to you or your unborn baby. 
 If you are a woman that could become pregnant you should use effective contraception (see 
-“Contraception” section below for details on male and female contraception). This medicine may harm 
+ Contraception  section below for details on male and female contraception). This medicine may harm 
 your unborn baby since it may stop new blood vessels from forming. </p>
 <p>Talk to your doctor before being given this medicine if you are breast-feeding. This is because it is not 
 known if the medicine passes into breast milk. </p>
@@ -230,7 +230,7 @@ is equivalent to 1.1% of the recommended maximum daily dietary intake of sodium 
   * code.text = "3. How to take zaltrap"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZALTRAP will be given to you by a doctor or a nurse that is experienced in the use of 
-‘chemotherapy’. It is given by a drip (infusion) into one of your veins (‘intra-venous’). ZALTRAP 
+ chemotherapy . It is given by a drip (infusion) into one of your veins ( intra-venous ). ZALTRAP 
 must not be injected into the eye, since it may severely damage it. </p>
 <p>The medicine must be diluted before it is given. Practical information for handling and administration 
 of ZALTRAP for doctors, nurses and pharmacists when using this medicine is provided with this 
@@ -242,8 +242,8 @@ leaflet. </p>
 the correct dose for you. 
 * Your doctor will decide how often you will be given the medicine and if you need a change in the 
 dose. </p>
-<p>ZALTRAP will be given with other chemotherapy medicines including ‘5-fluorouracil’, ‘folinic acid’, 
-and ‘irinotecan’. Your doctor will decide the appropriate doses for these other chemotherapy 
+<p>ZALTRAP will be given with other chemotherapy medicines including  5-fluorouracil ,  folinic acid , 
+and  irinotecan . Your doctor will decide the appropriate doses for these other chemotherapy 
 medicines. </p>
 <p>Treatment will continue as long as your doctor thinks the treatment is of benefit to you, and the side 
 effects are acceptable.  </p>
@@ -273,36 +273,36 @@ discharge, numbness or a feeling of heaviness in the jaw, or loosening of a toot
 being treated with ZALTRAP or after stopping treatment. </p>
 </li>
 <li>
-<p>Holes in the gut (also called ‘gastro-intestinal perforation’): Uncommon (may affect up to 1 in 
+<p>Holes in the gut (also called  gastro-intestinal perforation ): Uncommon (may affect up to 1 in 
 100 people) - this is a hole in the stomach, food pipe, gut or bowel. This can lead to death. Signs 
 may include stomach pain, being sick (vomiting), fever or chills.  </p>
 </li>
 <li>
 <p>Connections or passageways inside the body between internal organs and skin or other 
-tissues (also called ‘fistula’): Common (may affect up to 1 in 10 people) - these abnormal 
+tissues (also called  fistula ): Common (may affect up to 1 in 10 people) - these abnormal 
 tube-like connections or passageways can form for example, between the gut and your skin. 
 Sometimes, depending on where this happens, you may get an unusual discharge at that place.  If 
 you are uncertain contact your doctor.  </p>
 </li>
 <li>
-<p>High blood pressure (also called ‘hypertension’): Very common (may affect more than 1 in people) - this may develop or get worse. If blood pressure is not controlled, it may cause stroke, 
+<p>High blood pressure (also called  hypertension ): Very common (may affect more than 1 in people) - this may develop or get worse. If blood pressure is not controlled, it may cause stroke, 
 heart and kidney problems. Your doctor should check your blood pressure throughout your 
 treatment. </p>
 </li>
 <li>
-<p>Heart failure (also called cardiac failure); Uncommon (may affect up to 1 in 100 people) – Signs 
+<p>Heart failure (also called cardiac failure); Uncommon (may affect up to 1 in 100 people)   Signs 
 may include shortness of breath when you lie down or when you exert yourself, excessive 
 tiredness or leg swelling.  </p>
 </li>
 <li>
-<p>Blocking of the arteries by a blood clot (also called ‘arterial thrombo-embolic events’): 
+<p>Blocking of the arteries by a blood clot (also called  arterial thrombo-embolic events ): 
 Common (may affect up to 1 in 10 people) - this may lead to a stroke or heart attack. Signs may 
 include chest pain or heaviness in the chest, sudden numb or weak feeling in the face, arms, or 
 legs. Other signs include feeling confused; problems with sight, walking, coordination or balance; 
 or problems in saying words or slurring of speech. </p>
 </li>
 <li>
-<p>Blocking of the veins by a blood clot (also called ‘venous thrombo-embolic events’): Common 
+<p>Blocking of the veins by a blood clot (also called  venous thrombo-embolic events ): Common 
 (may affect up to 1 in 10 people) - this may include a blood clot in the lungs or legs. Signs may 
 include chest pain, coughing, being short of breath, difficulty breathing or coughing up blood. 
 Other signs include swelling in one or both legs, pain or tenderness in one or both legs while 
@@ -310,21 +310,21 @@ standing or walking, warmth of the skin on the affected leg, red or discoloured 
 leg or visible veins. </p>
 </li>
 <li>
-<p>Protein in the urine (also called ‘proteinuria’): Very common (may affect more than 1 in people) – this is very commonly seen in tests. This may include swelling of the feet or whole body 
+<p>Protein in the urine (also called  proteinuria ): Very common (may affect more than 1 in people)   this is very commonly seen in tests. This may include swelling of the feet or whole body 
 and may be related to kidney disease.  </p>
 </li>
 <li>
-<p>Low white blood cell count (also called ‘neutropenia’): Very common (may affect more than 1 
+<p>Low white blood cell count (also called  neutropenia ): Very common (may affect more than 1 
 in 10 people) - this can cause serious infections. Your doctor will do blood tests regularly to check 
 your white blood cell counts throughout your treatment. They may also prescribe a medicine 
-called ‘G-CSF’ to help prevent complications if your white blood cell count is too low. Signs of 
+called  G-CSF  to help prevent complications if your white blood cell count is too low. Signs of 
 infection may include fever, chills, cough, burning on passing water or muscle ache. You should 
 take your temperature often during treatment with this medicine. </p>
 </li>
 <li>
 <p>Diarrhoea and dehydration: Very common (may affect more than 1 in 10 people) for diarrhoea 
 and Common (may affect up to 1 in 10 people) for dehydration - severe diarrhoea and being sick 
-(vomiting) can cause you to lose too much body fluid (called ‘dehydration’) and body salts 
+(vomiting) can cause you to lose too much body fluid (called  dehydration ) and body salts 
 (electrolytes). Signs may include dizziness especially when going from sitting to standing. You 
 may need to go to the hospital for treatment. Your doctor may give you medicines to stop or treat 
 diarrhoea and being sick (vomiting). </p>
@@ -342,8 +342,8 @@ when a scar has trouble healing or staying closed, or if a healed wound re-opens
 stop this medicine for at least 4 weeks before planned surgery and until the wound is fully healed. </p>
 </li>
 <li>
-<p>A side effect which affects your nervous system (called ‘posterior reversible encephalopathy 
-syndrome’ or PRES): Uncommon (may affect up to 1 in 100 people) - signs may include 
+<p>A side effect which affects your nervous system (called  posterior reversible encephalopathy 
+syndrome  or PRES): Uncommon (may affect up to 1 in 100 people) - signs may include 
 headache, sight changes, feeling confused or fits with or without high blood pressure.  </p>
 </li>
 </ul>
@@ -360,7 +360,7 @@ headache, sight changes, feeling confused or fits with or without high blood pre
 * painful sores in the mouth 
 * stomach pain 
 * swelling and numbness of the hands and feet that happens with chemotherapy (called 
-‘Palmar-Plantar Erythrodysaesthesia syndrome’) 
+ Palmar-Plantar Erythrodysaesthesia syndrome ) 
 * feeling tired or weak 
 * weight loss<br />
 * kidney problem with an increase in creatinine (a marker of kidney function) 
@@ -376,8 +376,8 @@ headache, sight changes, feeling confused or fits with or without high blood pre
 * changes in the colour of the skin. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * an increase in protein in the urine, an increase in cholesterol in the blood, and swelling from 
-excess fluid (oedema) (also called ‘nephrotic syndrome’) 
-* blood clot in very small blood vessels (also called ‘thrombotic microangiopathy’). </p>
+excess fluid (oedema) (also called  nephrotic syndrome ) 
+* blood clot in very small blood vessels (also called  thrombotic microangiopathy ). </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 * an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall (aneurysms 
 and artery dissections) </p>
@@ -395,11 +395,11 @@ safety of this medicine.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the label of 
 the vial after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). 
+<p>Store in a refrigerator (2 C - 8 C). 
 Store in the original package in order to protect from light. </p>
 <p>Information about storage and the time to use ZALTRAP, after it has been diluted and is ready to use, 
-is described in the ‘Practical information for healthcare professionals on preparation and handling of 
-ZALTRAP 25 mg / ml concentrate for solution for infusion’ at the end of this leaflet.  </p>
+is described in the  Practical information for healthcare professionals on preparation and handling of 
+ZALTRAP 25 mg / ml concentrate for solution for infusion  at the end of this leaflet.  </p>
 <p>Do not use ZALTRAP if you notice particles or discolouration of the medicine in the vial or infusion 
 bag. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -438,22 +438,21 @@ Industriepark Hoechst
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS zrt.<br />
 Tel.: +36 1 505 0 
 Danmark 
@@ -469,18 +468,17 @@ Nederland
 Genzyme Europe B.V. 
 Tel: +31 (0)20 245 4 </p>
 <p>Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16<br />
-Österreich 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -488,11 +486,11 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 sanofi-aventis France 
-Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda. 
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23 Portugal 
+Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -501,10 +499,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -512,10 +510,9 @@ Sanofi S.r.l.
 Tel: 800536 
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

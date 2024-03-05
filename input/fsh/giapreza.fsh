@@ -4,7 +4,7 @@ Instance: composition-en-48d92e6f37b4f6c7f2463bf11b72f4f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for giapreza Package Leaflet"
 Description:  "Composition for giapreza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -82,9 +82,11 @@ blood pressure.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take giapreza"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given GIAPREZA: 
-- if you are allergic to angiotensin II or any of the other ingredients of this medicine (listed in 
-section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given GIAPREZA:</p>
+<ul>
+<li>if you are allergic to angiotensin II or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+</ul>
 <p>Your doctor or nurse should be told if any of the above applies to you before this medicine is used. </p>
 <p>Warnings and precautions<br />
 GIAPREZA has only been tested in people with septic and distributive shock. It has not been tested in 
@@ -109,12 +111,14 @@ GIAPREZA should not be used in children or adolescents under 18 years of age as 
 studied in these age groups.  </p>
 <p>Other medicines and GIAPREZA 
 Your doctor should be told if you are using, have recently used, or might use any other medicines. </p>
-<p>A number of medicines may affect the way GIAPREZA works, such as: 
-- Angiotensin converting enzyme (ACE) inhibitors (medicines used to lower blood pressure, with 
+<p>A number of medicines may affect the way GIAPREZA works, such as:</p>
+<ul>
+<li>Angiotensin converting enzyme (ACE) inhibitors (medicines used to lower blood pressure, with 
 active substances whose name usually end in -pril). ACE inhibitors may increase to the effect of 
-GIAPREZA. 
-- Angiotensin II receptor blockers (medicines used to lower blood pressure, with active 
-substances whose names usually end in -sartan) may lessen the effect of GIAPREZA. </p>
+GIAPREZA. </li>
+<li>Angiotensin II receptor blockers (medicines used to lower blood pressure, with active 
+substances whose names usually end in -sartan) may lessen the effect of GIAPREZA. </li>
+</ul>
 <p>Your doctor may already be giving you other medicines used to increase your blood pressure. Adding 
 GIAPREZA to these medicines may require that the doses of the other medicines be lowered. </p>
 <p>Pregnancy, breast-feeding and fertility 
@@ -128,7 +132,7 @@ breast-feeding before this medicine is given. </p>
 <p>It is not known whether GIAPREZA can affect fertility. </p>
 <p>Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 2.5 mg/1 ml, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take giapreza"
@@ -165,20 +169,26 @@ early, you may experience a decrease in your blood pressure or your condition ma
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately if you experience: 
-- Pain, redness or pale colour, swelling or coolness to the touch of the skin or limbs, as these may 
+<p>Tell your doctor immediately if you experience:</p>
+<ul>
+<li>Pain, redness or pale colour, swelling or coolness to the touch of the skin or limbs, as these may 
 be symptoms of a blood clot in one of your veins. These clots may travel through blood vessels 
 to the lungs causing chest pain and difficulty breathing. If you notice any of these symptoms, 
 seek medical advice immediately. These types of symptoms occur in greater than 1 out of every 
 10 patients. While not all of these symptoms lead to life-threatening complications, your doctor 
-should be told about them immediately. </p>
+should be told about them immediately. </li>
+</ul>
 <p>Other side effects are: 
-Very common side effects (may affect more than 1 in 10 people) are: 
-- Too high blood pressure </p>
-<p>Common side effects (may affect up to 1 in 10 people) are:  <br />
-- Rapid heartbeat 
-- Poor circulation to your hands, feet, or other bodily areas which can be severe and cause tissue 
-damage. </p>
+Very common side effects (may affect more than 1 in 10 people) are:</p>
+<ul>
+<li>Too high blood pressure </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people) are:</p>
+<ul>
+<li>Rapid heartbeat </li>
+<li>Poor circulation to your hands, feet, or other bodily areas which can be severe and cause tissue 
+damage. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
@@ -190,11 +200,11 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "5. How to store giapreza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and vial after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the carton and vial after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C - 8 °C). </p>
+<p>Store in a refrigerator (2  C - 8  C). </p>
 <p>The diluted solution should be used immediately. Chemical and physical in-use stability has been 
-demonstrated for 24 hours at room temperature and 2 °C - 8 °C. </p>
+demonstrated for 24 hours at room temperature and 2  C - 8  C. </p>
 <p>Do not use if you notice any signs of visible damage or discolouration.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment.  </p>         </div>"""      
@@ -211,7 +221,7 @@ to 2.5 mg angiotensin II.
 - One vial of 1 ml concentrate for solution for infusion contains 2.5 mg of angiotensin II 
 - One vial of 2 ml concentrate for solution for infusion contains 5 mg of angiotensin II 
 - The other ingredients are mannitol and water for injections adjusted with sodium hydroxide 
-and/or hydrochloric acid (see section 2 under ‘Sodium’).  </p>
+and/or hydrochloric acid (see section 2 under  Sodium ).  </p>
 <p>What GIAPREZA looks like and contents of the pack 
 GIAPREZA is presented as a concentrate for solution for infusion (sterile concentrate). The solution is 
 a clear, colourless solution free of any visible particles.  </p>
@@ -219,29 +229,29 @@ a clear, colourless solution free of any visible particles.  </p>
 sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 PAION Deutschland GmbH<br />
-Heussstraße 52078 Aachen<br />
+Heussstra e 52078 Aachen<br />
 Germany </p>
 <p>Manufacturer 
 PAION Netherlands B.V. 
 Vogt 6422 RK Heerlen 
 Netherlands </p>
 <p>PAION Deutschland GmbH 
-Heussstraße 52078 Aachen 
+Heussstra e 52078 Aachen 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Viatris bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 Lietuva<br />
+T l/Tel: + 32 (0)2 658 61 Lietuva<br />
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4България 
+Tel: + 49 800 4453 4<br />
 PAION Deutschland GmbH<br />
-Teл.: + 49 800 4453 4Luxembourg/Luxemburg<br />
+Te .: + 49 800 4453 4Luxembourg/Luxemburg<br />
 PAION Deutschland GmbH<br />
-Tél/Tel: + 49 800 4453 4Česká republika 
+T l/Tel: + 49 800 4453 4 esk  republika 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4453&lt;{e-mail}&gt; 
-Magyarország<br />
+Tel: + 49 800 4453 4453<em>{e-mail}</em> 
+Magyarorsz g<br />
 PAION Deutschland GmbH<br />
 Tel.: + 49 800 4453 4Danmark<br />
 PAION Deutschland GmbH<br />
@@ -255,38 +265,38 @@ Tel: + 49 800 4453 4Eesti
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Norge 
 PAION Deutschland GmbH<br />
-Tlf: + 49 800 4453 4Ελλάδα 
+Tlf: + 49 800 4453 4<br />
 Viatris Hellas Ltd 
-Τηλ: +30 210 0100Österreich 
+ : +30 210 0100 sterreich 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4España 
+Tel: + 49 800 4453 4Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel.: + 48 22 546 64 France 
-Viatris Santé 
-Tél: +33 4 37 25 75 Portugal 
+Viatris Sant<br />
+T l: +33 4 37 25 75 Portugal 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Hrvatska<br />
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4România 
+Tel: + 49 800 4453 4Rom nia 
 BGP Products SRL 
 Tel: +40 372 579 Ireland<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Slovenija 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4Ísland 
+Tel: + 49 800 4453 4 sland 
 PAION Deutschland GmbH<br />
-Sími: + 49 800 4453 4453<br />
-Slovenská republika<br />
+S mi: + 49 800 4453 4453<br />
+Slovensk  republika<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Italia 
 Mylan Italia S.r.l. 
 Tel: + 39 02 612 46Suomi/Finland 
 PAION Deutschland GmbH<br />
-Puh/Tel: + 49 800 4453 4Κύπρος<br />
+Puh/Tel: + 49 800 4453 4 <br />
 PAION Deutschland GmbH<br />
-Τηλ: + 49 800 4453 4Sverige 
+ : + 49 800 4453 4Sverige 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Latvija<br />
 PAION Deutschland GmbH<br />

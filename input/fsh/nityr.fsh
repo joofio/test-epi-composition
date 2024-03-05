@@ -4,7 +4,7 @@ Instance: composition-en-af7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for nityr Package Leaflet"
 Description:  "Composition for nityr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,9 +70,11 @@ Usage: #example
   * code.text =  "1. What nityr is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nityr contains the active substance nitisinone.  </p>
-<p>Nityr is used to treat: 
-- A rare disease called hereditary tyrosinemia type 1 in adults, adolescents and children.<br />
-- A rare disease called alkaptonuria (AKU) in adults. </p>
+<p>Nityr is used to treat:</p>
+<ul>
+<li>A rare disease called hereditary tyrosinemia type 1 in adults, adolescents and children.  </li>
+<li>A rare disease called alkaptonuria (AKU) in adults. </li>
+</ul>
 <p>In these diseases your body is unable to completely break down the amino acid tyrosine (amino acids 
 are building blocks of our proteins), forming harmful substances. These substances are accumulated in 
 your body. Nityr blocks the breakdown of tyrosine and the harmful substances are not formed.  </p>
@@ -91,7 +93,7 @@ tyrosine and phenylalanine (another amino acid) content.  </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Nityr 
 - if you are allergic to nitisinone or any of the other ingredients of this medicine (listed in section 
 6). </p>
-<p>Do not breast-feed while taking this medicine, see section “Pregnancy and breast-feeding”. </p>
+<p>Do not breast-feed while taking this medicine, see section  Pregnancy and breast-feeding . </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Nityr.<br />
 - Your eyes will be checked by an ophthalmologist before and regularly during nitisinone treatment. 
@@ -106,20 +108,22 @@ shorter intervals are recommended.  </p>
 <p>Other medicines and Nityr<br />
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. 
-Nityr may interfere with the effect of other medicines, such as: 
-- Medicines for epilepsy (such as phenytoin) 
-- Medicines against blood clotting (such as warfarin)  </p>
+Nityr may interfere with the effect of other medicines, such as:</p>
+<ul>
+<li>Medicines for epilepsy (such as phenytoin) </li>
+<li>Medicines against blood clotting (such as warfarin)  </li>
+</ul>
 <p>Nityr with food<br />
 Nityr can be taken with or without food throughout your course of treatment.  </p>
 <p>Pregnancy and breast-feeding 
 The safety of this medicine has not been studied in pregnant and breast-feeding women.<br />
 Please contact your doctor if you plan to become pregnant. If you become pregnant you should contact 
 your doctor immediately.<br />
-Do not breast-feed while taking this medicine, see section “Do not take Nityr”.  </p>
+Do not breast-feed while taking this medicine, see section  Do not take Nityr .  </p>
 <p>Driving and using machines 
 This medicine has minor influence on the ability to drive and use machines. However, if you 
 experience side effects affecting your vision you should not drive or use machines until your vision is 
-back to normal (see section 4 “Possible side effects”).  </p>
+back to normal (see section 4  Possible side effects ).  </p>
 <p>Nityr contains lactose If you have been told by your doctor that you have an intolerance to some 
 sugars, contact your doctor before taking this medicine. </p>         </div>"""   
                     
@@ -209,14 +213,14 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Nityr contains<br />
 - The active substance is nitisinone. Each tablet contains 10 mg nitisinone.<br />
 - The other ingredients are glycerol dibehenate and lactose monohydrate (see section 2 under 
-‘Nityr contains lactose’). </p>
+ Nityr contains lactose ). </p>
 <p>What Nityr looks like and contents of the pack<br />
 Nityr are white to beige, round, flat tablets, which may display light yellow to brown speckles, marked 
-with “L” on one side and “10” on the other side.<br />
+with  L  on one side and  10  on the other side.<br />
 Nityr is available in a bottle containing 60 tablets.  </p>
 <p>Marketing Authorisation Holder<br />
 Cycle Pharmaceuticals (Europe) Limited 
-70 Sir John Rogerson’s Quay<br />
+70 Sir John Rogerson s Quay<br />
 Dublin 2, D02 RIreland </p>
 <p>Manufacturer 
 Millmount Healthcare Limited 

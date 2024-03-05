@@ -4,7 +4,7 @@ Instance: composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
 InstanceOf: CompositionUvEpi
 Title: "Composition for duloxetine Package Leaflet"
 Description:  "Composition for duloxetine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,36 +95,36 @@ doctor if you do not feel better after 2 months. </p>         </div>"""
 * have liver disease; 
 * have severe kidney disease; 
 * are taking or have taken within the last 14 days, another medicine known as a monoamine 
-oxidase inhibitor (MAOI) (see ‘Other medicines and Duloxetine Zentiva’); 
+oxidase inhibitor (MAOI) (see  Other medicines and Duloxetine Zentiva ); 
 * are taking fluvoxamine which is usually used to treat depression, ciprofloxacin or enoxacin 
 which are used to treat some infections. </p>
 <ul>
-<li>are taking other medicines containing duloxetine (see ‘Other medicines and Duloxetine 
-Zentiva’)  </li>
+<li>are taking other medicines containing duloxetine (see  Other medicines and Duloxetine 
+Zentiva )  </li>
 </ul>
 <p>Talk to your doctor if you have high blood pressure or heart disease. Your doctor will tell you if you 
 should be taking Duloxetine Zentiva. </p>
 <p>Warnings and precautions 
 The following are reasons why Duloxetine Zentiva may not be suitable for you. Talk to your doctor 
 before taking Duloxetine Zentiva if you: 
-* are taking other medicines to treat depression (see ‘Other medicines and Duloxetine Zentiva’); 
-* are taking St. John’s Wort, a herbal treatment (Hypericum perforatum); 
+* are taking other medicines to treat depression (see  Other medicines and Duloxetine Zentiva ); 
+* are taking St. John s Wort, a herbal treatment (Hypericum perforatum); 
 * have kidney disease; 
 * have had seizures (fits); 
 * have had mania; 
 * suffer from bipolar disorder; 
 * have eye problems, such as certain kinds of glaucoma (increased pressure in the eye); 
 * have a history of bleeding disorders (tendency to develop bruises), especially if you are 
-pregnant (see ‘Pregnancy and breast-feeding‘); 
+pregnant (see  Pregnancy and breast-feeding ); 
 * are at risk of low sodium levels (for example if you are taking diuretics, especially if you are 
 elderly); 
 * are currently being treated with another medicine which may cause liver damage; 
 * are taking any opioid medicines such as buprenorphine containing medicine, tramadol and 
 pethidine. The use of these medicines together with Duloxetine Zentiva can lead to serotonin 
-syndrome, a potentially life-threatening condition (see “Other medicines and Duloxetine 
-Zentiva”); 
-* are taking other medicines containing duloxetine (see ‘Other medicines and Duloxetine 
-Zentiva’). </p>
+syndrome, a potentially life-threatening condition (see  Other medicines and Duloxetine 
+Zentiva ); 
+* are taking other medicines containing duloxetine (see  Other medicines and Duloxetine 
+Zentiva ). </p>
 <p>Duloxetine Zentiva may cause a sensation of restlessness or an inability to sit or stand still. You 
 should tell your doctor if this happens to you. </p>
 <p>Medicines like Duloxetine Zentiva (so called SSRIs/SNRIs) may cause symptoms of sexual 
@@ -178,10 +178,10 @@ Zentiva before you take a MAOI. </li>
 benzodiazepines, strong painkillers, antipsychotics, phenobarbital and antihistamines. </li>
 <li>Medicines that increase the level of serotonin: Triptans, tryptophan, SSRIs (such as 
 paroxetine and fluoxetine), SNRIs (such as venlafaxine), tricyclic antidepressants (such as 
-clomipramine, amitriptyline), St. John’s Wort, MAOIs (such as moclobemide and linezolid) and 
+clomipramine, amitriptyline), St. John s Wort, MAOIs (such as moclobemide and linezolid) and 
 opioid medicines such as buprenorphine containing medicine, tramadol and pethidine. These 
-medicines increase the risk of side effects such as serotonin syndrome (see section “Warnings 
-and precautions”). If you get any unusual symptom taking any of these medicines together with 
+medicines increase the risk of side effects such as serotonin syndrome (see section  Warnings 
+and precautions ). If you get any unusual symptom taking any of these medicines together with 
 Duloxetine Zentiva, you should see your doctor. </li>
 <li>Oral anticoagulants or antiplatelet agents: Medicines which thin the blood or prevent the 
 blood from clotting. These medicines might increase the risk of bleeding. </li>
@@ -213,7 +213,7 @@ immediately. </p>
 symptoms when it is born. These usually begin at birth or within a few days of your baby being 
 born. These symptoms may include floppy muscles, trembling, jitteriness, not feeding properly, 
 trouble with breathing and fits. If your baby has any of these symptoms when it is born, or you 
-are concerned about your baby’s health, contact your doctor or midwife who will be able to 
+are concerned about your baby s health, contact your doctor or midwife who will be able to 
 advise you. </p>
 </li>
 <li>
@@ -330,7 +330,7 @@ sit or stand still, feeling nervous, difficulty concentrating, changes in sense 
 controlling movement e.g., lack of coordination or involuntary movements of the muscles, 
 restless legs syndrome, poor sleep quality; 
 * large pupils (the dark centre of the eye), problems with eyesight; 
-* feeling of dizziness or “spinning” (vertigo), ear pain; 
+* feeling of dizziness or  spinning  (vertigo), ear pain; 
 * fast and/or irregular heart beat; 
 * fainting, dizziness, light-headedness or fainting on standing up, cold fingers and/or toes; 
 * throat tightness, nose bleeds; 
@@ -357,7 +357,7 @@ serious symptoms are fainting, fits or falls), syndrome of inappropriate secreti
 hormone (SIADH); 
 * suicidal behaviour, mania (over activity, racing thoughts and decreased need for sleep), 
 hallucinations, aggression and anger; 
-* “Serotonin syndrome” (a rare reaction which may cause feelings of great happiness, drowsiness, 
+*  Serotonin syndrome  (a rare reaction which may cause feelings of great happiness, drowsiness, 
 clumsiness, restlessness, feeling of being drunk, fever, sweating or rigid muscles), fits; 
 * increased pressure in the eye (glaucoma); 
 * coughing, wheezing and shortness of breath which may be accompanied by a high temperature; 
@@ -388,7 +388,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton/blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store below 30 °C. Store in the original package in order to protect from moisture. </p>
+<p>Store below 30  C. Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -431,22 +431,21 @@ Theodor Pallady Nr 032266 Bucharest
 Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Zentiva, k.s. 
-Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+T l/Tel: +32 280 86 PV-Belgium@zentiva.com 
 Lietuva 
 Zentiva, k.s. 
-Tel: +370 52152PV-Lithuania@zentiva.com 
-България 
-Zentiva, k.s. 
-Тел: +35924417PV-Bulgaria@zentiva.com 
+Tel: +370 52152PV-Lithuania@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +35924417PV-Bulgaria@zentiva.com 
 Luxembourg/Luxemburg 
 Zentiva, k.s. 
-Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
-Česká republika 
+T l/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+ esk  republika 
 Zentiva, k.s. 
 Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
-Magyarország 
+Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel.: +36 1 299 1PV-Hungary@zentiva.com 
 Danmark 
@@ -466,14 +465,13 @@ Zentiva, k.s.
 Tel: +372 52 70PV-Estonia@zentiva.com 
 Norge 
 Zentiva Denmark ApS 
-Tlf: +47 219 66 PV-Norway@zentiva.com 
-Ελλάδα 
-Zentiva, k.s. 
-Τηλ: +30 211 198 7PV-Greece@zentiva.com 
-Österreich 
+Tlf: +47 219 66 PV-Norway@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +30 211 198 7PV-Greece@zentiva.com 
+ sterreich 
 Zentiva, k.s. 
 Tel: +43 720 778 PV-Austria@zentiva.com 
-España 
+Espa a 
 Zentiva, k.s. 
 Tel: +34 931 815 PV-Spain@zentiva.com 
 Polska 
@@ -481,7 +479,7 @@ Zentiva Polska Sp. z o.o.
 Tel: + 48 22 375 92 PV-Poland@zentiva.com 
 France 
 Zentiva France 
-Tél: +33 (0) 800 089 219<br />
+T l: +33 (0) 800 089 219<br />
 PV-France@zentiva.com 
 Portugal 
 Zentiva Portugal, Lda 
@@ -489,7 +487,7 @@ Tel: +351210601PV-Portugal@zentiva.com </p>
 <p>Hrvatska 
 Zentiva d.o.o. 
 Tel: +385 1 6641 PV-Croatia@zentiva.com 
-România 
+Rom nia 
 ZENTIVA S.A. 
 Tel: +4 021.304.7PV-Romania@zentiva.com 
 Ireland 
@@ -498,10 +496,10 @@ Tel: +353 818 882 PV-Ireland@zentiva.com
 Slovenija 
 Zentiva, k.s. 
 Tel: +386 360 00 PV-Slovenia@zentiva.com 
-Ísland 
+ sland 
 Zentiva Denmark ApS 
-Sími: +354 539 0PV-Iceland@zentiva.com 
-Slovenská republika 
+S mi: +354 539 0PV-Iceland@zentiva.com 
+Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
 Italia 
@@ -509,10 +507,9 @@ Zentiva Italia S.r.l.
 Tel: +39-02-38598PV-Italy@zentiva.com 
 Suomi/Finland 
 Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
-Κύπρος 
-Zentiva, k.s. 
-Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +357 240 30 PV-Cyprus@zentiva.com 
 Sverige 
 Zentiva Denmark ApS 
 Tel: +46 840 838 PV-Sweden@zentiva.com 

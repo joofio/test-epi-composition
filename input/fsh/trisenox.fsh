@@ -4,7 +4,7 @@ Instance: composition-en-8e9729f37593f28a655449a0b1bb5596
 InstanceOf: CompositionUvEpi
 Title: "Composition for trisenox Package Leaflet"
 Description:  "Composition for trisenox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How TRISENOX is given 
 4. Possible side effects 
 5. How to store TRISENOX 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -90,20 +89,22 @@ If you are allergic to arsenic trioxide or any of the other ingredients of this 
 You must talk to your doctor or nurse before you are given TRISENOX, if 
 - you have impaired kidney function. 
 - you have any liver problems. </p>
-<p>Your doctor will take the following precautions: 
-- Tests will be performed to check the amount of potassium, magnesium, calcium and creatinine 
-in your blood before your first dose of TRISENOX.<br />
-- You should have an electrical recording of the heart (electrocardiogram ECG) performed before 
-your first dose.<br />
-- Blood tests (potassium, calcium, magnesium and liver function) should be repeated during your 
-treatment with TRISENOX.<br />
-- In addition, you will receive electrocardiograms twice weekly.<br />
-- If you are at risk for a certain type of abnormal heart rhythm (e.g. torsade de pointes or QTc 
-prolongation), your heart will be monitored continuously.<br />
-- Your doctor may monitor your health during and after treatment, since arsenic trioxide, the 
+<p>Your doctor will take the following precautions:</p>
+<ul>
+<li>Tests will be performed to check the amount of potassium, magnesium, calcium and creatinine 
+in your blood before your first dose of TRISENOX.  </li>
+<li>You should have an electrical recording of the heart (electrocardiogram ECG) performed before 
+your first dose.  </li>
+<li>Blood tests (potassium, calcium, magnesium and liver function) should be repeated during your 
+treatment with TRISENOX.  </li>
+<li>In addition, you will receive electrocardiograms twice weekly.  </li>
+<li>If you are at risk for a certain type of abnormal heart rhythm (e.g. torsade de pointes or QTc 
+prolongation), your heart will be monitored continuously.  </li>
+<li>Your doctor may monitor your health during and after treatment, since arsenic trioxide, the 
 active substance in TRISENOX, may cause other cancers. You should report any new and 
-exceptional symptoms and circumstances whenever you see your doctor. 
-- Follow-up of your cognitive and mobility functions if you are at risk for vitamin B1 deficiency. </p>
+exceptional symptoms and circumstances whenever you see your doctor. </li>
+<li>Follow-up of your cognitive and mobility functions if you are at risk for vitamin B1 deficiency. </li>
+</ul>
 <p>Children and adolescents 
 TRISENOX is not recommended in children and adolescents below 18 years of age. </p>
 <p>Other medicines and TRISENOX 
@@ -148,7 +149,7 @@ If you experience discomfort or if you feel unwell after a TRISENOX injection, y
 the symptoms go away before driving or using machines. </p>
 <p>TRISENOX contains sodium 
 TRISENOX contains less than 1 mmol sodium (23 mg) per dose. This means that the medicine is 
-essentially ‘sodium-free’. </p>         </div>"""   
+essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trisenox"
@@ -188,46 +189,56 @@ TRISENOX must be stopped immediately and your doctor will treat the arsenic over
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or nurse straight away if you notice the following side effects, as these may be 
-signs of a severe condition called “differentiation syndrome”, which might be fatal: 
-- difficulty in breathing<br />
-- coughing<br />
-- chest pain<br />
-- fever  </p>
+signs of a severe condition called  differentiation syndrome , which might be fatal:</p>
+<ul>
+<li>difficulty in breathing  </li>
+<li>coughing  </li>
+<li>chest pain  </li>
+<li>fever  </li>
+</ul>
 <p>Tell your doctor or nurse straight away if you notice one or more of the following side effects, as 
-these may be signs of allergic reaction: 
-- difficulty in breathing<br />
-- fever<br />
-- sudden weight gain<br />
-- water retention<br />
-- fainting<br />
-- palpitations (strong heartbeat you can feel in your chest) </p>
+these may be signs of allergic reaction:</p>
+<ul>
+<li>difficulty in breathing  </li>
+<li>fever  </li>
+<li>sudden weight gain  </li>
+<li>water retention  </li>
+<li>fainting  </li>
+<li>palpitations (strong heartbeat you can feel in your chest) </li>
+</ul>
 <p>While on treatment with TRISENOX, you may experience some of the following reactions: </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- fatigue (weariness), pain, fever, headache 
-- nausea, vomiting, diarrhoea 
-- dizziness, muscle pain, numbness or tingling 
-- rash or itching, increased blood sugar, oedema (swelling due to excess fluid) 
-- shortness of breath, fast heart beat, abnormal ECG heart tracing 
-- reduced potassium or magnesium in the blood, liver function tests abnormal including presence 
-of excess bilirubin or gamma-glutamyltransferase in the blood </p>
-<p>Common (may affect up to 1 in 10 people): 
-- reduction in blood cell counts (platelets, red and/or white blood cells), increased white blood 
-cells 
-- chills, increased weight 
-- a fever due to an infection and low levels of white blood cells, herpes zoster infection 
-- chest pain, bleeding in the lung, hypoxia (low oxygen level), collection of fluid around the heart 
-or the lung, low blood pressure, abnormal heart rhythm 
-- fit, joint or bone pain, inflammation of the blood vessels 
-- increased sodium or magnesium, ketones in the blood and urine (ketoacidosis), renal function 
-tests abnormal, kidney failure 
-- stomach (abdominal) ache 
-- redness of the skin, swollen face, blurred vision  </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- lung infection, infection in the blood 
-- inflammation of the lungs which causes chest pain and breathlessness, cardiac failure 
-- dehydration, confusion 
-- Cerebral disease (Encephalopathy, Wernicke encephalopathy) with various manifestations 
-including difficulties to use arms and legs, speech disorders and confusion </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>fatigue (weariness), pain, fever, headache </li>
+<li>nausea, vomiting, diarrhoea </li>
+<li>dizziness, muscle pain, numbness or tingling </li>
+<li>rash or itching, increased blood sugar, oedema (swelling due to excess fluid) </li>
+<li>shortness of breath, fast heart beat, abnormal ECG heart tracing </li>
+<li>reduced potassium or magnesium in the blood, liver function tests abnormal including presence 
+of excess bilirubin or gamma-glutamyltransferase in the blood </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>reduction in blood cell counts (platelets, red and/or white blood cells), increased white blood 
+cells </li>
+<li>chills, increased weight </li>
+<li>a fever due to an infection and low levels of white blood cells, herpes zoster infection </li>
+<li>chest pain, bleeding in the lung, hypoxia (low oxygen level), collection of fluid around the heart 
+or the lung, low blood pressure, abnormal heart rhythm </li>
+<li>fit, joint or bone pain, inflammation of the blood vessels </li>
+<li>increased sodium or magnesium, ketones in the blood and urine (ketoacidosis), renal function 
+tests abnormal, kidney failure </li>
+<li>stomach (abdominal) ache </li>
+<li>redness of the skin, swollen face, blurred vision  </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>lung infection, infection in the blood </li>
+<li>inflammation of the lungs which causes chest pain and breathlessness, cardiac failure </li>
+<li>dehydration, confusion </li>
+<li>Cerebral disease (Encephalopathy, Wernicke encephalopathy) with various manifestations 
+including difficulties to use arms and legs, speech disorders and confusion </li>
+</ul>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -243,7 +254,7 @@ safety of this medicine.  </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the ampoule label and the carton. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>After dilution, if not used immediately, storage times and conditions before use are the responsibility 
-of your doctor, pharmacist or nurse and would normally not be longer than 24 hours at 2 to 8 ºC, 
+of your doctor, pharmacist or nurse and would normally not be longer than 24 hours at 2 to 8  C, 
 unless dilution has taken place in a sterile environment. </p>
 <p>This medicine must not be used if you notice foreign particulate matter or if the solution is 
 discoloured. </p>
@@ -260,7 +271,7 @@ throw away medicines you no longer use. These measures will help to protect the 
 - The active substance is arsenic trioxide. Each ml of concentrate contains 1 mg of arsenic </p>
 <p>trioxide. Each ampoule of 10 ml contains 10 mg of arsenic trioxide. 
 - The other ingredients are sodium hydroxide, hydrochloric acid and water for injections. See </p>
-<p>section 2 “TRISENOX contains sodium”. </p>
+<p>section 2  TRISENOX contains sodium . </p>
 <p>What TRISENOX looks like and contents of the pack 
 - TRISENOX is a concentrate for solution for infusion (sterile concentrate). TRISENOX is </p>
 <p>supplied in glass ampoules as a concentrated, clear, colourless, aqueous solution.<br />

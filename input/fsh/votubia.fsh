@@ -4,7 +4,7 @@ Instance: composition-en-2c8c6ac450595b1fe82bdcbd366c3744
 InstanceOf: CompositionUvEpi
 Title: "Composition for votubia Package Leaflet"
 Description:  "Composition for votubia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,11 +73,9 @@ Usage: #example
 contains an active substance called everolimus which may reduce the size of kidney tumours called 
 renal angiomyolipomas and brain tumours called subependymal giant cell astrocytomas (SEGA). 
 These tumours are caused by a genetic disorder called tuberous sclerosis complex (TSC). </p>
-<p>Votubia tablets are used to treat: 
-− 
-TSC with angiomyolipoma of the kidney in adults who do not require immediate surgery. 
-− 
-SEGA associated with TSC in adults and children for whom surgery is not appropriate. </p>         </div>"""   
+<p>Votubia tablets are used to treat: </p>
+<p>TSC with angiomyolipoma of the kidney in adults who do not require immediate surgery. </p>
+<p>SEGA associated with TSC in adults and children for whom surgery is not appropriate. </p>         </div>"""   
           
 
              
@@ -91,55 +89,41 @@ for you by a doctor with experience in treating patients with TSC. </p>
 <p>If you are being treated for SEGA associated with TSC, Votubia will only be prescribed by a doctor 
 with experience in treating patients with SEGA and with access to blood tests which will measure how 
 much Votubia is in your blood. </p>
-<p>Follow all the doctor’s instructions carefully. They may differ from the general information contained 
+<p>Follow all the doctor s instructions carefully. They may differ from the general information contained 
 in this leaflet. If you have any questions about Votubia or why it has been prescribed for you, ask your 
 doctor. </p>
-<p>Do not take Votubia 
-− 
-if you are allergic to everolimus, to related substances such as sirolimus or temsirolimus, or to 
+<p>Do not take Votubia </p>
+<p>if you are allergic to everolimus, to related substances such as sirolimus or temsirolimus, or to 
 any of the other ingredients of this medicine (listed in section 6). 
 If you had allergic reactions before, please ask your doctor for advice. </p>
 <p>Warnings and precautions 
-Talk to your doctor before taking Votubia: 
-− 
-if you have any problems with your liver or if you have ever had any disease which may have 
+Talk to your doctor before taking Votubia: </p>
+<p>if you have any problems with your liver or if you have ever had any disease which may have 
 affected your liver. If this is the case, your doctor may need to prescribe a different dose of 
-Votubia or stop treatment, either for a short time or permanently. 
-− 
-if you have diabetes (high level of sugar in your blood). Votubia may increase blood sugar 
+Votubia or stop treatment, either for a short time or permanently. </p>
+<p>if you have diabetes (high level of sugar in your blood). Votubia may increase blood sugar 
 levels and worsen diabetes mellitus. This may result in the need for insulin and/or oral 
 antidiabetic agent therapy. Tell your doctor if you experience any excessive thirst or increased 
-frequency of urination. 
-− 
-if you need to receive a vaccine while taking Votubia as vaccination may be less effective. For 
+frequency of urination. </p>
+<p>if you need to receive a vaccine while taking Votubia as vaccination may be less effective. For 
 children with SEGA, it is important to have a discussion with the doctor about the childhood 
-vaccination program before treatment with Votubia. 
-− 
-if you have high cholesterol. Votubia may elevate cholesterol and/or other blood fats. 
-− 
-if you have had recent major surgery, or if you still have an unhealed wound following surgery. 
-Votubia may increase the risk of problems with wound healing. 
-− 
-if you have an infection. It may be necessary to treat your infection before starting Votubia. 
-− 
-if you have previously had hepatitis B, because this may occur again during treatment with 
-Votubia (see section 4 ‘Possible side effects’). 
-− 
-if you have received or are about to receive radiation therapy. </p>
-<p>Votubia may also: 
-− 
-cause mouth sores (oral ulcerations). 
-− 
-weaken your immune system. Therefore, you may be at risk of getting an infection while you 
+vaccination program before treatment with Votubia. </p>
+<p>if you have high cholesterol. Votubia may elevate cholesterol and/or other blood fats. </p>
+<p>if you have had recent major surgery, or if you still have an unhealed wound following surgery. 
+Votubia may increase the risk of problems with wound healing. </p>
+<p>if you have an infection. It may be necessary to treat your infection before starting Votubia. </p>
+<p>if you have previously had hepatitis B, because this may occur again during treatment with 
+Votubia (see section 4  Possible side effects ). </p>
+<p>if you have received or are about to receive radiation therapy. </p>
+<p>Votubia may also: </p>
+<p>cause mouth sores (oral ulcerations). </p>
+<p>weaken your immune system. Therefore, you may be at risk of getting an infection while you 
 are taking Votubia. If you have fever or other signs of an infection, consult with your doctor. 
-Some infections may be severe and may have fatal consequences in adults and children. 
-− 
-impact your kidney function. Therefore, your doctor will monitor your kidney function while 
-you are taking Votubia. 
-− 
-cause shortness of breath, cough and fever (see section 4 ‘Possible side effects’). 
-− 
-cause complications of radiation therapy. Severe complications of radiotherapy (such as 
+Some infections may be severe and may have fatal consequences in adults and children. </p>
+<p>impact your kidney function. Therefore, your doctor will monitor your kidney function while 
+you are taking Votubia. </p>
+<p>cause shortness of breath, cough and fever (see section 4  Possible side effects ). </p>
+<p>cause complications of radiation therapy. Severe complications of radiotherapy (such as 
 shortness of breath, nausea, diarrhoea, skin rashes and soreness in mouth, gums and throat), 
 including fatal cases, have been observed in some patients who were taking everolimus at the 
 same time as radiation therapy or who were taking everolimus shortly after they had radiation 
@@ -166,40 +150,26 @@ Votubia may affect the way some other medicines work. If you are taking other me
 time as Votubia, your doctor may need to change the dose of Votubia or the other medicines. </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>The following may increase the risk of side effects with Votubia: 
-− 
-ketoconazole, itraconazole, voriconazole, or fluconazole and other antifungals used to treat 
-fungal infections. 
-− 
-clarithromycin, telithromycin or erythromycin, antibiotics used to treat bacterial infections. 
-− 
-ritonavir, and other medicines used to treat HIV infection/AIDS. 
-− 
-verapamil or diltiazem, used to treat heart conditions or high blood pressure. 
-− 
-dronedarone, a medicine used to help regulate your heart beat. 
-− 
-ciclosporin, a medicine used to stop the body from rejecting organ transplants. 
-− 
-imatinib, used to inhibit the growth of abnormal cells. 
-− 
-angiotensin-converting enzyme (ACE) inhibitors (such as ramipril) used to treat high blood 
-pressure or other cardiovascular problems. 
-− 
-cannabidiol (uses amongst others include treatment of seizures). </p>
-<p>The following may reduce the effectiveness of Votubia: 
-− 
-rifampicin, used to treat tuberculosis (TB). 
-− 
-efavirenz or nevirapine, used to treat HIV infection/AIDS. 
-− 
-St. John’s wort (Hypericum perforatum), a herbal product used to treat depression and other 
-conditions. 
-− 
-dexamethasone, a corticosteroid used to treat a wide variety of conditions including 
-inflammatory or immune problems. 
-− 
-phenytoin, carbamazepine or phenobarbital and other anti-epileptics used to stop seizures or fits. </p>
+<p>The following may increase the risk of side effects with Votubia: </p>
+<p>ketoconazole, itraconazole, voriconazole, or fluconazole and other antifungals used to treat 
+fungal infections. </p>
+<p>clarithromycin, telithromycin or erythromycin, antibiotics used to treat bacterial infections. </p>
+<p>ritonavir, and other medicines used to treat HIV infection/AIDS. </p>
+<p>verapamil or diltiazem, used to treat heart conditions or high blood pressure. </p>
+<p>dronedarone, a medicine used to help regulate your heart beat. </p>
+<p>ciclosporin, a medicine used to stop the body from rejecting organ transplants. </p>
+<p>imatinib, used to inhibit the growth of abnormal cells. </p>
+<p>angiotensin-converting enzyme (ACE) inhibitors (such as ramipril) used to treat high blood 
+pressure or other cardiovascular problems. </p>
+<p>cannabidiol (uses amongst others include treatment of seizures). </p>
+<p>The following may reduce the effectiveness of Votubia: </p>
+<p>rifampicin, used to treat tuberculosis (TB). </p>
+<p>efavirenz or nevirapine, used to treat HIV infection/AIDS. </p>
+<p>St. John s wort (Hypericum perforatum), a herbal product used to treat depression and other 
+conditions. </p>
+<p>dexamethasone, a corticosteroid used to treat a wide variety of conditions including 
+inflammatory or immune problems. </p>
+<p>phenytoin, carbamazepine or phenobarbital and other anti-epileptics used to stop seizures or fits. </p>
 <p>All medicines listed above should be avoided during your treatment with Votubia. If you are taking 
 any of them, your doctor may switch you to a different medicine, or may change your dose of Votubia. </p>
 <p>If you are taking an anti-seizure medicine, a change in the dose of the anti-seizure medicine (increase 
@@ -242,49 +212,36 @@ If you receive Votubia for the treatment of TSC with angiomyolipoma of the kidne
 needs, for example if you have problems with your liver or if you are taking certain other medicines in 
 addition to Votubia. </p>
 <p>If you receive Votubia for the treatment of TSC with SEGA, your doctor will determine the dose of 
-Votubia you need to take depending on: 
-− 
-your age 
-− 
-your body size 
-− 
-the health of your liver 
-− 
-other medicines you are taking. </p>
+Votubia you need to take depending on: </p>
+<p>your age </p>
+<p>your body size </p>
+<p>the health of your liver </p>
+<p>other medicines you are taking. </p>
 <p>You will have blood tests during treatment with Votubia. This is to measure the amount of Votubia in 
 your blood and find the best daily dose for you. </p>
 <p>If you experience certain side effects (see section 4) while you are taking Votubia, your doctor may 
 lower your dose or stop treatment, either for a short time or permanently. </p>
-<p>How to take this medicine 
-− 
-Take Votubia tablets once a day. 
-− 
-Take them at the same time every day. 
-− 
-You can take them either with or without food, but you need to do this in the same way each 
+<p>How to take this medicine </p>
+<p>Take Votubia tablets once a day. </p>
+<p>Take them at the same time every day. </p>
+<p>You can take them either with or without food, but you need to do this in the same way each 
 day. </p>
 <p>Swallow the tablets whole with a glass of water. Do not chew or crush the tablets. If you are taking 
 Votubia tablets for the treatment of TSC with SEGA and if you are unable to swallow the tablets, you 
-can stir them into a glass of water: 
-− 
-Put the required number of tablets into a glass of water (approximately 30 ml). 
-− 
-Gently stir the contents of the glass until the tablets break apart (approximately 7 minutes) and 
-then drink the contents immediately. 
-− 
-Refill the glass with the same amount of water (approximately 30 ml), gently stir the remaining 
-content and drink the whole amount to make sure that you get the full dose of Votubia tablets. 
-− 
-If necessary, drink additional water to wash out any residues in your mouth. </p>
+can stir them into a glass of water: </p>
+<p>Put the required number of tablets into a glass of water (approximately 30 ml). </p>
+<p>Gently stir the contents of the glass until the tablets break apart (approximately 7 minutes) and 
+then drink the contents immediately. </p>
+<p>Refill the glass with the same amount of water (approximately 30 ml), gently stir the remaining 
+content and drink the whole amount to make sure that you get the full dose of Votubia tablets. </p>
+<p>If necessary, drink additional water to wash out any residues in your mouth. </p>
 <p>Special information for caregivers 
 Caregivers are advised to avoid contact with suspensions of Votubia tablets. Wash hands thoroughly 
 before and after preparation of the suspension. </p>
-<p>If you take more Votubia than you should 
-− 
-If you have taken too much Votubia, or if someone else accidentally takes your tablets, see a 
-doctor or go to a hospital immediately. Urgent treatment may be necessary. 
-− 
-Take the carton and this leaflet, so that the doctor knows what has been taken. </p>
+<p>If you take more Votubia than you should </p>
+<p>If you have taken too much Votubia, or if someone else accidentally takes your tablets, see a 
+doctor or go to a hospital immediately. Urgent treatment may be necessary. </p>
+<p>Take the carton and this leaflet, so that the doctor knows what has been taken. </p>
 <p>If you forget to take Votubia 
 If you miss a dose, take your next dose as scheduled. Do not take a double dose to make up for the 
 forgotten tablets. </p>
@@ -305,172 +262,108 @@ following signs of an allergic reaction:
 * swelling of the face, lips, tongue or throat (signs of angioedema) 
 * severe itching of the skin, with a red rash or raised bumps </p>
 <p>Serious side effects of Votubia include: </p>
-<p>Very common side effects (may affect more than 1 in 10 people) 
-− 
-Fever, cough, difficulty breathing, wheezing (signs of inflammation of the lung due to infection, 
+<p>Very common side effects (may affect more than 1 in 10 people) </p>
+<p>Fever, cough, difficulty breathing, wheezing (signs of inflammation of the lung due to infection, 
 also known as pneumonia) </p>
-<p>Common side effects (may affect up to 1 in 10 people) 
-− 
-Swelling, feeling of heaviness or tightness, pain, limited mobility of body parts (this could occur 
+<p>Common side effects (may affect up to 1 in 10 people) </p>
+<p>Swelling, feeling of heaviness or tightness, pain, limited mobility of body parts (this could occur 
 anywhere in the body and is a potential sign of an abnormal build-up of fluid in soft tissue due 
-to a blockage in the lymphatic system, also known as lymphoedema) 
-− 
-Rash, itching, hives, difficulty breathing or swallowing, dizziness (signs of serious allergic 
-reaction, also known as hypersensitivity) 
-− 
-Fever, cough, difficulty breathing, wheezing (signs of inflammation of the lung, also known as 
+to a blockage in the lymphatic system, also known as lymphoedema) </p>
+<p>Rash, itching, hives, difficulty breathing or swallowing, dizziness (signs of serious allergic 
+reaction, also known as hypersensitivity) </p>
+<p>Fever, cough, difficulty breathing, wheezing (signs of inflammation of the lung, also known as 
 pneumonitis) </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people) 
-− 
-Rash of small fluid-filled blisters, appearing on reddened skin (signs of viral infection that can 
-be potentially severe, also known as herpes zoster) 
-− 
-Fever, chills, rapid breathing and heart rate, rash, and possibly confusion and disorientation 
+<p>Uncommon side effects (may affect up to 1 in 100 people) </p>
+<p>Rash of small fluid-filled blisters, appearing on reddened skin (signs of viral infection that can 
+be potentially severe, also known as herpes zoster) </p>
+<p>Fever, chills, rapid breathing and heart rate, rash, and possibly confusion and disorientation 
 (signs of serious infection, also known as sepsis) </p>
 <p>If you experience any of these side effects, tell your doctor immediately as this might have 
 life-threatening consequences. </p>
 <p>Other possible side effects of Votubia include: </p>
-<p>Very common side effects (may affect more than 1 in 10 people) 
-− 
-Upper respiratory tract infection 
-− 
-Sore throat and runny nose (nasopharyngitis) 
-− 
-Headache, pressure in the eyes, nose or cheek area (signs of inflammation of the sinuses and 
-nasal passages, also known as sinusitis) 
-− 
-Urinary tract infection 
-− 
-High level of lipids (fats) in the blood (hypercholesterolaemia) 
-− 
-Decreased appetite 
-− 
-Headache 
-− 
-Cough 
-− 
-Mouth ulcers 
-− 
-Diarrhoea 
-− 
-Being sick (vomiting) 
-− 
-Acne 
-− 
-Skin rash 
-− 
-Feeling tired 
-− 
-Fever 
-− 
-Menstruation disorders such as absence of periods (amenorrhoea) or irregular periods 
-− 
-Sore throat (pharyngitis) 
-− 
-Headache, dizziness, signs of high blood pressure (hypertension) </p>
-<p>Common side effects (may affect up to 1 in 10 people) 
-− 
-Middle ear infection 
-− 
-Swollen, bleeding gums (signs of gum inflammation, also known as gingivitis) 
-− 
-Skin inflammation (cellulitis) 
-− 
-High level of lipids (fats) in the blood (hyperlipidaemia, raised triglycerides) 
-− 
-Low level of phosphate in the blood (hypophosphataemia) 
-− 
-High level of sugar in the blood (hyperglycaemia) 
-− 
-Tiredness, breathlessness, dizziness, pale skin (signs of low level of red blood cells, also known 
-as anaemia) 
-− 
-Fever, sore throat or mouth ulcers due to infections (signs of low level of white blood cells, also 
-known as leucopenia, lymphopenia, neutropenia) 
-− 
-Spontaneous bleeding or bruising (signs of low level of platelets, also known as 
-thrombocytopenia) 
-− 
-Mouth pain 
-− 
-Nose bleeds (epistaxis) 
-− 
-Stomach upset like feeling sick (nausea) 
-− 
-Abdominal pain 
-− 
-Severe pain in the lower abdomen and pelvic area that may be sharp, with menstrual 
-irregularities (ovarian cyst) 
-− 
-Excess amount of gas in the bowels (flatulence) 
-− 
-Constipation 
-− 
-Abdominal pain, nausea, vomiting, diarrhoea, swelling and bloating of the abdomen (signs of 
-inflammation of the stomach lining, also known as gastritis or gastroenteritis viral) 
-− 
-Dry skin, itching (pruritus) 
-− 
-An inflammatory condition of the skin characterised by redness, itching, and oozing 
-liquid-filled cysts which become scaly, crusted, or hardened (dermatitis acneiform) 
-− 
-Loss of hair (alopecia) 
-− 
-Protein in the urine 
-− 
-Menstruation disorders such as heavy periods (menorrhagia) or vaginal bleeding 
-− 
-Trouble sleeping (insomnia) 
-− 
-Irritability 
-− 
-Aggression 
-− 
-High level of an enzyme called blood lactate dehydrogenase that gives information about the 
-health of certain organs 
-− 
-High level of the hormone that triggers ovulation (blood luteinising hormone increased) 
-− 
-Weight loss </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people) 
-− 
-Muscle spasms, fever, red-brown urine which may be symptoms of a muscle disorder 
-(rhabdomyolysis) 
-− 
-Cough with phlegm, chest pain, fever (signs of inflammation of airways, also known as 
-bronchitis viral) 
-− 
-Disturbed taste (dysgeusia) 
-− 
-Menstruation disorders such as delayed periods 
-− 
-Higher level of female reproductive hormone (blood follicle stimulating hormone increased) </p>
-<p>Not known (frequency cannot be estimated from the available data) 
-− 
-Reaction at the site of previous radiation therapy, e.g. skin redness or lung inflammation 
-(so-called radiation recall syndrome) 
-− 
-Worsening of radiation treatment side effects </p>
+<p>Very common side effects (may affect more than 1 in 10 people) </p>
+<p>Upper respiratory tract infection </p>
+<p>Sore throat and runny nose (nasopharyngitis) </p>
+<p>Headache, pressure in the eyes, nose or cheek area (signs of inflammation of the sinuses and 
+nasal passages, also known as sinusitis) </p>
+<p>Urinary tract infection </p>
+<p>High level of lipids (fats) in the blood (hypercholesterolaemia) </p>
+<p>Decreased appetite </p>
+<p>Headache </p>
+<p>Cough </p>
+<p>Mouth ulcers </p>
+<p>Diarrhoea </p>
+<p>Being sick (vomiting) </p>
+<p>Acne </p>
+<p>Skin rash </p>
+<p>Feeling tired </p>
+<p>Fever </p>
+<p>Menstruation disorders such as absence of periods (amenorrhoea) or irregular periods </p>
+<p>Sore throat (pharyngitis) </p>
+<p>Headache, dizziness, signs of high blood pressure (hypertension) </p>
+<p>Common side effects (may affect up to 1 in 10 people) </p>
+<p>Middle ear infection </p>
+<p>Swollen, bleeding gums (signs of gum inflammation, also known as gingivitis) </p>
+<p>Skin inflammation (cellulitis) </p>
+<p>High level of lipids (fats) in the blood (hyperlipidaemia, raised triglycerides) </p>
+<p>Low level of phosphate in the blood (hypophosphataemia) </p>
+<p>High level of sugar in the blood (hyperglycaemia) </p>
+<p>Tiredness, breathlessness, dizziness, pale skin (signs of low level of red blood cells, also known 
+as anaemia) </p>
+<p>Fever, sore throat or mouth ulcers due to infections (signs of low level of white blood cells, also 
+known as leucopenia, lymphopenia, neutropenia) </p>
+<p>Spontaneous bleeding or bruising (signs of low level of platelets, also known as 
+thrombocytopenia) </p>
+<p>Mouth pain </p>
+<p>Nose bleeds (epistaxis) </p>
+<p>Stomach upset like feeling sick (nausea) </p>
+<p>Abdominal pain </p>
+<p>Severe pain in the lower abdomen and pelvic area that may be sharp, with menstrual 
+irregularities (ovarian cyst) </p>
+<p>Excess amount of gas in the bowels (flatulence) </p>
+<p>Constipation </p>
+<p>Abdominal pain, nausea, vomiting, diarrhoea, swelling and bloating of the abdomen (signs of 
+inflammation of the stomach lining, also known as gastritis or gastroenteritis viral) </p>
+<p>Dry skin, itching (pruritus) </p>
+<p>An inflammatory condition of the skin characterised by redness, itching, and oozing 
+liquid-filled cysts which become scaly, crusted, or hardened (dermatitis acneiform) </p>
+<p>Loss of hair (alopecia) </p>
+<p>Protein in the urine </p>
+<p>Menstruation disorders such as heavy periods (menorrhagia) or vaginal bleeding </p>
+<p>Trouble sleeping (insomnia) </p>
+<p>Irritability </p>
+<p>Aggression </p>
+<p>High level of an enzyme called blood lactate dehydrogenase that gives information about the 
+health of certain organs </p>
+<p>High level of the hormone that triggers ovulation (blood luteinising hormone increased) </p>
+<p>Weight loss </p>
+<p>Uncommon side effects (may affect up to 1 in 100 people) </p>
+<p>Muscle spasms, fever, red-brown urine which may be symptoms of a muscle disorder 
+(rhabdomyolysis) </p>
+<p>Cough with phlegm, chest pain, fever (signs of inflammation of airways, also known as 
+bronchitis viral) </p>
+<p>Disturbed taste (dysgeusia) </p>
+<p>Menstruation disorders such as delayed periods </p>
+<p>Higher level of female reproductive hormone (blood follicle stimulating hormone increased) </p>
+<p>Not known (frequency cannot be estimated from the available data) </p>
+<p>Reaction at the site of previous radiation therapy, e.g. skin redness or lung inflammation 
+(so-called radiation recall syndrome) </p>
+<p>Worsening of radiation treatment side effects </p>
 <p>If these side effects get severe please tell your doctor and/or pharmacist. Most of the side effects 
 are mild to moderate and will generally disappear if your treatment is interrupted for a few 
 days. </p>
 <p>The following side effects have been reported in patients taking everolimus for the treatment of 
-conditions other than TSC: 
-− 
-Kidney disorders: altered frequency or absence of urination may be symptoms of kidney failure 
+conditions other than TSC: </p>
+<p>Kidney disorders: altered frequency or absence of urination may be symptoms of kidney failure 
 and have been observed in some patients receiving everolimus. Other symptoms may include 
-altered kidney function test (increase in creatinine). 
-− 
-Symptoms of heart failure such as breathlessness, difficulty breathing when lying down, 
-swelling of the feet or legs 
-− 
-Blockage or obstruction of a blood vessel (vein) in the leg (deep vein thrombosis). Symptoms 
+altered kidney function test (increase in creatinine). </p>
+<p>Symptoms of heart failure such as breathlessness, difficulty breathing when lying down, 
+swelling of the feet or legs </p>
+<p>Blockage or obstruction of a blood vessel (vein) in the leg (deep vein thrombosis). Symptoms 
 may include swelling and/or pain in one of your legs, usually in the calf, redness or warm skin 
-in the affected area 
-− 
-Problems with wound healing 
-− 
-High levels of sugar in the blood (hyperglycaemia) </p>
+in the affected area </p>
+<p>Problems with wound healing </p>
+<p>High levels of sugar in the blood (hyperglycaemia) </p>
 <p>Hepatitis B reactivation has been observed in some patients taking everolimus. Tell your doctor if you 
 experience symptoms of hepatitis B during treatment with everolimus. The first symptoms may 
 include fever, skin rash, joint pain and inflammation. Other symptoms may include fatigue, loss of 
@@ -487,19 +380,13 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store votubia"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>− 
-Keep this medicine out of the sight and reach of children. 
-− 
-Do not use this medicine after the expiry date which is stated on the carton and blister foil. The 
-expiry date refers to the last day of that month. 
-− 
-Do not store above 25°C. 
-− 
-Store in the original package in order to protect from light and moisture. 
-− 
-Open the blister just before taking the Votubia tablets. 
-− 
-Do not use this medicine if the pack is damaged or shows signs of tampering. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister foil. The 
+expiry date refers to the last day of that month. </p>
+<p>Do not store above 25 C. </p>
+<p>Store in the original package in order to protect from light and moisture. </p>
+<p>Open the blister just before taking the Votubia tablets. </p>
+<p>Do not use this medicine if the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -509,23 +396,21 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Votubia tablets contain 
-− 
-The active substance is everolimus. 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Votubia tablets contain </p>
+<p>The active substance is everolimus. 
 Each Votubia 2.5 mg tablet contains 2.5 mg of everolimus. 
 Each Votubia 5 mg tablet contains 5 mg of everolimus. 
-Each Votubia 10 mg tablet contains 10 mg of everolimus. 
-− 
-The other ingredients are butylated hydroxytoluene (E321), magnesium stearate, lactose 
+Each Votubia 10 mg tablet contains 10 mg of everolimus. </p>
+<p>The other ingredients are butylated hydroxytoluene (E321), magnesium stearate, lactose 
 monohydrate, hypromellose, crospovidone type A and lactose anhydrous (see section 2 
-“Votubia contains lactose”). </p>
+ Votubia contains lactose ). </p>
 <p>What Votubia tablets looks like and contents of the pack 
 Votubia 2.5 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with 
-“LCL” on one side and “NVR” on the other. 
-Votubia 5 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with “5” on 
-one side and “NVR” on the other. 
+ LCL  on one side and  NVR  on the other. 
+Votubia 5 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with  5  on 
+one side and  NVR  on the other. 
 Votubia 10 mg tablets are white to slightly yellowish, elongated tablets. They are engraved with 
-“UHE” on one side and “NVR” on the other. </p>
+ UHE  on one side and  NVR  on the other. </p>
 <p>Votubia 2.5 mg tablets are available in packs containing 10 x 1, 30 x 1 or 100 x 1 tablets in perforated 
 unit-dose blisters of 10 x 1 tablets each. 
 Votubia 5 mg tablets are available in packs containing 30 x 1 or 100 x 1 tablets in perforated unit-dose 
@@ -540,7 +425,7 @@ Elm Park, Merrion Road
 Dublin 4 
 Ireland </p>
 <p>Manufacturer 
-Novartis Farmacéutica SA 
+Novartis Farmac utica SA 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
@@ -548,23 +433,22 @@ Roonstrasse D-90429 Nuremberg
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -580,35 +464,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -616,10 +500,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />
@@ -646,5 +529,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+effects not listed in this leaflet. See section </p>         </div>"""      
 

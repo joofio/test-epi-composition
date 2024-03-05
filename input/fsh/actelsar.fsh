@@ -4,7 +4,7 @@ Instance: composition-en-d4e93c060506fdcc083b5b1a04e82522
 InstanceOf: CompositionUvEpi
 Title: "Composition for actelsar Package Leaflet"
 Description:  "Composition for actelsar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,7 +98,7 @@ pressure is not controlled enough when telmisartan is used alone. </p>         <
 section 6). 
 - if you are allergic to hydrochlorothiazide or to any other sulfonamide-derived medicines. 
 - if you are more than 3 months pregnant. (It is also better to avoid Actelsar HCT in early 
-pregnancy – see pregnancy section). 
+pregnancy   see pregnancy section). 
 - if you have severe liver problems such as cholestasis or biliary obstruction (problems with 
 drainage of the bile from the liver and gall bladder) or any other severe liver disease. 
 - if you have severe kidney disease. 
@@ -109,7 +109,7 @@ lowering medicine containing aliskiren. </p>
 <p>If any of the above applies to you, tell your doctor or pharmacist before taking Actelsar HCT. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor before taking Actelsar HCT if you are suffering or have ever suffered from any of 
-the following conditions or illnesses: </p>
+the following conditions or illnesses:</p>
 <ul>
 <li>Low blood pressure (hypotension), likely to occur if you are dehydrated (excessive loss of body 
 water) or have salt deficiency due to diuretic therapy (water tablets), low-salt diet, diarrhoea, 
@@ -122,7 +122,7 @@ vomiting, or haemodialysis. </li>
 <li>Gout. </li>
 <li>Raised aldosterone levels (water and salt retention in the body along with imbalance of various 
 blood minerals). </li>
-<li>Systemic lupus erythematosus (also called “lupus” or “SLE”) a disease where the body’s 
+<li>Systemic lupus erythematosus (also called  lupus  or  SLE ) a disease where the body s 
 immune system attacks the body. </li>
 <li>The active substance hydrochlorothiazide can cause an unusual reaction, resulting in a decrease 
 in vision and eye pain. These could be symptoms of fluid accumulation in the vascular layer of 
@@ -136,15 +136,21 @@ from sun exposure and UV rays while taking Actelsar HCT  </li>
 following hydrochlorothiazide intake in the past. If you develop any severe shortness of breath 
 or difficulty breathing after taking Actelsar HCT, seek medical attention immediately. </li>
 </ul>
-<p>Talk to your doctor before taking Actelsar HCT, if you are taking: 
-- any of the following medicines used to treat high blood pressure: 
-- an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
-diabetes-related kidney problems. 
-- aliskiren. 
+<p>Talk to your doctor before taking Actelsar HCT, if you are taking:</p>
+<ul>
+<li>
+<p>any of the following medicines used to treat high blood pressure:</p>
+</li>
+<li>
+<p>an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
+diabetes-related kidney problems. </p>
+</li>
+<li>aliskiren. 
 Your doctor may check your kidney function, blood pressure, and the amount of electrolytes 
-(e.g. potassium) in your blood at regular intervals. See also information under the heading “Do 
-not take Actelsar HCT”. 
-- digoxin. </p>
+(e.g. potassium) in your blood at regular intervals. See also information under the heading  Do 
+not take Actelsar HCT . </li>
+<li>digoxin. </li>
+</ul>
 <p>You must tell your doctor if you think you are (or might become) pregnant. Actelsar HCT is not 
 recommended in early pregnancy, and must not be taken if you are more than 3 months pregnant, as it 
 may cause serious harm to your baby if used at that stage (see pregnancy section). </p>
@@ -163,11 +169,11 @@ The use of Actelsar HCT in children and adolescents up to the age of 18 years is
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Your doctor may need to change the dose of these other medicines or take other 
 precautions. In some cases you may have to stop taking one of the medicines. This applies especially 
-to the medicines listed below taken at the same time with Actelsar HCT: </p>
+to the medicines listed below taken at the same time with Actelsar HCT:</p>
 <ul>
 <li>Lithium containing medicines to treat some types of depression. </li>
-<li>Medicines associated with low blood potassium (hypokalaemia) such as other diuretics, (“water 
-tablets”), laxatives (e.g. castor oil), corticosteroids (e.g. prednisone), ACTH (a hormone), 
+<li>Medicines associated with low blood potassium (hypokalaemia) such as other diuretics, ( water 
+tablets ), laxatives (e.g. castor oil), corticosteroids (e.g. prednisone), ACTH (a hormone), 
 amphotericin (an antifungal medicine), carbenoxolone (used to treat mouth ulcers), penicillin G 
 sodium (an antibiotic), and salicylic acid and derivatives. </li>
 <li>Medicines that may increase blood potassium levels such as potassium-sparing diuretics, 
@@ -187,12 +193,12 @@ pentamidine) or certain medicines to treat allergic reactions (e.g. terfenadine)
 <li>Anti-cholinergic medicines (medicines used to treat a variety of disorders such as 
 gastrointestinal cramps, urinary bladder spasm, asthma, motion sickness, muscular spasms, 
 Parkinson's disease and as an aid to anaesthesia) such as atropine and biperiden. </li>
-<li>Amantadine (medicine used to treat Parkinson’s disease and also used to treat or prevent certain 
+<li>Amantadine (medicine used to treat Parkinson s disease and also used to treat or prevent certain 
 illnesses caused by viruses). </li>
 <li>Other medicines used to treat high blood pressure, corticosteroids, painkillers (such as non-
 steroidal anti-inflammatory drugs [NSAIDs]), medicines to treat cancer, gout, or arthritis. </li>
-<li>If you are taking an ACE-inhibitor or aliskiren (see also information under the headings “Do not 
-take Actelsar HCT” and “Warnings and precautions”). </li>
+<li>If you are taking an ACE-inhibitor or aliskiren (see also information under the headings  Do not 
+take Actelsar HCT  and  Warnings and precautions ). </li>
 <li>Digoxin. </li>
 </ul>
 <p>Actelsar HCT may increase the blood pressure lowering effect of other medicines used to treat high 
@@ -221,8 +227,8 @@ you if you wish to breast-feed. </p>
 Some people feel dizzy or tired when taking Actelsar HCT. If you feel dizzy or tired, do not drive or 
 operate machinery. </p>
 <p>Actelsar HCT contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take actelsar"
@@ -259,7 +265,7 @@ dose to make up for a forgotten dose. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects can be serious and need immediate medical attention: 
 You should see your doctor immediately if you experience any of the following symptoms: </p>
-<p>Sepsis* (often called “blood poisoning”), is a severe infection with whole-body inflammatory 
+<p>Sepsis* (often called  blood poisoning ), is a severe infection with whole-body inflammatory 
 response, rapid swelling of the skin and mucosa (angioedema); blistering and peeling of the top layer 
 of skin (toxic epidermal necrolysis) these side effects are rare (may affect up to 1 in 1,000 people) or 
 of unknown frequency (toxic epidermal necrolysis) but are extremely serious and patients should stop 
@@ -279,7 +285,7 @@ diarrhoea, dry mouth, flatulence, back pain, muscle spasm, muscle pain, erectile
 to get or keep an erection), chest pain, increased blood uric acid levels. </p>
 <p>Rare (may affect up to 1 in 1000 people): 
 Inflammation of the lungs (bronchitis), activation or worsening of systemic lupus erythematosus (a 
-disease where the body’s immune system attacks the body, which causes joint pain, skin rashes and 
+disease where the body s immune system attacks the body, which causes joint pain, skin rashes and 
 fever); sore throat, inflamed sinuses, feeling sad (depression), difficulty falling asleep (insomnia), 
 impaired vision, difficulty breathing, abdominal pain, constipation, bloating (dyspepsia), feeling sick 
 (vomiting), inflammation of the stomach (gastritis), abnormal liver function (Japanese patients are 
@@ -322,7 +328,7 @@ restlessness, light-headedness, blurred or yellowing of vision, decrease in visi
 signs of fluid accumulation in the vascular layer of the eye (choroidal effusion) or acute myopia or 
 acute-angle closure glaucoma), inflammation of blood vessels (vasculitis necrotising), inflamed 
 pancreas, upset stomach, yellowing of the skin or eyes (jaundice), lupus-like syndrome (a condition 
-mimicking a disease called systemic lupus erythematosus where the body’s immune system attacks the 
+mimicking a disease called systemic lupus erythematosus where the body s immune system attacks the 
 body); skin disorders such as inflamed blood vessels in the skin, increased sensitivity to sunlight, rash, 
 redness of the skin, blistering of the lips, eyes or mouth, skin peeling , fever (possible signs of 
 erythema multiforme), weakness, kidney inflammation or impaired kidney function, glucose in the 
@@ -342,12 +348,12 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, blister or bottle label after 
-“EXP”. The expiry date refers to the last day of that month. “Lot”, which is printed on the carton, 
+ EXP . The expiry date refers to the last day of that month.  Lot , which is printed on the carton, 
 refers to the batch number. </p>
 <p>For Al/Al blisters and HDPE tablet container 
 This medicine does not require any special storage conditions. </p>
 <p>For Al/PVC/PVDC blister 
-Do not store above 30ºC. </p>
+Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -364,7 +370,7 @@ telmisartan and 12.5 mg hydrochlorothiazide.
 povidone, sodium starch glycolate (type A), microcrystalline cellulose, mannitol (E421). </p>
 <p>What Actelsar HCT looks like and contents of the pack 
 Actelsar HCT 40 mg/12.5 mg tablets are white or almost white, 6.55 x 13.6 mm oval-shaped and 
-biconvex tablets marked with “TH” on one side. </p>
+biconvex tablets marked with  TH  on one side. </p>
 <p>Pack sizes 
 Al/Al blister packs: 14, 28, 30, 56, 84, 90 and 98 tablets<br />
 Al/PVC/PVDC blister packs: 28, 56, 84, 90 and 98 tablets 
@@ -373,30 +379,28 @@ Tablet containers: 30, 90 and 250 tablets </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Marketing Authorisation Holder 
 Actavis Group PTC ehf. 
-Dalshraun 1, 220 Hafnarfjörður, Iceland </p>
+Dalshraun 1, 220 Hafnarfj r ur, Iceland </p>
 <p>Manufacturer 
 Actavis Ltd. 
 BLB016, Bulebel Industrial Estate, Zejtun ZTN 3000, Malta </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -416,29 +420,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS A.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS A.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -447,10 +450,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -458,16 +461,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS A.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>TEVA HELLAS A.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

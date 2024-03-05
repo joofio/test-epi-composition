@@ -4,7 +4,7 @@ Instance: composition-en-8e72e27852c8a54465539921267947b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriparatide Package Leaflet"
 Description:  "Composition for teriparatide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,7 +90,7 @@ section 6)
 (metastasised) to your bones 
 - if you have certain bone diseases. If you have a bone disease, tell your doctor 
 - if you have unexplained high levels of alkaline phosphatase in your blood, which means you 
-might have Paget’s disease of bone (disease with abnormal bone changes). If you are not sure, 
+might have Paget s disease of bone (disease with abnormal bone changes). If you are not sure, 
 ask your doctor 
 - if you have had radiation therapy involving your bones 
 - if you are pregnant or breast-feeding. </p>
@@ -123,7 +123,7 @@ Ask your doctor or pharmacist for advice before taking any medicine. </p>
 Some patients may feel dizzy after injecting Teriparatide SUN. If you feel dizzy you should not drive 
 or use machines until you feel better. </p>
 <p>Teriparatide SUN contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium- free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take teriparatide"
@@ -233,9 +233,9 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and pen after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Teriparatide SUN should be stored in a refrigerator (2°C to 8°C) at all times. You can use Teriparatide 
+<p>Teriparatide SUN should be stored in a refrigerator (2 C to 8 C) at all times. You can use Teriparatide 
 SUN for up to 28 days after the first injection, as long as the pen is stored in a refrigerator 
-(2°C to 8°C). </p>
+(2 C to 8 C). </p>
 <p>Do not freeze Teriparatide SUN. Avoid placing the pens close to the ice compartment of the 
 refrigerator to prevent freezing. Do not use Teriparatide SUN if it is, or has been, frozen. </p>
 <p>Each pen should be properly disposed of after 28 days, even if it is not completely empty. </p>
@@ -276,29 +276,29 @@ The Netherlands </p>
 Str. Fabricii nr. Cluj-Napoca, 400Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien/България/Česká republika/ 
-Danmark/Eesti/Ελλάδα/Hrvatska/United Kingdom (Northern Ireland)/Ísland/Κύπρος/ 
-Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
-Malta/Nederland/Norge/Österreich/Portugal/Slovenija/ 
-Slovenská republika/Suomi/Finland/Sverige 
+<p>Belgi /Belgique/Belgien/ / esk  republika/ 
+Danmark/Eesti/ /Hrvatska/United Kingdom (Northern Ireland)/ sland/ / 
+Latvija/Lietuva/Luxembourg/Luxemburg/Magyarorsz g/ 
+Malta/Nederland/Norge/ sterreich/Portugal/Slovenija/ 
+Slovensk  republika/Suomi/Finland/Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
 Polarisavenue 2132 JH Hoofddorp 
-Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
-Nederlandene/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
-Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/ 
-Hollandia/L-Olanda/Nederland/Niederlande/Países Baixos/ 
-Nizozemska/Holandsko/Alankomaat/Nederländerna 
-Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
+Nederland/Pays-Bas/Niederlande/ /Nizozemsko/ 
+Nederlandene/ /Nizozemska/The Netherlands/Holland/ 
+ /N derlande/Nyderlandai/Pays-Bas/Niederlande/ 
+Hollandia/L-Olanda/Nederland/Niederlande/Pa ses Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederl nderna 
+Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
 +31 (0)23 568 5 </p>
 <p>Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland </p>
 <p>tel. +49 214 403<br />
-España 
+Espa a 
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
-España 
+Espa a 
 tel. +34 93 342 78<br />
 France 
 Sun Pharma France 
@@ -318,9 +318,9 @@ ul. Kubickiego 11<br />
 02-954 Warszawa<br />
 Polska 
 tel. +48 22 642 07<br />
-România 
+Rom nia 
 Terapia S.A. 
-Str. Fabricii nr Cluj-Napoca, 400România 
+Str. Fabricii nr Cluj-Napoca, 400Rom nia 
 tel. +40 (264) 501  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
@@ -486,57 +486,38 @@ dose as directed by your doctor or pharmacist. </p>
 that can be injected accurately even though you may 
 still see some medicine left in the cartridge.  </p>
 <p>Cleaning and Storage 
-Cleaning Your Teriparatide SUN 
- 
-Wipe the outside of the Teriparatide SUN with a damp cloth. 
- 
-Do not place the Teriparatide SUN in water, or wash or clean it with any liquid. </p>
-<p>Storing Your Teriparatide SUN 
- 
-Refrigerate the Teriparatide SUN immediately after every use. Read and follow the 
-instructions in the Information for the Patient leaflet on how to store your pen. 
- 
-Do not store the Teriparatide SUN with a needle attached as this may cause air bubbles to 
-form in the cartridge. 
- 
-Store the Teriparatide SUN with the white cap on. 
- 
-If the medicine has been frozen, throw the pre-filled pen away and use a new Teriparatide 
-SUN. 
- 
-If the Teriparatide SUN has been left out of the refrigerator, do not throw the pen away. 
+Cleaning Your Teriparatide SUN </p>
+<p>Wipe the outside of the Teriparatide SUN with a damp cloth. </p>
+<p>Do not place the Teriparatide SUN in water, or wash or clean it with any liquid. </p>
+<p>Storing Your Teriparatide SUN </p>
+<p>Refrigerate the Teriparatide SUN immediately after every use. Read and follow the 
+instructions in the Information for the Patient leaflet on how to store your pen. </p>
+<p>Do not store the Teriparatide SUN with a needle attached as this may cause air bubbles to 
+form in the cartridge. </p>
+<p>Store the Teriparatide SUN with the white cap on. </p>
+<p>If the medicine has been frozen, throw the pre-filled pen away and use a new Teriparatide 
+SUN. </p>
+<p>If the Teriparatide SUN has been left out of the refrigerator, do not throw the pen away. 
 Place the pen back in the refrigerator and contact your doctor or pharmacist. </p>
 <p>Disposal of Pen Needles and Pre-filled pen 
-Disposal of Pen Needles and Teriparatide SUN pre-filled pen 
- 
-Before disposing of the Teriparatide SUN pre-filled pen, be sure to remove the pen needle. 
- 
-Put used needles in a sharps container or a hard plastic container with a secure lid. Do not 
-throw needles directly into your household waste. 
- 
-Do not recycle the filled sharps container. 
- 
-Ask your healthcare professional about options to dispose of the pen and the sharps 
-container properly. 
- 
-The directions regarding needle handling are not intended to replace local, healthcare 
-professional or institutional policies. 
- 
-Dispose of the pre-filled pen 28 days after first use. </p>
-<p>Other Important Notes 
- 
-The Teriparatide SUN contains 28 days of medicine. 
- 
-Do not transfer the medicine into a syringe. 
- 
-Write down your first injection date on a calendar. 
- 
-Check the Teriparatide SUN label to make sure you have the correct medicine and that it 
-has not expired. 
- 
-During injection, you may hear one or more clicks – this is a normal pre-filled pen 
-operation. 
- 
-The Teriparatide SUN is not recommended for use by the blind or visually impaired 
+Disposal of Pen Needles and Teriparatide SUN pre-filled pen </p>
+<p>Before disposing of the Teriparatide SUN pre-filled pen, be sure to remove the pen needle. </p>
+<p>Put used needles in a sharps container or a hard plastic container with a secure lid. Do not 
+throw needles directly into your household waste. </p>
+<p>Do not recycle the filled sharps container. </p>
+<p>Ask your healthcare professional about options to dispose of the pen and the sharps 
+container properly. </p>
+<p>The directions regarding needle handling are not intended to replace local, healthcare 
+professional or institutional policies. </p>
+<p>Dispose of the pre-filled pen 28 days after first use. </p>
+<p>Other Important Notes </p>
+<p>The Teriparatide SUN contains 28 days of medicine. </p>
+<p>Do not transfer the medicine into a syringe. </p>
+<p>Write down your first injection date on a calendar. </p>
+<p>Check the Teriparatide SUN label to make sure you have the correct medicine and that it 
+has not expired. </p>
+<p>During injection, you may hear one or more clicks   this is a normal pre-filled pen 
+operation. </p>
+<p>The Teriparatide SUN is not recommended for use by the blind or visually impaired 
 persons without the assistance of a person trained in the proper use of the pre-filled pen. </p>         </div>"""      
 

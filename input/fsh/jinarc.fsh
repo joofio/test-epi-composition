@@ -4,7 +4,7 @@ Instance: composition-en-3441cbef7f1604451bb170e82be4a4ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for jinarc Package Leaflet"
 Description:  "Composition for jinarc Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
 involved in the formation of cysts in the kidneys of ADPKD patients. By blocking the effect of 
 vasopressin, Jinarc slows the development of kidney cysts in patients with ADPKD, reduces symptoms 
 of the disease and increases urine production. </p>
-<p>Jinarc is a medicine used to treat a disease called “autosomal dominant polycystic kidney disease” 
+<p>Jinarc is a medicine used to treat a disease called  autosomal dominant polycystic kidney disease<br />
 (ADPKD). This disease causes growth of fluid-filled cysts in the kidneys, which put pressure on 
 surrounding tissues and reduce kidney function, possibly leading to kidney failure. Jinarc is used to treat 
 ADPKD in adults with chronic kidney disease (CKD) stages 1 to 4 with evidence of rapidly progressing 
@@ -101,7 +101,7 @@ dehydration or bleeding)
 <p>Warnings and precautions 
 Talk to your doctor before taking Jinarc 
 * if you suffer from liver disease. 
-* if you cannot drink enough water (see “drinking enough water” below) or if you have to restrict 
+* if you cannot drink enough water (see  drinking enough water  below) or if you have to restrict 
 your fluid intake. 
 * if you have difficulties urinating (e.g. have an enlarged prostate). 
 * if you suffer from too high or too low blood sodium. 
@@ -153,7 +153,7 @@ including medicines obtained without a prescription. </p>
 <p>The following medicines may lower the effect of Jinarc: 
 * phenytoin or carbamazepine (used to treat epilepsy), 
 * rifampicin, rifabutin or rifapentine (used to treat tuberculosis), 
-* St. John’s Wort (a traditional herbal medicinal product for the relief of slightly low mood and 
+* St. John s Wort (a traditional herbal medicinal product for the relief of slightly low mood and 
 mild anxiety). </p>
 <p>Jinarc may increase the effect of the following medicines: 
 * digoxin (used to treat irregular heart beat and heart failure), 
@@ -329,11 +329,11 @@ cellulose, hydroxypropylcellulose, magnesium stearate, indigo carmine aluminium 
 </ul>
 <p>What Jinarc looks like and contents of the pack </p>
 <p>The different strengths of Jinarc tablets have different shapes and embossing: 
-15 mg tablet: blue, triangular, debossed with “OTSUKA” and “15” on one side. 
-30 mg tablet: blue, round, debossed with “OTSUKA” and “30” on one side. 
-45 mg tablet: blue, square, debossed with “OTSUKA” and “45” on one side 
-60 mg tablet: blue, modified rectangular, debossed with “OTSUKA” and “60” on one side 
-90 mg tablet: blue, pentagonal, debossed with “OTSUKA” and “90” on one side </p>
+15 mg tablet: blue, triangular, debossed with  OTSUKA  and  15  on one side. 
+30 mg tablet: blue, round, debossed with  OTSUKA  and  30  on one side. 
+45 mg tablet: blue, square, debossed with  OTSUKA  and  45  on one side 
+60 mg tablet: blue, modified rectangular, debossed with  OTSUKA  and  60  on one side 
+90 mg tablet: blue, pentagonal, debossed with  OTSUKA  and  90  on one side </p>
 <p>Your medicine is supplied in the following pack sizes: </p>
 <p>Jinarc 15 mg tablets: packs containing 7 tablets or 28 tablets </p>
 <p>Jinarc 30 mg tablets: packs containing 7 tablets or 28 tablets </p>
@@ -362,17 +362,17 @@ Ireland </p>
 Block-7, City North Business Campus, Stamullen, Co. Meath, K32 YDIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tél/Tel: +31 (0) 20 85 46 Lietuva 
+T l/Tel: +31 (0) 20 85 46 Lietuva 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 България 
+Tel: +31 (0) 20 85 46 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-Teл: +31 (0) 20 85 46 Luxembourg/Luxemburg 
+Te : +31 (0) 20 85 46 Luxembourg/Luxemburg 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tél/Tel: +31 (0) 20 85 46 Česká republika 
+T l/Tel: +31 (0) 20 85 46  esk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 Magyarország 
+Tel: +31 (0) 20 85 46 Magyarorsz g 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Danmark 
 Otsuka Pharma Scandinavia AB 
@@ -388,43 +388,43 @@ Tel: +31 (0) 20 85 46 Eesti
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Norge 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286 Ελλάδα 
+Tlf: +46 (0) 8 545 286 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-Thλ: +31 (0) 20 85 46<br />
-Österreich 
+Th : +31 (0) 20 85 46<br />
+ sterreich 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 España 
+Tel: +31 (0) 20 85 46 Espa a 
 Otsuka Pharmaceutical S.A 
 Tel: +34 (0) 93 208 1 
 Polska 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 France 
 Otsuka Pharmaceutical France SAS 
-Tél: +33 (0) 1 47 08 00<br />
+T l: +33 (0) 1 47 08 00<br />
 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 România 
+Tel: +31 (0) 20 85 46 Rom nia 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Ireland 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46<br />
 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46 Ísland 
+Tel: +31 (0) 20 85 46  sland 
 Otsuka Pharma Scandinavia AB 
-Sími: +46 (0) 8 545 286<br />
-Slovenská republika 
+S mi: +46 (0) 8 545 286<br />
+Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Italia 
 Otsuka Pharmaceutical Italy S.r.l. 
 Tel: +39 (0) 2 0063 2 
 Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
-Puh/Tel: +46 (0) 8 545 286 Κύπρος 
+Puh/Tel: +46 (0) 8 545 286 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-Thλ: +31 (0) 20 85 46 Sverige 
+Th : +31 (0) 20 85 46 Sverige 
 Otsuka Pharma Scandinavia AB 
 Tel: +46 (0) 8 545 286<br />
 Latvija 

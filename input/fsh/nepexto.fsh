@@ -4,7 +4,7 @@ Instance: composition-en-5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nepexto Package Leaflet"
 Description:  "Composition for nepexto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,15 +95,13 @@ ability to do normal daily activities. </p>
 medicine can slow down the structural damage to those joints caused by the disease. </p>
 <p>Nepexto is also prescribed for the treatment of the following diseases in children and adolescents. </p>
 <ul>
-<li>
-<p>For the following types of juvenile idiopathic arthritis when treatment with methotrexate has not 
-worked well enough or is not suitable for them: 
-− 
-Polyarthritis (rheumatoid factor positive or negative) and extended oligoarthritis in 
-patients from the age of 2 years and weighing 62.5 kg or more 
-− 
-Psoriatic arthritis in patients from the age of 12 years and weighing 62.5 kg or more </p>
-</li>
+<li>For the following types of juvenile idiopathic arthritis when treatment with methotrexate has not 
+worked well enough or is not suitable for them: </li>
+</ul>
+<p>Polyarthritis (rheumatoid factor positive or negative) and extended oligoarthritis in 
+patients from the age of 2 years and weighing 62.5 kg or more </p>
+<p>Psoriatic arthritis in patients from the age of 12 years and weighing 62.5 kg or more </p>
+<ul>
 <li>
 <p>For enthesitis-related arthritis in patients from the age of 12 years and weighing 62.5 kg or more 
 when other widely used treatments have not worked well enough or are not suitable for them </p>
@@ -166,7 +164,7 @@ of Nepexto.
 optic neuritis (inflammation of the nerves of the eyes) or transverse myelitis (inflammation of 
 the spinal cord). Your doctor will determine if using this medicine is an appropriate treatment. 
 * Congestive heart failure: Tell your doctor if you or the child have a history of congestive heart 
-failure (when your heart muscle doesn’t pump blood as well as it should), because this medicine 
+failure (when your heart muscle doesn t pump blood as well as it should), because this medicine 
 needs to be used with caution under these circumstances. 
 * Cancer: Tell your doctor if you have or have ever had lymphoma (a type of blood cancer) or 
 any other cancer before you use this medicine. Patients with severe rheumatoid arthritis, who 
@@ -181,9 +179,9 @@ appearance of the skin or growths on the skin.
 medicine. Your doctor will determine if preventive treatment for chickenpox is appropriate. 
 * Alcohol abuse: Do not use this medicine for the treatment of hepatitis related to alcohol abuse. 
 Tell your doctor if you or the child in your care have a history of alcohol abuse. 
-* Wegener’s granulomatosis: this medicine is not recommended for the treatment of Wegener’s 
+* Wegener s granulomatosis: this medicine is not recommended for the treatment of Wegener s 
 granulomatosis (a rare inflammatory disease). Tell your doctor if you or the child in your care 
-have Wegener’s granulomatosis. 
+have Wegener s granulomatosis. 
 * Anti-diabetic medicines: Tell your doctor if you or the child have diabetes or are taking 
 medicines to treat diabetes. Your doctor may decide if you or the child need less anti-diabetic 
 medicine while using this medicine. </p>
@@ -211,12 +209,12 @@ compared with mothers who had not received this medicine or other similar medici
 increased risk of birth defects when the mother had received etanercept in pregnancy. Your doctor will 
 help you to decide whether the benefits of treatment outweigh the potential risk to your baby.  </p>
 <p>Talk to your doctor if you want to breastfeed while on Enbrel treatment. It is important that you tell 
-your baby’s doctors and other healthcare professionals about the use of Enbrel during pregnancy and 
+your baby s doctors and other healthcare professionals about the use of Enbrel during pregnancy and 
 breastfeeding before your baby receives any vaccine. </p>
 <p>Driving and using machines </p>
 <p>The use of Nepexto is not expected to affect the ability to drive or use machines. </p>
 <p>Nepexto contains sodium </p>
-<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say, essentially ‘sodium- free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say, essentially  sodium- free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nepexto"
@@ -249,11 +247,11 @@ per kg bodyweight (up to a maximum of 25 mg) given twice a week or 0.8 mg of eta
 bodyweight (up to a maximum of 50 mg) given once a week. </p>
 <p>For psoriasis in patients from the age of 6 years, the usual dose is 0.8 mg of etanercept per kg of 
 bodyweight (up to a maximum of 50 mg) and should be given once weekly. If Nepexto has no effect 
-on the child’s condition after 12 weeks, your doctor may tell you to stop using this medicine. </p>
+on the child s condition after 12 weeks, your doctor may tell you to stop using this medicine. </p>
 <p>Method and route of administration </p>
 <p>Nepexto is administered by an injection under the skin (by subcutaneous use). </p>
 <p>Detailed instructions on how to prepare and inject Nepexto are provided in section 7, 
-“Instructions for use”. </p>
+ Instructions for use . </p>
 <p>Do not mix the solution with any other medicine. </p>
 <p>To help you remember, it may be helpful to write in a diary which day(s) of the week Nepexto should 
 be used. </p>
@@ -368,8 +366,8 @@ Failure of the bone marrow to produce crucial blood cells. </p>
 </li>
 <li>
 <p>Not known (frequency cannot be estimated from available data): 
-Merkel cell carcinoma (a type of skin cancer); Kaposi’s sarcoma (a rare cancer related to 
-infection with human herpes virus 8. Kaposi’s sarcoma most commonly appears as purple 
+Merkel cell carcinoma (a type of skin cancer); Kaposi s sarcoma (a rare cancer related to 
+infection with human herpes virus 8. Kaposi s sarcoma most commonly appears as purple 
 lesions on the skin); excessive activation of white blood cells associated with inflammation 
 (macrophage activation syndrome); recurrence of hepatitis B (a liver infection); damage to the 
 tiny filters inside your kidneys leading to poor kidney function (glomerulonephritis), worsening 
@@ -394,9 +392,9 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and pre-filled syringe after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. </p>
 <p>Keep the pre-filled syringes in the outer carton in order to protect from light. </p>
-<p>Nepexto may be stored outside of the refrigerator at temperatures up to a maximum of 25°C for a 
+<p>Nepexto may be stored outside of the refrigerator at temperatures up to a maximum of 25 C for a 
 single period of up to four weeks; after which, it should not be refrigerated again. Nepexto should be 
 discarded if not used within four weeks after removal from the refrigerator. It is recommended that 
 you record the date that Nepexto is removed from the refrigerator and the date after which Nepexto 
@@ -441,21 +439,20 @@ D09 C6X8
 Ireland </p>
 <p>For further information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-Tél/Tel: 0080008250 
+T l/Tel: 0080008250 
 Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 
-България 
-Biosimilar Collaborations Ireland Limited 
-Тел: 0080008250 
+Tel: 0080008250 </p>
+<p>Biosimilar Collaborations Ireland Limited 
+ : 0080008250 
 Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
-Tél/Tel: 0080008250 
-Česká republika 
+T l/Tel: 0080008250 
+ esk  republika 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250Magyarország 
+Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
 Tel.: 0080008250 
 Danmark 
@@ -472,14 +469,13 @@ Tel: 0080008250Eesti
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62<br />
-Ελλάδα<br />
-Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε 
-Τηλ.: 0080008250 
-Österreich 
+Tlf: +47 800 62  </p>
+<p>Biocon Biologics Greece    . .<br />
+ .: 0080008250 
+ sterreich 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250 
-España 
+Espa a 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Polska 
@@ -493,7 +489,7 @@ Tel: 0080008250
 Hrvatska 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250 
-România 
+Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 
 Ireland 
@@ -502,20 +498,19 @@ Tel: 1800 777<br />
 Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 
-Ísland 
+ sland 
 Biocon Biologics Finland OY<br />
-Sími: +345 800 4 
-Slovenská republika 
+S mi: +345 800 4 
+Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 
-Κύπρος 
-Biosimilar Collaborations Ireland Limited<br />
-Τηλ: 0080008250 
+Puh/Tel: 99980008250 </p>
+<p>Biosimilar Collaborations Ireland Limited<br />
+ : 0080008250 
 Sverige 
 Biocon Biologics Finland OY<br />
 Tel: 0080008250 

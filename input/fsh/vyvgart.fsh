@@ -4,7 +4,7 @@ Instance: composition-en-f819453f37e8574dc396f13201d03208
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyvgart Package Leaflet"
 Description:  "Composition for vyvgart Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vyvgart is 
 Vyvgart contains the active substance efgartigimod alfa. Efgartigimod alfa binds to and blocks a 
 protein in the body called neonatal Fc receptor (FcRn). By blocking FcRn, efgartigimod alfa decreases 
-the level of IgG autoantibodies which are proteins of the immune system that attack parts of a person’s 
+the level of IgG autoantibodies which are proteins of the immune system that attack parts of a person s 
 own body by mistake. </p>
 <p>What Vyvgart is used for 
 Vyvgart is used together with standard therapy to treat adults with generalised Myasthenia Gravis 
@@ -149,7 +149,7 @@ If you suspect that you have been accidentally administered a higher dose of Vyv
 please contact your doctor for advice. </p>
 <p>If you forget an appointment to receive Vyvgart 
 If you forget an appointment, please contact your doctor immediately for advice and see section below 
-“If you stop using Vyvgart”. </p>
+ If you stop using Vyvgart . </p>
 <p>If you stop using Vyvgart 
 Interrupting or stopping treatment with Vyvgart may cause your gMG symptoms to come back. Please 
 speak to your doctor before stopping Vyvgart. Your doctor will discuss the possible side effects and 
@@ -195,8 +195,8 @@ By reporting side effects you can help provide more information on the safety of
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C - 8 °C). </p>
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C - 8  C). </p>
 <p>Do not freeze. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not use this medicine if visible particles are observed and/or the liquid in the vial is discoloured. </p>
@@ -215,14 +215,16 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vyvgart contains 
 The active substance is efgartigimod alfa. 
 - Each 20 mL vial contains 400 mg efgartigimod alfa (20 mg/mL). 
-The other ingredients are: 
-- sodium dihydrogen phosphate, monohydrate 
-- disodium hydrogen phosphate, anhydrous 
-- sodium chloride 
-- arginine hydrochloride 
-- polysorbate - water for injections </p>
+The other ingredients are:</p>
+<ul>
+<li>sodium dihydrogen phosphate, monohydrate </li>
+<li>disodium hydrogen phosphate, anhydrous </li>
+<li>sodium chloride </li>
+<li>arginine hydrochloride </li>
+<li>polysorbate - water for injections </li>
+</ul>
 <p>What Vyvgart looks like and contents of the pack 
-Vyvgart is presented as a sterile concentrate for intravenous (IV) infusion (20 mL in a vial – pack size 
+Vyvgart is presented as a sterile concentrate for intravenous (IV) infusion (20 mL in a vial   pack size 
 of 1). 
 Vyvgart is a liquid. It is colourless to slightly yellow, clear to almost clear. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
@@ -236,22 +238,21 @@ Schipholweg 2316 ZL Leiden
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/Eesti 
+<p>Belgi /Belgique/Belgien/Eesti 
 argenx BV 
-Tél/Tel: +32 (0) 9 3969394 / +32 (0) 800 54medinfobe@argenx.com 
+T l/Tel: +32 (0) 9 3969394 / +32 (0) 800 54medinfobe@argenx.com 
 Lietuva 
 argenx BV 
 Tel: 8 800 80 medinfolt@argenx.com </p>
-<p>България 
-argenx BV 
-Teл.: 0800 46 medinfobg@argenx.com </p>
+<p>argenx BV 
+Te .: 0800 46 medinfobg@argenx.com </p>
 <p>Luxembourg/Luxemburg 
 argenx BV 
-Tél/Tel: 800 25 medinfolu@argenx.com </p>
-<p>Česká republika 
+T l/Tel: 800 25 medinfolu@argenx.com </p>
+<p>esk  republika 
 argenx BV 
 Tel: 800 040 medinfocz@argenx.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 argenx BV 
 Tel.: (80) 088 medinfohu@argenx.com </p>
 <p>Danmark 
@@ -265,23 +266,22 @@ argenx Germany GmbH
 Tel: 08001803medinfode@argenx.com </p>
 <p>Nederland 
 argenx BV 
-Tel: 0800 0232medinfonl@argenx.com 
-Ελλάδα 
-Medison Pharma Greece Single Member Societe 
+Tel: 0800 0232medinfonl@argenx.com </p>
+<p>Medison Pharma Greece Single Member Societe 
 Anonyme<br />
-Τηλ: +30 210 0100 medinfogr@argenx.com </p>
+ : +30 210 0100 medinfogr@argenx.com </p>
 <p>Norge 
 argenx BV 
 Tlf: 800 62 medinfono@argenx.com </p>
-<p>España 
+<p>Espa a 
 argenx BV 
 Tel: 900 876 medinfoes@argenx.com </p>
-<p>Österreich 
+<p>sterreich 
 argenx BV 
 Tel: 0800 017medinfoat@argenx.com 
 France 
 argenx France SAS 
-Tél: +33 (0) 1 88898medinfofr@argenx.com </p>
+T l: +33 (0) 1 88898medinfofr@argenx.com </p>
 <p>Polska 
 argenx BV 
 Tel.: 800 005 medinfopl@argenx.com 
@@ -294,24 +294,23 @@ Tel: 800 180 medinfopt@argenx.com </p>
 <p>Ireland/United Kingdom (Northern Ireland) 
 argenx BV 
 Tel: 1800 851 medinfoie@argenx.com </p>
-<p>România 
+<p>Rom nia 
 argenx BV 
 Tel: 0800 360 medinforo@argenx.com </p>
-<p>Ísland 
+<p>sland 
 argenx BV 
-Sími: 800 4medinfois@argenx.com </p>
+S mi: 800 4medinfois@argenx.com </p>
 <p>Slovenija 
 argenx BV 
 Tel: 080 688medinfosi@argenx.com </p>
 <p>Italia 
 argenx Italia s.r.l 
 Tel: 800776medinfoit@argenx.com </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 argenx BV 
 Tel: 0800 002 medinfosk@argenx.com </p>
-<p>Κύπρος 
-argenx BV 
-Τηλ: 80 077medinfocy@argenx.com </p>
+<p>argenx BV 
+ : 80 077medinfocy@argenx.com </p>
 <p>Suomi/Finland 
 argenx BV 
 Puh/Tel: 0800 412medinfofi@argenx.com </p>

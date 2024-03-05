@@ -4,7 +4,7 @@ Instance: composition-en-6993a685d10576536183960090af1fdd
 InstanceOf: CompositionUvEpi
 Title: "Composition for anagrelide Package Leaflet"
 Description:  "Composition for anagrelide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,11 +95,11 @@ Talk to your doctor before taking Anagrelide Viatris:
 * If you were born with or have family history of prolonged QT interval (seen on ECG, electrical 
 recording of the heart), or you are taking other medicines that result in abnormal ECG changes 
 or if you have low levels of electrolytes, e.g., potassium, magnesium or calcium (see section 
-“Other medicines and Anagrelide Viatris”); 
+ Other medicines and Anagrelide Viatris ); 
 * If you have any problems with your liver or kidneys. </p>
 <p>In combination with acetylsalicylic acid (a substance present in many medicines used to relieve pain 
 and lower fever, as well as to prevent blood clotting, also known as aspirin), there is an increased risk </p>
-<p>of major haemorrhages (bleeding) (see section “Other medicines and Anagrelide Viatris”). </p>
+<p>of major haemorrhages (bleeding) (see section  Other medicines and Anagrelide Viatris ). </p>
 <p>While taking Anagrelide Viatris, you should take the exact dose prescribed by your doctor. Do not 
 stop taking the medicine without first talking to your doctor. Do not abruptly stop taking this medicine 
 without consulting your doctor. Abrupt withdrawal of medicine may lead to increased risk of stroke. </p>
@@ -146,7 +146,7 @@ feel dizzy. </p>
 <p>This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take anagrelide"
@@ -205,7 +205,7 @@ fluid retention or rash. </p>
 A feeling of weakness or feeling unwell, high blood pressure, irregular heartbeat, fainting, chills or 
 fever, indigestion, loss of appetite, constipation, bruising, bleeding, swelling (oedema), weight loss, 
 muscle aches, painful joints, back pain, decreased or loss of feeling or sensation such as numbness, 
-especially in the skin, abnormal feeling or sensation such as tingling and ‘pins and needles’, 
+especially in the skin, abnormal feeling or sensation such as tingling and  pins and needles , 
 sleeplessness, depression, confusion, nervousness, dry mouth, loss of memory, breathlessness, 
 nosebleed, serious lung infection with fever, shortness of breath, cough, phlegm; hair loss, skin itching 
 or discolouration, impotence, chest pain, reduction in blood platelets, which increases the risk of 
@@ -217,7 +217,7 @@ fatigue, chest pain and palpitations), enlarged heart, accumulation of fluid aro
 spasm of the blood vessels on the heart (while resting, usually at night or early morning) (Prinzmetal 
 angina), loss of coordination, difficulty in speaking, dry skin, migraine, visual disturbances or double 
 vision, ringing in the ears, dizziness on standing up (especially when getting up from a sitting or lying 
-position), increased need to pass water at night, pain, ‘flu-like’ symptoms, sleepiness, widening of 
+position), increased need to pass water at night, pain,  flu-like  symptoms, sleepiness, widening of 
 blood vessels, inflammation of the large bowel (signs include: diarrhoea, usually with blood and 
 mucus, stomach pain, fever), inflammation of the stomach (signs include: pain, nausea, vomiting), 
 area of abnormal density in the lung, increased creatinine level in blood tests, which may be a sign of 
@@ -260,8 +260,8 @@ throw away medicines you no longer use. These measures will help protect the env
 The active substance is anagrelide. Each capsule contains anagrelide hydrochloride monohydrate 
 equivalent to 0.5 mg anagrelide. 
 The other ingredients are lactose, croscarmellose sodium, povidone, microcrystalline cellulose, 
-magnesium stearate, gelatin and titanium dioxide(E171). See section 2 ‘Anagrelide Viatris contains 
-lactose and sodium’. </p>
+magnesium stearate, gelatin and titanium dioxide(E171). See section 2  Anagrelide Viatris contains 
+lactose and sodium . </p>
 <p>What Anagrelide Viatris looks like and contents of the pack 
 Anagrelide Viatris 0.5 mg hard capsules have a white body and cap. The capsule is filled with a white 
 to off-white powder. 
@@ -276,7 +276,7 @@ DUBLIN
 Ireland  </p>
 <p>Manufacturer 
 Synthon Hispania SL 
-C/ Castelló no1 
+C/ Castell  no1 
 POL. Las Salinas 
 Sant Boi de Llobregat 
 08830 Barcelona 
@@ -287,22 +287,20 @@ Microweg 22<br />
 The Netherlands  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB <br />
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
 Viatris CZ s.r.o. 
 Tel: + 420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft. 
 Tel.: + 36 1 465 2 
 Danmark 
@@ -322,28 +320,27 @@ Tel: + 372 6363  </p>
 <p>Norge 
 Viatris AS 
 Tlf: + 47 66 75 33  </p>
-<p>Ελλάδα<br />
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ:  +30 210 993 6410  </p>
-<p>Österreich 
+<p>Generics Pharma Hellas  <br />
+ :  +30 210 993 6410  </p>
+<p>sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Viatris Pharmaceuticals, S.L.U. 
 Tel: + 34 900 102<br />
 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel.: + 48 22 546 64<br />
 France 
-Viatris Santé 
-Tél: +33 4 37 25 75<br />
+Viatris Sant<br />
+T l: +33 4 37 25 75<br />
 Portugal 
 Mylan, Lda. 
 Tel: + 351 214 127<br />
 Hrvatska 
 Mylan Hrvatska d.o.o.<br />
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: +40 372 579<br />
 Ireland 
@@ -352,20 +349,19 @@ Tel: +353 1 8711600  </p>
 <p>Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Viatris OY 
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: +357 2220 7 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7 
 Sverige 
 Viatris AB<br />
 Tel: +46 (0)8 630 19<br />

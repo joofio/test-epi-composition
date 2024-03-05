@@ -4,7 +4,7 @@ Instance: composition-en-5b44b92baabcf0684d3d21b26b5583ec
 InstanceOf: CompositionUvEpi
 Title: "Composition for yescarta Package Leaflet"
 Description:  "Composition for yescarta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -84,26 +84,30 @@ cells. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take yescarta"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Yescarta: 
-- if you are allergic to axicabtagene ciloleucel or any of the other ingredients of this medicine 
-(listed in section 6). 
-- If you cannot receive treatment, called lymphodepleting chemotherapy, which reduces the 
-number of white blood cells in your blood (see also section 3, How Yescarta is given). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Yescarta:</p>
+<ul>
+<li>if you are allergic to axicabtagene ciloleucel or any of the other ingredients of this medicine 
+(listed in section 6). </li>
+<li>If you cannot receive treatment, called lymphodepleting chemotherapy, which reduces the 
+number of white blood cells in your blood (see also section 3, How Yescarta is given). </li>
+</ul>
 <p>Warnings and precautions<br />
 Yescarta is made from your own white blood cells and must only be given to you (autologous use). </p>
-<p>Before you are given Yescarta you must tell your doctor if you: 
-- have problems with your nervous system (such as fits, stroke, or memory loss). 
-- have kidney problems. 
-- have low blood cell levels (blood counts). 
-- have had a stem cell transplant in the last 4 months. 
-- have any lung, heart or blood pressure (low or raised) problems. 
-- have signs or symptoms of graft-versus-host disease. This happens when transplanted cells 
+<p>Before you are given Yescarta you must tell your doctor if you:</p>
+<ul>
+<li>have problems with your nervous system (such as fits, stroke, or memory loss). </li>
+<li>have kidney problems. </li>
+<li>have low blood cell levels (blood counts). </li>
+<li>have had a stem cell transplant in the last 4 months. </li>
+<li>have any lung, heart or blood pressure (low or raised) problems. </li>
+<li>have signs or symptoms of graft-versus-host disease. This happens when transplanted cells 
 attack your body, causing symptoms such as rash, nausea, vomiting, diarrhoea and bloody 
-stools. 
-- notice the symptoms of your cancer are getting worse. If you have lymphoma this might include 
-fever, feeling weak, night sweats, sudden weight loss. 
-- have an infection. The infection will be treated before the Yescarta infusion. 
-- have had hepatitis B, hepatitis C or human immunodeficiency virus (HIV) infection. </p>
+stools. </li>
+<li>notice the symptoms of your cancer are getting worse. If you have lymphoma this might include 
+fever, feeling weak, night sweats, sudden weight loss. </li>
+<li>have an infection. The infection will be treated before the Yescarta infusion. </li>
+<li>have had hepatitis B, hepatitis C or human immunodeficiency virus (HIV) infection. </li>
+</ul>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor before being given 
 Yescarta. </p>
 <p>Tests and checks 
@@ -145,7 +149,7 @@ components may decrease. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor or nurse before you are given 
 Yescarta. Your doctor may need to take special care of you during your treatment with Yescarta. </p>
 <p>In some cases, it might not be possible to go ahead with the planned treatment with Yescarta. For 
-example:  </p>
+example:</p>
 <ul>
 <li>If Yescarta infusion is delayed for more than 2 weeks after you have received preparatory 
 chemotherapy you may have to receive more preparative chemotherapy. </li>
@@ -253,7 +257,7 @@ disturbances of brain function (encephalopathy). Other signs include involuntary
 lack of energy or strength, muscular weakness, difficulty moving (motor dysfunction). 
 - Feeling warm, fever, chills or shivering which may be signs of infection (including bacterial or 
 viral). Infections can be due to abnormally low number of white blood cells or low level of 
-antibodies called ‘immunoglobulins’ in the blood which help fight infections. </p>
+antibodies called  immunoglobulins  in the blood which help fight infections. </p>
 <p>Other serious side effects which require immediate medical care are: </p>
 <p>Common (may affect up to 1 in 10 people) 
 - Fits (seizures, including seizures that may be prolonged and life-threatening).<br />
@@ -261,7 +265,7 @@ antibodies called ‘immunoglobulins’ in the blood which help fight infections
 - Blood clots: symptoms can include pain in the chest or upper back, difficulty breathing, 
 coughing up blood or cramping pain, swelling in a single leg, warm and darkened skin around 
 the painful area. 
-- Inability to breathe on one one’s own (respiratory failure). 
+- Inability to breathe on one one s own (respiratory failure). 
 - Failure of the kidneys causing your body to hold onto fluid. 
 - Build-up of fluids in lungs (pulmonary oedema) which can lead to difficulty in breathing. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
@@ -291,7 +295,7 @@ excessive or prolonged bleeding or bruising.
 - Increase in liver enzymes seen in blood tests. 
 - Skin rash or skin problems. 
 - Muscle and joint pain, back pain. 
-- Build‑up of fluids in tissue (oedema) which can lead to swelling, weight gain, and decreased 
+- Build up of fluids in tissue (oedema) which can lead to swelling, weight gain, and decreased 
 output of urine. 
 - Extreme tiredness. </p>
 <p>Common (may affect up to 1 in 10 people) 
@@ -341,7 +345,7 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intented for doctors only. </p>
 <p>Do not use this medicine after the expiry date which is stated on the container label and infusion bag. </p>
-<p>Store frozen in vapour phase of liquid nitrogen ≤ -150 °C until thawed for use. 
+<p>Store frozen in vapour phase of liquid nitrogen   -150  C until thawed for use. 
 Do not refreeze. </p>         </div>"""      
         
         
@@ -353,11 +357,11 @@ Do not refreeze. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Yescarta contains<br />
 - The active substance is axicabtagene ciloleucel. Each patient-specific single infusion bag 
 contains a dispersion of anti-CD19 CAR T cells in approximately 68 mL for a target dose of 
-2 × 106 anti-CD19 CAR-positive viable T cells/kg. </p>
+2   106 anti-CD19 CAR-positive viable T cells/kg. </p>
 <ul>
 <li>The other ingredients (excipients) are: Cryostor CS10 (contains DMSO), sodium chloride, 
-human albumin. See section 2 “Yescarta contains sodium, dimethyl sulphoxide (DMSO), and 
-residual gentamicin”.  </li>
+human albumin. See section 2  Yescarta contains sodium, dimethyl sulphoxide (DMSO), and 
+residual gentamicin .  </li>
 </ul>
 <p>This medicine contains genetically modified human blood cells. </p>
 <p>What Yescarta looks like and contents of the pack 
@@ -371,20 +375,19 @@ Tufsteen 1
 The Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35 Lietuva 
+T l/Tel: + 32 (0) 24 01 35 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1Luxembourg/Luxemburg 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Danmark 
 Gilead Sciences Sweden AB 
@@ -401,24 +404,24 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
-Tel: + 43 1 260 España 
+Tel: + 43 1 260 Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
 Gilead Sciences Poland Sp. z o.o. 
 Tel: + 48 22 262 8France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41 Portugal 
+T l: + 33 (0) 1 46 09 41 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1România 
+Tel: + 353 (0) 1 686 1Rom nia 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
 Ireland 
@@ -426,20 +429,19 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1Ísland 
+Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
 Gilead Sciences S.r.l. 
 Tel: + 39 02 439Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930 Sverige 
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 
 Latvija 

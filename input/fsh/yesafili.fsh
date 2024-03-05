@@ -4,7 +4,7 @@ Instance: composition-en-287bc5c0cd4c93468a645b4df30664e2
 InstanceOf: CompositionUvEpi
 Title: "Composition for yesafili Package Leaflet"
 Description:  "Composition for yesafili Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,7 +109,7 @@ section 6).
 <p>infection). 
 - if you have severe inflammation of the eye (indicated by pain or redness). </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor before you are given Yesafili: </p>
+<p>Talk to your doctor before you are given Yesafili:</p>
 <ul>
 <li>if you have glaucoma. </li>
 <li>if you have a history of seeing flashes of light or floaters and if you have a sudden increase of 
@@ -118,7 +118,7 @@ size and number of floaters. </li>
 <li>if you have a severe form of CRVO or BRVO (ischaemic CRVO or BRVO), treatment with 
 Yesafili is not recommended. </li>
 </ul>
-<p>Furthermore, it is important for you to know that: </p>
+<p>Furthermore, it is important for you to know that:</p>
 <ul>
 <li>the safety and efficacy of Aflibercept when administered to both eyes at the same time has not 
 been studied and if used in this way may lead to an increased risk of experiencing side effects. </li>
@@ -178,7 +178,7 @@ After your injection with Yesafili, you may experience some temporary visual dis
 drive or use machines as long as these last. </p>
 <p>Important information about some of the ingredients of Yesafili 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
-’sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yesafili"
@@ -217,12 +217,12 @@ examinations and treatments. </p>
 <p>Patients with DME will be treated with one injection per month for the first five consecutive doses 
 followed by one injection every two months thereafter. </p>
 <p>Treatment interval may be kept at every two months or adjusted to your condition, based on your 
-doctor’s examination. Your doctor will decide on the schedule for follow up examinations. </p>
+doctor s examination. Your doctor will decide on the schedule for follow up examinations. </p>
 <p>Your doctor may decide to stop treatment with Yesafili if it is determined that you are not benefiting 
 from continued treatment. </p>
 <p>Myopic CNV </p>
 <p>Patients with myopic CNV will be treated with one single injection. You will receive further injections 
-only if your doctor’s examinations reveal that your condition has not improved. </p>
+only if your doctor s examinations reveal that your condition has not improved. </p>
 <p>The interval between two injections should not be shorter than one month. </p>
 <p>If your condition goes away and then comes back, your doctor may re-start the treatment. Your doctor 
 will decide on the schedule for follow up examinations. </p>
@@ -254,45 +254,52 @@ injection, contact your doctor immediately. </p>
 The following is a list of the side effects reported to be possibly related to the injection procedure or to 
 the medicine. Please do not get alarmed, you might not experience any of these. Always discuss any 
 suspected side effects with your doctor. </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- deterioration of eyesight 
-- bleeding in the back of the eye (retinal haemorrhage) 
-- bloodshot eye caused by bleeding from small blood vessels in the outer layers of the eye 
-- eye pain </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- detachment or tear of one of the layers in the back of the eye, resulting in flashes of light with 
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>deterioration of eyesight </li>
+<li>bleeding in the back of the eye (retinal haemorrhage) </li>
+<li>bloodshot eye caused by bleeding from small blood vessels in the outer layers of the eye </li>
+<li>eye pain </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>detachment or tear of one of the layers in the back of the eye, resulting in flashes of light with 
 floaters sometimes progressing to a loss of vision (retinal pigment epithelial tear*/detachment, 
-retinal detachment/tear) 
-- degeneration of the retina (causing disturbed vision) 
-- bleeding in the eye (vitreous haemorrhage) 
-- certain forms of clouding of the lens (cataract) 
-- damage to the front layer of the eyeball (the cornea) 
-- increase in eye pressure 
-- moving spots in vision (floaters) 
-- detachment of the gel-like substance inside the eye from the retina (vitreous detachment, 
-resulting in flashes of light with floaters) 
-- a feeling of having something in the eye 
-- increased tear production 
-- swelling of the eyelid 
-- bleeding at the injection site 
-- redness of the eye 
-* 
-Conditions known to be associated with wet AMD; observed in wet AMD patients only. </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- allergic reactions (hypersensitivity)** 
-- serious inflammation or infection inside the eye (endophthalmitis) 
-- inflammation in the iris or other parts of the eye (iritis, uveitis, iridocyclitis, anterior chamber 
-flare) 
-- abnormal sensation in the eye 
-- eyelid irritation 
-- swelling of the front layer of the eyeball (cornea) </p>
+retinal detachment/tear) </li>
+<li>degeneration of the retina (causing disturbed vision) </li>
+<li>bleeding in the eye (vitreous haemorrhage) </li>
+<li>certain forms of clouding of the lens (cataract) </li>
+<li>damage to the front layer of the eyeball (the cornea) </li>
+<li>increase in eye pressure </li>
+<li>moving spots in vision (floaters) </li>
+<li>detachment of the gel-like substance inside the eye from the retina (vitreous detachment, 
+resulting in flashes of light with floaters) </li>
+<li>a feeling of having something in the eye </li>
+<li>increased tear production </li>
+<li>swelling of the eyelid </li>
+<li>bleeding at the injection site </li>
+<li>redness of the eye </li>
+<li>Conditions known to be associated with wet AMD; observed in wet AMD patients only. </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>allergic reactions (hypersensitivity)** </li>
+<li>serious inflammation or infection inside the eye (endophthalmitis) </li>
+<li>inflammation in the iris or other parts of the eye (iritis, uveitis, iridocyclitis, anterior chamber 
+flare) </li>
+<li>abnormal sensation in the eye </li>
+<li>eyelid irritation </li>
+<li>swelling of the front layer of the eyeball (cornea) </li>
+</ul>
 <p>** Allergic reactions like rash, itching (pruritus), hives (urticaria), and a few cases of severe allergy 
 (anaphylactic/anaphylactoid) reactions were reported. </p>
-<p>Rare side effects (may affect up to 1 in 1 000 people): 
-- blindness 
-- clouding of the lens due to injury (traumatic cataract) 
-- inflammation of the gel-like substance inside the eye 
-- pus in the eye </p>
+<p>Rare side effects (may affect up to 1 in 1 000 people):</p>
+<ul>
+<li>blindness </li>
+<li>clouding of the lens due to injury (traumatic cataract) </li>
+<li>inflammation of the gel-like substance inside the eye </li>
+<li>pus in the eye </li>
+</ul>
 <p>In the clinical trials, there was an increased incidence of bleeding from small blood vessels in the outer 
 layers of the eye (conjunctival haemorrhage) in patients with wet AMD receiving blood thinners. This 
 increased incidence was comparable between patients treated with ranibizumab and aflibercept. </p>
@@ -312,15 +319,17 @@ By reporting side effects, you can help provide more information on the safety o
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store yesafili"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and label after 
-EXP. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2 °C – 8 °C). Do not freeze. 
-* The unopened vial may be stored outside the refrigerator below 25 °C for up to 24 hours. 
-* Store in the original package in order to protect from light. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and label after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2  C   8  C). Do not freeze. </li>
+<li>The unopened vial may be stored outside the refrigerator below 25  C for up to 24 hours. </li>
+<li>Store in the original package in order to protect from light. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away any medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]

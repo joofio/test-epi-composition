@@ -4,7 +4,7 @@ Instance: composition-en-ed2ea7f84dcb14b5fa486093df321548
 InstanceOf: CompositionUvEpi
 Title: "Composition for kanuma Package Leaflet"
 Description:  "Composition for kanuma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -135,7 +135,7 @@ sodium for an adult. Tell your doctor if you or your child is on a controlled so
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take kanuma"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose you or your child receives is based on your or your child’s body weight. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose you or your child receives is based on your or your child s body weight. </p>
 <p>Infants (&lt; 6 months of age) 
 For patients who have signs and symptoms of the disease when they are infants, the recommended 
 starting dose is 1 mg/kg or 3 mg/kg once weekly. Dose adjustments may be considered based on how 
@@ -208,10 +208,10 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C to 8 °C). Do not freeze. Do not shake. Store in the original package in 
+<p>Store in a refrigerator (2  C to 8  C). Do not freeze. Do not shake. Store in the original package in 
 order to protect from light. </p>
 <p>For diluted solutions, immediate use is recommended. If not used immediately, the diluted solution 
-may be stored up to 24 hours at 2 °C to 8 °C or up to 12 hours below 25 °C. </p>
+may be stored up to 24 hours at 2  C to 8  C or up to 12 hours below 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -224,7 +224,7 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What KANUMA contains<br />
 - The active substance is sebelipase alfa. Each ml of concentrate contains 2 mg sebelipase alfa. 
 Each vial contains 20 mg of sebelipase alfa in 10 ml.<br />
-- The other ingredients are sodium citrate (see section 2 under ‘KANUMA contains sodium’), 
+- The other ingredients are sodium citrate (see section 2 under  KANUMA contains sodium ), 
 citric acid monohydrate, human serum albumin, and water for injections.  </p>
 <p>What KANUMA looks like and contents of the pack 
 KANUMA is supplied as a concentrate for solution for infusion (sterile concentrate). It is a solution 
@@ -247,22 +247,20 @@ Blanchardstown Road North </p>
 <p>Dublin D15 RIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing<br />
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 Alexion Pharma Belgium<br />
-Tél/Tel: +32 0 800 200 31  </p>
+T l/Tel: +32 0 800 200 31  </p>
 <p>Lietuva<br />
 UAB AstraZeneca Lietuva<br />
 Tel: +370 5 2660550  </p>
-<p>България<br />
-АстраЗенека България ЕООД<br />
-Teл.: +359 24455000  </p>
+<p>Te .: +359 24455000  </p>
 <p>Luxembourg/Luxemburg<br />
 Alexion Pharma Belgium<br />
-Tél/Tel: +32 0 800 200 31  </p>
-<p>Česká republika<br />
+T l/Tel: +32 0 800 200 31  </p>
+<p>esk  republika<br />
 AstraZeneca Czech Republic s.r.o.<br />
 Tel: +420 222 807 111<br />
-Magyarország<br />
+Magyarorsz g<br />
 AstraZeneca Kft.<br />
 Tel.: +36 1 883 6500  </p>
 <p>Danmark<br />
@@ -283,21 +281,20 @@ Tel: +372 6549 600  </p>
 <p>Norge<br />
 Alexion Pharma Nordics AB<br />
 Tlf: +46 (0)8 557 727 50   </p>
-<p>Ελλάδα<br />
-AstraZeneca A.E.<br />
-Τηλ: +30 210 6871500  </p>
-<p>Österreich<br />
+<p>AstraZeneca A.E.<br />
+ : +30 210 6871500  </p>
+<p>sterreich<br />
 Alexion Pharma Austria GmbH<br />
 Tel: +41 44 457 40 00  </p>
-<p>España<br />
+<p>Espa a<br />
 Alexion Pharma Spain, S.L.<br />
 Tel: +34 93 272 30 05  </p>
 <p>Polska<br />
 AstraZeneca Pharma Poland Sp. z o.o.<br />
-Tel.: +48 22 245 73 00  </p>
+Tel.: +48 22 245 73 00  </p>
 <p>France<br />
 Alexion Pharma France SAS<br />
-Tél: +33 1 47 32 36 21  </p>
+T l: +33 1 47 32 36 21  </p>
 <p>Portugal<br />
 Alexion Pharma Spain, S.L. - Sucursal em 
 Portugal <br />
@@ -305,7 +302,7 @@ Tel: +34 93 272 30 05  </p>
 <p>Hrvatska<br />
 AstraZeneca d.o.o.<br />
 Tel: +385 1 4628 000  </p>
-<p>România<br />
+<p>Rom nia<br />
 AstraZeneca Pharma SRL<br />
 Tel: +40 21 317 60 41 <br />
 Ireland<br />
@@ -314,10 +311,10 @@ Tel: +353 1 800 882 840  </p>
 <p>Slovenija<br />
 AstraZeneca UK Limited<br />
 Tel: +386 1 51 35 600  </p>
-<p>Ísland<br />
+<p>sland<br />
 Alexion Pharma Nordics AB<br />
-Sími: +46 0 8 557 727 50<br />
-Slovenská republika<br />
+S mi: +46 0 8 557 727 50<br />
+Slovensk  republika<br />
 AstraZeneca AB, o.z.<br />
 Tel: +421 2 5737 7777  </p>
 <p>Italia<br />
@@ -325,10 +322,9 @@ Alexion Pharma Italy srl<br />
 Tel: +39 02 7767 9211   </p>
 <p>Suomi/Finland<br />
 Alexion Pharma Nordics AB<br />
-Puh/Tel: +46 0 8 557 727 50 <br />
-Κύπρος<br />
-Alexion Europe SAS<br />
-Τηλ: +357 22490305  </p>
+Puh/Tel: +46 0 8 557 727 50   </p>
+<p>Alexion Europe SAS<br />
+ : +357 22490305  </p>
 <p>Sverige<br />
 Alexion Pharma Nordics AB<br />
 Tel: +46 0 8 557 727 50  </p>

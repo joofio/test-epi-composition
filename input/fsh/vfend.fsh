@@ -4,7 +4,7 @@ Instance: composition-en-74e50e4505c090a88581d2832252680c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vfend Package Leaflet"
 Description:  "Composition for vfend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -108,7 +108,7 @@ medicines, even those that are obtained without a prescription, or herbal medici
 <li>Ergot alkaloids (e.g., ergotamine, dihydroergotamine; used for migraine)  </li>
 <li>Sirolimus (used in transplant patients)  </li>
 <li>Ritonavir (used for treating HIV) in doses of 400mg and more twice daily  </li>
-<li>St. John’s Wort (herbal supplement)  </li>
+<li>St. John s Wort (herbal supplement)  </li>
 <li>Naloxegol (used to treat constipation specifically caused by pain medicines, called opioids, (e.g., 
 morphine, oxycodone, fentanyl, tramadol, codeine)) </li>
 <li>Tolvaptan (used to treat hyponatremia (low levels of sodium in your blood) or to slow kidney function 
@@ -124,24 +124,21 @@ Talk to your doctor, pharmacist or nurse before taking VFEND if: </p>
 may prescribe a lower dose of VFEND. Your doctor should also monitor your liver function while you 
 are being treated with VFEND by doing blood tests.  </li>
 <li>you are known to have cardiomyopathy, irregular heart beat, slow heart rate or an abnormality of 
-electrocardiogram (ECG) called ‘long QTc syndrome’.  </li>
+electrocardiogram (ECG) called  long QTc syndrome .  </li>
 </ul>
 <p>You should avoid any sunlight and sun exposure while being treated. It is important to cover sun exposed 
 areas of skin and use sunscreen with high sun protection factor (SPF), as an increased sensitivity of skin to 
-the sun’s UV rays can occur. This may be further increased by other medicines that sensitise the skin to 
+the sun s UV rays can occur. This may be further increased by other medicines that sensitise the skin to 
 sunlight, like methotrexate. These precautions are also applicable to children. </p>
 <p>While being treated with VFEND:<br />
-* tell your doctor immediately if you develop 
-o sunburn 
-o severe skin rash or blisters<br />
-o bone pain  </p>
+* tell your doctor immediately if you develop * sunburn * severe skin rash or blisters  * bone pain  </p>
 <p>If you develop skin disorders as described above, your doctor may refer you to a dermatologist, who after 
 consultation may decide that it is important for you to be seen on a regular basis. There is a small chance that 
 skin cancer could develop with long-term use of VFEND.  </p>
-<p>If you develop signs of ‘adrenal insufficiency’ where the adrenal glands do not produce adequate amounts of 
+<p>If you develop signs of  adrenal insufficiency  where the adrenal glands do not produce adequate amounts of 
 certain steroid hormones such as cortisol which may lead to symptoms such as: chronic, or long lasting 
 fatigue, muscle weakness, loss of appetite, weight loss, abdominal pain, please tell your doctor. </p>
-<p>If you develop signs of ‘Cushing’s syndrome’ where the body produces too much of the hormone cortisol<br />
+<p>If you develop signs of  Cushing s syndrome  where the body produces too much of the hormone cortisol<br />
 which may lead to symptoms such as: weight gain, fatty hump between the shoulders, a rounded face, 
 darkening of the skin on the stomach, thighs breasts, and arms, thinning skin, bruising easily, high blood 
 sugar, excessive hair growth, excessive sweating, please tell your doctor. </p>
@@ -157,7 +154,7 @@ may affect the way they work.   </p>
 be avoided if possible:  </p>
 <ul>
 <li>Ritonavir (used for treating HIV) in doses of 100 mg twice daily </li>
-<li>Glasdegib (used for treating cancer) – if you need to use both drugs your doctor will monitor your 
+<li>Glasdegib (used for treating cancer)   if you need to use both drugs your doctor will monitor your 
 heart rhythm frequently </li>
 </ul>
 <p>Tell your doctor if you are taking either of the following medicines, as treatment with VFEND at the same 
@@ -219,9 +216,9 @@ If you have been told by your doctor that you have an intolerance to some sugars
 taking VFEND.  </p>
 <p>VFEND contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 50 mg tablet, that is to say essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 200 mg tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vfend"
@@ -301,7 +298,7 @@ require long-term treatment to prevent the infection from returning.  </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>If any side effects occur, most are likely to be minor and temporary. However, some may be serious and 
 need medical attention.  </p>
-<p>Serious side effects – Stop taking VFEND and see a doctor immediately 
+<p>Serious side effects   Stop taking VFEND and see a doctor immediately 
 - Rash 
 - Jaundice; Changes in blood tests of liver function 
 - Pancreatitis </p>
@@ -392,7 +389,7 @@ by low platelet count, eczema </li>
 <li>Deterioration of brain function that is a serious complication of liver disease </li>
 <li>Loss of most fibers in the optic nerve, clouding of the cornea, involuntary movement of the eye </li>
 <li>Bullous photosensitivity </li>
-<li>A disorder in which the body’s immune system attacks part of the peripheral nervous system </li>
+<li>A disorder in which the body s immune system attacks part of the peripheral nervous system </li>
 <li>Heart rhythm or conduction problems (sometimes life threatening)  </li>
 <li>Life threatening allergic reaction  </li>
 <li>Disorder of blood clotting system </li>
@@ -401,14 +398,18 @@ subcutaneous tissue, mucosa and submucosal tissues, itchy or sore patches of thi
 silvery scales of skin, irritation of the skin and mucous membranes, life-threatening skin condition that 
 causes large portions of the epidermis, the skin's outermost layer, to detach from the layers of skin 
 below </li>
-<li>Small dry scaly skin patches, sometimes thick with spikes or ‘horns’ </li>
+<li>Small dry scaly skin patches, sometimes thick with spikes or  horns  </li>
 </ul>
-<p>Side effects with frequency not known: 
-- Freckles and pigmented spots </p>
+<p>Side effects with frequency not known:</p>
+<ul>
+<li>Freckles and pigmented spots </li>
+</ul>
 <p>Other significant side effects whose frequency is not known, but should be reported to your doctor 
-immediately: 
-- Red, scaly patches or ring-shaped skin lesions that may be a symptom of an autoimmune disease 
-called cutaneous lupus erythematosus </p>
+immediately:</p>
+<ul>
+<li>Red, scaly patches or ring-shaped skin lesions that may be a symptom of an autoimmune disease 
+called cutaneous lupus erythematosus </li>
+</ul>
 <p>As VFEND has been known to affect the liver and the kidney, your doctor should monitor the function of 
 your liver and kidney by doing blood tests. Please advise your doctor if you have any stomach pains or if 
 your stools have a different consistency. </p>
@@ -455,101 +456,5 @@ marked on one side and VOR50 on the reverse.  </p>
 <p>VFEND 200 mg film-coated tablets are supplied as white to off-white capsule shaped film-coated tablets 
 with Pfizer marked on one side and VOR200 on the reverse.  </p>
 <p>VFEND 50 mg film-coated tablets and 200 mg film-coated tablets are available as packs of 2, 10, 14, 20, 28, 
-30, 50, 56 and 100.  </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder<br />
-Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Belgium.  </p>
-<p>Manufacturers<br />
-R-Pharm Germany GmbH<br />
-Heinrich-Mack-Str. 35, 89257 Illertissen<br />
-Germany  </p>
-<p>Pfizer Italia S.r.l. 
-Località Marino del Tronto 
-63100 Ascoli Piceno (AP) 
-Italy </p>
-<p>For any information about this medicine, please contact the local representative of the<br />
-Marketing Authorisation Holder:  </p>
-<p>België /Belgique/Belgien / 
-Luxembourg/Luxemburg 
-Pfizer NV/SA<br />
-Tél/Tel: +32 (0)2 554 62<br />
-Lietuva<br />
-Pfizer Luxembourg SARL<br />
-Filialas Lietuvoje<br />
-Tel. +3705 2514 
-България<br />
-Пфайзер Люксембург САРЛ, Клон България<br />
-Тел.: +359 2 970 4333<br />
-Magyarország<br />
-Pfizer Kft.<br />
-Tel. + 36 1 488 37 Česká republika<br />
-Pfizer, spol. s.r.o. 
-Tel: +420-283-004-Malta<br />
-Vivian Corporation Ltd.<br />
-Tel : +356 21344Danmark<br />
-Pfizer ApS Tlf:<br />
-+45 44 20 11 00<br />
-Nederland<br />
-Pfizer bv<br />
-Tel: +31 (0)800 63 34 Deutschland<br />
-PFIZER PHARMA GmbH<br />
-Tel: +49 (0)30 550055-51Norge<br />
-Pfizer AS<br />
-Tlf: +47 67 52 61 Eesti<br />
-Pfizer Luxembourg SARL Eesti filiaal<br />
-Tel: +372 666 7500<br />
-Österreich<br />
-Pfizer Corporation Austria Ges.m.b.H. Tel: 
-+43 (0)1 521 15-0 
-Ελλάδα<br />
-Pfizer ΕΛΛΑΣ A.E. 
-Τηλ.: +30 210 6785<br />
-Polska<br />
-Pfizer Polska Sp. z o.o.,<br />
-Tel.: +48 22 335 61 España<br />
-Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal<br />
-Laboratórios Pfizer, Lda.<br />
-Tel: + 351 214 235 France 
-Pfizer 
-Tél: +33 (0)1 58 07 34 40<br />
-România<br />
-Pfizer România S.R.L<br />
-Tel: +40 (0)21 207 28 Hrvatska 
-Pfizer Croatia d.o.o. 
-Tel: + 385 1 3908<br />
-Slovenija<br />
-Pfizer Luxembourg SARL<br />
-Pfizer, podružnica za svetovanje s področja 
-farmacevtske dejavnosti, Ljubljana<br />
-Tel: + 386 (0)152 11 400  </p>
-<p>Ireland<br />
-Pfizer Healthcare Ireland<br />
-Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616Slovenská republika<br />
-Pfizer Luxembourg SARL, organizačná zložka 
-Tel: +421-2-3355 5Ísland<br />
-Icepharma hf.,<br />
-Sími: + 354 540 8000<br />
-Suomi/Finland<br />
-Pfizer Oy<br />
-Puh/Tel: +358(0)9 43 00<br />
-Italia<br />
-Pfizer S.r.l.<br />
-Tel: +39 06 33 18 21<br />
-Sverige <br />
-Pfizer AB<br />
-Tel: +46 (0)8 5505 2Kύπρος 
-Pfizer ΕΛΛΑΣ Α.Ε. (Cyprus Branch)<br />
-Τηλ: +357 22 817<br />
-United Kingdom (Northern Ireland) 
-Pfizer Limited<br />
-Tel: +44 (0)1304 616161<br />
-Latvija<br />
-Pfizer Luxembourg SARL<br />
-Filiāle Latvijā<br />
-Tel: +371 670 35  </p>
-<p>This leaflet was last approved in {MM/YYYY}. 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+30, 50, 56 and 10</p>         </div>"""      
 

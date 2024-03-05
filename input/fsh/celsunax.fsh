@@ -4,7 +4,7 @@ Instance: composition-en-f364d278d54ddbe0f130b25e10418f63
 InstanceOf: CompositionUvEpi
 Title: "Composition for celsunax Package Leaflet"
 Description:  "Composition for celsunax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine is a radiopharmaceutical product for diagnostic use only. It is used only to identify 
 illness. 
 Celsunax contains the active substance ioflupane (123I) which is used to help identify (diagnose) 
-conditions in the brain. It belongs to a group of medicines called “radiopharmaceuticals”, which contain 
+conditions in the brain. It belongs to a group of medicines called  radiopharmaceuticals , which contain 
 a small amount of radioactivity. </p>
 <ul>
 <li>When a radiopharmaceutical is injected, it collects in a specific organ or area of the body for a 
@@ -83,9 +83,11 @@ inside the organ and the body. This can give the doctor valuable information abo
 is working. </li>
 </ul>
 <p>When Celsunax is injected into an adult, it is carried around the body in the blood. It collects in a small 
-area of your brain. Changes in this area of the brain occur in: 
-- parkinsonism (including Parkinson’s disease) and 
-- dementia with Lewy bodies. </p>
+area of your brain. Changes in this area of the brain occur in:</p>
+<ul>
+<li>parkinsonism (including Parkinson s disease) and </li>
+<li>dementia with Lewy bodies. </li>
+</ul>
 <p>A scan will give your doctor information about any changes in this area of your brain. Your doctor may 
 feel that the scan would help in finding out more about your condition and deciding on possible 
 treatment. </p>
@@ -115,16 +117,18 @@ Celsunax is not recommended for children and adolescents below 18 years. </p>
 <p>Other medicines and Celsunax 
 Tell your nuclear medicine doctor if you are taking or have recently taken any other medicines.<br />
 Some medicines or substances can affect the way that this medicine works. 
-These include: 
-- buproprion (used to treat depression (sadness)), 
-- benzatropine (used to treat Parkinson’s disease), 
-- mazindol (reduces appetite, as a means to treat obesity), 
-- sertraline (used to treat depression (sadness)), 
-- methylphenidate (used to treat hyperactivity in children and narcolepsy (excessive sleepiness)), 
-- phentermine (reduces appetite, as a means to treat obesity), 
-- amfetamine (used to treat hyperactivity in children and narcolepsy (excessive sleepiness); also a 
-substance of abuse), 
-- cocaine (sometimes used as an anaesthetic for nose surgery; also a substance of abuse). </p>
+These include:</p>
+<ul>
+<li>buproprion (used to treat depression (sadness)), </li>
+<li>benzatropine (used to treat Parkinson s disease), </li>
+<li>mazindol (reduces appetite, as a means to treat obesity), </li>
+<li>sertraline (used to treat depression (sadness)), </li>
+<li>methylphenidate (used to treat hyperactivity in children and narcolepsy (excessive sleepiness)), </li>
+<li>phentermine (reduces appetite, as a means to treat obesity), </li>
+<li>amfetamine (used to treat hyperactivity in children and narcolepsy (excessive sleepiness); also a 
+substance of abuse), </li>
+<li>cocaine (sometimes used as an anaesthetic for nose surgery; also a substance of abuse). </li>
+</ul>
 <p>Some medicines may reduce the quality of the picture obtained. The doctor may ask you to stop taking 
 them for a short time before you receive Celsunax. </p>
 <p>Pregnancy and breast-feeding 
@@ -236,15 +240,17 @@ medicine. </p>         </div>"""
 in appropriate premises. Storage of radiopharmaceuticals will be in accordance with national regulation 
 on radioactive materials. Hospital staff will ensure that the product is stored and thrown away correctly 
 and not used after the expiry date stated on the label. </p>
-<p>The following information is intended for the specialist only: 
-- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date, which is stated on the carton and vial after EXP 
-and is 24 hours from the end of the synthesis (EOS) time stated on the label.<br />
-- Do not store above 25 °C. 
-- Do not freeze.<br />
-- Store in the original lead shielding. Store in accordance with national regulation on radioactive 
-materials. 
--  </p>         </div>"""      
+<p>The following information is intended for the specialist only:</p>
+<ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date, which is stated on the carton and vial after EXP 
+and is 24 hours from the end of the synthesis (EOS) time stated on the label.  </li>
+<li>Do not store above 25  C. </li>
+<li>Do not freeze.  </li>
+<li>Store in the original lead shielding. Store in accordance with national regulation on radioactive 
+materials. </li>
+<li></li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -254,6 +260,30 @@ materials.
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Celsunax contains 
 - The active substance is ioflupane (123I). Each mL of solution contains 74 MBq of ioflupane (123I) 
-at reference time (0.07 to 0.13 μg/mL of ioflupane). 
-Each 2.5 mL single dose vial contains 185 MBq ioflupane (123I) (specific activity range 2.5 to </p>         </div>"""      
+at reference time (0.07 to 0.13  g/mL of ioflupane). 
+Each 2.5 mL single dose vial contains 185 MBq ioflupane (123I) (specific activity range 2.5 to 
+4.5 x 1014 Bq/mmol) at reference time. 
+Each 5 mL single dose vial contains 370 MBq ioflupane (123I) (specific activity range 2.5 to 
+4.5 x 1014 Bq/mmol) at reference time. 
+Iodine-123 has a physical half-life of 13.2 hours. It decays emitting gamma radiation with a 
+predominant energy of 159 keV and X-rays of 27 keV. 
+- The other ingredients are acetic acid, glacial (E260), sodium acetate trihydrate (E262), ethanol 
+(96%) (E1510) and water for injections. </p>
+<p>What Celsunax looks like and contents of the pack 
+Celsunax is a 2.5 or 5 mL colourless solution for injection, supplied in a 10 mL glass vial (Type I) with 
+a rubber stopper and a flip cap. </p>
+<p>Marketing Authorisation Holder 
+Pinax Pharma GmbH 
+Lausitz M hlenweg 5 
+04924 Bad Liebenwerda 
+Germany </p>
+<p>Manufacturer 
+Seibersdorf Labor GmbH 
+Grundst ck Nr. 482/2 EZ 98 KG 
+2444 Seibersdorf 
+Austria </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>         </div>"""      
 

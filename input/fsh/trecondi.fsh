@@ -4,7 +4,7 @@ Instance: composition-en-133076b034a4711dfc1fe81f7acd828f
 InstanceOf: CompositionUvEpi
 Title: "Composition for trecondi Package Leaflet"
 Description:  "Composition for trecondi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,18 +83,13 @@ and children older than one month with cancer and non-cancerous disorders.  </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take trecondi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trecondi must not be given to you 
- 
-if you are allergic to treosulfan, 
- 
-if you suffer from an active uncontrolled infection, 
- 
-if you suffer from severe heart, lung, liver or kidney diseases, 
- 
-if you suffer from hereditary DNA repair disorder, a condition that reduces the ability to repair 
-DNA (which carries your genetic information), 
- 
-if you are pregnant, or think you may be pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trecondi must not be given to you </p>
+<p>if you are allergic to treosulfan, </p>
+<p>if you suffer from an active uncontrolled infection, </p>
+<p>if you suffer from severe heart, lung, liver or kidney diseases, </p>
+<p>if you suffer from hereditary DNA repair disorder, a condition that reduces the ability to repair 
+DNA (which carries your genetic information), </p>
+<p>if you are pregnant, or think you may be pregnant. </p>
 <p>Warnings and precautions<br />
 Trecondi is a cell-killing (cytotoxic) medicine that is used to decrease the number of blood cells. At 
 the recommended dose, this is the desired effect. You will have regular blood tests during treatment to 
@@ -114,7 +109,7 @@ Fits (seizures) may occur very rarely in infants of less than 4 months of age. C
 monitored for signs of side effects affecting nerves and breathing problems.  </p>
 <p>Nappy rash with sores of the area around the anus (perianal) may occur in infants, toddlers and 
 children wearing nappies because treosulfan passed out in the urine can damage the skin. Therefore, 
-nappies should be changed frequently during 6–8 hours after each dose of this medicine.  </p>
+nappies should be changed frequently during 6 8 hours after each dose of this medicine.  </p>
 <p>There is not sufficient information on the use of treosulfan in children aged less than 1 month. </p>
 <p>Other medicines and Trecondi 
 Tell your doctor if you are taking, have recently taken or might take any other medicines, including 
@@ -142,10 +137,10 @@ machines. If you are affected, do not drive or use machines. </p>         </div>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Use in adults 
 This medicine is used in combination with fludarabine. 
-The recommended dose is 10–14 g/m² body surface area (calculated using your height and weight).  </p>
+The recommended dose is 10 14 g/m  body surface area (calculated using your height and weight).  </p>
 <p>Use in children and adolescents 
 This medicine is used in combination with fludarabine and in most cases also with thiotepa. The 
-recommended dose is 10–14 g/m² body surface area.  </p>
+recommended dose is 10 14 g/m  body surface area.  </p>
 <p>How Trecondi is given 
 This medicine will be given to you by your doctor. It is given by drip (infusion) into a vein over 
 2 hours for 3 days before blood stem cell infusion. </p>         </div>"""         
@@ -219,7 +214,7 @@ box, hiccups
 rapid speech (extrapyramidal disorder), fainting, sensation of tingling, pricking or numbness 
 (paraesthesia) 
 * dry eye 
-* heart not pumping enough blood for the body’s needs (heart failure), heart attack, fluid in the 
+* heart not pumping enough blood for the body s needs (heart failure), heart attack, fluid in the 
 sac around the heart (pericardial effusion) 
 * blockage of a blood vessel (embolism) 
 * throat pain, hoarseness, cough 
@@ -285,7 +280,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store trecondi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>For storage conditions after reconstitution of the medicine, see the information below for healthcare 
@@ -312,7 +307,7 @@ Trecondi is available in packs containing 1 or 5 vials (type I glass). </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 medac 
-Gesellschaft für klinische Spezialpräparate mbH 
+Gesellschaft f r klinische Spezialpr parate mbH 
 Theaterstr. 6 
 22880 Wedel 
 Germany 
@@ -321,7 +316,7 @@ Tel.:<br />
 Fax:<br />
 +49 4103 8006-Email: 
 contact@medac.de </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

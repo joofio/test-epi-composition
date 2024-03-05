@@ -4,7 +4,7 @@ Instance: composition-en-f8c170d86aa07746789b3e8977888cb6
 InstanceOf: CompositionUvEpi
 Title: "Composition for eucreas Package Leaflet"
 Description:  "Composition for eucreas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What eucreas is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substances of Eucreas, vildagliptin and metformin, belong to a group of medicines called 
-“oral antidiabetics”. </p>
+ oral antidiabetics . </p>
 <p>Eucreas is used to treat adult patients with type 2 diabetes. This type of diabetes is also known as non-
 insulin-dependent diabetes mellitus. Eucreas is used when diabetes cannot be controlled by diet and 
 exercise alone and/or with other medicines used to treat diabetes (insulin or sulphonylureas). </p>
@@ -97,8 +97,8 @@ shown to reduce blood sugar, which may help to prevent complications from your d
 (listed in section 6). If you think you may be allergic to any of these, talk to your doctor before 
 taking Eucreas. 
 - if you have uncontrolled diabetes, with, for example, severe hyperglycaemia (high blood 
-glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactic acidosis (see “Risk of lactic 
-acidosis” below) or ketoacidosis. Ketoacidosis is a condition in which substances called ketone 
+glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactic acidosis (see  Risk of lactic 
+acidosis  below) or ketoacidosis. Ketoacidosis is a condition in which substances called ketone 
 bodies accumulate in the blood and which can lead to diabetic pre-coma. Symptoms include 
 stomach pain, fast and deep breathing, sleepiness or your breath developing an unusual fruity 
 smell. 
@@ -108,10 +108,10 @@ blood circulation or difficulties in breathing which could be a sign of heart pr
 - if you have a severe infection or are seriously dehydrated (have lost a lot of water from your 
 body). 
 - if you are going to have a contrast x-ray (a specific type of x-ray involving an injectable dye). 
-Please also see information about this in section “Warnings and precautions”. 
+Please also see information about this in section  Warnings and precautions . 
 - if you have liver problems. 
 - if you drink alcohol excessively (whether every day or only from time to time). 
-- if you are breast-feeding (see also “Pregnancy and breast-feeding”). </p>
+- if you are breast-feeding (see also  Pregnancy and breast-feeding ). </p>
 <p>Warnings and precautions </p>
 <p>Risk of lactic acidosis 
 Eucreas may cause a very rare, but very serious side effect called lactic acidosis, particularly if your 
@@ -125,13 +125,15 @@ dehydration (significant loss of body fluids) such as severe vomiting, diarrhoea
 heat or if you drink less fluid than normal. Talk to your doctor for further instructions. </p>
 <p>Stop taking Eucreas and contact a doctor or the nearest hospital immediately if you experience 
 some of the symptoms of lactic acidosis, as this condition may lead to coma. 
-Symptoms of lactic acidosis include: 
-- vomiting 
-- stomach ache (abdominal pain) 
-- muscle cramps 
-- a general feeling of not being well with severe tiredness 
-- difficulty in breathing 
-- reduced body temperature and heartbeat </p>
+Symptoms of lactic acidosis include:</p>
+<ul>
+<li>vomiting </li>
+<li>stomach ache (abdominal pain) </li>
+<li>muscle cramps </li>
+<li>a general feeling of not being well with severe tiredness </li>
+<li>difficulty in breathing </li>
+<li>reduced body temperature and heartbeat </li>
+</ul>
 <p>Lactic acidosis is a medical emergency and must be treated in a hospital. </p>
 <p>Eucreas is not a substitute for insulin. Therefore, you should not receive Eucreas for the treatment of 
 type 1 diabetes. </p>
@@ -164,30 +166,32 @@ injection. Your doctor will decide when you must stop and when to restart your t
 Eucreas. </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines. You may 
 need more frequent blood glucose and kidney function tests, or your doctor may need to adjust the 
-dosage of Eucreas. It is especially important to mention the following: 
-- glucocorticoids generally used to treat inflammation 
-- beta-2 agonists generally used to treat respiratory disorders 
-- other medicines used to treat diabetes 
-- medicines which increase urine production (diuretics) 
-- medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as 
-ibuprofen and celecoxib) 
-- certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II 
-receptor antagonists) 
-- certain medicines affecting the thyroid 
-- certain medicines affecting the nervous system 
-- certain medicines used to treat angina (e.g. ranolazine) 
-- certain medicines used to treat HIV infection (e.g. dolutegravir) 
-- certain medicines used to treat a specific type of thyroid cancer (medullary thyroid cancer) (e.g. 
-vandetanib) 
-- certain medicines used to treat heartburn and peptic ulcers (e.g cimetidine) </p>
+dosage of Eucreas. It is especially important to mention the following:</p>
+<ul>
+<li>glucocorticoids generally used to treat inflammation </li>
+<li>beta-2 agonists generally used to treat respiratory disorders </li>
+<li>other medicines used to treat diabetes </li>
+<li>medicines which increase urine production (diuretics) </li>
+<li>medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as 
+ibuprofen and celecoxib) </li>
+<li>certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II 
+receptor antagonists) </li>
+<li>certain medicines affecting the thyroid </li>
+<li>certain medicines affecting the nervous system </li>
+<li>certain medicines used to treat angina (e.g. ranolazine) </li>
+<li>certain medicines used to treat HIV infection (e.g. dolutegravir) </li>
+<li>certain medicines used to treat a specific type of thyroid cancer (medullary thyroid cancer) (e.g. 
+vandetanib) </li>
+<li>certain medicines used to treat heartburn and peptic ulcers (e.g cimetidine) </li>
+</ul>
 <p>Eucreas with alcohol 
 Avoid excessive alcohol intake while taking Eucreas since this may increase the risk of lactic acidosis 
-(please see section “Warnings and precautions”). </p>
+(please see section  Warnings and precautions ). </p>
 <p>Pregnancy and breast-feeding 
 - If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor 
 for advice before taking this medicine. Your doctor will discuss with you the potential risk of 
 taking Eucreas during pregnancy. 
-- Do not use Eucreas if you are pregnant or breast-feeding (see also “Do not take Eucreas”). </p>
+- Do not use Eucreas if you are pregnant or breast-feeding (see also  Do not take Eucreas ). </p>
 <p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Driving and using machines 
 If you feel dizzy while taking Eucreas, do not drive or use any tools or machines. </p>         </div>"""   
@@ -236,12 +240,12 @@ about how long to take this medicine, talk to your doctor. </p>
 <p>You should stop taking Eucreas and see your doctor immediately if you experience the following 
 side effects: 
 * Lactic acidosis (very rare: may affect up to 1 in 10 000 people): Eucreas may cause a very rare, 
-but very serious side effect called lactic acidosis (see section “Warnings and precautions”). If 
+but very serious side effect called lactic acidosis (see section  Warnings and precautions ). If 
 this happens you must stop taking Eucreas and contact a doctor or the nearest hospital 
 immediately, as lactic acidosis may lead to coma. 
 * Angioedema (rare: may affect up to 1 in 1 000 people): Symptoms include swollen face, tongue 
 or throat, difficulty swallowing, difficulty breathing, sudden onset of rash or hives, which may 
-indicate a reaction called “angioedema”. 
+indicate a reaction called  angioedema . 
 * Liver disease (hepatitis) (uncommon: may affect up to 1 in 100 people): Symptoms include 
 yellow skin and eyes, nausea, loss of appetite or dark-coloured urine, which may indicate liver 
 disease (hepatitis). 
@@ -277,14 +281,16 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store eucreas"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the blister and carton after 
-“EXP”. The expiry date refers to the last day of that month. 
-- Do not store above 30C. 
-- Store in the original package (blister) in order to protect from moisture. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the blister and carton after 
+ EXP . The expiry date refers to the last day of that month. </li>
+<li>Do not store above 30 C. </li>
+<li>Store in the original package (blister) in order to protect from moisture. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -301,10 +307,10 @@ metformin hydrochloride (corresponding to 780 mg of metformin).
 - The other ingredients are: Hydroxypropylcellulose, magnesium stearate, hypromellose, titanium 
 dioxide (E 171), yellow iron oxide (E 172), macrogol 4000 and talc. </p>
 <p>What Eucreas looks like and contents of the pack 
-Eucreas 50 mg/850 mg film-coated tablets are yellow, oval tablets with “NVR” on one side and 
-“SEH” on the other. 
-Eucreas 50 mg/1000 mg film-coated tablets are dark yellow, oval tablets with “NVR” on one side and 
-“FLO” on the other. </p>
+Eucreas 50 mg/850 mg film-coated tablets are yellow, oval tablets with  NVR  on one side and 
+ SEH  on the other. 
+Eucreas 50 mg/1000 mg film-coated tablets are dark yellow, oval tablets with  NVR  on one side and 
+ FLO  on the other. </p>
 <p>Eucreas is available in packs containing 10, 30, 60, 120, 180 or 360 film-coated tablets and in multi-
 packs containing 120 (2x60), 180 (3x60) or 360 (6x60) film-coated tablets. Not all pack sizes and 
 tablet strengths may be available in your country. </p>
@@ -322,30 +328,29 @@ Lendava, 9Slovenia </p>
 Roonstrasse D-90429 Nuremberg 
 Germany </p>
 <p>Novartis Pharmaceutical Manufacturing LLC 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
-<p>Novartis Farmacéutica, S.A. 
+<p>Novartis Farmac utica, S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел.: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -361,35 +366,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -397,10 +402,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

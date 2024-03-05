@@ -4,7 +4,7 @@ Instance: composition-en-4361504119fec5762723adfabb108410
 InstanceOf: CompositionUvEpi
 Title: "Composition for obizur Package Leaflet"
 Description:  "Composition for obizur Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,12 +87,14 @@ antibodies have less neutralizing effect against OBIZUR than against human facto
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The medicine is for in-patient administration only. It requires clinical supervision of the bleeding 
 status of the patient. </p>
-<p>You must not be given OBIZUR: 
-- if you are allergic to susoctocog alfa or any of the other ingredients of this medicine (listed in 
-section 6); 
-- if you are allergic to hamster proteins (trace amounts may be present in OBIZUR arising from 
-the manufacturing process); 
-- if you have congenital haemophilia A with inhibitors (CHAWI). </p>
+<p>You must not be given OBIZUR:</p>
+<ul>
+<li>if you are allergic to susoctocog alfa or any of the other ingredients of this medicine (listed in 
+section 6); </li>
+<li>if you are allergic to hamster proteins (trace amounts may be present in OBIZUR arising from 
+the manufacturing process); </li>
+<li>if you have congenital haemophilia A with inhibitors (CHAWI). </li>
+</ul>
 <p>If you are not sure, talk to your doctor before you are given this medicine. </p>
 <p>Warnings and precautions 
 Talk to your doctor before you are given OBIZUR. </p>
@@ -155,16 +157,18 @@ The total volume of reconstituted OBIZUR should be administered at a rate of 1 t
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If severe and sudden allergic reactions occur, the injection must be stopped immediately. You must 
-contact your doctor immediately if you have any of the following early symptoms: 
-- Swelling of lips and tongue; 
-- Burning and stinging at the injection site; 
-- Chills, flushing; 
-- Hives, generalised itching; 
-- Headache, low blood pressure; 
-- Lethargy, sickness, restlessness; 
-- Rapid beating of the heart, tightness of the chest; 
-- Tingling, vomiting; 
-- Wheezing. </p>
+contact your doctor immediately if you have any of the following early symptoms:</p>
+<ul>
+<li>Swelling of lips and tongue; </li>
+<li>Burning and stinging at the injection site; </li>
+<li>Chills, flushing; </li>
+<li>Hives, generalised itching; </li>
+<li>Headache, low blood pressure; </li>
+<li>Lethargy, sickness, restlessness; </li>
+<li>Rapid beating of the heart, tightness of the chest; </li>
+<li>Tingling, vomiting; </li>
+<li>Wheezing. </li>
+</ul>
 <p>Very common side effects (may affect more than 1 in 10 people) 
 - Development of antibodies and increases in pre-existing antibodies against the medicine, which 
 may result in lack of efficacy with continued bleeding. </p>
@@ -181,7 +185,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, on the vial and on the 
 pre-filled syringe after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C–8°C). 
+<p>Store in a refrigerator (2 C 8 C). 
 Do not freeze. </p>
 <p>Use the reconstituted solution immediately but no longer than 3 hours once the powder is completely 
 dissolved. </p>
@@ -207,13 +211,15 @@ by recombinant DNA technology). Each powder vial contains 500 U of susoctocog al
 calcium chloride dihydrate, sucrose, trometamol, trometamol hydrochloride, sodium citrate. 
 - The solvent is 1 ml sterilised water for injections. </p>
 <p>What OBIZUR looks like and contents of the pack 
-One pack contains 1, 5 or 10 of the following: 
-- glass vial of OBIZUR 500 U white, friable powder with a butyl rubber stopper coated with 
-FluroTec® and a flip-off seal; 
-- pre-filled glass syringe with a stopper of bromobutyl rubber coated with FluroTec® foil on the 
+One pack contains 1, 5 or 10 of the following:</p>
+<ul>
+<li>glass vial of OBIZUR 500 U white, friable powder with a butyl rubber stopper coated with 
+FluroTec  and a flip-off seal; </li>
+<li>pre-filled glass syringe with a stopper of bromobutyl rubber coated with FluroTec  foil on the 
 contact side of 1 ml sterilised water for injections with a bromobutyl rubber tip cap and a Luer 
-lock adapter; 
-- fluid transfer device with an integral plastic spike. </p>
+lock adapter; </li>
+<li>fluid transfer device with an integral plastic spike. </li>
+</ul>
 <p>Marketing Authorisation Holder 
 Baxalta Innovations GmbH 
 Industriestrasse 1221 Vienna 
@@ -224,30 +230,28 @@ Industriestrasse 1221 Vienna
 Austria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 11<br />
+T l/Tel: +32 2 464 06 11<br />
 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
-<p>България 
-Такеда България ЕООД 
-Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
-<p>Česká republika 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
 Takeda Pharma A/S 
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
-Τakeda HELLAS S.A. 
+ akeda HELLAS S.A. 
 Tel: +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Deutschland 
 Takeda GmbH 
@@ -261,41 +265,40 @@ Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS 
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-Τakeda ΕΛΛΑΣ Α.Ε. 
-Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
-<p>Österreich 
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
 Tel: +43 (0) 800-20 80 50<br />
 medinfoEMEA@takeda.com </p>
-<p>España 
-Takeda Farmacéutica España, S.A. 
+<p>Espa a 
+Takeda Farmac utica Espa a, S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
 <p>Polska 
 Takeda Pharma Sp. z o.o. 
 Tel.: +48223062medinfoEMEA@takeda.com </p>
 <p>France 
 Takeda France SAS 
-Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Takeda Farmacêuticos Portugal, Lda. 
+Takeda Farmac uticos Portugal, Lda. 
 Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
-<p>România 
+<p>Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7medinfoEMEA@takeda.com </p>
-<p>Slovenská republika 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
@@ -304,9 +307,8 @@ Tel: +39 06 502medinfoEMEA@takeda.com </p>
 <p>Suomi/Finland 
 Takeda Oy 
 Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
-<p>Κύπρος 
-Τakeda ΕΛΛΑΣ Α.Ε. 
-Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>akeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Sverige 
 Takeda Pharma AB 
 Tel: 020 795 medinfoEMEA@takeda.com </p>
@@ -317,7 +319,7 @@ Tel: +371 67840medinfoEMEA@takeda.com </p>
 Takeda UK Ltd 
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in . </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

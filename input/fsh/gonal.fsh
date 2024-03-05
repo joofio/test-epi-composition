@@ -4,7 +4,7 @@ Instance: composition-en-dd18b3b8f2dba9230f63c60b0e5cbf28
 InstanceOf: CompositionUvEpi
 Title: "Composition for gonal Package Leaflet"
 Description:  "Composition for gonal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,21 +70,21 @@ Usage: #example
   * code.text =  "1. What gonal is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What GONAL-f is </p>
-<p>GONAL-f contains a medicine called “follitropin alfa”. Follitropin alfa is a type of “follicle 
-stimulating hormone” (FSH) which belongs to the family of hormones called “gonadotropins”. 
+<p>GONAL-f contains a medicine called  follitropin alfa . Follitropin alfa is a type of  follicle 
+stimulating hormone  (FSH) which belongs to the family of hormones called  gonadotropins . 
 Gonadotropins are involved in reproduction and fertility. </p>
 <p>What GONAL-f is used for </p>
 <p>In adult women, GONAL-f is used: 
 * to help release an egg from the ovary (ovulation) in women that cannot ovulate and that did not 
-respond to treatment with a medicine called “clomiphene citrate”. 
-* together with another medicine called “lutropin alfa” (“luteinising hormone” or LH) to help 
+respond to treatment with a medicine called  clomiphene citrate . 
+* together with another medicine called  lutropin alfa  ( luteinising hormone  or LH) to help 
 release egg from the ovary (ovulation) in women whose body is producing very little 
 gonadotropins (FSH and LH). 
 * to help develop several follicles (each containing an egg) in women undergoing assisted 
 reproductive technology procedures (procedures that may help you to become pregnant) such as 
-“in vitro fertilisation”, “gamete intra-fallopian transfer” or “zygote intra-fallopian transfer”. </p>
+ in vitro fertilisation ,  gamete intra-fallopian transfer  or  zygote intra-fallopian transfer . </p>
 <p>In adult men, GONAL-f is used: 
-* together with another medicine called “human chorionic gonadotropin” (hCG) to help produce 
+* together with another medicine called  human chorionic gonadotropin  (hCG) to help produce 
 sperm in men that are infertile due to a low level of certain hormones. </p>         </div>"""   
           
 
@@ -94,20 +94,28 @@ sperm in men that are infertile due to a low level of certain hormones. </p>    
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take gonal"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You and your partner’s fertility should be evaluated before the treatment is started by a doctor 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You and your partner s fertility should be evaluated before the treatment is started by a doctor 
 experienced in treating fertility disorders. </p>
 <p>Do not use GONAL-f </p>
 <ul>
 <li>if you are allergic to follicle stimulating hormone or any of the other ingredients of this 
 medicine listed in section 6. * if you have a tumour in your hypothalamus or pituitary gland (both are parts of the brain). </li>
-<li>if you are a woman: </li>
-<li>with large ovaries or sacs of fluids within the ovaries (ovarian cysts) of unknown origin. </li>
+<li>
+<p>if you are a woman:</p>
+</li>
+<li>
+<p>with large ovaries or sacs of fluids within the ovaries (ovarian cysts) of unknown origin. </p>
+</li>
 <li>with unexplained vaginal bleeding. </li>
 <li>with cancer in your ovaries, womb or breasts. </li>
 <li>with a condition that usually makes normal pregnancy impossible, such as ovarian failure 
 (early menopause), or malformed reproductive organs. </li>
-<li>if you are a man: </li>
-<li>with damaged testicles that cannot be healed. </li>
+<li>
+<p>if you are a man:</p>
+</li>
+<li>
+<p>with damaged testicles that cannot be healed. </p>
+</li>
 </ul>
 <p>Do not use GONAL-f if any of the above applies to you. If you are not sure, talk to your doctor before 
 using this medicine. </p>
@@ -134,7 +142,7 @@ hCG in this treatment cycle and you may be told not to have sex or to use a barr
 method for at least four days. </p>
 <p>Multiple pregnancy </p>
 <p>When using GONAL-f, you have a higher risk of being pregnant with more than one child at the same 
-time (“multiple pregnancy”, mostly twins), than if you conceived naturally. Multiple pregnancy may 
+time ( multiple pregnancy , mostly twins), than if you conceived naturally. Multiple pregnancy may 
 lead to medical complications for you and your babies. You can reduce the risk of multiple pregnancy 
 by using the right dose of GONAL-f at the right times. When undergoing assisted reproductive 
 technology, the risk of having a multiple pregnancy is related to your age, the quality and the number 
@@ -157,7 +165,7 @@ provide semen for analysis 4 to 6 months after starting treatment. </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines. 
 * If you use GONAL-f with other medicines which help ovulation (such as hCG or clomiphene 
 citrate), this may increase the response of your follicles. 
-* If you use GONAL-f at the same time as a “gonadotropin-releasing hormone” (GnRH) agonist 
+* If you use GONAL-f at the same time as a  gonadotropin-releasing hormone  (GnRH) agonist 
 or antagonist (these medicines reduce your sex hormone levels and stop you ovulating) you may 
 need a higher dose of GONAL-f to produce follicles. </p>
 <p>Pregnancy and breast-feeding </p>
@@ -166,7 +174,7 @@ need a higher dose of GONAL-f to produce follicles. </p>
 <p>It is not expected that this medicine will affect your ability to drive and use machines. </p>
 <p>GONAL-f contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose that is to say essentially 
-“sodium-free”. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gonal"
@@ -181,7 +189,7 @@ you are not sure. </p>
 <li>The first injection of GONAL-f should be given under supervision of your doctor. </li>
 <li>Your doctor or nurse will show you how to inject GONAL-f before you can inject yourself. </li>
 <li>If you administer GONAL-f to yourself, please carefully read and follow the instructions at the 
-end of this leaflet called “How to prepare and use the GONAL-f powder and solution”. </li>
+end of this leaflet called  How to prepare and use the GONAL-f powder and solution . </li>
 </ul>
 <p>How much to use </p>
 <p>Your doctor will decide how much medicine you will take and how often. The doses described below 
@@ -197,7 +205,7 @@ cycle. If you do not have periods you can start using the medicine on any conven
 get the desired response. </li>
 <li>The maximum daily dose of GONAL-f is usually not higher than 225 IU. </li>
 <li>When you get the desired response, you will be given a single injection of 250 micrograms of 
-“recombinant hCG” (r-hCG, an hCG made in a laboratory by a special DNA technique), or 
+ recombinant hCG  (r-hCG, an hCG made in a laboratory by a special DNA technique), or 
 5 000 to 10 000 IU of hCG, 24 to 48 hours after your last GONAL-f injection. The best time to 
 have sex is on the day of the hCG injection and the day after. </li>
 </ul>
@@ -205,7 +213,7 @@ have sex is on the day of the hCG injection and the day after. </li>
 be stopped. For the following treatment cycle, your doctor will give you a higher starting dose of 
 GONAL-f than before. </p>
 <p>If your body responds too strongly, your treatment will be stopped and you will not be given any hCG 
-(see section 2, “Ovarian hyper-stimulation syndrome (OHSS)”). For the following cycle, your doctor 
+(see section 2,  Ovarian hyper-stimulation syndrome (OHSS) ). For the following cycle, your doctor 
 will give you a lower dose of GONAL-f than before. </p>
 <p>If you have been diagnosed with very low levels of FSH and LH hormones </p>
 <ul>
@@ -214,17 +222,17 @@ will give you a lower dose of GONAL-f than before. </p>
 <li>Your dose of GONAL-f may be increased every 7 or every 14 days by 37.5 to 75 IU, until you 
 get the desired response. </li>
 <li>When you get the desired response, you will be given a single injection of 250 micrograms of 
-“recombinant hCG” (r-hCG, an hCG made in a laboratory by a special DNA technique), or 
+ recombinant hCG  (r-hCG, an hCG made in a laboratory by a special DNA technique), or 
 5 000 to 10 000 IU of hCG, 24 to 48 hours after your last injections of GONAL-f and lutropin 
 alfa. The best time to have sex is on the day of the hCG injection and the day after. 
 Alternatively, intrauterine insemination or another medically assisted reproduction procedure 
-may be performed based on your doctor’s judgment. </li>
+may be performed based on your doctor s judgment. </li>
 </ul>
 <p>If your doctor cannot see a response after 5 weeks, that treatment cycle with GONAL-f should be 
 stopped. For the following cycle, your doctor will give you a higher starting dose of GONAL-f than 
 before. 
 If your body responds too strongly, your treatment with GONAL-f will be stopped and you will not be 
-given any hCG (see section 2, “Ovarian hyper-stimulation syndrome (OHSS)”). For the following 
+given any hCG (see section 2,  Ovarian hyper-stimulation syndrome (OHSS) ). For the following 
 cycle, your doctor will give you a lower dose of GONAL-f than before. </p>
 <p>If you need to develop several eggs for collection prior to any assisted reproductive technology </p>
 <ul>
@@ -235,8 +243,8 @@ treatment cycle.  </li>
 <li>Treatment is continued until your eggs have developed to a desired point. This usually takes 
 about 10 days but can take any time between 5 and 20 days. Your doctor will use blood tests 
 and/or an ultrasound machine to check when this is. </li>
-<li>When your eggs are ready, you will be given a single injection of 250 micrograms “recombinant 
-hCG” (r-hCG, an hCG made in a laboratory by a special recombinant DNA technique), or 
+<li>When your eggs are ready, you will be given a single injection of 250 micrograms  recombinant 
+hCG  (r-hCG, an hCG made in a laboratory by a special recombinant DNA technique), or 
 5 000 IU to 10 000 IU of hCG, 24 to 48 hours after the last GONAL-f injection. This gets your 
 eggs ready for collection. </li>
 </ul>
@@ -255,7 +263,7 @@ continue using these two medicines for at least 18 months. </li>
 <p>If you use more GONAL-f than you should </p>
 <p>The effects of taking too much GONAL-f are unknown. Nevertheless, one could expect ovarian hyper-
 stimulation syndrome (OHSS) to occur, which is described in section 4. However, the OHSS will only 
-occur if hCG is also administered (see section 2, “Ovarian hyper-stimulation syndrome (OHSS)”). </p>
+occur if hCG is also administered (see section 2,  Ovarian hyper-stimulation syndrome (OHSS) ). </p>
 <p>If you forget to use GONAL-f </p>
 <p>If you forget to use GONAL-f, do not take a double dose to make up for a forgotten dose. Please talk 
 to your doctor as soon as you notice that you forgot a dose. </p>
@@ -272,8 +280,8 @@ to your doctor as soon as you notice that you forgot a dose. </p>
 <ul>
 <li>Lower abdominal pain together with nausea or vomiting may be the symptoms of ovarian 
 hyper-stimulation syndrome (OHSS). This may indicate that the ovaries over-reacted to the 
-treatment and that large ovarian cysts developed (see also in section 2. under “Ovarian hyper-
-stimulation syndrome (OHSS)”). This side effect is common (may affect up to 1 in 10 people). </li>
+treatment and that large ovarian cysts developed (see also in section 2. under  Ovarian hyper-
+stimulation syndrome (OHSS) ). This side effect is common (may affect up to 1 in 10 people). </li>
 <li>The OHSS may become severe with clearly enlarged ovaries, decreased urine production, 
 weight gain, difficulty in breathing and/or possible fluid accumulation in your stomach or chest. 
 This side effect is uncommon (may affect up to 1 in 100 people). </li>
@@ -281,7 +289,7 @@ This side effect is uncommon (may affect up to 1 in 100 people). </li>
 affect up to 1 in 1 000 people). </li>
 <li>Serious blood clotting complications (thromboembolic events) sometimes independent of OHSS 
 may be found very rarely (may affect up to 1 in 10 000 people). This could cause chest pain, 
-breathlessness, stroke or heart attack (see also in section 2. under “Blood clotting problems”). </li>
+breathlessness, stroke or heart attack (see also in section 2. under  Blood clotting problems ). </li>
 </ul>
 <p>Serious side effects in men and women </p>
 <ul>
@@ -338,7 +346,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial after EXP. The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 25°C. </p>
+<p>Do not store above 25 C. </p>
 <p>Store in the original package, in order to protect from light. </p>
 <p>Do not use GONAL-f if you notice any visible signs of deterioration, if the liquid contains particles or 
 is not clear. </p>

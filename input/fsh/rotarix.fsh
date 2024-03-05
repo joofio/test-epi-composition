@@ -4,7 +4,7 @@ Instance: composition-en-12c8a969675c3f7a6a3764899fb6a5f5
 InstanceOf: CompositionUvEpi
 Title: "Composition for rotarix Package Leaflet"
 Description:  "Composition for rotarix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ infection. </p>
 Rotavirus is easily spread from hand-to-mouth due to contact with stools from an infected person. 
 Most children with rotavirus diarrhoea recover on their own. However, some children become very ill 
 with severe vomiting, diarrhoea and life-threatening loss of fluids that requires hospitalisation. </p>
-<p>When a person is given the vaccine, the immune system (the body’s natural defences) will make 
+<p>When a person is given the vaccine, the immune system (the body s natural defences) will make 
 antibodies against the most commonly occurring types of rotavirus. These antibodies protect against 
 disease caused by these types of rotavirus. </p>
 <p>As with all vaccines, Rotarix may not completely protect all people who are vaccinated against the 
@@ -116,7 +116,7 @@ if his/her mother has taken during pregnancy any medicine that may weaken the im
 system. </p>
 <p>After your child has received Rotarix, contact a doctor/health care professional right away if your 
 child experiences severe stomach pain, persistent vomiting, blood in stools, a swollen belly and/or 
-high fever (see also section 4 “Possible side effects”). </p>
+high fever (see also section 4  Possible side effects ). </p>
 <p>As always, please take care to wash your hands thoroughly after changing soiled nappies. </p>
 <p>Other medicines and Rotarix 
 Tell your doctor if your child is taking, has recently taken or might take any other medicines or has 
@@ -126,7 +126,7 @@ such as diphtheria, tetanus, pertussis (whooping cough), Haemophilus influenzae 
 inactivated polio, hepatitis B vaccines as well as pneumococcal and meningococcal serogroup C 
 conjugate vaccines. </p>
 <p>Rotarix with food and drink 
-There are no restrictions on your child’s consumption of food or liquids, either before or after 
+There are no restrictions on your child s consumption of food or liquids, either before or after 
 vaccination. </p>
 <p>Breast-feeding 
 Based on evidence generated in clinical trials, breast-feeding does not reduce the protection against 
@@ -140,7 +140,7 @@ contact your doctor before your child receives this vaccine. </p>
 your child has phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up 
 because the body cannot remove it properly. 
 This vaccine contains less than 1 mmol sodium (23 mg) in each dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rotarix"
@@ -171,25 +171,23 @@ forget to go back to your doctor at the scheduled time, ask your doctor for advi
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. </p>
 <p>The following side effects may happen with this vaccine: </p>
-<p>♦ 
-Common (These may occur with up to 1 in 10 doses of the vaccine):<br />
-• diarrhoea<br />
-• irritability </p>
-<p>♦ 
-Uncommon (These may occur with up to 1 in 100 doses of the vaccine): 
-• abdominal pain (see also below for signs of very rare side effects of intussusception) 
-• flatulence 
-• inflammation of the skin </p>
+<p>Common (These may occur with up to 1 in 10 doses of the vaccine):<br />
+  diarrhoea<br />
+  irritability </p>
+<p>Uncommon (These may occur with up to 1 in 100 doses of the vaccine): 
+  abdominal pain (see also below for signs of very rare side effects of intussusception) 
+  flatulence 
+  inflammation of the skin </p>
 <p>Side effects that have been reported during marketed use of Rotarix include: 
-• Very rare: hives (urticaria) 
-• Very rare: intussusception (part of the intestine gets blocked or twisted). The signs may 
+  Very rare: hives (urticaria) 
+  Very rare: intussusception (part of the intestine gets blocked or twisted). The signs may 
 include severe stomach pain, persistent vomiting, blood in stools, a swollen belly and/or high 
 fever. Contact a doctor/health care professional right away if your child experiences 
 one of these symptoms. 
-• blood in stools 
-• in babies born very prematurely (at or before 28 weeks of gestation) longer gaps than normal 
+  blood in stools 
+  in babies born very prematurely (at or before 28 weeks of gestation) longer gaps than normal 
 between breaths may occur for 2-3 days after vaccination. 
-• children with a rare inherited illness called Severe Combined Immunodeficiency (SCID) 
+  children with a rare inherited illness called Severe Combined Immunodeficiency (SCID) 
 may have an inflamed stomach or gut (gastroenteritis) and pass the vaccine virus in their 
 stools. The signs of gastroenteritis may include feeling sick, being sick, stomach cramps or 
 diarrhoea. </p>
@@ -207,7 +205,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use this vaccine after the expiry date which is stated on the carton. The expiry date refers to the 
 last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). 
+<p>Store in a refrigerator (2  C   8  C). 
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>After reconstitution, the vaccine contained in the oral applicator should be administered promptly. If 
@@ -230,10 +228,10 @@ not less than 106.0 CCID </p>
 <p>*Produced on Vero cells </p>
 <ul>
 <li>The other ingredients in Rotarix are:<br />
-Powder: dextran, sucrose, sorbitol (E420), amino acids (including phenylalanine), Dulbecco’s 
+Powder: dextran, sucrose, sorbitol (E420), amino acids (including phenylalanine), Dulbecco s 
 Modified Eagle Medium (DMEM) (containing phenylalanine, sodium, glucose and other 
-substances), (see also section 2, “Rotarix contains sorbitol, sucrose, glucose, phenylalanine and 
-sodium”) 
+substances), (see also section 2,  Rotarix contains sorbitol, sucrose, glucose, phenylalanine and 
+sodium ) 
 Solvent: calcium carbonate, xanthan gum, sterile water </li>
 </ul>
 <p>What Rotarix looks like and contents of the pack </p>
@@ -244,105 +242,5 @@ transfer adapter which allows easy transfer of the solvent into the glass contai
 powder for mixing the different components of the vaccine. </p>
 <p>Both components must be mixed together before your child receives the vaccine. The mixed vaccine 
 will appear more turbid than the solvent alone. </p>
-<p>Rotarix is available in a pack of 1, 5, 10 or 25.<br />
-Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>GlaxoSmithKline Biologicals SA 
-Rue de l’Institut B-1330 Rixensart 
-Belgium </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-GlaxoSmithKline Pharmaceuticals SA/NV 
-Tél/Tel: + 32 10 85 52 Lietuva 
-GlaxoSmithKline Biologicals SA 
-Tel. +370 80000 </p>
-<p>България 
-GlaxoSmithKline Biologicals SA 
-Тел. +359 80018 
-Luxembourg/Luxemburg 
-GlaxoSmithKline Pharmaceuticals SA/NV 
-Tél/Tel: + 32 10 85 52 Česká republika 
-GlaxoSmithKline s.r.o. 
-Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
-<p>Magyarország 
-GlaxoSmithKline Biologicals SA 
-Tel.: +36 80088 
-Danmark 
-GlaxoSmithKline Pharma A/S 
-Tlf: + 45 36 35 91 dk-info@gsk.com </p>
-<p>Malta 
-GlaxoSmithKline Biologicals SA 
-Tel: +356 80065 
-Deutschland 
-GlaxoSmithKline GmbH &amp; Co. KG 
-Tel: + 49 (0)89 360448produkt.info@gsk.com </p>
-<p>Nederland 
-GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 </p>
-<p>Eesti 
-GlaxoSmithKline Biologicals SA<br />
-Tel: +372 8002 </p>
-<p>Norge 
-GlaxoSmithKline AS 
-Tlf: + 47 22 70 20<br />
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Tηλ: + 30 210 68 82<br />
-Österreich 
-GlaxoSmithKline Pharma GmbH. 
-Tel: + 43 (0)1 97075 0 
-at.info@gsk.com  </p>
-<p>España 
-GlaxoSmithKline, S.A. 
-Tel: + 34 900 202 es-ci@gsk.com  </p>
-<p>Polska 
-GSK Services Sp. z o.o. 
-Tel.: + 48 (22) 576 9 
-France 
-Laboratoire GlaxoSmithKline 
-Tél: + 33 (0) 1 39 17 84 diam@gsk.com </p>
-<p>Hrvatska 
-GlaxoSmithKline Biologicals SA 
-Tel.: +385 800787 
-Portugal 
-Smith Kline &amp; French Portuguesa - Produtos 
-Farmacêuticos, Lda. 
-Tel: + 351 21 412 95 FI.PT@gsk.com </p>
-<p>România 
-GlaxoSmithKline Biologicals SA 
-Tel: +40 800672 
-Ireland 
-GlaxoSmithKline (Ireland) Ltd 
-Tel: + 353 (0)1 495 5 
-Slovenija 
-GlaxoSmithKline Biologicals SA 
-Tel: +386 80688 </p>
-<p>Ísland 
-Vistor hf. 
-Sími : +354 535 7 
-Slovenská republika 
-GlaxoSmithKline Biologicals SA 
-Tel: +421 800500 </p>
-<p>Italia 
-Suomi/Finland </p>
-<p>GlaxoSmithKline S.p.A. 
-Tel:+ 39 (0)45 7741<br />
-GlaxoSmithKline Oy 
-Puh/Tel: + 358 10 30 30   </p>
-<p>Κύπρος 
-GlaxoSmithKline Biologicals SA 
-Τηλ: +357 80070 </p>
-<p>Sverige 
-GlaxoSmithKline AB 
-Tel: + 46 (0)8 638 93 info.produkt@gsk.com 
-Latvija 
-GlaxoSmithKline Biologicals SA 
-Tel: +371 80205 </p>
-<p>United Kingdom (Northern Ireland) 
-GlaxoSmithKline Biologicals SA<br />
-Tel: + 44 (0)800 221 customercontactuk@gsk.com </p>
-<p>This leaflet was last revised in. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Rotarix is available in a pack of 1, 5, 10 or 2</p>         </div>"""      
 

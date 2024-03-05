@@ -4,7 +4,7 @@ Instance: composition-en-3aba64fb4580bb12883e3dc4b001f74a
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtriva Package Leaflet"
 Description:  "Composition for emtriva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -94,7 +94,7 @@ infections or other illnesses associated with HIV infection. </p>         </div>
 <li>If you are allergic to emtricitabine or any of the other ingredients of this medicine (listed in 
 section 6). </li>
 </ul>
-<p> If this applies to you, tell your doctor immediately. </p>
+<p>If this applies to you, tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <ul>
 <li>
@@ -119,7 +119,7 @@ carefully monitor liver function. </p>
 <li>
 <p>Look out for infections.  If you have advanced HIV disease (AIDS) and another infection, you 
 may develop inflammation or worsening of the symptoms of infection when you start treatment 
-with Emtriva.  These may be signs that your body’s improved immune system is fighting 
+with Emtriva.  These may be signs that your body s improved immune system is fighting 
 infection.  If you notice signs of inflammation or infection soon after you start taking Emtriva, 
 tell your doctor at once. </p>
 </li>
@@ -170,8 +170,10 @@ not use any tools or machines. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take emtriva"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Always take this medicine exactly as your doctor has told you.  Check with your doctor or 
-pharmacist if you are not sure. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Always take this medicine exactly as your doctor has told you.  Check with your doctor or 
+pharmacist if you are not sure. </li>
+</ul>
 <p>The recommended dose is: </p>
 <ul>
 <li>Adults: one 200 mg hard capsule, each day with or without food.  Swallow the hard capsule 
@@ -208,12 +210,12 @@ can, and then take your next dose at its regular time. </p>
 Wait and take the next dose at the regular time.  Do not take a double dose to make up for a forgotten 
 hard capsule. </p>
 <p>If you are sick (vomit) </p>
-<p>If it’s less than an hour since you took Emtriva, take another capsule.  You do not need to take 
+<p>If it s less than an hour since you took Emtriva, take another capsule.  You do not need to take 
 another capsule if you were sick more than an hour after taking Emtriva. </p>
 <p>If you stop taking Emtriva </p>
 <ul>
 <li>
-<p>Don’t stop taking Emtriva without talking to your doctor.  Stopping treatment with Emtriva 
+<p>Don t stop taking Emtriva without talking to your doctor.  Stopping treatment with Emtriva 
 may reduce the effectiveness of the anti-HIV therapy recommended by your doctor.  Speak with 
 your doctor before you stop, particularly if you are experiencing any side effects or you have 
 another illness.  Contact your doctor again before you restart taking Emtriva capsules. </p>
@@ -279,7 +281,7 @@ of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle, blister pack and carton 
-after “EXP”.  The expiry date refers to the last day of that month. </p>
+after  EXP .  The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
 throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
@@ -306,7 +308,7 @@ povidone (E1201) </p>
 <p>Printing ink containing: black iron oxide (E172), shellac (E904) </p>
 <p>What Emtriva looks like and contents of the pack </p>
 <p>Emtriva hard capsules have a white opaque body with a light blue opaque cap.  Each capsule is printed 
-with “200 mg” on the cap and “GILEAD” and [Gilead logo] on the body in black ink.  Emtriva comes 
+with  200 mg  on the cap and  GILEAD  and [Gilead logo] on the body in black ink.  Emtriva comes 
 in bottles or blister packs containing 30 capsules. </p>
 <p>Emtriva is also available as an oral solution for use in children and infants aged 4 months and over, 
 patients who have difficulty in swallowing and patients with kidney problems.  There is a separate 
@@ -323,22 +325,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+Tel: + 353 (0) 1 686 1 </p>
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -358,14 +359,13 @@ Gilead Sciences Ireland UC.
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -373,14 +373,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -389,10 +389,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -400,10 +400,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

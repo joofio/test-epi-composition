@@ -4,7 +4,7 @@ Instance: composition-en-f97dbfd4ac971d9fb81fe7dca78ad6d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofigo Package Leaflet"
 Description:  "Composition for xofigo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -86,8 +86,7 @@ radiation (alpha particles) which kills the surrounding tumour cells. </p>      
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take xofigo"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before Xofigo is used </p>
-<p>Xofigo must not be given 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xofigo must not be given 
 * in combination with abiraterone and prednisone/prednisolone (which are used together to treat prostate 
 cancer). </p>
 <p>Warnings and precautions 
@@ -112,7 +111,7 @@ higher risk and your doctor will give you Xofigo with caution.
 blood cells and platelets, so your doctor will give you Xofigo with caution. 
 - The limited data available do not suggest any major differences in the blood cell production of patients 
 receiving chemotherapy after treatment with Xofigo compared with those who did not receive Xofigo. 
-- There are no data on the use of Xofigo in patients with Crohn’s disease (a long-term inflammatory 
+- There are no data on the use of Xofigo in patients with Crohn s disease (a long-term inflammatory 
 disease of the intestines) and with ulcerative colitis (a long-term inflammation of the colon). As Xofigo 
 is excreted in the faeces, it may make acute inflammation of your bowels worse. Therefore, if you suffer 
 from these conditions your doctor will carefully consider if you can be treated with Xofigo. 
@@ -219,17 +218,21 @@ nausea [feeling sick], vomiting). </p>
 - decrease in the number of neutrophils, a type of white blood cells (neutropenia, which may lead to 
 an increased risk of infection). </p>
 <p>Contact your doctor immediately if you notice the following symptoms as they may be signs of 
-thrombocytopenia or neutropenia (see above): 
-- any unusual bruising, 
-- more bleeding than usual after injury, 
-- fever, 
-- or if you seem to be catching a lot of infections. </p>
+thrombocytopenia or neutropenia (see above):</p>
+<ul>
+<li>any unusual bruising, </li>
+<li>more bleeding than usual after injury, </li>
+<li>fever, </li>
+<li>or if you seem to be catching a lot of infections. </li>
+</ul>
 <p>Your doctor will perform blood tests before starting treatment and before each injection to check your 
 number of blood cells and platelets (see also section 2). </p>
 <p>The most frequent side effects in patients receiving Xofigo (very common [may affect more than 
-1 in 10 people]) are: 
-- diarrhoea, nausea (feeling sick), vomiting, thrombocytopenia (decrease in the number of blood 
-platelets) and bone fracture. </p>
+1 in 10 people]) are:</p>
+<ul>
+<li>diarrhoea, nausea (feeling sick), vomiting, thrombocytopenia (decrease in the number of blood 
+platelets) and bone fracture. </li>
+</ul>
 <p>Risk of dehydration: tell your doctor if you have any of the following symptoms: dizziness, increased thirst, 
 decreased urination or dry skin as these can all be symptoms of dehydration. It is important to avoid 
 dehydration by drinking plenty of fluids. </p>
@@ -247,7 +250,7 @@ increased risk of infection)
 exposure may increase your risk of developing cancer (in particular of bone cancer and leukaemia) and 
 hereditary abnormalities. No cases of cancer caused by Xofigo have been reported in clinical studies with a 
 follow-up of up to three years. </p>
-<p>If you have symptoms of pain, swelling or numbness of the jaw, a “heavy jaw feeling” or loosening of a 
+<p>If you have symptoms of pain, swelling or numbness of the jaw, a  heavy jaw feeling  or loosening of a 
 tooth, please contact your doctor. Cases of osteonecrosis of the jaw (dead tissue in the jawbone which is 
 mainly seen in patients who have been treated with bisphosphonates) have occurred in patients treated with 
 Xofigo. All these cases were only seen in patients receiving bisphosphonates prior to or at the same time of 
@@ -301,23 +304,21 @@ NO-0283 Oslo
 Norway </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België / Belgique / Belgien 
+<p>Belgi  / Belgique / Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63<br />
+T l/Tel: +32-(0)2-535 63<br />
 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36<br />
-България 
-Байер България ЕООД 
-Тел. +359-(0)2-424 72<br />
+Tel. +37 05 23 36  </p>
+<p>. +359-(0)2-424 72<br />
 Luxembourg / Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63<br />
-Česká republika 
+T l/Tel: +32-(0)2-535 63<br />
+ esk  republika 
 Bayer s.r.o. 
 Tel: +420 266 101<br />
-Magyarország 
-Bayer Hungária KFT 
+Magyarorsz g 
+Bayer Hung ria KFT 
 Tel.:+36 14 87-41<br />
 Danmark 
 Bayer A/S 
@@ -330,20 +331,19 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513<br />
 Nederland 
 Bayer B.V. 
-Tel: +31-23–799 1 
+Tel: +31-23 799 1 
 Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8 
 Norge 
 Bayer AS 
-Tlf. +47-23 13 05<br />
-Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30 210 61 87<br />
-Österreich 
+Tlf. +47-23 13 05  </p>
+<p>Bayer   <br />
+ : +30 210 61 87<br />
+ sterreich 
 Bayer Austria Ges. m. b. H. 
 Tel: +43-(0)1-711 46-0 </p>
-<p>España 
+<p>Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65<br />
 Polska 
@@ -351,14 +351,14 @@ Bayer Sp. z o.o.
 Tel.: +48 22 572 35<br />
 France 
 Bayer HealthCare 
-Tél(N° vert): +33-(0)800 87 54<br />
+T l(N  vert): +33-(0)800 87 54<br />
 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42<br />
 Hrvatska 
 Bayer d.o.o. 
 Tel: + 385-(0)1-6599<br />
-România 
+Rom nia 
 SC Bayer SRL 
 Tel: +40 21 529 59<br />
 Ireland 
@@ -367,10 +367,10 @@ Tel: +353 1 216 3
 Slovenija 
 Bayer d. o. o. 
 Tel.: +386 (0)1 58 14<br />
-Ísland 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
-Slovenská republika 
+S mi: +354 540 8 
+Slovensk  republika 
 Bayer, spol. s r.o. 
 Tel: +421 2 59 21 31<br />
 Italia 
@@ -378,10 +378,9 @@ Bayer S.p.A.
 Tel: +39 02 397<br />
 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358 20 785<br />
-Κύπρος 
-NOVAGEM Limited 
-Τηλ: +357 22 48 38<br />
+Puh/Tel: +358 20 785  </p>
+<p>NOVAGEM Limited 
+ : +357 22 48 38<br />
 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223<br />

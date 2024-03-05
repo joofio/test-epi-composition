@@ -4,7 +4,7 @@ Instance: composition-en-8fbc69d3de50a0eced9467159e7edfb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for colobreathe Package Leaflet"
 Description:  "Composition for colobreathe Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -85,15 +85,15 @@ Colobreathe works by destroying the bacterial cell membrane, having a lethal eff
   * code.text = "2. What you need to know before you take colobreathe"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Colobreathe 
-• if you/your child are allergic to colistimethate sodium, colistin sulphate or polymyxins. </p>
+  if you/your child are allergic to colistimethate sodium, colistin sulphate or polymyxins. </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before using Colobreathe. </p>
 <p>Tell your doctor if you/your child has ever had any of the following conditions 
-• have reacted badly to inhaled dry powder medicines previously unless this has already been 
+  have reacted badly to inhaled dry powder medicines previously unless this has already been 
 discussed with your doctor. 
-• already have a muscle condition known as myasthenia gravis or the inherited condition, 
+  already have a muscle condition known as myasthenia gravis or the inherited condition, 
 porphyria 
-• blood in your sputum (the substance you cough up) </p>
+  blood in your sputum (the substance you cough up) </p>
 <p>After each inhalation of Colobreathe, the mouth should be rinsed with water. The rinse should not be 
 swallowed. Rinsing may reduce the risk of developing oral fungal super-infection during treatment 
 and may also reduce the unpleasant taste associated with colistimethate sodium. </p>
@@ -133,7 +133,7 @@ It is possible while using Colobreathe that you may experience dizziness, confus
 with your sight. Do not drive or use any machines until the symptoms have gone away. </p>
 <p>Colobreathe contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take colobreathe"
@@ -145,9 +145,9 @@ child are not sure. </p>
 <p>The first dose should be given under medical supervision. </p>
 <p>The recommended dose is </p>
 <p>Adults and children 6 years of age and older </p>
-<p>• The contents of one Colobreathe capsule should be inhaled twice a day using the Turbospin 
+<p>The contents of one Colobreathe capsule should be inhaled twice a day using the Turbospin 
 inhaler. 
-• There should be a 12 hour gap between doses. </p>
+  There should be a 12 hour gap between doses. </p>
 <p>The order in which other treatments should be taken or carried out 
 If you/your child are taking other treatments for cystic fibrosis you/your child should take them in the 
 following order: 
@@ -164,7 +164,72 @@ the Turbospin. Colobreathe can only be administered using this device. </p>
 below. Your doctor, pharmacist or nurse should show you/your child how to inhale the medicine when 
 you/your child first start treatment: </p>
 <p>Taking Colobreathe using the Turbospin inhaler </p>
-<p>Preparing the Turbospin </p>         </div>"""         
+<p>Preparing the Turbospin </p>
+<ol>
+<li>
+<p>Remove the cap. It comes away with a gentle pull. </p>
+</li>
+<li>
+<p>Unscrew the mouthpiece, exposing the chamber of the Turbospin inhaler. </p>
+</li>
+<li>
+<p>Remove a single capsule from the blister. Once you have removed the capsule it must be used 
+immediately. </p>
+</li>
+<li>
+<p>Gently insert the capsule into the chamber with the widest end first. No force is required.  </p>
+</li>
+<li>
+<p>Now replace the mouthpiece by screwing it back into place. </p>
+</li>
+</ol>
+<p>Piercing the capsule and inhaling the medicine </p>
+<ol>
+<li>To pierce the capsule: </li>
+<li>Hold the inhaler with the mouthpiece upright, gently push the piston upwards until the 
+visible line is reached   you will feel resistance at this point and this will lock the capsule 
+in place ready for piercing. Hold that position before continuing to follow through with 
+the piercing. </li>
+<li>Now, with the capsule locked in place, continue pushing the piston as far as it will go and 
+then release. </li>
+<li>The capsule is now pierced and the contents can be inhaled. </li>
+<li>
+<p>Do not pierce the capsule more than once. You may see a small amount of powder 
+released from the capsule chamber after the capsule is pierced, this is normal. </p>
+</li>
+<li>
+<p>Breathe out slowly. Place the mouthpiece between your lips and teeth. Ensure there is a seal 
+between your lips and the mouthpiece. Take care not to cover the air slits with your fingers or 
+mouth during inhalation.  </p>
+</li>
+<li>Then, breathe in slowly and deeply through your mouth at a rate sufficient for you to hear or 
+feel the capsule spinning.  </li>
+<li>Remove the Turbospin inhaler from your mouth and hold your breath for about 10 seconds or 
+for as long as is comfortable, then breathe out slowly. </li>
+<li>If you do not hear the capsule spinning, the capsule may be stuck in the compartment. If this 
+occurs, you can loosen the capsule by gently tapping the chamber of the inhaler. Do not try to 
+loosen the capsule by repeatedly pressing the piston. If the capsule cannot be loosened and the 
+powder cannot be inhaled, dispose of the broken capsule and any powder remaining in it and 
+use another. </li>
+<li>Inhale the medicine again by repeating Steps 7 and 8 to ensure you have emptied the capsule. </li>
+<li>You can check whether the capsule is empty by unscrewing the mouthpiece and checking the 
+capsule. If it is not empty, repeat steps 7, 8 and 9 until you have inhaled all of the contents.  </li>
+<li>Once all the contents have been inhaled, rinse your mouth out well with water and spit out. </li>
+</ol>
+<p>Removing the empty capsule from the Turbospin </p>
+<ol>
+<li>When the capsule is empty, unscrew the mouthpiece, then remove and discard the empty 
+capsule. </li>
+</ol>
+<p>Additional information  </p>
+<p>As you breathe in slowly, you suck air through the body of the Turbospin inhaler into the capsule 
+chamber. The tiny particles of medication in the capsule are picked up by the airflow and carried down 
+your airway into your lungs. </p>
+<p>Occasionally, very small pieces of the capsule shell can get into your mouth or airways.<br />
+<em> If this happens, you may be able to feel these pieces on your tongue or in your airways.<br />
+</em> The capsule shell is made of gelatin, which is harmless to humans if swallowed or inhaled. 
+* The chances of the capsule breaking into pieces are increased if the capsule is pierced more than 
+once during Step </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -172,14 +237,76 @@ you/your child first start treatment: </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cleaning the Turbospin device </p>
+<p>Clean the Turbospin inhaler after each dose using the following procedure: 
+1. Deeply press the piston a few times whilst keeping the chamber turned upside down. 
+2. Clean the chamber using a tissue or cotton bud. Do not use water. 
+3. Screw the mouthpiece firmly back into place, put the cap back on and the inhaler is ready to 
+be used for your next dose. </p>
+<p>If you/your child use more Colobreathe than you/your child should, or have accidentally 
+swallowed the capsule, contact your doctor immediately for advice. </p>
+<p>If you/your child forget to use Colobreathe </p>
+<p>If you/your child forget to take a dose of Colobreathe then you/your child should take your missed 
+dose as soon as you/your child remember. You/your child must not take 2 doses within 12 hours. 
+Carry on from there as instructed. </p>
+<p>If you/your child stop using Colobreathe </p>
+<p>Do not stop your treatment early unless your doctor says you can. Your doctor will decide how long 
+you/your child s treatment should last. </p>
+<p>If you/your child have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store colobreathe"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store colobreathe"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines this medicine can cause side effects, although not everyone gets them. </p>
+<p>Allergic reactions 
+An allergic reaction with Colobreathe is possible (typically serious allergic reactions may cause 
+rashes, swelling of the face, tongue and neck, inability to breathe due to narrowing of the airways and 
+loss of consciousness). If you/your child experience signs of an allergic reaction you should seek 
+urgent medical attention. </p>
+<p>Other possible side effects </p>
+<p>You/your child may get an unpleasant taste in your mouth after inhaling Colobreathe.  </p>
+<p>Very common: may affect more than 1 in 10 people 
+* Difficulty in breathing 
+* Cough, throat irritation<br />
+* Hoarse or weak, or even loss of the voice 
+* Unpleasant taste </p>
+<p>Common: may affect up to 1 in 10 people 
+* Headache 
+* Ringing or buzzing noises in the ear, problems with balance<br />
+* Coughing up blood, wheezing, chest discomfort, asthma, productive cough (a cough 
+which brings up mucus), infection of the lungs, lung crackles (your doctor would hear this 
+when listening to your lungs using a stethoscope) 
+* Vomiting, nausea 
+* Changes in how your lungs function (found by testing) 
+* Joint pains 
+* Lack of energy, tiredness 
+* Raised temperature </p>
+<p>Uncommon: may affect up to 1 in 100 people 
+* Allergic (hypersensitivity) reactions, the signs may include rash and itching 
+* Weight fluctuations, decreased appetite<br />
+* Anxiety 
+* Fits 
+* Sleepiness 
+* Blockage in the ears 
+* Chest pain 
+* Shortness of breath 
+* Nose bleeds, catarrh (mucus in your nose, which may make you feel blocked up), 
+coughing up thick green mucus, pain in the throat and sinuses 
+* Unusual noises in the chest (your doctor would hear this when listening to your lungs with 
+a stethoscope) 
+* Diarrhoea, wind 
+* Excessive production of saliva 
+* Toothache 
+* Protein in the urine (found by testing) 
+* Thirst </p>
+<p>The above side effects have been seen in people of all ages with similar frequency. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -187,5 +314,14 @@ you/your child first start treatment: </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>immediately. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
+<p>Do not use this medicine after the expiry date, which is stated on the outer carton and blister after 
+EXP. The expiry date refers to the last date of that month. </p>
+<p>Do not store Colobreathe above 25oC. </p>
+<p>Store in the original package until immediately before use in order to protect from moisture. </p>
+<p>If you/your child accidentally peel back the foil, and any capsules become exposed, please discard 
+these capsules. </p>
+<p>Discard the Turbospin inhaler after the completion of a treatment pack. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

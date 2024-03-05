@@ -4,7 +4,7 @@ Instance: composition-en-85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: CompositionUvEpi
 Title: "Composition for novothirteen Package Leaflet"
 Description:  "Composition for novothirteen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use NovoThirteen 
 4. Possible side effects 
 5. How to store NovoThirteen 
-6. Contents of the pack and other information. 
-         </div>"""   
+6. Contents of the pack and other information.          </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +106,7 @@ clotting factor) together. </p>
 If you are pregnant or breast-feeding, or if you think you may be pregnant or are planning to have a 
 baby, ask your doctor for advice before taking this medicine. </p>
 <p>NovoThirteen contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per injection, i.e. essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per injection, i.e. essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novothirteen"
@@ -122,7 +121,7 @@ sure. </p>
 NovoThirteen user instructions. </p>
 <p>NovoThirteen is given as an injection into a vein. Your dose will depend on your body weight. The 
 usual dose for prevention of bleeds is 35 IU for each kilogram of body weight. The injections are 
-given once a month (every 28 ± 2 days). 
+given once a month (every 28   2 days). 
 If you experience a bleed, you should contact your doctor who will decide if an injection is needed.<br />
 NovoThirteen should be injected at a rate not higher than 2 ml/minute. </p>
 <p>Based on the concentration of NovoThirteen solution, the dose volume to be injected (in millilitres) 
@@ -135,8 +134,8 @@ Your doctor may adapt the dose if this is deemed necessary. </p>
 <p>Use in small children 
 For children weighing less than 24 kg the reconstituted NovoThirteen should be further diluted with 
 6 ml of sodium chloride 0.9%, solution for injection to be able to handle the dosing of small children. 
-For more information see section ‘NovoThirteen user instructions – Instructions of how to dilute the 
-reconstituted NovoThirteen’. </p>
+For more information see section  NovoThirteen user instructions   Instructions of how to dilute the 
+reconstituted NovoThirteen . </p>
 <p>The dose volume for the reconstituted NovoThirteen diluted with 6 ml sodium chloride 0.9%, solution 
 for injection can be calculated from this formula: </p>
 <p>Dose volume in millilitres = 0.117 x body weight in kilograms. </p>
@@ -188,8 +187,8 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the label and the outer carton after 
-‘EXP.’. The expiry date refers to the last day of that month. 
-Store in a refrigerator (2°C–8°C). 
+ EXP. . The expiry date refers to the last day of that month. 
+Store in a refrigerator (2 C 8 C). 
 Do not freeze. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Once prepared, NovoThirteen for injection should be used immediately. </p>
@@ -213,13 +212,5 @@ for the solvent water for injections. </p>
 <p>What NovoThirteen looks like and contents of the pack 
 NovoThirteen is supplied as a powder and solvent for solution for injection (2500 IU powder in a vial 
 and 3.2 ml solvent in a vial, with a vial adapter). 
-Pack size of 1.<br />
-The powder is white and the solvent is clear and colourless. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Novo Nordisk A/S 
-Novo Allé 
-DK-2880 Bagsværd 
-Denmark </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Pack size of </p>         </div>"""      
 

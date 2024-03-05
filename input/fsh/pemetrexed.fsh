@@ -4,7 +4,7 @@ Instance: composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemetrexed Package Leaflet"
 Description:  "Composition for pemetrexed Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -117,8 +117,8 @@ This medicine should not be used in children or adolescents, since there is no e
 medicine in children and adolescents under 18 years of age. </p>
 <p>Other medicines and Pemetrexed Pfizer 
 Please tell your doctor if you are taking any medicine for pain or inflammation (swelling), such as 
-medicines called “nonsteroidal anti-inflammatory drugs” (NSAIDs), including medicines purchased 
-without a doctor’s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
+medicines called  nonsteroidal anti-inflammatory drugs  (NSAIDs), including medicines purchased 
+without a doctor s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
 durations of activity. Based on the planned date of your infusion of pemetrexed and/or on the status of 
 your kidney function, your doctor needs to advise you on which medicines you can take and when you 
 can take them. If you are unsure, ask your doctor or pharmacist if any of your medicines are NSAIDs. </p>
@@ -144,7 +144,7 @@ Pemetrexed Pfizer may make you feel tired. Be careful when driving a car or usin
 <p>Pemetrexed Pfizer contains sodium </p>
 <p>Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
-‘sodium- free’.  </p>
+ sodium- free .  </p>
 <p>Pemetrexed Pfizer 500 mg powder for concentrate for solution for infusion 
 This medicine contains 54 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 2.7 % of the recommended maximum daily dietary intake of sodium for an adult. </p>
@@ -157,7 +157,7 @@ equivalent to 5.4 % of the recommended maximum daily dietary intake of sodium fo
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take pemetrexed"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose of Pemetrexed Pfizer is 500 milligrams for every square metre of your body’s surface area. 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The dose of Pemetrexed Pfizer is 500 milligrams for every square metre of your body s surface area. 
 Your height and weight are measured to work out the surface area of your body. Your doctor will use 
 this body surface area to work out the right dose for you. This dose may be adjusted, or treatment may 
 be delayed depending on your blood cell counts and on your general condition. A hospital pharmacist, 
@@ -193,30 +193,23 @@ possible toxic effects of the anti-cancer treatment. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>You must contact your doctor immediately if you notice any of the following: 
- 
-Fever or infection (respectively, common or very common): if you have a temperature of 
-38 ºC or greater, sweating or other signs of infection (since you might have fewer white blood 
+<p>You must contact your doctor immediately if you notice any of the following: </p>
+<p>Fever or infection (respectively, common or very common): if you have a temperature of 
+38  C or greater, sweating or other signs of infection (since you might have fewer white blood 
 cells than normal which is very common). Infection (sepsis) may be severe and could lead to 
-death. 
- 
-If you start feeling chest pain (common) or having a fast heart rate (uncommon). 
- 
-If you have pain, redness, swelling or sores in your mouth (very common). 
- 
-Allergic reaction: if you develop skin rash (very common) / burning or prickling sensation 
+death. </p>
+<p>If you start feeling chest pain (common) or having a fast heart rate (uncommon). </p>
+<p>If you have pain, redness, swelling or sores in your mouth (very common). </p>
+<p>Allergic reaction: if you develop skin rash (very common) / burning or prickling sensation 
 (common), or fever (common). Rarely, skin reactions may be severe and could lead to death. 
 Contact your doctor if you get a severe rash, or itching, or blistering (Stevens-Johnson 
-syndrome or toxic epidermal necrolysis). 
- 
-If you experience tiredness, feeling faint, becoming easily breathless or if you look pale (since 
-you might have less haemoglobin than normal which is very common). 
- 
-If you experience bleeding from the gums, nose or mouth or any bleeding that would not stop, 
+syndrome or toxic epidermal necrolysis). </p>
+<p>If you experience tiredness, feeling faint, becoming easily breathless or if you look pale (since 
+you might have less haemoglobin than normal which is very common). </p>
+<p>If you experience bleeding from the gums, nose or mouth or any bleeding that would not stop, 
 reddish or pinkish urine, unexpected bruising (since you might have less platelets than normal 
-which is common). 
- 
-If you experience sudden breathlessness, intense chest pain or cough with bloody sputum 
+which is common). </p>
+<p>If you experience sudden breathlessness, intense chest pain or cough with bloody sputum 
 (uncommon) (may indicate a blood clot in the blood vessels of the lungs). </p>
 <p>Side effects with pemetrexed may include: </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -333,7 +326,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Reconstituted and infusion solution: The product should be used immediately. When prepared as 
 directed, chemical and physical in-use stability of reconstituted and infusion solutions of pemetrexed 
-were demonstrated for 24 hours at refrigerated temperature (2 °C to 8 °C). </p>
+were demonstrated for 24 hours at refrigerated temperature (2  C to 8  C). </p>
 <p>The reconstituted solution is clear and ranges in colour from colourless to yellow or green-yellow 
 without adversely affecting product quality. Parenteral medicines must be inspected visually for 
 particulate matter and discolouration prior to administration. If particulate matter is observed, do not 
@@ -358,7 +351,7 @@ requirements. </p>         </div>"""
 <p>After reconstitution as directed, the solution contains 25 mg/ml of pemetrexed. Further dilution by a 
 healthcare provider is required prior to administration. </p>
 <p>The other ingredients are mannitol (E421), hydrochloric acid (for pH adjustment) and sodium 
-hydroxide (for pH adjustment). Refer to section 2 “Pemetrexed Pfizer contains sodium”.  </p>
+hydroxide (for pH adjustment). Refer to section 2  Pemetrexed Pfizer contains sodium .  </p>
 <p>What Pemetrexed Pfizer looks like and contents of the pack </p>
 <p>Pemetrexed Pfizer is a powder for concentrate for solution for infusion in a glass vial. It is a white to 
 either light yellow or green-yellow lyophilised powder. </p>
@@ -376,16 +369,16 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>BE 
 Pfizer SA/NV 
-Tél/Tel: +32 2 554 62<br />
+T l/Tel: +32 2 554 62<br />
 LT 
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel. + 370 52 51 4 
 BG 
-Пфайзер Люксембург САРЛ, Клон България 
-Тел.: +359 2 970 4 
+     ,   <br />
+ .: +359 2 970 4 
 LU 
 Pfizer SA/NV 
-Tél/Tel: +32 2 554 62<br />
+T l/Tel: +32 2 554 62<br />
 CZ 
 Pfizer, spol. s r.o. 
 Tel: +420-283-004- HU 
@@ -410,8 +403,8 @@ NO
 Pfizer AS 
 Tlf: +47 67 52 61<br />
 EL 
-Pfizer ΕΛΛΑΣ A.E. 
-Τηλ.: +30 210 6785 AT 
+Pfizer   A.E. 
+ .: +30 210 6785 AT 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>ES 
@@ -422,15 +415,15 @@ Pfizer Polska Sp. z o.o.
 Tel: +48 22 335 61<br />
 FR 
 Pfizer 
-Tél: + 33 (0)1 58 07 34<br />
+T l: + 33 (0)1 58 07 34<br />
 PT 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: + 351 21 423 55<br />
 HR 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908<br />
 RO 
-Pfizer România S.R.L. 
+Pfizer Rom nia S.R.L. 
 Tel: +40 (0)21 207 28<br />
 IE 
 Pfizer Healthcare Ireland<br />
@@ -438,15 +431,15 @@ Tel: 1800 633 363 (toll free)
 +44 (0) 1304 616 
 SI 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 IS 
 Icepharma hf. 
-Sími: +354 540 8 
+S mi: +354 540 8 
 SK 
-Pfizer Luxembourg SARL, organizačná zložka 
-Tel: +421–2–3355 5 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: +421 2 3355 5 
 IT 
 Pfizer S.r.l.<br />
 Tel: +39 06 33 18<br />
@@ -454,12 +447,12 @@ FI
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430<br />
 CY<br />
-Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
-Τηλ.: +357 22817SE 
+Pfizer    . . (Cyprus Branch) 
+ .: +357 22817SE 
 Pfizer AB 
 Tel: +46 (0)8 550 520<br />
 LV 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35<br />
 UK (Northern Ireland) 
 Pfizer Limited 

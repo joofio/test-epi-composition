@@ -4,7 +4,7 @@ Instance: composition-en-57cff102c4a138734d137a31aea3135d
 InstanceOf: CompositionUvEpi
 Title: "Composition for evenity Package Leaflet"
 Description:  "Composition for evenity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -178,8 +178,8 @@ Contact your doctor if you have any questions. </p>
 <p>Driving and using machines 
 EVENITY is expected to have no effect or very little effect on the ability to drive and use machines. </p>
 <p>EVENITY contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>
 <p>Draft </p>         </div>"""   
                     
 * section[=].section[+]
@@ -243,7 +243,7 @@ reaction (rare: may affect up to 1 in 1,000 people):
 (hypocalcaemia) (uncommon: may affect up to 1 in 100 people): 
 * spasms, twitches, or cramps in your muscles; 
 * numbness or tingling in your fingers, toes or around your mouth. </p>
-<p>See also section 2 “What you need to know before you use EVENITY”.  </p>
+<p>See also section 2  What you need to know before you use EVENITY .  </p>
 <p>Other side effects may include:  </p>
 <p>Very common side effects (may affect more than 1 in 10 people):<br />
 <em> Common cold;<br />
@@ -272,9 +272,9 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. 
 Once you take the carton containing the pre-filled pens out of the refrigerator for use, you should not 
-put it back into the refrigerator but you can keep it at room temperature (up to 25°C) for up to 30 days. 
+put it back into the refrigerator but you can keep it at room temperature (up to 25 C) for up to 30 days. 
 If not used within this period the product should be discarded. </p>
 <p>Keep the pre-filled pen in the outer carton in order to protect from light. </p>
 <p>Draft </p>
@@ -290,5 +290,116 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What EVENITY contains<br />
-- The active substance is romosozumab. Each pre-filled pen contains 105 mg of romosozumab in </p>         </div>"""      
+- The active substance is romosozumab. Each pre-filled pen contains 105 mg of romosozumab in 
+1.17 ml of solution (90mg/ml). 
+- The other ingredients are calcium acetate, glacial acetic acid, sodium hydroxide (for pH 
+adjustment), sucrose, polysorbate 20 and water for injections. See section 2  EVENITY 
+contains sodium  </p>
+<p>What EVENITY looks like and contents of the pack 
+EVENITY is a clear to opalescent, colourless to light yellow solution for injection provided in a single 
+use disposable pre-filled pen. The syringe inside the pen is made of plastic with a stainless steel 
+needle.  </p>
+<p>Pack size of 2 pre-filled pens. 
+Multipack containing 6 (3 packs of 2) pre-filled pens.<br />
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+UCB Pharma S.A.,<br />
+All e de la Recherche 60,<br />
+B-1070 Bruxelles, Belgium </p>
+<p>Manufacturer 
+Amgen Europe B.V.,<br />
+Minervum 7061,<br />
+4817 ZK Breda, Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder.  </p>
+<p>Belgi /Belgique/Belgien 
+UCB Pharma SA/NV<br />
+T l/Tel: + 32 / (0)2 559 92 <br />
+Lietuva 
+UCB Pharma Oy Finland<br />
+Tel: + 358 9 2514 4221  </p>
+<p>Te .: + 359 (0) 2 962 30<br />
+Luxembourg/Luxemburg 
+UCB Pharma SA/NV<br />
+T l/Tel: + 32 / (0)2 559 92<br />
+ esk  republika 
+UCB s.r.o.<br />
+Tel: + 420 221 773<br />
+Magyarorsz g 
+UCB Magyarorsz g Kft.<br />
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S<br />
+Tlf: + 45 / 32 46 24<br />
+Malta 
+Pharmasud Ltd.<br />
+Tel: + 356 / 21 37 64  </p>
+<p>Draft </p>
+<p>Deutschland 
+UCB Pharma GmbH<br />
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V.<br />
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+UCB Pharma Oy Finland <br />
+Tel: + 358 9 2514 4221  </p>
+<p>Norge 
+UCB Nordic A/S<br />
+Tlf: + 47 / 67 16 5 </p>
+<p>UCB  . . <br />
+ : + 30 / 2109974 
+ sterreich 
+UCB Pharma GmbH<br />
+Tel: + 43-(0)1 291 80<br />
+Espa a 
+UCB Pharma, S.A.<br />
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A.<br />
+T l: + 33 / (0)1 47 29 44<br />
+Portugal 
+UCB Pharma (Produtos Farmac uticos), Lda<br />
+Tel: + 351 / 21 302 5 
+Hrvatska 
+Medis Adria d.o.o.<br />
+Tel: +385 (0) 1 230 34<br />
+Rom nia 
+UCB Pharma Romania S.R.L.<br />
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd.<br />
+Tel: + 353 / (0)1-46 37<br />
+Slovenija 
+Medis, d.o.o.<br />
+Tel: + 386 1 589 69<br />
+ sland 
+Vistor hf.<br />
+Simi: + 354 535 7 
+Slovensk  republika 
+UCB s.r.o., organiza n  zlo ka<br />
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A.<br />
+Tel: + 39 / 02 300<br />
+Suomi/Finland 
+UCB Pharma Oy Finland<br />
+Puh/Tel: + 358 9 2514 4 </p>
+<p>Lifepharma (Z.A.M.) Ltd<br />
+ : + 357 22 056 
+Sverige 
+UCB Nordic A/S<br />
+Tel: + 46 / (0) 40 29 49<br />
+Latvija 
+UCB Pharma Oy Finland<br />
+Tel: + 358 9 2514 4221 (Somija) </p>
+<p>United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd.<br />
+Tel : + 353 / (0)1-46 37<br />
+This leaflet was last revised in MM/YYYY. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

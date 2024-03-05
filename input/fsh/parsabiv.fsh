@@ -4,7 +4,7 @@ Instance: composition-en-25b49674d9d703c70f7cbc179ed1a337
 InstanceOf: CompositionUvEpi
 Title: "Composition for parsabiv Package Leaflet"
 Description:  "Composition for parsabiv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ PTH. </p>
 <p>Parsabiv is used to treat secondary hyperparathyroidism in patients with serious kidney disease who 
 need haemodialysis to clear their blood of waste products. </p>
 <p>In secondary hyperparathyroidism too much PTH is produced by the parathyroid glands (four small 
-glands in the neck). “Secondary” means that the hyperparathyroidism is caused by another condition, 
+glands in the neck).  Secondary  means that the hyperparathyroidism is caused by another condition, 
 e.g. kidney disease. Secondary hyperparathyroidism can cause the loss of calcium from the bones, 
 which can lead to bone pain and fractures and problems with blood and heart vessels. By controlling 
 the levels of PTH, Parsabiv helps to control calcium and phosphate in your body. </p>         </div>"""   
@@ -92,20 +92,31 @@ section 6).
 - if you have very low levels of calcium in your blood. Your doctor will monitor your blood 
 calcium levels. </p>
 <p>Warnings and precautions 
-Before you are given Parsabiv, tell your doctor if you have or have ever had: 
- 
-heart problems, such as heart failure or arrhythmias (abnormal heart rhythm); 
- 
-seizures (fits or convulsions). </p>
+Before you are given Parsabiv, tell your doctor if you have or have ever had: </p>
+<p>heart problems, such as heart failure or arrhythmias (abnormal heart rhythm); </p>
+<p>seizures (fits or convulsions). </p>
 <p>Parsabiv reduces calcium levels. Please tell your doctor if you have spasms, twitches, or cramps in 
 your muscles, or numbness or tingling in your fingers, toes or around your mouth or seizures, 
 confusion or loss of consciousness while being treated with Parsabiv. For additional information see 
-section 4.<br />
-Low calcium levels can cause abnormal heart rhythm. Tell your doctor if you experience an unusually 
+section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Low calcium levels can cause abnormal heart rhythm. Tell your doctor if you experience an unusually 
 fast or pounding heartbeat, if you have heart rhythm problems or heart failure or if you take medicines 
 that can cause heart rhythm problems, while receiving Parsabiv. For additional information see 
-section 4.<br />
-Very low levels of PTH over long periods can result in a type of abnormal bone structure known as 
+section </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Very low levels of PTH over long periods can result in a type of abnormal bone structure known as 
 adynamic bone which can only be diagnosed by biopsy. Your PTH levels will be monitored during 
 treatment with Parsabiv and your dose of Parsabiv may be reduced if your PTH levels become very 
 low. </p>
@@ -133,13 +144,13 @@ Parsabiv has no or negligible influence on the ability to drive and use machines
 symptoms of low calcium levels (such as fits or convulsions) can affect your ability to drive or operate 
 machinery. </p>
 <p>Parsabiv contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
-                    
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free . </p>         </div>"""      
+        
 * section[=].section[+]
-  * title =  "3. How to take parsabiv"
+  * title = "5. How to store parsabiv"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take parsabiv"
+  * code.text = "5. How to store parsabiv"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The recommended starting dose for Parsabiv is 5 mg. It will be given by a doctor or nurse at the end of 
 your haemodialysis treatment through the tube (bloodline) that connects you to the haemodialysis 
@@ -147,79 +158,7 @@ machine. Parsabiv will be given 3 times per week. The dose may be increased up t
 down to 2.5 mg depending on your response. </p>
 <p>You may need to take calcium and vitamin D supplements while being treated with Parsabiv. Your 
 doctor will discuss this with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Low calcium levels in blood (hypocalcaemia) have been reported commonly (may affect up to 1 in people). If you feel numbness or tingling around your mouth or in your extremities, muscle aches or 
-cramps and seizures (fits), you should tell your doctor immediately. These may be signs that your 
-calcium levels are too low. </p>
-<p>Very common: may affect more than 1 in 10 people 
- 
-Nausea 
- 
-Vomiting 
- 
-Diarrhoea 
- 
-Muscle spasms 
- 
-Low calcium levels in blood with no symptoms </p>
-<p>Common: may affect up to 1 in 10 people 
- 
-High potassium levels in blood 
- 
-Low phosphate levels in blood 
- 
-Headache 
- 
-Numbness or tingling sensation 
- 
-Worsening heart failure 
- 
-Disturbances in the heart’s electrical activity seen as QT prolongation on electrocardiogram 
- 
-Low blood pressure 
- 
-Muscle pain </p>
-<p>Uncommon: may affect up to 1 in 100 people 
- 
-Seizures (fits or convulsions); for additional information see section 2 </p>
-<p>Not known: frequency cannot be estimated from the available data 
- 
-Allergic reactions (including anaphylactic reactions) </p>
-<p>Reporting of side effects 
-If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
-listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store parsabiv"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store parsabiv"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
-refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
-Keep the vial in the outer carton in order to protect from light. </p>
-<p>Once removed from the refrigerator: 
- 
-Parsabiv is stable for a maximum of 7 cumulative days if stored in the original carton. No 
-special temperature storage requirements are needed. 
- 
-If removed from the original carton Parsabiv is stable for a maximum of 4 hours if protected 
-from direct sunlight. </p>
-<p>Do not use this medicine if you notice it has particles or it has changed colour. </p>
-<p>For single use only. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -227,126 +166,32 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Parsabiv contains 
-- The active substance is etelcalcetide. 
-Parsabiv 2.5 mg solution for injection: Each vial contains 2.5 mg of etelcalcetide in 0.5 mL 
-solution (5 mg/mL). 
-Parsabiv 5 mg solution for injection: Each vial contains 5 mg of etelcalcetide in 1 mL solution 
-(5 mg/mL). 
-Parsabiv 10 mg solution for injection: Each vial contains 10 mg of etelcalcetide in 2 mL 
-solution (5 mg/mL). 
-- The other ingredients are sodium chloride, succinic acid, water for injections, hydrochloric acid, 
-and sodium hydroxide (refer to section 2: Parsabiv contains sodium). </p>
-<p>What Parsabiv looks like and contents of the pack 
-Parsabiv is a clear and colourless liquid. </p>
-<p>Parsabiv is a solution for injection in a vial. </p>
-<p>Pack sizes of 1, 6, 12 and 42 vials. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Amgen Europe B.V. 
-Minervum 74817 ZK Breda 
-The Netherlands </p>
-<p>Marketing Authorisation Holder 
-Amgen Europe B.V. 
-Minervum 74817 ZK Breda 
-The Netherlands </p>
-<p>Manufacturer 
-Amgen NV 
-Telecomlaan 5-7 
-1831 Diegem 
-Belgium </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
-Lietuva 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7 
-Luxembourg/Luxemburg 
-s.a. Amgen 
-Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
-Amgen s.r.o. 
-Tel: +420 221 773<br />
-Magyarország 
-Amgen Kft. 
-Tel.: +36 1 35 44<br />
-Danmark 
-Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
-Amgen B.V. 
-The Netherlands 
-Tel: +31 (0)76 5732 
-Deutschland 
-AMGEN GmbH 
-Tel.: +49 89 1490 
-Nederland 
-Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
-Amgen Switzerland AG Vilniaus filialas 
-Tel: +372 586 09 
-Norge 
-Amgen AB 
-Tel: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ.: +30 210 3447 
-Österreich 
-Amgen GmbH 
-Tel: +43 (0)1 50<br />
-España 
-Amgen S.A. 
-Tel: +34 93 600 18<br />
-Polska 
-Amgen Biotechnologia Sp. z o.o. 
-Tel.: +48 22 581 3 
-France 
-Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
-Portugal 
-Amgen Biofarmacêutica, Lda. 
-Tel: +351 21 4220 
-Hrvatska 
-Amgen d.o.o. 
-Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
-Tel: +4021 527 3Ireland 
-Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
-AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114 Italia 
-Amgen S.r.l. 
-Tel: +39 02 6241 
-Suomi/Finland 
-Amgen AB, sivuliike Suomessa/Amgen AB, filial 
-i Finland 
-Puh/Tel: +358 (0)9 54900 
-Kύπρος 
-C.A. Papaellinas Ltd 
-Τηλ.: +357 22741<br />
-Sverige 
-Amgen AB 
-Tel: +46 (0)8 6951Latvija 
-Amgen Switzerland AG Rīgas filiāle 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
-Amgen Limited 
-Tel: +44 (0)1223 420 
-This leaflet was last revised in </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Low calcium levels in blood (hypocalcaemia) have been reported commonly (may affect up to 1 in people). If you feel numbness or tingling around your mouth or in your extremities, muscle aches or 
+cramps and seizures (fits), you should tell your doctor immediately. These may be signs that your 
+calcium levels are too low. </p>
+<p>Very common: may affect more than 1 in 10 people </p>
+<p>Nausea </p>
+<p>Vomiting </p>
+<p>Diarrhoea </p>
+<p>Muscle spasms </p>
+<p>Low calcium levels in blood with no symptoms </p>
+<p>Common: may affect up to 1 in 10 people </p>
+<p>High potassium levels in blood </p>
+<p>Low phosphate levels in blood </p>
+<p>Headache </p>
+<p>Numbness or tingling sensation </p>
+<p>Worsening heart failure </p>
+<p>Disturbances in the heart s electrical activity seen as QT prolongation on electrocardiogram </p>
+<p>Low blood pressure </p>
+<p>Muscle pain </p>
+<p>Uncommon: may affect up to 1 in 100 people </p>
+<p>Seizures (fits or convulsions); for additional information see section 2 </p>
+<p>Not known: frequency cannot be estimated from the available data </p>
+<p>Allergic reactions (including anaphylactic reactions) </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
+listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+Appendix V. By reporting side effects you can help provide more information on the safety of this 
+medicine. </p>         </div>"""      
 

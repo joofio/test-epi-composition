@@ -4,7 +4,7 @@ Instance: composition-en-eb26fa1671149a9a84afe4c1bb85528a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecfidera Package Leaflet"
 Description:  "Composition for tecfidera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -80,7 +80,7 @@ symptoms. Symptoms vary from patient to patient, but typically include walking d
 off balance and visual difficulties (e.g. blurred or double vision). These symptoms may disappear 
 completely when the relapse is over, but some problems may remain. </p>
 <p>How Tecfidera works </p>
-<p>Tecfidera seems to work by stopping the body’s defence system from damaging your brain and spinal 
+<p>Tecfidera seems to work by stopping the body s defence system from damaging your brain and spinal 
 cord. This may also help to delay future worsening of your MS.  </p>         </div>"""   
           
 
@@ -103,11 +103,13 @@ Tecfidera, your doctor will do a blood test to count the number of your white bl
 check that your kidneys and liver are working properly. Your doctor will test these periodically during 
 treatment. If your number of white blood cells decreases during treatment, your doctor may consider 
 additional tests or discontinue your treatment. </p>
-<p>Talk to your doctor before taking Tecfidera if you have: 
-- severe kidney disease 
-- severe liver disease 
-- a disease of the stomach or bowel 
-- a serious infection (such as pneumonia) </p>
+<p>Talk to your doctor before taking Tecfidera if you have:</p>
+<ul>
+<li>severe kidney disease </li>
+<li>severe liver disease </li>
+<li>a disease of the stomach or bowel </li>
+<li>a serious infection (such as pneumonia) </li>
+</ul>
 <p>Herpes zoster (shingles) may occur with Tecfidera treatment. In some cases, serious complications 
 have occurred. You should inform your doctor immediately if you suspect you have any symptoms 
 of shingles. </p>
@@ -124,17 +126,19 @@ as possible so that this can be investigated further. </p>
 group. </p>
 <p>Other medicines and Tecfidera </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines, in particular:<br />
-- medicines that contain fumaric acid esters (fumarates) used to treat psoriasis; 
-- medicines that affect the body’s immune system including chemotherapy, 
-immunosuppressants, or other medicines used to treat MS; 
-- medicines that affect the kidneys including some antibiotics (used to treat infections), “water 
-tablets” (diuretics), certain types of painkillers (such as ibuprofen and other similar anti-
-inflammatories and medicines purchased without a doctor’s prescription) and medicines that 
-contain lithium;<br />
-- taking Tecfidera with certain types of vaccines (live vaccines) may cause you to get an infection 
+medicines, in particular:</p>
+<ul>
+<li>medicines that contain fumaric acid esters (fumarates) used to treat psoriasis; </li>
+<li>medicines that affect the body s immune system including chemotherapy, 
+immunosuppressants, or other medicines used to treat MS; </li>
+<li>medicines that affect the kidneys including some antibiotics (used to treat infections),  water 
+tablets  (diuretics), certain types of painkillers (such as ibuprofen and other similar anti-
+inflammatories and medicines purchased without a doctor s prescription) and medicines that 
+contain lithium;  </li>
+<li>taking Tecfidera with certain types of vaccines (live vaccines) may cause you to get an infection 
 and should, therefore, be avoided. Your doctor will advise whether other types of vaccines (non-
-live vaccines) should be given.  </p>
+live vaccines) should be given.  </li>
+</ul>
 <p>Tecfidera with alcohol </p>
 <p>Consumption of more than a small amount (more than 50 ml) of strong alcoholic drinks (more than 
 30% alcohol by volume, e.g. spirits) should be avoided within an hour of taking Tecfidera, as alcohol 
@@ -155,7 +159,7 @@ benefit of breast-feeding for your child, and the benefit of therapy for you. </
 <p>Tecfidera is not expected to affect your ability to drive and use machines. </p>
 <p>Tecfidera contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium free’. </p>         </div>"""   
+ sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tecfidera"
@@ -170,22 +174,28 @@ Take this starting dose for the first 7 days, then take the regular dose.  </p>
 <p>Tecfidera is for oral use. </p>
 <p>Swallow each capsule whole, with some water. Do not divide, crush, dissolve, suck or chew the 
 capsule as this may increase some side effects. </p>
-<p>Take Tecfidera with food – it may help to reduce some of the very common side effects (listed in 
+<p>Take Tecfidera with food   it may help to reduce some of the very common side effects (listed in 
 section 4). </p>
 <p>If you take more Tecfidera than you should </p>
 <p>If you have taken too many capsules, talk to your doctor straight away. You may experience side 
-effects similar to those described below in section 4.<br />
-If you forget to take Tecfidera </p>
-<p>If you forget or miss a dose, do not take a double dose.  </p>
-<p>You may take the missed dose if you leave at least 4 hours between the doses. Otherwise wait until 
-your next planned dose.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+effects similar to those described below in section </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Tecfidera </p>
+<p>If you forget or miss a dose, do not take a double dose.  </p>
+<p>You may take the missed dose if you leave at least 4 hours between the doses. Otherwise wait until 
+your next planned dose.  </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tecfidera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tecfidera"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
@@ -195,7 +205,7 @@ multifocal leukoencephalopathy (PML). PML may lead to severe disability or death
 occurred after 1 to 5 years of treatment and so your physician should continue to monitor your white 
 blood cells throughout your treatment, and you should remain observant of any potential symptoms of 
 PML as described below. The risk of PML may be higher if you have previously taken a medicine 
-impairing the functionality of your body’s immune system. </p>
+impairing the functionality of your body s immune system. </p>
 <p>The symptoms of PML may be similar to an MS relapse. Symptoms may include new or worsening 
 weakness on one side of the body; clumsiness; changes in vision, thinking, or memory; or confusion or 
 personality changes, or speech and communication difficulties lasting for more than several days. 
@@ -203,28 +213,25 @@ Therefore, if you believe your MS is getting worse or if you notice any new symp
 on Tecfidera treatment, it is very important that you speak to your doctor as soon as possible. Also 
 speak with your partner or caregivers and inform them about your treatment. Symptoms might arise 
 that you might not become aware of by yourself. </p>
-<p>→ 
-Call your doctor straight away if you experience any of these symptoms  </p>
+<p>Call your doctor straight away if you experience any of these symptoms  </p>
 <p>Severe allergic reactions </p>
 <p>The frequency of severe allergic reactions cannot be estimated from the available data (not known).  </p>
 <p>Reddening of the face or body (flushing) is a very common side effect. However, should flushing be 
-accompanied by a red rash or hives and you get any of these symptoms: </p>
+accompanied by a red rash or hives and you get any of these symptoms:</p>
 <ul>
 <li>swelling of the face, lips, mouth or tongue (angioedema) </li>
 <li>wheezing, difficulty breathing or shortness of breath (dyspnoea, hypoxia) </li>
 <li>dizziness or loss of consciousness (hypotension) </li>
 </ul>
 <p>then this may represent a severe allergic reaction (anaphylaxis). </p>
-<p>→ 
-Stop taking Tecfidera and call a doctor straight away </p>
+<p>Stop taking Tecfidera and call a doctor straight away </p>
 <p>Other side effects </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - reddening of the face or body feeling warm, hot, burning or itchy (flushing) 
 - loose stools (diarrhoea) 
 - feeling sick (nausea)<br />
 - stomach pain or stomach cramps </p>
-<p>→ 
-Taking your medicine with food can help to reduce the side effects above </p>
+<p>Taking your medicine with food can help to reduce the side effects above </p>
 <p>Substances called ketones, which are naturally produced in the body, very commonly show up in urine 
 tests while taking Tecfidera. </p>
 <p>Talk to your doctor about how to manage these side effects. Your doctor may reduce your dose. Do 
@@ -269,139 +276,17 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store tecfidera"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tecfidera"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after “EXP”. 
-The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30ºC. 
-Keep the blisters in the outer carton in order to protect from light. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tecfidera contains  </p>
-<p>The active substance is dimethyl fumarate.<br />
-Tecfidera 120 mg: Each capsule contains 120 mg of dimethyl fumarate. 
-Tecfidera 240 mg: Each capsule contains 240 mg of dimethyl fumarate. </p>
-<p>The other ingredients are microcrystalline cellulose, croscarmellose sodium, talc, silica colloidal 
-anhydrous, magnesium stearate, triethyl citrate, methacrylic acid – methyl methacrylate copolymer 
-(1:1), methacrylic acid – ethyl acrylate copolymer (1:1) dispersion 30%, simeticone, sodium 
-laurilsulfate, polysorbate 80, gelatin, titanium dioxide (E171), brilliant blue FCF (E133), yellow iron 
-oxide (E172), shellac, potassium hydroxide and black iron oxide (E172). </p>
-<p>What Tecfidera looks like and contents of the pack </p>
-<p>Tecfidera 120 mg gastro-resistant hard capsules are green and white and printed with ‘BG-12 120 mg’ 
-and are available in packs containing 14 capsules. </p>
-<p>Tecfidera 240 mg gastro-resistant hard capsules are green and printed with ‘BG-12 240 mg’ and are 
-available in packs containing 56 or 168 capsules.  </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Biogen Netherlands B.V. 
-Prins Mauritslaan 1171 LP Badhoevedorp 
-The Netherlands </p>
-<p>Manufacturer </p>
-<p>FUJIFILM Diosynth Biotechnologies Denmark ApS 
-Biotek Allé 1 
-DK-3400 Hillerød 
-Denmark  </p>
-<p>Biogen Netherlands B.V. 
-Prins Mauritslaan 1171 LP Badhoevedorp 
-The Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder </p>
-<p>België/Belgique/Belgien 
-Biogen Belgium NV/SA 
-Tél/Tel: +32 2 2191Lietuva 
-Biogen Lithuania UAB 
-Tel: +370 5 259 6 
-България 
-ТП ЕВОФАРМА<br />
-Teл: +359 2 962 12 00<br />
-Luxembourg/Luxemburg 
-Biogen Belgium NV/SA 
-Tél/Tel: +32 2 2191 
-Česká republika 
-Biogen (Czech Republic) s.r.o. 
-Tel: +420 255 706<br />
-Magyarország 
-Biogen Hungary Kft. 
-Tel: + 36 1 899 9 
-Danmark 
-Biogen (Denmark) A/S 
-Tlf: +45 77 41 57<br />
-Malta 
-Pharma. MT Ltd.<br />
-Tel: +356 21337008<br />
-Deutschland 
-Biogen GmbH 
-Tel: +49 (0) 89 99 6 
-Nederland 
-Biogen Netherlands B.V. 
-Tel: +31 20 542 2 
-Eesti 
-Biogen Estonia OÜ 
-Tel: +372 618 9 
-Norge 
-Biogen Norway AS 
-Tlf: +47 23 40 01 Ελλάδα 
-Genesis Pharma SA<br />
-Tηλ: +30 210 8771500<br />
-Österreich 
-Biogen Austria GmbH 
-Tel: +43 1 484 46<br />
-España 
-Biogen Spain, S.L. 
-Tel: +34 91 310 7 
-Polska 
-Biogen Poland Sp. z o.o.<br />
-Tel: +48 22 351 51<br />
-France 
-Biogen France SAS 
-Tél: +33 (0)1 41 37 95<br />
-Portugal 
-Biogen Portugal Sociedade Farmacêutica, 
-Unipessoal, Lda. 
-Tel: +351 21 318 8 
-Hrvatska 
-Biogen Pharma d.o.o<br />
-Tel: +385 (0) 1 775 73 România 
-Johnson &amp; Johnson Romania S.R.L.<br />
-Tel: +40 21 207 18<br />
-Ireland 
-Biogen Idec (Ireland) Ltd. 
-Tel: +353 (0)1 463 7 
-Slovenija 
-Biogen Pharma d.o.o. 
-Tel: +386 1 511 02 Ísland 
-Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika 
-Biogen Slovakia s.r.o. 
-Tel: +421 2 323 340 08  </p>
-<p>Italia 
-Biogen Italia s.r.l. 
-Tel: +39 02 5849Suomi/Finland 
-Biogen Finland Oy 
-Puh/Tel: +358 207 401<br />
-Κύπρος 
-Genesis Pharma Cyprus Ltd<br />
-Tηλ: +3572 2 765740<br />
-Sverige 
-Biogen Sweden AB 
-Tel: +46 8 594 113<br />
-Latvija 
-Biogen Latvia SIA 
-Tel: +371 68 688 United Kingdom (Northern Ireland) 
-Biogen Idec (Ireland) Limited 
-Tel: +44 (0) 1628 50 1 </p>
-<p>This leaflet was last revised in {MM YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 30 C. 
+Keep the blisters in the outer carton in order to protect from light. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

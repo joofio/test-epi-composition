@@ -4,7 +4,7 @@ Instance: composition-en-d674db7613c7ef04137ad9c28d3399bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for sildenafil Package Leaflet"
 Description:  "Composition for sildenafil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -83,17 +83,14 @@ This is when a man cannot get, or keep a hard, erect penis suitable for sexual a
   * code.text = "2. What you need to know before you take sildenafil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Sildenafil Teva </p>
-<p>− 
-If you are allergic to sildenafil or any of the other ingredients of this medicine (listed in section 
+<p>If you are allergic to sildenafil or any of the other ingredients of this medicine (listed in section 
 6). </p>
-<p>− 
-If you are taking medicines called nitrates, as the combination may lead to a dangerous fall in 
+<p>If you are taking medicines called nitrates, as the combination may lead to a dangerous fall in 
 your blood pressure. Tell your doctor if you are taking any of these medicines which are often 
-given for relief of angina pectoris (or “chest pain”). If you are not certain, ask your doctor or 
+given for relief of angina pectoris (or  chest pain ). If you are not certain, ask your doctor or 
 pharmacist. </p>
-<p>− 
-If you are using any of the medicines known as nitric oxide donors such as amyl nitrite 
-(“poppers”), as the combination may also lead to a dangerous fall in your blood pressure.  </p>
+<p>If you are using any of the medicines known as nitric oxide donors such as amyl nitrite 
+( poppers ), as the combination may also lead to a dangerous fall in your blood pressure.  </p>
 <ul>
 <li>If you are taking riociguat. This medicine is used to treat pulmonary arterial hypertension (i.e. 
 high blood pressure in the lungs) and chronic thromboembolic pulmonary hypertension (i.e. 
@@ -101,29 +98,20 @@ high blood pressure in the lungs secondary to blood clots). PDE5 inhibitors, suc
 have been shown to increase the hypotensive effects of this medicine. If you are taking riociguat 
 or are unsure, tell your doctor. </li>
 </ul>
-<p>− 
-If you have a severe heart or liver problem. </p>
-<p>− 
-If you have recently had a stroke or a heart attack, or if you have low blood pressure. </p>
-<p>− 
-If you have certain rare inherited eye diseases (such as retinitis pigmentosa). </p>
-<p>− 
-If you have ever had loss of vision due to non-arteritic anterior ischaemic optic neuropathy 
+<p>If you have a severe heart or liver problem. </p>
+<p>If you have recently had a stroke or a heart attack, or if you have low blood pressure. </p>
+<p>If you have certain rare inherited eye diseases (such as retinitis pigmentosa). </p>
+<p>If you have ever had loss of vision due to non-arteritic anterior ischaemic optic neuropathy 
 (NAION). </p>
 <p>Warnings and precautions  </p>
-<p>Talk to your doctor, pharmacist or nurse before taking Sildenafil Teva 
-− 
-If you have sickle cell anaemia (an abnormality of red blood cells), leukaemia (cancer of blood 
-cells), multiple myeloma (cancer of bone marrow) 
-− 
-If you have a deformity of your penis or Peyronie’s Disease. 
-− 
-If you have problems with your heart. Your doctor should carefully check whether your heart 
-can take the additional strain of having sex. 
-− 
-If you currently have a stomach ulcer, or a bleeding problem (such as haemophilia). 
-− 
-If you experience sudden decrease or loss of vision, stop taking Sildenafil Teva and contact 
+<p>Talk to your doctor, pharmacist or nurse before taking Sildenafil Teva </p>
+<p>If you have sickle cell anaemia (an abnormality of red blood cells), leukaemia (cancer of blood 
+cells), multiple myeloma (cancer of bone marrow) </p>
+<p>If you have a deformity of your penis or Peyronie s Disease. </p>
+<p>If you have problems with your heart. Your doctor should carefully check whether your heart 
+can take the additional strain of having sex. </p>
+<p>If you currently have a stomach ulcer, or a bleeding problem (such as haemophilia). </p>
+<p>If you experience sudden decrease or loss of vision, stop taking Sildenafil Teva and contact 
 your doctor immediately. </p>
 <p>You should not use Sildenafil Teva with any other oral or local treatments for erectile dysfunction. </p>
 <p>You should not use Sildenafil Teva with treatments for pulmonary arterial hypertension (PAH) 
@@ -134,8 +122,14 @@ containing sildenafil or any other PDE5 inhibitors. </p>
 You should tell your doctor if you have kidney or liver problems. Your doctor may decide on a lower 
 dose for you. </p>
 <p>Children and adolescents 
-Sildenafil Teva should not be given to individuals under the age of 18.<br />
-Other medicines and Sildenafil Teva 
+Sildenafil Teva should not be given to individuals under the age of 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Sildenafil Teva 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Sildenafil Teva tablets may interfere with some medicines, especially those used to treat chest pain. In 
@@ -145,9 +139,9 @@ doctor tells you that you can. </p>
 <p>You should not take Sildenafil Teva if you are taking medicines called nitrates, as the combination of 
 these medicines may lead to a dangerous fall in your blood pressure. Always tell your doctor, 
 pharmacist or nurse if you are taking any of these medicines that are often used for the relief of angina 
-pectoris (or “chest pain”).  </p>
+pectoris (or  chest pain ).  </p>
 <p>You should not take Sildenafil Teva if you are using any of the medicines known as nitric oxide 
-donors such as amyl nitrite (“poppers”) as the combination may also lead to a dangerous fall in your 
+donors such as amyl nitrite ( poppers ) as the combination may also lead to a dangerous fall in your 
 blood pressure.  </p>
 <p>Tell your doctor or pharmacist if you are already taking riociguat. </p>
 <p>If you are taking medicines known as protease inhibitors, such as for the treatment of HIV, your 
@@ -174,12 +168,13 @@ Sildenafil Teva can cause dizziness and can affect vision. You should be aware o
 Sildenafil Teva before you drive or use machinery. </p>
 <p>Sildenafil Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially ‘sodium-free’. </p>         </div>"""   
-                    
+essentially  sodium-free . </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take sildenafil"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sildenafil"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. The recommended starting dose is 50 mg. </p>
@@ -201,13 +196,12 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy.  </p>
 <p>You should not take more tablets than your doctor tells you to. </p>
 <p>Contact your doctor if you take more tablets than you should. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store sildenafil"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store sildenafil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects although not everybody gets them. The side 
 effects reported in association with the use of Sildenafil Teva are usually mild to moderate and of a 
@@ -220,14 +214,12 @@ medical help immediately: </p>
 <p>Symptoms include sudden wheeziness, difficulty in breathing or dizziness, swelling of the 
 eyelids, face, lips or throat. </p>
 <ul>
-<li>
-<p>Chest pains - this occurs uncommonly 
-If this occurs during or after intercourse 
-− 
-Get in a semi-sitting position and try to relax 
-− 
-Do not use nitrates to treat your chest pain </p>
-</li>
+<li>Chest pains - this occurs uncommonly 
+If this occurs during or after intercourse </li>
+</ul>
+<p>Get in a semi-sitting position and try to relax </p>
+<p>Do not use nitrates to treat your chest pain </p>
+<ul>
 <li>
 <p>Prolonged and sometimes painful erections - this occurs rarely (may affect up to 1 in 1,people) 
 If you have an erection which lasts for more than 4 hours, you should contact a doctor 
@@ -274,10 +266,11 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store sildenafil"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sildenafil"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and carton after EXP. The 
@@ -285,139 +278,4 @@ expiry date refers to the last day of that month. </p>
 <p>Store in the original package, in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sildenafil Teva contains </p>
-<p>The active substance is sildenafil. Each tablet contains 25 mg of sildenafil (as the citrate salt). </p>
-<p>The other ingredients are: 
-Tablet core: microcrystalline cellulose, calcium hydrogen phosphate, croscarmellose sodium, 
-magnesium stearate. 
-Film coat: poly(vinyl alcohol), titanium dioxide (E171), macrogol 3350, talc.  </p>
-<p>What Sildenafil Teva looks like and contents of the pack<br />
-Sildenafil Teva 25 mg are white, oval-shaped film-coated tablets, engraved with ‘S 25’ on one side, 
-and plain on the other side.<br />
-Sildenafil Teva is available in blister packs of 2, 4, 8 and 12 tablets, and perforated unit dose blisters 
-containing 10 x 1 tablet.   </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>Marketing Authorisation Holder 
-Teva B.V. 
-Swensweg 5 
-2031GA Haarlem 
-The Netherlands </p>
-<p>Manufacturer: 
-TEVA Pharmaceutical Works Private Limited Company<br />
-Pallagi út 13<br />
-4042 Debrecen 
-Hungary </p>
-<p>Teva Pharma, S.L.U. 
-Polígono Industrial Malpìca, calle C,no.4 
-50016 Zaragoza<br />
-Spain </p>
-<p>Teva Operations Poland Sp.z.o.o. 
-ul Mogilska 80. 31-546, Krakow,<br />
-Poland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
-Lietuva 
-UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
-Luxembourg/Luxemburg 
-ratiopharm GmbH 
-Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
-Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
-Tel: +36 12886 
-Danmark 
-Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
-Teva Pharmaceuticals Ireland 
-L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
-TEVA GmbH 
-Tel: +49 73140 
-Nederland 
-Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
-UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
-Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar Α.Β.Ε.Ε. 
-Τηλ: +30 2118805 
-Österreich 
-ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-España 
-Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
-Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
-Teva Santé 
-Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
-Tél: +33 155917 
-Tel: +351 214767 
-Hrvatska 
-Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-România 
-Teva Pharmaceuticals S.R.L 
-Tel: +40 212306 
-Ireland 
-Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
-Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
-Ísland 
-Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
-TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
-Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
-Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar Α.Β.Ε.Ε. 
-Ελλάδα 
-Τηλ: +30 2118805 
-Sverige 
-Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
-UAB Teva Baltics filiāle Latvijā 
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
-Teva Pharmaceuticals Ireland 
-Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

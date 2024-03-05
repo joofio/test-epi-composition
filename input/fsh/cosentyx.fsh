@@ -4,7 +4,7 @@ Instance: composition-en-61ceafb9e1df8e2286f86826be123eb9
 InstanceOf: CompositionUvEpi
 Title: "Composition for cosentyx Package Leaflet"
 Description:  "Composition for cosentyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,26 +76,21 @@ psoriasis, psoriatic arthritis and axial spondyloarthritis. </p>
 * Paediatric plaque psoriasis 
 * Juvenile idiopathic arthritis, including enthesitis-related arthritis and juvenile psoriatic arthritis </p>
 <p>Paediatric plaque psoriasis 
-Cosentyx is used to treat a skin condition called “plaque psoriasis”, which causes inflammation 
+Cosentyx is used to treat a skin condition called  plaque psoriasis , which causes inflammation 
 affecting the skin. Cosentyx reduces the inflammation and other symptoms of the disease. Cosentyx is 
 used in adolescents and children (6 years of age and older) with moderate to severe plaque psoriasis. </p>
 <p>Using Cosentyx in plaque psoriasis will benefit you (or your child) by leading to improvements of skin 
 clearance and reducing symptoms such as scaling, itching and pain. </p>
 <p>Juvenile idiopathic arthritis, including enthesitis-related arthritis and juvenile psoriatic arthritis 
 Cosentyx is used in patients (6 years of age and older) to treat conditions of the juvenile idiopathic 
-arthritis categories called “enthesitis-related arthritis” and “juvenile psoriatic arthritis”. These 
+arthritis categories called  enthesitis-related arthritis  and  juvenile psoriatic arthritis . These 
 conditions are inflammatory diseases affecting the joints and the places where tendons join the bone. </p>
 <p>Using Cosentyx in enthesitis-related arthritis and juvenile psoriatic arthritis will benefit you (or your 
-child) by reducing the symptoms and improving your (or your child’s) physical function. </p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take cosentyx"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take cosentyx"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Cosentyx: 
+child) by reducing the symptoms and improving your (or your child s) physical function. </p>
+<ol>
+<li>What you need to know before you (or your child) use Cosentyx </li>
+</ol>
+<p>Do not use Cosentyx: 
 * if you (or your child) are allergic to secukinumab or any of the other ingredients of this 
 medicine (listed in section 6). 
 If you think you (or your child) may be allergic, ask your doctor for advice before using 
@@ -107,13 +102,13 @@ Talk to your doctor, nurse or pharmacist before using Cosentyx:
 * if you (or your child) have long-term or repeated infections. 
 * if you (or your child) have tuberculosis. 
 * if you (or your child) have ever had an allergic reaction to latex. 
-* if you (or your child) have an inflammatory disease affecting the gut called Crohn’s disease. 
+* if you (or your child) have an inflammatory disease affecting the gut called Crohn s disease. 
 * if you (or your child) have an inflammation of the large intestine called ulcerative colitis. 
 * if you (or your child) have recently had a vaccination or are due to have a vaccination during 
 treatment with Cosentyx. 
 * if you (or your child) are receiving any other treatment for psoriasis, such as another 
 immunosuppressant or phototherapy with ultraviolet (UV) light. </p>
-<p>Inflammatory bowel disease (Crohn’s disease or ulcerative colitis) 
+<p>Inflammatory bowel disease (Crohn s disease or ulcerative colitis) 
 Stop using Cosentyx and tell your doctor or seek medical help immediately if you (or your child) 
 notice abdominal cramps and pain, diarrhoea, weight loss, blood in the stool or any other signs of 
 bowel problems. </p>
@@ -122,8 +117,16 @@ Cosentyx can potentially cause serious side effects, including infections and al
 must look out for signs of these conditions while you (or your child) are taking Cosentyx. </p>
 <p>Stop using Cosentyx and tell your doctor or seek medical help immediately if you (or your child) 
 notice any signs indicating a possible serious infection or an allergic reaction. Such signs are listed 
-under “Serious side effects” in section 4.<br />
-Children and adolescents 
+under  Serious side effects  in section </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cosentyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cosentyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
 Cosentyx is not recommended for children younger than 6 years of age with plaque psoriasis because 
 it has not been studied in this age group. </p>
 <p>Cosentyx is not recommended for children younger than 6 years of age with juvenile idiopathic 
@@ -160,20 +163,17 @@ pharmacist if you are not sure. </p>
 doctor should decide if, after proper training, you should inject Cosentyx yourself or a caregiver 
 should give the injection. </p>
 <p>It is important not to try to inject Cosentyx before being trained by your doctor, nurse or pharmacist. </p>
-<p>For detailed instructions on how to inject Cosentyx, see “Instructions for use of Cosentyx 75 mg 
-pre-filled syringe” at the end of this leaflet. </p>
+<p>For detailed instructions on how to inject Cosentyx, see  Instructions for use of Cosentyx 75 mg 
+pre-filled syringe  at the end of this leaflet. </p>
 <p>Instructions for use can also be found via the following QR code and web site: 
-‘QR code to be included’ 
+ QR code to be included<br />
 www.cosentyx.eu </p>
 <p>How much Cosentyx is given and for how long 
 Your doctor will decide how much Cosentyx you (or your child) need and for how long. </p>
 <p>Paediatric plaque psoriasis (children aged 6 years and older) 
-* The recommended dose is based on body weight as follows: 
-o 
-Weight below 25 kg: 75 mg by subcutaneous injection. 
-o 
-Weight 25 kg or above and below 50 kg: 75 mg by subcutaneous injection. 
-o 
+* The recommended dose is based on body weight as follows: * 
+Weight below 25 kg: 75 mg by subcutaneous injection. * 
+Weight 25 kg or above and below 50 kg: 75 mg by subcutaneous injection. * 
 Weight 50 kg or above: 150 mg by subcutaneous injection. 
 Your doctor may increase the dose to 300 mg. 
 * Each 75 mg dose is given as one injection of 75 mg. Other dosage forms/strengths may be 
@@ -181,25 +181,23 @@ available for administration of the 150 mg and 300 mg doses. </p>
 <p>After the first dose you (or your child) will receive further weekly injections at weeks 1, 2, 3 and 4 
 followed by monthly injections. </p>
 <p>Juvenile idiopathic arthritis (enthesitis-related arthritis and juvenile psoriatic arthritis) 
-* The recommended dose is based on body weight as follows: 
-o 
-Weight below 50 kg: 75 mg by subcutaneous injection. 
-o 
+* The recommended dose is based on body weight as follows: * 
+Weight below 50 kg: 75 mg by subcutaneous injection. * 
 Weight 50 kg or above: 150 mg by subcutaneous injection. 
 * Each 75 mg dose is given as one injection of 75 mg. Other dosage forms/strengths may be 
 available for administration of the 150 mg dose. </p>
 <p>After the first dose you (or your child) will receive further weekly injections at weeks 1, 2, 3 and 4 
 followed by monthly injections. </p>
-<p>Cosentyx is for long-term treatment. Your doctor will regularly monitor your (or your child’s) 
+<p>Cosentyx is for long-term treatment. Your doctor will regularly monitor your (or your child s) 
 condition to check that the treatment is having the desired effect. </p>
 <p>If you use more Cosentyx than you should 
 If you (or your child) have received more Cosentyx than you (they) should or the dose has been 
-administered sooner than according to your doctor’s prescription, inform your doctor. </p>
+administered sooner than according to your doctor s prescription, inform your doctor. </p>
 <p>If you forget to use Cosentyx 
 If you have forgotten to inject a dose of Cosentyx, inject the next dose as soon as you (or your child) 
 remember. Then talk to your doctor to discuss when you should inject the next dose. </p>
 <p>If you (or your child) stop using Cosentyx 
-It is not dangerous to stop using Cosentyx. However, if you stop, your (or your child’s) psoriasis 
+It is not dangerous to stop using Cosentyx. However, if you stop, your (or your child s) psoriasis 
 symptoms may come back. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
 
@@ -249,7 +247,7 @@ infections (neutropenia)
 problems) 
 * small, itchy blisters on the palms of hands, soles of feet and edges of the fingers and toes 
 (dyshidrotic eczema) 
-* athlete’s foot (tinea pedis) </p>
+* athlete s foot (tinea pedis) </p>
 <p>Rare (may affect up to 1 in 1 000 people): 
 * severe allergic reaction with shock (anaphylactic reaction) 
 * redness and shedding of skin over a larger area of the body, which may be itchy or 
@@ -272,12 +270,12 @@ information on the safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine: 
-* after the expiry date which is stated on the outer box or the label on the syringe after “EXP”. 
+* after the expiry date which is stated on the outer box or the label on the syringe after  EXP . 
 * if the liquid contains easily visible particles, is cloudy or is distinctly brown. </p>
-<p>Store the syringe sealed in its box to protect from light. Store in the refrigerator between 2°C and 8°C. 
+<p>Store the syringe sealed in its box to protect from light. Store in the refrigerator between 2 C and 8 C. 
 Do not freeze. Do not shake. 
 If necessary, Cosentyx can be left out of the refrigerator for a single period of up to 4 days at room 
-temperature, not above 30°C. </p>
+temperature, not above 30 C. </p>
 <p>This medicine is for single use only. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -305,7 +303,7 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer 
 Novartis Pharma GmbH 
-Roonstraße 90429 Nuremberg 
+Roonstra e 90429 Nuremberg 
 Germany </p>
 <p>Sandoz GmbH 
 Biochemiestrasse 6336 Langkampfen 
@@ -315,23 +313,22 @@ Biochemiestrasse 6336 Langkampfen
 Austria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -347,35 +344,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -383,10 +380,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />

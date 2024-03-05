@@ -4,7 +4,7 @@ Instance: composition-en-ef5bb2365c3e700f3696b97c07007976
 InstanceOf: CompositionUvEpi
 Title: "Composition for mounjaro Package Leaflet"
 Description:  "Composition for mounjaro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,17 +75,21 @@ high.  </p>
 <p>Mounjaro is also used to treat adults with obesity or overweight (with BMI of at least 27 kg/m2). 
 Mounjaro influences appetite regulation, which may help you eat less food and reduce your body 
 weight. </p>
-<p>In type 2 diabetes, Mounjaro is used: 
-- on its own when you can’t take metformin (another diabetes medicine). 
-- with other medicines for diabetes when they are not enough to control your blood sugar levels. 
-These other medicines may be medicines taken by mouth and/or insulin given by injection. </p>
+<p>In type 2 diabetes, Mounjaro is used:</p>
+<ul>
+<li>on its own when you can t take metformin (another diabetes medicine). </li>
+<li>with other medicines for diabetes when they are not enough to control your blood sugar levels. 
+These other medicines may be medicines taken by mouth and/or insulin given by injection. </li>
+</ul>
 <p>Mounjaro is also used together with diet and exercise for weight loss and to help keep the weight 
-under control in adults, who have: 
-- a BMI of 30 kg/m² or greater (obesity) or<br />
-- a BMI of at least 27 kg/m² but less than 30 kg/m² (overweight) and weight-related health 
+under control in adults, who have:</p>
+<ul>
+<li>a BMI of 30 kg/m  or greater (obesity) or  </li>
+<li>a BMI of at least 27 kg/m  but less than 30 kg/m  (overweight) and weight-related health 
 problems (such as prediabetes, type 2 diabetes, high blood pressure, abnormal levels of fats in 
-the blood, breathing problems during sleep called ‘obstructive sleep apnoea’ or a history of 
-heart attack, stroke or blood vessel problems) </p>
+the blood, breathing problems during sleep called  obstructive sleep apnoea  or a history of 
+heart attack, stroke or blood vessel problems) </li>
+</ul>
 <p>BMI (Body Mass Index) is a measure of your weight in relation to your height. </p>
 <p>It is important to continue to follow the advice on diet and exercise given to you by your doctor, nurse 
 or pharmacist. </p>         </div>"""   
@@ -101,15 +105,17 @@ or pharmacist. </p>         </div>"""
 - if you are allergic to tirzepatide or any of the other ingredients of this medicine (listed in 
 section 6).  </p>
 <p>Warnings and precautions <br />
-Talk to your doctor, nurse or pharmacist before using Mounjaro if: 
-- you have severe problems with food digestion or food remaining in your stomach for longer 
-than normal (including severe gastroparesis). 
-- you have ever had pancreatitis (inflammation of the pancreas which may cause severe pain in 
-the stomach and back which does not go away). 
-- you have a problem with your eyes (diabetic retinopathy or macular oedema). 
-- you are using a sulphonylurea (another diabetes medicine) or insulin for your diabetes, as low 
+Talk to your doctor, nurse or pharmacist before using Mounjaro if:</p>
+<ul>
+<li>you have severe problems with food digestion or food remaining in your stomach for longer 
+than normal (including severe gastroparesis). </li>
+<li>you have ever had pancreatitis (inflammation of the pancreas which may cause severe pain in 
+the stomach and back which does not go away). </li>
+<li>you have a problem with your eyes (diabetic retinopathy or macular oedema). </li>
+<li>you are using a sulphonylurea (another diabetes medicine) or insulin for your diabetes, as low 
 blood sugar (hypoglycaemia) can occur. Your doctor may need to change your dose of these 
-other medicines to reduce this risk. </p>
+other medicines to reduce this risk. </li>
+</ul>
 <p>When starting treatment with Mounjaro, in some cases you may experience loss of fluids/dehydration, 
 e.g. due to vomiting, nausea and/or diarrhoea, which may lead to a decrease in kidney function. It is 
 important to avoid dehydration by drinking plenty of fluids. Contact your doctor if you have any 
@@ -135,11 +141,11 @@ It is unlikely that this medicine will affect your ability to drive and use mach
 Mounjaro in combination with a sulphonylurea or insulin, low blood sugar (hypoglycaemia) may 
 occur which may reduce your ability to concentrate. Avoid driving or using machines if you get any 
 signs of low blood sugar, e.g. headache, drowsiness, weakness, dizziness, feeling hungry, confusion, 
-irritability, fast heartbeat and sweating (see section 4). See section 2, ‘Warnings and precautions’ for 
+irritability, fast heartbeat and sweating (see section 4). See section 2,  Warnings and precautions  for 
 information on increased risk of low blood sugar. Talk to your doctor for further information. </p>
 <p>Mounjaro contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mounjaro"
@@ -170,11 +176,11 @@ arm. </p>
 <p>If you want to do so, you can use the same area of your body each week. But be sure to choose a 
 different injection site within that area. If you also inject insulin choose a different injection site for 
 that injection. </p>
-<p>Read the “Instructions for Use” for the pen carefully before using Mounjaro. </p>
+<p>Read the  Instructions for Use  for the pen carefully before using Mounjaro. </p>
 <p>Testing blood glucose levels<br />
 If you are using Mounjaro with a sulphonylurea or insulin, it is important that you test your blood 
-glucose levels as instructed by your doctor, nurse or pharmacist (see section 2, ‘Warnings and 
-precautions’). </p>
+glucose levels as instructed by your doctor, nurse or pharmacist (see section 2,  Warnings and 
+precautions ). </p>
 <p>If you use more Mounjaro than you should<br />
 If you use more Mounjaro than you should talk to your doctor immediately. Too much of this 
 medicine may cause low blood sugar (hypoglycaemia) and can make you feel sick or be sick. </p>
@@ -215,8 +221,8 @@ These side effects are usually not severe. They are most common when first start
 decrease over time in most patients. 
 - Low blood sugar (hypoglycaemia) is very common when tirzepatide is used with medicines that 
 contain a sulphonylurea and/or insulin. If you are using a sulphonylurea or insulin for type 2 
-diabetes, the dose may need to be lowered while you use tirzepatide (see section 2, ‘Warnings 
-and precautions’). Symptoms of low blood sugar may include headache, drowsiness, weakness, 
+diabetes, the dose may need to be lowered while you use tirzepatide (see section 2,  Warnings 
+and precautions ). Symptoms of low blood sugar may include headache, drowsiness, weakness, 
 dizziness, feeling hungry, confusion, irritability, fast heartbeat and sweating. Your doctor 
 should tell you how to treat low blood sugar. </p>
 <p>Common (may affect up to 1 in 10 people) 
@@ -227,13 +233,13 @@ metformin and a sodium-glucose co-transporter 2 inhibitor (another diabetes medi
 - Low blood pressure reported in patients treated for weight management 
 - Feeling less hungry (decreased appetite) reported in patients treated for type 2 diabetes 
 - Stomach (abdominal) pain 
-- Being sick (vomiting) – this usually goes away over time 
+- Being sick (vomiting)   this usually goes away over time 
 - Indigestion (dyspepsia) 
 - Constipation 
 - Bloating of the stomach 
 - Burping (eructation) 
 - Gas (flatulence) 
-- Reflux or heartburn (also called gastroesophageal reflux disease – GERD) - a disease caused by 
+- Reflux or heartburn (also called gastroesophageal reflux disease   GERD) - a disease caused by 
 stomach acid coming up into the tube from your stomach to your mouth 
 - Hair loss reported in patients treated for weight management 
 - Feeling tired (fatigue) 
@@ -261,9 +267,9 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the pen label and on the carton after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. If the pen has been frozen, DO NOT USE </p>
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. If the pen has been frozen, DO NOT USE </p>
 <p>Store in the original packaging in order to protect from light. </p>
-<p>Mounjaro can be stored unrefrigerated not above 30 ºC for up to 21 cumulative days and then the pen 
+<p>Mounjaro can be stored unrefrigerated not above 30  C for up to 21 cumulative days and then the pen 
 must be discarded. </p>
 <p>Do not use this medicine if you notice that the pen is damaged, or the medicine is cloudy, discoloured 
 or has particles in it. </p>
@@ -285,7 +291,7 @@ The active substance is tirzepatide.
 - Mounjaro 12.5 mg: Each pre-filled pen contains 12.5 mg of tirzepatide in 0.5 ml solution. 
 - Mounjaro 15 mg: Each pre-filled pen contains 15 mg of tirzepatide in 0.5 ml solution. </p>
 <p>The other ingredients are sodium phosphate dibasic heptahydrate, sodium chloride, sodium hydroxide 
-(see section 2 under ‘Mounjaro contains sodium’ for further information); concentrated hydrochloric 
+(see section 2 under  Mounjaro contains sodium  for further information); concentrated hydrochloric 
 acid and water for injections. </p>
 <p>What Mounjaro looks like and contents of the pack 
 Mounjaro is a clear, colourless to slightly yellow, solution for injection in a pre-filled pen. 
@@ -302,22 +308,21 @@ Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino, Firenze (F
 Lilly France, 2, rue du Colonel Lilly, 67640 Fegersheim, France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . - <br />
+ . + 359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
 Tlf: +45 45 26 60<br />
@@ -333,48 +338,48 @@ Eli Lilly Nederland B.V.
 Tel: +372 6 817<br />
 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
 Tel: + 34-91 663 50<br />
 Polska<br />
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
 Lilly France 
-Tél: +33-(0) 1 55 49 34  </p>
+T l: +33-(0) 1 55 49 34  </p>
 <p>Portugal 
-Lilly Portugal Produtos Farmacêuticos, Lda 
+Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
 Slovenija<br />
-Eli Lilly farmacevtska družba, d.o.o. 
-Tel: +386 (0)1 580 00 Ísland 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
-Τηλ: +357 22 715 
+ : +357 22 715 
 Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
 Tel: +371 67364 
 United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

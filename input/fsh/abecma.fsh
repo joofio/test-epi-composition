@@ -4,7 +4,7 @@ Instance: composition-en-7e98051b7b877024b322905712140ea8
 InstanceOf: CompositionUvEpi
 Title: "Composition for abecma Package Leaflet"
 Description:  "Composition for abecma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What abecma is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Abecma is 
-Abecma is a type of medicine called a ‘genetically modified cell therapy’. The active substance in the 
+Abecma is a type of medicine called a  genetically modified cell therapy . The active substance in the 
 medicine is idecabtagene vicleucel, which is made from your own white blood cells, called T cells. </p>
 <p>What Abecma is used for 
 Abecma is used to treat adults with multiple myeloma, which is a cancer of the bone marrow. 
@@ -116,8 +116,8 @@ Before you are given Abecma your doctor will:
 * Check for CMV infection, hepatitis B, hepatitis C or HIV infection. </p>
 <p>After you have been given Abecma 
 * There are serious side effects which you need to tell your doctor or nurse about straight away 
-and which may require you to get immediate medical attention. See section 4 under ‘Serious 
-side effects’. 
+and which may require you to get immediate medical attention. See section 4 under  Serious 
+side effects . 
 * Your doctor will regularly check your blood counts as the number of blood cells may decrease. 
 * Stay close to the treatment centre where you had Abecma for at least 4 weeks. See sections 3 
 and 4. * Do not donate blood, organs, tissues or cells for transplantation. </p>
@@ -168,7 +168,7 @@ minutes of the infusion period. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Giving blood to make Abecma from your white blood cells 
 * Your doctor will take some of your blood using a tube (catheter) in your vein. Some of your 
 white blood cells will be separated from your blood and the rest of your blood is returned to 
-your body. This is called ‘leukapheresis’ and can take 3 to 6 hours. This process may need to be 
+your body. This is called  leukapheresis  and can take 3 to 6 hours. This process may need to be 
 repeated. 
 * Your white blood cells will then be frozen and sent away to make Abecma. </p>
 <p>Other medicines you will be given before Abecma 
@@ -257,8 +257,8 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the cassette label and infusion bag 
-label after ‘EXP’. </p>
-<p>Stored and transport frozen in the vapour phase of liquid nitrogen (≤ -130°C). Do not thaw the product 
+label after  EXP . </p>
+<p>Stored and transport frozen in the vapour phase of liquid nitrogen (  -130 C). Do not thaw the product 
 until it is ready to be used. Do not refreeze. </p>
 <p>Do not use this medicine if the infusion bag is damaged or leaking. </p>
 <p>This medicine contains genetically modified human blood cells. Local guidelines on handling of waste 
@@ -274,11 +274,11 @@ of human-derived material should be followed for unused medicine or waste materi
 * The active substance is idecabtagene vicleucel. Each infusion bag of Abecma contains 
 idecabtagene vicleucel cell dispersion at a batch-dependent concentration of autologous T cells 
 genetically modified to express an anti-BCMA chimeric antigen receptor (CAR-positive viable 
-T cells). One or more infusion bags contain a total of 260 to 500 × 106 CAR-positive viable T 
+T cells). One or more infusion bags contain a total of 260 to 500   106 CAR-positive viable T 
 cells. 
 * The other ingredients (excipients) are Cryostor CS10, sodium chloride, sodium gluconate, 
 sodium acetate trihydrate, potassium chloride, magnesium chloride, water for injections. See 
-section 2, “Abecma contains sodium, potassium and DMSO”. </p>
+section 2,  Abecma contains sodium, potassium and DMSO . </p>
 <p>What Abecma looks like and contents of the pack 
 Abecma is a colourless cell dispersion for infusion, supplied in one or more infusion bags individually 
 packed in a metal cassette. Each bag contains 10 mL to 100 mL of cell dispersion. </p>
@@ -291,7 +291,7 @@ Celgene Distribution B.V.
 Orteliuslaan 13528 BD Utrecht 
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.  </p>

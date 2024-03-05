@@ -4,7 +4,7 @@ Instance: composition-en-1c483862a2de53c1f77db26617c2401e
 InstanceOf: CompositionUvEpi
 Title: "Composition for novorapid Package Leaflet"
 Description:  "Composition for novorapid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,8 +75,8 @@ are improved versions of human insulin. </p>
 and above with diabetes mellitus (diabetes). Diabetes is a disease where your body does not produce 
 enough insulin to control the level of your blood sugar. Treatment with NovoRapid helps to prevent 
 complications from your diabetes. </p>
-<p>NovoRapid will start to lower your blood sugar 10–20 minutes after you inject it, a maximum effect 
-occurs between 1 and 3 hours after the injection and the effect lasts for 3–5 hours. Due to this short 
+<p>NovoRapid will start to lower your blood sugar 10 20 minutes after you inject it, a maximum effect 
+occurs between 1 and 3 hours after the injection and the effect lasts for 3 5 hours. Due to this short 
 action NovoRapid should normally be taken in combination with intermediate-acting or long-acting 
 insulin preparations. Moreover NovoRapid can be used for continuous infusion in a pump system. </p>         </div>"""   
           
@@ -88,40 +88,27 @@ insulin preparations. Moreover NovoRapid can be used for continuous infusion in 
   * code.text = "2. What you need to know before you take novorapid"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use NovoRapid  </p>
-<p>► 
-If you are allergic to insulin aspart, or any of the other ingredients in this medicine (see section 
-6, Contents of the pack and other information). 
-► 
-If you suspect hypoglycaemia (low blood sugar) is starting (see a) Summary of serious and very 
-common side effects in section 4). 
-► 
-If the protective cap is loose or missing. Each vial has a protective, tamper-proof plastic cap. If 
-it is not in perfect condition when you get the vial, return the vial to your supplier. 
-► 
-If it has not been stored correctly or been frozen (see section 5, How to store NovoRapid). 
-► 
-If the insulin does not appear clear and colourless. </p>
+<p>If you are allergic to insulin aspart, or any of the other ingredients in this medicine (see section 
+6, Contents of the pack and other information). </p>
+<p>If you suspect hypoglycaemia (low blood sugar) is starting (see a) Summary of serious and very 
+common side effects in section 4). </p>
+<p>If the protective cap is loose or missing. Each vial has a protective, tamper-proof plastic cap. If 
+it is not in perfect condition when you get the vial, return the vial to your supplier. </p>
+<p>If it has not been stored correctly or been frozen (see section 5, How to store NovoRapid). </p>
+<p>If the insulin does not appear clear and colourless. </p>
 <p>If any of these applies, do not use NovoRapid. Talk with your doctor, nurse or pharmacist for advice. </p>
 <p>Before using NovoRapid </p>
-<p>► 
-Check the label to make sure it is the right type of insulin. 
-► 
-Remove the protective cap. 
-► 
-Always use a new needle for each injection to prevent contamination. 
-► 
-Needles and syringes must not be shared. </p>
+<p>Check the label to make sure it is the right type of insulin. </p>
+<p>Remove the protective cap. </p>
+<p>Always use a new needle for each injection to prevent contamination. </p>
+<p>Needles and syringes must not be shared. </p>
 <p>Warnings and precautions </p>
-<p>Some conditions and activities can affect your need for insulin. Consult your doctor: 
-► 
-If you have trouble with your kidneys or liver, or with your adrenal, pituitary or thyroid glands.<br />
-► 
-If you exercise more than usual or if you want to change your usual diet, as this may affect your 
-blood sugar level. 
-► 
-If you are ill, carry on taking your insulin and consult your doctor. 
-► 
-If you are going abroad, travelling over time zones may affect your insulin needs and the timing 
+<p>Some conditions and activities can affect your need for insulin. Consult your doctor: </p>
+<p>If you have trouble with your kidneys or liver, or with your adrenal, pituitary or thyroid glands.  </p>
+<p>If you exercise more than usual or if you want to change your usual diet, as this may affect your 
+blood sugar level. </p>
+<p>If you are ill, carry on taking your insulin and consult your doctor. </p>
+<p>If you are going abroad, travelling over time zones may affect your insulin needs and the timing 
 of your injections. </p>
 <p>Skin changes at the injection site </p>
 <p>The injection site should be rotated to help prevent changes to the fatty tissue under the skin, such as 
@@ -151,12 +138,12 @@ blood pressure)
 <p>Your blood sugar level may rise (hyperglycaemia) if you take: 
 * Oral contraceptives (birth control pills) 
 * Thiazides (used to treat high blood pressure or excessive fluid retention) 
-* Glucocorticoids (such as ‘cortisone’ used to treat inflammation) 
+* Glucocorticoids (such as  cortisone  used to treat inflammation) 
 * Thyroid hormones (used to treat thyroid gland disorders) 
 * Sympathomimetics (such as epinephrine [adrenaline], or salbutamol, terbutaline used to treat 
 asthma) 
 * Growth hormone (medicine for stimulation of skeletal and somatic growth and pronounced 
-influence on the body’s metabolic processes) 
+influence on the body s metabolic processes) 
 * Danazol (medicine acting on ovulation). </p>
 <p>Octreotide and lanreotide (used for treatment of acromegaly, a rare hormonal disorder that usually 
 occurs in middle-aged adults, caused by the pituitary gland producing excess growth hormone) may 
@@ -170,22 +157,18 @@ as soon as possible if you experience signs of heart failure such as unusual sho
 increase in weight or localised swelling (oedema). </p>
 <p>If you have taken any of the medicines listed here, tell your doctor, nurse or pharmacist. </p>
 <p>Drinking alcohol and taking NovoRapid </p>
-<p>► 
-If you drink alcohol, your need for insulin may change as your blood sugar level may either rise 
+<p>If you drink alcohol, your need for insulin may change as your blood sugar level may either rise 
 or fall. Careful monitoring is recommended. </p>
 <p>Pregnancy and breast-feeding </p>
-<p>► 
-If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor 
+<p>If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor 
 for advice before taking this medicine. NovoRapid can be used during pregnancy. Your insulin 
 dose may need to be changed during pregnancy and after delivery. Careful control of your 
-diabetes, particularly prevention of hypoglycaemia, is important for the health of your baby. 
-► 
-There are no restrictions on treatment with NovoRapid during breast-feeding. </p>
+diabetes, particularly prevention of hypoglycaemia, is important for the health of your baby. </p>
+<p>There are no restrictions on treatment with NovoRapid during breast-feeding. </p>
 <p>Ask your doctor, nurse or pharmacist for advice before taking this medicine while pregnant or breast-
 feeding. </p>
 <p>Driving and using machines </p>
-<p>► 
-Please ask your doctor whether you can drive a car or operate a machine: 
+<p>Please ask your doctor whether you can drive a car or operate a machine: 
 * If you have frequent hypoglycaemia.<br />
 * If you find it hard to recognise hypoglycaemia. </p>
 <p>If your blood sugar is low or high, your concentration and ability to react might be affected and 
@@ -195,7 +178,7 @@ yourself or others. </p>
 after an injection when compared to soluble human insulin. </p>
 <p>Important information about some of the ingredients of NovoRapid </p>
 <p>NovoRapid contains less than 1 mmol sodium (23 mg) per dose, i.e. NovoRapid is essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novorapid"
@@ -232,7 +215,48 @@ always measure your blood sugar regularly. </p>
 NovoRapid and the mixture must be injected immediately under your skin (subcutaneously). 
 NovoRapid should be drawn into the syringe before you draw your NPH insulin. </p>
 <p>How to take NovoRapid </p>
-<p>If you use only one type of insulin </p>         </div>"""         
+<p>If you use only one type of insulin 
+1. Draw into the syringe the same amount of air as the dose of insulin you are going to inject. 
+Inject the air into the vial. 
+2. Turn the vial and syringe upside down and draw the correct insulin dose into the syringe. Pull 
+the needle out of the vial. Then expel the air from the syringe and check that the dose is correct. </p>
+<p>If you have to mix two types of insulin 
+1. Just before use, roll the NPH insulin between your hands until the liquid is uniformly white and 
+cloudy. 
+2. Draw into the syringe the same amount of air as the dose of the NPH insulin. Inject the air into 
+the vial containing the NPH insulin and pull out the needle. 
+3. Draw into the syringe the same amount of air as the dose of NovoRapid. Inject the air into the 
+vial containing NovoRapid. Turn the vial and syringe upside down and draw up the prescribed 
+dose of NovoRapid. Expel any air from the syringe and check that the dose is correct. 
+4. Push the needle into the vial of the NPH insulin, turn the vial and syringe upside down and draw 
+out the dose you have been prescribed. Expel any air from the syringe and check the dose. Inject 
+the mixture immediately. 
+5. Always mix NovoRapid and the NPH insulin in the same sequence. </p>
+<p>How to inject NovoRapid </p>
+<p>Inject the insulin under the skin. Use the injection technique advised by your doctor or nurse. </p>
+<p>Keep the needle under your skin for at least 6 seconds to make sure you have injected all the 
+insulin. </p>
+<p>Discard the needle after each injection. </p>
+<p>For use in an infusion pump system </p>
+<p>NovoRapid should never be mixed with any other insulin when used in a pump.<br />
+Follow the instructions and recommendations from your doctor regarding the use of NovoRapid in a 
+pump. Before use of NovoRapid in the pump system, you must have received a comprehensive 
+instruction in the use and information about any actions to be taken in case of illness, too high or too 
+low blood sugar or failure of the pump system.<br />
+* Before inserting the needle, use soap and water to clean your hands and the skin where the 
+needle is inserted to avoid any infection at the infusion site. 
+* When you fill a new reservoir, be certain not to leave large air bubbles in either the syringe or 
+the tubing. 
+* Changing of the infusion set (tubing and needle) must be done according to the instructions in 
+the product information supplied with the infusion set. </p>
+<p>To get the benefit of insulin infusion, and to detect possible malfunction of the insulin pump, it is 
+recommended that you measure your blood sugar level regularly. </p>
+<p>What to do in case of pump system failure </p>
+<p>You should always have an alternative delivery method for your insulin available for injection under 
+the skin in case of pump system failure. </p>
+<p>If you take more insulin than you should </p>
+<p>If you take too much insulin your blood sugar gets too low (hypoglycaemia). See a) Summary of 
+serious and very common side effects in section </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -240,15 +264,19 @@ NovoRapid should be drawn into the syringe before you draw your NPH insulin. </p
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inject the air into the vial. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take your insulin </p>
+<p>If you forget to take your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
+from diabetes in section </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novorapid"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store novorapid"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>the needle out of the vial. Then expel the air from the syringe and check that the dose is correct. </p>
-<p>If you have to mix two types of insulin </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you stop taking your insulin </p>
+<p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
+done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
+Effects from diabetes in section </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -256,5 +284,5 @@ NovoRapid should be drawn into the syringe before you draw your NPH insulin. </p
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>cloudy. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""      
 

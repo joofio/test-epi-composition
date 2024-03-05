@@ -4,7 +4,7 @@ Instance: composition-en-1cafc851e1f0aed5863b6a73ba46d0f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for nubeqa Package Leaflet"
 Description:  "Composition for nubeqa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,11 +70,13 @@ Usage: #example
   * code.text =  "1. What nubeqa is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NUBEQA contains the active substance darolutamide.<br />
-It is used to treat adult men with prostate cancer that: 
-- has not spread to other parts of the body and no longer responds to medical or surgical treatment 
-that lowers testosterone (also called non-metastatic castration-resistant prostate cancer) 
-- has spread to other parts of the body and responds to medical or surgical treatment that lowers 
-testosterone (also called metastatic hormone-sensitive prostate cancer). </p>
+It is used to treat adult men with prostate cancer that:</p>
+<ul>
+<li>has not spread to other parts of the body and no longer responds to medical or surgical treatment 
+that lowers testosterone (also called non-metastatic castration-resistant prostate cancer) </li>
+<li>has spread to other parts of the body and responds to medical or surgical treatment that lowers 
+testosterone (also called metastatic hormone-sensitive prostate cancer). </li>
+</ul>
 <p>How NUBEQA works 
 NUBEQA blocks the activity of male sex hormones called androgens, such as testosterone. By blocking 
 these hormones, darolutamide stops prostate cancer cells from growing and dividing. </p>         </div>"""   
@@ -106,21 +108,25 @@ in this age group. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>The following medicines may influence the effect of NUBEQA, or NUBEQA may influence the effect 
-of these medicines to treat: 
-- bacterial infections, such as rifampicin 
-- epilepsy, such as carbamazepine, phenobarbital, phenytoin 
-- symptoms of slightly low mood and mild anxiety: St. John's wort (a herbal medicine) 
-- high cholesterol, such as rosuvastatin, fluvastatin, atorvastatin, pitavastatin 
-- severe joint inflammation, severe cases of the skin disease psoriasis, and cancers: methotrexate 
-- inflammatory bowel diseases: sulfasalazine </p>
+of these medicines to treat:</p>
+<ul>
+<li>bacterial infections, such as rifampicin </li>
+<li>epilepsy, such as carbamazepine, phenobarbital, phenytoin </li>
+<li>symptoms of slightly low mood and mild anxiety: St. John's wort (a herbal medicine) </li>
+<li>high cholesterol, such as rosuvastatin, fluvastatin, atorvastatin, pitavastatin </li>
+<li>severe joint inflammation, severe cases of the skin disease psoriasis, and cancers: methotrexate </li>
+<li>inflammatory bowel diseases: sulfasalazine </li>
+</ul>
 <p>Your doctor may therefore change the dose of the medicines that you are taking. </p>
 <p>Pregnancy, breast-feeding and fertility 
 NUBEQA is not for use in women. 
 This medicine could possibly have an effect on male fertility. 
-Follow these advices during and for 1 week after stopping: 
-- use a highly effective method of contraception to prevent pregnancy, if you are having sex with 
-a woman who can become pregnant. 
-- use a condom to protect the unborn baby, if you are having sex with a pregnant woman. </p>
+Follow these advices during and for 1 week after stopping:</p>
+<ul>
+<li>use a highly effective method of contraception to prevent pregnancy, if you are having sex with 
+a woman who can become pregnant. </li>
+<li>use a condom to protect the unborn baby, if you are having sex with a pregnant woman. </li>
+</ul>
 <p>Driving and using machines 
 This medicine is unlikely to affect your ability to drive and use machines. </p>
 <p>NUBEQA contains lactose 
@@ -159,28 +165,36 @@ Do not stop taking this medicine unless your doctor tells you to. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Side effects of NUBEQA occur with the following frequencies: </p>
 <p>In patients with non-metastatic castration-resistant prostate cancer 
-Very common side effects (may affect more than 1 in 10 people): 
-- tiredness 
-- blood tests showing reduced number of a white blood cell type called neutrophils 
-- blood tests showing increased levels of substances produced by the liver: bilirubin, aspartate 
-transaminase </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- blockage of the arteries in the heart 
-- heart failure 
-- rash 
-- pain in arms and legs 
-- pain in muscles and bones 
-- broken bones </p>
+Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>tiredness </li>
+<li>blood tests showing reduced number of a white blood cell type called neutrophils </li>
+<li>blood tests showing increased levels of substances produced by the liver: bilirubin, aspartate 
+transaminase </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>blockage of the arteries in the heart </li>
+<li>heart failure </li>
+<li>rash </li>
+<li>pain in arms and legs </li>
+<li>pain in muscles and bones </li>
+<li>broken bones </li>
+</ul>
 <p>In patients with metastatic hormone-sensitive prostate cancer 
-Very common side effects (may affect more than 1 in 10 people): 
-- high blood pressure 
-- rash 
-- blood tests showing reduced number of a white blood cell type called neutrophils 
-- blood tests showing increased levels of substances produced by the liver: bilirubin, alanine 
-transaminase and aspartate transaminase </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- broken bones 
-- breast enlargement in men </p>
+Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>high blood pressure </li>
+<li>rash </li>
+<li>blood tests showing reduced number of a white blood cell type called neutrophils </li>
+<li>blood tests showing increased levels of substances produced by the liver: bilirubin, alanine 
+transaminase and aspartate transaminase </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>broken bones </li>
+<li>breast enlargement in men </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -207,22 +221,26 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NUBEQA contains 
 The active substance is darolutamide. Each film-coated tablet contains 300 mg of darolutamide. 
-The other ingredients are: 
-- calcium hydrogen phosphate (E 341) 
-- croscarmellose sodium 
-- hypromellose 
-- lactose monohydrate 
-- macrogol (E 1521) 
-- magnesium stearate (E 470b) 
-- povidone (E 1201) 
-- titanium dioxide (E 171) </p>
-<p>See “NUBEQA contains lactose” in section 2 for more information. </p>
+The other ingredients are:</p>
+<ul>
+<li>calcium hydrogen phosphate (E 341) </li>
+<li>croscarmellose sodium </li>
+<li>hypromellose </li>
+<li>lactose monohydrate </li>
+<li>macrogol (E 1521) </li>
+<li>magnesium stearate (E 470b) </li>
+<li>povidone (E 1201) </li>
+<li>titanium dioxide (E 171) </li>
+</ul>
+<p>See  NUBEQA contains lactose  in section 2 for more information. </p>
 <p>What NUBEQA looks like and contents of the pack 
 The film-coated tablets (tablets) are white to off-white, oval with a length of 16 mm and a width of 
-8 mm. They are marked with “300” on one side, and “BAYER” on the other side. </p>
-<p>Each carton contains: 
-- 96 film-coated tablets consisting of 6 blisters or 
-- 112 film-coated tablets consisting of 7 blisters </p>
+8 mm. They are marked with  300  on one side, and  BAYER  on the other side. </p>
+<p>Each carton contains:</p>
+<ul>
+<li>96 film-coated tablets consisting of 6 blisters or </li>
+<li>112 film-coated tablets consisting of 7 blisters </li>
+</ul>
 <p>Each blister contains 16 film-coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -235,18 +253,17 @@ Orion Corporation, Orion Pharma
 Finland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-5356Lietuva 
+T l/Tel: +32-(0)2-5356Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36 България 
-Байер България ЕООД 
-Tел.: +359 (0)2 424 72 Luxembourg/Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>T .: +359 (0)2 424 72 Luxembourg/Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420 266 101 Magyarország 
-Bayer Hungária KFT 
+Tel: +420 266 101 Magyarorsz g 
+Bayer Hung ria KFT 
 Tel:+36 14 87-41 Danmark 
 Bayer A/S 
 Tlf: +45 45 23 50 Malta 
@@ -256,41 +273,41 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
 Tel: +31-23-799 1Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8Norge 
 Bayer AS 
-Tlf: +47 24 11 18 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30 210-618 75 Österreich 
+Tlf: +47 24 11 18 <br />
+Bayer   <br />
+ : +30 210-618 75  sterreich 
 Bayer Austria Ges.m.b.H. 
 Tel: +43-(0)1-711 46-0 
-España 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65 Polska 
 Bayer Sp. z.o.o. 
 Tel: +48 22 572 35 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54 Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: +385-(0)1-6599 România 
+Tel: +385-(0)1-6599 Rom nia 
 SC Bayer s.r.l. 
 Tel: +40 21 529 59 Ireland 
 Bayer Limited 
 Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386 1 58 14 Ísland 
+Tel: +386 1 58 14  sland 
 Icepharma hf. 
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Bayer spol. s r.o. 
 Tel. +421 2 59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39 02 397 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358 20 785 Κύπρος 
+Puh/Tel: +358 20 785 <br />
 NOVAGEM Limited 
-Tηλ: +357 22 48 38 Sverige 
+T : +357 22 48 38 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 

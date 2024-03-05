@@ -4,7 +4,7 @@ Instance: composition-en-5245a6b0f8b8592e9406a25ffe7ba2b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for elmiron Package Leaflet"
 Description:  "Composition for elmiron Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -111,7 +111,7 @@ elmiron is not recommended during pregnancy or breast-feeding. </p>
 elmiron has no or negligible influence on the ability to drive and use machines. </p>
 <p>elmiron contains sodium. 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elmiron"
@@ -194,7 +194,7 @@ After first opening: use within 45 days. Dispose any remaining capsules after th
 Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </li>
 </ul>
-<p>Do not store above 30 °C. </p>
+<p>Do not store above 30  C. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -233,55 +233,55 @@ tel: +49 (0)89 749fax: +49 (0)89 74987e-mail: contact@bene-arzneimittel.de </p>
 Authorisation Holder: </p>
 <p>BG, CZ, EE, EL, IS, IT, CY, LV, MT, PT, RO, SK 
 bene-Arzneimittel GmbH, D-81479 Munich, 
-Германия / Německo / Saksamaa / Γερμανία / Germany / Þýskaland / Germania / Vācija / Il-
-Ġermanja / Alemanha / Nemecko, 
-Tel / Teл. / Τηλ / Sími / Tel.: +49 (0)89 749870, contact@bene-arzneimittel.de </p>
+  / N mecko / Saksamaa /   / Germany /  skaland / Germania / V cija / Il-
+ ermanja / Alemanha / Nemecko, 
+Tel / Te . /   / S mi / Tel.: +49 (0)89 749870, contact@bene-arzneimittel.de </p>
 <p>AT 
-SIGMAPHARM Arzneimittel GmbH, Leystraße 129, A-1200 Wien, 
-Österreich, 
+SIGMAPHARM Arzneimittel GmbH, Leystra e 129, A-1200 Wien, 
+ sterreich, 
 Tel.: +43 (0) 1 330 06 71-0, mail@sigmapharm.at </p>
 <p>BE, LU, NL 
-Pharmanovia Benelux B.V., Burgemeester Guljélaan 2, NL-4837 CZ Breda, 
+Pharmanovia Benelux B.V., Burgemeester Gulj laan 2, NL-4837 CZ Breda, 
 Pays-Bas, Nederland, Niederlande, 
-Tél/Tel: +31 (0)76 5600030, info.benelux@pharmanovia.com </p>
+T l/Tel: +31 (0)76 5600030, info.benelux@pharmanovia.com </p>
 <p>DE<br />
 Dr. Pfleger Arzneimittel GmbH, D-96045 Bamberg,<br />
 Deutschland,<br />
 Tel.: +49 (0)951 6043-0, info@dr-pfleger.de </p>
 <p>DK, NO 
-Navamedic AB, Göteborgsvägen 74, S-433 63 Sävedalen, 
+Navamedic AB, G teborgsv gen 74, S-433 63 S vedalen, 
 Sverige, 
 Tlf: +46 (0)31 3351190, infose@navamedic.com </p>
 <p>ES 
 Lacer S.A., Sardenya 350, 08025 Barcelona, 
-España, 
+Espa a, 
 Tel: +34 (0)934465300, infog@lacer.es </p>
 <p>FI, SE 
-Navamedic AB, Göteborgsvägen 74, S-433 63 Sävedalen, 
+Navamedic AB, G teborgsv gen 74, S-433 63 S vedalen, 
 Ruotsi/Sverige, 
 Puh/Tel: +46 (0)31 3351190, infose@navamedic.com </p>
 <p>FR 
 Inresa SAS, 1 rue Jean Monnet, F-68870 Bartenheim, 
 France, 
-Tél: +33 (0)389 707660, info@inresa.fr </p>
+T l: +33 (0)389 707660, info@inresa.fr </p>
 <p>HR<br />
 MEDICOPHARMACIA d.o.o., Pere Budmanija 5, 10000 Zagreb, 
 Hrvatska, 
 Tel: + 385 1 55 84<br />
 HU 
-Kéri Pharma Hungary Kft., 4032 Debrecen, Bartha B. u. 7,<br />
-Magyarország, 
+K ri Pharma Hungary Kft., 4032 Debrecen, Bartha B. u. 7,<br />
+Magyarorsz g, 
 Tel.: +36 52 431<br />
 IE 
 Consilient Health, Block 2A Richview Office Park, Clonskeagh, Dublin 14, D14 Y0A5 
 Ireland, 
 Tel: +353 (0) 1 2057760, irishoffice@consilienthealth.com </p>
 <p>LT 
-UAB Norameda, Meistrų g. 8A, LT-02189 Vilnius, 
+UAB Norameda, Meistr  g. 8A, LT-02189 Vilnius, 
 Lietuva, 
 Tel. +370 5 2306 
 PL 
-Norameda Polska Sp. z o.o., Kilińskiego 20, PL-05-500 Piaseczno, 
+Norameda Polska Sp. z o.o., Kili skiego 20, PL-05-500 Piaseczno, 
 Polska, 
 Tel.: +48 (0) 504 278 778, kontakt.pl@norameda.com </p>
 <p>SI 

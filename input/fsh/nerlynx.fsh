@@ -4,7 +4,7 @@ Instance: composition-en-4106f4a5a4b46a8c1fb9847b0f08bced
 InstanceOf: CompositionUvEpi
 Title: "Composition for nerlynx Package Leaflet"
 Description:  "Composition for nerlynx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,17 +70,19 @@ Usage: #example
   * code.text =  "1. What nerlynx is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Nerlynx is 
-Nerlynx contains the active substance ‘neratinib’. It belongs to a group of medicines called ‘tyrosine 
-kinase inhibitors’ used to block cancer cells and treat breast cancer.  </p>
+Nerlynx contains the active substance  neratinib . It belongs to a group of medicines called  tyrosine 
+kinase inhibitors  used to block cancer cells and treat breast cancer.  </p>
 <p>What Nerlynx is used for 
-Nerlynx is used for patients who have early stage breast cancer which: 
-- is hormone receptor positive (HR-positive) and human epidermal growth factor receptor 2-
-positive (HER2-positive), and 
-- has previously been treated with another medicine called ‘trastuzumab’. </p>
-<p>The ‘HER2 receptor’ is a protein found on the surface of cells in the body. It helps control how a 
+Nerlynx is used for patients who have early stage breast cancer which:</p>
+<ul>
+<li>is hormone receptor positive (HR-positive) and human epidermal growth factor receptor 2-
+positive (HER2-positive), and </li>
+<li>has previously been treated with another medicine called  trastuzumab . </li>
+</ul>
+<p>The  HER2 receptor  is a protein found on the surface of cells in the body. It helps control how a 
 healthy breast cell grows. In HER2-positive breast cancer, the cancer cells have a large amount of 
 HER2 receptors on their surface. This results in the cancer cells dividing and growing faster. 
-‘Hormone receptors’ are also proteins expressed inside the cells of some specific tissues. Estrogens 
+ Hormone receptors  are also proteins expressed inside the cells of some specific tissues. Estrogens 
 and progesterone bind to these proteins and regulate cell activity. In HR-positive breast cancer, tumor 
 cell division and growth can be enhanced by estrogens and/or progesterone. </p>
 <p>Before Nerlynx is used, your cancer must have been tested to show it is HR-positive and HER2-
@@ -102,7 +104,7 @@ section 6),
 - if you have a severe liver problem, 
 - if you are taking rifampicin (a medicine for tuberculosis (TB)), 
 - if you are taking carbamazepine or phenytoin (medicines for seizures), 
-- if you are taking St. John’s wort (herbal product for depression). </p>
+- if you are taking St. John s wort (herbal product for depression). </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Nerlynx. </p>
 <p>You need to take an anti-diarrhoea medicine when you start Nerlynx 
@@ -110,7 +112,7 @@ Nerlynx can cause diarrhoea early during treatment. You should take an anti-diar
 that your diarrhoea does not become severe, and to prevent you from getting dehydrated during 
 treatment with Nerlynx.  </p>
 <p>Tests and checks for liver problems 
-Nerlynx can cause changes in liver function – these are shown in blood tests. Your doctor will do 
+Nerlynx can cause changes in liver function   these are shown in blood tests. Your doctor will do 
 blood tests before and during your treatment with Nerlynx. Your doctor will stop your treatment with 
 Nerlynx if your liver tests show severe problems. </p>
 <p>Children and adolescents 
@@ -120,31 +122,37 @@ been studied in this age group. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This is because Nerlynx can affect the way some other medicines work. Also some other 
 medicines can affect the way Nerlynx works. </p>
-<p>In particular tell your doctor or pharmacist if you are taking any of the following medicines: 
-- rifampicin - a medicine for tuberculosis 
-- carbamazepine, phenobarbital, or phenytoin - medicines for seizures 
-- St John’s wort - an herbal product for depression 
-- ketoconazole, voriconazole,  itraconazole or fluconazole - medicines for fungal infections 
-- erythromycin or clarithromycin - medicines for bacterial infections 
-- protease inhibitors - antiviral medicines 
-- nefazodone – a medicine to treat depression 
-- diltiazem or verapamil - medicines for high blood pressure and chest pain 
-- dabigatran or digoxin - a medicine for heart problems 
-- rosuvastatin – a medicine to treat high cholesterolemia 
-- irinotecan – a medicine used in colorectal cancers 
-- sulfasalazine – an anti-inflammatory intestinal medicine 
-- medicines for stomach problems such as: 
-- lansoprazole, omeprazole or similar medicines called ‘proton pump inhibitors’ or PPIs 
-are not recommended. 
-- ranitidine, cimetidine or similar medicines called “H2 receptor antagonists”. Neratinib 
+<p>In particular tell your doctor or pharmacist if you are taking any of the following medicines:</p>
+<ul>
+<li>rifampicin - a medicine for tuberculosis </li>
+<li>carbamazepine, phenobarbital, or phenytoin - medicines for seizures </li>
+<li>St John s wort - an herbal product for depression </li>
+<li>ketoconazole, voriconazole,  itraconazole or fluconazole - medicines for fungal infections </li>
+<li>erythromycin or clarithromycin - medicines for bacterial infections </li>
+<li>protease inhibitors - antiviral medicines </li>
+<li>nefazodone   a medicine to treat depression </li>
+<li>diltiazem or verapamil - medicines for high blood pressure and chest pain </li>
+<li>dabigatran or digoxin - a medicine for heart problems </li>
+<li>rosuvastatin   a medicine to treat high cholesterolemia </li>
+<li>irinotecan   a medicine used in colorectal cancers </li>
+<li>sulfasalazine   an anti-inflammatory intestinal medicine </li>
+<li>
+<p>medicines for stomach problems such as:</p>
+</li>
+<li>
+<p>lansoprazole, omeprazole or similar medicines called  proton pump inhibitors  or PPIs 
+are not recommended. </p>
+</li>
+<li>ranitidine, cimetidine or similar medicines called  H2 receptor antagonists . Neratinib 
 should be taken 10 hours after the H2-receptor antagonist dosing and at least 2 hours 
-before the next dose of the H2-receptor antagonist 
-- antacid medicines - the dose of these medicines and Nerlynx should be separated by at 
-least 3 hours. </p>
+before the next dose of the H2-receptor antagonist </li>
+<li>antacid medicines - the dose of these medicines and Nerlynx should be separated by at 
+least 3 hours. </li>
+</ul>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor or pharmacist before taking 
 Nerlynx. </p>
 <p>Nerlynx with food and drink 
-Do not take grapefruit or pomegranate while you are taking Nerlynx – this includes eating them, 
+Do not take grapefruit or pomegranate while you are taking Nerlynx   this includes eating them, 
 drinking the juice or taking a supplement that might contain them. This is because these fruits may 
 interact with Nerlynx and affect how the medicine works. </p>
 <p>Pregnancy 
@@ -153,12 +161,16 @@ giving this medicine to you. If you become pregnant while taking this medicine, 
 the potential benefit to you and the risk to the foetus, of continuing treatment with this medicine.   </p>
 <p>Contraception 
 Women who can become pregnant must use an effective method of contraception, including a barrier 
-method: 
-- while taking Nerlynx and 
-- for one month after treatment has finished. </p>
-<p>Men must use an effective barrier method of contraception such as a condom: 
-- while taking Nerlynx and 
-- for three months after treatment has finished. </p>
+method:</p>
+<ul>
+<li>while taking Nerlynx and </li>
+<li>for one month after treatment has finished. </li>
+</ul>
+<p>Men must use an effective barrier method of contraception such as a condom:</p>
+<ul>
+<li>while taking Nerlynx and </li>
+<li>for three months after treatment has finished. </li>
+</ul>
 <p>Breast-feeding 
 Talk to your doctor before taking Nerlynx if you are breast-feeding or plan to breast-feed because 
 small amounts of this medicine may pass into your breast milk. Your doctor will discuss with you the 
@@ -214,9 +226,11 @@ following side effects may happen with this medicine: </p>
 Nerlynx can cause diarrhoea early during treatment unless anti-diarrhoeal medicines are taken to 
 prevent or reduce diarrhoea. The diarrhoea may be severe, and you may get dehydrated. See section 3 
 for more information about the anti-diarrhoea medicine you need to take at the same time as Nerlynx. </p>
-<p>Talk to your doctor if: 
-- you are having diarrhoea that does not go away - they can advise how to control your diarrhoea. 
-- you feel dizzy or weak from diarrhoea - alternatively go to the hospital immediately. </p>
+<p>Talk to your doctor if:</p>
+<ul>
+<li>you are having diarrhoea that does not go away - they can advise how to control your diarrhoea. </li>
+<li>you feel dizzy or weak from diarrhoea - alternatively go to the hospital immediately. </li>
+</ul>
 <p>Liver problems 
 Nerlynx can cause changes in liver function - these are shown in blood tests. You may or may not 
 have signs or symptoms of liver problems (e.g., yellow skin and/or eyes, dark urine, or light-colour 
@@ -224,29 +238,35 @@ stools). Your doctor will do blood tests before and during your treatment with N
 will stop your treatment with Nerlynx if your liver tests show severe problems. </p>
 <p>Other side effects 
 Tell your doctor or pharmacist if you notice any of the following side effects: </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- diarrhoea 
-- stomach pain, feeling or being sick, low appetite 
-- dry or inflamed mouth, including blisters or mouth ulcers 
-- rash 
-- muscle spasms or cramps 
-- feeling very tired </p>
-<p>Common (may affect up to 1 in 10 people): 
-- burning sensation during urination and frequent, and urgent need to urinate, (may be symptoms 
-of urinary tract infection)<br />
-- dehydration 
-- fainting 
-- nosebleed 
-- mild stomach upset 
-- dry mouth 
-- changes in liver blood test results 
-- nail problems including nail splitting or colour change 
-- dry skin including cracked skin 
-- changes in kidney function test 
-- weight loss </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- kidney failure 
-- changes in liver blood test results (i.e., blood bilirubin increased) </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>diarrhoea </li>
+<li>stomach pain, feeling or being sick, low appetite </li>
+<li>dry or inflamed mouth, including blisters or mouth ulcers </li>
+<li>rash </li>
+<li>muscle spasms or cramps </li>
+<li>feeling very tired </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>burning sensation during urination and frequent, and urgent need to urinate, (may be symptoms 
+of urinary tract infection)  </li>
+<li>dehydration </li>
+<li>fainting </li>
+<li>nosebleed </li>
+<li>mild stomach upset </li>
+<li>dry mouth </li>
+<li>changes in liver blood test results </li>
+<li>nail problems including nail splitting or colour change </li>
+<li>dry skin including cracked skin </li>
+<li>changes in kidney function test </li>
+<li>weight loss </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>kidney failure </li>
+<li>changes in liver blood test results (i.e., blood bilirubin increased) </li>
+</ul>
 <p>Tell your doctor or pharmacist if you notice any of the side effects above. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -278,13 +298,15 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Nerlynx contains 
 - The active substance is neratinib. Each film-coated tablet contains neratinib maleate, equivalent to 
 40 mg neratinib. 
-- The other ingredients are: 
-- Tablet core: mannitol (E421), microcrystalline cellulose, crospovidone, povidone, 
-colloidal anhydrous silica, magnesium stearate<br />
-- Tablet coating: polyvinyl alcohol, titanium dioxide (E171), macrogol, talc, iron oxide red 
-(E172) </p>
+- The other ingredients are:</p>
+<ul>
+<li>Tablet core: mannitol (E421), microcrystalline cellulose, crospovidone, povidone, 
+colloidal anhydrous silica, magnesium stearate  </li>
+<li>Tablet coating: polyvinyl alcohol, titanium dioxide (E171), macrogol, talc, iron oxide red 
+(E172) </li>
+</ul>
 <p>What Nerlynx looks like and contents of the pack 
-The film-coated tablets are red oval shaped and debossed with ‘W104’ on one side and plain on the 
+The film-coated tablets are red oval shaped and debossed with  W104  on one side and plain on the 
 other side. </p>
 <p>Nerlynx film-coated tablets are packaged in a white, high-density polyethylene (HDPE) round bottle 
 with child-resistant, polypropylene closure, and foil induction inner seal for a tamper-evident seal. 
@@ -297,7 +319,7 @@ Les Cauquillous
 81500 Lavaur 
 France </p>
 <p>Manufacturer 
-Pierre Fabre Médicament Production – Cahors 
+Pierre Fabre M dicament Production   Cahors 
 Site de Cahors 
 Le Payrat 
 46000 Cahors 

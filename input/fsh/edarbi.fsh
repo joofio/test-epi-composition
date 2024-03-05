@@ -4,7 +4,7 @@ Instance: composition-en-677da093025fb13fce454a07c6f80e9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for edarbi Package Leaflet"
 Description:  "Composition for edarbi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -103,16 +103,14 @@ Talk to your doctor before taking Edarbi, especially if you
 - are vomiting, have recently had severe vomiting, or have diarrhoea. 
 - have raised levels of potassium in your blood (as shown in blood tests). 
 - have a disease of the adrenal gland called primary hyperaldosteronism. 
-- have been told that you have a narrowing of the valves in your heart (called “aortic or mitral 
-valve stenosis”) or that the thickness of your heart muscle is abnormally increased (called 
-“obstructive hypertrophic cardiomyopathy”). 
-- are taking any of the following medicines used to treat high blood pressure: 
-o an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
-diabetes-related kidney problems. 
-o aliskiren. </p>
+- have been told that you have a narrowing of the valves in your heart (called  aortic or mitral 
+valve stenosis ) or that the thickness of your heart muscle is abnormally increased (called 
+ obstructive hypertrophic cardiomyopathy ). 
+- are taking any of the following medicines used to treat high blood pressure: * an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
+diabetes-related kidney problems. * aliskiren. </p>
 <p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. 
 potassium) in your blood at regular intervals. </p>
-<p>See also information under the heading “Do not take Edarbi”. 
+<p>See also information under the heading  Do not take Edarbi . 
 You must tell your doctor if you think you are (or might become) pregnant. Edarbi is not 
 recommended in early pregnancy, and must NOT be taken if you are more than 3 months pregnant, as 
 it may cause serious harm to your baby if used at that stage (see section "Pregnancy section and breast-
@@ -125,23 +123,25 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. </p>
 <p>Edarbi can affect the way some other medicines work and some medicines can have an effect on 
 Edarbi. </p>
-<p>In particular, tell your doctor if you are taking any of the following medicines: 
-- Lithium (a medicine for mental health problems) 
-- Non-steroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen, diclofenac or celecoxib 
-(medicines to relieve pain and inflammation) 
-- Acetylsalicyclic acid if taking more than 3 g per day (medicine to relieve pain and 
-inflammation) 
-- Medicines that increase the amount of potassium in your blood; these include potassium 
-supplements, potassium-sparing medicines (certain ‘water tablets’) or salt substitutes containing 
-potassium 
-- Heparin (a medicine for thinning the blood) 
-- Diuretics (water tablets) 
-- Aliskiren or other medicines to lower your blood pressure (angiotensin converting enzyme 
+<p>In particular, tell your doctor if you are taking any of the following medicines:</p>
+<ul>
+<li>Lithium (a medicine for mental health problems) </li>
+<li>Non-steroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen, diclofenac or celecoxib 
+(medicines to relieve pain and inflammation) </li>
+<li>Acetylsalicyclic acid if taking more than 3 g per day (medicine to relieve pain and 
+inflammation) </li>
+<li>Medicines that increase the amount of potassium in your blood; these include potassium 
+supplements, potassium-sparing medicines (certain  water tablets ) or salt substitutes containing 
+potassium </li>
+<li>Heparin (a medicine for thinning the blood) </li>
+<li>Diuretics (water tablets) </li>
+<li>Aliskiren or other medicines to lower your blood pressure (angiotensin converting enzyme 
 inhibitor or angiotensin II receptor blocker, such as enalapril, lisinopril, ramipril or valsartan, 
-telmisartan, irbesartan). </p>
+telmisartan, irbesartan). </li>
+</ul>
 <p>Your doctor may need to change your dose and/or to take other precautions if you are taking an 
-ACE-inhibitor or aliskiren (see also information under the headings “Do not take Edarbi” and 
-“Warnings and precautions”). </p>
+ACE-inhibitor or aliskiren (see also information under the headings  Do not take Edarbi  and 
+ Warnings and precautions ). </p>
 <p>Pregnancy and breast-feeding 
 Pregnancy 
 You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally 
@@ -159,7 +159,7 @@ or dizzy when taking this medicine and if this happens to you, do not drive or u
 machines. </p>
 <p>Edarbi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take edarbi"
@@ -200,27 +200,35 @@ without first talking to your doctor about alternative treatment options. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop taking Edarbi and seek medical help immediately if you have any of the following allergic 
-reactions, which occur rarely (may affect up to 1 in 1,000 people): 
-- Difficulties in breathing, or swallowing, or swelling of the face, lips, tongue and/or throat 
-(angioedema) 
-- Itching of the skin with raised lumps. </p>
+reactions, which occur rarely (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Difficulties in breathing, or swallowing, or swelling of the face, lips, tongue and/or throat 
+(angioedema) </li>
+<li>Itching of the skin with raised lumps. </li>
+</ul>
 <p>Other possible side effects include:<br />
-Common side effects (may affect up to 1 in 10 people): 
-- Dizziness 
-- Diarrhoea 
-- Increased blood creatine phosphokinase (an indicator of muscle damage). </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- Low blood pressure, which may make you feel faint or dizzy<br />
-- Feeling tired 
-- Swelling of the hands, ankles or feet (peripheral oedema) 
-- Skin rash and itching 
-- Nausea 
-- Muscle spasms 
-- Increased serum creatinine in the blood (an indicator of kidney function) 
-- Increased uric acid in the blood. </p>
-<p>Rare side effects (may affect up to 1 in 1,000 people): 
-- Changes in blood test results including decreased levels of a protein in the red blood cells 
-(haemoglobin).  </p>
+Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Dizziness </li>
+<li>Diarrhoea </li>
+<li>Increased blood creatine phosphokinase (an indicator of muscle damage). </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Low blood pressure, which may make you feel faint or dizzy  </li>
+<li>Feeling tired </li>
+<li>Swelling of the hands, ankles or feet (peripheral oedema) </li>
+<li>Skin rash and itching </li>
+<li>Nausea </li>
+<li>Muscle spasms </li>
+<li>Increased serum creatinine in the blood (an indicator of kidney function) </li>
+<li>Increased uric acid in the blood. </li>
+</ul>
+<p>Rare side effects (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Changes in blood test results including decreased levels of a protein in the red blood cells 
+(haemoglobin).  </li>
+</ul>
 <p>When Edarbi is taken with chlortalidone (a water tablet), higher levels of certain chemicals in the 
 blood (such as creatinine), which are indicators of kidney function, have been seen commonly (in 
 less than 1 in 10 users), and low blood pressure is also common. </p>
@@ -263,7 +271,7 @@ Edarbi 80 mg: Each tablet contains 80 mg azilsartan medoxomil (as potassium) </p
 croscarmellose sodium, microcrystalline cellulose, and magnesium stearate. </li>
 </ul>
 <p>What Edarbi looks like and contents of the pack 
-The tablets are white round debossed with “ASL” on one side and either “20”, “40” or “80” on the 
+The tablets are white round debossed with  ASL  on one side and either  20 ,  40  or  80  on the 
 other. 
 Edarbi is provided in blisters with either 14 tablets or 15 tablets in cartons containing 14, 28, 56 or 
 98 tablets and blisters integrated with desiccant with either 14 tablets or 15 tablets in cartons 
@@ -276,22 +284,20 @@ Takeda Pharma A/S, Delta Park 45, 2665 Vallensbaek Strand, Denmark </p>
 Takeda Ireland Limited, Bray Business Park, Kilruddery, Co. Wicklow, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Takeda Belgium 
-Tél/Tel: +32 2 464 06 takeda-belgium@takeda.com </p>
+T l/Tel: +32 2 464 06 takeda-belgium@takeda.com </p>
 <p>Lietuva 
 Takeda UAB 
-Tel: +370 521 09<br />
-България 
-Такеда България 
-Тел.: +359 2 958 27 36; +359 2 958 15<br />
+Tel: +370 521 09  </p>
+<p>.: +359 2 958 27 36; +359 2 958 15<br />
 Luxembourg/Luxemburg 
 Takeda Belgium 
-Tél/Tel: +32 2 464 06 takeda-belgium@takeda.com </p>
-<p>Česká republika 
+T l/Tel: +32 2 464 06 takeda-belgium@takeda.com </p>
+<p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o 
 Tel: +420 234 722<br />
-Magyarország 
+Magyarorsz g 
 Takeda Pharma Kft. 
 Tel.: +361 2707 
 Danmark 
@@ -312,49 +318,47 @@ Tel: +372 6177<br />
 Norge 
 Takeda AS 
 Tlf: + 47 6676 3infonorge@takeda.com </p>
-<p>Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 80 09 111  </p>
-<p>Österreich 
+<p>. . 
+ : +30 210 80 09 111  </p>
+<p>sterreich 
 Takeda Pharma Ges.m.b.H. 
-Tel: +43 (0) 800-20 80 España 
-Takeda Farmacéutica España S.A 
+Tel: +43 (0) 800-20 80 Espa a 
+Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 spain@takeda.com 
 Polska 
 Takeda Pharma sp. z o.o. 
 Tel.: +48 22 608 13  </p>
 <p>France 
 Takeda France SAS 
-Tél: +33 1 40 67 33 medinfoEMEA@takeda.com </p>
+T l: +33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
-Tecnimede - Sociedade Técnico-Medicinal, S.A 
+Tecnimede - Sociedade T cnico-Medicinal, S.A 
 Tel: +351 21 041 41 dmed.fv@tecnimede.pt </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
 Tel: +385 1 377 88<br />
-România 
+Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 Ireland 
 Takeda Products Ireland Limited 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
-Takeda Pharmaceuticals farmacevtska družba 
+Takeda Pharmaceuticals farmacevtska dru ba 
 d.o.o. 
 Tel: +386 (0) 59 082<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7vistor@vistor.is </p>
-<p>Slovenská republika 
+S mi: +354 535 7vistor@vistor.is </p>
+<p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o 
 Tel: +421 (2) 20 602<br />
 Italia 
 Takeda Italia S.p.A. 
 Tel: +39 06 5026 Suomi/Finland 
 Takeda Oy 
-Puh/Tel: +358 20 746 5 
-Κύπρος 
-Takeda Pharma A/S 
-Τηλ: +45 46 77 11<br />
+Puh/Tel: +358 20 746 5 </p>
+<p>Takeda Pharma A/S 
+ : +45 46 77 11<br />
 Sverige 
 Takeda Pharma AB 
 Tel: + 46 8 731 28 infosweden@takeda.com </p>

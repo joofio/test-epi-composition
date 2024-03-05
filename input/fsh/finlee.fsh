@@ -4,7 +4,7 @@ Instance: composition-en-f484a979444f206cec5fad8c011d38cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for finlee Package Leaflet"
 Description:  "Composition for finlee Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -108,9 +108,9 @@ avoid complications. </p>
 <p>Skin examination 
 Finlee may cause skin cancer. Usually, these skin changes remain local and can be removed with 
 surgery and treatment with Finlee can be continued without interruption. The doctor may check your 
-child’s skin before and regularly during treatment. </p>
-<p>Check your child’s skin monthly during the treatment and for 6 months after they stop taking this 
-medicine. Tell the doctor as soon as possible if you notice any changes to your child’s skin such as a 
+child s skin before and regularly during treatment. </p>
+<p>Check your child s skin monthly during the treatment and for 6 months after they stop taking this 
+medicine. Tell the doctor as soon as possible if you notice any changes to your child s skin such as a 
 new wart, skin sore or reddish bump that bleeds or does not heal, or a change in the size or colour of a 
 mole. </p>
 <p>Children younger than 1 year old 
@@ -129,7 +129,7 @@ or patches
 * medicines used to thin the blood, such as warfarin and acenocoumarol 
 * medicines used to treat heart conditions, such as digoxin 
 * medicines used to treat fungal infections, such as itraconazole, voriconazole and posaconazole 
-* medicines used to treat Cushing’s disease, such as ketoconazole 
+* medicines used to treat Cushing s disease, such as ketoconazole 
 * some medicines known as calcium channel blockers used to treat high blood pressure, such as 
 diltiazem, felodipine, nicardipine, nifedipine or verapamil 
 * medicines used to treat cancer, such as cabazitaxel 
@@ -147,7 +147,7 @@ delavirdine, efavirenz, fosamprenavir, lopinavir, nelfinavir, tipranavir, saquin
 * some medicines used for pain relief, such as fentanyl and methadone 
 * medicines used to treat seizures (epilepsy), such as phenytoin, phenobarbital, primidone, 
 valproic acid or carbamazepine 
-* medicines known as antidepressants, such as nefazodone and the herbal medicine St John’s wort 
+* medicines known as antidepressants, such as nefazodone and the herbal medicine St John s wort 
 (Hypericum perforatum) </p>
 <p>Tell the doctor, pharmacist or nurse if your child is taking any of these (or if you are not sure). The 
 doctor may decide to adjust the dose. </p>
@@ -165,7 +165,7 @@ Finlee may reduce sperm count and this may not return to normal levels after sto
 Finlee. </p>
 <p>Taking Finlee with trametinib oral solution: Trametinib may impair fertility in both males and 
 females. </p>
-<p>Prior to starting treatment with Finlee, talk to the doctor about options to improve your child’s chances 
+<p>Prior to starting treatment with Finlee, talk to the doctor about options to improve your child s chances 
 to have children in the future. </p>
 <p>Contraception 
 * If your child could become pregnant, they must use a reliable method of birth control 
@@ -176,35 +176,32 @@ while taking Finlee in combination with trametinib oral solution. An alternative
 method of birth control should be used to avoid the risk of pregnancy while taking this 
 combination of medicines. Ask the doctor or nurse for advice. </p>
 <p>Driving and using machines 
-Finlee can have side effects that may affect your child’s ability to drive, ride a bike/scooter, use 
+Finlee can have side effects that may affect your child s ability to drive, ride a bike/scooter, use 
 machines, or take part in other activities that need alertness. If your child has problems with vision or 
 feels tired or weak, or their energy levels are low, they should avoid such activities. </p>
 <p>Descriptions of these effects can be found in section 4. Read all the information in this leaflet for 
 guidance. </p>
-<p>Discuss with the doctor, pharmacist or nurse if you are unsure about anything. Your child’s disease, 
+<p>Discuss with the doctor, pharmacist or nurse if you are unsure about anything. Your child s disease, 
 symptoms and treatment situation may also affect their ability to take part in such activities. </p>
 <p>Finlee contains potassium 
 This medicine contains potassium, less than 1 mmol (39 mg) per maximum daily dose, i.e. essentially 
-‘potassium-free’. </p>
+ potassium-free . </p>
 <p>Finlee contains benzyl alcohol 
 This medicine contains &lt;0.00078 mg benzyl alcohol in each dispersible tablet. </p>
 <p>Benzyl alcohol may cause allergic reactions. </p>
 <p>Ask the doctor or pharmacist for advice if your child is pregnant or breast-feeding. This is because 
-large amounts of benzyl alcohol can build up in your child’s body and may cause side effects (called 
-“metabolic acidosis”). </p>
+large amounts of benzyl alcohol can build up in your child s body and may cause side effects (called 
+ metabolic acidosis ). </p>
 <p>Ask the doctor or pharmacist for advice if your child has a liver or kidney disease. This is because 
-large amounts of benzyl alcohol can build up in your child’s body and may cause side effects (called 
-“metabolic acidosis”). </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take finlee"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take finlee"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always give this medicine to your child exactly as the doctor, pharmacist or nurse has told you. Check 
+large amounts of benzyl alcohol can build up in your child s body and may cause side effects (called 
+ metabolic acidosis ). </p>
+<ol>
+<li>How to give Finlee </li>
+</ol>
+<p>Always give this medicine to your child exactly as the doctor, pharmacist or nurse has told you. Check 
 with the doctor, pharmacist or nurse if you are not sure. </p>
 <p>How much to give 
-The doctor will decide on the correct dose of Finlee based on your child’s body weight. </p>
+The doctor will decide on the correct dose of Finlee based on your child s body weight. </p>
 <p>The doctor may decide that your child should be given a lower dose if they get side effects. </p>
 <p>How to give it 
 Please read the Instructions for Use at the end of this leaflet for details on how to prepare and give the 
@@ -215,12 +212,9 @@ when to give the medicine. Give each dose of Finlee about 12 hours apart. Tramet
 solution is only taken once a day. Give trametinib oral solution with either the morning dose or 
 the evening dose of Finlee. </li>
 <li>Give Finlee on an empty stomach, at least one hour before or two hours after a meal, this means 
-that: 
-o 
-after taking Finlee, your child must wait at least 1 hour before eating. 
-o 
-after eating, your child must wait at least 2 hours before taking Finlee. 
-o 
+that: * 
+after taking Finlee, your child must wait at least 1 hour before eating. * 
+after eating, your child must wait at least 2 hours before taking Finlee. * 
 if necessary, breast-feeding and/or baby formula may be given on demand. </li>
 </ul>
 <p>If you give more Finlee than you should 
@@ -235,20 +229,19 @@ Do not give a double dose to make up for a forgotten dose. </p>
 If your child vomits after taking Finlee, do not give another dose until the next scheduled dose. </p>
 <p>If you stop giving Finlee 
 Give Finlee for as long as the doctor recommends. Do not stop unless the doctor advises you to. </p>
-<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p>         </div>"""         
-
-        
+<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take finlee"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take finlee"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop giving this medicine and seek urgent medical attention if your child has any of the following 
 symptoms: 
-* coughing up of blood, passing blood in urine, vomit containing blood or that looks like “coffee 
-grounds”, red or black stools that look like tar. These may be signs of bleeding. 
-* fever (temperature 38°C or above). 
+* coughing up of blood, passing blood in urine, vomit containing blood or that looks like  coffee 
+grounds , red or black stools that look like tar. These may be signs of bleeding. 
+* fever (temperature 38 C or above). 
 * chest pain or shortness of breath, sometimes with fever or cough. These may be signs of 
 pneumonitis or inflamed lungs (interstitial lung disease). 
 * blurred vision, loss of vision or other vision changes. These may be signs of retinal detachment. 
@@ -327,12 +320,13 @@ chest pain </p>
 If your child gets any side effects, talk to the doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store finlee"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store finlee"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label and the carton after 
@@ -343,11 +337,10 @@ Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask the pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store finlee"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store finlee"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Finlee contains 
 - The active substance is dabrafenib. Each dispersible tablet contains dabrafenib mesilate 
@@ -358,8 +351,8 @@ stearate (E 470b), artificial berry flavour (maltodextrin, propylene glycol [E 1
 flavours, triethyl citrate [E 1505], benzyl alcohol [E 1519] [see section 2]), and colloidal 
 anhydrous silica (E 551). </p>
 <p>What Finlee looks like and contents of the pack 
-Finlee 10 mg dispersible tablets are white to slightly yellow, round tablets of 6 mm marked “D” on 
-one side and “NVR” on the other. </p>
+Finlee 10 mg dispersible tablets are white to slightly yellow, round tablets of 6 mm marked  D  on 
+one side and  NVR  on the other. </p>
 <p>The bottles are white plastic with threaded plastic closures. </p>
 <p>The bottles also include a silica gel desiccant in small cylinder-shaped containers. The desiccants must 
 be kept inside the bottle and must not be eaten. </p>
@@ -373,36 +366,35 @@ Dublin 4
 Ireland </p>
 <p>Manufacturer 
 Lek Pharmaceuticals d.d. 
-Verovškova ulica 1526, Ljubljana 
+Verov kova ulica 1526, Ljubljana 
 Slovenia </p>
 <p>Novartis Pharmaceutical Manufacturing LLC 
-Verovškova ulica 1000, Ljubljana 
+Verov kova ulica 1000, Ljubljana 
 Slovenia </p>
 <p>Novartis Pharma GmbH 
 Roonstrasse 90429 Nuremberg 
 Germany </p>
-<p>Novartis Farmacéutica S.A. 
+<p>Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes 08013 Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+Tel: +370 5 269 16  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
 Tlf: +45 39 16 84<br />
@@ -418,35 +410,35 @@ SIA Novartis Baltics Eesti filiaal
 Tel: +372 66 30<br />
 Norge 
 Novartis Norge AS 
-Tlf: +47 23 05 20 Ελλάδα 
+Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
-Τηλ: +30 210 281 17<br />
-Österreich 
+ : +30 210 281 17<br />
+ sterreich 
 Novartis Pharma GmbH 
-Tel: +43 1 86 6España 
-Novartis Farmacéutica, S.A. 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42<br />
 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-Tél: +33 1 55 47 66<br />
+T l: +33 1 55 47 66<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75 Ísland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -454,10 +446,9 @@ Novartis Farma S.p.A.
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133<br />
-Κύπρος 
-Novartis Pharma Services Inc. 
-Τηλ: +357 22 690<br />
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Novartis Pharma Services Inc. 
+ : +357 22 690<br />
 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32<br />
@@ -478,15 +469,13 @@ ADMINISTRATION VIA DOSING CUP </p>
 dissolve the tablets in water. </p>
 <p>If Finlee solution gets on your skin, wash the area well with soap and water. </p>
 <p>If Finlee solution gets in your eyes, rinse your eyes well with cool water. </p>
-<p>In case of spillage, follow the information in the “SPILLAGE CLEANING” section. </p>
+<p>In case of spillage, follow the information in the  SPILLAGE CLEANING  section. </p>
 <p>1 </p>
 <p>Wash and dry your hands before administering 
 Finlee. </p>
 <p>2 </p>
-<p>Add still drinking water to the dosing cup: 
-o 
-About 5 ml for 1 to 4 tablets 
-o 
+<p>Add still drinking water to the dosing cup: * 
+About 5 ml for 1 to 4 tablets * 
 About 10 ml for 5 to 15 tablets </p>
 <p>3 </p>
 <p>Remove the child-resistant cap by pushing down 
@@ -523,8 +512,15 @@ difficult to see). </p>
 <p>Ensure that your child also drinks all of this 
 solution from the dosing cup. </p>
 <p>9 </p>
-<p>If 5 to 15 prescribed tablets: repeat Steps 7 to 8.  </p>
-<p>For cleaning instructions, see “SECTION C”. </p>
+<p>If 5 to 15 prescribed tablets: repeat Steps 7 to </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>For cleaning instructions, see  SECTION C . </p>
 <p>SECTION B 
 ADMINISTRATION VIA ORAL SYRINGE OR FEEDING TUBE </p>
 <p>Feeding tube minimum size: </p>
@@ -535,7 +531,7 @@ Minimum size
 4 to 15 tablets 
 12 French gauge </p>
 <p>1 </p>
-<p>Follow Steps 1 to 5 in “SECTION A” to 
+<p>Follow Steps 1 to 5 in  SECTION A  to 
 dissolve the tablets, then move to Step 2 in this 
 section. </p>
 <p>2 </p>
@@ -554,7 +550,7 @@ choking. </p>
 <p>3b </p>
 <p>Administering via feeding tube: Dispense the 
 solution into the feeding tube as per the feeding 
-tube manufacturer’s instructions. </p>
+tube manufacturer s instructions. </p>
 <p>4 </p>
 <p>Add about 5 ml of still drinking water to the 
 empty dosing cup and stir with the handle of the 
@@ -572,7 +568,7 @@ into the inside of the cheek. </p>
 <p>Repeat Steps 4 to 6 a total of 3 times to give a 
 full dose. </p>
 <p>8 </p>
-<p>For cleaning instructions, see “SECTION C”. </p>
+<p>For cleaning instructions, see  SECTION C . </p>
 <p>SECTION C 
 CLEANING </p>
 <p>Dosing cup 
@@ -585,5 +581,24 @@ your pharmacist for a new dosing cup. </p>
 <p>Teaspoon 
 * Hand wash the teaspoon with warm, soapy water or wash it in a dishwasher. </p>
 <p>Oral Syringe 
-If used, clean the oral syringe as follows: </p>         </div>"""      
+If used, clean the oral syringe as follows: 
+1. Fill a glass with warm, soapy water. 
+2. Place the oral syringe into the glass with the warm, soapy water. 
+3. Pull water into the oral syringe and empty again 4 to 5 times. 
+4. Separate the plunger from the barrel. 
+5. Rinse the glass, plunger and barrel under warm tap water. 
+6. Leave the plunger and barrel on a dry surface to air dry before next use. </p>
+<p>You can use the dosing cup for up to 4 months after first use. After 4 months, throw away the 
+dosing cup in the household waste. </p>
+<p>SPILLAGE CLEANING </p>
+<p>Follow these steps if you spill any Finlee solution: 
+1. Put on plastic gloves. 
+2. Soak up the solution completely using an absorbent material, such as paper towels soaked 
+with a mixture of water and household disinfectant. 
+3. Repeat the cleaning with fresh soaked absorbent material at least 3 times until the area is 
+clean. 
+4. Dry the area with paper towels. 
+5. Throw away all the disposable materials used to clean the spillage into a sealable plastic bag. 
+6. Ask the pharmacist how to throw away the plastic bag. 
+7. Wash your hands well with soap and water. </p>         </div>"""      
 

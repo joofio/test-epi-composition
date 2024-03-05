@@ -4,7 +4,7 @@ Instance: composition-en-5b51c0d839da71000ee4c963dc89729f
 InstanceOf: CompositionUvEpi
 Title: "Composition for enhertu Package Leaflet"
 Description:  "Composition for enhertu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -146,9 +146,11 @@ Enhertu. </p>
 </ul>
 <p>Women taking Enhertu should continue contraception for at least 7 months after the last dose of 
 Enhertu. </p>
-<p>Men taking Enhertu whose partner may become pregnant should use effective contraception: 
-- during treatment and 
-- for at least 4 months after the last dose of Enhertu. </p>
+<p>Men taking Enhertu whose partner may become pregnant should use effective contraception:</p>
+<ul>
+<li>during treatment and </li>
+<li>for at least 4 months after the last dose of Enhertu. </li>
+</ul>
 <p>Talk to your doctor about the best contraception for you. Also talk to your doctor before you 
 stop your contraception. </p>
 <ul>
@@ -167,26 +169,32 @@ or have a headache. </p>         </div>"""
   * code.text = "3. How to take enhertu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enhertu will be given to you in a hospital or clinic: 
-* The recommended dose of Enhertu for the treatment of: 
-- HER2-positive or HER2-low breast cancer is 5.4 mg for every kilogram of your weight, 
-every 3 weeks. 
-- HER2-mutant non-small cell lung cancer is 5.4 mg for every kilogram of your weight, 
-every 3 weeks. 
-- HER2-positive stomach cancer is 6.4 mg for every kilogram of your weight, every 
-3 weeks. 
-* Your doctor or nurse will give you Enhertu by infusion (drip) into your vein. 
-* Your first infusion will be given over 90 minutes. If this goes well, the infusion on your next 
-visits may be given over 30 minutes. 
-* Your doctor will decide how many treatments you need. 
-* Before each Enhertu infusion, your doctor may give you medicines to help prevent nausea and 
-vomiting. 
-* If you get infusion-related symptoms, your doctor or nurse may slow down your infusion or 
-interrupt or stop your treatment. 
-* Before and during treatment with Enhertu, your doctor will carry out tests that may include: 
-- blood tests to check your blood cells, liver and kidneys 
-- testing to check your heart and lungs. 
-* Your doctor may lower your dose, or temporarily or permanently stop your treatment depending 
-on your side effects. </p>
+* The recommended dose of Enhertu for the treatment of:</p>
+<ul>
+<li>HER2-positive or HER2-low breast cancer is 5.4 mg for every kilogram of your weight, 
+every 3 weeks. </li>
+<li>HER2-mutant non-small cell lung cancer is 5.4 mg for every kilogram of your weight, 
+every 3 weeks. </li>
+<li>HER2-positive stomach cancer is 6.4 mg for every kilogram of your weight, every 
+3 weeks. </li>
+<li>Your doctor or nurse will give you Enhertu by infusion (drip) into your vein. </li>
+<li>Your first infusion will be given over 90 minutes. If this goes well, the infusion on your next 
+visits may be given over 30 minutes. </li>
+<li>Your doctor will decide how many treatments you need. </li>
+<li>Before each Enhertu infusion, your doctor may give you medicines to help prevent nausea and 
+vomiting. </li>
+<li>If you get infusion-related symptoms, your doctor or nurse may slow down your infusion or 
+interrupt or stop your treatment. </li>
+<li>
+<p>Before and during treatment with Enhertu, your doctor will carry out tests that may include:</p>
+</li>
+<li>
+<p>blood tests to check your blood cells, liver and kidneys </p>
+</li>
+<li>testing to check your heart and lungs. </li>
+<li>Your doctor may lower your dose, or temporarily or permanently stop your treatment depending 
+on your side effects. </li>
+</ul>
 <p>If you miss an appointment to get Enhertu </p>
 <p>Contact your doctor right away to reschedule your appointment. </p>
 <p>It is very important that you do not miss a dose of this medicine.  </p>
@@ -272,8 +280,8 @@ treatment. The storage details are as follows:
 * Keep this medicine out of the sight and reach of children. 
 * Do not use this medicine after the expiry date which is stated on the outer carton and vial after 
 EXP. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2 °C - 8 °C). Do not freeze. 
-* The prepared solution for infusion is stable for up to 24 hours at 2 °C - 8 °C protected from light 
+* Store in a refrigerator (2  C - 8  C). Do not freeze. 
+* The prepared solution for infusion is stable for up to 24 hours at 2  C - 8  C protected from light 
 and must be discarded thereafter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -291,117 +299,6 @@ One vial of powder for concentrate for solution for infusion contains 100 mg of 
 deruxtecan. After reconstitution, one vial of 5 mL solution contains 20 mg/mL of trastuzumab 
 deruxtecan. </li>
 <li>The other ingredients are L-histidine, L-histidine hydrochloride monohydrate, sucrose, 
-polysorbate 80.<br />
-What Enhertu looks like and contents of the pack </li>
-</ul>
-<p>Enhertu is a white to yellowish-white lyophilised powder supplied in a clear amber vial with a rubber 
-stopper, aluminium seal and plastic flip-off cap. 
-Each carton contains 1 vial. </p>
-<p>Marketing Authorisation Holder 
-Daiichi Sankyo Europe GmbH 
-Zielstattstrasse 81379 Munich 
-Germany </p>
-<p>Manufacturer 
-Daiichi Sankyo Europe GmbH 
-Luitpoldstrasse 1 
-85276 Pfaffenhofen 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Daiichi Sankyo Belgium N.V.-S.A 
-Tél/Tel: +32-(0) 2 227 18 Lietuva 
-UAB AstraZeneca Lietuva 
-Tel: +370 5 2660 
-България 
-АстраЗенека България ЕООД 
-Тел.: +359 24455 
-Luxembourg/Luxemburg 
-Daiichi Sankyo Belgium N.V.-S.A 
-Tél/Tel: +32-(0) 2 227 18<br />
-Česká republika 
-AstraZeneca Czech Republic s.r.o. 
-Tel: +420 222 807<br />
-Magyarország 
-AstraZeneca Kft. 
-Tel.: +36 1 883 6 
-Danmark 
-Daiichi Sankyo Nordics ApS 
-Tlf: +45 (0) 33 68 19<br />
-Malta 
-Daiichi Sankyo Europe GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Deutschland 
-Daiichi Sankyo Deutschland GmbH 
-Tel: +49-(0) 89 7808 0 </p>
-<p>Nederland 
-Daiichi Sankyo Nederland B.V. 
-Tel: +31-(0) 20 4 07 20<br />
-Eesti 
-AstraZeneca 
-Tel: +372 6549<br />
-Norge 
-Daiichi Sankyo Nordics ApS 
-Tlf: +47 (0) 21 09 38<br />
-Ελλάδα 
-AstraZeneca A.E. 
-Τηλ: +30 210 6871 
-Österreich 
-Daiichi Sankyo Austria GmbH 
-Tel: +43 (0) 1 485 86 42 0 </p>
-<p>España 
-Daiichi Sankyo España, S.A. 
-Tel: +34 91 539 99<br />
-Polska 
-AstraZeneca Pharma Poland Sp. z o.o. 
-Tel: +48 22 245 73<br />
-France 
-Daiichi Sankyo France S.A.S. 
-Tél: +33 (0) 1 55 62 14<br />
-Portugal 
-Daiichi Sankyo Portugal, Unip. LDA 
-Tel: +351 21 4232 
-Hrvatska 
-AstraZeneca d.o.o. 
-Tel: +385 1 4628<br />
-România 
-AstraZeneca Pharma SRL 
-Tel: +40 21 317 60<br />
-Ireland 
-Daiichi Sankyo Ireland Ltd 
-Tel: +353-(0) 1 489 3 
-Slovenija 
-AstraZeneca UK Limited 
-Tel: +386 1 51 35<br />
-Ísland 
-Daiichi Sankyo Nordics ApS 
-Sími: +354 5357 
-Slovenská republika 
-AstraZeneca AB, o.z. 
-Tel: +421 2 5737 7 
-Italia 
-Daiichi Sankyo Italia S.p.A. 
-Tel: +39-06 85 2 
-Suomi/Finland 
-Daiichi Sankyo Nordics ApS 
-Puh/Tel: +358 (0) 9 3540 7 
-Κύπρος 
-Αλέκτωρ Φαρµακευτική Λτδ 
-Τηλ: +357 22490 
-Sverige 
-Daiichi Sankyo Nordics ApS 
-Tel: +46 (0) 40 699 2 
-Latvija 
-SIA AstraZeneca Latvija 
-Tel: +371 67377 
-United Kingdom (Northern Ireland) 
-Daiichi Sankyo Europe GmbH 
-Tel: +49 (0) 89 7808 0 </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
-about this medicine. 
-The European Medicines Agency will review new information on this medicine at least every year and 
-this leaflet will be updated as necessary. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+polysorbate 8</li>
+</ul>         </div>"""      
 

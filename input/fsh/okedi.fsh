@@ -4,7 +4,7 @@ Instance: composition-en-3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: CompositionUvEpi
 Title: "Composition for okedi Package Leaflet"
 Description:  "Composition for okedi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code.text =  "1. What okedi is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OKEDI contains the active substance risperidone which belongs to the group of medicines 
-called ‘antipsychotics’.  </p>
+called  antipsychotics .  </p>
 <p>OKEDI is used in adult patients to treat schizophrenia, where you may see, hear or feel things 
 that are not there, believe things that are not true or feel unusually suspicious, or confused.  </p>
 <p>OKEDI is intended for patients who show tolerability and effectiveness to oral (e.g. tablets) 
@@ -98,7 +98,7 @@ blood pressure, cardiovascular disorder or blood vessel problems in the brain
 * You have ever had a condition whose symptoms include high temperature, muscle 
 stiffness, sweating or a lowered level of consciousness (also known as Neuroleptic 
 Malignant Syndrome) 
-* You have Parkinson’s disease 
+* You have Parkinson s disease 
 * You have dementia<br />
 </em> You know that you have had low levels of white blood cells in the past (which may or 
 may not have been caused by other medicines) 
@@ -242,7 +242,7 @@ experience any of the following rare side effects (may affect up to 1 in 1,000 p
 pain, and redness in the leg), which may travel through blood vessels to the lungs 
 causing chest pain and difficulty breathing.<br />
 <em> Experience fever, muscle stiffness, sweating or a lowered level of consciousness (a 
-disorder called “Neuroleptic Malignant Syndrome”). 
+disorder called  Neuroleptic Malignant Syndrome ). 
 * Are a man and experience prolonged or painful erection. This is called priapism.<br />
 </em> Experience severe allergic reaction characterised by fever, swollen mouth, face, lip or 
 tongue, shortness of breath, itching, skin rash or drop in blood pressure (anaphylactic 
@@ -266,20 +266,20 @@ on the face
 Common side effects (may affect up to 1 in 10 people): 
 * Pneumonia (lung infection), bronchitis (infection of the main airways of the lungs), sinus 
 infection, urinary tract infection, ear infection, flu, flu-like symptoms, sore throat, cough, 
-stuffy nose, fever, eye infection or “pink eye” 
-* Raised levels of a hormone called "prolactin" found in a blood test. Symptoms of 
+stuffy nose, fever, eye infection or  pink eye<br />
+</em> Raised levels of a hormone called "prolactin" found in a blood test. Symptoms of 
 high prolactin occur uncommonly and may include in men breast swelling, difficulty 
 in getting or maintaining erections, decreased sexual desire. In women they may 
 include leakage of milk from the breasts, menstrual disorders, missed menstrual 
 periods, lack of ovulation, fertility problems 
 * Weight gain, increased or decreased appetite 
 * Sleep disorder, irritability, depression, anxiety, feeling sleepy, or less alert<br />
-</em> Dystonia (involuntary contraction of muscles that cause slow repetitive movements 
+<em> Dystonia (involuntary contraction of muscles that cause slow repetitive movements 
 or abnormal postures), dyskinesia (another condition which affects involuntary 
 muscle movements including repetitive, spastic or writhing movements, or 
 twitching)<br />
-<em> Tremor (shaking), muscle spasms, bone or muscle pain, back pain, joint pain, fall<br />
-</em> Blurry vision 
+</em> Tremor (shaking), muscle spasms, bone or muscle pain, back pain, joint pain, fall<br />
+* Blurry vision 
 * Urinary incontinence (involuntary leakage of urine) 
 * Rapid heart rate, high blood pressure, shortness of breath 
 * Abdominal pain, abdominal discomfort, vomiting, nausea, dizziness, constipation, 
@@ -310,8 +310,8 @@ the heart
 * Congestion of breathing passages, wheezing (coarse/whistling sound during breathing), 
 nose bleeds 
 * Abnormal posture, joint stiffness, joint swelling, muscle weakness, neck pain, walking 
-abnormality, thirst, feeling unwell, chest discomfort or general discomfort, feeling “out of 
-sorts” 
+abnormality, thirst, feeling unwell, chest discomfort or general discomfort, feeling  out of 
+sorts<br />
 * Stomach or intestinal infection or irritation, fecal incontinence, difficulty swallowing, 
 excessive passing of gas or wind, frequent passing of urine, inability to pass urine, pain 
 when passing urine 
@@ -348,8 +348,8 @@ Very rare side effects (may affect up to 1 in 10,000 people):
 * Life threatening complications of uncontrolled diabetes 
 * Lack of bowel muscle movement that causes blockage. 
 Not known: frequency cannot be estimated from the available data 
-* Severe or life‑threatening rash with blisters and peeling skin that may start in and around 
-the mouth, nose, eyes, and genitals and spread to other areas of the body (Stevens‑Johnson 
+* Severe or life threatening rash with blisters and peeling skin that may start in and around 
+the mouth, nose, eyes, and genitals and spread to other areas of the body (Stevens Johnson 
 syndrome or toxic epidermal necrolysis). 
 Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
@@ -365,7 +365,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the carton, aluminium pouches 
 or syringe labels after (EXP). The expiry date refers to the last day of that month. 
-Store below 30°C. Store in the original package in order to protect from moisture. 
+Store below 30 C. Store in the original package in order to protect from moisture. 
 Use OKEDI immediately after reconstitution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
@@ -387,156 +387,151 @@ Pre-filled syringe of solvent: dimethyl sulfoxide.<br />
 What OKEDI looks like and contents of the pack 
 Each kit box of OKEDI powder and solvent for prolonged-release suspension for injection 
 contains: 
-• An aluminium pouch with one pre-filled syringe containing powder (within this powder is the 
+  An aluminium pouch with one pre-filled syringe containing powder (within this powder is the 
 active substance, risperidone) and a silica gel desiccant sachet. The powder is white to white-
 yellowish, non-aggregated. 
-• An aluminium pouch with one pre-filled syringe containing the solvent and a silica gel 
+  An aluminium pouch with one pre-filled syringe containing the solvent and a silica gel 
 desiccant sachet. The pre-filled syringe of the solvent contains a clear solution and has a RED 
 finger flange. 
-• One sterile needle for IM injection 2 inch (0.90 x 51mm [20G]) with safety shield used for 
+  One sterile needle for IM injection 2 inch (0.90 x 51mm [20G]) with safety shield used for 
 gluteus administration. 
-• One sterile needle for IM injection 1 inch (0.80 x 25mm [21G]) with safety shield used for 
+  One sterile needle for IM injection 1 inch (0.80 x 25mm [21G]) with safety shield used for 
 deltoid administration. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid. 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid. 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the 
 Marketing Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+<p>Belgi /Belgique/Belgien 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Espagne/Spanje 
 Tel: +34 91 375 62 Lietuva 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Ispanija 
-Tel: +34 91 375 62<br />
-България 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Испания 
-Teл.: +34 91 375 62 <br />
+Tel: +34 91 375 62  </p>
+<p>Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid </p>
+<p>Te .: +34 91 375 62 <br />
 Luxembourg/Luxemburg 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Espagne/Spanien 
 Tel: +34 91 375 62<br />
-Česká republika 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Španělsko 
+ esk  republika 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+ pan lsko 
 Tel: +34 91 375 62<br />
-Magyarország 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Spanyolország 
+Magyarorsz g 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+Spanyolorsz g 
 Tel: +34 91 375 62<br />
 Danmark 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spanien 
 Tlf: +34 91 375 62 Malta 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spanja 
 Tel: +34 91 375 62 Deutschland 
 Rovi GmbH 
 Rudolf-Diesel-Ring 6 
 83607 Holzkirchen 
 Tel: +49 8024 4782Nederland 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spanje 
 Tel: +34 91 375 62<br />
 Eesti 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Hispaania 
 Tel: +34 91 375 62<br />
 Norge 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spania 
-Tlf: +34 91 375 62<br />
-Ελλάδα 
-BIANEΞ Α.Ε. 
-Οδός Βαρυμπόμπης 8, 
-14671 Ν. Ερυθραία, Κηφισιά 
-Tηλ. 210 8009 
-Österreich 
+Tlf: +34 91 375 62  </p>
+<p>BIANE   . . 
+    8, 
+14671  .  , <br />
+T . 210 8009 
+ sterreich 
 Rovi GmbH 
 Rudolf-Diesel-Ring 6 
 83607 Holzkirchen 
 Deutschland 
 Tel: +43 664 1340 
-España 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Espa a 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Tel: +34 91 375 62 Polska 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Hiszpania 
 Tel: +34 91 375 62<br />
 France 
 ROVI<br />
 24, Rue Du Drac<br />
 38180 Seyssins 
-Tél: +33 (0)4 76 968 Portugal 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+T l: +33 (0)4 76 968 Portugal 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Espanha 
 Tel: +34 91 375 62<br />
 Hrvatska 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Španija 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+ panija 
 Tel: +34 91 375 62<br />
-România 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Rom nia 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spania 
 Tel: +34 91 375 62<br />
 Ireland 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spain 
 Tel: +34 91 375 62<br />
 Slovenija 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Španija 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+ panija 
 Tel: +34 91 375 62<br />
-Ísland 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Spánn 
-Sími: +34 91 375 62 Slovenská republika 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Španielsko 
+ sland 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+Sp nn 
+S mi: +34 91 375 62 Slovensk  republika 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+ panielsko 
 Tel: +34 91 375 62 Italia 
 Rovi Biotech, S.R.L. 
 Viale Achille Papa, 20149 Milano 
 Tel: +39 02 366 877 Suomi/Finland 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Espanja/Spanien 
-Puh/Tel: +34 91 375 62<br />
-Κύπρος 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Ισπανία 
-Τηλ: +34 91 375 62<br />
+Puh/Tel: +34 91 375 62  </p>
+<p>Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid </p>
+<p>: +34 91 375 62<br />
 Sverige 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
 Spanien 
 Tel: +34 91 375 62<br />
 Latvija 
-Laboratorios Farmacéuticos Rovi, S.A. 
-Julián Camarillo, 28037 Madrid 
-Spānija 
+Laboratorios Farmac uticos Rovi, S.A. 
+Juli n Camarillo, 28037 Madrid 
+Sp nija 
 Tel: +34 91 375 62<br />
 United Kingdom (Northern Ireland) 
 Rovi Biotech Limited<br />
@@ -558,5 +553,28 @@ reconstitution.  </p>
 <p>Proper dosing<br />
 The entire content of the reconstituted syringe must be administered to ensure intended dose of 
 OKEDI is delivered.  </p>
-<p>Single use device  </p>         </div>"""      
+<p>Single use device  </p>
+<ol>
+<li>CHECK CONTENTS </li>
+</ol>
+<p>Working on a clean surface, open the sachets and discard the desiccant pack. </p>
+<p>The kit box of OKEDI contains: </p>
+<p>One aluminium foil pouch with a OKEDI pre-filled syringe with a WHITE plunger rod and 
+WHITE finger flange. The syringe is marked with 
+. 
+  One aluminium foil pouch with SOLVENT for OKEDI pre-filled syringe with a 
+TRANSPARENT plunger rod and a RED finger flange. The syringe is marked with 
+. 
+ Two administration needles (21G, 1 inch for deltoid [green cap] and a 20G, 2 inch for gluteus 
+[yellow cap]). </p>
+<p>Discard the kit if any component is damaged. </p>
+<p>In the event of any foreign particulate matter and/or variation of physical aspect is observed, do 
+not administer OKEDI.  </p>
+<p>1.1 Inspect solvent syringe </p>
+<p>ENSURE that SOLVENT syringe content flows normally as a liquid.  </p>
+<p>The solvent freezes below 19 C. 
+If it is frozen or partially frozen, allow to thaw using hands contact or leaving it at room 
+temperature until liquid flow recovered before continuing. </p>
+<p>1.2 Dislodge powder syringe </p>
+<p>TAP the OKEDI syringe to dislodge potential packed powder near the cap. </p>         </div>"""      
 

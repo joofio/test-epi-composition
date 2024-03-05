@@ -4,7 +4,7 @@ Instance: composition-en-4a09b3a8552105810368cbf52100627e
 InstanceOf: CompositionUvEpi
 Title: "Composition for deferiprone Package Leaflet"
 Description:  "Composition for deferiprone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -87,8 +87,8 @@ section 6);
 - if you have a history of repeated episodes of neutropenia (low white blood cell (neutrophil) 
 count); 
 - if you have a history of agranulocytosis (very low white blood cell (neutrophil) count); 
-- if you are currently taking medicines known to cause neutropenia or agranulocytosis (see “Other 
-medicines and Deferiprone Lipomed”); 
+- if you are currently taking medicines known to cause neutropenia or agranulocytosis (see  Other 
+medicines and Deferiprone Lipomed ); 
 - if you are pregnant or breast-feeding. </p>
 <p>Warnings and precautions<br />
 The most serious side effect that may occur while taking Deferiprone Lipomed is a very low white 
@@ -107,8 +107,8 @@ recommend additional tests. </p>
 might ask you to undergo liver biopsies. </p>
 <p>Talk to your doctor or pharmacist before taking Deferiprone Lipomed. </p>
 <p>Other medicines and Deferiprone Lipomed 
-Do not take medicines known to cause neutropenia or agranulocytosis (see “Do not take Deferiprone 
-Lipomed”). Tell your doctor or pharmacist if you are taking, have recently taken, or might take any 
+Do not take medicines known to cause neutropenia or agranulocytosis (see  Do not take Deferiprone 
+Lipomed ). Tell your doctor or pharmacist if you are taking, have recently taken, or might take any 
 other medicines, including medicines obtained without a prescription. </p>
 <p>Do not take aluminium-based antacids at the same time as taking Deferiprone Lipomed. </p>
 <p>Please consult with your doctor or pharmacist before taking vitamin C with Deferiprone Lipomed. </p>
@@ -127,7 +127,7 @@ the folding box. </p>
 This medicine has no or negligible influence on the ability to drive and use machinery. </p>
 <p>Deferiprone Lipomed contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet and that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deferiprone"
@@ -161,22 +161,28 @@ your normal schedule. Do not change your daily dose without first talking to you
 This condition, known as severe neutropenia or agranulocytosis, has occurred in 1 to 2 out of people who have taken deferiprone in clinical trials. A low white blood cell count can be associated 
 with a serious and potentially life-threatening infection. Report immediately to your doctor any 
 symptoms of infection such as: fever, sore throat or flu-like symptoms. </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- abdominal pain 
-- nausea 
-- vomiting 
-- reddish/brown discolouration of urine </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>abdominal pain </li>
+<li>nausea </li>
+<li>vomiting </li>
+<li>reddish/brown discolouration of urine </li>
+</ul>
 <p>If you experience nausea or vomiting, it may help to take your Deferiprone Lipomed with some food. 
 Discoloured urine is a very common effect and is not harmful. </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- low white blood cell count (agranulocytosis and neutropenia) 
-- headache 
-- diarrhoea 
-- increase in liver enzymes 
-- fatigue 
-- increase in appetite </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- allergic reactions including skin rash or hives </p>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>low white blood cell count (agranulocytosis and neutropenia) </li>
+<li>headache </li>
+<li>diarrhoea </li>
+<li>increase in liver enzymes </li>
+<li>fatigue </li>
+<li>increase in appetite </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>allergic reactions including skin rash or hives </li>
+</ul>
 <p>Events of joint pain and swelling ranged from mild pain in one or more joints to severe disability. In 
 most cases, the pain disappeared while patients continued taking deferiprone. </p>
 <p>Additional side effects in children 
@@ -198,7 +204,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store deferiprone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not store above 25°C. </p>
+<p>Do not store above 25 C. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -213,8 +219,8 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Deferiprone Lipomed contains<br />
 The active substance is deferiprone. Each film-coated tablet contains 500 mg deferiprone. </p>
 <p>The other ingredients are: </p>
-<p>Tablet core: hypromellose, croscarmellose sodium (see section 2 “Deferiprone Lipomed contains 
-sodium”), silica, colloidal anhydrous, microcrystalline cellulose, magnesium stearate </p>
+<p>Tablet core: hypromellose, croscarmellose sodium (see section 2  Deferiprone Lipomed contains 
+sodium ), silica, colloidal anhydrous, microcrystalline cellulose, magnesium stearate </p>
 <p>Coating: hypromellose, macrogol 6 000, titanium dioxide </p>
 <p>What Deferiprone Lipomed looks like and contents of the pack 
 Deferiprone Lipomed 500 mg film-coated tablets are white to off-white, glossy surface, oval film-

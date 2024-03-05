@@ -4,7 +4,7 @@ Instance: composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
 InstanceOf: CompositionUvEpi
 Title: "Composition for armisarte Package Leaflet"
 Description:  "Composition for armisarte Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -116,8 +116,8 @@ medicine in children and adolescents under 18 years of age. </p>
 <p>Other medicines and Armisarte 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicine for pain or inflammation (swelling), such as medicines called 
-“nonsteroidal anti-inflammatory medicinal products” (NSAIDs), including medicines purchased 
-without a doctor’s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
+ nonsteroidal anti-inflammatory medicinal products  (NSAIDs), including medicines purchased 
+without a doctor s prescription (such as ibuprofen). There are many sorts of NSAIDs with different 
 durations of activity. Based on the planned date of your infusion of Armisarte and/or on the status of 
 your kidney function, your doctor needs to advise you on which medicines you can take and when you 
 can take them. If you are unsure, ask your doctor or pharmacist if any of your medicines are NSAIDs. </p>
@@ -147,7 +147,7 @@ Armisarte may make you feel tired. Be careful when driving a car or using machin
   * code.text = "3. How to take armisarte"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Armisarte 25 mg/ml concentrate for solution for infusion will always be given to you by a healthcare 
-professional. The dose of Armisarte is 500 milligrams for every square metre of your body’s surface 
+professional. The dose of Armisarte is 500 milligrams for every square metre of your body s surface 
 area. Your height and weight are measured to work out the surface area of your body. Your doctor will 
 use this body surface area to work out the right dose for you. This dose may be adjusted, or treatment 
 may be delayed depending on your blood cell counts and on your general condition. A hospital 
@@ -184,202 +184,121 @@ depending on results from these tests. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
-<p>You must contact your doctor immediately if you notice any of the following: 
-- Fever or infection (respectively, common or very common): if you have a temperature of 38 °C 
+<p>You must contact your doctor immediately if you notice any of the following:</p>
+<ul>
+<li>Fever or infection (respectively, common or very common): if you have a temperature of 38  C 
 or greater, sweating or other signs of infection(since you might have less white blood cells than 
-normal which is very common). Infection (sepsis) may be severe and could lead to death 
-- If you start feeling chest pain (common) or having a fast heart rate (uncommon) 
-- If you have pain, redness, swelling or sores in your mouth (very common) 
-- Allergic reaction: if you develop skin rash (very common) / burning or prickling sensation 
+normal which is very common). Infection (sepsis) may be severe and could lead to death </li>
+<li>If you start feeling chest pain (common) or having a fast heart rate (uncommon) </li>
+<li>If you have pain, redness, swelling or sores in your mouth (very common) </li>
+<li>Allergic reaction: if you develop skin rash (very common) / burning or prickling sensation 
 (common), or fever (common). Rarely, skin reactions may be severe and could lead to death. 
 Contact your doctor if you get a severe rash, or itching, or blistering (Stevens-Johnson 
-Syndrome or Toxic epidermal necrolysis) 
-- If you experience tiredness, feeling faint, becoming easily breathless or if you look pale (since 
-you might have less haemoglobin than normal which is very common) 
-- If you experience bleeding from the gums, nose or mouth or any bleeding that would not stop, 
+Syndrome or Toxic epidermal necrolysis) </li>
+<li>If you experience tiredness, feeling faint, becoming easily breathless or if you look pale (since 
+you might have less haemoglobin than normal which is very common) </li>
+<li>If you experience bleeding from the gums, nose or mouth or any bleeding that would not stop, 
 reddish or pinkish urine, unexpected bruising (since you might have less platelets than normal 
-which is common) 
-- If you experience sudden breathlessness, intense chest pain or cough with bloody sputum 
-(uncommon)(may indicate a blood clot in the blood vessels of the lungs) </p>
+which is common) </li>
+<li>If you experience sudden breathlessness, intense chest pain or cough with bloody sputum 
+(uncommon)(may indicate a blood clot in the blood vessels of the lungs) </li>
+</ul>
 <p>Other side effects with Armisarte may include: </p>
-<p>Very common (may affect more than 1 in 10 people) 
-– 
-Infection 
-– 
-Pharyngitis (a sore throat) 
-– 
-Low number of neutrophil granulocytes (a type of white blood cell) 
-– 
-Low white blood cells 
-– 
-Low haemoglobin level<br />
-– 
-Pain, redness, swelling or sores in your mouth 
-– 
-Loss of appetite 
-– 
-Vomiting 
-– 
-Diarrhoea 
-– 
-Nausea 
-– 
-Skin rash 
-– 
-Flaking skin 
-– 
-Abnormal blood tests showing reduced functionality of kidneys 
-– 
-Fatigue (tiredness) </p>
-<p>Common (may affect up to 1 in 10 people) 
-– 
-Blood infection 
-– 
-Fever with low number of neutrophil granulocytes (a type of white blood cell) 
-– 
-Low platelet count 
-– 
-Allergic reaction 
-– 
-Loss of body fluids 
-– 
-Taste change 
-– 
-Damage to the motor nerves which may cause muscle weakness and atrophy (wasting) primary 
-in the arms and legs) 
-– 
-Damage to the sensory nerves that may cause lost of sensation, burning pain and unsteady gait 
-– 
-Dizziness 
-– 
-Inflammation or swelling of the conjunctiva (the membrane that lines the eyelids and covers the 
-white of the eye 
-– 
-Dry eye 
-– 
-Watery eyes 
-– 
-Dryness of the conjunctiva (the membrane that lines the eyelids and covers the white of the eye) 
-and cornea (the clear layer in front of the iris and pupil. 
-– 
-Swelling of the eyelids 
-– 
-Eye disorder with dryness, tearing, irritation, and/or pain 
-– 
-Cardiac Failure (Condition that affects the pumping power of your heart muscles) 
-– 
-Irregular heart rhythm 
-– 
-Indigestion 
-– 
-Constipation 
-– 
-Abdominal pain 
-– 
-Liver: increases in the chemicals in the blood made by the liver 
-– 
-Increased skin pigmentation 
-– 
-Itchy skin 
-– 
-Rash on the body where each mark resembles a bullseye 
-– 
-Hair loss 
-– 
-Hives 
-– 
-Kidney stop working 
-– 
-Reduced functionality of kidney 
-– 
-Fever 
-– 
-Pain 
-– 
-Excess fluid in body tissue, causing swelling 
-– 
-Chest pain 
-– 
-Inflammation and ulceration of the mucous membranes lining the digestive tract </p>
-<p>Uncommon (may affect up to 1 in 100 people) 
-– 
-Reduction in the number of red,white blood cells and platelets 
-– 
-Stroke 
-– 
-Type of stroke when an artery to the brain is blocked 
-– 
-Bleeding inside the skull 
-– 
-Angina (Chest pain caused by reduced blood flow to the heart) 
-– 
-Heart attack 
-– 
-Narrowing or blockage of the coronary arteries 
-– 
-Increased heart rhythm 
-– 
-Deficient blood distribution to the limbs 
-– 
-Blockage in one of the pulmonary arteries in your lungs 
-– 
-Inflammation and scarring of the lining of the lungs with breathing problems 
-– 
-Passage of bright red blood from the anus 
-– 
-Bleeding in the gastrointestinal tract 
-– 
-Ruptured bowel 
-– 
-Inflammation of the lining of the oesophagus 
-– 
-Inflammation of the lining of the large bowel, which may be accompanied by intestinal or rectal 
-bleeding (seen only in combination with cisplatin) 
-– 
-Inflammation, edema, erythema, and erosion of the mucosal surface of the esophagus caused by 
-radiation therapy 
-– 
-Inflammation of the lung caused by radiation therapy </p>
-<p>Rare (may affect up to 1 in 1,000 people) 
-– 
-Destruction of red blood cells 
-– 
-Anaphylactic shock (severe allergic reaction) 
-– 
-Inflammatory condition of the liver 
-– 
-Redness of the skin 
-– 
-Skin rash that develops throughout a previously irradiated area </p>
-<p>Very rare (may affect up to 1 of 10,000 people) 
-– 
-Infections of skin and soft tissues 
-– 
-Stevens-Johnson syndrome (a type of severe skin and mucous membranes reaction that may be 
-life threatening) 
-– 
-Toxic epidermal necrolysis (a type of severe skin reaction that may be life threatening) 
-– 
-Autoimmune disorder that results in skin rashes and blistering on the legs, arms, and abdomen 
-– 
-Inflammation of the skin characterized by the presence of bullae which are filled with fluid 
-– 
-Skin fragility, blisters and erosions and skin scarring 
-– 
-Redness, pain and swelling mainly of the lower limbs 
-– 
-Inflammation of the skin and fat beneath the skin (pseudocellulitis) 
-– 
-Inflammation of the skin (dermatitis) 
-– 
-Skin to become inflamed, itchy, red, cracked, and rough 
-– 
-Intensely itchy spots </p>
-<p>Not known: frequency cannot be estimated from the available data 
-– 
-Form of diabetes primarily due to pathology of the kidney 
-– 
-Disorder of the kidneys involving the death of tubular epithelial cells that form the renal tubules </p>
+<p>Very common (may affect more than 1 in 10 people) </p>
+<p>Infection </p>
+<p>Pharyngitis (a sore throat) </p>
+<p>Low number of neutrophil granulocytes (a type of white blood cell) </p>
+<p>Low white blood cells </p>
+<p>Low haemoglobin level  </p>
+<p>Pain, redness, swelling or sores in your mouth </p>
+<p>Loss of appetite </p>
+<p>Vomiting </p>
+<p>Diarrhoea </p>
+<p>Nausea </p>
+<p>Skin rash </p>
+<p>Flaking skin </p>
+<p>Abnormal blood tests showing reduced functionality of kidneys </p>
+<p>Fatigue (tiredness) </p>
+<p>Common (may affect up to 1 in 10 people) </p>
+<p>Blood infection </p>
+<p>Fever with low number of neutrophil granulocytes (a type of white blood cell) </p>
+<p>Low platelet count </p>
+<p>Allergic reaction </p>
+<p>Loss of body fluids </p>
+<p>Taste change </p>
+<p>Damage to the motor nerves which may cause muscle weakness and atrophy (wasting) primary 
+in the arms and legs) </p>
+<p>Damage to the sensory nerves that may cause lost of sensation, burning pain and unsteady gait </p>
+<p>Dizziness </p>
+<p>Inflammation or swelling of the conjunctiva (the membrane that lines the eyelids and covers the 
+white of the eye </p>
+<p>Dry eye </p>
+<p>Watery eyes </p>
+<p>Dryness of the conjunctiva (the membrane that lines the eyelids and covers the white of the eye) 
+and cornea (the clear layer in front of the iris and pupil. </p>
+<p>Swelling of the eyelids </p>
+<p>Eye disorder with dryness, tearing, irritation, and/or pain </p>
+<p>Cardiac Failure (Condition that affects the pumping power of your heart muscles) </p>
+<p>Irregular heart rhythm </p>
+<p>Indigestion </p>
+<p>Constipation </p>
+<p>Abdominal pain </p>
+<p>Liver: increases in the chemicals in the blood made by the liver </p>
+<p>Increased skin pigmentation </p>
+<p>Itchy skin </p>
+<p>Rash on the body where each mark resembles a bullseye </p>
+<p>Hair loss </p>
+<p>Hives </p>
+<p>Kidney stop working </p>
+<p>Reduced functionality of kidney </p>
+<p>Fever </p>
+<p>Pain </p>
+<p>Excess fluid in body tissue, causing swelling </p>
+<p>Chest pain </p>
+<p>Inflammation and ulceration of the mucous membranes lining the digestive tract </p>
+<p>Uncommon (may affect up to 1 in 100 people) </p>
+<p>Reduction in the number of red,white blood cells and platelets </p>
+<p>Stroke </p>
+<p>Type of stroke when an artery to the brain is blocked </p>
+<p>Bleeding inside the skull </p>
+<p>Angina (Chest pain caused by reduced blood flow to the heart) </p>
+<p>Heart attack </p>
+<p>Narrowing or blockage of the coronary arteries </p>
+<p>Increased heart rhythm </p>
+<p>Deficient blood distribution to the limbs </p>
+<p>Blockage in one of the pulmonary arteries in your lungs </p>
+<p>Inflammation and scarring of the lining of the lungs with breathing problems </p>
+<p>Passage of bright red blood from the anus </p>
+<p>Bleeding in the gastrointestinal tract </p>
+<p>Ruptured bowel </p>
+<p>Inflammation of the lining of the oesophagus </p>
+<p>Inflammation of the lining of the large bowel, which may be accompanied by intestinal or rectal 
+bleeding (seen only in combination with cisplatin) </p>
+<p>Inflammation, edema, erythema, and erosion of the mucosal surface of the esophagus caused by 
+radiation therapy </p>
+<p>Inflammation of the lung caused by radiation therapy </p>
+<p>Rare (may affect up to 1 in 1,000 people) </p>
+<p>Destruction of red blood cells </p>
+<p>Anaphylactic shock (severe allergic reaction) </p>
+<p>Inflammatory condition of the liver </p>
+<p>Redness of the skin </p>
+<p>Skin rash that develops throughout a previously irradiated area </p>
+<p>Very rare (may affect up to 1 of 10,000 people) </p>
+<p>Infections of skin and soft tissues </p>
+<p>Stevens-Johnson syndrome (a type of severe skin and mucous membranes reaction that may be 
+life threatening) </p>
+<p>Toxic epidermal necrolysis (a type of severe skin reaction that may be life threatening) </p>
+<p>Autoimmune disorder that results in skin rashes and blistering on the legs, arms, and abdomen </p>
+<p>Inflammation of the skin characterized by the presence of bullae which are filled with fluid </p>
+<p>Skin fragility, blisters and erosions and skin scarring </p>
+<p>Redness, pain and swelling mainly of the lower limbs </p>
+<p>Inflammation of the skin and fat beneath the skin (pseudocellulitis) </p>
+<p>Inflammation of the skin (dermatitis) </p>
+<p>Skin to become inflamed, itchy, red, cracked, and rough </p>
+<p>Intensely itchy spots </p>
+<p>Not known: frequency cannot be estimated from the available data </p>
+<p>Form of diabetes primarily due to pathology of the kidney </p>
+<p>Disorder of the kidneys involving the death of tubular epithelial cells that form the renal tubules </p>
 <p>You might have any of these symptoms and/or conditions. You must tell your doctor as soon as 
 possible when you start experiencing any of these side effects. </p>
 <p>Reporting of side effects 
@@ -394,23 +313,23 @@ medicine. </p>         </div>"""
   * code.text = "5. How to store armisarte"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after ‘EXP’. The 
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>Unopened vial 
-Store and transport refrigerated (2 °C-8 °C). 
+Store and transport refrigerated (2  C-8  C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>After first opening of the vial 
 4 ml vial (100 mg/4 ml) 
-Chemical and physical in-use stability has been demonstrated for 7 days at 2 °C-8 °C. </p>
+Chemical and physical in-use stability has been demonstrated for 7 days at 2  C-8  C. </p>
 <p>20 ml (500 mg/20 ml), 34 ml (850 mg/34 ml) and 40 ml (1000 mg/40 ml) vials 
-Chemical and physical in-use stability has been demonstrated for 14 days at 2 °C-8 °C. </p>
+Chemical and physical in-use stability has been demonstrated for 14 days at 2  C-8  C. </p>
 <p>Infusion Solution 
 Chemical and physical in-use stability of infusion solution of pemetrexed was demonstrated for 
 24 hours at room temperature and 7 days at refrigerated temperature. </p>
 <p>From a microbiological point of view, the product should be used immediately. If not used 
 immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-would normally not be longer than 24 hours at 2 °C-8 °C, unless method of opening/dilution has taken 
+would normally not be longer than 24 hours at 2  C-8  C, unless method of opening/dilution has taken 
 place in controlled and validated aseptic conditions. </p>
 <p>Armisarte should not been used if there are any signs of particles. </p>
 <p>Any unused concentrate left in the vial, which has exceeded the in-use shelf life, must be disposed of 
@@ -446,12 +365,12 @@ polypropylene disk. Vials may or may not be sheathed in a protective sleeve. </p
 <p>Marketing Authorisation Holder 
 Actavis Group PTC ehf. 
 Dalshraun 1 
-220 Hafnarfjörður 
+220 Hafnarfj r ur 
 Iceland </p>
 <p>Manufacturer 
 PLIVA CROATIA Ltd. 
 10000 Zagreb 
-Prilaz baruna Filipovića Croatia </p>
+Prilaz baruna Filipovi a Croatia </p>
 <p>Actavis Italy S.p.A. 
 Via Pasteur 20014 Nerviano (Milan) 
 Italy </p>
@@ -461,24 +380,22 @@ Italy </p>
 Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-Tél/Tel: +32 38207 
-Česká republika 
+T l/Tel: +32 38207 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -498,29 +415,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS A.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS A.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873280  </p>
 <p>Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o.<br />
 Tel: +385 13720000  </p>
-<p>România 
+<p>Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -529,10 +445,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -540,16 +456,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS A.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>TEVA HELLAS A.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

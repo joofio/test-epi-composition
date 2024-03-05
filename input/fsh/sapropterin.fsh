@@ -4,7 +4,7 @@ Instance: composition-en-a170adf9726f4d3c42997e5fb725cb61
 InstanceOf: CompositionUvEpi
 Title: "Composition for sapropterin Package Leaflet"
 Description:  "Composition for sapropterin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What sapropterin is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sapropterin Dipharma contains the active substance sapropterin which is a synthetic copy of a body’s 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sapropterin Dipharma contains the active substance sapropterin which is a synthetic copy of a body s 
 own substance called tetrahydrobiopterin (BH4). BH4 is required by the body to use an amino acid 
 called phenylalanine in order to build another amino acid called tyrosine. </p>
 <p>Sapropterin Dipharma is used to treat hyperphenylalaninaemia (HPA) or phenylketonuria (PKU) in 
@@ -93,12 +93,14 @@ increases the dietary tolerance to phenylalanine. </p>         </div>"""
 - if you are allergic to sapropterin or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking Sapropterin Dipharma, particularly: 
-- if you are 65 years of age or older 
-- if you have problems with your kidney or liver 
-- if you are ill. Consultation with a physician is recommended during illness as blood 
-phenylalanine levels may increase 
-- if you have predisposition to convulsions </p>
+Talk to your doctor or pharmacist before taking Sapropterin Dipharma, particularly:</p>
+<ul>
+<li>if you are 65 years of age or older </li>
+<li>if you have problems with your kidney or liver </li>
+<li>if you are ill. Consultation with a physician is recommended during illness as blood 
+phenylalanine levels may increase </li>
+<li>if you have predisposition to convulsions </li>
+</ul>
 <p>When you are treated with Sapropterin Dipharma, your doctor will test your blood to verify how much 
 phenylalanine and tyrosine it contains and may decide to adjust the dose of Sapropterin Dipharma or 
 your diet if needed. </p>
@@ -109,12 +111,14 @@ continue to monitor your blood phenylalanine levels often during your treatment 
 Dipharma, to make sure that your blood phenylalanine levels are not too high or too low. </p>
 <p>Other medicines and Sapropterin Dipharma 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. In particular you should tell your doctor if you are using: 
-- levodopa (used to treat Parkinson’s disease) 
-- medicines for treatment of cancer (e.g. methotrexate) 
-- medicines for treatment of bacterial infections (e.g. trimethoprim) 
-- medicines that cause dilation of blood vessels, (such as glyceryl trinitrate (GTN), isosorbide 
-dinitrate (ISDN), sodium nitroprusside (SNP), molsidomin, minoxidil). </p>
+medicines. In particular you should tell your doctor if you are using:</p>
+<ul>
+<li>levodopa (used to treat Parkinson s disease) </li>
+<li>medicines for treatment of cancer (e.g. methotrexate) </li>
+<li>medicines for treatment of bacterial infections (e.g. trimethoprim) </li>
+<li>medicines that cause dilation of blood vessels, (such as glyceryl trinitrate (GTN), isosorbide 
+dinitrate (ISDN), sodium nitroprusside (SNP), molsidomin, minoxidil). </li>
+</ul>
 <p>Pregnancy, breast-feeding and fertility 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
@@ -128,8 +132,8 @@ consider whether you must take this medicine. </p>
 <p>Driving and using machines 
 Sapropterin Dipharma is not expected to affect the ability to drive and use machines. </p>
 <p>Sapropterin Dipharma contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sapropterin"
@@ -189,15 +193,15 @@ The dose is based on body weight. This will change as your child grows. Your doc
 </ul>
 <p>Your child should drink the solution with a meal. </p>
 <p>Give your child the prescribed amount of solution within 15 to 20 minutes after dissolving. If you are 
-not able to give your child’s dose within 15 to 20 minutes after dissolving the tablets, you will need to 
+not able to give your child s dose within 15 to 20 minutes after dissolving the tablets, you will need to 
 prepare a new solution as the unused solution should not be used beyond 20 minutes. </p>
-<p>Supplies needed to prepare and give your child’s dose of Sapropterin Dipharma 
+<p>Supplies needed to prepare and give your child s dose of Sapropterin Dipharma 
 * The number of Sapropterin Dipharma tablets needed for one dose 
 * A medicine cup with graduation markings at 20, 40, 60 and 80 ml 
 * A glass or cup 
 * Small spoon or clean utensil for stirring 
 * Oral syringe (graduated in 1 ml divisions) (10 ml syringe for administration of volumes of 
-≤ 10 ml or 20 ml syringe for administration of volumes of &gt; 10 ml) </p>
+  10 ml or 20 ml syringe for administration of volumes of &gt; 10 ml) </p>
 <p>Ask your doctor for the medicine cup for dissolving the tablets and the 10 ml or 20 ml oral syringe if 
 you do not have these supplies. </p>
 <p>Steps for preparing and taking your dose: 
@@ -214,12 +218,12 @@ syringe is transferred to a glass or cup for administration (e.g. if your doctor
 two Sapropterin Dipharma tablets in 40 ml water and administer 30 ml to your child, you would 
 have to use the 20 ml oral syringe two times to draw up 30 ml (e.g. 20 ml + 10 ml) of the 
 solution and transfer it to a glass or cup for administration). Use a 10 ml oral syringe for 
-administration of volumes ≤ 10 ml or a 20 ml oral syringe for administration of volumes </p>
+administration of volumes   10 ml or a 20 ml oral syringe for administration of volumes </p>
 <blockquote>
 <p>10 ml. 
 * If your baby is too small to drink from a glass or a cup you may administer the solution via the 
 oral syringe. Draw up the prescribed volume from the solution prepared in the medicine cup and 
-place the tip of the oral syringe into your baby’s mouth. Point the tip of the oral syringe towards 
+place the tip of the oral syringe into your baby s mouth. Point the tip of the oral syringe towards 
 either cheek. Push on the plunger slowly, a small amount at a time, until all of the solution in 
 the oral syringe is given. 
 * Throw away any remaining solution. Remove the plunger from the barrel of the oral syringe. 
@@ -254,8 +258,8 @@ serious allergic reaction to the medicine. If you notice these signs, contact yo
 Headache and runny nose. </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
 Sore throat, nasal congestion or stuffy nose, cough, diarrhoea, vomiting, stomach ache, too low levels 
-of phenylalanine in blood tests, indigestion and feeling sick (nausea) (see section 2: “Warnings and 
-precautions”). </p>
+of phenylalanine in blood tests, indigestion and feeling sick (nausea) (see section 2:  Warnings and 
+precautions ). </p>
 <p>Not known side effects (frequency cannot be estimated from the available data) 
 Gastritis (inflammation of the lining of the stomach), oesophagitis (inflammation of the lining of the 
 gullet). </p>
@@ -271,7 +275,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store sapropterin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special temperature storage conditions. 
 Keep the bottle tightly closed in order to protect from moisture.  </p>
@@ -289,10 +293,10 @@ throw away medicines you no longer use. These measures will help protect the env
 dihydrochloride equivalent to 77 mg of sapropterin. 
 - The other ingredients are mannitol (E421), crospovidone type A, copovidone K 28, ascorbic 
 acid (E300), sodium stearyl fumarate, riboflavin (E101), anhydrous colloidal silica (E551). See 
-section 2. “Sapropterin Dipharma contains sodium”. </p>
+section 2.  Sapropterin Dipharma contains sodium . </p>
 <p>What Sapropterin Dipharma looks like and contents of the pack 
 Sapropterin Dipharma 100 mg soluble tablets are white to off-white, approximately 
-10 mm x 3.65 mm, round tablet debossed with “11” on one side and breakline on the other side. 
+10 mm x 3.65 mm, round tablet debossed with  11  on one side and breakline on the other side. 
 The score line is not intended for breaking the tablet. </p>
 <p>It is available in bottles with child-resistant closure with screw cap containing desiccant (silica). Packs 
 of 30 and 120 soluble tablets.  </p>

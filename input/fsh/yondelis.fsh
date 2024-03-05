@@ -4,7 +4,7 @@ Instance: composition-en-d8787a27d7ba4af2fcd538383133d1e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for yondelis Package Leaflet"
 Description:  "Composition for yondelis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -157,7 +157,7 @@ closely monitored as the effects of Yondelis are: </p>
 <ul>
 <li>
 <p>decreased (examples are medicines containing rifampicin (for bacterial infections), 
-phenobarbital (for epilepsy) or St. John’s Wort (Hypericum perforatum, an herbal medicine for 
+phenobarbital (for epilepsy) or St. John s Wort (Hypericum perforatum, an herbal medicine for 
 depression)) or  </p>
 </li>
 <li>
@@ -198,7 +198,7 @@ of irreversible infertility due to therapy with Yondelis. </p>
 drive or use any tools or machines if you are experiencing any of these side effects. </p>
 <p>Yondelis contains potassium </p>
 <p>This medicine contains potassium, less than 1 mmol (39 mg) per vial, and can therefore be 
-considered as essentially “potassium-free”. </p>         </div>"""   
+considered as essentially  potassium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yondelis"
@@ -262,7 +262,7 @@ general swelling or swelling of the limbs and a sensation of creeping on the ski
 <li>
 <p>You may have a reaction at the site of injection. Yondelis infusion may leak out of your vein 
 while you are being given it, leading to damage and death of your tissue cells around the 
-injection site (tissue necrosis, see also section 2 “Warnings and precautions”) which may 
+injection site (tissue necrosis, see also section 2  Warnings and precautions ) which may 
 require surgery. </p>
 </li>
 <li>
@@ -331,13 +331,13 @@ symptoms or signs, seek medical care immediately. </li>
 <p>Very common: may affect more than 1 in 10 people </p>
 <ul>
 <li>You may: 
-• feel tired 
-• feel difficulty breathing and coughing 
-• feel pain in your back 
-• feel an excess of fluid in the body (oedema) 
-• bruise more easily 
-• have nose bleeds 
-• be more prone to infections. An infection could also give you a raised temperature 
+  feel tired 
+  feel difficulty breathing and coughing 
+  feel pain in your back 
+  feel an excess of fluid in the body (oedema) 
+  bruise more easily 
+  have nose bleeds 
+  be more prone to infections. An infection could also give you a raised temperature 
 (fever).  </li>
 </ul>
 <p>If you develop any of these symptoms you should seek medical attention immediately.  </p>
@@ -400,7 +400,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 ºC - 8 ºC). </p>
+<p>Store in a refrigerator (2  C - 8  C). </p>
 <p>Information on in-use stability of the reconstituted and diluted solutions is included in the section for 
 medical and healthcare professionals.  </p>
 <p>Do not use this medicine if you notice visible particles after the reconstitution or dilution of the 
@@ -431,7 +431,7 @@ colour and comes in a glass vial. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Pharma Mar, S.A.<br />
 Avda. de los Reyes 1 
-Polígono Industrial La Mina 
+Pol gono Industrial La Mina 
 28770 Colmenar Viejo (Madrid) 
 Spain 
 Tel: +34 91 846 60 Fax: +34 91 846 60<br />

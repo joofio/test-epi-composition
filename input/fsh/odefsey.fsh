@@ -4,7 +4,7 @@ Instance: composition-en-91f303ca4d5b29f50d2776105159918a
 InstanceOf: CompositionUvEpi
 Title: "Composition for odefsey Package Leaflet"
 Description:  "Composition for odefsey Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Odefsey is an antiviral medicine used to treat infection by the Human Immunodeficiency 
 Virus (HIV).  It is a single tablet that contains a combination of three active substances: 
 emtricitabine, rilpivirine and tenofovir alafenamide.  Each of these active substances works by 
-interfering with an enzyme called ‘reverse transcriptase’, which is essential for the HIV-1 virus to 
+interfering with an enzyme called  reverse transcriptase , which is essential for the HIV-1 virus to 
 multiply. </p>
 <p>Odefsey reduces the amount of HIV in your body.  This will improve your immune system and reduce 
 the risk of developing illnesses linked to HIV infection. </p>
@@ -92,10 +92,12 @@ the risk of developing illnesses linked to HIV infection. </p>
 ingredients of this medicine (listed in section 6). </p>
 </li>
 <li>
-<p>If you are currently taking any of the following medicines: </p>
+<p>If you are currently taking any of the following medicines:</p>
 </li>
-<li>carbamazepine, oxcarbazepine, phenobarbital and phenytoin (used to treat epilepsy 
-and prevent seizures) </li>
+<li>
+<p>carbamazepine, oxcarbazepine, phenobarbital and phenytoin (used to treat epilepsy 
+and prevent seizures) </p>
+</li>
 <li>rifabutin, rifampicin and rifapentine (used to treat some bacterial infections such as 
 tuberculosis) </li>
 <li>omeprazole, dexlansoprazole, lansoprazole, rabeprazole, pantoprazole and 
@@ -105,11 +107,11 @@ esomeprazole (used to prevent and treat stomach ulcers, heartburn, acid reflux d
 immune system) when taken by mouth or injected (except as a single dose treatment) </p>
 </li>
 <li>
-<p>products that contain St. John’s wort (Hypericum perforatum) (a herbal remedy used 
+<p>products that contain St. John s wort (Hypericum perforatum) (a herbal remedy used 
 for depression and anxiety) </p>
 </li>
 </ul>
-<p>→ If this applies to you, do not take Odefsey and tell your doctor immediately. </p>
+<p>If this applies to you, do not take Odefsey and tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <p>You must remain under the care of your doctor while taking Odefsey. </p>
 <p>This medicine is not a cure for HIV infection.  While taking Odefsey you may still develop infections 
@@ -143,7 +145,7 @@ treatment with Odefsey. </p>
 <li>Signs of inflammation or infection </li>
 <li>Joint pain, stiffness or bone problems </li>
 </ul>
-<p>→ If you notice any of these symptoms, tell your doctor immediately.  For more information see 
+<p>If you notice any of these symptoms, tell your doctor immediately.  For more information see 
 section 4, Possible side effects. </p>
 <p>There is a possibility that you may experience kidney problems when taking Odefsey over a long 
 period of time (see Warnings and precautions). </p>
@@ -157,7 +159,7 @@ medicines.  Odefsey may interact with other medicines.  As a result, the amounts
 medicines in your blood may be affected.  This may stop your medicines from working properly, or 
 may make any side effects worse.  In some cases, your doctor may need to adjust your dose or check 
 your blood levels. </p>
-<p>Medicines that must never be taken with Odefsey: </p>
+<p>Medicines that must never be taken with Odefsey:</p>
 <ul>
 <li>carbamazepine, oxcarbazepine, phenobarbital and phenytoin (used to treat epilepsy 
 and prevent seizures) </li>
@@ -167,10 +169,10 @@ tuberculosis) </li>
 esomeprazole (used to prevent and treat stomach ulcers, heartburn, acid reflux disease) </li>
 <li>dexamethasone (a corticosteroid medicine used to treat inflammation and suppress the 
 immune system) when taken by mouth or injected (except as a single dose treatment) </li>
-<li>products that contain St. John’s wort (Hypericum perforatum) (a herbal remedy used 
+<li>products that contain St. John s wort (Hypericum perforatum) (a herbal remedy used 
 for depression and anxiety) </li>
 </ul>
-<p>→ If you are taking any of these medicines, do not take Odefsey and tell your doctor immediately. </p>
+<p>If you are taking any of these medicines, do not take Odefsey and tell your doctor immediately. </p>
 <p>Other types of medicine: </p>
 <p>Talk to your doctor if you are taking: </p>
 <ul>
@@ -178,27 +180,33 @@ for depression and anxiety) </li>
 <p>Any medicines used for treating HIV </p>
 </li>
 <li>
-<p>Any medicines containing: </p>
+<p>Any medicines containing:</p>
 </li>
-<li>tenofovir alafenamide </li>
+<li>
+<p>tenofovir alafenamide </p>
+</li>
 <li>tenofovir disoproxil </li>
 <li>lamivudine </li>
 <li>
 <p>adefovir dipivoxil </p>
 </li>
 <li>
-<p>Antibiotics used to treat bacterial infections containing: </p>
+<p>Antibiotics used to treat bacterial infections containing:</p>
 </li>
-<li>clarithromycin </li>
+<li>
+<p>clarithromycin </p>
+</li>
 <li>
 <p>erythromycin 
 These medicines can increase the amount of rilpivirine and tenofovir alafenamide (components 
 of Odefsey) in your blood.  Your doctor will give you a different medicine. </p>
 </li>
 <li>
-<p>Antifungal medicines used to treat fungal infections: </p>
+<p>Antifungal medicines used to treat fungal infections:</p>
 </li>
-<li>ketoconazole </li>
+<li>
+<p>ketoconazole </p>
+</li>
 <li>fluconazole </li>
 <li>itraconazole </li>
 <li>posaconazole </li>
@@ -208,14 +216,16 @@ These medicines can increase the amount of rilpivirine and tenofovir alafenamide
 of Odefsey) in your blood.  Your doctor will give you a different medicine. </p>
 </li>
 <li>
-<p>Medicines for stomach ulcers, heartburn or acid reflux such as: </p>
+<p>Medicines for stomach ulcers, heartburn or acid reflux such as:</p>
 </li>
-<li>antacids (aluminium/magnesium hydroxide or calcium carbonate) </li>
+<li>
+<p>antacids (aluminium/magnesium hydroxide or calcium carbonate) </p>
+</li>
 <li>
 <p>H2-antagonists (famotidine, cimetidine, nizatidine or ranitidine) 
 These medicines can decrease the amount of rilpivirine (a component of Odefsey) in your 
 blood.  If you are taking one of these medicines your doctor will either give you a different 
-medicine, or recommend how and when you take that medicine: </p>
+medicine, or recommend how and when you take that medicine:</p>
 </li>
 <li>
 <p>If you are taking an antacid, take it at least 2 hours before or at least 4 hours after 
@@ -228,7 +238,7 @@ H2-antagonists should not be taken in a twice a day regimen.  Talk to your docto
 an alternative regimen (see How to take Odefsey). </p>
 </li>
 <li>
-<p>Ciclosporin, a medicine used to reduce the strength of the body’s immune system: 
+<p>Ciclosporin, a medicine used to reduce the strength of the body s immune system: 
 This medicine can increase the amount of rilpivirine and tenofovir alafenamide (components of 
 Odefsey) in your blood.  Your doctor will give you a different medicine. </p>
 </li>
@@ -241,7 +251,7 @@ methadone dose. </p>
 monitor the levels of this medicine in your blood. </p>
 </li>
 </ul>
-<p>→ Tell your doctor if you are taking any of these medicines.  Do not stop your treatment without 
+<p>Tell your doctor if you are taking any of these medicines.  Do not stop your treatment without 
 contacting your doctor. </p>
 <p>Pregnancy and breast-feeding </p>
 <ul>
@@ -269,9 +279,9 @@ soon as possible. </p>
 <p>Odefsey contains lactose and sodium </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>
-<p>→ If any of these applies to you, talk to your doctor before taking Odefsey. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>
+<p>If any of these applies to you, talk to your doctor before taking Odefsey. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take odefsey"
@@ -319,7 +329,7 @@ short time.  The disease may then become harder to treat. </p>
 treatment without talking to your doctor first.  You may require blood tests for several months after 
 stopping treatment.  In some patients with advanced liver disease or cirrhosis, stopping treatment is 
 not recommended as this may lead to worsening of your hepatitis, which may be life-threatening. </p>
-<p>→ Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
+<p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -337,20 +347,22 @@ particularly symptoms you associate with hepatitis B infection. </p>
 (AIDS) and a history of opportunistic infections (infections that occur in people with a weak 
 immune system), signs and symptoms of inflammation from previous infections may occur soon 
 after HIV treatment is started.  It is thought that these symptoms are due to an improvement in 
-the body’s immune response, enabling the body to fight infections that may have been present 
+the body s immune response, enabling the body to fight infections that may have been present 
 with no obvious symptoms. </p>
 </li>
 <li>
 <p>Autoimmune disorders, when the immune system attacks healthy body tissue, may also occur 
 after you start taking medicines for HIV infection.  Autoimmune disorders may occur many 
 months after the start of treatment.  Look out for any symptoms of infection or other symptoms 
-such as: </p>
+such as:</p>
 </li>
-<li>muscle weakness </li>
+<li>
+<p>muscle weakness </p>
+</li>
 <li>weakness beginning in the hands and feet and moving up towards the trunk of the body </li>
 <li>palpitations, tremor or hyperactivity </li>
 </ul>
-<p>→ If you notice these or any symptoms of inflammation or infection, tell your doctor 
+<p>If you notice these or any symptoms of inflammation or infection, tell your doctor 
 immediately. </p>
 <p>Very common side effects 
 (may affect more than 1 in 10 people) 
@@ -395,20 +407,24 @@ infection)
 * itching (pruritus) 
 * hives (urticaria) 
 * joint pain (arthralgia) </p>
-<p>→ If any of the side effects get serious tell your doctor. </p>
+<p>If any of the side effects get serious tell your doctor. </p>
 <p>Other effects that may be seen during HIV treatment </p>
 <p>The frequency of the following side effects is not known (frequency cannot be estimated from the 
 available data). </p>
 <ul>
-<li>Bone problems.  Some patients taking combination antiretroviral medicines such as Odefsey 
+<li>
+<p>Bone problems.  Some patients taking combination antiretroviral medicines such as Odefsey 
 may develop a bone disease called osteonecrosis (death of bone tissue caused by loss of blood 
 supply to the bone).  Taking this type of medicine for a long time, taking corticosteroids, 
 drinking alcohol, having a very weak immune system, and being overweight, may be some of 
-the many risk factors for developing this disease.  Signs of osteonecrosis are: </li>
-<li>joint stiffness </li>
+the many risk factors for developing this disease.  Signs of osteonecrosis are:</p>
+</li>
+<li>
+<p>joint stiffness </p>
+</li>
 <li>joint aches and pains (especially of the hip, knee and shoulder) </li>
 <li>difficulty with movement 
-→ If you notice any of these symptoms tell your doctor. </li>
+  If you notice any of these symptoms tell your doctor. </li>
 </ul>
 <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose.  This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -448,7 +464,7 @@ polysorbate 20, povidone. </p>
 <p>Film-coating: 
 Macrogol, polyvinyl alcohol, talc, titanium dioxide (E171), iron oxide black (E172). </p>
 <p>What Odefsey looks like and contents of the pack </p>
-<p>Odefsey is a grey, capsule-shaped, film-coated tablet debossed on one side with “GSI” and “255” on 
+<p>Odefsey is a grey, capsule-shaped, film-coated tablet debossed on one side with  GSI  and  255  on 
 the other side.  Odefsey comes in bottles of 30 tablets and in packs made up of 3 bottles, each 
 containing 30 tablets.  Each bottle contains a silica gel desiccant that must be kept in the bottle to help 
 protect your tablets.  The silica gel desiccant is contained in a separate sachet or canister and should 
@@ -466,22 +482,21 @@ County Cork
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV<br />
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 </p>
-<p>България 
-Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+<p>Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV<br />
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -501,14 +516,13 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1 
 Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -516,14 +530,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -532,10 +546,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -543,10 +557,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

@@ -4,7 +4,7 @@ Instance: composition-en-3552692c711f8f7419edb391c717f809
 InstanceOf: CompositionUvEpi
 Title: "Composition for brineura Package Leaflet"
 Description:  "Composition for brineura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,7 +96,7 @@ doctor may decide to continue treatment once the device infection or problems ar
 <p>Warnings and precautions<br />
 Talk to your doctor before you or your child is given Brineura. 
 - You or your child may get problems with the implanted device used during treatment with 
-Brineura (see section 4 “Possible side effects”), including infection or a fault in the device. 
+Brineura (see section 4  Possible side effects ), including infection or a fault in the device. 
 Signs that you or your child may have an infection include fever, headache, neck stiffness, light 
 sensitivity, nausea, vomiting, and change in mental status. Signs of problems with the device </p>
 <p>include swelling, redness of the scalp, fluid leaking from device and bulging of the scalp. 
@@ -108,7 +108,7 @@ doctor will monitor you or your child for symptoms of life threatening allergic 
 as hives, itching or flushing, swollen lips, tongue, and/or throat, chills, accelerated heart rhythm, 
 shortness of breath, hoarseness, turning blue around finger tips or lips, low muscle tone, 
 fainting, diarrhoea or incontinence. Seek immediate medical care should these symptoms occur. 
-- Your doctor will check your or your child’s heart rate, blood pressure, respiratory rate, and 
+- Your doctor will check your or your child s heart rate, blood pressure, respiratory rate, and 
 temperature before, during, and after treatment. The doctor may decide on additional monitoring 
 if it is needed. 
 - Your doctor will check for abnormal heart electrical activities (ECG) every 6 months. If you or 
@@ -135,7 +135,7 @@ doctor.  </p>
 This medicine contains 17.4 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 0.87% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>This medicine contains potassium, less than 1 mmol (39 mg) per vial, that is to say essentially 
-‘potassium-free’. </p>         </div>"""   
+ potassium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brineura"
@@ -148,21 +148,21 @@ helps the medicine to reach a specific part of the brain. </p>
 intracerebroventricular use (infusion into the fluid of the brain) in a hospital or clinic. </p>
 <p>This medicine has not been given to patients younger than 1 year of age or older than 9 years of age 
 (at the start of the clinical trial).  </p>
-<p>The recommended dose of this medicine is based upon your or your child’s age, and is given once 
-every other week as follows: </p>
+<p>The recommended dose of this medicine is based upon your or your child s age, and is given once 
+every other week as follows:</p>
 <ul>
 <li>birth to &lt; 6 months: 100 mg </li>
 <li>6 months to &lt; 1 year: 150 mg </li>
 <li>1 year to &lt; 2 years: 200 mg (first 4 doses), 300 mg (all other doses) </li>
-<li>≥ 2 years: 300 mg </li>
+<li>2 years: 300 mg </li>
 </ul>
-<p>Your doctor may adjust you or your child’s dose or the amount of time the medicine is given if the 
+<p>Your doctor may adjust you or your child s dose or the amount of time the medicine is given if the 
 infusion is not tolerated, there is an allergic reaction or there is a possible increase of pressure in the 
 brain. </p>
 <p>The medicine is slowly pumped through the implanted device. After the medicine has been given, a 
 shorter infusion of a solution is given to flush Brineura out of the infusion equipment so that the full 
 dose reaches the brain. The medicine and solution will be given over about 2 to 4 hours and 
-30 minutes according to your or your child’s dose. Your doctor may lower the dose or the speed of the 
+30 minutes according to your or your child s dose. Your doctor may lower the dose or the speed of the 
 infusion based on your response during the treatment. </p>
 <p>Your doctor may give you or your child medicines, such as antipyretics to reduce fever or 
 antihistamines to treat allergic reactions before each treatment with this medicine to reduce side effects 
@@ -177,40 +177,54 @@ that can occur during or shortly after treatment. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Talk to your doctor or nurse immediately if you experience any of the following: </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- convulsions (seizures) 
-- reactions during or shortly after being given the medicine, such as hives, itching or flushing, 
-swollen lips, tongue and/or throat, shortness of breath, hoarseness, turning blue around finger 
-tips or lips, low muscle tone, fainting or incontinence. 
-- device-related bacterial infections  </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- severe allergic reaction (anaphylactic reactions). </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- inflammation of the brain (meningitis) due to device-related infection. </p>
-<p>This medicine may cause other side effects: </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- fever 
-- vomiting 
-- feeling irritable<br />
-- headache 
-- increased or decreased protein in the brain fluid detected by laboratory monitoring 
-- abnormal results of heart electrical activity (ECG) 
-- increased cells in the spinal fluid detected by laboratory monitoring 
-- device does not function correctly due to a blockage detected during preparation for infusion 
-- leakage of the device </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
 <ul>
-<li>needle issue (infusion needle falls out of implanted device). </li>
+<li>convulsions (seizures) </li>
+<li>reactions during or shortly after being given the medicine, such as hives, itching or flushing, 
+swollen lips, tongue and/or throat, shortness of breath, hoarseness, turning blue around finger 
+tips or lips, low muscle tone, fainting or incontinence. </li>
+<li>device-related bacterial infections  </li>
 </ul>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- slower heart beat<br />
-- rash 
-- hives 
-- device breakage 
-- device site irritation 
-- feeling nervous 
-- disorder of the stomach or intestines. </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-- device is displaced and does not function correctly when preparing for infusion. </p>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>severe allergic reaction (anaphylactic reactions). </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>inflammation of the brain (meningitis) due to device-related infection. </li>
+</ul>
+<p>This medicine may cause other side effects: </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>fever </li>
+<li>vomiting </li>
+<li>feeling irritable  </li>
+<li>headache </li>
+<li>increased or decreased protein in the brain fluid detected by laboratory monitoring </li>
+<li>abnormal results of heart electrical activity (ECG) </li>
+<li>increased cells in the spinal fluid detected by laboratory monitoring </li>
+<li>device does not function correctly due to a blockage detected during preparation for infusion </li>
+<li>
+<p>leakage of the device </p>
+</li>
+<li>
+<p>needle issue (infusion needle falls out of implanted device). </p>
+</li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>slower heart beat  </li>
+<li>rash </li>
+<li>hives </li>
+<li>device breakage </li>
+<li>device site irritation </li>
+<li>feeling nervous </li>
+<li>disorder of the stomach or intestines. </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>device is displaced and does not function correctly when preparing for infusion. </li>
+</ul>
 <p>Reporting of side effects<br />
 If you or your child gets any side effects, talk to your doctor. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -225,14 +239,14 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the vials and carton after EXP. The 
 expiry date refers to the last day of that month.  </p>
-<p>Store upright in a freezer (-25°C to -15°C). Store in the original package, in order to protect from light. 
-Transport and distribute frozen (-85°C to -15°C). </p>
+<p>Store upright in a freezer (-25 C to -15 C). Store in the original package, in order to protect from light. 
+Transport and distribute frozen (-85 C to -15 C). </p>
 <p>Thawed Brineura and flushing solution should be used immediately. This medicine should only be 
 withdrawn from the unopened vials immediately prior to use. If immediate use is not possible, 
-unopened vials of Brineura or flushing solution should be stored in a refrigerator (2°C - 8°C) and used 
+unopened vials of Brineura or flushing solution should be stored in a refrigerator (2 C - 8 C) and used 
 within 24 hours. </p>
 <p>Chemical and physical in-use stability has been demonstrated for up to 12 hours at room 
-temperature (19°C - 25°C). From a microbiological point of view, open vials or medicinal product 
+temperature (19 C - 25 C). From a microbiological point of view, open vials or medicinal product 
 held in syringes should be used immediately. If not used immediately, in-use storage times and 
 conditions prior to use are the responsibility of the user. </p>
 <p>Your doctor or pharmacist is responsible for storing Brineura. They are also responsible for disposing 
@@ -250,7 +264,7 @@ alfa in 5 ml of solution. Each ml of solution for infusion contains 30 mg of cer
 - The other ingredients of Brineura solution for infusion and the flushing solution are: sodium 
 phosphate dibasic heptahydrate, sodium dihydrogen phosphate monohydrate, sodium chloride, 
 potassium chloride, magnesium chloride hexahydrate, calcium chloride dihydrate and water for 
-injections (see section 2 “Brineura contains sodium and potassium”). </p>
+injections (see section 2  Brineura contains sodium and potassium ). </p>
 <p>What Brineura looks like and contents of the pack 
 Brineura and the flushing solution are solutions for infusion. The Brineura solution for infusion is 
 clear to slightly opalescent, colourless to pale yellow that may occasionally contain thin translucent 
@@ -263,7 +277,7 @@ Shanbally, Ringaskiddy
 County Cork 
 Ireland </p>
 <p>This leaflet was last revised in   </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. </p>
 <p>The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

@@ -4,7 +4,7 @@ Instance: composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldara Package Leaflet"
 Description:  "Composition for aldara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,7 +81,7 @@ anus (back passage) </p>
 This is a common slow-growing form of skin cancer with a very small likelihood of spread to 
 other parts of the body. It usually occurs in middle-aged and elderly people, especially those 
 who are fair-skinned and is caused by too much sun exposure. If left untreated, basal cell 
-carcinoma can disfigure, especially on the face – therefore early recognition and treatment are 
+carcinoma can disfigure, especially on the face   therefore early recognition and treatment are 
 important. </p>
 </li>
 <li>
@@ -93,7 +93,7 @@ be used for flat actinic keratoses on the face and scalp in patients with a heal
 system where your doctor has decided that Aldara is the most appropriate treatment for you. </p>
 </li>
 </ul>
-<p>Aldara cream helps your body´s own immune system to produce natural substances which help fight 
+<p>Aldara cream helps your body s own immune system to produce natural substances which help fight 
 your basal cell carcinoma, actinic keratosis or the virus that has caused your warts.  </p>         </div>"""   
           
 
@@ -197,7 +197,64 @@ keratosis (see specific instructions for each indication).  </p>
 <ul>
 <li>If you are being treated for genital warts: </li>
 </ul>
-<p>Application Instructions – (Mon, Wed and Fri) </p>         </div>"""         
+<p>Application Instructions   (Mon, Wed and Fri) 
+1. Before going to bed, wash your hands and the treatment area with mild soap and water. Dry 
+thoroughly. 
+2. Open a new sachet and squeeze some cream onto your fingertip. 
+3. Apply a thin layer of Aldara cream onto clean, dry wart area and rub gently into the skin until cream 
+vanishes. 
+4. After application of the cream, throw away the opened sachet and wash hands with soap and water. 
+5. Leave Aldara cream on the warts for 6 to 10 hours. Do not shower or bathe during this time. 
+6. After 6 to 10 hours wash the area where Aldara cream was applied with mild soap and water. </p>
+<p>Apply Aldara cream 3 times per week. For example, apply the cream on Monday, Wednesday and 
+Friday. One sachet contains enough cream to cover a wart area of 20 cm2 (approx. 3 square inches). </p>
+<p>Men with warts under the foreskin should pull the foreskin back each day and wash underneath it (see 
+section 2  Warnings and precautions ) </p>
+<p>Continue to use Aldara cream as instructed until your warts have completely gone (half the females 
+who clear will do so in 8 weeks, half the males who clear will do so in 12 weeks but in some patients 
+warts may clear as early as 4 weeks). </p>
+<p>Do not use Aldara cream for more than 16 weeks in the treatment of each episode of warts. </p>
+<p>If you have the impression that the effect of Aldara cream is too strong or too weak, talk to your 
+doctor or pharmacist. </p>
+<ul>
+<li>If you are being treated for basal cell carcinoma: </li>
+</ul>
+<p>Application Instructions   (Mon, Tues, Wed, Thurs and Fri) 
+1. Before going to bed, wash your hands and the treatment area with mild soap and water. Dry 
+thoroughly. 
+2. Open a new sachet and squeeze some cream onto your fingertip. 
+3. Apply Aldara cream to the affected area and 1cm (approx. 0.5 inch) around the affected area. Rub 
+gently into the skin until the cream vanishes. 
+4. After application of the cream, throw away the opened sachet. Wash hands with soap and water. 
+5. Leave Aldara cream on the skin for about 8 hours. Do not shower or bathe during this time. 
+6. After about 8 hours, wash the area where Aldara cream was applied with mild soap and water. </p>
+<p>Apply sufficient Aldara cream to cover the treatment area and 1 cm (about   an inch) around the 
+treatment area each day for 5 consecutive days each week for 6 weeks. For example, apply the cream 
+from Monday to Friday. Do not apply the cream on Saturday and Sunday. </p>
+<ul>
+<li>If you are being treated for actinic keratosis </li>
+</ul>
+<p>Application Instructions   (Mon, Wed and Fri) 
+1. Before going to bed, wash your hands and the treatment area with mild soap and water. Dry 
+thoroughly. 
+2. Open a new sachet and squeeze some cream onto your fingertip. 
+3. Apply the cream to the affected area. Rub gently into the area until the cream vanishes. 
+4. After application of the cream, throw away the opened sachet. Wash hands with soap and water. 
+5. Leave Aldara cream on the skin for about 8 hours. Do not shower or bathe during this time. 
+6. After about 8 hours, wash the area where Aldara cream was applied with mild soap and water. </p>
+<p>Apply Aldara cream 3 times per week. For example, apply the cream on Monday, Wednesday and 
+Friday. One sachet contains enough cream to cover an area of 25 cm2 (approx. 4 square inches). 
+Continue treatment for four weeks. Four weeks after finishing this first treatment, your doctor will </p>
+<p>assess your skin. If the lesions have not all disappeared, further four weeks of treatment may be 
+necessary. </p>
+<p>If you use more Aldara cream than you should </p>
+<p>Wash the extra away with mild soap and water. When any skin reaction has gone you may then 
+continue with your treatment. </p>
+<p>If you accidentally swallow Aldara cream please contact your doctor. </p>
+<p>If you forget to use Aldara cream </p>
+<p>If you miss a dose, apply cream as soon as you remember and then continue in your regular schedule. 
+Do not apply the cream more than once per day. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -205,17 +262,92 @@ keratosis (see specific instructions for each indication).  </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>thoroughly. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The frequency of side effects is classified as follows:<br />
+Very common side effects (likely to occur in more than 1 in 10 patients) 
+Common side effects (likely to occur in fewer than 1 in 10 patients) 
+Uncommon side effects (likely to occur in fewer than 1 in 100 patients) 
+Rare side effects (likely to occur in fewer than 1 in 1,000 patients) 
+Very rare side effects (likely to occur in fewer than 1 in 10,000 patients). </p>
+<p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>Tell your doctor or pharmacist as soon as possible if you do not feel well while you are using Aldara 
+cream.<br />
+Some patients have experienced changes in skin colour in the area where Aldara cream was applied. 
+While these changes have tended to improve with time, in some patients they may be permanent. 
+If your skin reacts badly when using Aldara cream, stop applying the cream, wash the area with mild 
+soap and water and contact your doctor or pharmacist.<br />
+In some individuals a lowering of blood counts was noted. A lowering of blood counts might make 
+you more susceptible to infections, make you bruise more easily or cause fatigue. If you notice any of 
+these symptoms, tell your doctor. 
+Some patients who suffer from autoimmune disorders may experience worsening of their condition. If 
+you notice any change during treatment with Aldara cream, tell your doctor. 
+Serious skin reactions have been reported rarely. If you experience skin lesions or spots on your skin that 
+start out as small red areas and progress to look like mini targets, possibly with symptoms such as 
+itching, fever, overall ill feeling, achy joints, vision problems, burning, painful or itchy eyes and mouth 
+sores, stop using Aldara cream and tell your doctor immediately. 
+A small number of patients have experienced hair loss at the treatment site or surrounding area. </p>
+<p>If you are being treated for genital warts: </p>
+<p>Many of the undesirable effects of Aldara cream are due to its local action on your skin. </p>
+<p>Very common effects include redness (61% patients), wearing away of the skin (30% patients), 
+flakiness and swelling. Hardening under the skin, small open sores, a crust that forms during healing, 
+and small bubbles under the skin may also occur. You might also feel itching (32% patients), a 
+burning sensation (26% patients) or pain in areas where you have applied Aldara cream (8% patients). 
+Most of these skin reactions are mild and the skin will return to normal within about 2 weeks after 
+stopping treatment.  </p>
+<p>Commonly some patients (4% or less) have experienced headache, uncommonly fevers and flu like 
+symptoms joint and muscle pains; prolapse of the womb; pain on intercourse in females; erection 
+difficulties; increase in sweating; feeling sick; stomach and bowel symptoms; ringing in the ears; 
+flushing; tiredness; dizziness; migraine; pins and needles; insomnia; depression; loss of appetite; swollen 
+glands; bacterial, viral and fungal infections (e.g. cold sores); vaginal infection including thrush; cough 
+and colds with sore throat. </p>
+<p>Very rarely severe and painful reactions have occurred, particularly when more cream has been used 
+than recommended. Painful skin reactions at the opening of the vagina have very rarely made it difficult 
+for some women to pass urine. If this occurs you should seek medical help immediately. </p>
+<p>If you are being treated for basal cell carcinoma: </p>
+<p>Many of the undesirable effects of Aldara cream are due to its local action on your skin. Local skin 
+reactions can be a sign that the drug is working as intended. </p>
+<p>Very Commonly the treated skin may be slightly itchy.  </p>
+<p>Common effects include: pins and needles, small swollen areas in the skin, pain, burning, irritation, 
+bleeding, redness or rash.<br />
+If a skin reaction becomes too uncomfortable during treatment, speak to your doctor. He/she may 
+advise you to stop applying Aldara cream for a few days (i.e. to have a short rest from treatment).<br />
+If there is pus (matter) or other suggestion of infection, discuss this with your doctor. Apart from 
+reactions in the skin, other common effects include swollen glands and back pain. 
+Uncommonly some patients experience changes at the application site (discharge, inflammation, 
+swelling, scabbing, skin breakdown, blisters, dermatitis) or irritability, feeling sick, dry mouth, flu-like 
+symptoms and tiredness. </p>
+<p>If you are being treated for actinic keratosis </p>
+<p>Many of the undesirable effects of Aldara cream are due to its local action on your skin. Local skin 
+reactions can be a sign that the drug is working as intended. </p>
+<p>Very commonly the treated skin may be slightly itchy. </p>
+<p>Common effects include pain, burning, irritation or redness.<br />
+If a skin reaction becomes too uncomfortable during treatment, speak to your doctor. He/she may 
+advise you to stop applying Aldara cream for a few days (i.e. to have a short rest from treatment). 
+If there is pus (matter) or other suggestion of infection, discuss this with your doctor. Apart from 
+reactions in the skin, other common effects include headache, anorexia, nausea, muscle pain, joint pain 
+and tiredness. </p>
+<p>Uncommonly some patients experience changes at the application site (bleeding, inflammation, 
+discharge, sensitivity, swelling, small swollen areas in the skin, pins and needles, scabbing, scarring, 
+ulceration or a feeling of warmth or discomfort), or inflammation of the lining of the nose, stuffy nose, 
+flu or flu-like symptoms, depression, eye irritation, swelling of the eyelid, throat pain, diarrhoea, 
+actinic keratosis, redness, swelling of the face, ulcers, pain in extremity, fever, weakness or shivering. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aldara"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store aldara"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Apply a thin layer of Aldara cream onto clean, dry wart area and rub gently into the skin until cream 
-vanishes. </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not store above 25  C. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and the label after 
+EXP. </p>
+<p>Sachets should not be re-used once opened. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -223,7 +355,138 @@ vanishes. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Leave Aldara cream on the warts for 6 to 10 hours. Do not shower or bathe during this time. </li>
-</ol>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Aldara cream contains </p>
+<ul>
+<li>The active substance is imiquimod. Each sachet contains 250 mg cream (100 mg cream contains 
+5 mg imiquimod). </li>
+<li>The other ingredients are isostearic acid, benzyl alcohol, cetyl alcohol, stearyl alcohol, white soft 
+paraffin, polysorbate 60, sorbitan stearate, glycerol, methyl hydroxybenzoate (E 218), propyl 
+hydroxybenzoate (E 216), xanthan gum, purified water (see also section 2  Aldara cream 
+contains methyl hydroxybenzoate, propyl hydroxybenzoate, cetyl alcohol, stearyl alcohol and 
+benzyl alcohol ). </li>
+</ul>
+<p>What Aldara cream looks like and contents of the pack </p>
+<ul>
+<li>Each Aldara 5% cream sachet contains 250 mg of a white to slightly yellow cream. </li>
+<li>Each box contains 12 or 24 single-use polyester/aluminium foil sachets. Not all pack sizes may </li>
+</ul>
+<p>be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder 
+Viatris Healthcare Limited 
+Damastown Industrial Park 
+Mulhuddart 
+Dublin DUBLIN 
+Ireland </p>
+<p>Manufacturer 
+Swiss Caps GmbH 
+Grassingerstra e 9 
+83043 Bad Aibling 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Viatris<br />
+T l/Tel: +32 2 658 61<br />
+Luxembourg/Luxemburg 
+Viatris<br />
+T l/Tel: +32 2 658 61 (Belgique/Belgien) </p>
+<p>.: +359 2 44 55<br />
+Magyarorsz g 
+Viatris Healthcare Kft. 
+1138 Budapest 
+V ci  t 150. Tel: +36 1 465 2 
+ esk  republika 
+Viatris CZ s.r.o. 
+Tel: +420 222 004<br />
+Malta 
+V.J. Salomone Pharma Limited 
+Upper Cross Road 
+Marsa, MRS 1Tel: +356 21 22 01<br />
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Nederland 
+Mylan Healthcare B.V. 
+Krijgsman 1186 DM Amstelveen 
+Tel: +31 (0)20 426 3 
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700 Norge 
+Viatris AS<br />
+Hagal kkveien 1383 Asker 
+Tlf: +47 66 75 33<br />
+Eesti 
+Viatris O <br />
+Tel: +372 63 63<br />
+ sterreich 
+Viatris Austria GmbH 
+Guglgasse 1110 Wien 
+Tel: + 43 (0)1 86 390  </p>
+<p>Viatris Hellas Ltd 
+ : +30 210 010 0 
+Polska 
+Viatris Healthcare Sp. z o.o. 
+ul. Post pu 21B 
+02-676 Warszawa 
+Tel: +48 22 546 6 
+Espa a 
+Viatris Pharmaceuticals, S.L. 
+Tel: +34 900 102 Portugal 
+Viatris Healthcare, Lda. 
+Av. D. Jo o II,<br />
+Edif cio Atlantis, n  44C   7.3 e 7.4 
+1990-095 Lisboa 
+Tel: +351 214 127<br />
+France 
+Viatris Sant <br />
+1 bis place de la D fense   Tour Trinity 
+92400 Courbevoie 
+T l: +33 (0)1 40 80 15 55  </p>
+<p>Rom nia 
+BGP PRODUCTS SRL 
+Tel.: +40372 579<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Koranska 2 
+10 000  Zagreb 
+Tel: +385 1 2350 Slovenija 
+Viatris d.o.o. 
+Tel: +386 1 23 63  </p>
+<p>Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+ sland 
+Icepharma hf. 
+S mi: +354 540 8 
+Suomi/Finland 
+Viatris Oy 
+Vaisalantie 2-8/Vaisalav gen 2-8 
+02130 Espoo/Esbo 
+Puh/Tel: +358 20 720 9 
+Italia 
+Viatris Italia 
+Via Vittor Pisani, 20124 Milano 
+Tel: +39 0261246 
+Sverige 
+Viatris AB 
+Box 23104 35 Stockholm 
++46 (0) 8 630 19  </p>
+<p>GPA Pharmaceuticals Ltd 
+ : +357 22863 
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711Latvija 
+Viatris SIA 
+101 M kusalas str. 
+R ga LV 1T lr: +371 67616 </p>
+<p>Lietuva 
+Viatris UAB 
+ algirio str. 90-Vilnius LT-09303<br />
+Tel. + 370 52051 </p>
+<p>This leaflet was last revised in (MM/YYYY). </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-a8d190f59e73033fd1157419aef18ccc
 InstanceOf: CompositionUvEpi
 Title: "Composition for ellaone Package Leaflet"
 Description:  "Composition for ellaone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -61,8 +61,7 @@ Usage: #example
 3. How to take ellaOne 
 4. Possible side effects 
 5. How to store ellaOne 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -72,10 +71,12 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ellaOne is an emergency contraceptive </p>
 <p>ellaOne is a contraceptive intended to prevent pregnancy after unprotected sex or if your contraceptive 
-method has failed. For example: 
-- if you had sex without protection;<br />
-- if your or your partner’s condom tore, slipped or came off, or if you forgot to use one; 
-- if you did not take your contraceptive pill as recommended.  </p>
+method has failed. For example:</p>
+<ul>
+<li>if you had sex without protection;  </li>
+<li>if your or your partner s condom tore, slipped or came off, or if you forgot to use one; </li>
+<li>if you did not take your contraceptive pill as recommended.  </li>
+</ul>
 <p>You should take the tablet as soon as possible after sex, and within a maximum of 5 days (120 hours). 
 This is because it is more effective if you take it as soon as possible after unprotected sex. </p>
 <p>This medicine is suitable for any woman of childbearing age, including adolescents.  </p>
@@ -116,7 +117,7 @@ section 6). </p>
 <p>Warning and precautions 
 Talk to your pharmacist, doctor or other healthcare professional before taking this medicine 
 - if your period is late or you have symptoms of pregnancy (heavy breasts, morning sickness), as 
-you may already be pregnant (see section “Pregnancy, breast-feeding and fertility”); 
+you may already be pregnant (see section  Pregnancy, breast-feeding and fertility ); 
 - if you suffer from severe asthma; 
 - if you suffer from severe liver disease. </p>
 <p>In all women, emergency contraception should be taken as soon as possible after unprotected 
@@ -126,7 +127,7 @@ still recommended for all women regardless of their weight or BMI.  </p>
 <p>You are advised to speak to a healthcare professional if you are concerned about any problems related 
 to taking emergency contraception. </p>
 <p>If you become pregnant despite taking the tablet, it is important that you see your doctor. See section 
-“Pregnancy, breast-feeding and fertility” for more information.  </p>
+ Pregnancy, breast-feeding and fertility  for more information.  </p>
 <p>Other contraceptives and ellaOne 
 This medicine may make regular hormonal contraceptives, like pills and patches, temporarily less 
 effective. If you are currently taking hormonal contraception, continue to use it as usual after taking 
@@ -138,20 +139,22 @@ Tell your pharmacist, doctor or other healthcare professional if you are taking 
 any other medicines, including medicines obtained without a prescription or herbal medicines. </p>
 <p>Some medicines may prevent ellaOne from working effectively. If you have used any of the medicines 
 listed below during the last 4 weeks, ellaOne may be less suitable for you. Your doctor may prescribe 
-another type of (non-hormonal) emergency contraceptive, i.e. a copper intrauterine device (Cu-IUD): 
-- medicines used to treat epilepsy (for example, primidone, phenobarbital, phenytoin, 
-fosphenytoine, carbamazepine, oxcarbazepine and barbiturates) 
-- medicines used to treat tuberculosis (for example, rifampicin, rifabutin) 
-- a treatment for HIV (ritonavir, efavirenz, nevirapine)<br />
-- a medicine used to treat fungal infections (griseofulvin) 
-- herbal remedies containing St John's wort (Hypericum perforatum). </p>
+another type of (non-hormonal) emergency contraceptive, i.e. a copper intrauterine device (Cu-IUD):</p>
+<ul>
+<li>medicines used to treat epilepsy (for example, primidone, phenobarbital, phenytoin, 
+fosphenytoine, carbamazepine, oxcarbazepine and barbiturates) </li>
+<li>medicines used to treat tuberculosis (for example, rifampicin, rifabutin) </li>
+<li>a treatment for HIV (ritonavir, efavirenz, nevirapine)  </li>
+<li>a medicine used to treat fungal infections (griseofulvin) </li>
+<li>herbal remedies containing St John's wort (Hypericum perforatum). </li>
+</ul>
 <p>Speak to your doctor or pharmacist before using ellaOne when you use (or have recently used) any of 
 the medicines stated above. </p>
 <p>Pregnancy, breast-feeding and fertility<br />
 Pregnancy </p>
 <p>Before taking this medicine, if your period is late, tell your pharmacist, doctor or other healthcare 
 professional, or do a pregnancy test in order to make sure you are not already pregnant (see section 
-“Warning and precautions”).  </p>
+ Warning and precautions ).  </p>
 <p>This medicine is a contraceptive used to prevent a pregnancy from starting. If you are already pregnant 
 it will not interrupt an existing pregnancy. </p>
 <p>If you become pregnant despite taking this medicine, there is no evidence that it will affect your 
@@ -161,7 +164,7 @@ severe abdominal (stomach) pain or bleeding or if you have previously had a preg
 womb, tubal surgery or long term (chronic) genital infection.  </p>
 <p>If you become pregnant despite taking ellaOne, you are encouraged to ask your doctor to register your 
 pregnancy in an official registry. You can also report this information on your own at 
-www.hra-pregnancy-registry.com.Your information will remain anonymous – nobody will know it is 
+www.hra-pregnancy-registry.com.Your information will remain anonymous   nobody will know it is 
 information about you. Sharing your information may help women in the future understand the safety 
 or risks of ellaOne during a pregnancy. </p>
 <p>Breast-feeding </p>
@@ -181,7 +184,7 @@ of concentration (see section 4). If you experience these symptoms, do not drive
 <p>ellaOne contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
-<p>ellaOne contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+<p>ellaOne contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ellaone"
@@ -197,7 +200,7 @@ unprotected sex or contraceptive failure. Take the tablet without delay. </li>
 <li>You can take the tablet at any time in your cycle. </li>
 <li>You can take the tablet at any time of the day either before, during or after a meal. </li>
 <li>If you are using one of the medicines that may prevent ellaOne from working properly (see 
-section 2 “What you need to know before you take ellaOne”) or if you have used one of these 
+section 2  What you need to know before you take ellaOne ) or if you have used one of these 
 medicines in the past 4 weeks, ellaOne may work less effectively for you. Speak to your doctor 
 or pharmacist before using ellaOne. Your doctor may prescribe another type of (non-hormonal) 
 emergency contraceptive, i.e. a Cu-IUD. </li>
@@ -214,7 +217,7 @@ sex.  </p>
 However, if your period is more than 7 days late; if it is unusually light or unusually heavy; or if you 
 experience symptoms such as abdominal (stomach) pain, breast tenderness, vomiting or nausea, you 
 may be pregnant. You should do a pregnancy test right away. If you are pregnant, it is important that 
-you see your doctor. (See section “Pregnancy, breast-feeding and fertility”) </p>
+you see your doctor. (See section  Pregnancy, breast-feeding and fertility ) </p>
 <p>If you take more ellaOne than you should </p>
 <p>There have been no reports of harmful effects from taking a higher dose than recommended of this 
 medicine However do ask your pharmacist, doctor or other healthcare professional for advice. 
@@ -230,8 +233,8 @@ healthcare professional.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Some symptoms such as breast tenderness and abdominal (stomach) pain, throwing up (vomiting), 
 feeling sick (nausea) are also possible signs of pregnancy. If you miss your period and experience such 
-symptoms after taking ellaOne, you should do a pregnancy test (see section 2 “Pregnancy, breast-
-feeding and fertility”). </p>
+symptoms after taking ellaOne, you should do a pregnancy test (see section 2  Pregnancy, breast-
+feeding and fertility ). </p>
 <p>Common side effects (may affect up to 1 in 10 people)  </p>
 <ul>
 <li>nausea, abdominal (stomach) pain or discomfort, vomiting </li>
@@ -278,7 +281,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is on the carton and on the blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store below 25°C. Store in the original package in order to protect from moisture. Keep the blister in 
+<p>Store below 25 C. Store in the original package in order to protect from moisture. Keep the blister in 
 the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via waste water. Ask your pharmacist how to throw away 
 medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -294,7 +297,7 @@ medicines you no longer use. These measures will help to protect the environment
 - The other ingredients are lactose monohydrate, povidone, croscarmellose sodium, magnesium 
 stearate. </p>
 <p>What ellaOne looks like and contents of the pack 
-ellaOne is a white to marble creamy, round curved tablet of 9 mm diameter engraved with “еllа” on 
+ellaOne is a white to marble creamy, round curved tablet of 9 mm diameter engraved with  ll  on 
 both sides. </p>
 <p>ellaOne is available in a carton containing one blister of 1 tablet. </p>
 <p>Marketing Authorisation Holder<br />
@@ -308,28 +311,28 @@ Cenexi
 17, rue de Pontoise 
 95520 Osny 
 France </p>
-<p>Laboratorios León Farma S.A. 
+<p>Laboratorios Le n Farma S.A. 
 C/ La Vallina, s/n Pol. Ind. Navatejera 
-24008 Navatejera, León 
+24008 Navatejera, Le n 
 Spain </p>
 <p>Delpharm Lille S.A.S. 
-Parc d’activités Roubaix-Est 
+Parc d activit s Roubaix-Est 
 22, rue de Toufflers 
 CS 5059452 Lys-Lez-Lannoy 
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Perrigo Belgium NV 
 +32 (0)9 381 04 Lietuva 
 Orivas UAB 
-Tel: +370 5 252 6България 
+Tel: +370 5 252 6<br />
 Perrigo Bulgaria OOD 
 Tel: +359 2805 7Luxembourg/Luxemburg 
 Perrigo Belgium NV 
-+32 (0)9 381 04 Česká republika 
++32 (0)9 381 04  esk  republika 
 Omega Pharma a.s. 
-Tel : +420 603 407 Magyarország 
+Tel : +420 603 407 Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel.: + 36 1 299 1 
 Danmark 
@@ -344,43 +347,42 @@ Nederland
 Omega Pharma Nederland BV 
 Tel: +31 (0) 10 2211 
 Eesti 
-Orivas OÜ 
+Orivas O<br />
 Tel: +372 639 8Norge 
 Perrigo Sverige AB 
-Tel: +46 8 59 00 29<br />
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: + 30 210 8009111- Österreich 
+Tel: +46 8 59 00 29  </p>
+<p>. . 
+ : + 30 210 8009111-  sterreich 
 Perrigo Deutschland GmbH 
 +49 7032 9154<br />
-España 
-Perrigo España, S.A. 
+Espa a 
+Perrigo Espa a, S.A. 
 Polska 
 Perrigo Poland Sp. z o.o. </p>
 <p>Tel: +34 902 889  </p>
 <p>Tel: +48 (22) 489 54<br />
 France 
 Laboratoire Perrigo France 
-Tél/Tel: + 33-(0) 1 55 48 18<br />
+T l/Tel: + 33-(0) 1 55 48 18<br />
 Portugal 
 Perrigo Portugal Lda. 
 Tel: +351 214 167<br />
 Hrvatska 
 Arenda d.o.o. 
 Tel: + 385-(0)1 644 44<br />
-România 
+Rom nia 
 Perrigo Romania S.R.L.<br />
 Tel: +40 213 150 344<br />
 Ireland 
 Laboratoire HRA Pharma 
 Tel: + 33-(0)1 40 33 11<br />
 Slovenija 
-Dr. Gorkič d.o.o. 
+Dr. Gorki  d.o.o. 
 Tel: + 386-(0)1 7590<br />
-Ísland 
+ sland 
 Laboratoire HRA Pharma 
-Sími: + 33-(0)1 40 33 11<br />
-Slovenská republika 
+S mi: + 33-(0)1 40 33 11<br />
+Slovensk  republika 
 Omega Pharma a.s. 
 Tel : +420 603 407 623<br />
 Italia 
@@ -388,10 +390,9 @@ Perrigo Italia S.r.l
 Tel: + 39 06 90250 
 Suomi/Finland 
 Perrigo Sverige AB 
-Tel: +46 8 59 00 29<br />
-Κύπρος 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: + 30 210 8009111- Sverige 
+Tel: +46 8 59 00 29  </p>
+<p>. . 
+ : + 30 210 8009111- Sverige 
 Perrigo Sverige AB 
 Tel: +46 8 59 00 29<br />
 Latvija 

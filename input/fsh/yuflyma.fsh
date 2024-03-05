@@ -4,7 +4,7 @@ Instance: composition-en-25519bb07426cab26500e5ad89df90b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for yuflyma Package Leaflet"
 Description:  "Composition for yuflyma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What yuflyma is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yuflyma contains the active substance adalimumab, a medicine that acts on your body’s immune (defence) 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yuflyma contains the active substance adalimumab, a medicine that acts on your body s immune (defence) 
 system. </p>
 <p>Yuflyma is intended for the treatment of the following inflammatory diseases: 
 * Rheumatoid arthritis 
@@ -81,14 +81,14 @@ system. </p>
 * Psoriatic arthritis 
 * Plaque psoriasis 
 * Hidradenitis suppurativa 
-* Crohn’s disease 
+* Crohn s disease 
 * Ulcerative colitis 
 * Non-infectious uveitis </p>
 <p>The active ingredient in Yuflyma, adalimumab, is a human monoclonal antibody. Monoclonal antibodies are 
 proteins that attach to a specific target in the body. </p>
-<p>The target of adalimumab is a protein called tumour necrosis factor (TNFα), which is involved in the </p>
+<p>The target of adalimumab is a protein called tumour necrosis factor (TNF ), which is involved in the </p>
 <p>immune (defence) system and is present at increased levels in the inflammatory diseases listed above. By 
-attaching to TNFα, Yuflyma decreases the process of inflammation in these diseases. </p>
+attaching to TNF , Yuflyma decreases the process of inflammation in these diseases. </p>
 <p>Rheumatoid arthritis </p>
 <p>Rheumatoid arthritis is an inflammatory disease of the joints. </p>
 <p>Yuflyma is used to treat moderate to severe rheumatoid arthritis in adults. You may first be given other 
@@ -142,11 +142,11 @@ buttocks. Scarring may also occur in affected areas. </p>
 <p>Yuflyma can reduce the number of nodules and abscesses caused by the disease and the pain that is often 
 associated with the disease. You may first be given other medicines. If you do not respond well enough to 
 these medicines, you will be given Yuflyma. </p>
-<p>Crohn’s disease </p>
-<p>Crohn’s disease is an inflammatory disease of the digestive tract.  </p>
+<p>Crohn s disease </p>
+<p>Crohn s disease is an inflammatory disease of the digestive tract.  </p>
 <p>Yuflyma is used to treat 
-* moderate to severe Crohn’s disease in adults and 
-* moderate to severe Crohn’s disease in children and adolescents aged 6 to 17 years. </p>
+* moderate to severe Crohn s disease in adults and 
+* moderate to severe Crohn s disease in children and adolescents aged 6 to 17 years. </p>
 <p>You may first be given other medicines. If you do not respond well enough to these medicines, you will be 
 given Yuflyma. </p>
 <p>Ulcerative colitis </p>
@@ -180,13 +180,13 @@ given Yuflyma. </p>         </div>"""
 <p>If you are allergic to adalimumab or any of the other ingredients of this medicine (listed in section 6). </p>
 </li>
 <li>
-<p>If you have active tuberculosis or other severe infections (see “Warnings and precautions”). It is 
+<p>If you have active tuberculosis or other severe infections (see  Warnings and precautions ). It is 
 important that you tell your doctor if you have symptoms of infections, for example, fever, wounds, 
 feeling tired, dental problems. </p>
 </li>
 <li>
 <p>If you have moderate or severe heart failure. It is important to tell your doctor if you have had or 
-have a serious heart condition (see “Warnings and precautions”). </p>
+have a serious heart condition (see  Warnings and precautions ). </p>
 </li>
 </ul>
 <p>Warnings and precautions </p>
@@ -361,15 +361,15 @@ receive Yuflyma. </li>
 <li>Yuflyma can be used during breast-feeding. </li>
 <li>If you receive Yuflyma during your pregnancy, your baby may have a higher risk for getting an 
 infection. </li>
-<li>It is important that you tell your baby’s doctors and other health care professionals about your 
+<li>It is important that you tell your baby s doctors and other health care professionals about your 
 Yuflyma use during your pregnancy before the baby receives any vaccine. For more information on 
-vaccines see the “Warnings and precautions” section. </li>
+vaccines see the  Warnings and precautions  section. </li>
 </ul>
 <p>Driving and using machines </p>
 <p>Yuflyma may have a small effect on your ability to drive, cycle or use machines. Room spinning sensation 
 and vision disturbances may occur after taking Yuflyma. </p>
 <p>YUFLYMA contains sodium </p>
-<p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.4 mL dose, i.e. essentially ‘sodium-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.4 mL dose, i.e. essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yuflyma"
@@ -498,7 +498,7 @@ or 80 mg every other week.
 It is recommended that you 
 use an antiseptic wash daily 
 on the affected areas. </p>
-<p>Crohn’s disease 
+<p>Crohn s disease 
 Age or body weight 
 How much and how often to 
 take? 
@@ -621,7 +621,7 @@ use in combination with
 methotrexate. </p>
 <p>Method and route of administration </p>
 <p>Yuflyma is administered by injection under the skin (by subcutaneous injection). </p>
-<p>Detailed instructions on how to inject Yuflyma are provided in section 7 ‘Instructions for use’. </p>
+<p>Detailed instructions on how to inject Yuflyma are provided in section 7  Instructions for use . </p>
 <p>If you use more Yuflyma than you should </p>
 <p>If you accidentally inject Yuflyma more frequently than told to by your doctor or pharmacist, call your 
 doctor or pharmacist and tell them that you have taken more. Always take the outer carton of the medicine 
@@ -785,7 +785,7 @@ systems) </li>
 <li>leukaemia (cancer affecting the blood and bone marrow) </li>
 <li>severe allergic reaction with shock </li>
 <li>multiple sclerosis </li>
-<li>nerve disorders (such as eye nerve inflammation and Guillain-Barré syndrome that may cause muscle 
+<li>nerve disorders (such as eye nerve inflammation and Guillain-Barr  syndrome that may cause muscle 
 weakness, abnormal sensations, tingling in the arms and upper body) </li>
 <li>heart stops pumping </li>
 <li>pulmonary fibrosis (scarring of the lung) </li>
@@ -805,7 +805,7 @@ weakness, abnormal sensations, tingling in the arms and upper body) </li>
 <ul>
 <li>hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal) </li>
 <li>Merkel cell carcinoma (a type of skin cancer) </li>
-<li>Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s sarcoma 
+<li>Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s sarcoma 
 most commonly appears as purple lesions on the skin. </li>
 <li>liver failure </li>
 <li>worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle 
@@ -855,11 +855,11 @@ medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date stated on the label/carton after EXP. </p>
-<p>Store in a refrigerator (2°C – 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
 <p>Keep the pre-filled syringe with needle guard in the outer carton in order to protect from light. </p>
 <p>Alternative Storage: </p>
 <p>When needed (for example when you are travelling), a single Yuflyma pre-filled syringe with needle guard 
-may be stored at room temperature (up to 25°C) for a maximum period of 31 days – be sure to protect it 
+may be stored at room temperature (up to 25 C) for a maximum period of 31 days   be sure to protect it 
 from light. Once removed from the refrigerator for room temperature storage, the syringe must be used 
 within 31 days or discarded, even if it is returned to the refrigerator. </p>
 <p>You should record the date when the syringe is first removed from refrigerator and the date after which it </p>
@@ -891,7 +891,7 @@ filled syringes with needle guard packs, each pre-filled syringe with needle gua
 <p>Marketing Authorisation Holder </p>
 <p>Celltrion Healthcare Hungary Kft.<br />
 1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
+V ci  t 1-3. WestEnd Office Building B torony 
 Hungary </p>
 <p>Manufacturer </p>
 <p>Millmount Healthcare Ltd. 
@@ -911,26 +911,25 @@ Rheinstr. 49,<br />
 55218 Ingelheim, 
 Germany </p>
 <p>KYMOS S.L.<br />
-Ronda Can Fatjó, 7B.<br />
-08290 Cerdanyola del Vallès,<br />
+Ronda Can Fatj , 7B.<br />
+08290 Cerdanyola del Vall s,<br />
 Barcelona,<br />
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7Lietuva 
+T l/Tel: + 32 1528 7Lietuva 
 Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-България 
-Celltrion Healthcare Hungary Kft. 
-Teл.: +36 1 231 0 
+Tel.: +36 1 231 0 </p>
+<p>Celltrion Healthcare Hungary Kft. 
+Te .: +36 1 231 0 
 Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7Česká republika 
+T l/Tel: + 32 1528 7 esk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 
-Magyarország 
+Magyarorsz g 
 Celltrion Healthcare Hungary Kft. 
 Tel.: +36 1 231 0 
 Danmark 
@@ -940,7 +939,7 @@ Mint Health Ltd.
 Tel: +356 2093 9 
 Deutschland 
 Celltrion Healthcare Deutschland GmbH 
-Tél.: +49 (0)30 346494infoDE@celltrionhc.com </p>
+T l.: +49 (0)30 346494infoDE@celltrionhc.com </p>
 <p>Nederland 
 Celltrion Healthcare Netherlands B.V. 
 Tel: + 31 20 888 7 
@@ -950,29 +949,28 @@ Tel: +36 1 231 0
 Norge 
 Celltrion Healthcare Hungary Kft. 
 Tlf: +36 1 231 0 
-España 
+Espa a 
 Kern Pharma, S.L. 
 Tel: +34 93 700 2 
-Österreich 
+ sterreich 
 Astro-Pharma GmbH 
-Tel: +43 1 97 99<br />
-Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 8009 
+Tel: +43 1 97 99  </p>
+<p>. . 
+ : +30 210 8009 
 Polska 
 Celltrion Healthcare Hungary Kft. 
 Tel.: +36 1 231 0 
 France 
 Celltrion Healthcare France SAS 
-Tél.: +33 (0)1 71 25 27<br />
+T l.: +33 (0)1 71 25 27<br />
 Portugal 
-PharmaKERN Portugal - Produtos Farmacêuticos, 
+PharmaKERN Portugal - Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
 Tel: +351 214 200  </p>
 <p>Hrvatska 
 Oktal Pharma d.o.o. 
 Tel: +385 1 6595<br />
-România 
+Rom nia 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 
 Ireland 
@@ -981,9 +979,9 @@ Tel: +353 1 223 4
 Slovenija 
 OPH Oktal Pharma d.o.o. 
 Tel.: +386 1 519 29<br />
-Ísland 
+ sland 
 Celltrion Healthcare Hungary Kft. 
-Sími: +36 1 231 0Slovenská republika 
+S mi: +36 1 231 0Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0 
 Italia 
@@ -991,15 +989,14 @@ Celltrion Healthcare Italy S.r.l.
 Tel: +39 0247927 
 Suomi/Finland 
 Celltrion Healthcare Finland Oy.<br />
-Puh/Tel: +358 29 170 7 
-Κύπρος 
-C.A. Papaellinas Ltd 
-Τηλ: +357 22741 
+Puh/Tel: +358 29 170 7 </p>
+<p>C.A. Papaellinas Ltd 
+ : +357 22741 
 Sverige 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0Latvija 
 Celltrion Healthcare Hungary Kft. 
-Tālr.: +36 1 231 0 
+T lr.: +36 1 231 0 
 United Kingdom (Northern Ireland) 
 Celltrion Healthcare Ireland Limited 
 Tel: +353 1 223 4026  </p>

@@ -4,7 +4,7 @@ Instance: composition-en-06d503464480447969e787c60d8f32dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for supemtek Package Leaflet"
 Description:  "Composition for supemtek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,12 +55,11 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
 1. What Supemtek is and what it is used for  
-2. What you need to know before you receive Supemtek 
+2. What you need to know before you receive  Supemtek 
 3. How Supemtek is given 
 4. Possible side effects 
 5. How to store Supemtek 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -71,7 +70,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Supemtek is a vaccine for adults who are 18 years of age and older. This vaccine helps to protect 
 you against flu (influenza). Supemtek is egg-free because of the technology used to produce it. </p>
 <p>How Supemtek works 
-When a person is given Supemtek, the body’s natural defence (the immune system) produces 
+When a person is given Supemtek, the body s natural defence (the immune system) produces 
 protection against the influenza virus. None of the ingredients in the vaccine can cause flu. 
 As with all vaccines, Supemtek may not fully protect all persons who are vaccinated. </p>
 <p>When to have a flu vaccine 
@@ -119,8 +118,8 @@ you to decide if you should receive Supemtek. </p>
 <p>Driving and using machines 
 Supemtek has no or negligible effect on your ability to drive and use machine. </p>
 <p>Supemtek contains sodium <br />
-This vaccine contains less than 1 mmol sodium (23 mg) per dose, this means that it’s essentially 
-‘sodium free’.  </p>         </div>"""   
+This vaccine contains less than 1 mmol sodium (23 mg) per dose, this means that it s essentially 
+ sodium free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take supemtek"
@@ -177,7 +176,7 @@ Flu-like symptoms has not been reported in adults aged 18-49 years. </p>
 Feeling dizzy and hives have not been reported in adults aged 18-49 years. </p>
 <p>Not known (cannot be estimated from the available data): 
 * neurological disorders that may result in stiff neck, confusion, numbness, pain and weakness of 
-the limbs, loss of balance, loss of reflexes, paralysis of part or all the body (Guillain-Barré 
+the limbs, loss of balance, loss of reflexes, paralysis of part or all the body (Guillain-Barr<br />
 syndrome). </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
@@ -191,7 +190,7 @@ the safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store supemtek"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. 
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. 
 Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>Do not use this vaccine after the expiry date which is stated on the label and carton after EXP. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask you pharmacist how to 
@@ -227,7 +226,7 @@ separate needle.
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder </p>
 <p>Sanofi Pasteur 
-14 Espace Henry Vallée 
+14 Espace Henry Vall e 
 69007 Lyon 
 France </p>
 <p>Manufacturer 
@@ -237,17 +236,17 @@ Parc Industriel d'Incarville
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/ Belgique /Belgien 
+<p>Belgi / Belgique /Belgien 
 Sanofi Belgium 
-Tél/Tel.: +32 2 710.54.Lietuva 
+T l/Tel.: +32 2 710.54.Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91 България 
+Tel: +370 5 236 91 <br />
 Swixx Biopharma EOOD 
-Тел.: +359 (0) 2 4942 Luxembourg/Luxemburg 
+ .: +359 (0) 2 4942 Luxembourg/Luxemburg 
 Sanofi Belgium 
-tel.: +32 2 710.54.Česká republika 
+tel.: +32 2 710.54. esk  republika 
 Sanofi s.r.o. 
-Tel: +420 233 086 Magyarország 
+Tel: +420 233 086 Magyarorsz g 
 sanofi-aventis zrt 
 Tel.: +36 1 505 0Danmark 
 Sanofi A/S 
@@ -258,43 +257,43 @@ Sanofi-Aventis Deutschland GmbH
 Tel.: 0800 54 54 Tel. aus dem Ausland: +49 69 305 21 Nederland 
 Sanofi B.V. 
 Tel: +31 20 245 4Eesti 
-Swixx Biopharma OÜ<br />
+Swixx Biopharma O <br />
 Tel: +372 640 10 Norge 
 Sanofi-aventis Norge AS 
-Tel: + 47 67 10 71 Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε.<br />
-Τηλ: +30.210.8009Österreich 
+Tel: + 47 67 10 71 <br />
+   . .<br />
+ : +30.210.8009 sterreich 
 Sanofi-Aventis GmbH 
-Tel: +43 (1) 80185-0. España 
+Tel: +43 (1) 80185-0. Espa a 
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94 Polska 
 Sanofi Pasteur Sp. z o. o. 
 Tel.: +48 22 280 00 France 
 Sanofi Pasteur Europe 
-Tél: 0800 222 Appel depuis l’étranger : +33 1 57 63 23 23<br />
+T l: 0800 222 Appel depuis l tranger : +33 1 57 63 23 23<br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi   Produtos Farmac uticos, Lda. 
 Tel: + 351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel.: +40(21) 317 31 Ireland 
 sanofi-aventis Ireland T/A SANOFI 
 Tel: + 353 (0) 1 4035 Slovenija 
 Swixx Biopharma d.o.o.<br />
-Tel: +386 1 235 51 Ísland 
+Tel: +386 1 235 51  sland 
 Vistor 
-Tel : +354 535 7Slovenská republika 
+Tel : +354 535 7Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33 Italia 
 Sanofi S.r.l. 
 Tel: 800536389  </p>
 <p>Suomi/Finland 
 Sanofi Oy 
-Tel: +358 (0) 201 200 Κύπρος 
+Tel: +358 (0) 201 200 <br />
 C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741Sverige 
+ : +357 22 741Sverige 
 Sanofi AB 
 Tel: +46 8-634 50 Latvija<br />
 Swixx Biopharma SIA<br />

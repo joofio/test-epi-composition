@@ -4,7 +4,7 @@ Instance: composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: CompositionUvEpi
 Title: "Composition for atriance Package Leaflet"
 Description:  "Composition for atriance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How Atriance is given 
 4. Possible side effects 
 5. How to store Atriance 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +106,7 @@ Your doctor should perform blood tests regularly during treatment to check for b
 have been associated with the use of Atriance. </p>
 <p>Elderly 
 If you are an elderly person, you could be more sensitive to nervous system side effects (see the list 
-above under “Warnings and precautions”). Your doctor will check for these symptoms regularly 
+above under  Warnings and precautions ). Your doctor will check for these symptoms regularly 
 during treatment. </p>
 <p>Tell your doctor if any of these apply to you. </p>
 <p>Other medicines and Atriance 
@@ -173,13 +172,15 @@ Some of the side effects were reported more often in adult patients. There is no
 <p>These may affect more than 1 in 10 people treated with Atriance. 
 * Signs of infection. Atriance may reduce the number of white blood cells and lower your 
 resistance to infection (including pneumonia). This can even be life threatening. Signs of an 
-infection include: 
-- fever 
-- serious deterioration of your general condition 
-- local symptoms such as sore throat, sore mouth or urinary problems (for example, a 
+infection include:</p>
+<ul>
+<li>fever </li>
+<li>serious deterioration of your general condition </li>
+<li>local symptoms such as sore throat, sore mouth or urinary problems (for example, a 
 burning sensation when urinating, which may be a urinary infection) 
 Tell your doctor immediately if you get any of these. A blood test will be taken to check possible 
-reduction of white blood cells. </p>
+reduction of white blood cells. </li>
+</ul>
 <p>Other very common side effects 
 These may affect more than 1 in 10 people treated with Atriance 
 * Changes in the sense of feeling in hands or feet, muscle weakness appearing as difficulty getting 
@@ -207,7 +208,7 @@ be due to an epileptic attack (seizures).
 * Clumsiness and lack of coordination affecting balance, walking, limb or eye movements, or 
 speech. 
 * Unintentional rhythmic shaking of one or more limbs (tremors). 
-* Muscle weakness (possibly associated with peripheral neuropathy – see above), joint pain, back 
+* Muscle weakness (possibly associated with peripheral neuropathy   see above), joint pain, back 
 pain; pains in hands and feet including a sensation of pins and needles sensation and numbness. 
 * Lowered blood pressure. 
 * Weight loss and loss of appetite (anorexia); stomach pains; sore mouth, mouth ulcers or 
@@ -226,15 +227,17 @@ body. Initial symptoms including nausea and vomiting, shortness of breath, an ir
 heartbeat, clouding of urine, lethargy and/or joint discomfort. If this does occur, it is most likely 
 to occur at the first dose. Your doctor will take appropriate precautions to minimise the risk of 
 this. 
-* Low blood levels of some substances: 
-- low calcium levels, which may cause muscle cramps, abdominal cramps or spasms 
-- low magnesium levels, which may cause muscle weakness, confusion, "jerky" 
+* Low blood levels of some substances:</p>
+<ul>
+<li>low calcium levels, which may cause muscle cramps, abdominal cramps or spasms </li>
+<li>low magnesium levels, which may cause muscle weakness, confusion, "jerky" 
 movements, high blood pressure, irregular heart rhythms and decreased reflexes with 
-severely low blood magnesium levels. 
-- low potassium levels may cause a feeling of weakness 
-- low glucose levels, which may cause nausea, sweating, weakness, faintness, confusion or 
+severely low blood magnesium levels. </li>
+<li>low potassium levels may cause a feeling of weakness </li>
+<li>low glucose levels, which may cause nausea, sweating, weakness, faintness, confusion or 
 hallucinations. 
-Tell a doctor if any of these becomes troublesome. </p>
+Tell a doctor if any of these becomes troublesome. </li>
+</ul>
 <p>Rare side effects </p>
 <p>These may affect up to 1 in 1,000 people treated with Atriance 
 * Serious disease that destroys skeletal muscle characterized by the presence of myoglobin (a 
@@ -255,7 +258,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial. </p>
 <p>This medicine does not require any special storage conditions. </p>
-<p>Atriance is stable for up to 8 hours at up to 30°C once the vial is opened. </p>
+<p>Atriance is stable for up to 8 hours at up to 30 C once the vial is opened. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -269,7 +272,7 @@ throw away medicines you no longer use. These measures will help protect the env
 * The active substance is nelarabine. Each ml of Atriance solution for infusion contains 5 mg of 
 nelarabine. Each vial contains 250 mg of nelarabine. 
 * The other ingredients are sodium chloride, water for injections, hydrochloric acid, sodium 
-hydroxide (see section 2 “Atriance contains sodium”). </p>
+hydroxide (see section 2  Atriance contains sodium ). </p>
 <p>What Atriance looks like and contents of the pack 
 Atriance solution for infusion is a clear, colourless solution. It is provided in clear glass vials with a 
 rubber stopper and sealed with an aluminium cap. </p>
@@ -277,49 +280,47 @@ rubber stopper and sealed with an aluminium cap. </p>
 <p>Atriance is supplied in packs of 1 vial or 6 vials. </p>
 <p>Marketing Authorisation Holder 
 Sandoz Pharmaceuticals d.d. 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
 <p>Manufacturer 
-Novartis Farmacéutica S.A. 
+Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
-Roonstraße D-90429 Nuremberg 
+Roonstra e D-90429 Nuremberg 
 Germany </p>
 <p>EBEWE Pharma Ges.m.b.H. Nfg.KG 
 Mondseestrasse 4866 Unterach am Attersee 
 Austria </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-Tél/Tel: +32 (0)2 722 97<br />
+T l/Tel: +32 (0)2 722 97<br />
 Lietuva 
 Sandoz Pharmaceuticals d.d 
 Branch Office Lithuania 
 Seimyniskiu 3A 
-LT – 09312 Vilnius 
-Tel: +370 5 2636<br />
-България 
-КЧТ Сандоз България<br />
-Teл.: +359 2 970 47 Luxembourg/Luxemburg 
+LT   09312 Vilnius 
+Tel: +370 5 2636  </p>
+<p>Te .: +359 2 970 47 Luxembourg/Luxemburg 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-Tél/Tel: +32 (0)2 722 97<br />
-Česká republika 
+T l/Tel: +32 (0)2 722 97<br />
+ esk  republika 
 Sandoz s.r.o. 
-Na Pankráci 1724/CZ-140 00, Praha 4 
+Na Pankr ci 1724/CZ-140 00, Praha 4 
 Tel: +420 225 775 office.cz@ sandoz.com </p>
-<p>Magyarország 
-Sandoz Hungária Kft. 
-Bartók Béla út 43-H-1114 Budapest 
+<p>Magyarorsz g 
+Sandoz Hung ria Kft. 
+Bart k B la  t 43-H-1114 Budapest 
 Tel: +36 1 430 2Info.hungary@sandoz.com </p>
 <p>Danmark 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 København S 
+Edvard Thomsens Vej DK-2300 K benhavn S 
 Tlf: +45 6395 1info.danmark@sandoz.com </p>
 <p>Malta 
 Sandoz Pharmaceuticals d.d. 
@@ -337,22 +338,21 @@ Veluwezoom NL-1327 AH Almere
 Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com </p>
 <p>Eesti 
 Sandoz d.d. Eesti filiaal 
-Pärnu mnt EE – 11312 Tallinn 
+P rnu mnt EE   11312 Tallinn 
 Tel: +372 6652 
 Norge 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 København S 
+Edvard Thomsens Vej DK-2300 K benhavn S 
 Danmark 
 Tlf: +45 6395 1info.norge@sandoz.com </p>
-<p>Ελλάδα 
-SANDOZ HELLAS<br />
-ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.<br />
-Τηλ: +30 216 600 5Österreich 
+<p>SANDOZ HELLAS<br />
+   . .<br />
+ : +30 216 600 5 sterreich 
 Sandoz GmbH 
 Biochemiestr. A-6250 Kundl 
 Tel: +43(0)1 86659-0 </p>
-<p>España 
-Bexal Farmacéutica, S.A. 
+<p>Espa a 
+Bexal Farmac utica, S.A. 
 Centro Empresarial Parque Norte 
 Edificio Roble 
 C/ Serrano Galvache, 28033 Madrid 
@@ -366,38 +366,38 @@ Tel.: +48 22 209 7maintenance.pl@sandoz.com </p>
 Sandoz SAS 
 49, avenue Georges Pompidou 
 F-92300 Levallois-Perret 
-Tél: +33 1 49 64 48<br />
+T l: +33 1 49 64 48<br />
 Portugal 
-Sandoz Farmacêutica Lda. 
-Avenida Professor Doutor Cavaco Silva, n.º10E 
+Sandoz Farmac utica Lda. 
+Avenida Professor Doutor Cavaco Silva, n. 10E 
 Taguspark 
-P-2740−255 Porto Salvo 
+P-2740 255 Porto Salvo 
 Tel: +351 21 196 40 regaff.portugal@sandoz.com </p>
 <p>Hrvatska 
 Sandoz d.o.o. 
 Maksimirska 10 000 Zagreb 
 Tel : +385 1 235 3upit.croatia@sandoz.com </p>
-<p>România 
+<p>Rom nia 
 Sandoz S.R.L. 
 Strada Livezeni Nr. 7a 
-540472 Târgu Mureș 
+540472 T rgu Mure<br />
 Tel: +40 21 407 51<br />
 Ireland 
 Sandoz Pharmaceuticals d.d. 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia 
 Slovenija 
-Lek farmacevtska družba d.d. 
-Verovškova SI-1526 Ljubljana 
+Lek farmacevtska dru ba d.d. 
+Verov kova SI-1526 Ljubljana 
 Tel: +386 1 580 21 Info.lek@sandoz.com </p>
-<p>Ísland 
+<p>sland 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
-Danmörk 
+Edvard Thomsens Vej DK-2300 Kaupmaannah fn S 
+Danm rk 
 Tlf: +45 6395 1info.danmark@sandoz.com </p>
-<p>Slovenská republika 
-Sandoz d.d. - organizačná zložka 
-Žižkova 22B 
+<p>Slovensk  republika 
+Sandoz d.d. - organiza n  zlo ka 
+ i kova 22B 
 811 02 Bratislava 
 Tel: +421 2 48 200 sk.regulatory@sandoz.com </p>
 <p>Italia 
@@ -408,22 +408,20 @@ Tel: +39 02 96 54 1
 regaff.italy@sandoz.com </p>
 <p>Suomi/Finland 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Kööpenhamina S 
+Edvard Thomsens Vej DK-2300 K penhamina S 
 Tanska 
 Puh: + 358 010 6133 info.suomi@sandoz.com </p>
-<p>Κύπρος 
-Sandoz Pharmaceuticals d.d. 
-Verovskova SI-1000 Ljubljana 
-Σλοβενία 
-Τηλ: +357 22 69 0 
+<p>Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana </p>
+<p>: +357 22 69 0 
 Sverige 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Edvard Thomsens Vej DK-2300 K penhamn S 
 Danmark 
 Tel: +45 6395 1info.sverige@sandoz.com </p>
 <p>Latvija 
-Sandoz d.d. Latvia filiāle 
-K.Valdemāra 33 – LV-1010 Rīga 
+Sandoz d.d. Latvia fili le 
+K.Valdem ra 33   LV-1010 R ga 
 Tel: +371 67892 
 United Kingdom (Northern Ireland) 
 Sandoz Pharmaceuticals d.d. 
@@ -431,7 +429,7 @@ Verovskova SI-1000 Ljubljana
 Slovenia 
 Tel: +43 5338 2 </p>
 <p>This leaflet was last approved in </p>
-<p>This medicine has been authorised under “exceptional circumstances”. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on the medicine every year and 
 this leaflet will be updated as necessary. </p>

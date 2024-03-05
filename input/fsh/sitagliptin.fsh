@@ -4,7 +4,7 @@ Instance: composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
 InstanceOf: CompositionUvEpi
 Title: "Composition for sitagliptin Package Leaflet"
 Description:  "Composition for sitagliptin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -99,15 +99,17 @@ Cases of inflammation of the pancreas (pancreatitis) have been reported in patie
 sitagliptin (see section 4). </p>
 <p>If you encounter blistering of the skin it may be a sign for a condition called bullous pemphigoid. 
 Your doctor may ask you to stop Sitagliptin SUN. </p>
-<p>Tell your doctor if you have or have had: 
-- a disease of the pancreas (such as pancreatitis) 
-- gallstones, alcohol dependence or very high levels of triglycerides (a form of fat) in your blood. 
-These medical conditions can increase your chance of getting pancreatitis (see section 4). 
-- type 1 diabetes 
-- diabetic ketoacidosis (a complication of diabetes with high blood sugar, rapid weight loss, 
-nausea or vomiting) 
-- any past or present kidney problems 
-- an allergic reaction to sitagliptin (see section 4) </p>
+<p>Tell your doctor if you have or have had:</p>
+<ul>
+<li>a disease of the pancreas (such as pancreatitis) </li>
+<li>gallstones, alcohol dependence or very high levels of triglycerides (a form of fat) in your blood. 
+These medical conditions can increase your chance of getting pancreatitis (see section 4). </li>
+<li>type 1 diabetes </li>
+<li>diabetic ketoacidosis (a complication of diabetes with high blood sugar, rapid weight loss, 
+nausea or vomiting) </li>
+<li>any past or present kidney problems </li>
+<li>an allergic reaction to sitagliptin (see section 4) </li>
+</ul>
 <p>This medicine is unlikely to cause low blood sugar because it does not work when your blood sugar is 
 low. However, when this medicine is used in combination with a sulphonylurea medicine or with 
 insulin, low blood sugar (hypoglycaemia) can occur. Your doctor may reduce the dose of your 
@@ -135,8 +137,8 @@ dizziness and drowsiness have been reported, which may affect your ability to dr
 hypoglycaemia, which may affect your ability to drive and use machines or work without safe 
 foothold. </p>
 <p>Sitagliptin SUN contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>
 <p>Sitagliptin SUN contains hydrogenated castor oil<br />
 May cause stomach upset and diarrhea. </p>         </div>"""   
                     
@@ -147,13 +149,10 @@ May cause stomach upset and diarrhea. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. </p>
-<p>The usual recommended dose is: 
-− 
-one 100 mg film-coated tablet 
-− 
-once a day 
-− 
-by mouth </p>
+<p>The usual recommended dose is: </p>
+<p>one 100 mg film-coated tablet </p>
+<p>once a day </p>
+<p>by mouth </p>
 <p>If you have kidney problems, your doctor may prescribe lower doses (such as 25 mg or 50 mg).  </p>
 <p>You can take this medicine with or without food. </p>
 <p>Your doctor may prescribe this medicine alone or with certain other medicines that lower blood sugar. </p>
@@ -178,10 +177,12 @@ your blood sugar. You should not stop taking this medicine without talking to yo
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>STOP taking sitagliptin and contact a doctor immediately if you notice any of the following serious 
-side effects: 
-- Severe and persistent pain in the abdomen (stomach area) which might reach through to your 
+side effects:</p>
+<ul>
+<li>Severe and persistent pain in the abdomen (stomach area) which might reach through to your 
 back with or without nausea and vomiting, as these could be signs of an inflamed pancreas 
-(pancreatitis). </p>
+(pancreatitis). </li>
+</ul>
 <p>If you have a serious allergic reaction (frequency not known), including rash, hives, blisters on the 
 skin/peeling skin and swelling of the face, lips, tongue, and throat that may cause difficulty in 
 breathing or swallowing, stop taking this medicine and call your doctor right away. Your doctor may 
@@ -224,7 +225,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store sitagliptin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw 
@@ -237,23 +238,18 @@ away medicines you no longer use. These measures will help protect the environme
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sitagliptin SUN contains 
-- The active substance is sitagliptin: 
-o 
+- The active substance is sitagliptin: * 
 Each Sitagliptin SUN 25 mg film-coated tablet contains sitagliptin fumarate, equivalent 
-to 25 mg sitagliptin. 
-o 
+to 25 mg sitagliptin. * 
 Each Sitagliptin SUN 50 mg film-coated tablet contains sitagliptin fumarate, equivalent 
-to 50 mg sitagliptin. 
-o 
+to 50 mg sitagliptin. * 
 Each Sitagliptin SUN 100 mg film-coated tablet contains sitagliptin fumarate, equivalent 
 to 100 mg sitagliptin. </p>
 <ul>
-<li>The other ingredients are:<br />
-o 
+<li>The other ingredients are:  * 
 Tablet core: calcium hydrogen phosphate (E341), crospovidone type A (E1202), </li>
 </ul>
-<p>hydrogenated castor oil, glycerol dibehenate, and magnesium stearate (E470b).<br />
-o 
+<p>hydrogenated castor oil, glycerol dibehenate, and magnesium stearate (E470b).  * 
 Film-coating: hypromellose 2910/5 (E464), titanium dioxide (E171), macrogol 6(E1521), talc (E553b), red iron oxide (E172), and yellow iron oxide (E172). </p>
 <p>What Sitagliptin SUN looks like and contents of the pack 
 - Sitagliptin SUN 25 mg film-coated tablets: Light pink colour, round film-coated tablets, 
@@ -282,29 +278,29 @@ The Netherlands </p>
 Str. Fabricii nr. Cluj-Napoca, 400Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien/България/Česká republika/ 
-Danmark/Eesti/Ελλάδα/Hrvatska/Ireland/Ísland/ 
-Κύπρος/Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
-Malta/Nederland/Norge/Österreich/Portugal/ 
-Slovenija/Slovenská republika/Suomi/Finland/Sverige 
+<p>Belgi /Belgique/Belgien/ / esk  republika/ 
+Danmark/Eesti/ /Hrvatska/Ireland/ sland/ 
+ /Latvija/Lietuva/Luxembourg/Luxemburg/Magyarorsz g/ 
+Malta/Nederland/Norge/ sterreich/Portugal/ 
+Slovenija/Slovensk  republika/Suomi/Finland/Sverige 
 Sun Pharmaceutical Industries Europe B.V. 
 Polarisavenue 2132 JH Hoofddorp 
-Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
-Nederlandene/Holland/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
-Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
-L-Olanda/Nederland/Nederland/Niederlande/Países Baixos/ 
-Nizozemska/Holandsko/Alankomaat/Nederländerna/Nederländerna 
-Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ </p>
+Nederland/Pays-Bas/Niederlande/ /Nizozemsko/ 
+Nederlandene/Holland/ /Nizozemska/The Netherlands/Holland/ 
+ /N derlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
+L-Olanda/Nederland/Nederland/Niederlande/Pa ses Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederl nderna/Nederl nderna 
+Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ </p>
 <p>+31 (0)23 568 5 
 Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland 
 Tel. +49 (0) 214 40399 0 </p>
-<p>España 
+<p>Espa a 
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
-España 
+Espa a 
 tel. +34 93 342 78<br />
 France 
 Sun Pharma France 
@@ -324,10 +320,10 @@ ul. Kubickiego 11<br />
 02-954 Warszawa<br />
 Polska 
 Tel. +48 22 642 07<br />
-România 
+Rom nia 
 Terapia S.A. 
-Str. Fabricii nr Cluj-Napoca, Judeţul Cluj 
-România 
+Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
+Rom nia 
 Tel. +40 (264) 501<br />
 United Kingdom (Northern Ireland) 
 Sun Pharma UK Limited 

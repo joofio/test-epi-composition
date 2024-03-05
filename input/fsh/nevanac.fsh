@@ -4,7 +4,7 @@ Instance: composition-en-4e04d92c0b9ceaa06795f86e3a393ec2
 InstanceOf: CompositionUvEpi
 Title: "Composition for nevanac Package Leaflet"
 Description:  "Composition for nevanac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,10 +71,12 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NEVANAC contains the active substance nepafenac, and belongs to a group of medicines called 
 nonsteroidal anti-inflammatory drugs (NSAIDs). </p>
-<p>NEVANAC is to be used by adults: 
-- to prevent and relieve eye pain and inflammation following cataract surgery on the eye 
-- to reduce the risk of macular oedema (swelling in the back of the eye) following cataract 
-surgery on the eye in diabetic patients. </p>         </div>"""   
+<p>NEVANAC is to be used by adults:</p>
+<ul>
+<li>to prevent and relieve eye pain and inflammation following cataract surgery on the eye </li>
+<li>to reduce the risk of macular oedema (swelling in the back of the eye) following cataract 
+surgery on the eye in diabetic patients. </li>
+</ul>         </div>"""   
           
 
              
@@ -91,16 +93,18 @@ section 6),
 other NSAIDs. Examples of NSAIDs are: acetylsalicylic acid, ibuprofen, ketoprofen, piroxicam, 
 diclofenac. </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before using NEVANAC: 
-- if you bruise easily or have bleeding problems or have had them in the past. 
-- if you have any other eye disorder (e.g. an eye infection) or if you are using other medicines in 
-the eye (especially topical steroids). 
-- if you have diabetes. 
-- if you have rheumatoid arthritis. 
-- if you have had repeated eye surgery within a short period of time. </p>
+Talk to your doctor, pharmacist or nurse before using NEVANAC:</p>
+<ul>
+<li>if you bruise easily or have bleeding problems or have had them in the past. </li>
+<li>if you have any other eye disorder (e.g. an eye infection) or if you are using other medicines in 
+the eye (especially topical steroids). </li>
+<li>if you have diabetes. </li>
+<li>if you have rheumatoid arthritis. </li>
+<li>if you have had repeated eye surgery within a short period of time. </li>
+</ul>
 <p>Avoid sunlight during treatment with NEVANAC </p>
 <p>Wearing contact lenses is not recommended after cataract surgery. Your doctor will advise you when 
-you can use contact lenses again (see also “NEVANAC contains benzalkonium chloride”) </p>
+you can use contact lenses again (see also  NEVANAC contains benzalkonium chloride ) </p>
 <p>Children and adolescents 
 Do not give this medicine to children and adolescents below 18 years old because the safety and 
 efficacy in this population has not been established. </p>
@@ -124,25 +128,19 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 Do not drive or use machines until your vision is clear. You may find that your vision is blurred for a 
 time just after using NEVANAC. </p>
 <p>NEVANAC contains benzalkonium chloride </p>
-<p>This medicine contains 0.25 mg benzalkonium chloride in each 5 ml which is equivalent to </p>         </div>"""   
+<p>This medicine contains 0.25 mg benzalkonium chloride in each 5 ml which is equivalent to 
+0.05 mg/ml. </p>
+<p>The preservative in NEVANAC, benzalkonium chloride, may be absorbed by soft contact lenses and 
+may change the colour of the contact lenses. You should remove contact lenses before using this 
+medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause eye 
+irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of the 
+eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to 
+your doctor. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nevanac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take nevanac"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The preservative in NEVANAC, benzalkonium chloride, may be absorbed by soft contact lenses and 
-may change the colour of the contact lenses. You should remove contact lenses before using this 
-medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause eye 
-irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of the 
-eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to 
-your doctor. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -164,7 +162,7 @@ Wash your hands before you start. </p>
 <li>After cap is removed, if tamper evident snap collar is loose, remove before using product. </li>
 <li>Hold the bottle, pointing down, between your thumb and fingers. </li>
 <li>Tilt your head back. </li>
-<li>Pull down your lower eyelid with a clean finger, until there is a ‘pocket’ between the eyelid and 
+<li>Pull down your lower eyelid with a clean finger, until there is a  pocket  between the eyelid and 
 your eye. The drop will go in here (picture 1). </li>
 <li>Bring the bottle tip close to the eye. Do this in front of a mirror if it helps. </li>
 <li>Do not touch your eye or eyelid, surrounding areas or other surfaces with the dropper. It could 
@@ -189,15 +187,16 @@ a forgotten dose. Do not use more than one drop in the affected eye(s) 3 times d
 Do not stop using NEVANAC without speaking to your doctor first. You can usually carry on using 
 the drops, unless you experience serious side effects. If you are worried talk to your doctor or 
 pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store nevanac"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store nevanac"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>There may be a higher risk of corneal side effects (eye surface problems) if you have: </p>
+<p>There may be a higher risk of corneal side effects (eye surface problems) if you have:</p>
 <ul>
 <li>complicated eye surgery </li>
 <li>repeated eye surgery within a short period of time </li>
@@ -243,18 +242,129 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 30 C. </p>
+<p>Throw away the bottle 4 weeks after first opening, to prevent infections. Write the date of opening on 
+the bottle and carton label in the space provided. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after EXP. 
-The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
-<p>Throw away the bottle 4 weeks after first opening, to prevent infections. Write the date of opening on 
-the bottle and carton label in the space provided. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NEVANAC contains 
+- The active substance is nepafenac. One ml of suspension contains 1 mg of nepafenac. 
+- The other ingredients are benzalkonium chloride (see section 2), carbomer, disodium edetate, 
+mannitol, purified water, sodium-chloride and tyloxapol. 
+Tiny amounts of sodium hydroxide and/or hydrochloric acid are added to keep acidity levels 
+(pH levels) normal. </p>
+<p>What NEVANAC looks like and the contents of the pack 
+NEVANAC is a liquid (light yellow to light orange suspension) supplied in a pack containing one 
+5 ml plastic bottle with a screw cap. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+S.A. Alcon Couvreur N.V 
+Rijksweg B-2870 Puurs 
+Belgium </p>
+<p>Novartis Pharma GmbH 
+Roonstra e 90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17<br />
+ sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+ sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

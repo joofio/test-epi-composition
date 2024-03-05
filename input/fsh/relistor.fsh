@@ -4,7 +4,7 @@ Instance: composition-en-2f7a279f68a665d0f862dc617efb9035
 InstanceOf: CompositionUvEpi
 Title: "Composition for relistor Package Leaflet"
 Description:  "Composition for relistor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,7 +95,7 @@ doctor). </p>
 Talk to your doctor or pharmacist before using Relistor. 
 * If you have severe stomach symptoms which continue or get worse, contact your doctor 
 immediately because these could be symptoms of a hole developing in the bowel wall (intestinal 
-perforation). See section 4. * If you have Crohn´s disease or gastrointestinal ulcers 
+perforation). See section 4. * If you have Crohn s disease or gastrointestinal ulcers 
 * If you feel sick, vomit, shiver, sweat, have belly pain and/or feel a fast heart beat shortly after 
 taking Relistor talk  to your doctor 
 * If you have severe liver or kidney disease.<br />
@@ -131,7 +131,7 @@ your doctor or pharmacist for advice before taking this medicine.  </p>
 Dizziness is a common side effect of this medicine. This may have an effect on your ability to drive 
 and use machines. </p>
 <p>Important information about some of the ingredients of Relistor<br />
-This medicine contains less than 1 mmol sodium (23 mg) per dose i.e., essentially “sodium free.” </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose i.e., essentially  sodium free.  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take relistor"
@@ -264,11 +264,11 @@ Ireland </p>
 <p>Manufacturer </p>
 <p>Bausch Health Poland Sp. z o. o., 
 ul. Kosztowska 21,<br />
-41-409 Mysłowice,<br />
+41-409 Mys owice,<br />
 Poland  </p>
 <p>Bausch Health Poland Sp. z o. o., 
-ul. Przemysłowa 2,<br />
-35-959 Rzeszów, 
+ul. Przemys owa 2,<br />
+35-959 Rzesz w, 
 Poland  </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

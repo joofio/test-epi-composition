@@ -4,7 +4,7 @@ Instance: composition-en-29aa13d063497263a16ff19921f8de13
 InstanceOf: CompositionUvEpi
 Title: "Composition for yselty Package Leaflet"
 Description:  "Composition for yselty Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,10 +72,10 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yselty contains the active substance linzagolix. It is used to treat moderate to severe symptoms of 
 uterine fibroids (commonly known as myomas), which are noncancerous tumours of the uterus 
 (womb). Yselty is used in adult women (over 18 years of age) of childbearing age. In some women, 
-uterine fibroids may cause heavy menstrual bleeding (your ‘period’) and pelvic pain (pain below the 
+uterine fibroids may cause heavy menstrual bleeding (your  period ) and pelvic pain (pain below the 
 belly button).  </p>
 <p>Linzagolix blocks the action of a hormone, gonadotropin releasing hormone, that helps to regulate the 
-release of female sex hormones estradiol and progesterone. These hormones trigger women’s periods 
+release of female sex hormones estradiol and progesterone. These hormones trigger women s periods 
 (menstruation). When blocked, the levels of the hormones estrogen and progesterone circulating in the 
 body are reduced. By decreasing their levels, linzagolix stops or reduces menstrual bleeding and 
 decreases pain and pelvic discomfort and other symptoms associated with uterine fibroids. </p>         </div>"""   
@@ -97,7 +97,7 @@ section 6) </li>
 <li>if you have any genital bleeding of unknown origin. </li>
 </ul>
 <p>If you are taking Yselty together with additional hormonal therapy of estradiol and norethisterone 
-acetate (also known as add-back therapy), follow the instructions in the “Do not take…” section of the 
+acetate (also known as add-back therapy), follow the instructions in the  Do not take  section of the 
 package leaflets for estradiol and norethisterone acetate. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Yselty.  </p>
@@ -108,9 +108,9 @@ start treatment, such as a scan to measure how strong your bones are, that will 
 medical needs and/or concerns. </p>
 <p>Stop taking Yselty and get urgent medical attention if you notice: 
 *  signs of liver disease:<br />
-− yellowing of your skin or the whites of your eyes (jaundice). 
-− nausea or vomiting, fever, severe tiredness.<br />
-− dark urine, itching or upper abdominal pain. 
+  yellowing of your skin or the whites of your eyes (jaundice). 
+  nausea or vomiting, fever, severe tiredness.<br />
+  dark urine, itching or upper abdominal pain. 
 * if you become pregnant. </p>
 <p>Talk to your doctor or pharmacist before taking Yselty if you have: 
 * reduced liver or kidney function. 
@@ -120,7 +120,7 @@ reduced kidney function as the linzagolix blood level may become too high.
 Temporary increased levels of liver enzymes in the blood without symptoms may occur during 
 treatment with Yselty.<br />
 <em> heart or blood circulation problems, a family history of changes in the electrical activity of the 
-heart known as “QT prolongation” or you are taking a medicine that changes the electrical 
+heart known as  QT prolongation  or you are taking a medicine that changes the electrical 
 activity in the heart. 
 * increased blood fat levels (cholesterol). These levels should be monitored during treatment as 
 Yselty may lead to further increases.<br />
@@ -131,9 +131,9 @@ it beforehand in this case.
 symptoms as these have been reported with medications that work in the same way as Yselty 
 does.<br />
 * if you think you might be pregnant. Yselty usually leads to a significant reduction or may even 
-stop your menstrual bleeding (your ‘period’) during treatment and for a few weeks afterwards, 
-making it difficult to recognise pregnancy. See under “Pregnancy and breast-feeding.  </p>
-<p>Yselty has not been shown to provide contraception. See under “Pregnancy and breast-feeding”. </p>
+stop your menstrual bleeding (your  period ) during treatment and for a few weeks afterwards, 
+making it difficult to recognise pregnancy. See under  Pregnancy and breast-feeding.  </p>
+<p>Yselty has not been shown to provide contraception. See under  Pregnancy and breast-feeding . </p>
 <p>Yselty can be used together with another tablet containing the hormones estradiol and norethisterone 
 acetate (also known as hormonal add-back therapy). If prescribed to you, read the leaflet of the tablet 
 containing these hormones carefully as well as this leaflet. </p>
@@ -161,8 +161,8 @@ Yselty has no influence on the ability to drive and use machines. </p>
 <p>Yselty contains lactose and sodium 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yselty"
@@ -273,12 +273,12 @@ One tablet of Yselty 100 mg contains 100 mg linzagolix.
 * The other ingredients are: 
 Tablet core: lactose monohydrate, microcrystalline cellulose, low-substituted 
 hydroxypropylcellulose, hydroxypropylcellulose, croscarmellose sodium and magnesium 
-stearate. See section 2 “Yselty contains lactose and sodium”. 
+stearate. See section 2  Yselty contains lactose and sodium . 
 Film-coating: macrogol poly(vinyl alcohol) grafted copolymer (E1209), talc (E553b), titanium 
 dioxide (E171) and iron oxide yellow (E172).  </p>
 <p>What Yselty looks like and contents of the pack 
 Yselty 100 mg film-coated tablets are round shaped of 10 mm diameter, pale yellow, engraved with 
-“100” on one side and plain on the other side. </p>
+ 100  on one side and plain on the other side. </p>
 <p>Yselty is provided in a cardboard box with 2 or 6 blisters containing 14 film-coated tablets (tablet) per 
 blister. </p>
 <p>Pack sizes: 28 or 84 film-coated tablets. </p>

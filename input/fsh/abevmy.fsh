@@ -4,7 +4,7 @@ Instance: composition-en-5e76230e59397f1e6fa849c96667af6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for abevmy Package Leaflet"
 Description:  "Composition for abevmy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -111,14 +111,16 @@ paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>  
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take abevmy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not be given Abevmy if: 
-- you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
-medicine (listed in section 6). 
-- you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
-recombinant human or humanised antibodies. 
-- you are pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not be given Abevmy if:</p>
+<ul>
+<li>you are allergic (hypersensitive) to bevacizumab or to any of the other ingredients of this 
+medicine (listed in section 6). </li>
+<li>you are allergic (hypersensitive) to Chinese hamster ovary (CHO) cell products or to other 
+recombinant human or humanised antibodies. </li>
+<li>you are pregnant. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before you are given Abevmy: </p>
+Talk to your doctor, pharmacist or nurse before you are given Abevmy:</p>
 <ul>
 <li>It is possible that Abevmy may increase the risk of developing holes in the gut wall. If you have 
 conditions causing inflammation inside the abdomen (e.g. diverticulitis, stomach ulcers, colitis 
@@ -166,14 +168,18 @@ blood cell important for your protection against bacteria). </li>
 infusion reactions (reactions related to your injection of the medicine). Please let your doctor, 
 pharmacist or nurse know if you have previously experienced problems after injections, such as 
 dizziness/feeling of fainting, breathlessness, swelling or skin rash. </li>
-<li>A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
+<li>
+<p>A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
 has been associated with Abevmy treatment. If you have headache, vision changes, confusion or 
 seizure with or without high blood pressure, please contact your doctor. 
 Please consult your doctor, even if these above statements were only applicable to you in the past. 
-Before you are given Abevmy or while you are being treated with Abevmy: </li>
-<li>if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, 
+Before you are given Abevmy or while you are being treated with Abevmy:</p>
+</li>
+<li>
+<p>if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, 
 numbness or a feeling of heaviness in the jaw, or loosening of a tooth tell your doctor and 
-dentist immediately. </li>
+dentist immediately. </p>
+</li>
 <li>if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that you 
 are being treated with Abevmy, in particular when you are also receiving or have received an 
 injection of bisphosphonate into your blood. </li>
@@ -279,23 +285,29 @@ signs may include: difficulty in breathing or chest pain. You could also experie
 of the skin or a rash, chills and shivering, feeling sick (nausea) or being sick (vomiting), swelling, 
 lightheadedness, fast heartbeat and loss of consciousness. </p>
 <p>You should seek help immediately if you suffer from any of the below mentioned side effects. </p>
-<p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include: 
-- high blood pressure, 
-- feeling of numbness or tingling in hands or feet, 
-- decreased number of cells in the blood, including white cells that help to fight against infections 
-(this may be accompanied by fever), and cells that help the blood to clot, 
-- feeling weak and having no energy, 
-- tiredness, 
-- diarrhoea, nausea, vomiting and abdominal pain. </p>
-<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include: 
-- perforation of the gut, 
-- bleeding, including bleeding in the lungs in patients with non-small cell lung cancer, 
-- blocking of the arteries by a blood clot, 
-- blocking of the veins by a blood clot, 
-- blocking of the blood vessels of the lungs by a blood clot, 
-- blocking of the veins of the legs by a blood clot, </p>
+<p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include:</p>
 <ul>
-<li>heart failure, </li>
+<li>high blood pressure, </li>
+<li>feeling of numbness or tingling in hands or feet, </li>
+<li>decreased number of cells in the blood, including white cells that help to fight against infections 
+(this may be accompanied by fever), and cells that help the blood to clot, </li>
+<li>feeling weak and having no energy, </li>
+<li>tiredness, </li>
+<li>diarrhoea, nausea, vomiting and abdominal pain. </li>
+</ul>
+<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include:</p>
+<ul>
+<li>perforation of the gut, </li>
+<li>bleeding, including bleeding in the lungs in patients with non-small cell lung cancer, </li>
+<li>blocking of the arteries by a blood clot, </li>
+<li>blocking of the veins by a blood clot, </li>
+<li>blocking of the blood vessels of the lungs by a blood clot, </li>
+<li>
+<p>blocking of the veins of the legs by a blood clot, </p>
+</li>
+<li>
+<p>heart failure, </p>
+</li>
 <li>problems with wound healing after surgery, </li>
 <li>redness, peeling, tenderness, pain, or blistering on the fingers or feet, </li>
 <li>decreased number of red cells in the blood, </li>
@@ -324,60 +336,72 @@ cervical cancer, </li>
 <li>allergic reactions (the signs may include breathing difficulty, facial redness, rash, low blood 
 pressure or high blood pressure, low oxygen in your blood, chest pain, or nausea/vomiting). </li>
 </ul>
-<p>Severe side effects, which may be rare (may affect up to 1 in 1,000 people), include: 
-- sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, fast 
-heartbeat, sweating and loss of consciousness (anaphylactic shock). </p>
+<p>Severe side effects, which may be rare (may affect up to 1 in 1,000 people), include:</p>
+<ul>
+<li>sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, fast 
+heartbeat, sweating and loss of consciousness (anaphylactic shock). </li>
+</ul>
 <p>Severe side effects of Not known frequency (frequency cannot be estimated from the available data), 
-include: 
-- serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
-gut wall or problems with wound healing, 
-- a negative effect on a woman’s ability to have children (see the paragraphs below the list of side 
-effects for further recommendations), 
-- a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
-vision (Posterior Reversible Encephalopathy Syndrome or PRES), 
-- symptoms that suggest changes in normal brain function (headaches, vision changes, confusion, 
-or seizures), and high blood pressure, 
-- an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall (aneurysms 
-and artery dissections), 
-- clogging of a very small blood vessel(s) in the kidney, 
-- abnormally high blood pressure in the blood vessels of the lungs which makes the right side of 
-the heart work harder than normal, 
-- a hole in the cartilage wall separating the nostrils of the nose, 
-- a hole in the stomach or intestines, 
-- an open sore or hole in the lining of the stomach or small intestine (the signs may include 
+include:</p>
+<ul>
+<li>serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
+gut wall or problems with wound healing, </li>
+<li>a negative effect on a woman s ability to have children (see the paragraphs below the list of side 
+effects for further recommendations), </li>
+<li>a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
+vision (Posterior Reversible Encephalopathy Syndrome or PRES), </li>
+<li>symptoms that suggest changes in normal brain function (headaches, vision changes, confusion, 
+or seizures), and high blood pressure, </li>
+<li>an enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall (aneurysms 
+and artery dissections), </li>
+<li>clogging of a very small blood vessel(s) in the kidney, </li>
+<li>abnormally high blood pressure in the blood vessels of the lungs which makes the right side of 
+the heart work harder than normal, </li>
+<li>a hole in the cartilage wall separating the nostrils of the nose, </li>
+<li>a hole in the stomach or intestines, </li>
+<li>an open sore or hole in the lining of the stomach or small intestine (the signs may include 
 abdominal pain, feeling bloated, black tarry stools or blood in your stools (faeces) or blood in 
-your vomit), 
-- bleeding from the lower part of the large bowel, 
-- lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
+your vomit), </li>
+<li>bleeding from the lower part of the large bowel, </li>
+<li>
+<p>lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
 pain and inflammation of the surrounding tissue (see the paragraphs below the list of side effects 
 for further recommendations), </p>
-<ul>
-<li>hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
-nausea/vomiting). </li>
+</li>
+<li>
+<p>hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
+nausea/vomiting). </p>
+</li>
 </ul>
 <p>You should seek help as soon as possible if you suffer from any of the below mentioned side 
 effects. </p>
-<p>Very common (may affect more than 1 in 10 people) side effects, which were not severe, include: 
-- constipation, 
-- loss of appetite, 
-- fever, 
-- problems with the eyes (including increased production of tears), 
-- changes in speech, 
-- change in the sense of taste, 
-- runny nose, 
-- dry skin, flaking and inflammation of the skin, change in skin colour, 
-- loss of body weight, 
-- nose bleeds. </p>
-<p>Common (may affect up to 1 in 10 people) side effects, which were not severe, include: 
-- voice changes and hoarseness. </p>
-<p>Patients older than 65 years have an increased risk of experiencing the following side effects : 
-- blood clot in the arteries which can lead to a stroke or a heart attack, 
-- reduction in the number of white cells in the blood, and cells that help the blood clot, 
-- diarrhoea, 
-- sickness, 
-- headache, 
-- fatigue, 
-- high blood pressure. </p>
+<p>Very common (may affect more than 1 in 10 people) side effects, which were not severe, include:</p>
+<ul>
+<li>constipation, </li>
+<li>loss of appetite, </li>
+<li>fever, </li>
+<li>problems with the eyes (including increased production of tears), </li>
+<li>changes in speech, </li>
+<li>change in the sense of taste, </li>
+<li>runny nose, </li>
+<li>dry skin, flaking and inflammation of the skin, change in skin colour, </li>
+<li>loss of body weight, </li>
+<li>nose bleeds. </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people) side effects, which were not severe, include:</p>
+<ul>
+<li>voice changes and hoarseness. </li>
+</ul>
+<p>Patients older than 65 years have an increased risk of experiencing the following side effects :</p>
+<ul>
+<li>blood clot in the arteries which can lead to a stroke or a heart attack, </li>
+<li>reduction in the number of white cells in the blood, and cells that help the blood clot, </li>
+<li>diarrhoea, </li>
+<li>sickness, </li>
+<li>headache, </li>
+<li>fatigue, </li>
+<li>high blood pressure. </li>
+</ul>
 <p>Abevmy may also cause changes in laboratory tests carried out by your doctor. These include a 
 decreased number of white cells in the blood, in particular neutrophils (one type of white blood cell 
 which helps protect against infections) in the blood; presence of protein in the urine; decreased blood 
@@ -393,7 +417,7 @@ irregular or are missed and may experience impaired fertility. If you are consid
 you should discuss this with your doctor before your treatment starts. </p>
 <p>Abevmy has been developed and made to treat cancer by injecting it into the bloodstream. It has not 
 been developed or made for injection into the eye. It is therefore not authorised to be used in this way. 
-When Abevmy is injected directly into the eye (unapproved use), the following side effects may occur: </p>
+When Abevmy is injected directly into the eye (unapproved use), the following side effects may occur:</p>
 <ul>
 <li>Infection or inflammation of the eye globe, </li>
 <li>Redness of the eye, small particles or spots in your vision (floaters), eye pain, </li>
@@ -415,14 +439,14 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). 
+<p>Store in a refrigerator (2 C   8 C). 
 Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. If not used immediately, in-use storage 
 times and conditions are the responsibility of the user and would normally not be longer than 24 hours 
-at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile environment. When dilution 
-has taken place in a sterile environment, Abevmy is stable for a period of up to 70 days at 2°C to 8°C 
-and a period of up to 15 days at 23°C to 27°C. </p>
+at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile environment. When dilution 
+has taken place in a sterile environment, Abevmy is stable for a period of up to 70 days at 2 C to 8 C 
+and a period of up to 15 days at 23 C to 27 C. </p>
 <p>Do not use Abevmy if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -440,7 +464,7 @@ Each 4 mL vial contains 100 mg of bevacizumab, corresponding to 1.4 mg/mL when d
 recommended. 
 Each 16 mL vial contains 400 mg of bevacizumab, corresponding to 16.5 mg/mL when diluted 
 as recommended. 
-- The other ingredients are sodium phosphate (E339), α, α - trehalose dihydrate, polysorbate (E432) and water for injections. See section 2 ‘Abevmy contains sodium’. </p>
+- The other ingredients are sodium phosphate (E339),  ,   - trehalose dihydrate, polysorbate (E432) and water for injections. See section 2  Abevmy contains sodium . </p>
 <p>What Abevmy looks like and contents of the pack 
 Abevmy is a concentrate for solution for infusion. The concentrate is a clear to slightly opalescent, 
 colourless to pale brown liquid and free of visible particles. It is filled in a glass vial with a rubber 
@@ -462,21 +486,20 @@ D09 C6X8
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-Tél/Tel: 0080008250 
+T l/Tel: 0080008250 
 Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 
-България 
-Biosimilar Collaborations Ireland Limited 
-Тел: 0080008250 
+Tel: 0080008250 </p>
+<p>Biosimilar Collaborations Ireland Limited 
+ : 0080008250 
 Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
-Tél/Tel: 0080008250(Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: 0080008250(Belgique/Belgien) </p>
+<p>esk  republika 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250Magyarország 
+Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
 Tel.: 0080008250 
 Danmark 
@@ -493,15 +516,14 @@ Tel: 0080008250Eesti
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62<br />
-Ελλάδα<br />
-Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ 
-Ι.Κ.Ε 
-Τηλ.: 0080008250 
-Österreich 
+Tlf: +47 800 62  </p>
+<p>Biocon Biologics Greece <br />
+ . .<br />
+ .: 0080008250 
+ sterreich 
 Biocon Biologics Germany GmbH 
 Tel: 0080008250 
-España 
+Espa a 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Polska 
@@ -515,7 +537,7 @@ Tel: 0080008250 </p>
 <p>Hrvatska 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250 
-România 
+Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 
 Ireland 
@@ -524,20 +546,19 @@ Tel: 1800 777<br />
 Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 
-Ísland 
+ sland 
 Biocon Biologics Finland OY<br />
-Sími: +345 800 4 
-Slovenská republika 
+S mi: +345 800 4 
+Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 
-Κύπρος 
-Biosimilar Collaborations Ireland Limited<br />
-Τηλ: 0080008250 
+Puh/Tel: 99980008250 </p>
+<p>Biosimilar Collaborations Ireland Limited<br />
+ : 0080008250 
 Sverige 
 Biocon Biologics Finland OY<br />
 Tel: 0080008250 

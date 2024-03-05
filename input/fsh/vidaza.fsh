@@ -4,7 +4,7 @@ Instance: composition-en-5f8b8c4b9e5f26ff9f9320c47bf6fa58
 InstanceOf: CompositionUvEpi
 Title: "Composition for vidaza Package Leaflet"
 Description:  "Composition for vidaza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Vidaza 
 4. Possible side effects 
 5. How to store Vidaza 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -69,8 +68,8 @@ Usage: #example
   * code.text =  "1. What vidaza is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vidaza is 
-Vidaza is an anti-cancer agent which belongs to a group of medicines called ‘anti-metabolites’. Vidaza 
-contains the active substance ‘azacitidine’. </p>
+Vidaza is an anti-cancer agent which belongs to a group of medicines called  anti-metabolites . Vidaza 
+contains the active substance  azacitidine . </p>
 <p>What Vidaza is used for 
 Vidaza is used in adults who are not able to have a stem cell transplantation to treat: 
 * higher-risk myelodysplastic syndromes (MDS). 
@@ -106,14 +105,20 @@ Talk to your doctor, pharmacist or nurse before using Vidaza:
 * if you have kidney disease. 
 * if you have liver disease. 
 * if you have ever had a heart condition or heart attack or any history of lung disease. </p>
-<p>Vidaza can cause a serious immune reaction called ‘differentiation syndrome’ (see section 4). </p>
+<p>Vidaza can cause a serious immune reaction called  differentiation syndrome  (see section 4). </p>
 <p>Blood test 
 You will have blood tests before you begin treatment with Vidaza and at the start of each period of 
-treatment (called a ‘cycle’). This is to check that you have enough blood cells and that your liver and 
+treatment (called a  cycle ). This is to check that you have enough blood cells and that your liver and 
 kidneys are working properly. </p>
 <p>Children and adolescents 
-Vidaza is not recommended for use in children and adolescents below the age of 18.<br />
-Other medicines and Vidaza 
+Vidaza is not recommended for use in children and adolescents below the age of 1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vidaza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vidaza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Vidaza 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. 
 This is because Vidaza may affect the way some other medicines work. Also, some other medicines 
 may affect the way Vidaza works. </p>
@@ -133,12 +138,13 @@ Men should not father a child while receiving treatment with Vidaza. Men should 
 method of contraception while taking Vidaza and for 3 months after stopping treatment with Vidaza. </p>
 <p>Talk to your doctor if you wish to conserve your sperm before starting this treatment. </p>
 <p>Driving and using machines 
-Do not drive or use any tools or machines if you experience side effects, such as tiredness. </p>         </div>"""   
-                    
+Do not drive or use any tools or machines if you experience side effects, such as tiredness. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take vidaza"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take vidaza"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before giving you Vidaza, your doctor will give you another medicine to prevent nausea and vomiting 
 at the start of each treatment cycle. </p>
@@ -147,18 +153,17 @@ at the start of each treatment cycle. </p>
 P body surface area. Your doctor will decide your dose 
 of this medicine, depending on your general condition, height and weight. Your doctor will 
 check your progress and may change your dose if necessary. </li>
-<li>Vidaza is given every day for one week, followed by a rest period of 3 weeks. This “treatment 
-cycle” will be repeated every 4 weeks. You will usually receive at least 6 treatment cycles. </li>
+<li>Vidaza is given every day for one week, followed by a rest period of 3 weeks. This  treatment 
+cycle  will be repeated every 4 weeks. You will usually receive at least 6 treatment cycles. </li>
 </ul>
 <p>This medicine will be given to you as an injection under the skin (subcutaneously) by a doctor or 
 nurse. It may be given under the skin on your thigh, tummy or upper arm. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store vidaza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store vidaza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor straight away if you notice any of the following side effects: 
@@ -170,7 +175,7 @@ restlessness or fatigue. These may be symptoms of kidney failure and can be life
 * A fever. This could be due to an infection as a result of having low levels of white blood cells, 
 which can be life-threatening. 
 * Chest pain or shortness of breath which may be accompanied with a fever. This may be due 
-to an infection of the lung called “pneumonia”, and can be life-threatening. 
+to an infection of the lung called  pneumonia , and can be life-threatening. 
 * Bleeding. Such as blood in the stools due to bleeding in the stomach or gut, or such as bleeding 
 inside your head. These may be symptoms of having low levels of platelets in your blood. 
 * Difficulty breathing, swelling of the lips, itching or rash. This may be due to an allergic 
@@ -274,51 +279,28 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in 37TAppendix V37T. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store vidaza"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store vidaza"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the vial label and the carton. The 
-expiry date refers to the last day of that month. </p>
-<p>Your doctor, pharmacist or nurse are responsible for storing Vidaza. They are also responsible for 
-preparing and disposing of any unused Vidaza correctly. </p>
-<p>For unopened vials of this medicine – there are no special storage conditions. </p>
-<p>When using immediately 
-Once the suspension has been prepared it should be administered within 45 minutes. </p>
-<p>When using later on 
-If the Vidaza suspension is prepared using water for injections that has not been refrigerated, the 
-suspension must be placed in the refrigerator (2 °C – 8 °C) immediately after it is prepared and kept 
-refrigerated for up to a maximum of 8 hours. 
-If the Vidaza suspension is prepared using water for injections that has been stored in the refrigerator 
-(2 °C – 8 °C), the suspension must be placed in the refrigerator (2 °C – 8 °C) immediately after it is 
-prepared and kept refrigerated for up to a maximum of 22 hours. </p>
-<p>The suspension should be allowed up to 30 minutes prior to administration to reach room temperature 
-(20 °C – 25 °C). </p>
-<p>If large particles are present in the suspension it should be discarded. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vidaza contains 
-* The active substance is azacitidine. One vial contains 100 mg azacitidine. After reconstitution 
-with 4 mL of water for injections, the reconstituted suspension contains 25 mg/mL azacitidine. 
-* The other ingredient is mannitol (E421). </p>
-<p>What Vidaza looks like and contents of the pack 
-Vidaza is a white powder for suspension for injection and is supplied in a glass vial containing 100 mg 
-of azacitidine. Each pack contains one vial of Vidaza. </p>
-<p>Marketing Authorisation Holder 
-Bristol-Myers Squibb Pharma EEIG 
-Plaza Blanchardstown Corporate Park 2 
-Dublin 15, D15 TIreland </p>
-<p>Manufacturer 
-Celgene Distribution B.V. 
-Orteliuslaan 13528 BD Utrecht 
-Netherlands </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the vial label and the carton. The 
+expiry date refers to the last day of that month. </p>
+<p>Your doctor, pharmacist or nurse are responsible for storing Vidaza. They are also responsible for 
+preparing and disposing of any unused Vidaza correctly. </p>
+<p>For unopened vials of this medicine   there are no special storage conditions. </p>
+<p>When using immediately 
+Once the suspension has been prepared it should be administered within 45 minutes. </p>
+<p>When using later on 
+If the Vidaza suspension is prepared using water for injections that has not been refrigerated, the 
+suspension must be placed in the refrigerator (2  C   8  C) immediately after it is prepared and kept 
+refrigerated for up to a maximum of 8 hours. 
+If the Vidaza suspension is prepared using water for injections that has been stored in the refrigerator 
+(2  C   8  C), the suspension must be placed in the refrigerator (2  C   8  C) immediately after it is 
+prepared and kept refrigerated for up to a maximum of 22 hours. </p>
+<p>The suspension should be allowed up to 30 minutes prior to administration to reach room temperature 
+(20  C   25  C). </p>
+<p>If large particles are present in the suspension it should be discarded. </p>         </div>"""      
 

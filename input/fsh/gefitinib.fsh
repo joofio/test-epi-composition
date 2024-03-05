@@ -4,7 +4,7 @@ Instance: composition-en-553de2aa690a5750d1825c26ecd3f9ed
 InstanceOf: CompositionUvEpi
 Title: "Composition for gefitinib Package Leaflet"
 Description:  "Composition for gefitinib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,8 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What gefitinib is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gefitinib Mylan contains the active substance gefitinib which blocks a protein called ‘epidermal 
-growth factor receptor’ (EGFR). This protein is involved in the growth and spread of cancer cells. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gefitinib Mylan contains the active substance gefitinib which blocks a protein called  epidermal 
+growth factor receptor  (EGFR). This protein is involved in the growth and spread of cancer cells. </p>
 <p>Gefitinib Mylan is used to treat adults with non-small cell lung cancer. This cancer is a disease in 
 which malignant (cancer) cells form in the tissues of the lung. </p>         </div>"""   
           
@@ -81,10 +81,12 @@ which malignant (cancer) cells form in the tissues of the lung. </p>         </d
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take gefitinib"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Gefitinib Mylan: 
-- if you are allergic to gefitinib or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if you are breast-feeding. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Gefitinib Mylan:</p>
+<ul>
+<li>if you are allergic to gefitinib or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if you are breast-feeding. </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Gefitinib Mylan 
 - if you have ever had any other lung problems. Some lung problems may get worse during 
@@ -99,19 +101,21 @@ Gefitinib Mylan is not indicated in children and adolescents under 18 years. </p
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>In particular, tell your doctor or pharmacist if you are taking any of the following medicines as they 
-may affect the way gefitinib works: 
-- Phenytoin or carbamazepine (for epilepsy). 
-- Rifampicin (for tuberculosis). 
-- Itraconazole (for fungal infections). 
-- Barbiturates (a type of medicine used for sleeping problems). 
-- Herbal remedies containing St John’s wort (Hypericum perforatum, used for depression and 
-anxiety). 
-- Proton-pump inhibitors, H2-antagonists and antacids (for ulcers, indigestion, heartburn and to 
-reduce acids in the stomach). 
-- Warfarin (a so-called oral anticoagulant, to prevent blood clots). If you are taking a medicine 
+may affect the way gefitinib works:</p>
+<ul>
+<li>Phenytoin or carbamazepine (for epilepsy). </li>
+<li>Rifampicin (for tuberculosis). </li>
+<li>Itraconazole (for fungal infections). </li>
+<li>Barbiturates (a type of medicine used for sleeping problems). </li>
+<li>Herbal remedies containing St John s wort (Hypericum perforatum, used for depression and 
+anxiety). </li>
+<li>Proton-pump inhibitors, H2-antagonists and antacids (for ulcers, indigestion, heartburn and to 
+reduce acids in the stomach). </li>
+<li>Warfarin (a so-called oral anticoagulant, to prevent blood clots). If you are taking a medicine 
 containing this active substance, your doctor may need to do blood tests more often. 
 If any of the above applies to you, or if you are not sure, check with your doctor or pharmacist before 
-taking Gefitinib Mylan. </p>
+taking Gefitinib Mylan. </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 Talk to your doctor if you are pregnant, may become pregnant or are breast-feeding. </p>
 <p>It is recommended that you avoid becoming pregnant during treatment with this medicine because 
@@ -125,7 +129,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>Gefitinib Mylan contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially<br />
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gefitinib"
@@ -169,7 +173,7 @@ medical treatment:
 * Allergic reaction (common), particularly if symptoms include swollen face, lips, tongue or 
 throat, difficulty to swallow, hives, nettle rash and difficulty breathing. 
 * Serious breathlessness, or sudden worsening breathlessness, possibly with a cough or fever. This 
-may mean that you have an inflammation of the lungs called ‘interstitial lung disease’. This may 
+may mean that you have an inflammation of the lungs called  interstitial lung disease . This may 
 affect about 1 in 100 patients taking gefitinib and can be life-threatening. 
 * Severe skin reactions (rare) affecting large areas of your body. The signs may include redness, 
 pain, ulcers, blisters, and shedding of the skin. The lips, nose, eyes and genitals may also be 
@@ -234,7 +238,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and carton or pouch after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -251,5 +255,111 @@ throw away medicines you no longer use. These measures will help protect the env
 coating contains polyvinyl alcohol (E1203), macrogol 4000 (E1521), talc (E553b), titanium dioxide 
 (E171), red iron oxide (E172), yellow iron oxide (E172). </p>
 <p>What Gefitinib Mylan looks like and contents of the pack 
-Gefitinib Mylan tablets are brown, round, biconvex film-coated tablets with approximately 11.1 mm x </p>         </div>"""      
+Gefitinib Mylan tablets are brown, round, biconvex film-coated tablets with approximately 11.1 mm x 
+5.6 mm of dimension and marked with  250  on one side and plain on the other. 
+It comes in PVC/PVDC/Aluminium blisters in packs of 30 film-coated tablets or in 
+PVC/PVDC/Aluminium perforated unit dose blisters in packs of 30x1 film-coated tablets. The blisters 
+may be packed into aluminium pouches. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Mylan Pharmaceuticals Limited 
+Damastown Industrial Park 
+Mulhuddart, Dublin DUBLIN 
+Ireland </p>
+<p>Manufacturer 
+Ardena Pamplona S.L. 
+Pol gono Mochol <br />
+C/ No in, N  1<br />
+31110 No in (Navarra)<br />
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Mylan bvba/sprl 
+T l/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Mylan Healthcare UAB<br />
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
+Viatris CZ. s.r.o. 
+Tel: + 420 222 004 Magyarorsz g 
+Mylan EPD Kft. 
+Tel.: + 36 1 465 2 </p>
+<p>Danmark 
+Viatris ApS 
+Tlf: + 45 28 11 69 32  </p>
+<p>Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: + 49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: + 31 (0)20 426 3Eesti 
+BGP Products Switzerland GmbH Eesti 
+filiaal<br />
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  </p>
+<p>Generics Pharma Hellas  <br />
+ :  +30 210 993 6410  </p>
+<p>sterreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 </p>
+<p>Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Sant<br />
+T l: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Mylan Hrvatska d.o.o. <br />
+Tel: +385 1 23 50<br />
+Rom nia 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+ sland 
+Icepharma hf. 
+Simi: + 354 540 8 
+Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Mylan Italia S.r.l 
+Tel: + 39 02 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd 
+ : + 357 2220 7 
+Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8 630 19<br />
+Latvija 
+Mylan Healthcare SIA 
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 
+This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

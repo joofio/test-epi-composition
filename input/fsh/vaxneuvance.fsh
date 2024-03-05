@@ -4,7 +4,7 @@ Instance: composition-en-3f214a4f5ac8e3dc74014e21089eb5bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxneuvance Package Leaflet"
 Description:  "Composition for vaxneuvance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -98,7 +98,6 @@ to be postponed until you or your child has recovered. However, a mild fever or 
 example having a cold) itself is not a reason to delay vaccination.
 * you or your child has any bleeding problems, bruises easily, or is taking medicines to prevent
 blood clots.
-37
 If your child is an infant, also tell your doctor if your child was born prematurely (too early). 
 As with any vaccine, Vaxneuvance may not fully protect all persons who are vaccinated.
 Other medicines/vaccines and Vaxneuvance
@@ -114,11 +113,11 @@ If you are pregnant or breast-feeding, think you may be pregnant or are planning
 your doctor, pharmacist, or nurse for advice before you receive this vaccine.
 Driving and using machines
 Vaxneuvance has no or negligible influence on the ability to drive and use machines. However, some
-of the effects mentioned under section 4 “Possible side effects” may temporarily affect the ability to
+of the effects mentioned under section 4  Possible side effects  may temporarily affect the ability to
 drive or use machines.
 Vaxneuvance contains sodium
 This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is to say essentially
-‘sodium-free’.</p>         </div>"""   
+ sodium-free .</p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxneuvance"
@@ -143,7 +142,6 @@ Your child should receive an initial course of 3 injections of the vaccine follo
 * The second and third injections are given thereafter with an interval of 4 to 8 weeks between
 doses. 
 * A fourth injection (booster) will be given between 11 through 15 months of age.
-38
 Infants, children and adolescents starting the vaccination at 7 months of age or older
 Infants 7 to less than 12 months of age should receive a total of 3 injections. The first two injections
 will be given at least 1 month apart. The third injection (booster) will be given after 12 months of age
@@ -175,7 +173,7 @@ include:
 The following side effects can be seen after the use of Vaxneuvance in infants, children and
 adolescents:
 Very common (may affect more than 1 in 10 people):
-* Fever (temperature of 38 °C or higher in those 6 weeks to less than 2 years of age)
+* Fever (temperature of 38  C or higher in those 6 weeks to less than 2 years of age)
 * Irritability (in those 6 weeks to less than 2 years of age) 
 * Drowsiness (in those 6 weeks to less than 2 years of age)
 * Pain, redness or swelling at the injection site
@@ -187,7 +185,7 @@ Very common (may affect more than 1 in 10 people):
 Common (may affect up to 1 in 10 people):
 * Hardness at the injection site (in those 2 to less than 18 years of age)
 * Hives
-* Fever (temperature of 38 °C or higher in those 2 to less than 18 years of age)
+* Fever (temperature of 38  C or higher in those 2 to less than 18 years of age)
 * Vomiting (in those 6 weeks to less than 2 years of age)
 * Rash (in those 6 weeks to less than 2 years of age) 
 * Irritability (in those 2 to less than 18 years of age)
@@ -195,7 +193,6 @@ Common (may affect up to 1 in 10 people):
 * Decreased appetite (in those 2 to less than 18 years of age)
 * Bruising at the injection site
 * Nausea (in those 2 to less than 18 years of age)
-39
 Uncommon (may affect up to 1 in 100 people):
 * Vomiting (in those 2 to less than 18 years of age)
 Not known (cannot be estimated from the available data):
@@ -240,12 +237,11 @@ information on the safety of this medicine.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children.
 Do not use this vaccine after the expiry date which is stated on the carton and syringe label after EXP.
 The expiry date refers to the last day of that month.
-Store in a refrigerator (2 C – 8 C). Do not freeze. Keep the pre-filled syringe in the outer carton in
+Store in a refrigerator (2  C   8  C). Do not freeze. Keep the pre-filled syringe in the outer carton in
 order to protect from light. 
-40
 Vaxneuvance should be administered as soon as possible after being removed from the refrigerator.
 However, in circumstances where Vaxneuvance is temporarily held outside of refrigeration, the
-vaccine is stable at temperatures up to 25 C for 48 hours.</p>         </div>"""      
+vaccine is stable at temperatures up to 25  C for 48 hours.</p>         </div>"""      
         
         
 * section[=].section[+]
@@ -254,10 +250,11 @@ vaccine is stable at temperatures up to 25 C for 48 hours.</p>         </div>
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vaxneuvance contains
-The active substances are:
-- bacterial sugars from pneumococcus types 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F,
-and 33F (2.0 micrograms of each type);
-- bacterial sugar from pneumococcus type 6B (4.0 micrograms).
+The active substances are:</p>
+<ul>
+<li>bacterial sugars from pneumococcus types 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F,
+and 33F (2.0 micrograms of each type);</li>
+<li>bacterial sugar from pneumococcus type 6B (4.0 micrograms).
 Each bacterial sugar is linked to a carrier protein (CRM197). The bacterial sugars and the carrier protein
 are not alive and do not cause disease.
 One dose (0.5 mL) contains approximately 30 micrograms carrier protein, adsorbed on aluminium
@@ -274,40 +271,30 @@ syringes without needles.
 Not all pack sizes may be marketed.
 Marketing Authorisation Holder and Manufacturer
 Merck Sharp &amp; Dohme B.V.
-Waarderweg 39
-2031 BN Haarlem
+Waarderweg 2031 BN Haarlem
 The Netherlands
 For any information about this medicine, please contact the local representative of the Marketing
 Authorisation Holder:
-België/Belgique/Belgien
+Belgi /Belgique/Belgien
 MSD Belgium
-Tél/Tel: +32 (0) 27766211
-dpoc_belux@merck.com
+T l/Tel: +32 (0) 27766dpoc_belux@merck.com
 Lietuva
 UAB Merck Sharp &amp; Dohme
-Tel.: +370.5.2780.247
-msd_lietuva@merck.com
-България
-Мерк Шарп и Доум България ЕООД,
-тел.: + 359 2 819 3737
-info-msdbg@merck.com
+Tel.: +370.5.2780.msd_lietuva@merck.com<pre><code>   ,
+</code></pre>
+<p>.: + 359 2 819 3info-msdbg@merck.com
 Luxembourg/Luxemburg
 MSD Belgium
-Tél/Tel: +32 (0) 27766211
-dpoc_belux@merck.com
-Česká republika
+T l/Tel: +32 (0) 27766dpoc_belux@merck.com
+ esk  republika
 Merck Sharp &amp; Dohme s.r.o.
-Tel.: +420 233 010 111
-dpoc_czechslovak@merck.com
-Magyarország
+Tel.: +420 233 010 dpoc_czechslovak@merck.com
+Magyarorsz g
 MSD Pharma Hungary Kft.
-Tel.: + 36.1.888.5300
-hungary_msd@merck.com
-41
+Tel.: + 36.1.888.5hungary_msd@merck.com
 Danmark
 MSD Danmark ApS
-Tlf: + 45 4482 4000
-dkmail@merck.com
+Tlf: + 45 4482 4dkmail@merck.com
 Malta
 Merck Sharp &amp; Dohme Cyprus Limited.
 Tel: 8007 4433 (+356 99917558)
@@ -321,91 +308,71 @@ Merck Sharp &amp; Dohme B.V.
 Tel: 0800 9999000 (+31 23 5153153)
 medicalinfo.nl@merck.com
 Eesti
-Merck Sharp &amp; Dohme OÜ
-Tel.: +372 6144 200
-msdeesti@merck.com
+Merck Sharp &amp; Dohme O 
+Tel.: +372 6144 msdeesti@merck.com
 Norge
 MSD (Norge) AS
-Tlf: +47 32 20 73 00
-msdnorge@msd.no
-Ελλάδα
-MSD Α.Φ.Β.Ε.Ε.
-Τηλ: +30 210 98 97 300
-dpoc_greece@merck.com
-Österreich
+Tlf: +47 32 20 73 msdnorge@msd.no</p>
+</li>
+</ul>
+<p>MSD  . . . . .
+ : +30 210 98 97 dpoc_greece@merck.com
+ sterreich
 Merck Sharp &amp; Dohme Ges.m.b.H.
-Tel: +43 (0) 1 26 044
-dpoc_austria@merck.com
-España
-Merck Sharp &amp; Dohme de España, S.A.
-Tel: +34 91 321 06 00
-msd_info@merck.com
+Tel: +43 (0) 1 26 dpoc_austria@merck.com
+Espa a
+Merck Sharp &amp; Dohme de Espa a, S.A.
+Tel: +34 91 321 06 msd_info@merck.com
 Polska
 MSD Polska Sp. z o.o.
-Tel.: +48 22 549 51 00
-msdpolska@merck.com
+Tel.: +48 22 549 51 msdpolska@merck.com
 France
 MSD France
-Tél: +33 (0) 1 80 46 40 40
-Portugal
+T l: +33 (0) 1 80 46 40 Portugal
 Merck Sharp &amp; Dohme, Lda
-Tel: +351 21 4465700
-inform_pt@merck.com
+Tel: +351 21 4465inform_pt@merck.com
 Hrvatska
 Merck Sharp &amp; Dohme d.o.o.
-Tel: +385 1 66 11 333
-croatia_info@merck.com
-România
+Tel: +385 1 66 11 croatia_info@merck.com
+Rom nia
 Merck Sharp &amp; Dohme Romania S.R.L
-Tel: + 4021 529 29 00
-msdromania@merck.com
+Tel: + 4021 529 29 msdromania@merck.com
 Ireland
 Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
-Tel: +353 (0)1 2998700
-medinfo_ireland@merck.com
+Tel: +353 (0)1 2998medinfo_ireland@merck.com
 Slovenija
 Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
-Tel: +386.1.520.4201
-msd.slovenia@merck.com
-Ísland
+Tel: +386.1.520.4msd.slovenia@merck.com
+ sland
 Vistor hf.
-Sími: + 354 535 7000
-Slovenská republika
-Merck Sharp &amp; Dohme, s. r. o
-Tel: +421 2 58282010
-dpoc_czechslovak@merck.com
+S mi: + 354 535 7Slovensk  republika
+Merck Sharp &amp; Dohme, s. r.* Tel: +421 2 58282dpoc_czechslovak@merck.com
 Italia
 MSD Italia S.r.l.
 Tel: 800 23 99 89 (+39 06 361911)
 medicalinformation.it@msd.com
 Suomi/Finland
 MSD Finland Oy
-Puh/Tel: +358 (0)9 804 650
-info@msd.fi
-Κύπρος
-Merck Sharp &amp; Dohme Cyprus Limited
-Τηλ: 800 00 673 (+357 22866700)
+Puh/Tel: +358 (0)9 804 info@msd.fi</p>
+<p>Merck Sharp &amp; Dohme Cyprus Limited
+ : 800 00 673 (+357 22866700)
 cyprus_info@merck.com
 Sverige
 Merck Sharp &amp; Dohme (Sweden) AB
-Tel: +46 77 5700488
-medicinskinfo@merck.com
+Tel: +46 77 5700medicinskinfo@merck.com
 Latvija 
 United Kingdom (Northern Ireland)
-42
 SIA Merck Sharp &amp; Dohme Latvija
-Tel: +371.67364.224
-msd_lv@merck.com
+Tel: +371.67364.msd_lv@merck.com
 Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
-Tel: +353 (0)1 2998700
-medinfoNI@msd.com
+Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu.
-&lt;------------------------------------------------------------------------------------------------------------------------&gt;
+<em>------------------------------------------------------------------------------------------------------------------------</em>
 The following information is intended for healthcare professionals only:
 Vaxneuvance must not be injected intravascularly.
 * Immediately prior to use, hold the pre-filled syringe horizontally and shake vigorously to obtain
@@ -423,11 +390,11 @@ Vaxneuvance can be given concomitantly with other routine childhood vaccines.
 Vaxneuvance can be administered concomitantly with seasonal quadrivalent influenza vaccine (split
 virion, inactivated) in adults. 
 Different injectable vaccines should always be administered at different injection sites.
-Store in a refrigerator (2 ℃– 8 ℃). Do not freeze.
+Store in a refrigerator (2   8  ). Do not freeze.
 Keep the pre-filled syringe in the outer carton in order to protect from light.
 Vaxneuvance should be administered as soon as possible after being removed from the refrigerator.
 In the event of temporary temperature excursions, stability data indicate that Vaxneuvance is stable at
-temperatures up to 25 ℃  for 48 hours.
+temperatures up to 25    for 48 hours.
 Any unused medicinal product or waste material should be disposed of in accordance with local
 requirements.</p>         </div>"""      
 

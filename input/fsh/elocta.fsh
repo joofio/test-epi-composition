@@ -4,7 +4,7 @@ Instance: composition-en-dac9f5296bbae6c42cca031529e9fd3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for elocta Package Leaflet"
 Description:  "Composition for elocta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -102,7 +102,7 @@ injection immediately and contact your doctor. </p>
 <p>The formation of inhibitors (antibodies) is a known complication that can occur during treatment with 
 all factor VIII medicines. These inhibitors, especially at high levels, stop the treatment working 
 properly and you or your child will be monitored carefully for the development of these inhibitors. If 
-your or your child’s bleeding is not being controlled with ELOCTA, tell your doctor immediately. </p>
+your or your child s bleeding is not being controlled with ELOCTA, tell your doctor immediately. </p>
 </li>
 </ul>
 <p>Cardiovascular events 
@@ -122,7 +122,7 @@ doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines<br />
 No effects on ability to drive or use of machines have been observed. </p>
 <p>ELOCTA contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-free’. 
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . 
 However, depending on your body weight and dose, you could receive more than one vial. This should be 
 taken into consideration if you are on a controlled sodium diet. </p>         </div>"""   
                     
@@ -135,7 +135,7 @@ taken into consideration if you are on a controlled sodium diet. </p>         </
 haemophilia. Always use this medicine exactly as your doctor has told you (see Instructions for preparation 
 and administration). Check with your doctor, pharmacist or nurse if you are not sure. </p>
 <p>ELOCTA is given as an injection into a vein. Your doctor will calculate the dose of ELOCTA (in 
-International Units or “IU”) depending on your individual needs for factor VIII replacement therapy and on 
+International Units or  IU ) depending on your individual needs for factor VIII replacement therapy and on 
 whether it is used for prevention or treatment of bleeding. Talk to your doctor if you think that your bleeding 
 is not being controlled with the dose you receive. </p>
 <p>How often you need an injection will depend on how well ELOCTA is working for you. Your doctor will 
@@ -194,13 +194,13 @@ Appendix V. By reporting side effects, you can help provide more information on 
   * code.text = "5. How to store elocta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after  EXP . 
 The expiry date refers to the last day of that month. Do not use this medicine if it has been stored at room 
 temperature for longer than 6 months. </p>
-<p>Store in a refrigerator (2°C - 8°C). 
+<p>Store in a refrigerator (2 C - 8 C). 
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
-<p>Alternatively, ELOCTA may be stored at room temperature (up to 30°C) for a single period not exceeding 
+<p>Alternatively, ELOCTA may be stored at room temperature (up to 30 C) for a single period not exceeding 
 6 months. Record on the carton the date that ELOCTA is removed from the refrigerator and set at room 
 temperature. After storage at room temperature, the product must not be put back in the refrigerator. </p>
 <p>Once you have prepared ELOCTA it should be used right away. If you cannot use the prepared ELOCTA 
@@ -225,18 +225,6 @@ Each vial of ELOCTA contains nominally 250, 500, 750, 1000, 1500, 2000, 3000 or 
 efmoroctocog alfa. </li>
 <li>The other ingredients are sucrose, sodium chloride, histidine, calcium chloride dihydrate, polysorbate 
 20, sodium hydroxide, hydrochloric acid and water for injections. If you are on a controlled sodium 
-diet, see section 2.<br />
-What ELOCTA looks like and contents of the pack </li>
-</ul>
-<p>ELOCTA is provided as a powder and solvent for solution for injection. The powder is a white to off-white 
-powder or cake. The solvent provided for preparation of the solution to inject, is a clear, colourless solution. 
-After preparation, the solution to inject is clear to slightly opalescent and colourless. </p>
-<p>Each pack of ELOCTA contains 1 powder vial, 3 mL solvent in pre-filled syringe, 1 plunger rod, 1 vial 
-adapter, 1 infusion set, 2 alcohol swabs, 2 plasters and 1 gauze pad. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Swedish Orphan Biovitrum AB (publ)<br />
-SE-112 76 Stockholm 
-Sweden </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+diet, see section </li>
+</ul>         </div>"""      
 

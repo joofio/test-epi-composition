@@ -4,7 +4,7 @@ Instance: composition-en-1f87461293bc326acebf2dcaabf7857f
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxlumo Package Leaflet"
 Description:  "Composition for oxlumo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How Oxlumo is given 
 4. Possible side effects 
 5. How to store Oxlumo 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -115,7 +114,7 @@ decide whether to stop breast-feeding or to stop treatment.  </p>
 <p>This medicine is unlikely to have any effect on your ability to drive or use machines. </p>
 <p>Oxlumo contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxlumo"
@@ -182,7 +181,7 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date, which is stated on the carton and vial after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>This medicine is for single use only. Once the vial is opened, use immediately. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Keep vial in the outer carton to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your doctor or nurse will throw 
 away any medicines that are no longer being used. These measures will help protect the environment. </p>         </div>"""      
@@ -198,7 +197,7 @@ away any medicines that are no longer being used. These measures will help prote
 <li>The active substance is lumasiran. </li>
 <li>Each vial contains lumasiran sodium equivalent to 94.5 mg lumasiran. </li>
 <li>The other ingredients are water for injections, sodium hydroxide, and phosphoric acid (see 
-“Oxlumo contains sodium” in section 2). </li>
+ Oxlumo contains sodium  in section 2). </li>
 </ul>
 <p>What Oxlumo looks like and contents of the pack </p>
 <p>This medicine is a clear, colourless-to-yellow solution for subcutaneous injection. </p>
@@ -210,21 +209,20 @@ Antonio Vivaldistraat 150<br />
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Alnylam Netherlands B.V. 
-Tél/Tel: 0800 81 443 (+32 234 208 71) 
+T l/Tel: 0800 81 443 (+32 234 208 71) 
 medinfo@alnylam.com </p>
 <p>Malta 
 Genesis Pharma (Cyprus) Ltd 
 Tel: +357 22765medinfo@genesispharmagroup.com </p>
-<p>България 
-Genesis Pharma Bulgaria EOOD 
-Teл.: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Genesis Pharma Bulgaria EOOD 
+Te .: +359 2 969 3medinfo@genesispharmagroup.com </p>
 <p>Nederland 
 Alnylam Netherlands B.V. 
 Tel: 08002820025 (+31 203697861) 
 medinfo@alnylam.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Alnylam Czech s.r.o. 
 Tel: 800 050 450 (+420 234 092 195) 
 medinfo@alnylam.com </p>
@@ -236,7 +234,7 @@ medinfo@alnylam.com </p>
 Alnylam Sweden AB 
 Tlf: 433 105 15 (+45 787 453 01) 
 medinfo@alnylam.com </p>
-<p>Österreich 
+<p>sterreich 
 Alnylam Austria GmbH 
 Tel: 0800070339 (+43 720 778 072) 
 medinfo@alnylam.com </p>
@@ -248,13 +246,13 @@ medinfo@alnylam.com </p>
 <p>Alnylam Portugal 
 Tel: 707201512 (+351 707502642) 
 medinfo@alnylam.com </p>
-<p>Ελλάδα 
-ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε 
-Τηλ: +30 210 87 71 medinfo@genesispharmagroup.com </p>
-<p>România 
+<pre><code> .
+</code></pre>
+<p>: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<p>Rom nia 
 Genesis Biopharma Romania SRL 
 Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
-<p>España 
+<p>Espa a 
 Alnylam Pharmaceuticals Spain SL 
 Tel: 900810212 (+34 910603753) 
 medinfo@alnylam.com </p>
@@ -263,7 +261,7 @@ Genesis Pharma Adriatic d.o.o
 Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
 <p>France 
 Alnylam France SAS 
-Tél: 0805542656 (+33 187650921) 
+T l: 0805542656 (+33 187650921) 
 medinfo@alnylam.com </p>
 <p>Suomi/Finland 
 Alnylam Sweden AB 
@@ -288,16 +286,15 @@ medinfo@alnylam.com </p>
 Alnylam Netherlands B.V. 
 Tel: 1800 924260 (+353 818 882213) 
 medinfo@alnylam.com </p>
-<p>Eesti, Ísland, Latvija, Lietuva, Magyarország, 
-Polska, Slovenská republika 
+<p>Eesti,  sland, Latvija, Lietuva, Magyarorsz g, 
+Polska, Slovensk  republika 
 Alnylam Netherlands B.V. 
-Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
-<p>Κύπρος 
-Genesis Pharma (Cyprus) Ltd 
-Τηλ: +357 22765medinfo@genesispharmagroup.com </p>
+Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
+<p>Genesis Pharma (Cyprus) Ltd 
+ : +357 22765medinfo@genesispharmagroup.com </p>
 <p>Luxembourg/Luxemburg 
 Alnylam Netherlands B.V. 
-Tél/Tel: 80085235 (+352 203 014 48) 
+T l/Tel: 80085235 (+352 203 014 48) 
 medinfo@alnylam.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>

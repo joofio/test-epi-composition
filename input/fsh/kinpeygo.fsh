@@ -4,7 +4,7 @@ Instance: composition-en-6dd92eeff0b9acf2637c14b216fa6b97
 InstanceOf: CompositionUvEpi
 Title: "Composition for kinpeygo Package Leaflet"
 Description:  "Composition for kinpeygo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,10 +81,12 @@ nephropathy. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take kinpeygo"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Kinpeygo:<br />
-- If you are allergic to budesonide or any of the other ingredients of this medicine (listed in 
-section 6).<br />
-- If you have loss of function of your liver that your doctor has told you is “severe”. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Kinpeygo:</p>
+<ul>
+<li>If you are allergic to budesonide or any of the other ingredients of this medicine (listed in 
+section 6).  </li>
+<li>If you have loss of function of your liver that your doctor has told you is  severe . </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Kinpeygo: 
 * If you are going to have surgery. 
@@ -94,10 +96,10 @@ Talk to your doctor or pharmacist before taking Kinpeygo:
 * If you have active or quiescent tuberculosis infection, untreated fungal, bacterial, systemic viral 
 or parasitic infections, or ocular herpes simplex. 
 * If you have high blood pressure. 
-* If you have diabetes – or someone in your family has had diabetes. 
+* If you have diabetes   or someone in your family has had diabetes. 
 * If you have brittle bones (osteoporosis). 
 * If you have stomach ulcers. 
-* If you have glaucoma (increased pressure in the eye)  or cataracts – or someone in your family 
+* If you have glaucoma (increased pressure in the eye)  or cataracts   or someone in your family 
 has had glaucoma (increased   pressure in the eye). </p>
 <p>If any of the above apply to you, you may be at increased risk of side effects. Your doctor will decide 
 on the appropriate measures and if it is still all right for you to take this medicine. </p>
@@ -122,7 +124,7 @@ medicines. This includes medicines obtained without a prescription, and herbal m
 have an effect on Kinpeygo capsules. </p>
 <p>In particular, tell your doctor or pharmacist if you are taking any of the following medicines:<br />
 <em> Ketoconazole or itraconazole - to treat infections caused by a fungus.<br />
-</em> Medicines for HIV called ‘protease inhibitors’ - such as ritonavir, indinavir and saquinavir. <br />
+</em> Medicines for HIV called  protease inhibitors  - such as ritonavir, indinavir and saquinavir. <br />
 <em> Erythromycin - an antibiotic used to treat infections.<br />
 </em> Cyclosporin - used to suppress your immune system. 
 * Carbamazepine - for epilepsy and nerve pain problems. 
@@ -158,7 +160,7 @@ if you are not sure. </p>
 The recommended dose of Kinpeygo is 16 mg (4 capsules of Kinpeygo 4 mg) once daily. 
 Take in the morning, at least 1 hour before a meal.<br />
 * Swallow whole with a glass of water. 
-* Do not open, crush or chew – as this could affect the release of the medicine. The capsules have 
+* Do not open, crush or chew   as this could affect the release of the medicine. The capsules have 
 a special coating, to ensure that the medicine is released in the correct part of your gut.  </p>
 <p>When treatment is to be discontinued, your doctor will reduce the dose to 8 mg (2 capsules of 
 Kinpeygo 4 mg) once daily for the last 2 weeks of therapy. If considered necessary by your doctor, the 
@@ -187,7 +189,7 @@ the medicine, you may become ill. </p>
 <p>Common (may affect up to 1 in 10 people)  </p>
 <ul>
 <li>Increased blood pressure </li>
-<li>Swelling of arms or legs – such as ankle swelling </li>
+<li>Swelling of arms or legs   such as ankle swelling </li>
 <li>Cushingoid features such as a rounded face, increased body hair, weight gain and acne  </li>
 <li>Indigestion  </li>
 <li>Muscle cramps </li>
@@ -229,15 +231,15 @@ budesonide. </p>
 <ul>
 <li>The other ingredients are: 
 Capsule content: Sugar spheres (sucrose and corn starch), hypromellose, macrogol, citric acid 
-monohydrate, ethylcellulose, medium chain triglycerides, oleic acid (see also section 2 ‘Kinpeygo 
-contains sucrose’). 
+monohydrate, ethylcellulose, medium chain triglycerides, oleic acid (see also section 2  Kinpeygo 
+contains sucrose ). 
 Capsule shell: Hypromellose, macrogol, titanium dioxide (E171), methacrylic acid-methyl 
 methacrylate co-polymers, talc, dibutyl sebacate,<br />
 Printing ink: Shellac, black iron oxide (E172). </li>
 </ul>
 <p>What Kinpeygo looks like and contents of the pack 
 Kinpeygo 4 mg modified-release hard capsules are 19 mm white coated opaque capsules printed with 
-“CAL10 4MG” in black ink. </p>
+ CAL10 4MG  in black ink. </p>
 <p>The capsules are supplied in a white high-density polyethylene (HDPE) bottle with a white 
 polypropylene (PP) child-resistant closure with an induction seal. 
 This medicine is available in bottles containing 120 modified-release hard capsules and in multipacks 
@@ -255,24 +257,23 @@ Nieuwe Donk 9
 Noord-Brabant 
 Netherlands </p>
 <p>STADA Arzneimittel AG<br />
-Stadastrasse 2 – 18<br />
+Stadastrasse 2   18<br />
 61118 Bad Vilbel<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder :  </p>
-<p>België/Belgique/Belgien<br />
+<p>Belgi /Belgique/Belgien<br />
 EG (Eurogenerics) NV<br />
-Tél/Tel: +32 24797Lietuva<br />
-UAB „STADA Baltics“ 
+T l/Tel: +32 24797Lietuva<br />
+UAB  STADA Baltics<br />
 Tel: +370 52603 </p>
-<p>България<br />
-STADA Bulgaria EOOD<br />
-Teл.: +359 29624Luxembourg/Luxemburg<br />
+<p>STADA Bulgaria EOOD<br />
+Te .: +359 29624Luxembourg/Luxemburg<br />
 EG (Eurogenerics) NV<br />
-Tél/Tel: +32 24797 </p>
-<p>Česká republika<br />
+T l/Tel: +32 24797 </p>
+<p>esk  republika<br />
 STADA PHARMA CZ s.r.o. 
-Tel: +420 257888Magyarország<br />
+Tel: +420 257888Magyarorsz g<br />
 STADA Hungary Kft<br />
 Tel.: +36 18009 </p>
 <p>Danmark 
@@ -286,29 +287,28 @@ Tel: +49 61016Nederland<br />
 Centrafarm B.V.<br />
 Tel.: +31 765081 </p>
 <p>Eesti 
-UAB „STADA Baltics“<br />
+UAB  STADA Baltics <br />
 Tel: +370 52603Norge<br />
 STADA Nordic ApS 
 Tlf: +45 44859 </p>
-<p>Ελλάδα 
-FΑRAN S.A. 
-Τηλ: +30 2106254 
-Österreich 
+<p>F RAN S.A. 
+ : +30 2106254 
+ sterreich 
 STADA Arzneimittel GmbH<br />
 Tel: +43 136785 </p>
-<p>España 
+<p>Espa a 
 Laboratorio STADA, S.L.<br />
 Tel: +34 934738Polska 
 STADA Poland Sp. z o.o. 
 Tel: +48 227377 </p>
 <p>France 
 EG Labo - Laboratoires EuroGenerics<br />
-Tél: +33 146948Portugal 
+T l: +33 146948Portugal 
 Stada, Lda. 
 Tel: +351 211209 </p>
 <p>Hrvatska 
 STADA d.o.o. 
-Tel: +385 13764România 
+Tel: +385 13764Rom nia 
 STADA M&amp;D SRL<br />
 Tel: +40 213160 </p>
 <p>Ireland 
@@ -316,9 +316,9 @@ Clonmel Healthcare Ltd.<br />
 Tel: +353 526177Slovenija 
 Stada d.o.o. 
 Tel: +386 15896 </p>
-<p>Ísland 
+<p>sland 
 STADA Nordic ApS 
- Tlf: +45 44859Slovenská republika 
+ Tlf: +45 44859Slovensk  republika 
 STADA PHARMA Slovakia, s.r.o.<br />
 Tel: +421 252621 </p>
 <p>Italia 
@@ -326,18 +326,17 @@ EG SpA
 Tel: +39 028310Suomi/Finland 
 STADA Nordic ApS, Suomen sivuliike<br />
 Puh/Tel: +358 207416 </p>
-<p>Κύπρος 
-STADA Arzneimittel AG<br />
-Τηλ: +30 2106664Sverige 
+<p>STADA Arzneimittel AG<br />
+ : +30 2106664Sverige 
 STADA Nordic ApS<br />
 Tel: +45 44859 </p>
 <p>Latvija 
-UAB „STADA Baltics“<br />
+UAB  STADA Baltics <br />
 Tel: +370 52603United Kingdom (Northern Ireland) 
 STADA Arzneimittel AG<br />
 Tel: +49 61016 </p>
 <p>This leaflet was last revised in 07/2023 .  </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. </p>
 <p>The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>         </div>"""      

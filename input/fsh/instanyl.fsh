@@ -4,7 +4,7 @@ Instance: composition-en-10411891efb91b807d8d0643ea830640
 InstanceOf: CompositionUvEpi
 Title: "Composition for instanyl Package Leaflet"
 Description:  "Composition for instanyl Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -96,29 +96,31 @@ and/or shallow, or even stop.
 - if you have previously received facial radiotherapy. 
 - if you suffer from recurrent episodes of nose bleeding. </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before using Instanyl, especially: 
-- if you suffer from a long-term obstructive lung disease, your breathing may be impaired by 
-Instanyl. 
-- if you have problems with your heart especially slow heart rate, low blood pressure or low 
-blood volume. 
-- if you have problems with your liver or kidneys. 
-- if you have problems with your brain function, e.g. due to a brain tumour, a head injury or 
-increased intracranial pressure. 
-- if you have ever developed adrenal insufficiency or lack of sex hormones (androgen deficiency) 
-with opioid use. 
-- if you or anyone in your family have ever abused or been dependent on alcohol, prescription 
-medicines or illegal drugs (“addiction”). 
-- if you are a smoker. 
-- if you have ever had problems with your mood (depression, anxiety or a personality disorder) or 
-have been treated by a psychiatrist for other mental illnesses. 
-- if you take sedative medicines such as benzodiazepines or related drugs (please also refer to the 
-section ‘Other medicines and Instanyl’). 
-- if you take antidepressants or antipsychotics (please also refer to the section ‘Other medicines 
-and Instanyl’). 
-- if you take medicines called partial agonist/antagonists e.g. buprenorphine, nalbuphine and 
+Talk to your doctor or pharmacist before using Instanyl, especially:</p>
+<ul>
+<li>if you suffer from a long-term obstructive lung disease, your breathing may be impaired by 
+Instanyl. </li>
+<li>if you have problems with your heart especially slow heart rate, low blood pressure or low 
+blood volume. </li>
+<li>if you have problems with your liver or kidneys. </li>
+<li>if you have problems with your brain function, e.g. due to a brain tumour, a head injury or 
+increased intracranial pressure. </li>
+<li>if you have ever developed adrenal insufficiency or lack of sex hormones (androgen deficiency) 
+with opioid use. </li>
+<li>if you or anyone in your family have ever abused or been dependent on alcohol, prescription 
+medicines or illegal drugs ( addiction ). </li>
+<li>if you are a smoker. </li>
+<li>if you have ever had problems with your mood (depression, anxiety or a personality disorder) or 
+have been treated by a psychiatrist for other mental illnesses. </li>
+<li>if you take sedative medicines such as benzodiazepines or related drugs (please also refer to the 
+section  Other medicines and Instanyl ). </li>
+<li>if you take antidepressants or antipsychotics (please also refer to the section  Other medicines 
+and Instanyl ). </li>
+<li>if you take medicines called partial agonist/antagonists e.g. buprenorphine, nalbuphine and 
 pentazocine (medicines for treatment of pain) as you may experience symptoms of withdrawal 
-syndrome. Please refer to the section ‘Other medicines and Instanyl’ for more information. 
-- if you use other nasal spray products, e.g. for common cold or allergy. </p>
+syndrome. Please refer to the section  Other medicines and Instanyl  for more information. </li>
+<li>if you use other nasal spray products, e.g. for common cold or allergy. </li>
+</ul>
 <p>Sleep-related breathing disorders 
 Instanyl can cause sleep-related breathing disorders such as sleep apnoea (breathing pauses during 
 sleep) and sleep related hypoxemia (low oxygen level in the blood). The symptoms can include 
@@ -127,13 +129,15 @@ sleep or excessive drowsiness during the day. If you or another person observe t
 contact your doctor. A dose reduction may be considered by your doctor. </p>
 <p>If you experience difficulties breathing while being treated with Instanyl, it is very important 
 that you contact your doctor or hospital immediately. </p>
-<p>Consult your doctor while using Instanyl, if: 
-- you experience pain or increased sensitivity to pain (hyperalgesia) which does not respond to a 
-higher dosage of your medicine as prescribed by your doctor. 
-- you experience a combination of the following symptoms: nausea, vomiting, anorexia, fatigue, 
+<p>Consult your doctor while using Instanyl, if:</p>
+<ul>
+<li>you experience pain or increased sensitivity to pain (hyperalgesia) which does not respond to a 
+higher dosage of your medicine as prescribed by your doctor. </li>
+<li>you experience a combination of the following symptoms: nausea, vomiting, anorexia, fatigue, 
 weakness, dizziness and low blood pressure. Together these symptoms may be a sign of a 
 potentially life-threatening condition called adrenal insufficiency, a condition in which the 
-adrenal glands do not produce enough hormones. </p>
+adrenal glands do not produce enough hormones. </li>
+</ul>
 <p>If you experience recurrent nose bleeding or nasal discomfort whilst being treated with Instanyl, you 
 must contact your doctor, who will consider alternative treatment for your breakthrough pain. </p>
 <p>Repeated use of Instanyl may lead to dependence and abuse which may result in life-threatening 
@@ -145,10 +149,11 @@ Instanyl should not be used in children and adolescents under 18 years of age.  
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription. </p>
 <p>Instanyl may affect or be affected by other medicines. 
-Special care should be taken if you are treated with any of the following medicines: 
-- Other medicines for pain and some painkillers for nerve pain (such as gabapentin and 
-pregabalin). 
-- any medicines which might normally make you sleepy (have a sedative effect) such as sleeping 
+Special care should be taken if you are treated with any of the following medicines:</p>
+<ul>
+<li>Other medicines for pain and some painkillers for nerve pain (such as gabapentin and 
+pregabalin). </li>
+<li>any medicines which might normally make you sleepy (have a sedative effect) such as sleeping 
 pills, sedative medicines such as benzodiazepines or related medicines, medicines to treat 
 anxiety, antihistamines, or tranquillisers, skeletal muscle relaxants and gabapentinoids 
 (gabapentin and pregabalin). The use of such other medicines at the same time as Instanyl, may 
@@ -157,33 +162,34 @@ depression), which may lead to coma and may be life-threatening. Because of this
 use should only be considered when other treatment options are not possible.<br />
 However if your doctor does prescribe Instanyl together with sedative medicines the dose and 
 duration of concomitant treatment should be limited by your doctor. 
-Please tell your doctor about all sedative medicines you are taking, and follow your doctor’s 
+Please tell your doctor about all sedative medicines you are taking, and follow your doctor s 
 dose recommendation closely. It could be helpful to inform friends or relatives to be aware of 
-the signs and symptoms stated above. Contact your doctor when experiencing such symptoms. 
-- any medicines that might have an effect on the way in which your body breaks down Instanyl, 
-such as: 
-* ritonavir, nelfinavir, amprenavir, and fosamprenavir (medicines that help control HIV 
-infection); 
-* CYP3A4 inhibitors such as ketoconazole, itraconazole, or fluconazole (used for treatment 
-of fungal infections); 
-* troleandomycin, clarithromycin, or erythromycin (medicines for treatment of bacterial 
-infections); 
-* aprepitant (used to treat severe nausea); 
-* diltiazem and verapamil (medicines for treatment of high blood pressure or heart 
-diseases). 
-- medicines called Monoamine Oxidase Inhibitors (MAOI) used for severe depression, even if 
-you have been treated with one in the past 2 weeks. 
-- The risk of side effects increases if you are taking medicines such as certain antidepressants or 
+the signs and symptoms stated above. Contact your doctor when experiencing such symptoms. </li>
+<li>any medicines that might have an effect on the way in which your body breaks down Instanyl, 
+such as: </li>
+<li>ritonavir, nelfinavir, amprenavir, and fosamprenavir (medicines that help control HIV 
+infection); </li>
+<li>CYP3A4 inhibitors such as ketoconazole, itraconazole, or fluconazole (used for treatment 
+of fungal infections); </li>
+<li>troleandomycin, clarithromycin, or erythromycin (medicines for treatment of bacterial 
+infections); </li>
+<li>aprepitant (used to treat severe nausea); </li>
+<li>diltiazem and verapamil (medicines for treatment of high blood pressure or heart 
+diseases). </li>
+<li>medicines called Monoamine Oxidase Inhibitors (MAOI) used for severe depression, even if 
+you have been treated with one in the past 2 weeks. </li>
+<li>The risk of side effects increases if you are taking medicines such as certain antidepressants or 
 antipsychotics. Instanyl may interact with these medicines and you may experience mental 
 status changes (e.g. agitation, hallucinations, coma), and other effects such as body temperature 
-above 38 °C, increase in heart rate, unstable blood pressure, and exaggeration of reflexes, 
+above 38  C, increase in heart rate, unstable blood pressure, and exaggeration of reflexes, 
 muscular rigidity, lack of coordination and/or gastrointestinal symptoms (e.g. nausea, vomiting, 
-diarrhoea). Your doctor will tell you whether Instanyl is suitable for you. 
-- medicines called partial agonist/antagonists e.g. buprenorphine, nalbuphine and pentazocine 
+diarrhoea). Your doctor will tell you whether Instanyl is suitable for you. </li>
+<li>medicines called partial agonist/antagonists e.g. buprenorphine, nalbuphine and pentazocine 
 (medicines for treatment of pain). You could experience symptoms of withdrawal syndrome 
-(nausea, vomiting, diarrhoea, anxiety, chills, tremor, and sweating). 
-- other medicines taken via the nose, especially oxymetazoline, xylometazoline and similar 
-medicines, which are used for relief of nose congestions. </p>
+(nausea, vomiting, diarrhoea, anxiety, chills, tremor, and sweating). </li>
+<li>other medicines taken via the nose, especially oxymetazoline, xylometazoline and similar 
+medicines, which are used for relief of nose congestions. </li>
+</ul>
 <p>Instanyl with food, drink and alcohol 
 Do not drink alcohol whilst being treated with Instanyl, as it can increase the risk of experiencing 
 dangerous side effects. </p>
@@ -239,14 +245,16 @@ difficulties (very slow or shallow breathing).
 If you feel any of the above symptoms you should seek immediate medical assistance. </p>
 <p>Note to carers 
 If you see the person taking Instanyl suddenly acting slowly, having difficulties breathing or if you 
-have difficulties waking the person up: 
-- you should immediately call for emergency help. 
-- while waiting for the emergency help, you must try to keep the person awake by talking to or 
-gently shaking the person every now and then. 
-- if the person has difficulty breathing, you should prompt the person to breathe in every 
-5-10 seconds. 
-- if the person has stopped breathing, you should attempt to resuscitate her/him until emergency 
-help arrives. </p>
+have difficulties waking the person up:</p>
+<ul>
+<li>you should immediately call for emergency help. </li>
+<li>while waiting for the emergency help, you must try to keep the person awake by talking to or 
+gently shaking the person every now and then. </li>
+<li>if the person has difficulty breathing, you should prompt the person to breathe in every 
+5-10 seconds. </li>
+<li>if the person has stopped breathing, you should attempt to resuscitate her/him until emergency 
+help arrives. </li>
+</ul>
 <p>If you think someone has accidentally taken Instanyl, please seek immediate medical assistance. Try to 
 keep the person awake until emergency help arrives. 
 If someone has accidentally taken Instanyl, they may have the same symptoms as described above for 
@@ -273,13 +281,15 @@ doctor will evaluate if you need medicine to reduce or eliminate the withdrawal 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 The side effects will often stop or reduce in intensity with continued use of the product. </p>
 <p>Discontinue the treatment and contact your doctor, hospital or emergency room immediately, if 
-you: 
-- experience sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, 
-fast heartbeat, sweating or loss of consciousness. 
-- experience severe breathing difficulties. 
-- have a rattling sound when you breathe in. 
-- have convulsive pain. 
-- experience extreme dizziness. </p>
+you:</p>
+<ul>
+<li>experience sudden, severe allergic reaction with breathing difficulty, swelling, lightheadedness, 
+fast heartbeat, sweating or loss of consciousness. </li>
+<li>experience severe breathing difficulties. </li>
+<li>have a rattling sound when you breathe in. </li>
+<li>have convulsive pain. </li>
+<li>experience extreme dizziness. </li>
+</ul>
 <p>These side effects can be very serious. </p>
 <p>Other side effects reported after use of Instanyl: </p>
 <p>Common (may affect up to 1 in 10 people): 
@@ -297,7 +307,7 @@ combination of agitation, restlessness, disorientation, confusion, fear, seeing 
 not really there, sleep disturbance, nightmares), drug dependence (addiction), drug abuse, fatigue, 
 malaise, withdrawal syndrome (may manifest by the occurrence of the following side effects nausea, 
 vomiting, diarrhoea, anxiety, chills, tremor, and sweating), shortness of breath. </p>
-<p>There have also been reports of patients developing a hole in the septum of the nose – the structure, 
+<p>There have also been reports of patients developing a hole in the septum of the nose   the structure, 
 which separates the nostrils. </p>
 <p>Prolonged treatment with fentanyl during pregnancy may cause withdrawal symptoms in the newborn 
 which can be life-threatening (see section 2) </p>
@@ -318,7 +328,7 @@ Instanyl must be kept out of the sight and reach of children. Always place the n
 child-resistant box after use. 
 Do not use Instanyl after the expiry date which is stated on the bottle after EXP. The expiry date refers 
 to the last day of the month. 
-Store below 30 °C. Keep the nasal spray stored upright. Do not freeze. If Instanyl nasal spray is frozen 
+Store below 30  C. Keep the nasal spray stored upright. Do not freeze. If Instanyl nasal spray is frozen 
 the spray pump may crack. If uncertain of how the pump has been stored, you should check the spray 
 pump before use.  </p>
 <p>Instanyl that has passed the expiry date or is no longer required, may still contain enough medicine to 
@@ -347,5 +357,113 @@ purified water. </p>
 <p>What Instanyl looks like and contents of the pack 
 Instanyl is a nasal spray, solution. The solution is clear and colourless. It is contained in a brown glass 
 bottle with a metering pump.<br />
-The nasal spray is supplied in a child-resistant outer box and comes in three different pack sizes: </p>         </div>"""      
+The nasal spray is supplied in a child-resistant outer box and comes in three different pack sizes: 
+1.8 ml (equal to 10 doses), 2.9 ml (equal to 20 doses) and 5.0 ml (equal to 40 doses). 
+Not all pack sizes may be marketed. </p>
+<p>The labelling of the three Instanyl strengths is differentiated by colour:<br />
+50 micrograms/dose labelling is orange. 
+100 micrograms/dose labelling is purple. 
+200 micrograms/dose labelling is greenish-blue. </p>
+<p>Marketing Authorisation Holder<br />
+Takeda Pharma A/S 
+Delta Park 2665 Vallensbaek Strand 
+Denmark  </p>
+<p>Manufacturer 
+Curida AS 
+Solb rvegen 5 
+NO-2409 Elverum 
+Norway </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>.: + 359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>esk  republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: + 420 234 722 medinfoEMEA@takeda.com 
+Magyarorsz g<br />
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7030<br />
+medinfoEMEA@takeda.com </p>
+<p>Danmark<br />
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Takeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Takeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+T l: +33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia<br />
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba 
+d.o.o. 
+Tel: +386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Takeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com 
+United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: CompositionUvEpi
 Title: "Composition for evra Package Leaflet"
 Description:  "Composition for evra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EVRA contains two types of sex hormones, a progestogen called norelgestromin and an oestrogen 
 called ethinyl estradiol. </p>
-<p>Because it contains two hormones, EVRA is called a ‘combined hormonal contraceptive’. </p>
+<p>Because it contains two hormones, EVRA is called a  combined hormonal contraceptive . </p>
 <p>It is used to prevent pregnancy. </p>         </div>"""   
           
 
@@ -82,7 +82,7 @@ called ethinyl estradiol. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>General notes 
 Before you start using EVRA you should read the information on blood clots in section 2. It is 
-particularly important to read the symptoms of a blood clot - see section 2 “Blood clots”. </p>
+particularly important to read the symptoms of a blood clot - see section 2  Blood clots . </p>
 <p>When you should not use EVRA 
 You should not use EVRA if you have any of the conditions listed below. If you do have any of the 
 conditions listed below, you must tell your doctor. Your doctor will discuss with you what other form 
@@ -92,27 +92,29 @@ DVT), your lungs (pulmonary embolus, PE) or other organs;
 * if you know you have a disorder affecting your blood clotting - for instance, protein C 
 deficiency, protein S deficiency, antithrombin-III deficiency, Factor V Leiden or 
 antiphospholipid antibodies; 
-* if you need an operation or if you are off your feet for a long time (see section ‘Blood clots’); 
+* if you need an operation or if you are off your feet for a long time (see section  Blood clots ); 
 * if you have ever had a heart attack or a stroke; 
 * if you have (or have ever had) angina pectoris (a condition that causes severe chest pain and 
-may be a first sign of a heart attack) or transient ischaemic attack (TIA – temporary stroke 
+may be a first sign of a heart attack) or transient ischaemic attack (TIA   temporary stroke 
 symptoms); 
-* if you have a disease that may increase your risk of a clot in the arteries: 
-- severe diabetes with blood vessel damage 
-- very high blood pressure 
-- a very high level of fat in the blood (cholesterol or triglycerides) 
-- a condition known as hyperhomocysteinaemia 
-* if you have (or have ever had) a type of migraine called ‘migraine with aura’; 
-* if you are allergic to norelgestromin, ethinyl estradiol or any of the other ingredients of this 
-medicine (listed in section 6); 
-* if you have ever been told you might have breast cancer or cancer of the womb, cervix or 
-vagina; 
-* if you have ever had liver tumours or a liver disease because of which your liver does not 
-function properly; 
-* if you have unexplained vaginal bleeding; 
-* if you have hepatitis C and are taking the medicinal products containing 
+* if you have a disease that may increase your risk of a clot in the arteries:</p>
+<ul>
+<li>severe diabetes with blood vessel damage </li>
+<li>very high blood pressure </li>
+<li>a very high level of fat in the blood (cholesterol or triglycerides) </li>
+<li>a condition known as hyperhomocysteinaemia </li>
+<li>if you have (or have ever had) a type of migraine called  migraine with aura ; </li>
+<li>if you are allergic to norelgestromin, ethinyl estradiol or any of the other ingredients of this 
+medicine (listed in section 6); </li>
+<li>if you have ever been told you might have breast cancer or cancer of the womb, cervix or 
+vagina; </li>
+<li>if you have ever had liver tumours or a liver disease because of which your liver does not 
+function properly; </li>
+<li>if you have unexplained vaginal bleeding; </li>
+<li>if you have hepatitis C and are taking the medicinal products containing 
 ombitasvir/paritaprevir/ritonavir, dasabuvir, glecaprevir/pibrentasvir or 
-sofosbuvir/velpatasvir/voxilaprevir (see also in section “Other medicines and EVRA”). </p>
+sofosbuvir/velpatasvir/voxilaprevir (see also in section  Other medicines and EVRA ). </li>
+</ul>
 <p>Do not use this medicine if any of the above applies to you. If you are not sure, talk to your doctor, 
 pharmacist or nurse before using this medicine. </p>
 <p>When to take special care with EVRA 
@@ -120,14 +122,14 @@ When should you contact your doctor? </p>
 <p>Seek urgent medical attention 
 * if you notice possible signs of a blood clot that may mean you are suffering from a blood clot 
 in the leg (i.e. deep vein thrombosis), a blood clot in the lung (i.e. pulmonary embolism), a 
-heart attack or a stroke (see ‘Blood clot [thrombosis] section below). </p>
-<p>For a description of the symptoms of these serious side effects please go to “How to recognise a 
-blood clot”. </p>
+heart attack or a stroke (see  Blood clot [thrombosis] section below). </p>
+<p>For a description of the symptoms of these serious side effects please go to  How to recognise a 
+blood clot . </p>
 <p>Warnings and precautions 
 Before using this medicine, you will need to see your doctor for a medical check-up. </p>
 <p>Tell your doctor if any of the following conditions apply to you. </p>
 <p>If the condition develops, or gets worse while you are using EVRA, you must tell your doctor. 
-* if you have Crohn’s disease or ulcerative colitis (chronic inflammatory bowel disease); 
+* if you have Crohn s disease or ulcerative colitis (chronic inflammatory bowel disease); 
 * if you have SLE (systemic lupus erythematosus; a disease affecting your natural defence 
 system); 
 * if you have haemolytic uraemic syndrome (HUS - a disorder of blood clotting causing failure of 
@@ -136,7 +138,7 @@ the kidneys);
 * if you have elevated levels of fat in the blood (hypertriglyceridaemia) or a positive family 
 history for this condition. Hypertriglyceridaemia has been associated with an increased risk of 
 developing pancreatitis (inflammation of the pancreas); 
-* if you need an operation, or you are off your feet for a long time (see in section 2 ‘Blood clots’); 
+* if you need an operation, or you are off your feet for a long time (see in section 2  Blood clots ); 
 * if you have just given birth you are at an increased risk of blood clots. You should ask your 
 doctor how soon after delivery you can start taking EVRA; 
 * if you have an inflammation in the veins under the skin (superficial thrombophlebitis); 
@@ -150,8 +152,8 @@ and acquired angioedema. </p>
 clot compared with not using one. In rare cases a blood clot can block blood vessels and cause serious 
 problems. </p>
 <p>Blood clots can develop 
-* in veins (referred to as a ‘venous thrombosis’, ‘venous thromboembolism’ or VTE) 
-* in the arteries (referred to as an ‘arterial thrombosis’, ‘arterial thromboembolism’ or ATE). </p>
+* in veins (referred to as a  venous thrombosis ,  venous thromboembolism  or VTE) 
+* in the arteries (referred to as an  arterial thrombosis ,  arterial thromboembolism  or ATE). </p>
 <p>Recovery from blood clots is not always complete. Rarely, there may be serious lasting effects or, very 
 rarely, they may be fatal. </p>
 <p>It is important to remember that the overall risk of a harmful blood clot due to EVRA is small. </p>
@@ -161,24 +163,26 @@ rarely, they may be fatal. </p>
 What are you possibly 
 suffering from? 
 * swelling of one leg or along a vein in the leg or foot 
-especially when accompanied by: 
-- pain or tenderness in the leg which may be felt only 
-when standing or walking; 
-- increased warmth in the affected leg; 
-- change in colour of the skin on the leg e.g. turning 
+especially when accompanied by:</p>
+<ul>
+<li>pain or tenderness in the leg which may be felt only 
+when standing or walking; </li>
+<li>increased warmth in the affected leg; </li>
+<li>change in colour of the skin on the leg e.g. turning 
 pale, red or blue. 
-Deep vein thrombosis 
-* sudden unexplained breathlessness or rapid breathing; 
-* sudden cough without an obvious cause, which may bring 
-up blood; 
-* sharp chest pain which may increase with deep breathing; 
-* severe light headedness or dizziness; 
-* rapid or irregular heartbeat; 
-* severe pain in your stomach. </p>
+Deep vein thrombosis </li>
+<li>sudden unexplained breathlessness or rapid breathing; </li>
+<li>sudden cough without an obvious cause, which may bring 
+up blood; </li>
+<li>sharp chest pain which may increase with deep breathing; </li>
+<li>severe light headedness or dizziness; </li>
+<li>rapid or irregular heartbeat; </li>
+<li>severe pain in your stomach. </li>
+</ul>
 <p>If you are unsure, talk to a doctor as some of these symptoms such 
 as coughing or being short of breath may be mistaken for a milder 
-condition such as a respiratory tract infection (e.g. a ‘common 
-cold’). 
+condition such as a respiratory tract infection (e.g. a  common 
+cold ). 
 Pulmonary embolism 
 Symptoms most commonly occur in one eye: 
 * immediate loss of vision or; 
@@ -241,7 +245,7 @@ levonorgestrel, norethisterone, or norgestimate about 5-7 will develop a blood c
 etonorgestrel or norelgestromin such as EVRA between about 6 and 12 women will develop a 
 blood clot in a year. </li>
 <li>The risk of having a blood clot will vary according to your personal medical history (see 
-“Factors that increase your risk of a blood clot” below). </li>
+ Factors that increase your risk of a blood clot  below). </li>
 </ul>
 <p>Risk of developing a blood clot in a year 
 Women who are not using a combined 
@@ -313,15 +317,15 @@ following or they happen or get worse while using EVRA:
 * You have gallbladder disease including gallstones or inflammation of the gallbladder; 
 * You have a blood problem called porphyria; 
 * You have a problem of the nervous system involving sudden movements of the body called 
-‘Sydenham’s chorea’; 
-* You had a skin rash with blisters during pregnancy (called ‘herpes gestationis’); 
+ Sydenham s chorea ; 
+* You had a skin rash with blisters during pregnancy (called  herpes gestationis ); 
 * You have a hearing loss; 
 * You have diabetes; 
 * You have depression; 
 * You have epilepsy or any other problem that can cause fits (convulsions); 
 * You have liver problems including yellowing of the skin and whites of the eye (jaundice); 
-* You have or have had ‘pregnancy spots’. These are yellowish-brown patches or spots, 
-especially on your face (called ‘chloasma’). These spots may not go away completely, even 
+* You have or have had  pregnancy spots . These are yellowish-brown patches or spots, 
+especially on your face (called  chloasma ). These spots may not go away completely, even 
 after you stop using EVRA. Protect your skin from sunlight or ultraviolet radiation. This may 
 help prevent you from getting these spots or help prevent them from getting worse. 
 * You have kidney problems. </p>
@@ -345,7 +349,7 @@ ombitasvir/paritaprevir/ritonavir, dasabuvir, glecaprevir/pibrentasvir or
 sofosbuvir/velpatasvir/voxilaprevir as these products may cause increases in liver function blood test 
 results (increase in ALT liver enzyme). Your doctor will prescribe another type of contraceptive prior 
 to start of the treatment with these medicinal products. EVRA can be restarted approximately 2 weeks 
-after completion of this treatment. See section “When you should not use EVRA”. </p>
+after completion of this treatment. See section  When you should not use EVRA . </p>
 <p>Certain medicines and herbal therapies may stop EVRA from working properly. If this happens you 
 could get pregnant, or may experience unexpected bleeding. 
 These include medicines used for the treatment of: 
@@ -356,7 +360,7 @@ nevirapine, efavirenz)
 * anti-seizure medicines (such as barbiturates, topiramate, phenytoin, carbamazepine, primidone, 
 oxcarbazepine, and felbamate) 
 * bosentan (a medicine for high blood pressure in the blood vessels in the lungs) 
-* St. John’s wort (an herbal therapy used for depression) </p>
+* St. John s wort (an herbal therapy used for depression) </p>
 <p>If you take any of these medicines, you may need to use another method of birth control (such as a 
 condom, diaphragm or foam). The interfering effect of some of these medicines can last for up to 
 28 days after you have stopped taking them. Talk to your doctor or pharmacist about using another 
@@ -444,11 +448,11 @@ to your doctor about temporarily using a non-hormonal contraceptive. </p>
 your next period, whichever comes first. </p>
 <p>After delivery 
 * Talk to your doctor. 
-* If you’ve had a baby and are not breast-feeding, you should not start using this medicine sooner 
+* If you ve had a baby and are not breast-feeding, you should not start using this medicine sooner 
 than 4 weeks after delivery. 
 * If you start more than 4 weeks after delivery, use another non-hormonal contraceptive in 
 addition to this medicine for the first 7 days. </p>
-<p>If you’ve had sex since delivery of your baby, wait for your first period or see your doctor to make 
+<p>If you ve had sex since delivery of your baby, wait for your first period or see your doctor to make 
 sure you are not pregnant before starting this medicine. </p>
 <p>If you are breast-feeding 
 * Talk to your doctor. 
@@ -477,13 +481,13 @@ your menstrual period. </p>
 <li>If the patch is put on after the first day of your period, use a 
 non-hormonal contraceptive until Day 8, when you change your 
 patch </li>
-<li>The day you apply your first patch will be Day 1. Your “Patch 
-Change Day” will be on this day of the week every week. </li>
+<li>The day you apply your first patch will be Day 1. Your  Patch 
+Change Day  will be on this day of the week every week. </li>
 </ul>
 <p>Choose a place on your body to put the patch. </p>
 <ul>
 <li>Always put your patch on clean, dry, hairless skin </li>
-<li>Put it on the buttock, abdomen, upper outer arm or upper back - places where it won’t be rubbed by tight clothing </li>
+<li>Put it on the buttock, abdomen, upper outer arm or upper back - places where it won t be rubbed by tight clothing </li>
 <li>Never put the patch on your breasts. </li>
 </ul>
 <p>Using your fingers, open the foil sachet. </p>
@@ -492,7 +496,7 @@ Change Day” will be on this day of the week every week. </li>
 <li>Firmly grasp a corner of the patch and gently take it from the foil 
 sachet </li>
 <li>There is a clear protective covering on the patch </li>
-<li>Sometimes patches can stick to the inside of the sachet – be 
+<li>Sometimes patches can stick to the inside of the sachet   be 
 careful not to accidentally remove the clear covering as you 
 remove the patch </li>
 <li>Then peel away half of the clear protective covering (see picture). 
@@ -507,7 +511,7 @@ Try not to touch the sticky surface. </li>
 </ul>
 <p>Wear the patch for 7 days (one week). </p>
 <ul>
-<li>On the first “Patch Change Day”, Day 8, take off the used patch </li>
+<li>On the first  Patch Change Day , Day 8, take off the used patch </li>
 <li>
 <p>Put on a new patch immediately. </p>
 </li>
@@ -527,10 +531,10 @@ you start your next patch on time. </li>
 </ul>
 <p>For your next four-week cycle. </p>
 <ul>
-<li>Put on a new patch on your normal “Patch Change Day”, the day 
+<li>Put on a new patch on your normal  Patch Change Day , the day 
 after Day * Do this no matter when your period begins or ends. </li>
 </ul>
-<p>If you want to change your “Patch Change Day” to a different day of the week talk to your doctor. 
+<p>If you want to change your  Patch Change Day  to a different day of the week talk to your doctor. 
 You will need to complete the current cycle and remove the third patch on the correct day. During 
 Week 4, you may pick a new Change Day and apply the first patch on that day. You should never go 
 more than 7 days in a row without wearing a patch. </p>
@@ -545,11 +549,11 @@ your period. </p>
 affect how well the patch works. 
 * The patch is designed to stay in place during these types of activities. 
 * However, you should check that the patch has not fallen off after doing these activities. </p>
-<p>If you need to place the patch on a new area on your body on a day other than your “Patch 
-Change Day” 
+<p>If you need to place the patch on a new area on your body on a day other than your  Patch 
+Change Day<br />
 If the patch causes irritation or you become uncomfortable wearing it: 
 * You can take it off and replace it with a new patch in a different place on your body until your 
-next “Patch Change Day” 
+next  Patch Change Day<br />
 * You may only use one patch at a time. </p>
 <p>If you have trouble remembering to change your patch 
 * Talk to your doctor, pharmacist or nurse. He/she may be able to make patch changing easier for 
@@ -558,17 +562,19 @@ you. He/she may also talk about whether you need to use another method of contra
 <p>For less than one day (up to 24 hours): 
 * Try to put it on again or put on a new patch immediately. 
 * Back-up contraception is not needed. 
-* Your “Patch Change Day” should remain the same. 
-* Do not try to put a patch back on if: 
-- it is no longer sticky 
-- it has become stuck to itself or another surface 
-- it has other material stuck to it 
-- it is the second time it has become loose or has fallen off. 
-* Do not use tapes or wrapping to keep the patch in place. 
-* If you cannot get a patch back on, put on a new patch immediately. </p>
+* Your  Patch Change Day  should remain the same. 
+* Do not try to put a patch back on if:</p>
+<ul>
+<li>it is no longer sticky </li>
+<li>it has become stuck to itself or another surface </li>
+<li>it has other material stuck to it </li>
+<li>it is the second time it has become loose or has fallen off. </li>
+<li>Do not use tapes or wrapping to keep the patch in place. </li>
+<li>If you cannot get a patch back on, put on a new patch immediately. </li>
+</ul>
 <p>For more than one day (24 hours or more) or if you are not sure for how long: 
 * Start a new four-week cycle immediately by putting on a new patch. 
-* You now have a new Day 1 and a new “Patch Change Day”. 
+* You now have a new Day 1 and a new  Patch Change Day . 
 * You must use non-hormonal contraception as back up for the first week of your new cycle. </p>
 <p>You may get pregnant if you do not follow these instructions. </p>
 <p>If you forget to change your patch </p>
@@ -576,21 +582,34 @@ you. He/she may also talk about whether you need to use another method of contra
 If you forget to put on your patch, you may be at particularly high risk of becoming pregnant. 
 * You must use non-hormonal contraception as back up for one week. 
 * Put on the first patch of your new cycle as soon as you remember. 
-* You now have a new “Patch Change Day” and new Day 1.<br />
-In the middle of your patch cycle (Week 2 or 3): 
+* You now have a new  Patch Change Day  and new Day </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In the middle of your patch cycle (Week 2 or 3): 
 If you forget to change your patch for one or two days (up to 48 hours): 
 * You must put on a new patch as soon as you remember. 
-* Put on your next patch on your normal “Patch Change Day”. </p>
+* Put on your next patch on your normal  Patch Change Day . </p>
 <p>No back up contraception is needed. </p>
 <p>For more than 2 days (48 hours or more): 
 * If you forget to change your patch for more than 2 days, you may become pregnant. 
 * You must start a new four-week cycle as soon as you remember by putting on a new patch. 
-* You now have a different “Patch Change Day” and a new Day 1. * You must use back-up contraception for the first week of your new cycle. </p>
+* You now have a different  Patch Change Day  and a new Day 1. * You must use back-up contraception for the first week of your new cycle. </p>
 <p>At the end of your patch cycle (Week 4): 
 If you forget to take off your patch: 
 * Take it off as soon as you remember. 
-* Start your next cycle on your normal “Patch Change Day”, the day after Day 28.<br />
-No back-up contraception is needed. </p>
+* Start your next cycle on your normal  Patch Change Day , the day after Day 2</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>No back-up contraception is needed. </p>
 <p>If you have absent or irregular bleeding with EVRA 
 This medicine may cause unexpected vaginal bleeding or spotting during the weeks when you are 
 wearing the patch. 
@@ -599,7 +618,7 @@ wearing the patch.
 * Continue using this medicine and if the bleeding lasts more than the first three cycles, talk to 
 your doctor or pharmacist. </p>
 <p>If you do not get your period during the EVRA patch-free week (Week 4), you should still use a new 
-patch on your usual “Patch Change Day”. 
+patch on your usual  Patch Change Day . 
 * If you have been using this medicine correctly and you do not have a period, this does not 
 necessarily mean that you are pregnant. 
 * However, if you miss two periods in a row, talk to your doctor or pharmacist as you may be 
@@ -612,24 +631,24 @@ Take the patches off and talk to a doctor immediately. </p>
 <p>If you stop using EVRA 
 You may get irregular, little or no menstruation. This usually happens in the first 3 months and 
 especially if your periods were not regular before you started using this medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. If you get 
 any side effect, particularly if severe and persistent, or have any change to your health that you think 
 may be due to EVRA, please talk to your doctor. </p>
 <p>Contact a doctor immediately if you experience any of the following symptoms of angioedema: 
 swollen face, tongue and/or throat and/or difficulty swallowing or hives potentially with difficulty 
-breathing (see also section “Warnings and precautions”). 
+breathing (see also section  Warnings and precautions ). 
 An increased risk of blood clots in your veins [venous thromboembolism (VTE)] or blood clots in 
 your arteries [arterial thromboembolism (ATE)] is present for all women taking combined hormonal 
 contraceptives. For more detailed information on the different risks from taking combined hormonal 
-contraceptives please see section 2 “What you need to know before you use EVRA”. </p>
+contraceptives please see section 2  What you need to know before you use EVRA . </p>
 <p>Very common side effects (may affect more than 1 in 10 women): 
 * Headache 
 * Nausea 
@@ -665,104 +684,53 @@ contraceptives please see section 2 “What you need to know before you use EVRA
 * Hair loss 
 * Sensitivity to sunlight. </p>
 <p>Rare side effects (may affect up to 1 in 1,000 women): 
-* Harmful blood clots in a vein or artery for example: 
-- in a leg or foot (i.e. DVT) 
-- in a lung (i.e. PE) 
-- heart attack 
-- stroke 
-- mini-stroke or temporary stroke-like symptoms, known as a transient ischaemic attack 
-(TIA) 
-- blood clots in the liver, stomach/intestine, kidneys or eye. 
+* Harmful blood clots in a vein or artery for example:</p>
+<ul>
+<li>in a leg or foot (i.e. DVT) </li>
+<li>in a lung (i.e. PE) </li>
+<li>heart attack </li>
+<li>stroke </li>
+<li>mini-stroke or temporary stroke-like symptoms, known as a transient ischaemic attack 
+(TIA) </li>
+<li>blood clots in the liver, stomach/intestine, kidneys or eye. 
 The chance of having a blood clot may be higher if you have any other conditions that increase 
 this risk (See section 2 for more information on the conditions that increase risk for blood clots 
-and the symptoms of a blood clot). 
-* Breast, cervical or liver cancer 
-* Problems where the patch has been on the skin such as skin rash with blisters or ulcers 
-* Non-cancerous (benign) tumours in your breast or liver 
-* Fibroids in the womb (uterus) 
-* Anger or feeling frustrated 
-* Increased interest in sex 
-* Abnormal taste 
-* Problems when wearing contact lenses 
-* Sudden sharp increase in blood pressure (hypertensive crisis) 
-* Inflammation of the gall bladder or colon 
-* Abnormal cells in your cervix 
-* Brown spots or patches on the face 
-* Gallstones or blockage of the bile duct 
-* Yellowing of the skin and whites of the eyes 
-* Abnormal blood sugar or insulin levels 
-* A severe allergic reaction that may include swelling of the face, lips, mouth, tongue or throat 
-which may cause difficulty in swallowing or breathing 
-* Skin rash with tender red nodules on the shins and legs 
-* Itchy skin 
-* Scaly, flaky, itchy and red skin 
-* Suppressed lactation 
-* Vaginal discharge 
-* Fluid retention in legs 
-* Fluid retention 
-* Swelling in the arms, hands, legs or feet. </p>
+and the symptoms of a blood clot). </li>
+<li>Breast, cervical or liver cancer </li>
+<li>Problems where the patch has been on the skin such as skin rash with blisters or ulcers </li>
+<li>Non-cancerous (benign) tumours in your breast or liver </li>
+<li>Fibroids in the womb (uterus) </li>
+<li>Anger or feeling frustrated </li>
+<li>Increased interest in sex </li>
+<li>Abnormal taste </li>
+<li>Problems when wearing contact lenses </li>
+<li>Sudden sharp increase in blood pressure (hypertensive crisis) </li>
+<li>Inflammation of the gall bladder or colon </li>
+<li>Abnormal cells in your cervix </li>
+<li>Brown spots or patches on the face </li>
+<li>Gallstones or blockage of the bile duct </li>
+<li>Yellowing of the skin and whites of the eyes </li>
+<li>Abnormal blood sugar or insulin levels </li>
+<li>A severe allergic reaction that may include swelling of the face, lips, mouth, tongue or throat 
+which may cause difficulty in swallowing or breathing </li>
+<li>Skin rash with tender red nodules on the shins and legs </li>
+<li>Itchy skin </li>
+<li>Scaly, flaky, itchy and red skin </li>
+<li>Suppressed lactation </li>
+<li>Vaginal discharge </li>
+<li>Fluid retention in legs </li>
+<li>Fluid retention </li>
+<li>Swelling in the arms, hands, legs or feet. </li>
+</ul>
 <p>If you have an upset stomach 
 * The amount of hormones you get from EVRA should not be affected by being sick (vomiting) 
 or diarrhoea. 
 * You do not need to use extra contraception if you have an upset stomach. </p>
 <p>You may have spotting or light bleeding or breast tenderness or may feel sick during the first 3 cycles. 
-The problem will usually go away but if it doesn’t, check with your doctor or pharmacist. </p>
+The problem will usually go away but if it doesn t, check with your doctor or pharmacist. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store evra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store evra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date, which is stated on the label after “EXP”. The expiry 
-date refers to the last day of that month. </p>
-<p>Store in the original container to protect from light and moisture. </p>
-<p>Do not refrigerate or freeze. </p>
-<p>Used patches still contain some active hormones. To protect the environment, the patches should be 
-disposed of with care. To discard the used patch, you should: 
-* Peel back the disposal label on the outside of the sachet. 
-* Place the used patch within the open disposal label so that the sticky surface covers the shaded 
-area. 
-* Close the label sealing the used patch within and discard, keeping out of reach of children. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What EVRA contains 
-The active substances are norelgestromin and ethinyl estradiol. Each 20 cm2 transdermal patch 
-contains 6 mg norelgestromin and 600 micrograms ethinyl estradiol. The active substances are 
-released over 7 days with an average of 203 micrograms norelgestromin and 34 micrograms ethinyl 
-estradiol being released each 24 hours. </p>
-<p>The other ingredients are: backing layer: low-density pigmented polyethylene outer layer, polyester 
-inner layer; middle layer: polyisobutylene/polybutene adhesive, crospovidone, non-woven polyester 
-fabric, lauryl lactate; third layer: polyethylene terephthalate (PET) film, polydimethylsiloxane coating. </p>
-<p>What EVRA looks like and contents of the pack 
-EVRA is a thin, beige, plastic transdermal patch stamped “EVRA”. The sticky adhesive side is stuck 
-to the skin after removal of the clear, plastic, protective covering. </p>
-<p>EVRA is available in the following pack sizes: Cartons containing 3, 9 or 18 patches in individual 
-foil-lined sachets, wrapped per three in a transparent perforated plastic film. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Marketing Authorisation Holder:<br />
-Gedeon Richter Plc. 
-Gyömrői út 19-21. 1103 Budapest 
-Hungary </p>
-<p>Manufacturer:<br />
-Janssen Pharmaceutica NV, Turnhoutseweg 30, B-2340 Beerse, Belgium. </p>
-<p>Gedeon Richter Plc. 
-Gyömrői út 19-21. 1103 Budapest 
-Hungary </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

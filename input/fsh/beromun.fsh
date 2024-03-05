@@ -4,7 +4,7 @@ Instance: composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: CompositionUvEpi
 Title: "Composition for beromun Package Leaflet"
 Description:  "Composition for beromun Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Beromun 
 4. Possible side effects 
 5. How to store Beromun 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -70,7 +69,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Beromun contains the active substance tasonermin (tumor necrosis factor alfa-1a), produced by 
 recombinant DNA technology. It belongs to a class of medicines known as immunostimulants, which 
-help your body’s immune system fight cancer cells. </p>
+help your body s immune system fight cancer cells. </p>
 <p>Beromun is used, together with melphalan containing medicine, for the treatment of soft tissue 
 sarcoma of the arms and legs. By reducing the size of the tumour, the treatment is intended to facilitate 
 the removal of the tumor by surgery or to prevent severe damage to the surrounding healthy tissue and 
@@ -108,7 +107,7 @@ side effects on the main organs of the body.  </p>
 <p>During the IPL and the seven to ten day period afterwards you will need to stay in hospital, your 
 doctor will carefully monitor your blood pressure, circulation and any side effects. You may have to 
 stay in an intensive care unit (ICU) directly after the ILP for a short time. </p>
-<p>A condition called “compartment syndrome” may develop within the first three days after Beromun 
+<p>A condition called  compartment syndrome  may develop within the first three days after Beromun 
 administration. Symptoms of muscle damage at the perfused limb include pain, swelling, as well as 
 neurological symptoms (e. g. paraesthesia, paralysis), all of which should be reported immediately to 
 the attending doctor. </p>
@@ -196,7 +195,7 @@ they are to happen). </p>
 - constipation, diarrhoea 
 - skin necrosis (death of skin cells) in the affected arm or leg 
 - swelling of the ankles, feet or fingers caused by fluid build up in the affected arm or leg 
-- “compartment syndrome”, a medical condition characterised by pain, swelling and neurological 
+-  compartment syndrome , a medical condition characterised by pain, swelling and neurological 
 symptoms, as well as muscle damage in the affected arm or leg 
 - muscle pain 
 - protein in urine 
@@ -225,7 +224,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Upon reconstitution the product should be used immediately. </p>         </div>"""      
+<p>Store in a refrigerator (2 C - 8 C). Upon reconstitution the product should be used immediately. </p>         </div>"""      
         
         
 * section[=].section[+]

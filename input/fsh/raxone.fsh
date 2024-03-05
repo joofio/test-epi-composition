@@ -4,7 +4,7 @@ Instance: composition-en-9a5ac6d518a24ab2e0257a8b57ce793b
 InstanceOf: CompositionUvEpi
 Title: "Composition for raxone Package Leaflet"
 Description:  "Composition for raxone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,9 +71,9 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Raxone contains a substance called idebenone.  </p>
 <p>Idebenone is used to treat vision impairment in adults and adolescents with an eye disease called 
-Leber’s Hereditary Optic Neuropathy (LHON).<br />
-- This eye problem is inherited – this means it runs in families. 
-- It is caused by a problem with your genes (called a “genetic mutation”) that affects the ability of 
+Leber s Hereditary Optic Neuropathy (LHON).<br />
+- This eye problem is inherited   this means it runs in families. 
+- It is caused by a problem with your genes (called a  genetic mutation ) that affects the ability of 
 cells in the eye to produce the energy they need to work normally, so they become inactive. 
 - LHON can lead to loss of eyesight due to the inactivity of cells responsible for vision.  </p>
 <p>Treatment with Raxone can restore the ability of cells to produce energy and so allow inactive eye 
@@ -90,10 +90,12 @@ cells to work again. This can lead to some improvement in lost eyesight.  </p>  
 - if you are allergic to idebenone or any of the other ingredients of this medicine (listed in<br />
 section 6).  </p>
 <p>Warnings and precautions<br />
-Talk to your doctor or pharmacist before taking Raxone if: 
-- you have any blood, liver or kidney problems.  </p>
+Talk to your doctor or pharmacist before taking Raxone if:</p>
+<ul>
+<li>you have any blood, liver or kidney problems.  </li>
+</ul>
 <p>Change in urine colour<br />
-Raxone may make your urine become reddish brown. This change in colour is harmless – it does not 
+Raxone may make your urine become reddish brown. This change in colour is harmless   it does not 
 mean your treatment needs to change. However, the change in colour could mean that you have 
 problems with your kidneys or bladder.<br />
 - Tell your doctor if your urine changes colour. 
@@ -106,22 +108,24 @@ This medicine should not be used in children This is because it is not known if 
 works in patients under 12 years of age. </p>
 <p>Other medicines and Raxone 
 Some medicines may interact with Raxone. Tell your doctor if you are taking, have recently taken or 
-might take any other medicines, especially any of the following: 
-- antihistamines to treat allergies (astemizole, terfenadine) 
-- to treat heartburn (cisapride) 
-- to treat muscle and speech tics associated with Tourette syndrome (pimozide) 
-- to treat hearth rhythm disorders (quinidine) 
-- to treat migraine (dihydroergotamine, ergotamine) 
-- to put you to sleep called “anaesthetics” (alfentanil) 
-- to treat inflamation in rheumatoid arthritis and psoriasis (cyclosporine) 
-- to prevent the rejection of an organ transplant (sirolimus, tacrolimus) 
-- to treat strong pain called “opioids” (fentanyl) </p>
+might take any other medicines, especially any of the following:</p>
+<ul>
+<li>antihistamines to treat allergies (astemizole, terfenadine) </li>
+<li>to treat heartburn (cisapride) </li>
+<li>to treat muscle and speech tics associated with Tourette syndrome (pimozide) </li>
+<li>to treat hearth rhythm disorders (quinidine) </li>
+<li>to treat migraine (dihydroergotamine, ergotamine) </li>
+<li>to put you to sleep called  anaesthetics  (alfentanil) </li>
+<li>to treat inflamation in rheumatoid arthritis and psoriasis (cyclosporine) </li>
+<li>to prevent the rejection of an organ transplant (sirolimus, tacrolimus) </li>
+<li>to treat strong pain called  opioids  (fentanyl) </li>
+</ul>
 <p>Pregnancy and breast-feeding<br />
 If you are pregnant or breast-feeding, think you might be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine.<br />
 - Your doctor will prescribe Raxone to you only if the benefits of the treatment are greater than 
 the risks to the unborn child. 
-- Raxone may pass into the mother’s milk. If you are breast-feeding your doctor will discuss with 
+- Raxone may pass into the mother s milk. If you are breast-feeding your doctor will discuss with 
 you whether to stop breast-feeding or to stop taking the medicine. This will take into account 
 the benefit of breast-feeding to the child and the benefit of the medicine for you. </p>
 <p>Driving and using machines 
@@ -129,7 +133,7 @@ Raxone is not expected to affect your ability to drive or use machines.  </p>
 <p>Raxone contains lactose and sunset yellow (E110) 
 - Raxone contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicinal product.. 
-- Raxone contains a colourant called “sunset yellow” (also called E110). This may cause allergic 
+- Raxone contains a colourant called  sunset yellow  (also called E110). This may cause allergic 
 reactions. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -165,28 +169,34 @@ Talk to your doctor before you stop taking this medicine. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effect may happen with this medicine: </p>
-<p>Very common (may affect more than 1 in 10 people):<br />
-- nasopharyngitis (cold) 
-- cough </p>
-<p>Common (may affect up to 1 in 10 people):<br />
-- diarrhoea (mild to moderate that usually does not require discontinuation of treatment) 
-- back pain </p>
-<p>Unknown frequency (frequency cannot be estimated from the available data):<br />
-- bronchitis 
-- changes in blood test results: low level of white blood cells, or low level of red blood cells, or 
-low level of platelets 
-- increased cholesterol or fat in the blood –shown in tests 
-- fits, feeling confused,  seeing or hearing things that are not real (hallucinations), feeling excited, 
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>nasopharyngitis (cold) </li>
+<li>cough </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>diarrhoea (mild to moderate that usually does not require discontinuation of treatment) </li>
+<li>back pain </li>
+</ul>
+<p>Unknown frequency (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>bronchitis </li>
+<li>changes in blood test results: low level of white blood cells, or low level of red blood cells, or 
+low level of platelets </li>
+<li>increased cholesterol or fat in the blood  shown in tests </li>
+<li>fits, feeling confused,  seeing or hearing things that are not real (hallucinations), feeling excited, 
 movements that you cannot control, a tendency to wonder away, feeling dizzy, headache, 
-feeling restless, dazed and unable to act or think normally 
-- nausea, vomiting, loss of appetite, indigestion 
-- high levels of some liver enzymes in the body which mean you have liver problems – shown in 
-tests, high levels of “bilirubin” – this can make your skin and the whites of your eyes look 
-yellow, hepatitis 
-- rash, itching 
-- pain in extremity 
-- high levels of nitrogen in the blood - shown in tests change in urine colour 
-- generally feeling unwell </p>
+feeling restless, dazed and unable to act or think normally </li>
+<li>nausea, vomiting, loss of appetite, indigestion </li>
+<li>high levels of some liver enzymes in the body which mean you have liver problems   shown in 
+tests, high levels of  bilirubin    this can make your skin and the whites of your eyes look 
+yellow, hepatitis </li>
+<li>rash, itching </li>
+<li>pain in extremity </li>
+<li>high levels of nitrogen in the blood - shown in tests change in urine colour </li>
+<li>generally feeling unwell </li>
+</ul>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system in Appendix V. By 
@@ -198,7 +208,7 @@ reporting side effecs you can help provide more information on the safety of thi
   * code.text = "5. How to store raxone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the bottle after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and the bottle after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -220,7 +230,7 @@ Tablet film-coating: macrogol, poly(vinyl alcohol), talc, titanium dioxide, suns
 <p>What Raxone looks like and contents of the pack </p>
 <ul>
 <li>Raxone film-coated tablets are orange, round tablets of 10 mm diameter, engraved with the 
-Santhera logo on one side and ‘150’ on the other side.  </li>
+Santhera logo on one side and  150  on the other side.  </li>
 <li>Raxone is supplied in white plastic bottles. Each bottle contains 180 tablets. </li>
 </ul>
 <p>Marketing Authorisation Holder 
@@ -231,27 +241,26 @@ Italy </p>
 <p>Manufacturer 
 Santhera Pharmaceuticals (Deutschland) GmbH 
 Marie-Curie Strasse 8 
-79539 Lörrach 
+79539 L rrach 
 Germany 
 Tel: +49 (0) 7621 1690 Email: office@santhera.com  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-Tél/Tel: + 32 (0)2 788 42<br />
+T l/Tel: + 32 (0)2 788 42<br />
 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-България 
-Chiesi Bulgaria EOOD<br />
-Teл.: + 359 29201 
+Tel: + 43 1 4073 </p>
+<p>Chiesi Bulgaria EOOD<br />
+Te .: + 359 29201 
 Luxembourg/Luxemburg 
 Chiesi sa/nv<br />
-Tél/Tel: + 32 (0)2 788 42<br />
-Česká republika 
+T l/Tel: + 32 (0)2 788 42<br />
+ esk  republika 
 Chiesi CZ s.r.o.<br />
 Tel: + 420 261221 
-Magyarország 
+Magyarorsz g 
 Chiesi Hungary Kft.<br />
 Tel.: + 36-1-429 1 
 Danmark 
@@ -271,29 +280,28 @@ Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
 Norge 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35<br />
-Ελλάδα 
-Chiesi Hellas AEBE<br />
-Τηλ: + 30 210 6179 
-Österreich 
+Tlf: + 46 8 753 35  </p>
+<p>Chiesi Hellas AEBE<br />
+ : + 30 210 6179 
+ sterreich 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
-España 
-Chiesi España, S.A.U.<br />
+Espa a 
+Chiesi Espa a, S.A.U.<br />
 Tel: + 34 93 494 8 
 Polska 
 Chiesi Poland Sp. z.o.o.<br />
 Tel.: + 48 22 620 1 
 France 
 Chiesi S.A.S.<br />
-Tél: + 33 1 47688 
+T l: + 33 1 47688 
 Portugal 
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2 
 Hrvatska 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
-România 
+Rom nia 
 Chiesi Romania S.R.L.<br />
 Tel: + 40 212023 
 Ireland 
@@ -302,10 +310,10 @@ Tel: + 39 0521 2
 Slovenija 
 CHIESI SLOVENIJA d.o.o.<br />
 Tel: + 386-1-43 00<br />
-Ísland 
+ sland 
 Chiesi Pharma AB<br />
-Sími: +46 8 753 35<br />
-Slovenská republika 
+S mi: +46 8 753 35<br />
+Slovensk  republika 
 Chiesi Slovakia s.r.o.<br />
 Tel: + 421 259300 
 Italia 
@@ -313,10 +321,9 @@ Chiesi Italia S.p.A.<br />
 Tel: + 39 0521 2 
 Suomi/Finland 
 Chiesi Pharma AB<br />
-Puh/Tel: +46 8 753 35<br />
-Κύπρος 
-Chiesi Farmaceutici S.p.A.<br />
-Τηλ: + 39 0521 2 
+Puh/Tel: +46 8 753 35  </p>
+<p>Chiesi Farmaceutici S.p.A.<br />
+ : + 39 0521 2 
 Sverige 
 Chiesi Pharma AB<br />
 Tel: +46 8 753 35<br />
@@ -327,7 +334,7 @@ United Kingdom (Northern Ireland)<br />
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2 </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicinal product has been authorised under ‘exceptional circumstances’.<br />
+<p>This medicinal product has been authorised under  exceptional circumstances .<br />
 This means that due to the rarity of the disease it has not been possible to obtain complete information 
 on this medicinal product. 
 The European Medicines Agency will review any new information which may become available every 

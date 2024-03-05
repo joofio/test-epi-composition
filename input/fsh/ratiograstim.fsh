@@ -4,7 +4,7 @@ Instance: composition-en-53638a22b9c3baf68ce45da859e1bb4b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ratiograstim Package Leaflet"
 Description:  "Composition for ratiograstim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -46,6 +46,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Information for injecting yourself </li>
+<li>The following information is intended for healthcare professionals only </li>
 </ol>         </div>"""   
 
 
@@ -71,15 +72,6 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What ratiograstim is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take ratiograstim"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take ratiograstim"
-  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ratiograstim is 
 Ratiograstim is a white blood cell growth factor (granulocyte colony-stimulating factor) and belong to 
 a group of medicines called cytokines. Growth factors are proteins that are produced naturally in the 
@@ -100,11 +92,13 @@ donor. The stem cells will then go back into the bone marrow and produce blood c
 - to increase the number of white blood cells if you suffer from severe chronic neutropenia to help 
 prevent infections. 
 - in patients with advanced HIV infection which will help reduce the risk of infections. </p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take ratiograstim"
+  * title = "2. What you need to know before you take ratiograstim"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ratiograstim"
+  * code.text = "2. What you need to know before you take ratiograstim"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Ratiograstim 
 - if you are allergic to filgrastim or any of the other ingredients of this medicine (listed in 
@@ -114,25 +108,27 @@ Talk to your doctor, pharmacist or nurse before using Ratiograstim. </p>
 <p>Please tell your doctor before starting treatment, if you have 
 - sickle cell anaemia, as this medicine may cause sickle cell crisis<br />
 - osteoporosis (bone disease).  </p>
-<p>Talk to your doctor immediately during treatment with Ratiograstim, if you: 
-- have sudden signs of allergy such as rash, itching or hives on the skin, swelling of the face, lips, 
+<p>Talk to your doctor immediately during treatment with Ratiograstim, if you:</p>
+<ul>
+<li>have sudden signs of allergy such as rash, itching or hives on the skin, swelling of the face, lips, 
 tongue or other parts of the body, shortness of breath, wheezing or trouble breathing as these 
-could be signs of a severe allergic reaction (hypersensitivity). 
-- experience puffiness in your face or ankles, blood in your urine or brown-coloured urine or you 
-notice you urinate less than usual (glomerulonephritis). 
-- get left upper belly (abdominal) pain, pain below the left rib cage or at the tip of your left 
+could be signs of a severe allergic reaction (hypersensitivity). </li>
+<li>experience puffiness in your face or ankles, blood in your urine or brown-coloured urine or you 
+notice you urinate less than usual (glomerulonephritis). </li>
+<li>get left upper belly (abdominal) pain, pain below the left rib cage or at the tip of your left 
 shoulder (these may be symptoms of an enlarged spleen (splenomegaly), or possibly rupture of 
-the spleen). 
-- notice unusual bleeding or bruising (these may be symptoms of a decrease in blood platelets 
-(thrombocytopenia), with a reduced ability of your blood to clot). 
-- have symptoms of inflammation of aorta (the large blood vessel which transports blood from 
+the spleen). </li>
+<li>notice unusual bleeding or bruising (these may be symptoms of a decrease in blood platelets 
+(thrombocytopenia), with a reduced ability of your blood to clot). </li>
+<li>have symptoms of inflammation of aorta (the large blood vessel which transports blood from 
 the heart to the body), this has been reported rarely in cancer patients and healthy donors. The 
 symptoms can include fever, abdominal pain, malaise, back pain and increased inflammatory 
-markers. Tell your doctor if you experience those symptoms. </p>
+markers. Tell your doctor if you experience those symptoms. </li>
+</ul>
 <p>Loss of response to filgrastim </p>
 <p>If you experience a loss of response or failure to maintain a response with filgrastim treatment, your 
 doctor will investigate the reasons why including whether you have developed antibodies which 
-neutralise filgrastim’s activity. </p>
+neutralise filgrastim s activity. </p>
 <p>Your doctor may want to monitor you closely, see section 4 of the package leaflet.  </p>
 <p>If you are a patient with severe chronic neutropenia, you may be at risk of developing cancer of the 
 blood (leukaemia, myelodysplastic syndrome [MDS]). You should talk to your doctor about your risks 
@@ -167,13 +163,12 @@ medicine if you (or your child) have HFI or if your child can no longer take swe
 because they feel sick, vomit or get unpleasant effects such as bloating, stomach cramps or diarrhoea. </p>
 <p>Ratiograstim contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, i.e. essentially 
-‘sodium-free’. </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take ratiograstim"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take ratiograstim"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -202,12 +197,13 @@ contact your doctor or pharmacist as soon as possible. </p>
 <p>If you forget to use Ratiograstim 
 If you have missed an injection, or injected too little, contact your doctor as soon as possible. Do not 
 take a double dose to make up for any missed doses. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ratiograstim"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ratiograstim"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Important side effects </p>
@@ -221,15 +217,15 @@ Acute Respiratory Distress Syndrome (ARDS).
 who received filgrastim. Call your doctor right away if you experience puffiness in your face or 
 ankles, blood in your urine or brown-coloured urine or you notice you urinate less than usual. 
 - if you have any of the following or combination of the following side effects: 
-• swelling or puffiness, which may be associated with passing water less frequently, difficulty 
+  swelling or puffiness, which may be associated with passing water less frequently, difficulty 
 breathing, abdominal swelling and feeling of fullness, and a general feeling of tiredness. 
 These symptoms generally develop in a rapid fashion. 
-These could be symptoms of condition called “capillary leak syndrome”, which causes blood to 
+These could be symptoms of condition called  capillary leak syndrome , which causes blood to 
 leak from the small blood vessels into your body and needs urgent medical attention. 
 - if you have a combination of any of the following symptoms: 
-• fever, or shivering, or feeling very cold, high heart rate, confusion or disorientation, 
+  fever, or shivering, or feeling very cold, high heart rate, confusion or disorientation, 
 shortness of breath, extreme pain or discomfort and clammy or sweaty skin. 
-These could be symptoms of a condition called “sepsis” (also called "blood poisoning"), a 
+These could be symptoms of a condition called  sepsis  (also called "blood poisoning"), a 
 severe infection with whole-body inflammatory response which can be life-threatening and 
 needs urgent medical attention. 
 - if you get left upper belly (abdominal) pain, pain below the left rib cage or pain at the tip of 
@@ -327,21 +323,149 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store ratiograstim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ratiograstim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
+syringe after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C   8  C). </p>
+<p>Within its shelf-life and for ambulatory use, the product may be removed from the refrigerator 
+(2  C   8  C) and stored at a temperature up to 25  C for one single period of up to 4 days. If not used 
+within 4 days, the product may be returned to the refrigerator (2  C   8  C) up to the expiry date. 
+Dispose of syringes if stored above 8  C for more than 4 days. </p>
+<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
+<p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
+you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
-syringe after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). </p>
-<p>Within its shelf-life and for ambulatory use, the product may be removed from the refrigerator 
-(2 °C – 8 °C) and stored at a temperature up to 25 °C for one single period of up to 4 days. If not used 
-within 4 days, the product may be returned to the refrigerator (2 °C – 8 °C) up to the expiry date. 
-Dispose of syringes if stored above 8 °C for more than 4 days. </p>
-<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
-<p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ratiograstim contains 
+- The active substance is filgrastim. Each mL of solution for injection/infusion contains 
+60 million international units [MIU] (600 microgram) of filgrastim. 
+Ratiograstim 30 MIU/0.5 mL: Each pre-filled syringe contains 30 million international units 
+[MIU] (300 microgram) of filgrastim in 0.5 mL solution. 
+Ratiograstim 48 MIU/0.8 mL: Each pre-filled syringe contains 48 million international units 
+[MIU] (480 microgram) of filgrastim in 0.8 mL solution. 
+- The other ingredients are: Sodium hydroxide, glacial acetic acid, sorbitol, polysorbate 80, water 
+for injections. </p>
+<p>What Ratiograstim looks like and contents of the pack 
+Ratiograstim is a solution for injection/infusion in a pre-filled syringe with or without safety device. 
+Ratiograstim is a clear and colourless solution. Each pre-filled syringe contains either 0.5 mL or 
+0.8 mL of solution. </p>
+<p>Ratiograstim is supplied in packs of 1, 5 or 10 pre-filled syringes or multipacks of 10 (2 packs of 5) 
+pre-filled syringes. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+ratiopharm GmbH 
+Graf-Arco-Stra e 3 
+89079 Ulm 
+Germany </p>
+<p>Manufacturer 
+Teva Biotech GmbH 
+Dornierstra e 89079 Ulm 
+Germany </p>
+<p>Merckle GmbH 
+Graf-Arco-Strasse 3 
+89079 Ulm 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 </p>
+<p>Te : +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+T l/Tel: +49 73140 
+ esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 </p>
+<p>Specifar  . . . . 
+ : +30 2118805 
+ sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Laboratoires Biogaran 
+T l: +33 800970 
+Portugal 
+ratiopharm - Com rcio e Ind stria de Produtos 
+Farmac uticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+ sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503 
+Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 </p>
+<p>Specifar  . . . . </p>
+<p>: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>This leaflet was last revised in . </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

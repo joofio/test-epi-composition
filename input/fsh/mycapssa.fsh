@@ -4,7 +4,7 @@ Instance: composition-en-8734938a1d7cc06ba1013b88ab4857e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycapssa Package Leaflet"
 Description:  "Composition for mycapssa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -92,20 +92,22 @@ relieve the symptoms.  </p>         </div>"""
 - if you are allergic to octreotide or any of the other ingredients of this medicine (listed in 
 section 6) </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Mycapssa or during treatment if you have: 
-- heart or blood circulation problems, since the medicine can affect the rate and regularity of 
-your heartbeat. 
-- gallbladder problems. Octreotide can cause gallstones to form, and your doctor will 
+Talk to your doctor or pharmacist before taking Mycapssa or during treatment if you have:</p>
+<ul>
+<li>heart or blood circulation problems, since the medicine can affect the rate and regularity of 
+your heartbeat. </li>
+<li>gallbladder problems. Octreotide can cause gallstones to form, and your doctor will 
 recommend ultrasound scans to check for this, usually every 6 to 12 months while you are being 
-treated with this medicine. 
-- diabetes, since Mycapssa may affect your blood sugar. Persistent increased blood sugar levels 
+treated with this medicine. </li>
+<li>diabetes, since Mycapssa may affect your blood sugar. Persistent increased blood sugar levels 
 may occur during long-term use. Low blood sugar levels have also been reported. Therefore, 
 your doctor may recommend monitoring blood sugar levels and treatment of diabetes. 
 If you have type I diabetes and you are being treated with insulin, your doses may need to be 
-reduced during treatment with Mycapssa. 
-- ever had lack of vitamin B12. If you have a history of lacking vitamin B12, your doctor may 
+reduced during treatment with Mycapssa. </li>
+<li>ever had lack of vitamin B12. If you have a history of lacking vitamin B12, your doctor may 
 wish to check your vitamin B12 level periodically during treatment with Mycapssa since this 
-medicine can decrease vitamin B12 levels in the blood. </p>
+medicine can decrease vitamin B12 levels in the blood. </li>
+</ul>
 <p>Monitoring during treatment 
 Tumours of the pituitary gland that produce excess growth hormone and lead to acromegaly 
 sometimes expand, causing serious complications such as visual problems. It is essential that you are 
@@ -119,7 +121,7 @@ is safe or effective in this age group. </p>
 <p>Other medicines and Mycapssa 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>Tell your doctor if you are taking the following medicines as they may change how Mycapssa works: </p>
+<p>Tell your doctor if you are taking the following medicines as they may change how Mycapssa works:</p>
 <ul>
 <li>medicines which control or reduce stomach acid </li>
 <li>metoclopramide: a medicine to treat nausea and vomiting </li>
@@ -127,7 +129,7 @@ medicines. </p>
 </ul>
 <p>Also, tell your doctor if you are taking any of the following medicines, which may be affected when 
 used with Mycapssa. If you take these medicines, your doctor may need to adjust the doses of these 
-medicines: </p>
+medicines:</p>
 <ul>
 <li>medicines called beta blockers, used to treat high blood pressure, heart disease or other illnesses </li>
 <li>medicines called calcium channel blockers, used to treat high blood pressure or heart diseases  </li>
@@ -140,7 +142,7 @@ excess fluid </li>
 <li>insulin or other medicines to treat diabetes </li>
 <li>ciclosporin: a medicine to suppress transplant rejection, treat severe skin diseases, severe eye 
 and joint inflammation </li>
-<li>bromocriptine: a medicine to treat Parkinson’s and other diseases (e.g. pituitary tumours) and to 
+<li>bromocriptine: a medicine to treat Parkinson s and other diseases (e.g. pituitary tumours) and to 
 aid weaning </li>
 <li>oral contraceptives, such as birth control pills: a medicine to prevent pregnancy or to treat 
 intensive menstrual bleeding 
@@ -163,7 +165,7 @@ driving or using machines if your ability to react is reduced due to side effect
 weakness/fatigue or headache. </p>
 <p>Mycapssa contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mycapssa"
@@ -301,14 +303,16 @@ difficulty in swallowing
 - thirst 
 - heart murmur 
 - increased or decreased weight 
-- increased blood levels of: 
-- creatine phosphokinase 
-- creatinine 
-- lactate dehydrogenase 
-- urea 
-- insulin-like growth factor 
-- lipase 
-- thyroxine </p>
+- increased blood levels of:</p>
+<ul>
+<li>creatine phosphokinase </li>
+<li>creatinine </li>
+<li>lactate dehydrogenase </li>
+<li>urea </li>
+<li>insulin-like growth factor </li>
+<li>lipase </li>
+<li>thyroxine </li>
+</ul>
 <p>Not known (frequency cannot be estimated from the available data) 
 - heart disorder 
 - increased growth hormone levels in the blood 
@@ -333,8 +337,8 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. </p>
-<p>Mycapssa can be kept out of refrigeration for up to 1 month, but may not be stored above 25 °C, after 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. </p>
+<p>Mycapssa can be kept out of refrigeration for up to 1 month, but may not be stored above 25  C, after 
 which the medicine must be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -351,7 +355,7 @@ octreotide.
 - The other ingredients are povidone, sodium caprylate, magnesium chloride, polysorbate 80, 
 glyceryl monocaprylate, glyceryl tricaprylate, gelatine, titanium dioxide (E171), methacrylic 
 acid - ethyl acrylate copolymer (1:1), talc, triethyl citrate, silica, colloidal anhydrous, sodium 
-hydrogen carbonate, sodium laurilsulfate (see section 2 “Mycapssa contains sodium”). </p>
+hydrogen carbonate, sodium laurilsulfate (see section 2  Mycapssa contains sodium ). </p>
 <p>What Mycapssa looks like and contents of the pack 
 Mycapssa are white gastro-resistant hard capsules (gastro-resistant capsule). They are packed in 
 plastic/aluminium blisters in a carton. </p>

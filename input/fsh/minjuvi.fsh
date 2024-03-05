@@ -4,7 +4,7 @@ Instance: composition-en-3a7989268aa40003bfe0c300bbb6b42f
 InstanceOf: CompositionUvEpi
 Title: "Composition for minjuvi Package Leaflet"
 Description:  "Composition for minjuvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -109,13 +109,13 @@ medicines with later infusions.
 * Reduced number of blood cells 
 Treatment with MINJUVI can severely reduce the number of some types of blood cells in your 
 body, such as white blood cells called neutrophils, platelets and red blood cells. Tell your doctor 
-immediately if you have fever of 38 °C or above, or any signs of bruising or bleeding, as these 
+immediately if you have fever of 38  C or above, or any signs of bruising or bleeding, as these 
 may be signs of such a reduction. 
 Your doctor will check your blood cell counts throughout treatment and before starting each 
 treatment cycle.<br />
 * Infections 
 Serious infections, including infections that can cause death, can occur during and following 
-MINJUVI treatment. Tell your doctor if you notice signs of an infection, such as fever of 38 °C 
+MINJUVI treatment. Tell your doctor if you notice signs of an infection, such as fever of 38  C 
 or above, chills, cough or pain on urination. 
 * Progressive multifocal leukoencephalopathy (PML) 
 PML is a very rare and life threatening infection in the brain. Tell your doctor straight away if 
@@ -194,7 +194,7 @@ The doctor adjusts the starting dose and subsequent dosing if needed. </p>
 Treatment cycles with MINJUVI alone are then continued until the disease gets worse or you develop 
 unacceptable side effects. </p>
 <p>If you have been given more MINJUVI than you should </p>
-<p>Because the medicine is given in hospital under a doctor’s supervision, this is unlikely. Tell your 
+<p>Because the medicine is given in hospital under a doctor s supervision, this is unlikely. Tell your 
 doctor if you think you may have been given too much MINJUVI. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -205,7 +205,7 @@ doctor if you think you may have been given too much MINJUVI. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Contact your doctor or nurse immediately if you notice any of the following serious side effects – 
+<p>Contact your doctor or nurse immediately if you notice any of the following serious side effects <br />
 you may need urgent medical treatment. These may be new symptoms or a change in your current 
 symptoms. 
 * serious infections, possible symptoms: fever, chills, sore throat, cough, shortness of breath, 
@@ -217,7 +217,7 @@ have a low level of white blood cells called neutrophils.
 Tell your doctor or nurse if you notice any of the following side effects: 
 Very common (may affect more than 1 in 10 people) 
 * reduced number of blood cells 
-- white blood cells, especially a type called neutrophils; possible symptoms: fever of 38 °C 
+- white blood cells, especially a type called neutrophils; possible symptoms: fever of 38  C 
 or above, or any symptoms of an infection 
 - platelets; possible symptoms: unusual bruising or bleeding without or on only minor 
 injury 
@@ -282,7 +282,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). 
+<p>Store in a refrigerator (2  C   8  C). 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
         
@@ -297,7 +297,7 @@ Keep the vial in the outer carton in order to protect from light. </p>
 <li>The active substance is tafasitamab. One vial contains 200 mg of tafasitamab. After 
 reconstitution each mL of solution contains 40 mg of tafasitamab.  </li>
 <li>The other ingredients are sodium citrate dihydrate, citric acid monohydrate, trehalose dihydrate, 
-polysorbate 20 (see section 2 “MINJUVI contains sodium”).  </li>
+polysorbate 20 (see section 2  MINJUVI contains sodium ).  </li>
 </ul>
 <p>What MINJUVI looks like and contents of the pack </p>
 <p>MINJUVI is a powder for concentrate for solution for infusion. It is a white to slightly yellowish 
@@ -308,7 +308,7 @@ Incyte Biosciences Distribution B.V.
 Paasheuvelweg 1105 BP Amsterdam 
 Netherlands  </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
@@ -351,16 +351,16 @@ tafasitamab.<br />
 * Do not co-administer other medicines through the same infusion line. 
 * Do not administer MINJUVI as an intravenous push or bolus. </p>
 <p>Reconstituted solution (prior to dilution) 
-Chemical and physical in-use stability has been demonstrated for up to 24 hours at 2 °C – 25 °C. </p>
+Chemical and physical in-use stability has been demonstrated for up to 24 hours at 2  C   25  C. </p>
 <p>From a microbiological point of view, unless the method of reconstitution precludes the risk of 
 microbial contamination, the reconstituted solution should be used immediately. If not used 
 immediately, in-use storage times and conditions are the responsibility of the user. </p>
 <p>Diluted solution (for infusion) 
-Chemical and physical in-use stability has been demonstrated for a maximum of 36 hours at 2 °C – 
-8 °C followed by up to 24 hours at up to 25 °C. </p>
+Chemical and physical in-use stability has been demonstrated for a maximum of 36 hours at 2  C <br />
+8  C followed by up to 24 hours at up to 25  C. </p>
 <p>From a microbiological point of view, the diluted solution should be used immediately. If not used 
 immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-would normally not be longer than 24 hours at 2 to 8 °C, unless dilution has taken place in controlled 
+would normally not be longer than 24 hours at 2 to 8  C, unless dilution has taken place in controlled 
 and validated aseptic conditions. </p>
 <p>Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements. </p>         </div>"""      

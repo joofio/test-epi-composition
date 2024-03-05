@@ -4,7 +4,7 @@ Instance: composition-en-c0fc8346370db86fff94bbff1fb34a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for nivestim Package Leaflet"
 Description:  "Composition for nivestim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,17 +76,19 @@ encouraging the bone marrow to produce more white blood cells. </p>
 <p>A reduction in the number of white blood cells (neutropenia) can occur for several reasons and makes 
 your body less able to fight infection. Nivestim stimulates the bone marrow to produce new white cells 
 quickly. </p>
-<p>Nivestim can be used: 
-- to increase the number of white blood cells after treatment with chemotherapy to help prevent 
-infections; 
-- to increase the number of white blood cells after a bone marrow transplant to help prevent 
-infections; 
-- before high-dose chemotherapy to make the bone marrow produce more stem cells which can be 
+<p>Nivestim can be used:</p>
+<ul>
+<li>to increase the number of white blood cells after treatment with chemotherapy to help prevent 
+infections; </li>
+<li>to increase the number of white blood cells after a bone marrow transplant to help prevent 
+infections; </li>
+<li>before high-dose chemotherapy to make the bone marrow produce more stem cells which can be 
 collected and given back to you after your treatment. These can be taken from you or from a 
-donor. The stem cells will then go back into the bone marrow and produce blood cells; 
-- to increase the number of white blood cells if you suffer from severe chronic neutropenia to help 
-prevent infections; 
-- in patients with advanced HIV infection which will help reduce the risk of infections. </p>         </div>"""   
+donor. The stem cells will then go back into the bone marrow and produce blood cells; </li>
+<li>to increase the number of white blood cells if you suffer from severe chronic neutropenia to help 
+prevent infections; </li>
+<li>in patients with advanced HIV infection which will help reduce the risk of infections. </li>
+</ul>         </div>"""   
           
 
              
@@ -102,9 +104,11 @@ section 6). </li>
 </ul>
 <p>Warnings and precautions </p>
 <p>Talk to your doctor, pharmacist or nurse before using Nivestim. </p>
-<p>Please tell your doctor before starting treatment if you have: 
-- sickle cell anaemia, as Nivestim may cause sickle cell crisis. 
-- osteoporosis (bone disease). </p>
+<p>Please tell your doctor before starting treatment if you have:</p>
+<ul>
+<li>sickle cell anaemia, as Nivestim may cause sickle cell crisis. </li>
+<li>osteoporosis (bone disease). </li>
+</ul>
 <p>Please tell your doctor immediately during treatment with Nivestim, if you: 
 * have sudden signs of allergy such as rash, itching or hives on the skin, swelling of the face, lips, 
 tongue or other parts of the body, shortness of breath, wheezing or trouble breathing as these 
@@ -123,7 +127,7 @@ experience these symptoms.  </p>
 <p>Loss of response to filgrastim </p>
 <p>If you experience a loss of response or failure to maintain a response with filgrastim treatment, your 
 doctor will investigate the reasons why including whether you have developed antibodies which 
-neutralise filgrastim’s activity. </p>
+neutralise filgrastim s activity. </p>
 <p>Your doctor may want to monitor you closely, see section 4 of the package leaflet. </p>
 <p>If you are a patient with severe chronic neutropenia, you may be at risk of developing cancer of the 
 blood (leukaemia, myelodysplastic syndrome (MDS)). You should talk to your doctor about your risks 
@@ -139,10 +143,12 @@ medicines. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>Nivestim has not been tested in pregnant or breast-feeding women.  </p>
 <p>Nivestim is not recommended during pregnancy. </p>
-<p>It is important to tell your doctor if you: 
-- are pregnant or breast-feeding; 
-- think you may be pregnant; or<br />
-- are planning to have a baby.  </p>
+<p>It is important to tell your doctor if you:</p>
+<ul>
+<li>are pregnant or breast-feeding; </li>
+<li>think you may be pregnant; or  </li>
+<li>are planning to have a baby.  </li>
+</ul>
 <p>If you become pregnant during Nivestim treatment, please inform your doctor.  </p>
 <p>Unless your doctor directs you otherwise, you must stop breast-feeding if you use Nivestim.  </p>
 <p>Driving and using machines </p>
@@ -151,7 +157,7 @@ cause dizziness. It is advisable to wait and see how you feel after taking Nives
 or operating machinery. </p>
 <p>Nivestim contains sodium  </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 0.6 mg/ml or 0.96 mg/ml dose, that is to 
-say essentially ‘sodium-free’. </p>
+say essentially  sodium-free . </p>
 <p>Nivestim contains sorbitol </p>
 <p>This medicine contains 50 mg sorbitol in each ml. </p>
 <p>Sorbitol is a source of fructose. If you (or your child) have hereditary fructose intolerance (HFI), a rare 
@@ -202,35 +208,35 @@ take a double dose to make up for any missed doses. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Please tell your doctor immediately during treatment: 
-- if you experience an allergic reaction including weakness, drop in blood pressure, difficulty 
+<p>Please tell your doctor immediately during treatment:</p>
+<ul>
+<li>if you experience an allergic reaction including weakness, drop in blood pressure, difficulty 
 breathing, swelling of the face (anaphylaxis), skin rash, itchy rash (urticaria), swelling of the 
-face, lips, mouth, tongue or throat (angioedema) and shortness of breath (dyspnoea). 
-- if you experience a cough, fever and difficulty breathing (dyspnoea) as this can be a sign of 
-Acute Respiratory Distress Syndrome (ARDS). 
-- if you experience kidney injury (glomerulonephritis). Kidney injury has been seen in patients 
+face, lips, mouth, tongue or throat (angioedema) and shortness of breath (dyspnoea). </li>
+<li>if you experience a cough, fever and difficulty breathing (dyspnoea) as this can be a sign of 
+Acute Respiratory Distress Syndrome (ARDS). </li>
+<li>if you experience kidney injury (glomerulonephritis). Kidney injury has been seen in patients 
 who received filgrastim. Call your doctor right away if you experience puffiness in your face or 
-ankles, blood in your urine or brown-coloured urine or you notice you urinate less than usual. 
-- if you have any of the following or combination of the following side effects: 
-o 
+ankles, blood in your urine or brown-coloured urine or you notice you urinate less than usual. </li>
+<li>if you have any of the following or combination of the following side effects: * 
 swelling or puffiness, which may be associated with passing water less frequently, 
 difficulty breathing, abdominal swelling and feeling of fullness, and a general feeling of 
 tiredness. These symptoms generally develop in a rapid fashion. 
-These could be symptoms of a condition called “Capillary Leak Syndrome” which causes blood 
-to leak from the small blood vessels into your body and needs urgent medical attention. 
-- if you have a combination of any of the following symptoms: 
-o 
+These could be symptoms of a condition called  Capillary Leak Syndrome  which causes blood 
+to leak from the small blood vessels into your body and needs urgent medical attention. </li>
+<li>if you have a combination of any of the following symptoms: * 
 fever, or shivering, or feeling very cold, high heart rate, confusion or disorientation, 
 shortness of breath, extreme pain or discomfort and clammy or sweaty skin. 
-These could be symptoms of a condition called “sepsis” (also called “blood poisoning”), a 
+These could be symptoms of a condition called  sepsis  (also called  blood poisoning ), a 
 severe infection with whole-body inflammatory response which can be life threatening and 
-needs urgent medical attention. 
-- if you get left upper belly (abdominal) pain, pain below the left rib cage or pain at the tip of your 
+needs urgent medical attention. </li>
+<li>if you get left upper belly (abdominal) pain, pain below the left rib cage or pain at the tip of your 
 shoulder, as there may be a problem with your spleen (enlargement of the spleen (splenomegaly) 
-or rupture of the spleen). 
-- if you are being treated for severe chronic neutropenia and you have blood in your urine 
+or rupture of the spleen). </li>
+<li>if you are being treated for severe chronic neutropenia and you have blood in your urine 
 (haematuria). Your doctor may regularly test your urine if you experience this side effect or if 
-protein is found in your urine (proteinuria). </p>
+protein is found in your urine (proteinuria). </li>
+</ul>
 <p>A common side effect of filgrastim use is pain in your muscles or bones (musculoskeletal pain), which 
 can be helped by taking standard pain relief medicines (analgesics). In patients undergoing a stem cell 
 or bone marrow transplant, Graft versus host disease (GvHD) may occur - this is a reaction of the 
@@ -327,10 +333,10 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
 syringe after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2°C – 8°C). Do not freeze. Keep the pre-filled syringe in the outer 
+<p>Store and transport refrigerated (2 C   8 C). Do not freeze. Keep the pre-filled syringe in the outer 
 carton in order to protect from light. </p>
 <p>The syringe can be removed from the refrigerator and left at room temperature for a single period of 
-maximum 15 days (but not above 25°C). </p>
+maximum 15 days (but not above 25 C). </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -365,25 +371,24 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer </p>
 <p>Hospira Zagreb d.o.o. 
-Prudnička cesta 10291 Prigorje Brdovečko 
+Prudni ka cesta 10291 Prigorje Brdove ko 
 Croatia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-Tél/Tel: +32 (0)2 554 62<br />
+T l/Tel: +32 (0)2 554 62<br />
 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 52 51 4 
-България 
-Пфайзер Люксембург САРЛ, Клон 
-България 
-Тел.: +359 2 970 4 
-Magyarország 
+Tel: +370 52 51 4 </p>
+<pre><code> ,
+</code></pre>
+<p>.: +359 2 970 4 
+Magyarorsz g 
 Pfizer Kft. 
 Tel.: +36 1 488 37<br />
-Česká republika 
+ esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420-283-004- Malta 
 Drugsales Ltd 
@@ -403,45 +408,44 @@ Tlf: +47 67 52 61<br />
 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
 Tel: +372 666 7 
-Österreich 
+ sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
-<p>Ελλάδα 
-Pfizer ΕΛΛΆΣ A.E. 
-Τηλ: +30 210 6785<br />
+<p>Pfizer   A.E. 
+ : +30 210 6785<br />
 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61<br />
-España 
+Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99<br />
 Portugal 
-Laboratórios Pfizer, Lda. 
+Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 55<br />
 France 
 Pfizer 
-Tél: +33 (0)1 58 07 34<br />
-România 
-Pfizer România S.R.L. 
+T l: +33 (0)1 58 07 34<br />
+Rom nia 
+Pfizer Rom nia S.R.L. 
 Tel: +40 (0)21 207 28<br />
 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908<br />
 Slovenija 
 Pfizer Luxembourg SARL 
-Pfizer, podružnica za svetovanje s področja 
+Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: +386 (0)1 52 11<br />
 Ireland 
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
 Tel: +44 (0) 1304 616 
-Slovenská republika 
-Pfizer Luxembourg SARL, organizačná zložka 
-Tel: +421–2–3355 5 
-Ísland 
+Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: +421 2 3355 5 
+ sland 
 Icepharma hf. 
-Sími: +354 540 8 
+S mi: +354 540 8 
 Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430<br />
@@ -450,14 +454,13 @@ Pfizer S.r.l.
 Tel: +39 06 33 18<br />
 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Κύπρος 
-Pfizer ΕΛΛΑΣ Α.Ε. (Cyprus Branch) 
-Τηλ: +357 22 817 
+Tel: +46 (0)8 550 520  </p>
+<p>Pfizer    . . (Cyprus Branch) 
+ : +357 22 817 
 United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0)1304 616Latvija 
-Pfizer Luxembourg SARL filiāle Latvijā 
+Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35  </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

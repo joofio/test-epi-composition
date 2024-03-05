@@ -4,7 +4,7 @@ Instance: composition-en-86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: CompositionUvEpi
 Title: "Composition for jyseleca Package Leaflet"
 Description:  "Composition for jyseleca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,15 +95,15 @@ signs and symptoms of ulcerative colitis and to reduce your need for steroids. <
 section 6). 
 * if you have active tuberculosis (TB). </p>
 <ul>
-<li>if you have an active serious infection (see section “Warnings and precautions”). </li>
+<li>if you have an active serious infection (see section  Warnings and precautions ). </li>
 <li>if you are pregnant or think you may be pregnant. </li>
 </ul>
-<p> If any of these apply to you, do not take Jyseleca and tell your doctor immediately. </p>
+<p>If any of these apply to you, do not take Jyseleca and tell your doctor immediately. </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Jyseleca: 
 * if you have an infection, or if you often get infections. Tell your doctor if you get symptoms 
 such as fever, wounds, feeling more tired than usual or dental problems as these can be signs of 
-infection. Jyseleca can reduce your body’s ability to fight infections and may make an existing 
+infection. Jyseleca can reduce your body s ability to fight infections and may make an existing 
 infection worse or increase the chance of you getting a new infection. If you have diabetes or 
 are aged 65 years or older you may have an increased chance of getting infections. 
 * if you have ever had tuberculosis (TB), or have come into contact with somebody with TB. 
@@ -261,10 +261,10 @@ Film-coating: polyvinyl alcohol, titanium dioxide (E171), macrogol, talc, iron o
 (E172), iron oxide red (E172) </li>
 </ul>
 <p>What Jyseleca looks like and contents of the pack 
-Jyseleca 100 mg film-coated tablets are beige, 12 mm × 7 mm in size, capsule-shaped with “G” on one 
-side and “100” on the other. </p>
-<p>Jyseleca 200 mg film-coated tablets are beige, 17 mm × 8 mm in size, capsule-shaped with “G” on one 
-side and “200” on the other. </p>
+Jyseleca 100 mg film-coated tablets are beige, 12 mm   7 mm in size, capsule-shaped with  G  on one 
+side and  100  on the other. </p>
+<p>Jyseleca 200 mg film-coated tablets are beige, 17 mm   8 mm in size, capsule-shaped with  G  on one 
+side and  200  on the other. </p>
 <p>Jyseleca 100 mg and 200 mg are available in bottles of 30 tablets and in packs made up of 3 bottles, 
 each containing 30 tablets. Each bottle contains a silica gel desiccant that must be kept in the bottle to 
 help protect your tablets. The silica gel desiccant is contained in a separate sachet or canister and 
@@ -277,23 +277,22 @@ Gen. De Wittelaan L11 A3
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Galapagos Biopharma Belgium BV 
-Tél/Tel: 00800 7878 1 
+T l/Tel: 00800 7878 1 
 Lietuva 
 Oy Swedish Orphan Biovitrum Ab 
-Tel: +358 201 558<br />
-България 
-Swedish Orphan Biovitrum s.r.o. 
-Тел.: +359 2 437 4Luxembourg/Luxemburg 
+Tel: +358 201 558  </p>
+<p>Swedish Orphan Biovitrum s.r.o. 
+ .: +359 2 437 4Luxembourg/Luxemburg 
 Galapagos Biopharma Belgium BV 
-Tél/Tel: 00800 7878 1 
-Česká republika 
+T l/Tel: 00800 7878 1 
+ esk  republika 
 Swedish Orphan Biovitrum s.r.o. 
 Tel: + 420 296 183<br />
-Magyarország 
+Magyarorsz g 
 Swedish Orphan Biovitrum s.r.o.<br />
-Magyarországi fióktelepe<br />
+Magyarorsz gi fi ktelepe<br />
 Tel.: +36 1 998 9 </p>
 <p>Danmark 
 Galapagos Biopharma Denmark ApS 
@@ -311,41 +310,40 @@ Eesti
 Oy Swedish Orphan Biovitrum Ab 
 Tel: +358 201 558 Norge 
 Galapagos Biopharma Norway AS 
-Tlf: 00800 7878 1 
-Ελλάδα 
-Sobi Single Member IKE 
-Τηλ: +30 210 700 81<br />
-Österreich 
+Tlf: 00800 7878 1 </p>
+<p>Sobi Single Member IKE 
+ : +30 210 700 81<br />
+ sterreich 
 Galapagos Biopharma Austria GmbH 
-Tel: 00800 7878 1España 
+Tel: 00800 7878 1Espa a 
 Galapagos Biopharma Spain, SLU. 
 Tel: 00800 7878 1 
 Polska 
-Swedish Orphan Biovitrum Sp.z o.o., Oddział w 
+Swedish Orphan Biovitrum Sp.z o.o., Oddzia  w 
 Polsce 
 Tel.: +48 22 206 98 63  </p>
 <p>France 
 Galapagos SASU 
-Tél: 00800 7878 1 
+T l: 00800 7878 1 
 Portugal 
 Swedish Orphan Biovitrum S.L. 
 Tel: +34 913913 
 Hrvatska 
 Swedish Orphan Biovitrum s.r.o.<br />
-Tel: +385 1 79 00 196  </p>
-<p>România 
+Tel: +385 1 79 00 196  </p>
+<p>Rom nia 
 Swedish Orphan Biovitrum<br />
 Tel: +40 31 229 51 96  </p>
 <p>Ireland 
 Galapagos Biopharma Ireland Ltd 
 Tel: 00800 7878 1 
 Slovenija 
-Swedish Orphan Biovitrum Podružnica v Sloveniji 
+Swedish Orphan Biovitrum Podru nica v Sloveniji 
 Tel: +386 1 828 0538  </p>
-<p>Ísland 
+<p>sland 
 Galapagos Biopharma Denmark ApS 
-Sími: T: 00800 7878 1 
-Slovenská republika 
+S mi: T: 00800 7878 1 
+Slovensk  republika 
 Swedish Orphan Biovitrum o.z.<br />
 Tel: +421 2 3211 1540  </p>
 <p>Italia 
@@ -353,10 +351,9 @@ Galapagos Biopharma Italy S.r.l.
 Tel: 00800 7878 1 
 Suomi/Finland 
 Galapagos Biopharma Finland Oy 
-Puh/Tel: 00800 7878 1 
-Κύπρος 
-Sobi Single Member IKE 
-Τηλ: +30 210 700 81<br />
+Puh/Tel: 00800 7878 1 </p>
+<p>Sobi Single Member IKE 
+ : +30 210 700 81<br />
 Sverige 
 Galapagos Biopharma Sweden AB 
 Tel: 00800 7878 1Latvija 

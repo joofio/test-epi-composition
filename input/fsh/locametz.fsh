@@ -4,7 +4,7 @@ Instance: composition-en-6f21bde7c462d7396cfc7185d72d2377
 InstanceOf: CompositionUvEpi
 Title: "Composition for locametz Package Leaflet"
 Description:  "Composition for locametz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,14 +77,16 @@ coupled with a radioactive substance called gallium-68 to make gallium (68Ga) go
 <p>What Locametz is used for 
 After radiolabelling with gallium-68, Locametz is used in a medical imaging procedure called positron 
 emission tomography (PET) to detect specific types of cancer cells with a protein called 
-prostate-specific membrane antigen (PSMA) in adults with prostate cancer. This is done: 
-- to find out whether prostate cancer has spread to lymph nodes and other tissues outside the 
+prostate-specific membrane antigen (PSMA) in adults with prostate cancer. This is done:</p>
+<ul>
+<li>to find out whether prostate cancer has spread to lymph nodes and other tissues outside the 
 prostate, before primary curative therapy (e.g. therapy involving surgical removal of the 
-prostate, radiation therapy) 
-- to identify cancer cells when recurrence of prostate cancer is suspected in patients who have 
-received primary curative therapy 
-- to find out whether patients with progressive metastatic castration-resistant prostate cancer may 
-be suitable for a specific therapy, called PSMA-targeted therapy </p>
+prostate, radiation therapy) </li>
+<li>to identify cancer cells when recurrence of prostate cancer is suspected in patients who have 
+received primary curative therapy </li>
+<li>to find out whether patients with progressive metastatic castration-resistant prostate cancer may 
+be suitable for a specific therapy, called PSMA-targeted therapy </li>
+</ul>
 <p>How Locametz works 
 When given to the patient, gallium (68Ga) gozetotide binds to the cancer cells that have PSMA on their 
 surface and makes them visible to your nuclear medicine doctor during the PET medical imaging 
@@ -194,11 +196,13 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not have to store this medicine. This medicine is stored under the responsibility of the 
 specialist in appropriate premises. Storage of radiopharmaceutical products will be in accordance with 
 national regulations on radioactive materials. </p>
-<p>The following information is intended for the specialist only: 
-- Locametz must not be used after the expiry date which is stated on the carton and label after 
-EXP. The expiry date refers to the last day of that month. 
-- Before reconstitution, store below 25°C. 
-- After reconstitution and radiolabelling, store upright below 30°C. Use within 6 hours. </p>         </div>"""      
+<p>The following information is intended for the specialist only:</p>
+<ul>
+<li>Locametz must not be used after the expiry date which is stated on the carton and label after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Before reconstitution, store below 25 C. </li>
+<li>After reconstitution and radiolabelling, store upright below 30 C. Use within 6 hours. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -208,8 +212,8 @@ EXP. The expiry date refers to the last day of that month.
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Locametz contains 
 - The active substance is gozetotide. One vial contains 25 micrograms of gozetotide. The other 
-ingredients are: gentisic acid, sodium acetate trihydrate and sodium chloride (see “Locametz 
-contains sodium” in section 2). </p>
+ingredients are: gentisic acid, sodium acetate trihydrate and sodium chloride (see  Locametz 
+contains sodium  in section 2). </p>
 <p>What Locametz looks like and contents of the pack 
 Locametz is a multidose kit for radiopharmaceutical preparation containing one vial of white 
 freeze-dried powder (powder for solution for injection). </p>
@@ -232,24 +236,23 @@ Via Crescentino snc
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
+T l/Tel: +32 2 246 16<br />
 Lietuva 
 SAM Nordic 
-Švedija 
-Tel: +46 8 720 58<br />
-България 
-Novartis Bulgaria EOOD 
-Тел: +359 2 489 98<br />
+ vedija 
+Tel: +46 8 720 58  </p>
+<p>Novartis Bulgaria EOOD 
+ : +359 2 489 98<br />
 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-Tél/Tel: +32 2 246 16<br />
-Česká republika 
+T l/Tel: +32 2 246 16<br />
+ esk  republika 
 M.G.P. spol. s r.o. 
 Tel: +420 602 303<br />
-Magyarország 
-Novartis Hungária Kft. 
+Magyarorsz g 
+Novartis Hung ria Kft. 
 Tel.: +36 1 457 65<br />
 Danmark 
 SAM Nordic 
@@ -271,15 +274,13 @@ Tel: +46 8 720 58<br />
 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58<br />
-Ελλάδα 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Τηλ: +30 22920 63 
-Österreich 
+Tlf: +46 8 720 58  </p>
+<p>: +30 22920 63 
+ sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6 
-España 
-Advanced Accelerator Applications Ibérica, 
+Espa a 
+Advanced Accelerator Applications Ib rica, 
 S.L.U. 
 Tel: +34 97 6600<br />
 Polska 
@@ -288,14 +289,14 @@ o.o.
 Tel.: +48 22 275 56<br />
 France 
 Advanced Accelerator Applications 
-Tél: +33 1 55 47 63<br />
+T l: +33 1 55 47 63<br />
 Portugal 
-Novartis Farma - Produtos Farmacêuticos, S.A. 
+Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8 
 Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274<br />
-România 
+Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299<br />
 Ireland 
@@ -304,11 +305,11 @@ Tel: +353 1 260 12<br />
 Slovenija 
 Novartis Pharma Services Inc. 
 Tel: +386 1 300 75<br />
-Ísland 
+ sland 
 SAM Nordic 
-Svíþjóð 
-Sími: +46 8 720 58<br />
-Slovenská republika 
+Sv j<br />
+S mi: +46 8 720 58<br />
+Slovensk  republika 
 Novartis Slovakia s.r.o. 
 Tel: +421 2 5542 5 
 Italia 
@@ -317,11 +318,8 @@ Tel: +39 0125 561
 Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58<br />
-Κύπρος 
-ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
-Ελλάδα 
-Τηλ: +30 22920 63 
+Puh/Tel: +46 8 720 58  </p>
+<p>: +30 22920 63 
 Sverige 
 SAM Nordic 
 Tel: +46 8 720 58<br />

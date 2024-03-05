@@ -4,7 +4,7 @@ Instance: composition-en-5f2f3f0c1c43271a861dd5210ff699a4
 InstanceOf: CompositionUvEpi
 Title: "Composition for opzelura Package Leaflet"
 Description:  "Composition for opzelura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,9 +72,9 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opzelura contains the active substance ruxolitinib. It belongs to a group of medicines called Janus 
 kinase inhibitors. </p>
 <p>Opzelura is used on the skin to treat vitiligo with facial involvement in adults and adolescents from 
-12 years. Vitiligo is an autoimmune disease, where the body’s immune system attacks the cells that 
+12 years. Vitiligo is an autoimmune disease, where the body s immune system attacks the cells that 
 produce the skin pigment melanin. This causes a loss of melanin, leading to patches of pale pink or 
-white skin. In vitiligo, ruxolitinib reduces the immune system’s activity against the melanin-producing 
+white skin. In vitiligo, ruxolitinib reduces the immune system s activity against the melanin-producing 
 cells, allowing the skin to produce pigment and regain its normal colour.  </p>         </div>"""   
           
 
@@ -179,7 +179,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the tube and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 ºC. </p>
+<p>Do not store above 30  C. </p>
 <p>Once the tube has been opened, use the cream within 6 months but not after the expiry date.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -198,8 +198,8 @@ disodium edetate (E385), glyceryl stearate, paraffin (E905), macrogol, medium ch
 triglycerides, methyl parahydroxybenzoate (E218), phenoxyethanol, polysorbate 20 (E432), 
 propylene glycol (E1520), propyl parahydroxybenzoate, purified water, stearyl alcohol, 
 xanthan gum (E415). </p>
-<p>See section 2 “Opzelura contains propylene glycol, cetyl alcohol, stearyl alcohol, methyl 
-parahydroxybenzoate, propyl parahydroxybenzoate and butylated hydroxytoluene”. </p>
+<p>See section 2  Opzelura contains propylene glycol, cetyl alcohol, stearyl alcohol, methyl 
+parahydroxybenzoate, propyl parahydroxybenzoate and butylated hydroxytoluene . </p>
 <p>What Opzelura looks like and contents of the pack 
 Opzelura cream is coloured white to off-white, supplied in a tube containing 100 g cream. There is one 
 tube per carton. </p>

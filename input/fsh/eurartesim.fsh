@@ -4,7 +4,7 @@ Instance: composition-en-5908d361fd5ea6267d242f3bbae1b944
 InstanceOf: CompositionUvEpi
 Title: "Composition for eurartesim Package Leaflet"
 Description:  "Composition for eurartesim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Eurartesim  
 4. Possible side effects 
 5. How to store Eurartesim 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +92,7 @@ lungs or kidneys;
 * knows that any member of your family (parents, grandparents, brothers or sisters) died suddenly 
 due to a heart problem or was born with heart problems; 
 * suffers from changes to the levels of salts in the body (electrolyte imbalances); 
-* is taking other medicines that can have an effect on heart rhythm, such as: </p>
+* is taking other medicines that can have an effect on heart rhythm, such as:</p>
 <ul>
 <li>quinidine, disopyramide, procainamide, amiodarone, dofetilide, ibutilide, hydroquinidine 
 or sotalol; </li>
@@ -128,7 +127,7 @@ mentioned above);<br />
 * is in the 1st trimester of pregnancy or breastfeeding (see below); 
 * is female, elderly (over 65 years) or vomiting; 
 * is taking certain other medicines which could cause possible metabolic interactions. Examples 
-are listed in the section “Other medicines and Eurartesim”; 
+are listed in the section  Other medicines and Eurartesim ; 
 * if after treatment with Eurartesim malaria infection occurs again repeatedly or is not cured, your 
 doctor may prescribe another medicine. 
 If you are not sure about any of the above, please ask your doctor or pharmacist. </p>
@@ -139,18 +138,22 @@ Tell your doctor or pharmacist if you or your child is taking, has recently take
 medicines. Some medicines can affect the way Eurartesim works and your doctor may decide that 
 Eurartesim is not suitable or that extra checks are needed while you or your child is taking the 
 medicines which could cause possible interactions. Examples are listed below (but there are several 
-others): 
-- some medicines used to treat high cholesterol in the blood (such as atorvastatin, lovastatin, 
-simvastatin); 
-- medicines used to treat hypertension and heart problems (such as diltiazem, nifedipine, 
-nitrendipine, verapamil, felodipine, amlodipine); 
-- some medicines used to treat HIV (antiretroviral medicines): HIV-protease inhibitors (such as, 
-atazanavir, darunavir, indinavir, lopinavir, ritonavir), non-nucleoside reverse transcriptase 
-inhibitors (such as efavirenz, nevirapine); 
-- some medicines used to treat microbial infections (such as telithromycin, rifampicin, dapsone); </p>
+others):</p>
 <ul>
-<li>medicines used to help you fall asleep: benzodiazepines (such as midazolam, triazolam, 
-diazepam, alprazolam), zaleplon, zolpidem; </li>
+<li>some medicines used to treat high cholesterol in the blood (such as atorvastatin, lovastatin, 
+simvastatin); </li>
+<li>medicines used to treat hypertension and heart problems (such as diltiazem, nifedipine, 
+nitrendipine, verapamil, felodipine, amlodipine); </li>
+<li>some medicines used to treat HIV (antiretroviral medicines): HIV-protease inhibitors (such as, 
+atazanavir, darunavir, indinavir, lopinavir, ritonavir), non-nucleoside reverse transcriptase 
+inhibitors (such as efavirenz, nevirapine); </li>
+<li>
+<p>some medicines used to treat microbial infections (such as telithromycin, rifampicin, dapsone); </p>
+</li>
+<li>
+<p>medicines used to help you fall asleep: benzodiazepines (such as midazolam, triazolam, 
+diazepam, alprazolam), zaleplon, zolpidem; </p>
+</li>
 <li>medicines used to prevent/treat epileptic seizures: barbiturates (such as phenobarbital), 
 carbamazepine or phenytoin; </li>
 <li>medicines used after organ transplantation and in autoimmune diseases (such as cyclosporin, 
@@ -176,7 +179,7 @@ used in the 1st trimester of pregnancy if your doctor can give you an alternativ
 out that you are pregnant within one month from taking Eurartesim, please inform your doctor. The 
 exposure of pregnant women during the 2nd and 3rd trimester was not associated with any harm of the 
 unborn child. If Eurartesim is more suitable for a pregnant woman than other artemisinin-based 
-combination therapies with a higher range of experience (or sulfadoxine–pyrimethamine), Eurartesim 
+combination therapies with a higher range of experience (or sulfadoxine pyrimethamine), Eurartesim 
 may be used in the 2nd and 3rd trimester. </p>
 <p>You should not breast-feed your baby while taking this medicine because the medicine may pass 
 through breast milk to your baby. </p>
@@ -201,23 +204,17 @@ each dose of Eurartesim. You or your child can drink water at any time. </p>
 immediately. </p>
 <p>A course of Eurartesim lasts 3 consecutive days. Take one dose on each day. You should try to take 
 the dose at about the same time on each of the three days. </p>
-<p>The daily dose depends on the patient’s body weight. Your doctor should have prescribed a dose that 
-is appropriate for your weight or your child’s weight as follows: </p>
+<p>The daily dose depends on the patient s body weight. Your doctor should have prescribed a dose that 
+is appropriate for your weight or your child s weight as follows: </p>
 <p>Body weight 
 (kg) 
 Daily dose (mg) 
 Total number of tablets for 
 treatment<br />
 5 to less than 7 
-Half 160 mg/20 mg  tablet a day </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>7 to less than One 160 mg/20 mg tablet a day 
+Half 160 mg/20 mg  tablet a day 
+1.5 tablet<br />
+7 to less than One 160 mg/20 mg tablet a day 
 3 tablets 
 13 to less than One 320 mg/40 mg  tablet a day 
 3 tablets 
@@ -257,12 +254,13 @@ Check with your doctor or pharmacist if you are not sure. </p>
 For the medicine to work effectively, you or your child should take the tablets as instructed and should 
 complete the 3 days course of treatment.  If you or your child is not able to do this, talk to your doctor 
 or pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store eurartesim"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store eurartesim"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most of 
 the side effects are not severe and normally disappear within a few days or weeks after treatment.  </p>
@@ -274,7 +272,7 @@ taking the last dose. This can cause a life-threatening abnormality of the heart
 Your doctor may take electrical recordings of the heart (electrocardiogram, ECG) while you or 
 your child is being treated and after the last dose is given. Your doctor will advise you when 
 these readings will be taken.<br />
-If you notice anything different about your or your child’s heart rhythm or have symptoms 
+If you notice anything different about your or your child s heart rhythm or have symptoms 
 (such as palpitations or irregular heart beat) you should contact your doctor as soon as possible 
 and before the next dose is due.  </p>
 <p>Sometimes a problem with your red blood cells, called haemolytic anaemia can occur after receiving 
@@ -310,18 +308,32 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store eurartesim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store eurartesim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not take this medicine after the expiry date which is stated on the package after  EXP . The expiry 
+date refers to the last day of that month. </p>
+<p>Do not store above 30 C. 
+Store in the original package in order to protect from light and moisture. </p>
+<p>Do not use this medicine if you notice the blister is open.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not take this medicine after the expiry date which is stated on the package after ‘EXP’. The expiry 
-date refers to the last day of that month. </p>
-<p>Do not store above 30°C. 
-Store in the original package in order to protect from light and moisture. </p>
-<p>Do not use this medicine if you notice the blister is open.  </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eurartesim contains 
+The active substances are piperaquine tetraphosphate and artenimol. 
+Each film-coated tablet contains 160 mg piperaquine tetraphosphate (as the tetrahydrate) and 20 mg 
+artenimol.  </p>
+<p>The other ingredients are: 
+Tablet core: pre-gelatinised starch, dextrin, hypromellose (E464), croscarmellose sodium, magnesium 
+stearate (E572). 
+Film coating: hypromellose, titanium dioxide (E171), macrogol 40</p>         </div>"""      
 

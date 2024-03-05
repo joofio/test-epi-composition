@@ -4,7 +4,7 @@ Instance: composition-en-e96a2b015f0fafafc915826cda7b875c
 InstanceOf: CompositionUvEpi
 Title: "Composition for dificlir Package Leaflet"
 Description:  "Composition for dificlir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -82,9 +82,8 @@ killing the bacteria that cause the infection and helps to reduce the associated
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take dificlir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take DIFICLIR 
-− 
-If you are allergic to fidaxomicin or any of the other ingredients of this medicine (listed in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take DIFICLIR </p>
+<p>If you are allergic to fidaxomicin or any of the other ingredients of this medicine (listed in 
 section 6).  </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking DIFICLIR. </p>
@@ -106,25 +105,18 @@ suspension may be used. </p>
 <p>Other medicines and DIFICLIR 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. </p>
 <p>DIFICLIR blood levels can be affected by other medicines you take, and blood levels of other 
-medicines can be affected by taking DIFICLIR. Examples of such medicines are: 
-− 
-cyclosporin (a medicine used to dampen down the body’s immune reactions, used e.g. after an 
+medicines can be affected by taking DIFICLIR. Examples of such medicines are: </p>
+<p>cyclosporin (a medicine used to dampen down the body s immune reactions, used e.g. after an 
 organ or bone marrow transplant, for psoriasis or eczema, or for rheumatoid arthritis or 
-nephrotic syndrome) 
-− 
-ketoconazole (a medicine used to treat fungal infections) 
-− 
-erythromycin (a medicine used to treat ear, nose, throat, chest and skin infections) 
-− 
-clarithromycin (a medicine used to treat chest infections, throat and sinus infections, skin and 
-tissue infections and Helicobacter pylori infections associated with duodenal or stomach ulcer) 
-− 
-verapamil (a medicine used to treat high blood pressure or to prevent chest pain attacks, or used 
-following a heart attack to prevent another one) 
-− 
-dronedarone and amiodarone (medicines used to control the heartbeat) 
-− 
-dabigatran etexilat (a medicine used to prevent the formation of blood clots after hip or knee 
+nephrotic syndrome) </p>
+<p>ketoconazole (a medicine used to treat fungal infections) </p>
+<p>erythromycin (a medicine used to treat ear, nose, throat, chest and skin infections) </p>
+<p>clarithromycin (a medicine used to treat chest infections, throat and sinus infections, skin and 
+tissue infections and Helicobacter pylori infections associated with duodenal or stomach ulcer) </p>
+<p>verapamil (a medicine used to treat high blood pressure or to prevent chest pain attacks, or used 
+following a heart attack to prevent another one) </p>
+<p>dronedarone and amiodarone (medicines used to control the heartbeat) </p>
+<p>dabigatran etexilat (a medicine used to prevent the formation of blood clots after hip or knee 
 replacement surgery)<br />
 You should not use DIFICLIR in combination with one of these medicines, unless your doctor tells 
 you otherwise. If you use one of these medicines, please ask your doctor for advice before taking this 
@@ -139,8 +131,8 @@ If you are breastfeeding ask your doctor or pharmacist for advice before taking 
 <p>Driving and using machines 
 DIFICLIR is not expected to affect your ability to drive, use tools or machines. </p>
 <p>DIFICLIR contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dificlir"
@@ -217,13 +209,10 @@ If you stop taking this medicine too soon, the infection may come back. </p>
 throat (angioedema), severe rash or severe itching (pruritus) (see section 2). If such reaction occurs, 
 stop taking DIFICLIR and seek medical advice urgently from your doctor, pharmacist or at your local 
 hospital emergency department. </p>
-<p>The most common side effects (may affect up to 1 in 10 people) are: 
-− 
-vomiting 
-− 
-nausea 
-− 
-constipation. </p>
+<p>The most common side effects (may affect up to 1 in 10 people) are: </p>
+<p>vomiting </p>
+<p>nausea </p>
+<p>constipation. </p>
 <p>DAY 
 1 
 2 
@@ -264,23 +253,17 @@ DAY </p>
 <li>200 mg </li>
 <li>200 mg 
 Other possible side effects are the following: 
-Uncommon side effects (may affect up to 1 in 100 people) 
-− 
-decreased appetite 
-− 
-dizziness, headache 
-− 
-dry mouth, altered taste (dysgeusia) 
-− 
-bloated feeling, wind (flatulence) 
-− 
-rash, itching (pruritus) </li>
+Uncommon side effects (may affect up to 1 in 100 people) </li>
 </ul>
+<p>decreased appetite </p>
+<p>dizziness, headache </p>
+<p>dry mouth, altered taste (dysgeusia) </p>
+<p>bloated feeling, wind (flatulence) </p>
+<p>rash, itching (pruritus) </p>
 <p>Not known side effects (frequency cannot be estimated from the available data) 
-− swelling of the face and throat (angioedema), trouble breathing (dyspnea) </p>
-<p>Additional side effects in children and adolescents 
-− 
- hives </p>
+  swelling of the face and throat (angioedema), trouble breathing (dyspnea) </p>
+<p>Additional side effects in children and adolescents </p>
+<p>hives </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -293,7 +276,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store dificlir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after “EXP”. The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -304,17 +287,15 @@ throw away medicines you no longer use. These measures will help to protect the 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What DIFICLIR contains<br />
-− 
-The active substance is fidaxomicin. Each film-coated tablet contains 200 mg of fidaxomicin.<br />
-− 
-The other ingredients are: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What DIFICLIR contains  </p>
+<p>The active substance is fidaxomicin. Each film-coated tablet contains 200 mg of fidaxomicin.  </p>
+<p>The other ingredients are: 
 Tablet core: microcrystalline cellulose, pregelatinised starch, hydroxypropyl cellulose, butylated 
 hydroxytoluene, sodium starch glycolate and magnesium stearate 
 Coating: polyvinyl alcohol, titanium dioxide (E171), talc, polyethylene glycol and lecithin (soy) </p>
 <p>What DIFICLIR looks like and contents of the pack 
 DIFICLIR 200 mg film-coated tablets are capsule shaped tablets, white to off-white in colour, with 
-“FDX” on one side and “200” on the other side. </p>
+ FDX  on one side and  200  on the other side. </p>
 <p>DIFICLIR is available in: 
 100 x 1 film-coated tablet in alu/alu perforated unit dose blisters. 
 20 x 1 film-coated tablet in alu/alu perforated unit dose blisters. </p>

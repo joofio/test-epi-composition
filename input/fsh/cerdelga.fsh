@@ -4,7 +4,7 @@ Instance: composition-en-ed982183c35912e878ca478e2f38304e
 InstanceOf: CompositionUvEpi
 Title: "Composition for cerdelga Package Leaflet"
 Description:  "Composition for cerdelga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,8 +69,16 @@ Usage: #example
   * code.text =  "1. What cerdelga is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cerdelga contains the active substance eliglustat and is used for the long term treatment of adult 
-patients with Gaucher disease type 1.<br />
-Gaucher disease type 1 is a rare, inherited condition in which a substance called glucosylceramide is 
+patients with Gaucher disease type </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cerdelga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cerdelga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gaucher disease type 1 is a rare, inherited condition in which a substance called glucosylceramide is 
 not effectively broken down by your body. As a result glucosylceramide builds up in your spleen, liver 
 and bones. The build-up prevents these organs from working properly. Cerdelga contains the active 
 substance eliglustat which decreases the production of glucosylceramide, thereby preventing its build-
@@ -83,13 +91,11 @@ metabolisers). Your doctor will determine if Cerdelga is suitable for you before
 using a simple laboratory test. </p>
 <p>Gaucher disease type 1 is a lifelong condition and you must continue to take this medicine as 
 prescribed by your doctor to gain the maximum benefit from your medicine. </p>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take cerdelga"
+  * title =  "3. How to take cerdelga"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take cerdelga"
+  * code.text = "3. How to take cerdelga"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Cerdelga 
 - If you are allergic to eliglustat or any of the other ingredients of this medicine (listed in 
@@ -97,21 +103,21 @@ section 6).
 - If you are an intermediate or extensive metaboliser and use medicines  known as strong or 
 moderate CYP2D6 inhibitors (examples are quinidine and terbinafine) used in combination 
 with strong or moderate CYP3A inhibitors (examples are erythromycin and itraconazole). The 
-combination of these medicines will interfere with your body’s ability to break down Cerdelga 
-and this can result in higher levels of the active substance in your blood (see the section ‘Other 
-medicines and Cerdelga’ for an expanded list of medicines). 
+combination of these medicines will interfere with your body s ability to break down Cerdelga 
+and this can result in higher levels of the active substance in your blood (see the section  Other 
+medicines and Cerdelga  for an expanded list of medicines). 
 - If you are a poor metaboliser and use medicines known as strong CYP3A inhibitors (for 
-example itraconazole). Medicines of this type will interfere with your body’s abilty to break 
+example itraconazole). Medicines of this type will interfere with your body s abilty to break 
 down Cerdelga and this can result in higher levels of the active substance in your blood (see 
-the section ‘Other medicines and Cerdelga’ for an expanded list of medicines). 
+the section  Other medicines and Cerdelga  for an expanded list of medicines). 
 - If you are an extensive metaboliser and you have severely reduced liver function. 
 - If you are an extensive metaboliser and you have mildly or moderately reduced liver function 
 while taking a strong or moderate CYP2D6 inhibitor. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Cerdelga, if you: 
 *  are currently treated, or about to start treatment with any of the medicines listed in section 
-‘Other medicines and Cerdelga.’ 
-* have had a heart attack or heart failure. 
+ Other medicines and Cerdelga.<br />
+<em> have had a heart attack or heart failure. 
 * have a slow heart rate. 
 * have an irregular, or abnormal heart beat, inluding a heart condition called long QT syndrome. 
 * have any other heart problems. 
@@ -120,7 +126,7 @@ amiodarone or sotalol.
 * are an extensive metaboliser and you have moderately reduced liver function. 
 * are an intermediate or poor metaboliser and you have any level of reduced liver function. 
 * are an intermediate or poor metaboliser and you have reduced kidney function.<br />
-* are an end stage renal disease (ESRD) patient. </p>
+</em> are an end stage renal disease (ESRD) patient. </p>
 <p>Children and adolescents 
 Cerdelga has not been tested in children and adolescents under 18 years of age. Do not give this 
 medicine to children or adolescents. </p>
@@ -129,55 +135,55 @@ Please tell your doctor or pharmacist if you are using, or have recently used, o
 medicines. </p>
 <p>Medicines that must not be taken in combination with each other and Cerdelga 
 Cerdelga must not be used with certain type of medicines. These medicines can interfere with your 
-body’s ability to break down Cerdelga and this can result in higher levels of Cerdelga in your blood. 
+body s ability to break down Cerdelga and this can result in higher levels of Cerdelga in your blood. 
 These medicines are known as strong or moderate CYP2D6 inhibitors and strong or moderate CYP3A 
 inhibitors. There are many medicines in these categories and depending on how your body breaks 
 down Cerdelga the effects may differ from person to person. Please speak to your doctor regarding 
 these medicines before you start taking Cerdelga. Your doctor will determine which medicines you 
 can use based on how fast your body breaks down eliglustat. </p>
 <p>Medicines that may increase the level of Cerdelga in the blood such as: 
-* paroxetine, fluoxetine, fluvoxamine, duloxetine, bupropion, moclobemide – antidepressants 
+* paroxetine, fluoxetine, fluvoxamine, duloxetine, bupropion, moclobemide   antidepressants 
 (used to treat depression) 
-* dronedarone, quinidine, verapamil – antiarrhythmic medicines (used to treat irregular 
+* dronedarone, quinidine, verapamil   antiarrhythmic medicines (used to treat irregular 
 heartbeat) 
-* ciprofloxacin, clarithromycin, erythromycin, telithromycin – antibiotics (used to treat 
+* ciprofloxacin, clarithromycin, erythromycin, telithromycin   antibiotics (used to treat 
 infections) 
-* terbinafine, itraconazole, fluconazole, posaconazole, voriconazole – antifungals (used to treat 
+* terbinafine, itraconazole, fluconazole, posaconazole, voriconazole   antifungals (used to treat 
 fungal infections) 
-* mirabegron – used to treat overactive bladders 
-* cinacalcet – calcimimetic (used in some dialysis patients and specific cancers) 
-* atazanavir, darunavir, fosamprenavir, indinavir, lopinavir, ritonavir, saquinavir, tipranavir – 
+* mirabegron   used to treat overactive bladders 
+* cinacalcet   calcimimetic (used in some dialysis patients and specific cancers) 
+* atazanavir, darunavir, fosamprenavir, indinavir, lopinavir, ritonavir, saquinavir, tipranavir <br />
 antiretrovirals (used to treat HIV) 
-* cobicistat – used to improve the effects of antiretrovirals (used to treat HIV) 
-* aprepitant – antiemetic (used to reduce vomiting) 
-* diltiazem – antihypertensive (used to increase blood flow and decrease heart rate) 
-* conivaptan – diuretic (used to increase low blood sodium levels) 
-* boceprevir, telaprevir – antiviral (used to treat Hepatitis C) 
-* imatinib – anticancer (used to treat cancer) 
-* amlopidine, ranolazine  –  used to treat angina pectoris<br />
-* cilostazol – used to treat cramp-like pain in your legs when you walk caused by insufficient 
+* cobicistat   used to improve the effects of antiretrovirals (used to treat HIV) 
+* aprepitant   antiemetic (used to reduce vomiting) 
+* diltiazem   antihypertensive (used to increase blood flow and decrease heart rate) 
+* conivaptan   diuretic (used to increase low blood sodium levels) 
+* boceprevir, telaprevir   antiviral (used to treat Hepatitis C) 
+* imatinib   anticancer (used to treat cancer) 
+* amlopidine, ranolazine     used to treat angina pectoris<br />
+* cilostazol   used to treat cramp-like pain in your legs when you walk caused by insufficient 
 blood supply in your legs 
-* isoniazid – used to treat tuberculosis. 
-* cimetidine, ranitidine – antacids (used to treat indigestion) 
-* goldenseal – (also known as Hydrastis canadensis) a herbal preparation obtained without a 
+* isoniazid   used to treat tuberculosis. 
+* cimetidine, ranitidine   antacids (used to treat indigestion) 
+* goldenseal   (also known as Hydrastis canadensis) a herbal preparation obtained without a 
 prescription, used as a digestive aid. </p>
 <p>Medicines that may decrease the level of Cerdelga in the blood: 
-* rifampicin, rifabutin – antibiotics (used to treat infections) 
-* carbamazepine, phenobarbital, phenytoin –anti-epileptics (used to treat epilepsy and seizures) 
-* St. John’s wort – (also known as Hypericum perforatum) a herbal preparation obtained 
+* rifampicin, rifabutin   antibiotics (used to treat infections) 
+* carbamazepine, phenobarbital, phenytoin  anti-epileptics (used to treat epilepsy and seizures) 
+* St. John s wort   (also known as Hypericum perforatum) a herbal preparation obtained 
 without a prescription, used to treat depression and other conditions  </p>
 <p>Cerdelga may increase the level of the following types of medicines in the blood: 
-* dabigatran – anticoagulant (used to thin the blood) 
-* phenytoin – anti-epileptic (used to treat epilepsy and seizures) 
-* nortryptyline, amitriptyline, imipramine, desipramine – antidepressants (used to treat 
+* dabigatran   anticoagulant (used to thin the blood) 
+* phenytoin   anti-epileptic (used to treat epilepsy and seizures) 
+* nortryptyline, amitriptyline, imipramine, desipramine   antidepressants (used to treat 
 depression) 
-* phenothiazines – antipsychotics (used to treat schizophrenia and psychosis) 
-* digoxin –used to treat heart failure and atrial fibrillation 
-* colchicine – used to treat gout 
-* metoprolol – used to lower blood pressure and/or reduce heart rate 
-* dextromethorphan – cough medicine 
-* atomoxetine – used to treat attention deficit hyperactivity disorder (ADHD) 
-* pravastatin – used to lower cholesterol and prevent heart disease </p>
+* phenothiazines   antipsychotics (used to treat schizophrenia and psychosis) 
+* digoxin  used to treat heart failure and atrial fibrillation 
+* colchicine   used to treat gout 
+* metoprolol   used to lower blood pressure and/or reduce heart rate 
+* dextromethorphan   cough medicine 
+* atomoxetine   used to treat attention deficit hyperactivity disorder (ADHD) 
+* pravastatin   used to lower cholesterol and prevent heart disease </p>
 <p>Taking Cerdelga with food and drink 
 Avoid consumption of grapefruit or grapefruit juice since it may increase the level of Cerdelga in your 
 blood. </p>
@@ -192,12 +198,13 @@ you are breast-feeding. </p>
 Cerdelga has negligible or no influence on the ability to drive and use machines. </p>
 <p>Cerdelga contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
-                    
+before taking this medicine. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take cerdelga"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cerdelga"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
@@ -221,13 +228,12 @@ headedness. </p>
 Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Cerdelga 
 Do not stop taking Cerdelga without talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store cerdelga"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store cerdelga"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Common (may affect up to 1 in 10 people): 
@@ -261,146 +267,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store cerdelga"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cerdelga"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton, sleeve and blister after 
-‘EXP’. The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions.  </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cerdelga contains<br />
-* The active substance is eliglustat (as tartrate). Each capsule contains 84 mg eliglustat. 
-* The other ingredients are:<br />
-o In the capsule: microcrystalline cellulose, lactose monohydrate (see section 2 under 
-‘Cerdelga contains lactose’), hypromellose and glycerol dibehenate. 
-o In the capsule shell: gelatin, potassium aluminium silicate (E555), titanium dioxide 
-(E171), yellow iron oxide (E172) and indigotine (E132). 
-o In the printing ink: shellac, black iron oxide (E172), propylene glycol and ammonia 
-solution, concentrated. </p>
-<p>What Cerdelga looks like and contents of the pack 
-Cerdelga capsules have a pearl blue-green opaque cap and a pearl white opaque body with “GZ02” 
-printed in black on the capsule. </p>
-<p>Pack sizes of 14 hard capsules in 1 blister wallet, 56 hard capsules in 4 blister wallets of 14 capsules 
-each or 196 hard capsules in 14 blister wallets of 14 capsules each  </p>
-<p>Not all packs may be marketed in your country. </p>
-<p>Marketing Authorisation Holder<br />
-Sanofi B.V. 
-Paasheuvelweg 1105 BP Amsterdam 
-The Netherlands </p>
-<p>Manufacturer 
-Sanofi Winthrop Industrie 
-30-36 avenue Gustave Eiffel 
-37100 Tours 
-France </p>
-<p>Sanofi Winthrop Industrie 
-1 rue de la Vierge 
-Ambares et Lagrave 
-33565 Carbon Blanc cedex 
-France </p>
-<p>Genzyme Ireland Ltd 
-IDA Industrial Park<br />
-Old Kilmeaden Road<br />
-Waterford 
-Ireland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
-Luxembourg/Luxemburg 
-Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
-Lietuva 
-Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
-Magyarország 
-SANOFI-AVENTIS Zrt. 
-Tel: +36 1 505 0Česká republika 
-sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Malta 
-Sanofi S.r.l. 
-Tel: +39 02 39394 
-Danmark 
-Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Nederland 
-Sanofi B.V. 
-Tel: +31 20 245 4Deutschland 
-Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
-Norge 
-sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71<br />
-Eesti 
-Swixx Biopharma OÜ<br />
-Tel: +372 640 10<br />
-Österreich 
-sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1Polska 
-sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-España 
-sanofi-aventis, S.A. 
-Tel: +34 93 485 94 <br />
-Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
-Tel: +351 21 35 89<br />
-France 
-Sanofi Winthrop Industrie<br />
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
-România 
-Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Hrvatska 
-Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Slovenija 
-Swixx Biopharma d.o.o.<br />
-Tel: +386 1 235 51<br />
-Ireland 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
-Sanofi S.r.l. 
-Tel: 800 536<br />
-Suomi/Finland 
-Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
-Sverige 
-Sanofi AB 
-Tel: +46 (0)8 634 50  </p>
-<p>Latvija 
-Swixx Biopharma SIA<br />
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton, sleeve and blister after 
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions.  </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

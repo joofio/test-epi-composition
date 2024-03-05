@@ -4,7 +4,7 @@ Instance: composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
 InstanceOf: CompositionUvEpi
 Title: "Composition for lenvima Package Leaflet"
 Description:  "Composition for lenvima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take LENVIMA 
 4. Possible side effects  
 5. How to store LENVIMA 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -189,22 +188,19 @@ in your vein, either 200 mg every 3 weeks or 400 mg every 6 weeks.
 mixture can be prepared using water, apple juice, or milk. The liquid mixture may be given by 
 mouth or through a feeding tube. If given through a feeding tube, then the liquid mixture should 
 be prepared using water. If not used at the time of preparation, the liquid mixture may be stored 
-in a covered container and must be refrigerated at 2ºC to 8ºC for a maximum of 24 hours. Shake 
+in a covered container and must be refrigerated at 2 C to 8 C for a maximum of 24 hours. Shake 
 the liquid mixture for 30 seconds after removing from the refrigerator. If the liquid mixture is 
 not used within 24 hours of preparation, it should be thrown away. 
-Preparation and administration of the liquid mixture: 
-o 
+Preparation and administration of the liquid mixture: * 
 Place the whole capsule(s) corresponding to the prescribed dose (up to 5 capsules) in a 
 small container (approximately 20 mL (4 tsp) capacity) or oral syringe (20 mL); do not 
-break or crush capsules. 
-o 
+break or crush capsules. * 
 Add 3 mL of liquid to the container or oral syringe. Wait 10 minutes for the capsule shell 
 (outer surface) to dissolve, then stir or shake the mixture for 3 minutes until the capsules 
 are fully dissolved. 
 * If liquid mixture is prepared in an oral syringe, cap the syringe, remove plunger 
 and use a second syringe or medicine dropper to add the liquid to the first syringe, 
-then replace plunger prior to mixing. 
-o 
+then replace plunger prior to mixing. * 
 Drink the liquid mixture from the container or use an oral syringe to take directly into the 
 mouth or through a feeding tube. 
 * Next, add an additional 2 mL of liquid to the container, or oral syringe using a second syringe or 
@@ -237,7 +233,7 @@ urgent medical treatment:<br />
 talking, vision changes or feeling dizzy - these may be signs of a stroke, bleeding on your brain, 
 or the effect on your brain of a severe increase in blood pressure. 
 * chest pain or pressure, pain in your arms, back, neck or jaw, being short of breath, rapid or 
-irregular heart rate, coughing, bluish colour to lips or fingers, feeling very tired – these may be 
+irregular heart rate, coughing, bluish colour to lips or fingers, feeling very tired   these may be 
 signs of a heart problem, a blood clot in your lung or a leak of air from your lung into your chest 
 so your lung cannot inflate. 
 * severe pain in your belly (abdomen) - this may be due to a hole in the wall of your gut or a 
@@ -246,7 +242,7 @@ or skin).
 * black, tarry, or bloody stools, or coughing up of blood - these may be signs of bleeding inside 
 your body. 
 * yellow skin or yellowing of the whites of the eyes (jaundice) or drowsiness, confusion, poor 
-concentration – these may be signs of liver problems. 
+concentration   these may be signs of liver problems. 
 * diarrhoea, feeling and being sick (nausea and vomiting) - these are very common side effects 
 that can become serious if they cause you to become dehydrated, which can lead to kidney 
 failure. Your doctor can give you medicine to reduce these side effects. 
@@ -397,13 +393,15 @@ of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store lenvima"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and on each blister 
-after ‘EXP’. The expiry date refers to the last day of that month. 
-* Do not store above 25°C. Store in the original blister in order to protect from moisture. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and on each blister 
+after  EXP . The expiry date refers to the last day of that month. </li>
+<li>Do not store above 25 C. Store in the original blister in order to protect from moisture. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -412,12 +410,10 @@ environment. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What LENVIMA contains 
-* The active substance is lenvatinib.<br />
-− 
-LENVIMA 4 mg hard capsules: - Each hard capsule contains 4 mg of lenvatinib (as 
-mesilate). 
-− 
-LENVIMA 10 mg hard capsules: - Each hard capsule contains 10 mg of lenvatinib (as 
+* The active substance is lenvatinib.  </p>
+<p>LENVIMA 4 mg hard capsules: - Each hard capsule contains 4 mg of lenvatinib (as 
+mesilate). </p>
+<p>LENVIMA 10 mg hard capsules: - Each hard capsule contains 10 mg of lenvatinib (as 
 mesilate). </p>
 <ul>
 <li>The other ingredients are calcium carbonate, mannitol, microcrystalline cellulose, 
@@ -428,40 +424,39 @@ propylene glycol. </li>
 </ul>
 <p>What LENVIMA looks like and contents of the pack 
 * The 4 mg capsule is a yellowish red body and yellowish red cap, approximately 14.3 mm in 
-length, marked in black ink with “Є” on the cap, and “LENV 4 mg” on the body. 
+length, marked in black ink with   on the cap, and  LENV 4 mg  on the body. 
 * The 10 mg capsule is a yellow body and yellowish red cap, approximately 14.3 mm in length, 
-marked in black ink with “Є” on the cap, and “LENV 10 mg” on the body. 
+marked in black ink with   on the cap, and  LENV 10 mg  on the body. 
 * The capsules come in blisters of polyamide/aluminium/PVC with a push through aluminium foil 
 lidding in cartons of 30, 60 or 90 hard capsules. Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Eisai GmbH 
-Edmund-Rumpler-Straße 3   <br />
+Edmund-Rumpler-Stra e 3   <br />
 60549 Frankfurt am Main 
 Germany 
 E-mail: medinfo_de@eisai.net </p>
 <p>Manufacturer 
 Eisai GmbH 
-Edmund-Rumpler-Straße 3   <br />
+Edmund-Rumpler-Stra e 3   <br />
 60549 Frankfurt am Main 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Eisai SA/NV 
-Tél/Tel: + 32 (0) 2 502 58<br />
+T l/Tel: + 32 (0) 2 502 58<br />
 Lietuva 
-Ewopharma AG atstovybė 
-Tel: +370 5 2430 
-България 
-Ewopharma AG 
-Teл.: +359 2 962 12<br />
+Ewopharma AG atstovyb<br />
+Tel: +370 5 2430 </p>
+<p>Ewopharma AG 
+Te .: +359 2 962 12<br />
 Luxembourg/Luxemburg 
 Eisai SA/NV 
-Tél/Tel: + 32 (0) 2 502 58 (Belgique/Belgien) </p>
-<p>Česká republika 
-Eisai GesmbH organizačni složka 
+T l/Tel: + 32 (0) 2 502 58 (Belgique/Belgien) </p>
+<p>esk  republika 
+Eisai GesmbH organiza ni slo ka 
 Tel.: + 420 242 485<br />
-Magyarország 
+Magyarorsz g 
 Ewopharma Hungary Ltd. 
 Tel.: +36 1 200 46<br />
 Danmark 
@@ -483,29 +478,28 @@ Tel: +372 6015
 Norge 
 Eisai AB 
 Tlf: + 46 (0) 8 501 01 (Sverige) </p>
-<p>Ελλάδα 
-Arriani Pharmaceutical S.A. 
-Τηλ: + 30 210 668 3 
-Österreich 
+<p>Arriani Pharmaceutical S.A. 
+ : + 30 210 668 3 
+ sterreich 
 Eisai GesmbH 
 Tel: + 43 (0) 1 535 1980-0 </p>
-<p>España 
-Eisai Farmacéutica, S.A. 
+<p>Espa a 
+Eisai Farmac utica, S.A. 
 Tel: + (34) 91 455 94<br />
 Polska 
 Ewopharma AG Sp. z o.o 
 Tel.: +48 (22) 620 11<br />
 France 
 Eisai SAS 
-Tél: + (33) 1 47 67 00<br />
+T l: + (33) 1 47 67 00<br />
 Portugal 
-Eisai Farmacêutica, Unipessoal Lda 
+Eisai Farmac utica, Unipessoal Lda 
 Tel: + 351 214 875<br />
 Hrvatska 
 Ewopharma d.o.o 
 info@ewopharma.hr 
 Tel: +385 (0) 1 6646<br />
-România 
+Rom nia 
 Ewopharma AG 
 Tel: +40 21 260 13<br />
 Ireland 
@@ -514,26 +508,25 @@ Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>Slovenija 
 Ewopharma d.o.o. 
 Tel: +386 590 848<br />
-Ísland 
+ sland 
 Eisai AB 
-Sími: + 46 (0) 8 501 01 (Svíþjóð) </p>
-<p>Slovenská republika 
-Eisai GesmbH organizační složka 
-Tel.: +420 242 485 (Česká republika) </p>
+S mi: + 46 (0) 8 501 01 (Sv j ) </p>
+<p>Slovensk  republika 
+Eisai GesmbH organiza n  slo ka 
+Tel.: +420 242 485 ( esk  republika) </p>
 <p>Italia 
 Eisai S.r.l. 
 Tel: + 39 02 5181 
 Suomi/Finland 
 Eisai AB 
 Puh/Tel: + 46 (0) 8 501 01 (Ruotsi/Sverige) </p>
-<p>Κύπρος 
-Arriani Pharmaceuticals S.A. 
-Τηλ: + 30 210 668 3(Ελλάδα) </p>
+<p>Arriani Pharmaceuticals S.A. 
+ : + 30 210 668 3( ) </p>
 <p>Sverige 
 Eisai AB 
 Tel: + 46 (0) 8 501 01<br />
 Latvija 
-Ewopharma AG Pārstāvniecība 
+Ewopharma AG P rst vniec ba 
 Tel: +371 67450 
 United Kingdom (Northern Ireland) 
 Eisai GmbH 

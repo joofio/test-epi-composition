@@ -4,7 +4,7 @@ Instance: composition-en-691dd468387a7314644483dde7be004c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyxeos Package Leaflet"
 Description:  "Composition for vyxeos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,9 +70,9 @@ Usage: #example
   * code.text =  "1. What vyxeos is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vyxeos liposomal is 
-Vyxeos liposomal belongs to a group of medicines called ‘antineoplastics’ used in cancer. It contains 
-two active substances, called ‘daunorubicin’ and ‘cytarabine’, in the form of tiny particles known as 
-‘liposomes’. 
+Vyxeos liposomal belongs to a group of medicines called  antineoplastics  used in cancer. It contains 
+two active substances, called  daunorubicin  and  cytarabine , in the form of tiny particles known as 
+ liposomes . 
 These active substances act in different ways to kill cancer cells by stopping them from growing and 
 dividing. Packaging them in liposomes prolongs their action in the body and helps them to enter and 
 kill the cancer cells.  </p>
@@ -80,7 +80,7 @@ kill the cancer cells.  </p>
 Vyxeos liposomal is used to treat patients with newly diagnosed acute myeloid leukaemia (a cancer of 
 the white blood cells). It is given when the leukaemia was caused by previous treatments (known as 
 therapy related acute myeloid leukaemia) or when there are certain changes in the bone marrow 
-(known as acute myeloid leukaemia with “myelodysplasia-related changes”). </p>         </div>"""   
+(known as acute myeloid leukaemia with  myelodysplasia-related changes ). </p>         </div>"""   
           
 
              
@@ -96,22 +96,24 @@ ingredients of this medicine (listed in section 6). </p>
 Your doctor will monitor you during treatment. Talk to your doctor or nurse before you are given 
 Vyxeos liposomal: 
 * if you have low numbers of platelets, red or white blood cells in your blood (you will have a 
-blood test before starting treatment). If this applies to you: 
-- your doctor may also give you a medicine to help stop you getting an infection. 
-- your doctor will also check you for infections during treatment. 
-* if you have ever had a heart problem or heart attack, or you have previously taken 
-‘anthracycline’ cancer medicines. If this applies to you, your doctor may check your heart 
-before starting, and during treatment. 
-* if you think you might be pregnant. You should use an effective method of contraception to 
+blood test before starting treatment). If this applies to you:</p>
+<ul>
+<li>your doctor may also give you a medicine to help stop you getting an infection. </li>
+<li>your doctor will also check you for infections during treatment. </li>
+<li>if you have ever had a heart problem or heart attack, or you have previously taken 
+ anthracycline  cancer medicines. If this applies to you, your doctor may check your heart 
+before starting, and during treatment. </li>
+<li>if you think you might be pregnant. You should use an effective method of contraception to 
 avoid getting (you or your partner) pregnant during the treatment, and for the next 6 months 
-after your last dose. 
-* if you have any allergic (hypersensitivity) reactions. Your doctor may pause or stop treatment, 
-or slow the rate of your drip,  if any hypersensitivity occurs.<br />
-* if you have had problems with your kidneys or liver. Your doctor will monitor you during 
-treatment. 
-* if you have ever had a condition known as Wilson’s disease or other copper-related disorder, as 
-Vyxeos liposomal contains an ingredient known as 'copper gluconate'. 
-* if you are to be given a vaccine. </p>
+after your last dose. </li>
+<li>if you have any allergic (hypersensitivity) reactions. Your doctor may pause or stop treatment, 
+or slow the rate of your drip,  if any hypersensitivity occurs.  </li>
+<li>if you have had problems with your kidneys or liver. Your doctor will monitor you during 
+treatment. </li>
+<li>if you have ever had a condition known as Wilson s disease or other copper-related disorder, as 
+Vyxeos liposomal contains an ingredient known as 'copper gluconate'. </li>
+<li>if you are to be given a vaccine. </li>
+</ul>
 <p>Your doctor will monitor you with regards to your general health during treatment and may also give 
 you other medicines to support your treatment, either before or with Vyxeos liposomal. If any of the 
 above apply to you (or you are not sure), talk to your doctor, pharmacist, or nurse before you are given 
@@ -149,7 +151,7 @@ tools or machines. </p>         </div>"""
 * It is given to you as a drip (infusion) into a vein. 
 * The infusion is given over one and a half hours (90 minutes). </p>
 <p>Your doctor or nurse will work out your dose of the medicine based on your weight and height. Your 
-treatment will be given in ‘courses’. Each course is given as a separate infusion and can be given 
+treatment will be given in  courses . Each course is given as a separate infusion and can be given 
 weeks apart.  </p>
 <p>You will receive a first course of treatment and your doctor will decide if you will receive further 
 courses of treatment depending on how you respond to treatment and any side effects you get. Your 
@@ -224,21 +226,23 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store vyxeos"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and the vial after 
-EXP. The expiry date refers to the last day of that month. 
-* Store in a refrigerator (2 °C to 8 °C). 
-* Keep the vial in the outer carton in order to protect from light. 
-* Store in an upright position. 
-* After reconstitution, the vials should be stored in a refrigerator (2 °C to 8 °C) for up to 4 hours 
-in an upright position.<br />
-* After dilution, the solution in infusion bags should be stored in a refrigerator (2 °C to 8 °C) for 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and the vial after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2  C to 8  C). </li>
+<li>Keep the vial in the outer carton in order to protect from light. </li>
+<li>Store in an upright position. </li>
+<li>After reconstitution, the vials should be stored in a refrigerator (2  C to 8  C) for up to 4 hours 
+in an upright position.  </li>
+<li>After dilution, the solution in infusion bags should be stored in a refrigerator (2  C to 8  C) for 
 up to 4 hours. The maximum combined storage time, for reconstituted product in the vial kept in 
 an upright position and reconstituted product after dilution into an infusion bag, should not 
-exceed 4 hours. The 90-minute infusion time is in addition to the up to 4 hours storage time. 
-* Do not use this medicine if you notice any particles in the diluted solution. 
-* Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+exceed 4 hours. The 90-minute infusion time is in addition to the up to 4 hours storage time. </li>
+<li>Do not use this medicine if you notice any particles in the diluted solution. </li>
+<li>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away 
+medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]

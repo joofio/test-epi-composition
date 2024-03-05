@@ -4,7 +4,7 @@ Instance: composition-en-d9561f20b6898b3c62b048e0c8b52401
 InstanceOf: CompositionUvEpi
 Title: "Composition for hycamtin Package Leaflet"
 Description:  "Composition for hycamtin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,9 +95,9 @@ Tell your doctor if any of these applies to you. </p>
 <p>Warnings and precautions 
 Before you are given this medicine your doctor needs to know: 
 * if you have any kidney or liver problems. Your dose of Hycamtin may need to be adjusted. 
-* if you are pregnant or plan to become pregnant. See section “Pregnancy and breast-feeding” 
+* if you are pregnant or plan to become pregnant. See section  Pregnancy and breast-feeding<br />
 below. 
-* if you plan to father a child. See section “Pregnancy and breast-feeding” below. 
+* if you plan to father a child. See section  Pregnancy and breast-feeding  below. 
 Tell your doctor if any of these applies to you. </p>
 <p>Other medicines and Hycamtin 
 Tell your doctor if you are taking, have recently taken, or might take any other medicines, including 
@@ -114,8 +114,8 @@ doctor tells you it is safe to do so. </p>
 <p>Driving and using machines 
 Hycamtin can make people feel tired. If you feel tired or weak, do not drive or use machines. </p>
 <p>Hycamtin contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially “sodium 
-free”. If your doctor uses a solution of common salt to dilute Hycamtin, the dose of sodium received 
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
+free . If your doctor uses a solution of common salt to dilute Hycamtin, the dose of sodium received 
 would be larger. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -150,20 +150,24 @@ A doctor or nurse will administer Hycamtin as an infusion into your arm lasting 
 <p>Serious side effects: tell your doctor 
 These very common side effects may affect more than 1 in 10 people treated with Hycamtin: 
 * Signs of infections: Hycamtin may reduce the number of white blood cells and lower your 
-resistance to infection. This can even be life threatening. Signs include: 
-- fever 
-- serious deterioration of your general condition 
-- local symptoms such as sore throat or urinary problems (for example, a burning sensation 
-when urinating, which may be a urinary infection). 
-* Occasionally severe stomach pain, fever and possibly diarrhoea (rarely with blood) can be signs 
-of bowel inflammation (colitis). </p>
+resistance to infection. This can even be life threatening. Signs include:</p>
+<ul>
+<li>fever </li>
+<li>serious deterioration of your general condition </li>
+<li>local symptoms such as sore throat or urinary problems (for example, a burning sensation 
+when urinating, which may be a urinary infection). </li>
+<li>Occasionally severe stomach pain, fever and possibly diarrhoea (rarely with blood) can be signs 
+of bowel inflammation (colitis). </li>
+</ul>
 <p>This rare side effect may affect up to 1 in 1,000 people treated with Hycamtin: 
 * Lung inflammation (interstitial lung disease): You are most at risk if you have existing lung 
 disease, have had radiation treatment to your lungs, or have previously taken medicines that 
-caused lung damage. Signs include: 
-- difficulty breathing 
-- cough 
-- fever. </p>
+caused lung damage. Signs include:</p>
+<ul>
+<li>difficulty breathing </li>
+<li>cough </li>
+<li>fever. </li>
+</ul>
 <p>Tell your doctor immediately if you get any symptoms of these conditions, as hospitalisation may be 
 necessary. </p>
 <p>Very common side effects 
@@ -219,7 +223,7 @@ this medicine. </p>         </div>"""
 <p>This medicine is for single use only. After opening, the product should be used immediately. If not 
 used immediately, in-use storage times and conditions prior to use are the responsibility of the user. If 
 reconstitution and dilution are performed under strict aseptic conditions (e.g. an LAF bench) the 
-product should be used (infusion completed) within 24 hours if stored at 2ºC – 8ºC after the first 
+product should be used (infusion completed) within 24 hours if stored at 2 C   8 C after the first 
 puncture of the vial. </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements for 
 cytotoxic material. </p>         </div>"""      
@@ -243,10 +247,10 @@ The powder needs to be reconstituted and diluted before infusion.
 The powder in the vial provides 1 mg per ml of active substance when reconstituted as recommended. </p>
 <p>Marketing Authorisation Holder 
 Sandoz Pharmaceuticals d.d. 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
 <p>Manufacturer 
-Novartis Farmacéutica S.A. 
+Novartis Farmac utica S.A. 
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>Novartis Pharma GmbH 
@@ -262,36 +266,34 @@ Otto-von-Guericke-Allee 1
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-Tél/Tel: +32 (0)2 722 97<br />
+T l/Tel: +32 (0)2 722 97<br />
 Lietuva 
 Sandoz Pharmaceuticals d.d 
 Branch Office Lithuania 
 Seimyniskiu 3A 
-LT – 09312 Vilnius 
-Tel: +370 5 2636<br />
-България 
-КЧТ Сандоз България<br />
-Teл.: +359 2 970 47<br />
+LT   09312 Vilnius 
+Tel: +370 5 2636  </p>
+<p>Te .: +359 2 970 47<br />
 Luxembourg/Luxemburg 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-Tél/Tel: +32 (0)2 722 97<br />
-Česká republika 
+T l/Tel: +32 (0)2 722 97<br />
+ esk  republika 
 Sandoz s.r.o. 
-Na Pankráci 1724/CZ-140 00, Praha 4 
+Na Pankr ci 1724/CZ-140 00, Praha 4 
 Tel: +420 225 775 office.cz@ sandoz.com </p>
-<p>Magyarország 
-Sandoz Hungária Kft. 
-Bartók Béla út 43-H-1114 Budapest 
+<p>Magyarorsz g 
+Sandoz Hung ria Kft. 
+Bart k B la  t 43-H-1114 Budapest 
 Tel: +36 1 430 2Info.hungary@sandoz.com 
 Danmark 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 København S 
+Edvard Thomsens Vej DK-2300 K benhavn S 
 Tlf: +45 6395 1info.danmark@sandoz.com </p>
 <p>Malta 
 Sandoz Pharmaceuticals d.d. 
@@ -308,22 +310,21 @@ Veluwezoom NL-1327 AH Almere
 Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com 
 Eesti 
 Sandoz d.d. Eesti filiaal 
-Pärnu mnt EE – 11312 Tallinn 
+P rnu mnt EE   11312 Tallinn 
 Tel: +372 6652 
 Norge 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 København S 
+Edvard Thomsens Vej DK-2300 K benhavn S 
 Danmark 
 Tlf: +45 6395 1info.norge@sandoz.com </p>
-<p>Ελλάδα 
-SANDOZ HELLAS 
-ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε. 
-Τηλ: +30 216 600 5Österreich 
+<p>SANDOZ HELLAS 
+   . . 
+ : +30 216 600 5 sterreich 
 Sandoz GmbH 
 Biochemiestr. A-6250 Kundl 
 Tel: +43(0)1 86659-0 </p>
-<p>España 
-Bexal Farmacéutica, S.A 
+<p>Espa a 
+Bexal Farmac utica, S.A 
 Centro Empresarial Parque Norte 
 Edificio Roble 
 C/ Serrano Galvache, 28033 Madrid 
@@ -337,38 +338,38 @@ France
 Sandoz SAS 
 49, avenue Georges Pompidou 
 F-92300 Levallois-Perret 
-Tél: +33 1 49 64 48<br />
+T l: +33 1 49 64 48<br />
 Portugal 
-Sandoz Farmacêutica Lda. 
-Avenida Professor Doutor Cavaco Silva, n.º10E 
+Sandoz Farmac utica Lda. 
+Avenida Professor Doutor Cavaco Silva, n. 10E 
 Taguspark 
-P-2740−255 Porto Salvo 
+P-2740 255 Porto Salvo 
 Tel: +351 21 196 40 regaff.portugal@sandoz.com </p>
 <p>Hrvatska 
 Sandoz d.o.o. 
 Maksimirska 10 000 Zagreb 
 Tel : +385 1 235 3upit.croatia@sandoz.com </p>
-<p>România 
+<p>Rom nia 
 Sandoz S.R.L. 
 Strada Livezeni Nr. 7a 
-540472 Târgu Mureș 
+540472 T rgu Mure<br />
 Tel: +40 21 407 51<br />
 Ireland 
 Sandoz Pharmaceuticals d.d. 
-Verovškova ulica 1000 Ljubljana 
+Verov kova ulica 1000 Ljubljana 
 Slovenia </p>
 <p>Slovenija 
-Lek farmacevtska družba d.d. 
-Verovškova SI-1526 Ljubljana 
+Lek farmacevtska dru ba d.d. 
+Verov kova SI-1526 Ljubljana 
 Tel: +386 1 580 21 Info.lek@sandoz.com 
-Ísland 
+ sland 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
-Danmörk 
+Edvard Thomsens Vej DK-2300 Kaupmaannah fn S 
+Danm rk 
 Tlf: +45 6395 1info.danmark@sandoz.com </p>
-<p>Slovenská republika 
-Sandoz d.d. - organizačná zložka 
-Žižkova 22B 
+<p>Slovensk  republika 
+Sandoz d.d. - organiza n  zlo ka 
+ i kova 22B 
 811 02 Bratislava 
 Tel: +421 2 48 200 sk.regulatory@sandoz.com </p>
 <p>Italia 
@@ -379,22 +380,20 @@ Tel: +39 02 96 54 1
 regaff.italy@sandoz.com 
 Suomi/Finland 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Kööpenhamina S 
+Edvard Thomsens Vej DK-2300 K penhamina S 
 Tanska 
 Puh: + 358 010 6133 info.suomi@sandoz.com </p>
-<p>Κύπρος 
-Sandoz Pharmaceuticals d.d. 
-Verovskova SI-1000 Ljubljana 
-Σλοβενία 
-Τηλ: +357 22 69 0 
+<p>Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana </p>
+<p>: +357 22 69 0 
 Sverige 
 Sandoz A/S 
-Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Edvard Thomsens Vej DK-2300 K penhamn S 
 Danmark 
 Tel: +45 6395 1info.sverige@sandoz.com </p>
 <p>Latvija 
-Sandoz d.d. Latvia filiāle 
-K.Valdemāra 33 – LV-1010 Rīga 
+Sandoz d.d. Latvia fili le 
+K.Valdem ra 33   LV-1010 R ga 
 Tel: +371 67892 
 United Kingdom (Northern Ireland) 
 Sandoz Pharmaceuticals d.d. 

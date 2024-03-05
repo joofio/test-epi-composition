@@ -4,7 +4,7 @@ Instance: composition-en-6a4f56969477d35dda930b9433ba77df
 InstanceOf: CompositionUvEpi
 Title: "Composition for abraxane Package Leaflet"
 Description:  "Composition for abraxane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Abraxane 
 4. Possible side effects 
 5. How to store Abraxane 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -70,20 +69,20 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Abraxane is 
 Abraxane contains, as its active substance, paclitaxel attached to the human protein albumin, in the form 
-of tiny particles known as nanoparticles. Paclitaxel belongs to a group of medicines called “taxanes” used 
+of tiny particles known as nanoparticles. Paclitaxel belongs to a group of medicines called  taxanes  used 
 in cancer. 
 * Paclitaxel is the part of the medicine that affects the cancer, it works by stopping cancer cells from 
-dividing – this means that they die. 
+dividing   this means that they die. 
 * Albumin is the part of the medicine that helps paclitaxel dissolve in the blood and get across the 
 walls of the blood vessels into the tumour. This means that other chemicals that can cause side 
 effects that can be life threatening are not needed. Such side effects occur far less with Abraxane. </p>
 <p>What Abraxane is used for 
 Abraxane is used to treat the following types of cancer: </p>
 <p>Breast Cancer 
-* Breast cancer which has spread to other parts of the body (this is called “metastatic” breast cancer). 
+* Breast cancer which has spread to other parts of the body (this is called  metastatic  breast cancer). 
 * Abraxane is used in metastatic breast cancer when at least one other therapy has been tried but has 
 not worked and you are unsuitable for treatments containing a group of medicines called 
-“anthracyclines”. 
+ anthracyclines . 
 * People with metastatic breast cancer who received Abraxane where another therapy had failed, were 
 more likely to experience a reduction in tumour size, and lived longer than people who took an 
 alternative therapy. </p>
@@ -94,7 +93,7 @@ of the body) who received Abraxane with gemcitabine in a clinical trial lived lo
 who had only received gemcitabine. </p>
 <p>Lung Cancer 
 * Abraxane is also used together with a medicine called carboplatin if you have the most common 
-type of lung cancer, called “non-small cell lung cancer”. 
+type of lung cancer, called  non-small cell lung cancer . 
 * Abraxane is used in non-small cell lung cancer where surgery or radiotherapy would not be suitable 
 to treat the disease. </p>         </div>"""   
           
@@ -146,7 +145,7 @@ doctor will arrange a pregnancy test before starting treatment with Abraxane. </
 <p>Women of childbearing age should use effective contraception during and up to 1 month after receiving 
 treatment with Abraxane. </p>
 <p>Do not breast feed when taking Abraxane as it is not known if the active ingredient paclitaxel passes into 
-the mother’s milk. </p>
+the mother s milk. </p>
 <p>Male patients are advised to use effective contraception and to avoid fathering a child during and up to six 
 months after treatment and should seek advice on conservation of sperm prior to treatment because of the 
 possibility of irreversible infertility due to therapy with Abraxane. </p>
@@ -157,8 +156,8 @@ any tools or machines. </p>
 <p>If you are given other medicines as part of your treatment, you should ask your doctor for advice on 
 driving and using machines. </p>
 <p>Abraxane contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per 100 mg, that is to say essentially ‘sodium 
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per 100 mg, that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abraxane"
@@ -291,12 +290,12 @@ V. By reporting side effects you can help provide more information on the safety
 expiry date refers to the last day of that month. </p>
 <p>Unopened vials: Keep the vial in the outer carton in order to protect from light. </p>
 <p>After first reconstitution the dispersion should be used immediately. If not used immediately, the 
-dispersion may be stored in a refrigerator (2°C-8°C) for up to 24 hours in the vial when kept in the outer 
+dispersion may be stored in a refrigerator (2 C-8 C) for up to 24 hours in the vial when kept in the outer 
 carton in order to protect it from light. </p>
-<p>The reconstituted dispersion in the intravenous drip may be stored in a refrigerator (2°C-8°C) for up to hours protected from light. </p>
+<p>The reconstituted dispersion in the intravenous drip may be stored in a refrigerator (2 C-8 C) for up to hours protected from light. </p>
 <p>The total combined storage time of reconstituted medicinal product in the vial and in the infusion bag 
 when refrigerated and protected from light is 24 hours. This may be followed by storage in the infusion 
-bag for 4 hours below 25°C. </p>
+bag for 4 hours below 25 C. </p>
 <p>Your doctor or pharmacist is responsible for disposing of any unused Abraxane correctly. </p>         </div>"""      
         
         
@@ -311,7 +310,7 @@ Each vial contains 100 mg or 250 mg of paclitaxel formulated as albumin bound na
 After reconstitution, each ml of dispersion contains 5 mg of paclitaxel formulated as albumin bound 
 nanoparticles. 
 The other ingredient is human albumin solution (containing sodium caprylate and N-acetyl-L-tryptophan), 
-see section 2 “Abraxane contains sodium”. </p>
+see section 2  Abraxane contains sodium . </p>
 <p>What Abraxane looks like and contents of the pack 
 Abraxane is a white to yellow powder for dispersion for infusion. Abraxane is available in glass vials 
 containing 100 mg or 250 mg of paclitaxel formulated as albumin bound nanoparticles. </p>

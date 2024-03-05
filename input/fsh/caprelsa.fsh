@@ -4,7 +4,7 @@ Instance: composition-en-f3d8b9999dbf0bb7ed96cabee591db10
 InstanceOf: CompositionUvEpi
 Title: "Composition for caprelsa Package Leaflet"
 Description:  "Composition for caprelsa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to take Caprelsa 
 4. Possible side effects 
 5. How to store Caprelsa 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -82,16 +81,18 @@ them or slow down their growth. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take caprelsa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Caprelsa:<br />
-- if you are allergic to vandetanib or any of the other ingredients of this medicine (listed in 
-Section 6). 
-- if you have a heart problem that you were born with called ‘congenital long QTc syndrome’. 
-This is seen on an electrocardiogram (ECG). 
-- if you are breast-feeding. 
-- if you are taking any of the following medicines: arsenic, cisapride (used to treat heartburn), 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Caprelsa:</p>
+<ul>
+<li>if you are allergic to vandetanib or any of the other ingredients of this medicine (listed in 
+Section 6). </li>
+<li>if you have a heart problem that you were born with called  congenital long QTc syndrome . 
+This is seen on an electrocardiogram (ECG). </li>
+<li>if you are breast-feeding. </li>
+<li>if you are taking any of the following medicines: arsenic, cisapride (used to treat heartburn), 
 erythromycin intravenous and moxifloxacin (used to treat infection), toremifene (used to treat 
 breast cancer), mizolastine (used to treat allergies), Class IA and III antiarrhythmics (used to 
-control heart rhythm). </p>
+control heart rhythm). </li>
+</ul>
 <p>Do not take Caprelsa if any of the above applies to you. If you are not sure, talk to your doctor. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Caprelsa:<br />
@@ -108,8 +109,14 @@ may be restarted once adequate wound healing is established.
 <p>Severe Cutaneous Adverse Reactions (SCARs), including Stevens-Johnson syndrome (SJS) / toxic 
 epidermal necrolysis (TEN), have been reported in association with vandetanib treatment. Stop using 
 Caprelsa and seek medical attention immediately if you notice any of the symptoms related to these 
-serious skin reactions described in section 4.<br />
-Determination of RET status of your cancer will be needed, before initiating Caprelsa treatment. </p>
+serious skin reactions described in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Determination of RET status of your cancer will be needed, before initiating Caprelsa treatment. </p>
 <p>Monitoring of your blood and your heart: 
 Your doctor or nurse should perform tests to check the levels of your blood potassium, calcium, 
 magnesium, and thyroid-stimulating hormone (TSH) as well as the electrical activity of your heart 
@@ -139,7 +146,7 @@ the body and verbal outbursts) and halofantrine and lumefantrine (used to treat 
 <em> methadone (used to treat addiction), haloperidol, chlorpromazine, sulpiride, amisulpride, and 
 zuclopenthixol, (used to treat mental illness)<br />
 </em> pentamidine (used to treat infection) 
-* vitamin K antagonists and dabigatran often referred to as ‘blood thinners’ 
+* vitamin K antagonists and dabigatran often referred to as  blood thinners<br />
 * cyclosporine and tacrolimus (used to treat transplant rejection), digoxin (used to treat irregular 
 heart rate), and metformin (used to control your blood sugar) 
 * proton pump inhibitors (used to treat heartburn) </p>
@@ -154,12 +161,13 @@ and for at least four months after the last dose of Caprelsa.
 You must not breast-feed during treatment with Caprelsa for the safety of your baby. </p>
 <p>Driving and using machines 
 Use caution before driving or using machines. Keep in mind Caprelsa may make you feel tired, weak, 
-or cause blurred vision. </p>         </div>"""   
-                    
+or cause blurred vision. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take caprelsa"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take caprelsa"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Use in adults 
 Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
@@ -171,7 +179,7 @@ if you are not sure. </p>
 </ul>
 <p>Use in children and adolescents 
 The doctor will tell you how many tablets of Caprelsa to give to your child. The amount of Caprelsa 
-given will depend on your child’s body weight and height. The total daily dose in children must not 
+given will depend on your child s body weight and height. The total daily dose in children must not 
 exceed 300 mg. The treatment may either be given to your child as a once-daily dose, an every other 
 day dosing or a repeating 7-day schedule as indicated in the dosing guide that has been given to you 
 by your doctor. It is important that you keep this dosing guide and show it to your caregiver. </p>
@@ -185,8 +193,14 @@ To make sure there is no medicine left, refill the glass halfway with water and 
 <p>If you get side effects<br />
 If you get side effects always tell your doctor. Your doctor may tell you to take Caprelsa at a lower or 
 increased dose (such as two 100 mg tablets or one 100 mg tablet). Your doctor may also prescribe 
-other medicines to help control your side effects. The side effects of Caprelsa are listed in Section 4.<br />
-If you take more Caprelsa than you should 
+other medicines to help control your side effects. The side effects of Caprelsa are listed in Section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you take more Caprelsa than you should 
 If you take more Caprelsa than you have been prescribed, talk to a doctor or go to a hospital straight 
 away. </p>
 <p>If you forget to take Caprelsa 
@@ -196,18 +210,18 @@ remember. Then take the next dose at the normal time.
 * If it is less than 12 hours until your next dose: Skip the missed dose. Then take the next dose 
 at the normal time. 
 Do not take a double dose (two doses at the same time) to make up for a forgotten tablet. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. If you get 
 side effects, your doctor may tell you to take Caprelsa at a lower dose. Your doctor may also prescribe 
 other medicines to help control your side effects. </p>
-<p>Tell your doctor straight away if you notice any of the following side effects – you may need 
+<p>Tell your doctor straight away if you notice any of the following side effects   you may need 
 urgent medical treatment: 
 * Fainting, dizziness or heart rhythm changes. These may be signs of a change in the electrical 
 activitiy of your heart. They are seen in 8% of people taking Caprelsa for medullary thyroid 
@@ -221,7 +235,7 @@ necrolysis).
 * Severe diarrhoea. 
 * Serious breathlessness, or sudden worsening breathlessness, possibly with a cough or a high 
 temperature (fever). This may mean that you have an inflammation of the lungs called 
-‘interstitial lung disease’. This is uncommon (affects less than 1 in 100 people) but can be 
+ interstitial lung disease . This is uncommon (affects less than 1 in 100 people) but can be 
 life-threatening. 
 * Seizures, headache, confusion or finding it difficult to concentrate. These may be signs of a 
 condition called RPLS (Reversible Posterior Leukoencephalopathy Syndrome). These usually 
@@ -337,8 +351,8 @@ outside by always using sun cream and wearing clothes to avoid exposure to the s
 skin peeling, ulcers of mouth, throat, nose, genitals and eyes, which can be preceded by fever 
 and flu like symptoms. These serious skin rashes can be potentially life threatening (Stevens-
 Johnson syndrome, toxic epidermal necrolysis). 
-* A skin reaction that causes red spots or patches on the skin, that may look like a target or “bulls-
-eye” with a dark red centre surrounded by paler red rings (erythema multiforme). </p>
+* A skin reaction that causes red spots or patches on the skin, that may look like a target or  bulls-
+eye  with a dark red centre surrounded by paler red rings (erythema multiforme). </p>
 <p>The following side effects may be shown in tests that may be carried out by your doctor: 
 * Protein or blood in your urine (shown in a urine test). 
 * Heart rhythm changes (shown in an ECG). Your doctor may tell you to stop taking Caprelsa or 
@@ -360,129 +374,4 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store caprelsa"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store caprelsa"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
-The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
-<p>Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Caprelsa contains<br />
-* The active substance is vandetanib. Each tablet contains 100 or 300 mg of vandetanib. 
-* The other ingredients are calcium hydrogen phosphate dihydrate, microcrystalline cellulose, 
-crospovidone (type A), povidone (K29-32), magnesium stearate, hypromellose, macrogol and 
-titanium dioxide (E171). </p>
-<p>What Caprelsa looks like and contents of the pack 
-Caprelsa 100 mg is a white round film-coated tablet with “Z100” imprinted on one side. 
-Caprelsa 300 mg is a white oval-shaped film-coated tablet with “Z300” imprinted on one side. </p>
-<p>Caprelsa comes in blister packs of 30 tablets. </p>
-<p>Marketing Authorisation Holder 
-Sanofi B.V.<br />
-Paasheuvelweg 1105 BP Amsterdam 
-The Netherlands </p>
-<p>Manufacturer 
-Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
-<p>Sanofi Winthrop Industrie, 30-36 avenue Gustave Eiffel, 37100 Tours, France </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
-Luxembourg/Luxemburg 
-Sanofi Belgium 
-Tél/Tel: + 32 (0)2 710 54 Magyarország 
-SANOFI-AVENTIS Zrt. 
-Tel: +36 1 505 0 </p>
-<p>България 
-Swixx Biopharma EOOD<br />
-Tел: +359 (0)2 4942<br />
-Malta 
-Sanofi S.r.l. 
-Tel:  +39 02 39394 </p>
-<p>Česká republika 
-sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Nederland 
-Sanofi B.V. 
-Tel: +31  20 245 4 
-Danmark 
-Sanofi A/S 
-Tlf: +45 45 16 70  </p>
-<p>Norge 
-sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71  </p>
-<p>Deutschland 
-Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
-Österreich 
-sanofi-aventis GmbH 
-Tel: + 43 1 80 185 - 0 </p>
-<p>Eesti 
-Swixx Biopharma OÜ 
-Tel. +372 640 10<br />
-Polska 
-sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00  </p>
-<p>Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 16 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda.<br />
-Tel: +351 21 35 89  </p>
-<p>España 
-sanofi-aventis, S.A. 
-Tel: +34 93 485 94 <br />
-România 
-Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31  </p>
-<p>France 
-Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
-Slovenija 
-Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51<br />
-Hrvatska 
-Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Ireland 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenská republika 
-Swixx Biopharma s.r.o. 
-Tel.:  +421 2 208 33  </p>
-<p>Ísland 
-Vistor hf. 
-Sími: +354 535 7 
-Suomi/Finland 
-Sanofi Oy 
-Puh/Tel: + 358 (0) 201 200  </p>
-<p>Italia 
-Sanofi S.r.l. 
-Tel: + 800 536<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
-Sverige 
-Sanofi AB 
-Tel: +46 (0)8 634 50  </p>
-<p>Latvija 
-Swixx Biopharma SIA 
-Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
-sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>Lietuva 
-Swixx Biopharma UAB 
-Tel. +370 5 236 91  </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

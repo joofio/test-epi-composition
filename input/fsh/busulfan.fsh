@@ -1,0 +1,235 @@
+
+
+Instance: composition-en-2a5eb21f13292133a1b42432d323ff12
+InstanceOf: CompositionUvEpi
+Title: "Composition for busulfan Package Leaflet"
+Description:  "Composition for busulfan Package Leaflet"
+Usage: #inline
+
+* identifier.system = ""
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mock)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - busulfan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #en
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+ 
+1. What Busulfan Fresenius Kabi is and what it is used for 
+2. What you need to know before you use Busulfan Fresenius Kabi 
+3. How to use Busulfan Fresenius Kabi  
+4. Possible side effects 
+5. How to store Busulfan Fresenius Kabi 
+6. Contents of the pack and other information          </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What busulfan is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What busulfan is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine contains the active substance busulfan, which belongs to a group of medicines called 
+alkylating agents. Busulfan Fresenius Kabi destroys the original bone marrow before the transplant. </p>
+<p>Busulfan Fresenius Kabi is used in adults, new-born infants, children and adolescents as a treatment 
+prior to transplantation. </p>
+<p>In adults Busulfan Fresenius Kabi is used in combination with cyclophosphamide or fludarabine. </p>
+<p>In new-born infants, children and adolescents, this medicine is used in combination with 
+cyclophosphamide or melphalan. </p>
+<p>You will receive this preparative medicine before receiving a transplant of either bone marrow or 
+haematopoietic progenitor cell. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take busulfan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take busulfan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Busulfan Fresenius Kabi:</p>
+<ul>
+<li>if you are allergic to busulfan or any of the other ingredients of this medicine listed in section 6. - if you are pregnant, or think you may be pregnant. </li>
+</ul>
+<p>Warnings and precautions 
+Busulfan Fresenius Kabi is a potent cytotoxic medicine that results in profound decrease of blood cells. 
+At the recommended dose, this is the desired effect. Therefore careful monitoring will be performed.  </p>
+<p>It is possible that use of Busulfan Fresenius Kabi may increase the risk of suffering another 
+malignancy in the future. You should tell your doctor:</p>
+<ul>
+<li>if you have a liver, kidney, heart or lung problem, </li>
+<li>if you have a history of seizures, </li>
+<li>if you are currently taking other medicines. </li>
+</ul>
+<p>Cases of formation of blood clots in the small blood vessels may appear after hematopoietic cell 
+transplantation (HCT) with high-dose of your treatment in combination with other medicines. </p>
+<p>Other medicines and Busulfan Fresenius Kabi 
+Tell your doctor if you are taking or have recently taken or might take any other medicines, including 
+medicines obtained without a prescription. Busulfan Fresenius Kabi may interact with other medicines. </p>
+<p>Particular caution should be taken if you use itraconazol and metronidazole (used for certain 
+types of infections) or ketobemidone (used to treat pain) or deferasirox (a medicine used to 
+remove excess iron from your body), because this may increase the side-effects. </p>
+<p>The use of paracetamol during the 72 hours prior to or with Busulfan Fresenius Kabi administration 
+should be used with caution. </p>
+<p>Pregnancy, breast-feeding and fertility 
+If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
+your doctor before you receive treatment with Busulfan Fresenius Kabi. Women must not be 
+pregnant during treatment with Busulfan Fresenius Kabi and up to 6 months after treatment. 
+Women must stop breast-feeding before starting their treatment with Busulfan Fresenius Kabi. </p>
+<p>Adequate contraceptive precautions should be used when either partner is receiving Busulfan Fresenius 
+Kabi. </p>
+<p>It may no longer be possible for you to achieve a pregnancy (infertility) after treatment with Busulfan 
+Fresenius Kabi. If you are concerned about having children, you should discuss this with your doctor 
+before treatment. Busulfan Fresenius Kabi can also produce symptoms of menopause and in 
+pre-adolescent girls it can prevent the onset of puberty. </p>
+<p>Men treated with Busulfan Fresenius Kabi are advised not to father child during and up to 6 months after 
+treatment. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take busulfan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take busulfan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose and administration 
+The dose of busulfan will be calculated according to your body weight. </p>
+<p>In adults: 
+Busulfan Fresenius Kabi in combination with cyclophosphamide:</p>
+<ul>
+<li>The recommended dose of Busulfan Fresenius Kabi is 0.8 mg/kg  </li>
+</ul>
+<p>Each infusion will last 2 hours </p>
+<p>Busulfan will be administered every 6 hours during 4 consecutive days prior to transplant. </p>
+<p>Busulfan Fresenius Kabi in combination with fludarabine </p>
+<p>The recommended dose of busulfan is 3.2 mg/kg </p>
+<p>Each infusion will last 3 hours </p>
+<p>Busulfan will be administered once daily during 2 or 3 consecutive days prior to transplant. </p>
+<p>In new-born infants, children and adolescents (0 to 17 years): 
+The recommended dose of Busulfan Fresenius Kabi in combination with cyclophosphamide or 
+melphalan is based on your body weight varying between 0.8 and 1.2 mg/kg. </p>
+<p>Medicines before you receive Busulfan Fresenius Kabi: 
+Before receiving Busulfan Fresenius Kabi, you will be medicated with 
+- anticonvulsive medicines to prevent seizures (phenytoin or benzodiazepines) and 
+- antiemetic medicines to prevent vomiting. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Busulfan Fresenius Kabi can cause side effects, although not everybody gets them. </p>
+<p>Serious side effects: 
+The most serious side effects of busulfan therapy or the transplant procedure may include decrease in 
+circulating blood cell counts (intended effect of the medicine to prepare you for your transplant 
+infusion), infection, liver disorders including blocking of a liver vein, graft versus host disease (the graft 
+attacks your body) and pulmonary complications. Contact your doctor immediately if you get any of the 
+following symptoms. Your doctor will monitor your blood counts and liver enzymes regularly to detect 
+and manage these events. </p>
+<p>Other side effects may include: 
+Very common (may affect more than 1 in 10 people): 
+Blood: decrease of blood circulating cells (red and white) and platelets. Infections.  Nervous system: 
+insomnia, anxiety, dizziness, and depression. Nutrition: loss of appetite, decrease in magnesium, 
+calcium, potassium, phosphate, albumine in blood, and increase in blood sugar. Cardiac: increase in 
+heart rate, increase or decrease of blood pressure, vasodilatation (a state of increased calibre of the 
+blood vessels), and blood clots. Respiratory: shortness of breath, nasal secretion (rhinitis), sore throat, 
+cough, hiccup, nosebleeds, abnormal breath sounds. Gastro-intestinal: nausea, inflammation of the 
+mucosa of the mouth, vomiting, abdominal pain, diarrhoea, constipation, heart burn, anus discomfort, 
+liquid in the abdomen. Hepatic: enlarged liver, jaundice, blocking of a liver vein. Skin: rash, itching, 
+loss of hairs. Muscle and bone: back, muscle and joint pain. Renal: increase in creatinine elimination, 
+discomfort in urination, and decrease in urine output and bloody urine. General: fever, headache, 
+weakness, chills, pain, allergic reaction, oedema, general pain or inflammation at injection site, chest 
+pain, inflammation of the mucosa. Investigations: elevated liver enzymes and weight increased. </p>
+<p>Common (may affect up to 1 in 10 people): 
+Nervous system: confusion, nervous system disorders. Nutrition: low blood sodium. Cardiac: 
+changes and abnormalities in heart rhythm, fluid retention or inflammation around the heart, decrease 
+heart output. Respiratory: increase in breath rhythm, respiratory failure, alveolar haemorrhages, 
+asthma, collapse of small portions of the lung, fluid around the lung. Gastro-intestinal: inflammation 
+of the mucosa of oesophagus, paralysis of the gut, vomiting blood. Skin: Skin colour disorder, redness 
+of the skin, skin desquamation. Renal: increase in the amount of nitrogen components in the blood 
+stream, moderate renal insufficiency, renal disorder. </p>
+<p>Uncommon (may affect up to 1 in 100 people): 
+Nervous system: delirium, nervousness, hallucination, agitation, abnormal brain function, cerebral 
+haemorrhage, and seizure. Cardiac: clotting of femoral artery, extra heart beats, decrease in heart rate, 
+diffuse leak of fluid from the capillaries (small blood vessels). Respiratory: decrease in blood oxygen. 
+Gastro-intestinal: bleeding in the stomach and/or the gut. </p>
+<p>Not known (frequency cannot be estimated from the available data) 
+Sex glands dysfunction 
+Lens disorders including clouding of the lens of the eye (cataract), and blurred vision (corneal 
+thinning) 
+Menopausal symptoms and female infertility. 
+Brain abscess, Inflammation of the skin, generalised infection. 
+Liver disorders. 
+Increase of lactate dehydrogenase in the blood. 
+Increase of uric acid and urea in the blood. 
+Incomplete development of teeth </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
+leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. </p>
+<p>By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store busulfan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store busulfan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the vial label and the carton after EXP. </p>
+<p>Unopened vials: 
+Store in a refrigerator (2 C - 8 C). 
+Diluted solution: 
+Chemical and physical in-use stability after dilution in glucose 5% or sodium chloride 9 mg/ml (0.9%) 
+solution for injection has been demonstrated for 8 hours (including infusion time) after dilution when 
+stored at 25 C   2 C or 12 hours after dilution when stored at 2 C-8 C followed by 3 hours stored at 
+25 C   2 C (including infusion time). Do not freeze. </p>
+<p>Do not throw away any medicine via wastewater or household waste. Ask your pharmacist how 
+to throw away medicine you no longer use. These measures will help protect environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Busulfan Fresenius Kabi contains 
+- The active substance is busulfan. One ml of concentrate contains 6 mg busulfan (60 mg in the 
+vial). After dilution: one ml of solution contains approximately 0.5 mg of busulfan. 
+- The other ingredients are dimethylacetamide and macrogol 40</p>         </div>"""      
+

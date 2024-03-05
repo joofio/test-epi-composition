@@ -4,7 +4,7 @@ Instance: composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa
 InstanceOf: CompositionUvEpi
 Title: "Composition for neofordex Package Leaflet"
 Description:  "Composition for neofordex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neofordex is a medicine that contains the active substance dexamethasone. Dexamethasone is a type of 
 hormone called a glucocorticoid, sometimes called a corticoid or corticosteroid, with various actions 
-including effects on white blood cells, which form part of the immune system (the body’s natural defences). 
+including effects on white blood cells, which form part of the immune system (the body s natural defences). 
 Dexamethasone is similar to glucocorticoids which are naturally produced in the body. </p>
 <p>Neofordex is used to treat adult patients with multiple myeloma, a cancer of the blood affecting the white 
 blood cells that produce antibodies. Neofordex will be given in combination with other medicines for 
@@ -84,14 +84,14 @@ multiple myeloma. They act together by killing cancerous white blood cells. </p>
   * code.text = "2. What you need to know before you take neofordex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Neofordex 
-− if you are allergic to dexamethasone or any of the other ingredients of this medicine (listed in section 6); 
-− if you have a viral infection, especially viral hepatitis, herpes, chickenpox or shingles; 
-− if you have an untreated psychiatric illness. </p>
+  if you are allergic to dexamethasone or any of the other ingredients of this medicine (listed in section 6); 
+  if you have a viral infection, especially viral hepatitis, herpes, chickenpox or shingles; 
+  if you have an untreated psychiatric illness. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor, pharmacist, nurse, before taking Neofordex especially if given with other medicinal 
 products. </p>
 <p>Risk of infection 
-Treatment with Neofordex (a high-dose corticosteroid) may reduce your body’s ability to fight infection (in 
+Treatment with Neofordex (a high-dose corticosteroid) may reduce your body s ability to fight infection (in 
 particular due to bacteria, yeasts and/or parasites). This can sometimes lead to infections caused by germs 
 that rarely cause infection under normal circumstances (called opportunistic infections). If you get an 
 infection of any kind during treatment with this medicine, contact your doctor immediately. This is 
@@ -138,9 +138,9 @@ Treatment with this medicine may cause tendon inflammation. In extremely rare ca
 rupture. This risk is increased by treatment with certain antibiotics and by kidney problems. Contact your 
 doctor if you notice painful, stiff or swollen joints or tendons. </p>
 <p>Please inform any doctor, dentist or person who may prescribe a treatment for you that you are currently 
-taking or have recently taken dexamethasone (see section “Other medicines and Neofordex”). </p>
+taking or have recently taken dexamethasone (see section  Other medicines and Neofordex ). </p>
 <p>If you become ill or are involved in an accident, or if you need surgery (even at the dentist) or require a 
-vaccination (high dose of glucocorticoid may diminish the effect of “live virus” vaccines) you should inform 
+vaccination (high dose of glucocorticoid may diminish the effect of  live virus  vaccines) you should inform 
 the doctor treating you that you are taking or have recently taken high-dose corticosteroids. </p>
 <p>If you need tests (in particular for infections) you should inform the person performing the tests as 
 dexamethasone may interfere with the results. </p>
@@ -175,7 +175,7 @@ is needed. </p>
 - Acetylsalicylic acid, a substance present in many medicines used to relieve pain and lower fever (may 
 increase the risk of bleeding);<br />
 - You should also tell your doctor if you have recently received a vaccination or are planning to be 
-vaccinated (please see section “Warnings and precautions”). </p>
+vaccinated (please see section  Warnings and precautions ). </p>
 <p>The following combinations require precautions<br />
 - Medicines that reduce blood potassium levels: for example, some diuretics or laxatives, amphotericin B 
 injection, tetracosactide, due to the risk of decreased potassium levels. Your doctor may need to monitor 
@@ -185,8 +185,8 @@ of heart disease, as digitalis), since low levels of potassium increase the risk
 - Medicines to treat hypertension, since their effect can be reduced. Your doctor may need to adjust the 
 dose of anti-hypertensive treatment; 
 - Medicines to treat anaemia such as Erythropoietin (EPO) or other medicines such as hormone 
-replacement therapy, may increase the risk of formation of blood clots (please see sections “Warnings 
-and precautions” and “Possible side effects”); 
+replacement therapy, may increase the risk of formation of blood clots (please see sections  Warnings 
+and precautions  and  Possible side effects ); 
 - Medicines to treat pain, inflammation and fever (non-steroidal anti-inflammatory drugs) e.g. ibuprofen, 
 naproxen, diclofenac, meloxicam and others may increase the risk of bleeding or open sores in the 
 stomach; 
@@ -198,23 +198,29 @@ rupture of the affected tendon, particularly after long-term treatment;
 - Certain medicines to treat cancer (such as methotrexate) may increase the risk of infection, bleeding or 
 anaemia. </p>
 <p>The following medicines may influence the effect of Neofordex<br />
-These medicines may reduce the effect of Neofordex:<br />
-- Aminogluthetimide (medicine to treat Cushing’s syndrome or breast cancer); 
-- Anticonvulsants (for the treatment of epilepsy) such as carbamazepine, fosphenytoin, phenobarbital, 
-phenytoin, primidone; 
-- Rifampicin (used to treat tuberculosis); 
-- Medicines for an upset stomach (for example antacids) as well as colestyramine (to lower cholesterol); 
-The administration of such medicines with Neofordex should be separated by at least two hours; 
-- Ephedrine (to treat asthma attacks or relieve nasal congestion). 
-These medicines may increase the effect of Neofordex: 
-- Aprepitant or fosaprepitant (for the treatment of nausea and vomiting after surgery or caused 
-by chemotherapy [cancer treatment]); 
-- Antibiotics, with active substance names ending in –mycin and antifungals (to treat fungal infections) 
-with active substance names ending in –conazole; and anti-HIV medicines with active substance 
-names ending in –navir.  </p>
+These medicines may reduce the effect of Neofordex:</p>
+<ul>
+<li>Aminogluthetimide (medicine to treat Cushing s syndrome or breast cancer); </li>
+<li>Anticonvulsants (for the treatment of epilepsy) such as carbamazepine, fosphenytoin, phenobarbital, 
+phenytoin, primidone; </li>
+<li>Rifampicin (used to treat tuberculosis); </li>
+<li>Medicines for an upset stomach (for example antacids) as well as colestyramine (to lower cholesterol); 
+The administration of such medicines with Neofordex should be separated by at least two hours; </li>
+<li>
+<p>Ephedrine (to treat asthma attacks or relieve nasal congestion). 
+These medicines may increase the effect of Neofordex:</p>
+</li>
+<li>
+<p>Aprepitant or fosaprepitant (for the treatment of nausea and vomiting after surgery or caused 
+by chemotherapy [cancer treatment]); </p>
+</li>
+<li>Antibiotics, with active substance names ending in  mycin and antifungals (to treat fungal infections) 
+with active substance names ending in  conazole; and anti-HIV medicines with active substance 
+names ending in  navir.  </li>
+</ul>
 <p>Neofordex may influence the effect of these medicines 
 - The effect of oral contraceptives and hormone replacement therapy (HRT) may be reduced. Effective 
-measures to avoid pregnancy must be taken (see section “Pregnancy, breast-feeding and fertility”); 
+measures to avoid pregnancy must be taken (see section  Pregnancy, breast-feeding and fertility ); 
 - The effect of oral anticoagulants may be increased, leading to increased bleeding risk. Your doctor may 
 need to monitor closely your blood coagulation parameters; 
 - The effect of certain medicines to treat cancer (such as docetaxel and cyclophosphamide) may be 
@@ -225,8 +231,8 @@ convulsions have been reported with concurrent use of dexamethasone and ciclospo
 of Neofordex and ciclosporine should be avoided; 
 - The effect of midazolam (used as sleeping pill and for the treatment of epilepsy) may be reduced; 
 - The effect of ivermectin (for certain worm infections) may be reduced, therefore the treatment with 
-ivermectin must be successfully terminated before Neofordex administration (see section “Warnings and 
-precautions”); 
+ivermectin must be successfully terminated before Neofordex administration (see section  Warnings and 
+precautions ); 
 - The effect of rifabutin or isoniazid (used to treat tuberculosis) may be reduced; 
 - The effect of indinavir (used in the treatment of HIV) may be reduced;<br />
 - The effect of erythromycin may be reduced; 
@@ -273,18 +279,16 @@ Insomnia may be minimised by administering Neofordex in the morning. </p>
 <p>If you take more Neofordex than you should 
 If you take too much Neofordex contact your doctor or hospital immediately. </p>
 <p>If you forget to take Neofordex 
-If you forget to take Neofordex at the usual time and 
-– 
-if you are less than 12 hours late: take the tablet immediately. 
-– 
-if you are more than 12 hours late: do not take the tablet but take the next tablet at the usual time.  </p>
+If you forget to take Neofordex at the usual time and </p>
+<p>if you are less than 12 hours late: take the tablet immediately. </p>
+<p>if you are more than 12 hours late: do not take the tablet but take the next tablet at the usual time.  </p>
 <p>Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Neofordex 
 You may experience serious side effects if you stop taking this medicine suddenly. If you stop taking this 
-medicine too quickly, you may have low blood pressure. You may also feel a ‘withdrawal symptom’. This 
+medicine too quickly, you may have low blood pressure. You may also feel a  withdrawal symptom . This 
 may include headache, problems with your vision (including pain or swelling in the eye), feeling or being 
 sick, fever, pain in your muscles and joints, swelling in the inside of your nose, weight loss, itchy skin and 
-conjunctivitis. If your treatment is to be stopped follow your doctor’s advice.  </p>
+conjunctivitis. If your treatment is to be stopped follow your doctor s advice.  </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -299,72 +303,74 @@ conjunctivitis. If your treatment is to be stopped follow your doctor’s advice
 myeloma and for the treatment of other diseases. In some cases, the combination of several medicines can 
 increase the side effects of one or the other of these medicines taken separately.  </p>
 <p>Neofordex may cause serious mental health problems. These are common (may affect up to 1 in 10 people) 
-and may include: 
-- feeling depressed (including thinking about suicide) 
-- feeling high (mania), very happy (euphoria) or moods that go up and down, 
-- feeling anxious, having difficulty in concentrating and memory loss, 
-- feeling, seeing or hearing things that do not exist or believing in things that are not real, having 
+and may include:</p>
+<ul>
+<li>feeling depressed (including thinking about suicide) </li>
+<li>feeling high (mania), very happy (euphoria) or moods that go up and down, </li>
+<li>feeling anxious, having difficulty in concentrating and memory loss, </li>
+<li>feeling, seeing or hearing things that do not exist or believing in things that are not real, having 
 gloomy thoughts, changing how you act. 
-If you notice any of these symptoms talk to a doctor straight away. </p>
+If you notice any of these symptoms talk to a doctor straight away. </li>
+</ul>
 <p>Other possible side effects may be: 
 Very common: may affect more than 1 in 10 people 
-− Increased blood sugar levels (hyperglycaemia); 
-− Constipation; 
-− Having trouble sleeping (insomnia); 
-− Muscle cramps, muscle weakness; 
-− Tiredness, weakness, swelling of the body and face. 
+  Increased blood sugar levels (hyperglycaemia); 
+  Constipation; 
+  Having trouble sleeping (insomnia); 
+  Muscle cramps, muscle weakness; 
+  Tiredness, weakness, swelling of the body and face. 
 Common: may affect up to 1 in 10 people 
-− Bacterial, viral or fungal infections, including pneumonia, shingles, infections of the nose, mouth, tonsils 
+  Bacterial, viral or fungal infections, including pneumonia, shingles, infections of the nose, mouth, tonsils 
 or throat, bronchitis, herpes, bladder infection, candida infection; 
-− Reduction in the number of red or white blood cells and/or platelets, or increased number of white blood 
+  Reduction in the number of red or white blood cells and/or platelets, or increased number of white blood 
 cells, decreased levels of potassium or of albumin (a protein) in the blood, increased levels of uric acid in 
 the blood, changes in liver function tests;<br />
-− Cushing’s syndrome, i.e. weight gain of the trunk and face, excessive sweating, stretch marks, visible 
+  Cushing s syndrome, i.e. weight gain of the trunk and face, excessive sweating, stretch marks, visible 
 swollen capillaries (small blood vessels) and dryness of the skin, growth of extra facial hair (especially 
 in women) and thinning of the hair;<br />
-− Development of diabetes, loss or increase of appetite, weight gain or weight loss, water retention;<br />
-− Aggression, confusion, irritability, nervousness, restlessness, altered mood; 
-− Sensitivity, numbness, tingling or burning sensation of the skin, or pain in the hands or feet due to nerve 
+  Development of diabetes, loss or increase of appetite, weight gain or weight loss, water retention;<br />
+  Aggression, confusion, irritability, nervousness, restlessness, altered mood; 
+  Sensitivity, numbness, tingling or burning sensation of the skin, or pain in the hands or feet due to nerve 
 damage, dizziness, trembling, headache, loss of or change in the sense of taste;<br />
-− Cataract, blurred vision; 
-− Fast or irregular heart rhythm, too high or too low blood pressure, formation of blood clots that may clog 
+  Cataract, blurred vision; 
+  Fast or irregular heart rhythm, too high or too low blood pressure, formation of blood clots that may clog 
 blood vessels (for example in legs or lungs), swelling of arms or legs, reddening of the skin of the face or 
 body;<br />
-− Cough, breathing difficulties, difficulties speaking, sore throat or mouth, hoarseness, dry mouth, 
+  Cough, breathing difficulties, difficulties speaking, sore throat or mouth, hoarseness, dry mouth, 
 hiccough, inflammation of the mucous membranes; 
-− Vomiting, nausea, diarrhoea, indigestion, bloating, swollen and/or painful stomach; 
-− Rash, itching, reddened skin, excessive sweating (hyperhidrosis), dry skin, hair loss (alopecia); 
-− Muscle wasting, pain of the muscles, joints, bones or limbs; 
-− Frequent urination; 
-− Pain, fever, chills, fainting, vertigo, exhaustion, drowsiness, impaired sense of balance.<br />
+  Vomiting, nausea, diarrhoea, indigestion, bloating, swollen and/or painful stomach; 
+  Rash, itching, reddened skin, excessive sweating (hyperhidrosis), dry skin, hair loss (alopecia); 
+  Muscle wasting, pain of the muscles, joints, bones or limbs; 
+  Frequent urination; 
+  Pain, fever, chills, fainting, vertigo, exhaustion, drowsiness, impaired sense of balance.<br />
 Uncommon: may affect up to 1 in 100 people 
-− Fever due to a lack of certain white blood cells, lack of all types of blood cells, diminished blood 
+  Fever due to a lack of certain white blood cells, lack of all types of blood cells, diminished blood 
 clotting,; 
-− Failure of the thyroid gland to produce normal amounts of hormones (hypothyroidism);<br />
-− Lack of body water (dehydration) with thirst or headache, decreased magnesium or calcium levels in the 
+  Failure of the thyroid gland to produce normal amounts of hormones (hypothyroidism);<br />
+  Lack of body water (dehydration) with thirst or headache, decreased magnesium or calcium levels in the 
 blood; 
-− Mood swings, hallucinations; 
-− Stroke, difficulties in coordination or movement, fainting; 
-− Inflammation of the eye and/or eyelids, increased tearing; 
-− Heart attack, abnormally slow heartbeat; 
-− Hives; 
-− Failure of the kidneys. 
+  Mood swings, hallucinations; 
+  Stroke, difficulties in coordination or movement, fainting; 
+  Inflammation of the eye and/or eyelids, increased tearing; 
+  Heart attack, abnormally slow heartbeat; 
+  Hives; 
+  Failure of the kidneys. 
 Not known: frequency cannot be estimated from the available data 
-− Infection, inflammation of the whole body due to infection (sepsis); 
-− Inability of the body to respond normally to severe stress such as accidents, surgery or illness due to 
+  Infection, inflammation of the whole body due to infection (sepsis); 
+  Inability of the body to respond normally to severe stress such as accidents, surgery or illness due to 
 insufficient function of the adrenal glands, severe unusual headache with visual disturbances linked to 
 the withdrawal of treatment, irregularity of menstrual cycles in women, excessive hair growth 
 (hirsutism); 
-− Increased need for diabetes medicine, salt imbalance, potassium loss due to low carbon dioxide levels (a 
+  Increased need for diabetes medicine, salt imbalance, potassium loss due to low carbon dioxide levels (a 
 condition called metabolic alkalosis); 
-− Epileptic fits;<br />
-− Increased pressure in the eye including glaucoma, choroid and retinal disorders (chorioretinopathy); 
-− Inability of the heart to pump enough blood round the body (heart failure); 
-− Ulcers, perforations and/or bleeding in the oesophagus (gullet), stomach or intestine, inflamed pancreas 
+  Epileptic fits;<br />
+  Increased pressure in the eye including glaucoma, choroid and retinal disorders (chorioretinopathy); 
+  Inability of the heart to pump enough blood round the body (heart failure); 
+  Ulcers, perforations and/or bleeding in the oesophagus (gullet), stomach or intestine, inflamed pancreas 
 (which may show as pain in the back and abdomen); 
-− Slow wound healing, acne, thinning of the skin, bruising, red or purple discolorations on the skin 
+  Slow wound healing, acne, thinning of the skin, bruising, red or purple discolorations on the skin 
 (purpura); 
-− Thinning of the bones with increased risk of fracture, bone disease, ruptured tendon. </p>
+  Thinning of the bones with increased risk of fracture, bone disease, ruptured tendon. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
@@ -397,7 +403,7 @@ away medicines you no longer use. These measures will help protect the environme
 - The other ingredients are lactose monohydrate, microcrystalline cellulose, magnesium stearate and 
 colloidal anhydrous silica (see section 2).  </p>
 <p>What Neofordex looks like and contents of the pack 
-Each tablet is white, oblong in shape with “40 mg” engraved  on one side..  </p>
+Each tablet is white, oblong in shape with  40 mg  engraved  on one side..  </p>
 <p>Each carton contains 10 x 1 tablets in OPA/Aluminium /PVC-Aluminium perforated unit dose blister.  </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>THERAVIA 
@@ -406,23 +412,22 @@ Each tablet is white, oblong in shape with “40 mg” engraved  on one side..  
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 THERAVIA 
-Tél/Tel: +32 (0)2 40 11 question@theravia.com  </p>
+T l/Tel: +32 (0)2 40 11 question@theravia.com  </p>
 <p>Lietuva 
 Immedica Pharma AB<br />
 Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com<br />
-България 
-THERAVIA 
-Teл.: +33 (0)1 72 69 01 question@theravia.com  </p>
+info@immedica.com  </p>
+<p>THERAVIA 
+Te .: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Luxembourg/Luxemburg 
 THERAVIA 
-Tél/Tel: +352 278 62 question@theravia.com  </p>
-<p>Česká republika 
+T l/Tel: +352 278 62 question@theravia.com  </p>
+<p>esk  republika 
 THERAVIA 
 Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 THERAVIA 
 Tel.: +33 (0)1 72 69 01 question@theravia.com<br />
 Danmark 
@@ -446,13 +451,12 @@ Norge
 Immedica Pharma AB<br />
 Tel/Puh: +46 (0)8 533 39 500<br />
 info@immedica.com  </p>
-<p>Ελλάδα 
-RAFARM AEBE 
-Τηλ: + 302 106776<br />
-Österreich 
+<p>RAFARM AEBE 
+ : + 302 106776<br />
+ sterreich 
 THERAVIA 
 Tel: +43 (0) 800 909 question@theravia.com  </p>
-<p>España 
+<p>Espa a 
 THERAVIA 
 Tel: + 34 914 146 question@theravia.com  </p>
 <p>Polska 
@@ -460,7 +464,7 @@ THERAVIA
 Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>France 
 THERAVIA 
-Tél: +33 (0)1 72 69 01 question@theravia.com  </p>
+T l: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Portugal 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
@@ -471,16 +475,16 @@ Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
 THERAVIA 
 Tel : 016950063<br />
 question@theravia.com </p>
-<p>România 
+<p>Rom nia 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Slovenija 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
-<p>Ísland 
+<p>sland 
 Immedica Pharma AB<br />
-Sími: + 46 (0)8 533 39 info@immedica.com<br />
-Slovenská republika 
+S mi: + 46 (0)8 533 39 info@immedica.com<br />
+Slovensk  republika 
 THERAVIA 
 Tel.: +33 (0)1 72 69 01 question@theravia.com </p>
 <p>Italia 
@@ -490,9 +494,8 @@ Tel:  +39 (0) 800 959 question@theravia.com  </p>
 Immedica Pharma AB<br />
 Tel/Puh: +46 (0)8 533 39 500<br />
 info@immedica.com  </p>
-<p>Κύπρος 
-RAFARM AEBE 
-Τηλ: + 302 106776 
+<p>RAFARM AEBE 
+ : + 302 106776 
 Sverige 
 Immedica Pharma AB<br />
 Tel: +46 (0)8 533 39 500<br />

@@ -4,7 +4,7 @@ Instance: composition-en-565029a2726c6824ab356ecb59362043
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemazyre Package Leaflet"
 Description:  "Composition for pemazyre Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -89,7 +89,7 @@ have an abnormal form of the FGFR2 protein, and
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Pemazyre if you are 
 * allergic to pemigatinib or any of the other ingredients of this medicine (listed in section 6) 
-* using St John’s wort, a medicine to treat depression </p>
+* using St John s wort, a medicine to treat depression </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Pemazyre if you have: 
 * been told you have an increase or decrease of a mineral in your blood called phosphorus 
@@ -117,9 +117,9 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. </p>
 <p>In particular, you should tell your doctor if you are taking any of the following medicines so that the 
 doctor can decide if your treatment needs to change: 
-* St John’s wort: a medicine to treat depression. You must not take St John’s wort during 
+* St John s wort: a medicine to treat depression. You must not take St John s wort during 
 treatment with Pemazyre. 
-* medicines with active substance names ending with “prazole”: they are used to reduce the 
+* medicines with active substance names ending with  prazole : they are used to reduce the 
 release of stomach acid. Avoid using these medicines during treatment with Pemazyre 
 * itraconazole: a medicine to treat fungal infections 
 * rifampicin: a medicine to treat tuberculosis or certain other infections 
@@ -264,11 +264,11 @@ Each 13.5 mg tablet contains 13.5 mg pemigatinib.
 * The other ingredients are microcrystalline cellulose, sodium starch glycolate (Type A), 
 magnesium stearate. </p>
 <p>What Pemazyre looks like and contents of the pack </p>
-<p>Pemazyre 4.5 mg tablets are round, white to off-white, debossed on one side with “I” and “4.5” on the 
+<p>Pemazyre 4.5 mg tablets are round, white to off-white, debossed on one side with  I  and  4.5  on the 
 reverse.   </p>
-<p>Pemazyre 9 mg tablets are oval, white to off-white, debossed on one side with “I” and “9” on the 
+<p>Pemazyre 9 mg tablets are oval, white to off-white, debossed on one side with  I  and  9  on the 
 reverse.  </p>
-<p>Pemazyre 13.5 mg tablets are round, white to off-white, debossed on one side with “I” and “13.5” on 
+<p>Pemazyre 13.5 mg tablets are round, white to off-white, debossed on one side with  I  and  13.5  on 
 the reverse. </p>
 <p>The tablets are provided in blisters containing 14 tablets. The carton contains 14 or 28 tablets. 
 Not all pack sizes may be marketed. </p>
@@ -285,7 +285,7 @@ Nieuwe Donk 9
 4879 AC Etten-Leur 
 Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

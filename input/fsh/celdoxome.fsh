@@ -4,7 +4,7 @@ Instance: composition-en-0decee85458f6211fcf0121c6b6f6c83
 InstanceOf: CompositionUvEpi
 Title: "Composition for celdoxome Package Leaflet"
 Description:  "Composition for celdoxome Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,8 +75,8 @@ problems. Celdoxome pegylated liposomal  is also used to treat cancer of the ova
 cancer cells, shrink the size of the tumour, delay the growth of the tumour, and extend your survival. </p>
 <p>Celdoxome pegylated liposomal is also used in combination with another medicine, bortezomib, to 
 treat multiple myeloma, a cancer of the blood in patients who have received at least 1 prior therapy. </p>
-<p>Celdoxome pegylated liposomal is also used to produce an improvement in your Kaposi’s sarcoma 
-including flattening, lightening and even shrinkage of the cancer. Other symptoms of Kaposi’s 
+<p>Celdoxome pegylated liposomal is also used to produce an improvement in your Kaposi s sarcoma 
+including flattening, lightening and even shrinkage of the cancer. Other symptoms of Kaposi s 
 sarcoma, such as swelling around the tumour, may also improve or disappear. </p>
 <p>Celdoxome pegylated liposomal  contains a medicine which is able to interact with cells in such a way 
 as to selectively kill cancer cells. The doxorubicin hydrochloride in Celdoxome pegylated liposomal is 
@@ -94,12 +94,16 @@ the blood stream to the cancerous tissue rather than healthy normal tissue. </p>
 - if you are allergic to doxorubicin hydrochloride, peanut or soya, or any of the other ingredients 
 of this medicine (listed in section 6).  </p>
 <p>Warnings and precautions<br />
-Talk to your doctor before receiving Celdoxome pegylated liposomal: 
-- if you are receiving any treatment for heart disease or liver disease 
-- if you are diabetic, because Celdoxome pegylated liposomal  contains sugar which may require 
-an adjustment to the treatment of your diabetes </p>
+Talk to your doctor before receiving Celdoxome pegylated liposomal:</p>
 <ul>
-<li>if you have Kaposi’s sarcoma and have had your spleen removed </li>
+<li>if you are receiving any treatment for heart disease or liver disease </li>
+<li>
+<p>if you are diabetic, because Celdoxome pegylated liposomal  contains sugar which may require 
+an adjustment to the treatment of your diabetes </p>
+</li>
+<li>
+<p>if you have Kaposi s sarcoma and have had your spleen removed </p>
+</li>
 <li>if you notice sores, discolouration or any discomfort in your mouth. </li>
 </ul>
 <p>The cases of Interstitial lung diseases have been observed in patients receiving pegylated liposomal 
@@ -134,9 +138,9 @@ Do not drive or use any tools or machines if you feel tired or sleepy from treat
 pegylated liposomal. </p>
 <p>Celdoxome pegylated liposomal contains soya oil and sodium 
 Celdoxome pegylated liposomal contains soya oil. If you are allergic to peanut or soya, do not use this 
-medicine. See “Do not use Celdoxome pegylated liposomal”. 
+medicine. See  Do not use Celdoxome pegylated liposomal . 
 Celdoxome pegylated liposomal contains less than 1 mmol sodium (23 mg) per dose, that is to say 
-‘essentially sodium-free’. </p>         </div>"""   
+ essentially sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take celdoxome"
@@ -155,7 +159,7 @@ Celdoxome pegylated liposomal will be administered at a dose of 30 mg per square
 body surface area (based on your height and weight) as a 1 hour intravenous infusion on Day 4 of the 
 bortezomib 3 week regimen immediately after the bortezomib infusion. The dose is repeated as long as 
 you respond satisfactorily and tolerate treatment. </p>
-<p>If you are being treated for Kaposi’s sarcoma, Celdoxome pegylated liposomal will be administered at 
+<p>If you are being treated for Kaposi s sarcoma, Celdoxome pegylated liposomal will be administered at 
 a dose of 20 mg per square metre of your body surface area (based on your height and weight). The 
 dose is repeated every 2 to 3 weeks for 2-3 months, then as often as necessary to maintain an 
 improvement in your condition. </p>
@@ -178,7 +182,7 @@ of mouth sores. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>During the infusion </p>
-<p>During the infusion of Celdoxome pegylated liposomal, the following reactions may occur:  </p>
+<p>During the infusion of Celdoxome pegylated liposomal, the following reactions may occur:</p>
 <ul>
 <li>severe allergic reaction that may include a swollen face, lips, mouth, tongue or throat; difficulty 
 swallowing or breathing; itchy rash (hives) </li>
@@ -195,10 +199,10 @@ breath (asthma) </li>
 stings or hurts while you are receiving a dose of Celdoxome pegylated liposomal, tell your doctor 
 immediately. </p>
 <p>Serious side effects </p>
-<p>Your doctor should be contacted immediately if any of the following serious side effects are noticed: </p>
+<p>Your doctor should be contacted immediately if any of the following serious side effects are noticed:</p>
 <ul>
 <li>you develop fever, feel tired, or if you have signs of bruising or bleeding (very common) </li>
-<li>redness, swelling, peeling or tenderness, mainly on the hands or feet (‘hand-foot’ syndrome). 
+<li>redness, swelling, peeling or tenderness, mainly on the hands or feet ( hand-foot  syndrome). 
 These effects have been seen very commonly and are sometimes severe. In severe cases, these 
 effects may interfere with certain daily activities, and may last for 4 weeks or longer before </li>
 </ul>
@@ -297,7 +301,7 @@ feeling unwell, swelling caused by fluid build up in the body, swollen hands, an
 some have not occurred at all. </p>
 <h2>Uncommon side effects (may affect up to 1 in 100 people)</h2>
 <h2>herpes simplex virus infections (cold sores or genital herpes), fungal infection</h2>
-<p>low number of all types of blood cells, increased number of ‘platelets’ (cells that help blood to 
+<p>low number of all types of blood cells, increased number of  platelets  (cells that help blood to 
 clot) 
 -<br />
 allergic reaction 
@@ -357,7 +361,7 @@ vaginal infection, redness of the scrotum
 problems with the lining of the cavities and passages in the body, such as the nose, mouth or 
 windpipe 
 -<br />
-abnormal liver blood test results, increased level of ‘creatinine’ in the blood </p>
+abnormal liver blood test results, increased level of  creatinine  in the blood </p>
 <p>Not known (frequency cannot be estimated from the available data) </p>
 <ul>
 <li>cancer of the blood that develops quickly and affects the blood cells (acute myeloid leukaemia), 
@@ -382,9 +386,11 @@ reading, or listening to the radio) </li>
 <li>avoiding exposure of skin to very hot water (e.g., jacuzzis, saunas) </li>
 <li>avoiding tight fitting footwear or high-heeled shoes. </li>
 </ul>
-<h2>Pyridoxine (vitamin B6):</h2>
-<h2>vitamin B6 is available without prescription</h2>
-<p>take 50-150 mg daily beginning at the first signs of redness or tingling. </p>         </div>"""      
+<p>Pyridoxine (vitamin B6):</p>
+<ul>
+<li>vitamin B6 is available without prescription </li>
+<li>take 50-150 mg daily beginning at the first signs of redness or tingling. </li>
+</ul>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store celdoxome"
@@ -394,12 +400,12 @@ reading, or listening to the radio) </li>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton.  </p>
 <p>Unopened vial </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. </p>
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. </p>
 <p>After dilution </p>
-<p>Chemical and physical in-use stability has been demonstrated for 24 hours at 2 °C to 8 °C. </p>
+<p>Chemical and physical in-use stability has been demonstrated for 24 hours at 2  C to 8  C. </p>
 <p>From a microbiological point of view, the product should be used immediately. If not used 
 immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-should not be longer than 24 hours at 2 °C to 8 °C. Partially used vials must be discarded. </p>
+should not be longer than 24 hours at 2  C to 8  C. Partially used vials must be discarded. </p>
 <p>Do not use this medicine if you notice that it shows evidence of precipitation or any other particulate 
 matter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -417,9 +423,9 @@ throw away medicines you no longer use. These measures will help protect the env
 contains 2 mg doxorubicin hydrochloride in a pegylated liposomal formulation. </li>
 <li>The other ingredients are N-(carbonyl-methoxypolyethylene glycol 2000)-1,2-distearoyl-sn-
 glycero-3 phosphoethanolamine sodium salt (MPEG-DSPE), phosphatidylcholine, 
-hydrogenated (soya bean) (HSPC), cholest-5-en-3β-ol, ammonium sulphate, sucrose, histidine, 
+hydrogenated (soya bean) (HSPC), cholest-5-en-3 -ol, ammonium sulphate, sucrose, histidine, 
 water for injections, hydrochloric acid (for pH-adjustment) and sodium hydroxide (for pH-
-adjustment). See section 2 “Celdoxome pegylated liposomal contains soya oil and sodium”.  </li>
+adjustment). See section 2  Celdoxome pegylated liposomal contains soya oil and sodium .  </li>
 </ul>
 <p>What Celdoxome pegylated liposomal looks like and contents of the pack 
 The concentrate for dispersion for infusion is sterile, translucent and red with a pH of 6.5. Celdoxome 
@@ -428,7 +434,7 @@ pegylated liposomal is available in glass vials with 10 mL (20 mg) or 25 mL (50 
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
 YES Pharmaceutical Development Services GmbH 
-Basler Straße 7 
+Basler Stra e 7 
 61352 Bad Homburg 
 Germany  </p>
 <p>Manufacturer 

@@ -4,7 +4,7 @@ Instance: composition-en-80aeff967df19c81697de0ddc58c8845
 InstanceOf: CompositionUvEpi
 Title: "Composition for cuprymina Package Leaflet"
 Description:  "Composition for cuprymina Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How the medicine radiolabelled with Cuprymina is used  
 4. Possible side effects  
 5. How to store Cuprymina  
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -90,8 +89,10 @@ from the procedure with the radiopharmaceutical outweighs the risk from radiatio
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take cuprymina"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The medicine radiolabelled with Cuprymina must not be used: 
-- If you are allergic to copper or any of the other ingredients of this medicine listed in section 6. - If you are pregnant or believe you may be pregnant. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The medicine radiolabelled with Cuprymina must not be used:</p>
+<ul>
+<li>If you are allergic to copper or any of the other ingredients of this medicine listed in section 6. - If you are pregnant or believe you may be pregnant. </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your nuclear medicine doctor before using the medicine that is radiolabelled with Cuprymina. 
 Cuprymina should be received, used and administered only by authorised persons in designated clinical 
@@ -181,8 +182,7 @@ medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store cuprymina"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to store Cuprymina  </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>The following information is intended for the specialist only.<br />
 Do not use this medicine after the expiry date and time which are stated on the label after EXP. 
 Cuprymina will be stored in the original package that provides protection from radiation. </p>
@@ -198,5 +198,31 @@ regulation on radioactive materials.  </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cuprymina contains 
 - The active substance is copper (64Cu) chloride. Each mL of solution contains 925 MBq at 
-calibration time (01h00 a.m. CET Central European Time), corresponding to at least </p>         </div>"""      
+calibration time (01h00 a.m. CET Central European Time), corresponding to at least 
+0.25 micrograms of copper-64. One vial contains from 925 to 2,770 MBq (corresponding to 0.25-
+0.75 micrograms of copper-64). (MBq: mega Becquerel, Becquerel is the unit in which 
+radioactivity is measured) 
+- The other ingredients are hydrochloric acid (0.1 N) and water for injections. </p>
+<p>What Cuprymina looks like and contents of the pack 
+Cuprymina is presented as a clear, and colourless solution filled in a 10 mL glass vial. 
+The volume of one vial ranges from 1 to 3 mL solution (corresponding to 925 to 2,770 MBq at 
+calibration time).<br />
+This volume depends on the quantity of medicine combined with Cuprymina required for 
+administration by the nuclear medicine doctor.<br />
+Each pack contains 1 vial in a tungsten or lead container.  </p>
+<p>Marketing Authorisation Holder </p>
+<p>A.C.O.M. -ADVANCED CENTER ONCOLOGY MACERATA -S.R.L. 
+Localit  Cavallino 39 A/B 
+62010 Montecosaro (MC) - Italy 
+Tel.: 0039.0733.229Fax: 0039.0733.560E-mail: amministrazione@acompet.it </p>
+<p>Manufacturer<br />
+ACOM S.r.l. 
+Localit  Cavallino 
+62010 Montecosaro (MC)   Italy </p>
+<p>SPARKLE S.r.l 
+Contrada Cal , snc<br />
+73042 Casarano (LE) - Italy </p>
+<p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
+<p>This leaflet was last revised in MM/YYYY </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

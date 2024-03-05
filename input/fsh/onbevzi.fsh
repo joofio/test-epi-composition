@@ -4,7 +4,7 @@ Instance: composition-en-e6ed326fcb8117af473e84eeac339bdf
 InstanceOf: CompositionUvEpi
 Title: "Composition for onbevzi Package Leaflet"
 Description:  "Composition for onbevzi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -119,76 +119,58 @@ recombinant human or humanised antibodies.
 - you are pregnant. </p>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor, pharmacist or nurse before using Onbevzi: </p>
-<p>● 
-It is possible that Onbevzi may increase the risk of developing holes in the gut wall. If you 
+<p>It is possible that Onbevzi may increase the risk of developing holes in the gut wall. If you 
 have conditions causing inflammation inside the abdomen (e.g. diverticulitis, stomach ulcers, 
 colitis associated with chemotherapy), please discuss this with your doctor. </p>
-<p>● 
-Onbevzi may increase the risk of developing an abnormal connection or passageway 
+<p>Onbevzi may increase the risk of developing an abnormal connection or passageway 
 between two organs or vessels. The risk of developing connections between the vagina and 
 any parts of the gut can increase if you have persistent, recurrent or metastatic cervical 
 cancer. </p>
-<p>● 
-This medicine can increase the risk of bleeding or increase the risk of problems with wound 
+<p>This medicine can increase the risk of bleeding or increase the risk of problems with wound 
 healing after surgery. If you are going to have an operation, if you have had major surgery 
 within the last 28 days or if you still have an unhealed wound following surgery, you should 
 not receive this medicine. </p>
-<p>● 
-Onbevzi may increase the risk of developing serious infections of the skin or deeper layers 
+<p>Onbevzi may increase the risk of developing serious infections of the skin or deeper layers 
 under the skin, especially if you had holes in the gut wall or problems with wound healing. </p>
-<p>● 
-Onbevzi can increase the incidence of high blood pressure. If you have high blood pressure 
+<p>Onbevzi can increase the incidence of high blood pressure. If you have high blood pressure 
 which is not well controlled with blood pressure medicines, please consult your doctor as it 
 is important to make sure that your blood pressure is under control before starting Onbevzi 
 treatment. </p>
-<p>● 
-If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) 
+<p>If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) 
 or a tear in a blood vessel wall. </p>
-<p>● 
-This medicine increases the risk of having protein in your urine especially if you already 
+<p>This medicine increases the risk of having protein in your urine especially if you already 
 have high blood pressure. </p>
-<p>● 
-The risk of developing blood clots in your arteries (a type of blood vessel) can increase if 
+<p>The risk of developing blood clots in your arteries (a type of blood vessel) can increase if 
 you are over 65 years old, if you have diabetes, or if you have had previous blood clots in 
 your arteries. Please talk to your doctor since blood clots can lead to heart attack and stroke. </p>
-<p>● 
-Onbevzi can also increase the risk of developing blood clots in your veins (a type of blood 
-vessel). 
-● 
-This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
+<p>Onbevzi can also increase the risk of developing blood clots in your veins (a type of blood 
+vessel). </p>
+<p>This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
 doctor if you or your family tend to suffer from bleeding problems or you are taking 
 medicines to thin the blood for any reason. </p>
-<p>● 
-It is possible that Onbevzi may cause bleeding in and around your brain. Please discuss this 
+<p>It is possible that Onbevzi may cause bleeding in and around your brain. Please discuss this 
 with your doctor if you have metastatic cancer affecting your brain. </p>
-<p>● 
-It is possible that Onbevzi can increase the risk of bleeding in your lungs, including 
+<p>It is possible that Onbevzi can increase the risk of bleeding in your lungs, including 
 coughing or spitting blood. Please discuss with your doctor if you noticed this previously. </p>
-<p>● 
-Onbevzi can increase the risk of developing a weak heart. It is important that your doctor 
+<p>Onbevzi can increase the risk of developing a weak heart. It is important that your doctor 
 knows if you have ever received anthracyclines (for example doxorubicin, a specific type of 
 chemotherapy used to treat some cancers) or had radiotherapy to your chest, or if you have 
 heart disease. </p>
-<p>● 
-This medicine may cause infections and a decreased number of your neutrophils (a type 
+<p>This medicine may cause infections and a decreased number of your neutrophils (a type 
 of blood cell important for your protection against bacteria). </p>
-<p>● 
-It is possible that Onbevzi can cause hypersensitivity (including anaphylactic shock) and/or 
+<p>It is possible that Onbevzi can cause hypersensitivity (including anaphylactic shock) and/or 
 infusion reactions (reactions related to your injection of the medicine). Please let your doctor, 
 pharmacist or nurse know if you have previously experienced problems after injections, such 
 as dizziness/feeling of fainting, breathlessness, swelling or skin rash. </p>
-<p>● 
-A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
+<p>A rare neurological side effect named posterior reversible encephalopathy syndrome (PRES) 
 has been associated with Onbevzi treatment. If you have headache, vision changes, 
 confusion or seizure with or without high blood pressure, please contact your doctor. </p>
 <p>Please consult your doctor, even if these above statements were only applicable to you in the past.  </p>
-<p>Before you are given Onbevzi or while you are being treated with Onbevzi: 
-● 
-if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the 
+<p>Before you are given Onbevzi or while you are being treated with Onbevzi: </p>
+<p>if you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the 
 mouth, numbness or a feeling of heaviness in the jaw, or loosening of a tooth tell your 
-doctor and dentist immediately. 
-● 
-if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that 
+doctor and dentist immediately. </p>
+<p>if you need to undergo an invasive dental treatment or dental surgery, tell your dentist that 
 you are being treated with Onbevzi, in particular when you are also receiving or have 
 received an injection of bisphosphonate into your blood. </p>
 <p>You may be advised to have a dental check-up before you start treatment with Onbevzi. </p>
@@ -223,7 +205,7 @@ your vision or concentration, or your ability to react, do not drive and use mac
 disappear. </p>
 <p>Important information about some of the ingredients of Onbevzi 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onbevzi"
@@ -244,40 +226,27 @@ solution before use. A doctor or nurse will give you this diluted Onbevzi soluti
 infusion (a drip into your vein). The first infusion will be given to you over 90 minutes. If this is well-
 tolerated the second infusion may be given over 60 minutes. Later infusions may be given to you over 
 30 minutes. </p>
-<p>The administration of Onbevzi should be temporarily discontinued 
-● 
-if you develop severe high blood pressure requiring treatment with blood pressure medicines, 
-● 
-if you have problems with wound healing following surgery, 
-● 
-if you undergo surgery. </p>
-<p>The administration of Onbevzi should be permanently discontinued if you develop 
-● 
-severe high blood pressure which cannot be controlled by blood pressure medicines; or a 
-sudden severe rise in blood pressure, 
-● 
-presence of protein in your urine accompanied by swelling of your body, 
-● 
-a hole in your gut wall, 
-● 
-an abnormal tube-like connection or passage between the windpipe and the gullet, between 
+<p>The administration of Onbevzi should be temporarily discontinued </p>
+<p>if you develop severe high blood pressure requiring treatment with blood pressure medicines, </p>
+<p>if you have problems with wound healing following surgery, </p>
+<p>if you undergo surgery. </p>
+<p>The administration of Onbevzi should be permanently discontinued if you develop </p>
+<p>severe high blood pressure which cannot be controlled by blood pressure medicines; or a 
+sudden severe rise in blood pressure, </p>
+<p>presence of protein in your urine accompanied by swelling of your body, </p>
+<p>a hole in your gut wall, </p>
+<p>an abnormal tube-like connection or passage between the windpipe and the gullet, between 
 internal organs and skin, between the vagina and any parts of the gut or between other tissues 
-that are not normally connected (fistula), and are judged by your doctor to be severe, 
-● 
-serious infections of the skin or deeper layers under the skin, 
-● 
-a blood clot in your arteries, 
-● 
-a blood clot in the blood vessels of your lungs, 
-● 
-any severe bleeding. </p>
-<p>If too much Onbevzi is given 
-● 
-you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
+that are not normally connected (fistula), and are judged by your doctor to be severe, </p>
+<p>serious infections of the skin or deeper layers under the skin, </p>
+<p>a blood clot in your arteries, </p>
+<p>a blood clot in the blood vessels of your lungs, </p>
+<p>any severe bleeding. </p>
+<p>If too much Onbevzi is given </p>
+<p>you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
 or nurse immediately. </p>
-<p>If a dose of Onbevzi is missed 
-● 
-your doctor will decide when you should be given your next dose of Onbevzi. You should 
+<p>If a dose of Onbevzi is missed </p>
+<p>your doctor will decide when you should be given your next dose of Onbevzi. You should 
 discuss this with your doctor. </p>
 <p>If you stop treatment with Onbevzi 
 Stopping your treatment with Onbevzi may stop the effect on tumour growth. Do not stop treatment 
@@ -351,7 +320,7 @@ heartbeat, sweating and loss of consciousness (anaphylactic shock). </p>
 include: 
 * serious infections of the skin or deeper layers under the skin, especially if you had holes in the 
 gut wall or problems with wound healing, 
-* a negative effect on a woman’s ability to have children (see the paragraphs below the list of 
+* a negative effect on a woman s ability to have children (see the paragraphs below the list of 
 side effects for further recommendations), 
 * a brain condition with symptoms including seizures (fits), headache, confusion, and changes in 
 vision (Posterior Reversible Encephalopathy Syndrome or PRES), 
@@ -433,12 +402,12 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after the abbreviation EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2C–8C). Do not freeze. 
+<p>Store in a refrigerator (2 C 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Infusion solutions should be used immediately after dilution. Do not use Onbevzi if you notice any 
 particulate matter or discolouration prior to administration. If not used immediately, in-use storage 
 times and conditions are the responsibility of the user and would normally not be longer than 24 hours 
-at 2°C to 8°C, unless the infusion solutions have been prepared in a sterile environment.  </p>
+at 2 C to 8 C, unless the infusion solutions have been prepared in a sterile environment.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -467,12 +436,12 @@ The Netherlands
 bioepis.mi@medinformation.co.uk 
 Manufacturer 
 Biogen (Denmark) Manufact. ApS 
-Biogen Allé 1 
-Hillerød, 3400, 
+Biogen All  1 
+Hiller d, 3400, 
 Denmark </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Nederland/Pays-Bas/Niederlande<br />
@@ -482,22 +451,20 @@ Samsung Bioepis NL B.V.
 Olof Palmestraat 10, 2616 LR Delft 
 Nyderlandai 
 bioepis.mi@medinformation.co.uk </p>
-<p>България 
-Samsung Bioepis NL B.V. 
-Olof Palmestraat 10, 2616 LR Delft 
-Нидерландия 
-bioepis.mi@medinformation.co.uk </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft </p>
+<p>bioepis.mi@medinformation.co.uk </p>
 <p>Luxembourg/Luxemburg 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Holland/Niederlande 
 bioepis.mi@medinformation.co.uk </p>
-<p>Česká republika 
+<p>esk  republika 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Nizozemsko 
 bioepis.mi@medinformation.co.uk </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Hollandia 
@@ -532,20 +499,18 @@ Samsung Bioepis NL B.V.
 Olof Palmestraat 10, 2616 LR Delft 
 Nederland 
 bioepis.mi@medinformation.co.uk </p>
-<p>Ελλάδα 
-Samsung Bioepis NL B.V. 
-Olof Palmestraat 10, 2616 LR Delft 
-Ολλανδία 
-bioepis.mi@medinformation.co.uk </p>
-<p>Österreich 
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft </p>
+<p>bioepis.mi@medinformation.co.uk </p>
+<p>sterreich 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Niederlande 
 bioepis.mi@medinformation.co.uk </p>
-<p>España 
+<p>Espa a 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
-Países Bajos 
+Pa ses Bajos 
 bioepis.mi@medinformation.co.uk </p>
 <p>Polska 
 Samsung Bioepis NL B.V. 
@@ -560,14 +525,14 @@ bioepis.mi@medinformation.co.uk </p>
 <p>Portugal 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
-Países Baixos 
+Pa ses Baixos 
 bioepis.mi@medinformation.co.uk </p>
 <p>Hrvatska 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Nizozemska 
 bioepis.mi@medinformation.co.uk </p>
-<p>România 
+<p>Rom nia 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Olanda 
@@ -582,12 +547,12 @@ Samsung Bioepis NL B.V.
 Olof Palmestraat 10, 2616 LR Delft 
 Nizozemska 
 bioepis.mi@medinformation.co.uk </p>
-<p>Ísland 
+<p>sland 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Holland 
 bioepis.mi@medinformation.co.uk </p>
-<p>Slovenská republika 
+<p>Slovensk  republika 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Holandsko 
@@ -600,22 +565,20 @@ bioepis.mi@medinformation.co.uk </p>
 <p>Suomi/Finland 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
-Alankomaat/Nederländerna<br />
+Alankomaat/Nederl nderna<br />
 bioepis.mi@medinformation.co.uk </p>
-<p>Κύπρος 
-Samsung Bioepis NL B.V. 
-Olof Palmestraat 10, 2616 LR Delft 
-Ολλανδία 
-bioepis.mi@medinformation.co.uk </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft </p>
+<p>bioepis.mi@medinformation.co.uk </p>
 <p>Sverige 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
-Nederländerna 
+Nederl nderna 
 bioepis.mi@medinformation.co.uk </p>
 <p>Latvija 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
-Nīderlande 
+N derlande 
 bioepis.mi@medinformation.co.uk </p>
 <p>United Kingdom (Northern Ireland) 
 Samsung Bioepis NL B.V. 

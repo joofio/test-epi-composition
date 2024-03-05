@@ -4,7 +4,7 @@ Instance: composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: CompositionUvEpi
 Title: "Composition for vildagliptin Package Leaflet"
 Description:  "Composition for vildagliptin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What vildagliptin is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substances of Vildagliptin/Metformin hydrochloride Accord, vildagliptin and metformin 
-hydrochloride, belong to a group of medicines called “oral antidiabetics”. </p>
+hydrochloride, belong to a group of medicines called  oral antidiabetics . </p>
 <p>Vildagliptin/Metformin hydrochloride Accord is used to treat adult patients with type 2 diabetes. This 
 type of diabetes is also known as non-insulin dependent diabetes mellitus. Vildagliptin/Metformin 
 hydrochloride Accord is used when diabetes cannot be controlled by diet and exercise alone and/or 
@@ -98,8 +98,8 @@ shown to reduce blood sugar, which may help to prevent complications from your d
 (listed in section 6). If you think you may be allergic to any of these, talk to your doctor before 
 taking Vildagliptin/Metformin hydrochloride Accord. 
 - if you have uncontrolled diabetes, with, for example, severe hyperglycaemia (high blood 
-glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactic acidosis (see “Risk of lactic 
-acidosis” below) or ketoacidosis. Ketoacidosis is a condition in which substances called ketone 
+glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactic acidosis (see  Risk of lactic 
+acidosis  below) or ketoacidosis. Ketoacidosis is a condition in which substances called ketone 
 bodies accumulate in the blood and which can lead to diabetic pre-coma. Symptoms include 
 stomach pain, fast and deep breathing, sleepiness or your breath developing an unusual fruity 
 smell. 
@@ -109,10 +109,10 @@ blood circulation or difficulties in breathing which could be a sign of heart pr
 - if you have a severe infection or are seriously dehydrated (have lost a lot of water from your 
 body). 
 - if you are going to have a contrast x-ray (a specific type of x-ray involving an injectable dye). 
-Please also see information about this in section “Warnings and precautions”. 
+Please also see information about this in section  Warnings and precautions . 
 - if you have liver problems. 
 - if you drink alcohol excessively (whether every day or only from time to time). 
-- if you are breast-feeding (see also “Pregnancy and breast-feeding”). </p>
+- if you are breast-feeding (see also  Pregnancy and breast-feeding ). </p>
 <p>Warnings and precautions </p>
 <p>Risk of lactic acidosis 
 Vildagliptin/Metformin hydrochloride Accord may cause a very rare, but very serious side effect 
@@ -129,13 +129,15 @@ for further instructions. </p>
 <p>Stop taking Vildagliptin/Metformin hydrochloride Accord and contact a doctor or the nearest 
 hospital immediately if you experience some of the symptoms of lactic acidosis, as this condition 
 may lead to coma. 
-Symptoms of lactic acidosis include: 
-- vomiting 
-- stomach ache (abdominal pain) 
-- muscle cramps 
-- a general feeling of not being well with severe tiredness 
-- difficulty in breathing 
-- reduced body temperature and heartbeat </p>
+Symptoms of lactic acidosis include:</p>
+<ul>
+<li>vomiting </li>
+<li>stomach ache (abdominal pain) </li>
+<li>muscle cramps </li>
+<li>a general feeling of not being well with severe tiredness </li>
+<li>difficulty in breathing </li>
+<li>reduced body temperature and heartbeat </li>
+</ul>
 <p>Lactic acidosis is a medical emergency and must be treated in a hospital. </p>
 <p>Vildagliptin/Metformin hydrochloride Accord is not a substitute for insulin. Therefore, you should not 
 receive Vildagliptin/Metformin hydrochloride Accord for the treatment of type 1 diabetes. </p>
@@ -173,31 +175,33 @@ stop and when to restart your treatment with Vildagliptin/Metformin hydrochlorid
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines. You may 
 need more frequent blood glucose and kidney function tests, or your doctor may need to adjust the 
 dosage of Vildagliptin/Metformin hydrochloride Accord.It is especially important to mention the 
-following: 
-- glucocorticoids generally used to treat inflammation 
-- beta-2 agonists generally used to treat respiratory disorders 
-- other medicines used to treat diabetes 
-- medicines which increase urine production (diuretics) 
-- medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as 
-ibuprofen and celecoxib) 
-- certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II 
-receptor antagonists) 
-- certain medicines affecting the thyroid 
-- certain medicines affecting the nervous system 
-- certain medicines used to treat angina (e.g. ranolazine) 
-- certain medicines used to treat HIV infection (e.g. dolutegravir) 
-- certain medicines used to treat a specific type of thyroid cancer (medullary thyroid cancer) (e.g. 
-vandetanib) 
-- certain medicines used to treat heartburn and peptic ulcers (e.g cimetidine) </p>
+following:</p>
+<ul>
+<li>glucocorticoids generally used to treat inflammation </li>
+<li>beta-2 agonists generally used to treat respiratory disorders </li>
+<li>other medicines used to treat diabetes </li>
+<li>medicines which increase urine production (diuretics) </li>
+<li>medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as 
+ibuprofen and celecoxib) </li>
+<li>certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II 
+receptor antagonists) </li>
+<li>certain medicines affecting the thyroid </li>
+<li>certain medicines affecting the nervous system </li>
+<li>certain medicines used to treat angina (e.g. ranolazine) </li>
+<li>certain medicines used to treat HIV infection (e.g. dolutegravir) </li>
+<li>certain medicines used to treat a specific type of thyroid cancer (medullary thyroid cancer) (e.g. 
+vandetanib) </li>
+<li>certain medicines used to treat heartburn and peptic ulcers (e.g cimetidine) </li>
+</ul>
 <p>Vildagliptin/Metformin hydrochloride Accord with alcohol 
 Avoid excessive alcohol intake while taking Vildagliptin/Metformin hydrochloride Accord since this 
-may increase the risk of lactic acidosis (please see section “Warnings and precautions”). </p>
+may increase the risk of lactic acidosis (please see section  Warnings and precautions ). </p>
 <p>Pregnancy and breast-feeding 
 - If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor 
 for advice before taking this medicine. Your doctor will discuss with you the potential risk of 
 taking Vildagliptin/Metformin hydrochloride Accord during pregnancy. 
 - Do not use Vildagliptin/Metformin hydrochloride Accord if you are pregnant or breast-feeding 
-(see also “Do not take Vildagliptin/Metformin hydrochloride Accord ”). </p>
+(see also  Do not take Vildagliptin/Metformin hydrochloride Accord  ). </p>
 <p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Driving and using machines 
 If you feel dizzy while taking Vildagliptin/Metformin hydrochloride Accord, do not drive or use any 
@@ -247,46 +251,38 @@ tells you to. If you have any questions about how long to take this medicine, ta
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You should stop taking Vildagliptin/Metformin hydrochloride Accord and see your doctor 
-immediately if you experience the following side effects: 
- 
-Lactic acidosis (very rare: may affect up to 1  n 10-000 people): 
+immediately if you experience the following side effects: </p>
+<p>Lactic acidosis (very rare: may affect up to 1  n 10-000 people): 
 Vildagliptin/Metformin hydrochloride Accord may cause a very rare, but very serious side 
-effect called lactic acidosis (see section “Warnings and precautions”). If this happens you must 
+effect called lactic acidosis (see section  Warnings and precautions ). If this happens you must 
 stop taking Vildagliptin/Metformin hydrochloride Accord and contact a doctor or the 
-nearest hospital immediately, as lactic acidosis may lead to coma. 
- 
-Angioedema (rare: may affect up to 1 in 1,000 people): Symptoms include swollen face, tongue 
+nearest hospital immediately, as lactic acidosis may lead to coma. </p>
+<p>Angioedema (rare: may affect up to 1 in 1,000 people): Symptoms include swollen face, tongue 
 or throat, difficulty swallowing, difficulty breathing, sudden onset of rash or hives, which may 
-indicate a reaction called “angioedema”. 
- 
-Liver disease (hepatitis) (uncommon: may affect up to 1 in 100 people): Symptoms include 
+indicate a reaction called  angioedema . </p>
+<p>Liver disease (hepatitis) (uncommon: may affect up to 1 in 100 people): Symptoms include 
 yellow skin and eyes, nausea, loss of appetite or dark-coloured urine, which may indicate liver 
-disease (hepatitis). 
- 
-Inflammation of the pancreas (pancreatitis) (uncommon: may affect up to 1 in 100 people): 
+disease (hepatitis). </p>
+<p>Inflammation of the pancreas (pancreatitis) (uncommon: may affect up to 1 in 100 people): 
 Symptoms include severe and persistent pain in the abdomen (stomach area), which might reach 
 through to your back, as well as nausea and vomiting. </p>
 <p>Other side effects 
 Some patients have experienced the following side effects while taking Vildagliptin/metformin 
-hydrochloride Accord: 
- 
-Common (may affect up to 1 in 10 people): sore throat, runny nose, fever, itchy rash, excessive 
+hydrochloride Accord: </p>
+<p>Common (may affect up to 1 in 10 people): sore throat, runny nose, fever, itchy rash, excessive 
 sweating, joint pain,  dizziness, headache, trembling that cannot be controlled, constipation, 
 nausea (feeling sick), vomiting, diarrhoea, flatulence, heartburn, pain in and around the stomach 
-(abdominal pain). 
- 
-Uncommon (may affect up to 1 in 100 people):, tiredness, weakness, metallic taste, low blood 
+(abdominal pain). </p>
+<p>Uncommon (may affect up to 1 in 100 people):, tiredness, weakness, metallic taste, low blood 
 glucose, loss of appetite, swollen hands, ankles or feet (oedema), chills, inflammation of the 
-pancreas, muscle pain. 
- 
-Very rare (may affect up to 1 in 10,000 people):; signs of a high level of lactic acid in the blood 
+pancreas, muscle pain. </p>
+<p>Very rare (may affect up to 1 in 10,000 people):; signs of a high level of lactic acid in the blood 
 (known as lactic acidosis) such as drowsiness or dizziness, severe nausea or vomiting, 
 abdominal pain, irregular heart beat or deep, rapid breathing; redness of the skin, itching; 
 decreased vitamin B12 levels (paleness, tiredness, mental symptoms such as confusion or 
 memory disturbances). </p>
-<p>Since this product has been marketed, the following side effects have also been reported: 
- 
-Frequency not known (cannot be estimated from the available data):, localised peeling of skin or 
+<p>Since this product has been marketed, the following side effects have also been reported: </p>
+<p>Frequency not known (cannot be estimated from the available data):, localised peeling of skin or 
 blisters, blood vessel inflammation (vasculitis) which may result in skin rash or pointed, flat, 
 red, round spots under the skin's surface or bruising.. </p>
 <p>Reporting of side effects 
@@ -300,14 +296,16 @@ safety of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store vildagliptin"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the blister and carton after 
-“EXP”.<br />
-- The expiry date refers to the last day of that month. 
-- This does not require any special storage conditions. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the blister and carton after 
+ EXP .  </li>
+<li>The expiry date refers to the last day of that month. </li>
+<li>This does not require any special storage conditions. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -316,18 +314,20 @@ environment. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Vildagliptin/ Metformin hydrochloride Accord contains 
-- The active substances are vildagliptin and metformin hydrochloride. 
- 
-Each Vildagliptin/ Metformin hydrochloride Accord 50 mg/850 mg film-coated tablet contains 
+- The active substances are vildagliptin and metformin hydrochloride. </p>
+<p>Each Vildagliptin/ Metformin hydrochloride Accord 50 mg/850 mg film-coated tablet contains 
 50 mg vildagliptin and 850 mg metformin hydrochloride (corresponding to 660 mg of 
-metformin). 
- 
-Each Vildagliptin/ Metformin hydrochloride Accord 50 mg/1000 mg film-coated tablet 
+metformin). </p>
+<p>Each Vildagliptin/ Metformin hydrochloride Accord 50 mg/1000 mg film-coated tablet 
 contains 50 mg vildagliptin and 1000 mg metformin hydrochloride (corresponding to mg of metformin). </p>
 <ul>
-<li>The other ingredients are:  </li>
-<li>Tablet core: Hydroxypropylcellulose, low-substitutehydroxypropylcellulose, microcrystalline 
-cellulose, magnesium stearate </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>Tablet core: Hydroxypropylcellulose, low-substitutehydroxypropylcellulose, microcrystalline 
+cellulose, magnesium stearate </p>
+</li>
 <li>Film-coating: Hypromellose, titanium dioxide (E171), iron oxide yellow (E172), macrogol, talc </li>
 </ul>
 <p>What Vildagliptin/Metformin hydrochloride Accord contains looks like and contents of the pack 
@@ -345,7 +345,7 @@ World Trade Center, Moll de Barcelona s/n,<br />
 Edifici Est, 6a planta, Barcelona, 
 08039 Barcelona, Spain </p>
 <p>Manufacturer 
-LABORATORI FUNDACIÓ DAU 
+LABORATORI FUNDACI  DAU 
 C/ C, 12-14 Pol. Ind. Zona Franca, 
 Barcelona, 08040, Spain </p>
 <p>Pharmadox Healthcare Ltd. 

@@ -4,7 +4,7 @@ Instance: composition-en-8d5db30b44b1b19f76cd82de873a34e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for entecavir Package Leaflet"
 Description:  "Composition for entecavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,7 +95,7 @@ Entecavir Viatris is eliminated from your body through the kidneys and your dose
 schedule may need to be adjusted.  </p>
 <ul>
 <li>
-<p>do not stop taking Entecavir Viatris without your doctor’s advice since your hepatitis may 
+<p>do not stop taking Entecavir Viatris without your doctor s advice since your hepatitis may 
 worsen after stopping treatment. When your treatment with Entecavir Viatris is stopped, your 
 doctor will continue to monitor you and take blood tests for several months.  </p>
 </li>
@@ -177,8 +177,8 @@ or an entecavir oral solution may be available. For patients weighing from 10 kg
 entecavir oral solution is recommended. All doses should be taken once daily orally (by mouth). There 
 are no recommendations for entecavir in children less than 2 years of age or weighing less than 10 kg.  </p>
 <p>For children and adolescents (from 2 to less than 18 years of age), Entecavir Viatris 0.5 mg Film-
-coated Tablets are available or an oral solution may be available. Your child’s doctor will decide the 
-right dose based on your child’s weight. </p>
+coated Tablets are available or an oral solution may be available. Your child s doctor will decide the 
+right dose based on your child s weight. </p>
 <p>Your doctor will advise you on the dose that is right for you.<br />
 Always take the dose recommended by your doctor to ensure that your medicine is fully effective and 
 to reduce the development of resistance to treatment. Take Entecavir Viatris as long as your doctor has 
@@ -193,7 +193,7 @@ It is important that you do not miss any doses. If you miss a dose of Entecavir 
 as possible, and then take your next scheduled dose at its regular time. If it is almost time for your next 
 dose, do not take the missed dose. Wait and take the next dose at the regular time. Do not take a 
 double dose to make up for a forgotten dose.  </p>
-<p>Do not stop Entecavir Viatris without your doctor’s advice<br />
+<p>Do not stop Entecavir Viatris without your doctor s advice<br />
 Some people get very serious hepatitis symptoms when they stop taking entecavir. Tell your doctor 
 immediately about any changes in symptoms that you notice after stopping treatment.  </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
@@ -206,15 +206,12 @@ immediately about any changes in symptoms that you notice after stopping treatme
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Patients treated with entecavir have reported the following side effects:  </p>
-<p>Adults 
- 
-Common (at least 1 in 100 patients): headache, insomnia (inability to sleep), fatigue (extreme 
+<p>Adults </p>
+<p>Common (at least 1 in 100 patients): headache, insomnia (inability to sleep), fatigue (extreme 
 tiredness), dizziness, somnolence (sleepiness), vomiting, diarrhoea, nausea, dyspepsia 
-(indigestion), and increased blood levels of liver enzymes.<br />
- 
-Uncommon (at least 1 in 1,000 patients): rash, hair loss.<br />
- 
-Rare (at least 1 in 10,000 patients): severe allergic reaction.  </p>
+(indigestion), and increased blood levels of liver enzymes.  </p>
+<p>Uncommon (at least 1 in 1,000 patients): rash, hair loss.  </p>
+<p>Rare (at least 1 in 10,000 patients): severe allergic reaction.  </p>
 <p>Children and adolescents 
 The side effects experienced in children and adolescents are similar to those experienced in adults as 
 described above with the following difference: 
@@ -252,125 +249,7 @@ to 0.5 mg entecavir.  </p>
 The active substance is entecavir. Each film-coated tablet contains entecavir monohydrate equivalent 
 to 1 mg entecavir.  </p>
 <p>The other ingredients are: 
-Tablet core: microcrystalline cellulose, crospovidone, lactose monohydrate (see section 2, “Entacavir 
-Viatris contains lactose”), magnesium stearate 
-Tablet coating: titanium dioxide (E171), hypromellose, macrogol 400, polysorbate 80.  </p>
-<p>What Entecavir Viatris looks like and contents of the pack </p>
-<p>Entecavir Viatris 0.5 mg film-coated tablets 
-The film-coated tablets (tablets) are white, film-coated, round, biconvex, beveled edge tablet debossed 
-with “M” on one side and “EA” on the other side. </p>
-<p>Entecavir Viatris 1 mg film-coated tablets 
-The film-coated tablets (tablets) are white, film-coated, round, biconvex, beveled edge tablet debossed 
-with “M” on one side and “EB” on the other side. </p>
-<p>Entecavir Viatris film-coated tablets are supplied in blisters packs containing 30 tablets, perforated 
-blister packs containing 30 x 1 or 90 x 1 tablets, and in bottles containing 30 or 90 tablets. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder<br />
-Mylan Pharmaceuticals Limited 
-Damastown Industrial Park,<br />
-Mulhuddart, Dublin 15,<br />
-DUBLIN 
-Ireland </p>
-<p>Manufacturer 
-McDermott Laboratories Limited t/a Gerard Laboratories 
-Unit 35/36 Baldoyle Industrial Estate, 
-Grange Road, Dublin Ireland </p>
-<p>Mylan Hungary Kft. 
-Mylan utca 1, 
-Komárom - 2Hungary </p>
-<p>Mylan Germany GmbH<br />
-Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1<br />
-Bad Homburg v. d. Hoehe<br />
-Hessen, 61352,<br />
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
-Lietuva 
-Mylan Healthcare UAB 
-Tel: + 370 5 205 1 </p>
-<p>България 
-Майлан ЕООД 
-Teл.: + 359 2 44 55<br />
-Luxembourg/Luxemburg 
-Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
-Česká republika 
-Viatris CZ s.r.o. 
-Tel: + 420 222 004<br />
-Magyarország 
-Mylan EPD Kft. 
-Tel.: + 36 1 465 2 
-Danmark 
-Viatris ApS 
-Tlf: + 45 28 11 69<br />
-Malta 
-V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
-Viatris Healthcare GmbH<br />
-Tel: + 49 800 0700<br />
-Nederland 
-Mylan BV 
-Tel: + 31 (0)20 426 3Eesti 
-BGP Products Switzerland GmbH Eesti filiaal<br />
-Tel: + 372 6363<br />
-Norge 
-Viatris AS 
-Tlf: + 47 66 75 33 Ελλάδα<br />
-Generics Pharma Hellas ΕΠΕ<br />
-Τηλ: + 30 210 993 6410  </p>
-<p>Österreich 
-Arcana Arzneimittel GmbH 
-Tel: + 43 1 416 2España 
-Viatris Pharmaceuticals, S.L.U. 
-Tel: + 34 900 102<br />
-Polska 
-Mylan Healthcare Sp. z.o.o. 
-Tel.: + 48 22 546 64<br />
-France 
-Viatris Santé 
-Tél: + 33 4 37 25 75<br />
-Portugal 
-Mylan, Lda. 
-Tel: + 351 214 127<br />
-Hrvatska 
-Viatris Hrvatska d.o.o.<br />
-Tel: + 385 1 23 50 <br />
-România 
-BGP Products SRL 
-Tel: + 40 372 579<br />
-Ireland 
-Mylan Ireland Limited 
-Tel: + 353 1 8711<br />
-Slovenija 
-Viatris d.o.o. 
-Tel: + 386 1 23 63<br />
-Ísland 
-Icepharma hf. 
-Sími: + 354 540 8 
-Slovenská republika 
-Viatris Slovakia s.r.o. 
-Tel: + 421 2 32 199 Italia 
-Mylan Italia S.r.l. 
-Tel: + 39 02 612 46 
-Suomi/Finland 
-Viatris Oy 
-Puh/Tel: + 358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd<br />
-Τηλ: + 357 2220 7 
-Sverige 
-Viatris AB<br />
-Tel: + 46 (0)8 630 19 Latvija 
-Mylan Healthcare SIA<br />
-Tel: + 371 676 055<br />
-United Kingdom (Northern Ireland) 
-Mylan IRE Healthcare Limited 
-Tel: + 353 18711 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Tablet core: microcrystalline cellulose, crospovidone, lactose monohydrate (see section 2,  Entacavir 
+Viatris contains lactose ), magnesium stearate 
+Tablet coating: titanium dioxide (E171), hypromellose, macrogol 400, polysorbate 8</p>         </div>"""      
 

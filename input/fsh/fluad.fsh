@@ -4,7 +4,7 @@ Instance: composition-en-2551c286e23d3921dbfab879452cee74
 InstanceOf: CompositionUvEpi
 Title: "Composition for fluad Package Leaflet"
 Description:  "Composition for fluad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -56,7 +56,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
  
 1. What Fluad Tetra is and what it is used for  
-2. What you need to know before you receive Fluad Tetra  
+2. What you need to know before you receive  Fluad Tetra  
 3. How Fluad Tetra is given  
 4. Possible side effects  
 5. How to store Fluad Tetra 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What fluad is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluad Tetra is a vaccine against flu (influenza).<br />
-When a person is given the vaccine, the immune system (the body’s natural defence system) will 
+When a person is given the vaccine, the immune system (the body s natural defence system) will 
 produce its own protection against the influenza virus. None of the ingredients in the vaccine can 
 cause flu.  </p>
 <p>Fluad Tetra is used to prevent flu in adults 50 years of age and older. </p>
@@ -86,8 +86,8 @@ Health Organisation for the 2023/2024 season. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not receive Fluad Tetra 
 - if you are allergic to<br />
-• the active substances or any of the other ingredients of this medicine (listed in section 6)<br />
-• egg or chicken proteins (such as ovalbumin), kanamycin and neomycin sulphate, formaldehyde, 
+  the active substances or any of the other ingredients of this medicine (listed in section 6)<br />
+  egg or chicken proteins (such as ovalbumin), kanamycin and neomycin sulphate, formaldehyde, 
 cetyltrimethylammonium bromide (CTAB) and hydrocortisone, which are trace residues from 
 the manufacturing process. 
 - If you have had a severe allergic reaction (e.g. anaphylaxis) to previous influenza vaccination. </p>
@@ -102,7 +102,7 @@ administration. This reaction may occur with Fluad Tetra as with all vaccines th
 to delay your vaccination until your fever is gone. 
 * You should tell your doctor if your immune system is impaired, or if you are undergoing treatment 
 which affects the immune system, e.g. with medicine against cancer (chemotherapy) or 
-corticosteroid medicines (see Section “Other medicines and Fluad Tetra”). 
+corticosteroid medicines (see Section  Other medicines and Fluad Tetra ). 
 * You should tell your doctor if you have a bleeding problem or bruise easily. 
 * Fainting can occur following, or even before, any needle injection, therefore tell the doctor or 
 nurse if you fainted with a previous injection. </p>
@@ -119,8 +119,8 @@ pregnant or breast-feeding. </p>
 <p>Driving and using machines 
 Fluad Tetra has no or negligible influence on the ability to drive and use machines.  </p>
 <p>Fluad Tetra contains potassium and sodium<br />
-This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium free’. 
-This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially ‘potassium free’. </p>         </div>"""   
+This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium free . 
+This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fluad"
@@ -140,9 +140,9 @@ This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essenti
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately or go to the casualty department at your nearest hospital if you 
-experience the following serious side effect – you may need urgent medical attention or 
+experience the following serious side effect   you may need urgent medical attention or 
 hospitalisation: </p>
-<p>• Difficulty in breathing, dizziness, a weak and rapid pulse and skin rash which are symptoms of an 
+<p>Difficulty in breathing, dizziness, a weak and rapid pulse and skin rash which are symptoms of an 
 anaphylactic reaction (a very severe allergic reaction) </p>
 <p>The following side effects have been reported during clinical trials in adults 50 years of age and older.  </p>
 <p>Very common (may affect more than 1 in 10 people): 
@@ -161,7 +161,7 @@ anaphylactic reaction (a very severe allergic reaction) </p>
 * Loss of appetite 
 * Bruising at injection site (ecchymosis) 
 * Flu-like symptoms2 
-* Fever (≥ 38°C)3 
+* Fever (  38 C)3 
 2 reported in elderly subjects 65 years of age and older 
 3 reported as Uncommon in elderly subjects 65 years of age and older </p>
 <p>Uncommon (may affect up to 1 in 100 people): 
@@ -180,7 +180,7 @@ of these can result in excessive bruising or bleeding (thrombocytopenia)
 * pain on the nerve path (neuralgia), unusual feeling of touch, pain, heat and cold (paraesthesia), 
 fits (convulsions), neurological disorders that may result in stiff neck, confusion, numbness, 
 pain and weakness of the limbs, loss of balance, loss of reflexes, paralysis of part or all the 
-body (encephalomyelitis, neuritis, Guillain-Barré Syndrome) 
+body (encephalomyelitis, neuritis, Guillain-Barr  Syndrome) 
 * skin reactions that may spread throughout the body including itchiness of the skin (pruritus, 
 urticaria), skin redness (erythema), non-specific rash, severe skin rash (erythema multiforme) 
 * swelling most apparent in the head and neck, including the face, lips, tongue, throat or any 
@@ -199,7 +199,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store fluad"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Store in a refrigerator (2 °C to 8 °C). Do not freeze. Discard if the vaccine has been frozen. 
+<p>Store in a refrigerator (2  C to 8  C). Do not freeze. Discard if the vaccine has been frozen. 
 Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
@@ -228,9 +228,9 @@ B/Austria/1359417/2021-like strain
 (B/Austria/1359417/2021 BVR-26) 
 15 micrograms HA<strong> 
 B/Phuket/3073/2013-like strain 
-(B/Phuket/3073/2013 BVR‐1B) 
+(B/Phuket/3073/2013 BVR 1B) 
 15 micrograms HA</strong> 
-<em>propagated in fertilised hens’ eggs from healthy chicken flocks and adjuvanted with MF59C.1 
+<em>propagated in fertilised hens  eggs from healthy chicken flocks and adjuvanted with MF59C.1 
 </em>*haemagglutinin </p>
 <p>This vaccine complies with the WHO recommendations (Northern Hemisphere) and EU 
 recommendation for the 2023/2024 season. </p>
@@ -256,13 +256,12 @@ Seqirus Netherlands B.V.
 Paasheuvelweg 28,1105 BJ Amsterdam, Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Seqirus Netherlands B.V.Nederland/Netherlands 
-Tel: +31 (0) 20 204 6 
-България 
-Seqirus Netherlands B.V. Нидерландия 
-Тел.: +31 (0) 20 204 6 
-Česká republika 
+Tel: +31 (0) 20 204 6 </p>
+<p>Seqirus Netherlands B.V. <br />
+ .: +31 (0) 20 204 6 
+ esk  republika 
 Seqirus Netherlands B.V. Nizozemsko 
 Tel: +31 (0) 20 204 6 
 Danmark 
@@ -273,37 +272,35 @@ Seqirus GmbH Marburg
 Tel: 0800/3601 
 Eesti 
 Seqirus Netherlands B.V. Holland 
-Tel: +31 (0) 20 204 6 
-Ελλάδα 
-WIN MEDICA Α.Ε. 
-Τηλ: 210 7488 
-España 
+Tel: +31 (0) 20 204 6 </p>
+<p>WIN MEDICA  . . 
+ : 210 7488 
+Espa a 
 Seqirus Spain, S.L., Barcelona 
 Tel: 937 817<br />
 France 
 Seqirus Netherlands B.V. Netherlands 
-Tél: +31 (0) 20 204 6 
+T l: +31 (0) 20 204 6 
 Hrvatska 
 Seqirus Netherlands B.V. Nizozemska 
 Tel: +31 (0) 20 204 6 
 Ireland 
 Seqirus UK Limited Maidenhead 
 Tel: +44 1628 641<br />
-Ísland 
+ sland 
 Seqirus Netherlands B.V. Holland 
-Sími: +31 (0) 20 204 6 
+S mi: +31 (0) 20 204 6 
 Italia 
 Seqirus S.r.l. Siena 
-Tel: +39 0577 096 
-Κύπρος 
-Seqirus Netherlands B.V. Ολλανδία 
-Τηλ: +31 (0) 20 204 6Lietuva 
+Tel: +39 0577 096 </p>
+<p>Seqirus Netherlands B.V. <br />
+ : +31 (0) 20 204 6Lietuva 
 Seqirus Netherlands B.V. Nyderlandai 
 Tel: +31 (0) 20 204 6 
 Luxembourg/Luxemburg 
 Seqirus Netherlands B.V. Netherlands 
-Tél/Tel: +31 (0) 20 204 6 
-Magyarország 
+T l/Tel: +31 (0) 20 204 6 
+Magyarorsz g 
 Seqirus Netherlands B.V. Hollandia 
 Tel.: +31 (0) 20 204 6 
 Malta 
@@ -315,32 +312,32 @@ Tel: +31 (0) 20 204 6
 Norge 
 Seqirus Netherlands B.V. Nederland 
 Tlf: +31 (0) 20 204 6 
-Österreich 
+ sterreich 
 Valneva Austria GmbH, Wien 
 Tel: +43 1 20620 2 
 Polska 
 Seqirus Netherlands B.V. Holandia 
 Tel.: +31 (0) 20 204 6 
 Portugal 
-Seqirus Netherlands B.V. Países Baixos 
+Seqirus Netherlands B.V. Pa ses Baixos 
 Tel: +31 (0) 20 204 6 
-România 
+Rom nia 
 Seqirus Netherlands B.V. Olanda 
 Tel: +31 (0) 20 204 6 
 Slovenija 
 Seqirus Netherlands B.V. Nizozemska 
 Tel: +31 (0) 20 204 6 
-Slovenská republika 
+Slovensk  republika 
 Seqirus Netherlands B.V. Holandsko 
 Tel: +31 (0) 20 204 6 
 Suomi/Finland 
 Seqirus Netherlands B.V. Alankomaat 
 Puh/Tel: +31 (0) 20 204 6 
 Sverige 
-Seqirus Netherlands B.V. Nederländerna 
+Seqirus Netherlands B.V. Nederl nderna 
 Tel: +31 (0) 20 204 6 
 Latvija 
-Seqirus Netherlands B.V. Nīderlande 
+Seqirus Netherlands B.V. N derlande 
 Tel: +31 (0) 20 204 6 </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>

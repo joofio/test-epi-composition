@@ -4,7 +4,7 @@ Instance: composition-en-a52ec7613e4d995340e57022d20be3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for rizmoic Package Leaflet"
 Description:  "Composition for rizmoic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,12 +72,14 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rizmoic contains the active substance naldemedine. </p>
 <p>It is a medicine used in adults to treat constipation caused by pain medicines, called opioids 
 (e.g morphine, oxycodone, fentanyl, tramadol, codeine, hydromorphone, methadone). </p>
-<p>Your opioid pain medicine may cause the following symptoms: 
-- reduction in how often you pass stools 
-- hard stools 
-- stomach ache 
-- pain in the rectum when pushing hard stools out 
-- a feeling that the bowel is still not empty after passing stools. </p>
+<p>Your opioid pain medicine may cause the following symptoms:</p>
+<ul>
+<li>reduction in how often you pass stools </li>
+<li>hard stools </li>
+<li>stomach ache </li>
+<li>pain in the rectum when pushing hard stools out </li>
+<li>a feeling that the bowel is still not empty after passing stools. </li>
+</ul>
 <p>Rizmoic can be used in patients using an opioid medicine for cancer pain or long term non-cancer pain 
 after they have previously been treated with a laxative. </p>         </div>"""   
           
@@ -88,26 +90,25 @@ after they have previously been treated with a laxative. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take rizmoic"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rizmoic: 
-- if you are allergic to naldemedine or any of the other ingredients of this medicine (listed in 
-section 6). 
-- if your bowel is blocked or perforated, or if there is a high risk of your bowel becoming 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rizmoic:</p>
+<ul>
+<li>if you are allergic to naldemedine or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+<li>if your bowel is blocked or perforated, or if there is a high risk of your bowel becoming 
 blocked, as a blockage may cause a hole to develop in the bowel wall. 
 Do not take this medicine if any of the above applies to you. If you are not sure, talk to your doctor or 
-pharmacist before taking Rizmoic. </p>
+pharmacist before taking Rizmoic. </li>
+</ul>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Rizmoic: 
-- if you suffer from a disease which may affect your bowel wall such as: 
- 
-a stomach ulcer; 
- 
-an enlarged colon due to a condition known as Ogilvie's syndrome; 
- 
-diverticulitis (an illness where your gut is inflamed); 
- 
-cancer of the bowel or peritoneum. The peritoneum is the lining of your gut area. 
- 
-a disease causing severe inflammation of the digestive tract such as Crohn's disease . </p>
+Talk to your doctor or pharmacist before taking Rizmoic:</p>
+<ul>
+<li>if you suffer from a disease which may affect your bowel wall such as: </li>
+</ul>
+<p>a stomach ulcer; </p>
+<p>an enlarged colon due to a condition known as Ogilvie's syndrome; </p>
+<p>diverticulitis (an illness where your gut is inflamed); </p>
+<p>cancer of the bowel or peritoneum. The peritoneum is the lining of your gut area. </p>
+<p>a disease causing severe inflammation of the digestive tract such as Crohn's disease . </p>
 <ul>
 <li>
 <p>if you have cancer of the brain or central nervous system, multiple sclerosis, or Alzheimer's 
@@ -130,30 +131,34 @@ Rizmoic'. </p>
 </ul>
 <p>If any of the above apply to you, or you are not sure, talk to your doctor or pharmacist before taking 
 Rizmoic. </p>
-<p>Talk to your doctor or pharmacist immediately whilst taking Rizmoic: 
-- if you develop severe, lasting or worsening stomach pain as this could be a symptom of 
+<p>Talk to your doctor or pharmacist immediately whilst taking Rizmoic:</p>
+<ul>
+<li>if you develop severe, lasting or worsening stomach pain as this could be a symptom of 
 developing a hole in your bowel wall and can be life-threatening. Speak to your doctor 
-immediately and stop taking Rizmoic. 
-- if you suffer from symptoms of opioid withdrawal syndrome (see section 4 Possible side 
+immediately and stop taking Rizmoic. </li>
+<li>if you suffer from symptoms of opioid withdrawal syndrome (see section 4 Possible side 
 effects) which can develop within minutes to several days after taking a medicine such as 
 Rizmoic. Stop taking Rizmoic and contact your doctor if you develop opioid withdrawal 
-symptoms. 
-- if you have severe diarrhoea or stomach ache, tell your doctor, so that the doctor can monitor 
-you and treat you with rehydration and appropriate medicines if needed. </p>
+symptoms. </li>
+<li>if you have severe diarrhoea or stomach ache, tell your doctor, so that the doctor can monitor 
+you and treat you with rehydration and appropriate medicines if needed. </li>
+</ul>
 <p>Children and adolescents 
 This medicine is not for children or adolescents under the age of 18 years because the effects of the 
 medicine in children and adolescents are not known. </p>
 <p>Other medicines and Rizmoic 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
-<p>Talk to your doctor or pharmacist if you are taking any of the following medicines: 
-- Rifampicin, clarithromycin or telithromycin (antibiotic medicines) 
-- Itraconazole or ketoconazole (medicines to treat fungal infections) 
-- Ritonavir, indinavir or saquinavir (medicines for HIV infection) 
-- Phenytoin, carbamazepine, phenobarbital (medicines to treat epilepsy) 
-- St John’s wort (Hypericum perforatum), a herbal medicine used for depression 
-- Cyclosporine, a medicine used in patients who have had an organ transplant or used to treat 
-rheumatoid arthritis </p>
+<p>Talk to your doctor or pharmacist if you are taking any of the following medicines:</p>
+<ul>
+<li>Rifampicin, clarithromycin or telithromycin (antibiotic medicines) </li>
+<li>Itraconazole or ketoconazole (medicines to treat fungal infections) </li>
+<li>Ritonavir, indinavir or saquinavir (medicines for HIV infection) </li>
+<li>Phenytoin, carbamazepine, phenobarbital (medicines to treat epilepsy) </li>
+<li>St John s wort (Hypericum perforatum), a herbal medicine used for depression </li>
+<li>Cyclosporine, a medicine used in patients who have had an organ transplant or used to treat 
+rheumatoid arthritis </li>
+</ul>
 <p>Using these medicines with Rizmoic may affect the way naldemedine works or increase its side 
 effects. </p>
 <p>Rizmoic with drink<br />
@@ -172,7 +177,7 @@ milk. Talk to your doctor if you are already breast-feeding. </p>
 Rizmoic has no influence on your ability to drive or to use machines. </p>
 <p>Rizmoic contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rizmoic"
@@ -181,22 +186,18 @@ This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to sa
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
-<p> 
-The recommended dose is one 200 microgram tablet once daily. </p>
-<p> 
-You can take Rizmoic with or without laxatives. </p>
-<p> 
-You can take Rizmoic at any time of the day, with food or between meals. However, once you 
+<p>The recommended dose is one 200 microgram tablet once daily. </p>
+<p>You can take Rizmoic with or without laxatives. </p>
+<p>You can take Rizmoic at any time of the day, with food or between meals. However, once you 
 start taking the medicine, take it at around the same time each day. </p>
-<p> 
-There is no need to alter the dose of your opioid medicine before starting Rizmoic. </p>
+<p>There is no need to alter the dose of your opioid medicine before starting Rizmoic. </p>
 <p>If you stop taking your opioid medicine 
 Your doctor will advise that you should stop taking Rizmoic when you stop taking your opioid pain 
 medicine. Please seek advice from your doctor or pharmacist before discontinuing Rizmoic treatment, 
 to avoid a worsening of your symptoms. </p>
 <p>If you take more Rizmoic than you should 
 If you have taken more Rizmoic than you should, talk to your doctor or go to the hospital. You will be 
-monitored for opioid withdrawal symptoms (see section 2, under ‘Warnings and Precautions’, and 
+monitored for opioid withdrawal symptoms (see section 2, under  Warnings and Precautions , and 
 section 4). </p>
 <p>If you forget to take Rizmoic 
 If you miss a tablet of Rizmoic, take it as soon as you remember. 
@@ -218,57 +219,38 @@ Talk to your doctor if you stop taking Rizmoic. </p>
 <p>The most serious side effect seen in patients receiving Rizmoic has been symptoms of opioid 
 withdrawal. This side effect is uncommon (may affect up to 1 in 100 people). 
 Stop taking Rizmoic and contact your doctor if you get a combination of 3 or more of the following 
-symptoms of opioid withdrawal on the same day: 
- 
-feeling depressed 
- 
-nausea (feeling sick) or vomiting 
- 
-achy muscles 
- 
-watery eyes or runny nose 
- 
-pupils dilating 
- 
-hairs of the skin standing on end 
- 
-sweating 
- 
-diarrhoea 
- 
-yawning 
- 
-fever 
- 
-inability to sleep </p>
+symptoms of opioid withdrawal on the same day: </p>
+<p>feeling depressed </p>
+<p>nausea (feeling sick) or vomiting </p>
+<p>achy muscles </p>
+<p>watery eyes or runny nose </p>
+<p>pupils dilating </p>
+<p>hairs of the skin standing on end </p>
+<p>sweating </p>
+<p>diarrhoea </p>
+<p>yawning </p>
+<p>fever </p>
+<p>inability to sleep </p>
 <p>The following side effects may happen with this medicine: </p>
 <p>If you are being treated with an opioid medicine for chronic non-cancer pain. 
-Rare (may affect up to 1 in 1,000 people): 
- 
-If you experience a serious allergic reaction, stop taking Rizmoic and see a doctor or go to a 
+Rare (may affect up to 1 in 1,000 people): </p>
+<p>If you experience a serious allergic reaction, stop taking Rizmoic and see a doctor or go to a 
 hospital straight away. Serious allergic reactions include: swelling of the hands, feet, ankles, 
 face, lips or throat which may cause difficulty swallowing or breathing, itching of the skin and 
 nettle rash.<br />
-Common (may affect up to 1 in 10 people): 
- 
-diarrhoea 
- 
-stomach pain 
- 
-nausea (feeling sick) 
- 
-vomiting </p>
+Common (may affect up to 1 in 10 people): </p>
+<p>diarrhoea </p>
+<p>stomach pain </p>
+<p>nausea (feeling sick) </p>
+<p>vomiting </p>
 <p>If you are being treated with an opioid medicine for cancer. 
-Very common (may affect more than 1 in 10 people): 
- 
-diarrhoea 
-Common: 
- 
-stomach pain </p>
+Very common (may affect more than 1 in 10 people): </p>
+<p>diarrhoea 
+Common: </p>
+<p>stomach pain </p>
 <p>If you are being treated with an opioid medicine for cancer or chronic non-cancer pain. 
-Not Known (frequency cannot be estimated from the available data) 
- 
-Gastrointestinal perforation (a hole developing in the bowel wall) </p>
+Not Known (frequency cannot be estimated from the available data) </p>
+<p>Gastrointestinal perforation (a hole developing in the bowel wall) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -296,7 +278,7 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rizmoic contains 
 - Each tablet contains 200 micrograms of naldemedine (as tosylate). 
 - The other ingredients are: 
-Tablet core: Mannitol, croscarmellose sodium (see section 2 under ‘Rizmoic contains sodium’) 
+Tablet core: Mannitol, croscarmellose sodium (see section 2 under  Rizmoic contains sodium ) 
 and magnesium stearate. </p>
 <p>Film coating: hypromellose , talc and yellow iron oxide (E172). </p>
 <p>What Rizmoic looks like and contents of the pack 
@@ -318,7 +300,7 @@ Authorisation Holder: </p>
 <p>AT, BG, CY, CZ, EE, IE, EL, HR, HU, IE, IS, LT, LV, MT, 
 PT, RO, SI, SK 
 Shionogi B.V. 
-Tel/Tel./Teл./Tlf/Tél/Puh/Sími/Τηλ: 
+Tel/Tel./Te ./Tlf/T l/Puh/S mi/ : 
 +31204917contact@shionogi.eu </p>
 <p>DE 
 Hexal AG 
@@ -333,8 +315,8 @@ Tel: +39 06 94 805 contattaci@rizmoic.it </p>
 Sandoz Limited 
 Tel: +44 (0)1276 698mailbox.sandoz-gb@sandoz.com </p>
 <p>FR 
-Viatris Santé 
-Tél:  +33 (0)1 40 80 15 medinfo.france@viatris.com </p>
+Viatris Sant<br />
+T l:  +33 (0)1 40 80 15 medinfo.france@viatris.com </p>
 <p>PL 
 Molteni Farmaceutici Polska<br />
 Sp. Zo.o Tel.: +48 (12) 653 15 71                                                                                                                                     <br />
@@ -356,7 +338,7 @@ Viatris Oy
 Puh/Tel: +358 20 720 9infofi@viatris.com </p>
 <p>BE &amp; LU 
 Viatris<br />
-Tel/Tél: + 32 (0)2 658 61 info.be@viatris.com </p>
+Tel/T l: + 32 (0)2 658 61 info.be@viatris.com </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

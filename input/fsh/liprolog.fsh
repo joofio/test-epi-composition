@@ -4,7 +4,7 @@ Instance: composition-en-0c9b965fc8d8b37db9d00845bddc1040
 InstanceOf: CompositionUvEpi
 Title: "Composition for liprolog Package Leaflet"
 Description:  "Composition for liprolog Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Liprolog 
 4. Possible side effects 
 5. How to store Liprolog 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -92,24 +91,24 @@ deal with mild hypoglycaemia (see Section 3: If you take more Liprolog than you 
 - if you are allergic to insulin lispro or any of the other ingredients of this medicine (listed in 
 section 6). </p>
 <p>Warnings and precautions<br />
-• If your blood sugar levels are well controlled by your current insulin therapy, you may not feel the 
+  If your blood sugar levels are well controlled by your current insulin therapy, you may not feel the 
 warning symptoms when your blood sugar is falling too low. Warning signs are listed later in this 
 leaflet. You must think carefully about when to have your meals, how often to exercise and how 
 much to do. You must also keep a close watch on your blood sugar levels by testing your blood 
 glucose often. 
-• A few people who have had hypoglycaemia after switching from animal insulin to human insulin 
+  A few people who have had hypoglycaemia after switching from animal insulin to human insulin 
 have reported that the early warning symptoms were less obvious or different. If you often have 
 hypoglycaemia or have difficulty recognising it, please discuss this with your doctor. </p>
-<p>• If you answer YES to any of the following questions, tell your doctor, pharmacist or diabetes nurse 
+<p>If you answer YES to any of the following questions, tell your doctor, pharmacist or diabetes nurse 
 - Have you recently become ill? 
 - Do you have trouble with your kidneys or liver? 
 -<br />
 Are you exercising more than usual? 
-• The amount of insulin you need may also change if you drink alcohol. 
-• You should also tell your doctor, pharmacist or diabetes nurse if you are planning to go abroad. 
+  The amount of insulin you need may also change if you drink alcohol. 
+  You should also tell your doctor, pharmacist or diabetes nurse if you are planning to go abroad. 
 The time difference between countries may mean that you have to have your injections and meals 
 at different times from when you are at home. 
-• Some patients with long-standing type 2 diabetes mellitus and heart disease or previous stroke who 
+  Some patients with long-standing type 2 diabetes mellitus and heart disease or previous stroke who 
 were treated with pioglitazone and insulin experienced the development of heart failure. Inform 
 your doctor as soon as possible if you experience signs of heart failure such as unusual shortness of 
 breath or rapid increase in weight or localised swelling (oedema). </p>
@@ -121,19 +120,19 @@ doctor may tell you to check your blood sugar more closey, and to adjust your in
 antidiabetic medications dose. </p>
 <p>Other medicines and Liprolog 
 Your insulin needs may change if you are taking<br />
-• the contraceptive pill,<br />
-• steroids,<br />
-• thyroid hormone replacement therapy,<br />
-• oral hypoglycaemics,<br />
-• acetyl salicylic acid,<br />
-• sulpha antibiotics,<br />
-• octreotide,<br />
-• “beta2 stimulants” (for example ritodrine, salbutamol or terbutaline),<br />
-• beta-blockers, or<br />
-• some antidepressants (monoamine oxidase inhibitors or selective serotonin reuptake inhibitors),<br />
-• danazol,<br />
-• some angiotensin converting enzyme (ACE) inhibitors (for example captopril, enalapril), and<br />
-• angiotensin II receptor blockers. </p>
+  the contraceptive pill,<br />
+  steroids,<br />
+  thyroid hormone replacement therapy,<br />
+  oral hypoglycaemics,<br />
+  acetyl salicylic acid,<br />
+  sulpha antibiotics,<br />
+  octreotide,<br />
+   beta2 stimulants  (for example ritodrine, salbutamol or terbutaline),<br />
+  beta-blockers, or<br />
+  some antidepressants (monoamine oxidase inhibitors or selective serotonin reuptake inhibitors),<br />
+  danazol,<br />
+  some angiotensin converting enzyme (ACE) inhibitors (for example captopril, enalapril), and<br />
+  angiotensin II receptor blockers. </p>
 <p>Tell your doctor if you are taking, have recently taken or might take any other medicines.  </p>
 <p>Pregnancy and breast-feeding 
 Are you pregnant or thinking about becoming pregnant, or are you breast-feeding? The amount of 
@@ -148,8 +147,8 @@ have:
 * frequent episodes of hypoglycaemia 
 * reduced or absent warning signs of hypoglycaemia </p>
 <p>Liprolog contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take liprolog"
@@ -183,7 +182,7 @@ needles and syringes.
 * Inject under the skin, as you were taught. Do not inject directly into a vein. After your injection, 
 leave the needle in the skin for five seconds to make sure you have taken the whole dose. Do 
 not rub the area you have just injected. Make sure you inject at least half an inch (1 cm) from 
-the last injection and that you ‘rotate’ the places you inject, as you have been taught. It doesn’t 
+the last injection and that you  rotate  the places you inject, as you have been taught. It doesn t 
 matter which injection site you use, either upper arm, thigh, buttock or abdomen, your Liprolog 
 injection will still work quicker than soluble human insulin. 
 * Your doctor will tell you if you have to mix Liprolog with one of the human insulins. For 
@@ -224,7 +223,7 @@ glucagon, you will have to go to hospital. Ask your doctor to tell you about glu
 If you take less Liprolog than you need, a high blood sugar may occur.  Check your blood sugar </p>
 <p>If hypoglycaemia (low blood sugar) or hyperglycaemia (high blood sugar) is not treated they can be 
 very serious and cause headaches, nausea, vomiting, dehydration, unconsciousness, coma or even 
-death (see A and B in section 4 “Possible Side Effects”). </p>
+death (see A and B in section 4  Possible Side Effects ). </p>
 <p>Three simple steps to avoid hypoglycaemia or hyperglycaemia are: 
 * Always keep spare syringes and a spare vial of Liprolog. 
 * Always carry something to show you are diabetic. 
@@ -241,7 +240,7 @@ unless your doctor tells you to. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Systemic allergy is rare (≥ 1/10,000 to &lt;1/1,000). The symptoms are as follows: 
+<p>Systemic allergy is rare (  1/10,000 to &lt;1/1,000). The symptoms are as follows: 
 * rash over the whole body * blood pressure dropping 
 * difficulty in breathing 
 * heart beating fast 
@@ -250,10 +249,10 @@ unless your doctor tells you to. </p>
 <li>sweating. 
 If you think you are having this sort of insulin allergy with Liprolog, tell your doctor at once. </li>
 </ul>
-<p>Local allergy is common (≥ 1/100 to &lt;1/10).  Some people get redness, swelling or itching around the 
+<p>Local allergy is common (  1/100 to &lt;1/10).  Some people get redness, swelling or itching around the 
 area of the insulin injection. This usually clears up in anything from a few days to a few weeks. If this 
 happens to you, tell your doctor. </p>
-<p>Lipodystrophy is uncommon (≥ 1/1,000 to &lt;1/100). If you inject insulin too often at the same place, 
+<p>Lipodystrophy is uncommon (  1/1,000 to &lt;1/100). If you inject insulin too often at the same place, 
 the fatty tissue may either shrink (lipoatrophy) or thicken (lipohypertrophy). Lumps under the skin 
 may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis). The insulin may 
 not work very well if you inject into a lumpy area. Change the injection site with each injection to help 
@@ -313,15 +312,15 @@ hours or days. The symptoms include the following:
 Illness 
 If you are ill, especially if you feel sick or are sick, the amount of insulin you need may change. Even 
 when you are not eating normally, you still need insulin. Test your urine or blood, follow your 
-‘sick rules’, and tell your doctor. </p>         </div>"""      
+ sick rules , and tell your doctor. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store liprolog"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store liprolog"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before the first use store your Liprolog in a refrigerator (2°C – 8°C). Do not freeze. Keep your vial in 
-use in a refrigerator (2°C – 8°C) or at room temperature up to 30°C and discard after 28 days. Do not 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before the first use store your Liprolog in a refrigerator (2 C   8 C). Do not freeze. Keep your vial in 
+use in a refrigerator (2 C   8 C) or at room temperature up to 30 C and discard after 28 days. Do not 
 put it near heat or in the sun.  </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton. The expiry 
@@ -338,8 +337,8 @@ throw away medicines you no longer use. These measures will help protect the env
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Liprolog 100 units/ml solution for injection in vial contains 
-- The active substance is insulin lispro. Insulin lispro is made in the laboratory by a ‘recombinant 
-DNA technology’ process. It is a changed form of human insulin and so is different from other 
+- The active substance is insulin lispro. Insulin lispro is made in the laboratory by a  recombinant 
+DNA technology  process. It is a changed form of human insulin and so is different from other 
 human and animal insulins. Insulin lispro is closely related to human insulin which is a natural 
 hormone made by the pancreas. 
 - The other ingredients are m-cresol, glycerol, dibasic sodium phosphate 7 H2O, zinc oxide and 
@@ -357,22 +356,21 @@ Liprolog 100 units/ml, solution for injection in vial is made by:
 Netherlands. </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder: </p>
-<p>Belgique/België/Belgien 
+<p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84<br />
+T l/Tel: + 32-(0)2 548 84<br />
 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 
-България 
-ТП "Ели Лили Недерланд" Б.В. - България 
-тел. + 359 2 491 41<br />
+Tel. +370 (5) 2649 </p>
+<p>"     "  . . - <br />
+ . + 359 2 491 41<br />
 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-Tél/Tel: + 32-(0)2 548 84 Česká republika 
-ELI LILLY ČR, s.r.o. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664<br />
-Magyarország 
-Lilly Hungária Kft. 
+Magyarorsz g 
+Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
 Tlf: +45 45 26 6 </p>
@@ -389,36 +387,36 @@ Eli Lilly Nederland B.V.<br />
 Tel: +372 6817<br />
 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18 Ελλάδα 
-ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
-Τηλ: +30 210 629 4 
-Österreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 
+ sterreich 
 Eli Lilly Ges. m.b.H.<br />
-Tel: + 43-(0) 1 711 España 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
 Tel: + 34-91 663 50<br />
 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
 Lilly France<br />
-Tél: +33-(0) 1 55 49 34<br />
+T l: +33-(0) 1 55 49 34<br />
 Portugal 
-Lilly Portugal - Produtos Farmacêuticos, Lda 
+Lilly Portugal - Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
 Tel: +385 1 2350<br />
-România 
-Eli Lilly România S.R.L. 
+Rom nia 
+Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4 
 Slovenija 
-Eli Lilly farmacevtska družba, d.o.o. 
+Eli Lilly farmacevtska dru ba, d.o.o. 
 Tel: +386 (0) 1 580 00<br />
-Ísland 
+ sland 
 Icepharma hf.<br />
-Sími + 354 540 8 
-Slovenská republika 
+S mi + 354 540 8 
+Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663<br />
 Italia 
@@ -426,14 +424,13 @@ Eli Lilly Italia S.p.A.
 Tel: + 39- 055 42 
 Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45<br />
-Κύπρος 
-Phadisco Ltd<br />
-Τηλ: +357 22 715 
+Puh/Tel: + 358-(0) 9 85 45  </p>
+<p>Phadisco Ltd<br />
+ : +357 22 715 
 Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
-Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364 
 United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 

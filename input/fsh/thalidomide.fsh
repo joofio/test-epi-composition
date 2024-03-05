@@ -4,7 +4,7 @@ Instance: composition-en-beef21509ddc33cff9d4dfa3953f39ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for thalidomide Package Leaflet"
 Description:  "Composition for thalidomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,7 +72,7 @@ Usage: #example
 Thalidomide BMS contains an active substance called thalidomide. This belongs to a group of 
 medicines which affect how your immune system works. </p>
 <p>What Thalidomide BMS is used for 
-Thalidomide BMS is used with two other medicines called ‘melphalan’ and ‘prednisone’ to treat 
+Thalidomide BMS is used with two other medicines called  melphalan  and  prednisone  to treat 
 adults with a type of cancer called multiple myeloma. It is used in people who have recently been 
 diagnosed and who have not been prescribed another medicine for their multiple myeloma before who 
 are aged 65 years and over, or aged less than 65 years who cannot be treated with high dose 
@@ -81,9 +81,9 @@ chemotherapy, which can be very difficult for the body to handle. </p>
 Multiple myeloma is a type of cancer which affects a certain type of white blood cell, called the 
 plasma cell. These cells collect in the bone marrow and divide out of control. This can damage the 
 bone and kidneys. Multiple myeloma generally cannot be cured. However, the signs and symptoms 
-can be greatly reduced or disappear for a period of time. This is called a ‘remission’. </p>
+can be greatly reduced or disappear for a period of time. This is called a  remission . </p>
 <p>How Thalidomide BMS works 
-Thalidomide BMS works by helping the body’s immune system and directly attacking the cancer. It 
+Thalidomide BMS works by helping the body s immune system and directly attacking the cancer. It 
 works in a number of different ways: 
 * by stopping the cancer cells developing 
 * by stopping blood vessels growing in the cancer 
@@ -101,18 +101,18 @@ thalidomide on unborn babies (outlined in the Thalidomide BMS Pregnancy Preventi
 <p>You will have been given an educational brochure for patient by your doctor. Read it carefully and 
 follow the related instructions. </p>
 <p>If you do not fully understand these instructions, please ask your doctor to explain them again before 
-you take thalidomide. See also further information in this section under “Warnings and precautions” 
-and “Pregnancy and breast-feeding”. </p>
+you take thalidomide. See also further information in this section under  Warnings and precautions<br />
+and  Pregnancy and breast-feeding . </p>
 <p>Do not take Thalidomide BMS 
 * if you are pregnant or think you may be pregnant or are planning to become pregnant, as 
 Thalidomide BMS causes birth defects and foetal death. 
 * if you are able to become pregnant, unless you are able to follow or comply with the required 
-contraceptive measures to prevent you from becoming pregnant (see section 2 “Warnings and 
-precautions” and “Pregnancy and breast-feeding”). 
+contraceptive measures to prevent you from becoming pregnant (see section 2  Warnings and 
+precautions  and  Pregnancy and breast-feeding ). 
 * if you are able to become pregnant, your doctor will record with each prescription that the 
 necessary measures have been taken and will provide you with this confirmation. 
 * if you are allergic to thalidomide or any of the other ingredients of this medicine listed in section 
-6 “Contents of the pack and other information”. </p>
+6  Contents of the pack and other information . </p>
 <p>Do not take Thalidomide BMS if any of the above applies to you. If you are not sure, talk to your 
 doctor or pharmacist before taking Thalidomide BMS. </p>
 <p>Warnings and precautions 
@@ -122,39 +122,29 @@ Before starting the treatment, you should ask your doctor if you are able to bec
 you think this is unlikely. Even if you do not have a menstrual bleeding following cancer therapy, you 
 may become pregnant. 
 If you are able to become pregnant: 
-* Your doctor will make sure that you have pregnancy tests 
-o before treatment 
-o every 4 weeks during treatment 
-o 4 weeks after stopping treatment 
-* You must use one effective method of contraception: 
-o for at least 4 weeks before starting treatment<br />
-o during treatment 
-o until at least 4 weeks after stopping treatment 
+* Your doctor will make sure that you have pregnancy tests * before treatment * every 4 weeks during treatment * 4 weeks after stopping treatment 
+* You must use one effective method of contraception: * for at least 4 weeks before starting treatment  * during treatment * until at least 4 weeks after stopping treatment 
 Your doctor will tell you what method of contraception to use. </p>
 <p>If you are able to become pregnant, your doctor will record with each prescription that the necessary 
 measures, as outlined above, have been taken  </p>
 <p>For men taking Thalidomide BMS 
 Thalidomide passes into semen. Therefore, do not have unprotected intercourse, even if you had a 
 vasectomy. 
-* Pregnancy and any exposure during pregnancy must be avoided. Always use a condom: 
-o during treatment<br />
-o for at least 7 days after stopping treatment 
-* You must not donate semen:<br />
-o during treatment<br />
-o for at least 7 days after stopping treatment </p>
+* Pregnancy and any exposure during pregnancy must be avoided. Always use a condom: * during treatment  * for at least 7 days after stopping treatment 
+* You must not donate semen:  * during treatment  * for at least 7 days after stopping treatment </p>
 <p>For all patients 
 Talk to your doctor before taking Thalidomide BMS if 
 * you do not understand the contraception advice given to you by your doctor or if you do not feel 
 able to follow this advice. 
 * you have had a heart attack, have ever had a blood clot in the past, or if you smoke, have high 
 blood pressure or high cholesterol levels. During the treatment with Thalidomide BMS you have 
-an increased risk of developing blood clots in the veins and arteries (see also section 4 “Possible 
-side effects”). <br />
+an increased risk of developing blood clots in the veins and arteries (see also section 4  Possible 
+side effects ). <br />
 <em> you have experienced or have existing neuropathy i.e. nerve damage causing tingling, abnormal 
-co-ordination or pain in your hands or feet (see also section 4 “Possible side effects”).  <br />
+co-ordination or pain in your hands or feet (see also section 4  Possible side effects ).  <br />
 </em> you experienced or have existing slow heart rate (this may be a symptom of bradycardia). 
-* you have high blood pressure in the arteries of the lungs (see also section 4 “Possible side 
-effects”). 
+* you have high blood pressure in the arteries of the lungs (see also section 4  Possible side 
+effects ). 
 * you have a fall in the number of white blood cells (neutropenia) accompanied by fever and 
 infection. 
 * you have a fall in the number of platelets. You will be more prone to bleeding and bruising. 
@@ -162,7 +152,7 @@ infection.
 <em> you experience or have experienced in the past severe skin reactions called Stevens-Johnson 
 syndrome, toxic epidermal necrolysis or drug reaction with eosinophilia and systemic symptoms 
 (which is also known as DRESS or drug hypersensitivity syndrome). (For description of 
-symptoms see section 4 “Possible side effects”).<br />
+symptoms see section 4  Possible side effects ).<br />
 </em> you have had an allergic reaction whilst taking Thalidomide BMS such as rash, itching, swelling, 
 dizziness or trouble breathing. 
 * you have experienced sleepiness.<br />
@@ -172,7 +162,7 @@ pressure and confusion (these may be symptoms of severe infections).<br />
 infection, or HIV. If you are in doubt, talk to your doctor. Treatment with Thalidomide BMS may 
 cause a virus to become active again in patients who carry it, resulting in a recurrence of the 
 infection. Your doctor should check whether you have ever had hepatitis B infection. 
-* you have kidney or liver problems (see also section 4 “Possible side effects”).  </p>
+* you have kidney or liver problems (see also section 4  Possible side effects ).  </p>
 <p>Your thyroid function may be checked before you take thalidomide and monitored during treatment. </p>
 <p>At any time during or after your treatment, tell your doctor or nurse immediately if you experience: 
 blurred, loss of or double vision, difficulty speaking, weakness in an arm or a leg, a change in the way 
@@ -184,10 +174,10 @@ symptoms. </p>
 <p>Your doctor may check if you have a high total amount of tumour throughout the body, including your 
 bone marrow. This could lead to a condition where the tumours break down and cause unusual levels 
 of chemicals in the body which can lead to kidneys failure (this condition is called Tumour Lysis 
-Syndrome) (see also section 4 “Possible side effects”). </p>
+Syndrome) (see also section 4  Possible side effects ). </p>
 <p>Your doctor should evaluate if you develop additional types of haematological malignancies (called 
 acute myeloid leukaemia and myelodysplastic syndromes) during your treatment with Thalidomide 
-BMS (see also section 4 “Possible side effects”). </p>
+BMS (see also section 4  Possible side effects ). </p>
 <p>You must not donate blood during Thalidomide BMS treatment and for at least 7 days after stopping 
 treatment. </p>
 <p>If you are not sure if any of the above apply to you, talk to your doctor before taking Thalidomide 
@@ -220,7 +210,7 @@ and problems with internal organs.
 If you are pregnant, you must not take Thalidomide BMS. In addition, you must not become pregnant 
 while taking Thalidomide BMS. </p>
 <p>You must use one effective method of contraception if you are a woman who is able to become 
-pregnant (see section 2, “What you need to know before you take Thalidomide BMS”). </p>
+pregnant (see section 2,  What you need to know before you take Thalidomide BMS ). </p>
 <p>You must stop treatment and inform your doctor straight away if: 
 * You miss or think you have missed a period, or you have unusual menstrual bleeding, or suspect 
 you are pregnant. 
@@ -228,7 +218,7 @@ you are pregnant.
 If you do become pregnant during the treatment with thalidomide, you must stop the treatment and 
 inform your doctor immediately. </p>
 <p>For men taking Thalidomide BMS who have a female partner who is able to become pregnant, please 
-see section 2 “What you need to know before you take Thalidomide BMS”. If your partner becomes 
+see section 2  What you need to know before you take Thalidomide BMS . If your partner becomes 
 pregnant whilst you are taking thalidomide, you should inform your doctor immediately. </p>
 <p>Breast-feeding 
 Do not breastfeed when taking Thalidomide BMS as it is not known if thalidomide is passed into 
@@ -248,8 +238,8 @@ doctor or pharmacist if you are not sure. </p>
 The recommended dose is 200 mg (4 x 50 mg capsules) a day for adults aged 75 years and under or 
 100 mg (2 x 50 mg capsules) a day for adults aged over 75 years. However your doctor will choose the 
 dose for you, monitor your progress and may adjust your dose. Your doctor will tell you how to take 
-Thalidomide BMS and for how long you will need to take it (see section 2, “What you need to know 
-before you take Thalidomide BMS”). </p>
+Thalidomide BMS and for how long you will need to take it (see section 2,  What you need to know 
+before you take Thalidomide BMS ). </p>
 <p>Thalidomide BMS is taken daily in treatment cycles, each cycle lasting 6 weeks, in combination with 
 melphalan and prednisone which are taken on days 1 to 4 of each 6 week cycle. </p>
 <p>Taking this medicine 
@@ -286,7 +276,7 @@ time the next day. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The following side effects may happen with this medicine: </p>
 <p>Stop taking Thalidomide BMS and see a doctor straight away if you notice the following serious 
-side effects – you may need urgent medical treatment: 
+side effects   you may need urgent medical treatment: 
 * Extremely intense and serious skin reactions. The adverse reaction of the skin may appear as 
 rashes with or without blisters. Skin irritation, sores or swelling in the mouth, throat, eyes, 
 nose and around the genitals, oedema and fever and flulike symptoms may occur. These 
@@ -297,15 +287,15 @@ anaphylactic reaction (serious types of allergic reaction that may be manifested
 rashes, swelling of eyes, mouth or face, difficulty of breathing, or itching). </p>
 <p>Tell your doctor straight away if you notice any of the following serious side effects: 
 * Numbness, tingling, abnormal coordination or pain in your hands and feet. 
-This may be due to nerve damage (called ‘peripheral neuropathy’), which is a very common side 
+This may be due to nerve damage (called  peripheral neuropathy ), which is a very common side 
 effect. It may become very severe, painful and disabling. If you experience such symptoms, speak 
 to your doctor straight away, who may reduce the dose or discontinue the treatment. This side 
 effect usually happens after you have been taking this medicine for several months but can 
 happen sooner than this. It can also happen sometime after treatment has stopped. It may not go 
 away, or may go away slowly. 
 * Sudden pain in your chest or difficulty in breathing. 
-This may be due to blood clots in the arteries leading to your lungs (called ‘pulmonary 
-embolism’), which is a common side effect. These can happen during treatment, or after treatment 
+This may be due to blood clots in the arteries leading to your lungs (called  pulmonary 
+embolism ), which is a common side effect. These can happen during treatment, or after treatment 
 has stopped. 
 * Pain or swelling in your legs, especially in your lower leg or calves. 
 This may be due to blood clots in the veins of your leg (deep vein thrombosis), which is a 
@@ -368,14 +358,14 @@ potassium, phosphorus, uric acid, and low calcium consequently leading to change
 function, heart beat, seizures, and sometimes death.<br />
 </em> Injury to the liver (hepatic disorder) including abnormal liver test results. 
 * Bleeding from the stomach or bowels (gastrointestinal haemorrhage). 
-* Worsening of Parkinson’s disease symptoms (such as tremor, depression or confusion). 
+* Worsening of Parkinson s disease symptoms (such as tremor, depression or confusion). 
 * Pain in the upper abdomen and/or back, which may be severe and which remains for a few<br />
-days, possibly accompanied by nausea, vomiting, fever and a rapid pulse – these symptoms<br />
+days, possibly accompanied by nausea, vomiting, fever and a rapid pulse   these symptoms<br />
 may be due to the inflammation of the pancreas (pancreatitis). 
 * Increase in blood pressure within blood vessels that supply the lungs which can lead to shortness 
 of breath, tiredness, dizziness, pain in the chest, a faster heartbeat, or swelling in the legs or 
 ankles (pulmonary hypertension). 
-* Viral infections, including herpes zoster (also known as ‘shingles’, a viral disease that causes a 
+* Viral infections, including herpes zoster (also known as  shingles , a viral disease that causes a 
 painful skin rash with blisters) and recurrence of hepatitis B infection (which can cause yellowing 
 of the skin and eyes, dark brown-coloured urine, right-sided stomach pain, fever and feeling 
 nauseous or being sick). 
@@ -410,13 +400,10 @@ measures will prevent misuse. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Thalidomide BMS contains 
 * The active substance is thalidomide. Each capsule contains 50 mg of thalidomide. 
-* The other excipients are: 
-o The capsule content contains pregelatinised starch and magnesium stearate. 
-o The capsule shell contains gelatin and titanium dioxide (E171). 
-o The printing ink is composed of shellac, black iron oxide (E172) and propylene 
+* The other excipients are: * The capsule content contains pregelatinised starch and magnesium stearate. * The capsule shell contains gelatin and titanium dioxide (E171). * The printing ink is composed of shellac, black iron oxide (E172) and propylene 
 glycol. </p>
 <p>What Thalidomide BMS looks like and contents of the pack 
-Thalidomide BMS are white hard capsules marked “Thalidomide BMS 50 mg”. The capsules are 
+Thalidomide BMS are white hard capsules marked  Thalidomide BMS 50 mg . The capsules are 
 supplied in a wallet card containing 28 capsules (2 blisters of 14 capsules each). </p>
 <p>Marketing Authorisation Holder<br />
 Bristol-Myers Squibb Pharma EEIG 

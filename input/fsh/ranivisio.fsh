@@ -4,7 +4,7 @@ Instance: composition-en-95a6c6d44fd775697ee8966bf749780c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ranivisio Package Leaflet"
 Description:  "Composition for ranivisio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ Ranivisio is a solution which is injected into the eye. Ranivisio belongs to a g
 antineovascularisation agents. It contains the active substance called ranibizumab.  </p>
 <p>What Ranivisio is used for<br />
 Ranivisio is used in adults to treat several eye diseases causing vision impairment.  </p>
-<p>These diseases result from damage to the retina (light-sensitive layer at the back of the eye) caused by:  </p>
+<p>These diseases result from damage to the retina (light-sensitive layer at the back of the eye) caused by:</p>
 <ul>
 <li>Growth of leaky, abnormal blood vessels. This is observed in diseases such as age-related 
 macular degeneration (AMD) and proliferative diabetic retinopathy (PDR, a disease caused by 
@@ -121,7 +121,7 @@ injection.<br />
 have had a stroke or experienced transient signs of stroke (weakness or paralysis of limbs or 
 face, difficulty speaking or understanding). This information will be taken into account to 
 evaluate if Ranivisio is the appropriate treatment for you.  </p>
-<p>Please see section 4 (“Possible side effects”) for more detailed information on side effects that could 
+<p>Please see section 4 ( Possible side effects ) for more detailed information on side effects that could 
 occur during Ranivisio therapy.  </p>
 <p>Children and adolescents (below 18 years of age)<br />
 The use of Ranivisio in children and adolescents has not been established and is therefore not 
@@ -155,8 +155,8 @@ also give you a local anaesthetic to reduce or prevent any pain you might have w
 <p>The treatment is started with one injection of Ranivisio per month. Your doctor will monitor the 
 condition of your eye and, depending on how you respond to the treatment, will decide if and when 
 you need to receive further treatment.  </p>
-<p>Detailed instructions for use are given at the end of the leaflet under “How to prepare and administer 
-Ranivisio”.  </p>
+<p>Detailed instructions for use are given at the end of the leaflet under  How to prepare and administer 
+Ranivisio .  </p>
 <p>Elderly (age 65 years and over)<br />
 Ranivisio can be used for people of 65 years of age and over without dose adjustment.  </p>
 <p>Before stopping Ranivisio treatment<br />
@@ -214,13 +214,15 @@ By reporting side effects you can help provide more information on the safety of
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store ranivisio"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date which is stated on the carton and vial label after 
-EXP. The expiry date refers to the last day of that month. 
-- Store in a refrigerator (2°C – 8°C). Do not freeze.<br />
-- Prior to use, the unopened vial may be kept at room temperature (25°C) for up to 24 hours.<br />
-- Keep the vial in the outer carton in order to protect from light.<br />
-- Do not use any pack that is damaged. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and vial label after 
+EXP. The expiry date refers to the last day of that month. </li>
+<li>Store in a refrigerator (2 C   8 C). Do not freeze.  </li>
+<li>Prior to use, the unopened vial may be kept at room temperature (25 C) for up to 24 hours.  </li>
+<li>Keep the vial in the outer carton in order to protect from light.  </li>
+<li>Do not use any pack that is damaged. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -229,5 +231,110 @@ EXP. The expiry date refers to the last day of that month.
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ranivisio contains<br />
-- The active substance is ranibizumab. Each ml contains 10 mg ranibizumab. Each vial contains </p>         </div>"""      
+- The active substance is ranibizumab. Each ml contains 10 mg ranibizumab. Each vial contains 
+2.3 mg ranibizumab in 0.23 ml solution. This provides a suitable amount to deliver a single dose 
+of 0.05 ml containing 0.5 mg ranibizumab. 
+- The other ingredients are  , -trehalose dihydrate; histidine hydrochloride, monohydrate; 
+histidine; polysorbate 20; water for injections. </p>
+<p>What Ranivisio looks like and contents of the pack 
+Ranivisio is a solution for injection in a vial (0.23 ml). The solution is clear, colourless to pale yellow 
+and aqueous.  </p>
+<p>One pack type is available: 
+Pack containing one glass vial of ranibizumab with chlorobutyl rubber stopper. The vial is for single 
+use only.  </p>
+<p>Marketing Authorisation Holder and Manufacturer<br />
+Midas Pharma GmbH 
+Rheinstra e D-55218 Ingelheim 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: 
+Belgi /Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./A.G. 
+Tel/T l: +32 3 820 73 73<br />
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 5 266 02  </p>
+<p>Tel: +359 2 489 95<br />
+Luxembourg/Luxemburg<br />
+Teva Pharma Belgium N.V./S.A./A.G.,<br />
+T l: +32 3 820 73<br />
+ esk  republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251 007 111  </p>
+<p>Magyarorsz g<br />
+Teva Gy gyszergy r Zrt. 
+Tel.: +36 1 288 6 
+Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44 98 55 11  </p>
+<p>Malta<br />
+Teva Pharmaceuticals Ireland, L-Irlanda 
+ el: +353 (0)1912 7 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 731 402<br />
+Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 (0) 800 0228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 661 0 
+Norge 
+Teva Norway AS 
+Tlf: +47 66 77 55  </p>
+<p>Specifar <br />
+ : +30 211 880 5 
+ sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1 970 
+Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 91 387 32 80   </p>
+<p>Polska 
+Zak ady Farmaceutyczne Polpharma S.A. 
+Tel. + 48 22 364 61<br />
+France 
+Teva Sant<br />
+T l: +33 1 55 91 78<br />
+Portugal 
+Teva Pharma - Produtos Farmac uticos Lda 
+Tel: +351 214 767<br />
+Hrvatska 
+Pliva Hrvatska d.o.o 
+Tel: + 385 1 37 20<br />
+Rom nia 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 21 230 65<br />
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +353 (0)1912 7 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 1 58 90<br />
+ sland 
+Teva Pharma Iceland ehf. 
+S mi: + 354 550 3 
+Slovensk  republika 
+Teva Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 2 5726 7 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 0289 17 
+Suomi/Finland 
+ratiopharm Oy 
+Puh/Tel: +358 20 180 5 </p>
+<p>Specifar  , <br />
+ : +30 211 880 5 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42 12 11<br />
+Latvija 
+UAB Teva Baltics fili le Latvij <br />
+Tel: +371 67 323<br />
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Tel: +44 (0) 207 540 7 </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-a43f6802b7bc837851c3ee6d33acffd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sorafenib Package Leaflet"
 Description:  "Composition for sorafenib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -97,7 +97,7 @@ pressure.
 - If you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or 
 a tear in a blood vessel wall.<br />
 - If you have diabetes. Blood sugar levels in diabetic patients should be checked regularly in 
-order to assess if anti-diabetic medicine’s dosage needs to be adjusted to minimize the risk of 
+order to assess if anti-diabetic medicine s dosage needs to be adjusted to minimize the risk of 
 low blood sugar. 
 - If you get any bleeding problems, or are taking warfarin or phenprocoumon. Treatment 
 with Sorafenib Accord may lead to a higher risk of bleeding. If you are taking warfarin or 
@@ -136,14 +136,16 @@ Possible side effects). </p>
 Children and adolescents have not yet been tested with sorafenib. </p>
 <p>Other medicines and Sorafenib Accord 
 Some medicines may affect Sorafenib Accord, or be affected by it. Tell your doctor or pharmacist if 
-you are taking, have recently taken or might take any other medicines: 
-- Rifampicin, neomycin or other medicines used to treat infections (antibiotics) 
-- St John’s wort, a herbal treatment for depression 
-- Phenytoin, carbamazepine or phenobarbital, treatments for epilepsy and other conditions 
-- Dexamethasone, a corticosteroid used for various conditions 
-- Warfarin or phenprocoumon, anticoagulants used to prevent blood clots 
-- Doxorubicin, capecitabine, docetaxel, paclitaxel and irinotecan, which are cancer treatments 
-- Digoxin, a treatment for mild to moderate heart failure </p>
+you are taking, have recently taken or might take any other medicines:</p>
+<ul>
+<li>Rifampicin, neomycin or other medicines used to treat infections (antibiotics) </li>
+<li>St John s wort, a herbal treatment for depression </li>
+<li>Phenytoin, carbamazepine or phenobarbital, treatments for epilepsy and other conditions </li>
+<li>Dexamethasone, a corticosteroid used for various conditions </li>
+<li>Warfarin or phenprocoumon, anticoagulants used to prevent blood clots </li>
+<li>Doxorubicin, capecitabine, docetaxel, paclitaxel and irinotecan, which are cancer treatments </li>
+<li>Digoxin, a treatment for mild to moderate heart failure </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 Avoid becoming pregnant while being treated with Sorafenib Accord. If you could become 
 pregnant, use adequate contraception during treatment. If you become pregnant while being treated 
@@ -154,8 +156,8 @@ interfere with the growth and development of your baby. </p>
 <p>Driving and using machines 
 There is no evidence that Sorafenib Accord will affect the ability to drive or to operate machines. </p>
 <p>Sorafenib Accord contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose that is to say essentially “sodium 
-free”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium 
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sorafenib"
@@ -311,7 +313,7 @@ throw away medicines you no longer use. These measures will help protect the env
 tosilate). </li>
 <li>The other ingredients are: 
 Tablet core: croscarmellose sodium, cellulose, microcrystalline, hypromellose, sodium laurilsulfate, 
-magnesium stearate. See section 2 “Sorafenib Accord contains sodium”. </li>
+magnesium stearate. See section 2  Sorafenib Accord contains sodium . </li>
 </ul>
 <p>Tablet coating: hypromellose (E464), macrogol (E1521), titanium dioxide (E171), ferric oxide red 
 (E172). </p>

@@ -4,7 +4,7 @@ Instance: composition-en-e32af5235bc449e932db46935c53460a
 InstanceOf: CompositionUvEpi
 Title: "Composition for kineret Package Leaflet"
 Description:  "Composition for kineret Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,23 +70,26 @@ Usage: #example
   * code.text =  "1. What kineret is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kineret contains the active substance anakinra. This is a type of cytokine (an immunosuppressive 
-agent) that is used to treat: 
-- Rheumatoid Arthritis (RA) 
-- COVID-19 in patients who have pneumonia, need extra oxygen and are at risk of lung failure 
-- Periodic fever syndromes: 
-- Cryopyrin-Associated Periodic Syndromes (CAPS) 
-o 
+agent) that is used to treat:</p>
+<ul>
+<li>Rheumatoid Arthritis (RA) </li>
+<li>COVID-19 in patients who have pneumonia, need extra oxygen and are at risk of lung failure </li>
+<li>
+<p>Periodic fever syndromes:</p>
+</li>
+<li>
+<p>Cryopyrin-Associated Periodic Syndromes (CAPS) * 
 Neonatal-Onset Multisystem Inflammatory Disease (NOMID), also called Chronic 
-Infantile Neurological, Cutaneous, Articular Syndrome (CINCA), 
-o 
-Muckle-Wells Syndrome (MWS), 
-o 
-Familial Cold Autoinflammatory Syndrome (FCAS) 
-- Familial Mediterranean Fever (FMF) 
-- Still’s disease including Systemic Juvenile Idiopathic Arthritis (SJIA) and Adult-Onset Still’s 
-Disease (AOSD) </p>
+Infantile Neurological, Cutaneous, Articular Syndrome (CINCA), * 
+Muckle-Wells Syndrome (MWS), * 
+Familial Cold Autoinflammatory Syndrome (FCAS) </p>
+</li>
+<li>Familial Mediterranean Fever (FMF) </li>
+<li>Still s disease including Systemic Juvenile Idiopathic Arthritis (SJIA) and Adult-Onset Still s 
+Disease (AOSD) </li>
+</ul>
 <p>Cytokines are proteins made by your body that co-ordinate communication between cells and help 
-control cell activity. In RA, CAPS, FMF, Still’s disease, and in COVID-19 pneumonia, your body 
+control cell activity. In RA, CAPS, FMF, Still s disease, and in COVID-19 pneumonia, your body 
 produces too much of a cytokine called interleukin-1. This results in harmful effects leading to 
 inflammation, causing the symptoms of the disease. Normally, your body produces a protein that 
 blocks the harmful effects of interleukin-1. The active substance of Kineret is anakinra, this works in 
@@ -104,7 +107,7 @@ older). </p>
 <p>For FMF, Kineret is used to treat the signs and symptoms of inflammation associated with the disease 
 such as recurrent fever, fatigue, abdominal pain, muscle or joint pain and rash. Kineret can be used 
 together with colchicine, if appropriate. </p>
-<p>For Still’s disease, Kineret is used to treat the signs and symptoms of inflammation associated with the 
+<p>For Still s disease, Kineret is used to treat the signs and symptoms of inflammation associated with the 
 disease such as rash, joint pain and fever. </p>         </div>"""   
           
 
@@ -124,16 +127,18 @@ organism E. coli;
 your Kineret injection. These may be signs that you are allergic to Kineret. 
 - if you have ever developed an atypical, widespread rash or skin peeling after taking Kineret. </p>
 <p>Warnings and precautions 
-Talk to your doctor before using Kineret: 
-- if you have a history of recurring infections, or if you suffer from asthma. Kineret may worsen 
-these conditions; 
-- if you have cancer. Your doctor will have to decide if you can still be given Kineret; 
-- if you have a history of increased levels of liver enzymes; 
-- if you require vaccinations. You must not be given live vaccines while being treated with 
-Kineret. </p>
-<p>Still’s disease 
-- In rare cases patients with Still’s disease, mainly children, may develop lung disease, also 
-during Kineret treatment. The risk may be increased in patients with Down’s syndrome (trisomy 
+Talk to your doctor before using Kineret:</p>
+<ul>
+<li>if you have a history of recurring infections, or if you suffer from asthma. Kineret may worsen 
+these conditions; </li>
+<li>if you have cancer. Your doctor will have to decide if you can still be given Kineret; </li>
+<li>if you have a history of increased levels of liver enzymes; </li>
+<li>if you require vaccinations. You must not be given live vaccines while being treated with 
+Kineret. </li>
+</ul>
+<p>Still s disease 
+- In rare cases patients with Still s disease, mainly children, may develop lung disease, also 
+during Kineret treatment. The risk may be increased in patients with Down s syndrome (trisomy 
 21). Symptoms of lung disease can be e.g. shortness of breath during light exercise, morning 
 cough, and difficulties breathing. If you develop signs of lung disease you should contact your 
 health care provider as soon as possible.<br />
@@ -147,11 +152,11 @@ enlarged lymph nodes. </p>
 investigated and therefore cannot be recommended. 
 - COVID-19: Use of Kineret in children and adolescents with COVID-19 has not been 
 investigated and therefore cannot be recommended. 
-- CAPS, FMF, Still’s disease: Kineret is not recommended for children younger than 8 months of 
+- CAPS, FMF, Still s disease: Kineret is not recommended for children younger than 8 months of 
 age because there is no data in this age group. </p>
 <p>Other medicines and Kineret 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
-<p>Medicines called tumour necrosis factor (TNF-α) inhibitors, such as etanercept should not be used 
+<p>Medicines called tumour necrosis factor (TNF- ) inhibitors, such as etanercept should not be used 
 with Kineret because this may increase the risk of infections. </p>
 <p>When you start taking Kineret the chronic inflammation in your body will decrease. This could mean 
 that the doses of some other medicines, e.g. warfarin or phenytoin, have to be adjusted. </p>
@@ -166,7 +171,7 @@ discuss with you the potential risks of taking Kineret during pregnancy. </p>
 Kineret. </p>
 <p>Kineret contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kineret"
@@ -184,8 +189,8 @@ need or whether you need a dose higher than 100 mg. </p>
 Your doctor may decide that it would be more convenient for you to inject Kineret yourself. Your 
 doctor or nurse will show you how to inject yourself. Do not try to inject yourself if you have not been 
 trained. </p>
-<p>For instructions on how to inject yourself or your child with Kineret, please read the “Instructions for 
-preparing and giving an injection of Kineret” section at the end of this leaflet. </p>
+<p>For instructions on how to inject yourself or your child with Kineret, please read the  Instructions for 
+preparing and giving an injection of Kineret  section at the end of this leaflet. </p>
 <p>If you use more Kineret than you should 
 You should have no serious problems if you accidentally take more Kineret than you need. However, 
 you should contact your doctor, nurse or pharmacist if this does happen. If you feel unwell in any way 
@@ -201,9 +206,15 @@ should take the next dose. </p>         </div>"""
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Possible side effects are similar regardless if you are treated with Kineret for RA, CAPS, FMF, Still’s 
-disease, or COVID-19.<br />
-If any of the following happen, tell your doctor immediately: </p>
+<p>Possible side effects are similar regardless if you are treated with Kineret for RA, CAPS, FMF, Still s 
+disease, or COVID-1</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kineret"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kineret"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If any of the following happen, tell your doctor immediately:</p>
 <ul>
 <li>
 <p>Serious infections such as pneumonia (a chest infection) or infections of the skin can occur 
@@ -221,44 +232,36 @@ inject more Kineret. </p>
 <li>Suddenly feeling fast pulse or sweating </li>
 <li>Itchy skin or rash </li>
 </ul>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- Redness, swelling, bruising or itching at the injection site. These symptoms are generally mild 
-to moderate and are more common at the start of your treatment. 
-- Headaches. 
-- Increased total blood cholesterol levels. </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- Neutropenia (low white blood cell count) determined after a blood test. This might increase the 
-risk of you getting an infection. Symptoms of infection might include a fever or a sore throat. 
-- Serious infections such as pneumonia (a chest infection) or infections of the skin. 
-- Thrombocytopenia (low level of blood platelets). </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- Serious allergic reactions including swelling of the face, tongue or throat, trouble swallowing or 
-breathing, suddenly feeling fast pulse or sweating and itchy skin or rash. 
-- Elevated levels of liver enzymes determined after a blood test. </p>
-<p>Side effects with frequency not known (frequency cannot be estimated from the available data): 
-- Signs of liver disorders such as yellow skin and eyes, nausea, loss of appetite, dark-coloured 
-urine and light-coloured stools. </p>
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Redness, swelling, bruising or itching at the injection site. These symptoms are generally mild 
+to moderate and are more common at the start of your treatment. </li>
+<li>Headaches. </li>
+<li>Increased total blood cholesterol levels. </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Neutropenia (low white blood cell count) determined after a blood test. This might increase the 
+risk of you getting an infection. Symptoms of infection might include a fever or a sore throat. </li>
+<li>Serious infections such as pneumonia (a chest infection) or infections of the skin. </li>
+<li>Thrombocytopenia (low level of blood platelets). </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Serious allergic reactions including swelling of the face, tongue or throat, trouble swallowing or 
+breathing, suddenly feeling fast pulse or sweating and itchy skin or rash. </li>
+<li>Elevated levels of liver enzymes determined after a blood test. </li>
+</ul>
+<p>Side effects with frequency not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Signs of liver disorders such as yellow skin and eyes, nausea, loss of appetite, dark-coloured 
+urine and light-coloured stools. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store kineret"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kineret"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
-expiry date refers to the last day of that month. 
-Store in a refrigerator (2 °C to 8 °C). Do not freeze. 
-Store in original carton in order to protect from light. </p>
-<p>Do not use Kineret if you think it has been frozen. Once a syringe has been removed from the 
-refrigerator and has reached room temperature (up to 25 °C) it must either be used within 72 hours or 
-discarded. Do not place it back in the refrigerator if it has been stored at room temperature. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -266,21 +269,14 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kineret contains 
-- The active substance is anakinra. Each graduated pre-filled syringe contains 100 mg of 
-anakinra. 
-- The other ingredients are anhydrous citric acid, sodium chloride, disodium edetate dihydrate, 
-polysorbate 80 and sodium hydroxide and water for injections. </p>
-<p>What Kineret looks like and contents of the pack 
-Kineret is a clear, colourless-to-white solution for injection and is supplied ready for use in a pre-filled 
-syringe. It may contain some translucent-to-white particles of protein. The presence of these particles 
-does not affect the quality of the product. </p>
-<p>Pack sizes of 1, 7 or 28 (multipack containing 4 packs of 7 pre-filled syringes) pre-filled syringes. 
-Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer 
-Swedish Orphan Biovitrum AB (publ) 
-SE-112 76 Stockholm 
-Sweden </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
+expiry date refers to the last day of that month. 
+Store in a refrigerator (2  C to 8  C). Do not freeze. 
+Store in original carton in order to protect from light. </p>
+<p>Do not use Kineret if you think it has been frozen. Once a syringe has been removed from the 
+refrigerator and has reached room temperature (up to 25  C) it must either be used within 72 hours or 
+discarded. Do not place it back in the refrigerator if it has been stored at room temperature. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

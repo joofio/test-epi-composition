@@ -4,7 +4,7 @@ Instance: composition-en-448b9ada9b9514edd6724425bc5c528e
 InstanceOf: CompositionUvEpi
 Title: "Composition for duoresp Package Leaflet"
 Description:  "Composition for duoresp Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,22 +71,22 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DuoResp Spiromax contains two different active substances: budesonide and formoterol fumarate dihydrate. </p>
 <ul>
-<li>Budesonide belongs to a group of medicines called ‘corticosteroids’ also known as ‘steroids’.  It works 
+<li>Budesonide belongs to a group of medicines called  corticosteroids  also known as  steroids .  It works 
 by reducing and preventing swelling and inflammation in your lungs and helps you to breathe more 
 easily.  </li>
-<li>Formoterol fumarate dihydrate belongs to a group of medicines called ‘long-acting β2 adrenoceptor 
-agonists’ or ‘bronchodilators’.  It works by relaxing the muscles in your airways. This will help to open 
+<li>Formoterol fumarate dihydrate belongs to a group of medicines called  long-acting  2 adrenoceptor 
+agonists  or  bronchodilators .  It works by relaxing the muscles in your airways. This will help to open 
 the airways and help you to breathe more easily. </li>
 </ul>
 <p>DuoResp Spiromax is indicated for use in adults and adolescents 12 years of age and older only.  </p>
 <p>Your doctor has prescribed this medicine to treat asthma or chronic obstructive pulmonary disease (COPD).  </p>
 <p>Asthma 
 DuoResp Spiromax can be prescribed for asthma in two different ways. </p>
-<p>a)  You may be prescribed two asthma inhalers: DuoResp Spiromax together with a separate ‘reliever 
-inhaler’ such as salbutamol. 
+<p>a)  You may be prescribed two asthma inhalers: DuoResp Spiromax together with a separate  reliever 
+inhaler  such as salbutamol. 
 * Use DuoResp Spiromax every day.  This helps to prevent asthma symptoms such as breathlessness and 
 wheezing from occurring.<br />
-* Use the ‘reliever inhaler’ when you get asthma symptoms, to make it easier to breathe again.  </p>
+* Use the  reliever inhaler  when you get asthma symptoms, to make it easier to breathe again.  </p>
 <p>b)  You may be prescribed DuoResp Spiromax as your only asthma inhaler. 
 * Use DuoResp Spiromax every day.  This helps to prevent asthma symptoms such as breathlessness and 
 wheezing from occurring.<br />
@@ -136,13 +136,13 @@ Do not give this medicine to children under the age of 12 years. </p>
 <p>Other medicines and DuoResp Spiromax 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. </p>
 <p>In particular, tell your doctor or pharmacist if you are taking any of the following medicines: 
-* β blockers (such as atenolol or propranolol for high blood pressure or a heart condition), including 
+*   blockers (such as atenolol or propranolol for high blood pressure or a heart condition), including 
 eyedrops (such as timolol for glaucoma). 
 * Oxytocin which is given to pregnant women to induce labour 
 * Medicines for a fast or uneven heartbeat (such as quinidine, disopyramide, procainamide and 
 terfenadine). 
 * Medicines like digoxin, often used to treat heart failure. 
-* Diuretics, also known as ‘water tablets’ (such as furosemide).  These are used to treat high blood 
+* Diuretics, also known as  water tablets  (such as furosemide).  These are used to treat high blood 
 pressure. 
 * Steroid tablets that you take by mouth (such as prednisolone). 
 * Xanthine medicines (such as theophylline or aminophylline).  These are often used to treat asthma. 
@@ -151,10 +151,10 @@ pressure.
 <em> Antidepressant medicines such as monoamine oxidase inhibitors and those with similar properties (such 
 as the antibiotic furazolidone and the chemotherapy medicine procarbazine). 
 * Antipsychotic phenothiazine medicines (such as chlorpromazine and prochlorperazine).<br />
-</em> Medicines called ‘HIV protease inhibitors’ (such as ritonavir) to treat HIV infection. 
+</em> Medicines called  HIV protease inhibitors  (such as ritonavir) to treat HIV infection. 
 * Medicines to treat infections (such as ketoconazole, itraconazole, voriconazole, posaconazole, 
 clarithromycin and telithromycin).<br />
-* Medicines for Parkinson’s disease (such as levodopa). 
+* Medicines for Parkinson s disease (such as levodopa). 
 * Medicines for thyroid problems (such as levothyroxine).   </p>
 <p>Some medicines may increase the effects of DuoResp Spiromax and your doctor may wish to monitor you 
 carefully if you are taking these medicines (including some medicines for HIV: ritonavir, cobicistat). </p>
@@ -192,11 +192,11 @@ DuoResp Spiromax can be prescribed for asthma in two different ways. The amount 
 to use and when to use it depends on how it has been prescribed for you.  </p>
 <ul>
 <li>If you have been prescribed DuoResp Spiromax and a separate reliever inhaler, read the section called 
-(A) Using DuoResp Spiromax and a separate ‘reliever inhaler’.  </li>
+(A) Using DuoResp Spiromax and a separate  reliever inhaler .  </li>
 <li>If you have been prescribed DuoResp Spiromax as your only inhaler, read the section called (B) Using 
 DuoResp Spiromax as your only asthma inhaler. </li>
 </ul>
-<p>(A) Using DuoResp Spiromax and a separate ‘reliever inhaler’  </p>
+<p>(A) Using DuoResp Spiromax and a separate  reliever inhaler   </p>
 <p>Use your DuoResp Spiromax every day. This helps to prevent asthma symptoms from occurring. </p>
 <p>Recommended dose:<br />
 Adults (18 years and older) 
@@ -211,8 +211,8 @@ DuoResp Spiromax, your doctor may prescribe an alternative inhaler containing th
 as your DuoResp Spiromax but with a lower dose of the corticosteroid. If your symptoms are well controlled, 
 your doctor may ask you to take your medicine once a day. However, do not adjust the number of inhalations 
 your doctor has prescribed without talking to your doctor first. </p>
-<p>Use your separate ‘reliever inhaler’ to treat asthma symptoms when they happen.<br />
-Always keep your ‘reliever inhaler’ with you and use it to relieve sudden attacks of breathlessness and 
+<p>Use your separate  reliever inhaler  to treat asthma symptoms when they happen.<br />
+Always keep your  reliever inhaler  with you and use it to relieve sudden attacks of breathlessness and 
 wheezing.  Do not use DuoResp Spiromax to treat these asthma symptoms. </p>
 <p>(B) Using DuoResp Spiromax as your only asthma inhaler </p>
 <p>Only use DuoResp Spiromax in this way if your doctor has told you to.  </p>
@@ -225,7 +225,7 @@ or
 or 
 2 inhalations in the evening. </p>
 <p>Your doctor may increase this to 2 inhalations twice a day.  </p>
-<p>Also use DuoResp Spiromax as a ‘reliever inhaler’ to treat asthma symptoms when they happen and to 
+<p>Also use DuoResp Spiromax as a  reliever inhaler  to treat asthma symptoms when they happen and to 
 prevent asthma symptoms from happening (for example, when exercising or on exposure to allergens). 
 * If you get asthma symptoms, take 1 inhalation and wait a few minutes.<br />
 <em> If you do not feel better, take another inhalation.<br />
@@ -255,7 +255,34 @@ tiotropium or ipratropium bromide) for your COPD disease. </p>
 * Write the date you opened the foil pouch on the label of the inhaler. 
 * Do not shake your inhaler before use. </p>
 <p>How to take an inhalation 
-Every time you need to take an inhalation, follow the instructions below. </p>         </div>"""         
+Every time you need to take an inhalation, follow the instructions below. </p>
+<ol>
+<li>
+<p>Hold your inhaler with the semi-transparent wine red mouthpiece cover at the bottom. </p>
+</li>
+<li>
+<p>Open the mouthpiece cover by folding it down until one loud click is heard. Your medicine is actively 
+metered. Your inhaler is now ready for use. </p>
+</li>
+<li>
+<p>Breathe out gently (as far as is comfortable). Do not breathe out through your inhaler. </p>
+</li>
+<li>Place the mouthpiece between your teeth. Do not bite the mouthpiece. Close your lips around the 
+mouthpiece. Take care not to block the air vents. </li>
+</ol>
+<p>Breathe in through your mouth as deeply and as hard as you can. </p>
+<ol>
+<li>
+<p>Remove your inhaler from your mouth.  You may notice a taste when you take your inhalation.  </p>
+</li>
+<li>
+<p>Hold your breath for 10 seconds or as long as you comfortably can. </p>
+</li>
+<li>
+<p>Then breathe out gently (do not breathe out through the inhaler).  Close the mouthpiece cover.  </p>
+</li>
+</ol>
+<p>If you are to take a second inhalation, repeat steps 1 to </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -263,14 +290,128 @@ Every time you need to take an inhalation, follow the instructions below. </p>  
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rinse your mouth with water after every dose, and spit it out.<br />
+Do not try to take your inhaler apart, remove or twist the mouthpiece cover, it is fixed to your inhaler and 
+must not be taken off.  Do not use your Spiromax if it has been damaged or if the mouthpiece has come apart 
+from your Spiromax. Do not open and close the mouthpiece cover unless you are about to use your inhaler.  </p>
+<p>Cleaning your Spiromax 
+Keep your Spiromax dry and clean. 
+If necessary you may wipe the mouthpiece of your Spiromax after use with a dry cloth or tissue. </p>
+<p>When to start using a new Spiromax 
+* The dose indicator tells you how many doses (inhalations) are left in your inhaler, starting with inhalations when it is full and ending with 0 (zero) inhalations when it is empty.  </p>
+<ul>
+<li>The dose indicator, on the rear of the device, shows the number of inhalations remaining as even 
+numbers. The spaces between the even numbers represent the odd number of remaining inhalations. </li>
+<li>For inhalations remaining from 20 downwards to  8 , 6 , 4 , 2  the numbers are displayed in red on a 
+white background. When the numbers become red in the window, you should consult your doctor and 
+obtain a new inhaler. </li>
+</ul>
+<p>Note:<br />
+<em> The mouthpiece will still  click  even when your Spiromax is empty. If you open and close the 
+mouthpiece without taking an inhalation the dose indicator will still register it as a count. <br />
+</em> This dose will be securely held inside the inhaler for when the next inhalation is due. It is impossible to 
+accidentally take extra medicine or a double dose in one inhalation.<br />
+* Keep the mouthpiece closed all the time unless you are about to use your inhaler.  </p>
+<p>Important information about your asthma or COPD symptoms </p>
+<p>If you feel you are getting breathless or wheezy while using DuoResp Spiromax, you should continue to use 
+DuoResp Spiromax but go to see your doctor as soon as possible, as you may need additional treatment. </p>
+<p>Contact your doctor immediately if: 
+* Your breathing is getting worse or you often wake up at night with breathlessness and wheezing. 
+* Your chest starts to feel tight in the morning or your chest tightness lasts longer than usual. </p>
+<p>These signs could mean that your asthma or COPD is not being properly controlled and you may need 
+different or additional treatment immediately. </p>
+<p>Once your asthma is well controlled your doctor may consider it appropriate to gradually reduce the dose of 
+DuoResp Spiromax. </p>
+<p>If you use more DuoResp Spiromax than you should 
+It is important that you take your dose as advised by your doctor. You should not exceed your prescribed 
+dose without seeking medical advice. </p>
+<p>If you use more DuoResp Spiromax than you should, contact your doctor, pharmacist or nurse for advice. 
+The most common symptoms that may occur after when you use more DuoResp Spiromax than you should 
+are trembling, headache or a rapid heartbeat.  </p>
+<p>If you forget to use DuoResp Spiromax 
+If you forget to take a dose, take it as soon as you remember. However do not take a double dose to make up 
+for a forgotten dose. If it is nearly time for your next dose just take your next dose at the usual time.  </p>
+<p>If you become wheezy or breathless, or develop any other symptoms of an asthma attack, use your  reliever 
+inhaler , then seek medical advice.  </p>
+<p>If you stop using DuoResp Spiromax 
+Do not stop using your inhaler without telling your doctor first.  </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duoresp"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store duoresp"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>metered. Your inhaler is now ready for use. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>If any of the following happen to you, stop using DuoResp Spiromax and talk to your doctor 
+immediately:  </p>
+<p>Rare side effects: may affect up to 1 in 1,000 people </p>
+<ul>
+<li>Swelling of your face, particularly around your mouth (tongue and/or throat and/or difficulty to swallow) 
+or hives together with difficulties to breathe (angioedema) and/or sudden feeling of faintness.  This may 
+mean that you are having an allergic reaction, which may also include rash and itching.   </li>
+<li>Bronchospasm (tightening of the muscles in the airways which causes wheezing and shortness of 
+breath). If the wheezing comes on suddenly after using this medicine stop using it and talk to your doctor 
+immediately (see below). </li>
+</ul>
+<p>Very rare side effects: may affect up to 1 in 10,000 people </p>
+<ul>
+<li>Sudden, unexpected and acute wheezing and/or shortness of breath immediately after using your inhaler 
+(also referred to as  paradoxical bronchospasm ). If either of these symptoms occur, stop using 
+DuoResp Spiromax straightaway and use your  reliever inhaler  if you have one. Contact your doctor 
+immediately as you may need to have your treatment changed.  </li>
+</ul>
+<p>Other possible side effects: </p>
+<p>Common: may affect up to 1 in 10 people 
+* Palpitations (awareness of your heart beating), trembling or shaking. If these effects occur, they are 
+usually mild and usually disappear as you continue to use DuoResp Spiromax. 
+* Thrush (a fungal infection) in the mouth. This is less likely to occur if you rinse your mouth out with 
+water after using your medicine. 
+* Mild sore throat, coughing and a hoarse voice 
+* Headache 
+* Pneumonia (infection to the lung) in COPD patients. </p>
+<p>Tell your doctor if you have any of the following while taking DuoResp Spiromax they could be symptoms 
+of a lung infection: 
+* Fever or chills 
+* Increased mucus production, change in mucus colour 
+* Increased cough or increased breathing difficulties. </p>
+<p>Uncommon: may affect up to 1 in 100 people 
+* Feeling restless, nervous, agitated, anxious or angry<br />
+<em> Disturbed sleep 
+* Feeling dizzy 
+* Nausea (feeling sick) 
+* Fast heartbeat<br />
+</em> Bruising of the skin 
+* Muscle cramps 
+* Blurred vision.  </p>
+<p>Rare:<br />
+<em> Low levels of potassium in your blood<br />
+</em> Uneven heartbeat. </p>
+<p>Very rare:<br />
+<em> Depression<br />
+</em> Changes in behaviour, especially in children<br />
+<em> Chest pain or tightness in the chest (angina pectoris) 
+* Disturbance of the heart s electrical system which does not cause symptoms (prolongation of the QTc-
+interval) 
+* An increase in the amount of sugar (glucose) in your blood, when you have a blood test.<br />
+</em> Taste changes, such as an unpleasant taste in the mouth<br />
+<em> Changes in your blood pressure.<br />
+</em> Inhaled corticosteroids can affect the normal production of steroid hormones in your body, particularly if 
+you use high doses for a long time. The effects include: 
+* Changes in bone mineral density (thinning of the bones) 
+* Cataract (clouding of the lens in the eye) 
+* Glaucoma (increased pressure in the eye)<br />
+* A slowing of the rate of growth of children and adolescents 
+* An effect on the adrenal gland (a small gland next to the kidney). Symptoms of adrenal gland 
+suppression could be tiredness, weakness, stomach problems including nausea, vomiting, pain and 
+diarrhoea, darkening of the skin and weight loss. </p>
+<p>These effects happen very rarely and are much less likely to happen with inhaled corticosteroids than with 
+corticosteroid tablets.  </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
+not listed in this leaflet.  </p>
+<p>You can also report side effects directly via the national reporting system listed in Appendix V. By reporting 
+side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -278,9 +419,14 @@ Every time you need to take an inhalation, follow the instructions below. </p>  
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Place the mouthpiece between your teeth. Do not bite the mouthpiece. Close your lips around the 
-mouthpiece. Take care not to block the air vents. </li>
-</ol>
-<p>Breathe in through your mouth as deeply and as hard as you can. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton or on the label of your inhaler 
+after EXP. The expiry date refers to the last day of that month. </li>
+<li>Do not store above 25 oC.  Keep the mouthpiece cover closed after removal of the foil wrapping. </li>
+<li>Use within 6 months of removing from the foil wrapping. Use the label on the inhaler to write down 
+the date you open the foil pouch. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
 

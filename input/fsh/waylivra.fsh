@@ -4,7 +4,7 @@ Instance: composition-en-0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: CompositionUvEpi
 Title: "Composition for waylivra Package Leaflet"
 Description:  "Composition for waylivra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -152,8 +152,8 @@ with your doctor to see what is best for you and your child. </p>
 <p>Driving and using machines 
 Waylivra is not likely to affect your ability to drive or use machines. </p>
 <p>Sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take waylivra"
@@ -168,7 +168,7 @@ problems with your thyroid, will be ruled out by your doctor. </p>
 use it, or may stop it for a period or permanently, depending on the results of your blood and urine 
 tests or occurrence of side effects. </p>
 <p>You or your caregiver will be trained on how to use Waylivra according to the instructions in this 
-leaflet. Waylivra should be injected under your skin (subcutaneous or ‘SC’ administration) in the way 
+leaflet. Waylivra should be injected under your skin (subcutaneous or  SC  administration) in the way 
 the doctor, nurse or pharmacist has shown you, and you should make sure you inject all of the liquid in 
 the syringe. Each single-use, pre-filled syringe of this medicine gives you a dose of 285 mg in 1.5 ml. </p>
 <p>Before using this medicine, it is important that you read, understand, and closely follow the 
@@ -193,12 +193,14 @@ Do not stop using Waylivra unless you have discussed stopping your medicine with
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Serious side effects 
-If you get any of the following side effects, contact your doctor immediately: 
-- Symptoms that could indicate low counts of platelets in your blood (platelets are cells 
+If you get any of the following side effects, contact your doctor immediately:</p>
+<ul>
+<li>Symptoms that could indicate low counts of platelets in your blood (platelets are cells 
 important for blood clotting). You should see your doctor immediately if you have any signs 
 of low platelet levels, such as unusual or prolonged bleeding, patches of red appearing on the 
 skin (called petechiae), unexplained bruising, bleeding which will not stop, or nosebleeds, or if 
-you get neck stiffness or a severe headache. </p>
+you get neck stiffness or a severe headache. </li>
+</ul>
 <p>Other side effects </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - Injection site reactions (rash, pain, redness, heat or warmth, dryness, swelling, itching, 
@@ -218,12 +220,8 @@ lymphopenia)
 urine or stools, nosebleed, or unusually heavy menstrual period 
 - An allergic reaction, the symptoms of which include skin rash, joint stiffness or fever 
 - Blood or protein in the urine<br />
-- Changes to the results of some blood tests, including:<br />
-o an increase in the level of some constituents in your blood: creatinine, urea, 
-transaminases, liver enzymes 
-o an increase in blood clotting time<br />
-o a fall in levels of haemoglobin in your blood 
-o a fall in the rate of blood passing through the kidneys 
+- Changes to the results of some blood tests, including:  * an increase in the level of some constituents in your blood: creatinine, urea, 
+transaminases, liver enzymes * an increase in blood clotting time  * a fall in levels of haemoglobin in your blood * a fall in the rate of blood passing through the kidneys 
 - Diabetes, the symptoms of which include increased thirst, frequent need to pass urine 
 (particularly at night), extreme hunger, severe tiredness, and unexplained weight loss 
 - Difficulty sleeping 
@@ -236,7 +234,7 @@ feeling of being unwell
 - Cough, difficulty breathing, a blocked nose, swelling of the throat, wheezing 
 - Feeling or being sick, dry mouth, diarrhoea, swelling of the neck, face or gums, stomach pain 
 or swelling, indigestion 
-- Skin redness, rash, pimples, thickening or scarring, or itchiness of the skin known as ‘hives’ 
+- Skin redness, rash, pimples, thickening or scarring, or itchiness of the skin known as  hives<br />
 (urticaria) 
 - Pain in the hands or feet, pain in the large joint of the arms and legs including the elbows, 
 wrists, knees and ankles, other joint pain or stiffness, back pain, neck pain, jaw pain, muscle 
@@ -256,10 +254,10 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and syringe label after 
-‘EXP’. Please note that the expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 ° - 8 °C). 
+ EXP . Please note that the expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2   - 8  C). 
 Store in the original carton to protect from light.  </p>
-<p>Waylivra can be kept at room temperature (up to 30 °C) in the original carton for up to 6 weeks after 
+<p>Waylivra can be kept at room temperature (up to 30  C) in the original carton for up to 6 weeks after 
 removing from the refrigerator. During this time this medicine may be kept at either room temperature 
 or put back into the refrigerator, as needed. Record the date you first remove the pack from the 
 refrigerator on the outer carton in the space indicated. If you do not use it within 6 weeks after first 
@@ -281,11 +279,11 @@ The active substance is volanesorsen. Each ml contains 200 mg volanesorsen sodiu
 190 mg volanesorsen. Each single-dose pre-filled syringe contains 285 mg of volanesorsen in 1.5 ml 
 solution.  </p>
 <p>The other ingredients are water for injections, sodium hydroxide and hydrochloric acid (to adjust 
-acidity level, see section 2 under ‘Sodium’). </p>
+acidity level, see section 2 under  Sodium ). </p>
 <p>What Waylivra looks like and contents of the pack 
 Waylivra is provided in a carton as a single-dose syringe with needle and needle cap, pre-filled with a 
 clear, colourless to pale yellow solution. It is filled to deliver 1.5 ml of solution upon full depression of 
-the syringe’s plunger.  </p>
+the syringe s plunger.  </p>
 <p>It is available as either a carton containing 1 pre-filled syringe, or as a multipack of 4 (4 packs of 
 1-pack cartons) pre-filled syringes.  </p>
 <p>Marketing Authorisation Holder<br />
@@ -300,7 +298,7 @@ Dundalk
 Co. Louth 
 Ireland </p>
 <p>This leaflet was last revised in </p>
-<p>This medicine has been given ‘conditional approval’. This means that there is more evidence to come 
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

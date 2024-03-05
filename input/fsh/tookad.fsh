@@ -4,7 +4,7 @@ Instance: composition-en-bde0c3b61490dd57757aaae0512c2726
 InstanceOf: CompositionUvEpi
 Title: "Composition for tookad Package Leaflet"
 Description:  "Composition for tookad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,17 +95,19 @@ Trans-Urethral Resection of the Prostate (TURP).
 - You are not able to have general anaesthesia or invasive procedures.  </p>
 <p>Warnings and precautions 
 TOOKAD should only be used by personnel trained in the VTP procedure. </p>
-<p>Talk to your doctor or nurse if:<br />
-- You feel any irritation of the skin or problems with vision or eye irritation after the 
-VTP procedure. 
-- You experience difficulties in getting or maintaining an erection. 
-- You feel any abnormal pain after the VTP procedure. 
-- You have a history of a narrowing of the urethra or urinary flow problems. 
-- You experience involuntary passing of urine after the VTP procedure. 
-- You have had an active inflammatory bowel disease or any condition that may increase the risk 
-of causing abnormal connection between the rectum and the urethra (recto-urethral fistula). 
-- You have abnormal blood clotting. 
-- You have a reduced kidney function or if you follow a potassium restricted diet. </p>
+<p>Talk to your doctor or nurse if:</p>
+<ul>
+<li>You feel any irritation of the skin or problems with vision or eye irritation after the 
+VTP procedure. </li>
+<li>You experience difficulties in getting or maintaining an erection. </li>
+<li>You feel any abnormal pain after the VTP procedure. </li>
+<li>You have a history of a narrowing of the urethra or urinary flow problems. </li>
+<li>You experience involuntary passing of urine after the VTP procedure. </li>
+<li>You have had an active inflammatory bowel disease or any condition that may increase the risk 
+of causing abnormal connection between the rectum and the urethra (recto-urethral fistula). </li>
+<li>You have abnormal blood clotting. </li>
+<li>You have a reduced kidney function or if you follow a potassium restricted diet. </li>
+</ul>
 <p>To date information beyond two years after VTP procedure is limited and so, at this time, data are 
 currently not available to know whether the benefit of TOOKAD-VTP is long-lasting. </p>
 <p>If you do require further treatment, at the moment, there is limited information on whether 
@@ -146,7 +148,7 @@ anti-VEGF (medicines used to prevent new blood vessel growth) therapy. If you ha
 VEGF therapy, you should take particular care to protect your eyes from light for 48 hours post 
 TOOKAD injection. Concomitant use of systemic VEGF inhibitors is not recommended with 
 TOOKAD. </p>
-<p>See also under “Other medicines and TOOKAD” for photosensitising medicines. </p>
+<p>See also under  Other medicines and TOOKAD  for photosensitising medicines. </p>
 <p>Difficulties in getting or maintaining an erection 
 Some difficulties in getting or maintaining an erection is possible soon after the procedure and may 
 last for more than 6 months. </p>
@@ -174,11 +176,11 @@ position the fibres that guide the laser light. This may also cause bruising, bl
 local pain. Abnormal clotting is not expected to affect how well the treatment works ; however, it is 
 recommended that medicines that affect clotting are stopped prior to and for the immediate period 
 following the VTP procedure. </p>
-<p>See also under “Other medicines and TOOKAD” for the effects of anticoagulants and antiplatelet 
+<p>See also under  Other medicines and TOOKAD  for the effects of anticoagulants and antiplatelet 
 medicines. </p>
 <p>Patients on a controlled potassium diet 
 This medicine contains potassium. In general, the dose of TOOKAD contains less than 1 mmol 
-(39 mg) potassium, i.e. essentially ‘potassium free’. However, patients weighing more than 115 kg 
+(39 mg) potassium, i.e. essentially  potassium free . However, patients weighing more than 115 kg 
 will receive more than 1 mmol potassium. This should be taken into consideration by patients with 
 reduced kidney function or patients on a controlled potassium diet where a rise in serum potassium 
 would be considered detrimental. </p>
@@ -238,7 +240,7 @@ VTP procedure. </p>
 The recommended dose of TOOKAD is one single dose of 3.66 mg per kg of body weight, injected 
 into a vein. The injection lasts 10 minutes. 
 For instructions to healthcare professionals on reconstitution of TOOKAD before injection, see 
-“Reconstitution of the TOOKAD powder for solution for injection”. </p>
+ Reconstitution of the TOOKAD powder for solution for injection . </p>
 <p>Only the lobe that contains the cancer will be treated. Additional VTP procedures of the prostate are 
 not recommended. </p>
 <p>VTP procedure 
@@ -260,15 +262,17 @@ through the fibres from a connected laser device. </p>
 In addition, inserting needles into the prostate gland and inserting a urinary catheter for the procedure 
 may be associated with further side effects. </p>
 <p>Possible side effects can occur with TOOKAD and VTP procedure. </p>
-<p>If you get any of the side effects below, tell your doctor immediately: 
-- Urinary retention (not able to pass urine). In the few days after the VTP procedure some patients 
+<p>If you get any of the side effects below, tell your doctor immediately:</p>
+<ul>
+<li>Urinary retention (not able to pass urine). In the few days after the VTP procedure some patients 
 may have difficulties (poor stream due to urethral narrowing) or inability to pass urine. This 
 may necessitate inserting a catheter inside your bladder through the penis and the catheter will 
-remain in place for a few days or weeks to drain the urine. 
-- Fever, pain and swelling in the area of the operation might occur after the procedure. These may 
+remain in place for a few days or weeks to drain the urine. </li>
+<li>Fever, pain and swelling in the area of the operation might occur after the procedure. These may 
 be signs of infection in the urinary tract, the prostate or the genital system. In this case, you 
 should contact your doctor as you may need further blood or urine analysis and antibiotics 
-treatment. These infections are usually easily treated. </p>
+treatment. These infections are usually easily treated. </li>
+</ul>
 <p>In addition to the side effects listed previously, other side effects can occur. </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
 - Problems with or pain on passing urine (including pain or discomfort on passing urine, bladder 
@@ -318,9 +322,9 @@ safety of this medicine. </p>         </div>"""
 specialist.  </p>
 <p>The following information is intended for the specialist only. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use after the expiry date which is stated on the shield label after “EXP”. The expiry date refers 
+<p>Do not use after the expiry date which is stated on the shield label after  EXP . The expiry date refers 
 to the last day of that month. </p>
-<p>Store in a refrigerator (2°C-8°C). 
+<p>Store in a refrigerator (2 C-8 C). 
 Store in the outer carton in order to protect it from light. </p>
 <p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
         
@@ -352,10 +356,10 @@ Luxembourg </p>
 <p>Manufacturer 
 LIOF-PHARMA S.L. 
 c/ Hermanos Lumiere 5 
-Parque Tecnológico Miñano 
+Parque Tecnol gico Mi ano 
 01510 Alava 
 Spain </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

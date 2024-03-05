@@ -4,7 +4,7 @@ Instance: composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
 InstanceOf: CompositionUvEpi
 Title: "Composition for doptelet Package Leaflet"
 Description:  "Composition for doptelet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,14 +95,16 @@ Talk to your doctor or pharmacist before taking Doptelet if:
 blood clots.<br />
 * you have another blood condition known as myelodysplastic syndrome (MDS); taking Doptelet 
 may worsen MDS.  </p>
-<p>You may be at higher risk of blood clots as you get older or if: 
-- you have had to stay in bed for a long time 
-- you have cancer 
-- you are taking the contraceptive birth control pill or hormone replacement therapy 
-- you have recently had surgery or been injured 
-- you are very overweight 
-- you smoke<br />
-- you have advanced chronic liver disease. </p>
+<p>You may be at higher risk of blood clots as you get older or if:</p>
+<ul>
+<li>you have had to stay in bed for a long time </li>
+<li>you have cancer </li>
+<li>you are taking the contraceptive birth control pill or hormone replacement therapy </li>
+<li>you have recently had surgery or been injured </li>
+<li>you are very overweight </li>
+<li>you smoke  </li>
+<li>you have advanced chronic liver disease. </li>
+</ul>
 <p>If any of the above applies to you, or you are not sure, talk to your doctor or pharmacist before taking 
 Doptelet. </p>
 <p>Blood tests for platelet count 
@@ -211,7 +213,7 @@ adult patients with primary chronic ITP: </p>
 * weakness 
 * nose bleeds 
 * skin rash, itching, acne, red spots on skin 
-* feeling of tingling, prickling or numbness, commonly called “pins and needles” 
+* feeling of tingling, prickling or numbness, commonly called  pins and needles<br />
 * enlarged spleen 
 * shortness of breath 
 * elevated blood pressure 
@@ -296,7 +298,7 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on each blister after 
-‘EXP’. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -312,7 +314,7 @@ throw away medicines you no longer use. These measures will help to protect the 
 equivalent to 20 mg of avatrombopag. </p>
 <ul>
 <li>The other ingredients are: 
-Tablet core: lactose monohydrate (see section 2 “Doptelet contains lactose”); microcrystalline 
+Tablet core: lactose monohydrate (see section 2  Doptelet contains lactose ); microcrystalline 
 cellulose [E460(i)]; crospovidone type B [E1202]; silica, colloidal anhydrous [E551]; 
 magnesium stearate [E470b]. 
 Film coating: poly(vinyl alcohol) [E1203]; talc [E553b]; macrogol 3350 [E1521]; titanium 
@@ -320,7 +322,7 @@ dioxide [E171]; iron oxide yellow [E172]. </li>
 </ul>
 <p>What Doptelet looks like and contents of the pack 
 Doptelet 20 mg film-coated tablets (tablets) are pale yellow, round, rounded on the upper and lower 
-side, marked with “AVA” imprinted on one side and “20” on the other. </p>
+side, marked with  AVA  imprinted on one side and  20  on the other. </p>
 <p>The tablets are supplied in cartons containing one or two aluminium blisters. Each blister contains 
 either 10 or 15 tablets.  </p>
 <p>Marketing Authorisation Holder 

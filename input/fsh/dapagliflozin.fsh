@@ -4,7 +4,7 @@ Instance: composition-en-47e609a7556335e73540caeda7f501b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for dapagliflozin Package Leaflet"
 Description:  "Composition for dapagliflozin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Dapagliflozin Viatris is </p>
 <p>Dapagliflozin Viatris contains the active substance dapagliflozin. It belongs to a group of medicines 
-called ‘sodium glucose co-transporter-2 (SGLT2) inhibitors’. They work by blocking the SGLT2 
+called  sodium glucose co-transporter-2 (SGLT2) inhibitors . They work by blocking the SGLT2 
 protein in your kidney. By blocking this protein, blood sugar (glucose), salt (sodium) and water are 
 removed from your body via the urine. </p>
 <p>What Dapagliflozin Viatris is used for </p>
@@ -145,9 +145,9 @@ section 6). </li>
 fast and deep breathing, confusion, unusual sleepiness or tiredness, a sweet smell to your breath, 
 a sweet or metallic taste in your mouth, or a different odour to your urine or sweat or rapid 
 weight loss. </li>
-<li>The above symptoms could be a sign of ‘diabetic ketoacidosis’ – a rare but serious, sometimes 
-life-threatening problem you can get with diabetes because of increased levels of ‘ketone 
-bodies’ in your urine or blood, seen in tests. </li>
+<li>The above symptoms could be a sign of  diabetic ketoacidosis    a rare but serious, sometimes 
+life-threatening problem you can get with diabetes because of increased levels of  ketone 
+bodies  in your urine or blood, seen in tests. </li>
 <li>The risk of developing diabetic ketoacidosis may be increased with prolonged fasting, excessive 
 alcohol consumption, dehydration, sudden reductions in insulin dose, or a higher need of insulin 
 due to major surgery or serious illness. </li>
@@ -161,19 +161,19 @@ and do not take this medicine. </p>
 <li>Talk to your doctor immediately if you develop a combination of symptoms of pain, tenderness, 
 redness, or swelling of the genitals or the area between the genitals and the anus with fever or 
 feeling generally unwell. These symptoms could be a sign of a rare but serious or even 
-lifethreatening infection, called necrotising fasciitis of the perineum or Fournier’s gangrene 
-which destroys the tissue under the skin. Fournier’s gangrene has to be treated immediately. </li>
+lifethreatening infection, called necrotising fasciitis of the perineum or Fournier s gangrene 
+which destroys the tissue under the skin. Fournier s gangrene has to be treated immediately. </li>
 </ul>
 <p>Talk to your doctor, pharmacist or nurse before taking Dapagliflozin Viatris: </p>
 <ul>
-<li>If you have ‘type 1 diabetes’ – the type that usually starts when you are young, and your body 
+<li>If you have  type 1 diabetes    the type that usually starts when you are young, and your body 
 does not produce any insulin. </li>
-<li>If you have diabetes and have a kidney problem – your doctor may ask you to take additional 
+<li>If you have diabetes and have a kidney problem   your doctor may ask you to take additional 
 or a different medicine to control your blood sugar. </li>
-<li>If you have a liver problem – your doctor may start you on a lower dose. </li>
+<li>If you have a liver problem   your doctor may start you on a lower dose. </li>
 <li>If you are on medicines to lower your blood pressure (anti-hypertensives) and have a history 
-of low blood pressure (hypotension). More information is given below under ‘Other medicines 
-and Dapagliflozin Viatris’. </li>
+of low blood pressure (hypotension). More information is given below under  Other medicines 
+and Dapagliflozin Viatris . </li>
 <li>If you have very high levels of sugar in your blood which may make you dehydrated (lose too 
 much body fluid). Possible signs of dehydration are listed in section 4. Tell your doctor before 
 you start taking this medicine if you have any of these signs. </li>
@@ -202,7 +202,7 @@ medicines. </p>
 <p>Especially tell your doctor: 
 * if you are taking a medicine used to remove water from the body (diuretic). 
 * if you are taking other medicines that lower the amount of sugar in your blood such as insulin or 
-a ‘sulphonylurea’ medicine. Your doctor may want to lower the dose of these other medicines, 
+a  sulphonylurea  medicine. Your doctor may want to lower the dose of these other medicines, 
 to prevent you from getting low blood sugar levels (hypoglycaemia). 
 * if you are taking lithium because Dapagliflozin Viatris can lower the amount of lithium in your 
 blood. </p>
@@ -224,8 +224,8 @@ change in vision, and may affect your ability to drive and use machines. </p>
 <p>Dapagliflozin Viatris contains lactose (milk sugar). If you have been told by your doctor that you have 
 an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Dapagliflozin Viatris contains sodium. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dapagliflozin"
@@ -279,18 +279,24 @@ blood sugar may increase without this medicine. </p>
 <p>Contact a doctor or the nearest hospital straight away if you have any of the following side 
 effects: </p>
 <ul>
-<li>angioedema, seen very rarely (may affect up to 1 in 10 000 people). 
-These are signs of angioedema: </li>
-<li>swelling of the face, tongue or throat </li>
+<li>
+<p>angioedema, seen very rarely (may affect up to 1 in 10 000 people). 
+These are signs of angioedema:</p>
+</li>
+<li>
+<p>swelling of the face, tongue or throat </p>
+</li>
 <li>difficulties swallowing </li>
 <li>
 <p>hives and breathing problems </p>
 </li>
 <li>
 <p>diabetic ketoacidosis - this is rare in patients with type 2 diabetes (may affect up to 1 in 1 people). 
-These are the signs of diabetic ketoacidosis (see also section 2 Warnings and precautions): </p>
+These are the signs of diabetic ketoacidosis (see also section 2 Warnings and precautions):</p>
 </li>
-<li>increased levels of ‘ketone bodies’ in your urine or blood </li>
+<li>
+<p>increased levels of  ketone bodies  in your urine or blood </p>
+</li>
 <li>feeling sick or being sick </li>
 <li>stomach pain </li>
 <li>excessive thirst </li>
@@ -304,24 +310,32 @@ to your urine or sweat </li>
 <p>This may occur regardless of blood sugar level. Your doctor may decide to temporarily or permanently 
 stop your treatment with Dapagliflozin Viatris. </p>
 <ul>
-<li>necrotising fasciitis of the perineum or Fournier’s gangrene, a serious soft tissue infection of 
+<li>necrotising fasciitis of the perineum or Fournier s gangrene, a serious soft tissue infection of 
 the genitals or the area between the genitals and the anus, seen very rarely. </li>
 </ul>
 <p>Stop taking Dapagliflozin Viatris and see a doctor as soon as possible if you notice any of the 
 following serious side effects: </p>
 <ul>
-<li>urinary tract infection, seen commonly (may affect up to 1 in 10 people). 
-These are signs of a severe infection of the urinary tract: </li>
-<li>fever and/or chills </li>
+<li>
+<p>urinary tract infection, seen commonly (may affect up to 1 in 10 people). 
+These are signs of a severe infection of the urinary tract:</p>
+</li>
+<li>
+<p>fever and/or chills </p>
+</li>
 <li>burning sensation when passing water (urinating) </li>
 <li>pain in your back or side. </li>
 </ul>
 <p>Although uncommon, if you see blood in your urine, tell your doctor immediately. </p>
 <p>Contact your doctor as soon as possible if you have any of the following side effects: </p>
 <ul>
-<li>low blood sugar levels (hypoglycaemia), seen very commonly (may affect more than 1 in people) in patients with diabetes taking this medicine with a sulphonylurea or insulin. These are 
-the signs of low blood sugar: </li>
-<li>shaking, sweating, feeling very anxious, fast heart beat </li>
+<li>
+<p>low blood sugar levels (hypoglycaemia), seen very commonly (may affect more than 1 in people) in patients with diabetes taking this medicine with a sulphonylurea or insulin. These are 
+the signs of low blood sugar:</p>
+</li>
+<li>
+<p>shaking, sweating, feeling very anxious, fast heart beat </p>
+</li>
 <li>feeling hungry, headache, change in vision </li>
 <li>a change in your mood or feeling confused. </li>
 </ul>
@@ -362,7 +376,7 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store dapagliflozin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after ‘EXP’. The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -379,18 +393,18 @@ throw away medicines you no longer use. These measures will help protect the env
 <li>The active substance is dapagliflozin. </li>
 <li>The other ingredients are: 
 Tablet core: microcrystalline cellulose (E460i), lactose monohydrate (see section 2 
-‘Dapagliflozin Viatris contains lactose’), crospovidone (E1202),, magnesium stearate (E470b), 
-sodium laurilsulfate (see section 2 ‘Dapagliflozin Viatris contains sodium’), colloidal anhydrous 
+ Dapagliflozin Viatris contains lactose ), crospovidone (E1202),, magnesium stearate (E470b), 
+sodium laurilsulfate (see section 2  Dapagliflozin Viatris contains sodium ), colloidal anhydrous 
 silica, mannitol. 
 Film-coating: polyvinyl alcohol (E1203), titanium dioxide (E171), macrogol 6000 (E1521), talc 
 (E553b), yellow iron oxide (E172). </li>
 </ul>
 <p>What Dapagliflozin Viatris looks like and contents of the pack </p>
 <p>Dapagliflozin Viatris 5 mg film-coated tablets are yellow coloured, round shaped, biconvex film-
-coated tablet with diameter of approximetely 7.24 mm. Debossed with ‘5’ on one side and plain on the 
+coated tablet with diameter of approximetely 7.24 mm. Debossed with  5  on one side and plain on the 
 other side. </p>
 <p>Dapagliflozin Viatris 10 mg film-coated tablets are yellow coloured, diamond shaped, biconvex with 
-dimensions of approximately 11 x 8 mm. Debossed with ‘10’ on one side and plain on the other side. </p>
+dimensions of approximately 11 x 8 mm. Debossed with  10  on one side and plain on the other side. </p>
 <p>Dapagliflozin Viatris 5 mg tablets are available in: 
 Aluminium blisters in pack sizes of 14, 28, 30 or 98 film-coated tablets. 
 Calendar blisters of 28 or 98 film-coated tablets 
@@ -411,25 +425,23 @@ Ireland </p>
 <p>Name and address of the manufacturer responsible for batch release </p>
 <p>Mylan Hungary Kft 
 Mylan Utca 1 
-Komárom, 2900, Hungary </p>
+Kom rom, 2900, Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-Tél/Tel: + 32 (0)2 658 61<br />
+T l/Tel: + 32 (0)2 658 61<br />
 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 
-България 
-Майлан ЕООД 
-Тел: +359 2 44 55<br />
+Tel: +370 5 205 1 </p>
+<p>: +359 2 44 55<br />
 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
 Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
-<p>Česká republika 
+<p>esk  republika 
 Mylan Healthcare CZ s.r.o. 
 Tel: +420 222 004<br />
-Magyarország 
+Magyarorsz g 
 Mylan EPD Kft 
 Tel: + 36 1 465 2 
 Danmark 
@@ -449,14 +461,13 @@ BGP Products Switzerland GmbH Eesti filiaal
 Tel: + 372 6363<br />
 Norge 
 Mylan Healthcare Norge AS 
-Tel: + 47 66 75 33<br />
-Ελλάδα 
-Generics Pharma Hellas ΕΠΕ 
-Τηλ: +30 210 993 6 
-Österreich 
+Tel: + 47 66 75 33  </p>
+<p>Generics Pharma Hellas <br />
+ : +30 210 993 6 
+ sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2 
-España 
+Espa a 
 Mylan Pharmaceuticals, S.L 
 Tel: + 34 900 102<br />
 Polska 
@@ -471,7 +482,7 @@ Tel: + 351 21 412 72<br />
 Hrvatska 
 Mylan Hrvatska d.o.o. 
 Tel: +385 1 23 50<br />
-România 
+Rom nia 
 BGP Products SRL 
 Tel: +40 372 579<br />
 Ireland 
@@ -480,10 +491,10 @@ Tel: +353 1 8711
 Slovenija 
 Mylan Healthcare d.o.o. 
 Tel: + 386 1 23 63<br />
-Ísland 
+ sland 
 Icepharma hf 
-Símí: +354 540 8 
-Slovenská republika 
+S m : +354 540 8 
+Slovensk  republika 
 Mylan s.r.o. 
 Tel: +421 2 32 199<br />
 Italia 
@@ -491,10 +502,9 @@ Mylan Italia S.r.l.
 Tel: + 39 02 612 46 
 Suomi/Finland 
 Mylan Finland OY 
-Puh/Tel: +358 20 720 9 
-Κύπρος 
-Varnavas Hadjipanayis Ltd 
-Τηλ: +357 2220 7 
+Puh/Tel: +358 20 720 9 </p>
+<p>Varnavas Hadjipanayis Ltd 
+ : +357 2220 7 
 Sverige 
 Mylan AB 
 Tel: + 46 855 522<br />

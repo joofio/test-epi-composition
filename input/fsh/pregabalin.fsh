@@ -4,7 +4,7 @@ Instance: composition-en-ee1b9e575d1fb256c3611a3cc10df97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for pregabalin Package Leaflet"
 Description:  "Composition for pregabalin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -150,8 +150,8 @@ breaths. </li>
 </ul>
 <p>Dependence 
 Some people may become dependent on Pregabalin Zentiva (a need to keep taking the medicine). 
-They may have withdrawal effects when they stop using Pregabalin Zentiva (see section 3, “How to 
-take Pregabalin Zentiva” and “If you stop taking Pregabalin Zentiva”). If you have concerns that you 
+They may have withdrawal effects when they stop using Pregabalin Zentiva (see section 3,  How to 
+take Pregabalin Zentiva  and  If you stop taking Pregabalin Zentiva ). If you have concerns that you 
 may become dependent on Pregabalin Zentiva, it is important that you consult your doctor. </p>
 <p>If you notice any of the following signs whilst taking Pregabalin Zentiva, it could be a sign that you 
 have become dependent: 
@@ -328,16 +328,16 @@ on the trunk, often with central blisters, skin peeling, ulcers of mouth, throat
 eyes. These serious skin rashes can be preceded by fever and flu-like symptoms (Stevens-
 Johnson syndrome, toxic epidermal necrolysis).<br />
 * Jaundice (yellowing of the skin and eyes). 
-* Parkinsonism, that is symptoms resembling Parkinson’s disease; such as tremor, bradykinesia 
+* Parkinsonism, that is symptoms resembling Parkinson s disease; such as tremor, bradykinesia 
 (decreased ability to move), and rigidity (muscle stiffness). </p>
 <p>Very rare: may affect up to 1 in 10 000 people 
 * Liver failure. 
 * Hepatitis (inflammation of the liver). </p>
 <p>Not known: frequency cannot be estimated from the available data 
-* Becoming dependent on Pregabalin Zentiva (‘drug dependence’). </p>
+* Becoming dependent on Pregabalin Zentiva ( drug dependence ). </p>
 <p>After stopping a short or long-term treatment with Pregabalin Zentiva, you need to know that you may 
-experience certain side effects, so-called withdrawal effects (see “If you stop taking Pregabalin 
-Zentiva”). </p>
+experience certain side effects, so-called withdrawal effects (see  If you stop taking Pregabalin 
+Zentiva ). </p>
 <p>Certain side effects may be more common, such as sleepiness, because patients with spinal cord injury 
 may be taking other medicines to treat, for example, pain or spasticity, that have similar side effects to 
 pregabalin and the severity of these effects may be increased when taken together. </p>
@@ -355,9 +355,9 @@ of this medicine. </p>         </div>"""
   * code.text = "5. How to store pregabalin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the blister and carton after “EXP”. 
+Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
 The expiry date refers to the last day of that month. 
-Do not store above 25 °C. 
+Do not store above 25  C. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -378,28 +378,28 @@ yellow iron oxide (E172). </p>
 <p>What Pregabalin Zentiva looks like and contents of the pack 
 25 mg capsules 
 Light grey cap and light grey body; approx. 15,9 mm in length, hard gelatin 
-capsule with imprinting “25”, containing almost white powder. </p>
+capsule with imprinting  25 , containing almost white powder. </p>
 <p>50 mg capsules 
 Light grey cap and light grey body; approx. 14,3 mm in length, hard gelatin 
-capsule with imprinting “50”, containing almost white powder. 
+capsule with imprinting  50 , containing almost white powder. 
 75 mg capsules 
 Red cap and light grey body; approx. 14,3 mm in length, hard gelatin 
-capsule with imprinting “75”, containing almost white powder. 
+capsule with imprinting  75 , containing almost white powder. 
 100 mg capsules 
 Red cap and red body; approx. 15,9 mm in length, hard gelatin capsule with 
-imprinting “100”, containing almost white powder. 
+imprinting  100 , containing almost white powder. 
 150 mg capsules 
 Light grey cap and light grey body; approx. 18,0 mm in length, hard gelatin 
-capsule with imprinting “150”, containing almost white powder. 
+capsule with imprinting  150 , containing almost white powder. 
 200 mg capsules 
 Flesh opaque cap and Flesh opaque body; approx. 19,4 mm in length, hard 
-gelatin capsule with imprinting “200”, containing almost white powder. 
+gelatin capsule with imprinting  200 , containing almost white powder. 
 225 mg capsules 
 Flesh opaque cap and light grey body; approx. 19,4 mm in length, hard 
-gelatin capsule with imprinting “225”, containing almost white powder. 
+gelatin capsule with imprinting  225 , containing almost white powder. 
 300 mg capsules 
 Red cap and light grey body; approx. 21,7 mm in length, hard gelatin 
-capsule with imprinting “300”, containing almost white powder. </p>
+capsule with imprinting  300 , containing almost white powder. </p>
 <p>Pregabalin Zentiva 25 mg hard capsules are packed into alu/alu (OPA/alu/PVC/alu) or PVC/PVDC/alu 
 blisters as primary packaging. 
 Pregabalin Zentiva 50 mg, 75 mg, 100 mg, 150 mg, 200 mg, 225 mg and 300 mg hard capsules are 
@@ -421,16 +421,15 @@ U Kabelovny 102 37 Prague Czech Republic </p>
 B-dul Theodor Pallady nr.50, sector 3, Bucharest, cod 032Romania </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Zentiva, k.s. 
-Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+T l/Tel: +32 280 86 PV-Belgium@zentiva.com 
 Lietuva 
 Zentiva, k.s. 
-Tel: +370 52152PV-Lithuania@zentiva.com 
-България 
-Zentiva, k.s. 
-Тел: +359 244 17 PV-Bulgaria@zentiva.com 
-Česká republika 
+Tel: +370 52152PV-Lithuania@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +359 244 17 PV-Bulgaria@zentiva.com 
+ esk  republika 
 Zentiva, k.s. 
 Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
 Danmark 
@@ -441,16 +440,15 @@ Zentiva Pharma GmbH<br />
 Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com 
 Eesti 
 Zentiva, k.s. 
-Tel: +372 52 70PV-Estonia@zentiva.com 
-Ελλάδα 
-Zentiva, k.s. 
-Τηλ: +30 211 198 7PV-Greece@zentiva.com 
-España 
+Tel: +372 52 70PV-Estonia@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +30 211 198 7PV-Greece@zentiva.com 
+Espa a 
 Zentiva, k.s. 
 Tel: +34 931 815 PV-Spain@zentiva.com 
 France 
 Zentiva France 
-Tél: +33 (0) 800 089 PV-France@zentiva.com 
+T l: +33 (0) 800 089 PV-France@zentiva.com 
 Hrvatska 
 Zentiva d.o.o. 
 Tel: +385 1 6641 PV-Croatia@zentiva.com 
@@ -458,13 +456,13 @@ Ireland
 Zentiva, k.s. 
 Tel: +353 818 882 243<br />
 PV-Ireland@zentiva.com 
-Ísland 
+ sland 
 Zentiva Denmark ApS 
-Sími: +354 539 0PV-Iceland@zentiva.com 
+S mi: +354 539 0PV-Iceland@zentiva.com 
 Luxembourg/Luxemburg 
 Zentiva, k.s. 
-Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
-Magyarország 
+T l/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Magyarorsz g 
 Zentiva Pharma Kft. 
 Tel.: +36 1 299 1PV-Hungary@zentiva.com 
 Malta 
@@ -476,7 +474,7 @@ Tel: +31 202 253 PV-Netherlands@zentiva.com
 Norge 
 Zentiva Denmark ApS 
 Tlf: +47 219 66 PV-Norway@zentiva.com 
-Österreich 
+ sterreich 
 Zentiva, k.s. 
 Tel: +43 720 778 PV-Austria@zentiva.com 
 Polska 
@@ -485,13 +483,13 @@ Tel: + 48 22 375 92 PV-Poland@zentiva.com
 Portugal 
 Zentiva Portugal, Lda 
 Tel: +351210601PV-Portugal@zentiva.com 
-România 
+Rom nia 
 ZENTIVA S.A. 
 Tel: +4 021.304.7PV-Romania@zentiva.com 
 Slovenija 
 Zentiva, k.s. 
 Tel: +386 360 00 PV-Slovenia@zentiva.com 
-Slovenská republika 
+Slovensk  republika 
 Zentiva, a.s. 
 Tel: +421 2 3918 3PV-Slovakia@zentiva.com </p>
 <p>Italia 
@@ -499,10 +497,9 @@ Zentiva Italia S.r.l.
 Tel: +39-02-38598PV-Italy@zentiva.com 
 Suomi/Finland 
 Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
-Κύπρος 
-Zentiva, k.s. 
-Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +357 240 30 PV-Cyprus@zentiva.com 
 Sverige 
 Zentiva Denmark ApS 
 Tel: +46 840 838 PV-Sweden@zentiva.com 

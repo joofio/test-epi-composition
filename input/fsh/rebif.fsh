@@ -4,7 +4,7 @@ Instance: composition-en-1e58e95d51201027f560781373a2f270
 InstanceOf: CompositionUvEpi
 Title: "Composition for rebif Package Leaflet"
 Description:  "Composition for rebif Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -93,8 +93,8 @@ this medicine (listed in section 6).
 Talk to your doctor, pharmacist or nurse before using Rebif. </p>
 <ul>
 <li>Rebif should only be used under the supervision of your doctor. </li>
-<li>Before treatment with Rebif, read carefully and follow the advice given under “How to use 
-Rebif” in order to minimise the risk of injection site necrosis (skin breakdown and tissue 
+<li>Before treatment with Rebif, read carefully and follow the advice given under  How to use 
+Rebif  in order to minimise the risk of injection site necrosis (skin breakdown and tissue 
 destruction) that has been reported in patients treated with Rebif. If you experience troubling 
 local reactions, contact your doctor. </li>
 <li>Talk to your doctor or pharmacist before taking Rebif if you have an allergy (hypersensitivity) 
@@ -126,15 +126,15 @@ Effects of the disease itself or of its treatment might influence your ability t
 You should discuss this with your doctor if you are concerned. </p>
 <p>Rebif contains sodium and benzyl alcohol 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially 
-‘sodium-free’. </p>
+ sodium-free . </p>
 <p>This medicine contains 2.5 mg benzyl alcohol per dose. Benzyl alcohol may cause allergic reactions. </p>
 <p>Benzyl alcohol has been linked with the risk of severe side effects including breathing problems (called 
-“gasping syndrome”) in young children.  </p>
+ gasping syndrome ) in young children.  </p>
 <p>Do not use for more than a week in young children (less than 3 years old), unless advised by your 
 doctor or pharmacist. </p>
 <p>Ask your doctor or pharmacist for advice if you are pregnant or breast-feeding, or if you have a liver 
 or kidney disease. This is because large amounts of benzyl alcohol can build-up in your body and may 
-cause side effects (called “metabolic acidosis”). </p>         </div>"""   
+cause side effects (called  metabolic acidosis ). </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rebif"
@@ -265,7 +265,7 @@ breakdown are very common.<br />
 The occurrence of injection site reactions usually decreases over time.<br />
 Tissue destruction (necrosis), abscess and mass at injection site are uncommon (may affect up to 
 1 in 100 people). 
-See recommendations in section “Warnings and precautions” to minimise the risk of injection 
+See recommendations in section  Warnings and precautions  to minimise the risk of injection 
 site reactions. 
 The injection site can become infected (uncommon); the skin may become swollen tender and 
 hard and the whole area could be very painful. If you experience any of these symptoms, contact 
@@ -281,7 +281,7 @@ include tiredness, reduced ability to fight infection, bruising or unexplained b
 Liver function tests may be disturbed (very common). Inflammation of the liver has also been 
 reported (uncommon). If you experience symptoms suggesting a liver disorder, such as loss of 
 appetite accompanied by other symptoms such as nausea, vomiting, jaundice, please contact 
-your doctor immediately (see above “Tell your doctor immediately...”). </p>
+your doctor immediately (see above  Tell your doctor immediately... ). </p>
 </li>
 <li>
 <p>Thyroid dysfunction is uncommon. The thyroid gland may function either excessively, or 
@@ -327,11 +327,13 @@ include muscle pain, joint pain and swelling, and rash. You may also experience 
 such as fever, weight loss, and fatigue. Usually symptoms disappear within one or two weeks 
 after treatment is stopped. 
 * Kidney problems including scarring that may reduce your kidney function. 
-If you get some or all of these symptoms:<br />
-- foamy urine<br />
-- fatigue<br />
-- swelling, particularly in the ankles and eyelids, and weight gain. 
-Tell your doctor as they may be signs of a possible kidney problem. </p>
+If you get some or all of these symptoms:</p>
+<ul>
+<li>foamy urine  </li>
+<li>fatigue  </li>
+<li>swelling, particularly in the ankles and eyelids, and weight gain. 
+Tell your doctor as they may be signs of a possible kidney problem. </li>
+</ul>
 <p>The following side effects were reported for interferon beta (frequency not known) 
 * Dizziness<br />
 <em> Nervousness 
@@ -344,7 +346,7 @@ Pulmonary arterial hypertension has been seen at various time points during trea
 including several years after starting treatment with Rebif. 
 * Inflammation of the fatty tissue under the skin (panniculitis), which can make the skin feel hard 
 and possibly develop painful red lumps or patches. </p>
-<p>You should not stop or alter the medication without your doctor’s advice. </p>
+<p>You should not stop or alter the medication without your doctor s advice. </p>
 <p>Children and teenagers 
 Side effects in children and teenagers are similar to those observed in adults. </p>
 <p>Reporting of side effects 
@@ -360,10 +362,10 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP. </p>
-<p>Store in a refrigerator (2°C – 8°C).  </p>
+<p>Store in a refrigerator (2 C   8 C).  </p>
 <p>Do not freeze. (To prevent accidental freezing, avoid placing near the freezer compartment). </p>
 <p>For the purpose of ambulatory use, you may remove Rebif from the refrigerator and store it not above 
-25°C for one single period of up to 14 days. Rebif must then be returned to the refrigerator and used 
+25 C for one single period of up to 14 days. Rebif must then be returned to the refrigerator and used 
 before the expiry date. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not use this medicine if you notice any visible signs of deterioration such as if the solution is no 
@@ -403,15 +405,11 @@ Package leaflet: Information for the user </p>
 <p>Rebif 44 micrograms solution for injection in pre-filled syringe 
 interferon beta-1a </p>
 <p>Read all of this leaflet carefully before you start using this medicine because it contains 
-important information for you. 
-− 
-Keep this leaflet. You may need to read it again. 
-− 
-If you have any further questions, ask your doctor, pharmacist or nurse. 
-− 
-This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
-even if their signs of illness are the same as yours. 
-− 
-If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+important information for you. </p>
+<p>Keep this leaflet. You may need to read it again. </p>
+<p>If you have any further questions, ask your doctor, pharmacist or nurse. </p>
+<p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. </p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet. See section </p>         </div>"""      
 

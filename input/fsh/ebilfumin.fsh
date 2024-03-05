@@ -4,7 +4,7 @@ Instance: composition-en-eb8ec19effa25a547e158c24705b1a5c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebilfumin Package Leaflet"
 Description:  "Composition for ebilfumin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,21 +69,23 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What ebilfumin is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Ebilfumin is used for adults, adolescents, children and infants (including full-term newborn 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Ebilfumin is used for adults, adolescents, children and infants (including full-term newborn 
 babies) for treating flu (influenza). It can be used when you have flu symptoms, and the flu 
-virus is known to be going round in your community. 
-* Ebilfumin can also be prescribed for adults, adolescents, children and infants above 1 year of 
-age for preventing flu, on a case-by-case basis – for instance, if you have been in contact with 
-someone who has flu. 
-* Ebilfumin may be prescribed for adults, adolescents, children and infants (including full-term 
-newborn babies) as preventive treatment in exceptional circumstances – for example, if there 
+virus is known to be going round in your community. </li>
+<li>Ebilfumin can also be prescribed for adults, adolescents, children and infants above 1 year of 
+age for preventing flu, on a case-by-case basis   for instance, if you have been in contact with 
+someone who has flu. </li>
+<li>Ebilfumin may be prescribed for adults, adolescents, children and infants (including full-term 
+newborn babies) as preventive treatment in exceptional circumstances   for example, if there 
 is a global epidemic of flu (a flu pandemic) and the seasonal flu vaccine may not provide 
-sufficient protection.  </p>
+sufficient protection.  </li>
+</ul>
 <p>Ebilfumin contains oseltamivir, which belongs to a group of medicines named neuraminidase 
 inhibitors. These medicines prevent the flu virus from spreading inside the body. They help to ease 
 or prevent the symptoms of the flu virus infection. </p>
 <p>Influenza, usually called flu, is an infection caused by a virus. The signs of flu often include a sudden 
-fever (more than 37.8 °C), cough, runny or stuffy nose, headaches, muscle aches and extreme 
+fever (more than 37.8  C), cough, runny or stuffy nose, headaches, muscle aches and extreme 
 tiredness. These symptoms can also be caused by other infections. True influenza infection only occurs 
 during annual outbreaks (epidemics) when flu viruses are spreading in the local community. Outside 
 epidemic periods, flu-like symptoms are usually caused by a different type of illness. </p>         </div>"""   
@@ -132,7 +134,7 @@ so that your doctor can decide if Ebilfumin is right for you. </p>
 Ebilfumin has no effect on your ability to drive or use machines. </p>
 <p>Ebilfumin contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebilfumin"
@@ -151,7 +153,7 @@ better quickly. </p>
 is best to take this in the mornings with breakfast. </p>
 <p>In special situations, such as widespread flu or for patients with a weak immune system, treatment 
 will continue for up to 6 or 12 weeks. </p>
-<p>The recommended dose is based on the patient’s body weight. You must use the amount of 
+<p>The recommended dose is based on the patient s body weight. You must use the amount of 
 oral capsules or suspension prescribed by the doctor. </p>
 <p>Adults and adolescents 13 years and over </p>
 <p>Body weight 
@@ -221,14 +223,14 @@ weight</em><em>, twice daily
 3 mg per kg</em>*,<br />
 once daily 
 * For infants with a weak immune system, treatment is for 10 days. </p>
-<p>** mg per kg = mg for each kilogram of the infant’s body weight. For example: 
+<p>** mg per kg = mg for each kilogram of the infant s body weight. For example: 
 If a 6-month-old weighs 8 kg, the dose is8 kg x 3mg per kg = 24 mg </p>
 <p>Method of administration 
 Swallow the capsules whole with water. Do not break or chew the capsules. </p>
 <p>Ebilfumin can be taken with or without food, although taking it with food can reduce the chance 
 of feeling or being sick (nausea or vomiting). </p>
 <p>People who find it hard to take capsules can use a liquid form of this medicine (oral 
-suspension). If you need an oral suspension but it’s not available from your pharmacy, you can 
+suspension). If you need an oral suspension but it s not available from your pharmacy, you can 
 make a liquid form of Ebilfumin from these capsules. See Making Liquid Ebilfumin at home for 
 instructions. </p>
 <p>If you take more Ebilfumin than you should 
@@ -361,7 +363,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store below 25°C. </p>
+<p>Store below 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -380,114 +382,6 @@ capsule shell: gelatin, yellow iron oxide (E172) and titanium dioxide (E171)
 printing ink: shellac glaze-45% (20% esterified), black iron oxide (E172), propylene glycol 
 (E1520), ammonium hydroxide 28% (E527) </p>
 <p>What Ebilfumin looks like and contents of the pack 
-The hard capsule consists of a rich yellow body and cap bearing the black imprint “OS 30”. Capsule 
-size: 4.<br />
-Ebilfumin 30 mg hard capsules are available in blister packs or tablet containers of 10.<br />
-Marketing Authorisation Holder 
-Actavis Group PTC ehf. 
-Dalshraun 1 
-220 Hafnarfjörður 
-Iceland </p>
-<p>Manufacturer 
-Balkanpharma-Dupnitsa AD 
-3 Samokovsko Shosse Str. 
-Dupnitsa 2Bulgaria </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
-Lietuva 
-UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Teл: +359 24899 
-Luxembourg/Luxemburg 
-TEVA GmbH 
-Tel: +49 73140 
-Česká republika 
-Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
-Tel: +36 12886 
-Danmark 
-Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
-Teva Pharmaceuticals Ireland 
-L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
-TEVA GmbH 
-Tel: +49 73140 
-Nederland 
-Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
-UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
-Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>Ελλάδα 
-Specifar Α.Β.Ε.Ε. 
-Τηλ: +30 2118805 
-Österreich 
-ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-España 
-Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
-Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
-Teva Santé 
-Tél: +33 155917 
-Portugal 
-Teva Pharma - Produtos Farmacêuticos, 
-Lda. 
-Tel: +351 214767 
-Hrvatska 
-Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-România 
-Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
-Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
-Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
-Ísland 
-Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
-TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
-Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
-Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
-Sverige 
-Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
-UAB Teva Baltics filiāle Latvijā 
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
-Teva Pharmaceuticals Ireland 
-Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in {MM/YYYY} {month YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+The hard capsule consists of a rich yellow body and cap bearing the black imprint  OS 30 . Capsule 
+size: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: CompositionUvEpi
 Title: "Composition for bylvay Package Leaflet"
 Description:  "Composition for bylvay Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -149,15 +149,15 @@ may be opened and sprinkled on food. </p>
 * Place a small amount of soft food into a bowl (2 tablespoons/30 mL of yoghurt, apple sauce, 
 banana or carrot puree, chocolate pudding, rice pudding or oatmeal porridge). Food should be at 
 or below room temperature. </p>
-<p>• Hold the capsule horizontally at both ends, twist in 
+<p>Hold the capsule horizontally at both ends, twist in 
 opposite directions. </p>
-<p>• Pull apart to empty the contents into the bowl of 
+<p>Pull apart to empty the contents into the bowl of 
 soft food. </p>
-<p>• Gently tap the capsule to ensure that all pellets 
+<p>Gently tap the capsule to ensure that all pellets 
 come out. </p>
-<p>• Repeat the previous step if the dose requires more 
+<p>Repeat the previous step if the dose requires more 
 than one capsule. </p>
-<p>• Gently mix the contents of the capsule into the soft 
+<p>Gently mix the contents of the capsule into the soft 
 food. </p>
 <ul>
 <li>Take the entire dose immediately after mixing. Do not store the mixture for future use. </li>
@@ -201,7 +201,7 @@ of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the carton and bottle after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in the original package to protect from light. Do not store above 25 °C. </p>
+<p>Store in the original package to protect from light. Do not store above 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -247,16 +247,16 @@ Propylene glycol
 Black iron oxide (E172) </p>
 <p>What Bylvay looks like and contents of the pack </p>
 <p>Bylvay 200 micrograms hard capsules: 
-Size 0 capsules (21.7 mm × 7.64 mm) with ivory opaque cap and white opaque body; imprinted 
-“A200” with black ink.  </p>
+Size 0 capsules (21.7 mm   7.64 mm) with ivory opaque cap and white opaque body; imprinted 
+ A200  with black ink.  </p>
 <p>Bylvay 400 micrograms hard capsules: 
-Size 3 capsules (15.9 mm × 5.82 mm) with orange opaque cap and white opaque body; imprinted 
-“A400” with black ink.  </p>
+Size 3 capsules (15.9 mm   5.82 mm) with orange opaque cap and white opaque body; imprinted 
+ A400  with black ink.  </p>
 <p>Bylvay 600 micrograms hard capsules: 
-Size 0 capsules (21.7 mm × 7.64 mm) with ivory opaque cap and body; imprinted “A600” with black 
+Size 0 capsules (21.7 mm   7.64 mm) with ivory opaque cap and body; imprinted  A600  with black 
 ink. </p>
 <p>Bylvay 1 200 micrograms hard capsules: 
-Size 3 capsules (15.9 mm × 5.82 mm) with orange opaque cap and body; imprinted “A1200” with 
+Size 3 capsules (15.9 mm   5.82 mm) with orange opaque cap and body; imprinted  A1200  with 
 black ink. </p>
 <p>Bylvay hard capsules are packed in a plastic bottle with a tamper evident, child resistant 
 polypropylene closure. Pack size: 30 hard capsules. </p>
@@ -274,75 +274,73 @@ BT63 5UA
 United Kingdom (Northern Ireland) </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/Luxembourg/ 
+<p>Belgi /Belgique/Belgien/Luxembourg/ 
 Luxemburg 
 Ipsen NV 
-België/Belgique/Belgien 
-Tél/Tel: +32 9 243 96<br />
+Belgi /Belgique/Belgien 
+T l/Tel: +32 9 243 96<br />
 Italia 
 Ipsen SpA 
-Tel: + 39 02 39 22<br />
-България 
-Swixx Biopharma EOOD 
-Teл.: +359 (0)2 4942<br />
+Tel: + 39 02 39 22  </p>
+<p>Swixx Biopharma EOOD 
+Te .: +359 (0)2 4942<br />
 Latvija 
 Ipsen Pharma representative office 
 Tel: + 371 67622 
-Česká republika 
+ esk  republika 
 Ipsen Pharma s.r.o<br />
 Tel: +420 242 481<br />
 Lietuva 
 Ipsen Pharma SAS Lietuvos filialas 
 Tel: +370 700 33 
 Danmark, Norge, Suomi/Finland, Sverige, 
-Ísland 
-Institut Produits Synthèse (IPSEN) AB 
-Sverige/Ruotsi/Svíþjóð 
-Tlf/Puh/Tel/Sími: +46 8 451 60<br />
-Magyarország 
+ sland 
+Institut Produits Synth se (IPSEN) AB 
+Sverige/Ruotsi/Sv j<br />
+Tlf/Puh/Tel/S mi: +46 8 451 60<br />
+Magyarorsz g 
 IPSEN Pharma Hungary Kft. 
 Tel.: + 36 1 555 5 
-Deutschland, Österreich 
+Deutschland,  sterreich 
 Ipsen Pharma GmbH 
 Deutschland 
 Tel: +49 89 2620 432<br />
 Nederland 
 Ipsen Farmaceutica B.V.Tel: +31 (0) 23 554 1 
 Eesti 
-Centralpharma Communications OÜ 
+Centralpharma Communications O<br />
 Tel: +372 60 15<br />
 Polska 
 Ipsen Poland Sp. z o.o. 
 Tel.: + 48 22 653 68<br />
-Ελλάδα, Κύπρος, Malta 
-Ipsen Μονοπρόσωπη EΠΕ 
-Ελλάδα 
-Τηλ: +30 210 984 3 
+ ,  , Malta 
+Ipsen   E  </p>
+<p>: +30 210 984 3 
 Portugal 
-Ipsen Portugal - Produtos Farmacêuticos S.A. 
+Ipsen Portugal - Produtos Farmac uticos S.A. 
 Tel: + 351 21 412 3 
-España 
+Espa a 
 Ipsen Pharma, S.A.U. 
 Tel: +34 936 858<br />
-România 
-Ipsen Pharma România SRL 
+Rom nia 
+Ipsen Pharma Rom nia SRL 
 Tel: + 40 21 231 27<br />
 France 
 Ipsen Pharma 
-Tél : +33 (0)1 58 33 50 Slovenija 
+T l : +33 (0)1 58 33 50 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: + 386 1 2355  </p>
 <p>Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078<br />
-Slovenská republika 
-Ipsen Pharma, organizačná zložka 
+Slovensk  republika 
+Ipsen Pharma, organiza n  zlo ka 
 Tel: + 420 242 481<br />
 Ireland, United Kingdom (Northern Ireland) 
 Ipsen Pharmaceuticals Limited 
 Tel: +44 (0)1753 62 77  </p>
 <p>This leaflet was last revised in </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

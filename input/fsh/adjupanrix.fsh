@@ -4,7 +4,7 @@ Instance: composition-en-21182c5873285a39663676519ff4bbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for adjupanrix Package Leaflet"
 Description:  "Composition for adjupanrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,12 +55,11 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
 1. What Adjupanrix is and what it is used for 
-2. What you need to know before you receive Adjupanrix 
+2. What you need to know before you receive  Adjupanrix 
 3. How Adjupanrix is given 
 4. Possible side effects 
 5. How to store Adjupanrix 
-6. Contents of the pack and otherinformation 
-         </div>"""   
+6. Contents of the pack and otherinformation          </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +74,7 @@ situation. </p>
 decades. It spreads rapidly around the world. The signs of pandemic flu are similar to those of 
 ordinary flu but may be more serious. </p>
 <p>How Adjupanrix works 
-When a person is given the vaccine, the body’s natural defence system (immune system) produces its 
+When a person is given the vaccine, the body s natural defence system (immune system) produces its 
 own protection (antibodies) against the disease. None of the ingredients in the vaccine can cause flu. </p>
 <p>As with all vaccines, Adjupanrix may not fully protect all persons who are vaccinated. </p>         </div>"""   
           
@@ -103,7 +102,7 @@ medical treatment is available straight away, in case you have an allergic react
 <li>if you have had any allergic reaction other than a sudden life-threatening allergic reaction to any 
 ingredient of Adjupanrix (listed in section 6) or to thiomersal, to egg and chicken protein, 
 ovalbumin, formaldehyde, gentamicin sulphate (antibiotic) or to sodium deoxycholate. </li>
-<li>if you have a serious infection with a high temperature (over 38°C). If this applies to you then 
+<li>if you have a serious infection with a high temperature (over 38 C). If this applies to you then 
 your vaccination will usually be postponed until you are feeling better. A minor infection such as 
 a cold should not be a problem, but your doctor will advise whether you could still be vaccinated 
 with Adjupanrix. </li>
@@ -120,7 +119,7 @@ you fainted with a previous injection. </p>
 Adjupanrix. This is because the vaccination may not be recommended, or may need to be delayed. </p>
 <p>Children &lt;6 years of age 
 If your child receives the vaccine, you should be aware that the side effects may be more intense after 
-the second dose, especially temperature over 38°C. Therefore monitoring of temperature and measures 
+the second dose, especially temperature over 38 C. Therefore monitoring of temperature and measures 
 to lower the temperature (such as giving paracetamol or other medicines that lower fever) after each 
 dose are recommended. </p>
 <p>Other medicines and Adjupanrix 
@@ -136,7 +135,7 @@ more serious.  </p>
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this vaccine. </p>
 <p>Driving and using machines<br />
-Some side effects listed in Section 4. “Possible side effects” may affect your ability to drive or use 
+Some side effects listed in Section 4.  Possible side effects  may affect your ability to drive or use 
 tools or machines. It is best to see how Adjupanrix affects you before you try these activities. </p>
 <p>Adjupanrix contains thiomersal<br />
 Adjupanrix contains thiomersal as a preservative and it is possible that you may experience an allergic 
@@ -186,7 +185,7 @@ Allergic reactions which may cause you to have dangerously low blood pressure. I
 it may lead to shock. Your doctors know that this might happen and will have emergency treatment 
 ready to use. </p>
 <p>Other side effects: </p>
-<p>Side effects that occurred in adults ≥18 years of age </p>
+<p>Side effects that occurred in adults  18 years of age </p>
 <p>Very common: may affect more than 1 in 10 people 
 * Headache 
 * Feeling tired 
@@ -280,8 +279,8 @@ routinely every year to prevent flu. They may also happen with Adjupanrix. If an
 below occur, please tell your doctor or nurse immediately: </p>
 <p>Very rare: may affect less than 1 in 10,000 people 
 * Problems with your brain and nerves such as inflammation of the central nervous system 
-(encephalomyelitis), inflammation of nerves (neuritis) or a type of paralysis known as ‘Guillain-
-Barré Syndrome’. 
+(encephalomyelitis), inflammation of nerves (neuritis) or a type of paralysis known as  Guillain-
+Barr  Syndrome . 
 * Inflammation of your blood vessels (vasculitis). This can cause skin rashes, joint pain and 
 kidney problems </p>
 <p>Rare: may affectless than 1 in 1,000 people 
@@ -302,11 +301,11 @@ this medicine. </p>         </div>"""
 <p>Before the vaccine is mixed: 
 Do not use the suspension and the emulsion after the expiry date which is stated on the carton. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C).<br />
+<p>Store in a refrigerator (2 C - 8 C).<br />
 Store in the original package in order to protect from light. 
 Do not freeze.   </p>
 <p>After the vaccine is mixed: 
-After mixing, use the vaccine within 24 hours and do not store above 25°C. </p>
+After mixing, use the vaccine within 24 hours and do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -328,9 +327,9 @@ Split influenza virus, inactivated, containing antigen* equivalent to: </li>
 <ul>
 <li>
 <p>Adjuvant:<br />
-The vaccine contains an ‘adjuvant’ AS03. This adjuvant contains squalene (10.69 milligrams), 
-DL-α-tocopherol (11.86 milligrams) and polysorbate 80 (4.86 milligrams). Adjuvants are used 
-to improve the body’s response to the vaccine. </p>
+The vaccine contains an  adjuvant  AS03. This adjuvant contains squalene (10.69 milligrams), 
+DL- -tocopherol (11.86 milligrams) and polysorbate 80 (4.86 milligrams). Adjuvants are used 
+to improve the body s response to the vaccine. </p>
 </li>
 <li>
 <p>Other ingredients:<br />
@@ -349,25 +348,24 @@ yellowish homogeneous milky liquid emulsion. </p>
 * two packs containing 25 vials of 2.5 ml emulsion (adjuvant) </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>GlaxoSmithKline Biologicals s.a. 
-Rue de l’Institut B-1330 Rixensart 
+Rue de l Institut B-1330 Rixensart 
 Belgium </p>
 <p>For any information about this medicinal vaccine, please contact the local representative of the 
 Marketing Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals SA/NV 
-Tél/Tel: + 32 10 85 52<br />
+T l/Tel: + 32 10 85 52<br />
 Lietuva 
 GlaxoSmithKline Biologicals SA 
-Tel: +370 80000 
-България 
-GlaxoSmithKline Biologicals SA 
-Тел. + 359 80018 </p>
+Tel: +370 80000 </p>
+<p>GlaxoSmithKline Biologicals SA 
+ . + 359 80018 </p>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals SA/NV 
-Tél/Tel: + 32 10 85 52 Česká republika 
+T l/Tel: + 32 10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 GlaxoSmithKline Biologicals SA 
 Tel.: + 36 80088 
 Danmark 
@@ -387,14 +385,13 @@ Tel: +372 8002
 Norge 
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20  </p>
-<p>Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E 
-Tηλ: + 30 210 68 82<br />
-Österreich 
+<p>GlaxoSmithKline   A.E.B.E 
+T : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com  </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com  </p>
 <p>Polska 
@@ -402,14 +399,14 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (22) 576 9 
 France 
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0) 1 39 17 84 diam@gsk.com 
+T l: + 33 (0) 1 39 17 84 diam@gsk.com 
 Portugal 
-GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline Biologicals SA 
 Tel.: + 385 800787 </p>
-<p>România 
+<p>Rom nia 
 GlaxoSmithKline Biologicals SA 
 Tel: +40 800672 
 Ireland 
@@ -418,10 +415,10 @@ Tel: + 353 (0)1 495 5
 Slovenija 
 GlaxoSmithKline Biologicals SA 
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf.<br />
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 GlaxoSmithKline Biologicals SA 
 Tel.: + 421 800500 
 Italia 
@@ -430,9 +427,8 @@ Tel: + 39 (0)45 7741  </p>
 <p>Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 10 30 30  </p>
-<p>Κύπρος 
-GlaxoSmithKline Biologicals SA 
-Τηλ: + 357 80070 </p>
+<p>GlaxoSmithKline Biologicals SA 
+ : + 357 80070 </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
@@ -442,7 +438,7 @@ Tel: + 371 80205United Kingdom (Northern Ireland)
 GlaxoSmithKline Biologicals SA 
 Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in {MM/YYYY}..  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. 
+<p>This medicine has been authorised under  exceptional circumstances . 
 This means that for scientific reasons it has  been impossible to get complete information on  this 
 medicine. 
 The European Medicines Agency will review any new information on the medicine every year and this 

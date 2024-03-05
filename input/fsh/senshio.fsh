@@ -4,7 +4,7 @@ Instance: composition-en-446d079a08d59e4d16270357097325eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for senshio Package Leaflet"
 Description:  "Composition for senshio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -107,54 +107,43 @@ year). At these check-ups, discuss with your doctor the benefits and risks of co
 high risk of having one. 
 - If you are suffering from any gynaecological illness other than vulvar and vaginal atrophy. 
 - If you have had breast cancer.  </p>
-<p>While taking Senshio: 
-- If you are unable to walk for a long time or are sitting for a long time in the same position because 
+<p>While taking Senshio:</p>
+<ul>
+<li>If you are unable to walk for a long time or are sitting for a long time in the same position because 
 of major surgery, injury or illness, it may prevent good blood circulation and may temporarily 
 increase your risk of blood clots. You should therefore speak to your doctor immediately. Your 
 doctor may recommend that you stop treatment at least 4 to 6 weeks prior to major surgery or 
 during a long period of bed rest e.g. injury or illness. Treatment with Senshio can be restarted as 
-soon as you regain your mobility and in consultation with your doctor. 
-- If any vaginal bleeding occurs while taking Senshio or soon after you have stopped taking it, you 
-should speak to your doctor. 
-- If you experience signs of a blood clot, such as painful swelling and redness of the legs, sudden 
+soon as you regain your mobility and in consultation with your doctor. </li>
+<li>If any vaginal bleeding occurs while taking Senshio or soon after you have stopped taking it, you 
+should speak to your doctor. </li>
+<li>If you experience signs of a blood clot, such as painful swelling and redness of the legs, sudden 
 chest pain, difficulty in breathing or a stroke while taking Senshio, stop taking Senshio and see 
-a doctor immediately. </p>
+a doctor immediately. </li>
+</ul>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents. This medicine is only intended for use in post-
 menopausal women. </p>
 <p>Other medicines and Senshio 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  </p>
-<p>Do not take Senshio with any of these medicines: 
- 
-Oestrogens. 
- 
-Any other medicine belonging to the group called SERMs, such as tamoxifen, toremifene, 
+<p>Do not take Senshio with any of these medicines: </p>
+<p>Oestrogens. </p>
+<p>Any other medicine belonging to the group called SERMs, such as tamoxifen, toremifene, 
 bazedoxifene and raloxifene. </p>
-<p>Talk to your doctor before taking Senshio with: 
- 
-Fluconazole (an oral medicine used to treat fungal infections) as this may increase the amount 
+<p>Talk to your doctor before taking Senshio with: </p>
+<p>Fluconazole (an oral medicine used to treat fungal infections) as this may increase the amount 
 of ospemifene in your blood. Your doctor may consider stopping treatment with Senshio while 
-you are taking fluconazole. 
- 
-Any of the following medicines, which may lead to a reduced effect of Senshio: 
-o 
-Rifampicin and rifabutin commonly used to treat tuberculosis. 
-o 
-Carbamazepine and phenytoin used to treat convulsions/seizures (anticonvulsants). 
-o 
-St John’s wort, a herbal medicine sometimes used to treat depression.<br />
-o 
-Orlistat sometimes used to treat obesity.<br />
- 
-Any of the following medicines, as their concentrations may be increased while taking Senshio: 
-o 
-Metformin used to treat Type II diabetes. 
-o 
-Aciclovir used to treat cold sores and genital herpes. 
-o 
-Ganciclovir used to treat infections caused by a virus called cytomegalovirus. 
-o 
+you are taking fluconazole. </p>
+<p>Any of the following medicines, which may lead to a reduced effect of Senshio: * 
+Rifampicin and rifabutin commonly used to treat tuberculosis. * 
+Carbamazepine and phenytoin used to treat convulsions/seizures (anticonvulsants). * 
+St John s wort, a herbal medicine sometimes used to treat depression.  * 
+Orlistat sometimes used to treat obesity.  </p>
+<p>Any of the following medicines, as their concentrations may be increased while taking Senshio: * 
+Metformin used to treat Type II diabetes. * 
+Aciclovir used to treat cold sores and genital herpes. * 
+Ganciclovir used to treat infections caused by a virus called cytomegalovirus. * 
 Oxaliplatin, an anti-cancer medicine for advanced (metastatic) cancer of the large bowel 
 (colon) or back passage (rectum). </p>
 <p>Pregnancy, breast-feeding and fertility 
@@ -169,8 +158,8 @@ Senshio has no known or very little influence on the ability to drive and use ma
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 Senshio contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take senshio"
@@ -202,20 +191,24 @@ treatment with you. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- An infection of the genitals caused by a fungus (thrush) 
-- Hot flushes 
-- Muscle cramps 
-- Vaginal or genital discharge 
-- Rash 
-- Headache 
-- Vaginal bleeding </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people): 
-- Thickening of the womb lining (endometrium) as seen on ultrasound scan (endometrial 
-hypertrophy). 
-- An allergic reaction. Symptoms of an allergic reaction may include rash, itchy skin, raised patches 
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>An infection of the genitals caused by a fungus (thrush) </li>
+<li>Hot flushes </li>
+<li>Muscle cramps </li>
+<li>Vaginal or genital discharge </li>
+<li>Rash </li>
+<li>Headache </li>
+<li>Vaginal bleeding </li>
+</ul>
+<p>Uncommon side effects (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Thickening of the womb lining (endometrium) as seen on ultrasound scan (endometrial 
+hypertrophy). </li>
+<li>An allergic reaction. Symptoms of an allergic reaction may include rash, itchy skin, raised patches 
 on your skin (urticaria), swelling of the tongue and throat that may cause difficulty in breathing 
-or swallowing. </p>
+or swallowing. </li>
+</ul>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -228,7 +221,7 @@ this medicine. </p>         </div>"""
   * code.text = "5. How to store senshio"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -250,7 +243,7 @@ Film coating: Hypromellose (E 464), lactose monohydrate, titanium dioxide (E 171
 (E 1518), polyethylene glycol (E 1521). </p>
 <p>What Senshio looks like and contents of the pack 
 Senshio tablets are oval biconvex, white to off-white, film-coated tablets (approximately 12 mm long 
-by 6.45 mm wide) debossed with “60” on one side.<br />
+by 6.45 mm wide) debossed with  60  on one side.<br />
 They are packed in blisters and are available in pack sizes of 7, 28 or 84 film-coated tablets.  </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -266,7 +259,7 @@ Authorisation Holder: </p>
 <p>AT, BE, BG, CY, CZ, DK, EE, IE, EL, FI,  HR, HU, IE, IS, 
 LT, LU, LV, MT, NL, NO, PL, RO, SE, SI, SK 
 Shionogi B.V. 
-Tel/Tel./Teл./Tlf/Tél/Puh/Sími/Τηλ: 
+Tel/Tel./Te ./Tlf/T l/Puh/S mi/ : 
 + 31 (0)20 491 7contact@shionogi.eu 
 DE 
 Shionogi GmbH 

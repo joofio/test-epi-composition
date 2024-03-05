@@ -4,7 +4,7 @@ Instance: composition-en-dec3a1f5841f1029014aecf2cec0d0c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for axura Package Leaflet"
 Description:  "Composition for axura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,13 +71,13 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How does Axura work 
 Axura contains the active substance memantine hydrochloride. 
 Axura belongs to a group of medicines known as anti-dementia medicines. 
-Memory loss in Alzheimer’s disease is due to a disturbance of message signals in the brain. The brain 
+Memory loss in Alzheimer s disease is due to a disturbance of message signals in the brain. The brain 
 contains so-called N-methyl-D-aspartate (NMDA)-receptors that are involved in transmitting nerve 
 signals important in learning and memory. Axura belongs to a group of medicines called NMDA-
 receptor antagonists. Axura acts on these NMDA-receptors improving the transmission of nerve 
 signals and the memory. </p>
 <p>What is Axura used for 
-Axura is used for the treatment of patients with moderate to severe Alzheimer’s disease. </p>         </div>"""   
+Axura is used for the treatment of patients with moderate to severe Alzheimer s disease. </p>         </div>"""   
           
 
              
@@ -98,7 +98,7 @@ from congestive heart failure or from an uncontrolled hypertension (high blood p
 reassessed by your doctor on a regular basis. </p>
 <p>If you suffer from renal impairment (kidney problems), your doctor should closely monitor your 
 kidney function and if necessary adapt the memantine doses accordingly. </p>
-<p>The use of medicinal products called amantadine (for the treatment of Parkinson´s disease), ketamine 
+<p>The use of medicinal products called amantadine (for the treatment of Parkinson s disease), ketamine 
 (a substance generally used as an anaesthetic), dextromethorphan (generally used to treat cough) and 
 other NMDA-antagonists at the same time should be avoided. </p>
 <p>Children and adolescents 
@@ -107,7 +107,7 @@ Axura is not recommended for children and adolescents under the age of 18 years.
 Please tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>In particular, Axura may change the effects of the following medicines and their dose may need to be 
-adjusted by your doctor: </p>
+adjusted by your doctor:</p>
 <ul>
 <li>amantadine, ketamine, dextromethorphan </li>
 <li>dantrolene, baclofen </li>
@@ -138,8 +138,8 @@ Women taking Axura should not breast-feed. </p>
 Your doctor will tell you whether your illness allows you to drive and to use machines safely. 
 Also, Axura may change your reactivity, making driving or operating machinery inappropriate. </p>
 <p>Axura contains Sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take axura"
@@ -177,7 +177,7 @@ Continue to take Axura as long as it is of benefit to you. Your doctor should as
 regular basis. </p>
 <p>If you take more Axura than you should 
 - In general, taking too much Axura should not result in any harm to you. You may experience 
-increased symptoms as described in section 4. „Possible side effects“. 
+increased symptoms as described in section 4.  Possible side effects . 
 - If you take a large overdose of Axura, contact your doctor or get medical advice, as you may 
 need medical attention. </p>
 <p>If you forget to take Axura 
@@ -253,22 +253,21 @@ Eckenheimer Landstr. D-60318 Frankfurt/Main
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Merz Pharmaceuticals GmbH 
-Tél/Tel: +49 (0)69 1503-0 </p>
+T l/Tel: +49 (0)69 1503-0 </p>
 <p>Lietuva 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 </p>
-<p>България 
-Merz Pharmaceuticals GmbH 
-Teл.: +49 (0)69 1503-0 </p>
+<p>Merz Pharmaceuticals GmbH 
+Te .: +49 (0)69 1503-0 </p>
 <p>Luxembourg/Luxemburg 
-HANFF Global Health Solutions s.à r.l. 
-Tél/Tel: +352 45 07 07-1 
-Česká republika 
+HANFF Global Health Solutions s.  r.l. 
+T l/Tel: +352 45 07 07-1 
+ esk  republika 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 </p>
 <p>Danmark 
@@ -289,27 +288,26 @@ Tel: +49 (0)69 1503-0 </p>
 <p>Norge 
 Merz Pharmaceuticals GmbH 
 Tlf: +49 (0)69 1503-0 </p>
-<p>Ελλάδα 
-Merz Pharmaceuticals GmbH 
-Τηλ: +49 (0)69 1503-0 </p>
-<p>Österreich 
+<p>Merz Pharmaceuticals GmbH 
+ : +49 (0)69 1503-0 </p>
+<p>sterreich 
 Merz Pharma Austria GmbH 
 Tel.: +43 1 865 88<br />
-España 
+Espa a 
 Merz Therapeutics Iberia, S.L.U. 
 Tel. +34 91 117 89<br />
 Polska 
 Centrala Farmaceutyczna CEFARM SA 
 Tel: +48 22 634 02 France 
 Merz Pharmaceuticals GmbH 
-Tél: +49 (0)69 1503-0 </p>
+T l: +49 (0)69 1503-0 </p>
 <p>Portugal 
 Merz Therapeutics Iberia, S.L.U. 
 Tel. +34 91 117 89<br />
 Hrvatska 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 </p>
-<p>România 
+<p>Rom nia 
 Merz Pharmaceuticals GmbH 
 Tel.: +49 (0)69 1503-0 </p>
 <p>Ireland 
@@ -318,11 +316,11 @@ Tel: +49 (0)69 1503-0 </p>
 <p>Slovenija 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 
-Ísland 
+ sland 
 Merz Pharmaceuticals GmbH 
-Slovenská republika 
+Slovensk  republika 
 Merz Pharmaceuticals GmbH </p>
-<p>Sími.: +49 (0)69 1503-0 </p>
+<p>S mi.: +49 (0)69 1503-0 </p>
 <p>Tel: +49 (0)69 1503-0 </p>
 <p>Italia 
 Merz Pharmaceuticals GmbH 
@@ -330,9 +328,8 @@ Tel: +49 (0)69 1503-0
 Suomi/Finland 
 Merz Pharmaceuticals GmbH 
 Puh/Tel: +49 (0)69 1503-0 </p>
-<p>Κύπρος 
-Merz Pharmaceuticals GmbH 
-Τηλ: +49 (0)69 1503-0 
+<p>Merz Pharmaceuticals GmbH 
+ : +49 (0)69 1503-0 
 Sverige 
 Merz Pharmaceuticals GmbH 
 Tel: +49 (0)69 1503-0 </p>
@@ -352,5 +349,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.  </p>         </div>"""      
+effects not listed in this leaflet. See section </p>         </div>"""      
 

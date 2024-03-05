@@ -4,7 +4,7 @@ Instance: composition-en-eefded9fc6fc231de4e5964766009df5
 InstanceOf: CompositionUvEpi
 Title: "Composition for kengrexal Package Leaflet"
 Description:  "Composition for kengrexal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,7 @@ be very dangerous as the clot can cut off the blood supply (a thrombotic event),
 (myocardial infarction). </p>
 <p>Kengrexal diminishes the clumping of platelets and so reduces the chance of a blood clot forming. </p>
 <p>You have been prescribed Kengrexal because you have blocked blood vessels in your heart (coronary 
-artery disease) and you need a procedure (called a percutaneous coronary intervention – PCI) to 
+artery disease) and you need a procedure (called a percutaneous coronary intervention   PCI) to 
 remove the blockage. During this procedure you may have a stent inserted in your blood vessel to help 
 to keep it open. Using Kengrexal reduces the risk that this procedure will cause a clot to form and 
 block the blood vessels again. </p>
@@ -98,7 +98,7 @@ bleeding (impaired haemostasis or irreversible coagulation disorders).
 - If you have recently undergone major surgery or suffered from any form of serious physical 
 trauma such as a bone fracture or road traffic accident. 
 - If you have uncontrolled very high blood pressure. 
-- If you have ever had a stroke, or a ‘mini-stroke’ (also known as a transient ischaemic attack, 
+- If you have ever had a stroke, or a  mini-stroke  (also known as a transient ischaemic attack, 
 TIA) caused by the temporary interruption of the blood supply to the brain. </p>
 <p>Warnings and precautions 
 Talk to your doctor before using Kengrexal if: 
@@ -129,8 +129,8 @@ Sorbitol is a source of fructose. If you have hereditary fructose intolerance (H
 disorder, you must not receive this medicine. Patients with HFI cannot break down fructose, which 
 may cause serious side effects. 
 You must tell your doctor before receiving this medicine if you have HFI. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kengrexal"
@@ -206,7 +206,7 @@ reporting side effects you can help provide more information on the safety of th
   * code.text = "5. How to store kengrexal"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after ‘EXP’. The 
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Reconstituted solution: the powder should be reconstituted immediately prior to dilution and use. Do 
@@ -237,26 +237,25 @@ Via Palermo, 26/A
 Italy </p>
 <p>Manufacturer 
 Diapharm GmbH &amp; CO. KG 
-Am Mittelhafen 48155 Münster 
+Am Mittelhafen 48155 M nster 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Ferrer Internacional, S.A.. 
-Tél/Tel: +32 15 28 74<br />
+T l/Tel: +32 15 28 74<br />
 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: +43 1 4073 
-България 
-Chiesi Bulgaria EOOD<br />
-Teл.: + 359 29201 
+Tel: +43 1 4073 </p>
+<p>Chiesi Bulgaria EOOD<br />
+Te .: + 359 29201 
 Luxembourg/Luxemburg 
 Ferrer Internacional, S.A. 
-Tél/Tel: +32 15 28 74<br />
-Česká republika 
+T l/Tel: +32 15 28 74<br />
+ esk  republika 
 Chiesi CZ s.r.o. 
 Tel: +420 261221 
-Magyarország 
+Magyarorsz g 
 Chiesi Hungary Kft. 
 Tel.: +36-1-429 1 
 Danmark 
@@ -270,20 +269,19 @@ Ferrer Deutschland GmbH
 Tel: +49 (0) 2407 502311-0 </p>
 <p>Nederland 
 Ferrer Internacional, S.A. 
-Tél/Tel: +32 15 28 74<br />
+T l/Tel: +32 15 28 74<br />
 Eesti 
 Chiesi Pharmaceuticals GmbH 
 Tel: +43 1 4073 
 Norge 
 Chiesi Pharma AB 
-Tlf: +46 8 753 35<br />
-Ελλάδα 
-Chiesi Hellas AEBE 
-Τηλ: + 30 210 6179 
-Österreich 
+Tlf: +46 8 753 35  </p>
+<p>Chiesi Hellas AEBE 
+ : + 30 210 6179 
+ sterreich 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
-España 
+Espa a 
 Ferrer Farma, S.A. 
 Tel: +34 93 600 3 
 Polska 
@@ -297,7 +295,7 @@ Tel: +351 214449
 Hrvatska 
 Chiesi Pharmaceuticals GmbH 
 Tel: + 43 1 4073 
-România 
+Rom nia 
 Chiesi Romania S.R.L. 
 Tel: + 40 212023 
 Ireland 
@@ -306,10 +304,10 @@ Tel: + 39 0521 2
 Slovenija 
 Chiesi Slovenija d.o.o. 
 Tel: + 386-1-43 00<br />
-Ísland 
+ sland 
 Chiesi Pharma AB 
 Tlf: +46 8 753 35<br />
-Slovenská republika 
+Slovensk  republika 
 Chiesi Slovakia s.r.o. 
 Tel: + 421 259300 
 Italia 
@@ -317,10 +315,9 @@ Chiesi Italia S.p.A.
 Tel: + 39 0521 2 
 Suomi/Finland 
 Chiesi Pharma AB 
-Tlf: +46 8 753 35<br />
-Κύπρος 
-Chiesi Farmaceutici S.p.A. 
-Τηλ: + 39 0521 2 
+Tlf: +46 8 753 35  </p>
+<p>Chiesi Farmaceutici S.p.A. 
+ : + 39 0521 2 
 Sverige 
 Chiesi Pharma AB 
 Tlf: +46 8 753 35<br />

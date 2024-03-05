@@ -4,7 +4,7 @@ Instance: composition-en-84263cabba69906218047f0258521479
 InstanceOf: CompositionUvEpi
 Title: "Composition for elfabrio Package Leaflet"
 Description:  "Composition for elfabrio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ Usage: #example
 therapy in adult patients with confirmed Fabry disease. Fabry disease is a rare genetic disease that can 
 affect many parts of the body. In patients with Fabry disease, a fat substance is not removed from the 
 cells of their body, and builds up in the walls of blood vessels which can cause organ failure. This fat 
-builds up in the cells of these patients because they do not have enough of an enzyme called α-
+builds up in the cells of these patients because they do not have enough of an enzyme called  -
 galactosidase-A, the enzyme responsible for breaking it down Elfabrio is used long-term to 
 supplement or replace this enzyme in adult patients who have confirmed Fabry disease. </p>         </div>"""   
           
@@ -150,8 +150,8 @@ contact your doctor if you would like to be treated at home. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
-effects occur during the infusion or shortly after (“infusion-related reaction”, see section 2 “Warnings 
-and precautions”). </p>
+effects occur during the infusion or shortly after ( infusion-related reaction , see section 2  Warnings 
+and precautions ). </p>
 <p>While under treatment with Elfabrio, you may experience some of the following reactions: </p>
 <p>Serious side effects </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
@@ -230,12 +230,12 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "5. How to store elfabrio"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C-8 °C). </p>
+<p>Store in a refrigerator (2  C-8  C). </p>
 <p>After dilution, the diluted solution should be used immediately. If not used immediately, the diluted 
-solution should be stored for no longer than 24 hours in a refrigerator (2 °C-8 °C) or for no longer than 
-8 hours at room temperature (below 25 °C). </p>
+solution should be stored for no longer than 24 hours in a refrigerator (2  C-8  C) or for no longer than 
+8 hours at room temperature (below 25  C). </p>
 <p>Do not use this medicine if you notice particles or discolouration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -250,7 +250,7 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is pegunigalsidase alfa. Each vial contains 20 mg pegunigalsidase alfa in 
 10 mL (2 mg/mL) 
 - The other ingredients are: tribasic dihydrate sodium citrate, citric acid, and sodium chloride (see 
-section 2 “Elfabrio contains sodium”). </p>
+section 2  Elfabrio contains sodium ). </p>
 <p>What Elfabrio looks like and contents of the pack 
 Clear and colourless solution in clear glass vial with a rubber stopper and sealed with aluminium flip 
 off cap. </p>
@@ -267,22 +267,21 @@ Via San Leonardo 43122 Parma
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-Tél/Tel: + 32 (0)2 788 42<br />
+T l/Tel: + 32 (0)2 788 42<br />
 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073919  </p>
-<p>България 
-Chiesi Bulgaria EOOD<br />
-Тел.: +359 29201205  </p>
+<p>Chiesi Bulgaria EOOD<br />
+ .: +359 29201205  </p>
 <p>Luxembourg/Luxemburg 
 Chiesi sa/nv 
-Tél/Tel: + 32 (0)2 788 42<br />
-Česká republika 
+T l/Tel: + 32 (0)2 788 42<br />
+ esk  republika 
 Chiesi CZ s.r.o. 
 Tel: + 420 261221 
-Magyarország 
+Magyarorsz g 
 Chiesi Hungary Kft. 
 Tel.: + 36-1-429 1 
 Danmark 
@@ -302,28 +301,27 @@ Chiesi Pharmaceuticals GmbH
 Tel: + 43 1 4073 
 Norge 
 Chiesi Pharma AB 
-Tlf: + 46 8 753 35<br />
-Ελλάδα 
-Chiesi Hellas AEBE 
-Τηλ: + 30 210 6179 
-Österreich 
+Tlf: + 46 8 753 35  </p>
+<p>Chiesi Hellas AEBE 
+ : + 30 210 6179 
+ sterreich 
 Chiesi Pharmaceuticals GmbH 
 Tel: + 43 1 4073 
-España 
-Chiesi España, S.A.U. 
+Espa a 
+Chiesi Espa a, S.A.U. 
 Tel: + 34 934948 
 Polska 
 Chiesi Poland Sp. z.o.o. 
 Tel.: + 48 22 620 1 
 France 
 Chiesi S.A.S.<br />
-Tél: + 33 1 47688 
+T l: + 33 1 47688 
 Portugal 
 Chiesi Farmaceutici S.p.A. 
 Tel: + 39 0521 2 
 Hrvatska 
 Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073România 
+Tel: + 43 1 4073Rom nia 
 Chiesi Romania S.R.L. 
 Tel: + 40 212023 
 Ireland 
@@ -332,10 +330,10 @@ Tel: + 39 0521 2
 Slovenija 
 CHIESI SLOVENIJA, d.o.o. 
 Tel: + 386-1-43 00<br />
-Ísland 
+ sland 
 Chiesi Pharma AB 
-Sími: +46 8 753 35<br />
-Slovenská republika 
+S mi: +46 8 753 35<br />
+Slovensk  republika 
 Chiesi Slovakia s.r.o. 
 Tel: + 421 259300 
 Italia 
@@ -343,10 +341,9 @@ Chiesi Italia S.p.A.
 Tel: + 39 0521 2 
 Suomi/Finland 
 Chiesi Pharma AB 
-Puh/Tel: +46 8 753 35<br />
-Κύπρος 
-Chiesi Farmaceutici S.p.A. 
-Τηλ: + 39 0521 2 
+Puh/Tel: +46 8 753 35  </p>
+<p>Chiesi Farmaceutici S.p.A. 
+ : + 39 0521 2 
 Sverige 
 Chiesi Pharma AB 
 Tel: +46 8 753 35<br />

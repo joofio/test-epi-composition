@@ -4,7 +4,7 @@ Instance: composition-en-8d0c124d18ae7d118dd0c09ef060535b
 InstanceOf: CompositionUvEpi
 Title: "Composition for semglee Package Leaflet"
 Description:  "Composition for semglee Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -111,9 +111,11 @@ end of this leaflet). </p>
 - what you should do in emergency situations when you feel unwell or become ill. </p>
 <p>Illnesses and injuries </p>
 <p>In the following situations, the management of your diabetes may require a lot of care (for example, 
-adjustment to insulin dose, blood and urine tests): 
-- If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). 
-- If you are not eating enough your blood sugar level may become too low (hypoglycaemia). </p>
+adjustment to insulin dose, blood and urine tests):</p>
+<ul>
+<li>If you are ill or have a major injury then your blood sugar level may increase (hyperglycaemia). </li>
+<li>If you are not eating enough your blood sugar level may become too low (hypoglycaemia). </li>
+</ul>
 <p>In most cases you will need a doctor. Make sure that you contact a doctor early. </p>
 <p>If you have type 1 diabetes (insulin dependent diabetes mellitus), do not stop your insulin and continue 
 to get enough carbohydrates. Always tell people who are caring for you or treating you that you 
@@ -134,36 +136,42 @@ are either too low or too high. Be careful when you start or stop taking another
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. Before taking a medicine ask your doctor if it can affect your blood sugar level and what 
 action, if any, you need to take. </p>
-<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include: 
-- all other medicines to treat diabetes, 
-- angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
-blood pressure), 
-- disopyramide (used to treat certain heart conditions), 
-- fluoxetine (used to treat depression), 
-- fibrates (used to lower high levels of blood lipids), 
-- monoamine oxidase (MAO) inhibitors (used to treat depression), 
-- pentoxifylline, propoxyphene, salicylates (such as acetylsalicylic acid, used to relieve pain and 
-lower fever), 
-- sulfonamide antibiotics. </p>
-<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include: 
-- corticosteroids (such as "cortisone" used to treat inflammation), 
-- danazol (medicine acting on ovulation), 
-- diazoxide (used to treat high blood pressure), 
-- diuretics (used to treat high blood pressure or excessive fluid retention), 
-- glucagon (pancreas hormone used to treat severe hypoglycaemia), 
-- isoniazid (used to treat tuberculosis), 
-- oestrogens and progestogens (such as in the contraceptive pill used for birth control), 
-- phenothiazine derivatives (used to treat psychiatric disorders), 
-- somatropin (growth hormone), 
-- sympathomimetic medicines (such as epinephrine [adrenaline], salbutamol, terbutaline used to 
-treat asthma), 
-- thyroid hormones (used to treat thyroid gland disorders), 
-- atypical antipsychotic medicines (such as clozapine, olanzapine), 
-- protease inhibitors (used to treat HIV). </p>
-<p>Your blood sugar level may either rise or fall if you take: 
-- beta-blockers (used to treat high blood pressure), 
-- clonidine (used to treat high blood pressure), 
-- lithium salts (used to treat psychiatric disorders). </p>
+<p>Medicines that may cause your blood sugar level to fall (hypoglycaemia) include:</p>
+<ul>
+<li>all other medicines to treat diabetes, </li>
+<li>angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
+blood pressure), </li>
+<li>disopyramide (used to treat certain heart conditions), </li>
+<li>fluoxetine (used to treat depression), </li>
+<li>fibrates (used to lower high levels of blood lipids), </li>
+<li>monoamine oxidase (MAO) inhibitors (used to treat depression), </li>
+<li>pentoxifylline, propoxyphene, salicylates (such as acetylsalicylic acid, used to relieve pain and 
+lower fever), </li>
+<li>sulfonamide antibiotics. </li>
+</ul>
+<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:</p>
+<ul>
+<li>corticosteroids (such as "cortisone" used to treat inflammation), </li>
+<li>danazol (medicine acting on ovulation), </li>
+<li>diazoxide (used to treat high blood pressure), </li>
+<li>diuretics (used to treat high blood pressure or excessive fluid retention), </li>
+<li>glucagon (pancreas hormone used to treat severe hypoglycaemia), </li>
+<li>isoniazid (used to treat tuberculosis), </li>
+<li>oestrogens and progestogens (such as in the contraceptive pill used for birth control), </li>
+<li>phenothiazine derivatives (used to treat psychiatric disorders), </li>
+<li>somatropin (growth hormone), </li>
+<li>sympathomimetic medicines (such as epinephrine [adrenaline], salbutamol, terbutaline used to 
+treat asthma), </li>
+<li>thyroid hormones (used to treat thyroid gland disorders), </li>
+<li>atypical antipsychotic medicines (such as clozapine, olanzapine), </li>
+<li>protease inhibitors (used to treat HIV). </li>
+</ul>
+<p>Your blood sugar level may either rise or fall if you take:</p>
+<ul>
+<li>beta-blockers (used to treat high blood pressure), </li>
+<li>clonidine (used to treat high blood pressure), </li>
+<li>lithium salts (used to treat psychiatric disorders). </li>
+</ul>
 <p>Pentamidine (used to treat some infections caused by parasites) may cause hypoglycaemia which may 
 sometimes be followed by hyperglycaemia. </p>
 <p>Beta-blockers like other sympatholytic medicines (such as clonidine, guanethidine, and reserpine) may 
@@ -179,16 +187,20 @@ control of your diabetes, and prevention of hypoglycaemia, is important for the 
 <p>If you are breast-feeding consult your doctor as you may require adjustments in your insulin doses and 
 your diet. </p>
 <p>Driving and using machines </p>
-<p>Your ability to concentrate or react may be reduced if: 
-- you have hypoglycaemia (low blood sugar levels), 
-- you have hyperglycaemia (high blood sugar levels), 
-- you have problems with your sight. </p>
+<p>Your ability to concentrate or react may be reduced if:</p>
+<ul>
+<li>you have hypoglycaemia (low blood sugar levels), </li>
+<li>you have hyperglycaemia (high blood sugar levels), </li>
+<li>you have problems with your sight. </li>
+</ul>
 <p>Keep this possible problem in mind in all situations where you might put yourself and others at risk 
-(such as driving a car or using machines). You should contact your doctor for advice on driving if: 
-- you have frequent episodes of hypoglycaemia, 
-- the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </p>
+(such as driving a car or using machines). You should contact your doctor for advice on driving if:</p>
+<ul>
+<li>you have frequent episodes of hypoglycaemia, </li>
+<li>the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </li>
+</ul>
 <p>Semglee contains sodium </p>
-<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, i.e. it is essentially ‘sodium-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, i.e. it is essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take semglee"
@@ -229,7 +241,7 @@ need to inject your insulin by another method. </p>
 <p>Read carefully the "Instructions for Use" included in this package leaflet. You must use the pen 
 as described in these Instructions for Use. </p>
 <p>A new needle must be attached before each use. Only use needles that are compatible with Semglee 
-pen (see “Instructions for Use”). 
+pen (see  Instructions for Use ). 
 A safety test must be performed before each injection. </p>
 <p>Look at the cartridge before you use the pen. Do not use Semglee if you notice particles in the 
 solution. Only use Semglee if the solution is clear and colourless. Do not shake or mix it before use. </p>
@@ -272,7 +284,7 @@ sugar) can be very serious and is very common with insulin treatment (may affect
 10 people). Low blood sugar means that there is not enough sugar in your blood. If your blood sugar 
 level falls too low you may pass out (become unconscious). Serious hypoglycaemia may cause brain 
 damage and may be life-threatening. For more information, see the box at the end of this leaflet. </p>
-<p>Severe allergic reactions (rare, may affect up to 1 in 1,000 people) – the signs may include large-scale 
+<p>Severe allergic reactions (rare, may affect up to 1 in 1,000 people)   the signs may include large-scale 
 skin reactions (rash and itching all over the body), severe swelling of skin or mucous membranes 
 (angiooedema), shortness of breath, a fall in blood pressure with rapid heart beat and sweating. Severe 
 allergic reactions to insulins may become life-threatening. Tell a doctor straight away if you notice 
@@ -283,20 +295,17 @@ affect up to 1 in 100 people) or thicken (lipohypertrophy; may affect up to 1 in
 under the skin may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis; 
 how often this occurs is not known). The insulin may not work very well if you inject into a lumpy 
 area. Change the injection site with each injection to help prevent these skin changes. </p>
-<p>Common reported side effects (may affect up to 1 in 10 people) 
-•<br />
-Skin and allergic reactions at the injection site 
+<p>Common reported side effects (may affect up to 1 in 10 people) </p>
+<p>Skin and allergic reactions at the injection site 
 The signs may include reddening, unusually intense pain when injecting, itching, hives, swelling or 
 inflammation. This can spread around the injection site. Most minor reactions to insulins usually 
 disappear in a few days to a few weeks. </p>
-<p>Rare reported side effect (may affect up to 1 in 1,000 people) 
-•<br />
-Eye reactions 
+<p>Rare reported side effect (may affect up to 1 in 1,000 people) </p>
+<p>Eye reactions 
 A marked change (improvement or worsening) in your blood sugar control can disturb your vision 
 temporarily. If you have proliferative retinopathy (an eye disease related to diabetes) severe 
-hypoglycaemic attacks may cause temporary loss of vision. 
-•<br />
-General disorders 
+hypoglycaemic attacks may cause temporary loss of vision. </p>
+<p>General disorders 
 In rare cases, insulin treatment may also cause temporary build-up of water in the body, with swelling 
 in the calves and ankles. </p>
 <p>Very rare reported side effects (may affect up to 1 in 10,000 people) 
@@ -319,16 +328,15 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store semglee"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to store Semglee </p>
-<p>Keep this medicine out of the sight and reach of children. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen 
-after “EXP”. The expiry date refers to the last day of that month. </p>
+after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Not in-use pens 
-Store in a refrigerator (2°C-8°C). Do not freeze or place next to the freezer compartment of your 
+Store in a refrigerator (2 C-8 C). Do not freeze or place next to the freezer compartment of your 
 refrigerator or a freezer pack. 
 Keep the pre-filled pen in the outer carton in order to protect from light. </p>
 <p>In-use pens 
-Pre-filled pens in use or carried as a spare may be stored for a maximum of 4 weeks not above 25°C 
+Pre-filled pens in use or carried as a spare may be stored for a maximum of 4 weeks not above 25 C 
 and away from direct heat or direct light. Do not use it after this time period. The pen in use must not 
 be stored in a refrigerator. It is recommended that the date of the first use be noted. 
 The pen cap must be put back on the pen after each injection in order to protect from light. </p>
@@ -343,13 +351,12 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What Semglee contains </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Semglee contains </p>
 <ul>
 <li>The active substance is insulin glargine. Each ml of the solution contains 100 units of insulin 
 glargine (equivalent to 3.64 mg). </li>
 <li>The other ingredients are: zinc chloride, metacresol, glycerol, sodium hydroxide (for pH 
-adjustment) (see section 2 “Semglee contains sodium”), hydrochloric acid (for pH adjustment) 
+adjustment) (see section 2  Semglee contains sodium ), hydrochloric acid (for pH adjustment) 
 and water for injections. </li>
 </ul>
 <p>What Semglee looks like and contents of the pack </p>
@@ -374,20 +381,19 @@ D09 C6X8
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-Tél/Tel: 0080008250 
+T l/Tel: 0080008250 
 Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 
-България 
-Biosimilar Collaborations Ireland Limited 
-Тел: 0080008250 
+Tel: 0080008250 </p>
+<p>Biosimilar Collaborations Ireland Limited 
+ : 0080008250 
 Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
-Tél/Tel: 0080008250Česká republika 
+T l/Tel: 0080008250 esk  republika 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250Magyarország 
+Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
 Tel.: 0080008250 
 Danmark 
@@ -404,15 +410,14 @@ Tel: 0080008250Eesti
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62<br />
-Ελλάδα<br />
-Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ 
-Ι.Κ.Ε 
-Τηλ.: 0080008250 
-Österreich 
+Tlf: +47 800 62  </p>
+<p>Biocon Biologics Greece <br />
+ . .<br />
+ .: 0080008250 
+ sterreich 
 Biocon Biologics Germany GmbH 
 Tel: 0080008250 
-España 
+Espa a 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Polska 
@@ -426,7 +431,7 @@ Tel: 0080008250
 Hrvatska 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250 
-România 
+Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 </p>
 <p>Ireland 
@@ -434,20 +439,19 @@ Biosimilar Collaborations Ireland Limited<br />
 Tel: 1800 777  </p>
 <p>Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250Ísland 
+Tel: 0080008250 sland 
 Biocon Biologics Finland OY<br />
-Sími: +345 8004 
-Slovenská republika 
+S mi: +345 8004 
+Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 
-Κύπρος 
-Biosimilar Collaborations Ireland Limited<br />
-Τηλ: 0080008250 
+Puh/Tel: 99980008250 </p>
+<p>Biosimilar Collaborations Ireland Limited<br />
+ : 0080008250 
 Sverige 
 Biocon Biologics Finland OY<br />
 Tel: 0080008250 

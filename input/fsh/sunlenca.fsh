@@ -4,7 +4,7 @@ Instance: composition-en-d9aba320cfebb03d3884f4f123efa02d
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunlenca Package Leaflet"
 Description:  "Composition for sunlenca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -77,7 +77,7 @@ syndrome (AIDS). </p>
 <p>It is used to treat HIV infection in adults with limited treatment options (for example when other 
 antiretroviral medicines are not sufficiently effective or are not suitable).  </p>
 <p>Treatment with Sunlenca in combination with other antiretrovirals reduces the amount of HIV in your 
-body. This will improve the function of your immune system (the body’s natural defences) and reduce 
+body. This will improve the function of your immune system (the body s natural defences) and reduce 
 the risk of developing illnesses linked to HIV infection. </p>         </div>"""   
           
 
@@ -94,14 +94,16 @@ the risk of developing illnesses linked to HIV infection. </p>         </div>"""
 section 6) </p>
 </li>
 <li>
-<p>If you are taking any of these medicines: </p>
+<p>If you are taking any of these medicines:</p>
 </li>
-<li>rifampicin, used to treat some bacterial infections such as tuberculosis </li>
+<li>
+<p>rifampicin, used to treat some bacterial infections such as tuberculosis </p>
+</li>
 <li>carbamazepine, phenytoin, used to prevent seizures </li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and 
+<li>St. John s wort (Hypericum perforatum), a herbal remedy used for depression and 
 anxiety </li>
 </ul>
-<p> Do not receive Sunlenca and tell your doctor immediately if you think this applies to you. </p>
+<p>Do not receive Sunlenca and tell your doctor immediately if you think this applies to you. </p>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor before using Sunlenca </p>
 <ul>
@@ -114,7 +116,7 @@ Sunlenca. </li>
 <ul>
 <li>Signs of inflammation or infection.  </li>
 </ul>
-<p> If you notice any of these symptoms, tell your doctor immediately. For more information, see 
+<p>If you notice any of these symptoms, tell your doctor immediately. For more information, see 
 section 4, Possible side effects. </p>
 <p>Regular appointments are important </p>
 <p>It is important that you attend your planned appointments to receive your Sunlenca injection, to 
@@ -135,38 +137,82 @@ adjust your dose or check your blood levels. </p>
 <ul>
 <li>rifampicin, used to treat some bacterial infections, such as tuberculosis </li>
 <li>carbamazepine, phenytoin, used to prevent seizures </li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety </li>
+<li>St. John s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety </li>
 </ul>
-<p> If you are taking any of these medicines, do not receive Sunlenca injection and tell your doctor 
+<p>If you are taking any of these medicines, do not receive Sunlenca injection and tell your doctor 
 immediately. </p>
 <p>Talk to your doctor in particular if you are taking: </p>
 <ul>
-<li>antibiotics containing: </li>
-<li>rifabutin  </li>
-<li>anticonvulsants used to treat epilepsy and prevent seizures (fits), containing: </li>
-<li>oxcarbazepine or phenobarbital  </li>
-<li>medicines used to treat HIV, containing: </li>
-<li>atazanavir/cobicistat, efavirenz, nevirapine, tipranavir/ritonavir or etravirine </li>
-<li>medicines used to treat migraine headache, containing: </li>
-<li>dihydroergotamine or ergotamine  </li>
-<li>medicine used to treat impotence and pulmonary hypertension, containing: </li>
-<li>sildenafil or tadalafil </li>
-<li>medicine used to treat impotence, containing: </li>
-<li>vardenafil  </li>
-<li>corticosteroids (also known as ‘steroids’) taken orally or given by injection used to treat 
+<li>
+<p>antibiotics containing:</p>
+</li>
+<li>
+<p>rifabutin  </p>
+</li>
+<li>
+<p>anticonvulsants used to treat epilepsy and prevent seizures (fits), containing:</p>
+</li>
+<li>
+<p>oxcarbazepine or phenobarbital  </p>
+</li>
+<li>
+<p>medicines used to treat HIV, containing:</p>
+</li>
+<li>
+<p>atazanavir/cobicistat, efavirenz, nevirapine, tipranavir/ritonavir or etravirine </p>
+</li>
+<li>
+<p>medicines used to treat migraine headache, containing:</p>
+</li>
+<li>
+<p>dihydroergotamine or ergotamine  </p>
+</li>
+<li>
+<p>medicine used to treat impotence and pulmonary hypertension, containing:</p>
+</li>
+<li>
+<p>sildenafil or tadalafil </p>
+</li>
+<li>
+<p>medicine used to treat impotence, containing:</p>
+</li>
+<li>
+<p>vardenafil  </p>
+</li>
+<li>
+<p>corticosteroids (also known as  steroids ) taken orally or given by injection used to treat 
 allergies, inflammatory bowel diseases, and other various illnesses involving inflammations in 
-your body, containing: </li>
-<li>dexamethasone or hydrocortisone/cortisone </li>
-<li>medicines used to lower cholesterol, containing: </li>
-<li>lovastatin or simvastatin </li>
-<li>antiarrhythmics used to treat heart problems, containing: </li>
-<li>digoxin </li>
-<li>medicines used to help you sleep, containing: </li>
-<li>midazolam or triazolam. </li>
-<li>anticoagulants used to prevent and treat blood clots, containing: </li>
-<li>rivaroxaban, dabigatran or edoxaban </li>
+your body, containing:</p>
+</li>
+<li>
+<p>dexamethasone or hydrocortisone/cortisone </p>
+</li>
+<li>
+<p>medicines used to lower cholesterol, containing:</p>
+</li>
+<li>
+<p>lovastatin or simvastatin </p>
+</li>
+<li>
+<p>antiarrhythmics used to treat heart problems, containing:</p>
+</li>
+<li>
+<p>digoxin </p>
+</li>
+<li>
+<p>medicines used to help you sleep, containing:</p>
+</li>
+<li>
+<p>midazolam or triazolam. </p>
+</li>
+<li>
+<p>anticoagulants used to prevent and treat blood clots, containing:</p>
+</li>
+<li>
+<p>rivaroxaban, dabigatran or edoxaban </p>
+</li>
 </ul>
-<p> Tell your doctor if you are taking any of these medicines or if you start taking any of these 
+<p>Tell your doctor if you are taking any of these medicines or if you start taking any of these 
 medicines during treatment with Sunlenca. Do not stop any treatment without contacting your 
 doctor. </p>
 <p>Sunlenca is a long-acting medicine. If after talking to your doctor you decide to stop your treatment 
@@ -188,7 +234,7 @@ should discuss it with your doctor as soon as possible. </p>
 <p>Sunlenca is not expected to have any effect on your ability to drive or use machines. </p>
 <p>Sunlenca contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sunlenca"
@@ -228,7 +274,7 @@ doctor as soon as possible to discuss your treatment options.  </li>
 <p>Do not stop receiving Sunlenca without talking to your doctor. Keep receiving Sunlenca injections for 
 as long as your doctor recommends. Stopping Sunlenca can seriously affect how future HIV 
 treatments work.  </p>
-<p> Talk to your doctor if you want to stop receiving Sunlenca injections. </p>         </div>"""         
+<p>Talk to your doctor if you want to stop receiving Sunlenca injections. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -244,27 +290,31 @@ treatments work.  </p>
 and a history of opportunistic infections (infections that occur in people with a weak immune 
 system), signs and symptoms of inflammation from previous infections may occur soon after 
 HIV treatment is started. It is thought that these symptoms are due to an improvement in the 
-body’s immune response, enabling the body to fight infections that may have been present with 
+body s immune response, enabling the body to fight infections that may have been present with 
 no obvious symptoms.  </p>
 </li>
 <li>
 <p>Autoimmune disorders, when the immune system attacks healthy body tissue, may also occur 
 after you start taking medicines for HIV infection. Autoimmune disorders may occur many 
 months after the start of treatment. Look out for any symptoms of infection or other symptoms 
-such as:  </p>
+such as:</p>
 </li>
-<li>muscle weakness  </li>
+<li>
+<p>muscle weakness  </p>
+</li>
 <li>weakness beginning in the hands and feet and moving up towards the trunk of the body  </li>
 <li>palpitations, tremor or hyperactivity  </li>
 </ul>
-<p> If you notice these or any symptoms of inflammation or infection, tell your doctor immediately. </p>
+<p>If you notice these or any symptoms of inflammation or infection, tell your doctor immediately. </p>
 <p>Very common side effects 
 (may affect more than 1 in 10 people) 
 * Reactions where Sunlenca is injected.<br />
-Symptoms may include: 
-- pain and discomfort 
-- a hardened mass or lump<br />
-- inflammatory reaction such as redness, itching, and swelling </p>
+Symptoms may include:</p>
+<ul>
+<li>pain and discomfort </li>
+<li>a hardened mass or lump  </li>
+<li>inflammatory reaction such as redness, itching, and swelling </li>
+</ul>
 <p>Common side effects 
 (may affect up to 1 in 10 people) 
 * Feeling sick (nausea) </p>
@@ -313,21 +363,21 @@ County Cork<br />
 Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
+T l/Tel: + 32 (0) 24 01 35<br />
 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1България 
+Tel: + 353 (0) 1 686 1<br />
 Gilead Sciences Ireland UC 
-Тел.: + 353 (0) 1 686 1 
+ .: + 353 (0) 1 686 1 
 Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-Tél/Tel: + 32 (0) 24 01 35<br />
-Česká republika 
+T l/Tel: + 32 (0) 24 01 35<br />
+ esk  republika 
 Gilead Sciences s.r.o. 
 Tel: + 420 910 871<br />
-Magyarország 
+Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel.: + 353 (0) 1 686 1 
 Danmark 
@@ -346,14 +396,13 @@ Eesti
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Ελλάδα 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
-Österreich 
+Tlf: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
+ sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260<br />
-España 
+Espa a 
 Gilead Sciences, S.L. 
 Tel: + 34 91 378 98<br />
 Polska 
@@ -361,14 +410,14 @@ Gilead Sciences Poland Sp. z o.o.
 Tel.: + 48 22 262 8 
 France 
 Gilead Sciences 
-Tél: + 33 (0) 1 46 09 41<br />
+T l: + 33 (0) 1 46 09 41<br />
 Portugal 
 Gilead Sciences, Lda. 
 Tel: + 351 21 7928 
 Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-România 
+Rom nia 
 Gilead Sciences (GSR) S.R.L. 
 Tel: + 40 31 631 18<br />
 Ireland 
@@ -377,10 +426,10 @@ Tel: + 353 (0) 214 825<br />
 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 
-Ísland 
+ sland 
 Gilead Sciences Sweden AB 
-Sími: + 46 (0) 8 5057 1 
-Slovenská republika 
+S mi: + 46 (0) 8 5057 1 
+Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
 Tel: + 421 232 121<br />
 Italia 
@@ -388,10 +437,9 @@ Gilead Sciences S.r.l.
 Tel: + 39 02 439 
 Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 
-Κύπρος 
-Gilead Sciences Ελλάς Μ.ΕΠΕ. 
-Τηλ: + 30 210 8930<br />
+Puh/Tel: + 46 (0) 8 5057 1 </p>
+<p>Gilead Sciences    . . 
+ : + 30 210 8930<br />
 Sverige 
 Gilead Sciences Sweden AB 
 Tel: + 46 (0) 8 5057 1 

@@ -4,7 +4,7 @@ Instance: composition-en-e27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: CompositionUvEpi
 Title: "Composition for raloxifene Package Leaflet"
 Description:  "Composition for raloxifene Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Raloxifene Teva 
 4. Possible side effects 
 5. How to store Raloxifene Teva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -103,7 +102,7 @@ or cholestatic jaundice).
 women with this disease. 
 - If you have severe kidney problems.   </p>
 <p>Warnings and precautions  </p>
-<p>Talk to your doctor or pharmacist before taking Raloxifene Teva: </p>
+<p>Talk to your doctor or pharmacist before taking Raloxifene Teva:</p>
 <ul>
 <li>If you are immobilised for some time such as being wheel-chair bound, needing to be admitted 
 to a hospital or having to stay in bed while recovering from an operation or an unexpected 
@@ -207,7 +206,7 @@ this medicine.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton or foil after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C.  Store in the original package to protect from moisture. </p>
+<p>Do not store above 25 C.  Store in the original package to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
@@ -225,121 +224,6 @@ raloxifene hydrochloride, equivalent to 56 mg raloxifene. </li>
 Tablet core: pregelatinized starch (maize), magnesium stearate, povidone (K30), colloidal 
 anhydrous silica and microcrystalline cellulose, silicified. <br />
 Tablet coating: polydextrose (E1200), titanium dioxide (E171), hypromellose (E464) and 
-macrogol 4000.   </li>
-</ul>
-<p>What Raloxifene Teva looks like and contents of the pack </p>
-<p>The film-coated tablets are white to off-white, oval shaped and embossed with the number “60” on one 
-side and “N” on the other side. </p>
-<p>Raloxifene Teva 60 mg is available in pack sizes of 14, 28 and 84 film-coated tablets.  </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>Marketing Authorisation Holder: 
-Teva B.V. 
-Swensweg 5 
-2031GA Haarlem 
-The Netherlands </p>
-<p>Manufacturers: 
-Teva Pharmaceutical Works Private Limited Company 
-Pallagi út Debrecen H-4Hungary </p>
-<p>Pharmachemie B.V. 
-Swensweg 5 
-2031 GA Haarlem 
-The Netherlands </p>
-<p>Merckle GmbH<br />
-Ludwig-Merckle-Straße 3 
-89143 Blaubeuren 
-Germany </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder </p>
-<p>België/Belgique/Belgien<br />
-Teva Pharma Belgium N.V./S.A./AG<br />
-Tél/Tel: +32 38207373  </p>
-<p>Lietuva 
-UAB Teva Baltics 
-Tel: +370 52660България<br />
-Тева Фарма ЕАД 
-Тел: +359 24899<br />
-Luxembourg/Luxemburg<br />
-Teva Pharma Belgium N.V./S.A./AG 
-Belgique/Belgien 
-Tél/Tel: +32 38207<br />
-Česká republika<br />
-Teva Pharmaceuticals CR, s.r.o.<br />
-Tel: +420 251007111<br />
-Magyarország<br />
-Teva Gyógyszergyár Zrt.<br />
-Tel: +36 12886400  </p>
-<p>Danmark<br />
-Teva Denmark A/S<br />
-Tlf: +45 44985511<br />
-Malta<br />
-Teva Pharmaceuticals Ireland 
-L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
-TEVA GmbH 
-Tel: +49 73140 
-Nederland<br />
-Teva Nederland B.V. 
-Tel: +31 8000228400  </p>
-<p>Eesti 
-UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
-Teva Norway AS 
-Tlf: +47 66775590<br />
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
-ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-España 
-Teva Pharma, S.L.U. 
-Tel: +34 913873280   </p>
-<p>Polska 
-Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459France 
-Teva Santé 
-Tél: +33 155917Portugal 
-Teva Pharma - Produtos Farmacêuticos, 
-Lda. 
-Tel: +351 214767 
-Hrvatska 
-Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-România 
-Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
-Teva Pharmaceuticals Ireland 
-Tel: +44 2075407Slovenija 
-Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
-Ísland 
-Teva Pharma Iceland ehf. 
-Sími: +354 5503300  </p>
-<p>Slovenská republika 
-TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
-Teva Italia S.r.l. 
-Tel: +39 028917Suomi/Finland 
-Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
-Sverige 
-Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
-UAB Teva Baltics filiāle Latvijā 
-Tel: +371 67323United Kingdom (Northern Ireland) 
-Teva Pharmaceuticals Ireland 
-Ireland 
-Tel: +44 2075407 
-This leaflet was last revised in MM/YYYY </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+macrogol 400</li>
+</ul>         </div>"""      
 

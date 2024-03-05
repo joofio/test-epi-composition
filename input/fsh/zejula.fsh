@@ -4,7 +4,7 @@ Instance: composition-en-a48fce64d5ddc98dc0fe03d5edc214e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zejula Package Leaflet"
 Description:  "Composition for zejula Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -104,7 +104,7 @@ look out for include fever or infection, and abnormal bruising or bleeding (see 
 information). Your doctor will test your blood regularly throughout your treatment. </p>
 <p>Myelodysplastic syndrome/acute myeloid leukaemia 
 Rarely, low blood-cell counts may be a sign of more serious problems with the bone marrow such as 
-‘myelodysplastic syndrome’ (MDS) or ‘acute myeloid leukaemia’ (AML). Your doctor may want to 
+ myelodysplastic syndrome  (MDS) or  acute myeloid leukaemia  (AML). Your doctor may want to 
 test your bone marrow to check for these problems. </p>
 <p>High blood pressure 
 Zejula can cause high blood pressure, which in some cases, could be severe. Your doctor will measure 
@@ -154,7 +154,7 @@ It may cause allergic reactions. </p>         </div>"""
 or pharmacist if you are not sure. </p>
 <p>For ovarian cancer that has responded to the first treatment with platinum-based chemotherapy 
 The recommended starting dose is 200 mg (two 100 mg capsules), taken together once a day, with or 
-without food. If you weigh ≥ 77 kg and have platelet count ≥ 150,000/μL before starting treatment, the 
+without food. If you weigh   77 kg and have platelet count   150,000/ L before starting treatment, the 
 recommended starting dose is 300 mg (three 100 mg capsules), taken together once a day, with or 
 without food. </p>
 <p>For ovarian cancer that has come back (recurred) 
@@ -190,16 +190,16 @@ need urgent medical treatment: </p>
 blood platelet count (thrombocytopenia). 
 * Being short of breath, feeling very tired, having pale skin, or fast heartbeat -- these may be signs 
 of a low red blood cell count (anaemia). 
-* Fever or infection – low white blood cell count (neutropenia) can increase your risk for 
+* Fever or infection   low white blood cell count (neutropenia) can increase your risk for 
 infection. Signs may include fever, chills, feeling weak or confused, cough, pain or burning 
 feeling when passing urine. Some infections can be serious and may lead to death. 
 * Reduction in the number of white cells in the blood (leukopenia) </p>
 <p>Common (may affect up to 1 in 10 people) 
 * Allergic reaction (including severe allergic reaction that can be life-threatening). Signs include 
-raised and itchy rash (hives) and swelling—sometimes of the face or mouth (angioedema), 
+raised and itchy rash (hives) and swelling sometimes of the face or mouth (angioedema), 
 causing difficulty in breathing, and collapse or loss of consciousness. 
 * Low blood cell counts due to a problem in the bone marrow or blood cancer starting from the 
-bone marrow ‘myelodysplastic syndrome’ (MDS) or ‘acute myeloid leukaemia’ (AML). </p>
+bone marrow  myelodysplastic syndrome  (MDS) or  acute myeloid leukaemia  (AML). </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * Fever with low white blood cell count (febrile neutropenia) 
 * Reduction in the number of red blood cells, white blood cells and platelets (pancytopenia) </p>
@@ -273,7 +273,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -302,12 +302,12 @@ iron oxide (E 172), sodium hydroxide (E 524), povidone (E 1201), and titanium di
 <p>This medicine contains lactose and tartrazine - see section 2 for more information. </p>
 <p>What Zejula looks like and contents of the pack </p>
 <p>Zejula hard capsules have a white opaque body and a purple opaque cap. The white opaque capsule 
-body is printed with ‘100 mg’ in black ink, and the purple capsule cap is printed with ‘Niraparib’ in 
+body is printed with  100 mg  in black ink, and the purple capsule cap is printed with  Niraparib  in 
 white ink. The capsules contain a white to off-white powder. </p>
 <p>The hard capsules are packed in unit dose blister packs of 
-* 84 × 1 hard capsules 
-* 56 × 1 hard capsules 
-* 28 × 1 hard capsules </p>
+* 84   1 hard capsules 
+* 56   1 hard capsules 
+* 28   1 hard capsules </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 GlaxoSmithKline (Ireland) Limited 
@@ -321,22 +321,21 @@ Citywest Business Campus
 Dublin Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0) 10 85 52 Lietuva 
+T l/Tel: + 32 (0) 10 85 52 Lietuva 
 GlaxoSmithKline (Ireland) Limited<br />
-Tel: + 370 80000 
-България 
-GlaxoSmithKline (Ireland) Limited 
-Teл.: + 359  80018 
+Tel: + 370 80000 </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+Te .: + 359  80018 
 Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com  </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 GlaxoSmithKline (Ireland) Limited<br />
 Tel.: + 36  80088 
 Danmark 
@@ -355,15 +354,14 @@ Eesti
 GlaxoSmithKline (Ireland) Limited<br />
 Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20 Tel: + 372  8002 
-Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+Tlf: + 47 22 70 20 Tel: + 372  8002 </p>
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
@@ -371,25 +369,25 @@ GSK Services Sp. z o.o.
 Tel.: + 48 (0)22 576 9 
 France 
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0)1 39 17 84 diam@gsk.com 
+T l: + 33 (0)1 39 17 84 diam@gsk.com 
 Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline   Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com  </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
 Tel: +385  800787 
 Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955România 
+Tel: + 353 (0)1 4955Rom nia 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 40 800672 
 Slovenija 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: + 421 800500 
 Italia 
@@ -397,10 +395,9 @@ GlaxoSmithKline S.p.A.
 Tel: + 39 (0)45 7741 
 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-GlaxoSmithKline (Ireland) Limited 
-Τηλ: + 357 80070 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+ : + 357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com  </p>

@@ -4,7 +4,7 @@ Instance: composition-en-7f1553dfd98eb10665faba03861da449
 InstanceOf: CompositionUvEpi
 Title: "Composition for kapruvia Package Leaflet"
 Description:  "Composition for kapruvia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,12 +95,14 @@ Talk to your doctor or nurse before you are given Kapruvia if you:
 nervous system, or a disease of the central nervous system like multiple sclerosis or dementia) 
 as this might increase your risk of side effects 
 * are 65 years of age or older, as you may be more likely to be made drowsy by the medicine 
-* are using medicines that could increase the risk of drowsiness or dizziness, such as: 
-- medicines that slow down brain activity such as those that help with sleep disturbances 
-and anxiety 
-- medicines to treat allergies, cold, nausea and/or vomiting called sedating antihistamines<br />
-- strong painkillers, called opioid analgesics 
-Talk to your doctor if you take any of these medicines. </p>
+* are using medicines that could increase the risk of drowsiness or dizziness, such as:</p>
+<ul>
+<li>medicines that slow down brain activity such as those that help with sleep disturbances 
+and anxiety </li>
+<li>medicines to treat allergies, cold, nausea and/or vomiting called sedating antihistamines  </li>
+<li>strong painkillers, called opioid analgesics 
+Talk to your doctor if you take any of these medicines. </li>
+</ul>
 <p>Children and adolescents 
 Kapruvia is not recommended for children under 18 years, as it has not been studied in these patients. </p>
 <p>Other medicines and Kapruvia 
@@ -118,8 +120,8 @@ Kapruvia can cause drowsiness and dizziness which may affect your ability to rea
 use machines if your ability to react is reduced or you do not know the effect of Kapruvia on your 
 ability to react. </p>
 <p>Kapruvia contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’.  </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free .  </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kapruvia"
@@ -131,8 +133,15 @@ given as an injection into a vein by a doctor or nurse at the end of your dialys
 tube that connects you to the dialysis machine. </p>
 <p>Kapruvia will be given 3 times per week. This increases to 4 times per week in case of a fourth 
 dialysis. No more than 4 doses are recommended, even if the number of dialysis treatments in a week 
-is more than 4.<br />
-If a dialysis treatment is unfinished, your doctor will decide whether it is better for you to receive 
+is more than </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If a dialysis treatment is unfinished, your doctor will decide whether it is better for you to receive 
 Kapruvia after the unfinished dialysis session or wait until your next dialysis treatment. 
 If a dialysis treatment is missed, the usual dose of Kapruvia will be given to you at the next dialysis 
 treatment. </p>
@@ -144,13 +153,12 @@ these patients. </p>
 <p>If you have been given more Kapruvia than you should 
 This increases the occurrence of side effects listed in section 4. Inform your doctor if you think this 
 applies to you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store kapruvia"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store kapruvia"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The following side effects have been reported in patients receiving this medicine: </p>
@@ -170,45 +178,14 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store kapruvia"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kapruvia"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and carton after “EXP”. The 
-expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kapruvia contains<br />
-* The active substance is difelikefalin. 
-Each vial contains 50 micrograms of difelikefalin (as acetate) in 1.0 mL solution. 
-* The other ingredients are acetic acid (for pH adjustment), sodium acetate trihydrate (for pH 
-adjustment), sodium chloride, water for injections. See section 2 “Kapruvia contains sodium”. </p>
-<p>What Kapruvia looks like and contents of the pack 
-Kapruvia is a clear, colourless solution and free from particles (pH 4.5). It is supplied in a glass vial 
-with rubber stopper, an aluminium seal and a blue flip-off plastic cap. </p>
-<p>Pack sizes of 3 and 12 vials. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris La Défense Cedex 
-France </p>
-<p>Manufacturer 
-Vifor France 
-100–101 Terrasse Boieldieu 
-Tour Franklin La Défense 8 
-92042 Paris La Défense Cedex 
-France </p>
-<p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
+expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>         </div>"""      
 

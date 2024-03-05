@@ -4,7 +4,7 @@ Instance: composition-en-f502911808bc1b6ee8b26c1badf235f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for slenyto Package Leaflet"
 Description:  "Composition for slenyto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,14 +90,14 @@ or your child fall asleep and may help you or your child sleep for longer during
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DO NOT take Slenyto if you or your child 
 - is allergic to melatonin or any of the other ingredients of this medicine (listed in section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Slenyto if you or your child: </p>
+Talk to your doctor or pharmacist before taking Slenyto if you or your child:</p>
 <ul>
 <li>has liver or kidney problems. You should speak to your doctor before taking/giving Slenyto as 
 its use is not recommended in such cases. </li>
-<li>suffers from an autoimmune disease (where the body’s own immune (defence) system attacks 
+<li>suffers from an autoimmune disease (where the body s own immune (defence) system attacks 
 parts of the body). You should speak to your doctor before taking/giving Slenyto as its use is 
 not recommended in such cases. </li>
-<li>feels drowsy (see section below on “Driving and using machines”). </li>
+<li>feels drowsy (see section below on  Driving and using machines ). </li>
 </ul>
 <p>Children under 2 years old<br />
 Do not give this medicine to children below the age of 2 years as it has not been tested and its effects 
@@ -156,7 +156,7 @@ an intolerance to some sugars, contact your doctor before taking this medicinal 
 you are not sure. </p>
 <p>How much 
 Slenyto is available in two strengths: 1 mg and 5 mg.  The recommended starting dose is 2 mg (two 
-1-mg tablets) once daily. If there is no improvement in your/your child’s symptoms, your doctor may 
+1-mg tablets) once daily. If there is no improvement in your/your child s symptoms, your doctor may 
 increase the dose of Slenyto to find the most suitable dose for you/your child. The maximum daily 
 dose that you/your child will receive is 10 mg (two 5-mg tablets). </p>
 <p>When<br />
@@ -245,7 +245,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP.  The 
 expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C.   </p>
+<p>Do not store above 30 C.   </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
 throw away medicines you no longer use.  These measures will help to protect the environment. </p>         </div>"""      
         
@@ -288,34 +288,33 @@ tablets. </p>
 France<br />
 e-mail: regulatory@neurim.com </p>
 <p>Manufacturer </p>
-<p>Iberfar Indústria Farmacêutica, S.A. 
+<p>Iberfar Ind stria Farmac utica, S.A. 
 Estrada Consiglieri Pedroso 123,<br />
 Queluz De Baixo 
 Barcarena 
 2734-Portugal </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 RAD Neurim Pharmaceuticals EEC SARL 
-Tél/Tel: +33 185149776 (FR) 
+T l/Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
 <p>Lietuva 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>България 
-RAD Neurim Pharmaceuticals EEC SARL 
-Teл.: +33 185149776 (FR) 
+<p>RAD Neurim Pharmaceuticals EEC SARL 
+Te .: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
 <p>Luxembourg/Luxemburg 
 RAD Neurim Pharmaceuticals EEC SARL 
-Tél/Tel: +33 185149776 (FR) 
+T l/Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>Česká republika 
+<p>esk  republika 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com 
-Magyarország 
+Magyarorsz g 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel.: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -341,14 +340,13 @@ e-mail: neurim@neurim.com </p>
 <p>Norge 
 Takeda AS 
 e-mail: medinfoEMEA@takeda.com </p>
-<p>Ελλάδα 
-INNOVIS PHARMA A.E.B.E. 
-Τηλ: +30 216 200 5e-mail: info@innovispharma.gr </p>
-<p>Österreich 
+<p>INNOVIS PHARMA A.E.B.E. 
+ : +30 216 200 5e-mail: info@innovispharma.gr </p>
+<p>sterreich 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>España 
+<p>Espa a 
 EXELTIS HEALTHCARE, S.L. 
 Tel: +34 91 7711e-mail: RegistrosExeltisSpain@exeltis.com </p>
 <p>Polska 
@@ -357,16 +355,16 @@ Tel.: +33 185149776 (FR)
 e-mail: neurim@neurim.com </p>
 <p>France 
 BIOCODEX 
-Tél: +33 (0)1 41 24 30 e-mail: medinfo@biocodex.com </p>
+T l: +33 (0)1 41 24 30 e-mail: medinfo@biocodex.com </p>
 <p>Portugal 
-Laboratórios Azevedos – Indústria Farmacêutica, 
+Laborat rios Azevedos   Ind stria Farmac utica, 
 S.A. 
 Tel: +351 214 725 e-mail: mail@azevedos-sa.pt </p>
 <p>Hrvatska 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>România 
+<p>Rom nia 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -378,10 +376,10 @@ e-mail: neurim@neurim.com </p>
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>Ísland 
+<p>sland 
 Williams &amp; Halls ehf.<br />
-Sími: +354 527 0Netfang: info@wh.is </p>
-<p>Slovenská republika 
+S mi: +354 527 0Netfang: info@wh.is </p>
+<p>Slovensk  republika 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -392,9 +390,8 @@ Tel: +39 049 8232e-mail: info@fidiapharma.it </p>
 RAD Neurim Pharmaceuticals EEC SARL 
 Puh/Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
-<p>Κύπρος 
-RAD Neurim Pharmaceuticals EEC SARL 
-Τηλ: +33 185149776 (FR) 
+<p>RAD Neurim Pharmaceuticals EEC SARL 
+ : +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
 <p>Sverige 
 Takeda Pharma AB 

@@ -4,7 +4,7 @@ Instance: composition-en-e8ab7070a1e099803634040c1dcebc5b
 InstanceOf: CompositionUvEpi
 Title: "Composition for miglustat Package Leaflet"
 Description:  "Composition for miglustat Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,7 +75,7 @@ that affect metabolism. It is used to treat two conditions: </p>
 <li>Miglustat Gen.Orph is used to treat mild to moderate type 1 Gaucher disease in adults. </li>
 </ul>
 <p>In type 1 Gaucher disease, a substance called glucosylceramide is not removed from your body. It 
-starts to build up in certain cells of the body’s immune system. This can result in liver and spleen 
+starts to build up in certain cells of the body s immune system. This can result in liver and spleen 
 enlargement, changes in the blood and bone disease. </p>
 <p>The usual treatment for type 1 Gaucher disease is enzyme replacement therapy. Miglustat Gen.Orph is 
 only used when a patient is considered unsuitable for treatment with enzyme replacement therapy. </p>
@@ -86,7 +86,7 @@ Pick type C disease in adults and in children. </li>
 <p>If you have Niemann-Pick type C disease, fats such as glycosphingolipids build up in the cells of your 
 brain. This can result in disturbances in neurological functions such as slow eye movements, balance, 
 swallowing, and memory, and in seizures. </p>
-<p>Miglustat Gen.Orph works by inhibiting the enzyme called ‘glucosylceramide synthase’ which is 
+<p>Miglustat Gen.Orph works by inhibiting the enzyme called  glucosylceramide synthase  which is 
 responsible for the first step in the synthesis of most glycosphingolipids. </p>         </div>"""   
           
 
@@ -104,12 +104,13 @@ Talk to your doctor or pharmacist before taking Miglustat Gen.Orph
 - if you suffer from kidney disease 
 - if you suffer from liver disease </p>
 <p>Your doctor will perform the following tests before treatment and during treatment with Miglustat 
-Gen.Orph: 
-- an examination to check the nerves in your arms and legs 
-- measurement of vitamin B12 levels 
--<br />
-monitoring growth if you are a child or adolescent with Niemann-Pick type C disease 
-- monitoring of blood platelet counts </p>
+Gen.Orph:</p>
+<ul>
+<li>an examination to check the nerves in your arms and legs </li>
+<li>measurement of vitamin B12 levels </li>
+<li>monitoring growth if you are a child or adolescent with Niemann-Pick type C disease </li>
+<li>monitoring of blood platelet counts </li>
+</ul>
 <p>The reason for these tests is that some patients have had tingling or numbness in the hands and feet, or 
 a decrease in body weight, while taking Miglustat Gen.Orph. The tests will help the doctor decide 
 whether these effects are due to your disease or other existing conditions, or due to side effects of 
@@ -173,18 +174,24 @@ glass of water. </p>
 <p>If you take more Miglustat Gen.Orph than you should 
 If you take more capsules than you were told to, consult your doctor immediately. Miglustat has been 
 used in clinical studies at doses up to 3000 mg: this caused decreases in white blood cells and other 
-side effects similar to those described in section 4.<br />
-If you forget to take Miglustat Gen.Orph 
-Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you stop taking Miglustat Gen.Orph 
-Don’t stop taking Miglustat Gen.Orph without talking to your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+side effects similar to those described in section </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Miglustat Gen.Orph 
+Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
+<p>If you stop taking Miglustat Gen.Orph 
+Don t stop taking Miglustat Gen.Orph without talking to your doctor. 
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store miglustat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store miglustat"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Most serious side effects: 
@@ -200,7 +207,7 @@ will need to reduce the dose or stop Miglustat Gen.Orph treatment to stop the tr
 <p>Very common effects (may affect more than 1 in 10 people) 
 The most common side effects are diarrhoea, flatulence (wind),  abdominal (stomach) pain, weight loss 
 and decreased appetite. </p>
-<p>If you do lose some weight when you start treatment with Miglustat Gen.Orph don’t worry. People 
+<p>If you do lose some weight when you start treatment with Miglustat Gen.Orph don t worry. People 
 usually stop losing weight as treatment goes on. </p>
 <p>Common effects (may affect up to 1 in 10 people) 
 Common side effects of treatment include headache, dizziness, paraesthesia (tingling or numbness), 
@@ -220,143 +227,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store miglustat"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store miglustat"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not take this medicine after the expiry date which is stated on the carton after ‘EXP’. The expiry 
-date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Miglustat Gen.Orph contains<br />
-- The active substance is miglustat 100 mg. 
-- The other ingredients are sodium starch glycolate (type A), povidone (K30), magnesium 
-stearate, gelatin, titanium dioxide (E171). See section 2 “Miglustat Gen.Orph contains sodium”. </p>
-<p>What Miglustat Gen.Orph looks like and contents of the pack 
-Miglustat Gen.Orph 100 mg hard capsules are white opaque cap and body, hard gelatin capsules size 
-4 of 14 mm length. 
-Pack size of 84 hard capsules in non-perforated blisters and 84x1 hard capsules in perforated unit dose 
-blisters. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder<br />
-Gen.Orph 
-185 Bureaux de la Colline 
-92213 Saint Cloud Cedex 
-France </p>
-<p>Manufacturers 
-Delpharm Reims 
-10 rue Colonel Charbonneaux 
-51100 Reims 
-France 
-or 
-Centre Lab 
-ZA Granderaie 
-23000 Guéret 
-France </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien<br />
-Gen.Orph<br />
-Tél/Tel: +32 (0)496 85 87 e-mail: reg@studiopharma.be </p>
-<p>Lietuva<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
-<p>България<br />
-Диакомерс ЕООД 
-Тел.: +359 2 807 50 Е-mail: diacommerce@diacommerce.bg </p>
-<p>Luxembourg/Luxemburg<br />
-Gen.Orph 
-Tél/Tel.: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Česká republika<br />
-Gen. Orph 
-Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
-Magyarország<br />
-Gen.Orph 
-Tel.: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
-<p>Danmark<br />
-Gen.Orph 
-Tlf: +46 (0)8 21 54 e-mail: 
-pharmacovigilance.SE@propharmagroup.com </p>
-<p>Malta<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
-Deutschland<br />
-Gen.Orph 
-Tel: +49 30 8560687email: 
-pharmacovigilance.DE@propharmagroup.com </p>
-<p>Nederland<br />
-Gen.Orph 
-Tel: +32 (0)496 85 87 e-mail : reg@studiopharma.be 
-Eesti<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Norge<br />
-Gen.Orph 
-Tlf: +46 (0)8 21 54 e-mail: pharmacovigilance.SE@propharmagroup.com </p>
-<p>Ελλάδα<br />
-Gen.Orph 
-Τηλ: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Österreich<br />
-Gen.Orph 
-Tel : +33 (0)1 47 71 04 e-mail : contact@gen-orph.com </p>
-<p>España<br />
-Pharma International S.A. 
-Tel: +34 915 635 e-mail: farmacovigilancia@pharmaintl.net </p>
-<p>Polska<br />
-Gen.Orph 
-Tel.: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
-<p>France<br />
-Gen.Orph 
-Portugal<br />
-Biojam, S.A. 
-Tél.: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com </p>
-<p>Tel:  +351 212 697 e-mail:  farmacovigilancia@phagecon.pt </p>
-<p>Hrvatska<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
-<p>România<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
-Ireland<br />
-Gen.Orph 
-Tel : +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Slovenija<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Ísland<br />
-Gen.Orph 
-Sími: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com </p>
-<p>Slovenská republika<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Italia<br />
-Biovalley Investments Partner S.r.l. 
-Tel: +39 040 899 2e.mail: info@biovalleyinvestmentspartner.it </p>
-<p>Suomi/Finland<br />
-Gen.Orph 
-Puh/Tel : +46 (0)8 21 54 e-mail: pharmacovigilance.SE@propharmagroup.com </p>
-<p>Κύπρος<br />
-Gen.Orph 
-Τηλ: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>Sverige<br />
-Gen.Orph 
-Tel: +46 (0)8 21 54 e-mail : pharmacovigilance.SE@propharmagroup.com </p>
-<p>Latvija<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com 
-United Kingdom<br />
-Gen.Orph 
-Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
-<p>This leaflet was last revised in {month YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not take this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
+date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

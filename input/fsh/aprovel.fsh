@@ -4,7 +4,7 @@ Instance: composition-en-3a9236fa8ea679c18e98f7fdb3c04fb7
 InstanceOf: CompositionUvEpi
 Title: "Composition for aprovel Package Leaflet"
 Description:  "Composition for aprovel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -88,7 +88,7 @@ evidence of impaired kidney function. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Aprovel 
 * if you are allergic to irbesartan or any other ingredients of this medicine (listed in section 6) 
 * if you are more than 3 months pregnant. (It is also better to avoid Aprovel in early pregnancy 
-– see pregnancy section) 
+  see pregnancy section) 
 * if you have diabetes or impaired kidney function and you are treated with a blood pressure 
 lowering medicine containing aliskiren </p>
 <p>Warning and precautions 
@@ -104,14 +104,12 @@ function </p>
 dizziness, trembling, headache, flushing or paleness, numbness, having a fast, pounding 
 heartbeat), particularly if you are being treated for diabetes. </li>
 <li>if you are going to have an operation (surgery) or be given anaesthetics </li>
-<li>if you are taking any of the following medicines used to treat high blood pressure: 
-o an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
-diabetes-related kidney problems. 
-o aliskiren. </li>
+<li>if you are taking any of the following medicines used to treat high blood pressure: * an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have 
+diabetes-related kidney problems. * aliskiren. </li>
 </ul>
 <p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. 
 potassium) in your blood at regular intervals. </p>
-<p>See also information under the heading “Do not take Aprovel”. </p>
+<p>See also information under the heading  Do not take Aprovel . </p>
 <p>You must tell your doctor if you think you are (or might become) pregnant. Aprovel is not 
 recommended in early pregnancy, and must not be taken if you are more than 3 months pregnant, as it 
 may cause serious harm to your baby if used at that stage (see pregnancy section). </p>
@@ -122,8 +120,8 @@ have not yet been fully established. </p>
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Your doctor may need to change your dose and/or to take other precautions: 
-If you are taking an ACE-inhibitor or aliskiren (see also information under the headings “Do not take 
-Aprovel” and “Warnings and precautions”). </p>
+If you are taking an ACE-inhibitor or aliskiren (see also information under the headings  Do not take 
+Aprovel  and  Warnings and precautions ). </p>
 <p>You may need to have blood checks if you take: 
 * potassium supplements 
 * salt substitutes containing potassium 
@@ -152,7 +150,7 @@ doctor before attempting to drive or use machines. </p>
 <p>Aprovel contains lactose. If you have been told by your doctor that you have an intolerance to some 
 sugars (e.g. lactose), contact your doctor before taking this medicinal product. </p>
 <p>Aprovel contains sodium. This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is 
-to say essentially ‘sodium-free’. </p>         </div>"""   
+to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aprovel"
@@ -225,7 +223,7 @@ indigestion/heartburn, sexual dysfunction (problems with sexual performance), ch
 </ul>
 <p>Some undesirable effects have been reported since marketing of Aprovel. Undesirable effects where 
 the frequency is not known are: feeling of spinning, headache, taste disturbance, ringing in the ears, 
-muscle cramps, pain in joints and muscles, decreased number of red blood cells (anaemia – symptoms 
+muscle cramps, pain in joints and muscles, decreased number of red blood cells (anaemia   symptoms 
 may include tiredness, headaches, being short of breath when exercising, dizziness and looking pale), 
 reduced number of platelets, abnormal liver function, increased blood potassium levels, impaired 
 kidney function, inflammation of small blood vessels mainly affecting the skin (a condition known as 
@@ -246,7 +244,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30°C. </p>
+<p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -261,7 +259,7 @@ throw away medicines you no longer use. These measures will help protect the env
 <ul>
 <li>The other ingredients are microcrystalline cellulose, croscarmellose sodium, lactose 
 monohydrate, magnesium stearate, colloidal hydrated silica, pregelatinized maize starch, and 
-poloxamer 188.  Please see section 2 “Aprovel contains lactose”. </li>
+poloxamer 188.  Please see section 2  Aprovel contains lactose . </li>
 </ul>
 <p>What Aprovel looks like and contents of the pack 
 Aprovel 75 mg tablets are white to off-white, biconvex, and oval-shaped with a heart debossed on one 
@@ -277,28 +275,27 @@ France </p>
 <p>Manufacturer: 
 SANOFI WINTHROP INDUSTRIE 
 1, rue de la Vierge 
-Ambarès &amp; Lagrave 
+Ambar s &amp; Lagrave 
 F-33565 Carbon Blanc Cedex - France </p>
 <p>SANOFI WINTHROP INDUSTRIE 
-30-36 Avenue Gustave Eiffel, BP 7F-37071 Tours Cedex 2 – France </p>
+30-36 Avenue Gustave Eiffel, BP 7F-37071 Tours Cedex 2   France </p>
 <p>For any information about this medicinal product, please contact the local representative of the 
 Marketing Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-Tél/Tel: +32 (0)2 710 54<br />
+T l/Tel: +32 (0)2 710 54<br />
 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91<br />
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
-Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
-<p>Česká republika 
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
-Magyarország 
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0 
 Danmark 
@@ -314,18 +311,17 @@ Nederland
 Sanofi B.V. 
 Tel: +31 20 245 4 
 Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel: +372 640 10<br />
 Norge 
 sanofi-aventis Norge AS 
 Tlf: +47 67 10 71  </p>
-<p>Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
-Τηλ: +30 210 900 16<br />
-Österreich 
+<p>Sanofi-Aventis   <br />
+ : +30 210 900 16<br />
+ sterreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
-<p>España 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Polska 
@@ -333,13 +329,13 @@ sanofi-aventis Sp. z o.o.
 Tel.: +48 22 280 00<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
 Portugal 
-Sanofi - Produtos Farmacêuticos, Lda 
+Sanofi - Produtos Farmac uticos, Lda 
 Tel: +351 21 35 89<br />
 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078 România 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 Ireland 
@@ -348,10 +344,10 @@ Tel: +353 (0) 1 403 56<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33<br />
 Italia 
@@ -359,10 +355,9 @@ Sanofi S.r.l.
 Tel:  800 536 
 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200<br />
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />

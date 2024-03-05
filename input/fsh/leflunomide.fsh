@@ -4,7 +4,7 @@ Instance: composition-en-77a855e484d10473c2746e9b03c57dde
 InstanceOf: CompositionUvEpi
 Title: "Composition for leflunomide Package Leaflet"
 Description:  "Composition for leflunomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -133,22 +133,26 @@ age. </p>
 <p>Other medicines and Leflunomide Zentiva 
 Please tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. This includes medicines obtained without a prescription. </p>
-<p>This is especially important if you are taking: 
-- other medicines for rheumatoid arthritis such as antimalarials (e.g. chloroquine and 
-hydroxychloroquine), intramuscular or oral gold, D-penicillamine, azathioprine and other 
-immunosuppressive medicines (e.g. methotrexate) as these combinations are not advisable, 
-- warfarin and other oral medicines used to thin the blood, as monitoring is necessary to reduce 
-the risk of side effects of this medicine 
-- teriflunomide for multiple sclerosis 
-- repaglinide, pioglitazone, nateglinide, or rosiglitazone for diabetes<br />
-- daunorubicin, doxorubicin, paclitaxel, or topotecan for cancer<br />
-- duloxetine for depression, urinary incontinence or in kidney disease in diabetics<br />
-- alosetron for the management of severe diarrhoea 
-- theophylline for asthma 
-- tizanidine, a muscle relaxant<br />
-- oral contraceptives (containing ethinylestradiol and levonorgestrel) </p>
+<p>This is especially important if you are taking:</p>
 <ul>
-<li>cefaclor, benzylpenicillin (penicillin G), ciprofloxacin for infections  </li>
+<li>other medicines for rheumatoid arthritis such as antimalarials (e.g. chloroquine and 
+hydroxychloroquine), intramuscular or oral gold, D-penicillamine, azathioprine and other 
+immunosuppressive medicines (e.g. methotrexate) as these combinations are not advisable, </li>
+<li>warfarin and other oral medicines used to thin the blood, as monitoring is necessary to reduce 
+the risk of side effects of this medicine </li>
+<li>teriflunomide for multiple sclerosis </li>
+<li>repaglinide, pioglitazone, nateglinide, or rosiglitazone for diabetes  </li>
+<li>daunorubicin, doxorubicin, paclitaxel, or topotecan for cancer  </li>
+<li>duloxetine for depression, urinary incontinence or in kidney disease in diabetics  </li>
+<li>alosetron for the management of severe diarrhoea </li>
+<li>theophylline for asthma </li>
+<li>tizanidine, a muscle relaxant  </li>
+<li>
+<p>oral contraceptives (containing ethinylestradiol and levonorgestrel) </p>
+</li>
+<li>
+<p>cefaclor, benzylpenicillin (penicillin G), ciprofloxacin for infections  </p>
+</li>
 <li>indomethacin, ketoprofen for pain or inflammation  </li>
 <li>furosemide for heart disease (diuretic, water pill) </li>
 <li>zidovudine for HIV infection  </li>
@@ -224,23 +228,33 @@ dose. Do not take a double dose to make up for a forgotten dose. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Tell your doctor immediately and stop taking Leflunomide Zentiva: 
-- if you experience weakness, feel light-headed or dizzy or have difficulty breathing, as these 
-may be signs of a serious allergic reaction, 
-- if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
+<p>Tell your doctor immediately and stop taking Leflunomide Zentiva:</p>
+<ul>
+<li>if you experience weakness, feel light-headed or dizzy or have difficulty breathing, as these 
+may be signs of a serious allergic reaction, </li>
+<li>if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
 life-threatening reactions (e.g. Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema 
-multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section 2.<br />
-Tell your doctor immediately if you experience: 
-- pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
-in the different types of blood cells which make up blood, 
-- tiredness, abdominal pain, or jaundice (yellow discolouration of the eyes or skin), as these 
-may indicate serious conditions such as liver failure, which may be fatal, 
-- any symptoms of an infection such as fever, sore throat or cough, as this medicine may 
-increase the chance of a severe infection which may be life-threatening, 
-- cough or breathing problems as these may indicate problems of the lung (interstitial lung 
-disease or pulmonary hypertension),<br />
-- unusual tingling, weakness or pain in your hands or feet as these may indicate problems with 
-your nerves (peripheral neuropathy). </p>
+multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store leflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store leflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor immediately if you experience:</p>
+<ul>
+<li>pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
+in the different types of blood cells which make up blood, </li>
+<li>tiredness, abdominal pain, or jaundice (yellow discolouration of the eyes or skin), as these 
+may indicate serious conditions such as liver failure, which may be fatal, </li>
+<li>any symptoms of an infection such as fever, sore throat or cough, as this medicine may 
+increase the chance of a severe infection which may be life-threatening, </li>
+<li>cough or breathing problems as these may indicate problems of the lung (interstitial lung 
+disease or pulmonary hypertension),  </li>
+<li>unusual tingling, weakness or pain in your hands or feet as these may indicate problems with 
+your nerves (peripheral neuropathy). </li>
+</ul>
 <p>Common side effects (may affect up to 1 in 10 people) 
 - a slight decrease in the number of white blood cells (leucopenia),<br />
 - mild allergic reactions, 
@@ -302,10 +316,11 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store leflunomide"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store leflunomide"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the packaging. The expiry date refers 
@@ -316,129 +331,4 @@ Store in the original package. </p>
 Keep the bottle tightly closed.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Leflunomide Zentiva contains 
-- The active substance is leflunomide. One film-coated tablet contains 10 mg of leflunomide. 
-- The other ingredients are: maize starch, povidone (E1201), crospovidone (E1202), silica 
-colloidal anhydrous, magnesium stearate (E470b), and lactose monohydrate in the tablet core, as well 
-as talc (E553b), hypromellose (E464), titanium dioxide (E171), and macrogol 8000 in the 
-film-coating. </p>
-<p>What Leflunomide Zentiva looks like and contents of the pack 
-Leflunomide Zentiva 10 mg film-coated tablets are white to almost white and round. 
-Imprint on one side: ZBN. </p>
-<p>The tablets are packed in blisters or bottles. 
-Packs of 30 and 100 tablets are available. </p>
-<p>Not all pack size may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Zentiva k.s.<br />
-U kabelovny 130<br />
-102 37 Prague 10<br />
-Czech Republic </p>
-<p>Manufacturer<br />
-Opella Healthcare International SAS 
-56, Route de Choisy 
-60200 Compiègne 
-France </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Zentiva, k.s. 
-Tél/Tel: +32 280 86 PV-Belgium@zentiva.com </p>
-<p>Lietuva 
-Zentiva, k.s. 
-Tel: +370 52152PV-Lithuania@zentiva.com 
-България 
-Zentiva, k.s. 
-Тел: +35924417PV-Bulgaria@zentiva.com </p>
-<p>Luxembourg/Luxemburg 
-Zentiva, k.s. 
-Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
-Česká republika 
-Zentiva, k.s. 
-Tel: +420 267 241 PV-Czech-Republic@zentiva.com </p>
-<p>Magyarország 
-Zentiva Pharma Kft. 
-Tel.: +36 1 299 1PV-Hungary@zentiva.com 
-Danmark 
-Zentiva Denmark ApS 
-Tlf: +45 787 68 PV-Denmark@zentiva.com </p>
-<p>Malta 
-Zentiva, k.s. 
-Tel: +356 2778 0PV-Malta@zentiva.com 
-Deutschland 
-Zentiva Pharma GmbH<br />
-Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com </p>
-<p>Nederland 
-Zentiva, k.s. 
-Tel: +31 202 253 PV-Netherlands@zentiva.com 
-Eesti 
-Zentiva, k.s. 
-Tel: +372 52 70PV-Estonia@zentiva.com </p>
-<p>Norge 
-Zentiva Denmark ApS 
-Tlf: +47 219 66 PV-Norway@zentiva.com 
-Ελλάδα 
-Zentiva, k.s. 
-Τηλ: +30 211 198 7PV-Greece@zentiva.com </p>
-<p>Österreich 
-Zentiva, k.s. 
-Tel: +43 720 778 PV-Austria@zentiva.com 
-España 
-Zentiva, k.s. 
-Tel: +34 931 815 PV-Spain@zentiva.com </p>
-<p>Polska 
-Zentiva Polska Sp. z o.o. 
-Tel: + 48 22 375 92 PV-Poland@zentiva.com 
-France 
-Zentiva France 
-Tél: +33 (0) 800 089 219<br />
-PV-France@zentiva.com </p>
-<p>Portugal 
-Zentiva Portugal, Lda 
-Tel: +351210601PV-Portugal@zentiva.com </p>
-<p>Hrvatska 
-Zentiva d.o.o. 
-Tel: +385 1 6641 PV-Croatia@zentiva.com </p>
-<p>Ireland 
-Zentiva, k.s. 
-Tel: +353 818 882 PV-Ireland@zentiva.com </p>
-<p>România 
-ZENTIVA S.A. 
-Tel: +4 021.304.7PV-Romania@zentiva.com </p>
-<p>Slovenija 
-Zentiva, k.s. 
-Tel: +386 360 00 PV-Slovenia@zentiva.com 
-Ísland 
-Zentiva Denmark ApS 
-Sími: +354 539 0PV-Iceland@zentiva.com </p>
-<p>Slovenská republika 
-Zentiva, a.s. 
-Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
-Italia 
-Zentiva Italia S.r.l. 
-Tel: +39-02-38598PV-Italy@zentiva.com 
-Suomi/Finland 
-Zentiva Denmark ApS 
-Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
-<p>Κύπρος 
-Zentiva, k.s. 
-Τηλ: +357 240 30 PV-Cyprus@zentiva.com </p>
-<p>Sverige 
-Zentiva Denmark ApS 
-Tel: +46 840 838 PV-Sweden@zentiva.com 
-Latvija 
-Zentiva, k.s. 
-Tel: +371 67893PV-Latvia@zentiva.com </p>
-<p>United Kingdom (Northern Ireland) 
-Zentiva, k.s. 
-Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

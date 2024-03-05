@@ -4,7 +4,7 @@ Instance: composition-en-951d8a8dc27e4bf24952f3a016066e45
 InstanceOf: CompositionUvEpi
 Title: "Composition for omjjara Package Leaflet"
 Description:  "Composition for omjjara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,9 +74,9 @@ protein kinase inhibitor. </p>
 <p>Omjjara is used to treat enlarged spleen or other disease related symptoms in adult patients with 
 myelofibrosis, a rare form of blood cancer, and moderate to severe anaemia. </p>
 <p>In myelofibrosis, bone marrow is replaced by scar tissue and is classified as either: 
-• primary myelofibrosis, which develops in people who have not had problems with their bone 
+  primary myelofibrosis, which develops in people who have not had problems with their bone 
 marrow before, or; 
-• secondary myelofibrosis, which develops in people who have other blood cancers, causing their 
+  secondary myelofibrosis, which develops in people who have other blood cancers, causing their 
 body to produce too many red blood cells (post polycythaemia vera myelofibrosis) or blood 
 platelets, which help the blood to clot (post essential thrombocythemia myelofibrosis). </p>
 <p>How Omjjara works </p>
@@ -104,12 +104,12 @@ have checked with your doctor.<br />
 Tell your doctor<br />
 Talk to your doctor, pharmacist, or nurse before taking Omjjara or during your treatment with 
 Omjjara: 
-* if you have an infection or have frequent infections — signs of an infection may include 
+* if you have an infection or have frequent infections   signs of an infection may include 
 fever, chills, cough, breathing problems, diarrhoea, vomiting, pain or burning feeling when 
 passing urine. 
 * if you have had hepatitis B for a long time (chronic) as hepatitis B may become active again. 
 * if you have unusual bleeding or bruising under the skin, longer than usual bleeding after your 
-blood has been drawn, or bleeding from your gums — these may be signs of low levels of 
+blood has been drawn, or bleeding from your gums   these may be signs of low levels of 
 blood platelets (components that help the blood to clot), also called thrombocytopenia. 
 * if you have any liver problems. Your doctor may need to prescribe a lower dose of 
 Omjjara. </p>
@@ -157,7 +157,7 @@ substances, as your doctor may need to adjust the dose of Omjjara or the other m
 * carbamazepine (used to treat epilepsy and control fits or convulsions) 
 * phenobarbital (used to treat epilepsy and control fits or convulsions) 
 * phenytoin (used to treat epilepsy and control fits or convulsions) 
-* St John’s wort (Hypericum perforatum), a herbal product </p>
+* St John s wort (Hypericum perforatum), a herbal product </p>
 <p>Omjjara may affect other medicines: 
 * rosuvastatin (a statin used to lower cholesterol) 
 * sulfasalazine (used to treat rheumatoid arthritis) 
@@ -188,8 +188,8 @@ do not drive or operate machines until these side effects have gone away. </p>
 <p>Omjjara contains lactose and sodium 
 Omjjara contains lactose (milk sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omjjara"
@@ -234,7 +234,7 @@ dose if you experience the following serious side effects: </p>
 <p>Very common side effects </p>
 <p>May affect more than 1 in 10 people: </p>
 <ul>
-<li>infections — signs or symptoms may include fever, chills, cough, breathing problems, 
+<li>infections   signs or symptoms may include fever, chills, cough, breathing problems, 
 diarrhoea, vomiting, pain or burning feeling when passing urine </li>
 <li>low blood platelet count (thrombocytopenia) which can result in bruising or bleeding for 
 longer than usual if you hurt yourself </li>
@@ -290,7 +290,7 @@ the safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label and carton after 
-“EXP”. The expiry date refers to the last day of that month. </p>
+ EXP . The expiry date refers to the last day of that month. </p>
 <p>Store in the original bottle in order to protect from moisture. Do not remove the desiccant. Do not 
 swallow the desiccant. This medicine does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
@@ -319,12 +319,12 @@ Tablet coating: Opadry II brown containing polyvinyl alcohol, macrogols, titaniu
 </ul>
 <p>See section 2 Omjjara contains lactose and sodium. </p>
 <p>What Omjjara looks like and contents of the pack  </p>
-<p>Omjjara 100 mg film-coated tablets are round-shaped brown tablets with an underlined “M” debossed on 
-one side and “100” on the other side. </p>
-<p>Omjjara 150 mg film-coated tablets are triangle-shaped brown tablets with an underlined “M” debossed 
-on one side and “150” on the other side. </p>
-<p>Omjjara 200 mg film-coated tablets are capsule shaped brown tablets with an underlined “M” debossed 
-on one side and “200” on the other side. </p>
+<p>Omjjara 100 mg film-coated tablets are round-shaped brown tablets with an underlined  M  debossed on 
+one side and  100  on the other side. </p>
+<p>Omjjara 150 mg film-coated tablets are triangle-shaped brown tablets with an underlined  M  debossed 
+on one side and  150  on the other side. </p>
+<p>Omjjara 200 mg film-coated tablets are capsule shaped brown tablets with an underlined  M  debossed 
+on one side and  200  on the other side. </p>
 <p>Omjjara film-coated tablets are supplied in a white bottle with a seal and a child-resistant cap. Each 
 bottle contains 30 tablets, a silica gel desiccant, a polyester coil, and is packed in a cardboard carton. </p>
 <p>Marketing Authorisation Holder and Manufacturer<br />
@@ -334,21 +334,20 @@ Citywest Business Campus
 Dublin Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-Tél/Tel: + 32 (0)10 85 52 Lietuva 
+T l/Tel: + 32 (0)10 85 52 Lietuva 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 370 80000 
-България 
-GlaxoSmithKline (Ireland) Limited 
-Teл.: + 359 80018 </p>
+Tel: + 370 80000 </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+Te .: + 359 80018 </p>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0)10 85 52 Česká republika 
+T l/Tel: + 32 (0)10 85 52  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 GlaxoSmithKline (Ireland) Limited 
 Tel.: + 36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
@@ -366,27 +365,27 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 372 8002ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20 Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82 Österreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
 GSK Services Sp. Z o.o. 
 Tel.: + 48 (0)22 576 9France 
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0)1 39 17 84 diam@gsk.com 
+T l: + 33 (0)1 39 17 84 diam@gsk.com 
 Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline   Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 385 800787 
-România 
+Rom nia 
 GlaxoSmithKline Trading Services Limited<br />
 Tel: + 40 800672 </p>
 <p>Ireland 
@@ -395,9 +394,9 @@ Tel: + 353 (0)1 4955
 Slovenija 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 386 80688 
-Ísland 
+ sland 
 Vistor hf. 
-Sími:  +354 535 7Slovenská republika 
+S mi:  +354 535 7Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 421 800500 </p>
 <p>Italia 
@@ -405,9 +404,8 @@ GlaxoSmithKline S.p.A.
 Tel: + 39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 (0)10 30 30  </p>
-<p>Κύπρος 
-GlaxoSmithKline Trading Services Limited<br />
-Tηλ: + 357 80070 
+<p>GlaxoSmithKline Trading Services Limited<br />
+T : + 357 80070 
 Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com 

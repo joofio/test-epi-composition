@@ -4,7 +4,7 @@ Instance: composition-en-174da4bc3583312132255c6ab13da6ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for ferriprox Package Leaflet"
 Description:  "Composition for ferriprox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -80,23 +80,17 @@ thalassaemia major when current chelation therapy is contraindicated or inadequa
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ferriprox"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ferriprox 
-− 
-if you are allergic to deferiprone or any of the other ingredients of this medicine (listed in 
-section 6). 
-− 
-if you have a history of repeated episodes of neutropenia (low white blood cell (neutrophil) 
-count). 
-− 
-if you have a history of agranulocytosis (very low white blood cell (neutrophil) count). 
-− 
-if you are currently taking medicines known to cause neutropenia or agranulocytosis (see “Other 
-medicines and Ferriprox”). 
-− 
-if you are pregnant or breast-feeding. </p>
-<p>Warnings and precautions 
-− 
-the most serious side effect that may occur while taking Ferriprox is a very low white blood cell 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ferriprox </p>
+<p>if you are allergic to deferiprone or any of the other ingredients of this medicine (listed in 
+section 6). </p>
+<p>if you have a history of repeated episodes of neutropenia (low white blood cell (neutrophil) 
+count). </p>
+<p>if you have a history of agranulocytosis (very low white blood cell (neutrophil) count). </p>
+<p>if you are currently taking medicines known to cause neutropenia or agranulocytosis (see  Other 
+medicines and Ferriprox ). </p>
+<p>if you are pregnant or breast-feeding. </p>
+<p>Warnings and precautions </p>
+<p>the most serious side effect that may occur while taking Ferriprox is a very low white blood cell 
 (neutrophil) count. This condition, known as severe neutropenia or agranulocytosis, has 
 occurred in 1 to 2 out of 100 people who have taken Ferriprox in clinical studies. Because white 
 blood cells help to fight infection, a low neutrophil count may place you at risk of developing a 
@@ -106,14 +100,13 @@ frequently as every week, while you are being treated with Ferriprox. It is very
 you to keep all of these appointments. Please refer to the patient card attached to the carton. If </p>
 <p>you get any symptoms of infection such as fever, sore throat or flu-like symptoms, immediately 
 seek medical attention. Your white blood cell count must be checked within 24 hours in order to 
-detect potential agranulocytosis. 
-− 
-if you are human immunodeficiency virus (HIV) positive or if your liver or kidney function is 
+detect potential agranulocytosis. </p>
+<p>if you are human immunodeficiency virus (HIV) positive or if your liver or kidney function is 
 severely impaired, your doctor may recommend additional tests. </p>
 <p>Your doctor will also ask you to come in for tests to monitor body iron load. In addition he or she 
 might ask you to undergo liver biopsies. </p>
 <p>Other medicines and Ferriprox 
-Do not take medicines known to cause neutropenia or agranulocytosis (see “Do not take Ferriprox”). 
+Do not take medicines known to cause neutropenia or agranulocytosis (see  Do not take Ferriprox ). 
 Tell your doctor or pharmacist if you are taking, have recently taken, or might take any other 
 medicines, including medicines obtained without a prescription. </p>
 <p>Do not take aluminium-based antacids at the same time as taking Ferriprox. </p>
@@ -163,33 +156,22 @@ condition, known as severe neutropenia or agranulocytosis, has occurred in 1 to 
 who have taken Ferriprox in clinical studies. A low white blood cell count can be associated with a 
 serious and potentially life-threatening infection. Report immediately to your doctor any symptoms of 
 infection such as: fever, sore throat or flu-like symptoms. </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-− 
-abdominal pain; 
-− 
-nausea; 
-− 
-vomiting; 
-− 
-reddish/brown discolouration of urine. </p>
+<p>Very common side effects (may affect more than 1 in 10 people): </p>
+<p>abdominal pain; </p>
+<p>nausea; </p>
+<p>vomiting; </p>
+<p>reddish/brown discolouration of urine. </p>
 <p>If you experience nausea or vomiting, it may help to take your Ferriprox with some food. Discoloured 
 urine is a very common effect and is not harmful. </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-− 
-low white blood cell count (agranulocytosis and neutropenia); 
-− 
-headache; 
-− 
-diarrhoea; 
-− 
-increase in liver enzymes; 
-− 
-fatigue; 
-− 
-increase in appetite. </p>
-<p>Not known (frequency cannot be estimated from the available data): 
-− 
-allergic reactions including skin rash or hives. </p>
+<p>Common side effects (may affect up to 1 in 10 people): </p>
+<p>low white blood cell count (agranulocytosis and neutropenia); </p>
+<p>headache; </p>
+<p>diarrhoea; </p>
+<p>increase in liver enzymes; </p>
+<p>fatigue; </p>
+<p>increase in appetite. </p>
+<p>Not known (frequency cannot be estimated from the available data): </p>
+<p>allergic reactions including skin rash or hives. </p>
 <p>Events of joint pain and swelling ranged from mild pain in one or more joints to severe disability. In 
 most cases, the pain disappeared while patients continued taking Ferriprox. </p>
 <p>Neurological disorders (such as tremors, walking disorders, double vision, involuntary muscle 
@@ -211,7 +193,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 ºC. </p>
+<p>Do not store above 30  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -227,7 +209,7 @@ The active substance is deferiprone. Each 500 mg tablet contains 500 mg deferipr
 tablet core: microcrystalline cellulose, magnesium stearate, colloidal anhydrous silica 
 coating: hypromellose, macrogol, titanium dioxide </p>
 <p>What Ferriprox looks like and contents of the pack 
-White to off-white, capsule-shaped, film-coated tablet imprinted “APO” bisect “500” on one side, 
+White to off-white, capsule-shaped, film-coated tablet imprinted  APO  bisect  500  on one side, 
 plain on the other. The tablet is 7.1 mm x 17.5 mm x 6.8 mm and scored. The tablet can be divided 
 into equal halves. Ferriprox is packaged in bottles of 100 tablets. </p>
 <p>Marketing Authorisation Holder: 
@@ -241,22 +223,21 @@ Archimedesweg 2333 CM Leiden
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-Tél/Tel: + 32 (0)2 788 42<br />
+T l/Tel: + 32 (0)2 788 42<br />
 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073919  </p>
-<p>България 
-Chiesi Bulgaria EOOD<br />
-Тел.: +359 29201205  </p>
+<p>Chiesi Bulgaria EOOD<br />
+ .: +359 29201205  </p>
 <p>Luxembourg/Luxemburg 
 Chiesi sa/nv 
-Tél/Tel: + 32 (0)2 788 42<br />
-Česká republika 
+T l/Tel: + 32 (0)2 788 42<br />
+ esk  republika 
 Chiesi CZ s.r.o. 
 Tel: + 420 261221 
-Magyarország 
+Magyarorsz g 
 Chiesi Hungary Kft. 
 Tel.: + 36-1-429 1 
 Danmark 
@@ -277,28 +258,27 @@ Tel: + 43 1 4073
 Norge 
 Chiesi Pharma AB 
 Tlf: + 46 8 753 35  </p>
-<p>Ελλάδα 
-DEMO ABEE 
-Τηλ: + 30 210 8161 
-Österreich 
+<p>DEMO ABEE 
+ : + 30 210 8161 
+ sterreich 
 Chiesi Pharmaceuticals GmbH 
 Tel: + 43 1 4073 
-España 
-Chiesi España, S.A.U. 
+Espa a 
+Chiesi Espa a, S.A.U. 
 Tel: + 34 93 494 8 
 Polska 
 Chiesi Poland Sp. z.o.o. 
 Tel.: + 48 22 620 1 
 France 
 Chiesi S.A.S. 
-Tél: + 33 1 47688 
+T l: + 33 1 47688 
 Portugal 
 Chiesi Farmaceutici S.p.A. 
 Tel: + 39 0521 2 
 Hrvatska 
 Chiesi Pharmaceuticals GmbH 
 Tel: + 43 1 4073 
-România 
+Rom nia 
 Chiesi Romania S.R.L. 
 Tel: + 40 212023 
 Ireland 
@@ -307,10 +287,10 @@ Tel: + 39 0521 2
 Slovenija 
 CHIESI SLOVENIJA, d.o.o. 
 Tel: + 386-1-43 00<br />
-Ísland 
+ sland 
 Chiesi Pharma AB 
-Sími: +46 8 753 35<br />
-Slovenská republika 
+S mi: +46 8 753 35<br />
+Slovensk  republika 
 Chiesi Slovakia s.r.o. 
 Tel: + 421 259300 
 Italia 
@@ -318,10 +298,9 @@ Chiesi Italia S.p.A.
 Tel: + 39 0521 2 
 Suomi/Finland 
 Chiesi Pharma AB 
-Puh/Tel: +46 8 753 35<br />
-Κύπρος 
-The Star Medicines Importers Co. Ltd. 
-Τηλ: + 357 25 371 
+Puh/Tel: +46 8 753 35  </p>
+<p>The Star Medicines Importers Co. Ltd. 
+ : + 357 25 371 
 Sverige 
 Chiesi Pharma AB 
 Tel: +46 8 753 35<br />

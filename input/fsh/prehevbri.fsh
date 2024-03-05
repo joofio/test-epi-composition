@@ -4,7 +4,7 @@ Instance: composition-en-6ad927719fc570edf8a72cacebe37a51
 InstanceOf: CompositionUvEpi
 Title: "Composition for prehevbri Package Leaflet"
 Description:  "Composition for prehevbri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,7 +55,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
 1. What PreHevbri is and what it is used for  
-2. What you need to know before you receive PreHevbri 
+2. What you need to know before you receive  PreHevbri 
 3. How PreHevbri is given 
 4. Possible side effects  
 5. How to store PreHevbri 
@@ -74,27 +74,27 @@ protect from all known types of hepatitis B virus.  </p>
 infection. </p>
 <p>What is hepatitis B 
 - Hepatitis B is an infectious illness of the liver caused by a virus. Hepatitis B virus infection can 
-cause serious liver problems such as “cirrhosis” (scarring in the liver) or liver cancer. 
+cause serious liver problems such as  cirrhosis  (scarring in the liver) or liver cancer. 
 - Some people infected with the hepatitis B virus become carriers, which means that they may not 
 feel ill but continue to have the virus in their body and they can still infect other people. 
 - The disease spreads by the hepatitis B virus entering the body through contact with an infected 
-person’s body fluids, such as in the vagina, blood, semen, or spit (saliva). A mother who is a 
+person s body fluids, such as in the vagina, blood, semen, or spit (saliva). A mother who is a 
 carrier of the virus can also pass the virus to her baby at birth. 
 - The main signs of the illness include mild signs of flu (such as headache and fever, feeling 
 very tired, dark urine, pale stools [faeces], and yellowing of the skin and eyes [jaundice]). 
 However, some people with hepatitis B do not look or feel ill. </p>
 <p>How PreHevbri works </p>
-<p>When a person is given the PreHevbri vaccine, it helps the body’s natural defence system 
+<p>When a person is given the PreHevbri vaccine, it helps the body s natural defence system 
 (immune system) produce specific protection (antibodies) against the hepatitis B virus. </p>
 <ul>
-<li>PreHevbri contains a substance (called an ‘adsorbent’)  which improves the body’s production 
+<li>PreHevbri contains a substance (called an  adsorbent )  which improves the body s production 
 of antibodies and makes the protection last for longer. </li>
 <li>A course of three injections of PreHevbri is required to provide full protection against 
 hepatitis B. </li>
 <li>PreHevbri is not used to treat a person who is already infected with the hepatitis B virus 
 including anyone who has previously been infected and who is now a carrier of the virus. </li>
-<li>Prehevbri is a ‘3-antigenic’ vaccine, which contains small amounts of the three antigens 
-(pre-S1, pre-S2, S) from the ‘outer coating’ of the hepatitis B virus. This ‘outer coating’ is not 
+<li>Prehevbri is a  3-antigenic  vaccine, which contains small amounts of the three antigens 
+(pre-S1, pre-S2, S) from the  outer coating  of the hepatitis B virus. This  outer coating  is not 
 infectious and cannot make you ill. </li>
 </ul>         </div>"""   
           
@@ -105,12 +105,14 @@ infectious and cannot make you ill. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take prehevbri"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must NOT receive PreHevbri: 
-- if you are allergic to the active substance or any of the other ingredients of this vaccine <br />
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must NOT receive PreHevbri:</p>
+<ul>
+<li>if you are allergic to the active substance or any of the other ingredients of this vaccine <br />
 (listed in section 6). Signs of an allergic reaction may include breathing difficulty, swelling, 
-light-headedness, fast heartbeat, sweating, and loss of consciousness. 
-- if you have ever previously had a sudden, life-threatening allergic reaction to any vaccine 
-against hepatitis B.  </p>
+light-headedness, fast heartbeat, sweating, and loss of consciousness. </li>
+<li>if you have ever previously had a sudden, life-threatening allergic reaction to any vaccine 
+against hepatitis B.  </li>
+</ul>
 <p>You must not receive PreHevbri if either of the above apply to you. If you are not sure, talk to your 
 doctor, pharmacist or nurse before receiving PreHevbri. </p>
 <p>Warnings and precautions<br />
@@ -159,9 +161,9 @@ or have a headache or feel dizzy after having the vaccine, do not drive or use a
 feel well again.  </p>
 <p>PreHevbri contain sodium and potassium 
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. that is to say is essentially 
-'sodium-free’. </p>
+'sodium-free . </p>
 <p>This vaccine  contains less than 1 mmol potassium (39 mg) per dose, i.e. that is to say is essentially 
-‘potassium-free’. </p>         </div>"""   
+ potassium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prehevbri"
@@ -170,10 +172,12 @@ This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. that is to 
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PreHevbri will be given to you as an injection by a doctor, pharmacist or nurse. The vaccine will 
 usually be injected into a muscle in your upper arm. </p>
-<p>You will be given a total of three injections. Each injection will be given on separate visits: 
-- 1st injection: on a date agreed with your doctor, pharmacist or nurse;<br />
-- 2nd injection: 1 month after the 1st injection; 
-- 3rd injection: 6 months after the 1st injection. </p>
+<p>You will be given a total of three injections. Each injection will be given on separate visits:</p>
+<ul>
+<li>1st injection: on a date agreed with your doctor, pharmacist or nurse;  </li>
+<li>2nd injection: 1 month after the 1st injection; </li>
+<li>3rd injection: 6 months after the 1st injection. </li>
+</ul>
 <p>The recommended dose for each injection is 10 micrograms (1 mL of suspension for injection ). </p>
 <p>If you forget a scheduled dose of PreHevbri 
 If you miss a scheduled dose, talk to your doctor, pharmacist or nurse to arrange another visit to 
@@ -188,25 +192,31 @@ receive the missed dose. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all vaccines, this vaccine can cause side effects, although not everybody gets them. </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- feeling very tired; 
-- pain or tenderness at the injection site; 
-- itching at the injection site; 
-- muscle pain; 
-- headache.  </p>
-<p>Common (may affect up to 1 in 10 people): 
-- diarrhoea; 
-- feeling or being sick;<br />
-- stomach pain; 
-- redness, bruising or swelling at the injection site; 
-- rash; 
-- dizziness; 
-- joint pain;<br />
-- fever. </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- swollen lymph nodes; 
-- hives or itchy skin;<br />
-- flushing or hot flushes. </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>feeling very tired; </li>
+<li>pain or tenderness at the injection site; </li>
+<li>itching at the injection site; </li>
+<li>muscle pain; </li>
+<li>headache.  </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>diarrhoea; </li>
+<li>feeling or being sick;  </li>
+<li>stomach pain; </li>
+<li>redness, bruising or swelling at the injection site; </li>
+<li>rash; </li>
+<li>dizziness; </li>
+<li>joint pain;  </li>
+<li>fever. </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>swollen lymph nodes; </li>
+<li>hives or itchy skin;  </li>
+<li>flushing or hot flushes. </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -221,7 +231,7 @@ safety of this vaccine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Do not use this vaccine after the expiry date which is stated on the label after EXP. The expiry date 
 refers to the last day of that month. </p>
-<p>Store vials in a refrigerator (2°C to 8°C). Store in the original package in order to protect from light. 
+<p>Store vials in a refrigerator (2 C to 8 C). Store in the original package in order to protect from light. 
 Do not freeze.  </p>
 <p>Do not throw away any vaccines via wastewater. Any unused medicinal product or waste material 
 should be disposed of in accordance with local requirements. These measures will help protect the 
@@ -234,9 +244,11 @@ environment. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What PreHevbri contains  </p>
-<p>One dose (1 mL) contains: 
-- Active substances: 10 micrograms of hepatitis B surface antigens (S [83%], pre-S2 [11%] and 
-pre-S1 [6%]) 1, 2  </p>
+<p>One dose (1 mL) contains:</p>
+<ul>
+<li>Active substances: 10 micrograms of hepatitis B surface antigens (S [83%], pre-S2 [11%] and 
+pre-S1 [6%]) 1, 2  </li>
+</ul>
 <p>1 Adsorbed on 500 micrograms of Al3+ as aluminium hydroxide, hydrated </p>
 <p>2 Produced in Chinese Hamster Ovary cells by recombinant DNA technology </p>
 <ul>
@@ -253,7 +265,7 @@ suspension forms a slightly white opaque suspension. </p>
 <p>Marketing Authorisation Holder<br />
 VBI Vaccines B.V. 
 Delflandlaan 1<br />
-Queen’s Tower, No. 714<br />
+Queen s Tower, No. 714<br />
 1062EA Amsterdam 
 Netherlands </p>
 <p>Manufacturer 
@@ -263,27 +275,26 @@ Strand Road
 Portmarnock, D13 WCIreland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Valneva France SAS 
 France 
-Tél/Tel: +43 120620 1e-mail: medinfo@valneva.com  </p>
+T l/Tel: +43 120620 1e-mail: medinfo@valneva.com  </p>
 <p>Lietuva 
 VBI Vaccines B.V. 
 Netherlands 
-Tel: +31 20 2997e-mail: medinfo@vbivaccines.com 
-България 
-VBI Vaccines B.V. 
+Tel: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
+<p>VBI Vaccines B.V. 
 Netherlands 
-Teл.: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
+Te .: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
 <p>Luxembourg/Luxemburg 
 VBI Vaccines B.V. 
 Netherlands 
-Tél/Tel: +31 20 2997e-mail: medinfo@vbivaccines.com<br />
-Česká republika 
+T l/Tel: +31 20 2997e-mail: medinfo@vbivaccines.com<br />
+ esk  republika 
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com  </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 VBI Vaccines B.V. 
 Netherlands 
 Tel.: +31 20 2997e-mail: medinfo@vbivaccines.com 
@@ -310,16 +321,15 @@ Tel: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
 <p>Norge 
 Valneva Sweden AB 
 Sweden 
-Tlf: +43 120620 1e-mail: medinfo@valneva.com 
-Ελλάδα 
-VBI Vaccines B.V. 
+Tlf: +43 120620 1e-mail: medinfo@valneva.com </p>
+<p>VBI Vaccines B.V. 
 Netherlands 
-Τηλ: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
-<p>Österreich 
+ : +31 20 2997e-mail: medinfo@vbivaccines.com </p>
+<p>sterreich 
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com 
-España 
+Espa a 
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
@@ -330,7 +340,7 @@ Tel.: +31 20 2997e-mail: medinfo@vbivaccines.com
 France 
 VBI Vaccines B.V. 
 Netherlands 
-Tél: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
+T l: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
 <p>Portugal 
 VBI Vaccines B.V. 
 Netherlands 
@@ -339,7 +349,7 @@ Hrvatska
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
-<p>România 
+<p>Rom nia 
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com 
@@ -351,11 +361,11 @@ Tel: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com 
-Ísland 
+ sland 
 VBI Vaccines B.V. 
 Netherlands 
-Sími: +31 20 2997Netfang: medinfo@vbivaccines.com </p>
-<p>Slovenská republika 
+S mi: +31 20 2997Netfang: medinfo@vbivaccines.com </p>
+<p>Slovensk  republika 
 VBI Vaccines B.V. 
 Netherlands 
 Tel: +31 20 2997e-mail: medinfo@vbivaccines.com<br />
@@ -366,11 +376,10 @@ Tel: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
 <p>Suomi/Finland 
 Valneva Sweden AB 
 Sweden 
-Puh/Tel: +43 120620 1e-mail: medinfo@valneva.com<br />
-Κύπρος 
-VBI Vaccines B.V. 
+Puh/Tel: +43 120620 1e-mail: medinfo@valneva.com  </p>
+<p>VBI Vaccines B.V. 
 Netherlands 
-Τηλ: +31 20 2997e-mail: medinfo@vbivaccines.com </p>
+ : +31 20 2997e-mail: medinfo@vbivaccines.com </p>
 <p>Sverige 
 Valneva Sweden AB 
 Tel: +43 120620 1e-mail: medinfo@valneva.com 
@@ -389,7 +398,7 @@ http://www.ema.europa.eu. </p>
 <hr />
 <p>The following information is intended for healthcare professionals only: </p>
 <p>Storage 
-- Vials should be stored in a refrigerator (2°C to 8°C) ).Store in the original carton in order to 
+- Vials should be stored in a refrigerator (2 C to 8 C) ).Store in the original carton in order to 
 protect from light.<br />
 - Do not freeze .  </p>
 <p>Preparation 

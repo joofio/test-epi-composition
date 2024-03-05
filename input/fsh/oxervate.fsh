@@ -4,7 +4,7 @@ Instance: composition-en-f9944720e0617f59c4092a55c234abd3
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxervate Package Leaflet"
 Description:  "Composition for oxervate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OXERVATE contains the active substance cenegermin. Cenegermin is a type of nerve growth factor 
 (a human protein) which is naturally present on the eye surface. </p>
-<p>OXERVATE is used to treat adults with moderate or severe ‘neurotrophic keratitis’. This is a disease 
+<p>OXERVATE is used to treat adults with moderate or severe  neurotrophic keratitis . This is a disease 
 affecting the cornea (the transparent layer in the front part of the eye) which causes defects on the 
 outer surface of the cornea that do not heal naturally or corneal ulcers. 
 OXERVATE is intended to allow the healing of the cornea. </p>         </div>"""   
@@ -83,20 +83,24 @@ OXERVATE is intended to allow the healing of the cornea. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take oxervate"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use OXERVATE: 
-- if you are allergic to cenegermin or any of the other ingredients of this medicine (listed in 
-section 6). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use OXERVATE:</p>
+<ul>
+<li>if you are allergic to cenegermin or any of the other ingredients of this medicine (listed in 
+section 6). </li>
+</ul>
 <p>Warnings and precautions 
 Only use this medicine in your affected eye(s). 
-Talk to your doctor before using this medicine: 
-- if you have an infection in your eye, as the infection should be treated first. If you get an eye 
+Talk to your doctor before using this medicine:</p>
+<ul>
+<li>if you have an infection in your eye, as the infection should be treated first. If you get an eye 
 infection whilst using OXERVATE, you should stop your treatment and consult your doctor for 
-advice straightaway. 
-- if you have an eye cancer, because this medicine might worsen your cancer.<br />
-- if you are taking any eye drops containing corticosteroids (e.g. to treat an ocular inflammation) 
+advice straightaway. </li>
+<li>if you have an eye cancer, because this medicine might worsen your cancer.  </li>
+<li>if you are taking any eye drops containing corticosteroids (e.g. to treat an ocular inflammation) 
 or preservatives (e.g. benzalkonium chloride, polyquaternium-1, benzododecinium bromide, 
 cetrimide). Eye drops containing these substances could slow down or interfere with the healing 
-of your eye and should therefore be avoided during treatment with this medicine.  </p>
+of your eye and should therefore be avoided during treatment with this medicine.  </li>
+</ul>
 <p>Treatment with OXERVATE may cause you mild to moderate eye discomfort such as eye pain. If you 
 experience a severe eye reaction seek medical advice from your doctor.  </p>
 <p>Contact lenses could interfere with the correct use of this medicine. If you wear contact lenses remove 
@@ -154,7 +158,7 @@ using this medicine before reinserting them. </li>
 <li>Peel-off the back of the vial adapter blister pack (picture 2). </li>
 <li>Without removing the vial adapter from its blister pack, connect it to the vial by firmly pushing 
 it down until it snaps into place over the neck of the vial. The spike of the vial adapter should 
-pierce through the vial’s rubber stopper. Once the vial adapter has been connected correctly, it 
+pierce through the vial s rubber stopper. Once the vial adapter has been connected correctly, it 
 should not be removed from the vial (picture 3). </li>
 <li>Remove and discard the packaging of the vial adapter. </li>
 </ul>
@@ -162,7 +166,7 @@ should not be removed from the vial (picture 3). </li>
 <p>2 </p>
 <p>3 </p>
 <p>The multi-dose vial of OXERVATE is now ready for use (1 drop in the affected eye every 2 hours six 
-times a day). The vial can be stored in the fridge or below 25 °C throughout the day, but should not be 
+times a day). The vial can be stored in the fridge or below 25  C throughout the day, but should not be 
 frozen. </p>
 <p>To withdraw and administer each dose of this medicine, follow the steps below: 
 * Take a single disinfectant wipe and gently clean the surface of the valve on the connector part of 
@@ -194,7 +198,7 @@ surface of your eye and stay in your eye.
 * Immediately discard the used pipette after use, even if there is still some liquid left in it. 
 * If a drop misses your eye, try again, using a new pipette and wipe. 
 * After each use throughout the day, wash your hands, and place the vial back in the fridge (or 
-keep it below 25 °C) for the rest of the day, with the vial adapter still connected. </p>
+keep it below 25  C) for the rest of the day, with the vial adapter still connected. </p>
 <p>7</p>
 <p>Repeat the above process (from picture 4 onwards) every 2 hours 6 times a day. Use a new 
 disinfectant wipe and a new pipette each time. </p>
@@ -262,9 +266,9 @@ this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and vial label after 
-“EXP”. The expiry date refers to the last day of that month. </p>
-<p>Store the weekly carton containing 7 vials of OXERVATE in the fridge (2-8 °C). </p>
-<p>After the vial adapter is connected to the vial, it can be stored in the fridge or below 25 °C. Discard the 
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>Store the weekly carton containing 7 vials of OXERVATE in the fridge (2-8  C). </p>
+<p>After the vial adapter is connected to the vial, it can be stored in the fridge or below 25  C. Discard the 
 used vial at the end of the day (even if there is still some liquid left in it), and in any case no later than 
 12 hours from the time you connected the vial adapter to it. </p>
 <p>The pipettes included in the delivery system are single-use only. Each pipette should be discarded 
@@ -294,14 +298,14 @@ The vials are contained in a weekly cardboard carton containing 7 vials.
 from the vials. Extra adapter (1), pipettes (3) and wipes (3) are included as spares. </p>
 <p>Pack size: 7 multi-dose vials. </p>
 <p>Marketing Authorisation Holder 
-Dompé farmaceutici S.p.A. 
+Domp  farmaceutici S.p.A. 
 Via Santa Lucia, 6 
 20122 Milano 
 Italy </p>
 <p>Manufacturer 
-Dompé farmaceutici S.p.A. 
+Domp  farmaceutici S.p.A. 
 Via Campo di Pile 
-67100 L’Aquila 
+67100 L Aquila 
 Italy </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-3063ae54c8b95c21a8b236c970f9eb21
 InstanceOf: CompositionUvEpi
 Title: "Composition for ogivri Package Leaflet"
 Description:  "Composition for ogivri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -172,7 +172,7 @@ may cause serious side effects.<br />
 You must tell your doctor before receiving this medicine if you have HFI or if you can no longer take 
 sweet foods or drinks because you feel sick, vomit or get unpleasant effects such as bloating, stomach 
 cramps or diarrhoea. </p>
-<p>Ogivri contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium free’. </p>         </div>"""   
+<p>Ogivri contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ogivri"
@@ -185,7 +185,7 @@ doctor or nurse. Your doctor will prescribe a dose and treatment regimen that is
 dose of Ogivri depends on your body weight. </p>
 <p>The first dose of your treatment is given over 90 minutes and you will be observed by a health 
 professional while it is being given in case you have any side effects. If the first dose is well tolerated 
-the next doses may be given over 30 minutes (see section 2 under “Warnings and precautions”). The 
+the next doses may be given over 30 minutes (see section 2 under  Warnings and precautions ). The 
 number of infusions you receive will depend on how you respond to the treatment. Your doctor will 
 discuss this with you. </p>
 <p>Ogivri is given as an infusion into a vein (intravenous infusion, drip), this intravenous formulation is 
@@ -218,8 +218,8 @@ tension and shaking, headache, dizziness, breathing difficulties, high or low bl
 rhythm disturbances (palpitations, heart fluttering or irregular heart beat), swelling of the face and 
 lips, rash and feeling tired.<br />
 Some of these symptoms can be serious and some patients have died (see section 2 under 
-“Warnings and precautions”). </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+ Warnings and precautions ). </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 health care professional during the infusion and for at least six hours after the start of the first infusion 
 and for two hours after the start of other infusions. If you develop a reaction, they will slow down or 
@@ -234,8 +234,8 @@ Tell a doctor or nurse straight away, if you notice any of the following side ef
 stopped and can be serious. They include weakening of the heart muscle possibly leading to heart 
 failure, inflammation of the lining around the heart and heart rhythm disturbances. This can lead 
 to symptoms such as breathlessness (including breathlessness at night), cough, fluid retention 
-(swelling) in the legs or arms, palpitations (heart fluttering or irregular heart beat) (see “Heart 
-checks” in section 2). </p>
+(swelling) in the legs or arms, palpitations (heart fluttering or irregular heart beat) (see  Heart 
+checks  in section 2). </p>
 <p>Your doctor will monitor your heart regularly during and after treatment but you should tell your 
 doctor immediately if you notice any of the above symptoms. 
 * Tumour lysis syndrome (a group of metabolic complications occurring after cancer treatment 
@@ -397,7 +397,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the vial label 
 after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). </p>
+<p>Store in a refrigerator (2  C   8  C). </p>
 <p>Infusion solutions should be used immediately after dilution. Do not use Ogivri if you notice any 
 particulate matter or discoloration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -411,12 +411,10 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ogivri contains  </p>
 <ul>
-<li>The active substance is trastuzumab. Each vial contains either; 
-o 150 mg trastuzumab that has to be dissolved in 7.2 mL of water for injections, or 
-o 420 mg trastuzumab that has to be dissolved in 20 mL of water for injections.  </li>
+<li>The active substance is trastuzumab. Each vial contains either; * 150 mg trastuzumab that has to be dissolved in 7.2 mL of water for injections, or * 420 mg trastuzumab that has to be dissolved in 20 mL of water for injections.  </li>
 <li>The resulting solution contains approximately 21 mg/mL trastuzumab. </li>
 <li>The other ingredient(s) are L-histidine hydrochloride, L-histidine, sorbitol (E420 [see section 2 
-“Ogivri contains sorbitol (E420) and sodium”]), macrogol 3350, hydrochloric acid and sodium 
+ Ogivri contains sorbitol (E420) and sodium ]), macrogol 3350, hydrochloric acid and sodium 
 hydroxide (for pH adjustment). </li>
 </ul>
 <p>What Ogivri looks like and contents of the pack </p>
@@ -439,20 +437,19 @@ D09 C6X8 </p>
 <p>Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-Tél/Tel: 0080008250 
+T l/Tel: 0080008250 
 Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 
-България 
-Biosimilar Collaborations Ireland Limited 
-Тел: 0080008250 
+Tel: 0080008250 </p>
+<p>Biosimilar Collaborations Ireland Limited 
+ : 0080008250 
 Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
-Tél/Tel: 0080008250Česká republika 
+T l/Tel: 0080008250 esk  republika 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250Magyarország 
+Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
 Tel.: 0080008250 
 Danmark 
@@ -469,15 +466,14 @@ Tel: 0080008250Eesti
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62<br />
-Ελλάδα<br />
-Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ 
-Ι.Κ.Ε 
-Τηλ.: 0080008250 
-Österreich 
+Tlf: +47 800 62  </p>
+<p>Biocon Biologics Greece <br />
+ . .<br />
+ .: 0080008250 
+ sterreich 
 Biocon Biologics Germany GmbH 
 Tel: 0080008250 
-España 
+Espa a 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Polska 
@@ -491,7 +487,7 @@ Tel: 0080008250
 Hrvatska 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250 
-România 
+Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 
 Ireland 
@@ -500,20 +496,19 @@ Tel: 1800 777<br />
 Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 
-Ísland 
+ sland 
 Biocon Biologics Finland OY<br />
-Sími: +345 8004 
-Slovenská republika 
+S mi: +345 8004 
+Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
 Tel: 0080008250 
 Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 
-Κύπρος 
-Biosimilar Collaborations Ireland Limited<br />
-Τηλ: 0080008250 
+Puh/Tel: 99980008250 </p>
+<p>Biosimilar Collaborations Ireland Limited<br />
+ : 0080008250 
 Sverige 
 Biocon Biologics Finland OY<br />
 Tel: 0080008250 

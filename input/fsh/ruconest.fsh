@@ -4,7 +4,7 @@ Instance: composition-en-57a928d33300a0b3188f379ca97280de
 InstanceOf: CompositionUvEpi
 Title: "Composition for ruconest Package Leaflet"
 Description:  "Composition for ruconest Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -125,7 +125,7 @@ by a nurse. Your dose, up to 2 vials, will be worked out based on your weight. <
 <p>Most of the time a single dose is sufficient. Your doctor may decide that an additional dose should be 
 administered if your symptoms do not improve after 120 minutes (for adults and adolescents) or 60 minutes 
 (for children). No more than 2 doses should be given within 24 hours. </p>
-<p>The instructions for use are clearly described in the doctor’s information leaflet and are attached. </p>
+<p>The instructions for use are clearly described in the doctor s information leaflet and are attached. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
 
         
@@ -165,7 +165,7 @@ side effects you can help provide more information on the safety of this medicin
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the vial after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. 
+<p>Do not store above 25 C. 
 Store in the original package in order to protect from light. </p>
 <p>Before Ruconest can be administered, it needs to be dissolved in water for injections, by a healthcare 
 professional. 

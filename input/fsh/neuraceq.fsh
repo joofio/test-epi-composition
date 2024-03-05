@@ -4,7 +4,7 @@ Instance: composition-en-39495bfcbc804d9769861e2677b0c2f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for neuraceq Package Leaflet"
 Description:  "Composition for neuraceq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How Neuraceq will be used 
 4. Possible side effects 
 5. How Neuraceq is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -69,12 +68,11 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What neuraceq is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Neuraceq is and what it is used for </p>
-<p>This medicine is a radiopharmaceutical product for diagnostic use only. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine is a radiopharmaceutical product for diagnostic use only. </p>
 <p>Neuraceq contains the active substance florbetaben (18F).  </p>
 <p>Neuraceq is given to people with memory problems so that doctors can perform a type of brain scan, 
 called a PET scan. A Neuraceq PET scan, along with other brain function tests, can help your doctor 
-determine whether or not you may have β-amyloid plaques in your brain. This medicine is intended 
+determine whether or not you may have  -amyloid plaques in your brain. This medicine is intended 
 for adults only.  </p>
 <p>You should discuss the results of the test with the doctor that requested the scan. </p>
 <p>The use of Neuraceq does involve exposure to small amounts of radioactivity. Your doctor and the 
@@ -88,10 +86,11 @@ radiopharmaceutical outweighs the risk of being exposed to radiation. </p>      
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take neuraceq"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What you need to know before Neuraceq is used </p>
-<p>Neuraceq must not be used: 
-- if you are allergic to florbetaben (18F) or any of the other ingredients of this medicine (listed in 
-section 6).  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neuraceq must not be used:</p>
+<ul>
+<li>if you are allergic to florbetaben (18F) or any of the other ingredients of this medicine (listed in 
+section 6).  </li>
+</ul>
 <p>Warnings and precautions 
 Talk to your nuclear medicine doctor before you are given Neuraceq if you: 
 have kidney problems 
@@ -178,26 +177,29 @@ who supervises the procedure. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Possible side effects include: </p>
-<p>Common (may affect up to 1 in 10 people): 
-- Injection site reactions: injection site pain, redness of the skin at injection site (injection / 
-application site erythema) </p>
-<p>Uncommon (may affect up to 1 in 100 people): 
-- Burning sensation, headache, neuralgia (intense, typically intermittent pain along the course of 
-a nerve), tremor (an involuntary quivering movement) 
-- Vessels: flushing (sudden reddening of the face and/or neck), haematoma (a bruise, a black 
-and blue mark), hypotension (low blood pressure) 
-- Stomach: diarrhea, nausea (feeling sick) 
-- Liver: abnormal liver function 
-- Skin: hyperhidrosis (excessive sweat), rash, toxic skin eruption (acute skin affections with 
-measles-type erythema of the skin, potentially including blisters and ulcerations) 
-- Muscles and bones: limb discomfort, pain in extremity 
-- Injection site conditions: injection site irritation, pain and discomfort around the injection site, 
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Injection site reactions: injection site pain, redness of the skin at injection site (injection / 
+application site erythema) </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Burning sensation, headache, neuralgia (intense, typically intermittent pain along the course of 
+a nerve), tremor (an involuntary quivering movement) </li>
+<li>Vessels: flushing (sudden reddening of the face and/or neck), haematoma (a bruise, a black 
+and blue mark), hypotension (low blood pressure) </li>
+<li>Stomach: diarrhea, nausea (feeling sick) </li>
+<li>Liver: abnormal liver function </li>
+<li>Skin: hyperhidrosis (excessive sweat), rash, toxic skin eruption (acute skin affections with 
+measles-type erythema of the skin, potentially including blisters and ulcerations) </li>
+<li>Muscles and bones: limb discomfort, pain in extremity </li>
+<li>Injection site conditions: injection site irritation, pain and discomfort around the injection site, 
 injection site haematoma (a bruise, a black and blue mark at injection site), injection site 
-warmth, tiredness, feeling hot, pyrexia (raised body temperature, a fever) 
-- Abnormal blood test: increased blood creatinine levels (reduced kidney function) </p>
+warmth, tiredness, feeling hot, pyrexia (raised body temperature, a fever) </li>
+<li>Abnormal blood test: increased blood creatinine levels (reduced kidney function) </li>
+</ul>
 <p>This radiopharmaceutical will deliver low amounts of ionising radiation associated with the least risk 
 of cancer and hereditary abnormalities.  </p>
 <p>Reporting of side effects 
@@ -211,17 +213,18 @@ of this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store neuraceq"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How Neuraceq is stored </p>
-<p>You will not have to store this medicine. This medicine is stored under the responsibility of the 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not have to store this medicine. This medicine is stored under the responsibility of the 
 specialist in appropriate premises. Storage of radiopharmaceuticals will be in accordance with national 
 regulation on radioactive materials. </p>
-<p>The following information is intended for the specialist only: 
-- Keep out of the sight and reach of children. 
-- Do not use after the expiry date which is stated on the box, shield label and vial label after 
-EXP. 
-- This medicine does not require any special storage conditions.<br />
-- Any unused medicinal product or waste material should be disposed of in accordance with 
-local requirements. </p>         </div>"""      
+<p>The following information is intended for the specialist only:</p>
+<ul>
+<li>Keep out of the sight and reach of children. </li>
+<li>Do not use after the expiry date which is stated on the box, shield label and vial label after 
+EXP. </li>
+<li>This medicine does not require any special storage conditions.  </li>
+<li>Any unused medicinal product or waste material should be disposed of in accordance with 
+local requirements. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -229,13 +232,12 @@ local requirements. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>
-<p>What Neuraceq contains 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Neuraceq contains 
 - The active substance is florbetaben (18F). Each mL of solution for injection 
 contains 300 MBq of florbetaben (18F) at the date and time of calibration. The activity per 
 vial ranges from 300 MBq to 3000 MBq at the date and time of calibration. 
 - The other ingredients are ascorbic acid, ethanol anhydrous, macrogol 400, sodium ascorbate, 
-and water for injections (see section 2 “Neuraceq contains ethanol and sodium ascorbate”). </p>
+and water for injections (see section 2  Neuraceq contains ethanol and sodium ascorbate ). </p>
 <p>What Neuraceq looks like and contents of the pack 
 Neuraceq is a clear, colourless solution for injection. It is supplied in a colourless 15 mL glass vial, 
 sealed with a rubber stopper and aluminium seal. </p>
@@ -260,8 +262,8 @@ CHU Brabois
 France  </p>
 <p>Curium PET France 
 Parc scientifique Georges Besse 
-180 allée Von Neumann 
-30000 Nîmes 
+180 all e Von Neumann 
+30000 N mes 
 France </p>
 <p>Curium PET France<br />
 14 rue de la Grange aux Belles 
@@ -272,7 +274,7 @@ avenue de la Bataille Flandres Dunkerque, CS 4435000 Rennes
 France </p>
 <p>Curium PET France 
 CHU Xavier Arnozan 
-avenue du Haut-Lévèque 
+avenue du Haut-L v que 
 33604 Pessac 
 France </p>
 <p>Life Radiopharma Berlin GmbH 
@@ -312,7 +314,7 @@ Thomas Alba Edison, s/n
 Spain </p>
 <p>Curium Pharma Spain, S.A. 
 Pol. Ind. Conpisa,<br />
-C/ Veguillas – 2 Nave 16,<br />
+C/ Veguillas   2 Nave 16,<br />
 Ajalvir 28864 (Madrid) 
 Spain </p>
 <p>Seibersdorf Labor GmbH 
@@ -328,7 +330,7 @@ c/Doctor Aiguader 88, planta -1
 Spain </p>
 <p>Biokosmos S.A. 
 Lakkoma Industrial Area<br />
-Νea Propontida<br />
+ ea Propontida<br />
 Halkidiki<br />
 630 Greece </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>

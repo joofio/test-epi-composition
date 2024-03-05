@@ -4,7 +4,7 @@ Instance: composition-en-d03e5fa52b6e02a038d1625a63e785b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for jemperli Package Leaflet"
 Description:  "Composition for jemperli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -103,16 +103,16 @@ to death. These side effects may happen at any time during treatment, or even af
 ended. You may get more than one side effect at the same time. </p>
 <p>You need to be aware of possible symptoms, so your doctor can give you treatment for side effects if 
 necessary. </p>
-<p>Read the information under ‘Symptoms of serious side effects’ in section 4. Talk to your doctor or 
+<p>Read the information under  Symptoms of serious side effects  in section 4. Talk to your doctor or 
 nurse if you have any questions or worries. </p>
 <p>Children and adolescents 
 JEMPERLI should not be used in children and adolescents below 18 years of age. </p>
 <p>Other medicines and JEMPERLI 
 Tell your doctor or nurse if you are taking, have recently taken or might take any other medicines. </p>
 <p>Some medicines may interfere with the effect of JEMPERLI: 
-* medicines that make your immune system weak — for example, corticosteroids, such as 
+* medicines that make your immune system weak   for example, corticosteroids, such as 
 prednisone. </p>
-<p> Tell your doctor if you are taking any of these. </p>
+<p>Tell your doctor if you are taking any of these. </p>
 <p>However, once you are treated with JEMPERLI, your doctor may give you corticosteroids to reduce 
 any side effects that you may have. </p>
 <p>Pregnancy<br />
@@ -134,7 +134,7 @@ effects that affect your ability to concentrate and react, you should be careful
 operating machines. </p>
 <p>JEMPERLI contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
-‘sodium-free.’ However, before JEMPERLI is given to you, it is mixed with a solution that may 
+ sodium-free.  However, before JEMPERLI is given to you, it is mixed with a solution that may 
 contain sodium. Talk to your doctor if you are on a low salt diet. </p>         </div>"""   
                     
 * section[=].section[+]
@@ -153,7 +153,7 @@ thereafter. </p>
 30 minutes. </p>
 <p>Your doctor will decide how many treatments you need. </p>
 <p>If you forget an appointment to receive JEMPERLI </p>
-<p> Contact your doctor or hospital immediately to reschedule your appointment. </p>
+<p>Contact your doctor or hospital immediately to reschedule your appointment. </p>
 <p>It is very important that you do not miss a dose of this medicine. </p>
 <p>If you stop receiving JEMPERLI 
 Stopping your treatment may stop the effect of the medicine. Do not stop treatment with JEMPERLI 
@@ -256,7 +256,7 @@ Inflammation of heart muscle
 Inflammation of brain and 
 nervous system (myasthenic 
 syndrome/myasthenia gravis, 
-Guillain-Barré syndrome, 
+Guillain-Barr  syndrome, 
 encephalitis) 
 * neck stiffness 
 * headache 
@@ -307,7 +307,7 @@ within minutes or hours but may develop up to 24 hours after treatment. </p>
 cells (allogeneic). These complications can be serious and can lead to death. These complications may 
 happen if you underwent transplantation either before or after being treated with JEMPERLI. Your 
 healthcare provider will monitor you for these complications. </p>
-<p> Seek medical attention immediately if you think you may be having a reaction. </p>
+<p>Seek medical attention immediately if you think you may be having a reaction. </p>
 <p>The following side effects have been reported with JEMPERLI alone. </p>
 <p>Very common side effects - (may affect more than 1 in 10 people): 
 * decrease in the number of red blood cells (anaemia); 
@@ -317,7 +317,7 @@ healthcare provider will monitor you for these complications. </p>
 * joint pain; 
 * high temperature; fever; 
 * increased liver enzyme levels in the blood. 
- Check the table above for symptoms of possible serious side effects. </p>
+  Check the table above for symptoms of possible serious side effects. </p>
 <p>Common side effects - (may affect up to 1 in 10 people): 
 * overactive thyroid gland; 
 * decreased secretion of adrenal hormones (adrenal insufficiency); 
@@ -330,7 +330,7 @@ healthcare provider will monitor you for these complications. </p>
 * chills; 
 * reaction to the infusion; 
 * hypersensitivity reaction to the infusion. 
- Check the table above for symptoms of possible serious side effects. </p>
+  Check the table above for symptoms of possible serious side effects. </p>
 <p>Uncommon side effects - (may affect up to 1 in 100 people): 
 * inflammation of the brain; 
 * destruction of red blood cells (Autoimmune haemolytic anaemia); 
@@ -342,10 +342,10 @@ healthcare provider will monitor you for these complications. </p>
 (myasthenia gravis); 
 * inflammation of the joints; 
 * inflammation of the muscles; 
-* inflammation of the eye — the iris (the coloured part of the eye) and the ciliary body (area 
+* inflammation of the eye   the iris (the coloured part of the eye) and the ciliary body (area 
 around the iris); 
 * inflammation of the kidneys. 
- Check the table above for symptoms of possible serious side effects. </p>
+  Check the table above for symptoms of possible serious side effects. </p>
 <p>The following side effects have been reported with JEMPERLI when given in combination with 
 carboplatin and paclitaxel. </p>
 <p>Very common side effects - (may affect more than 1 in 10 people): 
@@ -354,13 +354,13 @@ carboplatin and paclitaxel. </p>
 * dry skin 
 * high temperature; fever 
 * increased liver enzyme levels in the blood. 
- Check the table above for symptoms of possible serious side effects. </p>
+  Check the table above for symptoms of possible serious side effects. </p>
 <p>Common side effects - (may affect up to 1 in 10 people): 
 * overactive thyroid gland 
 * decreased secretion of adrenal hormones (adrenal insufficiency) 
 * inflammation of the lung 
 * inflammation of the lining of the bowel (colon). 
- Check the table above for symptoms of possible serious side effects. </p>
+  Check the table above for symptoms of possible serious side effects. </p>
 <p>Uncommon side effects - (may affect up to 1 in 100 people): 
 * inflammation of the thyroid gland 
 * Type 1 diabetes 
@@ -374,8 +374,8 @@ carboplatin and paclitaxel. </p>
 * inflammation of the joints<br />
 </em> inflammation of the muscles 
 * inflammation throughout the body. 
- Check the table above for symptoms of possible serious side effects. </p>
-<p> Contact your doctor or nurse as soon as possible if you develop any of these symptoms. </p>
+  Check the table above for symptoms of possible serious side effects. </p>
+<p>Contact your doctor or nurse as soon as possible if you develop any of these symptoms. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
@@ -392,10 +392,10 @@ responsible for its storage. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. Store in the original package in order to protect 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. Store in the original package in order to protect 
 from light. </p>
-<p>If not used immediately, the prepared infusion may be stored for up to 24 hours at 2 °C to 8 °C or 
-6 hours at room temperature (up to 25 °C) from the time of preparation/dilution until the end of 
+<p>If not used immediately, the prepared infusion may be stored for up to 24 hours at 2  C to 8  C or 
+6 hours at room temperature (up to 25  C) from the time of preparation/dilution until the end of 
 administration. </p>
 <p>Do not use if this medicine contains visible particles. </p>
 <p>Do not store any unused medicine for reuse. Any unused medicine or waste material should be 
@@ -440,23 +440,22 @@ Citywest Business Campus
 Dublin Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v.<br />
-Tél/Tel: + 32 (0) 10 85 52<br />
+T l/Tel: + 32 (0) 10 85 52<br />
 Lietuva 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 370 80000 </p>
-<p>България 
-GlaxoSmithKline (Ireland) Limited 
-Teл.: + 359 80018 
+<p>GlaxoSmithKline (Ireland) Limited 
+Te .: + 359 80018 
 Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-Tél/Tel: + 32 (0) 10 85 52<br />
-Česká republika 
+T l/Tel: + 32 (0) 10 85 52<br />
+ esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
-Magyarország 
+Magyarorsz g 
 GlaxoSmithKline (Ireland) Limited 
 Tel.: + 36 80088 
 Danmark 
@@ -475,28 +474,27 @@ Tel: + 372 8002
 Norge 
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20  </p>
-<p>Ελλάδα 
-GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
-Τηλ: + 30 210 68 82<br />
-Österreich 
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82<br />
+ sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
-<p>España 
+<p>Espa a 
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
 Tel.: + 48 (0)22 576 9France 
 Laboratoire GlaxoSmithKline 
-Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+T l: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline   Produtos Farmac uticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com<br />
 Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
 Tel: +385 800787 
-România 
+Rom nia 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
@@ -504,10 +502,10 @@ Tel: + 353 (0)1 4955
 Slovenija 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 386 80688 </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: + 354 535 7 
-Slovenská republika 
+S mi: + 354 535 7 
+Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 421 800500 </p>
 <p>Italia 
@@ -515,10 +513,9 @@ GlaxoSmithKline S.p.A.
 Tel: + 39 (0)45 7741111<br />
 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30<br />
-Κύπρος 
-GlaxoSmithKline (Ireland) Limited 
-Τηλ: + 357 80070 </p>
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>GlaxoSmithKline (Ireland) Limited 
+ : + 357 80070 </p>
 <p>Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>

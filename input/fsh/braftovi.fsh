@@ -4,7 +4,7 @@ Instance: composition-en-7345b00216838e90492587f6ecbdea1c
 InstanceOf: CompositionUvEpi
 Title: "Composition for braftovi Package Leaflet"
 Description:  "Composition for braftovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -104,28 +104,32 @@ cetuximab leaflet carefully as well as this leaflet.   </p>
 section 6). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor, pharmacist or nurse before taking Braftovi, about all of your medical conditions, 
-particularly if you have any of the following: 
-- heart problems including alteration of the electrical activity of your heart (QT interval 
-prolongation) 
-- bleeding problems or if you are taking medicines that may cause bleeding 
-- eye problems<br />
-- liver or kidney problems </p>
+particularly if you have any of the following:</p>
+<ul>
+<li>heart problems including alteration of the electrical activity of your heart (QT interval 
+prolongation) </li>
+<li>bleeding problems or if you are taking medicines that may cause bleeding </li>
+<li>eye problems  </li>
+<li>liver or kidney problems </li>
+</ul>
 <p>Tell your doctor if you have had a different type of cancer than melanoma or large intestine cancer, 
 as Braftovi may worsen certain other types of cancers. </p>
 <p>Tell your doctor, pharmacist or nurse immediately if you get the following while you are taking this 
-medicine: 
-- Heart problems: Braftovi when taken with binimetinib can make your heart work less well, alter 
-the electrical activity of your heart called “QT interval prolongation” or make existing heart 
+medicine:</p>
+<ul>
+<li>
+<p>Heart problems: Braftovi when taken with binimetinib can make your heart work less well, alter 
+the electrical activity of your heart called  QT interval prolongation  or make existing heart 
 problems worse. Your doctor will check that your heart is working properly before and during 
 your treatment with these medicines. Talk to your doctor immediately if you have any 
 symptoms of heart problems such as feeling dizzy, tired, lightheaded, if you have shortness of 
 breath, if you feel like your heart is pounding, racing, beating irregularly, or if you have 
 swelling in the legs. </p>
-<ul>
+</li>
 <li>
 <p>Bleeding problems: Braftovi may cause serious bleeding problems. Talk to your doctor 
 immediately if you have any symptoms of bleeding problems such as coughing up of blood, 
-blood clots, vomit containing blood or that looks like “coffee grounds”, red or black stools that 
+blood clots, vomit containing blood or that looks like  coffee grounds , red or black stools that 
 look like tar, passing blood in the urine, stomach (abdominal) pain, unusual vaginal bleeding. 
 Also tell your doctor if you have headache, dizziness or weakness. </p>
 </li>
@@ -166,18 +170,20 @@ not been studied in this age group. </p>
 Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
 medicines.<br />
 Some medicines may affect how Braftovi works or make it more likely that you will have side effects. 
-In particular, tell your doctor if you are taking anything in this list or any other medicines: 
-- some medicines to treat fungal infections (such as itraconazole, posaconazole, fluconazole)<br />
-- some medicines to treat bacterial infections (such as rifampicin, clarithromycin, telithromycin, 
-erythromycin, penicillin) 
-- medicines typically used to treat epilepsy (seizures) (such as phenytoin, carbamazepine)<br />
-- medicines typically used to treat cancer (such as methotrexate, imatinib) 
-- medicines typically used to treat high cholesterol (such as rosuvastatin, atorvastatin) 
-- an herbal treatment for depression: St. John’s wort<br />
-- some medicines for HIV treatment such as ritonavir, amprenavir, raltegravir, dolutegravir 
-- birth control medicines containing hormones<br />
-- medicines typically used to treat high blood pressure (such as diltiazem, bosentan, furosemide)<br />
-- a medicine used to treat an uneven heartbeat: amiodarone. </p>
+In particular, tell your doctor if you are taking anything in this list or any other medicines:</p>
+<ul>
+<li>some medicines to treat fungal infections (such as itraconazole, posaconazole, fluconazole)  </li>
+<li>some medicines to treat bacterial infections (such as rifampicin, clarithromycin, telithromycin, 
+erythromycin, penicillin) </li>
+<li>medicines typically used to treat epilepsy (seizures) (such as phenytoin, carbamazepine)  </li>
+<li>medicines typically used to treat cancer (such as methotrexate, imatinib) </li>
+<li>medicines typically used to treat high cholesterol (such as rosuvastatin, atorvastatin) </li>
+<li>an herbal treatment for depression: St. John s wort  </li>
+<li>some medicines for HIV treatment such as ritonavir, amprenavir, raltegravir, dolutegravir </li>
+<li>birth control medicines containing hormones  </li>
+<li>medicines typically used to treat high blood pressure (such as diltiazem, bosentan, furosemide)  </li>
+<li>a medicine used to treat an uneven heartbeat: amiodarone. </li>
+</ul>
 <p>Braftovi with food and drink<br />
 Do not have grapefruit juice during your treatment with Braftovi. This is because it could increase 
 Braftovi side effects.  </p>
@@ -226,11 +232,13 @@ cetuximab. </p>
 If you get serious side effects (such as heart, eye or bleeding problems) your doctor may lower the 
 dose or stop treatment temporarily or permanently. </p>
 <p>How to take Braftovi 
-Instructions to open the blister: 
-- Do not push the capsule through the blister.     <br />
-- Separate one blister cell by bending it and gently tearing along the perforations.<br />
-- Carefully peel off the blister foil starting at the corner labelled with an arrow.<br />
-- Gently remove the capsule. </p>
+Instructions to open the blister:</p>
+<ul>
+<li>Do not push the capsule through the blister.       </li>
+<li>Separate one blister cell by bending it and gently tearing along the perforations.  </li>
+<li>Carefully peel off the blister foil starting at the corner labelled with an arrow.  </li>
+<li>Gently remove the capsule. </li>
+</ul>
 <p>Swallow the capsules whole with water. Braftovi can be taken with food or between meals. </p>
 <p>If you are sick<br />
 If you vomit at any time after taking Braftovi, do not take an additional dose. Take the next dose as 
@@ -260,30 +268,38 @@ medicine unless your doctor tells you to. </p>
 <p>Braftovi may cause serious side effects. Tell your doctor immediately if you have any of the 
 following serious side effects, either for the first time or if they get worse (see also section 2):  </p>
 <p>Heart problems: Braftovi when taken with binimetinib can affect how well your heart works (left 
-ventricular ejection fraction decrease); signs and symptoms can include:<br />
-- feeling dizzy, tired or lightheaded 
-- shortness of breath 
-- feeling like your heart is pounding, racing or beating irregularly 
-- swelling in the legs </p>
+ventricular ejection fraction decrease); signs and symptoms can include:</p>
+<ul>
+<li>feeling dizzy, tired or lightheaded </li>
+<li>shortness of breath </li>
+<li>feeling like your heart is pounding, racing or beating irregularly </li>
+<li>swelling in the legs </li>
+</ul>
 <p>Eye problems: Braftovi, when taken with binimetinib can cause serious eye problems such as fluid to 
 leak under the retina in the eye, leading to detachment of different layers in the eye (retinal epithelial 
-pigmental detachment). Call your doctor right away if you get these symptoms of eye problems: 
-- blurred vision, loss of vision, or other vision changes (such as coloured dots in your vision) 
-- halo (seeing blurred outline around objects) 
-- eye pain, swellling or redness  </p>
+pigmental detachment). Call your doctor right away if you get these symptoms of eye problems:</p>
+<ul>
+<li>blurred vision, loss of vision, or other vision changes (such as coloured dots in your vision) </li>
+<li>halo (seeing blurred outline around objects) </li>
+<li>eye pain, swellling or redness  </li>
+</ul>
 <p>Bleeding problems: Braftovi can cause serious bleeding problems. Tell your doctor right away if you 
-have any unusual signs of bleeding, including: 
-- headaches, dizziness or weakness 
-- coughing up of blood or blood clots 
-- vomit containing blood or that looks like “coffee grounds” 
-- red or black stools that look like tar 
-- passing blood in the urine 
-- stomach (abdominal) pain 
-- unusual vaginal bleeding </p>
+have any unusual signs of bleeding, including:</p>
+<ul>
+<li>headaches, dizziness or weakness </li>
+<li>coughing up of blood or blood clots </li>
+<li>vomit containing blood or that looks like  coffee grounds  </li>
+<li>red or black stools that look like tar </li>
+<li>passing blood in the urine </li>
+<li>stomach (abdominal) pain </li>
+<li>unusual vaginal bleeding </li>
+</ul>
 <p>Muscle problems: Braftovi, when taken with binimetinib can cause breakdown of muscles 
-(rhabdomyolysis) which can lead to kidney damage and can be fatal; signs and symptoms can include: 
-- muscle pain, cramps, stiffness or spasm 
-- dark urine  </p>
+(rhabdomyolysis) which can lead to kidney damage and can be fatal; signs and symptoms can include:</p>
+<ul>
+<li>muscle pain, cramps, stiffness or spasm </li>
+<li>dark urine  </li>
+</ul>
 <p>Other skin cancers: Treatment with Braftovi may result in a type of skin cancer such as cutaneous 
 squamous cell carcinoma. Usually, these skin changes (see also section 2) are confined to a small area 
 and can be removed with surgery and treatment with Braftovi can continue without interruption. Some 
@@ -293,34 +309,36 @@ surgery and treatment with Braftovi can continue without interruption.  </p>
 Besides the serious side effects mentioned above, people taking Braftovi may also get other side 
 effects.  </p>
 <p>Side effects when Braftovi and binimetinib are taken together for treatment of melanoma </p>
-<p>Very common (may affect more than 1 in 10 people): 
-- reduced red blood cell count (anaemia) 
-- problem with the nerves resulting in pain, loss of sensation or tingling in hands and feet<br />
-- headache 
-- dizziness 
-- bleeding at various sites in the body 
-- high blood pressure 
-- problems with your vision (visual impairment) 
-- stomach pain 
-- diarrhoea 
-- being sick (vomiting) 
-- feeling sick (nausea) 
-- constipation 
-- itching<br />
-- dry skin 
-- hair loss or thinning (alopecia) 
-- skin rash of various types 
-- thickening of the outer layers of the skin 
-- joint pain (arthralgia) 
-- muscle pain, weakness or spasm 
-- back pain 
-- pain in the extremities<br />
-- fever 
-- swelling of the hands or feet (peripheral oedema), localised swelling 
-- fatigue 
-- abnormal blood test results for liver function 
-- abnormal blood test results related to blood creatine kinase (an enzyme found in the blood that 
-may indicate muscle inflammation or damage) </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>reduced red blood cell count (anaemia) </li>
+<li>problem with the nerves resulting in pain, loss of sensation or tingling in hands and feet  </li>
+<li>headache </li>
+<li>dizziness </li>
+<li>bleeding at various sites in the body </li>
+<li>high blood pressure </li>
+<li>problems with your vision (visual impairment) </li>
+<li>stomach pain </li>
+<li>diarrhoea </li>
+<li>being sick (vomiting) </li>
+<li>feeling sick (nausea) </li>
+<li>constipation </li>
+<li>itching  </li>
+<li>dry skin </li>
+<li>hair loss or thinning (alopecia) </li>
+<li>skin rash of various types </li>
+<li>thickening of the outer layers of the skin </li>
+<li>joint pain (arthralgia) </li>
+<li>muscle pain, weakness or spasm </li>
+<li>back pain </li>
+<li>pain in the extremities  </li>
+<li>fever </li>
+<li>swelling of the hands or feet (peripheral oedema), localised swelling </li>
+<li>fatigue </li>
+<li>abnormal blood test results for liver function </li>
+<li>abnormal blood test results related to blood creatine kinase (an enzyme found in the blood that 
+may indicate muscle inflammation or damage) </li>
+</ul>
 <p>Common (may affect up to 1 in 10 people) 
 - some types of skin tumours such as skin papilloma and basal cell carcinoma 
 - allergic reaction that may include swelling of the face and difficulty breathing<br />
@@ -344,7 +362,7 @@ foot syndrome)
 <p>Side effects when Braftovi was used on its own in clinical trials conducted in patients with 
 melanoma </p>
 <p>If you continue Braftovi on its own while the other medicine (binimetinib) is temporarily stopped 
-based on your doctor’s decision, you may get some of the side effects given in the lists above, 
+based on your doctor s decision, you may get some of the side effects given in the lists above, 
 although the frequency may change (increase or decrease). </p>
 <p>Very common (may affect more than 1 in 10 people) 
 - fatigue 
@@ -393,7 +411,7 @@ cancer
 Besides the serious side effects mentioned above, people taking Braftovi together with cetuximab may 
 also get the following side effects.  </p>
 <p>Very common (may affect more than 1 in 10 people) 
-- new moles called “melanocytic naevus” 
+- new moles called  melanocytic naevus<br />
 - lost of appetite 
 - difficulty sleeping  (insomnia) 
 - problem with the nerves resulting in pain, loss of sensation or tingling in hands and feet<br />
@@ -448,7 +466,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store below 30°C. Store in the original package in order to protect from moisture. </p>
+<p>Store below 30 C. Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -463,21 +481,21 @@ throw away medicines you no longer use. These measures will help protect the env
 Braftovi 50 mg hard capsules: Each hard capsule contains 50 mg encorafenib. 
 Braftovi 75 mg hard capsules: Each hard capsule contains 75 mg encorafenib. 
 - The other ingredients are: 
-• Capsule contents: copovidone (E1208), poloxamer 188, cellulose microcrystalline (E460i), 
+  Capsule contents: copovidone (E1208), poloxamer 188, cellulose microcrystalline (E460i), 
 succinic acid (E363), crospovidone (E1202), silica colloidal anhydrous (E551), magnesium 
 stearate (E470b) 
-• Capsule shell: gelatin (E441), titanium dioxide (E171), iron oxide red (E172), iron oxide yellow 
+  Capsule shell: gelatin (E441), titanium dioxide (E171), iron oxide red (E172), iron oxide yellow 
 (E172), iron oxide black (E172) 
-• Printing ink: shellac (E904), iron oxide black (E172), propylene glycol (E1520) </p>
+  Printing ink: shellac (E904), iron oxide black (E172), propylene glycol (E1520) </p>
 <p>What Braftovi looks like and contents of the pack 
 Braftovi 50 mg hard capsules<br />
-The hard capsule (capsule) has an orange opaque cap and flesh opaque body, with a stylised “A” 
-printed on the cap and “LGX 50mg” printed on the body.<br />
+The hard capsule (capsule) has an orange opaque cap and flesh opaque body, with a stylised  A<br />
+printed on the cap and  LGX 50mg  printed on the body.<br />
 Braftovi 50 mg is available in packs of 28x1 capsules  or 112x1 capsules in perforated unit dose 
 blisters. Not all pack sizes may be marketed. </p>
 <p>Braftovi 75 mg hard capsules<br />
 The hard capsule (capsule) has a flesh coloured opaque cap and white opaque body, with a stylised 
-“A” printed on the cap and “LGX 75mg” printed on the body. 
+ A  printed on the cap and  LGX 75mg  printed on the body. 
 Braftovi 75 mg is available in packs of 42x1 capsules or 168x1 capsules in perforated unit dose 
 blisters. Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
@@ -487,7 +505,7 @@ Les Cauquillous
 France </p>
 <p>Manufacturer 
 PIERRE FABRE MEDICAMENT PRODUCTION 
-Site Progipharm, Rue du Lycée<br />
+Site Progipharm, Rue du Lyc e<br />
 45500 GIEN<br />
 France </p>
 <p>This leaflet was last revised in.  </p>

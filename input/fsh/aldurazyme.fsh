@@ -4,7 +4,7 @@ Instance: composition-en-5ffbf24d0777fe10834621c6432afea6
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldurazyme Package Leaflet"
 Description:  "Composition for aldurazyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How Aldurazyme is given 
 4. Possible side effects 
 5. How to store Aldurazyme 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -70,7 +69,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldurazyme is used to treat patients with MPS I disease (Mucopolysaccharidosis I). It is given to treat 
 the non-neurological manifestations of the disease. </p>
-<p>People with MPS I disease have either a low level or no level of an enzyme called α-L-iduronidase, 
+<p>People with MPS I disease have either a low level or no level of an enzyme called  -L-iduronidase, 
 which breaks down specific substances (glycosaminoglycans) in the body. As a result, these 
 substances do not get broken down and processed by the body as they should. They accumulate in 
 many tissues in the body, which causes the symptoms of MPS I. </p>
@@ -90,14 +89,15 @@ in section 6).  </p>
 <p>Warnings and precautions 
 Talk to your doctor before using Aldurazyme.<br />
 Contact your doctor immediately if treatment with Aldurazyme causes: 
-•    Allergic reactions, including anaphylaxis (a severe allergy reaction) – see under section 4 
-“Possible side effects”. Some of these reactions may be life-threatening. Symptoms may 
+     Allergic reactions, including anaphylaxis (a severe allergy reaction)   see under section 4 
+ Possible side effects . Some of these reactions may be life-threatening. Symptoms may 
 include respiratory failure/distress (inability of lungs to work properly), stridor (high-pitched 
 breathing sound) and other disorders due to obstruction of airways, rapid breathing, excessive 
 contraction of the airway muscles causing breathing difficulty (bronchospasm), lack of oxygen 
 in body tissues (hypoxia), low blood pressure, slow heart rate, or itchy rash (urticaria).  </p>
-<p>•    Infusion-associated reactions, i.e. any side effect occurring during the infusion or until the end 
-of the infusion day- see under section 4 “Possible Side Effects” below for symptoms.  </p>
+<pre><code> Infusion-associated reactions, i.e. any side effect occurring during the infusion or until the end
+</code></pre>
+<p>of the infusion day- see under section 4  Possible Side Effects  below for symptoms.  </p>
 <p>If these reactions occur, the Aldurazyme infusion should be stopped immediately and appropriate 
 treatment will be started by your doctor.<br />
 These reactions may be particularly severe if you have a pre-existing MPS I-related upper airway 
@@ -175,19 +175,19 @@ respiratory arrest, and swelling of the face. The frequency of bronchospasm and 
 unknown. The frequency of severe allergic reaction (anaphylactic reaction) and swelling of the face is 
 considered common and may affect up to 1 in 10 people. </p>
 <p>Very common symptoms (may affect more than 1 in 10 people) which were not serious include<br />
-• headache,<br />
-• nausea,<br />
-• abdominal pain,<br />
-• rash,<br />
-• joint disease,<br />
-• joint pain,<br />
-• back pain,<br />
-• pain in arms or legs,<br />
-• flushing, 
-• fever, chills,<br />
-• increased heart rate,<br />
-• increased blood pressure,<br />
-• reaction at the infusion site such as swelling, redness, build-up of fluid, discomfort, itchy rash, 
+  headache,<br />
+  nausea,<br />
+  abdominal pain,<br />
+  rash,<br />
+  joint disease,<br />
+  joint pain,<br />
+  back pain,<br />
+  pain in arms or legs,<br />
+  flushing, 
+  fever, chills,<br />
+  increased heart rate,<br />
+  increased blood pressure,<br />
+  reaction at the infusion site such as swelling, redness, build-up of fluid, discomfort, itchy rash, 
 pale colour of the skin, discoloured skin, or sensation of being warm. </p>
 <p>Other side effects include the following: </p>
 <p>Common (may affect up to 1 in 10 people) 
@@ -246,7 +246,7 @@ this medicine. </p>         </div>"""
 <p>You should not be given this medicine after the expiry date which is stated on the label after the letters 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Unopened vials: 
-Store in a refrigerator (2°C – 8°C). </p>
+Store in a refrigerator (2 C   8 C). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -272,20 +272,19 @@ Sanofi B.V., Paasheuvelweg 25, 1105 BP Amsterdam, The Netherlands. </p>
 <p>Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien/ 
+<p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-Tél/Tel: + 32 2 710 54<br />
-Magyarország 
+T l/Tel: + 32 2 710 54<br />
+Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
-Tel: +36 1 505 0 
-България 
-Swixx Biopharma EOOD 
-Тел.: +359 (0)2 4942<br />
+Tel: +36 1 505 0 </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
 Malta 
 Sanofi S.r.l. 
 Tel: +39 02 39394 
-Česká republika 
+ esk  republika 
 sanofi-aventis, s.r.o. 
 Tel: +420 233 086<br />
 Nederland 
@@ -299,35 +298,34 @@ Tlf: + 47 67 10 71<br />
 Deutschland 
 Sanofi-Aventis Deutschland GmbH 
 Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 7 
-Österreich 
+ sterreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 – 0 </p>
+Tel: + 43 1 80 185   0 </p>
 <p>Eesti 
-Swixx Biopharma OÜ 
+Swixx Biopharma O<br />
 Tel. +372 640 10<br />
 Polska 
 sanofi-aventis Sp. z o.o.<br />
-Tel: +48 22 280 00<br />
-Ελλάδα 
-Sanofi-Aventis Μονοπρόσωπη AEBE 
-Τηλ: +30 210 900 1 
+Tel: +48 22 280 00  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 1 
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda.<br />
-Tel: +351 21 35 89 España 
+Sanofi   Produtos Farmac uticos, Lda.<br />
+Tel: +351 21 35 89 Espa a 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
-România 
+Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31<br />
 France 
 Sanofi Winthrop Industrie 
-Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51 Hrvatska 
 Swixx Biopharma d.o.o<br />
 Tel: +385 1 2078<br />
-Slovenská republika 
+Slovensk  republika 
 Swixx Biopharma s.r.o. 
 Tel.:  +421 2 208 33<br />
 Ireland 
@@ -336,9 +334,9 @@ Tel: +353 (0) 1 403 56<br />
 Suomi/Finland 
 Sanofi Oy 
 Puh/Tel: + 358 201 200<br />
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
+S mi: +354 535 7 
 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50<br />
@@ -347,10 +345,9 @@ Sanofi S.r.l.
 Tel: 800536 
 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel +44 (0) 800 035 2 
-Κύπρος 
-C.A. Papaellinas Ltd. 
-Τηλ: +357 22 741 </p>
+Tel +44 (0) 800 035 2 </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 </p>
 <p>Latvija 
 Swixx Biopharma SIA 
 Tel: +371 6 616 47  </p>

@@ -4,7 +4,7 @@ Instance: composition-en-a9cc1591b2509e823baad904a2322951
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapiscan Package Leaflet"
 Description:  "Composition for rapiscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How Rapiscan is given 
 4. Possible side effects 
 5. How to store Rapiscan 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -69,10 +68,10 @@ Usage: #example
   * code.text =  "1. What rapiscan is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rapiscan contains the active substance regadenoson. This belongs to a group of medicines called 
-‘coronary vasodilators’. It makes the heart arteries expand and heart rate increase. This makes more 
+ coronary vasodilators . It makes the heart arteries expand and heart rate increase. This makes more 
 blood flow to the muscles of the heart. </p>
 <p>This medicine is for diagnostic use only. </p>
-<p>Rapiscan is used in a type of heart scan in adults called ‘myocardial perfusion imaging’. </p>
+<p>Rapiscan is used in a type of heart scan in adults called  myocardial perfusion imaging . </p>
 <p>The scan uses a diagnostic agent to create images. These images show how well blood flows to the 
 muscles of the heart. Usually, exercise on a treadmill is used to put the heart under stress before a 
 scan. During the exercise, a small amount of the diagnostic agent is injected into the body, often into a 
@@ -96,7 +95,7 @@ the heart. </p>         </div>"""
   * code.text = "2. What you need to know before you take rapiscan"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Rapiscan: 
-* if you have slow heart rate (high degree heart block or sinus node disease), and don’t have a 
+* if you have slow heart rate (high degree heart block or sinus node disease), and don t have a 
 pacemaker fitted. 
 * if you have chest pain that occurs unpredictably (unstable angina) and that has not improved after 
 treatment. 
@@ -164,7 +163,7 @@ Rapiscan, you will be given an injection of sodium chloride 9 mg/ml (0.9%) solut
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rapiscan is injected by a healthcare professional (a doctor, nurse or medical technician) in a 
 medical facility where your heart and blood pressure can be monitored. It is injected directly into a 
-vein, as a single dose of 400 micrograms in a 5 ml solution – the injection will take about 10 seconds 
+vein, as a single dose of 400 micrograms in a 5 ml solution   the injection will take about 10 seconds 
 to complete. The dose injected does not depend on your weight. </p>
 <p>You will also be given an injection of sodium chloride 9 mg/ml (0.9%) solution (5 ml), and an 
 injection of a small amount of a diagnostic agent. 
@@ -176,7 +175,7 @@ stand up. </p>
 <p>A scan of your heart will be made after enough time has passed to allow the diagnostic agent to reach 
 the heart muscle.<br />
 During catheterisation of the arteries of the heart, your doctor may measure the pressure difference 
-(also known as fractional flow reserve – FFR) due to a narrowing in one or more arteries of the heart.  </p>
+(also known as fractional flow reserve   FFR) due to a narrowing in one or more arteries of the heart.  </p>
 <p>If deemed necessary, a second dose of 400 micrograms can be injected at least 10 minutes after the 
 first dose for such pressure difference measurement during the same catheterization procedure. Heart 
 rate and blood pressure will be monitored during the entire procedure. </p>
@@ -194,9 +193,9 @@ these effects. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Rapiscan can cause side effects, although not everybody gets them. </p>
 <p>The side effects are usually mild. They normally start soon after the Rapiscan injection and are 
-usually over within 30 minutes. They don’t usually need any treatment. </p>
+usually over within 30 minutes. They don t usually need any treatment. </p>
 <p>More serious side effects include: 
-* sudden stopping of the heart or damage to the heart, heart block (a disorder of the heart’s electrical 
+* sudden stopping of the heart or damage to the heart, heart block (a disorder of the heart s electrical 
 signal, where the signal cannot pass from the upper to the lower chambers), rapid heart beat 
 * low blood pressure which may result in fainting or mini strokes (including weakness of the face or 
 an inability to speak). Rarely, Rapiscan can cause a stroke (also known as a cerebrovascular 
@@ -229,7 +228,7 @@ fluttering, or beating too hard or fast (palpitations)
 * discomfort in the mouth </p>
 <p>Uncommon<br />
 (may affect up to  1  in 100) 
-* sudden stopping of the heart or damage to the heart, heart block (a disorder of the heart’s electrical 
+* sudden stopping of the heart or damage to the heart, heart block (a disorder of the heart s electrical 
 signal, where the signal cannot pass from the upper to the lower chambers), slow heart beat 
 * fits, fainting, mini strokes (including weakness of the face or an inability to speak), reduced 
 responsiveness (which may include a comatose state), trembling, sleepiness 

@@ -4,7 +4,7 @@ Instance: composition-en-d81ab7604a6a988f432c98de75044e82
 InstanceOf: CompositionUvEpi
 Title: "Composition for zercepac Package Leaflet"
 Description:  "Composition for zercepac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -76,7 +76,17 @@ the surface of some cancer cells where it stimulates their growth. When Zercepac
 stops the growth of such cells and causes them to die.  </p>
 <p>Your doctor may prescribe Zercepac for the treatment of breast and gastric cancer when:  </p>
 <ul>
-<li>You have early breast cancer, with high levels of a protein called HER2.  </li>
+<li>You have early breast cancer, with high levels of a protein called HER</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zercepac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zercepac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>You have metastatic breast cancer (breast cancer that has spread beyond the original tumour) 
 with high levels of HER2. Zercepac may be prescribed in combination with the chemotherapy 
 medicine paclitaxel or docetaxel as first treatment for metastatic breast cancer or it may be 
@@ -87,13 +97,11 @@ hormones).  </li>
 <li>You have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
 other cancer medicines capecitabine or 5-flououracil and cisplatin. </li>
 </ul>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take zercepac"
+  * title =  "3. How to take zercepac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take zercepac"
+  * code.text = "3. How to take zercepac"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Zercepac if 
 * you are allergic to trastuzumab, to murine (mouse) proteins, or to any of the other ingredients of 
@@ -155,21 +163,22 @@ as Zercepac may pass to your baby through your breast milk.  </p>
 symptoms, such as dizziness, sleepiness, chills or fever, you should not drive or use machines until 
 these symptoms disappear. </p>
 <p>Sodium<br />
-Zercepac contains less than 1 mmol of sodium per dose, i.e. it is essentially sodium-free. </p>         </div>"""   
-                    
+Zercepac contains less than 1 mmol of sodium per dose, i.e. it is essentially sodium-free. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take zercepac"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zercepac"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before starting the treatment your doctor will determine the amount of HER2 in your tumour. Only 
 patients with a large amount of HER2 will be treated with Zercepac. Zercepac should only be given by 
 a doctor or nurse. Your doctor will prescribe a dose and treatment regimen that is right for you. The 
 dose of Zercepac depends on your body weight.  </p>
-<p>Zercepac intravenous formulation is given as an intravenous infusion (“drip”) directly into your veins. 
+<p>Zercepac intravenous formulation is given as an intravenous infusion ( drip ) directly into your veins. 
 The first dose of your treatment is given over 90 minutes and you will be observed by a health 
 professional while it is being given in case you have any side effects. If the first dose is well tolerated 
-the next doses may be given over 30 minutes (see section 2 under “Warnings and precautions”). The 
+the next doses may be given over 30 minutes (see section 2 under  Warnings and precautions ). The 
 number of infusions you receive will depend on how you respond to the treatment. Your doctor will 
 discuss this with you.  </p>
 <p>In order to prevent medication errors it is important to check the vial labels to ensure that the medicine 
@@ -183,13 +192,12 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can.  </p>
 <p>It may take up to 7 months for Zercepac to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store zercepac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store zercepac"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Zercepac can cause side effects, although not everybody gets them. Some of these 
 side effects may be serious and may lead to hospitalisation.  </p>
@@ -199,8 +207,8 @@ common (may affect more than 1 in 10 people). Other infusion-related symptoms ar
 (nausea), vomiting, pain, increased muscle tension and shaking, headache, dizziness, breathing 
 difficulties, high or low blood pressure, heart rhythm disturbances (palpitations, heart fluttering or 
 irregular heart beat), swelling of the face and lips, rash and feeling tired. Some of these symptoms can 
-be serious and some patients have died (see section 2 under “Warnings and precautions”).  </p>
-<p>These effects mainly occur with the first intravenous infusion (“drip” into your vein) and during the 
+be serious and some patients have died (see section 2 under  Warnings and precautions ).  </p>
+<p>These effects mainly occur with the first intravenous infusion ( drip  into your vein) and during the 
 first few hours after the start of the infusion. They are usually temporary. You will be observed by a 
 health care professional during the infusion and for at least six hours after the start of the first infusion 
 and for two hours after the start of other infusions. If you develop a reaction, they will slow down or 
@@ -347,10 +355,11 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store zercepac"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zercepac"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zercepac will be stored by the health professionals at the hospital or clinic. </p>
 <ul>
@@ -360,7 +369,7 @@ safety of this medicine. </p>         </div>"""
 the vial label after EXP. The expiry date refers to the last day of that month. </p>
 </li>
 <li>
-<p>The unopened vial should be stored in a refrigerator (2°C-8°C). </p>
+<p>The unopened vial should be stored in a refrigerator (2 C-8 C). </p>
 </li>
 <li>Do not freeze the reconstituted solution. </li>
 <li>Infusion solutions should be used immediately after dilution. If not used immediately, in-
@@ -371,41 +380,4 @@ administration. </li>
 pharmacist how to dispose of medicines no longer required. These measures will help to 
 protect the environment. </li>
 </ul>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zercepac contains  </p>
-<ul>
-<li>The active substance is trastuzumab. Each vial contains either: </li>
-<li>60 mg trastuzumab that has to be dissolved in 3.0 mL of sterile water for injections, or  </li>
-<li>150 mg trastuzumab that has to be dissolved in 7.2 mL of sterile water for injections, or  </li>
-<li>420 mg trastuzumab that has to be dissolved in 20.0 mL of sterile water for injections. 
-           The resulting solution contains approximately 21 mg/mL trastuzumab. </li>
-<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine, α,α-trehalose 
-dihydrate, polysorbate 20.<br />
-What Zercepac looks like and contents of the pack  </li>
-</ul>
-<p>Zercepac is a powder for concentrate for solution for intravenous infusion, which is supplied in a glass 
-vial with a rubber stopper containing 60 mg or ,150  or 420 mg of trastuzumab. The powder is a white 
-to pale yellow pellet. Each carton contains 1 vial of powder. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Accord Healthcare S.L.U.<br />
-World Trade Center,<br />
-Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
-08039 Barcelona, Spain </p>
-<p>Manufacturer </p>
-<p>Accord Healthcare Polska Sp. z.o.o 
-ul Lutomierska 50, 95-200 Pabianice 
-Poland </p>
-<p>Accord Healthcare B.V.,<br />
-Winthontlaan 200,<br />
-3526 KV Utrecht,<br />
-The Netherlands </p>
-<p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

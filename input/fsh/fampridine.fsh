@@ -4,7 +4,7 @@ Instance: composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampridine Package Leaflet"
 Description:  "Composition for fampridine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Fampridine Accord 
 4. Possible side effects 
 5. How to store Fampridine Accord 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -85,34 +84,23 @@ more normally, which allows you to walk better. </p>         </div>"""
   * code.text = "2. What you need to know before you take fampridine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take  Fampridine Accord  </p>
-<p>− 
-if you are allergic to fampridine or any of the other ingredients of this medicine (listed in 
-section 6) 
-− 
-if you have a seizure or have ever had a seizure (also referred to as a fit or convulsion) 
-− 
-if your doctor or nurse has told you that you have moderate or severe kidney problems 
-− 
-if you are taking a medicine called cimetidine 
-− 
-if you are taking any other medicine containing fampridine. This may increase your risk of 
+<p>if you are allergic to fampridine or any of the other ingredients of this medicine (listed in 
+section 6) </p>
+<p>if you have a seizure or have ever had a seizure (also referred to as a fit or convulsion) </p>
+<p>if your doctor or nurse has told you that you have moderate or severe kidney problems </p>
+<p>if you are taking a medicine called cimetidine </p>
+<p>if you are taking any other medicine containing fampridine. This may increase your risk of 
 serious side effects </p>
 <p>Tell your doctor and do not take Fampridine Accord if any of these apply to you. </p>
 <p>Warnings and precautions </p>
-<p>Talk to your doctor or pharmacist before taking Fampridine Accord: 
-− 
-if you feel aware of your heartbeat (palpitations) 
-− 
-if you are prone to infections 
-− 
-you should use a walking aid, such as a cane, as needed 
-− 
-because this medicine may make you feel dizzy or unsteady this may result in an increased risk 
-of falls 
-− 
-if you have any factors or are taking any medicine which affects your risk of fits (seizure). 
-− 
-if you have been told by a doctor that you have mild problems with your kidneys. </p>
+<p>Talk to your doctor or pharmacist before taking Fampridine Accord: </p>
+<p>if you feel aware of your heartbeat (palpitations) </p>
+<p>if you are prone to infections </p>
+<p>you should use a walking aid, such as a cane, as needed </p>
+<p>because this medicine may make you feel dizzy or unsteady this may result in an increased risk 
+of falls </p>
+<p>if you have any factors or are taking any medicine which affects your risk of fits (seizure). </p>
+<p>if you have been told by a doctor that you have mild problems with your kidneys. </p>
 <p>Tell your doctor before you take Fampridine Accord if any of these apply to you. </p>
 <p>Children and in adolescents </p>
 <p>Do not give Fampridine Accord to children or adolescents under the age of 18 years. </p>
@@ -136,8 +124,8 @@ Fampridine Accord is not recommended during pregnancy. </p>
 against the risk to your baby. </p>
 <p>You should not breast-feed whilst taking this medicine. </p>
 <p>Driving and using machines </p>
-<p>Fampridine Accord may have an effect on people’s ability to drive or use machines, it can cause 
-dizziness. Make sure you’re not affected before you start driving or use machinery. </p>         </div>"""   
+<p>Fampridine Accord may have an effect on people s ability to drive or use machines, it can cause 
+dizziness. Make sure you re not affected before you start driving or use machinery. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fampridine"
@@ -235,14 +223,18 @@ throw away medicines you no longer use. These measures will help to protect the 
 <ul>
 <li>The active substance is fampridine.  </li>
 <li>Each prolonged-release tablet contains 10 mg of fampridine  </li>
-<li>The other ingredients are:  </li>
-<li>Tablet core: Hypromellose (E464), silica, colloidal anhydrous (E551), cellulose 
-microcrystalline (E460), magnesium stearate (E572);  </li>
+<li>
+<p>The other ingredients are:</p>
+</li>
+<li>
+<p>Tablet core: Hypromellose (E464), silica, colloidal anhydrous (E551), cellulose 
+microcrystalline (E460), magnesium stearate (E572);  </p>
+</li>
 <li>Film coating: hypromellose (E464), titanium dioxide (E171), macrogol (E1521) </li>
 </ul>
 <p>What Fampridine Accord looks like and contents of the pack </p>
 <p>White to off white, oval shaped, biconvex, bevel-edged, film coated tablets, approximately 
-13.1 x 8.1 mm in dimensions, debossed with ‘FH6’ on one side and plain on other side. </p>
+13.1 x 8.1 mm in dimensions, debossed with  FH6  on one side and plain on other side. </p>
 <p>Fampridine Accord 10 mg prolonged-release tablets are packed in perforated unit-dose blister packs 
 containing 28 x1 or 56 x 1 tablets </p>
 <p>Not all pack sizes may be marketed.  </p>
@@ -257,7 +249,7 @@ Ul. Lutomierska 50,
 95-200, Pabianice, Poland </p>
 <p>Pharmadox Healthcare Ltd. 
 KW20A Kordin Industrial Park, Paola PLA3000, Malta </p>
-<p>Laboratori Fundació DAU 
+<p>Laboratori Fundaci  DAU 
 C/ C, 12-14 Pol. Ind. Zona Franca, 08040 Barcelona, Spain </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

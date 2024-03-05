@@ -4,7 +4,7 @@ Instance: composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for emselex Package Leaflet"
 Description:  "Composition for emselex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -101,19 +101,19 @@ ciclosporin (a medicine used in transplantation to prevent organ rejection or fo
 conditions, e.g. rheumatoid arthritis or atopic dermatitis), verapamil (a medicine used to lower 
 blood pressure, to correct heart rhythm or to treat angina pectoris), antifungal medicines (e.g. 
 ketoconazole and itraconazole) and some antiviral medicines (e.g. ritonavir)  see paragraph 
-“Other medicines and Emselex”). </p>
+ Other medicines and Emselex ). </p>
 <p>Warnings and precautions 
 Talk to your doctor  before taking Emselex 
 * if you have autonomic neuropathy (damage to the nerves that communicate between the brain 
 and internal organs, muscles, skin, and blood vessels to regulate vital functions, including the 
-heart rate, blood pressure and bowel function) – your doctor will have told you if you have this. 
+heart rate, blood pressure and bowel function)   your doctor will have told you if you have this. 
 * if you have a condition where one or more organs in your abdomen has moved up into your 
 chest through a hole in your diaphragm, causing you to get heartburn and belch a lot. 
 * if you have difficulties in passing urine and a weak stream of urine. 
 * if you have severe constipation (less than or equal to 2 bowel movements per week). 
 * if you have a digestive motility disorder. 
 * if you have an obstructive gastrointestinal disorder (any obstruction of the passage of intestinal 
-or gastric contents, such as narrowing of the pylorus, the lower part of the stomach) – your 
+or gastric contents, such as narrowing of the pylorus, the lower part of the stomach)   your 
 doctor will have told you if you have this. 
 * if you are taking medicinal products that can cause or worsen inflammation of the oesophagus 
 such as oral bisphosphonates (a class of medicinal products that prevent the loss of bone mass 
@@ -122,7 +122,7 @@ and are used to treat osteoporosis).
 * if you have liver problems. 
 * if you have urinary tract infection or other kidney problems.<br />
 * if you have an overactive muscle that controls the emptying of the bladder which may cause 
-accidental passing of urine (a condition called detrusor hyperreflexia) – your doctor will tell you 
+accidental passing of urine (a condition called detrusor hyperreflexia)   your doctor will tell you 
 if you are suffering from this condition. 
 * if you have heart diseases. 
 If any of these apply to you, tell your doctor before you take Emselex. </p>
@@ -135,19 +135,19 @@ Tell your doctor or pharmacist if you are taking or have recently taken any othe
 medicines obtained without a prescription. This is particularly important if you are taking any of the 
 following as your doctor may need to adjust your dose of Emselex and/or the other medicine: 
 * certain antibiotics (e.g. erythromycin, clarithromycin, telithromycin and rifampicin), 
-* antifungal medicines (e.g. ketoconazole and itraconazole - see paragraph “Do not take 
-Emselex”, fluconazole, terbinafine), 
+* antifungal medicines (e.g. ketoconazole and itraconazole - see paragraph  Do not take 
+Emselex , fluconazole, terbinafine), 
 * medicines used to reduce the activity of the immune system, for example, after organ 
-transplantation (e.g. ciclosporin - see paragraph “Do not take Emselex”), 
-* antiviral medicines (e.g. ritonavir - see paragraph “Do not take Emselex”), 
+transplantation (e.g. ciclosporin - see paragraph  Do not take Emselex ), 
+* antiviral medicines (e.g. ritonavir - see paragraph  Do not take Emselex ), 
 * antipsychotic medicines (e.g. thioridazine), 
 * certain antidepressants (e.g. imipramine and paroxetine), 
 * certain anticonvulsants (carbamazepine, barbiturates), 
-* certain medicines used to treat heart problems (e.g. verapamil - see paragraph “Do not take 
-Emselex”, flecainide, digoxin and quinidine), 
+* certain medicines used to treat heart problems (e.g. verapamil - see paragraph  Do not take 
+Emselex , flecainide, digoxin and quinidine), 
 * certain medicines used for the treatment of stomach problems (e.g. cimetidine), 
 * other antimuscarinic medicines (e.g. tolterodine, oxybutynin and flavoxate). 
-Please also inform your doctor if you are taking products containing St John’s wort. </p>
+Please also inform your doctor if you are taking products containing St John s wort. </p>
 <p>Emselex with food and drink 
 Eating food has no effect on Emselex. Grapefruit juice may interact with Emselex. Tell your doctor if 
 you are taking grapefruit juice regularly. </p>
@@ -231,14 +231,16 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store emselex"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>* Keep this medicine out of the sight and reach of children. 
-* Do not use this medicine after the expiry date which is stated on the carton and blister. The 
-expiry date refers to the last day of that month. 
-* Keep the blister packs in the outer carton in order to protect from light. 
-* Do not use if the pack is damaged or shows signs of tampering. 
-* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date which is stated on the carton and blister. The 
+expiry date refers to the last day of that month. </li>
+<li>Keep the blister packs in the outer carton in order to protect from light. </li>
+<li>Do not use if the pack is damaged or shows signs of tampering. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -251,8 +253,8 @@ environment. </p>         </div>"""
 - The other ingredients are calcium hydrogen phosphate (anhydrous), hypromellose, magnesium 
 stearate, polyethylene glycol, titanium dioxide (E171) and talc. </p>
 <p>What Emselex looks like and contents of the pack 
-Emselex 7.5 mg prolonged-release tablets are round, convex white tablets and are debossed with “DF” 
-on one side and “7.5” on the other. </p>
+Emselex 7.5 mg prolonged-release tablets are round, convex white tablets and are debossed with  DF<br />
+on one side and  7.5  on the other. </p>
 <p>The tablets are available in blister packs containing 7, 14, 28, 49, 56 or 98 tablets or in multipacks 
 containing 140 (10x14) tablets. Not all pack sizes may be available in your country. </p>
 <p>Marketing Authorisation Holder 
@@ -262,7 +264,7 @@ Taborstrasse 1
 Austria </p>
 <p>Manufacturer 
 DREHM Pharma GmbH 
-Grünbergstrasse 15/3/3 
+Gr nbergstrasse 15/3/3 
 1120 Vienna 
 Austria </p>
 <p>This leaflet was last revised in </p>
@@ -279,5 +281,5 @@ important information for you.
 - This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even 
 if their symptoms are the same as yours. 
 If you get any side effects, talk your doctor or pharmacist. This includes any possible side effects not 
-listed in this leaflet. See section 4.  </p>         </div>"""      
+listed in this leaflet. See section </p>         </div>"""      
 

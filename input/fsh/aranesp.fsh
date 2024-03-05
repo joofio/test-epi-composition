@@ -4,7 +4,7 @@ Instance: composition-en-53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for aranesp Package Leaflet"
 Description:  "Composition for aranesp Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -99,28 +99,34 @@ chemotherapy, your red blood cell count may fall making you anaemic. </p>       
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take aranesp"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Aranesp: 
-- if you are allergic to darbepoetin alfa or any of the other ingredients of this medicine listed in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Aranesp:</p>
+<ul>
+<li>if you are allergic to darbepoetin alfa or any of the other ingredients of this medicine listed in 
 section 6. - if you have been diagnosed with high blood pressure which is not being controlled with other 
-medicines prescribed by your doctor. </p>
+medicines prescribed by your doctor. </li>
+</ul>
 <p>Warnings and precautions  </p>
 <p>Talk to your doctor, pharmacist or nurse before using Aranesp. </p>
-<p>Please tell your doctor if you are suffering or have suffered from: 
-- high blood pressure which is being controlled with medicines prescribed by your doctor; 
-- sickle cell anaemia; 
-- epileptic fits (seizures);<br />
-- convulsions (fits or seizures);<br />
-- liver disease; 
-- significant lack of response to medicines used to treat anaemia; 
-- an allergy to latex (the needle cap on the pre-filled syringe contains a derivative of latex); or 
-- hepatitis C. </p>
-<p>Special warnings: 
-- If you have symptoms which include unusual tiredness and a lack of energy this could mean 
+<p>Please tell your doctor if you are suffering or have suffered from:</p>
+<ul>
+<li>high blood pressure which is being controlled with medicines prescribed by your doctor; </li>
+<li>sickle cell anaemia; </li>
+<li>epileptic fits (seizures);  </li>
+<li>convulsions (fits or seizures);  </li>
+<li>liver disease; </li>
+<li>significant lack of response to medicines used to treat anaemia; </li>
+<li>an allergy to latex (the needle cap on the pre-filled syringe contains a derivative of latex); or </li>
+<li>hepatitis C. </li>
+</ul>
+<p>Special warnings:</p>
+<ul>
+<li>
+<p>If you have symptoms which include unusual tiredness and a lack of energy this could mean 
 you have pure red cell aplasia (PRCA), which has been reported in patients. PRCA means that 
 the body has stopped or reduced the production of red blood cells which causes severe anaemia. 
 If you experience these symptoms you should contact your doctor who will determine the best 
 course of action to treat your anaemia.  </p>
-<ul>
+</li>
 <li>
 <p>Take special care with other products that stimulate red blood cell production: Aranesp is one of 
 a group of products that stimulate the production of red blood cells like the human protein 
@@ -184,7 +190,7 @@ you use Aranesp. </p>
 <p>Aranesp should not affect your ability to drive or use machinery. </p>
 <p>Aranesp contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aranesp"
@@ -202,7 +208,7 @@ an adult or a child.  </p>
 pharmacist will show you how to inject yourself with the pre-filled syringe. Do not try to inject 
 yourself if you have not been trained. Never inject Aranesp into a vein yourself.  </p>
 <p>If you have chronic renal failure </p>
-<p>For all adult and paediatric patients ≥ 1 year of age with chronic renal failure, Aranesp is given as a 
+<p>For all adult and paediatric patients   1 year of age with chronic renal failure, Aranesp is given as a 
 single injection, either under your skin (subcutaneous) or into a vein (intravenous). </p>
 <p>In order to correct your anaemia, your initial dose of Aranesp per kilogram of your body weight will 
 be either: 
@@ -210,9 +216,9 @@ be either:
 * 0.45 micrograms once weekly. 
 For adult patients not on dialysis, 1.5 micrograms/kg once monthly may also be used as the initial 
 dose. </p>
-<p>For all adult and paediatric patients ≥ 1 year of age with chronic renal failure, once your anaemia is 
+<p>For all adult and paediatric patients   1 year of age with chronic renal failure, once your anaemia is 
 corrected you will continue to receive Aranesp given as a single injection, either once a week or once 
-every two weeks. For all adults and paediatric patients ≥ 11 years of age not on dialysis, Aranesp 
+every two weeks. For all adults and paediatric patients   11 years of age not on dialysis, Aranesp 
 could also be given as an injection once monthly. </p>
 <p>Your doctor will take regular blood samples to measure how your anaemia is responding and may 
 adjust your dose once every four weeks as necessary in order to maintain long term control of your 
@@ -272,7 +278,7 @@ inject the next dose. </p>
 * Bruising and bleeding at the site of injection<br />
 * Blood clots in a dialysis access </p>
 <p>Not known: frequency cannot be estimated from available data 
-* Pure red cell aplasia (PRCA) – (anaemia, unusual tiredness, lack of energy) </p>
+* Pure red cell aplasia (PRCA)   (anaemia, unusual tiredness, lack of energy) </p>
 <p>Cancer patients </p>
 <p>Very common: may affect more than 1 in 10 people 
 * Allergic reactions </p>
@@ -314,7 +320,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the pre-filled 
 syringe label after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). Do not freeze. Do not use Aranesp if you think it has been frozen. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. Do not use Aranesp if you think it has been frozen. </p>
 <p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>When your syringe has been removed from the refrigerator and left at room temperature for 
 approximately 30 minutes before injection it must either be used within 7 days or disposed of. </p>
@@ -363,20 +369,19 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/Tél: +32 (0)2 7752 
+Tel/T l: +32 (0)2 7752 
 Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen<br />
 Belgique/Belgien 
-Tel/Tél: +32 (0)2 7752 
-Česká republika 
+Tel/T l: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
-Tel: +420 221 773 Magyarország 
+Tel: +420 221 773 Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44 Danmark 
 Amgen, filial af Amgen AB, Sverige 
@@ -395,28 +400,27 @@ Eesti
 Amgen Switzerland AG Vilniaus filialas 
 Tel: +372 586 09Norge 
 Amgen AB 
-Tel: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
-Τηλ.: +30 210 3447 
-Österreich 
+Tel: +47 23308 </p>
+<p>Amgen      . . .<br />
+ .: +30 210 3447 
+ sterreich 
 Amgen GmbH<br />
 Tel: +43 (0)1 50  </p>
-<p>España 
+<p>Espa a 
 Amgen S.A.<br />
 Tel: +34 93 600 18 60  </p>
 <p>Polska 
 Amgen Biotechnologia Sp. z o.o. 
 Tel.: +48 22 581 3France 
 Amgen S.A.S. </p>
-<p>Tél: +33 (0)9 69 363 363<br />
+<p>T l: +33 (0)9 69 363 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 4220 
 Hrvatska 
 Amgen d.o.o. 
-Tel: +385 (0)1 562 57 România 
-Amgen România SRL 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
@@ -424,10 +428,10 @@ Tel: +353 1 8527
 Slovenija 
 AMGEN zdravila d.o.o. 
 Tel: +386 (0)1 585 1 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114  </p>
 <p>Italia 
@@ -436,13 +440,13 @@ Tel: +39 02 6241Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ.: +357 22741 Sverige 
+ .: +357 22741 Sverige 
 Amgen AB<br />
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 
@@ -451,5 +455,60 @@ This leaflet was last revised in </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
-<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
+<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>
+<ol>
+<li>Instructions for injecting with the Aranesp pre-filled syringe  </li>
+</ol>
+<p>This section contains information on how to give yourself an injection of Aranesp. It is important that 
+you do not try to give yourself the injection unless you have received training from your doctor, nurse 
+or pharmacist. If you have questions about how to inject, please ask your doctor, nurse or pharmacist 
+for assistance. </p>
+<p>How do you or the person injecting you, use the Aranesp pre-filled syringe? </p>
+<p>Your doctor has prescribed an Aranesp pre-filled syringe for injection into the tissue just under the 
+skin. Your doctor, nurse or pharmacist will tell you how much Aranesp you need and how frequently 
+it should be injected.  </p>
+<p>Equipment: </p>
+<p>To give yourself an injection you will need: </p>
+<ul>
+<li>a new Aranesp pre-filled syringe; and </li>
+<li>alcohol wipes or similar. </li>
+</ul>
+<p>What should I do before I give myself a subcutaneous injection of Aranesp? </p>
+<ol>
+<li>
+<p>Remove the pre-filled syringe from the refrigerator. Leave the pre-filled syringe at room 
+temperature for approximately 30 minutes. This will make the injection more comfortable. Do 
+not warm Aranesp in any other way (for example, do not warm it in a microwave or in hot 
+water). Additionally, do not leave the syringe exposed to direct sunlight. </p>
+</li>
+<li>
+<p>Do not shake the pre-filled syringe. </p>
+</li>
+<li>
+<p>Do not remove the cap from the syringe until you are ready to inject. </p>
+</li>
+<li>
+<p>Check that it is the correct dose that your doctor has prescribed. </p>
+</li>
+<li>
+<p>Check the expiry date on the pre-filled syringe label (EXP). Do not use it if the date has passed 
+the last day of the month shown. </p>
+</li>
+<li>
+<p>Check the appearance of Aranesp. It must be a clear, colourless or slightly pearly liquid. If it is 
+cloudy or there are particles in it, you must not use it. </p>
+</li>
+<li>
+<p>Wash your hands thoroughly. </p>
+</li>
+<li>
+<p>Find a comfortable, well-lit, clean surface and put all the equipment you need within reach.  </p>
+</li>
+</ol>
+<p>How do I prepare my Aranesp injection? </p>
+<p>Before you inject Aranesp you must do the following: </p>
+<ol>
+<li>To avoid bending the needle, gently pull the cap from the needle 
+without twisting as shown in pictures 1 and </li>
+</ol>         </div>"""      
 

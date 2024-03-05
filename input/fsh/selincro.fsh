@@ -4,7 +4,7 @@ Instance: composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for selincro Package Leaflet"
 Description:  "Composition for selincro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,7 +95,7 @@ consumption. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take selincro"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Selincro: </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Selincro:</p>
 <ul>
 <li>if you are allergic to nalmefene or any of the other ingredients of this medicine (listed in 
 section 6) </li>
@@ -114,7 +114,7 @@ you may have, for example, depression, seizure, liver or kidney disease. </p>
 <p>If you and your doctor have decided that your immediate goal is abstinence (not drinking any alcohol), 
 you should not take Selincro because Selincro is indicated for reduction of alcohol consumption. </p>
 <p>If you require emergency medical attention, tell your doctor that you are taking Selincro. Your use of 
-Selincro may affect your doctor’s choice of emergency treatment. </p>
+Selincro may affect your doctor s choice of emergency treatment. </p>
 <p>If you are going to have a surgical procedure, talk to your doctor at least 1 week before the procedure. 
 You may need to stop taking Selincro temporarily. </p>
 <p>If you feel detached from yourself, see or hear things that are not there, and this continues to recur for 
@@ -246,14 +246,16 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store selincro"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>- Keep this medicine out of the sight and reach of children. 
-- Do not use this medicine after the expiry date (EXP) that is printed on the blister and carton. 
-The expiry date refers to the last day of that month. 
-- This medicine does not require any special storage conditions. 
-- Do not use this medicine if you notice defects in the tablets, such as chipped or broken tablets. 
-- Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children. </li>
+<li>Do not use this medicine after the expiry date (EXP) that is printed on the blister and carton. 
+The expiry date refers to the last day of that month. </li>
+<li>This medicine does not require any special storage conditions. </li>
+<li>Do not use this medicine if you notice defects in the tablets, such as chipped or broken tablets. </li>
+<li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </li>
+</ul>         </div>"""      
         
         
 * section[=].section[+]
@@ -269,7 +271,7 @@ magnesium stearate.
 The film-coating of the tablet contains: hypromellose, macrogol 400, titanium dioxide (E171). </p>
 <p>What Selincro looks like and contents of the pack 
 Selincro is a white, oval, biconvex, film-coated tablet of 6.0 x 8.75 mm. 
-The tablet is engraved with ‘S’ on one side. </p>
+The tablet is engraved with  S  on one side. </p>
 <p>Selincro is available in packs of 7, 14, 28, 42, 49 or 98 tablets in blister cards. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
@@ -283,30 +285,29 @@ Ottiliavej 9
 DK-2500 Valby 
 Denmark </p>
 <p>Elaiapharm 
-2881, Route des Crêtes 
+2881, Route des Cr tes 
 Z.I. Les Bouillides 
 Sophia Antipolis 
 06560 Valbonne 
 France </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Lundbeck S.A./N.V. 
-Tél/Tel: +32 2 535 7 
+T l/Tel: +32 2 535 7 
 Lietuva 
 H. Lundbeck A/S (Danija) 
-Tel: + 45 36301 
-България 
-Lundbeck Export A/S Representative Office 
-Teл.: +359 2 962 4 
+Tel: + 45 36301 </p>
+<p>Lundbeck Export A/S Representative Office 
+Te .: +359 2 962 4 
 Luxembourg/Luxemburg 
 Lundbeck S.A. 
-Tél/Tel: +32 2 535 7 
-Česká republika 
-Lundbeck Česká republika s.r.o. 
+T l/Tel: +32 2 535 7 
+ esk  republika 
+Lundbeck  esk  republika s.r.o. 
 Tel: +420 225 275<br />
-Magyarország 
-Lundbeck Hungária Kft. 
+Magyarorsz g 
+Lundbeck Hung ria Kft. 
 Tel.: +36 1 436 9 
 Danmark 
 Lundbeck Pharma A/S 
@@ -325,27 +326,26 @@ Lundbeck Eesti AS
 Tel: + 372 605 9 
 Norge 
 H. Lundbeck AS 
-Tlf: + 47 91 300<br />
-Ελλάδα 
-Lundbeck Hellas S.A. 
-Τηλ: + 30 210 610 5 
-Österreich 
+Tlf: + 47 91 300  </p>
+<p>Lundbeck Hellas S.A. 
+ : + 30 210 610 5 
+ sterreich 
 Lundbeck Austria GmbH 
-Tel: +43 1 253 621 6España 
-Lundbeck España S.A. 
+Tel: +43 1 253 621 6Espa a 
+Lundbeck Espa a S.A. 
 Tel: +34 93 494 9 
 Polska 
 Lundbeck Poland Sp. z o. o. 
 Tel.: + 48 22 626 93<br />
 France 
 Lundbeck SAS 
-Tél: + 33 1 79 41 29<br />
+T l: + 33 1 79 41 29<br />
 Portugal 
 Lundbeck Portugal Lda 
 Tel: +351 21 00 45<br />
 Hrvatska 
 Lundbeck Croatia d.o.o. 
-Tel: +385 1 644 8România 
+Tel: +385 1 644 8Rom nia 
 Lundbeck Romania SRL<br />
 Tel: +40 21319 88<br />
 Ireland 
@@ -354,10 +354,10 @@ Tel: +353 1 468 9
 Slovenija 
 Lundbeck Pharma d.o.o. 
 Tel.: +386 2 229 4 
-Ísland 
+ sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Lundbeck Slovensko s.r.o. 
 Tel: +421 2 5341 42<br />
 Italia 
@@ -365,15 +365,14 @@ Lundbeck Italia S.p.A.
 Tel: +39 02 677 4 
 Suomi/Finland 
 Oy H. Lundbeck Ab 
-Puh/Tel: + 358 2 276 5 
-Κύπρος 
-Lundbeck Hellas A.E 
-Τηλ.: + 357 22490 
+Puh/Tel: + 358 2 276 5 </p>
+<p>Lundbeck Hellas A.E 
+ .: + 357 22490 
 Sverige 
 H. Lundbeck AB 
 Tel: +46 40 699 82<br />
 Latvija 
-H. Lundbeck A/S (Dānija) 
+H. Lundbeck A/S (D nija) 
 Tel: + 45 36301 
 United Kingdom (Northern Ireland) 
 Lundbeck (Ireland) Limited 

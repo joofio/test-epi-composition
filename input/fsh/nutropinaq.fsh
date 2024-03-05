@@ -4,7 +4,7 @@ Instance: composition-en-72e43cd2bff034f1d9129ee8db99e248
 InstanceOf: CompositionUvEpi
 Title: "Composition for nutropinaq Package Leaflet"
 Description:  "Composition for nutropinaq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,7 +68,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What nutropinaq is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NutropinAq contains somatropin which is a recombinant growth hormone similar to the human’s 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NutropinAq contains somatropin which is a recombinant growth hormone similar to the human s 
 natural growth hormone made by your body. It is recombinant, meaning it is made outside of the 
 body by a special process. Growth Hormone (GH) is a chemical messenger made by a small gland in 
 your brain called the pituitary. In children it tells the body to grow, help the bones to develop 
@@ -160,7 +160,7 @@ of your steroid dose. </p>
 </li>
 <li>
 <p>in particular, inform your doctor if you are taking or have recently taken any of the following 
-medicines. Your doctor may need to adjust the dose of NutropinAq or of the other medicines: </p>
+medicines. Your doctor may need to adjust the dose of NutropinAq or of the other medicines:</p>
 </li>
 <li>
 <p>Oestrogen taken orally or other sex hormones </p>
@@ -173,9 +173,9 @@ If you are pregnant or breast-feeding, think you may be pregnant or are planning
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines </p>
 <p>No effect on ability to drive or use machines has been noticed while using NutropinAq. </p>
-<p>NutropinAq is essentially “sodium free” </p>
-<p>This medicinal product contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially “sodium-
-free”. </p>         </div>"""   
+<p>NutropinAq is essentially  sodium free  </p>
+<p>This medicinal product contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nutropinaq"
@@ -187,15 +187,9 @@ or pharmacist if you are not sure. NutropinAq therapy should be carried out unde
 of a doctor who is experienced in growth hormone deficiency. </p>
 <p>The dose of NutropinAq to be injected will be decided by your doctor. Do not change the dosage 
 without consulting your doctor. The recommended dose is: </p>
-<p>In children with growth hormone deficiency: </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In girls with Turner syndrome: 
+<p>In children with growth hormone deficiency: 
+0.025 - 0.035 mg/kg bodyweight injected each day under the skin (subcutaneous injection). </p>
+<p>In girls with Turner syndrome: 
 Up to 0.05 mg/kg bodyweight injected each day under the skin (subcutaneous injection). </p>
 <p>In children with chronic renal insufficiency: 
 Up to 0.05 mg/kg bodyweight injected each day under the skin (subcutaneous injection).  You can 
@@ -230,12 +224,13 @@ day and tell your doctor at your next appointment. </p>
 <p>If you stop using NutropinAq </p>
 <p>Ask advice from you doctor before you stop using NutropinAq. If you stop using NutropinAq too 
 early or for too long, the results will not be as expected. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store nutropinaq"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store nutropinaq"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately if you notice any change or increase in growth of birthmarks and/or 
@@ -305,8 +300,8 @@ blurred vision, increased weight, dizziness, diarrhoea, swelling of the face, fa
 <p>In children with growth hormone deficiency brain (central nervous system) tumours were commonly 
 reported. From the 236 patients enrolled into the clinical studies 3 patients had a central nervous 
 system tumour. Of the 3 patients with a central nervous system tumour, 2 patients experienced a 
-recurrent medulloblastoma and 1 patient experienced a histiocytoma. See also section “warning and 
-precautions”. </p>
+recurrent medulloblastoma and 1 patient experienced a histiocytoma. See also section  warning and 
+precautions . </p>
 <p>Girls with Turner syndrome commonly reported abnormally heavy bleeding at menstruation. </p>
 <p>Children with chronic renal insufficiency commonly reported inflammation of the lining of the abdomen 
 (peritonitis), bone necrosis and an increase of creatinine blood levels. They are more likely to develop 
@@ -323,20 +318,107 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store nutropinaq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nutropinaq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label of the cartridge and the 
+carton after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C - 8 C). Do not freeze. 
+Keep the blister in the outer carton. </p>
+<p>After first use, the cartridge may be stored for up to 28 days at 2 C - 8 C. Do not remove the cartridge 
+that is being used from the NutropinAq Pen between injections. </p>
+<p>Do not use NutropinAq if you notice that the solution is cloudy. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label of the cartridge and the 
-carton after EXP. The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2C - 8C). Do not freeze. 
-Keep the blister in the outer carton. </p>
-<p>After first use, the cartridge may be stored for up to 28 days at 2°C - 8°C. Do not remove the cartridge 
-that is being used from the NutropinAq Pen between injections. </p>
-<p>Do not use NutropinAq if you notice that the solution is cloudy. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NutropinAq contains </p>
+<p>The active substance of NutropinAq is somatropin*. 
+* Somatropin is a human growth hormone produced in Escherichia coli cells by recombinant DNA 
+technology. </p>
+<p>The other ingredients are sodium chloride, liquefied phenol, polysorbate 20, sodium citrate dihydrate, </p>
+<p>citric acid anhydrous and water for injections. </p>
+<p>What NutropinAq looks like and contents of the pack </p>
+<p>NutropinAq is a solution for injection (in a cartridge (10 mg/2 ml) - pack size of 1, 3 and 6). The 
+solution for multidose use is clear and colourless. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: Ipsen Pharma, 65 quai Georges Gorse, 92100 Boulogne-Billancourt, 
+France </p>
+<p>Manufacturer : IPSEN PHARMA BIOTECH S.A.S., Parc d Activit s du Plateau de Signes, CD no 
+402, 83870 Signes, France </p>
+<p>For any information about this medicinal product, please contact the local representative of the 
+Marketing Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg<br />
+Ipsen NVT l/Tel: + 32 - 9 - 243 96 Latvija<br />
+Ipsen Pharma p rst vniec ba 
+Tel: +371 676 22 </p>
+<p>Biomapas UAB 
+ .: + 370 37 366 
+ esk  republika<br />
+Ipsen Pharma, s.r.o.<br />
+Tel: + 420 242 481  </p>
+<p>Lietuva 
+Ipsen Pharma SAS Lietuvos filialas<br />
+Tel. +370 700 33 
+Danmark, Norge, Suomi/Finland, Sverige, 
+ sland 
+Institut Produits Synth se (IPSEN) AB 
+Tlf/Puh/Tel/S mi: +46 8 451 60<br />
+Magyarorsz g 
+Ipsen Pharma Hungary Kft. 
+Tel.: + 36-1-555-5 
+Deutschland,  sterreich<br />
+Ipsen Pharma GmbH<br />
+Tel: + 49 89 2620 432<br />
+Nederland 
+Ipsen Farmaceutica B.V.<br />
+Tel: + 31 (0) 23 55 41  </p>
+<p>Eesti 
+CentralPharma Communications O<br />
+Tel: +372 601 5 </p>
+<p>Polska 
+Ipsen Poland Sp. z o.o.<br />
+Tel.: + 48 (0) 22 653 6 
+ ,  , Malta 
+Ipsen   E  </p>
+<p>: + 30 - 210 - 984 3 </p>
+<p>Portugal 
+Ipsen Portugal   Produtos Farmac uticos, S.A.<br />
+Portugal 
+Tel: + 351 - 21 - 412 3 
+Espa a 
+Ipsen Pharma S.A.U. 
+Tel: + 34 - 936 - 858<br />
+Rom nia<br />
+Ipsen Pharma Rom nia SRL 
+Tel: + 40 (021) 231 27  </p>
+<p>France 
+Ipsen Pharma 
+T l : + 33 - 1 - 58 33 50 Slovenija 
+Biomapas UAB 
+Tel: + 370 37 366 
+Ireland, United Kingdom (Northern Ireland)<br />
+Ipsen Pharmaceuticals Limited <br />
+Tel: + 44 (0)1753 62 77 77  </p>
+<p>Slovensk  republika 
+Ipsen Pharma, organiza n  zlo ka 
+Tel: + 420 242 481  </p>
+<p>Italia 
+Ipsen SpA 
+Tel: + 39 - 02 - 39 22<br />
+Hrvatska 
+Biomapas Zagreb d.o.o. 
+Tel: + 385 17 757  </p>
+<p>This leaflet was last revised in <em>{Month/YYYY}</em> </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

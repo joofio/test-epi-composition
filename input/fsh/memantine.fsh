@@ -4,7 +4,7 @@ Instance: composition-en-78817b35263746b79687cd6c5a122f9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for memantine Package Leaflet"
 Description:  "Composition for memantine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -72,13 +72,13 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How does Memantine ratiopharm work 
 Memantine ratiopharm contains the active substance memantine hydrochloride. It belongs to a group 
 of medicines known as anti-dementia medicines. 
-Memory loss in Alzheimer’s disease is due to a disturbance of message signals in the brain. The brain 
+Memory loss in Alzheimer s disease is due to a disturbance of message signals in the brain. The brain 
 contains so-called N-methyl-D-aspartate (NMDA)-receptors that are involved in transmitting nerve 
 signals important in learning and memory. Memantine ratiopharm belongs to a group of medicines 
 called NMDA-receptor antagonists. Memantine ratiopharm acts on these NMDA-receptors improving 
 the transmission of nerve signals and the memory. </p>
 <p>What is Memantine ratiopharm used for 
-Memantine ratiopharm is used for the treatment of patients with moderate to severe Alzheimer’s 
+Memantine ratiopharm is used for the treatment of patients with moderate to severe Alzheimer s 
 disease. </p>         </div>"""   
           
 
@@ -89,22 +89,22 @@ disease. </p>         </div>"""
   * code.text = "2. What you need to know before you take memantine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Memantine ratiopharm 
-● if you are allergic to memantine hydrochloride, peanut or soya or any of the other ingredients of 
+  if you are allergic to memantine hydrochloride, peanut or soya or any of the other ingredients of 
 this medicine (listed in section 6). </p>
 <p>Warnings and precautions 
 Talk to your doctor or pharmacist before taking Memantine ratiopharm 
-● if you have a history of epileptic seizures. 
-● if you have recently experienced a myocardial infarction (heart attack), or if you are suffering from 
+  if you have a history of epileptic seizures. 
+  if you have recently experienced a myocardial infarction (heart attack), or if you are suffering from 
 congestive heart failure or from an uncontrolled hypertension (high blood pressure). 
 In these situations the treatment should be carefully supervised, and the clinical benefit of Memantine 
 ratiopharm reassessed by your doctor on a regular basis. </p>
 <p>If you suffer from renal impairment (kidney problems), your doctor should closely monitor your 
 kidney function and if necessary adapt the memantine doses accordingly. </p>
 <p>The use of medicinal products called 
-● amantadine (for the treatment of Parkinson’s disease), 
-● ketamine (a substance generally used as an anaesthetic), 
-● dextromethorphan (generally used to treat cough) and 
-● other NMDA-antagonists 
+  amantadine (for the treatment of Parkinson s disease), 
+  ketamine (a substance generally used as an anaesthetic), 
+  dextromethorphan (generally used to treat cough) and 
+  other NMDA-antagonists 
 at the same time should be avoided. </p>
 <p>Children and adolescents 
 Memantine ratiopharm is not recommended for children and adolescents under the age of 18 years. </p>
@@ -113,16 +113,16 @@ Tell your doctor or pharmacist if you are taking/using, have recently taken/used
 other medicines. </p>
 <p>In particular, Memantine ratiopharm may change the effects of the following medicines and their dose 
 may need to be adjusted by your doctor: 
-● amantadine, ketamine, dextromethorphan 
-● dantrolene, baclofen 
-● cimetidine, ranitidine, procainamide, quinidine, quinine, nicotine 
-● hydrochlorothiazide (or any combination with hydrochlorothiazide) 
-● anticholinergics (substances generally used to treat movement disorders or intestinal cramps) 
-● anticonvulsants (substances used to prevent and relieve seizures) 
-● barbiturates (substances generally used to induce sleep) 
-● dopaminergic agonists (substances such as L-dopa, bromocriptine) 
-● neuroleptics (substances used in the treatment of mental disorders) 
-● oral anticoagulants </p>
+  amantadine, ketamine, dextromethorphan 
+  dantrolene, baclofen 
+  cimetidine, ranitidine, procainamide, quinidine, quinine, nicotine 
+  hydrochlorothiazide (or any combination with hydrochlorothiazide) 
+  anticholinergics (substances generally used to treat movement disorders or intestinal cramps) 
+  anticonvulsants (substances used to prevent and relieve seizures) 
+  barbiturates (substances generally used to induce sleep) 
+  dopaminergic agonists (substances such as L-dopa, bromocriptine) 
+  neuroleptics (substances used in the treatment of mental disorders) 
+  oral anticoagulants </p>
 <p>If you go into hospital, let your doctor know that you are taking Memantine ratiopharm. </p>
 <p>Memantine ratiopharm with food and drink 
 You should inform your doctor if you have recently changed or intend to change your diet 
@@ -180,14 +180,14 @@ The tablets should be swallowed with some water. The tablets can be taken with o
 Continue to take Memantine ratiopharm as long as it is of benefit to you. Your doctor should assess 
 your treatment on a regular basis. </p>
 <p>If you take more Memantine ratiopharm than you should 
-● In general, taking too much Memantine ratiopharm should not result in any harm to you. You may 
-experience increased symptoms as described in section 4. “Possible side effects”. 
-● If you take a large overdose of Memantine ratiopharm, contact your doctor or get medical advice, 
+  In general, taking too much Memantine ratiopharm should not result in any harm to you. You may 
+experience increased symptoms as described in section 4.  Possible side effects . 
+  If you take a large overdose of Memantine ratiopharm, contact your doctor or get medical advice, 
 as you may need medical attention. </p>
 <p>If you forget to take Memantine ratiopharm 
-● If you find you have forgotten to take your dose of Memantine ratiopharm, wait and take your next 
+  If you find you have forgotten to take your dose of Memantine ratiopharm, wait and take your next 
 dose at the usual time. 
-● Do not take a double dose to make up for a forgotten dose. </p>
+  Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
@@ -199,16 +199,16 @@ dose at the usual time.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>In general, the observed side effects are mild to moderate. </p>
 <p>Common (affects 1 to 10 users in 100): 
-● Headache, sleepiness, constipation, elevated liver function tests, dizziness, balance disorders, 
+  Headache, sleepiness, constipation, elevated liver function tests, dizziness, balance disorders, 
 shortness of breath, high blood pressure and drug hypersensitivity </p>
 <p>Uncommon (affects 1 to 10 users in 1,000): 
-● Tiredness, fungal infections, confusion, hallucinations, vomiting, abnormal gait, heart failure and 
+  Tiredness, fungal infections, confusion, hallucinations, vomiting, abnormal gait, heart failure and 
 venous blood clotting (thrombosis/thromboembolism) </p>
 <p>Very Rare (affects less than 1 user in 10,000): 
-● Seizures </p>
+  Seizures </p>
 <p>Not known (frequency cannot be estimated from the available data): 
-● Inflammation of the pancreas, inflammation of the liver (hepatitis) and psychotic reactions </p>
-<p>Alzheimer’s disease has been associated with depression, suicidal ideation and suicide. These events 
+  Inflammation of the pancreas, inflammation of the liver (hepatitis) and psychotic reactions </p>
+<p>Alzheimer s disease has been associated with depression, suicidal ideation and suicide. These events 
 have been reported in patients treated with memantine. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
@@ -225,7 +225,7 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister pack after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Blister packs 
-Do not store above 25 °C. </p>
+Do not store above 25  C. </p>
 <p>HDPE bottles 
 This medicinal product does not require any special storage conditions. 
 Shelf life after first opening of the container: 6 months </p>
@@ -251,46 +251,44 @@ Polysorbate 80 (E 433), polyvinyl alcohol (E 1203), titanium dioxide (E 171), ta
 soya lecithin (E 322), xanthan gum (E 415). </p>
 <p>What Memantine ratiopharm looks like and contents of the pack 
 White to off-white, capsule shaped, biconvex tablets with a break score on one side and debossed with 
-“10” on the other side. </p>
+ 10  on the other side. </p>
 <p>Memantine ratiopharm is available in packs of 10, 14, 21, 28, 30, 42, 50, 56, 98, 100 and 112 film-
 coated tablets. </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 ratiopharm GmbH 
-Graf-Arco-Straße 3 
+Graf-Arco-Stra e 3 
 89079 Ulm 
 Germany </p>
 <p>Manufacturer 
 Merckle GmbH 
-Ludwig-Merckle-Straße 3 
+Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
 Germany </p>
 <p>TEVA Pharmaceutical Works Private Limited Company 
-Pallagi út 13, 4042 Debrecen 
+Pallagi  t 13, 4042 Debrecen 
 Hungary </p>
 <p>HBM Pharma s.r.o. 
-Slabinská 30, 03680 Martin 
+Slabinsk  30, 03680 Martin 
 Slovakia </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 ratiopharm GmbH 
 Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
+T l/Tel: +49 73140 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -310,30 +308,29 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-Specifar A.B.E.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>Specifar A.B.E.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-ratiopharm - Comércio e Indústria de Produtos 
-Farmacêuticos, Lda. 
+ratiopharm - Com rcio e Ind stria de Produtos 
+Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -342,10 +339,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Alvogen ehf. 
-Sími: +354 5222 
-Slovenská republika 
+S mi: +354 5222 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -353,16 +350,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar A.B.E.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>Specifar A.B.E.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 

@@ -4,7 +4,7 @@ Instance: composition-en-27f53ce7e817ea56aac44769c7b5a3bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for quofenix Package Leaflet"
 Description:  "Composition for quofenix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -74,7 +74,7 @@ medicines called fluoroquinolones. </p>
 <p>It is used to treat adults with serious short-term infections caused by certain bacteria when usual 
 antibiotics cannot be used or have not worked: 
 * infections of the skin and tissue under the skin 
-* infection of the lungs called ‘pneumonia’. </p>
+* infection of the lungs called  pneumonia . </p>
 <p>It works by blocking bacteria enzymes needed to copy and to repair their DNA. By blocking these 
 enzymes, Quofenix kills bacteria that cause the infection. </p>         </div>"""   
           
@@ -90,7 +90,7 @@ enzymes, Quofenix kills bacteria that cause the infection. </p>         </div>""
 section 6). 
 * If you are allergic to any other fluoroquinolone or quinolone antibacterial medicine. 
 * If you have ever had a problem with your tendons such as tendonitis that was related to 
-treatment with a ‘quinolone antibiotic’. A tendon is the cord that joins your muscle to your 
+treatment with a  quinolone antibiotic . A tendon is the cord that joins your muscle to your 
 skeleton. 
 * If you are pregnant, might become pregnant, or think you might be pregnant. 
 * If you are breast-feeding. 
@@ -114,15 +114,15 @@ tingling, numbness and/or weakness especially in the feet and legs or hands and 
 happens, stop taking Quofenix and inform your doctor immediately in order to prevent the 
 development of potentially irreversible condition. </p>
 <p>Talk to your doctor or pharmacist or nurse before you are given Quofenix if: 
-* You have been diagnosed with an enlargement or “bulge” of a large blood vessel (aortic 
+* You have been diagnosed with an enlargement or  bulge  of a large blood vessel (aortic 
 aneurysm or large vessel peripheral aneurysm). 
 * You have experienced a previous episode of aortic dissection (a tear in the aorta wall). 
 * You have been diagnosed with leaking heart valves (heart valve regurgitation). 
 * You have a family history of aortic aneurysm or aortic dissection or congenital heart valve 
 disease, or other risk factors or predisposing conditions (e. g. connective tissue disorders such 
-as Marfan syndrome, or Ehlers-Danlos syndrome, Turner syndrome, Sjögren’s syndrome [an 
+as Marfan syndrome, or Ehlers-Danlos syndrome, Turner syndrome, Sj gren s syndrome [an 
 inflammatory autoimmune disease], or vascular disorders such as Takayasu arteritis, giant 
-cell arteritis, Behcet’s disease, high blood pressure, or known atherosclerosis, rheumatoid 
+cell arteritis, Behcet s disease, high blood pressure, or known atherosclerosis, rheumatoid 
 arthritis [a disease of the joints] or endocarditis [an infection of the heart] ). 
 * You have had tendon problems during previous treatment with a fluoroquinolone or 
 quinolone antibiotic. 
@@ -215,7 +215,7 @@ If you have any further questions on the use of this medicine, ask your doctor o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
 <p>Please, inform your doctor or nurse immediately if you get any of these symptoms, as the medicine 
-should be stopped and you may need urgent medical attention: </p>
+should be stopped and you may need urgent medical attention:</p>
 <ul>
 <li>Difficulty in swallowing or difficulty in breathing and cough; swelling of your lips, face, throat or 
 tongue; dry throat or throat tightening and severe rash. These may be signs and symptoms of a 
@@ -224,7 +224,7 @@ side effects that may affect up to 1 in 100 people. </li>
 <li>Drop in blood pressure; blurred vision; dizziness. This severe reaction is an uncommon side effect 
 that may affect up to 1 in 100 people. </li>
 <li>Abdominal (belly) pain with possible severe diarrhoea; fever and nausea. These may be signs of an 
-infection of the bowel, which shouldn’t be treated with diarrhoea medicines that stop your bowels 
+infection of the bowel, which shouldn t be treated with diarrhoea medicines that stop your bowels 
 from moving. Infection of the bowel (Clostridioides difficile infection) is an uncommon side effect 
 that may affect up to 1 in 100 people. </li>
 </ul>
@@ -318,28 +318,18 @@ taste and smell have been associated with administration of quinolone and fluoro
 in some cases irrespective of pre-existing risk factors. </p>
 <p>Cases of an enlargement and weakening of the aortic wall or a tear in the aortic wall (aneurysms and 
 dissections), which may rupture and may be fatal, and of  leaking heart valves have been reported in 
-patients receiving fluoroquinolones. See also section 2.<br />
-Reporting of side effects 
-If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. You can also report side effects directly via the national reporting 
-system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+patients receiving fluoroquinolones. See also section </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store quofenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store quofenix"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton or blister after “EXP”. The 
-expiry date refers to the last day of that month. </p>
-<p>This medicinal product does not require any special storage conditions if kept unopened in the original 
-container. </p>
-<p>After reconstitution: Chemical and physical in-use stability has been demonstrated for 24 hours at to 25ºC or at 2 to 8°C. From a microbiological point of view, the product should be used immediately 
-after reconstitution and dilution. If not used immediately, in-use storage times and conditions prior to 
-use are the responsibility of the user and would normally not be longer than 24 hours at 2 to 8°C, 
-unless reconstitution and dilution has taken place in controlled and validated aseptic conditions. </p>
-<p>Do not freeze. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -347,107 +337,14 @@ unless reconstitution and dilution has taken place in controlled and validated a
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Quofenix contains 
-- The active substance is delafloxacin. Each vial of powder contains 300 mg of delafloxacin (as 
-meglumine). 
-- The other excipients are meglumine, sulfobutylbetadex sodium,disodium edetate, sodium 
-hydroxide (for pH-adjustment), hydrochloric acid, concentrated (for pH-adjustment). </p>
-<p>What Quofenix looks like and contents of the pack 
-Quofenix powder for concentrate for solution for infusion is provided in 20 ml clear glass vial. The 
-vial contains light yellow to tan cake powder. 
-It is available in packs containing 10 vials. </p>
-<p>Marketing Authorisation Holder 
-A. Menarini – Industrie Farmaceutiche Riunite – s.r.l. 
-Via Sette Santi 3 
-50131 Florence 
-Italy </p>
-<p>Manufacturer 
-Patheon Italia S.p.A. 
-2° Trav. SX Via Morolense 5 
-03013 Ferentino (FR) 
-Italy </p>
-<p>or </p>
-<p>AlfaSigma 
-1 Via Enrico Fermi 
-65020 Alanno (PE) 
-Italy </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
-Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4 
-Lietuva 
-UAB “BERLIN-CHEMIE MENARINI 
-BALTIC” 
-Tel: +370 52 691<br />
-България 
-Берлин-Хеми/А. Менарини България ЕООД 
-тел.: +359 2 454 0 
-Luxembourg/Luxemburg 
-Menarini Benelux NV/SA 
-Tél/Tel: + 32 (0)2 721 4Česká republika 
-Berlin-Chemie/A.Menarini Ceska republika 
-s.r.o. 
-Tel: +420 267 199<br />
-Magyarország 
-Berlin-Chemie/A. Menarini Kft. 
-Tel.: +36 17997Danmark 
-A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
-Tel: +39-055 56 
-Malta 
-A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
-Tel: +39-055 56 
-Deutschland 
-Berlin-Chemie AG 
-Tel: +49 (0) 30 67Nederland 
-Menarini Benelux NV/SA 
-Tel: +32 (0)2 721 4Eesti 
-OÜ Berlin-Chemie Menarini Eesti 
-Tel: +372 667 5Norge 
-A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
-Tel: +39-055 56Ελλάδα 
-MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Österreich 
-A. Menarini Pharma GmbH. 
-Tel: +43 1 879 95 85-0 
-España 
-Laboratorios Menarini S.A. 
-Tel: +34-93 462 88 Polska 
-Berlin-Chemie/Menarini Polska Sp. z o.o. 
-Tel.: +48 22 566 21 France 
-MENARINI France 
-Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
-Tel: +351 210 935 Hrvatska 
-Berlin-Chemie Menarini Hrvatska d.o.o. 
-Tel: + 385 1 4821 România 
-Berlin-Chemie A. Menarini S.R.L. 
-Tel: +40 21 232 34 Ireland 
-A. Menarini Pharmaceuticals Ireland Ltd 
-Tel: +353 1 284 6Slovenija 
-Berlin-Chemie / A. Menarini Distribution 
-Ljubljana d.o.o.<br />
-Tel: +386 01 300 2Ísland 
-A. Menarini - Industrie Farmaceutiche Riunite -
-s.r.l. 
-Tel: +39-055 56Slovenská republika 
-Berlin-Chemie / A. Menarini Distribution 
-Slovakia s.r.o. Tel: +421 2 544 30 Italia 
-A. Menarini - Industrie Farmaceutiche Riunite -
-s.r.l. 
-Tel: +39-055 56Suomi/Finland 
-Berlin-Chemie/A.Menarini Suomi OY 
-Puh/Tel: +358 403 000 Κύπρος 
-MENARINI HELLAS AE 
-Τηλ: +30 210 8316111-Sverige 
-A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
-Tel: +39-055 56 
-Latvija 
-SIA Berlin-Chemie/Menarini Baltic 
-Tel: +371 67103 
-United Kingdom (Northern Ireland) 
-A. Menarini Farmaceutica Internazionale S.R.L. 
-Tel: +44 (0)1628 856 </p>
-<p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton or blister after  EXP . The 
+expiry date refers to the last day of that month. </p>
+<p>This medicinal product does not require any special storage conditions if kept unopened in the original 
+container. </p>
+<p>After reconstitution: Chemical and physical in-use stability has been demonstrated for 24 hours at to 25 C or at 2 to 8 C. From a microbiological point of view, the product should be used immediately 
+after reconstitution and dilution. If not used immediately, in-use storage times and conditions prior to 
+use are the responsibility of the user and would normally not be longer than 24 hours at 2 to 8 C, 
+unless reconstitution and dilution has taken place in controlled and validated aseptic conditions. </p>
+<p>Do not freeze. </p>         </div>"""      
 

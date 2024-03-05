@@ -4,7 +4,7 @@ Instance: composition-en-8467bc8586a2da87e0b1d648339b10b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kovaltry Package Leaflet"
 Description:  "Composition for kovaltry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -95,16 +95,18 @@ if this occurs.
 inhibitors (antibodies) is a known complication that can occur during treatment with all 
 Factor VIII medicines. These inhibitors, especially at high levels, stop the treatment working 
 properly, patients receiving Kovaltry will be monitored carefully for the development of these 
-inhibitors. If your or your child’s bleeding is not being controlled with Kovaltry, tell your 
+inhibitors. If your or your child s bleeding is not being controlled with Kovaltry, tell your 
 doctor immediately. 
 * previously developed factor VIII inhibitors to a different product. If you switch factor VIII 
 products, you may be at risk of your inhibitor coming back. 
 * a confirmed heart disease or are at risk of heart disease.<br />
 * to use a central venous access device for the administration of Kovaltry. You may be at risk of 
-device related complications where the catheter is inserted including: 
-- local infections 
-- bacteria in the blood<br />
-- a blood clot in the blood vessel. </p>
+device related complications where the catheter is inserted including:</p>
+<ul>
+<li>local infections </li>
+<li>bacteria in the blood  </li>
+<li>a blood clot in the blood vessel. </li>
+</ul>
 <p>Children and adolescents 
 The listed warnings and precautions apply to patients of all ages, adults and children. </p>
 <p>Other medicines and Kovaltry 
@@ -118,8 +120,8 @@ naturally occurring in the body. </p>
 If you experience dizziness or any other symptoms affecting your ability to concentrate and react, do 
 not drive or use machines until the reaction subsides. </p>
 <p>Kovaltry contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-
-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kovaltry"
@@ -229,9 +231,9 @@ By reporting side effects, you can help provide more information on the safety o
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on labels and cartons. The expiry date 
 refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 °C – 8 °C). Do not freeze. 
+<p>Store in a refrigerator (2  C   8  C). Do not freeze. 
 Store this medicine in the original package in order to protect from light. </p>
-<p>This medicine may be stored at room temperature (up to 25 °C) for up to 12 months when you keep it 
+<p>This medicine may be stored at room temperature (up to 25  C) for up to 12 months when you keep it 
 in its outer carton. If you store it at room temperature it expires after 12 months or at the expiry date if 
 this is earlier. 
 The new expiry date must be noted on the outer carton when the medicine is removed from the 
@@ -262,11 +264,9 @@ slightly yellow . The solvent is a clear liquid. </p>
 * a separate plunger rod 
 * a vial adapter 
 * a venipuncture set (for injection into a vein). </p>
-<p>Kovaltry is available in pack sizes of: 
-− 
-1 single pack 
-− 
-1 multipack with 30 single packs 
+<p>Kovaltry is available in pack sizes of: </p>
+<p>1 single pack </p>
+<p>1 multipack with 30 single packs 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Bayer AG 
@@ -279,18 +279,17 @@ Kaiser-Wilhelm-Allee
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36 България 
-Байер България ЕООД 
-Tел.: +359-(0)2-424 72 Luxembourg/Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>T .: +359-(0)2-424 72 Luxembourg/Luxemburg 
 Bayer SA-NV 
-Tél/Tel: +32-(0)2-535 63 Česká republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420 266 101 Magyarország 
-Bayer Hungária KFT 
+Tel: +420 266 101 Magyarorsz g 
+Bayer Hung ria KFT 
 Tel:+36 14 87-41 Danmark 
 Bayer A/S 
 Tlf: +45 45 23 50 Malta 
@@ -300,41 +299,41 @@ Bayer Vital GmbH
 Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
 Tel: +31-(0)297-28 06 Eesti 
-Bayer OÜ 
+Bayer O<br />
 Tel: +372 655 8Norge 
 Bayer AS 
-Tlf: +47 23 13 05 Ελλάδα 
-Bayer Ελλάς ΑΒΕΕ 
-Τηλ: +30-210-61 87 Österreich 
+Tlf: +47 23 13 05 <br />
+Bayer   <br />
+ : +30-210-61 87  sterreich 
 Bayer Austria Ges.m.b.H. 
 Tel: +43-(0)1-711 46-0 
-España 
+Espa a 
 Bayer Hispania S.L. 
 Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
 Tel: +48 22 572 35 France 
 Bayer HealthCare 
-Tél (N° vert): +33-(0)800 87 54 Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
 Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: +385-(0)1-6599 România 
+Tel: +385-(0)1-6599 Rom nia 
 SC Bayer SRL 
 Tel: +40 21 529 59 Ireland 
 Bayer Limited 
 Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386 (0)1 58 14 Ísland 
+Tel: +386 (0)1 58 14  sland 
 Icepharma hf. 
-Sími: +354 540 8Slovenská republika 
+S mi: +354 540 8Slovensk  republika 
 Bayer spol. s r.o. 
 Tel. +421 2 59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39 02 397 Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358- 20 785 Κύπρος 
+Puh/Tel: +358- 20 785 <br />
 NOVAGEM Limited 
-Tηλ: +357 22 48 38 Sverige 
+T : +357 22 48 38 Sverige 
 Bayer AB 
 Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 
@@ -342,10 +341,5 @@ Tel: +371 67 84 55 United Kingdom (Northern Ireland)
 Bayer AG 
 Tel: +44-(0)118 206 3 
 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency 
-http://www.ema.europa.eu </p>
-<hr />
-<p>Detailed instructions for reconstitution and administration of Kovaltry </p>
-<p>You will need alcohol swabs, gauze pads, plasters and tourniquet. These items are not included in the 
-Kovaltry package. </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

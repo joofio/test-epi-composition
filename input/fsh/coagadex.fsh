@@ -4,7 +4,7 @@ Instance: composition-en-acef8cbcdfca211b39877dbdf094e7e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for coagadex Package Leaflet"
 Description:  "Composition for coagadex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -81,12 +81,14 @@ excessive bleeding. Coagadex replaces the missing factor X and allows their bloo
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take coagadex"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Coagadex: 
-- if you are allergic to human coagulation factor X or any of the other ingredients of this medicine 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Coagadex:</p>
+<ul>
+<li>if you are allergic to human coagulation factor X or any of the other ingredients of this medicine 
 (listed in section 6).<br />
-Check with your doctor if you think this applies to you. </p>
+Check with your doctor if you think this applies to you. </li>
+</ul>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist or nurse before using Coagadex:   </p>
+Talk to your doctor, pharmacist or nurse before using Coagadex:</p>
 <ul>
 <li>if you have a larger or longer bleed than usual and the bleeding does not stop after an injection of 
 Coagadex. </li>
@@ -101,9 +103,9 @@ level of factor X in your blood. </p>
 <p>Virus safety 
 When medicines are made from human blood or plasma, certain measures are put in place to prevent 
 infections being passed on to recipients. These include: </p>
-<p>– careful selection of blood and plasma donors to make sure those at risk of carrying infections are excluded, 
-– the testing of donated plasma for signs of virus/infections, 
-– the inclusion of steps in the processing of the blood or plasma that can inactivate or remove viruses. </p>
+<p>careful selection of blood and plasma donors to make sure those at risk of carrying infections are excluded, 
+  the testing of donated plasma for signs of virus/infections, 
+  the inclusion of steps in the processing of the blood or plasma that can inactivate or remove viruses. </p>
 <p>The measures taken are considered effective for the following viruses: human immunodeficiency virus 
 (HIV), hepatitis B virus, hepatitis C virus, hepatitis A virus and parvovirus B19. Despite these measures, 
 when medicines prepared from human blood or plasma are administered, the possibility of passing on an 
@@ -170,58 +172,52 @@ adults. </p>
 Your medicine must only be dissolved in the solvent provided with the product. </p>
 <p>Quantity of Coagadex 
 Volume of solvent 
-250 IU </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>500 IU 
+250 IU 
+2.5 mL 
+500 IU 
 5 mL </p>
 <p>Coagadex is supplied with the amount of solvent as shown in the table. </p>
 <p>You can dissolve this medicine using the needle-free Mix2Vial transfer device included within each pack.<br />
 Bring the containers of Coagadex to room temperature before mixing. 
 Make up the medicine as follows: </p>
 <p>Step 1 
-• Remove the cap from the powder vial and clean the top of the 
+  Remove the cap from the powder vial and clean the top of the 
 stopper with an alcohol swab. 
-• Repeat this step with the vial of solvent. 
-• Peel back the top of the transfer device package but leave the device in the 
+  Repeat this step with the vial of solvent. 
+  Peel back the top of the transfer device package but leave the device in the 
 package. </p>
 <p>Step 2 
-• Place the blue end of the transfer device on the solvent vial and push straight 
+  Place the blue end of the transfer device on the solvent vial and push straight 
 down until the spike penetrates the rubber stopper and snaps into place. 
-• Remove the plastic outer packaging from the transfer device and discard it, 
+  Remove the plastic outer packaging from the transfer device and discard it, 
 taking care not to touch the exposed end of the device. </p>
 <p>Step 3 
-• Turn the solvent vial upside down with the device still attached. 
-• Place the clear end of the transfer device on the powder vial and push 
+  Turn the solvent vial upside down with the device still attached. 
+  Place the clear end of the transfer device on the powder vial and push 
 straight down until the spike penetrates the rubber stopper and snaps into 
 place. </p>
 <p>Step 4 
-• The solvent will be pulled into the powder vial by the vacuum contained 
+  The solvent will be pulled into the powder vial by the vacuum contained 
 within it. 
-• Gently swirl the vial to make sure the powder is thoroughly mixed. Do not 
+  Gently swirl the vial to make sure the powder is thoroughly mixed. Do not 
 shake the vial. 
-• A colourless, clear or slightly pearl-like solution should be obtained, usually 
+  A colourless, clear or slightly pearl-like solution should be obtained, usually 
 in about 1 minute (5 minutes maximum). </p>
 <p>Step 5 
-• Separate the empty solvent vial and blue part of the transfer device from the 
+  Separate the empty solvent vial and blue part of the transfer device from the 
 clear part by unscrewing anti-clockwise. 
-• Take an empty syringe (not provided in the Coagadex pack) and draw air 
+  Take an empty syringe (not provided in the Coagadex pack) and draw air 
 into it by pulling the plunger to match the required volume of water added in 
-step 4. • Connect the syringe to the clear part of the transfer device and push the air 
+step 4.   Connect the syringe to the clear part of the transfer device and push the air 
 in the syringe into the vial. </p>
 <p>Step 6 
-• Immediately invert the vial of solution, which will be drawn into the 
+  Immediately invert the vial of solution, which will be drawn into the 
 syringe. 
-• Disconnect the filled syringe from the device. 
-• The product is now ready for use. Follow the normal safety practices for 
+  Disconnect the filled syringe from the device. 
+  The product is now ready for use. Follow the normal safety practices for 
 administration. Make sure you use the product within an hour after it has been 
 made up. </p>
-<p>Do not use this medicine: </p>
+<p>Do not use this medicine:</p>
 <ul>
 <li>
 <p>if the solvent is not pulled into the vial (this indicates loss of vacuum in the vial, so the 
@@ -241,12 +237,13 @@ Do not use a double dose to make up for a forgotten dose. Inject your normal dos
 continue dosing as instructed by your doctor. </p>
 <p>If you stop using Coagadex 
 Always consult your doctor before deciding to stop your treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store coagadex"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store coagadex"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Allergic reactions (hypersensitivity reactions) have occurred rarely in the treatment of bleeding disorders 
@@ -268,16 +265,15 @@ not listed in this leaflet. You can also report side effects directly via the na
 Appendix V. </p>
 <p>By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store coagadex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store coagadex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the containers after “EXP”. The expiry date 
+<p>Do not use this medicine after the expiry date which is stated on the containers after  EXP . The expiry date 
 refers to the last day of that month. </p>
-<p>Do not store above 30°C.   </p>
+<p>Do not store above 30 C.   </p>
 <p>Do not freeze.  </p>
 <p>Keep container in the outer carton in order to protect it from light. </p>
 <p>Do not use this medicine if you notice small bits in the dissolved product. Once made up, Coagadex must be 
@@ -285,4 +281,160 @@ used within one hour.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your treatment centre will provide a 
 special container to dispose of any solution that remains, any used syringes, needles and empty containers. 
 These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Coagadex contains<br />
+- The active substance is human coagulation factor X. One vial contains nominally 250 IU or 500 IU 
+human coagulation factor X. 
+- The other ingredients are: citric acid, disodium phosphate dihydrate, sodium chloride,<br />
+sodium hydroxide and sucrose (see section 2 for further information about ingredients).<br />
+- Solvent:  water for injections. </p>
+<p>What Coagadex looks like and contents of the pack 
+Coagadex is a white or off-white powder and is packed in quantities of 250 IU and 500 IU. After being made 
+up, the solution is colourless, clear or pearl-like (opalescent). Before injection, look at the solution. If the 
+solution is cloudy or has any particles, do not use it. </p>
+<p>A transfer device called Mix2Vial is also provided. </p>
+<p>Contents of the 250 IU pack 
+1 vial 250 IU powder 
+1 vial 2.5 mL water for injections 
+1 Transfer Device (Mix2Vial) </p>
+<p>Contents of the 500 IU pack 
+1 vial 500 IU powder 
+1 vial 5 mL water for injections 
+1 Transfer Device (Mix2Vial) </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+BPL Bioproducts Laboratory GmbH 
+Dornhofstra e 34, 63263 Neu-Isenburg 
+Germany </p>
+<p>Manufacturer 
+PharmaKorell GmbH, Georges-K hler-Str. 2, 79539 L rrach, Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Bio Products Laboratory Ltd 
+T l/Tel: + 44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk<br />
+(Royaume-Uni/Verenigd 
+Koninkrijk/Gro britannien) </p>
+<p>Lietuva 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Jungtin  Karalyst ) </p>
+<p>Bio Products Laboratory Ltd 
+Te .: + 44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk<br />
+(   ) </p>
+<p>Luxembourg/Luxemburg 
+Bio Products Laboratory Ltd 
+T l/Tel: + 44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk<br />
+(Royaume-Uni/Verenigd 
+Koninkrijk/Gro britannien) </p>
+<p>esk  republika 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Velk  Brit nie) </p>
+<p>Magyarorsz g 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Egyes lt Kir lys g) </p>
+<p>Danmark 
+Bio Products Laboratory Ltd 
+Tfl: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Storbritannien) </p>
+<p>Malta 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ir Renju Unit) </p>
+<p>Deutschland 
+BPL Bioproducts Laboratory GmbH<br />
+Tel: +49 (0) 2408 146 0e-mail: bpl@medwiss-extern.de 
+Deutschland </p>
+<p>Nederland 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Verenigd Koninkrijk) </p>
+<p>Eesti 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+( hendkuningriik) </p>
+<p>Norge 
+Bio Products Laboratory Ltd 
+Tlf: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Storbritannia) </p>
+<p>Bio Products Laboratory Ltd 
+ : +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(   ) </p>
+<p>sterreich 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Gro britannien) 
+Espa a 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Reino Unido) </p>
+<p>Polska 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Wielka Brytania) </p>
+<p>France 
+Laboratoire Cevidra 
+Tel: +33 493705e-mail: contact@cevidra.com 
+France </p>
+<p>Portugal 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Reino Unido) </p>
+<p>Hrvatska 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ujedinjeno Kraljevstvo) </p>
+<p>Rom nia 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Marea Britanie) 
+Ireland 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(United Kingdom) 
+Slovenija 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Zdru eno kraljestvo) 
+ sland 
+Bio Products Laboratory Ltd 
+S mi: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Bretland) </p>
+<p>Slovensk  republika 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Spojen  kr ovstvo) </p>
+<p>Italia 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Regno Unito) </p>
+<p>Suomi/Finland 
+Bio Products Laboratory Ltd 
+Puh/Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Iso-Britannia) </p>
+<p>Bio Products Laboratory Ltd 
+ : +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(   ) </p>
+<p>Sverige 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Storbritannien) </p>
+<p>Latvija 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Lielbrit nija)<br />
+United Kingdom (Northern Ireland) 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+United Kingdom </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

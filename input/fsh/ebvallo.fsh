@@ -4,7 +4,7 @@ Instance: composition-en-dc231a8d527554079b48b6c9ff637f0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebvallo Package Leaflet"
 Description:  "Composition for ebvallo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -127,7 +127,7 @@ and swelling of the brain. </p>
 </ul>
 <p>An ingredient of Ebvallo called dimethyl sulfoxide (DMSO) may cause an allergic reaction. Your 
 doctor or nurse will monitor you for signs and symptoms of an allergic reaction. See section 2 
-“Ebvallo contains sodium and dimethyl sulfoxide (DMSO)”. </p>
+ Ebvallo contains sodium and dimethyl sulfoxide (DMSO) . </p>
 <p>Ebvallo is tested for the presence of infectious microbes, but a small risk of infection remains. Your 
 doctor or nurse will monitor you for signs and symptoms of infections and provide treatment as 
 needed. </p>
@@ -156,9 +156,9 @@ Ebvallo has minor influence on the ability to drive or use machines. If you expe
 thinking or level of alertness after being treated with this medicine, do not drive or operate machines 
 and tell your doctor immediately. </p>
 <p>Ebvallo contains sodium and dimethyl sulfoxide (DMSO) 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially ‘sodium-
-free’.  </p>
-<p>This medicine contains 100 mg DMSO per mL. See Section 2 “Warnings and precautions”. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
+free .  </p>
+<p>This medicine contains 100 mg DMSO per mL. See Section 2  Warnings and precautions . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebvallo"
@@ -276,10 +276,10 @@ medicine. </p>         </div>"""
 product correctly. The following information is intended for healthcare professionals. 
 Do not use this medicine after the expiry date. The expiry date is provided on the Lot Information 
 Sheet (LIS) and carton. </p>
-<p>Store Ebvallo frozen in the vapour phase of liquid nitrogen at -150 °C or below until thawed for use.<br />
+<p>Store Ebvallo frozen in the vapour phase of liquid nitrogen at -150  C or below until thawed for use.<br />
 The medicine should be thawed and diluted within 1 hour from the start of thaw. Administration must 
 be completed within 3 hours from the start of thaw. </p>
-<p>Store between 15 °C to 25 °C after thawing and dilution are complete. Protect product from light. Do 
+<p>Store between 15  C to 25  C after thawing and dilution are complete. Protect product from light. Do 
 not refreeze. Do not irradiate. </p>         </div>"""      
         
         
@@ -289,5 +289,29 @@ not refreeze. Do not irradiate. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ebvallo contains<br />
-- Ebvallo contains tabelecleucel at an approximate concentration of </p>         </div>"""      
+- Ebvallo contains tabelecleucel at an approximate concentration of 
+2.8   107   7.3   107 cells/mL. 
+- The other ingredients (excipients) are: dimethyl sulfoxide, human serum albumin, phosphate 
+buffered saline. See section 2  Ebvallo contains sodium and dimethyl sulfoxide (DMSO) . </p>
+<p>What Ebvallo looks like and contents of the pack 
+Ebvallo is a translucent, colourless to slightly yellow cell dispersion for injection. </p>
+<p>Ebvallo is provided in individual patient cartons containing 1 vial to 6 vials according to the patient-
+specific dose required. Each vial contains 1 mL of this medicine. </p>
+<p>Marketing Authorisation Holder 
+PIERRE FABRE MEDICAMENT 
+Les Cauquillous 
+81500 Lavaur 
+France </p>
+<p>Manufacturer 
+PIERRE FABRE MEDICAMENT PRODUCTION 
+Parc industriel de la Chartreuse 
+81100 Castres 
+France </p>
+<p>This leaflet was last revised in   </p>
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
+rarity of this disease, it has been impossible to get complete information on this medicine. The </p>
+<p>European Medicines Agency will review any new information on this medicine every year and this 
+leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

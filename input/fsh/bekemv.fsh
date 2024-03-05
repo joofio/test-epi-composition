@@ -4,7 +4,7 @@ Instance: composition-en-1c1262aecbe28e7e1156f50a5c6d2fe6
 InstanceOf: CompositionUvEpi
 Title: "Composition for bekemv Package Leaflet"
 Description:  "Composition for bekemv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to use BEKEMV 
 4. Possible side effects 
 5. How to store BEKEMV 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -72,14 +71,14 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is BEKEMV  </p>
 <p>BEKEMV contains the active substance eculizumab and it belongs to a class of medicines called 
 monoclonal antibodies. Eculizumab binds to and inhibits a specific protein in the body that causes 
-inflammation and so prevents your body’s systems from attacking and destroying vulnerable blood 
+inflammation and so prevents your body s systems from attacking and destroying vulnerable blood 
 cells.  </p>
 <p>What is BEKEMV used for  </p>
 <p>Paroxysmal nocturnal haemoglobinuria </p>
 <p>BEKEMV is used to treat adults and children with a certain type of disease affecting the blood system 
 called Paroxysmal Nocturnal Haemoglobinuria (PNH). In patients with PNH, their red blood cells can 
 be destroyed which can lead to low blood counts (anaemia), tiredness, difficulty in functioning, pain, 
-dark urine, shortness of breath, and blood clots. Eculizumab can block the body’s inflammatory 
+dark urine, shortness of breath, and blood clots. Eculizumab can block the body s inflammatory 
 response, and its ability to attack and destroy its own vulnerable PNH blood cells. </p>         </div>"""   
           
 
@@ -98,7 +97,7 @@ down fructose is not produced.  </p>
 <li>Children below 2 years of age must not receive this medicine. This medicine contains sorbitol 
 and sorbitol may be fatal in hereditary fructose intolerance (HFI). In babies and children below 
 2 years of age HFI may not yet be diagnosed. (See special warnings at the end of this section 
-under subtitle “BEKEMV contains sorbitol”). </li>
+under subtitle  BEKEMV contains sorbitol ). </li>
 <li>If you have not been vaccinated against meningococcal infection unless you take antibiotics to 
 reduce the risk of infection until 2 weeks after you have been vaccinated. </li>
 <li>If you have a meningococcal infection. </li>
@@ -119,15 +118,17 @@ doctor might consider that you need supplementary measures to prevent infection.
 <p>Meningococcal infection symptoms </p>
 <p>Because of the importance of rapidly identifying and treating certain types of infection in patients who 
 receive BEKEMV, you will be provided a card to carry with you, listing specific trigger symptoms. 
-This card is named: “Patient Safety Card”. </p>
-<p>If you experience any of the following symptoms, you should immediately inform your doctor: 
-- headache with nausea or vomiting 
-- headache with a stiff neck or back 
-- fever 
-- rash 
-- confusion 
-- severe muscle aches combined with flu-like symptoms 
-- sensitivity to light </p>
+This card is named:  Patient Safety Card . </p>
+<p>If you experience any of the following symptoms, you should immediately inform your doctor:</p>
+<ul>
+<li>headache with nausea or vomiting </li>
+<li>headache with a stiff neck or back </li>
+<li>fever </li>
+<li>rash </li>
+<li>confusion </li>
+<li>severe muscle aches combined with flu-like symptoms </li>
+<li>sensitivity to light </li>
+</ul>
 <p>Treatment for meningococcal infection while travelling </p>
 <p>If you are travelling in a remote region where you are unable to contact your doctor or in which you 
 find yourself temporarily unable to receive medical treatment, your doctor can make arrangements to 
@@ -166,7 +167,7 @@ such as bloating, stomach cramps or diarrhoea. </p>
 <p>Sodium </p>
 <p>BEKEMV contains sodium when diluted with sodium chloride. 
 This medicine contains less than 1 mmol of sodium (23 mg) per dose, that is to say essentially 
-“sodium free”.<br />
+ sodium free .<br />
 Once diluted with sodium chloride 9 mg/mL (0.9%) solution for injection, this medicinal product 
 contains 0.34 g sodium (main component of cooking/table salt) per 180 mL at the maximal dose. This 
 is equivalent to 17.0% of the recommended maximum daily dietary intake of sodium for an adult. You 
@@ -176,7 +177,7 @@ contains 0.18 g sodium (main component of cooking/table salt) per 180 mL at the 
 equivalent to 9.0% of the recommended maximum daily dietary intake of sodium for an adult. You 
 should take this into consideration if you are on a controlled sodium diet.  </p>
 <p>If your health care professional dilutes BEKEMV vials with 5% glucose solution, the medicinal 
-product is essentially “sodium free”. </p>         </div>"""   
+product is essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bekemv"
@@ -201,14 +202,14 @@ maintenance phase. </p>
 * Initial phase: </p>
 <p>Every week for the first four weeks, your doctor will administer an intravenous infusion of diluted 
 BEKEMV. Each infusion will consist of a dose of 600 mg (2 vials of 30 mL) and will take 
-25 - 45 minutes (35 minutes ± 10 minutes). </p>
+25 - 45 minutes (35 minutes   10 minutes). </p>
 <ul>
 <li>
-<p>Maintenance phase: </p>
+<p>Maintenance phase:</p>
 </li>
 <li>
 <p>In the fifth week, your doctor will administer an intravenous infusion of diluted BEKEMV at a 
-dose of 900 mg (3 vials of 30 mL) over a 25 – 45 minute (35 minutes ± 10 minutes) period. </p>
+dose of 900 mg (3 vials of 30 mL) over a 25   45 minute (35 minutes   10 minutes) period. </p>
 </li>
 <li>After the fifth week, your doctor will administer 900 mg of diluted BEKEMV every two weeks 
 as a long-term treatment. </li>
@@ -243,26 +244,28 @@ Maintenance phase
 300 mg single dose at 
 week 1 
 300 mg at week 2; then 300 mg every 3 weeks </p>
-<p>Following each infusion, you will be monitored for about one hour. Your doctor’s instructions should 
+<p>Following each infusion, you will be monitored for about one hour. Your doctor s instructions should 
 be carefully observed. </p>
 <p>If you receive more BEKEMV than you should  </p>
 <p>If you suspect that you have been accidentally administered a higher dose of BEKEMV than 
 prescribed, please contact your doctor for advice. </p>
 <p>If you forget an appointment to receive BEKEMV  </p>
 <p>If you forget an appointment, please contact your doctor immediately for advice and see section below 
-“If you stop using BEKEMV”. </p>
+ If you stop using BEKEMV . </p>
 <p>If you stop using BEKEMV for PNH  </p>
 <p>Interrupting or ending treatment with BEKEMV may cause your PNH symptoms to come back more 
 severely soon. Your doctor will discuss the possible side effects with you and explain the risks. Your 
 doctor will want to monitor you closely for at least 8 weeks. </p>
 <p>The risks of stopping BEKEMV include an increase in the destruction of your red blood cells, which 
-may cause: 
-- A significant fall in your red blood cell counts (anaemia), 
-- Confusion or change in how alert you are, 
-- Chest pain, or angina, 
-- An increase in your serum creatinine level (problems with your kidneys), or 
-- Thrombosis (blood clotting). 
-If you have any of these symptoms, contact your doctor. </p>         </div>"""         
+may cause:</p>
+<ul>
+<li>A significant fall in your red blood cell counts (anaemia), </li>
+<li>Confusion or change in how alert you are, </li>
+<li>Chest pain, or angina, </li>
+<li>An increase in your serum creatinine level (problems with your kidneys), or </li>
+<li>Thrombosis (blood clotting). 
+If you have any of these symptoms, contact your doctor. </li>
+</ul>         </div>"""         
 
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ Haemophilus influenzae infection, impetigo, bacterial sexual transmitted disease
 * skin tumour (melanoma), bone marrow disorder 
 * destruction of red blood cells (haemolysis), clumping of cells, abnormal clotting factor, 
 abnormal blood clotting 
-* disease with thyroid overactivity (Basedow’s disease) 
+* disease with thyroid overactivity (Basedow s disease) 
 * abnormal dreams 
 * irritation of eye 
 * bruise 
@@ -352,9 +355,9 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store bekemv"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and vial label after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and vial label after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). Do not freeze. </p>
+<p>Store in a refrigerator (2 C   8 C). Do not freeze. </p>
 <p>BEKEMV vials in the original package may be removed from refrigerated storage for only one single 
 period of up to 7 days. At the end of this period the product can be put back in the refrigerator. 
 Store in the original package in order to protect from light. After dilution, the product should be used 
@@ -374,17 +377,19 @@ you no longer use. These measures will help protect the environment. </p>       
 <p>The active substance is eculizumab (300 mg/30 mL in a vial corresponding to 10 mg/mL). </p>
 </li>
 <li>
-<p>The other ingredients are: </p>
+<p>The other ingredients are:</p>
 </li>
-<li>acetic acid,  </li>
+<li>
+<p>acetic acid,  </p>
+</li>
 <li>sodium hydroxide,  </li>
 <li>disodium edetate (EDTA),  </li>
-<li>sorbitol (E420, see section 2 “BEKEMV contains sorbitol”),  </li>
+<li>sorbitol (E420, see section 2  BEKEMV contains sorbitol ),  </li>
 <li>polysorbate 80,  </li>
 <li>water for injections </li>
 </ul>
 <p>What BEKEMV looks like and contents of the pack  </p>
-<p>BEKEMV is presented as a concentrate for solution for infusion (30 mL in a vial – pack size of 1).<br />
+<p>BEKEMV is presented as a concentrate for solution for infusion (30 mL in a vial   pack size of 1).<br />
 BEKEMV is a clear to opalescent, colourless to slightly yellow solution. </p>
 <p>Marketing Authorisation Holder and Manufacturer<br />
 Amgen Technology (Ireland) UC 
@@ -403,23 +408,21 @@ Telecomlaan 5-7
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tél/Tel: +32 (0)2 7752 
+T l/Tel: +32 (0)2 7752 
 Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 
-България 
-Амджен България ЕООД 
-Тел.: +359 (0)2 424 7 
+Tel: +370 5 219 7 </p>
+<p>.: +359 (0)2 424 7 
 Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tél/Tel: +32 (0)2 7752 
-Česká republika 
+T l/Tel: +32 (0)2 7752 
+ esk  republika 
 Amgen s.r.o. 
 Tel: +420 221 773<br />
-Magyarország 
+Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44<br />
 Danmark 
@@ -440,14 +443,13 @@ Amgen Switzerland AG Vilniaus filialas
 Tel: +372 586 09 
 Norge 
 Amgen AB 
-Tlf: +47 23308 
-Ελλάδα 
-Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
-Τηλ: +30 210 3447 
-Österreich 
+Tlf: +47 23308 </p>
+<p>Amgen      . . . 
+ : +30 210 3447 
+ sterreich 
 Amgen GmbH 
 Tel: +43 (0)1 50<br />
-España 
+Espa a 
 Amgen S.A. 
 Tel: +34 93 600 18<br />
 Polska 
@@ -455,15 +457,15 @@ Amgen Biotechnologia Sp. z o.o.
 Tel.: +48 22 581 3 
 France 
 Amgen S.A.S. 
-Tél: +33 (0)9 69 363<br />
+T l: +33 (0)9 69 363<br />
 Portugal 
-Amgen Biofarmacêutica, Lda. 
+Amgen Biofarmac utica, Lda. 
 Tel: +351 21 422 06<br />
 Hrvatska 
 Amgen d.o.o. 
 Tel: +385 (0)1 562 57<br />
-România 
-Amgen România SRL 
+Rom nia 
+Amgen Rom nia SRL 
 Tel: +4021 527 3 
 Ireland 
 Amgen Ireland Limited 
@@ -471,10 +473,10 @@ Tel: +353 1 8527
 Slovenija 
 AMGEN zdravila d.o.o. 
 Tel: +386 (0)1 585 1 </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Amgen Slovakia s.r.o. 
 Tel: +421 2 321 114<br />
 Italia 
@@ -484,14 +486,14 @@ Suomi/Finland
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
 Puh/Tel: +358 (0)9 54900 
-Kύπρος 
+K<br />
 C.A. Papaellinas Ltd 
-Τηλ: +357 22741<br />
+ : +357 22741<br />
 Sverige 
 Amgen AB 
 Tel: +46 (0)8 6951 
 Latvija 
-Amgen Switzerland AG Rīgas filiāle 
+Amgen Switzerland AG R gas fili le 
 Tel: +371 257 25 
 United Kingdom (Northern Ireland) 
 Amgen Limited 

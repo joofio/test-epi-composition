@@ -4,7 +4,7 @@ Instance: composition-en-73e905abf90c6054f35e5dd38ca6e3a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zypadhera Package Leaflet"
 Description:  "Composition for zypadhera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How ZYPADHERA is given 
 4. Possible side effects 
 5. How to store ZYPADHERA 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +83,7 @@ olanzapine. </p>         </div>"""
   * code.text = "2. What you need to know before you take zypadhera"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should not be given ZYPADHERA if you have: 
-•  an allergy (hypersensitivity) to olanzapine or any of the other ingredients of this medicine (listed in 
+   an allergy (hypersensitivity) to olanzapine or any of the other ingredients of this medicine (listed in 
 section 6). An allergic reaction may be recognised as a rash, itching, a swollen face, swollen lips or 
 shortness of breath. If this has happened to you, tell your nurse or doctor. 
 * been previously diagnosed with eye problems such as certain kinds of glaucoma (increased pressure 
@@ -134,8 +133,8 @@ before you start taking ZYPADHERA and regularly during treatment.<br />
 </em> Tell the doctor if you or someone else in your family has a history of blood clots, as medicines like 
 these have been associated with formation of blood clots. </p>
 <p>Tell your doctor as soon as possible if any of the following applies to you: 
-* Stroke or “mini” stroke (temporary symptoms of stroke) 
-* Parkinson’s disease 
+* Stroke or  mini  stroke (temporary symptoms of stroke) 
+* Parkinson s disease 
 * Prostate problems 
 * A blocked intestine (Paralytic ileus) 
 * Liver or kidney disease 
@@ -153,7 +152,7 @@ ZYPADHERA is not for patients who are under 18 years. </p>
 <p>Other medicines and ZYPADHERA 
 Tell your doctor if you are taking, have recently taken or might take any other medicines.  </p>
 <p>In particular, tell your doctor if you are taking: 
-* medicines for Parkinson’s disease. 
+* medicines for Parkinson s disease. 
 * carbamazepine (an anti-epileptic and mood stabiliser), fluvoxamine (an antidepressant) or 
 ciprofloxacin (an antibiotic) - it may be necessary to change your ZYPADHERA dose. </p>
 <p>If you are already taking antidepressants, medicines for anxiety or to help you sleep (tranquillisers), you 
@@ -212,18 +211,18 @@ can. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately if you have:<br />
-• excessive sleepiness, dizziness, confusion, disorientation, difficulty talking, difficulty walking, 
+  excessive sleepiness, dizziness, confusion, disorientation, difficulty talking, difficulty walking, 
 muscle stiffness or shaking, weakness, irritability, aggression, anxiety, increase in blood pressure, 
 or convulsions and can lead to unconsciousness. These signs and symptoms can sometimes occur 
 as a result of ZYPADHERA entering the bloodstream too quickly (a common side effect that may 
 affect up to1 in10 people); 
 * unusual movement (a common side effect that may affect up to 1 in 10 people) mainly of the 
 face or tongue; 
-• blood clots in the veins (an uncommon side effect that may affect up to 1in 100 people) especially 
+  blood clots in the veins (an uncommon side effect that may affect up to 1in 100 people) especially 
 in the legs (symptoms include swelling, pain, and redness in the leg), which may travel through 
 blood vessels to the lungs causing chest pain and difficulty in breathing. If you notice any of these 
 symptoms seek medical advice immediately; 
-• a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
+  a combination of fever, faster breathing, sweating, muscle stiffness and drowsiness or sleepiness 
 (the frequency of this side effect cannot be estimated from the available data). </p>
 <p>Other common side effects (may affect up to 1 in 10 people) with ZYPADHERA include sleepiness and 
 injection site pain. </p>
@@ -277,9 +276,9 @@ medicine. </p>         </div>"""
 <p>The injection must not be given after the expiry date which is stated on the carton. </p>
 <p>Do not refrigerate or freeze. </p>
 <p>Chemical and physical stability of the suspension in the vials has been demonstrated for 24 hours at 20-
-25 °C.  From a microbiological point of view, the product should be used immediately. If not used 
+25  C.  From a microbiological point of view, the product should be used immediately. If not used 
 immediately, in-use storage times and conditions prior to use are the responsibility of the user and 
-would normally not be longer than 24 hours at 20-25°C. Do not use this product if you notice 
+would normally not be longer than 24 hours at 20-25 C. Do not use this product if you notice 
 discolouration or other visible signs of deterioration. </p>
 <p>If the medicine is not used right away, it should be shaken vigorously to re-suspend. Once withdrawn 
 from vial into the syringe, the suspension should be used immediately. </p>
@@ -313,7 +312,7 @@ contains one vial of powder for prolonged release suspension for injection, one 
 syringe with safety needle, 19 gauge, 38mm, attached and three separate safety needles; one 19 gauge, 
 38mm needle and two 19 gauge 50mm needles. </p>
 <p>Marketing Authorisation Holder<br />
-CHEPLAPHARM Registration GmbH, Weiler Straße 5e, 79540 Lörrach, Germany. </p>
+CHEPLAPHARM Registration GmbH, Weiler Stra e 5e, 79540 L rrach, Germany. </p>
 <p>Manufacturer  </p>
 <p>Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>This leaflet was last revised in {mmm YYYY} </p>

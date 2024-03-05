@@ -4,7 +4,7 @@ Instance: composition-en-f2aa2b90d380444519f71c2efd9d6e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sycrest Package Leaflet"
 Description:  "Composition for sycrest Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,7 +75,7 @@ nerve cells (neurotransmitters). Illnesses that affect the brain, such as bipola
 certain chemicals in the brain, such as dopamine and serotonin, being out of balance and these 
 imbalances may cause some of the symptoms you may be experiencing. Exactly how this medicine 
 works is unknown, however, it is believed to adjust the balance of these chemicals. </p>
-<p>Manic episodes associated with bipolar I disorder is a condition with symptoms such as feeling “high”, 
+<p>Manic episodes associated with bipolar I disorder is a condition with symptoms such as feeling  high , 
 having excessive amounts of energy, needing much less sleep than usual, talking very quickly with 
 racing ideas and sometimes severe irritability. </p>         </div>"""   
           
@@ -100,39 +100,26 @@ does not, tell your doctor. Your dose may need to be adjusted. </p>
 <p>Asenapine may cause sleepiness, sudden drops in blood pressure when you stand up, dizziness and 
 changes in your ability to move and balance, which may lead to falls and, consequently, fractures or 
 other injuries. Patients at risk for fall should be evaluated prior to prescribing asenapine. </p>
-<p>Tell your doctor immediately if you experience 
-− 
-involuntary rhythmic movements of the tongue, mouth and face. Withdrawal of Sycrest may be 
-needed. 
-− 
-fever, severe muscle stiffness, sweating or a lowered level of consciousness (a disorder called 
-“neuroleptic malignant syndrome”). Immediate medical treatment may be needed. </p>
+<p>Tell your doctor immediately if you experience </p>
+<p>involuntary rhythmic movements of the tongue, mouth and face. Withdrawal of Sycrest may be 
+needed. </p>
+<p>fever, severe muscle stiffness, sweating or a lowered level of consciousness (a disorder called 
+ neuroleptic malignant syndrome ). Immediate medical treatment may be needed. </p>
 <p>Check with your doctor or pharmacist before taking Sycrest: </p>
-<p>− 
-if you have ever been diagnosed with a condition whose symptoms include high body 
-temperature and muscle stiffness (also known as neuroleptic malignant syndrome). 
-− 
-if you have ever experienced abnormal movements of the tongue or face (tardive dyskinesia). 
-You should be aware that both of these conditions may be caused by this type of medicine. 
-− 
-if you have a heart disease or a treatment for heart disease that makes you prone to low blood 
-pressure 
-− 
-if you are diabetic or prone to diabetes 
-− 
-if you have Parkinson’s disease or dementia 
-− 
-if you have epilepsy (seizures) 
-− 
-if you experience any difficulty in swallowing (dysphagia) 
-− 
-if you have severe liver problems. If you do, you should not take Sycrest 
-− 
-if you have difficulty controlling core body temperature 
-− 
-if you have thoughts of suicide 
-− 
-if you have abnormally high levels of prolactin in the blood (hyperprolactinaemia) </p>
+<p>if you have ever been diagnosed with a condition whose symptoms include high body 
+temperature and muscle stiffness (also known as neuroleptic malignant syndrome). </p>
+<p>if you have ever experienced abnormal movements of the tongue or face (tardive dyskinesia). 
+You should be aware that both of these conditions may be caused by this type of medicine. </p>
+<p>if you have a heart disease or a treatment for heart disease that makes you prone to low blood 
+pressure </p>
+<p>if you are diabetic or prone to diabetes </p>
+<p>if you have Parkinson s disease or dementia </p>
+<p>if you have epilepsy (seizures) </p>
+<p>if you experience any difficulty in swallowing (dysphagia) </p>
+<p>if you have severe liver problems. If you do, you should not take Sycrest </p>
+<p>if you have difficulty controlling core body temperature </p>
+<p>if you have thoughts of suicide </p>
+<p>if you have abnormally high levels of prolactin in the blood (hyperprolactinaemia) </p>
 <p>Be sure to tell your doctor if you meet any of these conditions as he/she may want to adjust your dose 
 or monitor you for a while. Also contact your doctor immediately if any of these conditions develops 
 or worsens while using Sycrest. </p>
@@ -145,7 +132,7 @@ medicines. Some medicines may reduce or increase the effect of Sycrest. </p>
 <p>You should tell your doctor if you are taking antidepressant medicines (specifically fluvoxamine, 
 paroxetine or fluoxetine), as it may be necessary to change your Sycrest or antidepressant medicine 
 dose. </p>
-<p>You should tell your doctor if you are taking medicines for Parkinson’s disease (such as levodopa), as 
+<p>You should tell your doctor if you are taking medicines for Parkinson s disease (such as levodopa), as 
 this medicine may make them less effective. </p>
 <p>Since Sycrest works primarily in the brain, interference from other medicines (or alcohol) that work in 
 the brain could occur due to an additive effect on brain function. </p>
@@ -214,21 +201,25 @@ medicine, unless your doctor tells you as your symptoms may return. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects have been reported with this medicine. Seek medical attention immediately if you 
-have any of the following symptoms: 
-- allergic reactions (These usually involve a combination of effects such as difficulty in breathing 
-or swallowing, swollen face, lips, tongue or throat, skin rash, itching and increased heart rate.) 
-- sudden increase in body temperature, with sweating, fast heartbeat, severe muscle stiffness, 
-confusion and fluctuating blood pressure which may lead to coma 
-- convulsions, fits or seizures 
-- fainting 
-- falls which may occur as a result of one or more adverse events such as: sleepiness, sudden 
+have any of the following symptoms:</p>
+<ul>
+<li>allergic reactions (These usually involve a combination of effects such as difficulty in breathing 
+or swallowing, swollen face, lips, tongue or throat, skin rash, itching and increased heart rate.) </li>
+<li>sudden increase in body temperature, with sweating, fast heartbeat, severe muscle stiffness, 
+confusion and fluctuating blood pressure which may lead to coma </li>
+<li>convulsions, fits or seizures </li>
+<li>fainting </li>
+<li>falls which may occur as a result of one or more adverse events such as: sleepiness, sudden 
 drops in blood pressure when you stand up, dizziness and changes in your ability to move and 
-balance. </p>
-<p>Tell your doctor right away if you have: 
-- signs of increased blood sugar levels such as excessive thirst, hunger or urination, weakness or 
-onset of worsening of diabetes 
-- worm-like movements of the tongue, or other uncontrolled movements of the tongue, mouth, 
-cheeks, or jaw which may progress to arms and legs </p>
+balance. </li>
+</ul>
+<p>Tell your doctor right away if you have:</p>
+<ul>
+<li>signs of increased blood sugar levels such as excessive thirst, hunger or urination, weakness or 
+onset of worsening of diabetes </li>
+<li>worm-like movements of the tongue, or other uncontrolled movements of the tongue, mouth, 
+cheeks, or jaw which may progress to arms and legs </li>
+</ul>
 <p>Other side effects reported with this medicine include: </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
 - anxiety 
@@ -300,20 +291,15 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sycrest contains 
-– 
-The active substance is asenapine.<br />
-– 
-Each Sycrest 5 mg sublingual tablet contains 5 mg asenapine.<br />
-– 
-Each Sycrest 10 mg sublingual tablet contains 10 mg asenapine. 
-– 
-The exact amount is shown on your Sycrest tablet pack. 
-– 
-The other ingredients are gelatin and mannitol (E421). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sycrest contains </p>
+<p>The active substance is asenapine.  </p>
+<p>Each Sycrest 5 mg sublingual tablet contains 5 mg asenapine.  </p>
+<p>Each Sycrest 10 mg sublingual tablet contains 10 mg asenapine. </p>
+<p>The exact amount is shown on your Sycrest tablet pack. </p>
+<p>The other ingredients are gelatin and mannitol (E421). </p>
 <p>What Sycrest looks like and contents of the pack 
-The 5 mg sublingual tablets are round white to off-white tablets marked with “5” on one side. 
-The 10 mg sublingual tablets are round white to off-white tablets marked with “10” on one side. </p>
+The 5 mg sublingual tablets are round white to off-white tablets marked with  5  on one side. 
+The 10 mg sublingual tablets are round white to off-white tablets marked with  10  on one side. </p>
 <p>The sublingual tablets are provided in peelable blisters containing 10 tablets each. Packs may contain 
 20, 60 or 100 tablets.<br />
 Not all pack sizes may be marketed. </p>
@@ -327,24 +313,23 @@ Organon Heist bv
 Industriepark 2220 Heist-op-den-Berg, Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
 <p>Lietuva 
-Organon Pharma B.V. Lithuania atstovybė 
+Organon Pharma B.V. Lithuania atstovyb<br />
 Tel.: +370 52041dpoc.lithuania@organon.com </p>
-<p>България 
-Органон (И.А.) Б.В. - клон България 
-Тел.: +359 2 806 3dpoc.bulgaria@organon.com<br />
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com<br />
 Luxembourg/Luxemburg 
 Organon Belgium 
-Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
 dpoc.benelux@organon.com </p>
-<p>Česká republika 
+<p>esk  republika 
 Organon Czech Republic s.r.o. 
 Tel: +420 233 010 dpoc.czech@organon.com </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Organon Hungary Kft. 
 Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
 <p>Danmark 
@@ -367,14 +352,13 @@ Tel: +372 66 61 dpoc.estonia@organon.com </p>
 <p>Norge 
 Organon Norway AS 
 Tlf: +47 24 14 56 info.norway@organon.com </p>
-<p>Ελλάδα 
-BIANEΞ Α.Ε. 
-Τηλ: +30 210 80091 Mailbox@vianex.gr </p>
-<p>Österreich 
+<p>BIANE   . . 
+ : +30 210 80091 Mailbox@vianex.gr </p>
+<p>sterreich 
 Organon Healthcare GmbH 
 Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
 dpoc.austria@organon.com </p>
-<p>España 
+<p>Espa a 
 Organon Salud, S.L. 
 Tel: +34 91 591 12 organon_info@organon.com 
 Polska 
@@ -382,27 +366,27 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-Tél: +33 (0) 1 57 77 32<br />
+T l: +33 (0) 1 57 77 32<br />
 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
-Tel: +351 218705geral_pt@organon.com </p>
+Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
 Organon Pharma d.o.o. 
 Tel: +385 1 638 4dpoc.croatia@organon.com </p>
-<p>România 
+<p>Rom nia 
 Organon Biosciences S.R.L. 
 Tel: +40 21 527 29 dpoc.romania@organon.com </p>
 <p>Ireland 
 Organon Pharma (Ireland) Limited 
 Tel: +353 15828medinfo.ROI@organon.com </p>
 <p>Slovenija 
-Organon Pharma B.V., Oss, podružnica 
+Organon Pharma B.V., Oss, podru nica 
 Ljubljana 
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
-<p>Ísland 
+<p>sland 
 Vistor hf. 
-Sími: +354 535 7 
-Slovenská republika 
+S mi: +354 535 7 
+Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 
@@ -411,15 +395,14 @@ Tel: +39 06 90259dpoc.italy@organon.com  </p>
 <p>Suomi/Finland 
 Organon Finland Oy 
 Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
-<p>Κύπρος 
-Organon Pharma B.V., Cyprus branch 
-Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ : +357 22866dpoc.cyprus@organon.com </p>
 <p>Sverige 
 Organon Sweden AB 
 Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
 <p>Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
-pārstāvniecība 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
 Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
 Organon Pharma (UK) Limited<br />

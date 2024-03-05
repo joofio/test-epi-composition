@@ -4,7 +4,7 @@ Instance: composition-en-7c3f725d5ce5b04f0bcec4815df3bcb5
 InstanceOf: CompositionUvEpi
 Title: "Composition for regkirona Package Leaflet"
 Description:  "Composition for regkirona Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,13 +70,7 @@ Usage: #example
   * code.text =  "1. What regkirona is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance of Regkirona is regdanvimab. It is a monoclonal antibody used for the treatment 
-of COVID-19, a disease caused by a virus called SARS-CoV-2.  </p>
-<p>Regkirona is given to adult patients with COVID-19 who do not require supplemental oxygen and 
-who are at increased risk of progressing to severe COVID-19.<br />
-This medicine stops the virus from entering human cells by binding to the spike protein of 
-SARS-CoV-2. When it attaches to the spike protein, the interaction between the virus and the cellular 
-receptor is blocked and the ability of the virus to enter the body’s cells is reduced. This can help your 
-body to resist the virus infection, and may help to prevent the disease from getting worse. </p>         </div>"""   
+of COVID-19, a disease caused by a virus called SARS-CoV-</p>         </div>"""   
           
 
              
@@ -85,14 +79,35 @@ body to resist the virus infection, and may help to prevent the disease from get
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take regkirona"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Regkirona: 
-- if you are allergic to regdanvimab or any of the other ingredients of this medicine (listed in 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Regkirona is given to adult patients with COVID-19 who do not require supplemental oxygen and 
+who are at increased risk of progressing to severe COVID-1</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take regkirona"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take regkirona"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine stops the virus from entering human cells by binding to the spike protein of 
+SARS-CoV-2. When it attaches to the spike protein, the interaction between the virus and the cellular 
+receptor is blocked and the ability of the virus to enter the body s cells is reduced. This can help your 
+body to resist the virus infection, and may help to prevent the disease from getting worse. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Regkirona:</p>
+<ul>
+<li>if you are allergic to regdanvimab or any of the other ingredients of this medicine (listed in 
 section 6).<br />
-➔ Talk to your doctor or nurse as soon as possible, if this applies to you. </p>
+  Talk to your doctor or nurse as soon as possible, if this applies to you. </li>
+</ul>
 <p>Warnings and precautions  </p>
 <p>Reactions after receiving the medicine<br />
 This medicine can cause allergic reactions or other reactions after the medicine is given to you. See 
-also section 4, “Possible side effects”. Symptoms can include: 
+also section 4,  Possible side effects . Symptoms can include: 
 * Fever 
 * Difficulty breathing 
 * Shortness of breath, rapid breathing or rapid heartbeat 
@@ -113,7 +128,7 @@ also section 4, “Possible side effects”. Symptoms can include:
 * Feeling faint 
 * Dizziness 
 * Sweating </p>
-<p>➔ Seek urgent medical advice if you get any of these symptoms. </p>
+<p>Seek urgent medical advice if you get any of these symptoms. </p>
 <p>Children and adolescents 
 This medicine is not to be given to children and adolescents under 18 years of age because there are no 
 data to show that this medicine is safe and works in this age group. </p>
@@ -128,12 +143,12 @@ with Regkirona are greater than any likely risks for you and your baby.  </p>
 <p>It is not known whether the ingredients of Regkirona can pass into breast milk. If you are 
 breast-feeding, you must check with your doctor before you receive Regkirona.  </p>
 <p>Driving and using machines 
-Regkirona is not expected to have any effect on your ability to drive or use tools or machines.  </p>         </div>"""   
-                    
+Regkirona is not expected to have any effect on your ability to drive or use tools or machines.  </p>         </div>"""      
+        
 * section[=].section[+]
-  * title =  "3. How to take regkirona"
+  * title = "5. How to store regkirona"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take regkirona"
+  * code.text = "5. How to store regkirona"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>This medicine will be given to you by a nurse or doctor, as a drip into a vein (an intravenous infusion) 
 lasting 60 minutes.  </p>
@@ -141,13 +156,13 @@ lasting 60 minutes.  </p>
 symptom onset. </p>
 <p>This medicine can cause infusion reactions after the medicine is given to you. You will be closely 
 monitored during your treatment and for at least 1 hour after infusion is complete. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
-
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+        
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or nurse if you notice any of the following side effects: </p>
@@ -163,209 +178,4 @@ If you get any side effects, talk to your doctor or nurse. This includes any pos
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store regkirona"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store regkirona"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of sight and reach of children  </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
-refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). Keep the vial in the outer carton in order to protect from light. Do 
-not freeze. </p>
-<p>Do not use this medicine if you notice any particulate matter or discoloration prior to administration. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines that you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Regkirona contains<br />
-- The active ingredient is called regdanvimab. The vial contains 960 mg of regdanvimab in 16 mL 
-(60 mg/mL). 
-- The other ingredients are L-histidine, L-histidine monohydrochloride monohydrate, polysorbate 
-80, L-arginine monohydrochloride and water for injections.  </p>
-<p>What Regkirona looks like and contents of the pack 
-This medicine is a clear to opalescent, colourless to pale yellow liquid solution in a glass vial with a 
-rubber stopper and flip-off aluminium seal supplied as a concentrate for solution for infusion. </p>
-<p>Regkirona is available in packs containing 1 vial. </p>
-<p>Marketing Authorisation Holder  </p>
-<p>Celltrion Healthcare Hungary Kft.<br />
-1062 Budapest<br />
-Váci út 1-3. WestEnd Office Building B torony<br />
-Hungary </p>
-<p>Manufacturer<br />
-NUVISAN GmbH<br />
-Wegenerstr. 13,<br />
-Neu-Ulm, Bayern, 89231<br />
-GERMANY </p>
-<p>NUVISAN FRANCE SARL 
-2400 route des Colles,<br />
-06410 BIOT,<br />
-FRANCE </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-Celltrion Healthcare Belgium BVBA 
-Tél/Tel: + 32 1528 7BEinfo@celltrionhc.com 
-Lietuva 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Vengrija 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>България 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Унгария 
-Teл.: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Luxembourg/Luxemburg 
-Celltrion Healthcare Belgium BVBA 
-Tél/Tel: +32 1528 7BEinfo@celltrionhc.com 
-Česká republika 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Maďarsko 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Magyarország 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Magyarország 
-Tel.: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Danmark 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungarn 
-Tlf: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Malta 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Vengrija 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com 
-Deutschland 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungarn 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Nederland 
-Celltrion Healthcare Netherlands B.V. 
-Tel: +31 20 888 7NLinfo@celltrionhc.com 
-Eesti 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungari 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Norge 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungarn 
-Tlf: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Ελλάδα 
-ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 8009111 –<br />
-Österreich 
-Astro-Pharma GmbH 
-Tel.: +43 1 97 99 office@astropharma.at </p>
-<p>España 
-OMFE SA<br />
-Carretera Fuencarral-Alcobendas Nº 6 28Madrid 
-Tel: +34 917408lulopezf@cofares.es 
-Polska 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Węgry 
-Tel.: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>France 
-CELLTRION HEALTHCARE FRANCE SAS 
-14 rue Cambacérès 75008 Paris 
-Tél: +33 (0)1 71 25 27 contact_FR@celltrionhc.com 
-Portugal 
-PharmaKERN Portugal – Produtos 
-Farmacêuticos, 
-Sociedade Unipessoal, Lda. 
-Tel: +351 214 200 290  </p>
-<p>Hrvatska 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Vengrija 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com  </p>
-<p>România 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungaria 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Ireland 
-Celltrion Healthcare Ireland Ltd. 
-26, Arrow Building, Old Belgard Road, Tallaght, 
-Dublin D24 ND70, Ireland 
-Tel: +353-1-223-4 
-Slovenija 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Vengrija 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com  </p>
-<p>Ísland 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungverjaland 
-Sími: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Slovenská republika 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Maďarsko 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Italia 
-Celltrion Healthcare Italy S.R.L. 
-Tel: +39 0247 927 
-Suomi/Finland 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Unkari 
-Puh/Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Κύπρος 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Vengrija 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com<br />
-Sverige 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungern 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>Latvija 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Ungārija 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>United Kingdom (Northern Ireland) 
-Celltrion Healthcare Hungary Kft. 
-1062 Budapest 
-Váci út 1-3. WestEnd Office Building B torony 
-Hungary 
-Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

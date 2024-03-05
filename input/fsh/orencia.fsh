@@ -4,7 +4,7 @@ Instance: composition-en-238717ba3673c75eaeb58348d507d1fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for orencia Package Leaflet"
 Description:  "Composition for orencia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,7 +71,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ORENCIA contains the active substance abatacept, a protein produced in cell cultures. ORENCIA 
 lessens the immune system's attack on normal tissues by interfering with the immune cells (called T 
 lymphocytes) that contribute to the development of rheumatoid arthritis. ORENCIA selectively 
-modulates the activation of T cells involved in the immune systems’ inflammatory response. </p>
+modulates the activation of T cells involved in the immune systems  inflammatory response. </p>
 <p>ORENCIA is used to treat rheumatoid arthritis and psoriatic arthritis in adults and also polyarticular 
 juvenile idiopathic arthritis in children 6 years of age and older. </p>
 <p>Rheumatoid Arthritis 
@@ -82,7 +82,7 @@ to pain and swelling of the joints. This can cause joint damage. Rheumatoid arth
 everyone differently. In most people, joint symptoms develop gradually over several years. However, 
 in some, RA may progress rapidly and yet other people may have RA for a limited period of time and 
 then enter a period of remission. RA is usually a chronic (long-term), progressive disease. This means, 
-even if you’re on treatment, whether or not you’re still having symptoms, RA could be continuing to 
+even if you re on treatment, whether or not you re still having symptoms, RA could be continuing to 
 damage your joints. By finding the right treatment plan for you, you may be able to slow down this 
 disease process, which may help reduce long-term joint damage, as well as pain and fatigue and 
 improve your overall quality of life. </p>
@@ -107,10 +107,12 @@ ORENCIA powder for concentrate for solution for infusion is used in children and
 to 17 years when a previous disease-modifying medicine has not worked well enough or is not suitable 
 for them. ORENCIA is usually used in combination with methotrexate, although ORENCIA may also 
 be used alone in case of intolerance to methotrexate or if treatment with methotrexate is inappropriate. </p>
-<p>ORENCIA is used to: 
-- slow down the damage to joints 
-- improve physical function 
-- improve other signs and symptoms of polyarticular juvenile idiopathic arthritis </p>         </div>"""   
+<p>ORENCIA is used to:</p>
+<ul>
+<li>slow down the damage to joints </li>
+<li>improve physical function </li>
+<li>improve other signs and symptoms of polyarticular juvenile idiopathic arthritis </li>
+</ul>         </div>"""   
           
 
              
@@ -145,7 +147,7 @@ arthritis, if possible, be brought up to date with all immunisations in agreemen
 immunisation guidelines prior to starting ORENCIA therapy. Certain vaccinations may cause 
 infections from the vaccine. If you received ORENCIA while you were pregnant, your baby 
 may be at a higher risk for getting such an infection for up to approximately 14 weeks after the 
-last dose you received during pregnancy. It is important that you tell your baby’s doctors and 
+last dose you received during pregnancy. It is important that you tell your baby s doctors and 
 other health care professionals about your ORENCIA use during your pregnancy so they can 
 decide when your baby should receive any vaccine. 
 * if you are using a blood glucose monitor to check your blood glucose levels. ORENCIA 
@@ -177,7 +179,7 @@ you on suitable methods. </li>
 <li>if you become pregnant while using ORENCIA, tell your doctor. </li>
 </ul>
 <p>If you received ORENCIA during your pregnancy, your baby may have a higher risk for getting an 
-infection. It is important that you tell your baby’s doctors and other health care professionals about 
+infection. It is important that you tell your baby s doctors and other health care professionals about 
 your ORENCIA use during your pregnancy before the baby receives any vaccine (for more 
 information see section on vaccination). </p>
 <p>It is not known whether ORENCIA passes into human milk. You must stop breast-feeding if you are 
@@ -326,7 +328,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C - 8°C). </p>
+<p>Store in a refrigerator (2 C - 8 C). </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>After reconstitution and dilution, the infusion solution is stable for 24 hours in a refrigerator, but for 
 bacteriological reasons, it is to be used immediately. </p>

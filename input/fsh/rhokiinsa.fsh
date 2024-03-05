@@ -4,7 +4,7 @@ Instance: composition-en-1dfe892dc67968025b224d593ef39db2
 InstanceOf: CompositionUvEpi
 Title: "Composition for rhokiinsa Package Leaflet"
 Description:  "Composition for rhokiinsa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -70,7 +70,7 @@ Usage: #example
   * code.text =  "1. What rhokiinsa is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rhokiinsa contains an active substance called netarsudil. Netarsudil belongs to a group of medicines 
-called “Rho kinase inhibitors”, which work to reduce the amount of fluid inside the eye and so lower 
+called  Rho kinase inhibitors , which work to reduce the amount of fluid inside the eye and so lower 
 its pressure.  </p>
 <p>Rhokiinsa is used to lower pressure in the eyes in adults who have an eye condition known as 
 glaucoma or who have raised pressure in their eyes. If the pressure in the eye is too high, it can 
@@ -83,12 +83,13 @@ damage your sight. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take rhokiinsa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Rhokiinsa: 
-- if you are allergic to netarsudil or any of the other ingredients of this medicine (listed in section 
-6).  </p>
-<p>Warnings and precautions<br />
- 
-Do not use Rhokiinsa more than once a day, as you may experience more side effects. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Rhokiinsa:</p>
+<ul>
+<li>if you are allergic to netarsudil or any of the other ingredients of this medicine (listed in section 
+6).  </li>
+</ul>
+<p>Warnings and precautions  </p>
+<p>Do not use Rhokiinsa more than once a day, as you may experience more side effects. </p>
 <p>Children and adolescents 
 Rhokiinsa should not be used in children and teenagers under 18 years of age as it has only been 
 studied in adults.  </p>
@@ -120,35 +121,23 @@ or pharmacist if you are not sure.  </p>
 <p>The recommended dose is one drop in the affected eye or eyes once a day in the evening. Use the 
 medicine at around the same time each day. </p>
 <p>How to use </p>
-<p> 
-Wash your hands before you start. 
- 
-Do not touch the dropper with your fingers when opening or closing the bottle. It could infect 
-the drops. 
- 
-Twist off the bottle cap, and lie the cap on a clean surface on its side. Continue to hold the 
-bottle, ensuring that the tip doesn’t come into contact with anything.<br />
- 
-Hold the bottle, pointing down, between your thumb and fingers. 
- 
-Tilt your head back. 
- 
-Pull down your lower eyelid with a clean finger to form a ‘pocket’ between the eyelid and your 
-eye. The drop will go in here (Picture 1). 
- 
-Bring the bottle tip close to the eye. Do this in front of a mirror if it helps. 
- 
-Do not touch your eye, eyelid, surrounding areas or other surfaces with the dropper. It could 
-infect the drops. 
- 
-Gently squeeze the bottle to release one drop of Rhokiinsa into your eye. 
- 
-Only put one drop into your eye each time. If a drop misses your eye, try again. 
- 
-If you need to use the drops in both eyes, repeat the steps for your other eye while you have 
-the bottle open. 
- 
-Put back the bottle cap to close the bottle. </p>
+<p>Wash your hands before you start. </p>
+<p>Do not touch the dropper with your fingers when opening or closing the bottle. It could infect 
+the drops. </p>
+<p>Twist off the bottle cap, and lie the cap on a clean surface on its side. Continue to hold the 
+bottle, ensuring that the tip doesn t come into contact with anything.  </p>
+<p>Hold the bottle, pointing down, between your thumb and fingers. </p>
+<p>Tilt your head back. </p>
+<p>Pull down your lower eyelid with a clean finger to form a  pocket  between the eyelid and your 
+eye. The drop will go in here (Picture 1). </p>
+<p>Bring the bottle tip close to the eye. Do this in front of a mirror if it helps. </p>
+<p>Do not touch your eye, eyelid, surrounding areas or other surfaces with the dropper. It could 
+infect the drops. </p>
+<p>Gently squeeze the bottle to release one drop of Rhokiinsa into your eye. </p>
+<p>Only put one drop into your eye each time. If a drop misses your eye, try again. </p>
+<p>If you need to use the drops in both eyes, repeat the steps for your other eye while you have 
+the bottle open. </p>
+<p>Put back the bottle cap to close the bottle. </p>
 <p>If you are using other eye drops, wait at least five minutes after using them and then use Rhokiinsa. If 
 you are using eye ointments, these should be used last. </p>
 <p>If you use more Rhokiinsa than you should<br />
@@ -169,30 +158,25 @@ pressure in your eye will not be controlled which could lead to loss of sight.  
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>The following side effects have been observed with Rhokiinsa: </p>
-<p>Very common side effects (may affect more than 1 in 10 people) 
- 
-Effects in the eye: Eye redness; fine deposits on the front of the eye and pain where the drops 
+<p>Very common side effects (may affect more than 1 in 10 people) </p>
+<p>Effects in the eye: Eye redness; fine deposits on the front of the eye and pain where the drops 
 have been put in  </p>
-<p>Common side effects (may affect up to 1 in 10 people) 
- 
-Effects in the eye: Infection or inflammation of the eye; dryness of the eye or small breaks in the 
+<p>Common side effects (may affect up to 1 in 10 people) </p>
+<p>Effects in the eye: Infection or inflammation of the eye; dryness of the eye or small breaks in the 
 film of liquid on the surface of the eye; eye discharge; itchy eyelids; clouding of the eye and 
 vision may decrease somewhat; eye pain; feeling of grittiness or having something in the eye; 
 general eye redness shortly after drops are put in; spots or patches of eye redness; eye 
 inflammation caused by an allergic reaction or prominent blood vessels; eyes can become 
-watery, sensitive to light; swelling around the eye; blurred vision<br />
- 
-General side effects: Headache </p>
-<p>Uncommon side effects (may affect up to 1 in 100 people) 
- 
-Effects in the eye: Increased fluid pressure inside the eye; inflammation of the coloured part of 
+watery, sensitive to light; swelling around the eye; blurred vision  </p>
+<p>General side effects: Headache </p>
+<p>Uncommon side effects (may affect up to 1 in 100 people) </p>
+<p>Effects in the eye: Increased fluid pressure inside the eye; inflammation of the coloured part of 
 the eye (the iris); bulging of iris; growth of eyelashes; eyelid dryness; eye disease related to 
 diabetes; excess folds of the conjunctiva; blindness; blurred, double and halo vision; cataracts; 
 abnormal turning outward of the lower eyelid; small colored spots on the eye surface; eye 
 dryness caused by inflammation of the glands of the eyelids; eye allergy; eyelid crusting; glassy 
-eyes; loss of eyelashes; tiredness 
- 
-General side effects: Increased allergic symptoms; dizziness; blurred vision; nasal discomfort 
+eyes; loss of eyelashes; tiredness </p>
+<p>General side effects: Increased allergic symptoms; dizziness; blurred vision; nasal discomfort 
 and pain; redness or itching of the skin; rash on skin; inflammation of the cartilage; picking of 
 the skin  </p>
 <p>Reporting of side effects 
@@ -207,10 +191,10 @@ medicine. </p>         </div>"""
   * code.text = "5. How to store rhokiinsa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Unopened bottles: Store in a refrigerator (2°C - 8°C). 
-After opening the bottle: Do not store above 25°C. 
+<p>Unopened bottles: Store in a refrigerator (2 C - 8 C). 
+After opening the bottle: Do not store above 25 C. 
 Throw away the bottle 4 weeks after first opening to prevent infections and use a new bottle.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -224,8 +208,8 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Rhokiinsa contains<br />
 - The active substance is netarsudil. Each ml of solution contains 200 micrograms netarsudil (as 
 mesylate).<br />
-- The other excipients are benzalkonium chloride (see section 2 under ‘Rhokiinsa contains 
-benzalkonium chloride’), mannitol, boric acid, sodium hydroxide and water for injections.  </p>
+- The other excipients are benzalkonium chloride (see section 2 under  Rhokiinsa contains 
+benzalkonium chloride ), mannitol, boric acid, sodium hydroxide and water for injections.  </p>
 <p>What Rhokiinsa looks like and contents of the pack 
 Rhokiinsa is a clear, liquid eye drop solution in a plastic bottle. Each bottle contains 2.5 ml of the 
 medicine and each pack contains one bottle with a screw-cap.  </p>
@@ -241,20 +225,19 @@ Kelloportinkatu 1,<br />
 Finland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Santen Oy 
-Tél/Tel: +32 (0) 24019Lietuva 
+T l/Tel: +32 (0) 24019Lietuva 
 Santen Oy 
-Tel: +370 37 366 
-България 
-Santen Oy 
-Teл.: +359 (0) 888 755 393<br />
+Tel: +370 37 366 </p>
+<p>Santen Oy 
+Te .: +359 (0) 888 755 393<br />
 Luxembourg/Luxemburg 
 Santen Oy 
-Tél/Tel: +352 (0) 27862 
-Česká republika 
+T l/Tel: +352 (0) 27862 
+ esk  republika 
 Santen Oy 
-Tel: +358 (0) 3 284 8Magyarország 
+Tel: +358 (0) 3 284 8Magyarorsz g 
 Santen Oy 
 Tel: +358 (0) 3 284 8 
 Danmark 
@@ -272,13 +255,12 @@ Eesti
 Santen Oy<br />
 Tel: +372 5067Norge 
 Santen Oy 
-Tlf: +47 21939 
-Ελλάδα 
-Santen Oy<br />
-Τηλ: +358 (0) 3 284 8111  </p>
-<p>Österreich 
+Tlf: +47 21939 </p>
+<p>Santen Oy<br />
+ : +358 (0) 3 284 8111  </p>
+<p>sterreich 
 Santen Oy 
-Tel: +43 (0) 720116España 
+Tel: +43 (0) 720116Espa a 
 Santen Pharmaceutical Spain S.L. 
 Tel: +34 914 142 485                                                   </p>
 <p>Polska 
@@ -286,7 +268,7 @@ Santen Oy<br />
 Tel.: +48(0) 221042 
 France<br />
 Santen S.A.S. 
-Tél: +33 (0) 1 70 75 26 84       </p>
+T l: +33 (0) 1 70 75 26 84       </p>
 <p>Portugal 
 Santen Oy 
 Tel: +351 308 805<br />
@@ -296,25 +278,25 @@ Tel: +358 (0) 3 284 8
 Ireland 
 Santen Oy </p>
 <p>Tel: +353 (0) 16950 
-România 
+Rom nia 
 Santen Oy<br />
 Tel: +358 (0) 3 284 8 
 Slovenija 
 Santen Oy 
 Tel: +358 (0) 3 284 8 
-Ísland 
+ sland 
 Santen Oy 
-Sími: +358 (0) 3 284 8 
-Slovenská republika 
+S mi: +358 (0) 3 284 8 
+Slovensk  republika 
 Santen Oy<br />
 Tel: +358 (0) 3 284 8Italia 
 Santen Italy S.r.l. 
 Tel: +39 0236009 </p>
 <p>Suomi/Finland 
 Santen Oy 
-Puh/Tel: +358 (0) 974790Κύπρος 
+Puh/Tel: +358 (0) 974790<br />
 Santen Oy<br />
-Τηλ: +358 (0) 3 284 8 
+ : +358 (0) 3 284 8 
 Sverige 
 Santen Oy<br />
 Tel: +46 (0) 850598833<br />

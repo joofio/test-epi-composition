@@ -4,7 +4,7 @@ Instance: composition-en-41d224cd3a7da19e9ef0d058f5098940
 InstanceOf: CompositionUvEpi
 Title: "Composition for fuzeon Package Leaflet"
 Description:  "Composition for fuzeon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,7 +73,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fuzeon is </p>
 <p>Fuzeon contains the active substance enfuvirtide and belongs to a group of medicines called 
-‘antiretrovirals’.  </p>
+ antiretrovirals .  </p>
 <p>What Fuzeon is used for </p>
 <p>Fuzeon is used for the treatment of Human Immune deficiency Virus (HIV) - in combination with 
 other antiretroviral medicines in patients infected with HIV. 
@@ -105,7 +105,7 @@ liver problems while using this medicine   </p>
 <p>Signs of previous infections </p>
 <p>In some patients with advanced HIV infection (AIDS) and a history of opportunistic infections, signs 
 and symptoms of inflammation from previous infections may occur soon after anti-HIV treatment is 
-started. It is believed that these symptoms are due to a recovery of the body’s immune system. This 
+started. It is believed that these symptoms are due to a recovery of the body s immune system. This 
 improvement enables the body to fight infections that may have been present with no obvious 
 symptoms. If you notice any symptoms of infection, please inform your doctor immediately. </p>
 <p>Signs of autoimmune disorders  </p>
@@ -122,11 +122,9 @@ serious liver problems. Speak with your doctor if you have a history of liver di
 <p>Some patients taking combination anti-HIV medicines may develop a bone disease called 
 osteonecrosis. This is where the bone tissue dies because the blood supply has been lost (death of bone 
 tissue caused by loss of blood supply to the bone).  </p>
-<p> 
-Signs of osteonecrosis are joint stiffness, aches and pains (especially of the hip, knee and 
+<p>Signs of osteonecrosis are joint stiffness, aches and pains (especially of the hip, knee and 
 shoulder) and difficulty in movement. If you notice any of these signs please inform your doctor. </p>
-<p> 
-Risk factors for developing this disease include: how long you have been taking anti-HIV 
+<p>Risk factors for developing this disease include: how long you have been taking anti-HIV 
 medicines, whether you take corticosteroids, how much alcohol you drink, how well your immune 
 system works and being overweight.  </p>
 <p>Other medicines and Fuzeon </p>
@@ -149,8 +147,8 @@ you should discuss it with your doctor as soon as possible.  </li>
 <p>Fuzeon has not been tested for its effect on your ability to drive a car or use tools or machines. If you 
 feel dizzy while using Fuzeon do not drive or use any tools or machines. </p>
 <p>Fuzeon contains sodium </p>
-<p>Fuzeon contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially ‘sodium-
-free’. </p>         </div>"""   
+<p>Fuzeon contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially  sodium-
+free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fuzeon"
@@ -160,14 +158,14 @@ free’. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
 <p>How to prepare and inject Fuzeon </p>
-<p>Fuzeon must be given as an injection just below the skin – called a ‘subcutaneous’ injection. Section 7 
+<p>Fuzeon must be given as an injection just below the skin   called a  subcutaneous  injection. Section 7 
 tells you how to prepare Fuzeon and how to give yourself an injection. </p>
 <p>How much to use </p>
 <ul>
 <li>The recommended dose is 90 mg twice a day for adults and adolescents (16 years and older).  </li>
 <li>This is given as a 1 ml injection just below the skin. </li>
 <li>It is best to use Fuzeon at the same time each day. </li>
-<li>Try and space the doses evenly apart at times which are good for you – for example, first thing 
+<li>Try and space the doses evenly apart at times which are good for you   for example, first thing 
 in the morning and then in the early evening. </li>
 </ul>
 <p>See further instructions on how to use Fuzeon at the end of this leaflet (see Section 7). There you will 
@@ -200,9 +198,9 @@ treating you with Fuzeon. Your doctor should discuss this with you at that time.
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Stop using Fuzeon and see a doctor straight away, if you notice any of the following serious side 
-effects – you may need urgent medical treatment: </p>
+effects   you may need urgent medical treatment: </p>
 <ul>
-<li>Allergic reaction (hypersensitivity) – signs may include: rash, a high temperature or chills, 
+<li>Allergic reaction (hypersensitivity)   signs may include: rash, a high temperature or chills, 
 feeling or being sick, sweating or shaking. 
 This side effect is rare (affects less than 1 in 1,000 people). These signs do not definitely mean you are 
 allergic to this medicine.  </li>
@@ -210,27 +208,27 @@ allergic to this medicine.  </li>
 <p>Tell your doctor if you get side effects where the injection is given </p>
 <p>The most common side effects (affect more than 1 in 10 people), are problems at the place on your 
 body where you have the injection. You will probably have one or more of the following mild to 
-moderate reactions:<br />
-● 
-redness 
-● 
-swelling 
-● 
-feeling itchy<br />
-● 
-bruises 
-● 
-hardened skin or bumps 
-● 
-pain, feeling sore or tender 
+moderate reactions:  </p>
+<p>redness </p>
+<p>swelling </p>
+<p>feeling itchy  </p>
+<p>bruises </p>
+<p>hardened skin or bumps </p>
+<p>pain, feeling sore or tender 
 These reactions can appear in the first week of treatment and usually only last for up to 7 days. They 
 generally do not get worse after this time. If you have any of these reactions do not stop using Fuzeon, 
 but talk to your doctor about any concerns you have. </p>
 <p>Reactions may be worse when injections are repeated in the same place on the body. They may also be 
 worse when the injection is given deeper than intended (for example, into a muscle). Rarely, you may 
 get an infection at a place where an individual injection was given. To reduce the risk of infection, it is 
-important that you follow the instructions provided in Section 7.<br />
-Fuzeon can cause a build-up of a type of protein, called amyloid, under the skin at the injection site. 
+important that you follow the instructions provided in Section </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fuzeon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fuzeon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fuzeon can cause a build-up of a type of protein, called amyloid, under the skin at the injection site. 
 This may feel like lumps under the skin. Please contact your doctor if this occurs. </p>
 <p>Other possible side effects </p>
 <p>Very common (affects more than 1 in 10 people)<br />
@@ -243,7 +241,7 @@ This may feel like lumps under the skin. Please contact your doctor if this occu
 </em> ear infection<br />
 <em> swollen glands (lymph nodes) 
 * inflamed eye (conjunctivitis) 
-* flu or ‘flu-like’ symptoms 
+* flu or  flu-like  symptoms 
 * inflamed sinuses 
 * nasal congestion 
 * anorexia<br />
@@ -273,153 +271,21 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store fuzeon"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store fuzeon"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label of either the Fuzeon or the 
-Water for Injections Vials after EXP. The expiry date refers to the last day of that month.  </p>
-<p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>Once the solution has been prepared for your injection it should be used immediately. If it is not used 
-straight away it must be stored in a refrigerator (2°C – 8°C) and used within 24 hours.  </p>
-<p>Do not use this medicine if you notice any particles in the powder or the solution once the water for 
-injection has been added. Also do not use the Water for Injections if you see any particles in the vial or 
-if the water is cloudy. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fuzeon contains </p>
-<ul>
-<li>The active substance is enfuvirtide. Each vial contains 108 mg enfuvirtide. After reconstitution 
-with the solvent provided 1 ml of reconstituted solution contains 90 mg enfuvirtide. </li>
-<li>The other ingredients are: </li>
-</ul>
-<p>Powder </p>
-<p>Sodium Carbonate, anhydrous 
-Mannitol 
-Sodium Hydroxide 
-Hydrochloric Acid </p>
-<p>Solvent </p>
-<p>Water for Injections </p>
-<p>See section 2 “Fuzeon contains sodium”. </p>
-<p>What Fuzeon looks like and contents of the pack </p>
-<p>Fuzeon powder and solvent for solution for injection comes in a carton containing: </p>
-<p>60 vials of Fuzeon<br />
-60 vials of Water for Injections that is used to reconstitute the Fuzeon powder 
-60 3 ml syringes 
-60 1 ml syringes<br />
-180 alcohol swabs.  </p>
-<p>This pack provides you with everything you need to prepare and take your Fuzeon for 30 days of 
-injections. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Roche Registration GmbH<br />
-Emil-Barell-Strasse 1 
-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>The Manufacturer responsible for batch release is </p>
-<p>Roche Pharma AG 
-Emil-Barell-Str. 1,<br />
-D-79639 Grenzach-Wyhlen 
-Germany </p>
-<p>For any information about this medicinal product, please contact the local representative of the 
-Marketing Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
-N.V. Roche S.A. 
-Tél/Tel: +32 (0) 2 525 82<br />
-Lietuva 
-UAB “Roche Lietuva” 
-Tel: +370 5 2546 
-България 
-Рош България ЕООД 
-Тел: +359 2 474 5 
-Luxembourg/Luxemburg 
-(Voir/siehe Belgique/Belgien) </p>
-<p>Česká republika 
-Roche s. r. o. 
-Tel: +420 - 2 20382 
-Magyarország 
-Roche (Magyarország) Kft. 
-Tel: +36 - 1 279 4 
-Danmark 
-Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99<br />
-Malta 
-(See Ireland) </p>
-<p>Deutschland 
-Roche Pharma AG 
-Tel: +49 (0) 7624<br />
-Nederland 
-Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
-Roche Eesti OÜ 
-Tel: + 372 6 177<br />
-Norge 
-Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Ελλάδα 
-Roche (Hellas) A.E.<br />
-Τηλ: +30 210 61 66<br />
-Österreich 
-Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-España 
-Roche Farma S.A. 
-Tel: +34 - 91 324 81<br />
-Polska 
-Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-France 
-Roche 
-Tél: +33 (0) 1 47 61 40<br />
-Portugal 
-Roche Farmacêutica Química, Lda 
-Tel: +351 - 21 425 70<br />
-Hrvatska 
-Roche d.o.o. 
-Tel: + 385 1 47 22<br />
-România 
-Roche România S.R.L. 
-Tel: +40 21 206 47<br />
-Ireland 
-Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Slovenija 
-Roche farmacevtska družba d.o.o. 
-Tel: +386 - 1 360 26<br />
-Ísland<br />
-Roche Pharmaceuticals A/S 
-c/o Icepharma hf 
-Sími: +354 540 8 
-Slovenská republika<br />
-Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 </p>
-<p>Italia 
-Roche S.p.A. 
-Tel: +39 - 039 2Suomi/Finland 
-Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-Kύπρος<br />
-Γ.Α.Σταμάτης &amp; Σια Λτδ. 
-Τηλ: +357 - 22 76 62<br />
-Sverige 
-Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
-Roche Latvija SIA 
-Tel: +371 – 6 7039 
-United Kingdom (Northern Ireland) 
-Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label of either the Fuzeon or the 
+Water for Injections Vials after EXP. The expiry date refers to the last day of that month.  </p>
+<p>Keep the vial in the outer carton in order to protect from light. </p>
+<p>Once the solution has been prepared for your injection it should be used immediately. If it is not used 
+straight away it must be stored in a refrigerator (2 C   8 C) and used within 24 hours.  </p>
+<p>Do not use this medicine if you notice any particles in the powder or the solution once the water for 
+injection has been added. Also do not use the Water for Injections if you see any particles in the vial or 
+if the water is cloudy. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

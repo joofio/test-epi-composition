@@ -4,7 +4,7 @@ Instance: composition-en-078ce846d23a61e02d1edb518ce5e784
 InstanceOf: CompositionUvEpi
 Title: "Composition for bortezomib Package Leaflet"
 Description:  "Composition for bortezomib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -68,20 +68,22 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What bortezomib is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bortezomib Accord contains the active substance bortezomib, a so-called ‘proteasome inhibitor’. 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bortezomib Accord contains the active substance bortezomib, a so-called  proteasome inhibitor . 
 Proteasomes play an important role in controlling cell function and growth. By interfering with their 
 function, bortezomib can kill cancer cells. </p>
 <p>Bortezomib Accord is used for the treatment of multiple myeloma (a cancer of the bone marrow) in 
-patients older than 18 years: 
-- alone or together with the medicines pegylated liposomal doxorubicin or dexamethasone, for 
+patients older than 18 years:</p>
+<ul>
+<li>alone or together with the medicines pegylated liposomal doxorubicin or dexamethasone, for 
 patients whose disease is worsening (progressive) after receiving at least one prior treatment and 
-for whom blood stem cell transplantation was not successful or is unsuitable. 
-- in combination with the medicines melphalan and prednisone, for patients whose disease has not 
+for whom blood stem cell transplantation was not successful or is unsuitable. </li>
+<li>in combination with the medicines melphalan and prednisone, for patients whose disease has not 
 been previously treated and are unsuitable for high-dose chemotherapy with blood stem cell 
-transplantation. 
-- in combination with the medicines dexamethasone or dexamethasone together with thalidomide, 
+transplantation. </li>
+<li>in combination with the medicines dexamethasone or dexamethasone together with thalidomide, 
 for patients whose disease has not been previously treated and before receiving high-dose 
-chemotherapy with blood stem cell transplantation (induction treatment). </p>
+chemotherapy with blood stem cell transplantation (induction treatment). </li>
+</ul>
 <p>Bortezomib Accord is used for the treatment of mantle cell lymphoma (a type of cancer affecting the 
 lymph nodes) in patients 18 years or older in combination with the medicines rituximab, 
 cyclophosphamide, doxorubicin and prednisone, for patients whose disease has not been previously 
@@ -134,13 +136,15 @@ medicine will affect them. </p>
 Please tell your doctor, or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>In particular, tell your doctor if you are using medicines containing any of the following active 
-substances: 
-- ketoconazole, used to treat fungal infections 
-- ritonavir, used to treat HIV infection 
-- rifampicin, an antibiotic used to treat bacterial infections 
-- carbamazepine, phenytoin or phenobarbital used to treat epilepsy 
-- St. John’s Wort (Hypericum perforatum), used for depression or other conditions 
-- oral antidiabetics </p>
+substances:</p>
+<ul>
+<li>ketoconazole, used to treat fungal infections </li>
+<li>ritonavir, used to treat HIV infection </li>
+<li>rifampicin, an antibiotic used to treat bacterial infections </li>
+<li>carbamazepine, phenytoin or phenobarbital used to treat epilepsy </li>
+<li>St. John s Wort (Hypericum perforatum), used for depression or other conditions </li>
+<li>oral antidiabetics </li>
+</ul>
 <p>Pregnancy and breast-feeding 
 You should not use Bortezomib Accord if you are pregnant, unless clearly necessary. </p>
 <p>Both men and women receiving Bortezomib Accord must use effective contraception during and for 
@@ -169,7 +173,7 @@ the treatment on the occurrence of certain side effects and on your underlying c
 problems). </p>
 <p>Progressive multiple myeloma 
 When Bortezomib Accord is given alone, you will receive 4 doses of Bortezomib Accord 
-intravenously or subcutaneously on days 1, 4, 8 and 11, followed by a 10-day ‘rest period’ without 
+intravenously or subcutaneously on days 1, 4, 8 and 11, followed by a 10-day  rest period  without 
 treatment. This 21-day period (3 weeks) corresponds to one treatment cycle. You might receive up to 
 8 cycles (24 weeks). </p>
 <p>You may also be given Bortezomib Accord together with the medicines pegylated liposomal 
@@ -189,8 +193,15 @@ transplantation you will receive Bortezomib Accord together with two other medic
 prednisone. </p>
 <p>In this case, the duration of a treatment cycle is 42 days (6 weeks). You will receive 9 cycles 
 (54 weeks). 
-* In cycles 1 to 4, Bortezomib Accord is administered twice weekly on days 1, 4, 8, 11, 22, 25, and 32. * In cycles 5 to 9, Bortezomib Accord is administered once weekly on days 1, 8, 22 and 29.<br />
-Melphalan (9 mg/m2) and prednisone (60 mg/m2) are both given orally on days 1, 2, 3 and 4 of the 
+* In cycles 1 to 4, Bortezomib Accord is administered twice weekly on days 1, 4, 8, 11, 22, 25, and 32. * In cycles 5 to 9, Bortezomib Accord is administered once weekly on days 1, 8, 22 and 2</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Melphalan (9 mg/m2) and prednisone (60 mg/m2) are both given orally on days 1, 2, 3 and 4 of the 
 first week of each cycle. </p>
 <p>If you have not been treated before for multiple myeloma, and you are suitable for blood stem cell 
 transplantation you will receive Bortezomib Accord intravenously or subcutaneously together with the 
@@ -211,7 +222,7 @@ If you have not been treated before for mantle cell lymphoma, you will receive B
 intravenously or subcutaneously together with the medicines rituximab, cyclophosphamide, 
 doxorubicin and prednisone. </p>
 <p>Bortezomib Accord is given intravenously or subcutaneously on days 1, 4, 8 and 11, followed by a 
-‘rest period’ without treatment. The duration of a treatment cycle is 21 days (3 weeks). You might 
+ rest period  without treatment. The duration of a treatment cycle is 21 days (3 weeks). You might 
 receive up to 8 cycles (24 weeks). </p>
 <p>The following medicines are given on day 1 of each Bortezomib Accord 21-day treatment cycle as 
 intravenous infusions: 
@@ -225,32 +236,35 @@ use (injected into a vein). Injection into a vein is rapid, taking 3 to 5 second
 is in either the thighs or the abdomen. </p>
 <p>If you are given too much Bortezomib Accord 
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too much. 
-In the unlikely event of an overdose, your doctor will monitor you for side effects. </p>         </div>"""         
-
+In the unlikely event of an overdose, your doctor will monitor you for side effects. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store bortezomib"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store bortezomib"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Some of 
 these effects may be serious. </p>
 <p>If you are given Bortezomib Accord for multiple myeloma or mantle cell lymphoma, tell your doctor 
-straight away if you notice any of the following symptoms: 
-- muscle cramping, muscle weakness 
-- confusion, visual loss or disturbances, blindness, seizures, headaches 
-- shortness of breath, swelling of your feet or changes in your heart beat, high blood pressure, 
-tiredness, fainting 
-- coughing and breathing difficulties or tightness in the chest. </p>
+straight away if you notice any of the following symptoms:</p>
+<ul>
+<li>muscle cramping, muscle weakness </li>
+<li>confusion, visual loss or disturbances, blindness, seizures, headaches </li>
+<li>shortness of breath, swelling of your feet or changes in your heart beat, high blood pressure, 
+tiredness, fainting </li>
+<li>coughing and breathing difficulties or tightness in the chest. </li>
+</ul>
 <p>Treatment with Bortezomib Accord can very commonly cause a decrease in the numbers of red and 
 white blood cells and platelets in your blood. Therefore, you will have to take regular blood tests 
 before and during your treatment with Bortezomib Accord, to check your blood cell counts regularly. 
-You may experience a reduction in the number of: 
-- platelets, which may make you be more prone to bruising, or to bleeding without obvious injury 
+You may experience a reduction in the number of:</p>
+<ul>
+<li>platelets, which may make you be more prone to bruising, or to bleeding without obvious injury 
 (e.g., bleeding from your bowels, stomach, mouth and gum or bleeding in the brain or bleeding 
-from the liver) 
-- red blood cells, which can cause anaemia, with symptoms such as tiredness and paleness 
-- white blood cells may make you more prone to infections or flu-like symptoms. </p>
+from the liver) </li>
+<li>red blood cells, which can cause anaemia, with symptoms such as tiredness and paleness </li>
+<li>white blood cells may make you more prone to infections or flu-like symptoms. </li>
+</ul>
 <p>If you are given Bortezomib Accord for the treatment of multiple myeloma the side effects you may 
 get are listed below: </p>
 <p>Very common side effects (may affect more than 1 in 10 people) 
@@ -348,14 +362,14 @@ blockage), abdominal or oesophageal discomfort, difficulty swallowing, vomiting 
 tiredness, confusion, blindness or other vision problems. </p>
 <p>Rare side effects (may affect up to 1 in 1,000 people) 
 * Heart problems to include heart attack, angina 
-* Serious nerve inflammation, which may cause paralysis and difficulty breathing (Guillain-Barré 
+* Serious nerve inflammation, which may cause paralysis and difficulty breathing (Guillain-Barr<br />
 syndrome) 
 * Flushing 
 * Discolouration of the veins 
 * Inflammation of the spinal nerve 
 * Problems with your ear, bleeding from your ear 
 * Underactivity of your thyroid gland 
-* Budd–Chiari syndrome (the clinical symptoms caused by blockage of the hepatic veins) 
+* Budd Chiari syndrome (the clinical symptoms caused by blockage of the hepatic veins) 
 * Changes in or abnormal bowel function 
 * Bleeding in the brain 
 * Yellow discolouration of eyes and skin (jaundice) 
@@ -472,7 +486,7 @@ breathing that becomes shallow, difficult or stops, wheezing
 * Lump in the eyelid (chalazion), red and swollen eyelids </p>
 <p>Rare side effects (may affect up to 1 in 1,000 people) 
 * Blood clot in small blood vessels (thrombotic microangiopathy) 
-* Serious nerve inflammation, which may cause paralysis and difficulty breathing (Guillain-Barré </p>
+* Serious nerve inflammation, which may cause paralysis and difficulty breathing (Guillain-Barr  </p>
 <p>syndrome) </p>
 <p>Reporting of side effects 
 If any of the side effects, gets serious, or if you notice , any side effects not listed in this leaflet, please 
@@ -480,64 +494,22 @@ tell your doctor or pharmacist immediately. You can also report side effects dir
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
 information on the safety of this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store bortezomib"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bortezomib"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date stated on the vial and the carton after EXP. </p>
-<p>Store in a refrigerator (2°C to 8 °C).<br />
-Keep the vial in the outer carton in order to protect from light. </p>
-<p>Diluted solution 
-The chemical and physical in-use stability of the diluted solution at a concentration of 1 mg/mL has 
-been demonstrated for 24 hours at 20°C-25°C. From a microbiological point of view, unless the 
-method of opening/ dilution precludes the risk of microbial contamination, the diluted solution should 
-be used immediately after preparation. If not used immediately, in-use storage times and conditions 
-prior to use are the responsibility of the user.  </p>
-<p>Bortezomib Accord is for single use only. Any unused product or waste material should be disposed of 
-in accordance with local requirements. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Bortezomib Accord contains 
-* the active substance is bortezomib. Each vial contains 1 mL or 1.4 mL solution for injection 
-which contains 2.5 mg per mL of bortezomib (as a mannitol boronic ester).<br />
-* the other ingredients are mannitol (E421) and water for injections. </p>
-<p>Intravenous use:  </p>
-<p>after dilution, 1 mL of solution for intravenous injection contains 1 mg bortezomib.  </p>
-<p>Subcutaneous use:  </p>
-<p>1 mL of solution for subcutaneous injection contains 2.5 mg bortezomib. </p>
-<p>What Bortezomib Accord looks like and contents of the pack 
-Bortezomib Accord solution for injection is a clear colourless solution. </p>
-<p>Clear glass vial with grey rubber stopper and an aluminium seal, with orange cap, containing 1 mL of 
-solution. </p>
-<p>Clear glass vial with grey rubber stopper and an aluminium seal, with red cap, containing 1.4 mL of 
-solution. </p>
-<p>Pack sizes 
-1 x 1 mL vial 
-4 x 1 mL vials 
-1 x 1.4 mL vial 
-4 x 1.4 mL vials </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
-Accord Healthcare S.L.U. 
-World Trade Center, Moll de Barcelona 
-s/n, Edifici Est 6ª planta 
-08039 Barcelona 
-Spain </p>
-<p>Manufacturer 
-Accord Healthcare Polska Sp.z o.o., 
-ul. Lutomierska 50,95-200 Pabianice 
-Poland  </p>
-<p>Accord Healthcare B.V. 
-Winthontlaan 200, 3526KV Utrecht 
-Netherlands </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date stated on the vial and the carton after EXP. </p>
+<p>Store in a refrigerator (2 C to 8  C).<br />
+Keep the vial in the outer carton in order to protect from light. </p>
+<p>Diluted solution 
+The chemical and physical in-use stability of the diluted solution at a concentration of 1 mg/mL has 
+been demonstrated for 24 hours at 20 C-25 C. From a microbiological point of view, unless the 
+method of opening/ dilution precludes the risk of microbial contamination, the diluted solution should 
+be used immediately after preparation. If not used immediately, in-use storage times and conditions 
+prior to use are the responsibility of the user.  </p>
+<p>Bortezomib Accord is for single use only. Any unused product or waste material should be disposed of 
+in accordance with local requirements. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-19f088d0c7284b3f1b2eff5965fbb50a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nemdatine Package Leaflet"
 Description:  "Composition for nemdatine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -71,12 +71,12 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How does Nemdatine work 
 Nemdatine contains the active substance memantine hydrochloride. Nemdatine belongs to a group of 
 medicines known as anti-dementia medicines. 
-Memory loss in Alzheimer’s disease is due to a disturbance of message signals in the brain. The brain 
+Memory loss in Alzheimer s disease is due to a disturbance of message signals in the brain. The brain 
 contains so-called N-methyl-D-aspartate (NMDA)-receptors that are involved in transmitting nerve 
 signals important in learning and memory. Nemdatine belongs to a group of medicines called NMDA- receptor antagonists. Nemdatine acts on these NMDA-receptors improving the transmission of nerve 
 signals and the memory. </p>
 <p>What is Nemdatine used for 
-Nemdatine is used for the treatment of adult patients with moderate to severe Alzheimer’s disease. </p>         </div>"""   
+Nemdatine is used for the treatment of adult patients with moderate to severe Alzheimer s disease. </p>         </div>"""   
           
 
              
@@ -97,7 +97,7 @@ from congestive heart failure or from an uncontrolled hypertension (high blood p
 reassessed by your doctor on a regular basis. 
 If you suffer from renal impairment (kidney problems), your doctor should closely monitor your 
 kidney function and if necessary adapt the memantine doses accordingly. </p>
-<p>The use of medicinal products called amantadine (for the treatment of Parkinson’s disease), ketamine 
+<p>The use of medicinal products called amantadine (for the treatment of Parkinson s disease), ketamine 
 (a substance generally used as an anaesthetic), dextromethorphan (generally used to treat cough) and 
 other NMDA-antagonists at the same time should be avoided. </p>
 <p>Children and adolescents 
@@ -106,17 +106,19 @@ Nemdatine is not recommended for children and adolescents under the age of 18 ye
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>In particular, Nemdatine may change the effects of the following medicines and their dose may need to 
-be adjusted by your doctor: 
-- amantadine, ketamine, dextromethorphan 
-- dantrolene, baclofen 
-- cimetidine, ranitidine, procainamide, quinidine, quinine, nicotine 
-- hydrochlorothiazide (or any combination with hydrochlorothiazide) 
-- anticholinergics (substances generally used to treat movement disorders or intestinal cramps) 
-- anticonvulsants (substances used to prevent and relieve seizures) 
-- barbiturates (substances generally used to induce sleep) 
-- dopaminergic agonists (substances such as L-dopa, bromocriptine) 
-- neuroleptics (substances used in the treatment of mental disorders) 
-- oral anticoagulants </p>
+be adjusted by your doctor:</p>
+<ul>
+<li>amantadine, ketamine, dextromethorphan </li>
+<li>dantrolene, baclofen </li>
+<li>cimetidine, ranitidine, procainamide, quinidine, quinine, nicotine </li>
+<li>hydrochlorothiazide (or any combination with hydrochlorothiazide) </li>
+<li>anticholinergics (substances generally used to treat movement disorders or intestinal cramps) </li>
+<li>anticonvulsants (substances used to prevent and relieve seizures) </li>
+<li>barbiturates (substances generally used to induce sleep) </li>
+<li>dopaminergic agonists (substances such as L-dopa, bromocriptine) </li>
+<li>neuroleptics (substances used in the treatment of mental disorders) </li>
+<li>oral anticoagulants </li>
+</ul>
 <p>If you go into hospital, let your doctor know that you are taking Nemdatine. </p>
 <p>Nemdatine with food and drink 
 You should inform your doctor if you have recently changed or intend to change your diet 
@@ -173,7 +175,7 @@ Continue to take Nemdatine as long as it is of benefit to you. Your doctor shoul
 on a regular basis. </p>
 <p>If you take more Nemdatine than you should 
 - In general, taking too much Nemdatine should not result in any harm to you. You may 
-experience increased symptoms as described in section 4 ‘Possible side effects’. 
+experience increased symptoms as described in section 4  Possible side effects . 
 - If you take a large overdose of Nemdatine, contact your doctor or get medical advice, as you 
 may need medical attention. </p>
 <p>If you forget to take Nemdatine 
@@ -200,7 +202,7 @@ and venous blood clotting (thrombosis/thromboembolism) </p>
 - Seizures </p>
 <p>Not known (frequency cannot be estimated from the available data) 
 - Inflammation of the pancreas, inflammation of the liver (hepatitis) and psychotic reactions </p>
-<p>Alzheimer’s disease has been associated with depression, suicidal ideation and suicide. These events 
+<p>Alzheimer s disease has been associated with depression, suicidal ideation and suicide. These events 
 have been reported in patients treated with memantine. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
@@ -214,9 +216,9 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store nemdatine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Do not store above 25°C. </p>
+<p>Do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -236,41 +238,39 @@ dioxide (E171), lactose monohydrate, macrogol 3350 and triacetin. </li>
 </ul>
 <p>What Nemdatine looks like and contents of the pack 
 Nemdatine 5 mg film-coated tablets (tablets) are white, oval shaped, biconvex, 8 mm x 4.5 mm in size, 
-with the marking “M5” engraved on one side. </p>
+with the marking  M5  engraved on one side. </p>
 <p>Pack sizes 
 Blister packs: 42 and 98 film-coated tablets.  </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Actavis Group PTC ehf. 
 Dalshraun 1 
-220 Hafnarfjörður 
+220 Hafnarfj r ur 
 Iceland </p>
 <p>Manufacturer 
 Actavis Ltd. 
 BLB 015-016 Bulebel Industrial Estate 
 Zejtun ZTN 3Malta </p>
-<p>TEVA Gyógyszergyár Zrt. 
-Pallagi út Debrecen 4Hungary </p>
+<p>TEVA Gy gyszergy r Zrt. 
+Pallagi  t Debrecen 4Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207 
+T l/Tel: +32 38207 
 Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 
-България 
-Тева Фарма ЕАД 
-Тел: +359 24899 
+Tel: +370 52660 </p>
+<p>: +359 24899 
 Luxembourg/Luxemburg 
 ratiopharm GmbH 
 Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika 
+T l/Tel: +49 73140 
+ esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007 
-Magyarország 
-Teva Gyógyszergyár Zrt. 
+Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
 Tel: +36 12886 
 Danmark 
 Teva Denmark A/S 
@@ -290,29 +290,28 @@ UAB Teva Baltics Eesti filiaal
 Tel: +372 6610 
 Norge 
 Teva Norway AS 
-Tlf: +47 66775 
-Ελλάδα 
-TEVA HELLAS A.E. 
-Τηλ: +30 2118805 
-Österreich 
+Tlf: +47 66775 </p>
+<p>TEVA HELLAS A.E. 
+ : +30 2118805 
+ sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
 Tel: +43 1970 
-España 
+Espa a 
 Teva Pharma, S.L.U. 
 Tel: +34 913873 
 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel: +48 223459 
 France 
-Teva Santé 
-Tél: +33 155917 
+Teva Sant<br />
+T l: +33 155917 
 Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
+Teva Pharma - Produtos Farmac uticos, Lda. 
 Tel: +351 214767 
 Hrvatska 
 Pliva Hrvatska d.o.o. 
 Tel: +385 13720 
-România 
+Rom nia 
 Teva Pharmaceuticals S.R.L. 
 Tel: +40 212306 
 Ireland 
@@ -321,10 +320,10 @@ Tel: +44 2075407
 Slovenija 
 Pliva Ljubljana d.o.o. 
 Tel: +386 15890 
-Ísland 
+ sland 
 Teva Pharma Iceland ehf. 
-Sími: +354 5503 
-Slovenská republika 
+S mi: +354 5503 
+Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
 Tel: +421 257267 
 Italia 
@@ -332,16 +331,14 @@ Teva Italia S.r.l.
 Tel: +39 028917 
 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-TEVA HELLAS A.E. 
-Ελλάδα 
-Τηλ: +30 2118805 
+Puh/Tel: +358 201805 </p>
+<p>TEVA HELLAS A.E. </p>
+<p>: +30 2118805 
 Sverige 
 Teva Sweden AB 
 Tel: +46 42121 
 Latvija 
-UAB Teva Baltics filiāle Latvijā 
+UAB Teva Baltics fili le Latvij<br />
 Tel: +371 67323 
 United Kingdom (Northern Ireland) 
 Accord Healthcare Ireland Ltd. 

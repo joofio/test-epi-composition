@@ -4,7 +4,7 @@ Instance: composition-en-b455bf5933866192c268e98801b21195
 InstanceOf: CompositionUvEpi
 Title: "Composition for lamzede Package Leaflet"
 Description:  "Composition for lamzede Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,8 +73,8 @@ Usage: #example
 as enzyme replacement therapies. It is used to treat patients with mild to moderate alpha-mannosidosis 
 disease. It is given for the treatment of non-neurological symptoms of the disease. </p>
 <p>Alpha-mannosidosis disease is a rare genetic disorder caused by a lack of an enzyme named 
-alpha-mannosidase, which is needed to break down certain sugar compounds (called ‘mannose-rich 
-oligosaccharides’) in the body. When this enzyme is missing or does not work properly, these sugar 
+alpha-mannosidase, which is needed to break down certain sugar compounds (called  mannose-rich 
+oligosaccharides ) in the body. When this enzyme is missing or does not work properly, these sugar 
 compounds build up inside cells and cause the signs and symptoms of the disease. The typical 
 manifestations of the disease include distinctive facial features, mental retardation, difficulty in 
 controlling movements, difficulties in hearing and speaking, frequent infections, skeletal problems, 
@@ -97,13 +97,13 @@ Talk to your doctor before Lamzede is used.
 Hypersensitivity reactions may occur with the administration of Lamzede. These reactions usually 
 appear during or soon after the infusion and may manifest with several symptoms, such as localised or 
 diffuse skin reactions, gastrointestinal symptoms or swelling of the throat, face, lips or tongue (see 
-section 4 “Possible side effects”). If the hypersensitivity reaction is severe, immediate discontinuation 
+section 4  Possible side effects ). If the hypersensitivity reaction is severe, immediate discontinuation 
 of Lamzede is recommended and current medical standards for emergency treatment are to be 
 followed. Less severe hypersensitivity reactions may be managed by temporary interruption of the 
 infusion or by slowing down infusion rate; administration of medicines used to treat allergy may be 
 considered by the physician. </p>
 <p>If you are treated with Lamzede, you may experience a side effect during or immediately following 
-the drip (infusion) used to give the medicine (see section 4 “Possible side effects”). This is known as 
+the drip (infusion) used to give the medicine (see section 4  Possible side effects ). This is known as 
 an infusion-related reaction and can sometimes be severe. 
 - Your doctor may decide to keep you under observation for one hour or longer after the infusion 
 in relation to the infusion related reactions. 
@@ -137,7 +137,7 @@ feeding since the velmanase alfa will not be absorbed by a breastfed child. </p>
 Lamzede has no or negligible influence on the ability to drive and use machines. </p>
 <p>Lamzede contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose unit, that is to say essentially 
-‘sodium-free’. </p>         </div>"""   
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lamzede"
@@ -157,7 +157,7 @@ Lamzede may be given to children and adolescents at the same dose and frequency 
 Lamzede is supplied in a vial as a powder for infusion which will be made up with water for injections 
 before being given. 
 Once it has been made up, the medicine will be given by infusion pump (drip) into a vein over a 
-period of at least 50 minutes under your doctor’s supervision.  </p>
+period of at least 50 minutes under your doctor s supervision.  </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
 
         
@@ -167,8 +167,8 @@ period of at least 50 minutes under your doctor’s supervision.  </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
-effects occur during the infusion or shortly after (“infusion-related reaction”, see section 2 “Warnings 
-and precautions”). </p>
+effects occur during the infusion or shortly after ( infusion-related reaction , see section 2  Warnings 
+and precautions ). </p>
 <p>While under treatment with Lamzede, you may experience some of the following reactions: </p>
 <p>Serious side effects </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
@@ -199,7 +199,7 @@ nausea, vomiting
 - joint pain, back pain, joint stiffness, muscle pain, pain in extremity (hands, feet) 
 - eye irritation, eyelid swelling (eyelid oedema), eye redness 
 - increased appetite </p>
-<p>Side effects – frequency not known (frequency cannot be estimated from the available data) 
+<p>Side effects   frequency not known (frequency cannot be estimated from the available data) 
 - infection of the inner wall of the sac around the heart (endocarditis) 
 - furuncle 
 - infection caused by a bacteria called Staphylococcus 
@@ -230,12 +230,12 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "5. How to store lamzede"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the label and the carton after ‘EXP’. 
+<p>Do not use this medicine after the expiry date which is stated on the label and the carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
-<p>Store and transport refrigerated (2°C - 8°C). Do not freeze. 
+<p>Store and transport refrigerated (2 C - 8 C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>After reconstitution, the medicine should be used immediately. If not used immediately, the 
-reconstituted solution may be stored up to 24 hours at 2°C to 8°C. </p>
+reconstituted solution may be stored up to 24 hours at 2 C to 8 C. </p>
 <p>This medicine must not be used if the reconstituted solution contains opaque particles or is 
 discoloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -253,7 +253,7 @@ throw away medicines you no longer use. These measures will help protect the env
 <p>After reconstitution, one mL of the solution contains 2 mg of velmanase alfa (10 mg / 5 mL).  </p>
 <ul>
 <li>The other ingredients are: disodium phosphate dihydrate, sodium dihydrogen phosphate 
-dihydrate (see section 2 “Lamzede contains sodium”), mannitol (E 421) and glycine. </li>
+dihydrate (see section 2  Lamzede contains sodium ), mannitol (E 421) and glycine. </li>
 </ul>
 <p>What Lamzede looks like and contents of the pack 
 Lamzede is a white to off-white powder for solution for infusion, supplied in a glass vial.<br />
@@ -270,22 +270,21 @@ Via San Leonardo, 43122 Parma<br />
 Italy </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
-<p>België/Belgique/Belgien 
+<p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-Tél/Tel: + 32 (0)2 788 42 00  </p>
+T l/Tel: + 32 (0)2 788 42 00  </p>
 <p>Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073919  </p>
-<p>България 
-Chiesi Bulgaria EOOD<br />
-Teл.: + 359 29201 
+<p>Chiesi Bulgaria EOOD<br />
+Te .: + 359 29201 
 Luxembourg/Luxemburg 
 Chiesi sa/nv<br />
-Tél/Tel: + 32 (0)2 788 42<br />
-Česká republika 
+T l/Tel: + 32 (0)2 788 42<br />
+ esk  republika 
 Chiesi CZ s.r.o.<br />
 Tel: + 420 261221745  </p>
-<p>Magyarország 
+<p>Magyarorsz g 
 Chiesi Hungary Kft.<br />
 Tel.: + 36-1-429 1060  </p>
 <p>Danmark 
@@ -305,29 +304,28 @@ Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
 Norge 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35<br />
-Ελλάδα 
-Chiesi Hellas AEBE<br />
-Τηλ: + 30 210 6179763  </p>
-<p>Österreich 
+Tlf: + 46 8 753 35  </p>
+<p>Chiesi Hellas AEBE<br />
+ : + 30 210 6179763  </p>
+<p>sterreich 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
-España 
-Chiesi España, S.A.U.<br />
+Espa a 
+Chiesi Espa a, S.A.U.<br />
 Tel: + 34 93 494 8 
 Polska 
 Chiesi Poland Sp. z.o.o.<br />
 Tel.: + 48 22 620 1421  </p>
 <p>France 
 Chiesi S.A.S.<br />
-Tél: + 33 1 47688899  </p>
+T l: + 33 1 47688899  </p>
 <p>Portugal 
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2791  </p>
 <p>Hrvatska 
 Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073 
-România 
+Rom nia 
 Chiesi Romania S.R.L.<br />
 Tel: + 40 212023 
 Ireland 
@@ -336,10 +334,10 @@ Tel: + 39 0521 2
 Slovenija 
 CHIESI SLOVENIJA, d.o.o.<br />
 Tel: + 386-1-43 00 901  </p>
-<p>Ísland 
+<p>sland 
 Chiesi Pharma AB<br />
-Sími: +46 8 753 35 20  </p>
-<p>Slovenská republika 
+S mi: +46 8 753 35 20  </p>
+<p>Slovensk  republika 
 Chiesi Slovakia s.r.o.<br />
 Tel: + 421 259300060  </p>
 <p>Italia 
@@ -347,10 +345,9 @@ Chiesi Italia S.p.A.<br />
 Tel: + 39 0521 2 
 Suomi/Finland 
 Chiesi Pharma AB<br />
-Puh/Tel: +46 8 753 35<br />
-Κύπρος 
-Chiesi Farmaceutici S.p.A.<br />
-Τηλ: + 39 0521 2791  </p>
+Puh/Tel: +46 8 753 35  </p>
+<p>Chiesi Farmaceutici S.p.A.<br />
+ : + 39 0521 2791  </p>
 <p>Sverige 
 Chiesi Pharma AB<br />
 Tel: +46 8 753 35<br />
@@ -361,7 +358,7 @@ United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2 </p>
 <p>This leaflet was last revised in . </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>

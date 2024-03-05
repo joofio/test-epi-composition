@@ -4,7 +4,7 @@ Instance: composition-en-92909816e3fb20d8a0e9b31b0e2db7d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for kuvan Package Leaflet"
 Description:  "Composition for kuvan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -69,7 +69,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What kuvan is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kuvan contains the active substance sapropterin which is a synthetic copy of a body’s own substance called 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kuvan contains the active substance sapropterin which is a synthetic copy of a body s own substance called 
 tetrahydrobiopterin (BH4). BH4 is required by the body to use an amino acid called phenylalanine in order to 
 build another amino acid called tyrosine. </p>
 <p>Kuvan is used to treat hyperphenylalaninaemia (HPA) or phenylketonuria (PKU) in patients of all ages. HPA 
@@ -92,12 +92,14 @@ phenylalanine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Kuvan<br />
 If you are allergic to sapropterin or any of the other ingredients of this medicine (listed in section 6). </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Kuvan, particularly: 
-- if you are 65 years of age or older 
-- if you have problems with your kidney or liver 
-- if you are ill. Consultation with a physician is recommended during illness as blood phenylalanine 
-levels may increase 
-- if you have predisposition to convulsions </p>
+Talk to your doctor or pharmacist before taking Kuvan, particularly:</p>
+<ul>
+<li>if you are 65 years of age or older </li>
+<li>if you have problems with your kidney or liver </li>
+<li>if you are ill. Consultation with a physician is recommended during illness as blood phenylalanine 
+levels may increase </li>
+<li>if you have predisposition to convulsions </li>
+</ul>
 <p>When you are treated with Kuvan, your doctor will test your blood to verify how much phenylalanine and 
 tyrosine it contains and may decide to adjust the dose of Kuvan or your diet if needed. </p>
 <p>You must continue your diet treatment as recommended by your doctor. Do not change your diet without 
@@ -107,12 +109,14 @@ phenylalanine levels often during your treatment with Kuvan, to make sure that y
 levels are not too high or too low. </p>
 <p>Other medicines and Kuvan 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. In 
-particular you should tell your doctor if you are using: 
-- levodopa (used to treat Parkinson’s disease) 
-- medicines for treatment of cancer (e.g. methotrexate) 
-- medicines for treatment of bacterial infections (e.g. trimethoprim) 
-- medicines that cause dilation of blood vessels, (such as glyceryl trinitrate (GTN), isosorbide dinitrate 
-(ISDN), sodium nitroprusside (SNP), molsidomin, minoxidil). </p>
+particular you should tell your doctor if you are using:</p>
+<ul>
+<li>levodopa (used to treat Parkinson s disease) </li>
+<li>medicines for treatment of cancer (e.g. methotrexate) </li>
+<li>medicines for treatment of bacterial infections (e.g. trimethoprim) </li>
+<li>medicines that cause dilation of blood vessels, (such as glyceryl trinitrate (GTN), isosorbide dinitrate 
+(ISDN), sodium nitroprusside (SNP), molsidomin, minoxidil). </li>
+</ul>
 <p>Pregnancy and breast feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
 doctor or pharmacist for advice before taking this medicine. </p>
@@ -125,7 +129,7 @@ whether you must take this medicine.  </p>
 <p>Driving and using machines 
 Kuvan is not expected to affect the ability to drive and use machines. </p>
 <p>Important information about some of the ingredients of Kuvan 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’. </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kuvan"
@@ -178,14 +182,14 @@ The dose is based on body weight. This will change as your child grows. Your doc
 * the amount of solution you will need to give your child for their prescribed dose </p>
 <p>Your child should drink the solution with a meal.  </p>
 <p>Give your child the prescribed amount of solution within 15 to 20 minutes after dissolving. If you are not 
-able to give your child’s dose within 15 to 20 minutes after dissolving the tablets, you will need to prepare a 
+able to give your child s dose within 15 to 20 minutes after dissolving the tablets, you will need to prepare a 
 new solution as the unused solution should not be used beyond 20 minutes. </p>
-<p>Supplies needed to prepare and give your child’s dose of Kuvan 
+<p>Supplies needed to prepare and give your child s dose of Kuvan 
 * The number of Kuvan tablets needed for one dose 
 * A medicine cup with graduation markings at 20, 40, 60 and 80 ml 
 * A glass or cup 
 * Small spoon or clean utensil for stirring 
-* Oral syringe (graduated in 1 ml divisions) (10 ml syringe for administration of volumes of ≤10 ml or 
+* Oral syringe (graduated in 1 ml divisions) (10 ml syringe for administration of volumes of  10 ml or 
 20 ml syringe for administration of volumes of &gt;10 ml) </p>
 <p>Ask your doctor for the medicine cup for dissolving the tablets and the 10 ml or 20 ml oral syringe if you do 
 not have these supplies. </p>
@@ -200,11 +204,11 @@ the medicine cup. Slowly pull back the plunger to withdraw the amount as instruc
 transferred to a glass or cup for administration (e.g. if your doctor told you to dissolve two Kuvan 
 tablets in 40 ml water and administer 30 ml to your child, you would have to use the 20 ml oral 
 syringe two times to draw up 30 ml (e.g. 20 ml + 10 ml) of the solution and transfer it to a glass or cup 
-for administration). Use a 10 ml oral syringe for administration of volumes ≤10 ml or a 20 ml oral 
+for administration). Use a 10 ml oral syringe for administration of volumes  10 ml or a 20 ml oral 
 syringe for administration of volumes &gt;10 ml. 
 * If your baby is too small to drink from a glass or a cup you may administer the solution via the oral 
 syringe. Draw up the prescribed volume from the solution prepared in the medicine cup and place the 
-tip of the oral syringe into your baby’s mouth. Point the tip of the oral syringe towards either cheek. 
+tip of the oral syringe into your baby s mouth. Point the tip of the oral syringe towards either cheek. 
 Push on the plunger slowly, a small amount at a time, until all of the solution in the oral syringe is 
 given.<br />
 * Throw away any remaining solution. Remove the plunger from the barrel of the oral syringe. Wash 
@@ -237,8 +241,8 @@ reaction to the medicine. If you notice these signs, contact your doctor immedia
 Headache and runny nose. </p>
 <p>Common side effects (may affect up to 1 in 10 people) 
 Sore throat, nasal congestion or stuffy nose, cough, diarrhoea, vomiting, stomach ache, too low levels of 
-phenylalanine in blood tests, indigestion and feeling sick (nausea) (see section 2: “Warnings and 
-precautions”). </p>
+phenylalanine in blood tests, indigestion and feeling sick (nausea) (see section 2:  Warnings and 
+precautions ). </p>
 <p>Not known side effects (frequency cannot be estimated from the available data) 
 Gastritis (inflammation of the lining of the stomach), oesophagitis (inflammation of the lining of the gullet). </p>
 <p>Reporting of side effects 
@@ -252,9 +256,9 @@ Appendix V. By reporting side effects you can help provide more information on t
   * code.text = "5. How to store kuvan"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after “EXP”. The 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>Store below 25°C.<br />
+<p>Store below 25 C.<br />
 Keep the bottle tightly closed in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
 away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -271,7 +275,7 @@ dihydrochloride (equivalent to 77 mg of sapropterin).
 - The other ingredients are mannitol (E421), calcium hydrogen phosphate anhydrous, crospovidone type 
 A, ascorbic acid (E300), sodium stearyl fumarate, and riboflavin (E101). </p>
 <p>What Kuvan looks like and contents of the pack 
-Kuvan 100 mg soluble tablets are off-white to light yellow with “177” imprinted on one face. </p>
+Kuvan 100 mg soluble tablets are off-white to light yellow with  177  imprinted on one face. </p>
 <p>It is available in bottles with child-resistant closure of 30, 120 or 240 soluble tablets. Each bottle contains a 
 small plastic tube of desiccant (silica gel). </p>
 <p>Not all pack sizes may be marketed. </p>

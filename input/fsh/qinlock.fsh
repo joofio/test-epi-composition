@@ -4,7 +4,7 @@ Instance: composition-en-f451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: CompositionUvEpi
 Title: "Composition for qinlock Package Leaflet"
 Description:  "Composition for qinlock Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -73,9 +73,11 @@ Usage: #example
 Protein kinase inhibitors are used to treat cancer by stopping the activity of certain proteins that are 
 involved in the growth and spread of cancer cells. </p>
 <p>QINLOCK is used to treat adults with gastrointestinal stromal tumour (GIST), a rare type of 
-cancer of the digestive system including the stomach and bowel, that has: 
-- spread to other parts of the body or cannot be removed by surgery 
-- been treated with at least 3 previous cancer medicines, including imatinib. </p>
+cancer of the digestive system including the stomach and bowel, that has:</p>
+<ul>
+<li>spread to other parts of the body or cannot be removed by surgery </li>
+<li>been treated with at least 3 previous cancer medicines, including imatinib. </li>
+</ul>
 <p>If you have any questions about how QINLOCK works or why this medicine has been prescribed for 
 you, please ask your doctor. </p>         </div>"""   
           
@@ -89,10 +91,12 @@ you, please ask your doctor. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take QINLOCK if you are allergic to ripretinib or any of the other ingredients of this 
 medicine (listed in section 6). </p>
 <p>Warnings and precautions </p>
-<p>Before taking QINLOCK, talk to your doctor or pharmacist if you have or have a history of: 
-- high blood pressure. Your doctor will monitor your blood pressure prior to and during treatment 
-with QINLOCK and may give you a medicine to treat high blood pressure, if needed.  </p>
+<p>Before taking QINLOCK, talk to your doctor or pharmacist if you have or have a history of:</p>
 <ul>
+<li>
+<p>high blood pressure. Your doctor will monitor your blood pressure prior to and during treatment 
+with QINLOCK and may give you a medicine to treat high blood pressure, if needed.  </p>
+</li>
 <li>
 <p>heart conditions. Your doctor may perform additional tests to assess how your heart functions 
 prior to and during your treatment with QINLOCK. </p>
@@ -101,12 +105,14 @@ prior to and during your treatment with QINLOCK. </p>
 <p>liver or kidney problems. </p>
 </li>
 </ul>
-<p>When taking QINLOCK, talk to your doctor or pharmacist if: 
-- you notice redness, pain, swelling, or blisters on the palms of your hands or soles of your feet. 
+<p>When taking QINLOCK, talk to your doctor or pharmacist if:</p>
+<ul>
+<li>
+<p>you notice redness, pain, swelling, or blisters on the palms of your hands or soles of your feet. 
 This is a skin problem called palmar-plantar erythrodysaesthesia syndrome (PPES). Your doctor 
 may continue your treatment, change your dose or stop your treatment until your condition 
 improves (see section 4). </p>
-<ul>
+</li>
 <li>
 <p>you notice unexpected skin changes such as a new wart, open sore or reddish bump that bleeds 
 or does not heal, or a change in size or colour of a mole. QINLOCK may increase the risk of 
@@ -115,7 +121,7 @@ treatment with QINLOCK and routinely during treatment. It is important that you 
 skin regularly. </p>
 </li>
 <li>
-<p>you have wounds from any recent surgery that aren’t healing as expected. QINLOCK may 
+<p>you have wounds from any recent surgery that aren t healing as expected. QINLOCK may 
 affect the way wounds heal. Your doctor may decide to temporarily stop treatment with 
 QINLOCK a few days before surgery and until your wound has healed after surgery. Your 
 doctor will decide when to start QINLOCK again. It is important that you tell your doctor if you 
@@ -138,7 +144,7 @@ QINLOCK can cause harm to your unborn baby. Do not become pregnant while taking 
 Use effective contraception during treatment and for at least 1 week after the final dose of QINLOCK 
 if you are a female of childbearing potential or a male with a female partner of childbearing potential. 
 If using hormonal contraception, add a barrier contraception (such as condoms). See section on 
-‘Contraception, pregnancy, breastfeeding and fertility’. </p>
+ Contraception, pregnancy, breastfeeding and fertility . </p>
 <p>Children and adolescents 
 Do not give this medicine to children and adolescents below 18 years of age because it has not been 
 studied in this age group.  </p>
@@ -147,24 +153,26 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines.  </p>
 <p>QINLOCK can affect the way some medicines work. Also, some medicines can affect the way 
 QINLOCK works.  </p>
-<p>In particular, tell your doctor if you are taking any of the following medicines:<br />
-- medicines used to treat fungal infections (such as ketoconazole, itraconazole, posaconazole, 
-voriconazole)<br />
-- medicines used to treat bacterial infections (such as erythromycin, clarithromycin, rifampicin)<br />
-- medicines used to treat HIV (such as ritonavir, efavirenz, etravirine) 
-- medicines used for epilepsy or fits (such as phenytoin, carbamazepine, phenobarbital)<br />
-- medicines used to treat irregular heartbeats (such as digoxin) 
-- medicines used to prevent stroke or harmful blood clots (such as dabigatran etexilate) 
-- medicines used to lower elevated cholesterol (such as rosuvastatin) 
-- medicines used to reduce blood glucose or to treat diabetes (such as repaglinide or metformin) 
-- medicines used to treat severe bowel and rheumatic joint inflammation (such as sulfasalazine) 
-- medicines used to treat cancer (such as paclitaxel or irinotecan) 
-- medicines used to prevent organ rejection (such as cyclosporine, tacrolimus) 
-- medicines used to treat low platelet counts in the blood (such as eltrombopag) 
-- medicines used to treat muscle spasms (such as tizanidine) 
-- medicines used to relieve anxiety before procedures (such as midazolam) 
-- herbal preparations used to treat depression and anxiety containing St. John’s Wort (Hypericum 
-perforatum). </p>
+<p>In particular, tell your doctor if you are taking any of the following medicines:</p>
+<ul>
+<li>medicines used to treat fungal infections (such as ketoconazole, itraconazole, posaconazole, 
+voriconazole)  </li>
+<li>medicines used to treat bacterial infections (such as erythromycin, clarithromycin, rifampicin)  </li>
+<li>medicines used to treat HIV (such as ritonavir, efavirenz, etravirine) </li>
+<li>medicines used for epilepsy or fits (such as phenytoin, carbamazepine, phenobarbital)  </li>
+<li>medicines used to treat irregular heartbeats (such as digoxin) </li>
+<li>medicines used to prevent stroke or harmful blood clots (such as dabigatran etexilate) </li>
+<li>medicines used to lower elevated cholesterol (such as rosuvastatin) </li>
+<li>medicines used to reduce blood glucose or to treat diabetes (such as repaglinide or metformin) </li>
+<li>medicines used to treat severe bowel and rheumatic joint inflammation (such as sulfasalazine) </li>
+<li>medicines used to treat cancer (such as paclitaxel or irinotecan) </li>
+<li>medicines used to prevent organ rejection (such as cyclosporine, tacrolimus) </li>
+<li>medicines used to treat low platelet counts in the blood (such as eltrombopag) </li>
+<li>medicines used to treat muscle spasms (such as tizanidine) </li>
+<li>medicines used to relieve anxiety before procedures (such as midazolam) </li>
+<li>herbal preparations used to treat depression and anxiety containing St. John s Wort (Hypericum 
+perforatum). </li>
+</ul>
 <p>QINLOCK with food and drink 
 Grapefruit juice may change the amount of QINLOCK in your body. Drinking grapefruit juice or 
 eating grapefruit is not recommended during treatment with this medicine. </p>
@@ -225,12 +233,14 @@ more closely.  </p>
 If you have accidentally taken too many tablets, seek urgent medical attention. </p>
 <p>If you forget to take QINLOCK 
 What to do if you forget to take this medicine, depends on when you remember the dose that has been 
-forgotten. If it is: 
-- 8 hours or less (4 hours or less for 150 mg twice per day doses) after the time it should have 
-been taken, take the missed dose as soon as you remember. Then take the next dose as usual. 
-- more than 8 hours after (more than 4 hours for 150 mg twice per day doses) the time it should 
+forgotten. If it is:</p>
+<ul>
+<li>8 hours or less (4 hours or less for 150 mg twice per day doses) after the time it should have 
+been taken, take the missed dose as soon as you remember. Then take the next dose as usual. </li>
+<li>more than 8 hours after (more than 4 hours for 150 mg twice per day doses) the time it should 
 have been taken, skip the missed dose. Then take the next dose at the usual time.<br />
-Do not take a double dose to make up a forgotten dose.  </p>
+Do not take a double dose to make up a forgotten dose.  </li>
+</ul>
 <p>If you are sick when taking QINLOCK 
 If you are sick (vomiting) after taking this medicine, do not take an additional dose, but carry on as 
 normal. Take your next dose of tablets the next day at the usual time and tell your doctor you have 
@@ -247,15 +257,19 @@ been sick.  </p>
 <p>Serious side effects 
 Seek urgent medical attention if you experience any of the following 
 (see 
-section 2):<br />
-- Skin problems (called PPES)<br />
-PPES is a very common side effect when taking this medicine. If you develop: 
-* redness, pain, swelling, or blisters on the palms of your hands or soles of your feet, 
+section 2):</p>
+<ul>
+<li>Skin problems (called PPES)<br />
+PPES is a very common side effect when taking this medicine. If you develop: </li>
+<li>
+<p>redness, pain, swelling, or blisters on the palms of your hands or soles of your feet, 
 your doctor may continue your treatment, change your dose or stop your treatment until your condition 
 improves.  </p>
-<ul>
-<li>High blood pressure<br />
-High blood pressure is a very common side effect when taking this medicine. If you develop: </li>
+</li>
+<li>
+<p>High blood pressure<br />
+High blood pressure is a very common side effect when taking this medicine. If you develop: </p>
+</li>
 <li>
 <p>headache, feeling of lightheadedness, or dizziness, these may be symptoms of high 
 blood pressure,<br />
@@ -268,52 +282,56 @@ Heart failure is a common side effect when taking this medicine. If you feel: </
 <li>very tired, are short of breath, have swollen feet and/or ankles,<br />
 these may be symptoms of heart problems.  </li>
 </ul>
-<p>Talk to your doctor or pharmacist if you experience: </p>
+<p>Talk to your doctor or pharmacist if you experience:</p>
 <ul>
 <li>Skin cancer<br />
-Treatment with QINLOCK may result in certain types of skin cancer such as ‘cutaneous 
-squamous cell carcinoma’ and ‘melanoma’. Tell your doctor if you notice any skin changes 
+Treatment with QINLOCK may result in certain types of skin cancer such as  cutaneous 
+squamous cell carcinoma  and  melanoma . Tell your doctor if you notice any skin changes 
 during treatment including a new wart, open sore or reddish bump that bleeds or does not heal, 
 or a change in size or colour of a mole. Your doctor will check your skin when starting 
 treatment with QINLOCK and routinely during treatment (see section 2). </li>
 </ul>
-<p>Very common side effects (may affect more than 1 in 10 people): 
-- feeling sick (nausea) 
-- constipation 
-- diarrhoea 
-- being sick (vomiting) 
-- joint pain 
-- headache 
-- shortness of breath 
-- blood tests showing increased levels of bilirubin, a substance produced by the liver 
-- blood tests showing increased levels of lipase, an enzyme involved in digestion 
-- blood tests showing decreased levels of phosphate<br />
-- tiredness 
-- hair loss 
-- muscle ache or pain 
-- weight loss 
-- muscle spasms 
-- dry skin 
-- back pain 
-- cough 
-- swelling in hands and lower legs 
-- pain in hands or feet<br />
-- itching<br />
-- non-cancerous skin lesions </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- sores in mouth 
-- belly (abdominal) pain 
-- peripheral nerve impairment (numbness and tingling in feet or hands, burning, stabbing or 
+<p>Very common side effects (may affect more than 1 in 10 people):</p>
+<ul>
+<li>feeling sick (nausea) </li>
+<li>constipation </li>
+<li>diarrhoea </li>
+<li>being sick (vomiting) </li>
+<li>joint pain </li>
+<li>headache </li>
+<li>shortness of breath </li>
+<li>blood tests showing increased levels of bilirubin, a substance produced by the liver </li>
+<li>blood tests showing increased levels of lipase, an enzyme involved in digestion </li>
+<li>blood tests showing decreased levels of phosphate  </li>
+<li>tiredness </li>
+<li>hair loss </li>
+<li>muscle ache or pain </li>
+<li>weight loss </li>
+<li>muscle spasms </li>
+<li>dry skin </li>
+<li>back pain </li>
+<li>cough </li>
+<li>swelling in hands and lower legs </li>
+<li>pain in hands or feet  </li>
+<li>itching  </li>
+<li>non-cancerous skin lesions </li>
+</ul>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>sores in mouth </li>
+<li>belly (abdominal) pain </li>
+<li>peripheral nerve impairment (numbness and tingling in feet or hands, burning, stabbing or 
 shooting pain in affected areas, loss of balance and co-coordination, and muscle weakness, 
-especially in the feet) 
-- skin reactions such as flaking and inflammation of the skin, rash characterised by a flat, red area 
-on the skin that is covered with small bumps or acne 
-- abnormal liver test (possible liver damage shown by blood test) 
-- depression 
-- underactive thyroid gland<br />
-- weakness 
-- chest pain 
-- rapid heart rate </p>
+especially in the feet) </li>
+<li>skin reactions such as flaking and inflammation of the skin, rash characterised by a flat, red area 
+on the skin that is covered with small bumps or acne </li>
+<li>abnormal liver test (possible liver damage shown by blood test) </li>
+<li>depression </li>
+<li>underactive thyroid gland  </li>
+<li>weakness </li>
+<li>chest pain </li>
+<li>rapid heart rate </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
@@ -345,9 +363,9 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is ripretinib. Each tablet contains 50 mg of ripretinib. 
 - The other ingredients are crospovidone (E1202), hypromellose acetate succinate, lactose 
 monohydrate, magnesium stearate (E470b), microcrystalline cellulose (E460), and colloidal 
-hydrated silica (E551) (see section 2 “QINLOCK contains lactose”). </p>
+hydrated silica (E551) (see section 2  QINLOCK contains lactose ). </p>
 <p>What QINLOCK looks like and contents of the pack 
-QINLOCK tablets are white to off-white, oval in shape, and debossed with ‘DC1' on one side.  </p>
+QINLOCK tablets are white to off-white, oval in shape, and debossed with  DC1' on one side.  </p>
 <p>Each bottle is child-resistant and contains 30 or 90 tablets and a desiccant. The bottles are provided 
 with aluminium foil/polyethylene (PE) tamper evident seal. The desiccant is a moisture absorbing 
 material filled in a small container to protect the tablets from moisture. Always keep the desiccant 
@@ -365,7 +383,7 @@ Strawinskylaan 31077ZX, Amsterdam
 Netherlands </p>
 <p>For any information about this medicine, please contact the Marketing Authorization Holder:  </p>
 <p>Deciphera Pharmaceuticals (Netherlands) B.V., NL 
-Tel/ Tél/ Teл/ Tlf/ Τηλ/ Sími/ Puh: +318006333435<br />
+Tel/ T l/ Te / Tlf/  / S mi/ Puh: +318006333435<br />
 e-mail: medicalinformation@deciphera.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

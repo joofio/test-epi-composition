@@ -4,7 +4,7 @@ Instance: composition-en-4e78538b495fe763304c16d92584575d
 InstanceOf: CompositionUvEpi
 Title: "Composition for eptifibatide Package Leaflet"
 Description:  "Composition for eptifibatide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -59,8 +59,7 @@ Usage: #example
 3. How to use Eptifibatide Accord 
 4. Possible side effects 
 5. How to store Eptifibatide Accord 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +80,7 @@ with aspirin and unfractionated heparin. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take eptifibatide"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Eptifibatide Accord: </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Eptifibatide Accord:</p>
 <ul>
 <li>if you are allergic to eptifibatide or any of the other ingredients of this medicine (listed in section 
 6). </li>
@@ -146,8 +145,7 @@ nurse. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects </p>
-<p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Very common side effects 
 These may affect more than 1 in 10 people 
 - minor or major bleeding, (for example, blood in urine, blood in stool, vomiting blood, or bleeding 
@@ -189,7 +187,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children  </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial after (EXP). The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2°C – 8°C). </p>
+<p>Store in a refrigerator (2 C   8 C). </p>
 <p>Keep the vial in the outer package in order to protect from light. However, protection of Eptifibatide 
 Accord solution from light is not necessary during administration. </p>
 <p>Before using, the vial contents should be inspected. 
@@ -204,13 +202,11 @@ how to throw away medicines you no longer use. These measures will help protect 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eptifibatide Accord contains 
- 
-The active substance is eptifibatide.<br />
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Eptifibatide Accord contains </p>
+<p>The active substance is eptifibatide.<br />
 Eptifibatide Accord 0.75 mg/ml: Each ml of solution for infusion contains 0.75 mg of 
-eptifibatide. One vial of 100 ml of solution for infusion contains 75 mg of eptifibatide.<br />
- 
-The other ingredients are citric acid monohydrate, sodium hydroxide and water for injections. </p>
+eptifibatide. One vial of 100 ml of solution for infusion contains 75 mg of eptifibatide.  </p>
+<p>The other ingredients are citric acid monohydrate, sodium hydroxide and water for injections. </p>
 <p>What Eptifibatide Accord looks like and contents of the pack 
 Eptifibatide Accord 0.75 mg/ml solution for infusion: 100 ml vial, pack of one vial.  </p>
 <p>Eptifibatide Accord 0.75 mg/ml: The clear, colourless solution is contained in a 100 ml glass vial, 
@@ -219,12 +215,12 @@ which is closed with a butyl rubber stopper and sealed with a flip-off aluminium
 <p>Marketing Authorisation Holder: </p>
 <p>Accord Healthcare S.L.U.<br />
 World Trade Center, Moll de Barcelona, s/n,<br />
-Edifici Est 6ª planta,<br />
+Edifici Est 6  planta,<br />
 08039 Barcelona,<br />
 Spain </p>
 <p>Manufacturer: </p>
 <p>Accord Healthcare Polska Sp.z o.o., 
 ul. Lutomierska 50,95-200 Pabianice, Poland </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
+<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

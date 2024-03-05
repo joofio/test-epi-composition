@@ -4,7 +4,7 @@ Instance: composition-en-1c8a533780954e330a4c10339c9c24f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenpozyme Package Leaflet"
 Description:  "Composition for xenpozyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,7 +90,7 @@ symptoms. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Xenpozyme<br />
 - If you have experienced life-threatening allergic (anaphylactic) reactions to olipudase alfa (see 
-section ‘Warnings and precautions’ below) or any of the other ingredients of this medicine 
+section  Warnings and precautions  below) or any of the other ingredients of this medicine 
 (listed in section 6). </p>
 <p>Warnings and precautions<br />
 You may have side effects called infusion-associated reactions (IARs) that may be caused by the 
@@ -126,39 +126,33 @@ of breast-feeding the baby and the benefit of Xenpozyme to the mother. </p>
 Xenpozyme may have a minor influence on the ability to drive and use machines because you may 
 experience low blood pressure (which may make you feel faint). </p>
 <p>Xenpozyme contains sodium<br />
-This medicine contains 0.60 mg sodium (main component of cooking/table salt) per 4 mg vial or </p>         </div>"""   
+This medicine contains 0.60 mg sodium (main component of cooking/table salt) per 4 mg vial or 
+3.02 mg sodium per 20 mg vial. This is equivalent to 0.03% and 0.15%, respectively, of the 
+recommended maximum daily dietary intake of sodium for an adult or an adolescent and  0.08% and 
+  0.38%, respectively, of the maximum acceptable daily intake of sodium for children below 16 years 
+of age. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xenpozyme"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take xenpozyme"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>recommended maximum daily dietary intake of sodium for an adult or an adolescent and ≤0.08% and 
-≤ 0.38%, respectively, of the maximum acceptable daily intake of sodium for children below 16 years 
-of age. </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xenpozyme will be given to you as a drip (infusion) under the supervision of a healthcare professional 
 who is experienced in the treatment of ASMD or other metabolic diseases. </p>
 <p>The dose you receive is based on your body weight and will be given to you every two weeks. 
 Treatment starts with a low dose of the medicine, which is gradually increased. 
-Infusion usually lasts around 3 to 4 hours but may be shorter or longer based on your doctor’s 
+Infusion usually lasts around 3 to 4 hours but may be shorter or longer based on your doctor s 
 judgement, and may be shorter during the period whilst your dose is being increased. </p>
 <p>Adult patients 
 The recommended starting dose of Xenpozyme is 0.1 mg for each kg of body weight. This is increased 
 in a planned way with each subsequent dose, until the recommended dose of 3 mg for each kg of body 
 weight every 2 weeks is reached. It typically takes up to 14 weeks to reach the recommended dose but 
-may be longer based on your doctor’s judgement. </p>
+may be longer based on your doctor s judgement. </p>
 <p>Children 
 The recommended starting dose of Xenpozyme is 0.03 mg for each kg of body weight. The subsequent 
 doses should be increased in a planned way up to the recommended dose of 3 mg for each kg of body 
 weight every 2 weeks. It typically takes up to 16 weeks to reach the recommended dose but may be 
-longer based on your doctor’s judgement. </p>
+longer based on your doctor s judgement. </p>
 <p>Home infusion 
 Your doctor may consider home infusion of Xenpozyme if you are on stable dose and tolerating your 
 infusions well. This decision to move to home infusion should be made after evaluation and 
@@ -175,12 +169,13 @@ within 3 days from the scheduled infusion. Depending on the number of missed dos
 may have to restart from a lower dose. </p>
 <p>If you have missed an infusion or are unable to attend a scheduled appointment, please contact your 
 doctor right away. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store xenpozyme"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store xenpozyme"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Infusion-associated reactions (IARs) have been seen while patients were being given the medicine or 
@@ -193,7 +188,7 @@ reactions. If the infusion reaction is severe, your doctor may stop the infusion
 giving appropriate medical treatment. </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * Headache 
-* Fever – body temperature increased 
+* Fever   body temperature increased 
 * Raised, itchy rash (hives) 
 * Nausea 
 * Vomiting 
@@ -239,20 +234,135 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store xenpozyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xenpozyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use Xenpozyme after the expiry date stated on the label and the carton. The expiry date refers 
+to the last day of the month. </p>
+<p>Store in refrigerator between 2 C to 8 C. </p>
+<p>After dilution, immediate use is recommended. </p>
+<p>If not used immediately, the reconstituted solution may be stored for up to 24 hours at 2 C to 8 . </p>
+<p>After dilution, the solution can be stored for up to 24 hours at 2-8 C followed by 12 hours (including 
+infusion time) at room temperature. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your doctor or nurse how 
+to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use Xenpozyme after the expiry date stated on the label and the carton. The expiry date refers 
-to the last day of the month. </p>
-<p>Store in refrigerator between 2°C to 8°C. </p>
-<p>After dilution, immediate use is recommended. </p>
-<p>If not used immediately, the reconstituted solution may be stored for up to 24 hours at 2°C to 8°. </p>
-<p>After dilution, the solution can be stored for up to 24 hours at 2-8°C followed by 12 hours (including 
-infusion time) at room temperature. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your doctor or nurse how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Xenpozyme contains<br />
+- The active substance is olipudase alfa. One vial contains 4 mg or 20 mg of olipudase alfa. 
+- Other ingredients are 
+- L-methionine 
+- Sodium phosphate dibasic heptahydrate 
+- Sodium phosphate monobasic monohydrate 
+-  Sucrose 
+see section 2 Xenpozyme contains sodium </p>
+<p>What Xenpozyme looks like and contents of the pack 
+Xenpozyme is a powder for concentrate for solution for infusion in a vial (4 or 20 mg/vial). 
+The powder is white to off-white lyophilised powder. 
+After mixing with sterile water, it is a clear, colorless solution. The solution must be further diluted 
+before infusion. </p>
+<p>Marketing Authorisation Holder 
+Sanofi B.V., Paasheuvelweg 25, 1105 BP Amsterdam, The Netherlands </p>
+<p>Manufacturer 
+Genzyme Ireland Limited, IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Sanofi Belgium 
+T l/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91  </p>
+<p>Swixx Biopharma EOOD 
+ .: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarorsz g 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: + 31 20 245 4 
+Eesti 
+Norge 
+Swixx Biopharma O <br />
+Tel: +372 640 10<br />
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71  </p>
+<p>Sanofi-Aventis   AEBE 
+ : +30 210 900 16<br />
+ sterreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmac uticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska<br />
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Rom nia 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+ sland 
+Vistor hf. 
+S mi: +354 535 7 
+Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>C.A. Papaellinas Ltd. 
+ : +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

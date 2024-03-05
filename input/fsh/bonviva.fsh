@@ -4,7 +4,7 @@ Instance: composition-en-9b4ee0069b7a546f9c15b1aee0013646
 InstanceOf: CompositionUvEpi
 Title: "Composition for bonviva Package Leaflet"
 Description:  "Composition for bonviva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -60,8 +60,7 @@ Usage: #example
 3. How to take Bonviva 
 4. Possible side effects 
 5. How to store Bonviva 
-6. Content of the pack and other information 
-         </div>"""   
+6. Content of the pack and other information          </div>"""   
           
 
 * section[=].section[+]
@@ -71,12 +70,12 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bonviva belongs to a group of medicines called bisphosphonates. It contains the active substance 
 ibandronic acid. Bonviva may reverse bone loss by stopping more loss of bone and increasing bone 
-mass in most women who take it, even though they won’t be able to see or feel a difference. Bonviva 
+mass in most women who take it, even though they won t be able to see or feel a difference. Bonviva 
 may help lower the chances of breaking bones (fractures). This reduction in fractures was shown for 
 the spine but not for the hip. </p>
 <p>Bonviva is prescribed to you to treat postmenopausal osteoporosis because you have an 
 increased risk of fractures. Osteoporosis is a thinning and weakening of the bones, which is common 
-in women after the menopause. At the menopause, a woman’s ovaries stop producing the female 
+in women after the menopause. At the menopause, a woman s ovaries stop producing the female 
 hormone, oestrogen, which helps to keep her skeleton healthy. </p>
 <p>The earlier a woman reaches the menopause, the greater her risk of fractures in osteoporosis.  </p>
 <p>Other things that can increase the risk of fractures include: 
@@ -100,7 +99,7 @@ hormone, oestrogen, which helps to keep her skeleton healthy. </p>
 * If you are allergic to ibandronic acid, or any of the other ingredients of this medicine listed in 
 section 6. * If you have certain problems with your gullet/food pipe (oesophagus) such as narrowing or 
 difficulty swallowing. 
-* If you can’t stand or sit upright for at least one hour (60 minutes) at a time. 
+* If you can t stand or sit upright for at least one hour (60 minutes) at a time. 
 * If you have, or had in the past low blood calcium. Please consult your doctor. </p>
 <p>Warnings and precautions 
 A side effect called osteonecrosis of the jaw (ONJ) (bone damage in the jaw) has been reported very 
@@ -112,7 +111,7 @@ you should take. </p>
 <p>Before receiving treatment, tell your doctor/nurse (health care professional) if: 
 * you have any problems with your mouth or teeth such as poor dental health, gum disease, or a 
 planned tooth extraction 
-* you don’t receive routine dental care or have not had a dental check up for a long time 
+* you don t receive routine dental care or have not had a dental check up for a long time 
 * you are a smoker (as this may increase the risk of dental problems) 
 * you have previously been treated with a bisphosphonate (used to treat or prevent bone 
 disorders) 
@@ -126,7 +125,7 @@ about your dental treatment and tell your dentist that you are being treated wit
 <p>Contact your doctor and dentist immediately if you experience any problems with your mouth or teeth 
 such as loose teeth, pain or swelling, or non-healing of sores or discharge, as these could be signs of 
 osteonecrosis of the jaw. </p>
-<p>Some people need to be especially careful while they’re taking Bonviva. Talk to your doctor before 
+<p>Some people need to be especially careful while they re taking Bonviva. Talk to your doctor before 
 taking Bonviva: 
 * If you have any disturbances of mineral metabolism (such as vitamin D deficiency).<br />
 * If your kidneys are not functioning normally. 
@@ -150,40 +149,47 @@ influence the effects of Bonviva. </p>
 <p>Acetylsalicylic acid and other non-steroidal anti-inflammatory medicines (NSAIDs) (including 
 ibuprofen, diclofenac sodium and naproxen) may irritate the stomach and intestine. Bonviva 
 may also do so. So be especially careful if you take painkillers or anti-inflammatories while 
-you’re taking Bonviva.  </p>
+you re taking Bonviva.  </p>
 </li>
 </ul>
 <p>After swallowing your monthly Bonviva tablet, wait for 1 hour before taking any other medication, 
 including indigestion tablets, calcium supplements, or vitamins. </p>
 <p>Bonviva with food and drink: 
-Do not take Bonviva with food. Bonviva is less effective if it’s taken with food. 
+Do not take Bonviva with food. Bonviva is less effective if it s taken with food. 
 You can drink water but no other drinks  </p>
 <p>After you have taken Bonviva, please wait for 1 hour before you can have your first food and further 
-drinks. (see 3. How to take Bonviva). </p>
-<p>Pregnancy and breast feeding 
-Bonviva is for use only by postmenopausal women and must not be taken by women who could still 
-have a baby.<br />
-Do not take Bonviva if you are pregnant or breast feeding.<br />
-Ask your doctor or pharmacist for advice before taking this medicine. </p>
-<p>Driving and using machines 
-You can drive and use machines as it’s expected that Bonviva has no or negligible effect on your 
-ability to drive and use machines. </p>
-<p>Bonviva contains lactose. 
-If you have been told by your doctor that you cannot tolerate or digest some sugars (e.g. if you have a 
-galactose intolerance, the Lapp lactase deficiency or have problems with glucose-galactose 
-absorption), talk to your doctor before taking this medicine. </p>         </div>"""   
+drinks. (see </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bonviva"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take bonviva"
   * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast feeding 
+Bonviva is for use only by postmenopausal women and must not be taken by women who could still 
+have a baby.<br />
+Do not take Bonviva if you are pregnant or breast feeding.<br />
+Ask your doctor or pharmacist for advice before taking this medicine. </p>
+<p>Driving and using machines 
+You can drive and use machines as it s expected that Bonviva has no or negligible effect on your 
+ability to drive and use machines. </p>
+<p>Bonviva contains lactose. 
+If you have been told by your doctor that you cannot tolerate or digest some sugars (e.g. if you have a 
+galactose intolerance, the Lapp lactase deficiency or have problems with glucose-galactose 
+absorption), talk to your doctor before taking this medicine. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. </p>
 <p>The usual dose of Bonviva is one tablet once a month. </p>
 <p>Taking your monthly tablet 
-It’s important to follow these instructions carefully. They are designed to help your Bonviva tablet 
-reach your stomach quickly, so it’s less likely to cause irritation. </p>
+It s important to follow these instructions carefully. They are designed to help your Bonviva tablet 
+reach your stomach quickly, so it s less likely to cause irritation. </p>
 <ul>
 <li>Take one Bonviva 150 mg tablet once a month. </li>
 <li>Choose one day of the month that will be easy to remember. You can choose either the same 
@@ -212,7 +218,7 @@ it is advised to use bottled water with a low mineral content. </p>
 <p>Swallow your tablet whole, do not chew it, crush it or let it dissolve in your mouth. </p>
 </li>
 <li>
-<p>For the next hour (60 minutes) after you’ve taken your tablet </p>
+<p>For the next hour (60 minutes) after you ve taken your tablet </p>
 </li>
 <li>
 <p>do not lie down; if you do not stay upright (standing or sitting), some of the medicine 
@@ -228,38 +234,37 @@ could leak back into your oesophagus </p>
 <p>do not take any other medicines. </p>
 </li>
 <li>
-<p>After you’ve waited for an hour, you can have your first food and drink of the day. Once you’ve 
-eaten, it’s OK to lie down if you wish, and to take any other medication you need. </p>
+<p>After you ve waited for an hour, you can have your first food and drink of the day. Once you ve 
+eaten, it s OK to lie down if you wish, and to take any other medication you need. </p>
 </li>
 </ul>
 <p>Continuing to take Bonviva 
-It’s important to keep taking Bonviva every month, as long as your doctor prescribes it for you. After 
+It s important to keep taking Bonviva every month, as long as your doctor prescribes it for you. After 
 5 years of using Bonviva, please consult with your doctor whether you should continue to take 
 Bonviva. </p>
 <p>If you take more Bonviva than you should 
-If you’ve taken more than one tablet by mistake, drink a full glass of milk and talk to your doctor 
+If you ve taken more than one tablet by mistake, drink a full glass of milk and talk to your doctor 
 straight away. </p>
-<p>Do not make yourself vomit, and do not lie down — this could cause Bonviva to irritate your 
+<p>Do not make yourself vomit, and do not lie down   this could cause Bonviva to irritate your 
 oesophagus. </p>
 <p>If you forget to take Bonviva </p>
-<p>• If you forget to take your tablet on the morning of your chosen day, do not take a tablet later 
+<p>If you forget to take your tablet on the morning of your chosen day, do not take a tablet later 
 in the day.<br />
 Instead, consult your calendar and find out when your next scheduled dose is. </p>
-<p>• If you forgot to take your tablet on your chosen day and your next scheduled dose is only 1 
-to 7 days away… </p>
+<p>If you forgot to take your tablet on your chosen day and your next scheduled dose is only 1 
+to 7 days away  </p>
 <p>Never take two Bonviva tablets within the same week. You should wait until the next 
 scheduled dose is due and take it as normal; then, continue taking one tablet once a month on 
-the scheduled days you’ve marked on your calendar.  </p>
-<p>• If you forgot to take your tablet on your chosen day and your next scheduled dose is more 
-than 7 days away…<br />
+the scheduled days you ve marked on your calendar.  </p>
+<p>If you forgot to take your tablet on your chosen day and your next scheduled dose is more 
+than 7 days away <br />
 You should take one tablet the next morning after the day you remember; then, continue taking 
-one tablet once a month on the scheduled days you’ve marked on your calendar. </p>         </div>"""         
-
+one tablet once a month on the scheduled days you ve marked on your calendar. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store bonviva"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store bonviva"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Talk to a nurse or a doctor straight away if you notice any of the following serious side effects - you may need urgent medical treatment: </p>
@@ -306,55 +311,16 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-* section[=].section[+]
-  * title = "5. How to store bonviva"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bonviva"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>There are no special storage instructions. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after “EXP”. The expiry 
-date refers to the last day of that month. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
-        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Bonviva contains </p>
-<ul>
-<li>The active substance is ibandronic acid. One tablet contains 150 mg of ibandronic acid (as 
-sodium monohydrate). </li>
-<li>The other ingredients are: </li>
-</ul>
-<p>tablet core: lactose monohydrate, povidone, cellulose microcrystalline, crospovidone, stearic acid 
-purified, silica colloidal anhydrous </p>
-<p>tablet coat: hypromellose, titanium dioxide (E 171), talc, macrogol 6 
-What Bonviva looks like and contents of the pack </p>
-<p>Bonviva tablets are white to off white, of oblong shape and marked “BNVA” on one side, and “150” 
-on the other side. The tablets are supplied in blisters containing 1 or 3 tablets. 
-Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>Marketing Authorisation Holder 
-Atnahs Pharma Netherlands B.V. 
-Copenhagen Towers,<br />
-Ørestads Boulevard 108, 5.tv 
-DK-2300 København S<br />
-Denmark </p>
-<p>Manufacturer </p>
-<p>IL CSM Clinical Supplies Management GmbH 
-Marie-Curie-Strasse 8 
-Lörrach 
-Baden-Württemberg 
-79539, Germany </p>
-<p>Atnahs Pharma Denmark ApS, 
-Copenhagen Towers,<br />
-Ørestads Boulevard 108, 5.tv 
-DK-2300 København S 
-Denmark </p>
-<p>This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>There are no special storage instructions. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
+date refers to the last day of that month. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

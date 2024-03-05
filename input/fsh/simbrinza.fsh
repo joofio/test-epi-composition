@@ -4,7 +4,7 @@ Instance: composition-en-ba6a3e01d1da47ecc915e34664ffddaf
 InstanceOf: CompositionUvEpi
 Title: "Composition for simbrinza Package Leaflet"
 Description:  "Composition for simbrinza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -90,55 +90,65 @@ medicine (listed in section 6)
 - if you are allergic to sulphonamides (examples include medicines used to treat diabetes and 
 infections and also diuretics (water tablets)) 
 - if you are taking a monoamine oxidase (MAO) inhibitors (examples include medicines to treat 
-depression or Parkinson’s disease) or certain antidepressants. You must inform your doctor if 
+depression or Parkinson s disease) or certain antidepressants. You must inform your doctor if 
 you are taking any antidepressant medicines 
 - if you have severe kidney problems 
 - if you have too much acidity in your blood (a condition called hyperchloraemic acidosis) 
 - in babies and infants aged less than 2 years. </p>
 <p>Warnings and precautions 
 Talk to your doctor, optometrist (optician) or pharmacist before using SIMBRINZA if you have now 
-or have had in the past: 
-- liver problems 
-- a type of high pressure in the eyes called narrow-angle glaucoma 
-- dry eyes or cornea problems 
-- coronary heart disease (symptoms can include chest pain or tightness, breathlessness or 
-choking), heart failure, high or low blood pressure 
-- depression 
-- disturbed or poor blood circulation (such as Raynaud’s disease, Raynaud’s syndrome or cerebral 
-insufficiency). 
-- if you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores after 
-using SIMBRINZA or other related medicines. </p>
+or have had in the past:</p>
+<ul>
+<li>liver problems </li>
+<li>a type of high pressure in the eyes called narrow-angle glaucoma </li>
+<li>dry eyes or cornea problems </li>
+<li>coronary heart disease (symptoms can include chest pain or tightness, breathlessness or 
+choking), heart failure, high or low blood pressure </li>
+<li>depression </li>
+<li>disturbed or poor blood circulation (such as Raynaud s disease, Raynaud s syndrome or cerebral 
+insufficiency). </li>
+<li>if you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores after 
+using SIMBRINZA or other related medicines. </li>
+</ul>
 <p>Take special care with SIMBRINZA: 
 Serious skin reactions including Stevens-Johnson syndrome and toxic epidermal necrolysis have been 
 reported in association with brinzolamide treatment. Stop using SIMBRINZA and seek medical 
 attention immediately if you notice any of the symptoms related to these serious skin reactions 
-described in section 4.<br />
-If you wear soft contact lenses, do not use the drops with your lenses in. See section “Wearing contact 
-lenses - SIMBRINZA contains benzalkonium chloride” below). </p>
+described in section </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take simbrinza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take simbrinza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you wear soft contact lenses, do not use the drops with your lenses in. See section  Wearing contact 
+lenses - SIMBRINZA contains benzalkonium chloride  below). </p>
 <p>Children and adolescents 
 SIMBRINZA is not intended for use by children and adolescents aged below 18 years because it has 
 not been studied in this age group. It is particularly important that the medicine is not used in children 
-under the age of 2 years (see section ‘Do not use SIMBRINZA’ above) because it is unlikely to be 
+under the age of 2 years (see section  Do not use SIMBRINZA  above) because it is unlikely to be 
 safe. </p>
 <p>Other medicines and SIMBRINZA 
 Tell your doctor, optometrist (optician) or pharmacist if you are using, have recently used, or might 
 use any other medicines. </p>
 <p>SIMBRINZA can affect or be affected by other medicines you are using, including other eye drops for 
 the treatment of glaucoma. </p>
-<p>Tell your doctor if you are taking or intend to take any of the following medicines: 
-- medicines to lower blood pressure 
-- heart medicines including digoxin (used to treat heart conditions) 
-- other medicines for glaucoma that also treat altitude sickness known as acetazolamide, 
-methazolamide and dorzolamide 
-- medicines that can affect the metabolism, such as chlorpromazine, methylphenidate and 
-reserpine 
-- antiviral, antiretroviral (used to treat Human Immunodeficiency Virus (HIV)) or antibiotic 
-medicines 
-- antiyeast or antifungal medicines 
-- monoamine oxidase (MAO) inhibitors, or antidepressants including amitriptyline, nortriptyline, 
-clomipramine, mianserin, venlafaxine and duloxetine 
-- anaesthetics 
-- sedatives, opiates, or barbiturates </p>
+<p>Tell your doctor if you are taking or intend to take any of the following medicines:</p>
+<ul>
+<li>medicines to lower blood pressure </li>
+<li>heart medicines including digoxin (used to treat heart conditions) </li>
+<li>other medicines for glaucoma that also treat altitude sickness known as acetazolamide, 
+methazolamide and dorzolamide </li>
+<li>medicines that can affect the metabolism, such as chlorpromazine, methylphenidate and 
+reserpine </li>
+<li>antiviral, antiretroviral (used to treat Human Immunodeficiency Virus (HIV)) or antibiotic 
+medicines </li>
+<li>antiyeast or antifungal medicines </li>
+<li>monoamine oxidase (MAO) inhibitors, or antidepressants including amitriptyline, nortriptyline, 
+clomipramine, mianserin, venlafaxine and duloxetine </li>
+<li>anaesthetics </li>
+<li>sedatives, opiates, or barbiturates </li>
+</ul>
 <p>You should also tell your doctor if the dose of any of your current medicines is changed. </p>
 <p>SIMBRINZA with alcohol 
 If you regularly consume alcohol, ask your doctor, optometrist (optician) or pharmacist for advice 
@@ -156,14 +166,9 @@ You may find that your vision is blurred or abnormal for a time just after using
 SIMBRINZA may also cause dizziness, drowsiness or tiredness in some patients. </p>
 <p>Do not drive or use machines until the symptoms are cleared. </p>
 <p>Wearing contact lenses - SIMBRINZA contains benzalkonium chloride </p>
-<p>This medicine contains 0.15 mg benzalkonium chloride in each 5 ml, which is equivalent to </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take simbrinza"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take simbrinza"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Benzalkonium chloride may be absorbed by soft contact lenses and may change the colour of the 
+<p>This medicine contains 0.15 mg benzalkonium chloride in each 5 ml, which is equivalent to 
+0.03 mg/ml. </p>
+<p>Benzalkonium chloride may be absorbed by soft contact lenses and may change the colour of the 
 contact lenses. You should remove contact lenses before using this medicine and put them back 
 15 minutes afterwards. Benzalkonium chloride may also cause eye irritation, especially if you have 
 dry eyes or a disorder of the cornea (the clear layer at the front of the eye). If you feel abnormal eye 
@@ -191,7 +196,7 @@ Do not touch the dropper with your fingers when opening or closing the bottle. I
 drops. 
 Hold the bottle, pointing down, between your thumb and fingers. 
 Tilt your head back. 
-Pull down your lower eyelid with a clean finger, until there is a ‘pocket’ between the eyelid and your 
+Pull down your lower eyelid with a clean finger, until there is a  pocket  between the eyelid and your 
 eye. The drop will go in here (picture 1). 
 Bring the bottle tip close to the eye. Do this in front of a mirror if it helps. 
 Do not touch your eye or eyelid, surrounding areas or other surfaces with the dropper. It could infect 
@@ -292,7 +297,7 @@ information on the safety of this medicine. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after “EXP”. 
+<p>Do not use this medicine after the expiry date which is stated on the bottle and the carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Throw away the bottle 4 weeks after first opening to prevent infections and use a new bottle. Write 

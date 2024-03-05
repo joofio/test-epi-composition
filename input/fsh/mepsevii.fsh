@@ -4,7 +4,7 @@ Instance: composition-en-b7b07dd0d126d4ea375a8a380bc3e7b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepsevii Package Leaflet"
 Description:  "Composition for mepsevii Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -75,15 +75,15 @@ enzyme replacement therapies. It is used in adults and children of all ages with
 neurological manifestations of the disease (mucopolysaccharidosis VII, also known as Sly Syndrome).  </p>
 <p>What is MPS VII 
 MPS VII is an illness that runs in families, where the body does not produce enough of an enzyme 
-called beta–glucuronidase. 
+called beta glucuronidase. 
 - This enzyme helps to break down sugars in the body called mucopolysaccharides. 
 - Mucopolysaccharides are made in the body and they help build bones, cartilage, skin, and 
 tendons. 
-- These sugars are re-cycled all the time – new ones are made and old ones are broken down.<br />
-- Without enough beta–glucuronidase, parts of these sugars build up in cells, leading to damage 
+- These sugars are re-cycled all the time   new ones are made and old ones are broken down.<br />
+- Without enough beta glucuronidase, parts of these sugars build up in cells, leading to damage 
 in the body. </p>
 <p>How Mepsevii works<br />
-This medicine replaces beta-glucuronidase – this helps to break down the sugars that collect in the 
+This medicine replaces beta-glucuronidase   this helps to break down the sugars that collect in the 
 tissues of people with MPS VII.<br />
 - Treatment may improve various signs and symptoms of illness, like walking difficulties and 
 tiredness. </p>
@@ -175,18 +175,20 @@ reaction (anaphylactoid reaction). The infusion will be stopped immediately and 
 corticosteroid or an antipyretic, a medicine to reduce fever. Symptoms of severe allergic reaction may 
 include shortness of breath, wheezing, difficulty breathing, and swelling of the face and tongue.  </p>
 <p>Other side effects 
-Tell your doctor straight away if you notice any of the following side effects – you may need urgent 
+Tell your doctor straight away if you notice any of the following side effects   you may need urgent 
 medical treatment: </p>
 <p>Very common side effects (may affect more than 1 in 10 people): 
 Hives (urticaria) 
 - Rash 
 - Swelling at the infusion site including leaking into the tissue around the vein (infusion site 
 swelling or infusion site extravasation) </p>
-<p>Common side effects (may affect up to 1 in 10 people): 
-- Itching of the skin (pruritus) 
-- Loose stools (diarrhoea) 
-- Fever with involuntary contractions of muscles of face or limbs (febrile convulsion) 
-- Swelling around the infusion site </p>
+<p>Common side effects (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Itching of the skin (pruritus) </li>
+<li>Loose stools (diarrhoea) </li>
+<li>Fever with involuntary contractions of muscles of face or limbs (febrile convulsion) </li>
+<li>Swelling around the infusion site </li>
+</ul>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
@@ -198,13 +200,15 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "5. How to store mepsevii"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after ‘EXP’. The expiry 
+<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
-<p>Unopened vials: 
-- Store in a refrigerator (2 °C to 8 °C). 
-- Do not freeze. 
-- Store in the original package in order to protect from light. 
-- Do not use this medicine if you notice particles. </p>
+<p>Unopened vials:</p>
+<ul>
+<li>Store in a refrigerator (2  C to 8  C). </li>
+<li>Do not freeze. </li>
+<li>Store in the original package in order to protect from light. </li>
+<li>Do not use this medicine if you notice particles. </li>
+</ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -218,8 +222,8 @@ throw away medicines you no longer use. These measures will help protect the env
 - The active substance is vestronidase alfa. Each mL of concentrate contains 2 mg vestronidase 
 alfa. Each vial of 5 mL concentrate contains 10 mg vestronidase alfa. 
 - The other ingredients are: sodium dihydrogen phosphate dihydrate, sodium chloride, histidine, 
-polysorbate 20, and water for injections (for sodium, see section 2 under “Mepsevii contains 
-sodium”). </p>
+polysorbate 20, and water for injections (for sodium, see section 2 under  Mepsevii contains 
+sodium ). </p>
 <p>What Mepsevii looks like and contents of the pack 
 Mepsevii is supplied as a concentrate for solution for infusion (sterile concentrate). The colourless to 
 slightly yellow concentrate must be free of visible particles. It is supplied in a clear glass vial with a 
@@ -243,12 +247,12 @@ Authorisation Holder: </p>
 <p>BE, BG, CZ, DK, DE, EE, IE, EL, ES, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, 
 SI, SK, FI, SE, UK(NI) 
 Ultragenyx Germany GmbH, DE 
-Tel/Tél/Teл./Tlf/Τηλ/Puh/Sími : + 49 30 20179810  </p>
+Tel/T l/Te ./Tlf/ /Puh/S mi : + 49 30 20179810  </p>
 <p>FR 
 Ultragenyx France SAS, FR 
-Tél: + 33 185 653761 ou 0800 91 79 24 (numéro vert)  </p>
+T l: + 33 185 653761 ou 0800 91 79 24 (num ro vert)  </p>
 <p>This leaflet was last revised in  </p>
-<p>This medicine has been authorised under ‘exceptional circumstances’. This means that because of the 
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease, it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
