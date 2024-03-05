@@ -4,7 +4,7 @@ Instance: composition-en-8d5db30b44b1b19f76cd82de873a34e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for entecavir Package Leaflet"
 Description:  "Composition for entecavir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

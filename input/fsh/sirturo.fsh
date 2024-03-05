@@ -4,7 +4,7 @@ Instance: composition-en-a0f24920a40b1c73ed1d880ba04e208e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sirturo Package Leaflet"
 Description:  "Composition for sirturo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

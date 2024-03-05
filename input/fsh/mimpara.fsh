@@ -4,7 +4,7 @@ Instance: composition-en-168192a0c6d5270d5bcdb3cfa6cdd926
 InstanceOf: CompositionUvEpi
 Title: "Composition for mimpara Package Leaflet"
 Description:  "Composition for mimpara Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

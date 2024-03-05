@@ -4,7 +4,7 @@ Instance: composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: CompositionUvEpi
 Title: "Composition for beromun Package Leaflet"
 Description:  "Composition for beromun Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

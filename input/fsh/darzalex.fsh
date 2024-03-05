@@ -4,7 +4,7 @@ Instance: composition-en-d365d405c4186be4b5c62f68568d4862
 InstanceOf: CompositionUvEpi
 Title: "Composition for darzalex Package Leaflet"
 Description:  "Composition for darzalex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

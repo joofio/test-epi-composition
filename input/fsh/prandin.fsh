@@ -4,7 +4,7 @@ Instance: composition-en-171cf6efa1f321eb434b5635b2f1abe1
 InstanceOf: CompositionUvEpi
 Title: "Composition for prandin Package Leaflet"
 Description:  "Composition for prandin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

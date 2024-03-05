@@ -4,7 +4,7 @@ Instance: composition-en-1f1abc0830f94db591b845bd71b79232
 InstanceOf: CompositionUvEpi
 Title: "Composition for daxas Package Leaflet"
 Description:  "Composition for daxas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

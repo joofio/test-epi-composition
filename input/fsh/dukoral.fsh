@@ -4,7 +4,7 @@ Instance: composition-en-a651c9ffaada5f4880461c8764acc607
 InstanceOf: CompositionUvEpi
 Title: "Composition for dukoral Package Leaflet"
 Description:  "Composition for dukoral Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

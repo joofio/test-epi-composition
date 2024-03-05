@@ -4,7 +4,7 @@ Instance: composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
 InstanceOf: CompositionUvEpi
 Title: "Composition for binocrit Package Leaflet"
 Description:  "Composition for binocrit Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-478b4098ffabcca87dff08bbf871c322
 InstanceOf: CompositionUvEpi
 Title: "Composition for descovy Package Leaflet"
 Description:  "Composition for descovy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

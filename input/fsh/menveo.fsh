@@ -4,7 +4,7 @@ Instance: composition-en-c082813e7ff4dad923d73dee6e29eba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for menveo Package Leaflet"
 Description:  "Composition for menveo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

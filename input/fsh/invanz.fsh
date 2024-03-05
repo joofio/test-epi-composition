@@ -4,7 +4,7 @@ Instance: composition-en-bc2ae75a6ecb98e9392c79b792d9e432
 InstanceOf: CompositionUvEpi
 Title: "Composition for invanz Package Leaflet"
 Description:  "Composition for invanz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

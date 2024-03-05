@@ -4,7 +4,7 @@ Instance: composition-en-16d693c68a441b92f0316a8bd5fd9c6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for corbilta Package Leaflet"
 Description:  "Composition for corbilta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

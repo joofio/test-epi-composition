@@ -4,7 +4,7 @@ Instance: composition-en-7a98a4feed53c51bdbb3ffa9d578b887
 InstanceOf: CompositionUvEpi
 Title: "Composition for akynzeo Package Leaflet"
 Description:  "Composition for akynzeo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

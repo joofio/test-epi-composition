@@ -4,7 +4,7 @@ Instance: composition-en-87506c1381317dc02b9296eca56d0b9b
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecartus Package Leaflet"
 Description:  "Composition for tecartus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

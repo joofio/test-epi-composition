@@ -4,7 +4,7 @@ Instance: composition-en-0884c8c34711aaaaa6729d5f920f611f
 InstanceOf: CompositionUvEpi
 Title: "Composition for veklury Package Leaflet"
 Description:  "Composition for veklury Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

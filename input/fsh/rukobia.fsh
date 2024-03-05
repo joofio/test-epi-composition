@@ -4,7 +4,7 @@ Instance: composition-en-4ebd45ede513ed024b967ea8c9e55dab
 InstanceOf: CompositionUvEpi
 Title: "Composition for rukobia Package Leaflet"
 Description:  "Composition for rukobia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

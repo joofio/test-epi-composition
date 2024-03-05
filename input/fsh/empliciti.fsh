@@ -4,7 +4,7 @@ Instance: composition-en-8d5b3af2f06c1106a48ff1e829dc96e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for empliciti Package Leaflet"
 Description:  "Composition for empliciti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

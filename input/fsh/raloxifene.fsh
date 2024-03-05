@@ -4,7 +4,7 @@ Instance: composition-en-e27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: CompositionUvEpi
 Title: "Composition for raloxifene Package Leaflet"
 Description:  "Composition for raloxifene Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

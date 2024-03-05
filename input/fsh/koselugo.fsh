@@ -4,7 +4,7 @@ Instance: composition-en-4a0e2349adfb2620b1fba9cd50d81a0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for koselugo Package Leaflet"
 Description:  "Composition for koselugo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

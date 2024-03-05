@@ -4,7 +4,7 @@ Instance: composition-en-e3c8c4151821eafa3b8558a4b1967125
 InstanceOf: CompositionUvEpi
 Title: "Composition for evista Package Leaflet"
 Description:  "Composition for evista Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

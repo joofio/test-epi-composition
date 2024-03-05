@@ -4,7 +4,7 @@ Instance: composition-en-840beeb8abda55f48f21ddfba1d52ce3
 InstanceOf: CompositionUvEpi
 Title: "Composition for orfadin Package Leaflet"
 Description:  "Composition for orfadin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

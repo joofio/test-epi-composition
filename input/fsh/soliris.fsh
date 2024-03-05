@@ -4,7 +4,7 @@ Instance: composition-en-9290357e39a2371931091ec451b2e152
 InstanceOf: CompositionUvEpi
 Title: "Composition for soliris Package Leaflet"
 Description:  "Composition for soliris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

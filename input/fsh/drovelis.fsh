@@ -4,7 +4,7 @@ Instance: composition-en-83e465306011aa98a59a237fbe1da484
 InstanceOf: CompositionUvEpi
 Title: "Composition for drovelis Package Leaflet"
 Description:  "Composition for drovelis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

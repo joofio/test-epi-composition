@@ -4,7 +4,7 @@ Instance: composition-en-db55bd922aa6d7007a8fefbeb8bc2264
 InstanceOf: CompositionUvEpi
 Title: "Composition for gavreto Package Leaflet"
 Description:  "Composition for gavreto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-25519bb07426cab26500e5ad89df90b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for yuflyma Package Leaflet"
 Description:  "Composition for yuflyma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

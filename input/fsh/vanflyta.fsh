@@ -4,7 +4,7 @@ Instance: composition-en-1ff94cd25db3b18c09de52395c558d2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for vanflyta Package Leaflet"
 Description:  "Composition for vanflyta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a15e9940fa017377fbf82f0af3d7e7f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for abseamed Package Leaflet"
 Description:  "Composition for abseamed Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

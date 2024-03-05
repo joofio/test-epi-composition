@@ -4,7 +4,7 @@ Instance: composition-en-b3a525a247bab07c652b4fb8f5f55618
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizamyl Package Leaflet"
 Description:  "Composition for vizamyl Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

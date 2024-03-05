@@ -4,7 +4,7 @@ Instance: composition-en-bbb651a1913e568b3035dea752ef36ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for ivabradine Package Leaflet"
 Description:  "Composition for ivabradine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

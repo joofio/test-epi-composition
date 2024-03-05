@@ -4,7 +4,7 @@ Instance: composition-en-bbd22ba876ae7309a2b1061a1e9bb063
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantavo Package Leaflet"
 Description:  "Composition for vantavo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

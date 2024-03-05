@@ -4,7 +4,7 @@ Instance: composition-en-e4e2fe5de212dd30e27726e0694aae72
 InstanceOf: CompositionUvEpi
 Title: "Composition for emend Package Leaflet"
 Description:  "Composition for emend Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

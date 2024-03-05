@@ -4,7 +4,7 @@ Instance: composition-en-657f9ac699d7fca9363686ee66ecbcb8
 InstanceOf: CompositionUvEpi
 Title: "Composition for zonisamide Package Leaflet"
 Description:  "Composition for zonisamide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

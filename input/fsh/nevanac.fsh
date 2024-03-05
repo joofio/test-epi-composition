@@ -4,7 +4,7 @@ Instance: composition-en-4e04d92c0b9ceaa06795f86e3a393ec2
 InstanceOf: CompositionUvEpi
 Title: "Composition for nevanac Package Leaflet"
 Description:  "Composition for nevanac Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

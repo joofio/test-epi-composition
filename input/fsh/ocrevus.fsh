@@ -4,7 +4,7 @@ Instance: composition-en-802d03413c083ad0931330a56355a879
 InstanceOf: CompositionUvEpi
 Title: "Composition for ocrevus Package Leaflet"
 Description:  "Composition for ocrevus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

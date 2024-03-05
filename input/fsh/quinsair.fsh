@@ -4,7 +4,7 @@ Instance: composition-en-8077ecb6bda7580081b9f65b63060e8a
 InstanceOf: CompositionUvEpi
 Title: "Composition for quinsair Package Leaflet"
 Description:  "Composition for quinsair Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

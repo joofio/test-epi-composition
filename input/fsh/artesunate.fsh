@@ -4,7 +4,7 @@ Instance: composition-en-e3808b9785653fa349cd23efa0847a72
 InstanceOf: CompositionUvEpi
 Title: "Composition for artesunate Package Leaflet"
 Description:  "Composition for artesunate Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

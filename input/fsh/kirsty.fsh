@@ -4,7 +4,7 @@ Instance: composition-en-e4f12a2a0c84afdde5a2007602b1e852
 InstanceOf: CompositionUvEpi
 Title: "Composition for kirsty Package Leaflet"
 Description:  "Composition for kirsty Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

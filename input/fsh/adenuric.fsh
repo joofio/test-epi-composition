@@ -4,7 +4,7 @@ Instance: composition-en-9f5779161e02fec0335dcad538341589
 InstanceOf: CompositionUvEpi
 Title: "Composition for adenuric Package Leaflet"
 Description:  "Composition for adenuric Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

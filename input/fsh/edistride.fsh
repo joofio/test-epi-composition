@@ -4,7 +4,7 @@ Instance: composition-en-0ee00d4506e3873c8f0ac45771449e6f
 InstanceOf: CompositionUvEpi
 Title: "Composition for edistride Package Leaflet"
 Description:  "Composition for edistride Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-973d3c4aecb4116e1e0ff7c6e68b3bb5
 InstanceOf: CompositionUvEpi
 Title: "Composition for movymia Package Leaflet"
 Description:  "Composition for movymia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

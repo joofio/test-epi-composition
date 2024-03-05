@@ -4,7 +4,7 @@ Instance: composition-en-d99852efa4d4976d99a584078a2ca48c
 InstanceOf: CompositionUvEpi
 Title: "Composition for karvea Package Leaflet"
 Description:  "Composition for karvea Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

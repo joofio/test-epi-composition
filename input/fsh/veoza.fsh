@@ -4,7 +4,7 @@ Instance: composition-en-28b6beabb1138dcf80cd8cb464115640
 InstanceOf: CompositionUvEpi
 Title: "Composition for veoza Package Leaflet"
 Description:  "Composition for veoza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

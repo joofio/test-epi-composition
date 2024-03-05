@@ -4,7 +4,7 @@ Instance: composition-en-25a85065b03a3ebba78fc6bd23994177
 InstanceOf: CompositionUvEpi
 Title: "Composition for giotrif Package Leaflet"
 Description:  "Composition for giotrif Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

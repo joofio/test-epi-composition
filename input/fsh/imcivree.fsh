@@ -4,7 +4,7 @@ Instance: composition-en-679477c5514d7363b207fd8b469b6b94
 InstanceOf: CompositionUvEpi
 Title: "Composition for imcivree Package Leaflet"
 Description:  "Composition for imcivree Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

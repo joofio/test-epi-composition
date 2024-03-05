@@ -4,7 +4,7 @@ Instance: composition-en-febe758b815af2dff26af1acacd31f32
 InstanceOf: CompositionUvEpi
 Title: "Composition for xarelto Package Leaflet"
 Description:  "Composition for xarelto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

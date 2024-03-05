@@ -4,7 +4,7 @@ Instance: composition-en-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
 InstanceOf: CompositionUvEpi
 Title: "Composition for nilemdo Package Leaflet"
 Description:  "Composition for nilemdo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8a06156d853d45b0ba99d89b9f448d89
 InstanceOf: CompositionUvEpi
 Title: "Composition for visudyne Package Leaflet"
 Description:  "Composition for visudyne Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

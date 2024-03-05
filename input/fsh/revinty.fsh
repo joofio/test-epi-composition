@@ -4,7 +4,7 @@ Instance: composition-en-3da56d21dbca77ac4fb1bb4e78b231d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for revinty Package Leaflet"
 Description:  "Composition for revinty Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

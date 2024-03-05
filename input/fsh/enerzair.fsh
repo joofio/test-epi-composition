@@ -4,7 +4,7 @@ Instance: composition-en-1fb50c5ea5593a30c5ce21444dd8c032
 InstanceOf: CompositionUvEpi
 Title: "Composition for enerzair Package Leaflet"
 Description:  "Composition for enerzair Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

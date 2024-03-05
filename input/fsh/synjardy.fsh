@@ -4,7 +4,7 @@ Instance: composition-en-9f38251e073c17d25793bbd3bb27c758
 InstanceOf: CompositionUvEpi
 Title: "Composition for synjardy Package Leaflet"
 Description:  "Composition for synjardy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

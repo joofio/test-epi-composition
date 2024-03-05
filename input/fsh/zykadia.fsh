@@ -4,7 +4,7 @@ Instance: composition-en-7257cd6c13151214e1f46cfc5506ac0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for zykadia Package Leaflet"
 Description:  "Composition for zykadia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

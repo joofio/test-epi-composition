@@ -4,7 +4,7 @@ Instance: composition-en-15a73917bf3a8bd9b5488de0aa2b271d
 InstanceOf: CompositionUvEpi
 Title: "Composition for galafold Package Leaflet"
 Description:  "Composition for galafold Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

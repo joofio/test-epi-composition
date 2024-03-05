@@ -4,7 +4,7 @@ Instance: composition-en-f34ab6116c3c4c0c8f28f2de9888b61e
 InstanceOf: CompositionUvEpi
 Title: "Composition for revolade Package Leaflet"
 Description:  "Composition for revolade Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

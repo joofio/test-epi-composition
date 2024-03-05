@@ -4,7 +4,7 @@ Instance: composition-en-a2ad7d6c832ea8692cbcd9e308086f01
 InstanceOf: CompositionUvEpi
 Title: "Composition for volibris Package Leaflet"
 Description:  "Composition for volibris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

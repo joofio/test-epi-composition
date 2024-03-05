@@ -4,7 +4,7 @@ Instance: composition-en-ed180dab6ee7a8f7affa18a1651de7e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for inaqovi Package Leaflet"
 Description:  "Composition for inaqovi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

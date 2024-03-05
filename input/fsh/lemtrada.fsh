@@ -4,7 +4,7 @@ Instance: composition-en-04b40a1714f5b912888d4507d03df94b
 InstanceOf: CompositionUvEpi
 Title: "Composition for lemtrada Package Leaflet"
 Description:  "Composition for lemtrada Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

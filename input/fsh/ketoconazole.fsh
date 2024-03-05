@@ -4,7 +4,7 @@ Instance: composition-en-a28a8b9246548829f22c8b8c14ca6138
 InstanceOf: CompositionUvEpi
 Title: "Composition for ketoconazole Package Leaflet"
 Description:  "Composition for ketoconazole Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

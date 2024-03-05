@@ -4,7 +4,7 @@ Instance: composition-en-a3c1ea9abcddf2c56e0dc62a56cac1fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for neparvis Package Leaflet"
 Description:  "Composition for neparvis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

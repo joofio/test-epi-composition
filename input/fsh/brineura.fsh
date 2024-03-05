@@ -4,7 +4,7 @@ Instance: composition-en-3552692c711f8f7419edb391c717f809
 InstanceOf: CompositionUvEpi
 Title: "Composition for brineura Package Leaflet"
 Description:  "Composition for brineura Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

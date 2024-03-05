@@ -4,7 +4,7 @@ Instance: composition-en-7595bd80b37f1612e8b528f48e44afff
 InstanceOf: CompositionUvEpi
 Title: "Composition for fortacin Package Leaflet"
 Description:  "Composition for fortacin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

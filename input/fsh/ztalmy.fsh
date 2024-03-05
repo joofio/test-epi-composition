@@ -4,7 +4,7 @@ Instance: composition-en-4cea547a14718def3c540c6ab9866ad6
 InstanceOf: CompositionUvEpi
 Title: "Composition for ztalmy Package Leaflet"
 Description:  "Composition for ztalmy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

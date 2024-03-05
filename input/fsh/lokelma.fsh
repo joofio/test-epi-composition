@@ -4,7 +4,7 @@ Instance: composition-en-37704f8130504ea382184950ae8a2cfe
 InstanceOf: CompositionUvEpi
 Title: "Composition for lokelma Package Leaflet"
 Description:  "Composition for lokelma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

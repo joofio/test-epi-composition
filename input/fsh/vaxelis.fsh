@@ -4,7 +4,7 @@ Instance: composition-en-63b3f084a70182e692d011ffeb8c1337
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxelis Package Leaflet"
 Description:  "Composition for vaxelis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

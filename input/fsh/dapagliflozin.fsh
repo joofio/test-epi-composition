@@ -4,7 +4,7 @@ Instance: composition-en-47e609a7556335e73540caeda7f501b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for dapagliflozin Package Leaflet"
 Description:  "Composition for dapagliflozin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

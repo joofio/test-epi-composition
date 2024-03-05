@@ -4,7 +4,7 @@ Instance: composition-en-98160787700fadf62b9414cbc5c47ad3
 InstanceOf: CompositionUvEpi
 Title: "Composition for ventavis Package Leaflet"
 Description:  "Composition for ventavis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

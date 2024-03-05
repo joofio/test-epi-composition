@@ -4,7 +4,7 @@ Instance: composition-en-9ffd57dba3e5b324f9d193e04a56b735
 InstanceOf: CompositionUvEpi
 Title: "Composition for latuda Package Leaflet"
 Description:  "Composition for latuda Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

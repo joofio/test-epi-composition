@@ -4,7 +4,7 @@ Instance: composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
 InstanceOf: CompositionUvEpi
 Title: "Composition for sitagliptin Package Leaflet"
 Description:  "Composition for sitagliptin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-6921fe94b12d3679a96f1d5a8683a92f
 InstanceOf: CompositionUvEpi
 Title: "Composition for voncento Package Leaflet"
 Description:  "Composition for voncento Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

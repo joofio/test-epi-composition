@@ -4,7 +4,7 @@ Instance: composition-en-3d8be59753418e73dbd90a9360e898ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for novonorm Package Leaflet"
 Description:  "Composition for novonorm Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-245a99986bb61c23af35c57856a26746
 InstanceOf: CompositionUvEpi
 Title: "Composition for ifirmasta Package Leaflet"
 Description:  "Composition for ifirmasta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

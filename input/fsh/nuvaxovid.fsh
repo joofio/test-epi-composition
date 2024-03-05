@@ -4,7 +4,7 @@ Instance: composition-en-0b2c64f281f8a04082b537d7d8030a6f
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuvaxovid Package Leaflet"
 Description:  "Composition for nuvaxovid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

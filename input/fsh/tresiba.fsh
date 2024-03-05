@@ -4,7 +4,7 @@ Instance: composition-en-fab5fa92013ddb0c611232569286ddbb
 InstanceOf: CompositionUvEpi
 Title: "Composition for tresiba Package Leaflet"
 Description:  "Composition for tresiba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

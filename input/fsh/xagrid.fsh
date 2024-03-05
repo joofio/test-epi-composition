@@ -4,7 +4,7 @@ Instance: composition-en-872cd13279fdc0dc1dd808e9546511e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for xagrid Package Leaflet"
 Description:  "Composition for xagrid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

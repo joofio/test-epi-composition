@@ -4,7 +4,7 @@ Instance: composition-en-50f1fa15a96611d970a85e2ab4dc571d
 InstanceOf: CompositionUvEpi
 Title: "Composition for sondelbay Package Leaflet"
 Description:  "Composition for sondelbay Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

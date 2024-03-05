@@ -4,7 +4,7 @@ Instance: composition-en-795a948b51ababd9aac8a7f4e39608a5
 InstanceOf: CompositionUvEpi
 Title: "Composition for phelinun Package Leaflet"
 Description:  "Composition for phelinun Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a52ec7613e4d995340e57022d20be3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for rizmoic Package Leaflet"
 Description:  "Composition for rizmoic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

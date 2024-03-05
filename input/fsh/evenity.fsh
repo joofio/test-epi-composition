@@ -4,7 +4,7 @@ Instance: composition-en-57cff102c4a138734d137a31aea3135d
 InstanceOf: CompositionUvEpi
 Title: "Composition for evenity Package Leaflet"
 Description:  "Composition for evenity Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

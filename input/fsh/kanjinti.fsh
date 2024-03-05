@@ -4,7 +4,7 @@ Instance: composition-en-d9a2d4a9aed73e1deb35a60f1ae8a7b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for kanjinti Package Leaflet"
 Description:  "Composition for kanjinti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

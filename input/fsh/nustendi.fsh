@@ -4,7 +4,7 @@ Instance: composition-en-f38fd388d9d557d533fdef41848d682d
 InstanceOf: CompositionUvEpi
 Title: "Composition for nustendi Package Leaflet"
 Description:  "Composition for nustendi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

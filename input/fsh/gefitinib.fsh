@@ -4,7 +4,7 @@ Instance: composition-en-553de2aa690a5750d1825c26ecd3f9ed
 InstanceOf: CompositionUvEpi
 Title: "Composition for gefitinib Package Leaflet"
 Description:  "Composition for gefitinib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-af5a6458bf787a6cbcce31dd9f99f24f
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexviadyme Package Leaflet"
 Description:  "Composition for nexviadyme Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

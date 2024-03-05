@@ -4,7 +4,7 @@ Instance: composition-en-f8e8c83bf775a0a91c665d5fc646c400
 InstanceOf: CompositionUvEpi
 Title: "Composition for mircera Package Leaflet"
 Description:  "Composition for mircera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

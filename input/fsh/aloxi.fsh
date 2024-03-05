@@ -4,7 +4,7 @@ Instance: composition-en-e32583165e64f7b46ac4a8e9d8029de8
 InstanceOf: CompositionUvEpi
 Title: "Composition for aloxi Package Leaflet"
 Description:  "Composition for aloxi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

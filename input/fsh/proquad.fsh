@@ -4,7 +4,7 @@ Instance: composition-en-188ccb87c0d4f4c736200f4cfc1c3e01
 InstanceOf: CompositionUvEpi
 Title: "Composition for proquad Package Leaflet"
 Description:  "Composition for proquad Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

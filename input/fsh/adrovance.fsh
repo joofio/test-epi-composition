@@ -4,7 +4,7 @@ Instance: composition-en-21bdef881af840c0b4e754d37782a5bd
 InstanceOf: CompositionUvEpi
 Title: "Composition for adrovance Package Leaflet"
 Description:  "Composition for adrovance Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

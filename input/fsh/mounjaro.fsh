@@ -4,7 +4,7 @@ Instance: composition-en-ef5bb2365c3e700f3696b97c07007976
 InstanceOf: CompositionUvEpi
 Title: "Composition for mounjaro Package Leaflet"
 Description:  "Composition for mounjaro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

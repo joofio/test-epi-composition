@@ -4,7 +4,7 @@ Instance: composition-en-84f7be3473056391e7ee18f2463847a8
 InstanceOf: CompositionUvEpi
 Title: "Composition for jorveza Package Leaflet"
 Description:  "Composition for jorveza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

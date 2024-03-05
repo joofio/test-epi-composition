@@ -4,7 +4,7 @@ Instance: composition-en-de065403a5793478002be710eeac097c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ritonavir Package Leaflet"
 Description:  "Composition for ritonavir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

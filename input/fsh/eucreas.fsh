@@ -4,7 +4,7 @@ Instance: composition-en-f8c170d86aa07746789b3e8977888cb6
 InstanceOf: CompositionUvEpi
 Title: "Composition for eucreas Package Leaflet"
 Description:  "Composition for eucreas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

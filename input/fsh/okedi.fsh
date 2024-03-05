@@ -4,7 +4,7 @@ Instance: composition-en-3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: CompositionUvEpi
 Title: "Composition for okedi Package Leaflet"
 Description:  "Composition for okedi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

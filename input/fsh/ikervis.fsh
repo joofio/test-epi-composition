@@ -4,7 +4,7 @@ Instance: composition-en-1f85f95883d4c92167ca0868ad5c50fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for ikervis Package Leaflet"
 Description:  "Composition for ikervis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

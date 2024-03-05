@@ -4,7 +4,7 @@ Instance: composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: CompositionUvEpi
 Title: "Composition for atriance Package Leaflet"
 Description:  "Composition for atriance Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

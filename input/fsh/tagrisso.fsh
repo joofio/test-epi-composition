@@ -4,7 +4,7 @@ Instance: composition-en-d7f220f9031e8b4b6b6e866b11abbe3a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tagrisso Package Leaflet"
 Description:  "Composition for tagrisso Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

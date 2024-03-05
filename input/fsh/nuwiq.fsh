@@ -4,7 +4,7 @@ Instance: composition-en-79541d402cce9addf4bbd477616da529
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuwiq Package Leaflet"
 Description:  "Composition for nuwiq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

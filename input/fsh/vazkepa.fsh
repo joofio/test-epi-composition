@@ -4,7 +4,7 @@ Instance: composition-en-96431077feaab94e628cf99788cf8afd
 InstanceOf: CompositionUvEpi
 Title: "Composition for vazkepa Package Leaflet"
 Description:  "Composition for vazkepa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

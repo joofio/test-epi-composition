@@ -4,7 +4,7 @@ Instance: composition-en-8662bc57cc6dd8ed253b99e206e17747
 InstanceOf: CompositionUvEpi
 Title: "Composition for retsevmo Package Leaflet"
 Description:  "Composition for retsevmo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

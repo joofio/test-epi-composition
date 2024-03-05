@@ -4,7 +4,7 @@ Instance: composition-en-3c57f0122132d30c2d609098965d1921
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebglyss Package Leaflet"
 Description:  "Composition for ebglyss Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-257716587c0bc57c8b7f0da168f8cf11
 InstanceOf: CompositionUvEpi
 Title: "Composition for sixmo Package Leaflet"
 Description:  "Composition for sixmo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

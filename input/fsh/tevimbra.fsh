@@ -4,7 +4,7 @@ Instance: composition-en-b118a8011d0099eb4bb6c4b864ba44c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tevimbra Package Leaflet"
 Description:  "Composition for tevimbra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

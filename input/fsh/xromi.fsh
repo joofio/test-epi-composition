@@ -4,7 +4,7 @@ Instance: composition-en-4ee3eaba97a2c229abd66d955627a070
 InstanceOf: CompositionUvEpi
 Title: "Composition for xromi Package Leaflet"
 Description:  "Composition for xromi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

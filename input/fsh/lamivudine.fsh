@@ -4,7 +4,7 @@ Instance: composition-en-4a35c8257aae40d46915f31518c0ea2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for lamivudine Package Leaflet"
 Description:  "Composition for lamivudine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

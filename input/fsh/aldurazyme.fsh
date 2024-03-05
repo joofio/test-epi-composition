@@ -4,7 +4,7 @@ Instance: composition-en-5ffbf24d0777fe10834621c6432afea6
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldurazyme Package Leaflet"
 Description:  "Composition for aldurazyme Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

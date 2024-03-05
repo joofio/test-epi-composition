@@ -4,7 +4,7 @@ Instance: composition-en-f5bf35ae4883076cccfcead008b65f47
 InstanceOf: CompositionUvEpi
 Title: "Composition for heplisav Package Leaflet"
 Description:  "Composition for heplisav Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

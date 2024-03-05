@@ -4,7 +4,7 @@ Instance: composition-en-eb8ec19effa25a547e158c24705b1a5c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebilfumin Package Leaflet"
 Description:  "Composition for ebilfumin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0444f6959a280d43775a9ed2e4fe52c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for ngenla Package Leaflet"
 Description:  "Composition for ngenla Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

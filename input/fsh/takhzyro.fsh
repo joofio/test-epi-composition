@@ -4,7 +4,7 @@ Instance: composition-en-ceccd6b04eae3fb20f2623f566e0af2a
 InstanceOf: CompositionUvEpi
 Title: "Composition for takhzyro Package Leaflet"
 Description:  "Composition for takhzyro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

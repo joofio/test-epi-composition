@@ -4,7 +4,7 @@ Instance: composition-en-02b234fa664dab0f39045c8374bebc79
 InstanceOf: CompositionUvEpi
 Title: "Composition for lojuxta Package Leaflet"
 Description:  "Composition for lojuxta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-622a07d3e5a04e7612a8bd99c6c58083
 InstanceOf: CompositionUvEpi
 Title: "Composition for hirobriz Package Leaflet"
 Description:  "Composition for hirobriz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8a4d23dcb809afdd72ca3100738e1a7e
 InstanceOf: CompositionUvEpi
 Title: "Composition for eklira Package Leaflet"
 Description:  "Composition for eklira Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

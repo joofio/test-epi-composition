@@ -4,7 +4,7 @@ Instance: composition-en-9c1ad55578ad6de333b716cfcc4a7d73
 InstanceOf: CompositionUvEpi
 Title: "Composition for translarna Package Leaflet"
 Description:  "Composition for translarna Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

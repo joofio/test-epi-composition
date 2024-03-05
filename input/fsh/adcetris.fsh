@@ -4,7 +4,7 @@ Instance: composition-en-b75c9cca851bae600c4e2cbce08a2816
 InstanceOf: CompositionUvEpi
 Title: "Composition for adcetris Package Leaflet"
 Description:  "Composition for adcetris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

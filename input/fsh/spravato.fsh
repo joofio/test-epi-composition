@@ -4,7 +4,7 @@ Instance: composition-en-15885cc7c5a4f088fdfc128fa6bb5034
 InstanceOf: CompositionUvEpi
 Title: "Composition for spravato Package Leaflet"
 Description:  "Composition for spravato Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

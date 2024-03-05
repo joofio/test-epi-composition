@@ -4,7 +4,7 @@ Instance: composition-en-238717ba3673c75eaeb58348d507d1fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for orencia Package Leaflet"
 Description:  "Composition for orencia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

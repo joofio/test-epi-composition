@@ -4,7 +4,7 @@ Instance: composition-en-9a837e87c0c475b218e0535edae8bbad
 InstanceOf: CompositionUvEpi
 Title: "Composition for klisyri Package Leaflet"
 Description:  "Composition for klisyri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2d6385eb002eb6ef5792777c42c3b40e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sovaldi Package Leaflet"
 Description:  "Composition for sovaldi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

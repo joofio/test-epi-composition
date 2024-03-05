@@ -4,7 +4,7 @@ Instance: composition-en-68588d80929659cac3a8c39a378eb3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for inductos Package Leaflet"
 Description:  "Composition for inductos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

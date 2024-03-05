@@ -4,7 +4,7 @@ Instance: composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for emselex Package Leaflet"
 Description:  "Composition for emselex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

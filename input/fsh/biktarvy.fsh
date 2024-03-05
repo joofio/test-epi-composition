@@ -4,7 +4,7 @@ Instance: composition-en-63b15a3bb9d18a00ecd0962bc011c765
 InstanceOf: CompositionUvEpi
 Title: "Composition for biktarvy Package Leaflet"
 Description:  "Composition for biktarvy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

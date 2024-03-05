@@ -4,7 +4,7 @@ Instance: composition-en-18491093bf4c2b130ac9eb83b74183eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for farydak Package Leaflet"
 Description:  "Composition for farydak Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

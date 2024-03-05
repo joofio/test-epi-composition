@@ -4,7 +4,7 @@ Instance: composition-en-0b50019879610f5c496f0994be72cd16
 InstanceOf: CompositionUvEpi
 Title: "Composition for prasugrel Package Leaflet"
 Description:  "Composition for prasugrel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

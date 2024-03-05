@@ -4,7 +4,7 @@ Instance: composition-en-33fea74e578b9f917fc6255f1897937f
 InstanceOf: CompositionUvEpi
 Title: "Composition for briumvi Package Leaflet"
 Description:  "Composition for briumvi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

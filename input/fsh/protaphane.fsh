@@ -4,7 +4,7 @@ Instance: composition-en-d8fe39662f5f886f20ec797e2820acf5
 InstanceOf: CompositionUvEpi
 Title: "Composition for protaphane Package Leaflet"
 Description:  "Composition for protaphane Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a170adf9726f4d3c42997e5fb725cb61
 InstanceOf: CompositionUvEpi
 Title: "Composition for sapropterin Package Leaflet"
 Description:  "Composition for sapropterin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

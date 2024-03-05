@@ -4,7 +4,7 @@ Instance: composition-en-7957aafe253d586bcd1a37e5702661ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for hetlioz Package Leaflet"
 Description:  "Composition for hetlioz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

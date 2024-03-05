@@ -4,7 +4,7 @@ Instance: composition-en-da6b4339076346d51f1c98fff12b57db
 InstanceOf: CompositionUvEpi
 Title: "Composition for afinitor Package Leaflet"
 Description:  "Composition for afinitor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

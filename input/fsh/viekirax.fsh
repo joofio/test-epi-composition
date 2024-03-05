@@ -4,7 +4,7 @@ Instance: composition-en-9fab9f40152a9abf5de2f7daf83b1bd5
 InstanceOf: CompositionUvEpi
 Title: "Composition for viekirax Package Leaflet"
 Description:  "Composition for viekirax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

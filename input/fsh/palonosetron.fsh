@@ -4,7 +4,7 @@ Instance: composition-en-1dcc174da076b834cc635ff47b615cf2
 InstanceOf: CompositionUvEpi
 Title: "Composition for palonosetron Package Leaflet"
 Description:  "Composition for palonosetron Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

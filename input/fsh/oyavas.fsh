@@ -4,7 +4,7 @@ Instance: composition-en-d022f4fb840a33cb86a67bb1564d1bed
 InstanceOf: CompositionUvEpi
 Title: "Composition for oyavas Package Leaflet"
 Description:  "Composition for oyavas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

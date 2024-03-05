@@ -4,7 +4,7 @@ Instance: composition-en-12eb4dc4416d56ac558a28bcde6ee807
 InstanceOf: CompositionUvEpi
 Title: "Composition for coaprovel Package Leaflet"
 Description:  "Composition for coaprovel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

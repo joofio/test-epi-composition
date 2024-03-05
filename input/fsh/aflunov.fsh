@@ -4,7 +4,7 @@ Instance: composition-en-533640e2b33051c3986eeb9c67d13b2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for aflunov Package Leaflet"
 Description:  "Composition for aflunov Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-abfb98258fb6ebad664e6e102308dcc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycophenolate Package Leaflet"
 Description:  "Composition for mycophenolate Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

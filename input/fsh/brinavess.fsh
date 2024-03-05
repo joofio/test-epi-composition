@@ -4,7 +4,7 @@ Instance: composition-en-d4694a613bca8c68b89018731c6d00bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for brinavess Package Leaflet"
 Description:  "Composition for brinavess Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

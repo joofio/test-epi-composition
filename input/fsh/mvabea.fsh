@@ -4,7 +4,7 @@ Instance: composition-en-c9badf491db3dae4a0c364bdfb2e49d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for mvabea Package Leaflet"
 Description:  "Composition for mvabea Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f09921a712319be762e8c3e2baca4fd9
 InstanceOf: CompositionUvEpi
 Title: "Composition for rozlytrek Package Leaflet"
 Description:  "Composition for rozlytrek Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

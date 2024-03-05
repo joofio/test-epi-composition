@@ -4,7 +4,7 @@ Instance: composition-en-57a928d33300a0b3188f379ca97280de
 InstanceOf: CompositionUvEpi
 Title: "Composition for ruconest Package Leaflet"
 Description:  "Composition for ruconest Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

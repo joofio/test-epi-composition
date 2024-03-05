@@ -4,7 +4,7 @@ Instance: composition-en-11132a32e01a148874091fa148cdfa6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for abiraterone Package Leaflet"
 Description:  "Composition for abiraterone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

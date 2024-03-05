@@ -4,7 +4,7 @@ Instance: composition-en-16b17145743fb4005511a462dcbf7da1
 InstanceOf: CompositionUvEpi
 Title: "Composition for apealea Package Leaflet"
 Description:  "Composition for apealea Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

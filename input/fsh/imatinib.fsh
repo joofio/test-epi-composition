@@ -4,7 +4,7 @@ Instance: composition-en-47a63fc97978537204b7a7371de13662
 InstanceOf: CompositionUvEpi
 Title: "Composition for imatinib Package Leaflet"
 Description:  "Composition for imatinib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

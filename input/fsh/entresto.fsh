@@ -4,7 +4,7 @@ Instance: composition-en-a75d7e9d67efdcc2afd6268e67a7d0cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for entresto Package Leaflet"
 Description:  "Composition for entresto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

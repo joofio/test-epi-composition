@@ -4,7 +4,7 @@ Instance: composition-en-e904990c0daca9f90faf79e88bc809b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for orladeyo Package Leaflet"
 Description:  "Composition for orladeyo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

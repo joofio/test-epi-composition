@@ -4,7 +4,7 @@ Instance: composition-en-a43f6802b7bc837851c3ee6d33acffd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sorafenib Package Leaflet"
 Description:  "Composition for sorafenib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

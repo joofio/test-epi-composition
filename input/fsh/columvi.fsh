@@ -4,7 +4,7 @@ Instance: composition-en-bb22e3a2d3ee768b14a39522c099f1f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for columvi Package Leaflet"
 Description:  "Composition for columvi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

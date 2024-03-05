@@ -4,7 +4,7 @@ Instance: composition-en-3e75a55b0a0d0f0feaac242115a6585e
 InstanceOf: CompositionUvEpi
 Title: "Composition for steglatro Package Leaflet"
 Description:  "Composition for steglatro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

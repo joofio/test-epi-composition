@@ -4,7 +4,7 @@ Instance: composition-en-bf55777f1fad69c8fa791ca2ceb30315
 InstanceOf: CompositionUvEpi
 Title: "Composition for tolura Package Leaflet"
 Description:  "Composition for tolura Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

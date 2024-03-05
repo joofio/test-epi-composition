@@ -4,7 +4,7 @@ Instance: composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for selincro Package Leaflet"
 Description:  "Composition for selincro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

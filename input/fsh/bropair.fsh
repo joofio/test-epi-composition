@@ -4,7 +4,7 @@ Instance: composition-en-c86344d735226a69a1900045e5d0cddb
 InstanceOf: CompositionUvEpi
 Title: "Composition for bropair Package Leaflet"
 Description:  "Composition for bropair Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

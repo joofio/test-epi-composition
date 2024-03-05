@@ -4,7 +4,7 @@ Instance: composition-en-83e919009d254ffa32b4c1748bcfba15
 InstanceOf: CompositionUvEpi
 Title: "Composition for evrenzo Package Leaflet"
 Description:  "Composition for evrenzo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

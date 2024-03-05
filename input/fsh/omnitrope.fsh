@@ -4,7 +4,7 @@ Instance: composition-en-552224bdd5379f4c4cfefcd5a85f0788
 InstanceOf: CompositionUvEpi
 Title: "Composition for omnitrope Package Leaflet"
 Description:  "Composition for omnitrope Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

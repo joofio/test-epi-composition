@@ -4,7 +4,7 @@ Instance: composition-en-baea5a2972e0f05fd505526d61aba839
 InstanceOf: CompositionUvEpi
 Title: "Composition for tepmetko Package Leaflet"
 Description:  "Composition for tepmetko Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

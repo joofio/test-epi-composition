@@ -4,7 +4,7 @@ Instance: composition-en-aba48e111641d38bbe444ad8d136e826
 InstanceOf: CompositionUvEpi
 Title: "Composition for helicobacter Package Leaflet"
 Description:  "Composition for helicobacter Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

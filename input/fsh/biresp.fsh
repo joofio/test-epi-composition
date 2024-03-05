@@ -4,7 +4,7 @@ Instance: composition-en-581794a330b2afc7f7af3badc000c4a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for biresp Package Leaflet"
 Description:  "Composition for biresp Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

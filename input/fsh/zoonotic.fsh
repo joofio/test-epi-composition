@@ -4,7 +4,7 @@ Instance: composition-en-6443c4e4c2fc1ce422169262b614f1af
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoonotic Package Leaflet"
 Description:  "Composition for zoonotic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

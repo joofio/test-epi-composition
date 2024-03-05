@@ -4,7 +4,7 @@ Instance: composition-en-0c9b965fc8d8b37db9d00845bddc1040
 InstanceOf: CompositionUvEpi
 Title: "Composition for liprolog Package Leaflet"
 Description:  "Composition for liprolog Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

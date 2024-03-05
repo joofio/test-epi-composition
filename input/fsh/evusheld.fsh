@@ -4,7 +4,7 @@ Instance: composition-en-1f675c75ae2647759e12de1b52c8e0f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for evusheld Package Leaflet"
 Description:  "Composition for evusheld Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

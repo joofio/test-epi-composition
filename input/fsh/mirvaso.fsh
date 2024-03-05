@@ -4,7 +4,7 @@ Instance: composition-en-7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: CompositionUvEpi
 Title: "Composition for mirvaso Package Leaflet"
 Description:  "Composition for mirvaso Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

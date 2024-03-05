@@ -4,7 +4,7 @@ Instance: composition-en-2be054305b85e2d13e65aa3cf1a561c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tovanor Package Leaflet"
 Description:  "Composition for tovanor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

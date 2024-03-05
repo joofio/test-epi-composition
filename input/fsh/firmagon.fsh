@@ -4,7 +4,7 @@ Instance: composition-en-7068e2b853db37b4eafef95f69aa4580
 InstanceOf: CompositionUvEpi
 Title: "Composition for firmagon Package Leaflet"
 Description:  "Composition for firmagon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

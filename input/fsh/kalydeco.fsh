@@ -4,7 +4,7 @@ Instance: composition-en-f7594bb39e512c1a930c8153ce8d7d94
 InstanceOf: CompositionUvEpi
 Title: "Composition for kalydeco Package Leaflet"
 Description:  "Composition for kalydeco Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

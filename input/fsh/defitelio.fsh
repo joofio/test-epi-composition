@@ -4,7 +4,7 @@ Instance: composition-en-2ca0df99b82dc3da3ea077d36f8da2cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for defitelio Package Leaflet"
 Description:  "Composition for defitelio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

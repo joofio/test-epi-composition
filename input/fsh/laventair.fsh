@@ -4,7 +4,7 @@ Instance: composition-en-7d204d7b4b6b9533290dd865f462d707
 InstanceOf: CompositionUvEpi
 Title: "Composition for laventair Package Leaflet"
 Description:  "Composition for laventair Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

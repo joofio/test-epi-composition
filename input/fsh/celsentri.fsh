@@ -4,7 +4,7 @@ Instance: composition-en-dca30493c6f4767af4ee8b161b941f44
 InstanceOf: CompositionUvEpi
 Title: "Composition for celsentri Package Leaflet"
 Description:  "Composition for celsentri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

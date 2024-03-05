@@ -4,7 +4,7 @@ Instance: composition-en-888f93180b4dbc4cf7451a0e821152da
 InstanceOf: CompositionUvEpi
 Title: "Composition for atectura Package Leaflet"
 Description:  "Composition for atectura Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

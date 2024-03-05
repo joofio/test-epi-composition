@@ -4,7 +4,7 @@ Instance: composition-en-e6ab59fca21849510ca6eeff1a646a0e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sustiva Package Leaflet"
 Description:  "Composition for sustiva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

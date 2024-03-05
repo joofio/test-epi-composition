@@ -4,7 +4,7 @@ Instance: composition-en-4361504119fec5762723adfabb108410
 InstanceOf: CompositionUvEpi
 Title: "Composition for obizur Package Leaflet"
 Description:  "Composition for obizur Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

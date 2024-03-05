@@ -4,7 +4,7 @@ Instance: composition-en-d8ca97550681f70b3fac03b02f9cb9be
 InstanceOf: CompositionUvEpi
 Title: "Composition for mixtard Package Leaflet"
 Description:  "Composition for mixtard Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

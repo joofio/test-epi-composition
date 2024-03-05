@@ -4,7 +4,7 @@ Instance: composition-en-d3bf47e7430f03a3543b0c027649dc7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for roteas Package Leaflet"
 Description:  "Composition for roteas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

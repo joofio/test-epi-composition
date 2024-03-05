@@ -4,7 +4,7 @@ Instance: composition-en-6b301f6c675105f98d980bf8971e8028
 InstanceOf: CompositionUvEpi
 Title: "Composition for spevigo Package Leaflet"
 Description:  "Composition for spevigo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

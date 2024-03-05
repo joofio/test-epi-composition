@@ -4,7 +4,7 @@ Instance: composition-en-63e581259f99b3ad3581a50239777ba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for cholib Package Leaflet"
 Description:  "Composition for cholib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

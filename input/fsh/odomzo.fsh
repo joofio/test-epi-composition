@@ -4,7 +4,7 @@ Instance: composition-en-0349e0c03941d2ede34c30a30310b99b
 InstanceOf: CompositionUvEpi
 Title: "Composition for odomzo Package Leaflet"
 Description:  "Composition for odomzo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

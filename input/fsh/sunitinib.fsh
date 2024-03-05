@@ -4,7 +4,7 @@ Instance: composition-en-68233cef8a2150549da332e078e2cbf5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunitinib Package Leaflet"
 Description:  "Composition for sunitinib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

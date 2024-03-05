@@ -4,7 +4,7 @@ Instance: composition-en-684a35c27d00abaf233bd95a3f24554a
 InstanceOf: CompositionUvEpi
 Title: "Composition for zepatier Package Leaflet"
 Description:  "Composition for zepatier Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

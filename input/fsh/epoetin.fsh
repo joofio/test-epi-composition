@@ -4,7 +4,7 @@ Instance: composition-en-88ac51135926fe5f02906273e51ddf2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for epoetin Package Leaflet"
 Description:  "Composition for epoetin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

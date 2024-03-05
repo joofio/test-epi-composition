@@ -4,7 +4,7 @@ Instance: composition-en-08cf6fb4c3e579390e3141196404b03b
 InstanceOf: CompositionUvEpi
 Title: "Composition for quadramet Package Leaflet"
 Description:  "Composition for quadramet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

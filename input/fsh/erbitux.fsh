@@ -4,7 +4,7 @@ Instance: composition-en-d84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for erbitux Package Leaflet"
 Description:  "Composition for erbitux Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

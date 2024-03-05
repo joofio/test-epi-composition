@@ -4,7 +4,7 @@ Instance: composition-en-a2aa072350b7f0283a86de62e6b164d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantobra Package Leaflet"
 Description:  "Composition for vantobra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

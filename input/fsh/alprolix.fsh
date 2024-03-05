@@ -4,7 +4,7 @@ Instance: composition-en-96e3a078093b1cdfc599d6c2d6322437
 InstanceOf: CompositionUvEpi
 Title: "Composition for alprolix Package Leaflet"
 Description:  "Composition for alprolix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

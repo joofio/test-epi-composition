@@ -4,7 +4,7 @@ Instance: composition-en-12c8a969675c3f7a6a3764899fb6a5f5
 InstanceOf: CompositionUvEpi
 Title: "Composition for rotarix Package Leaflet"
 Description:  "Composition for rotarix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

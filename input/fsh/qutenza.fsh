@@ -4,7 +4,7 @@ Instance: composition-en-d8316d32320ec41a5ee7a0d849b593ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for qutenza Package Leaflet"
 Description:  "Composition for qutenza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

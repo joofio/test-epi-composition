@@ -4,7 +4,7 @@ Instance: composition-en-ce87b0e5c83bb784188a7a43affec906
 InstanceOf: CompositionUvEpi
 Title: "Composition for pradaxa Package Leaflet"
 Description:  "Composition for pradaxa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

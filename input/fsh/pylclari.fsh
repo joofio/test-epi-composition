@@ -4,7 +4,7 @@ Instance: composition-en-1474fa7dd17d4b7e96caf3757057ff65
 InstanceOf: CompositionUvEpi
 Title: "Composition for pylclari Package Leaflet"
 Description:  "Composition for pylclari Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-eaeff7283270f9b7e51abc26d498e673
 InstanceOf: CompositionUvEpi
 Title: "Composition for nulibry Package Leaflet"
 Description:  "Composition for nulibry Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

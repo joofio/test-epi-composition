@@ -4,7 +4,7 @@ Instance: composition-en-c45ce23b80b7516d2d6bde1b18d3b181
 InstanceOf: CompositionUvEpi
 Title: "Composition for benefix Package Leaflet"
 Description:  "Composition for benefix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

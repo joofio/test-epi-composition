@@ -4,7 +4,7 @@ Instance: composition-en-23bb5acd65ff17ef75a4158a12199fd2
 InstanceOf: CompositionUvEpi
 Title: "Composition for noxafil Package Leaflet"
 Description:  "Composition for noxafil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

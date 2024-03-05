@@ -4,7 +4,7 @@ Instance: composition-en-1938b3b2db3127440139b7029093a2b8
 InstanceOf: CompositionUvEpi
 Title: "Composition for myalepta Package Leaflet"
 Description:  "Composition for myalepta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

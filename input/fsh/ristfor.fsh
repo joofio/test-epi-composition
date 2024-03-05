@@ -4,7 +4,7 @@ Instance: composition-en-05a69c6884eb9ed145a2b3e550aec1c7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ristfor Package Leaflet"
 Description:  "Composition for ristfor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

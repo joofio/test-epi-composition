@@ -4,7 +4,7 @@ Instance: composition-en-d96fa44827f5ab161c32cbffe0ee34b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for camcevi Package Leaflet"
 Description:  "Composition for camcevi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

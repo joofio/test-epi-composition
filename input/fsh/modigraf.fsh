@@ -4,7 +4,7 @@ Instance: composition-en-f4157e79e09e92e0d9cf70a720caf0e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for modigraf Package Leaflet"
 Description:  "Composition for modigraf Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

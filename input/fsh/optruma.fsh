@@ -4,7 +4,7 @@ Instance: composition-en-3fb39d4138ab0b1b436f7dc265a1c128
 InstanceOf: CompositionUvEpi
 Title: "Composition for optruma Package Leaflet"
 Description:  "Composition for optruma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

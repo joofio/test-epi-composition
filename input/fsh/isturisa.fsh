@@ -4,7 +4,7 @@ Instance: composition-en-13bb467fc3daebcc72e614a634466540
 InstanceOf: CompositionUvEpi
 Title: "Composition for isturisa Package Leaflet"
 Description:  "Composition for isturisa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

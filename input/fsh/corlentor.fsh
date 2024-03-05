@@ -4,7 +4,7 @@ Instance: composition-en-efd5322cfb4c4cd93acfd97776160afe
 InstanceOf: CompositionUvEpi
 Title: "Composition for corlentor Package Leaflet"
 Description:  "Composition for corlentor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

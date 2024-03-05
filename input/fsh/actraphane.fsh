@@ -4,7 +4,7 @@ Instance: composition-en-6083cc71113edb8591d330c3acd904d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for actraphane Package Leaflet"
 Description:  "Composition for actraphane Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

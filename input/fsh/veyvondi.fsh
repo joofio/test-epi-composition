@@ -4,7 +4,7 @@ Instance: composition-en-a911acdcc16d3ea6bdce7272ad3df51a
 InstanceOf: CompositionUvEpi
 Title: "Composition for veyvondi Package Leaflet"
 Description:  "Composition for veyvondi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

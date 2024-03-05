@@ -4,7 +4,7 @@ Instance: composition-en-240cb856767cdf385c31b86b973619ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for isentress Package Leaflet"
 Description:  "Composition for isentress Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f556f9575aa3afd9667732b8d9b41fc4
 InstanceOf: CompositionUvEpi
 Title: "Composition for striascan Package Leaflet"
 Description:  "Composition for striascan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

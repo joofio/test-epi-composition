@@ -4,7 +4,7 @@ Instance: composition-en-17b627e38a0df981119ba6697e477d47
 InstanceOf: CompositionUvEpi
 Title: "Composition for ristaben Package Leaflet"
 Description:  "Composition for ristaben Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

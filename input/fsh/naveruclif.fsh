@@ -4,7 +4,7 @@ Instance: composition-en-15a641fc1891be6ddabc72928a523139
 InstanceOf: CompositionUvEpi
 Title: "Composition for naveruclif Package Leaflet"
 Description:  "Composition for naveruclif Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

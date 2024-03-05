@@ -4,7 +4,7 @@ Instance: composition-en-41b3735a6e59fac8a0512a47fdc116bd
 InstanceOf: CompositionUvEpi
 Title: "Composition for lupkynis Package Leaflet"
 Description:  "Composition for lupkynis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

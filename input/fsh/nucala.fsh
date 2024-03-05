@@ -4,7 +4,7 @@ Instance: composition-en-701e93600aa20be1f78aef0a64b1f790
 InstanceOf: CompositionUvEpi
 Title: "Composition for nucala Package Leaflet"
 Description:  "Composition for nucala Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-7abe5e4c0a96659ff75905a068c8e8d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for imjudo Package Leaflet"
 Description:  "Composition for imjudo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

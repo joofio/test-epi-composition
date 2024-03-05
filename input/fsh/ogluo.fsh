@@ -4,7 +4,7 @@ Instance: composition-en-9f9daf83bf13eb0a61dfb2c983d49142
 InstanceOf: CompositionUvEpi
 Title: "Composition for ogluo Package Leaflet"
 Description:  "Composition for ogluo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-eb26fa1671149a9a84afe4c1bb85528a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecfidera Package Leaflet"
 Description:  "Composition for tecfidera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f2459f44725cc293d7b9c9def994f1ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for hukyndra Package Leaflet"
 Description:  "Composition for hukyndra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

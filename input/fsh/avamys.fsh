@@ -4,7 +4,7 @@ Instance: composition-en-2ca22762bd601998a0d2f8f18a04be53
 InstanceOf: CompositionUvEpi
 Title: "Composition for avamys Package Leaflet"
 Description:  "Composition for avamys Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

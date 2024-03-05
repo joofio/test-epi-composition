@@ -4,7 +4,7 @@ Instance: composition-en-61c550567cdacc51b535f7056828dfc2
 InstanceOf: CompositionUvEpi
 Title: "Composition for tremelimumab Package Leaflet"
 Description:  "Composition for tremelimumab Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-70c37efbcc66b94190d4774fa8f2fb33
 InstanceOf: CompositionUvEpi
 Title: "Composition for vegzelma Package Leaflet"
 Description:  "Composition for vegzelma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-46ce8c3bfb2b68d2cb00bd6f9c79816f
 InstanceOf: CompositionUvEpi
 Title: "Composition for hemlibra Package Leaflet"
 Description:  "Composition for hemlibra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9a16b5df102d6654330372efbbb3de36
 InstanceOf: CompositionUvEpi
 Title: "Composition for jaypirca Package Leaflet"
 Description:  "Composition for jaypirca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

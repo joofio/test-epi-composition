@@ -4,7 +4,7 @@ Instance: composition-en-1dfe892dc67968025b224d593ef39db2
 InstanceOf: CompositionUvEpi
 Title: "Composition for rhokiinsa Package Leaflet"
 Description:  "Composition for rhokiinsa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

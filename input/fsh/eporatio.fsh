@@ -4,7 +4,7 @@ Instance: composition-en-f46407e1e0462c87d0387a21507bffa2
 InstanceOf: CompositionUvEpi
 Title: "Composition for eporatio Package Leaflet"
 Description:  "Composition for eporatio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

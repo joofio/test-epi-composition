@@ -4,7 +4,7 @@ Instance: composition-en-3527ac50ad46eb1b8a7bfbd957d1971a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutetium Package Leaflet"
 Description:  "Composition for lutetium Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

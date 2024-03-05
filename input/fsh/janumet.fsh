@@ -4,7 +4,7 @@ Instance: composition-en-3a9901c7a4f190c23d6c1a900f5e59ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for janumet Package Leaflet"
 Description:  "Composition for janumet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

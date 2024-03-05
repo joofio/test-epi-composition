@@ -4,7 +4,7 @@ Instance: composition-en-241d4bc94412cf7041721319e0eaea4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rezolsta Package Leaflet"
 Description:  "Composition for rezolsta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

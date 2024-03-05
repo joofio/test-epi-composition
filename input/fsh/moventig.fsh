@@ -4,7 +4,7 @@ Instance: composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for moventig Package Leaflet"
 Description:  "Composition for moventig Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-1bb79447a2309ad6bd5c05b14a8deec5
 InstanceOf: CompositionUvEpi
 Title: "Composition for zarzio Package Leaflet"
 Description:  "Composition for zarzio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

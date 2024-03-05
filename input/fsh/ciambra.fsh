@@ -4,7 +4,7 @@ Instance: composition-en-0229c66f6a287008163b8e1f43423a91
 InstanceOf: CompositionUvEpi
 Title: "Composition for ciambra Package Leaflet"
 Description:  "Composition for ciambra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

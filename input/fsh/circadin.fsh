@@ -4,7 +4,7 @@ Instance: composition-en-9b714872ced428c978b15edf78a3a6b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for circadin Package Leaflet"
 Description:  "Composition for circadin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

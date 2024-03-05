@@ -4,7 +4,7 @@ Instance: composition-en-274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: CompositionUvEpi
 Title: "Composition for skytrofa Package Leaflet"
 Description:  "Composition for skytrofa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

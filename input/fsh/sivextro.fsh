@@ -4,7 +4,7 @@ Instance: composition-en-4c889264e6df1e0383b0ef68358c4009
 InstanceOf: CompositionUvEpi
 Title: "Composition for sivextro Package Leaflet"
 Description:  "Composition for sivextro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

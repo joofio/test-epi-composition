@@ -4,7 +4,7 @@ Instance: composition-en-03819170889474c02f91ff032bd7d943
 InstanceOf: CompositionUvEpi
 Title: "Composition for venclyxto Package Leaflet"
 Description:  "Composition for venclyxto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

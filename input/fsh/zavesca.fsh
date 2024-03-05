@@ -4,7 +4,7 @@ Instance: composition-en-94a02a9d12dc7fffcfe59cdd0b624e87
 InstanceOf: CompositionUvEpi
 Title: "Composition for zavesca Package Leaflet"
 Description:  "Composition for zavesca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

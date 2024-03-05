@@ -4,7 +4,7 @@ Instance: composition-en-3b1bfab780521579dbd0b44f84c44d4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for trevicta Package Leaflet"
 Description:  "Composition for trevicta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

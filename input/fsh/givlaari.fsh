@@ -4,7 +4,7 @@ Instance: composition-en-5e3f046139a16b84f12a9b50f2d2b2ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for givlaari Package Leaflet"
 Description:  "Composition for givlaari Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

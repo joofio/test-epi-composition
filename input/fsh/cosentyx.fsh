@@ -4,7 +4,7 @@ Instance: composition-en-61ceafb9e1df8e2286f86826be123eb9
 InstanceOf: CompositionUvEpi
 Title: "Composition for cosentyx Package Leaflet"
 Description:  "Composition for cosentyx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

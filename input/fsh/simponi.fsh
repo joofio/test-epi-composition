@@ -4,7 +4,7 @@ Instance: composition-en-d2d145b277f24456eda5f7dbaa40b7cf
 InstanceOf: CompositionUvEpi
 Title: "Composition for simponi Package Leaflet"
 Description:  "Composition for simponi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

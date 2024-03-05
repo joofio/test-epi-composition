@@ -4,7 +4,7 @@ Instance: composition-en-91532a0bac4066c0d200269dda7e0b3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vipdomet Package Leaflet"
 Description:  "Composition for vipdomet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

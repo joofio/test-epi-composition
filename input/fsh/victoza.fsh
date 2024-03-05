@@ -4,7 +4,7 @@ Instance: composition-en-141d929731a8da3daac9f9a16668bc62
 InstanceOf: CompositionUvEpi
 Title: "Composition for victoza Package Leaflet"
 Description:  "Composition for victoza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

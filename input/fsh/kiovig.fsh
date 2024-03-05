@@ -4,7 +4,7 @@ Instance: composition-en-ac1fc3c62e1c367a53d2af315f7d1723
 InstanceOf: CompositionUvEpi
 Title: "Composition for kiovig Package Leaflet"
 Description:  "Composition for kiovig Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-3259b4ec962bd839a6862c2a3f8b465b
 InstanceOf: CompositionUvEpi
 Title: "Composition for lacosamide Package Leaflet"
 Description:  "Composition for lacosamide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

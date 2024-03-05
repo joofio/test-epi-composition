@@ -4,7 +4,7 @@ Instance: composition-en-ff59b7a06a4fc6ca91db06fdf5a7d8c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for vihuma Package Leaflet"
 Description:  "Composition for vihuma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-c93f079fae06a5c704ad307341692636
 InstanceOf: CompositionUvEpi
 Title: "Composition for galvus Package Leaflet"
 Description:  "Composition for galvus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

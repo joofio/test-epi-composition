@@ -4,7 +4,7 @@ Instance: composition-en-bf180fec42e0c0b913e732d977364555
 InstanceOf: CompositionUvEpi
 Title: "Composition for nimvastid Package Leaflet"
 Description:  "Composition for nimvastid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

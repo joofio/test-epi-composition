@@ -4,7 +4,7 @@ Instance: composition-en-40f1959ef0b924c372a2c6eb95894c6a
 InstanceOf: CompositionUvEpi
 Title: "Composition for relvar Package Leaflet"
 Description:  "Composition for relvar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

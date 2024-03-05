@@ -4,7 +4,7 @@ Instance: composition-en-eb08c3555eb0d4fb795135600da399fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for targretin Package Leaflet"
 Description:  "Composition for targretin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

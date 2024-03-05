@@ -4,7 +4,7 @@ Instance: composition-en-c0fc8346370db86fff94bbff1fb34a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for nivestim Package Leaflet"
 Description:  "Composition for nivestim Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

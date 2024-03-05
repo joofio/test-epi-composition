@@ -4,7 +4,7 @@ Instance: composition-en-58c54bdf6fab9e6178694c2f025cc813
 InstanceOf: CompositionUvEpi
 Title: "Composition for stelara Package Leaflet"
 Description:  "Composition for stelara Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

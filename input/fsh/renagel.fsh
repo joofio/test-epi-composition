@@ -4,7 +4,7 @@ Instance: composition-en-a52e8d08d74bb225bb0d5cb64a7b9638
 InstanceOf: CompositionUvEpi
 Title: "Composition for renagel Package Leaflet"
 Description:  "Composition for renagel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

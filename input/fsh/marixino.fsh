@@ -4,7 +4,7 @@ Instance: composition-en-5b6e393c6403bed8aaf028ca7b1d8cd4
 InstanceOf: CompositionUvEpi
 Title: "Composition for marixino Package Leaflet"
 Description:  "Composition for marixino Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-884e29a6cd7c9a1e73fd7a991d441624
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysimba Package Leaflet"
 Description:  "Composition for mysimba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

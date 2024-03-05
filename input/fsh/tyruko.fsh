@@ -4,7 +4,7 @@ Instance: composition-en-47051919a8e9d48444ba2eb642a73065
 InstanceOf: CompositionUvEpi
 Title: "Composition for tyruko Package Leaflet"
 Description:  "Composition for tyruko Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

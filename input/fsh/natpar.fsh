@@ -4,7 +4,7 @@ Instance: composition-en-f6b0c91cf3d8d1303191f090e406eedd
 InstanceOf: CompositionUvEpi
 Title: "Composition for natpar Package Leaflet"
 Description:  "Composition for natpar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

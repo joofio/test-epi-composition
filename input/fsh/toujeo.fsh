@@ -4,7 +4,7 @@ Instance: composition-en-81e391948edc377dc6e96a332e758543
 InstanceOf: CompositionUvEpi
 Title: "Composition for toujeo Package Leaflet"
 Description:  "Composition for toujeo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

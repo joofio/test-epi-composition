@@ -4,7 +4,7 @@ Instance: composition-en-152ace144461681a6f02306435b8f1dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for urorec Package Leaflet"
 Description:  "Composition for urorec Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

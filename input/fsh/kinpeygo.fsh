@@ -4,7 +4,7 @@ Instance: composition-en-6dd92eeff0b9acf2637c14b216fa6b97
 InstanceOf: CompositionUvEpi
 Title: "Composition for kinpeygo Package Leaflet"
 Description:  "Composition for kinpeygo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

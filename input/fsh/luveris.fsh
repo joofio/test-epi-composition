@@ -4,7 +4,7 @@ Instance: composition-en-6624bca7fe55692be3ff2a3b6c3a161a
 InstanceOf: CompositionUvEpi
 Title: "Composition for luveris Package Leaflet"
 Description:  "Composition for luveris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

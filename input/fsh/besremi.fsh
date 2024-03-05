@@ -4,7 +4,7 @@ Instance: composition-en-65cdaa8e626b314e9a691e6afef8bf66
 InstanceOf: CompositionUvEpi
 Title: "Composition for besremi Package Leaflet"
 Description:  "Composition for besremi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

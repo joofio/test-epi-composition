@@ -4,7 +4,7 @@ Instance: composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: CompositionUvEpi
 Title: "Composition for hemgenix Package Leaflet"
 Description:  "Composition for hemgenix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

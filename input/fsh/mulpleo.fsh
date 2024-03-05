@@ -4,7 +4,7 @@ Instance: composition-en-ae95ec75d9c7638e000a13f3c8891532
 InstanceOf: CompositionUvEpi
 Title: "Composition for mulpleo Package Leaflet"
 Description:  "Composition for mulpleo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

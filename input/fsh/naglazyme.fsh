@@ -4,7 +4,7 @@ Instance: composition-en-bcfd259a4c339f09aa5b9e39f7a72d51
 InstanceOf: CompositionUvEpi
 Title: "Composition for naglazyme Package Leaflet"
 Description:  "Composition for naglazyme Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

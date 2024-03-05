@@ -4,7 +4,7 @@ Instance: composition-en-f820aac92043b070aeae10deaf85e116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexium Package Leaflet"
 Description:  "Composition for nexium Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

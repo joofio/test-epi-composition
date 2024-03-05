@@ -4,7 +4,7 @@ Instance: composition-en-b811ffa8d83d17ddd48f696870f998c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kauliv Package Leaflet"
 Description:  "Composition for kauliv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

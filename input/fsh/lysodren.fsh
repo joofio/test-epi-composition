@@ -4,7 +4,7 @@ Instance: composition-en-96958c1c1275e460bebf23cdf143ad79
 InstanceOf: CompositionUvEpi
 Title: "Composition for lysodren Package Leaflet"
 Description:  "Composition for lysodren Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

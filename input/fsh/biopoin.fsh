@@ -4,7 +4,7 @@ Instance: composition-en-fa81186e3e04e4ab1612e9604cd7ebca
 InstanceOf: CompositionUvEpi
 Title: "Composition for biopoin Package Leaflet"
 Description:  "Composition for biopoin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

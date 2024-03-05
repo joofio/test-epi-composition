@@ -4,7 +4,7 @@ Instance: composition-en-492a437b12024dde8d19defc1975028b
 InstanceOf: CompositionUvEpi
 Title: "Composition for xeplion Package Leaflet"
 Description:  "Composition for xeplion Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

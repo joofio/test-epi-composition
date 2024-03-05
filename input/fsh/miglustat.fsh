@@ -4,7 +4,7 @@ Instance: composition-en-e8ab7070a1e099803634040c1dcebc5b
 InstanceOf: CompositionUvEpi
 Title: "Composition for miglustat Package Leaflet"
 Description:  "Composition for miglustat Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-acef8cbcdfca211b39877dbdf094e7e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for coagadex Package Leaflet"
 Description:  "Composition for coagadex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a0179b039da107bd55842f5819aa0ee7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebixa Package Leaflet"
 Description:  "Composition for ebixa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

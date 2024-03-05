@@ -4,7 +4,7 @@ Instance: composition-en-f484a979444f206cec5fad8c011d38cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for finlee Package Leaflet"
 Description:  "Composition for finlee Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

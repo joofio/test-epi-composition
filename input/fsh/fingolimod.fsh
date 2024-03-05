@@ -4,7 +4,7 @@ Instance: composition-en-20340baf00f2c4ec417bbf6c08de7c1d
 InstanceOf: CompositionUvEpi
 Title: "Composition for fingolimod Package Leaflet"
 Description:  "Composition for fingolimod Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

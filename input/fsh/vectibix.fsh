@@ -4,7 +4,7 @@ Instance: composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vectibix Package Leaflet"
 Description:  "Composition for vectibix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

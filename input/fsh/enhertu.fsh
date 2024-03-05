@@ -4,7 +4,7 @@ Instance: composition-en-5b51c0d839da71000ee4c963dc89729f
 InstanceOf: CompositionUvEpi
 Title: "Composition for enhertu Package Leaflet"
 Description:  "Composition for enhertu Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

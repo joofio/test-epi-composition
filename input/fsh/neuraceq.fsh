@@ -4,7 +4,7 @@ Instance: composition-en-39495bfcbc804d9769861e2677b0c2f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for neuraceq Package Leaflet"
 Description:  "Composition for neuraceq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-b7b07dd0d126d4ea375a8a380bc3e7b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepsevii Package Leaflet"
 Description:  "Composition for mepsevii Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

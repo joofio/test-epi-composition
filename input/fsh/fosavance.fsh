@@ -4,7 +4,7 @@ Instance: composition-en-4bec0630ba2fe20207306bdc003daeb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for fosavance Package Leaflet"
 Description:  "Composition for fosavance Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e3e38f96bdd05d0b2e420ed431026ab9
 InstanceOf: CompositionUvEpi
 Title: "Composition for effentora Package Leaflet"
 Description:  "Composition for effentora Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

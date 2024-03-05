@@ -4,7 +4,7 @@ Instance: composition-en-eab8b33e25257b37415a6df6ca70ca04
 InstanceOf: CompositionUvEpi
 Title: "Composition for kisqali Package Leaflet"
 Description:  "Composition for kisqali Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

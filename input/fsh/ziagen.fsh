@@ -4,7 +4,7 @@ Instance: composition-en-e03871853d4da5dc011fec7c683b275d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziagen Package Leaflet"
 Description:  "Composition for ziagen Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

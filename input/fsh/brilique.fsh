@@ -4,7 +4,7 @@ Instance: composition-en-d18c775a37197bebb71a8fd2758408f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for brilique Package Leaflet"
 Description:  "Composition for brilique Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

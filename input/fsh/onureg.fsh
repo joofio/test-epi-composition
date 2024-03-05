@@ -4,7 +4,7 @@ Instance: composition-en-6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: CompositionUvEpi
 Title: "Composition for onureg Package Leaflet"
 Description:  "Composition for onureg Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e7ba6957dcf929fb2c43dcd1b448488d
 InstanceOf: CompositionUvEpi
 Title: "Composition for siklos Package Leaflet"
 Description:  "Composition for siklos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

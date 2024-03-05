@@ -4,7 +4,7 @@ Instance: composition-en-b455bf5933866192c268e98801b21195
 InstanceOf: CompositionUvEpi
 Title: "Composition for lamzede Package Leaflet"
 Description:  "Composition for lamzede Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

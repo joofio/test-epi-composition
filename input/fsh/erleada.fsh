@@ -4,7 +4,7 @@ Instance: composition-en-d9dc9ab79b2a856f92a3151fb8d4fca9
 InstanceOf: CompositionUvEpi
 Title: "Composition for erleada Package Leaflet"
 Description:  "Composition for erleada Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

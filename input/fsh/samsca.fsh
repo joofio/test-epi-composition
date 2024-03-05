@@ -4,7 +4,7 @@ Instance: composition-en-20187f2efcc8af1ff62d82a63aba8a40
 InstanceOf: CompositionUvEpi
 Title: "Composition for samsca Package Leaflet"
 Description:  "Composition for samsca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

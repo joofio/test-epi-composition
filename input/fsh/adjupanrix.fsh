@@ -4,7 +4,7 @@ Instance: composition-en-21182c5873285a39663676519ff4bbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for adjupanrix Package Leaflet"
 Description:  "Composition for adjupanrix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

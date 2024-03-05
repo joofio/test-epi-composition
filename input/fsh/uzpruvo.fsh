@@ -4,7 +4,7 @@ Instance: composition-en-d78597bd4a8ec02c40a4fe805d40f1ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for uzpruvo Package Leaflet"
 Description:  "Composition for uzpruvo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-6f21bde7c462d7396cfc7185d72d2377
 InstanceOf: CompositionUvEpi
 Title: "Composition for locametz Package Leaflet"
 Description:  "Composition for locametz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

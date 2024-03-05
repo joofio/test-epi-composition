@@ -4,7 +4,7 @@ Instance: composition-en-6326621176bd18eaa128ab504c98c814
 InstanceOf: CompositionUvEpi
 Title: "Composition for myclausen Package Leaflet"
 Description:  "Composition for myclausen Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

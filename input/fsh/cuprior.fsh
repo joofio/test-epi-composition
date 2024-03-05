@@ -4,7 +4,7 @@ Instance: composition-en-7257da0dd1f9dbf780b362b25cce238a
 InstanceOf: CompositionUvEpi
 Title: "Composition for cuprior Package Leaflet"
 Description:  "Composition for cuprior Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

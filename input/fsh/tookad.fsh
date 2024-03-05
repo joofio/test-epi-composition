@@ -4,7 +4,7 @@ Instance: composition-en-bde0c3b61490dd57757aaae0512c2726
 InstanceOf: CompositionUvEpi
 Title: "Composition for tookad Package Leaflet"
 Description:  "Composition for tookad Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

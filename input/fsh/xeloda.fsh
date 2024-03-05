@@ -4,7 +4,7 @@ Instance: composition-en-2fe2164c1e264a15d1f750f56ec0a0e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for xeloda Package Leaflet"
 Description:  "Composition for xeloda Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

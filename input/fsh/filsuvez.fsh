@@ -4,7 +4,7 @@ Instance: composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
 InstanceOf: CompositionUvEpi
 Title: "Composition for filsuvez Package Leaflet"
 Description:  "Composition for filsuvez Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

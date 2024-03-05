@@ -4,7 +4,7 @@ Instance: composition-en-d9aba320cfebb03d3884f4f123efa02d
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunlenca Package Leaflet"
 Description:  "Composition for sunlenca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

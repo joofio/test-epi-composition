@@ -4,7 +4,7 @@ Instance: composition-en-cfd694ab9fea1a901bb7d3272079545a
 InstanceOf: CompositionUvEpi
 Title: "Composition for zubsolv Package Leaflet"
 Description:  "Composition for zubsolv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

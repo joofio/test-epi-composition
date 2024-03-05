@@ -4,7 +4,7 @@ Instance: composition-en-bd22c6cb08ec26dbc8a674d031b87df0
 InstanceOf: CompositionUvEpi
 Title: "Composition for exjade Package Leaflet"
 Description:  "Composition for exjade Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

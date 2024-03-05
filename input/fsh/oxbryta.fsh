@@ -4,7 +4,7 @@ Instance: composition-en-7bc78483a72818d156f4ad97517abe5a
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxbryta Package Leaflet"
 Description:  "Composition for oxbryta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

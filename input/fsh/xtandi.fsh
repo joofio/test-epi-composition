@@ -4,7 +4,7 @@ Instance: composition-en-0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for xtandi Package Leaflet"
 Description:  "Composition for xtandi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

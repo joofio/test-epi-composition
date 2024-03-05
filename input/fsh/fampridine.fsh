@@ -4,7 +4,7 @@ Instance: composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampridine Package Leaflet"
 Description:  "Composition for fampridine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

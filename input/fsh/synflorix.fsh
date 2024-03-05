@@ -4,7 +4,7 @@ Instance: composition-en-37418440f4ca23d5d0b03ff171fcb145
 InstanceOf: CompositionUvEpi
 Title: "Composition for synflorix Package Leaflet"
 Description:  "Composition for synflorix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

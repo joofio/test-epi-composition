@@ -4,7 +4,7 @@ Instance: composition-en-744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: CompositionUvEpi
 Title: "Composition for grepid Package Leaflet"
 Description:  "Composition for grepid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

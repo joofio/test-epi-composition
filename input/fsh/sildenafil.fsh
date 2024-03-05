@@ -4,7 +4,7 @@ Instance: composition-en-d674db7613c7ef04137ad9c28d3399bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for sildenafil Package Leaflet"
 Description:  "Composition for sildenafil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

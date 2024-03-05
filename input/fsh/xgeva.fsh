@@ -4,7 +4,7 @@ Instance: composition-en-a3592e2026cf41a77adf37691a552586
 InstanceOf: CompositionUvEpi
 Title: "Composition for xgeva Package Leaflet"
 Description:  "Composition for xgeva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

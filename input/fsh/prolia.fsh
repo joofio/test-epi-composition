@@ -4,7 +4,7 @@ Instance: composition-en-35323b42feff1c3fa548fa35e97558e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for prolia Package Leaflet"
 Description:  "Composition for prolia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

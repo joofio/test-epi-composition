@@ -4,7 +4,7 @@ Instance: composition-en-f8c48790000bbf9d78cfcb64c3c5a1ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for xydalba Package Leaflet"
 Description:  "Composition for xydalba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

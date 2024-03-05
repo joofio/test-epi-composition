@@ -4,7 +4,7 @@ Instance: composition-en-0b227cd2a54454e66a70766913e35ba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for pegasys Package Leaflet"
 Description:  "Composition for pegasys Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

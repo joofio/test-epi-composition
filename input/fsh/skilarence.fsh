@@ -4,7 +4,7 @@ Instance: composition-en-040bd687344f34655b854f4b67248074
 InstanceOf: CompositionUvEpi
 Title: "Composition for skilarence Package Leaflet"
 Description:  "Composition for skilarence Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

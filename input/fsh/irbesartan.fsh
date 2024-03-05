@@ -4,7 +4,7 @@ Instance: composition-en-0c9e6c673a48a176c2c1114fdf6885b8
 InstanceOf: CompositionUvEpi
 Title: "Composition for irbesartan Package Leaflet"
 Description:  "Composition for irbesartan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

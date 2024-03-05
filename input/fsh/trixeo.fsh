@@ -4,7 +4,7 @@ Instance: composition-en-c320b0f7ef6b0e703d9abd8eff34bf82
 InstanceOf: CompositionUvEpi
 Title: "Composition for trixeo Package Leaflet"
 Description:  "Composition for trixeo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0f7d092ba8e4ed3275cffe67db6bbcc7
 InstanceOf: CompositionUvEpi
 Title: "Composition for recarbrio Package Leaflet"
 Description:  "Composition for recarbrio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

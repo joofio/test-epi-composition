@@ -4,7 +4,7 @@ Instance: composition-en-4235a6fbbdf6cea7a0c9802b3f2102e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for esperoct Package Leaflet"
 Description:  "Composition for esperoct Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

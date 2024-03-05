@@ -4,7 +4,7 @@ Instance: composition-en-f4a6bd0f84938c78fdaccb98fced40ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for cymbalta Package Leaflet"
 Description:  "Composition for cymbalta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

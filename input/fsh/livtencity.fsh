@@ -4,7 +4,7 @@ Instance: composition-en-2c250051417033f9ca5609b812b532b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for livtencity Package Leaflet"
 Description:  "Composition for livtencity Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

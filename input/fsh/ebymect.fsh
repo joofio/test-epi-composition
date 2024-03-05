@@ -4,7 +4,7 @@ Instance: composition-en-74d4a84c8c26d0880630461280f3d19f
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebymect Package Leaflet"
 Description:  "Composition for ebymect Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

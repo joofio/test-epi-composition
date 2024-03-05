@@ -4,7 +4,7 @@ Instance: composition-en-2a989ee2499ed7653de4b30c1670b7a3
 InstanceOf: CompositionUvEpi
 Title: "Composition for cetrotide Package Leaflet"
 Description:  "Composition for cetrotide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-ce47e28e6dc466e32ff754112a937d33
 InstanceOf: CompositionUvEpi
 Title: "Composition for ruxience Package Leaflet"
 Description:  "Composition for ruxience Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

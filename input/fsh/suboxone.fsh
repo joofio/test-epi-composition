@@ -4,7 +4,7 @@ Instance: composition-en-0e3efb626fca0ac3e088a86a6d17c310
 InstanceOf: CompositionUvEpi
 Title: "Composition for suboxone Package Leaflet"
 Description:  "Composition for suboxone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

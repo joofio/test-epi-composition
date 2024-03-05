@@ -4,7 +4,7 @@ Instance: composition-en-74e50e4505c090a88581d2832252680c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vfend Package Leaflet"
 Description:  "Composition for vfend Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

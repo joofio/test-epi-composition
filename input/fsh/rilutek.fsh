@@ -4,7 +4,7 @@ Instance: composition-en-68bcf84e560e25281fc234537e658487
 InstanceOf: CompositionUvEpi
 Title: "Composition for rilutek Package Leaflet"
 Description:  "Composition for rilutek Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

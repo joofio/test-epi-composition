@@ -4,7 +4,7 @@ Instance: composition-en-35570a7ffa4ad1ddf8a920b1728d4cd2
 InstanceOf: CompositionUvEpi
 Title: "Composition for humalog Package Leaflet"
 Description:  "Composition for humalog Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

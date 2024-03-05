@@ -4,7 +4,7 @@ Instance: composition-en-3713afe50f1010dc6d3a525f7492a818
 InstanceOf: CompositionUvEpi
 Title: "Composition for idefirix Package Leaflet"
 Description:  "Composition for idefirix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

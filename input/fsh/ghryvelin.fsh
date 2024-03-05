@@ -4,7 +4,7 @@ Instance: composition-en-c94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ghryvelin Package Leaflet"
 Description:  "Composition for ghryvelin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

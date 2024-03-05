@@ -4,7 +4,7 @@ Instance: composition-en-3441cbef7f1604451bb170e82be4a4ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for jinarc Package Leaflet"
 Description:  "Composition for jinarc Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

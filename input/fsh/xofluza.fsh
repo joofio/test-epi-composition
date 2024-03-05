@@ -4,7 +4,7 @@ Instance: composition-en-49f2652f369e152b2094223d335e67b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofluza Package Leaflet"
 Description:  "Composition for xofluza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

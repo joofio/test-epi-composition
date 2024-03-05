@@ -4,7 +4,7 @@ Instance: composition-en-dea6bb992c7a311f66506a0f31878b7e
 InstanceOf: CompositionUvEpi
 Title: "Composition for jentadueto Package Leaflet"
 Description:  "Composition for jentadueto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

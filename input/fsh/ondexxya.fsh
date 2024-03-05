@@ -4,7 +4,7 @@ Instance: composition-en-44ebb648c2633169fc2072c9adc62d64
 InstanceOf: CompositionUvEpi
 Title: "Composition for ondexxya Package Leaflet"
 Description:  "Composition for ondexxya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

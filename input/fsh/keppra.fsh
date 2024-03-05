@@ -4,7 +4,7 @@ Instance: composition-en-d21a665ebc1011132a02f9a335304090
 InstanceOf: CompositionUvEpi
 Title: "Composition for keppra Package Leaflet"
 Description:  "Composition for keppra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

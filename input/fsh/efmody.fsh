@@ -4,7 +4,7 @@ Instance: composition-en-d70366d9de20b85af1c498f11302a348
 InstanceOf: CompositionUvEpi
 Title: "Composition for efmody Package Leaflet"
 Description:  "Composition for efmody Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

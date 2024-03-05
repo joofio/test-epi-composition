@@ -4,7 +4,7 @@ Instance: composition-en-9435ec03e40e267b4ae7d35097656572
 InstanceOf: CompositionUvEpi
 Title: "Composition for holoclar Package Leaflet"
 Description:  "Composition for holoclar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

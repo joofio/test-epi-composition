@@ -4,7 +4,7 @@ Instance: composition-en-915e89a600adbc6365861bb1b0863445
 InstanceOf: CompositionUvEpi
 Title: "Composition for mayzent Package Leaflet"
 Description:  "Composition for mayzent Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

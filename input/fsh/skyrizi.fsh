@@ -4,7 +4,7 @@ Instance: composition-en-2d41c9020db6e6ef74cf6c085116c0ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for skyrizi Package Leaflet"
 Description:  "Composition for skyrizi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e89d4b98290873899b23cafcfe5a6a01
 InstanceOf: CompositionUvEpi
 Title: "Composition for revestive Package Leaflet"
 Description:  "Composition for revestive Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

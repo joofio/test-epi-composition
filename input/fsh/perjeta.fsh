@@ -4,7 +4,7 @@ Instance: composition-en-382337184d233c68afe9daf86d4e13e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for perjeta Package Leaflet"
 Description:  "Composition for perjeta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0ed39b02c95e206c8989dd94965d2705
 InstanceOf: CompositionUvEpi
 Title: "Composition for elaprase Package Leaflet"
 Description:  "Composition for elaprase Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

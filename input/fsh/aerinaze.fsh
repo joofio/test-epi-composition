@@ -4,7 +4,7 @@ Instance: composition-en-67197f446ece70b3d37301b0d5a7f6eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for aerinaze Package Leaflet"
 Description:  "Composition for aerinaze Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

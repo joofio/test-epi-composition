@@ -4,7 +4,7 @@ Instance: composition-en-35e93ff91e96bbfad7fee25117b58d56
 InstanceOf: CompositionUvEpi
 Title: "Composition for plavix Package Leaflet"
 Description:  "Composition for plavix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

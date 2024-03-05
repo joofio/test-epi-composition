@@ -4,7 +4,7 @@ Instance: composition-en-f5fcc043447c207ce2e1eb4575399a55
 InstanceOf: CompositionUvEpi
 Title: "Composition for betmiga Package Leaflet"
 Description:  "Composition for betmiga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

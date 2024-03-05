@@ -4,7 +4,7 @@ Instance: composition-en-a1ae178fa1feba2157e2ad80fb8616d6
 InstanceOf: CompositionUvEpi
 Title: "Composition for melatonin Package Leaflet"
 Description:  "Composition for melatonin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0fd623913db0595ec5994fb9494fc8e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for pixuvri Package Leaflet"
 Description:  "Composition for pixuvri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

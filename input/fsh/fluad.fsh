@@ -4,7 +4,7 @@ Instance: composition-en-2551c286e23d3921dbfab879452cee74
 InstanceOf: CompositionUvEpi
 Title: "Composition for fluad Package Leaflet"
 Description:  "Composition for fluad Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

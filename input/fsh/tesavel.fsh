@@ -4,7 +4,7 @@ Instance: composition-en-118afad7684b14db488523a58f186d8f
 InstanceOf: CompositionUvEpi
 Title: "Composition for tesavel Package Leaflet"
 Description:  "Composition for tesavel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

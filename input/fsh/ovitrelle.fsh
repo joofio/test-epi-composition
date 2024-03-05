@@ -4,7 +4,7 @@ Instance: composition-en-da4c6f018e7fdae8608352111569c24b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ovitrelle Package Leaflet"
 Description:  "Composition for ovitrelle Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

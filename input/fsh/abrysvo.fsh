@@ -4,7 +4,7 @@ Instance: composition-en-0e4b0f32f27cd3409c6b65f9b73ff49f
 InstanceOf: CompositionUvEpi
 Title: "Composition for abrysvo Package Leaflet"
 Description:  "Composition for abrysvo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

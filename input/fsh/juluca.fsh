@@ -4,7 +4,7 @@ Instance: composition-en-376a3d5a41580231865d5fa194e42499
 InstanceOf: CompositionUvEpi
 Title: "Composition for juluca Package Leaflet"
 Description:  "Composition for juluca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

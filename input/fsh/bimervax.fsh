@@ -4,7 +4,7 @@ Instance: composition-en-0b425a6e45767f61f6d3b4247eda39d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for bimervax Package Leaflet"
 Description:  "Composition for bimervax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

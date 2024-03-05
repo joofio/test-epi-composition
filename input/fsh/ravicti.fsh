@@ -4,7 +4,7 @@ Instance: composition-en-b013df664d56494814368e4714d6e40b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ravicti Package Leaflet"
 Description:  "Composition for ravicti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

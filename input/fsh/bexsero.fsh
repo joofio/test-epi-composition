@@ -4,7 +4,7 @@ Instance: composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for bexsero Package Leaflet"
 Description:  "Composition for bexsero Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-3762e897869ef821659a1e76148e806a
 InstanceOf: CompositionUvEpi
 Title: "Composition for arixtra Package Leaflet"
 Description:  "Composition for arixtra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

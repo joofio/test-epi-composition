@@ -4,7 +4,7 @@ Instance: composition-en-11f43ece9ca4cf7aa03a029895a8e969
 InstanceOf: CompositionUvEpi
 Title: "Composition for cystadane Package Leaflet"
 Description:  "Composition for cystadane Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

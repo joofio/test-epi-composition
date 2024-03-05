@@ -4,7 +4,7 @@ Instance: composition-en-b22e4f6e000233f7a0ddfe37c0cbf809
 InstanceOf: CompositionUvEpi
 Title: "Composition for pluvicto Package Leaflet"
 Description:  "Composition for pluvicto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

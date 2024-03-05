@@ -4,7 +4,7 @@ Instance: composition-en-80aeff967df19c81697de0ddc58c8845
 InstanceOf: CompositionUvEpi
 Title: "Composition for cuprymina Package Leaflet"
 Description:  "Composition for cuprymina Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

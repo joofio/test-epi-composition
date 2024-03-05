@@ -4,7 +4,7 @@ Instance: composition-en-e58616440ae4dbe3d75414bff85541e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tygacil Package Leaflet"
 Description:  "Composition for tygacil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

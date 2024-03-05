@@ -4,7 +4,7 @@ Instance: composition-en-0c5e12e3bf77e98e54b67519ddda8471
 InstanceOf: CompositionUvEpi
 Title: "Composition for myocet Package Leaflet"
 Description:  "Composition for myocet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-c832a88299d92f8a87ef0072aef518b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for afstyla Package Leaflet"
 Description:  "Composition for afstyla Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

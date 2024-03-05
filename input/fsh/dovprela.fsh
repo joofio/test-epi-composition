@@ -4,7 +4,7 @@ Instance: composition-en-fa9d30a0cae60aa39e101b95ccee3379
 InstanceOf: CompositionUvEpi
 Title: "Composition for dovprela Package Leaflet"
 Description:  "Composition for dovprela Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

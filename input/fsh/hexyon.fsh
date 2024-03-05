@@ -4,7 +4,7 @@ Instance: composition-en-28f119e7c1f3c5870a82540620a72930
 InstanceOf: CompositionUvEpi
 Title: "Composition for hexyon Package Leaflet"
 Description:  "Composition for hexyon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

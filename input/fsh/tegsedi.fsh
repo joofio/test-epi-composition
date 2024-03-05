@@ -4,7 +4,7 @@ Instance: composition-en-bb91b33a725934383f978ba47cb95161
 InstanceOf: CompositionUvEpi
 Title: "Composition for tegsedi Package Leaflet"
 Description:  "Composition for tegsedi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

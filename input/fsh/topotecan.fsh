@@ -4,7 +4,7 @@ Instance: composition-en-c70f3196826e850a6889cb4c778ecf4a
 InstanceOf: CompositionUvEpi
 Title: "Composition for topotecan Package Leaflet"
 Description:  "Composition for topotecan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

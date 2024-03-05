@@ -4,7 +4,7 @@ Instance: composition-en-50001dc071782f4429bfdd6c8d6a2410
 InstanceOf: CompositionUvEpi
 Title: "Composition for metalyse Package Leaflet"
 Description:  "Composition for metalyse Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

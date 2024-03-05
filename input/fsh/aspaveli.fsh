@@ -4,7 +4,7 @@ Instance: composition-en-e4987c505b33cb8f74903d77ffd0fb1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for aspaveli Package Leaflet"
 Description:  "Composition for aspaveli Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

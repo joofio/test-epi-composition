@@ -4,7 +4,7 @@ Instance: composition-en-975c71538de6c7ace8f1a35ed29b064a
 InstanceOf: CompositionUvEpi
 Title: "Composition for atazanavir Package Leaflet"
 Description:  "Composition for atazanavir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

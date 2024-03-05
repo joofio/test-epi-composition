@@ -4,7 +4,7 @@ Instance: composition-en-7829b4b361ffed64965739b1e7cc1436
 InstanceOf: CompositionUvEpi
 Title: "Composition for pioglitazone Package Leaflet"
 Description:  "Composition for pioglitazone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

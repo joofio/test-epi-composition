@@ -4,7 +4,7 @@ Instance: composition-en-d4f93e1067cc6b6405636501aeff5a7c
 InstanceOf: CompositionUvEpi
 Title: "Composition for cayston Package Leaflet"
 Description:  "Composition for cayston Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

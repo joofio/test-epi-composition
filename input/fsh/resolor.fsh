@@ -4,7 +4,7 @@ Instance: composition-en-ff7e41e620a058f62e199d7b81a017a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for resolor Package Leaflet"
 Description:  "Composition for resolor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

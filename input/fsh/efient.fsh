@@ -4,7 +4,7 @@ Instance: composition-en-2776bfb7e1f074708f890100ca32d64b
 InstanceOf: CompositionUvEpi
 Title: "Composition for efient Package Leaflet"
 Description:  "Composition for efient Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

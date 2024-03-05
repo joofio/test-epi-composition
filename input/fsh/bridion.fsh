@@ -4,7 +4,7 @@ Instance: composition-en-36510bf45b0e72d68ab742851da42239
 InstanceOf: CompositionUvEpi
 Title: "Composition for bridion Package Leaflet"
 Description:  "Composition for bridion Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

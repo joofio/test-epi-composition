@@ -4,7 +4,7 @@ Instance: composition-en-0038e5833697485dc38d33d1305d9883
 InstanceOf: CompositionUvEpi
 Title: "Composition for clopidogrelacetylsalicylic Package Leaflet"
 Description:  "Composition for clopidogrelacetylsalicylic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

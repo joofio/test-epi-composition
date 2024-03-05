@@ -4,7 +4,7 @@ Instance: composition-en-b74140ab033fc1249f12696486a5f0cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for rybelsus Package Leaflet"
 Description:  "Composition for rybelsus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

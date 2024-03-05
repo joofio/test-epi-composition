@@ -4,7 +4,7 @@ Instance: composition-en-2a9a5e18ea12db555fa903817024b9fe
 InstanceOf: CompositionUvEpi
 Title: "Composition for mirapexin Package Leaflet"
 Description:  "Composition for mirapexin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

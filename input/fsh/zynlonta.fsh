@@ -4,7 +4,7 @@ Instance: composition-en-4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zynlonta Package Leaflet"
 Description:  "Composition for zynlonta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

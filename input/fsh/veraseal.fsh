@@ -4,7 +4,7 @@ Instance: composition-en-41399424be0ac355c8e0aa81bb4121d6
 InstanceOf: CompositionUvEpi
 Title: "Composition for veraseal Package Leaflet"
 Description:  "Composition for veraseal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

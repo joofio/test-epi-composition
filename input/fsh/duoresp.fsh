@@ -4,7 +4,7 @@ Instance: composition-en-448b9ada9b9514edd6724425bc5c528e
 InstanceOf: CompositionUvEpi
 Title: "Composition for duoresp Package Leaflet"
 Description:  "Composition for duoresp Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

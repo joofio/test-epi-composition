@@ -4,7 +4,7 @@ Instance: composition-en-0efb4276dbc7ad1d850b741a6d2cdac5
 InstanceOf: CompositionUvEpi
 Title: "Composition for tremfya Package Leaflet"
 Description:  "Composition for tremfya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

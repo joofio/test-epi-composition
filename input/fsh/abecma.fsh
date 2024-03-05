@@ -4,7 +4,7 @@ Instance: composition-en-7e98051b7b877024b322905712140ea8
 InstanceOf: CompositionUvEpi
 Title: "Composition for abecma Package Leaflet"
 Description:  "Composition for abecma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

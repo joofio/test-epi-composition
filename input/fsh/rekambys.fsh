@@ -4,7 +4,7 @@ Instance: composition-en-9af059b2ba34008a8e3668c3f552d22f
 InstanceOf: CompositionUvEpi
 Title: "Composition for rekambys Package Leaflet"
 Description:  "Composition for rekambys Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-448b528bf3d067b64074ee9859a8f881
 InstanceOf: CompositionUvEpi
 Title: "Composition for eylea Package Leaflet"
 Description:  "Composition for eylea Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a2652d1642d1c9344c422837d3b948bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for yervoy Package Leaflet"
 Description:  "Composition for yervoy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

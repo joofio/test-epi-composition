@@ -4,7 +4,7 @@ Instance: composition-en-1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: CompositionUvEpi
 Title: "Composition for ultomiris Package Leaflet"
 Description:  "Composition for ultomiris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

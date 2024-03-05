@@ -4,7 +4,7 @@ Instance: composition-en-1e58e95d51201027f560781373a2f270
 InstanceOf: CompositionUvEpi
 Title: "Composition for rebif Package Leaflet"
 Description:  "Composition for rebif Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

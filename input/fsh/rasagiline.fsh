@@ -4,7 +4,7 @@ Instance: composition-en-b0e9ca3c0296dbd9d61e291d9ccda718
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasagiline Package Leaflet"
 Description:  "Composition for rasagiline Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

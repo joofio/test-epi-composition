@@ -4,7 +4,7 @@ Instance: composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa
 InstanceOf: CompositionUvEpi
 Title: "Composition for neofordex Package Leaflet"
 Description:  "Composition for neofordex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-dc7d7a695883d4001becc8f978871435
 InstanceOf: CompositionUvEpi
 Title: "Composition for spexotras Package Leaflet"
 Description:  "Composition for spexotras Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

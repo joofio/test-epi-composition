@@ -4,7 +4,7 @@ Instance: composition-en-ba2de541591622fcd614de6be8043458
 InstanceOf: CompositionUvEpi
 Title: "Composition for taxotere Package Leaflet"
 Description:  "Composition for taxotere Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

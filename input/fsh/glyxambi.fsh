@@ -4,7 +4,7 @@ Instance: composition-en-ce5e68a096b816edf5b3a0ff2587822c
 InstanceOf: CompositionUvEpi
 Title: "Composition for glyxambi Package Leaflet"
 Description:  "Composition for glyxambi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

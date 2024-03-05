@@ -4,7 +4,7 @@ Instance: composition-en-4fad6211e26b19476a10017c27cac221
 InstanceOf: CompositionUvEpi
 Title: "Composition for sarclisa Package Leaflet"
 Description:  "Composition for sarclisa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8fdef97116c9e46e3458e3dc3216f0d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for orserdu Package Leaflet"
 Description:  "Composition for orserdu Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

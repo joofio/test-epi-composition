@@ -4,7 +4,7 @@ Instance: composition-en-b61e3b7d3b2a48a0ce57af4f9ff7b307
 InstanceOf: CompositionUvEpi
 Title: "Composition for pedmarqsi Package Leaflet"
 Description:  "Composition for pedmarqsi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

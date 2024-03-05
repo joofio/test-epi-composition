@@ -4,7 +4,7 @@ Instance: composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48
 InstanceOf: CompositionUvEpi
 Title: "Composition for sogroya Package Leaflet"
 Description:  "Composition for sogroya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

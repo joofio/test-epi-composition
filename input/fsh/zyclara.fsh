@@ -4,7 +4,7 @@ Instance: composition-en-44ab08ec2fd441510cd1e000dae630ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyclara Package Leaflet"
 Description:  "Composition for zyclara Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

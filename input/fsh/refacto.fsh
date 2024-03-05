@@ -4,7 +4,7 @@ Instance: composition-en-b5a939e3a65a4475fa9fc43aea178c36
 InstanceOf: CompositionUvEpi
 Title: "Composition for refacto Package Leaflet"
 Description:  "Composition for refacto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

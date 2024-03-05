@@ -4,7 +4,7 @@ Instance: composition-en-b1fb2a2948a2c3c9fab67f4b0e8ec1e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for mozobil Package Leaflet"
 Description:  "Composition for mozobil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

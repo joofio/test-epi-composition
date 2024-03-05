@@ -4,7 +4,7 @@ Instance: composition-en-985079625d2aba49dd068d4442f9f43b
 InstanceOf: CompositionUvEpi
 Title: "Composition for gazyvaro Package Leaflet"
 Description:  "Composition for gazyvaro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

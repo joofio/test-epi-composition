@@ -4,7 +4,7 @@ Instance: composition-en-8774c315768c11f1f8299f9a299778e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for abasaglar Package Leaflet"
 Description:  "Composition for abasaglar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-115d908e795ff40926f89a9e90717eae
 InstanceOf: CompositionUvEpi
 Title: "Composition for cervarix Package Leaflet"
 Description:  "Composition for cervarix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

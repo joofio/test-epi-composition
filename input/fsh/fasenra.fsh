@@ -4,7 +4,7 @@ Instance: composition-en-7aec1315865776793cc9c31ea9e857c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for fasenra Package Leaflet"
 Description:  "Composition for fasenra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

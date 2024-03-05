@@ -4,7 +4,7 @@ Instance: composition-en-d2fbf2f2639d83ae5727c01cf5210fc3
 InstanceOf: CompositionUvEpi
 Title: "Composition for intuniv Package Leaflet"
 Description:  "Composition for intuniv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-065d110b327b470e1ddc262836549605
 InstanceOf: CompositionUvEpi
 Title: "Composition for temomedac Package Leaflet"
 Description:  "Composition for temomedac Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

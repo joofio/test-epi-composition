@@ -4,7 +4,7 @@ Instance: composition-en-69a419ce456cf797ccfe1cc7135a3fc4
 InstanceOf: CompositionUvEpi
 Title: "Composition for betaferon Package Leaflet"
 Description:  "Composition for betaferon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

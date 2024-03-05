@@ -4,7 +4,7 @@ Instance: composition-en-5d41e6d3881ce675625375af18a0589a
 InstanceOf: CompositionUvEpi
 Title: "Composition for renvela Package Leaflet"
 Description:  "Composition for renvela Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-899927b87eee0edddf78e53b80fec139
 InstanceOf: CompositionUvEpi
 Title: "Composition for zokinvy Package Leaflet"
 Description:  "Composition for zokinvy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

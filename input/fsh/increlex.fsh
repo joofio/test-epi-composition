@@ -4,7 +4,7 @@ Instance: composition-en-56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: CompositionUvEpi
 Title: "Composition for increlex Package Leaflet"
 Description:  "Composition for increlex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-d4e93c060506fdcc083b5b1a04e82522
 InstanceOf: CompositionUvEpi
 Title: "Composition for actelsar Package Leaflet"
 Description:  "Composition for actelsar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

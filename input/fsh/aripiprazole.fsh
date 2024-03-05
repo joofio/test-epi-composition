@@ -4,7 +4,7 @@ Instance: composition-en-662d78825e427448ea8547cad3dd9ef3
 InstanceOf: CompositionUvEpi
 Title: "Composition for aripiprazole Package Leaflet"
 Description:  "Composition for aripiprazole Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-ee6aef82d41445c7c0958abae70ec0df
 InstanceOf: CompositionUvEpi
 Title: "Composition for repaglinide Package Leaflet"
 Description:  "Composition for repaglinide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

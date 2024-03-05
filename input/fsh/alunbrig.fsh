@@ -4,7 +4,7 @@ Instance: composition-en-7b67c4d38704991f22e7013a4909f813
 InstanceOf: CompositionUvEpi
 Title: "Composition for alunbrig Package Leaflet"
 Description:  "Composition for alunbrig Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

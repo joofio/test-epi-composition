@@ -4,7 +4,7 @@ Instance: composition-en-9cfa53e5a31a6544aeb83b303f96813f
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyprexa Package Leaflet"
 Description:  "Composition for zyprexa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

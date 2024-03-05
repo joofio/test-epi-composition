@@ -4,7 +4,7 @@ Instance: composition-en-f502911808bc1b6ee8b26c1badf235f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for slenyto Package Leaflet"
 Description:  "Composition for slenyto Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

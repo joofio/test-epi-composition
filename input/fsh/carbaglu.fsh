@@ -4,7 +4,7 @@ Instance: composition-en-688b37e07e24bb84319b90f5bb16c864
 InstanceOf: CompositionUvEpi
 Title: "Composition for carbaglu Package Leaflet"
 Description:  "Composition for carbaglu Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

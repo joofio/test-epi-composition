@@ -4,7 +4,7 @@ Instance: composition-en-e6ed326fcb8117af473e84eeac339bdf
 InstanceOf: CompositionUvEpi
 Title: "Composition for onbevzi Package Leaflet"
 Description:  "Composition for onbevzi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

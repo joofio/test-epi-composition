@@ -4,7 +4,7 @@ Instance: composition-en-dac9f5296bbae6c42cca031529e9fd3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for elocta Package Leaflet"
 Description:  "Composition for elocta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

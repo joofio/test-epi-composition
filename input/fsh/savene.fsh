@@ -4,7 +4,7 @@ Instance: composition-en-1b7a99349ea87fd65f6e8948ab41fbdb
 InstanceOf: CompositionUvEpi
 Title: "Composition for savene Package Leaflet"
 Description:  "Composition for savene Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-36d93771f3347f288be457a7d33515c7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ammonaps Package Leaflet"
 Description:  "Composition for ammonaps Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

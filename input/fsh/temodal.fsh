@@ -4,7 +4,7 @@ Instance: composition-en-33bcbacd960ab61b8ab697e9c9093f8c
 InstanceOf: CompositionUvEpi
 Title: "Composition for temodal Package Leaflet"
 Description:  "Composition for temodal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

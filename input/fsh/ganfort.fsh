@@ -4,7 +4,7 @@ Instance: composition-en-bc6ba54e1cccc7302e08fb18a47bcdb6
 InstanceOf: CompositionUvEpi
 Title: "Composition for ganfort Package Leaflet"
 Description:  "Composition for ganfort Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

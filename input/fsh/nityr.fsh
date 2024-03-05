@@ -4,7 +4,7 @@ Instance: composition-en-af7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for nityr Package Leaflet"
 Description:  "Composition for nityr Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

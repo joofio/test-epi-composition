@@ -4,7 +4,7 @@ Instance: composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: CompositionUvEpi
 Title: "Composition for caelyx Package Leaflet"
 Description:  "Composition for caelyx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

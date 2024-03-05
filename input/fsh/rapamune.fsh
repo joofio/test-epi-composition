@@ -4,7 +4,7 @@ Instance: composition-en-254ed8c6858caff8d17a5336a579da36
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapamune Package Leaflet"
 Description:  "Composition for rapamune Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

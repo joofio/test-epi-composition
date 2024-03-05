@@ -4,7 +4,7 @@ Instance: composition-en-6ff79951b10cf21bd6fd953fc17e7cc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumigan Package Leaflet"
 Description:  "Composition for lumigan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

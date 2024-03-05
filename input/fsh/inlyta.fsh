@@ -4,7 +4,7 @@ Instance: composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 InstanceOf: CompositionUvEpi
 Title: "Composition for inlyta Package Leaflet"
 Description:  "Composition for inlyta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

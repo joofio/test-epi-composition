@@ -4,7 +4,7 @@ Instance: composition-en-7f2ab73e6ec5569c0d6e8f4a6e01c023
 InstanceOf: CompositionUvEpi
 Title: "Composition for tasigna Package Leaflet"
 Description:  "Composition for tasigna Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

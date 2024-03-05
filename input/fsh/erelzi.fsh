@@ -4,7 +4,7 @@ Instance: composition-en-467d212176ff3f3172a5c049c6483dc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for erelzi Package Leaflet"
 Description:  "Composition for erelzi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

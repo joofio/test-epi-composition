@@ -4,7 +4,7 @@ Instance: composition-en-a8020a852a9fed523fd88e0aa8dbc86d
 InstanceOf: CompositionUvEpi
 Title: "Composition for aptivus Package Leaflet"
 Description:  "Composition for aptivus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

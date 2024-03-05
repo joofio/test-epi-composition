@@ -4,7 +4,7 @@ Instance: composition-en-cd70f62eba1153d01bd949ce98b7c6ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for filgrastim Package Leaflet"
 Description:  "Composition for filgrastim Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-79dc8b8b960a53a63fbf50f504aeec5f
 InstanceOf: CompositionUvEpi
 Title: "Composition for inhixa Package Leaflet"
 Description:  "Composition for inhixa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

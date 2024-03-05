@@ -4,7 +4,7 @@ Instance: composition-en-6eb523b7a88cd6dcee848368833cbd08
 InstanceOf: CompositionUvEpi
 Title: "Composition for dovato Package Leaflet"
 Description:  "Composition for dovato Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

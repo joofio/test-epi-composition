@@ -4,7 +4,7 @@ Instance: composition-en-a8ab0a50af543bb09893d6d85fe7a719
 InstanceOf: CompositionUvEpi
 Title: "Composition for imfinzi Package Leaflet"
 Description:  "Composition for imfinzi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

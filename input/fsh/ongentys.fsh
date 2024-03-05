@@ -4,7 +4,7 @@ Instance: composition-en-26fc1cee47caf5fc75936515be80e67b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ongentys Package Leaflet"
 Description:  "Composition for ongentys Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

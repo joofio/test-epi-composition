@@ -4,7 +4,7 @@ Instance: composition-en-de5eecf9e44a37927bab25be6edb8bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for fareston Package Leaflet"
 Description:  "Composition for fareston Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

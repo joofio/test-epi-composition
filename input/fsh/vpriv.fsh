@@ -4,7 +4,7 @@ Instance: composition-en-c8101444f2f0d633367049eeed05567a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vpriv Package Leaflet"
 Description:  "Composition for vpriv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2e5fc8a9ad9427a49a8dfdfc9d19d676
 InstanceOf: CompositionUvEpi
 Title: "Composition for posaconazole Package Leaflet"
 Description:  "Composition for posaconazole Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

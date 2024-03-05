@@ -4,7 +4,7 @@ Instance: composition-en-dc08afd9c59a04fa9fdda149a83f92c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for tractocile Package Leaflet"
 Description:  "Composition for tractocile Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

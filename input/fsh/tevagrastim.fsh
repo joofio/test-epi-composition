@@ -4,7 +4,7 @@ Instance: composition-en-37659c041a93299fdf753eeff4621a42
 InstanceOf: CompositionUvEpi
 Title: "Composition for tevagrastim Package Leaflet"
 Description:  "Composition for tevagrastim Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

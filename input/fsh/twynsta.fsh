@@ -4,7 +4,7 @@ Instance: composition-en-29c0f14d298ca5f6a2e50f72e58ec9cf
 InstanceOf: CompositionUvEpi
 Title: "Composition for twynsta Package Leaflet"
 Description:  "Composition for twynsta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9907a30e9752c1b71142c1d64ee9aa50
 InstanceOf: CompositionUvEpi
 Title: "Composition for kaftrio Package Leaflet"
 Description:  "Composition for kaftrio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

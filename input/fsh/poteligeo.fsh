@@ -4,7 +4,7 @@ Instance: composition-en-249170621fe2e34bc97c331b03b5b5b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for poteligeo Package Leaflet"
 Description:  "Composition for poteligeo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

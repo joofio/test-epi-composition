@@ -4,7 +4,7 @@ Instance: composition-en-16018c8f310d03d6a566ded2f2a2880a
 InstanceOf: CompositionUvEpi
 Title: "Composition for sugammadex Package Leaflet"
 Description:  "Composition for sugammadex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

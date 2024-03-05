@@ -4,7 +4,7 @@ Instance: composition-en-8bc140c4c39805aec0aad4cf6453fabf
 InstanceOf: CompositionUvEpi
 Title: "Composition for stimufend Package Leaflet"
 Description:  "Composition for stimufend Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

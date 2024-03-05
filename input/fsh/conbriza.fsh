@@ -4,7 +4,7 @@ Instance: composition-en-cef8236d2ba001c606577d8a44188d3e
 InstanceOf: CompositionUvEpi
 Title: "Composition for conbriza Package Leaflet"
 Description:  "Composition for conbriza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

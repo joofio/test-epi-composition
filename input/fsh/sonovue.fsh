@@ -4,7 +4,7 @@ Instance: composition-en-bc6bd17eea2126db1c55fc41b685a9e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for sonovue Package Leaflet"
 Description:  "Composition for sonovue Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

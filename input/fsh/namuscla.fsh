@@ -4,7 +4,7 @@ Instance: composition-en-396604b2a44a552f3c94ac2d7537f02d
 InstanceOf: CompositionUvEpi
 Title: "Composition for namuscla Package Leaflet"
 Description:  "Composition for namuscla Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

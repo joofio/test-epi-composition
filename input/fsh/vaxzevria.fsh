@@ -4,7 +4,7 @@ Instance: composition-en-cde7ce8acabc194cf70fa2b3b251f6cb
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxzevria Package Leaflet"
 Description:  "Composition for vaxzevria Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

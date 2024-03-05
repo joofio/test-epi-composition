@@ -4,7 +4,7 @@ Instance: composition-en-a2f0520006a5864136cdf3a6777cfd07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mekinist Package Leaflet"
 Description:  "Composition for mekinist Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

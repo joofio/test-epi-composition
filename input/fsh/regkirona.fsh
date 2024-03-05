@@ -4,7 +4,7 @@ Instance: composition-en-7c3f725d5ce5b04f0bcec4815df3bcb5
 InstanceOf: CompositionUvEpi
 Title: "Composition for regkirona Package Leaflet"
 Description:  "Composition for regkirona Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

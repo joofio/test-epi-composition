@@ -4,7 +4,7 @@ Instance: composition-en-8e4b99b58ac1302c60e1a3d75920f33f
 InstanceOf: CompositionUvEpi
 Title: "Composition for otezla Package Leaflet"
 Description:  "Composition for otezla Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

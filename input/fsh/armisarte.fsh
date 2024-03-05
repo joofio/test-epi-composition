@@ -4,7 +4,7 @@ Instance: composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
 InstanceOf: CompositionUvEpi
 Title: "Composition for armisarte Package Leaflet"
 Description:  "Composition for armisarte Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

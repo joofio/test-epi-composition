@@ -4,7 +4,7 @@ Instance: composition-en-932e6264a3aeb74aa58d141481e4d197
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyumjev Package Leaflet"
 Description:  "Composition for lyumjev Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

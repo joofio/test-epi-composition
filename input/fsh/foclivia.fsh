@@ -4,7 +4,7 @@ Instance: composition-en-81e7ff6268dfde3de233f5f0af119c35
 InstanceOf: CompositionUvEpi
 Title: "Composition for foclivia Package Leaflet"
 Description:  "Composition for foclivia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

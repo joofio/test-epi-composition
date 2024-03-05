@@ -4,7 +4,7 @@ Instance: composition-en-7504582d8c4f390424d8e4bfcd82fbae
 InstanceOf: CompositionUvEpi
 Title: "Composition for constella Package Leaflet"
 Description:  "Composition for constella Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

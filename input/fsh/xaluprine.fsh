@@ -4,7 +4,7 @@ Instance: composition-en-f55146b06bad26b63272dae234a560c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xaluprine Package Leaflet"
 Description:  "Composition for xaluprine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-1f96cd88f64662096f991c68963865d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for baraclude Package Leaflet"
 Description:  "Composition for baraclude Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

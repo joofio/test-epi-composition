@@ -4,7 +4,7 @@ Instance: composition-en-e2a8db799211e459b47eab2397a33e4f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cubicin Package Leaflet"
 Description:  "Composition for cubicin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-167401fb8187f3756835cc75cca90e3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumykras Package Leaflet"
 Description:  "Composition for lumykras Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

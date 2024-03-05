@@ -4,7 +4,7 @@ Instance: composition-en-987766e2219c5177d278b3430b3652be
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgovyx Package Leaflet"
 Description:  "Composition for orgovyx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

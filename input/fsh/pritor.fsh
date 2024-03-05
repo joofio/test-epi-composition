@@ -4,7 +4,7 @@ Instance: composition-en-ef91ef40532d0dce19c71878e7b8816b
 InstanceOf: CompositionUvEpi
 Title: "Composition for pritor Package Leaflet"
 Description:  "Composition for pritor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

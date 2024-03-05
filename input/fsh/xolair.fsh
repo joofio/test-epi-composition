@@ -4,7 +4,7 @@ Instance: composition-en-bc32605beac01612a375921fa870418a
 InstanceOf: CompositionUvEpi
 Title: "Composition for xolair Package Leaflet"
 Description:  "Composition for xolair Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 
