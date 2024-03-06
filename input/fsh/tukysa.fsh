@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
-1. What TUKYSA is and what it is used for 
-2. What you need to know before you take TUKYSA 
-3. How to take TUKYSA 
-4. Possible side effects 
-5. How to store TUKYSA 
-6. Contents of the pack and other information </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet</p>
+<ol>
+<li>What TUKYSA is and what it is used for </li>
+<li>What you need to know before you take TUKYSA </li>
+<li>How to take TUKYSA </li>
+<li>Possible side effects </li>
+<li>How to store TUKYSA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

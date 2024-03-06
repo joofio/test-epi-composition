@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
-1. What Amlodipine/Valsartan Mylan is and what it is used for<br />
-2. What you need to know before you take Amlodipine/Valsartan Mylan<br />
-3. How to take Amlodipine/Valsartan Mylan<br />
-4. Possible side effects<br />
-5. How to store Amlodipine/Valsartan Mylan<br />
-6. Contents of the pack and other information </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet</p>
+<ol>
+<li>What Amlodipine/Valsartan Mylan is and what it is used for  </li>
+<li>What you need to know before you take Amlodipine/Valsartan Mylan  </li>
+<li>How to take Amlodipine/Valsartan Mylan  </li>
+<li>Possible side effects  </li>
+<li>How to store Amlodipine/Valsartan Mylan  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

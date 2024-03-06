@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
-1. What Cyanokit is and what it is used for 
-2. What you need to know before Cyanokit is used 
-3. How Cyanokit is used 
-4. Possible side effects 
-5. How Cyanokit is stored 
-6. Contents of the pack and other information </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:</p>
+<ol>
+<li>What Cyanokit is and what it is used for </li>
+<li>What you need to know before Cyanokit is used </li>
+<li>How Cyanokit is used </li>
+<li>Possible side effects </li>
+<li>How Cyanokit is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

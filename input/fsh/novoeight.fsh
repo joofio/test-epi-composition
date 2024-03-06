@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
-1. What NovoEight is and what it is used for<br />
-2. What you need to know before you use NovoEight<br />
-3. How to use NovoEight<br />
-4. Possible side effects<br />
-5. How to store NovoEight<br />
-6. Contents of the pack and other information </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet</p>
+<ol>
+<li>What NovoEight is and what it is used for  </li>
+<li>What you need to know before you use NovoEight  </li>
+<li>How to use NovoEight  </li>
+<li>Possible side effects  </li>
+<li>How to store NovoEight  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
-1. What Adjupanrix is and what it is used for 
-2. What you need to know before you receive  Adjupanrix 
-3. How Adjupanrix is given 
-4. Possible side effects 
-5. How to store Adjupanrix 
-6. Contents of the pack and otherinformation </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:</p>
+<ol>
+<li>What Adjupanrix is and what it is used for </li>
+<li>What you need to know before you receive  Adjupanrix </li>
+<li>How Adjupanrix is given </li>
+<li>Possible side effects </li>
+<li>How to store Adjupanrix </li>
+<li>Contents of the pack and otherinformation </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

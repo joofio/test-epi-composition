@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
-1. What Caelyx pegylated liposomal is and what it is used for 
-2. What you need to know before you use Caelyx pegylated liposomal 
-3. How to use Caelyx pegylated liposomal 
-4. Possible side effects 
-5. How to store Caelyx pegylated liposomal 
-6. Contents of the pack and other information </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet</p>
+<ol>
+<li>What Caelyx pegylated liposomal is and what it is used for </li>
+<li>What you need to know before you use Caelyx pegylated liposomal </li>
+<li>How to use Caelyx pegylated liposomal </li>
+<li>Possible side effects </li>
+<li>How to store Caelyx pegylated liposomal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

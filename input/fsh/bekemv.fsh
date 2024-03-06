@@ -53,7 +53,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:</p>
 <ol>
 <li>What BEKEMV is and what it is used for </li>
 <li>What you need to know before you use BEKEMV </li>

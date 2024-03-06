@@ -53,13 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
-1. What Tremelimumab AstraZeneca is and what it is used for 
-2. What you need to know before you are given Tremelimumab AstraZeneca
-3. How you are given Tremelimumab AstraZeneca
-4. Possible side effects 
-5. How to store Tremelimumab AstraZeneca
-6. Contents of the pack and other information</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet</p>
+<ol>
+<li>What Tremelimumab AstraZeneca is and what it is used for </li>
+<li>What you need to know before you are given Tremelimumab AstraZeneca</li>
+<li>How you are given Tremelimumab AstraZeneca</li>
+<li>Possible side effects </li>
+<li>How to store Tremelimumab AstraZeneca</li>
+<li>Contents of the pack and other information</li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
